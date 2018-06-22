@@ -16,3 +16,9 @@ scm/scheme/*.bin
 scm/scheme/*.edf
 scm/scheme/*.c
 scm/scheme/*.h
+du/scheme/*.bak*
+du/scheme/*.xml
+du/scheme/*.bin
+du/scheme/*.edf
+du/scheme/*.c
+du/scheme/*.h
