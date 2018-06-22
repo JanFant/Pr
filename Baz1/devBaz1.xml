@@ -1,0 +1,9 @@
+<devices xml="Baz1ass">
+        <device name="VAS84" driver="vas84" slot="04" description="VAS84"> </device>
+        <device name="VDS321" driver="vds32" slot="05" description="VDS32"> </device>
+        <device name="VDS322" driver="vds32" slot="06" description="VDS32"> </device>
+        <device name="VDS323" driver="vds32" slot="07" description="VDS32"> </device>
+        <device name="VDS324" driver="vds32" slot="08" description="VDS32"> </device>
+        <device name="FDS16" driver="fds16" slot="0a" description="FDS16"> </device>
+        <!-- <device name="SBKFP" driver="sbk" slot= "55" description="SBKFP"></device> -->
+</devices>

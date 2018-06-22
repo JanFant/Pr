@@ -1,0 +1,79 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="do32_pti" description="ПТИ драйвер DO32" code="0x02" lenData="137" lenInit="1" header="drivers/do32_pti.h">
+<!-->
+    mode="output" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01DO" format="1" mode="output" address="0"/>
+        <signal name="K02DO" format="1" mode="output" address="2"/>
+        <signal name="K03DO" format="1" mode="output" address="4"/>
+        <signal name="K04DO" format="1" mode="output" address="6"/>
+        <signal name="K05DO" format="1" mode="output" address="8"/>
+        <signal name="K06DO" format="1" mode="output" address="10"/>
+        <signal name="K07DO" format="1" mode="output" address="12"/>
+        <signal name="K08DO" format="1" mode="output" address="14"/>
+        <signal name="K09DO" format="1" mode="output" address="16"/>
+        <signal name="K10DO" format="1" mode="output" address="18"/>
+        <signal name="K11DO" format="1" mode="output" address="20"/>
+        <signal name="K12DO" format="1" mode="output" address="22"/>
+        <signal name="K13DO" format="1" mode="output" address="24"/>
+        <signal name="K14DO" format="1" mode="output" address="26"/>
+        <signal name="K15DO" format="1" mode="output" address="28"/>
+        <signal name="K16DO" format="1" mode="output" address="30"/>
+        <signal name="K17DO" format="1" mode="output" address="32"/>
+        <signal name="K18DO" format="1" mode="output" address="34"/>
+        <signal name="K19DO" format="1" mode="output" address="36"/>
+        <signal name="K20DO" format="1" mode="output" address="38"/>
+        <signal name="K21DO" format="1" mode="output" address="40"/>
+        <signal name="K22DO" format="1" mode="output" address="42"/>
+        <signal name="K23DO" format="1" mode="output" address="44"/>
+        <signal name="K24DO" format="1" mode="output" address="46"/>
+        <signal name="K25DO" format="1" mode="output" address="48"/>
+        <signal name="K26DO" format="1" mode="output" address="50"/>
+        <signal name="K27DO" format="1" mode="output" address="52"/>
+        <signal name="K28DO" format="1" mode="output" address="54"/>
+        <signal name="K29DO" format="1" mode="output" address="56"/>
+        <signal name="K30DO" format="1" mode="output" address="58"/>
+        <signal name="K31DO" format="1" mode="output" address="60"/>
+        <signal name="K32DO" format="1" mode="output" address="62"/>
+        <signal name="S01DO" format="1" mode="output" address="64"/>
+        <signal name="S02DO" format="1" mode="output" address="66"/>
+        <signal name="S03DO" format="1" mode="output" address="68"/>
+        <signal name="S04DO" format="1" mode="output" address="70"/>
+        <signal name="S05DO" format="1" mode="output" address="72"/>
+        <signal name="S06DO" format="1" mode="output" address="74"/>
+        <signal name="S07DO" format="1" mode="output" address="76"/>
+        <signal name="S08DO" format="1" mode="output" address="78"/>
+        <signal name="S09DO" format="1" mode="output" address="80"/>
+        <signal name="S10DO" format="1" mode="output" address="82"/>
+        <signal name="S11DO" format="1" mode="output" address="84"/>
+        <signal name="S12DO" format="1" mode="output" address="86"/>
+        <signal name="S13DO" format="1" mode="output" address="88"/>
+        <signal name="S14DO" format="1" mode="output" address="90"/>
+        <signal name="S15DO" format="1" mode="output" address="92"/>
+        <signal name="S16DO" format="1" mode="output" address="94"/>
+        <signal name="S17DO" format="1" mode="output" address="96"/>
+        <signal name="S18DO" format="1" mode="output" address="98"/>
+        <signal name="S19DO" format="1" mode="output" address="100"/>
+        <signal name="S20DO" format="1" mode="output" address="102"/>
+        <signal name="S21DO" format="1" mode="output" address="104"/>
+        <signal name="S22DO" format="1" mode="output" address="106"/>
+        <signal name="S23DO" format="1" mode="output" address="108"/>
+        <signal name="S24DO" format="1" mode="output" address="110"/>
+        <signal name="S25DO" format="1" mode="output" address="112"/>
+        <signal name="S26DO" format="1" mode="output" address="114"/>
+        <signal name="S27DO" format="1" mode="output" address="116"/>
+        <signal name="S28DO" format="1" mode="output" address="118"/>
+        <signal name="S29DO" format="1" mode="output" address="120"/>
+        <signal name="S30DO" format="1" mode="output" address="122"/>
+        <signal name="S31DO" format="1" mode="output" address="124"/>
+        <signal name="S32DO" format="1" mode="output" address="126"/>
+    </signals>
+    <init type="do32_pti_inipar">
+        <signal name="tadr" mode="input" format="18" value="0" address="0"/>
+    </init>
+</driver>

@@ -1,0 +1,5 @@
+<devices xml="AKNP4ass">
+        <device name="SBKFP" driver="sbk" slot= "20" description="SBKFP"></device>
+        <device name="VDS32" driver="vds32" slot="04" description="VDS32"> </device>
+        <device name="FDS16" driver="fds16" slot="05" description="FDS16"> </device>
+</devices>

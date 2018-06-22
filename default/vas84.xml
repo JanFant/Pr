@@ -1,0 +1,30 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="26" lenInit="7" header="fp8/drivers/vas84r.h">
+<!-->
+    mode="input" - обязатльное назначение имени переменной
+        ="y"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01VASR" format="3" mode="input" address="0"/>
+        <signal name="K02VASR" format="3" mode="input" address="3"/>
+        <signal name="K03VASR" format="3" mode="input" address="6"/>
+        <signal name="K04VASR" format="3" mode="input" address="9"/>
+        <signal name="K05VASR" format="3" mode="input" address="12"/>
+        <signal name="K06VASR" format="3" mode="input" address="15"/>
+        <signal name="K07VASR" format="3" mode="input" address="18"/>
+        <signal name="K08VASR" format="3" mode="input" address="21"/>
+        <signal name="EXTVASR" format="18" mode="input" address="24"/>
+    </signals>
+    <init type="vas84r_inipar">
+        <signal name="type" mode="input" format="18" value="172" address="0"/>
+        <signal name="BoxLen" mode="input" format="2" value="255" address="1"/>
+        <signal name="vip" mode="input" format="18" value="1" address="2"/>
+        <signal name="NumCh" mode="input" format="18" value="8"  address="3"/>
+        <signal name="Usmask" mode="input" format="18" value="0xff" address="4"/>
+        <signal name="ChMask" mode="input" format="18" value="0" address="5"/>
+        <signal name="Aprt" mode="input" format="18" value="16" address="6"/>
+    </init>
+</driver>

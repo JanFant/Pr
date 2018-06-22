@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+
+        <variable xml="varDU"/>
+        <saves xml="saveDU"/>
+        <devices xml="devDU"/>
+        <modbus name="msDU" description="Пустые сигналы DU" type="slave" port="502" xml="DU"/>
+</subsystem>

@@ -1,0 +1,58 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="vds32" description="Типовой драйвер ВДС32" code="0xc2" lenData="64" lenInit="15" header="fp8/drivers/vds32r.h">
+<!-->
+    mode="input" - обязатльное назначение имени переменной
+        ="y"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01VDSR" format="1" mode="input" address="0"/>
+        <signal name="K02VDSR" format="1" mode="input" address="2"/>
+        <signal name="K03VDSR" format="1" mode="input" address="4"/>
+        <signal name="K04VDSR" format="1" mode="input" address="6"/>
+        <signal name="K05VDSR" format="1" mode="input" address="8"/>
+        <signal name="K06VDSR" format="1" mode="input" address="10"/>
+        <signal name="K07VDSR" format="1" mode="input" address="12"/>
+        <signal name="K08VDSR" format="1" mode="input" address="14"/>
+        <signal name="K09VDSR" format="1" mode="input" address="16"/>
+        <signal name="K10VDSR" format="1" mode="input" address="18"/>
+        <signal name="K11VDSR" format="1" mode="input" address="20"/>
+        <signal name="K12VDSR" format="1" mode="input" address="22"/>
+        <signal name="K13VDSR" format="1" mode="input" address="24"/>
+        <signal name="K14VDSR" format="1" mode="input" address="26"/>
+        <signal name="K15VDSR" format="1" mode="input" address="28"/>
+        <signal name="K16VDSR" format="1" mode="input" address="30"/>
+        <signal name="K17VDSR" format="1" mode="input" address="32"/>
+        <signal name="K18VDSR" format="1" mode="input" address="34"/>
+        <signal name="K19VDSR" format="1" mode="input" address="36"/>
+        <signal name="K20VDSR" format="1" mode="input" address="38"/>
+        <signal name="K21VDSR" format="1" mode="input" address="40"/>
+        <signal name="K22VDSR" format="1" mode="input" address="42"/>
+        <signal name="K23VDSR" format="1" mode="input" address="44"/>
+        <signal name="K24VDSR" format="1" mode="input" address="46"/>
+        <signal name="K25VDSR" format="1" mode="input" address="48"/>
+        <signal name="K26VDSR" format="1" mode="input" address="50"/>
+        <signal name="K27VDSR" format="1" mode="input" address="52"/>
+        <signal name="K28VDSR" format="1" mode="input" address="54"/>
+        <signal name="K29VDSR" format="1" mode="input" address="56"/>
+        <signal name="K30VDSR" format="1" mode="input" address="58"/>
+        <signal name="K31VDSR" format="1" mode="input" address="60"/>
+        <signal name="K32VDSR" format="1" mode="input" address="62"/>
+    </signals>
+    <init type="vds32r_inipar">
+        <signal name="type" mode="input" format="18" value="0xc2" address="0"/>
+        <signal name="BoxLen" mode="input" format="2" value="0xff" address="1"/>
+        <signal name="inv" mode="input" format="18" value="0" address="2"/>
+        <signal name="NumCh" mode="input" format="18" value="8" address="3"/>
+        <signal name="tadr116" mode="input" format="18" value="255" address="4"/>
+        <signal name="tadr1732" mode="input" format="18" value="255" address="5"/>
+        <signal name="Dmask116" mode="input" format="18" value="255" address="6"/>
+        <signal name="Dmask1732" mode="input" format="18" value="255" address="7"/>
+        <signal name="UsMask18" mode="input" format="18" value="255" address="8"/>
+        <signal name="UsMask916" mode="input" format="18" value="255" address="9"/>
+        <signal name="UsMask1724" mode="input" format="18" value="255" address="10"/>
+        <signal name="UsMask2532" mode="input" format="18" value="255" address="11"/>
+    </init>
+</driver>

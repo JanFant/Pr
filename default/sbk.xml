@@ -1,0 +1,31 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0x01" lenData="26" lenInit="4" header="fp8/drivers/sbkfp7.h">
+<!-->
+    mode="input" - обязатльное назначение имени переменной
+        ="y"  - можно не назначать   
+-->
+    <signals>
+        <signal name="S01SBK" format="1" mode="input" address="0"/>
+        <signal name="S02SBK" format="1" mode="input" address="2"/>
+        <signal name="S03SBK" format="1" mode="input" address="4"/>
+        <signal name="S04SBK" format="1" mode="input" address="6"/>
+        <signal name="S05SBK" format="1" mode="input" address="8"/>
+        <signal name="S06SBK" format="1" mode="input" address="10"/>
+        <signal name="S07SBK" format="1" mode="input" address="12"/>
+        <signal name="S08SBK" format="1" mode="input" address="14"/>
+        <signal name="S09SBK" format="1" mode="input" address="16"/>
+        <signal name="S10SBK" format="1" mode="input" address="18"/>
+        <signal name="S11SBK" format="1" mode="input" address="20"/>
+        <signal name="S12SBK" format="1" mode="input" address="22"/>
+        <signal name="S13SBK" format="1" mode="input" address="24"/>
+    </signals>
+    <init type="sbk_inipar">
+        <signal name="type" mode="input" format="18" value="0xc2" address="0"/>
+        <signal name="BoxLen" mode="input" format="2" value="0xff" address="1"/>
+        <signal name="vip" mode="input" format="18" value="8" address="2"/>
+        <signal name="NumCh" mode="input" format="18" value="8" address="3"/>
+    </init>
+</driver>

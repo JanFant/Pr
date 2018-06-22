@@ -1,0 +1,176 @@
+<vars>
+<var name="VAS840401" description="(A0IT01IZ1) Температура АЗ1-1" format ="3"></var> 
+<var name="VAS840402" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format ="3"></var> 
+<var name="VAS840403" description="(B0IT01IZ1) Температура АЗ2-1" format ="3"></var> 
+<var name="VAS840404" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format ="3"></var> 
+<var name="VAS840405" description="!!!(VAS840105) Не занятые значения" format ="3"></var> 
+<var name="VAS840406" description="!!!(VAS840106) Не занятые значения" format ="3"></var> 
+<var name="VAS840407" description="!!!(VAS840107) Не занятые значения" format ="3"></var> 
+<var name="VAS840408" description="!!!(VAS840108) Не занятые значения" format ="3"></var>
+
+<var name="VDS320501" description="(VDS320501) VDS - SLOT 5" format="1"></var>
+<var name="VDS320502" description="(VDS320502) VDS - SLOT 5" format="1"></var>
+<var name="VDS320503" description="(VDS320503) VDS - SLOT 5" format="1"></var>
+<var name="VDS320504" description="(VDS320504) VDS - SLOT 5" format="1"></var>
+<var name="VDS320505" description="(VDS320505) VDS - SLOT 5" format="1"></var>
+<var name="VDS320506" description="(VDS320506) VDS - SLOT 5" format="1"></var>
+<var name="VDS320507" description="(VDS320507) VDS - SLOT 5" format="1"></var>
+<var name="VDS320508" description="(VDS320508) VDS - SLOT 5" format="1"></var>
+<var name="VDS320509" description="(VDS320509) VDS - SLOT 5" format="1"></var>
+<var name="VDS320510" description="(VDS320510) VDS - SLOT 5" format="1"></var>
+<var name="VDS320511" description="(VDS320511) VDS - SLOT 5" format="1"></var>
+<var name="VDS320512" description="(VDS320512) VDS - SLOT 5" format="1"></var>
+<var name="VDS320513" description="(VDS320513) VDS - SLOT 5" format="1"></var>
+<var name="VDS320514" description="(VDS320514) VDS - SLOT 5" format="1"></var>
+<var name="VDS320515" description="(VDS320515) VDS - SLOT 5" format="1"></var>
+<var name="VDS320516" description="(VDS320516) VDS - SLOT 5" format="1"></var>
+<var name="VDS320517" description="(VDS320517) VDS - SLOT 5" format="1"></var>
+<var name="VDS320518" description="(VDS320518) VDS - SLOT 5" format="1"></var>
+<var name="VDS320519" description="(VDS320519) VDS - SLOT 5" format="1"></var>
+<var name="VDS320520" description="(VDS320520) VDS - SLOT 5" format="1"></var>
+<var name="VDS320521" description="(VDS320521) VDS - SLOT 5" format="1"></var>
+<var name="VDS320522" description="(VDS320522) VDS - SLOT 5" format="1"></var>
+<var name="VDS320523" description="(VDS320523) VDS - SLOT 5" format="1"></var>
+<var name="VDS320524" description="(VDS320524) VDS - SLOT 5" format="1"></var>
+<var name="VDS320525" description="(VDS320525) VDS - SLOT 5" format="1"></var>
+<var name="VDS320526" description="(VDS320526) VDS - SLOT 5" format="1"></var>
+<var name="VDS320527" description="(VDS320527) VDS - SLOT 5" format="1"></var>
+<var name="VDS320528" description="(VDS320528) VDS - SLOT 5" format="1"></var>
+<var name="VDS320529" description="(VDS320529) VDS - SLOT 5" format="1"></var>
+<var name="VDS320530" description="(VDS320530) VDS - SLOT 5" format="1"></var>
+<var name="VDS320531" description="(VDS320531) VDS - SLOT 5" format="1"></var>
+<var name="VDS320532" description="(VDS320532) VDS - SLOT 5" format="1"></var>
+
+<var name="VDS320601" description="(VDS320601) VDS - SLOT 6" format="1"></var>
+<var name="VDS320602" description="(VDS320602) VDS - SLOT 6" format="1"></var>
+<var name="VDS320603" description="(VDS320603) VDS - SLOT 6" format="1"></var>
+<var name="VDS320604" description="(VDS320604) VDS - SLOT 6" format="1"></var>
+<var name="VDS320605" description="(VDS320605) VDS - SLOT 6" format="1"></var>
+<var name="VDS320606" description="(VDS320606) VDS - SLOT 6" format="1"></var>
+<var name="VDS320607" description="(VDS320607) VDS - SLOT 6" format="1"></var>
+<var name="VDS320608" description="(VDS320608) VDS - SLOT 6" format="1"></var>
+<var name="VDS320609" description="(VDS320609) VDS - SLOT 6" format="1"></var>
+<var name="VDS320610" description="(VDS320610) VDS - SLOT 6" format="1"></var>
+<var name="VDS320611" description="(VDS320611) VDS - SLOT 6" format="1"></var>
+<var name="VDS320612" description="(VDS320612) VDS - SLOT 6" format="1"></var>
+<var name="VDS320613" description="(VDS320613) VDS - SLOT 6" format="1"></var>
+<var name="VDS320614" description="(VDS320614) VDS - SLOT 6" format="1"></var>
+<var name="VDS320615" description="(VDS320615) VDS - SLOT 6" format="1"></var>
+<var name="VDS320616" description="(VDS320616) VDS - SLOT 6" format="1"></var>
+<var name="VDS320617" description="(VDS320617) VDS - SLOT 6" format="1"></var>
+<var name="VDS320618" description="(VDS320618) VDS - SLOT 6" format="1"></var>
+<var name="VDS320619" description="(VDS320619) VDS - SLOT 6" format="1"></var>
+<var name="VDS320620" description="(VDS320620) VDS - SLOT 6" format="1"></var>
+<var name="VDS320621" description="(VDS320621) VDS - SLOT 6" format="1"></var>
+<var name="VDS320622" description="(VDS320622) VDS - SLOT 6" format="1"></var>
+<var name="VDS320623" description="(VDS320623) VDS - SLOT 6" format="1"></var>
+<var name="VDS320624" description="(VDS320624) VDS - SLOT 6" format="1"></var>
+<var name="VDS320625" description="(VDS320625) VDS - SLOT 6" format="1"></var>
+<var name="VDS320626" description="(VDS320626) VDS - SLOT 6" format="1"></var>
+<var name="VDS320627" description="(VDS320627) VDS - SLOT 6" format="1"></var>
+<var name="VDS320628" description="(VDS320628) VDS - SLOT 6" format="1"></var>
+<var name="VDS320629" description="(VDS320629) VDS - SLOT 6" format="1"></var>
+<var name="VDS320630" description="(VDS320630) VDS - SLOT 6" format="1"></var>
+<var name="VDS320631" description="(VDS320631) VDS - SLOT 6" format="1"></var>
+<var name="VDS320632" description="(VDS320632) VDS - SLOT 6" format="1"></var>
+
+<var name="VDS320701" description="(R0VN71LZ1) АС по мощности канал 1" format ="1"></var>
+<var name="VDS320702" description="(R0VN75LZ1) АС по периоду разгона канал  1" format ="1"></var>
+<var name="VDS320703" description="(A0EE01LS1) Исправность АКНП канал 1 " format ="1"></var>
+<var name="VDS320704" description="(A0VN71LS1) Блокировка автоматического подъёма ББ канал 1" format ="1"></var>
+<var name="VDS320705" description="(A3IS11LZ1) Приход на ВУ ИС1" format ="1"></var>
+<var name="VDS320706" description="(A3IS22LZ1) Приход на НУП ИС1" format ="1"></var>
+<var name="VDS320707" description="(R0VN72LZ1) АС по мощности канал 2" format ="1"></var>
+<var name="VDS320708" description="(R0VN76LZ1) АС по периоду разгона канал  2" format ="1"></var>
+<var name="VDS320709" description="(A0EE01LS2) Исправность АКНП  канал 2" format ="1"></var>
+<var name="VDS320710" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2" format ="1"></var>
+<var name="VDS320711" description="(B3IS11LZ1) Приход на ВУ ИС2" format ="1"></var>
+<var name="VDS320712" description="(B3IS22LZ1) Приход на НУП ИС2" format ="1"></var>
+<var name="VDS320713" description="(R0VN74LZ1) АС по мощности канал 4" format ="1"></var>
+<var name="VDS320714" description="(R0VN78LZ1) АС по периоду разгона канал  4" format ="1"></var>
+<var name="VDS320715" description="(A0EE01LS4) Исправность АКНП канал 4" format ="1"></var>
+<var name="VDS320716" description="(A0VN71LS4) Блокировка автоматического подъёма ББ канал 4" format ="1"></var>
+<var name="VDS320717" description="(R6IS66LZ1) Исправность ВИП 4,0 (№5) ССДИ-1-1" format ="1"></var>
+<var name="VDS320718" description="(R6IS67LZ1) Исправность ВИП 4,0 (№6) ССДИ-1-2" format ="1"></var>
+<var name="VDS320719" description="(R6IS68LZ1) Исправность ВИП 4,0 (№7) ССДИ-2" format ="1"></var>
+<var name="VDS320720" description="(R0VN73LZ1) АС по мощности канал 3" format ="1"></var>
+<var name="VDS320721" description="(R0VN77LZ1) АС по периоду разгона канал  3" format ="1"></var>
+<var name="VDS320722" description="(A0EE01LS3) Исправность АКНП канал 3" format ="1"></var>
+<var name="VDS320723" description="(A0VN71LS3) Блокировка автоматического подъёма ББ канал 3" format ="1"></var>
+<var name="VDS320724" description="(R7II71LZ1) Сработала АС IУР РАД (датчик 1)" format ="1"></var>
+<var name="VDS320725" description="(R7II72LZ1) Сработала АС IУР РАД  (датчик 2)" format ="1"></var>
+<var name="VDS320726" description="(R7II73LZ1) Сработала АС II УР РАД" format ="1"></var>
+<var name="VDS320727" description="(A0VP81LZ1) Давление  АЗ1 в норме" format ="1"></var>
+<var name="VDS320728" description="(A1VP81LZ1) Давление СБРОС ББ1 в норме" format ="1"></var>
+<var name="VDS320729" description="(R0VP81LZ1) Давление  в СИСТЕМЕ -1 в норме" format ="1"></var>
+<var name="VDS320730" description="(B0VP81LZ1) Давление АЗ2 в норме" format ="1"></var>
+<var name="VDS320731" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме" format ="1"></var>
+<var name="VDS320732" description="(R0VP82LZ1) Давление  в СИСТЕМЕ - 2 в норме" format ="1"></var>
+
+<var name="VDS320801" description="(VDS320801) VDS - SLOT 8" format="1"></var>
+<var name="VDS320802" description="(VDS320802) VDS - SLOT 8" format="1"></var>
+<var name="VDS320803" description="(VDS320803) VDS - SLOT 8" format="1"></var>
+<var name="VDS320804" description="(VDS320804) VDS - SLOT 8" format="1"></var>
+<var name="VDS320805" description="(VDS320805) VDS - SLOT 8" format="1"></var>
+<var name="VDS320806" description="(VDS320806) VDS - SLOT 8" format="1"></var>
+<var name="VDS320807" description="(VDS320807) VDS - SLOT 8" format="1"></var>
+<var name="VDS320808" description="(VDS320808) VDS - SLOT 8" format="1"></var>
+<var name="VDS320809" description="(VDS320809) VDS - SLOT 8" format="1"></var>
+<var name="VDS320810" description="(VDS320810) VDS - SLOT 8" format="1"></var>
+<var name="VDS320811" description="(VDS320811) VDS - SLOT 8" format="1"></var>
+<var name="VDS320812" description="(VDS320812) VDS - SLOT 8" format="1"></var>
+<var name="VDS320813" description="(VDS320813) VDS - SLOT 8" format="1"></var>
+<var name="VDS320814" description="(VDS320814) VDS - SLOT 8" format="1"></var>
+<var name="VDS320815" description="(VDS320815) VDS - SLOT 8" format="1"></var>
+<var name="VDS320816" description="(VDS320816) VDS - SLOT 8" format="1"></var>
+<var name="VDS320817" description="(VDS320817) VDS - SLOT 8" format="1"></var>
+<var name="VDS320818" description="(VDS320818) VDS - SLOT 8" format="1"></var>
+<var name="VDS320819" description="(VDS320819) VDS - SLOT 8" format="1"></var>
+<var name="VDS320820" description="(VDS320820) VDS - SLOT 8" format="1"></var>
+<var name="VDS320821" description="(VDS320821) VDS - SLOT 8" format="1"></var>
+<var name="VDS320822" description="(VDS320822) VDS - SLOT 8" format="1"></var>
+<var name="VDS320823" description="(VDS320823) VDS - SLOT 8" format="1"></var>
+<var name="VDS320824" description="(VDS320824) VDS - SLOT 8" format="1"></var>
+<var name="VDS320825" description="(VDS320825) VDS - SLOT 8" format="1"></var>
+<var name="VDS320826" description="(VDS320826) VDS - SLOT 8" format="1"></var>
+<var name="VDS320827" description="(VDS320827) VDS - SLOT 8" format="1"></var>
+<var name="VDS320828" description="(VDS320828) VDS - SLOT 8" format="1"></var>
+<var name="VDS320829" description="(VDS320829) VDS - SLOT 8" format="1"></var>
+<var name="VDS320830" description="(VDS320830) VDS - SLOT 8" format="1"></var>
+<var name="VDS320831" description="(VDS320831) VDS - SLOT 8" format="1"></var>
+<var name="VDS320832" description="(VDS320832) VDS - SLOT 8" format="1"></var>
+
+<var name="FDS161001" description="(FDS!)" format ="1"></var>
+<var name="FDS161002" description="(FDS!)" format ="1"></var>
+<var name="FDS161003" description="(FDS!)" format ="1"></var>
+<var name="FDS161004" description="(FDS!)" format ="1"></var>
+<var name="FDS161005" description="(FDS!)" format ="1"></var>
+<var name="FDS161006" description="(FDS!)" format ="1"></var>
+<var name="FDS161007" description="(FDS!)" format ="1"></var>
+<var name="FDS161008" description="(FDS!)" format ="1"></var>
+<var name="FDS161009" description="(FDS!)" format ="1"></var>
+<var name="FDS161010" description="(FDS!)" format ="1"></var>
+<var name="FDS161011" description="(FDS!)" format ="1"></var>
+<var name="FDS161012" description="(FDS!)" format ="1"></var>
+<var name="FDS161013" description="(FDS!)" format ="1"></var>
+<var name="FDS161014" description="(FDS!)" format ="1"></var>
+<var name="FDS161015" description="(FDS!)" format ="1"></var>
+<var name="FDS161016" description="(FDS!)" format ="1"></var>
+
+<var name="SBKPOWER1"  description="(POWER1)"  format ="1"></var>
+<var name="SBKPOWER2"  description="(POWER2)"  format ="1"></var>
+<var name="SBKDOOR"    description="(DOOR)"    format ="1"></var>
+<var name="SBKT43"     description="(T43)"     format ="1"></var>
+<var name="SBKT53"     description="(T53)"     format ="1"></var>
+<var name="SBKBP124"   description="(BP124)"   format ="1"></var>
+<var name="SBKBP15"    description="(BP15)"    format ="1"></var>
+<var name="SBKBP224"   description="(BP224)"   format ="1"></var>
+<var name="SBKBP25"    description="(BP25)"    format ="1"></var>
+<var name="SBKMPBP124" description="(MPBP124)" format ="1"></var>
+<var name="SBKMPBP15"  description="(MPBP15)"  format ="1"></var>
+<var name="SBKMPBP224" description="(MPBP224)" format ="1"></var>
+<var name="SBKMPBP25"  description="(MPBP25)"  format ="1"></var>
+
+
+
+</vars>

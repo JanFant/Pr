@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+
+        <variable xml="varBaz1"/>
+        <saves xml="saveBaz1"/>
+        <devices xml="devBaz1"/>
+        <modbus name="msBaz1" description="Пустые сигналы BAZ1" type="slave" port="502" xml="Baz1"/>
+</subsystem>

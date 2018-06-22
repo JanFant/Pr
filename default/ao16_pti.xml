@@ -1,0 +1,83 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="ao16_pti" description="ПТИ драйвер AO16" code="0x04" lenData="127" lenInit="20" header="drivers/ao16.h">
+<!-->
+    mode="output" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01AO" format="3" mode="output" address="0"/>
+        <signal name="K02AO" format="3" mode="output" address="3"/>
+        <signal name="K03AO" format="3" mode="output" address="6"/>
+        <signal name="K04AO" format="3" mode="output" address="9"/>
+        <signal name="K05AO" format="3" mode="output" address="12"/>
+        <signal name="K06AO" format="3" mode="output" address="15"/>
+        <signal name="K07AO" format="3" mode="output" address="18"/>
+        <signal name="K08AO" format="3" mode="output" address="21"/>
+        <signal name="K09AO" format="3" mode="output" address="24"/>
+        <signal name="K10AO" format="3" mode="output" address="27"/>
+        <signal name="K11AO" format="3" mode="output" address="30"/>
+        <signal name="K12AO" format="3" mode="output" address="33"/>
+        <signal name="K13AO" format="3" mode="output" address="36"/>
+        <signal name="K14AO" format="3" mode="output" address="38"/>
+        <signal name="K15AO" format="3" mode="output" address="41"/>
+        <signal name="K16AO" format="3" mode="output" address="44"/>
+        <signal name="S01AO" format="1" mode="output" address="47"/>
+        <signal name="S02AO" format="1" mode="output" address="49"/>
+        <signal name="S03AO" format="1" mode="output" address="51"/>
+        <signal name="S04AO" format="1" mode="output" address="53"/>
+        <signal name="S05AO" format="1" mode="output" address="55"/>
+        <signal name="S06AO" format="1" mode="output" address="57"/>
+        <signal name="S07AO" format="1" mode="output" address="59"/>
+        <signal name="S08AO" format="1" mode="output" address="61"/>
+        <signal name="S09AO" format="1" mode="output" address="63"/>
+        <signal name="S10AO" format="1" mode="output" address="65"/>
+        <signal name="S11AO" format="1" mode="output" address="67"/>
+        <signal name="S12AO" format="1" mode="output" address="69"/>
+        <signal name="S13AO" format="1" mode="output" address="71"/>
+        <signal name="S14AO" format="1" mode="output" address="73"/>
+        <signal name="S15AO" format="1" mode="output" address="75"/>
+        <signal name="S16AO" format="1" mode="output" address="77"/>
+        <signal name="L01AO" format="3" mode="output" address="79"/>
+        <signal name="L02AO" format="3" mode="output" address="82"/>
+        <signal name="L03AO" format="3" mode="output" address="85"/>
+        <signal name="L04AO" format="3" mode="output" address="88"/>
+        <signal name="L05AO" format="3" mode="output" address="91"/>
+        <signal name="L06AO" format="3" mode="output" address="94"/>
+        <signal name="L07AO" format="3" mode="output" address="97"/>
+        <signal name="L08AO" format="3" mode="output" address="100"/>
+        <signal name="L09AO" format="3" mode="output" address="103"/>
+        <signal name="L10AO" format="3" mode="output" address="106"/>
+        <signal name="L11AO" format="3" mode="output" address="109"/>
+        <signal name="L12AO" format="3" mode="output" address="112"/>
+        <signal name="L13AO" format="3" mode="output" address="115"/>
+        <signal name="L14AO" format="3" mode="output" address="118"/>
+        <signal name="L15AO" format="3" mode="output" address="121"/>
+        <signal name="L16AO" format="3" mode="output" address="124"/>
+    </signals>
+    <init type="ao16_inimod">
+        <signal name="workmsk" mode="input" format="3" value="0xffff" address="0"/>
+        <signal name="aoeto" mode="input" format="18" value="120" address="1"/>
+        <signal name="aoid1" mode="input" format="18" value="0x43" address="2"/>
+        <signal name="aoid2" mode="input" format="18" value="16" address="3"/>
+        <signal name="I01AO" mode="input" format="3" value="0" address="4"/>
+        <signal name="I02AO" mode="input" format="3" value="0" address="5"/>
+        <signal name="I03AO" mode="input" format="3" value="0" address="6"/>
+        <signal name="I04AO" mode="input" format="3" value="0" address="7"/>
+        <signal name="I05AO" mode="input" format="3" value="0" address="8"/>
+        <signal name="I06AO" mode="input" format="3" value="0" address="9"/>
+        <signal name="I07AO" mode="input" format="3" value="0" address="10"/>
+        <signal name="I08AO" mode="input" format="3" value="0" address="11"/>
+        <signal name="I09AO" mode="input" format="3" value="0" address="12"/>
+        <signal name="I10AO" mode="input" format="3" value="0" address="13"/>
+        <signal name="I11AO" mode="input" format="3" value="0" address="14"/>
+        <signal name="I12AO" mode="input" format="3" value="0" address="15"/>
+        <signal name="I13AO" mode="input" format="3" value="0" address="16"/>
+        <signal name="I14AO" mode="input" format="3" value="0" address="17"/>
+        <signal name="I15AO" mode="input" format="3" value="0" address="18"/>
+        <signal name="I16AO" mode="input" format="3" value="0" address="19"/>
+		
+    </init>
+</driver>

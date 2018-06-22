@@ -1,0 +1,38 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="fds16" description="Типовой драйвер ФДС16" code="0x04" lenData="38" lenInit="20" header="fp8/drivers/fds16r.h">
+<!-->
+    mode="output" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01FDSR" format="1" mode="output" address="0"/>
+        <signal name="K02FDSR" format="1" mode="output" address="2"/>
+        <signal name="K03FDSR" format="1" mode="output" address="4"/>
+        <signal name="K04FDSR" format="1" mode="output" address="6"/>
+        <signal name="K05FDSR" format="1" mode="output" address="8"/>
+        <signal name="K06FDSR" format="1" mode="output" address="10"/>
+        <signal name="K07FDSR" format="1" mode="output" address="12"/>
+        <signal name="K08FDSR" format="1" mode="output" address="14"/>
+        <signal name="K09FDSR" format="1" mode="output" address="16"/>
+        <signal name="K10FDSR" format="1" mode="output" address="18"/>
+        <signal name="K11FDSR" format="1" mode="output" address="20"/>
+        <signal name="K12FDSR" format="1" mode="output" address="22"/>
+        <signal name="K13FDSR" format="1" mode="output" address="24"/>
+        <signal name="K14FDSR" format="1" mode="output" address="26"/>
+        <signal name="K15FDSR" format="1" mode="output" address="28"/>
+        <signal name="K16FDSR" format="1" mode="output" address="30"/>
+        <signal name="ISP18" format="3" mode="output" address="32"/>
+        <signal name="ISP96" format="3" mode="output" address="35"/>      
+    </signals>
+    <init type="fds16r_inipar">
+        <signal name="type" mode="input" format="18" value="0x04" address="0"/>
+        <signal name="BoxLen" mode="input" format="2" value="0xff" address="1"/>
+        <signal name="vip" mode="input" format="18" value="8" address="2"/>
+        <signal name="NumCh" mode="input" format="18" value="8" address="3"/>
+        <signal name="UsMask18" mode="input" format="18" value="0xff" address="4"/>
+        <signal name="UsMask916" mode="input" format="18" value="0xff" address="5"/>
+    </init>
+</driver>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+
+        <variable xml="varAKNS"/>
+        <saves xml="saveAKNS"/>
+        <devices xml="devAKNS"/>
+        <modbus name="msAKNS" description="Пустые сигналы AKNS" type="slave" port="502" xml="AKNS"/>
+</subsystem>

@@ -1,0 +1,362 @@
+<vars>
+<var name="AO1632001"    description="(A0IT01IZ1) Температура АЗ1-1" format ="3"></var> 
+<var name="AO1632002"    description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format ="3"></var> 
+<var name="AO1632003"    description="(B0IT01IZ1) Температура АЗ2-1" format ="3"></var> 
+<var name="AO1632004"    description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format ="3"></var> 
+<var name="AO1632005"    description="(A0IT02IZ2) Температура АЗ1-2" format ="3"></var> 
+<var name="AO1632006"    description="(A2IP01IZ2) Текущее давление СБРОС РБ1" format ="3"></var> 
+<var name="AO1632007"    description="(B0IT02IZ2) Температура АЗ2-2" format ="3"></var> 
+<var name="AO1632008"    description="(B2IP01IZ2) Текущее давление СБРОС РБ2" format ="3"></var> 
+<var name="AO1632009"    description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format ="3"></var> 
+<var name="AO1632010"    description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ ИС2" format ="3"></var> 
+<var name="AO1632011"    description="!!!(AO1632011) Не занятые значения" format ="3"></var> 
+<var name="AO1632012"    description="!!!(AO1632012) Не занятые значения" format ="3"></var> 
+<var name="AO1632013"    description="!!!(AO1632013) Не занятые значения" format ="3"></var> 
+<var name="AO1632014"    description="!!!(AO1632014) Не занятые значения" format ="3"></var> 
+<var name="AO1632015"    description="!!!(AO1632015) Не занятые значения" format ="3"></var> 
+<var name="AO1632016"    description="!!!(AO1632016) Не занятые значения" format ="3"></var> 
+
+<var name="DO3210001" description="(R0VN71LZ1) АС по мощности канал 1" format ="1"></var>
+<var name="DO3210002" description="(R0VN75LZ1) АС по периоду разгона канал  1" format ="1"></var>
+<var name="DO3210003" description="(A0EE01LS1) Исправность АКНП канал 1 " format ="1"></var>
+<var name="DO3210004" description="(A0VN71LS1) Блокировка автоматического подъёма ББ канал 1" format ="1"></var>
+<var name="DO3210005" description="(A3IS11LZ1) Приход на ВУ ИС1" format ="1"></var>
+<var name="DO3210006" description="(A3IS22LZ1) Приход на НУП ИС1" format ="1"></var>
+<var name="DO3210007" description="(R0VN72LZ1) АС по мощности канал 2" format ="1"></var>
+<var name="DO3210008" description="(R0VN76LZ1) АС по периоду разгона канал  2" format ="1"></var>
+<var name="DO3210009" description="(A0EE01LS2) Исправность АКНП  канал 2" format ="1"></var>
+<var name="DO3210010" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2" format ="1"></var>
+<var name="DO3210011" description="(B3IS11LZ1) Приход на ВУ ИС2" format ="1"></var>
+<var name="DO3210012" description="(B3IS22LZ1) Приход на НУП ИС2" format ="1"></var>
+<var name="DO3210013" description="(R0VN74LZ1) АС по мощности канал 4" format ="1"></var>
+<var name="DO3210014" description="(R0VN78LZ1) АС по периоду разгона канал  4" format ="1"></var>
+<var name="DO3210015" description="(A0EE01LS4) Исправность АКНП канал 4" format ="1"></var>
+<var name="DO3210016" description="(A0VN71LS4) Блокировка автоматического подъёма ББ канал 4" format ="1"></var>
+<var name="DO3210017" description="(R6IS66LZ1) Исправность ВИП 4,0 (№5) ССДИ-1-1" format ="1"></var>
+<var name="DO3210018" description="(R6IS67LZ1) Исправность ВИП 4,0 (№6) ССДИ-1-2" format ="1"></var>
+<var name="DO3210019" description="(R6IS68LZ1) Исправность ВИП 4,0 (№7) ССДИ-2" format ="1"></var>
+<var name="DO3210020" description="(R0VN73LZ1) АС по мощности канал 3" format ="1"></var>
+<var name="DO3210021" description="(R0VN77LZ1) АС по периоду разгона канал  3" format ="1"></var>
+<var name="DO3210022" description="(A0EE01LS3) Исправность АКНП канал 3" format ="1"></var>
+<var name="DO3210023" description="(A0VN71LS3) Блокировка автоматического подъёма ББ канал 3" format ="1"></var>
+<var name="DO3210024" description="(R7II71LZ1) Сработала АС IУР РАД (датчик 1)" format ="1"></var>
+<var name="DO3210025" description="(R7II72LZ1) Сработала АС IУР РАД  (датчик 2)" format ="1"></var>
+<var name="DO3210026" description="(R7II73LZ1) Сработала АС II УР РАД" format ="1"></var>
+<var name="DO3210027" description="(A0VP81LZ1) Давление  АЗ1 в норме" format ="1"></var>
+<var name="DO3210028" description="(A1VP81LZ1) Давление СБРОС ББ1 в норме" format ="1"></var>
+<var name="DO3210029" description="(R0VP81LZ1) Давление  в СИСТЕМЕ -1 в норме" format ="1"></var>
+<var name="DO3210030" description="(B0VP81LZ1) Давление АЗ2 в норме" format ="1"></var>
+<var name="DO3210031" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме" format ="1"></var>
+<var name="DO3210032" description="(R0VP82LZ1) Давление  в СИСТЕМЕ - 2 в норме" format ="1"></var>
+
+<var name="DO3211001" description="(R0VN71LZ2) АС по мощности канал 1" format ="1"></var>
+<var name="DO3211002" description="(R0VN75LZ2) АС по периоду разгона канал  1" format ="1"></var>
+<var name="DO3211003" description="(A1EE01LS1) Исправность АКНП канал 1" format ="1"></var>
+<var name="DO3211004" description="(A1VN71LS1) Блокировка автоматического подъёма ББ канал 1" format ="1"></var>
+<var name="DO3211005" description="(A3IS11LZ2) Приход на ВУ ИС1" format ="1"></var>
+<var name="DO3211006" description="(A3IS22LZ2) Приход на НУП ИС1" format ="1"></var>
+<var name="DO3211007" description="(R0VN72LZ2) АС по мощности канал 2" format ="1"></var>
+<var name="DO3211008" description="(R0VN76LZ2) АС по периоду разгона канал  2" format ="1"></var>
+<var name="DO3211009" description="(A1EE01LS2) Исправность АКНП  канал 2" format ="1"></var>
+<var name="DO3211010" description="(A1VN71LS2) Блокировка автоматического подъёма ББ канал 2" format ="1"></var>
+<var name="DO3211011" description="(B3IS11LZ2) Приход на ВУ ИС2" format ="1"></var>
+<var name="DO3211012" description="(B3IS22LZ2) Приход на НУП ИС2" format ="1"></var>
+<var name="DO3211013" description="(R0VN74LZ2) АС по мощности канал 4" format ="1"></var>
+<var name="DO3211014" description="(R0VN78LZ2) АС по периоду разгона канал  4" format ="1"></var>
+<var name="DO3211015" description="(A1EE01LS4) Исправность АКНП канал 4" format ="1"></var>
+<var name="DO3211016" description="(A1VN71LS4) Блокировка автоматического подъёма ББ канал 4" format ="1"></var>
+<var name="DO3211017" description="(R6IS66LZ2) Исправность ВИП 4,0 (№5) ССДИ-1-1" format ="1"></var>
+<var name="DO3211018" description="(R6IS67LZ2) Исправность ВИП 4,0 (№6) ССДИ-1-2" format ="1"></var>
+<var name="DO3211019" description="(R6IS68LZ2) Исправность ВИП 4,0 (№7) ССДИ-2" format ="1"></var>
+<var name="DO3211020" description="(R0VN73LZ2) АС по мощности канал 3" format ="1"></var>
+<var name="DO3211021" description="(R0VN77LZ2) АС по периоду разгона канал  3" format ="1"></var>
+<var name="DO3211022" description="(A1EE01LS3) Исправность АКНП канал 3" format ="1"></var>
+<var name="DO3211023" description="(A1VN71LS3) Блокировка автоматического подъёма ББ канал 3" format ="1"></var>
+<var name="DO3211024" description="(R7II71LZ2) Сработала АС IУР (датчик 1)" format ="1"></var>
+<var name="DO3211025" description="(R7II72LZ2) Сработала АС IУР (датчик 2)" format ="1"></var>
+<var name="DO3211026" description="(R7II73LZ2) Сработала АС IIУР" format ="1"></var>
+<var name="DO3211027" description="(A0VP81LZ2) Давление  АЗ1 в норме" format ="1"></var>
+<var name="DO3211028" description="(A1VP81LZ2) Давление СБРОС ББ1 в норме" format ="1"></var>
+<var name="DO3211029" description="(R0VP81LZ2) Давление  в СИСТЕМЕ -1 в норме" format ="1"></var>
+<var name="DO3211030" description="(B0VP81LZ2) Давление АЗ2 в норме" format ="1"></var>
+<var name="DO3211031" description="(B1VP81LZ2) Давление СБРОС ББ2 в норме" format ="1"></var>
+<var name="DO3211032" description="(R0VP82LZ2) Давление  в СИСТЕМЕ - 2 в норме" format ="1"></var>
+
+
+
+
+
+
+<var name="DO3213001" description="(B3IS35LDU) Клапан «ВПИС2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213002" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213003" description="(B2IS33LDU) Клапан «Подъём РБ2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213004" description="(B4IS10LDU) Клапан «Подъём НИ2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213005" description="(B3IS31LDU) Клапан «СПУСК ИС2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213006" description="(B7AS31LDU) Клапан «Обдув АЗ2» открыт (обесточен) " format ="1"></var>
+<var name="DO3213007" description="(B1IS12LDU) Магнит ББ2 зацеплен " format ="1"></var>
+<var name="DO3213008" description="(B1IS11LDU) Приход на ВУ ББ2 " format ="1"></var>
+<var name="DO3213009" description="(B1IS21LDU) Приход на НУ ББ2 " format ="1"></var>
+<var name="DO3213010" description="(B2IS12LDU) Магнит РБ2 зацеплен " format ="1"></var>
+<var name="DO3213011" description="(B2IS11LDU) Приход на ВУ РБ2-СТР " format ="1"></var>
+<var name="DO3213012" description="(B2IS21LDU) Приход на НУ РБ2-СС " format ="1"></var>
+<var name="DO3213013" description="(B3IS21LDU) Приход на НУ ИС2 " format ="1"></var>
+<var name="DO3213014" description="(R8IS11LDU) Аварийный НИ установлен " format ="1"></var>
+<var name="DO3213015" description="!!!(DO3213015) Не занятые значения" format ="1"></var>
+<var name="DO3213016" description="(A4IS11LDU) Приход на ВУ НИ1 " format ="1"></var>
+<var name="DO3213017" description="(A4IS21LDU) Приход на НУ НИ1 " format ="1"></var>
+<var name="DO3213018" description="(A9IS11LDU) Приход на ВУ НИ ДС1" format ="1"></var>
+<var name="DO3213019" description="(A9IS21LDU) Приход на НУ НИ ДС1" format ="1"></var>
+<var name="DO3213020" description="(B9IS11LDU) Приход на ВУ НИ ДС2" format ="1"></var>
+<var name="DO3213021" description="(B9IS21LDU) Приход на НУ НИ ДС2" format ="1"></var>
+<var name="DO3213022" description="(R1IS11LDU) Приход на ВУ МДЗ1" format ="1"></var>
+<var name="DO3213023" description="(R1IS21LDU) Приход на НУ МДЗ1" format ="1"></var>
+<var name="DO3213024" description="(R2IS11LDU) Приход на ВУ МДЗ2" format ="1"></var>
+<var name="DO3213025" description="(R2IS21LDU) Приход на НУ МДЗ2" format ="1"></var>
+<var name="DO3213026" description="(A3IS35LDU) Клапан «ВПИС1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213027" description="(A3IS33LDU) Клапан «ВЫСТРЕЛ ИС1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213028" description="(A2IS33LDU) Клапан «Подъём РБ1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213029" description="(A4IS10LDU) Клапан «Подъём НИ1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213030" description="(A3IS31LDU) Клапан «СПУСК ИС1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213031" description="(A7AS31LDU) Клапан «Обдув АЗ1» открыт (обесточен)" format ="1"></var>
+<var name="DO3213032" description="(A1IS12LDU) Магнит ББ1 зацеплен" format ="1"></var>
+
+
+<var name="DO3214001" description="(A1IS11LDU) Приход на ВУ ББ1" format ="1"></var>
+<var name="DO3214002" description="(A1IS21LDU) Приход на НУ ББ1" format ="1"></var>
+<var name="DO3214003" description="(A2IS12LDU) Магнит РБ1 зацеплен" format ="1"></var>
+<var name="DO3214004" description="(A2IS11LDU) Приход на ВУ РБ1-СТР" format ="1"></var>
+<var name="DO3214005" description="(A2IS21LDU) Приход на НУ РБ1-СС" format ="1"></var>
+<var name="DO3214006" description="(A3IS21LDU) Приход на НУ ИС1" format ="1"></var>
+<var name="DO3214007" description="(B4IS11LDU) Приход на ВУ НИ2" format ="1"></var>
+<var name="DO3214008" description="(B4IS21LDU) Приход на НУ НИ2" format ="1"></var>
+<var name="DO3214009" description="(B8IS12LDU) Приход на механический ВУ АЗ2" format ="1"></var>
+<var name="DO3214010" description="(B8IS22LDU) Приход на механический НУ АЗ2" format ="1"></var>
+<var name="DO3214011" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format ="1"></var>
+<var name="DO3214012" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format ="1"></var>
+<var name="DO3214013" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format ="1"></var>
+<var name="DO3214014" description="(B3VP81LDU) Давление СПУСК ИС2 в норме" format ="1"></var>
+<var name="DO3214015" description="(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме" format ="1"></var>
+<var name="DO3214016" description="(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме" format ="1"></var>
+<var name="DO3214017" description="(R0IS02LDU) Разрешение ввода от имитатора" format ="1"></var>
+<var name="DO3214018" description="(A3IS11LDU) Приход на ВУ ИС1" format ="1"></var>
+<var name="DO3214019" description="(A3IS22LDU) Приход на НУП ИС1" format ="1"></var>
+<var name="DO3214020" description="(B3IS11LDU) Приход на ВУ ИС2" format ="1"></var>
+<var name="DO3214021" description="(B3IS22LDU) Приход на НУП ИС2" format ="1"></var>
+<var name="DO3214022" description="(R4IS11LDU) Приход на ВУ тележки" format ="1"></var>
+<var name="DO3214023" description="(R4IS12LDU) Приход на механический ВУ тележки" format ="1"></var>
+<var name="DO3214024" description="(R4IS21LDU) Приход на НУ тележки" format ="1"></var>
+<var name="DO3214025" description="(R4IS22LDU) Приход на механический НУ тележки" format ="1"></var>
+<var name="DO3214026" description="(A6IS11LDU) Приход на ВУ БЗ1" format ="1"></var>
+<var name="DO3214027" description="(A6IS21LDU) Приход на НУ БЗ1" format ="1"></var>
+<var name="DO3214028" description="(A5IS11LDU) Приход на ВУ НЛ1" format ="1"></var>
+<var name="DO3214029" description="(A5IS21LDU) Приход на НУ НЛ1" format ="1"></var>
+<var name="DO3214030" description="(B6IS11LDU) Приход на ВУ БЗ2" format ="1"></var>
+<var name="DO3214031" description="(B6IS21LDU) Приход на НУ БЗ2" format ="1"></var>
+<var name="DO3214032" description="(B5IS11LDU) Приход на ВУ НЛ2" format ="1"></var>
+
+
+<var name="DO3215001" description="(B5IS21LDU) Приход на НУ НЛ2" format ="1"></var>
+<var name="DO3215002" description="(R3IS11LDU) Приход на ВУ гомогенных дверей-1" format ="1"></var>
+<var name="DO3215003" description="(R3IS21LDU) Приход на НУ гомогенных дверей-1" format ="1"></var>
+<var name="DO3215004" description="(R3IS31LDU) Приход на ВУ гомогенных дверей-2" format ="1"></var>
+<var name="DO3215005" description="(R3IS41LDU) Приход на НУ гомогенных дверей-2" format ="1"></var>
+<var name="DO3215006" description="(R3AD10LDU) Гомогенные двери-1 открыть" format ="1"></var>
+<var name="DO3215007" description="(R3AD11LDU) Гомогенные двери-2 открыть" format ="1"></var>
+<var name="DO3215008" description="(R3AD20LDU) Гомогенные двери-1 закрыть" format ="1"></var>
+<var name="DO3215009" description="(R3AD21LDU) Гомогенные двери-2 закрыть" format ="1"></var>
+<var name="DO3215010" description="(R5IS11LDU) Приход на ВУ ворот отстойной зоны" format ="1"></var>
+<var name="DO3215011" description="(R5IS21LDU) Приход на НУ ворот отстойной зоны" format ="1"></var>
+<var name="DO3215012" description="(R5AD10LDU) Открыть ворота отстойной зоны" format ="1"></var>
+<var name="DO3215013" description="(R5AD20LDU) Закрыть ворота отстойной зоны" format ="1"></var>
+<var name="DO3215014" description="(R6IS21LDU) Кран-балка в нерабочем положении" format ="1"></var>
+<var name="DO3215015" description="(A8IS12LDU) Приход на механический ВУ ДС2" format ="1"></var>
+<var name="DO3215016" description="(A8IS22LDU) Приход на механический НУ ДС2" format ="1"></var>
+<var name="DO3215017" description="(A1IE02LDU) Исправность ИП ББ1" format ="1"></var>
+<var name="DO3215018" description="(A1IE01LDU) Исправность БУШД ББ1" format ="1"></var>
+<var name="DO3215019" description="(A2IE02LDU) Исправность ИП РБ1" format ="1"></var>
+<var name="DO3215020" description="(A2IE01LDU) Исправность БУШД РБ1" format ="1"></var>
+<var name="DO3215021" description="(A2IE03LDU) Движение РБ1 вперед (от БУШД)" format ="1"></var>
+<var name="DO3215022" description="(A2IE04LDU) Движение РБ1 назад (от БУШД)" format ="1"></var>
+<var name="DO3215023" description="(A3IE02LDU) Исправность ИП ИС1" format ="1"></var>
+<var name="DO3215024" description="(A3IE01LDU) Исправность БУШД ИС1" format ="1"></var>
+<var name="DO3215025" description="(A3IE03LDU) Движение ИС1 вперед (от БУШД)" format ="1"></var>
+<var name="DO3215026" description="(A3IE04LDU) Движение ИС1 назад (от БУШД)" format ="1"></var>
+<var name="DO3215027" description="(B1IE02LDU) Исправность ИП ББ2" format ="1"></var>
+<var name="DO3215028" description="(B1IE01LDU) Исправность БУШД ББ2" format ="1"></var>
+<var name="DO3215029" description="(B2IE02LDU) Исправность ИП РБ2" format ="1"></var>
+<var name="DO3215030" description="(B2IE01LDU) Исправность БУШД РБ2" format ="1"></var>
+<var name="DO3215031" description="(B2IE03LDU) Движение РБ2 вперед (от БУШД)" format ="1"></var>
+<var name="DO3215032" description="(B2IE04LDU) Движение РБ2 назад (от БУШД)" format ="1"></var>
+
+
+<var name="DO3216001" description="(B3IE02LDU) Исправность ИП ИС2" format ="1"></var>
+<var name="DO3216002" description="(B3IE01LDU) Исправность БУШД ИС2" format ="1"></var>
+<var name="DO3216003" description="(B3IE03LDU) Движение ИС2 вперед (от БУШД)" format ="1"></var>
+<var name="DO3216004" description="(B3IE04LDU) Движение ИС2 назад (от БУШД)" format ="1"></var>
+<var name="DO3216005" description="(R6IS61LDU) Исправность 3-х  фазной сети" format ="1"></var>
+<var name="DO3216006" description="(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»" format ="1"></var>
+<var name="DO3216007" description="(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»" format ="1"></var>
+<var name="DO3216008" description="(A8IE01LDU) Исправность ИП ДС2" format ="1"></var>
+<var name="DO3216009" description="(R1VS12LDU) Движение МДЗ1 в сторону ВУ" format ="1"></var>
+<var name="DO3216010" description="(R1VS22LDU) Движение МДЗ1 в сторону НУ" format ="1"></var>
+<var name="DO3216011" description="(R1IE01LDU) Исправность ИП МДЗ1" format ="1"></var>
+<var name="DO3216012" description="(R2VS12LDU) Движение МДЗ2 в сторону ВУ" format ="1"></var>
+<var name="DO3216013" description="(R2VS22LDU) Движение МДЗ2 в сторону НУ" format ="1"></var>
+<var name="DO3216014" description="(R2IE01LDU) Исправность ИП МДЗ2" format ="1"></var>
+<var name="DO3216015" description="(A5VS12LDU) Движение НЛ1 в сторону ВУ" format ="1"></var>
+<var name="DO3216016" description="(A5VS22LDU) Движение НЛ1 в сторону НУ" format ="1"></var>
+<var name="DO3216017" description="(A5IE02LDU) Исправность ИП НЛ1" format ="1"></var>
+<var name="DO3216018" description="(B5VS12LDU) Движение НЛ2 в сторону ВУ" format ="1"></var>
+<var name="DO3216019" description="(B5VS22LDU) Движение НЛ2 в сторону НУ" format ="1"></var>
+<var name="DO3216020" description="(B5IE01LDU) Исправность ИП НЛ2" format ="1"></var>
+<var name="DO3216021" description="(A6VS12LDU) Движение створок БЗ1  к  «ОТКРЫТА»" format ="1"></var>
+<var name="DO3216022" description="(A6VS22LDU) Движение створок БЗ1  к «ЗАКРЫТА»" format ="1"></var>
+<var name="DO3216023" description="(A6IE01LDU) Исправность ИП БЗ1" format ="1"></var>
+<var name="DO3216024" description="(B6VS12LDU) Движение створок БЗ2  к  «ОТКРЫТА»" format ="1"></var>
+<var name="DO3216025" description="(B6VS22LDU) Движение створок БЗ2  к «ЗАКРЫТА»" format ="1"></var>
+<var name="DO3216026" description="(B6IE01LDU) Исправность ИП БЗ2" format ="1"></var>
+<var name="DO3216027" description="(R0IE02LDU) Исправность ИП 24 В-1" format ="1"></var>
+<var name="DO3216028" description="(R0IE01LDU) Исправность ИП 24 В-2" format ="1"></var>
+<var name="DO3216029" description="(R6IS62LDU) Исправность ВИП ССДИ-39 1канал" format ="1"></var>
+<var name="DO3216030" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format ="1"></var>
+<var name="DO3216031" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format ="1"></var>
+<var name="DO3216032" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format ="1"></var>
+
+<var name="DO3212001" description="!!!(DO3212001) ENCODER?" format ="1"></var>
+<var name="DO3212002" description="!!!(DO3212002) ENCODER?" format ="1"></var>
+<var name="DO3212003" description="!!!(DO3212003) ENCODER?" format ="1"></var>
+<var name="DO3212004" description="!!!(DO3212004) ENCODER?" format ="1"></var>
+<var name="DO3212005" description="!!!(DO3212005) ENCODER?" format ="1"></var>
+<var name="DO3212006" description="!!!(DO3212006) ENCODER?" format ="1"></var>
+<var name="DO3212007" description="!!!(DO3212007) ENCODER?" format ="1"></var>
+<var name="DO3212008" description="!!!(DO3212008) ENCODER?" format ="1"></var>
+<var name="DO3212009" description="!!!(DO3212009) ENCODER?" format ="1"></var>
+<var name="DO3212010" description="!!!(DO3212010) ENCODER?" format ="1"></var>
+<var name="DO3212011" description="!!!(DO3212011) ENCODER?" format ="1"></var>
+<var name="DO3212012" description="!!!(DO3212012) ENCODER?" format ="1"></var>
+<var name="DO3212013" description="!!!(DO3212013) ENCODER?" format ="1"></var>
+<var name="DO3212014" description="!!!(DO3212014) ENCODER?" format ="1"></var>
+<var name="DO3212015" description="!!!(DO3212015) ENCODER?" format ="1"></var>
+<var name="DO3212016" description="!!!(DO3212016) ENCODER?" format ="1"></var>
+<var name="DO3212017" description="!!!(DO3212017) ENCODER?" format ="1"></var>
+<var name="DO3212018" description="!!!(DO3212018) ENCODER?" format ="1"></var>
+<var name="DO3212019" description="!!!(DO3212019) ENCODER?" format ="1"></var>
+<var name="DO3212020" description="!!!(DO3212020) ENCODER?" format ="1"></var>
+<var name="DO3212021" description="!!!(DO3212021) ENCODER?" format ="1"></var>
+<var name="DO3212022" description="!!!(DO3212022) ENCODER?" format ="1"></var>
+<var name="DO3212023" description="!!!(DO3212023) ENCODER?" format ="1"></var>
+<var name="DO3212024" description="!!!(DO3212024) ENCODER?" format ="1"></var>
+<var name="DO3212025" description="!!!(DO3212025) ENCODER?" format ="1"></var>
+<var name="DO3212026" description="!!!(DO3212026) ENCODER?" format ="1"></var>
+<var name="DO3212027" description="!!!(DO3212027) ENCODER?" format ="1"></var>
+<var name="DO3212028" description="!!!(DO3212028) ENCODER?" format ="1"></var>
+<var name="DO3212029" description="!!!(DO3212029) ENCODER?" format ="1"></var>
+<var name="DO3212030" description="!!!(DO3212030) ENCODER?" format ="1"></var>
+<var name="DO3212031" description="!!!(DO3212031) ENCODER?" format ="1"></var>
+<var name="DO3212032" description="!!!(DO3212032) ENCODER?" format ="1"></var>
+
+
+
+
+
+<var name="VDSR34001" description="(A1IC01LDU) BUS1_ББ1" format ="1"></var>
+<var name="VDSR34002" description="(B1IC01LDU) BUS2_ББ2" format ="1"></var>
+<var name="VDSR34003" description="(A2IC01LDU) BUS3_РБ1" format ="1"></var>
+<var name="VDSR34004" description="(B2IC01LDU) BUS4_РБ2" format ="1"></var>
+<var name="VDSR34005" description="(A3IC01LDU) BUS5_ИС1" format ="1"></var>
+<var name="VDSR34006" description="(B3IC01LDU) BUS6_ИС2" format ="1"></var>
+<var name="VDSR34007" description="(B8IC01LDU) BUS7_АЗ2" format ="1"></var>
+<var name="VDSR34008" description="(A8IC01LDU) BUS8_ДС2" format ="1"></var>
+<var name="VDSR34009" description="(R0IC41LDU) LUTCH" format ="1"></var>
+<var name="VDSR34010" description="(R0IC42LDU) Вход запрета" format ="1"></var>
+<var name="VDSR34011" description="(R0IC43LDU) Выход запрета" format ="1"></var>
+<var name="VDSR34012" description="(A3AD34LDU) Клапан ВПИС1  открыть (обесточить)" format ="1"></var>
+<var name="VDSR34013" description="(A3AD33LDU) Клапан «ВЫСТРЕЛ ИС1» открыть (обесточить)" format ="1"></var>
+<var name="VDSR34014" description="(A2AD33LDU) Клапан «Подъем РБ1» открыть" format ="1"></var>
+<var name="VDSR34015" description="(A4AD10LDU) Открыть клапан Подъем НИ1" format ="1"></var>
+<var name="VDSR34016" description="(A3AD31LDU) Клапан «СПУСК ИС1» открыть (обесточить)" format ="1"></var>
+<var name="VDSR34017" description="(A7AP31LDU) Клапан «Обдув АЗ1» открыть (обесточить)" format ="1"></var>
+<var name="VDSR34018" description="(R1AD10LDU) Опустить МДЗ1 в зону облучения" format ="1"></var>
+<var name="VDSR34019" description="(R1AD20LDU) Поднять МДЗ1" format ="1"></var>
+<var name="VDSR34020" description="(R2AD10LDU) Опустить МДЗ2 в зону облучения" format ="1"></var>
+<var name="VDSR34021" description="(R2AD20LDU) Поднять МДЗ2" format ="1"></var>
+<var name="VDSR34022" description="(A5AD10LDU) Поднять НЛ1" format ="1"></var>
+<var name="VDSR34023" description="(A5AD20LDU) Опустить НЛ1" format ="1"></var>
+<var name="VDSR34024" description="(B5AD10LDU) Поднять НЛ2" format ="1"></var>
+<var name="VDSR34025" description="(B5AD20LDU) Опустить НЛ2" format ="1"></var>
+<var name="VDSR34026" description="(B3AD34LDU) Клапан ВПИС ИС2  открыть (обесточить)" format ="1"></var>
+<var name="VDSR34027" description="(B3AD33LDU) Клапан «ВЫСТРЕЛ ИС2» закрыть (обесточить)" format ="1"></var>
+<var name="VDSR34028" description="(B2AD33LDU) Клапан «Подъем РБ2» открыть" format ="1"></var>
+<var name="VDSR34029" description="(B4AD10LDU) Открыть клапан Подъем НИ2" format ="1"></var>
+<var name="VDSR34030" description="(B3AD31LDU) Клапан «СПУСК ИС2» открыть (обесточить)" format ="1"></var>
+<var name="VDSR34031" description="(B7AP31LDU) Клапан «Обдув АЗ2» открыть (обесточить)" format ="1"></var>
+<var name="VDSR34032" description="(A8AD10LDU) Перемещение ДС2 вперед" format ="1"></var>
+
+
+
+<var name="VDSR36001" description="(A8AD20LDU) Перемещение ДС2 назад" format ="1"></var>
+<var name="VDSR36002" description="(A6AD10LDU) Открыть БЗ1" format ="1"></var>
+<var name="VDSR36003" description="(A6AD20LDU) Закрыть БЗ1" format ="1"></var>
+<var name="VDSR36004" description="(B6AD10LDU) Открыть БЗ2" format ="1"></var>
+<var name="VDSR36005" description="(B6AD20LDU) Закрыть БЗ2" format ="1"></var>
+<var name="VDSR36006" description="(R4AD10LDU) Перемещение тележки вперед" format ="1"></var>
+<var name="VDSR36007" description="(R4AD20LDU) Перемещение тележки назад" format ="1"></var>
+<var name="VDSR36008" description="(B8AD10LDU) Перемещение АЗ2 вперед" format ="1"></var>
+<var name="VDSR36009" description="(B8AD20LDU) Перемещение АЗ2 назад" format ="1"></var>
+<var name="VDSR36010" description="(A3AD11LDU) Сигнал на перемещение ИС1 вверх" format ="1"></var>
+<var name="VDSR36011" description="(A3AD21LDU) Сигнал на перемещение ИС1 вниз" format ="1"></var>
+<var name="VDSR36012" description="(A3AD01LDU) Разрешение движения ИС1" format ="1"></var>
+<var name="VDSR36013" description="(A3AD02LDU) 0-й бит скорости ИС1" format ="1"></var>
+<var name="VDSR36014" description="(A3AD03LDU) 1-й бит скорости ИС1" format ="1"></var>
+<var name="VDSR36015" description="(A3AD04LDU) 2-й бит скорости ИС1" format ="1"></var>
+<var name="VDSR36016" description="(A3AD05LDU) паритет команды на ИС1" format ="1"></var>
+<var name="VDSR36017" description="(B3AD11LDU) Сигнал на перемещение ИС2 вверх" format ="1"></var>
+<var name="VDSR36018" description="(B3AD21LDU) Сигнал на перемещение ИС2 вниз" format ="1"></var>
+<var name="VDSR36019" description="(B3AD01LDU) Разрешение движения ИС2" format ="1"></var>
+<var name="VDSR36020" description="(B3AD02LDU) 0-й бит скорости ИС2" format ="1"></var>
+<var name="VDSR36021" description="(B3AD03LDU) 1-й бит скорости ИС2" format ="1"></var>
+<var name="VDSR36022" description="(B3AD04LDU) 2-й бит скорости ИС2" format ="1"></var>
+<var name="VDSR36023" description="(B3AD05LDU) паритет команды на ИС2" format ="1"></var>
+<var name="VDSR36024" description="(A9AD10LDU) Открыть клапан Подъем НИ ДС1" format ="1"></var>
+<var name="VDSR36025" description="(B9AD10LDU) Открыть клапан Подъем НИ ДС2" format ="1"></var>
+<var name="VDSR36026" description="(A1AD11LDU) Сигнал на перемещение ББ1 вверх" format ="1"></var>
+<var name="VDSR36027" description="(A1AD21LDU) Сигнал на перемещение ББ1 вниз" format ="1"></var>
+<var name="VDSR36028" description="(A1AD01LDU) Разрешение движения ББ1" format ="1"></var>
+<var name="VDSR36029" description="(A1AD02LDU) 0-й бит скорости ББ1" format ="1"></var>
+<var name="VDSR36030" description="(A1AD03LDU) 1-й бит скорости ББ1" format ="1"></var>
+<var name="VDSR36031" description="(A1AD04LDU) 2-й бит скорости ББ1" format ="1"></var>
+<var name="VDSR36032" description="!!!(DO3211032) не занята" format ="1"></var>
+
+<var name="VDSR31001" description="(A1AD05LDU) паритет команды на ББ1" format ="1"></var>
+<var name="VDSR31002" description="(B1AD11LDU) Сигнал на перемещение ББ2 вверх" format ="1"></var>
+<var name="VDSR31003" description="(B1AD21LDU) Сигнал на перемещение ББ2 вниз" format ="1"></var>
+<var name="VDSR31004" description="(B1AD01LDU) Разрешение движения ББ2" format ="1"></var>
+<var name="VDSR31005" description="(B1AD02LDU) 0-й бит скорости ББ2" format ="1"></var>
+<var name="VDSR31006" description="(B1AD03LDU) 1-й бит скорости ББ2" format ="1"></var>
+<var name="VDSR31007" description="(B1AD04LDU) 2-й бит скорости ББ2" format ="1"></var>
+<var name="VDSR31008" description="(B1AD05LDU) паритет команды на ББ2" format ="1"></var>
+<var name="VDSR31009" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format ="1"></var>
+<var name="VDSR31010" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format ="1"></var>
+<var name="VDSR31011" description="(A2AD01LDU) Разрешение движения РБ1" format ="1"></var>
+<var name="VDSR31012" description="(A2AD02LDU) 0-й бит скорости РБ1" format ="1"></var>
+<var name="VDSR31013" description="(A2AD03LDU) 1-й бит скорости РБ1" format ="1"></var>
+<var name="VDSR31014" description="(A2AD04LDU) 2-й бит скорости РБ1" format ="1"></var>
+<var name="VDSR31015" description="(A2AD05LDU) паритет команды на РБ1" format ="1"></var>
+<var name="VDSR31016" description="(B2AD11LDU) Сигнал на перемещение РБ2 вверх" format ="1"></var>
+<var name="VDSR31017" description="(B2AD21LDU) Сигнал на перемещение РБ2 вниз" format ="1"></var>
+<var name="VDSR31018" description="(B2AD01LDU) Разрешение движения РБ2" format ="1"></var>
+<var name="VDSR31019" description="(B2AD02LDU) 0-й бит скорости РБ2" format ="1"></var>
+<var name="VDSR31020" description="(B2AD03LDU) 1-й бит скорости РБ2" format ="1"></var>
+<var name="VDSR31021" description="(B2AD04LDU) 2-й бит скорости РБ2" format ="1"></var>
+<var name="VDSR31022" description="(B2AD05LDU) паритет команды на РБ2" format ="1"></var>
+<var name="VDSR31023" description="(A1AD32LDU) Обесточить ЭМ ББ1" format ="1"></var>
+<var name="VDSR31024" description="(A1AD31LDU) Клапан «Сброс ББ1» открыть (обесточить)" format ="1"></var>
+<var name="VDSR31025" description="(A2AD32LDU) Обесточить ЭМ РБ1" format ="1"></var>
+<var name="VDSR31026" description="(A2AD31LDU) Клапан «Сброс РБ1» открыть (обесточить)" format ="1"></var>
+<var name="VDSR31027" description="(B1AD32LDU) Обесточить ЭМ ББ2" format ="1"></var>
+<var name="VDSR31028" description="(B1AD31LDU) Клапан «Сброс ББ2» открыть (обесточить)" format ="1"></var>
+<var name="VDSR31029" description="(B2AD32LDU) Обесточить ЭМ РБ2" format ="1"></var>
+<var name="VDSR31030" description="(B2AD31LDU) Клапан «Сброс РБ2» открыть (обесточить)" format ="1"></var>
+<var name="VDSR31031" description="(R8AD21LDU) Запуск системы инициирования" format ="1"></var>
+<var name="VDSR31032" description="(R0AD16LDU) Контроль  I-II УР. РАД" format ="1"></var>
+</vars>

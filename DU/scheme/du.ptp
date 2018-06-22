@@ -1,0 +1,23 @@
+Тепрол. Файл проекта.
+[TeprolProject]{
+  TPRName="D:\BARSIS\SC\du.tpr"
+  TPLName="D:\BARSIS\SC\"
+  ControllerXMLName="D:\NPN\AvtE\Teprol\22.04.2018\md\pti\pr\scm\devscm.xml"
+  DBSName="D:\BARSIS\SC\"
+  SinonimName=""
+  VariableName="D:\BARSIS\SC\adr.txt"
+  SignalsXMLName=""
+  ConstsXMLName=""
+  AssignXMLName=""
+  PlatformType=3
+  ModuleType=3
+  intESPPZU_Size=1024
+  extESPPZU_Size=1024
+  PostboxSize=8192
+  PostboxAddressType=1
+  PostboxAddress=28672
+  ESPPZU_Emulation=FALSE
+  FuncName="simulmain"
+  IsImitator=TRUE
+}
+38598
