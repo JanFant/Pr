@@ -4,5 +4,5 @@
         <variable xml="varDU"/>
         <saves xml="saveDU"/>
         <devices xml="devDU"/>
-        <modbus name="msDU" description="Пустые сигналы DU" type="slave" port="502" xml="DU"/>
+        <modbus name="msDU" description="DU-ModBus" type="slave" port="502" xml="DU"/>
 </subsystem>

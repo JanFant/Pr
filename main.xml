@@ -5,8 +5,9 @@
     <subs name="Baz1" scheme="D:/md/pti/pr/Baz1/scheme/Baz1.tpr"  id="5" file="Baz1fp" description="Baz1" main="192.168.10.52" second="192.168.10.152" path="d:/md/pti/pr/Baz1" step="20" status="ok" result="d:/md/pti" />
     <subs name="Baz2" scheme="D:/md/pti/pr/Baz2/scheme/Baz2.tpr"  id="6" file="Baz2fp" description="Baz2" main="192.168.10.54" second="192.168.10.154" path="d:/md/pti/pr/Baz2" step="20" status="ok" result="d:/md/pti" />
     <subs name="DU" scheme="D:/md/pti/pr/DU/scheme/DU.tpr"  id="7" file="DUfp" description="DU" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DU" step="20" status="ok" result="d:/md/pti" />
-    <subs name="AKNP4" scheme="D:/md/pti/pr/AKNP4/scheme/AKNP.tpr"  id="8" file="AKNP4fp" description="AKNP4_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNP4" step="20" status="ok" result="d:/md/pti" />
-    <subs name="AKNPS" scheme="D:/md/pti/pr/AKNS/scheme/sema.tpr"  id="9" file="AKNSfp" description="AKNS_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNS" step="20" status="ok" result="d:/md/pti" />
+    <subs name="AKNP4" scheme="D:/md/pti/pr/AKNP4/scheme/AKNP.tpr"  id="8" file="AKNP4fp" description="AKNP4_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNP4" step="5" status="ok" result="d:/md/pti" />
+    <!-- <subs name="AKNPS" scheme="D:/md/pti/pr/AKNS/scheme/sema.tpr"  id="9" file="AKNSfp" description="AKNS_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNS" step="20" status="ok" result="d:/md/pti" /> -->
+
 
     <!-- <subs name="Baz1Sig" scheme="D:/md/pti/pr/Baz1Sig/scheme/Baz1Sig.tpr"  id="5" file="Baz1Sigfp" description="Baz1Sig" main="192.168.10.52" second="192.168.10.152" path="d:/md/pti/pr/Baz1Sig" step="20" status="ok" result="d:/md/pti" />
     <subs name="Baz2Sig" scheme="D:/md/pti/pr/Baz2Sig/scheme/Baz2Sig.tpr"  id="5" file="Baz2Sigfp" description="Baz2Sig" main="192.168.10.54" second="192.168.10.154" path="d:/md/pti/pr/Baz2Sig" step="20" status="ok" result="d:/md/pti" /> -->

@@ -1,14 +1,15 @@
 Тепрол. Файл проекта.
 [TeprolProject]{
-  TPRName="D:\BARSIS\SC\du.tpr"
-  TPLName="D:\BARSIS\SC\"
-  ControllerXMLName="D:\NPN\AvtE\Teprol\22.04.2018\md\pti\pr\scm\devscm.xml"
-  DBSName="D:\BARSIS\SC\"
+  TPRName="D:\md\pti\pr\DU\scheme\du.tpr"
+  TPLName=""
+  ControllerXMLName="D:\md\pti\pr\DU\devDU.xml"
+  ModBusXMLName="D:\md\pti\pr\DU\DUfp.xml"
+  DBSName=""
   SinonimName=""
-  VariableName="D:\BARSIS\SC\adr.txt"
-  SignalsXMLName=""
-  ConstsXMLName=""
-  AssignXMLName=""
+  VariableName=""
+  SignalsXMLName="D:\md\pti\pr\DU\scheme\var.xml"
+  ConstsXMLName="D:\md\pti\pr\DU\scheme\save.xml"
+  AssignXMLName="D:\md\pti\pr\DU\scheme\ass.xml"
   PlatformType=3
   ModuleType=3
   intESPPZU_Size=1024
@@ -20,4 +21,4 @@
   FuncName="simulmain"
   IsImitator=TRUE
 }
-38598
+46182

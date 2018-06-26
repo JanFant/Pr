@@ -1,21 +1,21 @@
 <devices xml="DUass">
-        <device name="VDS321" driver="vds32" slot="01" description="VDS32"> </device>
-        <device name="VDS322" driver="vds32" slot="02" description="VDS32"> </device>
-        <device name="VDS323" driver="vds32" slot="03" description="VDS32"> </device>
-        <device name="VDS324" driver="vds32" slot="04" description="VDS32"> </device>
-        <device name="VDS325" driver="vds32" slot="05" description="VDS32"> </device>
+        <device name="VDS3201" driver="vds32" slot="01" description="VDS32-01"> </device>
+        <device name="VDS3202" driver="vds32" slot="02" description="VDS32-02"> </device>
+        <device name="VDS3203" driver="vds32" slot="03" description="VDS32-03"> </device>
+        <device name="VDS3204" driver="vds32" slot="04" description="VDS32-04"> </device>
+        <device name="VDS3205" driver="vds32" slot="05" description="VDS32-05"> </device>
 
 
-        <device name="FDS165" driver="fds16" slot="06" description="FDS16"> </device>
-        <device name="FDS161" driver="fds16" slot="07" description="FDS16"> </device>
-        <device name="FDS162" driver="fds16" slot="08" description="FDS16"> </device>
-        <device name="FDS166" driver="fds16" slot="09" description="FDS16"> </device>
-        <device name="FDS164" driver="fds16" slot="0a" description="FDS16"> </device>
-        <device name="FDS163" driver="fds16" slot="0b" description="FDS16"> </device>
+        <device name="FDS1606" driver="fds16" slot="06" description="FDS16-06"> </device>
+        <device name="FDS1607" driver="fds16" slot="07" description="FDS16-07"> </device>
+        <device name="FDS1608" driver="fds16" slot="08" description="FDS16-08"> </device>
+        <device name="FDS1609" driver="fds16" slot="09" description="FDS16-09"> </device>
+        <device name="FDS1610" driver="fds16" slot="0a" description="FDS16-10"> </device>
+        <device name="FDS1611" driver="fds16" slot="0b" description="FDS16-11"> </device>
 
-        <device name="VAS84" driver="vas84" slot="0c" description="VAS84"> </device>
-        <device name="VDS326" driver="vds32" slot="0d" description="VDS32"> </device>
-        <device name="FDS167" driver="fds16" slot="0f" description="FDS16"> </device>
+        <device name="VAS8412" driver="vas84" slot="0c" description="VAS84-12"> </device>
+        <device name="VDS3213" driver="vds32" slot="0d" description="VDS32-13"> </device>
+        <device name="FDS1615" driver="fds16" slot="0f" description="FDS16-15"> </device>
 
         <!-- <device name="SBKFP" driver="sbk" slot= "55" description="SBKFP"></device> -->
 </devices>
