@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="38" lenInit="12" header="fp8/drivers/vchs2.h">
+<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="42" lenInit="12" header="fp8/drivers/vchs2.h">
 <!--
     mode="input" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
@@ -10,11 +10,11 @@
     <signals>
         <signal name="K01VCHS" format="8" mode="input" address="0"/>
         <signal name="K02VCHS" format="8" mode="input" address="5"/>
-        <signal name="tempI" format="4" mode="input" address="10"/>
-        <!-- <signal name="takt" format="8" mode="input" address="14"/>
-        <signal name="cykl" format="8" mode="input" address="22"/>
-        <signal name="perm" format="3" mode="input" address="30"/>
-        <signal name="svchs" format="18" mode="input" address="34"/> -->
+        <!-- <signal name="tempI" format="4" mode="input" address="10"/> 
+        <signal name="takt" format="8" mode="input" address="18"/>
+        <signal name="cykl" format="8" mode="input" address="26"/>
+        <signal name="perm" format="3" mode="input" address="34"/>
+        <signal name="svchs" format="18" mode="input" address="38"/> -->
 
 
     </signals>

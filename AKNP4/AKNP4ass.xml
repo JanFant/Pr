@@ -1,6 +1,7 @@
 <assign>
     <VCHS01>
-        <def name="Vchsk1">K01VCHS</def>
+        <def name="VCHSK1">K01VCHS</def>
+        <def name="VCHSK2">K02VCHS</def>
     </VCHS01>
     <SBKFP>
         <def name="POWER1" >S01SBK</def>
