@@ -17,7 +17,7 @@
         <def name="AO1632015">K15AO</def>
         <def name="AO1632016">K16AO</def>
     </AO1601>
-
+    
     <DO32_5F01>
         <def name="DO3210001">K01DO</def>
         <def name="DO3210002">K02DO</def>
@@ -52,7 +52,6 @@
         <def name="DO3210031">K31DO</def>
         <def name="DO3210032">K32DO</def>
     </DO32_5F01>
-
 
     <DO32_5F02>
         <def name="DO3211001">K01DO</def>
@@ -227,6 +226,7 @@
         <def name="DO3216031">K31DO</def>
         <def name="DO3216032">K32DO</def>
     </DO32_5F06>
+    <!-- это 0х120 -->
     <DO32_5F04>
         <def name="DO3212001">K01DO</def>
         <def name="DO3212002">K02DO</def>

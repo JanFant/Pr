@@ -2,6 +2,39 @@
 <var name="A3IP02IDU" description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format ="3"></var> 
 <var name="B3IP02IDU" description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ ИС2" format ="3"></var> 
 
+<var name="R0IC00LDU" description="(R0IC00LDU) +Di0" format="1"></var>
+<var name="R0IC01LDU" description="(R0IC01LDU) +Di1" format="1"></var>
+<var name="R0IC02LDU" description="(R0IC02LDU) +Di2" format="1"></var>
+<var name="R0IC03LDU" description="(R0IC03LDU) +Di3" format="1"></var>
+<var name="R0IC04LDU" description="(R0IC04LDU) +Di4" format="1"></var>
+<var name="R0IC05LDU" description="(R0IC05LDU) +Di5" format="1"></var>
+<var name="R0IC06LDU" description="(R0IC06LDU) +Di6" format="1"></var>
+<var name="R0IC07LDU" description="(R0IC07LDU) +Di7" format="1"></var>
+<var name="R0IC08LDU" description="(R0IC08LDU) +Di8" format="1"></var>
+<var name="R0IC09LDU" description="(R0IC09LDU) +Di9" format="1"></var>
+<var name="R0IC10LDU" description="(R0IC10LDU) +Di10" format="1"></var>
+<var name="R0IC11LDU" description="(R0IC11LDU) +Di11" format="1"></var>
+<var name="R0IC12LDU" description="(R0IC12LDU) +Di12" format="1"></var>
+<var name="R0IC13LDU" description="(R0IC13LDU) +Di13" format="1"></var>
+<var name="R0IC14LDU" description="(R0IC14LDU) +Di14" format="1"></var>
+<var name="R0IC15LDU" description="(R0IC15LDU) +Di15" format="1"></var>
+<var name="R0IC16LDU" description="(R0IC16LDU) +Di16" format="1"></var>
+<var name="R0IC17LDU" description="(R0IC17LDU) +Di17" format="1"></var>
+<var name="R0IC18LDU" description="(R0IC18LDU) +Di18" format="1"></var>
+<var name="R0IC19LDU" description="(R0IC19LDU) +Di19" format="1"></var>
+<var name="R0IC20LDU" description="(R0IC20LDU) +Di20" format="1"></var>
+<var name="R0IC21LDU" description="(R0IC21LDU) +Di21" format="1"></var>
+<var name="R0IC22LDU" description="(R0IC22LDU) +Di22" format="1"></var>
+<var name="R0IC23LDU" description="(R0IC23LDU) +Di23" format="1"></var>
+<var name="R0IC24LDU" description="(R0IC24LDU) +Di24" format="1"></var>
+<var name="R0IC25LDU" description="(R0IC25LDU) +Di25" format="1"></var>
+<var name="R0IC26LDU" description="(R0IC26LDU) +Di26" format="1"></var>
+<var name="R0IC27LDU" description="(R0IC27LDU) +Di27" format="1"></var>
+<var name="R0IC28LDU" description="(R0IC28LDU) +Di28" format="1"></var>
+<var name="R0IC29LDU" description="(R0IC29LDU) +Di29" format="1"></var>
+<var name="R0IC30LDU" description="(R0IC30LDU) +Di30" format="1"></var>
+<var name="R0IC31LDU" description="(R0IC31LDU) +Di31" format="1"></var> 
+
 <var name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт (обесточен)" format ="1"></var> 
 <var name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен)" format ="1"></var> 
 <var name="B2IS33LDU" description="(B2IS33LDU) Клапан «Подъём РБ2» открыт (обесточен)" format ="1"></var> 
@@ -258,6 +291,9 @@
 <var name="B1AD31LDU" description="(B1AD31LDU) Клапан «Сброс ББ2» открыть (обесточить)" format ="1"></var>
 <var name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format ="1"></var>
 <var name="B2AD31LDU" description="(B2AD31LDU) Клапан «Сброс РБ2» открыть (обесточить)" format ="1"></var>
+<var name="R0AD13LDU" description="(R0AD13LDU) Имитация прихода на ВУ ИС" format ="1"></var>
+<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания АС II УР. РАД" format ="1"></var>
+<var name="R0AD15LDU" description="(R0AD15LDU) Имитация ухода с НУП ИС " format ="1"></var>
 <var name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format ="1"></var>
 <var name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format ="1"></var>
 

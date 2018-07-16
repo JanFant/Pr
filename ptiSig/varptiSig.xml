@@ -82,11 +82,6 @@
 <var name="DO3211031" description="(B1VP81LZ2) Давление СБРОС ББ2 в норме" format ="1"></var>
 <var name="DO3211032" description="(R0VP82LZ2) Давление  в СИСТЕМЕ - 2 в норме" format ="1"></var>
 
-
-
-
-
-
 <var name="DO3213001" description="(B3IS35LDU) Клапан «ВПИС2» открыт (обесточен) " format ="1"></var>
 <var name="DO3213002" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен) " format ="1"></var>
 <var name="DO3213003" description="(B2IS33LDU) Клапан «Подъём РБ2» открыт (обесточен) " format ="1"></var>
@@ -130,7 +125,8 @@
 <var name="DO3214007" description="(B4IS11LDU) Приход на ВУ НИ2" format ="1"></var>
 <var name="DO3214008" description="(B4IS21LDU) Приход на НУ НИ2" format ="1"></var>
 <var name="DO3214009" description="(B8IS12LDU) Приход на механический ВУ АЗ2" format ="1"></var>
-<var name="DO3214010" description="(B8IS22LDU) Приход на механический НУ АЗ2" format ="1"></var>
+<!-- <var name="DO3214010" description="(B8IS22LDU) Приход на механический НУ АЗ2" format ="1"></var> -->
+<var name="DO3214010" description="()" format ="1"></var>
 <var name="DO3214011" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format ="1"></var>
 <var name="DO3214012" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format ="1"></var>
 <var name="DO3214013" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format ="1"></var>
@@ -146,7 +142,8 @@
 <var name="DO3214023" description="(R4IS12LDU) Приход на механический ВУ тележки" format ="1"></var>
 <var name="DO3214024" description="(R4IS21LDU) Приход на НУ тележки" format ="1"></var>
 <var name="DO3214025" description="(R4IS22LDU) Приход на механический НУ тележки" format ="1"></var>
-<var name="DO3214026" description="(A6IS11LDU) Приход на ВУ БЗ1" format ="1"></var>
+<!-- <var name="DO3214026" description="(A6IS11LDU) Приход на ВУ БЗ1" format ="1"></var> -->
+<var name="DO3214026" description="()" format ="1"></var>
 <var name="DO3214027" description="(A6IS21LDU) Приход на НУ БЗ1" format ="1"></var>
 <var name="DO3214028" description="(A5IS11LDU) Приход на ВУ НЛ1" format ="1"></var>
 <var name="DO3214029" description="(A5IS21LDU) Приход на НУ НЛ1" format ="1"></var>
@@ -171,8 +168,10 @@
 <var name="DO3215014" description="(R6IS21LDU) Кран-балка в нерабочем положении" format ="1"></var>
 <var name="DO3215015" description="(A8IS12LDU) Приход на механический ВУ ДС2" format ="1"></var>
 <var name="DO3215016" description="(A8IS22LDU) Приход на механический НУ ДС2" format ="1"></var>
-<var name="DO3215017" description="(A1IE02LDU) Исправность ИП ББ1" format ="1"></var>
-<var name="DO3215018" description="(A1IE01LDU) Исправность БУШД ББ1" format ="1"></var>
+<!-- <var name="DO3215017" description="(A1IE02LDU) Исправность ИП ББ1" format ="1"></var> -->
+<var name="DO3215017" description="(B8IS22LDU) Приход на механический НУ АЗ2" format ="1"></var>
+<!-- <var name="DO3215018" description="(A1IE01LDU) Исправность БУШД ББ1" format ="1"></var> -->
+<var name="DO3215018" description="(A6IS11LDU) Приход на ВУ БЗ1" format ="1"></var>
 <var name="DO3215019" description="(A2IE02LDU) Исправность ИП РБ1" format ="1"></var>
 <var name="DO3215020" description="(A2IE01LDU) Исправность БУШД РБ1" format ="1"></var>
 <var name="DO3215021" description="(A2IE03LDU) Движение РБ1 вперед (от БУШД)" format ="1"></var>
@@ -221,7 +220,7 @@
 <var name="DO3216030" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format ="1"></var>
 <var name="DO3216031" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format ="1"></var>
 <var name="DO3216032" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format ="1"></var>
-
+<!-- 0x120 -->
 <var name="DO3212001" description="!!!(DO3212001) ENCODER?" format ="1"></var>
 <var name="DO3212002" description="!!!(DO3212002) ENCODER?" format ="1"></var>
 <var name="DO3212003" description="!!!(DO3212003) ENCODER?" format ="1"></var>
@@ -254,9 +253,6 @@
 <var name="DO3212030" description="!!!(DO3212030) ENCODER?" format ="1"></var>
 <var name="DO3212031" description="!!!(DO3212031) ENCODER?" format ="1"></var>
 <var name="DO3212032" description="!!!(DO3212032) ENCODER?" format ="1"></var>
-
-
-
 
 
 <var name="VDSR34001" description="(A1IC01LDU) BUS1_ББ1" format ="1"></var>

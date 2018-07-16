@@ -2,22 +2,34 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="7" lenInit="25" header="fp8/drivers/vchs2.h">
+<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="38" lenInit="12" header="fp8/drivers/vchs2.h">
 <!--
     mode="input" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
 -->
     <signals>
-        <signal name="K01VCHS" format="3" mode="input" address="0"/>
-        <signal name="K02VCHS" format="3" mode="input" address="3"/>
-        <signal name="Cyclen" format="18" mode="input" address="6"/>
+        <signal name="K01VCHS" format="8" mode="input" address="0"/>
+        <signal name="K02VCHS" format="8" mode="input" address="5"/>
+        <signal name="tempI" format="4" mode="input" address="10"/>
+        <!-- <signal name="takt" format="8" mode="input" address="14"/>
+        <signal name="cykl" format="8" mode="input" address="22"/>
+        <signal name="perm" format="3" mode="input" address="30"/>
+        <signal name="svchs" format="18" mode="input" address="34"/> -->
+
+
     </signals>
     <init type="vchs_inipar">
-        <signal name="INIT01" mode="input" format="18" value="0xc4" address="0"/>
-        <signal name="INIT02" mode="input" format="18" value="255" address="1"/>
-        <signal name="INIT03" mode="input" format="18" value="0"  address="2"/>
-        <signal name="INIT04" mode="input" format="18" value="8" address="4"/>
-        <signal name="INIT05" mode="input" format="18" value="255" address="5"/>
-        <signal name="INIT06" mode="input" format="18" value="16" address="7"/>
+        <signal name="type" mode="input" format="18" value="172" address="0"/>
+        <signal name="BoxLen" mode="input" format="2" value="255" address="1"/>
+        <signal name="vip" mode="input" format="18" value="1" address="2"/>
+        <signal name="NumCh" mode="input" format="18" value="8"  address="3"/>
+        <signal name="Usmask" mode="input" format="18" value="0xff" address="4"/>
+        <signal name="ChMask" mode="input" format="18" value="0" address="5"/>
+        <signal name="chn1d" mode="input" format="18" value="0x1" address="6"/>
+        <signal name="chn2d" mode="input" format="18" value="0x1" address="7"/>
+        <signal name="Gmin1" mode="input" format="8" value="0" address="8"/>
+        <signal name="Gmin2" mode="input" format="8" value="0" address="9"/>
+        <signal name="Gmax1" mode="input" format="8" value="1000000" address="10"/>
+        <signal name="Gmax2" mode="input" format="8" value="1000000" address="11"/>
     </init>
 </driver>

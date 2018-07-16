@@ -1,68 +1,71 @@
 <vars>
-    <var  name="POWER1"   description="(POWER1 )" format="1"></var>
-    <var  name="POWER2"   description="(POWER2 )" format="1"></var>
-    <var  name="DOOR"     description="(DOOR   )" format="1"></var>
-    <var  name="T43"      description="(T43    )" format="1"></var>
-    <var  name="T53"      description="(T53    )" format="1"></var>
-    <var  name="BP124"    description="(BP124  )" format="1"></var>
-    <var  name="BP15"     description="(BP15   )" format="1"></var>
-    <var  name="BP224"    description="(BP224  )" format="1"></var>
-    <var  name="BP25"     description="(BP25   )" format="1"></var>
-    <var  name="MPBP124"  description="(MPBP124)" format="1"></var>
-    <var  name="MPBP15"   description="(MPBP15 )" format="1"></var>
-    <var  name="MPBP224"  description="(MPBP224)" format="1"></var>
-    <var  name="MPBP25"   description="(MPBP25 )" format="1"></var>
-    
-    <var  name="VDS32R01" description="(VDS32R01)" format="1"></var>
-    <var  name="VDS32R02" description="(VDS32R02)" format="1"></var>
-    <var  name="VDS32R03" description="(VDS32R03)" format="1"></var>
-    <var  name="VDS32R04" description="(VDS32R04)" format="1"></var>
-    <var  name="VDS32R05" description="(VDS32R05)" format="1"></var>
-    <var  name="VDS32R06" description="(VDS32R06)" format="1"></var>
-    <var  name="VDS32R07" description="(VDS32R07)" format="1"></var>
-    <var  name="VDS32R08" description="(VDS32R08)" format="1"></var>
-    <var  name="VDS32R09" description="(VDS32R09)" format="1"></var>
-    <var  name="VDS32R10" description="(VDS32R10)" format="1"></var>
-    <var  name="VDS32R11" description="(VDS32R11)" format="1"></var>
-    <var  name="VDS32R12" description="(VDS32R12)" format="1"></var>
-    <var  name="VDS32R13" description="(VDS32R13)" format="1"></var>
-    <var  name="VDS32R14" description="(VDS32R14)" format="1"></var>
-    <var  name="VDS32R15" description="(VDS32R15)" format="1"></var>
-    <var  name="VDS32R16" description="(VDS32R16)" format="1"></var>
-    <var  name="VDS32R17" description="(VDS32R17)" format="1"></var>
-    <var  name="VDS32R18" description="(VDS32R18)" format="1"></var>
-    <var  name="VDS32R19" description="(VDS32R19)" format="1"></var>
-    <var  name="VDS32R20" description="(VDS32R20)" format="1"></var>
-    <var  name="VDS32R21" description="(VDS32R21)" format="1"></var>
-    <var  name="VDS32R22" description="(VDS32R22)" format="1"></var>
-    <var  name="VDS32R23" description="(VDS32R23)" format="1"></var>
-    <var  name="VDS32R24" description="(VDS32R24)" format="1"></var>
-    <var  name="VDS32R25" description="(VDS32R25)" format="1"></var>
-    <var  name="VDS32R26" description="(VDS32R26)" format="1"></var>
-    <var  name="VDS32R27" description="(VDS32R27)" format="1"></var>
-    <var  name="VDS32R28" description="(VDS32R28)" format="1"></var>
-    <var  name="VDS32R29" description="(VDS32R29)" format="1"></var>
-    <var  name="VDS32R30" description="(VDS32R30)" format="1"></var>
-    <var  name="VDS32R31" description="(VDS32R31)" format="1"></var>
-    <var  name="VDS32R32" description="(VDS32R32)" format="1"></var>
-    
-    <var  name="FDS16R01" description="(FDS16R01)" format="1"></var>
-    <var  name="FDS16R02" description="(FDS16R02)" format="1"></var>
-    <var  name="FDS16R03" description="(FDS16R03)" format="1"></var>
-    <var  name="FDS16R04" description="(FDS16R04)" format="1"></var>
-    <var  name="FDS16R05" description="(FDS16R05)" format="1"></var>
-    <var  name="FDS16R06" description="(FDS16R06)" format="1"></var>
-    <var  name="FDS16R07" description="(FDS16R07)" format="1"></var>
-    <var  name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var  name="FDS16R09" description="(FDS16R09)" format="1"></var>
-    <var  name="FDS16R10" description="(FDS16R10)" format="1"></var>
-    <var  name="FDS16R11" description="(FDS16R11)" format="1"></var>
-    <var  name="FDS16R12" description="(FDS16R12)" format="1"></var>
-    <var  name="FDS16R13" description="(FDS16R13)" format="1"></var>
-    <var  name="FDS16R14" description="(FDS16R14)" format="1"></var>
-    <var  name="FDS16R15" description="(FDS16R15)" format="1"></var>
-    <var  name="FDS16R16" description="(FDS16R16)" format="1"></var>
 
-    <var  name="ISPFDS18" description="(ISPFDS18)" format="3"></var>
-    <var  name="ISPFDS96" description="(ISPFDS96)" format="3"></var>
+    <var name="Vchsk1" description="(Vchsk1)" format ="8"></var>
+    
+    <var name="POWER1"   description="(POWER1 )" format="1"></var>
+    <var name="POWER2"   description="(POWER2 )" format="1"></var>
+    <var name="DOOR"     description="(DOOR   )" format="1"></var>
+    <var name="T43"      description="(T43    )" format="1"></var>
+    <var name="T53"      description="(T53    )" format="1"></var>
+    <var name="BP124"    description="(BP124  )" format="1"></var>
+    <var name="BP15"     description="(BP15   )" format="1"></var>
+    <var name="BP224"    description="(BP224  )" format="1"></var>
+    <var name="BP25"     description="(BP25   )" format="1"></var>
+    <var name="MPBP124"  description="(MPBP124)" format="1"></var>
+    <var name="MPBP15"   description="(MPBP15 )" format="1"></var>
+    <var name="MPBP224"  description="(MPBP224)" format="1"></var>
+    <var name="MPBP25"   description="(MPBP25 )" format="1"></var>
+    
+    <var name="VDS32R01" description="(VDS32R01)" format="1"></var>
+    <var name="VDS32R02" description="(VDS32R02)" format="1"></var>
+    <var name="VDS32R03" description="(VDS32R03)" format="1"></var>
+    <var name="VDS32R04" description="(VDS32R04)" format="1"></var>
+    <var name="VDS32R05" description="(VDS32R05)" format="1"></var>
+    <var name="VDS32R06" description="(VDS32R06)" format="1"></var>
+    <var name="VDS32R07" description="(VDS32R07)" format="1"></var>
+    <var name="VDS32R08" description="(VDS32R08)" format="1"></var>
+    <var name="VDS32R09" description="(VDS32R09)" format="1"></var>
+    <var name="VDS32R10" description="(VDS32R10)" format="1"></var>
+    <var name="VDS32R11" description="(VDS32R11)" format="1"></var>
+    <var name="VDS32R12" description="(VDS32R12)" format="1"></var>
+    <var name="VDS32R13" description="(VDS32R13)" format="1"></var>
+    <var name="VDS32R14" description="(VDS32R14)" format="1"></var>
+    <var name="VDS32R15" description="(VDS32R15)" format="1"></var>
+    <var name="VDS32R16" description="(VDS32R16)" format="1"></var>
+    <var name="VDS32R17" description="(VDS32R17)" format="1"></var>
+    <var name="VDS32R18" description="(VDS32R18)" format="1"></var>
+    <var name="VDS32R19" description="(VDS32R19)" format="1"></var>
+    <var name="VDS32R20" description="(VDS32R20)" format="1"></var>
+    <var name="VDS32R21" description="(VDS32R21)" format="1"></var>
+    <var name="VDS32R22" description="(VDS32R22)" format="1"></var>
+    <var name="VDS32R23" description="(VDS32R23)" format="1"></var>
+    <var name="VDS32R24" description="(VDS32R24)" format="1"></var>
+    <var name="VDS32R25" description="(VDS32R25)" format="1"></var>
+    <var name="VDS32R26" description="(VDS32R26)" format="1"></var>
+    <var name="VDS32R27" description="(VDS32R27)" format="1"></var>
+    <var name="VDS32R28" description="(VDS32R28)" format="1"></var>
+    <var name="VDS32R29" description="(VDS32R29)" format="1"></var>
+    <var name="VDS32R30" description="(VDS32R30)" format="1"></var>
+    <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
+    <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
+    
+    <var name="FDS16R01" description="(FDS16R01)" format="1"></var>
+    <var name="FDS16R02" description="(FDS16R02)" format="1"></var>
+    <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
+    <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
+    <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
+    <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
+    <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
+    <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
+    <var name="FDS16R09" description="(FDS16R09)" format="1"></var>
+    <var name="FDS16R10" description="(FDS16R10)" format="1"></var>
+    <var name="FDS16R11" description="(FDS16R11)" format="1"></var>
+    <var name="FDS16R12" description="(FDS16R12)" format="1"></var>
+    <var name="FDS16R13" description="(FDS16R13)" format="1"></var>
+    <var name="FDS16R14" description="(FDS16R14)" format="1"></var>
+    <var name="FDS16R15" description="(FDS16R15)" format="1"></var>
+    <var name="FDS16R16" description="(FDS16R16)" format="1"></var>
+
+    <var name="ISPFDS18" description="(ISPFDS18)" format="3"></var>
+    <var name="ISPFDS96" description="(ISPFDS96)" format="3"></var>
 </vars>

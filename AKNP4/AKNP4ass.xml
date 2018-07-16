@@ -1,18 +1,21 @@
 <assign>
+    <VCHS01>
+        <def name="Vchsk1">K01VCHS</def>
+    </VCHS01>
     <SBKFP>
-           <def name="POWER1" >S01SBK</def>
-           <def name="POWER2" >S02SBK</def>
-           <def name="DOOR"   >S03SBK</def>
-           <def name="T43"    >S04SBK</def>
-           <def name="T53"    >S05SBK</def>
-           <def name="BP124"  >S06SBK</def>
-           <def name="BP15"   >S07SBK</def>
-           <def name="BP224"  >S08SBK</def>
-           <def name="BP25"   >S09SBK</def>
-           <def name="MPBP124">S10SBK</def>
-           <def name="MPBP15" >S11SBK</def>
-           <def name="MPBP224">S12SBK</def>
-           <def name="MPBP25" >S13SBK</def>
+        <def name="POWER1" >S01SBK</def>
+        <def name="POWER2" >S02SBK</def>
+        <def name="DOOR"   >S03SBK</def>
+        <def name="T43"    >S04SBK</def>
+        <def name="T53"    >S05SBK</def>
+        <def name="BP124"  >S06SBK</def>
+        <def name="BP15"   >S07SBK</def>
+        <def name="BP224"  >S08SBK</def>
+        <def name="BP25"   >S09SBK</def>
+        <def name="MPBP124">S10SBK</def>
+        <def name="MPBP15" >S11SBK</def>
+        <def name="MPBP224">S12SBK</def>
+        <def name="MPBP25" >S13SBK</def>
     </SBKFP>
     <VDS32>
         <def name="VDS32R01">K01VDSR</def>

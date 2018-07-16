@@ -1,30 +1,25 @@
 <!-->
 Описание драйвера по умолчанию
 -->
-<driver name="em8enc" description="Эмулятор енкодеров 8 канальный" code="0x05" lenData="24" lenInit="12" header="../pti/drivers/emul8enc.h">
+<driver name="em8enc" description="Эмулятор енкодеров 8 канальный" code="0x05" lenData="40" lenInit="8" header="drivers/emul8enc.h">
     <signals>
-        <signal name="ENC01" format="2" mode="output" address="0"/>
-        <signal name="ENC02" format="2" mode="output" address="3"/>
-        <signal name="ENC03" format="2" mode="output" address="6"/>
-        <signal name="ENC04" format="2" mode="output" address="9"/>
-        <signal name="ENC05" format="2" mode="output" address="12"/>
-        <signal name="ENC06" format="2" mode="output" address="15"/>
-        <signal name="ENC07" format="2" mode="output" address="18"/>
-        <signal name="ENC08" format="2" mode="output" address="21"/>
+        <signal name="ENC01" format="4" mode="output" address="0"/>
+        <signal name="ENC02" format="4" mode="output" address="5"/>
+        <signal name="ENC03" format="4" mode="output" address="10"/>
+        <signal name="ENC04" format="4" mode="output" address="15"/>
+        <signal name="ENC05" format="4" mode="output" address="20"/>
+        <signal name="ENC06" format="4" mode="output" address="25"/>
+        <signal name="ENC07" format="4" mode="output" address="30"/>
+        <signal name="ENC08" format="4" mode="output" address="35"/>
     </signals>
     <init type="em8encpti_inimod">
-        <signal name="indev" mode="input" format="2" value="0x100" address="0"/>
-        <signal name="indevbit" mode="input" format="2" value="12" address="1"/>
-        <signal name="latchdev" mode="input" format="2" value="0x110" address="2"/>
-        <signal name="latchbit" mode="input" format="2" value="6" address="3"/>
-        <signal name="readydev" mode="input" format="2" value="0x120" address="4"/>
-        <signal name="readybit" mode="input" format="2" value="7" address="5"/>
-        <signal name="waitRead" mode="input" format="11" value="1000" address="6"/>
-        <signal name="waitLatch" mode="input" format="11" value="2000" address="7"/>
-        <signal name="maskReadyOn" mode="input" format="4" value="0" address="8"/>
-        <signal name="maskReadyOff" mode="input" format="4" value="0" address="9"/>
-        <signal name="maskLatch" mode="input" format="4" value="0" address="10"/>
-        <signal name="maskEncoder" mode="input" format="4" value="0" address="11"/>
-		
+        <signal name="latchdev" mode="input" format="2" value="0x340" address="0"/>
+        <signal name="readydev" mode="input" format="2" value="0x140" address="1"/>
+        <signal name="waitRead" mode="input" format="4" value="1000" address ="2"/>     
+		<signal name="waitLatch" mode="input" format="4" value="15000" address ="3"/>    
+        <signal name="maskReadyOn" mode="input" format="2" value="0x20000000" address ="4"/>  
+        <signal name="maskReadyOff" mode="input" format="2" value="0xDFFFFFFF" address ="5"/>
+        <signal name="maskLatch" mode="input" format="2" value="0x00000100" address ="6"/>
+        <signal name="maskEncoder" mode="input" format="2" value="0x000000ff" address ="7"/>
 	</init>
 </driver>

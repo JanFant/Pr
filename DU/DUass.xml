@@ -3,6 +3,40 @@
         <def name="A3IP02IDU">K01VASR</def>
         <def name="B3IP02IDU">K02VASR</def>
     </VAS8412>
+    <VDS3201>
+        <def name ="R0IC00LDU">K01VDSR</def>
+        <def name ="R0IC01LDU">K02VDSR</def>
+        <def name ="R0IC02LDU">K03VDSR</def>
+        <def name ="R0IC03LDU">K04VDSR</def>
+        <def name ="R0IC04LDU">K05VDSR</def>
+        <def name ="R0IC05LDU">K06VDSR</def>
+        <def name ="R0IC06LDU">K07VDSR</def>
+        <def name ="R0IC07LDU">K08VDSR</def>
+        <def name ="R0IC08LDU">K09VDSR</def>
+        <def name ="R0IC09LDU">K10VDSR</def>
+        <def name ="R0IC10LDU">K11VDSR</def>
+        <def name ="R0IC11LDU">K12VDSR</def>
+        <def name ="R0IC12LDU">K13VDSR</def>
+        <def name ="R0IC13LDU">K14VDSR</def>
+        <def name ="R0IC14LDU">K15VDSR</def>
+        <def name ="R0IC15LDU">K16VDSR</def>
+        <def name ="R0IC16LDU">K17VDSR</def>
+        <def name ="R0IC17LDU">K18VDSR</def>
+        <def name ="R0IC18LDU">K19VDSR</def>
+        <def name ="R0IC19LDU">K20VDSR</def>
+        <def name ="R0IC20LDU">K21VDSR</def>
+        <def name ="R0IC21LDU">K22VDSR</def>
+        <def name ="R0IC22LDU">K23VDSR</def>
+        <def name ="R0IC23LDU">K24VDSR</def>
+        <def name ="R0IC24LDU">K25VDSR</def>
+        <def name ="R0IC25LDU">K26VDSR</def>
+        <def name ="R0IC26LDU">K27VDSR</def>
+        <def name ="R0IC27LDU">K28VDSR</def>
+        <def name ="R0IC28LDU">K29VDSR</def>
+        <def name ="R0IC29LDU">K30VDSR</def>
+        <def name ="R0IC30LDU">K31VDSR</def>
+        <def name ="R0IC31LDU">K32VDSR</def>
+    </VDS3201>
     <VDS3202>
         <def name="B3IS35LDU">K01VDSR</def>
         <def name="B3IS33LDU">K02VDSR</def>
@@ -270,6 +304,9 @@
         <def name="B1AD31LDU">K06FDSR</def>
         <def name="B2AD32LDU">K07FDSR</def>
         <def name="B2AD31LDU">K08FDSR</def>
+        <def name="R0AD13LDU">K09FDSR</def>
+        <def name="R0AD14LDU">K10FDSR</def>
+        <def name="R0AD15LDU">K11FDSR</def>
         <def name="R8AD21LDU">K12FDSR</def>
         <def name="R0AD16LDU">K13FDSR</def>
     </FDS1615>
