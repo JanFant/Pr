@@ -157,19 +157,19 @@
 <var name="FDS161015" description="(FDS!)" format ="1"></var>
 <var name="FDS161016" description="(FDS!)" format ="1"></var>
 
-<var name="SBKPOWER1"  description="(POWER1)"  format ="1"></var>
-<var name="SBKPOWER2"  description="(POWER2)"  format ="1"></var>
-<var name="SBKDOOR"    description="(DOOR)"    format ="1"></var>
-<var name="SBKT43"     description="(T43)"     format ="1"></var>
-<var name="SBKT53"     description="(T53)"     format ="1"></var>
-<var name="SBKBP124"   description="(BP124)"   format ="1"></var>
-<var name="SBKBP15"    description="(BP15)"    format ="1"></var>
-<var name="SBKBP224"   description="(BP224)"   format ="1"></var>
-<var name="SBKBP25"    description="(BP25)"    format ="1"></var>
-<var name="SBKMPBP124" description="(MPBP124)" format ="1"></var>
-<var name="SBKMPBP15"  description="(MPBP15)"  format ="1"></var>
-<var name="SBKMPBP224" description="(MPBP224)" format ="1"></var>
-<var name="SBKMPBP25"  description="(MPBP25)"  format ="1"></var>
+<var name="POWER1"   description="(POWER1 )" format="1"></var>
+<var name="POWER2"   description="(POWER2 )" format="1"></var>
+<var name="DOOR"     description="(DOOR   )" format="1"></var>
+<var name="T43"      description="(T43    )" format="1"></var>
+<var name="T53"      description="(T53    )" format="1"></var>
+<var name="BP124"    description="(BP124  )" format="1"></var>
+<var name="BP15"     description="(BP15   )" format="1"></var>
+<var name="BP224"    description="(BP224  )" format="1"></var>
+<var name="BP25"     description="(BP25   )" format="1"></var>
+<var name="MPBP124"  description="(MPBP124)" format="1"></var>
+<var name="MPBP15"   description="(MPBP15 )" format="1"></var>
+<var name="MPBP224"  description="(MPBP224)" format="1"></var>
+<var name="MPBP25"   description="(MPBP25 )" format="1"></var>
 
 
 

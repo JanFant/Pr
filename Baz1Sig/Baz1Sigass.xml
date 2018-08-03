@@ -164,19 +164,19 @@
         <def name="FDS161016">K16FDSR</def>
     </FDS16>
     <SBKFP>
-        <def name ="SBKPOWER1" >POWER1</def>   
-        <def name ="SBKPOWER2" >POWER2</def>    
-        <def name ="SBKDOOR"   >DOOR</def>    
-        <def name ="SBKT43"    >T43</def>    
-        <def name ="SBKT53"    >T53</def>
-        <def name ="SBKBP124"  >BP124</def>    
-        <def name ="SBKBP15"   >BP15</def>     
-        <def name ="SBKBP224"  >BP224</def>  
-        <def name ="SBKBP25"   >BP25</def>  
-        <def name ="SBKMPBP124">MPBP124</def> 
-        <def name ="SBKMPBP15" >MPBP15</def>  
-        <def name ="SBKMPBP224">MPBP224</def> 
-        <def name ="SBKMPBP25" >MPBP25</def>  
+        <def name="POWER1" >S01SBK</def>   
+        <def name="POWER2" >S02SBK</def>    
+        <def name="DOOR"   >S03SBK</def>    
+        <def name="T43"    >S04SBK</def>    
+        <def name="T53"    >S05SBK</def>
+        <def name="BP124"  >S06SBK</def>    
+        <def name="BP15"   >S07SBK</def>     
+        <def name="BP224"  >S08SBK</def>  
+        <def name="BP25"   >S09SBK</def>  
+        <def name="MPBP124">S10SBK</def> 
+        <def name="MPBP15" >S11SBK</def>  
+        <def name="MPBP224">S12SBK</def> 
+        <def name="MPBP25" >S13SBK</def>  
     </SBKFP>
 
 </assign>

@@ -11,7 +11,6 @@
         <def name="A3IP02IDU">K09AO</def>
         <def name="B3IP02IDU">K10AO</def>
     </AO1601>
-
     <DO32_5F01>
         <def name="R0VN71LZ1">K01DO</def>
         <def name="R0VN75LZ1">K02DO</def>
@@ -127,7 +126,7 @@
         <def name="B4IS11LDU">K07DO</def>
         <def name="B4IS21LDU">K08DO</def>
         <def name="B8IS12LDU">K09DO</def>
-        <def name="B8IS22LDU">K10DO</def>
+        <!--  <def name="B8IS22LDU">K10DO</def> <!-- канал не работает -->
         <def name="A3VP81LDU">K11DO</def>
         <def name="A2VP82LDU">K12DO</def>
         <def name="A4VP82LDU">K13DO</def>
@@ -143,7 +142,7 @@
         <def name="R4IS12LDU">K23DO</def>
         <def name="R4IS21LDU">K24DO</def>
         <def name="R4IS22LDU">K25DO</def>
-        <def name="A6IS11LDU">K26DO</def>
+        <!-- <def name="A6IS11LDU">K26DO</def> <!-- канал не работает -->
         <def name="A6IS21LDU">K27DO</def>
         <def name="A5IS11LDU">K28DO</def>
         <def name="A5IS21LDU">K29DO</def>
@@ -169,7 +168,11 @@
         <def name="R6IS21LDU">K14DO</def>
         <def name="A8IS12LDU">K15DO</def>
         <def name="A8IS22LDU">K16DO</def>
-        <def name="A1IE02LDU">K17DO</def>
+
+        <def name="B8IS22LDU">K17DO</def>   <!-- новый сигнал -->
+        <def name="A6IS11LDU">K18DO</def>   <!-- новый сигнал -->
+
+        <!-- <def name="A1IE02LDU">K17DO</def>
         <def name="A1IE01LDU">K18DO</def>
         <def name="A2IE02LDU">K19DO</def>
         <def name="A2IE01LDU">K20DO</def>
@@ -184,10 +187,10 @@
         <def name="B2IE02LDU">K29DO</def>
         <def name="B2IE01LDU">K30DO</def>
         <def name="B2IE03LDU">K31DO</def>
-        <def name="B2IE04LDU">K32DO</def>
+        <def name="B2IE04LDU">K32DO</def> -->
     </DO32_5F05>
     <DO32_5F06>
-        <def name="B3IE02LDU">K01DO</def>
+        <!-- <def name="B3IE02LDU">K01DO</def>
         <def name="B3IE01LDU">K02DO</def>
         <def name="B3IE03LDU">K03DO</def>
         <def name="B3IE04LDU">K04DO</def>
@@ -212,7 +215,7 @@
         <def name="A6IE01LDU">K23DO</def>
         <def name="B6VS12LDU">K24DO</def>
         <def name="B6VS22LDU">K25DO</def>
-        <def name="B6IE01LDU">K26DO</def>
+        <def name="B6IE01LDU">K26DO</def> -->
         <def name="R0IE02LDU">K27DO</def>
         <def name="R0IE01LDU">K28DO</def>
         <def name="R6IS62LDU">K29DO</def>
@@ -277,6 +280,7 @@
         <def name="A1AD02LDU">K29VDSR</def>
         <def name="A1AD03LDU">K30VDSR</def>
         <def name="A1AD04LDU">K31VDSR</def>  
+        
     </VDS32F10>
     <VDS32F11>
         <def name="A1AD05LDU">K01VDSR</def>

@@ -2,6 +2,8 @@
 
     <var name="VCHSK1" description="(VCHSK1)" format ="8"></var>
     <var name="VCHSK2" description="(VCHSK2)" format ="8"></var>
+    <var name="VCHSK3" description="(VCHSK3)" format ="8"></var>
+    <var name="VCHSK4" description="(VCHSK4)" format ="8"></var>
     
     <var name="POWER1"   description="(POWER1 )" format="1"></var>
     <var name="POWER2"   description="(POWER2 )" format="1"></var>

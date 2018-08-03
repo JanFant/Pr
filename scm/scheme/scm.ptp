@@ -1,15 +1,15 @@
 Тепрол. Файл проекта.
 [TeprolProject]{
-  TPRName="D:\md\pti\pr\DU\scheme\du.tpr"
+  TPRName="D:\md\pti\pr\scm\scheme\scm.tpr"
   TPLName=""
-  ControllerXMLName="D:\md\pti\pr\DU\devDU.xml"
-  ModBusXMLName="D:\md\pti\pr\DU\DUfp.xml"
+  ControllerXMLName="D:\md\pti\pr\scm\devscm.xml"
+  ModBusXMLName="D:\md\pti\pr\scm\scmfp.xml"
   DBSName=""
   SinonimName=""
   VariableName=""
-  SignalsXMLName="D:\md\pti\pr\DU\scheme\var.xml"
-  ConstsXMLName="D:\md\pti\pr\DU\scheme\save.xml"
-  AssignXMLName="D:\md\pti\pr\DU\scheme\ass.xml"
+  SignalsXMLName="D:\md\pti\pr\scm\scheme\var.xml"
+  ConstsXMLName="D:\md\pti\pr\scm\scheme\save.xml"
+  AssignXMLName="D:\md\pti\pr\scm\scheme\ass.xml"
   PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-45849
+47315

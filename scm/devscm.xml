@@ -1,6 +1,4 @@
 <devices xml="scmass">
-
-
         <device name="AO1601"    driver="ao16_pti" slot="320" description="AO16"> </device>
         <device name="DO32_5F01" driver="do32_pti" slot="100" description="do32_5f(0x100)"> </device>
         <device name="DO32_5F02" driver="do32_pti" slot="110" description="do32_5f(0x110)"> </device>
@@ -12,6 +10,4 @@
         <device name="VDS32F07" driver="vds32_pti" slot="340" description="vds32f2(0x340)"> </device>
         <device name="VDS32F10" driver="vds32_pti" slot="360" description="vds32f2(0x360)"> </device>
         <device name="VDS32F11" driver="vds32_pti" slot="310" description="vds32f2(0x310)"> </device>
-
-        
 </devices>

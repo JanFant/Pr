@@ -81,7 +81,6 @@
 <var  name="terR0IE01LIM" description="(terR0IE01LIM) Исправность ИП 24 В-2" format="3"></var>
 <var  name="R0IE01LDU" description="(R0IE01LDU) Исправность ИП 24 В-2" format="1"></var>
 <var  name="terA1IE02LIM" description="(terA1IE02LIM) Исправность ИП ББ" format="3"></var>
-<var  name="A1IE02LDU" description="(A1IE02LDU) Исправность ИП ББ1" format="1"></var>
 <var  name="B1IE02LDU" description="(B1IE02LDU) Исправность ИП ББ2" format="1"></var>
 <var  name="terA2IE02LIM" description="(terA2IE02LIM) Исправность ИП РБ" format="3"></var>
 <var  name="A2IE02LDU" description="(A2IE02LDU) Исправность ИП РБ1" format="1"></var>
