@@ -1020,8 +1020,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2IS12LDU</value>
-            <value name="description">(A2IS12LDU) Магнит РБ1 зацеплен</value>
+            <value name="name">A2IS12LZ1</value>
+            <value name="description">(A2IS12LZ1) Магнит РБ1 зацеплен</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">55</value>
@@ -1033,8 +1033,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B2IS12LDU</value>
-            <value name="description">(B2IS12LDU) Магнит РБ2 зацеплен</value>
+            <value name="name">B2IS12LZ1</value>
+            <value name="description">(B2IS12LZ1) Магнит РБ2 зацеплен</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">56</value>

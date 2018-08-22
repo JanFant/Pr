@@ -69,8 +69,8 @@
 <var  name="R0MD34LP1" description="(R0MD34LP1) Кнопка (Квитировать)" format="1"></var>
 <var  name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
 <var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
-<var  name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
-<var  name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
+<var  name="A2IS12LZ1" description="(A2IS12LZ1) Магнит РБ1 зацеплен" format="1"></var>
+<var  name="B2IS12LZ1" description="(B2IS12LZ1) Магнит РБ2 зацеплен" format="1"></var>
 <var  name="R0ET01LZ1" description="(R0ET01LZ1) Признак наличия неисправности по температуре  АЗ1" format="1"></var>
 <var  name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2-1" format="3"></var>
 <var  name="A0VP41LZ1" description="(A0VP41LZ1) Давление АЗ1 ниже АС" format="1"></var>
@@ -166,5 +166,19 @@
 <var  name="A1UL12RZZ" description="ЭСППЗУ (A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)" format="8"></var>
 <var  name="A1UL11RZZ" description="ЭСППЗУ (A1UL11RZZ) Время задержки АЗ от ВУ ИС сек" format="8"></var>
 <var  name="R7UI73RZZ" description="ЭСППЗУ (R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
+
+
+<var name="A3IS11LZ2" description="(A3IS11LZ2) Приход на ВУ ИС  2 для УСБ2" format="1"></var>
+<var name="A3IS22LZ2" description="(A3IS22LZ2) Приход на НУП ИС 2 для УСБ2" format="1"></var>
+
+<var name="A0VP81LZ2" description="(A0VP81LZ2) Давление  АЗ1 в норме для УСБ2" format="1"></var>
+<var name="A1VP81LZ2" description="(A1VP81LZ2) Давление СБРОС ББ1 в норме для УСБ2" format="1"></var>
+
+
+
+
+
+
+
 
 </vars>

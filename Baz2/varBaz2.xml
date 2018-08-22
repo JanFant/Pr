@@ -65,8 +65,8 @@
 <var  name="R0MD34LP1" description="(R0MD34LP1) Кнопка Квитировать" format="1"></var>
 <var  name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
-<var  name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
-<var  name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
+<var  name="A2IS12LZ2" description="(A2IS12LZ2) Магнит РБ1 зацеплен" format="1"></var>
+<var  name="B2IS12LZ2" description="(B2IS12LZ2) Магнит РБ2 зацеплен" format="1"></var>
 <var  name="R6IS66LZ2" description="(R6IS66LZ2) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
 <var  name="R6IS67LZ2" description="(R6IS67LZ2) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
 <var  name="R6IS68LZ2" description="(R6IS68LZ2) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
@@ -166,4 +166,18 @@
 <var  name="A1UL12RZZ" description="ЭСППЗУ (A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)" format="8"></var>
 <var  name="A1UL11RZZ" description="ЭСППЗУ (A1UL11RZZ) Время задержки АЗ от ВУ ИС" format="8"></var>
 <var  name="R7UI73RZZ" description="ЭСППЗУ (R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
+
+<var name="B3IS11LZ1" description="(B3IS11LZ1) Приход на ВУ ИС  2 для УСБ1" format="1"></var>
+<var name="B3IS22LZ1" description="(B3IS22LZ1) Приход на НУП ИС 2 для УСБ1" format="1"></var>
+
+<var name="B0VP81LZ1" description="(B0VP81LZ1) Давление АЗ2 в норме для УСБ1" format="1"></var>
+<var name="B1VP81LZ1" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме для УСБ1" format="1"></var>
+
+
+
+
+
+
+
+
 </vars>

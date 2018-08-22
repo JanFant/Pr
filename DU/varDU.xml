@@ -273,6 +273,9 @@
 <var name="B1AD04LDU" description="(B1AD04LDU) 2-й бит скорости ББ2" format ="1"></var>
 <var name="B1AD05LDU" description="(B1AD05LDU) паритет команды на ББ2" format ="1"></var>
 
+<var name="A2IS12LZ1" description="(A2IS12LZ1) Магнит РБ1 зацеплен (для БАЗ1)" format ="1"></var>
+<var name="B2IS12LZ1" description="(B2IS12LZ1) Магнит РБ2 зацеплен (для БАЗ1)" format ="1"></var>
+
 <var name="A2AD11LDU" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format ="1"></var>
 <var name="A2AD21LDU" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format ="1"></var>
 <var name="A2AD01LDU" description="(A2AD01LDU) Разрешение движения РБ1" format ="1"></var>
@@ -288,6 +291,9 @@
 <var name="B2AD04LDU" description="(B2AD04LDU) 2-й бит скорости РБ2" format ="1"></var>
 <var name="B2AD05LDU" description="(B2AD05LDU) паритет команды на РБ2" format ="1"></var>
 
+<var name="A2IS12LZ2" description="(A2IS12LZ2) Магнит РБ1 зацеплен (для БАЗ2)" format ="1"></var>
+<var name="B2IS12LZ2" description="(B2IS12LZ2) Магнит РБ2 зацеплен (для БАЗ2)" format ="1"></var>
+
 <var name="A1AD32LDU" description="(A1AD32LDU) Обесточить ЭМ ББ1" format ="1"></var>
 <var name="A1AD31LDU" description="(A1AD31LDU) Клапан «Сброс ББ1» открыть (обесточить)" format ="1"></var>
 <var name="A2AD32LDU" description="(A2AD32LDU) Обесточить ЭМ РБ1" format ="1"></var>
@@ -301,6 +307,10 @@
 <var name="R0AD15LDU" description="(R0AD15LDU) Имитация ухода с НУП ИС " format ="1"></var>
 <var name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format ="1"></var>
 <var name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format ="1"></var>
+
+<var name="newfd1" description="БАЗ2 Имитация прихода на ВУ ИС" format = "1"></var>
+<var name="newfd2" description="БАЗ2 Имитация срабатывания АС II УР. РАД" format = "1"></var>
+<var name="newfd3" description="БАЗ2 Имитация ухода с НУП ИС" format = "1"></var>
 
 
 <!--

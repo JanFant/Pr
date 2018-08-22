@@ -70,57 +70,5 @@
         </fields>
     </format>
     <records>
-        <record>
-            <value name="name">VCHSK1</value>
-            <value name="description">(VCHSK1) VCHSK1</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">0</value>
-            <value name="nID">1</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">0</value>
-            <value name="OldData">0</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">VCHSK2</value>
-            <value name="description">(VCHSK2) VCHSK2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">2</value>
-            <value name="nID">2</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">5</value>
-            <value name="OldData">5</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">VCHSK3</value>
-            <value name="description">(VCHSK3) VCHSK3</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">4</value>
-            <value name="nID">3</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">10</value>
-            <value name="OldData">10</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">VCHSK4</value>
-            <value name="description">(VCHSK4) VCHSK4</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">6</value>
-            <value name="nID">4</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">15</value>
-            <value name="OldData">15</value>
-            <value name="unitId">1</value>
-        </record>
     </records>
 </table>

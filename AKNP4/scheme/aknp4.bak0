@@ -1,0 +1,17 @@
+Алгоблок сохранен 01.06.2011 14:26:43
+[VVV_Scheme]{
+  Version=3
+  CountScheme=1
+  [TableConstant]{
+  }
+  [VVV_ContainerScheme]{
+    PageSizeX=652
+    PageSizeY=444
+    PageCountX=1
+    PageCountY=1
+    Name="MainBDU"
+    ObjectCount=0
+    ExpandCompile=1
+  }
+}
+16248

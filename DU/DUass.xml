@@ -283,6 +283,8 @@
         <def name="B1AD03LDU">K12FDSR</def>
         <def name="B1AD04LDU">K13FDSR</def>
         <def name="B1AD05LDU">K14FDSR</def>
+        <def name="A2IS12LZ1">K15FDSR</def>
+        <def name="B2IS12LZ1">K16FDSR</def>
     </FDS1608>
     <FDS1607>
         <def name="A2AD11LDU">K01FDSR</def>
@@ -299,6 +301,8 @@
         <def name="B2AD03LDU">K12FDSR</def>
         <def name="B2AD04LDU">K13FDSR</def>
         <def name="B2AD05LDU">K14FDSR</def>
+        <def name="A2IS12LZ2">K15FDSR</def>
+        <def name="B2IS12LZ2">K16FDSR</def>
     </FDS1607>
     <FDS1615>
         <def name="A1AD32LDU">K01FDSR</def>
@@ -314,5 +318,9 @@
         <def name="R0AD15LDU">K11FDSR</def>
         <def name="R8AD21LDU">K12FDSR</def>
         <def name="R0AD16LDU">K13FDSR</def>
+
+        <def name="newfd1">K14FDSR</def>
+        <def name="newfd2">K15FDSR</def>
+        <def name="newfd3">K16FDSR</def>        
     </FDS1615>
 </assign>
