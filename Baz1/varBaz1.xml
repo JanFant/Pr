@@ -65,7 +65,7 @@
 <var  name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
 <var  name="R0AD14LZ1" description="(R0AD14LZ1) Имитация АЗ от IIУР" format="1"></var>
 <var  name="R0AD21LDU" description="(R0AD21LDU) Подключить защиту от II УР" format="1"></var>
-<var  name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var  name="R0AD04LZ1" description="(R0AD04LZ1) Имитация срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0MD34LP1" description="(R0MD34LP1) Кнопка (Квитировать)" format="1"></var>
 <var  name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
 <var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
@@ -118,11 +118,11 @@
 <var  name="R0VN09RZ1" description="(R0VN09RZ1) Усредненный период разгона" format="8"></var>
 <var  name="A3IS11LZ1" description="(A3IS11LZ1) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IS22LZ1" description="(A3IS22LZ1) Приход на НУП ИС1" format="1"></var>
-<var  name="R0AD13LDU" description="(R0AD13LDU) Имитация прихода на ВУ ИС" format="1"></var>
+<var  name="R0AD03LZ1" description="(R0AD03LZ1) Имитация прихода на ВУ ИС" format="1"></var>
 <var  name="B3IS11LZ1" description="(B3IS11LZ1) Приход на ВУ ИС2" format="1"></var>
 <var  name="A3VZ31LZ1" description="(A3VZ31LZ1) АЗ от ВУ ИС1" format="1"></var>
 <var  name="B3VZ31LZ1" description="(B3VZ31LZ1) АЗ от ВУ ИС2" format="1"></var>
-<var  name="R0AD15LDU" description="(R0AD15LDU) Имитация ухода с НУП ИС" format="1"></var>
+<var  name="R0AD05LZ1" description="(R0AD05LZ1) Имитация ухода с НУП ИС" format="1"></var>
 <var  name="A3VZ11LZ1" description="(A3VZ11LZ1) АЗ от НУП ИС1" format="1"></var>
 <var  name="B3VZ11LZ1" description="(B3VZ11LZ1) АЗ от НУП ИС2" format="1"></var>
 <var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
@@ -168,17 +168,14 @@
 <var  name="R7UI73RZZ" description="ЭСППЗУ (R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
 
 
-<var name="A3IS11LZ2" description="(A3IS11LZ2) Приход на ВУ ИС  2 для УСБ2" format="1"></var>
-<var name="A3IS22LZ2" description="(A3IS22LZ2) Приход на НУП ИС 2 для УСБ2" format="1"></var>
 
+<var name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1 для ДУ" format="1"></var>
+<var name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1 для ДУ" format="1"></var>
+
+<var name="A3IS11LZ2" description="(A3IS11LZ2) Приход на ВУ ИС1 для УСБ2" format="1"></var>
+<var name="A3IS22LZ2" description="(A3IS22LZ2) Приход на НУП ИС1 для УСБ2" format="1"></var>
 <var name="A0VP81LZ2" description="(A0VP81LZ2) Давление  АЗ1 в норме для УСБ2" format="1"></var>
 <var name="A1VP81LZ2" description="(A1VP81LZ2) Давление СБРОС ББ1 в норме для УСБ2" format="1"></var>
-
-
-
-
-
-
 
 
 </vars>

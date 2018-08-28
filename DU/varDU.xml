@@ -302,15 +302,14 @@
 <var name="B1AD31LDU" description="(B1AD31LDU) Клапан «Сброс ББ2» открыть (обесточить)" format ="1"></var>
 <var name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format ="1"></var>
 <var name="B2AD31LDU" description="(B2AD31LDU) Клапан «Сброс РБ2» открыть (обесточить)" format ="1"></var>
-<var name="R0AD13LDU" description="(R0AD13LDU) Имитация прихода на ВУ ИС" format ="1"></var>
-<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания АС II УР. РАД" format ="1"></var>
-<var name="R0AD15LDU" description="(R0AD15LDU) Имитация ухода с НУП ИС " format ="1"></var>
+<var name="R0AD03LZ1" description="(R0AD03LZ1) Имитация прихода на ВУ ИС" format ="1"></var>
+<var name="R0AD04LZ1" description="(R0AD04LZ1) Имитация срабатывания АС II УР. РАД" format ="1"></var>
+<var name="R0AD05LZ1" description="(R0AD05LZ1) Имитация ухода с НУП ИС " format ="1"></var>
 <var name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format ="1"></var>
 <var name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format ="1"></var>
-
-<var name="newfd1" description="БАЗ2 Имитация прихода на ВУ ИС" format = "1"></var>
-<var name="newfd2" description="БАЗ2 Имитация срабатывания АС II УР. РАД" format = "1"></var>
-<var name="newfd3" description="БАЗ2 Имитация ухода с НУП ИС" format = "1"></var>
+<var name="R0AD03LZ2" description="(R0AD03LZ2) БАЗ2 Имитация прихода на ВУ ИС" format = "1"></var>
+<var name="R0AD04LZ2" description="(R0AD04LZ2) БАЗ2 Имитация срабатывания АС II УР. РАД" format = "1"></var>
+<var name="R0AD05LZ2" description="(R0AD05LZ2) БАЗ2 Имитация ухода с НУП ИС" format = "1"></var>
 
 
 <!--

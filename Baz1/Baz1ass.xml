@@ -12,9 +12,9 @@
         <def name="A0VN71LS1">K04VDSR</def>
         <def name="A3IS11LZ1">K05VDSR</def>
         <def name="A3IS22LZ1">K06VDSR</def>
-        <def name="R0AD13LDU">K07VDSR</def>
-        <def name="R0AD14LDU">K08VDSR</def>
-        <def name="R0AD15LDU">K09VDSR</def>
+        <def name="R0AD03LZ1">K07VDSR</def>
+        <def name="R0AD04LZ1">K08VDSR</def>
+        <def name="R0AD05LZ1">K09VDSR</def>
         <def name="A2IS12LZ1">K10VDSR</def>
         <def name="B2IS12LZ1">K11VDSR</def>
     </VDS321>
@@ -56,9 +56,12 @@
         <def name="R0AD14LZ1">K03FDSR</def>
         <def name="A1VN71LZ1">K04FDSR</def>
         <def name="R0VZ71LZ1">K05FDSR</def>
+
+        <def name="A3IS11LDU">K10FDSR</def>
+        <def name="A3IS22LDU">K11FDSR</def>
+
         <def name="A3IS11LZ2">K12FDSR</def>
         <def name="A3IS22LZ2">K13FDSR</def>
-
         <def name="A0VP81LZ2">K14FDSR</def>
         <def name="A1VP81LZ2">K15FDSR</def>
 

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<subsystem >
-
-        <variable xml="varBaz1Sig"/>
-        <saves xml="saveBaz1Sig"/>
-        <devices xml="devBaz1Sig"/>
-        <modbus name="msBaz1Sig" description="Пустые сигналы BAZ1" type="slave" port="502" xml="Baz1Sig"/>
-</subsystem>

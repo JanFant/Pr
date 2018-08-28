@@ -313,14 +313,13 @@
         <def name="B1AD31LDU">K06FDSR</def>
         <def name="B2AD32LDU">K07FDSR</def>
         <def name="B2AD31LDU">K08FDSR</def>
-        <def name="R0AD13LDU">K09FDSR</def>
-        <def name="R0AD14LDU">K10FDSR</def>
-        <def name="R0AD15LDU">K11FDSR</def>
+        <def name="R0AD03LZ1">K09FDSR</def>
+        <def name="R0AD04LZ1">K10FDSR</def>
+        <def name="R0AD05LZ1">K11FDSR</def>
         <def name="R8AD21LDU">K12FDSR</def>
         <def name="R0AD16LDU">K13FDSR</def>
-
-        <def name="newfd1">K14FDSR</def>
-        <def name="newfd2">K15FDSR</def>
-        <def name="newfd3">K16FDSR</def>        
+        <def name="R0AD03LZ2">K14FDSR</def>
+        <def name="R0AD04LZ2">K15FDSR</def>
+        <def name="R0AD05LZ2">K16FDSR</def>        
     </FDS1615>
 </assign>

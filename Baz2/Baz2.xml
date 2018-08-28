@@ -955,8 +955,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0AD14LDU</value>
-            <value name="description">(R0AD14LDU) Имитация срабатывания верхней АС II УР</value>
+            <value name="name">R0AD04LZ2</value>
+            <value name="description">(R0AD04LZ2) Имитация срабатывания верхней АС II УР</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">50</value>
@@ -1410,8 +1410,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0AD13LDU</value>
-            <value name="description">(R0AD13LDU) Имитация прихода на ВУ ИС</value>
+            <value name="name">R0AD03LZ2</value>
+            <value name="description">(R0AD03LZ2) Имитация прихода на ВУ ИС</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">85</value>
@@ -1462,8 +1462,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0AD15LDU</value>
-            <value name="description">(R0AD15LDU) Имитация ухода с НУП ИС</value>
+            <value name="name">R0AD05LZ2</value>
+            <value name="description">(R0AD05LZ2) Имитация ухода с НУП ИС</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">89</value>
