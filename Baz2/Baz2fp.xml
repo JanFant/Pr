@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
-
         <variable xml="varBaz2"/>
         <saves xml="saveBaz2"/>
         <devices xml="devBaz2"/>
-        <modbus name="msBaz2" description="Пустые сигналы BAZ2" type="slave" port="502" xml="Baz2"/>
+        <modbus name="Baz2" description="Общий слэйв" type="slave" port="502" xml="Baz2"/>
+        <!-- <modbus name="MBz2S" description="Мастер Баз2 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="MBz2S"/> -->
 </subsystem>

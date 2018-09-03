@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
-
         <variable xml="varDU"/>
         <saves xml="saveDU"/>
         <devices xml="devDU"/>
-        <modbus name="msDU" description="DU-ModBus" type="slave" port="502" xml="DU"/>
+        <modbus name="DU" description="Общий слэйв" type="slave" port="502" xml="DU"/>
+        <!-- <modbus name="MDuBz1" description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="502" xml="MDuBz1"/>
+        <modbus name="MDuBz2" description="Мастер ДУ в Баз2" type="master" ip1="192.168.10.54" ip2="192.168.10.154" port="502" xml="MDuBz2"/>
+        <modbus name="MDuS" description="Мастер ДУ в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="MDuS"/> -->
 </subsystem>

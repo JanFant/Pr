@@ -3,5 +3,6 @@
         <variable xml="varBaz1"/>
         <saves xml="saveBaz1"/>
         <devices xml="devBaz1"/>
-        <modbus name="msBaz1" description="Пустые сигналы BAZ1" type="slave" port="502" xml="Baz1"/>
+        <modbus name="Baz1" description="Общий слэйв" type="slave" port="502" xml="Baz1"/>
+        <!-- <modbus name="MBz1S" description="Мастер Баз1 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="MBz1S"/> -->
 </subsystem>

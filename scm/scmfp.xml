@@ -3,5 +3,5 @@
         <variable xml="varscm"/>
         <saves xml="savescm"/>
         <devices xml="devscm"/>
-        <modbus name="msscm" description="Основной канал управления" type="slave" port="502" xml="scm"/>
+        <modbus name="SCM" description="Общий слэйв" type="slave" port="502" xml="scm"/>
 </subsystem>

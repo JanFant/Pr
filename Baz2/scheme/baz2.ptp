@@ -19,6 +19,6 @@
   PostboxAddress=28672
   ESPPZU_Emulation=FALSE
   FuncName="simulmain"
-  IsImitator=TRUE
+  IsImitator=FALSE
 }
-47788
+47831

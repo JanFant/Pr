@@ -1,0 +1,83 @@
+A0CT01IZ1          float memory , /* Температура АЗ1-1 */
+A0EE00LZ1          bool  memory , /* Исправность АКНП АЗ1 */
+A0EE01LZ1          bool  memory , /* Исправность АКНП1 */
+A0EE02LZ1          bool  memory , /* Исправность АКНП2 */
+A0EE03LZ1          bool  memory , /* Исправность АКНП3 */
+A0EE04LZ1          bool  memory , /* Исправность АКНП4 */
+A0EP02IZ1          int   memory , /* Индикатор -Давление  АЗ1 ниже АС */
+A0VN71LZ1          bool  memory , /* АЗ по АС мощности  АЗ1 */
+A0VN81LZ1          bool  memory , /* АЗ по АС периода разгона АЗ1 */
+A0VP41LZ1          bool  memory , /* Давление АЗ1 ниже АС */
+A0VP71LZ1          bool  memory , /* АЗ по АС любого давления для АЗ1 */
+A0VP81LZ2          bool  memory , /* Давление  АЗ1 в норме для УСБ2 */
+A0VT61LZ1          bool  memory , /* ПС по температуре в АЗ1 */
+A0VT71LZ1          bool  memory , /* АС по температуре в АЗ1 */
+A0VZ71LZ1          bool  memory , /* Обобщенный сигнал АС по АЗ1 */
+A1VN71LZ1          bool  memory , /* Блокировка автоматического подъёма ББ */
+A1VP41LZ1          bool  memory , /* Давление СБРОС ББ1 ниже АС */
+A1VP81LZ2          bool  memory , /* Давление СБРОС ББ1 в норме для УСБ2 */
+A2CP01RZ1          float memory , /* Текущее давление СБРОС РБ1 */
+A2VP41LZ1          bool  memory , /* Давление СБРОС РБ1 ниже АС */
+A2VP51LZ1          bool  memory , /* Давление СБРОС РБ1 ниже ПС */
+A2VP81LZ1          bool  memory , /* Давление СБРОС РБ1 в норме */
+A3IS11LDU          bool  memory , /* Приход на ВУ ИС1 для ДУ */
+A3IS11LZ2          bool  memory , /* Приход на ВУ ИС1 для УСБ2 */
+A3IS22LDU          bool  memory , /* Приход на НУП ИС1 для ДУ */
+A3IS22LZ2          bool  memory , /* Приход на НУП ИС1 для УСБ2 */
+A3VZ11LZ1          bool  memory , /* АЗ от НУП ИС1 */
+A3VZ13LZ1          bool  memory , /* Имитация АЗ от ВУ ИС */
+A3VZ15LZ1          bool  memory , /* Имитация АЗ от НУП ИС */
+A3VZ31LZ1          bool  memory , /* АЗ от ВУ ИС1 */
+B0CT01IZ1          float memory , /* Температура АЗ2-1 */
+B0EE00LZ1          bool  memory , /* Исправность АКНП АЗ2 */
+B0EP02IZ1          int   memory , /* Индикатор -Давление  АЗ2 ниже АС */
+B0VN71LZ1          bool  memory , /* АЗ по АС мощности  АЗ2 */
+B0VN81LZ1          bool  memory , /* АЗ по АС периода разгона АЗ2 */
+B0VP41LZ1          bool  memory , /* Давление АЗ2 ниже АС */
+B0VP71LZ1          bool  memory , /* АЗ по АС любого давления для АЗ2 */
+B0VT61LZ1          bool  memory , /* ПС по температуре в АЗ2 */
+B0VT71LZ1          bool  memory , /* АС по температуре в АЗ2 */
+B0VZ71LZ1          bool  memory , /* Обобщенный сигнал АС по АЗ2 */
+B1VP41LZ1          bool  memory , /* Давление СБРОС ББ2 ниже АС */
+B2CP01RZ1          float memory , /* Текущее давление СБРОС РБ2 */
+B2VP41LZ1          bool  memory , /* Давление СБРОС РБ2 ниже АС */
+B2VP51LZ1          bool  memory , /* Давление СБРОС РБ2 ниже ПС */
+B2VP81LZ1          bool  memory , /* Давление СБРОС РБ2 в норме */
+B3VZ11LZ1          bool  memory , /* АЗ от НУП ИС2 */
+B3VZ31LZ1          bool  memory , /* АЗ от ВУ ИС2 */
+R0AD14LZ1          bool  memory , /* Имитация АЗ от IIУР */
+R0AD15LZ1          bool  memory , /* Имитация АЗ от 1УР (датчик1) */
+R0AD16LZ1          bool  memory , /* Имитация АЗ от 1УР (датчик2) */
+R0EE01LZ1          bool  memory , /* Питание  АКНП1  отключить */
+R0EE02LZ1          bool  memory , /* Питание  АКНП2  отключить */
+R0EE03LZ1          bool  memory , /* Питание  АКНП3  отключить */
+R0EE04LZ1          bool  memory , /* Питание  АКНП4  отключить */
+R0ET01LZ1          bool  memory , /* Признак наличия неисправности по температуре  АЗ1 */
+R0ET02LZ1          bool  memory , /* Признак наличия неисправности по температуре АЗ2 */
+R0VN01RZ1          float memory , /* Уровень мощности по каналу 1 */
+R0VN02RZ1          float memory , /* Уровень мощности по каналу 2 */
+R0VN03RZ1          float memory , /* Уровень мощности по каналу 3 */
+R0VN04RZ1          float memory , /* Уровень мощности по каналу 4 */
+R0VN05RZ1          float memory , /* Период разгона по каналу 1 */
+R0VN06RZ1          float memory , /* Период разгона по каналу 2 */
+R0VN07RZ1          float memory , /* Период разгона по каналу 3 */
+R0VN08RZ1          float memory , /* Период разгона по каналу 4 */
+R0VN09RZ1          float memory , /* Усредненный период разгона */
+R0VN11RZ1          float memory , /* Средняя мощность по БАЗ1 */
+R0VN61LZ1          bool  memory , /* ПС по мощности канал 1 */
+R0VN62LZ1          bool  memory , /* ПС по мощности канал 2 */
+R0VN63LZ1          bool  memory , /* ПС по мощности канал 3 */
+R0VN64LZ1          bool  memory , /* ПС по мощности канал 4 */
+R0VN65LZ1          bool  memory , /* ПС по периоду разгона канал 1 */
+R0VN66LZ1          bool  memory , /* ПС по периоду разгона канал 2 */
+R0VN67LZ1          bool  memory , /* ПС по периоду разгона канал 3 */
+R0VN68LZ1          bool  memory , /* ПС по периоду разгона канал 4 */
+R0VN69LZ1          bool  memory , /* ПС по усредненному периоду */
+R0VN70LZ1          bool  memory , /* АЗ по АС мощности РУ */
+R0VN79LZ1          bool  memory , /* АС по усредненному периоду */
+R0VN80LZ1          bool  memory , /* АЗ по АС периода разгона РУ */
+R0VP41LZ1          bool  memory , /* АС по давлению в СИСТЕМЕ */
+R0VP73LZ1          bool  memory , /* ПС давления для РУ */
+R0VR02RZ1          float memory , /* Усредненная реактивность */
+R0VZ05UZ1          long  memory , /* Индикатор причины сброса */
+R0VZ71LZ1          bool  memory , /* Обобщенный сигнал АЗ 1 канала */
