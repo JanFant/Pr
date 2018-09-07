@@ -168,10 +168,13 @@
 <var  name="R7UI73RZZ" description="ЭСППЗУ (R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
 
 
+<var name="OEBB1Z1" description="(OEBB1Z1) Обесточивание ЭМ ББ1 и ЭПК ББ1" format="1"></var>
+<var name="OEBB2Z1" description="(OEBB2Z1) Обесточивание ЭМ ББ2 и ЭПК ББ2" format="1"></var>
+<var name="OERB1Z1" description="(OERB1Z1) Обесточивание ЭМ РБ1 и ЭПК РБ1" format="1"></var>
+<var name="OERB2Z1" description="(OERB2Z1) Обесточивание ЭМ РБ2 и ЭПК РБ2" format="1"></var>
 
 <var name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1 для ДУ" format="1"></var>
 <var name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1 для ДУ" format="1"></var>
-
 <var name="A3IS11LZ2" description="(A3IS11LZ2) Приход на ВУ ИС1 для УСБ2" format="1"></var>
 <var name="A3IS22LZ2" description="(A3IS22LZ2) Приход на НУП ИС1 для УСБ2" format="1"></var>
 <var name="A0VP81LZ2" description="(A0VP81LZ2) Давление  АЗ1 в норме для УСБ2" format="1"></var>

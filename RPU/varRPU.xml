@@ -4,7 +4,9 @@
     <var name="VCHSK2" description="(VCHSK2)" format ="8"></var>
     <var name="VCHSK3" description="(VCHSK3)" format ="8"></var>
     <var name="VCHSK4" description="(VCHSK4)" format ="8"></var>
-    
+    <var name="VCHSK5" description="(VCHSK5)" format ="8"></var>
+    <var name="VCHSK6" description="(VCHSK6)" format ="8"></var>
+
     <var name="POWER1"   description="(POWER1 )" format="1"></var>
     <var name="POWER2"   description="(POWER2 )" format="1"></var>
     <var name="DOOR"     description="(DOOR   )" format="1"></var>
@@ -52,21 +54,30 @@
     <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
     <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
     
-    <var name="R0IE02LS4" description="(R0IE02LS4) Отключить питание ПУ, ПР  4 канал" format="1"></var>
-    <var name="R0IE01LS4" description="(R0IE01LS4) Отключить питание детекторов 4 канала " format="1"></var>
+    <var name="VAS8401" description="(VAS8401)" format="3"></var>
+    <var name="VAS8402" description="(VAS8402)" format="3"></var>
+    <var name="VAS8403" description="(VAS8403)" format="3"></var>
+    <var name="VAS8404" description="(VAS8404)" format="3"></var>
+    <var name="VAS8405" description="(VAS8405)" format="3"></var>
+    <var name="VAS8406" description="(VAS8406)" format="3"></var>
+    <var name="VAS8407" description="(VAS8407)" format="3"></var>
+    <var name="VAS8408" description="(VAS8408)" format="3"></var>
+
+    <var name="FDS16R01" description="(FDS16R01)" format="1"></var>
+    <var name="FDS16R02" description="(FDS16R02)" format="1"></var>
     <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
     <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
     <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
     <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
     <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
     <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
-    <var name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
-    <var name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП4 на БАЗ1" format="1"></var>
-    <var name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического подъёма ББ от АКНП4 на БАЗ1" format="1"></var>
-    <var name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
-    <var name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
-    <var name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП4 на БАЗ2" format="1"></var>
-    <var name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического подъёма ББ от АКНП4 на БАЗ2" format="1"></var>
+    <var name="FDS16R09" description="(FDS16R09)" format="1"></var>
+    <var name="FDS16R10" description="(FDS16R10)" format="1"></var>
+    <var name="FDS16R11" description="(FDS16R11)" format="1"></var>
+    <var name="FDS16R12" description="(FDS16R12)" format="1"></var>
+    <var name="FDS16R13" description="(FDS16R13)" format="1"></var>
+    <var name="FDS16R14" description="(FDS16R14)" format="1"></var>
+    <var name="FDS16R15" description="(FDS16R15)" format="1"></var>
+    <var name="FDS16R16" description="(FDS16R16)" format="1"></var>
 
 </vars>

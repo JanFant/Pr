@@ -7,6 +7,10 @@
         <def name="VCHSK3">K01VCHS</def>
         <def name="VCHSK4">K02VCHS</def>
     </VCHS02>
+    <VCHS03>
+        <def name="VCHSK5">K01VCHS</def>
+        <def name="VCHSK6">K02VCHS</def>
+    </VCHS03>
     <SBKFP>
         <def name="POWER1" >S01SBK</def>
         <def name="POWER2" >S02SBK</def>
@@ -22,6 +26,16 @@
         <def name="MPBP224">S12SBK</def>
         <def name="MPBP25" >S13SBK</def>
     </SBKFP>
+    <VAS84>
+        <def name="VAS8401">K01VASR</def>
+        <def name="VAS8402">K02VASR</def>
+        <def name="VAS8403">K03VASR</def>
+        <def name="VAS8404">K04VASR</def>
+        <def name="VAS8405">K05VASR</def>
+        <def name="VAS8406">K06VASR</def>
+        <def name="VAS8407">K07VASR</def>
+        <def name="VAS8408">K08VASR</def>
+    </VAS84>
     <VDS32>
         <def name="VDS32R01">K01VDSR</def>
         <def name="VDS32R02">K02VDSR</def>
@@ -57,21 +71,21 @@
         <def name="VDS32R32">K32VDSR</def>
     </VDS32>    
     <FDS16>
-        <def name="R0IE02LS4">K01FDSR</def>
-        <def name="R0IE01LS4">K02FDSR</def>
+        <def name="FDS16R01">K01FDSR</def>
+        <def name="FDS16R02">K02FDSR</def>
         <def name="FDS16R03">K03FDSR</def>
         <def name="FDS16R04">K04FDSR</def>
         <def name="FDS16R05">K05FDSR</def>
         <def name="FDS16R06">K06FDSR</def>
         <def name="FDS16R07">K07FDSR</def>
         <def name="FDS16R08">K08FDSR</def>
-        <def name="R0VN74LZ1">K09FDSR</def>
-        <def name="R0VN78LZ1">K10FDSR</def>
-        <def name="A0EE01LS4">K11FDSR</def>
-        <def name="A0VN71LS4">K12FDSR</def>
-        <def name="R0VN74LZ2">K13FDSR</def>
-        <def name="R0VN78LZ2">K14FDSR</def>
-        <def name="A1EE01LS4">K15FDSR</def>
-        <def name="A1VN71LS4">K16FDSR</def>
+        <def name="FDS16R09">K09FDSR</def>
+        <def name="FDS16R10">K10FDSR</def>
+        <def name="FDS16R11">K11FDSR</def>
+        <def name="FDS16R12">K12FDSR</def>
+        <def name="FDS16R13">K13FDSR</def>
+        <def name="FDS16R14">K14FDSR</def>
+        <def name="FDS16R15">K15FDSR</def>
+        <def name="FDS16R16">K16FDSR</def>
     </FDS16>
 </assign>

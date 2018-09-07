@@ -52,21 +52,21 @@
     <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
     <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
     
-    <var name="R0IE02LS4" description="(R0IE02LS4) Отключить питание ПУ, ПР  4 канал" format="1"></var>
-    <var name="R0IE01LS4" description="(R0IE01LS4) Отключить питание детекторов 4 канала " format="1"></var>
+    <var name="R0IE02LS3" description="(R0IE02LS3) Отключить питание ПУ, ПР  3 канала" format="1"></var>
+    <var name="R0IE01LS3" description="(R0IE01LS3) Отключить питание детекторов 3 канала" format="1"></var>
     <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
     <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
     <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
     <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
     <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
     <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
-    <var name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
-    <var name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП4 на БАЗ1" format="1"></var>
-    <var name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического подъёма ББ от АКНП4 на БАЗ1" format="1"></var>
-    <var name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
-    <var name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
-    <var name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП4 на БАЗ2" format="1"></var>
-    <var name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического подъёма ББ от АКНП4 на БАЗ2" format="1"></var>
+    <var name="R0VN73LZ1" description="(R0VN73LZ1) АС по мощности канал 3 на БАЗ1" format="1"></var>
+    <var name="R0VN77LZ1" description="(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1 " format="1"></var>
+    <var name="A0EE01LS3" description="(A0EE01LS3) Исправность АКНП3 на БАЗ1" format="1"></var>
+    <var name="A0VN71LS3" description="(A0VN71LS3) Блокировка автоматического подъёма ББ от АКНП3 на БАЗ1" format="1"></var>
+    <var name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3 на БАЗ2" format="1"></var>
+    <var name="R0VN77LZ2" description="(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2" format="1"></var>
+    <var name="A1EE01LS3" description="(A1EE01LS3) Исправность АКНП3 на БАЗ2 " format="1"></var>
+    <var name="A1VN71LS3" description="(A1VN71LS3) Блокировка автоматического подъёма ББ от АКНП3 на БАЗ2" format="1"></var>
 
 </vars>

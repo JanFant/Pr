@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+        <variable xml="varRPU"/>
+        <saves xml="saveRPU"/>
+        <devices xml="devRPU"/>
+        <modbus name="RPU" description="Пустые сигналы RPU" type="slave" port="502" xml="RPU"/>
+</subsystem>

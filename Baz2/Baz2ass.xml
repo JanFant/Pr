@@ -57,9 +57,13 @@
         <def name="A1VN71LZ2">K04FDSR</def>
         <def name="R0VZ71LZ2">K05FDSR</def>
 
+        <def name="OEBB1Z2">K06FDSR</def>
+        <def name="OEBB2Z2">K07FDSR</def>
+        <def name="OERB1Z2">K08FDSR</def>
+        <def name="OERB2Z2">K09FDSR</def>
+
         <def name="B3IS11LDU">K10FDSR</def>
         <def name="B3IS22LDU">K11FDSR</def>
-
         <def name="B3IS11LZ1">K12FDSR</def>
         <def name="B3IS22LZ1">K13FDSR</def>     
         <def name="B0VP81LZ1">K14FDSR</def>
