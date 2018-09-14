@@ -38,7 +38,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -60,7 +60,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -82,7 +82,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -104,7 +104,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -126,7 +126,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -148,7 +148,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -170,7 +170,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -192,7 +192,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -214,7 +214,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -236,7 +236,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -258,7 +258,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -280,7 +280,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -324,7 +324,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -346,7 +346,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -368,7 +368,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -390,7 +390,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -654,7 +654,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -676,7 +676,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -698,7 +698,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -720,7 +720,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -874,7 +874,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -918,7 +918,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -940,7 +940,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -962,7 +962,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1116,7 +1116,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1138,7 +1138,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1160,7 +1160,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1204,7 +1204,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1226,7 +1226,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1248,7 +1248,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1270,7 +1270,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1292,7 +1292,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1336,7 +1336,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1358,7 +1358,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1380,7 +1380,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1402,7 +1402,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1424,7 +1424,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1490,7 +1490,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1644,7 +1644,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1842,7 +1842,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1908,7 +1908,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1930,7 +1930,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1952,7 +1952,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1974,7 +1974,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1996,7 +1996,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2018,7 +2018,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2040,7 +2040,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2062,7 +2062,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2084,7 +2084,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2106,7 +2106,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2128,7 +2128,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2150,7 +2150,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2832,7 +2832,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2854,7 +2854,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2876,7 +2876,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2898,7 +2898,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2920,7 +2920,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2942,7 +2942,7 @@
       Group="9C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2964,7 +2964,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2986,7 +2986,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3008,7 +3008,7 @@
       Group="9C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3030,7 +3030,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3052,7 +3052,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3074,7 +3074,7 @@
       Group="9C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3096,7 +3096,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3118,7 +3118,7 @@
       Group="9C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3140,7 +3140,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3162,7 +3162,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3184,7 +3184,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3206,7 +3206,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3228,7 +3228,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3250,7 +3250,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3272,7 +3272,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3338,7 +3338,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3360,7 +3360,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3382,7 +3382,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5296,7 +5296,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5318,7 +5318,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5340,7 +5340,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5362,7 +5362,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5384,7 +5384,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5406,7 +5406,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5428,7 +5428,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5450,7 +5450,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5472,7 +5472,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5494,7 +5494,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5516,7 +5516,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5538,7 +5538,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5560,7 +5560,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5582,7 +5582,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5604,7 +5604,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5626,7 +5626,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5648,7 +5648,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5670,7 +5670,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5692,7 +5692,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5714,7 +5714,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5736,7 +5736,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5758,7 +5758,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5780,7 +5780,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5802,7 +5802,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5824,7 +5824,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5846,7 +5846,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5868,7 +5868,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5890,7 +5890,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5912,7 +5912,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5934,7 +5934,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5956,7 +5956,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5978,7 +5978,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6000,7 +6000,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6022,7 +6022,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6044,7 +6044,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6066,7 +6066,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6088,7 +6088,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6110,7 +6110,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6132,7 +6132,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6154,7 +6154,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6176,7 +6176,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6198,7 +6198,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6220,7 +6220,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6242,7 +6242,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6264,7 +6264,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6286,7 +6286,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6308,7 +6308,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6352,7 +6352,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6396,7 +6396,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6836,7 +6836,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6968,7 +6968,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6990,7 +6990,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7012,7 +7012,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7078,7 +7078,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7100,7 +7100,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7122,7 +7122,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7144,7 +7144,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7166,7 +7166,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7188,7 +7188,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7210,7 +7210,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7232,7 +7232,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7254,7 +7254,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7276,7 +7276,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7298,7 +7298,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7320,7 +7320,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7342,7 +7342,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7386,7 +7386,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7430,7 +7430,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7452,7 +7452,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7474,7 +7474,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7540,7 +7540,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7562,7 +7562,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7672,7 +7672,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7694,7 +7694,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7892,7 +7892,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7914,7 +7914,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7936,7 +7936,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7958,7 +7958,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7980,7 +7980,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8002,7 +8002,7 @@
       Group="1"
       Access="0"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8024,7 +8024,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14602,7 +14602,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14624,7 +14624,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14646,7 +14646,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14668,7 +14668,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14690,7 +14690,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14844,7 +14844,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14866,7 +14866,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14888,7 +14888,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -15020,7 +15020,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15042,7 +15042,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15064,7 +15064,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15086,7 +15086,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15108,7 +15108,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15130,7 +15130,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15152,7 +15152,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15174,7 +15174,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15196,7 +15196,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -15218,7 +15218,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15240,7 +15240,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15262,7 +15262,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15284,7 +15284,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15306,7 +15306,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15328,7 +15328,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15350,7 +15350,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15372,7 +15372,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15394,7 +15394,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15416,7 +15416,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15438,7 +15438,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15460,7 +15460,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15482,7 +15482,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15504,7 +15504,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15526,7 +15526,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15548,7 +15548,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15570,7 +15570,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15592,7 +15592,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15614,7 +15614,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15636,7 +15636,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15658,7 +15658,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15680,7 +15680,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15702,7 +15702,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15724,7 +15724,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15746,7 +15746,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15768,7 +15768,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15790,7 +15790,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15812,7 +15812,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15834,7 +15834,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15856,7 +15856,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15878,7 +15878,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15900,7 +15900,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15922,7 +15922,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15944,7 +15944,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15966,7 +15966,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15988,7 +15988,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16010,7 +16010,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16032,7 +16032,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16054,7 +16054,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16076,7 +16076,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16098,7 +16098,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16120,7 +16120,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16142,7 +16142,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16164,7 +16164,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16186,7 +16186,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16208,7 +16208,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16230,7 +16230,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16252,7 +16252,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16274,7 +16274,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16296,7 +16296,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16318,7 +16318,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16340,7 +16340,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16362,7 +16362,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16384,7 +16384,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16406,7 +16406,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16428,7 +16428,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16450,7 +16450,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16472,7 +16472,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16494,7 +16494,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16516,7 +16516,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16538,7 +16538,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16560,7 +16560,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16582,7 +16582,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16604,7 +16604,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16626,7 +16626,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16648,7 +16648,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16670,7 +16670,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16692,7 +16692,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16714,7 +16714,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16736,7 +16736,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16758,7 +16758,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16780,7 +16780,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16802,7 +16802,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16824,7 +16824,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16846,7 +16846,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16868,7 +16868,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16890,7 +16890,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16912,7 +16912,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16934,7 +16934,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16956,7 +16956,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16978,7 +16978,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17000,7 +17000,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17022,7 +17022,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17044,7 +17044,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17066,7 +17066,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17088,7 +17088,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17110,7 +17110,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17132,7 +17132,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17154,7 +17154,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17176,7 +17176,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17198,7 +17198,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17220,7 +17220,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17242,7 +17242,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17264,7 +17264,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17286,7 +17286,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17308,7 +17308,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17330,7 +17330,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17352,7 +17352,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17374,7 +17374,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17396,7 +17396,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17418,7 +17418,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17440,7 +17440,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17462,7 +17462,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17484,7 +17484,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17506,7 +17506,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17528,7 +17528,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17550,7 +17550,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17572,7 +17572,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17594,7 +17594,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17616,7 +17616,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17638,7 +17638,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17660,7 +17660,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17682,7 +17682,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17704,7 +17704,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17726,7 +17726,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17748,7 +17748,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17770,7 +17770,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17792,7 +17792,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17814,7 +17814,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17836,7 +17836,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17858,7 +17858,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17880,7 +17880,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17902,7 +17902,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -17924,7 +17924,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17946,7 +17946,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -17968,7 +17968,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -17990,7 +17990,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18012,7 +18012,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18034,7 +18034,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18056,7 +18056,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18078,7 +18078,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18100,7 +18100,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18122,7 +18122,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18144,7 +18144,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18166,7 +18166,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18188,7 +18188,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18210,7 +18210,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18232,7 +18232,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18254,7 +18254,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18276,7 +18276,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18298,7 +18298,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18320,7 +18320,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18342,7 +18342,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18364,7 +18364,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18386,7 +18386,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18408,7 +18408,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18430,7 +18430,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18452,7 +18452,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18474,7 +18474,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18496,7 +18496,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18518,7 +18518,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18540,7 +18540,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18562,7 +18562,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18584,7 +18584,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18606,7 +18606,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18628,7 +18628,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18650,7 +18650,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18672,7 +18672,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18694,7 +18694,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18716,7 +18716,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -18738,7 +18738,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18760,7 +18760,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18782,7 +18782,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18804,7 +18804,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18826,7 +18826,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18848,7 +18848,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18870,7 +18870,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18892,7 +18892,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18914,7 +18914,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18936,7 +18936,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -18958,7 +18958,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -18980,7 +18980,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -19002,7 +19002,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=0
@@ -19068,7 +19068,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -19090,7 +19090,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -19112,7 +19112,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -19134,7 +19134,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -19156,7 +19156,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -19200,7 +19200,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -19266,7 +19266,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -19288,7 +19288,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msscm"
+      InterfaceMB="msscm, SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -19450,7 +19450,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Текущая "
@@ -19549,7 +19549,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19576,7 +19576,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19603,7 +19603,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19630,7 +19630,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19658,7 +19658,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19686,7 +19686,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19714,7 +19714,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19791,7 +19791,7 @@
         }
       }
       [VVV_Text]{
-        R="15,93,60,98"
+        R="15,93,63,99"
         Number=146
         IsHold=FALSE
         Line1="Координата ББ1"
@@ -19868,7 +19868,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19895,7 +19895,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19922,7 +19922,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19949,7 +19949,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -19977,7 +19977,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20005,7 +20005,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20033,7 +20033,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20151,7 +20151,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20178,7 +20178,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20205,7 +20205,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20232,7 +20232,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20260,7 +20260,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20288,7 +20288,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20316,7 +20316,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20351,7 +20351,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Заданная"
@@ -20379,7 +20379,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Заданная скорость "
@@ -20441,7 +20441,7 @@
         }
       }
       [VVV_Text]{
-        R="76,140,121,145"
+        R="76,140,124,146"
         Number=325
         IsHold=TRUE
         Line1="Координата РБ1"
@@ -20460,7 +20460,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20542,7 +20542,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20569,7 +20569,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20596,7 +20596,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20623,7 +20623,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20651,7 +20651,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20679,7 +20679,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20707,7 +20707,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20777,7 +20777,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20844,9 +20844,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=0
+        FormatMB=1
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -20872,7 +20872,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20899,7 +20899,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20926,7 +20926,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20954,7 +20954,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -20982,7 +20982,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21010,7 +21010,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21080,7 +21080,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21121,7 +21121,7 @@
         }
       }
       [VVV_Text]{
-        R="114,187,159,192"
+        R="114,187,163,193"
         Number=454
         IsHold=FALSE
         Line1="Координата ИС1"
@@ -21181,7 +21181,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21208,7 +21208,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21235,7 +21235,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21262,7 +21262,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21290,7 +21290,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21318,7 +21318,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21346,7 +21346,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21416,7 +21416,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21565,7 +21565,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Текущая "
@@ -21681,13 +21681,13 @@
         Line1="Рис.3  Модель механизма перемещения регулирующего блока РБ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2177,414,2396,419"
+        R="2177,414,2407,420"
         Number=663
         IsHold=FALSE
         Line1="Рис.4  Модель механизма перемещения импульсного стержня ИС1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2199,870,2418,875"
+        R="2199,870,2429,876"
         Number=664
         IsHold=TRUE
         Line1="Рис.9  Модель механизма перемещения импульсного стержня ИС2 РУ БАРС-4"
@@ -21742,7 +21742,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21769,7 +21769,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21854,7 +21854,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21881,7 +21881,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -21937,7 +21937,7 @@
         CONST_NAME="B8UC21RIM"
       }
       [VVV_Text]{
-        R="833,1284,993,1289"
+        R="833,1284,1002,1290"
         Number=721
         IsHold=TRUE
         Line1="Рис.12  Модель механизма перемещения АЗ2 РУ БАРС-4"
@@ -21980,7 +21980,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22007,7 +22007,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22063,7 +22063,7 @@
         CONST_NAME="A8UC21RIM"
       }
       [VVV_Text]{
-        R="1532,1280,1746,1285"
+        R="1532,1280,1758,1286"
         Number=774
         IsHold=TRUE
         Line1="Рис.13 Модель механизма перемещения детекторной стойки ДС2 РУ БАРС-4"
@@ -22106,8 +22106,8 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -22132,7 +22132,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22187,7 +22187,7 @@
         CONST_NAME="A6UC21RIM"
       }
       [VVV_Text]{
-        R="2110,1286,2333,1291"
+        R="2110,1286,2344,1292"
         Number=793
         IsHold=TRUE
         Line1="Рис.14 Модель механизма перемещения биологической защиты БЗ1 РУ БАРС-4"
@@ -22230,7 +22230,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22256,7 +22256,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22311,13 +22311,13 @@
         CONST_NAME="A6UC21RIM"
       }
       [VVV_Text]{
-        R="2143,1728,2366,1733"
+        R="2143,1728,2377,1734"
         Number=823
         IsHold=TRUE
         Line1="Рис.19 Модель механизма перемещения биологической защиты БЗ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1639,2054,1893,2059"
+        R="1639,2054,1907,2060"
         Number=866
         IsHold=FALSE
         Line1="  Рис.19-2  Модель механизмов перемещения нейтронных источников НИ1,НИ2  РУ БАРС-4"
@@ -22360,7 +22360,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22387,7 +22387,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22442,7 +22442,7 @@
         CONST_NAME="R1UC21RIM"
       }
       [VVV_Text]{
-        R="173,1745,366,1750"
+        R="173,1745,376,1751"
         Number=883
         IsHold=TRUE
         Line1="Рис.16  Модель механизма дистанционной загрузки МДЗ1 РУ БАРС-4"
@@ -22485,7 +22485,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22512,7 +22512,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22567,7 +22567,7 @@
         CONST_NAME="R1UC21RIM"
       }
       [VVV_Text]{
-        R="838,1745,1031,1750"
+        R="838,1745,1041,1751"
         Number=915
         IsHold=TRUE
         Line1="Рис.17  Модель механизма дистанционной загрузки МДЗ2 РУ БАРС-4"
@@ -22580,7 +22580,7 @@
         CONST_NAME="R3UL10RIM"
       }
       [VVV_Text]{
-        R="1437,1741,1740,1746"
+        R="1437,1741,1758,1747"
         Number=958
         IsHold=FALSE
         Line1="Рис.18  Модель механизмов перемещения ворот отстойной зоны,гомогенных дверей и кран-балки РУ БАРС-4"
@@ -22637,7 +22637,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22663,7 +22663,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22762,7 +22762,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22788,7 +22788,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -22850,7 +22850,7 @@
         Line1="Рис.18  Модель механизма перемещения нейтронной ловушки НЛ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1311,2005,1579,2010"
+        R="1311,2005,1596,2011"
         Number=1080
         IsHold=FALSE
         Line1="Рис.19-1  Модель механизмов перемещения нейтронных источников НИ-ДС1,НИ-ДС2 РУ БАРС-4"
@@ -22876,7 +22876,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Поток нейтронов"
@@ -22903,7 +22903,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Поток нейтронов"
@@ -22984,7 +22984,7 @@
         }
       }
       [VVV_Text]{
-        R="336,2651,553,2656"
+        R="336,2651,567,2657"
         Number=1099
         IsHold=FALSE
         Line1="Рис.21 Модель 1-го канала измерения нейтронного потока (АКНП1) РУ БАРС-4"
@@ -23043,7 +23043,7 @@
         }
       }
       [VVV_Text]{
-        R="132,2642,181,2647"
+        R="132,2642,184,2648"
         Number=1120
         IsHold=FALSE
         Line1="Y-координата АЗ2"
@@ -23468,7 +23468,7 @@
         Line1="Y-координата АЗ2"
       }
       [VVV_Text]{
-        R="1798,2230,1847,2235"
+        R="1798,2230,1850,2236"
         Number=1352
         IsHold=FALSE
         Line1="Y-координата АЗ1"
@@ -23693,13 +23693,13 @@
         Line1="Y-координата АЗ2"
       }
       [VVV_Text]{
-        R="2450,2230,2499,2235"
+        R="2450,2230,2502,2236"
         Number=1479
         IsHold=FALSE
         Line1="Y-координата АЗ1"
       }
       [VVV_Text]{
-        R="2287,2231,2322,2242"
+        R="2287,2231,2327,2243"
         Number=1480
         IsHold=FALSE
         Line1="X-координата"
@@ -23853,7 +23853,7 @@
         }
       }
       [VVV_Text]{
-        R="2189,2206,2385,2211"
+        R="2189,2206,2397,2212"
         Number=1788
         IsHold=TRUE
         Line1="Рис.26.2 Модель канала измерения уровня радиации (РПУ) РУ БАРС-4"
@@ -23943,7 +23943,7 @@
         CONST_NAME="R0UR30RIM"
       }
       [VVV_Text]{
-        R="10,45,52,56"
+        R="10,45,55,57"
         Number=1848
         IsHold=FALSE
         Line1="Концентрация"
@@ -23963,7 +23963,7 @@
         }
       }
       [VVV_Text]{
-        R="15,6,59,11"
+        R="15,6,63,12"
         Number=1853
         IsHold=FALSE
         Line1="Координата АЗ2"
@@ -24279,7 +24279,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Коэффициент"
@@ -24568,7 +24568,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Коэффициент"
@@ -24615,7 +24615,7 @@
         Line2="K12 связи АЗ1,2"
       }
       [VVV_Text]{
-        R="108,247,137,258"
+        R="108,247,139,259"
         Number=1841
         IsHold=FALSE
         Line1="Приход "
@@ -24951,21 +24951,21 @@
         Line2="тивление при обдуве"
       }
       [VVV_Text]{
-        R="5,317,79,328"
+        R="5,317,84,329"
         Number=1968
         IsHold=FALSE
         Line1="*Коэффициент-1 функции"
         Line2="реактивности вносимой РБ"
       }
       [VVV_Text]{
-        R="7,259,81,270"
+        R="7,259,86,271"
         Number=1969
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой РБ"
       }
       [VVV_Text]{
-        R="7,208,86,213"
+        R="7,208,93,214"
         Number=1970
         IsHold=FALSE
         Line1="Нормальная температура АЗ"
@@ -25006,14 +25006,14 @@
         Line2="реактивности вносимой ББ"
       }
       [VVV_Text]{
-        R="256,307,330,318"
+        R="256,307,335,319"
         Number=1976
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой ББ"
       }
       [VVV_Text]{
-        R="274,252,316,263"
+        R="274,252,320,264"
         Number=1977
         IsHold=FALSE
         Line1="Энергия одного"
@@ -25026,14 +25026,14 @@
         Line1="Масса топлива в АЗ"
       }
       [VVV_Text]{
-        R="357,320,401,331"
+        R="357,320,405,332"
         Number=1979
         IsHold=FALSE
         Line1="*Температурный"
         Line2="коэффициент"
       }
       [VVV_Text]{
-        R="348,258,408,275"
+        R="348,258,412,277"
         Number=1980
         IsHold=FALSE
         Line1="Доля запаздывающих"
@@ -25041,14 +25041,14 @@
         Line3="количестве нейтронов"
       }
       [VVV_Text]{
-        R="348,200,405,211"
+        R="348,200,410,212"
         Number=1981
         IsHold=FALSE
         Line1="Среднее время"
         Line2="генерации нейтронов"
       }
       [VVV_Text]{
-        R="113,323,143,340"
+        R="113,323,145,342"
         Number=1982
         IsHold=FALSE
         Line1="*-значение"
@@ -25076,7 +25076,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Текущая"
@@ -25167,7 +25167,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="SCM"
         ChannalName=""
         DeviceName=""
         Line1="Имитация срабатывания "
@@ -25187,7 +25187,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25214,7 +25214,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25241,14 +25241,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
-        TypeMBMaster=1
+        FormatMB=1
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Обобщенный"
@@ -25269,14 +25269,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
-        TypeMBMaster=1
+        FormatMB=1
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Обобщенный"
@@ -25291,7 +25291,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="2239,1929,2332,1934"
+        R="2239,1929,2338,1935"
         Number=1994
         IsHold=TRUE
         Line1="Рис. 26.1  Обработка сигналов АЗ"
@@ -25342,7 +25342,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25400,7 +25400,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка"
@@ -25427,7 +25427,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25465,7 +25465,7 @@
         }
       }
       [VVV_Text]{
-        R="1466,244,1473,249"
+        R="1466,244,1475,251"
         Number=2027
         IsHold=TRUE
         Line1="АЗ"
@@ -25484,7 +25484,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25535,7 +25535,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25607,7 +25607,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка «СБРОС ББ»"
@@ -25635,7 +25635,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка «СБРОС ББ»"
@@ -25656,7 +25656,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25802,7 +25802,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка «СБРОС ББ»"
@@ -25830,7 +25830,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка «СБРОС ББ»"
@@ -25857,7 +25857,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25884,7 +25884,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25911,7 +25911,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25938,7 +25938,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -25996,7 +25996,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка"
@@ -26066,7 +26066,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -26144,7 +26144,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Переключатель"
@@ -26396,7 +26396,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -26423,7 +26423,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -27009,7 +27009,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -27043,7 +27043,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -28254,14 +28254,14 @@
         Line2="нейтронов AЗ1"
       }
       [VVV_Text]{
-        R="2235,2229,2275,2240"
+        R="2235,2229,2279,2241"
         Number=1450
         IsHold=TRUE
         Line1="Поток"
         Line2="нейтронов AЗ1"
       }
       [VVV_Text]{
-        R="2178,2229,2218,2240"
+        R="2178,2229,2222,2241"
         Number=1474
         IsHold=FALSE
         Line1="Поток"
@@ -28309,7 +28309,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Текущий период"
@@ -28343,7 +28343,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Текущая "
@@ -28363,7 +28363,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28390,7 +28390,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28418,7 +28418,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28446,7 +28446,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -28528,7 +28528,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28556,7 +28556,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28584,7 +28584,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -28874,9 +28874,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -28909,7 +28909,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -28942,9 +28942,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -29123,7 +29123,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -29151,7 +29151,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по мощности"
@@ -29171,7 +29171,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29284,7 +29284,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29334,7 +29334,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="223,3094,373,3099"
+        R="223,3094,384,3100"
         Number=2258
         IsHold=TRUE
         Line1="Рис.1. Обработка датчиков нейтронного потока 1-канал"
@@ -29360,7 +29360,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Номер "
@@ -29381,7 +29381,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29409,7 +29409,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29444,7 +29444,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -29471,7 +29471,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -29491,7 +29491,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29519,7 +29519,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29618,7 +29618,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29646,7 +29646,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -29745,7 +29745,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -29797,7 +29797,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -29825,7 +29825,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -29877,7 +29877,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -29905,7 +29905,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -29926,7 +29926,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30040,7 +30040,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30090,7 +30090,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="1549,3033,1677,3038"
+        R="1549,3033,1687,3039"
         Number=2561
         IsHold=TRUE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -30116,7 +30116,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Номер"
@@ -30138,7 +30138,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30166,7 +30166,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30201,7 +30201,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -30229,7 +30229,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -30250,7 +30250,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30278,7 +30278,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30378,7 +30378,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30406,7 +30406,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30467,7 +30467,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -30495,7 +30495,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -30547,7 +30547,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -30599,7 +30599,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -30627,7 +30627,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -30648,7 +30648,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30762,7 +30762,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30812,7 +30812,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="244,3522,372,3527"
+        R="244,3522,382,3528"
         Number=2790
         IsHold=TRUE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -30838,7 +30838,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Номер"
@@ -30860,7 +30860,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30888,7 +30888,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30923,7 +30923,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -30951,7 +30951,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -30971,7 +30971,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -30998,7 +30998,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31071,7 +31071,7 @@
         }
       }
       [VVV_Text]{
-        R="846,3504,988,3509"
+        R="846,3504,996,3510"
         Number=2934
         IsHold=TRUE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -31111,8 +31111,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -31138,7 +31138,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31237,7 +31237,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -31265,7 +31265,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -31317,7 +31317,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -31369,7 +31369,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -31397,7 +31397,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -31418,7 +31418,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31532,7 +31532,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31583,7 +31583,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="1554,3523,1708,3528"
+        R="1554,3523,1718,3529"
         Number=3028
         IsHold=TRUE
         Line1="Рис.38. Обработка датчиков нейтронного потока канал 4"
@@ -31609,7 +31609,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Номер"
@@ -31631,7 +31631,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31659,7 +31659,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31694,7 +31694,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -31722,7 +31722,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -31742,7 +31742,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31770,7 +31770,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31863,7 +31863,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31891,7 +31891,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -31905,7 +31905,7 @@
         Line2="АКНП канал 4 на БАЗ2"
       }
       [VVV_Text]{
-        R="2227,3518,2395,3523"
+        R="2227,3518,2404,3524"
         Number=3214
         IsHold=TRUE
         Line1="Рис.39. Вычисление периода разгона и реактивности канал 4"
@@ -31996,7 +31996,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -32024,7 +32024,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -32076,7 +32076,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -32236,7 +32236,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -32520,7 +32520,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -32535,7 +32535,7 @@
         Line3="обесточен"
       }
       [VVV_Text]{
-        R="2813,405,3019,410"
+        R="2813,405,3030,411"
         Number=3244
         IsHold=FALSE
         Line1="Рис.5 Формирование выходных сигналов модели активных зон РУ БАРС-4"
@@ -32578,8 +32578,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -33446,7 +33446,7 @@
         }
       }
       [VVV_Text]{
-        R="383,22,419,45"
+        R="383,22,422,47"
         Number=3314
         IsHold=FALSE
         Line1=" Клапан "
@@ -33489,7 +33489,7 @@
         }
       }
       [VVV_Text]{
-        R="325,61,371,72"
+        R="325,61,376,73"
         Number=3316
         IsHold=FALSE
         Line1="Текущая "
@@ -33509,7 +33509,7 @@
         }
       }
       [VVV_Text]{
-        R="1848,1603,1882,1620"
+        R="1848,1603,1885,1622"
         Number=3318
         IsHold=FALSE
         Line1="Кран-балка"
@@ -33660,7 +33660,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -33711,7 +33711,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -33763,7 +33763,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -33988,14 +33988,14 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
         Line2="штока РБ1"
       }
       [VVV_Text]{
-        R="2784,871,2941,876"
+        R="2784,871,2950,877"
         Number=3349
         IsHold=FALSE
         Line1="Рис.10 Формирование выходных сигналов модели ИС1,2"
@@ -34037,9 +34037,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -34090,7 +34090,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -34141,7 +34141,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -34476,7 +34476,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -34524,14 +34524,14 @@
         }
       }
       [VVV_Text]{
-        R="1741,85,1771,96"
+        R="1741,85,1778,99"
         Number=3425
         IsHold=TRUE
         Line1="Приход на "
         Line2="ВУ РБ1"
       }
       [VVV_Text]{
-        R="1703,84,1731,95"
+        R="1703,84,1738,98"
         Number=284
         IsHold=TRUE
         Line1="Приход на"
@@ -34551,14 +34551,14 @@
         }
       }
       [VVV_Text]{
-        R="1728,141,1757,152"
+        R="1728,141,1764,155"
         Number=3325
         IsHold=TRUE
         Line1="Обесточен"
         Line2="ЭМ РБ1"
       }
       [VVV_Text]{
-        R="1692,142,1724,153"
+        R="1692,142,1732,156"
         Number=3398
         IsHold=TRUE
         Line1="Магнит РБ1"
@@ -34591,7 +34591,7 @@
         }
       }
       [VVV_Text]{
-        R="2327,548,2355,559"
+        R="2327,548,2356,560"
         Number=3430
         IsHold=TRUE
         Line1="Приход на"
@@ -34619,7 +34619,7 @@
         }
       }
       [VVV_Text]{
-        R="1587,169,1621,186"
+        R="1587,169,1628,190"
         Number=3415
         IsHold=TRUE
         Line1="Текущее"
@@ -34640,7 +34640,7 @@
         }
       }
       [VVV_Text]{
-        R="1781,80,1821,97"
+        R="1781,80,1831,101"
         Number=255
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -34661,7 +34661,7 @@
         }
       }
       [VVV_Text]{
-        R="1916,383,1949,394"
+        R="1916,383,1952,395"
         Number=3437
         IsHold=FALSE
         Line1="Координата "
@@ -34681,7 +34681,7 @@
         }
       }
       [VVV_Text]{
-        R="2305,69,2333,80"
+        R="2305,69,2334,81"
         Number=3438
         IsHold=TRUE
         Line1="Приход на"
@@ -34701,7 +34701,7 @@
         }
       }
       [VVV_Text]{
-        R="1806,136,1853,153"
+        R="1806,136,1864,157"
         Number=3439
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ"
@@ -34745,9 +34745,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -34972,7 +34972,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
@@ -35015,9 +35015,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -35095,9 +35095,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -35322,7 +35322,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
@@ -35365,9 +35365,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -35626,7 +35626,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -35678,7 +35678,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -35966,7 +35966,7 @@
         }
       }
       [VVV_Text]{
-        R="2491,3735,2520,3752"
+        R="2491,3735,2523,3754"
         Number=3531
         IsHold=FALSE
         Line1="Давление"
@@ -35987,7 +35987,7 @@
         }
       }
       [VVV_Text]{
-        R="2750,1530,2791,1547"
+        R="2750,1530,2796,1549"
         Number=3532
         IsHold=FALSE
         Line1="Текущее"
@@ -35995,7 +35995,7 @@
         Line3="ВЫСТРЕЛ ИС2"
       }
       [VVV_Text]{
-        R="2136,776,2177,793"
+        R="2136,776,2182,795"
         Number=2225
         IsHold=TRUE
         Line1="Текущее"
@@ -36016,7 +36016,7 @@
         }
       }
       [VVV_Text]{
-        R="2522,264,2555,275"
+        R="2522,264,2558,276"
         Number=3536
         IsHold=FALSE
         Line1="Координата "
@@ -36036,7 +36036,7 @@
         }
       }
       [VVV_Text]{
-        R="2435,67,2484,84"
+        R="2435,67,2487,86"
         Number=3537
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ "
@@ -36057,7 +36057,7 @@
         }
       }
       [VVV_Text]{
-        R="2383,66,2423,83"
+        R="2383,66,2425,85"
         Number=3538
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -36078,7 +36078,7 @@
         }
       }
       [VVV_Text]{
-        R="2420,644,2460,661"
+        R="2420,644,2462,663"
         Number=3539
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -36099,7 +36099,7 @@
         }
       }
       [VVV_Text]{
-        R="2535,726,2568,737"
+        R="2535,726,2571,738"
         Number=3540
         IsHold=FALSE
         Line1="Координата "
@@ -36119,7 +36119,7 @@
         }
       }
       [VVV_Text]{
-        R="2470,643,2519,660"
+        R="2470,643,2522,662"
         Number=3541
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ "
@@ -36164,7 +36164,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36216,7 +36216,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36268,7 +36268,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36295,7 +36295,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36323,8 +36323,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -36351,7 +36351,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36378,7 +36378,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36405,8 +36405,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -36433,7 +36433,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36485,7 +36485,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36512,8 +36512,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -36539,7 +36539,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36566,7 +36566,7 @@
         }
       }
       [VVV_Text]{
-        R="2341,70,2371,81"
+        R="2341,70,2372,82"
         Number=3628
         IsHold=TRUE
         Line1="Приход на "
@@ -36586,7 +36586,7 @@
         }
       }
       [VVV_Text]{
-        R="2363,548,2393,559"
+        R="2363,548,2394,560"
         Number=3629
         IsHold=TRUE
         Line1="Приход на "
@@ -36612,7 +36612,7 @@
         }
       }
       [VVV_Text]{
-        R="2494,70,2522,81"
+        R="2494,70,2523,82"
         Number=3633
         IsHold=FALSE
         Line1="Приход на"
@@ -36632,7 +36632,7 @@
         }
       }
       [VVV_Text]{
-        R="2542,669,2570,680"
+        R="2542,669,2571,681"
         Number=3634
         IsHold=TRUE
         Line1="Приход на"
@@ -36652,7 +36652,7 @@
         }
       }
       [VVV_Text]{
-        R="2085,237,2126,254"
+        R="2085,237,2131,256"
         Number=3640
         IsHold=FALSE
         Line1="Текущее"
@@ -36673,7 +36673,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36701,7 +36701,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36753,7 +36753,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36781,7 +36781,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36832,7 +36832,7 @@
         }
       }
       [VVV_Text]{
-        R="1443,3572,1481,3589"
+        R="1443,3572,1486,3591"
         Number=3660
         IsHold=TRUE
         Line1="Исправность"
@@ -36853,7 +36853,7 @@
         }
       }
       [VVV_Text]{
-        R="1495,3571,1533,3588"
+        R="1495,3571,1538,3590"
         Number=3663
         IsHold=TRUE
         Line1="Исправность"
@@ -36874,7 +36874,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36926,7 +36926,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -36954,7 +36954,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37006,7 +37006,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37034,7 +37034,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37086,7 +37086,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37114,7 +37114,7 @@
         }
       }
       [VVV_Text]{
-        R="1482,3880,1519,3897"
+        R="1482,3880,1522,3899"
         Number=3722
         IsHold=TRUE
         Line1="Исправность "
@@ -37135,7 +37135,7 @@
         }
       }
       [VVV_Text]{
-        R="1540,3882,1577,3899"
+        R="1540,3882,1580,3901"
         Number=3724
         IsHold=TRUE
         Line1="Исправность "
@@ -37156,7 +37156,7 @@
         }
       }
       [VVV_Text]{
-        R="1599,3882,1636,3899"
+        R="1599,3882,1639,3901"
         Number=3726
         IsHold=TRUE
         Line1="Исправность "
@@ -37375,7 +37375,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата ДС2"
@@ -37592,7 +37592,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата АЗ2"
@@ -37635,7 +37635,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37663,7 +37663,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37691,7 +37691,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37742,8 +37742,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -37769,7 +37769,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37820,7 +37820,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37871,7 +37871,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37899,7 +37899,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -37969,7 +37969,7 @@
         }
       }
       [VVV_Text]{
-        R="1163,1043,1194,1054"
+        R="1163,1043,1197,1055"
         Number=3785
         IsHold=FALSE
         Line1="Координата"
@@ -38109,7 +38109,7 @@
         CONST_NAME="R7UI75RIM"
       }
       [VVV_Text]{
-        R="2414,2154,2474,2165"
+        R="2414,2154,2478,2166"
         Number=1828
         IsHold=FALSE
         Line1="Уровень радиациии в "
@@ -38153,7 +38153,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38204,7 +38204,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38255,7 +38255,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38293,7 +38293,7 @@
         }
       }
       [TDrawSignal]{
-        R="3159,3331,3219,3371"
+        R="3158,3330,3218,3370"
         Number=3893
         IsHold=FALSE
         VisualNumber="1110"
@@ -38306,7 +38306,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38357,7 +38357,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38408,7 +38408,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38459,8 +38459,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -38510,7 +38510,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38537,7 +38537,7 @@
         }
       }
       [VVV_Text]{
-        R="312,1877,342,1888"
+        R="312,1877,343,1889"
         Number=1005
         IsHold=FALSE
         Line1="Приход на "
@@ -38557,7 +38557,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1894,1594,1905"
+        R="1564,1894,1597,1906"
         Number=3937
         IsHold=FALSE
         Line1="Приход на "
@@ -38577,7 +38577,7 @@
         }
       }
       [VVV_Text]{
-        R="357,1878,387,1889"
+        R="357,1878,388,1890"
         Number=3938
         IsHold=FALSE
         Line1="Приход на "
@@ -38597,7 +38597,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,1917,1593,1928"
+        R="1563,1917,1596,1929"
         Number=3939
         IsHold=FALSE
         Line1="Приход на "
@@ -38617,7 +38617,7 @@
         }
       }
       [VVV_Text]{
-        R="986,1886,1016,1897"
+        R="986,1886,1017,1898"
         Number=1037
         IsHold=FALSE
         Line1="Приход на "
@@ -38637,7 +38637,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1793,1594,1804"
+        R="1564,1793,1597,1805"
         Number=3941
         IsHold=FALSE
         Line1="Приход на "
@@ -38657,7 +38657,7 @@
         }
       }
       [VVV_Text]{
-        R="1035,1886,1065,1897"
+        R="1035,1886,1066,1898"
         Number=1038
         IsHold=FALSE
         Line1="Приход на "
@@ -38677,7 +38677,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,1815,1593,1826"
+        R="1563,1815,1596,1827"
         Number=3943
         IsHold=FALSE
         Line1="Приход на "
@@ -38721,7 +38721,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38772,7 +38772,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -38824,7 +38824,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39049,7 +39049,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
@@ -39483,7 +39483,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39645,14 +39645,14 @@
         }
       }
       [VVV_Text]{
-        R="1902,832,1935,843"
+        R="1902,832,1938,844"
         Number=4155
         IsHold=FALSE
         Line1="Координата "
         Line2="штока РБ2"
       }
       [VVV_Text]{
-        R="1881,595,1928,612"
+        R="1881,595,1931,614"
         Number=4123
         IsHold=FALSE
         Line1="Клапан ПОДЪЁМ"
@@ -39710,7 +39710,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39762,7 +39762,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39813,7 +39813,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39865,7 +39865,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39917,7 +39917,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -39968,7 +39968,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40019,7 +40019,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40070,7 +40070,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40121,8 +40121,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -40172,7 +40172,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40223,7 +40223,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40273,7 +40273,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40323,7 +40323,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40336,7 +40336,7 @@
         Line1="Приход на НУ МДЗ2"
       }
       [VVV_Text]{
-        R="2779,3081,3034,3092"
+        R="2779,3081,3049,3093"
         Number=4207
         IsHold=FALSE
         Line1="Рис.1 Формирование выходных сигналов модели гомогенных дверей,ворот отстойной зоны, "
@@ -40380,7 +40380,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40432,7 +40432,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40483,7 +40483,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40511,7 +40511,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40539,7 +40539,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,1407,1601,1424"
+        R="1563,1407,1602,1426"
         Number=4272
         IsHold=FALSE
         Line1="Приход на ВУ"
@@ -40560,7 +40560,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1591,1602,1608"
+        R="1564,1591,1603,1610"
         Number=4273
         IsHold=FALSE
         Line1="Приход на ВУ"
@@ -40581,7 +40581,7 @@
         }
       }
       [VVV_Text]{
-        R="1506,2099,1546,2110"
+        R="1506,2099,1549,2111"
         Number=4274
         IsHold=FALSE
         Line1="Аварийный НИ"
@@ -40601,7 +40601,7 @@
         }
       }
       [VVV_Text]{
-        R="155,284,195,295"
+        R="155,284,198,296"
         Number=548
         IsHold=FALSE
         Line1="Аварийный НИ"
@@ -40641,7 +40641,7 @@
         }
       }
       [VVV_Text]{
-        R="318,1450,348,1461"
+        R="318,1450,349,1462"
         Number=4281
         IsHold=FALSE
         Line1="Приход на "
@@ -40661,7 +40661,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1430,1602,1447"
+        R="1564,1430,1603,1449"
         Number=4282
         IsHold=FALSE
         Line1="Приход на НУ"
@@ -40669,7 +40669,7 @@
         Line3="дверей-1"
       }
       [VVV_Text]{
-        R="1562,1613,1600,1630"
+        R="1562,1613,1601,1632"
         Number=4161
         IsHold=FALSE
         Line1="Приход на НУ"
@@ -40690,7 +40690,7 @@
         }
       }
       [VVV_Text]{
-        R="2451,3892,2487,3909"
+        R="2451,3892,2490,3911"
         Number=4268
         IsHold=FALSE
         Line1="Давление"
@@ -40724,14 +40724,14 @@
         }
       }
       [VVV_Text]{
-        R="362,1451,392,1462"
+        R="362,1451,393,1463"
         Number=4285
         IsHold=FALSE
         Line1="Приход на "
         Line2="НУ МДЗ1"
       }
       [VVV_Text]{
-        R="951,1463,981,1474"
+        R="951,1463,982,1475"
         Number=4254
         IsHold=FALSE
         Line1="Приход на "
@@ -40764,7 +40764,7 @@
         }
       }
       [VVV_Text]{
-        R="994,1466,1024,1477"
+        R="994,1466,1025,1478"
         Number=4287
         IsHold=FALSE
         Line1="Приход на "
@@ -40784,7 +40784,7 @@
         }
       }
       [VVV_Text]{
-        R="1873,1409,1914,1426"
+        R="1873,1409,1918,1428"
         Number=4288
         IsHold=FALSE
         Line1="Приход на"
@@ -40805,7 +40805,7 @@
         }
       }
       [VVV_Text]{
-        R="1873,1957,1903,1968"
+        R="1873,1957,1904,1969"
         Number=4289
         IsHold=TRUE
         Line1="Приход на "
@@ -40825,7 +40825,7 @@
         }
       }
       [VVV_Text]{
-        R="1866,1810,1896,1827"
+        R="1866,1810,1897,1829"
         Number=4290
         IsHold=FALSE
         Line1="Приход на "
@@ -40846,14 +40846,14 @@
         }
       }
       [VVV_Text]{
-        R="1873,1933,1903,1944"
+        R="1873,1933,1904,1945"
         Number=4244
         IsHold=TRUE
         Line1="Приход на "
         Line2="НУ НИ1"
       }
       [VVV_Text]{
-        R="1872,1788,1902,1799"
+        R="1872,1788,1903,1800"
         Number=4177
         IsHold=FALSE
         Line1="Приход на "
@@ -40873,7 +40873,7 @@
         }
       }
       [VVV_Text]{
-        R="1872,1432,1913,1449"
+        R="1872,1432,1917,1451"
         Number=4247
         IsHold=FALSE
         Line1="Приход на"
@@ -40931,7 +40931,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -40983,7 +40983,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41035,7 +41035,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41087,7 +41087,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41139,7 +41139,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41191,7 +41191,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41243,7 +41243,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41295,7 +41295,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41347,7 +41347,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41399,7 +41399,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41450,7 +41450,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41502,7 +41502,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41516,13 +41516,13 @@
         Line2="НУ БЗ2"
       }
       [VVV_Text]{
-        R="2794,3531,3033,3536"
+        R="2794,3531,3046,3537"
         Number=4339
         IsHold=FALSE
         Line1="Рис.1 Формирование выходных сигналов модели тележки, АЗ2, ДС2, НИ ДС1, НИ ДС2"
       }
       [VVV_Text]{
-        R="1004,3641,1035,3652"
+        R="1004,3641,1037,3653"
         Number=4376
         IsHold=TRUE
         Line1="Приход на "
@@ -41555,7 +41555,7 @@
         }
       }
       [VVV_Text]{
-        R="1050,3640,1081,3651"
+        R="1050,3640,1083,3652"
         Number=4379
         IsHold=TRUE
         Line1="Приход на "
@@ -41575,7 +41575,7 @@
         }
       }
       [VVV_Text]{
-        R="911,3637,949,3654"
+        R="911,3637,951,3656"
         Number=4380
         IsHold=TRUE
         Line1="Приход на"
@@ -41596,7 +41596,7 @@
         }
       }
       [VVV_Text]{
-        R="957,3637,995,3654"
+        R="957,3637,997,3656"
         Number=4381
         IsHold=TRUE
         Line1="Приход на"
@@ -41604,7 +41604,7 @@
         Line3="НУ тележки"
       }
       [VVV_Text]{
-        R="1037,986,1075,1003"
+        R="1037,986,1077,1005"
         Number=4301
         IsHold=FALSE
         Line1="Приход на"
@@ -41646,7 +41646,7 @@
         }
       }
       [VVV_Text]{
-        R="979,987,1017,1004"
+        R="979,987,1019,1006"
         Number=4356
         IsHold=FALSE
         Line1="Приход на"
@@ -41742,7 +41742,7 @@
         }
       }
       [VVV_Text]{
-        R="2321,1461,2351,1472"
+        R="2321,1461,2352,1473"
         Number=4388
         IsHold=FALSE
         Line1="Приход на "
@@ -41762,7 +41762,7 @@
         }
       }
       [VVV_Text]{
-        R="2320,1487,2350,1498"
+        R="2320,1487,2351,1499"
         Number=4389
         IsHold=FALSE
         Line1="Приход на "
@@ -41806,7 +41806,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41857,7 +41857,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -41909,7 +41909,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -42134,7 +42134,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
@@ -42352,7 +42352,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Координата "
@@ -42396,7 +42396,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -42447,7 +42447,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -42499,7 +42499,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -42717,7 +42717,7 @@
         }
       }
       [VVV_Text]{
-        R="1875,134,1909,151"
+        R="1875,134,1911,153"
         Number=2295
         IsHold=TRUE
         Line1="Текущее"
@@ -42779,7 +42779,7 @@
         Line2=" ББ1"
       }
       [VVV_Text]{
-        R="1850,297,1895,302"
+        R="1850,297,1905,304"
         Number=145
         IsHold=FALSE
         Line1="Координата РБ1"
@@ -42791,13 +42791,13 @@
         Line1="Координата РБ2"
       }
       [VVV_Text]{
-        R="2547,253,2592,258"
+        R="2547,253,2596,259"
         Number=280
         IsHold=FALSE
         Line1="Координата ИС1"
       }
       [VVV_Text]{
-        R="2561,698,2592,709"
+        R="2561,698,2595,710"
         Number=283
         IsHold=FALSE
         Line1="Координата"
@@ -42939,7 +42939,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -42990,7 +42990,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -43041,14 +43041,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Движение ББ2"
@@ -43092,14 +43092,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Движение ББ2"
@@ -43118,9 +43118,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -43145,9 +43145,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -43409,14 +43409,14 @@
         }
       }
       [VVV_Text]{
-        R="155,3341,192,3352"
+        R="155,3341,195,3353"
         Number=2385
         IsHold=TRUE
         Line1="Y-Координата"
         Line2="АЗ2cм"
       }
       [VVV_Text]{
-        R="109,3341,145,3352"
+        R="109,3341,149,3353"
         Number=2386
         IsHold=TRUE
         Line1="X-Координата"
@@ -43520,14 +43520,14 @@
         }
       }
       [VVV_Text]{
-        R="1403,3330,1440,3341"
+        R="1403,3330,1443,3342"
         Number=2391
         IsHold=TRUE
         Line1="Y-Координата"
         Line2="АЗ2,cм"
       }
       [VVV_Text]{
-        R="1358,3330,1394,3341"
+        R="1358,3330,1398,3342"
         Number=2392
         IsHold=TRUE
         Line1="X-Координата"
@@ -43547,14 +43547,14 @@
         }
       }
       [VVV_Text]{
-        R="1389,2840,1426,2851"
+        R="1389,2840,1429,2852"
         Number=2411
         IsHold=TRUE
         Line1="Y-Координата"
         Line2="АЗ2,cм"
       }
       [VVV_Text]{
-        R="1344,2840,1380,2851"
+        R="1344,2840,1384,2852"
         Number=2412
         IsHold=TRUE
         Line1="X-Координата"
@@ -43782,7 +43782,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -43833,7 +43833,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -43884,7 +43884,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -43935,8 +43935,8 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -43986,7 +43986,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -44037,7 +44037,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -44078,7 +44078,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП1"
@@ -44105,7 +44105,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП1"
@@ -44132,7 +44132,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП2"
@@ -44159,7 +44159,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП3"
@@ -44186,7 +44186,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП4"
@@ -44220,7 +44220,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП2"
@@ -44261,7 +44261,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП3"
@@ -44288,7 +44288,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП4"
@@ -44308,7 +44308,7 @@
         }
       }
       [VVV_Text]{
-        R="2441,3579,2475,3590"
+        R="2441,3579,2477,3591"
         Number=367
         IsHold=FALSE
         Line1="Давление на"
@@ -44570,7 +44570,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=3
         HstInterv_val=1
@@ -44720,7 +44720,7 @@
         CONST_NAME="TERRB1"
       }
       [VVV_Text]{
-        R="1852,317,1893,328"
+        R="1852,317,1904,331"
         Number=397
         IsHold=FALSE
         Line1="Неисправности"
@@ -44734,14 +44734,14 @@
         CONST_NAME="A2MC02RC1"
       }
       [VVV_Text]{
-        R="1827,403,1887,414"
+        R="1827,403,1901,417"
         Number=1628
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока РБ1 от ИС"
       }
       [VVV_Text]{
-        R="1769,398,1823,415"
+        R="1769,398,1835,419"
         Number=1630
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -44763,7 +44763,7 @@
         CONST_NAME="TERIS2"
       }
       [VVV_Text]{
-        R="2502,752,2543,763"
+        R="2502,752,2546,764"
         Number=321
         IsHold=FALSE
         Line1="Неисправности"
@@ -44777,14 +44777,14 @@
         CONST_NAME="B3MC02RC1"
       }
       [VVV_Text]{
-        R="2488,834,2548,845"
+        R="2488,834,2553,846"
         Number=1618
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ИС2 от ИС"
       }
       [VVV_Text]{
-        R="2419,833,2473,850"
+        R="2419,833,2477,852"
         Number=1621
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -44806,7 +44806,7 @@
         CONST_NAME="TERIS1"
       }
       [VVV_Text]{
-        R="2492,306,2533,317"
+        R="2492,306,2536,318"
         Number=559
         IsHold=FALSE
         Line1="Неисправности"
@@ -44820,14 +44820,14 @@
         CONST_NAME="A3MC02RC1"
       }
       [VVV_Text]{
-        R="2478,388,2538,399"
+        R="2478,388,2543,400"
         Number=1634
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ИС1 от ИС"
       }
       [VVV_Text]{
-        R="2409,387,2463,404"
+        R="2409,387,2467,406"
         Number=1635
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -44849,7 +44849,7 @@
         CONST_NAME="TERAZ1"
       }
       [VVV_Text]{
-        R="223,4,264,15"
+        R="223,4,267,16"
         Number=475
         IsHold=FALSE
         Line1="Неисправности"
@@ -44870,7 +44870,7 @@
         Line2=" АЗ2"
       }
       [VVV_Text]{
-        R="676,55,721,72"
+        R="676,55,724,74"
         Number=609
         IsHold=FALSE
         Line1="Искажение"
@@ -45006,7 +45006,7 @@
         CONST_NAME="A3MC01RC1"
       }
       [VVV_Text]{
-        R="2152,163,2184,180"
+        R="2152,163,2187,182"
         Number=1669
         IsHold=FALSE
         Line1=" Заданная"
@@ -45014,7 +45014,7 @@
         Line3=" ИС1 от ИС"
       }
       [VVV_Text]{
-        R="2123,261,2151,284"
+        R="2123,261,2155,286"
         Number=463
         IsHold=FALSE
         Line1="Заданная"
@@ -45037,7 +45037,7 @@
         CONST_NAME="B3MC01RC1"
       }
       [VVV_Text]{
-        R="2185,629,2217,646"
+        R="2185,629,2220,648"
         Number=1681
         IsHold=FALSE
         Line1=" Заданная"
@@ -45045,7 +45045,7 @@
         Line3=" ИС2 от ИС"
       }
       [VVV_Text]{
-        R="2140,689,2168,712"
+        R="2140,689,2172,714"
         Number=540
         IsHold=FALSE
         Line1="Заданная"
@@ -45298,7 +45298,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -46141,7 +46141,7 @@
         Line5="***********"
       }
       [VVV_Text]{
-        R="386,44,417,73"
+        R="386,44,414,76"
         Number=2342
         IsHold=FALSE
         Line1="***********"
@@ -46283,7 +46283,7 @@
         }
       }
       [VVV_Text]{
-        R="1917,1967,1948,1996"
+        R="1917,1967,1945,1999"
         Number=2568
         IsHold=FALSE
         Line1="***********"
@@ -46293,19 +46293,19 @@
         Line5="***********"
       }
       [VVV_Text]{
-        R="357,910,576,915"
+        R="357,910,588,916"
         Number=2570
         IsHold=FALSE
         Line1="  Рис.23-2  Модель перемещения нейтронных источников НИ1,НИ2  РУ БАРС-4"
       }
       [VVV_Text]{
-        R="362,903,595,908"
+        R="362,903,610,909"
         Number=2575
         IsHold=FALSE
         Line1="Рис.23-1  Модель перемещения нейтронных источников НИ-ДС1,НИ-ДС2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="362,919,580,924"
+        R="362,919,593,925"
         Number=2596
         IsHold=FALSE
         Line1="Рис.23-3  Модель перемещения аварийного нейтронного источника РУ БАРС-4"
@@ -46324,13 +46324,13 @@
         }
       }
       [VVV_Text]{
-        R="365,930,600,935"
+        R="365,930,614,936"
         Number=2625
         IsHold=FALSE
         Line1="Рис.18  Модель перемещения ворот отстойной зоны,гомогенных дверей и кран-балки"
       }
       [VVV_Text]{
-        R="1830,1664,1861,1693"
+        R="1830,1664,1858,1696"
         Number=2627
         IsHold=FALSE
         Line1="***********"
@@ -46363,7 +46363,7 @@
         Line5="***********"
       }
       [VVV_Text]{
-        R="2295,997,2317,1032"
+        R="2295,997,2319,1035"
         Number=2633
         IsHold=FALSE
         Line1="**********"
@@ -46387,7 +46387,7 @@
         }
       }
       [VVV_Text]{
-        R="1623,1020,1652,1049"
+        R="1623,1020,1649,1052"
         Number=2637
         IsHold=FALSE
         Line1="**********"
@@ -46397,13 +46397,13 @@
         Line5="***********"
       }
       [VVV_Text]{
-        R="365,953,525,958"
+        R="365,953,534,959"
         Number=2654
         IsHold=FALSE
         Line1="Рис.12  Модель механизма перемещения АЗ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="364,976,578,981"
+        R="364,976,590,982"
         Number=2656
         IsHold=FALSE
         Line1="Рис.13 Модель механизма перемещения детекторной стойки ДС2 РУ БАРС-4"
@@ -46422,13 +46422,13 @@
         }
       }
       [VVV_Text]{
-        R="363,996,586,1001"
+        R="363,996,597,1002"
         Number=2667
         IsHold=FALSE
         Line1="Рис.14 Модель механизма перемещения биологической защиты БЗ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2313,1516,2335,1551"
+        R="2313,1516,2337,1554"
         Number=2669
         IsHold=FALSE
         Line1="**********"
@@ -46452,7 +46452,7 @@
         }
       }
       [VVV_Text]{
-        R="365,1023,588,1028"
+        R="365,1023,599,1029"
         Number=2700
         IsHold=FALSE
         Line1="Рис.19 Модель механизма перемещения биологической защиты БЗ2 РУ БАРС-4"
@@ -46471,13 +46471,13 @@
         }
       }
       [VVV_Text]{
-        R="363,1039,534,1044"
+        R="363,1039,543,1045"
         Number=2712
         IsHold=FALSE
         Line1="Рис.42  Модель механизма перемещения тележки РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1108,3729,1139,3758"
+        R="1108,3729,1136,3761"
         Number=2714
         IsHold=FALSE
         Line1="***********"
@@ -46507,7 +46507,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Магнит ББ1"
@@ -46534,7 +46534,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -46562,7 +46562,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Магнит ББ2"
@@ -46589,7 +46589,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -46617,7 +46617,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Магнит РБ1"
@@ -46644,7 +46644,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -46672,7 +46672,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Магнит РБ2"
@@ -46699,7 +46699,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -46745,7 +46745,7 @@
         Line1="Рис.3  Модель механизма перемещения регулирующего блока РБ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1757,197,1788,226"
+        R="1757,197,1793,232"
         Number=2762
         IsHold=FALSE
         Line1="***********"
@@ -46797,7 +46797,7 @@
         }
       }
       [VVV_Text]{
-        R="2499,157,2530,186"
+        R="2499,157,2527,189"
         Number=2778
         IsHold=FALSE
         Line1="***********"
@@ -46826,7 +46826,7 @@
         }
       }
       [VVV_Text]{
-        R="2358,604,2389,633"
+        R="2358,604,2386,636"
         Number=2791
         IsHold=FALSE
         Line1="***********"
@@ -46856,13 +46856,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="SCM"
         ChannalName=""
         DeviceName=""
         Line1="Период "
@@ -46883,7 +46883,7 @@
         Line2=" от КНК15-1"
       }
       [VVV_Text]{
-        R="161,3192,212,3203"
+        R="161,3192,216,3204"
         Number=2800
         IsHold=FALSE
         Line1="частота импульсов"
@@ -46896,13 +46896,13 @@
         Line1="СНМ-11"
       }
       [VVV_Text]{
-        R="153,2741,175,2746"
+        R="153,2741,177,2747"
         Number=2805
         IsHold=FALSE
         Line1="КНК15-1"
       }
       [VVV_Text]{
-        R="183,2742,205,2747"
+        R="183,2742,207,2748"
         Number=2806
         IsHold=FALSE
         Line1="КНК53М"
@@ -46950,7 +46950,7 @@
         CONST_NAME="R0UL03RSS"
       }
       [VVV_Text]{
-        R="1905,3820,1936,3849"
+        R="1905,3820,1933,3852"
         Number=2465
         IsHold=FALSE
         Line1="***********"
@@ -46973,7 +46973,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,3966,1675,3971"
+        R="1563,3966,1682,3972"
         Number=2820
         IsHold=TRUE
         Line1="Рис.43. Исправность источников питания"
@@ -47021,9 +47021,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -47057,7 +47057,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -47085,7 +47085,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -47144,7 +47144,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -47172,7 +47172,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -47218,25 +47218,25 @@
         CONST_NAME="TERA1VP81LIM"
       }
       [VVV_Text]{
-        R="2757,1755,2915,1760"
+        R="2757,1755,2924,1761"
         Number=1428
         IsHold=FALSE
         Line1="Рис.20 Модель состояния сигналов давления РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2815,1297,2972,1302"
+        R="2815,1297,2980,1303"
         Number=1440
         IsHold=FALSE
         Line1="Рис.15 Формирование выходных сигналов модели РБ1,2"
       }
       [VVV_Text]{
-        R="370,1084,563,1089"
+        R="370,1084,573,1090"
         Number=696
         IsHold=FALSE
         Line1="Рис.16  Модель механизма дистанционной загрузки МДЗ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="374,1097,567,1102"
+        R="374,1097,577,1103"
         Number=699
         IsHold=TRUE
         Line1="Рис.17  Модель механизма дистанционной загрузки МДЗ2 РУ БАРС-4"
@@ -48318,7 +48318,7 @@
         p2="1656:275"
         BNumber=318
         ENumber=239
-        Comment="Координата заднего аварийного выключателя РБ мм --> StKor - Стартовая координата ОРР по умолчанию"
+        Comment="Координата заднего аварийного выключателя РБ мм --> KZav - координата зад.аварийного выключателя ОРР мм"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -64093,7 +64093,8 @@
         Number=3920
         IsHold=FALSE
         p0="3154:3361"
-        p1="3159:3361"
+        p1="3154:3360"
+        p2="3158:3360"
         BNumber=3891
         ENumber=3893
         Comment="Out1 (psbool) - первый выходной сигнал --> Приход на НУ НЛ2"
@@ -82541,7 +82542,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82569,7 +82570,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82597,7 +82598,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82625,7 +82626,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82653,7 +82654,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82681,7 +82682,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -82855,7 +82856,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -82939,7 +82940,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -83076,7 +83077,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83104,7 +83105,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83132,7 +83133,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83160,7 +83161,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83188,7 +83189,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83216,7 +83217,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msscm"
+        InterfaceMB="msscm, SCM"
         ChannalName=""
         DeviceName=""
         Line1="Концентрация "
@@ -83734,4 +83735,4 @@
     }
   }
 }
-81121040
+81237368

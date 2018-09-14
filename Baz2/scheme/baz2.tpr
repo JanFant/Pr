@@ -2780,7 +2780,7 @@
         CONST_NAME="A2UP51RZZ"
       }
       [VVV_Text]{
-        R="1860,143,1938,178"
+        R="1860,143,1954,185"
         Number=444
         IsHold=TRUE
         Line1="Нормальные давления"
@@ -2953,7 +2953,7 @@
         Line2="в норме"
       }
       [VVV_Text]{
-        R="1820,87,1935,134"
+        R="1820,87,1959,143"
         Number=1109
         IsHold=TRUE
         Line1="Давление в кГ/см^2"
@@ -3342,13 +3342,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -3370,13 +3370,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -3398,13 +3398,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -3426,13 +3426,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -3454,13 +3454,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -3482,13 +3482,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -3510,13 +3510,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -3538,13 +3538,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -3565,14 +3565,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по мощности"
@@ -3592,14 +3592,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по мощности"
@@ -3619,14 +3619,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по мощности"
@@ -3646,14 +3646,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по мощности"
@@ -3673,14 +3673,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -3701,14 +3701,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -3729,14 +3729,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -3757,14 +3757,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -5356,7 +5356,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="106,893,141,904"
+        R="106,893,150,907"
         Number=213
         IsHold=TRUE
         Line1="Исправность"
@@ -5370,7 +5370,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="177,894,212,905"
+        R="177,894,221,908"
         Number=628
         IsHold=TRUE
         Line1="Исправность"
@@ -5772,19 +5772,19 @@
         Line1="Рис.7 Определение аварийной защиты по периоду и мощности для каждой зоны"
       }
       [VVV_Text]{
-        R="840,818,906,823"
+        R="840,818,922,825"
         Number=204
         IsHold=FALSE
         Line1="Рис.5 Контроль периода"
       }
       [VVV_Text]{
-        R="1724,871,1924,876"
+        R="1724,871,1970,878"
         Number=879
         IsHold=FALSE
         Line1="Рис.6 Ввод и контроль давления и обработка сигналов проверки сброса "
       }
       [VVV_Text]{
-        R="1575,416,1665,421"
+        R="1575,416,1685,423"
         Number=880
         IsHold=TRUE
         Line1="Рис.3 Ввод и контроль давления"
@@ -6980,7 +6980,7 @@
         }
       }
       [VVV_Text]{
-        R="1747,741,1809,752"
+        R="1747,741,1822,755"
         Number=344
         IsHold=FALSE
         Line1="Вставить блокировку"
@@ -7805,7 +7805,7 @@
         }
       }
       [VVV_Text]{
-        R="1869,583,1881,588"
+        R="1869,583,1884,590"
         Number=1247
         IsHold=FALSE
         Line1="II УР"
@@ -8302,14 +8302,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП1"
@@ -8329,14 +8329,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП2"
@@ -8356,14 +8356,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП3"
@@ -8383,14 +8383,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz2"
+        InterfaceMB="MBz2S"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП4"
@@ -9634,6 +9634,274 @@
         DeviceName=""
         Line1="Магнит РБ2"
         Line2="зацеплен"
+      }
+      [TDrawSignal]{
+        R="1543,1058,1573,1098"
+        Number=754
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="OEBB1Z2"
+        KodTeprol="OEBB1Z2"
+        Comment="Обесточивание ЭМ ББ1 и ЭПК ББ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K06FDSR"
+        DeviceName="FDS16"
+        Line1="Обесточивание ЭМ ББ1 и "
+        Line2="ЭПК ББ1 "
+      }
+      [TDrawSignal]{
+        R="1543,1105,1573,1145"
+        Number=756
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="OEBB2Z2"
+        KodTeprol="OEBB2Z2"
+        Comment="Обесточивание ЭМ ББ2 и ЭПК ББ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K07FDSR"
+        DeviceName="FDS16"
+        Line1="Обесточивание ЭМ ББ2 и "
+        Line2="ЭПК ББ2"
+      }
+      [TDrawSignal]{
+        R="1543,1157,1573,1197"
+        Number=757
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="OERB1Z2"
+        KodTeprol="OERB1Z2"
+        Comment="Обесточивание ЭМ РБ1 и ЭПК РБ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K08FDSR"
+        DeviceName="FDS16"
+        Line1="Обесточивание ЭМ РБ1 и "
+        Line2="ЭПК РБ1"
+      }
+      [TDrawSignal]{
+        R="1543,1207,1573,1247"
+        Number=758
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="OERB2Z2"
+        KodTeprol="OERB2Z2"
+        Comment="Обесточивание ЭМ РБ2 и ЭПК РБ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K09FDSR"
+        DeviceName="FDS16"
+        Line1="Обесточивание ЭМ РБ2 и "
+        Line2="ЭПК РБ2 "
+      }
+      [TDrawSignal]{
+        R="1610,1057,1640,1097"
+        Number=759
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B3IS11LDU"
+        KodTeprol="B3IS11LDU"
+        Comment="Приход на ВУ ИС2 для ДУ"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K10FDSR"
+        DeviceName="FDS16"
+        Line1="Приход на ВУ ИС2 для ДУ"
+      }
+      [TDrawSignal]{
+        R="1610,1104,1640,1144"
+        Number=850
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B3IS22LDU"
+        KodTeprol="B3IS22LDU"
+        Comment="Приход на НУП ИС2 для ДУ"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K11FDSR"
+        DeviceName="FDS16"
+        Line1="Приход на НУП ИС2 для ДУ"
+      }
+      [TDrawSignal]{
+        R="1610,1157,1640,1197"
+        Number=851
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B3IS11LZ1"
+        KodTeprol="B3IS11LZ1"
+        Comment="Приход на ВУ ИС2 для УСБ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K12FDSR"
+        DeviceName="FDS16"
+        Line1="Приход на ВУ ИС2 для УСБ1"
+      }
+      [TDrawSignal]{
+        R="1676,1057,1706,1097"
+        Number=852
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B0VP81LZ1"
+        KodTeprol="B0VP81LZ1"
+        Comment="Давление  АЗ2 в норме для УСБ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K14FDSR"
+        DeviceName="FDS16"
+        Line1="Давление  АЗ2 в норме для "
+        Line2="УСБ1"
+        Line3=""
+      }
+      [TDrawSignal]{
+        R="1609,1207,1639,1247"
+        Number=854
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B3IS22LZ1"
+        KodTeprol="B3IS22LZ1"
+        Comment="Приход на НУП ИС2 для УСБ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K13FDSR"
+        DeviceName="FDS16"
+        Line1="Приход на НУП ИС2 для "
+        Line2="УСБ1"
+      }
+      [TDrawSignal]{
+        R="1676,1104,1706,1144"
+        Number=860
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="B1VP81LZ1"
+        KodTeprol="B1VP81LZ1"
+        Comment="Давление СБРОС ББ2 в норме для УСБ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K15FDSR"
+        DeviceName="FDS16"
+        Line1="Давление СБРОС ББ2 в "
+        Line2="норме для УСБ1"
       }
       [VVV_DrawConnector]{
         Number=348
@@ -20533,275 +20801,7 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="1543,1058,1573,1098"
-        Number=754
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="OEBB1Z2"
-        KodTeprol="OEBB1Z2"
-        Comment="Обесточивание ЭМ ББ1 и ЭПК ББ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K06FDSR"
-        DeviceName="FDS16"
-        Line1="Обесточивание ЭМ ББ1 и "
-        Line2="ЭПК ББ1 "
-      }
-      [TDrawSignal]{
-        R="1543,1105,1573,1145"
-        Number=756
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="OEBB2Z2"
-        KodTeprol="OEBB2Z2"
-        Comment="Обесточивание ЭМ ББ2 и ЭПК ББ2"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K07FDSR"
-        DeviceName="FDS16"
-        Line1="Обесточивание ЭМ ББ2 и "
-        Line2="ЭПК ББ2"
-      }
-      [TDrawSignal]{
-        R="1543,1157,1573,1197"
-        Number=757
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="OERB1Z2"
-        KodTeprol="OERB1Z2"
-        Comment="Обесточивание ЭМ РБ1 и ЭПК РБ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K08FDSR"
-        DeviceName="FDS16"
-        Line1="Обесточивание ЭМ РБ1 и "
-        Line2="ЭПК РБ1"
-      }
-      [TDrawSignal]{
-        R="1543,1207,1573,1247"
-        Number=758
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="OERB2Z2"
-        KodTeprol="OERB2Z2"
-        Comment="Обесточивание ЭМ РБ2 и ЭПК РБ2"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K09FDSR"
-        DeviceName="FDS16"
-        Line1="Обесточивание ЭМ РБ2 и "
-        Line2="ЭПК РБ2 "
-      }
-      [TDrawSignal]{
-        R="1610,1057,1640,1097"
-        Number=759
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B3IS11LDU"
-        KodTeprol="B3IS11LDU"
-        Comment="Приход на ВУ ИС2 для ДУ"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K10FDSR"
-        DeviceName="FDS16"
-        Line1="Приход на ВУ ИС2 для ДУ"
-      }
-      [TDrawSignal]{
-        R="1610,1104,1640,1144"
-        Number=850
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B3IS22LDU"
-        KodTeprol="B3IS22LDU"
-        Comment="Приход на НУП ИС2 для ДУ"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K11FDSR"
-        DeviceName="FDS16"
-        Line1="Приход на НУП ИС2 для ДУ"
-      }
-      [TDrawSignal]{
-        R="1610,1157,1640,1197"
-        Number=851
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B3IS11LZ1"
-        KodTeprol="B3IS11LZ1"
-        Comment="Приход на ВУ ИС2 для УСБ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K12FDSR"
-        DeviceName="FDS16"
-        Line1="Приход на ВУ ИС2 для УСБ1"
-      }
-      [TDrawSignal]{
-        R="1676,1057,1706,1097"
-        Number=852
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B0VP81LZ1"
-        KodTeprol="B0VP81LZ1"
-        Comment="Давление  АЗ2 в норме для УСБ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K14FDSR"
-        DeviceName="FDS16"
-        Line1="Давление  АЗ2 в норме для "
-        Line2="УСБ1"
-        Line3=""
-      }
-      [TDrawSignal]{
-        R="1609,1207,1639,1247"
-        Number=854
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B3IS22LZ1"
-        KodTeprol="B3IS22LZ1"
-        Comment="Приход на НУП ИС2 для УСБ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K13FDSR"
-        DeviceName="FDS16"
-        Line1="Приход на НУП ИС2 для "
-        Line2="УСБ1"
-      }
-      [TDrawSignal]{
-        R="1676,1104,1706,1144"
-        Number=860
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="B1VP81LZ1"
-        KodTeprol="B1VP81LZ1"
-        Comment="Давление СБРОС ББ2 в норме для УСБ1"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K15FDSR"
-        DeviceName="FDS16"
-        Line1="Давление СБРОС ББ2 в "
-        Line2="норме для УСБ1"
-      }
     }
   }
 }
-19542403
+19539208

@@ -21,18 +21,18 @@
         <signal name="venc16" format="4" mode="input" address="75"/>
     </signals>
     <init type="vencf8_inipar">
-        <signal name="typeVds" mode="input"         format="18" value="0xc2" address="0"/>
-        <signal name="BoxLen" mode="input"          format="2" value="0xff" address="1"/>
-        <signal name="vip" mode="input"             format="18" value="0" address="2"/>
-        <signal name="AdrFds" mode="input"          format="18" value="0x6" address="3"/>
-        <signal name="typeFds" mode="input"         format="18" value="0x96" address="4"/>
-        <signal name="model_present" mode="input"   format="18" value="0" address="5"/>
-        <signal name="AdrVdsSinc" mode="input"      format="18" value="0x3" address="6"/>
-        <signal name="NumByteSinc" mode="input"     format="18" value="0x3" address="7"/>
-        <signal name="MaskChanSinc" mode="input"    format="18" value="0x20" address="8"/>
-        <signal name="puontime" mode="input"        format="2" value="0x64" address="9"/>
-        <signal name="datareadtime" mode="input"    format="2" value="0" address="10"/>
-        <signal name="puofftime" mode="input"       format="2" value="0x1e" address="11"/>
-        <signal name="workok" mode="input"          format="18" value="0" address="12"/>
+        <signal name="typeVds"       mode="input" format="18" value="0xc2" address="0"/>
+        <signal name="BoxLen"        mode="input" format="2"  value="0xff" address="1"/>
+        <signal name="vip"           mode="input" format="18" value="0"    address="2"/>
+        <signal name="AdrFds"        mode="input" format="18" value="0x6"  address="3"/>
+        <signal name="typeFds"       mode="input" format="18" value="0x96" address="4"/>
+        <signal name="model_present" mode="input" format="18" value="0"    address="5"/>
+        <signal name="AdrVdsSinc"    mode="input" format="18" value="0x3"  address="6"/>
+        <signal name="NumByteSinc"   mode="input" format="18" value="0x3"  address="7"/>
+        <signal name="MaskChanSinc"  mode="input" format="18" value="0x20" address="8"/>
+        <signal name="puontime"      mode="input" format="2"  value="0xc8" address="9"/>
+        <signal name="datareadtime"  mode="input" format="2"  value="0"    address="10"/>
+        <signal name="puofftime"     mode="input" format="2"  value="0x32" address="11"/>
+        <signal name="workok"        mode="input" format="18" value="0"    address="12"/>
 	</init>
 </driver>

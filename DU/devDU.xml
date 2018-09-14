@@ -5,7 +5,6 @@
         <device name="VDS3204" driver="vds32" slot="04" description="VDS32-04"> </device>
         <device name="VDS3205" driver="vds32" slot="05" description="VDS32-05"> </device>
 
-
         <device name="FDS1606" driver="fds16" slot="06" description="FDS16-06"> </device>
         <device name="FDS1607" driver="fds16" slot="07" description="FDS16-07"> </device>
         <device name="FDS1608" driver="fds16" slot="08" description="FDS16-08"> </device>

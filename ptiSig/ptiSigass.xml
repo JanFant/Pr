@@ -227,7 +227,18 @@
         <def name="DO3216032">K32DO</def>
     </DO32_5F06>
     <!-- это 0х120 -->
-    <DO32_5F04>
+    <em8enc120>
+        <def name="ENC101">ENC01</def>
+        <def name="ENC102">ENC02</def>
+        <def name="ENC103">ENC03</def>
+        <def name="ENC104">ENC04</def>
+        <def name="ENC105">ENC05</def>
+        <def name="ENC106">ENC06</def>
+        <def name="ENC107">ENC07</def>
+        <def name="ENC108">ENC08</def>
+
+    </em8enc120>
+    <!-- <DO32_5F04>
         <def name="DO3212001">K01DO</def>
         <def name="DO3212002">K02DO</def>
         <def name="DO3212003">K03DO</def>
@@ -261,7 +272,7 @@
         <def name="DO3212031">K31DO</def>
         <def name="DO3212032">K32DO</def>
 
-    </DO32_5F04>
+    </DO32_5F04> -->
     <VDS32F07>
         <def name="VDSR34001">K01VDSR</def>
         <def name="VDSR34002">K02VDSR</def>

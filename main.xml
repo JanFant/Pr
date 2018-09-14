@@ -12,6 +12,6 @@
     <subs name="RPU"    scheme="D:/md/pti/pr/RPU/scheme/RPU.tpr"       id="9" file="RPUfp"     description="RPU"        main="192.168.10.31" second="192.168.10.131" path="d:/md/pti/pr/RPU"    step="5"  status="ok" result="d:/md/pti" />
 
 
-    <!-- <subs name="DUe" scheme="D:/md/pti/pr/DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUe" step="20" status="ok" result="d:/md/pti" /> -->
-    <!-- <subs name="scm" scheme="D:/md/pti/pr/scm/scheme/scm.tpr"  id="4" file="scmfp" description="SCM" main="192.168.10.60" second="192.168.10.60" path="d:/md/pti/pr/scm" step="20" status="ok" result="d:/md/pti" /> -->
+    <subs name="DUe" scheme="D:/md/pti/pr/DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUe" step="20" status="ok" result="d:/md/pti" />
+    <subs name="scm" scheme="D:/md/pti/pr/scm/scheme/scm.tpr"  id="11" file="scmfp" description="SCM" main="192.168.10.60" second="192.168.10.60" path="d:/md/pti/pr/scm" step="20" status="ok" result="d:/md/pti" />
 </general>

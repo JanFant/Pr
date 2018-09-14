@@ -15,10 +15,10 @@
     <init type="em8encpti_inimod">
         <signal name="latchdev" mode="input" format="2" value="0x340" address="0"/>
         <signal name="readydev" mode="input" format="2" value="0x140" address="1"/>
-        <signal name="waitRead" mode="input" format="4" value="1000" address ="2"/>     
-		<signal name="waitLatch" mode="input" format="4" value="15000" address ="3"/>    
-        <signal name="maskReadyOn" mode="input" format="2" value="0x20000000" address ="4"/>  
-        <signal name="maskReadyOff" mode="input" format="2" value="0xDFFFFFFF" address ="5"/>
+        <signal name="waitRead" mode="input" format="4" value="10000000" address ="2"/>     
+		<signal name="waitLatch" mode="input" format="4" value="90000000" address ="3"/>    
+        <signal name="maskReadyOn" mode="input" format="2" value="0x00010000" address ="4"/>  
+        <signal name="maskReadyOff" mode="input" format="2" value="0xFFFEFFFF" address ="5"/>
         <signal name="maskLatch" mode="input" format="2" value="0x00000100" address ="6"/>
         <signal name="maskEncoder" mode="input" format="2" value="0x000000ff" address ="7"/>
 	</init>

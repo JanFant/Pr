@@ -3,6 +3,7 @@
         <def name="A3IP02IDU">K01VASR</def>
         <def name="B3IP02IDU">K02VASR</def>
     </VAS8412>
+    <VENCF>
         <def name="venc01">venc01</def>
         <def name="venc02">venc02</def>
         <def name="venc03">venc03</def>
@@ -19,7 +20,6 @@
         <def name="venc14">venc14</def>
         <def name="venc15">venc15</def>
         <def name="venc16">venc16</def>
-    <VENCF>
     </VENCF>
 
     <!-- <VDS3201>
