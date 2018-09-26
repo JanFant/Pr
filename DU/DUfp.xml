@@ -4,7 +4,7 @@
         <saves xml="saveDU"/>
         <devices xml="devDU"/>
         <modbus name="DU" description="Общий слэйв" type="slave" port="502" xml="DU"/>
-        <modbus name="MDuBz1" description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="502" xml="D:\md\pti\pr\Baz1\Baz1.xml"/>
-        <modbus name="MDuBz2" description="Мастер ДУ в Баз2" type="master" ip1="192.168.10.54" ip2="192.168.10.154" port="502" xml="D:\md\pti\pr\Baz2\Baz2.xml"/>
-        <modbus name="MDuS" description="Мастер ДУ в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="D:\md\pti\pr\scm\scm.xml"/>
+        <modbus name="MDuBz1" description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="502" xml="D:\md\pti\pr\Baz1\SBz1DU.xml"/>
+        <modbus name="MDuBz2" description="Мастер ДУ в Баз2" type="master" ip1="192.168.10.54" ip2="192.168.10.154" port="502" xml="D:\md\pti\pr\Baz2\SBz2DU.xml"/>
+        <modbus name="MDuS" description="Мастер ДУ в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="D:\md\pti\pr\scm\SDu.xml"/>
 </subsystem>

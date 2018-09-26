@@ -4,4 +4,7 @@
         <saves xml="savescm"/>
         <devices xml="devscm"/>
         <modbus name="SCM" description="Общий слэйв" type="slave" port="502" xml="scm"/>
+        <modbus name="SBz1" description="Cлэйв Baz1" type="slave" port="502" xml="SBz1"/>
+        <modbus name="SBz2" description="Cлэйв Baz2" type="slave" port="502" xml="SBz2"/>
+        <modbus name="SDu" description="Cлэйв DU" type="slave" port="502" xml="SDu"/>
 </subsystem>
