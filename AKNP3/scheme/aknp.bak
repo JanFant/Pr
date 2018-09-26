@@ -1,0 +1,17 @@
+Схема. Создана 19.09.2018 12:41:00
+[VVV_Scheme]{
+  Version=3
+  CountScheme=1
+  [TableConstant]{
+  }
+  [VVV_ContainerScheme]{
+    PageSizeX=652
+    PageSizeY=444
+    PageCountX=1
+    PageCountY=1
+    Name="Главная"
+    ObjectCount=0
+    ExpandCompile=0
+  }
+}
+15539

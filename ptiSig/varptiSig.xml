@@ -221,7 +221,7 @@
 <var name="DO3216031" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format ="1"></var>
 <var name="DO3216032" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format ="1"></var>
 <!-- 0x120 -->
-<!-- <var name="DO3212001" description="!!!(DO3212001) ENCODER?" format ="1"></var>
+<var name="DO3212001" description="!!!(DO3212001) ENCODER?" format ="1"></var>
 <var name="DO3212002" description="!!!(DO3212002) ENCODER?" format ="1"></var>
 <var name="DO3212003" description="!!!(DO3212003) ENCODER?" format ="1"></var>
 <var name="DO3212004" description="!!!(DO3212004) ENCODER?" format ="1"></var>
@@ -252,16 +252,16 @@
 <var name="DO3212029" description="!!!(DO3212029) ENCODER?" format ="1"></var>
 <var name="DO3212030" description="!!!(DO3212030) ENCODER?" format ="1"></var>
 <var name="DO3212031" description="!!!(DO3212031) ENCODER?" format ="1"></var>
-<var name="DO3212032" description="!!!(DO3212032) ENCODER?" format ="1"></var> -->
+<var name="DO3212032" description="!!!(DO3212032) ENCODER?" format ="1"></var>
 
-<var name="ENC101" description="(ENC101)" format ="4"></var>
+<!-- <var name="ENC101" description="(ENC101)" format ="4"></var>
 <var name="ENC102" description="(ENC102)" format ="4"></var>
 <var name="ENC103" description="(ENC103)" format ="4"></var>
 <var name="ENC104" description="(ENC104)" format ="4"></var>
 <var name="ENC105" description="(ENC105)" format ="4"></var>
 <var name="ENC106" description="(ENC106)" format ="4"></var>
 <var name="ENC107" description="(ENC107)" format ="4"></var>
-<var name="ENC108" description="(ENC108)" format ="4"></var>
+<var name="ENC108" description="(ENC108)" format ="4"></var> -->
 
 
 

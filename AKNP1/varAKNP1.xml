@@ -51,8 +51,25 @@
     <var name="VDS32R30" description="(VDS32R30)" format="1"></var>
     <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
     <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
+
+    <var name="FDS16R01" description="(FDS16R01)" format="1"></var>
+    <var name="FDS16R02" description="(FDS16R02)" format="1"></var>
+    <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
+    <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
+    <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
+    <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
+    <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
+    <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
+    <var name="FDS16R09" description="(FDS16R09)" format="1"></var>
+    <var name="FDS16R10" description="(FDS16R10)" format="1"></var>
+    <var name="FDS16R11" description="(FDS16R11)" format="1"></var>
+    <var name="FDS16R12" description="(FDS16R12)" format="1"></var>
+    <var name="FDS16R13" description="(FDS16R13)" format="1"></var>
+    <var name="FDS16R14" description="(FDS16R14)" format="1"></var>
+    <var name="FDS16R15" description="(FDS16R15)" format="1"></var>
+    <var name="FDS16R16" description="(FDS16R16)" format="1"></var>
     
-    <var name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПУ, ПР 1 канала " format="1"></var>
+    <!-- <var name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПУ, ПР 1 канала " format="1"></var>
     <var name="R0IE01LS1" description="(R0IE01LS1) Отключить питание детекторов 1 канала" format="1"></var>
     <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
     <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
@@ -67,6 +84,6 @@
     <var name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности канал 1 на БАЗ2" format="1"></var>
     <var name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгона канал 1 на БАЗ2 " format="1"></var>
     <var name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП1 на БАЗ2 " format="1"></var>
-    <var name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического подъёма ББ от АКНП1 на БАЗ2" format="1"></var>
+    <var name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического подъёма ББ от АКНП1 на БАЗ2" format="1"></var> -->
 
 </vars>

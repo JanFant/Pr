@@ -1098,7 +1098,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R7UI73RZZ</value>
+            <value name="name">fEM_R7UI73RZZ</value>
             <value name="description">(R7UI73RZZ) Время задержки  срабатывания АС II УР</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1111,7 +1111,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL11RZZ</value>
+            <value name="name">fEM_A1UL11RZZ</value>
             <value name="description">(A1UL11RZZ) Время задержки АЗ от ВУ ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1124,7 +1124,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL12RZZ</value>
+            <value name="name">fEM_A1UL12RZZ</value>
             <value name="description">(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1137,7 +1137,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UR04RZZ</value>
+            <value name="name">fEM_R0UR04RZZ</value>
             <value name="description">(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1150,7 +1150,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UR01RZZ</value>
+            <value name="name">fEM_R0UR01RZZ</value>
             <value name="description">(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1163,7 +1163,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP83RZZ</value>
+            <value name="name">fEM_A2UP83RZZ</value>
             <value name="description">(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1176,7 +1176,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP52RZZ</value>
+            <value name="name">fEM_A2UP52RZZ</value>
             <value name="description">(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1189,7 +1189,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP82RZZ</value>
+            <value name="name">fEM_A2UP82RZZ</value>
             <value name="description">(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1202,7 +1202,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP84RZZ</value>
+            <value name="name">fEM_A2UP84RZZ</value>
             <value name="description">(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1215,7 +1215,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP81RZZ</value>
+            <value name="name">fEM_A2UP81RZZ</value>
             <value name="description">(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1228,7 +1228,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP51RZZ</value>
+            <value name="name">fEM_A2UP51RZZ</value>
             <value name="description">(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1241,7 +1241,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP42RZZ</value>
+            <value name="name">fEM_A2UP42RZZ</value>
             <value name="description">(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1254,7 +1254,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP41RZZ</value>
+            <value name="name">fEM_A2UP41RZZ</value>
             <value name="description">(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1267,7 +1267,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT61RZZ</value>
+            <value name="name">fEM_R0UT61RZZ</value>
             <value name="description">(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1280,7 +1280,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT62RZZ</value>
+            <value name="name">fEM_R0UT62RZZ</value>
             <value name="description">(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1293,7 +1293,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT71RZZ</value>
+            <value name="name">fEM_R0UT71RZZ</value>
             <value name="description">(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1306,7 +1306,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT72RZZ</value>
+            <value name="name">fEM_R0UT72RZZ</value>
             <value name="description">(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1319,7 +1319,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP04RZZ</value>
+            <value name="name">fEM_A2UP04RZZ</value>
             <value name="description">(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1332,7 +1332,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UP03RZZ</value>
+            <value name="name">fEM_A2UP03RZZ</value>
             <value name="description">(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1345,7 +1345,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT01RZZ</value>
+            <value name="name">fEM_R0UT01RZZ</value>
             <value name="description">(R0UT01RZZ) Нижний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -1358,7 +1358,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT02RZZ</value>
+            <value name="name">fEM_R0UT02RZZ</value>
             <value name="description">(R0UT02RZZ) Верхний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>

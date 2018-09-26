@@ -10,7 +10,7 @@
   SignalsXMLName="D:\md\pti\pr\Baz1\scheme\var.xml"
   ConstsXMLName="D:\md\pti\pr\Baz1\scheme\save.xml"
   AssignXMLName="D:\md\pti\pr\Baz1\scheme\ass.xml"
-  PlatformType=3
+  PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
   extESPPZU_Size=1024
@@ -18,7 +18,7 @@
   PostboxAddressType=1
   PostboxAddress=28672
   ESPPZU_Emulation=FALSE
-  FuncName="simulmain"
-  IsImitator=TRUE
+  FuncName="Scheme"
+  IsImitator=FALSE
 }
-47779
+47446

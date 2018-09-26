@@ -280,7 +280,7 @@
         </record>
         <record>
             <value name="name">R0MD11LP2</value>
-            <value name="description">(R0MD11LP2) Кнопка "Пуск проверки схем сброса"</value>
+            <value name="description">(R0MD11LP2) Кнопка Пуск проверки схем сброса</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">16</value>
@@ -760,7 +760,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0MD01LC1</value>
+            <value name="name">lEM_R0MD01LC1</value>
             <value name="description">(R0MD01LC1) Ручное управление ОРР</value>
             <value name="type">0</value>
             <value name="format">2</value>
@@ -787,7 +787,7 @@
         </record>
         <record>
             <value name="name">B3VX01LDU</value>
-            <value name="description">(B3VX01LDU) Индикация "Выстрел ИС2"</value>
+            <value name="description">(B3VX01LDU) Индикация Выстрел ИС2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -800,7 +800,7 @@
         </record>
         <record>
             <value name="name">A3VX01LDU</value>
-            <value name="description">(A3VX01LDU) Индикация "Выстрел ИС1"</value>
+            <value name="description">(A3VX01LDU) Индикация Выстрел ИС1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -1203,7 +1203,7 @@
         </record>
         <record>
             <value name="name">B3AB20LDU</value>
-            <value name="description">(B3AB20LDU) Блокировка выстрела ИС2 - клапан "ВПИС2" закрыт</value>
+            <value name="description">(B3AB20LDU) Блокировка выстрела ИС2 - клапан ВПИС2 закрыт</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">33</value>
@@ -2490,7 +2490,7 @@
         </record>
         <record>
             <value name="name">B6AB08LDU</value>
-            <value name="description">(B6AB08LDU) Блокировка открытия БЗ2 - ДС2 находится не на упорах "1,5м"</value>
+            <value name="description">(B6AB08LDU) Блокировка открытия БЗ2 - ДС2находится не на упорах 1,5м</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">132</value>
@@ -2503,7 +2503,7 @@
         </record>
         <record>
             <value name="name">B6AB07LDU</value>
-            <value name="description">(B6AB07LDU) Блокировка открытия БЗ2 - АЗ2 находится не на упорах "1,5м"</value>
+            <value name="description">(B6AB07LDU) Блокировка открытия БЗ2 - АЗ2 находится не на упорах 1,5м</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">133</value>
@@ -2542,7 +2542,7 @@
         </record>
         <record>
             <value name="name">A6AB08LDU</value>
-            <value name="description">(A6AB08LDU) Блокировка открытия БЗ1 - ДС2 находится не на упорах "1,5м"</value>
+            <value name="description">(A6AB08LDU) Блокировка открытия БЗ1 - ДС2 находится не на упорах 1,5м</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">136</value>
@@ -2555,7 +2555,7 @@
         </record>
         <record>
             <value name="name">A6AB07LDU</value>
-            <value name="description">(A6AB07LDU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах "1,5м"</value>
+            <value name="description">(A6AB07LDU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах 1,5м</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">137</value>
@@ -2906,7 +2906,7 @@
         </record>
         <record>
             <value name="name">B8AB02LDU</value>
-            <value name="description">(B8AB02LDU) "Блокировка движения АЗ2- АНИ не установлен"</value>
+            <value name="description">(B8AB02LDU) Блокировка движения АЗ2- АНИ не установлен</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">164</value>
@@ -2958,7 +2958,7 @@
         </record>
         <record>
             <value name="name">R4AB01LDU</value>
-            <value name="description">(R4AB01LDU) "Блокировка тележки - АНИ не установлен"</value>
+            <value name="description">(R4AB01LDU) Блокировка тележки - АНИ не установлен</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">168</value>
@@ -3257,7 +3257,7 @@
         </record>
         <record>
             <value name="name">R4AB16LDU</value>
-            <value name="description">(R4AB16LDU) Блокировка тележки - Гомогенные двери не в положении "Закрыты"</value>
+            <value name="description">(R4AB16LDU) Блокировка тележки - Гомогенные двери не в положении Закрыты</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">191</value>
@@ -3270,7 +3270,7 @@
         </record>
         <record>
             <value name="name">R4AB15LDU</value>
-            <value name="description">(R4AB15LDU) Блокировка тележки - ворота в пом. 0041 не в положении "Открыто"</value>
+            <value name="description">(R4AB15LDU) Блокировка тележки - ворота в пом. 0041 не в положении Открыто</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">192</value>
@@ -3842,7 +3842,7 @@
         </record>
         <record>
             <value name="name">A3AB20LDU</value>
-            <value name="description">(A3AB20LDU) Блокировка выстрела ИС1 - клапан "ВПИС1" закрыт</value>
+            <value name="description">(A3AB20LDU) Блокировка выстрела ИС1 - клапан ВПИС1 закрыт</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">236</value>
@@ -4817,7 +4817,7 @@
         </record>
         <record>
             <value name="name">R0VL04RDU</value>
-            <value name="description">(R0VL04RDU) Индикация "Время срабатывания верхней АС II УР"</value>
+            <value name="description">(R0VL04RDU) Индикация (Время срабатывания верхней АС II УР)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -4830,7 +4830,7 @@
         </record>
         <record>
             <value name="name">R0VL02RDU</value>
-            <value name="description">(R0VL02RDU) Индикация "Время задержки ИНИ"</value>
+            <value name="description">(R0VL02RDU) Индикация (Время задержки ИНИ)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -4843,7 +4843,7 @@
         </record>
         <record>
             <value name="name">R0VL06RDU</value>
-            <value name="description">(R0VL06RDU) Индикация "Время задержки от ВУ РБ"</value>
+            <value name="description">(R0VL06RDU) Индикация (Время задержки от ВУ РБ)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">10</value>
@@ -5090,7 +5090,7 @@
         </record>
         <record>
             <value name="name">R0VL05RDU</value>
-            <value name="description">(R0VL05RDU) Индикация "Время срабатывания АЗ от НУП ИС"</value>
+            <value name="description">(R0VL05RDU) Индикация (Время срабатывания АЗ от НУП ИС)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">31</value>
@@ -5103,7 +5103,7 @@
         </record>
         <record>
             <value name="name">R0VL03RDU</value>
-            <value name="description">(R0VL03RDU) Индикация "Время срабатывания АЗ от ВУ ИС"</value>
+            <value name="description">(R0VL03RDU) Индикация (Время срабатывания АЗ от ВУ ИС)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">33</value>
@@ -5778,7 +5778,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL02RDU</value>
+            <value name="name">fEM_R0UL02RDU</value>
             <value name="description">(R0UL02RDU) Время задержки  ИНИ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5791,7 +5791,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R3UZ03RDU</value>
+            <value name="name">fEM_R3UZ03RDU</value>
             <value name="description">(R3UZ03RDU) Время задержки блокировки гомогеннных дверей по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5804,7 +5804,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R3UL10RDU</value>
+            <value name="name">fEM_R3UL10RDU</value>
             <value name="description">(R3UL10RDU) Время полного хода гомогенных дверей сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5817,7 +5817,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R3UZ04RDU</value>
+            <value name="name">fEM_R3UZ04RDU</value>
             <value name="description">(R3UZ04RDU) Время задержки блокировки гомогенных дверей по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5830,7 +5830,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN08RDU</value>
+            <value name="name">fEM_R0UN08RDU</value>
             <value name="description">(R0UN08RDU) Ограничение 8 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5843,7 +5843,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN07RDU</value>
+            <value name="name">fEM_R0UN07RDU</value>
             <value name="description">(R0UN07RDU) Ограничение 7 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5856,7 +5856,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN06RDU</value>
+            <value name="name">fEM_R0UN06RDU</value>
             <value name="description">(R0UN06RDU) Ограничение 6 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5869,7 +5869,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN05RDU</value>
+            <value name="name">fEM_R0UN05RDU</value>
             <value name="description">(R0UN05RDU) Ограничение 5 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5882,7 +5882,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN04RDU</value>
+            <value name="name">fEM_R0UN04RDU</value>
             <value name="description">(R0UN04RDU) Ограничение 4 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5895,7 +5895,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN03RDU</value>
+            <value name="name">fEM_R0UN03RDU</value>
             <value name="description">(R0UN03RDU) Ограничение 3 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5908,7 +5908,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN02RDU</value>
+            <value name="name">fEM_R0UN02RDU</value>
             <value name="description">(R0UN02RDU) Ограничение 2 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5921,7 +5921,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN01RDU</value>
+            <value name="name">fEM_R0UN01RDU</value>
             <value name="description">(R0UN01RDU) Ограничение 1 по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5934,7 +5934,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC82RDU</value>
+            <value name="name">fEM_A2UC82RDU</value>
             <value name="description">(A2UC82RDU) Граница 2-го диапазона РБ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5947,7 +5947,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC83RDU</value>
+            <value name="name">fEM_A2UC83RDU</value>
             <value name="description">(A2UC83RDU) Граница 1-го диапазона РБ назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5960,7 +5960,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC83RDU</value>
+            <value name="name">fEM_A1UC83RDU</value>
             <value name="description">(A1UC83RDU) Граница 1-го диапазона ББ назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5973,7 +5973,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC81RDU</value>
+            <value name="name">fEM_A2UC81RDU</value>
             <value name="description">(A2UC81RDU) Граница 1-го диапазона РБ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5986,7 +5986,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC81RDU</value>
+            <value name="name">fEM_A1UC81RDU</value>
             <value name="description">(A1UC81RDU) Граница 1-го диапазона ББ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -5999,7 +5999,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC82RDU</value>
+            <value name="name">fEM_A1UC82RDU</value>
             <value name="description">(A1UC82RDU) Граница 2-го диапазона ББ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6012,7 +6012,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UL83RDU</value>
+            <value name="name">fEM_A2UL83RDU</value>
             <value name="description">(A2UL83RDU) Задержка определения самохода РБ после останова (достижения скорости 0), с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6025,7 +6025,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC81RDU</value>
+            <value name="name">fEM_A3UC81RDU</value>
             <value name="description">(A3UC81RDU) Граница 1-го диапазона ИС вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6038,7 +6038,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC82RDU</value>
+            <value name="name">fEM_A3UC82RDU</value>
             <value name="description">(A3UC82RDU) Граница 1-го диапазона ИС назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6051,7 +6051,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A5UZ05RDU</value>
+            <value name="name">fEM_A5UZ05RDU</value>
             <value name="description">(A5UZ05RDU) Время задержки блокировки НЛ по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6064,7 +6064,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A4UZ03RDU</value>
+            <value name="name">fEM_A4UZ03RDU</value>
             <value name="description">(A4UZ03RDU) Время задержки блокировки НИ по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6077,7 +6077,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A4UZ04RDU</value>
+            <value name="name">fEM_A4UZ04RDU</value>
             <value name="description">(A4UZ04RDU) Время задержки блокировки НИ по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6090,7 +6090,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A4UZ05RDU</value>
+            <value name="name">fEM_A4UZ05RDU</value>
             <value name="description">(A4UZ05RDU) Время задержки блокировки НИ по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6103,7 +6103,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A6UZ03RDU</value>
+            <value name="name">fEM_A6UZ03RDU</value>
             <value name="description">(A6UZ03RDU) Время задержки блокировки БЗ по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6116,7 +6116,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A6UZ04RDU</value>
+            <value name="name">fEM_A6UZ04RDU</value>
             <value name="description">(A6UZ04RDU) Время задержки блокировки БЗ по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6129,7 +6129,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A6UZ05RDU</value>
+            <value name="name">fEM_A6UZ05RDU</value>
             <value name="description">(A6UZ05RDU) Время задержки блокировки БЗ по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6142,7 +6142,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R1UZ03RDU</value>
+            <value name="name">fEM_R1UZ03RDU</value>
             <value name="description">(R1UZ03RDU) Время задержки блокировки МДЗ по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6155,7 +6155,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R1UZ04RDU</value>
+            <value name="name">fEM_R1UZ04RDU</value>
             <value name="description">(R1UZ04RDU) Время задержки блокировки МДЗ по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6168,7 +6168,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R1UZ05RDU</value>
+            <value name="name">fEM_R1UZ05RDU</value>
             <value name="description">(R1UZ05RDU) Время задержки блокировки МДЗ по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6181,7 +6181,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R5UL10RDU</value>
+            <value name="name">fEM_R5UL10RDU</value>
             <value name="description">(R5UL10RDU) Время полного хода ворот отстойной зоны сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6194,7 +6194,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R5UZ03RDU</value>
+            <value name="name">fEM_R5UZ03RDU</value>
             <value name="description">(R5UZ03RDU) Время задержки блокировки ворот отстойной зоны по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6207,7 +6207,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R5UZ04RDU</value>
+            <value name="name">fEM_R5UZ04RDU</value>
             <value name="description">(R5UZ04RDU) Время задержки блокировки ворот отстойной зоны по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6220,7 +6220,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL04RDU</value>
+            <value name="name">fEM_R0UL04RDU</value>
             <value name="description">(R0UL04RDU) Предельное время ожидания срабатывания АЗ от НУП ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6233,7 +6233,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL06RDU</value>
+            <value name="name">fEM_R0UL06RDU</value>
             <value name="description">(R0UL06RDU) Предельное время срабатывания верхней АС II УР</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6246,7 +6246,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL03RDU</value>
+            <value name="name">fEM_R0UL03RDU</value>
             <value name="description">(R0UL03RDU) Время срабатывания сброса от ВУ РБ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6259,7 +6259,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL17RDU</value>
+            <value name="name">fEM_R0UL17RDU</value>
             <value name="description">(R0UL17RDU) Предельное отклонение от времени задержки  сброса от ВУ РБ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6272,7 +6272,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL19RDU</value>
+            <value name="name">fEM_R0UL19RDU</value>
             <value name="description">(R0UL19RDU) Предельное отклонение от времени задержки  сброса от ВУ ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6285,7 +6285,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL07RDU</value>
+            <value name="name">fEM_R0UL07RDU</value>
             <value name="description">(R0UL07RDU) Время срабатывания верхней АС II УР</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6298,7 +6298,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL18RDU</value>
+            <value name="name">fEM_R0UL18RDU</value>
             <value name="description">(R0UL18RDU) Предельное отклонение от времени задержки  сброса от НУП ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6311,7 +6311,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL16RDU</value>
+            <value name="name">fEM_R0UL16RDU</value>
             <value name="description">(R0UL16RDU) Предельное отклонение от времени задержки  ИНИ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6324,7 +6324,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN17RDU</value>
+            <value name="name">fEM_R0UN17RDU</value>
             <value name="description">(R0UN17RDU) Коэффициент a0 ф-ции определения положения ИМ с 0-й реактивностью</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6337,7 +6337,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN18RDU</value>
+            <value name="name">fEM_R0UN18RDU</value>
             <value name="description">(R0UN18RDU) Коэффициент t1 ф-ции температурной корректировки ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6350,7 +6350,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN19RDU</value>
+            <value name="name">fEM_R0UN19RDU</value>
             <value name="description">(R0UN19RDU) Коэффициент t0 ф-ции температурной корректировки ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6363,7 +6363,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN70LDU</value>
+            <value name="name">fEM_R0UN70LDU</value>
             <value name="description">(R0UN70LDU) 0 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6376,7 +6376,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN71LDU</value>
+            <value name="name">fEM_R0UN71LDU</value>
             <value name="description">(R0UN71LDU) 1 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6389,7 +6389,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN72LDU</value>
+            <value name="name">fEM_R0UN72LDU</value>
             <value name="description">(R0UN72LDU) 2 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6402,7 +6402,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN73LDU</value>
+            <value name="name">fEM_R0UN73LDU</value>
             <value name="description">(R0UN73LDU) 3 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6415,7 +6415,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN74LDU</value>
+            <value name="name">fEM_R0UN74LDU</value>
             <value name="description">(R0UN74LDU) 4 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6428,7 +6428,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN75LDU</value>
+            <value name="name">fEM_R0UN75LDU</value>
             <value name="description">(R0UN75LDU) 5 - Коэффициент реактивности функции опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6441,7 +6441,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN80LDU</value>
+            <value name="name">fEM_R0UN80LDU</value>
             <value name="description">(R0UN80LDU) 0 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6454,7 +6454,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN81LDU</value>
+            <value name="name">fEM_R0UN81LDU</value>
             <value name="description">(R0UN81LDU) 1 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6467,7 +6467,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN82LDU</value>
+            <value name="name">fEM_R0UN82LDU</value>
             <value name="description">(R0UN82LDU) 2 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6480,7 +6480,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN83LDU</value>
+            <value name="name">fEM_R0UN83LDU</value>
             <value name="description">(R0UN83LDU) 3 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6493,7 +6493,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN84LDU</value>
+            <value name="name">fEM_R0UN84LDU</value>
             <value name="description">(R0UN84LDU) 4 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6506,7 +6506,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN85LDU</value>
+            <value name="name">fEM_R0UN85LDU</value>
             <value name="description">(R0UN85LDU) 5 - Коэффициент  опережения старта ИМ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6519,7 +6519,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UT20RDU</value>
+            <value name="name">fEM_R0UT20RDU</value>
             <value name="description">(R0UT20RDU) Предельное время работы на мощности более 100 Вт, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6532,7 +6532,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN25RDU</value>
+            <value name="name">fEM_R0UN25RDU</value>
             <value name="description">(R0UN25RDU) Коэффициент опережения для выхода с разгонной на 0-ю реактивность</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6545,7 +6545,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN15RDU</value>
+            <value name="name">fEM_R0UN15RDU</value>
             <value name="description">(R0UN15RDU) коэффициент рассогласования по координате для транспортной реактивности %</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6558,7 +6558,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN26RDU</value>
+            <value name="name">fEM_R0UN26RDU</value>
             <value name="description">(R0UN26RDU) Коэффициент mt0 ф-ции прогноза темп. корр. положения ИМ от мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6571,7 +6571,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN27RDU</value>
+            <value name="name">fEM_R0UN27RDU</value>
             <value name="description">(R0UN27RDU) Коэффициент mt1 ф-ции прогноза темп. корр. положения ИМ от мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6584,7 +6584,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN24RDU</value>
+            <value name="name">fEM_R0UN24RDU</value>
             <value name="description">(R0UN24RDU) Нижняя граница интервала мощности для измерения периода (ватт)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6597,7 +6597,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN80RDU</value>
+            <value name="name">fEM_R0UN80RDU</value>
             <value name="description">(R0UN80RDU) Ограничение по мощности в режиме калибровка и имульс</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6610,7 +6610,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP34RDU</value>
+            <value name="name">fEM_A3UP34RDU</value>
             <value name="description">(A3UP34RDU) Время заполнения ресивера ИС (в 10 мс)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6623,7 +6623,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UV01IDU</value>
+            <value name="name">iEM_A2UV01IDU</value>
             <value name="description">(A2UV01IDU) Скорость 1-го диапазона РБ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6636,7 +6636,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UV02IDU</value>
+            <value name="name">iEM_A2UV02IDU</value>
             <value name="description">(A2UV02IDU) Скорость 2-го диапазона РБ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6649,7 +6649,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UV01IDU</value>
+            <value name="name">iEM_A1UV01IDU</value>
             <value name="description">(A1UV01IDU) Скорость 1-го диапазона ББ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6662,7 +6662,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UV02IDU</value>
+            <value name="name">iEM_A1UV02IDU</value>
             <value name="description">(A1UV02IDU) Скорость 2-го диапазона ББ вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6675,7 +6675,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UV03IDU</value>
+            <value name="name">iEM_A1UV03IDU</value>
             <value name="description">(A1UV03IDU) Скорость1-го диапазона ББ назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6688,7 +6688,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UV01IDU</value>
+            <value name="name">iEM_A3UV01IDU</value>
             <value name="description">(A3UV01IDU) Скорость ИС для 1-го диапазона вперёд (вверх)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6701,7 +6701,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UV02IDU</value>
+            <value name="name">iEM_A3UV02IDU</value>
             <value name="description">(A3UV02IDU) Скорость ИС для 1-го диапазона назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -6714,7 +6714,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC09RDU</value>
+            <value name="name">fEM_A3UC09RDU</value>
             <value name="description">(A3UC09RDU) Координата переднего аварийного выключателя ИС мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6727,7 +6727,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC02RDU</value>
+            <value name="name">fEM_A2UC02RDU</value>
             <value name="description">(A2UC02RDU) Коэффициент преобразования частота-скорость(мм/сек)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6740,7 +6740,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC02RDU</value>
+            <value name="name">fEM_A1UC02RDU</value>
             <value name="description">(A1UC02RDU) Коэффициент преобразования частота-скорость(мм/сек) ББ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6753,7 +6753,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC02RDU</value>
+            <value name="name">fEM_A3UC02RDU</value>
             <value name="description">(A3UC02RDU) Коэффициент преобразования частота-скорость (мм/сек) ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6766,7 +6766,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL21RDU</value>
+            <value name="name">fEM_R0UL21RDU</value>
             <value name="description">(R0UL21RDU) Предельное время задержки  сброса от ВУ РБ</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6779,7 +6779,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN09RDU</value>
+            <value name="name">fEM_R0UN09RDU</value>
             <value name="description">(R0UN09RDU) Минимальный период при регулировании мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6792,7 +6792,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN11RDU</value>
+            <value name="name">fEM_R0UN11RDU</value>
             <value name="description">(R0UN11RDU) Допустимое превышение заданной мощности  при регулировании</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6805,7 +6805,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN12RDU</value>
+            <value name="name">fEM_R0UN12RDU</value>
             <value name="description">(R0UN12RDU) Зона нечувствительности при регулировании мощности %</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6818,7 +6818,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN13RDU</value>
+            <value name="name">fEM_R0UN13RDU</value>
             <value name="description">(R0UN13RDU) Минимальное изменение координаты, мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6831,7 +6831,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN14RDU</value>
+            <value name="name">fEM_R0UN14RDU</value>
             <value name="description">(R0UN14RDU) Максимальная координата штока ИМ, мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6844,7 +6844,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UN16RDU</value>
+            <value name="name">fEM_R0UN16RDU</value>
             <value name="description">(R0UN16RDU) Коэффициент a1 ф-ции определения положения ИМ с 0-й реактивностью</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6857,7 +6857,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP43RDU</value>
+            <value name="name">fEM_A3UP43RDU</value>
             <value name="description">(A3UP43RDU) Уровень срабатывания аварийной сигнализации по давлению ВЫСТРЕЛ ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6870,7 +6870,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP44RDU</value>
+            <value name="name">fEM_A3UP44RDU</value>
             <value name="description">(A3UP44RDU) Граница неоднозначности срабатывания аварийной сигнализации по давлению ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6883,7 +6883,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP53RDU</value>
+            <value name="name">fEM_A3UP53RDU</value>
             <value name="description">(A3UP53RDU) Уровень срабатывания предупредительной по давлению ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6896,7 +6896,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP85RDU</value>
+            <value name="name">fEM_A3UP85RDU</value>
             <value name="description">(A3UP85RDU) Нижняя граница неоднозначности нормализации давления ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6909,7 +6909,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP88RDU</value>
+            <value name="name">fEM_A3UP88RDU</value>
             <value name="description">(A3UP88RDU) Верхняя граница неоднозначности нормализации давления ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6922,7 +6922,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP86RDU</value>
+            <value name="name">fEM_A3UP86RDU</value>
             <value name="description">(A3UP86RDU) Нижняя граница нормализации давления ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6935,7 +6935,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UV01RDU</value>
+            <value name="name">fEM_B8UV01RDU</value>
             <value name="description">(B8UV01RDU) Допустимое превышение заданной скорости АЗ2,ДС2 мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6948,7 +6948,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UV02RDU</value>
+            <value name="name">fEM_B8UV02RDU</value>
             <value name="description">(B8UV02RDU) Допустимое отклонение скорости АЗ2,ДС2 от заданной в меньшую сторону, мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6961,7 +6961,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UV03RDU</value>
+            <value name="name">fEM_B8UV03RDU</value>
             <value name="description">(B8UV03RDU) Номинальная скорость перемещения АЗ2,ДС2 мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6974,7 +6974,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL04RDU</value>
+            <value name="name">fEM_B8UL04RDU</value>
             <value name="description">(B8UL04RDU) Задержка определения самохода АЗ-ДС после команды на останов, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -6987,7 +6987,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UV03CDU</value>
+            <value name="name">iEM_A2UV03CDU</value>
             <value name="description">(A2UV03CDU) Скорость 1-го диапазона РБ назад (вниз)</value>
             <value name="type">3</value>
             <value name="format">3</value>
@@ -7000,7 +7000,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UV01RDU</value>
+            <value name="name">fEM_A2UV01RDU</value>
             <value name="description">(A2UV01RDU) Допустимое превышение заданной скорости РБ мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7013,7 +7013,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UV02RDU</value>
+            <value name="name">fEM_A2UV02RDU</value>
             <value name="description">(A2UV02RDU) Допустимое отклонение скорости РБ от заданной в меньшую сторону, мм/сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7026,7 +7026,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UV01RDU</value>
+            <value name="name">fEM_A1UV01RDU</value>
             <value name="description">(A1UV01RDU) Допустимое превышение заданной скорости ББ мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7039,7 +7039,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UV02RDU</value>
+            <value name="name">fEM_A1UV02RDU</value>
             <value name="description">(A1UV02RDU) Допустимое отклонение скорости ББ от заданной в меньшую сторону, мм/сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7052,7 +7052,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC06RDU</value>
+            <value name="name">fEM_A1UC06RDU</value>
             <value name="description">(A1UC06RDU) Уставка определения самохода ББ  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7065,7 +7065,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC05RDU</value>
+            <value name="name">fEM_A1UC05RDU</value>
             <value name="description">(A1UC05RDU) Минимальное перемещение для измерения скорости ББ(для блокировок по направлению и отсутствию движения), мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7078,7 +7078,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL04RDU</value>
+            <value name="name">fEM_A1UL04RDU</value>
             <value name="description">(A1UL04RDU) Задержка определения самохода ББ после команды на останов, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7091,7 +7091,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UV01RDU</value>
+            <value name="name">fEM_A3UV01RDU</value>
             <value name="description">(A3UV01RDU) Допустимое превышение заданной скорости ИС мм/с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7104,7 +7104,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UV02RDU</value>
+            <value name="name">fEM_A3UV02RDU</value>
             <value name="description">(A3UV02RDU) Допустимое отклонение скорости ИС от заданной в меньшую сторону, мм/сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7117,7 +7117,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC06RDU</value>
+            <value name="name">fEM_A3UC06RDU</value>
             <value name="description">(A3UC06RDU) Уставка определения самохода ИС1  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7130,7 +7130,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC03RDU</value>
+            <value name="name">fEM_A1UC03RDU</value>
             <value name="description">(A1UC03RDU) Коэффициент преобразования показаний энкодера ББ, мм/дел.энкодера</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7143,7 +7143,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC05UDU</value>
+            <value name="name">dEM_A1UC05UDU</value>
             <value name="description">(A1UC05UDU) Верхняя граница показания энкодера ББ, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7156,7 +7156,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC06UDU</value>
+            <value name="name">dEM_A1UC06UDU</value>
             <value name="description">(A1UC06UDU) Нижняя граница показания энкодера ББ, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7169,7 +7169,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC06UDU</value>
+            <value name="name">dEM_A2UC06UDU</value>
             <value name="description">(A2UC06UDU) Нижняя граница показания энкодера РБ, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7182,7 +7182,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC05UDU</value>
+            <value name="name">dEM_A2UC05UDU</value>
             <value name="description">(A2UC05UDU) Верхняя граница показания энкодера РБ, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7195,7 +7195,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC03RDU</value>
+            <value name="name">fEM_A2UC03RDU</value>
             <value name="description">(A2UC03RDU) Коэффициент преобразования показаний энкодера РБ, мм/дел.энкодера</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7208,7 +7208,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC06UDU</value>
+            <value name="name">dEM_A3UC06UDU</value>
             <value name="description">(A3UC06UDU) Нижняя граница показания энкодера ИС, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7221,7 +7221,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC05UDU</value>
+            <value name="name">dEM_A3UC05UDU</value>
             <value name="description">(A3UC05UDU) Верхняя граница показания энкодера ИС, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7234,7 +7234,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC03RDU</value>
+            <value name="name">fEM_A3UC03RDU</value>
             <value name="description">(A3UC03RDU) Коэффициент преобразования показаний энкодера ИС, мм/дел.энкодера</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7247,7 +7247,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A8UC06UDU</value>
+            <value name="name">dEM_A8UC06UDU</value>
             <value name="description">(A8UC06UDU) Нижняя граница показания энкодера АЗ2, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7260,7 +7260,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A8UC03RDU</value>
+            <value name="name">fEM_A8UC03RDU</value>
             <value name="description">(A8UC03RDU) Коэффициент преобразования показаний энкодера АЗ2/ДС2, мм/дел.энкодера</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7273,7 +7273,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A8UC05UDU</value>
+            <value name="name">dEM_A8UC05UDU</value>
             <value name="description">(A8UC05UDU) Верхняя граница показания энкодера АЗ2/ДС2, деления энкодера</value>
             <value name="type">3</value>
             <value name="format">5</value>
@@ -7286,7 +7286,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV81RDU</value>
+            <value name="name">fEM_R0UV81RDU</value>
             <value name="description">(R0UV81RDU) 1-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7299,7 +7299,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV82RDU</value>
+            <value name="name">fEM_R0UV82RDU</value>
             <value name="description">(R0UV82RDU) 3-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7312,7 +7312,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV83RDU</value>
+            <value name="name">fEM_R0UV83RDU</value>
             <value name="description">(R0UV83RDU) 4-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7325,7 +7325,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV84RDU</value>
+            <value name="name">fEM_R0UV84RDU</value>
             <value name="description">(R0UV84RDU) 5-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7338,7 +7338,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV86RDU</value>
+            <value name="name">fEM_R0UV86RDU</value>
             <value name="description">(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7351,7 +7351,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV85RDU</value>
+            <value name="name">fEM_R0UV85RDU</value>
             <value name="description">(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7364,7 +7364,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UV87RDU</value>
+            <value name="name">fEM_R0UV87RDU</value>
             <value name="description">(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7377,7 +7377,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP03RDU</value>
+            <value name="name">fEM_A3UP03RDU</value>
             <value name="description">(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7390,7 +7390,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP04RDU</value>
+            <value name="name">fEM_A3UP04RDU</value>
             <value name="description">(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7403,7 +7403,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL01RDU</value>
+            <value name="name">fEM_A1UL01RDU</value>
             <value name="description">(A1UL01RDU) Время нахождения координаты ББ в зоне возврата, после которого происходит расширение зоны нечувствительности, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7416,7 +7416,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC07RDU</value>
+            <value name="name">fEM_A3UC07RDU</value>
             <value name="description">(A3UC07RDU) Зона возврата при наведении ИС 0.01 мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7429,7 +7429,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UL01RDU</value>
+            <value name="name">fEM_A3UL01RDU</value>
             <value name="description">(A3UL01RDU) Время нахождения координаты ИС в зоне возврата, после которого происходит расширение зоны нечувствительности, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7442,7 +7442,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC08RDU</value>
+            <value name="name">fEM_A2UC08RDU</value>
             <value name="description">(A2UC08RDU) Зона нечувствительности при наведении РБ мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7455,7 +7455,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC07RDU</value>
+            <value name="name">fEM_A2UC07RDU</value>
             <value name="description">(A2UC07RDU) Зона возврата при наведении РБ  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7468,7 +7468,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UL01RDU</value>
+            <value name="name">fEM_A2UL01RDU</value>
             <value name="description">(A2UL01RDU) Время нахождения координаты РБ в зоне возврата, после которого происходит расширение зоны нечувствительности, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7481,7 +7481,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UC01RDU</value>
+            <value name="name">fEM_B8UC01RDU</value>
             <value name="description">(B8UC01RDU) Зона нечувствительности при наведении АЗ2,ДС2 мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7494,7 +7494,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL07RDU</value>
+            <value name="name">fEM_B8UL07RDU</value>
             <value name="description">(B8UL07RDU) Время задержки блокировки АЗ2,ДС2 по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7507,7 +7507,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UC02RDU</value>
+            <value name="name">fEM_B8UC02RDU</value>
             <value name="description">(B8UC02RDU) Зона возврата при наведении АЗ2,ДС2  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7520,7 +7520,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL01RDU</value>
+            <value name="name">fEM_B8UL01RDU</value>
             <value name="description">(B8UL01RDU) Время нахождения координаты АЗ2,ДС2 в зоне возврата, после которого происходит расширение зоны нечувствительности, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7533,7 +7533,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL05RDU</value>
+            <value name="name">fEM_B8UL05RDU</value>
             <value name="description">(B8UL05RDU) Время задержки сигнализации по недвижению АЗ2,ДС2 сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7546,7 +7546,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL03RDU</value>
+            <value name="name">fEM_B8UL03RDU</value>
             <value name="description">(B8UL03RDU) Задержка определения самохода АЗ2,ДС2 после останова (достижения скорости 0), сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7559,7 +7559,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UL06RDU</value>
+            <value name="name">fEM_B8UL06RDU</value>
             <value name="description">(B8UL06RDU) Время задержки блокировки АЗ2,ДС2 по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7572,7 +7572,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A9UZ03RDU</value>
+            <value name="name">fEM_A9UZ03RDU</value>
             <value name="description">(A9UZ03RDU) Время задержки блокировки НИ  ДС по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7585,7 +7585,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A9UZ04RDU</value>
+            <value name="name">fEM_A9UZ04RDU</value>
             <value name="description">(A9UZ04RDU) Время задержки блокировки НИ ДС по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7598,7 +7598,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A9UZ05RDU</value>
+            <value name="name">fEM_A9UZ05RDU</value>
             <value name="description">(A9UZ05RDU) Время задержки блокировки НИ ДС по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7611,7 +7611,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R4UZ04RDU</value>
+            <value name="name">fEM_R4UZ04RDU</value>
             <value name="description">(R4UZ04RDU) Время задержки блокировки тележки по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7624,7 +7624,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R4UZ03RDU</value>
+            <value name="name">fEM_R4UZ03RDU</value>
             <value name="description">(R4UZ03RDU) Время задержки блокировки тележки по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7637,7 +7637,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R4UZ05RDU</value>
+            <value name="name">fEM_R4UZ05RDU</value>
             <value name="description">(R4UZ05RDU) Время задержки блокировки тележки по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7650,7 +7650,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A5UZ03RDU</value>
+            <value name="name">fEM_A5UZ03RDU</value>
             <value name="description">(A5UZ03RDU) Время задержки блокировки НЛ по самоходу сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7663,7 +7663,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A5UZ04RDU</value>
+            <value name="name">fEM_A5UZ04RDU</value>
             <value name="description">(A5UZ04RDU) Время задержки блокировки НЛ по превышению времени движения сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7676,7 +7676,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC05RDU</value>
+            <value name="name">fEM_A3UC05RDU</value>
             <value name="description">(A3UC05RDU) Минимальное перемещение для измерения скорости ИС(для блокировок по направлению и отсутствию движения), мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7689,7 +7689,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UL04RDU</value>
+            <value name="name">fEM_A3UL04RDU</value>
             <value name="description">(A3UL04RDU) Задержка определения самохода ИС после команды на останов, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7702,7 +7702,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP54RDU</value>
+            <value name="name">fEM_A3UP54RDU</value>
             <value name="description">(A3UP54RDU) Граница неоднозначности срабатывания предупредительной сигнализации по давлению ВЫСТРЕЛ ИС(МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7715,7 +7715,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UP87RDU</value>
+            <value name="name">fEM_A3UP87RDU</value>
             <value name="description">(A3UP87RDU) Верхняя граница нормализации давления ВЫСТРЕЛ ИС (МПа)</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7728,7 +7728,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL05RDU</value>
+            <value name="name">fEM_R0UL05RDU</value>
             <value name="description">(R0UL05RDU) Время срабатывания сброса от НУП ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7741,7 +7741,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0UL20RDU</value>
+            <value name="name">fEM_R0UL20RDU</value>
             <value name="description">(R0UL20RDU) Предельное отклонение от времени задержки  сброса от II УР</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7754,7 +7754,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UV04RDU</value>
+            <value name="name">fEM_B8UV04RDU</value>
             <value name="description">(B8UV04RDU) Время разгона механизма при переходе на новую скорость сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7767,7 +7767,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UC06RDU</value>
+            <value name="name">fEM_B8UC06RDU</value>
             <value name="description">(B8UC06RDU) Уставка определения самохода АЗ-ДС,  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7780,7 +7780,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B8UC05RDU</value>
+            <value name="name">fEM_B8UC05RDU</value>
             <value name="description">(B8UC05RDU) Минимальное перемещение для измерения скорости АЗ-ДС(для блокировок по направлению и отсутствию движения), мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7793,7 +7793,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UL05RDU</value>
+            <value name="name">fEM_A2UL05RDU</value>
             <value name="description">(A2UL05RDU) Время задержки блокировки РБ по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7806,7 +7806,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UL03RDU</value>
+            <value name="name">fEM_A2UL03RDU</value>
             <value name="description">(A2UL03RDU) Задержка определения самохода РБ после останова (достижения скорости 0), с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7819,7 +7819,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC06RDU</value>
+            <value name="name">fEM_A2UC06RDU</value>
             <value name="description">(A2UC06RDU) Уставка определения самохода РБ  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7832,7 +7832,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UC05RDU</value>
+            <value name="name">fEM_A2UC05RDU</value>
             <value name="description">(A2UC05RDU) Минимальное перемещение для измерения скорости РБ(для блокировок по направлению и отсутствию движения), мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7845,7 +7845,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2UL04RDU</value>
+            <value name="name">fEM_A2UL04RDU</value>
             <value name="description">(A2UL04RDU) Задержка определения самохода РБ после команды на останов, с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7858,7 +7858,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL03RDU</value>
+            <value name="name">fEM_A1UL03RDU</value>
             <value name="description">(A1UL03RDU) Задержка определения самохода ББ после останова (достижения скорости 0), с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7871,7 +7871,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UL05RDU</value>
+            <value name="name">fEM_A1UL05RDU</value>
             <value name="description">(A1UL05RDU) Время задержки блокировки ББ по недвижению с</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7884,7 +7884,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UL03RDU</value>
+            <value name="name">fEM_A3UL03RDU</value>
             <value name="description">(A3UL03RDU) Задержка определения самохода ИС после останова (достижения скорости 0), сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7897,7 +7897,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UL05RDU</value>
+            <value name="name">fEM_A3UL05RDU</value>
             <value name="description">(A3UL05RDU) Время задержки блокировки ИС по недвижению сек</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7910,7 +7910,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC08RDU</value>
+            <value name="name">fEM_A1UC08RDU</value>
             <value name="description">(A1UC08RDU) Зона нечувствительности при наведении ББ  мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7923,7 +7923,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3UC08RDU</value>
+            <value name="name">fEM_A3UC08RDU</value>
             <value name="description">(A3UC08RDU) Зона нечувствительности при наведении ИС 0.01 мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
@@ -7936,7 +7936,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1UC07RDU</value>
+            <value name="name">fEM_A1UC07RDU</value>
             <value name="description">(A1UC07RDU) Зона возврата при наведении ББ мм</value>
             <value name="type">3</value>
             <value name="format">8</value>

@@ -22,7 +22,7 @@
         <def name="venc16">venc16</def>
     </VENCF>
 
-    <!-- <VDS3201>
+    <VDS3201>
         <def name ="R0IC00LDU">K01VDSR</def>
         <def name ="R0IC01LDU">K02VDSR</def>
         <def name ="R0IC02LDU">K03VDSR</def>
@@ -55,7 +55,7 @@
         <def name ="R0IC29LDU">K30VDSR</def>
         <def name ="R0IC30LDU">K31VDSR</def>
         <def name ="R0IC31LDU">K32VDSR</def>
-    </VDS3201> -->
+    </VDS3201>
     <VDS3202>
         <def name="B3IS35LDU">K01VDSR</def>
         <def name="B3IS33LDU">K02VDSR</def>
@@ -215,7 +215,7 @@
         <def name="R6IS64LDU">K27VDSR</def>
         <def name="R6IS65LDU">K28VDSR</def>
     </VDS3213>
-      <!-- <FDS1606>
+      <FDS1606>
         <def name="A1IC01LDU">K01FDSR</def>
         <def name="B1IC01LDU">K02FDSR</def>
         <def name="A2IC01LDU">K03FDSR</def>
@@ -232,7 +232,7 @@
         <def name="rez4">K14FDSR</def>
         <def name="rez5">K15FDSR</def>
         <def name="rez6">K16FDSR</def>
-    </FDS1606> -->
+    </FDS1606>
     <FDS1610>
         <def name="A3AD34LDU">K01FDSR</def>
         <def name="A3AD33LDU">K02FDSR</def>

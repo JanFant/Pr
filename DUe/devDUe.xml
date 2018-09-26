@@ -1,12 +1,13 @@
 <devices xml="DUeass">
         <!-- <device name="VDS3201" driver="vds32" slot="01" description="VDS32-01"> </device> -->
-        <device name="VDS3202" driver="vds32" slot="02" description="VDS32-02"> </device>
-        <!-- <device name="VDS3203" driver="vds32" slot="03" description="VDS32-03"> </device> -->
-        <device name="VDS3204" driver="vds32" slot="04" description="VDS32-04"> </device>
-        <device name="VDS3205" driver="vds32" slot="05" description="VDS32-05"> </device>
         <device name="VENCF" driver="vencf8l" slot="01" description="VENCF"> </device>
 
-        <!-- <device name="FDS1606" driver="fds16" slot="06" description="FDS16-06"> </device> -->
+        <device name="VDS3202" driver="vds32" slot="02" description="VDS32-02"> </device>
+        <device name="VDS3203" driver="vds32" slot="03" description="VDS32-03"> </device>
+        <device name="VDS3204" driver="vds32" slot="04" description="VDS32-04"> </device>
+        <device name="VDS3205" driver="vds32" slot="05" description="VDS32-05"> </device>
+
+        <device name="FDS1606" driver="fds16" slot="06" description="FDS16-06"> </device>
         <device name="FDS1607" driver="fds16" slot="07" description="FDS16-07"> </device>
         <device name="FDS1608" driver="fds16" slot="08" description="FDS16-08"> </device>
         <device name="FDS1609" driver="fds16" slot="09" description="FDS16-09"> </device>

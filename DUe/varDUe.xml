@@ -20,7 +20,7 @@
 <var name="venc16" description="(venc16)" format="4"></var>
 
 
-<!-- <var name="R0IC00LDU" description="(R0IC00LDU) +Di0" format="1"></var>
+<var name="R0IC00LDU" description="(R0IC00LDU) +Di0" format="1"></var>
 <var name="R0IC01LDU" description="(R0IC01LDU) +Di1" format="1"></var>
 <var name="R0IC02LDU" description="(R0IC02LDU) +Di2" format="1"></var>
 <var name="R0IC03LDU" description="(R0IC03LDU) +Di3" format="1"></var>
@@ -51,7 +51,7 @@
 <var name="R0IC28LDU" description="(R0IC28LDU) +Di28" format="1"></var>
 <var name="R0IC29LDU" description="(R0IC29LDU) +Di29" format="1"></var>
 <var name="R0IC30LDU" description="(R0IC30LDU) +Di30" format="1"></var>
-<var name="R0IC31LDU" description="(R0IC31LDU) +Di31" format="1"></var>  -->
+<var name="R0IC31LDU" description="(R0IC31LDU) +Di31" format="1"></var> 
 
 <var name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт (обесточен)" format ="1"></var> 
 <var name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен)" format ="1"></var> 
@@ -208,7 +208,7 @@
 <var name="R6IS64LDU" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format ="1"></var>
 <var name="R6IS65LDU" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format ="1"></var>
 
-<!-- <var name="A1IC01LDU" description="(A1IC01LDU) BUS1_ББ1, у ТИБ BUS1 ББ1" format ="1"></var>
+<var name="A1IC01LDU" description="(A1IC01LDU) BUS1_ББ1, у ТИБ BUS1 ББ1" format ="1"></var>
 <var name="B1IC01LDU" description="(B1IC01LDU) BUS2_ББ" format ="1"></var>
 <var name="A2IC01LDU" description="(A2IC01LDU) BUS3_РБ" format ="1"></var>
 <var name="B2IC01LDU" description="(B2IC01LDU) BUS4_РБ" format ="1"></var>
@@ -223,7 +223,7 @@
 <var name="rez3" description ="rez3" format ="1"></var>
 <var name="rez4" description ="rez4" format ="1"></var>
 <var name="rez5" description ="rez5" format ="1"></var>
-<var name="rez6" description ="rez6" format ="1"></var> -->
+<var name="rez6" description ="rez6" format ="1"></var>
 
 <var name="A3AD34LDU" description="(A3AD34LDU) Клапан «ВПИС1»  открыть (обесточить)" format ="1"></var>
 <var name="A3AD33LDU" description="(A3AD33LDU) Клапан «ВЫСТРЕЛ ИС1» открыть (обесточить)" format ="1"></var>
