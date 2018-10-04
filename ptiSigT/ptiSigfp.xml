@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+             
+<!--
+-->
+        <variable xml="varptiSig"/>
+        <saves xml="saveptiSig"/>
+        <devices xml="devptiSig"/>
+        <modbus name="msptiSig" description="Пустые сигналы PTI" type="slave" port="502" xml="ptiSig"/>
+</subsystem>

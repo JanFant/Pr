@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="654" lenInit="12" header="fp8/drivers/vchs2.h">
+<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="670" lenInit="12" header="fp8/drivers/vchs2.h">
 <!--
     mode="input" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
@@ -26,6 +26,7 @@
         <signal name="fTimS[2]"      format ="8"  mode ="input" address ="634" />  4 * 2  = 8    634    
         <signal name="pMFast[2]"     format ="5"  mode ="input" address ="640" />  4 * 2  = 8    640
         <signal name="pMSlow[2]"     format ="5"  mode ="input" address ="646" />  4 * 2  = 8    646
+        <signal name="cyklS[2]"      format ="8"  mode ="input" address ="654" />  8 * 2  = 16   654
         -->                                             
         
     </signals>

@@ -1393,4 +1393,21 @@
 <var  name="internal1_m385_i_var" description="(internal1_m385_i_var) " format="8"></var>
 <var  name="internal1_m735_q0" description="(internal1_m735_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m732_q0" description="(internal1_m732_q0) q0 - внутренний параметр" format="1"></var>
+
+<var name="gray01" description="(gray01) - в грее" format="4"></var>
+<var name="gray02" description="(gray02) - в грее" format="4"></var>
+<var name="gray03" description="(gray03) - в грее" format="4"></var>
+<var name="gray04" description="(gray04) - в грее" format="4"></var>
+<var name="gray05" description="(gray05) - в грее" format="4"></var>
+<var name="gray06" description="(gray06) - в грее" format="4"></var>
+<var name="gray07" description="(gray07) - в грее" format="4"></var>
+<var name="gray08" description="(gray08) - в грее" format="4"></var>
+<var name="venc01" description="(venc01) - посчитанный" format="5"></var>
+<var name="venc02" description="(venc02) - посчитанный" format="5"></var>
+<var name="venc03" description="(venc03) - посчитанный" format="5"></var>
+<var name="venc04" description="(venc04) - посчитанный" format="5"></var>
+<var name="venc05" description="(venc05) - посчитанный" format="5"></var>
+<var name="venc06" description="(venc06) - посчитанный" format="5"></var>
+<var name="venc07" description="(venc07) - посчитанный" format="5"></var>
+<var name="venc08" description="(venc08) - посчитанный" format="5"></var>
 </vars>

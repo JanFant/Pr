@@ -1,5 +1,5 @@
 <devices xml="DUass">
-        <device name="VDS3201" driver="vds32" slot="01" description="VDS32-01"> </device>
+        <device name="VENCF" driver="vencf8l" slot="01" description="VENCF"> </device>
         <device name="VDS3202" driver="vds32" slot="02" description="VDS32-02"> </device>
         <device name="VDS3203" driver="vds32" slot="03" description="VDS32-03"> </device>
         <device name="VDS3204" driver="vds32" slot="04" description="VDS32-04"> </device>

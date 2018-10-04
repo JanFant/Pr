@@ -1,0 +1,19 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="dovds" description="dovds" code="0x22" lenData="12" lenInit="1" header="drivers/DoVds.h">
+<!-->
+    mode="output" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="numE"      format="4" mode="output" address="0"/>
+        <signal name="tempDoVds" format="4" mode="output" address="4"/>
+        <signal name="NumErr"    format="4" mode="output" address="8"/>
+        
+    </signals>
+    <init type="doVds_inipar">
+        <signal name="init" mode="input" format="18" value="0" address="0"/>
+    </init>
+</driver>

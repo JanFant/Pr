@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <general name="bars" description="Система БАРС" path="d:/md/pti/pr" defdrv="d:/md/pti/pr/default" simul="no" ip="192.168.1.17" port="5555"> 
-    <!-- <subs name="scm"    scheme="D:/md/pti/pr/scm/scheme/scm.tpr"  id="1" file="scmfp" description="SCM" main="192.168.10.60" second="192.168.10.60" path="d:/md/pti/pr/scm" step="20" status="ok" result="d:/md/pti" /> --> -->
+    <subs name="scm"    scheme="D:/md/pti/pr/scm/scheme/scm.tpr"  id="1" file="scmfp" description="SCM" main="192.168.10.60" second="192.168.10.60" path="d:/md/pti/pr/scm" step="20" status="ok" result="d:/md/pti" /> -->
     
-    <subs name="ptiSig" scheme="D:/md/pti/pr/ptiSig/scheme/ptiSig.tpr" id="2" file="ptiSigfp"  description="ptiSig"     main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/ptiSig" step="20" status="ok" result="d:/md/pti" />
+    <subs name="ptiSig" scheme="D:/md/pti/pr/ptiSig/scheme/ptiSig.tpr" id="2" file="ptiSigfp"  description="ptiSig"     main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/ptiSig" step="10" status="ok" result="d:/md/pti" />
     <subs name="DU"     scheme="D:/md/pti/pr/DU/scheme/DU.tpr"         id="3" file="DUfp"      description="DU"         main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DU"     step="20" status="ok" result="d:/md/pti" />
     <subs name="AKNP1"  scheme="D:/md/pti/pr/AKNP1/scheme/AKNP1.tpr"   id="4" file="AKNP1fp"   description="AKNP1_DU"   main="192.168.10.51" second="192.168.10.151" path="d:/md/pti/pr/AKNP1"  step="5"  status="ok" result="d:/md/pti" />
     <subs name="Baz1"   scheme="D:/md/pti/pr/Baz1/scheme/Baz1.tpr"     id="5" file="Baz1fp"    description="Baz1"       main="192.168.10.52" second="192.168.10.152" path="d:/md/pti/pr/Baz1"   step="20" status="ok" result="d:/md/pti" />
@@ -11,7 +11,9 @@
     <subs name="AKNP4"  scheme="D:/md/pti/pr/AKNP4/scheme/AKNP4.tpr"   id="8" file="AKNP4fp"   description="AKNP4_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNP4"  step="5"  status="ok" result="d:/md/pti" />
     <subs name="RPU"    scheme="D:/md/pti/pr/RPU/scheme/RPU.tpr"       id="9" file="RPUfp"     description="RPU"        main="192.168.10.31" second="192.168.10.131" path="d:/md/pti/pr/RPU"    step="5"  status="ok" result="d:/md/pti" />
 
+<!-- encoder -->
+    <!-- <subs name="DUe" scheme="D:/md/pti/pr/DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUe" step="20" status="ok" result="d:/md/pti" /> -->
+<!-- test cable -->
+    <!-- <subs name="ptiSigT" scheme="D:/md/pti/pr/ptiSigT/scheme/ptiSig.tpr" id="15" file="ptiSigfp"  description="ptiSig"     main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/ptiSigT" step="20" status="ok" result="d:/md/pti" /> -->
 
-    <subs name="DUe" scheme="D:/md/pti/pr/DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUe" step="20" status="ok" result="d:/md/pti" />
-    <subs name="scm" scheme="D:/md/pti/pr/scm/scheme/scm.tpr"  id="11" file="scmfp" description="SCM" main="192.168.10.60" second="192.168.10.60" path="d:/md/pti/pr/scm" step="20" status="ok" result="d:/md/pti" />
 </general>
