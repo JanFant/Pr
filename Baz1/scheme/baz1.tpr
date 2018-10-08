@@ -1975,7 +1975,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АС по  "
@@ -3334,7 +3334,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АЗ по АС любого"
@@ -3361,7 +3361,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АЗ по АС любого"
@@ -3841,13 +3841,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Уровень мощности"
@@ -3868,13 +3868,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Уровень мощности"
@@ -3895,13 +3895,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Уровень мощности"
@@ -3922,13 +3922,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Уровень мощности"
@@ -4168,14 +4168,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -4195,14 +4195,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -4222,14 +4222,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -4249,14 +4249,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -4376,7 +4376,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="Усредненный"
@@ -5130,7 +5130,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -5516,14 +5516,14 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="120,8,164,22"
+        R="120,8,155,19"
         Number=210
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП1"
       }
       [VVV_Text]{
-        R="163,8,207,22"
+        R="163,8,198,19"
         Number=211
         IsHold=TRUE
         Line1="Исправность"
@@ -5884,7 +5884,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АЗ по АС"
@@ -5911,7 +5911,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АЗ по АС"
@@ -6269,7 +6269,7 @@
         }
       }
       [VVV_Text]{
-        R="1043,1295,1092,1309"
+        R="1043,1295,1083,1306"
         Number=966
         IsHold=FALSE
         Line1="    АС по"
@@ -6357,7 +6357,7 @@
         }
       }
       [VVV_Text]{
-        R="1495,911,1518,918"
+        R="1495,911,1513,916"
         Number=995
         IsHold=FALSE
         Line1="Испр-1"
@@ -6433,7 +6433,7 @@
         }
       }
       [VVV_Text]{
-        R="1349,908,1371,914"
+        R="1349,908,1370,913"
         Number=1014
         IsHold=TRUE
         Line1="Мощн-1"
@@ -6452,7 +6452,7 @@
         }
       }
       [VVV_Text]{
-        R="1352,943,1374,949"
+        R="1352,943,1373,948"
         Number=1019
         IsHold=TRUE
         Line1="Мощн-2"
@@ -6799,7 +6799,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="АС по "
@@ -7264,7 +7264,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="Индикация выбора"
@@ -7291,7 +7291,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz1DU"
+        InterfaceMB="Baz1, SBz1DU"
         ChannalName=""
         DeviceName=""
         Line1="Индикация выбора"
@@ -7576,14 +7576,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Кнопка (Квитировать)"
@@ -7960,7 +7960,7 @@
         Line1="II УР"
       }
       [VVV_Text]{
-        R="1198,1166,1225,1173"
+        R="1198,1166,1220,1171"
         Number=961
         IsHold=FALSE
         Line1="АС II УР"
@@ -7979,13 +7979,13 @@
         }
       }
       [VVV_Text]{
-        R="1202,1117,1259,1124"
+        R="1202,1117,1249,1122"
         Number=1251
         IsHold=FALSE
         Line1="АС IУР (датчик 1)"
       }
       [VVV_Text]{
-        R="1206,1081,1263,1088"
+        R="1206,1081,1253,1086"
         Number=946
         IsHold=FALSE
         Line1="АС IУР (датчик 2)"
@@ -8073,14 +8073,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz1"
         ChannalName="K02VDSR"
         DeviceName="VDS321"
         Line1="АС по периоду"
@@ -8267,7 +8267,7 @@
         }
       }
       [VVV_Text]{
-        R="1233,1027,1277,1041"
+        R="1233,1027,1268,1038"
         Number=91
         IsHold=FALSE
         Line1="Исправность"
@@ -8287,7 +8287,7 @@
         }
       }
       [VVV_Text]{
-        R="1235,927,1270,939"
+        R="1235,927,1270,938"
         Number=115
         IsHold=FALSE
         Line1="Исправность"
@@ -9271,7 +9271,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="msBaz1"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
         Line1="Переключатель"
@@ -20866,4 +20866,4 @@
     }
   }
 }
-19614193
+19616072
