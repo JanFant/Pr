@@ -3,7 +3,7 @@
     <var name="R0IN02RRP" description="(R0IN02RRP) Частота КНК15-1 Гц (канал 5)" format ="8"></var>
 
     <var name="R0IN03RRP" description="(R0IN03RRP) Частота КНК53М Гц (канал 5)" format ="8"></var>
-    <var name="VCHSK4" description="(VCHSK4)" format ="8"></var>
+    <var name="rpu_VCHSK4" description="(VCHSK4)" format ="8"></var>
 
     <var name="R0IN06RRP" description="(R0IN06RRP) Частота СНМ-11 Гц (канал 6)" format ="8"></var>
     <var name="R0IN07RRP" description="(R0IN07RRP) Частота СНМ-11 Гц (канал 7)" format ="8"></var>

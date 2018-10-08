@@ -10,16 +10,16 @@
     PageCountX=1
     PageCountY=1
     Name="Главная"
-    ObjectCount=4
+    ObjectCount=6
     ExpandCompile=0
     [TDrawSignal]{
       R="153,89,183,129"
       Number=1
       IsHold=FALSE
       VisualNumber=""
-      SIGNAL_NAME="VCHSK1"
-      KodTeprol="VCHSK1"
-      Comment="VCHSK1"
+      SIGNAL_NAME="R0IN01RRP"
+      KodTeprol="R0IN01RRP"
+      Comment="R0IN01RRP"
       Type=1
       ParamType=1
       Value=""
@@ -33,7 +33,7 @@
       HistReg=0
       SinhrCycle_item=1
       SinhrCycle_val=2
-      InterfaceMB="AKNP3"
+      InterfaceMB="RPU"
       ChannalName="K01VCHS"
       DeviceName="VCHS01"
     }
@@ -42,9 +42,9 @@
       Number=2
       IsHold=FALSE
       VisualNumber=""
-      SIGNAL_NAME="VCHSK2"
-      KodTeprol="VCHSK2"
-      Comment="VCHSK2"
+      SIGNAL_NAME="R0IN02RRP"
+      KodTeprol="R0IN02RRP"
+      Comment="R0IN02RRP"
       Type=1
       ParamType=1
       Value=""
@@ -58,7 +58,7 @@
       HistReg=0
       SinhrCycle_item=1
       SinhrCycle_val=2
-      InterfaceMB="AKNP3"
+      InterfaceMB="RPU"
       ChannalName="K02VCHS"
       DeviceName="VCHS01"
     }
@@ -67,9 +67,9 @@
       Number=3
       IsHold=FALSE
       VisualNumber=""
-      SIGNAL_NAME="VCHSK3"
-      KodTeprol="VCHSK3"
-      Comment="VCHSK3"
+      SIGNAL_NAME="R0IN03RRP"
+      KodTeprol="R0IN03RRP"
+      Comment="R0IN03RRP"
       Type=1
       ParamType=1
       Value=""
@@ -83,7 +83,7 @@
       HistReg=0
       SinhrCycle_item=1
       SinhrCycle_val=2
-      InterfaceMB="AKNP3"
+      InterfaceMB="RPU"
       ChannalName="K01VCHS"
       DeviceName="VCHS02"
     }
@@ -92,9 +92,9 @@
       Number=4
       IsHold=FALSE
       VisualNumber=""
-      SIGNAL_NAME="VCHSK4"
-      KodTeprol="VCHSK4"
-      Comment="VCHSK4"
+      SIGNAL_NAME="rpu_VCHSK4"
+      KodTeprol="rpu_VCHSK4"
+      Comment="rpu_VCHSK4"
       Type=1
       ParamType=1
       Value=""
@@ -108,10 +108,60 @@
       HistReg=0
       SinhrCycle_item=1
       SinhrCycle_val=2
-      InterfaceMB="AKNP3"
+      InterfaceMB="RPU"
       ChannalName="K02VCHS"
       DeviceName="VCHS02"
     }
+    [TDrawSignal]{
+      R="446,131,476,171"
+      Number=5
+      IsHold=FALSE
+      VisualNumber=""
+      SIGNAL_NAME="R0IN07RRP"
+      KodTeprol="R0IN07RRP"
+      Comment="R0IN07RRP"
+      Type=1
+      ParamType=1
+      Value=""
+      Size=1
+      TypeInterface=0
+      TypeMB=2
+      FormatMB=8
+      TypeMBMaster=2
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=1
+      SinhrCycle_val=2
+      InterfaceMB="RPU"
+      ChannalName="K02VCHS"
+      DeviceName="VCHS03"
+    }
+    [TDrawSignal]{
+      R="399,109,429,149"
+      Number=6
+      IsHold=FALSE
+      VisualNumber=""
+      SIGNAL_NAME="R0IN06RRP"
+      KodTeprol="R0IN06RRP"
+      Comment="R0IN06RRP"
+      Type=1
+      ParamType=1
+      Value=""
+      Size=1
+      TypeInterface=0
+      TypeMB=2
+      FormatMB=8
+      TypeMBMaster=2
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=1
+      SinhrCycle_val=2
+      InterfaceMB="RPU"
+      ChannalName="K01VCHS"
+      DeviceName="VCHS03"
+    }
   }
 }
-129385
+189987

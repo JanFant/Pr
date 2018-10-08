@@ -5,7 +5,7 @@
     </VCHS01>
     <VCHS02>
         <def name="R0IN03RRP">K01VCHS</def>
-        <def name="VCHSK4">K02VCHS</def>
+        <def name="rpu_VCHSK4">K02VCHS</def>
     </VCHS02>
     <VCHS03>
         <def name="R0IN06RRP">K01VCHS</def>

@@ -1,11 +1,11 @@
 <assign>
     <VCHS01>
-        <def name="VCHSK1">K01VCHS</def>
-        <def name="VCHSK2">K02VCHS</def>
+        <def name="aknp1_VCHSK1">K01VCHS</def>
+        <def name="aknp1_VCHSK2">K02VCHS</def>
     </VCHS01>
     <VCHS02>
-        <def name="VCHSK3">K01VCHS</def>
-        <def name="VCHSK4">K02VCHS</def>
+        <def name="aknp1_VCHSK3">K01VCHS</def>
+        <def name="aknp1_VCHSK4">K02VCHS</def>
     </VCHS02>
     <SBKFP>
         <def name="POWER1" >S01SBK</def>
