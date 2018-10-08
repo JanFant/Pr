@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+
+        <variable xml="varDUe"/>
+        <saves xml="saveDUe"/>
+        <devices xml="devDUe"/>
+        <modbus name="msDUe" description="DUe-ModBus" type="slave" port="502" xml="DUe"/>
+</subsystem>

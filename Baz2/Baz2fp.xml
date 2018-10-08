@@ -4,6 +4,6 @@
         <saves xml="saveBaz2"/>
         <devices xml="devBaz2"/>
         <modbus name="Baz2" description="Общий слэйв" type="slave" port="502" xml="Baz2"/>
-        <modbus name="SBz2DU" description="Слэйв для DU" type="slave" port="502" xml="SBz2DU"/>
-        <modbus name="MBz2S" description="Мастер Баз2 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="502" xml="D:\md\pti\pr\scm\SBz2.xml"/>
+        <modbus name="SBz2DU" description="Слэйв для DU" type="slave" port="504" xml="SBz2DU"/>
+        <modbus name="MBz2S" description="Мастер Баз2 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="504" xml="D:\md\pti\pr\scm\SBz2.xml"/>
 </subsystem>
