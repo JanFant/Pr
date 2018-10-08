@@ -1826,7 +1826,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Температура АЗ1-1"
@@ -5021,7 +5021,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -5048,7 +5048,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -5102,7 +5102,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -6454,7 +6454,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Средняя"
@@ -6503,7 +6503,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="ПС давления"
@@ -6530,7 +6530,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Температура АЗ2-1"
@@ -7951,7 +7951,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz2"
         ChannalName="K01VDSR"
         DeviceName="VDS322"
         Line1="АС по "
@@ -8144,7 +8144,7 @@
         Line3="ниже ПС"
       }
       [VVV_Text]{
-        R="1807,929,1848,950"
+        R="1807,929,1841,946"
         Number=115
         IsHold=TRUE
         Line1="Давление"
@@ -20804,4 +20804,4 @@
     }
   }
 }
-19544701
+19547687
