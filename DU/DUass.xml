@@ -37,6 +37,21 @@
         <def name="venc08">venc08</def>
     </VENCF>
 
+      <FDS1606>
+        <def name="A1IC01LDU">K01FDSR</def>
+        <def name="B1IC01LDU">K02FDSR</def>
+        <def name="A2IC01LDU">K03FDSR</def>
+        <def name="B2IC01LDU">K04FDSR</def>
+        <def name="A3IC01LDU">K05FDSR</def>
+        <def name="B3IC01LDU">K06FDSR</def>
+        <def name="B8IC01LDU">K07FDSR</def>
+        <def name="A8IC01LDU">K08FDSR</def>
+        <def name="R0IC41LDU">K09FDSR</def>
+        <def name="R0IC42LDU">K10FDSR</def>
+        <def name="R0IC43LDU">K11FDSR</def>
+    </FDS1606>
+
+
     <FDS1608>
         <def name="B1AD01LDU">K10FDSR</def>
         <def name="A1AD01LDU">K03FDSR</def>

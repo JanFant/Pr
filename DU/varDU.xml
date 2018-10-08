@@ -1410,4 +1410,16 @@
 <var name="venc06" description="(venc06) - посчитанный" format="5"></var>
 <var name="venc07" description="(venc07) - посчитанный" format="5"></var>
 <var name="venc08" description="(venc08) - посчитанный" format="5"></var>
+
+<var name="A1IC01LDU" description="(A1IC01LDU) BUS1_ББ1, у ТИБ BUS1 ББ1" format ="1"></var>
+<var name="B1IC01LDU" description="(B1IC01LDU) BUS2_ББ" format ="1"></var>
+<var name="A2IC01LDU" description="(A2IC01LDU) BUS3_РБ" format ="1"></var>
+<var name="B2IC01LDU" description="(B2IC01LDU) BUS4_РБ" format ="1"></var>
+<var name="A3IC01LDU" description="(A3IC01LDU) BUS5_ИС" format ="1"></var>
+<var name="B3IC01LDU" description="(B3IC01LDU) BUS6_ИС" format ="1"></var>
+<var name="B8IC01LDU" description="(B8IC01LDU) BUS7_АЗ" format ="1"></var>
+<var name="A8IC01LDU" description="(A8IC01LDU) BUS8_ДС" format ="1"></var>
+<var name="R0IC41LDU" description="(R0IC41LDU) LUTCH у ТИБ Latch " format ="1"></var>
+<var name="R0IC42LDU" description="(R0IC42LDU) Вход запрет" format ="1"></var>
+<var name="R0IC43LDU" description="(R0IC43LDU) Выход запрет" format ="1"></var>
 </vars>
