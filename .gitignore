@@ -46,3 +46,4 @@ RPU/scheme/*.bin
 RPU/scheme/*.edf
 RPU/scheme/*.c
 RPU/scheme/*.h
+*.rar

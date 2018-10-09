@@ -38,7 +38,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -60,7 +60,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -82,7 +82,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -456,7 +456,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -478,7 +478,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -500,7 +500,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -742,7 +742,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -764,7 +764,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -808,7 +808,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1072,7 +1072,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -1094,7 +1094,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1116,7 +1116,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -1248,7 +1248,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1270,7 +1270,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1292,7 +1292,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1314,7 +1314,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1336,7 +1336,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1358,7 +1358,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1380,7 +1380,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2282,7 +2282,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2304,7 +2304,7 @@
       Group="2A"
       Access="3"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2326,7 +2326,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2348,7 +2348,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2370,7 +2370,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2392,7 +2392,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2414,7 +2414,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2436,7 +2436,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2612,7 +2612,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2634,7 +2634,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2656,7 +2656,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2832,7 +2832,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2920,7 +2920,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -3118,7 +3118,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3140,7 +3140,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3250,7 +3250,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3272,7 +3272,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3294,7 +3294,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3316,7 +3316,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3338,7 +3338,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3492,7 +3492,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3514,7 +3514,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3536,7 +3536,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3558,7 +3558,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3580,7 +3580,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3712,7 +3712,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3734,7 +3734,7 @@
       Group="0C"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5164,7 +5164,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5186,7 +5186,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5956,7 +5956,7 @@
       Group="1V"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5978,7 +5978,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6000,7 +6000,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6022,7 +6022,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6044,7 +6044,7 @@
       Group="1T"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6066,7 +6066,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6088,7 +6088,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6110,7 +6110,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6132,7 +6132,7 @@
       Group="1T"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6154,7 +6154,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6176,7 +6176,7 @@
       Group="1T"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6198,7 +6198,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6220,7 +6220,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6242,7 +6242,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6264,7 +6264,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6286,7 +6286,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6770,7 +6770,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6792,7 +6792,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7144,7 +7144,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7166,7 +7166,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7364,7 +7364,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7386,7 +7386,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7408,7 +7408,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7430,7 +7430,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7452,7 +7452,7 @@
       Group="1T"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7474,7 +7474,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7496,7 +7496,7 @@
       Group="1T"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7518,7 +7518,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7540,7 +7540,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7562,7 +7562,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7584,7 +7584,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7606,7 +7606,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7628,7 +7628,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7650,7 +7650,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7672,7 +7672,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7694,7 +7694,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7716,7 +7716,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7738,7 +7738,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7760,7 +7760,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7782,7 +7782,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7804,7 +7804,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7826,7 +7826,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7848,7 +7848,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7870,7 +7870,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7892,7 +7892,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7914,7 +7914,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7936,7 +7936,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7958,7 +7958,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7980,7 +7980,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8772,7 +8772,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8794,7 +8794,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8948,7 +8948,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9080,7 +9080,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9278,7 +9278,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9300,7 +9300,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9322,7 +9322,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9344,7 +9344,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9366,7 +9366,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10026,7 +10026,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10048,7 +10048,7 @@
       Group="1"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10070,7 +10070,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11038,7 +11038,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11060,7 +11060,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11082,7 +11082,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11104,7 +11104,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11126,7 +11126,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11148,7 +11148,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11170,7 +11170,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11192,7 +11192,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11214,7 +11214,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11236,7 +11236,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11258,7 +11258,7 @@
       Group="1C"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11280,7 +11280,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11302,7 +11302,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11324,7 +11324,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11346,7 +11346,7 @@
       Group="1T"
       Access="2"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11368,7 +11368,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11390,7 +11390,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11412,7 +11412,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11434,7 +11434,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11456,7 +11456,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11478,7 +11478,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11500,7 +11500,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11522,7 +11522,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11544,7 +11544,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11566,7 +11566,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11588,7 +11588,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11896,9 +11896,9 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=0
-      FormatMB=2
+      FormatMB=1
       HstInterv_item=3
       HstInterv_val=1
       HistReg=0
@@ -12336,7 +12336,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12402,7 +12402,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12424,7 +12424,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12446,7 +12446,7 @@
       Group="1L"
       Access="1"
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12512,7 +12512,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12556,7 +12556,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12600,7 +12600,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12688,7 +12688,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12710,7 +12710,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12732,7 +12732,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12754,7 +12754,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12776,7 +12776,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12798,7 +12798,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12820,7 +12820,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12908,7 +12908,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12930,7 +12930,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12952,7 +12952,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12974,7 +12974,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12996,7 +12996,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13018,7 +13018,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13040,7 +13040,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13062,7 +13062,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13084,7 +13084,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13106,7 +13106,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13128,7 +13128,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13150,7 +13150,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13194,7 +13194,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13216,7 +13216,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13304,7 +13304,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13326,7 +13326,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13348,7 +13348,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13436,7 +13436,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="msDU"
+      InterfaceMB="DU"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14487,25 +14487,25 @@
         }
       }
       [VVV_Text]{
-        R="664,85,687,91"
+        R="664,85,687,90"
         Number=20
         IsHold=FALSE
         Line1="импульс"
       }
       [VVV_Text]{
-        R="703,85,737,91"
+        R="703,85,735,90"
         Number=21
         IsHold=FALSE
         Line1="статический"
       }
       [VVV_Text]{
-        R="744,85,777,91"
+        R="744,85,774,90"
         Number=22
         IsHold=FALSE
         Line1="калибровка"
       }
       [VVV_Text]{
-        R="788,85,815,91"
+        R="788,85,813,90"
         Number=23
         IsHold=FALSE
         Line1="проверка"
@@ -14699,43 +14699,43 @@
         }
       }
       [VVV_Text]{
-        R="2057,80,2080,86"
+        R="2057,80,2078,85"
         Number=155
         IsHold=TRUE
         Line1="НИ ДС1"
       }
       [VVV_Text]{
-        R="2058,108,2081,114"
+        R="2058,108,2079,113"
         Number=156
         IsHold=TRUE
         Line1="НИ ДС2"
       }
       [VVV_Text]{
-        R="2058,129,2086,135"
+        R="2058,129,2084,134"
         Number=157
         IsHold=TRUE
         Line1="НИ ДС1,2"
       }
       [VVV_Text]{
-        R="2026,186,2047,192"
+        R="2026,186,2046,191"
         Number=161
         IsHold=TRUE
         Line1="РБ мех"
       }
       [VVV_Text]{
-        R="2026,220,2047,226"
+        R="2026,220,2046,225"
         Number=162
         IsHold=TRUE
         Line1="РБ+НИ"
       }
       [VVV_Text]{
-        R="2026,248,2048,254"
+        R="2026,248,2046,253"
         Number=163
         IsHold=TRUE
         Line1="ИС мех"
       }
       [VVV_Text]{
-        R="2053,321,2074,327"
+        R="2053,321,2073,326"
         Number=166
         IsHold=TRUE
         Line1="ББ мех"
@@ -14840,19 +14840,19 @@
         }
       }
       [VVV_Text]{
-        R="1321,103,1337,109"
+        R="1321,103,1336,108"
         Number=173
         IsHold=TRUE
         Line1="ВЫКЛ"
       }
       [VVV_Text]{
-        R="1353,103,1376,109"
+        R="1353,103,1375,108"
         Number=176
         IsHold=TRUE
         Line1="РАБОТА"
       }
       [VVV_Text]{
-        R="1384,98,1413,104"
+        R="1384,98,1411,103"
         Number=177
         IsHold=TRUE
         Line1="ВЫСТРЕЛ"
@@ -14930,19 +14930,19 @@
         }
       }
       [VVV_Text]{
-        R="1425,102,1441,108"
+        R="1425,102,1441,107"
         Number=170
         IsHold=TRUE
         Line1="ВЫКЛ"
       }
       [VVV_Text]{
-        R="1457,102,1475,108"
+        R="1457,102,1475,107"
         Number=175
         IsHold=TRUE
         Line1="20 мин"
       }
       [VVV_Text]{
-        R="1490,103,1512,109"
+        R="1490,103,1510,108"
         Number=200
         IsHold=TRUE
         Line1="200 сек"
@@ -15120,37 +15120,37 @@
         }
       }
       [VVV_Text]{
-        R="1522,103,1547,109"
+        R="1522,103,1545,108"
         Number=214
         IsHold=TRUE
         Line1="авт.пров"
       }
       [VVV_Text]{
-        R="1565,102,1579,108"
+        R="1565,102,1577,107"
         Number=215
         IsHold=TRUE
         Line1="ИНИ"
       }
       [VVV_Text]{
-        R="1594,103,1613,109"
+        R="1594,103,1611,108"
         Number=216
         IsHold=TRUE
         Line1="ВУ ИС"
       }
       [VVV_Text]{
-        R="1632,102,1645,108"
+        R="1632,102,1644,107"
         Number=217
         IsHold=TRUE
         Line1="2 УР"
       }
       [VVV_Text]{
-        R="1657,102,1676,108"
+        R="1657,102,1674,107"
         Number=218
         IsHold=TRUE
         Line1="НУ ИС"
       }
       [VVV_Text]{
-        R="1698,102,1711,108"
+        R="1698,102,1711,107"
         Number=219
         IsHold=TRUE
         Line1="1.5 с"
@@ -15434,7 +15434,7 @@
         Line2="состоянии"
       }
       [VVV_Text]{
-        R="1731,156,1769,175"
+        R="1731,156,1765,173"
         Number=363
         IsHold=TRUE
         Line1="Блокировать"
@@ -15637,7 +15637,7 @@
         Line3="НИ1, НИ2"
       }
       [VVV_Text]{
-        R="1909,75,1949,81"
+        R="1909,75,1946,80"
         Number=66
         IsHold=TRUE
         Line1="Квитирование"
@@ -16268,13 +16268,13 @@
         Line3="движения"
       }
       [VVV_Text]{
-        R="2218,839,2382,844"
+        R="2218,839,2419,846"
         Number=323
         IsHold=TRUE
         Line1="Рис.4. Схема управления биологической защитой БЗ1, БЗ2"
       }
       [VVV_Text]{
-        R="2210,808,2250,819"
+        R="2210,808,2261,822"
         Number=340
         IsHold=TRUE
         Line1="На управление"
@@ -16665,7 +16665,7 @@
         Line3="ВУ тележки"
       }
       [VVV_Text]{
-        R="1421,501,1442,513"
+        R="1421,501,1441,512"
         Number=753
         IsHold=TRUE
         Line1="Квит."
@@ -18899,14 +18899,14 @@
         }
       }
       [VVV_Text]{
-        R="2120,814,2159,825"
+        R="2120,814,2168,828"
         Number=1361
         IsHold=TRUE
         Line1="Блокировки "
         Line2="движения БЗ1"
       }
       [VVV_Text]{
-        R="2412,813,2451,824"
+        R="2412,813,2460,827"
         Number=1362
         IsHold=TRUE
         Line1="Блокировки "
@@ -19049,7 +19049,7 @@
         }
       }
       [VVV_Text]{
-        R="2306,756,2332,768"
+        R="2306,756,2338,770"
         Number=1432
         IsHold=TRUE
         Line1="Опустить"
@@ -34508,7 +34508,7 @@
         Line1="АЗ1"
       }
       [VVV_Text]{
-        R="2035,340,2048,346"
+        R="2035,340,2047,345"
         Number=10
         IsHold=TRUE
         Line1="МДЗ"
@@ -34605,7 +34605,7 @@
         Line1="АЗ2"
       }
       [VVV_Text]{
-        R="1098,52,1121,57"
+        R="1098,52,1123,57"
         Number=59
         IsHold=FALSE
         Line1="АЗ1+АЗ2"
@@ -35564,7 +35564,7 @@
         }
       }
       [VVV_Text]{
-        R="1006,539,1042,558"
+        R="1006,539,1038,555"
         Number=5423
         IsHold=FALSE
         Line1="Индикация"
@@ -35772,7 +35772,7 @@
         }
       }
       [VVV_Text]{
-        R="793,159,815,171"
+        R="793,159,814,170"
         Number=587
         IsHold=FALSE
         Line1="Включ."
@@ -35812,7 +35812,7 @@
         Line2="разрешен"
       }
       [VVV_Text]{
-        R="602,452,635,458"
+        R="602,452,632,457"
         Number=5585
         IsHold=FALSE
         Line1="ВПИС ИС2"
@@ -36438,7 +36438,7 @@
         Line2="управлению НЛ2"
       }
       [VVV_Text]{
-        R="2263,494,2300,499"
+        R="2263,494,2310,501"
         Number=1157
         IsHold=TRUE
         Line1="Квитирование"
@@ -36512,7 +36512,7 @@
         }
       }
       [VVV_Text]{
-        R="1416,453,1449,465"
+        R="1416,453,1446,464"
         Number=6027
         IsHold=TRUE
         Line1="Есть"
@@ -36810,7 +36810,7 @@
         Line1="Рис.13  Схема контроля перемещения ворот отстойной зоны"
       }
       [VVV_Text]{
-        R="1628,640,1670,654"
+        R="1628,640,1662,652"
         Number=6085
         IsHold=TRUE
         Line1="Квитировать"
@@ -36878,7 +36878,7 @@
         CONST_NAME="R5UL10RDU"
       }
       [VVV_Text]{
-        R="1626,679,1678,700"
+        R="1626,679,1669,697"
         Number=6080
         IsHold=TRUE
         Line1="Блокировки"
@@ -39117,7 +39117,7 @@
         }
       }
       [VVV_Text]{
-        R="2026,156,2054,162"
+        R="2026,156,2052,161"
         Number=143
         IsHold=TRUE
         Line1="РБ пневм"
@@ -39337,7 +39337,7 @@
         Line1="РБ1+НИ"
       }
       [VVV_Text]{
-        R="2023,276,2052,282"
+        R="2023,276,2049,281"
         Number=284
         IsHold=TRUE
         Line1="ИС пневм"
@@ -39421,13 +39421,13 @@
         }
       }
       [VVV_Text]{
-        R="920,369,947,375"
+        R="920,369,946,374"
         Number=7165
         IsHold=FALSE
         Line1="Спуск НИ"
       }
       [VVV_Text]{
-        R="905,359,958,365"
+        R="905,359,955,364"
         Number=6634
         IsHold=FALSE
         Line1="Отключить ЭМ РБ"
@@ -39453,7 +39453,7 @@
         }
       }
       [VVV_Text]{
-        R="1022,418,1058,424"
+        R="1022,418,1057,423"
         Number=1261
         IsHold=FALSE
         Line1="НИ опущены"
@@ -40529,7 +40529,7 @@
         }
       }
       [VVV_Text]{
-        R="963,64,1000,82"
+        R="963,64,997,81"
         Number=7702
         IsHold=FALSE
         Line1="Сброс "
@@ -42814,13 +42814,13 @@
         Line3="НИ2"
       }
       [VVV_Text]{
-        R="968,7,975,13"
+        R="968,7,974,12"
         Number=2354
         IsHold=FALSE
         Line1="#1"
       }
       [VVV_Text]{
-        R="1591,22,1598,28"
+        R="1591,22,1597,27"
         Number=2357
         IsHold=TRUE
         Line1="#2"
@@ -42832,7 +42832,7 @@
         Line1="#3"
       }
       [VVV_Text]{
-        R="2213,431,2219,436"
+        R="2213,431,2221,438"
         Number=2359
         IsHold=TRUE
         Line1="#4"
@@ -42868,7 +42868,7 @@
         Line1="#9"
       }
       [VVV_Text]{
-        R="965,450,975,456"
+        R="965,450,974,455"
         Number=2742
         IsHold=FALSE
         Line1="#10"
@@ -42880,7 +42880,7 @@
         Line1="#11"
       }
       [VVV_Text]{
-        R="2257,448,2266,453"
+        R="2257,448,2269,455"
         Number=2746
         IsHold=FALSE
         Line1="#12"
@@ -42928,7 +42928,7 @@
         Line1="#19"
       }
       [VVV_Text]{
-        R="2308,889,2317,894"
+        R="2308,889,2320,896"
         Number=3278
         IsHold=FALSE
         Line1="#20"
@@ -43349,7 +43349,7 @@
         ABBRV="RS"
       }
       [VVV_Text]{
-        R="2363,162,2387,174"
+        R="2363,162,2394,176"
         Number=8003
         IsHold=FALSE
         Line1="Режим"
@@ -43417,7 +43417,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="2329,206,2373,218"
+        R="2329,206,2382,220"
         Number=8022
         IsHold=TRUE
         Line1="СТОП в режиме"
@@ -44669,7 +44669,7 @@
         }
       }
       [VVV_Text]{
-        R="740,451,788,469"
+        R="740,451,783,467"
         Number=8500
         IsHold=FALSE
         Line1="Завершен"
@@ -44684,7 +44684,7 @@
         ABBRV="RS"
       }
       [VVV_Text]{
-        R="883,457,930,463"
+        R="883,457,929,462"
         Number=8551
         IsHold=FALSE
         Line1="На спуск НИ, РБ"
@@ -44696,7 +44696,7 @@
         Line1="Стоп"
       }
       [VVV_Text]{
-        R="1057,565,1084,571"
+        R="1057,565,1083,571"
         Number=8564
         IsHold=FALSE
         Line1="НИ на НУ"
@@ -44739,7 +44739,7 @@
         Line1="#18"
       }
       [VVV_Text]{
-        R="817,449,833,455"
+        R="817,449,832,454"
         Number=8641
         IsHold=FALSE
         Line1="ПУСК"
@@ -46964,7 +46964,7 @@
         Line2="НУ РБ2-СС"
       }
       [VVV_Text]{
-        R="1004,164,1041,182"
+        R="1004,164,1038,181"
         Number=7073
         IsHold=FALSE
         Line1="Сброс "
@@ -46998,7 +46998,7 @@
         }
       }
       [VVV_Text]{
-        R="1006,198,1043,217"
+        R="1006,198,1040,215"
         Number=8145
         IsHold=FALSE
         Line1="Сброс "
@@ -47019,7 +47019,7 @@
         }
       }
       [VVV_Text]{
-        R="1010,231,1047,250"
+        R="1010,231,1044,248"
         Number=8236
         IsHold=FALSE
         Line1="Сброс "
@@ -47040,7 +47040,7 @@
         }
       }
       [VVV_Text]{
-        R="1009,263,1046,282"
+        R="1009,263,1043,280"
         Number=8448
         IsHold=FALSE
         Line1="Сброс "
@@ -47626,7 +47626,7 @@
         }
       }
       [VVV_Text]{
-        R="1312,378,1346,390"
+        R="1312,378,1342,389"
         Number=9079
         IsHold=FALSE
         Line1="Без работы"
@@ -49792,7 +49792,7 @@
         Line2="НУ НИ2"
       }
       [VVV_Text]{
-        R="983,483,1010,489"
+        R="983,483,1008,488"
         Number=4215
         IsHold=FALSE
         Line1="РБ на НУ"
@@ -50183,7 +50183,7 @@
         }
       }
       [VVV_Text]{
-        R="1530,251,1563,270"
+        R="1530,251,1560,268"
         Number=8366
         IsHold=TRUE
         Line1="Конец"
@@ -50231,7 +50231,7 @@
         }
       }
       [VVV_Text]{
-        R="1421,274,1454,293"
+        R="1421,274,1451,291"
         Number=8407
         IsHold=TRUE
         Line1="Конец"
@@ -51526,7 +51526,7 @@
         Line1="Контроль  I-II УР. РАД  "
       }
       [VVV_Text]{
-        R="1595,225,1711,237"
+        R="1595,225,1705,236"
         Number=2467
         IsHold=TRUE
         Line1="соорудить проверку АС 1 УР и АС 2 УР"
@@ -58017,21 +58017,21 @@
         Line2="управлению БЗ2"
       }
       [VVV_Text]{
-        R="2373,603,2398,614"
+        R="2373,603,2403,617"
         Number=518
         IsHold=TRUE
         Line1="Закрыть"
         Line2="БЗ1, БЗ2"
       }
       [VVV_Text]{
-        R="2172,603,2193,614"
+        R="2172,603,2198,617"
         Number=514
         IsHold=TRUE
         Line1="Подъём"
         Line2="БЗ1,2"
       }
       [VVV_Text]{
-        R="2285,527,2308,544"
+        R="2285,527,2313,548"
         Number=257
         IsHold=TRUE
         Line1="Блокир. "
@@ -58039,7 +58039,7 @@
         Line3="тия БЗ2"
       }
       [VVV_Text]{
-        R="2256,530,2279,547"
+        R="2256,530,2284,551"
         Number=272
         IsHold=TRUE
         Line1="Блокир. "
@@ -58047,35 +58047,35 @@
         Line3="тия БЗ1"
       }
       [VVV_Text]{
-        R="2116,537,2153,548"
+        R="2116,537,2154,549"
         Number=396
         IsHold=TRUE
         Line1="Блокировки "
         Line2="закрытия БЗ1"
       }
       [VVV_Text]{
-        R="2417,534,2451,545"
+        R="2417,534,2458,548"
         Number=398
         IsHold=TRUE
         Line1="Блокировки "
         Line2="закытия БЗ2"
       }
       [VVV_Text]{
-        R="1443,547,1467,559"
+        R="1443,547,1464,558"
         Number=716
         IsHold=TRUE
         Line1="Тележка"
         Line2="назад"
       }
       [VVV_Text]{
-        R="1399,546,1432,558"
+        R="1399,546,1428,557"
         Number=741
         IsHold=TRUE
         Line1="Тележка"
         Line2="к образцам"
       }
       [VVV_Text]{
-        R="1382,455,1403,467"
+        R="1382,455,1402,466"
         Number=736
         IsHold=TRUE
         Line1="блокир."
@@ -58096,7 +58096,7 @@
         ABBRV="OR2"
       }
       [VVV_Text]{
-        R="1459,453,1480,465"
+        R="1459,453,1479,464"
         Number=904
         IsHold=TRUE
         Line1="блокир."
@@ -58956,7 +58956,7 @@
         }
       }
       [VVV_Text]{
-        R="2709,277,2744,288"
+        R="2709,277,2752,291"
         Number=5269
         IsHold=FALSE
         Line1="РУ не готова"
@@ -59775,7 +59775,7 @@
         }
       }
       [VVV_Text]{
-        R="2651,763,2678,780"
+        R="2651,763,2686,784"
         Number=1265
         IsHold=TRUE
         Line1="ОРР не в"
@@ -60035,7 +60035,7 @@
         }
       }
       [VVV_Text]{
-        R="2752,817,2787,822"
+        R="2752,817,2794,824"
         Number=1482
         IsHold=TRUE
         Line1="Открыть БЗ1"
@@ -60257,7 +60257,7 @@
         }
       }
       [VVV_Text]{
-        R="964,91,1001,109"
+        R="964,91,998,108"
         Number=304
         IsHold=FALSE
         Line1="Сброс "
@@ -60286,7 +60286,7 @@
         Line3="магнитов ББ"
       }
       [VVV_Text]{
-        R="911,335,964,341"
+        R="911,335,961,340"
         Number=336
         IsHold=FALSE
         Line1="Отключить ЭМ ББ"
@@ -61206,7 +61206,7 @@
         }
       }
       [VVV_Text]{
-        R="2145,90,2185,109"
+        R="2145,90,2183,107"
         Number=5804
         IsHold=FALSE
         Line1="Приход на "
@@ -61256,7 +61256,7 @@
         Line3="не у образцов"
       }
       [VVV_Text]{
-        R="2088,61,2127,67"
+        R="2088,61,2124,66"
         Number=5828
         IsHold=FALSE
         Line1="не в обмене(("
@@ -62338,7 +62338,7 @@
         Line1="Стр.8 Формирование блокировок ББ1"
       }
       [VVV_Text]{
-        R="266,169,333,175"
+        R="266,169,327,175"
         Number=6004
         IsHold=TRUE
         Line1="Стр.9 Программа 200с"
@@ -62370,7 +62370,7 @@
         }
       }
       [VVV_Text]{
-        R="261,193,343,199"
+        R="261,193,337,199"
         Number=6014
         IsHold=TRUE
         Line1="Стр.10 Программа 20 минут"
@@ -62389,7 +62389,7 @@
         }
       }
       [VVV_Text]{
-        R="465,203,660,209"
+        R="465,203,645,208"
         Number=6020
         IsHold=TRUE
         Line1="Стр.11 Управление тележкой реактора и воротами отстойной зоны"
@@ -62408,7 +62408,7 @@
         }
       }
       [VVV_Text]{
-        R="463,162,617,168"
+        R="463,162,608,167"
         Number=6032
         IsHold=TRUE
         Line1="Стр.12 Управление биологической защитой БЗ1, БЗ2"
@@ -62427,7 +62427,7 @@
         }
       }
       [VVV_Text]{
-        R="465,182,589,188"
+        R="465,182,581,187"
         Number=6046
         IsHold=TRUE
         Line1="Стр.13 Блокировки перемещения БЗ1,БЗ2"
@@ -62503,7 +62503,7 @@
         }
       }
       [VVV_Text]{
-        R="261,90,398,102"
+        R="261,90,390,102"
         Number=6083
         IsHold=TRUE
         Line1="Рис.17  ПУСК, РАБОТА в режимах калибровка,"
@@ -62523,7 +62523,7 @@
         }
       }
       [VVV_Text]{
-        R="465,224,615,230"
+        R="465,224,605,229"
         Number=6104
         IsHold=TRUE
         Line1="Стр.18 Блокировки перемещения тележки реактора"
@@ -62548,7 +62548,7 @@
         }
       }
       [VVV_Text]{
-        R="463,122,635,128"
+        R="463,122,627,127"
         Number=6111
         IsHold=TRUE
         Line1=" Стр.19 Перемещение тележки из БЗ к ОБРАЗЦАМ и назад"
@@ -62567,7 +62567,7 @@
         }
       }
       [VVV_Text]{
-        R="466,138,585,150"
+        R="466,138,578,149"
         Number=6122
         IsHold=TRUE
         Line1="Стр.20  Схема управления нейтронными "
@@ -62663,7 +62663,7 @@
         }
       }
       [VVV_Text]{
-        R="264,106,406,118"
+        R="264,106,397,118"
         Number=6165
         IsHold=TRUE
         Line1="Стр.25 СПУСК, РАБОТА в режимах калибровка, "
@@ -62683,7 +62683,7 @@
         }
       }
       [VVV_Text]{
-        R="260,25,408,37"
+        R="260,25,402,37"
         Number=6173
         IsHold=TRUE
         Line1="Стр.26 Одновременный спуск по АЗ или сбросу ББ"
@@ -62703,7 +62703,7 @@
         }
       }
       [VVV_Text]{
-        R="261,8,377,14"
+        R="261,8,370,14"
         Number=6178
         IsHold=TRUE
         Line1="Стр.27 Управление перемещением АЗ2"
@@ -62722,7 +62722,7 @@
         }
       }
       [VVV_Text]{
-        R="262,308,381,327"
+        R="262,308,375,326"
         Number=6185
         IsHold=TRUE
         Line1="Стр.28  Схема управления нейтронными "
@@ -62819,7 +62819,7 @@
         }
       }
       [VVV_Text]{
-        R="263,212,371,218"
+        R="263,212,364,218"
         Number=6217
         IsHold=TRUE
         Line1="Стр.33 Запуск проверок схем сброса"
@@ -62844,7 +62844,7 @@
         }
       }
       [VVV_Text]{
-        R="263,231,383,243"
+        R="263,231,376,243"
         Number=6224
         IsHold=TRUE
         Line1="Стр.34 Алгоритмы проверки схем сброса"
@@ -62864,7 +62864,7 @@
         }
       }
       [VVV_Text]{
-        R="261,67,377,86"
+        R="261,67,372,85"
         Number=6230
         IsHold=TRUE
         Line1="Стр.35 Контроль заданных координат и "
@@ -62885,7 +62885,7 @@
         }
       }
       [VVV_Text]{
-        R="263,49,379,55"
+        R="263,49,373,55"
         Number=6235
         IsHold=TRUE
         Line1="Стр.36 Управление перемещением ДС2"
@@ -62904,7 +62904,7 @@
         }
       }
       [VVV_Text]{
-        R="467,71,635,77"
+        R="467,71,627,76"
         Number=6242
         IsHold=TRUE
         Line1="Стр.37 Режим "ПРОВЕРКА" НИ ДС1,2, РБ мех, РБ пневм"
@@ -62929,7 +62929,7 @@
         }
       }
       [VVV_Text]{
-        R="467,92,628,98"
+        R="467,92,618,97"
         Number=6248
         IsHold=TRUE
         Line1="Стр.38 Режим "ПРОВЕРКА" РБ+НИ ИС мех, ИС пневм"
@@ -62942,7 +62942,7 @@
         Line2="             разрешение режима ПРОВЕРКА  "
       }
       [VVV_Text]{
-        R="467,29,593,41"
+        R="467,29,586,40"
         Number=6278
         IsHold=TRUE
         Line1="Стр.39 Режим ПРОВЕРКА ББ мех, МДЗ1,2"
@@ -62968,7 +62968,7 @@
         Line1=""
       }
       [VVV_Text]{
-        R="467,48,622,60"
+        R="467,48,611,59"
         Number=6288
         IsHold=TRUE
         Line1="Стр.40 Анализ завершения операции ИС-пневматика"
@@ -62988,7 +62988,7 @@
         }
       }
       [VVV_Text]{
-        R="265,250,428,256"
+        R="265,250,417,255"
         Number=6301
         IsHold=TRUE
         Line1="Стр.41 Проверка ИНИ и запуск системы инициирования"
@@ -63007,7 +63007,7 @@
         }
       }
       [VVV_Text]{
-        R="266,266,388,278"
+        R="266,266,381,278"
         Number=6306
         IsHold=TRUE
         Line1="Рис.42 Проверка задержки 1.5 от ВУ РБ и"
@@ -63033,7 +63033,7 @@
         }
       }
       [VVV_Text]{
-        R="265,131,437,137"
+        R="265,131,427,136"
         Number=6314
         IsHold=TRUE
         Line1="Стр.43 Сброс ББ, Сброс РБ, отключение магнитов РБ, ББ "
@@ -63052,7 +63052,7 @@
         }
       }
       [VVV_Text]{
-        R="264,148,377,160"
+        R="264,148,371,160"
         Number=6321
         IsHold=TRUE
         Line1="Стр.44 Управление подъёмом РБ, ИС "
@@ -63072,7 +63072,7 @@
         }
       }
       [VVV_Text]{
-        R="262,290,416,302"
+        R="262,290,409,302"
         Number=6326
         IsHold=TRUE
         Line1="Стр.45 Схема управления нейтронными источниками"
@@ -63092,7 +63092,7 @@
         }
       }
       [VVV_Text]{
-        R="261,330,429,336"
+        R="261,330,419,335"
         Number=6331
         IsHold=TRUE
         Line1="Стр.46 Схема контроля перемещения гомогенных дверей"
@@ -64428,7 +64428,7 @@
         }
       }
       [VVV_Text]{
-        R="2569,128,2593,134"
+        R="2569,128,2600,135"
         Number=7237
         IsHold=FALSE
         Line1="проверка"
@@ -64455,7 +64455,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="2506,313,2538,330"
+        R="2506,313,2545,334"
         Number=4132
         IsHold=FALSE
         Line1="ПУСК в"
@@ -64463,7 +64463,7 @@
         Line3="ПРОВЕРКА"
       }
       [VVV_Text]{
-        R="2440,288,2472,305"
+        R="2440,288,2479,309"
         Number=7199
         IsHold=FALSE
         Line1="ПУСК не в"
@@ -64485,7 +64485,7 @@
         ABBRV="AND2"
       }
       [VVV_Text]{
-        R="2575,202,2607,220"
+        R="2575,202,2614,223"
         Number=7309
         IsHold=FALSE
         Line1="СПУСК в"
@@ -64493,7 +64493,7 @@
         Line3="ПРОВЕРКА"
       }
       [VVV_Text]{
-        R="2539,228,2572,246"
+        R="2539,228,2578,249"
         Number=7312
         IsHold=FALSE
         Line1="СПУСК не в"
@@ -64697,7 +64697,7 @@
         }
       }
       [VVV_Text]{
-        R="1401,342,1427,354"
+        R="1401,342,1426,353"
         Number=7115
         IsHold=FALSE
         Line1="едем"
@@ -64724,7 +64724,7 @@
         ABBRV="AND4"
       }
       [VVV_Text]{
-        R="1361,376,1388,388"
+        R="1361,376,1386,387"
         Number=7472
         IsHold=FALSE
         Line1="не режим"
@@ -65358,7 +65358,7 @@
         Line1="стр.47 Импульсное регулирование мощности в статическом режиме"
       }
       [VVV_Text]{
-        R="465,239,595,251"
+        R="465,239,589,250"
         Number=1984
         IsHold=FALSE
         Line1="стр.47 Импульсное регулирование мощности"
@@ -65846,7 +65846,7 @@
         ABBRV="FSUMO"
       }
       [VVV_Text]{
-        R="1786,30,1814,42"
+        R="1786,30,1813,41"
         Number=8430
         IsHold=FALSE
         Line1="Заданная"
@@ -65880,7 +65880,7 @@
         }
       }
       [VVV_Text]{
-        R="1844,160,1898,166"
+        R="1844,160,1897,165"
         Number=8514
         IsHold=FALSE
         Line1="Текущая мощность"
@@ -180375,4 +180375,4 @@
     }
   }
 }
-169229180
+169191406
