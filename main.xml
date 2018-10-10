@@ -10,6 +10,7 @@
     <subs name="Baz2"   scheme="D:/md/pti/pr/Baz2/scheme/Baz2.tpr"     id="7" file="Baz2fp"    description="Baz2"       main="192.168.10.54" second="192.168.10.154" path="d:/md/pti/pr/Baz2"   step="20" status="ok" result="d:/md/pti" />
     <subs name="AKNP4"  scheme="D:/md/pti/pr/AKNP4/scheme/AKNP4.tpr"   id="8" file="AKNP4fp"   description="AKNP4_BAZ2" main="192.168.10.55" second="192.168.10.155" path="d:/md/pti/pr/AKNP4"  step="5"  status="ok" result="d:/md/pti" />
     <subs name="RPU"    scheme="D:/md/pti/pr/RPU/scheme/RPU.tpr"       id="9" file="RPUfp"     description="RPU"        main="192.168.10.31" second="192.168.10.131" path="d:/md/pti/pr/RPU"    step="5"  status="ok" result="d:/md/pti" />
+    <subs name="AKNP2"  scheme="D:/md/pti/pr/AKNP2/scheme/AKNP2.tpr"   id="10" file="AKNP2fp"   description="AKNP2"     main="192.168.10.57" second="192.168.10.157" path="d:/md/pti/pr/AKNP2"  step="5"  status="ok" result="d:/md/pti" />
 
 <!-- encoder -->
     <!-- <subs name="DUe" scheme="D:/md/pti/pr/DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUe" step="20" status="ok" result="d:/md/pti" /> -->

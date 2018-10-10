@@ -46,4 +46,10 @@ RPU/scheme/*.bin
 RPU/scheme/*.edf
 RPU/scheme/*.c
 RPU/scheme/*.h
+AKNP2/scheme/*.bak*
+AKNP2/scheme/*.xml
+AKNP2/scheme/*.bin
+AKNP2/scheme/*.edf
+AKNP2/scheme/*.c
+AKNP2/scheme/*.h
 *.rar
