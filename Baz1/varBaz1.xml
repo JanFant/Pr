@@ -160,50 +160,57 @@
 <var  name="R0VN64LZ1" description="(R0VN64LZ1) ПС по мощности канал 4" format="1"></var>
 <var  name="R0VN65LZ1" description="(R0VN65LZ1) ПС по периоду разгона канал 1" format="1"></var>
 
-<var  name="fEM_R7UI73RZZ" description="(R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
-<var  name="fEM_A1UL11RZZ" description="(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек" format="8"></var>
-<var  name="fEM_A1UL12RZZ" description="(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)" format="8"></var>
-<var  name="fEM_R0UR04RZZ" description="(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)" format="8"></var>
-<var  name="fEM_R0UR01RZZ" description="(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
-<var  name="fEM_A2UP83RZZ" description="(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP52RZZ" description="(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)" format="8"></var>
-<var  name="fEM_A2UP82RZZ" description="(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP84RZZ" description="(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP81RZZ" description="(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP51RZZ" description="(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP42RZZ" description="(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)" format="8"></var>
-<var  name="fEM_A2UP41RZZ" description="(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ" format="8"></var>
-<var  name="fEM_R0UT61RZZ" description="(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ" format="8"></var>
-<var  name="fEM_R0UT62RZZ" description="(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)" format="8"></var>
-<var  name="fEM_R0UT71RZZ" description="(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ" format="8"></var>
-<var  name="fEM_R0UT72RZZ" description="(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)" format="8"></var>
-<var  name="fEM_A2UP04RZZ" description="(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
-<var  name="fEM_A2UP03RZZ" description="(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
-<var  name="fEM_R0UT01RZZ" description="(R0UT01RZZ) Нижний предел шкалы датчика температуры" format="8"></var>
 <var  name="fEM_R0UT02RZZ" description="(R0UT02RZZ) Верхний предел шкалы датчика температуры" format="8"></var>
+<var  name="fEM_R0UT01RZZ" description="(R0UT01RZZ) Нижний предел шкалы датчика температуры" format="8"></var>
+<var  name="fEM_A2UP03RZZ" description="(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
+<var  name="fEM_A2UP04RZZ" description="(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
+<var  name="fEM_R0UT72RZZ" description="(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)" format="8"></var>
+<var  name="fEM_R0UT71RZZ" description="(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ" format="8"></var>
+<var  name="fEM_R0UT62RZZ" description="(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)" format="8"></var>
+<var  name="fEM_R0UT61RZZ" description="(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ" format="8"></var>
+<var  name="fEM_A2UP41RZZ" description="(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ" format="8"></var>
+<var  name="fEM_A2UP42RZZ" description="(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_A2UP51RZZ" description="(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_A2UP81RZZ" description="(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_A2UP84RZZ" description="(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_A2UP82RZZ" description="(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_A2UP52RZZ" description="(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)" format="8"></var>
+<var  name="fEM_A2UP83RZZ" description="(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var  name="fEM_R0UR01RZZ" description="(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
+<var  name="fEM_R0UR04RZZ" description="(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)" format="8"></var>
+<var  name="fEM_A1UL12RZZ" description="(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)" format="8"></var>
+<var  name="fEM_A1UL11RZZ" description="(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек" format="8"></var>
+<var  name="fEM_R7UI73RZZ" description="(R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m249_i_var" description="(internal1_m249_i_var) " format="8"></var>
-<var  name="internal1_m257_i_var" description="(internal1_m257_i_var) " format="8"></var>
-<var  name="internal1_m320_i_var" description="(internal1_m320_i_var) " format="8"></var>
-<var  name="internal1_m216_i_var" description="(internal1_m216_i_var) " format="8"></var>
-<var  name="internal1_m215_i_var" description="(internal1_m215_i_var) " format="8"></var>
-<var  name="internal1_m213_i_var" description="(internal1_m213_i_var) " format="8"></var>
-<var  name="internal1_m211_i_var" description="(internal1_m211_i_var) " format="8"></var>
+<var  name="internal1_m253_tx" description="(internal1_m253_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m253_y0" description="(internal1_m253_y0) y0" format="18"></var>
+<var  name="internal1_m261_tx" description="(internal1_m261_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m261_y0" description="(internal1_m261_y0) y0" format="18"></var>
+<var  name="internal1_m324_tx" description="(internal1_m324_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m324_y0" description="(internal1_m324_y0) y0" format="18"></var>
+<var  name="internal1_m220_tx" description="(internal1_m220_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m220_y0" description="(internal1_m220_y0) y0" format="18"></var>
+<var  name="internal1_m219_tx" description="(internal1_m219_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m219_y0" description="(internal1_m219_y0) y0" format="18"></var>
+<var  name="internal1_m217_tx" description="(internal1_m217_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m217_y0" description="(internal1_m217_y0) y0" format="18"></var>
+<var  name="internal1_m215_tx" description="(internal1_m215_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m215_y0" description="(internal1_m215_y0) y0" format="18"></var>
 <var  name="internal1_m33_tx" description="(internal1_m33_tx) tx - внутренний параметр" format="3"></var>
+<var  name="internal1_m150_y0" description="(internal1_m150_y0) y0" format="8"></var>
 <var  name="internal1_m148_y0" description="(internal1_m148_y0) y0" format="8"></var>
-<var  name="internal1_m146_y0" description="(internal1_m146_y0) y0" format="8"></var>
+<var  name="internal1_m97_y0" description="(internal1_m97_y0) y0" format="8"></var>
 <var  name="internal1_m95_y0" description="(internal1_m95_y0) y0" format="8"></var>
-<var  name="internal1_m93_y0" description="(internal1_m93_y0) y0" format="8"></var>
-<var  name="internal1_m159_y1" description="(internal1_m159_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m170_y1" description="(internal1_m170_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m313_q0" description="(internal1_m313_q0) q0 - внутренний параметр" format="5"></var>
-<var  name="internal1_m135_y0" description="(internal1_m135_y0) state" format="1"></var>
-<var  name="internal1_m128_y0" description="(internal1_m128_y0) state" format="1"></var>
-<var  name="internal1_m111_y1" description="(internal1_m111_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m121_y1" description="(internal1_m121_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m100_y1" description="(internal1_m100_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m161_y1" description="(internal1_m161_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m172_y1" description="(internal1_m172_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m317_q0" description="(internal1_m317_q0) q0 - внутренний параметр" format="5"></var>
+<var  name="internal1_m137_y0" description="(internal1_m137_y0) state" format="1"></var>
+<var  name="internal1_m130_y0" description="(internal1_m130_y0) state" format="1"></var>
 <var  name="internal1_m109_y1" description="(internal1_m109_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m156_y1" description="(internal1_m156_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m168_y1" description="(internal1_m168_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m123_y1" description="(internal1_m123_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m102_y1" description="(internal1_m102_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m112_y1" description="(internal1_m112_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m158_y1" description="(internal1_m158_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m170_y1" description="(internal1_m170_y1) y1 - внутренний параметр" format="1"></var>
 </vars>

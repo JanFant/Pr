@@ -332,361 +332,361 @@
 <var  name="B3AD34LDU" description="(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)" format="1"></var>
 <var  name="A3IS35LDU" description="(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
 
-<var  name="iEM_TERR7SI74RIM" description="(TERR7SI74RIM) Искажение: Радиация в реакторном зале" format="3"></var>
-<var  name="iEM_TERR6IS68LIM" description="(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2" format="3"></var>
-<var  name="iEM_TERR0VP82LIM" description="(TERR0VP82LIM) Искажение: Давление  в СИСТЕМЕ-2 в норме" format="3"></var>
-<var  name="iEM_TERR0VP81LIM" description="(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ в норме" format="3"></var>
-<var  name="iEM_TERB0VP81LIM" description="(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме" format="3"></var>
-<var  name="iEM_TERA0VP81LIM" description="(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме" format="3"></var>
-<var  name="iEM_TERR6IS67LIM" description="(TERR6IS67LIM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2" format="3"></var>
-<var  name="iEM_TERR6IS66LIM" description="(TERR6IS66LIM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1" format="3"></var>
-<var  name="iEM_TERR6IS62LIM" description="(TERR6IS62LIM) Искажение Исправность ВИП ССДИ-39 1канал" format="3"></var>
-<var  name="iEM_TERA3SP02RIM" description="(TERA3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1" format="3"></var>
-<var  name="iEM_TERA3SS22LIM" description="(TERA3SS22LIM) Искажение: Приход на НУП ИС1" format="3"></var>
-<var  name="iEM_TERB3SS22LIM" description="(TERB3SS22LIM) Искажение: Приход на НУП ИС2" format="3"></var>
-<var  name="iEM_TERR6IS64LIM" description="(TERR6IS64LIM) Исправность ВИП ССДИ-35 1канал" format="3"></var>
-<var  name="iEM_TERB3SS11LIM" description="(TERB3SS11LIM) Искажение: Приход на ВУ ИС2" format="3"></var>
-<var  name="iEM_TERA3SS11LIM" description="(TERA3SS11LIM) Искажение: Приход на ВУ ИС1" format="3"></var>
-<var  name="iEM_TERB3SC01RIM" description="(TERB3SC01RIM) Искажение: Координата штока ИС2" format="3"></var>
-<var  name="iEM_TERB3SS33LIM" description="(TERB3SS33LIM) скажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="3"></var>
-<var  name="iEM_TERB3SS31LIM" description="(TERB3SS31LIM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)" format="3"></var>
-<var  name="iEM_TERA3SS31LIM" description="(TERA3SS31LIM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)" format="3"></var>
-<var  name="iEM_TERA3SS33LIM" description="(TERA3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)" format="3"></var>
-<var  name="iEM_TERA3SS21LIM" description="(TERA3SS21LIM) Искажение: Приход на НУ ИС1" format="3"></var>
-<var  name="iEM_TERA2SS33LIM" description="(TERA2SS33LIM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)" format="3"></var>
-<var  name="iEM_TERB6SS21LIM" description="(TERB6SS21LIM) Искажение: Приход на НУ БЗ2" format="3"></var>
-<var  name="iEM_TERR5SS21LIM" description="(TERR5SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
-<var  name="iEM_TERB4SS21LIM" description="(TERB4SS21LIM) Искажение: Приход на НУ НИ2" format="3"></var>
-<var  name="iEM_TERA4VP82LIM" description="(TERA4VP82LIM) Искажение Давление ПОДЪЁМ НИ в норме" format="3"></var>
-<var  name="iEM_TERR2SS21LIM" description="(TERR2SS21LIM) Искажение: Приход на НУ МДЗ2" format="3"></var>
-<var  name="iEM_TERR2SS11LIM" description="(TERR2SS11LIM) Искажение: Приход на ВУ МДЗ2" format="3"></var>
-<var  name="iEM_TERR1SS21LIM" description="(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1" format="3"></var>
-<var  name="iEM_TERR1SS11LIM" description="(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1" format="3"></var>
-<var  name="iEM_TERA4SS11LIM" description="(TERA4SS11LIM) Искажение: Приход на ВУ НИ1" format="3"></var>
-<var  name="iEM_TERR3SS22LIM" description="(TERR3SS22LIM) Искажение: Приход на НУ гомогенных дверей-2" format="3"></var>
-<var  name="iEM_TERR3SS12LIM" description="(TERR3SS12LIM) Искажение: Приход на ВУ гомогенных дверей-2" format="3"></var>
-<var  name="iEM_TERR5SS11LIM" description="(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны" format="3"></var>
-<var  name="iEM_TERR3SS21LIM" description="(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1" format="3"></var>
-<var  name="iEM_TERB2SC01RIM" description="(TERB2SC01RIM) Искажение: Координата штока РБ2" format="3"></var>
-<var  name="iEM_TERR3SS11LIM" description="(TERR3SS11LIM) Искажение: Приход на ВУ гомогенных дверей-1" format="3"></var>
-<var  name="iEM_TERB2SS21LIM" description="(TERB2SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
-<var  name="iEM_TERB2SS12LIM" description="(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен" format="3"></var>
-<var  name="iEM_TERB2SS11LIM" description="(TERB2SS11LIM) Искажение: Приход на ВУ РБ2" format="3"></var>
-<var  name="iEM_TERA9SS11LIM" description="(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1" format="3"></var>
-<var  name="iEM_TERA5SS11LIM" description="(TERA5SS11LIM) Искажение: Приход на ВУ НЛ1" format="3"></var>
-<var  name="iEM_TERB5SS11LIM" description="(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2" format="3"></var>
-<var  name="iEM_TERA5SS21LIM" description="(TERA5SS21LIM) Искажение: Приход на НУ НЛ1" format="3"></var>
-<var  name="fEM_B1MC01RC1" description="(B1MC01RC1) Заданная координата ББ2 от ИС" format="8"></var>
-<var  name="iEM_TERB1IE04LDU" description="(TERB1IE04LDU) Искажение Движение ББ2 назад (от БУШД)" format="3"></var>
-<var  name="iEM_TERB1IE03LDU" description="(TERB1IE03LDU) Искажение Движение ББ2 вперёд (от БУШД)" format="3"></var>
-<var  name="fEM_A1MC01RC1" description="(A1MC01RC1) Заданная координата  ББ1 от ИС" format="8"></var>
-<var  name="iEM_TERA1IE03LDU" description="(TERA1IE03LDU) Искажение Движение ББ1 вперёд (от БУШД)" format="3"></var>
-<var  name="iEM_TERA1IE04LDU" description="(TERA1IE04LDU) Искажение Движение ББ1 назад (от БУШД)" format="3"></var>
-<var  name="iEM_TERAZ2" description="(TERAZ2) Неисправности АЗ2" format="3"></var>
-<var  name="iEM_TERAZ1" description="(TERAZ1) Неисправности АЗ1" format="3"></var>
-<var  name="fEM_A3MV02RC1" description="(A3MV02RC1) Заданная скорость движения штока ИС1 от ИС" format="8"></var>
-<var  name="fEM_A3MC02RC1" description="(A3MC02RC1) Заданная координата штока ИС1 от ИС" format="8"></var>
-<var  name="iEM_TERIS1" description="(TERIS1) Неисправности  ИС1" format="3"></var>
-<var  name="fEM_B3MV02RC1" description="(B3MV02RC1) Заданная скорость движения штока ИС2 от ИС" format="8"></var>
-<var  name="fEM_B3MC02RC1" description="(B3MC02RC1) Заданная координата штока ИС2 от ИС" format="8"></var>
-<var  name="iEM_TERIS2" description="(TERIS2) Неисправности  ИС2" format="3"></var>
-<var  name="fEM_A2MV02RC1" description="(A2MV02RC1) Заданная скорость движения штока РБ1 от ИС" format="8"></var>
-<var  name="fEM_A2MC02RC1" description="(A2MC02RC1) Заданная координата штока РБ1 от ИС" format="8"></var>
-<var  name="iEM_TERRB1" description="(TERRB1) Неисправности  РБ1" format="3"></var>
-<var  name="fEM_B2MV02RC1" description="(B2MV02RC1) Заданная скорость движения штока РБ2 от ИС" format="8"></var>
-<var  name="fEM_B2MC02RC1" description="(B2MC02RC1) Заданная координата штока РБ2 от ИС" format="8"></var>
-<var  name="iEM_TERRB2" description="(TERRB2) Неисправности  РБ2" format="3"></var>
-<var  name="fEM_B1MV02RC1" description="(B1MV02RC1) Заданная скорость движения штока ББ2 от ИС" format="8"></var>
-<var  name="fEM_B1MC02RC1" description="(B1MC02RC1) Заданная координата штока ББ2 от ИС" format="8"></var>
-<var  name="iEM_TERA2SC01RIM" description="(TERA2SC01RIM) Искажение: Координата штока РБ1" format="3"></var>
-<var  name="iEM_TERA3VP81LIM" description="(TERA3VP81LIM) Искажение: Текущее давление СПУСК ИС  в норме" format="3"></var>
-<var  name="iEM_TERA3SC01RIM" description="(TERA3SC01RIM) Искажение: Координата штока ИС1" format="3"></var>
-<var  name="iEM_TERB3SP02RIM" description="(TERB3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2" format="3"></var>
-<var  name="iEM_TERB2SP01RIM" description="(TERB2SP01RIM) Искажение: Текущее давление СБРОС РБ2" format="3"></var>
-<var  name="iEM_TERA2SP01RIM" description="(TERA2SP01RIM) Искажение: Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="iEM_TERB0MT01RIM" description="(TERB0MT01RIM) Искажение: Текущая температура AЗ2" format="3"></var>
-<var  name="iEM_TERA0MT01RIM" description="(TERA0MT01RIM) Искажение: Текущая температура AЗ1" format="3"></var>
-<var  name="iEM_TERB3SS21LIM" description="(TERB3SS21LIM) Искажение: Приход на НУ ИС2" format="3"></var>
-<var  name="iEM_TERA2SS11LIM" description="(TERA2SS11LIM) Искажение: Приход на ВУ РБ1" format="3"></var>
-<var  name="iEM_TERA2VP82LIM" description="(TERA2VP82LIM) Искажение: Текущее давление на подъём РБ  в норме" format="3"></var>
-<var  name="iEM_TERR6SS21LIM" description="(TERR6SS21LIM) Искажение: Приход на НУ кран-балки" format="3"></var>
-<var  name="iEM_TERA2SS12LIM" description="(TERA2SS12LIM) Искажение: Магнит РБ1 зацеплен" format="3"></var>
-<var  name="iEM_TERA2SS21LIM" description="(TERA2SS21LIM) Искажение: Приход на НУ РБ1" format="3"></var>
-<var  name="iEM_TERA7MS31DIM" description="(TERA7MS31DIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)" format="3"></var>
-<var  name="fEM_B3MV01RC1" description="(B3MV01RC1) Заданная скорость движения ИС2 от ИС" format="8"></var>
-<var  name="fEM_B3MC01RC1" description="(B3MC01RC1) Заданная координата ИС2 от ИС" format="8"></var>
-<var  name="fEM_A3MV01RC1" description="(A3MV01RC1) Заданная скорость движения ИС1 от ИС" format="8"></var>
-<var  name="fEM_A3MC01RC1" description="(A3MC01RC1) Заданная координата ИС1 от ИС" format="8"></var>
-<var  name="fEM_B2MV01RC1" description="(B2MV01RC1) Заданная скорость движения  РБ2 от ИС" format="8"></var>
-<var  name="fEM_B2MC01RC1" description="(B2MC01RC1) Заданная координата РБ2 от ИС" format="8"></var>
-<var  name="fEM_B1MV01RC1" description="(B1MV01RC1) Заданная скорость движения ББ2 от ИС" format="8"></var>
-<var  name="lEM_R5AD10LC1" description="(R5AD10LC1) Открыть ворота отстойной зоны от ИС" format="1"></var>
-<var  name="lEM_R6AD10LC1" description="(R6AD10LC1) Выкатить кран-балку от ИС" format="1"></var>
-<var  name="lEM_R3AD21LC1" description="(R3AD21LC1) Гомогенные двери-2 закрыть от ИС" format="1"></var>
-<var  name="lEM_R3AD11LC1" description="(R3AD11LC1) Гомогенные двери-2 открыть от ИС" format="1"></var>
-<var  name="lEM_R3AD20LC1" description="(R3AD20LC1) Гомогенные двери-1 закрыть от ИС" format="1"></var>
-<var  name="lEM_R3AD10LC1" description="(R3AD10LC1) Гомогенные двери-1 открыть от ИС" format="1"></var>
-<var  name="iEM_TERR5AD20LDU" description="(TERR5AD20LDU) Искажение: Закрыть ворота отстойной зоны" format="3"></var>
-<var  name="iEM_TERR5AD10LDU" description="(TERR5AD10LDU) Искажение: Открыть ворота отстойной зоны" format="3"></var>
-<var  name="iEM_TERR3AD21LDU" description="(TERR3AD21LDU) Искажение: Гомогенные двери-2 закрыть" format="3"></var>
-<var  name="iEM_TERR3AD11LDU" description="(TERR3AD11LDU) Искажение: Гомогенные двери-2 открыть" format="3"></var>
-<var  name="iEM_TERR3AD20LDU" description="(TERR3AD20LDU) Искажение: Гомогенные двери-1 закрыть" format="3"></var>
-<var  name="iEM_TERR3AD10LDU" description="(TERR3AD10LDU) Искажение: Гомогенные двери-1 открыть" format="3"></var>
-<var  name="fEM_B6MV01RC1" description="(B6MV01RC1) Заданная скорость БЗ2 от ИС" format="8"></var>
-<var  name="fEM_B6MC01RC1" description="(B6MC01RC1) Заданная координата БЗ2 от ИС" format="8"></var>
-<var  name="iEM_TERBZ2" description="(TERBZ2) Неисправности БЗ2" format="3"></var>
-<var  name="fEM_A6MV01RC1" description="(A6MV01RC1) Заданная скорость БЗ1 от ИС" format="8"></var>
-<var  name="fEM_A6MC01RC1" description="(A6MC01RC1) Заданная координата БЗ1 от ИС" format="8"></var>
-<var  name="iEM_TERBZ1" description="(TERBZ1) Неисправности БЗ1" format="3"></var>
-<var  name="fEM_A8MV01RC1" description="(A8MV01RC1) Заданная скорость ДС2 от ИС" format="8"></var>
-<var  name="fEM_A8MC01RC1" description="(A8MC01RC1) Заданная координата ДС2 от ИС" format="8"></var>
-<var  name="iEM_TERDS2" description="(TERDS2) Неисправности ДС2 от ИС" format="3"></var>
-<var  name="fEM_B8MV01RC1" description="(B8MV01RC1) Заданная скорость АЗ2 от ИС" format="8"></var>
-<var  name="iEM_TERB1VP81LIM" description="(TERB1VP81LIM) Искажение: Текущее давление СБРОС ББ2  в норме" format="3"></var>
-<var  name="iEM_TERA1VP81LIM" description="(TERA1VP81LIM) Искажение: Текущее давление СБРОС ББ1  в норме" format="3"></var>
-<var  name="iEM_TERB2SS33LIM" description="(TERB2SS33LIM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)" format="3"></var>
-<var  name="fEM_R0UL03RSS" description="(R0UL03RSS) Предельное время ожидания роста потока (сек)" format="8"></var>
-<var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
-<var  name="fEM_A3UC08RIM" description="(A3UC08RIM) Зона срабатывания КВ ИС(мм)" format="8"></var>
-<var  name="fEM_A2UC08RIM" description="(A2UC08RIM) Зона срабатывания КВ  РБ мм" format="8"></var>
-<var  name="fEM_A1UC08RIM" description="(A1UC08RIM) Зона срабатывания КВ ББ(мм)" format="8"></var>
-<var  name="lEM_R8AD10LC1" description="(R8AD10LC1) Установить аварийный НИ от ИС" format="1"></var>
-<var  name="fEM_B5MV01RC1" description="(B5MV01RC1) Заданная скорость НЛ2 от ИС" format="8"></var>
-<var  name="fEM_B5MC01RC1" description="(B5MC01RC1) Заданная координата НЛ2 от ИС" format="8"></var>
-<var  name="iEM_TERNL2" description="(TERNL2) Неисправности НЛ2" format="3"></var>
-<var  name="fEM_A5MV01RC1" description="(A5MV01RC1) Заданная скорость НЛ1 от ИС" format="8"></var>
-<var  name="fEM_A5MC01RC1" description="(A5MC01RC1) Заданная координата НЛ1 от ИС" format="8"></var>
-<var  name="iEM_TERNL1" description="(TERNL1) Неисправности НЛ1" format="3"></var>
-<var  name="fEM_R1MV01RC1" description="(R1MV01RC1) Заданная скорость МДЗ1 от ИС" format="8"></var>
-<var  name="fEM_R1MC01RC1" description="(R1MC01RC1) Заданная координата МДЗ1 от ИС" format="8"></var>
-<var  name="iEM_TERMDZ1" description="(TERMDZ1) Неисправности МДЗ1" format="3"></var>
-<var  name="fEM_R2MV01RC1" description="(R2MV01RC1) Заданная скорость МДЗ2 от ИС" format="8"></var>
-<var  name="fEM_R2MC01RC1" description="(R2MC01RC1) Заданная координата МДЗ2 от ИС" format="8"></var>
-<var  name="iEM_TERMDZ2" description="(TERMDZ2) Неисправности МДЗ2" format="3"></var>
-<var  name="lEM_R5AD20LC1" description="(R5AD20LC1) Закрыть ворота отстойной зоны от ИС" format="1"></var>
-<var  name="iEM_TERA1SS11LIM" description="(TERA1SS11LIM) Искажение: Приход на НУ РБ2" format="3"></var>
-<var  name="iEM_TERA1SS21LIM" description="(TERA1SS21LIM) Искажение: Приход на НУ ББ1" format="3"></var>
-<var  name="iEM_TERB5SS21LIM" description="(TERB5SS21LIM) Искажение: Приход на НУ НЛ2" format="3"></var>
-<var  name="iEM_TERB9SS11LIM" description="(TERB9SS11LIM) Искажение: Приход на ВУ НИ ДС2" format="3"></var>
-<var  name="iEM_TERB9SS21LIM" description="(TERB9SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
-<var  name="iEM_TERA9SS21LIM" description="(TERA9SS21LIM) Искажение: Приход на НУ НИ ДС1" format="3"></var>
-<var  name="iEM_TERA8SS22LIM" description="(TERA8SS22LIM) Искажение: Приход на механический НУ ДС2" format="3"></var>
-<var  name="iEM_TERB8SS22LIM" description="(TERB8SS22LIM) Искажение: Приход на механический НУ АЗ2" format="3"></var>
-<var  name="iEM_TERA8SS12LIM" description="(TERA8SS12LIM) Искажение: Приход на механический ВУ ДС2" format="3"></var>
-<var  name="iEM_TERB8SS12LIM" description="(TERB8SS12LIM) Искажение: Приход на механический ВУ АЗ2" format="3"></var>
-<var  name="iEM_TERA8SC01RIM" description="(TERA8SC01RIM) Искажение: Координата ДС2" format="3"></var>
-<var  name="iEM_TERB8SC01RIM" description="(TERB8SC01RIM) Искажение: Координата АЗ2" format="3"></var>
-<var  name="iEM_TERR8SS11LIM" description="(TERR8SS11LIM) Искажение: Аварийный НИ установлен" format="3"></var>
-<var  name="iEM_TERR4SS22LIM" description="(TERR4SS22LIM) Искажение: Приход на механический НУ тележки" format="3"></var>
-<var  name="iEM_TERR4SS12LIM" description="(TERR4SS12LIM) Искажение: Приход на механический ВУ тележки" format="3"></var>
-<var  name="iEM_TERR4MS21LIM" description="(TERR4MS21LIM) Искажение: Приход на НУ тележки" format="3"></var>
-<var  name="iEM_TERR4SS11LIM" description="(TERR4SS11LIM) Искажение: Приход на ВУ тележки" format="3"></var>
-<var  name="iEM_TERB6SS11LIM" description="(TERB6SS11LIM) Искажение: Приход на ВУ БЗ2" format="3"></var>
-<var  name="iEM_TERA6SS21LIM" description="(TERA6SS21LIM) Искажение: Приход на НУ БЗ1" format="3"></var>
-<var  name="iEM_TERA6MS11LIM" description="(TERA6MS11LIM) Искажение: Приход на ВУ БЗ1" format="3"></var>
-<var  name="iEM_TERA4SS21LIM" description="(TERA4SS21LIM) Искажение: Приход на НУ НИ1" format="3"></var>
-<var  name="iEM_TERB4SS11LIM" description="(TERB4SS11LIM) Искажение: Приход на ВУ НИ2" format="3"></var>
-<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) аданная координата АЗ2 от ИС" format="8"></var>
-<var  name="iEM_TERMAZ2" description="(TERMAZ2) Неисправности АЗ2 от ИС" format="3"></var>
-<var  name="fEM_R4MV01RC1" description="(R4MV01RC1) Заданная скорость тележки от ИС" format="8"></var>
-<var  name="fEM_R4MC01RC1" description="(R4MC01RC1) Заданная координата тележки от ИС" format="8"></var>
-<var  name="iEM_TERTLG" description="(TERTLG) Неисправности  тележки от ИС" format="3"></var>
-<var  name="lEM_A0EE04LC1" description="(A0EE04LC1) Исправность АКНП2 от диагностики контроллера (От ИС)" format="1"></var>
-<var  name="iEM_TERR0IE21LIM" description="(TERR0IE21LIM) Искажение: Исправность ВИП 1,6 (№11) СНМ11 2канала" format="3"></var>
-<var  name="iEM_TERR0IE23LIM" description="(TERR0IE23LIM) Искажение: Исправность ВИП 0,5 (№13) КНК53М 2канала" format="3"></var>
-<var  name="lEM_A0EE03LC1" description="(A0EE03LC1) Исправность АКНП1 от диагностики контроллера (От ИС)" format="1"></var>
-<var  name="iEM_TERR0IE13LIM" description="(TERR0IE13LIM) Искажение: Исправность ВИП 0,5 (№10) КНК53М 1канала" format="3"></var>
-<var  name="iEM_TERR0IE11LIM" description="(TERR0IE11LIM) Искажение: Исправность ВИП 1,6 (№8) СНМ11 1канала" format="3"></var>
-<var  name="lEM_A0EE05LC1" description="(A0EE05LC1) Исправность АКНП3 от диагностики контроллера (От ИС)" format="1"></var>
-<var  name="iEM_TERR0IE31LIM" description="(TERR0IE31LIM) Искажение: Исправность ВИП 1,6 (№14) СНМ11 3канала" format="3"></var>
-<var  name="iEM_TERR0IE33LIM" description="(TERR0IE33LIM) Искажение:Исправность ВИП 0,5 (№16) КНК53М 3канала" format="3"></var>
-<var  name="lEM_A0EE06LC1" description="(A0EE06LC1) Исправность АКНП4 от диагностики контроллера (От ИС)" format="1"></var>
-<var  name="iEM_TERR0IE41LIM" description="(TERR0IE41LIM) Исправность ВИП 1,6 (№17) СНМ11 4канала" format="3"></var>
-<var  name="iEM_TERR0IE43LIM" description="(TERR0IE43LIM) Исправность ВИП 0,5 (№19) КНК53М 4канала" format="3"></var>
-<var  name="iEM_TERB1SS12LIM" description="(TERB1SS12LIM) Искажение: Магнит ББ2 зацеплен" format="3"></var>
-<var  name="iEM_TERB1MC01RIM" description="(TERB1MC01RIM) Искажение: Координата штока ББ2" format="3"></var>
-<var  name="iEM_TERB1SS11LIM" description="(TERB1SS11LIM) Искажение:Приход на ВУ ББ2" format="3"></var>
-<var  name="iEM_TERB1SS21LIM" description="(TERB1SS21LIM) Искажение: Приход на НУ ББ2" format="3"></var>
-<var  name="iEM_TERA1SS12LIM" description="(TERA1SS12LIM) Искажение: Магнит ББ1 зацеплен" format="3"></var>
-<var  name="iEM_TERA1SC01RIM" description="(TERA1SC01RIM) Искажение: Координата штока ББ1" format="3"></var>
-<var  name="fEM_R0UV87RDU" description="(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
-<var  name="fEM_A8UC03RDU" description="(A8UC03RDU) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера" format="8"></var>
-<var  name="fEM_R7UI74RIM" description="(R7UI74RIM) Верхняя граница измерения уровня радиации в зале" format="8"></var>
-<var  name="fEM_A3UC03RDU" description="(A3UC03RDU) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм" format="8"></var>
-<var  name="fEM_A3UP04RDU" description="(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
-<var  name="fEM_A3UP03RDU" description="(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
-<var  name="fEM_A2UC03RDU" description="(A2UC03RDU) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм" format="8"></var>
-<var  name="fEM_A2UP04RDU" description="(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ" format="8"></var>
-<var  name="fEM_A2UP03RDU" description="(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ" format="8"></var>
-<var  name="fEM_A1UC03RDU" description="(A1UC03RDU) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера" format="8"></var>
-<var  name="fEM_R0UT01RDU" description="(R0UT01RDU) Нижний предел шкалы датчика температуры" format="8"></var>
-<var  name="fEM_R0UT02RDU" description="(R0UT02RDU) Верхний предел шкалы датчика температуры" format="8"></var>
-<var  name="fEM_R0UR01RIM" description="(R0UR01RIM) Стартовая отрицательная реактивность" format="8"></var>
-<var  name="fEM_R0UR30RIM" description="(R0UR30RIM) Реактивность вносимая образцами (долл)" format="8"></var>
-<var  name="fEM_A0UN02RIM" description="(A0UN02RIM) Мощность источника нейтронов с АНИ" format="8"></var>
-<var  name="fEM_A2UR01RIM" description="(A2UR01RIM) Коэффициент-1 функции реактивности вносимой РБ (долл)" format="8"></var>
-<var  name="fEM_A2UR00RIM" description="(A2UR00RIM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)" format="8"></var>
-<var  name="fEM_R7UL01RIM" description="(R7UL01RIM) Постоянная времени изменения уровня радиации в зале" format="8"></var>
-<var  name="fEM_R7UI02RIM" description="(R7UI02RIM) Коэффициент усиления уровня радиации" format="8"></var>
-<var  name="fEM_R7UC19RIM" description="(R7UC19RIM) Y-координата СНМ-11 (11) см" format="8"></var>
-<var  name="fEM_R7UC10RIM" description="(R7UC10RIM) X-координата КНК53М R7IN13 см" format="8"></var>
-<var  name="fEM_A3UG01RDU" description="(A3UG01RDU) Расстояние включения масляного демпфера ИС" format="8"></var>
-<var  name="fEM_R7UY05RSS" description="(R7UY05RSS) Y-координата камеры R7IN22 (см)" format="8"></var>
-<var  name="fEM_R7UY04RSS" description="(R7UY04RSS) Y-координата камеры R7IN21 (см)" format="8"></var>
-<var  name="fEM_R7UY02RSS" description="(R7UY02RSS) Y-координата камеры R7IN12 (см)" format="8"></var>
-<var  name="fEM_R7UY01RSS" description="(R7UY01RSS) Y-координата камеры R7IN11" format="8"></var>
-<var  name="fEM_R7UX09RSS" description="(R7UX09RSS) X-координата камеры R7IN33 (см)" format="8"></var>
-<var  name="fEM_R7UX08RSS" description="(R7UX08RSS) X-координата камеры R7IN32 (см)" format="8"></var>
-<var  name="fEM_R7UX07RSS" description="(R7UX07RSS) X-координата камеры R7IN31 (см)" format="8"></var>
-<var  name="fEM_R7UX06RSS" description="(R7UX06RSS) X-координата камеры R7IN23 (см)" format="8"></var>
-<var  name="fEM_R7UX05RSS" description="(R7UX05RSS) X-координата камеры R7IN22 (см)" format="8"></var>
-<var  name="fEM_R7UX04RSS" description="(R7UX04RSS) X-координата камеры R7IN21 (см)" format="8"></var>
-<var  name="fEM_R7UX02RSS" description="(R7UX02RSS) X-координата камеры R7IN12 (см)" format="8"></var>
-<var  name="fEM_R7UX01RSS" description="(R7UX01RSS) X-координата камеры R7IN11" format="8"></var>
-<var  name="fEM_A0UX00RSS" description="(A0UX00RSS) Эффективный радиус АЗ" format="8"></var>
-<var  name="fEM_R4UC08RDU" description="(R4UC08RDU) Зона срабатывания КВ тележки РУ(мм)" format="8"></var>
-<var  name="fEM_B8UC08RDU" description="(B8UC08RDU) Зона срабатывания КВ АЗ2(мм)" format="8"></var>
-<var  name="fEM_A8UC08RDU" description="(A8UC08RDU) Зона срабатывания КВ ДС2(мм)" format="8"></var>
-<var  name="fEM_R0UV86RDU" description="(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV85RDU" description="(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV84RDU" description="(R0UV84RDU) 5-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV83RDU" description="(R0UV83RDU) 4-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV82RDU" description="(R0UV82RDU) 3-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV81RDU" description="(R0UV81RDU) 1-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_A3UC05RIM" description="(A3UC05RIM) Координата переднего аварийного выключателя ИС мм" format="8"></var>
-<var  name="fEM_A3UC06RIM" description="(A3UC06RIM) Координата заднего аварийного выключателя ИС мм" format="8"></var>
-<var  name="fEM_A2UC02RDU" description="(A2UC02RDU) Коэффициент преобразования частоты двигателя РБ в скорость мм/с" format="8"></var>
-<var  name="fEM_A2UC04RIM" description="(A2UC04RIM) Координата промежуточного путевого выключателя РБ мм" format="8"></var>
-<var  name="fEM_A2UC05RIM" description="(A2UC05RIM) Координата переднего аварийного выключателя РБ мм" format="8"></var>
-<var  name="fEM_A2UC06RIM" description="(A2UC06RIM) Координата заднего аварийного выключателя РБ мм" format="8"></var>
-<var  name="fEM_A1UC06RIM" description="(A1UC06RIM) Координата заднего аварийного выключателя ББ мм" format="8"></var>
-<var  name="fEM_A1UC05RIM" description="(A1UC05RIM) Координата переднего аварийного выключателя ББ мм" format="8"></var>
-<var  name="fEM_A1UC04RIM" description="(A1UC04RIM) Координата промежуточного путевого выключателя ББ мм" format="8"></var>
-<var  name="fEM_A1UC02RDU" description="(A1UC02RDU) Коэффициент преобразования частоты двигателя ББ в скорость мм/с" format="8"></var>
-<var  name="fEM_R0UT06RIM" description="(R0UT06RIM) Конвекционное сопротивление при обдуве" format="8"></var>
-<var  name="fEM_R0UT05RIM" description="(R0UT05RIM) Энергия деления ядра" format="8"></var>
-<var  name="fEM_R0UT03RIM" description="(R0UT03RIM) Нормальная температура АЗ град" format="8"></var>
-<var  name="fEM_R0UT04RIM" description="(R0UT04RIM) Удельная теплоёмкость топлива" format="8"></var>
-<var  name="fEM_R0UT02RIM" description="(R0UT02RIM) Масса топлива в АЗ" format="8"></var>
-<var  name="fEM_R0UT01RIM" description="(R0UT01RIM) Температурный коэффициент (долл)" format="8"></var>
-<var  name="fEM_A3UR01RIM" description="(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)" format="8"></var>
-<var  name="fEM_A3UR00RIM" description="(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)" format="8"></var>
-<var  name="fEM_A1UR00RIM" description="(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)" format="8"></var>
-<var  name="fEM_A1UR01RIM" description="(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)" format="8"></var>
-<var  name="fEM_R0UN02RIM" description="(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов" format="8"></var>
 <var  name="fEM_R0UL01RIM" description="(R0UL01RIM) Среднее время генерации нейтронов" format="8"></var>
-<var  name="fEM_A2UG01RDU" description="(A2UG01RDU) Расстояние включения масляного демпфера РБ" format="8"></var>
-<var  name="fEM_A1UG01RDU" description="(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)" format="8"></var>
-<var  name="fEM_R4UC23RIM" description="(R4UC23RIM) Y-координата АЗ1 см" format="8"></var>
-<var  name="fEM_R4UC22RIM" description="(R4UC22RIM) Смещение координаты АЗ от координаты тележки" format="8"></var>
-<var  name="fEM_A0UN01RIM" description="(A0UN01RIM) Мощность источника нейтронов ИНИ" format="8"></var>
-<var  name="fEM_A5UC10RIM" description="(A5UC10RIM) Время полного хода НЛ сек" format="8"></var>
-<var  name="fEM_R1UC10RIM" description="(R1UC10RIM) Время полного хода МДЗ сек" format="8"></var>
-<var  name="fEM_A6UC10RIM" description="(A6UC10RIM) Время полного хода БЗ (сек)" format="8"></var>
-<var  name="fEM_A8UC21RIM" description="(A8UC21RIM) Координата верхнего путевого выключателя ДС2 мм" format="8"></var>
-<var  name="fEM_A8UC20RIM" description="(A8UC20RIM) Координата верхних механических упоров ДС2 мм" format="8"></var>
-<var  name="fEM_A8UC11RIM" description="(A8UC11RIM) Координата нижнего путевого выключателя ДС2 мм" format="8"></var>
-<var  name="fEM_A8UC10RIM" description="(A8UC10RIM) Координата нижних механических упоров ДС2 мм" format="8"></var>
-<var  name="fEM_A8UV80RDU" description="(A8UV80RDU) Номинальная скорость ДС2 (мм/с)" format="8"></var>
-<var  name="fEM_B8UV80RDU" description="(B8UV80RDU) Номинальная скорость АЗ2 (мм/с)" format="8"></var>
-<var  name="fEM_B8UC10RIM" description="(B8UC10RIM) Координата нижних механических упоров АЗ2 мм" format="8"></var>
-<var  name="fEM_B8UC11RIM" description="(B8UC11RIM) Координата нижнего путевого выключателя АЗ2 мм" format="8"></var>
-<var  name="fEM_B8UC20RIM" description="(B8UC20RIM) Координата верхних механических упоров АЗ2 мм" format="8"></var>
-<var  name="fEM_B8UC21RIM" description="(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм" format="8"></var>
-<var  name="fEM_R4UC20RIM" description="(R4UC20RIM) Координата нижних механических упоров тележки мм" format="8"></var>
-<var  name="fEM_R4UC10RIM" description="(R4UC10RIM) Координата верхних механических упоров тележки мм" format="8"></var>
-<var  name="fEM_R4UV80RDU" description="(R4UV80RDU) Номинальная скорость тележки (мм/с)" format="8"></var>
-<var  name="fEM_A3UC02RDU" description="(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с" format="8"></var>
+<var  name="fEM_R0UN02RIM" description="(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов" format="8"></var>
+<var  name="fEM_A1UR01RIM" description="(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)" format="8"></var>
+<var  name="fEM_A1UR00RIM" description="(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)" format="8"></var>
+<var  name="fEM_A3UR00RIM" description="(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)" format="8"></var>
+<var  name="fEM_A3UR01RIM" description="(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)" format="8"></var>
+<var  name="fEM_R0UT01RIM" description="(R0UT01RIM) Температурный коэффициент (долл)" format="8"></var>
+<var  name="fEM_R0UT02RIM" description="(R0UT02RIM) Масса топлива в АЗ" format="8"></var>
+<var  name="fEM_R0UT04RIM" description="(R0UT04RIM) Удельная теплоёмкость топлива" format="8"></var>
+<var  name="fEM_R0UT03RIM" description="(R0UT03RIM) Нормальная температура АЗ град" format="8"></var>
+<var  name="fEM_R0UT05RIM" description="(R0UT05RIM) Энергия деления ядра" format="8"></var>
+<var  name="fEM_R0UT06RIM" description="(R0UT06RIM) Конвекционное сопротивление при обдуве" format="8"></var>
+<var  name="fEM_A1UC02RDU" description="(A1UC02RDU) Коэффициент преобразования частоты двигателя ББ в скорость мм/с" format="8"></var>
+<var  name="fEM_A1UC04RIM" description="(A1UC04RIM) Координата промежуточного путевого выключателя ББ мм" format="8"></var>
+<var  name="fEM_A1UC05RIM" description="(A1UC05RIM) Координата переднего аварийного выключателя ББ мм" format="8"></var>
+<var  name="fEM_A1UC06RIM" description="(A1UC06RIM) Координата заднего аварийного выключателя ББ мм" format="8"></var>
+<var  name="fEM_A2UC06RIM" description="(A2UC06RIM) Координата заднего аварийного выключателя РБ мм" format="8"></var>
+<var  name="fEM_A2UC05RIM" description="(A2UC05RIM) Координата переднего аварийного выключателя РБ мм" format="8"></var>
+<var  name="fEM_A2UC04RIM" description="(A2UC04RIM) Координата промежуточного путевого выключателя РБ мм" format="8"></var>
+<var  name="fEM_A2UC02RDU" description="(A2UC02RDU) Коэффициент преобразования частоты двигателя РБ в скорость мм/с" format="8"></var>
+<var  name="fEM_A3UC06RIM" description="(A3UC06RIM) Координата заднего аварийного выключателя ИС мм" format="8"></var>
+<var  name="fEM_A3UC05RIM" description="(A3UC05RIM) Координата переднего аварийного выключателя ИС мм" format="8"></var>
 <var  name="fEM_A3UC04RIM" description="(A3UC04RIM) Координата промежуточного путевого выключателя ИС мм" format="8"></var>
-<var  name="fEM_R0UH05RSS" description="(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6" format="8"></var>
-<var  name="fEM_R0UL42RSS" description="(R0UL42RSS) Уровень ПС по мощности" format="8"></var>
-<var  name="fEM_R0UL51RSS" description="(R0UL51RSS) Уровень АС по периоду разгона" format="8"></var>
-<var  name="fEM_R0UL41RSS" description="(R0UL41RSS) Уровень ПС по периоду разгона" format="8"></var>
-<var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
-<var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уровень по мощности РУ блокировки автоматического подъёма ББ" format="8"></var>
-<var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
-<var  name="fEM_R0UH22RSS" description="(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1" format="8"></var>
-<var  name="fEM_R0UH21RSS" description="(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11" format="8"></var>
-<var  name="fEM_R7UI75RIM" description="(R7UI75RIM) Множитель к уровню радиации" format="8"></var>
-<var  name="fEM_A3US07RDU" description="(A3US07RDU) Постоянная времени масляного демпфера ИС" format="8"></var>
-<var  name="fEM_A2US07RDU" description="(A2US07RDU) Постоянная времени масляного демпфера РБ" format="8"></var>
-<var  name="fEM_A1US07RDU" description="(A1US07RDU) Постоянная времени масляного демпфера ББ" format="8"></var>
-<var  name="fEM_A6US80RDU" description="(A6US80RDU) Тормозной путь БЗ (мм)" format="8"></var>
-<var  name="fEM_A8US80RDU" description="(A8US80RDU) Тормозной путь ДС2 (мм)" format="8"></var>
-<var  name="fEM_B8US80RDU" description="(B8US80RDU) Тормозной путь АЗ2 (мм)" format="8"></var>
-<var  name="fEM_A2UV02RIM" description="(A2UV02RIM) Ускорение сброса РБ от пневматики - g (мм/с^2)" format="8"></var>
-<var  name="fEM_A3UV02RIM" description="(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)" format="8"></var>
-<var  name="fEM_A1UV02RIM" description="(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)" format="8"></var>
-<var  name="fEM_A3UP02RDU" description="(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС" format="8"></var>
-<var  name="fEM_R0UP88RIM" description="(R0UP88RIM) Верхняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
-<var  name="fEM_R0UP85RIM" description="(R0UP85RIM) Нижняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
-<var  name="iEM_TERBB2" description="(TERBB2) Неисправности  ББ2" format="3"></var>
-<var  name="fEM_A1MV02RC1" description="(A1MV02RC1) Заданная скорость движения штока ББ1 от ИС" format="8"></var>
-<var  name="fEM_A1MC02RC1" description="(A1MC02RC1) Заданная координата штока ББ1 от ИС" format="8"></var>
-<var  name="iEM_TERBB1" description="(TERBB1) Неисправности  ББ1" format="3"></var>
-<var  name="fEM_R7UI77RIM" description="(R7UI77RIM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек" format="8"></var>
-<var  name="fEM_R7UI76RIM" description="(R7UI76RIM) Время задержки  срабатывания АС II УР при имитации сигнала сек" format="8"></var>
-<var  name="fEM_A4UP02RIM" description="(A4UP02RIM) Нижняя граница давления на подъём НИ" format="8"></var>
-<var  name="fEM_A4UP01RIM" description="(A4UP01RIM) Текущее давление на подъём НИ" format="8"></var>
-<var  name="fEM_A3UP02RIM" description="(A3UP02RIM) Нижняя граница  давления на СПУСК ИС" format="8"></var>
-<var  name="fEM_A0UP01RIM" description="(A0UP01RIM) Текущее давление в АЗ1,2" format="8"></var>
-<var  name="fEM_A2UP03RIM" description="(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ" format="8"></var>
-<var  name="fEM_A2UP02RIM" description="(A2UP02RIM) Текущее давление на подъём РБ" format="8"></var>
-<var  name="fEM_A0UP03RIM" description="(A0UP03RIM) Текущее давление в системе" format="8"></var>
-<var  name="lEM_R0IE02LRP" description="(R0IE02LRP) Отключить питание ПР, ПУ" format="1"></var>
-<var  name="lEM_R0IE01LRP" description="(R0IE01LRP) Отключение питание детекторов" format="1"></var>
-<var  name="lEM_C1AD31LRP" description="(C1AD31LRP) Общий сброс от РПУ" format="1"></var>
-<var  name="fEM_R6UL10RIM" description="(R6UL10RIM) Время полного хода кран-балки сек" format="8"></var>
-<var  name="fEM_R5UL10RIM" description="(R5UL10RIM) Время полного хода ворот отстойной зоны (дес. мс)" format="8"></var>
-<var  name="fEM_R3UL10RIM" description="(R3UL10RIM) Время полного хода гомогенных дверей (сек)" format="8"></var>
-<var  name="fEM_A9UL10RIM" description="(A9UL10RIM) Время полного перемещения НИ ДС1/ДС2 сек" format="8"></var>
-<var  name="fEM_A4UL10RIM" description="(A4UL10RIM) Время полного перемещения НИ сек" format="8"></var>
-<var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
-<var  name="fEM_A0UX12RSS" description="(A0UX12RSS) Первый коэффициент калибровки камеры 12" format="8"></var>
-<var  name="fEM_A0UX11RSS" description="(A0UX11RSS) Первый коэффициент калибровки камеры 11" format="8"></var>
-<var  name="fEM_A0UX10RSS" description="(A0UX10RSS) Первый коэффициент калибровки камеры 10" format="8"></var>
-<var  name="fEM_A0UX09RSS" description="(A0UX09RSS) Первый коэффициент калибровки камеры 9" format="8"></var>
-<var  name="fEM_A0UX08RSS" description="(A0UX08RSS) Первый коэффициент калибровки камеры 8" format="8"></var>
-<var  name="fEM_A0UX07RSS" description="(A0UX07RSS) Первый коэффициент калибровки камеры 7" format="8"></var>
-<var  name="fEM_A0UX06RSS" description="(A0UX06RSS) Первый коэффициент калибровки камеры 6" format="8"></var>
-<var  name="fEM_A0UX05RSS" description="(A0UX05RSS) Первый коэффициент калибровки камеры 5" format="8"></var>
-<var  name="fEM_A0UX04RSS" description="(A0UX04RSS) Первый коэффициент калибровки камеры4" format="8"></var>
-<var  name="fEM_A0UX03RSS" description="(A0UX03RSS) Первый коэффициент калибровки камеры 3" format="8"></var>
-<var  name="fEM_A0UX02RSS" description="(A0UX02RSS) Первый коэффициент калибровки камеры 2" format="8"></var>
-<var  name="fEM_A0UX01RSS" description="(A0UX01RSS) Первый коэффициент калибровки камеры 1" format="8"></var>
-<var  name="fEM_R7UY12RSS" description="(R7UY12RSS) Y-координата камеры R7IN43" format="8"></var>
-<var  name="fEM_R7UY11RSS" description="(R7UY11RSS) Y-координата камеры R7IN42" format="8"></var>
-<var  name="fEM_R7UY10RSS" description="(R7UY10RSS) Y-координата камеры R7IN41" format="8"></var>
-<var  name="fEM_R7UX12RSS" description="(R7UX12RSS) X-координата камеры R7IN43" format="8"></var>
-<var  name="fEM_R7UX11RSS" description="(R7UX11RSS) X-координата камеры R7IN42" format="8"></var>
-<var  name="fEM_R7UX10RSS" description="(R7UX10RSS) X-координата камеры R7IN41" format="8"></var>
-<var  name="fEM_R7UY09RSS" description="(R7UY09RSS) Y-координата камеры R7IN33 (см)" format="8"></var>
-<var  name="fEM_R7UY08RSS" description="(R7UY08RSS) Y-координата камеры R7IN32 (см)" format="8"></var>
-<var  name="fEM_R7UY07RSS" description="(R7UY07RSS) Y-координата камеры R7IN31 (см)" format="8"></var>
+<var  name="fEM_A3UC02RDU" description="(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с" format="8"></var>
+<var  name="fEM_R4UV80RDU" description="(R4UV80RDU) Номинальная скорость тележки (мм/с)" format="8"></var>
+<var  name="fEM_R4UC10RIM" description="(R4UC10RIM) Координата верхних механических упоров тележки мм" format="8"></var>
+<var  name="fEM_R4UC20RIM" description="(R4UC20RIM) Координата нижних механических упоров тележки мм" format="8"></var>
+<var  name="fEM_B8UC21RIM" description="(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм" format="8"></var>
+<var  name="fEM_B8UC20RIM" description="(B8UC20RIM) Координата верхних механических упоров АЗ2 мм" format="8"></var>
+<var  name="fEM_B8UC11RIM" description="(B8UC11RIM) Координата нижнего путевого выключателя АЗ2 мм" format="8"></var>
+<var  name="fEM_B8UC10RIM" description="(B8UC10RIM) Координата нижних механических упоров АЗ2 мм" format="8"></var>
+<var  name="fEM_B8UV80RDU" description="(B8UV80RDU) Номинальная скорость АЗ2 (мм/с)" format="8"></var>
+<var  name="fEM_A8UV80RDU" description="(A8UV80RDU) Номинальная скорость ДС2 (мм/с)" format="8"></var>
+<var  name="fEM_A8UC10RIM" description="(A8UC10RIM) Координата нижних механических упоров ДС2 мм" format="8"></var>
+<var  name="fEM_A8UC11RIM" description="(A8UC11RIM) Координата нижнего путевого выключателя ДС2 мм" format="8"></var>
+<var  name="fEM_A8UC20RIM" description="(A8UC20RIM) Координата верхних механических упоров ДС2 мм" format="8"></var>
+<var  name="fEM_A8UC21RIM" description="(A8UC21RIM) Координата верхнего путевого выключателя ДС2 мм" format="8"></var>
+<var  name="fEM_A6UC10RIM" description="(A6UC10RIM) Время полного хода БЗ (сек)" format="8"></var>
+<var  name="fEM_R1UC10RIM" description="(R1UC10RIM) Время полного хода МДЗ сек" format="8"></var>
+<var  name="fEM_A5UC10RIM" description="(A5UC10RIM) Время полного хода НЛ сек" format="8"></var>
+<var  name="fEM_A0UN01RIM" description="(A0UN01RIM) Мощность источника нейтронов ИНИ" format="8"></var>
+<var  name="fEM_R4UC22RIM" description="(R4UC22RIM) Смещение координаты АЗ от координаты тележки" format="8"></var>
+<var  name="fEM_R4UC23RIM" description="(R4UC23RIM) Y-координата АЗ1 см" format="8"></var>
+<var  name="fEM_A1UG01RDU" description="(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)" format="8"></var>
+<var  name="fEM_A2UG01RDU" description="(A2UG01RDU) Расстояние включения масляного демпфера РБ" format="8"></var>
+<var  name="fEM_A3UG01RDU" description="(A3UG01RDU) Расстояние включения масляного демпфера ИС" format="8"></var>
+<var  name="fEM_R7UC10RIM" description="(R7UC10RIM) X-координата КНК53М R7IN13 см" format="8"></var>
+<var  name="fEM_R7UC19RIM" description="(R7UC19RIM) Y-координата СНМ-11 (11) см" format="8"></var>
+<var  name="fEM_R7UI02RIM" description="(R7UI02RIM) Коэффициент усиления уровня радиации" format="8"></var>
+<var  name="fEM_R7UL01RIM" description="(R7UL01RIM) Постоянная времени изменения уровня радиации в зале" format="8"></var>
+<var  name="fEM_A2UR00RIM" description="(A2UR00RIM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)" format="8"></var>
+<var  name="fEM_A2UR01RIM" description="(A2UR01RIM) Коэффициент-1 функции реактивности вносимой РБ (долл)" format="8"></var>
+<var  name="fEM_A0UN02RIM" description="(A0UN02RIM) Мощность источника нейтронов с АНИ" format="8"></var>
+<var  name="fEM_R0UR30RIM" description="(R0UR30RIM) Реактивность вносимая образцами (долл)" format="8"></var>
+<var  name="fEM_R0UR01RIM" description="(R0UR01RIM) Стартовая отрицательная реактивность" format="8"></var>
+<var  name="fEM_R0UT02RDU" description="(R0UT02RDU) Верхний предел шкалы датчика температуры" format="8"></var>
+<var  name="fEM_R0UT01RDU" description="(R0UT01RDU) Нижний предел шкалы датчика температуры" format="8"></var>
+<var  name="fEM_A1UC03RDU" description="(A1UC03RDU) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера" format="8"></var>
+<var  name="fEM_A2UP03RDU" description="(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ" format="8"></var>
+<var  name="fEM_A2UP04RDU" description="(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ" format="8"></var>
+<var  name="fEM_A2UC03RDU" description="(A2UC03RDU) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм" format="8"></var>
+<var  name="fEM_A3UP03RDU" description="(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
+<var  name="fEM_A3UP04RDU" description="(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
+<var  name="fEM_A3UC03RDU" description="(A3UC03RDU) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм" format="8"></var>
+<var  name="fEM_R7UI74RIM" description="(R7UI74RIM) Верхняя граница измерения уровня радиации в зале" format="8"></var>
+<var  name="fEM_A8UC03RDU" description="(A8UC03RDU) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера" format="8"></var>
+<var  name="fEM_R0UV87RDU" description="(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV81RDU" description="(R0UV81RDU) 1-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV82RDU" description="(R0UV82RDU) 3-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV83RDU" description="(R0UV83RDU) 4-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV84RDU" description="(R0UV84RDU) 5-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV85RDU" description="(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV86RDU" description="(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var  name="fEM_A8UC08RDU" description="(A8UC08RDU) Зона срабатывания КВ ДС2(мм)" format="8"></var>
+<var  name="fEM_B8UC08RDU" description="(B8UC08RDU) Зона срабатывания КВ АЗ2(мм)" format="8"></var>
+<var  name="fEM_R4UC08RDU" description="(R4UC08RDU) Зона срабатывания КВ тележки РУ(мм)" format="8"></var>
+<var  name="fEM_A0UX00RSS" description="(A0UX00RSS) Эффективный радиус АЗ" format="8"></var>
+<var  name="fEM_R7UX01RSS" description="(R7UX01RSS) X-координата камеры R7IN11" format="8"></var>
+<var  name="fEM_R7UX02RSS" description="(R7UX02RSS) X-координата камеры R7IN12 (см)" format="8"></var>
+<var  name="fEM_R7UX04RSS" description="(R7UX04RSS) X-координата камеры R7IN21 (см)" format="8"></var>
+<var  name="fEM_R7UX05RSS" description="(R7UX05RSS) X-координата камеры R7IN22 (см)" format="8"></var>
+<var  name="fEM_R7UX06RSS" description="(R7UX06RSS) X-координата камеры R7IN23 (см)" format="8"></var>
+<var  name="fEM_R7UX07RSS" description="(R7UX07RSS) X-координата камеры R7IN31 (см)" format="8"></var>
+<var  name="fEM_R7UX08RSS" description="(R7UX08RSS) X-координата камеры R7IN32 (см)" format="8"></var>
+<var  name="fEM_R7UX09RSS" description="(R7UX09RSS) X-координата камеры R7IN33 (см)" format="8"></var>
+<var  name="fEM_R7UY01RSS" description="(R7UY01RSS) Y-координата камеры R7IN11" format="8"></var>
+<var  name="fEM_R7UY02RSS" description="(R7UY02RSS) Y-координата камеры R7IN12 (см)" format="8"></var>
+<var  name="fEM_R7UY04RSS" description="(R7UY04RSS) Y-координата камеры R7IN21 (см)" format="8"></var>
+<var  name="fEM_R7UY05RSS" description="(R7UY05RSS) Y-координата камеры R7IN22 (см)" format="8"></var>
 <var  name="fEM_R7UY06RSS" description="(R7UY06RSS) Y-координата камеры R7IN23 (см)" format="8"></var>
-<var  name="fEM_A1UP82RIM" description="(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
-<var  name="fEM_A3UP01RIM" description="(A3UP01RIM) Текущее давление на СПУСК ИС" format="8"></var>
-<var  name="fEM_A0UP02RIM" description="(A0UP02RIM) Текущее давление в АЗ1,2" format="8"></var>
-<var  name="fEM_A2UP01RIM" description="(A2UP01RIM) Текущее давление на сброс РБ" format="8"></var>
-<var  name="fEM_A1UP01RIM" description="(A1UP01RIM) Текущее давление на сброс ББ (МПа)" format="8"></var>
-<var  name="fEM_R7UI73RIM" description="(R7UI73RIM) Уровень мощности срабатывания АС II УР  ватт" format="8"></var>
-<var  name="fEM_R7UI72RIM" description="(R7UI72RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)" format="8"></var>
-<var  name="fEM_R7UI71RIM" description="(R7UI71RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)" format="8"></var>
-<var  name="fEM_R4US80RDU" description="(R4US80RDU) Тормозной путь тележки (мм)" format="8"></var>
-<var  name="fEM_R0UH03RSS" description="(R0UH03RSS) Коэфф. преобразования частота->нейтр/с  КНК53М" format="8"></var>
-<var  name="fEM_R0UH02RSS" description="(R0UH02RSS) Коэфф. преобразования частота->нейтр/с  КНК15-1" format="8"></var>
-<var  name="fEM_B0UX12RSS" description="(B0UX12RSS) Второй коэффициент калибровки камеры 12" format="8"></var>
-<var  name="fEM_B0UX11RSS" description="(B0UX11RSS) Второй коэффициент калибровки камеры 11" format="8"></var>
-<var  name="fEM_B0UX10RSS" description="(B0UX10RSS) Второй коэффициент калибровки камеры 10" format="8"></var>
-<var  name="fEM_B0UX09RSS" description="(B0UX09RSS) Второй коэффициент калибровки камеры 9" format="8"></var>
-<var  name="fEM_B0UX08RSS" description="(B0UX08RSS) Второй коэффициент калибровки камеры 8" format="8"></var>
-<var  name="fEM_B0UX07RSS" description="(B0UX07RSS) Второй коэффициент калибровки камеры 7" format="8"></var>
-<var  name="fEM_B0UX06RSS" description="(B0UX06RSS) Второй коэффициент калибровки камеры 6" format="8"></var>
-<var  name="fEM_B0UX05RSS" description="(B0UX05RSS) Второй коэффициент калибровки камеры 5" format="8"></var>
-<var  name="fEM_B0UX04RSS" description="(B0UX04RSS) Второй коэффициент калибровки камеры 4" format="8"></var>
-<var  name="fEM_B0UX03RSS" description="(B0UX03RSS) Второй коэффициент калибровки камеры 3" format="8"></var>
-<var  name="fEM_B0UX02RSS" description="(B0UX02RSS) Второй коэффициент калибровки камеры 2" format="8"></var>
+<var  name="fEM_R7UY07RSS" description="(R7UY07RSS) Y-координата камеры R7IN31 (см)" format="8"></var>
+<var  name="fEM_R7UY08RSS" description="(R7UY08RSS) Y-координата камеры R7IN32 (см)" format="8"></var>
+<var  name="fEM_R7UY09RSS" description="(R7UY09RSS) Y-координата камеры R7IN33 (см)" format="8"></var>
+<var  name="fEM_R7UX10RSS" description="(R7UX10RSS) X-координата камеры R7IN41" format="8"></var>
+<var  name="fEM_R7UX11RSS" description="(R7UX11RSS) X-координата камеры R7IN42" format="8"></var>
+<var  name="fEM_R7UX12RSS" description="(R7UX12RSS) X-координата камеры R7IN43" format="8"></var>
+<var  name="fEM_R7UY10RSS" description="(R7UY10RSS) Y-координата камеры R7IN41" format="8"></var>
+<var  name="fEM_R7UY11RSS" description="(R7UY11RSS) Y-координата камеры R7IN42" format="8"></var>
+<var  name="fEM_R7UY12RSS" description="(R7UY12RSS) Y-координата камеры R7IN43" format="8"></var>
+<var  name="fEM_A0UX01RSS" description="(A0UX01RSS) Первый коэффициент калибровки камеры 1" format="8"></var>
+<var  name="fEM_A0UX02RSS" description="(A0UX02RSS) Первый коэффициент калибровки камеры 2" format="8"></var>
+<var  name="fEM_A0UX03RSS" description="(A0UX03RSS) Первый коэффициент калибровки камеры 3" format="8"></var>
+<var  name="fEM_A0UX04RSS" description="(A0UX04RSS) Первый коэффициент калибровки камеры4" format="8"></var>
+<var  name="fEM_A0UX05RSS" description="(A0UX05RSS) Первый коэффициент калибровки камеры 5" format="8"></var>
+<var  name="fEM_A0UX06RSS" description="(A0UX06RSS) Первый коэффициент калибровки камеры 6" format="8"></var>
+<var  name="fEM_A0UX07RSS" description="(A0UX07RSS) Первый коэффициент калибровки камеры 7" format="8"></var>
+<var  name="fEM_A0UX08RSS" description="(A0UX08RSS) Первый коэффициент калибровки камеры 8" format="8"></var>
+<var  name="fEM_A0UX09RSS" description="(A0UX09RSS) Первый коэффициент калибровки камеры 9" format="8"></var>
+<var  name="fEM_A0UX10RSS" description="(A0UX10RSS) Первый коэффициент калибровки камеры 10" format="8"></var>
+<var  name="fEM_A0UX11RSS" description="(A0UX11RSS) Первый коэффициент калибровки камеры 11" format="8"></var>
+<var  name="fEM_A0UX12RSS" description="(A0UX12RSS) Первый коэффициент калибровки камеры 12" format="8"></var>
 <var  name="fEM_B0UX01RSS" description="(B0UX01RSS) Второй коэффициент калибровки камеры 1" format="8"></var>
+<var  name="fEM_B0UX02RSS" description="(B0UX02RSS) Второй коэффициент калибровки камеры 2" format="8"></var>
+<var  name="fEM_B0UX03RSS" description="(B0UX03RSS) Второй коэффициент калибровки камеры 3" format="8"></var>
+<var  name="fEM_B0UX04RSS" description="(B0UX04RSS) Второй коэффициент калибровки камеры 4" format="8"></var>
+<var  name="fEM_B0UX05RSS" description="(B0UX05RSS) Второй коэффициент калибровки камеры 5" format="8"></var>
+<var  name="fEM_B0UX06RSS" description="(B0UX06RSS) Второй коэффициент калибровки камеры 6" format="8"></var>
+<var  name="fEM_B0UX07RSS" description="(B0UX07RSS) Второй коэффициент калибровки камеры 7" format="8"></var>
+<var  name="fEM_B0UX08RSS" description="(B0UX08RSS) Второй коэффициент калибровки камеры 8" format="8"></var>
+<var  name="fEM_B0UX09RSS" description="(B0UX09RSS) Второй коэффициент калибровки камеры 9" format="8"></var>
+<var  name="fEM_B0UX10RSS" description="(B0UX10RSS) Второй коэффициент калибровки камеры 10" format="8"></var>
+<var  name="fEM_B0UX11RSS" description="(B0UX11RSS) Второй коэффициент калибровки камеры 11" format="8"></var>
+<var  name="fEM_B0UX12RSS" description="(B0UX12RSS) Второй коэффициент калибровки камеры 12" format="8"></var>
+<var  name="fEM_R0UH02RSS" description="(R0UH02RSS) Коэфф. преобразования частота->нейтр/с  КНК15-1" format="8"></var>
+<var  name="fEM_R0UH03RSS" description="(R0UH03RSS) Коэфф. преобразования частота->нейтр/с  КНК53М" format="8"></var>
+<var  name="fEM_R4US80RDU" description="(R4US80RDU) Тормозной путь тележки (мм)" format="8"></var>
+<var  name="fEM_R7UI71RIM" description="(R7UI71RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)" format="8"></var>
+<var  name="fEM_R7UI72RIM" description="(R7UI72RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)" format="8"></var>
+<var  name="fEM_R7UI73RIM" description="(R7UI73RIM) Уровень мощности срабатывания АС II УР  ватт" format="8"></var>
+<var  name="fEM_A1UP01RIM" description="(A1UP01RIM) Текущее давление на сброс ББ (МПа)" format="8"></var>
+<var  name="fEM_A2UP01RIM" description="(A2UP01RIM) Текущее давление на сброс РБ" format="8"></var>
+<var  name="fEM_A0UP02RIM" description="(A0UP02RIM) Текущее давление в АЗ1,2" format="8"></var>
+<var  name="fEM_A3UP01RIM" description="(A3UP01RIM) Текущее давление на СПУСК ИС" format="8"></var>
+<var  name="fEM_A1UP82RIM" description="(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var  name="fEM_R0UP85RIM" description="(R0UP85RIM) Нижняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var  name="fEM_R0UP88RIM" description="(R0UP88RIM) Верхняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var  name="fEM_A3UP02RDU" description="(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС" format="8"></var>
+<var  name="fEM_A1UV02RIM" description="(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)" format="8"></var>
+<var  name="fEM_A3UV02RIM" description="(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)" format="8"></var>
+<var  name="fEM_A2UV02RIM" description="(A2UV02RIM) Ускорение сброса РБ от пневматики - g (мм/с^2)" format="8"></var>
+<var  name="fEM_B8US80RDU" description="(B8US80RDU) Тормозной путь АЗ2 (мм)" format="8"></var>
+<var  name="fEM_A8US80RDU" description="(A8US80RDU) Тормозной путь ДС2 (мм)" format="8"></var>
+<var  name="fEM_A6US80RDU" description="(A6US80RDU) Тормозной путь БЗ (мм)" format="8"></var>
+<var  name="fEM_A1US07RDU" description="(A1US07RDU) Постоянная времени масляного демпфера ББ" format="8"></var>
+<var  name="fEM_A2US07RDU" description="(A2US07RDU) Постоянная времени масляного демпфера РБ" format="8"></var>
+<var  name="fEM_A3US07RDU" description="(A3US07RDU) Постоянная времени масляного демпфера ИС" format="8"></var>
+<var  name="fEM_R7UI75RIM" description="(R7UI75RIM) Множитель к уровню радиации" format="8"></var>
+<var  name="fEM_R0UH21RSS" description="(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11" format="8"></var>
+<var  name="fEM_R0UH22RSS" description="(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1" format="8"></var>
+<var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
+<var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уровень по мощности РУ блокировки автоматического подъёма ББ" format="8"></var>
+<var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
+<var  name="fEM_R0UL41RSS" description="(R0UL41RSS) Уровень ПС по периоду разгона" format="8"></var>
+<var  name="fEM_R0UL51RSS" description="(R0UL51RSS) Уровень АС по периоду разгона" format="8"></var>
+<var  name="fEM_R0UL42RSS" description="(R0UL42RSS) Уровень ПС по мощности" format="8"></var>
+<var  name="fEM_R0UH05RSS" description="(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6" format="8"></var>
+<var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
+<var  name="fEM_A4UL10RIM" description="(A4UL10RIM) Время полного перемещения НИ сек" format="8"></var>
+<var  name="fEM_A9UL10RIM" description="(A9UL10RIM) Время полного перемещения НИ ДС1/ДС2 сек" format="8"></var>
+<var  name="fEM_R3UL10RIM" description="(R3UL10RIM) Время полного хода гомогенных дверей (сек)" format="8"></var>
+<var  name="fEM_R5UL10RIM" description="(R5UL10RIM) Время полного хода ворот отстойной зоны (дес. мс)" format="8"></var>
+<var  name="fEM_R6UL10RIM" description="(R6UL10RIM) Время полного хода кран-балки сек" format="8"></var>
+<var  name="lEM_C1AD31LRP" description="(C1AD31LRP) Общий сброс от РПУ" format="1"></var>
+<var  name="lEM_R0IE01LRP" description="(R0IE01LRP) Отключение питание детекторов" format="1"></var>
+<var  name="lEM_R0IE02LRP" description="(R0IE02LRP) Отключить питание ПР, ПУ" format="1"></var>
+<var  name="fEM_A0UP03RIM" description="(A0UP03RIM) Текущее давление в системе" format="8"></var>
+<var  name="fEM_A2UP02RIM" description="(A2UP02RIM) Текущее давление на подъём РБ" format="8"></var>
+<var  name="fEM_A2UP03RIM" description="(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ" format="8"></var>
+<var  name="fEM_A0UP01RIM" description="(A0UP01RIM) Текущее давление в АЗ1,2" format="8"></var>
+<var  name="fEM_A3UP02RIM" description="(A3UP02RIM) Нижняя граница  давления на СПУСК ИС" format="8"></var>
+<var  name="fEM_A4UP01RIM" description="(A4UP01RIM) Текущее давление на подъём НИ" format="8"></var>
+<var  name="fEM_A4UP02RIM" description="(A4UP02RIM) Нижняя граница давления на подъём НИ" format="8"></var>
+<var  name="fEM_R7UI76RIM" description="(R7UI76RIM) Время задержки  срабатывания АС II УР при имитации сигнала сек" format="8"></var>
+<var  name="fEM_R7UI77RIM" description="(R7UI77RIM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек" format="8"></var>
+<var  name="iEM_TERBB1" description="(TERBB1) Неисправности  ББ1" format="3"></var>
+<var  name="fEM_A1MC02RC1" description="(A1MC02RC1) Заданная координата штока ББ1 от ИС" format="8"></var>
+<var  name="fEM_A1MV02RC1" description="(A1MV02RC1) Заданная скорость движения штока ББ1 от ИС" format="8"></var>
+<var  name="iEM_TERBB2" description="(TERBB2) Неисправности  ББ2" format="3"></var>
+<var  name="fEM_B1MC02RC1" description="(B1MC02RC1) Заданная координата штока ББ2 от ИС" format="8"></var>
+<var  name="fEM_B1MV02RC1" description="(B1MV02RC1) Заданная скорость движения штока ББ2 от ИС" format="8"></var>
+<var  name="iEM_TERRB2" description="(TERRB2) Неисправности  РБ2" format="3"></var>
+<var  name="fEM_B2MC02RC1" description="(B2MC02RC1) Заданная координата штока РБ2 от ИС" format="8"></var>
+<var  name="fEM_B2MV02RC1" description="(B2MV02RC1) Заданная скорость движения штока РБ2 от ИС" format="8"></var>
+<var  name="iEM_TERRB1" description="(TERRB1) Неисправности  РБ1" format="3"></var>
+<var  name="fEM_A2MC02RC1" description="(A2MC02RC1) Заданная координата штока РБ1 от ИС" format="8"></var>
+<var  name="fEM_A2MV02RC1" description="(A2MV02RC1) Заданная скорость движения штока РБ1 от ИС" format="8"></var>
+<var  name="iEM_TERIS2" description="(TERIS2) Неисправности  ИС2" format="3"></var>
+<var  name="fEM_B3MC02RC1" description="(B3MC02RC1) Заданная координата штока ИС2 от ИС" format="8"></var>
+<var  name="fEM_B3MV02RC1" description="(B3MV02RC1) Заданная скорость движения штока ИС2 от ИС" format="8"></var>
+<var  name="iEM_TERIS1" description="(TERIS1) Неисправности  ИС1" format="3"></var>
+<var  name="fEM_A3MC02RC1" description="(A3MC02RC1) Заданная координата штока ИС1 от ИС" format="8"></var>
+<var  name="fEM_A3MV02RC1" description="(A3MV02RC1) Заданная скорость движения штока ИС1 от ИС" format="8"></var>
+<var  name="iEM_TERAZ1" description="(TERAZ1) Неисправности АЗ1" format="3"></var>
+<var  name="iEM_TERAZ2" description="(TERAZ2) Неисправности АЗ2" format="3"></var>
+<var  name="iEM_TERA1IE04LDU" description="(TERA1IE04LDU) Искажение Движение ББ1 назад (от БУШД)" format="3"></var>
+<var  name="iEM_TERA1IE03LDU" description="(TERA1IE03LDU) Искажение Движение ББ1 вперёд (от БУШД)" format="3"></var>
+<var  name="fEM_A1MC01RC1" description="(A1MC01RC1) Заданная координата  ББ1 от ИС" format="8"></var>
+<var  name="iEM_TERB1IE03LDU" description="(TERB1IE03LDU) Искажение Движение ББ2 вперёд (от БУШД)" format="3"></var>
+<var  name="iEM_TERB1IE04LDU" description="(TERB1IE04LDU) Искажение Движение ББ2 назад (от БУШД)" format="3"></var>
+<var  name="fEM_B1MC01RC1" description="(B1MC01RC1) Заданная координата ББ2 от ИС" format="8"></var>
+<var  name="fEM_B1MV01RC1" description="(B1MV01RC1) Заданная скорость движения ББ2 от ИС" format="8"></var>
+<var  name="fEM_B2MC01RC1" description="(B2MC01RC1) Заданная координата РБ2 от ИС" format="8"></var>
+<var  name="fEM_B2MV01RC1" description="(B2MV01RC1) Заданная скорость движения  РБ2 от ИС" format="8"></var>
+<var  name="fEM_A3MC01RC1" description="(A3MC01RC1) Заданная координата ИС1 от ИС" format="8"></var>
+<var  name="fEM_A3MV01RC1" description="(A3MV01RC1) Заданная скорость движения ИС1 от ИС" format="8"></var>
+<var  name="fEM_B3MC01RC1" description="(B3MC01RC1) Заданная координата ИС2 от ИС" format="8"></var>
+<var  name="fEM_B3MV01RC1" description="(B3MV01RC1) Заданная скорость движения ИС2 от ИС" format="8"></var>
+<var  name="iEM_TERA7MS31DIM" description="(TERA7MS31DIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERA2SS21LIM" description="(TERA2SS21LIM) Искажение: Приход на НУ РБ1" format="3"></var>
+<var  name="iEM_TERA2SS12LIM" description="(TERA2SS12LIM) Искажение: Магнит РБ1 зацеплен" format="3"></var>
+<var  name="iEM_TERR6SS21LIM" description="(TERR6SS21LIM) Искажение: Приход на НУ кран-балки" format="3"></var>
+<var  name="iEM_TERA2VP82LIM" description="(TERA2VP82LIM) Искажение: Текущее давление на подъём РБ  в норме" format="3"></var>
+<var  name="iEM_TERA2SS11LIM" description="(TERA2SS11LIM) Искажение: Приход на ВУ РБ1" format="3"></var>
+<var  name="iEM_TERB3SS21LIM" description="(TERB3SS21LIM) Искажение: Приход на НУ ИС2" format="3"></var>
+<var  name="iEM_TERA0MT01RIM" description="(TERA0MT01RIM) Искажение: Текущая температура AЗ1" format="3"></var>
+<var  name="iEM_TERB0MT01RIM" description="(TERB0MT01RIM) Искажение: Текущая температура AЗ2" format="3"></var>
+<var  name="iEM_TERA2SP01RIM" description="(TERA2SP01RIM) Искажение: Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="iEM_TERB2SP01RIM" description="(TERB2SP01RIM) Искажение: Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="iEM_TERB3SP02RIM" description="(TERB3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2" format="3"></var>
+<var  name="iEM_TERA3SC01RIM" description="(TERA3SC01RIM) Искажение: Координата штока ИС1" format="3"></var>
+<var  name="iEM_TERA3VP81LIM" description="(TERA3VP81LIM) Искажение: Текущее давление СПУСК ИС  в норме" format="3"></var>
+<var  name="iEM_TERA2SC01RIM" description="(TERA2SC01RIM) Искажение: Координата штока РБ1" format="3"></var>
+<var  name="iEM_TERA2SS33LIM" description="(TERA2SS33LIM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERA3SS21LIM" description="(TERA3SS21LIM) Искажение: Приход на НУ ИС1" format="3"></var>
+<var  name="iEM_TERA3SS33LIM" description="(TERA3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERA3SS31LIM" description="(TERA3SS31LIM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERB3SS31LIM" description="(TERB3SS31LIM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERB3SS33LIM" description="(TERB3SS33LIM) скажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERB3SC01RIM" description="(TERB3SC01RIM) Искажение: Координата штока ИС2" format="3"></var>
+<var  name="iEM_TERA3SS11LIM" description="(TERA3SS11LIM) Искажение: Приход на ВУ ИС1" format="3"></var>
+<var  name="iEM_TERB3SS11LIM" description="(TERB3SS11LIM) Искажение: Приход на ВУ ИС2" format="3"></var>
+<var  name="iEM_TERR6IS64LIM" description="(TERR6IS64LIM) Исправность ВИП ССДИ-35 1канал" format="3"></var>
+<var  name="iEM_TERB3SS22LIM" description="(TERB3SS22LIM) Искажение: Приход на НУП ИС2" format="3"></var>
+<var  name="iEM_TERA3SS22LIM" description="(TERA3SS22LIM) Искажение: Приход на НУП ИС1" format="3"></var>
+<var  name="iEM_TERA3SP02RIM" description="(TERA3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1" format="3"></var>
+<var  name="iEM_TERR6IS62LIM" description="(TERR6IS62LIM) Искажение Исправность ВИП ССДИ-39 1канал" format="3"></var>
+<var  name="iEM_TERR6IS66LIM" description="(TERR6IS66LIM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1" format="3"></var>
+<var  name="iEM_TERR6IS67LIM" description="(TERR6IS67LIM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2" format="3"></var>
+<var  name="iEM_TERA0VP81LIM" description="(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме" format="3"></var>
+<var  name="iEM_TERB0VP81LIM" description="(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме" format="3"></var>
+<var  name="iEM_TERR0VP81LIM" description="(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ в норме" format="3"></var>
+<var  name="iEM_TERR0VP82LIM" description="(TERR0VP82LIM) Искажение: Давление  в СИСТЕМЕ-2 в норме" format="3"></var>
+<var  name="iEM_TERR6IS68LIM" description="(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2" format="3"></var>
+<var  name="iEM_TERR7SI74RIM" description="(TERR7SI74RIM) Искажение: Радиация в реакторном зале" format="3"></var>
+<var  name="iEM_TERA5SS21LIM" description="(TERA5SS21LIM) Искажение: Приход на НУ НЛ1" format="3"></var>
+<var  name="iEM_TERB5SS11LIM" description="(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2" format="3"></var>
+<var  name="iEM_TERA5SS11LIM" description="(TERA5SS11LIM) Искажение: Приход на ВУ НЛ1" format="3"></var>
+<var  name="iEM_TERA9SS11LIM" description="(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1" format="3"></var>
+<var  name="iEM_TERB2SS11LIM" description="(TERB2SS11LIM) Искажение: Приход на ВУ РБ2" format="3"></var>
+<var  name="iEM_TERB2SS12LIM" description="(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен" format="3"></var>
+<var  name="iEM_TERB2SS21LIM" description="(TERB2SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
+<var  name="iEM_TERR3SS11LIM" description="(TERR3SS11LIM) Искажение: Приход на ВУ гомогенных дверей-1" format="3"></var>
+<var  name="iEM_TERB2SC01RIM" description="(TERB2SC01RIM) Искажение: Координата штока РБ2" format="3"></var>
+<var  name="iEM_TERR3SS21LIM" description="(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1" format="3"></var>
+<var  name="iEM_TERR5SS11LIM" description="(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны" format="3"></var>
+<var  name="iEM_TERR3SS12LIM" description="(TERR3SS12LIM) Искажение: Приход на ВУ гомогенных дверей-2" format="3"></var>
+<var  name="iEM_TERR3SS22LIM" description="(TERR3SS22LIM) Искажение: Приход на НУ гомогенных дверей-2" format="3"></var>
+<var  name="iEM_TERA4SS11LIM" description="(TERA4SS11LIM) Искажение: Приход на ВУ НИ1" format="3"></var>
+<var  name="iEM_TERR1SS11LIM" description="(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1" format="3"></var>
+<var  name="iEM_TERR1SS21LIM" description="(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1" format="3"></var>
+<var  name="iEM_TERR2SS11LIM" description="(TERR2SS11LIM) Искажение: Приход на ВУ МДЗ2" format="3"></var>
+<var  name="iEM_TERR2SS21LIM" description="(TERR2SS21LIM) Искажение: Приход на НУ МДЗ2" format="3"></var>
+<var  name="iEM_TERA4VP82LIM" description="(TERA4VP82LIM) Искажение Давление ПОДЪЁМ НИ в норме" format="3"></var>
+<var  name="iEM_TERB4SS21LIM" description="(TERB4SS21LIM) Искажение: Приход на НУ НИ2" format="3"></var>
+<var  name="iEM_TERR5SS21LIM" description="(TERR5SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
+<var  name="iEM_TERB6SS21LIM" description="(TERB6SS21LIM) Искажение: Приход на НУ БЗ2" format="3"></var>
+<var  name="iEM_TERB4SS11LIM" description="(TERB4SS11LIM) Искажение: Приход на ВУ НИ2" format="3"></var>
+<var  name="iEM_TERA4SS21LIM" description="(TERA4SS21LIM) Искажение: Приход на НУ НИ1" format="3"></var>
+<var  name="iEM_TERA6MS11LIM" description="(TERA6MS11LIM) Искажение: Приход на ВУ БЗ1" format="3"></var>
+<var  name="iEM_TERA6SS21LIM" description="(TERA6SS21LIM) Искажение: Приход на НУ БЗ1" format="3"></var>
+<var  name="iEM_TERB6SS11LIM" description="(TERB6SS11LIM) Искажение: Приход на ВУ БЗ2" format="3"></var>
+<var  name="iEM_TERR4SS11LIM" description="(TERR4SS11LIM) Искажение: Приход на ВУ тележки" format="3"></var>
+<var  name="iEM_TERR4MS21LIM" description="(TERR4MS21LIM) Искажение: Приход на НУ тележки" format="3"></var>
+<var  name="iEM_TERR4SS12LIM" description="(TERR4SS12LIM) Искажение: Приход на механический ВУ тележки" format="3"></var>
+<var  name="iEM_TERR4SS22LIM" description="(TERR4SS22LIM) Искажение: Приход на механический НУ тележки" format="3"></var>
+<var  name="iEM_TERR8SS11LIM" description="(TERR8SS11LIM) Искажение: Аварийный НИ установлен" format="3"></var>
+<var  name="iEM_TERB8SC01RIM" description="(TERB8SC01RIM) Искажение: Координата АЗ2" format="3"></var>
+<var  name="iEM_TERA8SC01RIM" description="(TERA8SC01RIM) Искажение: Координата ДС2" format="3"></var>
+<var  name="iEM_TERB8SS12LIM" description="(TERB8SS12LIM) Искажение: Приход на механический ВУ АЗ2" format="3"></var>
+<var  name="iEM_TERA8SS12LIM" description="(TERA8SS12LIM) Искажение: Приход на механический ВУ ДС2" format="3"></var>
+<var  name="iEM_TERB8SS22LIM" description="(TERB8SS22LIM) Искажение: Приход на механический НУ АЗ2" format="3"></var>
+<var  name="iEM_TERA8SS22LIM" description="(TERA8SS22LIM) Искажение: Приход на механический НУ ДС2" format="3"></var>
+<var  name="iEM_TERA9SS21LIM" description="(TERA9SS21LIM) Искажение: Приход на НУ НИ ДС1" format="3"></var>
+<var  name="iEM_TERB9SS21LIM" description="(TERB9SS21LIM) Искажение: Приход на НУ РБ2" format="3"></var>
+<var  name="iEM_TERB9SS11LIM" description="(TERB9SS11LIM) Искажение: Приход на ВУ НИ ДС2" format="3"></var>
+<var  name="iEM_TERB5SS21LIM" description="(TERB5SS21LIM) Искажение: Приход на НУ НЛ2" format="3"></var>
+<var  name="iEM_TERA1SS21LIM" description="(TERA1SS21LIM) Искажение: Приход на НУ ББ1" format="3"></var>
+<var  name="iEM_TERA1SS11LIM" description="(TERA1SS11LIM) Искажение: Приход на НУ РБ2" format="3"></var>
+<var  name="iEM_TERA1SC01RIM" description="(TERA1SC01RIM) Искажение: Координата штока ББ1" format="3"></var>
+<var  name="iEM_TERA1SS12LIM" description="(TERA1SS12LIM) Искажение: Магнит ББ1 зацеплен" format="3"></var>
+<var  name="iEM_TERB1SS21LIM" description="(TERB1SS21LIM) Искажение: Приход на НУ ББ2" format="3"></var>
+<var  name="iEM_TERB1SS11LIM" description="(TERB1SS11LIM) Искажение:Приход на ВУ ББ2" format="3"></var>
+<var  name="iEM_TERB1MC01RIM" description="(TERB1MC01RIM) Искажение: Координата штока ББ2" format="3"></var>
+<var  name="iEM_TERB1SS12LIM" description="(TERB1SS12LIM) Искажение: Магнит ББ2 зацеплен" format="3"></var>
+<var  name="iEM_TERR0IE43LIM" description="(TERR0IE43LIM) Исправность ВИП 0,5 (№19) КНК53М 4канала" format="3"></var>
+<var  name="iEM_TERR0IE41LIM" description="(TERR0IE41LIM) Исправность ВИП 1,6 (№17) СНМ11 4канала" format="3"></var>
+<var  name="lEM_A0EE06LC1" description="(A0EE06LC1) Исправность АКНП4 от диагностики контроллера (От ИС)" format="1"></var>
+<var  name="iEM_TERR0IE33LIM" description="(TERR0IE33LIM) Искажение:Исправность ВИП 0,5 (№16) КНК53М 3канала" format="3"></var>
+<var  name="iEM_TERR0IE31LIM" description="(TERR0IE31LIM) Искажение: Исправность ВИП 1,6 (№14) СНМ11 3канала" format="3"></var>
+<var  name="lEM_A0EE05LC1" description="(A0EE05LC1) Исправность АКНП3 от диагностики контроллера (От ИС)" format="1"></var>
+<var  name="iEM_TERR0IE11LIM" description="(TERR0IE11LIM) Искажение: Исправность ВИП 1,6 (№8) СНМ11 1канала" format="3"></var>
+<var  name="iEM_TERR0IE13LIM" description="(TERR0IE13LIM) Искажение: Исправность ВИП 0,5 (№10) КНК53М 1канала" format="3"></var>
+<var  name="lEM_A0EE03LC1" description="(A0EE03LC1) Исправность АКНП1 от диагностики контроллера (От ИС)" format="1"></var>
+<var  name="iEM_TERR0IE23LIM" description="(TERR0IE23LIM) Искажение: Исправность ВИП 0,5 (№13) КНК53М 2канала" format="3"></var>
+<var  name="iEM_TERR0IE21LIM" description="(TERR0IE21LIM) Искажение: Исправность ВИП 1,6 (№11) СНМ11 2канала" format="3"></var>
+<var  name="lEM_A0EE04LC1" description="(A0EE04LC1) Исправность АКНП2 от диагностики контроллера (От ИС)" format="1"></var>
+<var  name="iEM_TERTLG" description="(TERTLG) Неисправности  тележки от ИС" format="3"></var>
+<var  name="fEM_R4MC01RC1" description="(R4MC01RC1) Заданная координата тележки от ИС" format="8"></var>
+<var  name="fEM_R4MV01RC1" description="(R4MV01RC1) Заданная скорость тележки от ИС" format="8"></var>
+<var  name="iEM_TERMAZ2" description="(TERMAZ2) Неисправности АЗ2 от ИС" format="3"></var>
+<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) аданная координата АЗ2 от ИС" format="8"></var>
+<var  name="fEM_B8MV01RC1" description="(B8MV01RC1) Заданная скорость АЗ2 от ИС" format="8"></var>
+<var  name="iEM_TERDS2" description="(TERDS2) Неисправности ДС2 от ИС" format="3"></var>
+<var  name="fEM_A8MC01RC1" description="(A8MC01RC1) Заданная координата ДС2 от ИС" format="8"></var>
+<var  name="fEM_A8MV01RC1" description="(A8MV01RC1) Заданная скорость ДС2 от ИС" format="8"></var>
+<var  name="iEM_TERBZ1" description="(TERBZ1) Неисправности БЗ1" format="3"></var>
+<var  name="fEM_A6MC01RC1" description="(A6MC01RC1) Заданная координата БЗ1 от ИС" format="8"></var>
+<var  name="fEM_A6MV01RC1" description="(A6MV01RC1) Заданная скорость БЗ1 от ИС" format="8"></var>
+<var  name="iEM_TERBZ2" description="(TERBZ2) Неисправности БЗ2" format="3"></var>
+<var  name="fEM_B6MC01RC1" description="(B6MC01RC1) Заданная координата БЗ2 от ИС" format="8"></var>
+<var  name="fEM_B6MV01RC1" description="(B6MV01RC1) Заданная скорость БЗ2 от ИС" format="8"></var>
+<var  name="iEM_TERR3AD10LDU" description="(TERR3AD10LDU) Искажение: Гомогенные двери-1 открыть" format="3"></var>
+<var  name="iEM_TERR3AD20LDU" description="(TERR3AD20LDU) Искажение: Гомогенные двери-1 закрыть" format="3"></var>
+<var  name="iEM_TERR3AD11LDU" description="(TERR3AD11LDU) Искажение: Гомогенные двери-2 открыть" format="3"></var>
+<var  name="iEM_TERR3AD21LDU" description="(TERR3AD21LDU) Искажение: Гомогенные двери-2 закрыть" format="3"></var>
+<var  name="iEM_TERR5AD10LDU" description="(TERR5AD10LDU) Искажение: Открыть ворота отстойной зоны" format="3"></var>
+<var  name="iEM_TERR5AD20LDU" description="(TERR5AD20LDU) Искажение: Закрыть ворота отстойной зоны" format="3"></var>
+<var  name="lEM_R3AD10LC1" description="(R3AD10LC1) Гомогенные двери-1 открыть от ИС" format="1"></var>
+<var  name="lEM_R3AD20LC1" description="(R3AD20LC1) Гомогенные двери-1 закрыть от ИС" format="1"></var>
+<var  name="lEM_R3AD11LC1" description="(R3AD11LC1) Гомогенные двери-2 открыть от ИС" format="1"></var>
+<var  name="lEM_R3AD21LC1" description="(R3AD21LC1) Гомогенные двери-2 закрыть от ИС" format="1"></var>
+<var  name="lEM_R6AD10LC1" description="(R6AD10LC1) Выкатить кран-балку от ИС" format="1"></var>
+<var  name="lEM_R5AD10LC1" description="(R5AD10LC1) Открыть ворота отстойной зоны от ИС" format="1"></var>
+<var  name="lEM_R5AD20LC1" description="(R5AD20LC1) Закрыть ворота отстойной зоны от ИС" format="1"></var>
+<var  name="iEM_TERMDZ2" description="(TERMDZ2) Неисправности МДЗ2" format="3"></var>
+<var  name="fEM_R2MC01RC1" description="(R2MC01RC1) Заданная координата МДЗ2 от ИС" format="8"></var>
+<var  name="fEM_R2MV01RC1" description="(R2MV01RC1) Заданная скорость МДЗ2 от ИС" format="8"></var>
+<var  name="iEM_TERMDZ1" description="(TERMDZ1) Неисправности МДЗ1" format="3"></var>
+<var  name="fEM_R1MC01RC1" description="(R1MC01RC1) Заданная координата МДЗ1 от ИС" format="8"></var>
+<var  name="fEM_R1MV01RC1" description="(R1MV01RC1) Заданная скорость МДЗ1 от ИС" format="8"></var>
+<var  name="iEM_TERNL1" description="(TERNL1) Неисправности НЛ1" format="3"></var>
+<var  name="fEM_A5MC01RC1" description="(A5MC01RC1) Заданная координата НЛ1 от ИС" format="8"></var>
+<var  name="fEM_A5MV01RC1" description="(A5MV01RC1) Заданная скорость НЛ1 от ИС" format="8"></var>
+<var  name="iEM_TERNL2" description="(TERNL2) Неисправности НЛ2" format="3"></var>
+<var  name="fEM_B5MC01RC1" description="(B5MC01RC1) Заданная координата НЛ2 от ИС" format="8"></var>
+<var  name="fEM_B5MV01RC1" description="(B5MV01RC1) Заданная скорость НЛ2 от ИС" format="8"></var>
+<var  name="lEM_R8AD10LC1" description="(R8AD10LC1) Установить аварийный НИ от ИС" format="1"></var>
+<var  name="fEM_A1UC08RIM" description="(A1UC08RIM) Зона срабатывания КВ ББ(мм)" format="8"></var>
+<var  name="fEM_A2UC08RIM" description="(A2UC08RIM) Зона срабатывания КВ  РБ мм" format="8"></var>
+<var  name="fEM_A3UC08RIM" description="(A3UC08RIM) Зона срабатывания КВ ИС(мм)" format="8"></var>
+<var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
+<var  name="fEM_R0UL03RSS" description="(R0UL03RSS) Предельное время ожидания роста потока (сек)" format="8"></var>
+<var  name="iEM_TERB2SS33LIM" description="(TERB2SS33LIM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)" format="3"></var>
+<var  name="iEM_TERA1VP81LIM" description="(TERA1VP81LIM) Искажение: Текущее давление СБРОС ББ1  в норме" format="3"></var>
+<var  name="iEM_TERB1VP81LIM" description="(TERB1VP81LIM) Искажение: Текущее давление СБРОС ББ2  в норме" format="3"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m515_Out10" description="(internal1_m515_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -698,28 +698,32 @@
 <var  name="internal1_m447_q0" description="(internal1_m447_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m448_q0" description="(internal1_m448_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m449_q0" description="(internal1_m449_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m629_i_var" description="(internal1_m629_i_var) " format="8"></var>
-<var  name="internal1_m617_i_var" description="(internal1_m617_i_var) " format="8"></var>
+<var  name="internal1_m629_tx" description="(internal1_m629_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m629_y0" description="(internal1_m629_y0) y0" format="18"></var>
+<var  name="internal1_m617_tx" description="(internal1_m617_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m617_y0" description="(internal1_m617_y0) y0" format="18"></var>
 <var  name="internal1_m475_Out10" description="(internal1_m475_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m453_Out10" description="(internal1_m453_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m452_Out10" description="(internal1_m452_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m451_Out10" description="(internal1_m451_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m450_Out10" description="(internal1_m450_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m474_Out10" description="(internal1_m474_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m607_i_var" description="(internal1_m607_i_var) " format="8"></var>
-<var  name="internal1_m605_i_var" description="(internal1_m605_i_var) " format="8"></var>
+<var  name="internal1_m607_tx" description="(internal1_m607_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m607_y0" description="(internal1_m607_y0) y0" format="18"></var>
+<var  name="internal1_m605_tx" description="(internal1_m605_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m605_y0" description="(internal1_m605_y0) y0" format="18"></var>
 <var  name="internal1_m190_Out10" description="(internal1_m190_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m208_Out10" description="(internal1_m208_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m207_Out10" description="(internal1_m207_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m39_Out10" description="(internal1_m39_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m54_Out10" description="(internal1_m54_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1198_Out10" description="(internal1_m1198_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1195_Out10" description="(internal1_m1195_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1194_Out10" description="(internal1_m1194_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1197_Xtek0" description="(internal1_m1197_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m1183_Xtek0" description="(internal1_m1183_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m1184_Out10" description="(internal1_m1184_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1181_Out10" description="(internal1_m1181_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1180_Out10" description="(internal1_m1180_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1196_Out10" description="(internal1_m1196_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1193_Out10" description="(internal1_m1193_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1192_Out10" description="(internal1_m1192_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1195_Xtek0" description="(internal1_m1195_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m1181_Xtek0" description="(internal1_m1181_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m1182_Out10" description="(internal1_m1182_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1179_Out10" description="(internal1_m1179_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1178_Out10" description="(internal1_m1178_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m905_Out10" description="(internal1_m905_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m926_Out10" description="(internal1_m926_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m925_Out10" description="(internal1_m925_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -830,7 +834,7 @@
 <var  name="internal1_m795_MyFirstEnterFlag" description="(internal1_m795_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 <var  name="internal1_m758_Nk" description="(internal1_m758_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m179_tx" description="(internal1_m179_tx) tx - внутренний параметр" format="3"></var>
-<var  name="internal1_m23_tx" description="(internal1_m23_tx) tx - внутренний параметр" format="3"></var>
+<var  name="internal1_m24_tx" description="(internal1_m24_tx) tx - внутренний параметр" format="3"></var>
 <var  name="internal1_m461_X0" description="(internal1_m461_X0)  - координата механизма" format="8"></var>
 <var  name="internal1_m461_V0" description="(internal1_m461_V0)  - скорость механизма" format="8"></var>
 <var  name="internal1_m461_Pav0" description="(internal1_m461_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
@@ -1036,19 +1040,19 @@
 <var  name="internal1_m120_fls" description="(internal1_m120_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m120_flp" description="(internal1_m120_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m120_MyFirstEnterFlag" description="(internal1_m120_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m245_X0" description="(internal1_m245_X0) X0 - координата ОРР" format="8"></var>
-<var  name="internal1_m245_Sh0" description="(internal1_m245_Sh0) Sh0 - координата штока ОРР" format="8"></var>
-<var  name="internal1_m245_RV0" description="(internal1_m245_RV0) V0 - текущая скорость ОРР" format="8"></var>
-<var  name="internal1_m245_ShV0" description="(internal1_m245_ShV0) V0 - текущая скорость штока ОРР" format="8"></var>
-<var  name="internal1_m245_Ppv0" description="(internal1_m245_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m245_Pav0" description="(internal1_m245_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m245_Zav0" description="(internal1_m245_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m245_RA00" description="(internal1_m245_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m245_RA10" description="(internal1_m245_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m245_RA50" description="(internal1_m245_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m245_fls" description="(internal1_m245_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m245_flp" description="(internal1_m245_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m245_MyFirstEnterFlag" description="(internal1_m245_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m247_X0" description="(internal1_m247_X0) X0 - координата ОРР" format="8"></var>
+<var  name="internal1_m247_Sh0" description="(internal1_m247_Sh0) Sh0 - координата штока ОРР" format="8"></var>
+<var  name="internal1_m247_RV0" description="(internal1_m247_RV0) V0 - текущая скорость ОРР" format="8"></var>
+<var  name="internal1_m247_ShV0" description="(internal1_m247_ShV0) V0 - текущая скорость штока ОРР" format="8"></var>
+<var  name="internal1_m247_Ppv0" description="(internal1_m247_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m247_Pav0" description="(internal1_m247_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m247_Zav0" description="(internal1_m247_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m247_RA00" description="(internal1_m247_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m247_RA10" description="(internal1_m247_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m247_RA50" description="(internal1_m247_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m247_fls" description="(internal1_m247_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m247_flp" description="(internal1_m247_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m247_MyFirstEnterFlag" description="(internal1_m247_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m90_X0" description="(internal1_m90_X0) X0 - координата ОРР" format="8"></var>
 <var  name="internal1_m90_Sh0" description="(internal1_m90_Sh0) Sh0 - координата штока ОРР" format="8"></var>
 <var  name="internal1_m90_RV0" description="(internal1_m90_RV0) V0 - текущая скорость ОРР" format="8"></var>
@@ -1062,19 +1066,19 @@
 <var  name="internal1_m90_fls" description="(internal1_m90_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m90_flp" description="(internal1_m90_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m90_MyFirstEnterFlag" description="(internal1_m90_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m214_X0" description="(internal1_m214_X0) X0 - координата ОРР" format="8"></var>
-<var  name="internal1_m214_Sh0" description="(internal1_m214_Sh0) Sh0 - координата штока ОРР" format="8"></var>
-<var  name="internal1_m214_RV0" description="(internal1_m214_RV0) V0 - текущая скорость ОРР" format="8"></var>
-<var  name="internal1_m214_ShV0" description="(internal1_m214_ShV0) V0 - текущая скорость штока ОРР" format="8"></var>
-<var  name="internal1_m214_Ppv0" description="(internal1_m214_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m214_Pav0" description="(internal1_m214_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m214_Zav0" description="(internal1_m214_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m214_RA00" description="(internal1_m214_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m214_RA10" description="(internal1_m214_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m214_RA50" description="(internal1_m214_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m214_fls" description="(internal1_m214_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m214_flp" description="(internal1_m214_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m214_MyFirstEnterFlag" description="(internal1_m214_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m211_X0" description="(internal1_m211_X0) X0 - координата ОРР" format="8"></var>
+<var  name="internal1_m211_Sh0" description="(internal1_m211_Sh0) Sh0 - координата штока ОРР" format="8"></var>
+<var  name="internal1_m211_RV0" description="(internal1_m211_RV0) V0 - текущая скорость ОРР" format="8"></var>
+<var  name="internal1_m211_ShV0" description="(internal1_m211_ShV0) V0 - текущая скорость штока ОРР" format="8"></var>
+<var  name="internal1_m211_Ppv0" description="(internal1_m211_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m211_Pav0" description="(internal1_m211_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m211_Zav0" description="(internal1_m211_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m211_RA00" description="(internal1_m211_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m211_RA10" description="(internal1_m211_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m211_RA50" description="(internal1_m211_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m211_fls" description="(internal1_m211_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m211_flp" description="(internal1_m211_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m211_MyFirstEnterFlag" description="(internal1_m211_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m58_X0" description="(internal1_m58_X0) X0 - координата ОРР" format="8"></var>
 <var  name="internal1_m58_Sh0" description="(internal1_m58_Sh0) Sh0 - координата штока ОРР" format="8"></var>
 <var  name="internal1_m58_RV0" description="(internal1_m58_RV0) V0 - текущая скорость ОРР" format="8"></var>
