@@ -1079,41 +1079,41 @@
 <var  name="internal1_m1932_q0" description="(internal1_m1932_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1931_q0" description="(internal1_m1931_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m315_Step" description="(internal1_m315_Step)  - текущий шаг программы" format="3"></var>
-<var  name="internal1_m315_rz" description="(internal1_m315_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18"></var>
-<var  name="internal1_m315_TimS" description="(internal1_m315_TimS) Время от старта программы" format="8"></var>
-<var  name="internal1_m315_FinPr0" description="(internal1_m315_FinPr0) FinPr - конец программы" format="1"></var>
-<var  name="internal1_m315_ErrPr0" description="(internal1_m315_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1"></var>
-<var  name="internal1_m315_sbINI0" description="(internal1_m315_sbINI0) sbINI - запуск проверки ИНИ" format="1"></var>
-<var  name="internal1_m315_sbVuIS0" description="(internal1_m315_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1"></var>
-<var  name="internal1_m315_sb2UR0" description="(internal1_m315_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1"></var>
-<var  name="internal1_m315_sbNupIS0" description="(internal1_m315_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1"></var>
-<var  name="internal1_m315_sbVuRB0" description="(internal1_m315_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
-<var  name="internal1_m315_MyFirstEnterFlag" description="(internal1_m315_MyFirstEnterFlag)  " format="1"></var>
+<var  name="internal1_m315_rz" description="(internal1_m315_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="10"></var>
+<var  name="internal1_m315_TimS" description="(internal1_m315_TimS) Время от старта программы" format="8" size="10"></var>
+<var  name="internal1_m315_FinPr0" description="(internal1_m315_FinPr0) FinPr - конец программы" format="1" size="10"></var>
+<var  name="internal1_m315_ErrPr0" description="(internal1_m315_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1" size="10"></var>
+<var  name="internal1_m315_sbINI0" description="(internal1_m315_sbINI0) sbINI - запуск проверки ИНИ" format="1" size="10"></var>
+<var  name="internal1_m315_sbVuIS0" description="(internal1_m315_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1" size="10"></var>
+<var  name="internal1_m315_sb2UR0" description="(internal1_m315_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1" size="10"></var>
+<var  name="internal1_m315_sbNupIS0" description="(internal1_m315_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1" size="10"></var>
+<var  name="internal1_m315_sbVuRB0" description="(internal1_m315_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1" size="10"></var>
+<var  name="internal1_m315_MyFirstEnterFlag" description="(internal1_m315_MyFirstEnterFlag)  " format="1" size="10"></var>
 <var  name="internal1_m323_x0" description="(internal1_m323_x0) x0 - значение входного параметра на предыдущем шаге" format="5"></var>
 <var  name="internal1_m284_TimS" description="(internal1_m284_TimS) Время старта" format="5"></var>
 <var  name="internal1_m261_Step" description="(internal1_m261_Step)  - текущий шаг программы" format="3"></var>
-<var  name="internal1_m261_rz" description="(internal1_m261_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18"></var>
-<var  name="internal1_m261_TimS" description="(internal1_m261_TimS) Время от старта программы" format="8"></var>
-<var  name="internal1_m261_FinPr0" description="(internal1_m261_FinPr0) FinPr - конец программы" format="1"></var>
-<var  name="internal1_m261_ErrPr0" description="(internal1_m261_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1"></var>
-<var  name="internal1_m261_sbINI0" description="(internal1_m261_sbINI0) sbINI - запуск проверки ИНИ" format="1"></var>
-<var  name="internal1_m261_sbVuIS0" description="(internal1_m261_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1"></var>
-<var  name="internal1_m261_sb2UR0" description="(internal1_m261_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1"></var>
-<var  name="internal1_m261_sbNupIS0" description="(internal1_m261_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1"></var>
-<var  name="internal1_m261_sbVuRB0" description="(internal1_m261_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
-<var  name="internal1_m261_MyFirstEnterFlag" description="(internal1_m261_MyFirstEnterFlag)  " format="1"></var>
+<var  name="internal1_m261_rz" description="(internal1_m261_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="10"></var>
+<var  name="internal1_m261_TimS" description="(internal1_m261_TimS) Время от старта программы" format="8" size="10"></var>
+<var  name="internal1_m261_FinPr0" description="(internal1_m261_FinPr0) FinPr - конец программы" format="1" size="10"></var>
+<var  name="internal1_m261_ErrPr0" description="(internal1_m261_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1" size="10"></var>
+<var  name="internal1_m261_sbINI0" description="(internal1_m261_sbINI0) sbINI - запуск проверки ИНИ" format="1" size="10"></var>
+<var  name="internal1_m261_sbVuIS0" description="(internal1_m261_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1" size="10"></var>
+<var  name="internal1_m261_sb2UR0" description="(internal1_m261_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1" size="10"></var>
+<var  name="internal1_m261_sbNupIS0" description="(internal1_m261_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1" size="10"></var>
+<var  name="internal1_m261_sbVuRB0" description="(internal1_m261_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1" size="10"></var>
+<var  name="internal1_m261_MyFirstEnterFlag" description="(internal1_m261_MyFirstEnterFlag)  " format="1" size="10"></var>
 <var  name="internal1_m1402_q0" description="(internal1_m1402_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1403_Step" description="(internal1_m1403_Step)  - текущий шаг программы" format="3"></var>
-<var  name="internal1_m1403_rz" description="(internal1_m1403_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18"></var>
-<var  name="internal1_m1403_TimS" description="(internal1_m1403_TimS) Время от старта программы" format="8"></var>
-<var  name="internal1_m1403_FinPr0" description="(internal1_m1403_FinPr0) FinPr - конец программы" format="1"></var>
-<var  name="internal1_m1403_ErrPr0" description="(internal1_m1403_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1"></var>
-<var  name="internal1_m1403_sbINI0" description="(internal1_m1403_sbINI0) sbINI - запуск проверки ИНИ" format="1"></var>
-<var  name="internal1_m1403_sbVuIS0" description="(internal1_m1403_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1"></var>
-<var  name="internal1_m1403_sb2UR0" description="(internal1_m1403_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1"></var>
-<var  name="internal1_m1403_sbNupIS0" description="(internal1_m1403_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1"></var>
-<var  name="internal1_m1403_sbVuRB0" description="(internal1_m1403_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
-<var  name="internal1_m1403_MyFirstEnterFlag" description="(internal1_m1403_MyFirstEnterFlag)  " format="1"></var>
+<var  name="internal1_m1403_rz" description="(internal1_m1403_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="6"></var>
+<var  name="internal1_m1403_TimS" description="(internal1_m1403_TimS) Время от старта программы" format="8" size="6"></var>
+<var  name="internal1_m1403_FinPr0" description="(internal1_m1403_FinPr0) FinPr - конец программы" format="1" size="6"></var>
+<var  name="internal1_m1403_ErrPr0" description="(internal1_m1403_ErrPr0) ErrPr - Приостановка программы по ошибке" format="1" size="6"></var>
+<var  name="internal1_m1403_sbINI0" description="(internal1_m1403_sbINI0) sbINI - запуск проверки ИНИ" format="1" size="6"></var>
+<var  name="internal1_m1403_sbVuIS0" description="(internal1_m1403_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС" format="1" size="6"></var>
+<var  name="internal1_m1403_sb2UR0" description="(internal1_m1403_sb2UR0) sb2UR - запуск проверки сброса от 2УР" format="1" size="6"></var>
+<var  name="internal1_m1403_sbNupIS0" description="(internal1_m1403_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1" size="6"></var>
+<var  name="internal1_m1403_sbVuRB0" description="(internal1_m1403_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1" size="6"></var>
+<var  name="internal1_m1403_MyFirstEnterFlag" description="(internal1_m1403_MyFirstEnterFlag)  " format="1" size="6"></var>
 <var  name="internal1_m1025_q0" description="(internal1_m1025_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1022_q0" description="(internal1_m1022_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1024_q0" description="(internal1_m1024_q0) q0 - внутренний параметр" format="1"></var>
@@ -1298,27 +1298,27 @@
 <var  name="internal1_m1319_tx" description="(internal1_m1319_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1319_y0" description="(internal1_m1319_y0) y0" format="18"></var>
 <var  name="internal1_m1325_xptr" description="(internal1_m1325_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m1325_x0" description="(internal1_m1325_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m1325_tim0" description="(internal1_m1325_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m1325_mcount" description="(internal1_m1325_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m1325_sumtim" description="(internal1_m1325_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1325_sumtakt" description="(internal1_m1325_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1325_StSpeed" description="(internal1_m1325_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m1325_Vz0" description="(internal1_m1325_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m1325_flRazg" description="(internal1_m1325_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m1325_DelSp" description="(internal1_m1325_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m1325_z0" description="(internal1_m1325_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m1325_txZS" description="(internal1_m1325_txZS) txZS" format="8"></var>
-<var  name="internal1_m1325_tx" description="(internal1_m1325_tx) tx" format="8"></var>
-<var  name="internal1_m1325_txd" description="(internal1_m1325_txd) txd" format="8"></var>
-<var  name="internal1_m1325_txMBl" description="(internal1_m1325_txMBl) tx" format="8"></var>
-<var  name="internal1_m1325_txBl" description="(internal1_m1325_txBl) tx" format="8"></var>
-<var  name="internal1_m1325_Speed0" description="(internal1_m1325_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m1325_xz0" description="(internal1_m1325_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m1325_tz0" description="(internal1_m1325_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m1325_Shift0" description="(internal1_m1325_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m1325_ShCntlSp0" description="(internal1_m1325_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m1325_ShiftControl" description="(internal1_m1325_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m1325_x0" description="(internal1_m1325_x0) x0 - массив мгновенных значений координат" format="8" size="60"></var>
+<var  name="internal1_m1325_tim0" description="(internal1_m1325_tim0) tim0 - массив значений времени цикла" format="8" size="60"></var>
+<var  name="internal1_m1325_mcount" description="(internal1_m1325_mcount) count - счетчик заполнения массива значений координат" format="3" size="60"></var>
+<var  name="internal1_m1325_sumtim" description="(internal1_m1325_sumtim) sumtim - время в пути" format="8" size="60"></var>
+<var  name="internal1_m1325_sumtakt" description="(internal1_m1325_sumtakt) sumtim - время в пути" format="8" size="60"></var>
+<var  name="internal1_m1325_StSpeed" description="(internal1_m1325_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="60"></var>
+<var  name="internal1_m1325_Vz0" description="(internal1_m1325_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="60"></var>
+<var  name="internal1_m1325_flRazg" description="(internal1_m1325_flRazg) признак разгона/торможения" format="3" size="60"></var>
+<var  name="internal1_m1325_DelSp" description="(internal1_m1325_DelSp) DelSp - время переключения скоростей" format="8" size="60"></var>
+<var  name="internal1_m1325_z0" description="(internal1_m1325_z0) z0 - точка прекращения движения" format="8" size="60"></var>
+<var  name="internal1_m1325_txZS" description="(internal1_m1325_txZS) txZS" format="8" size="60"></var>
+<var  name="internal1_m1325_tx" description="(internal1_m1325_tx) tx" format="8" size="60"></var>
+<var  name="internal1_m1325_txd" description="(internal1_m1325_txd) txd" format="8" size="60"></var>
+<var  name="internal1_m1325_txMBl" description="(internal1_m1325_txMBl) tx" format="8" size="60"></var>
+<var  name="internal1_m1325_txBl" description="(internal1_m1325_txBl) tx" format="8" size="60"></var>
+<var  name="internal1_m1325_Speed0" description="(internal1_m1325_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="60"></var>
+<var  name="internal1_m1325_xz0" description="(internal1_m1325_xz0) xz0 - новое задание мм" format="8" size="60"></var>
+<var  name="internal1_m1325_tz0" description="(internal1_m1325_tz0) tz0 - время защиты от нового задания сек" format="8" size="60"></var>
+<var  name="internal1_m1325_Shift0" description="(internal1_m1325_Shift0) Shift0 - признак самохода" format="1" size="60"></var>
+<var  name="internal1_m1325_ShCntlSp0" description="(internal1_m1325_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="60"></var>
+<var  name="internal1_m1325_ShiftControl" description="(internal1_m1325_ShiftControl) ShiftControl - признак самохода" format="1" size="60"></var>
 <var  name="internal1_m618_q0" description="(internal1_m618_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m892_X0" description="(internal1_m892_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)" format="8"></var>
 <var  name="internal1_m892_t0" description="(internal1_m892_t0) время нахождения в зоне возврата" format="8"></var>
@@ -1328,27 +1328,27 @@
 <var  name="internal1_m917_tx" description="(internal1_m917_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m917_y0" description="(internal1_m917_y0) y0" format="18"></var>
 <var  name="internal1_m925_xptr" description="(internal1_m925_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m925_x0" description="(internal1_m925_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m925_tim0" description="(internal1_m925_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m925_mcount" description="(internal1_m925_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m925_sumtim" description="(internal1_m925_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m925_sumtakt" description="(internal1_m925_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m925_StSpeed" description="(internal1_m925_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m925_Vz0" description="(internal1_m925_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m925_flRazg" description="(internal1_m925_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m925_DelSp" description="(internal1_m925_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m925_z0" description="(internal1_m925_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m925_txZS" description="(internal1_m925_txZS) txZS" format="8"></var>
-<var  name="internal1_m925_tx" description="(internal1_m925_tx) tx" format="8"></var>
-<var  name="internal1_m925_txd" description="(internal1_m925_txd) txd" format="8"></var>
-<var  name="internal1_m925_txMBl" description="(internal1_m925_txMBl) tx" format="8"></var>
-<var  name="internal1_m925_txBl" description="(internal1_m925_txBl) tx" format="8"></var>
-<var  name="internal1_m925_Speed0" description="(internal1_m925_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m925_xz0" description="(internal1_m925_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m925_tz0" description="(internal1_m925_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m925_Shift0" description="(internal1_m925_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m925_ShCntlSp0" description="(internal1_m925_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m925_ShiftControl" description="(internal1_m925_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m925_x0" description="(internal1_m925_x0) x0 - массив мгновенных значений координат" format="8" size="60"></var>
+<var  name="internal1_m925_tim0" description="(internal1_m925_tim0) tim0 - массив значений времени цикла" format="8" size="60"></var>
+<var  name="internal1_m925_mcount" description="(internal1_m925_mcount) count - счетчик заполнения массива значений координат" format="3" size="60"></var>
+<var  name="internal1_m925_sumtim" description="(internal1_m925_sumtim) sumtim - время в пути" format="8" size="60"></var>
+<var  name="internal1_m925_sumtakt" description="(internal1_m925_sumtakt) sumtim - время в пути" format="8" size="60"></var>
+<var  name="internal1_m925_StSpeed" description="(internal1_m925_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="60"></var>
+<var  name="internal1_m925_Vz0" description="(internal1_m925_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="60"></var>
+<var  name="internal1_m925_flRazg" description="(internal1_m925_flRazg) признак разгона/торможения" format="3" size="60"></var>
+<var  name="internal1_m925_DelSp" description="(internal1_m925_DelSp) DelSp - время переключения скоростей" format="8" size="60"></var>
+<var  name="internal1_m925_z0" description="(internal1_m925_z0) z0 - точка прекращения движения" format="8" size="60"></var>
+<var  name="internal1_m925_txZS" description="(internal1_m925_txZS) txZS" format="8" size="60"></var>
+<var  name="internal1_m925_tx" description="(internal1_m925_tx) tx" format="8" size="60"></var>
+<var  name="internal1_m925_txd" description="(internal1_m925_txd) txd" format="8" size="60"></var>
+<var  name="internal1_m925_txMBl" description="(internal1_m925_txMBl) tx" format="8" size="60"></var>
+<var  name="internal1_m925_txBl" description="(internal1_m925_txBl) tx" format="8" size="60"></var>
+<var  name="internal1_m925_Speed0" description="(internal1_m925_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="60"></var>
+<var  name="internal1_m925_xz0" description="(internal1_m925_xz0) xz0 - новое задание мм" format="8" size="60"></var>
+<var  name="internal1_m925_tz0" description="(internal1_m925_tz0) tz0 - время защиты от нового задания сек" format="8" size="60"></var>
+<var  name="internal1_m925_Shift0" description="(internal1_m925_Shift0) Shift0 - признак самохода" format="1" size="60"></var>
+<var  name="internal1_m925_ShCntlSp0" description="(internal1_m925_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="60"></var>
+<var  name="internal1_m925_ShiftControl" description="(internal1_m925_ShiftControl) ShiftControl - признак самохода" format="1" size="60"></var>
 <var  name="internal1_m491_X0" description="(internal1_m491_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)" format="8"></var>
 <var  name="internal1_m491_t0" description="(internal1_m491_t0) время нахождения в зоне возврата" format="8"></var>
 <var  name="internal1_m491_BLDv0" description="(internal1_m491_BLDv0) BlDv - Блокировка движения" format="18"></var>
@@ -1357,53 +1357,53 @@
 <var  name="internal1_m514_tx" description="(internal1_m514_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m514_y0" description="(internal1_m514_y0) y0" format="18"></var>
 <var  name="internal1_m518_xptr" description="(internal1_m518_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m518_x0" description="(internal1_m518_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m518_tim0" description="(internal1_m518_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m518_mcount" description="(internal1_m518_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m518_sumtim" description="(internal1_m518_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m518_sumtakt" description="(internal1_m518_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m518_StSpeed" description="(internal1_m518_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m518_Vz0" description="(internal1_m518_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m518_flRazg" description="(internal1_m518_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m518_DelSp" description="(internal1_m518_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m518_z0" description="(internal1_m518_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m518_txZS" description="(internal1_m518_txZS) txZS" format="8"></var>
-<var  name="internal1_m518_tx" description="(internal1_m518_tx) tx" format="8"></var>
-<var  name="internal1_m518_txd" description="(internal1_m518_txd) txd" format="8"></var>
-<var  name="internal1_m518_txMBl" description="(internal1_m518_txMBl) tx" format="8"></var>
-<var  name="internal1_m518_txBl" description="(internal1_m518_txBl) tx" format="8"></var>
-<var  name="internal1_m518_Speed0" description="(internal1_m518_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m518_xz0" description="(internal1_m518_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m518_tz0" description="(internal1_m518_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m518_Shift0" description="(internal1_m518_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m518_ShCntlSp0" description="(internal1_m518_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m518_ShiftControl" description="(internal1_m518_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m518_x0" description="(internal1_m518_x0) x0 - массив мгновенных значений координат" format="8" size="150"></var>
+<var  name="internal1_m518_tim0" description="(internal1_m518_tim0) tim0 - массив значений времени цикла" format="8" size="150"></var>
+<var  name="internal1_m518_mcount" description="(internal1_m518_mcount) count - счетчик заполнения массива значений координат" format="3" size="150"></var>
+<var  name="internal1_m518_sumtim" description="(internal1_m518_sumtim) sumtim - время в пути" format="8" size="150"></var>
+<var  name="internal1_m518_sumtakt" description="(internal1_m518_sumtakt) sumtim - время в пути" format="8" size="150"></var>
+<var  name="internal1_m518_StSpeed" description="(internal1_m518_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="150"></var>
+<var  name="internal1_m518_Vz0" description="(internal1_m518_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="150"></var>
+<var  name="internal1_m518_flRazg" description="(internal1_m518_flRazg) признак разгона/торможения" format="3" size="150"></var>
+<var  name="internal1_m518_DelSp" description="(internal1_m518_DelSp) DelSp - время переключения скоростей" format="8" size="150"></var>
+<var  name="internal1_m518_z0" description="(internal1_m518_z0) z0 - точка прекращения движения" format="8" size="150"></var>
+<var  name="internal1_m518_txZS" description="(internal1_m518_txZS) txZS" format="8" size="150"></var>
+<var  name="internal1_m518_tx" description="(internal1_m518_tx) tx" format="8" size="150"></var>
+<var  name="internal1_m518_txd" description="(internal1_m518_txd) txd" format="8" size="150"></var>
+<var  name="internal1_m518_txMBl" description="(internal1_m518_txMBl) tx" format="8" size="150"></var>
+<var  name="internal1_m518_txBl" description="(internal1_m518_txBl) tx" format="8" size="150"></var>
+<var  name="internal1_m518_Speed0" description="(internal1_m518_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="150"></var>
+<var  name="internal1_m518_xz0" description="(internal1_m518_xz0) xz0 - новое задание мм" format="8" size="150"></var>
+<var  name="internal1_m518_tz0" description="(internal1_m518_tz0) tz0 - время защиты от нового задания сек" format="8" size="150"></var>
+<var  name="internal1_m518_Shift0" description="(internal1_m518_Shift0) Shift0 - признак самохода" format="1" size="150"></var>
+<var  name="internal1_m518_ShCntlSp0" description="(internal1_m518_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="150"></var>
+<var  name="internal1_m518_ShiftControl" description="(internal1_m518_ShiftControl) ShiftControl - признак самохода" format="1" size="150"></var>
 <var  name="internal1_m615_q0" description="(internal1_m615_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m163_X0" description="(internal1_m163_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)" format="8"></var>
 <var  name="internal1_m163_t0" description="(internal1_m163_t0) время нахождения в зоне возврата" format="8"></var>
 <var  name="internal1_m163_BLDv0" description="(internal1_m163_BLDv0) BlDv - Блокировка движения" format="18"></var>
 <var  name="internal1_m192_xptr" description="(internal1_m192_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m192_x0" description="(internal1_m192_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m192_tim0" description="(internal1_m192_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m192_mcount" description="(internal1_m192_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m192_sumtim" description="(internal1_m192_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m192_sumtakt" description="(internal1_m192_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m192_StSpeed" description="(internal1_m192_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m192_Vz0" description="(internal1_m192_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m192_flRazg" description="(internal1_m192_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m192_DelSp" description="(internal1_m192_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m192_z0" description="(internal1_m192_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m192_txZS" description="(internal1_m192_txZS) txZS" format="8"></var>
-<var  name="internal1_m192_tx" description="(internal1_m192_tx) tx" format="8"></var>
-<var  name="internal1_m192_txd" description="(internal1_m192_txd) txd" format="8"></var>
-<var  name="internal1_m192_txMBl" description="(internal1_m192_txMBl) tx" format="8"></var>
-<var  name="internal1_m192_txBl" description="(internal1_m192_txBl) tx" format="8"></var>
-<var  name="internal1_m192_Speed0" description="(internal1_m192_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m192_xz0" description="(internal1_m192_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m192_tz0" description="(internal1_m192_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m192_Shift0" description="(internal1_m192_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m192_ShCntlSp0" description="(internal1_m192_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m192_ShiftControl" description="(internal1_m192_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m192_x0" description="(internal1_m192_x0) x0 - массив мгновенных значений координат" format="8" size="150"></var>
+<var  name="internal1_m192_tim0" description="(internal1_m192_tim0) tim0 - массив значений времени цикла" format="8" size="150"></var>
+<var  name="internal1_m192_mcount" description="(internal1_m192_mcount) count - счетчик заполнения массива значений координат" format="3" size="150"></var>
+<var  name="internal1_m192_sumtim" description="(internal1_m192_sumtim) sumtim - время в пути" format="8" size="150"></var>
+<var  name="internal1_m192_sumtakt" description="(internal1_m192_sumtakt) sumtim - время в пути" format="8" size="150"></var>
+<var  name="internal1_m192_StSpeed" description="(internal1_m192_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="150"></var>
+<var  name="internal1_m192_Vz0" description="(internal1_m192_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="150"></var>
+<var  name="internal1_m192_flRazg" description="(internal1_m192_flRazg) признак разгона/торможения" format="3" size="150"></var>
+<var  name="internal1_m192_DelSp" description="(internal1_m192_DelSp) DelSp - время переключения скоростей" format="8" size="150"></var>
+<var  name="internal1_m192_z0" description="(internal1_m192_z0) z0 - точка прекращения движения" format="8" size="150"></var>
+<var  name="internal1_m192_txZS" description="(internal1_m192_txZS) txZS" format="8" size="150"></var>
+<var  name="internal1_m192_tx" description="(internal1_m192_tx) tx" format="8" size="150"></var>
+<var  name="internal1_m192_txd" description="(internal1_m192_txd) txd" format="8" size="150"></var>
+<var  name="internal1_m192_txMBl" description="(internal1_m192_txMBl) tx" format="8" size="150"></var>
+<var  name="internal1_m192_txBl" description="(internal1_m192_txBl) tx" format="8" size="150"></var>
+<var  name="internal1_m192_Speed0" description="(internal1_m192_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="150"></var>
+<var  name="internal1_m192_xz0" description="(internal1_m192_xz0) xz0 - новое задание мм" format="8" size="150"></var>
+<var  name="internal1_m192_tz0" description="(internal1_m192_tz0) tz0 - время защиты от нового задания сек" format="8" size="150"></var>
+<var  name="internal1_m192_Shift0" description="(internal1_m192_Shift0) Shift0 - признак самохода" format="1" size="150"></var>
+<var  name="internal1_m192_ShCntlSp0" description="(internal1_m192_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="150"></var>
+<var  name="internal1_m192_ShiftControl" description="(internal1_m192_ShiftControl) ShiftControl - признак самохода" format="1" size="150"></var>
 <var  name="internal1_m641_q0" description="(internal1_m641_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m462_DvUp0" description="(internal1_m462_DvUp0) - есть команда на движение вперёд" format="18"></var>
 <var  name="internal1_m462_DvDw0" description="(internal1_m462_DvDw0) - есть команда на движение назад" format="18"></var>
@@ -1437,27 +1437,27 @@
 <var  name="internal1_m811_t0" description="(internal1_m811_t0) время нахождения в зоне возврата" format="8"></var>
 <var  name="internal1_m811_BLDv0" description="(internal1_m811_BLDv0) BlDv - Блокировка движения" format="18"></var>
 <var  name="internal1_m831_xptr" description="(internal1_m831_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m831_x0" description="(internal1_m831_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m831_tim0" description="(internal1_m831_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m831_mcount" description="(internal1_m831_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m831_sumtim" description="(internal1_m831_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m831_sumtakt" description="(internal1_m831_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m831_StSpeed" description="(internal1_m831_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m831_Vz0" description="(internal1_m831_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m831_flRazg" description="(internal1_m831_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m831_DelSp" description="(internal1_m831_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m831_z0" description="(internal1_m831_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m831_txZS" description="(internal1_m831_txZS) txZS" format="8"></var>
-<var  name="internal1_m831_tx" description="(internal1_m831_tx) tx" format="8"></var>
-<var  name="internal1_m831_txd" description="(internal1_m831_txd) txd" format="8"></var>
-<var  name="internal1_m831_txMBl" description="(internal1_m831_txMBl) tx" format="8"></var>
-<var  name="internal1_m831_txBl" description="(internal1_m831_txBl) tx" format="8"></var>
-<var  name="internal1_m831_Speed0" description="(internal1_m831_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m831_xz0" description="(internal1_m831_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m831_tz0" description="(internal1_m831_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m831_Shift0" description="(internal1_m831_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m831_ShCntlSp0" description="(internal1_m831_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m831_ShiftControl" description="(internal1_m831_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m831_x0" description="(internal1_m831_x0) x0 - массив мгновенных значений координат" format="8" size="80"></var>
+<var  name="internal1_m831_tim0" description="(internal1_m831_tim0) tim0 - массив значений времени цикла" format="8" size="80"></var>
+<var  name="internal1_m831_mcount" description="(internal1_m831_mcount) count - счетчик заполнения массива значений координат" format="3" size="80"></var>
+<var  name="internal1_m831_sumtim" description="(internal1_m831_sumtim) sumtim - время в пути" format="8" size="80"></var>
+<var  name="internal1_m831_sumtakt" description="(internal1_m831_sumtakt) sumtim - время в пути" format="8" size="80"></var>
+<var  name="internal1_m831_StSpeed" description="(internal1_m831_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="80"></var>
+<var  name="internal1_m831_Vz0" description="(internal1_m831_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="80"></var>
+<var  name="internal1_m831_flRazg" description="(internal1_m831_flRazg) признак разгона/торможения" format="3" size="80"></var>
+<var  name="internal1_m831_DelSp" description="(internal1_m831_DelSp) DelSp - время переключения скоростей" format="8" size="80"></var>
+<var  name="internal1_m831_z0" description="(internal1_m831_z0) z0 - точка прекращения движения" format="8" size="80"></var>
+<var  name="internal1_m831_txZS" description="(internal1_m831_txZS) txZS" format="8" size="80"></var>
+<var  name="internal1_m831_tx" description="(internal1_m831_tx) tx" format="8" size="80"></var>
+<var  name="internal1_m831_txd" description="(internal1_m831_txd) txd" format="8" size="80"></var>
+<var  name="internal1_m831_txMBl" description="(internal1_m831_txMBl) tx" format="8" size="80"></var>
+<var  name="internal1_m831_txBl" description="(internal1_m831_txBl) tx" format="8" size="80"></var>
+<var  name="internal1_m831_Speed0" description="(internal1_m831_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="80"></var>
+<var  name="internal1_m831_xz0" description="(internal1_m831_xz0) xz0 - новое задание мм" format="8" size="80"></var>
+<var  name="internal1_m831_tz0" description="(internal1_m831_tz0) tz0 - время защиты от нового задания сек" format="8" size="80"></var>
+<var  name="internal1_m831_Shift0" description="(internal1_m831_Shift0) Shift0 - признак самохода" format="1" size="80"></var>
+<var  name="internal1_m831_ShCntlSp0" description="(internal1_m831_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="80"></var>
+<var  name="internal1_m831_ShiftControl" description="(internal1_m831_ShiftControl) ShiftControl - признак самохода" format="1" size="80"></var>
 <var  name="internal1_m1584_X0" description="(internal1_m1584_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)" format="8"></var>
 <var  name="internal1_m1584_t0" description="(internal1_m1584_t0) время нахождения в зоне возврата" format="8"></var>
 <var  name="internal1_m1584_BLDv0" description="(internal1_m1584_BLDv0) BlDv - Блокировка движения" format="18"></var>
@@ -1473,27 +1473,27 @@
 <var  name="internal1_m1227_tx" description="(internal1_m1227_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1227_y0" description="(internal1_m1227_y0) y0" format="18"></var>
 <var  name="internal1_m1232_xptr" description="(internal1_m1232_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m1232_x0" description="(internal1_m1232_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m1232_tim0" description="(internal1_m1232_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m1232_mcount" description="(internal1_m1232_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m1232_sumtim" description="(internal1_m1232_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1232_sumtakt" description="(internal1_m1232_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1232_StSpeed" description="(internal1_m1232_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m1232_Vz0" description="(internal1_m1232_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m1232_flRazg" description="(internal1_m1232_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m1232_DelSp" description="(internal1_m1232_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m1232_z0" description="(internal1_m1232_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m1232_txZS" description="(internal1_m1232_txZS) txZS" format="8"></var>
-<var  name="internal1_m1232_tx" description="(internal1_m1232_tx) tx" format="8"></var>
-<var  name="internal1_m1232_txd" description="(internal1_m1232_txd) txd" format="8"></var>
-<var  name="internal1_m1232_txMBl" description="(internal1_m1232_txMBl) tx" format="8"></var>
-<var  name="internal1_m1232_txBl" description="(internal1_m1232_txBl) tx" format="8"></var>
-<var  name="internal1_m1232_Speed0" description="(internal1_m1232_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m1232_xz0" description="(internal1_m1232_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m1232_tz0" description="(internal1_m1232_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m1232_Shift0" description="(internal1_m1232_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m1232_ShCntlSp0" description="(internal1_m1232_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m1232_ShiftControl" description="(internal1_m1232_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m1232_x0" description="(internal1_m1232_x0) x0 - массив мгновенных значений координат" format="8" size="80"></var>
+<var  name="internal1_m1232_tim0" description="(internal1_m1232_tim0) tim0 - массив значений времени цикла" format="8" size="80"></var>
+<var  name="internal1_m1232_mcount" description="(internal1_m1232_mcount) count - счетчик заполнения массива значений координат" format="3" size="80"></var>
+<var  name="internal1_m1232_sumtim" description="(internal1_m1232_sumtim) sumtim - время в пути" format="8" size="80"></var>
+<var  name="internal1_m1232_sumtakt" description="(internal1_m1232_sumtakt) sumtim - время в пути" format="8" size="80"></var>
+<var  name="internal1_m1232_StSpeed" description="(internal1_m1232_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="80"></var>
+<var  name="internal1_m1232_Vz0" description="(internal1_m1232_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="80"></var>
+<var  name="internal1_m1232_flRazg" description="(internal1_m1232_flRazg) признак разгона/торможения" format="3" size="80"></var>
+<var  name="internal1_m1232_DelSp" description="(internal1_m1232_DelSp) DelSp - время переключения скоростей" format="8" size="80"></var>
+<var  name="internal1_m1232_z0" description="(internal1_m1232_z0) z0 - точка прекращения движения" format="8" size="80"></var>
+<var  name="internal1_m1232_txZS" description="(internal1_m1232_txZS) txZS" format="8" size="80"></var>
+<var  name="internal1_m1232_tx" description="(internal1_m1232_tx) tx" format="8" size="80"></var>
+<var  name="internal1_m1232_txd" description="(internal1_m1232_txd) txd" format="8" size="80"></var>
+<var  name="internal1_m1232_txMBl" description="(internal1_m1232_txMBl) tx" format="8" size="80"></var>
+<var  name="internal1_m1232_txBl" description="(internal1_m1232_txBl) tx" format="8" size="80"></var>
+<var  name="internal1_m1232_Speed0" description="(internal1_m1232_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="80"></var>
+<var  name="internal1_m1232_xz0" description="(internal1_m1232_xz0) xz0 - новое задание мм" format="8" size="80"></var>
+<var  name="internal1_m1232_tz0" description="(internal1_m1232_tz0) tz0 - время защиты от нового задания сек" format="8" size="80"></var>
+<var  name="internal1_m1232_Shift0" description="(internal1_m1232_Shift0) Shift0 - признак самохода" format="1" size="80"></var>
+<var  name="internal1_m1232_ShCntlSp0" description="(internal1_m1232_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="80"></var>
+<var  name="internal1_m1232_ShiftControl" description="(internal1_m1232_ShiftControl) ShiftControl - признак самохода" format="1" size="80"></var>
 <var  name="internal1_m633_q0" description="(internal1_m633_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1597_tx" description="(internal1_m1597_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1597_y0" description="(internal1_m1597_y0) y0" format="18"></var>
@@ -1514,27 +1514,27 @@
 <var  name="internal1_m1587_txLd" description="(internal1_m1587_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
 <var  name="internal1_m1587_fef" description="(internal1_m1587_fef) fef" format="18"></var>
 <var  name="internal1_m1604_xptr" description="(internal1_m1604_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m1604_x0" description="(internal1_m1604_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m1604_tim0" description="(internal1_m1604_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m1604_mcount" description="(internal1_m1604_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m1604_sumtim" description="(internal1_m1604_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1604_sumtakt" description="(internal1_m1604_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1604_StSpeed" description="(internal1_m1604_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m1604_Vz0" description="(internal1_m1604_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m1604_flRazg" description="(internal1_m1604_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m1604_DelSp" description="(internal1_m1604_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m1604_z0" description="(internal1_m1604_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m1604_txZS" description="(internal1_m1604_txZS) txZS" format="8"></var>
-<var  name="internal1_m1604_tx" description="(internal1_m1604_tx) tx" format="8"></var>
-<var  name="internal1_m1604_txd" description="(internal1_m1604_txd) txd" format="8"></var>
-<var  name="internal1_m1604_txMBl" description="(internal1_m1604_txMBl) tx" format="8"></var>
-<var  name="internal1_m1604_txBl" description="(internal1_m1604_txBl) tx" format="8"></var>
-<var  name="internal1_m1604_Speed0" description="(internal1_m1604_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m1604_xz0" description="(internal1_m1604_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m1604_tz0" description="(internal1_m1604_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m1604_Shift0" description="(internal1_m1604_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m1604_ShCntlSp0" description="(internal1_m1604_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m1604_ShiftControl" description="(internal1_m1604_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m1604_x0" description="(internal1_m1604_x0) x0 - массив мгновенных значений координат" format="8" size="20"></var>
+<var  name="internal1_m1604_tim0" description="(internal1_m1604_tim0) tim0 - массив значений времени цикла" format="8" size="20"></var>
+<var  name="internal1_m1604_mcount" description="(internal1_m1604_mcount) count - счетчик заполнения массива значений координат" format="3" size="20"></var>
+<var  name="internal1_m1604_sumtim" description="(internal1_m1604_sumtim) sumtim - время в пути" format="8" size="20"></var>
+<var  name="internal1_m1604_sumtakt" description="(internal1_m1604_sumtakt) sumtim - время в пути" format="8" size="20"></var>
+<var  name="internal1_m1604_StSpeed" description="(internal1_m1604_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="20"></var>
+<var  name="internal1_m1604_Vz0" description="(internal1_m1604_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="20"></var>
+<var  name="internal1_m1604_flRazg" description="(internal1_m1604_flRazg) признак разгона/торможения" format="3" size="20"></var>
+<var  name="internal1_m1604_DelSp" description="(internal1_m1604_DelSp) DelSp - время переключения скоростей" format="8" size="20"></var>
+<var  name="internal1_m1604_z0" description="(internal1_m1604_z0) z0 - точка прекращения движения" format="8" size="20"></var>
+<var  name="internal1_m1604_txZS" description="(internal1_m1604_txZS) txZS" format="8" size="20"></var>
+<var  name="internal1_m1604_tx" description="(internal1_m1604_tx) tx" format="8" size="20"></var>
+<var  name="internal1_m1604_txd" description="(internal1_m1604_txd) txd" format="8" size="20"></var>
+<var  name="internal1_m1604_txMBl" description="(internal1_m1604_txMBl) tx" format="8" size="20"></var>
+<var  name="internal1_m1604_txBl" description="(internal1_m1604_txBl) tx" format="8" size="20"></var>
+<var  name="internal1_m1604_Speed0" description="(internal1_m1604_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="20"></var>
+<var  name="internal1_m1604_xz0" description="(internal1_m1604_xz0) xz0 - новое задание мм" format="8" size="20"></var>
+<var  name="internal1_m1604_tz0" description="(internal1_m1604_tz0) tz0 - время защиты от нового задания сек" format="8" size="20"></var>
+<var  name="internal1_m1604_Shift0" description="(internal1_m1604_Shift0) Shift0 - признак самохода" format="1" size="20"></var>
+<var  name="internal1_m1604_ShCntlSp0" description="(internal1_m1604_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="20"></var>
+<var  name="internal1_m1604_ShiftControl" description="(internal1_m1604_ShiftControl) ShiftControl - признак самохода" format="1" size="20"></var>
 <var  name="internal1_m1130_tx" description="(internal1_m1130_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1130_y0" description="(internal1_m1130_y0) y0" format="18"></var>
 <var  name="internal1_m1133_tx" description="(internal1_m1133_tx) tx - время накопленное сек" format="8"></var>
@@ -1556,27 +1556,27 @@
 <var  name="internal1_m1120_txLd" description="(internal1_m1120_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
 <var  name="internal1_m1120_fef" description="(internal1_m1120_fef) fef" format="18"></var>
 <var  name="internal1_m1138_xptr" description="(internal1_m1138_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m1138_x0" description="(internal1_m1138_x0) x0 - массив мгновенных значений координат" format="8"></var>
-<var  name="internal1_m1138_tim0" description="(internal1_m1138_tim0) tim0 - массив значений времени цикла" format="8"></var>
-<var  name="internal1_m1138_mcount" description="(internal1_m1138_mcount) count - счетчик заполнения массива значений координат" format="3"></var>
-<var  name="internal1_m1138_sumtim" description="(internal1_m1138_sumtim) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1138_sumtakt" description="(internal1_m1138_sumtakt) sumtim - время в пути" format="8"></var>
-<var  name="internal1_m1138_StSpeed" description="(internal1_m1138_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8"></var>
-<var  name="internal1_m1138_Vz0" description="(internal1_m1138_Vz0) Vz0 - предыдущая заданная скорость" format="8"></var>
-<var  name="internal1_m1138_flRazg" description="(internal1_m1138_flRazg) признак разгона/торможения" format="3"></var>
-<var  name="internal1_m1138_DelSp" description="(internal1_m1138_DelSp) DelSp - время переключения скоростей" format="8"></var>
-<var  name="internal1_m1138_z0" description="(internal1_m1138_z0) z0 - точка прекращения движения" format="8"></var>
-<var  name="internal1_m1138_txZS" description="(internal1_m1138_txZS) txZS" format="8"></var>
-<var  name="internal1_m1138_tx" description="(internal1_m1138_tx) tx" format="8"></var>
-<var  name="internal1_m1138_txd" description="(internal1_m1138_txd) txd" format="8"></var>
-<var  name="internal1_m1138_txMBl" description="(internal1_m1138_txMBl) tx" format="8"></var>
-<var  name="internal1_m1138_txBl" description="(internal1_m1138_txBl) tx" format="8"></var>
-<var  name="internal1_m1138_Speed0" description="(internal1_m1138_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8"></var>
-<var  name="internal1_m1138_xz0" description="(internal1_m1138_xz0) xz0 - новое задание мм" format="8"></var>
-<var  name="internal1_m1138_tz0" description="(internal1_m1138_tz0) tz0 - время защиты от нового задания сек" format="8"></var>
-<var  name="internal1_m1138_Shift0" description="(internal1_m1138_Shift0) Shift0 - признак самохода" format="1"></var>
-<var  name="internal1_m1138_ShCntlSp0" description="(internal1_m1138_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1"></var>
-<var  name="internal1_m1138_ShiftControl" description="(internal1_m1138_ShiftControl) ShiftControl - признак самохода" format="1"></var>
+<var  name="internal1_m1138_x0" description="(internal1_m1138_x0) x0 - массив мгновенных значений координат" format="8" size="20"></var>
+<var  name="internal1_m1138_tim0" description="(internal1_m1138_tim0) tim0 - массив значений времени цикла" format="8" size="20"></var>
+<var  name="internal1_m1138_mcount" description="(internal1_m1138_mcount) count - счетчик заполнения массива значений координат" format="3" size="20"></var>
+<var  name="internal1_m1138_sumtim" description="(internal1_m1138_sumtim) sumtim - время в пути" format="8" size="20"></var>
+<var  name="internal1_m1138_sumtakt" description="(internal1_m1138_sumtakt) sumtim - время в пути" format="8" size="20"></var>
+<var  name="internal1_m1138_StSpeed" description="(internal1_m1138_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости" format="8" size="20"></var>
+<var  name="internal1_m1138_Vz0" description="(internal1_m1138_Vz0) Vz0 - предыдущая заданная скорость" format="8" size="20"></var>
+<var  name="internal1_m1138_flRazg" description="(internal1_m1138_flRazg) признак разгона/торможения" format="3" size="20"></var>
+<var  name="internal1_m1138_DelSp" description="(internal1_m1138_DelSp) DelSp - время переключения скоростей" format="8" size="20"></var>
+<var  name="internal1_m1138_z0" description="(internal1_m1138_z0) z0 - точка прекращения движения" format="8" size="20"></var>
+<var  name="internal1_m1138_txZS" description="(internal1_m1138_txZS) txZS" format="8" size="20"></var>
+<var  name="internal1_m1138_tx" description="(internal1_m1138_tx) tx" format="8" size="20"></var>
+<var  name="internal1_m1138_txd" description="(internal1_m1138_txd) txd" format="8" size="20"></var>
+<var  name="internal1_m1138_txMBl" description="(internal1_m1138_txMBl) tx" format="8" size="20"></var>
+<var  name="internal1_m1138_txBl" description="(internal1_m1138_txBl) tx" format="8" size="20"></var>
+<var  name="internal1_m1138_Speed0" description="(internal1_m1138_Speed0) Speed0 - предыдущее значение скорости перемещения" format="8" size="20"></var>
+<var  name="internal1_m1138_xz0" description="(internal1_m1138_xz0) xz0 - новое задание мм" format="8" size="20"></var>
+<var  name="internal1_m1138_tz0" description="(internal1_m1138_tz0) tz0 - время защиты от нового задания сек" format="8" size="20"></var>
+<var  name="internal1_m1138_Shift0" description="(internal1_m1138_Shift0) Shift0 - признак самохода" format="1" size="20"></var>
+<var  name="internal1_m1138_ShCntlSp0" description="(internal1_m1138_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости" format="1" size="20"></var>
+<var  name="internal1_m1138_ShiftControl" description="(internal1_m1138_ShiftControl) ShiftControl - признак самохода" format="1" size="20"></var>
 <var  name="internal1_m738_x0" description="(internal1_m738_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m708_x0" description="(internal1_m708_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m670_x0" description="(internal1_m670_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
