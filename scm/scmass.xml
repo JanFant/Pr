@@ -1,68 +1,54 @@
 <assign>
-    <AO1601>
-        <def name="B2IP01IZ2">K08AO</def>
-        <def name="B2IP01IZ1">K04AO</def>
-        <def name="B3IP02IDU">K10AO</def>
-        <def name="A3IP02IDU">K09AO</def>
-        <def name="A2IP01IZ2">K06AO</def>
-        <def name="A2IP01IZ1">K02AO</def>
-        <def name="A0IT01IZ1">K01AO</def>
-        <def name="A0IT02IZ2">K05AO</def>
-        <def name="B0IT02IZ2">K07AO</def>
-        <def name="B0IT01IZ1">K03AO</def>
-    </AO1601>
-
-
     <DO32_5F01>
-        <def name="R0VP81LZ1">K29DO</def>
-        <def name="A0VN71LS4">K16DO</def>
+        <def name="R0VP82LZ1">K32DO</def>
+        <def name="R0VN73LZ1">K20DO</def>
+        <def name="A0EE01LS1">K03DO</def>
+        <def name="A0VN71LS3">K23DO</def>
+        <def name="R0VN75LZ1">K02DO</def>
+        <def name="A3IS22LZ1">K06DO</def>
+        <def name="A0VN71LS1">K04DO</def>
+        <def name="R6IS66LZ1">K17DO</def>
+        <def name="R0VN71LZ1">K01DO</def>
+        <def name="R6IS67LZ1">K18DO</def>
         <def name="R6IS68LZ1">K19DO</def>
         <def name="A3IS11LZ1">K05DO</def>
-        <def name="R6IS67LZ1">K18DO</def>
-        <def name="R0VN71LZ1">K01DO</def>
-        <def name="R6IS66LZ1">K17DO</def>
-        <def name="A0VN71LS1">K04DO</def>
+        <def name="R0VP81LZ1">K29DO</def>
+        <def name="A0VN71LS4">K16DO</def>
         <def name="A0VP81LZ1">K27DO</def>
-        <def name="A3IS22LZ1">K06DO</def>
-        <def name="R0VN75LZ1">K02DO</def>
-        <def name="A0VN71LS3">K23DO</def>
-        <def name="A0EE01LS1">K03DO</def>
-        <def name="R0VN73LZ1">K20DO</def>
-        <def name="R0VN72LZ1">K07DO</def>
-        <def name="A0EE01LS4">K15DO</def>
-        <def name="R0VN78LZ1">K14DO</def>
-        <def name="R7II72LZ1">K25DO</def>
-        <def name="A0VN71LS2">K10DO</def>
-        <def name="R0VN74LZ1">K13DO</def>
-        <def name="R0VP82LZ1">K32DO</def>
-        <def name="R0VN76LZ1">K08DO</def>
-        <def name="R7II71LZ1">K24DO</def>
-        <def name="A0EE01LS2">K09DO</def>
-        <def name="R7II73LZ1">K26DO</def>
-        <def name="A0EE01LS3">K22DO</def>
         <def name="A1VP81LZ1">K28DO</def>
         <def name="R0VN77LZ1">K21DO</def>
+        <def name="A0EE01LS3">K22DO</def>
+        <def name="R7II73LZ1">K26DO</def>
+        <def name="R0VN78LZ1">K14DO</def>
+        <def name="A0EE01LS4">K15DO</def>
+        <def name="R0VN72LZ1">K07DO</def>
+        <def name="R7II71LZ1">K24DO</def>
+        <def name="A0VN71LS2">K10DO</def>
+        <def name="R0VN74LZ1">K13DO</def>
+        <def name="R7II72LZ1">K25DO</def>
+        <def name="R0VN76LZ1">K08DO</def>
+        <def name="A0EE01LS2">K09DO</def>
     </DO32_5F01>
 
 
     <DO32_5F02>
+        <def name="A1EE01LS3">K22DO</def>
         <def name="R0VN73LZ2">K20DO</def>
         <def name="R7II73LZ2">K26DO</def>
-        <def name="A1VN71LS4">K16DO</def>
-        <def name="A1VN71LS2">K10DO</def>
         <def name="R0VN77LZ2">K21DO</def>
+        <def name="A1EE01LS1">K03DO</def>
+        <def name="R0VN75LZ2">K02DO</def>
+        <def name="A1EE01LS2">K09DO</def>
+        <def name="R7II71LZ2">K24DO</def>
+        <def name="A1VN71LS3">K23DO</def>
+        <def name="R0VN76LZ2">K08DO</def>
+        <def name="R0VN74LZ2">K13DO</def>
+        <def name="A1VN71LS2">K10DO</def>
         <def name="R0VN72LZ2">K07DO</def>
         <def name="R0VN71LZ2">K01DO</def>
         <def name="A1VN71LS1">K04DO</def>
-        <def name="R7II71LZ2">K24DO</def>
-        <def name="R0VN74LZ2">K13DO</def>
-        <def name="A1EE01LS3">K22DO</def>
-        <def name="A1VN71LS3">K23DO</def>
-        <def name="R0VN75LZ2">K02DO</def>
-        <def name="A1EE01LS1">K03DO</def>
         <def name="R7II72LZ2">K25DO</def>
-        <def name="R0VN76LZ2">K08DO</def>
-        <def name="A1EE01LS2">K09DO</def>
+        <def name="A1VN71LS4">K16DO</def>
         <def name="R0VP82LZ2">K32DO</def>
         <def name="A1EE01LS4">K15DO</def>
         <def name="R0VN78LZ2">K14DO</def>

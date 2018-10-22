@@ -803,8 +803,8 @@
 <var  name="internal1_m1039_trz" description="(internal1_m1039_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
 <var  name="internal1_m1039_N1" description="(internal1_m1039_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
 <var  name="internal1_m1039_N2" description="(internal1_m1039_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m1039_Period0" description="(internal1_m1039_Period0) Per - Период разгона РУ" format="8" size="2"></var>
-<var  name="internal1_m1039_MyFirstEnterFlag" description="(internal1_m1039_MyFirstEnterFlag)  FirstEnterFlag" format="1" size="2"></var>
+<var  name="internal1_m1039_Period0" description="(internal1_m1039_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m1039_MyFirstEnterFlag" description="(internal1_m1039_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 <var  name="internal1_m1005_Nk" description="(internal1_m1005_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m1000_Out10" description="(internal1_m1000_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m992_Out10" description="(internal1_m992_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -812,8 +812,8 @@
 <var  name="internal1_m981_trz" description="(internal1_m981_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
 <var  name="internal1_m981_N1" description="(internal1_m981_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
 <var  name="internal1_m981_N2" description="(internal1_m981_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m981_Period0" description="(internal1_m981_Period0) Per - Период разгона РУ" format="8" size="2"></var>
-<var  name="internal1_m981_MyFirstEnterFlag" description="(internal1_m981_MyFirstEnterFlag)  FirstEnterFlag" format="1" size="2"></var>
+<var  name="internal1_m981_Period0" description="(internal1_m981_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m981_MyFirstEnterFlag" description="(internal1_m981_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 <var  name="internal1_m951_Nk" description="(internal1_m951_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m869_Out10" description="(internal1_m869_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m859_Out10" description="(internal1_m859_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -821,8 +821,8 @@
 <var  name="internal1_m850_trz" description="(internal1_m850_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
 <var  name="internal1_m850_N1" description="(internal1_m850_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
 <var  name="internal1_m850_N2" description="(internal1_m850_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m850_Period0" description="(internal1_m850_Period0) Per - Период разгона РУ" format="8" size="2"></var>
-<var  name="internal1_m850_MyFirstEnterFlag" description="(internal1_m850_MyFirstEnterFlag)  FirstEnterFlag" format="1" size="2"></var>
+<var  name="internal1_m850_Period0" description="(internal1_m850_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m850_MyFirstEnterFlag" description="(internal1_m850_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 <var  name="internal1_m816_Nk" description="(internal1_m816_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m803_Out10" description="(internal1_m803_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m792_Out10" description="(internal1_m792_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -830,8 +830,8 @@
 <var  name="internal1_m795_trz" description="(internal1_m795_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
 <var  name="internal1_m795_N1" description="(internal1_m795_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
 <var  name="internal1_m795_N2" description="(internal1_m795_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m795_Period0" description="(internal1_m795_Period0) Per - Период разгона РУ" format="8" size="2"></var>
-<var  name="internal1_m795_MyFirstEnterFlag" description="(internal1_m795_MyFirstEnterFlag)  FirstEnterFlag" format="1" size="2"></var>
+<var  name="internal1_m795_Period0" description="(internal1_m795_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m795_MyFirstEnterFlag" description="(internal1_m795_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 <var  name="internal1_m758_Nk" description="(internal1_m758_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m179_tx" description="(internal1_m179_tx) tx - внутренний параметр" format="3"></var>
 <var  name="internal1_m24_tx" description="(internal1_m24_tx) tx - внутренний параметр" format="3"></var>
@@ -1012,8 +1012,8 @@
 <var  name="internal1_m166_R0" description="(internal1_m166_R0) R0 - пред. реактивность" format="8"></var>
 <var  name="internal1_m166_T0" description="(internal1_m166_T0) T0 - пред. температура" format="8"></var>
 <var  name="internal1_m166_C0" description="(internal1_m166_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
-<var  name="internal1_m166_ImpINI0" description="(internal1_m166_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1" size="6"></var>
-<var  name="internal1_m166_MyFirstEnterFlag" description="(internal1_m166_MyFirstEnterFlag) MyFirstEnterFlag" format="1" size="6"></var>
+<var  name="internal1_m166_ImpINI0" description="(internal1_m166_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
+<var  name="internal1_m166_MyFirstEnterFlag" description="(internal1_m166_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m274_X0" description="(internal1_m274_X0) X0 - координата ОРР" format="8"></var>
 <var  name="internal1_m274_Sh0" description="(internal1_m274_Sh0) Sh0 - координата штока ОРР" format="8"></var>
 <var  name="internal1_m274_RV0" description="(internal1_m274_RV0) V0 - текущая скорость ОРР" format="8"></var>
@@ -1103,6 +1103,6 @@
 <var  name="internal1_m13_R0" description="(internal1_m13_R0) R0 - пред. реактивность" format="8"></var>
 <var  name="internal1_m13_T0" description="(internal1_m13_T0) T0 - пред. температура" format="8"></var>
 <var  name="internal1_m13_C0" description="(internal1_m13_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
-<var  name="internal1_m13_ImpINI0" description="(internal1_m13_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1" size="6"></var>
-<var  name="internal1_m13_MyFirstEnterFlag" description="(internal1_m13_MyFirstEnterFlag) MyFirstEnterFlag" format="1" size="6"></var>
+<var  name="internal1_m13_ImpINI0" description="(internal1_m13_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
+<var  name="internal1_m13_MyFirstEnterFlag" description="(internal1_m13_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 </vars>

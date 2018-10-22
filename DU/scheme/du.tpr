@@ -165921,7 +165921,7 @@
         }
       }
       [VVV_Text]{
-        R="7,7,67,13"
+        R="7,7,61,12"
         Number=129
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -166156,7 +166156,7 @@
         }
       }
       [VVV_Text]{
-        R="417,212,477,218"
+        R="417,212,471,217"
         Number=46
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -166351,7 +166351,7 @@
         }
       }
       [VVV_Text]{
-        R="394,30,454,36"
+        R="394,30,448,35"
         Number=61
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -166554,7 +166554,7 @@
         }
       }
       [VVV_Text]{
-        R="743,224,803,230"
+        R="743,224,797,229"
         Number=99
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -166803,7 +166803,7 @@
         }
       }
       [VVV_Text]{
-        R="695,7,755,13"
+        R="695,7,749,12"
         Number=112
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -167245,7 +167245,7 @@
         }
       }
       [VVV_Text]{
-        R="988,16,1041,22"
+        R="988,16,1040,21"
         Number=195
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -167493,7 +167493,7 @@
         }
       }
       [VVV_Text]{
-        R="101,224,161,230"
+        R="101,224,155,229"
         Number=21
         IsHold=TRUE
         Line1="Режим "Проверка"?"
@@ -167987,7 +167987,7 @@
         Line11="ДС2 - 8"
       }
       [VVV_Text]{
-        R="494,690,588,732"
+        R="494,690,572,725"
         Number=444
         IsHold=FALSE
         Line1="Нормальные давления"
@@ -168606,9 +168606,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K01VASR"
-        DeviceName="VAS8412"
+        InterfaceMB="MDuS"
+        ChannalName=""
+        DeviceName=""
         Line1="Текущее"
         Line2="давление"
         Line3="ВЫСТРЕЛ ИС1"
@@ -168634,9 +168634,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K02VASR"
-        DeviceName="VAS8412"
+        InterfaceMB="MDuS"
+        ChannalName=""
+        DeviceName=""
         Line1="Текущее"
         Line2="давление"
         Line3="ВЫСТРЕЛ ИС2"
@@ -168705,7 +168705,7 @@
         Line3="на кв. см [кгс/см^2]"
       }
       [VVV_Text]{
-        R="486,628,597,677"
+        R="486,628,601,675"
         Number=1109
         IsHold=FALSE
         Line1="Давление в кГ/см^2"
@@ -180375,4 +180375,4 @@
     }
   }
 }
-169191406
+169190235
