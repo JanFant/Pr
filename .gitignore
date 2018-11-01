@@ -53,3 +53,4 @@ AKNP2/scheme/*.edf
 AKNP2/scheme/*.c
 AKNP2/scheme/*.h
 *.rar
+.tmp.drivedownload

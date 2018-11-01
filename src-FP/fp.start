@@ -1,0 +1,8 @@
+#!/bin/bash
+if (md5sum -c sumfp 2>/dev/null | grep -q "FAILED"); then
+echo "Checksum doesn't match" > /dev/kmsg
+echo "check lib's and fp" > /dev/kmsg
+else
+echo "Checksum matches" > /dev/kmsg
+/root/fp.bash
+fi
