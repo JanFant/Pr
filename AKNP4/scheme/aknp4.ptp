@@ -1,0 +1,24 @@
+Тепрол. Файл проекта.
+[TeprolProject]{
+  TPRName="D:\md\pti\pr\AKNP4\scheme\aknp4.tpr"
+  TPLName=""
+  ControllerXMLName="D:\md\pti\pr\AKNP4\devAKNP4.xml"
+  ModBusXMLName="D:\md\pti\pr\AKNP4\AKNP4fp.xml"
+  DBSName=""
+  SinonimName=""
+  VariableName=""
+  SignalsXMLName="D:\md\pti\pr\AKNP4\scheme\var.xml"
+  ConstsXMLName="D:\md\pti\pr\AKNP4\scheme\save.xml"
+  AssignXMLName="D:\md\pti\pr\AKNP4\scheme\ass.xml"
+  PlatformType=5
+  ModuleType=3
+  intESPPZU_Size=1024
+  extESPPZU_Size=1024
+  PostboxSize=8192
+  PostboxAddressType=1
+  PostboxAddress=28672
+  ESPPZU_Emulation=FALSE
+  FuncName="Scheme"
+  IsImitator=FALSE
+}
+47686
