@@ -3948,6 +3948,16 @@ static table_drv table_AO1601={0,0,&ini_AO1601,buf_AO1601,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_AO1601[]={
+	{&B2IP01IZ2,3,21},
+	{&B2IP01IZ1,3,9},
+	{&B0IT02IZ2,3,18},
+	{&B0IT01IZ1,3,6},
+	{&A0IT02IZ2,3,12},
+	{&A3IP02IDU,3,24},
+	{&B3IP02IDU,3,27},
+	{&A0IT01IZ1,3,0},
+	{&A2IP01IZ1,3,3},
+	{&A2IP01IZ2,3,15},
 	{NULL,0,0},
 };
 #pragma pop
@@ -3962,8 +3972,8 @@ static DriverRegister def_buf_DO32_5F01[]={
 	{&R0VN71LZ1,1,0},
 	{&A0VN71LS1,1,6},
 	{&R0VN75LZ1,1,2},
-	{&A0EE01LS1,1,4},
 	{&R0VN72LZ1,1,12},
+	{&A0EE01LS1,1,4},
 	{&A0VN71LS2,1,18},
 	{&R0VN73LZ1,1,38},
 	{&R6IS67LZ1,1,34},

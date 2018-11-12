@@ -1,6 +1,6 @@
 DIR_PROGR = AKNP1 AKNP2 AKNP3 AKNP4 Baz1 Baz2 RPU DU
 cpc108 = /root/cpc108/include
-make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF
+make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF
 ProgPATH = /root/all_prog
 lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`
 
@@ -9,7 +9,7 @@ change: delmake Createmake
 Createmake:
 #AKNP1
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/AKNP1/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP1/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP1/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/AKNP1/Makefile
 	@echo "" >> $(ProgPATH)/AKNP1/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/AKNP1/Makefile
@@ -21,7 +21,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/AKNP1/Makefile
 #AKNP2
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/AKNP2/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP2/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP2/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/AKNP2/Makefile
 	@echo "" >> $(ProgPATH)/AKNP2/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/AKNP2/Makefile
@@ -33,7 +33,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/AKNP2/Makefile
 #AKNP3
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/AKNP3/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP3/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP3/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/AKNP3/Makefile
 	@echo "" >> $(ProgPATH)/AKNP3/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/AKNP3/Makefile
@@ -45,7 +45,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/AKNP3/Makefile
 #AKNP4
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/AKNP4/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP4/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/AKNP4/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/AKNP4/Makefile
 	@echo "" >> $(ProgPATH)/AKNP4/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/AKNP4/Makefile
@@ -57,7 +57,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/AKNP4/Makefile
 #Baz1
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/Baz1/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/Baz1/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/Baz1/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/Baz1/Makefile
 	@echo "" >> $(ProgPATH)/Baz1/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/Baz1/Makefile
@@ -69,7 +69,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/Baz1/Makefile
 #Baz2
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/Baz2/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/Baz2/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/Baz2/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/Baz2/Makefile
 	@echo "" >> $(ProgPATH)/Baz2/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/Baz2/Makefile
@@ -81,7 +81,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/Baz2/Makefile
 #RPU
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/RPU/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/RPU/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/RPU/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/RPU/Makefile
 	@echo "" >> $(ProgPATH)/RPU/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/RPU/Makefile
@@ -93,7 +93,7 @@ Createmake:
 	@echo "	@rm -f *.o*" >> $(ProgPATH)/RPU/Makefile
 #DU
 	@echo "ProgPATH = /root/all_prog" >> $(ProgPATH)/DU/Makefile 
-	@echo "make_o_key = -m32 -c -g -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/DU/Makefile
+	@echo "make_o_key = -m32 -c -g -DLINUXMODE -I$(cpc108) `pkg-config --cflags libmodbus` `pkg-config --cflags libfp8` `pkg-config --cflags libteprLib` -std=c99  -MMD -MP -MF" >> $(ProgPATH)/DU/Makefile
 	@echo "lib_key = -lpthread `pkg-config --libs libmodbus` `pkg-config --libs libfp8` `pkg-config --libs libteprLib`" >> $(ProgPATH)/DU/Makefile
 	@echo "" >> $(ProgPATH)/DU/Makefile
 	@echo "all: clean Create" >> $(ProgPATH)/DU/Makefile

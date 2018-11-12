@@ -1786,9 +1786,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K01VASR"
+        DeviceName="VAS84"
         Line1="Температура АЗ1-1"
       }
       [VVV_DrawConst]{
@@ -2716,9 +2716,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K02VASR"
+        DeviceName="VAS84"
         Line1="Текущее"
         Line2="давление"
         Line3="СБРОС РБ1"
@@ -2744,9 +2744,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K04VASR"
+        DeviceName="VAS84"
         Line1="Текущее"
         Line2="давление"
         Line3="СБРОС РБ2"
@@ -2839,9 +2839,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K03VASR"
+        DeviceName="VAS84"
         Line1="Температура АЗ2-1"
       }
       [TDrawSignal]{
@@ -5516,14 +5516,14 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="120,8,158,20"
+        R="120,8,164,22"
         Number=210
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП1"
       }
       [VVV_Text]{
-        R="163,8,201,20"
+        R="163,8,207,22"
         Number=211
         IsHold=TRUE
         Line1="Исправность"
@@ -5858,7 +5858,7 @@
         Line1="Рис.2 Ввод данных АКНП"
       }
       [VVV_Text]{
-        R="352,404,450,410"
+        R="352,404,446,409"
         Number=884
         IsHold=FALSE
         Line1="Рис.1 Формирование сигналов АЗ"
@@ -20866,4 +20866,4 @@
     }
   }
 }
-19619662
+19621420
