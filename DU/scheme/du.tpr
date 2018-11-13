@@ -168606,9 +168606,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K01VASR"
-        DeviceName="VAS8412"
+        InterfaceMB="MDuS"
+        ChannalName=""
+        DeviceName=""
         Line1="Текущее"
         Line2="давление"
         Line3="ВЫСТРЕЛ ИС1"
@@ -168634,9 +168634,9 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K02VASR"
-        DeviceName="VAS8412"
+        InterfaceMB="MDuS"
+        ChannalName=""
+        DeviceName=""
         Line1="Текущее"
         Line2="давление"
         Line3="ВЫСТРЕЛ ИС2"
@@ -180375,4 +180375,4 @@
     }
   }
 }
-169191447
+169190278
