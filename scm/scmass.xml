@@ -1,24 +1,10 @@
 <assign>
-    <AO1601>
-        <def name="B2IP01IZ2">K08AO</def>
-        <def name="B2IP01IZ1">K04AO</def>
-        <def name="B0IT02IZ2">K07AO</def>
-        <def name="B0IT01IZ1">K03AO</def>
-        <def name="A0IT02IZ2">K05AO</def>
-        <def name="A3IP02IDU">K09AO</def>
-        <def name="B3IP02IDU">K10AO</def>
-        <def name="A0IT01IZ1">K01AO</def>
-        <def name="A2IP01IZ1">K02AO</def>
-        <def name="A2IP01IZ2">K06AO</def>
-    </AO1601>
-
-
     <DO32_5F01>
         <def name="R0VN71LZ1">K01DO</def>
         <def name="A0VN71LS1">K04DO</def>
         <def name="R0VN75LZ1">K02DO</def>
-        <def name="R0VN72LZ1">K07DO</def>
         <def name="A0EE01LS1">K03DO</def>
+        <def name="R0VN72LZ1">K07DO</def>
         <def name="A0VN71LS2">K10DO</def>
         <def name="R0VN73LZ1">K20DO</def>
         <def name="R6IS67LZ1">K18DO</def>

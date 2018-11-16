@@ -3948,16 +3948,6 @@ static table_drv table_AO1601={0,0,&ini_AO1601,buf_AO1601,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_AO1601[]={
-	{&B2IP01IZ2,3,21},
-	{&B2IP01IZ1,3,9},
-	{&B0IT02IZ2,3,18},
-	{&B0IT01IZ1,3,6},
-	{&A0IT02IZ2,3,12},
-	{&A3IP02IDU,3,24},
-	{&B3IP02IDU,3,27},
-	{&A0IT01IZ1,3,0},
-	{&A2IP01IZ1,3,3},
-	{&A2IP01IZ2,3,15},
 	{NULL,0,0},
 };
 #pragma pop
@@ -3972,8 +3962,8 @@ static DriverRegister def_buf_DO32_5F01[]={
 	{&R0VN71LZ1,1,0},
 	{&A0VN71LS1,1,6},
 	{&R0VN75LZ1,1,2},
-	{&R0VN72LZ1,1,12},
 	{&A0EE01LS1,1,4},
+	{&R0VN72LZ1,1,12},
 	{&A0VN71LS2,1,18},
 	{&R0VN73LZ1,1,38},
 	{&R6IS67LZ1,1,34},
@@ -4717,7 +4707,6 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsShort(748,0);
 	setAsShort(749,0);
 }
-/* Определение внутренних параметров */
 uspaint8 InternalBuf[1025];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
@@ -6070,41 +6059,41 @@ void InitInternalParametr(void)
 {
   int i;
   for( i=0;i<2;i++ )
-    array_m1099_tst_1[i] = &(&internal1_m1099_tst)[i];
+    array_m1099_tst_1[i] = &(&internal1_m1099_tst)[i*5]
   for( i=0;i<2;i++ )
-    array_m1099_trz_1[i] = &(&internal1_m1099_trz)[i];
+    array_m1099_trz_1[i] = &(&internal1_m1099_trz)[i*5]
   for( i=0;i<2;i++ )
-    array_m1099_N1_1[i] = &(&internal1_m1099_N1)[i];
+    array_m1099_N1_1[i] = &(&internal1_m1099_N1)[i*5]
   for( i=0;i<2;i++ )
-    array_m1099_N2_1[i] = &(&internal1_m1099_N2)[i];
+    array_m1099_N2_1[i] = &(&internal1_m1099_N2)[i*5]
   for( i=0;i<2;i++ )
-    array_m1041_tst_1[i] = &(&internal1_m1041_tst)[i];
+    array_m1041_tst_1[i] = &(&internal1_m1041_tst)[i*5]
   for( i=0;i<2;i++ )
-    array_m1041_trz_1[i] = &(&internal1_m1041_trz)[i];
+    array_m1041_trz_1[i] = &(&internal1_m1041_trz)[i*5]
   for( i=0;i<2;i++ )
-    array_m1041_N1_1[i] = &(&internal1_m1041_N1)[i];
+    array_m1041_N1_1[i] = &(&internal1_m1041_N1)[i*5]
   for( i=0;i<2;i++ )
-    array_m1041_N2_1[i] = &(&internal1_m1041_N2)[i];
+    array_m1041_N2_1[i] = &(&internal1_m1041_N2)[i*5]
   for( i=0;i<2;i++ )
-    array_m910_tst_1[i] = &(&internal1_m910_tst)[i];
+    array_m910_tst_1[i] = &(&internal1_m910_tst)[i*5]
   for( i=0;i<2;i++ )
-    array_m910_trz_1[i] = &(&internal1_m910_trz)[i];
+    array_m910_trz_1[i] = &(&internal1_m910_trz)[i*5]
   for( i=0;i<2;i++ )
-    array_m910_N1_1[i] = &(&internal1_m910_N1)[i];
+    array_m910_N1_1[i] = &(&internal1_m910_N1)[i*5]
   for( i=0;i<2;i++ )
-    array_m910_N2_1[i] = &(&internal1_m910_N2)[i];
+    array_m910_N2_1[i] = &(&internal1_m910_N2)[i*5]
   for( i=0;i<2;i++ )
-    array_m855_tst_1[i] = &(&internal1_m855_tst)[i];
+    array_m855_tst_1[i] = &(&internal1_m855_tst)[i*5]
   for( i=0;i<2;i++ )
-    array_m855_trz_1[i] = &(&internal1_m855_trz)[i];
+    array_m855_trz_1[i] = &(&internal1_m855_trz)[i*5]
   for( i=0;i<2;i++ )
-    array_m855_N1_1[i] = &(&internal1_m855_N1)[i];
+    array_m855_N1_1[i] = &(&internal1_m855_N1)[i*5]
   for( i=0;i<2;i++ )
-    array_m855_N2_1[i] = &(&internal1_m855_N2)[i];
+    array_m855_N2_1[i] = &(&internal1_m855_N2)[i*5]
   for( i=0;i<6;i++ )
-    array_m180_C0_1[i] = &(&internal1_m180_C0)[i];
+    array_m180_C0_1[i] = &(&internal1_m180_C0)[i*5]
   for( i=0;i<6;i++ )
-    array_m14_C0_1[i] = &(&internal1_m14_C0)[i];
+    array_m14_C0_1[i] = &(&internal1_m14_C0)[i*5]
 }
 
 #endif
