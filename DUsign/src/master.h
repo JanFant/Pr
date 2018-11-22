@@ -1,0 +1,1476 @@
+#ifndef DUSIGN_H
+#define DUSIGN_H
+// Подсистема DUsign:DUsign
+static char SimulOn=0;
+static short CodeSub=11;
+static char SimulIP[]="192.168.1.17\0";
+static int SimulPort=5555;
+static int StepCycle=20;	 // Время цикла в ms
+float takt;
+#define SIZE_BUFFER 632
+static char BUFFER[632];
+#include <fp8/UDPTrasport.h>
+SetupUDP setUDP = {"192.168.10.50\0", 5432, "192.168.10.150\0", 5432, BUFFER, sizeof(BUFFER),};
+int master = 1;
+int nomer = 1;
+#define s01_K01VDSR	 BUFFER[0]	//(01_K01VDSR)-
+#define ids01_K01VDSR	 1	//(01_K01VDSR)-
+#define s01_K02VDSR	 BUFFER[2]	//(01_K02VDSR)-
+#define ids01_K02VDSR	 2	//(01_K02VDSR)-
+#define s01_K03VDSR	 BUFFER[4]	//(01_K03VDSR)-
+#define ids01_K03VDSR	 3	//(01_K03VDSR)-
+#define s01_K04VDSR	 BUFFER[6]	//(01_K04VDSR)-
+#define ids01_K04VDSR	 4	//(01_K04VDSR)-
+#define s01_K05VDSR	 BUFFER[8]	//(01_K05VDSR)-
+#define ids01_K05VDSR	 5	//(01_K05VDSR)-
+#define s01_K06VDSR	 BUFFER[10]	//(01_K06VDSR)-
+#define ids01_K06VDSR	 6	//(01_K06VDSR)-
+#define s01_K07VDSR	 BUFFER[12]	//(01_K07VDSR)-
+#define ids01_K07VDSR	 7	//(01_K07VDSR)-
+#define s01_K08VDSR	 BUFFER[14]	//(01_K08VDSR)-
+#define ids01_K08VDSR	 8	//(01_K08VDSR)-
+#define s01_K09VDSR	 BUFFER[16]	//(01_K09VDSR)-
+#define ids01_K09VDSR	 9	//(01_K09VDSR)-
+#define s01_K10VDSR	 BUFFER[18]	//(01_K10VDSR)-
+#define ids01_K10VDSR	 10	//(01_K10VDSR)-
+#define s01_K11VDSR	 BUFFER[20]	//(01_K11VDSR)-
+#define ids01_K11VDSR	 11	//(01_K11VDSR)-
+#define s01_K12VDSR	 BUFFER[22]	//(01_K12VDSR)-
+#define ids01_K12VDSR	 12	//(01_K12VDSR)-
+#define s01_K13VDSR	 BUFFER[24]	//(01_K13VDSR)-
+#define ids01_K13VDSR	 13	//(01_K13VDSR)-
+#define s01_K14VDSR	 BUFFER[26]	//(01_K14VDSR)-
+#define ids01_K14VDSR	 14	//(01_K14VDSR)-
+#define s01_K15VDSR	 BUFFER[28]	//(01_K15VDSR)-
+#define ids01_K15VDSR	 15	//(01_K15VDSR)-
+#define s01_K16VDSR	 BUFFER[30]	//(01_K16VDSR)-
+#define ids01_K16VDSR	 16	//(01_K16VDSR)-
+#define s01_K17VDSR	 BUFFER[32]	//(01_K17VDSR)-
+#define ids01_K17VDSR	 17	//(01_K17VDSR)-
+#define s01_K18VDSR	 BUFFER[34]	//(01_K18VDSR)-
+#define ids01_K18VDSR	 18	//(01_K18VDSR)-
+#define s01_K19VDSR	 BUFFER[36]	//(01_K19VDSR)-
+#define ids01_K19VDSR	 19	//(01_K19VDSR)-
+#define s01_K20VDSR	 BUFFER[38]	//(01_K20VDSR)-
+#define ids01_K20VDSR	 20	//(01_K20VDSR)-
+#define s01_K21VDSR	 BUFFER[40]	//(01_K21VDSR)-
+#define ids01_K21VDSR	 21	//(01_K21VDSR)-
+#define s01_K22VDSR	 BUFFER[42]	//(01_K22VDSR)-
+#define ids01_K22VDSR	 22	//(01_K22VDSR)-
+#define s01_K23VDSR	 BUFFER[44]	//(01_K23VDSR)-
+#define ids01_K23VDSR	 23	//(01_K23VDSR)-
+#define s01_K24VDSR	 BUFFER[46]	//(01_K24VDSR)-
+#define ids01_K24VDSR	 24	//(01_K24VDSR)-
+#define s01_K25VDSR	 BUFFER[48]	//(01_K25VDSR)-
+#define ids01_K25VDSR	 25	//(01_K25VDSR)-
+#define s01_K26VDSR	 BUFFER[50]	//(01_K26VDSR)-
+#define ids01_K26VDSR	 26	//(01_K26VDSR)-
+#define s01_K27VDSR	 BUFFER[52]	//(01_K27VDSR)-
+#define ids01_K27VDSR	 27	//(01_K27VDSR)-
+#define s01_K28VDSR	 BUFFER[54]	//(01_K28VDSR)-
+#define ids01_K28VDSR	 28	//(01_K28VDSR)-
+#define s01_K29VDSR	 BUFFER[56]	//(01_K29VDSR)-
+#define ids01_K29VDSR	 29	//(01_K29VDSR)-
+#define s01_K30VDSR	 BUFFER[58]	//(01_K30VDSR)-
+#define ids01_K30VDSR	 30	//(01_K30VDSR)-
+#define s01_K31VDSR	 BUFFER[60]	//(01_K31VDSR)-
+#define ids01_K31VDSR	 31	//(01_K31VDSR)-
+#define s01_K32VDSR	 BUFFER[62]	//(01_K32VDSR)-
+#define ids01_K32VDSR	 32	//(01_K32VDSR)-
+#define s02_K01VDSR	 BUFFER[64]	//(02_K01VDSR)-
+#define ids02_K01VDSR	 33	//(02_K01VDSR)-
+#define s02_K02VDSR	 BUFFER[66]	//(02_K02VDSR)-
+#define ids02_K02VDSR	 34	//(02_K02VDSR)-
+#define s02_K03VDSR	 BUFFER[68]	//(02_K03VDSR)-
+#define ids02_K03VDSR	 35	//(02_K03VDSR)-
+#define s02_K04VDSR	 BUFFER[70]	//(02_K04VDSR)-
+#define ids02_K04VDSR	 36	//(02_K04VDSR)-
+#define s02_K05VDSR	 BUFFER[72]	//(02_K05VDSR)-
+#define ids02_K05VDSR	 37	//(02_K05VDSR)-
+#define s02_K06VDSR	 BUFFER[74]	//(02_K06VDSR)-
+#define ids02_K06VDSR	 38	//(02_K06VDSR)-
+#define s02_K07VDSR	 BUFFER[76]	//(02_K07VDSR)-
+#define ids02_K07VDSR	 39	//(02_K07VDSR)-
+#define s02_K08VDSR	 BUFFER[78]	//(02_K08VDSR)-
+#define ids02_K08VDSR	 40	//(02_K08VDSR)-
+#define s02_K09VDSR	 BUFFER[80]	//(02_K09VDSR)-
+#define ids02_K09VDSR	 41	//(02_K09VDSR)-
+#define s02_K10VDSR	 BUFFER[82]	//(02_K10VDSR)-
+#define ids02_K10VDSR	 42	//(02_K10VDSR)-
+#define s02_K11VDSR	 BUFFER[84]	//(02_K11VDSR)-
+#define ids02_K11VDSR	 43	//(02_K11VDSR)-
+#define s02_K12VDSR	 BUFFER[86]	//(02_K12VDSR)-
+#define ids02_K12VDSR	 44	//(02_K12VDSR)-
+#define s02_K13VDSR	 BUFFER[88]	//(02_K13VDSR)-
+#define ids02_K13VDSR	 45	//(02_K13VDSR)-
+#define s02_K14VDSR	 BUFFER[90]	//(02_K14VDSR)-
+#define ids02_K14VDSR	 46	//(02_K14VDSR)-
+#define s02_K15VDSR	 BUFFER[92]	//(02_K15VDSR)-
+#define ids02_K15VDSR	 47	//(02_K15VDSR)-
+#define s02_K16VDSR	 BUFFER[94]	//(02_K16VDSR)-
+#define ids02_K16VDSR	 48	//(02_K16VDSR)-
+#define s02_K17VDSR	 BUFFER[96]	//(02_K17VDSR)-
+#define ids02_K17VDSR	 49	//(02_K17VDSR)-
+#define s02_K18VDSR	 BUFFER[98]	//(02_K18VDSR)-
+#define ids02_K18VDSR	 50	//(02_K18VDSR)-
+#define s02_K19VDSR	 BUFFER[100]	//(02_K19VDSR)-
+#define ids02_K19VDSR	 51	//(02_K19VDSR)-
+#define s02_K20VDSR	 BUFFER[102]	//(02_K20VDSR)-
+#define ids02_K20VDSR	 52	//(02_K20VDSR)-
+#define s02_K21VDSR	 BUFFER[104]	//(02_K21VDSR)-
+#define ids02_K21VDSR	 53	//(02_K21VDSR)-
+#define s02_K22VDSR	 BUFFER[106]	//(02_K22VDSR)-
+#define ids02_K22VDSR	 54	//(02_K22VDSR)-
+#define s02_K23VDSR	 BUFFER[108]	//(02_K23VDSR)-
+#define ids02_K23VDSR	 55	//(02_K23VDSR)-
+#define s02_K24VDSR	 BUFFER[110]	//(02_K24VDSR)-
+#define ids02_K24VDSR	 56	//(02_K24VDSR)-
+#define s02_K25VDSR	 BUFFER[112]	//(02_K25VDSR)-
+#define ids02_K25VDSR	 57	//(02_K25VDSR)-
+#define s02_K26VDSR	 BUFFER[114]	//(02_K26VDSR)-
+#define ids02_K26VDSR	 58	//(02_K26VDSR)-
+#define s02_K27VDSR	 BUFFER[116]	//(02_K27VDSR)-
+#define ids02_K27VDSR	 59	//(02_K27VDSR)-
+#define s02_K28VDSR	 BUFFER[118]	//(02_K28VDSR)-
+#define ids02_K28VDSR	 60	//(02_K28VDSR)-
+#define s02_K29VDSR	 BUFFER[120]	//(02_K29VDSR)-
+#define ids02_K29VDSR	 61	//(02_K29VDSR)-
+#define s02_K30VDSR	 BUFFER[122]	//(02_K30VDSR)-
+#define ids02_K30VDSR	 62	//(02_K30VDSR)-
+#define s02_K31VDSR	 BUFFER[124]	//(02_K31VDSR)-
+#define ids02_K31VDSR	 63	//(02_K31VDSR)-
+#define s02_K32VDSR	 BUFFER[126]	//(02_K32VDSR)-
+#define ids02_K32VDSR	 64	//(02_K32VDSR)-
+#define s03_K01VDSR	 BUFFER[128]	//(03_K01VDSR)-
+#define ids03_K01VDSR	 65	//(03_K01VDSR)-
+#define s03_K02VDSR	 BUFFER[130]	//(03_K02VDSR)-
+#define ids03_K02VDSR	 66	//(03_K02VDSR)-
+#define s03_K03VDSR	 BUFFER[132]	//(03_K03VDSR)-
+#define ids03_K03VDSR	 67	//(03_K03VDSR)-
+#define s03_K04VDSR	 BUFFER[134]	//(03_K04VDSR)-
+#define ids03_K04VDSR	 68	//(03_K04VDSR)-
+#define s03_K05VDSR	 BUFFER[136]	//(03_K05VDSR)-
+#define ids03_K05VDSR	 69	//(03_K05VDSR)-
+#define s03_K06VDSR	 BUFFER[138]	//(03_K06VDSR)-
+#define ids03_K06VDSR	 70	//(03_K06VDSR)-
+#define s03_K07VDSR	 BUFFER[140]	//(03_K07VDSR)-
+#define ids03_K07VDSR	 71	//(03_K07VDSR)-
+#define s03_K08VDSR	 BUFFER[142]	//(03_K08VDSR)-
+#define ids03_K08VDSR	 72	//(03_K08VDSR)-
+#define s03_K09VDSR	 BUFFER[144]	//(03_K09VDSR)-
+#define ids03_K09VDSR	 73	//(03_K09VDSR)-
+#define s03_K10VDSR	 BUFFER[146]	//(03_K10VDSR)-
+#define ids03_K10VDSR	 74	//(03_K10VDSR)-
+#define s03_K11VDSR	 BUFFER[148]	//(03_K11VDSR)-
+#define ids03_K11VDSR	 75	//(03_K11VDSR)-
+#define s03_K12VDSR	 BUFFER[150]	//(03_K12VDSR)-
+#define ids03_K12VDSR	 76	//(03_K12VDSR)-
+#define s03_K13VDSR	 BUFFER[152]	//(03_K13VDSR)-
+#define ids03_K13VDSR	 77	//(03_K13VDSR)-
+#define s03_K14VDSR	 BUFFER[154]	//(03_K14VDSR)-
+#define ids03_K14VDSR	 78	//(03_K14VDSR)-
+#define s03_K15VDSR	 BUFFER[156]	//(03_K15VDSR)-
+#define ids03_K15VDSR	 79	//(03_K15VDSR)-
+#define s03_K16VDSR	 BUFFER[158]	//(03_K16VDSR)-
+#define ids03_K16VDSR	 80	//(03_K16VDSR)-
+#define s03_K17VDSR	 BUFFER[160]	//(03_K17VDSR)-
+#define ids03_K17VDSR	 81	//(03_K17VDSR)-
+#define s03_K18VDSR	 BUFFER[162]	//(03_K18VDSR)-
+#define ids03_K18VDSR	 82	//(03_K18VDSR)-
+#define s03_K19VDSR	 BUFFER[164]	//(03_K19VDSR)-
+#define ids03_K19VDSR	 83	//(03_K19VDSR)-
+#define s03_K20VDSR	 BUFFER[166]	//(03_K20VDSR)-
+#define ids03_K20VDSR	 84	//(03_K20VDSR)-
+#define s03_K21VDSR	 BUFFER[168]	//(03_K21VDSR)-
+#define ids03_K21VDSR	 85	//(03_K21VDSR)-
+#define s03_K22VDSR	 BUFFER[170]	//(03_K22VDSR)-
+#define ids03_K22VDSR	 86	//(03_K22VDSR)-
+#define s03_K23VDSR	 BUFFER[172]	//(03_K23VDSR)-
+#define ids03_K23VDSR	 87	//(03_K23VDSR)-
+#define s03_K24VDSR	 BUFFER[174]	//(03_K24VDSR)-
+#define ids03_K24VDSR	 88	//(03_K24VDSR)-
+#define s03_K25VDSR	 BUFFER[176]	//(03_K25VDSR)-
+#define ids03_K25VDSR	 89	//(03_K25VDSR)-
+#define s03_K26VDSR	 BUFFER[178]	//(03_K26VDSR)-
+#define ids03_K26VDSR	 90	//(03_K26VDSR)-
+#define s03_K27VDSR	 BUFFER[180]	//(03_K27VDSR)-
+#define ids03_K27VDSR	 91	//(03_K27VDSR)-
+#define s03_K28VDSR	 BUFFER[182]	//(03_K28VDSR)-
+#define ids03_K28VDSR	 92	//(03_K28VDSR)-
+#define s03_K29VDSR	 BUFFER[184]	//(03_K29VDSR)-
+#define ids03_K29VDSR	 93	//(03_K29VDSR)-
+#define s03_K30VDSR	 BUFFER[186]	//(03_K30VDSR)-
+#define ids03_K30VDSR	 94	//(03_K30VDSR)-
+#define s03_K31VDSR	 BUFFER[188]	//(03_K31VDSR)-
+#define ids03_K31VDSR	 95	//(03_K31VDSR)-
+#define s03_K32VDSR	 BUFFER[190]	//(03_K32VDSR)-
+#define ids03_K32VDSR	 96	//(03_K32VDSR)-
+#define s04_K01VDSR	 BUFFER[192]	//(04_K01VDSR)-
+#define ids04_K01VDSR	 97	//(04_K01VDSR)-
+#define s04_K02VDSR	 BUFFER[194]	//(04_K02VDSR)-
+#define ids04_K02VDSR	 98	//(04_K02VDSR)-
+#define s04_K03VDSR	 BUFFER[196]	//(04_K03VDSR)-
+#define ids04_K03VDSR	 99	//(04_K03VDSR)-
+#define s04_K04VDSR	 BUFFER[198]	//(04_K04VDSR)-
+#define ids04_K04VDSR	 100	//(04_K04VDSR)-
+#define s04_K05VDSR	 BUFFER[200]	//(04_K05VDSR)-
+#define ids04_K05VDSR	 101	//(04_K05VDSR)-
+#define s04_K06VDSR	 BUFFER[202]	//(04_K06VDSR)-
+#define ids04_K06VDSR	 102	//(04_K06VDSR)-
+#define s04_K07VDSR	 BUFFER[204]	//(04_K07VDSR)-
+#define ids04_K07VDSR	 103	//(04_K07VDSR)-
+#define s04_K08VDSR	 BUFFER[206]	//(04_K08VDSR)-
+#define ids04_K08VDSR	 104	//(04_K08VDSR)-
+#define s04_K09VDSR	 BUFFER[208]	//(04_K09VDSR)-
+#define ids04_K09VDSR	 105	//(04_K09VDSR)-
+#define s04_K10VDSR	 BUFFER[210]	//(04_K10VDSR)-
+#define ids04_K10VDSR	 106	//(04_K10VDSR)-
+#define s04_K11VDSR	 BUFFER[212]	//(04_K11VDSR)-
+#define ids04_K11VDSR	 107	//(04_K11VDSR)-
+#define s04_K12VDSR	 BUFFER[214]	//(04_K12VDSR)-
+#define ids04_K12VDSR	 108	//(04_K12VDSR)-
+#define s04_K13VDSR	 BUFFER[216]	//(04_K13VDSR)-
+#define ids04_K13VDSR	 109	//(04_K13VDSR)-
+#define s04_K14VDSR	 BUFFER[218]	//(04_K14VDSR)-
+#define ids04_K14VDSR	 110	//(04_K14VDSR)-
+#define s04_K15VDSR	 BUFFER[220]	//(04_K15VDSR)-
+#define ids04_K15VDSR	 111	//(04_K15VDSR)-
+#define s04_K16VDSR	 BUFFER[222]	//(04_K16VDSR)-
+#define ids04_K16VDSR	 112	//(04_K16VDSR)-
+#define s04_K17VDSR	 BUFFER[224]	//(04_K17VDSR)-
+#define ids04_K17VDSR	 113	//(04_K17VDSR)-
+#define s04_K18VDSR	 BUFFER[226]	//(04_K18VDSR)-
+#define ids04_K18VDSR	 114	//(04_K18VDSR)-
+#define s04_K19VDSR	 BUFFER[228]	//(04_K19VDSR)-
+#define ids04_K19VDSR	 115	//(04_K19VDSR)-
+#define s04_K20VDSR	 BUFFER[230]	//(04_K20VDSR)-
+#define ids04_K20VDSR	 116	//(04_K20VDSR)-
+#define s04_K21VDSR	 BUFFER[232]	//(04_K21VDSR)-
+#define ids04_K21VDSR	 117	//(04_K21VDSR)-
+#define s04_K22VDSR	 BUFFER[234]	//(04_K22VDSR)-
+#define ids04_K22VDSR	 118	//(04_K22VDSR)-
+#define s04_K23VDSR	 BUFFER[236]	//(04_K23VDSR)-
+#define ids04_K23VDSR	 119	//(04_K23VDSR)-
+#define s04_K24VDSR	 BUFFER[238]	//(04_K24VDSR)-
+#define ids04_K24VDSR	 120	//(04_K24VDSR)-
+#define s04_K25VDSR	 BUFFER[240]	//(04_K25VDSR)-
+#define ids04_K25VDSR	 121	//(04_K25VDSR)-
+#define s04_K26VDSR	 BUFFER[242]	//(04_K26VDSR)-
+#define ids04_K26VDSR	 122	//(04_K26VDSR)-
+#define s04_K27VDSR	 BUFFER[244]	//(04_K27VDSR)-
+#define ids04_K27VDSR	 123	//(04_K27VDSR)-
+#define s04_K28VDSR	 BUFFER[246]	//(04_K28VDSR)-
+#define ids04_K28VDSR	 124	//(04_K28VDSR)-
+#define s04_K29VDSR	 BUFFER[248]	//(04_K29VDSR)-
+#define ids04_K29VDSR	 125	//(04_K29VDSR)-
+#define s04_K30VDSR	 BUFFER[250]	//(04_K30VDSR)-
+#define ids04_K30VDSR	 126	//(04_K30VDSR)-
+#define s04_K31VDSR	 BUFFER[252]	//(04_K31VDSR)-
+#define ids04_K31VDSR	 127	//(04_K31VDSR)-
+#define s04_K32VDSR	 BUFFER[254]	//(04_K32VDSR)-
+#define ids04_K32VDSR	 128	//(04_K32VDSR)-
+#define s05_K01VDSR	 BUFFER[256]	//(05_K01VDSR)-
+#define ids05_K01VDSR	 129	//(05_K01VDSR)-
+#define s05_K02VDSR	 BUFFER[258]	//(05_K02VDSR)-
+#define ids05_K02VDSR	 130	//(05_K02VDSR)-
+#define s05_K03VDSR	 BUFFER[260]	//(05_K03VDSR)-
+#define ids05_K03VDSR	 131	//(05_K03VDSR)-
+#define s05_K04VDSR	 BUFFER[262]	//(05_K04VDSR)-
+#define ids05_K04VDSR	 132	//(05_K04VDSR)-
+#define s05_K05VDSR	 BUFFER[264]	//(05_K05VDSR)-
+#define ids05_K05VDSR	 133	//(05_K05VDSR)-
+#define s05_K06VDSR	 BUFFER[266]	//(05_K06VDSR)-
+#define ids05_K06VDSR	 134	//(05_K06VDSR)-
+#define s05_K07VDSR	 BUFFER[268]	//(05_K07VDSR)-
+#define ids05_K07VDSR	 135	//(05_K07VDSR)-
+#define s05_K08VDSR	 BUFFER[270]	//(05_K08VDSR)-
+#define ids05_K08VDSR	 136	//(05_K08VDSR)-
+#define s05_K09VDSR	 BUFFER[272]	//(05_K09VDSR)-
+#define ids05_K09VDSR	 137	//(05_K09VDSR)-
+#define s05_K10VDSR	 BUFFER[274]	//(05_K10VDSR)-
+#define ids05_K10VDSR	 138	//(05_K10VDSR)-
+#define s05_K11VDSR	 BUFFER[276]	//(05_K11VDSR)-
+#define ids05_K11VDSR	 139	//(05_K11VDSR)-
+#define s05_K12VDSR	 BUFFER[278]	//(05_K12VDSR)-
+#define ids05_K12VDSR	 140	//(05_K12VDSR)-
+#define s05_K13VDSR	 BUFFER[280]	//(05_K13VDSR)-
+#define ids05_K13VDSR	 141	//(05_K13VDSR)-
+#define s05_K14VDSR	 BUFFER[282]	//(05_K14VDSR)-
+#define ids05_K14VDSR	 142	//(05_K14VDSR)-
+#define s05_K15VDSR	 BUFFER[284]	//(05_K15VDSR)-
+#define ids05_K15VDSR	 143	//(05_K15VDSR)-
+#define s05_K16VDSR	 BUFFER[286]	//(05_K16VDSR)-
+#define ids05_K16VDSR	 144	//(05_K16VDSR)-
+#define s05_K17VDSR	 BUFFER[288]	//(05_K17VDSR)-
+#define ids05_K17VDSR	 145	//(05_K17VDSR)-
+#define s05_K18VDSR	 BUFFER[290]	//(05_K18VDSR)-
+#define ids05_K18VDSR	 146	//(05_K18VDSR)-
+#define s05_K19VDSR	 BUFFER[292]	//(05_K19VDSR)-
+#define ids05_K19VDSR	 147	//(05_K19VDSR)-
+#define s05_K20VDSR	 BUFFER[294]	//(05_K20VDSR)-
+#define ids05_K20VDSR	 148	//(05_K20VDSR)-
+#define s05_K21VDSR	 BUFFER[296]	//(05_K21VDSR)-
+#define ids05_K21VDSR	 149	//(05_K21VDSR)-
+#define s05_K22VDSR	 BUFFER[298]	//(05_K22VDSR)-
+#define ids05_K22VDSR	 150	//(05_K22VDSR)-
+#define s05_K23VDSR	 BUFFER[300]	//(05_K23VDSR)-
+#define ids05_K23VDSR	 151	//(05_K23VDSR)-
+#define s05_K24VDSR	 BUFFER[302]	//(05_K24VDSR)-
+#define ids05_K24VDSR	 152	//(05_K24VDSR)-
+#define s05_K25VDSR	 BUFFER[304]	//(05_K25VDSR)-
+#define ids05_K25VDSR	 153	//(05_K25VDSR)-
+#define s05_K26VDSR	 BUFFER[306]	//(05_K26VDSR)-
+#define ids05_K26VDSR	 154	//(05_K26VDSR)-
+#define s05_K27VDSR	 BUFFER[308]	//(05_K27VDSR)-
+#define ids05_K27VDSR	 155	//(05_K27VDSR)-
+#define s05_K28VDSR	 BUFFER[310]	//(05_K28VDSR)-
+#define ids05_K28VDSR	 156	//(05_K28VDSR)-
+#define s05_K29VDSR	 BUFFER[312]	//(05_K29VDSR)-
+#define ids05_K29VDSR	 157	//(05_K29VDSR)-
+#define s05_K30VDSR	 BUFFER[314]	//(05_K30VDSR)-
+#define ids05_K30VDSR	 158	//(05_K30VDSR)-
+#define s05_K31VDSR	 BUFFER[316]	//(05_K31VDSR)-
+#define ids05_K31VDSR	 159	//(05_K31VDSR)-
+#define s05_K32VDSR	 BUFFER[318]	//(05_K32VDSR)-
+#define ids05_K32VDSR	 160	//(05_K32VDSR)-
+#define s06_K01FDSR	 BUFFER[320]	//(06_K01FDSR)-
+#define ids06_K01FDSR	 161	//(06_K01FDSR)-
+#define s06_K02FDSR	 BUFFER[322]	//(06_K02FDSR)-
+#define ids06_K02FDSR	 162	//(06_K02FDSR)-
+#define s06_K03FDSR	 BUFFER[324]	//(06_K03FDSR)-
+#define ids06_K03FDSR	 163	//(06_K03FDSR)-
+#define s06_K04FDSR	 BUFFER[326]	//(06_K04FDSR)-
+#define ids06_K04FDSR	 164	//(06_K04FDSR)-
+#define s06_K05FDSR	 BUFFER[328]	//(06_K05FDSR)-
+#define ids06_K05FDSR	 165	//(06_K05FDSR)-
+#define s06_K06FDSR	 BUFFER[330]	//(06_K06FDSR)-
+#define ids06_K06FDSR	 166	//(06_K06FDSR)-
+#define s06_K07FDSR	 BUFFER[332]	//(06_K07FDSR)-
+#define ids06_K07FDSR	 167	//(06_K07FDSR)-
+#define s06_K08FDSR	 BUFFER[334]	//(06_K08FDSR)-
+#define ids06_K08FDSR	 168	//(06_K08FDSR)-
+#define s06_K09FDSR	 BUFFER[336]	//(06_K09FDSR)-
+#define ids06_K09FDSR	 169	//(06_K09FDSR)-
+#define s06_K10FDSR	 BUFFER[338]	//(06_K10FDSR)-
+#define ids06_K10FDSR	 170	//(06_K10FDSR)-
+#define s06_K11FDSR	 BUFFER[340]	//(06_K11FDSR)-
+#define ids06_K11FDSR	 171	//(06_K11FDSR)-
+#define s06_K12FDSR	 BUFFER[342]	//(06_K12FDSR)-
+#define ids06_K12FDSR	 172	//(06_K12FDSR)-
+#define s06_K13FDSR	 BUFFER[344]	//(06_K13FDSR)-
+#define ids06_K13FDSR	 173	//(06_K13FDSR)-
+#define s06_K14FDSR	 BUFFER[346]	//(06_K14FDSR)-
+#define ids06_K14FDSR	 174	//(06_K14FDSR)-
+#define s06_K15FDSR	 BUFFER[348]	//(06_K15FDSR)-
+#define ids06_K15FDSR	 175	//(06_K15FDSR)-
+#define s06_K16FDSR	 BUFFER[350]	//(06_K16FDSR)-
+#define ids06_K16FDSR	 176	//(06_K16FDSR)-
+#define s07_K01FDSR	 BUFFER[352]	//(07_K01FDSR)-
+#define ids07_K01FDSR	 177	//(07_K01FDSR)-
+#define s07_K02FDSR	 BUFFER[354]	//(07_K02FDSR)-
+#define ids07_K02FDSR	 178	//(07_K02FDSR)-
+#define s07_K03FDSR	 BUFFER[356]	//(07_K03FDSR)-
+#define ids07_K03FDSR	 179	//(07_K03FDSR)-
+#define s07_K04FDSR	 BUFFER[358]	//(07_K04FDSR)-
+#define ids07_K04FDSR	 180	//(07_K04FDSR)-
+#define s07_K05FDSR	 BUFFER[360]	//(07_K05FDSR)-
+#define ids07_K05FDSR	 181	//(07_K05FDSR)-
+#define s07_K06FDSR	 BUFFER[362]	//(07_K06FDSR)-
+#define ids07_K06FDSR	 182	//(07_K06FDSR)-
+#define s07_K07FDSR	 BUFFER[364]	//(07_K07FDSR)-
+#define ids07_K07FDSR	 183	//(07_K07FDSR)-
+#define s07_K08FDSR	 BUFFER[366]	//(07_K08FDSR)-
+#define ids07_K08FDSR	 184	//(07_K08FDSR)-
+#define s07_K09FDSR	 BUFFER[368]	//(07_K09FDSR)-
+#define ids07_K09FDSR	 185	//(07_K09FDSR)-
+#define s07_K10FDSR	 BUFFER[370]	//(07_K10FDSR)-
+#define ids07_K10FDSR	 186	//(07_K10FDSR)-
+#define s07_K11FDSR	 BUFFER[372]	//(07_K11FDSR)-
+#define ids07_K11FDSR	 187	//(07_K11FDSR)-
+#define s07_K12FDSR	 BUFFER[374]	//(07_K12FDSR)-
+#define ids07_K12FDSR	 188	//(07_K12FDSR)-
+#define s07_K13FDSR	 BUFFER[376]	//(07_K13FDSR)-
+#define ids07_K13FDSR	 189	//(07_K13FDSR)-
+#define s07_K14FDSR	 BUFFER[378]	//(07_K14FDSR)-
+#define ids07_K14FDSR	 190	//(07_K14FDSR)-
+#define s07_K15FDSR	 BUFFER[380]	//(07_K15FDSR)-
+#define ids07_K15FDSR	 191	//(07_K15FDSR)-
+#define s07_K16FDSR	 BUFFER[382]	//(07_K16FDSR)-
+#define ids07_K16FDSR	 192	//(07_K16FDSR)-
+#define s08_K01FDSR	 BUFFER[384]	//(08_K01FDSR)-
+#define ids08_K01FDSR	 193	//(08_K01FDSR)-
+#define s08_K02FDSR	 BUFFER[386]	//(08_K02FDSR)-
+#define ids08_K02FDSR	 194	//(08_K02FDSR)-
+#define s08_K03FDSR	 BUFFER[388]	//(08_K03FDSR)-
+#define ids08_K03FDSR	 195	//(08_K03FDSR)-
+#define s08_K04FDSR	 BUFFER[390]	//(08_K04FDSR)-
+#define ids08_K04FDSR	 196	//(08_K04FDSR)-
+#define s08_K05FDSR	 BUFFER[392]	//(08_K05FDSR)-
+#define ids08_K05FDSR	 197	//(08_K05FDSR)-
+#define s08_K06FDSR	 BUFFER[394]	//(08_K06FDSR)-
+#define ids08_K06FDSR	 198	//(08_K06FDSR)-
+#define s08_K07FDSR	 BUFFER[396]	//(08_K07FDSR)-
+#define ids08_K07FDSR	 199	//(08_K07FDSR)-
+#define s08_K08FDSR	 BUFFER[398]	//(08_K08FDSR)-
+#define ids08_K08FDSR	 200	//(08_K08FDSR)-
+#define s08_K09FDSR	 BUFFER[400]	//(08_K09FDSR)-
+#define ids08_K09FDSR	 201	//(08_K09FDSR)-
+#define s08_K10FDSR	 BUFFER[402]	//(08_K10FDSR)-
+#define ids08_K10FDSR	 202	//(08_K10FDSR)-
+#define s08_K11FDSR	 BUFFER[404]	//(08_K11FDSR)-
+#define ids08_K11FDSR	 203	//(08_K11FDSR)-
+#define s08_K12FDSR	 BUFFER[406]	//(08_K12FDSR)-
+#define ids08_K12FDSR	 204	//(08_K12FDSR)-
+#define s08_K13FDSR	 BUFFER[408]	//(08_K13FDSR)-
+#define ids08_K13FDSR	 205	//(08_K13FDSR)-
+#define s08_K14FDSR	 BUFFER[410]	//(08_K14FDSR)-
+#define ids08_K14FDSR	 206	//(08_K14FDSR)-
+#define s08_K15FDSR	 BUFFER[412]	//(08_K15FDSR)-
+#define ids08_K15FDSR	 207	//(08_K15FDSR)-
+#define s08_K16FDSR	 BUFFER[414]	//(08_K16FDSR)-
+#define ids08_K16FDSR	 208	//(08_K16FDSR)-
+#define s09_K01FDSR	 BUFFER[416]	//(09_K01FDSR)-
+#define ids09_K01FDSR	 209	//(09_K01FDSR)-
+#define s09_K02FDSR	 BUFFER[418]	//(09_K02FDSR)-
+#define ids09_K02FDSR	 210	//(09_K02FDSR)-
+#define s09_K03FDSR	 BUFFER[420]	//(09_K03FDSR)-
+#define ids09_K03FDSR	 211	//(09_K03FDSR)-
+#define s09_K04FDSR	 BUFFER[422]	//(09_K04FDSR)-
+#define ids09_K04FDSR	 212	//(09_K04FDSR)-
+#define s09_K05FDSR	 BUFFER[424]	//(09_K05FDSR)-
+#define ids09_K05FDSR	 213	//(09_K05FDSR)-
+#define s09_K06FDSR	 BUFFER[426]	//(09_K06FDSR)-
+#define ids09_K06FDSR	 214	//(09_K06FDSR)-
+#define s09_K07FDSR	 BUFFER[428]	//(09_K07FDSR)-
+#define ids09_K07FDSR	 215	//(09_K07FDSR)-
+#define s09_K08FDSR	 BUFFER[430]	//(09_K08FDSR)-
+#define ids09_K08FDSR	 216	//(09_K08FDSR)-
+#define s09_K09FDSR	 BUFFER[432]	//(09_K09FDSR)-
+#define ids09_K09FDSR	 217	//(09_K09FDSR)-
+#define s09_K10FDSR	 BUFFER[434]	//(09_K10FDSR)-
+#define ids09_K10FDSR	 218	//(09_K10FDSR)-
+#define s09_K11FDSR	 BUFFER[436]	//(09_K11FDSR)-
+#define ids09_K11FDSR	 219	//(09_K11FDSR)-
+#define s09_K12FDSR	 BUFFER[438]	//(09_K12FDSR)-
+#define ids09_K12FDSR	 220	//(09_K12FDSR)-
+#define s09_K13FDSR	 BUFFER[440]	//(09_K13FDSR)-
+#define ids09_K13FDSR	 221	//(09_K13FDSR)-
+#define s09_K14FDSR	 BUFFER[442]	//(09_K14FDSR)-
+#define ids09_K14FDSR	 222	//(09_K14FDSR)-
+#define s09_K15FDSR	 BUFFER[444]	//(09_K15FDSR)-
+#define ids09_K15FDSR	 223	//(09_K15FDSR)-
+#define s09_K16FDSR	 BUFFER[446]	//(09_K16FDSR)-
+#define ids09_K16FDSR	 224	//(09_K16FDSR)-
+#define s10_K01FDSR	 BUFFER[448]	//(10_K01FDSR)-
+#define ids10_K01FDSR	 225	//(10_K01FDSR)-
+#define s10_K02FDSR	 BUFFER[450]	//(10_K02FDSR)-
+#define ids10_K02FDSR	 226	//(10_K02FDSR)-
+#define s10_K03FDSR	 BUFFER[452]	//(10_K03FDSR)-
+#define ids10_K03FDSR	 227	//(10_K03FDSR)-
+#define s10_K04FDSR	 BUFFER[454]	//(10_K04FDSR)-
+#define ids10_K04FDSR	 228	//(10_K04FDSR)-
+#define s10_K05FDSR	 BUFFER[456]	//(10_K05FDSR)-
+#define ids10_K05FDSR	 229	//(10_K05FDSR)-
+#define s10_K06FDSR	 BUFFER[458]	//(10_K06FDSR)-
+#define ids10_K06FDSR	 230	//(10_K06FDSR)-
+#define s10_K07FDSR	 BUFFER[460]	//(10_K07FDSR)-
+#define ids10_K07FDSR	 231	//(10_K07FDSR)-
+#define s10_K08FDSR	 BUFFER[462]	//(10_K08FDSR)-
+#define ids10_K08FDSR	 232	//(10_K08FDSR)-
+#define s10_K09FDSR	 BUFFER[464]	//(10_K09FDSR)-
+#define ids10_K09FDSR	 233	//(10_K09FDSR)-
+#define s10_K10FDSR	 BUFFER[466]	//(10_K10FDSR)-
+#define ids10_K10FDSR	 234	//(10_K10FDSR)-
+#define s10_K11FDSR	 BUFFER[468]	//(10_K11FDSR)-
+#define ids10_K11FDSR	 235	//(10_K11FDSR)-
+#define s10_K12FDSR	 BUFFER[470]	//(10_K12FDSR)-
+#define ids10_K12FDSR	 236	//(10_K12FDSR)-
+#define s10_K13FDSR	 BUFFER[472]	//(10_K13FDSR)-
+#define ids10_K13FDSR	 237	//(10_K13FDSR)-
+#define s10_K14FDSR	 BUFFER[474]	//(10_K14FDSR)-
+#define ids10_K14FDSR	 238	//(10_K14FDSR)-
+#define s10_K15FDSR	 BUFFER[476]	//(10_K15FDSR)-
+#define ids10_K15FDSR	 239	//(10_K15FDSR)-
+#define s10_K16FDSR	 BUFFER[478]	//(10_K16FDSR)-
+#define ids10_K16FDSR	 240	//(10_K16FDSR)-
+#define s11_K01FDSR	 BUFFER[480]	//(11_K01FDSR)-
+#define ids11_K01FDSR	 241	//(11_K01FDSR)-
+#define s11_K02FDSR	 BUFFER[482]	//(11_K02FDSR)-
+#define ids11_K02FDSR	 242	//(11_K02FDSR)-
+#define s11_K03FDSR	 BUFFER[484]	//(11_K03FDSR)-
+#define ids11_K03FDSR	 243	//(11_K03FDSR)-
+#define s11_K04FDSR	 BUFFER[486]	//(11_K04FDSR)-
+#define ids11_K04FDSR	 244	//(11_K04FDSR)-
+#define s11_K05FDSR	 BUFFER[488]	//(11_K05FDSR)-
+#define ids11_K05FDSR	 245	//(11_K05FDSR)-
+#define s11_K06FDSR	 BUFFER[490]	//(11_K06FDSR)-
+#define ids11_K06FDSR	 246	//(11_K06FDSR)-
+#define s11_K07FDSR	 BUFFER[492]	//(11_K07FDSR)-
+#define ids11_K07FDSR	 247	//(11_K07FDSR)-
+#define s11_K08FDSR	 BUFFER[494]	//(11_K08FDSR)-
+#define ids11_K08FDSR	 248	//(11_K08FDSR)-
+#define s11_K09FDSR	 BUFFER[496]	//(11_K09FDSR)-
+#define ids11_K09FDSR	 249	//(11_K09FDSR)-
+#define s11_K10FDSR	 BUFFER[498]	//(11_K10FDSR)-
+#define ids11_K10FDSR	 250	//(11_K10FDSR)-
+#define s11_K11FDSR	 BUFFER[500]	//(11_K11FDSR)-
+#define ids11_K11FDSR	 251	//(11_K11FDSR)-
+#define s11_K12FDSR	 BUFFER[502]	//(11_K12FDSR)-
+#define ids11_K12FDSR	 252	//(11_K12FDSR)-
+#define s11_K13FDSR	 BUFFER[504]	//(11_K13FDSR)-
+#define ids11_K13FDSR	 253	//(11_K13FDSR)-
+#define s11_K14FDSR	 BUFFER[506]	//(11_K14FDSR)-
+#define ids11_K14FDSR	 254	//(11_K14FDSR)-
+#define s11_K15FDSR	 BUFFER[508]	//(11_K15FDSR)-
+#define ids11_K15FDSR	 255	//(11_K15FDSR)-
+#define s11_K16FDSR	 BUFFER[510]	//(11_K16FDSR)-
+#define ids11_K16FDSR	 256	//(11_K16FDSR)-
+#define s12_K01VASR	 BUFFER[512]	//(12_K01VASR)-
+#define ids12_K01VASR	 257	//(12_K01VASR)-
+#define s12_K02VASR	 BUFFER[515]	//(12_K02VASR)-
+#define ids12_K02VASR	 258	//(12_K02VASR)-
+#define s12_K03VASR	 BUFFER[518]	//(12_K03VASR)-
+#define ids12_K03VASR	 259	//(12_K03VASR)-
+#define s12_K04VASR	 BUFFER[521]	//(12_K04VASR)-
+#define ids12_K04VASR	 260	//(12_K04VASR)-
+#define s12_K05VASR	 BUFFER[524]	//(12_K05VASR)-
+#define ids12_K05VASR	 261	//(12_K05VASR)-
+#define s12_K06VASR	 BUFFER[527]	//(12_K06VASR)-
+#define ids12_K06VASR	 262	//(12_K06VASR)-
+#define s12_K07VASR	 BUFFER[530]	//(12_K07VASR)-
+#define ids12_K07VASR	 263	//(12_K07VASR)-
+#define s12_K08VASR	 BUFFER[533]	//(12_K08VASR)-
+#define ids12_K08VASR	 264	//(12_K08VASR)-
+#define s13_K01VDSR	 BUFFER[536]	//(13_K01VDSR)-
+#define ids13_K01VDSR	 265	//(13_K01VDSR)-
+#define s13_K02VDSR	 BUFFER[538]	//(13_K02VDSR)-
+#define ids13_K02VDSR	 266	//(13_K02VDSR)-
+#define s13_K03VDSR	 BUFFER[540]	//(13_K03VDSR)-
+#define ids13_K03VDSR	 267	//(13_K03VDSR)-
+#define s13_K04VDSR	 BUFFER[542]	//(13_K04VDSR)-
+#define ids13_K04VDSR	 268	//(13_K04VDSR)-
+#define s13_K05VDSR	 BUFFER[544]	//(13_K05VDSR)-
+#define ids13_K05VDSR	 269	//(13_K05VDSR)-
+#define s13_K06VDSR	 BUFFER[546]	//(13_K06VDSR)-
+#define ids13_K06VDSR	 270	//(13_K06VDSR)-
+#define s13_K07VDSR	 BUFFER[548]	//(13_K07VDSR)-
+#define ids13_K07VDSR	 271	//(13_K07VDSR)-
+#define s13_K08VDSR	 BUFFER[550]	//(13_K08VDSR)-
+#define ids13_K08VDSR	 272	//(13_K08VDSR)-
+#define s13_K09VDSR	 BUFFER[552]	//(13_K09VDSR)-
+#define ids13_K09VDSR	 273	//(13_K09VDSR)-
+#define s13_K10VDSR	 BUFFER[554]	//(13_K10VDSR)-
+#define ids13_K10VDSR	 274	//(13_K10VDSR)-
+#define s13_K11VDSR	 BUFFER[556]	//(13_K11VDSR)-
+#define ids13_K11VDSR	 275	//(13_K11VDSR)-
+#define s13_K12VDSR	 BUFFER[558]	//(13_K12VDSR)-
+#define ids13_K12VDSR	 276	//(13_K12VDSR)-
+#define s13_K13VDSR	 BUFFER[560]	//(13_K13VDSR)-
+#define ids13_K13VDSR	 277	//(13_K13VDSR)-
+#define s13_K14VDSR	 BUFFER[562]	//(13_K14VDSR)-
+#define ids13_K14VDSR	 278	//(13_K14VDSR)-
+#define s13_K15VDSR	 BUFFER[564]	//(13_K15VDSR)-
+#define ids13_K15VDSR	 279	//(13_K15VDSR)-
+#define s13_K16VDSR	 BUFFER[566]	//(13_K16VDSR)-
+#define ids13_K16VDSR	 280	//(13_K16VDSR)-
+#define s13_K17VDSR	 BUFFER[568]	//(13_K17VDSR)-
+#define ids13_K17VDSR	 281	//(13_K17VDSR)-
+#define s13_K18VDSR	 BUFFER[570]	//(13_K18VDSR)-
+#define ids13_K18VDSR	 282	//(13_K18VDSR)-
+#define s13_K19VDSR	 BUFFER[572]	//(13_K19VDSR)-
+#define ids13_K19VDSR	 283	//(13_K19VDSR)-
+#define s13_K20VDSR	 BUFFER[574]	//(13_K20VDSR)-
+#define ids13_K20VDSR	 284	//(13_K20VDSR)-
+#define s13_K21VDSR	 BUFFER[576]	//(13_K21VDSR)-
+#define ids13_K21VDSR	 285	//(13_K21VDSR)-
+#define s13_K22VDSR	 BUFFER[578]	//(13_K22VDSR)-
+#define ids13_K22VDSR	 286	//(13_K22VDSR)-
+#define s13_K23VDSR	 BUFFER[580]	//(13_K23VDSR)-
+#define ids13_K23VDSR	 287	//(13_K23VDSR)-
+#define s13_K24VDSR	 BUFFER[582]	//(13_K24VDSR)-
+#define ids13_K24VDSR	 288	//(13_K24VDSR)-
+#define s13_K25VDSR	 BUFFER[584]	//(13_K25VDSR)-
+#define ids13_K25VDSR	 289	//(13_K25VDSR)-
+#define s13_K26VDSR	 BUFFER[586]	//(13_K26VDSR)-
+#define ids13_K26VDSR	 290	//(13_K26VDSR)-
+#define s13_K27VDSR	 BUFFER[588]	//(13_K27VDSR)-
+#define ids13_K27VDSR	 291	//(13_K27VDSR)-
+#define s13_K28VDSR	 BUFFER[590]	//(13_K28VDSR)-
+#define ids13_K28VDSR	 292	//(13_K28VDSR)-
+#define s13_K29VDSR	 BUFFER[592]	//(13_K29VDSR)-
+#define ids13_K29VDSR	 293	//(13_K29VDSR)-
+#define s13_K30VDSR	 BUFFER[594]	//(13_K30VDSR)-
+#define ids13_K30VDSR	 294	//(13_K30VDSR)-
+#define s13_K31VDSR	 BUFFER[596]	//(13_K31VDSR)-
+#define ids13_K31VDSR	 295	//(13_K31VDSR)-
+#define s13_K32VDSR	 BUFFER[598]	//(13_K32VDSR)-
+#define ids13_K32VDSR	 296	//(13_K32VDSR)-
+#define s15_K01FDSR	 BUFFER[600]	//(15_K01FDSR)-
+#define ids15_K01FDSR	 297	//(15_K01FDSR)-
+#define s15_K02FDSR	 BUFFER[602]	//(15_K02FDSR)-
+#define ids15_K02FDSR	 298	//(15_K02FDSR)-
+#define s15_K03FDSR	 BUFFER[604]	//(15_K03FDSR)-
+#define ids15_K03FDSR	 299	//(15_K03FDSR)-
+#define s15_K04FDSR	 BUFFER[606]	//(15_K04FDSR)-
+#define ids15_K04FDSR	 300	//(15_K04FDSR)-
+#define s15_K05FDSR	 BUFFER[608]	//(15_K05FDSR)-
+#define ids15_K05FDSR	 301	//(15_K05FDSR)-
+#define s15_K06FDSR	 BUFFER[610]	//(15_K06FDSR)-
+#define ids15_K06FDSR	 302	//(15_K06FDSR)-
+#define s15_K07FDSR	 BUFFER[612]	//(15_K07FDSR)-
+#define ids15_K07FDSR	 303	//(15_K07FDSR)-
+#define s15_K08FDSR	 BUFFER[614]	//(15_K08FDSR)-
+#define ids15_K08FDSR	 304	//(15_K08FDSR)-
+#define s15_K09FDSR	 BUFFER[616]	//(15_K09FDSR)-
+#define ids15_K09FDSR	 305	//(15_K09FDSR)-
+#define s15_K10FDSR	 BUFFER[618]	//(15_K10FDSR)-
+#define ids15_K10FDSR	 306	//(15_K10FDSR)-
+#define s15_K11FDSR	 BUFFER[620]	//(15_K11FDSR)-
+#define ids15_K11FDSR	 307	//(15_K11FDSR)-
+#define s15_K12FDSR	 BUFFER[622]	//(15_K12FDSR)-
+#define ids15_K12FDSR	 308	//(15_K12FDSR)-
+#define s15_K13FDSR	 BUFFER[624]	//(15_K13FDSR)-
+#define ids15_K13FDSR	 309	//(15_K13FDSR)-
+#define s15_K14FDSR	 BUFFER[626]	//(15_K14FDSR)-
+#define ids15_K14FDSR	 310	//(15_K14FDSR)-
+#define s15_K15FDSR	 BUFFER[628]	//(15_K15FDSR)-
+#define ids15_K15FDSR	 311	//(15_K15FDSR)-
+#define s15_K16FDSR	 BUFFER[630]	//(15_K16FDSR)-
+#define ids15_K16FDSR	 312	//(15_K16FDSR)-
+#pragma pack(push,1)
+static VarCtrl allVariables[]={      // Описание всех переменных
+	{ 1	,1	,1	, &s01_K01VDSR},	//(01_K01VDSR)-
+	{ 2	,1	,1	, &s01_K02VDSR},	//(01_K02VDSR)-
+	{ 3	,1	,1	, &s01_K03VDSR},	//(01_K03VDSR)-
+	{ 4	,1	,1	, &s01_K04VDSR},	//(01_K04VDSR)-
+	{ 5	,1	,1	, &s01_K05VDSR},	//(01_K05VDSR)-
+	{ 6	,1	,1	, &s01_K06VDSR},	//(01_K06VDSR)-
+	{ 7	,1	,1	, &s01_K07VDSR},	//(01_K07VDSR)-
+	{ 8	,1	,1	, &s01_K08VDSR},	//(01_K08VDSR)-
+	{ 9	,1	,1	, &s01_K09VDSR},	//(01_K09VDSR)-
+	{ 10	,1	,1	, &s01_K10VDSR},	//(01_K10VDSR)-
+	{ 11	,1	,1	, &s01_K11VDSR},	//(01_K11VDSR)-
+	{ 12	,1	,1	, &s01_K12VDSR},	//(01_K12VDSR)-
+	{ 13	,1	,1	, &s01_K13VDSR},	//(01_K13VDSR)-
+	{ 14	,1	,1	, &s01_K14VDSR},	//(01_K14VDSR)-
+	{ 15	,1	,1	, &s01_K15VDSR},	//(01_K15VDSR)-
+	{ 16	,1	,1	, &s01_K16VDSR},	//(01_K16VDSR)-
+	{ 17	,1	,1	, &s01_K17VDSR},	//(01_K17VDSR)-
+	{ 18	,1	,1	, &s01_K18VDSR},	//(01_K18VDSR)-
+	{ 19	,1	,1	, &s01_K19VDSR},	//(01_K19VDSR)-
+	{ 20	,1	,1	, &s01_K20VDSR},	//(01_K20VDSR)-
+	{ 21	,1	,1	, &s01_K21VDSR},	//(01_K21VDSR)-
+	{ 22	,1	,1	, &s01_K22VDSR},	//(01_K22VDSR)-
+	{ 23	,1	,1	, &s01_K23VDSR},	//(01_K23VDSR)-
+	{ 24	,1	,1	, &s01_K24VDSR},	//(01_K24VDSR)-
+	{ 25	,1	,1	, &s01_K25VDSR},	//(01_K25VDSR)-
+	{ 26	,1	,1	, &s01_K26VDSR},	//(01_K26VDSR)-
+	{ 27	,1	,1	, &s01_K27VDSR},	//(01_K27VDSR)-
+	{ 28	,1	,1	, &s01_K28VDSR},	//(01_K28VDSR)-
+	{ 29	,1	,1	, &s01_K29VDSR},	//(01_K29VDSR)-
+	{ 30	,1	,1	, &s01_K30VDSR},	//(01_K30VDSR)-
+	{ 31	,1	,1	, &s01_K31VDSR},	//(01_K31VDSR)-
+	{ 32	,1	,1	, &s01_K32VDSR},	//(01_K32VDSR)-
+	{ 33	,1	,1	, &s02_K01VDSR},	//(02_K01VDSR)-
+	{ 34	,1	,1	, &s02_K02VDSR},	//(02_K02VDSR)-
+	{ 35	,1	,1	, &s02_K03VDSR},	//(02_K03VDSR)-
+	{ 36	,1	,1	, &s02_K04VDSR},	//(02_K04VDSR)-
+	{ 37	,1	,1	, &s02_K05VDSR},	//(02_K05VDSR)-
+	{ 38	,1	,1	, &s02_K06VDSR},	//(02_K06VDSR)-
+	{ 39	,1	,1	, &s02_K07VDSR},	//(02_K07VDSR)-
+	{ 40	,1	,1	, &s02_K08VDSR},	//(02_K08VDSR)-
+	{ 41	,1	,1	, &s02_K09VDSR},	//(02_K09VDSR)-
+	{ 42	,1	,1	, &s02_K10VDSR},	//(02_K10VDSR)-
+	{ 43	,1	,1	, &s02_K11VDSR},	//(02_K11VDSR)-
+	{ 44	,1	,1	, &s02_K12VDSR},	//(02_K12VDSR)-
+	{ 45	,1	,1	, &s02_K13VDSR},	//(02_K13VDSR)-
+	{ 46	,1	,1	, &s02_K14VDSR},	//(02_K14VDSR)-
+	{ 47	,1	,1	, &s02_K15VDSR},	//(02_K15VDSR)-
+	{ 48	,1	,1	, &s02_K16VDSR},	//(02_K16VDSR)-
+	{ 49	,1	,1	, &s02_K17VDSR},	//(02_K17VDSR)-
+	{ 50	,1	,1	, &s02_K18VDSR},	//(02_K18VDSR)-
+	{ 51	,1	,1	, &s02_K19VDSR},	//(02_K19VDSR)-
+	{ 52	,1	,1	, &s02_K20VDSR},	//(02_K20VDSR)-
+	{ 53	,1	,1	, &s02_K21VDSR},	//(02_K21VDSR)-
+	{ 54	,1	,1	, &s02_K22VDSR},	//(02_K22VDSR)-
+	{ 55	,1	,1	, &s02_K23VDSR},	//(02_K23VDSR)-
+	{ 56	,1	,1	, &s02_K24VDSR},	//(02_K24VDSR)-
+	{ 57	,1	,1	, &s02_K25VDSR},	//(02_K25VDSR)-
+	{ 58	,1	,1	, &s02_K26VDSR},	//(02_K26VDSR)-
+	{ 59	,1	,1	, &s02_K27VDSR},	//(02_K27VDSR)-
+	{ 60	,1	,1	, &s02_K28VDSR},	//(02_K28VDSR)-
+	{ 61	,1	,1	, &s02_K29VDSR},	//(02_K29VDSR)-
+	{ 62	,1	,1	, &s02_K30VDSR},	//(02_K30VDSR)-
+	{ 63	,1	,1	, &s02_K31VDSR},	//(02_K31VDSR)-
+	{ 64	,1	,1	, &s02_K32VDSR},	//(02_K32VDSR)-
+	{ 65	,1	,1	, &s03_K01VDSR},	//(03_K01VDSR)-
+	{ 66	,1	,1	, &s03_K02VDSR},	//(03_K02VDSR)-
+	{ 67	,1	,1	, &s03_K03VDSR},	//(03_K03VDSR)-
+	{ 68	,1	,1	, &s03_K04VDSR},	//(03_K04VDSR)-
+	{ 69	,1	,1	, &s03_K05VDSR},	//(03_K05VDSR)-
+	{ 70	,1	,1	, &s03_K06VDSR},	//(03_K06VDSR)-
+	{ 71	,1	,1	, &s03_K07VDSR},	//(03_K07VDSR)-
+	{ 72	,1	,1	, &s03_K08VDSR},	//(03_K08VDSR)-
+	{ 73	,1	,1	, &s03_K09VDSR},	//(03_K09VDSR)-
+	{ 74	,1	,1	, &s03_K10VDSR},	//(03_K10VDSR)-
+	{ 75	,1	,1	, &s03_K11VDSR},	//(03_K11VDSR)-
+	{ 76	,1	,1	, &s03_K12VDSR},	//(03_K12VDSR)-
+	{ 77	,1	,1	, &s03_K13VDSR},	//(03_K13VDSR)-
+	{ 78	,1	,1	, &s03_K14VDSR},	//(03_K14VDSR)-
+	{ 79	,1	,1	, &s03_K15VDSR},	//(03_K15VDSR)-
+	{ 80	,1	,1	, &s03_K16VDSR},	//(03_K16VDSR)-
+	{ 81	,1	,1	, &s03_K17VDSR},	//(03_K17VDSR)-
+	{ 82	,1	,1	, &s03_K18VDSR},	//(03_K18VDSR)-
+	{ 83	,1	,1	, &s03_K19VDSR},	//(03_K19VDSR)-
+	{ 84	,1	,1	, &s03_K20VDSR},	//(03_K20VDSR)-
+	{ 85	,1	,1	, &s03_K21VDSR},	//(03_K21VDSR)-
+	{ 86	,1	,1	, &s03_K22VDSR},	//(03_K22VDSR)-
+	{ 87	,1	,1	, &s03_K23VDSR},	//(03_K23VDSR)-
+	{ 88	,1	,1	, &s03_K24VDSR},	//(03_K24VDSR)-
+	{ 89	,1	,1	, &s03_K25VDSR},	//(03_K25VDSR)-
+	{ 90	,1	,1	, &s03_K26VDSR},	//(03_K26VDSR)-
+	{ 91	,1	,1	, &s03_K27VDSR},	//(03_K27VDSR)-
+	{ 92	,1	,1	, &s03_K28VDSR},	//(03_K28VDSR)-
+	{ 93	,1	,1	, &s03_K29VDSR},	//(03_K29VDSR)-
+	{ 94	,1	,1	, &s03_K30VDSR},	//(03_K30VDSR)-
+	{ 95	,1	,1	, &s03_K31VDSR},	//(03_K31VDSR)-
+	{ 96	,1	,1	, &s03_K32VDSR},	//(03_K32VDSR)-
+	{ 97	,1	,1	, &s04_K01VDSR},	//(04_K01VDSR)-
+	{ 98	,1	,1	, &s04_K02VDSR},	//(04_K02VDSR)-
+	{ 99	,1	,1	, &s04_K03VDSR},	//(04_K03VDSR)-
+	{ 100	,1	,1	, &s04_K04VDSR},	//(04_K04VDSR)-
+	{ 101	,1	,1	, &s04_K05VDSR},	//(04_K05VDSR)-
+	{ 102	,1	,1	, &s04_K06VDSR},	//(04_K06VDSR)-
+	{ 103	,1	,1	, &s04_K07VDSR},	//(04_K07VDSR)-
+	{ 104	,1	,1	, &s04_K08VDSR},	//(04_K08VDSR)-
+	{ 105	,1	,1	, &s04_K09VDSR},	//(04_K09VDSR)-
+	{ 106	,1	,1	, &s04_K10VDSR},	//(04_K10VDSR)-
+	{ 107	,1	,1	, &s04_K11VDSR},	//(04_K11VDSR)-
+	{ 108	,1	,1	, &s04_K12VDSR},	//(04_K12VDSR)-
+	{ 109	,1	,1	, &s04_K13VDSR},	//(04_K13VDSR)-
+	{ 110	,1	,1	, &s04_K14VDSR},	//(04_K14VDSR)-
+	{ 111	,1	,1	, &s04_K15VDSR},	//(04_K15VDSR)-
+	{ 112	,1	,1	, &s04_K16VDSR},	//(04_K16VDSR)-
+	{ 113	,1	,1	, &s04_K17VDSR},	//(04_K17VDSR)-
+	{ 114	,1	,1	, &s04_K18VDSR},	//(04_K18VDSR)-
+	{ 115	,1	,1	, &s04_K19VDSR},	//(04_K19VDSR)-
+	{ 116	,1	,1	, &s04_K20VDSR},	//(04_K20VDSR)-
+	{ 117	,1	,1	, &s04_K21VDSR},	//(04_K21VDSR)-
+	{ 118	,1	,1	, &s04_K22VDSR},	//(04_K22VDSR)-
+	{ 119	,1	,1	, &s04_K23VDSR},	//(04_K23VDSR)-
+	{ 120	,1	,1	, &s04_K24VDSR},	//(04_K24VDSR)-
+	{ 121	,1	,1	, &s04_K25VDSR},	//(04_K25VDSR)-
+	{ 122	,1	,1	, &s04_K26VDSR},	//(04_K26VDSR)-
+	{ 123	,1	,1	, &s04_K27VDSR},	//(04_K27VDSR)-
+	{ 124	,1	,1	, &s04_K28VDSR},	//(04_K28VDSR)-
+	{ 125	,1	,1	, &s04_K29VDSR},	//(04_K29VDSR)-
+	{ 126	,1	,1	, &s04_K30VDSR},	//(04_K30VDSR)-
+	{ 127	,1	,1	, &s04_K31VDSR},	//(04_K31VDSR)-
+	{ 128	,1	,1	, &s04_K32VDSR},	//(04_K32VDSR)-
+	{ 129	,1	,1	, &s05_K01VDSR},	//(05_K01VDSR)-
+	{ 130	,1	,1	, &s05_K02VDSR},	//(05_K02VDSR)-
+	{ 131	,1	,1	, &s05_K03VDSR},	//(05_K03VDSR)-
+	{ 132	,1	,1	, &s05_K04VDSR},	//(05_K04VDSR)-
+	{ 133	,1	,1	, &s05_K05VDSR},	//(05_K05VDSR)-
+	{ 134	,1	,1	, &s05_K06VDSR},	//(05_K06VDSR)-
+	{ 135	,1	,1	, &s05_K07VDSR},	//(05_K07VDSR)-
+	{ 136	,1	,1	, &s05_K08VDSR},	//(05_K08VDSR)-
+	{ 137	,1	,1	, &s05_K09VDSR},	//(05_K09VDSR)-
+	{ 138	,1	,1	, &s05_K10VDSR},	//(05_K10VDSR)-
+	{ 139	,1	,1	, &s05_K11VDSR},	//(05_K11VDSR)-
+	{ 140	,1	,1	, &s05_K12VDSR},	//(05_K12VDSR)-
+	{ 141	,1	,1	, &s05_K13VDSR},	//(05_K13VDSR)-
+	{ 142	,1	,1	, &s05_K14VDSR},	//(05_K14VDSR)-
+	{ 143	,1	,1	, &s05_K15VDSR},	//(05_K15VDSR)-
+	{ 144	,1	,1	, &s05_K16VDSR},	//(05_K16VDSR)-
+	{ 145	,1	,1	, &s05_K17VDSR},	//(05_K17VDSR)-
+	{ 146	,1	,1	, &s05_K18VDSR},	//(05_K18VDSR)-
+	{ 147	,1	,1	, &s05_K19VDSR},	//(05_K19VDSR)-
+	{ 148	,1	,1	, &s05_K20VDSR},	//(05_K20VDSR)-
+	{ 149	,1	,1	, &s05_K21VDSR},	//(05_K21VDSR)-
+	{ 150	,1	,1	, &s05_K22VDSR},	//(05_K22VDSR)-
+	{ 151	,1	,1	, &s05_K23VDSR},	//(05_K23VDSR)-
+	{ 152	,1	,1	, &s05_K24VDSR},	//(05_K24VDSR)-
+	{ 153	,1	,1	, &s05_K25VDSR},	//(05_K25VDSR)-
+	{ 154	,1	,1	, &s05_K26VDSR},	//(05_K26VDSR)-
+	{ 155	,1	,1	, &s05_K27VDSR},	//(05_K27VDSR)-
+	{ 156	,1	,1	, &s05_K28VDSR},	//(05_K28VDSR)-
+	{ 157	,1	,1	, &s05_K29VDSR},	//(05_K29VDSR)-
+	{ 158	,1	,1	, &s05_K30VDSR},	//(05_K30VDSR)-
+	{ 159	,1	,1	, &s05_K31VDSR},	//(05_K31VDSR)-
+	{ 160	,1	,1	, &s05_K32VDSR},	//(05_K32VDSR)-
+	{ 161	,1	,1	, &s06_K01FDSR},	//(06_K01FDSR)-
+	{ 162	,1	,1	, &s06_K02FDSR},	//(06_K02FDSR)-
+	{ 163	,1	,1	, &s06_K03FDSR},	//(06_K03FDSR)-
+	{ 164	,1	,1	, &s06_K04FDSR},	//(06_K04FDSR)-
+	{ 165	,1	,1	, &s06_K05FDSR},	//(06_K05FDSR)-
+	{ 166	,1	,1	, &s06_K06FDSR},	//(06_K06FDSR)-
+	{ 167	,1	,1	, &s06_K07FDSR},	//(06_K07FDSR)-
+	{ 168	,1	,1	, &s06_K08FDSR},	//(06_K08FDSR)-
+	{ 169	,1	,1	, &s06_K09FDSR},	//(06_K09FDSR)-
+	{ 170	,1	,1	, &s06_K10FDSR},	//(06_K10FDSR)-
+	{ 171	,1	,1	, &s06_K11FDSR},	//(06_K11FDSR)-
+	{ 172	,1	,1	, &s06_K12FDSR},	//(06_K12FDSR)-
+	{ 173	,1	,1	, &s06_K13FDSR},	//(06_K13FDSR)-
+	{ 174	,1	,1	, &s06_K14FDSR},	//(06_K14FDSR)-
+	{ 175	,1	,1	, &s06_K15FDSR},	//(06_K15FDSR)-
+	{ 176	,1	,1	, &s06_K16FDSR},	//(06_K16FDSR)-
+	{ 177	,1	,1	, &s07_K01FDSR},	//(07_K01FDSR)-
+	{ 178	,1	,1	, &s07_K02FDSR},	//(07_K02FDSR)-
+	{ 179	,1	,1	, &s07_K03FDSR},	//(07_K03FDSR)-
+	{ 180	,1	,1	, &s07_K04FDSR},	//(07_K04FDSR)-
+	{ 181	,1	,1	, &s07_K05FDSR},	//(07_K05FDSR)-
+	{ 182	,1	,1	, &s07_K06FDSR},	//(07_K06FDSR)-
+	{ 183	,1	,1	, &s07_K07FDSR},	//(07_K07FDSR)-
+	{ 184	,1	,1	, &s07_K08FDSR},	//(07_K08FDSR)-
+	{ 185	,1	,1	, &s07_K09FDSR},	//(07_K09FDSR)-
+	{ 186	,1	,1	, &s07_K10FDSR},	//(07_K10FDSR)-
+	{ 187	,1	,1	, &s07_K11FDSR},	//(07_K11FDSR)-
+	{ 188	,1	,1	, &s07_K12FDSR},	//(07_K12FDSR)-
+	{ 189	,1	,1	, &s07_K13FDSR},	//(07_K13FDSR)-
+	{ 190	,1	,1	, &s07_K14FDSR},	//(07_K14FDSR)-
+	{ 191	,1	,1	, &s07_K15FDSR},	//(07_K15FDSR)-
+	{ 192	,1	,1	, &s07_K16FDSR},	//(07_K16FDSR)-
+	{ 193	,1	,1	, &s08_K01FDSR},	//(08_K01FDSR)-
+	{ 194	,1	,1	, &s08_K02FDSR},	//(08_K02FDSR)-
+	{ 195	,1	,1	, &s08_K03FDSR},	//(08_K03FDSR)-
+	{ 196	,1	,1	, &s08_K04FDSR},	//(08_K04FDSR)-
+	{ 197	,1	,1	, &s08_K05FDSR},	//(08_K05FDSR)-
+	{ 198	,1	,1	, &s08_K06FDSR},	//(08_K06FDSR)-
+	{ 199	,1	,1	, &s08_K07FDSR},	//(08_K07FDSR)-
+	{ 200	,1	,1	, &s08_K08FDSR},	//(08_K08FDSR)-
+	{ 201	,1	,1	, &s08_K09FDSR},	//(08_K09FDSR)-
+	{ 202	,1	,1	, &s08_K10FDSR},	//(08_K10FDSR)-
+	{ 203	,1	,1	, &s08_K11FDSR},	//(08_K11FDSR)-
+	{ 204	,1	,1	, &s08_K12FDSR},	//(08_K12FDSR)-
+	{ 205	,1	,1	, &s08_K13FDSR},	//(08_K13FDSR)-
+	{ 206	,1	,1	, &s08_K14FDSR},	//(08_K14FDSR)-
+	{ 207	,1	,1	, &s08_K15FDSR},	//(08_K15FDSR)-
+	{ 208	,1	,1	, &s08_K16FDSR},	//(08_K16FDSR)-
+	{ 209	,1	,1	, &s09_K01FDSR},	//(09_K01FDSR)-
+	{ 210	,1	,1	, &s09_K02FDSR},	//(09_K02FDSR)-
+	{ 211	,1	,1	, &s09_K03FDSR},	//(09_K03FDSR)-
+	{ 212	,1	,1	, &s09_K04FDSR},	//(09_K04FDSR)-
+	{ 213	,1	,1	, &s09_K05FDSR},	//(09_K05FDSR)-
+	{ 214	,1	,1	, &s09_K06FDSR},	//(09_K06FDSR)-
+	{ 215	,1	,1	, &s09_K07FDSR},	//(09_K07FDSR)-
+	{ 216	,1	,1	, &s09_K08FDSR},	//(09_K08FDSR)-
+	{ 217	,1	,1	, &s09_K09FDSR},	//(09_K09FDSR)-
+	{ 218	,1	,1	, &s09_K10FDSR},	//(09_K10FDSR)-
+	{ 219	,1	,1	, &s09_K11FDSR},	//(09_K11FDSR)-
+	{ 220	,1	,1	, &s09_K12FDSR},	//(09_K12FDSR)-
+	{ 221	,1	,1	, &s09_K13FDSR},	//(09_K13FDSR)-
+	{ 222	,1	,1	, &s09_K14FDSR},	//(09_K14FDSR)-
+	{ 223	,1	,1	, &s09_K15FDSR},	//(09_K15FDSR)-
+	{ 224	,1	,1	, &s09_K16FDSR},	//(09_K16FDSR)-
+	{ 225	,1	,1	, &s10_K01FDSR},	//(10_K01FDSR)-
+	{ 226	,1	,1	, &s10_K02FDSR},	//(10_K02FDSR)-
+	{ 227	,1	,1	, &s10_K03FDSR},	//(10_K03FDSR)-
+	{ 228	,1	,1	, &s10_K04FDSR},	//(10_K04FDSR)-
+	{ 229	,1	,1	, &s10_K05FDSR},	//(10_K05FDSR)-
+	{ 230	,1	,1	, &s10_K06FDSR},	//(10_K06FDSR)-
+	{ 231	,1	,1	, &s10_K07FDSR},	//(10_K07FDSR)-
+	{ 232	,1	,1	, &s10_K08FDSR},	//(10_K08FDSR)-
+	{ 233	,1	,1	, &s10_K09FDSR},	//(10_K09FDSR)-
+	{ 234	,1	,1	, &s10_K10FDSR},	//(10_K10FDSR)-
+	{ 235	,1	,1	, &s10_K11FDSR},	//(10_K11FDSR)-
+	{ 236	,1	,1	, &s10_K12FDSR},	//(10_K12FDSR)-
+	{ 237	,1	,1	, &s10_K13FDSR},	//(10_K13FDSR)-
+	{ 238	,1	,1	, &s10_K14FDSR},	//(10_K14FDSR)-
+	{ 239	,1	,1	, &s10_K15FDSR},	//(10_K15FDSR)-
+	{ 240	,1	,1	, &s10_K16FDSR},	//(10_K16FDSR)-
+	{ 241	,1	,1	, &s11_K01FDSR},	//(11_K01FDSR)-
+	{ 242	,1	,1	, &s11_K02FDSR},	//(11_K02FDSR)-
+	{ 243	,1	,1	, &s11_K03FDSR},	//(11_K03FDSR)-
+	{ 244	,1	,1	, &s11_K04FDSR},	//(11_K04FDSR)-
+	{ 245	,1	,1	, &s11_K05FDSR},	//(11_K05FDSR)-
+	{ 246	,1	,1	, &s11_K06FDSR},	//(11_K06FDSR)-
+	{ 247	,1	,1	, &s11_K07FDSR},	//(11_K07FDSR)-
+	{ 248	,1	,1	, &s11_K08FDSR},	//(11_K08FDSR)-
+	{ 249	,1	,1	, &s11_K09FDSR},	//(11_K09FDSR)-
+	{ 250	,1	,1	, &s11_K10FDSR},	//(11_K10FDSR)-
+	{ 251	,1	,1	, &s11_K11FDSR},	//(11_K11FDSR)-
+	{ 252	,1	,1	, &s11_K12FDSR},	//(11_K12FDSR)-
+	{ 253	,1	,1	, &s11_K13FDSR},	//(11_K13FDSR)-
+	{ 254	,1	,1	, &s11_K14FDSR},	//(11_K14FDSR)-
+	{ 255	,1	,1	, &s11_K15FDSR},	//(11_K15FDSR)-
+	{ 256	,1	,1	, &s11_K16FDSR},	//(11_K16FDSR)-
+	{ 257	,3	,1	, &s12_K01VASR},	//(12_K01VASR)-
+	{ 258	,3	,1	, &s12_K02VASR},	//(12_K02VASR)-
+	{ 259	,3	,1	, &s12_K03VASR},	//(12_K03VASR)-
+	{ 260	,3	,1	, &s12_K04VASR},	//(12_K04VASR)-
+	{ 261	,3	,1	, &s12_K05VASR},	//(12_K05VASR)-
+	{ 262	,3	,1	, &s12_K06VASR},	//(12_K06VASR)-
+	{ 263	,3	,1	, &s12_K07VASR},	//(12_K07VASR)-
+	{ 264	,3	,1	, &s12_K08VASR},	//(12_K08VASR)-
+	{ 265	,1	,1	, &s13_K01VDSR},	//(13_K01VDSR)-
+	{ 266	,1	,1	, &s13_K02VDSR},	//(13_K02VDSR)-
+	{ 267	,1	,1	, &s13_K03VDSR},	//(13_K03VDSR)-
+	{ 268	,1	,1	, &s13_K04VDSR},	//(13_K04VDSR)-
+	{ 269	,1	,1	, &s13_K05VDSR},	//(13_K05VDSR)-
+	{ 270	,1	,1	, &s13_K06VDSR},	//(13_K06VDSR)-
+	{ 271	,1	,1	, &s13_K07VDSR},	//(13_K07VDSR)-
+	{ 272	,1	,1	, &s13_K08VDSR},	//(13_K08VDSR)-
+	{ 273	,1	,1	, &s13_K09VDSR},	//(13_K09VDSR)-
+	{ 274	,1	,1	, &s13_K10VDSR},	//(13_K10VDSR)-
+	{ 275	,1	,1	, &s13_K11VDSR},	//(13_K11VDSR)-
+	{ 276	,1	,1	, &s13_K12VDSR},	//(13_K12VDSR)-
+	{ 277	,1	,1	, &s13_K13VDSR},	//(13_K13VDSR)-
+	{ 278	,1	,1	, &s13_K14VDSR},	//(13_K14VDSR)-
+	{ 279	,1	,1	, &s13_K15VDSR},	//(13_K15VDSR)-
+	{ 280	,1	,1	, &s13_K16VDSR},	//(13_K16VDSR)-
+	{ 281	,1	,1	, &s13_K17VDSR},	//(13_K17VDSR)-
+	{ 282	,1	,1	, &s13_K18VDSR},	//(13_K18VDSR)-
+	{ 283	,1	,1	, &s13_K19VDSR},	//(13_K19VDSR)-
+	{ 284	,1	,1	, &s13_K20VDSR},	//(13_K20VDSR)-
+	{ 285	,1	,1	, &s13_K21VDSR},	//(13_K21VDSR)-
+	{ 286	,1	,1	, &s13_K22VDSR},	//(13_K22VDSR)-
+	{ 287	,1	,1	, &s13_K23VDSR},	//(13_K23VDSR)-
+	{ 288	,1	,1	, &s13_K24VDSR},	//(13_K24VDSR)-
+	{ 289	,1	,1	, &s13_K25VDSR},	//(13_K25VDSR)-
+	{ 290	,1	,1	, &s13_K26VDSR},	//(13_K26VDSR)-
+	{ 291	,1	,1	, &s13_K27VDSR},	//(13_K27VDSR)-
+	{ 292	,1	,1	, &s13_K28VDSR},	//(13_K28VDSR)-
+	{ 293	,1	,1	, &s13_K29VDSR},	//(13_K29VDSR)-
+	{ 294	,1	,1	, &s13_K30VDSR},	//(13_K30VDSR)-
+	{ 295	,1	,1	, &s13_K31VDSR},	//(13_K31VDSR)-
+	{ 296	,1	,1	, &s13_K32VDSR},	//(13_K32VDSR)-
+	{ 297	,1	,1	, &s15_K01FDSR},	//(15_K01FDSR)-
+	{ 298	,1	,1	, &s15_K02FDSR},	//(15_K02FDSR)-
+	{ 299	,1	,1	, &s15_K03FDSR},	//(15_K03FDSR)-
+	{ 300	,1	,1	, &s15_K04FDSR},	//(15_K04FDSR)-
+	{ 301	,1	,1	, &s15_K05FDSR},	//(15_K05FDSR)-
+	{ 302	,1	,1	, &s15_K06FDSR},	//(15_K06FDSR)-
+	{ 303	,1	,1	, &s15_K07FDSR},	//(15_K07FDSR)-
+	{ 304	,1	,1	, &s15_K08FDSR},	//(15_K08FDSR)-
+	{ 305	,1	,1	, &s15_K09FDSR},	//(15_K09FDSR)-
+	{ 306	,1	,1	, &s15_K10FDSR},	//(15_K10FDSR)-
+	{ 307	,1	,1	, &s15_K11FDSR},	//(15_K11FDSR)-
+	{ 308	,1	,1	, &s15_K12FDSR},	//(15_K12FDSR)-
+	{ 309	,1	,1	, &s15_K13FDSR},	//(15_K13FDSR)-
+	{ 310	,1	,1	, &s15_K14FDSR},	//(15_K14FDSR)-
+	{ 311	,1	,1	, &s15_K15FDSR},	//(15_K15FDSR)-
+	{ 312	,1	,1	, &s15_K16FDSR},	//(15_K16FDSR)-
+	{-1,0,NULL},
+};
+static char NameSaveFile[]="savecnst.bin\0";   // Имя файла для сохранения констант
+#pragma pop
+static short saveVariables[]={      // Id переменных для сохранения
+-1,};
+#pragma pack(push,1)
+static ModbusRegister coil_msDUsign[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_msDUsign[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_msDUsign[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_msDUsign[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusDevice modbuses[]={
+	{0,502,&coil_msDUsign[0],&di_msDUsign[0],&ir_msDUsign[0],&hr_msDUsign[0],NULL,NULL,NULL,0},	 //DUsign-ModBus
+
+	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3201[64];	//VDS32-01
+static vds32r_inipar ini_VDS3201={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3201={0,0,&ini_VDS3201,buf_VDS3201,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3201[]={
+	{&s01_K01VDSR,1,0},
+	{&s01_K02VDSR,1,2},
+	{&s01_K03VDSR,1,4},
+	{&s01_K04VDSR,1,6},
+	{&s01_K05VDSR,1,8},
+	{&s01_K06VDSR,1,10},
+	{&s01_K07VDSR,1,12},
+	{&s01_K08VDSR,1,14},
+	{&s01_K09VDSR,1,16},
+	{&s01_K10VDSR,1,18},
+	{&s01_K11VDSR,1,20},
+	{&s01_K12VDSR,1,22},
+	{&s01_K13VDSR,1,24},
+	{&s01_K14VDSR,1,26},
+	{&s01_K15VDSR,1,28},
+	{&s01_K16VDSR,1,30},
+	{&s01_K17VDSR,1,32},
+	{&s01_K18VDSR,1,34},
+	{&s01_K19VDSR,1,36},
+	{&s01_K20VDSR,1,38},
+	{&s01_K21VDSR,1,40},
+	{&s01_K22VDSR,1,42},
+	{&s01_K23VDSR,1,44},
+	{&s01_K24VDSR,1,46},
+	{&s01_K25VDSR,1,48},
+	{&s01_K26VDSR,1,50},
+	{&s01_K27VDSR,1,52},
+	{&s01_K28VDSR,1,54},
+	{&s01_K29VDSR,1,56},
+	{&s01_K30VDSR,1,58},
+	{&s01_K31VDSR,1,60},
+	{&s01_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3202[64];	//VDS32-02
+static vds32r_inipar ini_VDS3202={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3202={0,0,&ini_VDS3202,buf_VDS3202,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3202[]={
+	{&s02_K01VDSR,1,0},
+	{&s02_K02VDSR,1,2},
+	{&s02_K03VDSR,1,4},
+	{&s02_K04VDSR,1,6},
+	{&s02_K05VDSR,1,8},
+	{&s02_K06VDSR,1,10},
+	{&s02_K07VDSR,1,12},
+	{&s02_K08VDSR,1,14},
+	{&s02_K09VDSR,1,16},
+	{&s02_K10VDSR,1,18},
+	{&s02_K11VDSR,1,20},
+	{&s02_K12VDSR,1,22},
+	{&s02_K13VDSR,1,24},
+	{&s02_K14VDSR,1,26},
+	{&s02_K15VDSR,1,28},
+	{&s02_K16VDSR,1,30},
+	{&s02_K17VDSR,1,32},
+	{&s02_K18VDSR,1,34},
+	{&s02_K19VDSR,1,36},
+	{&s02_K20VDSR,1,38},
+	{&s02_K21VDSR,1,40},
+	{&s02_K22VDSR,1,42},
+	{&s02_K23VDSR,1,44},
+	{&s02_K24VDSR,1,46},
+	{&s02_K25VDSR,1,48},
+	{&s02_K26VDSR,1,50},
+	{&s02_K27VDSR,1,52},
+	{&s02_K28VDSR,1,54},
+	{&s02_K29VDSR,1,56},
+	{&s02_K30VDSR,1,58},
+	{&s02_K31VDSR,1,60},
+	{&s02_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3203[64];	//VDS32-03
+static vds32r_inipar ini_VDS3203={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3203={0,0,&ini_VDS3203,buf_VDS3203,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3203[]={
+	{&s03_K01VDSR,1,0},
+	{&s03_K02VDSR,1,2},
+	{&s03_K03VDSR,1,4},
+	{&s03_K04VDSR,1,6},
+	{&s03_K05VDSR,1,8},
+	{&s03_K06VDSR,1,10},
+	{&s03_K07VDSR,1,12},
+	{&s03_K08VDSR,1,14},
+	{&s03_K09VDSR,1,16},
+	{&s03_K10VDSR,1,18},
+	{&s03_K11VDSR,1,20},
+	{&s03_K12VDSR,1,22},
+	{&s03_K13VDSR,1,24},
+	{&s03_K14VDSR,1,26},
+	{&s03_K15VDSR,1,28},
+	{&s03_K16VDSR,1,30},
+	{&s03_K17VDSR,1,32},
+	{&s03_K18VDSR,1,34},
+	{&s03_K19VDSR,1,36},
+	{&s03_K20VDSR,1,38},
+	{&s03_K21VDSR,1,40},
+	{&s03_K22VDSR,1,42},
+	{&s03_K23VDSR,1,44},
+	{&s03_K24VDSR,1,46},
+	{&s03_K25VDSR,1,48},
+	{&s03_K26VDSR,1,50},
+	{&s03_K27VDSR,1,52},
+	{&s03_K28VDSR,1,54},
+	{&s03_K29VDSR,1,56},
+	{&s03_K30VDSR,1,58},
+	{&s03_K31VDSR,1,60},
+	{&s03_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3204[64];	//VDS32-04
+static vds32r_inipar ini_VDS3204={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3204={0,0,&ini_VDS3204,buf_VDS3204,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3204[]={
+	{&s04_K01VDSR,1,0},
+	{&s04_K02VDSR,1,2},
+	{&s04_K03VDSR,1,4},
+	{&s04_K04VDSR,1,6},
+	{&s04_K05VDSR,1,8},
+	{&s04_K06VDSR,1,10},
+	{&s04_K07VDSR,1,12},
+	{&s04_K08VDSR,1,14},
+	{&s04_K09VDSR,1,16},
+	{&s04_K10VDSR,1,18},
+	{&s04_K11VDSR,1,20},
+	{&s04_K12VDSR,1,22},
+	{&s04_K13VDSR,1,24},
+	{&s04_K14VDSR,1,26},
+	{&s04_K15VDSR,1,28},
+	{&s04_K16VDSR,1,30},
+	{&s04_K17VDSR,1,32},
+	{&s04_K18VDSR,1,34},
+	{&s04_K19VDSR,1,36},
+	{&s04_K20VDSR,1,38},
+	{&s04_K21VDSR,1,40},
+	{&s04_K22VDSR,1,42},
+	{&s04_K23VDSR,1,44},
+	{&s04_K24VDSR,1,46},
+	{&s04_K25VDSR,1,48},
+	{&s04_K26VDSR,1,50},
+	{&s04_K27VDSR,1,52},
+	{&s04_K28VDSR,1,54},
+	{&s04_K29VDSR,1,56},
+	{&s04_K30VDSR,1,58},
+	{&s04_K31VDSR,1,60},
+	{&s04_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3205[64];	//VDS32-05
+static vds32r_inipar ini_VDS3205={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3205={0,0,&ini_VDS3205,buf_VDS3205,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3205[]={
+	{&s05_K01VDSR,1,0},
+	{&s05_K02VDSR,1,2},
+	{&s05_K03VDSR,1,4},
+	{&s05_K04VDSR,1,6},
+	{&s05_K05VDSR,1,8},
+	{&s05_K06VDSR,1,10},
+	{&s05_K07VDSR,1,12},
+	{&s05_K08VDSR,1,14},
+	{&s05_K09VDSR,1,16},
+	{&s05_K10VDSR,1,18},
+	{&s05_K11VDSR,1,20},
+	{&s05_K12VDSR,1,22},
+	{&s05_K13VDSR,1,24},
+	{&s05_K14VDSR,1,26},
+	{&s05_K15VDSR,1,28},
+	{&s05_K16VDSR,1,30},
+	{&s05_K17VDSR,1,32},
+	{&s05_K18VDSR,1,34},
+	{&s05_K19VDSR,1,36},
+	{&s05_K20VDSR,1,38},
+	{&s05_K21VDSR,1,40},
+	{&s05_K22VDSR,1,42},
+	{&s05_K23VDSR,1,44},
+	{&s05_K24VDSR,1,46},
+	{&s05_K25VDSR,1,48},
+	{&s05_K26VDSR,1,50},
+	{&s05_K27VDSR,1,52},
+	{&s05_K28VDSR,1,54},
+	{&s05_K29VDSR,1,56},
+	{&s05_K30VDSR,1,58},
+	{&s05_K31VDSR,1,60},
+	{&s05_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1606[38];	//FDS16-06
+static fds16r_inipar ini_FDS1606={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1606={0,0,&ini_FDS1606,buf_FDS1606,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1606[]={
+	{&s06_K01FDSR,1,0},
+	{&s06_K02FDSR,1,2},
+	{&s06_K03FDSR,1,4},
+	{&s06_K04FDSR,1,6},
+	{&s06_K05FDSR,1,8},
+	{&s06_K06FDSR,1,10},
+	{&s06_K07FDSR,1,12},
+	{&s06_K08FDSR,1,14},
+	{&s06_K09FDSR,1,16},
+	{&s06_K10FDSR,1,18},
+	{&s06_K11FDSR,1,20},
+	{&s06_K12FDSR,1,22},
+	{&s06_K13FDSR,1,24},
+	{&s06_K14FDSR,1,26},
+	{&s06_K15FDSR,1,28},
+	{&s06_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1607[38];	//FDS16-07
+static fds16r_inipar ini_FDS1607={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1607[]={
+	{&s07_K01FDSR,1,0},
+	{&s07_K02FDSR,1,2},
+	{&s07_K03FDSR,1,4},
+	{&s07_K04FDSR,1,6},
+	{&s07_K05FDSR,1,8},
+	{&s07_K06FDSR,1,10},
+	{&s07_K07FDSR,1,12},
+	{&s07_K08FDSR,1,14},
+	{&s07_K09FDSR,1,16},
+	{&s07_K10FDSR,1,18},
+	{&s07_K11FDSR,1,20},
+	{&s07_K12FDSR,1,22},
+	{&s07_K13FDSR,1,24},
+	{&s07_K14FDSR,1,26},
+	{&s07_K15FDSR,1,28},
+	{&s07_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1608[38];	//FDS16-08
+static fds16r_inipar ini_FDS1608={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1608[]={
+	{&s08_K01FDSR,1,0},
+	{&s08_K02FDSR,1,2},
+	{&s08_K03FDSR,1,4},
+	{&s08_K04FDSR,1,6},
+	{&s08_K05FDSR,1,8},
+	{&s08_K06FDSR,1,10},
+	{&s08_K07FDSR,1,12},
+	{&s08_K08FDSR,1,14},
+	{&s08_K09FDSR,1,16},
+	{&s08_K10FDSR,1,18},
+	{&s08_K11FDSR,1,20},
+	{&s08_K12FDSR,1,22},
+	{&s08_K13FDSR,1,24},
+	{&s08_K14FDSR,1,26},
+	{&s08_K15FDSR,1,28},
+	{&s08_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1609[38];	//FDS16-09
+static fds16r_inipar ini_FDS1609={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1609[]={
+	{&s09_K01FDSR,1,0},
+	{&s09_K02FDSR,1,2},
+	{&s09_K03FDSR,1,4},
+	{&s09_K04FDSR,1,6},
+	{&s09_K05FDSR,1,8},
+	{&s09_K06FDSR,1,10},
+	{&s09_K07FDSR,1,12},
+	{&s09_K08FDSR,1,14},
+	{&s09_K09FDSR,1,16},
+	{&s09_K10FDSR,1,18},
+	{&s09_K11FDSR,1,20},
+	{&s09_K12FDSR,1,22},
+	{&s09_K13FDSR,1,24},
+	{&s09_K14FDSR,1,26},
+	{&s09_K15FDSR,1,28},
+	{&s09_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1610[38];	//FDS16-10
+static fds16r_inipar ini_FDS1610={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1610[]={
+	{&s10_K01FDSR,1,0},
+	{&s10_K02FDSR,1,2},
+	{&s10_K03FDSR,1,4},
+	{&s10_K04FDSR,1,6},
+	{&s10_K05FDSR,1,8},
+	{&s10_K06FDSR,1,10},
+	{&s10_K07FDSR,1,12},
+	{&s10_K08FDSR,1,14},
+	{&s10_K09FDSR,1,16},
+	{&s10_K10FDSR,1,18},
+	{&s10_K11FDSR,1,20},
+	{&s10_K12FDSR,1,22},
+	{&s10_K13FDSR,1,24},
+	{&s10_K14FDSR,1,26},
+	{&s10_K15FDSR,1,28},
+	{&s10_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1611[38];	//FDS16-11
+static fds16r_inipar ini_FDS1611={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1611[]={
+	{&s11_K01FDSR,1,0},
+	{&s11_K02FDSR,1,2},
+	{&s11_K03FDSR,1,4},
+	{&s11_K04FDSR,1,6},
+	{&s11_K05FDSR,1,8},
+	{&s11_K06FDSR,1,10},
+	{&s11_K07FDSR,1,12},
+	{&s11_K08FDSR,1,14},
+	{&s11_K09FDSR,1,16},
+	{&s11_K10FDSR,1,18},
+	{&s11_K11FDSR,1,20},
+	{&s11_K12FDSR,1,22},
+	{&s11_K13FDSR,1,24},
+	{&s11_K14FDSR,1,26},
+	{&s11_K15FDSR,1,28},
+	{&s11_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vas84r.h>
+static char buf_VAS8412[26];	//VAS84-12
+static vas84r_inipar ini_VAS8412={172,255,1,8,0xff,0,16,};
+#pragma pack(push,1)
+static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VAS8412[]={
+	{&s12_K01VASR,3,0},
+	{&s12_K02VASR,3,3},
+	{&s12_K03VASR,3,6},
+	{&s12_K04VASR,3,9},
+	{&s12_K05VASR,3,12},
+	{&s12_K06VASR,3,15},
+	{&s12_K07VASR,3,18},
+	{&s12_K08VASR,3,21},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS3213[64];	//VDS32-13
+static vds32r_inipar ini_VDS3213={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS3213={0,0,&ini_VDS3213,buf_VDS3213,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS3213[]={
+	{&s13_K01VDSR,1,0},
+	{&s13_K02VDSR,1,2},
+	{&s13_K03VDSR,1,4},
+	{&s13_K04VDSR,1,6},
+	{&s13_K05VDSR,1,8},
+	{&s13_K06VDSR,1,10},
+	{&s13_K07VDSR,1,12},
+	{&s13_K08VDSR,1,14},
+	{&s13_K09VDSR,1,16},
+	{&s13_K10VDSR,1,18},
+	{&s13_K11VDSR,1,20},
+	{&s13_K12VDSR,1,22},
+	{&s13_K13VDSR,1,24},
+	{&s13_K14VDSR,1,26},
+	{&s13_K15VDSR,1,28},
+	{&s13_K16VDSR,1,30},
+	{&s13_K17VDSR,1,32},
+	{&s13_K18VDSR,1,34},
+	{&s13_K19VDSR,1,36},
+	{&s13_K20VDSR,1,38},
+	{&s13_K21VDSR,1,40},
+	{&s13_K22VDSR,1,42},
+	{&s13_K23VDSR,1,44},
+	{&s13_K24VDSR,1,46},
+	{&s13_K25VDSR,1,48},
+	{&s13_K26VDSR,1,50},
+	{&s13_K27VDSR,1,52},
+	{&s13_K28VDSR,1,54},
+	{&s13_K29VDSR,1,56},
+	{&s13_K30VDSR,1,58},
+	{&s13_K31VDSR,1,60},
+	{&s13_K32VDSR,1,62},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/fds16r.h>
+static char buf_FDS1615[38];	//FDS16-15
+static fds16r_inipar ini_FDS1615={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_FDS1615[]={
+	{&s15_K01FDSR,1,0},
+	{&s15_K02FDSR,1,2},
+	{&s15_K03FDSR,1,4},
+	{&s15_K04FDSR,1,6},
+	{&s15_K05FDSR,1,8},
+	{&s15_K06FDSR,1,10},
+	{&s15_K07FDSR,1,12},
+	{&s15_K08FDSR,1,14},
+	{&s15_K09FDSR,1,16},
+	{&s15_K10FDSR,1,18},
+	{&s15_K11FDSR,1,20},
+	{&s15_K12FDSR,1,22},
+	{&s15_K13FDSR,1,24},
+	{&s15_K14FDSR,1,26},
+	{&s15_K15FDSR,1,28},
+	{&s15_K16FDSR,1,30},
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static Driver drivers[]={
+	{0xc2,0x01,15,64,def_buf_VDS3201,&table_VDS3201}, //VDS32-01
+	{0xc2,0x02,15,64,def_buf_VDS3202,&table_VDS3202}, //VDS32-02
+	{0xc2,0x03,15,64,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
+	{0xc2,0x04,15,64,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
+	{0xc2,0x05,15,64,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
+	{0x04,0x06,20,38,def_buf_FDS1606,&table_FDS1606}, //FDS16-06
+	{0x04,0x07,20,38,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
+	{0x04,0x08,20,38,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
+	{0x04,0x09,20,38,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
+	{0x04,0x0a,20,38,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
+	{0x04,0x0b,20,38,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
+	{0xc6,0x0c,7,26,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
+	{0xc2,0x0d,15,64,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
+	{0x04,0x0f,20,38,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
+	{0,0,0,0,NULL,NULL},
+};
+#pragma pop
+void InitSetConst(void){      // Инициализация  переменных для сохранения
+}
+void Scheme(void)
+{
+}
+#endif

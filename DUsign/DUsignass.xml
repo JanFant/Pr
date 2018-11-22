@@ -1,0 +1,356 @@
+<assign>
+    <VDS3201>
+        <def name="s01_K01VDSR">K01VDSR</def>
+        <def name="s01_K02VDSR">K02VDSR</def>
+        <def name="s01_K03VDSR">K03VDSR</def>
+        <def name="s01_K04VDSR">K04VDSR</def>
+        <def name="s01_K05VDSR">K05VDSR</def>
+        <def name="s01_K06VDSR">K06VDSR</def>
+        <def name="s01_K07VDSR">K07VDSR</def>
+        <def name="s01_K08VDSR">K08VDSR</def>
+        <def name="s01_K09VDSR">K09VDSR</def>
+        <def name="s01_K10VDSR">K10VDSR</def>
+        <def name="s01_K11VDSR">K11VDSR</def>
+        <def name="s01_K12VDSR">K12VDSR</def>
+        <def name="s01_K13VDSR">K13VDSR</def>
+        <def name="s01_K14VDSR">K14VDSR</def>
+        <def name="s01_K15VDSR">K15VDSR</def>
+        <def name="s01_K16VDSR">K16VDSR</def>
+        <def name="s01_K17VDSR">K17VDSR</def>
+        <def name="s01_K18VDSR">K18VDSR</def>
+        <def name="s01_K19VDSR">K19VDSR</def>
+        <def name="s01_K20VDSR">K20VDSR</def>
+        <def name="s01_K21VDSR">K21VDSR</def>
+        <def name="s01_K22VDSR">K22VDSR</def>
+        <def name="s01_K23VDSR">K23VDSR</def>
+        <def name="s01_K24VDSR">K24VDSR</def>
+        <def name="s01_K25VDSR">K25VDSR</def>
+        <def name="s01_K26VDSR">K26VDSR</def>
+        <def name="s01_K27VDSR">K27VDSR</def>
+        <def name="s01_K28VDSR">K28VDSR</def>
+        <def name="s01_K29VDSR">K29VDSR</def>
+        <def name="s01_K30VDSR">K30VDSR</def>
+        <def name="s01_K31VDSR">K31VDSR</def>
+        <def name="s01_K32VDSR">K32VDSR</def>
+    </VDS3201>
+
+    <VDS3202>
+        <def name="s02_K01VDSR">K01VDSR</def>
+        <def name="s02_K02VDSR">K02VDSR</def>
+        <def name="s02_K03VDSR">K03VDSR</def>
+        <def name="s02_K04VDSR">K04VDSR</def>
+        <def name="s02_K05VDSR">K05VDSR</def>
+        <def name="s02_K06VDSR">K06VDSR</def>
+        <def name="s02_K07VDSR">K07VDSR</def>
+        <def name="s02_K08VDSR">K08VDSR</def>
+        <def name="s02_K09VDSR">K09VDSR</def>
+        <def name="s02_K10VDSR">K10VDSR</def>
+        <def name="s02_K11VDSR">K11VDSR</def>
+        <def name="s02_K12VDSR">K12VDSR</def>
+        <def name="s02_K13VDSR">K13VDSR</def>
+        <def name="s02_K14VDSR">K14VDSR</def>
+        <def name="s02_K15VDSR">K15VDSR</def>
+        <def name="s02_K16VDSR">K16VDSR</def>
+        <def name="s02_K17VDSR">K17VDSR</def>
+        <def name="s02_K18VDSR">K18VDSR</def>
+        <def name="s02_K19VDSR">K19VDSR</def>
+        <def name="s02_K20VDSR">K20VDSR</def>
+        <def name="s02_K21VDSR">K21VDSR</def>
+        <def name="s02_K22VDSR">K22VDSR</def>
+        <def name="s02_K23VDSR">K23VDSR</def>
+        <def name="s02_K24VDSR">K24VDSR</def>
+        <def name="s02_K25VDSR">K25VDSR</def>
+        <def name="s02_K26VDSR">K26VDSR</def>
+        <def name="s02_K27VDSR">K27VDSR</def>
+        <def name="s02_K28VDSR">K28VDSR</def>
+        <def name="s02_K29VDSR">K29VDSR</def>
+        <def name="s02_K30VDSR">K30VDSR</def>
+        <def name="s02_K31VDSR">K31VDSR</def>
+        <def name="s02_K32VDSR">K32VDSR</def>
+    </VDS3202>
+
+    <VDS3203>
+        <def name="s03_K01VDSR">K01VDSR</def>
+        <def name="s03_K02VDSR">K02VDSR</def>
+        <def name="s03_K03VDSR">K03VDSR</def>
+        <def name="s03_K04VDSR">K04VDSR</def>
+        <def name="s03_K05VDSR">K05VDSR</def>
+        <def name="s03_K06VDSR">K06VDSR</def>
+        <def name="s03_K07VDSR">K07VDSR</def>
+        <def name="s03_K08VDSR">K08VDSR</def>
+        <def name="s03_K09VDSR">K09VDSR</def>
+        <def name="s03_K10VDSR">K10VDSR</def>
+        <def name="s03_K11VDSR">K11VDSR</def>
+        <def name="s03_K12VDSR">K12VDSR</def>
+        <def name="s03_K13VDSR">K13VDSR</def>
+        <def name="s03_K14VDSR">K14VDSR</def>
+        <def name="s03_K15VDSR">K15VDSR</def>
+        <def name="s03_K16VDSR">K16VDSR</def>
+        <def name="s03_K17VDSR">K17VDSR</def>
+        <def name="s03_K18VDSR">K18VDSR</def>
+        <def name="s03_K19VDSR">K19VDSR</def>
+        <def name="s03_K20VDSR">K20VDSR</def>
+        <def name="s03_K21VDSR">K21VDSR</def>
+        <def name="s03_K22VDSR">K22VDSR</def>
+        <def name="s03_K23VDSR">K23VDSR</def>
+        <def name="s03_K24VDSR">K24VDSR</def>
+        <def name="s03_K25VDSR">K25VDSR</def>
+        <def name="s03_K26VDSR">K26VDSR</def>
+        <def name="s03_K27VDSR">K27VDSR</def>
+        <def name="s03_K28VDSR">K28VDSR</def>
+        <def name="s03_K29VDSR">K29VDSR</def>
+        <def name="s03_K30VDSR">K30VDSR</def>
+        <def name="s03_K31VDSR">K31VDSR</def>
+        <def name="s03_K32VDSR">K32VDSR</def>
+    </VDS3203>
+
+    <VDS3204>
+        <def name="s04_K01VDSR">K01VDSR</def>
+        <def name="s04_K02VDSR">K02VDSR</def>
+        <def name="s04_K03VDSR">K03VDSR</def>
+        <def name="s04_K04VDSR">K04VDSR</def>
+        <def name="s04_K05VDSR">K05VDSR</def>
+        <def name="s04_K06VDSR">K06VDSR</def>
+        <def name="s04_K07VDSR">K07VDSR</def>
+        <def name="s04_K08VDSR">K08VDSR</def>
+        <def name="s04_K09VDSR">K09VDSR</def>
+        <def name="s04_K10VDSR">K10VDSR</def>
+        <def name="s04_K11VDSR">K11VDSR</def>
+        <def name="s04_K12VDSR">K12VDSR</def>
+        <def name="s04_K13VDSR">K13VDSR</def>
+        <def name="s04_K14VDSR">K14VDSR</def>
+        <def name="s04_K15VDSR">K15VDSR</def>
+        <def name="s04_K16VDSR">K16VDSR</def>
+        <def name="s04_K17VDSR">K17VDSR</def>
+        <def name="s04_K18VDSR">K18VDSR</def>
+        <def name="s04_K19VDSR">K19VDSR</def>
+        <def name="s04_K20VDSR">K20VDSR</def>
+        <def name="s04_K21VDSR">K21VDSR</def>
+        <def name="s04_K22VDSR">K22VDSR</def>
+        <def name="s04_K23VDSR">K23VDSR</def>
+        <def name="s04_K24VDSR">K24VDSR</def>
+        <def name="s04_K25VDSR">K25VDSR</def>
+        <def name="s04_K26VDSR">K26VDSR</def>
+        <def name="s04_K27VDSR">K27VDSR</def>
+        <def name="s04_K28VDSR">K28VDSR</def>
+        <def name="s04_K29VDSR">K29VDSR</def>
+        <def name="s04_K30VDSR">K30VDSR</def>
+        <def name="s04_K31VDSR">K31VDSR</def>
+        <def name="s04_K32VDSR">K32VDSR</def>
+    </VDS3204>
+
+    <VDS3205>
+        <def name="s05_K01VDSR">K01VDSR</def>
+        <def name="s05_K02VDSR">K02VDSR</def>
+        <def name="s05_K03VDSR">K03VDSR</def>
+        <def name="s05_K04VDSR">K04VDSR</def>
+        <def name="s05_K05VDSR">K05VDSR</def>
+        <def name="s05_K06VDSR">K06VDSR</def>
+        <def name="s05_K07VDSR">K07VDSR</def>
+        <def name="s05_K08VDSR">K08VDSR</def>
+        <def name="s05_K09VDSR">K09VDSR</def>
+        <def name="s05_K10VDSR">K10VDSR</def>
+        <def name="s05_K11VDSR">K11VDSR</def>
+        <def name="s05_K12VDSR">K12VDSR</def>
+        <def name="s05_K13VDSR">K13VDSR</def>
+        <def name="s05_K14VDSR">K14VDSR</def>
+        <def name="s05_K15VDSR">K15VDSR</def>
+        <def name="s05_K16VDSR">K16VDSR</def>
+        <def name="s05_K17VDSR">K17VDSR</def>
+        <def name="s05_K18VDSR">K18VDSR</def>
+        <def name="s05_K19VDSR">K19VDSR</def>
+        <def name="s05_K20VDSR">K20VDSR</def>
+        <def name="s05_K21VDSR">K21VDSR</def>
+        <def name="s05_K22VDSR">K22VDSR</def>
+        <def name="s05_K23VDSR">K23VDSR</def>
+        <def name="s05_K24VDSR">K24VDSR</def>
+        <def name="s05_K25VDSR">K25VDSR</def>
+        <def name="s05_K26VDSR">K26VDSR</def>
+        <def name="s05_K27VDSR">K27VDSR</def>
+        <def name="s05_K28VDSR">K28VDSR</def>
+        <def name="s05_K29VDSR">K29VDSR</def>
+        <def name="s05_K30VDSR">K30VDSR</def>
+        <def name="s05_K31VDSR">K31VDSR</def>
+        <def name="s05_K32VDSR">K32VDSR</def>
+    </VDS3205>
+
+    <FDS1606>
+        <def name="s06_K01FDSR">K01FDSR</def>
+        <def name="s06_K02FDSR">K02FDSR</def>
+        <def name="s06_K03FDSR">K03FDSR</def>
+        <def name="s06_K04FDSR">K04FDSR</def>
+        <def name="s06_K05FDSR">K05FDSR</def>
+        <def name="s06_K06FDSR">K06FDSR</def>
+        <def name="s06_K07FDSR">K07FDSR</def>
+        <def name="s06_K08FDSR">K08FDSR</def>
+        <def name="s06_K09FDSR">K09FDSR</def>
+        <def name="s06_K10FDSR">K10FDSR</def>
+        <def name="s06_K11FDSR">K11FDSR</def>
+        <def name="s06_K12FDSR">K12FDSR</def>
+        <def name="s06_K13FDSR">K13FDSR</def>
+        <def name="s06_K14FDSR">K14FDSR</def>
+        <def name="s06_K15FDSR">K15FDSR</def>
+        <def name="s06_K16FDSR">K16FDSR</def>
+    </FDS1606>
+
+    <FDS1607>
+        <def name="s07_K01FDSR">K01FDSR</def>
+        <def name="s07_K02FDSR">K02FDSR</def>
+        <def name="s07_K03FDSR">K03FDSR</def>
+        <def name="s07_K04FDSR">K04FDSR</def>
+        <def name="s07_K05FDSR">K05FDSR</def>
+        <def name="s07_K06FDSR">K06FDSR</def>
+        <def name="s07_K07FDSR">K07FDSR</def>
+        <def name="s07_K08FDSR">K08FDSR</def>
+        <def name="s07_K09FDSR">K09FDSR</def>
+        <def name="s07_K10FDSR">K10FDSR</def>
+        <def name="s07_K11FDSR">K11FDSR</def>
+        <def name="s07_K12FDSR">K12FDSR</def>
+        <def name="s07_K13FDSR">K13FDSR</def>
+        <def name="s07_K14FDSR">K14FDSR</def>
+        <def name="s07_K15FDSR">K15FDSR</def>
+        <def name="s07_K16FDSR">K16FDSR</def>
+    </FDS1607>
+
+    <FDS1608>
+        <def name="s08_K01FDSR">K01FDSR</def>
+        <def name="s08_K02FDSR">K02FDSR</def>
+        <def name="s08_K03FDSR">K03FDSR</def>
+        <def name="s08_K04FDSR">K04FDSR</def>
+        <def name="s08_K05FDSR">K05FDSR</def>
+        <def name="s08_K06FDSR">K06FDSR</def>
+        <def name="s08_K07FDSR">K07FDSR</def>
+        <def name="s08_K08FDSR">K08FDSR</def>
+        <def name="s08_K09FDSR">K09FDSR</def>
+        <def name="s08_K10FDSR">K10FDSR</def>
+        <def name="s08_K11FDSR">K11FDSR</def>
+        <def name="s08_K12FDSR">K12FDSR</def>
+        <def name="s08_K13FDSR">K13FDSR</def>
+        <def name="s08_K14FDSR">K14FDSR</def>
+        <def name="s08_K15FDSR">K15FDSR</def>
+        <def name="s08_K16FDSR">K16FDSR</def>
+    </FDS1608>
+
+    <FDS1609>
+        <def name="s09_K01FDSR">K01FDSR</def>
+        <def name="s09_K02FDSR">K02FDSR</def>
+        <def name="s09_K03FDSR">K03FDSR</def>
+        <def name="s09_K04FDSR">K04FDSR</def>
+        <def name="s09_K05FDSR">K05FDSR</def>
+        <def name="s09_K06FDSR">K06FDSR</def>
+        <def name="s09_K07FDSR">K07FDSR</def>
+        <def name="s09_K08FDSR">K08FDSR</def>
+        <def name="s09_K09FDSR">K09FDSR</def>
+        <def name="s09_K10FDSR">K10FDSR</def>
+        <def name="s09_K11FDSR">K11FDSR</def>
+        <def name="s09_K12FDSR">K12FDSR</def>
+        <def name="s09_K13FDSR">K13FDSR</def>
+        <def name="s09_K14FDSR">K14FDSR</def>
+        <def name="s09_K15FDSR">K15FDSR</def>
+        <def name="s09_K16FDSR">K16FDSR</def>
+    </FDS1609>
+
+    <FDS1610>
+        <def name="s10_K01FDSR">K01FDSR</def>
+        <def name="s10_K02FDSR">K02FDSR</def>
+        <def name="s10_K03FDSR">K03FDSR</def>
+        <def name="s10_K04FDSR">K04FDSR</def>
+        <def name="s10_K05FDSR">K05FDSR</def>
+        <def name="s10_K06FDSR">K06FDSR</def>
+        <def name="s10_K07FDSR">K07FDSR</def>
+        <def name="s10_K08FDSR">K08FDSR</def>
+        <def name="s10_K09FDSR">K09FDSR</def>
+        <def name="s10_K10FDSR">K10FDSR</def>
+        <def name="s10_K11FDSR">K11FDSR</def>
+        <def name="s10_K12FDSR">K12FDSR</def>
+        <def name="s10_K13FDSR">K13FDSR</def>
+        <def name="s10_K14FDSR">K14FDSR</def>
+        <def name="s10_K15FDSR">K15FDSR</def>
+        <def name="s10_K16FDSR">K16FDSR</def>
+    </FDS1610>
+
+    <FDS1611>
+        <def name="s11_K01FDSR">K01FDSR</def>
+        <def name="s11_K02FDSR">K02FDSR</def>
+        <def name="s11_K03FDSR">K03FDSR</def>
+        <def name="s11_K04FDSR">K04FDSR</def>
+        <def name="s11_K05FDSR">K05FDSR</def>
+        <def name="s11_K06FDSR">K06FDSR</def>
+        <def name="s11_K07FDSR">K07FDSR</def>
+        <def name="s11_K08FDSR">K08FDSR</def>
+        <def name="s11_K09FDSR">K09FDSR</def>
+        <def name="s11_K10FDSR">K10FDSR</def>
+        <def name="s11_K11FDSR">K11FDSR</def>
+        <def name="s11_K12FDSR">K12FDSR</def>
+        <def name="s11_K13FDSR">K13FDSR</def>
+        <def name="s11_K14FDSR">K14FDSR</def>
+        <def name="s11_K15FDSR">K15FDSR</def>
+        <def name="s11_K16FDSR">K16FDSR</def>
+    </FDS1611>
+
+    <VAS8412>
+        <def name="s12_K01VASR">K01VASR</def>
+        <def name="s12_K02VASR">K02VASR</def>
+        <def name="s12_K03VASR">K03VASR</def>
+        <def name="s12_K04VASR">K04VASR</def>
+        <def name="s12_K05VASR">K05VASR</def>
+        <def name="s12_K06VASR">K06VASR</def>
+        <def name="s12_K07VASR">K07VASR</def>
+        <def name="s12_K08VASR">K08VASR</def>
+    </VAS8412>
+
+    <VDS3213>
+        <def name="s13_K01VDSR">K01VDSR</def>
+        <def name="s13_K02VDSR">K02VDSR</def>
+        <def name="s13_K03VDSR">K03VDSR</def>
+        <def name="s13_K04VDSR">K04VDSR</def>
+        <def name="s13_K05VDSR">K05VDSR</def>
+        <def name="s13_K06VDSR">K06VDSR</def>
+        <def name="s13_K07VDSR">K07VDSR</def>
+        <def name="s13_K08VDSR">K08VDSR</def>
+        <def name="s13_K09VDSR">K09VDSR</def>
+        <def name="s13_K10VDSR">K10VDSR</def>
+        <def name="s13_K11VDSR">K11VDSR</def>
+        <def name="s13_K12VDSR">K12VDSR</def>
+        <def name="s13_K13VDSR">K13VDSR</def>
+        <def name="s13_K14VDSR">K14VDSR</def>
+        <def name="s13_K15VDSR">K15VDSR</def>
+        <def name="s13_K16VDSR">K16VDSR</def>
+        <def name="s13_K17VDSR">K17VDSR</def>
+        <def name="s13_K18VDSR">K18VDSR</def>
+        <def name="s13_K19VDSR">K19VDSR</def>
+        <def name="s13_K20VDSR">K20VDSR</def>
+        <def name="s13_K21VDSR">K21VDSR</def>
+        <def name="s13_K22VDSR">K22VDSR</def>
+        <def name="s13_K23VDSR">K23VDSR</def>
+        <def name="s13_K24VDSR">K24VDSR</def>
+        <def name="s13_K25VDSR">K25VDSR</def>
+        <def name="s13_K26VDSR">K26VDSR</def>
+        <def name="s13_K27VDSR">K27VDSR</def>
+        <def name="s13_K28VDSR">K28VDSR</def>
+        <def name="s13_K29VDSR">K29VDSR</def>
+        <def name="s13_K30VDSR">K30VDSR</def>
+        <def name="s13_K31VDSR">K31VDSR</def>
+        <def name="s13_K32VDSR">K32VDSR</def>
+    </VDS3213>
+
+    <FDS1615>
+        <def name="s15_K01FDSR">K01FDSR</def>
+        <def name="s15_K02FDSR">K02FDSR</def>
+        <def name="s15_K03FDSR">K03FDSR</def>
+        <def name="s15_K04FDSR">K04FDSR</def>
+        <def name="s15_K05FDSR">K05FDSR</def>
+        <def name="s15_K06FDSR">K06FDSR</def>
+        <def name="s15_K07FDSR">K07FDSR</def>
+        <def name="s15_K08FDSR">K08FDSR</def>
+        <def name="s15_K09FDSR">K09FDSR</def>
+        <def name="s15_K10FDSR">K10FDSR</def>
+        <def name="s15_K11FDSR">K11FDSR</def>
+        <def name="s15_K12FDSR">K12FDSR</def>
+        <def name="s15_K13FDSR">K13FDSR</def>
+        <def name="s15_K14FDSR">K14FDSR</def>
+        <def name="s15_K15FDSR">K15FDSR</def>
+        <def name="s15_K16FDSR">K16FDSR</def>
+    </FDS1615>
+
+</assign>

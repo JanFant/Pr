@@ -6059,41 +6059,41 @@ void InitInternalParametr(void)
 {
   int i;
   for( i=0;i<2;i++ )
-    array_m1099_tst_1[i] = &(&internal1_m1099_tst)[i*5]
+    array_m1099_tst_1[i] = &(&internal1_m1099_tst)[i*5];
   for( i=0;i<2;i++ )
-    array_m1099_trz_1[i] = &(&internal1_m1099_trz)[i*5]
+    array_m1099_trz_1[i] = &(&internal1_m1099_trz)[i*5];
   for( i=0;i<2;i++ )
-    array_m1099_N1_1[i] = &(&internal1_m1099_N1)[i*5]
+    array_m1099_N1_1[i] = &(&internal1_m1099_N1)[i*5];
   for( i=0;i<2;i++ )
-    array_m1099_N2_1[i] = &(&internal1_m1099_N2)[i*5]
+    array_m1099_N2_1[i] = &(&internal1_m1099_N2)[i*5];
   for( i=0;i<2;i++ )
-    array_m1041_tst_1[i] = &(&internal1_m1041_tst)[i*5]
+    array_m1041_tst_1[i] = &(&internal1_m1041_tst)[i*5];
   for( i=0;i<2;i++ )
-    array_m1041_trz_1[i] = &(&internal1_m1041_trz)[i*5]
+    array_m1041_trz_1[i] = &(&internal1_m1041_trz)[i*5];
   for( i=0;i<2;i++ )
-    array_m1041_N1_1[i] = &(&internal1_m1041_N1)[i*5]
+    array_m1041_N1_1[i] = &(&internal1_m1041_N1)[i*5];
   for( i=0;i<2;i++ )
-    array_m1041_N2_1[i] = &(&internal1_m1041_N2)[i*5]
+    array_m1041_N2_1[i] = &(&internal1_m1041_N2)[i*5];
   for( i=0;i<2;i++ )
-    array_m910_tst_1[i] = &(&internal1_m910_tst)[i*5]
+    array_m910_tst_1[i] = &(&internal1_m910_tst)[i*5];
   for( i=0;i<2;i++ )
-    array_m910_trz_1[i] = &(&internal1_m910_trz)[i*5]
+    array_m910_trz_1[i] = &(&internal1_m910_trz)[i*5];
   for( i=0;i<2;i++ )
-    array_m910_N1_1[i] = &(&internal1_m910_N1)[i*5]
+    array_m910_N1_1[i] = &(&internal1_m910_N1)[i*5];
   for( i=0;i<2;i++ )
-    array_m910_N2_1[i] = &(&internal1_m910_N2)[i*5]
+    array_m910_N2_1[i] = &(&internal1_m910_N2)[i*5];
   for( i=0;i<2;i++ )
-    array_m855_tst_1[i] = &(&internal1_m855_tst)[i*5]
+    array_m855_tst_1[i] = &(&internal1_m855_tst)[i*5];
   for( i=0;i<2;i++ )
-    array_m855_trz_1[i] = &(&internal1_m855_trz)[i*5]
+    array_m855_trz_1[i] = &(&internal1_m855_trz)[i*5];
   for( i=0;i<2;i++ )
-    array_m855_N1_1[i] = &(&internal1_m855_N1)[i*5]
+    array_m855_N1_1[i] = &(&internal1_m855_N1)[i*5];
   for( i=0;i<2;i++ )
-    array_m855_N2_1[i] = &(&internal1_m855_N2)[i*5]
+    array_m855_N2_1[i] = &(&internal1_m855_N2)[i*5];
   for( i=0;i<6;i++ )
-    array_m180_C0_1[i] = &(&internal1_m180_C0)[i*5]
+    array_m180_C0_1[i] = &(&internal1_m180_C0)[i*5];
   for( i=0;i<6;i++ )
-    array_m14_C0_1[i] = &(&internal1_m14_C0)[i*5]
+    array_m14_C0_1[i] = &(&internal1_m14_C0)[i*5];
 }
 
 #endif

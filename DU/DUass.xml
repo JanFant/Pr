@@ -17,7 +17,24 @@
         <def name="B2AD21LDU">K09FDSR</def>
         <def name="B2AD11LDU">K08FDSR</def>
     </FDS1607>
-
+    <VENCF>
+            <def name="g_ray01">gray01</def>
+            <def name="g_ray02">gray02</def>
+            <def name="g_ray03">gray03</def>
+            <def name="g_ray04">gray04</def>
+            <def name="g_ray05">gray05</def>
+            <def name="g_ray06">gray06</def>
+            <def name="g_ray07">gray07</def>
+            <def name="g_ray08">gray08</def>
+            <def name="v_enc01">venc01</def>
+            <def name="v_enc02">venc02</def>
+            <def name="v_enc03">venc03</def>
+            <def name="v_enc04">venc04</def>
+            <def name="v_enc05">venc05</def>
+            <def name="v_enc06">venc06</def>
+            <def name="v_enc07">venc07</def>
+            <def name="v_enc08">venc08</def>
+    </VENCF>
 
     <FDS1608>
         <def name="A1AD03LDU">K05FDSR</def>

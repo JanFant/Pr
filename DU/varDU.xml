@@ -1,9 +1,27 @@
 <vars>
+
+<var  name="g_ray01" description="(g_ray01)" format="4"></var>
+<var  name="g_ray02" description="(g_ray02)" format="4"></var>
+<var  name="g_ray03" description="(g_ray03)" format="4"></var>
+<var  name="g_ray04" description="(g_ray04)" format="4"></var>
+<var  name="g_ray05" description="(g_ray05)" format="4"></var>
+<var  name="g_ray06" description="(g_ray06)" format="4"></var>
+<var  name="g_ray07" description="(g_ray07)" format="4"></var>
+<var  name="g_ray08" description="(g_ray08)" format="4"></var>
+<var  name="v_enc01" description="(v_enc01)" format="5"></var>
+<var  name="v_enc02" description="(v_enc02)" format="5"></var>
+<var  name="v_enc03" description="(v_enc03)" format="5"></var>
+<var  name="v_enc04" description="(v_enc04)" format="5"></var>
+<var  name="v_enc05" description="(v_enc05)" format="5"></var>
+<var  name="v_enc06" description="(v_enc06)" format="5"></var>
+<var  name="v_enc07" description="(v_enc07)" format="5"></var>
+<var  name="v_enc08" description="(v_enc08)" format="5"></var>
+
 <var  name="B3MD12LP1" description="(B3MD12LP1) Переключатель «РАЗРЕШИТЬ» ИС2" format="1"></var>
 <var  name="B3MD11LP1" description="(B3MD11LP1) Кнопка «ПУСК ИС2»" format="1"></var>
 <var  name="R0VL01RDU" description="(R0VL01RDU) Индикация Время задержки" format="8"></var>
 <var  name="R0VZ71LZ2" description="(R0VZ71LZ2) Обобщенный сигнал АЗ 2 канала" format="1"></var>
-<var  name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал АЗ 1канала" format="1"></var>
+<var  name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал АЗ 1 канала" format="1"></var>
 <var  name="R0VZ71LDU" description="(R0VZ71LDU) Обобщенный сигнал АЗ" format="1"></var>
 <var  name="A2IS33LDU" description="(A2IS33LDU) Клапан «Подъём РБ1» открыт (обесточен)" format="1"></var>
 <var  name="A3IS31LDU" description="(A3IS31LDU) Клапан «СПУСК ИС1» открыт (обесточен)" format="1"></var>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+
+        <variable xml="varDUsign"/>
+        <saves xml="saveDUsign"/>
+        <devices xml="devDUsign"/>
+        <modbus name="msDUsign" description="DUsign-ModBus" type="slave" port="502" xml="DUsign"/>
+</subsystem>
