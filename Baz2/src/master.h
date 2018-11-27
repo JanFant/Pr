@@ -2,7 +2,7 @@
 #define BAZ2_H
 // Подсистема Baz2:Baz2
 static char SimulOn=0;
-static short CodeSub=7;
+static short CodeSub=6;
 static char SimulIP[]="192.168.1.17\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
@@ -655,8 +655,30 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="baz2.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
-161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,-1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+   {161,"fEM_R0UT02RZZ\0"}, 
+   {162,"fEM_R0UT01RZZ\0"}, 
+   {163,"fEM_A2UP03RZZ\0"}, 
+   {164,"fEM_A2UP04RZZ\0"}, 
+   {165,"fEM_R0UT72RZZ\0"}, 
+   {166,"fEM_R0UT71RZZ\0"}, 
+   {167,"fEM_R0UT62RZZ\0"}, 
+   {168,"fEM_R0UT61RZZ\0"}, 
+   {169,"fEM_A2UP41RZZ\0"}, 
+   {170,"fEM_A2UP42RZZ\0"}, 
+   {171,"fEM_A2UP51RZZ\0"}, 
+   {172,"fEM_A2UP81RZZ\0"}, 
+   {173,"fEM_A2UP84RZZ\0"}, 
+   {174,"fEM_A2UP82RZZ\0"}, 
+   {175,"fEM_A2UP52RZZ\0"}, 
+   {176,"fEM_A2UP83RZZ\0"}, 
+   {177,"fEM_R0UR01RZZ\0"}, 
+   {178,"fEM_R0UR04RZZ\0"}, 
+   {179,"fEM_A1UL12RZZ\0"}, 
+   {180,"fEM_A1UL11RZZ\0"}, 
+   {181,"fEM_R7UI73RZZ\0"}, 
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_Baz2[]={  // 
 	{&R0EE02LDU,1,0},	//(R0EE02LDU) Питание  АКНП  отключить

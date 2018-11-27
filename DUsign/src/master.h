@@ -955,8 +955,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="savecnst.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
--1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_msDUsign[]={  // 
 	{NULL,0,0},

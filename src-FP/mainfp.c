@@ -122,7 +122,7 @@ int main(int argc, char** argv) {
     //    doWork();
     takt = StepCycle / 1000;
     InitSetConst();
-    initSaver(NameSaveFile, saveVariables);
+    initSaver(NameSaveFile, saveVariables, 10);
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
@@ -175,7 +175,7 @@ int main(int argc, char** argv) {
             if (writeAllDrivers() != 0) break;
         }
         writeAllModbus();
-
+        makeSaveData();
         long int t = time_cycle();
         if (t > StepCycle) {
             syslog(LOG_INFO, "long cycle %ld\n", t);

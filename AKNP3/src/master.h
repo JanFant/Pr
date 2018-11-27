@@ -2,7 +2,7 @@
 #define AKNP3_H
 // Подсистема AKNP3:AKNP3_BAZ1
 static char SimulOn=0;
-static short CodeSub=6;
+static short CodeSub=5;
 static char SimulIP[]="192.168.1.17\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
@@ -214,8 +214,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="AKNP3.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
--1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP3[]={  // 
 	{NULL,0,0},
