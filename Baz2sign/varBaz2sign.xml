@@ -1,0 +1,159 @@
+<vars>
+<var name="A0IT02IZ2"   description="(K01VASR)- Температура АЗ1-2" format="3"></var>
+<var name="A2IP01IZ2"   description="(K02VASR)- Текущее давление СБРОС РБ1" format="3"></var>
+<var name="B0IT02IZ2"   description="(K03VASR)- Температура АЗ2-2" format="3"></var>
+<var name="B2IP01IZ2"   description="(K04VASR)- Текущее давление СБРОС РБ2" format="3"></var>
+<var name="s04_K05VASR" description="(K05VASR)- " format="3"></var>
+<var name="s04_K06VASR" description="(K06VASR)- " format="3"></var>
+<var name="s04_K07VASR" description="(K07VASR)- " format="3"></var>
+<var name="s04_K08VASR" description="(K08VASR)- " format="3"></var>
+
+<var name="R0VN71LZ2"   description="(s05_K01VDSR)- АС по мощности канал 1" format="1"></var>
+<var name="R0VN75LZ2"   description="(s05_K02VDSR)- АС по периоду разгона канал  1" format="1"></var>
+<var name="A1EE01LS1"   description="(s05_K03VDSR)- Исправность АКНП канал 1" format="1"></var>
+<var name="A1VN71LS1"   description="(s05_K04VDSR)- Блокировка автоматического подъёма ББ канал 1" format="1"></var>
+<var name="A3IS11LZ2"   description="(s05_K05VDSR)- Приход на ВУ ИС1" format="1"></var>
+<var name="A3IS22LZ2"   description="(s05_K06VDSR)- Приход на НУП ИС1" format="1"></var>
+<var name="R0AD03LZ2"   description="(s05_K07VDSR)- Имитация прихода на ВУ ИС" format="1"></var>
+<var name="R0AD04LZ2"   description="(s05_K08VDSR)- Имитация срабатывания верхней АС  II УР" format="1"></var>
+<var name="R0AD05LZ2"   description="(s05_K09VDSR)- Имитация ухода с НУП ИС" format="1"></var>
+<var name="A2IS12LZ2"   description="(s05_K10VDSR)- Магнит РБ1 зацеплен (для БАЗ2)" format="1"></var>
+<var name="B2IS12LZ2"   description="(s05_K11VDSR)- Магнит РБ2 зацеплен (для БАЗ2)" format="1"></var>
+<var name="s05_K12VDSR" description="(s05_K12VDSR)- " format="1"></var>
+<var name="s05_K13VDSR" description="(s05_K13VDSR)- " format="1"></var>
+<var name="s05_K14VDSR" description="(s05_K14VDSR)- " format="1"></var>
+<var name="s05_K15VDSR" description="(s05_K15VDSR)- " format="1"></var>
+<var name="s05_K16VDSR" description="(s05_K16VDSR)- " format="1"></var>
+<var name="s05_K17VDSR" description="(s05_K17VDSR)- " format="1"></var>
+<var name="s05_K18VDSR" description="(s05_K18VDSR)- " format="1"></var>
+<var name="s05_K19VDSR" description="(s05_K19VDSR)- " format="1"></var>
+<var name="s05_K20VDSR" description="(s05_K20VDSR)- " format="1"></var>
+<var name="s05_K21VDSR" description="(s05_K21VDSR)- " format="1"></var>
+<var name="s05_K22VDSR" description="(s05_K22VDSR)- " format="1"></var>
+<var name="s05_K23VDSR" description="(s05_K23VDSR)- " format="1"></var>
+<var name="s05_K24VDSR" description="(s05_K24VDSR)- " format="1"></var>
+<var name="s05_K25VDSR" description="(s05_K25VDSR)- " format="1"></var>
+<var name="s05_K26VDSR" description="(s05_K26VDSR)- " format="1"></var>
+<var name="s05_K27VDSR" description="(s05_K27VDSR)- " format="1"></var>
+<var name="s05_K28VDSR" description="(s05_K28VDSR)- " format="1"></var>
+<var name="s05_K29VDSR" description="(s05_K29VDSR)- " format="1"></var>
+<var name="s05_K30VDSR" description="(s05_K30VDSR)- " format="1"></var>
+<var name="s05_K31VDSR" description="(s05_K31VDSR)- " format="1"></var>
+<var name="s05_K32VDSR" description="(s05_K32VDSR)- " format="1"></var>
+
+<var name="R0VN72LZ2"   description="(s06_K01VDSR)- АС по мощности канал 2" format="1"></var>
+<var name="R0VN76LZ2"   description="(s06_K02VDSR)- АС по периоду разгона канал  2" format="1"></var>
+<var name="A1EE01LS2"   description="(s06_K03VDSR)- Исправность АКНП  канал 2" format="1"></var>
+<var name="A1VN71LS2"   description="(s06_K04VDSR)- Блокировка автоматического подъёма ББ канал 2" format="1"></var>
+<var name="B3IS11LZ2"   description="(s06_K05VDSR)- Приход на ВУ ИС2" format="1"></var>
+<var name="B3IS22LZ2"   description="(s06_K06VDSR)- Приход на НУП ИС2" format="1"></var>
+<var name="s06_K07VDSR" description="(s06_K07VDSR)- " format="1"></var>
+<var name="s06_K08VDSR" description="(s06_K08VDSR)- " format="1"></var>
+<var name="s06_K09VDSR" description="(s06_K09VDSR)- " format="1"></var>
+<var name="s06_K10VDSR" description="(s06_K10VDSR)- " format="1"></var>
+<var name="s06_K11VDSR" description="(s06_K11VDSR)- " format="1"></var>
+<var name="s06_K12VDSR" description="(s06_K12VDSR)- " format="1"></var>
+<var name="s06_K13VDSR" description="(s06_K13VDSR)- " format="1"></var>
+<var name="s06_K14VDSR" description="(s06_K14VDSR)- " format="1"></var>
+<var name="s06_K15VDSR" description="(s06_K15VDSR)- " format="1"></var>
+<var name="s06_K16VDSR" description="(s06_K16VDSR)- " format="1"></var>
+<var name="s06_K17VDSR" description="(s06_K17VDSR)- " format="1"></var>
+<var name="s06_K18VDSR" description="(s06_K18VDSR)- " format="1"></var>
+<var name="s06_K19VDSR" description="(s06_K19VDSR)- " format="1"></var>
+<var name="s06_K20VDSR" description="(s06_K20VDSR)- " format="1"></var>
+<var name="s06_K21VDSR" description="(s06_K21VDSR)- " format="1"></var>
+<var name="s06_K22VDSR" description="(s06_K22VDSR)- " format="1"></var>
+<var name="s06_K23VDSR" description="(s06_K23VDSR)- " format="1"></var>
+<var name="s06_K24VDSR" description="(s06_K24VDSR)- " format="1"></var>
+<var name="s06_K25VDSR" description="(s06_K25VDSR)- " format="1"></var>
+<var name="s06_K26VDSR" description="(s06_K26VDSR)- " format="1"></var>
+<var name="s06_K27VDSR" description="(s06_K27VDSR)- " format="1"></var>
+<var name="s06_K28VDSR" description="(s06_K28VDSR)- " format="1"></var>
+<var name="s06_K29VDSR" description="(s06_K29VDSR)- " format="1"></var>
+<var name="s06_K30VDSR" description="(s06_K30VDSR)- " format="1"></var>
+<var name="s06_K31VDSR" description="(s06_K31VDSR)- " format="1"></var>
+<var name="s06_K32VDSR" description="(s06_K32VDSR)- " format="1"></var>
+
+<var name="R0VN74LZ2"   description="(s07_K01VDSR)- АС по мощности канал 4" format="1"></var>
+<var name="R0VN78LZ2"   description="(s07_K02VDSR)- АС по периоду разгона канал  4" format="1"></var>
+<var name="A1EE01LS4"   description="(s07_K03VDSR)- Исправность АКНП канал 4" format="1"></var>
+<var name="A1VN71LS4"   description="(s07_K04VDSR)- Блокировка автоматического подъёма ББ канал 4" format="1"></var>
+<var name="R6IS66LZ2"   description="(s07_K05VDSR)- Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var name="R6IS67LZ2"   description="(s07_K06VDSR)- Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var name="R6IS68LZ2"   description="(s07_K07VDSR)- Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var name="s07_K08VDSR" description="(s07_K08VDSR)- " format="1"></var>
+<var name="s07_K09VDSR" description="(s07_K09VDSR)- " format="1"></var>
+<var name="s07_K10VDSR" description="(s07_K10VDSR)- " format="1"></var>
+<var name="s07_K11VDSR" description="(s07_K11VDSR)- " format="1"></var>
+<var name="s07_K12VDSR" description="(s07_K12VDSR)- " format="1"></var>
+<var name="s07_K13VDSR" description="(s07_K13VDSR)- " format="1"></var>
+<var name="s07_K14VDSR" description="(s07_K14VDSR)- " format="1"></var>
+<var name="s07_K15VDSR" description="(s07_K15VDSR)- " format="1"></var>
+<var name="s07_K16VDSR" description="(s07_K16VDSR)- " format="1"></var>
+<var name="s07_K17VDSR" description="(s07_K17VDSR)- " format="1"></var>
+<var name="s07_K18VDSR" description="(s07_K18VDSR)- " format="1"></var>
+<var name="s07_K19VDSR" description="(s07_K19VDSR)- " format="1"></var>
+<var name="s07_K20VDSR" description="(s07_K20VDSR)- " format="1"></var>
+<var name="s07_K21VDSR" description="(s07_K21VDSR)- " format="1"></var>
+<var name="s07_K22VDSR" description="(s07_K22VDSR)- " format="1"></var>
+<var name="s07_K23VDSR" description="(s07_K23VDSR)- " format="1"></var>
+<var name="s07_K24VDSR" description="(s07_K24VDSR)- " format="1"></var>
+<var name="s07_K25VDSR" description="(s07_K25VDSR)- " format="1"></var>
+<var name="s07_K26VDSR" description="(s07_K26VDSR)- " format="1"></var>
+<var name="s07_K27VDSR" description="(s07_K27VDSR)- " format="1"></var>
+<var name="s07_K28VDSR" description="(s07_K28VDSR)- " format="1"></var>
+<var name="s07_K29VDSR" description="(s07_K29VDSR)- " format="1"></var>
+<var name="s07_K30VDSR" description="(s07_K30VDSR)- " format="1"></var>
+<var name="s07_K31VDSR" description="(s07_K31VDSR)- " format="1"></var>
+<var name="s07_K32VDSR" description="(s07_K32VDSR)- " format="1"></var>
+
+<var name="R0VN73LZ2"   description="(s08_K01VDSR)- АС по мощности канал 3" format="1"></var>
+<var name="R0VN77LZ2"   description="(s08_K02VDSR)- АС по периоду разгона канал  3" format="1"></var>
+<var name="A1EE01LS3"   description="(s08_K03VDSR)- Исправность АКНП канал 3" format="1"></var>
+<var name="A1VN71LS3"   description="(s08_K04VDSR)- Блокировка автоматического подъёма ББ канал 3" format="1"></var>
+<var name="R7II71LZ2"   description="(s08_K05VDSR)- Сработала АС IУР (датчик 1)" format="1"></var>
+<var name="R7II72LZ2"   description="(s08_K06VDSR)- Сработала АС IУР (датчик 2)" format="1"></var>
+<var name="R7II73LZ2"   description="(s08_K07VDSR)- Сработала АС IIУР" format="1"></var>
+<var name="s08_K08VDSR" description="(s08_K08VDSR)- " format="1"></var>
+<var name="A0VP81LZ2"   description="(s08_K09VDSR)- Давление  АЗ1 в норме" format="1"></var>
+<var name="A1VP81LZ2"   description="(s08_K10VDSR)- Давление СБРОС ББ1 в норме" format="1"></var>
+<var name="R0VP81LZ2"   description="(s08_K11VDSR)- Давление  в СИСТЕМЕ -1 в норме" format="1"></var>
+<var name="B0VP81LZ2"   description="(s08_K12VDSR)- Давление АЗ2 в норме" format="1"></var>
+<var name="B1VP81LZ2"   description="(s08_K13VDSR)- Давление СБРОС ББ2 в норме" format="1"></var>
+<var name="R0VP82LZ2"   description="(s08_K14VDSR)- Давление  в СИСТЕМЕ - 2 в норме" format="1"></var>
+<var name="s08_K15VDSR" description="(s08_K15VDSR)-" format="1"></var>
+<var name="s08_K16VDSR" description="(s08_K16VDSR)-" format="1"></var>
+<var name="s08_K17VDSR" description="(s08_K17VDSR)-" format="1"></var>
+<var name="s08_K18VDSR" description="(s08_K18VDSR)-" format="1"></var>
+<var name="s08_K19VDSR" description="(s08_K19VDSR)-" format="1"></var>
+<var name="s08_K20VDSR" description="(s08_K20VDSR)-" format="1"></var>
+<var name="s08_K21VDSR" description="(s08_K21VDSR)-" format="1"></var>
+<var name="s08_K22VDSR" description="(s08_K22VDSR)-" format="1"></var>
+<var name="s08_K23VDSR" description="(s08_K23VDSR)-" format="1"></var>
+<var name="s08_K24VDSR" description="(s08_K24VDSR)-" format="1"></var>
+<var name="s08_K25VDSR" description="(s08_K25VDSR)-" format="1"></var>
+<var name="s08_K26VDSR" description="(s08_K26VDSR)-" format="1"></var>
+<var name="s08_K27VDSR" description="(s08_K27VDSR)-" format="1"></var>
+<var name="s08_K28VDSR" description="(s08_K28VDSR)-" format="1"></var>
+<var name="s08_K29VDSR" description="(s08_K29VDSR)-" format="1"></var>
+<var name="s08_K30VDSR" description="(s08_K30VDSR)-" format="1"></var>
+<var name="s08_K31VDSR" description="(s08_K31VDSR)-" format="1"></var>
+<var name="s08_K32VDSR" description="(s08_K32VDSR)-" format="1"></var>
+
+<var name="A3VZ13LZ2"   description="(s10_K01FDSR)- Имитация АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ15LZ2"   description="(s10_K02FDSR)- Имитация АЗ от НУП ИС" format="1"></var>
+<var name="R0AD14LZ2"   description="(s10_K03FDSR)- Имитация АЗ от IIУР" format="1"></var>
+<var name="A1VN71LZ2"   description="(s10_K04FDSR)- Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VZ71LZ2"   description="(s10_K05FDSR)- Обобщенный сигнал АЗ2 канала" format="1"></var>
+<var name="OEBB1Z2"     description="(s10_K06FDSR)- Обесточивание ЭМ ББ1 и ЭПК ББ1" format="1"></var>
+<var name="OEBB2Z2"     description="(s10_K07FDSR)- Обесточивание ЭМ ББ2 и ЭПК ББ2" format="1"></var>
+<var name="OERB1Z2"     description="(s10_K08FDSR)- Обесточивание ЭМ РБ1 и ЭПК РБ1" format="1"></var>
+<var name="OERB2Z2"     description="(s10_K09FDSR)- Обесточивание ЭМ РБ2 и ЭПК РБ2" format="1"></var>
+<var name="B3IS11LDU"   description="(s10_K10FDSR)- Приход на ВУ ИС2 для ДУ" format="1"></var>
+<var name="B3IS22LDU"   description="(s10_K11FDSR)- Приход на НУП ИС2 для ДУ" format="1"></var>
+<var name="B3IS11LZ1"   description="(s10_K12FDSR)- Приход на ВУ ИС2 для УСБ1" format="1"></var>
+<var name="B3IS22LZ1"   description="(s10_K13FDSR)- Приход на НУП ИС2 для УСБ1" format="1"></var>
+<var name="B0VP81LZ1"   description="(s10_K14FDSR)- Давление  АЗ2 в норме для УСБ1" format="1"></var>
+<var name="B1VP81LZ1"   description="(s10_K15FDSR)- Давление СБРОС ББ2 в норме для УСБ1" format="1"></var>
+<var name="s10_K16FDSR" description="(s10_K16FDSR)- " format="1"></var>
+</vars>

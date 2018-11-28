@@ -1,173 +1,178 @@
 <vars>
-<var name="s01_K01VDSR" description ="(01_K01VDSR)-" format="1"></var>
-<var name="s01_K02VDSR" description ="(01_K02VDSR)-" format="1"></var>
-<var name="s01_K03VDSR" description ="(01_K03VDSR)-" format="1"></var>
-<var name="s01_K04VDSR" description ="(01_K04VDSR)-" format="1"></var>
-<var name="s01_K05VDSR" description ="(01_K05VDSR)-" format="1"></var>
-<var name="s01_K06VDSR" description ="(01_K06VDSR)-" format="1"></var>
-<var name="s01_K07VDSR" description ="(01_K07VDSR)-" format="1"></var>
-<var name="s01_K08VDSR" description ="(01_K08VDSR)-" format="1"></var>
-<var name="s01_K09VDSR" description ="(01_K09VDSR)-" format="1"></var>
-<var name="s01_K10VDSR" description ="(01_K10VDSR)-" format="1"></var>
-<var name="s01_K11VDSR" description ="(01_K11VDSR)-" format="1"></var>
-<var name="s01_K12VDSR" description ="(01_K12VDSR)-" format="1"></var>
-<var name="s01_K13VDSR" description ="(01_K13VDSR)-" format="1"></var>
-<var name="s01_K14VDSR" description ="(01_K14VDSR)-" format="1"></var>
-<var name="s01_K15VDSR" description ="(01_K15VDSR)-" format="1"></var>
-<var name="s01_K16VDSR" description ="(01_K16VDSR)-" format="1"></var>
-<var name="s01_K17VDSR" description ="(01_K17VDSR)-" format="1"></var>
-<var name="s01_K18VDSR" description ="(01_K18VDSR)-" format="1"></var>
-<var name="s01_K19VDSR" description ="(01_K19VDSR)-" format="1"></var>
-<var name="s01_K20VDSR" description ="(01_K20VDSR)-" format="1"></var>
-<var name="s01_K21VDSR" description ="(01_K21VDSR)-" format="1"></var>
-<var name="s01_K22VDSR" description ="(01_K22VDSR)-" format="1"></var>
-<var name="s01_K23VDSR" description ="(01_K23VDSR)-" format="1"></var>
-<var name="s01_K24VDSR" description ="(01_K24VDSR)-" format="1"></var>
-<var name="s01_K25VDSR" description ="(01_K25VDSR)-" format="1"></var>
-<var name="s01_K26VDSR" description ="(01_K26VDSR)-" format="1"></var>
-<var name="s01_K27VDSR" description ="(01_K27VDSR)-" format="1"></var>
-<var name="s01_K28VDSR" description ="(01_K28VDSR)-" format="1"></var>
-<var name="s01_K29VDSR" description ="(01_K29VDSR)-" format="1"></var>
-<var name="s01_K30VDSR" description ="(01_K30VDSR)-" format="1"></var>
-<var name="s01_K31VDSR" description ="(01_K31VDSR)-" format="1"></var>
-<var name="s01_K32VDSR" description ="(01_K32VDSR)-" format="1"></var>
-<var name="s02_K01VDSR" description ="(02_K01VDSR)-" format="1"></var>
-<var name="s02_K02VDSR" description ="(02_K02VDSR)-" format="1"></var>
-<var name="s02_K03VDSR" description ="(02_K03VDSR)-" format="1"></var>
-<var name="s02_K04VDSR" description ="(02_K04VDSR)-" format="1"></var>
-<var name="s02_K05VDSR" description ="(02_K05VDSR)-" format="1"></var>
-<var name="s02_K06VDSR" description ="(02_K06VDSR)-" format="1"></var>
-<var name="s02_K07VDSR" description ="(02_K07VDSR)-" format="1"></var>
-<var name="s02_K08VDSR" description ="(02_K08VDSR)-" format="1"></var>
-<var name="s02_K09VDSR" description ="(02_K09VDSR)-" format="1"></var>
-<var name="s02_K10VDSR" description ="(02_K10VDSR)-" format="1"></var>
-<var name="s02_K11VDSR" description ="(02_K11VDSR)-" format="1"></var>
-<var name="s02_K12VDSR" description ="(02_K12VDSR)-" format="1"></var>
-<var name="s02_K13VDSR" description ="(02_K13VDSR)-" format="1"></var>
-<var name="s02_K14VDSR" description ="(02_K14VDSR)-" format="1"></var>
-<var name="s02_K15VDSR" description ="(02_K15VDSR)-" format="1"></var>
-<var name="s02_K16VDSR" description ="(02_K16VDSR)-" format="1"></var>
-<var name="s02_K17VDSR" description ="(02_K17VDSR)-" format="1"></var>
-<var name="s02_K18VDSR" description ="(02_K18VDSR)-" format="1"></var>
-<var name="s02_K19VDSR" description ="(02_K19VDSR)-" format="1"></var>
-<var name="s02_K20VDSR" description ="(02_K20VDSR)-" format="1"></var>
-<var name="s02_K21VDSR" description ="(02_K21VDSR)-" format="1"></var>
-<var name="s02_K22VDSR" description ="(02_K22VDSR)-" format="1"></var>
-<var name="s02_K23VDSR" description ="(02_K23VDSR)-" format="1"></var>
-<var name="s02_K24VDSR" description ="(02_K24VDSR)-" format="1"></var>
-<var name="s02_K25VDSR" description ="(02_K25VDSR)-" format="1"></var>
-<var name="s02_K26VDSR" description ="(02_K26VDSR)-" format="1"></var>
-<var name="s02_K27VDSR" description ="(02_K27VDSR)-" format="1"></var>
-<var name="s02_K28VDSR" description ="(02_K28VDSR)-" format="1"></var>
-<var name="s02_K29VDSR" description ="(02_K29VDSR)-" format="1"></var>
-<var name="s02_K30VDSR" description ="(02_K30VDSR)-" format="1"></var>
-<var name="s02_K31VDSR" description ="(02_K31VDSR)-" format="1"></var>
-<var name="s02_K32VDSR" description ="(02_K32VDSR)-" format="1"></var>
-<var name="s03_K01VDSR" description ="(03_K01VDSR)-" format="1"></var>
-<var name="s03_K02VDSR" description ="(03_K02VDSR)-" format="1"></var>
-<var name="s03_K03VDSR" description ="(03_K03VDSR)-" format="1"></var>
-<var name="s03_K04VDSR" description ="(03_K04VDSR)-" format="1"></var>
-<var name="s03_K05VDSR" description ="(03_K05VDSR)-" format="1"></var>
-<var name="s03_K06VDSR" description ="(03_K06VDSR)-" format="1"></var>
-<var name="s03_K07VDSR" description ="(03_K07VDSR)-" format="1"></var>
-<var name="s03_K08VDSR" description ="(03_K08VDSR)-" format="1"></var>
-<var name="s03_K09VDSR" description ="(03_K09VDSR)-" format="1"></var>
-<var name="s03_K10VDSR" description ="(03_K10VDSR)-" format="1"></var>
-<var name="s03_K11VDSR" description ="(03_K11VDSR)-" format="1"></var>
-<var name="s03_K12VDSR" description ="(03_K12VDSR)-" format="1"></var>
-<var name="s03_K13VDSR" description ="(03_K13VDSR)-" format="1"></var>
-<var name="s03_K14VDSR" description ="(03_K14VDSR)-" format="1"></var>
-<var name="s03_K15VDSR" description ="(03_K15VDSR)-" format="1"></var>
+<var name="R0IC00LDU" description ="(01_K01VDSR)- +Di0" format="1"></var>
+<var name="R0IC01LDU" description ="(01_K02VDSR)- +Di1" format="1"></var>
+<var name="R0IC02LDU" description ="(01_K03VDSR)- +Di2" format="1"></var>
+<var name="R0IC03LDU" description ="(01_K04VDSR)- +Di3" format="1"></var>
+<var name="R0IC04LDU" description ="(01_K05VDSR)- +Di4" format="1"></var>
+<var name="R0IC05LDU" description ="(01_K06VDSR)- +Di5" format="1"></var>
+<var name="R0IC06LDU" description ="(01_K07VDSR)- +Di6" format="1"></var>
+<var name="R0IC07LDU" description ="(01_K08VDSR)- +Di7" format="1"></var>
+<var name="R0IC08LDU" description ="(01_K09VDSR)- +Di8" format="1"></var>
+<var name="R0IC09LDU" description ="(01_K10VDSR)- +Di9" format="1"></var>
+<var name="R0IC10LDU" description ="(01_K11VDSR)- +Di10" format="1"></var>
+<var name="R0IC11LDU" description ="(01_K12VDSR)- +Di11" format="1"></var>
+<var name="R0IC12LDU" description ="(01_K13VDSR)- +Di12" format="1"></var>
+<var name="R0IC13LDU" description ="(01_K14VDSR)- +Di13" format="1"></var>
+<var name="R0IC14LDU" description ="(01_K15VDSR)- +Di14" format="1"></var>
+<var name="R0IC15LDU" description ="(01_K16VDSR)- +Di15" format="1"></var>
+<var name="R0IC16LDU" description ="(01_K17VDSR)- +Di16" format="1"></var>
+<var name="R0IC17LDU" description ="(01_K18VDSR)- +Di17" format="1"></var>
+<var name="R0IC18LDU" description ="(01_K19VDSR)- +Di18" format="1"></var>
+<var name="R0IC19LDU" description ="(01_K20VDSR)- +Di19" format="1"></var>
+<var name="R0IC20LDU" description ="(01_K21VDSR)- +Di20" format="1"></var>
+<var name="R0IC21LDU" description ="(01_K22VDSR)- +Di21" format="1"></var>
+<var name="R0IC22LDU" description ="(01_K23VDSR)- +Di22" format="1"></var>
+<var name="R0IC23LDU" description ="(01_K24VDSR)- +Di23" format="1"></var>
+<var name="R0IC24LDU" description ="(01_K25VDSR)- +Di24" format="1"></var>
+<var name="R0IC25LDU" description ="(01_K26VDSR)- +Di25" format="1"></var>
+<var name="R0IC26LDU" description ="(01_K27VDSR)- +Di26" format="1"></var>
+<var name="R0IC27LDU" description ="(01_K28VDSR)- +Di27" format="1"></var>
+<var name="R0IC28LDU" description ="(01_K29VDSR)- +Di28" format="1"></var>
+<var name="R0IC29LDU" description ="(01_K30VDSR)- +Di29" format="1"></var>
+<var name="R0IC30LDU" description ="(01_K31VDSR)- +Di30" format="1"></var>
+<var name="R0IC31LDU" description ="(01_K32VDSR)- +Di31" format="1"></var>
+
+<var name="B3IS35LDU" description ="(02_K01VDSR)- Клапан «ВПИС2» открыт (обесточен)" format="1"></var>
+<var name="B3IS33LDU" description ="(02_K02VDSR)- Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен)" format="1"></var>
+<var name="B2IS33LDU" description ="(02_K03VDSR)- Клапан «Подъём РБ2» открыт (обесточен)" format="1"></var>
+<var name="B4IS10LDU" description ="(02_K04VDSR)- Клапан «Подъём НИ2» открыт (обесточен)" format="1"></var>
+<var name="B3IS31LDU" description ="(02_K05VDSR)- Клапан «СПУСК ИС2» открыт (обесточен)" format="1"></var>
+<var name="B7AS31LDU" description ="(02_K06VDSR)- Клапан «Обдув АЗ2» открыт (обесточен)" format="1"></var>
+<var name="B1IS12LDU" description ="(02_K07VDSR)- Магнит ББ2 зацеплен" format="1"></var>
+<var name="B1IS11LDU" description ="(02_K08VDSR)- Приход на ВУ ББ2" format="1"></var>
+<var name="B1IS21LDU" description ="(02_K09VDSR)- Приход на НУ ББ2" format="1"></var>
+<var name="B2IS12LDU" description ="(02_K10VDSR)- Магнит РБ2 зацеплен" format="1"></var>
+<var name="B2IS11LDU" description ="(02_K11VDSR)- Приход на ВУ РБ2-СТР" format="1"></var>
+<var name="B2IS21LDU" description ="(02_K12VDSR)- Приход на НУ РБ2-СС" format="1"></var>
+<var name="B3IS21LDU" description ="(02_K13VDSR)- Приход на НУ ИС2" format="1"></var>
+<var name="R8IS11LDU" description ="(02_K14VDSR)- Аварийный НИ установлен" format="1"></var>
+<var name="B8IS12LDU" description ="(02_K15VDSR)- Приход на механический ВУ АЗ2" format="1"></var>
+<var name="B8IS22LDU" description ="(02_K16VDSR)- Приход на механический НУ АЗ2" format="1"></var>
+<var name="s02_K17VDSR" description ="(02_K17VDSR)- " format="1"></var>
+<var name="A3VZ13LZ1" description ="(02_K18VDSR)- Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ15LZ1" description ="(02_K19VDSR)- Имитация срабатывания АЗ от НУП ИС" format="1"></var>
+<var name="R0AD14LZ1" description ="(02_K20VDSR)- Имитация срабатывания АЗ от II УР" format="1"></var>
+<var name="A1VN71LZ1" description ="(02_K21VDSR)- Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VZ71LZ1" description ="(02_K22VDSR)- Обобщенный сигнал АЗ 1канала" format="1"></var>
+<var name="A9IS11LDU" description ="(02_K23VDSR)- Приход на ВУ НИ ДС1" format="1"></var>
+<var name="A9IS21LDU" description ="(02_K24VDSR)- Приход на НУ НИ ДС1" format="1"></var>
+<var name="B9IS11LDU" description ="(02_K25VDSR)- Приход на ВУ НИ ДС2" format="1"></var>
+<var name="B9IS21LDU" description ="(02_K26VDSR)- Приход на НУ НИ ДС2" format="1"></var>
+<var name="R1IS11LDU" description ="(02_K27VDSR)- Приход на ВУ МДЗ1" format="1"></var>
+<var name="R1IS21LDU" description ="(02_K28VDSR)- Приход на НУ МДЗ1" format="1"></var>
+<var name="R2IS11LDU" description ="(02_K29VDSR)- Приход на ВУ МДЗ2" format="1"></var>
+<var name="R2IS21LDU" description ="(02_K30VDSR)- Приход на НУ МДЗ2" format="1"></var>
+<var name="B4IS11LDU" description ="(02_K31VDSR)- Приход на ВУ НИ2" format="1"></var>
+<var name="B4IS21LDU" description ="(02_K32VDSR)- Приход на НУ НИ2" format="1"></var>
+
+<var name="A3IS35LDU" description ="(03_K01VDSR)- Клапан «ВПИС1» открыт (обесточен)" format="1"></var>
+<var name="A3IS33LDU" description ="(03_K02VDSR)- Клапан «ВЫСТРЕЛ ИС1» открыт (обесточен)" format="1"></var>
+<var name="A2IS33LDU" description ="(03_K03VDSR)- Клапан «Подъём РБ1» открыт (обесточен)" format="1"></var>
+<var name="A4IS10LDU" description ="(03_K04VDSR)- Клапан «Подъём НИ1» открыт (обесточен)" format="1"></var>
+<var name="A3IS31LDU" description ="(03_K05VDSR)- Клапан «СПУСК ИС1» открыт (обесточен)" format="1"></var>
+<var name="A7AS31LDU" description ="(03_K06VDSR)- Клапан «Обдув АЗ1» открыт (обесточен)" format="1"></var>
+<var name="A1IS12LDU" description ="(03_K07VDSR)- Магнит ББ1 зацеплен" format="1"></var>
+<var name="A1IS11LDU" description ="(03_K08VDSR)- Приход на ВУ ББ1" format="1"></var>
+<var name="A1IS21LDU" description ="(03_K09VDSR)- Приход на НУ ББ1" format="1"></var>
+<var name="A2IS12LDU" description ="(03_K10VDSR)- Магнит РБ1 зацеплен" format="1"></var>
+<var name="A2IS11LDU" description ="(03_K11VDSR)- Приход на ВУ РБ1-СТР" format="1"></var>
+<var name="A2IS21LDU" description ="(03_K12VDSR)- Приход на НУ РБ1-СС" format="1"></var>
+<var name="A3IS21LDU" description ="(03_K13VDSR)- Приход на НУ ИС1" format="1"></var>
+<var name="A4IS11LDU" description ="(03_K14VDSR)- Приход на ВУ НИ1" format="1"></var>
+<var name="A4IS21LDU" description ="(03_K15VDSR)- Приход на НУ НИ1" format="1"></var>
 <var name="s03_K16VDSR" description ="(03_K16VDSR)-" format="1"></var>
 <var name="s03_K17VDSR" description ="(03_K17VDSR)-" format="1"></var>
-<var name="s03_K18VDSR" description ="(03_K18VDSR)-" format="1"></var>
-<var name="s03_K19VDSR" description ="(03_K19VDSR)-" format="1"></var>
-<var name="s03_K20VDSR" description ="(03_K20VDSR)-" format="1"></var>
-<var name="s03_K21VDSR" description ="(03_K21VDSR)-" format="1"></var>
-<var name="s03_K22VDSR" description ="(03_K22VDSR)-" format="1"></var>
-<var name="s03_K23VDSR" description ="(03_K23VDSR)-" format="1"></var>
-<var name="s03_K24VDSR" description ="(03_K24VDSR)-" format="1"></var>
-<var name="s03_K25VDSR" description ="(03_K25VDSR)-" format="1"></var>
-<var name="s03_K26VDSR" description ="(03_K26VDSR)-" format="1"></var>
-<var name="s03_K27VDSR" description ="(03_K27VDSR)-" format="1"></var>
-<var name="s03_K28VDSR" description ="(03_K28VDSR)-" format="1"></var>
-<var name="s03_K29VDSR" description ="(03_K29VDSR)-" format="1"></var>
-<var name="s03_K30VDSR" description ="(03_K30VDSR)-" format="1"></var>
+<var name="A3VZ13LZ2" description ="(03_K18VDSR)- Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ15LZ2" description ="(03_K19VDSR)- Имитация срабатывания АЗ от НУП ИС" format="1"></var>
+<var name="R0AD14LZ2" description ="(03_K20VDSR)- Имитация срабатывания АЗ от  II УР" format="1"></var>
+<var name="A1VN71LZ2" description ="(03_K21VDSR)- Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VZ71LZ2" description ="(03_K22VDSR)- Обобщенный сигнал АЗ 2 канала" format="1"></var>
+<var name="A3VP81LDU" description ="(03_K23VDSR)- Давление СПУСК ИС1 в норме" format="1"></var>
+<var name="A2VP82LDU" description ="(03_K24VDSR)- Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var name="A4VP82LDU" description ="(03_K25VDSR)- Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var name="B3VP81LDU" description ="(03_K26VDSR)- Давление СПУСК ИС2 в норме" format="1"></var>
+<var name="B2VP82LDU" description ="(03_K27VDSR)- Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var name="B4VP82LDU" description ="(03_K28VDSR)- Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var name="R0IS01LDU" description ="(03_K29VDSR)- Признак работы с имитатором" format="1"></var>
+<var name="R0IS02LDU" description ="(03_K30VDSR)- Разрешение ввода от имитатора" format="1"></var>
 <var name="s03_K31VDSR" description ="(03_K31VDSR)-" format="1"></var>
 <var name="s03_K32VDSR" description ="(03_K32VDSR)-" format="1"></var>
-<var name="s04_K01VDSR" description ="(04_K01VDSR)-" format="1"></var>
-<var name="s04_K02VDSR" description ="(04_K02VDSR)-" format="1"></var>
-<var name="s04_K03VDSR" description ="(04_K03VDSR)-" format="1"></var>
-<var name="s04_K04VDSR" description ="(04_K04VDSR)-" format="1"></var>
-<var name="s04_K05VDSR" description ="(04_K05VDSR)-" format="1"></var>
-<var name="s04_K06VDSR" description ="(04_K06VDSR)-" format="1"></var>
-<var name="s04_K07VDSR" description ="(04_K07VDSR)-" format="1"></var>
-<var name="s04_K08VDSR" description ="(04_K08VDSR)-" format="1"></var>
-<var name="s04_K09VDSR" description ="(04_K09VDSR)-" format="1"></var>
-<var name="s04_K10VDSR" description ="(04_K10VDSR)-" format="1"></var>
-<var name="s04_K11VDSR" description ="(04_K11VDSR)-" format="1"></var>
-<var name="s04_K12VDSR" description ="(04_K12VDSR)-" format="1"></var>
-<var name="s04_K13VDSR" description ="(04_K13VDSR)-" format="1"></var>
-<var name="s04_K14VDSR" description ="(04_K14VDSR)-" format="1"></var>
-<var name="s04_K15VDSR" description ="(04_K15VDSR)-" format="1"></var>
-<var name="s04_K16VDSR" description ="(04_K16VDSR)-" format="1"></var>
-<var name="s04_K17VDSR" description ="(04_K17VDSR)-" format="1"></var>
-<var name="s04_K18VDSR" description ="(04_K18VDSR)-" format="1"></var>
-<var name="s04_K19VDSR" description ="(04_K19VDSR)-" format="1"></var>
-<var name="s04_K20VDSR" description ="(04_K20VDSR)-" format="1"></var>
-<var name="s04_K21VDSR" description ="(04_K21VDSR)-" format="1"></var>
-<var name="s04_K22VDSR" description ="(04_K22VDSR)-" format="1"></var>
-<var name="s04_K23VDSR" description ="(04_K23VDSR)-" format="1"></var>
-<var name="s04_K24VDSR" description ="(04_K24VDSR)-" format="1"></var>
-<var name="s04_K25VDSR" description ="(04_K25VDSR)-" format="1"></var>
-<var name="s04_K26VDSR" description ="(04_K26VDSR)-" format="1"></var>
-<var name="s04_K27VDSR" description ="(04_K27VDSR)-" format="1"></var>
-<var name="s04_K28VDSR" description ="(04_K28VDSR)-" format="1"></var>
-<var name="s04_K29VDSR" description ="(04_K29VDSR)-" format="1"></var>
-<var name="s04_K30VDSR" description ="(04_K30VDSR)-" format="1"></var>
-<var name="s04_K31VDSR" description ="(04_K31VDSR)-" format="1"></var>
+
+<var name="A3IS11LDU" description ="(04_K01VDSR)- Приход на ВУ ИС1" format="1"></var>
+<var name="A3IS22LDU" description ="(04_K02VDSR)- Приход на НУП ИС1" format="1"></var>
+<var name="B3IS11LDU" description ="(04_K03VDSR)- Приход на ВУ ИС2" format="1"></var>
+<var name="B3IS22LDU" description ="(04_K04VDSR)- Приход на НУП ИС2" format="1"></var>
+<var name="R4IS11LDU" description ="(04_K05VDSR)- Приход на ВУ тележки" format="1"></var>
+<var name="R4IS12LDU" description ="(04_K06VDSR)- Приход на механический ВУ тележки" format="1"></var>
+<var name="R4IS21LDU" description ="(04_K07VDSR)- Приход на НУ тележки" format="1"></var>
+<var name="R4IS22LDU" description ="(04_K08VDSR)- Приход на механический НУ тележки" format="1"></var>
+<var name="A6IS11LDU" description ="(04_K09VDSR)- Приход на ВУ БЗ1" format="1"></var>
+<var name="A6IS21LDU" description ="(04_K10VDSR)- Приход на НУ БЗ1" format="1"></var>
+<var name="A5IS11LDU" description ="(04_K11VDSR)- Приход на ВУ НЛ1" format="1"></var>
+<var name="A5IS21LDU" description ="(04_K12VDSR)- Приход на НУ НЛ1" format="1"></var>
+<var name="B6IS11LDU" description ="(04_K13VDSR)- Приход на ВУ БЗ2" format="1"></var>
+<var name="B6IS21LDU" description ="(04_K14VDSR)- Приход на НУ БЗ2" format="1"></var>
+<var name="B5IS11LDU" description ="(04_K15VDSR)- Приход на ВУ НЛ2" format="1"></var>
+<var name="B5IS21LDU" description ="(04_K16VDSR)- Приход на НУ НЛ2" format="1"></var>
+<var name="R3IS11LDU" description ="(04_K17VDSR)- Приход на ВУ гомогенных дверей-1" format="1"></var>
+<var name="R3IS21LDU" description ="(04_K18VDSR)- Приход на НУ гомогенных дверей-1" format="1"></var>
+<var name="R3IS31LDU" description ="(04_K19VDSR)- Приход на ВУ гомогенных дверей-2" format="1"></var>
+<var name="R3IS41LDU" description ="(04_K20VDSR)- Приход на НУ гомогенных дверей-2" format="1"></var>
+<var name="R3AD10LDU" description ="(04_K21VDSR)- Гомогенные двери-1 открыть" format="1"></var>
+<var name="R3AD11LDU" description ="(04_K22VDSR)- Гомогенные двери-2 открыть" format="1"></var>
+<var name="R3AD20LDU" description ="(04_K23VDSR)- Гомогенные двери-1 закрыть" format="1"></var>
+<var name="R3AD21LDU" description ="(04_K24VDSR)- Гомогенные двери-2 закрыть" format="1"></var>
+<var name="R5IS11LDU" description ="(04_K25VDSR)- Приход на ВУ ворот отстойной зоны" format="1"></var>
+<var name="R5IS21LDU" description ="(04_K26VDSR)- Приход на НУ ворот отстойной зоны" format="1"></var>
+<var name="R5AD10LDU" description ="(04_K27VDSR)- Открыть ворота отстойной зоны" format="1"></var>
+<var name="R5AD20LDU" description ="(04_K28VDSR)- Закрыть ворота отстойной зоны" format="1"></var>
+<var name="R6IS21LDU" description ="(04_K29VDSR)- Кран-балка в нерабочем положении" format="1"></var>
+<var name="A8IS12LDU" description ="(04_K30VDSR)- Приход на механический ВУ ДС2" format="1"></var>
+<var name="A8IS22LDU" description ="(04_K31VDSR)- Приход на механический НУ ДС2" format="1"></var>
 <var name="s04_K32VDSR" description ="(04_K32VDSR)-" format="1"></var>
-<var name="s05_K01VDSR" description ="(05_K01VDSR)-" format="1"></var>
-<var name="s05_K02VDSR" description ="(05_K02VDSR)-" format="1"></var>
-<var name="s05_K03VDSR" description ="(05_K03VDSR)-" format="1"></var>
-<var name="s05_K04VDSR" description ="(05_K04VDSR)-" format="1"></var>
-<var name="s05_K05VDSR" description ="(05_K05VDSR)-" format="1"></var>
-<var name="s05_K06VDSR" description ="(05_K06VDSR)-" format="1"></var>
-<var name="s05_K07VDSR" description ="(05_K07VDSR)-" format="1"></var>
-<var name="s05_K08VDSR" description ="(05_K08VDSR)-" format="1"></var>
-<var name="s05_K09VDSR" description ="(05_K09VDSR)-" format="1"></var>
-<var name="s05_K10VDSR" description ="(05_K10VDSR)-" format="1"></var>
-<var name="s05_K11VDSR" description ="(05_K11VDSR)-" format="1"></var>
-<var name="s05_K12VDSR" description ="(05_K12VDSR)-" format="1"></var>
-<var name="s05_K13VDSR" description ="(05_K13VDSR)-" format="1"></var>
-<var name="s05_K14VDSR" description ="(05_K14VDSR)-" format="1"></var>
-<var name="s05_K15VDSR" description ="(05_K15VDSR)-" format="1"></var>
-<var name="s05_K16VDSR" description ="(05_K16VDSR)-" format="1"></var>
-<var name="s05_K17VDSR" description ="(05_K17VDSR)-" format="1"></var>
-<var name="s05_K18VDSR" description ="(05_K18VDSR)-" format="1"></var>
-<var name="s05_K19VDSR" description ="(05_K19VDSR)-" format="1"></var>
-<var name="s05_K20VDSR" description ="(05_K20VDSR)-" format="1"></var>
-<var name="s05_K21VDSR" description ="(05_K21VDSR)-" format="1"></var>
-<var name="s05_K22VDSR" description ="(05_K22VDSR)-" format="1"></var>
-<var name="s05_K23VDSR" description ="(05_K23VDSR)-" format="1"></var>
-<var name="s05_K24VDSR" description ="(05_K24VDSR)-" format="1"></var>
-<var name="s05_K25VDSR" description ="(05_K25VDSR)-" format="1"></var>
-<var name="s05_K26VDSR" description ="(05_K26VDSR)-" format="1"></var>
-<var name="s05_K27VDSR" description ="(05_K27VDSR)-" format="1"></var>
-<var name="s05_K28VDSR" description ="(05_K28VDSR)-" format="1"></var>
-<var name="s05_K29VDSR" description ="(05_K29VDSR)-" format="1"></var>
-<var name="s05_K30VDSR" description ="(05_K30VDSR)-" format="1"></var>
+
+<var name="A1IE02LDU" description ="(05_K01VDSR)- Исправность ИП ББ1" format="1"></var>
+<var name="A1IE01LDU" description ="(05_K02VDSR)- Исправность БУШД ББ1" format="1"></var>
+<var name="A1IE03LDU" description ="(05_K03VDSR)- Движение ББ1 вперед (от БУШД)" format="1"></var>
+<var name="A1IE04LDU" description ="(05_K04VDSR)- Движение ББ1 назад (от БУШД)" format="1"></var>
+<var name="A2IE02LDU" description ="(05_K05VDSR)- Исправность ИП РБ1" format="1"></var>
+<var name="A2IE01LDU" description ="(05_K06VDSR)- Исправность БУШД РБ1" format="1"></var>
+<var name="A2IE03LDU" description ="(05_K07VDSR)- Движение РБ1 вперед (от БУШД)" format="1"></var>
+<var name="A2IE04LDU" description ="(05_K08VDSR)- Движение РБ1 назад (от БУШД)" format="1"></var>
+<var name="A3IE02LDU" description ="(05_K09VDSR)- Исправность ИП ИС1" format="1"></var>
+<var name="A3IE01LDU" description ="(05_K10VDSR)- Исправность БУШД ИС1" format="1"></var>
+<var name="A3IE03LDU" description ="(05_K11VDSR)- Движение ИС1 вперед (от БУШД)" format="1"></var>
+<var name="A3IE04LDU" description ="(05_K12VDSR)- Движение ИС1 назад (от БУШД)" format="1"></var>
+<var name="B1IE02LDU" description ="(05_K13VDSR)- Исправность ИП ББ2" format="1"></var>
+<var name="B1IE01LDU" description ="(05_K14VDSR)- Исправность БУШД ББ2" format="1"></var>
+<var name="B1IE03LDU" description ="(05_K15VDSR)- Движение ББ2 вперед (от БУШД)" format="1"></var>
+<var name="B1IE04LDU" description ="(05_K16VDSR)- Движение ББ2 назад (от БУШД)" format="1"></var>
+<var name="B2IE02LDU" description ="(05_K17VDSR)- Исправность ИП РБ2" format="1"></var>
+<var name="B2IE01LDU" description ="(05_K18VDSR)- Исправность БУШД РБ2" format="1"></var>
+<var name="B2IE03LDU" description ="(05_K19VDSR)- Движение РБ2 вперед (от БУШД)" format="1"></var>
+<var name="B2IE04LDU" description ="(05_K20VDSR)- Движение РБ2 назад (от БУШД)" format="1"></var>
+<var name="B3IE02LDU" description ="(05_K21VDSR)- Исправность ИП ИС2" format="1"></var>
+<var name="B3IE01LDU" description ="(05_K22VDSR)- Исправность БУШД ИС2" format="1"></var>
+<var name="B3IE03LDU" description ="(05_K23VDSR)- Движение ИС2 вперед (от БУШД)" format="1"></var>
+<var name="B3IE04LDU" description ="(05_K24VDSR)- Движение ИС2 назад (от БУШД)" format="1"></var>
+<var name="R6IS31LDU" description ="(05_K25VDSR)- контроль задней двери ШС" format="1"></var>
+<var name="R6IS32LDU" description ="(05_K26VDSR)- контроль передней двери ШС" format="1"></var>
+<var name="R6IS41LDU" description ="(05_K27VDSR)- контроль задней двери ШЭП" format="1"></var>
+<var name="R6IS42LDU" description ="(05_K28VDSR)- контроль передней двери ШЭП" format="1"></var>
+<var name="R6IS51LDU" description ="(05_K29VDSR)- контроль задней двери ШПУ" format="1"></var>
+<var name="R6IS52LDU" description ="(05_K30VDSR)- контроль передней двери ШПУ" format="1"></var>
 <var name="s05_K31VDSR" description ="(05_K31VDSR)-" format="1"></var>
 <var name="s05_K32VDSR" description ="(05_K32VDSR)-" format="1"></var>
-<var name="s06_K01FDSR" description ="(06_K01FDSR)-" format="1"></var>
-<var name="s06_K02FDSR" description ="(06_K02FDSR)-" format="1"></var>
-<var name="s06_K03FDSR" description ="(06_K03FDSR)-" format="1"></var>
-<var name="s06_K04FDSR" description ="(06_K04FDSR)-" format="1"></var>
-<var name="s06_K05FDSR" description ="(06_K05FDSR)-" format="1"></var>
-<var name="s06_K06FDSR" description ="(06_K06FDSR)-" format="1"></var>
-<var name="s06_K07FDSR" description ="(06_K07FDSR)-" format="1"></var>
-<var name="s06_K08FDSR" description ="(06_K08FDSR)-" format="1"></var>
-<var name="s06_K09FDSR" description ="(06_K09FDSR)-" format="1"></var>
+
+<var name="A1IC01LDU" description ="(06_K01FDSR)- BUS1_ББ1, у ТИБ BUS1 ББ1" format="1"></var>
+<var name="B1IC01LDU" description ="(06_K02FDSR)- BUS2_ББ2" format="1"></var>
+<var name="A2IC01LDU" description ="(06_K03FDSR)- BUS3_РБ1" format="1"></var>
+<var name="B2IC01LDU" description ="(06_K04FDSR)- BUS4_РБ2" format="1"></var>
+<var name="A3IC01LDU" description ="(06_K05FDSR)- BUS5_ИС1" format="1"></var>
+<var name="B3IC01LDU" description ="(06_K06FDSR)- BUS6_ИС2" format="1"></var>
+<var name="B8IC01LDU" description ="(06_K07FDSR)- BUS7_АЗ2" format="1"></var>
+<var name="A8IC01LDU" description ="(06_K08FDSR)- BUS8_ДС2" format="1"></var>
+<var name="R0IC41LDU" description ="(06_K09FDSR)- LUTCH у ТИБ Latch" format="1"></var>
 <var name="s06_K10FDSR" description ="(06_K10FDSR)-" format="1"></var>
 <var name="s06_K11FDSR" description ="(06_K11FDSR)-" format="1"></var>
 <var name="s06_K12FDSR" description ="(06_K12FDSR)-" format="1"></var>
@@ -175,141 +180,150 @@
 <var name="s06_K14FDSR" description ="(06_K14FDSR)-" format="1"></var>
 <var name="s06_K15FDSR" description ="(06_K15FDSR)-" format="1"></var>
 <var name="s06_K16FDSR" description ="(06_K16FDSR)-" format="1"></var>
-<var name="s07_K01FDSR" description ="(07_K01FDSR)-" format="1"></var>
-<var name="s07_K02FDSR" description ="(07_K02FDSR)-" format="1"></var>
-<var name="s07_K03FDSR" description ="(07_K03FDSR)-" format="1"></var>
-<var name="s07_K04FDSR" description ="(07_K04FDSR)-" format="1"></var>
-<var name="s07_K05FDSR" description ="(07_K05FDSR)-" format="1"></var>
-<var name="s07_K06FDSR" description ="(07_K06FDSR)-" format="1"></var>
-<var name="s07_K07FDSR" description ="(07_K07FDSR)-" format="1"></var>
-<var name="s07_K08FDSR" description ="(07_K08FDSR)-" format="1"></var>
-<var name="s07_K09FDSR" description ="(07_K09FDSR)-" format="1"></var>
-<var name="s07_K10FDSR" description ="(07_K10FDSR)-" format="1"></var>
-<var name="s07_K11FDSR" description ="(07_K11FDSR)-" format="1"></var>
-<var name="s07_K12FDSR" description ="(07_K12FDSR)-" format="1"></var>
-<var name="s07_K13FDSR" description ="(07_K13FDSR)-" format="1"></var>
-<var name="s07_K14FDSR" description ="(07_K14FDSR)-" format="1"></var>
-<var name="s07_K15FDSR" description ="(07_K15FDSR)-" format="1"></var>
-<var name="s07_K16FDSR" description ="(07_K16FDSR)-" format="1"></var>
-<var name="s08_K01FDSR" description ="(08_K01FDSR)-" format="1"></var>
-<var name="s08_K02FDSR" description ="(08_K02FDSR)-" format="1"></var>
-<var name="s08_K03FDSR" description ="(08_K03FDSR)-" format="1"></var>
-<var name="s08_K04FDSR" description ="(08_K04FDSR)-" format="1"></var>
-<var name="s08_K05FDSR" description ="(08_K05FDSR)-" format="1"></var>
-<var name="s08_K06FDSR" description ="(08_K06FDSR)-" format="1"></var>
-<var name="s08_K07FDSR" description ="(08_K07FDSR)-" format="1"></var>
-<var name="s08_K08FDSR" description ="(08_K08FDSR)-" format="1"></var>
-<var name="s08_K09FDSR" description ="(08_K09FDSR)-" format="1"></var>
-<var name="s08_K10FDSR" description ="(08_K10FDSR)-" format="1"></var>
-<var name="s08_K11FDSR" description ="(08_K11FDSR)-" format="1"></var>
-<var name="s08_K12FDSR" description ="(08_K12FDSR)-" format="1"></var>
-<var name="s08_K13FDSR" description ="(08_K13FDSR)-" format="1"></var>
-<var name="s08_K14FDSR" description ="(08_K14FDSR)-" format="1"></var>
-<var name="s08_K15FDSR" description ="(08_K15FDSR)-" format="1"></var>
-<var name="s08_K16FDSR" description ="(08_K16FDSR)-" format="1"></var>
-<var name="s09_K01FDSR" description ="(09_K01FDSR)-" format="1"></var>
-<var name="s09_K02FDSR" description ="(09_K02FDSR)-" format="1"></var>
-<var name="s09_K03FDSR" description ="(09_K03FDSR)-" format="1"></var>
-<var name="s09_K04FDSR" description ="(09_K04FDSR)-" format="1"></var>
-<var name="s09_K05FDSR" description ="(09_K05FDSR)-" format="1"></var>
-<var name="s09_K06FDSR" description ="(09_K06FDSR)-" format="1"></var>
-<var name="s09_K07FDSR" description ="(09_K07FDSR)-" format="1"></var>
-<var name="s09_K08FDSR" description ="(09_K08FDSR)-" format="1"></var>
-<var name="s09_K09FDSR" description ="(09_K09FDSR)-" format="1"></var>
-<var name="s09_K10FDSR" description ="(09_K10FDSR)-" format="1"></var>
-<var name="s09_K11FDSR" description ="(09_K11FDSR)-" format="1"></var>
-<var name="s09_K12FDSR" description ="(09_K12FDSR)-" format="1"></var>
-<var name="s09_K13FDSR" description ="(09_K13FDSR)-" format="1"></var>
-<var name="s09_K14FDSR" description ="(09_K14FDSR)-" format="1"></var>
-<var name="s09_K15FDSR" description ="(09_K15FDSR)-" format="1"></var>
-<var name="s09_K16FDSR" description ="(09_K16FDSR)-" format="1"></var>
-<var name="s10_K01FDSR" description ="(10_K01FDSR)-" format="1"></var>
-<var name="s10_K02FDSR" description ="(10_K02FDSR)-" format="1"></var>
-<var name="s10_K03FDSR" description ="(10_K03FDSR)-" format="1"></var>
-<var name="s10_K04FDSR" description ="(10_K04FDSR)-" format="1"></var>
-<var name="s10_K05FDSR" description ="(10_K05FDSR)-" format="1"></var>
-<var name="s10_K06FDSR" description ="(10_K06FDSR)-" format="1"></var>
-<var name="s10_K07FDSR" description ="(10_K07FDSR)-" format="1"></var>
-<var name="s10_K08FDSR" description ="(10_K08FDSR)-" format="1"></var>
-<var name="s10_K09FDSR" description ="(10_K09FDSR)-" format="1"></var>
-<var name="s10_K10FDSR" description ="(10_K10FDSR)-" format="1"></var>
-<var name="s10_K11FDSR" description ="(10_K11FDSR)-" format="1"></var>
-<var name="s10_K12FDSR" description ="(10_K12FDSR)-" format="1"></var>
-<var name="s10_K13FDSR" description ="(10_K13FDSR)-" format="1"></var>
-<var name="s10_K14FDSR" description ="(10_K14FDSR)-" format="1"></var>
+
+<var name="A2AD11LDU" description ="(07_K01FDSR)- Сигнал на перемещение РБ1 вверх" format="1"></var>
+<var name="A2AD21LDU" description ="(07_K02FDSR)- Сигнал на перемещение РБ1 вниз" format="1"></var>
+<var name="A2AD01LDU" description ="(07_K03FDSR)- Разрешение движения РБ1" format="1"></var>
+<var name="A2AD02LDU" description ="(07_K04FDSR)- 0-й бит скорости РБ1" format="1"></var>
+<var name="A2AD03LDU" description ="(07_K05FDSR)- 1-й бит скорости РБ1" format="1"></var>
+<var name="A2AD04LDU" description ="(07_K06FDSR)- 2-й бит скорости РБ1" format="1"></var>
+<var name="A2AD05LDU" description ="(07_K07FDSR)- паритет команды на РБ1" format="1"></var>
+<var name="B2AD11LDU" description ="(07_K08FDSR)- Сигнал на перемещение РБ2 вверх" format="1"></var>
+<var name="B2AD21LDU" description ="(07_K09FDSR)- Сигнал на перемещение РБ2 вниз" format="1"></var>
+<var name="B2AD01LDU" description ="(07_K10FDSR)- Разрешение движения РБ2" format="1"></var>
+<var name="B2AD02LDU" description ="(07_K11FDSR)- 0-й бит скорости РБ2" format="1"></var>
+<var name="B2AD03LDU" description ="(07_K12FDSR)- 1-й бит скорости РБ2" format="1"></var>
+<var name="B2AD04LDU" description ="(07_K13FDSR)- 2-й бит скорости РБ2" format="1"></var>
+<var name="B2AD05LDU" description ="(07_K14FDSR)- паритет команды на РБ2" format="1"></var>
+<var name="A2IS12LZ2" description ="(07_K15FDSR)- (сигнал не подтвержден) Магнит РБ1 зацеплен (для БАЗ2)" format="1"></var>
+<var name="B2IS12LZ2" description ="(07_K16FDSR)- (сигнал не подтвержден) Магнит РБ2 зацеплен (для БАЗ2)" format="1"></var>
+
+<var name="A1AD11LDU" description ="(08_K01FDSR)- Сигнал на перемещение ББ1 вверх" format="1"></var>
+<var name="A1AD21LDU" description ="(08_K02FDSR)- Сигнал на перемещение ББ1 вниз" format="1"></var>
+<var name="A1AD01LDU" description ="(08_K03FDSR)- Разрешение движения ББ1" format="1"></var>
+<var name="A1AD02LDU" description ="(08_K04FDSR)- 0-й бит скорости ББ1" format="1"></var>
+<var name="A1AD03LDU" description ="(08_K05FDSR)- 1-й бит скорости ББ1" format="1"></var>
+<var name="A1AD04LDU" description ="(08_K06FDSR)- 2-й бит скорости ББ1" format="1"></var>
+<var name="A1AD05LDU" description ="(08_K07FDSR)- паритет команды на ББ1" format="1"></var>
+<var name="B1AD11LDU" description ="(08_K08FDSR)- Сигнал на перемещение ББ2 вверх" format="1"></var>
+<var name="B1AD21LDU" description ="(08_K09FDSR)- Сигнал на перемещение ББ2 вниз" format="1"></var>
+<var name="B1AD01LDU" description ="(08_K10FDSR)- Разрешение движения ББ2" format="1"></var>
+<var name="B1AD02LDU" description ="(08_K11FDSR)- 0-й бит скорости ББ2" format="1"></var>
+<var name="B1AD03LDU" description ="(08_K12FDSR)- 1-й бит скорости ББ2" format="1"></var>
+<var name="B1AD04LDU" description ="(08_K13FDSR)- 2-й бит скорости ББ2" format="1"></var>
+<var name="B1AD05LDU" description ="(08_K14FDSR)- паритет команды на ББ2" format="1"></var>
+<var name="A2IS12LZ1" description ="(08_K15FDSR)- (сигнал не подтвержден) Магнит РБ1 зацеплен (для БАЗ1)" format="1"></var>
+<var name="B2IS12LZ1" description ="(08_K16FDSR)- (сигнал не подтвержден) Магнит РБ2 зацеплен (для БАЗ1)" format="1"></var>
+
+<var name="B3AD34LDU" description ="(09_K01FDSR)- Клапан  ВПИС ИС2   открыть (обесточить)" format="1"></var>
+<var name="B3AD33LDU" description ="(09_K02FDSR)- Клапан «ВЫСТРЕЛ ИС2» закрыть (обесточить)" format="1"></var>
+<var name="B2AD33LDU" description ="(09_K03FDSR)- Клапан «Подъем РБ2» открыть" format="1"></var>
+<var name="B4AD10LDU" description ="(09_K04FDSR)- Открыть клапан  Подъем НИ2 " format="1"></var>
+<var name="B3AD31LDU" description ="(09_K05FDSR)- Клапан «СПУСК ИС2» открыть (обесточить)" format="1"></var>
+<var name="B7AP31LDU" description ="(09_K06FDSR)- Клапан «Обдув АЗ2» открыть (обесточить)" format="1"></var>
+<var name="A8AD10LDU" description ="(09_K07FDSR)- Перемещение ДС2 вперед" format="1"></var>
+<var name="A8AD20LDU" description ="(09_K08FDSR)- Перемещение ДС2 назад" format="1"></var>
+<var name="A6AD10LDU" description ="(09_K09FDSR)- Открыть БЗ1" format="1"></var>
+<var name="A6AD20LDU" description ="(09_K10FDSR)- Закрыть БЗ1" format="1"></var>
+<var name="B6AD10LDU" description ="(09_K11FDSR)- Открыть БЗ2" format="1"></var>
+<var name="B6AD20LDU" description ="(09_K12FDSR)- Закрыть БЗ2" format="1"></var>
+<var name="R4AD10LDU" description ="(09_K13FDSR)- Перемещение тележки вперед" format="1"></var>
+<var name="R4AD20LDU" description ="(09_K14FDSR)- Перемещение тележки назад" format="1"></var>
+<var name="B8AD10LDU" description ="(09_K15FDSR)- Перемещение АЗ2 вперед" format="1"></var>
+<var name="B8AD20LDU" description ="(09_K16FDSR)- Перемещение АЗ2 назад" format="1"></var>
+
+<var name="A3AD34LDU" description ="(10_K01FDSR)- Клапан  ВПИС1   открыть (обесточить)" format="1"></var>
+<var name="A3AD33LDU" description ="(10_K02FDSR)- Клапан «ВЫСТРЕЛ ИС1» открыть (обесточить)" format="1"></var>
+<var name="A2AD33LDU" description ="(10_K03FDSR)- Клапан «Подъем РБ1» открыть" format="1"></var>
+<var name="A4AD10LDU" description ="(10_K04FDSR)- Открыть клапан  Подъем НИ1 " format="1"></var>
+<var name="A3AD31LDU" description ="(10_K05FDSR)- Клапан «СПУСК ИС1» открыть (обесточить)" format="1"></var>
+<var name="A7AP31LDU" description ="(10_K06FDSR)- Клапан «Обдув АЗ1» открыть (обесточить)" format="1"></var>
+<var name="R1AD10LDU" description ="(10_K07FDSR)- Опустить МДЗ1 в зону облучения" format="1"></var>
+<var name="R1AD20LDU" description ="(10_K08FDSR)- Поднять МДЗ1" format="1"></var>
+<var name="R2AD10LDU" description ="(10_K09FDSR)- Опустить МДЗ2 в зону облучения" format="1"></var>
+<var name="R2AD20LDU" description ="(10_K10FDSR)- Поднять МДЗ2" format="1"></var>
+<var name="A5AD10LDU" description ="(10_K11FDSR)- Поднять НЛ1" format="1"></var>
+<var name="A5AD20LDU" description ="(10_K12FDSR)- Опустить НЛ1" format="1"></var>
+<var name="B5AD10LDU" description ="(10_K13FDSR)- Поднять НЛ2" format="1"></var>
+<var name="B5AD20LDU" description ="(10_K14FDSR)- Опустить НЛ2" format="1"></var>
 <var name="s10_K15FDSR" description ="(10_K15FDSR)-" format="1"></var>
 <var name="s10_K16FDSR" description ="(10_K16FDSR)-" format="1"></var>
-<var name="s11_K01FDSR" description ="(11_K01FDSR)-" format="1"></var>
-<var name="s11_K02FDSR" description ="(11_K02FDSR)-" format="1"></var>
-<var name="s11_K03FDSR" description ="(11_K03FDSR)-" format="1"></var>
-<var name="s11_K04FDSR" description ="(11_K04FDSR)-" format="1"></var>
-<var name="s11_K05FDSR" description ="(11_K05FDSR)-" format="1"></var>
-<var name="s11_K06FDSR" description ="(11_K06FDSR)-" format="1"></var>
-<var name="s11_K07FDSR" description ="(11_K07FDSR)-" format="1"></var>
-<var name="s11_K08FDSR" description ="(11_K08FDSR)-" format="1"></var>
-<var name="s11_K09FDSR" description ="(11_K09FDSR)-" format="1"></var>
-<var name="s11_K10FDSR" description ="(11_K10FDSR)-" format="1"></var>
-<var name="s11_K11FDSR" description ="(11_K11FDSR)-" format="1"></var>
-<var name="s11_K12FDSR" description ="(11_K12FDSR)-" format="1"></var>
-<var name="s11_K13FDSR" description ="(11_K13FDSR)-" format="1"></var>
-<var name="s11_K14FDSR" description ="(11_K14FDSR)-" format="1"></var>
-<var name="s11_K15FDSR" description ="(11_K15FDSR)-" format="1"></var>
-<var name="s11_K16FDSR" description ="(11_K16FDSR)-" format="1"></var>
-<var name="s12_K01VASR" description ="(12_K01VASR)-" format="3"></var>
-<var name="s12_K02VASR" description ="(12_K02VASR)-" format="3"></var>
+
+
+<var name="A3AD11LDU" description ="(11_K01FDSR)- Сигнал на перемещение ИС1 вверх" format="1"></var>
+<var name="A3AD21LDU" description ="(11_K02FDSR)- Сигнал на перемещение ИС1 вниз" format="1"></var>
+<var name="A3AD01LDU" description ="(11_K03FDSR)- Разрешение движения ИС1" format="1"></var>
+<var name="A3AD02LDU" description ="(11_K04FDSR)- 0-й бит скорости ИС1" format="1"></var>
+<var name="A3AD03LDU" description ="(11_K05FDSR)- 1-й бит скорости ИС1" format="1"></var>
+<var name="A3AD04LDU" description ="(11_K06FDSR)- 2-й бит скорости ИС1" format="1"></var>
+<var name="A3AD05LDU" description ="(11_K07FDSR)- паритет команды на ИС1" format="1"></var>
+<var name="B3AD11LDU" description ="(11_K08FDSR)- Сигнал на перемещение ИС2 вверх" format="1"></var>
+<var name="B3AD21LDU" description ="(11_K09FDSR)- Сигнал на перемещение ИС2 вниз" format="1"></var>
+<var name="B3AD01LDU" description ="(11_K10FDSR)- Разрешение движения ИС2" format="1"></var>
+<var name="B3AD02LDU" description ="(11_K11FDSR)- 0-й бит скорости ИС2" format="1"></var>
+<var name="B3AD03LDU" description ="(11_K12FDSR)- 1-й бит скорости ИС2" format="1"></var>
+<var name="B3AD04LDU" description ="(11_K13FDSR)- 2-й бит скорости ИС2" format="1"></var>
+<var name="B3AD05LDU" description ="(11_K14FDSR)- паритет команды на ИС2" format="1"></var>
+<var name="A9AD10LDU" description ="(11_K15FDSR)- Открыть клапан  Подъем НИ ДС1 " format="1"></var>
+<var name="B9AD10LDU" description ="(11_K16FDSR)- Открыть клапан  Подъем НИ ДС2 " format="1"></var>
+
+<var name="A3IP02IDU" description ="(12_K01VASR)- Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
+<var name="B3IP02IDU" description ="(12_K02VASR)- Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
 <var name="s12_K03VASR" description ="(12_K03VASR)-" format="3"></var>
 <var name="s12_K04VASR" description ="(12_K04VASR)-" format="3"></var>
 <var name="s12_K05VASR" description ="(12_K05VASR)-" format="3"></var>
 <var name="s12_K06VASR" description ="(12_K06VASR)-" format="3"></var>
 <var name="s12_K07VASR" description ="(12_K07VASR)-" format="3"></var>
 <var name="s12_K08VASR" description ="(12_K08VASR)-" format="3"></var>
-<var name="s13_K01VDSR" description ="(13_K01VDSR)-" format="1"></var>
-<var name="s13_K02VDSR" description ="(13_K02VDSR)-" format="1"></var>
-<var name="s13_K03VDSR" description ="(13_K03VDSR)-" format="1"></var>
-<var name="s13_K04VDSR" description ="(13_K04VDSR)-" format="1"></var>
-<var name="s13_K05VDSR" description ="(13_K05VDSR)-" format="1"></var>
-<var name="s13_K06VDSR" description ="(13_K06VDSR)-" format="1"></var>
-<var name="s13_K07VDSR" description ="(13_K07VDSR)-" format="1"></var>
-<var name="s13_K08VDSR" description ="(13_K08VDSR)-" format="1"></var>
-<var name="s13_K09VDSR" description ="(13_K09VDSR)-" format="1"></var>
-<var name="s13_K10VDSR" description ="(13_K10VDSR)-" format="1"></var>
-<var name="s13_K11VDSR" description ="(13_K11VDSR)-" format="1"></var>
-<var name="s13_K12VDSR" description ="(13_K12VDSR)-" format="1"></var>
-<var name="s13_K13VDSR" description ="(13_K13VDSR)-" format="1"></var>
-<var name="s13_K14VDSR" description ="(13_K14VDSR)-" format="1"></var>
-<var name="s13_K15VDSR" description ="(13_K15VDSR)-" format="1"></var>
-<var name="s13_K16VDSR" description ="(13_K16VDSR)-" format="1"></var>
-<var name="s13_K17VDSR" description ="(13_K17VDSR)-" format="1"></var>
-<var name="s13_K18VDSR" description ="(13_K18VDSR)-" format="1"></var>
-<var name="s13_K19VDSR" description ="(13_K19VDSR)-" format="1"></var>
-<var name="s13_K20VDSR" description ="(13_K20VDSR)-" format="1"></var>
-<var name="s13_K21VDSR" description ="(13_K21VDSR)-" format="1"></var>
-<var name="s13_K22VDSR" description ="(13_K22VDSR)-" format="1"></var>
-<var name="s13_K23VDSR" description ="(13_K23VDSR)-" format="1"></var>
-<var name="s13_K24VDSR" description ="(13_K24VDSR)-" format="1"></var>
-<var name="s13_K25VDSR" description ="(13_K25VDSR)-" format="1"></var>
-<var name="s13_K26VDSR" description ="(13_K26VDSR)-" format="1"></var>
-<var name="s13_K27VDSR" description ="(13_K27VDSR)-" format="1"></var>
-<var name="s13_K28VDSR" description ="(13_K28VDSR)-" format="1"></var>
+
+<var name="R6IS61LDU" description ="(13_K01VDSR)- Исправность 3-х  фазной сети" format="1"></var>
+<var name="R4VS12LDU" description ="(13_K02VDSR)- Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
+<var name="R4VS22LDU" description ="(13_K03VDSR)- Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
+<var name="A8IE01LDU" description ="(13_K04VDSR)- Исправность ИП ДС2" format="1"></var>
+<var name="R1VS12LDU" description ="(13_K05VDSR)- Движение МДЗ1 в сторону ВУ" format="1"></var>
+<var name="R1VS22LDU" description ="(13_K06VDSR)- Движение МДЗ1 в сторону НУ" format="1"></var>
+<var name="R1IE01LDU" description ="(13_K07VDSR)- Исправность ИП МДЗ1" format="1"></var>
+<var name="R2VS12LDU" description ="(13_K08VDSR)- Движение МДЗ2 в сторону ВУ" format="1"></var>
+<var name="R2VS22LDU" description ="(13_K09VDSR)- Движение МДЗ2 в сторону НУ" format="1"></var>
+<var name="R2IE01LDU" description ="(13_K10VDSR)- Исправность ИП МДЗ2" format="1"></var>
+<var name="A5VS12LDU" description ="(13_K11VDSR)- Движение НЛ1 в сторону ВУ" format="1"></var>
+<var name="A5VS22LDU" description ="(13_K12VDSR)- Движение НЛ1 в сторону НУ" format="1"></var>
+<var name="A5IE02LDU" description ="(13_K13VDSR)- Исправность ИП НЛ1" format="1"></var>
+<var name="B5VS12LDU" description ="(13_K14VDSR)- Движение НЛ2 в сторону ВУ" format="1"></var>
+<var name="B5VS22LDU" description ="(13_K15VDSR)- Движение НЛ2 в сторону НУ" format="1"></var>
+<var name="B5IE01LDU" description ="(13_K16VDSR)- Исправность ИП НЛ2" format="1"></var>
+<var name="A6VS12LDU" description ="(13_K17VDSR)- Движение створок БЗ1  к  «ОТКРЫТА»" format="1"></var>
+<var name="A6VS22LDU" description ="(13_K18VDSR)- Движение створок БЗ1  к «ЗАКРЫТА»" format="1"></var>
+<var name="A6IE01LDU" description ="(13_K19VDSR)- Исправность ИП БЗ1" format="1"></var>
+<var name="B6VS12LDU" description ="(13_K20VDSR)- Движение створок БЗ2  к  «ОТКРЫТА»" format="1"></var>
+<var name="B6VS22LDU" description ="(13_K21VDSR)- Движение створок БЗ2  к «ЗАКРЫТА»" format="1"></var>
+<var name="B6IE01LDU" description ="(13_K22VDSR)- Исправность ИП БЗ2" format="1"></var>
+<var name="R0IE02LDU" description ="(13_K23VDSR)- Исправность ИП 24 В-1" format="1"></var>
+<var name="R0IE01LDU" description ="(13_K24VDSR)- Исправность ИП 24 В-2" format="1"></var>
+<var name="R6IS62LDU" description ="(13_K25VDSR)- Исправность ВИП ССДИ-39 1канал" format="1"></var>
+<var name="R6IS63LDU" description ="(13_K26VDSR)- Исправность ВИП ССДИ-39 2канал" format="1"></var>
+<var name="R6IS64LDU" description ="(13_K27VDSR)- Исправность ВИП ССДИ-35 1канал" format="1"></var>
+<var name="R6IS65LDU" description ="(13_K28VDSR)- Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var name="s13_K29VDSR" description ="(13_K29VDSR)-" format="1"></var>
 <var name="s13_K30VDSR" description ="(13_K30VDSR)-" format="1"></var>
 <var name="s13_K31VDSR" description ="(13_K31VDSR)-" format="1"></var>
 <var name="s13_K32VDSR" description ="(13_K32VDSR)-" format="1"></var>
-<var name="s15_K01FDSR" description ="(15_K01FDSR)-" format="1"></var>
-<var name="s15_K02FDSR" description ="(15_K02FDSR)-" format="1"></var>
-<var name="s15_K03FDSR" description ="(15_K03FDSR)-" format="1"></var>
-<var name="s15_K04FDSR" description ="(15_K04FDSR)-" format="1"></var>
-<var name="s15_K05FDSR" description ="(15_K05FDSR)-" format="1"></var>
-<var name="s15_K06FDSR" description ="(15_K06FDSR)-" format="1"></var>
-<var name="s15_K07FDSR" description ="(15_K07FDSR)-" format="1"></var>
-<var name="s15_K08FDSR" description ="(15_K08FDSR)-" format="1"></var>
-<var name="s15_K09FDSR" description ="(15_K09FDSR)-" format="1"></var>
-<var name="s15_K10FDSR" description ="(15_K10FDSR)-" format="1"></var>
-<var name="s15_K11FDSR" description ="(15_K11FDSR)-" format="1"></var>
-<var name="s15_K12FDSR" description ="(15_K12FDSR)-" format="1"></var>
-<var name="s15_K13FDSR" description ="(15_K13FDSR)-" format="1"></var>
-<var name="s15_K14FDSR" description ="(15_K14FDSR)-" format="1"></var>
-<var name="s15_K15FDSR" description ="(15_K15FDSR)-" format="1"></var>
-<var name="s15_K16FDSR" description ="(15_K16FDSR)-" format="1"></var>
+
+<var name="A1AD32LDU" description ="(15_K01FDSR)- Обесточить ЭМ ББ1" format="1"></var>
+<var name="A1AD31LDU" description ="(15_K02FDSR)- Клапан «Сброс ББ1» открыть (обесточить)" format="1"></var>
+<var name="A2AD32LDU" description ="(15_K03FDSR)- Обесточить ЭМ РБ1" format="1"></var>
+<var name="A2AD31LDU" description ="(15_K04FDSR)- Клапан «Сброс РБ1» открыть (обесточить)" format="1"></var>
+<var name="B1AD32LDU" description ="(15_K05FDSR)- Обесточить ЭМ ББ2" format="1"></var>
+<var name="B1AD31LDU" description ="(15_K06FDSR)- Клапан «Сброс ББ2» открыть (обесточить)" format="1"></var>
+<var name="B2AD32LDU" description ="(15_K07FDSR)- Обесточить ЭМ РБ2" format="1"></var>
+<var name="B2AD31LDU" description ="(15_K08FDSR)- Клапан «Сброс РБ2» открыть (обесточить)" format="1"></var>
+<var name="R0AD03LZ1" description ="(15_K09FDSR)- (сигнал не подтвержден) Имитация прихода на ВУ ИС (БАЗ1)" format="1"></var>
+<var name="R0AD04LZ1" description ="(15_K10FDSR)- (сигнал не подтвержден) Имитация срабатывания АС II УР. РАД (БАЗ1)" format="1"></var>
+<var name="R0AD05LZ1" description ="(15_K11FDSR)- (сигнал не подтвержден) Имитация ухода с НУП ИС  (БАЗ1)" format="1"></var>
+<var name="R8AD21LDU" description ="(15_K12FDSR)- Запуск системы инициирования" format="1"></var>
+<var name="R0AD16LDU" description ="(15_K13FDSR)- Контроль  I-II УР. РАД" format="1"></var>
+<var name="R0AD03LZ2" description ="(15_K14FDSR)- (сигнал не подтвержден) Имитация прихода на ВУ ИС (БАЗ2)" format="1"></var>
+<var name="R0AD04LZ2" description ="(15_K15FDSR)- (сигнал не подтвержден) Имитация срабатывания АС II УР. РАД (БАЗ2)" format="1"></var>
+<var name="R0AD05LZ2" description ="(15_K16FDSR)- (сигнал не подтвержден) Имитация ухода с НУП ИС  (БАЗ2)" format="1"></var>
 
 </vars>
