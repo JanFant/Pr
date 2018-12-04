@@ -1,0 +1,57 @@
+<vars>
+    <var name="R0IN01RRP" description="(R0IN01RRP) Частота СНМ-11 Гц (канал 5)" format ="8"></var>
+    <var name="R0IN02RRP" description="(R0IN02RRP) Частота КНК15-1 Гц (канал 5)" format ="8"></var>
+
+    <var name="R0IN03RRP" description="(R0IN03RRP) Частота КНК53М Гц (канал 5)" format ="8"></var>
+    <var name="RPUsign_VCHSK4" description="(VCHSK4)" format ="8"></var>
+
+    <var name="R0IN06RRP" description="(R0IN06RRP) Частота СНМ-11 Гц (канал 6)" format ="8"></var>
+    <var name="R0IN07RRP" description="(R0IN07RRP) Частота СНМ-11 Гц (канал 7)" format ="8"></var>
+
+    <var name="R0IE14LRP" description="(R0IE14LRP) Исправность ВИП 1,6 БЗ-1 - 6к(№23)" format="1"></var>
+    <var name="R0IE15LRP" description="(R0IE15LRP) Исправность ВИП 1,6 БЗ-2 - 7к(№24)" format="1"></var>
+    <var name="R0IE11LRP" description="(R0IE11LRP) Исправность ВИП 1,6 (№20) СНМ11 5 канала" format="1"></var>
+    <var name="R0IE12LRP" description="(R0IE12LRP) Исправность ВИП 0,5 -5к (№21)" format="1"></var>
+    <var name="R0IE13LRP" description="(R0IE13LRP) Исправность ВИП 0,5 -5к (№22)" format="1"></var>
+    <var name="C1MD31LRP" description="(C1MD31LRP) Кнопка ОБЩИЙ СБРОС  на РПУ" format="1"></var>
+    <var name="C1MZ31LRP" description="(C1MZ31LRP) Кнопка ОБДУВ  на РПУ" format="1"></var>
+    <var name="A3IS21LRP" description="(A3IS21LRP) Приход на НУ ИС1" format="1"></var>
+    <var name="B3IS21LRP" description="(B3IS21LRP) Приход на НУ ИС2" format="1"></var>
+    <var name="A1IS21LRP" description="(A1IS21LRP) Приход на НУ ББ1" format="1"></var>
+    <var name="B1IS21LRP" description="(B1IS21LRP) Приход на НУ ББ2" format="1"></var>
+    <var name="A2IS21LRP" description="(A2IS21LRP) Приход на НУ РБ1-CC" format="1"></var>
+    <var name="B2IS21LRP" description="(B2IS21LRP) Приход на НУ РБ2-CC" format="1"></var>
+    <var name="A6IS11LRP" description="(A6IS11LRP) Приход на ВУ БЗ1" format="1"></var>
+    <var name="B6IS11LRP" description="(B6IS11LRP) Приход на ВУ БЗ2" format="1"></var>
+    
+    <var name="A0IT03IRP" description="(A0IT03IRP) Температура АЗ1-3" format="3"></var>
+    <var name="B0IT03IRP" description="(B0IT03IRP) Температура АЗ2-3" format="3"></var>
+
+    <var name="A1VS21LRP" description="(A1VS21LRP) Индикация НУ ББ1" format="1"></var>
+    <var name="B1VS21LRP" description="(B1VS21LRP) Индикация НУ ББ2" format="1"></var>
+    <var name="A2VS21LRP" description="(A2VS21LRP) Индикация НУ РБ1-СС" format="1"></var>
+    <var name="B2VS21LRP" description="(B2VS21LRP) Индикация НУ РБ2-СС" format="1"></var>
+    <var name="A3VS21LRP" description="(A3VS21LRP) Индикация НУ ИС1" format="1"></var>
+    <var name="B3VS21LRP" description="(B3VS21LRP) Индикация НУ ИС2" format="1"></var>
+    <var name="R0IE02LRP" description="(R0IE02LRP) Отключить питание ПУ, ПР 5К" format="1"></var>
+    <var name="R0IE01LRP" description="(R0IE01LRP) Отключить питание детекторов 5К" format="1"></var>
+    <var name="R0IE03LRP" description="(R0IE03LRP) Отключить питание детекторов 6К (БЗ-1), 7 К (БЗ-2)" format="1"></var>
+    <var name="R0IE04LRP" description="(R0IE04LRP) Отключить питание ПУ, ПР 6К (БЗ-1), 7 К (БЗ-2)" format="1"></var>
+    <var name="A1VT71LRP" description="(A1VT71LRP) Подсветка кнопки «СБРОС» (Светодиод) " format="1"></var>
+    <var name="R0VN71LRP" description="(R0VN71LRP) Подсветка кнопки «ОБДУВ» (Светодиод)" format="1"></var>
+    <var name="A1VN71LRP" description="(A1VN71LRP) Сигнал тревоги на диспетчера" format="1"></var>
+
+    <var name="POWER1"   description="(POWER1 )" format="1"></var>
+    <var name="POWER2"   description="(POWER2 )" format="1"></var>
+    <var name="DOOR"     description="(DOOR   )" format="1"></var>
+    <var name="T43"      description="(T43    )" format="1"></var>
+    <var name="T53"      description="(T53    )" format="1"></var>
+    <var name="BP124"    description="(BP124  )" format="1"></var>
+    <var name="BP15"     description="(BP15   )" format="1"></var>
+    <var name="BP224"    description="(BP224  )" format="1"></var>
+    <var name="BP25"     description="(BP25   )" format="1"></var>
+    <var name="MPBP124"  description="(MPBP124)" format="1"></var>
+    <var name="MPBP15"   description="(MPBP15 )" format="1"></var>
+    <var name="MPBP224"  description="(MPBP224)" format="1"></var>
+    <var name="MPBP25"   description="(MPBP25 )" format="1"></var>
+</vars>

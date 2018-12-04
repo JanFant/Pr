@@ -1,0 +1,77 @@
+<assign>
+    <VCHS01>
+        <def name="AKNP2sign_VCHSK1">K01VCHS</def>
+        <def name="AKNP2sign_VCHSK2">K02VCHS</def>
+    </VCHS01>
+    <VCHS02>
+        <def name="AKNP2sign_VCHSK3">K01VCHS</def>
+        <def name="AKNP2sign_VCHSK4">K02VCHS</def>
+    </VCHS02>
+    <SBKFP>
+        <def name="POWER1" >S01SBK</def>
+        <def name="POWER2" >S02SBK</def>
+        <def name="DOOR"   >S03SBK</def>
+        <def name="T43"    >S04SBK</def>
+        <def name="T53"    >S05SBK</def>
+        <def name="BP124"  >S06SBK</def>
+        <def name="BP15"   >S07SBK</def>
+        <def name="BP224"  >S08SBK</def>
+        <def name="BP25"   >S09SBK</def>
+        <def name="MPBP124">S10SBK</def>
+        <def name="MPBP15" >S11SBK</def>
+        <def name="MPBP224">S12SBK</def>
+        <def name="MPBP25" >S13SBK</def>
+    </SBKFP>
+    <VDS32>
+        <def name="VDS32R01">K01VDSR</def>
+        <def name="VDS32R02">K02VDSR</def>
+        <def name="VDS32R03">K03VDSR</def>
+        <def name="VDS32R04">K04VDSR</def>
+        <def name="VDS32R05">K05VDSR</def>
+        <def name="VDS32R06">K06VDSR</def>
+        <def name="VDS32R07">K07VDSR</def>
+        <def name="VDS32R08">K08VDSR</def>
+        <def name="VDS32R09">K09VDSR</def>
+        <def name="VDS32R10">K10VDSR</def>
+        <def name="VDS32R11">K11VDSR</def>
+        <def name="VDS32R12">K12VDSR</def>
+        <def name="VDS32R13">K13VDSR</def>
+        <def name="VDS32R14">K14VDSR</def>
+        <def name="VDS32R15">K15VDSR</def>
+        <def name="VDS32R16">K16VDSR</def>
+        <def name="VDS32R17">K17VDSR</def>
+        <def name="VDS32R18">K18VDSR</def>
+        <def name="VDS32R19">K19VDSR</def>
+        <def name="VDS32R20">K20VDSR</def>
+        <def name="VDS32R21">K21VDSR</def>
+        <def name="VDS32R22">K22VDSR</def>
+        <def name="VDS32R23">K23VDSR</def>
+        <def name="VDS32R24">K24VDSR</def>
+        <def name="VDS32R25">K25VDSR</def>
+        <def name="VDS32R26">K26VDSR</def>
+        <def name="VDS32R27">K27VDSR</def>
+        <def name="VDS32R28">K28VDSR</def>
+        <def name="VDS32R29">K29VDSR</def>
+        <def name="VDS32R30">K30VDSR</def>
+        <def name="VDS32R31">K31VDSR</def>
+        <def name="VDS32R32">K32VDSR</def>
+    </VDS32>    
+    <FDS16>
+        <def name="FDS16R01">K01FDSR</def>
+        <def name="FDS16R02">K02FDSR</def>
+        <def name="FDS16R03">K03FDSR</def>
+        <def name="FDS16R04">K04FDSR</def>
+        <def name="FDS16R05">K05FDSR</def>
+        <def name="FDS16R06">K06FDSR</def>
+        <def name="FDS16R07">K07FDSR</def>
+        <def name="FDS16R08">K08FDSR</def>
+        <def name="FDS16R09">K09FDSR</def>
+        <def name="FDS16R10">K10FDSR</def>
+        <def name="FDS16R11">K11FDSR</def>
+        <def name="FDS16R12">K12FDSR</def>
+        <def name="FDS16R13">K13FDSR</def>
+        <def name="FDS16R14">K14FDSR</def>
+        <def name="FDS16R15">K15FDSR</def>
+        <def name="FDS16R16">K16FDSR</def>
+    </FDS16>
+</assign>

@@ -1,89 +1,69 @@
 <vars>
+<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
+<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
+<var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2" format="1"></var>
+<var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП на БАЗ2" format="1"></var>
+<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
+<var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности на БАЗ2" format="1"></var>
+<var  name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПР, ПУ" format="1"></var>
+<var  name="R0IE01LS1" description="(R0IE01LS1) Отключение питание детекторов" format="1"></var>
+<var  name="A0EE03LS1" description="(A0EE03LS1) Подключена сеть питания АКНП" format="1"></var>
+<var  name="R0VN15RS1" description="(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей" format="3"></var>
+<var  name="R0VN33RS1" description="(R0VN33RS1) Нейтронный поток по камере КНК53М" format="8"></var>
+<var  name="R0VN23RS1" description="(R0VN23RS1) Нейтронный поток по камере КНК15-1" format="8"></var>
+<var  name="R0VN13RS1" description="(R0VN13RS1) Нейтронный поток по камере СНМ11" format="8"></var>
+<var  name="R0IE13LS1" description="(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала" format="1"></var>
+<var  name="R0IE12LS1" description="(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала" format="1"></var>
+<var  name="R0IE11LS1" description="(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала" format="1"></var>
+<var  name="A0EE02LS1" description="(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1" format="1"></var>
+<var  name="R0IN03FS1" description="(R0IN03FS1) Выход КНК53М  Гц" format="8"></var>
+<var  name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1" format="1"></var>
+<var  name="R0VN04RS1" description="(R0VN04RS1) Реактивность канал1" format="8"></var>
+<var  name="R0VN03RS1" description="(R0VN03RS1) Измеренный нейтронный поток" format="8"></var>
+<var  name="R0IN02FS1" description="(R0IN02FS1) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN01FS1" description="(R0IN01FS1) Выход СНМ-11 Гц" format="8"></var>
+<var  name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП на БАЗ1" format="1"></var>
+<var  name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгонана БАЗ1" format="1"></var>
+<var  name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал1" format="1"></var>
+<var  name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности на БАЗ1" format="1"></var>
+<var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
+<var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
+<var  name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности" format="8"></var>
 
-    <var name="aknp1_VCHSK1" description="(VCHSK1)" format ="8"></var>
-    <var name="aknp1_VCHSK2" description="(VCHSK2)" format ="8"></var>
-    <var name="aknp1_VCHSK3" description="(VCHSK3)" format ="8"></var>
-    <var name="aknp1_VCHSK4" description="(VCHSK4)" format ="8"></var>
-    
-    <var name="POWER1"   description="(POWER1 )" format="1"></var>
-    <var name="POWER2"   description="(POWER2 )" format="1"></var>
-    <var name="DOOR"     description="(DOOR   )" format="1"></var>
-    <var name="T43"      description="(T43    )" format="1"></var>
-    <var name="T53"      description="(T53    )" format="1"></var>
-    <var name="BP124"    description="(BP124  )" format="1"></var>
-    <var name="BP15"     description="(BP15   )" format="1"></var>
-    <var name="BP224"    description="(BP224  )" format="1"></var>
-    <var name="BP25"     description="(BP25   )" format="1"></var>
-    <var name="MPBP124"  description="(MPBP124)" format="1"></var>
-    <var name="MPBP15"   description="(MPBP15 )" format="1"></var>
-    <var name="MPBP224"  description="(MPBP224)" format="1"></var>
-    <var name="MPBP25"   description="(MPBP25 )" format="1"></var>
-    
-    <var name="VDS32R01" description="(VDS32R01)" format="1"></var>
-    <var name="VDS32R02" description="(VDS32R02)" format="1"></var>
-    <var name="VDS32R03" description="(VDS32R03)" format="1"></var>
-    <var name="VDS32R04" description="(VDS32R04)" format="1"></var>
-    <var name="VDS32R05" description="(VDS32R05)" format="1"></var>
-    <var name="VDS32R06" description="(VDS32R06)" format="1"></var>
-    <var name="VDS32R07" description="(VDS32R07)" format="1"></var>
-    <var name="VDS32R08" description="(VDS32R08)" format="1"></var>
-    <var name="VDS32R09" description="(VDS32R09)" format="1"></var>
-    <var name="VDS32R10" description="(VDS32R10)" format="1"></var>
-    <var name="VDS32R11" description="(VDS32R11)" format="1"></var>
-    <var name="VDS32R12" description="(VDS32R12)" format="1"></var>
-    <var name="VDS32R13" description="(VDS32R13)" format="1"></var>
-    <var name="VDS32R14" description="(VDS32R14)" format="1"></var>
-    <var name="VDS32R15" description="(VDS32R15)" format="1"></var>
-    <var name="VDS32R16" description="(VDS32R16)" format="1"></var>
-    <var name="VDS32R17" description="(VDS32R17)" format="1"></var>
-    <var name="VDS32R18" description="(VDS32R18)" format="1"></var>
-    <var name="VDS32R19" description="(VDS32R19)" format="1"></var>
-    <var name="VDS32R20" description="(VDS32R20)" format="1"></var>
-    <var name="VDS32R21" description="(VDS32R21)" format="1"></var>
-    <var name="VDS32R22" description="(VDS32R22)" format="1"></var>
-    <var name="VDS32R23" description="(VDS32R23)" format="1"></var>
-    <var name="VDS32R24" description="(VDS32R24)" format="1"></var>
-    <var name="VDS32R25" description="(VDS32R25)" format="1"></var>
-    <var name="VDS32R26" description="(VDS32R26)" format="1"></var>
-    <var name="VDS32R27" description="(VDS32R27)" format="1"></var>
-    <var name="VDS32R28" description="(VDS32R28)" format="1"></var>
-    <var name="VDS32R29" description="(VDS32R29)" format="1"></var>
-    <var name="VDS32R30" description="(VDS32R30)" format="1"></var>
-    <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
-    <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
+<var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
+<var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
+<var  name="fEM_R0UL41RSS" description="(R0UL41RSS) Уровень ПС по периоду разгона" format="8"></var>
+<var  name="fEM_R0UL51RSS" description="(R0UL51RSS) Уровень АС по периоду разгона" format="8"></var>
+<var  name="fEM_R0UH02RSS" description="(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1" format="8"></var>
+<var  name="fEM_R0UH03RSS" description="(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М" format="8"></var>
+<var  name="fEM_R0UL42RSS" description="(R0UL42RSS) Уровень ПС по мощности" format="8"></var>
+<var  name="fEM_R7UX00RSS" description="(R7UX00RSS) X-координата АЗ1 (см)" format="8"></var>
+<var  name="fEM_R7UX01RSS" description="(R7UX01RSS) X-координата камеры R7IN11" format="8"></var>
+<var  name="fEM_R7UX02RSS" description="(R7UX02RSS) X-координата камеры R7IN12 (см)" format="8"></var>
+<var  name="fEM_R7UX03RSS" description="(R7UX03RSS) X-координата камеры R7IN13 (см)" format="8"></var>
+<var  name="fEM_R7UY00RSS" description="(R7UY00RSS) Y-координата АЗ1 (см)" format="8"></var>
+<var  name="fEM_R7UY01RSS" description="(R7UY01RSS) Y-координата камеры R7IN11" format="8"></var>
+<var  name="fEM_R7UY02RSS" description="(R7UY02RSS) Y-координата камеры R7IN12 (см)" format="8"></var>
+<var  name="fEM_R7UY03RSS" description="(R7UY03RSS) Y-координата камеры R7IN13 (см)" format="8"></var>
+<var  name="fEM_A0UX00RSS" description="(A0UX00RSS) Эффективный радиус АЗ" format="8"></var>
+<var  name="fEM_A0UX01RSS" description="(A0UX01RSS) Первый коэффициент калибровки камеры 1" format="8"></var>
+<var  name="fEM_A0UX02RSS" description="(A0UX02RSS) Первый коэффициент калибровки камеры 2" format="8"></var>
+<var  name="fEM_A0UX03RSS" description="(A0UX03RSS) Первый коэффициент калибровки камеры 3" format="8"></var>
+<var  name="fEM_B0UX01RSS" description="(B0UX01RSS) Второй коэффициент калибровки камеры 1" format="8"></var>
+<var  name="fEM_B0UX02RSS" description="(B0UX02RSS) Второй коэффициент калибровки камеры 2" format="8"></var>
+<var  name="fEM_B0UX03RSS" description="(B0UX03RSS) Второй коэффициент калибровки камеры 3" format="8"></var>
+<var  name="fEM_R0UH05RSS" description="(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6" format="8"></var>
+<var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
+<var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
+<var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Предельное время ожидания роста потока (мс)" format="8"></var>
 
-    <var name="FDS16R01" description="(FDS16R01)" format="1"></var>
-    <var name="FDS16R02" description="(FDS16R02)" format="1"></var>
-    <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
-    <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
-    <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
-    <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
-    <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
-    <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var name="FDS16R09" description="(FDS16R09)" format="1"></var>
-    <var name="FDS16R10" description="(FDS16R10)" format="1"></var>
-    <var name="FDS16R11" description="(FDS16R11)" format="1"></var>
-    <var name="FDS16R12" description="(FDS16R12)" format="1"></var>
-    <var name="FDS16R13" description="(FDS16R13)" format="1"></var>
-    <var name="FDS16R14" description="(FDS16R14)" format="1"></var>
-    <var name="FDS16R15" description="(FDS16R15)" format="1"></var>
-    <var name="FDS16R16" description="(FDS16R16)" format="1"></var>
-    
-    <!-- <var name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПУ, ПР 1 канала " format="1"></var>
-    <var name="R0IE01LS1" description="(R0IE01LS1) Отключить питание детекторов 1 канала" format="1"></var>
-    <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
-    <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
-    <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
-    <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
-    <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
-    <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности канал 1 на БАЗ1 " format="1"></var>
-    <var name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгона канал 1  на БАЗ1" format="1"></var>
-    <var name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП1 канал 1 на БАЗ1" format="1"></var>
-    <var name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического подъёма ББ от АКНП1 на БАЗ1" format="1"></var>
-    <var name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности канал 1 на БАЗ2" format="1"></var>
-    <var name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгона канал 1 на БАЗ2 " format="1"></var>
-    <var name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП1 на БАЗ2 " format="1"></var>
-    <var name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического подъёма ББ от АКНП1 на БАЗ2" format="1"></var> -->
-
+<var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
+<var  name="internal1_m13_Nk" description="(internal1_m13_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m45_tst" description="(internal1_m45_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
+<var  name="internal1_m45_trz" description="(internal1_m45_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
+<var  name="internal1_m45_N1" description="(internal1_m45_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
+<var  name="internal1_m45_N2" description="(internal1_m45_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
+<var  name="internal1_m45_Period0" description="(internal1_m45_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m45_MyFirstEnterFlag" description="(internal1_m45_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>
