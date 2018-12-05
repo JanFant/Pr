@@ -4,5 +4,5 @@
         <variable xml="varAKNP4"/>
         <saves xml="saveAKNP4"/>
         <devices xml="devAKNP4"/>
-        <modbus name="AKNP4" description="Пустые сигналы AKNP4" type="slave" port="502" xml="AKNP4"/>
+        <modbus name="AKNP4" description="общий slave AKNP4" type="slave" port="502" xml="AKNP4"/>
 </subsystem>

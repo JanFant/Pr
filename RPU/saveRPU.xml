@@ -1,3 +1,29 @@
-<saves name="RPU.bin">
-
+<saves name="rpu.bin">
+  <save value ="3703.704 ">fEM_R0UH02RSS</save>
+  <save value ="62500.0">fEM_R0UH03RSS</save>
+  <save value ="1567.36">fEM_R7UX00RSS</save>
+  <save value ="506.5">fEM_R7UY00RSS</save>
+  <save value ="1570.0">fEM_R7UX13RSS</save>
+  <save value ="1269">fEM_R7UX14RSS</save>
+  <save value ="1281.2">fEM_R7UX15RSS</save>
+  <save value ="248.0">fEM_R7UY13RSS</save>
+  <save value ="572.4">fEM_R7UY14RSS</save>
+  <save value ="246.8">fEM_R7UY15RSS</save>
+  <save value ="11.0">fEM_A0UX00RSS</save>
+  <save value ="1.0">fEM_A0UX13RSS</save>
+  <save value ="1.0">fEM_A0UX14RSS</save>
+  <save value ="1.0">fEM_A0UX15RSS</save>
+  <save value ="0">fEM_B0UX03RSS</save>
+  <save value ="0">fEM_B0UX04RSS</save>
+  <save value ="0.0">fEM_B0UX05RSS</save>
+  <save value ="32000.0">fEM_R0UH05RSS</save>
+  <save value ="1000">fEM_R0UR01RRP</save>
+  <save value ="600">fEM_R0UT02RZZ</save>
+  <save value ="0">fEM_R0UT01RZZ</save>
+  <save value ="150">fEM_R0UT72RZZ</save>
+  <save value ="200">fEM_R0UT71RZZ</save>
+  <save value ="90">fEM_R0UT62RZZ</save>
+  <save value ="100">fEM_R0UT61RZZ</save>
+  <save value ="5100">fEM_R0UL52RSS</save>
+  <save value ="210">fEM_Z7UE20RRP</save>
 </saves>
