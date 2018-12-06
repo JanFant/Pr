@@ -13,12 +13,12 @@ static char BUFFER[142];
 SetupUDP setUDP = {"192.168.10.53\0", 5432, "192.168.10.153\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define AKNP3sign_VCHSK1	 BUFFER[0]	//(VCHSK1)
-#define idAKNP3sign_VCHSK1	 1	//(VCHSK1)
-#define AKNP3sign_VCHSK2	 BUFFER[5]	//(VCHSK2)
-#define idAKNP3sign_VCHSK2	 2	//(VCHSK2)
-#define AKNP3sign_VCHSK3	 BUFFER[10]	//(VCHSK3)
-#define idAKNP3sign_VCHSK3	 3	//(VCHSK3)
+#define R0IN01FS3	 BUFFER[0]	//(VCHSK1) Выход СНМ-11 Гц
+#define idR0IN01FS3	 1	//(VCHSK1) Выход СНМ-11 Гц
+#define R0IN02FS3	 BUFFER[5]	//(VCHSK2) Выход КНК15-1 Гц
+#define idR0IN02FS3	 2	//(VCHSK2) Выход КНК15-1 Гц
+#define R0IN03FS3	 BUFFER[10]	//(VCHSK3) Выход КНК53М Гц
+#define idR0IN03FS3	 3	//(VCHSK3) Выход КНК53М Гц
 #define AKNP3sign_VCHSK4	 BUFFER[15]	//(VCHSK4)
 #define idAKNP3sign_VCHSK4	 4	//(VCHSK4)
 #define POWER1	 BUFFER[20]	//(POWER1 )
@@ -47,12 +47,12 @@ int nomer = 1;
 #define idMPBP224	 16	//(MPBP224)
 #define MPBP25	 BUFFER[44]	//(MPBP25 )
 #define idMPBP25	 17	//(MPBP25 )
-#define VDS32R01	 BUFFER[46]	//(VDS32R01)
-#define idVDS32R01	 18	//(VDS32R01)
-#define VDS32R02	 BUFFER[48]	//(VDS32R02)
-#define idVDS32R02	 19	//(VDS32R02)
-#define VDS32R03	 BUFFER[50]	//(VDS32R03)
-#define idVDS32R03	 20	//(VDS32R03)
+#define R0IE11LS3	 BUFFER[46]	//(VDS32R01) Исправность ВИП 1,6 (№14) СНМ11 3 канала 
+#define idR0IE11LS3	 18	//(VDS32R01) Исправность ВИП 1,6 (№14) СНМ11 3 канала 
+#define R0IE12LS3	 BUFFER[48]	//(VDS32R02) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define idR0IE12LS3	 19	//(VDS32R02) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define R0IE13LS3	 BUFFER[50]	//(VDS32R03) Исправность ВИП 0,5 (№16) КНК53М 3 канала 
+#define idR0IE13LS3	 20	//(VDS32R03) Исправность ВИП 0,5 (№16) КНК53М 3 канала 
 #define VDS32R04	 BUFFER[52]	//(VDS32R04)
 #define idVDS32R04	 21	//(VDS32R04)
 #define VDS32R05	 BUFFER[54]	//(VDS32R05)
@@ -145,9 +145,9 @@ int nomer = 1;
 #define idA1VN71LS3	 65	//(A1VN71LS3) Блокировка автоматического подъёма ББ от АКНП3 на БАЗ2
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,8	,1	, &AKNP3sign_VCHSK1},	//(VCHSK1)
-	{ 2	,8	,1	, &AKNP3sign_VCHSK2},	//(VCHSK2)
-	{ 3	,8	,1	, &AKNP3sign_VCHSK3},	//(VCHSK3)
+	{ 1	,8	,1	, &R0IN01FS3},	//(VCHSK1) Выход СНМ-11 Гц
+	{ 2	,8	,1	, &R0IN02FS3},	//(VCHSK2) Выход КНК15-1 Гц
+	{ 3	,8	,1	, &R0IN03FS3},	//(VCHSK3) Выход КНК53М Гц
 	{ 4	,8	,1	, &AKNP3sign_VCHSK4},	//(VCHSK4)
 	{ 5	,1	,1	, &POWER1},	//(POWER1 )
 	{ 6	,1	,1	, &POWER2},	//(POWER2 )
@@ -162,9 +162,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 15	,1	,1	, &MPBP15},	//(MPBP15 )
 	{ 16	,1	,1	, &MPBP224},	//(MPBP224)
 	{ 17	,1	,1	, &MPBP25},	//(MPBP25 )
-	{ 18	,1	,1	, &VDS32R01},	//(VDS32R01)
-	{ 19	,1	,1	, &VDS32R02},	//(VDS32R02)
-	{ 20	,1	,1	, &VDS32R03},	//(VDS32R03)
+	{ 18	,1	,1	, &R0IE11LS3},	//(VDS32R01) Исправность ВИП 1,6 (№14) СНМ11 3 канала 
+	{ 19	,1	,1	, &R0IE12LS3},	//(VDS32R02) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+	{ 20	,1	,1	, &R0IE13LS3},	//(VDS32R03) Исправность ВИП 0,5 (№16) КНК53М 3 канала 
 	{ 21	,1	,1	, &VDS32R04},	//(VDS32R04)
 	{ 22	,1	,1	, &VDS32R05},	//(VDS32R05)
 	{ 23	,1	,1	, &VDS32R06},	//(VDS32R06)
@@ -229,9 +229,9 @@ static ModbusRegister di_AKNP3sign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP3sign[]={  // 
-	{&AKNP3sign_VCHSK1,8,0},	//(AKNP3sign_VCHSK1) AKNP3sign_VCHSK1
-	{&AKNP3sign_VCHSK2,8,2},	//(AKNP3sign_VCHSK2) AKNP3sign_VCHSK2
-	{&AKNP3sign_VCHSK3,8,4},	//(AKNP3sign_VCHSK3) AKNP3sign_VCHSK3
+	{&R0IN01FS3,8,0},	//(R0IN01FS3) R0IN01FS3
+	{&R0IN02FS3,8,2},	//(R0IN02FS3) R0IN02FS3
+	{&R0IN03FS3,8,4},	//(R0IN03FS3) R0IN03FS3
 	{&AKNP3sign_VCHSK4,8,6},	//(AKNP3sign_VCHSK4) AKNP3sign_VCHSK4
 	{NULL,0,0},
 };
@@ -255,8 +255,8 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
-	{&AKNP3sign_VCHSK1,8,0},
-	{&AKNP3sign_VCHSK2,8,5},
+	{&R0IN01FS3,8,0},
+	{&R0IN02FS3,8,5},
 	{NULL,0,0},
 };
 #pragma pop
@@ -268,7 +268,7 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
-	{&AKNP3sign_VCHSK3,8,0},
+	{&R0IN03FS3,8,0},
 	{&AKNP3sign_VCHSK4,8,5},
 	{NULL,0,0},
 };
@@ -281,9 +281,9 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
-	{&VDS32R01,1,0},
-	{&VDS32R02,1,2},
-	{&VDS32R03,1,4},
+	{&R0IE11LS3,1,0},
+	{&R0IE12LS3,1,2},
+	{&R0IE13LS3,1,4},
 	{&VDS32R04,1,6},
 	{&VDS32R05,1,8},
 	{&VDS32R06,1,10},

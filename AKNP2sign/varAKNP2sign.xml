@@ -1,8 +1,8 @@
 <vars>
 
-    <var name="AKNP2sign_VCHSK1" description="(VCHSK1)" format ="8"></var>
-    <var name="AKNP2sign_VCHSK2" description="(VCHSK2)" format ="8"></var>
-    <var name="AKNP2sign_VCHSK3" description="(VCHSK3)" format ="8"></var>
+    <var name="R0IN01FS2" description="(VCHSK1) Выход СНМ-11 Гц" format ="8"></var>
+    <var name="R0IN02FS2" description="(VCHSK2) Выход КНК15-1  Гц" format ="8"></var>
+    <var name="R0IN03FS2" description="(VCHSK3) Выход КНК53М Гц" format ="8"></var>
     <var name="AKNP2sign_VCHSK4" description="(VCHSK4)" format ="8"></var>
     
     <var name="POWER1"   description="(POWER1 )" format="1"></var>
@@ -18,10 +18,10 @@
     <var name="MPBP15"   description="(MPBP15 )" format="1"></var>
     <var name="MPBP224"  description="(MPBP224)" format="1"></var>
     <var name="MPBP25"   description="(MPBP25 )" format="1"></var>
-    
-    <var name="VDS32R01" description="(VDS32R01)" format="1"></var>
-    <var name="VDS32R02" description="(VDS32R02)" format="1"></var>
-    <var name="VDS32R03" description="(VDS32R03)" format="1"></var>
+
+    <var name="R0IE11LS2" description="(VDS32R01) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
+    <var name="R0IE12LS2" description="(VDS32R02) Исправность ВИП 0,5 (№12) КНК15-1 2 канала" format="1"></var>
+    <var name="R0IE13LS2" description="(VDS32R03) Исправность ВИП 0,5 (№13) КНК53М 2 канала" format="1"></var>
     <var name="VDS32R04" description="(VDS32R04)" format="1"></var>
     <var name="VDS32R05" description="(VDS32R05)" format="1"></var>
     <var name="VDS32R06" description="(VDS32R06)" format="1"></var>
@@ -52,21 +52,21 @@
     <var name="VDS32R31" description="(VDS32R31)" format="1"></var>
     <var name="VDS32R32" description="(VDS32R32)" format="1"></var>
     
-    <var name="FDS16R01" description="(FDS16R01)" format="1"></var>
-    <var name="FDS16R02" description="(FDS16R02)" format="1"></var>
+    <var name="R0IE02LS2" description="(FDS16R01) Отключить питание ПР, ПУ канал 2 " format="1"></var>
+    <var name="R0IE01LS2" description="(FDS16R02) Отключение питание детекторов канал 2" format="1"></var>
     <var name="FDS16R03" description="(FDS16R03)" format="1"></var>
     <var name="FDS16R04" description="(FDS16R04)" format="1"></var>
     <var name="FDS16R05" description="(FDS16R05)" format="1"></var>
     <var name="FDS16R06" description="(FDS16R06)" format="1"></var>
     <var name="FDS16R07" description="(FDS16R07)" format="1"></var>
     <var name="FDS16R08" description="(FDS16R08)" format="1"></var>
-    <var name="FDS16R09" description="(FDS16R09)" format="1"></var>
-    <var name="FDS16R10" description="(FDS16R10)" format="1"></var>
-    <var name="FDS16R11" description="(FDS16R11)" format="1"></var>
-    <var name="FDS16R12" description="(FDS16R12)" format="1"></var>
-    <var name="FDS16R13" description="(FDS16R13)" format="1"></var>
-    <var name="FDS16R14" description="(FDS16R14)" format="1"></var>
-    <var name="FDS16R15" description="(FDS16R15)" format="1"></var>
-    <var name="FDS16R16" description="(FDS16R16)" format="1"></var>
+    <var name="R0VN72LZ1" description="(FDS16R09) АС по мощности канал 2 на БАЗ1 " format="1"></var>
+    <var name="R0VN76LZ1" description="(FDS16R10) АС по периоду разгона канал 2  на БАЗ1 " format="1"></var>
+    <var name="A0EE01LS2" description="(FDS16R11) Исправность АКНП канал 2 на БАЗ1 " format="1"></var>
+    <var name="A0VN71LS2" description="(FDS16R12) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
+    <var name="R0VN72LZ2" description="(FDS16R13) АС по мощности канал 2 на БАЗ2 " format="1"></var>
+    <var name="R0VN76LZ2" description="(FDS16R14) АС по периоду разгона канал 2  на БАЗ2 " format="1"></var>
+    <var name="A1EE01LS2" description="(FDS16R15) Исправность АКНП канал 2 на БАЗ2 " format="1"></var>
+    <var name="A1VN71LS2" description="(FDS16R16) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
 
 </vars>

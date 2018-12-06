@@ -1,8 +1,7 @@
 <vars>
-
-    <var name="AKNP4sign_VCHSK1" description="(VCHSK1)" format ="8"></var>
-    <var name="AKNP4sign_VCHSK2" description="(VCHSK2)" format ="8"></var>
-    <var name="AKNP4sign_VCHSK3" description="(VCHSK3)" format ="8"></var>
+    <var name="R0IN01FS4" description="(VCHSK1) Выход СНМ-11 Гц " format ="8"></var>
+    <var name="R0IN02FS4" description="(VCHSK2) Выход КНК15-1 Гц" format ="8"></var>
+    <var name="R0IN03FS4" description="(VCHSK3) Выход КНК53М Гц " format ="8"></var>
     <var name="AKNP4sign_VCHSK4" description="(VCHSK4)" format ="8"></var>
     
     <var name="POWER1"   description="(POWER1 )" format="1"></var>
@@ -19,9 +18,9 @@
     <var name="MPBP224"  description="(MPBP224)" format="1"></var>
     <var name="MPBP25"   description="(MPBP25 )" format="1"></var>
     
-    <var name="VDS32R01" description="(VDS32R01)" format="1"></var>
-    <var name="VDS32R02" description="(VDS32R02)" format="1"></var>
-    <var name="VDS32R03" description="(VDS32R03)" format="1"></var>
+    <var name="R0IE11LS4" description="(VDS32R01) Исправность ВИП 1,6 (№17) СНМ11 4 канала " format="1"></var>
+    <var name="R0IE12LS4" description="(VDS32R02) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
+    <var name="R0IE13LS4" description="(VDS32R03) Исправность ВИП 0,5 (№19) КНК53М 4 канала " format="1"></var>
     <var name="VDS32R04" description="(VDS32R04)" format="1"></var>
     <var name="VDS32R05" description="(VDS32R05)" format="1"></var>
     <var name="VDS32R06" description="(VDS32R06)" format="1"></var>

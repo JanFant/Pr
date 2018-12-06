@@ -13,12 +13,12 @@ static char BUFFER[142];
 SetupUDP setUDP = {"192.168.10.57\0", 5432, "192.168.10.157\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define AKNP2sign_VCHSK1	 BUFFER[0]	//(VCHSK1)
-#define idAKNP2sign_VCHSK1	 1	//(VCHSK1)
-#define AKNP2sign_VCHSK2	 BUFFER[5]	//(VCHSK2)
-#define idAKNP2sign_VCHSK2	 2	//(VCHSK2)
-#define AKNP2sign_VCHSK3	 BUFFER[10]	//(VCHSK3)
-#define idAKNP2sign_VCHSK3	 3	//(VCHSK3)
+#define R0IN01FS2	 BUFFER[0]	//(VCHSK1) Выход СНМ-11 Гц
+#define idR0IN01FS2	 1	//(VCHSK1) Выход СНМ-11 Гц
+#define R0IN02FS2	 BUFFER[5]	//(VCHSK2) Выход КНК15-1  Гц
+#define idR0IN02FS2	 2	//(VCHSK2) Выход КНК15-1  Гц
+#define R0IN03FS2	 BUFFER[10]	//(VCHSK3) Выход КНК53М Гц
+#define idR0IN03FS2	 3	//(VCHSK3) Выход КНК53М Гц
 #define AKNP2sign_VCHSK4	 BUFFER[15]	//(VCHSK4)
 #define idAKNP2sign_VCHSK4	 4	//(VCHSK4)
 #define POWER1	 BUFFER[20]	//(POWER1 )
@@ -47,12 +47,12 @@ int nomer = 1;
 #define idMPBP224	 16	//(MPBP224)
 #define MPBP25	 BUFFER[44]	//(MPBP25 )
 #define idMPBP25	 17	//(MPBP25 )
-#define VDS32R01	 BUFFER[46]	//(VDS32R01)
-#define idVDS32R01	 18	//(VDS32R01)
-#define VDS32R02	 BUFFER[48]	//(VDS32R02)
-#define idVDS32R02	 19	//(VDS32R02)
-#define VDS32R03	 BUFFER[50]	//(VDS32R03)
-#define idVDS32R03	 20	//(VDS32R03)
+#define R0IE11LS2	 BUFFER[46]	//(VDS32R01) Исправность ВИП 1,6 (№11) СНМ11 2канала
+#define idR0IE11LS2	 18	//(VDS32R01) Исправность ВИП 1,6 (№11) СНМ11 2канала
+#define R0IE12LS2	 BUFFER[48]	//(VDS32R02) Исправность ВИП 0,5 (№12) КНК15-1 2 канала
+#define idR0IE12LS2	 19	//(VDS32R02) Исправность ВИП 0,5 (№12) КНК15-1 2 канала
+#define R0IE13LS2	 BUFFER[50]	//(VDS32R03) Исправность ВИП 0,5 (№13) КНК53М 2 канала
+#define idR0IE13LS2	 20	//(VDS32R03) Исправность ВИП 0,5 (№13) КНК53М 2 канала
 #define VDS32R04	 BUFFER[52]	//(VDS32R04)
 #define idVDS32R04	 21	//(VDS32R04)
 #define VDS32R05	 BUFFER[54]	//(VDS32R05)
@@ -111,10 +111,10 @@ int nomer = 1;
 #define idVDS32R31	 48	//(VDS32R31)
 #define VDS32R32	 BUFFER[108]	//(VDS32R32)
 #define idVDS32R32	 49	//(VDS32R32)
-#define FDS16R01	 BUFFER[110]	//(FDS16R01)
-#define idFDS16R01	 50	//(FDS16R01)
-#define FDS16R02	 BUFFER[112]	//(FDS16R02)
-#define idFDS16R02	 51	//(FDS16R02)
+#define R0IE02LS2	 BUFFER[110]	//(FDS16R01) Отключить питание ПР, ПУ канал 2 
+#define idR0IE02LS2	 50	//(FDS16R01) Отключить питание ПР, ПУ канал 2 
+#define R0IE01LS2	 BUFFER[112]	//(FDS16R02) Отключение питание детекторов канал 2
+#define idR0IE01LS2	 51	//(FDS16R02) Отключение питание детекторов канал 2
 #define FDS16R03	 BUFFER[114]	//(FDS16R03)
 #define idFDS16R03	 52	//(FDS16R03)
 #define FDS16R04	 BUFFER[116]	//(FDS16R04)
@@ -127,27 +127,27 @@ int nomer = 1;
 #define idFDS16R07	 56	//(FDS16R07)
 #define FDS16R08	 BUFFER[124]	//(FDS16R08)
 #define idFDS16R08	 57	//(FDS16R08)
-#define FDS16R09	 BUFFER[126]	//(FDS16R09)
-#define idFDS16R09	 58	//(FDS16R09)
-#define FDS16R10	 BUFFER[128]	//(FDS16R10)
-#define idFDS16R10	 59	//(FDS16R10)
-#define FDS16R11	 BUFFER[130]	//(FDS16R11)
-#define idFDS16R11	 60	//(FDS16R11)
-#define FDS16R12	 BUFFER[132]	//(FDS16R12)
-#define idFDS16R12	 61	//(FDS16R12)
-#define FDS16R13	 BUFFER[134]	//(FDS16R13)
-#define idFDS16R13	 62	//(FDS16R13)
-#define FDS16R14	 BUFFER[136]	//(FDS16R14)
-#define idFDS16R14	 63	//(FDS16R14)
-#define FDS16R15	 BUFFER[138]	//(FDS16R15)
-#define idFDS16R15	 64	//(FDS16R15)
-#define FDS16R16	 BUFFER[140]	//(FDS16R16)
-#define idFDS16R16	 65	//(FDS16R16)
+#define R0VN72LZ1	 BUFFER[126]	//(FDS16R09) АС по мощности канал 2 на БАЗ1 
+#define idR0VN72LZ1	 58	//(FDS16R09) АС по мощности канал 2 на БАЗ1 
+#define R0VN76LZ1	 BUFFER[128]	//(FDS16R10) АС по периоду разгона канал 2  на БАЗ1 
+#define idR0VN76LZ1	 59	//(FDS16R10) АС по периоду разгона канал 2  на БАЗ1 
+#define A0EE01LS2	 BUFFER[130]	//(FDS16R11) Исправность АКНП канал 2 на БАЗ1 
+#define idA0EE01LS2	 60	//(FDS16R11) Исправность АКНП канал 2 на БАЗ1 
+#define A0VN71LS2	 BUFFER[132]	//(FDS16R12) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
+#define idA0VN71LS2	 61	//(FDS16R12) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
+#define R0VN72LZ2	 BUFFER[134]	//(FDS16R13) АС по мощности канал 2 на БАЗ2 
+#define idR0VN72LZ2	 62	//(FDS16R13) АС по мощности канал 2 на БАЗ2 
+#define R0VN76LZ2	 BUFFER[136]	//(FDS16R14) АС по периоду разгона канал 2  на БАЗ2 
+#define idR0VN76LZ2	 63	//(FDS16R14) АС по периоду разгона канал 2  на БАЗ2 
+#define A1EE01LS2	 BUFFER[138]	//(FDS16R15) Исправность АКНП канал 2 на БАЗ2 
+#define idA1EE01LS2	 64	//(FDS16R15) Исправность АКНП канал 2 на БАЗ2 
+#define A1VN71LS2	 BUFFER[140]	//(FDS16R16) Блокировка автоматического подъёма ББ канал 2 на БАЗ2
+#define idA1VN71LS2	 65	//(FDS16R16) Блокировка автоматического подъёма ББ канал 2 на БАЗ2
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,8	,1	, &AKNP2sign_VCHSK1},	//(VCHSK1)
-	{ 2	,8	,1	, &AKNP2sign_VCHSK2},	//(VCHSK2)
-	{ 3	,8	,1	, &AKNP2sign_VCHSK3},	//(VCHSK3)
+	{ 1	,8	,1	, &R0IN01FS2},	//(VCHSK1) Выход СНМ-11 Гц
+	{ 2	,8	,1	, &R0IN02FS2},	//(VCHSK2) Выход КНК15-1  Гц
+	{ 3	,8	,1	, &R0IN03FS2},	//(VCHSK3) Выход КНК53М Гц
 	{ 4	,8	,1	, &AKNP2sign_VCHSK4},	//(VCHSK4)
 	{ 5	,1	,1	, &POWER1},	//(POWER1 )
 	{ 6	,1	,1	, &POWER2},	//(POWER2 )
@@ -162,9 +162,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 15	,1	,1	, &MPBP15},	//(MPBP15 )
 	{ 16	,1	,1	, &MPBP224},	//(MPBP224)
 	{ 17	,1	,1	, &MPBP25},	//(MPBP25 )
-	{ 18	,1	,1	, &VDS32R01},	//(VDS32R01)
-	{ 19	,1	,1	, &VDS32R02},	//(VDS32R02)
-	{ 20	,1	,1	, &VDS32R03},	//(VDS32R03)
+	{ 18	,1	,1	, &R0IE11LS2},	//(VDS32R01) Исправность ВИП 1,6 (№11) СНМ11 2канала
+	{ 19	,1	,1	, &R0IE12LS2},	//(VDS32R02) Исправность ВИП 0,5 (№12) КНК15-1 2 канала
+	{ 20	,1	,1	, &R0IE13LS2},	//(VDS32R03) Исправность ВИП 0,5 (№13) КНК53М 2 канала
 	{ 21	,1	,1	, &VDS32R04},	//(VDS32R04)
 	{ 22	,1	,1	, &VDS32R05},	//(VDS32R05)
 	{ 23	,1	,1	, &VDS32R06},	//(VDS32R06)
@@ -194,22 +194,22 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 47	,1	,1	, &VDS32R30},	//(VDS32R30)
 	{ 48	,1	,1	, &VDS32R31},	//(VDS32R31)
 	{ 49	,1	,1	, &VDS32R32},	//(VDS32R32)
-	{ 50	,1	,1	, &FDS16R01},	//(FDS16R01)
-	{ 51	,1	,1	, &FDS16R02},	//(FDS16R02)
+	{ 50	,1	,1	, &R0IE02LS2},	//(FDS16R01) Отключить питание ПР, ПУ канал 2 
+	{ 51	,1	,1	, &R0IE01LS2},	//(FDS16R02) Отключение питание детекторов канал 2
 	{ 52	,1	,1	, &FDS16R03},	//(FDS16R03)
 	{ 53	,1	,1	, &FDS16R04},	//(FDS16R04)
 	{ 54	,1	,1	, &FDS16R05},	//(FDS16R05)
 	{ 55	,1	,1	, &FDS16R06},	//(FDS16R06)
 	{ 56	,1	,1	, &FDS16R07},	//(FDS16R07)
 	{ 57	,1	,1	, &FDS16R08},	//(FDS16R08)
-	{ 58	,1	,1	, &FDS16R09},	//(FDS16R09)
-	{ 59	,1	,1	, &FDS16R10},	//(FDS16R10)
-	{ 60	,1	,1	, &FDS16R11},	//(FDS16R11)
-	{ 61	,1	,1	, &FDS16R12},	//(FDS16R12)
-	{ 62	,1	,1	, &FDS16R13},	//(FDS16R13)
-	{ 63	,1	,1	, &FDS16R14},	//(FDS16R14)
-	{ 64	,1	,1	, &FDS16R15},	//(FDS16R15)
-	{ 65	,1	,1	, &FDS16R16},	//(FDS16R16)
+	{ 58	,1	,1	, &R0VN72LZ1},	//(FDS16R09) АС по мощности канал 2 на БАЗ1 
+	{ 59	,1	,1	, &R0VN76LZ1},	//(FDS16R10) АС по периоду разгона канал 2  на БАЗ1 
+	{ 60	,1	,1	, &A0EE01LS2},	//(FDS16R11) Исправность АКНП канал 2 на БАЗ1 
+	{ 61	,1	,1	, &A0VN71LS2},	//(FDS16R12) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
+	{ 62	,1	,1	, &R0VN72LZ2},	//(FDS16R13) АС по мощности канал 2 на БАЗ2 
+	{ 63	,1	,1	, &R0VN76LZ2},	//(FDS16R14) АС по периоду разгона канал 2  на БАЗ2 
+	{ 64	,1	,1	, &A1EE01LS2},	//(FDS16R15) Исправность АКНП канал 2 на БАЗ2 
+	{ 65	,1	,1	, &A1VN71LS2},	//(FDS16R16) Блокировка автоматического подъёма ББ канал 2 на БАЗ2
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="AKNP2sign.bin\0";   // Имя файла для сохранения констант
@@ -229,9 +229,9 @@ static ModbusRegister di_AKNP2sign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP2sign[]={  // 
-	{&AKNP2sign_VCHSK1,8,0},	//(AKNP2sign_VCHSK1) AKNP2sign_VCHSK1
-	{&AKNP2sign_VCHSK2,8,2},	//(AKNP2sign_VCHSK2) AKNP2sign_VCHSK2
-	{&AKNP2sign_VCHSK3,8,4},	//(AKNP2sign_VCHSK3) AKNP2sign_VCHSK3
+	{&R0IN01FS2,8,0},	//(R0IN01FS2) R0IN01FS2
+	{&R0IN02FS2,8,2},	//(R0IN02FS2) R0IN02FS2
+	{&R0IN03FS2,8,4},	//(R0IN03FS2) R0IN03FS2
 	{&AKNP2sign_VCHSK4,8,6},	//(AKNP2sign_VCHSK4) AKNP2sign_VCHSK4
 	{NULL,0,0},
 };
@@ -255,8 +255,8 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
-	{&AKNP2sign_VCHSK1,8,0},
-	{&AKNP2sign_VCHSK2,8,5},
+	{&R0IN01FS2,8,0},
+	{&R0IN02FS2,8,5},
 	{NULL,0,0},
 };
 #pragma pop
@@ -268,7 +268,7 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
-	{&AKNP2sign_VCHSK3,8,0},
+	{&R0IN03FS2,8,0},
 	{&AKNP2sign_VCHSK4,8,5},
 	{NULL,0,0},
 };
@@ -281,9 +281,9 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
-	{&VDS32R01,1,0},
-	{&VDS32R02,1,2},
-	{&VDS32R03,1,4},
+	{&R0IE11LS2,1,0},
+	{&R0IE12LS2,1,2},
+	{&R0IE13LS2,1,4},
 	{&VDS32R04,1,6},
 	{&VDS32R05,1,8},
 	{&VDS32R06,1,10},
@@ -324,22 +324,22 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&FDS16R01,1,0},
-	{&FDS16R02,1,2},
+	{&R0IE02LS2,1,0},
+	{&R0IE01LS2,1,2},
 	{&FDS16R03,1,4},
 	{&FDS16R04,1,6},
 	{&FDS16R05,1,8},
 	{&FDS16R06,1,10},
 	{&FDS16R07,1,12},
 	{&FDS16R08,1,14},
-	{&FDS16R09,1,16},
-	{&FDS16R10,1,18},
-	{&FDS16R11,1,20},
-	{&FDS16R12,1,22},
-	{&FDS16R13,1,24},
-	{&FDS16R14,1,26},
-	{&FDS16R15,1,28},
-	{&FDS16R16,1,30},
+	{&R0VN72LZ1,1,16},
+	{&R0VN76LZ1,1,18},
+	{&A0EE01LS2,1,20},
+	{&A0VN71LS2,1,22},
+	{&R0VN72LZ2,1,24},
+	{&R0VN76LZ2,1,26},
+	{&A1EE01LS2,1,28},
+	{&A1VN71LS2,1,30},
 	{NULL,0,0},
 };
 #pragma pop

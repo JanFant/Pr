@@ -1,10 +1,10 @@
 <assign>
     <VCHS01>
-        <def name="AKNP3sign_VCHSK1">K01VCHS</def>
-        <def name="AKNP3sign_VCHSK2">K02VCHS</def>
+        <def name="R0IN01FS3">K01VCHS</def>
+        <def name="R0IN02FS3">K02VCHS</def>
     </VCHS01>
     <VCHS02>
-        <def name="AKNP3sign_VCHSK3">K01VCHS</def>
+        <def name="R0IN03FS3">K01VCHS</def>
         <def name="AKNP3sign_VCHSK4">K02VCHS</def>
     </VCHS02>
     <SBKFP>
@@ -23,9 +23,9 @@
         <def name="MPBP25" >S13SBK</def>
     </SBKFP>
     <VDS32>
-        <def name="VDS32R01">K01VDSR</def>
-        <def name="VDS32R02">K02VDSR</def>
-        <def name="VDS32R03">K03VDSR</def>
+        <def name="R0IE11LS3">K01VDSR</def>
+        <def name="R0IE12LS3">K02VDSR</def>
+        <def name="R0IE13LS3">K03VDSR</def>
         <def name="VDS32R04">K04VDSR</def>
         <def name="VDS32R05">K05VDSR</def>
         <def name="VDS32R06">K06VDSR</def>
@@ -55,7 +55,7 @@
         <def name="VDS32R30">K30VDSR</def>
         <def name="VDS32R31">K31VDSR</def>
         <def name="VDS32R32">K32VDSR</def>
-    </VDS32>    
+    </VDS32>  
     <FDS16>
         <def name="R0IE02LS3">K01FDSR</def>
         <def name="R0IE01LS3">K02FDSR</def>

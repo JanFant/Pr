@@ -71,8 +71,8 @@
     </format>
     <records>
         <record>
-            <value name="name">AKNP2sign_VCHSK1</value>
-            <value name="description">(AKNP2sign_VCHSK1) AKNP2sign_VCHSK1</value>
+            <value name="name">R0IN01FS2</value>
+            <value name="description">(R0IN01FS2) R0IN01FS2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -84,8 +84,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">AKNP2sign_VCHSK2</value>
-            <value name="description">(AKNP2sign_VCHSK2) AKNP2sign_VCHSK2</value>
+            <value name="name">R0IN02FS2</value>
+            <value name="description">(R0IN02FS2) R0IN02FS2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -97,8 +97,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">AKNP2sign_VCHSK3</value>
-            <value name="description">(AKNP2sign_VCHSK3) AKNP2sign_VCHSK3</value>
+            <value name="name">R0IN03FS2</value>
+            <value name="description">(R0IN03FS2) R0IN03FS2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
