@@ -29,18 +29,18 @@ int nomer = 1;
 #define idA0IT03IRP	 7	//(06_K01VASR) Температура АЗ1-3
 #define B0IT03IRP	 BUFFER[33]	//(06_K02VASR) Температура АЗ2-3
 #define idB0IT03IRP	 8	//(06_K02VASR) Температура АЗ2-3
-#define 06_K03VASR	 BUFFER[36]	//(06_K03VASR)
-#define id06_K03VASR	 9	//(06_K03VASR)
-#define 06_K04VASR	 BUFFER[39]	//(06_K04VASR)
-#define id06_K04VASR	 10	//(06_K04VASR)
-#define 06_K05VASR	 BUFFER[42]	//(06_K05VASR)
-#define id06_K05VASR	 11	//(06_K05VASR)
-#define 06_K06VASR	 BUFFER[45]	//(06_K06VASR)
-#define id06_K06VASR	 12	//(06_K06VASR)
-#define 06_K07VASR	 BUFFER[48]	//(06_K07VASR)
-#define id06_K07VASR	 13	//(06_K07VASR)
-#define 06_K08VASR	 BUFFER[51]	//(06_K08VASR)
-#define id06_K08VASR	 14	//(06_K08VASR)
+#define s06_K03VASR	 BUFFER[36]	//(06_K03VASR)
+#define ids06_K03VASR	 9	//(06_K03VASR)
+#define s06_K04VASR	 BUFFER[39]	//(06_K04VASR)
+#define ids06_K04VASR	 10	//(06_K04VASR)
+#define s06_K05VASR	 BUFFER[42]	//(06_K05VASR)
+#define ids06_K05VASR	 11	//(06_K05VASR)
+#define s06_K06VASR	 BUFFER[45]	//(06_K06VASR)
+#define ids06_K06VASR	 12	//(06_K06VASR)
+#define s06_K07VASR	 BUFFER[48]	//(06_K07VASR)
+#define ids06_K07VASR	 13	//(06_K07VASR)
+#define s06_K08VASR	 BUFFER[51]	//(06_K08VASR)
+#define ids06_K08VASR	 14	//(06_K08VASR)
 #define R0IE14LRP	 BUFFER[54]	//(07_K01VDSR) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
 #define idR0IE14LRP	 15	//(07_K01VDSR) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
 #define R0IE15LRP	 BUFFER[56]	//(07_K02VDSR) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
@@ -71,40 +71,40 @@ int nomer = 1;
 #define idA6IS11LRP	 28	//(07_K14VDSR) Приход на ВУ БЗ1
 #define B6IS11LRP	 BUFFER[82]	//(07_K15VDSR) Приход на ВУ БЗ2
 #define idB6IS11LRP	 29	//(07_K15VDSR) Приход на ВУ БЗ2
-#define 07_VDS32R16	 BUFFER[84]	//(07_VDS32R16)
-#define id07_VDS32R16	 30	//(07_VDS32R16)
-#define 07_VDS32R17	 BUFFER[86]	//(07_VDS32R17)
-#define id07_VDS32R17	 31	//(07_VDS32R17)
-#define 07_VDS32R18	 BUFFER[88]	//(07_VDS32R18)
-#define id07_VDS32R18	 32	//(07_VDS32R18)
-#define 07_VDS32R19	 BUFFER[90]	//(07_VDS32R19)
-#define id07_VDS32R19	 33	//(07_VDS32R19)
-#define 07_VDS32R20	 BUFFER[92]	//(07_VDS32R20)
-#define id07_VDS32R20	 34	//(07_VDS32R20)
-#define 07_VDS32R21	 BUFFER[94]	//(07_VDS32R21)
-#define id07_VDS32R21	 35	//(07_VDS32R21)
-#define 07_VDS32R22	 BUFFER[96]	//(07_VDS32R22)
-#define id07_VDS32R22	 36	//(07_VDS32R22)
-#define 07_VDS32R23	 BUFFER[98]	//(07_VDS32R23)
-#define id07_VDS32R23	 37	//(07_VDS32R23)
-#define 07_VDS32R24	 BUFFER[100]	//(07_VDS32R24)
-#define id07_VDS32R24	 38	//(07_VDS32R24)
-#define 07_VDS32R25	 BUFFER[102]	//(07_VDS32R25)
-#define id07_VDS32R25	 39	//(07_VDS32R25)
-#define 07_VDS32R26	 BUFFER[104]	//(07_VDS32R26)
-#define id07_VDS32R26	 40	//(07_VDS32R26)
-#define 07_VDS32R27	 BUFFER[106]	//(07_VDS32R27)
-#define id07_VDS32R27	 41	//(07_VDS32R27)
-#define 07_VDS32R28	 BUFFER[108]	//(07_VDS32R28)
-#define id07_VDS32R28	 42	//(07_VDS32R28)
-#define 07_VDS32R29	 BUFFER[110]	//(07_VDS32R29)
-#define id07_VDS32R29	 43	//(07_VDS32R29)
-#define 07_VDS32R30	 BUFFER[112]	//(07_VDS32R30)
-#define id07_VDS32R30	 44	//(07_VDS32R30)
-#define 07_VDS32R31	 BUFFER[114]	//(07_VDS32R31)
-#define id07_VDS32R31	 45	//(07_VDS32R31)
-#define 07_VDS32R32	 BUFFER[116]	//(07_VDS32R32)
-#define id07_VDS32R32	 46	//(07_VDS32R32)
+#define s07_VDS32R16	 BUFFER[84]	//(07_VDS32R16)
+#define ids07_VDS32R16	 30	//(07_VDS32R16)
+#define s07_VDS32R17	 BUFFER[86]	//(07_VDS32R17)
+#define ids07_VDS32R17	 31	//(07_VDS32R17)
+#define s07_VDS32R18	 BUFFER[88]	//(07_VDS32R18)
+#define ids07_VDS32R18	 32	//(07_VDS32R18)
+#define s07_VDS32R19	 BUFFER[90]	//(07_VDS32R19)
+#define ids07_VDS32R19	 33	//(07_VDS32R19)
+#define s07_VDS32R20	 BUFFER[92]	//(07_VDS32R20)
+#define ids07_VDS32R20	 34	//(07_VDS32R20)
+#define s07_VDS32R21	 BUFFER[94]	//(07_VDS32R21)
+#define ids07_VDS32R21	 35	//(07_VDS32R21)
+#define s07_VDS32R22	 BUFFER[96]	//(07_VDS32R22)
+#define ids07_VDS32R22	 36	//(07_VDS32R22)
+#define s07_VDS32R23	 BUFFER[98]	//(07_VDS32R23)
+#define ids07_VDS32R23	 37	//(07_VDS32R23)
+#define s07_VDS32R24	 BUFFER[100]	//(07_VDS32R24)
+#define ids07_VDS32R24	 38	//(07_VDS32R24)
+#define s07_VDS32R25	 BUFFER[102]	//(07_VDS32R25)
+#define ids07_VDS32R25	 39	//(07_VDS32R25)
+#define s07_VDS32R26	 BUFFER[104]	//(07_VDS32R26)
+#define ids07_VDS32R26	 40	//(07_VDS32R26)
+#define s07_VDS32R27	 BUFFER[106]	//(07_VDS32R27)
+#define ids07_VDS32R27	 41	//(07_VDS32R27)
+#define s07_VDS32R28	 BUFFER[108]	//(07_VDS32R28)
+#define ids07_VDS32R28	 42	//(07_VDS32R28)
+#define s07_VDS32R29	 BUFFER[110]	//(07_VDS32R29)
+#define ids07_VDS32R29	 43	//(07_VDS32R29)
+#define s07_VDS32R30	 BUFFER[112]	//(07_VDS32R30)
+#define ids07_VDS32R30	 44	//(07_VDS32R30)
+#define s07_VDS32R31	 BUFFER[114]	//(07_VDS32R31)
+#define ids07_VDS32R31	 45	//(07_VDS32R31)
+#define s07_VDS32R32	 BUFFER[116]	//(07_VDS32R32)
+#define ids07_VDS32R32	 46	//(07_VDS32R32)
 #define A1VS21LRP	 BUFFER[118]	//(08_K01FDSR) Индикация НУ ББ1
 #define idA1VS21LRP	 47	//(08_K01FDSR) Индикация НУ ББ1
 #define B1VS21LRP	 BUFFER[120]	//(08_K02FDSR) Индикация НУ ББ2
@@ -129,14 +129,14 @@ int nomer = 1;
 #define idA1VT71LRP	 57	//(08_K11FDSR) АС по температуре (Подсветка кнопки «СБРОС» (Светодиод))
 #define R0VN71LRP	 BUFFER[140]	//(08_K12FDSR) АС по мощности канал 5 (Подсветка кнопки «ОБДУВ» (Светодиод))
 #define idR0VN71LRP	 58	//(08_K12FDSR) АС по мощности канал 5 (Подсветка кнопки «ОБДУВ» (Светодиод))
-#define 08_K13FDSR	 BUFFER[142]	//(08_K13FDSR)
-#define id08_K13FDSR	 59	//(08_K13FDSR)
-#define 08_K14FDSR	 BUFFER[144]	//(08_K14FDSR)
-#define id08_K14FDSR	 60	//(08_K14FDSR)
+#define s08_K13FDSR	 BUFFER[142]	//(08_K13FDSR)
+#define ids08_K13FDSR	 59	//(08_K13FDSR)
+#define s08_K14FDSR	 BUFFER[144]	//(08_K14FDSR)
+#define ids08_K14FDSR	 60	//(08_K14FDSR)
 #define A1VN71LRP	 BUFFER[146]	//(08_K15FDSR) Сигнал тревоги на диспетчера
 #define idA1VN71LRP	 61	//(08_K15FDSR) Сигнал тревоги на диспетчера
-#define 08_K16FDSR	 BUFFER[148]	//(08_K16FDSR)
-#define id08_K16FDSR	 62	//(08_K16FDSR)
+#define s08_K16FDSR	 BUFFER[148]	//(08_K16FDSR)
+#define ids08_K16FDSR	 62	//(08_K16FDSR)
 #define POWER1	 BUFFER[150]	//(POWER1 )
 #define idPOWER1	 63	//(POWER1 )
 #define POWER2	 BUFFER[152]	//(POWER2 )
@@ -173,12 +173,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 6	,8	,1	, &R0IN07RRP},	//(03_K02VCHS) Частота СНМ-11 Гц (канал 7)
 	{ 7	,3	,1	, &A0IT03IRP},	//(06_K01VASR) Температура АЗ1-3
 	{ 8	,3	,1	, &B0IT03IRP},	//(06_K02VASR) Температура АЗ2-3
-	{ 9	,3	,1	, &06_K03VASR},	//(06_K03VASR)
-	{ 10	,3	,1	, &06_K04VASR},	//(06_K04VASR)
-	{ 11	,3	,1	, &06_K05VASR},	//(06_K05VASR)
-	{ 12	,3	,1	, &06_K06VASR},	//(06_K06VASR)
-	{ 13	,3	,1	, &06_K07VASR},	//(06_K07VASR)
-	{ 14	,3	,1	, &06_K08VASR},	//(06_K08VASR)
+	{ 9	,3	,1	, &s06_K03VASR},	//(06_K03VASR)
+	{ 10	,3	,1	, &s06_K04VASR},	//(06_K04VASR)
+	{ 11	,3	,1	, &s06_K05VASR},	//(06_K05VASR)
+	{ 12	,3	,1	, &s06_K06VASR},	//(06_K06VASR)
+	{ 13	,3	,1	, &s06_K07VASR},	//(06_K07VASR)
+	{ 14	,3	,1	, &s06_K08VASR},	//(06_K08VASR)
 	{ 15	,1	,1	, &R0IE14LRP},	//(07_K01VDSR) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
 	{ 16	,1	,1	, &R0IE15LRP},	//(07_K02VDSR) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
 	{ 17	,1	,1	, &R0IE11LRP},	//(07_K03VDSR) Исправность ВИП 1,6 (№20) СНМ11 5 канала
@@ -194,23 +194,23 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 27	,1	,1	, &B2IS21LRP},	//(07_K13VDSR) Приход на НУ РБ2-CC
 	{ 28	,1	,1	, &A6IS11LRP},	//(07_K14VDSR) Приход на ВУ БЗ1
 	{ 29	,1	,1	, &B6IS11LRP},	//(07_K15VDSR) Приход на ВУ БЗ2
-	{ 30	,1	,1	, &07_VDS32R16},	//(07_VDS32R16)
-	{ 31	,1	,1	, &07_VDS32R17},	//(07_VDS32R17)
-	{ 32	,1	,1	, &07_VDS32R18},	//(07_VDS32R18)
-	{ 33	,1	,1	, &07_VDS32R19},	//(07_VDS32R19)
-	{ 34	,1	,1	, &07_VDS32R20},	//(07_VDS32R20)
-	{ 35	,1	,1	, &07_VDS32R21},	//(07_VDS32R21)
-	{ 36	,1	,1	, &07_VDS32R22},	//(07_VDS32R22)
-	{ 37	,1	,1	, &07_VDS32R23},	//(07_VDS32R23)
-	{ 38	,1	,1	, &07_VDS32R24},	//(07_VDS32R24)
-	{ 39	,1	,1	, &07_VDS32R25},	//(07_VDS32R25)
-	{ 40	,1	,1	, &07_VDS32R26},	//(07_VDS32R26)
-	{ 41	,1	,1	, &07_VDS32R27},	//(07_VDS32R27)
-	{ 42	,1	,1	, &07_VDS32R28},	//(07_VDS32R28)
-	{ 43	,1	,1	, &07_VDS32R29},	//(07_VDS32R29)
-	{ 44	,1	,1	, &07_VDS32R30},	//(07_VDS32R30)
-	{ 45	,1	,1	, &07_VDS32R31},	//(07_VDS32R31)
-	{ 46	,1	,1	, &07_VDS32R32},	//(07_VDS32R32)
+	{ 30	,1	,1	, &s07_VDS32R16},	//(07_VDS32R16)
+	{ 31	,1	,1	, &s07_VDS32R17},	//(07_VDS32R17)
+	{ 32	,1	,1	, &s07_VDS32R18},	//(07_VDS32R18)
+	{ 33	,1	,1	, &s07_VDS32R19},	//(07_VDS32R19)
+	{ 34	,1	,1	, &s07_VDS32R20},	//(07_VDS32R20)
+	{ 35	,1	,1	, &s07_VDS32R21},	//(07_VDS32R21)
+	{ 36	,1	,1	, &s07_VDS32R22},	//(07_VDS32R22)
+	{ 37	,1	,1	, &s07_VDS32R23},	//(07_VDS32R23)
+	{ 38	,1	,1	, &s07_VDS32R24},	//(07_VDS32R24)
+	{ 39	,1	,1	, &s07_VDS32R25},	//(07_VDS32R25)
+	{ 40	,1	,1	, &s07_VDS32R26},	//(07_VDS32R26)
+	{ 41	,1	,1	, &s07_VDS32R27},	//(07_VDS32R27)
+	{ 42	,1	,1	, &s07_VDS32R28},	//(07_VDS32R28)
+	{ 43	,1	,1	, &s07_VDS32R29},	//(07_VDS32R29)
+	{ 44	,1	,1	, &s07_VDS32R30},	//(07_VDS32R30)
+	{ 45	,1	,1	, &s07_VDS32R31},	//(07_VDS32R31)
+	{ 46	,1	,1	, &s07_VDS32R32},	//(07_VDS32R32)
 	{ 47	,1	,1	, &A1VS21LRP},	//(08_K01FDSR) Индикация НУ ББ1
 	{ 48	,1	,1	, &B1VS21LRP},	//(08_K02FDSR) Индикация НУ ББ2
 	{ 49	,1	,1	, &A2VS21LRP},	//(08_K03FDSR) Индикация НУ РБ1-СС
@@ -223,10 +223,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 56	,1	,1	, &R0IE04LRP},	//(08_K10FDSR) Отключить питание ПУ, ПР 6К (БЗ-1), 7 К (БЗ-2)
 	{ 57	,1	,1	, &A1VT71LRP},	//(08_K11FDSR) АС по температуре (Подсветка кнопки «СБРОС» (Светодиод))
 	{ 58	,1	,1	, &R0VN71LRP},	//(08_K12FDSR) АС по мощности канал 5 (Подсветка кнопки «ОБДУВ» (Светодиод))
-	{ 59	,1	,1	, &08_K13FDSR},	//(08_K13FDSR)
-	{ 60	,1	,1	, &08_K14FDSR},	//(08_K14FDSR)
+	{ 59	,1	,1	, &s08_K13FDSR},	//(08_K13FDSR)
+	{ 60	,1	,1	, &s08_K14FDSR},	//(08_K14FDSR)
 	{ 61	,1	,1	, &A1VN71LRP},	//(08_K15FDSR) Сигнал тревоги на диспетчера
-	{ 62	,1	,1	, &08_K16FDSR},	//(08_K16FDSR)
+	{ 62	,1	,1	, &s08_K16FDSR},	//(08_K16FDSR)
 	{ 63	,1	,1	, &POWER1},	//(POWER1 )
 	{ 64	,1	,1	, &POWER2},	//(POWER2 )
 	{ 65	,1	,1	, &DOOR},	//(DOOR   )
@@ -328,12 +328,12 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 static DriverRegister def_buf_VAS84[]={
 	{&A0IT03IRP,3,0},
 	{&B0IT03IRP,3,3},
-	{&06_K03VASR,3,12},
-	{&06_K04VASR,3,15},
-	{&06_K05VASR,3,12},
-	{&06_K06VASR,3,15},
-	{&06_K07VASR,3,18},
-	{&06_K08VASR,3,21},
+	{&s06_K03VASR,3,12},
+	{&s06_K04VASR,3,15},
+	{&s06_K05VASR,3,12},
+	{&s06_K06VASR,3,15},
+	{&s06_K07VASR,3,18},
+	{&s06_K08VASR,3,21},
 	{NULL,0,0},
 };
 #pragma pop
@@ -360,23 +360,23 @@ static DriverRegister def_buf_VDS32[]={
 	{&B2IS21LRP,1,24},
 	{&A6IS11LRP,1,26},
 	{&B6IS11LRP,1,28},
-	{&07_VDS32R16,1,30},
-	{&07_VDS32R17,1,32},
-	{&07_VDS32R18,1,34},
-	{&07_VDS32R19,1,36},
-	{&07_VDS32R20,1,38},
-	{&07_VDS32R21,1,40},
-	{&07_VDS32R22,1,42},
-	{&07_VDS32R23,1,44},
-	{&07_VDS32R24,1,46},
-	{&07_VDS32R25,1,48},
-	{&07_VDS32R26,1,50},
-	{&07_VDS32R27,1,52},
-	{&07_VDS32R28,1,54},
-	{&07_VDS32R29,1,56},
-	{&07_VDS32R30,1,58},
-	{&07_VDS32R31,1,60},
-	{&07_VDS32R32,1,62},
+	{&s07_VDS32R16,1,30},
+	{&s07_VDS32R17,1,32},
+	{&s07_VDS32R18,1,34},
+	{&s07_VDS32R19,1,36},
+	{&s07_VDS32R20,1,38},
+	{&s07_VDS32R21,1,40},
+	{&s07_VDS32R22,1,42},
+	{&s07_VDS32R23,1,44},
+	{&s07_VDS32R24,1,46},
+	{&s07_VDS32R25,1,48},
+	{&s07_VDS32R26,1,50},
+	{&s07_VDS32R27,1,52},
+	{&s07_VDS32R28,1,54},
+	{&s07_VDS32R29,1,56},
+	{&s07_VDS32R30,1,58},
+	{&s07_VDS32R31,1,60},
+	{&s07_VDS32R32,1,62},
 	{NULL,0,0},
 };
 #pragma pop
@@ -400,10 +400,10 @@ static DriverRegister def_buf_FDS16[]={
 	{&R0IE04LRP,1,18},
 	{&A1VT71LRP,1,20},
 	{&R0VN71LRP,1,22},
-	{&08_K13FDSR,1,24},
-	{&08_K14FDSR,1,26},
+	{&s08_K13FDSR,1,24},
+	{&s08_K14FDSR,1,26},
 	{&A1VN71LRP,1,28},
-	{&08_K16FDSR,1,30},
+	{&s08_K16FDSR,1,30},
 	{NULL,0,0},
 };
 #pragma pop

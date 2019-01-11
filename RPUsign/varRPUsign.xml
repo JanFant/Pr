@@ -10,12 +10,12 @@
 
     <var name="A0IT03IRP" description="(06_K01VASR) Температура АЗ1-3" format="3"></var>
     <var name="B0IT03IRP" description="(06_K02VASR) Температура АЗ2-3" format="3"></var>
-    <var name="06_K03VASR" description="(06_K03VASR)" format="3"></var>
-    <var name="06_K04VASR" description="(06_K04VASR)" format="3"></var>
-    <var name="06_K05VASR" description="(06_K05VASR)" format="3"></var>
-    <var name="06_K06VASR" description="(06_K06VASR)" format="3"></var>
-    <var name="06_K07VASR" description="(06_K07VASR)" format="3"></var>
-    <var name="06_K08VASR" description="(06_K08VASR)" format="3"></var>
+    <var name="s06_K03VASR" description="(06_K03VASR)" format="3"></var>
+    <var name="s06_K04VASR" description="(06_K04VASR)" format="3"></var>
+    <var name="s06_K05VASR" description="(06_K05VASR)" format="3"></var>
+    <var name="s06_K06VASR" description="(06_K06VASR)" format="3"></var>
+    <var name="s06_K07VASR" description="(06_K07VASR)" format="3"></var>
+    <var name="s06_K08VASR" description="(06_K08VASR)" format="3"></var>
     
     <var name="R0IE14LRP" description="(07_K01VDSR) Исправность ВИП 1,6 БЗ-1 - 6к(№23)" format="1"></var>
     <var name="R0IE15LRP" description="(07_K02VDSR) Исправность ВИП 1,6 БЗ-2 - 7к(№24)" format="1"></var>
@@ -32,23 +32,23 @@
     <var name="B2IS21LRP" description="(07_K13VDSR) Приход на НУ РБ2-CC" format="1"></var>
     <var name="A6IS11LRP" description="(07_K14VDSR) Приход на ВУ БЗ1" format="1"></var>
     <var name="B6IS11LRP" description="(07_K15VDSR) Приход на ВУ БЗ2" format="1"></var>
-    <var name="07_VDS32R16" description="(07_VDS32R16)" format="1"></var>
-    <var name="07_VDS32R17" description="(07_VDS32R17)" format="1"></var>
-    <var name="07_VDS32R18" description="(07_VDS32R18)" format="1"></var>
-    <var name="07_VDS32R19" description="(07_VDS32R19)" format="1"></var>
-    <var name="07_VDS32R20" description="(07_VDS32R20)" format="1"></var>
-    <var name="07_VDS32R21" description="(07_VDS32R21)" format="1"></var>
-    <var name="07_VDS32R22" description="(07_VDS32R22)" format="1"></var>
-    <var name="07_VDS32R23" description="(07_VDS32R23)" format="1"></var>
-    <var name="07_VDS32R24" description="(07_VDS32R24)" format="1"></var>
-    <var name="07_VDS32R25" description="(07_VDS32R25)" format="1"></var>
-    <var name="07_VDS32R26" description="(07_VDS32R26)" format="1"></var>
-    <var name="07_VDS32R27" description="(07_VDS32R27)" format="1"></var>
-    <var name="07_VDS32R28" description="(07_VDS32R28)" format="1"></var>
-    <var name="07_VDS32R29" description="(07_VDS32R29)" format="1"></var>
-    <var name="07_VDS32R30" description="(07_VDS32R30)" format="1"></var>
-    <var name="07_VDS32R31" description="(07_VDS32R31)" format="1"></var>
-    <var name="07_VDS32R32" description="(07_VDS32R32)" format="1"></var>   
+    <var name="s07_VDS32R16" description="(07_VDS32R16)" format="1"></var>
+    <var name="s07_VDS32R17" description="(07_VDS32R17)" format="1"></var>
+    <var name="s07_VDS32R18" description="(07_VDS32R18)" format="1"></var>
+    <var name="s07_VDS32R19" description="(07_VDS32R19)" format="1"></var>
+    <var name="s07_VDS32R20" description="(07_VDS32R20)" format="1"></var>
+    <var name="s07_VDS32R21" description="(07_VDS32R21)" format="1"></var>
+    <var name="s07_VDS32R22" description="(07_VDS32R22)" format="1"></var>
+    <var name="s07_VDS32R23" description="(07_VDS32R23)" format="1"></var>
+    <var name="s07_VDS32R24" description="(07_VDS32R24)" format="1"></var>
+    <var name="s07_VDS32R25" description="(07_VDS32R25)" format="1"></var>
+    <var name="s07_VDS32R26" description="(07_VDS32R26)" format="1"></var>
+    <var name="s07_VDS32R27" description="(07_VDS32R27)" format="1"></var>
+    <var name="s07_VDS32R28" description="(07_VDS32R28)" format="1"></var>
+    <var name="s07_VDS32R29" description="(07_VDS32R29)" format="1"></var>
+    <var name="s07_VDS32R30" description="(07_VDS32R30)" format="1"></var>
+    <var name="s07_VDS32R31" description="(07_VDS32R31)" format="1"></var>
+    <var name="s07_VDS32R32" description="(07_VDS32R32)" format="1"></var>   
 
     <var name="A1VS21LRP" description="(08_K01FDSR) Индикация НУ ББ1" format="1"></var>
     <var name="B1VS21LRP" description="(08_K02FDSR) Индикация НУ ББ2" format="1"></var>
@@ -62,10 +62,10 @@
     <var name="R0IE04LRP" description="(08_K10FDSR) Отключить питание ПУ, ПР 6К (БЗ-1), 7 К (БЗ-2)" format="1"></var>
     <var name="A1VT71LRP" description="(08_K11FDSR) АС по температуре (Подсветка кнопки «СБРОС» (Светодиод))" format="1"></var>
     <var name="R0VN71LRP" description="(08_K12FDSR) АС по мощности канал 5 (Подсветка кнопки «ОБДУВ» (Светодиод))" format="1"></var>
-    <var name="08_K13FDSR" description="(08_K13FDSR)" format="1"></var>
-    <var name="08_K14FDSR" description="(08_K14FDSR)" format="1"></var>
+    <var name="s08_K13FDSR" description="(08_K13FDSR)" format="1"></var>
+    <var name="s08_K14FDSR" description="(08_K14FDSR)" format="1"></var>
     <var name="A1VN71LRP" description="(08_K15FDSR) Сигнал тревоги на диспетчера" format="1"></var>
-    <var name="08_K16FDSR" description="(08_K16FDSR)" format="1"></var>
+    <var name="s08_K16FDSR" description="(08_K16FDSR)" format="1"></var>
 
     <var name="POWER1"   description="(POWER1 )" format="1"></var>
     <var name="POWER2"   description="(POWER2 )" format="1"></var>
