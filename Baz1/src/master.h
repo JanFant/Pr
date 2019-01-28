@@ -729,57 +729,56 @@ static ModbusRegister di_Baz1[]={  //
 	{&B0VP71LZ1,1,20},	//(B0VP71LZ1) АЗ по АС любого давления для АЗ2
 	{&A0VP71LZ1,1,21},	//(A0VP71LZ1) АЗ по АС любого давления для АЗ1
 	{&R0ET02LZ1,1,22},	//(R0ET02LZ1) Признак наличия неисправности по температуре АЗ2
-	{&R0VP41LZ1,1,23},	//(R0VP41LZ1) АС по давлению в СИСТЕМЕ
-	{&B0VP41LZ1,1,24},	//(B0VP41LZ1) Давление АЗ2 ниже АС
-	{&A0VP41LZ1,1,25},	//(A0VP41LZ1) Давление АЗ1 ниже АС
-	{&R0ET01LZ1,1,26},	//(R0ET01LZ1) Признак наличия неисправности по температуре  АЗ1
-	{&A2VP81LZ1,1,27},	//(A2VP81LZ1) Давление СБРОС РБ1 в норме
-	{&B2VP81LZ1,1,28},	//(B2VP81LZ1) Давление СБРОС РБ2 в норме
-	{&B2VP51LZ1,1,29},	//(B2VP51LZ1) Давление СБРОС РБ2 ниже ПС
-	{&B2VP41LZ1,1,30},	//(B2VP41LZ1) Давление СБРОС РБ2 ниже АС
-	{&A2VP51LZ1,1,31},	//(A2VP51LZ1) Давление СБРОС РБ1 ниже ПС
-	{&A2VP41LZ1,1,32},	//(A2VP41LZ1) Давление СБРОС РБ1 ниже АС
-	{&B1VP41LZ1,1,33},	//(B1VP41LZ1) Давление СБРОС ББ2 ниже АС
-	{&A1VP41LZ1,1,34},	//(A1VP41LZ1) Давление СБРОС ББ1 ниже АС
-	{&A0VT71LZ1,1,35},	//(A0VT71LZ1) АС по температуре в АЗ1
-	{&A0VT61LZ1,1,36},	//(A0VT61LZ1) ПС по температуре в АЗ1
-	{&R0VN79LZ1,1,37},	//(R0VN79LZ1) АС по усредненному периоду
-	{&R0VN69LZ1,1,38},	//(R0VN69LZ1) ПС по усредненному периоду
-	{&B3VZ11LZ1,1,39},	//(B3VZ11LZ1) АЗ от НУП ИС2
-	{&A3VZ11LZ1,1,40},	//(A3VZ11LZ1) АЗ от НУП ИС1
-	{&B3VZ31LZ1,1,41},	//(B3VZ31LZ1) АЗ от ВУ ИС2
-	{&A3VZ31LZ1,1,42},	//(A3VZ31LZ1) АЗ от ВУ ИС1
-	{&R0VN68LZ1,1,43},	//(R0VN68LZ1) ПС по периоду разгона канал 4
-	{&R0VN67LZ1,1,44},	//(R0VN67LZ1) ПС по периоду разгона канал 3
-	{&R0VN66LZ1,1,45},	//(R0VN66LZ1) ПС по периоду разгона канал 2
-	{&R0VN65LZ1,1,46},	//(R0VN65LZ1) ПС по периоду разгона канал 1
-	{&R0VN64LZ1,1,47},	//(R0VN64LZ1) ПС по мощности канал 4
-	{&R0VN63LZ1,1,48},	//(R0VN63LZ1) ПС по мощности канал 3
-	{&R0VN62LZ1,1,49},	//(R0VN62LZ1) ПС по мощности канал 2
-	{&R0VN61LZ1,1,50},	//(R0VN61LZ1) ПС по мощности канал 1
+	{&B0VP41LZ1,1,23},	//(B0VP41LZ1) Давление АЗ2 ниже АС
+	{&A0VP41LZ1,1,24},	//(A0VP41LZ1) Давление АЗ1 ниже АС
+	{&R0ET01LZ1,1,25},	//(R0ET01LZ1) Признак наличия неисправности по температуре  АЗ1
+	{&A2VP81LZ1,1,26},	//(A2VP81LZ1) Давление СБРОС РБ1 в норме
+	{&B2VP81LZ1,1,27},	//(B2VP81LZ1) Давление СБРОС РБ2 в норме
+	{&B2VP51LZ1,1,28},	//(B2VP51LZ1) Давление СБРОС РБ2 ниже ПС
+	{&B2VP41LZ1,1,29},	//(B2VP41LZ1) Давление СБРОС РБ2 ниже АС
+	{&A2VP51LZ1,1,30},	//(A2VP51LZ1) Давление СБРОС РБ1 ниже ПС
+	{&A2VP41LZ1,1,31},	//(A2VP41LZ1) Давление СБРОС РБ1 ниже АС
+	{&B1VP41LZ1,1,32},	//(B1VP41LZ1) Давление СБРОС ББ2 ниже АС
+	{&A1VP41LZ1,1,33},	//(A1VP41LZ1) Давление СБРОС ББ1 ниже АС
+	{&A0VT71LZ1,1,34},	//(A0VT71LZ1) АС по температуре в АЗ1
+	{&A0VT61LZ1,1,35},	//(A0VT61LZ1) ПС по температуре в АЗ1
+	{&R0VN79LZ1,1,36},	//(R0VN79LZ1) АС по усредненному периоду
+	{&R0VN69LZ1,1,37},	//(R0VN69LZ1) ПС по усредненному периоду
+	{&B3VZ11LZ1,1,38},	//(B3VZ11LZ1) АЗ от НУП ИС2
+	{&A3VZ11LZ1,1,39},	//(A3VZ11LZ1) АЗ от НУП ИС1
+	{&B3VZ31LZ1,1,40},	//(B3VZ31LZ1) АЗ от ВУ ИС2
+	{&A3VZ31LZ1,1,41},	//(A3VZ31LZ1) АЗ от ВУ ИС1
+	{&R0VN68LZ1,1,42},	//(R0VN68LZ1) ПС по периоду разгона канал 4
+	{&R0VN67LZ1,1,43},	//(R0VN67LZ1) ПС по периоду разгона канал 3
+	{&R0VN66LZ1,1,44},	//(R0VN66LZ1) ПС по периоду разгона канал 2
+	{&R0VN65LZ1,1,45},	//(R0VN65LZ1) ПС по периоду разгона канал 1
+	{&R0VN64LZ1,1,46},	//(R0VN64LZ1) ПС по мощности канал 4
+	{&R0VN63LZ1,1,47},	//(R0VN63LZ1) ПС по мощности канал 3
+	{&R0VN62LZ1,1,48},	//(R0VN62LZ1) ПС по мощности канал 2
+	{&R0VN61LZ1,1,49},	//(R0VN61LZ1) ПС по мощности канал 1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_Baz1[]={  // 
-	{&R0VZ05UZ1,5,0},	//(R0VZ05UZ1) Индикатор причины сброса
-	{&R0VR02RZ1,8,2},	//(R0VR02RZ1) Усредненная реактивность
+	{&R0VN11RZ1,8,0},	//(R0VN11RZ1) Средняя мощность по БАЗ1
+	{&R0VZ05UZ1,5,2},	//(R0VZ05UZ1) Индикатор причины сброса
 	{&B0CT01IZ1,8,4},	//(B0CT01IZ1) Температура АЗ2-1
-	{&R0VN11RZ1,8,6},	//(R0VN11RZ1) Средняя мощность по БАЗ1
+	{&R0VN01RZ1,8,6},	//(R0VN01RZ1) Уровень мощности по каналу 1
 	{&A0EP02IZ1,3,8},	//(A0EP02IZ1) Индикатор -Давление  АЗ1 ниже АС
 	{&B0EP02IZ1,3,9},	//(B0EP02IZ1) Индикатор -Давление  АЗ2 ниже АС
 	{&B2CP01RZ1,8,10},	//(B2CP01RZ1) Текущее давление СБРОС РБ2
 	{&A2CP01RZ1,8,12},	//(A2CP01RZ1) Текущее давление СБРОС РБ1
 	{&A0CT01IZ1,8,14},	//(A0CT01IZ1) Температура АЗ1-1
-	{&R0VN09RZ1,8,16},	//(R0VN09RZ1) Усредненный период разгона
-	{&R0VN08RZ1,8,18},	//(R0VN08RZ1) Период разгона по каналу 4
-	{&R0VN07RZ1,8,20},	//(R0VN07RZ1) Период разгона по каналу 3
-	{&R0VN06RZ1,8,22},	//(R0VN06RZ1) Период разгона по каналу 2
-	{&R0VN05RZ1,8,24},	//(R0VN05RZ1) Период разгона по каналу 1
-	{&R0VN04RZ1,8,26},	//(R0VN04RZ1) Уровень мощности по каналу 4
-	{&R0VN03RZ1,8,28},	//(R0VN03RZ1) Уровень мощности по каналу 3
-	{&R0VN02RZ1,8,30},	//(R0VN02RZ1) Уровень мощности по каналу 2
-	{&R0VN01RZ1,8,32},	//(R0VN01RZ1) Уровень мощности по каналу 1
+	{&R0VR02RZ1,8,16},	//(R0VR02RZ1) Усредненная реактивность
+	{&R0VN09RZ1,8,18},	//(R0VN09RZ1) Усредненный период разгона
+	{&R0VN08RZ1,8,20},	//(R0VN08RZ1) Период разгона по каналу 4
+	{&R0VN07RZ1,8,22},	//(R0VN07RZ1) Период разгона по каналу 3
+	{&R0VN06RZ1,8,24},	//(R0VN06RZ1) Период разгона по каналу 2
+	{&R0VN05RZ1,8,26},	//(R0VN05RZ1) Период разгона по каналу 1
+	{&R0VN04RZ1,8,28},	//(R0VN04RZ1) Уровень мощности по каналу 4
+	{&R0VN03RZ1,8,30},	//(R0VN03RZ1) Уровень мощности по каналу 3
+	{&R0VN02RZ1,8,32},	//(R0VN02RZ1) Уровень мощности по каналу 2
 	{NULL,0,0},
 };
 #pragma pop
@@ -1062,8 +1061,8 @@ ssbool lRM_1_ = {1,0}; /* B-Граница участка насыщения В 
 sslong dRM_0_ = {0,0}; /* lx вход лонг */ 
 sschar bRM_0_ = {0,0}; /* cx вход байтовый */ 
 ssint iRM_0_ = {0,0}; /* ix вход целый */ 
-ssint iRM_4_ = {4,0}; /* N-число входов */ 
-ssint iRM_3_ = {3,0}; /* mk - минимальное количество корректных данных */ 
+ssint iRM_3_ = {3,0}; /* N-число входов */ 
+ssint iRM_4_ = {4,0}; /* n - размерность массива */ 
 ssint iRM_6_ = {6,0}; /* N-число входов */ 
 ssint iRM_17_ = {17,0}; /* n - размерность массива входных сигналов */ 
 ssint iRM_819_ = {819,0}; /* a */ 
@@ -1209,22 +1208,22 @@ ssbool var122;
 ssbool var123;
 ssbool var124;
 ssbool var125;
-ssbool var126;
-ssbool var127;
-ssfloat var128;
+ssfloat var126;
+ssfloat var127;
+ssbool var128;
 ssfloat var129;
-ssbool var130;
-ssfloat var131;
-ssfloat var132;
+ssfloat var130;
+ssbool var131;
+ssbool var132;
 ssbool var133;
 ssbool var134;
 ssbool var135;
 ssbool var136;
-ssbool var137;
-ssbool var138;
-ssfloat var139;
-sslong var140;
-sslong var141;
+ssfloat var137;
+sslong var138;
+sslong var139;
+ssbool var140;
+ssbool var141;
 ssbool var142;
 ssbool var143;
 ssbool var144;
@@ -1232,17 +1231,17 @@ ssbool var145;
 ssbool var146;
 ssbool var147;
 ssbool var148;
-ssbool var149;
+ssfloat var149;
 ssbool var150;
-ssfloat var151;
-ssbool var152;
+ssbool var151;
+ssfloat var152;
 ssbool var153;
-ssfloat var154;
-ssbool var155;
+ssbool var154;
+sschar var155;
 ssbool var156;
 sschar var157;
 ssbool var158;
-sschar var159;
+ssbool var159;
 ssbool var160;
 ssbool var161;
 ssbool var162;
@@ -1251,8 +1250,6 @@ ssbool var164;
 ssbool var165;
 ssbool var166;
 ssbool var167;
-ssbool var168;
-ssbool var169;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -1261,357 +1258,353 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psfloat  array_m195_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
-psfloat  array_m340_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
-psbool  array_m340_diag_1[4] = {&var21,&var22,&var23,&var24};
-psbool  array_m319_x_1[17] = {&var83,&var49,&var50,&var78,&var33,&var36,&var156,&var48,&var44,&var43,&var79,&var37,&var39,&var158,&var47,&var46,&var45};
-psbool  array_m16_x_1[6] = {&var88,&var79,&var37,&var39,&var97,&var158};
-psbool  array_m36_x_1[6] = {&var78,&var33,&var36,&var156,&var86,&var97};
+psfloat  array_m188_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
+psfloat  array_m330_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
+psbool  array_m330_diag_1[4] = {&var21,&var22,&var23,&var24};
+psbool  array_m310_x_1[17] = {&var83,&var49,&var50,&var78,&var33,&var36,&var154,&var48,&var44,&var43,&var79,&var39,&var37,&var156,&var47,&var46,&var45};
+psbool  array_m16_x_1[6] = {&var88,&var79,&var37,&var39,&var97,&var156};
+psbool  array_m36_x_1[6] = {&var78,&var33,&var36,&var154,&var86,&var97};
 psfloat  array_m2_x_1[4] = {&R0VN01RS1,&R0VN01RS2,&R0VN01RS3,&R0VN01RS4};
 psbool  array_m2_diag_1[4] = {&var21,&var22,&var23,&var24};
-psbool  array_m3_x_1[4] = {&var108,&var109,&var19,&var138};
-psbool  array_m12_x_1[4] = {&var107,&var109,&var110,&var20};
+psbool  array_m3_x_1[3] = {&var107,&var136,&var19};
+psbool  array_m12_x_1[3] = {&var106,&var20,&var108};
 
 /* Объявление структур */
-_S_ma  S_ma_195_1 = {array_m195_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
-_S_and3  S_and3_241_1 = {&var4,&var14,&var13,&var1};
-_S_and3  S_and3_238_1 = {&var14,&var4,&var125,&var2};
-_S_and3  S_and3_237_1 = {&var13,&var4,&var124,&var3};
-_S_noto  S_noto_229_1 = {&R0AD03LZ1,&var4};
-_S_and3  S_and3_235_1 = {&var7,&var10,&var9,&var5};
-_S_and3  S_and3_231_1 = {&var7,&var9,&var127,&var6};
-_S_noto  S_noto_223_1 = {&R0AD05LZ1,&var7};
-_S_and3  S_and3_230_1 = {&var7,&var10,&var126,&var8};
-_S_and2  S_and2_224_1 = {&var101,&R0VW23LDU,&var9};
-_S_and2  S_and2_222_1 = {&var102,&R0VW13LDU,&var10};
-_S_and3  S_and3_216_1 = {&var102,&var101,&R0AD05LZ1,&var11};
-_S_and3  S_and3_221_1 = {&var100,&var99,&R0AD03LZ1,&var12};
-_S_and2  S_and2_225_1 = {&var100,&R0VW13LDU,&var13};
-_S_and2  S_and2_226_1 = {&R0VW23LDU,&var99,&var14};
-_S_and2  S_and2_260_1 = {&var123,&var31,&var15};
-_S_zzfs  S_zzfs_253_1 = {&R0AD14LDU,&fRM_1_0,&var16,&internal1_m253_tx,&internal1_m253_y0};
-_S_and2  S_and2_133_1 = {&var161,&var137,&var17};
-_S_and2  S_and2_140_1 = {&var160,&var136,&var18};
-_S_or2  S_or2_111_1 = {&var167,&var165,&var19};
-_S_or2  S_or2_117_1 = {&var162,&var163,&var20};
-_S_and2  S_and2_82_1 = {&A0EE05LZ1,&A0EE01LS1,&var21};
-_S_and2  S_and2_84_1 = {&A0EE06LZ1,&A0EE01LS2,&var22};
-_S_and2  S_and2_86_1 = {&A0EE07LZ1,&A0EE01LS3,&var23};
-_S_and2  S_and2_88_1 = {&A0EE08LZ1,&A0EE01LS4,&var24};
-_S_and2  S_and2_185_1 = {&var153,&var118,&var25};
-_S_and2  S_and2_186_1 = {&var152,&var118,&var26};
-_S_or2  S_or2_264_1 = {&var104,&R7II73LZ1,&var27};
-_S_or2  S_or2_266_1 = {&R0AD21LDU,&R0AD14LDU,&var28};
-_S_and2  S_and2_265_1 = {&var28,&var27,&var29};
-_S_or2  S_or2_258_1 = {&R7II71LZ1,&var103,&var30};
-_S_or3  S_or3_259_1 = {&var32,&var30,&var29,&var31};
-_S_or2  S_or2_252_1 = {&var105,&R7II72LZ1,&var32};
-_S_or2  S_or2_239_1 = {&var8,&var5,&var33};
-_S_or2  S_or2_208_1 = {&A3IS22LZ1,&R0AD05LZ1,&var34};
-_S_or2  S_or2_210_1 = {&B3IS22LZ1,&R0AD05LZ1,&var35};
-_S_or2  S_or2_242_1 = {&var3,&var1,&var36};
-_S_or2  S_or2_243_1 = {&var2,&var1,&var37};
-_S_or2  S_or2_211_1 = {&var122,&R0AD03LZ1,&var38};
-_S_or2  S_or2_240_1 = {&var6,&var5,&var39};
-_S_or2  S_or2_213_1 = {&var121,&R0AD03LZ1,&var40};
-_S_schl24  S_schl24_342_1 = {&A0VN71LS2,&A0VN71LS1,&A0VN71LS4,&A0VN71LS3,&var41};
-_S_and2  S_and2_332_1 = {&var117,&var116,&var42};
-_S_and2  S_and2_321_1 = {&var62,&var84,&var43};
-_S_and2  S_and2_323_1 = {&var69,&var84,&var44};
-_S_and2  S_and2_329_1 = {&var29,&var98,&var45};
-_S_and2  S_and2_328_1 = {&var30,&var98,&var46};
-_S_and2  S_and2_327_1 = {&var32,&var98,&var47};
-_S_and2  S_and2_325_1 = {&var119,&var84,&var48};
-_S_and2  S_and2_322_1 = {&var73,&var84,&var49};
-_S_and2  S_and2_320_1 = {&var55,&var84,&var50};
-_S_and2  S_and2_306_1 = {&var53,&var52,&var51};
-_S_or2  S_or2_308_1 = {&R0VN75LZ1,&var150,&var52};
-_S_or2  S_or2_309_1 = {&R0VN77LZ1,&var149,&var53};
-_S_or2  S_or2_294_1 = {&var51,&var59,&var54};
-_S_or2  S_or2_300_1 = {&var56,&var51,&var55};
-_S_and2  S_and2_301_1 = {&var145,&var60,&var56};
-_S_or2  S_or2_311_1 = {&R0VN78LZ1,&var147,&var57};
-_S_or2  S_or2_310_1 = {&R0VN76LZ1,&var148,&var58};
-_S_and2  S_and2_307_1 = {&var58,&var57,&var59};
-_S_schl24  S_schl24_305_1 = {&var58,&var57,&var53,&var52,&var60};
-_S_and2  S_and2_303_1 = {&var84,&var60,&var61};
-_S_or2  S_or2_302_1 = {&var59,&var56,&var62};
-_S_and2  S_and2_298_1 = {&var62,&var84,&var63};
-_S_or2  S_or2_274_1 = {&R0VN72LZ1,&var148,&var64};
-_S_and2  S_and2_289_1 = {&var73,&var84,&var65};
-_S_and2  S_and2_277_1 = {&var64,&var67,&var66};
-_S_or2  S_or2_275_1 = {&R0VN74LZ1,&var147,&var67};
-_S_and2  S_and2_290_1 = {&var69,&var84,&var68};
-_S_or2  S_or2_287_1 = {&var66,&var72,&var69};
-_S_or2  S_or2_293_1 = {&var74,&var66,&var70};
-_S_and2  S_and2_281_1 = {&var76,&var84,&var71};
-_S_and2  S_and2_286_1 = {&var146,&var76,&var72};
-_S_or2  S_or2_285_1 = {&var74,&var72,&var73};
-_S_and2  S_and2_276_1 = {&var75,&var77,&var74};
-_S_or2  S_or2_273_1 = {&R0VN73LZ1,&var149,&var75};
-_S_schl24  S_schl24_279_1 = {&var75,&var77,&var64,&var67,&var76};
-_S_or2  S_or2_272_1 = {&R0VN71LZ1,&var150,&var77};
-_S_or2  S_or2_157_1 = {&var130,&var168,&var78};
-_S_or2  S_or2_159_1 = {&var135,&var133,&var79};
-_S_or2  S_or2_352_1 = {&var166,&var164,&var80};
-_S_or2  S_or2_35_1 = {&A2IS12LZ1,&B2IS12LZ1,&var81};
-_S_and2  S_and2_297_1 = {&var84,&var55,&var82};
-_S_and2  S_and2_326_1 = {&var120,&var84,&var83};
-_S_and2  S_and2_21_1 = {&var115,&var111,&var84};
-_S_or2  S_or2_25_1 = {&var143,&var142,&var85};
+_S_ma  S_ma_188_1 = {array_m188_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
+_S_and3  S_and3_232_1 = {&var4,&var14,&var13,&var1};
+_S_and3  S_and3_229_1 = {&var14,&var4,&var123,&var2};
+_S_and3  S_and3_228_1 = {&var13,&var4,&var122,&var3};
+_S_noto  S_noto_220_1 = {&R0AD03LZ1,&var4};
+_S_and3  S_and3_226_1 = {&var7,&var10,&var9,&var5};
+_S_and3  S_and3_223_1 = {&var7,&var9,&var125,&var6};
+_S_noto  S_noto_214_1 = {&R0AD05LZ1,&var7};
+_S_and3  S_and3_222_1 = {&var7,&var10,&var124,&var8};
+_S_and2  S_and2_215_1 = {&var101,&R0VW23LDU,&var9};
+_S_and2  S_and2_213_1 = {&var102,&R0VW13LDU,&var10};
+_S_and3  S_and3_207_1 = {&var102,&var101,&R0AD05LZ1,&var11};
+_S_and3  S_and3_212_1 = {&var100,&var99,&R0AD03LZ1,&var12};
+_S_and2  S_and2_216_1 = {&var100,&R0VW13LDU,&var13};
+_S_and2  S_and2_217_1 = {&R0VW23LDU,&var99,&var14};
+_S_and2  S_and2_251_1 = {&var121,&var31,&var15};
+_S_zzfs  S_zzfs_244_1 = {&R0AD14LDU,&fRM_1_0,&var16,&internal1_m244_tx,&internal1_m244_y0};
+_S_and2  S_and2_126_1 = {&var159,&var135,&var17};
+_S_and2  S_and2_133_1 = {&var158,&var134,&var18};
+_S_or2  S_or2_103_1 = {&var165,&var163,&var19};
+_S_or2  S_or2_110_1 = {&var160,&var161,&var20};
+_S_and2  S_and2_80_1 = {&A0EE05LZ1,&A0EE01LS1,&var21};
+_S_and2  S_and2_82_1 = {&A0EE06LZ1,&A0EE01LS2,&var22};
+_S_and2  S_and2_84_1 = {&A0EE07LZ1,&A0EE01LS3,&var23};
+_S_and2  S_and2_86_1 = {&A0EE08LZ1,&A0EE01LS4,&var24};
+_S_and2  S_and2_178_1 = {&var151,&var116,&var25};
+_S_and2  S_and2_179_1 = {&var150,&var116,&var26};
+_S_or2  S_or2_255_1 = {&var104,&R7II73LZ1,&var27};
+_S_or2  S_or2_257_1 = {&R0AD21LDU,&R0AD14LDU,&var28};
+_S_and2  S_and2_256_1 = {&var28,&var27,&var29};
+_S_or2  S_or2_249_1 = {&R7II71LZ1,&var103,&var30};
+_S_or3  S_or3_250_1 = {&var32,&var30,&var29,&var31};
+_S_or2  S_or2_243_1 = {&var105,&R7II72LZ1,&var32};
+_S_or2  S_or2_230_1 = {&var8,&var5,&var33};
+_S_or2  S_or2_199_1 = {&A3IS22LDU,&R0AD05LZ1,&var34};
+_S_or2  S_or2_201_1 = {&B3IS22LDU,&R0AD05LZ1,&var35};
+_S_or2  S_or2_233_1 = {&var3,&var1,&var36};
+_S_or2  S_or2_234_1 = {&var2,&var1,&var37};
+_S_or2  S_or2_202_1 = {&var120,&R0AD03LZ1,&var38};
+_S_or2  S_or2_231_1 = {&var6,&var5,&var39};
+_S_or2  S_or2_204_1 = {&var119,&R0AD03LZ1,&var40};
+_S_schl24  S_schl24_332_1 = {&A0VN71LS2,&A0VN71LS1,&A0VN71LS4,&A0VN71LS3,&var41};
+_S_and2  S_and2_323_1 = {&var115,&var114,&var42};
+_S_and2  S_and2_312_1 = {&var62,&var84,&var43};
+_S_and2  S_and2_314_1 = {&var69,&var84,&var44};
+_S_and2  S_and2_320_1 = {&var29,&var98,&var45};
+_S_and2  S_and2_319_1 = {&var30,&var98,&var46};
+_S_and2  S_and2_318_1 = {&var32,&var98,&var47};
+_S_and2  S_and2_316_1 = {&var117,&var84,&var48};
+_S_and2  S_and2_313_1 = {&var73,&var84,&var49};
+_S_and2  S_and2_311_1 = {&var55,&var84,&var50};
+_S_and2  S_and2_297_1 = {&var53,&var52,&var51};
+_S_or2  S_or2_299_1 = {&R0VN75LZ1,&var148,&var52};
+_S_or2  S_or2_300_1 = {&R0VN77LZ1,&var147,&var53};
+_S_or2  S_or2_285_1 = {&var51,&var59,&var54};
+_S_or2  S_or2_291_1 = {&var56,&var51,&var55};
+_S_and2  S_and2_292_1 = {&var143,&var60,&var56};
+_S_or2  S_or2_302_1 = {&R0VN78LZ1,&var145,&var57};
+_S_or2  S_or2_301_1 = {&R0VN76LZ1,&var146,&var58};
+_S_and2  S_and2_298_1 = {&var58,&var57,&var59};
+_S_schl24  S_schl24_296_1 = {&var58,&var57,&var53,&var52,&var60};
+_S_and2  S_and2_294_1 = {&var84,&var60,&var61};
+_S_or2  S_or2_293_1 = {&var59,&var56,&var62};
+_S_and2  S_and2_289_1 = {&var62,&var84,&var63};
+_S_or2  S_or2_265_1 = {&R0VN72LZ1,&var146,&var64};
+_S_and2  S_and2_280_1 = {&var73,&var84,&var65};
+_S_and2  S_and2_270_1 = {&var64,&var67,&var66};
+_S_or2  S_or2_266_1 = {&R0VN74LZ1,&var145,&var67};
+_S_and2  S_and2_281_1 = {&var69,&var84,&var68};
+_S_or2  S_or2_278_1 = {&var66,&var72,&var69};
+_S_or2  S_or2_284_1 = {&var74,&var66,&var70};
+_S_and2  S_and2_272_1 = {&var76,&var84,&var71};
+_S_and2  S_and2_277_1 = {&var144,&var76,&var72};
+_S_or2  S_or2_276_1 = {&var74,&var72,&var73};
+_S_and2  S_and2_267_1 = {&var75,&var77,&var74};
+_S_or2  S_or2_264_1 = {&R0VN73LZ1,&var147,&var75};
+_S_schl24  S_schl24_269_1 = {&var75,&var77,&var64,&var67,&var76};
+_S_or2  S_or2_263_1 = {&R0VN71LZ1,&var148,&var77};
+_S_or2  S_or2_152_1 = {&var128,&var166,&var78};
+_S_or2  S_or2_150_1 = {&var133,&var131,&var79};
+_S_or2  S_or2_336_1 = {&var164,&var162,&var80};
+_S_or2  S_or2_35_1 = {&B2IS12LDU,&A2IS12LDU,&var81};
+_S_and2  S_and2_288_1 = {&var84,&var55,&var82};
+_S_and2  S_and2_317_1 = {&var118,&var84,&var83};
+_S_and2  S_and2_22_1 = {&var113,&var109,&var84};
+_S_or2  S_or2_26_1 = {&var141,&var140,&var85};
 _S_and2  S_and2_31_1 = {&var87,&var84,&var86};
-_S_or3  S_or3_30_1 = {&var55,&var73,&var114,&var87};
+_S_or3  S_or3_30_1 = {&var55,&var73,&var112,&var87};
 _S_and2  S_and2_19_1 = {&var84,&var89,&var88};
-_S_or3  S_or3_18_1 = {&var69,&var62,&var113,&var89};
+_S_or3  S_or3_18_1 = {&var69,&var62,&var111,&var89};
 _S_and2  S_and2_6_1 = {&var22,&var24,&var90};
-_S_or2  S_or2_11_1 = {&var144,&var90,&var91};
-_S_or2  S_or2_10_1 = {&var93,&var144,&var92};
+_S_or2  S_or2_9_1 = {&var142,&var90,&var91};
+_S_or2  S_or2_8_1 = {&var93,&var142,&var92};
 _S_and2  S_and2_5_1 = {&var21,&var23,&var93};
-_S_and2  S_and2_197_1 = {&R0AD14LDU,&R7II72LZ1,&var94};
-_S_and2  S_and2_192_1 = {&R0AD14LDU,&R7II71LZ1,&var95};
-_S_and2  S_and2_189_1 = {&R0AD14LDU,&R7II73LZ1,&var96};
-_S_zpfs  S_zpfs_261_1 = {&var15,&fEM_R7UI73RZZ,&var97,&internal1_m261_tx,&internal1_m261_y0};
-_S_zpfs  S_zpfs_324_1 = {&var42,&fRM_0_2,&var98,&internal1_m324_tx,&internal1_m324_y0};
-_S_zpfs  S_zpfs_220_1 = {&var40,&fEM_A1UL11RZZ,&var99,&internal1_m220_tx,&internal1_m220_y0};
-_S_zpfs  S_zpfs_219_1 = {&var38,&fEM_A1UL11RZZ,&var100,&internal1_m219_tx,&internal1_m219_y0};
-_S_zpfs  S_zpfs_217_1 = {&var35,&fEM_A1UL12RZZ,&var101,&internal1_m217_tx,&internal1_m217_y0};
-_S_zpfs  S_zpfs_215_1 = {&var34,&fEM_A1UL12RZZ,&var102,&internal1_m215_tx,&internal1_m215_y0};
-_S_noto  S_noto_257_1 = {&R6IS67LZ1,&var103};
-_S_noto  S_noto_263_1 = {&R6IS68LZ1,&var104};
-_S_noto  S_noto_246_1 = {&R6IS66LZ1,&var105};
-_S_and2  S_and2_101_1 = {&R0VP81LZ1,&R0VP82LZ1,&var106};
-_S_noto  S_noto_136_1 = {&B0VP81LZ1,&var107};
-_S_noto  S_noto_135_1 = {&A0VP81LZ1,&var108};
-_S_noto  S_noto_104_1 = {&var106,&var109};
-_S_noto  S_noto_100_1 = {&B1VP81LZ1,&var110};
-_S_noto  S_noto_27_1 = {&var112,&var111};
-_S_ovb1  S_ovb1_33_1 = {&var81,&iRM_200_,&var112,&internal1_m33_tx};
-_S_noto  S_noto_14_1 = {&var91,&var113};
-_S_noto  S_noto_13_1 = {&var92,&var114};
-_S_noto  S_noto_24_1 = {&R0EE02LDU,&var115};
-_S_noto  S_noto_334_1 = {&R0AD16LDU,&var116};
-_S_noto  S_noto_333_1 = {&R0AD04LZ1,&var117};
-_S_bol  S_bol_181_1 = {&var154,&fRM_0_00001,&var118};
-_S_noto  S_noto_330_1 = {&var91,&var119};
-_S_noto  S_noto_331_1 = {&var92,&var120};
-_S_noto  S_noto_207_1 = {&B3IS11LZ1,&var121};
-_S_noto  S_noto_206_1 = {&A3IS11LZ1,&var122};
-_S_noto  S_noto_254_1 = {&var16,&var123};
-_S_noto  S_noto_233_1 = {&R0VW23LDU,&var124};
-_S_noto  S_noto_232_1 = {&R0VW13LDU,&var125};
-_S_noto  S_noto_228_1 = {&R0VW23LDU,&var126};
-_S_noto  S_noto_227_1 = {&R0VW13LDU,&var127};
-_S_scalzz  S_scalzz_150_1 = {&B0IT01IZ1,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var128,&internal1_m150_y0};
-_S_scalzz  S_scalzz_148_1 = {&A0IT01IZ1,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var129,&internal1_m148_y0};
-_S_geterr  S_geterr_152_1 = {&var129,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var130};
-_S_scalzz  S_scalzz_97_1 = {&B2IP01IZ1,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var131,&internal1_m97_y0};
-_S_scalzz  S_scalzz_95_1 = {&A2IP01IZ1,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var132,&internal1_m95_y0};
-_S_drg  S_drg_161_1 = {&var128,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var133,&internal1_m161_y1};
-_S_drg  S_drg_172_1 = {&var128,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var134,&internal1_m172_y1};
-_S_geterr  S_geterr_154_1 = {&var128,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var135};
-_S_noto  S_noto_141_1 = {&var162,&var136};
-_S_noto  S_noto_132_1 = {&var167,&var137};
-_S_noto  S_noto_99_1 = {&A1VP81LZ1,&var138};
-_S_srm  S_srm_340_1 = {array_m340_x_1,array_m340_diag_1,&iRM_4_,&iRM_3_,&var139,&vainSBool};
-_S_rsu  S_rsu_317_1 = {&R0MD34LP1,&var141,&var140,&internal1_m317_q0};
-_S_orni  S_orni_319_1 = {array_m319_x_1,&iRM_17_,&vainSBool,&var141};
-_S_orn  S_orn_16_1 = {array_m16_x_1,&iRM_6_,&var142};
-_S_orn  S_orn_36_1 = {array_m36_x_1,&iRM_6_,&var143};
-_S_noto  S_noto_7_1 = {&var155,&var144};
-_S_noto  S_noto_296_1 = {&var54,&var145};
-_S_noto  S_noto_291_1 = {&var70,&var146};
-_S_noto  S_noto_280_1 = {&A0EE01LS4,&var147};
-_S_noto  S_noto_284_1 = {&A0EE01LS2,&var148};
-_S_noto  S_noto_283_1 = {&A0EE01LS3,&var149};
-_S_noto  S_noto_278_1 = {&A0EE01LS1,&var150};
-_S_react  S_react_177_1 = {&var154,&var151};
-_S_bol  S_bol_182_1 = {&fEM_R0UR04RZZ,&var154,&var152};
-_S_bol  S_bol_180_1 = {&fEM_R0UR01RZZ,&var154,&var153};
-_S_srm  S_srm_2_1 = {array_m2_x_1,array_m2_diag_1,&iRM_4_,&iRM_3_,&var154,&var155};
-_S_ornc  S_ornc_3_1 = {array_m3_x_1,&iRM_4_,&var156,&var157};
-_S_ornc  S_ornc_12_1 = {array_m12_x_1,&iRM_4_,&var158,&var159};
-_S_tprg  S_tprg_137_1 = {&var131,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var160,&internal1_m137_y0};
-_S_tprg  S_tprg_130_1 = {&var132,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var161,&internal1_m130_y0};
-_S_geterr  S_geterr_108_1 = {&var131,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var162};
-_S_drg  S_drg_109_1 = {&var131,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var163,&internal1_m109_y1};
-_S_drg  S_drg_123_1 = {&var131,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var164,&internal1_m123_y1};
-_S_drg  S_drg_102_1 = {&var132,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var165,&internal1_m102_y1};
-_S_drg  S_drg_112_1 = {&var132,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var166,&internal1_m112_y1};
-_S_geterr  S_geterr_105_1 = {&var132,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var167};
-_S_drg  S_drg_158_1 = {&var129,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var168,&internal1_m158_y1};
-_S_drg  S_drg_170_1 = {&var129,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var169,&internal1_m170_y1};
+_S_and2  S_and2_189_1 = {&R0AD14LDU,&R7II72LZ1,&var94};
+_S_and2  S_and2_185_1 = {&R0AD14LDU,&R7II71LZ1,&var95};
+_S_and2  S_and2_182_1 = {&R0AD14LDU,&R7II73LZ1,&var96};
+_S_zpfs  S_zpfs_252_1 = {&var15,&fEM_R7UI73RZZ,&var97,&internal1_m252_tx,&internal1_m252_y0};
+_S_zpfs  S_zpfs_315_1 = {&var42,&fRM_0_2,&var98,&internal1_m315_tx,&internal1_m315_y0};
+_S_zpfs  S_zpfs_211_1 = {&var40,&fEM_A1UL11RZZ,&var99,&internal1_m211_tx,&internal1_m211_y0};
+_S_zpfs  S_zpfs_210_1 = {&var38,&fEM_A1UL11RZZ,&var100,&internal1_m210_tx,&internal1_m210_y0};
+_S_zpfs  S_zpfs_208_1 = {&var35,&fEM_A1UL12RZZ,&var101,&internal1_m208_tx,&internal1_m208_y0};
+_S_zpfs  S_zpfs_206_1 = {&var34,&fEM_A1UL12RZZ,&var102,&internal1_m206_tx,&internal1_m206_y0};
+_S_noto  S_noto_248_1 = {&R6IS67LZZ,&var103};
+_S_noto  S_noto_254_1 = {&R6IS68LZZ,&var104};
+_S_noto  S_noto_237_1 = {&R6IS66LZZ,&var105};
+_S_noto  S_noto_129_1 = {&B0VP81LZZ,&var106};
+_S_noto  S_noto_128_1 = {&A0VP81LZZ,&var107};
+_S_noto  S_noto_96_1 = {&B1VP81LZZ,&var108};
+_S_noto  S_noto_27_1 = {&var110,&var109};
+_S_ovb1  S_ovb1_33_1 = {&var81,&iRM_200_,&var110,&internal1_m33_tx};
+_S_noto  S_noto_13_1 = {&var91,&var111};
+_S_noto  S_noto_15_1 = {&var92,&var112};
+_S_noto  S_noto_25_1 = {&R0EE02LDU,&var113};
+_S_noto  S_noto_325_1 = {&R0AD16LDU,&var114};
+_S_noto  S_noto_324_1 = {&R0AD04LZ1,&var115};
+_S_bol  S_bol_174_1 = {&var152,&fRM_0_00001,&var116};
+_S_noto  S_noto_321_1 = {&var91,&var117};
+_S_noto  S_noto_322_1 = {&var92,&var118};
+_S_noto  S_noto_198_1 = {&B3IS11LDU,&var119};
+_S_noto  S_noto_197_1 = {&A3IS11LDU,&var120};
+_S_noto  S_noto_245_1 = {&var16,&var121};
+_S_noto  S_noto_225_1 = {&R0VW23LDU,&var122};
+_S_noto  S_noto_224_1 = {&R0VW13LDU,&var123};
+_S_noto  S_noto_219_1 = {&R0VW23LDU,&var124};
+_S_noto  S_noto_218_1 = {&R0VW13LDU,&var125};
+_S_scalzz  S_scalzz_143_1 = {&B0IT01IZ1,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var126,&internal1_m143_y0};
+_S_scalzz  S_scalzz_141_1 = {&A0IT01IZ1,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var127,&internal1_m141_y0};
+_S_geterr  S_geterr_145_1 = {&var127,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var128};
+_S_scalzz  S_scalzz_93_1 = {&B2IP01IZ1,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var129,&internal1_m93_y0};
+_S_scalzz  S_scalzz_91_1 = {&A2IP01IZ1,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var130,&internal1_m91_y0};
+_S_drg  S_drg_154_1 = {&var126,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var131,&internal1_m154_y1};
+_S_drg  S_drg_165_1 = {&var126,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var132,&internal1_m165_y1};
+_S_geterr  S_geterr_147_1 = {&var126,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var133};
+_S_noto  S_noto_134_1 = {&var160,&var134};
+_S_noto  S_noto_125_1 = {&var165,&var135};
+_S_noto  S_noto_95_1 = {&A1VP81LZZ,&var136};
+_S_srm  S_srm_330_1 = {array_m330_x_1,array_m330_diag_1,&iRM_4_,&iRM_3_,&var137,&vainSBool};
+_S_rsu  S_rsu_308_1 = {&R0MD34LP1,&var139,&var138,&internal1_m308_q0};
+_S_orni  S_orni_310_1 = {array_m310_x_1,&iRM_17_,&vainSBool,&var139};
+_S_orn  S_orn_16_1 = {array_m16_x_1,&iRM_6_,&var140};
+_S_orn  S_orn_36_1 = {array_m36_x_1,&iRM_6_,&var141};
+_S_noto  S_noto_7_1 = {&var153,&var142};
+_S_noto  S_noto_287_1 = {&var54,&var143};
+_S_noto  S_noto_282_1 = {&var70,&var144};
+_S_noto  S_noto_271_1 = {&A0EE01LS4,&var145};
+_S_noto  S_noto_275_1 = {&A0EE01LS2,&var146};
+_S_noto  S_noto_274_1 = {&A0EE01LS3,&var147};
+_S_noto  S_noto_268_1 = {&A0EE01LS1,&var148};
+_S_react  S_react_170_1 = {&var152,&var149};
+_S_bol  S_bol_175_1 = {&fEM_R0UR04RZZ,&var152,&var150};
+_S_bol  S_bol_173_1 = {&fEM_R0UR01RZZ,&var152,&var151};
+_S_srm  S_srm_2_1 = {array_m2_x_1,array_m2_diag_1,&iRM_4_,&iRM_3_,&var152,&var153};
+_S_ornc  S_ornc_3_1 = {array_m3_x_1,&iRM_3_,&var154,&var155};
+_S_ornc  S_ornc_12_1 = {array_m12_x_1,&iRM_3_,&var156,&var157};
+_S_tprg  S_tprg_130_1 = {&var129,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var158,&internal1_m130_y0};
+_S_tprg  S_tprg_123_1 = {&var130,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var159,&internal1_m123_y0};
+_S_geterr  S_geterr_102_1 = {&var129,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var160};
+_S_drg  S_drg_106_1 = {&var129,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var161,&internal1_m106_y1};
+_S_drg  S_drg_116_1 = {&var129,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var162,&internal1_m116_y1};
+_S_drg  S_drg_97_1 = {&var130,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var163,&internal1_m97_y1};
+_S_drg  S_drg_104_1 = {&var130,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var164,&internal1_m104_y1};
+_S_geterr  S_geterr_99_1 = {&var130,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var165};
+_S_drg  S_drg_153_1 = {&var127,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var166,&internal1_m153_y1};
+_S_drg  S_drg_163_1 = {&var127,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var167,&internal1_m163_y1};
 
 
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  noto(&S_noto_278_1);
-  noto(&S_noto_283_1);
-  noto(&S_noto_284_1);
-  noto(&S_noto_280_1);
-  noto(&S_noto_99_1);
-  scalzz(&S_scalzz_95_1);
-  scalzz(&S_scalzz_97_1);
-  scalzz(&S_scalzz_148_1);
-  scalzz(&S_scalzz_150_1);
-  noto(&S_noto_228_1);
-  noto(&S_noto_232_1);
-  noto(&S_noto_233_1);
-  noto(&S_noto_206_1);
-  noto(&S_noto_207_1);
-  noto(&S_noto_24_1);
-  noto(&S_noto_100_1);
-  noto(&S_noto_135_1);
-  noto(&S_noto_136_1);
-  and2(&S_and2_101_1);
-  noto(&S_noto_246_1);
-  noto(&S_noto_263_1);
-  noto(&S_noto_257_1);
+  noto(&S_noto_268_1);
+  noto(&S_noto_274_1);
+  noto(&S_noto_275_1);
+  noto(&S_noto_271_1);
+  noto(&S_noto_95_1);
+  scalzz(&S_scalzz_91_1);
+  scalzz(&S_scalzz_93_1);
+  scalzz(&S_scalzz_141_1);
+  scalzz(&S_scalzz_143_1);
+  noto(&S_noto_219_1);
+  noto(&S_noto_224_1);
+  noto(&S_noto_225_1);
+  noto(&S_noto_197_1);
+  noto(&S_noto_198_1);
+  noto(&S_noto_25_1);
+  noto(&S_noto_96_1);
+  noto(&S_noto_128_1);
+  noto(&S_noto_129_1);
+  noto(&S_noto_237_1);
+  noto(&S_noto_254_1);
+  noto(&S_noto_248_1);
+  and2(&S_and2_182_1);
+  and2(&S_and2_185_1);
   and2(&S_and2_189_1);
-  and2(&S_and2_192_1);
-  and2(&S_and2_197_1);
-  or2(&S_or2_35_1);
-  or2(&S_or2_272_1);
-  or2(&S_or2_273_1);
-  and2(&S_and2_276_1);
-  or2(&S_or2_275_1);
-  or2(&S_or2_274_1);
-  or2(&S_or2_310_1);
-  or2(&S_or2_311_1);
-  or2(&S_or2_309_1);
-  or2(&S_or2_308_1);
-  and2(&S_and2_306_1);
-  schl24(&S_schl24_342_1);
-  or2(&S_or2_213_1);
-  or2(&S_or2_211_1);
-  or2(&S_or2_210_1);
-  or2(&S_or2_208_1);
-  or2(&S_or2_252_1);
-  or2(&S_or2_258_1);
-  or2(&S_or2_266_1);
+  or2(&S_or2_263_1);
   or2(&S_or2_264_1);
-  and2(&S_and2_88_1);
+  and2(&S_and2_267_1);
+  or2(&S_or2_266_1);
+  or2(&S_or2_265_1);
+  or2(&S_or2_301_1);
+  or2(&S_or2_302_1);
+  or2(&S_or2_300_1);
+  or2(&S_or2_299_1);
+  and2(&S_and2_297_1);
+  schl24(&S_schl24_332_1);
+  or2(&S_or2_204_1);
+  or2(&S_or2_202_1);
+  or2(&S_or2_201_1);
+  or2(&S_or2_199_1);
+  or2(&S_or2_243_1);
+  or2(&S_or2_249_1);
+  or2(&S_or2_257_1);
+  or2(&S_or2_255_1);
   and2(&S_and2_86_1);
   and2(&S_and2_84_1);
   and2(&S_and2_82_1);
-  zzfs(&S_zzfs_253_1);
-  noto(&S_noto_223_1);
-  noto(&S_noto_229_1);
-  ma(&S_ma_195_1);
-  drg(&S_drg_170_1);
-  drg(&S_drg_158_1);
-  geterr(&S_geterr_105_1);
-  drg(&S_drg_112_1);
-  drg(&S_drg_102_1);
-  drg(&S_drg_123_1);
-  drg(&S_drg_109_1);
-  geterr(&S_geterr_108_1);
+  and2(&S_and2_80_1);
+  zzfs(&S_zzfs_244_1);
+  noto(&S_noto_214_1);
+  noto(&S_noto_220_1);
+  ma(&S_ma_188_1);
+  drg(&S_drg_163_1);
+  drg(&S_drg_153_1);
+  geterr(&S_geterr_99_1);
+  drg(&S_drg_104_1);
+  drg(&S_drg_97_1);
+  drg(&S_drg_116_1);
+  drg(&S_drg_106_1);
+  geterr(&S_geterr_102_1);
+  tprg(&S_tprg_123_1);
   tprg(&S_tprg_130_1);
-  tprg(&S_tprg_137_1);
   srm(&S_srm_2_1);
-  bol(&S_bol_180_1);
-  bol(&S_bol_182_1);
-  react(&S_react_177_1);
+  bol(&S_bol_173_1);
+  bol(&S_bol_175_1);
+  react(&S_react_170_1);
   noto(&S_noto_7_1);
-  srm(&S_srm_340_1);
-  noto(&S_noto_132_1);
-  noto(&S_noto_141_1);
-  geterr(&S_geterr_154_1);
-  drg(&S_drg_172_1);
-  drg(&S_drg_161_1);
-  geterr(&S_geterr_152_1);
-  noto(&S_noto_227_1);
-  noto(&S_noto_254_1);
-  bol(&S_bol_181_1);
-  noto(&S_noto_333_1);
-  noto(&S_noto_334_1);
-  ovb1(&S_ovb1_33_1);
-  noto(&S_noto_27_1);
-  noto(&S_noto_104_1);
-  zpfs(&S_zpfs_215_1);
-  zpfs(&S_zpfs_217_1);
-  zpfs(&S_zpfs_219_1);
-  zpfs(&S_zpfs_220_1);
+  srm(&S_srm_330_1);
+  noto(&S_noto_125_1);
+  noto(&S_noto_134_1);
+  geterr(&S_geterr_147_1);
+  drg(&S_drg_165_1);
+  drg(&S_drg_154_1);
+  geterr(&S_geterr_145_1);
+  noto(&S_noto_218_1);
+  noto(&S_noto_245_1);
+  bol(&S_bol_174_1);
+  noto(&S_noto_324_1);
+  noto(&S_noto_325_1);
+  zpfs(&S_zpfs_206_1);
+  zpfs(&S_zpfs_208_1);
+  zpfs(&S_zpfs_210_1);
+  zpfs(&S_zpfs_211_1);
   and2(&S_and2_5_1);
-  or2(&S_or2_10_1);
+  or2(&S_or2_8_1);
   and2(&S_and2_6_1);
-  and2(&S_and2_21_1);
-  or2(&S_or2_352_1);
-  or2(&S_or2_159_1);
-  or2(&S_or2_157_1);
-  schl24(&S_schl24_279_1);
-  and2(&S_and2_281_1);
-  and2(&S_and2_277_1);
-  schl24(&S_schl24_305_1);
-  and2(&S_and2_307_1);
-  or2(&S_or2_294_1);
-  and2(&S_and2_332_1);
-  and2(&S_and2_265_1);
-  and2(&S_and2_186_1);
-  and2(&S_and2_185_1);
-  or2(&S_or2_117_1);
-  or2(&S_or2_111_1);
-  and2(&S_and2_140_1);
+  or2(&S_or2_35_1);
+  or2(&S_or2_336_1);
+  or2(&S_or2_150_1);
+  or2(&S_or2_152_1);
+  schl24(&S_schl24_269_1);
+  and2(&S_and2_270_1);
+  schl24(&S_schl24_296_1);
+  and2(&S_and2_298_1);
+  or2(&S_or2_285_1);
+  and2(&S_and2_323_1);
+  and2(&S_and2_256_1);
+  and2(&S_and2_179_1);
+  and2(&S_and2_178_1);
+  or2(&S_or2_110_1);
+  or2(&S_or2_103_1);
   and2(&S_and2_133_1);
-  and2(&S_and2_226_1);
-  and2(&S_and2_225_1);
-  and3(&S_and3_221_1);
-  and3(&S_and3_216_1);
-  and2(&S_and2_222_1);
-  and2(&S_and2_224_1);
-  and3(&S_and3_230_1);
-  and3(&S_and3_231_1);
-  and3(&S_and3_235_1);
-  and3(&S_and3_237_1);
-  and3(&S_and3_238_1);
-  and3(&S_and3_241_1);
+  and2(&S_and2_126_1);
+  and2(&S_and2_217_1);
+  and2(&S_and2_216_1);
+  and3(&S_and3_212_1);
+  and3(&S_and3_207_1);
+  and2(&S_and2_213_1);
+  and2(&S_and2_215_1);
+  and3(&S_and3_222_1);
+  and3(&S_and3_223_1);
+  and3(&S_and3_226_1);
+  and3(&S_and3_228_1);
+  and3(&S_and3_229_1);
+  and3(&S_and3_232_1);
   ornc(&S_ornc_12_1);
   ornc(&S_ornc_3_1);
-  noto(&S_noto_296_1);
-  noto(&S_noto_331_1);
-  noto(&S_noto_13_1);
-  zpfs(&S_zpfs_324_1);
-  or2(&S_or2_11_1);
-  and2(&S_and2_326_1);
-  or2(&S_or2_293_1);
-  and2(&S_and2_303_1);
-  and2(&S_and2_301_1);
-  or2(&S_or2_300_1);
+  noto(&S_noto_287_1);
+  noto(&S_noto_322_1);
+  noto(&S_noto_15_1);
+  ovb1(&S_ovb1_33_1);
+  noto(&S_noto_27_1);
+  zpfs(&S_zpfs_315_1);
+  or2(&S_or2_9_1);
+  and2(&S_and2_22_1);
+  and2(&S_and2_317_1);
+  and2(&S_and2_272_1);
+  or2(&S_or2_284_1);
+  and2(&S_and2_294_1);
+  and2(&S_and2_292_1);
+  or2(&S_or2_291_1);
+  and2(&S_and2_311_1);
+  and2(&S_and2_318_1);
+  and2(&S_and2_319_1);
   and2(&S_and2_320_1);
-  and2(&S_and2_327_1);
-  and2(&S_and2_328_1);
-  and2(&S_and2_329_1);
-  or2(&S_or2_240_1);
-  or2(&S_or2_243_1);
-  or2(&S_or2_242_1);
-  or2(&S_or2_239_1);
-  or3(&S_or3_259_1);
-  and2(&S_and2_260_1);
-  noto(&S_noto_291_1);
-  noto(&S_noto_330_1);
-  noto(&S_noto_14_1);
-  zpfs(&S_zpfs_261_1);
-  and2(&S_and2_297_1);
-  and2(&S_and2_286_1);
-  or2(&S_or2_287_1);
-  and2(&S_and2_290_1);
-  or2(&S_or2_302_1);
-  and2(&S_and2_325_1);
-  and2(&S_and2_323_1);
-  and2(&S_and2_321_1);
+  or2(&S_or2_231_1);
+  or2(&S_or2_234_1);
+  or2(&S_or2_233_1);
+  or2(&S_or2_230_1);
+  or3(&S_or3_250_1);
+  and2(&S_and2_251_1);
+  noto(&S_noto_282_1);
+  noto(&S_noto_321_1);
+  noto(&S_noto_13_1);
+  zpfs(&S_zpfs_252_1);
+  and2(&S_and2_288_1);
+  and2(&S_and2_277_1);
+  or2(&S_or2_278_1);
+  and2(&S_and2_281_1);
+  or2(&S_or2_293_1);
+  and2(&S_and2_316_1);
+  and2(&S_and2_314_1);
+  and2(&S_and2_312_1);
   or3(&S_or3_18_1);
   and2(&S_and2_19_1);
-  or2(&S_or2_285_1);
+  or2(&S_or2_276_1);
+  and2(&S_and2_280_1);
   and2(&S_and2_289_1);
-  and2(&S_and2_298_1);
-  and2(&S_and2_322_1);
+  and2(&S_and2_313_1);
   orn(&S_orn_16_1);
-  orni(&S_orni_319_1);
-  rsu(&S_rsu_317_1);
+  orni(&S_orni_310_1);
+  rsu(&S_rsu_308_1);
   or3(&S_or3_30_1);
   and2(&S_and2_31_1);
   orn(&S_orn_36_1);
-  or2(&S_or2_25_1);
+  or2(&S_or2_26_1);
   setData(idR0AD16LZ1,&var94);
   setData(idR0AD15LZ1,&var95);
   moveData(idR0EE04LZ1,idR0EE02LDU);
@@ -1623,19 +1616,19 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idA3VZ15LZ1,&var11);
   setData(idA1VN71LZ1,&var41);
   setData(idB0VT71LZ1,&var79);
-  setData(idB0VT61LZ1,&var134);
-  setData(idB0CT01IZ1,&var128);
+  setData(idB0VT61LZ1,&var132);
+  setData(idB0CT01IZ1,&var126);
   setData(idR0VP73LZ1,&var80);
-  setData(idR0VN11RZ1,&var139);
-  setData(idR0VZ05UZ1,&var140);
+  setData(idR0VN11RZ1,&var137);
+  setData(idR0VZ05UZ1,&var138);
   setData(idB0VN81LZ1,&var63);
   setData(idA0VN81LZ1,&var82);
   setData(idB0VN71LZ1,&var68);
   setData(idA0VN71LZ1,&var65);
-  setData(idB0VZ71LZ1,&var142);
+  setData(idB0VZ71LZ1,&var140);
   setData(idB0EE00LZ1,&var91);
   setData(idA0EE00LZ1,&var92);
-  setData(idA0VZ71LZ1,&var143);
+  setData(idA0VZ71LZ1,&var141);
   setData(idA0EE03LZ1,&var23);
   setData(idA0EE02LZ1,&var22);
   setData(idA0EE04LZ1,&var24);
@@ -1643,14 +1636,14 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idR0VN80LZ1,&var61);
   setData(idR0VN70LZ1,&var71);
   setData(idR0VZ71LZ1,&var85);
-  setData(idR0VR02RZ1,&var151);
+  setData(idR0VR02RZ1,&var149);
   setData(idR0VN79LZ1,&var26);
   setData(idR0VN69LZ1,&var25);
   setData(idB3VZ11LZ1,&var39);
   setData(idA3VZ11LZ1,&var33);
   setData(idB3VZ31LZ1,&var37);
   setData(idA3VZ31LZ1,&var36);
-  setData(idR0VN09RZ1,&var154);
+  setData(idR0VN09RZ1,&var152);
   moveData(idR0VN68LZ1,idR0VN65LS4);
   moveData(idR0VN67LZ1,idR0VN65LS3);
   moveData(idR0VN66LZ1,idR0VN65LS2);
@@ -1667,28 +1660,27 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   moveData(idR0VN03RZ1,idR0VN02RS3);
   moveData(idR0VN02RZ1,idR0VN02RS2);
   moveData(idR0VN01RZ1,idR0VN02RS1);
-  setData(idB0VP71LZ1,&var158);
-  setData(idA0VP71LZ1,&var156);
-  setData(idA0EP02IZ1,&var157);
-  setData(idB0EP02IZ1,&var159);
-  setData(idR0ET02LZ1,&var135);
-  setData(idR0VP41LZ1,&var109);
-  setData(idB0VP41LZ1,&var107);
-  setData(idA0VP41LZ1,&var108);
-  setData(idR0ET01LZ1,&var130);
+  setData(idB0VP71LZ1,&var156);
+  setData(idA0VP71LZ1,&var154);
+  setData(idA0EP02IZ1,&var155);
+  setData(idB0EP02IZ1,&var157);
+  setData(idR0ET02LZ1,&var133);
+  setData(idB0VP41LZ1,&var106);
+  setData(idA0VP41LZ1,&var107);
+  setData(idR0ET01LZ1,&var128);
   setData(idA2VP81LZ1,&var17);
   setData(idB2VP81LZ1,&var18);
-  setData(idB2VP51LZ1,&var164);
-  setData(idB2CP01RZ1,&var131);
+  setData(idB2VP51LZ1,&var162);
+  setData(idB2CP01RZ1,&var129);
   setData(idB2VP41LZ1,&var20);
-  setData(idA2VP51LZ1,&var166);
-  setData(idA2CP01RZ1,&var132);
+  setData(idA2VP51LZ1,&var164);
+  setData(idA2CP01RZ1,&var130);
   setData(idA2VP41LZ1,&var19);
-  setData(idB1VP41LZ1,&var110);
-  setData(idA1VP41LZ1,&var138);
+  setData(idB1VP41LZ1,&var108);
+  setData(idA1VP41LZ1,&var136);
   setData(idA0VT71LZ1,&var78);
-  setData(idA0VT61LZ1,&var169);
-  setData(idA0CT01IZ1,&var129);
+  setData(idA0VT61LZ1,&var167);
+  setData(idA0CT01IZ1,&var127);
 
   setAsBool(idbFirstEnterFlag,1);
 }

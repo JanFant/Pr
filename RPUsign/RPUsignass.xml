@@ -14,8 +14,8 @@
     <VAS84>
         <def name="A0IT03IRP">K01VASR</def>
         <def name="B0IT03IRP">K02VASR</def>
-        <def name="s06_K03VASR">K05VASR</def>
-        <def name="s06_K04VASR">K06VASR</def>
+        <def name="s06_K03VASR">K03VASR</def>
+        <def name="s06_K04VASR">K04VASR</def>
         <def name="s06_K05VASR">K05VASR</def>
         <def name="s06_K06VASR">K06VASR</def>
         <def name="s06_K07VASR">K07VASR</def>

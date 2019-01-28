@@ -1,15 +1,15 @@
 Тепрол. Файл проекта.
 [TeprolProject]{
-  TPRName="D:\md\pti\pr\AKNP3\scheme\aknp3.tpr"
+  TPRName="D:\md\pti\pr\AKNP3\scheme\aknp.tpr"
   TPLName=""
   ControllerXMLName="D:\md\pti\pr\AKNP3\devAKNP3.xml"
   ModBusXMLName="D:\md\pti\pr\AKNP3\AKNP3fp.xml"
   DBSName=""
   SinonimName=""
   VariableName=""
-  SignalsXMLName="D:\md\pti\pr\AKNP3\scheme\var.xml"
-  ConstsXMLName="D:\md\pti\pr\AKNP3\scheme\save.xml"
-  AssignXMLName="D:\md\pti\pr\AKNP3\scheme\ass.xml"
+  SignalsXMLName=""
+  ConstsXMLName=""
+  AssignXMLName=""
   PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-47677
+38118

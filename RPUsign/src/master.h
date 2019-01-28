@@ -328,8 +328,8 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 static DriverRegister def_buf_VAS84[]={
 	{&A0IT03IRP,3,0},
 	{&B0IT03IRP,3,3},
-	{&s06_K03VASR,3,12},
-	{&s06_K04VASR,3,15},
+	{&s06_K03VASR,3,6},
+	{&s06_K04VASR,3,9},
 	{&s06_K05VASR,3,12},
 	{&s06_K06VASR,3,15},
 	{&s06_K07VASR,3,18},

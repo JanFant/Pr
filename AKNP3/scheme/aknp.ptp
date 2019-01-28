@@ -1,9 +1,9 @@
 Тепрол. Файл проекта.
 [TeprolProject]{
-  TPRName="D:\md\pti\pr\RPU\scheme\rpu.tpr"
+  TPRName="D:\md\pti\pr\AKNP3\scheme\aknp.tpr"
   TPLName=""
-  ControllerXMLName="D:\md\pti\pr\RPU\devRPU.xml"
-  ModBusXMLName="D:\md\pti\pr\RPU\RPUfp.xml"
+  ControllerXMLName="D:\md\pti\pr\AKNP3\devAKNP3.xml"
+  ModBusXMLName="D:\md\pti\pr\AKNP3\AKNP3fp.xml"
   DBSName=""
   SinonimName=""
   VariableName=""
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-37525
+38118
