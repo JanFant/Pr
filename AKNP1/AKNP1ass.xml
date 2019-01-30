@@ -1,6 +1,6 @@
 <assign>
     <FDS16>
-        <def name="R0IE01LS1" >K02FDSR</def>
+        <def name="R0IE01LS1">K02FDSR</def>
         <def name="R0VN71LZ1">K09FDSR</def>
         <def name="A1VN71LS1">K16FDSR</def>
         <def name="R0VN75LZ1">K10FDSR</def>
