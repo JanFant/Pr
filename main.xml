@@ -10,7 +10,7 @@
     <subs name="RPU"        scheme="D:/md/pti/pr/RPU/scheme/RPU.tpr"           id="8"   file="RPUfp"      description="RPU"        main="192.168.10.31" second="192.168.10.131" path="d:/md/pti/pr/RPU"    step="5"  status="ok" result="d:\md\pti\pr\RPU\src" />
     <subs name="AKNP2"      scheme="D:/md/pti/pr/AKNP2/scheme/AKNP2.tpr"       id="9"   file="AKNP2fp"    description="AKNP2"      main="192.168.10.57" second="192.168.10.157" path="d:/md/pti/pr/AKNP2"  step="5"  status="ok" result="d:\md\pti\pr\AKNP2\src" />
 
-    <!-- сыгналы проверки -->
+    <!-- сыгналы проверки их бы убрать из этого проекта-->
     <subs name="ptiSig"     scheme="D:/md/pti/pr/ptiSig/scheme/ptiSig.tpr"       id="10"  file="ptiSigfp"    description="ptiSig"         main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/ptiSig"    step="20" status="ok" result="d:\md\pti\pr\ptiSig\src" />
     <subs name="DUsign"     scheme="D:/md/pti/pr/DUsign/scheme/DUsign.tpr"       id="11"  file="DUsignfp"    description="DUsign"         main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DUsign"    step="20" status="ok" result="d:\md\pti\pr\DUsign\src" />
     <subs name="Baz1sign"   scheme="D:/md/pti/pr/Baz1sign/scheme/Baz1sign.tpr"   id="12"  file="Baz1signfp"  description="Baz1sign"       main="192.168.10.52" second="192.168.10.152" path="d:/md/pti/pr/Baz1sign"  step="20" status="ok" result="d:\md\pti\pr\Baz1sign\src" />
