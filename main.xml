@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+ <general name="bars" description="Система БАРС" path="d:/md/pti/pr" defdrv="d:/md/pti/pr/default" simul="no" ip="192.168.1.17" port="5555"> 
+   <subs name="scm"        scheme="D:/md/pti/pr/scm/scheme/scm.tpr"           id="1"   file="scmfp"      description="SCM"        main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/scm"    step="20" status="ok" result="d:\md\pti\pr\scm\src" />
+=======
  <general name="bars"       description="Система БАРС" path="d:/md/pti/pr" defdrv="d:/md/pti/pr/default" simul="no" ip="192.168.1.17" port="5555"> 
    <subs name="scm"           scheme="D:/md/pti/pr/scm/scheme/scm.tpr"           id="1"   file="scmfp"      description="SCM"        main="192.168.10.60" second="192.168.10.60"  path="d:/md/pti/pr/scm"    step="20" status="ok" result="d:\md\pti\pr\scm\src" />
+>>>>>>> 3a8db7fae165465e45037d5567d0313c1c8644f0
     <subs name="DU"         scheme="D:/md/pti/pr/DU/scheme/DU.tpr"             id="2"   file="DUfp"       description="DU"         main="192.168.10.50" second="192.168.10.150" path="d:/md/pti/pr/DU"     step="20" status="ok" result="d:\md\pti\pr\DU\src" />
     <subs name="AKNP1"      scheme="D:/md/pti/pr/AKNP1/scheme/AKNP1.tpr"       id="3"   file="AKNP1fp"    description="AKNP1_DU"   main="192.168.10.51" second="192.168.10.151" path="d:/md/pti/pr/AKNP1"  step="5"  status="ok" result="d:\md\pti\pr\AKNP1\src" />
     <subs name="Baz1"       scheme="D:/md/pti/pr/Baz1/scheme/Baz1.tpr"         id="4"   file="Baz1fp"     description="Baz1"       main="192.168.10.52" second="192.168.10.152" path="d:/md/pti/pr/Baz1"   step="20" status="ok" result="d:\md\pti\pr\Baz1\src" />
