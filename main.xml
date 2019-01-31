@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <general name="bars" description="Система БАРС"  defdrv="default" simul="no" ip="192.168.1.17" port="5555"> 
-    <subs name="scm"        scheme="scm/scheme/scm.tpr"           id="1"   file="scmfp"      description="SCM"        main="192.168.10.60" second="192.168.10.60"  path="scm"    step="20" status="ok" result="scm\src" />
-    <subs name="DU"         scheme="DU/scheme/DU.tpr"             id="2"   file="DUfp"       description="DU"         main="192.168.10.50" second="192.168.10.150" path="DU"     step="20" status="ok" result="DU\src" />
-    <subs name="AKNP1"      scheme="AKNP1/scheme/AKNP1.tpr"       id="3"   file="AKNP1fp"    description="AKNP1_DU"   main="192.168.10.51" second="192.168.10.151" path="AKNP1"  step="5"  status="ok" result="AKNP1\src" />
-    <subs name="Baz1"       scheme="Baz1/scheme/Baz1.tpr"         id="4"   file="Baz1fp"     description="Baz1"       main="192.168.10.52" second="192.168.10.152" path="Baz1"   step="20" status="ok" result="Baz1\src" />
-    <subs name="AKNP3"      scheme="AKNP3/scheme/AKNP3.tpr"       id="5"   file="AKNP3fp"    description="AKNP3_BAZ1" main="192.168.10.53" second="192.168.10.153" path="AKNP3"  step="5"  status="ok" result="AKNP3\src" />
-    <subs name="Baz2"       scheme="Baz2/scheme/Baz2.tpr"         id="6"   file="Baz2fp"     description="Baz2"       main="192.168.10.54" second="192.168.10.154" path="Baz2"   step="20" status="ok" result="Baz2\src" />
-    <subs name="AKNP4"      scheme="AKNP4/scheme/AKNP4.tpr"       id="7"   file="AKNP4fp"    description="AKNP4_BAZ2" main="192.168.10.55" second="192.168.10.155" path="AKNP4"  step="5"  status="ok" result="AKNP4\src" />
-    <subs name="RPU"        scheme="RPU/scheme/RPU.tpr"           id="8"   file="RPUfp"      description="RPU"        main="192.168.10.31" second="192.168.10.131" path="RPU"    step="5"  status="ok" result="RPU\src" />
-    <subs name="AKNP2"      scheme="AKNP2/scheme/AKNP2.tpr"       id="9"   file="AKNP2fp"    description="AKNP2"      main="192.168.10.57" second="192.168.10.157" path="AKNP2"  step="5"  status="ok" result="AKNP2\src" />
+    <subs name="scm"        scheme="scm/scheme/scm.tpr"             id="1"   file="scmfp"       description="SCM"       main="192.168.10.60" second="192.168.10.60"  path="scm"       step="20" status="ok" result="scm\src" />
+    <subs name="DU"         scheme="DU/scheme/DU.tpr"               id="2"   file="DUfp"        description="DU"        main="192.168.10.50" second="192.168.10.150" path="DU"        step="20" status="ok" result="DU\src" />
+    <subs name="AKNP1"      scheme="AKNP1/scheme/AKNP1.tpr"         id="3"   file="AKNP1fp"     description="AKNP1"     main="192.168.10.51" second="192.168.10.151" path="AKNP1"     step="5"  status="ok" result="AKNP1\src" />
+    <subs name="Baz1"       scheme="Baz1/scheme/Baz1.tpr"           id="4"   file="Baz1fp"      description="Baz1"      main="192.168.10.52" second="192.168.10.152" path="Baz1"      step="20" status="ok" result="Baz1\src" />
+    <subs name="AKNP3"      scheme="AKNP3/scheme/AKNP3.tpr"         id="5"   file="AKNP3fp"     description="AKNP3"     main="192.168.10.53" second="192.168.10.153" path="AKNP3"     step="5"  status="ok" result="AKNP3\src" />
+    <subs name="Baz2"       scheme="Baz2/scheme/Baz2.tpr"           id="6"   file="Baz2fp"      description="Baz2"      main="192.168.10.54" second="192.168.10.154" path="Baz2"      step="20" status="ok" result="Baz2\src" />
+    <subs name="AKNP4"      scheme="AKNP4/scheme/AKNP4.tpr"         id="7"   file="AKNP4fp"     description="AKNP4"     main="192.168.10.55" second="192.168.10.155" path="AKNP4"     step="5"  status="ok" result="AKNP4\src" />
+    <subs name="RPU"        scheme="RPU/scheme/RPU.tpr"             id="8"   file="RPUfp"       description="RPU"       main="192.168.10.31" second="192.168.10.131" path="RPU"       step="5"  status="ok" result="RPU\src" />
+    <subs name="AKNP2"      scheme="AKNP2/scheme/AKNP2.tpr"         id="9"   file="AKNP2fp"     description="AKNP2"     main="192.168.10.57" second="192.168.10.157" path="AKNP2"     step="5"  status="ok" result="AKNP2\src" />
 
     <!-- сигналы проверки -->
-    <subs name="ptiSig"     scheme="ptiSig/scheme/ptiSig.tpr"       id="10"  file="ptiSigfp"    description="ptiSig"         main="192.168.10.60" second="192.168.10.60"  path="ptiSig"    step="20" status="ok" result="ptiSig\src" />
-    <subs name="DUsign"     scheme="DUsign/scheme/DUsign.tpr"       id="11"  file="DUsignfp"    description="DUsign"         main="192.168.10.50" second="192.168.10.150" path="DUsign"    step="20" status="ok" result="DUsign\src" />
-    <subs name="Baz1sign"   scheme="Baz1sign/scheme/Baz1sign.tpr"   id="12"  file="Baz1signfp"  description="Baz1sign"       main="192.168.10.52" second="192.168.10.152" path="Baz1sign"  step="20" status="ok" result="Baz1sign\src" />
-    <subs name="Baz2sign"   scheme="Baz2sign/scheme/Baz2sign.tpr"   id="13"  file="Baz2signfp"  description="Baz2sign"       main="192.168.10.54" second="192.168.10.154" path="Baz2sign"  step="20" status="ok" result="Baz2sign\src" />
-    <subs name="AKNP1sign"  scheme="AKNP1sign/scheme/AKNP1sign.tpr" id="14"  file="AKNP1signfp" description="AKNP1sign_DU"   main="192.168.10.51" second="192.168.10.151" path="AKNP1sign" step="5"  status="ok" result="AKNP1sign\src" />
-    <subs name="AKNP2sign"  scheme="AKNP2sign/scheme/AKNP2sign.tpr" id="15"  file="AKNP2signfp" description="AKNP2sign"      main="192.168.10.57" second="192.168.10.157" path="AKNP2sign" step="5"  status="ok" result="AKNP2sign\src" />
-    <subs name="AKNP3sign"  scheme="AKNP3sign/scheme/AKNP3sign.tpr" id="16"  file="AKNP3signfp" description="AKNP3sign_BAZ1" main="192.168.10.53" second="192.168.10.153" path="AKNP3sign" step="5"  status="ok" result="AKNP3sign\src" />
-    <subs name="AKNP4sign"  scheme="AKNP4sign/scheme/AKNP4sign.tpr" id="17"  file="AKNP4signfp" description="AKNP4sign_BAZ2" main="192.168.10.55" second="192.168.10.155" path="AKNP4sign" step="5"  status="ok" result="AKNP4sign\src" />
-    <subs name="RPUsign"    scheme="RPUsign/scheme/RPUsign.tpr"     id="18"  file="RPUsignfp"   description="RPUsign"        main="192.168.10.31" second="192.168.10.131" path="RPUsign"   step="5"  status="ok" result="RPUsign\src" />
+    <subs name="ptiSig"     scheme="ptiSig/scheme/ptiSig.tpr"       id="10"  file="ptiSigfp"    description="ptiSig"    main="192.168.10.60" second="192.168.10.60"  path="ptiSig"    step="20" status="ok" result="ptiSig\src" />
+    <subs name="DUsign"     scheme="DUsign/scheme/DUsign.tpr"       id="11"  file="DUsignfp"    description="DUsign"    main="192.168.10.50" second="192.168.10.150" path="DUsign"    step="20" status="ok" result="DUsign\src" />
+    <subs name="Baz1sign"   scheme="Baz1sign/scheme/Baz1sign.tpr"   id="12"  file="Baz1signfp"  description="Baz1sign"  main="192.168.10.52" second="192.168.10.152" path="Baz1sign"  step="20" status="ok" result="Baz1sign\src" />
+    <subs name="Baz2sign"   scheme="Baz2sign/scheme/Baz2sign.tpr"   id="13"  file="Baz2signfp"  description="Baz2sign"  main="192.168.10.54" second="192.168.10.154" path="Baz2sign"  step="20" status="ok" result="Baz2sign\src" />
+    <subs name="AKNP1sign"  scheme="AKNP1sign/scheme/AKNP1sign.tpr" id="14"  file="AKNP1signfp" description="AKNP1sign" main="192.168.10.51" second="192.168.10.151" path="AKNP1sign" step="5"  status="ok" result="AKNP1sign\src" />
+    <subs name="AKNP2sign"  scheme="AKNP2sign/scheme/AKNP2sign.tpr" id="15"  file="AKNP2signfp" description="AKNP2sign" main="192.168.10.57" second="192.168.10.157" path="AKNP2sign" step="5"  status="ok" result="AKNP2sign\src" />
+    <subs name="AKNP3sign"  scheme="AKNP3sign/scheme/AKNP3sign.tpr" id="16"  file="AKNP3signfp" description="AKNP3sign" main="192.168.10.53" second="192.168.10.153" path="AKNP3sign" step="5"  status="ok" result="AKNP3sign\src" />
+    <subs name="AKNP4sign"  scheme="AKNP4sign/scheme/AKNP4sign.tpr" id="17"  file="AKNP4signfp" description="AKNP4sign" main="192.168.10.55" second="192.168.10.155" path="AKNP4sign" step="5"  status="ok" result="AKNP4sign\src" />
+    <subs name="RPUsign"    scheme="RPUsign/scheme/RPUsign.tpr"     id="18"  file="RPUsignfp"   description="RPUsign"   main="192.168.10.31" second="192.168.10.131" path="RPUsign"   step="5"  status="ok" result="RPUsign\src" />
 
 <!-- encoder -->
     <!-- <subs name="DUe" scheme="DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="DUe" step="20" status="ok" result="pti" /> -->

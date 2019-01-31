@@ -1,334 +1,323 @@
 <vars>
-<var  name="B0VP81LZ2" description="(B0VP81LZ2) Давление  АЗ2  в норме" format="1"></var>
-<var  name="B0VP81LZ1" description="(B0VP81LZ1) Давление  АЗ2  в норме" format="1"></var>
-<var  name="A0VP81LZ2" description="(A0VP81LZ2) Давление  АЗ1  в норме" format="1"></var>
-<var  name="A0VP81LZ1" description="(A0VP81LZ1) Давление  АЗ1  в норме" format="1"></var>
-<var  name="R0VP81LZ2" description="(R0VP81LZ2) Давление  в СИСТЕМЕ-1  в норме" format="1"></var>
-<var  name="R0VP81LZ1" description="(R0VP81LZ1) Давление  в СИСТЕМЕ - 1 в норме" format="1"></var>
-<var  name="B8IC01UDU" description="(B8IC01UDU) Координата АЗ2" format="5"></var>
-<var  name="A8IC01UDU" description="(A8IC01UDU) Координата ДС2" format="5"></var>
-<var  name="R6IS68LZ2" description="(R6IS68LZ2) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
-<var  name="R6IS68LZ1" description="(R6IS68LZ1) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
-<var  name="R6IS67LZ2" description="(R6IS67LZ2) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS67LZ1" description="(R6IS67LZ1) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS66LZ2" description="(R6IS66LZ2) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS66LZ1" description="(R6IS66LZ1) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS65LDU" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format="1"></var>
-<var  name="R6IS64LDU" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format="1"></var>
-<var  name="R6IS63LDU" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format="1"></var>
-<var  name="R6IS62LDU" description="(R6IS62LDU) Исправность ВИП ССДИ-39 1канал" format="1"></var>
-<var  name="B3IS22LZ2" description="(B3IS22LZ2) Приход на НУП ИС2" format="1"></var>
-<var  name="B3IS22LZ1" description="(B3IS22LZ1) Приход на НУП ИС2" format="1"></var>
-<var  name="R5IS21LDU" description="(R5IS21LDU) Приход на НУ ворот отстойной зоны" format="1"></var>
-<var  name="R5IS11LDU" description="(R5IS11LDU) Приход на ВУ ворот отстойной зоны" format="1"></var>
-<var  name="R3IS21LDU" description="(R3IS21LDU) Приход на НУ гомогенных дверей-1" format="1"></var>
-<var  name="R3IS11LDU" description="(R3IS11LDU) Приход на ВУ гомогенных дверей-1" format="1"></var>
-<var  name="B2VP82LDU" description="(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
-<var  name="B2IP01IZ2" description="(B2IP01IZ2) Текущее давление СБРОС РБ2" format="3"></var>
-<var  name="B2IP01IZ1" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format="3"></var>
-<var  name="B2IC01UDU" description="(B2IC01UDU) Координата штока РБ2" format="5"></var>
-<var  name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
-<var  name="B2IS11LDU" description="(B2IS11LDU) Приход на ВУ РБ2" format="1"></var>
-<var  name="B2IS21LDU" description="(B2IS21LDU) Приход на НУ РБ2" format="1"></var>
-<var  name="B9IS21LDU" description="(B9IS21LDU) Приход на НУ НИ ДС2" format="1"></var>
-<var  name="B9IS11LDU" description="(B9IS11LDU) Приход на ВУ НИ ДС2" format="1"></var>
-<var  name="A9IS21LDU" description="(A9IS21LDU) Приход на НУ НИ ДС1" format="1"></var>
-<var  name="A9IS11LDU" description="(A9IS11LDU) Приход на ВУ НИ ДС1" format="1"></var>
-<var  name="B5IS21LDU" description="(B5IS21LDU) Приход на НУ НЛ2" format="1"></var>
-<var  name="B5IS11LDU" description="(B5IS11LDU) Приход на ВУ НЛ2" format="1"></var>
-<var  name="A5IS21LDU" description="(A5IS21LDU) Приход на НУ НЛ1" format="1"></var>
-<var  name="A5IS11LDU" description="(A5IS11LDU) Приход на ВУ НЛ1" format="1"></var>
-<var  name="R0VP82LZ2" description="(R0VP82LZ2) Давление  в СИСТЕМЕ-2 в норме" format="1"></var>
-<var  name="R0VP82LZ1" description="(R0VP82LZ1) Давление  в СИСТЕМЕ-2 в норме" format="1"></var>
-<var  name="A2IP01IZ2" description="(A2IP01IZ2) Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="A2IP01IZ1" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="B3IS21LDU" description="(B3IS21LDU) Приход на НУ ИС2" format="1"></var>
-<var  name="A3IS21LDU" description="(A3IS21LDU) Приход на НУ ИС1" format="1"></var>
-<var  name="A2IS33LDU" description="(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)" format="1"></var>
-<var  name="A2IC01UDU" description="(A2IC01UDU) Координата штока РБ1" format="5"></var>
-<var  name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
-<var  name="A2IS11LDU" description="(A2IS11LDU) Приход на ВУ РБ1" format="1"></var>
-<var  name="A2IS21LDU" description="(A2IS21LDU) Приход на НУ РБ1" format="1"></var>
-<var  name="B0IT02IZ2" description="(B0IT02IZ2) Температура АЗ2-2" format="3"></var>
-<var  name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2-1" format="3"></var>
-<var  name="A0IT02IZ2" description="(A0IT02IZ2) Температура АЗ1-2" format="3"></var>
-<var  name="A0IT01IZ1" description="(A0IT01IZ1) Температура АЗ1-1" format="3"></var>
-<var  name="R6IS21LDU" description="(R6IS21LDU) Кран-балка в нерабочем положении" format="1"></var>
-<var  name="B7AS31LDU" description="(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)" format="1"></var>
-<var  name="A7AS31LDU" description="(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)" format="1"></var>
-<var  name="R0IE11LS4" description="(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4канала" format="1"></var>
-<var  name="R0IE13LS4" description="(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4канала" format="1"></var>
-<var  name="R0IE12LS4" description="(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4канала" format="1"></var>
-<var  name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
-<var  name="B3IS22LDU" description="(B3IS22LDU) Приход на НУП ИС2" format="1"></var>
-<var  name="B3IS11LZ2" description="(B3IS11LZ2) Приход на ВУ ИС2" format="1"></var>
-<var  name="B3IS11LZ1" description="(B3IS11LZ1) Приход на ВУ ИС2" format="1"></var>
-<var  name="A3IS22LZ2" description="(A3IS22LZ2) Приход на НУП ИС1" format="1"></var>
-<var  name="A3IS22LZ1" description="(A3IS22LZ1) Приход на НУП ИС1" format="1"></var>
-<var  name="A3IS11LZ2" description="(A3IS11LZ2) Приход на ВУ ИС1" format="1"></var>
-<var  name="A3IS11LZ1" description="(A3IS11LZ1) Приход на ВУ ИС1" format="1"></var>
-<var  name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1" format="1"></var>
-<var  name="B3IS11LDU" description="(B3IS11LDU) Приход на ВУ ИС2" format="1"></var>
-<var  name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1" format="1"></var>
-<var  name="A3IP02IDU" description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
-<var  name="B3VP81LDU" description="(B3VP81LDU) Давление СПУСК ИС2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format="1"></var>
-<var  name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="1"></var>
-<var  name="B3IC01UDU" description="(B3IC01UDU) Координата штока ИС2" format="5"></var>
-<var  name="B3IS31LDU" description="(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)" format="1"></var>
-<var  name="B3IP02IDU" description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2" format="3"></var>
-<var  name="A3IS33LDU" description="(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)" format="1"></var>
-<var  name="A3IC01UDU" description="(A3IC01UDU) Координата штока ИС1" format="5"></var>
-<var  name="A3IS31LDU" description="(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)" format="1"></var>
-<var  name="A2VP82LDU" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
-<var  name="B2IS11LIM" description="(B2IS11LIM) Магнит РБ2 обесточен" format="1"></var>
-<var  name="A2IS32LIM" description="(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)" format="1"></var>
-<var  name="A2IS11LIM" description="(A2IS11LIM) Магнит РБ1 обесточен" format="1"></var>
-<var  name="B1IS32LIM" description="(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)" format="1"></var>
-<var  name="B1IS11LIM" description="(B1IS11LIM) Магнит ББ2 обесточен" format="1"></var>
-<var  name="A1IS32LIM" description="(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)" format="1"></var>
-<var  name="A1IS11LIM" description="(A1IS11LIM) Магнит ББ1 обесточен" format="1"></var>
-<var  name="A3AD34LDU" description="(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)" format="1"></var>
-<var  name="R0IS02LDU" description="(R0IS02LDU) Разрешение ввода от имитатора" format="1"></var>
-<var  name="R0EE04LZ2" description="(R0EE04LZ2) Питание  АКНП4  отключить" format="1"></var>
-<var  name="R0EE03LZ2" description="(R0EE03LZ2) Питание  АКНП3  отключить" format="1"></var>
-<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE04LZ1" description="(R0EE04LZ1) Питание  АКНП4  отключить" format="1"></var>
-<var  name="R0EE03LZ1" description="(R0EE03LZ1) Питание  АКНП3  отключить" format="1"></var>
-<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
-<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
-<var  name="R5AD20LDU" description="(R5AD20LDU) Закрыть ворота отстойной зоны" format="1"></var>
-<var  name="R3AD21LDU" description="(R3AD21LDU) Гомогенные двери-2 закрыть" format="1"></var>
-<var  name="R3AD11LDU" description="(R3AD11LDU) Гомогенные двери-2 открыть" format="1"></var>
-<var  name="B0SN07RIM" description="(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
-<var  name="B0SN06RIM" description="(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
-<var  name="B0SN05RIM" description="(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
-<var  name="B0SN04RIM" description="(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2" format="8"></var>
-<var  name="B0SN03RIM" description="(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2" format="8"></var>
-<var  name="B0SN02RIM" description="(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2" format="8"></var>
-<var  name="B7AP31LDU" description="(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
-<var  name="A7AP31LDU" description="(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)" format="1"></var>
-<var  name="A0SN07RIM" description="(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1" format="8"></var>
-<var  name="A0SN06RIM" description="(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1" format="8"></var>
-<var  name="A0SN05RIM" description="(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1" format="8"></var>
-<var  name="A0SN04RIM" description="(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
-<var  name="A0SN03RIM" description="(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
-<var  name="A0SN02RIM" description="(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="A1VP81LZ2" description="(A1VP81LZ2) Давление СБРОС ББ1 в норме" format="1"></var>
-<var  name="A1VP81LZ1" description="(A1VP81LZ1) Давление СБРОС ББ1 в норме" format="1"></var>
-<var  name="B1VP81LZ1" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме" format="1"></var>
-<var  name="B1VP81LZ2" description="(B1VP81LZ2) Давление СБРОС ББ2 в норме" format="1"></var>
-<var  name="B2IS33LDU" description="(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)" format="1"></var>
-<var  name="A0VN01RIM" description="(A0VN01RIM) Период разгона  AЗ1" format="8"></var>
-<var  name="B2IS32LIM" description="(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)" format="1"></var>
-<var  name="A8IS12LDU" description="(A8IS12LDU) Приход на механический ВУ ДС2" format="1"></var>
-<var  name="A8IS22LDU" description="(A8IS22LDU) Приход на механический НУ ДС2" format="1"></var>
-<var  name="B8IS12LDU" description="(B8IS12LDU) Приход на механический ВУ АЗ2" format="1"></var>
-<var  name="B8IS22LDU" description="(B8IS22LDU) Приход на механический НУ АЗ2" format="1"></var>
-<var  name="R4IS12LDU" description="(R4IS12LDU) Приход на механический ВУ тележки" format="1"></var>
-<var  name="R4IS22LDU" description="(R4IS22LDU) Приход на механический НУ тележки" format="1"></var>
-<var  name="R4IS21LDU" description="(R4IS21LDU) Приход на НУ тележки" format="1"></var>
-<var  name="R4IS11LDU" description="(R4IS11LDU) Приход на ВУ тележки" format="1"></var>
-<var  name="B4VP82LDU" description="(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A4VP82LDU" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
-<var  name="R3IS41LDU" description="(R3IS41LDU) Приход на НУ гомогенных дверей-2" format="1"></var>
-<var  name="R3IS31LDU" description="(R3IS31LDU) Приход на ВУ гомогенных дверей-2" format="1"></var>
-<var  name="R2IS21LDU" description="(R2IS21LDU) Приход на НУ МДЗ2" format="1"></var>
-<var  name="R2IS11LDU" description="(R2IS11LDU) Приход на ВУ МДЗ2" format="1"></var>
-<var  name="R1IS21LDU" description="(R1IS21LDU) Приход на НУ МДЗ1" format="1"></var>
-<var  name="R1IS11LDU" description="(R1IS11LDU) Приход на ВУ МДЗ1" format="1"></var>
-<var  name="B4IS21LDU" description="(B4IS21LDU) Приход на НУ НИ2" format="1"></var>
-<var  name="B4IS11LDU" description="(B4IS11LDU) Приход на ВУ НИ2" format="1"></var>
-<var  name="R8IS11LDU" description="(R8IS11LDU) Аварийный НИ установлен" format="1"></var>
-<var  name="A4IS21LDU" description="(A4IS21LDU) Приход на НУ НИ1" format="1"></var>
-<var  name="A4IS11LDU" description="(A4IS11LDU) Приход на ВУ НИ1" format="1"></var>
-<var  name="R3AD20LDU" description="(R3AD20LDU) Гомогенные двери-1 закрыть" format="1"></var>
-<var  name="R3AD10LDU" description="(R3AD10LDU) Гомогенные двери-1 открыть" format="1"></var>
-<var  name="R5AD10LDU" description="(R5AD10LDU) Открыть ворота отстойной зоны" format="1"></var>
-<var  name="B4IS10LDU" description="(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)" format="1"></var>
-<var  name="A4IS10LDU" description="(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)" format="1"></var>
-<var  name="B1IE04LDU" description="(B1IE04LDU) Движение ББ2 назад (от БУШД)" format="1"></var>
-<var  name="B1IE03LDU" description="(B1IE03LDU) Движение ББ2 вперед (от БУШД)" format="1"></var>
-<var  name="A1IE04LDU" description="(A1IE04LDU) Движение ББ1 назад (от БУШД)" format="1"></var>
-<var  name="A1IE03LDU" description="(A1IE03LDU) Движение ББ1 вперед (от БУШД)" format="1"></var>
-<var  name="B1IS12LDU" description="(B1IS12LDU) Магнит ББ2 зацеплен" format="1"></var>
-<var  name="B1IS11LDU" description="(B1IS11LDU) Приход на ВУ ББ2" format="1"></var>
-<var  name="B1IS21LDU" description="(B1IS21LDU) Приход на НУ ББ2" format="1"></var>
-<var  name="B1IC01UDU" description="(B1IC01UDU) Координата штока ББ2" format="5"></var>
-<var  name="A1IC01UDU" description="(A1IC01UDU) Координата штока ББ1" format="5"></var>
-<var  name="A1IS12LDU" description="(A1IS12LDU) Магнит ББ1 зацеплен" format="1"></var>
-<var  name="A1IS11LDU" description="(A1IS11LDU) Приход на ВУ ББ1" format="1"></var>
-<var  name="A1IS21LDU" description="(A1IS21LDU) Приход на НУ ББ1" format="1"></var>
-<var  name="B6IS21LDU" description="(B6IS21LDU) Приход на НУ БЗ2" format="1"></var>
-<var  name="B6IS11LDU" description="(B6IS11LDU) Приход на ВУ БЗ2" format="1"></var>
-<var  name="A6IS21LDU" description="(A6IS21LDU) Приход на НУ БЗ1" format="1"></var>
-<var  name="A6IS11LDU" description="(A6IS11LDU) Приход на ВУ БЗ1" format="1"></var>
-<var  name="R2AD10LDU" description="(R2AD10LDU) Опустить МДЗ2 в зону облучения" format="1"></var>
-<var  name="R1AD20LDU" description="(R1AD20LDU) Поднять МДЗ1" format="1"></var>
-<var  name="R1AD10LDU" description="(R1AD10LDU) Опустить МДЗ1 в зону облучения" format="1"></var>
-<var  name="B6AD20LDU" description="(B6AD20LDU) Закрыть БЗ2" format="1"></var>
-<var  name="B6AD10LDU" description="(B6AD10LDU) Открыть БЗ2" format="1"></var>
-<var  name="A6AD20LDU" description="(A6AD20LDU) Закрыть БЗ1" format="1"></var>
-<var  name="A6AD10LDU" description="(A6AD10LDU) Открыть БЗ1" format="1"></var>
-<var  name="A8AD20LDU" description="(A8AD20LDU) Перемещение ДС2 назад" format="1"></var>
-<var  name="A8AD10LDU" description="(A8AD10LDU) Перемещение ДС2 вперед" format="1"></var>
-<var  name="B8AD20LDU" description="(B8AD20LDU) Перемещение АЗ2 назад" format="1"></var>
-<var  name="B8AD10LDU" description="(B8AD10LDU) Перемещение АЗ2 вперед" format="1"></var>
-<var  name="R4AD20LDU" description="(R4AD20LDU) Перемещение тележки назад" format="1"></var>
-<var  name="R4AD10LDU" description="(R4AD10LDU) Перемещение тележки вперед" format="1"></var>
-<var  name="B0SR01RIM" description="(B0SR01RIM) Текущая реактивность AЗ2" format="8"></var>
-<var  name="B3AD33LDU" description="(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)" format="1"></var>
-<var  name="B3AD05LDU" description="(B3AD05LDU) паритет команды на ИС2" format="1"></var>
-<var  name="B3AD04LDU" description="(B3AD04LDU) 2-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD03LDU" description="(B3AD03LDU) 1-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD02LDU" description="(B3AD02LDU) 0-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD01LDU" description="(B3AD01LDU) Разрешение движения ИС2" format="1"></var>
-<var  name="C1MD31LP1" description="(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1" format="1"></var>
-<var  name="C1MD31LP2" description="(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2" format="1"></var>
-<var  name="A1AD31LDU" description="(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)" format="1"></var>
-<var  name="A1AD32LDU" description="(A1AD32LDU) Обесточить ЭМ ББ1" format="1"></var>
-<var  name="A2AD31LDU" description="(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)" format="1"></var>
-<var  name="C2MD31LP1" description="(C2MD31LP1) Кнопка «СБРОС РБ»" format="1"></var>
-<var  name="A2AD32LDU" description="(A2AD32LDU) Обесточить ЭМ РБ1" format="1"></var>
-<var  name="R0VZ71LZ2" description="(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
-<var  name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
-<var  name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format="1"></var>
-<var  name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
-<var  name="R0SR02RIM" description="(R0SR02RIM) Текущая мощность РУ (ватт)" format="8"></var>
-<var  name="R0CR02RIM" description="(R0CR02RIM) Коэффициент 11 связи АЗ1,2" format="8"></var>
-<var  name="R0CR01RIM" description="(R0CR01RIM) Коэффициент 12 связи АЗ1,2" format="8"></var>
-<var  name="B0SN08RIM" description="(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)" format="8"></var>
-<var  name="A0SN08RIM" description="(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)" format="8"></var>
-<var  name="B5AD20LDU" description="(B5AD20LDU) Опустить НЛ2" format="1"></var>
-<var  name="B5AD10LDU" description="(B5AD10LDU) Поднять НЛ2" format="1"></var>
-<var  name="A5AD20LDU" description="(A5AD20LDU) Опустить НЛ1" format="1"></var>
-<var  name="A5AD10LDU" description="(A5AD10LDU) Поднять НЛ1" format="1"></var>
-<var  name="R2AD20LDU" description="(R2AD20LDU) Поднять МДЗ2" format="1"></var>
-<var  name="A2AD03LDU" description="(A2AD03LDU) 1-й бит скорости РБ1" format="1"></var>
-<var  name="A2AD02LDU" description="(A2AD02LDU) 0-й бит скорости РБ1" format="1"></var>
-<var  name="A2AD01LDU" description="(A2AD01LDU) Разрешение движения РБ1" format="1"></var>
-<var  name="A2AD21LDU" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format="1"></var>
-<var  name="A2AD11LDU" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format="1"></var>
-<var  name="B1AD05LDU" description="(B1AD05LDU) паритет команды на ББ2" format="1"></var>
-<var  name="B1AD04LDU" description="(B1AD04LDU) 2-й бит скорости ББ2" format="1"></var>
-<var  name="B1AD03LDU" description="(B1AD03LDU) 1-й бит скорости ББ2" format="1"></var>
-<var  name="B1AD02LDU" description="(B1AD02LDU) 0-й бит скорости  ББ2" format="1"></var>
-<var  name="B1AD01LDU" description="(B1AD01LDU) Разрешение движения ББ2" format="1"></var>
-<var  name="B1AD21LDU" description="(B1AD21LDU) Сигнал на перемещение ББ2 вниз" format="1"></var>
-<var  name="B1AD11LDU" description="(B1AD11LDU) Сигнал на перемещение ББ2 вверх" format="1"></var>
-<var  name="A1AD05LDU" description="(A1AD05LDU) паритет команды на ББ1" format="1"></var>
-<var  name="A1AD04LDU" description="(A1AD04LDU) 2-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD03LDU" description="(A1AD03LDU) 1-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD02LDU" description="(A1AD02LDU) 0-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD01LDU" description="(A1AD01LDU) Разрешение движения ББ1" format="1"></var>
-<var  name="A1AD21LDU" description="(A1AD21LDU) Сигнал на перемещение ББ1 вниз" format="1"></var>
-<var  name="A1AD11LDU" description="(A1AD11LDU) Сигнал на перемещение ББ1 вверх" format="1"></var>
 <var  name="A0SR01RIM" description="(A0SR01RIM) Текущая реактивность AЗ1" format="8"></var>
-<var  name="B3AD21LDU" description="(B3AD21LDU) Сигнал на перемещение ИС2 вниз" format="1"></var>
-<var  name="B3AD11LDU" description="(B3AD11LDU) Сигнал на перемещение ИС2 вверх" format="1"></var>
-<var  name="A3AD33LDU" description="(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)" format="1"></var>
-<var  name="A3AD05LDU" description="(A3AD05LDU) паритет команды на ИС1" format="1"></var>
-<var  name="A3AD04LDU" description="(A3AD04LDU) 2-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD03LDU" description="(A3AD03LDU) 1-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD02LDU" description="(A3AD02LDU) 0-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD01LDU" description="(A3AD01LDU) Разрешение движения ИС1" format="1"></var>
-<var  name="A3AD21LDU" description="(A3AD21LDU) Сигнал на перемещение ИС1 вниз" format="1"></var>
-<var  name="A3AD11LDU" description="(A3AD11LDU) Сигнал на перемещение ИС1 вверх" format="1"></var>
-<var  name="B2AD33LDU" description="(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)" format="1"></var>
-<var  name="B2AD05LDU" description="(B2AD05LDU) паритет команды на РБ2" format="1"></var>
-<var  name="B2AD04LDU" description="(B2AD04LDU) 2-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD03LDU" description="(B2AD03LDU) 1-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD02LDU" description="(B2AD02LDU) 0-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD01LDU" description="(B2AD01LDU) Разрешение движения РБ2" format="1"></var>
-<var  name="B2AD21LDU" description="(B2AD21LDU) Сигнал на перемещение РБ2 вниз" format="1"></var>
-<var  name="B2AD11LDU" description="(B2AD11LDU) Сигнал на перемещение РБ2 вверх" format="1"></var>
-<var  name="A2AD33LDU" description="(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)" format="1"></var>
-<var  name="A2AD05LDU" description="(A2AD05LDU) паритет команды на РБ1" format="1"></var>
+<var  name="A1AD11LDU" description="(A1AD11LDU) Сигнал на перемещение ББ1 вверх" format="1"></var>
+<var  name="A1AD21LDU" description="(A1AD21LDU) Сигнал на перемещение ББ1 вниз" format="1"></var>
+<var  name="A1AD01LDU" description="(A1AD01LDU) Разрешение движения ББ1" format="1"></var>
+<var  name="A1AD02LDU" description="(A1AD02LDU) 0-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD03LDU" description="(A1AD03LDU) 1-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD04LDU" description="(A1AD04LDU) 2-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD05LDU" description="(A1AD05LDU) паритет команды на ББ1" format="1"></var>
+<var  name="B1AD11LDU" description="(B1AD11LDU) Сигнал на перемещение ББ2 вверх" format="1"></var>
+<var  name="B1AD21LDU" description="(B1AD21LDU) Сигнал на перемещение ББ2 вниз" format="1"></var>
+<var  name="B1AD01LDU" description="(B1AD01LDU) Разрешение движения ББ2" format="1"></var>
+<var  name="B1AD02LDU" description="(B1AD02LDU) 0-й бит скорости  ББ2" format="1"></var>
+<var  name="B1AD03LDU" description="(B1AD03LDU) 1-й бит скорости ББ2" format="1"></var>
+<var  name="B1AD04LDU" description="(B1AD04LDU) 2-й бит скорости ББ2" format="1"></var>
+<var  name="B1AD05LDU" description="(B1AD05LDU) паритет команды на ББ2" format="1"></var>
+<var  name="A2AD11LDU" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format="1"></var>
+<var  name="A2AD21LDU" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format="1"></var>
+<var  name="A2AD01LDU" description="(A2AD01LDU) Разрешение движения РБ1" format="1"></var>
+<var  name="A2AD02LDU" description="(A2AD02LDU) 0-й бит скорости РБ1" format="1"></var>
+<var  name="A2AD03LDU" description="(A2AD03LDU) 1-й бит скорости РБ1" format="1"></var>
 <var  name="A2AD04LDU" description="(A2AD04LDU) 2-й бит скорости РБ1" format="1"></var>
-<var  name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3 на БАЗ2" format="1"></var>
-<var  name="A0VN71LS3" description="(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1" format="1"></var>
-<var  name="R0VN15RS3" description="(R0VN15RS3) Номер ведущей камеры канал 3" format="3"></var>
-<var  name="A1VN71LS3" description="(A1VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2" format="1"></var>
-<var  name="R0VN73LZ1" description="(R0VN73LZ1) АС по мощности канал 3 на БАЗ1" format="1"></var>
-<var  name="R0VN61LS3" description="(R0VN61LS3) ПС по мощности канал 3" format="1"></var>
-<var  name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности канал 3" format="8"></var>
-<var  name="R0IE11LS2" description="(R0IE11LS2) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
-<var  name="R0IE13LS2" description="(R0IE13LS2) Исправность ВИП 0,5 (№13) КНК53М 2канала" format="1"></var>
-<var  name="R0IE12LS2" description="(R0IE12LS2) Исправность ВИП 0,5 (№12) КНК15-1 2канала" format="1"></var>
-<var  name="A1EE01LS2" description="(A1EE01LS2) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
-<var  name="R0VN76LZ2" description="(R0VN76LZ2) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
-<var  name="A0EE01LS2" description="(A0EE01LS2) Исправность АКНП канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN76LZ1" description="(R0VN76LZ1) АС по периоду разгона канал 2  на БАЗ1" format="1"></var>
-<var  name="R0VN65LS2" description="(R0VN65LS2) ПС по периоду разгона канал 2" format="1"></var>
-<var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
-<var  name="A0VN71LS2" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN72LZ2" description="(R0VN72LZ2) АС по мощности канал 2 на БАЗ2" format="1"></var>
-<var  name="R0VN15RS2" description="(R0VN15RS2) Номер ведущей камеры канал 2" format="3"></var>
-<var  name="A1VN71LS2" description="(A1VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
-<var  name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
-<var  name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS4" description="(R0VN65LS4) ПС по периоду разгона канал 4" format="1"></var>
-<var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
-<var  name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
-<var  name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN15RS4" description="(R0VN15RS4) Номер ведущей камеры канал 4" format="3"></var>
-<var  name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
-<var  name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>
-<var  name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности канал 4" format="8"></var>
-<var  name="R0IE11LS3" description="(R0IE11LS3) Исправность ВИП 1,6 (№14) СНМ11 3канала" format="1"></var>
-<var  name="R0IE13LS3" description="(R0IE13LS3) Исправность ВИП 0,5 (№16) КНК53М 3канала" format="1"></var>
-<var  name="R0IE12LS3" description="(R0IE12LS3) Исправность ВИП 0,5 (№15) КНК15-1 3канала" format="1"></var>
-<var  name="A1EE01LS3" description="(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2" format="1"></var>
-<var  name="R0VN77LZ2" description="(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2" format="1"></var>
-<var  name="A0EE01LS3" description="(A0EE01LS3) Исправность АКНП канал 3 на БАЗ1" format="1"></var>
-<var  name="R0VN77LZ1" description="(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS3" description="(R0VN65LS3) ПС по периоду разгона канал 3" format="1"></var>
-<var  name="R0VN01RS3" description="(R0VN01RS3) Период разгона канал 3" format="8"></var>
-<var  name="A3IS35LDU" description="(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
-<var  name="R7II73LZ2" description="(R7II73LZ2) Сработала АС IIУР" format="1"></var>
-<var  name="R7II71LZ2" description="(R7II71LZ2) Сработала АС IУР (датчик 1)" format="1"></var>
-<var  name="R7II72LZ2" description="(R7II72LZ2) Сработала АС IУР (датчик 2)" format="1"></var>
-<var  name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format="1"></var>
-<var  name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР (датчик 2)" format="1"></var>
-<var  name="R7II71LZ1" description="(R7II71LZ1) Сработала АС IУР (датчик 1)" format="1"></var>
-<var  name="R7II73LZ1" description="(R7II73LZ1) Сработала АС IIУР" format="1"></var>
-<var  name="R0SR01RIM" description="(R0SR01RIM) Текущая реактивность PУ" format="8"></var>
-<var  name="R0ST01RIM" description="(R0ST01RIM) Текущий период разгона РУ" format="8"></var>
-<var  name="A4AD10LDU" description="(A4AD10LDU) Открыть клапан (Подъем НИ1)" format="1"></var>
-<var  name="B4AD10LDU" description="(B4AD10LDU) Открыть клапан (Подъем НИ2)" format="1"></var>
-<var  name="A9AD10LDU" description="(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)" format="1"></var>
-<var  name="B9AD10LDU" description="(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)" format="1"></var>
-<var  name="R0MW13LP2" description="(R0MW13LP2) Переключатель «СЕТЬ»" format="1"></var>
-<var  name="B3AD31LDU" description="(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)" format="1"></var>
-<var  name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format="1"></var>
-<var  name="B2AD31LDU" description="(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)" format="1"></var>
-<var  name="B1AD32LDU" description="(B1AD32LDU) Обесточить ЭМ ББ2" format="1"></var>
-<var  name="B1AD31LDU" description="(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)" format="1"></var>
+<var  name="A2AD05LDU" description="(A2AD05LDU) паритет команды на РБ1" format="1"></var>
+<var  name="A2AD33LDU" description="(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)" format="1"></var>
+<var  name="B2AD11LDU" description="(B2AD11LDU) Сигнал на перемещение РБ2 вверх" format="1"></var>
+<var  name="B2AD21LDU" description="(B2AD21LDU) Сигнал на перемещение РБ2 вниз" format="1"></var>
+<var  name="B2AD01LDU" description="(B2AD01LDU) Разрешение движения РБ2" format="1"></var>
+<var  name="B2AD02LDU" description="(B2AD02LDU) 0-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD03LDU" description="(B2AD03LDU) 1-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD04LDU" description="(B2AD04LDU) 2-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD05LDU" description="(B2AD05LDU) паритет команды на РБ2" format="1"></var>
+<var  name="B2AD33LDU" description="(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)" format="1"></var>
+<var  name="A3AD11LDU" description="(A3AD11LDU) Сигнал на перемещение ИС1 вверх" format="1"></var>
+<var  name="A3AD21LDU" description="(A3AD21LDU) Сигнал на перемещение ИС1 вниз" format="1"></var>
+<var  name="A3AD01LDU" description="(A3AD01LDU) Разрешение движения ИС1" format="1"></var>
+<var  name="A3AD02LDU" description="(A3AD02LDU) 0-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD03LDU" description="(A3AD03LDU) 1-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD04LDU" description="(A3AD04LDU) 2-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD05LDU" description="(A3AD05LDU) паритет команды на ИС1" format="1"></var>
+<var  name="A3AD33LDU" description="(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)" format="1"></var>
+<var  name="B3AD11LDU" description="(B3AD11LDU) Сигнал на перемещение ИС2 вверх" format="1"></var>
+<var  name="B3AD21LDU" description="(B3AD21LDU) Сигнал на перемещение ИС2 вниз" format="1"></var>
+<var  name="B3AD01LDU" description="(B3AD01LDU) Разрешение движения ИС2" format="1"></var>
+<var  name="B3AD02LDU" description="(B3AD02LDU) 0-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD03LDU" description="(B3AD03LDU) 1-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD04LDU" description="(B3AD04LDU) 2-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD05LDU" description="(B3AD05LDU) паритет команды на ИС2" format="1"></var>
+<var  name="B3AD33LDU" description="(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)" format="1"></var>
+<var  name="B0SR01RIM" description="(B0SR01RIM) Текущая реактивность AЗ2" format="8"></var>
+<var  name="R4AD10LDU" description="(R4AD10LDU) Перемещение тележки вперед" format="1"></var>
+<var  name="R4AD20LDU" description="(R4AD20LDU) Перемещение тележки назад" format="1"></var>
+<var  name="B8AD10LDU" description="(B8AD10LDU) Перемещение АЗ2 вперед" format="1"></var>
+<var  name="B8AD20LDU" description="(B8AD20LDU) Перемещение АЗ2 назад" format="1"></var>
+<var  name="A8AD10LDU" description="(A8AD10LDU) Перемещение ДС2 вперед" format="1"></var>
+<var  name="A8AD20LDU" description="(A8AD20LDU) Перемещение ДС2 назад" format="1"></var>
+<var  name="A6AD10LDU" description="(A6AD10LDU) Открыть БЗ1" format="1"></var>
+<var  name="A6AD20LDU" description="(A6AD20LDU) Закрыть БЗ1" format="1"></var>
+<var  name="B6AD10LDU" description="(B6AD10LDU) Открыть БЗ2" format="1"></var>
+<var  name="B6AD20LDU" description="(B6AD20LDU) Закрыть БЗ2" format="1"></var>
+<var  name="R1AD10LDU" description="(R1AD10LDU) Опустить МДЗ1 в зону облучения" format="1"></var>
+<var  name="R1AD20LDU" description="(R1AD20LDU) Поднять МДЗ1" format="1"></var>
+<var  name="R2AD10LDU" description="(R2AD10LDU) Опустить МДЗ2 в зону облучения" format="1"></var>
+<var  name="R2AD20LDU" description="(R2AD20LDU) Поднять МДЗ2" format="1"></var>
+<var  name="A5AD10LDU" description="(A5AD10LDU) Поднять НЛ1" format="1"></var>
+<var  name="A5AD20LDU" description="(A5AD20LDU) Опустить НЛ1" format="1"></var>
+<var  name="B5AD10LDU" description="(B5AD10LDU) Поднять НЛ2" format="1"></var>
+<var  name="B5AD20LDU" description="(B5AD20LDU) Опустить НЛ2" format="1"></var>
+<var  name="A0SN08RIM" description="(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)" format="8"></var>
+<var  name="B0SN08RIM" description="(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)" format="8"></var>
+<var  name="R0CR01RIM" description="(R0CR01RIM) Коэффициент 12 связи АЗ1,2" format="8"></var>
+<var  name="R0CR02RIM" description="(R0CR02RIM) Коэффициент 11 связи АЗ1,2" format="8"></var>
+<var  name="R0SR02RIM" description="(R0SR02RIM) Текущая мощность РУ (ватт)" format="8"></var>
+<var  name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var  name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format="1"></var>
+<var  name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
+<var  name="R0VZ71LZ2" description="(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
+<var  name="A2AD32LDU" description="(A2AD32LDU) Обесточить ЭМ РБ1" format="1"></var>
+<var  name="C2MD31LP1" description="(C2MD31LP1) Кнопка «СБРОС РБ»" format="1"></var>
+<var  name="A2AD31LDU" description="(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)" format="1"></var>
+<var  name="A1AD32LDU" description="(A1AD32LDU) Обесточить ЭМ ББ1" format="1"></var>
+<var  name="A1AD31LDU" description="(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)" format="1"></var>
+<var  name="C1MD31LP2" description="(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2" format="1"></var>
+<var  name="C1MD31LP1" description="(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1" format="1"></var>
 <var  name="A3AD31LDU" description="(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)" format="1"></var>
-<var  name="R0VN72LZ1" description="(R0VN72LZ1) АС по мощности канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>
-<var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
-<var  name="R0IE13LS1" description="(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1канала" format="1"></var>
-<var  name="R0IE12LS1" description="(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1канала" format="1"></var>
-<var  name="R0IE11LS1" description="(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1канала" format="1"></var>
-<var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП на БАЗ2" format="1"></var>
-<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
-<var  name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП канал1 на БАЗ1" format="1"></var>
-<var  name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгонана БАЗ1" format="1"></var>
-<var  name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал1" format="1"></var>
-<var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
-<var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ канал 1 на БАЗ2" format="1"></var>
-<var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности канал 1  на БАЗ2" format="1"></var>
-<var  name="R0VN15RS1" description="(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей" format="3"></var>
-<var  name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического  подъёма ББ канал 1 на БАЗ1" format="1"></var>
-<var  name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности канал1 на БАЗ1" format="1"></var>
-<var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
-<var  name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности канал1" format="8"></var>
-<var  name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
+<var  name="B1AD31LDU" description="(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)" format="1"></var>
+<var  name="B1AD32LDU" description="(B1AD32LDU) Обесточить ЭМ ББ2" format="1"></var>
+<var  name="B2AD31LDU" description="(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)" format="1"></var>
+<var  name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format="1"></var>
+<var  name="B3AD31LDU" description="(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)" format="1"></var>
+<var  name="R0MW13LP2" description="(R0MW13LP2) Переключатель «СЕТЬ»" format="1"></var>
+<var  name="B9AD10LDU" description="(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)" format="1"></var>
+<var  name="A9AD10LDU" description="(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)" format="1"></var>
+<var  name="B4AD10LDU" description="(B4AD10LDU) Открыть клапан (Подъем НИ2)" format="1"></var>
+<var  name="A4AD10LDU" description="(A4AD10LDU) Открыть клапан (Подъем НИ1)" format="1"></var>
+<var  name="R0ST01RIM" description="(R0ST01RIM) Текущий период разгона РУ" format="8"></var>
+<var  name="R0SR01RIM" description="(R0SR01RIM) Текущая реактивность PУ" format="8"></var>
+<var  name="R7II73LZ1" description="(R7II73LZ1) Сработала АС IIУР" format="1"></var>
+<var  name="R7II71LZ1" description="(R7II71LZ1) Сработала АС IУР (датчик 1)" format="1"></var>
+<var  name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР (датчик 2)" format="1"></var>
+<var  name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format="1"></var>
+<var  name="R7II72LZ2" description="(R7II72LZ2) Сработала АС IУР (датчик 2)" format="1"></var>
+<var  name="R7II71LZ2" description="(R7II71LZ2) Сработала АС IУР (датчик 1)" format="1"></var>
+<var  name="R7II73LZ2" description="(R7II73LZ2) Сработала АС IIУР" format="1"></var>
+<var  name="A3IS35LDU" description="(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
 <var  name="B3AD34LDU" description="(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)" format="1"></var>
+<var  name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
+<var  name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности канал1" format="8"></var>
+<var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
+<var  name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности канал1 на БАЗ1" format="1"></var>
+<var  name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического  подъёма ББ канал 1 на БАЗ1" format="1"></var>
+<var  name="R0VN15RS1" description="(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей" format="3"></var>
+<var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности канал 1  на БАЗ2" format="1"></var>
+<var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ канал 1 на БАЗ2" format="1"></var>
+<var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
+<var  name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал1" format="1"></var>
+<var  name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгонана БАЗ1" format="1"></var>
+<var  name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП канал1 на БАЗ1" format="1"></var>
+<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
+<var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП на БАЗ2" format="1"></var>
+<var  name="R0IE11LS1" description="(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1канала" format="1"></var>
+<var  name="R0IE12LS1" description="(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1канала" format="1"></var>
+<var  name="R0IE13LS1" description="(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1канала" format="1"></var>
+<var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
+<var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>
+<var  name="R0VN72LZ1" description="(R0VN72LZ1) АС по мощности канал 2 на БАЗ1" format="1"></var>
+<var  name="A1VN71LS2" description="(A1VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
+<var  name="R0VN15RS2" description="(R0VN15RS2) Номер ведущей камеры канал 2" format="3"></var>
+<var  name="R0VN72LZ2" description="(R0VN72LZ2) АС по мощности канал 2 на БАЗ2" format="1"></var>
+<var  name="A0VN71LS2" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
+<var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
+<var  name="R0VN65LS2" description="(R0VN65LS2) ПС по периоду разгона канал 2" format="1"></var>
+<var  name="R0VN76LZ1" description="(R0VN76LZ1) АС по периоду разгона канал 2  на БАЗ1" format="1"></var>
+<var  name="A0EE01LS2" description="(A0EE01LS2) Исправность АКНП канал 2 на БАЗ1" format="1"></var>
+<var  name="R0VN76LZ2" description="(R0VN76LZ2) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
+<var  name="A1EE01LS2" description="(A1EE01LS2) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
+<var  name="R0IE12LS2" description="(R0IE12LS2) Исправность ВИП 0,5 (№12) КНК15-1 2канала" format="1"></var>
+<var  name="R0IE13LS2" description="(R0IE13LS2) Исправность ВИП 0,5 (№13) КНК53М 2канала" format="1"></var>
+<var  name="R0IE11LS2" description="(R0IE11LS2) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
+<var  name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности канал 3" format="8"></var>
+<var  name="R0VN61LS3" description="(R0VN61LS3) ПС по мощности канал 3" format="1"></var>
+<var  name="R0VN73LZ1" description="(R0VN73LZ1) АС по мощности канал 3 на БАЗ1" format="1"></var>
+<var  name="A1VN71LS3" description="(A1VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2" format="1"></var>
+<var  name="R0VN15RS3" description="(R0VN15RS3) Номер ведущей камеры канал 3" format="3"></var>
+<var  name="A0VN71LS3" description="(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1" format="1"></var>
+<var  name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3 на БАЗ2" format="1"></var>
+<var  name="R0VN01RS3" description="(R0VN01RS3) Период разгона канал 3" format="8"></var>
+<var  name="R0VN65LS3" description="(R0VN65LS3) ПС по периоду разгона канал 3" format="1"></var>
+<var  name="R0VN77LZ1" description="(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1" format="1"></var>
+<var  name="A0EE01LS3" description="(A0EE01LS3) Исправность АКНП канал 3 на БАЗ1" format="1"></var>
+<var  name="R0VN77LZ2" description="(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2" format="1"></var>
+<var  name="A1EE01LS3" description="(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2" format="1"></var>
+<var  name="R0IE12LS3" description="(R0IE12LS3) Исправность ВИП 0,5 (№15) КНК15-1 3канала" format="1"></var>
+<var  name="R0IE13LS3" description="(R0IE13LS3) Исправность ВИП 0,5 (№16) КНК53М 3канала" format="1"></var>
+<var  name="R0IE11LS3" description="(R0IE11LS3) Исправность ВИП 1,6 (№14) СНМ11 3канала" format="1"></var>
+<var  name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности канал 4" format="8"></var>
+<var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>
+<var  name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
+<var  name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
+<var  name="R0VN15RS4" description="(R0VN15RS4) Номер ведущей камеры канал 4" format="3"></var>
+<var  name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1" format="1"></var>
+<var  name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
+<var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
+<var  name="R0VN65LS4" description="(R0VN65LS4) ПС по периоду разгона канал 4" format="1"></var>
+<var  name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
+<var  name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
+<var  name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
+<var  name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
+<var  name="R0IE12LS4" description="(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4канала" format="1"></var>
+<var  name="R0IE13LS4" description="(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4канала" format="1"></var>
+<var  name="R0IE11LS4" description="(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4канала" format="1"></var>
+<var  name="A7AS31LDU" description="(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)" format="1"></var>
+<var  name="B7AS31LDU" description="(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)" format="1"></var>
+<var  name="R6IS21LDU" description="(R6IS21LDU) Кран-балка в нерабочем положении" format="1"></var>
+<var  name="A0IT01IZ1" description="(A0IT01IZ1) Температура АЗ1-1" format="3"></var>
+<var  name="A0IT02IZ2" description="(A0IT02IZ2) Температура АЗ1-2" format="3"></var>
+<var  name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2-1" format="3"></var>
+<var  name="B0IT02IZ2" description="(B0IT02IZ2) Температура АЗ2-2" format="3"></var>
+<var  name="A2IS21LDU" description="(A2IS21LDU) Приход на НУ РБ1" format="1"></var>
+<var  name="A2IS11LDU" description="(A2IS11LDU) Приход на ВУ РБ1" format="1"></var>
+<var  name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
+<var  name="A2IC01UDU" description="(A2IC01UDU) Координата штока РБ1" format="5"></var>
+<var  name="A2IS33LDU" description="(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)" format="1"></var>
+<var  name="A3IS21LDU" description="(A3IS21LDU) Приход на НУ ИС1" format="1"></var>
+<var  name="B3IS21LDU" description="(B3IS21LDU) Приход на НУ ИС2" format="1"></var>
+<var  name="A2IP01IZ1" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="A2IP01IZ2" description="(A2IP01IZ2) Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="A2VP82LDU" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="A3IS31LDU" description="(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)" format="1"></var>
+<var  name="A3IC01UDU" description="(A3IC01UDU) Координата штока ИС1" format="5"></var>
+<var  name="A3IS33LDU" description="(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)" format="1"></var>
+<var  name="B3IP02IDU" description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2" format="3"></var>
+<var  name="B3IS31LDU" description="(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)" format="1"></var>
+<var  name="B3IC01UDU" description="(B3IC01UDU) Координата штока ИС2" format="5"></var>
+<var  name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="1"></var>
+<var  name="A3VP81LDU" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3VP81LDU" description="(B3VP81LDU) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="A3IP02IDU" description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
+<var  name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1" format="1"></var>
+<var  name="B3IS11LDU" description="(B3IS11LDU) Приход на ВУ ИС2" format="1"></var>
+<var  name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1" format="1"></var>
+<var  name="B3IS22LDU" description="(B3IS22LDU) Приход на НУП ИС2" format="1"></var>
+<var  name="R6IS62LDU" description="(R6IS62LDU) Исправность ВИП ССДИ-39 1канал" format="1"></var>
+<var  name="R6IS63LDU" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format="1"></var>
+<var  name="R6IS64LDU" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format="1"></var>
+<var  name="R6IS65LDU" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format="1"></var>
+<var  name="R6IS66LZZ" description="(R6IS66LZZ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS67LZZ" description="(R6IS67LZZ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS68LZZ" description="(R6IS68LZZ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="A8IC01UDU" description="(A8IC01UDU) Координата ДС2" format="5"></var>
+<var  name="B8IC01UDU" description="(B8IC01UDU) Координата АЗ2" format="5"></var>
+<var  name="A0VP81LZZ" description="(A0VP81LZZ) Давление АЗ1 в норме" format="1"></var>
+<var  name="B0VP81LZZ" description="(B0VP81LZZ) Давление АЗ2 в норме" format="1"></var>
+<var  name="A5IS11LDU" description="(A5IS11LDU) Приход на ВУ НЛ1" format="1"></var>
+<var  name="A5IS21LDU" description="(A5IS21LDU) Приход на НУ НЛ1" format="1"></var>
+<var  name="B5IS11LDU" description="(B5IS11LDU) Приход на ВУ НЛ2" format="1"></var>
+<var  name="B5IS21LDU" description="(B5IS21LDU) Приход на НУ НЛ2" format="1"></var>
+<var  name="A9IS11LDU" description="(A9IS11LDU) Приход на ВУ НИ ДС1" format="1"></var>
+<var  name="A9IS21LDU" description="(A9IS21LDU) Приход на НУ НИ ДС1" format="1"></var>
+<var  name="B9IS11LDU" description="(B9IS11LDU) Приход на ВУ НИ ДС2" format="1"></var>
+<var  name="B9IS21LDU" description="(B9IS21LDU) Приход на НУ НИ ДС2" format="1"></var>
+<var  name="B2IS21LDU" description="(B2IS21LDU) Приход на НУ РБ2" format="1"></var>
+<var  name="B2IS11LDU" description="(B2IS11LDU) Приход на ВУ РБ2" format="1"></var>
+<var  name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
+<var  name="B2IC01UDU" description="(B2IC01UDU) Координата штока РБ2" format="5"></var>
+<var  name="B2IP01IZ1" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="B2IP01IZ2" description="(B2IP01IZ2) Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="B2VP82LDU" description="(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="R3IS11LDU" description="(R3IS11LDU) Приход на ВУ гомогенных дверей" format="1"></var>
+<var  name="R3IS21LDU" description="(R3IS21LDU) Приход на НУ гомогенных дверей" format="1"></var>
+<var  name="R5IS11LDU" description="(R5IS11LDU) Приход на ВУ ворот отстойной зоны" format="1"></var>
+<var  name="R5IS21LDU" description="(R5IS21LDU) Приход на НУ ворот отстойной зоны" format="1"></var>
+<var  name="A4IS11LDU" description="(A4IS11LDU) Приход на ВУ НИ1" format="1"></var>
+<var  name="A4IS21LDU" description="(A4IS21LDU) Приход на НУ НИ1" format="1"></var>
+<var  name="R8IS11LDU" description="(R8IS11LDU) Аварийный НИ установлен" format="1"></var>
+<var  name="B4IS11LDU" description="(B4IS11LDU) Приход на ВУ НИ2" format="1"></var>
+<var  name="B4IS21LDU" description="(B4IS21LDU) Приход на НУ НИ2" format="1"></var>
+<var  name="R1IS11LDU" description="(R1IS11LDU) Приход на ВУ МДЗ1" format="1"></var>
+<var  name="R1IS21LDU" description="(R1IS21LDU) Приход на НУ МДЗ1" format="1"></var>
+<var  name="R2IS11LDU" description="(R2IS11LDU) Приход на ВУ МДЗ2" format="1"></var>
+<var  name="R2IS21LDU" description="(R2IS21LDU) Приход на НУ МДЗ2" format="1"></var>
+<var  name="A4VP82LDU" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="B4VP82LDU" description="(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="R4IS11LDU" description="(R4IS11LDU) Приход на ВУ1 тележки" format="1"></var>
+<var  name="R4IS21LDU" description="(R4IS21LDU) Приход на НУ1 тележки" format="1"></var>
+<var  name="R4IS22LDU" description="(R4IS22LDU) Приход на НУ2 тележки" format="1"></var>
+<var  name="R4IS12LDU" description="(R4IS12LDU) Приход на  ВУ2 тележки" format="1"></var>
+<var  name="B8IS22LDU" description="(B8IS22LDU) Приход на НУ2 АЗ2" format="1"></var>
+<var  name="B8IS12LDU" description="(B8IS12LDU) Приход на ВУ2 АЗ2" format="1"></var>
+<var  name="A8IS22LDU" description="(A8IS22LDU) Приход на механический НУ ДС2" format="1"></var>
+<var  name="A8IS12LDU" description="(A8IS12LDU) Приход на механический ВУ ДС2" format="1"></var>
+<var  name="A6IS11LDU" description="(A6IS11LDU) Приход на ВУ БЗ1" format="1"></var>
+<var  name="A6IS21LDU" description="(A6IS21LDU) Приход на НУ БЗ1" format="1"></var>
+<var  name="B6IS11LDU" description="(B6IS11LDU) Приход на ВУ БЗ2" format="1"></var>
+<var  name="B6IS21LDU" description="(B6IS21LDU) Приход на НУ БЗ2" format="1"></var>
+<var  name="A1IS21LDU" description="(A1IS21LDU) Приход на НУ ББ1" format="1"></var>
+<var  name="A1IS11LDU" description="(A1IS11LDU) Приход на ВУ ББ1" format="1"></var>
+<var  name="A1IS12LDU" description="(A1IS12LDU) Магнит ББ1 зацеплен" format="1"></var>
+<var  name="A1IC01UDU" description="(A1IC01UDU) Координата штока ББ1" format="5"></var>
+<var  name="B1IC01UDU" description="(B1IC01UDU) Координата штока ББ2" format="5"></var>
+<var  name="B1IS21LDU" description="(B1IS21LDU) Приход на НУ ББ2" format="1"></var>
+<var  name="B1IS11LDU" description="(B1IS11LDU) Приход на ВУ ББ2" format="1"></var>
+<var  name="B1IS12LDU" description="(B1IS12LDU) Магнит ББ2 зацеплен" format="1"></var>
+<var  name="A1IE03LDU" description="(A1IE03LDU) Движение ББ1 вперед (от БУШД)" format="1"></var>
+<var  name="A1IE04LDU" description="(A1IE04LDU) Движение ББ1 назад (от БУШД)" format="1"></var>
+<var  name="B1IE03LDU" description="(B1IE03LDU) Движение ББ2 вперед (от БУШД)" format="1"></var>
+<var  name="B1IE04LDU" description="(B1IE04LDU) Движение ББ2 назад (от БУШД)" format="1"></var>
+<var  name="A4IS10LDU" description="(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)" format="1"></var>
+<var  name="B4IS10LDU" description="(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)" format="1"></var>
+<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE03LZ1" description="(R0EE03LZ1) Питание  АКНП3  отключить" format="1"></var>
+<var  name="R0EE04LZ1" description="(R0EE04LZ1) Питание  АКНП4  отключить" format="1"></var>
+<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE03LZ2" description="(R0EE03LZ2) Питание  АКНП3  отключить" format="1"></var>
+<var  name="R0EE04LZ2" description="(R0EE04LZ2) Питание  АКНП4  отключить" format="1"></var>
+<var  name="R0IS02LDU" description="(R0IS02LDU) Разрешение ввода от имитатора" format="1"></var>
+<var  name="A3AD34LDU" description="(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)" format="1"></var>
+<var  name="A1IS11LIM" description="(A1IS11LIM) Магнит ББ1 обесточен" format="1"></var>
+<var  name="A1IS32LIM" description="(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)" format="1"></var>
+<var  name="B1IS11LIM" description="(B1IS11LIM) Магнит ББ2 обесточен" format="1"></var>
+<var  name="B1IS32LIM" description="(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)" format="1"></var>
+<var  name="A2IS11LIM" description="(A2IS11LIM) Магнит РБ1 обесточен" format="1"></var>
+<var  name="A2IS32LIM" description="(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)" format="1"></var>
+<var  name="B2IS11LIM" description="(B2IS11LIM) Магнит РБ2 обесточен" format="1"></var>
+<var  name="B2IS32LIM" description="(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)" format="1"></var>
+<var  name="A0VN01RIM" description="(A0VN01RIM) Период разгона  AЗ1" format="8"></var>
+<var  name="B2IS33LDU" description="(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)" format="1"></var>
+<var  name="B1VP81LZZ" description="(B1VP81LZZ) Давление СБРОС ББ2 в норме" format="1"></var>
+<var  name="A1VP81LZZ" description="(A1VP81LZZ) Давление СБРОС ББ1 в норме" format="1"></var>
+<var  name="B8IS11LDU" description="(B8IS11LDU) Приход на ВУ1 АЗ2" format="1"></var>
+<var  name="B8IS21LDU" description="(B8IS21LDU) Приход на НУ1 АЗ2" format="1"></var>
+<var  name="A6VS22LDU" description="(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
+<var  name="A6VS12LDU" description="(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА" format="1"></var>
+<var  name="B6VS22LDU" description="(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА" format="1"></var>
+<var  name="B6VS12LDU" description="(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА" format="1"></var>
+<var  name="A5VS22LDU" description="(A5VS22LDU) Движение НЛ1 в сторону НУ" format="1"></var>
+<var  name="A5VS12LDU" description="(A5VS12LDU) Движение НЛ1 в сторону ВУ" format="1"></var>
+<var  name="B5VS22LDU" description="(B5VS22LDU) Движение НЛ2 в сторону НУ" format="1"></var>
+<var  name="B5VS12LDU" description="(B5VS12LDU) Движение НЛ2 в сторону ВУ" format="1"></var>
+<var  name="R1VS22LDU" description="(R1VS22LDU) Движение МДЗ1 в сторону НУ" format="1"></var>
+<var  name="R2VS22LDU" description="(R2VS22LDU) Движение МДЗ2 в сторону НУ" format="1"></var>
+<var  name="R2VS12LDU" description="(R2VS12LDU) Движение МДЗ2 в сторону ВУ" format="1"></var>
+<var  name="R1VS12LDU" description="(R1VS12LDU) Движение МДЗ1 в сторону ВУ" format="1"></var>
+<var  name="R4VS22LDU" description="(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
+<var  name="R4VS12LDU" description="(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
+<var  name="A0SN02RIM" description="(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
+<var  name="A0SN03RIM" description="(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
+<var  name="A0SN04RIM" description="(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
+<var  name="A0SN05RIM" description="(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1" format="8"></var>
+<var  name="A0SN06RIM" description="(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1" format="8"></var>
+<var  name="A0SN07RIM" description="(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1" format="8"></var>
+<var  name="A7AP31LDU" description="(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)" format="1"></var>
+<var  name="B7AP31LDU" description="(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
+<var  name="B0SN02RIM" description="(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2" format="8"></var>
+<var  name="B0SN03RIM" description="(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2" format="8"></var>
+<var  name="B0SN04RIM" description="(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2" format="8"></var>
+<var  name="B0SN05RIM" description="(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
+<var  name="B0SN06RIM" description="(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
+<var  name="B0SN07RIM" description="(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
 
 <var  name="fEM_R0UL01RIM" description="(R0UL01RIM) Среднее время генерации нейтронов" format="8"></var>
 <var  name="fEM_R0UN02RIM" description="(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов" format="8"></var>
@@ -372,7 +361,6 @@
 <var  name="fEM_A5UC10RIM" description="(A5UC10RIM) Время полного хода НЛ сек" format="8"></var>
 <var  name="fEM_A0UN01RIM" description="(A0UN01RIM) Мощность источника нейтронов ИНИ" format="8"></var>
 <var  name="fEM_R4UC22RIM" description="(R4UC22RIM) Смещение координаты АЗ от координаты тележки" format="8"></var>
-<var  name="fEM_R4UC23RIM" description="(R4UC23RIM) Y-координата АЗ1 см" format="8"></var>
 <var  name="fEM_A1UG01RDU" description="(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)" format="8"></var>
 <var  name="fEM_A2UG01RDU" description="(A2UG01RDU) Расстояние включения масляного демпфера РБ" format="8"></var>
 <var  name="fEM_A3UG01RDU" description="(A3UG01RDU) Расстояние включения масляного демпфера ИС" format="8"></var>
@@ -464,8 +452,6 @@
 <var  name="fEM_A0UP02RIM" description="(A0UP02RIM) Текущее давление в АЗ1,2" format="8"></var>
 <var  name="fEM_A3UP01RIM" description="(A3UP01RIM) Текущее давление на СПУСК ИС" format="8"></var>
 <var  name="fEM_A1UP82RIM" description="(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
-<var  name="fEM_R0UP85RIM" description="(R0UP85RIM) Нижняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
-<var  name="fEM_R0UP88RIM" description="(R0UP88RIM) Верхняя граница давления  в СИСТЕМЕ (МПа)" format="8"></var>
 <var  name="fEM_A3UP02RDU" description="(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС" format="8"></var>
 <var  name="fEM_A1UV02RIM" description="(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)" format="8"></var>
 <var  name="fEM_A3UV02RIM" description="(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)" format="8"></var>
@@ -495,7 +481,6 @@
 <var  name="lEM_C1AD31LRP" description="(C1AD31LRP) Общий сброс от РПУ" format="1"></var>
 <var  name="lEM_R0IE01LRP" description="(R0IE01LRP) Отключение питание детекторов" format="1"></var>
 <var  name="lEM_R0IE02LRP" description="(R0IE02LRP) Отключить питание ПР, ПУ" format="1"></var>
-<var  name="fEM_A0UP03RIM" description="(A0UP03RIM) Текущее давление в системе" format="8"></var>
 <var  name="fEM_A2UP02RIM" description="(A2UP02RIM) Текущее давление на подъём РБ" format="8"></var>
 <var  name="fEM_A2UP03RIM" description="(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ" format="8"></var>
 <var  name="fEM_A0UP01RIM" description="(A0UP01RIM) Текущее давление в АЗ1,2" format="8"></var>
@@ -568,12 +553,11 @@
 <var  name="iEM_TERA0VP81LIM" description="(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме" format="3"></var>
 <var  name="iEM_TERB0VP81LIM" description="(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме" format="3"></var>
 <var  name="iEM_TERR0VP81LIM" description="(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ-1 в норме" format="3"></var>
-<var  name="iEM_TERR0VP82LIM" description="(TERR0VP82LIM) Искажение: Давление  в СИСТЕМЕ-2 в норме" format="3"></var>
 <var  name="iEM_TERR6IS68LIM" description="(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2" format="3"></var>
 <var  name="iEM_TERR7SI74RIM" description="(TERR7SI74RIM) Искажение: Радиация в реакторном зале" format="3"></var>
 <var  name="iEM_TERA5SS21LIM" description="(TERA5SS21LIM) Искажение: Приход на НУ НЛ1" format="3"></var>
 <var  name="iEM_TERB5SS11LIM" description="(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2" format="3"></var>
-<var  name="iEM_TERA5SS11LIM" description="(TERA5SS11LIM) Искажение: Приход на ВУ НЛ1" format="3"></var>
+<var  name="iEM_TERA5SS11LIM" description="(TERA5SS11LIM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА" format="3"></var>
 <var  name="iEM_TERA9SS11LIM" description="(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1" format="3"></var>
 <var  name="iEM_TERB2SS11LIM" description="(TERB2SS11LIM) Искажение: Приход на ВУ РБ2" format="3"></var>
 <var  name="iEM_TERB2SS12LIM" description="(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен" format="3"></var>
@@ -582,8 +566,6 @@
 <var  name="iEM_TERB2SC01RIM" description="(TERB2SC01RIM) Искажение: Координата штока РБ2" format="3"></var>
 <var  name="iEM_TERR3SS21LIM" description="(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1" format="3"></var>
 <var  name="iEM_TERR5SS11LIM" description="(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны" format="3"></var>
-<var  name="iEM_TERR3SS12LIM" description="(TERR3SS12LIM) Искажение: Приход на ВУ гомогенных дверей-2" format="3"></var>
-<var  name="iEM_TERR3SS22LIM" description="(TERR3SS22LIM) Искажение: Приход на НУ гомогенных дверей-2" format="3"></var>
 <var  name="iEM_TERA4SS11LIM" description="(TERA4SS11LIM) Искажение: Приход на ВУ НИ1" format="3"></var>
 <var  name="iEM_TERR1SS11LIM" description="(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1" format="3"></var>
 <var  name="iEM_TERR1SS21LIM" description="(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1" format="3"></var>
@@ -648,16 +630,8 @@
 <var  name="iEM_TERBZ2" description="(TERBZ2) Неисправности БЗ2" format="3"></var>
 <var  name="fEM_B6MC01RC1" description="(B6MC01RC1) Заданная координата БЗ2 от ИС" format="8"></var>
 <var  name="fEM_B6MV01RC1" description="(B6MV01RC1) Заданная скорость БЗ2 от ИС" format="8"></var>
-<var  name="iEM_TERR3AD10LDU" description="(TERR3AD10LDU) Искажение: Гомогенные двери-1 открыть" format="3"></var>
-<var  name="iEM_TERR3AD20LDU" description="(TERR3AD20LDU) Искажение: Гомогенные двери-1 закрыть" format="3"></var>
-<var  name="iEM_TERR3AD11LDU" description="(TERR3AD11LDU) Искажение: Гомогенные двери-2 открыть" format="3"></var>
-<var  name="iEM_TERR3AD21LDU" description="(TERR3AD21LDU) Искажение: Гомогенные двери-2 закрыть" format="3"></var>
-<var  name="iEM_TERR5AD10LDU" description="(TERR5AD10LDU) Искажение: Открыть ворота отстойной зоны" format="3"></var>
-<var  name="iEM_TERR5AD20LDU" description="(TERR5AD20LDU) Искажение: Закрыть ворота отстойной зоны" format="3"></var>
 <var  name="lEM_R3AD10LC1" description="(R3AD10LC1) Гомогенные двери-1 открыть от ИС" format="1"></var>
 <var  name="lEM_R3AD20LC1" description="(R3AD20LC1) Гомогенные двери-1 закрыть от ИС" format="1"></var>
-<var  name="lEM_R3AD11LC1" description="(R3AD11LC1) Гомогенные двери-2 открыть от ИС" format="1"></var>
-<var  name="lEM_R3AD21LC1" description="(R3AD21LC1) Гомогенные двери-2 закрыть от ИС" format="1"></var>
 <var  name="lEM_R6AD10LC1" description="(R6AD10LC1) Выкатить кран-балку от ИС" format="1"></var>
 <var  name="lEM_R5AD10LC1" description="(R5AD10LC1) Открыть ворота отстойной зоны от ИС" format="1"></var>
 <var  name="lEM_R5AD20LC1" description="(R5AD20LC1) Закрыть ворота отстойной зоны от ИС" format="1"></var>
@@ -720,10 +694,8 @@
 <var  name="fEM_A6MV01RSP" description="(A6MV01RSP) Стартовая скорость БЗ1" format="8"></var>
 <var  name="fEM_B6MC01RSP" description="(B6MC01RSP) Стартовая координата БЗ2" format="8"></var>
 <var  name="fEM_B6MV01RSP" description="(B6MV01RSP) Стартовая скорость БЗ2" format="8"></var>
-<var  name="fEM_R3UC01RSP" description="(R3UC01RSP) Стартовая координата Гомогенных дверей - 1" format="8"></var>
-<var  name="fEM_R3UV01RSP" description="(R3UV01RSP) Стартовая скорость Гомогенных дверей-1" format="8"></var>
-<var  name="fEM_R3UC02RSP" description="(R3UC02RSP) Стартовая координата Гомогенных дверей - 2" format="8"></var>
-<var  name="fEM_R3UV02RSP" description="(R3UV02RSP) Стартовая скорость Гомогенных дверей-2" format="8"></var>
+<var  name="fEM_R3UC01RSP" description="(R3UC01RSP) Стартовая координата Гомогенных дверей" format="8"></var>
+<var  name="fEM_R3UV01RSP" description="(R3UV01RSP) Стартовая скорость Гомогенных дверей" format="8"></var>
 <var  name="fEM_R5UC01RSP" description="(R5UC01RSP) Стартовая координата Ворот отстойной зоны" format="8"></var>
 <var  name="fEM_R5UV01RSP" description="(R5UV01RSP) Стартовая скорость Ворот отстойной зоны" format="8"></var>
 <var  name="fEM_R6UC01RSP" description="(R6UC01RSP) Стартовая координата Кран-балки" format="8"></var>
@@ -749,286 +721,298 @@
 <var  name="fEM_A1MV01RC1" description="(A1MV01RC1) Заданная скорость движения  ББ1 от ИС" format="8"></var>
 <var  name="iEM_TERB7MS31LIM" description="(TERB7MS31LIM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)" format="3"></var>
 <var  name="iEM_TERA7MS31LIM" description="(TERA7MS31LIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)" format="3"></var>
+<var  name="fEM_R7UX03RSS" description="(R7UX03RSS) X-координата камеры R7IN13 см" format="8"></var>
+<var  name="fEM_R7UY03RSS" description="(R7UY03RSS) Y-координата камеры R7IN13 (см)" format="8"></var>
+<var  name="fEM_R7UY00RSS" description="(R7UY00RSS) Y-координата АЗ1 см" format="8"></var>
+<var  name="iEM_TERA6VS12LIM" description="(TERA6VS12LIM) Искажение: Движение створок БЗ1 к ОТКРЫТА" format="3"></var>
+<var  name="iEM_TERA6VS22LIM" description="(TERA6VS22LIM) Искажение: Движение створок БЗ1 к ЗАКРЫТА" format="3"></var>
+<var  name="iEM_TERB6VS12LIM" description="(TERB6VS12LIM) Искажение: Движение створок БЗ2 к ОТКРЫТА" format="3"></var>
+<var  name="iEM_TERB6VS22LIM" description="(TERB6VS22LIM) Искажение: Движение створок БЗ2 к ЗАКРЫТА" format="3"></var>
+<var  name="iEM_TERA5VS22LIM" description="(TERA5VS22LIM) Искажение: Движение створок НЛ1 к НУ" format="3"></var>
+<var  name="iEM_TERA5VS12LIM" description="(TERA5VS12LIM) Искажение: Движение створок НЛ1 к ВУ" format="3"></var>
+<var  name="iEM_TERB5VS12LIM" description="(TERB5VS12LIM) Искажение: Движение створок НЛ2 к ВУ" format="3"></var>
+<var  name="iEM_TERB5VS22LIM" description="(TERB5VS22LIM) Искажение: Движение створок НЛ2 к НУ" format="3"></var>
+<var  name="iEM_TERR1VS12LIM" description="(TERR1VS12LIM) Искажение: Движение МДЗ1 в сторону ВУ" format="3"></var>
+<var  name="iEM_TERR1VS22LIM" description="(TERR1VS22LIM) Искажение: Движение МДЗ1 в сторону НУ" format="3"></var>
+<var  name="iEM_TERR2VS12LIM" description="(TERR2VS12LIM) Искажение: Движение МДЗ2 в сторону ВУ" format="3"></var>
+<var  name="iEM_TERR2VS22LIM" description="(TERR2VS22LIM) Искажение: Движение МДЗ2 в сторону НУ" format="3"></var>
+<var  name="iEM_TERR4VS12LDU" description="(TERR4VS12LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»" format="3"></var>
+<var  name="iEM_TERR4VS22LDU" description="(TERR4VS22LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»" format="3"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m563_Out10" description="(internal1_m563_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m582_Out10" description="(internal1_m582_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m417_Out10" description="(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m514_q0" description="(internal1_m514_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m515_q0" description="(internal1_m515_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m484_q0" description="(internal1_m484_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m485_q0" description="(internal1_m485_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m486_q0" description="(internal1_m486_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m487_q0" description="(internal1_m487_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m689_tx" description="(internal1_m689_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m689_y0" description="(internal1_m689_y0) y0" format="18"></var>
-<var  name="internal1_m677_tx" description="(internal1_m677_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m677_y0" description="(internal1_m677_y0) y0" format="18"></var>
-<var  name="internal1_m517_Out10" description="(internal1_m517_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m491_Out10" description="(internal1_m491_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m490_Out10" description="(internal1_m490_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m489_Out10" description="(internal1_m489_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m488_Out10" description="(internal1_m488_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m516_Out10" description="(internal1_m516_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m663_tx" description="(internal1_m663_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m663_y0" description="(internal1_m663_y0) y0" format="18"></var>
-<var  name="internal1_m661_tx" description="(internal1_m661_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m661_y0" description="(internal1_m661_y0) y0" format="18"></var>
-<var  name="internal1_m206_Out10" description="(internal1_m206_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m223_Out10" description="(internal1_m223_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m41_Out10" description="(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m56_Out10" description="(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1258_Out10" description="(internal1_m1258_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1255_Out10" description="(internal1_m1255_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1254_Out10" description="(internal1_m1254_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1257_Xtek0" description="(internal1_m1257_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m1243_Xtek0" description="(internal1_m1243_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m1244_Out10" description="(internal1_m1244_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1241_Out10" description="(internal1_m1241_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1240_Out10" description="(internal1_m1240_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m965_Out10" description="(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m986_Out10" description="(internal1_m986_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m985_Out10" description="(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m984_Out10" description="(internal1_m984_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1150_Out10" description="(internal1_m1150_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1152_Out10" description="(internal1_m1152_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1149_Out10" description="(internal1_m1149_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1151_Out10" description="(internal1_m1151_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1129_Out10" description="(internal1_m1129_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1130_Out10" description="(internal1_m1130_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1128_Out10" description="(internal1_m1128_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1127_Out10" description="(internal1_m1127_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m962_Out10" description="(internal1_m962_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m961_Out10" description="(internal1_m961_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m941_Out10" description="(internal1_m941_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m945_Out10" description="(internal1_m945_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m944_Out10" description="(internal1_m944_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1118_Out10" description="(internal1_m1118_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1117_Out10" description="(internal1_m1117_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m943_Out10" description="(internal1_m943_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m942_Out10" description="(internal1_m942_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m963_Out10" description="(internal1_m963_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m982_Out10" description="(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1131_Out10" description="(internal1_m1131_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m983_Out10" description="(internal1_m983_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m981_Out10" description="(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m964_Out10" description="(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m980_Out10" description="(internal1_m980_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m960_Out10" description="(internal1_m960_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m941_Out10" description="(internal1_m941_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m940_Out10" description="(internal1_m940_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m580_Out10" description="(internal1_m580_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m427_Xtek0" description="(internal1_m427_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m418_Out10" description="(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m420_Out10" description="(internal1_m420_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m419_Out10" description="(internal1_m419_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1164_Out10" description="(internal1_m1164_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1165_Out10" description="(internal1_m1165_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1163_Out10" description="(internal1_m1163_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1001_Out10" description="(internal1_m1001_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1166_Out10" description="(internal1_m1166_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m999_Out10" description="(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m998_Out10" description="(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1000_Out10" description="(internal1_m1000_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m603_Out10" description="(internal1_m603_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m601_Out10" description="(internal1_m601_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m600_Out10" description="(internal1_m600_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m602_Out10" description="(internal1_m602_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1146_Xtek0" description="(internal1_m1146_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m1148_Xtek0" description="(internal1_m1148_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m722_Out10" description="(internal1_m722_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m717_Out10" description="(internal1_m717_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m708_Out10" description="(internal1_m708_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m716_Out10" description="(internal1_m716_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m707_Out10" description="(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m343_Out10" description="(internal1_m343_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m342_Out10" description="(internal1_m342_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m323_Out10" description="(internal1_m323_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m322_Out10" description="(internal1_m322_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m604_Out10" description="(internal1_m604_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m358_Out10" description="(internal1_m358_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m340_Xtek0" description="(internal1_m340_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m357_Out10" description="(internal1_m357_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m355_Out10" description="(internal1_m355_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m330_Xtek0" description="(internal1_m330_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m356_Out10" description="(internal1_m356_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m691_Out10" description="(internal1_m691_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m690_Out10" description="(internal1_m690_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m669_Out10" description="(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m668_Out10" description="(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m689_Out10" description="(internal1_m689_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m688_Out10" description="(internal1_m688_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m667_Out10" description="(internal1_m667_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m666_Out10" description="(internal1_m666_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m527_Out10" description="(internal1_m527_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m545_Out10" description="(internal1_m545_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m409_Out10" description="(internal1_m409_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m486_q0" description="(internal1_m486_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m487_q0" description="(internal1_m487_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m472_q0" description="(internal1_m472_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m473_q0" description="(internal1_m473_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m642_tx" description="(internal1_m642_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m642_y0" description="(internal1_m642_y0) y0" format="18"></var>
+<var  name="internal1_m630_tx" description="(internal1_m630_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m630_y0" description="(internal1_m630_y0) y0" format="18"></var>
+<var  name="internal1_m616_tx" description="(internal1_m616_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m616_y0" description="(internal1_m616_y0) y0" format="18"></var>
+<var  name="internal1_m614_tx" description="(internal1_m614_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m614_y0" description="(internal1_m614_y0) y0" format="18"></var>
+<var  name="internal1_m206_Out10" description="(internal1_m206_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m224_Out10" description="(internal1_m224_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m41_Out10" description="(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m56_Out10" description="(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1241_Out10" description="(internal1_m1241_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1238_Out10" description="(internal1_m1238_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1237_Out10" description="(internal1_m1237_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1240_Xtek0" description="(internal1_m1240_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m1226_Xtek0" description="(internal1_m1226_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m1227_Out10" description="(internal1_m1227_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1224_Out10" description="(internal1_m1224_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1223_Out10" description="(internal1_m1223_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m981_Out10" description="(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m962_Out10" description="(internal1_m962_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m961_Out10" description="(internal1_m961_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m960_Out10" description="(internal1_m960_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1139_Out10" description="(internal1_m1139_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1141_Out10" description="(internal1_m1141_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1138_Out10" description="(internal1_m1138_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1140_Out10" description="(internal1_m1140_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1114_Out10" description="(internal1_m1114_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1115_Out10" description="(internal1_m1115_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1113_Out10" description="(internal1_m1113_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1112_Out10" description="(internal1_m1112_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m976_Out10" description="(internal1_m976_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m928_Out10" description="(internal1_m928_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m927_Out10" description="(internal1_m927_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m926_Out10" description="(internal1_m926_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m925_Out10" description="(internal1_m925_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m977_Out10" description="(internal1_m977_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m958_Out10" description="(internal1_m958_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1116_Out10" description="(internal1_m1116_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m959_Out10" description="(internal1_m959_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m957_Out10" description="(internal1_m957_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m978_Out10" description="(internal1_m978_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m956_Out10" description="(internal1_m956_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m939_Out10" description="(internal1_m939_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m924_Out10" description="(internal1_m924_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m543_Out10" description="(internal1_m543_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m419_Xtek0" description="(internal1_m419_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m410_Out10" description="(internal1_m410_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m412_Out10" description="(internal1_m412_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m411_Out10" description="(internal1_m411_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1154_Out10" description="(internal1_m1154_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1155_Out10" description="(internal1_m1155_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1153_Out10" description="(internal1_m1153_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m980_Out10" description="(internal1_m980_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m704_Out10" description="(internal1_m704_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m705_Out10" description="(internal1_m705_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m702_Out10" description="(internal1_m702_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m703_Out10" description="(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m561_Out10" description="(internal1_m561_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m560_Out10" description="(internal1_m560_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1135_Xtek0" description="(internal1_m1135_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m1137_Xtek0" description="(internal1_m1137_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m701_Out10" description="(internal1_m701_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m685_Out10" description="(internal1_m685_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m665_Out10" description="(internal1_m665_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m684_Out10" description="(internal1_m684_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m664_Out10" description="(internal1_m664_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m337_Out10" description="(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m336_Out10" description="(internal1_m336_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m321_Out10" description="(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m341_Out10" description="(internal1_m341_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m439_Out10" description="(internal1_m439_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m440_Xtek0" description="(internal1_m440_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m438_Out10" description="(internal1_m438_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m437_Out10" description="(internal1_m437_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m436_Out10" description="(internal1_m436_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m946_Out10" description="(internal1_m946_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m320_Out10" description="(internal1_m320_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m562_Out10" description="(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m350_Out10" description="(internal1_m350_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m334_Xtek0" description="(internal1_m334_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m349_Out10" description="(internal1_m349_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m347_Out10" description="(internal1_m347_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m327_Xtek0" description="(internal1_m327_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m348_Out10" description="(internal1_m348_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m319_Out10" description="(internal1_m319_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m335_Out10" description="(internal1_m335_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m431_Out10" description="(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m432_Xtek0" description="(internal1_m432_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m430_Out10" description="(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m429_Out10" description="(internal1_m429_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m428_Out10" description="(internal1_m428_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m979_Out10" description="(internal1_m979_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m150_Out10" description="(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m149_Out10" description="(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1119_Out10" description="(internal1_m1119_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1110_Out10" description="(internal1_m1110_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1099_tst" description="(internal1_m1099_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
-<var  name="internal1_m1099_trz" description="(internal1_m1099_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
-<var  name="internal1_m1099_N1" description="(internal1_m1099_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
-<var  name="internal1_m1099_N2" description="(internal1_m1099_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m1099_Period0" description="(internal1_m1099_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m1099_MyFirstEnterFlag" description="(internal1_m1099_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
-<var  name="internal1_m1065_Nk" description="(internal1_m1065_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m1060_Out10" description="(internal1_m1060_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1052_Out10" description="(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1041_tst" description="(internal1_m1041_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
-<var  name="internal1_m1041_trz" description="(internal1_m1041_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
-<var  name="internal1_m1041_N1" description="(internal1_m1041_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
-<var  name="internal1_m1041_N2" description="(internal1_m1041_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m1041_Period0" description="(internal1_m1041_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m1041_MyFirstEnterFlag" description="(internal1_m1041_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
-<var  name="internal1_m1011_Nk" description="(internal1_m1011_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m929_Out10" description="(internal1_m929_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m919_Out10" description="(internal1_m919_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m910_tst" description="(internal1_m910_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
-<var  name="internal1_m910_trz" description="(internal1_m910_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
-<var  name="internal1_m910_N1" description="(internal1_m910_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
-<var  name="internal1_m910_N2" description="(internal1_m910_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m910_Period0" description="(internal1_m910_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m910_MyFirstEnterFlag" description="(internal1_m910_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
-<var  name="internal1_m876_Nk" description="(internal1_m876_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m863_Out10" description="(internal1_m863_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m852_Out10" description="(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m855_tst" description="(internal1_m855_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
-<var  name="internal1_m855_trz" description="(internal1_m855_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
-<var  name="internal1_m855_N1" description="(internal1_m855_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
-<var  name="internal1_m855_N2" description="(internal1_m855_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
-<var  name="internal1_m855_Period0" description="(internal1_m855_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m855_MyFirstEnterFlag" description="(internal1_m855_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
-<var  name="internal1_m818_Nk" description="(internal1_m818_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m1102_Out10" description="(internal1_m1102_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1093_Out10" description="(internal1_m1093_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1082_tst" description="(internal1_m1082_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
+<var  name="internal1_m1082_trz" description="(internal1_m1082_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
+<var  name="internal1_m1082_N1" description="(internal1_m1082_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
+<var  name="internal1_m1082_N2" description="(internal1_m1082_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
+<var  name="internal1_m1082_Period0" description="(internal1_m1082_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m1082_MyFirstEnterFlag" description="(internal1_m1082_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m1048_Nk" description="(internal1_m1048_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m1043_Out10" description="(internal1_m1043_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1035_Out10" description="(internal1_m1035_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1024_tst" description="(internal1_m1024_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
+<var  name="internal1_m1024_trz" description="(internal1_m1024_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
+<var  name="internal1_m1024_N1" description="(internal1_m1024_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
+<var  name="internal1_m1024_N2" description="(internal1_m1024_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
+<var  name="internal1_m1024_Period0" description="(internal1_m1024_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m1024_MyFirstEnterFlag" description="(internal1_m1024_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m994_Nk" description="(internal1_m994_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m915_Out10" description="(internal1_m915_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m905_Out10" description="(internal1_m905_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m896_tst" description="(internal1_m896_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
+<var  name="internal1_m896_trz" description="(internal1_m896_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
+<var  name="internal1_m896_N1" description="(internal1_m896_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
+<var  name="internal1_m896_N2" description="(internal1_m896_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
+<var  name="internal1_m896_Period0" description="(internal1_m896_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m896_MyFirstEnterFlag" description="(internal1_m896_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m862_Nk" description="(internal1_m862_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m849_Out10" description="(internal1_m849_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m838_Out10" description="(internal1_m838_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m841_tst" description="(internal1_m841_tst) - массив времени фиксации стартовой мощности" format="8" size="2"></var>
+<var  name="internal1_m841_trz" description="(internal1_m841_trz) - массив времени фиксации очередного периода" format="8" size="2"></var>
+<var  name="internal1_m841_N1" description="(internal1_m841_N1) - массив значения мощности в начале замера" format="8" size="2"></var>
+<var  name="internal1_m841_N2" description="(internal1_m841_N2) - массив значения мощности в конце замера" format="8" size="2"></var>
+<var  name="internal1_m841_Period0" description="(internal1_m841_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m841_MyFirstEnterFlag" description="(internal1_m841_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m804_Nk" description="(internal1_m804_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m195_tx" description="(internal1_m195_tx) tx - внутренний параметр" format="3"></var>
 <var  name="internal1_m25_tx" description="(internal1_m25_tx) tx - внутренний параметр" format="3"></var>
-<var  name="internal1_m499_Pav0" description="(internal1_m499_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m499_Zav0" description="(internal1_m499_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m499_Pv0" description="(internal1_m499_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m499_Zv0" description="(internal1_m499_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m499_RA00" description="(internal1_m499_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m499_RA10" description="(internal1_m499_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m499_MyFirstEnterFlag" description="(internal1_m499_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m526_Pav0" description="(internal1_m526_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m526_Zav0" description="(internal1_m526_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m526_Pv0" description="(internal1_m526_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m526_Zv0" description="(internal1_m526_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m526_RA00" description="(internal1_m526_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m526_RA10" description="(internal1_m526_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m526_MyFirstEnterFlag" description="(internal1_m526_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m522_Pav0" description="(internal1_m522_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m522_Zav0" description="(internal1_m522_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m522_Pv0" description="(internal1_m522_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m522_Zv0" description="(internal1_m522_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m522_RA00" description="(internal1_m522_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m522_RA10" description="(internal1_m522_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m522_MyFirstEnterFlag" description="(internal1_m522_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m494_Pav0" description="(internal1_m494_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m494_Zav0" description="(internal1_m494_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m494_Pv0" description="(internal1_m494_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m494_Zv0" description="(internal1_m494_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m494_RA00" description="(internal1_m494_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m494_RA10" description="(internal1_m494_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m494_MyFirstEnterFlag" description="(internal1_m494_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m666_Pav0" description="(internal1_m666_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m666_Zav0" description="(internal1_m666_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m666_Pv0" description="(internal1_m666_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m666_Zv0" description="(internal1_m666_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m666_RA00" description="(internal1_m666_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m666_RA10" description="(internal1_m666_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m666_MyFirstEnterFlag" description="(internal1_m666_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m665_Pav0" description="(internal1_m665_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m665_Zav0" description="(internal1_m665_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m665_Pv0" description="(internal1_m665_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m665_Zv0" description="(internal1_m665_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m665_RA00" description="(internal1_m665_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m665_RA10" description="(internal1_m665_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m665_MyFirstEnterFlag" description="(internal1_m665_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m651_Pav0" description="(internal1_m651_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m651_Zav0" description="(internal1_m651_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m651_Pv0" description="(internal1_m651_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m651_Zv0" description="(internal1_m651_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m651_RA00" description="(internal1_m651_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m651_RA10" description="(internal1_m651_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m651_MyFirstEnterFlag" description="(internal1_m651_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m650_Pav0" description="(internal1_m650_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m650_Zav0" description="(internal1_m650_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m650_Pv0" description="(internal1_m650_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m650_Zv0" description="(internal1_m650_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m650_RA00" description="(internal1_m650_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m650_RA10" description="(internal1_m650_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m650_MyFirstEnterFlag" description="(internal1_m650_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m697_y0" description="(internal1_m697_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m812_Chim0" description="(internal1_m812_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m804_Chim0" description="(internal1_m804_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m797_Chim0" description="(internal1_m797_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m789_Chim0" description="(internal1_m789_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m781_Chim0" description="(internal1_m781_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m774_Chim0" description="(internal1_m774_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m766_Chim0" description="(internal1_m766_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m758_Chim0" description="(internal1_m758_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m751_Chim0" description="(internal1_m751_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m743_Chim0" description="(internal1_m743_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m735_Chim0" description="(internal1_m735_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m728_Chim0" description="(internal1_m728_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m637_Pav0" description="(internal1_m637_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m637_Zav0" description="(internal1_m637_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m637_Pv0" description="(internal1_m637_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m637_Zv0" description="(internal1_m637_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m637_RA00" description="(internal1_m637_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m637_RA10" description="(internal1_m637_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m637_MyFirstEnterFlag" description="(internal1_m637_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m622_Pav0" description="(internal1_m622_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m622_Zav0" description="(internal1_m622_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m622_Pv0" description="(internal1_m622_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m622_Zv0" description="(internal1_m622_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m622_RA00" description="(internal1_m622_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m622_RA10" description="(internal1_m622_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m622_MyFirstEnterFlag" description="(internal1_m622_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m469_Pav0" description="(internal1_m469_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m469_Zav0" description="(internal1_m469_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m469_Pv0" description="(internal1_m469_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m469_Zv0" description="(internal1_m469_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m469_RA00" description="(internal1_m469_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m469_RA10" description="(internal1_m469_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m469_MyFirstEnterFlag" description="(internal1_m469_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m454_Pav0" description="(internal1_m454_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m454_Zav0" description="(internal1_m454_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m454_Pv0" description="(internal1_m454_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m454_Zv0" description="(internal1_m454_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m454_RA00" description="(internal1_m454_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m454_RA10" description="(internal1_m454_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m454_MyFirstEnterFlag" description="(internal1_m454_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m538_Pav0" description="(internal1_m538_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m538_Zav0" description="(internal1_m538_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m538_Pv0" description="(internal1_m538_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m538_Zv0" description="(internal1_m538_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m538_RA00" description="(internal1_m538_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m538_RA10" description="(internal1_m538_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m538_MyFirstEnterFlag" description="(internal1_m538_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m405_Pav0" description="(internal1_m405_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m405_Zav0" description="(internal1_m405_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m405_Pv0" description="(internal1_m405_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m405_Zv0" description="(internal1_m405_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m405_RA00" description="(internal1_m405_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m405_RA10" description="(internal1_m405_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m405_MyFirstEnterFlag" description="(internal1_m405_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m389_Pav0" description="(internal1_m389_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m389_Zav0" description="(internal1_m389_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m389_Pv0" description="(internal1_m389_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m389_Zv0" description="(internal1_m389_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m389_RA00" description="(internal1_m389_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m389_RA10" description="(internal1_m389_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m389_MyFirstEnterFlag" description="(internal1_m389_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m372_Pav0" description="(internal1_m372_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m372_Zav0" description="(internal1_m372_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m372_Pv0" description="(internal1_m372_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m372_Zv0" description="(internal1_m372_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m372_RA00" description="(internal1_m372_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m372_RA10" description="(internal1_m372_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m372_MyFirstEnterFlag" description="(internal1_m372_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m1179_Pav0" description="(internal1_m1179_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m1179_Zav0" description="(internal1_m1179_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m1179_Pv0" description="(internal1_m1179_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m1179_Zv0" description="(internal1_m1179_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m1179_RA00" description="(internal1_m1179_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m1179_RA10" description="(internal1_m1179_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m1179_MyFirstEnterFlag" description="(internal1_m1179_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m476_Pav0" description="(internal1_m476_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m476_Zav0" description="(internal1_m476_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m476_Pv0" description="(internal1_m476_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m476_Zv0" description="(internal1_m476_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m476_RA00" description="(internal1_m476_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m476_RA10" description="(internal1_m476_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m476_MyFirstEnterFlag" description="(internal1_m476_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m490_Pav0" description="(internal1_m490_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m490_Zav0" description="(internal1_m490_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m490_Pv0" description="(internal1_m490_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m490_Zv0" description="(internal1_m490_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m490_RA00" description="(internal1_m490_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m490_RA10" description="(internal1_m490_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m490_MyFirstEnterFlag" description="(internal1_m490_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m478_Pav0" description="(internal1_m478_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m478_Zav0" description="(internal1_m478_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m478_Pv0" description="(internal1_m478_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m478_Zv0" description="(internal1_m478_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m478_RA00" description="(internal1_m478_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m478_RA10" description="(internal1_m478_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m478_MyFirstEnterFlag" description="(internal1_m478_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m621_Pav0" description="(internal1_m621_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m621_Zav0" description="(internal1_m621_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m621_Pv0" description="(internal1_m621_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m621_Zv0" description="(internal1_m621_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m621_RA00" description="(internal1_m621_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m621_RA10" description="(internal1_m621_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m621_MyFirstEnterFlag" description="(internal1_m621_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m618_Pav0" description="(internal1_m618_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m618_Zav0" description="(internal1_m618_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m618_Pv0" description="(internal1_m618_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m618_Zv0" description="(internal1_m618_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m618_RA00" description="(internal1_m618_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m618_RA10" description="(internal1_m618_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m618_MyFirstEnterFlag" description="(internal1_m618_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m604_Pav0" description="(internal1_m604_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m604_Zav0" description="(internal1_m604_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m604_Pv0" description="(internal1_m604_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m604_Zv0" description="(internal1_m604_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m604_RA00" description="(internal1_m604_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m604_RA10" description="(internal1_m604_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m604_MyFirstEnterFlag" description="(internal1_m604_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m603_Pav0" description="(internal1_m603_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m603_Zav0" description="(internal1_m603_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m603_Pv0" description="(internal1_m603_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m603_Zv0" description="(internal1_m603_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m603_RA00" description="(internal1_m603_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m603_RA10" description="(internal1_m603_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m603_MyFirstEnterFlag" description="(internal1_m603_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m650_y0" description="(internal1_m650_y0) y0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m798_Chim0" description="(internal1_m798_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m790_Chim0" description="(internal1_m790_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m783_Chim0" description="(internal1_m783_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m775_Chim0" description="(internal1_m775_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m767_Chim0" description="(internal1_m767_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m760_Chim0" description="(internal1_m760_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m752_Chim0" description="(internal1_m752_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m744_Chim0" description="(internal1_m744_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m737_Chim0" description="(internal1_m737_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m729_Chim0" description="(internal1_m729_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m721_Chim0" description="(internal1_m721_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m714_Chim0" description="(internal1_m714_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m590_Pav0" description="(internal1_m590_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m590_Zav0" description="(internal1_m590_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m590_Pv0" description="(internal1_m590_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m590_Zv0" description="(internal1_m590_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m590_RA00" description="(internal1_m590_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m590_RA10" description="(internal1_m590_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m590_MyFirstEnterFlag" description="(internal1_m590_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m575_Pav0" description="(internal1_m575_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m575_Zav0" description="(internal1_m575_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m575_Pv0" description="(internal1_m575_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m575_Zv0" description="(internal1_m575_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m575_RA00" description="(internal1_m575_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m575_RA10" description="(internal1_m575_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m575_MyFirstEnterFlag" description="(internal1_m575_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m461_Pav0" description="(internal1_m461_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m461_Zav0" description="(internal1_m461_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m461_Pv0" description="(internal1_m461_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m461_Zv0" description="(internal1_m461_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m461_RA00" description="(internal1_m461_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m461_RA10" description="(internal1_m461_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m461_MyFirstEnterFlag" description="(internal1_m461_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m446_Pav0" description="(internal1_m446_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m446_Zav0" description="(internal1_m446_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m446_Pv0" description="(internal1_m446_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m446_Zv0" description="(internal1_m446_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m446_RA00" description="(internal1_m446_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m446_RA10" description="(internal1_m446_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m446_MyFirstEnterFlag" description="(internal1_m446_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m502_Pav0" description="(internal1_m502_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m502_Zav0" description="(internal1_m502_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m502_Pv0" description="(internal1_m502_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m502_Zv0" description="(internal1_m502_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m502_RA00" description="(internal1_m502_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m502_RA10" description="(internal1_m502_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m502_MyFirstEnterFlag" description="(internal1_m502_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m397_Pav0" description="(internal1_m397_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m397_Zav0" description="(internal1_m397_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m397_Pv0" description="(internal1_m397_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m397_Zv0" description="(internal1_m397_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m397_RA00" description="(internal1_m397_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m397_RA10" description="(internal1_m397_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m397_MyFirstEnterFlag" description="(internal1_m397_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m381_Pav0" description="(internal1_m381_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m381_Zav0" description="(internal1_m381_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m381_Pv0" description="(internal1_m381_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m381_Zv0" description="(internal1_m381_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m381_RA00" description="(internal1_m381_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m381_RA10" description="(internal1_m381_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m381_MyFirstEnterFlag" description="(internal1_m381_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m364_Pav0" description="(internal1_m364_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m364_Zav0" description="(internal1_m364_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m364_Pv0" description="(internal1_m364_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m364_Zv0" description="(internal1_m364_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m364_RA00" description="(internal1_m364_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m364_RA10" description="(internal1_m364_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m364_MyFirstEnterFlag" description="(internal1_m364_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m1167_Pav0" description="(internal1_m1167_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m1167_Zav0" description="(internal1_m1167_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m1167_Pv0" description="(internal1_m1167_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m1167_Zv0" description="(internal1_m1167_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m1167_RA00" description="(internal1_m1167_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m1167_RA10" description="(internal1_m1167_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m1167_MyFirstEnterFlag" description="(internal1_m1167_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m180_C1" description="(internal1_m180_C1) C1 - концентрация запаздывающих нейтронов 1-го типа" format="8"></var>
 <var  name="internal1_m180_C2" description="(internal1_m180_C2) C2 - концентрация запаздывающих нейтронов 2-го типа" format="8"></var>
 <var  name="internal1_m180_C3" description="(internal1_m180_C3) C3 - концентрация запаздывающих нейтронов 3-го типа" format="8"></var>
@@ -1039,24 +1023,24 @@
 <var  name="internal1_m180_C0" description="(internal1_m180_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m180_ImpINI0" description="(internal1_m180_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m180_MyFirstEnterFlag" description="(internal1_m180_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m298_Ppv0" description="(internal1_m298_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m298_Pav0" description="(internal1_m298_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m298_Zav0" description="(internal1_m298_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m298_RA00" description="(internal1_m298_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m298_RA10" description="(internal1_m298_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m298_RA50" description="(internal1_m298_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m298_fls" description="(internal1_m298_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m298_flp" description="(internal1_m298_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m298_MyFirstEnterFlag" description="(internal1_m298_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m131_Ppv0" description="(internal1_m131_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m131_Pav0" description="(internal1_m131_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m131_Zav0" description="(internal1_m131_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m131_RA00" description="(internal1_m131_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m131_RA10" description="(internal1_m131_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m131_RA50" description="(internal1_m131_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m131_fls" description="(internal1_m131_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m131_flp" description="(internal1_m131_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m131_MyFirstEnterFlag" description="(internal1_m131_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m301_Ppv0" description="(internal1_m301_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m301_Pav0" description="(internal1_m301_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m301_Zav0" description="(internal1_m301_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m301_RA00" description="(internal1_m301_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m301_RA10" description="(internal1_m301_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m301_RA50" description="(internal1_m301_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m301_fls" description="(internal1_m301_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m301_flp" description="(internal1_m301_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m301_MyFirstEnterFlag" description="(internal1_m301_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m130_Ppv0" description="(internal1_m130_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m130_Pav0" description="(internal1_m130_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m130_Zav0" description="(internal1_m130_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m130_RA00" description="(internal1_m130_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m130_RA10" description="(internal1_m130_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m130_RA50" description="(internal1_m130_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m130_fls" description="(internal1_m130_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m130_flp" description="(internal1_m130_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m130_MyFirstEnterFlag" description="(internal1_m130_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m265_Ppv0" description="(internal1_m265_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
 <var  name="internal1_m265_Pav0" description="(internal1_m265_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m265_Zav0" description="(internal1_m265_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
@@ -1066,15 +1050,15 @@
 <var  name="internal1_m265_fls" description="(internal1_m265_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m265_flp" description="(internal1_m265_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m265_MyFirstEnterFlag" description="(internal1_m265_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m99_Ppv0" description="(internal1_m99_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m99_Pav0" description="(internal1_m99_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m99_Zav0" description="(internal1_m99_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m99_RA00" description="(internal1_m99_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m99_RA10" description="(internal1_m99_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m99_RA50" description="(internal1_m99_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m99_fls" description="(internal1_m99_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m99_flp" description="(internal1_m99_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m99_MyFirstEnterFlag" description="(internal1_m99_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m97_Ppv0" description="(internal1_m97_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m97_Pav0" description="(internal1_m97_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m97_Zav0" description="(internal1_m97_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m97_RA00" description="(internal1_m97_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m97_RA10" description="(internal1_m97_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m97_RA50" description="(internal1_m97_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m97_fls" description="(internal1_m97_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m97_flp" description="(internal1_m97_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m97_MyFirstEnterFlag" description="(internal1_m97_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m227_Ppv0" description="(internal1_m227_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
 <var  name="internal1_m227_Pav0" description="(internal1_m227_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m227_Zav0" description="(internal1_m227_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
@@ -1084,15 +1068,15 @@
 <var  name="internal1_m227_fls" description="(internal1_m227_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m227_flp" description="(internal1_m227_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m227_MyFirstEnterFlag" description="(internal1_m227_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m60_Ppv0" description="(internal1_m60_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m60_Pav0" description="(internal1_m60_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m60_Zav0" description="(internal1_m60_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m60_RA00" description="(internal1_m60_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m60_RA10" description="(internal1_m60_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m60_RA50" description="(internal1_m60_RA50) Ra50 - последнее задание скорости" format="18"></var>
-<var  name="internal1_m60_fls" description="(internal1_m60_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m60_flp" description="(internal1_m60_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m60_MyFirstEnterFlag" description="(internal1_m60_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m59_Ppv0" description="(internal1_m59_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m59_Pav0" description="(internal1_m59_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m59_Zav0" description="(internal1_m59_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m59_RA00" description="(internal1_m59_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m59_RA10" description="(internal1_m59_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m59_RA50" description="(internal1_m59_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m59_fls" description="(internal1_m59_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m59_flp" description="(internal1_m59_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m59_MyFirstEnterFlag" description="(internal1_m59_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m14_C1" description="(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа" format="8"></var>
 <var  name="internal1_m14_C2" description="(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа" format="8"></var>
 <var  name="internal1_m14_C3" description="(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа" format="8"></var>
