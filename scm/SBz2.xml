@@ -71,29 +71,16 @@
     </format>
     <records>
         <record>
-            <value name="name">R0EE04LZ2</value>
-            <value name="description">(R0EE04LZ2) Питание  АКНП4  отключить</value>
+            <value name="name">R0EE01LZ2</value>
+            <value name="description">(R0EE01LZ2) Питание  АКНП1  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">1</value>
+            <value name="nID">17</value>
             <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">0</value>
-            <value name="OldData">0</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE03LZ2</value>
-            <value name="description">(R0EE03LZ2) Питание  АКНП3  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">2</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">2</value>
-            <value name="OldData">2</value>
+            <value name="Bf0">625</value>
+            <value name="ParData">56</value>
+            <value name="OldData">56</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -101,114 +88,36 @@
             <value name="description">(R0EE02LZ2) Питание  АКНП  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">2</value>
-            <value name="nID">3</value>
+            <value name="address">1</value>
+            <value name="nID">18</value>
             <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">4</value>
-            <value name="OldData">4</value>
+            <value name="Bf0">633</value>
+            <value name="ParData">58</value>
+            <value name="OldData">58</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE01LZ2</value>
-            <value name="description">(R0EE01LZ2) Питание  АКНП1  отключить</value>
+            <value name="name">R0EE03LZ2</value>
+            <value name="description">(R0EE03LZ2) Питание  АКНП3  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">19</value>
+            <value name="PType">131</value>
+            <value name="Bf0">635</value>
+            <value name="ParData">60</value>
+            <value name="OldData">60</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE04LZ2</value>
+            <value name="description">(R0EE04LZ2) Питание  АКНП4  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">3</value>
-            <value name="nID">4</value>
+            <value name="nID">20</value>
             <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">6</value>
-            <value name="OldData">6</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN65LS4</value>
-            <value name="description">(R0VN65LS4) ПС по периоду разгона канал 4</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">0</value>
-            <value name="nID">9</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">20</value>
-            <value name="OldData">20</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN61LS4</value>
-            <value name="description">(R0VN61LS4) ПС по мощности канал 4</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">11</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">27</value>
-            <value name="OldData">27</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN65LS3</value>
-            <value name="description">(R0VN65LS3) ПС по периоду разгона канал 3</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">2</value>
-            <value name="nID">13</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">34</value>
-            <value name="OldData">34</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN61LS3</value>
-            <value name="description">(R0VN61LS3) ПС по мощности канал 3</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">15</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">41</value>
-            <value name="OldData">41</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN65LS2</value>
-            <value name="description">(R0VN65LS2) ПС по периоду разгона канал 2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">4</value>
-            <value name="nID">17</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">48</value>
-            <value name="OldData">48</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN61LS2</value>
-            <value name="description">(R0VN61LS2) ПС по мощности канал 2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">5</value>
-            <value name="nID">19</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">55</value>
-            <value name="OldData">55</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN65LS1</value>
-            <value name="description">(R0VN65LS1) ПС по периоду разгона канал1</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">6</value>
-            <value name="nID">21</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
+            <value name="Bf0">637</value>
             <value name="ParData">62</value>
             <value name="OldData">62</value>
             <value name="unitId">1</value>
@@ -218,155 +127,103 @@
             <value name="description">(R0VN61LS1) ПС по мощности канал1</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">7</value>
-            <value name="nID">23</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">69</value>
-            <value name="OldData">69</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B2IP01IZ2</value>
-            <value name="description">(B2IP01IZ2) Текущее давление СБРОС РБ2</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
             <value name="address">0</value>
-            <value name="nID">5</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">8</value>
-            <value name="OldData">8</value>
+            <value name="nID">2</value>
+            <value name="PType">131</value>
+            <value name="Bf0">242</value>
+            <value name="ParData">5</value>
+            <value name="OldData">5</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2IP01IZ2</value>
-            <value name="description">(A2IP01IZ2) Текущее давление СБРОС РБ1</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
+            <value name="name">R0VN65LS1</value>
+            <value name="description">(R0VN65LS1) ПС по периоду разгона канал1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
             <value name="address">1</value>
-            <value name="nID">6</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">11</value>
-            <value name="OldData">11</value>
+            <value name="nID">4</value>
+            <value name="PType">131</value>
+            <value name="Bf0">260</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0IT02IZ2</value>
-            <value name="description">(B0IT02IZ2) Температура АЗ2-2</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
+            <value name="name">R0VN61LS2</value>
+            <value name="description">(R0VN61LS2) ПС по мощности канал 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
             <value name="address">2</value>
-            <value name="nID">7</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">14</value>
-            <value name="OldData">14</value>
+            <value name="nID">6</value>
+            <value name="PType">131</value>
+            <value name="Bf0">281</value>
+            <value name="ParData">19</value>
+            <value name="OldData">19</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0IT02IZ2</value>
-            <value name="description">(A0IT02IZ2) Температура АЗ1-2</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
+            <value name="name">R0VN65LS2</value>
+            <value name="description">(R0VN65LS2) ПС по периоду разгона канал 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
             <value name="address">3</value>
             <value name="nID">8</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">17</value>
-            <value name="OldData">17</value>
+            <value name="PType">131</value>
+            <value name="Bf0">299</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN01RS4</value>
-            <value name="description">(R0VN01RS4) Период разгона канал 4</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
+            <value name="name">R0VN61LS3</value>
+            <value name="description">(R0VN61LS3) ПС по мощности канал 3</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
             <value name="address">4</value>
             <value name="nID">10</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">22</value>
-            <value name="OldData">22</value>
+            <value name="PType">131</value>
+            <value name="Bf0">320</value>
+            <value name="ParData">33</value>
+            <value name="OldData">33</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN02RS4</value>
-            <value name="description">(R0VN02RS4) Уровень мощности канал 4</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">6</value>
+            <value name="name">R0VN65LS3</value>
+            <value name="description">(R0VN65LS3) ПС по периоду разгона канал 3</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">5</value>
             <value name="nID">12</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">29</value>
-            <value name="OldData">29</value>
+            <value name="PType">131</value>
+            <value name="Bf0">338</value>
+            <value name="ParData">40</value>
+            <value name="OldData">40</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN01RS3</value>
-            <value name="description">(R0VN01RS3) Период разгона канал 3</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">8</value>
+            <value name="name">R0VN61LS4</value>
+            <value name="description">(R0VN61LS4) ПС по мощности канал 4</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">6</value>
             <value name="nID">14</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">36</value>
-            <value name="OldData">36</value>
+            <value name="PType">131</value>
+            <value name="Bf0">359</value>
+            <value name="ParData">47</value>
+            <value name="OldData">47</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN02RS3</value>
-            <value name="description">(R0VN02RS3) Уровень мощности канал 3</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">10</value>
+            <value name="name">R0VN65LS4</value>
+            <value name="description">(R0VN65LS4) ПС по периоду разгона канал 4</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">7</value>
             <value name="nID">16</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">43</value>
-            <value name="OldData">43</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN01RS2</value>
-            <value name="description">(R0VN01RS2) Период разгона канал 2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">12</value>
-            <value name="nID">18</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">50</value>
-            <value name="OldData">50</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN02RS2</value>
-            <value name="description">(R0VN02RS2) Уровень мощности канал 2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">14</value>
-            <value name="nID">20</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">57</value>
-            <value name="OldData">57</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN01RS1</value>
-            <value name="description">(R0VN01RS1) Период разгона канал1</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">16</value>
-            <value name="nID">22</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">64</value>
-            <value name="OldData">64</value>
+            <value name="PType">131</value>
+            <value name="Bf0">377</value>
+            <value name="ParData">54</value>
+            <value name="OldData">54</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -374,12 +231,103 @@
             <value name="description">(R0VN02RS1) Уровень мощности канал1</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">18</value>
-            <value name="nID">24</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
             <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">71</value>
-            <value name="OldData">71</value>
+            <value name="Bf0">237</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN01RS1</value>
+            <value name="description">(R0VN01RS1) Период разгона канал1</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">2</value>
+            <value name="nID">3</value>
+            <value name="PType">129</value>
+            <value name="Bf0">255</value>
+            <value name="ParData">7</value>
+            <value name="OldData">7</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN02RS2</value>
+            <value name="description">(R0VN02RS2) Уровень мощности канал 2</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">4</value>
+            <value name="nID">5</value>
+            <value name="PType">129</value>
+            <value name="Bf0">276</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN01RS2</value>
+            <value name="description">(R0VN01RS2) Период разгона канал 2</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">6</value>
+            <value name="nID">7</value>
+            <value name="PType">129</value>
+            <value name="Bf0">294</value>
+            <value name="ParData">21</value>
+            <value name="OldData">21</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN02RS3</value>
+            <value name="description">(R0VN02RS3) Уровень мощности канал 3</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">8</value>
+            <value name="nID">9</value>
+            <value name="PType">129</value>
+            <value name="Bf0">315</value>
+            <value name="ParData">28</value>
+            <value name="OldData">28</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN01RS3</value>
+            <value name="description">(R0VN01RS3) Период разгона канал 3</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+            <value name="nID">11</value>
+            <value name="PType">129</value>
+            <value name="Bf0">333</value>
+            <value name="ParData">35</value>
+            <value name="OldData">35</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN02RS4</value>
+            <value name="description">(R0VN02RS4) Уровень мощности канал 4</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">12</value>
+            <value name="nID">13</value>
+            <value name="PType">129</value>
+            <value name="Bf0">354</value>
+            <value name="ParData">42</value>
+            <value name="OldData">42</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN01RS4</value>
+            <value name="description">(R0VN01RS4) Период разгона канал 4</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">14</value>
+            <value name="nID">15</value>
+            <value name="PType">129</value>
+            <value name="Bf0">372</value>
+            <value name="ParData">49</value>
+            <value name="OldData">49</value>
             <value name="unitId">1</value>
         </record>
     </records>
