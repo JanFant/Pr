@@ -20181,7 +20181,7 @@
         CONST_NAME="R3UL10RIM"
       }
       [VVV_Text]{
-        R="1437,1741,1732,1746"
+        R="1437,1741,1740,1746"
         Number=958
         IsHold=FALSE
         Line1="Рис.18  Модель механизмов перемещения ворот отстойной зоны,гомогенных дверей и кран-балки РУ БАРС-4"
@@ -20417,7 +20417,7 @@
         Line1="Рис.18  Модель механизма перемещения нейтронной ловушки НЛ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1311,2005,1576,2010"
+        R="1311,2005,1579,2010"
         Number=1080
         IsHold=FALSE
         Line1="Рис.19-1  Модель механизмов перемещения нейтронных источников НИ-ДС1,НИ-ДС2 РУ БАРС-4"
@@ -26115,15 +26115,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан (ВПИС1)"
@@ -26183,15 +26183,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан «ВПИС2» "
@@ -29386,16 +29386,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K31DO"
+        DeviceName="DO32_5F08"
         Line1=" Клапан "
         Line2="(Обдув АЗ1)"
         Line3="обесточен"
@@ -29618,23 +29618,23 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K06DO"
+        DeviceName="DO32_5F08"
         Line1=" Клапан "
         Line2="(Обдув АЗ2)"
         Line3="обесточен"
       }
       [VVV_Text]{
-        R="2813,405,3019,411"
+        R="2813,405,3019,410"
         Number=3244
         IsHold=FALSE
         Line1="Рис.5 Формирование выходных сигналов модели активных зон РУ БАРС-4"
@@ -30606,16 +30606,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K05DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="НУ РБ1"
       }
@@ -30640,16 +30640,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K04DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ РБ1"
         Line3=""
@@ -30675,16 +30675,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K03DO"
+        DeviceName="DO32_5F09"
         Line1="Магнит РБ1"
         Line2="зацеплен"
       }
@@ -30873,7 +30873,7 @@
         Line2="штока РБ1"
       }
       [VVV_Text]{
-        R="2784,871,2939,876"
+        R="2784,871,2941,876"
         Number=3349
         IsHold=FALSE
         Line1="Рис.10 Формирование выходных сигналов модели ИС1,2"
@@ -30898,15 +30898,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан ПОДЪЁМ"
@@ -30934,16 +30934,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K06DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="НУ ИС1"
       }
@@ -30968,16 +30968,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K13DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на"
         Line2="НУ ИС2"
       }
@@ -31521,15 +31521,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -31740,15 +31740,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
+        TypeMB=3
+        FormatMB=8
         TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан"
@@ -31803,15 +31803,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан cброса"
@@ -32022,15 +32022,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан "
@@ -32538,7 +32538,7 @@
         }
       }
       [VVV_Text]{
-        R="2491,3735,2521,3751"
+        R="2491,3735,2520,3752"
         Number=3531
         IsHold=FALSE
         Line1="Давление"
@@ -32588,7 +32588,7 @@
         }
       }
       [VVV_Text]{
-        R="2520,286,2552,297"
+        R="2520,286,2553,297"
         Number=3536
         IsHold=FALSE
         Line1="Координата "
@@ -32608,7 +32608,7 @@
         }
       }
       [VVV_Text]{
-        R="2435,67,2483,83"
+        R="2435,67,2484,84"
         Number=3537
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ "
@@ -32629,7 +32629,7 @@
         }
       }
       [VVV_Text]{
-        R="2383,66,2422,82"
+        R="2383,66,2423,83"
         Number=3538
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -32957,16 +32957,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K29DO"
+        DeviceName="DO32_5F06"
         Line1="Исправность"
         Line2="ВИП ССДИ-39"
         Line3="1канал"
@@ -32985,16 +32985,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K30DO"
+        DeviceName="DO32_5F06"
         Line1="Исправность"
         Line2="ВИП ССДИ-39"
         Line3="2канал"
@@ -33020,16 +33020,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K31DO"
+        DeviceName="DO32_5F06"
         Line1="Исправность"
         Line2="ВИП ССДИ-35"
         Line3="1канал"
@@ -33048,16 +33048,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K32DO"
+        DeviceName="DO32_5F06"
         Line1="Исправность ВИП"
         Line2="ССДИ-35 2канал"
       }
@@ -33229,7 +33229,7 @@
         }
       }
       [VVV_Text]{
-        R="1482,3880,1519,3896"
+        R="1482,3880,1519,3897"
         Number=3722
         IsHold=TRUE
         Line1="Исправность "
@@ -33250,7 +33250,7 @@
         }
       }
       [VVV_Text]{
-        R="1540,3882,1577,3898"
+        R="1540,3882,1577,3899"
         Number=3724
         IsHold=TRUE
         Line1="Исправность "
@@ -33271,7 +33271,7 @@
         }
       }
       [VVV_Text]{
-        R="1599,3882,1636,3898"
+        R="1599,3882,1636,3899"
         Number=3726
         IsHold=TRUE
         Line1="Исправность "
@@ -33896,16 +33896,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K28DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ НЛ1"
       }
@@ -33930,16 +33930,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K29DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="НУ НЛ1"
       }
@@ -33964,16 +33964,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K32DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ НЛ2"
       }
@@ -34032,16 +34032,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K18DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="ВУ НИ ДС1"
       }
@@ -34066,16 +34066,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K19DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="НУ НИ ДС1"
       }
@@ -34100,16 +34100,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K20DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="ВУ НИ ДС2"
       }
@@ -34134,16 +34134,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K21DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="НУ НИ ДС2"
       }
@@ -34181,7 +34181,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1894,1595,1905"
+        R="1564,1894,1594,1905"
         Number=3937
         IsHold=FALSE
         Line1="Приход на "
@@ -34221,7 +34221,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,1917,1595,1928"
+        R="1563,1917,1593,1928"
         Number=3939
         IsHold=FALSE
         Line1="Приход на "
@@ -34261,7 +34261,7 @@
         }
       }
       [VVV_Text]{
-        R="1564,1793,1595,1804"
+        R="1564,1793,1594,1804"
         Number=3941
         IsHold=FALSE
         Line1="Приход на "
@@ -34301,7 +34301,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,1815,1595,1826"
+        R="1563,1815,1593,1826"
         Number=3943
         IsHold=FALSE
         Line1="Приход на "
@@ -34328,16 +34328,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K12DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на"
         Line2="НУ РБ2"
       }
@@ -34362,16 +34362,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K11DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="ВУ РБ2"
         Line3=""
@@ -34397,16 +34397,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K10DO"
+        DeviceName="DO32_5F08"
         Line1="Магнит РБ2"
         Line2="зацеплен"
       }
@@ -35303,16 +35303,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K16DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на"
         Line2="ВУ НИ1"
       }
@@ -35337,16 +35337,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K17DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="НУ НИ1"
       }
@@ -35371,16 +35371,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K14DO"
+        DeviceName="DO32_5F08"
         Line1="Аварийный НИ"
         Line2="установлен"
       }
@@ -35405,16 +35405,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K07DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="ВУ НИ2"
       }
@@ -35439,7 +35439,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -35447,8 +35447,8 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K08DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="НУ НИ2"
       }
@@ -35473,16 +35473,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K22DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="ВУ МДЗ1"
       }
@@ -35507,16 +35507,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K23DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на НУ МДЗ1"
       }
       [TModule]{
@@ -35540,16 +35540,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K24DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на ВУ МДЗ2"
       }
       [TModule]{
@@ -35573,20 +35573,20 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K25DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на НУ МДЗ2"
       }
       [VVV_Text]{
-        R="2779,3081,3029,3092"
+        R="2779,3081,3034,3092"
         Number=4207
         IsHold=FALSE
         Line1="Рис.1 Формирование выходных сигналов модели гомогенных дверей,ворот отстойной зоны, "
@@ -35779,7 +35779,7 @@
         Line3="дверей"
       }
       [VVV_Text]{
-        R="2451,3892,2487,3908"
+        R="2451,3892,2487,3909"
         Number=4268
         IsHold=FALSE
         Line1="Давление"
@@ -35914,7 +35914,7 @@
         }
       }
       [VVV_Text]{
-        R="1866,1810,1896,1826"
+        R="1866,1810,1896,1827"
         Number=4290
         IsHold=FALSE
         Line1="Приход на "
@@ -36003,16 +36003,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K22DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ1 тележки"
         Line3=""
@@ -36038,16 +36038,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K24DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="НУ1 тележки"
         Line3=""
@@ -36073,16 +36073,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K25DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="НУ2 тележки"
       }
@@ -36107,16 +36107,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K23DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="ВУ2 тележки"
       }
@@ -36141,16 +36141,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K10DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="НУ2 АЗ2"
       }
@@ -36175,16 +36175,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K09DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="ВУ2 АЗ2"
       }
@@ -36314,16 +36314,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K27DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="НУ БЗ1"
       }
@@ -36348,16 +36348,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K30DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ БЗ2"
         Line3=""
@@ -36383,16 +36383,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K31DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="НУ БЗ2"
       }
@@ -36670,16 +36670,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K02DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на"
         Line2="НУ ББ1"
       }
@@ -36704,16 +36704,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K01DO"
+        DeviceName="DO32_5F09"
         Line1="Приход на "
         Line2="ВУ ББ1"
         Line3=""
@@ -36739,16 +36739,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K32DO"
+        DeviceName="DO32_5F08"
         Line1="Магнит ББ1"
         Line2="зацеплен"
       }
@@ -37141,16 +37141,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K09DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на"
         Line2="НУ ББ2"
       }
@@ -37175,16 +37175,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K08DO"
+        DeviceName="DO32_5F08"
         Line1="Приход на "
         Line2="ВУ ББ2"
         Line3=""
@@ -37210,16 +37210,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=3
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K07DO"
+        DeviceName="DO32_5F08"
         Line1="Магнит ББ2"
         Line2="зацеплен"
       }
@@ -37502,7 +37502,7 @@
         Line1="Координата РБ2"
       }
       [VVV_Text]{
-        R="2513,226,2543,237"
+        R="2513,226,2544,237"
         Number=280
         IsHold=FALSE
         Line1="Координата"
@@ -37762,15 +37762,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан (Подъём НИ1) "
@@ -37789,15 +37789,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан (Подъём НИ2)"
@@ -38646,7 +38646,7 @@
         }
       }
       [VVV_Text]{
-        R="2441,3579,2476,3590"
+        R="2441,3579,2475,3590"
         Number=367
         IsHold=FALSE
         Line1="Давление на"
@@ -38872,16 +38872,16 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=1
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="SCM"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB=""
+        ChannalName="K17DO"
+        DeviceName="DO32_5F09"
         Line1="Разрешение ввода от "
         Line2="имитатора"
       }
@@ -39065,7 +39065,7 @@
         CONST_NAME="TERIS2"
       }
       [VVV_Text]{
-        R="2502,752,2544,764"
+        R="2502,752,2543,763"
         Number=321
         IsHold=FALSE
         Line1="Неисправности"
@@ -39079,14 +39079,14 @@
         CONST_NAME="B3MC02RC1"
       }
       [VVV_Text]{
-        R="2488,834,2546,845"
+        R="2488,834,2548,845"
         Number=1618
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ИС2 от ИС"
       }
       [VVV_Text]{
-        R="2419,833,2471,849"
+        R="2419,833,2473,850"
         Number=1621
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -39122,14 +39122,14 @@
         CONST_NAME="A3MC02RC1"
       }
       [VVV_Text]{
-        R="2478,388,2539,400"
+        R="2478,388,2538,399"
         Number=1634
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ИС1 от ИС"
       }
       [VVV_Text]{
-        R="2409,387,2461,403"
+        R="2409,387,2463,404"
         Number=1635
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -40966,7 +40966,7 @@
         }
       }
       [VVV_Text]{
-        R="2499,157,2532,185"
+        R="2499,157,2530,186"
         Number=2778
         IsHold=FALSE
         Line1="***********"
@@ -41119,7 +41119,7 @@
         CONST_NAME="R0UL03RSS"
       }
       [VVV_Text]{
-        R="1905,3820,1937,3848"
+        R="1905,3820,1936,3849"
         Number=2465
         IsHold=FALSE
         Line1="***********"
@@ -41142,7 +41142,7 @@
         }
       }
       [VVV_Text]{
-        R="1563,3966,1676,3971"
+        R="1563,3966,1675,3971"
         Number=2820
         IsHold=TRUE
         Line1="Рис.43. Исправность источников питания"
@@ -41173,15 +41173,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SCM"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
         Line1="Клапан ПОДЪЁМ"
@@ -41286,7 +41286,7 @@
         Line1="Рис.20 Модель состояния сигналов давления РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2815,1297,2971,1303"
+        R="2815,1297,2972,1302"
         Number=1440
         IsHold=FALSE
         Line1="Рис.15 Формирование выходных сигналов модели РБ1,2"
@@ -80216,4 +80216,4 @@
     }
   }
 }
-77196793
+77225479
