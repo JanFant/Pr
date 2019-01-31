@@ -2,46 +2,73 @@ Baz1/scheme/*.bak*
 Baz1/scheme/*.xml
 Baz1/scheme/*.bin
 Baz1/scheme/*.edf
+Baz1/scheme/Scheme_0_utf.c
+Baz1/scheme/SCHEME_0.c
+Baz1/scheme/SCHEMEx0.c
 
 Baz2/scheme/*.bak*
 Baz2/scheme/*.xml
 Baz2/scheme/*.bin
 Baz2/scheme/*.edf
+Baz2/scheme/Scheme_0_utf.c
+Baz2/scheme/SCHEME_0.c
+Baz2/scheme/SCHEMEx0.c
 
 scm/scheme/*.bak*
 scm/scheme/*.xml
 scm/scheme/*.bin
 scm/scheme/*.edf
+scm/scheme/Scheme_0_utf.c
+scm/scheme/SCHEME_0.c
+scm/scheme/SCHEMEx0.c
 
 du/scheme/*.bak*
 du/scheme/*.xml
 du/scheme/*.bin
 du/scheme/*.edf
+du/scheme/Scheme_0_utf.c
+du/scheme/SCHEME_0.c
+du/scheme/SCHEMEx0.c
 
 AKNP1/scheme/*.bak*
 AKNP1/scheme/*.xml
 AKNP1/scheme/*.bin
 AKNP1/scheme/*.edf
+AKNP1/scheme/Scheme_0_utf.c
+AKNP1/scheme/SCHEME_0.c
+AKNP1/scheme/SCHEMEx0.c
 
 AKNP3/scheme/*.bak*
 AKNP3/scheme/*.xml
 AKNP3/scheme/*.bin
 AKNP3/scheme/*.edf
+AKNP3/scheme/Scheme_0_utf.c
+AKNP3/scheme/SCHEME_0.c
+AKNP3/scheme/SCHEMEx0.c
 
 AKNP4/scheme/*.bak*
 AKNP4/scheme/*.xml
 AKNP4/scheme/*.bin
 AKNP4/scheme/*.edf
+AKNP4/scheme/Scheme_0_utf.c
+AKNP4/scheme/SCHEME_0.c
+AKNP4/scheme/SCHEMEx0.c
 
 RPU/scheme/*.bak*
 RPU/scheme/*.xml
 RPU/scheme/*.bin
 RPU/scheme/*.edf
+RPU/scheme/Scheme_0_utf.c
+RPU/scheme/SCHEME_0.c
+RPU/scheme/SCHEMEx0.c
 
 AKNP2/scheme/*.bak*
 AKNP2/scheme/*.xml
 AKNP2/scheme/*.bin
 AKNP2/scheme/*.edf
+AKNP2/scheme/Scheme_0_utf.c
+AKNP2/scheme/SCHEME_0.c
+AKNP2/scheme/SCHEMEx0.c
 logs
 *.rar
 .tmp.drivedownload
