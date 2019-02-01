@@ -1,6 +1,6 @@
 #ifndef AKNP1SIGN_H
 #define AKNP1SIGN_H
-// Подсистема AKNP1sign:AKNP1sign_DU
+// Подсистема AKNP1sign:AKNP1sign
 static char SimulOn=0;
 static short CodeSub=14;
 static char SimulIP[]="192.168.1.17\0";
@@ -214,9 +214,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="AKNP1sign.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
-{0,NULL}
-};
+static short saveVariables[]={      // Id переменных для сохранения
+-1,};
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP1sign[]={  // 
 	{NULL,0,0},

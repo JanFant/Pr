@@ -218,21 +218,62 @@ static short saveVariables[]={      // Id переменных для сохра
 32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,-1,};
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP1[]={  // 
+	{&A0EE03LS1,1,0},	//(A0EE03LS1) Подключена сеть питания АКНП
+	{&R0EE01LZ1,1,1},	//(R0EE01LZ1) Питание  АКНП1  отключить
+	{&R0EE01LZ2,1,2},	//(R0EE01LZ2) Питание  АКНП1  отключить
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_AKNP1[]={  // 
+	{&R0VN61LS1,1,0},	//(R0VN61LS1) ПС по мощности канал1
+	{&R0VN65LS1,1,1},	//(R0VN65LS1) ПС по периоду разгона канал1
+	{&A0EE02LS1,1,2},	//(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP1[]={  // 
+	{&R0VN02RS1,8,0},	//(R0VN02RS1) Уровень мощности
+	{&R0VN01RS1,8,2},	//(R0VN01RS1) Период разгона канал1
+	{&R0VN03RS1,8,4},	//(R0VN03RS1) Измеренный нейтронный поток
+	{&R0VN04RS1,8,6},	//(R0VN04RS1) Реактивность канал1
+	{&R0VN13RS1,8,8},	//(R0VN13RS1) Нейтронный поток по камере СНМ11
+	{&R0VN23RS1,8,10},	//(R0VN23RS1) Нейтронный поток по камере КНК15-1
+	{&R0VN33RS1,8,12},	//(R0VN33RS1) Нейтронный поток по камере КНК53М
+	{&R0VN15RS1,3,14},	//(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_AKNP1[]={  // 
+	{&B8VC01RDU,8,0},	//(B8VC01RDU) Координата АЗ2, мм
+	{&fEM_R0UR01RSS,8,2},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UL52RSS,8,4},	//(R0UL52RSS) Уровень АС по мощности
+	{&fEM_R0UL41RSS,8,6},	//(R0UL41RSS) Уровень ПС по периоду разгона
+	{&fEM_R0UL51RSS,8,8},	//(R0UL51RSS) Уровень АС по периоду разгона
+	{&fEM_R0UH02RSS,8,10},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{&fEM_R0UH03RSS,8,12},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+	{&fEM_R0UL42RSS,8,14},	//(R0UL42RSS) Уровень ПС по мощности
+	{&fEM_R7UX00RSS,8,16},	//(R7UX00RSS) X-координата АЗ1 (см)
+	{&fEM_R7UX01RSS,8,18},	//(R7UX01RSS) X-координата камеры R7IN11
+	{&fEM_R7UX02RSS,8,20},	//(R7UX02RSS) X-координата камеры R7IN12 (см)
+	{&fEM_R7UX03RSS,8,22},	//(R7UX03RSS) X-координата камеры R7IN13 (см)
+	{&fEM_R7UY00RSS,8,24},	//(R7UY00RSS) Y-координата АЗ1 (см)
+	{&fEM_R7UY01RSS,8,26},	//(R7UY01RSS) Y-координата камеры R7IN11
+	{&fEM_R7UY02RSS,8,28},	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
+	{&fEM_R7UY03RSS,8,30},	//(R7UY03RSS) Y-координата камеры R7IN13 (см)
+	{&fEM_A0UX00RSS,8,32},	//(A0UX00RSS) Эффективный радиус АЗ
+	{&fEM_A0UX01RSS,8,34},	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
+	{&fEM_A0UX02RSS,8,36},	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
+	{&fEM_A0UX03RSS,8,38},	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
+	{&fEM_B0UX01RSS,8,40},	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
+	{&fEM_B0UX02RSS,8,42},	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
+	{&fEM_B0UX03RSS,8,44},	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+	{&fEM_R0UH05RSS,8,46},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+	{&fEM_R0UN03RSS,8,48},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&fEM_R0UL01RSS,8,50},	//(R0UL01RSS) Шаг (мс) измерения периода
+	{&fEM_R0UL02RSS,8,52},	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
 	{NULL,0,0},
 };
 #pragma pop
@@ -390,7 +431,116 @@ void VCHS_post(vchs_data *vch_data) {
 
 }
 
-void Scheme(void)
+uspaint8 InternalBuf[112];
+
+/* Определение констант ПЗУ и ЭСППЗУ*/
+ssint iRM_5_ = {5,0}; /* n - N-размерность массива x */ 
+ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
+sschar bRM_2_ = {2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
+
+uspaint8 SpaEEPROMBuf[130];
+
+/* Определение переменных */
+ssbool var1;
+ssbool var2;
+ssbool var3;
+ssfloat var4;
+ssfloat var5;
+ssbool var6;
+ssfloat var7;
+ssfloat var8;
+ssfloat var9;
+ssint var10;
+ssbool var11;
+ssfloat var12;
+ssbool var13;
+ssbool var14;
+ssbool var15;
+ssbool var16;
+ssbool var17;
+ssfloat var18;
+ssbool var19;
+sslong vainSLong;
+ssfloat vainSFloat;
+ssint vainSInt;
+ssbool vainSBool;
+sschar vainSChar;
+char vainSText[] = "";
+
+/* Объявление массивов */
+psfloat  array_m45_tst_1[5];
+psfloat  array_m45_trz_1[5];
+psfloat  array_m45_N1_1[5];
+psfloat  array_m45_N2_1[5];
+
+/* Объявление структур */
+_S_and5  S_and5_62_1 = {&var6,&R0IE13LS1,&A0EE03LS1,&R0IE11LS1,&R0IE12LS1,&var1};
+_S_and2  S_and2_58_1 = {&var16,&var13,&var2};
+_S_and2  S_and2_57_1 = {&var17,&var16,&var3};
+_S_ocham  S_ocham_13_1 = {&R0IN03FS1,&R0IN02FS1,&R0IN01FS1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX01RSS,&fEM_B0UX01RSS,&fEM_A0UX02RSS,&fEM_B0UX02RSS,&fEM_A0UX03RSS,&fEM_B0UX03RSS,&fEM_R7UX01RSS,&fEM_R7UY01RSS,&fEM_R7UX02RSS,&fEM_R7UY02RSS,&fEM_R7UX03RSS,&fEM_R7UY03RSS,&bRM_2_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var4,&var5,&var6,&var7,&var8,&var9,&var10,&internal1_m13_Nk};
+_S_or2  S_or2_68_1 = {&R0EE01LZ1,&R0EE01LZ2,&var11};
+_S_period  S_period_45_1 = {&var5,&var1,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var12,array_m45_tst_1,array_m45_trz_1,array_m45_N1_1,array_m45_N2_1,&internal1_m45_Period0,&internal1_m45_MyFirstEnterFlag};
+_S_bol  S_bol_51_1 = {&fEM_R0UL41RSS,&var12,&var13};
+_S_bol  S_bol_36_1 = {&var5,&fEM_R0UL52RSS,&var14};
+_S_bol  S_bol_31_1 = {&var5,&fEM_R0UL42RSS,&var15};
+_S_bol  S_bol_50_1 = {&var5,&fEM_R0UN03RSS,&var16};
+_S_bol  S_bol_49_1 = {&fEM_R0UL51RSS,&var12,&var17};
+_S_react  S_react_46_1 = {&var12,&var18};
+_S_bol  S_bol_39_1 = {&var5,&fEM_R0UR01RSS,&var19};
+
+
+void Scheme()
 {
+if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
+  or2(&S_or2_68_1);
+  ocham(&S_ocham_13_1);
+  and5(&S_and5_62_1);
+  bol(&S_bol_39_1);
+  bol(&S_bol_50_1);
+  bol(&S_bol_31_1);
+  bol(&S_bol_36_1);
+  period(&S_period_45_1);
+  react(&S_react_46_1);
+  bol(&S_bol_49_1);
+  bol(&S_bol_51_1);
+  and2(&S_and2_57_1);
+  and2(&S_and2_58_1);
+  setData(idA1VN71LS1,&var19);
+  setData(idA1EE01LS1,&var1);
+  setData(idR0VN75LZ2,&var3);
+  setData(idR0VN71LZ2,&var14);
+  setData(idR0IE02LS1,&var11);
+  setData(idR0IE01LS1,&var11);
+  setData(idR0VN15RS1,&var10);
+  setData(idR0VN33RS1,&var9);
+  setData(idR0VN23RS1,&var8);
+  setData(idR0VN13RS1,&var7);
+  setData(idA0EE02LS1,&var6);
+  setData(idA0VN71LS1,&var19);
+  setData(idR0VN04RS1,&var18);
+  setData(idR0VN03RS1,&var4);
+  setData(idA0EE01LS1,&var1);
+  setData(idR0VN75LZ1,&var3);
+  setData(idR0VN65LS1,&var2);
+  setData(idR0VN71LZ1,&var14);
+  setData(idR0VN61LS1,&var15);
+  setData(idR0VN01RS1,&var12);
+  setData(idR0VN02RS1,&var5);
+
+  setAsBool(idbFirstEnterFlag,1);
 }
+
+void InitInternalParametr(void)
+{
+  int i;
+  for( i=0;i<5;i++ )
+    array_m45_tst_1[i] = &(&internal1_m45_tst)[i*5];
+  for( i=0;i<5;i++ )
+    array_m45_trz_1[i] = &(&internal1_m45_trz)[i*5];
+  for( i=0;i<5;i++ )
+    array_m45_N1_1[i] = &(&internal1_m45_N1)[i*5];
+  for( i=0;i<5;i++ )
+    array_m45_N2_1[i] = &(&internal1_m45_N2)[i*5];
+}
+
 #endif

@@ -214,35 +214,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="aknp2.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
-   {32,"fEM_R0UR01RSS\0"}, 
-   {33,"fEM_R0UL52RSS\0"}, 
-   {34,"fEM_R0UL41RSS\0"}, 
-   {35,"fEM_R0UL51RSS\0"}, 
-   {36,"fEM_R0UH02RSS\0"}, 
-   {37,"fEM_R0UH03RSS\0"}, 
-   {38,"fEM_R0UL42RSS\0"}, 
-   {39,"fEM_R7UX00RSS\0"}, 
-   {40,"fEM_R7UX04RSS\0"}, 
-   {41,"fEM_R7UX05RSS\0"}, 
-   {42,"fEM_R7UX06RSS\0"}, 
-   {43,"fEM_R7UY00RSS\0"}, 
-   {44,"fEM_R7UY04RSS\0"}, 
-   {45,"fEM_R7UY05RSS\0"}, 
-   {46,"fEM_R7UY06RSS\0"}, 
-   {47,"fEM_A0UX00RSS\0"}, 
-   {48,"fEM_A0UX04RSS\0"}, 
-   {49,"fEM_A0UX05RSS\0"}, 
-   {50,"fEM_A0UX06RSS\0"}, 
-   {51,"fEM_B0UX04RSS\0"}, 
-   {52,"fEM_B0UX05RSS\0"}, 
-   {53,"fEM_B0UX06RSS\0"}, 
-   {54,"fEM_R0UH05RSS\0"}, 
-   {55,"fEM_R0UN03RSS\0"}, 
-   {56,"fEM_R0UL01RSS\0"}, 
-   {57,"fEM_R0UL02RSS\0"}, 
-{0,NULL}
-};
+static short saveVariables[]={      // Id переменных для сохранения
+32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,-1,};
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP2[]={  // 
 	{&R0EE02LZ2,1,0},	//(R0EE02LZ2) Питание  АКНП  отключить
