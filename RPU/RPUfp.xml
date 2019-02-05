@@ -3,5 +3,6 @@
         <variable xml="varRPU"/>
         <saves xml="saveRPU"/>
         <devices xml="devRPU"/>
-        <modbus name="RPU" description="общий slave RPU" type="slave" port="502" xml="RPU"/>
+        <modbus name="RPU"      description="общий slave RPU"       type="slave" port="502" xml="RPU"/>
+        <modbus name="DiagnRPU" description="Диагностика шкафа РПУ" type="slave" port="503" xml="DiagnRPU"/>
 </subsystem>

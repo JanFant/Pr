@@ -1,4 +1,4 @@
-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 01.06.2011 14:26:43
+Алгоблок сохранен 01.06.2011 14:26:43
 [VVV_Scheme]{
   Version=3
   CountScheme=2
@@ -10,13 +10,13 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ  пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+      Description="Уставка АКНП ПС  АЗ по периоду (сек)"
       MinValue="0"
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -32,15 +32,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+      Description="Уровень АС по мощности"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
-      FormatMB=8
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -54,15 +54,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+      Description="Уровень ПС по периоду разгона"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
-      FormatMB=8
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -76,15 +76,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+      Description="Уровень АС по периоду разгона"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
-      FormatMB=8
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -98,15 +98,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ15-1"
+      Description="Коэфф. преобразования частота->нейтр/с КНК15-1"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -120,15 +120,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ53пїЅ"
+      Description="Коэфф. преобразования частота->нейтр/с КНК53М"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -142,15 +142,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+      Description="Уровень ПС по мощности"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
-      FormatMB=8
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -164,15 +164,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1 (пїЅпїЅ)"
+      Description="X-координата АЗ1 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
-      FormatMB=8
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -186,15 +186,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN11"
+      Description="X-координата камеры R7IN11"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -208,15 +208,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN12 (пїЅпїЅ)"
+      Description="X-координата камеры R7IN12 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -230,15 +230,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN13 (пїЅпїЅ)"
+      Description="X-координата камеры R7IN13 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -252,15 +252,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1 (пїЅпїЅ)"
+      Description="Y-координата АЗ1 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -274,15 +274,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN11"
+      Description="Y-координата камеры R7IN11"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -296,15 +296,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN12 (пїЅпїЅ)"
+      Description="Y-координата камеры R7IN12 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -318,15 +318,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN13 (пїЅпїЅ)"
+      Description="Y-координата камеры R7IN13 (см)"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -340,15 +340,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ"
+      Description="Эффективный радиус АЗ"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -362,15 +362,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1"
+      Description="Первый коэффициент калибровки камеры 1"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -384,15 +384,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2"
+      Description="Первый коэффициент калибровки камеры 2"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -406,15 +406,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 3"
+      Description="Первый коэффициент калибровки камеры 3"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -428,15 +428,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1"
+      Description="Второй коэффициент калибровки камеры 1"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -450,15 +450,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2"
+      Description="Второй коэффициент калибровки камеры 2"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -472,15 +472,15 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 3"
+      Description="Второй коэффициент калибровки камеры 3"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
-      TypeMB=3
-      FormatMB=8
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=0
+      FormatMB=0
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -494,13 +494,13 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅ пїЅпїЅ 1 пїЅпїЅпїЅпїЅ * E^6"
+      Description="Кол-во делений/сек на 1 ватт * E^6"
       MinValue="-10000"
       MaxValue="1000000"
       Group="1"
       Access="0"
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -516,7 +516,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description="n - N-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ x"
+      Description="n - N-размерность массива x"
       MinValue=""
       MaxValue=""
       Group=""
@@ -538,13 +538,13 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+      Description="Нижняя граница интервала мощности для измерения периода (ватт)"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -560,7 +560,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description="Kpr1 - пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ-11"
+      Description="Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11"
       MinValue=""
       MaxValue=""
       Group=""
@@ -582,7 +582,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description="type - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 1- пїЅпїЅпїЅ пїЅпїЅ1, 2- пїЅпїЅпїЅ пїЅпїЅ2, >2 пїЅпїЅпїЅ"
+      Description="type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ"
       MinValue=""
       MaxValue=""
       Group=""
@@ -604,13 +604,13 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅ (пїЅпїЅ) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+      Description="Шаг (мс) измерения периода"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -626,13 +626,13 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ)"
+      Description="Предельное время ожидания роста потока (мс)"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="AKNP1"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -654,7 +654,7 @@
       R="185,91,336,98"
       Number=15
       IsHold=FALSE
-      Line1="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-4"
+      Line1="Схема блока аварийной защиты СУЗ БАРС-4"
     }
     [VVV_DrawAlgoblock]{
       SchemeName="AbS1"
@@ -694,25 +694,25 @@
         VisualNumber="21"
         SIGNAL_NAME="R0VN02RS1"
         KodTeprol="R0VN02RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Уровень мощности"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Line1="Уровень"
+        Line2="мощности канал1"
         Line3=""
       }
       [TDrawSignal]{
@@ -722,25 +722,25 @@
         VisualNumber="47"
         SIGNAL_NAME="R0VN01RS1"
         KodTeprol="R0VN01RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Comment="Период разгона канал1"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Line1="Период"
+        Line2="разгона канал1"
       }
       [TDrawSignal]{
         R="376,190,436,230"
@@ -749,25 +749,25 @@
         VisualNumber="27"
         SIGNAL_NAME="R0VN61LS1"
         KodTeprol="R0VN61LS1"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Comment="ПС по мощности канал1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2=" пїЅпїЅпїЅпїЅпїЅ1"
+        Line1="ПС по мощности"
+        Line2=" канал1"
       }
       [TDrawSignal]{
         R="505,120,565,160"
@@ -776,26 +776,26 @@
         VisualNumber="35"
         SIGNAL_NAME="R0VN71LZ1"
         KodTeprol="R0VN71LZ1"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="АС по мощности на БАЗ1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K09FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅ пїЅпїЅ "
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅ пїЅпїЅпїЅ1"
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по "
+        Line2="мощности"
+        Line3="на БАЗ1"
       }
       [TDrawSignal]{
         R="978,255,1038,295"
@@ -804,25 +804,25 @@
         VisualNumber="61"
         SIGNAL_NAME="R0VN65LS1"
         KodTeprol="R0VN65LS1"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Comment="ПС по периоду разгона канал1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Line1="ПС по периоду"
+        Line2="разгона канал1"
       }
       [TDrawSignal]{
         R="978,206,1038,246"
@@ -831,26 +831,26 @@
         VisualNumber="60"
         SIGNAL_NAME="R0VN75LZ1"
         KodTeprol="R0VN75LZ1"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="АС по периоду разгонана БАЗ1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K10FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅ пїЅпїЅпїЅ1"
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по периоду"
+        Line2="разгона"
+        Line3="на БАЗ1"
       }
       [TModule]{
         R="576,187,606,227"
@@ -880,25 +880,25 @@
         VisualNumber="56"
         SIGNAL_NAME="A0EE01LS1"
         KodTeprol="A0EE01LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="Исправность АКНП на БАЗ1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K11FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ1"
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность"
+        Line2="АКНП на БАЗ1"
       }
       [TDrawSignal]{
         R="18,33,78,73"
@@ -907,24 +907,24 @@
         VisualNumber="1"
         SIGNAL_NAME="R0IN01FS1"
         KodTeprol="R0IN01FS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅпїЅ"
+        Comment="Выход СНМ-11 Гц"
         Type=1
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VCHS"
-        DeviceName="VCHS01"
-        Line1="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Выход СНМ-11 Гц"
         Line2=""
       }
       [TDrawSignal]{
@@ -934,24 +934,24 @@
         VisualNumber="8"
         SIGNAL_NAME="R0IN02FS1"
         KodTeprol="R0IN02FS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅ"
+        Comment="Выход КНК15-1 Гц"
         Type=1
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02VCHS"
-        DeviceName="VCHS01"
-        Line1="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Выход КНК15-1 Гц"
       }
       [VVV_DrawConst]{
         R="110,185,140,225"
@@ -981,25 +981,25 @@
         VisualNumber="18"
         SIGNAL_NAME="R0VN03RS1"
         KodTeprol="R0VN03RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Измеренный нейтронный поток"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+        Line1="Измеренный"
+        Line2="нейтронный поток"
       }
       [TDrawSignal]{
         R="701,292,761,332"
@@ -1008,25 +1008,25 @@
         VisualNumber="43"
         SIGNAL_NAME="R0VN04RS1"
         KodTeprol="R0VN04RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ1"
+        Comment="Реактивность канал1"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2=" пїЅпїЅпїЅпїЅпїЅ1"
+        Line1="Реактивность"
+        Line2=" канал1"
       }
       [TDrawSignal]{
         R="503,303,563,343"
@@ -1035,26 +1035,26 @@
         VisualNumber="37"
         SIGNAL_NAME="A0VN71LS1"
         KodTeprol="A0VN71LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="Блокировка автоматического  подъёма ББ на БАЗ1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        TypeMB=0
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K12FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ1"
+        ChannalName=""
+        DeviceName=""
+        Line1="Блокировка "
+        Line2="автоматического"
+        Line3="подъёма ББ на БАЗ1"
       }
       [TDrawSignal]{
         R="165,7,225,47"
@@ -1063,24 +1063,24 @@
         VisualNumber="11"
         SIGNAL_NAME="R0IN03FS1"
         KodTeprol="R0IN03FS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ  пїЅпїЅ"
+        Comment="Выход КНК53М  Гц"
         Type=1
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VCHS"
-        DeviceName="VCHS02"
-        Line1="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ пїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Выход КНК53М Гц"
       }
       [TDrawSignal]{
         R="322,250,382,290"
@@ -1089,26 +1089,26 @@
         VisualNumber="24"
         SIGNAL_NAME="A0EE02LS1"
         KodTeprol="A0EE02LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ1 (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅ 1"
+        Comment="Исправность АКНП1 (от сшивки каналов) канал 1"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅ1 (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅ 1"
+        Line1="Исправность"
+        Line2="АКНП1 (от сшивки"
+        Line3="каналов) канал 1"
       }
       [TModule]{
         R="850,183,880,223"
@@ -1173,14 +1173,14 @@
         VisualNumber="53"
         SIGNAL_NAME="R0IE11LS1"
         KodTeprol="R0IE11LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 1,6 (пїЅ8) пїЅпїЅпїЅ11 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Исправность ВИП 1,6 (№8) СНМ11 1 канала"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
+        TypeMB=1
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1188,11 +1188,11 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VDSR"
-        DeviceName="VDS32"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅ 1,6 (пїЅ8)"
-        Line3="пїЅпїЅпїЅ11 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность"
+        Line2="ВИП 1,6 (№8)"
+        Line3="СНМ11 1 канала"
       }
       [TDrawSignal]{
         R="908,81,968,121"
@@ -1201,14 +1201,14 @@
         VisualNumber="54"
         SIGNAL_NAME="R0IE12LS1"
         KodTeprol="R0IE12LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 0,5 (пїЅ9) пїЅпїЅпїЅ15-1 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Исправность ВИП 0,5 (№9) КНК15-1 1 канала"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
+        TypeMB=1
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1216,11 +1216,11 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02VDSR"
-        DeviceName="VDS32"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅ 0,5 (пїЅ10)"
-        Line3="пїЅпїЅпїЅ15-1 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность"
+        Line2="ВИП 0,5 (№10)"
+        Line3="КНК15-1 1 канала"
       }
       [TDrawSignal]{
         R="1069,30,1129,70"
@@ -1229,14 +1229,14 @@
         VisualNumber="63"
         SIGNAL_NAME="R0IE13LS1"
         KodTeprol="R0IE13LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 0,5 (пїЅ10) пїЅпїЅпїЅ53пїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Исправность ВИП 0,5 (№10) КНК53М 1 канала"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
+        TypeMB=1
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1244,11 +1244,11 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K03VDSR"
-        DeviceName="VDS32"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅ 0,5 (пїЅ10) "
-        Line3="пїЅпїЅ53пїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность"
+        Line2="ВИП 0,5 (№10) "
+        Line3="НК53М 1 канала"
       }
       [VVV_DrawConst]{
         R="18,172,78,212"
@@ -1265,10 +1265,10 @@
         ABBRV="BOL"
       }
       [VVV_Text]{
-        R="251,407,381,413"
+        R="251,407,409,414"
         Number=148
         IsHold=FALSE
-        Line1="пїЅпїЅпїЅ.1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+        Line1="Рис.1. Обработка датчиков нейтронного потока"
       }
       [TModule]{
         R="756,183,816,223"
@@ -1295,10 +1295,10 @@
         }
       }
       [VVV_Text]{
-        R="845,404,989,410"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
-        Line1="пїЅпїЅпїЅ.2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Line1="Рис.2. Вычисление периода разгона и реактивности"
       }
       [TDrawSignal]{
         R="26,241,86,281"
@@ -1307,26 +1307,26 @@
         VisualNumber="5"
         SIGNAL_NAME="R0VN13RS1"
         KodTeprol="R0VN13RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ11"
+        Comment="Нейтронный поток по камере СНМ11"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3=" пїЅпїЅпїЅ11"
+        Line1="Нейтронный"
+        Line2="поток по камере"
+        Line3=" СНМ11"
       }
       [TDrawSignal]{
         R="26,285,86,325"
@@ -1335,26 +1335,26 @@
         VisualNumber="6"
         SIGNAL_NAME="R0VN23RS1"
         KodTeprol="R0VN23RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1"
+        Comment="Нейтронный поток по камере КНК15-1"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3=" пїЅпїЅпїЅ15-1"
+        Line1="Нейтронный"
+        Line2="поток по камере"
+        Line3=" КНК15-1"
       }
       [TDrawSignal]{
         R="26,330,86,370"
@@ -1363,26 +1363,26 @@
         VisualNumber="7"
         SIGNAL_NAME="R0VN33RS1"
         KodTeprol="R0VN33RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ"
+        Comment="Нейтронный поток по камере КНК53М"
         Type=1
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=8
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅ53пїЅ"
+        Line1="Нейтронный"
+        Line2="поток по камере"
+        Line3="КНК53М"
       }
       [TDrawSignal]{
         R="211,252,241,292"
@@ -1391,26 +1391,26 @@
         VisualNumber="14"
         SIGNAL_NAME="R0VN15RS1"
         KodTeprol="R0VN15RS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1-пїЅпїЅпїЅ-11,2-пїЅпїЅпїЅ-15пїЅ-1,3-пїЅпїЅпїЅ-53пїЅ,0-пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей"
         Type=2
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=2
-        FormatMB=3
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅ "
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅпїЅпїЅпїЅ"
+        Line1="Номер "
+        Line2="ведущей"
+        Line3="камеры"
       }
       [TDrawSignal]{
         R="1069,81,1129,121"
@@ -1419,25 +1419,25 @@
         VisualNumber="64"
         SIGNAL_NAME="A0EE03LS1"
         KodTeprol="A0EE03LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+        Comment="Подключена сеть питания АКНП"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=2
+        TypeMB=1
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+        Line1="Подключена сеть"
+        Line2="питания АКНП"
       }
       [VVV_InterBlock]{
         VisualNumber=""
@@ -1473,26 +1473,26 @@
         VisualNumber="66"
         SIGNAL_NAME="R0IE01LS1"
         KodTeprol="R0IE01LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Отключение питание детекторов"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        TypeMB=1
+        FormatMB=2
+        TypeMBMaster=0
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Отключение"
+        Line2="питания"
+        Line3="детекторов"
       }
       [TDrawSignal]{
         R="1167,344,1227,384"
@@ -1501,26 +1501,26 @@
         VisualNumber="70"
         SIGNAL_NAME="R0IE02LS1"
         KodTeprol="R0IE02LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ, пїЅпїЅ"
+        Comment="Отключить питание ПР, ПУ"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=2
+        TypeMBMaster=0
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅ, пїЅпїЅ"
+        ChannalName=""
+        DeviceName=""
+        Line1="Отключить"
+        Line2="питание"
+        Line3="ПР, ПУ"
       }
       [TDrawSignal]{
         R="578,120,638,160"
@@ -1529,26 +1529,26 @@
         VisualNumber="38"
         SIGNAL_NAME="R0VN71LZ2"
         KodTeprol="R0VN71LZ2"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="АС по мощности на БАЗ2"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K13FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅ пїЅпїЅ "
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅ пїЅпїЅпїЅ2"
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по "
+        Line2="мощности"
+        Line3="на БАЗ2"
       }
       [TDrawSignal]{
         R="1052,206,1112,246"
@@ -1557,26 +1557,26 @@
         VisualNumber="65"
         SIGNAL_NAME="R0VN75LZ2"
         KodTeprol="R0VN75LZ2"
-        Comment="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="АС по периоду разгонана БАЗ2"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K14FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅ пїЅпїЅпїЅ2"
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по периоду"
+        Line2="разгона"
+        Line3="на БАЗ2"
       }
       [TDrawSignal]{
         R="1003,148,1063,188"
@@ -1585,25 +1585,25 @@
         VisualNumber="59"
         SIGNAL_NAME="A1EE01LS1"
         KodTeprol="A1EE01LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="Исправность АКНП на БАЗ2"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K15FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность"
+        Line2="АКНП на БАЗ2"
       }
       [VVV_InterBlock]{
         VisualNumber=""
@@ -1625,26 +1625,26 @@
         VisualNumber="40"
         SIGNAL_NAME="A1VN71LS1"
         KodTeprol="A1VN71LS1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="Блокировка автоматического  подъёма ББ на БАЗ2"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        TypeMB=0
+        FormatMB=0
+        TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K16FDSR"
-        DeviceName="FDS16"
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line3="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        ChannalName=""
+        DeviceName=""
+        Line1="Блокировка "
+        Line2="автоматического"
+        Line3="подъёма ББ на БАЗ2"
       }
       [TDrawSignal]{
         R="18,84,78,124"
@@ -1653,25 +1653,25 @@
         VisualNumber="2"
         SIGNAL_NAME="B8VC01RDU"
         KodTeprol="B8VC01RDU"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2, пїЅпїЅ"
+        Comment="Координата АЗ2, мм"
         Type=1
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
+        FormatMB=5
+        TypeMBMaster=0
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
-        Line2="пїЅпїЅ2, пїЅпїЅ"
+        Line1="Координата"
+        Line2="АЗ2, мм"
       }
       [TDrawSignal]{
         R="1111,259,1141,299"
@@ -1680,25 +1680,25 @@
         VisualNumber="67"
         SIGNAL_NAME="R0EE01LZ1"
         KodTeprol="R0EE01LZ1"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Питание  АКНП1  отключить"
         Type=3
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=0
-        FormatMB=2
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Line1="Питание  АКНП1"
+        Line2="отключить"
       }
       [TDrawSignal]{
         R="1148,259,1178,299"
@@ -1707,25 +1707,25 @@
         VisualNumber="69"
         SIGNAL_NAME="R0EE01LZ2"
         KodTeprol="R0EE01LZ2"
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Питание  АКНП1  отключить"
         Type=3
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=0
-        FormatMB=2
+        FormatMB=0
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1"
-        Line2="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Line1="Питание  АКНП1"
+        Line2="отключить"
       }
       [TModule]{
         R="1129,310,1159,330"
@@ -1909,7 +1909,7 @@
         p2="547:160"
         BNumber=185
         ENumber=53
-        Comment="Y --> пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Y --> АС по мощности"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -1933,7 +1933,7 @@
         p4="532:209"
         BNumber=189
         ENumber=185
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> X2"
+        Comment="Уровень АС по мощности --> X2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -1954,7 +1954,7 @@
         p1="464:228"
         BNumber=188
         ENumber=181
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> X2"
+        Comment="Уровень ПС по мощности --> X2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -1975,7 +1975,7 @@
         p1="785:292"
         BNumber=149
         ENumber=276
-        Comment="Per - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> t-пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -1996,7 +1996,7 @@
         p1="788:183"
         BNumber=33
         ENumber=149
-        Comment="пїЅпїЅпїЅ (пїЅпїЅ) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> TiStep - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+        Comment="Шаг (мс) измерения периода --> TiStep - шаг измерения периода (сек)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2018,7 +2018,7 @@
         p2="756:212"
         BNumber=221
         ENumber=149
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ) --> Nmin - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+        Comment="Нижняя граница интервала мощности для измерения периода (ватт) --> Nmin - нижняя граница интервала мощности для измерения периода (ватт)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2040,7 +2040,7 @@
         p2="612:160"
         BNumber=187
         ENumber=246
-        Comment="Y --> пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Y --> АС по мощности"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2061,7 +2061,7 @@
         p1="1137:310"
         BNumber=28
         ENumber=137
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> x1 - пїЅпїЅпїЅпїЅ 1"
+        Comment="Питание  АКНП1  отключить --> x1 - вход 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2082,7 +2082,7 @@
         p1="1153:310"
         BNumber=30
         ENumber=137
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅ1  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> x2 - пїЅпїЅпїЅпїЅ 2"
+        Comment="Питание  АКНП1  отключить --> x2 - вход 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2104,7 +2104,7 @@
         p2="1134:365"
         BNumber=137
         ENumber=242
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="y - выходной параметр --> Отключение питание детекторов"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2125,7 +2125,7 @@
         p1="1167:365"
         BNumber=140
         ENumber=243
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="y - выходной параметр --> Отключение питание детекторов"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2147,7 +2147,7 @@
         p2="224:140"
         BNumber=8
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ  пїЅпїЅ --> Ch1 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ-11"
+        Comment="Выход КНК53М  Гц --> Ch1 - частота импульсов от СНМ-11"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2171,7 +2171,7 @@
         p4="224:147"
         BNumber=4
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅ --> Ch2 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ15-1"
+        Comment="Выход КНК15-1 Гц --> Ch2 - частота импульсов от КНК15-1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2196,7 +2196,7 @@
         p5="224:152"
         BNumber=3
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅпїЅ --> Ch2 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ53пїЅ"
+        Comment="Выход СНМ-11 Гц --> Ch2 - частота импульсов от КНК53М"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2219,7 +2219,7 @@
         p3="224:158"
         BNumber=25
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2, пїЅпїЅ --> YAz2 - y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ2 пїЅпїЅ"
+        Comment="Координата АЗ2, мм --> YAz2 - y-координата АЗ2 мм"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2242,7 +2242,7 @@
         p3="224:165"
         BNumber=245
         ENumber=1
-        Comment="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1 (пїЅпїЅ) --> XAz - x-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ cпїЅ"
+        Comment="X-координата АЗ1 (см) --> XAz - x-координата АЗ cм"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2265,7 +2265,7 @@
         p3="224:134"
         BNumber=31
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> Reff - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ cпїЅ"
+        Comment="Эффективный радиус АЗ --> Reff - эффективный радиус РУ cм"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2288,7 +2288,7 @@
         p3="228:132"
         BNumber=32
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1 --> Ak1 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Первый коэффициент калибровки камеры 1 --> Ak1 - калибр. коэфф-1. преобраз. частоты камеры СНМ-11 в нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2313,7 +2313,7 @@
         p5="232:132"
         BNumber=164
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1 --> Bk1 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Второй коэффициент калибровки камеры 1 --> Bk1 - калибр. коэфф-2. преобраз. частоты камеры СНМ-11 в нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2338,7 +2338,7 @@
         p5="238:132"
         BNumber=35
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2 --> Ak2 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Первый коэффициент калибровки камеры 2 --> Ak2 - калибр. коэфф-1. преобраз. частоты камеры КНК15-1 в нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2363,7 +2363,7 @@
         p5="243:132"
         BNumber=165
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2 --> Bk2 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Второй коэффициент калибровки камеры 2 --> Bk2 - калибр. коэфф-2. преобраз. частоты камеры КНК15-1 нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2388,7 +2388,7 @@
         p5="248:132"
         BNumber=36
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 3 --> Ak3 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-1. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Первый коэффициент калибровки камеры 3 --> Ak3 - калибр. коэфф-1. преобраз. частоты камеры КНК53М в нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2413,7 +2413,7 @@
         p5="255:132"
         BNumber=166
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 3 --> Bk3 - пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ-2. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Второй коэффициент калибровки камеры 3 --> Bk3 - калибр. коэфф-2. преобраз. частоты камеры КНК53М в нейтр. поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2437,7 +2437,7 @@
         p4="260:132"
         BNumber=254
         ENumber=1
-        Comment="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN11 --> XCm1 - x-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅпїЅ"
+        Comment="X-координата камеры R7IN11 --> XCm1 - x-координата камеры СНМ-11 см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2460,7 +2460,7 @@
         p3="280:132"
         BNumber=266
         ENumber=1
-        Comment="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN11 --> YCm1 - y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-11 пїЅпїЅ"
+        Comment="Y-координата камеры R7IN11 --> YCm1 - y-координата камеры СНМ-11 см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2482,7 +2482,7 @@
         p2="284:135"
         BNumber=257
         ENumber=1
-        Comment="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN12 (пїЅпїЅ) --> XCm2 - x-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅ"
+        Comment="X-координата камеры R7IN12 (см) --> XCm2 - x-координата камеры КНК15-1 см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2504,7 +2504,7 @@
         p2="284:140"
         BNumber=267
         ENumber=1
-        Comment="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN12 (пїЅпїЅ) --> YCm2 - y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1 пїЅпїЅ"
+        Comment="Y-координата камеры R7IN12 (см) --> YCm2 - y-координата камеры КНК15-1 см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2526,7 +2526,7 @@
         p2="284:145"
         BNumber=258
         ENumber=1
-        Comment="X-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN13 (пїЅпїЅ) --> XCm3 - x-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ пїЅпїЅ"
+        Comment="X-координата камеры R7IN13 (см) --> XCm3 - x-координата камеры КНК53М см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2548,7 +2548,7 @@
         p2="284:149"
         BNumber=268
         ENumber=1
-        Comment="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ R7IN13 (пїЅпїЅ) --> YCm3 - y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ пїЅпїЅ"
+        Comment="Y-координата камеры R7IN13 (см) --> YCm3 - y-координата камеры КНК53М см"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2570,7 +2570,7 @@
         p2="284:153"
         BNumber=265
         ENumber=1
-        Comment="Y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1 (пїЅпїЅ) --> YAz1 - y-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ1 cпїЅ"
+        Comment="Y-координата АЗ1 (см) --> YAz1 - y-координата АЗ1 cм"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2593,7 +2593,7 @@
         p3="224:169"
         BNumber=202
         ENumber=1
-        Comment="пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅ пїЅпїЅ 1 пїЅпїЅпїЅпїЅ * E^6 --> Kprm - пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Кол-во делений/сек на 1 ватт * E^6 --> Kprm - коэфф. преобразования поток->мощность"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2616,7 +2616,7 @@
         p3="228:172"
         BNumber=19
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ15-1 --> Kpr2 - пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ15-1"
+        Comment="Коэфф. преобразования частота->нейтр/с КНК15-1 --> Kpr2 - коэфф. преобразования частота->нейтр/с КНК15-1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2639,7 +2639,7 @@
         p3="234:172"
         BNumber=21
         ENumber=1
-        Comment="пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ53пїЅ --> Kpr3 - пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ/пїЅ пїЅпїЅпїЅ53пїЅ"
+        Comment="Коэфф. преобразования частота->нейтр/с КНК53М --> Kpr3 - коэфф. преобразования частота->нейтр/с КНК53М"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2662,7 +2662,7 @@
         p3="235:252"
         BNumber=1
         ENumber=235
-        Comment="Nkm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1-пїЅпїЅпїЅ-11,2-пїЅпїЅпїЅ-15пїЅ-1,3-пїЅпїЅпїЅ-53пїЅ,0-пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1-пїЅпїЅпїЅ-11,2-пїЅпїЅпїЅ-15пїЅ-1,3-пїЅпїЅпїЅ-53пїЅ,0-пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Nkm - ведущая камера 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей --> Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2686,7 +2686,7 @@
         p4="86:251"
         BNumber=1
         ENumber=223
-        Comment="Np1 - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ  (пїЅпїЅпїЅпїЅпїЅ/пїЅ) --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ11"
+        Comment="Np1 - поток нейтронов от 1 камеры  (нейтр/с) --> Нейтронный поток по камере СНМ11"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2707,7 +2707,7 @@
         p1="259:251"
         BNumber=1
         ENumber=16
-        Comment="Np - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ  (пїЅпїЅпїЅпїЅпїЅ/пїЅ) --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
+        Comment="Np - поток нейтронов от РУ  (нейтр/с) --> Измеренный нейтронный поток"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2731,7 +2731,7 @@
         p4="86:295"
         BNumber=1
         ENumber=224
-        Comment="Np2 - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 2 пїЅпїЅпїЅпїЅпїЅпїЅ  (пїЅпїЅпїЅпїЅпїЅ/пїЅ) --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ15-1"
+        Comment="Np2 - поток нейтронов от 2 камеры  (нейтр/с) --> Нейтронный поток по камере КНК15-1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2755,7 +2755,7 @@
         p4="86:335"
         BNumber=1
         ENumber=225
-        Comment="Np3 - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 3 пїЅпїЅпїЅпїЅпїЅпїЅ  (пїЅпїЅпїЅпїЅпїЅ/пїЅ) --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ53пїЅ"
+        Comment="Np3 - поток нейтронов от 3 камеры  (нейтр/с) --> Нейтронный поток по камере КНК53М"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2778,7 +2778,7 @@
         p3="594:187"
         BNumber=1
         ENumber=255
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2799,7 +2799,7 @@
         p1="540:186"
         BNumber=51
         ENumber=185
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2820,7 +2820,7 @@
         p1="466:188"
         BNumber=51
         ENumber=181
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2862,7 +2862,7 @@
         p1="325:191"
         BNumber=51
         ENumber=44
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2884,7 +2884,7 @@
         p2="606:207"
         BNumber=256
         ENumber=255
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ  пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ) --> X2"
+        Comment="Уставка АКНП ПС  АЗ по периоду (сек) --> X2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2905,7 +2905,7 @@
         p1="594:302"
         BNumber=255
         ENumber=10
-        Comment="Y --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="Y --> Блокировка автоматического  подъёма ББ на БАЗ2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2927,7 +2927,7 @@
         p2="531:303"
         BNumber=58
         ENumber=13
-        Comment="Y --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="Y --> Блокировка автоматического  подъёма ББ на БАЗ2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2950,7 +2950,7 @@
         p3="345:250"
         BNumber=1
         ENumber=158
-        Comment="Err - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ1 (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅ 1"
+        Comment="Err - флаг неисправности канала --> Исправность АКНП1 (от сшивки каналов) канал 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2971,7 +2971,7 @@
         p1="316:310"
         BNumber=62
         ENumber=192
-        Comment="Err - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ1 (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅ 1"
+        Comment="Err - флаг неисправности канала --> Исправность АКНП1 (от сшивки каналов) канал 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2992,7 +2992,7 @@
         p1="282:200"
         BNumber=51
         ENumber=153
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3013,7 +3013,7 @@
         p1="865:321"
         BNumber=175
         ENumber=201
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> X1"
+        Comment="Уровень ПС по периоду разгона --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3035,7 +3035,7 @@
         p2="865:183"
         BNumber=177
         ENumber=171
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> X1"
+        Comment="Уровень АС по периоду разгона --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3058,7 +3058,7 @@
         p3="796:183"
         BNumber=203
         ENumber=149
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ) --> Tmax - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ)"
+        Comment="Предельное время ожидания роста потока (мс) --> Tmax - предельное время ожидания роста потока (сек)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3079,7 +3079,7 @@
         p1="850:252"
         BNumber=154
         ENumber=174
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3101,7 +3101,7 @@
         p2="816:206"
         BNumber=66
         ENumber=149
-        Comment="Nm - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> X1"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3122,7 +3122,7 @@
         p1="850:285"
         BNumber=159
         ENumber=201
-        Comment="Per - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> t-пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3144,7 +3144,7 @@
         p2="850:213"
         BNumber=74
         ENumber=171
-        Comment="Per - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> t-пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3165,7 +3165,7 @@
         p1="761:311"
         BNumber=276
         ENumber=17
-        Comment="r - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ"
+        Comment="r - текущая реактивность РУ"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3186,7 +3186,7 @@
         p1="818:342"
         BNumber=74
         ENumber=48
-        Comment="Per - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ --> t-пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3208,7 +3208,7 @@
         p2="850:266"
         BNumber=222
         ENumber=174
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ) --> Nmin - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ)"
+        Comment="Нижняя граница интервала мощности для измерения периода (ватт) --> Nmin - нижняя граница интервала мощности для измерения периода (ватт)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3230,7 +3230,7 @@
         p2="942:218"
         BNumber=171
         ENumber=79
-        Comment="Y --> x1 - пїЅпїЅпїЅпїЅ 1"
+        Comment="Y --> x1 - вход 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3252,7 +3252,7 @@
         p2="946:238"
         BNumber=174
         ENumber=79
-        Comment="Y --> x2 - пїЅпїЅпїЅпїЅ 2"
+        Comment="Y --> x2 - вход 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3273,7 +3273,7 @@
         p1="946:266"
         BNumber=81
         ENumber=82
-        Comment="Y --> x2 - пїЅпїЅпїЅпїЅ 2"
+        Comment="Y --> x2 - вход 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3295,7 +3295,7 @@
         p2="948:286"
         BNumber=201
         ENumber=82
-        Comment="Y --> x2 - пїЅпїЅпїЅпїЅ 2"
+        Comment="Y --> x2 - вход 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3316,7 +3316,7 @@
         p1="1035:148"
         BNumber=85
         ENumber=250
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="y - выходной параметр --> Исправность АКНП на БАЗ2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3338,7 +3338,7 @@
         p2="805:183"
         BNumber=37
         ENumber=149
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="y - выходной параметр --> Исправность АКНП на БАЗ2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3359,7 +3359,7 @@
         p1="1023:93"
         BNumber=195
         ENumber=85
-        Comment="Err - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ --> x1 - пїЅпїЅпїЅпїЅ 1"
+        Comment="Err - флаг неисправности канала --> x1 - вход 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3381,7 +3381,7 @@
         p2="1039:93"
         BNumber=194
         ENumber=85
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 0,5 (пїЅ10) пїЅпїЅпїЅ53пїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ --> x2 - пїЅпїЅпїЅпїЅ 2"
+        Comment="Исправность ВИП 0,5 (№10) КНК53М 1 канала --> x2 - вход 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3402,7 +3402,7 @@
         p1="1047:102"
         BNumber=155
         ENumber=85
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ --> x3 - пїЅпїЅпїЅпїЅ 3"
+        Comment="Подключена сеть питания АКНП --> x3 - вход 3"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3425,7 +3425,7 @@
         p3="1017:98"
         BNumber=29
         ENumber=85
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 1,6 (пїЅ8) пїЅпїЅпїЅ11 1 пїЅпїЅпїЅпїЅпїЅпїЅ --> x4 - пїЅпїЅпїЅпїЅ 4"
+        Comment="Исправность ВИП 1,6 (№8) СНМ11 1 канала --> x4 - вход 4"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3446,7 +3446,7 @@
         p1="1017:109"
         BNumber=160
         ENumber=85
-        Comment="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ 0,5 (пїЅ9) пїЅпїЅпїЅ15-1 1 пїЅпїЅпїЅпїЅпїЅпїЅ --> x5 - пїЅпїЅпїЅпїЅ 5"
+        Comment="Исправность ВИП 0,5 (№9) КНК15-1 1 канала --> x5 - вход 5"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3467,7 +3467,7 @@
         p1="961:147"
         BNumber=64
         ENumber=569
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ2"
+        Comment="y - выходной параметр --> Исправность АКНП на БАЗ2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3488,7 +3488,7 @@
         p1="978:277"
         BNumber=82
         ENumber=60
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+        Comment="y - выходной параметр"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3509,7 +3509,7 @@
         p1="978:228"
         BNumber=79
         ENumber=61
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="y - выходной параметр --> АС по периоду разгонана БАЗ1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3532,7 +3532,7 @@
         p3="1079:206"
         BNumber=90
         ENumber=248
-        Comment="y - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ --> пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ1"
+        Comment="y - выходной параметр --> АС по периоду разгонана БАЗ1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3549,4 +3549,4 @@
     }
   }
 }
-3422154
+3394733
