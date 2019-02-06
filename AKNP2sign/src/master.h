@@ -242,7 +242,7 @@ static ModbusRegister hr_AKNP2sign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
-	{0,502,&coil_AKNP2sign[0],&di_AKNP2sign[0],&ir_AKNP2sign[0],&hr_AKNP2sign[0],NULL,NULL,NULL,0},	 //Пустые сигналы AKNP2sign
+	{0,5002,&coil_AKNP2sign[0],&di_AKNP2sign[0],&ir_AKNP2sign[0],&hr_AKNP2sign[0],NULL,NULL,NULL,0},	 //Пустые сигналы AKNP2sign
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

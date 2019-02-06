@@ -3,5 +3,5 @@
         <variable xml="varRPUsign"/>
         <saves xml="saveRPUsign"/>
         <devices xml="devRPUsign"/>
-        <modbus name="RPUsign" description="Пустые сигналы RPUsign" type="slave" port="502" xml="RPUsign"/>
+        <modbus name="RPUsign" description="Пустые сигналы RPUsign" type="slave" port="5002" xml="RPUsign"/>
 </subsystem>

@@ -240,8 +240,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE08LRP</value>
-            <value name="description">(R0DE08LRP) диагностика модуля РПУ-ФДС место 8</value>
+            <value name="name">R0DE07LRP</value>
+            <value name="description">(R0DE07LRP) диагностика модуля РПУ-ВДС место 7</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
@@ -253,8 +253,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE07LRP</value>
-            <value name="description">(R0DE07LRP) диагностика модуля РПУ-ВДС место 7</value>
+            <value name="name">R0DE08LRP</value>
+            <value name="description">(R0DE08LRP) диагностика модуля РПУ-ФДС место 8</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>

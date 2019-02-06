@@ -1267,15 +1267,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01VCHS"
+        DeviceName="VCHS01"
         Line1="Частота"
         Line2="СНМ-11 Гц"
         Line3="(канал 5)"
@@ -1302,8 +1302,8 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K02VCHS"
+        DeviceName="VCHS01"
         Line1="Частота"
         Line2="КНК15-1 Гц"
         Line3="(канал 5)"
@@ -1392,15 +1392,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01VCHS"
+        DeviceName="VCHS02"
         Line1="Частота"
         Line2="КНК53М Гц"
         Line3="(канал 5)"
@@ -1442,7 +1442,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="292,424,434,430"
+        R="292,424,420,429"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1610,15 +1610,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01VCHS"
+        DeviceName="VCHS03"
         Line1="Частота"
         Line2="СНМ-11 Гц"
         Line3="(канал 6)"
@@ -1680,15 +1680,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K02VCHS"
+        DeviceName="VCHS03"
         Line1="Частота"
         Line2="СНМ-11 Гц"
         Line3="(канал 7)"
@@ -1729,15 +1729,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=3
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01VASR"
+        DeviceName="VAS84"
         Line1="Температура АЗ1-3"
       }
       [VVV_DrawConst]{
@@ -1987,15 +1987,15 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=3
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K02VASR"
+        DeviceName="VAS84"
         Line1="Температура АЗ2-3"
       }
       [TDrawSignal]{
@@ -2483,7 +2483,7 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=1
+        FormatMB=2
         TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
@@ -3054,7 +3054,7 @@
         }
       }
       [VVV_Text]{
-        R="591,237,648,249"
+        R="591,237,641,248"
         Number=193
         IsHold=FALSE
         Line1="отключить питание"
@@ -3074,14 +3074,14 @@
         }
       }
       [VVV_Text]{
-        R="661,155,709,167"
+        R="661,155,706,166"
         Number=203
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="596,186,644,198"
+        R="596,186,641,197"
         Number=205
         IsHold=FALSE
         Line1="АС по мощности"
@@ -3108,7 +3108,7 @@
         }
       }
       [VVV_Text]{
-        R="1123,312,1169,326"
+        R="1123,312,1161,323"
         Number=238
         IsHold=FALSE
         Line1="Исправность"
@@ -3156,7 +3156,7 @@
         ABBRV="OR4"
       }
       [VVV_Text]{
-        R="659,270,697,282"
+        R="659,270,693,281"
         Number=305
         IsHold=FALSE
         Line1="АС по "
@@ -3510,7 +3510,7 @@
         }
       }
       [VVV_Text]{
-        R="961,216,1024,230"
+        R="961,216,1011,227"
         Number=332
         IsHold=FALSE
         Line1="неисправность по "
@@ -3807,7 +3807,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="Baz1, RPU"
+        InterfaceMB="RPU"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП"
@@ -3834,7 +3834,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName=""
         DeviceName=""
         Line1="диагностика модуля РПУ-"
@@ -3861,7 +3861,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName=""
         DeviceName=""
         Line1="диагностика модуля РПУ-"
@@ -3888,7 +3888,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName=""
         DeviceName=""
         Line1="диагностика модуля РПУ-"
@@ -3915,7 +3915,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="RPU, DiagnRPU"
+        InterfaceMB="DiagnRPU"
         ChannalName=""
         DeviceName=""
         Line1="диагностика модуля РПУ-"
@@ -3942,7 +3942,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName=""
         DeviceName=""
         Line1="диагностика модуля РПУ-"
@@ -3988,7 +3988,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -3997,7 +3997,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S01SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -4015,7 +4015,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4042,7 +4042,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4069,7 +4069,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4078,7 +4078,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S04SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -4096,7 +4096,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4105,7 +4105,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S05SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -4123,7 +4123,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4132,7 +4132,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S06SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -4150,7 +4150,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4178,7 +4178,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4205,7 +4205,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4232,7 +4232,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4259,7 +4259,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4286,7 +4286,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4313,7 +4313,7 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=1
+        TypeInterface=0
         TypeMB=1
         FormatMB=1
         TypeMBMaster=1
@@ -4322,7 +4322,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="RPU, DiagnRPU"
+        InterfaceMB="DiagnRPU"
         ChannalName="S13SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -7287,4 +7287,4 @@
     }
   }
 }
-7028797
+7036237

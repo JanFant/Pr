@@ -274,7 +274,7 @@ static ModbusRegister hr_RPUsign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
-	{0,502,&coil_RPUsign[0],&di_RPUsign[0],&ir_RPUsign[0],&hr_RPUsign[0],NULL,NULL,NULL,0},	 //Пустые сигналы RPUsign
+	{0,5002,&coil_RPUsign[0],&di_RPUsign[0],&ir_RPUsign[0],&hr_RPUsign[0],NULL,NULL,NULL,0},	 //Пустые сигналы RPUsign
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

@@ -3,5 +3,5 @@
         <variable xml="varAKNP2"/>
         <saves xml="saveAKNP2"/>
         <devices xml="devAKNP2"/>
-        <modbus name="AKNP2" description="общий slave AKNP2" type="slave" port="502" xml="AKNP2"/>
+        <modbus name="AKNP2" description="общий slave AKNP2" type="slave" port="5002" xml="AKNP2"/>
 </subsystem>

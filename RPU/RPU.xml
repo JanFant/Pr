@@ -293,7 +293,7 @@
         </record>
         <record>
             <value name="name">B7MZ31LRP</value>
-            <value name="description">(B7MZ31LRP) Клапан <ОБДУВ АЗ2> открыть(обесточить)</value>
+            <value name="description">(B7MZ31LRP) Клапан ОБДУВ АЗ2 открыть(обесточить)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -306,7 +306,7 @@
         </record>
         <record>
             <value name="name">A7MZ31LRP</value>
-            <value name="description">(A7MZ31LRP) Клапан <ОБДУВ АЗ1> открыть(обесточить)</value>
+            <value name="description">(A7MZ31LRP) Клапан ОБДУВ АЗ1 открыть(обесточить)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -773,8 +773,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE08LRP</value>
-            <value name="description">(R0DE08LRP) диагностика модуля РПУ-ФДС место 8</value>
+            <value name="name">R0DE07LRP</value>
+            <value name="description">(R0DE07LRP) диагностика модуля РПУ-ВДС место 7</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
@@ -786,8 +786,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE07LRP</value>
-            <value name="description">(R0DE07LRP) диагностика модуля РПУ-ВДС место 7</value>
+            <value name="name">R0DE08LRP</value>
+            <value name="description">(R0DE08LRP) диагностика модуля РПУ-ФДС место 8</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>

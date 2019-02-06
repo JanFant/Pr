@@ -6,5 +6,5 @@
         <variable xml="varptiSig"/>
         <saves xml="saveptiSig"/>
         <devices xml="devptiSig"/>
-        <modbus name="msptiSig" description="Пустые сигналы PTI" type="slave" port="502" xml="ptiSig"/>
+        <modbus name="msptiSig" description="Пустые сигналы PTI" type="slave" port="5002" xml="ptiSig"/>
 </subsystem>

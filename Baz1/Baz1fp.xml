@@ -3,7 +3,7 @@
         <variable xml="varBaz1"/>
         <saves xml="saveBaz1"/>
         <devices xml="devBaz1"/>
-        <modbus name="Baz1" description="Общий слэйв" type="slave" port="502" xml="Baz1"/>
-        <modbus name="SBz1DU" description="Слэйв для DU" type="slave" port="503" xml="SBz1DU"/>
-        <modbus name="MBz1S" description="Мастер Баз1 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="503" step="100" xml="D:\md\pti\pr\scm\SBz1.xml"/>
+        <modbus name="Baz1" description="Общий слэйв" type="slave" port="5002" xml="Baz1"/>
+        <modbus name="SBz1DU" description="Слэйв для DU" type="slave" port="5003" xml="SBz1DU"/>
+        <modbus name="MBz1S" description="Мастер Баз1 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="5003" step="100" xml="D:\md\pti\pr\scm\SBz1.xml"/>
 </subsystem>

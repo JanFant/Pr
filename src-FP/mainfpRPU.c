@@ -1,15 +1,3 @@
-/*
- * Тут записываем тот скелет программы который будет генерироваться в общем случае
- * 
- */
-
-/* 
- * File:   mainfp.c
- * Author: rusin
- *
- * Created on 27 февраля 2018 г., 10:14
- */
-//
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>

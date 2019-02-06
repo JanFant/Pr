@@ -979,7 +979,7 @@ static ModbusRegister hr_msDUsign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
-	{0,502,&coil_msDUsign[0],&di_msDUsign[0],&ir_msDUsign[0],&hr_msDUsign[0],NULL,NULL,NULL,0},	 //DUsign-ModBus
+	{0,5002,&coil_msDUsign[0],&di_msDUsign[0],&ir_msDUsign[0],&hr_msDUsign[0],NULL,NULL,NULL,0},	 //DUsign-ModBus
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

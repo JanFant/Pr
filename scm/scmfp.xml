@@ -3,8 +3,8 @@
         <variable xml="varscm"/>
         <saves xml="savescm"/>
         <devices xml="devscm"/>
-        <modbus name="SCM" description="Общий слэйв" type="slave" port="502" xml="scm"/>
-        <modbus name="SBz1" description="Cлэйв Baz1" type="slave" port="503" xml="SBz1"/>
-        <modbus name="SBz2" description="Cлэйв Baz2" type="slave" port="504" xml="SBz2"/>
-        <modbus name="SDu" description="Cлэйв DU" type="slave" port="505" xml="SDu"/>
+        <modbus name="SCM" description="Общий слэйв" type="slave" port="5002" xml="scm"/>
+        <modbus name="SBz1" description="Cлэйв Baz1" type="slave" port="5003" xml="SBz1"/>
+        <modbus name="SBz2" description="Cлэйв Baz2" type="slave" port="5004" xml="SBz2"/>
+        <modbus name="SDu" description="Cлэйв DU" type="slave" port="5005" xml="SDu"/>
 </subsystem>

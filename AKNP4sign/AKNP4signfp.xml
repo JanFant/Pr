@@ -4,5 +4,5 @@
         <variable xml="varAKNP4sign"/>
         <saves xml="saveAKNP4sign"/>
         <devices xml="devAKNP4sign"/>
-        <modbus name="AKNP4sign" description="Пустые сигналы AKNP4sign" type="slave" port="502" xml="AKNP4sign"/>
+        <modbus name="AKNP4sign" description="Пустые сигналы AKNP4sign" type="slave" port="5002" xml="AKNP4sign"/>
 </subsystem>

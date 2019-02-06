@@ -3,5 +3,5 @@
         <variable xml="varAKNP3sign"/>
         <saves xml="saveAKNP3sign"/>
         <devices xml="devAKNP3sign"/>
-        <modbus name="AKNP3sign" description="Пустые сигналы AKNP3sign" type="slave" port="502" xml="AKNP3sign"/>
+        <modbus name="AKNP3sign" description="Пустые сигналы AKNP3sign" type="slave" port="5002" xml="AKNP3sign"/>
 </subsystem>

@@ -1,15 +1,3 @@
-/*
- * Тут записываем тот скелет программы который будет генерироваться в общем случае
- * 
- */
-
-/* 
- * File:   mainfp.c
- * Author: rusin
- *
- * Created on 27 февраля 2018 г., 10:14
- */
-//
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
@@ -24,12 +12,6 @@
 #include "teprLib/allTeprol.h"
 
 #include "master.h"
-//#include "Baz1Sig.h"
-//#include "Baz2Sig.h"
-//#include "Baz1.h"
-//#include "Baz2.h"
-//#include "DU.h"
-//#include "DUe.h"
 #include <sys/reboot.h>
 
 void doWork() {

@@ -4,5 +4,5 @@
         <variable xml="varDUsign"/>
         <saves xml="saveDUsign"/>
         <devices xml="devDUsign"/>
-        <modbus name="msDUsign" description="DUsign-ModBus" type="slave" port="502" xml="DUsign"/>
+        <modbus name="msDUsign" description="DUsign-ModBus" type="slave" port="5002" xml="DUsign"/>
 </subsystem>

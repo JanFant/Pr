@@ -499,7 +499,7 @@ static ModbusRegister hr_Baz2sign[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
-	{0,502,&coil_Baz2sign[0],&di_Baz2sign[0],&ir_Baz2sign[0],&hr_Baz2sign[0],NULL,NULL,NULL,0},	 //Общий слэйв
+	{0,5002,&coil_Baz2sign[0],&di_Baz2sign[0],&ir_Baz2sign[0],&hr_Baz2sign[0],NULL,NULL,NULL,0},	 //Общий слэйв
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

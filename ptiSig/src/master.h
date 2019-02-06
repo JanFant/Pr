@@ -1047,7 +1047,7 @@ static ModbusRegister hr_msptiSig[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
-	{0,502,&coil_msptiSig[0],&di_msptiSig[0],&ir_msptiSig[0],&hr_msptiSig[0],NULL,NULL,NULL,0},	 //Пустые сигналы PTI
+	{0,5002,&coil_msptiSig[0],&di_msptiSig[0],&ir_msptiSig[0],&hr_msptiSig[0],NULL,NULL,NULL,0},	 //Пустые сигналы PTI
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
