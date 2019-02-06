@@ -23,7 +23,7 @@
 <var  name="R0DE3BLRP" description="(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6" format="1"></var>
 <var  name="R0DE3ALRP" description="(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5" format="1"></var>
 <var  name="R0DE39LRP" description="(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4" format="1"></var>
-<var  name="R0DE38LRP" description="(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2" format="1"></var>
+<var  name="R0DE38LRP" description="(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3" format="1"></var>
 <var  name="R0DE37LRP" description="(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE36LRP" description="(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1" format="1"></var>
 <var  name="R0DE35LRP" description="(R0DE35LRP) диагностика шкафа РПУ температура больше 53" format="1"></var>

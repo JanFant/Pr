@@ -475,8 +475,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="Baz1sign.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
--1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_Baz1sign[]={  // 
 	{NULL,0,0},
@@ -504,7 +505,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84_04[26];	//VAS84_04
+static char buf_VAS84_04[28];	//VAS84_04
 static vas84r_inipar ini_VAS84_04={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84_04={0,0,&ini_VAS84_04,buf_VAS84_04,0,0};
@@ -523,7 +524,7 @@ static DriverRegister def_buf_VAS84_04[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32_05[64];	//VDS32_05
+static char buf_VDS32_05[66];	//VDS32_05
 static vds32r_inipar ini_VDS32_05={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32_05={0,0,&ini_VDS32_05,buf_VDS32_05,0,0};
@@ -566,7 +567,7 @@ static DriverRegister def_buf_VDS32_05[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32_06[64];	//VDS32_06
+static char buf_VDS32_06[66];	//VDS32_06
 static vds32r_inipar ini_VDS32_06={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32_06={0,0,&ini_VDS32_06,buf_VDS32_06,0,0};
@@ -609,7 +610,7 @@ static DriverRegister def_buf_VDS32_06[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32_07[64];	//VDS32_07
+static char buf_VDS32_07[66];	//VDS32_07
 static vds32r_inipar ini_VDS32_07={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32_07={0,0,&ini_VDS32_07,buf_VDS32_07,0,0};
@@ -652,7 +653,7 @@ static DriverRegister def_buf_VDS32_07[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32_08[64];	//VDS32_08
+static char buf_VDS32_08[66];	//VDS32_08
 static vds32r_inipar ini_VDS32_08={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32_08={0,0,&ini_VDS32_08,buf_VDS32_08,0,0};
@@ -695,7 +696,7 @@ static DriverRegister def_buf_VDS32_08[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS16_10[38];	//FDS16_10
+static char buf_FDS16_10[40];	//FDS16_10
 static fds16r_inipar ini_FDS16_10={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16_10={0,0,&ini_FDS16_10,buf_FDS16_10,0,0};
@@ -723,12 +724,12 @@ static DriverRegister def_buf_FDS16_10[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc6,0x04,7,26,def_buf_VAS84_04,&table_VAS84_04}, //VAS84_04
-	{0xc2,0x05,15,64,def_buf_VDS32_05,&table_VDS32_05}, //VDS32_05
-	{0xc2,0x06,15,64,def_buf_VDS32_06,&table_VDS32_06}, //VDS32_06
-	{0xc2,0x07,15,64,def_buf_VDS32_07,&table_VDS32_07}, //VDS32_07
-	{0xc2,0x08,15,64,def_buf_VDS32_08,&table_VDS32_08}, //VDS32_08
-	{0x04,0x0a,20,38,def_buf_FDS16_10,&table_FDS16_10}, //FDS16_10
+	{0xc6,0x04,7,28,def_buf_VAS84_04,&table_VAS84_04}, //VAS84_04
+	{0xc2,0x05,15,66,def_buf_VDS32_05,&table_VDS32_05}, //VDS32_05
+	{0xc2,0x06,15,66,def_buf_VDS32_06,&table_VDS32_06}, //VDS32_06
+	{0xc2,0x07,15,66,def_buf_VDS32_07,&table_VDS32_07}, //VDS32_07
+	{0xc2,0x08,15,66,def_buf_VDS32_08,&table_VDS32_08}, //VDS32_08
+	{0x04,0x0a,20,40,def_buf_FDS16_10,&table_FDS16_10}, //FDS16_10
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

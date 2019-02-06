@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="670" lenInit="12" header="fp8/drivers/vchs2.h">
+<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="666" lenInit="12" header="fp8/drivers/vchs2.h">
 <!--
     mode="input" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
@@ -10,24 +10,25 @@
     <signals>
         <signal name="K01VCHS" format="8" mode="input" address="0"/>
         <signal name="K02VCHS" format="8" mode="input" address="5"/>
-        <!-- <signal name="tempI"    format="4"   mode="input"  address="10"/> 
-        <signal name="takt"          format="8"   mode="input"  address="18"/>
-        <signal name="cykl"          format="8"   mode="input"  address="26"/>
-        <signal name="perm"          format="3"   mode="input"  address="34"/>
-        <signal name="svchs"         format="18"  mode="input"  address="38"/> 
-        <signal name="fvhc"          format="8"   mode="input"  address="42"/> 
-        <signal name="iMFast[2][4]"  format ="4"  mode ="input" address ="50" />   4 * 8  = 32   50
-        <signal name="lMSlow[2][20]" format ="11" mode ="input" address ="82" />   8 * 40 = 320  82
-        <signal name="lSmF[2]"       format ="11" mode ="input" address ="402" />  8 * 2  = 16   402
-        <signal name="lSmS[2]"       format ="11" mode ="input" address ="418" />  8 * 2  = 16   418
-        <signal name="fMFtim[2][4]"  format ="8"  mode ="input" address ="434" />  4 * 8  = 32   434
-        <signal name="fMStim[2][20]" format ="8"  mode ="input" address ="466" />  4 * 40 = 160  466
-        <signal name="fTimF[2]"      format ="8"  mode ="input" address ="626" />  4 * 2  = 8    626
-        <signal name="fTimS[2]"      format ="8"  mode ="input" address ="634" />  4 * 2  = 8    634    
-        <signal name="pMFast[2]"     format ="5"  mode ="input" address ="640" />  4 * 2  = 8    640
-        <signal name="pMSlow[2]"     format ="5"  mode ="input" address ="646" />  4 * 2  = 8    646
-        <signal name="cyklS[2]"      format ="8"  mode ="input" address ="654" />  8 * 2  = 16   654
-        -->                                             
+        <!-- <signal name="tempI[2]"    format="4"   mode="input"  address="10"/> 4 * 2 = 8 10  
+        <signal name="takt[2]"          format="8"   mode="input"  address="18"/> 4 * 2 = 8 18
+        <signal name="cykl[2]"          format="8"   mode="input"  address="26"/> 4 * 2 = 8 26
+        <signal name="perm[2]"          format="3"   mode="input"  address="34"/> 2 * 2 = 4 32
+        <signal name="svchs[2]"         format="18"  mode="input"  address="38"/> 2 * 2 = 4 36
+        <signal name="fvhc[2]"          format="8"   mode="input"  address="42"/> 4 * 2 = 8 40
+        <signal name="cyklS[2]"      format ="8"  mode ="input" address ="654" />  4 * 2  = 8   48 654
+        <signal name="iMFast[2][4]"  format ="4"  mode ="input" address ="50" />   4 * 8  = 32   56 50
+        <signal name="lMSlow[2][20]" format ="11" mode ="input" address ="82" />   8 * 40 = 320  88 82
+        <signal name="lSmF[2]"       format ="11" mode ="input" address ="402" />  8 * 2  = 16   408 402
+        <signal name="lSmS[2]"       format ="11" mode ="input" address ="418" />  8 * 2  = 16   424 418
+        <signal name="fMFtim[2][4]"  format ="8"  mode ="input" address ="434" />  4 * 8  = 32   440 434
+        <signal name="fMStim[2][20]" format ="8"  mode ="input" address ="466" />  4 * 40 = 160  472 466
+        <signal name="fTimF[2]"      format ="8"  mode ="input" address ="626" />  4 * 2  = 8    632 626
+        <signal name="fTimS[2]"      format ="8"  mode ="input" address ="634" />  4 * 2  = 8    640 634    
+        <signal name="pMFast[2]"     format ="5"  mode ="input" address ="640" />  4 * 2  = 8    648 640
+        <signal name="pMSlow[2]"     format ="5"  mode ="input" address ="646" />  4 * 2  = 8    656 646
+        --> 
+        <signal name="Diagn" format="3" mode="output" address="664"/>  <!-- 664  -->                                        
         
     </signals>
     <init type="vchs_inipar">

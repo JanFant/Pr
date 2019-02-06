@@ -244,8 +244,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="RPUsign.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
--1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_RPUsign[]={  // 
 	{NULL,0,0},
@@ -279,7 +280,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS01[670];	//VCHS01
+static char buf_VCHS01[666];	//VCHS01
 static vchs_inipar ini_VCHS01={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
@@ -292,7 +293,7 @@ static DriverRegister def_buf_VCHS01[]={
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS02[670];	//VCHS02
+static char buf_VCHS02[666];	//VCHS02
 static vchs_inipar ini_VCHS02={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
@@ -305,7 +306,7 @@ static DriverRegister def_buf_VCHS02[]={
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS03[670];	//VCHS03
+static char buf_VCHS03[666];	//VCHS03
 static vchs_inipar ini_VCHS03={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
@@ -318,7 +319,7 @@ static DriverRegister def_buf_VCHS03[]={
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84[26];	//VAS84
+static char buf_VAS84[28];	//VAS84
 static vas84r_inipar ini_VAS84={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
@@ -337,7 +338,7 @@ static DriverRegister def_buf_VAS84[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32[64];	//VDS32
+static char buf_VDS32[66];	//VDS32
 static vds32r_inipar ini_VDS32={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
@@ -380,7 +381,7 @@ static DriverRegister def_buf_VDS32[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS16[38];	//FDS16
+static char buf_FDS16[40];	//FDS16
 static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
@@ -432,12 +433,12 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc4,0x01,12,670,def_buf_VCHS01,&table_VCHS01}, //VCHS01
-	{0xc4,0x02,12,670,def_buf_VCHS02,&table_VCHS02}, //VCHS02
-	{0xc4,0x03,12,670,def_buf_VCHS03,&table_VCHS03}, //VCHS03
-	{0xc6,0x06,7,26,def_buf_VAS84,&table_VAS84}, //VAS84
-	{0xc2,0x07,15,64,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x08,20,38,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xc4,0x01,12,666,def_buf_VCHS01,&table_VCHS01}, //VCHS01
+	{0xc4,0x02,12,666,def_buf_VCHS02,&table_VCHS02}, //VCHS02
+	{0xc4,0x03,12,666,def_buf_VCHS03,&table_VCHS03}, //VCHS03
+	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
+	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
+	{0x04,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };

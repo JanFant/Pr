@@ -955,8 +955,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="savecnst.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
--1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_msDUsign[]={  // 
 	{NULL,0,0},
@@ -984,7 +985,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3201[64];	//VDS32-01
+static char buf_VDS3201[66];	//VDS32-01
 static vds32r_inipar ini_VDS3201={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3201={0,0,&ini_VDS3201,buf_VDS3201,0,0};
@@ -1027,7 +1028,7 @@ static DriverRegister def_buf_VDS3201[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3202[64];	//VDS32-02
+static char buf_VDS3202[66];	//VDS32-02
 static vds32r_inipar ini_VDS3202={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3202={0,0,&ini_VDS3202,buf_VDS3202,0,0};
@@ -1070,7 +1071,7 @@ static DriverRegister def_buf_VDS3202[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3203[64];	//VDS32-03
+static char buf_VDS3203[66];	//VDS32-03
 static vds32r_inipar ini_VDS3203={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3203={0,0,&ini_VDS3203,buf_VDS3203,0,0};
@@ -1113,7 +1114,7 @@ static DriverRegister def_buf_VDS3203[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3204[64];	//VDS32-04
+static char buf_VDS3204[66];	//VDS32-04
 static vds32r_inipar ini_VDS3204={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3204={0,0,&ini_VDS3204,buf_VDS3204,0,0};
@@ -1156,7 +1157,7 @@ static DriverRegister def_buf_VDS3204[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3205[64];	//VDS32-05
+static char buf_VDS3205[66];	//VDS32-05
 static vds32r_inipar ini_VDS3205={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3205={0,0,&ini_VDS3205,buf_VDS3205,0,0};
@@ -1199,7 +1200,7 @@ static DriverRegister def_buf_VDS3205[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1606[38];	//FDS16-06
+static char buf_FDS1606[40];	//FDS16-06
 static fds16r_inipar ini_FDS1606={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1606={0,0,&ini_FDS1606,buf_FDS1606,0,0};
@@ -1226,7 +1227,7 @@ static DriverRegister def_buf_FDS1606[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1607[38];	//FDS16-07
+static char buf_FDS1607[40];	//FDS16-07
 static fds16r_inipar ini_FDS1607={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
@@ -1253,7 +1254,7 @@ static DriverRegister def_buf_FDS1607[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1608[38];	//FDS16-08
+static char buf_FDS1608[40];	//FDS16-08
 static fds16r_inipar ini_FDS1608={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
@@ -1280,7 +1281,7 @@ static DriverRegister def_buf_FDS1608[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1609[38];	//FDS16-09
+static char buf_FDS1609[40];	//FDS16-09
 static fds16r_inipar ini_FDS1609={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
@@ -1307,7 +1308,7 @@ static DriverRegister def_buf_FDS1609[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1610[38];	//FDS16-10
+static char buf_FDS1610[40];	//FDS16-10
 static fds16r_inipar ini_FDS1610={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
@@ -1334,7 +1335,7 @@ static DriverRegister def_buf_FDS1610[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1611[38];	//FDS16-11
+static char buf_FDS1611[40];	//FDS16-11
 static fds16r_inipar ini_FDS1611={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
@@ -1361,7 +1362,7 @@ static DriverRegister def_buf_FDS1611[]={
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS8412[26];	//VAS84-12
+static char buf_VAS8412[28];	//VAS84-12
 static vas84r_inipar ini_VAS8412={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
@@ -1380,7 +1381,7 @@ static DriverRegister def_buf_VAS8412[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3213[64];	//VDS32-13
+static char buf_VDS3213[66];	//VDS32-13
 static vds32r_inipar ini_VDS3213={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3213={0,0,&ini_VDS3213,buf_VDS3213,0,0};
@@ -1423,7 +1424,7 @@ static DriverRegister def_buf_VDS3213[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1615[38];	//FDS16-15
+static char buf_FDS1615[40];	//FDS16-15
 static fds16r_inipar ini_FDS1615={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
@@ -1451,20 +1452,20 @@ static DriverRegister def_buf_FDS1615[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc2,0x01,15,64,def_buf_VDS3201,&table_VDS3201}, //VDS32-01
-	{0xc2,0x02,15,64,def_buf_VDS3202,&table_VDS3202}, //VDS32-02
-	{0xc2,0x03,15,64,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
-	{0xc2,0x04,15,64,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
-	{0xc2,0x05,15,64,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
-	{0x04,0x06,20,38,def_buf_FDS1606,&table_FDS1606}, //FDS16-06
-	{0x04,0x07,20,38,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
-	{0x04,0x08,20,38,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
-	{0x04,0x09,20,38,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
-	{0x04,0x0a,20,38,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
-	{0x04,0x0b,20,38,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
-	{0xc6,0x0c,7,26,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
-	{0xc2,0x0d,15,64,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
-	{0x04,0x0f,20,38,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
+	{0xc2,0x01,15,66,def_buf_VDS3201,&table_VDS3201}, //VDS32-01
+	{0xc2,0x02,15,66,def_buf_VDS3202,&table_VDS3202}, //VDS32-02
+	{0xc2,0x03,15,66,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
+	{0xc2,0x04,15,66,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
+	{0xc2,0x05,15,66,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
+	{0x04,0x06,20,40,def_buf_FDS1606,&table_FDS1606}, //FDS16-06
+	{0x04,0x07,20,40,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
+	{0x04,0x08,20,40,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
+	{0x04,0x09,20,40,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
+	{0x04,0x0a,20,40,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
+	{0x04,0x0b,20,40,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
+	{0xc6,0x0c,7,28,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
+	{0xc2,0x0d,15,66,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
+	{0x04,0x0f,20,40,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

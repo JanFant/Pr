@@ -4915,8 +4915,171 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="du.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
-724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,-1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{724,"fEM_A1UC03RDU\0"}, 
+{725,"dEM_A1UC05UDU\0"}, 
+{726,"dEM_A1UC06UDU\0"}, 
+{727,"dEM_A2UC06UDU\0"}, 
+{728,"dEM_A2UC05UDU\0"}, 
+{729,"fEM_A2UC03RDU\0"}, 
+{730,"dEM_A3UC06UDU\0"}, 
+{731,"dEM_A3UC05UDU\0"}, 
+{732,"fEM_A3UC03RDU\0"}, 
+{733,"dEM_A8UC06UDU\0"}, 
+{734,"fEM_A8UC03RDU\0"}, 
+{735,"dEM_A8UC05UDU\0"}, 
+{736,"fEM_R0UV81RDU\0"}, 
+{737,"fEM_R0UV82RDU\0"}, 
+{738,"fEM_R0UV83RDU\0"}, 
+{739,"fEM_R0UV84RDU\0"}, 
+{740,"fEM_R0UV86RDU\0"}, 
+{741,"fEM_R0UV85RDU\0"}, 
+{742,"fEM_R0UV87RDU\0"}, 
+{743,"fEM_A3UP03RDU\0"}, 
+{744,"fEM_A3UP04RDU\0"}, 
+{745,"fEM_A3UP43RDU\0"}, 
+{746,"fEM_A3UP44RDU\0"}, 
+{747,"fEM_A3UP53RDU\0"}, 
+{748,"fEM_A3UP85RDU\0"}, 
+{749,"fEM_A3UP88RDU\0"}, 
+{750,"fEM_A3UP86RDU\0"}, 
+{751,"fEM_B8UV01RDU\0"}, 
+{752,"fEM_B8UV02RDU\0"}, 
+{753,"fEM_B8UV03RDU\0"}, 
+{754,"fEM_B8UL04RDU\0"}, 
+{755,"iEM_A2UV03CDU\0"}, 
+{756,"fEM_A2UV01RDU\0"}, 
+{757,"fEM_A2UV02RDU\0"}, 
+{758,"fEM_A1UV01RDU\0"}, 
+{759,"fEM_A1UV02RDU\0"}, 
+{760,"fEM_A1UC06RDU\0"}, 
+{761,"fEM_A1UC05RDU\0"}, 
+{762,"fEM_A1UL04RDU\0"}, 
+{763,"fEM_A3UV01RDU\0"}, 
+{764,"fEM_A3UV02RDU\0"}, 
+{765,"fEM_A3UC06RDU\0"}, 
+{766,"fEM_A3UC05RDU\0"}, 
+{767,"fEM_A3UL04RDU\0"}, 
+{768,"fEM_A3UP54RDU\0"}, 
+{769,"fEM_A3UP87RDU\0"}, 
+{770,"fEM_R0UL05RDU\0"}, 
+{771,"fEM_R0UL20RDU\0"}, 
+{772,"fEM_B8UV04RDU\0"}, 
+{773,"fEM_B8UC06RDU\0"}, 
+{774,"fEM_B8UC05RDU\0"}, 
+{775,"fEM_A2UL05RDU\0"}, 
+{776,"fEM_A2UL03RDU\0"}, 
+{777,"fEM_A2UC06RDU\0"}, 
+{778,"fEM_A2UC05RDU\0"}, 
+{779,"fEM_A2UL04RDU\0"}, 
+{780,"fEM_A1UL03RDU\0"}, 
+{781,"fEM_A1UL05RDU\0"}, 
+{782,"fEM_A3UL03RDU\0"}, 
+{783,"fEM_A3UL05RDU\0"}, 
+{784,"fEM_A1UC08RDU\0"}, 
+{785,"fEM_A3UC08RDU\0"}, 
+{786,"fEM_A1UC07RDU\0"}, 
+{787,"fEM_A1UL01RDU\0"}, 
+{788,"fEM_A3UC07RDU\0"}, 
+{789,"fEM_A3UL01RDU\0"}, 
+{790,"fEM_A2UC08RDU\0"}, 
+{791,"fEM_A2UC07RDU\0"}, 
+{792,"fEM_A2UL01RDU\0"}, 
+{793,"fEM_B8UC01RDU\0"}, 
+{794,"fEM_B8UL07RDU\0"}, 
+{795,"fEM_B8UC02RDU\0"}, 
+{796,"fEM_B8UL01RDU\0"}, 
+{797,"fEM_B8UL05RDU\0"}, 
+{798,"fEM_B8UL03RDU\0"}, 
+{799,"fEM_B8UL06RDU\0"}, 
+{800,"fEM_A9UZ03RDU\0"}, 
+{801,"fEM_A9UZ04RDU\0"}, 
+{802,"fEM_A9UZ05RDU\0"}, 
+{803,"fEM_R4UZ04RDU\0"}, 
+{804,"fEM_R4UZ03RDU\0"}, 
+{805,"fEM_R4UZ05RDU\0"}, 
+{806,"fEM_A5UZ03RDU\0"}, 
+{807,"fEM_A5UZ04RDU\0"}, 
+{808,"fEM_A5UZ05RDU\0"}, 
+{809,"fEM_A4UZ03RDU\0"}, 
+{810,"fEM_A4UZ04RDU\0"}, 
+{811,"fEM_A4UZ05RDU\0"}, 
+{812,"fEM_A6UZ03RDU\0"}, 
+{813,"fEM_A6UZ04RDU\0"}, 
+{814,"fEM_A6UZ05RDU\0"}, 
+{815,"fEM_R1UZ03RDU\0"}, 
+{816,"fEM_R1UZ04RDU\0"}, 
+{817,"fEM_R1UZ05RDU\0"}, 
+{818,"fEM_R0UL04RDU\0"}, 
+{819,"fEM_R0UL06RDU\0"}, 
+{820,"fEM_R0UL03RDU\0"}, 
+{821,"fEM_R0UL17RDU\0"}, 
+{822,"fEM_R0UL19RDU\0"}, 
+{823,"fEM_R0UL07RDU\0"}, 
+{824,"fEM_R0UL18RDU\0"}, 
+{825,"fEM_R0UL16RDU\0"}, 
+{826,"fEM_R0UL02RDU\0"}, 
+{827,"fEM_R0UN08RDU\0"}, 
+{828,"fEM_R0UN07RDU\0"}, 
+{829,"fEM_R0UN06RDU\0"}, 
+{830,"fEM_R0UN05RDU\0"}, 
+{831,"fEM_R0UN04RDU\0"}, 
+{832,"fEM_R0UN03RDU\0"}, 
+{833,"fEM_R0UN02RDU\0"}, 
+{834,"fEM_R0UN01RDU\0"}, 
+{835,"fEM_A2UC82RDU\0"}, 
+{836,"fEM_A2UC83RDU\0"}, 
+{837,"fEM_A1UC83RDU\0"}, 
+{838,"fEM_A2UC81RDU\0"}, 
+{839,"fEM_A1UC81RDU\0"}, 
+{840,"fEM_A1UC82RDU\0"}, 
+{841,"fEM_A2UL83RDU\0"}, 
+{842,"fEM_A3UC81RDU\0"}, 
+{843,"fEM_A3UC82RDU\0"}, 
+{844,"fEM_R0UN80RDU\0"}, 
+{845,"iEM_A2UV01IDU\0"}, 
+{846,"iEM_A2UV02IDU\0"}, 
+{847,"iEM_A1UV01IDU\0"}, 
+{848,"iEM_A1UV02IDU\0"}, 
+{849,"iEM_A1UV03IDU\0"}, 
+{850,"iEM_A3UV01IDU\0"}, 
+{851,"iEM_A3UV02IDU\0"}, 
+{852,"lEM_R0MD01LC1\0"}, 
+{853,"fEM_A3UC09RDU\0"}, 
+{854,"fEM_A2UC02RDU\0"}, 
+{855,"fEM_A1UC02RDU\0"}, 
+{856,"fEM_A3UC02RDU\0"}, 
+{857,"fEM_R0UL21RDU\0"}, 
+{858,"fEM_R0UN09RDU\0"}, 
+{859,"fEM_R0UN11RDU\0"}, 
+{860,"fEM_R0UN12RDU\0"}, 
+{861,"fEM_R0UN13RDU\0"}, 
+{862,"fEM_R0UN14RDU\0"}, 
+{863,"fEM_R0UN16RDU\0"}, 
+{864,"fEM_R0UN17RDU\0"}, 
+{865,"fEM_R0UN18RDU\0"}, 
+{866,"fEM_R0UN19RDU\0"}, 
+{867,"fEM_R0UN70LDU\0"}, 
+{868,"fEM_R0UN71LDU\0"}, 
+{869,"fEM_R0UN72LDU\0"}, 
+{870,"fEM_R0UN73LDU\0"}, 
+{871,"fEM_R0UN74LDU\0"}, 
+{872,"fEM_R0UN75LDU\0"}, 
+{873,"fEM_R0UN80LDU\0"}, 
+{874,"fEM_R0UN81LDU\0"}, 
+{875,"fEM_R0UN82LDU\0"}, 
+{876,"fEM_R0UN83LDU\0"}, 
+{877,"fEM_R0UN84LDU\0"}, 
+{878,"fEM_R0UN85LDU\0"}, 
+{879,"fEM_R0UT20RDU\0"}, 
+{880,"fEM_R0UN25RDU\0"}, 
+{881,"fEM_R0UN15RDU\0"}, 
+{882,"fEM_R0UN26RDU\0"}, 
+{883,"fEM_R0UN27RDU\0"}, 
+{884,"fEM_R0UN24RDU\0"}, 
+{885,"fEM_R0UL25RDU\0"}, 
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_DU[]={  // 
 	{&R0MW13LP2,1,0},	//(R0MW13LP2) Переключатель СЕТЬ
@@ -5759,7 +5922,7 @@ static DriverRegister def_buf_VENCF[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3202[64];	//VDS32-02
+static char buf_VDS3202[66];	//VDS32-02
 static vds32r_inipar ini_VDS3202={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3202={0,0,&ini_VDS3202,buf_VDS3202,0,0};
@@ -5799,7 +5962,7 @@ static DriverRegister def_buf_VDS3202[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3203[64];	//VDS32-03
+static char buf_VDS3203[66];	//VDS32-03
 static vds32r_inipar ini_VDS3203={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3203={0,0,&ini_VDS3203,buf_VDS3203,0,0};
@@ -5832,7 +5995,7 @@ static DriverRegister def_buf_VDS3203[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3204[64];	//VDS32-04
+static char buf_VDS3204[66];	//VDS32-04
 static vds32r_inipar ini_VDS3204={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3204={0,0,&ini_VDS3204,buf_VDS3204,0,0};
@@ -5870,7 +6033,7 @@ static DriverRegister def_buf_VDS3204[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3205[64];	//VDS32-05
+static char buf_VDS3205[66];	//VDS32-05
 static vds32r_inipar ini_VDS3205={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3205={0,0,&ini_VDS3205,buf_VDS3205,0,0};
@@ -5911,7 +6074,7 @@ static DriverRegister def_buf_VDS3205[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1607[38];	//FDS16-07
+static char buf_FDS1607[40];	//FDS16-07
 static fds16r_inipar ini_FDS1607={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
@@ -5936,7 +6099,7 @@ static DriverRegister def_buf_FDS1607[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1608[38];	//FDS16-08
+static char buf_FDS1608[40];	//FDS16-08
 static fds16r_inipar ini_FDS1608={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
@@ -5961,7 +6124,7 @@ static DriverRegister def_buf_FDS1608[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1609[38];	//FDS16-09
+static char buf_FDS1609[40];	//FDS16-09
 static fds16r_inipar ini_FDS1609={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
@@ -5988,7 +6151,7 @@ static DriverRegister def_buf_FDS1609[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1610[38];	//FDS16-10
+static char buf_FDS1610[40];	//FDS16-10
 static fds16r_inipar ini_FDS1610={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
@@ -6013,7 +6176,7 @@ static DriverRegister def_buf_FDS1610[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1611[38];	//FDS16-11
+static char buf_FDS1611[40];	//FDS16-11
 static fds16r_inipar ini_FDS1611={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
@@ -6040,7 +6203,7 @@ static DriverRegister def_buf_FDS1611[]={
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS8412[26];	//VAS84-12
+static char buf_VAS8412[28];	//VAS84-12
 static vas84r_inipar ini_VAS8412={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
@@ -6053,7 +6216,7 @@ static DriverRegister def_buf_VAS8412[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS3213[64];	//VDS32-13
+static char buf_VDS3213[66];	//VDS32-13
 static vds32r_inipar ini_VDS3213={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS3213={0,0,&ini_VDS3213,buf_VDS3213,0,0};
@@ -6092,7 +6255,7 @@ static DriverRegister def_buf_VDS3213[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS1615[38];	//FDS16-15
+static char buf_FDS1615[40];	//FDS16-15
 static fds16r_inipar ini_FDS1615={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
@@ -6121,18 +6284,18 @@ static DriverRegister def_buf_FDS1615[]={
 #pragma pack(push,1)
 static Driver drivers[]={
 	{0x02,0x01,5,84,def_buf_VENCF,&table_VENCF}, //VENCF
-	{0xc2,0x02,15,64,def_buf_VDS3202,&table_VDS3202}, //VDS32-02
-	{0xc2,0x03,15,64,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
-	{0xc2,0x04,15,64,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
-	{0xc2,0x05,15,64,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
-	{0x04,0x07,20,38,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
-	{0x04,0x08,20,38,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
-	{0x04,0x09,20,38,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
-	{0x04,0x0a,20,38,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
-	{0x04,0x0b,20,38,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
-	{0xc6,0x0c,7,26,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
-	{0xc2,0x0d,15,64,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
-	{0x04,0x0f,20,38,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
+	{0xc2,0x02,15,66,def_buf_VDS3202,&table_VDS3202}, //VDS32-02
+	{0xc2,0x03,15,66,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
+	{0xc2,0x04,15,66,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
+	{0xc2,0x05,15,66,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
+	{0x04,0x07,20,40,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
+	{0x04,0x08,20,40,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
+	{0x04,0x09,20,40,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
+	{0x04,0x0a,20,40,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
+	{0x04,0x0b,20,40,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
+	{0xc6,0x0c,7,28,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
+	{0xc2,0x0d,15,66,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
+	{0x04,0x0f,20,40,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

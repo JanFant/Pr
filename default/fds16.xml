@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="fds16" description="Типовой драйвер ФДС16" code="0x04" lenData="38" lenInit="20" header="fp8/drivers/fds16r.h">
+<driver name="fds16" description="Типовой драйвер ФДС16" code="0x04" lenData="40" lenInit="20" header="fp8/drivers/fds16r.h">
 <!-->
     mode="output" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
@@ -25,7 +25,8 @@
         <signal name="K15FDSR" format="1" mode="output" address="28"/>
         <signal name="K16FDSR" format="1" mode="output" address="30"/>
         <signal name="ISP18" format="3" mode="output" address="32"/>
-        <signal name="ISP96" format="3" mode="output" address="35"/>      
+        <signal name="ISP96" format="3" mode="output" address="35"/> 
+        <signal name="Diagn" format="3" mode="output" address="38"/> 
     </signals>
     <init type="fds16r_inipar">
         <signal name="type" mode="input" format="18" value="0x04" address="0"/>

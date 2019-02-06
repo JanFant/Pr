@@ -604,8 +604,30 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="baz2.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
-144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,-1,};
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{144,"fEM_R0UT02RZZ\0"}, 
+{145,"fEM_R0UT01RZZ\0"}, 
+{146,"fEM_A2UP03RZZ\0"}, 
+{147,"fEM_A2UP04RZZ\0"}, 
+{148,"fEM_R0UT72RZZ\0"}, 
+{149,"fEM_R0UT71RZZ\0"}, 
+{150,"fEM_R0UT62RZZ\0"}, 
+{151,"fEM_R0UT61RZZ\0"}, 
+{152,"fEM_A2UP41RZZ\0"}, 
+{153,"fEM_A2UP42RZZ\0"}, 
+{154,"fEM_A2UP51RZZ\0"}, 
+{155,"fEM_A2UP81RZZ\0"}, 
+{156,"fEM_A2UP84RZZ\0"}, 
+{157,"fEM_A2UP82RZZ\0"}, 
+{158,"fEM_A2UP52RZZ\0"}, 
+{159,"fEM_A2UP83RZZ\0"}, 
+{160,"fEM_R0UR01RZZ\0"}, 
+{161,"fEM_R0UR04RZZ\0"}, 
+{162,"fEM_A1UL12RZZ\0"}, 
+{163,"fEM_A1UL11RZZ\0"}, 
+{164,"fEM_R7UI73RZZ\0"}, 
+{0,NULL}
+};
 #pragma pack(push,1)
 static ModbusRegister coil_Baz2[]={  // 
 	{&R0VZ71LZ2,1,0},	//(R0VZ71LZ2) Обобщенный сигнал АЗ 2 канала
@@ -826,7 +848,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84[26];	//VAS84
+static char buf_VAS84[28];	//VAS84
 static vas84r_inipar ini_VAS84={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
@@ -841,7 +863,7 @@ static DriverRegister def_buf_VAS84[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS321[64];	//VDS32
+static char buf_VDS321[66];	//VDS32
 static vds32r_inipar ini_VDS321={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS321={0,0,&ini_VDS321,buf_VDS321,0,0};
@@ -863,7 +885,7 @@ static DriverRegister def_buf_VDS321[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS322[64];	//VDS32
+static char buf_VDS322[66];	//VDS32
 static vds32r_inipar ini_VDS322={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
@@ -880,7 +902,7 @@ static DriverRegister def_buf_VDS322[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS323[64];	//VDS32
+static char buf_VDS323[66];	//VDS32
 static vds32r_inipar ini_VDS323={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
@@ -898,7 +920,7 @@ static DriverRegister def_buf_VDS323[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS324[64];	//VDS32
+static char buf_VDS324[66];	//VDS32
 static vds32r_inipar ini_VDS324={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
@@ -920,7 +942,7 @@ static DriverRegister def_buf_VDS324[]={
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS16[38];	//FDS16
+static char buf_FDS16[40];	//FDS16
 static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
@@ -937,12 +959,12 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc6,0x04,7,26,def_buf_VAS84,&table_VAS84}, //VAS84
-	{0xc2,0x05,15,64,def_buf_VDS321,&table_VDS321}, //VDS32
-	{0xc2,0x06,15,64,def_buf_VDS322,&table_VDS322}, //VDS32
-	{0xc2,0x07,15,64,def_buf_VDS323,&table_VDS323}, //VDS32
-	{0xc2,0x08,15,64,def_buf_VDS324,&table_VDS324}, //VDS32
-	{0x04,0x0a,20,38,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xc6,0x04,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
+	{0xc2,0x05,15,66,def_buf_VDS321,&table_VDS321}, //VDS32
+	{0xc2,0x06,15,66,def_buf_VDS322,&table_VDS322}, //VDS32
+	{0xc2,0x07,15,66,def_buf_VDS323,&table_VDS323}, //VDS32
+	{0xc2,0x08,15,66,def_buf_VDS324,&table_VDS324}, //VDS32
+	{0x04,0x0a,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

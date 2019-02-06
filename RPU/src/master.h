@@ -61,8 +61,8 @@ int nomer = 1;
 #define idR0DE3ALRP	 23	//(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5
 #define R0DE39LRP	 BUFFER[46]	//(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4
 #define idR0DE39LRP	 24	//(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4
-#define R0DE38LRP	 BUFFER[48]	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2
-#define idR0DE38LRP	 25	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2
+#define R0DE38LRP	 BUFFER[48]	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3
+#define idR0DE38LRP	 25	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3
 #define R0DE37LRP	 BUFFER[50]	//(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2
 #define idR0DE37LRP	 26	//(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2
 #define R0DE36LRP	 BUFFER[52]	//(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1
@@ -269,7 +269,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 22	,1	,1	, &R0DE3BLRP},	//(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6
 	{ 23	,1	,1	, &R0DE3ALRP},	//(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5
 	{ 24	,1	,1	, &R0DE39LRP},	//(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4
-	{ 25	,1	,1	, &R0DE38LRP},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2
+	{ 25	,1	,1	, &R0DE38LRP},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3
 	{ 26	,1	,1	, &R0DE37LRP},	//(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2
 	{ 27	,1	,1	, &R0DE36LRP},	//(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1
 	{ 28	,1	,1	, &R0DE35LRP},	//(R0DE35LRP) диагностика шкафа РПУ температура больше 53
@@ -364,7 +364,34 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 };
 static char NameSaveFile[]="rpu.bin\0";   // Имя файла для сохранения констант
 #pragma pop
-static short saveVariables[]={      // Id переменных для сохранения
+static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
+{77,"fEM_R0UH02RSS\0"}, 
+{78,"fEM_R0UH03RSS\0"}, 
+{79,"fEM_R7UX00RSS\0"}, 
+{80,"fEM_R7UY00RSS\0"}, 
+{81,"fEM_R7UX13RSS\0"}, 
+{82,"fEM_R7UX14RSS\0"}, 
+{83,"fEM_R7UX15RSS\0"}, 
+{84,"fEM_R7UY13RSS\0"}, 
+{85,"fEM_R7UY14RSS\0"}, 
+{86,"fEM_R7UY15RSS\0"}, 
+{87,"fEM_A0UX00RSS\0"}, 
+{88,"fEM_A0UX13RSS\0"}, 
+{89,"fEM_A0UX14RSS\0"}, 
+{90,"fEM_A0UX15RSS\0"}, 
+{91,"fEM_B0UX03RSS\0"}, 
+{92,"fEM_B0UX04RSS\0"}, 
+{93,"fEM_B0UX05RSS\0"}, 
+{94,"fEM_R0UH05RSS\0"}, 
+{95,"fEM_R0UR01RRP\0"}, 
+{96,"fEM_R0UT02RZZ\0"}, 
+{97,"fEM_R0UT01RZZ\0"}, 
+{98,"fEM_R0UT72RZZ\0"}, 
+{99,"fEM_R0UT71RZZ\0"}, 
+{100,"fEM_R0UT62RZZ\0"}, 
+{101,"fEM_R0UT61RZZ\0"}, 
+{102,"fEM_R0UL52RSS\0"}, 
+{103,"fEM_Z7UE20RRP\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -405,7 +432,7 @@ static ModbusRegister di_RPU[]={  //
 	{&R0DE3BLRP,1,11},	//(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6
 	{&R0DE3ALRP,1,12},	//(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5
 	{&R0DE39LRP,1,13},	//(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4
-	{&R0DE38LRP,1,14},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2
+	{&R0DE38LRP,1,14},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3
 	{&R0DE37LRP,1,15},	//(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2
 	{&R0DE36LRP,1,16},	//(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1
 	{&R0DE35LRP,1,17},	//(R0DE35LRP) диагностика шкафа РПУ температура больше 53
@@ -502,7 +529,7 @@ static ModbusRegister di_DiagnRPU[]={  //
 	{&R0DE3BLRP,1,2},	//(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6
 	{&R0DE3ALRP,1,3},	//(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5
 	{&R0DE39LRP,1,4},	//(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4
-	{&R0DE38LRP,1,5},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 2
+	{&R0DE38LRP,1,5},	//(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3
 	{&R0DE37LRP,1,6},	//(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2
 	{&R0DE36LRP,1,7},	//(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1
 	{&R0DE35LRP,1,8},	//(R0DE35LRP) диагностика шкафа РПУ температура больше 53
@@ -537,7 +564,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS01[670];	//VCHS01
+static char buf_VCHS01[666];	//VCHS01
 static vchs_inipar ini_VCHS01={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
@@ -546,11 +573,12 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 static DriverRegister def_buf_VCHS01[]={
 	{&R0IN01RRP,8,0},
 	{&R0IN02RRP,8,5},
+	{&R0DE01LRP,3,664},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS02[670];	//VCHS02
+static char buf_VCHS02[666];	//VCHS02
 static vchs_inipar ini_VCHS02={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
@@ -558,11 +586,12 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
 	{&R0IN03RRP,8,0},
+	{&R0DE02LRP,3,664},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS03[670];	//VCHS03
+static char buf_VCHS03[666];	//VCHS03
 static vchs_inipar ini_VCHS03={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
@@ -571,11 +600,12 @@ static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
 static DriverRegister def_buf_VCHS03[]={
 	{&R0IN06RRP,8,0},
 	{&R0IN07RRP,8,5},
+	{&R0DE03LRP,3,664},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84[26];	//VAS84
+static char buf_VAS84[28];	//VAS84
 static vas84r_inipar ini_VAS84={172,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
@@ -583,29 +613,32 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS84[]={
 	{&A0IT03IRP,3,0},
+	{&R0DE06LRP,3,26},
 	{&B0IT03IRP,3,3},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
-static char buf_VDS32[64];	//VDS32
+static char buf_VDS32[66];	//VDS32
 static vds32r_inipar ini_VDS32={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
+	{&R0DE07LRP,3,64},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
-static char buf_FDS16[38];	//FDS16
+static char buf_FDS16[40];	//FDS16
 static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
+	{&R0DE08LRP,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -617,6 +650,7 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
+	{&R0DE3DLRP,1,24},
 	{&R0DE31LRP,1,0},
 	{&R0DE32LRP,1,2},
 	{&R0DE33LRP,1,4},
@@ -624,28 +658,54 @@ static DriverRegister def_buf_SBKFP[]={
 	{&R0DE35LRP,1,8},
 	{&R0DE36LRP,1,10},
 	{&R0DE37LRP,1,12},
-	{&R0DE38LRP,1,14},
-	{&R0DE39LRP,1,16},
-	{&R0DE3ALRP,1,18},
-	{&R0DE3BLRP,1,20},
 	{&R0DE3CLRP,1,22},
-	{&R0DE3DLRP,1,24},
+	{&R0DE3BLRP,1,20},
+	{&R0DE3ALRP,1,18},
+	{&R0DE39LRP,1,16},
+	{&R0DE38LRP,1,14},
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc4,0x01,12,670,def_buf_VCHS01,&table_VCHS01}, //VCHS01
-	{0xc4,0x02,12,670,def_buf_VCHS02,&table_VCHS02}, //VCHS02
-	{0xc4,0x03,12,670,def_buf_VCHS03,&table_VCHS03}, //VCHS03
-	{0xc6,0x06,7,26,def_buf_VAS84,&table_VAS84}, //VAS84
-	{0xc2,0x07,15,64,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x08,20,38,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xc4,0x01,12,666,def_buf_VCHS01,&table_VCHS01}, //VCHS01
+	{0xc4,0x02,12,666,def_buf_VCHS02,&table_VCHS02}, //VCHS02
+	{0xc4,0x03,12,666,def_buf_VCHS03,&table_VCHS03}, //VCHS03
+	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
+	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
+	{0x04,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
+	setAsFloat(77,3703.704 );
+	setAsFloat(78,62500.0);
+	setAsFloat(79,1567.36);
+	setAsFloat(80,506.5);
+	setAsFloat(81,1570.0);
+	setAsFloat(82,1269);
+	setAsFloat(83,1281.2);
+	setAsFloat(84,248.0);
+	setAsFloat(85,572.4);
+	setAsFloat(86,246.8);
+	setAsFloat(87,11.0);
+	setAsFloat(88,1.0);
+	setAsFloat(89,1.0);
+	setAsFloat(90,1.0);
+	setAsFloat(91,0);
+	setAsFloat(92,0);
+	setAsFloat(93,0.0);
+	setAsFloat(94,32000.0);
+	setAsFloat(95,1000);
+	setAsFloat(96,600);
+	setAsFloat(97,0);
+	setAsFloat(98,150);
+	setAsFloat(99,200);
+	setAsFloat(100,90);
+	setAsFloat(101,100);
+	setAsFloat(102,5100);
+	setAsFloat(103,210);
 }
 
 // Р’СЃС‚Р°РІРєР° Рє VCHS
@@ -805,80 +865,80 @@ _S_bol  S_bol_43_1 = {&R0IN06RRP,&fEM_R0UR01RRP,&var38};
 
 void Scheme()
 {
-//if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-//  scalzz(&S_scalzz_76_1);
-//  scalzz(&S_scalzz_78_1);
-//  geterr(&S_geterr_47_1);
-//  geterr(&S_geterr_48_1);
-//  or2(&S_or2_57_1);
-//  ocham(&S_ocham_16_1);
-//  bol(&S_bol_43_1);
-//  bol(&S_bol_53_1);
-//  drg(&S_drg_98_1);
-//  drg(&S_drg_88_1);
-//  geterr(&S_geterr_82_1);
-//  drg(&S_drg_101_1);
-//  drg(&S_drg_90_1);
-//  geterr(&S_geterr_80_1);
-//  bol(&S_bol_35_1);
-//  zzfs(&S_zzfs_70_1);
-//  or3(&S_or3_60_1);
-//  zzfs(&S_zzfs_61_1);
-//  noto(&S_noto_71_1);
-//  and4(&S_and4_36_1);
-//  and3(&S_and3_37_1);
-//  setData(&var41,&var30);
-//  or2(&S_or2_85_1);
-//  setData(&var42,&var33);
-//  or2(&S_or2_89_1);
-//  setData(&var43,&var30);
-//  setData(&var44,&var33);
-//  or2(&S_or2_84_1);
-//  noto(&S_noto_67_1);
-//  noto(&S_noto_58_1);
-//  setData(&var39,&var22);
-//  and3(&S_and3_51_1);
-//  setData(&var40,&var20);
-//  and3(&S_and3_52_1);
-//  and3(&S_and3_44_1);
-//  and3(&S_and3_45_1);
-//  or2(&S_or2_105_1);
-//  or4(&S_or4_42_1);
-//  or5(&S_or5_62_1);
-//  moveData(idB7MZ31LRP,idC1MZ31LRP);
-//  moveData(idA7MZ31LRP,idC1MZ31LRP);
-//  moveData(idB3VS21LRP,idB3IS21LRP);
-//  moveData(idA3VS21LRP,idA3IS21LRP);
-//  moveData(idB2VS21LRP,idB2IS21LRP);
-//  moveData(idA2VS21LRP,idA2IS21LRP);
-//  moveData(idB1VS21LRP,idB1IS21LRP);
-//  moveData(idA1VS21LRP,idA1IS21LRP);
-//  setData(idR7VE70LRP,&var8);
-//  setData(idR0VN13RRP,&var4);
-//  setData(idR0VN71LRP,&var27);
-//  setData(idA1VT71LRP,&var12);
-//  setData(idR0IE04LRP,&var23);
-//  setData(idR0IE03LRP,&var23);
-//  setData(idA0EE01LRP,&var15);
-//  setData(idB0VT71LRP,&var11);
-//  setData(idB0VT61LRP,&var32);
-//  setData(idB0CT01IRP,&var28);
-//  setData(idR0ET02LRP,&var33);
-//  setData(idR0ET01LRP,&var30);
-//  setData(idA0VT71LRP,&var13);
-//  setData(idA0VT61LRP,&var35);
-//  setData(idA0CT01IRP,&var29);
-//  setData(idR7VN71LRP,&var10);
-//  setData(idR0IE02LRP,&var26);
-//  setData(idR0IE01LRP,&var26);
-//  setData(idR0VN15RRP,&var7);
-//  setData(idR0VN33RRP,&var6);
-//  setData(idR0VN23RRP,&var5);
-//  setData(idA0EE02LRP,&var3);
-//  setData(idR0VN03RRP,&var1);
-//  setData(idR0VN02RRP,&var2);
-//
-//  setAsBool(idbFirstEnterFlag,1);
+// if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
+//   scalzz(&S_scalzz_76_1);
+//   scalzz(&S_scalzz_78_1);
+//   geterr(&S_geterr_47_1);
+//   geterr(&S_geterr_48_1);
+//   or2(&S_or2_57_1);
+//   ocham(&S_ocham_16_1);
+//   bol(&S_bol_43_1);
+//   bol(&S_bol_53_1);
+//   drg(&S_drg_98_1);
+//   drg(&S_drg_88_1);
+//   geterr(&S_geterr_82_1);
+//   drg(&S_drg_101_1);
+//   drg(&S_drg_90_1);
+//   geterr(&S_geterr_80_1);
+//   bol(&S_bol_35_1);
+//   zzfs(&S_zzfs_70_1);
+//   or3(&S_or3_60_1);
+//   zzfs(&S_zzfs_61_1);
+//   noto(&S_noto_71_1);
+//   and4(&S_and4_36_1);
+//   and3(&S_and3_37_1);
+//   setData(&var41,&var30);
+//   or2(&S_or2_85_1);
+//   setData(&var42,&var33);
+//   or2(&S_or2_89_1);
+//   setData(&var43,&var30);
+//   setData(&var44,&var33);
+//   or2(&S_or2_84_1);
+//   noto(&S_noto_67_1);
+//   noto(&S_noto_58_1);
+//   setData(&var39,&var22);
+//   and3(&S_and3_51_1);
+//   setData(&var40,&var20);
+//   and3(&S_and3_52_1);
+//   and3(&S_and3_44_1);
+//   and3(&S_and3_45_1);
+//   or2(&S_or2_105_1);
+//   or4(&S_or4_42_1);
+//   or5(&S_or5_62_1);
+//   moveData(idB7MZ31LRP,idC1MZ31LRP);
+//   moveData(idA7MZ31LRP,idC1MZ31LRP);
+//   moveData(idB3VS21LRP,idB3IS21LRP);
+//   moveData(idA3VS21LRP,idA3IS21LRP);
+//   moveData(idB2VS21LRP,idB2IS21LRP);
+//   moveData(idA2VS21LRP,idA2IS21LRP);
+//   moveData(idB1VS21LRP,idB1IS21LRP);
+//   moveData(idA1VS21LRP,idA1IS21LRP);
+//   setData(idR7VE70LRP,&var8);
+//   setData(idR0VN13RRP,&var4);
+//   setData(idR0VN71LRP,&var27);
+//   setData(idA1VT71LRP,&var12);
+//   setData(idR0IE04LRP,&var23);
+//   setData(idR0IE03LRP,&var23);
+//   setData(idA0EE01LRP,&var15);
+//   setData(idB0VT71LRP,&var11);
+//   setData(idB0VT61LRP,&var32);
+//   setData(idB0CT01IRP,&var28);
+//   setData(idR0ET02LRP,&var33);
+//   setData(idR0ET01LRP,&var30);
+//   setData(idA0VT71LRP,&var13);
+//   setData(idA0VT61LRP,&var35);
+//   setData(idA0CT01IRP,&var29);
+//   setData(idR7VN71LRP,&var10);
+//   setData(idR0IE02LRP,&var26);
+//   setData(idR0IE01LRP,&var26);
+//   setData(idR0VN15RRP,&var7);
+//   setData(idR0VN33RRP,&var6);
+//   setData(idR0VN23RRP,&var5);
+//   setData(idA0EE02LRP,&var3);
+//   setData(idR0VN03RRP,&var1);
+//   setData(idR0VN02RRP,&var2);
+
+//   setAsBool(idbFirstEnterFlag,1);
 }
 
 void InitInternalParametr(void)

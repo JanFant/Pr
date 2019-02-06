@@ -1442,7 +1442,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="292,424,420,429"
+        R="292,424,434,430"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -3074,14 +3074,14 @@
         }
       }
       [VVV_Text]{
-        R="661,155,706,166"
+        R="661,155,709,167"
         Number=203
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="596,186,641,197"
+        R="596,186,644,198"
         Number=205
         IsHold=FALSE
         Line1="АС по мощности"
@@ -3108,7 +3108,7 @@
         }
       }
       [VVV_Text]{
-        R="1123,312,1161,323"
+        R="1123,312,1169,326"
         Number=238
         IsHold=FALSE
         Line1="Исправность"
@@ -3156,7 +3156,7 @@
         ABBRV="OR4"
       }
       [VVV_Text]{
-        R="659,270,693,281"
+        R="659,270,697,282"
         Number=305
         IsHold=FALSE
         Line1="АС по "
@@ -3510,7 +3510,7 @@
         }
       }
       [VVV_Text]{
-        R="961,216,1011,227"
+        R="961,216,1010,228"
         Number=332
         IsHold=FALSE
         Line1="неисправность по "
@@ -3739,15 +3739,15 @@
         VisualNumber="118"
         SIGNAL_NAME="A7MZ31LRP"
         KodTeprol="A7MZ31LRP"
-        Comment="Клапан <ОБДУВ АЗ1> открыть(обесточить)"
+        Comment="Клапан ОБДУВ АЗ1 открыть(обесточить)"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -3756,7 +3756,7 @@
         InterfaceMB="RPU"
         ChannalName=""
         DeviceName=""
-        Line1="Клапан <ОБДУВ АЗ1> "
+        Line1="Клапан ОБДУВ АЗ1 "
         Line2="открыть(обесточить)"
       }
       [TDrawSignal]{
@@ -3766,15 +3766,15 @@
         VisualNumber="119"
         SIGNAL_NAME="B7MZ31LRP"
         KodTeprol="B7MZ31LRP"
-        Comment="Клапан <ОБДУВ АЗ2> открыть(обесточить)"
+        Comment="Клапан ОБДУВ АЗ2 открыть(обесточить)"
         Type=3
         ParamType=1
         Value=""
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -3783,7 +3783,7 @@
         InterfaceMB="RPU"
         ChannalName=""
         DeviceName=""
-        Line1="Клапан <ОБДУВ АЗ2> "
+        Line1="Клапан ОБДУВ АЗ2 "
         Line2="открыть(обесточить)"
       }
       [TDrawSignal]{
@@ -3835,8 +3835,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU, DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="Diagn"
+        DeviceName="VCHS01"
         Line1="диагностика модуля РПУ-"
         Line2="ВЧС место 1"
       }
@@ -3862,8 +3862,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU, DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="Diagn"
+        DeviceName="VCHS02"
         Line1="диагностика модуля РПУ-"
         Line2="ВЧС место 2"
       }
@@ -3889,8 +3889,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU, DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="Diagn"
+        DeviceName="VCHS03"
         Line1="диагностика модуля РПУ-"
         Line2="ВЧС место 3"
       }
@@ -3915,9 +3915,9 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB="RPU, DiagnRPU"
+        ChannalName="Diagn"
+        DeviceName="VAS84"
         Line1="диагностика модуля РПУ-"
         Line2="ВАС место 6"
       }
@@ -3943,8 +3943,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU, DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="Diagn"
+        DeviceName="FDS16"
         Line1="диагностика модуля РПУ-"
         Line2="ФДС место 8"
         Line3=""
@@ -3971,8 +3971,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU, DiagnRPU"
-        ChannalName=""
-        DeviceName=""
+        ChannalName="Diagn"
+        DeviceName="VDS32"
         Line1="диагностика модуля РПУ-"
         Line2="ВДС место 7"
       }
@@ -4173,7 +4173,7 @@
         VisualNumber="136"
         SIGNAL_NAME="R0DE38LRP"
         KodTeprol="R0DE38LRP"
-        Comment="диагностика шкафа РПУ МП15-3 место 2"
+        Comment="диагностика шкафа РПУ МП15-3 место 3"
         Type=3
         ParamType=1
         Value=""
@@ -4187,11 +4187,11 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S08SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
-        Line2="МП15-3 место 2"
+        Line2="МП15-3 место 3"
       }
       [TDrawSignal]{
         R="414,1011,474,1051"
@@ -4322,7 +4322,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
+        InterfaceMB="RPU, DiagnRPU"
         ChannalName="S13SBK"
         DeviceName="SBKFP"
         Line1="диагностика шкафа РПУ "
@@ -7287,4 +7287,4 @@
     }
   }
 }
-7036237
+7041765

@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="26" lenInit="7" header="fp8/drivers/vas84r.h">
+<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="28" lenInit="7" header="fp8/drivers/vas84r.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   
@@ -17,6 +17,7 @@
         <signal name="K07VASR" format="3" mode="input" address="18"/>
         <signal name="K08VASR" format="3" mode="input" address="21"/>
         <signal name="EXTVASR" format="18" mode="input" address="24"/>
+        <signal name="Diagn"   format="3" mode="output" address="26"/> 
     </signals>
     <init type="vas84r_inipar">
         <signal name="type" mode="input" format="18" value="172" address="0"/>
