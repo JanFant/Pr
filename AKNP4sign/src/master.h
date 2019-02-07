@@ -248,7 +248,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS01[666];	//VCHS01
+static char buf_VCHS01[58];	//VCHS01
 static vchs_inipar ini_VCHS01={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
@@ -261,7 +261,7 @@ static DriverRegister def_buf_VCHS01[]={
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS02[666];	//VCHS02
+static char buf_VCHS02[58];	//VCHS02
 static vchs_inipar ini_VCHS02={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
@@ -369,8 +369,8 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc4,0x01,12,666,def_buf_VCHS01,&table_VCHS01}, //VCHS01
-	{0xc4,0x02,12,666,def_buf_VCHS02,&table_VCHS02}, //VCHS02
+	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
+	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
 	{0xc2,0x04,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
 	{0x04,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
