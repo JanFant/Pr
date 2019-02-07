@@ -864,11 +864,37 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0IN07RRP</value>
+            <value name="description">(R0IN07RRP) Частота СНМ-11 Гц (канал 7)</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">8</value>
+            <value name="nID">43</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">94</value>
+            <value name="OldData">94</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0IN06RRP</value>
+            <value name="description">(R0IN06RRP) Частота СНМ-11 Гц (канал 6)</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+            <value name="nID">45</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">101</value>
+            <value name="OldData">101</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0VN15RRP</value>
             <value name="description">(R0VN15RRP) Номер ведущей камеры канал 5</value>
             <value name="type">2</value>
             <value name="format">3</value>
-            <value name="address">8</value>
+            <value name="address">12</value>
             <value name="nID">48</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
@@ -881,7 +907,7 @@
             <value name="description">(R0VN33RRP) Нейтронный поток по камере КНК53М канал 5</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">9</value>
+            <value name="address">13</value>
             <value name="nID">49</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -894,7 +920,7 @@
             <value name="description">(R0VN23RRP) Нейтронный поток по камере КНК15-1 канал 5</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">11</value>
+            <value name="address">15</value>
             <value name="nID">50</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -903,11 +929,37 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0IN03RRP</value>
+            <value name="description">(R0IN03RRP) Частота КНК53М Гц (канал 5)</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">17</value>
+            <value name="nID">52</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">125</value>
+            <value name="OldData">125</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B8VC01RDU</value>
+            <value name="description">(B8VC01RDU) Координата АЗ2, мм</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">19</value>
+            <value name="nID">53</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">130</value>
+            <value name="OldData">130</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0VN03RRP</value>
             <value name="description">(R0VN03RRP) Измеренный нейтронный поток канал 5</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">13</value>
+            <value name="address">21</value>
             <value name="nID">54</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -916,11 +968,37 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0IN02RRP</value>
+            <value name="description">(R0IN02RRP) Частота КНК15-1 Гц (канал 5)</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">23</value>
+            <value name="nID">55</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">140</value>
+            <value name="OldData">140</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0IN01RRP</value>
+            <value name="description">(R0IN01RRP) Частота СНМ-11 Гц (канал 5)</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">25</value>
+            <value name="nID">56</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">145</value>
+            <value name="OldData">145</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0VN02RRP</value>
             <value name="description">(R0VN02RRP) Уровень мощности канал 5</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">15</value>
+            <value name="address">27</value>
             <value name="nID">57</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -933,7 +1011,7 @@
             <value name="description">(R0VN13RRP) Нейтронный поток по камере  СНМ-11 канал 5</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">17</value>
+            <value name="address">29</value>
             <value name="nID">59</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -946,7 +1024,7 @@
             <value name="description">(B0CT01IRP) Температура АЗ2-3</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">19</value>
+            <value name="address">31</value>
             <value name="nID">73</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -968,89 +1046,11 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN07RRP</value>
-            <value name="description">(R0IN07RRP) Частота СНМ-11 Гц (канал 7)</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">1</value>
-            <value name="nID">43</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">94</value>
-            <value name="OldData">94</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0IN06RRP</value>
-            <value name="description">(R0IN06RRP) Частота СНМ-11 Гц (канал 6)</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">3</value>
-            <value name="nID">45</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">101</value>
-            <value name="OldData">101</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0IN03RRP</value>
-            <value name="description">(R0IN03RRP) Частота КНК53М Гц (канал 5)</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">5</value>
-            <value name="nID">52</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">125</value>
-            <value name="OldData">125</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B8VC01RDU</value>
-            <value name="description">(B8VC01RDU) Координата АЗ2, мм</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">7</value>
-            <value name="nID">53</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">130</value>
-            <value name="OldData">130</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0IN02RRP</value>
-            <value name="description">(R0IN02RRP) Частота КНК15-1 Гц (канал 5)</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">9</value>
-            <value name="nID">55</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">140</value>
-            <value name="OldData">140</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0IN01RRP</value>
-            <value name="description">(R0IN01RRP) Частота СНМ-11 Гц (канал 5)</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">11</value>
-            <value name="nID">56</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">145</value>
-            <value name="OldData">145</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">B0IT03IRP</value>
             <value name="description">(B0IT03IRP) Температура АЗ2-3</value>
             <value name="type">3</value>
             <value name="format">3</value>
-            <value name="address">13</value>
+            <value name="address">1</value>
             <value name="nID">75</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
@@ -1063,7 +1063,7 @@
             <value name="description">(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">14</value>
+            <value name="address">2</value>
             <value name="nID">77</value>
             <value name="PType">33</value>
             <value name="Bf0">0</value>
@@ -1076,7 +1076,7 @@
             <value name="description">(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">16</value>
+            <value name="address">4</value>
             <value name="nID">78</value>
             <value name="PType">33</value>
             <value name="Bf0">4</value>
@@ -1089,7 +1089,7 @@
             <value name="description">(R7UX00RSS) X-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">18</value>
+            <value name="address">6</value>
             <value name="nID">79</value>
             <value name="PType">33</value>
             <value name="Bf0">8</value>
@@ -1102,7 +1102,7 @@
             <value name="description">(R7UY00RSS) Y-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">20</value>
+            <value name="address">8</value>
             <value name="nID">80</value>
             <value name="PType">33</value>
             <value name="Bf0">12</value>
@@ -1115,7 +1115,7 @@
             <value name="description">(R7UX13RSS) X-координата камеры R7IN51</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">22</value>
+            <value name="address">10</value>
             <value name="nID">81</value>
             <value name="PType">33</value>
             <value name="Bf0">16</value>
@@ -1128,7 +1128,7 @@
             <value name="description">(R7UX14RSS) X-координата камеры R7IN52</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">24</value>
+            <value name="address">12</value>
             <value name="nID">82</value>
             <value name="PType">33</value>
             <value name="Bf0">20</value>
@@ -1141,7 +1141,7 @@
             <value name="description">(R7UX15RSS) X-координата камеры R7IN53</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">26</value>
+            <value name="address">14</value>
             <value name="nID">83</value>
             <value name="PType">33</value>
             <value name="Bf0">24</value>
@@ -1154,7 +1154,7 @@
             <value name="description">(R7UY13RSS) Y-координата камеры R7IN51</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">28</value>
+            <value name="address">16</value>
             <value name="nID">84</value>
             <value name="PType">33</value>
             <value name="Bf0">28</value>
@@ -1167,7 +1167,7 @@
             <value name="description">(R7UY14RSS) Y-координата камеры R7IN52</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">30</value>
+            <value name="address">18</value>
             <value name="nID">85</value>
             <value name="PType">33</value>
             <value name="Bf0">32</value>
@@ -1180,7 +1180,7 @@
             <value name="description">(R7UY15RSS) Y-координата камеры R7IN53</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">32</value>
+            <value name="address">20</value>
             <value name="nID">86</value>
             <value name="PType">33</value>
             <value name="Bf0">36</value>
@@ -1193,7 +1193,7 @@
             <value name="description">(A0UX00RSS) Эффективный радиус АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">34</value>
+            <value name="address">22</value>
             <value name="nID">87</value>
             <value name="PType">33</value>
             <value name="Bf0">40</value>
@@ -1206,7 +1206,7 @@
             <value name="description">(A0UX13RSS) Первый коэффициент калибровки камеры 13</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">36</value>
+            <value name="address">24</value>
             <value name="nID">88</value>
             <value name="PType">33</value>
             <value name="Bf0">44</value>
@@ -1219,7 +1219,7 @@
             <value name="description">(A0UX14RSS) Первый коэффициент калибровки камеры 14</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">38</value>
+            <value name="address">26</value>
             <value name="nID">89</value>
             <value name="PType">33</value>
             <value name="Bf0">48</value>
@@ -1232,7 +1232,7 @@
             <value name="description">(A0UX15RSS) Первый коэффициент калибровки камеры 15</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">40</value>
+            <value name="address">28</value>
             <value name="nID">90</value>
             <value name="PType">33</value>
             <value name="Bf0">52</value>
@@ -1245,7 +1245,7 @@
             <value name="description">(B0UX03RSS) Второй коэффициент калибровки камеры 3</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">42</value>
+            <value name="address">30</value>
             <value name="nID">91</value>
             <value name="PType">33</value>
             <value name="Bf0">56</value>
@@ -1258,7 +1258,7 @@
             <value name="description">(B0UX04RSS) Второй коэффициент калибровки камеры4</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">44</value>
+            <value name="address">32</value>
             <value name="nID">92</value>
             <value name="PType">33</value>
             <value name="Bf0">60</value>
@@ -1271,7 +1271,7 @@
             <value name="description">(B0UX05RSS) Второй коэффициент калибровки камеры 5</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">46</value>
+            <value name="address">34</value>
             <value name="nID">93</value>
             <value name="PType">33</value>
             <value name="Bf0">64</value>
@@ -1284,7 +1284,7 @@
             <value name="description">(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">48</value>
+            <value name="address">36</value>
             <value name="nID">94</value>
             <value name="PType">33</value>
             <value name="Bf0">68</value>
@@ -1297,7 +1297,7 @@
             <value name="description">(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">50</value>
+            <value name="address">38</value>
             <value name="nID">95</value>
             <value name="PType">33</value>
             <value name="Bf0">72</value>
@@ -1310,7 +1310,7 @@
             <value name="description">(R0UT02RZZ) Верхний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">52</value>
+            <value name="address">40</value>
             <value name="nID">96</value>
             <value name="PType">33</value>
             <value name="Bf0">76</value>
@@ -1323,7 +1323,7 @@
             <value name="description">(R0UT01RZZ) Нижний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">54</value>
+            <value name="address">42</value>
             <value name="nID">97</value>
             <value name="PType">33</value>
             <value name="Bf0">80</value>
@@ -1336,7 +1336,7 @@
             <value name="description">(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">56</value>
+            <value name="address">44</value>
             <value name="nID">98</value>
             <value name="PType">33</value>
             <value name="Bf0">84</value>
@@ -1349,7 +1349,7 @@
             <value name="description">(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">58</value>
+            <value name="address">46</value>
             <value name="nID">99</value>
             <value name="PType">33</value>
             <value name="Bf0">88</value>
@@ -1362,7 +1362,7 @@
             <value name="description">(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">60</value>
+            <value name="address">48</value>
             <value name="nID">100</value>
             <value name="PType">33</value>
             <value name="Bf0">92</value>
@@ -1375,7 +1375,7 @@
             <value name="description">(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">62</value>
+            <value name="address">50</value>
             <value name="nID">101</value>
             <value name="PType">33</value>
             <value name="Bf0">96</value>
@@ -1388,7 +1388,7 @@
             <value name="description">(R0UL52RSS) Уровень АС по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">64</value>
+            <value name="address">52</value>
             <value name="nID">102</value>
             <value name="PType">33</value>
             <value name="Bf0">100</value>
@@ -1401,7 +1401,7 @@
             <value name="description">(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">66</value>
+            <value name="address">54</value>
             <value name="nID">103</value>
             <value name="PType">33</value>
             <value name="Bf0">104</value>

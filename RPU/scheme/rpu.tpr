@@ -1265,9 +1265,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1293,9 +1293,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1363,9 +1363,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1390,9 +1390,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1448,7 +1448,7 @@
         Line1="Рис.1. Обработка датчиков нейтронного потока"
       }
       [VVV_Text]{
-        R="845,404,985,410"
+        R="845,404,1001,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -1608,9 +1608,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1678,9 +1678,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -2511,7 +2511,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -2565,7 +2565,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -2592,7 +2592,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -2772,7 +2772,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=3
         HstInterv_val=1
@@ -3074,21 +3074,21 @@
         }
       }
       [VVV_Text]{
-        R="661,155,717,169"
+        R="661,155,709,167"
         Number=203
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="596,186,652,200"
+        R="596,186,644,198"
         Number=205
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="1163,276,1226,290"
+        R="1163,276,1220,288"
         Number=206
         IsHold=FALSE
         Line1="отключить питание"
@@ -3108,7 +3108,7 @@
         }
       }
       [VVV_Text]{
-        R="1123,312,1169,326"
+        R="1123,312,1164,324"
         Number=238
         IsHold=FALSE
         Line1="Исправность"
@@ -3510,7 +3510,7 @@
         }
       }
       [VVV_Text]{
-        R="961,216,1024,230"
+        R="961,216,1016,228"
         Number=332
         IsHold=FALSE
         Line1="неисправность по "
@@ -3800,7 +3800,7 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -7287,4 +7287,4 @@
     }
   }
 }
-7041755
+7041787
