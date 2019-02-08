@@ -1169,6 +1169,50 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="N"
+      Value="6"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description=""
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="N1"
+      Value="8"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description=""
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -1222,7 +1266,7 @@
       PageCountX=2
       PageCountY=3
       Name="AbRPU"
-      ObjectCount=295
+      ObjectCount=326
       ExpandCompile=1
       [TDrawSignal]{
         R="400,259,460,299"
@@ -3822,7 +3866,7 @@
         KodTeprol="R0DE01LRP"
         Comment="диагностика модуля РПУ-ВЧС место 1"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -3849,7 +3893,7 @@
         KodTeprol="R0DE02LRP"
         Comment="диагностика модуля РПУ-ВЧС место 2"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -3876,7 +3920,7 @@
         KodTeprol="R0DE03LRP"
         Comment="диагностика модуля РПУ-ВЧС место 3"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -3895,7 +3939,7 @@
         Line2="ВЧС место 3"
       }
       [TDrawSignal]{
-        R="114,902,174,942"
+        R="125,901,185,941"
         Number=64
         IsHold=FALSE
         VisualNumber="126"
@@ -3903,7 +3947,7 @@
         KodTeprol="R0DE06LRP"
         Comment="диагностика модуля РПУ-ВАС место 6"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -3922,7 +3966,7 @@
         Line2="ВАС место 6"
       }
       [TDrawSignal]{
-        R="114,1012,174,1052"
+        R="19,1068,79,1108"
         Number=65
         IsHold=FALSE
         VisualNumber="128"
@@ -3930,7 +3974,7 @@
         KodTeprol="R0DE08LRP"
         Comment="диагностика модуля РПУ-ФДС место 8"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=1
@@ -3950,7 +3994,7 @@
         Line3=""
       }
       [TDrawSignal]{
-        R="114,958,174,998"
+        R="125,1070,185,1110"
         Number=66
         IsHold=FALSE
         VisualNumber="127"
@@ -3958,7 +4002,7 @@
         KodTeprol="R0DE07LRP"
         Comment="диагностика модуля РПУ-ВДС место 7"
         Type=2
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=1
@@ -3977,7 +4021,7 @@
         Line2="ВДС место 7"
       }
       [TDrawSignal]{
-        R="246,902,306,942"
+        R="19,1129,79,1169"
         Number=67
         IsHold=FALSE
         VisualNumber="129"
@@ -3985,7 +4029,7 @@
         KodTeprol="R0DE31LRP"
         Comment="диагностика шкафа РПУ сеть 1"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4004,7 +4048,7 @@
         Line2="сеть 1"
       }
       [TDrawSignal]{
-        R="246,959,306,999"
+        R="18,1185,78,1225"
         Number=68
         IsHold=FALSE
         VisualNumber="130"
@@ -4012,7 +4056,7 @@
         KodTeprol="R0DE32LRP"
         Comment="диагностика шкафа РПУ сеть 2"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4031,7 +4075,7 @@
         Line2="сеть 2"
       }
       [TDrawSignal]{
-        R="246,1012,306,1052"
+        R="99,1253,159,1293"
         Number=69
         IsHold=FALSE
         VisualNumber="131"
@@ -4039,7 +4083,7 @@
         KodTeprol="R0DE33LRP"
         Comment="диагностика шкафа РПУ двери"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4058,7 +4102,7 @@
         Line2="двери"
       }
       [TDrawSignal]{
-        R="326,901,386,941"
+        R="171,1253,231,1293"
         Number=70
         IsHold=FALSE
         VisualNumber="132"
@@ -4066,7 +4110,7 @@
         KodTeprol="R0DE34LRP"
         Comment="диагностика шкафа РПУ температура меньше 43"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4085,7 +4129,7 @@
         Line2="температура меньше 43"
       }
       [TDrawSignal]{
-        R="326,958,386,998"
+        R="20,1251,80,1291"
         Number=71
         IsHold=FALSE
         VisualNumber="133"
@@ -4093,7 +4137,7 @@
         KodTeprol="R0DE35LRP"
         Comment="диагностика шкафа РПУ температура больше 53"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4112,7 +4156,7 @@
         Line2="температура больше 53"
       }
       [TDrawSignal]{
-        R="326,1012,386,1052"
+        R="392,893,452,933"
         Number=72
         IsHold=FALSE
         VisualNumber="134"
@@ -4120,7 +4164,7 @@
         KodTeprol="R0DE36LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 1"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4139,7 +4183,7 @@
         Line2="МП15-3.1 место 1"
       }
       [TDrawSignal]{
-        R="414,901,474,941"
+        R="488,893,548,933"
         Number=73
         IsHold=FALSE
         VisualNumber="135"
@@ -4147,7 +4191,7 @@
         KodTeprol="R0DE37LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 2"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4167,7 +4211,7 @@
         Line3=""
       }
       [TDrawSignal]{
-        R="414,958,474,998"
+        R="577,893,637,933"
         Number=74
         IsHold=FALSE
         VisualNumber="136"
@@ -4175,7 +4219,7 @@
         KodTeprol="R0DE38LRP"
         Comment="диагностика шкафа РПУ МП15-3 место 3"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4194,7 +4238,7 @@
         Line2="МП15-3 место 3"
       }
       [TDrawSignal]{
-        R="414,1011,474,1051"
+        R="393,946,453,986"
         Number=75
         IsHold=FALSE
         VisualNumber="137"
@@ -4202,7 +4246,7 @@
         KodTeprol="R0DE39LRP"
         Comment="диагностика шкафа РПУ МП24-2 место 4"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4221,7 +4265,7 @@
         Line2="МП24-2 место 4"
       }
       [TDrawSignal]{
-        R="503,900,563,940"
+        R="577,1000,637,1040"
         Number=76
         IsHold=FALSE
         VisualNumber="139"
@@ -4229,7 +4273,7 @@
         KodTeprol="R0DE3ALRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 5"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4248,7 +4292,7 @@
         Line2="БП5/24Д место 5"
       }
       [TDrawSignal]{
-        R="502,957,562,997"
+        R="577,946,637,986"
         Number=77
         IsHold=FALSE
         VisualNumber="140"
@@ -4256,7 +4300,7 @@
         KodTeprol="R0DE3BLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 6"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4275,7 +4319,7 @@
         Line2="БП5/24Д место 6"
       }
       [TDrawSignal]{
-        R="502,1010,562,1050"
+        R="392,1000,452,1040"
         Number=78
         IsHold=FALSE
         VisualNumber="141"
@@ -4283,7 +4327,7 @@
         KodTeprol="R0DE3CLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 7"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -4302,7 +4346,7 @@
         Line2="БП5/24Д место 7"
       }
       [TDrawSignal]{
-        R="453,1078,513,1118"
+        R="490,946,550,986"
         Number=79
         IsHold=FALSE
         VisualNumber="138"
@@ -4310,7 +4354,7 @@
         KodTeprol="R0DE3DLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 8"
         Type=3
-        ParamType=1
+        ParamType=0
         Value=""
         Size=1
         TypeInterface=0
@@ -7284,7 +7328,690 @@
           Index=-1
         }
       }
+      [TModule]{
+        R="172,982,202,1022"
+        Number=80
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="DIAGNDEV"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=80
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=80
+            ConstName="N"
+          }
+          [VVV_GCPoint]{
+            Number=80
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=81
+        IsHold=FALSE
+        p0="80:921"
+        p1="107:921"
+        p2="107:991"
+        p3="172:991"
+        BNumber=48
+        ENumber=80
+        Comment="диагностика модуля РПУ-ВЧС место 1 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=48
+          ParameterName="R0DE01LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=82
+        IsHold=FALSE
+        p0="79:974"
+        p1="100:974"
+        p2="100:997"
+        p3="172:997"
+        BNumber=53
+        ENumber=80
+        Comment="диагностика модуля РПУ-ВЧС место 2 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=53
+          ParameterName="R0DE02LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=83
+        IsHold=FALSE
+        p0="79:1028"
+        p1="100:1028"
+        p2="100:1008"
+        p3="172:1008"
+        BNumber=63
+        ENumber=80
+        Comment="диагностика модуля РПУ-ВЧС место 3 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=63
+          ParameterName="R0DE03LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=2
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=84
+        IsHold=FALSE
+        p0="79:1090"
+        p1="103:1090"
+        p2="103:1013"
+        p3="172:1013"
+        BNumber=65
+        ENumber=80
+        Comment="диагностика модуля РПУ-ФДС место 8 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=65
+          ParameterName="R0DE08LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=3
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=85
+        IsHold=FALSE
+        p0="134:941"
+        p1="134:985"
+        p2="172:985"
+        BNumber=64
+        ENumber=80
+        Comment="диагностика модуля РПУ-ВАС место 6 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=64
+          ParameterName="R0DE06LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=4
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=86
+        IsHold=FALSE
+        p0="136:1070"
+        p1="136:1016"
+        p2="172:1016"
+        BNumber=66
+        ENumber=80
+        Comment="диагностика модуля РПУ-ВДС место 7 --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=66
+          ParameterName="R0DE07LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="x"
+          Index=5
+        }
+      }
+      [TDrawSignal]{
+        R="243,982,273,1022"
+        Number=87
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TestDiagn1"
+        KodTeprol="TestDiagn1"
+        Comment="TestDiagn1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName=""
+        DeviceName=""
+        Line1="TestDiagn1"
+      }
+      [VVV_DrawConnector]{
+        Number=88
+        IsHold=FALSE
+        p0="202:1003"
+        p1="243:1003"
+        BNumber=80
+        ENumber=87
+        Comment="y - неисправность контроллеров --> TestDiagn1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=87
+          ParameterName="TestDiagn1"
+          Index=-1
+        }
+      }
+      [TModule]{
+        R="138,1155,168,1195"
+        Number=89
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="AND2"
+      }
+      [VVV_DrawConnector]{
+        Number=90
+        IsHold=FALSE
+        p0="79:1144"
+        p1="115:1144"
+        p2="115:1170"
+        p3="138:1170"
+        BNumber=67
+        ENumber=89
+        Comment="диагностика шкафа РПУ сеть 1 --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=67
+          ParameterName="R0DE31LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=91
+        IsHold=FALSE
+        p0="78:1206"
+        p1="114:1206"
+        p2="114:1181"
+        p3="138:1181"
+        BNumber=68
+        ENumber=89
+        Comment="диагностика шкафа РПУ сеть 2 --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=68
+          ParameterName="R0DE32LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [TModule]{
+        R="503,1017,533,1057"
+        Number=92
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="ORN"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=92
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=92
+            ConstName="N1"
+          }
+          [VVV_GCPoint]{
+            Number=92
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=93
+        IsHold=FALSE
+        p0="452:911"
+        p1="480:911"
+        p2="480:1023"
+        p3="503:1023"
+        BNumber=72
+        ENumber=92
+        Comment="диагностика шкафа РПУ МП15-3.1 место 1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=72
+          ParameterName="R0DE36LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=94
+        IsHold=FALSE
+        p0="453:963"
+        p1="475:963"
+        p2="475:1031"
+        p3="503:1031"
+        BNumber=75
+        ENumber=92
+        Comment="диагностика шкафа РПУ МП24-2 место 4 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=75
+          ParameterName="R0DE39LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=95
+        IsHold=FALSE
+        p0="452:1008"
+        p1="472:1008"
+        p2="472:1037"
+        p3="503:1037"
+        BNumber=78
+        ENumber=92
+        Comment="диагностика шкафа РПУ БП5/24Д место 7 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=78
+          ParameterName="R0DE3CLRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=2
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=96
+        IsHold=FALSE
+        p0="548:910"
+        p1="557:910"
+        p2="557:995"
+        p3="511:995"
+        p4="511:1017"
+        BNumber=73
+        ENumber=92
+        Comment="диагностика шкафа РПУ МП15-3.1 место 2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=73
+          ParameterName="R0DE37LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=3
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=97
+        IsHold=FALSE
+        p0="505:986"
+        p1="505:1017"
+        BNumber=79
+        ENumber=92
+        Comment="диагностика шкафа РПУ БП5/24Д место 8 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=79
+          ParameterName="R0DE3DLRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=4
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=98
+        IsHold=FALSE
+        p0="577:910"
+        p1="561:910"
+        p2="561:1001"
+        p3="513:1001"
+        p4="513:1017"
+        BNumber=74
+        ENumber=92
+        Comment="диагностика шкафа РПУ МП15-3 место 3 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="R0DE38LRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=5
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=99
+        IsHold=FALSE
+        p0="577:954"
+        p1="564:954"
+        p2="564:1008"
+        p3="519:1008"
+        p4="519:1017"
+        BNumber=77
+        ENumber=92
+        Comment="диагностика шкафа РПУ БП5/24Д место 6 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=77
+          ParameterName="R0DE3BLRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=6
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=100
+        IsHold=FALSE
+        p0="577:1012"
+        p1="524:1012"
+        p2="524:1017"
+        BNumber=76
+        ENumber=92
+        Comment="диагностика шкафа РПУ БП5/24Д место 5 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=76
+          ParameterName="R0DE3ALRP"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="x"
+          Index=7
+        }
+      }
+      [TModule]{
+        R="351,1138,381,1178"
+        Number=101
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="AND3"
+      }
+      [VVV_DrawConnector]{
+        Number=102
+        IsHold=FALSE
+        p0="228:1003"
+        p1="228:1146"
+        p2="351:1146"
+        BNumber=88
+        ENumber=101
+        Comment="y - неисправность контроллеров --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=101
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=103
+        IsHold=FALSE
+        p0="168:1158"
+        p1="351:1158"
+        BNumber=89
+        ENumber=101
+        Comment="y - выходной параметр --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=101
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=104
+        IsHold=FALSE
+        p0="511:1057"
+        p1="511:1101"
+        p2="358:1101"
+        p3="358:1138"
+        BNumber=92
+        ENumber=101
+        Comment="y - выходной параметр --> x3 - вход 3"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=101
+          ParameterName="x3"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="211,1179,241,1219"
+        Number=105
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TestDiagn2"
+        KodTeprol="TestDiagn2"
+        Comment="TestDiagn2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName=""
+        DeviceName=""
+        Line1="TestDiagn2"
+      }
+      [VVV_DrawConnector]{
+        Number=106
+        IsHold=FALSE
+        p0="228:1158"
+        p1="228:1179"
+        BNumber=103
+        ENumber=105
+        Comment="y - выходной параметр --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=105
+          ParameterName="TestDiagn2"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="492,1131,522,1171"
+        Number=107
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TestDiagn3"
+        KodTeprol="TestDiagn3"
+        Comment="TestDiagn3"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName=""
+        DeviceName=""
+        Line1="TestDiagn3"
+      }
+      [VVV_DrawConnector]{
+        Number=108
+        IsHold=FALSE
+        p0="498:1101"
+        p1="498:1131"
+        BNumber=104
+        ENumber=107
+        Comment="y - выходной параметр --> x3 - вход 3"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=107
+          ParameterName="TestDiagn3"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="433,1190,463,1230"
+        Number=109
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TestDiagn4"
+        KodTeprol="TestDiagn4"
+        Comment="TestDiagn4"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName=""
+        DeviceName=""
+        Line1="TestDiagn4"
+      }
+      [VVV_DrawConnector]{
+        Number=110
+        IsHold=FALSE
+        p0="381:1160"
+        p1="447:1160"
+        p2="447:1190"
+        BNumber=101
+        ENumber=109
+        Comment="y - выходной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=101
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=109
+          ParameterName="TestDiagn4"
+          Index=-1
+        }
+      }
     }
   }
 }
-7052943
+7734226

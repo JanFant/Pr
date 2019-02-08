@@ -11,7 +11,7 @@
     <signals>
         <signal name="K01VCHS" format="8" mode="input" address="0"/>
         <signal name="K02VCHS" format="8" mode="input" address="5"/>
-        <signal name="Diagn"   format="3" mode="output" address="10"/>   <!-- short 1 * 2 = 2-->  
+        <signal name="Diagn"   format="3" mode="input" address="10"/>   <!-- short 1 * 2 = 2-->  
        <!-- unsigned int            <signal name="tempI[2]"  format="" mode="" address=""/>   4 * 2 = 8 12
         float                       <signal name="takt[2]"   format="" mode="" address=""/>   4 * 2 = 8 20
         float                       <signal name="cykl[2]"   format="" mode="" address=""/>   4 * 2 = 8 28

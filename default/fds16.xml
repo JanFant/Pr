@@ -26,7 +26,7 @@
         <signal name="K16FDSR" format="1" mode="output" address="30"/>
         <signal name="ISP18" format="3" mode="output" address="32"/>
         <signal name="ISP96" format="3" mode="output" address="35"/> 
-        <signal name="Diagn" format="3" mode="output" address="38"/> 
+        <signal name="Diagn" format="3" mode="input" address="38"/> 
     </signals>
     <init type="fds16r_inipar">
         <signal name="type" mode="input" format="18" value="0x04" address="0"/>

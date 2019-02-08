@@ -1,35 +1,35 @@
 <assign>
     <FDS16>
+        <def name="R0DE08LRP">Diagn</def>
         <def name="B3VS21LRP">K06FDSR</def>
         <def name="A3VS21LRP">K05FDSR</def>
-        <def name="R0IE03LRP">K09FDSR</def>
-        <def name="R0IE04LRP">K10FDSR</def>
-        <def name="A1VT71LRP">K11FDSR</def>
-        <def name="R0VN71LRP">K12FDSR</def>
+        <def name="R0IE02LRP">K07FDSR</def>
+        <def name="R0IE01LRP">K08FDSR</def>
         <def name="B2VS21LRP">K04FDSR</def>
         <def name="A2VS21LRP">K03FDSR</def>
         <def name="B1VS21LRP">K02FDSR</def>
         <def name="A1VS21LRP">K01FDSR</def>
-        <def name="R0IE01LRP">K08FDSR</def>
-        <def name="R0DE08LRP">Diagn</def>
-        <def name="R0IE02LRP">K07FDSR</def>
+        <def name="R0IE03LRP">K09FDSR</def>
+        <def name="R0VN71LRP">K12FDSR</def>
+        <def name="A1VT71LRP">K11FDSR</def>
+        <def name="R0IE04LRP">K10FDSR</def>
     </FDS16>
 
 
     <SBKFP>
-        <def name="R0DE3DLRP">S13SBK</def>
-        <def name="R0DE3CLRP">S12SBK</def>
-        <def name="R0DE3BLRP">S11SBK</def>
-        <def name="R0DE3ALRP">S10SBK</def>
-        <def name="R0DE39LRP">S09SBK</def>
-        <def name="R0DE38LRP">S08SBK</def>
-        <def name="R0DE37LRP">S07SBK</def>
-        <def name="R0DE36LRP">S06SBK</def>
-        <def name="R0DE35LRP">S05SBK</def>
-        <def name="R0DE34LRP">S04SBK</def>
-        <def name="R0DE33LRP">S03SBK</def>
-        <def name="R0DE32LRP">S02SBK</def>
         <def name="R0DE31LRP">S01SBK</def>
+        <def name="R0DE32LRP">S02SBK</def>
+        <def name="R0DE33LRP">S03SBK</def>
+        <def name="R0DE34LRP">S04SBK</def>
+        <def name="R0DE35LRP">S05SBK</def>
+        <def name="R0DE36LRP">S06SBK</def>
+        <def name="R0DE37LRP">S07SBK</def>
+        <def name="R0DE38LRP">S08SBK</def>
+        <def name="R0DE39LRP">S09SBK</def>
+        <def name="R0DE3ALRP">S10SBK</def>
+        <def name="R0DE3BLRP">S11SBK</def>
+        <def name="R0DE3CLRP">S12SBK</def>
+        <def name="R0DE3DLRP">S13SBK</def>
     </SBKFP>
 
 
@@ -41,41 +41,41 @@
 
 
     <VCHS01>
-        <def name="R0DE01LRP">Diagn</def>
         <def name="R0IN02RRP">K02VCHS</def>
         <def name="R0IN01RRP">K01VCHS</def>
+        <def name="R0DE01LRP">Diagn</def>
     </VCHS01>
 
 
     <VCHS02>
-        <def name="R0DE02LRP">Diagn</def>
         <def name="R0IN03RRP">K01VCHS</def>
+        <def name="R0DE02LRP">Diagn</def>
     </VCHS02>
 
 
     <VCHS03>
+        <def name="R0DE03LRP">Diagn</def>
         <def name="R0IN06RRP">K01VCHS</def>
         <def name="R0IN07RRP">K02VCHS</def>
-        <def name="R0DE03LRP">Diagn</def>
     </VCHS03>
 
 
     <VDS32>
-        <def name="A2IS21LRP">K10VDSR</def>
-        <def name="B2IS21LRP">K13VDSR</def>
         <def name="B6IS11LRP">K15VDSR</def>
         <def name="C1MZ31LRP">K07VDSR</def>
         <def name="C1MD31LRP">K06VDSR</def>
         <def name="R0IE11LRP">K03VDSR</def>
-        <def name="A3IS21LRP">K08VDSR</def>
+        <def name="B2IS21LRP">K13VDSR</def>
+        <def name="A2IS21LRP">K10VDSR</def>
         <def name="R0IE12LRP">K04VDSR</def>
         <def name="R0IE13LRP">K05VDSR</def>
         <def name="R0IE14LRP">K01VDSR</def>
         <def name="R0IE15LRP">K02VDSR</def>
         <def name="B1IS21LRP">K12VDSR</def>
-        <def name="B3IS21LRP">K11VDSR</def>
         <def name="A1IS21LRP">K09VDSR</def>
-        <def name="A6IS11LRP">K14VDSR</def>
+        <def name="B3IS21LRP">K11VDSR</def>
+        <def name="A3IS21LRP">K08VDSR</def>
         <def name="R0DE07LRP">Diagn</def>
+        <def name="A6IS11LRP">K14VDSR</def>
     </VDS32>
 </assign>
