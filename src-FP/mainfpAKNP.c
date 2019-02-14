@@ -142,14 +142,14 @@ int main(int argc, char** argv) {
     init_dataVchs(buf_VCHS01);
     init_dataVchs(buf_VCHS02);
     while (1) {
-        if (isSlave()) {
-            syslog(LOG_ERR, "Lost master \n");
-            break;
-        }
         time_start();
         readAllModbus();
         if (SimulOn) readAllSimul();
         else {
+            if (isSlave()) {
+                syslog(LOG_ERR, "Lost master \n");
+            break;
+            }
             if (readAllDrivers() != 0) break;
         }
         VCHS_post(buf_VCHS01);

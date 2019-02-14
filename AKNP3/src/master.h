@@ -1,7 +1,7 @@
 #ifndef AKNP3_H
 #define AKNP3_H
 // Подсистема AKNP3:AKNP3
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=5;
 static char SimulIP[]="192.168.1.17\0";
 static int SimulPort=5555;

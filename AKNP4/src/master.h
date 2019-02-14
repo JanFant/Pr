@@ -1,7 +1,7 @@
 #ifndef AKNP4_H
 #define AKNP4_H
 // Подсистема AKNP4:AKNP4
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=7;
 static char SimulIP[]="192.168.1.17\0";
 static int SimulPort=5555;

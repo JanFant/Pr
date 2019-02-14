@@ -140,10 +140,6 @@ int main(int argc, char** argv) {
     if (initUDP(master, nomer, &setUDP) < 0) return EXIT_FAILURE;
     syslog(LOG_INFO, "Mode master FP number %d\n", nomer);
     while (1) {
-        if (isSlave()) {
-            syslog(LOG_ERR, "Lost master \n");
-            break;
-        }
         time_start();
         readAllModbus();
         if (SimulOn) readAllSimul();
@@ -154,6 +150,10 @@ int main(int argc, char** argv) {
         sendVariables();
         if (SimulOn) writeAllSimul();
         else {
+            if (isSlave()) {
+                syslog(LOG_ERR, "Lost master \n");
+                break;
+            }
             if (writeAllDrivers() != 0) break;
         }
         writeAllModbus();
