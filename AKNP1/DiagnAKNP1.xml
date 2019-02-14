@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <format maxRecords="2147483647">
+        <fields>
+            <field description="Имя" name="name" type="S">
+              <validators>&lt;L=1 50&gt;&lt;R=\w+^^Имя может содержать только буквы, цифры и символы подчеркивания&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+              <validators>&lt;L=1 200&gt;&lt;R=[^\p{Cntrl}]*^^Описание может содержать только печатные символы&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Тип" name="type" type="I">
+              <selectionValues>
+                <option description="Дискретный выход (Coil)">0</option>
+                <option description="Дискретный вход (Discrete Input)">1</option>
+                <option description="Входной регистр (Input Register)">2</option>
+                <option description="Выходной регистр (Holding Register)">3</option>
+                        </selectionValues>
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Формат" name="format" type="I">
+              <selectionValues>
+                <option description="2-байтный Int Unsigned">2</option>
+                <option description="2-байтный Int Signed">3</option>
+                <option description="4-байтный Int Unsigned">4</option>
+                <option description="4-байтный Int Signed">5</option>
+                <option description="4-байтный Int Unsigned Swapped">6</option>
+                <option description="4-байтный Int Signed Swapped">7</option>
+                <option description="4-байтный Float">8</option>
+                <option description="4-байтный Float Swapped">9</option>
+                <option description="8-байтный Int Signed">11</option>
+                <option description="8-байтный Int Signed Swapped">13</option>
+                <option description="8-байтный Float">14</option>
+                <option description="8-байтный Float Swapped">15</option>
+                <option description="2-байтный BCD">16</option>
+                <option description="4-байтный BCD">17</option>
+                <option description="Символьный">18</option>
+                <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>2</defaultValue>
+            </field>
+            <field description="Десятичный адрес (смещение) регистра"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators>&lt;L=1 255&gt;</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="nID" name="nID" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="PType" name="PType" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Bf0" name="Bf0" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="ParData" name="ParData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="OldData" name="OldData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Идентификатор устройства (Unit ID)"
+                name="unitId" type="I">
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+    </format>
+    <records>
+        <record>
+            <value name="name">R0DE3DLS1</value>
+            <value name="description">(R0DE3DLS1) диагностика шкафа АКНП1 БП5/24Д место 8</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE3CLS1</value>
+            <value name="description">(R0DE3CLS1) диагностика шкафа АКНП1 БП5/24Д место 7</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">1</value>
+            <value name="nID">2</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">2</value>
+            <value name="OldData">2</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE3BLS1</value>
+            <value name="description">(R0DE3BLS1) диагностика шкафа АКНП1 БП5/24Д место 6</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">3</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">4</value>
+            <value name="OldData">4</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE3ALS1</value>
+            <value name="description">(R0DE3ALS1) диагностика шкафа АКНП1 БП5/24Д место 5</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">3</value>
+            <value name="nID">4</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">6</value>
+            <value name="OldData">6</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE39LS1</value>
+            <value name="description">(R0DE39LS1) диагностика шкафа АКНП1 МП24-2 место 4</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">4</value>
+            <value name="nID">5</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE38LS1</value>
+            <value name="description">(R0DE38LS1) диагностика шкафа АКНП1 МП15-3 место 3</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">5</value>
+            <value name="nID">6</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE37LS1</value>
+            <value name="description">(R0DE37LS1) диагностика шкафа АКНП1 МП15-3.1 место 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">6</value>
+            <value name="nID">7</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE36LS1</value>
+            <value name="description">(R0DE36LS1) диагностика шкафа АКНП1 МП15-3.1 место 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">7</value>
+            <value name="nID">8</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE35LS1</value>
+            <value name="description">(R0DE35LS1) диагностика шкафа АКНП1 температура больше 53</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">8</value>
+            <value name="nID">9</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE34LS1</value>
+            <value name="description">(R0DE34LS1) диагностика шкафа АКНП1 температура меньше 43</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">9</value>
+            <value name="nID">10</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE33LS1</value>
+            <value name="description">(R0DE33LS1) диагностика шкафа АКНП1 двери</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">10</value>
+            <value name="nID">11</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE32LS1</value>
+            <value name="description">(R0DE32LS1) диагностика шкафа АКНП1 сеть 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">11</value>
+            <value name="nID">12</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">22</value>
+            <value name="OldData">22</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE31LS1</value>
+            <value name="description">(R0DE31LS1) диагностика шкафа АКНП1 сеть 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">12</value>
+            <value name="nID">13</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">24</value>
+            <value name="OldData">24</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE05LS1</value>
+            <value name="description">(R0DE05LS1) диагностика модуля АКНП1 на 5 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">14</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE04LS1</value>
+            <value name="description">(R0DE04LS1) диагностика модуля АКНП1 на 4 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">15</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">29</value>
+            <value name="OldData">29</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE02LS1</value>
+            <value name="description">(R0DE02LS1) диагностика модуля АКНП1 на 2 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">16</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">32</value>
+            <value name="OldData">32</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE01LS1</value>
+            <value name="description">(R0DE01LS1) диагностика модуля АКНП1 на 1 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">3</value>
+            <value name="nID">17</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">35</value>
+            <value name="OldData">35</value>
+            <value name="unitId">1</value>
+        </record>
+    </records>
+</table>

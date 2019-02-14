@@ -97,8 +97,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">TestDiagn</value>
-            <value name="description">(TestDiagn) Неисправность от диагностики</value>
+            <value name="name">TestDiagnRPU</value>
+            <value name="description">(TestDiagnRPU) Неисправность от диагностики</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
