@@ -11,7 +11,7 @@
     <subs name="AKNP2"      scheme="AKNP2/scheme/AKNP2.tpr"         id="9"   file="AKNP2fp"     description="AKNP2"     main="192.168.10.57" second="192.168.10.157" path="AKNP2"     step="5"  result="AKNP2\src" />
 
     <!-- сигналы проверки -->
-    <!-- <subs name="ptiSig"     scheme="ptiSig/scheme/ptiSig.tpr"       id="10"  file="ptiSigfp"    description="ptiSig"    main="192.168.10.60" second="192.168.10.60"  path="ptiSig"    step="20" result="ptiSig\src" />
+    <subs name="ptiSig"     scheme="ptiSig/scheme/ptiSig.tpr"       id="10"  file="ptiSigfp"    description="ptiSig"    main="192.168.10.60" second="192.168.10.60"  path="ptiSig"    step="20" result="ptiSig\src" />
     <subs name="DUsign"     scheme="DUsign/scheme/DUsign.tpr"       id="11"  file="DUsignfp"    description="DUsign"    main="192.168.10.50" second="192.168.10.150" path="DUsign"    step="20" result="DUsign\src" />
     <subs name="Baz1sign"   scheme="Baz1sign/scheme/Baz1sign.tpr"   id="12"  file="Baz1signfp"  description="Baz1sign"  main="192.168.10.52" second="192.168.10.152" path="Baz1sign"  step="20" result="Baz1sign\src" />
     <subs name="Baz2sign"   scheme="Baz2sign/scheme/Baz2sign.tpr"   id="13"  file="Baz2signfp"  description="Baz2sign"  main="192.168.10.54" second="192.168.10.154" path="Baz2sign"  step="20" result="Baz2sign\src" />
@@ -19,7 +19,7 @@
     <subs name="AKNP2sign"  scheme="AKNP2sign/scheme/AKNP2sign.tpr" id="15"  file="AKNP2signfp" description="AKNP2sign" main="192.168.10.57" second="192.168.10.157" path="AKNP2sign" step="5"  result="AKNP2sign\src" />
     <subs name="AKNP3sign"  scheme="AKNP3sign/scheme/AKNP3sign.tpr" id="16"  file="AKNP3signfp" description="AKNP3sign" main="192.168.10.53" second="192.168.10.153" path="AKNP3sign" step="5"  result="AKNP3sign\src" />
     <subs name="AKNP4sign"  scheme="AKNP4sign/scheme/AKNP4sign.tpr" id="17"  file="AKNP4signfp" description="AKNP4sign" main="192.168.10.55" second="192.168.10.155" path="AKNP4sign" step="5"  result="AKNP4sign\src" />
-    <subs name="RPUsign"    scheme="RPUsign/scheme/RPUsign.tpr"     id="18"  file="RPUsignfp"   description="RPUsign"   main="192.168.10.31" second="192.168.10.131" path="RPUsign"   step="5"  result="RPUsign\src" /> -->
+    <subs name="RPUsign"    scheme="RPUsign/scheme/RPUsign.tpr"     id="18"  file="RPUsignfp"   description="RPUsign"   main="192.168.10.31" second="192.168.10.131" path="RPUsign"   step="5"  result="RPUsign\src" />
 
 <!-- encoder -->
     <!-- <subs name="DUe" scheme="DUe/scheme/DUe.tpr"  id="10" file="DUefp" description="DUe" main="192.168.10.50" second="192.168.10.150" path="DUe" step="20" status="ok" result="pti" /> -->
