@@ -185,10 +185,14 @@ void ParExchange(char* Name, int Type, void* Adres, char* Commentary, char InOut
 static int counter;
 
 /* Объявление функций */
+#include <and2.h>
 #include <andn.h>
 #include <bol.h>
+#include <diagndev.h>
 #include <ocham.h>
 #include <or2.h>
+#include <or3.h>
+#include <orn.h>
 #include <period.h>
 #include <react.h>
 
@@ -235,12 +239,33 @@ int InternalBufSize = 112;
 #define signal_B8VC01RDU     (*((psfloat)(PBSTART+0x57)))  /*                       Координата АЗ2, мм */
 #define signal_R0EE02LZ1     (*((psbool)(PBSTART+0x5c)))  /*                       Питание  АКНП  отключить */
 #define signal_R0EE02LZ2     (*((psbool)(PBSTART+0x5e)))  /*                       Питание  АКНП  отключить */
+#define signal_R0DE01LS2     (*((psint)(PBSTART+0x60)))  /*                       диагностика модуля АКНП2 на 1 месте */
+#define signal_R0DE02LS2     (*((psint)(PBSTART+0x63)))  /*                       диагностика модуля АКНП2 на 2 месте */
+#define signal_R0DE04LS2     (*((psint)(PBSTART+0x66)))  /*                       диагностика модуля АКНП2 на 4 месте */
+#define signal_R0DE05LS2     (*((psint)(PBSTART+0x69)))  /*                       диагностика модуля АКНП2 на 5 месте */
+#define signal_TTLaknp2      (*((psint)(PBSTART+0x6c)))  /*                       TTL */
+#define signal_R0DE31LS2     (*((psbool)(PBSTART+0x6f)))  /*                       диагностика шкафа АКНП2 сеть 1 */
+#define signal_R0DE32LS2     (*((psbool)(PBSTART+0x71)))  /*                       диагностика шкафа АКНП2 сеть 2 */
+#define signal_R0DE33LS2     (*((psbool)(PBSTART+0x73)))  /*                       диагностика шкафа АКНП2 двери */
+#define signal_R0DE34LS2     (*((psbool)(PBSTART+0x75)))  /*                       диагностика шкафа АКНП2 температура меньше 43 */
+#define signal_R0DE35LS2     (*((psbool)(PBSTART+0x77)))  /*                       диагностика шкафа АКНП2 температура больше 53 */
+#define signal_R0DE36LS2     (*((psbool)(PBSTART+0x79)))  /*                       диагностика шкафа АКНП2 МП15-3.1 место 1 */
+#define signal_R0DE37LS2     (*((psbool)(PBSTART+0x7b)))  /*                       диагностика шкафа АКНП2 МП15-3.1 место 2 */
+#define signal_R0DE38LS2     (*((psbool)(PBSTART+0x7d)))  /*                       диагностика шкафа АКНП2 МП15-3 место 3 */
+#define signal_R0DE39LS2     (*((psbool)(PBSTART+0x7f)))  /*                       диагностика шкафа АКНП2 МП24-2 место 4 */
+#define signal_R0DE3ALS2     (*((psbool)(PBSTART+0x81)))  /*                       диагностика шкафа АКНП2 БП5/24Д место 5 */
+#define signal_R0DE3BLS2     (*((psbool)(PBSTART+0x83)))  /*                       диагностика шкафа АКНП2 БП5/24Д место 6 */
+#define signal_R0DE3CLS2     (*((psbool)(PBSTART+0x85)))  /*                       диагностика шкафа АКНП2 БП5/24Д место 7 */
+#define signal_R0DE3DLS2     (*((psbool)(PBSTART+0x87)))  /*                       диагностика шкафа АКНП2 БП5/24Д место 8 */
+#define signal_TestDiagnAKNP2 (*((psbool)(PBSTART+0x89)))  /*                       Неисправность от диагностики */
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 struct       sint  iRM_5_ = {    5,0}; /* n - N-размерность массива входных параметров */ 
 struct       sint  iRM_2_ = {    2,0}; /* n - N-размерность массива входных параметров */ 
 struct     sfloat  fRM_2_0 = {  2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
 struct      schar  bRM_2_ = {    2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
+struct       sint  iRM_4_ = {    4,0}; /*  */ 
+struct       sint  iRM_8_ = {    8,0}; /*  */ 
 #define fEM_R0UR01RSS  (*((psfloat)(SpaEEPROMBuf+0x0)))
 #define fEM_R0UL52RSS  (*((psfloat)(SpaEEPROMBuf+0x5)))
 #define fEM_R0UL41RSS  (*((psfloat)(SpaEEPROMBuf+0xA)))
@@ -271,27 +296,32 @@ struct      schar  bRM_2_ = {    2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2
 int SpaEEPROMBufSize = 128;
 
 /* Определение переменных */
-struct sfloat  var1;
-struct sfloat  var2;
+struct sbool  var1;
+struct sbool  var2;
 struct sbool  var3;
-struct sfloat  var4;
-struct sfloat  var5;
+struct sbool  var4;
+struct sint  var5;
 struct sfloat  var6;
-struct sint  var7;
+struct sfloat  var7;
 struct sbool  var8;
 struct sfloat  var9;
-struct sbool  var10;
-struct sbool  var11;
-struct sbool  var12;
+struct sfloat  var10;
+struct sfloat  var11;
+struct sint  var12;
 struct sbool  var13;
-struct sbool  var14;
+struct sfloat  var14;
 struct sbool  var15;
 struct sbool  var16;
 struct sbool  var17;
-struct sfloat  var18;
+struct sbool  var18;
 struct sbool  var19;
-struct sfloat  var20;
-struct sfloat  var21;
+struct sbool  var20;
+struct sbool  var21;
+struct sbool  var22;
+struct sfloat  var23;
+struct sbool  var24;
+struct sfloat  var25;
+struct sfloat  var26;
 struct slong  vainSLong;
 struct sfloat  vainSFloat;
 struct sint  vainSInt;
@@ -300,31 +330,37 @@ struct schar  vainSChar;
 char  vainSText[] = "";
 
 /* Объявление массивов */
+psbool  array_m88_x_1[8] = {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL};
+psint  array_m78_x_1[4] = {NULL,NULL,NULL,NULL};
 psfloat  array_m45_tst_1[5];
 psfloat  array_m45_trz_1[5];
 psfloat  array_m45_N1_1[5];
 psfloat  array_m45_N2_1[5];
-psbool  array_m55_x_1[2] = {&var16,&var11};
-psbool  array_m54_x_1[2] = {&var16,&var17};
-psbool  array_m63_x_1[5] = {&var3,NULL,NULL,NULL,NULL};
+psbool  array_m55_x_1[2] = {&var21,&var16};
+psbool  array_m54_x_1[2] = {&var21,&var22};
+psbool  array_m65_x_1[5] = {&var8,NULL,NULL,NULL,NULL};
 
 /* описания структур для ф-ий */
 
 /* код алгоблоков */
 /* Объявление структур */
-_S_ocham far S_ocham_15_1 = {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,&bRM_2_,&fRM_2_0,NULL,NULL,NULL,&var1,&var2,&var3,&var4,&var5,&var6,&var7,NULL};
-_S_or2 far S_or2_66_1 = {NULL,NULL,&var8};
-_S_period far S_period_45_1 = {&var2,&var13,&iRM_5_,&var20,&var21,NULL,&var9,array_m45_tst_1,array_m45_trz_1,array_m45_N1_1,array_m45_N2_1,NULL,NULL};
-_S_andn far S_andn_55_1 = {array_m55_x_1,&iRM_2_,&var10};
-_S_bol far S_bol_52_1 = {NULL,&var9,&var11};
-_S_andn far S_andn_54_1 = {array_m54_x_1,&iRM_2_,&var12};
-_S_andn far S_andn_63_1 = {array_m63_x_1,&iRM_5_,&var13};
-_S_bol far S_bol_35_1 = {&var2,NULL,&var14};
-_S_bol far S_bol_40_1 = {&var2,NULL,&var15};
-_S_bol far S_bol_51_1 = {&var2,NULL,&var16};
-_S_bol far S_bol_50_1 = {NULL,&var9,&var17};
-_S_react far S_react_46_1 = {&var9,&var18};
-_S_bol far S_bol_31_1 = {&var2,NULL,&var19};
+_S_or3 far S_or3_83_1 = {&var4,&var3,&var2,&var1};
+_S_orn far S_orn_88_1 = {array_m88_x_1,&iRM_8_,&var2};
+_S_and2 far S_and2_79_1 = {NULL,NULL,&var3};
+_S_diagndev far S_diagndev_78_1 = {array_m78_x_1,&iRM_4_,&var4,&var5};
+_S_ocham far S_ocham_15_1 = {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,&bRM_2_,&fRM_2_0,NULL,NULL,NULL,&var6,&var7,&var8,&var9,&var10,&var11,&var12,NULL};
+_S_or2 far S_or2_66_1 = {NULL,NULL,&var13};
+_S_period far S_period_45_1 = {&var7,&var18,&iRM_5_,&var25,&var26,NULL,&var14,array_m45_tst_1,array_m45_trz_1,array_m45_N1_1,array_m45_N2_1,NULL,NULL};
+_S_andn far S_andn_55_1 = {array_m55_x_1,&iRM_2_,&var15};
+_S_bol far S_bol_52_1 = {NULL,&var14,&var16};
+_S_andn far S_andn_54_1 = {array_m54_x_1,&iRM_2_,&var17};
+_S_andn far S_andn_65_1 = {array_m65_x_1,&iRM_5_,&var18};
+_S_bol far S_bol_35_1 = {&var7,NULL,&var19};
+_S_bol far S_bol_40_1 = {&var7,NULL,&var20};
+_S_bol far S_bol_51_1 = {&var7,NULL,&var21};
+_S_bol far S_bol_50_1 = {NULL,&var14,&var22};
+_S_react far S_react_46_1 = {&var14,&var23};
+_S_bol far S_bol_31_1 = {&var7,NULL,&var24};
 
 
   #ifdef SIMUL_MODE
@@ -366,63 +402,71 @@ if(bFirstEnterFlag.b==0){ InitInternalParametr(); }
 #endif
   or2((&S_or2_66_1));
   ocham((&S_ocham_15_1));
+  diagndev((&S_diagndev_78_1));
+  and2((&S_and2_79_1));
+  orn((&S_orn_88_1));
+  or3((&S_or3_83_1));
   bol((&S_bol_31_1));
   bol((&S_bol_51_1));
   bol((&S_bol_40_1));
   bol((&S_bol_35_1));
-  andn((&S_andn_63_1));
-  itof(iEM_R0UL01ISS.i,&var20.f);
-  var20.error = iEM_R0UL01ISS.error;
-  utof(dEM_R0UL02USS.l,&var21.f);
-  var21.error = dEM_R0UL02USS.error;
+  andn((&S_andn_65_1));
+  itof(iEM_R0UL01ISS.i,&var25.f);
+  var25.error = iEM_R0UL01ISS.error;
+  utof(dEM_R0UL02USS.l,&var26.f);
+  var26.error = dEM_R0UL02USS.error;
   period((&S_period_45_1));
   react((&S_react_46_1));
   bol((&S_bol_50_1));
   andn((&S_andn_54_1));
   bol((&S_bol_52_1));
   andn((&S_andn_55_1));
-  signal_A0VN71LS2.b = var19.b;
-  signal_A0VN71LS2.error = var19.error;
-  signal_A1EE01LS2.b = var13.b;
-  signal_A1EE01LS2.error = var13.error;
-  signal_R0VN76LZ2.b = var12.b;
-  signal_R0VN76LZ2.error = var12.error;
-  signal_R0VN72LZ2.b = var14.b;
-  signal_R0VN72LZ2.error = var14.error;
-  signal_R0IE02LS2.b = var8.b;
-  signal_R0IE02LS2.error = var8.error;
-  signal_R0IE01LS2.b = var8.b;
-  signal_R0IE01LS2.error = var8.error;
-  signal_R0VN15RS2.i = var7.i;
-  signal_R0VN15RS2.error = var7.error;
-  fplet(&signal_R0VN33RS2.f,&var6.f);
-  signal_R0VN33RS2.error = var6.error;
-  fplet(&signal_R0VN23RS2.f,&var5.f);
-  signal_R0VN23RS2.error = var5.error;
-  fplet(&signal_R0VN13RS2.f,&var4.f);
-  signal_R0VN13RS2.error = var4.error;
-  signal_A0EE02LS2.b = var3.b;
-  signal_A0EE02LS2.error = var3.error;
-  signal_A1VN71LS2.b = var19.b;
-  signal_A1VN71LS2.error = var19.error;
-  fplet(&signal_R0VN04RS2.f,&var18.f);
-  signal_R0VN04RS2.error = var18.error;
-  fplet(&signal_R0VN03RS2.f,&var1.f);
-  signal_R0VN03RS2.error = var1.error;
-  signal_A0EE01LS2.b = var13.b;
-  signal_A0EE01LS2.error = var13.error;
-  signal_R0VN76LZ1.b = var12.b;
-  signal_R0VN76LZ1.error = var12.error;
-  signal_R0VN65LS2.b = var10.b;
-  signal_R0VN65LS2.error = var10.error;
-  signal_R0VN72LZ1.b = var14.b;
-  signal_R0VN72LZ1.error = var14.error;
-  signal_R0VN61LS2.b = var15.b;
-  signal_R0VN61LS2.error = var15.error;
-  fplet(&signal_R0VN01RS2.f,&var9.f);
-  signal_R0VN01RS2.error = var9.error;
-  fplet(&signal_R0VN02RS2.f,&var2.f);
-  signal_R0VN02RS2.error = var2.error;
+  signal_TestDiagnAKNP2.b = var1.b;
+  signal_TestDiagnAKNP2.error = var1.error;
+  signal_TTLaknp2.i = var5.i;
+  signal_TTLaknp2.error = var5.error;
+  signal_A0VN71LS2.b = var24.b;
+  signal_A0VN71LS2.error = var24.error;
+  signal_A1EE01LS2.b = var18.b;
+  signal_A1EE01LS2.error = var18.error;
+  signal_R0VN76LZ2.b = var17.b;
+  signal_R0VN76LZ2.error = var17.error;
+  signal_R0VN72LZ2.b = var19.b;
+  signal_R0VN72LZ2.error = var19.error;
+  signal_R0IE02LS2.b = var13.b;
+  signal_R0IE02LS2.error = var13.error;
+  signal_R0IE01LS2.b = var13.b;
+  signal_R0IE01LS2.error = var13.error;
+  signal_R0VN15RS2.i = var12.i;
+  signal_R0VN15RS2.error = var12.error;
+  fplet(&signal_R0VN33RS2.f,&var11.f);
+  signal_R0VN33RS2.error = var11.error;
+  fplet(&signal_R0VN23RS2.f,&var10.f);
+  signal_R0VN23RS2.error = var10.error;
+  fplet(&signal_R0VN13RS2.f,&var9.f);
+  signal_R0VN13RS2.error = var9.error;
+  signal_A0EE02LS2.b = var8.b;
+  signal_A0EE02LS2.error = var8.error;
+  signal_A1VN71LS2.b = var24.b;
+  signal_A1VN71LS2.error = var24.error;
+  fplet(&signal_R0VN04RS2.f,&var23.f);
+  signal_R0VN04RS2.error = var23.error;
+  fplet(&signal_R0VN03RS2.f,&var6.f);
+  signal_R0VN03RS2.error = var6.error;
+  signal_A0EE01LS2.b = var18.b;
+  signal_A0EE01LS2.error = var18.error;
+  signal_R0VN76LZ1.b = var17.b;
+  signal_R0VN76LZ1.error = var17.error;
+  signal_R0VN65LS2.b = var15.b;
+  signal_R0VN65LS2.error = var15.error;
+  signal_R0VN72LZ1.b = var19.b;
+  signal_R0VN72LZ1.error = var19.error;
+  signal_R0VN61LS2.b = var20.b;
+  signal_R0VN61LS2.error = var20.error;
+  fplet(&signal_R0VN01RS2.f,&var14.f);
+  signal_R0VN01RS2.error = var14.error;
+  fplet(&signal_R0VN02RS2.f,&var7.f);
+  signal_R0VN02RS2.error = var7.error;
 
   bFirstEnterFlag.b = 1;
 #ifndef SIMUL_MODE
@@ -526,6 +570,91 @@ ParExchange("R0EE02LZ1",3,&SignalBuffer[92],"Питание  АКНП  отключить",0);
 ParExchange("R0EE02LZ2",3,&SignalBuffer[94],"Питание  АКНП  отключить",0);
 #endif
 #ifndef SIMUL_MODE
+  CheckSInt(96);
+#else
+ParExchange("R0DE01LS2",2,&SignalBuffer[96],"диагностика модуля АКНП2 на 1 месте",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSInt(99);
+#else
+ParExchange("R0DE02LS2",2,&SignalBuffer[99],"диагностика модуля АКНП2 на 2 месте",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSInt(102);
+#else
+ParExchange("R0DE04LS2",2,&SignalBuffer[102],"диагностика модуля АКНП2 на 4 месте",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSInt(105);
+#else
+ParExchange("R0DE05LS2",2,&SignalBuffer[105],"диагностика модуля АКНП2 на 5 месте",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(111);
+#else
+ParExchange("R0DE31LS2",3,&SignalBuffer[111],"диагностика шкафа АКНП2 сеть 1",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(113);
+#else
+ParExchange("R0DE32LS2",3,&SignalBuffer[113],"диагностика шкафа АКНП2 сеть 2",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(115);
+#else
+ParExchange("R0DE33LS2",3,&SignalBuffer[115],"диагностика шкафа АКНП2 двери",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(117);
+#else
+ParExchange("R0DE34LS2",3,&SignalBuffer[117],"диагностика шкафа АКНП2 температура меньше 43",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(119);
+#else
+ParExchange("R0DE35LS2",3,&SignalBuffer[119],"диагностика шкафа АКНП2 температура больше 53",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(121);
+#else
+ParExchange("R0DE36LS2",3,&SignalBuffer[121],"диагностика шкафа АКНП2 МП15-3.1 место 1",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(123);
+#else
+ParExchange("R0DE37LS2",3,&SignalBuffer[123],"диагностика шкафа АКНП2 МП15-3.1 место 2",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(125);
+#else
+ParExchange("R0DE38LS2",3,&SignalBuffer[125],"диагностика шкафа АКНП2 МП15-3 место 3",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(127);
+#else
+ParExchange("R0DE39LS2",3,&SignalBuffer[127],"диагностика шкафа АКНП2 МП24-2 место 4",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(129);
+#else
+ParExchange("R0DE3ALS2",3,&SignalBuffer[129],"диагностика шкафа АКНП2 БП5/24Д место 5",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(131);
+#else
+ParExchange("R0DE3BLS2",3,&SignalBuffer[131],"диагностика шкафа АКНП2 БП5/24Д место 6",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(133);
+#else
+ParExchange("R0DE3CLS2",3,&SignalBuffer[133],"диагностика шкафа АКНП2 БП5/24Д место 7",0);
+#endif
+#ifndef SIMUL_MODE
+  CheckSBool(135);
+#else
+ParExchange("R0DE3DLS2",3,&SignalBuffer[135],"диагностика шкафа АКНП2 БП5/24Д место 8",0);
+#endif
+#ifndef SIMUL_MODE
   *((unsigned int*)(PBSTART + 10)) = InvertionFailureCounter;
 #endif
 #endif
@@ -537,7 +666,7 @@ void InvertSignals(void)
 {
 #ifdef CONTROL
  unsigned int counter;
- for(counter=0; counter<96; counter++) {
+ for(counter=0; counter<139; counter++) {
    *((unsigned char*)(SignalBuffer)+PBLENGTH-counter-1) =
           (unsigned char)~(*((unsigned char*)(SignalBuffer)+counter));
  }
@@ -568,6 +697,8 @@ ParExchange("R0VN72LZ2",3,&SignalBuffer[79],"АС по мощности канал 2 на БАЗ2",1);
 ParExchange("R0VN76LZ2",3,&SignalBuffer[81],"АС по периоду разгона канал 2  на БАЗ2",1);
 ParExchange("A1EE01LS2",3,&SignalBuffer[83],"Исправность АКНП канал 2 на БАЗ2",1);
 ParExchange("A0VN71LS2",3,&SignalBuffer[85],"Блокировка автоматического подъёма ББ канал 2 на БАЗ1",1);
+ParExchange("TTLaknp2",2,&SignalBuffer[108],"TTL",1);
+ParExchange("TestDiagnAKNP2",3,&SignalBuffer[137],"Неисправность от диагностики",1);
 }
 #endif
 unsigned int StartIntEEPROMAddress = 0;
@@ -672,16 +803,30 @@ unsigned int EndIntEEPROMAddress = 102;
 
 void reInit_Signals(void)
 {
+  S_and2_79_1.x1 = &signal_R0DE31LS2;
+  S_and2_79_1.x2 = &signal_R0DE32LS2;
   S_ocham_15_1.Ch1k = &signal_R0IN01FS2;
   S_ocham_15_1.Ch2k = &signal_R0IN02FS2;
   S_ocham_15_1.Ch3k = &signal_R0IN03FS2;
   S_ocham_15_1.YAz2 = &signal_B8VC01RDU;
   S_or2_66_1.x1 = &signal_R0EE02LZ1;
   S_or2_66_1.x2 = &signal_R0EE02LZ2;
-  array_m63_x_1[1] = &signal_R0IE11LS2;
-  array_m63_x_1[2] = &signal_R0IE12LS2;
-  array_m63_x_1[3] = &signal_R0IE13LS2;
-  array_m63_x_1[4] = &signal_A0EE03LS2;
+  array_m88_x_1[0] = &signal_R0DE36LS2;
+  array_m88_x_1[1] = &signal_R0DE3CLS2;
+  array_m88_x_1[2] = &signal_R0DE37LS2;
+  array_m88_x_1[3] = &signal_R0DE38LS2;
+  array_m88_x_1[4] = &signal_R0DE39LS2;
+  array_m88_x_1[5] = &signal_R0DE3ALS2;
+  array_m88_x_1[6] = &signal_R0DE3BLS2;
+  array_m88_x_1[7] = &signal_R0DE3DLS2;
+  array_m78_x_1[0] = &signal_R0DE01LS2;
+  array_m78_x_1[1] = &signal_R0DE02LS2;
+  array_m78_x_1[2] = &signal_R0DE04LS2;
+  array_m78_x_1[3] = &signal_R0DE05LS2;
+  array_m65_x_1[1] = &signal_R0IE11LS2;
+  array_m65_x_1[2] = &signal_R0IE12LS2;
+  array_m65_x_1[3] = &signal_R0IE13LS2;
+  array_m65_x_1[4] = &signal_A0EE03LS2;
 }
 
 void InitInternalParametr(void)

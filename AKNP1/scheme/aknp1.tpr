@@ -845,7 +845,7 @@
         R="978,255,1038,295"
         Number=60
         IsHold=FALSE
-        VisualNumber="61"
+        VisualNumber="60"
         SIGNAL_NAME="R0VN65LS1"
         KodTeprol="R0VN65LS1"
         Comment="ПС по периоду разгона канал1"
@@ -872,7 +872,7 @@
         R="978,206,1038,246"
         Number=61
         IsHold=FALSE
-        VisualNumber="60"
+        VisualNumber="59"
         SIGNAL_NAME="R0VN75LZ1"
         KodTeprol="R0VN75LZ1"
         Comment="АС по периоду разгонана БАЗ1"
@@ -1309,7 +1309,7 @@
         ABBRV="BOL"
       }
       [VVV_Text]{
-        R="251,407,389,413"
+        R="251,407,393,413"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1626,7 +1626,7 @@
         R="1003,148,1063,188"
         Number=250
         IsHold=FALSE
-        VisualNumber="59"
+        VisualNumber="62"
         SIGNAL_NAME="A1EE01LS1"
         KodTeprol="A1EE01LS1"
         Comment="Исправность АКНП1 на БАЗ2"
@@ -1942,14 +1942,14 @@
         R="1017,93,1047,113"
         Number=85
         IsHold=FALSE
-        VisualNumber="62"
+        VisualNumber="61"
         ABBRV="AND5"
       }
       [TDrawSignal]{
         R="26,462,86,502"
         Number=92
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="71"
         SIGNAL_NAME="R0DE01LS1"
         KodTeprol="R0DE01LS1"
         Comment="диагностика модуля АКНП1 на 1 месте"
@@ -1976,7 +1976,7 @@
         R="26,512,86,552"
         Number=93
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="72"
         SIGNAL_NAME="R0DE02LS1"
         KodTeprol="R0DE02LS1"
         Comment="диагностика модуля АКНП1 на 2 месте"
@@ -2003,7 +2003,7 @@
         R="26,565,86,605"
         Number=94
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="73"
         SIGNAL_NAME="R0DE04LS1"
         KodTeprol="R0DE04LS1"
         Comment="диагностика модуля АКНП1 на 4 месте"
@@ -2030,7 +2030,7 @@
         R="116,461,176,501"
         Number=95
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="77"
         SIGNAL_NAME="R0DE05LS1"
         KodTeprol="R0DE05LS1"
         Comment="диагностика модуля АКНП1 на 5 месте"
@@ -2057,7 +2057,7 @@
         R="135,533,165,573"
         Number=96
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="78"
         ABBRV="DIAGNDEV"
         [VVV_DrawConnector]{
           Number=0
@@ -2081,7 +2081,7 @@
         R="161,596,191,636"
         Number=101
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="81"
         SIGNAL_NAME="TTLaknp1"
         KodTeprol="TTLaknp1"
         Comment="ttl"
@@ -2107,7 +2107,7 @@
         R="25,653,85,693"
         Number=103
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="74"
         SIGNAL_NAME="R0DE31LS1"
         KodTeprol="R0DE31LS1"
         Comment="диагностика шкафа АКНП1 сеть 1"
@@ -2134,7 +2134,7 @@
         R="25,707,85,747"
         Number=104
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="75"
         SIGNAL_NAME="R0DE32LS1"
         KodTeprol="R0DE32LS1"
         Comment="диагностика шкафа АКНП1 сеть 2"
@@ -2161,14 +2161,14 @@
         R="144,678,174,718"
         Number=105
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="80"
         ABBRV="AND2"
       }
       [TDrawSignal]{
         R="25,798,85,838"
         Number=108
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="76"
         SIGNAL_NAME="R0DE33LS1"
         KodTeprol="R0DE33LS1"
         Comment="диагностика шкафа АКНП1 двери"
@@ -2195,7 +2195,7 @@
         R="109,797,169,837"
         Number=109
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="79"
         SIGNAL_NAME="R0DE34LS1"
         KodTeprol="R0DE34LS1"
         Comment="диагностика шкафа АКНП1 температура меньше 43"
@@ -2222,7 +2222,7 @@
         R="185,797,245,837"
         Number=110
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="82"
         SIGNAL_NAME="R0DE35LS1"
         KodTeprol="R0DE35LS1"
         Comment="диагностика шкафа АКНП1 температура больше 53"
@@ -2249,14 +2249,14 @@
         R="256,629,286,669"
         Number=111
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="83"
         ABBRV="OR3"
       }
       [TDrawSignal]{
         R="349,461,409,501"
         Number=114
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="84"
         SIGNAL_NAME="R0DE36LS1"
         KodTeprol="R0DE36LS1"
         Comment="диагностика шкафа АКНП1 МП15-3.1 место 1"
@@ -2283,7 +2283,7 @@
         R="424,460,484,500"
         Number=115
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="87"
         SIGNAL_NAME="R0DE37LS1"
         KodTeprol="R0DE37LS1"
         Comment="диагностика шкафа АКНП1 МП15-3.1 место 2"
@@ -2310,7 +2310,7 @@
         R="501,460,561,500"
         Number=116
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="89"
         SIGNAL_NAME="R0DE38LS1"
         KodTeprol="R0DE38LS1"
         Comment="диагностика шкафа АКНП1 МП15-3 место 3"
@@ -2337,7 +2337,7 @@
         R="579,460,639,500"
         Number=117
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="90"
         SIGNAL_NAME="R0DE39LS1"
         KodTeprol="R0DE39LS1"
         Comment="диагностика шкафа АКНП1 МП24-2 место 4"
@@ -2364,7 +2364,7 @@
         R="580,518,640,558"
         Number=118
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="91"
         SIGNAL_NAME="R0DE3ALS1"
         KodTeprol="R0DE3ALS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 5"
@@ -2391,7 +2391,7 @@
         R="580,569,640,609"
         Number=119
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="92"
         SIGNAL_NAME="R0DE3BLS1"
         KodTeprol="R0DE3BLS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 6"
@@ -2418,7 +2418,7 @@
         R="348,517,408,557"
         Number=120
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="85"
         SIGNAL_NAME="R0DE3CLS1"
         KodTeprol="R0DE3CLS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 7"
@@ -2445,7 +2445,7 @@
         R="580,621,640,661"
         Number=121
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="93"
         SIGNAL_NAME="R0DE3DLS1"
         KodTeprol="R0DE3DLS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 8"
@@ -2472,7 +2472,7 @@
         R="474,566,504,606"
         Number=122
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="88"
         ABBRV="ORN"
         [VVV_DrawConnector]{
           Number=0
@@ -2496,7 +2496,7 @@
         R="365,723,395,763"
         Number=132
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="86"
         SIGNAL_NAME="TestDiagnAKNP1"
         KodTeprol="TestDiagnAKNP1"
         Comment="Неисправность от диагностики"
@@ -4605,4 +4605,4 @@
     }
   }
 }
-4455225
+4457703

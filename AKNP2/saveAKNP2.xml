@@ -1,8 +1,8 @@
 <saves name="aknp2.bin">
-  <save value ="10.0">fEM_R0UR01RSS</save>
+  <save value ="5000">fEM_R0UR01RSS</save>
   <save value ="5100">fEM_R0UL52RSS</save>
-  <save value ="20">fEM_R0UL41RSS</save>
-  <save value ="13.0">fEM_R0UL51RSS</save>
+  <save value ="30">fEM_R0UL41RSS</save>
+  <save value ="20.0">fEM_R0UL51RSS</save>
   <save value ="3703.704 ">fEM_R0UH02RSS</save>
   <save value ="62500.0">fEM_R0UH03RSS</save>
   <save value ="5000">fEM_R0UL42RSS</save>
@@ -10,7 +10,7 @@
   <save value ="1555.0">fEM_R7UX04RSS</save>
   <save value ="1269.0">fEM_R7UX05RSS</save>
   <save value ="1269.0">fEM_R7UX06RSS</save>
-  <save value ="506.6">fEM_R7UY00RSS</save>
+  <save value ="506.5">fEM_R7UY00RSS</save>
   <save value ="248.0">fEM_R7UY04RSS</save>
   <save value ="271.6">fEM_R7UY05RSS</save>
   <save value ="287.2">fEM_R7UY06RSS</save>
@@ -22,7 +22,7 @@
   <save value ="0.0">fEM_B0UX05RSS</save>
   <save value ="0">fEM_B0UX06RSS</save>
   <save value ="32000.0">fEM_R0UH05RSS</save>
+  <save value ="500">iEM_R0UL01ISS</save>
+  <save value ="100000">dEM_R0UL02USS</save>
   <save value ="0.005">fEM_R0UN03RSS</save>
-  <save value ="0.5">fEM_R0UL01RSS</save>
-  <save value ="100.0">fEM_R0UL02RSS</save>
 </saves>

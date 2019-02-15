@@ -266,8 +266,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">ttl</value>
-            <value name="description">(ttl) ttl</value>
+            <value name="name">TTLrpu</value>
+            <value name="description">(TTLrpu) ttl</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
