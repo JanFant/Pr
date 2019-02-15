@@ -1,35 +1,54 @@
 <vars>
-<var  name="R0EE04LZ2" description="(R0EE04LZ2) Питание  АКНП4  отключить" format="1"></var>
-<var  name="R0EE04LZ1" description="(R0EE04LZ1) Питание  АКНП4  отключить" format="1"></var>
-<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
-<var  name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
-<var  name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
 <var  name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
-<var  name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1" format="1"></var>
-<var  name="R0IE02LS4" description="(R0IE02LS4) Отключить питание ПР, ПУ канал 4" format="1"></var>
-<var  name="R0IE01LS4" description="(R0IE01LS4) Отключение питание детекторов канал 4" format="1"></var>
-<var  name="A0EE03LS4" description="(A0EE03LS4) Подключена сеть питания АКНП канал 4" format="1"></var>
-<var  name="R0VN15RS4" description="(R0VN15RS4) Номер ведущей камеры канал 4" format="3"></var>
-<var  name="R0VN33RS4" description="(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4" format="8"></var>
-<var  name="R0VN23RS4" description="(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4" format="8"></var>
-<var  name="R0VN13RS4" description="(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4" format="8"></var>
-<var  name="R0IE13LS4" description="(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала" format="1"></var>
-<var  name="R0IE12LS4" description="(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
-<var  name="R0IE11LS4" description="(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала" format="1"></var>
-<var  name="A0EE02LS4" description="(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4" format="1"></var>
-<var  name="R0IN03FS4" description="(R0IN03FS4) Выход КНК53М Гц" format="8"></var>
-<var  name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
-<var  name="R0VN04RS4" description="(R0VN04RS4) Реактивность канал 4" format="8"></var>
-<var  name="R0VN03RS4" description="(R0VN03RS4) Измеренный нейтронный поток канал 4" format="8"></var>
-<var  name="R0IN02FS4" description="(R0IN02FS4) Выход КНК15-1 Гц" format="8"></var>
-<var  name="R0IN01FS4" description="(R0IN01FS4) Выход СНМ-11 Гц" format="8"></var>
-<var  name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS4" description="(R0VN65LS4) ПС по периоду разгона канал 4" format="1"></var>
-<var  name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>
-<var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
+<var  name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
+<var  name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
+<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
+<var  name="R0EE04LZ1" description="(R0EE04LZ1) Питание  АКНП4  отключить" format="1"></var>
+<var  name="R0EE04LZ2" description="(R0EE04LZ2) Питание  АКНП4  отключить" format="1"></var>
+<var  name="R0DE01LS4" description="(R0DE01LS4) диагностика модуля АКНП4 на 1 месте" format="3"></var>
+<var  name="R0DE02LS4" description="(R0DE02LS4) диагностика модуля АКНП4 на 2 месте" format="3"></var>
+<var  name="R0DE04LS4" description="(R0DE04LS4) диагностика модуля АКНП4 на 4 месте" format="3"></var>
+<var  name="R0DE05LS4" description="(R0DE05LS4) диагностика модуля АКНП4 на 5 месте" format="3"></var>
+<var  name="R0DE31LS4" description="(R0DE31LS4) диагностика шкафа АКНП4 сеть 1" format="1"></var>
+<var  name="R0DE32LS4" description="(R0DE32LS4) диагностика шкафа АКНП4 сеть 2" format="1"></var>
+<var  name="R0DE33LS4" description="(R0DE33LS4) диагностика шкафа АКНП4 двери" format="1"></var>
+<var  name="R0DE34LS4" description="(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43" format="1"></var>
+<var  name="R0DE35LS4" description="(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53" format="1"></var>
+<var  name="R0DE36LS4" description="(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1" format="1"></var>
+<var  name="R0DE37LS4" description="(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2" format="1"></var>
+<var  name="R0DE38LS4" description="(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3" format="1"></var>
+<var  name="R0DE39LS4" description="(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4" format="1"></var>
+<var  name="R0DE3ALS4" description="(R0DE3ALS4) диагностика шкафа АКНП4 БП5/24Д место 5" format="1"></var>
+<var  name="R0DE3BLS4" description="(R0DE3BLS4) диагностика шкафа АКНП4 БП5/24Д место 6" format="1"></var>
+<var  name="R0DE3CLS4" description="(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7" format="1"></var>
+<var  name="R0DE3DLS4" description="(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8" format="1"></var>
+<var  name="TTLaknp4" description="(TTLaknp4) ttl" format="3"></var>
+<var  name="TestDiagnAKNP4" description="(TestDiagnAKNP4) Неисправность от диагностики" format="1"></var>
 <var  name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности канал 4" format="8"></var>
+<var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
+<var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>
+<var  name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4 на БАЗ1" format="1"></var>
+<var  name="R0VN65LS4" description="(R0VN65LS4) ПС по периоду разгона канал 4" format="1"></var>
+<var  name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
+<var  name="A0EE01LS4" description="(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
+<var  name="R0IN01FS4" description="(R0IN01FS4) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN02FS4" description="(R0IN02FS4) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0VN03RS4" description="(R0VN03RS4) Измеренный нейтронный поток канал 4" format="8"></var>
+<var  name="R0VN04RS4" description="(R0VN04RS4) Реактивность канал 4" format="8"></var>
+<var  name="A1VN71LS4" description="(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
+<var  name="R0IN03FS4" description="(R0IN03FS4) Выход КНК53М Гц" format="8"></var>
+<var  name="A0EE02LS4" description="(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4" format="1"></var>
+<var  name="R0IE11LS4" description="(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала" format="1"></var>
+<var  name="R0IE12LS4" description="(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
+<var  name="R0IE13LS4" description="(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала" format="1"></var>
+<var  name="R0VN13RS4" description="(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4" format="8"></var>
+<var  name="R0VN23RS4" description="(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4" format="8"></var>
+<var  name="R0VN33RS4" description="(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4" format="8"></var>
+<var  name="R0VN15RS4" description="(R0VN15RS4) Номер ведущей камеры канал 4" format="3"></var>
+<var  name="A0EE03LS4" description="(A0EE03LS4) Подключена сеть питания АКНП канал 4" format="1"></var>
+<var  name="R0IE01LS4" description="(R0IE01LS4) Отключение питание детекторов канал 4" format="1"></var>
+<var  name="R0IE02LS4" description="(R0IE02LS4) Отключить питание ПР, ПУ канал 4" format="1"></var>
+<var  name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
@@ -54,12 +73,12 @@
 <var  name="fEM_B0UX11RSS" description="(B0UX11RSS) Второй коэффициент калибровки камеры 11" format="8"></var>
 <var  name="fEM_B0UX12RSS" description="(B0UX12RSS) Второй коэффициент калибровки камеры 12" format="8"></var>
 <var  name="fEM_R0UH05RSS" description="(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6" format="8"></var>
+<var  name="iEM_R0UL01ISS" description="(R0UL01ISS) Шаг (мс) измерения периода" format="3"></var>
+<var  name="dEM_R0UL02USS" description="(R0UL02USS) Предельное время ожидания роста потока (мс)" format="5"></var>
 <var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
-<var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
-<var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Предельное время ожидания роста потока (мс)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m15_Nk" description="(internal1_m15_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m45_tst" description="(internal1_m45_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
 <var  name="internal1_m45_trz" description="(internal1_m45_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
 <var  name="internal1_m45_N1" description="(internal1_m45_N1) - массив значения мощности в начале замера" format="8" size="5"></var>

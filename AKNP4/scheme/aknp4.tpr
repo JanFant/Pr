@@ -15,10 +15,10 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -37,10 +37,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -59,10 +59,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
-      FormatMB=0
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -81,10 +81,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
-      FormatMB=0
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -103,10 +103,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -125,10 +125,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -147,10 +147,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -169,10 +169,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
-      FormatMB=0
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -191,10 +191,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
-      FormatMB=0
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -213,10 +213,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -235,10 +235,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -257,10 +257,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -279,10 +279,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -301,10 +301,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -323,10 +323,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -345,10 +345,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -367,10 +367,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -389,10 +389,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -411,10 +411,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -433,10 +433,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -455,10 +455,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -477,10 +477,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -521,10 +521,10 @@
       MaxValue="1000000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -609,10 +609,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=3
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -631,10 +631,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=5
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -653,8 +653,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -707,6 +707,50 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="N"
+      Value="4"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description=""
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="N4"
+      Value="8"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description=""
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -749,9 +793,9 @@
       PageSizeX=652
       PageSizeY=444
       PageCountX=2
-      PageCountY=1
+      PageCountY=2
       Name="AbS4"
-      ObjectCount=151
+      ObjectCount=193
       ExpandCompile=1
       [TDrawSignal]{
         R="399,157,459,197"
@@ -765,16 +809,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -793,16 +837,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -821,16 +865,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -849,18 +893,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K09FDSR"
+        DeviceName="FDS16"
         Line1="АС по "
         Line2="мощности"
         Line3=" канал 4 на БАЗ1"
@@ -877,16 +921,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -904,18 +948,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K10FDSR"
+        DeviceName="FDS16"
         Line1="АС по периоду"
         Line2="разгона канал 4"
         Line3="на БАЗ1"
@@ -953,18 +997,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K11FDSR"
+        DeviceName="FDS16"
         Line1="Исправность"
         Line2="АКНП канал 4 на БАЗ1"
       }
@@ -980,18 +1024,18 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB="AKNP4"
+        ChannalName="K01VCHS"
+        DeviceName="VCHS01"
         Line1="Выход СНМ-11 Гц"
         Line2=""
       }
@@ -1007,18 +1051,18 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB="AKNP4"
+        ChannalName="K02VCHS"
+        DeviceName="VCHS01"
         Line1="Выход КНК15-1 Гц"
       }
       [VVV_DrawConst]{
@@ -1047,16 +1091,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Измеренный"
@@ -1075,16 +1119,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Реактивность"
@@ -1102,18 +1146,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K16FDSR"
+        DeviceName="FDS16"
         Line1="Блокировка "
         Line2="автоматического"
         Line3="подъёма ББ канал 4"
@@ -1131,18 +1175,18 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        InterfaceMB="AKNP4"
+        ChannalName="K01VCHS"
+        DeviceName="VCHS02"
         Line1="Выход КНК53М Гц"
       }
       [TDrawSignal]{
@@ -1157,16 +1201,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Исправность"
@@ -1241,9 +1285,9 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1251,8 +1295,8 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01VDSR"
+        DeviceName="VDS32"
         Line1="Исправность"
         Line2="ВИП 1,6 (№17)"
         Line3="СНМ11 4 канала"
@@ -1269,9 +1313,9 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1279,8 +1323,8 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K02VDSR"
+        DeviceName="VDS32"
         Line1="Исправность"
         Line2="ВИП 0,5 (№18)"
         Line3="КНК15-1 4 канала"
@@ -1297,9 +1341,9 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
@@ -1307,8 +1351,8 @@
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K03VDSR"
+        DeviceName="VDS32"
         Line1="Исправность"
         Line2="ВИП 0,5 (№19) "
         Line3="НК53М 4 канала"
@@ -1400,7 +1444,7 @@
         }
       }
       [VVV_Text]{
-        R="371,423,513,429"
+        R="371,423,499,428"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1473,16 +1517,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Нейтронный"
@@ -1501,16 +1545,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Нейтронный"
@@ -1529,16 +1573,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Нейтронный"
@@ -1557,16 +1601,16 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=2
-        FormatMB=0
+        FormatMB=3
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Номер"
@@ -1586,16 +1630,16 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Подключена сеть"
@@ -1635,18 +1679,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K02FDSR"
+        DeviceName="FDS16"
         Line1="Отключение"
         Line2="питания"
         Line3="детекторов"
@@ -1664,18 +1708,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K01FDSR"
+        DeviceName="FDS16"
         Line1="Отключить"
         Line2="питание"
         Line3="ПР, ПУ канал 4"
@@ -1692,18 +1736,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K12FDSR"
+        DeviceName="FDS16"
         Line1="Блокировка "
         Line2="автоматическогои подъёма"
         Line3="ББ канал 4  на БАЗ1"
@@ -1720,18 +1764,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K13FDSR"
+        DeviceName="FDS16"
         Line1="АС по "
         Line2="мощности"
         Line3=" канал 4 на БАЗ2"
@@ -1748,18 +1792,18 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K14FDSR"
+        DeviceName="FDS16"
         Line1="АС по периоду"
         Line2="разгона канал 4"
         Line3=" на БАЗ2"
@@ -1776,23 +1820,23 @@
         ParamType=1
         Value=""
         Size=1
-        TypeInterface=0
-        TypeMB=0
-        FormatMB=0
-        TypeMBMaster=0
+        TypeInterface=1
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
+        ChannalName="K15FDSR"
+        DeviceName="FDS16"
         Line1="Исправность"
         Line2="АКНП канал 4 на БАЗ2"
       }
       [VVV_Text]{
-        R="754,319,817,325"
+        R="754,319,816,325"
         Number=137
         IsHold=FALSE
         Line1="нигде не используем"
@@ -1811,14 +1855,14 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=5
+        FormatMB=8
         TypeMBMaster=0
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -1836,16 +1880,16 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП4"
@@ -1863,16 +1907,16 @@
         ParamType=0
         Value=""
         Size=1
-        TypeInterface=0
+        TypeInterface=1
         TypeMB=0
-        FormatMB=0
+        FormatMB=2
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName=""
         DeviceName=""
         Line1="Питание  АКНП4"
@@ -3582,7 +3626,7 @@
         p3="850:235"
         BNumber=159
         ENumber=201
-        Comment="Per - Период разгона РУ --> X2"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3604,7 +3648,7 @@
         p2="850:135"
         BNumber=66
         ENumber=171
-        Comment="Per - Период разгона РУ --> X2"
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3647,7 +3691,7 @@
         p2="816:148"
         BNumber=63
         ENumber=149
-        Comment="Nm - мощность РУ --> Np - мощность РУ (ватт)"
+        Comment="Nm - мощность РУ --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3669,7 +3713,7 @@
         p2="850:201"
         BNumber=222
         ENumber=174
-        Comment="Нижняя граница интервала мощности для измерения периода (ватт) --> X2"
+        Comment="Нижняя граница интервала мощности для измерения периода (ватт) --> Nmin - нижняя граница интервала мощности для измерения периода (ватт)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3683,7 +3727,1017 @@
           Index=-1
         }
       }
+      [TDrawSignal]{
+        R="14,458,74,498"
+        Number=70
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE01LS4"
+        KodTeprol="R0DE01LS4"
+        Comment="диагностика модуля АКНП4 на 1 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="Diagn"
+        DeviceName="VCHS01"
+        Line1="диагностика модуля АКНП4 "
+        Line2="на 1 месте"
+      }
+      [TDrawSignal]{
+        R="13,507,73,547"
+        Number=71
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE02LS4"
+        KodTeprol="R0DE02LS4"
+        Comment="диагностика модуля АКНП4 на 2 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="Diagn"
+        DeviceName="VCHS02"
+        Line1="диагностика модуля АКНП4 "
+        Line2="на 2 месте"
+      }
+      [TDrawSignal]{
+        R="12,556,72,596"
+        Number=72
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE04LS4"
+        KodTeprol="R0DE04LS4"
+        Comment="диагностика модуля АКНП4 на 4 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="Diagn"
+        DeviceName="VDS32"
+        Line1="диагностика модуля АКНП4 "
+        Line2="на 4 месте"
+      }
+      [TDrawSignal]{
+        R="93,458,153,498"
+        Number=73
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE05LS4"
+        KodTeprol="R0DE05LS4"
+        Comment="диагностика модуля АКНП4 на 5 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="Diagn"
+        DeviceName="FDS16"
+        Line1="диагностика модуля АКНП4 "
+        Line2="на 5 месте"
+      }
+      [TModule]{
+        R="111,528,141,568"
+        Number=74
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="DIAGNDEV"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=74
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=74
+            ConstName="N"
+          }
+          [VVV_GCPoint]{
+            Number=74
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=75
+        IsHold=FALSE
+        p0="74:473"
+        p1="85:473"
+        p2="85:536"
+        p3="111:536"
+        BNumber=70
+        ENumber=74
+        Comment="диагностика модуля АКНП4 на 1 месте --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=70
+          ParameterName="R0DE01LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=76
+        IsHold=FALSE
+        p0="73:525"
+        p1="80:525"
+        p2="80:545"
+        p3="111:545"
+        BNumber=71
+        ENumber=74
+        Comment="диагностика модуля АКНП4 на 2 месте --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=71
+          ParameterName="R0DE02LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=77
+        IsHold=FALSE
+        p0="72:580"
+        p1="88:580"
+        p2="88:552"
+        p3="111:552"
+        BNumber=72
+        ENumber=74
+        Comment="диагностика модуля АКНП4 на 4 месте --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=72
+          ParameterName="R0DE04LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="x"
+          Index=2
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=78
+        IsHold=FALSE
+        p0="123:498"
+        p1="123:528"
+        BNumber=73
+        ENumber=74
+        Comment="диагностика модуля АКНП4 на 5 месте --> x - массив значений от контроллеров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=73
+          ParameterName="R0DE05LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="x"
+          Index=3
+        }
+      }
+      [TDrawSignal]{
+        R="12,622,72,662"
+        Number=79
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE31LS4"
+        KodTeprol="R0DE31LS4"
+        Comment="диагностика шкафа АКНП4 сеть 1"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S01SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="сеть 1"
+      }
+      [TDrawSignal]{
+        R="11,669,71,709"
+        Number=80
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE32LS4"
+        KodTeprol="R0DE32LS4"
+        Comment="диагностика шкафа АКНП4 сеть 2"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S02SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="сеть 2"
+      }
+      [TModule]{
+        R="110,644,140,684"
+        Number=81
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="AND2"
+      }
+      [VVV_DrawConnector]{
+        Number=82
+        IsHold=FALSE
+        p0="72:639"
+        p1="97:639"
+        p2="97:657"
+        p3="110:657"
+        BNumber=79
+        ENumber=81
+        Comment="диагностика шкафа АКНП4 сеть 1 --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=79
+          ParameterName="R0DE31LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=81
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=83
+        IsHold=FALSE
+        p0="71:693"
+        p1="98:693"
+        p2="98:666"
+        p3="110:666"
+        BNumber=80
+        ENumber=81
+        Comment="диагностика шкафа АКНП4 сеть 2 --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=80
+          ParameterName="R0DE32LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=81
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="11,744,71,784"
+        Number=84
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE33LS4"
+        KodTeprol="R0DE33LS4"
+        Comment="диагностика шкафа АКНП4 двери"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=0
+        FormatMB=1
+        TypeMBMaster=0
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S03SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="двери"
+      }
+      [TDrawSignal]{
+        R="92,744,152,784"
+        Number=85
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE34LS4"
+        KodTeprol="R0DE34LS4"
+        Comment="диагностика шкафа АКНП4 температура меньше 43"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S04SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="температура меньше 43"
+      }
+      [TDrawSignal]{
+        R="171,743,231,783"
+        Number=86
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE35LS4"
+        KodTeprol="R0DE35LS4"
+        Comment="диагностика шкафа АКНП4 температура больше 53"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S05SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="температура больше 53"
+      }
+      [TDrawSignal]{
+        R="286,458,346,498"
+        Number=87
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE36LS4"
+        KodTeprol="R0DE36LS4"
+        Comment="диагностика шкафа АКНП4 МП15-3.1 место 1"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S06SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="МП15-3.1 место 1"
+      }
+      [TDrawSignal]{
+        R="366,458,426,498"
+        Number=88
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE37LS4"
+        KodTeprol="R0DE37LS4"
+        Comment="диагностика шкафа АКНП4 МП15-3.1 место 2"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S07SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="МП15-3.1 место 2"
+      }
+      [TDrawSignal]{
+        R="453,457,513,497"
+        Number=89
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE38LS4"
+        KodTeprol="R0DE38LS4"
+        Comment="диагностика шкафа АКНП4 МП15-3 место 3"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S08SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="МП15-3 место 3"
+      }
+      [TDrawSignal]{
+        R="534,457,594,497"
+        Number=90
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE39LS4"
+        KodTeprol="R0DE39LS4"
+        Comment="диагностика шкафа АКНП4 МП24-2 место 4"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S09SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="МП24-2 место 4"
+      }
+      [TDrawSignal]{
+        R="284,515,344,555"
+        Number=91
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE3ALS4"
+        KodTeprol="R0DE3ALS4"
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 5"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S10SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="БП5/24Д место 5"
+      }
+      [TDrawSignal]{
+        R="534,515,594,555"
+        Number=92
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE3BLS4"
+        KodTeprol="R0DE3BLS4"
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 6"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S11SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="БП5/24Д место 6"
+      }
+      [TDrawSignal]{
+        R="534,566,594,606"
+        Number=93
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE3CLS4"
+        KodTeprol="R0DE3CLS4"
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 7"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S12SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="БП5/24Д место 7"
+      }
+      [TDrawSignal]{
+        R="534,618,594,658"
+        Number=94
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0DE3DLS4"
+        KodTeprol="R0DE3DLS4"
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 8"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP4"
+        ChannalName="S13SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП4 "
+        Line2="БП5/24Д место 8"
+      }
+      [TModule]{
+        R="425,567,455,607"
+        Number=95
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="ORN"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=95
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=95
+            ConstName="N4"
+          }
+          [VVV_GCPoint]{
+            Number=95
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=96
+        IsHold=FALSE
+        p0="344:532"
+        p1="371:532"
+        p2="371:600"
+        p3="425:600"
+        BNumber=91
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 5 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=91
+          ParameterName="R0DE3ALS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=97
+        IsHold=FALSE
+        p0="346:480"
+        p1="356:480"
+        p2="356:525"
+        p3="380:525"
+        p4="380:591"
+        p5="425:591"
+        BNumber=87
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 МП15-3.1 место 1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=87
+          ParameterName="R0DE36LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=98
+        IsHold=FALSE
+        p0="385:498"
+        p1="385:584"
+        p2="425:584"
+        BNumber=88
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 МП15-3.1 место 2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=88
+          ParameterName="R0DE37LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=2
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=99
+        IsHold=FALSE
+        p0="466:497"
+        p1="466:515"
+        p2="387:515"
+        p3="387:579"
+        p4="425:579"
+        BNumber=89
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 МП15-3 место 3 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="R0DE38LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=3
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=100
+        IsHold=FALSE
+        p0="534:479"
+        p1="517:479"
+        p2="517:523"
+        p3="392:523"
+        p4="392:573"
+        p5="425:573"
+        BNumber=90
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 МП24-2 место 4 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=90
+          ParameterName="R0DE39LS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=4
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=101
+        IsHold=FALSE
+        p0="534:528"
+        p1="429:528"
+        p2="429:567"
+        BNumber=92
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 6 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="R0DE3BLS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=5
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=102
+        IsHold=FALSE
+        p0="534:586"
+        p1="523:586"
+        p2="523:532"
+        p3="436:532"
+        p4="436:567"
+        BNumber=93
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 7 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=93
+          ParameterName="R0DE3CLS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=6
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=103
+        IsHold=FALSE
+        p0="534:636"
+        p1="514:636"
+        p2="514:535"
+        p3="443:535"
+        p4="443:567"
+        BNumber=94
+        ENumber=95
+        Comment="диагностика шкафа АКНП4 БП5/24Д место 8 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=94
+          ParameterName="R0DE3DLS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x"
+          Index=7
+        }
+      }
+      [TModule]{
+        R="269,634,299,674"
+        Number=104
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="OR3"
+      }
+      [VVV_DrawConnector]{
+        Number=105
+        IsHold=FALSE
+        p0="441:607"
+        p1="441:629"
+        p2="283:629"
+        p3="283:634"
+        BNumber=95
+        ENumber=104
+        Comment="y - выходной параметр --> x3 - вход 3"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="x3"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=106
+        IsHold=FALSE
+        p0="141:551"
+        p1="223:551"
+        p2="223:640"
+        p3="269:640"
+        BNumber=74
+        ENumber=104
+        Comment="y - неисправность контроллеров --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=107
+        IsHold=FALSE
+        p0="140:658"
+        p1="269:658"
+        BNumber=81
+        ENumber=104
+        Comment="y - выходной параметр --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=81
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="167,598,197,638"
+        Number=108
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TTLaknp4"
+        KodTeprol="TTLaknp4"
+        Comment="ttl"
+        Type=2
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="AKNP4"
+        ChannalName=""
+        DeviceName=""
+        Line1="ttl"
+      }
+      [VVV_DrawConnector]{
+        Number=109
+        IsHold=FALSE
+        p0="141:561"
+        p1="172:561"
+        p2="172:598"
+        BNumber=74
+        ENumber=108
+        Comment="ttl - время жизни"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=74
+          ParameterName="ttl"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=108
+          ParameterName="TTLaknp4"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="326,694,356,734"
+        Number=110
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="TestDiagnAKNP4"
+        KodTeprol="TestDiagnAKNP4"
+        Comment="Неисправность от диагностики"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="AKNP4"
+        ChannalName=""
+        DeviceName=""
+        Line1="Неисправность от "
+        Line2="диагностики"
+      }
+      [VVV_DrawConnector]{
+        Number=111
+        IsHold=FALSE
+        p0="299:656"
+        p1="340:656"
+        p2="340:694"
+        BNumber=104
+        ENumber=110
+        Comment="y - выходной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=110
+          ParameterName="TestDiagnAKNP4"
+          Index=-1
+        }
+      }
     }
   }
 }
-3518813
+4574588

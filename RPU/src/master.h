@@ -51,10 +51,10 @@ int nomer = 1;
 #define idA3IS21LRP	 18	//(A3IS21LRP) Приход на НУ ИС1
 #define R7VE70LRP	 BUFFER[37]	//(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера
 #define idR7VE70LRP	 19	//(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера
-#define ttl	 BUFFER[39]	//(ttl) ttl
-#define idttl	 20	//(ttl) ttl
-#define TestDiagn	 BUFFER[42]	//(TestDiagn) Неисправность от диагностики
-#define idTestDiagn	 21	//(TestDiagn) Неисправность от диагностики
+#define TTLrpu	 BUFFER[39]	//(TTLrpu) ttl
+#define idTTLrpu	 20	//(TTLrpu) ttl
+#define TestDiagnRPU	 BUFFER[42]	//(TestDiagnRPU) Неисправность от диагностики
+#define idTestDiagnRPU	 21	//(TestDiagnRPU) Неисправность от диагностики
 #define R0DE3DLRP	 BUFFER[44]	//(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8
 #define idR0DE3DLRP	 22	//(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8
 #define R0DE3CLRP	 BUFFER[46]	//(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7
@@ -268,8 +268,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 17	,1	,1	, &B3IS21LRP},	//(B3IS21LRP) Приход на НУ ИС2
 	{ 18	,1	,1	, &A3IS21LRP},	//(A3IS21LRP) Приход на НУ ИС1
 	{ 19	,1	,1	, &R7VE70LRP},	//(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера
-	{ 20	,3	,1	, &ttl},	//(ttl) ttl
-	{ 21	,1	,1	, &TestDiagn},	//(TestDiagn) Неисправность от диагностики
+	{ 20	,3	,1	, &TTLrpu},	//(TTLrpu) ttl
+	{ 21	,1	,1	, &TestDiagnRPU},	//(TestDiagnRPU) Неисправность от диагностики
 	{ 22	,1	,1	, &R0DE3DLRP},	//(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8
 	{ 23	,1	,1	, &R0DE3CLRP},	//(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7
 	{ 24	,1	,1	, &R0DE3BLRP},	//(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6
@@ -409,7 +409,7 @@ static ModbusRegister coil_RPU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_RPU[]={  // 
-	{&TestDiagn,1,0},	//(TestDiagn) Неисправность от диагностики
+	{&TestDiagnRPU,1,0},	//(TestDiagnRPU) Неисправность от диагностики
 	{&B7MZ31LRP,1,1},	//(B7MZ31LRP) Клапан ОБДУВ АЗ2 открыть(обесточить)
 	{&A7MZ31LRP,1,2},	//(A7MZ31LRP) Клапан ОБДУВ АЗ1 открыть(обесточить)
 	{&R7VE70LRP,1,3},	//(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера
@@ -427,7 +427,7 @@ static ModbusRegister di_RPU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_RPU[]={  // 
-	{&ttl,3,0},	//(ttl) ttl
+	{&TTLrpu,3,0},	//(TTLrpu) ttl
 	{&R0VN13RRP,8,1},	//(R0VN13RRP) Нейтронный поток по камере  СНМ-11 канал 5
 	{&B0CT01IRP,8,3},	//(B0CT01IRP) Температура АЗ2-3
 	{&A0CT01IRP,8,5},	//(A0CT01IRP) Температура АЗ1-3
@@ -909,8 +909,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_105_1);
   or4(&S_or4_42_1);
   or5(&S_or5_62_1);
-  setData(idttl,&var5);
-  setData(idTestDiagn,&var1);
+  setData(idTTLrpu,&var5);
+  setData(idTestDiagnRPU,&var1);
   moveData(idB7MZ31LRP,idC1MZ31LRP);
   moveData(idA7MZ31LRP,idC1MZ31LRP);
   moveData(idB3VS21LRP,idB3IS21LRP);
