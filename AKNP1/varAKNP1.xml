@@ -1,35 +1,54 @@
 <vars>
-<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
-<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
-<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
-<var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2" format="1"></var>
-<var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП на БАЗ2" format="1"></var>
-<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
-<var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности на БАЗ2" format="1"></var>
-<var  name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПР, ПУ" format="1"></var>
-<var  name="R0IE01LS1" description="(R0IE01LS1) Отключение питание детекторов" format="1"></var>
-<var  name="A0EE03LS1" description="(A0EE03LS1) Подключена сеть питания АКНП" format="1"></var>
-<var  name="R0VN15RS1" description="(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей" format="3"></var>
-<var  name="R0VN33RS1" description="(R0VN33RS1) Нейтронный поток по камере КНК53М" format="8"></var>
-<var  name="R0VN23RS1" description="(R0VN23RS1) Нейтронный поток по камере КНК15-1" format="8"></var>
-<var  name="R0VN13RS1" description="(R0VN13RS1) Нейтронный поток по камере СНМ11" format="8"></var>
-<var  name="R0IE13LS1" description="(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала" format="1"></var>
-<var  name="R0IE12LS1" description="(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала" format="1"></var>
-<var  name="R0IE11LS1" description="(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала" format="1"></var>
-<var  name="A0EE02LS1" description="(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1" format="1"></var>
-<var  name="R0IN03FS1" description="(R0IN03FS1) Выход КНК53М  Гц" format="8"></var>
-<var  name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1" format="1"></var>
-<var  name="R0VN04RS1" description="(R0VN04RS1) Реактивность канал1" format="8"></var>
-<var  name="R0VN03RS1" description="(R0VN03RS1) Измеренный нейтронный поток" format="8"></var>
-<var  name="R0IN02FS1" description="(R0IN02FS1) Выход КНК15-1 Гц" format="8"></var>
-<var  name="R0IN01FS1" description="(R0IN01FS1) Выход СНМ-11 Гц" format="8"></var>
-<var  name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП на БАЗ1" format="1"></var>
-<var  name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгонана БАЗ1" format="1"></var>
-<var  name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал1" format="1"></var>
-<var  name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности на БАЗ1" format="1"></var>
-<var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
-<var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
 <var  name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности" format="8"></var>
+<var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
+<var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
+<var  name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности на БАЗ1" format="1"></var>
+<var  name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал1" format="1"></var>
+<var  name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгонана БАЗ1" format="1"></var>
+<var  name="A0EE01LS1" description="(A0EE01LS1) Исправность АКНП1 на БАЗ1" format="1"></var>
+<var  name="R0IN01FS1" description="(R0IN01FS1) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN02FS1" description="(R0IN02FS1) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0VN03RS1" description="(R0VN03RS1) Измеренный нейтронный поток" format="8"></var>
+<var  name="R0VN04RS1" description="(R0VN04RS1) Реактивность канал1" format="8"></var>
+<var  name="A0VN71LS1" description="(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1" format="1"></var>
+<var  name="R0IN03FS1" description="(R0IN03FS1) Выход КНК53М  Гц" format="8"></var>
+<var  name="A0EE02LS1" description="(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1" format="1"></var>
+<var  name="R0IE11LS1" description="(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала" format="1"></var>
+<var  name="R0IE12LS1" description="(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала" format="1"></var>
+<var  name="R0IE13LS1" description="(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала" format="1"></var>
+<var  name="R0VN13RS1" description="(R0VN13RS1) Нейтронный поток по камере СНМ11" format="8"></var>
+<var  name="R0VN23RS1" description="(R0VN23RS1) Нейтронный поток по камере КНК15-1" format="8"></var>
+<var  name="R0VN33RS1" description="(R0VN33RS1) Нейтронный поток по камере КНК53М" format="8"></var>
+<var  name="R0VN15RS1" description="(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей" format="3"></var>
+<var  name="A0EE03LS1" description="(A0EE03LS1) Подключена сеть питания АКНП" format="1"></var>
+<var  name="R0IE01LS1" description="(R0IE01LS1) Отключение питание детекторов 1 канала" format="1"></var>
+<var  name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПР, ПУ 1 канала" format="1"></var>
+<var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности на БАЗ2" format="1"></var>
+<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
+<var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП1 на БАЗ2" format="1"></var>
+<var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2" format="1"></var>
+<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
+<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0DE01LS1" description="(R0DE01LS1) диагностика модуля АКНП1 на 1 месте" format="3"></var>
+<var  name="R0DE02LS1" description="(R0DE02LS1) диагностика модуля АКНП1 на 2 месте" format="3"></var>
+<var  name="R0DE04LS1" description="(R0DE04LS1) диагностика модуля АКНП1 на 4 месте" format="3"></var>
+<var  name="R0DE05LS1" description="(R0DE05LS1) диагностика модуля АКНП1 на 5 месте" format="3"></var>
+<var  name="TTLaknp1" description="(TTLaknp1) ttl" format="3"></var>
+<var  name="R0DE31LS1" description="(R0DE31LS1) диагностика шкафа АКНП1 сеть 1" format="1"></var>
+<var  name="R0DE32LS1" description="(R0DE32LS1) диагностика шкафа АКНП1 сеть 2" format="1"></var>
+<var  name="R0DE33LS1" description="(R0DE33LS1) диагностика шкафа АКНП1 двери" format="1"></var>
+<var  name="R0DE34LS1" description="(R0DE34LS1) диагностика шкафа АКНП1 температура меньше 43" format="1"></var>
+<var  name="R0DE35LS1" description="(R0DE35LS1) диагностика шкафа АКНП1 температура больше 53" format="1"></var>
+<var  name="R0DE36LS1" description="(R0DE36LS1) диагностика шкафа АКНП1 МП15-3.1 место 1" format="1"></var>
+<var  name="R0DE37LS1" description="(R0DE37LS1) диагностика шкафа АКНП1 МП15-3.1 место 2" format="1"></var>
+<var  name="R0DE38LS1" description="(R0DE38LS1) диагностика шкафа АКНП1 МП15-3 место 3" format="1"></var>
+<var  name="R0DE39LS1" description="(R0DE39LS1) диагностика шкафа АКНП1 МП24-2 место 4" format="1"></var>
+<var  name="R0DE3ALS1" description="(R0DE3ALS1) диагностика шкафа АКНП1 БП5/24Д место 5" format="1"></var>
+<var  name="R0DE3BLS1" description="(R0DE3BLS1) диагностика шкафа АКНП1 БП5/24Д место 6" format="1"></var>
+<var  name="R0DE3CLS1" description="(R0DE3CLS1) диагностика шкафа АКНП1 БП5/24Д место 7" format="1"></var>
+<var  name="R0DE3DLS1" description="(R0DE3DLS1) диагностика шкафа АКНП1 БП5/24Д место 8" format="1"></var>
+<var  name="TestDiagnAKNP1" description="(TestDiagnAKNP1) Неисправность от диагностики" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>

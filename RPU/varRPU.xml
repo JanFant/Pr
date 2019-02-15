@@ -18,8 +18,8 @@
 <var  name="B3IS21LRP" description="(B3IS21LRP) Приход на НУ ИС2" format="1"></var>
 <var  name="A3IS21LRP" description="(A3IS21LRP) Приход на НУ ИС1" format="1"></var>
 <var  name="R7VE70LRP" description="(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера" format="1"></var>
-<var  name="ttl" description="(ttl) ttl" format="3"></var>
-<var  name="TestDiagn" description="(TestDiagn) Неисправность от диагностики" format="1"></var>
+<var  name="TTLrpu" description="(TTLrpu) ttl" format="3"></var>
+<var  name="TestDiagnRPU" description="(TestDiagnRPU) Неисправность от диагностики" format="1"></var>
 <var  name="R0DE3DLRP" description="(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="R0DE3CLRP" description="(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7" format="1"></var>
 <var  name="R0DE3BLRP" description="(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6" format="1"></var>

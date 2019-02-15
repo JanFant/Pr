@@ -163,7 +163,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_105_1);
   or4(&S_or4_42_1);
   or5(&S_or5_62_1);
-  setData(idttl,&var5);
+  setData(idTTLrpu,&var5);
   setData(idTestDiagnRPU,&var1);
   moveData(idB7MZ31LRP,idC1MZ31LRP);
   moveData(idA7MZ31LRP,idC1MZ31LRP);

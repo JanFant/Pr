@@ -4159,7 +4159,7 @@
         R="392,893,452,933"
         Number=72
         IsHold=FALSE
-        VisualNumber="139"
+        VisualNumber="138"
         SIGNAL_NAME="R0DE36LRP"
         KodTeprol="R0DE36LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 1"
@@ -4186,7 +4186,7 @@
         R="488,893,548,933"
         Number=73
         IsHold=FALSE
-        VisualNumber="143"
+        VisualNumber="142"
         SIGNAL_NAME="R0DE37LRP"
         KodTeprol="R0DE37LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 2"
@@ -4214,7 +4214,7 @@
         R="577,893,637,933"
         Number=74
         IsHold=FALSE
-        VisualNumber="147"
+        VisualNumber="145"
         SIGNAL_NAME="R0DE38LRP"
         KodTeprol="R0DE38LRP"
         Comment="диагностика шкафа РПУ МП15-3 место 3"
@@ -4241,7 +4241,7 @@
         R="393,946,453,986"
         Number=75
         IsHold=FALSE
-        VisualNumber="140"
+        VisualNumber="139"
         SIGNAL_NAME="R0DE39LRP"
         KodTeprol="R0DE39LRP"
         Comment="диагностика шкафа РПУ МП24-2 место 4"
@@ -4268,7 +4268,7 @@
         R="577,1000,637,1040"
         Number=76
         IsHold=FALSE
-        VisualNumber="149"
+        VisualNumber="147"
         SIGNAL_NAME="R0DE3ALRP"
         KodTeprol="R0DE3ALRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 5"
@@ -4295,7 +4295,7 @@
         R="577,946,637,986"
         Number=77
         IsHold=FALSE
-        VisualNumber="148"
+        VisualNumber="146"
         SIGNAL_NAME="R0DE3BLRP"
         KodTeprol="R0DE3BLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 6"
@@ -4322,7 +4322,7 @@
         R="392,1000,452,1040"
         Number=78
         IsHold=FALSE
-        VisualNumber="141"
+        VisualNumber="140"
         SIGNAL_NAME="R0DE3CLRP"
         KodTeprol="R0DE3CLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 7"
@@ -4349,7 +4349,7 @@
         R="490,946,550,986"
         Number=79
         IsHold=FALSE
-        VisualNumber="144"
+        VisualNumber="143"
         SIGNAL_NAME="R0DE3DLRP"
         KodTeprol="R0DE3DLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 8"
@@ -4407,7 +4407,7 @@
         R="503,1017,533,1057"
         Number=92
         IsHold=FALSE
-        VisualNumber="145"
+        VisualNumber="144"
         ABBRV="ORN"
         [VVV_DrawConnector]{
           Number=0
@@ -4431,7 +4431,7 @@
         R="433,1190,463,1230"
         Number=109
         IsHold=FALSE
-        VisualNumber="142"
+        VisualNumber="141"
         SIGNAL_NAME="TestDiagnRPU"
         KodTeprol="TestDiagnRPU"
         Comment="Неисправность от диагностики"
@@ -4458,16 +4458,16 @@
         R="351,1138,381,1178"
         Number=111
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="137"
         ABBRV="OR3"
       }
       [TDrawSignal]{
         R="211,1050,241,1090"
         Number=87
         IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="ttl"
-        KodTeprol="ttl"
+        VisualNumber="136"
+        SIGNAL_NAME="TTLrpu"
+        KodTeprol="TTLrpu"
         Comment="ttl"
         Type=2
         ParamType=1
@@ -7849,7 +7849,7 @@
         }
         [VVV_GCPoint]{
           Number=87
-          ParameterName="ttl"
+          ParameterName="TTLrpu"
           Index=-1
         }
       }
@@ -7925,4 +7925,4 @@
     }
   }
 }
-7630309
+7631355

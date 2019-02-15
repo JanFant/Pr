@@ -1,7 +1,7 @@
 <devices xml="AKNP2ass">
-        <device name="VCHS01" driver="vchs" slot="01" description="VCHS01"> </device>
-        <device name="VCHS02" driver="vchs" slot="02" description="VCHS02"> </device>
-        <device name="VDS32" driver="vds32" slot="04" description="VDS32"> </device>
-        <device name="FDS16" driver="fds16" slot="05" description="FDS16"> </device>
-        <device name="SBKFP" driver="sbk" slot= "20" description="SBKFP"></device>
+        <device name="VCHS01" driver="vchs"  slot="01"  description="VCHS01"> </device>
+        <device name="VCHS02" driver="vchs"  slot="02"  description="VCHS02"> </device>
+        <device name="VDS32"  driver="vds32" slot="04"  description="VDS32"> </device>
+        <device name="FDS16"  driver="fds16" slot="05"  description="FDS16"> </device>
+        <device name="SBKFP"  driver="sbk"   slot= "20" description="SBKFP"> </device>
 </devices>
