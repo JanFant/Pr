@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3 на БАЗ2" format="1"></var>
 <var  name="R0VN77LZ2" description="(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2" format="1"></var>
 <var  name="A1EE01LS3" description="(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2" format="1"></var>
 <var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
@@ -18,12 +17,14 @@
 <var  name="R0DE37LS3" description="(R0DE37LS3) диагностика шкафа АКНП3 МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE38LS3" description="(R0DE38LS3) диагностика шкафа АКНП3 МП15-3 место 3" format="1"></var>
 <var  name="R0DE39LS3" description="(R0DE39LS3) диагностика шкафа АКНП3 МП24-2 место 4" format="1"></var>
-<var  name="R0DE3ALS3" description="(R0DE3ALS3) диагностика шкафа АКНП3 БП5/24Д место 5" format="1"></var>
-<var  name="R0DE3BLS3" description="(R0DE3BLS3) диагностика шкафа АКНП3 БП5/24Д место 6" format="1"></var>
 <var  name="R0DE3CLS3" description="(R0DE3CLS3) диагностика шкафа АКНП3 БП5/24Д место 7" format="1"></var>
 <var  name="R0DE3DLS3" description="(R0DE3DLS3) диагностика шкафа АКНП3 БП5/24Д место 8" format="1"></var>
 <var  name="TTLaknp3" description="(TTLaknp3) ttl" format="3"></var>
 <var  name="TestDiagnAKNP3" description="(TestDiagnAKNP3) Неисправность от диагностики" format="1"></var>
+<var  name="R0DEB1LS3" description="(R0DEB1LS3) диагностика шкафа РПУ БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS3" description="(R0DEB2LS3) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS3" description="(R0DEB3LS3) диагностика шкафа РПУ БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS3" description="(R0DEB4LS3) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="(R0VN01RS3) Период разгона канал 3" format="8"></var>
 <var  name="R0VN61LS3" description="(R0VN61LS3) ПС по мощности канал 3" format="1"></var>
@@ -49,6 +50,7 @@
 <var  name="R0IE01LS3" description="(R0IE01LS3) Отключение питание детекторов канал 3" format="1"></var>
 <var  name="R0IE02LS3" description="(R0IE02LS3) Отключить питание ПР, ПУ канал 3" format="1"></var>
 <var  name="A0VN71LS3" description="(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1" format="1"></var>
+<var  name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3 на БАЗ2" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>

@@ -714,7 +714,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="n - размерность массива значений"
       MinValue=""
       MaxValue=""
       Group=""
@@ -731,12 +731,12 @@
     }
     [TConst]{
       Name="N4"
-      Value="8"
+      Value="5"
       Type=2
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="n - N-размерность массива x"
       MinValue=""
       MaxValue=""
       Group=""
@@ -795,7 +795,7 @@
       PageCountX=2
       PageCountY=2
       Name="AbS2"
-      ObjectCount=192
+      ObjectCount=198
       ExpandCompile=1
       [TDrawSignal]{
         R="421,202,481,242"
@@ -1445,7 +1445,7 @@
         }
       }
       [VVV_Text]{
-        R="291,426,433,432"
+        R="291,426,419,431"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1501,7 +1501,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1001,410"
+        R="845,404,985,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2070,6 +2070,499 @@
             Index=-1
           }
         }
+      }
+      [TDrawSignal]{
+        R="14,451,74,491"
+        Number=66
+        IsHold=FALSE
+        VisualNumber="71"
+        SIGNAL_NAME="R0DE01LS2"
+        KodTeprol="R0DE01LS2"
+        Comment="диагностика модуля АКНП2 на 1 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="Diagn"
+        DeviceName="VCHS01"
+        Line1="диагностика модуля АКНП2 "
+        Line2="на 1 месте"
+      }
+      [TDrawSignal]{
+        R="14,494,74,534"
+        Number=67
+        IsHold=FALSE
+        VisualNumber="72"
+        SIGNAL_NAME="R0DE02LS2"
+        KodTeprol="R0DE02LS2"
+        Comment="диагностика модуля АКНП2 на 2 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="Diagn"
+        DeviceName="VCHS02"
+        Line1="диагностика модуля АКНП2 "
+        Line2="на 2 месте"
+      }
+      [TDrawSignal]{
+        R="14,539,74,579"
+        Number=68
+        IsHold=FALSE
+        VisualNumber="73"
+        SIGNAL_NAME="R0DE04LS2"
+        KodTeprol="R0DE04LS2"
+        Comment="диагностика модуля АКНП2 на 4 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="Diagn"
+        DeviceName="VDS32"
+        Line1="диагностика модуля АКНП2 "
+        Line2="на 4 месте"
+      }
+      [TDrawSignal]{
+        R="14,584,74,624"
+        Number=69
+        IsHold=FALSE
+        VisualNumber="77"
+        SIGNAL_NAME="R0DE05LS2"
+        KodTeprol="R0DE05LS2"
+        Comment="диагностика модуля АКНП2 на 5 месте"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="Diagn"
+        DeviceName="FDS16"
+        Line1="диагностика модуля АКНП2 "
+        Line2="на 5 месте"
+      }
+      [TModule]{
+        R="108,516,138,556"
+        Number=70
+        IsHold=FALSE
+        VisualNumber="78"
+        ABBRV="DIAGNDEV"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=70
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=70
+            ConstName="N"
+          }
+          [VVV_GCPoint]{
+            Number=70
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [TDrawSignal]{
+        R="108,583,138,623"
+        Number=75
+        IsHold=FALSE
+        VisualNumber="81"
+        SIGNAL_NAME="TTLaknp2"
+        KodTeprol="TTLaknp2"
+        Comment="TTL"
+        Type=2
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="AKNP2"
+        ChannalName=""
+        DeviceName=""
+        Line1="TTL"
+      }
+      [TDrawSignal]{
+        R="14,635,74,675"
+        Number=77
+        IsHold=FALSE
+        VisualNumber="74"
+        SIGNAL_NAME="R0DE31LS2"
+        KodTeprol="R0DE31LS2"
+        Comment="диагностика шкафа АКНП2 сеть 1"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S01SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="сеть 1"
+      }
+      [TDrawSignal]{
+        R="14,681,74,721"
+        Number=78
+        IsHold=FALSE
+        VisualNumber="75"
+        SIGNAL_NAME="R0DE32LS2"
+        KodTeprol="R0DE32LS2"
+        Comment="диагностика шкафа АКНП2 сеть 2"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S02SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="сеть 2"
+      }
+      [TModule]{
+        R="108,646,138,686"
+        Number=79
+        IsHold=FALSE
+        VisualNumber="79"
+        ABBRV="AND2"
+      }
+      [TDrawSignal]{
+        R="13,733,73,773"
+        Number=82
+        IsHold=FALSE
+        VisualNumber="76"
+        SIGNAL_NAME="R0DE33LS2"
+        KodTeprol="R0DE33LS2"
+        Comment="диагностика шкафа АКНП2 двери"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S03SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="двери"
+      }
+      [TDrawSignal]{
+        R="13,781,73,821"
+        Number=83
+        IsHold=FALSE
+        VisualNumber="80"
+        SIGNAL_NAME="R0DE34LS2"
+        KodTeprol="R0DE34LS2"
+        Comment="диагностика шкафа АКНП2 температура меньше 43"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S04SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="температура меньше 43"
+      }
+      [TDrawSignal]{
+        R="12,826,72,866"
+        Number=84
+        IsHold=FALSE
+        VisualNumber="82"
+        SIGNAL_NAME="R0DE35LS2"
+        KodTeprol="R0DE35LS2"
+        Comment="диагностика шкафа АКНП2 температура больше 53"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S05SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="температура больше 53"
+      }
+      [TDrawSignal]{
+        R="285,619,345,659"
+        Number=86
+        IsHold=FALSE
+        VisualNumber="87"
+        SIGNAL_NAME="R0DE37LS2"
+        KodTeprol="R0DE37LS2"
+        Comment="диагностика шкафа АКНП2 МП15-3.1 место 2"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S07SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="МП15-3.1 место 2"
+      }
+      [TDrawSignal]{
+        R="285,665,345,705"
+        Number=87
+        IsHold=FALSE
+        VisualNumber="89"
+        SIGNAL_NAME="R0DE38LS2"
+        KodTeprol="R0DE38LS2"
+        Comment="диагностика шкафа АКНП2 МП15-3 место 3"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S08SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="МП15-3 место 3"
+      }
+      [TDrawSignal]{
+        R="285,719,345,759"
+        Number=88
+        IsHold=FALSE
+        VisualNumber="90"
+        SIGNAL_NAME="R0DE39LS2"
+        KodTeprol="R0DE39LS2"
+        Comment="диагностика шкафа АКНП2 МП24-2 место 4"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName="S09SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа АКНП2 "
+        Line2="МП24-2 место 4"
+      }
+      [TDrawSignal]{
+        R="566,557,626,597"
+        Number=91
+        IsHold=FALSE
+        VisualNumber="85"
+        SIGNAL_NAME="R0DE3CLS2"
+        KodTeprol="R0DE3CLS2"
+        Comment="диагностика шкафа АКНП2 БП5/24Д место 7"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName=""
+        DeviceName=""
+        Line1="диагностика шкафа АКНП2 "
+        Line2="БП5/24Д место 7"
+      }
+      [TDrawSignal]{
+        R="369,556,429,596"
+        Number=92
+        IsHold=FALSE
+        VisualNumber="93"
+        SIGNAL_NAME="R0DE3DLS2"
+        KodTeprol="R0DE3DLS2"
+        Comment="диагностика шкафа АКНП2 БП5/24Д место 8"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnAKNP2"
+        ChannalName=""
+        DeviceName=""
+        Line1="диагностика шкафа АКНП2 "
+        Line2="БП5/24Д место 8"
+      }
+      [TModule]{
+        R="471,664,501,704"
+        Number=93
+        IsHold=FALSE
+        VisualNumber="88"
+        ABBRV="ORN"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=93
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=93
+            ConstName="N4"
+          }
+          [VVV_GCPoint]{
+            Number=93
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [TModule]{
+        R="370,826,400,866"
+        Number=102
+        IsHold=FALSE
+        VisualNumber="83"
+        ABBRV="OR3"
+      }
+      [TDrawSignal]{
+        R="458,827,518,867"
+        Number=106
+        IsHold=FALSE
+        VisualNumber="86"
+        SIGNAL_NAME="TestDiagnAKNP2"
+        KodTeprol="TestDiagnAKNP2"
+        Comment="Неисправность от диагностики"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="AKNP2"
+        ChannalName=""
+        DeviceName=""
+        Line1="Неисправность от "
+        Line2="диагностики"
       }
       [VVV_DrawConnector]{
         Number=169
@@ -3739,145 +4232,13 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="18,459,78,499"
-        Number=66
-        IsHold=FALSE
-        VisualNumber="71"
-        SIGNAL_NAME="R0DE01LS2"
-        KodTeprol="R0DE01LS2"
-        Comment="диагностика модуля АКНП2 на 1 месте"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=3
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="Diagn"
-        DeviceName="VCHS01"
-        Line1="диагностика модуля АКНП2 "
-        Line2="на 1 месте"
-      }
-      [TDrawSignal]{
-        R="18,507,78,547"
-        Number=67
-        IsHold=FALSE
-        VisualNumber="72"
-        SIGNAL_NAME="R0DE02LS2"
-        KodTeprol="R0DE02LS2"
-        Comment="диагностика модуля АКНП2 на 2 месте"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=3
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="Diagn"
-        DeviceName="VCHS02"
-        Line1="диагностика модуля АКНП2 "
-        Line2="на 2 месте"
-      }
-      [TDrawSignal]{
-        R="18,554,78,594"
-        Number=68
-        IsHold=FALSE
-        VisualNumber="73"
-        SIGNAL_NAME="R0DE04LS2"
-        KodTeprol="R0DE04LS2"
-        Comment="диагностика модуля АКНП2 на 4 месте"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=3
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="Diagn"
-        DeviceName="VDS32"
-        Line1="диагностика модуля АКНП2 "
-        Line2="на 4 месте"
-      }
-      [TDrawSignal]{
-        R="96,459,156,499"
-        Number=69
-        IsHold=FALSE
-        VisualNumber="77"
-        SIGNAL_NAME="R0DE05LS2"
-        KodTeprol="R0DE05LS2"
-        Comment="диагностика модуля АКНП2 на 5 месте"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=3
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="Diagn"
-        DeviceName="FDS16"
-        Line1="диагностика модуля АКНП2 "
-        Line2="на 5 месте"
-      }
-      [TModule]{
-        R="117,527,147,567"
-        Number=70
-        IsHold=FALSE
-        VisualNumber="78"
-        ABBRV="DIAGNDEV"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=70
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=70
-            ConstName="N"
-          }
-          [VVV_GCPoint]{
-            Number=70
-            ParameterName="n"
-            Index=-1
-          }
-        }
-      }
       [VVV_DrawConnector]{
         Number=71
         IsHold=FALSE
-        p0="78:476"
-        p1="90:476"
-        p2="90:535"
-        p3="117:535"
+        p0="74:464"
+        p1="98:464"
+        p2="98:526"
+        p3="108:526"
         BNumber=66
         ENumber=70
         Comment="диагностика модуля АКНП2 на 1 месте --> x - массив значений от контроллеров"
@@ -3897,10 +4258,10 @@
       [VVV_DrawConnector]{
         Number=72
         IsHold=FALSE
-        p0="78:524"
-        p1="86:524"
-        p2="86:542"
-        p3="117:542"
+        p0="74:506"
+        p1="95:506"
+        p2="95:534"
+        p3="108:534"
         BNumber=67
         ENumber=70
         Comment="диагностика модуля АКНП2 на 2 месте --> x - массив значений от контроллеров"
@@ -3920,10 +4281,10 @@
       [VVV_DrawConnector]{
         Number=73
         IsHold=FALSE
-        p0="78:566"
-        p1="86:566"
-        p2="86:548"
-        p3="117:548"
+        p0="74:552"
+        p1="95:552"
+        p2="95:536"
+        p3="108:536"
         BNumber=68
         ENumber=70
         Comment="диагностика модуля АКНП2 на 4 месте --> x - массив значений от контроллеров"
@@ -3943,8 +4304,10 @@
       [VVV_DrawConnector]{
         Number=74
         IsHold=FALSE
-        p0="123:499"
-        p1="123:527"
+        p0="74:599"
+        p1="98:599"
+        p2="98:540"
+        p3="108:540"
         BNumber=69
         ENumber=70
         Comment="диагностика модуля АКНП2 на 5 месте --> x - массив значений от контроллеров"
@@ -3961,38 +4324,11 @@
           Index=3
         }
       }
-      [TDrawSignal]{
-        R="175,576,205,616"
-        Number=75
-        IsHold=FALSE
-        VisualNumber="81"
-        SIGNAL_NAME="TTLaknp2"
-        KodTeprol="TTLaknp2"
-        Comment="TTL"
-        Type=2
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=3
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="AKNP2"
-        ChannalName=""
-        DeviceName=""
-        Line1="TTL"
-      }
       [VVV_DrawConnector]{
         Number=76
         IsHold=FALSE
-        p0="147:557"
-        p1="189:557"
-        p2="189:576"
+        p0="121:556"
+        p1="121:583"
         BNumber=70
         ENumber=75
         Comment="ttl - время жизни"
@@ -4009,74 +4345,13 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="18,624,78,664"
-        Number=77
-        IsHold=FALSE
-        VisualNumber="74"
-        SIGNAL_NAME="R0DE31LS2"
-        KodTeprol="R0DE31LS2"
-        Comment="диагностика шкафа АКНП2 сеть 1"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S01SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="сеть 1"
-      }
-      [TDrawSignal]{
-        R="18,677,78,717"
-        Number=78
-        IsHold=FALSE
-        VisualNumber="75"
-        SIGNAL_NAME="R0DE32LS2"
-        KodTeprol="R0DE32LS2"
-        Comment="диагностика шкафа АКНП2 сеть 2"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S02SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="сеть 2"
-      }
-      [TModule]{
-        R="118,652,148,692"
-        Number=79
-        IsHold=FALSE
-        VisualNumber="79"
-        ABBRV="AND2"
-      }
       [VVV_DrawConnector]{
         Number=80
         IsHold=FALSE
-        p0="78:642"
-        p1="112:642"
-        p2="112:663"
-        p3="118:663"
+        p0="74:653"
+        p1="97:653"
+        p2="97:661"
+        p3="108:661"
         BNumber=77
         ENumber=79
         Comment="диагностика шкафа АКНП2 сеть 1 --> x1 - вход 1"
@@ -4096,10 +4371,10 @@
       [VVV_DrawConnector]{
         Number=81
         IsHold=FALSE
-        p0="78:705"
-        p1="111:705"
-        p2="111:676"
-        p3="118:676"
+        p0="74:699"
+        p1="98:699"
+        p2="98:670"
+        p3="108:670"
         BNumber=78
         ENumber=79
         Comment="диагностика шкафа АКНП2 сеть 2 --> x2 - вход 2"
@@ -4117,202 +4392,13 @@
         }
       }
       [TDrawSignal]{
-        R="17,768,77,808"
-        Number=82
-        IsHold=FALSE
-        VisualNumber="76"
-        SIGNAL_NAME="R0DE33LS2"
-        KodTeprol="R0DE33LS2"
-        Comment="диагностика шкафа АКНП2 двери"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S03SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="двери"
-      }
-      [TDrawSignal]{
-        R="95,768,155,808"
-        Number=83
-        IsHold=FALSE
-        VisualNumber="80"
-        SIGNAL_NAME="R0DE34LS2"
-        KodTeprol="R0DE34LS2"
-        Comment="диагностика шкафа АКНП2 температура меньше 43"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S04SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="температура меньше 43"
-      }
-      [TDrawSignal]{
-        R="177,768,237,808"
-        Number=84
-        IsHold=FALSE
-        VisualNumber="82"
-        SIGNAL_NAME="R0DE35LS2"
-        KodTeprol="R0DE35LS2"
-        Comment="диагностика шкафа АКНП2 температура больше 53"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S05SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="температура больше 53"
-      }
-      [TDrawSignal]{
-        R="329,459,389,499"
+        R="285,451,345,491"
         Number=85
         IsHold=FALSE
-        VisualNumber="84"
-        SIGNAL_NAME="R0DE36LS2"
-        KodTeprol="R0DE36LS2"
-        Comment="диагностика шкафа АКНП2 МП15-3.1 место 1"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S06SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="МП15-3.1 место 1"
-      }
-      [TDrawSignal]{
-        R="408,459,468,499"
-        Number=86
-        IsHold=FALSE
-        VisualNumber="87"
-        SIGNAL_NAME="R0DE37LS2"
-        KodTeprol="R0DE37LS2"
-        Comment="диагностика шкафа АКНП2 МП15-3.1 место 2"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S07SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="МП15-3.1 место 2"
-      }
-      [TDrawSignal]{
-        R="486,459,546,499"
-        Number=87
-        IsHold=FALSE
-        VisualNumber="89"
-        SIGNAL_NAME="R0DE38LS2"
-        KodTeprol="R0DE38LS2"
-        Comment="диагностика шкафа АКНП2 МП15-3 место 3"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S08SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="МП15-3 место 3"
-      }
-      [TDrawSignal]{
-        R="566,459,626,499"
-        Number=88
-        IsHold=FALSE
-        VisualNumber="90"
-        SIGNAL_NAME="R0DE39LS2"
-        KodTeprol="R0DE39LS2"
-        Comment="диагностика шкафа АКНП2 МП24-2 место 4"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnAKNP2"
-        ChannalName="S09SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="МП24-2 место 4"
-      }
-      [TDrawSignal]{
-        R="566,507,626,547"
-        Number=89
-        IsHold=FALSE
-        VisualNumber="91"
-        SIGNAL_NAME="R0DE3ALS2"
-        KodTeprol="R0DE3ALS2"
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 5"
+        VisualNumber=""
+        SIGNAL_NAME="R0DEB1LS2"
+        KodTeprol="R0DEB1LS2"
+        Comment="диагностика шкафа РПУ БП5 место 7"
         Type=3
         ParamType=0
         Value=""
@@ -4329,17 +4415,17 @@
         InterfaceMB="DiagnAKNP2"
         ChannalName="S10SBK"
         DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="БП5/24Д место 5"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП5 место 7"
       }
       [TDrawSignal]{
-        R="566,554,626,594"
-        Number=90
+        R="285,495,345,535"
+        Number=89
         IsHold=FALSE
-        VisualNumber="92"
-        SIGNAL_NAME="R0DE3BLS2"
-        KodTeprol="R0DE3BLS2"
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 6"
+        VisualNumber=""
+        SIGNAL_NAME="R0DEB2LS2"
+        KodTeprol="R0DEB2LS2"
+        Comment="диагностика шкафа РПУ БП24Д место 7"
         Type=3
         ParamType=0
         Value=""
@@ -4356,17 +4442,17 @@
         InterfaceMB="DiagnAKNP2"
         ChannalName="S11SBK"
         DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="БП5/24Д место 6"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП24Д место 7"
       }
       [TDrawSignal]{
-        R="329,508,389,548"
-        Number=91
+        R="471,451,531,491"
+        Number=90
         IsHold=FALSE
-        VisualNumber="85"
-        SIGNAL_NAME="R0DE3CLS2"
-        KodTeprol="R0DE3CLS2"
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 7"
+        VisualNumber=""
+        SIGNAL_NAME="R0DEB3LS2"
+        KodTeprol="R0DEB3LS2"
+        Comment="диагностика шкафа РПУ БП5 место 8"
         Type=3
         ParamType=0
         Value=""
@@ -4383,17 +4469,17 @@
         InterfaceMB="DiagnAKNP2"
         ChannalName="S12SBK"
         DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="БП5/24Д место 7"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП5 место 8"
       }
       [TDrawSignal]{
-        R="566,607,626,647"
-        Number=92
+        R="471,501,531,541"
+        Number=94
         IsHold=FALSE
-        VisualNumber="93"
-        SIGNAL_NAME="R0DE3DLS2"
-        KodTeprol="R0DE3DLS2"
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 8"
+        VisualNumber=""
+        SIGNAL_NAME="R0DEB4LS2"
+        KodTeprol="R0DEB4LS2"
+        Comment="диагностика шкафа РПУ БП24Д место 8"
         Type=3
         ParamType=0
         Value=""
@@ -4410,48 +4496,171 @@
         InterfaceMB="DiagnAKNP2"
         ChannalName="S13SBK"
         DeviceName="SBKFP"
-        Line1="диагностика шкафа АКНП2 "
-        Line2="БП5/24Д место 8"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП24Д место 8"
       }
       [TModule]{
-        R="462,558,492,598"
-        Number=93
+        R="377,477,407,517"
+        Number=95
         IsHold=FALSE
-        VisualNumber="88"
-        ABBRV="ORN"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=93
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=93
-            ConstName="N4"
-          }
-          [VVV_GCPoint]{
-            Number=93
-            ParameterName="n"
-            Index=-1
-          }
-        }
+        VisualNumber=""
+        ABBRV="OR2"
+      }
+      [TModule]{
+        R="588,477,618,517"
+        Number=96
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="OR2"
       }
       [VVV_DrawConnector]{
-        Number=94
+        Number=97
         IsHold=FALSE
-        p0="389:477"
-        p1="402:477"
-        p2="402:570"
-        p3="462:570"
+        p0="345:468"
+        p1="369:468"
+        p2="369:485"
+        p3="377:485"
         BNumber=85
-        ENumber=93
-        Comment="диагностика шкафа АКНП2 МП15-3.1 место 1 --> x - массив входных параметров"
+        ENumber=95
+        Comment="диагностика шкафа РПУ БП5 место 7 --> x1 - вход 1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
           Number=85
-          ParameterName="R0DE36LS2"
+          ParameterName="R0DEB1LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=98
+        IsHold=FALSE
+        p0="345:513"
+        p1="369:513"
+        p2="369:498"
+        p3="377:498"
+        BNumber=89
+        ENumber=95
+        Comment="диагностика шкафа РПУ БП24Д место 7 --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=89
+          ParameterName="R0DEB2LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=99
+        IsHold=FALSE
+        p0="531:468"
+        p1="570:468"
+        p2="570:484"
+        p3="588:484"
+        BNumber=90
+        ENumber=96
+        Comment="диагностика шкафа РПУ БП5 место 8 --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=90
+          ParameterName="R0DEB3LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=96
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=100
+        IsHold=FALSE
+        p0="531:519"
+        p1="571:519"
+        p2="571:496"
+        p3="588:496"
+        BNumber=94
+        ENumber=96
+        Comment="диагностика шкафа РПУ БП24Д место 8 --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=94
+          ParameterName="R0DEB4LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=96
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=101
+        IsHold=FALSE
+        p0="394:517"
+        p1="394:556"
+        BNumber=95
+        ENumber=92
+        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 8"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="R0DE3DLS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=103
+        IsHold=FALSE
+        p0="601:517"
+        p1="601:557"
+        BNumber=96
+        ENumber=91
+        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 7"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=96
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=91
+          ParameterName="R0DE3CLS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=104
+        IsHold=FALSE
+        p0="394:550"
+        p1="482:550"
+        p2="482:664"
+        BNumber=101
+        ENumber=93
+        Comment="y - выходной параметр --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="y"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -4461,20 +4670,19 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=95
+        Number=105
         IsHold=FALSE
-        p0="389:525"
-        p1="401:525"
-        p2="401:578"
-        p3="462:578"
-        BNumber=91
+        p0="601:550"
+        p1="487:550"
+        p2="487:664"
+        BNumber=103
         ENumber=93
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 7 --> x - массив входных параметров"
+        Comment="y - выходной параметр --> x - массив входных параметров"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=91
-          ParameterName="R0DE3CLS2"
+          Number=96
+          ParameterName="y"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -4484,11 +4692,12 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=96
+        Number=107
         IsHold=FALSE
-        p0="412:499"
-        p1="412:566"
-        p2="462:566"
+        p0="345:632"
+        p1="449:632"
+        p2="449:674"
+        p3="471:674"
         BNumber=86
         ENumber=93
         Comment="диагностика шкафа АКНП2 МП15-3.1 место 2 --> x - массив входных параметров"
@@ -4506,13 +4715,10 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=97
+        Number=108
         IsHold=FALSE
-        p0="500:499"
-        p1="500:508"
-        p2="416:508"
-        p3="416:563"
-        p4="462:563"
+        p0="345:682"
+        p1="471:682"
         BNumber=87
         ENumber=93
         Comment="диагностика шкафа АКНП2 МП15-3 место 3 --> x - массив входных параметров"
@@ -4530,13 +4736,12 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=98
+        Number=109
         IsHold=FALSE
-        p0="566:480"
-        p1="551:480"
-        p2="551:521"
-        p3="465:521"
-        p4="465:558"
+        p0="345:730"
+        p1="452:730"
+        p2="452:690"
+        p3="471:690"
         BNumber=88
         ENumber=93
         Comment="диагностика шкафа АКНП2 МП24-2 место 4 --> x - массив входных параметров"
@@ -4554,112 +4759,33 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=99
+        Number=110
         IsHold=FALSE
-        p0="566:524"
-        p1="468:524"
-        p2="468:558"
-        BNumber=89
-        ENumber=93
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 5 --> x - массив входных параметров"
+        p0="400:849"
+        p1="458:849"
+        BNumber=102
+        ENumber=106
+        Comment="y - выходной параметр"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=89
-          ParameterName="R0DE3ALS2"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=93
-          ParameterName="x"
-          Index=5
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=100
-        IsHold=FALSE
-        p0="566:572"
-        p1="548:572"
-        p2="548:531"
-        p3="473:531"
-        p4="473:558"
-        BNumber=90
-        ENumber=93
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 6 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=90
-          ParameterName="R0DE3BLS2"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=93
-          ParameterName="x"
-          Index=6
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=101
-        IsHold=FALSE
-        p0="566:623"
-        p1="541:623"
-        p2="541:537"
-        p3="477:537"
-        p4="477:558"
-        BNumber=92
-        ENumber=93
-        Comment="диагностика шкафа АКНП2 БП5/24Д место 8 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=92
-          ParameterName="R0DE3DLS2"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=93
-          ParameterName="x"
-          Index=7
-        }
-      }
-      [TModule]{
-        R="295,635,325,675"
-        Number=102
-        IsHold=FALSE
-        VisualNumber="83"
-        ABBRV="OR3"
-      }
-      [VVV_DrawConnector]{
-        Number=103
-        IsHold=FALSE
-        p0="148:675"
-        p1="284:675"
-        p2="284:657"
-        p3="295:657"
-        BNumber=79
-        ENumber=102
-        Comment="y - выходной параметр --> x2 - вход 2"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=79
+          Number=102
           ParameterName="y"
           Index=-1
         }
         [VVV_GCPoint]{
-          Number=102
-          ParameterName="x2"
+          Number=106
+          ParameterName="TestDiagnAKNP2"
           Index=-1
         }
       }
       [VVV_DrawConnector]{
-        Number=104
+        Number=111
         IsHold=FALSE
-        p0="147:548"
-        p1="286:548"
-        p2="286:645"
-        p3="295:645"
+        p0="138:535"
+        p1="265:535"
+        p2="265:845"
+        p3="370:845"
         BNumber=70
         ENumber=102
         Comment="y - неисправность контроллеров --> x1 - вход 1"
@@ -4677,12 +4803,35 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=105
+        Number=112
         IsHold=FALSE
-        p0="474:598"
-        p1="474:631"
-        p2="308:631"
-        p3="308:635"
+        p0="138:660"
+        p1="261:660"
+        p2="261:852"
+        p3="370:852"
+        BNumber=79
+        ENumber=102
+        Comment="y - выходной параметр --> x2 - вход 2"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=79
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=102
+          ParameterName="x2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=113
+        IsHold=FALSE
+        p0="481:704"
+        p1="481:775"
+        p2="377:775"
+        p3="377:826"
         BNumber=93
         ENumber=102
         Comment="y - выходной параметр --> x3 - вход 3"
@@ -4699,56 +4848,7 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="374,698,404,738"
-        Number=106
-        IsHold=FALSE
-        VisualNumber="86"
-        SIGNAL_NAME="TestDiagnAKNP2"
-        KodTeprol="TestDiagnAKNP2"
-        Comment="Неисправность от диагностики"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="AKNP2"
-        ChannalName=""
-        DeviceName=""
-        Line1="Неисправность от "
-        Line2="диагностики"
-      }
-      [VVV_DrawConnector]{
-        Number=107
-        IsHold=FALSE
-        p0="325:657"
-        p1="390:657"
-        p2="390:698"
-        BNumber=102
-        ENumber=106
-        Comment="y - выходной параметр"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=102
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=106
-          ParameterName="TestDiagnAKNP2"
-          Index=-1
-        }
-      }
     }
   }
 }
-4581128
+4673424

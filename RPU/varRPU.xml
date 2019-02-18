@@ -1,4 +1,6 @@
 <vars>
+<var  name="R0DE03LRP" description="(R0DE03LRP) диагностика модуля РПУ-ВЧС место 3" format="3"></var>
+<var  name="R0DE02LRP" description="(R0DE02LRP) диагностика модуля РПУ-ВЧС место 2" format="3"></var>
 <var  name="R0DE01LRP" description="(R0DE01LRP) диагностика модуля РПУ-ВЧС место 1" format="3"></var>
 <var  name="R0EE02LDU" description="(R0EE02LDU) Питание  АКНП  отключить" format="1"></var>
 <var  name="B7MZ31LRP" description="(B7MZ31LRP) Клапан ОБДУВ АЗ2 открыть(обесточить)" format="1"></var>
@@ -17,13 +19,14 @@
 <var  name="A1IS21LRP" description="(A1IS21LRP) Приход на НУ ББ1" format="1"></var>
 <var  name="B3IS21LRP" description="(B3IS21LRP) Приход на НУ ИС2" format="1"></var>
 <var  name="A3IS21LRP" description="(A3IS21LRP) Приход на НУ ИС1" format="1"></var>
-<var  name="R7VE70LRP" description="(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера" format="1"></var>
+<var  name="R0DEB4LRP" description="(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
+<var  name="R0DEB3LRP" description="(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8" format="1"></var>
+<var  name="R0DEB2LRP" description="(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
+<var  name="R0DEB1LRP" description="(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7" format="1"></var>
 <var  name="TTLrpu" description="(TTLrpu) ttl" format="3"></var>
 <var  name="TestDiagnRPU" description="(TestDiagnRPU) Неисправность от диагностики" format="1"></var>
 <var  name="R0DE3DLRP" description="(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="R0DE3CLRP" description="(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7" format="1"></var>
-<var  name="R0DE3BLRP" description="(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6" format="1"></var>
-<var  name="R0DE3ALRP" description="(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5" format="1"></var>
 <var  name="R0DE39LRP" description="(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4" format="1"></var>
 <var  name="R0DE38LRP" description="(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3" format="1"></var>
 <var  name="R0DE37LRP" description="(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2" format="1"></var>
@@ -36,8 +39,7 @@
 <var  name="R0DE07LRP" description="(R0DE07LRP) диагностика модуля РПУ-ВДС место 7" format="3"></var>
 <var  name="R0DE08LRP" description="(R0DE08LRP) диагностика модуля РПУ-ФДС место 8" format="3"></var>
 <var  name="R0DE06LRP" description="(R0DE06LRP) диагностика модуля РПУ-ВАС место 6" format="3"></var>
-<var  name="R0DE03LRP" description="(R0DE03LRP) диагностика модуля РПУ-ВЧС место 3" format="3"></var>
-<var  name="R0DE02LRP" description="(R0DE02LRP) диагностика модуля РПУ-ВЧС место 2" format="3"></var>
+<var  name="R0ET01LRP" description="(R0ET01LRP) Признак наличия неисправности по температуре  АЗ1-3" format="1"></var>
 <var  name="A0VT71LRP" description="(A0VT71LRP) АС по температуре в АЗ1" format="1"></var>
 <var  name="A0VT61LRP" description="(A0VT61LRP) ПС по температуре в АЗ1" format="1"></var>
 <var  name="A0CT01IRP" description="(A0CT01IRP) Температура АЗ1-3" format="8"></var>
@@ -57,6 +59,7 @@
 <var  name="R0IN02RRP" description="(R0IN02RRP) Частота КНК15-1 Гц (канал 5)" format="8"></var>
 <var  name="R0IN01RRP" description="(R0IN01RRP) Частота СНМ-11 Гц (канал 5)" format="8"></var>
 <var  name="R0VN02RRP" description="(R0VN02RRP) Уровень мощности канал 5" format="8"></var>
+<var  name="R7VE70LRP" description="(R7VE70LRP) Сигнал тревоги по неисправности РПУ на диспетчера" format="1"></var>
 <var  name="B6IS11LRP" description="(B6IS11LRP) Приход на ВУ БЗ2" format="1"></var>
 <var  name="A6IS11LRP" description="(A6IS11LRP) Приход на ВУ БЗ1" format="1"></var>
 <var  name="R0VN13RRP" description="(R0VN13RRP) Нейтронный поток по камере  СНМ-11 канал 5" format="8"></var>
@@ -76,7 +79,6 @@
 <var  name="B0CT01IRP" description="(B0CT01IRP) Температура АЗ2-3" format="8"></var>
 <var  name="R0ET02LRP" description="(R0ET02LRP) Признак наличия неисправности по температуре АЗ2-3" format="1"></var>
 <var  name="B0IT03IRP" description="(B0IT03IRP) Температура АЗ2-3" format="3"></var>
-<var  name="R0ET01LRP" description="(R0ET01LRP) Признак наличия неисправности по температуре  АЗ1-3" format="1"></var>
 
 <var  name="fEM_R0UH02RSS" description="(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1" format="8"></var>
 <var  name="fEM_R0UH03RSS" description="(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М" format="8"></var>
@@ -117,5 +119,5 @@
 <var  name="internal1_m90_y1" description="(internal1_m90_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m101_y1" description="(internal1_m101_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m88_y1" description="(internal1_m88_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m99_y1" description="(internal1_m99_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m98_y1" description="(internal1_m98_y1) y1 - внутренний параметр" format="1"></var>
 </vars>

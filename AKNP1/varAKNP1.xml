@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
 <var  name="A1EE01LS1" description="(A1EE01LS1) Исправность АКНП1 на БАЗ2" format="1"></var>
 <var  name="A1VN71LS1" description="(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2" format="1"></var>
 <var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
@@ -15,15 +14,16 @@
 <var  name="R0DE33LS1" description="(R0DE33LS1) диагностика шкафа АКНП1 двери" format="1"></var>
 <var  name="R0DE34LS1" description="(R0DE34LS1) диагностика шкафа АКНП1 температура меньше 43" format="1"></var>
 <var  name="R0DE35LS1" description="(R0DE35LS1) диагностика шкафа АКНП1 температура больше 53" format="1"></var>
-<var  name="R0DE36LS1" description="(R0DE36LS1) диагностика шкафа АКНП1 МП15-3.1 место 1" format="1"></var>
 <var  name="R0DE37LS1" description="(R0DE37LS1) диагностика шкафа АКНП1 МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE38LS1" description="(R0DE38LS1) диагностика шкафа АКНП1 МП15-3 место 3" format="1"></var>
 <var  name="R0DE39LS1" description="(R0DE39LS1) диагностика шкафа АКНП1 МП24-2 место 4" format="1"></var>
-<var  name="R0DE3ALS1" description="(R0DE3ALS1) диагностика шкафа АКНП1 БП5/24Д место 5" format="1"></var>
-<var  name="R0DE3BLS1" description="(R0DE3BLS1) диагностика шкафа АКНП1 БП5/24Д место 6" format="1"></var>
 <var  name="R0DE3CLS1" description="(R0DE3CLS1) диагностика шкафа АКНП1 БП5/24Д место 7" format="1"></var>
 <var  name="R0DE3DLS1" description="(R0DE3DLS1) диагностика шкафа АКНП1 БП5/24Д место 8" format="1"></var>
 <var  name="TestDiagnAKNP1" description="(TestDiagnAKNP1) Неисправность от диагностики" format="1"></var>
+<var  name="R0DEB1LS1" description="(R0DEB1LS1) диагностика шкафа РПУ БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS1" description="(R0DEB2LS1) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS1" description="(R0DEB3LS1) диагностика шкафа РПУ БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS1" description="(R0DEB4LS1) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности" format="8"></var>
 <var  name="R0VN01RS1" description="(R0VN01RS1) Период разгона канал1" format="8"></var>
 <var  name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал1" format="1"></var>
@@ -49,6 +49,7 @@
 <var  name="R0IE01LS1" description="(R0IE01LS1) Отключение питание детекторов 1 канала" format="1"></var>
 <var  name="R0IE02LS1" description="(R0IE02LS1) Отключить питание ПР, ПУ 1 канала" format="1"></var>
 <var  name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности на БАЗ2" format="1"></var>
+<var  name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгонана БАЗ2" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
@@ -78,7 +79,7 @@
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Предельное время ожидания роста потока (мс)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m13_Nk" description="(internal1_m13_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m15_Nk" description="(internal1_m15_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m45_tst" description="(internal1_m45_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
 <var  name="internal1_m45_trz" description="(internal1_m45_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
 <var  name="internal1_m45_N1" description="(internal1_m45_N1) - массив значения мощности в начале замера" format="8" size="5"></var>

@@ -71,94 +71,94 @@
     </format>
     <records>
         <record>
-            <value name="name">R0DE31LS2</value>
-            <value name="description">(R0DE31LS2) диагностика шкафа АКНП2 сеть 1</value>
+            <value name="name">R0DEB4LS2</value>
+            <value name="description">(R0DEB4LS2) диагностика шкафа РПУ БП24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">5</value>
+            <value name="nID">1</value>
             <value name="PType">131</value>
-            <value name="Bf0">111</value>
-            <value name="ParData">12</value>
-            <value name="OldData">12</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE32LS2</value>
-            <value name="description">(R0DE32LS2) диагностика шкафа АКНП2 сеть 2</value>
+            <value name="name">R0DEB3LS2</value>
+            <value name="description">(R0DEB3LS2) диагностика шкафа РПУ БП5 место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
-            <value name="nID">6</value>
+            <value name="nID">2</value>
             <value name="PType">131</value>
-            <value name="Bf0">113</value>
-            <value name="ParData">14</value>
-            <value name="OldData">14</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">2</value>
+            <value name="OldData">2</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE33LS2</value>
-            <value name="description">(R0DE33LS2) диагностика шкафа АКНП2 двери</value>
+            <value name="name">R0DEB2LS2</value>
+            <value name="description">(R0DEB2LS2) диагностика шкафа РПУ БП24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
-            <value name="nID">7</value>
+            <value name="nID">3</value>
             <value name="PType">131</value>
-            <value name="Bf0">115</value>
-            <value name="ParData">16</value>
-            <value name="OldData">16</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">4</value>
+            <value name="OldData">4</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE34LS2</value>
-            <value name="description">(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43</value>
+            <value name="name">R0DEB1LS2</value>
+            <value name="description">(R0DEB1LS2) диагностика шкафа РПУ БП5 место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
-            <value name="nID">8</value>
+            <value name="nID">4</value>
             <value name="PType">131</value>
-            <value name="Bf0">117</value>
-            <value name="ParData">18</value>
-            <value name="OldData">18</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">6</value>
+            <value name="OldData">6</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE35LS2</value>
-            <value name="description">(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53</value>
+            <value name="name">R0DE3DLS2</value>
+            <value name="description">(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
-            <value name="nID">9</value>
+            <value name="nID">5</value>
             <value name="PType">131</value>
-            <value name="Bf0">119</value>
-            <value name="ParData">20</value>
-            <value name="OldData">20</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE36LS2</value>
-            <value name="description">(R0DE36LS2) диагностика шкафа АКНП2 МП15-3.1 место 1</value>
+            <value name="name">R0DE3CLS2</value>
+            <value name="description">(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
-            <value name="nID">10</value>
+            <value name="nID">6</value>
             <value name="PType">131</value>
-            <value name="Bf0">121</value>
-            <value name="ParData">22</value>
-            <value name="OldData">22</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE37LS2</value>
-            <value name="description">(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2</value>
+            <value name="name">R0DE39LS2</value>
+            <value name="description">(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
-            <value name="nID">11</value>
+            <value name="nID">7</value>
             <value name="PType">131</value>
-            <value name="Bf0">123</value>
-            <value name="ParData">24</value>
-            <value name="OldData">24</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -167,115 +167,89 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
-            <value name="nID">12</value>
+            <value name="nID">8</value>
             <value name="PType">131</value>
-            <value name="Bf0">125</value>
-            <value name="ParData">26</value>
-            <value name="OldData">26</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE39LS2</value>
-            <value name="description">(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4</value>
+            <value name="name">R0DE37LS2</value>
+            <value name="description">(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
-            <value name="nID">13</value>
+            <value name="nID">9</value>
             <value name="PType">131</value>
-            <value name="Bf0">127</value>
-            <value name="ParData">28</value>
-            <value name="OldData">28</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3ALS2</value>
-            <value name="description">(R0DE3ALS2) диагностика шкафа АКНП2 БП5/24Д место 5</value>
+            <value name="name">R0DE35LS2</value>
+            <value name="description">(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
-            <value name="nID">14</value>
+            <value name="nID">10</value>
             <value name="PType">131</value>
-            <value name="Bf0">129</value>
-            <value name="ParData">30</value>
-            <value name="OldData">30</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3BLS2</value>
-            <value name="description">(R0DE3BLS2) диагностика шкафа АКНП2 БП5/24Д место 6</value>
+            <value name="name">R0DE34LS2</value>
+            <value name="description">(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
-            <value name="nID">15</value>
+            <value name="nID">11</value>
             <value name="PType">131</value>
-            <value name="Bf0">131</value>
-            <value name="ParData">32</value>
-            <value name="OldData">32</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3CLS2</value>
-            <value name="description">(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7</value>
+            <value name="name">R0DE33LS2</value>
+            <value name="description">(R0DE33LS2) диагностика шкафа АКНП2 двери</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
-            <value name="nID">16</value>
+            <value name="nID">12</value>
             <value name="PType">131</value>
-            <value name="Bf0">133</value>
-            <value name="ParData">34</value>
-            <value name="OldData">34</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">22</value>
+            <value name="OldData">22</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3DLS2</value>
-            <value name="description">(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8</value>
+            <value name="name">R0DE32LS2</value>
+            <value name="description">(R0DE32LS2) диагностика шкафа АКНП2 сеть 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
-            <value name="nID">17</value>
+            <value name="nID">13</value>
             <value name="PType">131</value>
-            <value name="Bf0">135</value>
-            <value name="ParData">36</value>
-            <value name="OldData">36</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">24</value>
+            <value name="OldData">24</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE01LS2</value>
-            <value name="description">(R0DE01LS2) диагностика модуля АКНП2 на 1 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">0</value>
-            <value name="nID">1</value>
-            <value name="PType">130</value>
-            <value name="Bf0">96</value>
-            <value name="ParData">0</value>
-            <value name="OldData">0</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0DE02LS2</value>
-            <value name="description">(R0DE02LS2) диагностика модуля АКНП2 на 2 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">1</value>
-            <value name="nID">2</value>
-            <value name="PType">130</value>
-            <value name="Bf0">99</value>
-            <value name="ParData">3</value>
-            <value name="OldData">3</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0DE04LS2</value>
-            <value name="description">(R0DE04LS2) диагностика модуля АКНП2 на 4 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">2</value>
-            <value name="nID">3</value>
-            <value name="PType">130</value>
-            <value name="Bf0">102</value>
-            <value name="ParData">6</value>
-            <value name="OldData">6</value>
+            <value name="name">R0DE31LS2</value>
+            <value name="description">(R0DE31LS2) диагностика шкафа АКНП2 сеть 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">13</value>
+            <value name="nID">14</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -283,12 +257,51 @@
             <value name="description">(R0DE05LS2) диагностика модуля АКНП2 на 5 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
-            <value name="address">3</value>
-            <value name="nID">4</value>
+            <value name="address">0</value>
+            <value name="nID">15</value>
             <value name="PType">130</value>
-            <value name="Bf0">105</value>
-            <value name="ParData">9</value>
-            <value name="OldData">9</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">28</value>
+            <value name="OldData">28</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE04LS2</value>
+            <value name="description">(R0DE04LS2) диагностика модуля АКНП2 на 4 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">16</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">31</value>
+            <value name="OldData">31</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE02LS2</value>
+            <value name="description">(R0DE02LS2) диагностика модуля АКНП2 на 2 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">17</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">34</value>
+            <value name="OldData">34</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE01LS2</value>
+            <value name="description">(R0DE01LS2) диагностика модуля АКНП2 на 1 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">3</value>
+            <value name="nID">18</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">37</value>
+            <value name="OldData">37</value>
             <value name="unitId">1</value>
         </record>
     </records>

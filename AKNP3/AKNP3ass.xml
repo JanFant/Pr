@@ -20,14 +20,14 @@
         <def name="R0DE33LS3">S03SBK</def>
         <def name="R0DE34LS3">S04SBK</def>
         <def name="R0DE35LS3">S05SBK</def>
-        <def name="R0DE3DLS3">S13SBK</def>
         <def name="R0DE36LS3">S06SBK</def>
         <def name="R0DE37LS3">S07SBK</def>
-        <def name="R0DE3CLS3">S12SBK</def>
         <def name="R0DE38LS3">S08SBK</def>
-        <def name="R0DE3BLS3">S11SBK</def>
         <def name="R0DE39LS3">S09SBK</def>
-        <def name="R0DE3ALS3">S10SBK</def>
+        <def name="R0DEB1LS3">S10SBK</def>
+        <def name="R0DEB2LS3">S11SBK</def>
+        <def name="R0DEB3LS3">S12SBK</def>
+        <def name="R0DEB4LS3">S13SBK</def>
     </SBKFP>
 
 
@@ -38,16 +38,16 @@
 
 
     <VCHS02>
-        <def name="R0DE02LS3">Diagn</def>
-        <def name="R0IN03FS3">K01VCHS</def>
         <def name="R0IN02FS3">K01VCHS</def>
+        <def name="R0IN03FS3">K01VCHS</def>
+        <def name="R0DE02LS3">Diagn</def>
     </VCHS02>
 
 
     <VDS32>
-        <def name="R0DE04LS3">Diagn</def>
-        <def name="R0IE13LS3">K03VDSR</def>
-        <def name="R0IE12LS3">K02VDSR</def>
         <def name="R0IE11LS3">K01VDSR</def>
+        <def name="R0IE12LS3">K02VDSR</def>
+        <def name="R0IE13LS3">K03VDSR</def>
+        <def name="R0DE04LS3">Diagn</def>
     </VDS32>
 </assign>

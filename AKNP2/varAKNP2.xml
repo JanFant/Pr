@@ -1,4 +1,29 @@
 <vars>
+<var  name="A1EE01LS2" description="(A1EE01LS2) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
+<var  name="A0VN71LS2" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
+<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
+<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0DE01LS2" description="(R0DE01LS2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
+<var  name="R0DE02LS2" description="(R0DE02LS2) диагностика модуля АКНП2 на 2 месте" format="3"></var>
+<var  name="R0DE04LS2" description="(R0DE04LS2) диагностика модуля АКНП2 на 4 месте" format="3"></var>
+<var  name="R0DE05LS2" description="(R0DE05LS2) диагностика модуля АКНП2 на 5 месте" format="3"></var>
+<var  name="TTLaknp2" description="(TTLaknp2) TTL" format="3"></var>
+<var  name="R0DE31LS2" description="(R0DE31LS2) диагностика шкафа АКНП2 сеть 1" format="1"></var>
+<var  name="R0DE32LS2" description="(R0DE32LS2) диагностика шкафа АКНП2 сеть 2" format="1"></var>
+<var  name="R0DE33LS2" description="(R0DE33LS2) диагностика шкафа АКНП2 двери" format="1"></var>
+<var  name="R0DE34LS2" description="(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43" format="1"></var>
+<var  name="R0DE35LS2" description="(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53" format="1"></var>
+<var  name="R0DE37LS2" description="(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2" format="1"></var>
+<var  name="R0DE38LS2" description="(R0DE38LS2) диагностика шкафа АКНП2 МП15-3 место 3" format="1"></var>
+<var  name="R0DE39LS2" description="(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4" format="1"></var>
+<var  name="R0DE3CLS2" description="(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7" format="1"></var>
+<var  name="R0DE3DLS2" description="(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8" format="1"></var>
+<var  name="TestDiagnAKNP2" description="(TestDiagnAKNP2) Неисправность от диагностики" format="1"></var>
+<var  name="R0DEB1LS2" description="(R0DEB1LS2) диагностика шкафа РПУ БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS2" description="(R0DEB2LS2) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS2" description="(R0DEB3LS2) диагностика шкафа РПУ БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS2" description="(R0DEB4LS2) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
 <var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
 <var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>
@@ -25,30 +50,6 @@
 <var  name="R0IE02LS2" description="(R0IE02LS2) Отключить питание ПР, ПУ канал 2" format="1"></var>
 <var  name="R0VN72LZ2" description="(R0VN72LZ2) АС по мощности канал 2 на БАЗ2" format="1"></var>
 <var  name="R0VN76LZ2" description="(R0VN76LZ2) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
-<var  name="A1EE01LS2" description="(A1EE01LS2) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
-<var  name="A0VN71LS2" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
-<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
-<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0DE01LS2" description="(R0DE01LS2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
-<var  name="R0DE02LS2" description="(R0DE02LS2) диагностика модуля АКНП2 на 2 месте" format="3"></var>
-<var  name="R0DE04LS2" description="(R0DE04LS2) диагностика модуля АКНП2 на 4 месте" format="3"></var>
-<var  name="R0DE05LS2" description="(R0DE05LS2) диагностика модуля АКНП2 на 5 месте" format="3"></var>
-<var  name="TTLaknp2" description="(TTLaknp2) TTL" format="3"></var>
-<var  name="R0DE31LS2" description="(R0DE31LS2) диагностика шкафа АКНП2 сеть 1" format="1"></var>
-<var  name="R0DE32LS2" description="(R0DE32LS2) диагностика шкафа АКНП2 сеть 2" format="1"></var>
-<var  name="R0DE33LS2" description="(R0DE33LS2) диагностика шкафа АКНП2 двери" format="1"></var>
-<var  name="R0DE34LS2" description="(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43" format="1"></var>
-<var  name="R0DE35LS2" description="(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53" format="1"></var>
-<var  name="R0DE36LS2" description="(R0DE36LS2) диагностика шкафа АКНП2 МП15-3.1 место 1" format="1"></var>
-<var  name="R0DE37LS2" description="(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2" format="1"></var>
-<var  name="R0DE38LS2" description="(R0DE38LS2) диагностика шкафа АКНП2 МП15-3 место 3" format="1"></var>
-<var  name="R0DE39LS2" description="(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4" format="1"></var>
-<var  name="R0DE3ALS2" description="(R0DE3ALS2) диагностика шкафа АКНП2 БП5/24Д место 5" format="1"></var>
-<var  name="R0DE3BLS2" description="(R0DE3BLS2) диагностика шкафа АКНП2 БП5/24Д место 6" format="1"></var>
-<var  name="R0DE3CLS2" description="(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7" format="1"></var>
-<var  name="R0DE3DLS2" description="(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8" format="1"></var>
-<var  name="TestDiagnAKNP2" description="(TestDiagnAKNP2) Неисправность от диагностики" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП блокировки автоматического подъёма ББ(имп/сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
