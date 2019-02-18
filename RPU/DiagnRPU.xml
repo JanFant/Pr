@@ -71,8 +71,8 @@
     </format>
     <records>
         <record>
-            <value name="name">R0DE3DLRP</value>
-            <value name="description">(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8</value>
+            <value name="name">R0DEB4LRP</value>
+            <value name="description">(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -84,8 +84,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3CLRP</value>
-            <value name="description">(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7</value>
+            <value name="name">R0DEB3LRP</value>
+            <value name="description">(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -97,8 +97,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3BLRP</value>
-            <value name="description">(R0DE3BLRP) диагностика шкафа РПУ БП5/24Д место 6</value>
+            <value name="name">R0DEB2LRP</value>
+            <value name="description">(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -110,8 +110,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE3ALRP</value>
-            <value name="description">(R0DE3ALRP) диагностика шкафа РПУ БП5/24Д место 5</value>
+            <value name="name">R0DEB1LRP</value>
+            <value name="description">(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -123,8 +123,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE39LRP</value>
-            <value name="description">(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4</value>
+            <value name="name">R0DE3DLRP</value>
+            <value name="description">(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
@@ -136,8 +136,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE38LRP</value>
-            <value name="description">(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3</value>
+            <value name="name">R0DE3CLRP</value>
+            <value name="description">(R0DE3CLRP) диагностика шкафа РПУ БП5/24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
@@ -149,8 +149,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE37LRP</value>
-            <value name="description">(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2</value>
+            <value name="name">R0DE39LRP</value>
+            <value name="description">(R0DE39LRP) диагностика шкафа РПУ МП24-2 место 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -162,8 +162,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE36LRP</value>
-            <value name="description">(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1</value>
+            <value name="name">R0DE38LRP</value>
+            <value name="description">(R0DE38LRP) диагностика шкафа РПУ МП15-3 место 3</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -175,8 +175,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE35LRP</value>
-            <value name="description">(R0DE35LRP) диагностика шкафа РПУ температура больше 53</value>
+            <value name="name">R0DE37LRP</value>
+            <value name="description">(R0DE37LRP) диагностика шкафа РПУ МП15-3.1 место 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
@@ -188,8 +188,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE34LRP</value>
-            <value name="description">(R0DE34LRP) диагностика шкафа РПУ температура меньше 43</value>
+            <value name="name">R0DE36LRP</value>
+            <value name="description">(R0DE36LRP) диагностика шкафа РПУ МП15-3.1 место 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
@@ -201,8 +201,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE33LRP</value>
-            <value name="description">(R0DE33LRP) диагностика шкафа РПУ двери</value>
+            <value name="name">R0DE35LRP</value>
+            <value name="description">(R0DE35LRP) диагностика шкафа РПУ температура больше 53</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
@@ -214,8 +214,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE32LRP</value>
-            <value name="description">(R0DE32LRP) диагностика шкафа РПУ сеть 2</value>
+            <value name="name">R0DE34LRP</value>
+            <value name="description">(R0DE34LRP) диагностика шкафа РПУ температура меньше 43</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
@@ -227,8 +227,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE31LRP</value>
-            <value name="description">(R0DE31LRP) диагностика шкафа РПУ сеть 1</value>
+            <value name="name">R0DE33LRP</value>
+            <value name="description">(R0DE33LRP) диагностика шкафа РПУ двери</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
@@ -240,16 +240,42 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0DE32LRP</value>
+            <value name="description">(R0DE32LRP) диагностика шкафа РПУ сеть 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">13</value>
+            <value name="nID">14</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE31LRP</value>
+            <value name="description">(R0DE31LRP) диагностика шкафа РПУ сеть 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">14</value>
+            <value name="nID">15</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">28</value>
+            <value name="OldData">28</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0DE07LRP</value>
             <value name="description">(R0DE07LRP) диагностика модуля РПУ-ВДС место 7</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
-            <value name="nID">14</value>
+            <value name="nID">16</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">26</value>
-            <value name="OldData">26</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -258,11 +284,11 @@
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>
-            <value name="nID">15</value>
+            <value name="nID">17</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">29</value>
-            <value name="OldData">29</value>
+            <value name="ParData">33</value>
+            <value name="OldData">33</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -271,11 +297,11 @@
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">2</value>
-            <value name="nID">16</value>
+            <value name="nID">18</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">32</value>
-            <value name="OldData">32</value>
+            <value name="ParData">36</value>
+            <value name="OldData">36</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -284,11 +310,11 @@
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>
-            <value name="nID">17</value>
+            <value name="nID">19</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">35</value>
-            <value name="OldData">35</value>
+            <value name="ParData">39</value>
+            <value name="OldData">39</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -297,11 +323,11 @@
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">4</value>
-            <value name="nID">18</value>
+            <value name="nID">20</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">38</value>
-            <value name="OldData">38</value>
+            <value name="ParData">42</value>
+            <value name="OldData">42</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -310,11 +336,11 @@
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">5</value>
-            <value name="nID">19</value>
+            <value name="nID">21</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">41</value>
-            <value name="OldData">41</value>
+            <value name="ParData">45</value>
+            <value name="OldData">45</value>
             <value name="unitId">1</value>
         </record>
     </records>
