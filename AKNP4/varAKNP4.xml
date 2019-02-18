@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
 <var  name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
 <var  name="A1EE01LS4" description="(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
 <var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
@@ -22,7 +21,10 @@
 <var  name="R0DE3DLS4" description="(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8" format="1"></var>
 <var  name="TTLaknp4" description="(TTLaknp4) ttl" format="3"></var>
 <var  name="TestDiagnAKNP4" description="(TestDiagnAKNP4) Неисправность от диагностики" format="1"></var>
-<var  name="R0DEB1LS4" description="(R0DEB1LS4) диагностика шкафа РПУ БП5 место 7" format="1"></var>
+<var  name="R0DEB1LS4" description="(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS4" description="(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS4" description="(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS4" description="(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности канал 4" format="8"></var>
 <var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
 <var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>
@@ -48,6 +50,7 @@
 <var  name="R0IE01LS4" description="(R0IE01LS4) Отключение питание детекторов канал 4" format="1"></var>
 <var  name="R0IE02LS4" description="(R0IE02LS4) Отключить питание ПР, ПУ канал 4" format="1"></var>
 <var  name="A0VN71LS4" description="(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1" format="1"></var>
+<var  name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4 на БАЗ2" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>

@@ -25,8 +25,8 @@
         <def name="R0DE39LS1">S09SBK</def>
         <def name="R0DEB1LS1">S10SBK</def>
         <def name="R0DEB2LS1">S11SBK</def>
-        <def name="R0DEB3LS1">S12SBK</def>
         <def name="R0DEB4LS1">S13SBK</def>
+        <def name="R0DEB3LS1">S12SBK</def>
     </SBKFP>
 
 

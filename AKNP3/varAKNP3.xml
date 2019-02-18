@@ -21,10 +21,10 @@
 <var  name="R0DE3DLS3" description="(R0DE3DLS3) диагностика шкафа АКНП3 БП5/24Д место 8" format="1"></var>
 <var  name="TTLaknp3" description="(TTLaknp3) ttl" format="3"></var>
 <var  name="TestDiagnAKNP3" description="(TestDiagnAKNP3) Неисправность от диагностики" format="1"></var>
-<var  name="R0DEB1LS3" description="(R0DEB1LS3) диагностика шкафа РПУ БП5 место 7" format="1"></var>
-<var  name="R0DEB2LS3" description="(R0DEB2LS3) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
-<var  name="R0DEB3LS3" description="(R0DEB3LS3) диагностика шкафа РПУ БП5 место 8" format="1"></var>
-<var  name="R0DEB4LS3" description="(R0DEB4LS3) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
+<var  name="R0DEB1LS3" description="(R0DEB1LS3) диагностика шкафа АКНП3 БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS3" description="(R0DEB2LS3) диагностика шкафа АКНП3 БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS3" description="(R0DEB3LS3) диагностика шкафа АКНП3 БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS3" description="(R0DEB4LS3) диагностика шкафа АКНП3 БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="(R0VN01RS3) Период разгона канал 3" format="8"></var>
 <var  name="R0VN61LS3" description="(R0VN61LS3) ПС по мощности канал 3" format="1"></var>

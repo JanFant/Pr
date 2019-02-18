@@ -20,10 +20,10 @@
 <var  name="R0DE3CLS2" description="(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7" format="1"></var>
 <var  name="R0DE3DLS2" description="(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8" format="1"></var>
 <var  name="TestDiagnAKNP2" description="(TestDiagnAKNP2) Неисправность от диагностики" format="1"></var>
-<var  name="R0DEB1LS2" description="(R0DEB1LS2) диагностика шкафа РПУ БП5 место 7" format="1"></var>
-<var  name="R0DEB2LS2" description="(R0DEB2LS2) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
-<var  name="R0DEB3LS2" description="(R0DEB3LS2) диагностика шкафа РПУ БП5 место 8" format="1"></var>
-<var  name="R0DEB4LS2" description="(R0DEB4LS2) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
+<var  name="R0DEB1LS2" description="(R0DEB1LS2) диагностика шкафа АКНП2 БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS2" description="(R0DEB2LS2) диагностика шкафа АКНП2 БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS2" description="(R0DEB3LS2) диагностика шкафа АКНП2 БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS2" description="(R0DEB4LS2) диагностика шкафа АКНП2 БП24Д место 8" format="1"></var>
 <var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
 <var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
 <var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>

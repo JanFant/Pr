@@ -881,7 +881,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   scalzz(&S_scalzz_78_1);
 //   geterr(&S_geterr_47_1);
 //   geterr(&S_geterr_48_1);
-// or2(&S_or2_57_1);
+//   or2(&S_or2_57_1);
 //   ocham(&S_ocham_16_1);
   diagndev(&S_diagndev_133_1);
   and2(&S_and2_135_1);

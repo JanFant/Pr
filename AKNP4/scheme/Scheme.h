@@ -59,8 +59,8 @@ psbool  array_m54_x_1[2] = {&var23,&var24};
 psbool  array_m63_x_1[5] = {&var10,&R0IE11LS4,&R0IE12LS4,&R0IE13LS4,&A0EE03LS4};
 
 /* Объявление структур */
-_S_or2  S_or2_95_1 = {&R0DEB1LS4,&R0DEB1LS4,&var1};
-_S_or2  S_or2_89_1 = {&R0DEB1LS4,&R0DEB1LS4,&var2};
+_S_or2  S_or2_95_1 = {&R0DEB3LS4,&R0DEB4LS4,&var1};
+_S_or2  S_or2_89_1 = {&R0DEB1LS4,&R0DEB2LS4,&var2};
 _S_or3  S_or3_91_1 = {&var6,&var5,&var4,&var3};
 _S_orn  S_orn_94_1 = {array_m94_x_1,&iRM_6_,&var4};
 _S_and2  S_and2_82_1 = {&R0DE31LS4,&R0DE32LS4,&var5};
