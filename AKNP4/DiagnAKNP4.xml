@@ -71,19 +71,6 @@
     </format>
     <records>
         <record>
-            <value name="name">R0DE33LS4</value>
-            <value name="description">(R0DE33LS4) диагностика шкафа АКНП4 двери</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">0</value>
-            <value name="nID">11</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">20</value>
-            <value name="OldData">20</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">R0DE3DLS4</value>
             <value name="description">(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8</value>
             <value name="type">1</value>
@@ -214,11 +201,24 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0DE33LS4</value>
+            <value name="description">(R0DE33LS4) диагностика шкафа АКНП4 двери</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">10</value>
+            <value name="nID">11</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0DE32LS4</value>
             <value name="description">(R0DE32LS4) диагностика шкафа АКНП4 сеть 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">10</value>
+            <value name="address">11</value>
             <value name="nID">12</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
@@ -231,7 +231,7 @@
             <value name="description">(R0DE31LS4) диагностика шкафа АКНП4 сеть 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">11</value>
+            <value name="address">12</value>
             <value name="nID">13</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>

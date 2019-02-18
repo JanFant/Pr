@@ -368,7 +368,6 @@ static ModbusRegister hr_AKNP4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_DiagnAKNP4[]={  // 
-	{&R0DE33LS4,1,0},	//(R0DE33LS4) диагностика шкафа АКНП4 двери
 	{NULL,0,0},
 };
 #pragma pop
@@ -384,8 +383,9 @@ static ModbusRegister di_DiagnAKNP4[]={  //
 	{&R0DE36LS4,1,7},	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
 	{&R0DE35LS4,1,8},	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
 	{&R0DE34LS4,1,9},	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
-	{&R0DE32LS4,1,10},	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
-	{&R0DE31LS4,1,11},	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
+	{&R0DE33LS4,1,10},	//(R0DE33LS4) диагностика шкафа АКНП4 двери
+	{&R0DE32LS4,1,11},	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
+	{&R0DE31LS4,1,12},	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
 	{NULL,0,0},
 };
 #pragma pop
@@ -594,8 +594,8 @@ ssint iRM_5_ = {5,0}; /* n - N-размерность массива входн�
 ssint iRM_2_ = {2,0}; /* n - N-размерность массива входных параметров */ 
 ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
 sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
-ssint iRM_4_ = {4,0}; /*  */ 
-ssint iRM_8_ = {8,0}; /*  */ 
+ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
+ssint iRM_8_ = {8,0}; /* n - N-размерность массива x */ 
 
 uspaint8 SpaEEPROMBuf[128];
 
@@ -667,48 +667,49 @@ _S_bol  S_bol_31_1 = {&var7,&fEM_R0UR01RSS,&var24};
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_66_1);
-  ocham(&S_ocham_17_1);
+  //   or2(&S_or2_66_1);
+//   ocham(&S_ocham_17_1);
   diagndev(&S_diagndev_78_1);
   and2(&S_and2_79_1);
   orn(&S_orn_88_1);
   or3(&S_or3_83_1);
-  bol(&S_bol_31_1);
-  bol(&S_bol_51_1);
-  bol(&S_bol_40_1);
-  bol(&S_bol_35_1);
-  andn(&S_andn_63_1);
-  setData(&var25,&iEM_R0UL01ISS);
-  setData(&var26,&dEM_R0UL02USS);
-  period(&S_period_45_1);
-  react(&S_react_46_1);
-  bol(&S_bol_50_1);
-  andn(&S_andn_54_1);
-  bol(&S_bol_52_1);
-  andn(&S_andn_55_1);
+//   bol(&S_bol_31_1);
+//   bol(&S_bol_51_1);
+//   bol(&S_bol_40_1);
+//   bol(&S_bol_35_1);
+//   andn(&S_andn_63_1);
+//   setData(&var25,&iEM_R0UL01ISS);
+//   setData(&var26,&dEM_R0UL02USS);
+//   period(&S_period_45_1);
+//   react(&S_react_46_1);
+//   bol(&S_bol_50_1);
+//   andn(&S_andn_54_1);
+//   bol(&S_bol_52_1);
+//   andn(&S_andn_55_1);
   setData(idTestDiagnAKNP4,&var1);
   setData(idTTLaknp4,&var5);
-  setData(idA1EE01LS4,&var18);
-  setData(idR0VN78LZ2,&var17);
-  setData(idR0VN74LZ2,&var19);
-  setData(idA0VN71LS4,&var24);
-  setData(idR0IE02LS4,&var13);
-  setData(idR0IE01LS4,&var13);
-  setData(idR0VN15RS4,&var12);
-  setData(idR0VN33RS4,&var11);
-  setData(idR0VN23RS4,&var10);
-  setData(idR0VN13RS4,&var9);
-  setData(idA0EE02LS4,&var8);
-  setData(idA1VN71LS4,&var24);
-  setData(idR0VN04RS4,&var23);
-  setData(idR0VN03RS4,&var6);
-  setData(idA0EE01LS4,&var18);
-  setData(idR0VN78LZ1,&var17);
-  setData(idR0VN65LS4,&var15);
-  setData(idR0VN74LZ1,&var19);
-  setData(idR0VN61LS4,&var20);
-  setData(idR0VN01RS4,&var14);
-  setData(idR0VN02RS4,&var7);
+//   setData(idA1EE01LS4,&var18);
+//   setData(idR0VN78LZ2,&var17);
+//   setData(idR0VN74LZ2,&var19);
+//   setData(idA0VN71LS4,&var24);
+//   setData(idR0IE02LS4,&var13);
+//   setData(idR0IE01LS4,&var13);
+//   setData(idR0VN15RS4,&var12);
+//   setData(idR0VN33RS4,&var11);
+//   setData(idR0VN23RS4,&var10);
+//   setData(idR0VN13RS4,&var9);
+//   setData(idA0EE02LS4,&var8);
+//   setData(idA1VN71LS4,&var24);
+//   setData(idR0VN04RS4,&var23);
+//   setData(idR0VN03RS4,&var6);
+//   setData(idA0EE01LS4,&var18);
+//   setData(idR0VN78LZ1,&var17);
+//   setData(idR0VN65LS4,&var15);
+//   setData(idR0VN74LZ1,&var19);
+//   setData(idR0VN61LS4,&var20);
+//   setData(idR0VN01RS4,&var14);
+//   setData(idR0VN02RS4,&var7);
+
 
   setAsBool(idbFirstEnterFlag,1);
 }
