@@ -1,9 +1,9 @@
 #ifndef AKNP4_H
 #define AKNP4_H
 // Подсистема AKNP4:AKNP4
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=7;
-static char SimulIP[]="192.168.1.17\0";
+static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
@@ -681,10 +681,10 @@ void Scheme()
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   or2(&S_or2_66_1);
 //   ocham(&S_ocham_16_1);
-  diagndev(&S_diagndev_80_1);
-  and2(&S_and2_82_1);
-  or2(&S_or2_89_1);
-  or2(&S_or2_95_1);
+//   diagndev(&S_diagndev_80_1);
+//   and2(&S_and2_82_1);
+//   or2(&S_or2_89_1);
+//   or2(&S_or2_95_1);
 //   bol(&S_bol_31_1);
 //   bol(&S_bol_51_1);
 //   bol(&S_bol_40_1);
@@ -693,17 +693,17 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   setData(&var27,&iEM_R0UL01ISS);
 //   setData(&var28,&dEM_R0UL02USS);
 //   period(&S_period_45_1);
-  orn(&S_orn_94_1);
-  or3(&S_or3_91_1);
+//   orn(&S_orn_94_1);
+//   or3(&S_or3_91_1);
 //   react(&S_react_46_1);
 //   bol(&S_bol_50_1);
 //   andn(&S_andn_54_1);
 //   bol(&S_bol_52_1);
 //   andn(&S_andn_55_1);
-  setData(idTestDiagnAKNP4,&var3);
-  setData(idTTLaknp4,&var7);
-  setData(idR0DE3DLS4,&var1);
-  setData(idR0DE3CLS4,&var2);
+//   setData(idTestDiagnAKNP4,&var3);
+//   setData(idTTLaknp4,&var7);
+//   setData(idR0DE3DLS4,&var1);
+//   setData(idR0DE3CLS4,&var2);
 //   setData(idA1EE01LS4,&var20);
 //   setData(idR0VN78LZ2,&var19);
 //   setData(idR0VN74LZ2,&var21);

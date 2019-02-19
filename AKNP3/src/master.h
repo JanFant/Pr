@@ -1,9 +1,9 @@
 #ifndef AKNP3_H
 #define AKNP3_H
 // Подсистема AKNP3:AKNP3
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=5;
-static char SimulIP[]="192.168.1.17\0";
+static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
@@ -680,13 +680,13 @@ void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   or2(&S_or2_67_1);
-  diagndev(&S_diagndev_80_1);
-  and2(&S_and2_82_1);
-  or2(&S_or2_89_1);
-  or2(&S_or2_96_1);
+//   diagndev(&S_diagndev_80_1);
+//   and2(&S_and2_82_1);
+//   or2(&S_or2_89_1);
+//   or2(&S_or2_96_1);
 //   ocham(&S_ocham_17_1);
-  orn(&S_orn_94_1);
-  or3(&S_or3_91_1);
+//   orn(&S_orn_94_1);
+//   or3(&S_or3_91_1);
 //   bol(&S_bol_31_1);
 //   bol(&S_bol_51_1);
 //   bol(&S_bol_40_1);
@@ -700,10 +700,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   andn(&S_andn_54_1);
 //   bol(&S_bol_52_1);
 //   andn(&S_andn_55_1);
-  setData(idTestDiagnAKNP3,&var3);
-  setData(idTTLaknp3,&var7);
-  setData(idR0DE3DLS3,&var1);
-  setData(idR0DE3CLS3,&var2);
+//   setData(idTestDiagnAKNP3,&var3);
+//   setData(idTTLaknp3,&var7);
+//   setData(idR0DE3DLS3,&var1);
+//   setData(idR0DE3CLS3,&var2);
 //   setData(idA1EE01LS3,&var20);
 //   setData(idR0VN77LZ2,&var19);
 //   setData(idR0VN73LZ2,&var21);

@@ -1,9 +1,9 @@
 #ifndef AKNP2_H
 #define AKNP2_H
 // Подсистема AKNP2:AKNP2
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=9;
-static char SimulIP[]="192.168.1.17\0";
+static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
@@ -675,10 +675,10 @@ void Scheme()
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   or2(&S_or2_66_1);
 //   ocham(&S_ocham_15_1);
-  diagndev(&S_diagndev_80_1);
-  and2(&S_and2_82_1);
-  or2(&S_or2_88_1);
-  or2(&S_or2_95_1);
+//   diagndev(&S_diagndev_80_1);
+//   and2(&S_and2_82_1);
+//   or2(&S_or2_88_1);
+//   or2(&S_or2_95_1);
 //   bol(&S_bol_31_1);
 //   bol(&S_bol_51_1);
 //   bol(&S_bol_40_1);
@@ -687,17 +687,17 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   setData(&var27,&iEM_R0UL01ISS);
 //   setData(&var28,&dEM_R0UL02USS);
 //   period(&S_period_45_1);
-  orn(&S_orn_93_1);
-  or3(&S_or3_90_1);
+//   orn(&S_orn_93_1);
+//   or3(&S_or3_90_1);
 //   react(&S_react_46_1);
 //   bol(&S_bol_50_1);
 //   andn(&S_andn_54_1);
 //   bol(&S_bol_52_1);
 //   andn(&S_andn_55_1);
-  setData(idTestDiagnAKNP2,&var3);
-  setData(idR0DE3DLS2,&var2);
-  setData(idR0DE3CLS2,&var1);
-  setData(idTTLaknp2,&var7);
+//   setData(idTestDiagnAKNP2,&var3);
+//   setData(idR0DE3DLS2,&var2);
+//   setData(idR0DE3CLS2,&var1);
+//   setData(idTTLaknp2,&var7);
 //   setData(idA0VN71LS2,&var26);
 //   setData(idA1EE01LS2,&var20);
 //   setData(idR0VN76LZ2,&var19);

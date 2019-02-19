@@ -1,9 +1,9 @@
 #ifndef RPU_H
 #define RPU_H
 // Подсистема RPU:RPU
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=8;
-static char SimulIP[]="192.168.1.17\0";
+static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
@@ -883,10 +883,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   geterr(&S_geterr_48_1);
 //   or2(&S_or2_57_1);
 //   ocham(&S_ocham_16_1);
-  diagndev(&S_diagndev_133_1);
-  and2(&S_and2_135_1);
-  or2(&S_or2_149_1);
-  or2(&S_or2_143_1);
+//   diagndev(&S_diagndev_133_1);
+//   and2(&S_and2_135_1);
+//   or2(&S_or2_149_1);
+//   or2(&S_or2_143_1);
 //   bol(&S_bol_43_1);
 //   bol(&S_bol_53_1);
 //   drg(&S_drg_98_1);
@@ -909,8 +909,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   setData(&var50,&var37);
 //   setData(&var51,&var40);
 //   or2(&S_or2_84_1);
-  orn(&S_orn_148_1);
-  or3(&S_or3_147_1);
+//   orn(&S_orn_148_1);
+//   or3(&S_or3_147_1);
 //   noto(&S_noto_67_1);
 //   noto(&S_noto_58_1);
 //   setData(&var46,&var29);
@@ -922,10 +922,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   or2(&S_or2_105_1);
 //   or4(&S_or4_42_1);
 //   or5(&S_or5_62_1);
-  setData(idTTLrpu,&var7);
-  setData(idTestDiagnRPU,&var3);
-  setData(idR0DE3DLRP,&var2);
-  setData(idR0DE3CLRP,&var1);
+//   setData(idTTLrpu,&var7);
+//   setData(idTestDiagnRPU,&var3);
+//   setData(idR0DE3DLRP,&var2);
+//   setData(idR0DE3CLRP,&var1);
 //   moveData(idB7MZ31LRP,idC1MZ31LRP);
 //   moveData(idA7MZ31LRP,idC1MZ31LRP);
 //   moveData(idB3VS21LRP,idB3IS21LRP);

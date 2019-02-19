@@ -1486,7 +1486,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="292,424,418,429"
+        R="292,424,420,429"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -3118,14 +3118,14 @@
         }
       }
       [VVV_Text]{
-        R="661,155,709,167"
+        R="661,155,717,169"
         Number=203
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="596,186,644,198"
+        R="596,186,652,200"
         Number=205
         IsHold=FALSE
         Line1="АС по мощности"
@@ -3554,7 +3554,7 @@
         }
       }
       [VVV_Text]{
-        R="961,216,1010,228"
+        R="961,216,1024,230"
         Number=332
         IsHold=FALSE
         Line1="неисправность по "
@@ -4432,6 +4432,128 @@
         ChannalName=""
         DeviceName=""
         Line1="ttl"
+      }
+      [TDrawSignal]{
+        R="278,896,338,936"
+        Number=93
+        IsHold=FALSE
+        VisualNumber="137"
+        SIGNAL_NAME="R0DEB1LRP"
+        KodTeprol="R0DEB1LRP"
+        Comment="диагностика шкафа РПУ БП5 место 7"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnRPU"
+        ChannalName="S10SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП5 место 7"
+      }
+      [TDrawSignal]{
+        R="278,949,338,989"
+        Number=94
+        IsHold=FALSE
+        VisualNumber="138"
+        SIGNAL_NAME="R0DEB2LRP"
+        KodTeprol="R0DEB2LRP"
+        Comment="диагностика шкафа РПУ БП24Д место 7"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnRPU"
+        ChannalName="S11SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП24Д место 7"
+      }
+      [TDrawSignal]{
+        R="460,949,520,989"
+        Number=95
+        IsHold=FALSE
+        VisualNumber="146"
+        SIGNAL_NAME="R0DEB4LRP"
+        KodTeprol="R0DEB4LRP"
+        Comment="диагностика шкафа РПУ БП24Д место 8"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnRPU"
+        ChannalName="S13SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП24Д место 8"
+      }
+      [TDrawSignal]{
+        R="460,896,520,936"
+        Number=96
+        IsHold=FALSE
+        VisualNumber="145"
+        SIGNAL_NAME="R0DEB3LRP"
+        KodTeprol="R0DEB3LRP"
+        Comment="диагностика шкафа РПУ БП5 место 8"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="DiagnRPU"
+        ChannalName="S12SBK"
+        DeviceName="SBKFP"
+        Line1="диагностика шкафа РПУ "
+        Line2="БП5 место 8"
+      }
+      [TModule]{
+        R="547,922,577,962"
+        Number=103
+        IsHold=FALSE
+        VisualNumber="149"
+        ABBRV="OR2"
+      }
+      [TModule]{
+        R="377,921,407,961"
+        Number=104
+        IsHold=FALSE
+        VisualNumber="143"
+        ABBRV="OR2"
       }
       [VVV_DrawConnector]{
         Number=61
@@ -7389,128 +7511,6 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="278,896,338,936"
-        Number=93
-        IsHold=FALSE
-        VisualNumber="137"
-        SIGNAL_NAME="R0DEB1LRP"
-        KodTeprol="R0DEB1LRP"
-        Comment="диагностика шкафа РПУ БП5 место 7"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
-        ChannalName="S10SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа РПУ "
-        Line2="БП5 место 7"
-      }
-      [TDrawSignal]{
-        R="278,949,338,989"
-        Number=94
-        IsHold=FALSE
-        VisualNumber="138"
-        SIGNAL_NAME="R0DEB2LRP"
-        KodTeprol="R0DEB2LRP"
-        Comment="диагностика шкафа РПУ БП24Д место 7"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
-        ChannalName="S11SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа РПУ "
-        Line2="БП24Д место 7"
-      }
-      [TDrawSignal]{
-        R="460,949,520,989"
-        Number=95
-        IsHold=FALSE
-        VisualNumber="146"
-        SIGNAL_NAME="R0DEB4LRP"
-        KodTeprol="R0DEB4LRP"
-        Comment="диагностика шкафа РПУ БП24Д место 8"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
-        ChannalName="S10SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа РПУ "
-        Line2="БП24Д место 8"
-      }
-      [TDrawSignal]{
-        R="460,896,520,936"
-        Number=96
-        IsHold=FALSE
-        VisualNumber="145"
-        SIGNAL_NAME="R0DEB3LRP"
-        KodTeprol="R0DEB3LRP"
-        Comment="диагностика шкафа РПУ БП5 место 8"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="DiagnRPU"
-        ChannalName="S12SBK"
-        DeviceName="SBKFP"
-        Line1="диагностика шкафа РПУ "
-        Line2="БП5 место 8"
-      }
-      [TModule]{
-        R="547,922,577,962"
-        Number=103
-        IsHold=FALSE
-        VisualNumber="149"
-        ABBRV="OR2"
-      }
-      [TModule]{
-        R="377,921,407,961"
-        Number=104
-        IsHold=FALSE
-        VisualNumber="143"
-        ABBRV="OR2"
-      }
       [VVV_DrawConnector]{
         Number=81
         IsHold=FALSE
@@ -7854,7 +7854,7 @@
         p2="478:1109"
         BNumber=99
         ENumber=92
-        Comment="y - выходной параметр --> x - массив входных параметров"
+        Comment="y - выходной параметр --> диагностика шкафа РПУ БП5/24Д место 7"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -7876,7 +7876,7 @@
         p2="486:1109"
         BNumber=100
         ENumber=92
-        Comment="y - выходной параметр --> x - массив входных параметров"
+        Comment="y - выходной параметр --> диагностика шкафа РПУ БП5/24Д место 8"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -8073,4 +8073,4 @@
     }
   }
 }
-7773392
+7772973

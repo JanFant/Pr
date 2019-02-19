@@ -1,9 +1,9 @@
 #ifndef BAZ2SIGN_H
 #define BAZ2SIGN_H
 // Подсистема Baz2sign:Baz2sign
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=13;
-static char SimulIP[]="192.168.1.17\0";
+static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
