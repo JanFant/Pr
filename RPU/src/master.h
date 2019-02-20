@@ -533,7 +533,7 @@ static ModbusDevice modbuses[]={
 #pragma pop
 #include <fp8/drivers/vchs2.h>
 static char buf_VCHS01[58];	//VCHS01
-static vchs_inipar ini_VCHS01={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
+static vchs_inipar ini_VCHS01={0xc6,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
@@ -547,7 +547,7 @@ static DriverRegister def_buf_VCHS01[]={
 #pragma pop
 #include <fp8/drivers/vchs2.h>
 static char buf_VCHS02[58];	//VCHS02
-static vchs_inipar ini_VCHS02={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
+static vchs_inipar ini_VCHS02={0xc6,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
@@ -560,7 +560,7 @@ static DriverRegister def_buf_VCHS02[]={
 #pragma pop
 #include <fp8/drivers/vchs2.h>
 static char buf_VCHS03[58];	//VCHS03
-static vchs_inipar ini_VCHS03={172,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
+static vchs_inipar ini_VCHS03={0xc6,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,};
 #pragma pack(push,1)
 static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
 #pragma pop
@@ -574,7 +574,7 @@ static DriverRegister def_buf_VCHS03[]={
 #pragma pop
 #include <fp8/drivers/vas84r.h>
 static char buf_VAS84[28];	//VAS84
-static vas84r_inipar ini_VAS84={172,255,1,8,0xff,0,16,};
+static vas84r_inipar ini_VAS84={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pop
@@ -663,9 +663,9 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
-	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
-	{0xc4,0x03,12,58,def_buf_VCHS03,&table_VCHS03}, //VCHS03
+	{0xc6,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
+	{0xc6,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
+	{0xc6,0x03,12,58,def_buf_VCHS03,&table_VCHS03}, //VCHS03
 	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
 	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
 	{0x96,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16

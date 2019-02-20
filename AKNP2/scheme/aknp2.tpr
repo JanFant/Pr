@@ -2453,7 +2453,7 @@
         Line2="МП24-2 место 4"
       }
       [TDrawSignal]{
-        R="566,557,626,597"
+        R="371,559,431,599"
         Number=91
         IsHold=FALSE
         VisualNumber="85"
@@ -2480,7 +2480,7 @@
         Line2="БП5/24Д место 7"
       }
       [TDrawSignal]{
-        R="369,556,429,596"
+        R="558,559,618,599"
         Number=92
         IsHold=FALSE
         VisualNumber="93"
@@ -4606,92 +4606,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=101
-        IsHold=FALSE
-        p0="394:517"
-        p1="394:556"
-        BNumber=95
-        ENumber=92
-        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 8"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=95
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=92
-          ParameterName="R0DE3DLS2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=103
-        IsHold=FALSE
-        p0="601:517"
-        p1="601:557"
-        BNumber=96
-        ENumber=91
-        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 7"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=96
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=91
-          ParameterName="R0DE3CLS2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=104
-        IsHold=FALSE
-        p0="394:550"
-        p1="482:550"
-        p2="482:664"
-        BNumber=101
-        ENumber=93
-        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 8"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=95
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=93
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=105
-        IsHold=FALSE
-        p0="601:550"
-        p1="487:550"
-        p2="487:664"
-        BNumber=103
-        ENumber=93
-        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 7"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=96
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=93
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=107
         IsHold=FALSE
         p0="345:632"
@@ -4848,7 +4762,93 @@
           Index=-1
         }
       }
+      [VVV_DrawConnector]{
+        Number=103
+        IsHold=FALSE
+        p0="598:517"
+        p1="598:559"
+        BNumber=96
+        ENumber=92
+        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 8"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=96
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=92
+          ParameterName="R0DE3DLS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=101
+        IsHold=FALSE
+        p0="393:517"
+        p1="393:559"
+        BNumber=95
+        ENumber=91
+        Comment="y - выходной параметр --> диагностика шкафа АКНП2 БП5/24Д место 7"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=91
+          ParameterName="R0DE3CLS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=104
+        IsHold=FALSE
+        p0="393:551"
+        p1="480:551"
+        p2="480:664"
+        BNumber=101
+        ENumber=93
+        Comment="y - выходной параметр --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=95
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=93
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=105
+        IsHold=FALSE
+        p0="598:551"
+        p1="486:551"
+        p2="486:664"
+        BNumber=103
+        ENumber=93
+        Comment="y - выходной параметр --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=96
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=93
+          ParameterName="x"
+          Index=1
+        }
+      }
     }
   }
 }
-4672764
+4673256

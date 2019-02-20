@@ -6204,7 +6204,7 @@ static DriverRegister def_buf_FDS1611[]={
 #pragma pop
 #include <fp8/drivers/vas84r.h>
 static char buf_VAS8412[28];	//VAS84-12
-static vas84r_inipar ini_VAS8412={172,255,1,8,0xff,0,16,};
+static vas84r_inipar ini_VAS8412={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
 #pragma pop

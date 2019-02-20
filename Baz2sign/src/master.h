@@ -506,7 +506,7 @@ static ModbusDevice modbuses[]={
 #pragma pop
 #include <fp8/drivers/vas84r.h>
 static char buf_VAS84_04[28];	//VAS84_04
-static vas84r_inipar ini_VAS84_04={172,255,1,8,0xff,0,16,};
+static vas84r_inipar ini_VAS84_04={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84_04={0,0,&ini_VAS84_04,buf_VAS84_04,0,0};
 #pragma pop
