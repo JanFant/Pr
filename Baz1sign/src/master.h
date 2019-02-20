@@ -1,7 +1,7 @@
 #ifndef BAZ1SIGN_H
 #define BAZ1SIGN_H
 // Подсистема Baz1sign:Baz1sign
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=12;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -697,7 +697,7 @@ static DriverRegister def_buf_VDS32_08[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16_10[40];	//FDS16_10
-static fds16r_inipar ini_FDS16_10={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16_10={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16_10={0,0,&ini_FDS16_10,buf_FDS16_10,0,0};
 #pragma pop
@@ -729,7 +729,7 @@ static Driver drivers[]={
 	{0xc2,0x06,15,66,def_buf_VDS32_06,&table_VDS32_06}, //VDS32_06
 	{0xc2,0x07,15,66,def_buf_VDS32_07,&table_VDS32_07}, //VDS32_07
 	{0xc2,0x08,15,66,def_buf_VDS32_08,&table_VDS32_08}, //VDS32_08
-	{0x04,0x0a,20,40,def_buf_FDS16_10,&table_FDS16_10}, //FDS16_10
+	{0x96,0x0a,20,40,def_buf_FDS16_10,&table_FDS16_10}, //FDS16_10
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

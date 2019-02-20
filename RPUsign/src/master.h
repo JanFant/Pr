@@ -1,7 +1,7 @@
 #ifndef RPUSIGN_H
 #define RPUSIGN_H
 // Подсистема RPUsign:RPUsign
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=18;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -382,7 +382,7 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[40];	//FDS16
-static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -409,7 +409,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[26];	//SBKFP
-static sbk_inipar ini_SBKFP={0xc2,0xff,8,8,};
+static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -438,8 +438,8 @@ static Driver drivers[]={
 	{0xc4,0x03,12,58,def_buf_VCHS03,&table_VCHS03}, //VCHS03
 	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
 	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
-	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
+	{0x96,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

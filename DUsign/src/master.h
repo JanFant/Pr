@@ -1,7 +1,7 @@
 #ifndef DUSIGN_H
 #define DUSIGN_H
 // Подсистема DUsign:DUsign
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=11;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -1201,7 +1201,7 @@ static DriverRegister def_buf_VDS3205[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1606[40];	//FDS16-06
-static fds16r_inipar ini_FDS1606={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1606={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1606={0,0,&ini_FDS1606,buf_FDS1606,0,0};
 #pragma pop
@@ -1228,7 +1228,7 @@ static DriverRegister def_buf_FDS1606[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1607[40];	//FDS16-07
-static fds16r_inipar ini_FDS1607={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1607={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
 #pragma pop
@@ -1255,7 +1255,7 @@ static DriverRegister def_buf_FDS1607[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1608[40];	//FDS16-08
-static fds16r_inipar ini_FDS1608={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1608={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
 #pragma pop
@@ -1282,7 +1282,7 @@ static DriverRegister def_buf_FDS1608[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1609[40];	//FDS16-09
-static fds16r_inipar ini_FDS1609={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1609={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
 #pragma pop
@@ -1309,7 +1309,7 @@ static DriverRegister def_buf_FDS1609[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1610[40];	//FDS16-10
-static fds16r_inipar ini_FDS1610={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1610={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
 #pragma pop
@@ -1336,7 +1336,7 @@ static DriverRegister def_buf_FDS1610[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1611[40];	//FDS16-11
-static fds16r_inipar ini_FDS1611={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1611={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
 #pragma pop
@@ -1425,7 +1425,7 @@ static DriverRegister def_buf_VDS3213[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS1615[40];	//FDS16-15
-static fds16r_inipar ini_FDS1615={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS1615={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
 #pragma pop
@@ -1457,15 +1457,15 @@ static Driver drivers[]={
 	{0xc2,0x03,15,66,def_buf_VDS3203,&table_VDS3203}, //VDS32-03
 	{0xc2,0x04,15,66,def_buf_VDS3204,&table_VDS3204}, //VDS32-04
 	{0xc2,0x05,15,66,def_buf_VDS3205,&table_VDS3205}, //VDS32-05
-	{0x04,0x06,20,40,def_buf_FDS1606,&table_FDS1606}, //FDS16-06
-	{0x04,0x07,20,40,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
-	{0x04,0x08,20,40,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
-	{0x04,0x09,20,40,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
-	{0x04,0x0a,20,40,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
-	{0x04,0x0b,20,40,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
+	{0x96,0x06,20,40,def_buf_FDS1606,&table_FDS1606}, //FDS16-06
+	{0x96,0x07,20,40,def_buf_FDS1607,&table_FDS1607}, //FDS16-07
+	{0x96,0x08,20,40,def_buf_FDS1608,&table_FDS1608}, //FDS16-08
+	{0x96,0x09,20,40,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
+	{0x96,0x0a,20,40,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
+	{0x96,0x0b,20,40,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
 	{0xc6,0x0c,7,28,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
 	{0xc2,0x0d,15,66,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
-	{0x04,0x0f,20,40,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
+	{0x96,0x0f,20,40,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

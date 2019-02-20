@@ -1,7 +1,7 @@
 #ifndef PTISIG_H
 #define PTISIG_H
 // Подсистема ptiSig:ptiSig
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=10;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;

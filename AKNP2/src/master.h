@@ -1,7 +1,7 @@
 #ifndef AKNP2_H
 #define AKNP2_H
 // Подсистема AKNP2:AKNP2
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=9;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -458,7 +458,7 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[40];	//FDS16
-static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -480,7 +480,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[26];	//SBKFP
-static sbk_inipar ini_SBKFP={0xc2,0xff,8,8,};
+static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -506,8 +506,8 @@ static Driver drivers[]={
 	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
 	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
 	{0xc2,0x04,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
-	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
+	{0x96,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
@@ -675,10 +675,10 @@ void Scheme()
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   or2(&S_or2_66_1);
 //   ocham(&S_ocham_15_1);
-//   diagndev(&S_diagndev_80_1);
-//   and2(&S_and2_82_1);
-//   or2(&S_or2_88_1);
-//   or2(&S_or2_95_1);
+  diagndev(&S_diagndev_80_1);
+  and2(&S_and2_82_1);
+  or2(&S_or2_88_1);
+  or2(&S_or2_95_1);
 //   bol(&S_bol_31_1);
 //   bol(&S_bol_51_1);
 //   bol(&S_bol_40_1);
@@ -687,17 +687,17 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 //   setData(&var27,&iEM_R0UL01ISS);
 //   setData(&var28,&dEM_R0UL02USS);
 //   period(&S_period_45_1);
-//   orn(&S_orn_93_1);
-//   or3(&S_or3_90_1);
+  orn(&S_orn_93_1);
+  or3(&S_or3_90_1);
 //   react(&S_react_46_1);
 //   bol(&S_bol_50_1);
 //   andn(&S_andn_54_1);
 //   bol(&S_bol_52_1);
 //   andn(&S_andn_55_1);
-//   setData(idTestDiagnAKNP2,&var3);
-//   setData(idR0DE3DLS2,&var2);
-//   setData(idR0DE3CLS2,&var1);
-//   setData(idTTLaknp2,&var7);
+  setData(idTestDiagnAKNP2,&var3);
+  setData(idR0DE3DLS2,&var2);
+  setData(idR0DE3CLS2,&var1);
+  setData(idTTLaknp2,&var7);
 //   setData(idA0VN71LS2,&var26);
 //   setData(idA1EE01LS2,&var20);
 //   setData(idR0VN76LZ2,&var19);

@@ -1,7 +1,7 @@
 #ifndef AKNP3_H
 #define AKNP3_H
 // Подсистема AKNP3:AKNP3
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=5;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -462,7 +462,7 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[40];	//FDS16
-static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -484,7 +484,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[26];	//SBKFP
-static sbk_inipar ini_SBKFP={0xc2,0xff,8,8,};
+static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -511,8 +511,8 @@ static Driver drivers[]={
 	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
 	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
 	{0xc2,0x04,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
-	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
+	{0x96,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
@@ -679,52 +679,52 @@ _S_bol  S_bol_31_1 = {&var9,&fEM_R0UR01RSS,&var26};
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-//   or2(&S_or2_67_1);
-//   diagndev(&S_diagndev_80_1);
-//   and2(&S_and2_82_1);
-//   or2(&S_or2_89_1);
-//   or2(&S_or2_96_1);
-//   ocham(&S_ocham_17_1);
-//   orn(&S_orn_94_1);
-//   or3(&S_or3_91_1);
-//   bol(&S_bol_31_1);
-//   bol(&S_bol_51_1);
-//   bol(&S_bol_40_1);
-//   bol(&S_bol_35_1);
-//   andn(&S_andn_63_1);
-//   setData(&var27,&iEM_R0UL01ISS);
-//   setData(&var28,&dEM_R0UL02USS);
-//   period(&S_period_45_1);
-//   react(&S_react_46_1);
-//   bol(&S_bol_50_1);
-//   andn(&S_andn_54_1);
-//   bol(&S_bol_52_1);
-//   andn(&S_andn_55_1);
-//   setData(idTestDiagnAKNP3,&var3);
-//   setData(idTTLaknp3,&var7);
-//   setData(idR0DE3DLS3,&var1);
-//   setData(idR0DE3CLS3,&var2);
-//   setData(idA1EE01LS3,&var20);
-//   setData(idR0VN77LZ2,&var19);
-//   setData(idR0VN73LZ2,&var21);
-//   setData(idA0VN71LS3,&var26);
-//   setData(idR0IE02LS3,&var15);
-//   setData(idR0IE01LS3,&var15);
-//   setData(idR0VN15RS3,&var14);
-//   setData(idR0VN33RS3,&var13);
-//   setData(idR0VN23RS3,&var12);
-//   setData(idR0VN13RS3,&var11);
-//   setData(idA0EE02LS3,&var10);
-//   setData(idA1VN71LS3,&var26);
-//   setData(idR0VN04RS3,&var25);
-//   setData(idR0VN03RS3,&var8);
-//   setData(idA0EE01LS3,&var20);
-//   setData(idR0VN77LZ1,&var19);
-//   setData(idR0VN65LS3,&var17);
-//   setData(idR0VN73LZ1,&var21);
-//   setData(idR0VN61LS3,&var22);
-//   setData(idR0VN01RS3,&var16);
-//   setData(idR0VN02RS3,&var9);
+  or2(&S_or2_67_1);
+  diagndev(&S_diagndev_80_1);
+  and2(&S_and2_82_1);
+  or2(&S_or2_89_1);
+  or2(&S_or2_96_1);
+  ocham(&S_ocham_17_1);
+  orn(&S_orn_94_1);
+  or3(&S_or3_91_1);
+  bol(&S_bol_31_1);
+  bol(&S_bol_51_1);
+  bol(&S_bol_40_1);
+  bol(&S_bol_35_1);
+  andn(&S_andn_63_1);
+  setData(&var27,&iEM_R0UL01ISS);
+  setData(&var28,&dEM_R0UL02USS);
+  period(&S_period_45_1);
+  react(&S_react_46_1);
+  bol(&S_bol_50_1);
+  andn(&S_andn_54_1);
+  bol(&S_bol_52_1);
+  andn(&S_andn_55_1);
+  setData(idTestDiagnAKNP3,&var3);
+  setData(idTTLaknp3,&var7);
+  setData(idR0DE3DLS3,&var1);
+  setData(idR0DE3CLS3,&var2);
+  setData(idA1EE01LS3,&var20);
+  setData(idR0VN77LZ2,&var19);
+  setData(idR0VN73LZ2,&var21);
+  setData(idA0VN71LS3,&var26);
+  setData(idR0IE02LS3,&var15);
+  setData(idR0IE01LS3,&var15);
+  setData(idR0VN15RS3,&var14);
+  setData(idR0VN33RS3,&var13);
+  setData(idR0VN23RS3,&var12);
+  setData(idR0VN13RS3,&var11);
+  setData(idA0EE02LS3,&var10);
+  setData(idA1VN71LS3,&var26);
+  setData(idR0VN04RS3,&var25);
+  setData(idR0VN03RS3,&var8);
+  setData(idA0EE01LS3,&var20);
+  setData(idR0VN77LZ1,&var19);
+  setData(idR0VN65LS3,&var17);
+  setData(idR0VN73LZ1,&var21);
+  setData(idR0VN61LS3,&var22);
+  setData(idR0VN01RS3,&var16);
+  setData(idR0VN02RS3,&var9);
 
   setAsBool(idbFirstEnterFlag,1);
 }

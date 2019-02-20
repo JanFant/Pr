@@ -1,7 +1,7 @@
 #ifndef AKNP1SIGN_H
 #define AKNP1SIGN_H
 // Подсистема AKNP1sign:AKNP1sign
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=14;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -318,7 +318,7 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[40];	//FDS16
-static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -348,7 +348,7 @@ static Driver drivers[]={
 	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
 	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
 	{0xc2,0x04,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0x96,0x05,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

@@ -23,7 +23,7 @@
         
     </signals>
     <init type="vchs_inipar">
-        <signal name="type" mode="input" format="18" value="172" address="0"/>
+        <signal name="type" mode="input" format="18" value="0xc4" address="0"/>
         <signal name="BoxLen" mode="input" format="2" value="255" address="1"/>
         <signal name="vip" mode="input" format="18" value="1" address="2"/>
         <signal name="NumCh" mode="input" format="18" value="8"  address="3"/>

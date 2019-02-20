@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="fds16" description="Типовой драйвер ФДС16" code="0x04" lenData="40" lenInit="20" header="fp8/drivers/fds16r.h">
+<driver name="fds16" description="Типовой драйвер ФДС16" code="0x96" lenData="40" lenInit="20" header="fp8/drivers/fds16r.h">
 <!-->
     mode="output" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
@@ -29,7 +29,7 @@
         <signal name="Diagn" format="3" mode="input" address="38"/> 
     </signals>
     <init type="fds16r_inipar">
-        <signal name="type" mode="input" format="18" value="0x04" address="0"/>
+        <signal name="type" mode="input" format="18" value="0x96" address="0"/>
         <signal name="BoxLen" mode="input" format="2" value="0xff" address="1"/>
         <signal name="vip" mode="input" format="18" value="8" address="2"/>
         <signal name="NumCh" mode="input" format="18" value="8" address="3"/>

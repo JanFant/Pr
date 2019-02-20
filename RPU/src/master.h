@@ -1,7 +1,7 @@
 #ifndef RPU_H
 #define RPU_H
 // Подсистема RPU:RPU
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=8;
 static char SimulIP[]="192.168.10.247\0";
 static int SimulPort=5555;
@@ -615,7 +615,7 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[40];	//FDS16
-static fds16r_inipar ini_FDS16={0x04,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -639,7 +639,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[26];	//SBKFP
-static sbk_inipar ini_SBKFP={0xc2,0xff,8,8,};
+static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -668,8 +668,8 @@ static Driver drivers[]={
 	{0xc4,0x03,12,58,def_buf_VCHS03,&table_VCHS03}, //VCHS03
 	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
 	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
-	{0x04,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
-	{0x01,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
+	{0x96,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
+	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
@@ -877,87 +877,87 @@ _S_bol  S_bol_43_1 = {&R0IN06RRP,&fEM_R0UR01RRP,&var45};
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-//   scalzz(&S_scalzz_76_1);
-//   scalzz(&S_scalzz_78_1);
-//   geterr(&S_geterr_47_1);
-//   geterr(&S_geterr_48_1);
-//   or2(&S_or2_57_1);
-//   ocham(&S_ocham_16_1);
-//   diagndev(&S_diagndev_133_1);
-//   and2(&S_and2_135_1);
-//   or2(&S_or2_149_1);
-//   or2(&S_or2_143_1);
-//   bol(&S_bol_43_1);
-//   bol(&S_bol_53_1);
-//   drg(&S_drg_98_1);
-//   drg(&S_drg_88_1);
-//   geterr(&S_geterr_82_1);
-//   drg(&S_drg_101_1);
-//   drg(&S_drg_90_1);
-//   geterr(&S_geterr_80_1);
-//   bol(&S_bol_35_1);
-//   zzfs(&S_zzfs_70_1);
-//   or3(&S_or3_60_1);
-//   zzfs(&S_zzfs_61_1);
-//   noto(&S_noto_71_1);
-//   and4(&S_and4_36_1);
-//   and3(&S_and3_37_1);
-//   setData(&var48,&var37);
-//   or2(&S_or2_85_1);
-//   setData(&var49,&var40);
-//   or2(&S_or2_89_1);
-//   setData(&var50,&var37);
-//   setData(&var51,&var40);
-//   or2(&S_or2_84_1);
-//   orn(&S_orn_148_1);
-//   or3(&S_or3_147_1);
-//   noto(&S_noto_67_1);
-//   noto(&S_noto_58_1);
-//   setData(&var46,&var29);
-//   and3(&S_and3_51_1);
-//   setData(&var47,&var27);
-//   and3(&S_and3_52_1);
-//   and3(&S_and3_44_1);
-//   and3(&S_and3_45_1);
-//   or2(&S_or2_105_1);
-//   or4(&S_or4_42_1);
-//   or5(&S_or5_62_1);
-//   setData(idTTLrpu,&var7);
-//   setData(idTestDiagnRPU,&var3);
-//   setData(idR0DE3DLRP,&var2);
-//   setData(idR0DE3CLRP,&var1);
-//   moveData(idB7MZ31LRP,idC1MZ31LRP);
-//   moveData(idA7MZ31LRP,idC1MZ31LRP);
-//   moveData(idB3VS21LRP,idB3IS21LRP);
-//   moveData(idA3VS21LRP,idA3IS21LRP);
-//   moveData(idB2VS21LRP,idB2IS21LRP);
-//   moveData(idA2VS21LRP,idA2IS21LRP);
-//   moveData(idB1VS21LRP,idB1IS21LRP);
-//   moveData(idA1VS21LRP,idA1IS21LRP);
-//   setData(idR7VE70LRP,&var15);
-//   setData(idR0VN13RRP,&var11);
-//   setData(idR0VN71LRP,&var34);
-//   setData(idA1VT71LRP,&var19);
-//   setData(idR0IE04LRP,&var30);
-//   setData(idR0IE03LRP,&var30);
-//   setData(idA0EE01LRP,&var22);
-//   setData(idB0VT71LRP,&var18);
-//   setData(idB0VT61LRP,&var39);
-//   setData(idB0CT01IRP,&var35);
-//   setData(idR0ET02LRP,&var40);
-//   setData(idR0ET01LRP,&var37);
-//   setData(idA0VT71LRP,&var20);
-//   setData(idA0VT61LRP,&var42);
-//   setData(idA0CT01IRP,&var36);
-//   setData(idR7VN71LRP,&var17);
-//   setData(idR0IE02LRP,&var33);
-//   setData(idR0IE01LRP,&var33);
-//   setData(idR0VN15RRP,&var14);
-//   setData(idR0VN33RRP,&var13);
-//   setData(idR0VN23RRP,&var12);
-//   setData(idA0EE02LRP,&var10);
-//   setData(idR0VN03RRP,&var8);
-//   setData(idR0VN02RRP,&var9);
+  scalzz(&S_scalzz_76_1);
+  scalzz(&S_scalzz_78_1);
+  geterr(&S_geterr_47_1);
+  geterr(&S_geterr_48_1);
+  or2(&S_or2_57_1);
+  ocham(&S_ocham_16_1);
+  diagndev(&S_diagndev_133_1);
+  and2(&S_and2_135_1);
+  or2(&S_or2_149_1);
+  or2(&S_or2_143_1);
+  bol(&S_bol_43_1);
+  bol(&S_bol_53_1);
+  drg(&S_drg_98_1);
+  drg(&S_drg_88_1);
+  geterr(&S_geterr_82_1);
+  drg(&S_drg_101_1);
+  drg(&S_drg_90_1);
+  geterr(&S_geterr_80_1);
+  bol(&S_bol_35_1);
+  zzfs(&S_zzfs_70_1);
+  or3(&S_or3_60_1);
+  zzfs(&S_zzfs_61_1);
+  noto(&S_noto_71_1);
+  and4(&S_and4_36_1);
+  and3(&S_and3_37_1);
+  setData(&var48,&var37);
+  or2(&S_or2_85_1);
+  setData(&var49,&var40);
+  or2(&S_or2_89_1);
+  setData(&var50,&var37);
+  setData(&var51,&var40);
+  or2(&S_or2_84_1);
+  orn(&S_orn_148_1);
+  or3(&S_or3_147_1);
+  noto(&S_noto_67_1);
+  noto(&S_noto_58_1);
+  setData(&var46,&var29);
+  and3(&S_and3_51_1);
+  setData(&var47,&var27);
+  and3(&S_and3_52_1);
+  and3(&S_and3_44_1);
+  and3(&S_and3_45_1);
+  or2(&S_or2_105_1);
+  or4(&S_or4_42_1);
+  or5(&S_or5_62_1);
+  setData(idTTLrpu,&var7);
+  setData(idTestDiagnRPU,&var3);
+  setData(idR0DE3DLRP,&var2);
+  setData(idR0DE3CLRP,&var1);
+  moveData(idB7MZ31LRP,idC1MZ31LRP);
+  moveData(idA7MZ31LRP,idC1MZ31LRP);
+  moveData(idB3VS21LRP,idB3IS21LRP);
+  moveData(idA3VS21LRP,idA3IS21LRP);
+  moveData(idB2VS21LRP,idB2IS21LRP);
+  moveData(idA2VS21LRP,idA2IS21LRP);
+  moveData(idB1VS21LRP,idB1IS21LRP);
+  moveData(idA1VS21LRP,idA1IS21LRP);
+  setData(idR7VE70LRP,&var15);
+  setData(idR0VN13RRP,&var11);
+  setData(idR0VN71LRP,&var34);
+  setData(idA1VT71LRP,&var19);
+  setData(idR0IE04LRP,&var30);
+  setData(idR0IE03LRP,&var30);
+  setData(idA0EE01LRP,&var22);
+  setData(idB0VT71LRP,&var18);
+  setData(idB0VT61LRP,&var39);
+  setData(idB0CT01IRP,&var35);
+  setData(idR0ET02LRP,&var40);
+  setData(idR0ET01LRP,&var37);
+  setData(idA0VT71LRP,&var20);
+  setData(idA0VT61LRP,&var42);
+  setData(idA0CT01IRP,&var36);
+  setData(idR7VN71LRP,&var17);
+  setData(idR0IE02LRP,&var33);
+  setData(idR0IE01LRP,&var33);
+  setData(idR0VN15RRP,&var14);
+  setData(idR0VN33RRP,&var13);
+  setData(idR0VN23RRP,&var12);
+  setData(idA0EE02LRP,&var10);
+  setData(idR0VN03RRP,&var8);
+  setData(idR0VN02RRP,&var9);
 
   setAsBool(idbFirstEnterFlag,1);
 }
