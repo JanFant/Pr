@@ -19,8 +19,8 @@
 <var  name="A1IS21LRP" description="(A1IS21LRP) Приход на НУ ББ1" format="1"></var>
 <var  name="B3IS21LRP" description="(B3IS21LRP) Приход на НУ ИС2" format="1"></var>
 <var  name="A3IS21LRP" description="(A3IS21LRP) Приход на НУ ИС1" format="1"></var>
-<var  name="R0DEB4LRP" description="(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
 <var  name="R0DEB3LRP" description="(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8" format="1"></var>
+<var  name="R0DEB4LRP" description="(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
 <var  name="R0DEB2LRP" description="(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
 <var  name="R0DEB1LRP" description="(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7" format="1"></var>
 <var  name="TTLrpu" description="(TTLrpu) ttl" format="3"></var>
