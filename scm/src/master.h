@@ -3,7 +3,7 @@
 // Подсистема scm:SCM
 static char SimulOn=0;
 static short CodeSub=1;
-static char SimulIP[]="192.168.10.247\0";
+static char SimulIP[]="192.168.10.1\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
