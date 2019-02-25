@@ -1,9 +1,0 @@
-<devices xml="RPUsignass">
-        <device name="VCHS01" driver="vchs" slot="01" description="VCHS01"> </device>
-        <device name="VCHS02" driver="vchs" slot="02" description="VCHS02"> </device>
-        <device name="VCHS03" driver="vchs" slot="03" description="VCHS03"> </device>
-        <device name="VAS84" driver="vas84" slot="06" description="VAS84"> </device>
-        <device name="VDS32" driver="vds32" slot="07" description="VDS32"> </device>
-        <device name="FDS16" driver="fds16" slot="08" description="FDS16"> </device>
-        <device name="SBKFP" driver="sbk" slot= "20" description="SBKFP"></device>
-</devices>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<subsystem >
-        <variable xml="varAKNP1sign"/>
-        <saves xml="saveAKNP1sign"/>
-        <devices xml="devAKNP1sign"/>
-        <modbus name="AKNP1sign" description="Пустые сигналы AKNP1sign" type="slave" port="5002" xml="AKNP1sign"/>
-</subsystem>

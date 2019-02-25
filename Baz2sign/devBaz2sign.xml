@@ -1,9 +1,0 @@
-<devices xml="Baz2signass">
-        <device name="VAS84_04" driver="vas84" slot="04" description="VAS84_04"> </device>
-        <device name="VDS32_05" driver="vds32" slot="05" description="VDS32_05"> </device>
-        <device name="VDS32_06" driver="vds32" slot="06" description="VDS32_06"> </device>
-        <device name="VDS32_07" driver="vds32" slot="07" description="VDS32_07"> </device>
-        <device name="VDS32_08" driver="vds32" slot="08" description="VDS32_08"> </device>
-        <device name="FDS16_10" driver="fds16" slot="0a" description="FDS16_10"> </device>
-        <!-- <device name="SBKFP" driver="sbk" slot= "55" description="SBKFP"></device> -->
-</devices>

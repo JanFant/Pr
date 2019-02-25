@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<subsystem >
-        <variable xml="varRPUsign"/>
-        <saves xml="saveRPUsign"/>
-        <devices xml="devRPUsign"/>
-        <modbus name="RPUsign" description="Пустые сигналы RPUsign" type="slave" port="5002" xml="RPUsign"/>
-</subsystem>

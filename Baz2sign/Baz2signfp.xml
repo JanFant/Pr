@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<subsystem >
-        <variable xml="varBaz2sign"/>
-        <saves xml="saveBaz2sign"/>
-        <devices xml="devBaz2sign"/>
-        <modbus name="Baz2sign" description="Общий слэйв" type="slave" port="5002" xml="Baz2sign"/>
-</subsystem>

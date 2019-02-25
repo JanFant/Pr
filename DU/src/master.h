@@ -5793,34 +5793,16 @@ static ModbusRegister hr_DU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_MDuBz1[]={  // 
-	{&R0VW13LDU,1,0},	//(R0VW13LDU) Индикация выбора АЗ1 или АЗ1+АЗ2
-	{&R0VW23LDU,1,1},	//(R0VW23LDU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0AD21LDU,1,2},	//(R0AD21LDU) Подключить защиту от II УР
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MDuBz1[]={  // 
-	{&A0VT71LZ1,1,0},	//(A0VT71LZ1) АС по температуре в АЗ1
-	{&A0VP71LZ1,1,1},	//(A0VP71LZ1) АЗ по АС любого давления для АЗ1
-	{&B0VP71LZ1,1,2},	//(B0VP71LZ1) АЗ по АС любого давления для АЗ2
-	{&A0EE01LZ1,1,3},	//(A0EE01LZ1) Исправность АКНП1
-	{&A0EE04LZ1,1,4},	//(A0EE04LZ1) Исправность АКНП4
-	{&A0EE02LZ1,1,5},	//(A0EE02LZ1) Исправность АКНП2
-	{&A0EE03LZ1,1,6},	//(A0EE03LZ1) Исправность АКНП3
-	{&A0VN71LZ1,1,7},	//(A0VN71LZ1) АЗ по АС мощности  АЗ1
-	{&B0VN71LZ1,1,8},	//(B0VN71LZ1) АЗ по АС мощности  АЗ2
-	{&R0VP73LZ1,1,9},	//(R0VP73LZ1) ПС давления для РУ
-	{&B0VT71LZ1,1,10},	//(B0VT71LZ1) АС по температуре в АЗ2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuBz1[]={  // 
-	{&A0CT01IZ1,8,0},	//(A0CT01IZ1) Температура АЗ1-1
-	{&R0VN09RZ1,8,2},	//(R0VN09RZ1) Усредненный период разгона
-	{&R0VN11RZ1,8,4},	//(R0VN11RZ1) Средняя мощность по БАЗ1
-	{&B0CT01IZ1,8,6},	//(B0CT01IZ1) Температура АЗ2-1
 	{NULL,0,0},
 };
 #pragma pop
@@ -5833,34 +5815,16 @@ static char MDuBz1_ip1[]={"192.168.10.52\0"};
 static char MDuBz1_ip2[]={"192.168.10.152\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_MDuBz2[]={  // 
-	{&R0VW13LDU,1,0},	//(R0VW13LDU) Индикация выбора АЗ1 или АЗ1+АЗ2
-	{&R0VW23LDU,1,1},	//(R0VW23LDU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0AD21LDU,1,2},	//(R0AD21LDU) Подключить защиту от II УР
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MDuBz2[]={  // 
-	{&A0VT71LZ2,1,0},	//(A0VT71LZ2) АС по температуре в АЗ1
-	{&A0VP71LZ2,1,1},	//(A0VP71LZ2) АЗ по АС любого давления для АЗ1
-	{&B0VP71LZ2,1,2},	//(B0VP71LZ2) АЗ по АС любого давления для АЗ2
-	{&A0EE01LZ2,1,3},	//(A0EE01LZ2) Исправность АКНП1
-	{&A0EE04LZ2,1,4},	//(A0EE04LZ2) Исправность АКНП4
-	{&A0EE02LZ2,1,5},	//(A0EE02LZ2) Исправность АКНП2
-	{&A0EE03LZ2,1,6},	//(A0EE03LZ2) Исправность АКНП3
-	{&A0VN71LZ2,1,7},	//(A0VN71LZ2) АЗ по АС мощности  АЗ1
-	{&B0VN71LZ2,1,8},	//(B0VN71LZ2) АЗ по АС мощности  АЗ2
-	{&R0VP73LZ2,1,9},	//(R0VP73LZ2) ПС давления для РУ
-	{&B0VT71LZ2,1,10},	//(B0VT71LZ2) АС по температуре в АЗ2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuBz2[]={  // 
-	{&A0CT01IZ2,8,0},	//(A0CT01IZ2) Температура АЗ1-1
-	{&R0VN09RZ2,8,2},	//(R0VN09RZ2) Усредненный период разгона
-	{&R0VN11RZ2,8,4},	//(R0VN11RZ2) Средняя мощность по БАЗ1
-	{&B0CT01IZ2,8,6},	//(B0CT01IZ2) Температура АЗ2-1
 	{NULL,0,0},
 };
 #pragma pop
@@ -5883,14 +5847,6 @@ static ModbusRegister di_MDuS[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuS[]={  // 
-	{&A2IC01UDU,5,0},	//(A2IC01UDU) Координата штока РБ1
-	{&A3IC01UDU,5,2},	//(A3IC01UDU) Координата штока ИС1
-	{&B3IC01UDU,5,4},	//(B3IC01UDU) Координата штока ИС2
-	{&A8IC01UDU,5,6},	//(A8IC01UDU) Координата ДС2
-	{&B8IC01UDU,5,8},	//(B8IC01UDU) Координата АЗ2
-	{&B2IC01UDU,5,10},	//(B2IC01UDU) Координата штока РБ2
-	{&A1IC01UDU,5,12},	//(A1IC01UDU) Координата штока ББ1
-	{&B1IC01UDU,5,14},	//(B1IC01UDU) Координата штока ББ2
 	{NULL,0,0},
 };
 #pragma pop

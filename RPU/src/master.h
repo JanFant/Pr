@@ -53,10 +53,10 @@ int nomer = 1;
 #define idB3IS21LRP	 19	//(B3IS21LRP) Приход на НУ ИС2
 #define A3IS21LRP	 BUFFER[41]	//(A3IS21LRP) Приход на НУ ИС1
 #define idA3IS21LRP	 20	//(A3IS21LRP) Приход на НУ ИС1
-#define R0DEB4LRP	 BUFFER[43]	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
-#define idR0DEB4LRP	 21	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
-#define R0DEB3LRP	 BUFFER[45]	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
-#define idR0DEB3LRP	 22	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+#define R0DEB3LRP	 BUFFER[43]	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+#define idR0DEB3LRP	 21	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+#define R0DEB4LRP	 BUFFER[45]	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
+#define idR0DEB4LRP	 22	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
 #define R0DEB2LRP	 BUFFER[47]	//(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7
 #define idR0DEB2LRP	 23	//(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7
 #define R0DEB1LRP	 BUFFER[49]	//(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7
@@ -273,8 +273,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 18	,1	,1	, &A1IS21LRP},	//(A1IS21LRP) Приход на НУ ББ1
 	{ 19	,1	,1	, &B3IS21LRP},	//(B3IS21LRP) Приход на НУ ИС2
 	{ 20	,1	,1	, &A3IS21LRP},	//(A3IS21LRP) Приход на НУ ИС1
-	{ 21	,1	,1	, &R0DEB4LRP},	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
-	{ 22	,1	,1	, &R0DEB3LRP},	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+	{ 21	,1	,1	, &R0DEB3LRP},	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+	{ 22	,1	,1	, &R0DEB4LRP},	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
 	{ 23	,1	,1	, &R0DEB2LRP},	//(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7
 	{ 24	,1	,1	, &R0DEB1LRP},	//(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7
 	{ 25	,3	,1	, &TTLrpu},	//(TTLrpu) ttl
@@ -490,8 +490,8 @@ static ModbusRegister coil_DiagnRPU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_DiagnRPU[]={  // 
-	{&R0DEB4LRP,1,0},	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
-	{&R0DEB3LRP,1,1},	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+	{&R0DEB3LRP,1,0},	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
+	{&R0DEB4LRP,1,1},	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
 	{&R0DEB2LRP,1,2},	//(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7
 	{&R0DEB1LRP,1,3},	//(R0DEB1LRP) диагностика шкафа РПУ БП5 место 7
 	{&R0DE3DLRP,1,4},	//(R0DE3DLRP) диагностика шкафа РПУ БП5/24Д место 8
@@ -656,8 +656,8 @@ static DriverRegister def_buf_SBKFP[]={
 	{&R0DE39LRP,1,16},
 	{&R0DEB1LRP,1,18},
 	{&R0DEB2LRP,1,20},
+	{&R0DEB4LRP,1,24},
 	{&R0DEB3LRP,1,22},
-	{&R0DEB4LRP,1,18},
 	{NULL,0,0},
 };
 #pragma pop
