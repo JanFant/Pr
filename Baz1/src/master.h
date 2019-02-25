@@ -1,7 +1,7 @@
 #ifndef BAZ1_H
 #define BAZ1_H
 // Подсистема Baz1:Baz1
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=4;
 static char SimulIP[]="192.168.10.1\0";
 static int SimulPort=5555;

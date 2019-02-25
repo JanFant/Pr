@@ -1,7 +1,7 @@
 #ifndef RPU_H
 #define RPU_H
 // Подсистема RPU:RPU
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=8;
 static char SimulIP[]="192.168.10.1\0";
 static int SimulPort=5555;

@@ -1,7 +1,7 @@
 #ifndef DU_H
 #define DU_H
 // Подсистема DU:DU
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=2;
 static char SimulIP[]="192.168.10.1\0";
 static int SimulPort=5555;

@@ -1,7 +1,7 @@
 #ifndef AKNP1_H
 #define AKNP1_H
 // Подсистема AKNP1:AKNP1
-static char SimulOn=0;
+static char SimulOn=1;
 static short CodeSub=3;
 static char SimulIP[]="192.168.10.1\0";
 static int SimulPort=5555;
