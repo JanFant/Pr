@@ -1,0 +1,21 @@
+<driver name="AI12_vas" description="ПТИ драйвер Vas" code="0x33" lenData="38" lenInit="1" header="drivers/ai12_vas.h">
+
+    <signals>
+        <signal name="K01AO" format="3" mode="output" address="0"/>
+        <signal name="K02AO" format="3" mode="output" address="3"/>
+        <signal name="K03AO" format="3" mode="output" address="6"/>
+        <signal name="K04AO" format="3" mode="output" address="9"/>
+        <signal name="K05AO" format="3" mode="output" address="12"/>
+        <signal name="K06AO" format="3" mode="output" address="15"/>
+        <signal name="K07AO" format="3" mode="output" address="18"/>
+        <signal name="K08AO" format="3" mode="output" address="21"/>
+        <signal name="K09AO" format="3" mode="output" address="24"/>
+        <signal name="K10AO" format="3" mode="output" address="27"/>
+        <signal name="K11AO" format="3" mode="output" address="30"/>
+        <signal name="K12AO" format="3" mode="output" address="33"/>
+        <signal name="NumK"  format="3" mode="output" address="36"/>
+    </signals>
+    <init type="AI12vas_inimod">
+        <signal name="addrVas" mode="input" format="3" value="0xa900" address="0"/>
+    </init>
+</driver>
