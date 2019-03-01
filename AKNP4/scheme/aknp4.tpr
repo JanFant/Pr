@@ -501,8 +501,8 @@
       Access=""
       TypeInterface=0
       InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -751,6 +751,94 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="N5"
+      Value="2"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="n - N-размерность массива x"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="X2"
+      Value="1"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="x2 - второе слагаемое"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="N6"
+      Value="2"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="n - N-размерность массива x"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="N7"
+      Value="2"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="n - N-размерность массива x"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -795,7 +883,7 @@
       PageCountX=2
       PageCountY=2
       Name="AbS4"
-      ObjectCount=201
+      ObjectCount=224
       ExpandCompile=1
       [TDrawSignal]{
         R="399,157,459,197"
@@ -1013,7 +1101,7 @@
         Line2="АКНП канал 4 на БАЗ1"
       }
       [TDrawSignal]{
-        R="16,31,76,71"
+        R="90,5,120,45"
         Number=3
         IsHold=FALSE
         VisualNumber="1"
@@ -1036,16 +1124,17 @@
         InterfaceMB="AKNP4"
         ChannalName="K01VCHS"
         DeviceName="VCHS01"
-        Line1="Выход СНМ-11 Гц"
-        Line2=""
+        Line1="Выход "
+        Line2="СНМ-11 Гц"
+        Line3=""
       }
       [TDrawSignal]{
-        R="83,31,143,71"
+        R="129,62,159,102"
         Number=4
         IsHold=FALSE
         VisualNumber="8"
-        SIGNAL_NAME="R0IN02FS4"
-        KodTeprol="R0IN02FS4"
+        SIGNAL_NAME="R0IN02FI4"
+        KodTeprol="R0IN02FI4"
         Comment="Выход КНК15-1 Гц"
         Type=1
         ParamType=0
@@ -1063,7 +1152,8 @@
         InterfaceMB="AKNP4"
         ChannalName="K02VCHS"
         DeviceName="VCHS01"
-        Line1="Выход КНК15-1 Гц"
+        Line1="Выход КНК15-1"
+        Line2="Гц от ПТИ"
       }
       [VVV_DrawConst]{
         R="88,226,118,266"
@@ -1164,7 +1254,7 @@
         Line4="на БАЗ2"
       }
       [TDrawSignal]{
-        R="152,31,212,71"
+        R="90,114,120,154"
         Number=8
         IsHold=FALSE
         VisualNumber="13"
@@ -1187,7 +1277,8 @@
         InterfaceMB="AKNP4"
         ChannalName="K01VCHS"
         DeviceName="VCHS02"
-        Line1="Выход КНК53М Гц"
+        Line1="Выход"
+        Line2="КНК53М Гц"
       }
       [TDrawSignal]{
         R="240,384,300,424"
@@ -1382,7 +1473,7 @@
         }
       }
       [VVV_DrawConst]{
-        R="15,178,75,218"
+        R="14,233,74,273"
         Number=202
         IsHold=FALSE
         VisualNumber="4"
@@ -1444,7 +1535,7 @@
         }
       }
       [VVV_Text]{
-        R="371,423,499,428"
+        R="371,423,497,428"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1500,7 +1591,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,985,410"
+        R="845,404,985,409"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -1617,34 +1708,6 @@
         Line2="ведущей"
         Line3="камеры"
         Line4=" канал 4"
-      }
-      [TDrawSignal]{
-        R="1177,68,1237,108"
-        Number=155
-        IsHold=FALSE
-        VisualNumber="68"
-        SIGNAL_NAME="A0EE03LS4"
-        KodTeprol="A0EE03LS4"
-        Comment="Подключена сеть питания АКНП канал 4"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=0
-        FormatMB=2
-        TypeMBMaster=0
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="AKNP4"
-        ChannalName=""
-        DeviceName=""
-        Line1="Подключена сеть"
-        Line2="питания АКНП"
-        Line3=" канал 4"
       }
       [VVV_DrawConst]{
         R="773,16,803,56"
@@ -1842,7 +1905,7 @@
         Line1="нигде не используем"
       }
       [TDrawSignal]{
-        R="15,92,75,132"
+        R="16,186,76,226"
         Number=138
         IsHold=FALSE
         VisualNumber="2"
@@ -1979,14 +2042,14 @@
         CONST_NAME="B0UX12RSS"
       }
       [VVV_DrawConst]{
-        R="15,135,75,175"
+        R="281,151,311,191"
         Number=251
         IsHold=FALSE
         VisualNumber="3"
         CONST_NAME="R7UX00RSS"
       }
       [VVV_DrawConst]{
-        R="90,149,150,189"
+        R="316,151,346,191"
         Number=263
         IsHold=FALSE
         VisualNumber="9"
@@ -2569,7 +2632,7 @@
         Line1="ttl"
       }
       [TDrawSignal]{
-        R="533,834,593,874"
+        R="481,782,541,822"
         Number=110
         IsHold=FALSE
         VisualNumber="97"
@@ -2717,6 +2780,238 @@
         VisualNumber="95"
         ABBRV="OR2"
       }
+      [TDrawSignal]{
+        R="9,9,39,29"
+        Number=120
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0IS01LDU"
+        KodTeprol="R0IS01LDU"
+        Comment="Признак работы с имитатором"
+        Type=3
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=0
+        FormatMB=1
+        TypeMBMaster=0
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Признак работы"
+        Line2="с имитатором"
+      }
+      [TModule]{
+        R="47,34,77,54"
+        Number=121
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="MA"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=121
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=121
+            ConstName="N5"
+          }
+          [VVV_GCPoint]{
+            Number=121
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [TModule]{
+        R="9,34,39,54"
+        Number=122
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="FSUMZ"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=122
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=122
+            ConstName="X2"
+          }
+          [VVV_GCPoint]{
+            Number=122
+            ParameterName="x2"
+            Index=-1
+          }
+        }
+      }
+      [TDrawSignal]{
+        R="129,5,159,45"
+        Number=12
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0IN01FI4"
+        KodTeprol="R0IN01FI4"
+        Comment="Выход СНМ-11 Гц"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB="AKNP4"
+        ChannalName="K01VCHS"
+        DeviceName="VCHS01"
+        Line1="Выход СНМ-11"
+        Line2="Гц от ПТИ"
+        Line3=""
+      }
+      [TDrawSignal]{
+        R="89,62,119,102"
+        Number=11
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0IN02FS4"
+        KodTeprol="R0IN02FS4"
+        Comment="Выход КНК15-1 Гц"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB="AKNP4"
+        ChannalName="K02VCHS"
+        DeviceName="VCHS01"
+        Line1="Выход"
+        Line2="КНК15-1 Гц"
+      }
+      [TModule]{
+        R="47,72,77,92"
+        Number=127
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="MA"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=127
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=127
+            ConstName="N6"
+          }
+          [VVV_GCPoint]{
+            Number=127
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [TDrawSignal]{
+        R="128,114,158,154"
+        Number=131
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="R0IN03FI4"
+        KodTeprol="R0IN03FI4"
+        Comment="Выход КНК53М Гц"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB="AKNP4"
+        ChannalName="K01VCHS"
+        DeviceName="VCHS02"
+        Line1="Выход КНК53М"
+        Line2="Гц от ПТИ"
+      }
+      [TModule]{
+        R="47,124,77,144"
+        Number=135
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="MA"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=135
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=135
+            ConstName="N7"
+          }
+          [VVV_GCPoint]{
+            Number=135
+            ParameterName="n"
+            Index=-1
+          }
+        }
+      }
+      [VVV_InterBlock]{
+        VisualNumber=""
+        [VVV_InterBlock]{
+          R="528,848,548,868"
+          Number=150
+          IsHold=FALSE
+        }
+        [VVV_InterBlock]{
+          R="1190,96,1210,116"
+          Number=151
+          IsHold=FALSE
+        }
+      }
+      [VVV_Text]{
+        R="1192,75,1231,86"
+        Number=156
+        IsHold=FALSE
+        Line1="исправность"
+        Line2="от диагностики"
+      }
+      [TModule]{
+        R="481,846,511,866"
+        Number=161
+        IsHold=FALSE
+        VisualNumber=""
+        ABBRV="NOTO"
+      }
       [VVV_DrawConnector]{
         Number=184
         IsHold=FALSE
@@ -2834,7 +3129,7 @@
         p3="1142:161"
         BNumber=160
         ENumber=193
-        Comment="Исправность ВИП 0,5 (№9) КНК15-1 1канала --> x - массив входных параметров"
+        Comment="Исправность ВИП 0,5 (№18) КНК15-1 4 канала --> x - массив входных параметров"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -2855,7 +3150,7 @@
         p1="1142:170"
         BNumber=194
         ENumber=193
-        Comment="Исправность ВИП 0,5 (№10) КНК53М 1канала --> x - массив входных параметров"
+        Comment="Исправность ВИП 0,5 (№19) КНК53М 4 канала --> x - массив входных параметров"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3038,28 +3333,6 @@
           Number=173
           ParameterName="x"
           Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=157
-        IsHold=FALSE
-        p0="1204:108"
-        p1="1204:165"
-        p2="1172:165"
-        BNumber=155
-        ENumber=193
-        Comment="Подключена сеть питания АКНП --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=155
-          ParameterName="A0EE03LS4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=193
-          ParameterName="x"
-          Index=4
         }
       }
       [VVV_DrawConnector]{
@@ -3427,165 +3700,6 @@
         [VVV_GCPoint]{
           Number=7
           ParameterName="Reff"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=10
-        IsHold=FALSE
-        p0="178:71"
-        p1="178:187"
-        p2="188:187"
-        BNumber=8
-        ENumber=7
-        Comment="Выход КНК53М Гц --> Ch2 - частота импульсов от КНК53М"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=8
-          ParameterName="R0IN03FS4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="Ch3k"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=11
-        IsHold=FALSE
-        p0="111:71"
-        p1="111:85"
-        p2="174:85"
-        p3="174:191"
-        p4="188:191"
-        BNumber=4
-        ENumber=7
-        Comment="Выход КНК15-1 Гц --> Ch2 - частота импульсов от КНК15-1"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=4
-          ParameterName="R0IN02FS4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="Ch2k"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=12
-        IsHold=FALSE
-        p0="49:71"
-        p1="49:89"
-        p2="167:89"
-        p3="167:196"
-        p4="188:196"
-        BNumber=3
-        ENumber=7
-        Comment="Выход СНМ-11 Гц --> Ch1 - частота импульсов от СНМ-11"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=3
-          ParameterName="R0IN01FS4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="Ch1k"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=14
-        IsHold=FALSE
-        p0="75:112"
-        p1="162:112"
-        p2="162:201"
-        p3="188:201"
-        BNumber=138
-        ENumber=7
-        Comment="Координата АЗ2, мм --> YAz2 - y-координата АЗ2 мм"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=138
-          ParameterName="B8VC01RDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="YAz2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=15
-        IsHold=FALSE
-        p0="75:144"
-        p1="158:144"
-        p2="158:205"
-        p3="188:205"
-        BNumber=251
-        ENumber=7
-        Comment="X-координата АЗ1 (см) --> XAz - x-координата АЗ cм"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=251
-          ParameterName="R7UX00RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="XAz"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=18
-        IsHold=FALSE
-        p0="125:189"
-        p1="125:208"
-        p2="188:208"
-        BNumber=263
-        ENumber=7
-        Comment="Y-координата АЗ1 (см) --> YAz1 - y-координата АЗ1 cм"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=263
-          ParameterName="R7UY00RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="YAz1"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=20
-        IsHold=FALSE
-        p0="75:213"
-        p1="188:213"
-        BNumber=202
-        ENumber=7
-        Comment="Кол-во делений/сек на 1 ватт * E^6 --> Kprm - коэфф. преобразования поток->мощность"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=202
-          ParameterName="R0UH05RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=7
-          ParameterName="Kprm"
           Index=-1
         }
       }
@@ -3960,7 +4074,7 @@
         p4="72:302"
         BNumber=7
         ENumber=223
-        Comment="Np1 - поток нейтронов от 1 камеры  (нейтр/с)"
+        Comment="Np1 - поток нейтронов от 1 камеры  (нейтр/с) --> Нейтронный поток по камере СНМ11 канал 4"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -3984,7 +4098,7 @@
         p4="72:347"
         BNumber=7
         ENumber=224
-        Comment="Np2 - поток нейтронов от 2 камеры  (нейтр/с)"
+        Comment="Np2 - поток нейтронов от 2 камеры  (нейтр/с) --> Нейтронный поток по камере КНК15-1 канал 4"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -4010,7 +4124,7 @@
         p6="72:403"
         BNumber=7
         ENumber=225
-        Comment="Np3 - поток нейтронов от 3 камеры  (нейтр/с)"
+        Comment="Np3 - поток нейтронов от 3 камеры  (нейтр/с) --> Нейтронный поток по камере КНК53М канал 4"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -4098,7 +4212,7 @@
         p1="217:384"
         BNumber=7
         ENumber=235
-        Comment="Nkm - ведущая камера 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей"
+        Comment="Nkm - ведущая камера 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей --> Номер ведущей камеры канал 4"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -4797,27 +4911,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=116
-        IsHold=FALSE
-        p0="463:860"
-        p1="533:860"
-        BNumber=104
-        ENumber=110
-        Comment="y - выходной параметр"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=104
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=110
-          ParameterName="TestDiagnAKNP4"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=117
         IsHold=FALSE
         p0="127:533"
@@ -4886,7 +4979,474 @@
           Index=-1
         }
       }
+      [VVV_DrawConnector]{
+        Number=20
+        IsHold=FALSE
+        p0="46:233"
+        p1="46:230"
+        p2="84:230"
+        p3="84:212"
+        p4="188:212"
+        BNumber=202
+        ENumber=7
+        Comment="Кол-во делений/сек на 1 ватт * E^6 --> Kprm - коэфф. преобразования поток->мощность"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=202
+          ParameterName="R0UH05RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="Kprm"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=14
+        IsHold=FALSE
+        p0="76:210"
+        p1="188:210"
+        BNumber=138
+        ENumber=7
+        Comment="Координата АЗ2, мм --> YAz2 - y-координата АЗ2 мм"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=138
+          ParameterName="B8VC01RDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="YAz2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=123
+        IsHold=FALSE
+        p0="25:29"
+        p1="25:34"
+        BNumber=120
+        ENumber=122
+        Comment="Признак работы с имитатором --> x1 - первое слагаемое"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=120
+          ParameterName="R0IS01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=122
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=15
+        IsHold=FALSE
+        p0="281:175"
+        p1="242:175"
+        p2="242:180"
+        BNumber=251
+        ENumber=7
+        Comment="X-координата АЗ1 (см) --> XAz - x-координата АЗ cм"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=251
+          ParameterName="R7UX00RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="XAz"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=18
+        IsHold=FALSE
+        p0="331:191"
+        p1="331:199"
+        p2="248:199"
+        BNumber=263
+        ENumber=7
+        Comment="Y-координата АЗ1 (см) --> YAz1 - y-координата АЗ1 cм"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=263
+          ParameterName="R7UY00RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="YAz1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=124
+        IsHold=FALSE
+        p0="90:18"
+        p1="56:18"
+        p2="56:34"
+        BNumber=3
+        ENumber=121
+        Comment="Выход СНМ-11 Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=3
+          ParameterName="R0IN01FS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=121
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=125
+        IsHold=FALSE
+        p0="145:45"
+        p1="145:50"
+        p2="77:50"
+        BNumber=12
+        ENumber=121
+        Comment="Выход СНМ-11 Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=12
+          ParameterName="R0IN01FI4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=121
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=126
+        IsHold=FALSE
+        p0="39:44"
+        p1="47:44"
+        BNumber=122
+        ENumber=121
+        Comment="y - сумма y=x1+x2 --> r - управляющий параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=122
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=121
+          ParameterName="r"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=10
+        IsHold=FALSE
+        p0="62:54"
+        p1="62:58"
+        p2="175:58"
+        p3="175:188"
+        p4="188:188"
+        BNumber=121
+        ENumber=7
+        Comment="y - выходной параметр --> Ch1 - частота импульсов от СНМ-11"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=121
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="Ch1k"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=128
+        IsHold=FALSE
+        p0="42:44"
+        p1="42:80"
+        p2="47:80"
+        BNumber=126
+        ENumber=127
+        Comment="y - сумма y=x1+x2 --> r - управляющий параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=122
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="r"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=129
+        IsHold=FALSE
+        p0="89:77"
+        p1="77:77"
+        BNumber=11
+        ENumber=127
+        Comment="Выход КНК15-1 Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=11
+          ParameterName="R0IN02FS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=130
+        IsHold=FALSE
+        p0="145:102"
+        p1="145:107"
+        p2="85:107"
+        p3="85:87"
+        p4="77:87"
+        BNumber=4
+        ENumber=127
+        Comment="Выход КНК15-1 Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=4
+          ParameterName="R0IN02FI4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=132
+        IsHold=FALSE
+        p0="63:92"
+        p1="63:111"
+        p2="170:111"
+        p3="170:194"
+        p4="188:194"
+        BNumber=127
+        ENumber=7
+        Comment="y - выходной параметр --> Ch2 - частота импульсов от КНК15-1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="Ch2k"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=144
+        IsHold=FALSE
+        p0="42:80"
+        p1="42:134"
+        p2="47:134"
+        BNumber=128
+        ENumber=135
+        Comment="y - сумма y=x1+x2 --> r - управляющий параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=122
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=135
+          ParameterName="r"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=145
+        IsHold=FALSE
+        p0="90:128"
+        p1="77:128"
+        BNumber=8
+        ENumber=135
+        Comment="Выход КНК53М Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=8
+          ParameterName="R0IN03FS4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=135
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=146
+        IsHold=FALSE
+        p0="141:154"
+        p1="141:160"
+        p2="82:160"
+        p3="82:137"
+        p4="77:137"
+        BNumber=131
+        ENumber=135
+        Comment="Выход КНК53М Гц --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=131
+          ParameterName="R0IN03FI4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=135
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=147
+        IsHold=FALSE
+        p0="60:144"
+        p1="60:163"
+        p2="164:163"
+        p3="164:198"
+        p4="188:198"
+        BNumber=135
+        ENumber=7
+        Comment="y - выходной параметр --> Ch2 - частота импульсов от КНК53М"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=135
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=7
+          ParameterName="Ch3k"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=116
+        IsHold=FALSE
+        p0="463:857"
+        p1="481:857"
+        BNumber=104
+        ENumber=161
+        Comment="y - выходной параметр --> x - входной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=161
+          ParameterName="x"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=152
+        IsHold=FALSE
+        p0="511:858"
+        p1="528:858"
+        BNumber=161
+        ENumber=150
+        Comment="y - выходной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=161
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=193
+          ParameterName="x"
+          Index=4
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=153
+        IsHold=FALSE
+        p0="470:857"
+        p1="470:800"
+        p2="481:800"
+        BNumber=116
+        ENumber=110
+        Comment="y - выходной параметр --> x - входной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=104
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=110
+          ParameterName="TestDiagnAKNP4"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=155
+        IsHold=FALSE
+        p0="1202:116"
+        p1="1202:165"
+        p2="1172:165"
+        BNumber=151
+        ENumber=193
+        Comment="y - выходной параметр --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=161
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=193
+          ParameterName="x"
+          Index=4
+        }
+      }
     }
   }
 }
-4718248
+5237492
