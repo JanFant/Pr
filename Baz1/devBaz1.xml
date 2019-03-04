@@ -5,5 +5,5 @@
         <device name="VDS323" driver="vds32" slot="07" description="VDS32"> </device>
         <device name="VDS324" driver="vds32" slot="08" description="VDS32"> </device>
         <device name="FDS16"  driver="fds16" slot="0a" description="FDS16"> </device>
-        <!-- <device name="SBKFP" driver="sbk" slot= "55" description="SBKFP"></device> -->
+        <device name="SBKFP"  driver="sbk"   slot= "20" description="SBKFP"> </device>
 </devices>

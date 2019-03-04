@@ -71,9 +71,9 @@
     </format>
     <records>
         <record>
-            <value name="name">R0AD21LDU</value>
-            <value name="description">(R0AD21LDU) Подключить защиту от II УР</value>
-            <value name="type">0</value>
+            <value name="name">R0DE3DLZ1</value>
+            <value name="description">(R0DE3DLZ1) диагностика шкафа Баз1 БП5/24Д место 6</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
             <value name="nID">1</value>
@@ -84,9 +84,9 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VW23LDU</value>
-            <value name="description">(R0VW23LDU) Индикация выбора АЗ2 или АЗ1+АЗ2</value>
-            <value name="type">0</value>
+            <value name="name">R0DE3CLZ1</value>
+            <value name="description">(R0DE3CLZ1) диагностика шкафа Баз1 БП5/24Д место 5</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
             <value name="nID">2</value>
@@ -97,9 +97,9 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VW13LDU</value>
-            <value name="description">(R0VW13LDU) Индикация выбора АЗ1 или АЗ1+АЗ2</value>
-            <value name="type">0</value>
+            <value name="name">R0DEB3LZ1</value>
+            <value name="description">(R0DEB3LZ1) диагностика шкафа Баз1 БП5 место 6</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
             <value name="nID">3</value>
@@ -110,11 +110,11 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0VT71LZ2</value>
-            <value name="description">(B0VT71LZ2) АС по температуре в АЗ2</value>
+            <value name="name">R0DEB4LZ1</value>
+            <value name="description">(R0DEB4LZ1) диагностика шкафа Баз1 БП24Д место 6</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">0</value>
+            <value name="address">3</value>
             <value name="nID">4</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
@@ -123,25 +123,90 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VP73LZ2</value>
-            <value name="description">(R0VP73LZ2) ПС давления для РУ</value>
+            <value name="name">R0DEB2LZ1</value>
+            <value name="description">(R0DEB2LZ1) диагностика шкафа Баз1 БП24Д место 5</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">6</value>
+            <value name="address">4</value>
+            <value name="nID">5</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">13</value>
-            <value name="OldData">13</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0VN71LZ2</value>
-            <value name="description">(B0VN71LZ2) АЗ по АС мощности  АЗ2</value>
+            <value name="name">R0DEB1LZ1</value>
+            <value name="description">(R0DEB1LZ1) диагностика шкафа Баз1 БП5 место 5</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">2</value>
+            <value name="address">5</value>
+            <value name="nID">6</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE38LZ1</value>
+            <value name="description">(R0DE38LZ1) диагностика шкафа Баз1 МП15-3 место 3</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">6</value>
+            <value name="nID">7</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE39LZ1</value>
+            <value name="description">(R0DE39LZ1) диагностика шкафа Баз1 МП24-2 место 4</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">7</value>
             <value name="nID">8</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE35LZ1</value>
+            <value name="description">(R0DE35LZ1) диагностика шкафа Баз1 температура больше 53</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">8</value>
+            <value name="nID">9</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE37LZ1</value>
+            <value name="description">(R0DE37LZ1) диагностика шкафа Баз1 МП15-3.1 место 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">9</value>
+            <value name="nID">10</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE36LZ1</value>
+            <value name="description">(R0DE36LZ1) диагностика шкафа Баз1 МП15-3.1 место 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">10</value>
+            <value name="nID">11</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">20</value>
@@ -149,12 +214,12 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0VN71LZ2</value>
-            <value name="description">(A0VN71LZ2) АЗ по АС мощности  АЗ1</value>
+            <value name="name">R0DE33LZ1</value>
+            <value name="description">(R0DE33LZ1) диагностика шкафа Баз1 двери</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">9</value>
+            <value name="address">11</value>
+            <value name="nID">12</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">22</value>
@@ -162,12 +227,12 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0EE03LZ2</value>
-            <value name="description">(A0EE03LZ2) Исправность АКНП3</value>
+            <value name="name">R0DE34LZ1</value>
+            <value name="description">(R0DE34LZ1) диагностика шкафа Баз1 температура меньше 43</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">4</value>
-            <value name="nID">10</value>
+            <value name="address">12</value>
+            <value name="nID">13</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">24</value>
@@ -175,12 +240,12 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0EE02LZ2</value>
-            <value name="description">(A0EE02LZ2) Исправность АКНП2</value>
+            <value name="name">R0DE32LZ1</value>
+            <value name="description">(R0DE32LZ1) диагностика шкафа Баз1 сеть 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">5</value>
-            <value name="nID">11</value>
+            <value name="address">13</value>
+            <value name="nID">14</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">26</value>
@@ -188,12 +253,12 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0EE04LZ2</value>
-            <value name="description">(A0EE04LZ2) Исправность АКНП4</value>
+            <value name="name">R0DE31LZ1</value>
+            <value name="description">(R0DE31LZ1) диагностика шкафа Баз1 сеть 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">6</value>
-            <value name="nID">12</value>
+            <value name="address">14</value>
+            <value name="nID">15</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">28</value>
@@ -201,107 +266,81 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0EE01LZ2</value>
-            <value name="description">(A0EE01LZ2) Исправность АКНП1</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">7</value>
-            <value name="nID">13</value>
-            <value name="PType">131</value>
+            <value name="name">R0DE0ALZ1</value>
+            <value name="description">(R0DE0ALZ1) диагностика модуля Баз1 на 10 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">16</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
             <value name="ParData">30</value>
             <value name="OldData">30</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0VP71LZ2</value>
-            <value name="description">(B0VP71LZ2) АЗ по АС любого давления для АЗ2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">8</value>
-            <value name="nID">15</value>
-            <value name="PType">131</value>
+            <value name="name">R0DE07LZ1</value>
+            <value name="description">(R0DE07LZ1) диагностика модуля Баз1 на 7 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">17</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">37</value>
-            <value name="OldData">37</value>
+            <value name="ParData">33</value>
+            <value name="OldData">33</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0VP71LZ2</value>
-            <value name="description">(A0VP71LZ2) АЗ по АС любого давления для АЗ1</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">9</value>
-            <value name="nID">16</value>
-            <value name="PType">131</value>
+            <value name="name">R0DE08LZ1</value>
+            <value name="description">(R0DE08LZ1) диагностика модуля Баз1 на 8 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">18</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">36</value>
+            <value name="OldData">36</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE06LZ1</value>
+            <value name="description">(R0DE06LZ1) диагностика модуля Баз1 на 6 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">3</value>
+            <value name="nID">19</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
             <value name="ParData">39</value>
             <value name="OldData">39</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0VT71LZ2</value>
-            <value name="description">(A0VT71LZ2) АС по температуре в АЗ1</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">10</value>
-            <value name="nID">17</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">41</value>
-            <value name="OldData">41</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B0CT01IZ2</value>
-            <value name="description">(B0CT01IZ2) Температура АЗ2-1</value>
+            <value name="name">R0DE05LZ1</value>
+            <value name="description">(R0DE05LZ1) диагностика модуля Баз1 на 5 месте</value>
             <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">0</value>
-            <value name="nID">5</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">8</value>
-            <value name="OldData">8</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN11RZ2</value>
-            <value name="description">(R0VN11RZ2) Средняя мощность по БАЗ1</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">2</value>
-            <value name="nID">7</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">15</value>
-            <value name="OldData">15</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN09RZ2</value>
-            <value name="description">(R0VN09RZ2) Усредненный период разгона</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
+            <value name="format">3</value>
             <value name="address">4</value>
-            <value name="nID">14</value>
-            <value name="PType">129</value>
+            <value name="nID">20</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">32</value>
-            <value name="OldData">32</value>
+            <value name="ParData">42</value>
+            <value name="OldData">42</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0CT01IZ2</value>
-            <value name="description">(A0CT01IZ2) Температура АЗ1-1</value>
+            <value name="name">R0DE04LZ1</value>
+            <value name="description">(R0DE04LZ1) диагностика модуля Баз1 на 4 месте</value>
             <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">6</value>
-            <value name="nID">18</value>
-            <value name="PType">129</value>
+            <value name="format">3</value>
+            <value name="address">5</value>
+            <value name="nID">21</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">43</value>
-            <value name="OldData">43</value>
+            <value name="ParData">45</value>
+            <value name="OldData">45</value>
             <value name="unitId">1</value>
         </record>
     </records>

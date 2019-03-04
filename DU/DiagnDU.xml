@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <format maxRecords="2147483647">
+        <fields>
+            <field description="Имя" name="name" type="S">
+              <validators>&lt;L=1 50&gt;&lt;R=\w+^^Имя может содержать только буквы, цифры и символы подчеркивания&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+              <validators>&lt;L=1 200&gt;&lt;R=[^\p{Cntrl}]*^^Описание может содержать только печатные символы&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Тип" name="type" type="I">
+              <selectionValues>
+                <option description="Дискретный выход (Coil)">0</option>
+                <option description="Дискретный вход (Discrete Input)">1</option>
+                <option description="Входной регистр (Input Register)">2</option>
+                <option description="Выходной регистр (Holding Register)">3</option>
+                        </selectionValues>
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Формат" name="format" type="I">
+              <selectionValues>
+                <option description="2-байтный Int Unsigned">2</option>
+                <option description="2-байтный Int Signed">3</option>
+                <option description="4-байтный Int Unsigned">4</option>
+                <option description="4-байтный Int Signed">5</option>
+                <option description="4-байтный Int Unsigned Swapped">6</option>
+                <option description="4-байтный Int Signed Swapped">7</option>
+                <option description="4-байтный Float">8</option>
+                <option description="4-байтный Float Swapped">9</option>
+                <option description="8-байтный Int Signed">11</option>
+                <option description="8-байтный Int Signed Swapped">13</option>
+                <option description="8-байтный Float">14</option>
+                <option description="8-байтный Float Swapped">15</option>
+                <option description="2-байтный BCD">16</option>
+                <option description="4-байтный BCD">17</option>
+                <option description="Символьный">18</option>
+                <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>2</defaultValue>
+            </field>
+            <field description="Десятичный адрес (смещение) регистра"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators>&lt;L=1 255&gt;</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="nID" name="nID" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="PType" name="PType" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Bf0" name="Bf0" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="ParData" name="ParData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="OldData" name="OldData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Идентификатор устройства (Unit ID)"
+                name="unitId" type="I">
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+    </format>
+    <records>
+        <record>
+            <value name="name">R0DE3CLDU</value>
+            <value name="description">(R0DE3CLDU) диагностика шкафа ДУ БП5/24Д место 5</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE3DLDU</value>
+            <value name="description">(R0DE3DLDU) диагностика шкафа ДУ БП5/24Д место 6</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">1</value>
+            <value name="nID">2</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">2</value>
+            <value name="OldData">2</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DEB4LDU</value>
+            <value name="description">(R0DEB4LDU) диагностика шкафа ДУ БП24Д место 6</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">3</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">4</value>
+            <value name="OldData">4</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DEB1LDU</value>
+            <value name="description">(R0DEB1LDU) диагностика шкафа ДУ БП5 место 5</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">3</value>
+            <value name="nID">4</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">6</value>
+            <value name="OldData">6</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DEB2LDU</value>
+            <value name="description">(R0DEB2LDU) диагностика шкафа ДУ БП24Д место 5</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">4</value>
+            <value name="nID">5</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DEB3LDU</value>
+            <value name="description">(R0DEB3LDU) диагностика шкафа ДУ БП5 место 6</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">5</value>
+            <value name="nID">6</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE39LDU</value>
+            <value name="description">(R0DE39LDU) диагностика шкафа ДУ МП24-2 место 4</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">6</value>
+            <value name="nID">7</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE38LDU</value>
+            <value name="description">(R0DE38LDU) диагностика шкафа ДУ МП15-3 место 3</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">7</value>
+            <value name="nID">8</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE37LDU</value>
+            <value name="description">(R0DE37LDU) диагностика шкафа ДУ МП15-3.1 место 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">8</value>
+            <value name="nID">9</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE36LDU</value>
+            <value name="description">(R0DE36LDU) диагностика шкафа ДУ МП15-3.1 место 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">9</value>
+            <value name="nID">10</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE35LDU</value>
+            <value name="description">(R0DE35LDU) диагностика шкафа ДУ температура больше 53</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">10</value>
+            <value name="nID">11</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE34LDU</value>
+            <value name="description">(R0DE34LDU) диагностика шкафа ДУ температура меньше 43</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">11</value>
+            <value name="nID">12</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">22</value>
+            <value name="OldData">22</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE33LDU</value>
+            <value name="description">(R0DE33LDU) диагностика шкафа ДУ двери</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">12</value>
+            <value name="nID">13</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">24</value>
+            <value name="OldData">24</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE32LDU</value>
+            <value name="description">(R0DE32LDU) диагностика шкафа ДУ сеть 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">13</value>
+            <value name="nID">14</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE31LDU</value>
+            <value name="description">(R0DE31LDU) диагностика шкафа ДУ сеть 1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">14</value>
+            <value name="nID">15</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">28</value>
+            <value name="OldData">28</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE0FLDU</value>
+            <value name="description">(R0DE0FLDU) диагностика модуля ДУ на 15 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">16</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE0DLDU</value>
+            <value name="description">(R0DE0DLDU) диагностика модуля ДУ на 13 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">17</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">33</value>
+            <value name="OldData">33</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE0BLDU</value>
+            <value name="description">(R0DE0BLDU) диагностика модуля ДУ на 11 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">18</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">36</value>
+            <value name="OldData">36</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE0CLDU</value>
+            <value name="description">(R0DE0CLDU) диагностика модуля ДУ на 12 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">3</value>
+            <value name="nID">19</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">39</value>
+            <value name="OldData">39</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE07LDU</value>
+            <value name="description">(R0DE07LDU) диагностика модуля ДУ на 7 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">4</value>
+            <value name="nID">20</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">42</value>
+            <value name="OldData">42</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE0ALDU</value>
+            <value name="description">(R0DE0ALDU) диагностика модуля ДУ на 10 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">5</value>
+            <value name="nID">21</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">45</value>
+            <value name="OldData">45</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE09LDU</value>
+            <value name="description">(R0DE09LDU) диагностика модуля ДУ на 9 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">6</value>
+            <value name="nID">22</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">48</value>
+            <value name="OldData">48</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE05LDU</value>
+            <value name="description">(R0DE05LDU) диагностика модуля ДУ на 5 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">7</value>
+            <value name="nID">23</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">51</value>
+            <value name="OldData">51</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE08LDU</value>
+            <value name="description">(R0DE08LDU) диагностика модуля ДУ на 8 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">8</value>
+            <value name="nID">24</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">54</value>
+            <value name="OldData">54</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE04LDU</value>
+            <value name="description">(R0DE04LDU) диагностика модуля ДУ на 4 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">9</value>
+            <value name="nID">25</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">57</value>
+            <value name="OldData">57</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE03LDU</value>
+            <value name="description">(R0DE03LDU) диагностика модуля ДУ на 3 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">10</value>
+            <value name="nID">26</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">60</value>
+            <value name="OldData">60</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE02LDU</value>
+            <value name="description">(R0DE02LDU) диагностика модуля ДУ на 2 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">11</value>
+            <value name="nID">27</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">63</value>
+            <value name="OldData">63</value>
+            <value name="unitId">1</value>
+        </record>
+    </records>
+</table>
