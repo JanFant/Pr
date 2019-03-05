@@ -85,6 +85,7 @@
 <var  name="R0IN01FI4" description="(R0IN01FI4) Выход СНМ-11 Гц от ПТИ" format="8"></var>
 <var  name="R0IN01FI1" description="(R0IN01FI1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
 <var  name="B7AP31LDU" description="(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
+<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
 <var  name="B0SN07RIM" description="(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
 <var  name="B0SN06RIM" description="(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
 <var  name="B0SN05RIM" description="(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
@@ -97,7 +98,6 @@
 <var  name="A0SN04RIM" description="(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R0IS01LDU" description="(R0IS01LDU) Признак работы с имитатором" format="1"></var>
 <var  name="A0IT03IRP" description="(A0IT03IRP) Температура АЗ1-3" format="3"></var>
 <var  name="B0IT03IRP" description="(B0IT03IRP) Температура АЗ2-3" format="3"></var>
 <var  name="R0IN03FI3" description="(R0IN03FI3) Выход КНК53М Гц от ПТИ" format="8"></var>

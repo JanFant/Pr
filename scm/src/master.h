@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.201\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 3286
-static char BUFFER[3286];
+#define SIZE_BUFFER 3287
+static char BUFFER[3287];
 #define A1IS21LDU	 BUFFER[0]	//(A1IS21LDU) Приход на НУ ББ1
 #define idA1IS21LDU	 1	//(A1IS21LDU) Приход на НУ ББ1
 #define B6IS21LDU	 BUFFER[2]	//(B6IS21LDU) Приход на НУ БЗ2
@@ -181,1833 +181,1833 @@ static char BUFFER[3286];
 #define idR0IN01FI1	 85	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
 #define B7AP31LDU	 BUFFER[233]	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
 #define idB7AP31LDU	 86	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
-#define B0SN07RIM	 BUFFER[235]	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define idB0SN07RIM	 87	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define B0SN06RIM	 BUFFER[240]	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define idB0SN06RIM	 88	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define B0SN05RIM	 BUFFER[245]	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define idB0SN05RIM	 89	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define B0SN04RIM	 BUFFER[250]	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define idB0SN04RIM	 90	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define B0SN03RIM	 BUFFER[255]	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define idB0SN03RIM	 91	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define B0SN02RIM	 BUFFER[260]	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define idB0SN02RIM	 92	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define A0SN07RIM	 BUFFER[265]	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define idA0SN07RIM	 93	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define A0SN06RIM	 BUFFER[270]	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define idA0SN06RIM	 94	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define A0SN05RIM	 BUFFER[275]	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define idA0SN05RIM	 95	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define A0SN04RIM	 BUFFER[280]	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define idA0SN04RIM	 96	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define A0SN03RIM	 BUFFER[285]	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define idA0SN03RIM	 97	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define A0SN02RIM	 BUFFER[290]	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define idA0SN02RIM	 98	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define R0IS01LDU	 BUFFER[295]	//(R0IS01LDU) Признак работы с имитатором
-#define idR0IS01LDU	 99	//(R0IS01LDU) Признак работы с имитатором
-#define A0IT03IRP	 BUFFER[297]	//(A0IT03IRP) Температура АЗ1-3
+#define R0IS01FI0	 BUFFER[235]	//(R0IS01FI0) Признак работы с имитатором
+#define idR0IS01FI0	 87	//(R0IS01FI0) Признак работы с имитатором
+#define B0SN07RIM	 BUFFER[238]	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define idB0SN07RIM	 88	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define B0SN06RIM	 BUFFER[243]	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define idB0SN06RIM	 89	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define B0SN05RIM	 BUFFER[248]	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define idB0SN05RIM	 90	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define B0SN04RIM	 BUFFER[253]	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define idB0SN04RIM	 91	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define B0SN03RIM	 BUFFER[258]	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define idB0SN03RIM	 92	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define B0SN02RIM	 BUFFER[263]	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define idB0SN02RIM	 93	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define A0SN07RIM	 BUFFER[268]	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define idA0SN07RIM	 94	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define A0SN06RIM	 BUFFER[273]	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define idA0SN06RIM	 95	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define A0SN05RIM	 BUFFER[278]	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define idA0SN05RIM	 96	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define A0SN04RIM	 BUFFER[283]	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define idA0SN04RIM	 97	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define A0SN03RIM	 BUFFER[288]	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define idA0SN03RIM	 98	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define A0SN02RIM	 BUFFER[293]	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define idA0SN02RIM	 99	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define A0IT03IRP	 BUFFER[298]	//(A0IT03IRP) Температура АЗ1-3
 #define idA0IT03IRP	 100	//(A0IT03IRP) Температура АЗ1-3
-#define B0IT03IRP	 BUFFER[300]	//(B0IT03IRP) Температура АЗ2-3
+#define B0IT03IRP	 BUFFER[301]	//(B0IT03IRP) Температура АЗ2-3
 #define idB0IT03IRP	 101	//(B0IT03IRP) Температура АЗ2-3
-#define R0IN03FI3	 BUFFER[303]	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
+#define R0IN03FI3	 BUFFER[304]	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI3	 102	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
-#define R0IN02FI3	 BUFFER[308]	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
+#define R0IN02FI3	 BUFFER[309]	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
 #define idR0IN02FI3	 103	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
-#define B1VP81LZZ	 BUFFER[313]	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
+#define B1VP81LZZ	 BUFFER[314]	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
 #define idB1VP81LZZ	 104	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
-#define B2IS33LDU	 BUFFER[315]	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
+#define B2IS33LDU	 BUFFER[316]	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
 #define idB2IS33LDU	 105	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
-#define A0VN01RIM	 BUFFER[317]	//(A0VN01RIM) Период разгона  AЗ1
+#define A0VN01RIM	 BUFFER[318]	//(A0VN01RIM) Период разгона  AЗ1
 #define idA0VN01RIM	 106	//(A0VN01RIM) Период разгона  AЗ1
-#define B2IS32LIM	 BUFFER[322]	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
+#define B2IS32LIM	 BUFFER[323]	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
 #define idB2IS32LIM	 107	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
-#define B2IS11LIM	 BUFFER[324]	//(B2IS11LIM) Магнит РБ2 обесточен
+#define B2IS11LIM	 BUFFER[325]	//(B2IS11LIM) Магнит РБ2 обесточен
 #define idB2IS11LIM	 108	//(B2IS11LIM) Магнит РБ2 обесточен
-#define A2IS32LIM	 BUFFER[326]	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
+#define A2IS32LIM	 BUFFER[327]	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
 #define idA2IS32LIM	 109	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
-#define A2IS11LIM	 BUFFER[328]	//(A2IS11LIM) Магнит РБ1 обесточен
+#define A2IS11LIM	 BUFFER[329]	//(A2IS11LIM) Магнит РБ1 обесточен
 #define idA2IS11LIM	 110	//(A2IS11LIM) Магнит РБ1 обесточен
-#define B1IS32LIM	 BUFFER[330]	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
+#define B1IS32LIM	 BUFFER[331]	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
 #define idB1IS32LIM	 111	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
-#define B1IS11LIM	 BUFFER[332]	//(B1IS11LIM) Магнит ББ2 обесточен
+#define B1IS11LIM	 BUFFER[333]	//(B1IS11LIM) Магнит ББ2 обесточен
 #define idB1IS11LIM	 112	//(B1IS11LIM) Магнит ББ2 обесточен
-#define A1IS32LIM	 BUFFER[334]	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
+#define A1IS32LIM	 BUFFER[335]	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
 #define idA1IS32LIM	 113	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
-#define A1IS11LIM	 BUFFER[336]	//(A1IS11LIM) Магнит ББ1 обесточен
+#define A1IS11LIM	 BUFFER[337]	//(A1IS11LIM) Магнит ББ1 обесточен
 #define idA1IS11LIM	 114	//(A1IS11LIM) Магнит ББ1 обесточен
-#define A3AD34LDU	 BUFFER[338]	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
+#define A3AD34LDU	 BUFFER[339]	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
 #define idA3AD34LDU	 115	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
-#define R0IS02LDU	 BUFFER[340]	//(R0IS02LDU) Разрешение ввода от имитатора
+#define R0IS02LDU	 BUFFER[341]	//(R0IS02LDU) Разрешение ввода от имитатора
 #define idR0IS02LDU	 116	//(R0IS02LDU) Разрешение ввода от имитатора
-#define R0EE04LZ2	 BUFFER[342]	//(R0EE04LZ2) Питание  АКНП4  отключить
+#define R0EE04LZ2	 BUFFER[343]	//(R0EE04LZ2) Питание  АКНП4  отключить
 #define idR0EE04LZ2	 117	//(R0EE04LZ2) Питание  АКНП4  отключить
-#define R0EE03LZ2	 BUFFER[344]	//(R0EE03LZ2) Питание  АКНП3  отключить
+#define R0EE03LZ2	 BUFFER[345]	//(R0EE03LZ2) Питание  АКНП3  отключить
 #define idR0EE03LZ2	 118	//(R0EE03LZ2) Питание  АКНП3  отключить
-#define R0EE02LZ2	 BUFFER[346]	//(R0EE02LZ2) Питание  АКНП  отключить
+#define R0EE02LZ2	 BUFFER[347]	//(R0EE02LZ2) Питание  АКНП  отключить
 #define idR0EE02LZ2	 119	//(R0EE02LZ2) Питание  АКНП  отключить
-#define R0EE04LZ1	 BUFFER[348]	//(R0EE04LZ1) Питание  АКНП4  отключить
+#define R0EE04LZ1	 BUFFER[349]	//(R0EE04LZ1) Питание  АКНП4  отключить
 #define idR0EE04LZ1	 120	//(R0EE04LZ1) Питание  АКНП4  отключить
-#define A7AP31LDU	 BUFFER[350]	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
+#define A7AP31LDU	 BUFFER[351]	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
 #define idA7AP31LDU	 121	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
-#define R4VS12LDU	 BUFFER[352]	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
+#define R4VS12LDU	 BUFFER[353]	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
 #define idR4VS12LDU	 122	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
-#define R4VS22LDU	 BUFFER[354]	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
+#define R4VS22LDU	 BUFFER[355]	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
 #define idR4VS22LDU	 123	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
-#define R1VS12LDU	 BUFFER[356]	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
+#define R1VS12LDU	 BUFFER[357]	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
 #define idR1VS12LDU	 124	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
-#define R2VS12LDU	 BUFFER[358]	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
+#define R2VS12LDU	 BUFFER[359]	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
 #define idR2VS12LDU	 125	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
-#define R2VS22LDU	 BUFFER[360]	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
+#define R2VS22LDU	 BUFFER[361]	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
 #define idR2VS22LDU	 126	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
-#define R1VS22LDU	 BUFFER[362]	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
+#define R1VS22LDU	 BUFFER[363]	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
 #define idR1VS22LDU	 127	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
-#define B5VS12LDU	 BUFFER[364]	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
+#define B5VS12LDU	 BUFFER[365]	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
 #define idB5VS12LDU	 128	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
-#define B5VS22LDU	 BUFFER[366]	//(B5VS22LDU) Движение НЛ2 в сторону НУ
+#define B5VS22LDU	 BUFFER[367]	//(B5VS22LDU) Движение НЛ2 в сторону НУ
 #define idB5VS22LDU	 129	//(B5VS22LDU) Движение НЛ2 в сторону НУ
-#define A5VS12LDU	 BUFFER[368]	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
+#define A5VS12LDU	 BUFFER[369]	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
 #define idA5VS12LDU	 130	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
-#define A5VS22LDU	 BUFFER[370]	//(A5VS22LDU) Движение НЛ1 в сторону НУ
+#define A5VS22LDU	 BUFFER[371]	//(A5VS22LDU) Движение НЛ1 в сторону НУ
 #define idA5VS22LDU	 131	//(A5VS22LDU) Движение НЛ1 в сторону НУ
-#define B6VS12LDU	 BUFFER[372]	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
+#define B6VS12LDU	 BUFFER[373]	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
 #define idB6VS12LDU	 132	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
-#define B6VS22LDU	 BUFFER[374]	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
+#define B6VS22LDU	 BUFFER[375]	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
 #define idB6VS22LDU	 133	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
-#define A6VS12LDU	 BUFFER[376]	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
+#define A6VS12LDU	 BUFFER[377]	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
 #define idA6VS12LDU	 134	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
-#define A6VS22LDU	 BUFFER[378]	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
+#define A6VS22LDU	 BUFFER[379]	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
 #define idA6VS22LDU	 135	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
-#define B8IS21LDU	 BUFFER[380]	//(B8IS21LDU) Приход на НУ1 АЗ2
+#define B8IS21LDU	 BUFFER[381]	//(B8IS21LDU) Приход на НУ1 АЗ2
 #define idB8IS21LDU	 136	//(B8IS21LDU) Приход на НУ1 АЗ2
-#define B8IS11LDU	 BUFFER[382]	//(B8IS11LDU) Приход на ВУ1 АЗ2
+#define B8IS11LDU	 BUFFER[383]	//(B8IS11LDU) Приход на ВУ1 АЗ2
 #define idB8IS11LDU	 137	//(B8IS11LDU) Приход на ВУ1 АЗ2
-#define A1VP81LZZ	 BUFFER[384]	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
+#define A1VP81LZZ	 BUFFER[385]	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
 #define idA1VP81LZZ	 138	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
-#define B8AD20LDU	 BUFFER[386]	//(B8AD20LDU) Перемещение АЗ2 назад
+#define B8AD20LDU	 BUFFER[387]	//(B8AD20LDU) Перемещение АЗ2 назад
 #define idB8AD20LDU	 139	//(B8AD20LDU) Перемещение АЗ2 назад
-#define B8AD10LDU	 BUFFER[388]	//(B8AD10LDU) Перемещение АЗ2 вперед
+#define B8AD10LDU	 BUFFER[389]	//(B8AD10LDU) Перемещение АЗ2 вперед
 #define idB8AD10LDU	 140	//(B8AD10LDU) Перемещение АЗ2 вперед
-#define R4AD20LDU	 BUFFER[390]	//(R4AD20LDU) Перемещение тележки назад
+#define R4AD20LDU	 BUFFER[391]	//(R4AD20LDU) Перемещение тележки назад
 #define idR4AD20LDU	 141	//(R4AD20LDU) Перемещение тележки назад
-#define R4AD10LDU	 BUFFER[392]	//(R4AD10LDU) Перемещение тележки вперед
+#define R4AD10LDU	 BUFFER[393]	//(R4AD10LDU) Перемещение тележки вперед
 #define idR4AD10LDU	 142	//(R4AD10LDU) Перемещение тележки вперед
-#define B0SR01RIM	 BUFFER[394]	//(B0SR01RIM) Текущая реактивность AЗ2
+#define B0SR01RIM	 BUFFER[395]	//(B0SR01RIM) Текущая реактивность AЗ2
 #define idB0SR01RIM	 143	//(B0SR01RIM) Текущая реактивность AЗ2
-#define B3AD33LDU	 BUFFER[399]	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
+#define B3AD33LDU	 BUFFER[400]	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
 #define idB3AD33LDU	 144	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
-#define B3AD05LDU	 BUFFER[401]	//(B3AD05LDU) паритет команды на ИС2
+#define B3AD05LDU	 BUFFER[402]	//(B3AD05LDU) паритет команды на ИС2
 #define idB3AD05LDU	 145	//(B3AD05LDU) паритет команды на ИС2
-#define B3AD04LDU	 BUFFER[403]	//(B3AD04LDU) 2-й бит скорости ИС2
+#define B3AD04LDU	 BUFFER[404]	//(B3AD04LDU) 2-й бит скорости ИС2
 #define idB3AD04LDU	 146	//(B3AD04LDU) 2-й бит скорости ИС2
-#define B3AD03LDU	 BUFFER[405]	//(B3AD03LDU) 1-й бит скорости ИС2
+#define B3AD03LDU	 BUFFER[406]	//(B3AD03LDU) 1-й бит скорости ИС2
 #define idB3AD03LDU	 147	//(B3AD03LDU) 1-й бит скорости ИС2
-#define B3AD02LDU	 BUFFER[407]	//(B3AD02LDU) 0-й бит скорости ИС2
+#define B3AD02LDU	 BUFFER[408]	//(B3AD02LDU) 0-й бит скорости ИС2
 #define idB3AD02LDU	 148	//(B3AD02LDU) 0-й бит скорости ИС2
-#define B3AD01LDU	 BUFFER[409]	//(B3AD01LDU) Разрешение движения ИС2
+#define B3AD01LDU	 BUFFER[410]	//(B3AD01LDU) Разрешение движения ИС2
 #define idB3AD01LDU	 149	//(B3AD01LDU) Разрешение движения ИС2
-#define B3AD21LDU	 BUFFER[411]	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
+#define B3AD21LDU	 BUFFER[412]	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
 #define idB3AD21LDU	 150	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
-#define B3AD11LDU	 BUFFER[413]	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
+#define B3AD11LDU	 BUFFER[414]	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
 #define idB3AD11LDU	 151	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
-#define A3AD33LDU	 BUFFER[415]	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
+#define A3AD33LDU	 BUFFER[416]	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
 #define idA3AD33LDU	 152	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
-#define A3AD05LDU	 BUFFER[417]	//(A3AD05LDU) паритет команды на ИС1
+#define A3AD05LDU	 BUFFER[418]	//(A3AD05LDU) паритет команды на ИС1
 #define idA3AD05LDU	 153	//(A3AD05LDU) паритет команды на ИС1
-#define A3AD04LDU	 BUFFER[419]	//(A3AD04LDU) 2-й бит скорости ИС1
+#define A3AD04LDU	 BUFFER[420]	//(A3AD04LDU) 2-й бит скорости ИС1
 #define idA3AD04LDU	 154	//(A3AD04LDU) 2-й бит скорости ИС1
-#define A3AD03LDU	 BUFFER[421]	//(A3AD03LDU) 1-й бит скорости ИС1
+#define A3AD03LDU	 BUFFER[422]	//(A3AD03LDU) 1-й бит скорости ИС1
 #define idA3AD03LDU	 155	//(A3AD03LDU) 1-й бит скорости ИС1
-#define R0CR01RIM	 BUFFER[423]	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
+#define R0CR01RIM	 BUFFER[424]	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
 #define idR0CR01RIM	 156	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
-#define B0SN08RIM	 BUFFER[428]	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
+#define B0SN08RIM	 BUFFER[429]	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
 #define idB0SN08RIM	 157	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
-#define A0SN08RIM	 BUFFER[433]	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
+#define A0SN08RIM	 BUFFER[434]	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
 #define idA0SN08RIM	 158	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
-#define B5AD20LDU	 BUFFER[438]	//(B5AD20LDU) Опустить НЛ2
+#define B5AD20LDU	 BUFFER[439]	//(B5AD20LDU) Опустить НЛ2
 #define idB5AD20LDU	 159	//(B5AD20LDU) Опустить НЛ2
-#define B5AD10LDU	 BUFFER[440]	//(B5AD10LDU) Поднять НЛ2
+#define B5AD10LDU	 BUFFER[441]	//(B5AD10LDU) Поднять НЛ2
 #define idB5AD10LDU	 160	//(B5AD10LDU) Поднять НЛ2
-#define A5AD20LDU	 BUFFER[442]	//(A5AD20LDU) Опустить НЛ1
+#define A5AD20LDU	 BUFFER[443]	//(A5AD20LDU) Опустить НЛ1
 #define idA5AD20LDU	 161	//(A5AD20LDU) Опустить НЛ1
-#define A5AD10LDU	 BUFFER[444]	//(A5AD10LDU) Поднять НЛ1
+#define A5AD10LDU	 BUFFER[445]	//(A5AD10LDU) Поднять НЛ1
 #define idA5AD10LDU	 162	//(A5AD10LDU) Поднять НЛ1
-#define R2AD20LDU	 BUFFER[446]	//(R2AD20LDU) Поднять МДЗ2
+#define R2AD20LDU	 BUFFER[447]	//(R2AD20LDU) Поднять МДЗ2
 #define idR2AD20LDU	 163	//(R2AD20LDU) Поднять МДЗ2
-#define R2AD10LDU	 BUFFER[448]	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
+#define R2AD10LDU	 BUFFER[449]	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
 #define idR2AD10LDU	 164	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
-#define R1AD20LDU	 BUFFER[450]	//(R1AD20LDU) Поднять МДЗ1
+#define R1AD20LDU	 BUFFER[451]	//(R1AD20LDU) Поднять МДЗ1
 #define idR1AD20LDU	 165	//(R1AD20LDU) Поднять МДЗ1
-#define R1AD10LDU	 BUFFER[452]	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
+#define R1AD10LDU	 BUFFER[453]	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
 #define idR1AD10LDU	 166	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
-#define B6AD20LDU	 BUFFER[454]	//(B6AD20LDU) Закрыть БЗ2
+#define B6AD20LDU	 BUFFER[455]	//(B6AD20LDU) Закрыть БЗ2
 #define idB6AD20LDU	 167	//(B6AD20LDU) Закрыть БЗ2
-#define B6AD10LDU	 BUFFER[456]	//(B6AD10LDU) Открыть БЗ2
+#define B6AD10LDU	 BUFFER[457]	//(B6AD10LDU) Открыть БЗ2
 #define idB6AD10LDU	 168	//(B6AD10LDU) Открыть БЗ2
-#define A6AD20LDU	 BUFFER[458]	//(A6AD20LDU) Закрыть БЗ1
+#define A6AD20LDU	 BUFFER[459]	//(A6AD20LDU) Закрыть БЗ1
 #define idA6AD20LDU	 169	//(A6AD20LDU) Закрыть БЗ1
-#define A6AD10LDU	 BUFFER[460]	//(A6AD10LDU) Открыть БЗ1
+#define A6AD10LDU	 BUFFER[461]	//(A6AD10LDU) Открыть БЗ1
 #define idA6AD10LDU	 170	//(A6AD10LDU) Открыть БЗ1
-#define A8AD20LDU	 BUFFER[462]	//(A8AD20LDU) Перемещение ДС2 назад
+#define A8AD20LDU	 BUFFER[463]	//(A8AD20LDU) Перемещение ДС2 назад
 #define idA8AD20LDU	 171	//(A8AD20LDU) Перемещение ДС2 назад
-#define A8AD10LDU	 BUFFER[464]	//(A8AD10LDU) Перемещение ДС2 вперед
+#define A8AD10LDU	 BUFFER[465]	//(A8AD10LDU) Перемещение ДС2 вперед
 #define idA8AD10LDU	 172	//(A8AD10LDU) Перемещение ДС2 вперед
-#define A2AD21LDU	 BUFFER[466]	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
+#define A2AD21LDU	 BUFFER[467]	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
 #define idA2AD21LDU	 173	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
-#define A2AD11LDU	 BUFFER[468]	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
+#define A2AD11LDU	 BUFFER[469]	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
 #define idA2AD11LDU	 174	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
-#define B1AD05LDU	 BUFFER[470]	//(B1AD05LDU) паритет команды на ББ2
+#define B1AD05LDU	 BUFFER[471]	//(B1AD05LDU) паритет команды на ББ2
 #define idB1AD05LDU	 175	//(B1AD05LDU) паритет команды на ББ2
-#define B1AD04LDU	 BUFFER[472]	//(B1AD04LDU) 2-й бит скорости ББ2
+#define B1AD04LDU	 BUFFER[473]	//(B1AD04LDU) 2-й бит скорости ББ2
 #define idB1AD04LDU	 176	//(B1AD04LDU) 2-й бит скорости ББ2
-#define B1AD03LDU	 BUFFER[474]	//(B1AD03LDU) 1-й бит скорости ББ2
+#define B1AD03LDU	 BUFFER[475]	//(B1AD03LDU) 1-й бит скорости ББ2
 #define idB1AD03LDU	 177	//(B1AD03LDU) 1-й бит скорости ББ2
-#define B1AD02LDU	 BUFFER[476]	//(B1AD02LDU) 0-й бит скорости  ББ2
+#define B1AD02LDU	 BUFFER[477]	//(B1AD02LDU) 0-й бит скорости  ББ2
 #define idB1AD02LDU	 178	//(B1AD02LDU) 0-й бит скорости  ББ2
-#define B1AD01LDU	 BUFFER[478]	//(B1AD01LDU) Разрешение движения ББ2
+#define B1AD01LDU	 BUFFER[479]	//(B1AD01LDU) Разрешение движения ББ2
 #define idB1AD01LDU	 179	//(B1AD01LDU) Разрешение движения ББ2
-#define B1AD21LDU	 BUFFER[480]	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
+#define B1AD21LDU	 BUFFER[481]	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
 #define idB1AD21LDU	 180	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
-#define B1AD11LDU	 BUFFER[482]	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
+#define B1AD11LDU	 BUFFER[483]	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
 #define idB1AD11LDU	 181	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
-#define A1AD05LDU	 BUFFER[484]	//(A1AD05LDU) паритет команды на ББ1
+#define A1AD05LDU	 BUFFER[485]	//(A1AD05LDU) паритет команды на ББ1
 #define idA1AD05LDU	 182	//(A1AD05LDU) паритет команды на ББ1
-#define A1AD04LDU	 BUFFER[486]	//(A1AD04LDU) 2-й бит скорости ББ1
+#define A1AD04LDU	 BUFFER[487]	//(A1AD04LDU) 2-й бит скорости ББ1
 #define idA1AD04LDU	 183	//(A1AD04LDU) 2-й бит скорости ББ1
-#define A1AD03LDU	 BUFFER[488]	//(A1AD03LDU) 1-й бит скорости ББ1
+#define A1AD03LDU	 BUFFER[489]	//(A1AD03LDU) 1-й бит скорости ББ1
 #define idA1AD03LDU	 184	//(A1AD03LDU) 1-й бит скорости ББ1
-#define A1AD02LDU	 BUFFER[490]	//(A1AD02LDU) 0-й бит скорости ББ1
+#define A1AD02LDU	 BUFFER[491]	//(A1AD02LDU) 0-й бит скорости ББ1
 #define idA1AD02LDU	 185	//(A1AD02LDU) 0-й бит скорости ББ1
-#define A1AD01LDU	 BUFFER[492]	//(A1AD01LDU) Разрешение движения ББ1
+#define A1AD01LDU	 BUFFER[493]	//(A1AD01LDU) Разрешение движения ББ1
 #define idA1AD01LDU	 186	//(A1AD01LDU) Разрешение движения ББ1
-#define A1AD21LDU	 BUFFER[494]	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
+#define A1AD21LDU	 BUFFER[495]	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
 #define idA1AD21LDU	 187	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
-#define A1AD11LDU	 BUFFER[496]	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
+#define A1AD11LDU	 BUFFER[497]	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
 #define idA1AD11LDU	 188	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
-#define A0SR01RIM	 BUFFER[498]	//(A0SR01RIM) Текущая реактивность AЗ1
+#define A0SR01RIM	 BUFFER[499]	//(A0SR01RIM) Текущая реактивность AЗ1
 #define idA0SR01RIM	 189	//(A0SR01RIM) Текущая реактивность AЗ1
-#define A3AD02LDU	 BUFFER[503]	//(A3AD02LDU) 0-й бит скорости ИС1
+#define A3AD02LDU	 BUFFER[504]	//(A3AD02LDU) 0-й бит скорости ИС1
 #define idA3AD02LDU	 190	//(A3AD02LDU) 0-й бит скорости ИС1
-#define A3AD01LDU	 BUFFER[505]	//(A3AD01LDU) Разрешение движения ИС1
+#define A3AD01LDU	 BUFFER[506]	//(A3AD01LDU) Разрешение движения ИС1
 #define idA3AD01LDU	 191	//(A3AD01LDU) Разрешение движения ИС1
-#define A3AD21LDU	 BUFFER[507]	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
+#define A3AD21LDU	 BUFFER[508]	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
 #define idA3AD21LDU	 192	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
-#define A3AD11LDU	 BUFFER[509]	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
+#define A3AD11LDU	 BUFFER[510]	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
 #define idA3AD11LDU	 193	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
-#define B2AD33LDU	 BUFFER[511]	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
+#define B2AD33LDU	 BUFFER[512]	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
 #define idB2AD33LDU	 194	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
-#define B2AD05LDU	 BUFFER[513]	//(B2AD05LDU) паритет команды на РБ2
+#define B2AD05LDU	 BUFFER[514]	//(B2AD05LDU) паритет команды на РБ2
 #define idB2AD05LDU	 195	//(B2AD05LDU) паритет команды на РБ2
-#define B2AD04LDU	 BUFFER[515]	//(B2AD04LDU) 2-й бит скорости РБ2
+#define B2AD04LDU	 BUFFER[516]	//(B2AD04LDU) 2-й бит скорости РБ2
 #define idB2AD04LDU	 196	//(B2AD04LDU) 2-й бит скорости РБ2
-#define B2AD03LDU	 BUFFER[517]	//(B2AD03LDU) 1-й бит скорости РБ2
+#define B2AD03LDU	 BUFFER[518]	//(B2AD03LDU) 1-й бит скорости РБ2
 #define idB2AD03LDU	 197	//(B2AD03LDU) 1-й бит скорости РБ2
-#define B2AD02LDU	 BUFFER[519]	//(B2AD02LDU) 0-й бит скорости РБ2
+#define B2AD02LDU	 BUFFER[520]	//(B2AD02LDU) 0-й бит скорости РБ2
 #define idB2AD02LDU	 198	//(B2AD02LDU) 0-й бит скорости РБ2
-#define B2AD01LDU	 BUFFER[521]	//(B2AD01LDU) Разрешение движения РБ2
+#define B2AD01LDU	 BUFFER[522]	//(B2AD01LDU) Разрешение движения РБ2
 #define idB2AD01LDU	 199	//(B2AD01LDU) Разрешение движения РБ2
-#define B2AD21LDU	 BUFFER[523]	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
+#define B2AD21LDU	 BUFFER[524]	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
 #define idB2AD21LDU	 200	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
-#define B2AD11LDU	 BUFFER[525]	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
+#define B2AD11LDU	 BUFFER[526]	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
 #define idB2AD11LDU	 201	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
-#define A2AD33LDU	 BUFFER[527]	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
+#define A2AD33LDU	 BUFFER[528]	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
 #define idA2AD33LDU	 202	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
-#define A2AD05LDU	 BUFFER[529]	//(A2AD05LDU) паритет команды на РБ1
+#define A2AD05LDU	 BUFFER[530]	//(A2AD05LDU) паритет команды на РБ1
 #define idA2AD05LDU	 203	//(A2AD05LDU) паритет команды на РБ1
-#define A2AD04LDU	 BUFFER[531]	//(A2AD04LDU) 2-й бит скорости РБ1
+#define A2AD04LDU	 BUFFER[532]	//(A2AD04LDU) 2-й бит скорости РБ1
 #define idA2AD04LDU	 204	//(A2AD04LDU) 2-й бит скорости РБ1
-#define A2AD03LDU	 BUFFER[533]	//(A2AD03LDU) 1-й бит скорости РБ1
+#define A2AD03LDU	 BUFFER[534]	//(A2AD03LDU) 1-й бит скорости РБ1
 #define idA2AD03LDU	 205	//(A2AD03LDU) 1-й бит скорости РБ1
-#define A2AD02LDU	 BUFFER[535]	//(A2AD02LDU) 0-й бит скорости РБ1
+#define A2AD02LDU	 BUFFER[536]	//(A2AD02LDU) 0-й бит скорости РБ1
 #define idA2AD02LDU	 206	//(A2AD02LDU) 0-й бит скорости РБ1
-#define A2AD01LDU	 BUFFER[537]	//(A2AD01LDU) Разрешение движения РБ1
+#define A2AD01LDU	 BUFFER[538]	//(A2AD01LDU) Разрешение движения РБ1
 #define idA2AD01LDU	 207	//(A2AD01LDU) Разрешение движения РБ1
-#define A2IP01IZ2	 BUFFER[539]	//(A2IP01IZ2) Текущее давление СБРОС РБ1
+#define A2IP01IZ2	 BUFFER[540]	//(A2IP01IZ2) Текущее давление СБРОС РБ1
 #define idA2IP01IZ2	 208	//(A2IP01IZ2) Текущее давление СБРОС РБ1
-#define A2IP01IZ1	 BUFFER[542]	//(A2IP01IZ1) Текущее давление СБРОС РБ1
+#define A2IP01IZ1	 BUFFER[543]	//(A2IP01IZ1) Текущее давление СБРОС РБ1
 #define idA2IP01IZ1	 209	//(A2IP01IZ1) Текущее давление СБРОС РБ1
-#define B3IS21LDU	 BUFFER[545]	//(B3IS21LDU) Приход на НУ ИС2
+#define B3IS21LDU	 BUFFER[546]	//(B3IS21LDU) Приход на НУ ИС2
 #define idB3IS21LDU	 210	//(B3IS21LDU) Приход на НУ ИС2
-#define A3IS21LDU	 BUFFER[547]	//(A3IS21LDU) Приход на НУ ИС1
+#define A3IS21LDU	 BUFFER[548]	//(A3IS21LDU) Приход на НУ ИС1
 #define idA3IS21LDU	 211	//(A3IS21LDU) Приход на НУ ИС1
-#define A2IS33LDU	 BUFFER[549]	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
+#define A2IS33LDU	 BUFFER[550]	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
 #define idA2IS33LDU	 212	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
-#define A2IC01UDU	 BUFFER[551]	//(A2IC01UDU) Координата штока РБ1
+#define A2IC01UDU	 BUFFER[552]	//(A2IC01UDU) Координата штока РБ1
 #define idA2IC01UDU	 213	//(A2IC01UDU) Координата штока РБ1
-#define A2IS12LDU	 BUFFER[556]	//(A2IS12LDU) Магнит РБ1 зацеплен
+#define A2IS12LDU	 BUFFER[557]	//(A2IS12LDU) Магнит РБ1 зацеплен
 #define idA2IS12LDU	 214	//(A2IS12LDU) Магнит РБ1 зацеплен
-#define A2IS11LDU	 BUFFER[558]	//(A2IS11LDU) Приход на ВУ РБ1
+#define A2IS11LDU	 BUFFER[559]	//(A2IS11LDU) Приход на ВУ РБ1
 #define idA2IS11LDU	 215	//(A2IS11LDU) Приход на ВУ РБ1
-#define A2IS21LDU	 BUFFER[560]	//(A2IS21LDU) Приход на НУ РБ1
+#define A2IS21LDU	 BUFFER[561]	//(A2IS21LDU) Приход на НУ РБ1
 #define idA2IS21LDU	 216	//(A2IS21LDU) Приход на НУ РБ1
-#define B0IT02IZ2	 BUFFER[562]	//(B0IT02IZ2) Температура АЗ2-2
+#define B0IT02IZ2	 BUFFER[563]	//(B0IT02IZ2) Температура АЗ2-2
 #define idB0IT02IZ2	 217	//(B0IT02IZ2) Температура АЗ2-2
-#define B0IT01IZ1	 BUFFER[565]	//(B0IT01IZ1) Температура АЗ2-1
+#define B0IT01IZ1	 BUFFER[566]	//(B0IT01IZ1) Температура АЗ2-1
 #define idB0IT01IZ1	 218	//(B0IT01IZ1) Температура АЗ2-1
-#define A0IT02IZ2	 BUFFER[568]	//(A0IT02IZ2) Температура АЗ1-2
+#define A0IT02IZ2	 BUFFER[569]	//(A0IT02IZ2) Температура АЗ1-2
 #define idA0IT02IZ2	 219	//(A0IT02IZ2) Температура АЗ1-2
-#define A0IT01IZ1	 BUFFER[571]	//(A0IT01IZ1) Температура АЗ1-1
+#define A0IT01IZ1	 BUFFER[572]	//(A0IT01IZ1) Температура АЗ1-1
 #define idA0IT01IZ1	 220	//(A0IT01IZ1) Температура АЗ1-1
-#define R6IS21LDU	 BUFFER[574]	//(R6IS21LDU) Кран-балка в нерабочем положении
+#define R6IS21LDU	 BUFFER[575]	//(R6IS21LDU) Кран-балка в нерабочем положении
 #define idR6IS21LDU	 221	//(R6IS21LDU) Кран-балка в нерабочем положении
-#define B7AS31LDU	 BUFFER[576]	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
+#define B7AS31LDU	 BUFFER[577]	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
 #define idB7AS31LDU	 222	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
-#define A7AS31LDU	 BUFFER[578]	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
+#define A7AS31LDU	 BUFFER[579]	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
 #define idA7AS31LDU	 223	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
-#define B3IS35LDU	 BUFFER[580]	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
+#define B3IS35LDU	 BUFFER[581]	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
 #define idB3IS35LDU	 224	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
-#define R6IS63LDU	 BUFFER[582]	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
+#define R6IS63LDU	 BUFFER[583]	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
 #define idR6IS63LDU	 225	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
-#define R6IS62LDU	 BUFFER[584]	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
+#define R6IS62LDU	 BUFFER[585]	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
 #define idR6IS62LDU	 226	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
-#define B3IS22LDU	 BUFFER[586]	//(B3IS22LDU) Приход на НУП ИС2
+#define B3IS22LDU	 BUFFER[587]	//(B3IS22LDU) Приход на НУП ИС2
 #define idB3IS22LDU	 227	//(B3IS22LDU) Приход на НУП ИС2
-#define A3IS22LDU	 BUFFER[588]	//(A3IS22LDU) Приход на НУП ИС1
+#define A3IS22LDU	 BUFFER[589]	//(A3IS22LDU) Приход на НУП ИС1
 #define idA3IS22LDU	 228	//(A3IS22LDU) Приход на НУП ИС1
-#define B3IS11LDU	 BUFFER[590]	//(B3IS11LDU) Приход на ВУ ИС2
+#define B3IS11LDU	 BUFFER[591]	//(B3IS11LDU) Приход на ВУ ИС2
 #define idB3IS11LDU	 229	//(B3IS11LDU) Приход на ВУ ИС2
-#define A3IS11LDU	 BUFFER[592]	//(A3IS11LDU) Приход на ВУ ИС1
+#define A3IS11LDU	 BUFFER[593]	//(A3IS11LDU) Приход на ВУ ИС1
 #define idA3IS11LDU	 230	//(A3IS11LDU) Приход на ВУ ИС1
-#define A3IP02IDU	 BUFFER[594]	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
+#define A3IP02IDU	 BUFFER[595]	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
 #define idA3IP02IDU	 231	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
-#define B3VP81LDU	 BUFFER[597]	//(B3VP81LDU) Давление СПУСК ИС2 в норме
+#define B3VP81LDU	 BUFFER[598]	//(B3VP81LDU) Давление СПУСК ИС2 в норме
 #define idB3VP81LDU	 232	//(B3VP81LDU) Давление СПУСК ИС2 в норме
-#define A3VP81LDU	 BUFFER[599]	//(A3VP81LDU) Давление СПУСК ИС1 в норме
+#define A3VP81LDU	 BUFFER[600]	//(A3VP81LDU) Давление СПУСК ИС1 в норме
 #define idA3VP81LDU	 233	//(A3VP81LDU) Давление СПУСК ИС1 в норме
-#define B3IS33LDU	 BUFFER[601]	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+#define B3IS33LDU	 BUFFER[602]	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 #define idB3IS33LDU	 234	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-#define B3IC01UDU	 BUFFER[603]	//(B3IC01UDU) Координата штока ИС2
+#define B3IC01UDU	 BUFFER[604]	//(B3IC01UDU) Координата штока ИС2
 #define idB3IC01UDU	 235	//(B3IC01UDU) Координата штока ИС2
-#define B3IS31LDU	 BUFFER[608]	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
+#define B3IS31LDU	 BUFFER[609]	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
 #define idB3IS31LDU	 236	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
-#define B3IP02IDU	 BUFFER[610]	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
+#define B3IP02IDU	 BUFFER[611]	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
 #define idB3IP02IDU	 237	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
-#define A3IS33LDU	 BUFFER[613]	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
+#define A3IS33LDU	 BUFFER[614]	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
 #define idA3IS33LDU	 238	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
-#define A3IC01UDU	 BUFFER[615]	//(A3IC01UDU) Координата штока ИС1
+#define A3IC01UDU	 BUFFER[616]	//(A3IC01UDU) Координата штока ИС1
 #define idA3IC01UDU	 239	//(A3IC01UDU) Координата штока ИС1
-#define A3IS31LDU	 BUFFER[620]	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
+#define A3IS31LDU	 BUFFER[621]	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
 #define idA3IS31LDU	 240	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
-#define A2VP82LDU	 BUFFER[622]	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
+#define A2VP82LDU	 BUFFER[623]	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
 #define idA2VP82LDU	 241	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
-#define B2AD31LDU	 BUFFER[624]	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
+#define B2AD31LDU	 BUFFER[625]	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
 #define idB2AD31LDU	 242	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
-#define B1AD32LDU	 BUFFER[626]	//(B1AD32LDU) Обесточить ЭМ ББ2
+#define B1AD32LDU	 BUFFER[627]	//(B1AD32LDU) Обесточить ЭМ ББ2
 #define idB1AD32LDU	 243	//(B1AD32LDU) Обесточить ЭМ ББ2
-#define B1AD31LDU	 BUFFER[628]	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
+#define B1AD31LDU	 BUFFER[629]	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
 #define idB1AD31LDU	 244	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
-#define A3AD31LDU	 BUFFER[630]	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
+#define A3AD31LDU	 BUFFER[631]	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
 #define idA3AD31LDU	 245	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
-#define C1MD31LP1	 BUFFER[632]	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
+#define C1MD31LP1	 BUFFER[633]	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
 #define idC1MD31LP1	 246	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
-#define C1MD31LP2	 BUFFER[634]	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
+#define C1MD31LP2	 BUFFER[635]	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
 #define idC1MD31LP2	 247	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
-#define A1AD31LDU	 BUFFER[636]	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
+#define A1AD31LDU	 BUFFER[637]	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
 #define idA1AD31LDU	 248	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
-#define A1AD32LDU	 BUFFER[638]	//(A1AD32LDU) Обесточить ЭМ ББ1
+#define A1AD32LDU	 BUFFER[639]	//(A1AD32LDU) Обесточить ЭМ ББ1
 #define idA1AD32LDU	 249	//(A1AD32LDU) Обесточить ЭМ ББ1
-#define A2AD31LDU	 BUFFER[640]	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
+#define A2AD31LDU	 BUFFER[641]	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
 #define idA2AD31LDU	 250	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
-#define C2MD31LP1	 BUFFER[642]	//(C2MD31LP1) Кнопка «СБРОС РБ»
+#define C2MD31LP1	 BUFFER[643]	//(C2MD31LP1) Кнопка «СБРОС РБ»
 #define idC2MD31LP1	 251	//(C2MD31LP1) Кнопка «СБРОС РБ»
-#define A2AD32LDU	 BUFFER[644]	//(A2AD32LDU) Обесточить ЭМ РБ1
+#define A2AD32LDU	 BUFFER[645]	//(A2AD32LDU) Обесточить ЭМ РБ1
 #define idA2AD32LDU	 252	//(A2AD32LDU) Обесточить ЭМ РБ1
-#define R0VZ71LZ2	 BUFFER[646]	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
+#define R0VZ71LZ2	 BUFFER[647]	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
 #define idR0VZ71LZ2	 253	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
-#define R0VZ71LZ1	 BUFFER[648]	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
+#define R0VZ71LZ1	 BUFFER[649]	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
 #define idR0VZ71LZ1	 254	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
-#define R8AD21LDU	 BUFFER[650]	//(R8AD21LDU) Запуск системы инициирования
+#define R8AD21LDU	 BUFFER[651]	//(R8AD21LDU) Запуск системы инициирования
 #define idR8AD21LDU	 255	//(R8AD21LDU) Запуск системы инициирования
-#define R0AD14LDU	 BUFFER[652]	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
+#define R0AD14LDU	 BUFFER[653]	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
 #define idR0AD14LDU	 256	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
-#define R0SR02RIM	 BUFFER[654]	//(R0SR02RIM) Текущая мощность РУ (ватт)
+#define R0SR02RIM	 BUFFER[655]	//(R0SR02RIM) Текущая мощность РУ (ватт)
 #define idR0SR02RIM	 257	//(R0SR02RIM) Текущая мощность РУ (ватт)
-#define R0CR02RIM	 BUFFER[659]	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
+#define R0CR02RIM	 BUFFER[660]	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
 #define idR0CR02RIM	 258	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
-#define B3AD34LDU	 BUFFER[664]	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
+#define B3AD34LDU	 BUFFER[665]	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
 #define idB3AD34LDU	 259	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
-#define A3IS35LDU	 BUFFER[666]	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
+#define A3IS35LDU	 BUFFER[667]	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
 #define idA3IS35LDU	 260	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
-#define R7II73LZ2	 BUFFER[668]	//(R7II73LZ2) Сработала АС IIУР
+#define R7II73LZ2	 BUFFER[669]	//(R7II73LZ2) Сработала АС IIУР
 #define idR7II73LZ2	 261	//(R7II73LZ2) Сработала АС IIУР
-#define R7II71LZ2	 BUFFER[670]	//(R7II71LZ2) Сработала АС IУР (датчик 1)
+#define R7II71LZ2	 BUFFER[671]	//(R7II71LZ2) Сработала АС IУР (датчик 1)
 #define idR7II71LZ2	 262	//(R7II71LZ2) Сработала АС IУР (датчик 1)
-#define R7II72LZ2	 BUFFER[672]	//(R7II72LZ2) Сработала АС IУР (датчик 2)
+#define R7II72LZ2	 BUFFER[673]	//(R7II72LZ2) Сработала АС IУР (датчик 2)
 #define idR7II72LZ2	 263	//(R7II72LZ2) Сработала АС IУР (датчик 2)
-#define R0AD16LDU	 BUFFER[674]	//(R0AD16LDU) Контроль  I-II УР. РАД
+#define R0AD16LDU	 BUFFER[675]	//(R0AD16LDU) Контроль  I-II УР. РАД
 #define idR0AD16LDU	 264	//(R0AD16LDU) Контроль  I-II УР. РАД
-#define R7II72LZ1	 BUFFER[676]	//(R7II72LZ1) Сработала АС IУР (датчик 2)
+#define R7II72LZ1	 BUFFER[677]	//(R7II72LZ1) Сработала АС IУР (датчик 2)
 #define idR7II72LZ1	 265	//(R7II72LZ1) Сработала АС IУР (датчик 2)
-#define R7II71LZ1	 BUFFER[678]	//(R7II71LZ1) Сработала АС IУР (датчик 1)
+#define R7II71LZ1	 BUFFER[679]	//(R7II71LZ1) Сработала АС IУР (датчик 1)
 #define idR7II71LZ1	 266	//(R7II71LZ1) Сработала АС IУР (датчик 1)
-#define R7II73LZ1	 BUFFER[680]	//(R7II73LZ1) Сработала АС IIУР
+#define R7II73LZ1	 BUFFER[681]	//(R7II73LZ1) Сработала АС IIУР
 #define idR7II73LZ1	 267	//(R7II73LZ1) Сработала АС IIУР
-#define R0SR01RIM	 BUFFER[682]	//(R0SR01RIM) Текущая реактивность PУ
+#define R0SR01RIM	 BUFFER[683]	//(R0SR01RIM) Текущая реактивность PУ
 #define idR0SR01RIM	 268	//(R0SR01RIM) Текущая реактивность PУ
-#define R0ST01RIM	 BUFFER[687]	//(R0ST01RIM) Текущий период разгона РУ
+#define R0ST01RIM	 BUFFER[688]	//(R0ST01RIM) Текущий период разгона РУ
 #define idR0ST01RIM	 269	//(R0ST01RIM) Текущий период разгона РУ
-#define A4AD10LDU	 BUFFER[692]	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
+#define A4AD10LDU	 BUFFER[693]	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
 #define idA4AD10LDU	 270	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
-#define B4AD10LDU	 BUFFER[694]	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
+#define B4AD10LDU	 BUFFER[695]	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
 #define idB4AD10LDU	 271	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
-#define A9AD10LDU	 BUFFER[696]	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
+#define A9AD10LDU	 BUFFER[697]	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
 #define idA9AD10LDU	 272	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
-#define B9AD10LDU	 BUFFER[698]	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
+#define B9AD10LDU	 BUFFER[699]	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
 #define idB9AD10LDU	 273	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
-#define R0MW13LP2	 BUFFER[700]	//(R0MW13LP2) Переключатель «СЕТЬ»
+#define R0MW13LP2	 BUFFER[701]	//(R0MW13LP2) Переключатель «СЕТЬ»
 #define idR0MW13LP2	 274	//(R0MW13LP2) Переключатель «СЕТЬ»
-#define B3AD31LDU	 BUFFER[702]	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
+#define B3AD31LDU	 BUFFER[703]	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
 #define idB3AD31LDU	 275	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
-#define B2AD32LDU	 BUFFER[704]	//(B2AD32LDU) Обесточить ЭМ РБ2
+#define B2AD32LDU	 BUFFER[705]	//(B2AD32LDU) Обесточить ЭМ РБ2
 #define idB2AD32LDU	 276	//(B2AD32LDU) Обесточить ЭМ РБ2
-#define fEM_R0UL01RIM	 BUFFER[706]	//(R0UL01RIM) Среднее время генерации нейтронов
+#define fEM_R0UL01RIM	 BUFFER[707]	//(R0UL01RIM) Среднее время генерации нейтронов
 #define idfEM_R0UL01RIM	 277	//(R0UL01RIM) Среднее время генерации нейтронов
-#define fEM_R0UN02RIM	 BUFFER[711]	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
+#define fEM_R0UN02RIM	 BUFFER[712]	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
 #define idfEM_R0UN02RIM	 278	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
-#define fEM_A1UR01RIM	 BUFFER[716]	//(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)
+#define fEM_A1UR01RIM	 BUFFER[717]	//(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)
 #define idfEM_A1UR01RIM	 279	//(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)
-#define fEM_A1UR00RIM	 BUFFER[721]	//(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)
+#define fEM_A1UR00RIM	 BUFFER[722]	//(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)
 #define idfEM_A1UR00RIM	 280	//(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)
-#define fEM_A3UR00RIM	 BUFFER[726]	//(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)
+#define fEM_A3UR00RIM	 BUFFER[727]	//(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)
 #define idfEM_A3UR00RIM	 281	//(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)
-#define fEM_A3UR01RIM	 BUFFER[731]	//(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)
+#define fEM_A3UR01RIM	 BUFFER[732]	//(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)
 #define idfEM_A3UR01RIM	 282	//(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)
-#define fEM_R0UT01RIM	 BUFFER[736]	//(R0UT01RIM) Температурный коэффициент (долл)
+#define fEM_R0UT01RIM	 BUFFER[737]	//(R0UT01RIM) Температурный коэффициент (долл)
 #define idfEM_R0UT01RIM	 283	//(R0UT01RIM) Температурный коэффициент (долл)
-#define fEM_R0UT02RIM	 BUFFER[741]	//(R0UT02RIM) Масса топлива в АЗ
+#define fEM_R0UT02RIM	 BUFFER[742]	//(R0UT02RIM) Масса топлива в АЗ
 #define idfEM_R0UT02RIM	 284	//(R0UT02RIM) Масса топлива в АЗ
-#define fEM_R0UT04RIM	 BUFFER[746]	//(R0UT04RIM) Удельная теплоёмкость топлива
+#define fEM_R0UT04RIM	 BUFFER[747]	//(R0UT04RIM) Удельная теплоёмкость топлива
 #define idfEM_R0UT04RIM	 285	//(R0UT04RIM) Удельная теплоёмкость топлива
-#define fEM_R0UT03RIM	 BUFFER[751]	//(R0UT03RIM) Нормальная температура АЗ град
+#define fEM_R0UT03RIM	 BUFFER[752]	//(R0UT03RIM) Нормальная температура АЗ град
 #define idfEM_R0UT03RIM	 286	//(R0UT03RIM) Нормальная температура АЗ град
-#define fEM_R0UT05RIM	 BUFFER[756]	//(R0UT05RIM) Энергия деления ядра
+#define fEM_R0UT05RIM	 BUFFER[757]	//(R0UT05RIM) Энергия деления ядра
 #define idfEM_R0UT05RIM	 287	//(R0UT05RIM) Энергия деления ядра
-#define fEM_R0UT06RIM	 BUFFER[761]	//(R0UT06RIM) Конвекционное сопротивление при обдуве
+#define fEM_R0UT06RIM	 BUFFER[762]	//(R0UT06RIM) Конвекционное сопротивление при обдуве
 #define idfEM_R0UT06RIM	 288	//(R0UT06RIM) Конвекционное сопротивление при обдуве
-#define fEM_A1UC02RDU	 BUFFER[766]	//(A1UC02RDU) Коэффициент преобразования частоты двигателя ББ в скорость мм/с
+#define fEM_A1UC02RDU	 BUFFER[767]	//(A1UC02RDU) Коэффициент преобразования частоты двигателя ББ в скорость мм/с
 #define idfEM_A1UC02RDU	 289	//(A1UC02RDU) Коэффициент преобразования частоты двигателя ББ в скорость мм/с
-#define fEM_A1UC04RIM	 BUFFER[771]	//(A1UC04RIM) Координата промежуточного путевого выключателя ББ мм
+#define fEM_A1UC04RIM	 BUFFER[772]	//(A1UC04RIM) Координата промежуточного путевого выключателя ББ мм
 #define idfEM_A1UC04RIM	 290	//(A1UC04RIM) Координата промежуточного путевого выключателя ББ мм
-#define fEM_A1UC05RIM	 BUFFER[776]	//(A1UC05RIM) Координата переднего аварийного выключателя ББ мм
+#define fEM_A1UC05RIM	 BUFFER[777]	//(A1UC05RIM) Координата переднего аварийного выключателя ББ мм
 #define idfEM_A1UC05RIM	 291	//(A1UC05RIM) Координата переднего аварийного выключателя ББ мм
-#define fEM_A1UC06RIM	 BUFFER[781]	//(A1UC06RIM) Координата заднего аварийного выключателя ББ мм
+#define fEM_A1UC06RIM	 BUFFER[782]	//(A1UC06RIM) Координата заднего аварийного выключателя ББ мм
 #define idfEM_A1UC06RIM	 292	//(A1UC06RIM) Координата заднего аварийного выключателя ББ мм
-#define fEM_A2UC06RIM	 BUFFER[786]	//(A2UC06RIM) Координата заднего аварийного выключателя РБ мм
+#define fEM_A2UC06RIM	 BUFFER[787]	//(A2UC06RIM) Координата заднего аварийного выключателя РБ мм
 #define idfEM_A2UC06RIM	 293	//(A2UC06RIM) Координата заднего аварийного выключателя РБ мм
-#define fEM_A2UC05RIM	 BUFFER[791]	//(A2UC05RIM) Координата переднего аварийного выключателя РБ мм
+#define fEM_A2UC05RIM	 BUFFER[792]	//(A2UC05RIM) Координата переднего аварийного выключателя РБ мм
 #define idfEM_A2UC05RIM	 294	//(A2UC05RIM) Координата переднего аварийного выключателя РБ мм
-#define fEM_A2UC04RIM	 BUFFER[796]	//(A2UC04RIM) Координата промежуточного путевого выключателя РБ мм
+#define fEM_A2UC04RIM	 BUFFER[797]	//(A2UC04RIM) Координата промежуточного путевого выключателя РБ мм
 #define idfEM_A2UC04RIM	 295	//(A2UC04RIM) Координата промежуточного путевого выключателя РБ мм
-#define fEM_A2UC02RDU	 BUFFER[801]	//(A2UC02RDU) Коэффициент преобразования частоты двигателя РБ в скорость мм/с
+#define fEM_A2UC02RDU	 BUFFER[802]	//(A2UC02RDU) Коэффициент преобразования частоты двигателя РБ в скорость мм/с
 #define idfEM_A2UC02RDU	 296	//(A2UC02RDU) Коэффициент преобразования частоты двигателя РБ в скорость мм/с
-#define fEM_A3UC06RIM	 BUFFER[806]	//(A3UC06RIM) Координата заднего аварийного выключателя ИС мм
+#define fEM_A3UC06RIM	 BUFFER[807]	//(A3UC06RIM) Координата заднего аварийного выключателя ИС мм
 #define idfEM_A3UC06RIM	 297	//(A3UC06RIM) Координата заднего аварийного выключателя ИС мм
-#define fEM_A3UC05RIM	 BUFFER[811]	//(A3UC05RIM) Координата переднего аварийного выключателя ИС мм
+#define fEM_A3UC05RIM	 BUFFER[812]	//(A3UC05RIM) Координата переднего аварийного выключателя ИС мм
 #define idfEM_A3UC05RIM	 298	//(A3UC05RIM) Координата переднего аварийного выключателя ИС мм
-#define fEM_A3UC04RIM	 BUFFER[816]	//(A3UC04RIM) Координата промежуточного путевого выключателя ИС мм
+#define fEM_A3UC04RIM	 BUFFER[817]	//(A3UC04RIM) Координата промежуточного путевого выключателя ИС мм
 #define idfEM_A3UC04RIM	 299	//(A3UC04RIM) Координата промежуточного путевого выключателя ИС мм
-#define fEM_A3UC02RDU	 BUFFER[821]	//(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с
+#define fEM_A3UC02RDU	 BUFFER[822]	//(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с
 #define idfEM_A3UC02RDU	 300	//(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с
-#define fEM_R4UV80RDU	 BUFFER[826]	//(R4UV80RDU) Номинальная скорость тележки (мм/с)
+#define fEM_R4UV80RDU	 BUFFER[827]	//(R4UV80RDU) Номинальная скорость тележки (мм/с)
 #define idfEM_R4UV80RDU	 301	//(R4UV80RDU) Номинальная скорость тележки (мм/с)
-#define fEM_R4UC10RIM	 BUFFER[831]	//(R4UC10RIM) Координата верхних механических упоров тележки мм
+#define fEM_R4UC10RIM	 BUFFER[832]	//(R4UC10RIM) Координата верхних механических упоров тележки мм
 #define idfEM_R4UC10RIM	 302	//(R4UC10RIM) Координата верхних механических упоров тележки мм
-#define fEM_R4UC20RIM	 BUFFER[836]	//(R4UC20RIM) Координата нижних механических упоров тележки мм
+#define fEM_R4UC20RIM	 BUFFER[837]	//(R4UC20RIM) Координата нижних механических упоров тележки мм
 #define idfEM_R4UC20RIM	 303	//(R4UC20RIM) Координата нижних механических упоров тележки мм
-#define fEM_B8UC21RIM	 BUFFER[841]	//(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм
+#define fEM_B8UC21RIM	 BUFFER[842]	//(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм
 #define idfEM_B8UC21RIM	 304	//(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм
-#define fEM_B8UC20RIM	 BUFFER[846]	//(B8UC20RIM) Координата верхних механических упоров АЗ2 мм
+#define fEM_B8UC20RIM	 BUFFER[847]	//(B8UC20RIM) Координата верхних механических упоров АЗ2 мм
 #define idfEM_B8UC20RIM	 305	//(B8UC20RIM) Координата верхних механических упоров АЗ2 мм
-#define fEM_B8UC11RIM	 BUFFER[851]	//(B8UC11RIM) Координата нижнего путевого выключателя АЗ2 мм
+#define fEM_B8UC11RIM	 BUFFER[852]	//(B8UC11RIM) Координата нижнего путевого выключателя АЗ2 мм
 #define idfEM_B8UC11RIM	 306	//(B8UC11RIM) Координата нижнего путевого выключателя АЗ2 мм
-#define fEM_B8UC10RIM	 BUFFER[856]	//(B8UC10RIM) Координата нижних механических упоров АЗ2 мм
+#define fEM_B8UC10RIM	 BUFFER[857]	//(B8UC10RIM) Координата нижних механических упоров АЗ2 мм
 #define idfEM_B8UC10RIM	 307	//(B8UC10RIM) Координата нижних механических упоров АЗ2 мм
-#define fEM_B8UV80RDU	 BUFFER[861]	//(B8UV80RDU) Номинальная скорость АЗ2 (мм/с)
+#define fEM_B8UV80RDU	 BUFFER[862]	//(B8UV80RDU) Номинальная скорость АЗ2 (мм/с)
 #define idfEM_B8UV80RDU	 308	//(B8UV80RDU) Номинальная скорость АЗ2 (мм/с)
-#define fEM_A8UV80RDU	 BUFFER[866]	//(A8UV80RDU) Номинальная скорость ДС2 (мм/с)
+#define fEM_A8UV80RDU	 BUFFER[867]	//(A8UV80RDU) Номинальная скорость ДС2 (мм/с)
 #define idfEM_A8UV80RDU	 309	//(A8UV80RDU) Номинальная скорость ДС2 (мм/с)
-#define fEM_A8UC10RIM	 BUFFER[871]	//(A8UC10RIM) Координата нижних механических упоров ДС2 мм
+#define fEM_A8UC10RIM	 BUFFER[872]	//(A8UC10RIM) Координата нижних механических упоров ДС2 мм
 #define idfEM_A8UC10RIM	 310	//(A8UC10RIM) Координата нижних механических упоров ДС2 мм
-#define fEM_A8UC11RIM	 BUFFER[876]	//(A8UC11RIM) Координата нижнего путевого выключателя ДС2 мм
+#define fEM_A8UC11RIM	 BUFFER[877]	//(A8UC11RIM) Координата нижнего путевого выключателя ДС2 мм
 #define idfEM_A8UC11RIM	 311	//(A8UC11RIM) Координата нижнего путевого выключателя ДС2 мм
-#define fEM_A8UC20RIM	 BUFFER[881]	//(A8UC20RIM) Координата верхних механических упоров ДС2 мм
+#define fEM_A8UC20RIM	 BUFFER[882]	//(A8UC20RIM) Координата верхних механических упоров ДС2 мм
 #define idfEM_A8UC20RIM	 312	//(A8UC20RIM) Координата верхних механических упоров ДС2 мм
-#define fEM_A8UC21RIM	 BUFFER[886]	//(A8UC21RIM) Координата верхнего путевого выключателя ДС2 мм
+#define fEM_A8UC21RIM	 BUFFER[887]	//(A8UC21RIM) Координата верхнего путевого выключателя ДС2 мм
 #define idfEM_A8UC21RIM	 313	//(A8UC21RIM) Координата верхнего путевого выключателя ДС2 мм
-#define fEM_A6UC10RIM	 BUFFER[891]	//(A6UC10RIM) Время полного хода БЗ (сек)
+#define fEM_A6UC10RIM	 BUFFER[892]	//(A6UC10RIM) Время полного хода БЗ (сек)
 #define idfEM_A6UC10RIM	 314	//(A6UC10RIM) Время полного хода БЗ (сек)
-#define fEM_R1UC10RIM	 BUFFER[896]	//(R1UC10RIM) Время полного хода МДЗ сек
+#define fEM_R1UC10RIM	 BUFFER[897]	//(R1UC10RIM) Время полного хода МДЗ сек
 #define idfEM_R1UC10RIM	 315	//(R1UC10RIM) Время полного хода МДЗ сек
-#define fEM_A5UC10RIM	 BUFFER[901]	//(A5UC10RIM) Время полного хода НЛ сек
+#define fEM_A5UC10RIM	 BUFFER[902]	//(A5UC10RIM) Время полного хода НЛ сек
 #define idfEM_A5UC10RIM	 316	//(A5UC10RIM) Время полного хода НЛ сек
-#define fEM_A0UN01RIM	 BUFFER[906]	//(A0UN01RIM) Мощность источника нейтронов ИНИ
+#define fEM_A0UN01RIM	 BUFFER[907]	//(A0UN01RIM) Мощность источника нейтронов ИНИ
 #define idfEM_A0UN01RIM	 317	//(A0UN01RIM) Мощность источника нейтронов ИНИ
-#define fEM_R4UC22RIM	 BUFFER[911]	//(R4UC22RIM) Смещение координаты АЗ от координаты тележки
+#define fEM_R4UC22RIM	 BUFFER[912]	//(R4UC22RIM) Смещение координаты АЗ от координаты тележки
 #define idfEM_R4UC22RIM	 318	//(R4UC22RIM) Смещение координаты АЗ от координаты тележки
-#define fEM_A1UG01RDU	 BUFFER[916]	//(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)
+#define fEM_A1UG01RDU	 BUFFER[917]	//(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)
 #define idfEM_A1UG01RDU	 319	//(A1UG01RDU) Расстояние включения масляного демпфера ББ(мм)
-#define fEM_A2UG01RDU	 BUFFER[921]	//(A2UG01RDU) Расстояние включения масляного демпфера РБ
+#define fEM_A2UG01RDU	 BUFFER[922]	//(A2UG01RDU) Расстояние включения масляного демпфера РБ
 #define idfEM_A2UG01RDU	 320	//(A2UG01RDU) Расстояние включения масляного демпфера РБ
-#define fEM_A3UG01RDU	 BUFFER[926]	//(A3UG01RDU) Расстояние включения масляного демпфера ИС
+#define fEM_A3UG01RDU	 BUFFER[927]	//(A3UG01RDU) Расстояние включения масляного демпфера ИС
 #define idfEM_A3UG01RDU	 321	//(A3UG01RDU) Расстояние включения масляного демпфера ИС
-#define fEM_R7UC10RIM	 BUFFER[931]	//(R7UC10RIM) X-координата КНК53М R7IN13 см
+#define fEM_R7UC10RIM	 BUFFER[932]	//(R7UC10RIM) X-координата КНК53М R7IN13 см
 #define idfEM_R7UC10RIM	 322	//(R7UC10RIM) X-координата КНК53М R7IN13 см
-#define fEM_R7UC19RIM	 BUFFER[936]	//(R7UC19RIM) Y-координата СНМ-11 (11) см
+#define fEM_R7UC19RIM	 BUFFER[937]	//(R7UC19RIM) Y-координата СНМ-11 (11) см
 #define idfEM_R7UC19RIM	 323	//(R7UC19RIM) Y-координата СНМ-11 (11) см
-#define fEM_R7UI02RIM	 BUFFER[941]	//(R7UI02RIM) Коэффициент усиления уровня радиации
+#define fEM_R7UI02RIM	 BUFFER[942]	//(R7UI02RIM) Коэффициент усиления уровня радиации
 #define idfEM_R7UI02RIM	 324	//(R7UI02RIM) Коэффициент усиления уровня радиации
-#define fEM_R7UL01RIM	 BUFFER[946]	//(R7UL01RIM) Постоянная времени изменения уровня радиации в зале
+#define fEM_R7UL01RIM	 BUFFER[947]	//(R7UL01RIM) Постоянная времени изменения уровня радиации в зале
 #define idfEM_R7UL01RIM	 325	//(R7UL01RIM) Постоянная времени изменения уровня радиации в зале
-#define fEM_A2UR00RIM	 BUFFER[951]	//(A2UR00RIM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)
+#define fEM_A2UR00RIM	 BUFFER[952]	//(A2UR00RIM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)
 #define idfEM_A2UR00RIM	 326	//(A2UR00RIM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)
-#define fEM_A2UR01RIM	 BUFFER[956]	//(A2UR01RIM) Коэффициент-1 функции реактивности вносимой РБ (долл)
+#define fEM_A2UR01RIM	 BUFFER[957]	//(A2UR01RIM) Коэффициент-1 функции реактивности вносимой РБ (долл)
 #define idfEM_A2UR01RIM	 327	//(A2UR01RIM) Коэффициент-1 функции реактивности вносимой РБ (долл)
-#define fEM_A0UN02RIM	 BUFFER[961]	//(A0UN02RIM) Мощность источника нейтронов с АНИ
+#define fEM_A0UN02RIM	 BUFFER[962]	//(A0UN02RIM) Мощность источника нейтронов с АНИ
 #define idfEM_A0UN02RIM	 328	//(A0UN02RIM) Мощность источника нейтронов с АНИ
-#define fEM_R0UR30RIM	 BUFFER[966]	//(R0UR30RIM) Реактивность вносимая образцами (долл)
+#define fEM_R0UR30RIM	 BUFFER[967]	//(R0UR30RIM) Реактивность вносимая образцами (долл)
 #define idfEM_R0UR30RIM	 329	//(R0UR30RIM) Реактивность вносимая образцами (долл)
-#define fEM_R0UR01RIM	 BUFFER[971]	//(R0UR01RIM) Стартовая отрицательная реактивность
+#define fEM_R0UR01RIM	 BUFFER[972]	//(R0UR01RIM) Стартовая отрицательная реактивность
 #define idfEM_R0UR01RIM	 330	//(R0UR01RIM) Стартовая отрицательная реактивность
-#define fEM_R0UT02RDU	 BUFFER[976]	//(R0UT02RDU) Верхний предел шкалы датчика температуры
+#define fEM_R0UT02RDU	 BUFFER[977]	//(R0UT02RDU) Верхний предел шкалы датчика температуры
 #define idfEM_R0UT02RDU	 331	//(R0UT02RDU) Верхний предел шкалы датчика температуры
-#define fEM_R0UT01RDU	 BUFFER[981]	//(R0UT01RDU) Нижний предел шкалы датчика температуры
+#define fEM_R0UT01RDU	 BUFFER[982]	//(R0UT01RDU) Нижний предел шкалы датчика температуры
 #define idfEM_R0UT01RDU	 332	//(R0UT01RDU) Нижний предел шкалы датчика температуры
-#define fEM_A1UC03RDU	 BUFFER[986]	//(A1UC03RDU) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера
+#define fEM_A1UC03RDU	 BUFFER[987]	//(A1UC03RDU) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера
 #define idfEM_A1UC03RDU	 333	//(A1UC03RDU) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера
-#define fEM_A2UP03RDU	 BUFFER[991]	//(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ
+#define fEM_A2UP03RDU	 BUFFER[992]	//(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ
 #define idfEM_A2UP03RDU	 334	//(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ
-#define fEM_A2UP04RDU	 BUFFER[996]	//(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ
+#define fEM_A2UP04RDU	 BUFFER[997]	//(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ
 #define idfEM_A2UP04RDU	 335	//(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ
-#define fEM_A2UC03RDU	 BUFFER[1001]	//(A2UC03RDU) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм
+#define fEM_A2UC03RDU	 BUFFER[1002]	//(A2UC03RDU) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм
 #define idfEM_A2UC03RDU	 336	//(A2UC03RDU) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм
-#define fEM_A3UP03RDU	 BUFFER[1006]	//(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС
+#define fEM_A3UP03RDU	 BUFFER[1007]	//(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС
 #define idfEM_A3UP03RDU	 337	//(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС
-#define fEM_A3UP04RDU	 BUFFER[1011]	//(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС
+#define fEM_A3UP04RDU	 BUFFER[1012]	//(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС
 #define idfEM_A3UP04RDU	 338	//(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС
-#define fEM_A3UC03RDU	 BUFFER[1016]	//(A3UC03RDU) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм
+#define fEM_A3UC03RDU	 BUFFER[1017]	//(A3UC03RDU) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм
 #define idfEM_A3UC03RDU	 339	//(A3UC03RDU) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм
-#define fEM_R7UI74RIM	 BUFFER[1021]	//(R7UI74RIM) Верхняя граница измерения уровня радиации в зале
+#define fEM_R7UI74RIM	 BUFFER[1022]	//(R7UI74RIM) Верхняя граница измерения уровня радиации в зале
 #define idfEM_R7UI74RIM	 340	//(R7UI74RIM) Верхняя граница измерения уровня радиации в зале
-#define fEM_A8UC03RDU	 BUFFER[1026]	//(A8UC03RDU) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера
+#define fEM_A8UC03RDU	 BUFFER[1027]	//(A8UC03RDU) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера
 #define idfEM_A8UC03RDU	 341	//(A8UC03RDU) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера
-#define fEM_R0UV87RDU	 BUFFER[1031]	//(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)
+#define fEM_R0UV87RDU	 BUFFER[1032]	//(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)
 #define idfEM_R0UV87RDU	 342	//(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)
-#define fEM_R0UV81RDU	 BUFFER[1036]	//(R0UV81RDU) 1-я частота двигателя (шагов/секунду)
+#define fEM_R0UV81RDU	 BUFFER[1037]	//(R0UV81RDU) 1-я частота двигателя (шагов/секунду)
 #define idfEM_R0UV81RDU	 343	//(R0UV81RDU) 1-я частота двигателя (шагов/секунду)
-#define fEM_R0UV82RDU	 BUFFER[1041]	//(R0UV82RDU) 3-я частота двигателя (шагов/секунду)
+#define fEM_R0UV82RDU	 BUFFER[1042]	//(R0UV82RDU) 3-я частота двигателя (шагов/секунду)
 #define idfEM_R0UV82RDU	 344	//(R0UV82RDU) 3-я частота двигателя (шагов/секунду)
-#define fEM_R0UV83RDU	 BUFFER[1046]	//(R0UV83RDU) 4-я частота двигателя (шагов/секунду)
+#define fEM_R0UV83RDU	 BUFFER[1047]	//(R0UV83RDU) 4-я частота двигателя (шагов/секунду)
 #define idfEM_R0UV83RDU	 345	//(R0UV83RDU) 4-я частота двигателя (шагов/секунду)
-#define fEM_R0UV84RDU	 BUFFER[1051]	//(R0UV84RDU) 5-я частота двигателя (шагов/секунду)
+#define fEM_R0UV84RDU	 BUFFER[1052]	//(R0UV84RDU) 5-я частота двигателя (шагов/секунду)
 #define idfEM_R0UV84RDU	 346	//(R0UV84RDU) 5-я частота двигателя (шагов/секунду)
-#define fEM_R0UV85RDU	 BUFFER[1056]	//(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)
+#define fEM_R0UV85RDU	 BUFFER[1057]	//(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)
 #define idfEM_R0UV85RDU	 347	//(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)
-#define fEM_R0UV86RDU	 BUFFER[1061]	//(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)
+#define fEM_R0UV86RDU	 BUFFER[1062]	//(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)
 #define idfEM_R0UV86RDU	 348	//(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)
-#define fEM_A8UC08RDU	 BUFFER[1066]	//(A8UC08RDU) Зона срабатывания КВ ДС2(мм)
+#define fEM_A8UC08RDU	 BUFFER[1067]	//(A8UC08RDU) Зона срабатывания КВ ДС2(мм)
 #define idfEM_A8UC08RDU	 349	//(A8UC08RDU) Зона срабатывания КВ ДС2(мм)
-#define fEM_B8UC08RDU	 BUFFER[1071]	//(B8UC08RDU) Зона срабатывания КВ АЗ2(мм)
+#define fEM_B8UC08RDU	 BUFFER[1072]	//(B8UC08RDU) Зона срабатывания КВ АЗ2(мм)
 #define idfEM_B8UC08RDU	 350	//(B8UC08RDU) Зона срабатывания КВ АЗ2(мм)
-#define fEM_R4UC08RDU	 BUFFER[1076]	//(R4UC08RDU) Зона срабатывания КВ тележки РУ(мм)
+#define fEM_R4UC08RDU	 BUFFER[1077]	//(R4UC08RDU) Зона срабатывания КВ тележки РУ(мм)
 #define idfEM_R4UC08RDU	 351	//(R4UC08RDU) Зона срабатывания КВ тележки РУ(мм)
-#define fEM_R0UH01RSS	 BUFFER[1081]	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с  СНМ11
+#define fEM_R0UH01RSS	 BUFFER[1082]	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с  СНМ11
 #define idfEM_R0UH01RSS	 352	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с  СНМ11
-#define fEM_A0UX00RSS	 BUFFER[1086]	//(A0UX00RSS) Эффективный радиус АЗ
+#define fEM_A0UX00RSS	 BUFFER[1087]	//(A0UX00RSS) Эффективный радиус АЗ
 #define idfEM_A0UX00RSS	 353	//(A0UX00RSS) Эффективный радиус АЗ
-#define fEM_R7UX01RSS	 BUFFER[1091]	//(R7UX01RSS) X-координата камеры R7IN11
+#define fEM_R7UX01RSS	 BUFFER[1092]	//(R7UX01RSS) X-координата камеры R7IN11
 #define idfEM_R7UX01RSS	 354	//(R7UX01RSS) X-координата камеры R7IN11
-#define fEM_R7UX02RSS	 BUFFER[1096]	//(R7UX02RSS) X-координата камеры R7IN12 (см)
+#define fEM_R7UX02RSS	 BUFFER[1097]	//(R7UX02RSS) X-координата камеры R7IN12 (см)
 #define idfEM_R7UX02RSS	 355	//(R7UX02RSS) X-координата камеры R7IN12 (см)
-#define fEM_R7UX04RSS	 BUFFER[1101]	//(R7UX04RSS) X-координата камеры R7IN21 (см)
+#define fEM_R7UX04RSS	 BUFFER[1102]	//(R7UX04RSS) X-координата камеры R7IN21 (см)
 #define idfEM_R7UX04RSS	 356	//(R7UX04RSS) X-координата камеры R7IN21 (см)
-#define fEM_R7UX05RSS	 BUFFER[1106]	//(R7UX05RSS) X-координата камеры R7IN22 (см)
+#define fEM_R7UX05RSS	 BUFFER[1107]	//(R7UX05RSS) X-координата камеры R7IN22 (см)
 #define idfEM_R7UX05RSS	 357	//(R7UX05RSS) X-координата камеры R7IN22 (см)
-#define fEM_R7UX06RSS	 BUFFER[1111]	//(R7UX06RSS) X-координата камеры R7IN23 (см)
+#define fEM_R7UX06RSS	 BUFFER[1112]	//(R7UX06RSS) X-координата камеры R7IN23 (см)
 #define idfEM_R7UX06RSS	 358	//(R7UX06RSS) X-координата камеры R7IN23 (см)
-#define fEM_R7UX07RSS	 BUFFER[1116]	//(R7UX07RSS) X-координата камеры R7IN31 (см)
+#define fEM_R7UX07RSS	 BUFFER[1117]	//(R7UX07RSS) X-координата камеры R7IN31 (см)
 #define idfEM_R7UX07RSS	 359	//(R7UX07RSS) X-координата камеры R7IN31 (см)
-#define fEM_R7UX08RSS	 BUFFER[1121]	//(R7UX08RSS) X-координата камеры R7IN32 (см)
+#define fEM_R7UX08RSS	 BUFFER[1122]	//(R7UX08RSS) X-координата камеры R7IN32 (см)
 #define idfEM_R7UX08RSS	 360	//(R7UX08RSS) X-координата камеры R7IN32 (см)
-#define fEM_R7UX09RSS	 BUFFER[1126]	//(R7UX09RSS) X-координата камеры R7IN33 (см)
+#define fEM_R7UX09RSS	 BUFFER[1127]	//(R7UX09RSS) X-координата камеры R7IN33 (см)
 #define idfEM_R7UX09RSS	 361	//(R7UX09RSS) X-координата камеры R7IN33 (см)
-#define fEM_R7UY01RSS	 BUFFER[1131]	//(R7UY01RSS) Y-координата камеры R7IN11
+#define fEM_R7UY01RSS	 BUFFER[1132]	//(R7UY01RSS) Y-координата камеры R7IN11
 #define idfEM_R7UY01RSS	 362	//(R7UY01RSS) Y-координата камеры R7IN11
-#define fEM_R7UY02RSS	 BUFFER[1136]	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
+#define fEM_R7UY02RSS	 BUFFER[1137]	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
 #define idfEM_R7UY02RSS	 363	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
-#define fEM_R7UY04RSS	 BUFFER[1141]	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
+#define fEM_R7UY04RSS	 BUFFER[1142]	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
 #define idfEM_R7UY04RSS	 364	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
-#define fEM_R7UY05RSS	 BUFFER[1146]	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
+#define fEM_R7UY05RSS	 BUFFER[1147]	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
 #define idfEM_R7UY05RSS	 365	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
-#define fEM_R7UY06RSS	 BUFFER[1151]	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
+#define fEM_R7UY06RSS	 BUFFER[1152]	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
 #define idfEM_R7UY06RSS	 366	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
-#define fEM_R7UY07RSS	 BUFFER[1156]	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
+#define fEM_R7UY07RSS	 BUFFER[1157]	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
 #define idfEM_R7UY07RSS	 367	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
-#define fEM_R7UY08RSS	 BUFFER[1161]	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
+#define fEM_R7UY08RSS	 BUFFER[1162]	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
 #define idfEM_R7UY08RSS	 368	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
-#define fEM_R7UY09RSS	 BUFFER[1166]	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
+#define fEM_R7UY09RSS	 BUFFER[1167]	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
 #define idfEM_R7UY09RSS	 369	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
-#define fEM_R7UX10RSS	 BUFFER[1171]	//(R7UX10RSS) X-координата камеры R7IN41
+#define fEM_R7UX10RSS	 BUFFER[1172]	//(R7UX10RSS) X-координата камеры R7IN41
 #define idfEM_R7UX10RSS	 370	//(R7UX10RSS) X-координата камеры R7IN41
-#define fEM_R7UX11RSS	 BUFFER[1176]	//(R7UX11RSS) X-координата камеры R7IN42
+#define fEM_R7UX11RSS	 BUFFER[1177]	//(R7UX11RSS) X-координата камеры R7IN42
 #define idfEM_R7UX11RSS	 371	//(R7UX11RSS) X-координата камеры R7IN42
-#define fEM_R7UX12RSS	 BUFFER[1181]	//(R7UX12RSS) X-координата камеры R7IN43
+#define fEM_R7UX12RSS	 BUFFER[1182]	//(R7UX12RSS) X-координата камеры R7IN43
 #define idfEM_R7UX12RSS	 372	//(R7UX12RSS) X-координата камеры R7IN43
-#define fEM_R7UY10RSS	 BUFFER[1186]	//(R7UY10RSS) Y-координата камеры R7IN41
+#define fEM_R7UY10RSS	 BUFFER[1187]	//(R7UY10RSS) Y-координата камеры R7IN41
 #define idfEM_R7UY10RSS	 373	//(R7UY10RSS) Y-координата камеры R7IN41
-#define fEM_R7UY11RSS	 BUFFER[1191]	//(R7UY11RSS) Y-координата камеры R7IN42
+#define fEM_R7UY11RSS	 BUFFER[1192]	//(R7UY11RSS) Y-координата камеры R7IN42
 #define idfEM_R7UY11RSS	 374	//(R7UY11RSS) Y-координата камеры R7IN42
-#define fEM_R7UY12RSS	 BUFFER[1196]	//(R7UY12RSS) Y-координата камеры R7IN43
+#define fEM_R7UY12RSS	 BUFFER[1197]	//(R7UY12RSS) Y-координата камеры R7IN43
 #define idfEM_R7UY12RSS	 375	//(R7UY12RSS) Y-координата камеры R7IN43
-#define fEM_A0UX01RSS	 BUFFER[1201]	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
+#define fEM_A0UX01RSS	 BUFFER[1202]	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
 #define idfEM_A0UX01RSS	 376	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
-#define fEM_A0UX02RSS	 BUFFER[1206]	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
+#define fEM_A0UX02RSS	 BUFFER[1207]	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
 #define idfEM_A0UX02RSS	 377	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
-#define fEM_A0UX03RSS	 BUFFER[1211]	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
+#define fEM_A0UX03RSS	 BUFFER[1212]	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
 #define idfEM_A0UX03RSS	 378	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
-#define fEM_A0UX04RSS	 BUFFER[1216]	//(A0UX04RSS) Первый коэффициент калибровки камеры4
+#define fEM_A0UX04RSS	 BUFFER[1217]	//(A0UX04RSS) Первый коэффициент калибровки камеры4
 #define idfEM_A0UX04RSS	 379	//(A0UX04RSS) Первый коэффициент калибровки камеры4
-#define fEM_A0UX05RSS	 BUFFER[1221]	//(A0UX05RSS) Первый коэффициент калибровки камеры 5
+#define fEM_A0UX05RSS	 BUFFER[1222]	//(A0UX05RSS) Первый коэффициент калибровки камеры 5
 #define idfEM_A0UX05RSS	 380	//(A0UX05RSS) Первый коэффициент калибровки камеры 5
-#define fEM_A0UX06RSS	 BUFFER[1226]	//(A0UX06RSS) Первый коэффициент калибровки камеры 6
+#define fEM_A0UX06RSS	 BUFFER[1227]	//(A0UX06RSS) Первый коэффициент калибровки камеры 6
 #define idfEM_A0UX06RSS	 381	//(A0UX06RSS) Первый коэффициент калибровки камеры 6
-#define fEM_A0UX07RSS	 BUFFER[1231]	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
+#define fEM_A0UX07RSS	 BUFFER[1232]	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
 #define idfEM_A0UX07RSS	 382	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
-#define fEM_A0UX08RSS	 BUFFER[1236]	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
+#define fEM_A0UX08RSS	 BUFFER[1237]	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
 #define idfEM_A0UX08RSS	 383	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
-#define fEM_A0UX09RSS	 BUFFER[1241]	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
+#define fEM_A0UX09RSS	 BUFFER[1242]	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
 #define idfEM_A0UX09RSS	 384	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
-#define fEM_A0UX10RSS	 BUFFER[1246]	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
+#define fEM_A0UX10RSS	 BUFFER[1247]	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
 #define idfEM_A0UX10RSS	 385	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
-#define fEM_A0UX11RSS	 BUFFER[1251]	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
+#define fEM_A0UX11RSS	 BUFFER[1252]	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
 #define idfEM_A0UX11RSS	 386	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
-#define fEM_A0UX12RSS	 BUFFER[1256]	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
+#define fEM_A0UX12RSS	 BUFFER[1257]	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
 #define idfEM_A0UX12RSS	 387	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
-#define fEM_B0UX01RSS	 BUFFER[1261]	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
+#define fEM_B0UX01RSS	 BUFFER[1262]	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
 #define idfEM_B0UX01RSS	 388	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
-#define fEM_B0UX02RSS	 BUFFER[1266]	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
+#define fEM_B0UX02RSS	 BUFFER[1267]	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
 #define idfEM_B0UX02RSS	 389	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
-#define fEM_B0UX03RSS	 BUFFER[1271]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+#define fEM_B0UX03RSS	 BUFFER[1272]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
 #define idfEM_B0UX03RSS	 390	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
-#define fEM_B0UX04RSS	 BUFFER[1276]	//(B0UX04RSS) Второй коэффициент калибровки камеры 4
+#define fEM_B0UX04RSS	 BUFFER[1277]	//(B0UX04RSS) Второй коэффициент калибровки камеры 4
 #define idfEM_B0UX04RSS	 391	//(B0UX04RSS) Второй коэффициент калибровки камеры 4
-#define fEM_B0UX05RSS	 BUFFER[1281]	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
+#define fEM_B0UX05RSS	 BUFFER[1282]	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
 #define idfEM_B0UX05RSS	 392	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
-#define fEM_B0UX06RSS	 BUFFER[1286]	//(B0UX06RSS) Второй коэффициент калибровки камеры 6
+#define fEM_B0UX06RSS	 BUFFER[1287]	//(B0UX06RSS) Второй коэффициент калибровки камеры 6
 #define idfEM_B0UX06RSS	 393	//(B0UX06RSS) Второй коэффициент калибровки камеры 6
-#define fEM_B0UX07RSS	 BUFFER[1291]	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
+#define fEM_B0UX07RSS	 BUFFER[1292]	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
 #define idfEM_B0UX07RSS	 394	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
-#define fEM_B0UX08RSS	 BUFFER[1296]	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
+#define fEM_B0UX08RSS	 BUFFER[1297]	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
 #define idfEM_B0UX08RSS	 395	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
-#define fEM_B0UX09RSS	 BUFFER[1301]	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
+#define fEM_B0UX09RSS	 BUFFER[1302]	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
 #define idfEM_B0UX09RSS	 396	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
-#define fEM_B0UX10RSS	 BUFFER[1306]	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
+#define fEM_B0UX10RSS	 BUFFER[1307]	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
 #define idfEM_B0UX10RSS	 397	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
-#define fEM_B0UX11RSS	 BUFFER[1311]	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
+#define fEM_B0UX11RSS	 BUFFER[1312]	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
 #define idfEM_B0UX11RSS	 398	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
-#define fEM_B0UX12RSS	 BUFFER[1316]	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
+#define fEM_B0UX12RSS	 BUFFER[1317]	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
 #define idfEM_B0UX12RSS	 399	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
-#define fEM_R0UH02RSS	 BUFFER[1321]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с  КНК15-1
+#define fEM_R0UH02RSS	 BUFFER[1322]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с  КНК15-1
 #define idfEM_R0UH02RSS	 400	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с  КНК15-1
-#define fEM_R0UH03RSS	 BUFFER[1326]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с  КНК53М
+#define fEM_R0UH03RSS	 BUFFER[1327]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с  КНК53М
 #define idfEM_R0UH03RSS	 401	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с  КНК53М
-#define fEM_R4US80RDU	 BUFFER[1331]	//(R4US80RDU) Тормозной путь тележки (мм)
+#define fEM_R4US80RDU	 BUFFER[1332]	//(R4US80RDU) Тормозной путь тележки (мм)
 #define idfEM_R4US80RDU	 402	//(R4US80RDU) Тормозной путь тележки (мм)
-#define fEM_R7UI71RIM	 BUFFER[1336]	//(R7UI71RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)
+#define fEM_R7UI71RIM	 BUFFER[1337]	//(R7UI71RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)
 #define idfEM_R7UI71RIM	 403	//(R7UI71RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)
-#define fEM_R7UI72RIM	 BUFFER[1341]	//(R7UI72RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)
+#define fEM_R7UI72RIM	 BUFFER[1342]	//(R7UI72RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)
 #define idfEM_R7UI72RIM	 404	//(R7UI72RIM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)
-#define fEM_R7UI73RIM	 BUFFER[1346]	//(R7UI73RIM) Уровень мощности срабатывания АС II УР  ватт
+#define fEM_R7UI73RIM	 BUFFER[1347]	//(R7UI73RIM) Уровень мощности срабатывания АС II УР  ватт
 #define idfEM_R7UI73RIM	 405	//(R7UI73RIM) Уровень мощности срабатывания АС II УР  ватт
-#define fEM_A1UP01RIM	 BUFFER[1351]	//(A1UP01RIM) Текущее давление на сброс ББ (МПа)
+#define fEM_A1UP01RIM	 BUFFER[1352]	//(A1UP01RIM) Текущее давление на сброс ББ (МПа)
 #define idfEM_A1UP01RIM	 406	//(A1UP01RIM) Текущее давление на сброс ББ (МПа)
-#define fEM_A2UP01RIM	 BUFFER[1356]	//(A2UP01RIM) Текущее давление на сброс РБ
+#define fEM_A2UP01RIM	 BUFFER[1357]	//(A2UP01RIM) Текущее давление на сброс РБ
 #define idfEM_A2UP01RIM	 407	//(A2UP01RIM) Текущее давление на сброс РБ
-#define fEM_A0UP02RIM	 BUFFER[1361]	//(A0UP02RIM) Текущее давление в АЗ1,2
+#define fEM_A0UP02RIM	 BUFFER[1362]	//(A0UP02RIM) Текущее давление в АЗ1,2
 #define idfEM_A0UP02RIM	 408	//(A0UP02RIM) Текущее давление в АЗ1,2
-#define fEM_A3UP01RIM	 BUFFER[1366]	//(A3UP01RIM) Текущее давление на СПУСК ИС
+#define fEM_A3UP01RIM	 BUFFER[1367]	//(A3UP01RIM) Текущее давление на СПУСК ИС
 #define idfEM_A3UP01RIM	 409	//(A3UP01RIM) Текущее давление на СПУСК ИС
-#define fEM_A1UP82RIM	 BUFFER[1371]	//(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)
+#define fEM_A1UP82RIM	 BUFFER[1372]	//(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)
 #define idfEM_A1UP82RIM	 410	//(A1UP82RIM) Нижняя граница нормализации давления СБРОС ББ (МПа)
-#define fEM_A3UP02RDU	 BUFFER[1376]	//(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС
+#define fEM_A3UP02RDU	 BUFFER[1377]	//(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС
 #define idfEM_A3UP02RDU	 411	//(A3UP02RDU) Текущее давление ВЫСТРЕЛ ИС
-#define fEM_A1UV02RIM	 BUFFER[1381]	//(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)
+#define fEM_A1UV02RIM	 BUFFER[1382]	//(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)
 #define idfEM_A1UV02RIM	 412	//(A1UV02RIM) Ускорение сброса ББ от пневматики - g (мм/с^2)
-#define fEM_A3UV02RIM	 BUFFER[1386]	//(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)
+#define fEM_A3UV02RIM	 BUFFER[1387]	//(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)
 #define idfEM_A3UV02RIM	 413	//(A3UV02RIM) Ускорение сброса ИС от пневматики - g (мм/с^2)
-#define fEM_A2UV02RIM	 BUFFER[1391]	//(A2UV02RIM) Ускорение сброса РБ от пневматики - g (мм/с^2)
+#define fEM_A2UV02RIM	 BUFFER[1392]	//(A2UV02RIM) Ускорение сброса РБ от пневматики - g (мм/с^2)
 #define idfEM_A2UV02RIM	 414	//(A2UV02RIM) Ускорение сброса РБ от пневматики - g (мм/с^2)
-#define fEM_B8US80RDU	 BUFFER[1396]	//(B8US80RDU) Тормозной путь АЗ2 (мм)
+#define fEM_B8US80RDU	 BUFFER[1397]	//(B8US80RDU) Тормозной путь АЗ2 (мм)
 #define idfEM_B8US80RDU	 415	//(B8US80RDU) Тормозной путь АЗ2 (мм)
-#define fEM_A8US80RDU	 BUFFER[1401]	//(A8US80RDU) Тормозной путь ДС2 (мм)
+#define fEM_A8US80RDU	 BUFFER[1402]	//(A8US80RDU) Тормозной путь ДС2 (мм)
 #define idfEM_A8US80RDU	 416	//(A8US80RDU) Тормозной путь ДС2 (мм)
-#define fEM_A6US80RDU	 BUFFER[1406]	//(A6US80RDU) Тормозной путь БЗ (мм)
+#define fEM_A6US80RDU	 BUFFER[1407]	//(A6US80RDU) Тормозной путь БЗ (мм)
 #define idfEM_A6US80RDU	 417	//(A6US80RDU) Тормозной путь БЗ (мм)
-#define fEM_A1US07RDU	 BUFFER[1411]	//(A1US07RDU) Постоянная времени масляного демпфера ББ
+#define fEM_A1US07RDU	 BUFFER[1412]	//(A1US07RDU) Постоянная времени масляного демпфера ББ
 #define idfEM_A1US07RDU	 418	//(A1US07RDU) Постоянная времени масляного демпфера ББ
-#define fEM_A2US07RDU	 BUFFER[1416]	//(A2US07RDU) Постоянная времени масляного демпфера РБ
+#define fEM_A2US07RDU	 BUFFER[1417]	//(A2US07RDU) Постоянная времени масляного демпфера РБ
 #define idfEM_A2US07RDU	 419	//(A2US07RDU) Постоянная времени масляного демпфера РБ
-#define fEM_A3US07RDU	 BUFFER[1421]	//(A3US07RDU) Постоянная времени масляного демпфера ИС
+#define fEM_A3US07RDU	 BUFFER[1422]	//(A3US07RDU) Постоянная времени масляного демпфера ИС
 #define idfEM_A3US07RDU	 420	//(A3US07RDU) Постоянная времени масляного демпфера ИС
-#define fEM_R7UI75RIM	 BUFFER[1426]	//(R7UI75RIM) Множитель к уровню радиации
+#define fEM_R7UI75RIM	 BUFFER[1427]	//(R7UI75RIM) Множитель к уровню радиации
 #define idfEM_R7UI75RIM	 421	//(R7UI75RIM) Множитель к уровню радиации
-#define fEM_R0UH21RSS	 BUFFER[1431]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define fEM_R0UH21RSS	 BUFFER[1432]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
 #define idfEM_R0UH21RSS	 422	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-#define fEM_R0UH22RSS	 BUFFER[1436]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define fEM_R0UH22RSS	 BUFFER[1437]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 #define idfEM_R0UH22RSS	 423	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-#define fEM_R0UH23RSS	 BUFFER[1441]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define fEM_R0UH23RSS	 BUFFER[1442]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 #define idfEM_R0UH23RSS	 424	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define fEM_R0UH05RSS	 BUFFER[1446]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define fEM_R0UH05RSS	 BUFFER[1447]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 #define idfEM_R0UH05RSS	 425	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define fEM_A4UL10RIM	 BUFFER[1451]	//(A4UL10RIM) Время полного перемещения НИ сек
+#define fEM_A4UL10RIM	 BUFFER[1452]	//(A4UL10RIM) Время полного перемещения НИ сек
 #define idfEM_A4UL10RIM	 426	//(A4UL10RIM) Время полного перемещения НИ сек
-#define fEM_A9UL10RIM	 BUFFER[1456]	//(A9UL10RIM) Время полного перемещения НИ ДС1/ДС2 сек
+#define fEM_A9UL10RIM	 BUFFER[1457]	//(A9UL10RIM) Время полного перемещения НИ ДС1/ДС2 сек
 #define idfEM_A9UL10RIM	 427	//(A9UL10RIM) Время полного перемещения НИ ДС1/ДС2 сек
-#define fEM_R3UL10RIM	 BUFFER[1461]	//(R3UL10RIM) Время полного хода гомогенных дверей (сек)
+#define fEM_R3UL10RIM	 BUFFER[1462]	//(R3UL10RIM) Время полного хода гомогенных дверей (сек)
 #define idfEM_R3UL10RIM	 428	//(R3UL10RIM) Время полного хода гомогенных дверей (сек)
-#define fEM_R5UL10RIM	 BUFFER[1466]	//(R5UL10RIM) Время полного хода ворот отстойной зоны (дес. мс)
+#define fEM_R5UL10RIM	 BUFFER[1467]	//(R5UL10RIM) Время полного хода ворот отстойной зоны (дес. мс)
 #define idfEM_R5UL10RIM	 429	//(R5UL10RIM) Время полного хода ворот отстойной зоны (дес. мс)
-#define fEM_R6UL10RIM	 BUFFER[1471]	//(R6UL10RIM) Время полного хода кран-балки сек
+#define fEM_R6UL10RIM	 BUFFER[1472]	//(R6UL10RIM) Время полного хода кран-балки сек
 #define idfEM_R6UL10RIM	 430	//(R6UL10RIM) Время полного хода кран-балки сек
-#define lEM_C1AD31LRP	 BUFFER[1476]	//(C1AD31LRP) Общий сброс от РПУ
+#define lEM_C1AD31LRP	 BUFFER[1477]	//(C1AD31LRP) Общий сброс от РПУ
 #define idlEM_C1AD31LRP	 431	//(C1AD31LRP) Общий сброс от РПУ
-#define lEM_R0IE01LRP	 BUFFER[1478]	//(R0IE01LRP) Отключение питание детекторов
+#define lEM_R0IE01LRP	 BUFFER[1479]	//(R0IE01LRP) Отключение питание детекторов
 #define idlEM_R0IE01LRP	 432	//(R0IE01LRP) Отключение питание детекторов
-#define lEM_R0IE02LRP	 BUFFER[1480]	//(R0IE02LRP) Отключить питание ПР, ПУ
+#define lEM_R0IE02LRP	 BUFFER[1481]	//(R0IE02LRP) Отключить питание ПР, ПУ
 #define idlEM_R0IE02LRP	 433	//(R0IE02LRP) Отключить питание ПР, ПУ
-#define fEM_A2UP02RIM	 BUFFER[1482]	//(A2UP02RIM) Текущее давление на подъём РБ
+#define fEM_A2UP02RIM	 BUFFER[1483]	//(A2UP02RIM) Текущее давление на подъём РБ
 #define idfEM_A2UP02RIM	 434	//(A2UP02RIM) Текущее давление на подъём РБ
-#define fEM_A2UP03RIM	 BUFFER[1487]	//(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ
+#define fEM_A2UP03RIM	 BUFFER[1488]	//(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ
 #define idfEM_A2UP03RIM	 435	//(A2UP03RIM) Нижняя граница давления на ПОДЪЁМ РБ
-#define fEM_A0UP01RIM	 BUFFER[1492]	//(A0UP01RIM) Текущее давление в АЗ1,2
+#define fEM_A0UP01RIM	 BUFFER[1493]	//(A0UP01RIM) Текущее давление в АЗ1,2
 #define idfEM_A0UP01RIM	 436	//(A0UP01RIM) Текущее давление в АЗ1,2
-#define fEM_A3UP02RIM	 BUFFER[1497]	//(A3UP02RIM) Нижняя граница  давления на СПУСК ИС
+#define fEM_A3UP02RIM	 BUFFER[1498]	//(A3UP02RIM) Нижняя граница  давления на СПУСК ИС
 #define idfEM_A3UP02RIM	 437	//(A3UP02RIM) Нижняя граница  давления на СПУСК ИС
-#define fEM_A4UP01RIM	 BUFFER[1502]	//(A4UP01RIM) Текущее давление на подъём НИ
+#define fEM_A4UP01RIM	 BUFFER[1503]	//(A4UP01RIM) Текущее давление на подъём НИ
 #define idfEM_A4UP01RIM	 438	//(A4UP01RIM) Текущее давление на подъём НИ
-#define fEM_A4UP02RIM	 BUFFER[1507]	//(A4UP02RIM) Нижняя граница давления на подъём НИ
+#define fEM_A4UP02RIM	 BUFFER[1508]	//(A4UP02RIM) Нижняя граница давления на подъём НИ
 #define idfEM_A4UP02RIM	 439	//(A4UP02RIM) Нижняя граница давления на подъём НИ
-#define fEM_R7UI76RIM	 BUFFER[1512]	//(R7UI76RIM) Время задержки  срабатывания АС II УР при имитации сигнала сек
+#define fEM_R7UI76RIM	 BUFFER[1513]	//(R7UI76RIM) Время задержки  срабатывания АС II УР при имитации сигнала сек
 #define idfEM_R7UI76RIM	 440	//(R7UI76RIM) Время задержки  срабатывания АС II УР при имитации сигнала сек
-#define fEM_R7UI77RIM	 BUFFER[1517]	//(R7UI77RIM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек
+#define fEM_R7UI77RIM	 BUFFER[1518]	//(R7UI77RIM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек
 #define idfEM_R7UI77RIM	 441	//(R7UI77RIM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек
-#define iEM_TERBB1	 BUFFER[1522]	//(TERBB1) Неисправности  ББ1
+#define iEM_TERBB1	 BUFFER[1523]	//(TERBB1) Неисправности  ББ1
 #define idiEM_TERBB1	 442	//(TERBB1) Неисправности  ББ1
-#define fEM_A1MC02RC1	 BUFFER[1525]	//(A1MC02RC1) Заданная координата штока ББ1 от ИС
+#define fEM_A1MC02RC1	 BUFFER[1526]	//(A1MC02RC1) Заданная координата штока ББ1 от ИС
 #define idfEM_A1MC02RC1	 443	//(A1MC02RC1) Заданная координата штока ББ1 от ИС
-#define fEM_A1MV02RC1	 BUFFER[1530]	//(A1MV02RC1) Заданная скорость движения  штока ББ1 от ИС
+#define fEM_A1MV02RC1	 BUFFER[1531]	//(A1MV02RC1) Заданная скорость движения  штока ББ1 от ИС
 #define idfEM_A1MV02RC1	 444	//(A1MV02RC1) Заданная скорость движения  штока ББ1 от ИС
-#define iEM_TERBB2	 BUFFER[1535]	//(TERBB2) Неисправности  ББ2
+#define iEM_TERBB2	 BUFFER[1536]	//(TERBB2) Неисправности  ББ2
 #define idiEM_TERBB2	 445	//(TERBB2) Неисправности  ББ2
-#define fEM_B1MC02RC1	 BUFFER[1538]	//(B1MC02RC1) Заданная координата штока ББ2 от ИС
+#define fEM_B1MC02RC1	 BUFFER[1539]	//(B1MC02RC1) Заданная координата штока ББ2 от ИС
 #define idfEM_B1MC02RC1	 446	//(B1MC02RC1) Заданная координата штока ББ2 от ИС
-#define fEM_B1MV02RC1	 BUFFER[1543]	//(B1MV02RC1) Заданная скорость движения штока ББ2 от ИС
+#define fEM_B1MV02RC1	 BUFFER[1544]	//(B1MV02RC1) Заданная скорость движения штока ББ2 от ИС
 #define idfEM_B1MV02RC1	 447	//(B1MV02RC1) Заданная скорость движения штока ББ2 от ИС
-#define iEM_TERRB2	 BUFFER[1548]	//(TERRB2) Неисправности  РБ2
+#define iEM_TERRB2	 BUFFER[1549]	//(TERRB2) Неисправности  РБ2
 #define idiEM_TERRB2	 448	//(TERRB2) Неисправности  РБ2
-#define fEM_B2MC02RC1	 BUFFER[1551]	//(B2MC02RC1) Заданная координата штока РБ2 от ИС
+#define fEM_B2MC02RC1	 BUFFER[1552]	//(B2MC02RC1) Заданная координата штока РБ2 от ИС
 #define idfEM_B2MC02RC1	 449	//(B2MC02RC1) Заданная координата штока РБ2 от ИС
-#define fEM_B2MV02RC1	 BUFFER[1556]	//(B2MV02RC1) Заданная скорость движения штока РБ2 от ИС
+#define fEM_B2MV02RC1	 BUFFER[1557]	//(B2MV02RC1) Заданная скорость движения штока РБ2 от ИС
 #define idfEM_B2MV02RC1	 450	//(B2MV02RC1) Заданная скорость движения штока РБ2 от ИС
-#define iEM_TERRB1	 BUFFER[1561]	//(TERRB1) Неисправности  РБ1
+#define iEM_TERRB1	 BUFFER[1562]	//(TERRB1) Неисправности  РБ1
 #define idiEM_TERRB1	 451	//(TERRB1) Неисправности  РБ1
-#define fEM_A2MC02RC1	 BUFFER[1564]	//(A2MC02RC1) Заданная координата штока РБ1 от ИС
+#define fEM_A2MC02RC1	 BUFFER[1565]	//(A2MC02RC1) Заданная координата штока РБ1 от ИС
 #define idfEM_A2MC02RC1	 452	//(A2MC02RC1) Заданная координата штока РБ1 от ИС
-#define fEM_A2MV02RC1	 BUFFER[1569]	//(A2MV02RC1) Заданная скорость движения штока РБ1 от ИС
+#define fEM_A2MV02RC1	 BUFFER[1570]	//(A2MV02RC1) Заданная скорость движения штока РБ1 от ИС
 #define idfEM_A2MV02RC1	 453	//(A2MV02RC1) Заданная скорость движения штока РБ1 от ИС
-#define iEM_TERIS2	 BUFFER[1574]	//(TERIS2) Неисправности  ИС2
+#define iEM_TERIS2	 BUFFER[1575]	//(TERIS2) Неисправности  ИС2
 #define idiEM_TERIS2	 454	//(TERIS2) Неисправности  ИС2
-#define fEM_B3MC02RC1	 BUFFER[1577]	//(B3MC02RC1) Заданная координата штока ИС2 от ИС
+#define fEM_B3MC02RC1	 BUFFER[1578]	//(B3MC02RC1) Заданная координата штока ИС2 от ИС
 #define idfEM_B3MC02RC1	 455	//(B3MC02RC1) Заданная координата штока ИС2 от ИС
-#define fEM_B3MV02RC1	 BUFFER[1582]	//(B3MV02RC1) Заданная скорость движения штока ИС2 от ИС
+#define fEM_B3MV02RC1	 BUFFER[1583]	//(B3MV02RC1) Заданная скорость движения штока ИС2 от ИС
 #define idfEM_B3MV02RC1	 456	//(B3MV02RC1) Заданная скорость движения штока ИС2 от ИС
-#define iEM_TERIS1	 BUFFER[1587]	//(TERIS1) Неисправности  ИС1
+#define iEM_TERIS1	 BUFFER[1588]	//(TERIS1) Неисправности  ИС1
 #define idiEM_TERIS1	 457	//(TERIS1) Неисправности  ИС1
-#define fEM_A3MC02RC1	 BUFFER[1590]	//(A3MC02RC1) Заданная координата штока ИС1 от ИС
+#define fEM_A3MC02RC1	 BUFFER[1591]	//(A3MC02RC1) Заданная координата штока ИС1 от ИС
 #define idfEM_A3MC02RC1	 458	//(A3MC02RC1) Заданная координата штока ИС1 от ИС
-#define fEM_A3MV02RC1	 BUFFER[1595]	//(A3MV02RC1) Заданная скорость движения штока ИС1 от ИС
+#define fEM_A3MV02RC1	 BUFFER[1596]	//(A3MV02RC1) Заданная скорость движения штока ИС1 от ИС
 #define idfEM_A3MV02RC1	 459	//(A3MV02RC1) Заданная скорость движения штока ИС1 от ИС
-#define iEM_TERA1IE04LDU	 BUFFER[1600]	//(TERA1IE04LDU) Искажение Движение ББ1 назад (от БУШД)
+#define iEM_TERA1IE04LDU	 BUFFER[1601]	//(TERA1IE04LDU) Искажение Движение ББ1 назад (от БУШД)
 #define idiEM_TERA1IE04LDU	 460	//(TERA1IE04LDU) Искажение Движение ББ1 назад (от БУШД)
-#define iEM_TERA1IE03LDU	 BUFFER[1603]	//(TERA1IE03LDU) Искажение Движение ББ1 вперёд (от БУШД)
+#define iEM_TERA1IE03LDU	 BUFFER[1604]	//(TERA1IE03LDU) Искажение Движение ББ1 вперёд (от БУШД)
 #define idiEM_TERA1IE03LDU	 461	//(TERA1IE03LDU) Искажение Движение ББ1 вперёд (от БУШД)
-#define fEM_A1MC01RC1	 BUFFER[1606]	//(A1MC01RC1) Заданная координата  ББ1 от ИС
+#define fEM_A1MC01RC1	 BUFFER[1607]	//(A1MC01RC1) Заданная координата  ББ1 от ИС
 #define idfEM_A1MC01RC1	 462	//(A1MC01RC1) Заданная координата  ББ1 от ИС
-#define iEM_TERB1IE03LDU	 BUFFER[1611]	//(TERB1IE03LDU) Искажение Движение ББ2 вперёд (от БУШД)
+#define iEM_TERB1IE03LDU	 BUFFER[1612]	//(TERB1IE03LDU) Искажение Движение ББ2 вперёд (от БУШД)
 #define idiEM_TERB1IE03LDU	 463	//(TERB1IE03LDU) Искажение Движение ББ2 вперёд (от БУШД)
-#define iEM_TERB1IE04LDU	 BUFFER[1614]	//(TERB1IE04LDU) Искажение Движение ББ2 назад (от БУШД)
+#define iEM_TERB1IE04LDU	 BUFFER[1615]	//(TERB1IE04LDU) Искажение Движение ББ2 назад (от БУШД)
 #define idiEM_TERB1IE04LDU	 464	//(TERB1IE04LDU) Искажение Движение ББ2 назад (от БУШД)
-#define fEM_B1MC01RC1	 BUFFER[1617]	//(B1MC01RC1) Заданная координата ББ2 от ИС
+#define fEM_B1MC01RC1	 BUFFER[1618]	//(B1MC01RC1) Заданная координата ББ2 от ИС
 #define idfEM_B1MC01RC1	 465	//(B1MC01RC1) Заданная координата ББ2 от ИС
-#define fEM_B1MV01RC1	 BUFFER[1622]	//(B1MV01RC1) Заданная скорость движения ББ2 от ИС
+#define fEM_B1MV01RC1	 BUFFER[1623]	//(B1MV01RC1) Заданная скорость движения ББ2 от ИС
 #define idfEM_B1MV01RC1	 466	//(B1MV01RC1) Заданная скорость движения ББ2 от ИС
-#define fEM_B2MC01RC1	 BUFFER[1627]	//(B2MC01RC1) Заданная координата РБ2 от ИС
+#define fEM_B2MC01RC1	 BUFFER[1628]	//(B2MC01RC1) Заданная координата РБ2 от ИС
 #define idfEM_B2MC01RC1	 467	//(B2MC01RC1) Заданная координата РБ2 от ИС
-#define fEM_B2MV01RC1	 BUFFER[1632]	//(B2MV01RC1) Заданная скорость движения  РБ2 от ИС
+#define fEM_B2MV01RC1	 BUFFER[1633]	//(B2MV01RC1) Заданная скорость движения  РБ2 от ИС
 #define idfEM_B2MV01RC1	 468	//(B2MV01RC1) Заданная скорость движения  РБ2 от ИС
-#define fEM_A3MC01RC1	 BUFFER[1637]	//(A3MC01RC1) Заданная координата ИС1 от ИС
+#define fEM_A3MC01RC1	 BUFFER[1638]	//(A3MC01RC1) Заданная координата ИС1 от ИС
 #define idfEM_A3MC01RC1	 469	//(A3MC01RC1) Заданная координата ИС1 от ИС
-#define fEM_A3MV01RC1	 BUFFER[1642]	//(A3MV01RC1) Заданная скорость движения ИС1 от ИС
+#define fEM_A3MV01RC1	 BUFFER[1643]	//(A3MV01RC1) Заданная скорость движения ИС1 от ИС
 #define idfEM_A3MV01RC1	 470	//(A3MV01RC1) Заданная скорость движения ИС1 от ИС
-#define fEM_B3MC01RC1	 BUFFER[1647]	//(B3MC01RC1) Заданная координата ИС2 от ИС
+#define fEM_B3MC01RC1	 BUFFER[1648]	//(B3MC01RC1) Заданная координата ИС2 от ИС
 #define idfEM_B3MC01RC1	 471	//(B3MC01RC1) Заданная координата ИС2 от ИС
-#define fEM_B3MV01RC1	 BUFFER[1652]	//(B3MV01RC1) Заданная скорость движения ИС2 от ИС
+#define fEM_B3MV01RC1	 BUFFER[1653]	//(B3MV01RC1) Заданная скорость движения ИС2 от ИС
 #define idfEM_B3MV01RC1	 472	//(B3MV01RC1) Заданная скорость движения ИС2 от ИС
-#define iEM_TERA2SS21LIM	 BUFFER[1657]	//(TERA2SS21LIM) Искажение: Приход на НУ РБ1
+#define iEM_TERA2SS21LIM	 BUFFER[1658]	//(TERA2SS21LIM) Искажение: Приход на НУ РБ1
 #define idiEM_TERA2SS21LIM	 473	//(TERA2SS21LIM) Искажение: Приход на НУ РБ1
-#define iEM_TERA2SS12LIM	 BUFFER[1660]	//(TERA2SS12LIM) Искажение: Магнит РБ1 зацеплен
+#define iEM_TERA2SS12LIM	 BUFFER[1661]	//(TERA2SS12LIM) Искажение: Магнит РБ1 зацеплен
 #define idiEM_TERA2SS12LIM	 474	//(TERA2SS12LIM) Искажение: Магнит РБ1 зацеплен
-#define iEM_TERR6SS21LIM	 BUFFER[1663]	//(TERR6SS21LIM) Искажение: Кран-балка в нерабочем положении
+#define iEM_TERR6SS21LIM	 BUFFER[1664]	//(TERR6SS21LIM) Искажение: Кран-балка в нерабочем положении
 #define idiEM_TERR6SS21LIM	 475	//(TERR6SS21LIM) Искажение: Кран-балка в нерабочем положении
-#define iEM_TERA2VP82LIM	 BUFFER[1666]	//(TERA2VP82LIM) Искажение: Текущее давление на подъём РБ  в норме
+#define iEM_TERA2VP82LIM	 BUFFER[1667]	//(TERA2VP82LIM) Искажение: Текущее давление на подъём РБ  в норме
 #define idiEM_TERA2VP82LIM	 476	//(TERA2VP82LIM) Искажение: Текущее давление на подъём РБ  в норме
-#define iEM_TERA2SS11LIM	 BUFFER[1669]	//(TERA2SS11LIM) Искажение: Приход на ВУ РБ1
+#define iEM_TERA2SS11LIM	 BUFFER[1670]	//(TERA2SS11LIM) Искажение: Приход на ВУ РБ1
 #define idiEM_TERA2SS11LIM	 477	//(TERA2SS11LIM) Искажение: Приход на ВУ РБ1
-#define iEM_TERB3SS21LIM	 BUFFER[1672]	//(TERB3SS21LIM) Искажение: Приход на НУ ИС2
+#define iEM_TERB3SS21LIM	 BUFFER[1673]	//(TERB3SS21LIM) Искажение: Приход на НУ ИС2
 #define idiEM_TERB3SS21LIM	 478	//(TERB3SS21LIM) Искажение: Приход на НУ ИС2
-#define iEM_TERA0MT01RIM	 BUFFER[1675]	//(TERA0MT01RIM) Искажение: Текущая температура AЗ1
+#define iEM_TERA0MT01RIM	 BUFFER[1676]	//(TERA0MT01RIM) Искажение: Текущая температура AЗ1
 #define idiEM_TERA0MT01RIM	 479	//(TERA0MT01RIM) Искажение: Текущая температура AЗ1
-#define iEM_TERB0MT01RIM	 BUFFER[1678]	//(TERB0MT01RIM) Искажение: Текущая температура AЗ2
+#define iEM_TERB0MT01RIM	 BUFFER[1679]	//(TERB0MT01RIM) Искажение: Текущая температура AЗ2
 #define idiEM_TERB0MT01RIM	 480	//(TERB0MT01RIM) Искажение: Текущая температура AЗ2
-#define iEM_TERA2SP01RIM	 BUFFER[1681]	//(TERA2SP01RIM) Искажение: Текущее давление СБРОС РБ1
+#define iEM_TERA2SP01RIM	 BUFFER[1682]	//(TERA2SP01RIM) Искажение: Текущее давление СБРОС РБ1
 #define idiEM_TERA2SP01RIM	 481	//(TERA2SP01RIM) Искажение: Текущее давление СБРОС РБ1
-#define iEM_TERB2SP01RIM	 BUFFER[1684]	//(TERB2SP01RIM) Искажение: Текущее давление СБРОС РБ2
+#define iEM_TERB2SP01RIM	 BUFFER[1685]	//(TERB2SP01RIM) Искажение: Текущее давление СБРОС РБ2
 #define idiEM_TERB2SP01RIM	 482	//(TERB2SP01RIM) Искажение: Текущее давление СБРОС РБ2
-#define iEM_TERB3SP02RIM	 BUFFER[1687]	//(TERB3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2
+#define iEM_TERB3SP02RIM	 BUFFER[1688]	//(TERB3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2
 #define idiEM_TERB3SP02RIM	 483	//(TERB3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2
-#define iEM_TERA3SC01RIM	 BUFFER[1690]	//(TERA3SC01RIM) Искажение: Координата штока ИС1
+#define iEM_TERA3SC01RIM	 BUFFER[1691]	//(TERA3SC01RIM) Искажение: Координата штока ИС1
 #define idiEM_TERA3SC01RIM	 484	//(TERA3SC01RIM) Искажение: Координата штока ИС1
-#define iEM_TERA3VP81LIM	 BUFFER[1693]	//(TERA3VP81LIM) Искажение: Текущее давление СПУСК ИС  в норме
+#define iEM_TERA3VP81LIM	 BUFFER[1694]	//(TERA3VP81LIM) Искажение: Текущее давление СПУСК ИС  в норме
 #define idiEM_TERA3VP81LIM	 485	//(TERA3VP81LIM) Искажение: Текущее давление СПУСК ИС  в норме
-#define iEM_TERA2SC01RIM	 BUFFER[1696]	//(TERA2SC01RIM) Искажение: Координата штока РБ1
+#define iEM_TERA2SC01RIM	 BUFFER[1697]	//(TERA2SC01RIM) Искажение: Координата штока РБ1
 #define idiEM_TERA2SC01RIM	 486	//(TERA2SC01RIM) Искажение: Координата штока РБ1
-#define iEM_TERA2SS33LIM	 BUFFER[1699]	//(TERA2SS33LIM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)
+#define iEM_TERA2SS33LIM	 BUFFER[1700]	//(TERA2SS33LIM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)
 #define idiEM_TERA2SS33LIM	 487	//(TERA2SS33LIM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)
-#define iEM_TERA3SS21LIM	 BUFFER[1702]	//(TERA3SS21LIM) Искажение: Приход на НУ ИС1
+#define iEM_TERA3SS21LIM	 BUFFER[1703]	//(TERA3SS21LIM) Искажение: Приход на НУ ИС1
 #define idiEM_TERA3SS21LIM	 488	//(TERA3SS21LIM) Искажение: Приход на НУ ИС1
-#define iEM_TERA3SS33LIM	 BUFFER[1705]	//(TERA3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)
+#define iEM_TERA3SS33LIM	 BUFFER[1706]	//(TERA3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)
 #define idiEM_TERA3SS33LIM	 489	//(TERA3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)
-#define iEM_TERA3SS31LIM	 BUFFER[1708]	//(TERA3SS31LIM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)
+#define iEM_TERA3SS31LIM	 BUFFER[1709]	//(TERA3SS31LIM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)
 #define idiEM_TERA3SS31LIM	 490	//(TERA3SS31LIM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)
-#define iEM_TERB3SS31LIM	 BUFFER[1711]	//(TERB3SS31LIM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)
+#define iEM_TERB3SS31LIM	 BUFFER[1712]	//(TERB3SS31LIM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)
 #define idiEM_TERB3SS31LIM	 491	//(TERB3SS31LIM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)
-#define iEM_TERB3SS33LIM	 BUFFER[1714]	//(TERB3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+#define iEM_TERB3SS33LIM	 BUFFER[1715]	//(TERB3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 #define idiEM_TERB3SS33LIM	 492	//(TERB3SS33LIM) Искажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-#define iEM_TERB3SC01RIM	 BUFFER[1717]	//(TERB3SC01RIM) Искажение: Координата штока ИС2
+#define iEM_TERB3SC01RIM	 BUFFER[1718]	//(TERB3SC01RIM) Искажение: Координата штока ИС2
 #define idiEM_TERB3SC01RIM	 493	//(TERB3SC01RIM) Искажение: Координата штока ИС2
-#define iEM_TERA3SS11LIM	 BUFFER[1720]	//(TERA3SS11LIM) Искажение: Приход на ВУ ИС1
+#define iEM_TERA3SS11LIM	 BUFFER[1721]	//(TERA3SS11LIM) Искажение: Приход на ВУ ИС1
 #define idiEM_TERA3SS11LIM	 494	//(TERA3SS11LIM) Искажение: Приход на ВУ ИС1
-#define iEM_TERB3SS11LIM	 BUFFER[1723]	//(TERB3SS11LIM) Искажение: Приход на ВУ ИС2
+#define iEM_TERB3SS11LIM	 BUFFER[1724]	//(TERB3SS11LIM) Искажение: Приход на ВУ ИС2
 #define idiEM_TERB3SS11LIM	 495	//(TERB3SS11LIM) Искажение: Приход на ВУ ИС2
-#define iEM_TERR6IS64LIM	 BUFFER[1726]	//(TERR6IS64LIM) Искажение: Исправность ВИП ССДИ-35
+#define iEM_TERR6IS64LIM	 BUFFER[1727]	//(TERR6IS64LIM) Искажение: Исправность ВИП ССДИ-35
 #define idiEM_TERR6IS64LIM	 496	//(TERR6IS64LIM) Искажение: Исправность ВИП ССДИ-35
-#define iEM_TERB3SS22LIM	 BUFFER[1729]	//(TERB3SS22LIM) Искажение: Приход на НУП ИС2
+#define iEM_TERB3SS22LIM	 BUFFER[1730]	//(TERB3SS22LIM) Искажение: Приход на НУП ИС2
 #define idiEM_TERB3SS22LIM	 497	//(TERB3SS22LIM) Искажение: Приход на НУП ИС2
-#define iEM_TERA3SS22LIM	 BUFFER[1732]	//(TERA3SS22LIM) Искажение: Приход на НУП ИС1
+#define iEM_TERA3SS22LIM	 BUFFER[1733]	//(TERA3SS22LIM) Искажение: Приход на НУП ИС1
 #define idiEM_TERA3SS22LIM	 498	//(TERA3SS22LIM) Искажение: Приход на НУП ИС1
-#define iEM_TERA3SP02RIM	 BUFFER[1735]	//(TERA3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1
+#define iEM_TERA3SP02RIM	 BUFFER[1736]	//(TERA3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1
 #define idiEM_TERA3SP02RIM	 499	//(TERA3SP02RIM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1
-#define iEM_TERR6IS62LIM	 BUFFER[1738]	//(TERR6IS62LIM) Искажение Исправность ВИП ССДИ-39
+#define iEM_TERR6IS62LIM	 BUFFER[1739]	//(TERR6IS62LIM) Искажение Исправность ВИП ССДИ-39
 #define idiEM_TERR6IS62LIM	 500	//(TERR6IS62LIM) Искажение Исправность ВИП ССДИ-39
-#define iEM_TERR6IS66LIM	 BUFFER[1741]	//(TERR6IS66LIM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define iEM_TERR6IS66LIM	 BUFFER[1742]	//(TERR6IS66LIM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1
 #define idiEM_TERR6IS66LIM	 501	//(TERR6IS66LIM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define iEM_TERR6IS67LIM	 BUFFER[1744]	//(TERR6IS67LIM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define iEM_TERR6IS67LIM	 BUFFER[1745]	//(TERR6IS67LIM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2
 #define idiEM_TERR6IS67LIM	 502	//(TERR6IS67LIM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define iEM_TERA0VP81LIM	 BUFFER[1747]	//(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме
+#define iEM_TERA0VP81LIM	 BUFFER[1748]	//(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме
 #define idiEM_TERA0VP81LIM	 503	//(TERA0VP81LIM) Искажение: Давление  АЗ1  в норме
-#define iEM_TERB0VP81LIM	 BUFFER[1750]	//(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме
+#define iEM_TERB0VP81LIM	 BUFFER[1751]	//(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме
 #define idiEM_TERB0VP81LIM	 504	//(TERB0VP81LIM) Искажение: Давление  АЗ2 в норме
-#define iEM_TERR0VP81LIM	 BUFFER[1753]	//(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ-1 в норме
+#define iEM_TERR0VP81LIM	 BUFFER[1754]	//(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ-1 в норме
 #define idiEM_TERR0VP81LIM	 505	//(TERR0VP81LIM) Искажение: Давление  в СИСТЕМЕ-1 в норме
-#define iEM_TERR6IS68LIM	 BUFFER[1756]	//(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2
+#define iEM_TERR6IS68LIM	 BUFFER[1757]	//(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2
 #define idiEM_TERR6IS68LIM	 506	//(TERR6IS68LIM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2
-#define iEM_TERR7SI74RIM	 BUFFER[1759]	//(TERR7SI74RIM) Искажение: Радиация в реакторном зале
+#define iEM_TERR7SI74RIM	 BUFFER[1760]	//(TERR7SI74RIM) Искажение: Радиация в реакторном зале
 #define idiEM_TERR7SI74RIM	 507	//(TERR7SI74RIM) Искажение: Радиация в реакторном зале
-#define iEM_TERA5SS21LIM	 BUFFER[1762]	//(TERA5SS21LIM) Искажение: Приход на НУ НЛ1
+#define iEM_TERA5SS21LIM	 BUFFER[1763]	//(TERA5SS21LIM) Искажение: Приход на НУ НЛ1
 #define idiEM_TERA5SS21LIM	 508	//(TERA5SS21LIM) Искажение: Приход на НУ НЛ1
-#define iEM_TERB5SS11LIM	 BUFFER[1765]	//(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2
+#define iEM_TERB5SS11LIM	 BUFFER[1766]	//(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2
 #define idiEM_TERB5SS11LIM	 509	//(TERB5SS11LIM) Искажение: Приход на ВУ НЛ2
-#define iEM_TERA5SS11LIM	 BUFFER[1768]	//(TERA5SS11LIM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА
+#define iEM_TERA5SS11LIM	 BUFFER[1769]	//(TERA5SS11LIM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА
 #define idiEM_TERA5SS11LIM	 510	//(TERA5SS11LIM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА
-#define iEM_TERA9SS11LIM	 BUFFER[1771]	//(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1
+#define iEM_TERA9SS11LIM	 BUFFER[1772]	//(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1
 #define idiEM_TERA9SS11LIM	 511	//(TERA9SS11LIM) Искажение: Приход на ВУ НИ ДС1
-#define iEM_TERB2SS11LIM	 BUFFER[1774]	//(TERB2SS11LIM) Искажение: Приход на ВУ РБ2
+#define iEM_TERB2SS11LIM	 BUFFER[1775]	//(TERB2SS11LIM) Искажение: Приход на ВУ РБ2
 #define idiEM_TERB2SS11LIM	 512	//(TERB2SS11LIM) Искажение: Приход на ВУ РБ2
-#define iEM_TERB2SS12LIM	 BUFFER[1777]	//(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен
+#define iEM_TERB2SS12LIM	 BUFFER[1778]	//(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен
 #define idiEM_TERB2SS12LIM	 513	//(TERB2SS12LIM) Искажение: Магнит РБ2 зацеплен
-#define iEM_TERB2SS21LIM	 BUFFER[1780]	//(TERB2SS21LIM) Искажение: Приход на НУ РБ2
+#define iEM_TERB2SS21LIM	 BUFFER[1781]	//(TERB2SS21LIM) Искажение: Приход на НУ РБ2
 #define idiEM_TERB2SS21LIM	 514	//(TERB2SS21LIM) Искажение: Приход на НУ РБ2
-#define iEM_TERR3SS11LIM	 BUFFER[1783]	//(TERR3SS11LIM) Искажение: Приход на ВУ гомогенных дверей-1
+#define iEM_TERR3SS11LIM	 BUFFER[1784]	//(TERR3SS11LIM) Искажение: Приход на ВУ гомогенных дверей-1
 #define idiEM_TERR3SS11LIM	 515	//(TERR3SS11LIM) Искажение: Приход на ВУ гомогенных дверей-1
-#define iEM_TERB2SC01RIM	 BUFFER[1786]	//(TERB2SC01RIM) Искажение: Координата штока РБ2
+#define iEM_TERB2SC01RIM	 BUFFER[1787]	//(TERB2SC01RIM) Искажение: Координата штока РБ2
 #define idiEM_TERB2SC01RIM	 516	//(TERB2SC01RIM) Искажение: Координата штока РБ2
-#define iEM_TERR3SS21LIM	 BUFFER[1789]	//(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1
+#define iEM_TERR3SS21LIM	 BUFFER[1790]	//(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1
 #define idiEM_TERR3SS21LIM	 517	//(TERR3SS21LIM) Искажение: Приход на НУ гомогенных дверей-1
-#define iEM_TERR5SS11LIM	 BUFFER[1792]	//(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны
+#define iEM_TERR5SS11LIM	 BUFFER[1793]	//(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны
 #define idiEM_TERR5SS11LIM	 518	//(TERR5SS11LIM) Искажение: Приход на ВУ ворот отстойной зоны
-#define iEM_TERA4SS11LIM	 BUFFER[1795]	//(TERA4SS11LIM) Искажение: Приход на ВУ НИ1
+#define iEM_TERA4SS11LIM	 BUFFER[1796]	//(TERA4SS11LIM) Искажение: Приход на ВУ НИ1
 #define idiEM_TERA4SS11LIM	 519	//(TERA4SS11LIM) Искажение: Приход на ВУ НИ1
-#define iEM_TERR1SS11LIM	 BUFFER[1798]	//(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1
+#define iEM_TERR1SS11LIM	 BUFFER[1799]	//(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1
 #define idiEM_TERR1SS11LIM	 520	//(TERR1SS11LIM) Искажение: Приход на ВУ МДЗ1
-#define iEM_TERR1SS21LIM	 BUFFER[1801]	//(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1
+#define iEM_TERR1SS21LIM	 BUFFER[1802]	//(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1
 #define idiEM_TERR1SS21LIM	 521	//(TERR1SS21LIM) Искажение: Приход на НУ МДЗ1
-#define iEM_TERR2SS11LIM	 BUFFER[1804]	//(TERR2SS11LIM) Искажение: Приход на ВУ МДЗ2
+#define iEM_TERR2SS11LIM	 BUFFER[1805]	//(TERR2SS11LIM) Искажение: Приход на ВУ МДЗ2
 #define idiEM_TERR2SS11LIM	 522	//(TERR2SS11LIM) Искажение: Приход на ВУ МДЗ2
-#define iEM_TERR2SS21LIM	 BUFFER[1807]	//(TERR2SS21LIM) Искажение: Приход на НУ МДЗ2
+#define iEM_TERR2SS21LIM	 BUFFER[1808]	//(TERR2SS21LIM) Искажение: Приход на НУ МДЗ2
 #define idiEM_TERR2SS21LIM	 523	//(TERR2SS21LIM) Искажение: Приход на НУ МДЗ2
-#define iEM_TERA4VP82LIM	 BUFFER[1810]	//(TERA4VP82LIM) Искажение Давление ПОДЪЁМ НИ в норме
+#define iEM_TERA4VP82LIM	 BUFFER[1811]	//(TERA4VP82LIM) Искажение Давление ПОДЪЁМ НИ в норме
 #define idiEM_TERA4VP82LIM	 524	//(TERA4VP82LIM) Искажение Давление ПОДЪЁМ НИ в норме
-#define iEM_TERB4SS21LIM	 BUFFER[1813]	//(TERB4SS21LIM) Искажение: Приход на НУ НИ2
+#define iEM_TERB4SS21LIM	 BUFFER[1814]	//(TERB4SS21LIM) Искажение: Приход на НУ НИ2
 #define idiEM_TERB4SS21LIM	 525	//(TERB4SS21LIM) Искажение: Приход на НУ НИ2
-#define iEM_TERR5SS21LIM	 BUFFER[1816]	//(TERR5SS21LIM) Искажение: Приход на НУ ворот отстойной зоны
+#define iEM_TERR5SS21LIM	 BUFFER[1817]	//(TERR5SS21LIM) Искажение: Приход на НУ ворот отстойной зоны
 #define idiEM_TERR5SS21LIM	 526	//(TERR5SS21LIM) Искажение: Приход на НУ ворот отстойной зоны
-#define iEM_TERB6SS21LIM	 BUFFER[1819]	//(TERB6SS21LIM) Искажение: Приход на НУ БЗ2
+#define iEM_TERB6SS21LIM	 BUFFER[1820]	//(TERB6SS21LIM) Искажение: Приход на НУ БЗ2
 #define idiEM_TERB6SS21LIM	 527	//(TERB6SS21LIM) Искажение: Приход на НУ БЗ2
-#define iEM_TERB4SS11LIM	 BUFFER[1822]	//(TERB4SS11LIM) Искажение: Приход на ВУ НИ2
+#define iEM_TERB4SS11LIM	 BUFFER[1823]	//(TERB4SS11LIM) Искажение: Приход на ВУ НИ2
 #define idiEM_TERB4SS11LIM	 528	//(TERB4SS11LIM) Искажение: Приход на ВУ НИ2
-#define iEM_TERA4SS21LIM	 BUFFER[1825]	//(TERA4SS21LIM) Искажение: Приход на НУ НИ1
+#define iEM_TERA4SS21LIM	 BUFFER[1826]	//(TERA4SS21LIM) Искажение: Приход на НУ НИ1
 #define idiEM_TERA4SS21LIM	 529	//(TERA4SS21LIM) Искажение: Приход на НУ НИ1
-#define iEM_TERA6MS11LIM	 BUFFER[1828]	//(TERA6MS11LIM) Искажение: Приход на ВУ БЗ1
+#define iEM_TERA6MS11LIM	 BUFFER[1829]	//(TERA6MS11LIM) Искажение: Приход на ВУ БЗ1
 #define idiEM_TERA6MS11LIM	 530	//(TERA6MS11LIM) Искажение: Приход на ВУ БЗ1
-#define iEM_TERA6SS21LIM	 BUFFER[1831]	//(TERA6SS21LIM) Искажение: Приход на НУ БЗ1
+#define iEM_TERA6SS21LIM	 BUFFER[1832]	//(TERA6SS21LIM) Искажение: Приход на НУ БЗ1
 #define idiEM_TERA6SS21LIM	 531	//(TERA6SS21LIM) Искажение: Приход на НУ БЗ1
-#define iEM_TERB6SS11LIM	 BUFFER[1834]	//(TERB6SS11LIM) Искажение: Приход на ВУ БЗ2
+#define iEM_TERB6SS11LIM	 BUFFER[1835]	//(TERB6SS11LIM) Искажение: Приход на ВУ БЗ2
 #define idiEM_TERB6SS11LIM	 532	//(TERB6SS11LIM) Искажение: Приход на ВУ БЗ2
-#define iEM_TERR4SS11LIM	 BUFFER[1837]	//(TERR4SS11LIM) Искажение: Приход на ВУ тележки
+#define iEM_TERR4SS11LIM	 BUFFER[1838]	//(TERR4SS11LIM) Искажение: Приход на ВУ тележки
 #define idiEM_TERR4SS11LIM	 533	//(TERR4SS11LIM) Искажение: Приход на ВУ тележки
-#define iEM_TERR4MS21LIM	 BUFFER[1840]	//(TERR4MS21LIM) Искажение: Приход на НУ тележки
+#define iEM_TERR4MS21LIM	 BUFFER[1841]	//(TERR4MS21LIM) Искажение: Приход на НУ тележки
 #define idiEM_TERR4MS21LIM	 534	//(TERR4MS21LIM) Искажение: Приход на НУ тележки
-#define iEM_TERR4SS12LIM	 BUFFER[1843]	//(TERR4SS12LIM) Искажение: Приход на механический ВУ тележки
+#define iEM_TERR4SS12LIM	 BUFFER[1844]	//(TERR4SS12LIM) Искажение: Приход на механический ВУ тележки
 #define idiEM_TERR4SS12LIM	 535	//(TERR4SS12LIM) Искажение: Приход на механический ВУ тележки
-#define iEM_TERR4SS22LIM	 BUFFER[1846]	//(TERR4SS22LIM) Искажение: Приход на механический НУ тележки
+#define iEM_TERR4SS22LIM	 BUFFER[1847]	//(TERR4SS22LIM) Искажение: Приход на механический НУ тележки
 #define idiEM_TERR4SS22LIM	 536	//(TERR4SS22LIM) Искажение: Приход на механический НУ тележки
-#define iEM_TERR8SS11LIM	 BUFFER[1849]	//(TERR8SS11LIM) Искажение: Аварийный НИ установлен
+#define iEM_TERR8SS11LIM	 BUFFER[1850]	//(TERR8SS11LIM) Искажение: Аварийный НИ установлен
 #define idiEM_TERR8SS11LIM	 537	//(TERR8SS11LIM) Искажение: Аварийный НИ установлен
-#define iEM_TERB8SC01RIM	 BUFFER[1852]	//(TERB8SC01RIM) Искажение: Координата АЗ2
+#define iEM_TERB8SC01RIM	 BUFFER[1853]	//(TERB8SC01RIM) Искажение: Координата АЗ2
 #define idiEM_TERB8SC01RIM	 538	//(TERB8SC01RIM) Искажение: Координата АЗ2
-#define iEM_TERA8SC01RIM	 BUFFER[1855]	//(TERA8SC01RIM) Искажение: Координата ДС2
+#define iEM_TERA8SC01RIM	 BUFFER[1856]	//(TERA8SC01RIM) Искажение: Координата ДС2
 #define idiEM_TERA8SC01RIM	 539	//(TERA8SC01RIM) Искажение: Координата ДС2
-#define iEM_TERB8SS12LIM	 BUFFER[1858]	//(TERB8SS12LIM) Искажение: Приход на механический ВУ АЗ2
+#define iEM_TERB8SS12LIM	 BUFFER[1859]	//(TERB8SS12LIM) Искажение: Приход на механический ВУ АЗ2
 #define idiEM_TERB8SS12LIM	 540	//(TERB8SS12LIM) Искажение: Приход на механический ВУ АЗ2
-#define iEM_TERA8SS12LIM	 BUFFER[1861]	//(TERA8SS12LIM) Искажение: Приход на механический ВУ ДС2
+#define iEM_TERA8SS12LIM	 BUFFER[1862]	//(TERA8SS12LIM) Искажение: Приход на механический ВУ ДС2
 #define idiEM_TERA8SS12LIM	 541	//(TERA8SS12LIM) Искажение: Приход на механический ВУ ДС2
-#define iEM_TERB8SS22LIM	 BUFFER[1864]	//(TERB8SS22LIM) Искажение: Приход на механический НУ АЗ2
+#define iEM_TERB8SS22LIM	 BUFFER[1865]	//(TERB8SS22LIM) Искажение: Приход на механический НУ АЗ2
 #define idiEM_TERB8SS22LIM	 542	//(TERB8SS22LIM) Искажение: Приход на механический НУ АЗ2
-#define iEM_TERA8SS22LIM	 BUFFER[1867]	//(TERA8SS22LIM) Искажение: Приход на механический НУ ДС2
+#define iEM_TERA8SS22LIM	 BUFFER[1868]	//(TERA8SS22LIM) Искажение: Приход на механический НУ ДС2
 #define idiEM_TERA8SS22LIM	 543	//(TERA8SS22LIM) Искажение: Приход на механический НУ ДС2
-#define iEM_TERA9SS21LIM	 BUFFER[1870]	//(TERA9SS21LIM) Искажение: Приход на НУ НИ ДС1
+#define iEM_TERA9SS21LIM	 BUFFER[1871]	//(TERA9SS21LIM) Искажение: Приход на НУ НИ ДС1
 #define idiEM_TERA9SS21LIM	 544	//(TERA9SS21LIM) Искажение: Приход на НУ НИ ДС1
-#define iEM_TERB9SS21LIM	 BUFFER[1873]	//(TERB9SS21LIM) Искажение: Приход на НУ НИ ДС2
+#define iEM_TERB9SS21LIM	 BUFFER[1874]	//(TERB9SS21LIM) Искажение: Приход на НУ НИ ДС2
 #define idiEM_TERB9SS21LIM	 545	//(TERB9SS21LIM) Искажение: Приход на НУ НИ ДС2
-#define iEM_TERB9SS11LIM	 BUFFER[1876]	//(TERB9SS11LIM) Искажение: Приход на ВУ НИ ДС2
+#define iEM_TERB9SS11LIM	 BUFFER[1877]	//(TERB9SS11LIM) Искажение: Приход на ВУ НИ ДС2
 #define idiEM_TERB9SS11LIM	 546	//(TERB9SS11LIM) Искажение: Приход на ВУ НИ ДС2
-#define iEM_TERB5SS21LIM	 BUFFER[1879]	//(TERB5SS21LIM) Искажение: Приход на НУ НЛ2
+#define iEM_TERB5SS21LIM	 BUFFER[1880]	//(TERB5SS21LIM) Искажение: Приход на НУ НЛ2
 #define idiEM_TERB5SS21LIM	 547	//(TERB5SS21LIM) Искажение: Приход на НУ НЛ2
-#define iEM_TERA1SS21LIM	 BUFFER[1882]	//(TERA1SS21LIM) Искажение: Приход на НУ ББ1
+#define iEM_TERA1SS21LIM	 BUFFER[1883]	//(TERA1SS21LIM) Искажение: Приход на НУ ББ1
 #define idiEM_TERA1SS21LIM	 548	//(TERA1SS21LIM) Искажение: Приход на НУ ББ1
-#define iEM_TERA1SS11LIM	 BUFFER[1885]	//(TERA1SS11LIM) Искажение: Приход на ВУ ББ1
+#define iEM_TERA1SS11LIM	 BUFFER[1886]	//(TERA1SS11LIM) Искажение: Приход на ВУ ББ1
 #define idiEM_TERA1SS11LIM	 549	//(TERA1SS11LIM) Искажение: Приход на ВУ ББ1
-#define iEM_TERA1SC01RIM	 BUFFER[1888]	//(TERA1SC01RIM) Искажение: Координата штока ББ1
+#define iEM_TERA1SC01RIM	 BUFFER[1889]	//(TERA1SC01RIM) Искажение: Координата штока ББ1
 #define idiEM_TERA1SC01RIM	 550	//(TERA1SC01RIM) Искажение: Координата штока ББ1
-#define iEM_TERA1SS12LIM	 BUFFER[1891]	//(TERA1SS12LIM) Искажение: Магнит ББ1 зацеплен
+#define iEM_TERA1SS12LIM	 BUFFER[1892]	//(TERA1SS12LIM) Искажение: Магнит ББ1 зацеплен
 #define idiEM_TERA1SS12LIM	 551	//(TERA1SS12LIM) Искажение: Магнит ББ1 зацеплен
-#define iEM_TERB1SS21LIM	 BUFFER[1894]	//(TERB1SS21LIM) Искажение: Приход на НУ ББ2
+#define iEM_TERB1SS21LIM	 BUFFER[1895]	//(TERB1SS21LIM) Искажение: Приход на НУ ББ2
 #define idiEM_TERB1SS21LIM	 552	//(TERB1SS21LIM) Искажение: Приход на НУ ББ2
-#define iEM_TERB1SS11LIM	 BUFFER[1897]	//(TERB1SS11LIM) Искажение:Приход на ВУ ББ2
+#define iEM_TERB1SS11LIM	 BUFFER[1898]	//(TERB1SS11LIM) Искажение:Приход на ВУ ББ2
 #define idiEM_TERB1SS11LIM	 553	//(TERB1SS11LIM) Искажение:Приход на ВУ ББ2
-#define iEM_TERB1MC01RIM	 BUFFER[1900]	//(TERB1MC01RIM) Искажение: Координата штока ББ2
+#define iEM_TERB1MC01RIM	 BUFFER[1901]	//(TERB1MC01RIM) Искажение: Координата штока ББ2
 #define idiEM_TERB1MC01RIM	 554	//(TERB1MC01RIM) Искажение: Координата штока ББ2
-#define iEM_TERB1SS12LIM	 BUFFER[1903]	//(TERB1SS12LIM) Искажение: Магнит ББ2 зацеплен
+#define iEM_TERB1SS12LIM	 BUFFER[1904]	//(TERB1SS12LIM) Искажение: Магнит ББ2 зацеплен
 #define idiEM_TERB1SS12LIM	 555	//(TERB1SS12LIM) Искажение: Магнит ББ2 зацеплен
-#define iEM_TERTLG	 BUFFER[1906]	//(TERTLG) Неисправности  тележки от ИС
+#define iEM_TERTLG	 BUFFER[1907]	//(TERTLG) Неисправности  тележки от ИС
 #define idiEM_TERTLG	 556	//(TERTLG) Неисправности  тележки от ИС
-#define fEM_R4MC01RC1	 BUFFER[1909]	//(R4MC01RC1) Заданная координата тележки от ИС
+#define fEM_R4MC01RC1	 BUFFER[1910]	//(R4MC01RC1) Заданная координата тележки от ИС
 #define idfEM_R4MC01RC1	 557	//(R4MC01RC1) Заданная координата тележки от ИС
-#define fEM_R4MV01RC1	 BUFFER[1914]	//(R4MV01RC1) Заданная скорость тележки от ИС
+#define fEM_R4MV01RC1	 BUFFER[1915]	//(R4MV01RC1) Заданная скорость тележки от ИС
 #define idfEM_R4MV01RC1	 558	//(R4MV01RC1) Заданная скорость тележки от ИС
-#define iEM_TERMAZ2	 BUFFER[1919]	//(TERMAZ2) Неисправности АЗ2 от ИС
+#define iEM_TERMAZ2	 BUFFER[1920]	//(TERMAZ2) Неисправности АЗ2 от ИС
 #define idiEM_TERMAZ2	 559	//(TERMAZ2) Неисправности АЗ2 от ИС
-#define fEM_B8MC01RC1	 BUFFER[1922]	//(B8MC01RC1) аданная координата АЗ2 от ИС
+#define fEM_B8MC01RC1	 BUFFER[1923]	//(B8MC01RC1) аданная координата АЗ2 от ИС
 #define idfEM_B8MC01RC1	 560	//(B8MC01RC1) аданная координата АЗ2 от ИС
-#define fEM_B8MV01RC1	 BUFFER[1927]	//(B8MV01RC1) Заданная скорость АЗ2 от ИС
+#define fEM_B8MV01RC1	 BUFFER[1928]	//(B8MV01RC1) Заданная скорость АЗ2 от ИС
 #define idfEM_B8MV01RC1	 561	//(B8MV01RC1) Заданная скорость АЗ2 от ИС
-#define iEM_TERDS2	 BUFFER[1932]	//(TERDS2) Неисправности ДС2 от ИС
+#define iEM_TERDS2	 BUFFER[1933]	//(TERDS2) Неисправности ДС2 от ИС
 #define idiEM_TERDS2	 562	//(TERDS2) Неисправности ДС2 от ИС
-#define fEM_A8MC01RC1	 BUFFER[1935]	//(A8MC01RC1) Заданная координата ДС2 от ИС
+#define fEM_A8MC01RC1	 BUFFER[1936]	//(A8MC01RC1) Заданная координата ДС2 от ИС
 #define idfEM_A8MC01RC1	 563	//(A8MC01RC1) Заданная координата ДС2 от ИС
-#define fEM_A8MV01RC1	 BUFFER[1940]	//(A8MV01RC1) Заданная скорость ДС2 от ИС
+#define fEM_A8MV01RC1	 BUFFER[1941]	//(A8MV01RC1) Заданная скорость ДС2 от ИС
 #define idfEM_A8MV01RC1	 564	//(A8MV01RC1) Заданная скорость ДС2 от ИС
-#define iEM_TERBZ1	 BUFFER[1945]	//(TERBZ1) Неисправности БЗ1
+#define iEM_TERBZ1	 BUFFER[1946]	//(TERBZ1) Неисправности БЗ1
 #define idiEM_TERBZ1	 565	//(TERBZ1) Неисправности БЗ1
-#define fEM_A6MC01RC1	 BUFFER[1948]	//(A6MC01RC1) Заданная координата БЗ1 от ИС
+#define fEM_A6MC01RC1	 BUFFER[1949]	//(A6MC01RC1) Заданная координата БЗ1 от ИС
 #define idfEM_A6MC01RC1	 566	//(A6MC01RC1) Заданная координата БЗ1 от ИС
-#define fEM_A6MV01RC1	 BUFFER[1953]	//(A6MV01RC1) Заданная скорость БЗ1 от ИС
+#define fEM_A6MV01RC1	 BUFFER[1954]	//(A6MV01RC1) Заданная скорость БЗ1 от ИС
 #define idfEM_A6MV01RC1	 567	//(A6MV01RC1) Заданная скорость БЗ1 от ИС
-#define iEM_TERBZ2	 BUFFER[1958]	//(TERBZ2) Неисправности БЗ2
+#define iEM_TERBZ2	 BUFFER[1959]	//(TERBZ2) Неисправности БЗ2
 #define idiEM_TERBZ2	 568	//(TERBZ2) Неисправности БЗ2
-#define fEM_B6MC01RC1	 BUFFER[1961]	//(B6MC01RC1) Заданная координата БЗ2 от ИС
+#define fEM_B6MC01RC1	 BUFFER[1962]	//(B6MC01RC1) Заданная координата БЗ2 от ИС
 #define idfEM_B6MC01RC1	 569	//(B6MC01RC1) Заданная координата БЗ2 от ИС
-#define fEM_B6MV01RC1	 BUFFER[1966]	//(B6MV01RC1) Заданная скорость БЗ2 от ИС
+#define fEM_B6MV01RC1	 BUFFER[1967]	//(B6MV01RC1) Заданная скорость БЗ2 от ИС
 #define idfEM_B6MV01RC1	 570	//(B6MV01RC1) Заданная скорость БЗ2 от ИС
-#define lEM_R3AD10LC1	 BUFFER[1971]	//(R3AD10LC1) Гомогенные двери-1 открыть от ИС
+#define lEM_R3AD10LC1	 BUFFER[1972]	//(R3AD10LC1) Гомогенные двери-1 открыть от ИС
 #define idlEM_R3AD10LC1	 571	//(R3AD10LC1) Гомогенные двери-1 открыть от ИС
-#define lEM_R3AD20LC1	 BUFFER[1973]	//(R3AD20LC1) Гомогенные двери-1 закрыть от ИС
+#define lEM_R3AD20LC1	 BUFFER[1974]	//(R3AD20LC1) Гомогенные двери-1 закрыть от ИС
 #define idlEM_R3AD20LC1	 572	//(R3AD20LC1) Гомогенные двери-1 закрыть от ИС
-#define lEM_R6AD10LC1	 BUFFER[1975]	//(R6AD10LC1) Выкатить кран-балку от ИС
+#define lEM_R6AD10LC1	 BUFFER[1976]	//(R6AD10LC1) Выкатить кран-балку от ИС
 #define idlEM_R6AD10LC1	 573	//(R6AD10LC1) Выкатить кран-балку от ИС
-#define lEM_R5AD10LC1	 BUFFER[1977]	//(R5AD10LC1) Открыть ворота отстойной зоны от ИС
+#define lEM_R5AD10LC1	 BUFFER[1978]	//(R5AD10LC1) Открыть ворота отстойной зоны от ИС
 #define idlEM_R5AD10LC1	 574	//(R5AD10LC1) Открыть ворота отстойной зоны от ИС
-#define lEM_R5AD20LC1	 BUFFER[1979]	//(R5AD20LC1) Закрыть ворота отстойной зоны от ИС
+#define lEM_R5AD20LC1	 BUFFER[1980]	//(R5AD20LC1) Закрыть ворота отстойной зоны от ИС
 #define idlEM_R5AD20LC1	 575	//(R5AD20LC1) Закрыть ворота отстойной зоны от ИС
-#define iEM_TERMDZ2	 BUFFER[1981]	//(TERMDZ2) Неисправности МДЗ2
+#define iEM_TERMDZ2	 BUFFER[1982]	//(TERMDZ2) Неисправности МДЗ2
 #define idiEM_TERMDZ2	 576	//(TERMDZ2) Неисправности МДЗ2
-#define fEM_R2MC01RC1	 BUFFER[1984]	//(R2MC01RC1) Заданная координата МДЗ2 от ИС
+#define fEM_R2MC01RC1	 BUFFER[1985]	//(R2MC01RC1) Заданная координата МДЗ2 от ИС
 #define idfEM_R2MC01RC1	 577	//(R2MC01RC1) Заданная координата МДЗ2 от ИС
-#define fEM_R2MV01RC1	 BUFFER[1989]	//(R2MV01RC1) Заданная скорость МДЗ2 от ИС
+#define fEM_R2MV01RC1	 BUFFER[1990]	//(R2MV01RC1) Заданная скорость МДЗ2 от ИС
 #define idfEM_R2MV01RC1	 578	//(R2MV01RC1) Заданная скорость МДЗ2 от ИС
-#define iEM_TERMDZ1	 BUFFER[1994]	//(TERMDZ1) Неисправности МДЗ1
+#define iEM_TERMDZ1	 BUFFER[1995]	//(TERMDZ1) Неисправности МДЗ1
 #define idiEM_TERMDZ1	 579	//(TERMDZ1) Неисправности МДЗ1
-#define fEM_R1MC01RC1	 BUFFER[1997]	//(R1MC01RC1) Заданная координата МДЗ1 от ИС
+#define fEM_R1MC01RC1	 BUFFER[1998]	//(R1MC01RC1) Заданная координата МДЗ1 от ИС
 #define idfEM_R1MC01RC1	 580	//(R1MC01RC1) Заданная координата МДЗ1 от ИС
-#define fEM_R1MV01RC1	 BUFFER[2002]	//(R1MV01RC1) Заданная скорость МДЗ1 от ИС
+#define fEM_R1MV01RC1	 BUFFER[2003]	//(R1MV01RC1) Заданная скорость МДЗ1 от ИС
 #define idfEM_R1MV01RC1	 581	//(R1MV01RC1) Заданная скорость МДЗ1 от ИС
-#define iEM_TERNL1	 BUFFER[2007]	//(TERNL1) Неисправности НЛ1
+#define iEM_TERNL1	 BUFFER[2008]	//(TERNL1) Неисправности НЛ1
 #define idiEM_TERNL1	 582	//(TERNL1) Неисправности НЛ1
-#define fEM_A5MC01RC1	 BUFFER[2010]	//(A5MC01RC1) Заданная координата НЛ1 от ИС
+#define fEM_A5MC01RC1	 BUFFER[2011]	//(A5MC01RC1) Заданная координата НЛ1 от ИС
 #define idfEM_A5MC01RC1	 583	//(A5MC01RC1) Заданная координата НЛ1 от ИС
-#define fEM_A5MV01RC1	 BUFFER[2015]	//(A5MV01RC1) Заданная скорость НЛ1 от ИС
+#define fEM_A5MV01RC1	 BUFFER[2016]	//(A5MV01RC1) Заданная скорость НЛ1 от ИС
 #define idfEM_A5MV01RC1	 584	//(A5MV01RC1) Заданная скорость НЛ1 от ИС
-#define iEM_TERNL2	 BUFFER[2020]	//(TERNL2) Неисправности НЛ2
+#define iEM_TERNL2	 BUFFER[2021]	//(TERNL2) Неисправности НЛ2
 #define idiEM_TERNL2	 585	//(TERNL2) Неисправности НЛ2
-#define fEM_B5MC01RC1	 BUFFER[2023]	//(B5MC01RC1) Заданная координата НЛ2 от ИС
+#define fEM_B5MC01RC1	 BUFFER[2024]	//(B5MC01RC1) Заданная координата НЛ2 от ИС
 #define idfEM_B5MC01RC1	 586	//(B5MC01RC1) Заданная координата НЛ2 от ИС
-#define fEM_B5MV01RC1	 BUFFER[2028]	//(B5MV01RC1) Заданная скорость НЛ2 от ИС
+#define fEM_B5MV01RC1	 BUFFER[2029]	//(B5MV01RC1) Заданная скорость НЛ2 от ИС
 #define idfEM_B5MV01RC1	 587	//(B5MV01RC1) Заданная скорость НЛ2 от ИС
-#define lEM_R8AD10LC1	 BUFFER[2033]	//(R8AD10LC1) Установить аварийный НИ от ИС
+#define lEM_R8AD10LC1	 BUFFER[2034]	//(R8AD10LC1) Установить аварийный НИ от ИС
 #define idlEM_R8AD10LC1	 588	//(R8AD10LC1) Установить аварийный НИ от ИС
-#define fEM_A1UC08RIM	 BUFFER[2035]	//(A1UC08RIM) Зона срабатывания КВ ББ(мм)
+#define fEM_A1UC08RIM	 BUFFER[2036]	//(A1UC08RIM) Зона срабатывания КВ ББ(мм)
 #define idfEM_A1UC08RIM	 589	//(A1UC08RIM) Зона срабатывания КВ ББ(мм)
-#define fEM_A2UC08RIM	 BUFFER[2040]	//(A2UC08RIM) Зона срабатывания КВ  РБ мм
+#define fEM_A2UC08RIM	 BUFFER[2041]	//(A2UC08RIM) Зона срабатывания КВ  РБ мм
 #define idfEM_A2UC08RIM	 590	//(A2UC08RIM) Зона срабатывания КВ  РБ мм
-#define fEM_A3UC08RIM	 BUFFER[2045]	//(A3UC08RIM) Зона срабатывания КВ ИС(мм)
+#define fEM_A3UC08RIM	 BUFFER[2046]	//(A3UC08RIM) Зона срабатывания КВ ИС(мм)
 #define idfEM_A3UC08RIM	 591	//(A3UC08RIM) Зона срабатывания КВ ИС(мм)
-#define iEM_TERB2SS33LIM	 BUFFER[2050]	//(TERB2SS33LIM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)
+#define iEM_TERB2SS33LIM	 BUFFER[2051]	//(TERB2SS33LIM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)
 #define idiEM_TERB2SS33LIM	 592	//(TERB2SS33LIM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)
-#define iEM_TERA1VP81LIM	 BUFFER[2053]	//(TERA1VP81LIM) Искажение: Текущее давление СБРОС ББ1  в норме
+#define iEM_TERA1VP81LIM	 BUFFER[2054]	//(TERA1VP81LIM) Искажение: Текущее давление СБРОС ББ1  в норме
 #define idiEM_TERA1VP81LIM	 593	//(TERA1VP81LIM) Искажение: Текущее давление СБРОС ББ1  в норме
-#define iEM_TERB1VP81LIM	 BUFFER[2056]	//(TERB1VP81LIM) Искажение: Текущее давление СБРОС ББ2  в норме
+#define iEM_TERB1VP81LIM	 BUFFER[2057]	//(TERB1VP81LIM) Искажение: Текущее давление СБРОС ББ2  в норме
 #define idiEM_TERB1VP81LIM	 594	//(TERB1VP81LIM) Искажение: Текущее давление СБРОС ББ2  в норме
-#define fEM_A0UT03RSP	 BUFFER[2059]	//(A0UT03RSP) Стартовая  температура АЗ1 град
+#define fEM_A0UT03RSP	 BUFFER[2060]	//(A0UT03RSP) Стартовая  температура АЗ1 град
 #define idfEM_A0UT03RSP	 595	//(A0UT03RSP) Стартовая  температура АЗ1 град
-#define fEM_A0UR01RSP	 BUFFER[2064]	//(A0UR01RSP) Стартовая  реактивность АЗ1
+#define fEM_A0UR01RSP	 BUFFER[2065]	//(A0UR01RSP) Стартовая  реактивность АЗ1
 #define idfEM_A0UR01RSP	 596	//(A0UR01RSP) Стартовая  реактивность АЗ1
-#define fEM_A0UR02RSP	 BUFFER[2069]	//(A0UR02RSP) Стартовый  поток нейтронов АЗ1
+#define fEM_A0UR02RSP	 BUFFER[2070]	//(A0UR02RSP) Стартовый  поток нейтронов АЗ1
 #define idfEM_A0UR02RSP	 597	//(A0UR02RSP) Стартовый  поток нейтронов АЗ1
-#define fEM_B0UT03RSP	 BUFFER[2074]	//(B0UT03RSP) Стартовая  температура АЗ2 град
+#define fEM_B0UT03RSP	 BUFFER[2075]	//(B0UT03RSP) Стартовая  температура АЗ2 град
 #define idfEM_B0UT03RSP	 598	//(B0UT03RSP) Стартовая  температура АЗ2 град
-#define fEM_A1MC01RSP	 BUFFER[2079]	//(A1MC01RSP) Стартовая координата  ББ1
+#define fEM_A1MC01RSP	 BUFFER[2080]	//(A1MC01RSP) Стартовая координата  ББ1
 #define idfEM_A1MC01RSP	 599	//(A1MC01RSP) Стартовая координата  ББ1
-#define fEM_A1MC02RSP	 BUFFER[2084]	//(A1MC02RSP) Стартовая координата штока ББ1
+#define fEM_A1MC02RSP	 BUFFER[2085]	//(A1MC02RSP) Стартовая координата штока ББ1
 #define idfEM_A1MC02RSP	 600	//(A1MC02RSP) Стартовая координата штока ББ1
-#define fEM_A1MV01RSP	 BUFFER[2089]	//(A1MV01RSP) Стартовая скорость движения  ББ1
+#define fEM_A1MV01RSP	 BUFFER[2090]	//(A1MV01RSP) Стартовая скорость движения  ББ1
 #define idfEM_A1MV01RSP	 601	//(A1MV01RSP) Стартовая скорость движения  ББ1
-#define fEM_A1MV02RSP	 BUFFER[2094]	//(A1MV02RSP) Стартовая скорость движения  ББ1
+#define fEM_A1MV02RSP	 BUFFER[2095]	//(A1MV02RSP) Стартовая скорость движения  ББ1
 #define idfEM_A1MV02RSP	 602	//(A1MV02RSP) Стартовая скорость движения  ББ1
-#define fEM_B1MC01RSP	 BUFFER[2099]	//(B1MC01RSP) Стартовая координата  ББ2
+#define fEM_B1MC01RSP	 BUFFER[2100]	//(B1MC01RSP) Стартовая координата  ББ2
 #define idfEM_B1MC01RSP	 603	//(B1MC01RSP) Стартовая координата  ББ2
-#define fEM_B1MV01RSP	 BUFFER[2104]	//(B1MV01RSP) Стартовая скорость движения  ББ2
+#define fEM_B1MV01RSP	 BUFFER[2105]	//(B1MV01RSP) Стартовая скорость движения  ББ2
 #define idfEM_B1MV01RSP	 604	//(B1MV01RSP) Стартовая скорость движения  ББ2
-#define fEM_B1MC02RSP	 BUFFER[2109]	//(B1MC02RSP) Стартовая координата штока ББ2
+#define fEM_B1MC02RSP	 BUFFER[2110]	//(B1MC02RSP) Стартовая координата штока ББ2
 #define idfEM_B1MC02RSP	 605	//(B1MC02RSP) Стартовая координата штока ББ2
-#define fEM_B1MV02RSP	 BUFFER[2114]	//(B1MV02RSP) Стартовая скорость движения  ББ2
+#define fEM_B1MV02RSP	 BUFFER[2115]	//(B1MV02RSP) Стартовая скорость движения  ББ2
 #define idfEM_B1MV02RSP	 606	//(B1MV02RSP) Стартовая скорость движения  ББ2
-#define fEM_A2MC01RC1	 BUFFER[2119]	//(A2MC01RC1) Заданная координата РБ1 от ИС
+#define fEM_A2MC01RC1	 BUFFER[2120]	//(A2MC01RC1) Заданная координата РБ1 от ИС
 #define idfEM_A2MC01RC1	 607	//(A2MC01RC1) Заданная координата РБ1 от ИС
-#define fEM_A2MV01RC1	 BUFFER[2124]	//(A2MV01RC1) Заданная скорость движения РБ1 от ИС
+#define fEM_A2MV01RC1	 BUFFER[2125]	//(A2MV01RC1) Заданная скорость движения РБ1 от ИС
 #define idfEM_A2MV01RC1	 608	//(A2MV01RC1) Заданная скорость движения РБ1 от ИС
-#define fEM_A2MC01RSP	 BUFFER[2129]	//(A2MC01RSP) Стартовая координата  РБ1
+#define fEM_A2MC01RSP	 BUFFER[2130]	//(A2MC01RSP) Стартовая координата  РБ1
 #define idfEM_A2MC01RSP	 609	//(A2MC01RSP) Стартовая координата  РБ1
-#define fEM_A2MV01RSP	 BUFFER[2134]	//(A2MV01RSP) Стартовая скорость движения  РБ1
+#define fEM_A2MV01RSP	 BUFFER[2135]	//(A2MV01RSP) Стартовая скорость движения  РБ1
 #define idfEM_A2MV01RSP	 610	//(A2MV01RSP) Стартовая скорость движения  РБ1
-#define fEM_A2MC02RSP	 BUFFER[2139]	//(A2MC02RSP) Стартовая координата штока РБ1
+#define fEM_A2MC02RSP	 BUFFER[2140]	//(A2MC02RSP) Стартовая координата штока РБ1
 #define idfEM_A2MC02RSP	 611	//(A2MC02RSP) Стартовая координата штока РБ1
-#define fEM_A2MV02RSP	 BUFFER[2144]	//(A2MV02RSP) Стартовая скорость движения  РБ1
+#define fEM_A2MV02RSP	 BUFFER[2145]	//(A2MV02RSP) Стартовая скорость движения  РБ1
 #define idfEM_A2MV02RSP	 612	//(A2MV02RSP) Стартовая скорость движения  РБ1
-#define fEM_B2MC01RSP	 BUFFER[2149]	//(B2MC01RSP) Стартовая координата  РБ2
+#define fEM_B2MC01RSP	 BUFFER[2150]	//(B2MC01RSP) Стартовая координата  РБ2
 #define idfEM_B2MC01RSP	 613	//(B2MC01RSP) Стартовая координата  РБ2
-#define fEM_B2MV01RSP	 BUFFER[2154]	//(B2MV01RSP) Стартовая скорость движения  РБ2
+#define fEM_B2MV01RSP	 BUFFER[2155]	//(B2MV01RSP) Стартовая скорость движения  РБ2
 #define idfEM_B2MV01RSP	 614	//(B2MV01RSP) Стартовая скорость движения  РБ2
-#define fEM_B2MC02RSP	 BUFFER[2159]	//(B2MC02RSP) Стартовая координата штока РБ2
+#define fEM_B2MC02RSP	 BUFFER[2160]	//(B2MC02RSP) Стартовая координата штока РБ2
 #define idfEM_B2MC02RSP	 615	//(B2MC02RSP) Стартовая координата штока РБ2
-#define fEM_B2MV02RSP	 BUFFER[2164]	//(B2MV02RSP) Стартовая скорость движения  РБ2
+#define fEM_B2MV02RSP	 BUFFER[2165]	//(B2MV02RSP) Стартовая скорость движения  РБ2
 #define idfEM_B2MV02RSP	 616	//(B2MV02RSP) Стартовая скорость движения  РБ2
-#define fEM_A3MC01RSP	 BUFFER[2169]	//(A3MC01RSP) Стартовая координата  ИС1
+#define fEM_A3MC01RSP	 BUFFER[2170]	//(A3MC01RSP) Стартовая координата  ИС1
 #define idfEM_A3MC01RSP	 617	//(A3MC01RSP) Стартовая координата  ИС1
-#define fEM_A3MV01RSP	 BUFFER[2174]	//(A3MV01RSP) Стартовая скорость движения  ИС1
+#define fEM_A3MV01RSP	 BUFFER[2175]	//(A3MV01RSP) Стартовая скорость движения  ИС1
 #define idfEM_A3MV01RSP	 618	//(A3MV01RSP) Стартовая скорость движения  ИС1
-#define fEM_A3MC02RSP	 BUFFER[2179]	//(A3MC02RSP) Стартовая координата штока ИС1
+#define fEM_A3MC02RSP	 BUFFER[2180]	//(A3MC02RSP) Стартовая координата штока ИС1
 #define idfEM_A3MC02RSP	 619	//(A3MC02RSP) Стартовая координата штока ИС1
-#define fEM_A3MV02RSP	 BUFFER[2184]	//(A3MV02RSP) Стартовая скорость движения  ИС1
+#define fEM_A3MV02RSP	 BUFFER[2185]	//(A3MV02RSP) Стартовая скорость движения  ИС1
 #define idfEM_A3MV02RSP	 620	//(A3MV02RSP) Стартовая скорость движения  ИС1
-#define fEM_B3MC01RSP	 BUFFER[2189]	//(B3MC01RSP) Стартовая координата  ИС2
+#define fEM_B3MC01RSP	 BUFFER[2190]	//(B3MC01RSP) Стартовая координата  ИС2
 #define idfEM_B3MC01RSP	 621	//(B3MC01RSP) Стартовая координата  ИС2
-#define fEM_B3MV01RSP	 BUFFER[2194]	//(B3MV01RSP) Стартовая скорость движения  ИС2
+#define fEM_B3MV01RSP	 BUFFER[2195]	//(B3MV01RSP) Стартовая скорость движения  ИС2
 #define idfEM_B3MV01RSP	 622	//(B3MV01RSP) Стартовая скорость движения  ИС2
-#define fEM_B3MC02RSP	 BUFFER[2199]	//(B3MC02RSP) Стартовая координата штока ИС2
+#define fEM_B3MC02RSP	 BUFFER[2200]	//(B3MC02RSP) Стартовая координата штока ИС2
 #define idfEM_B3MC02RSP	 623	//(B3MC02RSP) Стартовая координата штока ИС2
-#define fEM_B3MV02RSP	 BUFFER[2204]	//(B3MV02RSP) Стартовая скорость движения  ИС2
+#define fEM_B3MV02RSP	 BUFFER[2205]	//(B3MV02RSP) Стартовая скорость движения  ИС2
 #define idfEM_B3MV02RSP	 624	//(B3MV02RSP) Стартовая скорость движения  ИС2
-#define fEM_B8MC01RSP	 BUFFER[2209]	//(B8MC01RSP) Стартовая координата АЗ2
+#define fEM_B8MC01RSP	 BUFFER[2210]	//(B8MC01RSP) Стартовая координата АЗ2
 #define idfEM_B8MC01RSP	 625	//(B8MC01RSP) Стартовая координата АЗ2
-#define fEM_B8MV01RSP	 BUFFER[2214]	//(B8MV01RSP) Стартовая скорость АЗ2
+#define fEM_B8MV01RSP	 BUFFER[2215]	//(B8MV01RSP) Стартовая скорость АЗ2
 #define idfEM_B8MV01RSP	 626	//(B8MV01RSP) Стартовая скорость АЗ2
-#define fEM_A8MC01RSP	 BUFFER[2219]	//(A8MC01RSP) Стартовая координата ДС2
+#define fEM_A8MC01RSP	 BUFFER[2220]	//(A8MC01RSP) Стартовая координата ДС2
 #define idfEM_A8MC01RSP	 627	//(A8MC01RSP) Стартовая координата ДС2
-#define fEM_A8MV01RSP	 BUFFER[2224]	//(A8MV01RSP) Стартовая скорость ДС2
+#define fEM_A8MV01RSP	 BUFFER[2225]	//(A8MV01RSP) Стартовая скорость ДС2
 #define idfEM_A8MV01RSP	 628	//(A8MV01RSP) Стартовая скорость ДС2
-#define fEM_A6MC01RSP	 BUFFER[2229]	//(A6MC01RSP) Стартовая координата БЗ1
+#define fEM_A6MC01RSP	 BUFFER[2230]	//(A6MC01RSP) Стартовая координата БЗ1
 #define idfEM_A6MC01RSP	 629	//(A6MC01RSP) Стартовая координата БЗ1
-#define fEM_A6MV01RSP	 BUFFER[2234]	//(A6MV01RSP) Стартовая скорость БЗ1
+#define fEM_A6MV01RSP	 BUFFER[2235]	//(A6MV01RSP) Стартовая скорость БЗ1
 #define idfEM_A6MV01RSP	 630	//(A6MV01RSP) Стартовая скорость БЗ1
-#define fEM_B6MC01RSP	 BUFFER[2239]	//(B6MC01RSP) Стартовая координата БЗ2
+#define fEM_B6MC01RSP	 BUFFER[2240]	//(B6MC01RSP) Стартовая координата БЗ2
 #define idfEM_B6MC01RSP	 631	//(B6MC01RSP) Стартовая координата БЗ2
-#define fEM_B6MV01RSP	 BUFFER[2244]	//(B6MV01RSP) Стартовая скорость БЗ2
+#define fEM_B6MV01RSP	 BUFFER[2245]	//(B6MV01RSP) Стартовая скорость БЗ2
 #define idfEM_B6MV01RSP	 632	//(B6MV01RSP) Стартовая скорость БЗ2
-#define fEM_R3UC01RSP	 BUFFER[2249]	//(R3UC01RSP) Стартовая координата Гомогенных дверей
+#define fEM_R3UC01RSP	 BUFFER[2250]	//(R3UC01RSP) Стартовая координата Гомогенных дверей
 #define idfEM_R3UC01RSP	 633	//(R3UC01RSP) Стартовая координата Гомогенных дверей
-#define fEM_R3UV01RSP	 BUFFER[2254]	//(R3UV01RSP) Стартовая скорость Гомогенных дверей
+#define fEM_R3UV01RSP	 BUFFER[2255]	//(R3UV01RSP) Стартовая скорость Гомогенных дверей
 #define idfEM_R3UV01RSP	 634	//(R3UV01RSP) Стартовая скорость Гомогенных дверей
-#define fEM_R5UC01RSP	 BUFFER[2259]	//(R5UC01RSP) Стартовая координата Ворот отстойной зоны
+#define fEM_R5UC01RSP	 BUFFER[2260]	//(R5UC01RSP) Стартовая координата Ворот отстойной зоны
 #define idfEM_R5UC01RSP	 635	//(R5UC01RSP) Стартовая координата Ворот отстойной зоны
-#define fEM_R5UV01RSP	 BUFFER[2264]	//(R5UV01RSP) Стартовая скорость Ворот отстойной зоны
+#define fEM_R5UV01RSP	 BUFFER[2265]	//(R5UV01RSP) Стартовая скорость Ворот отстойной зоны
 #define idfEM_R5UV01RSP	 636	//(R5UV01RSP) Стартовая скорость Ворот отстойной зоны
-#define fEM_R6UC01RSP	 BUFFER[2269]	//(R6UC01RSP) Стартовая координата Кран-балки
+#define fEM_R6UC01RSP	 BUFFER[2270]	//(R6UC01RSP) Стартовая координата Кран-балки
 #define idfEM_R6UC01RSP	 637	//(R6UC01RSP) Стартовая координата Кран-балки
-#define fEM_R6UV01RSP	 BUFFER[2274]	//(R6UV01RSP) Стартовая скорость Кран-балки
+#define fEM_R6UV01RSP	 BUFFER[2275]	//(R6UV01RSP) Стартовая скорость Кран-балки
 #define idfEM_R6UV01RSP	 638	//(R6UV01RSP) Стартовая скорость Кран-балки
-#define fEM_R2MC01RSP	 BUFFER[2279]	//(R2MC01RSP) Стартовая координата МДЗ2
+#define fEM_R2MC01RSP	 BUFFER[2280]	//(R2MC01RSP) Стартовая координата МДЗ2
 #define idfEM_R2MC01RSP	 639	//(R2MC01RSP) Стартовая координата МДЗ2
-#define fEM_R2MV01RSP	 BUFFER[2284]	//(R2MV01RSP) Стартовая скорость МДЗ2
+#define fEM_R2MV01RSP	 BUFFER[2285]	//(R2MV01RSP) Стартовая скорость МДЗ2
 #define idfEM_R2MV01RSP	 640	//(R2MV01RSP) Стартовая скорость МДЗ2
-#define fEM_R1MC01RSP	 BUFFER[2289]	//(R1MC01RSP) Стартовая координата МДЗ1
+#define fEM_R1MC01RSP	 BUFFER[2290]	//(R1MC01RSP) Стартовая координата МДЗ1
 #define idfEM_R1MC01RSP	 641	//(R1MC01RSP) Стартовая координата МДЗ1
-#define fEM_R1MV01RSP	 BUFFER[2294]	//(R1MV01RSP) Стартовая скорость МДЗ1
+#define fEM_R1MV01RSP	 BUFFER[2295]	//(R1MV01RSP) Стартовая скорость МДЗ1
 #define idfEM_R1MV01RSP	 642	//(R1MV01RSP) Стартовая скорость МДЗ1
-#define fEM_A5MC01RSP	 BUFFER[2299]	//(A5MC01RSP) Стартовая координата НЛ1
+#define fEM_A5MC01RSP	 BUFFER[2300]	//(A5MC01RSP) Стартовая координата НЛ1
 #define idfEM_A5MC01RSP	 643	//(A5MC01RSP) Стартовая координата НЛ1
-#define fEM_A5MV01RSP	 BUFFER[2304]	//(A5MV01RSP) Стартовая скорость НЛ1
+#define fEM_A5MV01RSP	 BUFFER[2305]	//(A5MV01RSP) Стартовая скорость НЛ1
 #define idfEM_A5MV01RSP	 644	//(A5MV01RSP) Стартовая скорость НЛ1
-#define fEM_B5MC01RSP	 BUFFER[2309]	//(B5MC01RSP) Стартовая координата НЛ2
+#define fEM_B5MC01RSP	 BUFFER[2310]	//(B5MC01RSP) Стартовая координата НЛ2
 #define idfEM_B5MC01RSP	 645	//(B5MC01RSP) Стартовая координата НЛ2
-#define fEM_B5MV01RSP	 BUFFER[2314]	//(B5MV01RSP) Стартовая скорость НЛ2
+#define fEM_B5MV01RSP	 BUFFER[2315]	//(B5MV01RSP) Стартовая скорость НЛ2
 #define idfEM_B5MV01RSP	 646	//(B5MV01RSP) Стартовая скорость НЛ2
-#define fEM_A9MC01RSP	 BUFFER[2319]	//(A9MC01RSP) Стартовая координата НИ ДС1
+#define fEM_A9MC01RSP	 BUFFER[2320]	//(A9MC01RSP) Стартовая координата НИ ДС1
 #define idfEM_A9MC01RSP	 647	//(A9MC01RSP) Стартовая координата НИ ДС1
-#define fEM_A9MV01RSP	 BUFFER[2324]	//(A9MV01RSP) Стартовая скорость НИ ДС1
+#define fEM_A9MV01RSP	 BUFFER[2325]	//(A9MV01RSP) Стартовая скорость НИ ДС1
 #define idfEM_A9MV01RSP	 648	//(A9MV01RSP) Стартовая скорость НИ ДС1
-#define fEM_B9MC01RSP	 BUFFER[2329]	//(B9MC01RSP) Стартовая координата НИ ДС2
+#define fEM_B9MC01RSP	 BUFFER[2330]	//(B9MC01RSP) Стартовая координата НИ ДС2
 #define idfEM_B9MC01RSP	 649	//(B9MC01RSP) Стартовая координата НИ ДС2
-#define fEM_B9MV01RSP	 BUFFER[2334]	//(B9MV01RSP) Стартовая скорость НИ ДС2
+#define fEM_B9MV01RSP	 BUFFER[2335]	//(B9MV01RSP) Стартовая скорость НИ ДС2
 #define idfEM_B9MV01RSP	 650	//(B9MV01RSP) Стартовая скорость НИ ДС2
-#define fEM_A4MC01RSP	 BUFFER[2339]	//(A4MC01RSP) Стартовая координата НИ1
+#define fEM_A4MC01RSP	 BUFFER[2340]	//(A4MC01RSP) Стартовая координата НИ1
 #define idfEM_A4MC01RSP	 651	//(A4MC01RSP) Стартовая координата НИ1
-#define fEM_A4MV01RSP	 BUFFER[2344]	//(A4MV01RSP) Стартовая скорость НИ1
+#define fEM_A4MV01RSP	 BUFFER[2345]	//(A4MV01RSP) Стартовая скорость НИ1
 #define idfEM_A4MV01RSP	 652	//(A4MV01RSP) Стартовая скорость НИ1
-#define fEM_B4MC01RSP	 BUFFER[2349]	//(B4MC01RSP) Стартовая координата НИ2
+#define fEM_B4MC01RSP	 BUFFER[2350]	//(B4MC01RSP) Стартовая координата НИ2
 #define idfEM_B4MC01RSP	 653	//(B4MC01RSP) Стартовая координата НИ2
-#define fEM_B4MV01RSP	 BUFFER[2354]	//(B4MV01RSP) Стартовая скорость НИ2
+#define fEM_B4MV01RSP	 BUFFER[2355]	//(B4MV01RSP) Стартовая скорость НИ2
 #define idfEM_B4MV01RSP	 654	//(B4MV01RSP) Стартовая скорость НИ2
-#define fEM_R4MC01RSP	 BUFFER[2359]	//(R4MC01RSP) Стартовая координата тележки
+#define fEM_R4MC01RSP	 BUFFER[2360]	//(R4MC01RSP) Стартовая координата тележки
 #define idfEM_R4MC01RSP	 655	//(R4MC01RSP) Стартовая координата тележки
-#define fEM_R4MV01RSP	 BUFFER[2364]	//(R4MV01RSP) Стартовая скорость тележки
+#define fEM_R4MV01RSP	 BUFFER[2365]	//(R4MV01RSP) Стартовая скорость тележки
 #define idfEM_R4MV01RSP	 656	//(R4MV01RSP) Стартовая скорость тележки
-#define fEM_A1MV01RC1	 BUFFER[2369]	//(A1MV01RC1) Заданная скорость движения  ББ1 от ИС
+#define fEM_A1MV01RC1	 BUFFER[2370]	//(A1MV01RC1) Заданная скорость движения  ББ1 от ИС
 #define idfEM_A1MV01RC1	 657	//(A1MV01RC1) Заданная скорость движения  ББ1 от ИС
-#define iEM_TERB7MS31LIM	 BUFFER[2374]	//(TERB7MS31LIM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)
+#define iEM_TERB7MS31LIM	 BUFFER[2375]	//(TERB7MS31LIM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)
 #define idiEM_TERB7MS31LIM	 658	//(TERB7MS31LIM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)
-#define iEM_TERA7MS31LIM	 BUFFER[2377]	//(TERA7MS31LIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)
+#define iEM_TERA7MS31LIM	 BUFFER[2378]	//(TERA7MS31LIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)
 #define idiEM_TERA7MS31LIM	 659	//(TERA7MS31LIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)
-#define fEM_R7UY00RSS	 BUFFER[2380]	//(R7UY00RSS) Y-координата АЗ1 см
+#define fEM_R7UY00RSS	 BUFFER[2381]	//(R7UY00RSS) Y-координата АЗ1 см
 #define idfEM_R7UY00RSS	 660	//(R7UY00RSS) Y-координата АЗ1 см
-#define iEM_TERA6VS12LIM	 BUFFER[2385]	//(TERA6VS12LIM) Искажение: Движение створок БЗ1 к ОТКРЫТА
+#define iEM_TERA6VS12LIM	 BUFFER[2386]	//(TERA6VS12LIM) Искажение: Движение створок БЗ1 к ОТКРЫТА
 #define idiEM_TERA6VS12LIM	 661	//(TERA6VS12LIM) Искажение: Движение створок БЗ1 к ОТКРЫТА
-#define iEM_TERA6VS22LIM	 BUFFER[2388]	//(TERA6VS22LIM) Искажение: Движение створок БЗ1 к ЗАКРЫТА
+#define iEM_TERA6VS22LIM	 BUFFER[2389]	//(TERA6VS22LIM) Искажение: Движение створок БЗ1 к ЗАКРЫТА
 #define idiEM_TERA6VS22LIM	 662	//(TERA6VS22LIM) Искажение: Движение створок БЗ1 к ЗАКРЫТА
-#define iEM_TERB6VS12LIM	 BUFFER[2391]	//(TERB6VS12LIM) Искажение: Движение створок БЗ2 к ОТКРЫТА
+#define iEM_TERB6VS12LIM	 BUFFER[2392]	//(TERB6VS12LIM) Искажение: Движение створок БЗ2 к ОТКРЫТА
 #define idiEM_TERB6VS12LIM	 663	//(TERB6VS12LIM) Искажение: Движение створок БЗ2 к ОТКРЫТА
-#define iEM_TERB6VS22LIM	 BUFFER[2394]	//(TERB6VS22LIM) Искажение: Движение створок БЗ2 к ЗАКРЫТА
+#define iEM_TERB6VS22LIM	 BUFFER[2395]	//(TERB6VS22LIM) Искажение: Движение створок БЗ2 к ЗАКРЫТА
 #define idiEM_TERB6VS22LIM	 664	//(TERB6VS22LIM) Искажение: Движение створок БЗ2 к ЗАКРЫТА
-#define iEM_TERA5VS22LIM	 BUFFER[2397]	//(TERA5VS22LIM) Искажение: Движение створок НЛ1 к НУ
+#define iEM_TERA5VS22LIM	 BUFFER[2398]	//(TERA5VS22LIM) Искажение: Движение створок НЛ1 к НУ
 #define idiEM_TERA5VS22LIM	 665	//(TERA5VS22LIM) Искажение: Движение створок НЛ1 к НУ
-#define iEM_TERA5VS12LIM	 BUFFER[2400]	//(TERA5VS12LIM) Искажение: Движение створок НЛ1 к ВУ
+#define iEM_TERA5VS12LIM	 BUFFER[2401]	//(TERA5VS12LIM) Искажение: Движение створок НЛ1 к ВУ
 #define idiEM_TERA5VS12LIM	 666	//(TERA5VS12LIM) Искажение: Движение створок НЛ1 к ВУ
-#define iEM_TERB5VS12LIM	 BUFFER[2403]	//(TERB5VS12LIM) Искажение: Движение створок НЛ2 к ВУ
+#define iEM_TERB5VS12LIM	 BUFFER[2404]	//(TERB5VS12LIM) Искажение: Движение створок НЛ2 к ВУ
 #define idiEM_TERB5VS12LIM	 667	//(TERB5VS12LIM) Искажение: Движение створок НЛ2 к ВУ
-#define iEM_TERB5VS22LIM	 BUFFER[2406]	//(TERB5VS22LIM) Искажение: Движение створок НЛ2 к НУ
+#define iEM_TERB5VS22LIM	 BUFFER[2407]	//(TERB5VS22LIM) Искажение: Движение створок НЛ2 к НУ
 #define idiEM_TERB5VS22LIM	 668	//(TERB5VS22LIM) Искажение: Движение створок НЛ2 к НУ
-#define iEM_TERR1VS12LIM	 BUFFER[2409]	//(TERR1VS12LIM) Искажение: Движение МДЗ1 в сторону ВУ
+#define iEM_TERR1VS12LIM	 BUFFER[2410]	//(TERR1VS12LIM) Искажение: Движение МДЗ1 в сторону ВУ
 #define idiEM_TERR1VS12LIM	 669	//(TERR1VS12LIM) Искажение: Движение МДЗ1 в сторону ВУ
-#define iEM_TERR1VS22LIM	 BUFFER[2412]	//(TERR1VS22LIM) Искажение: Движение МДЗ1 в сторону НУ
+#define iEM_TERR1VS22LIM	 BUFFER[2413]	//(TERR1VS22LIM) Искажение: Движение МДЗ1 в сторону НУ
 #define idiEM_TERR1VS22LIM	 670	//(TERR1VS22LIM) Искажение: Движение МДЗ1 в сторону НУ
-#define iEM_TERR2VS12LIM	 BUFFER[2415]	//(TERR2VS12LIM) Искажение: Движение МДЗ2 в сторону ВУ
+#define iEM_TERR2VS12LIM	 BUFFER[2416]	//(TERR2VS12LIM) Искажение: Движение МДЗ2 в сторону ВУ
 #define idiEM_TERR2VS12LIM	 671	//(TERR2VS12LIM) Искажение: Движение МДЗ2 в сторону ВУ
-#define iEM_TERR2VS22LIM	 BUFFER[2418]	//(TERR2VS22LIM) Искажение: Движение МДЗ2 в сторону НУ
+#define iEM_TERR2VS22LIM	 BUFFER[2419]	//(TERR2VS22LIM) Искажение: Движение МДЗ2 в сторону НУ
 #define idiEM_TERR2VS22LIM	 672	//(TERR2VS22LIM) Искажение: Движение МДЗ2 в сторону НУ
-#define iEM_TERR4VS12LDU	 BUFFER[2421]	//(TERR4VS12LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
+#define iEM_TERR4VS12LDU	 BUFFER[2422]	//(TERR4VS12LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
 #define idiEM_TERR4VS12LDU	 673	//(TERR4VS12LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
-#define iEM_TERR4VS22LDU	 BUFFER[2424]	//(TERR4VS22LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
+#define iEM_TERR4VS22LDU	 BUFFER[2425]	//(TERR4VS22LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
 #define idiEM_TERR4VS22LDU	 674	//(TERR4VS22LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»
-#define fEM_R4UC23RIM	 BUFFER[2427]	//(R4UC23RIM) Y-координата АЗ1
+#define fEM_R4UC23RIM	 BUFFER[2428]	//(R4UC23RIM) Y-координата АЗ1
 #define idfEM_R4UC23RIM	 675	//(R4UC23RIM) Y-координата АЗ1
-#define fEM_A0UX13RSS	 BUFFER[2432]	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
+#define fEM_A0UX13RSS	 BUFFER[2433]	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
 #define idfEM_A0UX13RSS	 676	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
-#define fEM_A0UX14RSS	 BUFFER[2437]	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
+#define fEM_A0UX14RSS	 BUFFER[2438]	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
 #define idfEM_A0UX14RSS	 677	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
-#define fEM_A0UX15RSS	 BUFFER[2442]	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
+#define fEM_A0UX15RSS	 BUFFER[2443]	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
 #define idfEM_A0UX15RSS	 678	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
-#define fEM_R7UX13RSS	 BUFFER[2447]	//(R7UX13RSS) X-координата камеры R7IN51
+#define fEM_R7UX13RSS	 BUFFER[2448]	//(R7UX13RSS) X-координата камеры R7IN51
 #define idfEM_R7UX13RSS	 679	//(R7UX13RSS) X-координата камеры R7IN51
-#define fEM_R7UX14RSS	 BUFFER[2452]	//(R7UX14RSS) X-координата камеры R7IN52
+#define fEM_R7UX14RSS	 BUFFER[2453]	//(R7UX14RSS) X-координата камеры R7IN52
 #define idfEM_R7UX14RSS	 680	//(R7UX14RSS) X-координата камеры R7IN52
-#define fEM_R7UX15RSS	 BUFFER[2457]	//(R7UX15RSS) X-координата камеры R7IN53
+#define fEM_R7UX15RSS	 BUFFER[2458]	//(R7UX15RSS) X-координата камеры R7IN53
 #define idfEM_R7UX15RSS	 681	//(R7UX15RSS) X-координата камеры R7IN53
-#define fEM_R7UY13RSS	 BUFFER[2462]	//(R7UY13RSS) Y-координата камеры R7IN51
+#define fEM_R7UY13RSS	 BUFFER[2463]	//(R7UY13RSS) Y-координата камеры R7IN51
 #define idfEM_R7UY13RSS	 682	//(R7UY13RSS) Y-координата камеры R7IN51
-#define fEM_R7UY14RSS	 BUFFER[2467]	//(R7UY14RSS) Y-координата камеры R7IN52
+#define fEM_R7UY14RSS	 BUFFER[2468]	//(R7UY14RSS) Y-координата камеры R7IN52
 #define idfEM_R7UY14RSS	 683	//(R7UY14RSS) Y-координата камеры R7IN52
-#define fEM_R7UY15RSS	 BUFFER[2472]	//(R7UY15RSS) Y-координата камеры R7IN53
+#define fEM_R7UY15RSS	 BUFFER[2473]	//(R7UY15RSS) Y-координата камеры R7IN53
 #define idfEM_R7UY15RSS	 684	//(R7UY15RSS) Y-координата камеры R7IN53
-#define fEM_R7UX16RSS	 BUFFER[2477]	//(R7UX16RSS) Величина сигнала СНМ11 в БЗ
+#define fEM_R7UX16RSS	 BUFFER[2478]	//(R7UX16RSS) Величина сигнала СНМ11 в БЗ
 #define idfEM_R7UX16RSS	 685	//(R7UX16RSS) Величина сигнала СНМ11 в БЗ
-#define bFirstEnterFlag	 BUFFER[2482]	//(bFirstEnterFlag) 
+#define bFirstEnterFlag	 BUFFER[2483]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 686	//(bFirstEnterFlag) 
-#define internal1_m894_Chim0	 BUFFER[2484]	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m894_Chim0	 BUFFER[2485]	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m894_Chim0	 687	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m884_Chim0	 BUFFER[2489]	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m884_Chim0	 BUFFER[2490]	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m884_Chim0	 688	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m876_Chim0	 BUFFER[2494]	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m876_Chim0	 BUFFER[2495]	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m876_Chim0	 689	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m831_Out10	 BUFFER[2499]	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m831_Out10	 BUFFER[2500]	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m831_Out10	 690	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m830_Out10	 BUFFER[2501]	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m830_Out10	 BUFFER[2502]	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m830_Out10	 691	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1014_Out10	 BUFFER[2503]	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1014_Out10	 BUFFER[2504]	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1014_Out10	 692	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1013_Out10	 BUFFER[2505]	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1013_Out10	 BUFFER[2506]	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1013_Out10	 693	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1012_Out10	 BUFFER[2507]	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1012_Out10	 BUFFER[2508]	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1012_Out10	 694	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1011_Out10	 BUFFER[2509]	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1011_Out10	 BUFFER[2510]	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1011_Out10	 695	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m693_Out10	 BUFFER[2511]	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m693_Out10	 BUFFER[2512]	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m693_Out10	 696	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m692_Out10	 BUFFER[2513]	//(internal1_m692_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m692_Out10	 BUFFER[2514]	//(internal1_m692_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m692_Out10	 697	//(internal1_m692_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m671_Out10	 BUFFER[2515]	//(internal1_m671_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m671_Out10	 BUFFER[2516]	//(internal1_m671_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m671_Out10	 698	//(internal1_m671_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m670_Out10	 BUFFER[2517]	//(internal1_m670_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m670_Out10	 BUFFER[2518]	//(internal1_m670_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m670_Out10	 699	//(internal1_m670_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m691_Out10	 BUFFER[2519]	//(internal1_m691_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m691_Out10	 BUFFER[2520]	//(internal1_m691_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m691_Out10	 700	//(internal1_m691_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m690_Out10	 BUFFER[2521]	//(internal1_m690_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m690_Out10	 BUFFER[2522]	//(internal1_m690_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m690_Out10	 701	//(internal1_m690_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m669_Out10	 BUFFER[2523]	//(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m669_Out10	 BUFFER[2524]	//(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m669_Out10	 702	//(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m668_Out10	 BUFFER[2525]	//(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m668_Out10	 BUFFER[2526]	//(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m668_Out10	 703	//(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m529_Out10	 BUFFER[2527]	//(internal1_m529_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m529_Out10	 BUFFER[2528]	//(internal1_m529_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m529_Out10	 704	//(internal1_m529_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m546_Out10	 BUFFER[2529]	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m546_Out10	 BUFFER[2530]	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m546_Out10	 705	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m411_Out10	 BUFFER[2531]	//(internal1_m411_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m411_Out10	 BUFFER[2532]	//(internal1_m411_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m411_Out10	 706	//(internal1_m411_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m488_q0	 BUFFER[2533]	//(internal1_m488_q0) q0 - внутренний параметр
+#define internal1_m488_q0	 BUFFER[2534]	//(internal1_m488_q0) q0 - внутренний параметр
 #define idinternal1_m488_q0	 707	//(internal1_m488_q0) q0 - внутренний параметр
-#define internal1_m489_q0	 BUFFER[2535]	//(internal1_m489_q0) q0 - внутренний параметр
+#define internal1_m489_q0	 BUFFER[2536]	//(internal1_m489_q0) q0 - внутренний параметр
 #define idinternal1_m489_q0	 708	//(internal1_m489_q0) q0 - внутренний параметр
-#define internal1_m474_q0	 BUFFER[2537]	//(internal1_m474_q0) q0 - внутренний параметр
+#define internal1_m474_q0	 BUFFER[2538]	//(internal1_m474_q0) q0 - внутренний параметр
 #define idinternal1_m474_q0	 709	//(internal1_m474_q0) q0 - внутренний параметр
-#define internal1_m475_q0	 BUFFER[2539]	//(internal1_m475_q0) q0 - внутренний параметр
+#define internal1_m475_q0	 BUFFER[2540]	//(internal1_m475_q0) q0 - внутренний параметр
 #define idinternal1_m475_q0	 710	//(internal1_m475_q0) q0 - внутренний параметр
-#define internal1_m644_tx	 BUFFER[2541]	//(internal1_m644_tx) tx - время накопленное сек
+#define internal1_m644_tx	 BUFFER[2542]	//(internal1_m644_tx) tx - время накопленное сек
 #define idinternal1_m644_tx	 711	//(internal1_m644_tx) tx - время накопленное сек
-#define internal1_m644_y0	 BUFFER[2546]	//(internal1_m644_y0) y0
+#define internal1_m644_y0	 BUFFER[2547]	//(internal1_m644_y0) y0
 #define idinternal1_m644_y0	 712	//(internal1_m644_y0) y0
-#define internal1_m632_tx	 BUFFER[2547]	//(internal1_m632_tx) tx - время накопленное сек
+#define internal1_m632_tx	 BUFFER[2548]	//(internal1_m632_tx) tx - время накопленное сек
 #define idinternal1_m632_tx	 713	//(internal1_m632_tx) tx - время накопленное сек
-#define internal1_m632_y0	 BUFFER[2552]	//(internal1_m632_y0) y0
+#define internal1_m632_y0	 BUFFER[2553]	//(internal1_m632_y0) y0
 #define idinternal1_m632_y0	 714	//(internal1_m632_y0) y0
-#define internal1_m618_tx	 BUFFER[2553]	//(internal1_m618_tx) tx - время накопленное сек
+#define internal1_m618_tx	 BUFFER[2554]	//(internal1_m618_tx) tx - время накопленное сек
 #define idinternal1_m618_tx	 715	//(internal1_m618_tx) tx - время накопленное сек
-#define internal1_m618_y0	 BUFFER[2558]	//(internal1_m618_y0) y0
+#define internal1_m618_y0	 BUFFER[2559]	//(internal1_m618_y0) y0
 #define idinternal1_m618_y0	 716	//(internal1_m618_y0) y0
-#define internal1_m616_tx	 BUFFER[2559]	//(internal1_m616_tx) tx - время накопленное сек
+#define internal1_m616_tx	 BUFFER[2560]	//(internal1_m616_tx) tx - время накопленное сек
 #define idinternal1_m616_tx	 717	//(internal1_m616_tx) tx - время накопленное сек
-#define internal1_m616_y0	 BUFFER[2564]	//(internal1_m616_y0) y0
+#define internal1_m616_y0	 BUFFER[2565]	//(internal1_m616_y0) y0
 #define idinternal1_m616_y0	 718	//(internal1_m616_y0) y0
-#define internal1_m208_Out10	 BUFFER[2565]	//(internal1_m208_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m208_Out10	 BUFFER[2566]	//(internal1_m208_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m208_Out10	 719	//(internal1_m208_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m225_Out10	 BUFFER[2567]	//(internal1_m225_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m225_Out10	 BUFFER[2568]	//(internal1_m225_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m225_Out10	 720	//(internal1_m225_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m41_Out10	 BUFFER[2569]	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m41_Out10	 BUFFER[2570]	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m41_Out10	 721	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m56_Out10	 BUFFER[2571]	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m56_Out10	 BUFFER[2572]	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m56_Out10	 722	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m985_Out10	 BUFFER[2573]	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m985_Out10	 BUFFER[2574]	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m985_Out10	 723	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m982_Out10	 BUFFER[2575]	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m982_Out10	 BUFFER[2576]	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m982_Out10	 724	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m981_Out10	 BUFFER[2577]	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m981_Out10	 BUFFER[2578]	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m981_Out10	 725	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m984_Xtek0	 BUFFER[2579]	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m984_Xtek0	 BUFFER[2580]	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m984_Xtek0	 726	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m967_Xtek0	 BUFFER[2584]	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m967_Xtek0	 BUFFER[2585]	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m967_Xtek0	 727	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m968_Out10	 BUFFER[2589]	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m968_Out10	 BUFFER[2590]	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m968_Out10	 728	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m965_Out10	 BUFFER[2591]	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m965_Out10	 BUFFER[2592]	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m965_Out10	 729	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m964_Out10	 BUFFER[2593]	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m964_Out10	 BUFFER[2594]	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m964_Out10	 730	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1052_Out10	 BUFFER[2595]	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1052_Out10	 BUFFER[2596]	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1052_Out10	 731	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1033_Out10	 BUFFER[2597]	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1033_Out10	 BUFFER[2598]	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1033_Out10	 732	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1032_Out10	 BUFFER[2599]	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1032_Out10	 BUFFER[2600]	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1032_Out10	 733	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1031_Out10	 BUFFER[2601]	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1031_Out10	 BUFFER[2602]	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1031_Out10	 734	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m852_Out10	 BUFFER[2603]	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m852_Out10	 BUFFER[2604]	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m852_Out10	 735	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m854_Out10	 BUFFER[2605]	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m854_Out10	 BUFFER[2606]	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m854_Out10	 736	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m851_Out10	 BUFFER[2607]	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m851_Out10	 BUFFER[2608]	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m851_Out10	 737	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m853_Out10	 BUFFER[2609]	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m853_Out10	 BUFFER[2610]	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m853_Out10	 738	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m827_Out10	 BUFFER[2611]	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m827_Out10	 BUFFER[2612]	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m827_Out10	 739	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m828_Out10	 BUFFER[2613]	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m828_Out10	 BUFFER[2614]	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m828_Out10	 740	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m826_Out10	 BUFFER[2615]	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m826_Out10	 BUFFER[2616]	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m826_Out10	 741	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m825_Out10	 BUFFER[2617]	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m825_Out10	 BUFFER[2618]	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m825_Out10	 742	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1047_Out10	 BUFFER[2619]	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1047_Out10	 BUFFER[2620]	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1047_Out10	 743	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m999_Out10	 BUFFER[2621]	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m999_Out10	 BUFFER[2622]	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m999_Out10	 744	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m998_Out10	 BUFFER[2623]	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m998_Out10	 BUFFER[2624]	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m998_Out10	 745	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m997_Out10	 BUFFER[2625]	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m997_Out10	 BUFFER[2626]	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m997_Out10	 746	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m996_Out10	 BUFFER[2627]	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m996_Out10	 BUFFER[2628]	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m996_Out10	 747	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1048_Out10	 BUFFER[2629]	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1048_Out10	 BUFFER[2630]	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1048_Out10	 748	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1029_Out10	 BUFFER[2631]	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1029_Out10	 BUFFER[2632]	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1029_Out10	 749	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m829_Out10	 BUFFER[2633]	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m829_Out10	 BUFFER[2634]	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m829_Out10	 750	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1030_Out10	 BUFFER[2635]	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1030_Out10	 BUFFER[2636]	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1030_Out10	 751	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1028_Out10	 BUFFER[2637]	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1028_Out10	 BUFFER[2638]	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1028_Out10	 752	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1049_Out10	 BUFFER[2639]	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1049_Out10	 BUFFER[2640]	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1049_Out10	 753	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1027_Out10	 BUFFER[2641]	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1027_Out10	 BUFFER[2642]	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1027_Out10	 754	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1010_Out10	 BUFFER[2643]	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1010_Out10	 BUFFER[2644]	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1010_Out10	 755	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m995_Out10	 BUFFER[2645]	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m995_Out10	 BUFFER[2646]	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m995_Out10	 756	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m545_Out10	 BUFFER[2647]	//(internal1_m545_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m545_Out10	 BUFFER[2648]	//(internal1_m545_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m545_Out10	 757	//(internal1_m545_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m421_Xtek0	 BUFFER[2649]	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m421_Xtek0	 BUFFER[2650]	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m421_Xtek0	 758	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m412_Out10	 BUFFER[2654]	//(internal1_m412_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m412_Out10	 BUFFER[2655]	//(internal1_m412_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m412_Out10	 759	//(internal1_m412_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m414_Out10	 BUFFER[2656]	//(internal1_m414_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m414_Out10	 BUFFER[2657]	//(internal1_m414_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m414_Out10	 760	//(internal1_m414_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m413_Out10	 BUFFER[2658]	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m413_Out10	 BUFFER[2659]	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m413_Out10	 761	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m867_Out10	 BUFFER[2660]	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m867_Out10	 BUFFER[2661]	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m867_Out10	 762	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m868_Out10	 BUFFER[2662]	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m868_Out10	 BUFFER[2663]	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m868_Out10	 763	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m866_Out10	 BUFFER[2664]	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m866_Out10	 BUFFER[2665]	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m866_Out10	 764	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1051_Out10	 BUFFER[2666]	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1051_Out10	 BUFFER[2667]	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1051_Out10	 765	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m706_Out10	 BUFFER[2668]	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m706_Out10	 BUFFER[2669]	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m706_Out10	 766	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m707_Out10	 BUFFER[2670]	//(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m707_Out10	 BUFFER[2671]	//(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m707_Out10	 767	//(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m704_Out10	 BUFFER[2672]	//(internal1_m704_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m704_Out10	 BUFFER[2673]	//(internal1_m704_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m704_Out10	 768	//(internal1_m704_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m705_Out10	 BUFFER[2674]	//(internal1_m705_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m705_Out10	 BUFFER[2675]	//(internal1_m705_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m705_Out10	 769	//(internal1_m705_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m563_Out10	 BUFFER[2676]	//(internal1_m563_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m563_Out10	 BUFFER[2677]	//(internal1_m563_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m563_Out10	 770	//(internal1_m563_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m562_Out10	 BUFFER[2678]	//(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m562_Out10	 BUFFER[2679]	//(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m562_Out10	 771	//(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m848_Xtek0	 BUFFER[2680]	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m848_Xtek0	 BUFFER[2681]	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m848_Xtek0	 772	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m850_Xtek0	 BUFFER[2685]	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m850_Xtek0	 BUFFER[2686]	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m850_Xtek0	 773	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m703_Out10	 BUFFER[2690]	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m703_Out10	 BUFFER[2691]	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m703_Out10	 774	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m687_Out10	 BUFFER[2692]	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m687_Out10	 BUFFER[2693]	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m687_Out10	 775	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m667_Out10	 BUFFER[2694]	//(internal1_m667_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m667_Out10	 BUFFER[2695]	//(internal1_m667_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m667_Out10	 776	//(internal1_m667_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m686_Out10	 BUFFER[2696]	//(internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m686_Out10	 BUFFER[2697]	//(internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m686_Out10	 777	//(internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m666_Out10	 BUFFER[2698]	//(internal1_m666_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m666_Out10	 BUFFER[2699]	//(internal1_m666_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m666_Out10	 778	//(internal1_m666_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m339_Out10	 BUFFER[2700]	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m339_Out10	 BUFFER[2701]	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m339_Out10	 779	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m338_Out10	 BUFFER[2702]	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m338_Out10	 BUFFER[2703]	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m338_Out10	 780	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m323_Out10	 BUFFER[2704]	//(internal1_m323_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m323_Out10	 BUFFER[2705]	//(internal1_m323_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m323_Out10	 781	//(internal1_m323_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m322_Out10	 BUFFER[2706]	//(internal1_m322_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m322_Out10	 BUFFER[2707]	//(internal1_m322_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m322_Out10	 782	//(internal1_m322_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m564_Out10	 BUFFER[2708]	//(internal1_m564_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m564_Out10	 BUFFER[2709]	//(internal1_m564_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m564_Out10	 783	//(internal1_m564_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m352_Out10	 BUFFER[2710]	//(internal1_m352_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m352_Out10	 BUFFER[2711]	//(internal1_m352_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m352_Out10	 784	//(internal1_m352_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m336_Xtek0	 BUFFER[2712]	//(internal1_m336_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m336_Xtek0	 BUFFER[2713]	//(internal1_m336_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m336_Xtek0	 785	//(internal1_m336_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m351_Out10	 BUFFER[2717]	//(internal1_m351_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m351_Out10	 BUFFER[2718]	//(internal1_m351_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m351_Out10	 786	//(internal1_m351_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m349_Out10	 BUFFER[2719]	//(internal1_m349_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m349_Out10	 BUFFER[2720]	//(internal1_m349_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m349_Out10	 787	//(internal1_m349_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m329_Xtek0	 BUFFER[2721]	//(internal1_m329_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m329_Xtek0	 BUFFER[2722]	//(internal1_m329_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m329_Xtek0	 788	//(internal1_m329_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m350_Out10	 BUFFER[2726]	//(internal1_m350_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m350_Out10	 BUFFER[2727]	//(internal1_m350_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m350_Out10	 789	//(internal1_m350_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m321_Out10	 BUFFER[2728]	//(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m321_Out10	 BUFFER[2729]	//(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m321_Out10	 790	//(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m337_Out10	 BUFFER[2730]	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m337_Out10	 BUFFER[2731]	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m337_Out10	 791	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m433_Out10	 BUFFER[2732]	//(internal1_m433_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m433_Out10	 BUFFER[2733]	//(internal1_m433_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m433_Out10	 792	//(internal1_m433_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m434_Xtek0	 BUFFER[2734]	//(internal1_m434_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m434_Xtek0	 BUFFER[2735]	//(internal1_m434_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m434_Xtek0	 793	//(internal1_m434_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m432_Out10	 BUFFER[2739]	//(internal1_m432_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m432_Out10	 BUFFER[2740]	//(internal1_m432_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m432_Out10	 794	//(internal1_m432_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m431_Out10	 BUFFER[2741]	//(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m431_Out10	 BUFFER[2742]	//(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m431_Out10	 795	//(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m430_Out10	 BUFFER[2743]	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m430_Out10	 BUFFER[2744]	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m430_Out10	 796	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1050_Out10	 BUFFER[2745]	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1050_Out10	 BUFFER[2746]	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1050_Out10	 797	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m150_Out10	 BUFFER[2747]	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m150_Out10	 BUFFER[2748]	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m150_Out10	 798	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m149_Out10	 BUFFER[2749]	//(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m149_Out10	 BUFFER[2750]	//(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m149_Out10	 799	//(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m197_tx	 BUFFER[2751]	//(internal1_m197_tx) tx - внутренний параметр
+#define internal1_m197_tx	 BUFFER[2752]	//(internal1_m197_tx) tx - внутренний параметр
 #define idinternal1_m197_tx	 800	//(internal1_m197_tx) tx - внутренний параметр
-#define internal1_m30_tx	 BUFFER[2754]	//(internal1_m30_tx) tx - внутренний параметр
+#define internal1_m30_tx	 BUFFER[2755]	//(internal1_m30_tx) tx - внутренний параметр
 #define idinternal1_m30_tx	 801	//(internal1_m30_tx) tx - внутренний параметр
-#define internal1_m478_Pav0	 BUFFER[2757]	//(internal1_m478_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m478_Pav0	 BUFFER[2758]	//(internal1_m478_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m478_Pav0	 802	//(internal1_m478_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m478_Zav0	 BUFFER[2759]	//(internal1_m478_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m478_Zav0	 BUFFER[2760]	//(internal1_m478_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m478_Zav0	 803	//(internal1_m478_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m478_Pv0	 BUFFER[2761]	//(internal1_m478_Pv0)  - Пер. выключатель механизма
+#define internal1_m478_Pv0	 BUFFER[2762]	//(internal1_m478_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m478_Pv0	 804	//(internal1_m478_Pv0)  - Пер. выключатель механизма
-#define internal1_m478_Zv0	 BUFFER[2763]	//(internal1_m478_Zv0)  - Зад. выключатель механизма
+#define internal1_m478_Zv0	 BUFFER[2764]	//(internal1_m478_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m478_Zv0	 805	//(internal1_m478_Zv0)  - Зад. выключатель механизма
-#define internal1_m478_RA00	 BUFFER[2765]	//(internal1_m478_RA00)  - последнее задание вперед
+#define internal1_m478_RA00	 BUFFER[2766]	//(internal1_m478_RA00)  - последнее задание вперед
 #define idinternal1_m478_RA00	 806	//(internal1_m478_RA00)  - последнее задание вперед
-#define internal1_m478_RA10	 BUFFER[2767]	//(internal1_m478_RA10)  - последнее задание назад
+#define internal1_m478_RA10	 BUFFER[2768]	//(internal1_m478_RA10)  - последнее задание назад
 #define idinternal1_m478_RA10	 807	//(internal1_m478_RA10)  - последнее задание назад
-#define internal1_m478_MyFirstEnterFlag	 BUFFER[2769]	//(internal1_m478_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m478_MyFirstEnterFlag	 BUFFER[2770]	//(internal1_m478_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m478_MyFirstEnterFlag	 808	//(internal1_m478_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m492_Pav0	 BUFFER[2771]	//(internal1_m492_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m492_Pav0	 BUFFER[2772]	//(internal1_m492_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m492_Pav0	 809	//(internal1_m492_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m492_Zav0	 BUFFER[2773]	//(internal1_m492_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m492_Zav0	 BUFFER[2774]	//(internal1_m492_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m492_Zav0	 810	//(internal1_m492_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m492_Pv0	 BUFFER[2775]	//(internal1_m492_Pv0)  - Пер. выключатель механизма
+#define internal1_m492_Pv0	 BUFFER[2776]	//(internal1_m492_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m492_Pv0	 811	//(internal1_m492_Pv0)  - Пер. выключатель механизма
-#define internal1_m492_Zv0	 BUFFER[2777]	//(internal1_m492_Zv0)  - Зад. выключатель механизма
+#define internal1_m492_Zv0	 BUFFER[2778]	//(internal1_m492_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m492_Zv0	 812	//(internal1_m492_Zv0)  - Зад. выключатель механизма
-#define internal1_m492_RA00	 BUFFER[2779]	//(internal1_m492_RA00)  - последнее задание вперед
+#define internal1_m492_RA00	 BUFFER[2780]	//(internal1_m492_RA00)  - последнее задание вперед
 #define idinternal1_m492_RA00	 813	//(internal1_m492_RA00)  - последнее задание вперед
-#define internal1_m492_RA10	 BUFFER[2781]	//(internal1_m492_RA10)  - последнее задание назад
+#define internal1_m492_RA10	 BUFFER[2782]	//(internal1_m492_RA10)  - последнее задание назад
 #define idinternal1_m492_RA10	 814	//(internal1_m492_RA10)  - последнее задание назад
-#define internal1_m492_MyFirstEnterFlag	 BUFFER[2783]	//(internal1_m492_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m492_MyFirstEnterFlag	 BUFFER[2784]	//(internal1_m492_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m492_MyFirstEnterFlag	 815	//(internal1_m492_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m480_Pav0	 BUFFER[2785]	//(internal1_m480_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m480_Pav0	 BUFFER[2786]	//(internal1_m480_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m480_Pav0	 816	//(internal1_m480_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m480_Zav0	 BUFFER[2787]	//(internal1_m480_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m480_Zav0	 BUFFER[2788]	//(internal1_m480_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m480_Zav0	 817	//(internal1_m480_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m480_Pv0	 BUFFER[2789]	//(internal1_m480_Pv0)  - Пер. выключатель механизма
+#define internal1_m480_Pv0	 BUFFER[2790]	//(internal1_m480_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m480_Pv0	 818	//(internal1_m480_Pv0)  - Пер. выключатель механизма
-#define internal1_m480_Zv0	 BUFFER[2791]	//(internal1_m480_Zv0)  - Зад. выключатель механизма
+#define internal1_m480_Zv0	 BUFFER[2792]	//(internal1_m480_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m480_Zv0	 819	//(internal1_m480_Zv0)  - Зад. выключатель механизма
-#define internal1_m480_RA00	 BUFFER[2793]	//(internal1_m480_RA00)  - последнее задание вперед
+#define internal1_m480_RA00	 BUFFER[2794]	//(internal1_m480_RA00)  - последнее задание вперед
 #define idinternal1_m480_RA00	 820	//(internal1_m480_RA00)  - последнее задание вперед
-#define internal1_m480_RA10	 BUFFER[2795]	//(internal1_m480_RA10)  - последнее задание назад
+#define internal1_m480_RA10	 BUFFER[2796]	//(internal1_m480_RA10)  - последнее задание назад
 #define idinternal1_m480_RA10	 821	//(internal1_m480_RA10)  - последнее задание назад
-#define internal1_m480_MyFirstEnterFlag	 BUFFER[2797]	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m480_MyFirstEnterFlag	 BUFFER[2798]	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m480_MyFirstEnterFlag	 822	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m623_Pav0	 BUFFER[2799]	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m623_Pav0	 BUFFER[2800]	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m623_Pav0	 823	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m623_Zav0	 BUFFER[2801]	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m623_Zav0	 BUFFER[2802]	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m623_Zav0	 824	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m623_Pv0	 BUFFER[2803]	//(internal1_m623_Pv0)  - Пер. выключатель механизма
+#define internal1_m623_Pv0	 BUFFER[2804]	//(internal1_m623_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m623_Pv0	 825	//(internal1_m623_Pv0)  - Пер. выключатель механизма
-#define internal1_m623_Zv0	 BUFFER[2805]	//(internal1_m623_Zv0)  - Зад. выключатель механизма
+#define internal1_m623_Zv0	 BUFFER[2806]	//(internal1_m623_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m623_Zv0	 826	//(internal1_m623_Zv0)  - Зад. выключатель механизма
-#define internal1_m623_RA00	 BUFFER[2807]	//(internal1_m623_RA00)  - последнее задание вперед
+#define internal1_m623_RA00	 BUFFER[2808]	//(internal1_m623_RA00)  - последнее задание вперед
 #define idinternal1_m623_RA00	 827	//(internal1_m623_RA00)  - последнее задание вперед
-#define internal1_m623_RA10	 BUFFER[2809]	//(internal1_m623_RA10)  - последнее задание назад
+#define internal1_m623_RA10	 BUFFER[2810]	//(internal1_m623_RA10)  - последнее задание назад
 #define idinternal1_m623_RA10	 828	//(internal1_m623_RA10)  - последнее задание назад
-#define internal1_m623_MyFirstEnterFlag	 BUFFER[2811]	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m623_MyFirstEnterFlag	 BUFFER[2812]	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m623_MyFirstEnterFlag	 829	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m620_Pav0	 BUFFER[2813]	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m620_Pav0	 BUFFER[2814]	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m620_Pav0	 830	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m620_Zav0	 BUFFER[2815]	//(internal1_m620_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m620_Zav0	 BUFFER[2816]	//(internal1_m620_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m620_Zav0	 831	//(internal1_m620_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m620_Pv0	 BUFFER[2817]	//(internal1_m620_Pv0)  - Пер. выключатель механизма
+#define internal1_m620_Pv0	 BUFFER[2818]	//(internal1_m620_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m620_Pv0	 832	//(internal1_m620_Pv0)  - Пер. выключатель механизма
-#define internal1_m620_Zv0	 BUFFER[2819]	//(internal1_m620_Zv0)  - Зад. выключатель механизма
+#define internal1_m620_Zv0	 BUFFER[2820]	//(internal1_m620_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m620_Zv0	 833	//(internal1_m620_Zv0)  - Зад. выключатель механизма
-#define internal1_m620_RA00	 BUFFER[2821]	//(internal1_m620_RA00)  - последнее задание вперед
+#define internal1_m620_RA00	 BUFFER[2822]	//(internal1_m620_RA00)  - последнее задание вперед
 #define idinternal1_m620_RA00	 834	//(internal1_m620_RA00)  - последнее задание вперед
-#define internal1_m620_RA10	 BUFFER[2823]	//(internal1_m620_RA10)  - последнее задание назад
+#define internal1_m620_RA10	 BUFFER[2824]	//(internal1_m620_RA10)  - последнее задание назад
 #define idinternal1_m620_RA10	 835	//(internal1_m620_RA10)  - последнее задание назад
-#define internal1_m620_MyFirstEnterFlag	 BUFFER[2825]	//(internal1_m620_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m620_MyFirstEnterFlag	 BUFFER[2826]	//(internal1_m620_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m620_MyFirstEnterFlag	 836	//(internal1_m620_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m606_Pav0	 BUFFER[2827]	//(internal1_m606_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m606_Pav0	 BUFFER[2828]	//(internal1_m606_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m606_Pav0	 837	//(internal1_m606_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m606_Zav0	 BUFFER[2829]	//(internal1_m606_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m606_Zav0	 BUFFER[2830]	//(internal1_m606_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m606_Zav0	 838	//(internal1_m606_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m606_Pv0	 BUFFER[2831]	//(internal1_m606_Pv0)  - Пер. выключатель механизма
+#define internal1_m606_Pv0	 BUFFER[2832]	//(internal1_m606_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m606_Pv0	 839	//(internal1_m606_Pv0)  - Пер. выключатель механизма
-#define internal1_m606_Zv0	 BUFFER[2833]	//(internal1_m606_Zv0)  - Зад. выключатель механизма
+#define internal1_m606_Zv0	 BUFFER[2834]	//(internal1_m606_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m606_Zv0	 840	//(internal1_m606_Zv0)  - Зад. выключатель механизма
-#define internal1_m606_RA00	 BUFFER[2835]	//(internal1_m606_RA00)  - последнее задание вперед
+#define internal1_m606_RA00	 BUFFER[2836]	//(internal1_m606_RA00)  - последнее задание вперед
 #define idinternal1_m606_RA00	 841	//(internal1_m606_RA00)  - последнее задание вперед
-#define internal1_m606_RA10	 BUFFER[2837]	//(internal1_m606_RA10)  - последнее задание назад
+#define internal1_m606_RA10	 BUFFER[2838]	//(internal1_m606_RA10)  - последнее задание назад
 #define idinternal1_m606_RA10	 842	//(internal1_m606_RA10)  - последнее задание назад
-#define internal1_m606_MyFirstEnterFlag	 BUFFER[2839]	//(internal1_m606_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m606_MyFirstEnterFlag	 BUFFER[2840]	//(internal1_m606_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m606_MyFirstEnterFlag	 843	//(internal1_m606_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m605_Pav0	 BUFFER[2841]	//(internal1_m605_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m605_Pav0	 BUFFER[2842]	//(internal1_m605_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m605_Pav0	 844	//(internal1_m605_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m605_Zav0	 BUFFER[2843]	//(internal1_m605_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m605_Zav0	 BUFFER[2844]	//(internal1_m605_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m605_Zav0	 845	//(internal1_m605_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m605_Pv0	 BUFFER[2845]	//(internal1_m605_Pv0)  - Пер. выключатель механизма
+#define internal1_m605_Pv0	 BUFFER[2846]	//(internal1_m605_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m605_Pv0	 846	//(internal1_m605_Pv0)  - Пер. выключатель механизма
-#define internal1_m605_Zv0	 BUFFER[2847]	//(internal1_m605_Zv0)  - Зад. выключатель механизма
+#define internal1_m605_Zv0	 BUFFER[2848]	//(internal1_m605_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m605_Zv0	 847	//(internal1_m605_Zv0)  - Зад. выключатель механизма
-#define internal1_m605_RA00	 BUFFER[2849]	//(internal1_m605_RA00)  - последнее задание вперед
+#define internal1_m605_RA00	 BUFFER[2850]	//(internal1_m605_RA00)  - последнее задание вперед
 #define idinternal1_m605_RA00	 848	//(internal1_m605_RA00)  - последнее задание вперед
-#define internal1_m605_RA10	 BUFFER[2851]	//(internal1_m605_RA10)  - последнее задание назад
+#define internal1_m605_RA10	 BUFFER[2852]	//(internal1_m605_RA10)  - последнее задание назад
 #define idinternal1_m605_RA10	 849	//(internal1_m605_RA10)  - последнее задание назад
-#define internal1_m605_MyFirstEnterFlag	 BUFFER[2853]	//(internal1_m605_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m605_MyFirstEnterFlag	 BUFFER[2854]	//(internal1_m605_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m605_MyFirstEnterFlag	 850	//(internal1_m605_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m652_y0	 BUFFER[2855]	//(internal1_m652_y0) y0 - внутренний параметр
+#define internal1_m652_y0	 BUFFER[2856]	//(internal1_m652_y0) y0 - внутренний параметр
 #define idinternal1_m652_y0	 851	//(internal1_m652_y0) y0 - внутренний параметр
-#define internal1_m813_Chim0	 BUFFER[2860]	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m813_Chim0	 BUFFER[2861]	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m813_Chim0	 852	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m804_Chim0	 BUFFER[2865]	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m804_Chim0	 BUFFER[2866]	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m804_Chim0	 853	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m796_Chim0	 BUFFER[2870]	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m796_Chim0	 BUFFER[2871]	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m796_Chim0	 854	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m787_Chim0	 BUFFER[2875]	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m787_Chim0	 BUFFER[2876]	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m787_Chim0	 855	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m778_Chim0	 BUFFER[2880]	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m778_Chim0	 BUFFER[2881]	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m778_Chim0	 856	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m770_Chim0	 BUFFER[2885]	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m770_Chim0	 BUFFER[2886]	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m770_Chim0	 857	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m761_Chim0	 BUFFER[2890]	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m761_Chim0	 BUFFER[2891]	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m761_Chim0	 858	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m752_Chim0	 BUFFER[2895]	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m752_Chim0	 BUFFER[2896]	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m752_Chim0	 859	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m744_Chim0	 BUFFER[2900]	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m744_Chim0	 BUFFER[2901]	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m744_Chim0	 860	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m735_Chim0	 BUFFER[2905]	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m735_Chim0	 BUFFER[2906]	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m735_Chim0	 861	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m726_Chim0	 BUFFER[2910]	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m726_Chim0	 BUFFER[2911]	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m726_Chim0	 862	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m718_Chim0	 BUFFER[2915]	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m718_Chim0	 BUFFER[2916]	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m718_Chim0	 863	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m592_Pav0	 BUFFER[2920]	//(internal1_m592_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m592_Pav0	 BUFFER[2921]	//(internal1_m592_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m592_Pav0	 864	//(internal1_m592_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m592_Zav0	 BUFFER[2922]	//(internal1_m592_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m592_Zav0	 BUFFER[2923]	//(internal1_m592_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m592_Zav0	 865	//(internal1_m592_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m592_Pv0	 BUFFER[2924]	//(internal1_m592_Pv0)  - Пер. выключатель механизма
+#define internal1_m592_Pv0	 BUFFER[2925]	//(internal1_m592_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m592_Pv0	 866	//(internal1_m592_Pv0)  - Пер. выключатель механизма
-#define internal1_m592_Zv0	 BUFFER[2926]	//(internal1_m592_Zv0)  - Зад. выключатель механизма
+#define internal1_m592_Zv0	 BUFFER[2927]	//(internal1_m592_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m592_Zv0	 867	//(internal1_m592_Zv0)  - Зад. выключатель механизма
-#define internal1_m592_RA00	 BUFFER[2928]	//(internal1_m592_RA00)  - последнее задание вперед
+#define internal1_m592_RA00	 BUFFER[2929]	//(internal1_m592_RA00)  - последнее задание вперед
 #define idinternal1_m592_RA00	 868	//(internal1_m592_RA00)  - последнее задание вперед
-#define internal1_m592_RA10	 BUFFER[2930]	//(internal1_m592_RA10)  - последнее задание назад
+#define internal1_m592_RA10	 BUFFER[2931]	//(internal1_m592_RA10)  - последнее задание назад
 #define idinternal1_m592_RA10	 869	//(internal1_m592_RA10)  - последнее задание назад
-#define internal1_m592_MyFirstEnterFlag	 BUFFER[2932]	//(internal1_m592_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m592_MyFirstEnterFlag	 BUFFER[2933]	//(internal1_m592_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m592_MyFirstEnterFlag	 870	//(internal1_m592_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m577_Pav0	 BUFFER[2934]	//(internal1_m577_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m577_Pav0	 BUFFER[2935]	//(internal1_m577_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m577_Pav0	 871	//(internal1_m577_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m577_Zav0	 BUFFER[2936]	//(internal1_m577_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m577_Zav0	 BUFFER[2937]	//(internal1_m577_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m577_Zav0	 872	//(internal1_m577_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m577_Pv0	 BUFFER[2938]	//(internal1_m577_Pv0)  - Пер. выключатель механизма
+#define internal1_m577_Pv0	 BUFFER[2939]	//(internal1_m577_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m577_Pv0	 873	//(internal1_m577_Pv0)  - Пер. выключатель механизма
-#define internal1_m577_Zv0	 BUFFER[2940]	//(internal1_m577_Zv0)  - Зад. выключатель механизма
+#define internal1_m577_Zv0	 BUFFER[2941]	//(internal1_m577_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m577_Zv0	 874	//(internal1_m577_Zv0)  - Зад. выключатель механизма
-#define internal1_m577_RA00	 BUFFER[2942]	//(internal1_m577_RA00)  - последнее задание вперед
+#define internal1_m577_RA00	 BUFFER[2943]	//(internal1_m577_RA00)  - последнее задание вперед
 #define idinternal1_m577_RA00	 875	//(internal1_m577_RA00)  - последнее задание вперед
-#define internal1_m577_RA10	 BUFFER[2944]	//(internal1_m577_RA10)  - последнее задание назад
+#define internal1_m577_RA10	 BUFFER[2945]	//(internal1_m577_RA10)  - последнее задание назад
 #define idinternal1_m577_RA10	 876	//(internal1_m577_RA10)  - последнее задание назад
-#define internal1_m577_MyFirstEnterFlag	 BUFFER[2946]	//(internal1_m577_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m577_MyFirstEnterFlag	 BUFFER[2947]	//(internal1_m577_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m577_MyFirstEnterFlag	 877	//(internal1_m577_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m463_Pav0	 BUFFER[2948]	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m463_Pav0	 BUFFER[2949]	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m463_Pav0	 878	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m463_Zav0	 BUFFER[2950]	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m463_Zav0	 BUFFER[2951]	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m463_Zav0	 879	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m463_Pv0	 BUFFER[2952]	//(internal1_m463_Pv0)  - Пер. выключатель механизма
+#define internal1_m463_Pv0	 BUFFER[2953]	//(internal1_m463_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m463_Pv0	 880	//(internal1_m463_Pv0)  - Пер. выключатель механизма
-#define internal1_m463_Zv0	 BUFFER[2954]	//(internal1_m463_Zv0)  - Зад. выключатель механизма
+#define internal1_m463_Zv0	 BUFFER[2955]	//(internal1_m463_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m463_Zv0	 881	//(internal1_m463_Zv0)  - Зад. выключатель механизма
-#define internal1_m463_RA00	 BUFFER[2956]	//(internal1_m463_RA00)  - последнее задание вперед
+#define internal1_m463_RA00	 BUFFER[2957]	//(internal1_m463_RA00)  - последнее задание вперед
 #define idinternal1_m463_RA00	 882	//(internal1_m463_RA00)  - последнее задание вперед
-#define internal1_m463_RA10	 BUFFER[2958]	//(internal1_m463_RA10)  - последнее задание назад
+#define internal1_m463_RA10	 BUFFER[2959]	//(internal1_m463_RA10)  - последнее задание назад
 #define idinternal1_m463_RA10	 883	//(internal1_m463_RA10)  - последнее задание назад
-#define internal1_m463_MyFirstEnterFlag	 BUFFER[2960]	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m463_MyFirstEnterFlag	 BUFFER[2961]	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m463_MyFirstEnterFlag	 884	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m448_Pav0	 BUFFER[2962]	//(internal1_m448_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m448_Pav0	 BUFFER[2963]	//(internal1_m448_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m448_Pav0	 885	//(internal1_m448_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m448_Zav0	 BUFFER[2964]	//(internal1_m448_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m448_Zav0	 BUFFER[2965]	//(internal1_m448_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m448_Zav0	 886	//(internal1_m448_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m448_Pv0	 BUFFER[2966]	//(internal1_m448_Pv0)  - Пер. выключатель механизма
+#define internal1_m448_Pv0	 BUFFER[2967]	//(internal1_m448_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m448_Pv0	 887	//(internal1_m448_Pv0)  - Пер. выключатель механизма
-#define internal1_m448_Zv0	 BUFFER[2968]	//(internal1_m448_Zv0)  - Зад. выключатель механизма
+#define internal1_m448_Zv0	 BUFFER[2969]	//(internal1_m448_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m448_Zv0	 888	//(internal1_m448_Zv0)  - Зад. выключатель механизма
-#define internal1_m448_RA00	 BUFFER[2970]	//(internal1_m448_RA00)  - последнее задание вперед
+#define internal1_m448_RA00	 BUFFER[2971]	//(internal1_m448_RA00)  - последнее задание вперед
 #define idinternal1_m448_RA00	 889	//(internal1_m448_RA00)  - последнее задание вперед
-#define internal1_m448_RA10	 BUFFER[2972]	//(internal1_m448_RA10)  - последнее задание назад
+#define internal1_m448_RA10	 BUFFER[2973]	//(internal1_m448_RA10)  - последнее задание назад
 #define idinternal1_m448_RA10	 890	//(internal1_m448_RA10)  - последнее задание назад
-#define internal1_m448_MyFirstEnterFlag	 BUFFER[2974]	//(internal1_m448_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m448_MyFirstEnterFlag	 BUFFER[2975]	//(internal1_m448_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m448_MyFirstEnterFlag	 891	//(internal1_m448_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m504_Pav0	 BUFFER[2976]	//(internal1_m504_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m504_Pav0	 BUFFER[2977]	//(internal1_m504_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m504_Pav0	 892	//(internal1_m504_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m504_Zav0	 BUFFER[2978]	//(internal1_m504_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m504_Zav0	 BUFFER[2979]	//(internal1_m504_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m504_Zav0	 893	//(internal1_m504_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m504_Pv0	 BUFFER[2980]	//(internal1_m504_Pv0)  - Пер. выключатель механизма
+#define internal1_m504_Pv0	 BUFFER[2981]	//(internal1_m504_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m504_Pv0	 894	//(internal1_m504_Pv0)  - Пер. выключатель механизма
-#define internal1_m504_Zv0	 BUFFER[2982]	//(internal1_m504_Zv0)  - Зад. выключатель механизма
+#define internal1_m504_Zv0	 BUFFER[2983]	//(internal1_m504_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m504_Zv0	 895	//(internal1_m504_Zv0)  - Зад. выключатель механизма
-#define internal1_m504_RA00	 BUFFER[2984]	//(internal1_m504_RA00)  - последнее задание вперед
+#define internal1_m504_RA00	 BUFFER[2985]	//(internal1_m504_RA00)  - последнее задание вперед
 #define idinternal1_m504_RA00	 896	//(internal1_m504_RA00)  - последнее задание вперед
-#define internal1_m504_RA10	 BUFFER[2986]	//(internal1_m504_RA10)  - последнее задание назад
+#define internal1_m504_RA10	 BUFFER[2987]	//(internal1_m504_RA10)  - последнее задание назад
 #define idinternal1_m504_RA10	 897	//(internal1_m504_RA10)  - последнее задание назад
-#define internal1_m504_MyFirstEnterFlag	 BUFFER[2988]	//(internal1_m504_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m504_MyFirstEnterFlag	 BUFFER[2989]	//(internal1_m504_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m504_MyFirstEnterFlag	 898	//(internal1_m504_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m399_Pav0	 BUFFER[2990]	//(internal1_m399_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m399_Pav0	 BUFFER[2991]	//(internal1_m399_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m399_Pav0	 899	//(internal1_m399_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m399_Zav0	 BUFFER[2992]	//(internal1_m399_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m399_Zav0	 BUFFER[2993]	//(internal1_m399_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m399_Zav0	 900	//(internal1_m399_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m399_Pv0	 BUFFER[2994]	//(internal1_m399_Pv0)  - Пер. выключатель механизма
+#define internal1_m399_Pv0	 BUFFER[2995]	//(internal1_m399_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m399_Pv0	 901	//(internal1_m399_Pv0)  - Пер. выключатель механизма
-#define internal1_m399_Zv0	 BUFFER[2996]	//(internal1_m399_Zv0)  - Зад. выключатель механизма
+#define internal1_m399_Zv0	 BUFFER[2997]	//(internal1_m399_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m399_Zv0	 902	//(internal1_m399_Zv0)  - Зад. выключатель механизма
-#define internal1_m399_RA00	 BUFFER[2998]	//(internal1_m399_RA00)  - последнее задание вперед
+#define internal1_m399_RA00	 BUFFER[2999]	//(internal1_m399_RA00)  - последнее задание вперед
 #define idinternal1_m399_RA00	 903	//(internal1_m399_RA00)  - последнее задание вперед
-#define internal1_m399_RA10	 BUFFER[3000]	//(internal1_m399_RA10)  - последнее задание назад
+#define internal1_m399_RA10	 BUFFER[3001]	//(internal1_m399_RA10)  - последнее задание назад
 #define idinternal1_m399_RA10	 904	//(internal1_m399_RA10)  - последнее задание назад
-#define internal1_m399_MyFirstEnterFlag	 BUFFER[3002]	//(internal1_m399_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m399_MyFirstEnterFlag	 BUFFER[3003]	//(internal1_m399_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m399_MyFirstEnterFlag	 905	//(internal1_m399_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m383_Pav0	 BUFFER[3004]	//(internal1_m383_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m383_Pav0	 BUFFER[3005]	//(internal1_m383_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m383_Pav0	 906	//(internal1_m383_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m383_Zav0	 BUFFER[3006]	//(internal1_m383_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m383_Zav0	 BUFFER[3007]	//(internal1_m383_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m383_Zav0	 907	//(internal1_m383_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m383_Pv0	 BUFFER[3008]	//(internal1_m383_Pv0)  - Пер. выключатель механизма
+#define internal1_m383_Pv0	 BUFFER[3009]	//(internal1_m383_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m383_Pv0	 908	//(internal1_m383_Pv0)  - Пер. выключатель механизма
-#define internal1_m383_Zv0	 BUFFER[3010]	//(internal1_m383_Zv0)  - Зад. выключатель механизма
+#define internal1_m383_Zv0	 BUFFER[3011]	//(internal1_m383_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m383_Zv0	 909	//(internal1_m383_Zv0)  - Зад. выключатель механизма
-#define internal1_m383_RA00	 BUFFER[3012]	//(internal1_m383_RA00)  - последнее задание вперед
+#define internal1_m383_RA00	 BUFFER[3013]	//(internal1_m383_RA00)  - последнее задание вперед
 #define idinternal1_m383_RA00	 910	//(internal1_m383_RA00)  - последнее задание вперед
-#define internal1_m383_RA10	 BUFFER[3014]	//(internal1_m383_RA10)  - последнее задание назад
+#define internal1_m383_RA10	 BUFFER[3015]	//(internal1_m383_RA10)  - последнее задание назад
 #define idinternal1_m383_RA10	 911	//(internal1_m383_RA10)  - последнее задание назад
-#define internal1_m383_MyFirstEnterFlag	 BUFFER[3016]	//(internal1_m383_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m383_MyFirstEnterFlag	 BUFFER[3017]	//(internal1_m383_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m383_MyFirstEnterFlag	 912	//(internal1_m383_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m366_Pav0	 BUFFER[3018]	//(internal1_m366_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m366_Pav0	 BUFFER[3019]	//(internal1_m366_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m366_Pav0	 913	//(internal1_m366_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m366_Zav0	 BUFFER[3020]	//(internal1_m366_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m366_Zav0	 BUFFER[3021]	//(internal1_m366_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m366_Zav0	 914	//(internal1_m366_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m366_Pv0	 BUFFER[3022]	//(internal1_m366_Pv0)  - Пер. выключатель механизма
+#define internal1_m366_Pv0	 BUFFER[3023]	//(internal1_m366_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m366_Pv0	 915	//(internal1_m366_Pv0)  - Пер. выключатель механизма
-#define internal1_m366_Zv0	 BUFFER[3024]	//(internal1_m366_Zv0)  - Зад. выключатель механизма
+#define internal1_m366_Zv0	 BUFFER[3025]	//(internal1_m366_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m366_Zv0	 916	//(internal1_m366_Zv0)  - Зад. выключатель механизма
-#define internal1_m366_RA00	 BUFFER[3026]	//(internal1_m366_RA00)  - последнее задание вперед
+#define internal1_m366_RA00	 BUFFER[3027]	//(internal1_m366_RA00)  - последнее задание вперед
 #define idinternal1_m366_RA00	 917	//(internal1_m366_RA00)  - последнее задание вперед
-#define internal1_m366_RA10	 BUFFER[3028]	//(internal1_m366_RA10)  - последнее задание назад
+#define internal1_m366_RA10	 BUFFER[3029]	//(internal1_m366_RA10)  - последнее задание назад
 #define idinternal1_m366_RA10	 918	//(internal1_m366_RA10)  - последнее задание назад
-#define internal1_m366_MyFirstEnterFlag	 BUFFER[3030]	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m366_MyFirstEnterFlag	 BUFFER[3031]	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m366_MyFirstEnterFlag	 919	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m906_Pav0	 BUFFER[3032]	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m906_Pav0	 BUFFER[3033]	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m906_Pav0	 920	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m906_Zav0	 BUFFER[3034]	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m906_Zav0	 BUFFER[3035]	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
 #define idinternal1_m906_Zav0	 921	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m906_Pv0	 BUFFER[3036]	//(internal1_m906_Pv0)  - Пер. выключатель механизма
+#define internal1_m906_Pv0	 BUFFER[3037]	//(internal1_m906_Pv0)  - Пер. выключатель механизма
 #define idinternal1_m906_Pv0	 922	//(internal1_m906_Pv0)  - Пер. выключатель механизма
-#define internal1_m906_Zv0	 BUFFER[3038]	//(internal1_m906_Zv0)  - Зад. выключатель механизма
+#define internal1_m906_Zv0	 BUFFER[3039]	//(internal1_m906_Zv0)  - Зад. выключатель механизма
 #define idinternal1_m906_Zv0	 923	//(internal1_m906_Zv0)  - Зад. выключатель механизма
-#define internal1_m906_RA00	 BUFFER[3040]	//(internal1_m906_RA00)  - последнее задание вперед
+#define internal1_m906_RA00	 BUFFER[3041]	//(internal1_m906_RA00)  - последнее задание вперед
 #define idinternal1_m906_RA00	 924	//(internal1_m906_RA00)  - последнее задание вперед
-#define internal1_m906_RA10	 BUFFER[3042]	//(internal1_m906_RA10)  - последнее задание назад
+#define internal1_m906_RA10	 BUFFER[3043]	//(internal1_m906_RA10)  - последнее задание назад
 #define idinternal1_m906_RA10	 925	//(internal1_m906_RA10)  - последнее задание назад
-#define internal1_m906_MyFirstEnterFlag	 BUFFER[3044]	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m906_MyFirstEnterFlag	 BUFFER[3045]	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m906_MyFirstEnterFlag	 926	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m182_C1	 BUFFER[3046]	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
+#define internal1_m182_C1	 BUFFER[3047]	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define idinternal1_m182_C1	 927	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
-#define internal1_m182_C2	 BUFFER[3051]	//(internal1_m182_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
+#define internal1_m182_C2	 BUFFER[3052]	//(internal1_m182_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
 #define idinternal1_m182_C2	 928	//(internal1_m182_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
-#define internal1_m182_C3	 BUFFER[3056]	//(internal1_m182_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
+#define internal1_m182_C3	 BUFFER[3057]	//(internal1_m182_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
 #define idinternal1_m182_C3	 929	//(internal1_m182_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
-#define internal1_m182_C4	 BUFFER[3061]	//(internal1_m182_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
+#define internal1_m182_C4	 BUFFER[3062]	//(internal1_m182_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
 #define idinternal1_m182_C4	 930	//(internal1_m182_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
-#define internal1_m182_C5	 BUFFER[3066]	//(internal1_m182_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
+#define internal1_m182_C5	 BUFFER[3067]	//(internal1_m182_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
 #define idinternal1_m182_C5	 931	//(internal1_m182_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
-#define internal1_m182_C6	 BUFFER[3071]	//(internal1_m182_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
+#define internal1_m182_C6	 BUFFER[3072]	//(internal1_m182_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
 #define idinternal1_m182_C6	 932	//(internal1_m182_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
-#define internal1_m182_N20	 BUFFER[3076]	//(internal1_m182_N20) N20 - пред. концентрация нейтронов второй АЗ
+#define internal1_m182_N20	 BUFFER[3077]	//(internal1_m182_N20) N20 - пред. концентрация нейтронов второй АЗ
 #define idinternal1_m182_N20	 933	//(internal1_m182_N20) N20 - пред. концентрация нейтронов второй АЗ
-#define internal1_m182_C0	 BUFFER[3081]	//(internal1_m182_C0) *C0 - пред. концентрация запаздывающих нейтронов
+#define internal1_m182_C0	 BUFFER[3082]	//(internal1_m182_C0) *C0 - пред. концентрация запаздывающих нейтронов
 #define idinternal1_m182_C0	 934	//(internal1_m182_C0) *C0 - пред. концентрация запаздывающих нейтронов
-#define internal1_m182_ImpINI0	 BUFFER[3111]	//(internal1_m182_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
+#define internal1_m182_ImpINI0	 BUFFER[3112]	//(internal1_m182_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
 #define idinternal1_m182_ImpINI0	 935	//(internal1_m182_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
-#define internal1_m182_MyFirstEnterFlag	 BUFFER[3113]	//(internal1_m182_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m182_MyFirstEnterFlag	 BUFFER[3114]	//(internal1_m182_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m182_MyFirstEnterFlag	 936	//(internal1_m182_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m300_Ppv0	 BUFFER[3115]	//(internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m300_Ppv0	 BUFFER[3116]	//(internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m300_Ppv0	 937	//(internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m300_Pav0	 BUFFER[3117]	//(internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m300_Pav0	 BUFFER[3118]	//(internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m300_Pav0	 938	//(internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m300_Zav0	 BUFFER[3119]	//(internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m300_Zav0	 BUFFER[3120]	//(internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m300_Zav0	 939	//(internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m300_RA00	 BUFFER[3121]	//(internal1_m300_RA00) RA00 - последнее задание вперед
+#define internal1_m300_RA00	 BUFFER[3122]	//(internal1_m300_RA00) RA00 - последнее задание вперед
 #define idinternal1_m300_RA00	 940	//(internal1_m300_RA00) RA00 - последнее задание вперед
-#define internal1_m300_RA10	 BUFFER[3123]	//(internal1_m300_RA10) RA10 - последнее задание назад
+#define internal1_m300_RA10	 BUFFER[3124]	//(internal1_m300_RA10) RA10 - последнее задание назад
 #define idinternal1_m300_RA10	 941	//(internal1_m300_RA10) RA10 - последнее задание назад
-#define internal1_m300_RA50	 BUFFER[3125]	//(internal1_m300_RA50) Ra50 - последнее задание скорости
+#define internal1_m300_RA50	 BUFFER[3126]	//(internal1_m300_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m300_RA50	 942	//(internal1_m300_RA50) Ra50 - последнее задание скорости
-#define internal1_m300_fls	 BUFFER[3126]	//(internal1_m300_fls)  fls - флаг одношагового режима
+#define internal1_m300_fls	 BUFFER[3127]	//(internal1_m300_fls)  fls - флаг одношагового режима
 #define idinternal1_m300_fls	 943	//(internal1_m300_fls)  fls - флаг одношагового режима
-#define internal1_m300_flp	 BUFFER[3128]	//(internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m300_flp	 BUFFER[3129]	//(internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m300_flp	 944	//(internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m300_MyFirstEnterFlag	 BUFFER[3130]	//(internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m300_MyFirstEnterFlag	 BUFFER[3131]	//(internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m300_MyFirstEnterFlag	 945	//(internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m133_Ppv0	 BUFFER[3132]	//(internal1_m133_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m133_Ppv0	 BUFFER[3133]	//(internal1_m133_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m133_Ppv0	 946	//(internal1_m133_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m133_Pav0	 BUFFER[3134]	//(internal1_m133_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m133_Pav0	 BUFFER[3135]	//(internal1_m133_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m133_Pav0	 947	//(internal1_m133_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m133_Zav0	 BUFFER[3136]	//(internal1_m133_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m133_Zav0	 BUFFER[3137]	//(internal1_m133_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m133_Zav0	 948	//(internal1_m133_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m133_RA00	 BUFFER[3138]	//(internal1_m133_RA00) RA00 - последнее задание вперед
+#define internal1_m133_RA00	 BUFFER[3139]	//(internal1_m133_RA00) RA00 - последнее задание вперед
 #define idinternal1_m133_RA00	 949	//(internal1_m133_RA00) RA00 - последнее задание вперед
-#define internal1_m133_RA10	 BUFFER[3140]	//(internal1_m133_RA10) RA10 - последнее задание назад
+#define internal1_m133_RA10	 BUFFER[3141]	//(internal1_m133_RA10) RA10 - последнее задание назад
 #define idinternal1_m133_RA10	 950	//(internal1_m133_RA10) RA10 - последнее задание назад
-#define internal1_m133_RA50	 BUFFER[3142]	//(internal1_m133_RA50) Ra50 - последнее задание скорости
+#define internal1_m133_RA50	 BUFFER[3143]	//(internal1_m133_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m133_RA50	 951	//(internal1_m133_RA50) Ra50 - последнее задание скорости
-#define internal1_m133_fls	 BUFFER[3143]	//(internal1_m133_fls)  fls - флаг одношагового режима
+#define internal1_m133_fls	 BUFFER[3144]	//(internal1_m133_fls)  fls - флаг одношагового режима
 #define idinternal1_m133_fls	 952	//(internal1_m133_fls)  fls - флаг одношагового режима
-#define internal1_m133_flp	 BUFFER[3145]	//(internal1_m133_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m133_flp	 BUFFER[3146]	//(internal1_m133_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m133_flp	 953	//(internal1_m133_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m133_MyFirstEnterFlag	 BUFFER[3147]	//(internal1_m133_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m133_MyFirstEnterFlag	 BUFFER[3148]	//(internal1_m133_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m133_MyFirstEnterFlag	 954	//(internal1_m133_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m266_Ppv0	 BUFFER[3149]	//(internal1_m266_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m266_Ppv0	 BUFFER[3150]	//(internal1_m266_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m266_Ppv0	 955	//(internal1_m266_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m266_Pav0	 BUFFER[3151]	//(internal1_m266_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m266_Pav0	 BUFFER[3152]	//(internal1_m266_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m266_Pav0	 956	//(internal1_m266_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m266_Zav0	 BUFFER[3153]	//(internal1_m266_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m266_Zav0	 BUFFER[3154]	//(internal1_m266_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m266_Zav0	 957	//(internal1_m266_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m266_RA00	 BUFFER[3155]	//(internal1_m266_RA00) RA00 - последнее задание вперед
+#define internal1_m266_RA00	 BUFFER[3156]	//(internal1_m266_RA00) RA00 - последнее задание вперед
 #define idinternal1_m266_RA00	 958	//(internal1_m266_RA00) RA00 - последнее задание вперед
-#define internal1_m266_RA10	 BUFFER[3157]	//(internal1_m266_RA10) RA10 - последнее задание назад
+#define internal1_m266_RA10	 BUFFER[3158]	//(internal1_m266_RA10) RA10 - последнее задание назад
 #define idinternal1_m266_RA10	 959	//(internal1_m266_RA10) RA10 - последнее задание назад
-#define internal1_m266_RA50	 BUFFER[3159]	//(internal1_m266_RA50) Ra50 - последнее задание скорости
+#define internal1_m266_RA50	 BUFFER[3160]	//(internal1_m266_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m266_RA50	 960	//(internal1_m266_RA50) Ra50 - последнее задание скорости
-#define internal1_m266_fls	 BUFFER[3160]	//(internal1_m266_fls)  fls - флаг одношагового режима
+#define internal1_m266_fls	 BUFFER[3161]	//(internal1_m266_fls)  fls - флаг одношагового режима
 #define idinternal1_m266_fls	 961	//(internal1_m266_fls)  fls - флаг одношагового режима
-#define internal1_m266_flp	 BUFFER[3162]	//(internal1_m266_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m266_flp	 BUFFER[3163]	//(internal1_m266_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m266_flp	 962	//(internal1_m266_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m266_MyFirstEnterFlag	 BUFFER[3164]	//(internal1_m266_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m266_MyFirstEnterFlag	 BUFFER[3165]	//(internal1_m266_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m266_MyFirstEnterFlag	 963	//(internal1_m266_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m96_Ppv0	 BUFFER[3166]	//(internal1_m96_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m96_Ppv0	 BUFFER[3167]	//(internal1_m96_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m96_Ppv0	 964	//(internal1_m96_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m96_Pav0	 BUFFER[3168]	//(internal1_m96_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m96_Pav0	 BUFFER[3169]	//(internal1_m96_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m96_Pav0	 965	//(internal1_m96_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m96_Zav0	 BUFFER[3170]	//(internal1_m96_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m96_Zav0	 BUFFER[3171]	//(internal1_m96_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m96_Zav0	 966	//(internal1_m96_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m96_RA00	 BUFFER[3172]	//(internal1_m96_RA00) RA00 - последнее задание вперед
+#define internal1_m96_RA00	 BUFFER[3173]	//(internal1_m96_RA00) RA00 - последнее задание вперед
 #define idinternal1_m96_RA00	 967	//(internal1_m96_RA00) RA00 - последнее задание вперед
-#define internal1_m96_RA10	 BUFFER[3174]	//(internal1_m96_RA10) RA10 - последнее задание назад
+#define internal1_m96_RA10	 BUFFER[3175]	//(internal1_m96_RA10) RA10 - последнее задание назад
 #define idinternal1_m96_RA10	 968	//(internal1_m96_RA10) RA10 - последнее задание назад
-#define internal1_m96_RA50	 BUFFER[3176]	//(internal1_m96_RA50) Ra50 - последнее задание скорости
+#define internal1_m96_RA50	 BUFFER[3177]	//(internal1_m96_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m96_RA50	 969	//(internal1_m96_RA50) Ra50 - последнее задание скорости
-#define internal1_m96_fls	 BUFFER[3177]	//(internal1_m96_fls)  fls - флаг одношагового режима
+#define internal1_m96_fls	 BUFFER[3178]	//(internal1_m96_fls)  fls - флаг одношагового режима
 #define idinternal1_m96_fls	 970	//(internal1_m96_fls)  fls - флаг одношагового режима
-#define internal1_m96_flp	 BUFFER[3179]	//(internal1_m96_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m96_flp	 BUFFER[3180]	//(internal1_m96_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m96_flp	 971	//(internal1_m96_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m96_MyFirstEnterFlag	 BUFFER[3181]	//(internal1_m96_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m96_MyFirstEnterFlag	 BUFFER[3182]	//(internal1_m96_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m96_MyFirstEnterFlag	 972	//(internal1_m96_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m229_Ppv0	 BUFFER[3183]	//(internal1_m229_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m229_Ppv0	 BUFFER[3184]	//(internal1_m229_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m229_Ppv0	 973	//(internal1_m229_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m229_Pav0	 BUFFER[3185]	//(internal1_m229_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m229_Pav0	 BUFFER[3186]	//(internal1_m229_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m229_Pav0	 974	//(internal1_m229_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m229_Zav0	 BUFFER[3187]	//(internal1_m229_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m229_Zav0	 BUFFER[3188]	//(internal1_m229_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m229_Zav0	 975	//(internal1_m229_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m229_RA00	 BUFFER[3189]	//(internal1_m229_RA00) RA00 - последнее задание вперед
+#define internal1_m229_RA00	 BUFFER[3190]	//(internal1_m229_RA00) RA00 - последнее задание вперед
 #define idinternal1_m229_RA00	 976	//(internal1_m229_RA00) RA00 - последнее задание вперед
-#define internal1_m229_RA10	 BUFFER[3191]	//(internal1_m229_RA10) RA10 - последнее задание назад
+#define internal1_m229_RA10	 BUFFER[3192]	//(internal1_m229_RA10) RA10 - последнее задание назад
 #define idinternal1_m229_RA10	 977	//(internal1_m229_RA10) RA10 - последнее задание назад
-#define internal1_m229_RA50	 BUFFER[3193]	//(internal1_m229_RA50) Ra50 - последнее задание скорости
+#define internal1_m229_RA50	 BUFFER[3194]	//(internal1_m229_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m229_RA50	 978	//(internal1_m229_RA50) Ra50 - последнее задание скорости
-#define internal1_m229_fls	 BUFFER[3194]	//(internal1_m229_fls)  fls - флаг одношагового режима
+#define internal1_m229_fls	 BUFFER[3195]	//(internal1_m229_fls)  fls - флаг одношагового режима
 #define idinternal1_m229_fls	 979	//(internal1_m229_fls)  fls - флаг одношагового режима
-#define internal1_m229_flp	 BUFFER[3196]	//(internal1_m229_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m229_flp	 BUFFER[3197]	//(internal1_m229_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m229_flp	 980	//(internal1_m229_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m229_MyFirstEnterFlag	 BUFFER[3198]	//(internal1_m229_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m229_MyFirstEnterFlag	 BUFFER[3199]	//(internal1_m229_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m229_MyFirstEnterFlag	 981	//(internal1_m229_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m60_Ppv0	 BUFFER[3200]	//(internal1_m60_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m60_Ppv0	 BUFFER[3201]	//(internal1_m60_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
 #define idinternal1_m60_Ppv0	 982	//(internal1_m60_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m60_Pav0	 BUFFER[3202]	//(internal1_m60_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m60_Pav0	 BUFFER[3203]	//(internal1_m60_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 #define idinternal1_m60_Pav0	 983	//(internal1_m60_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m60_Zav0	 BUFFER[3204]	//(internal1_m60_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m60_Zav0	 BUFFER[3205]	//(internal1_m60_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 #define idinternal1_m60_Zav0	 984	//(internal1_m60_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m60_RA00	 BUFFER[3206]	//(internal1_m60_RA00) RA00 - последнее задание вперед
+#define internal1_m60_RA00	 BUFFER[3207]	//(internal1_m60_RA00) RA00 - последнее задание вперед
 #define idinternal1_m60_RA00	 985	//(internal1_m60_RA00) RA00 - последнее задание вперед
-#define internal1_m60_RA10	 BUFFER[3208]	//(internal1_m60_RA10) RA10 - последнее задание назад
+#define internal1_m60_RA10	 BUFFER[3209]	//(internal1_m60_RA10) RA10 - последнее задание назад
 #define idinternal1_m60_RA10	 986	//(internal1_m60_RA10) RA10 - последнее задание назад
-#define internal1_m60_RA50	 BUFFER[3210]	//(internal1_m60_RA50) Ra50 - последнее задание скорости
+#define internal1_m60_RA50	 BUFFER[3211]	//(internal1_m60_RA50) Ra50 - последнее задание скорости
 #define idinternal1_m60_RA50	 987	//(internal1_m60_RA50) Ra50 - последнее задание скорости
-#define internal1_m60_fls	 BUFFER[3211]	//(internal1_m60_fls)  fls - флаг одношагового режима
+#define internal1_m60_fls	 BUFFER[3212]	//(internal1_m60_fls)  fls - флаг одношагового режима
 #define idinternal1_m60_fls	 988	//(internal1_m60_fls)  fls - флаг одношагового режима
-#define internal1_m60_flp	 BUFFER[3213]	//(internal1_m60_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m60_flp	 BUFFER[3214]	//(internal1_m60_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define idinternal1_m60_flp	 989	//(internal1_m60_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m60_MyFirstEnterFlag	 BUFFER[3215]	//(internal1_m60_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m60_MyFirstEnterFlag	 BUFFER[3216]	//(internal1_m60_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m60_MyFirstEnterFlag	 990	//(internal1_m60_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m14_C1	 BUFFER[3217]	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
+#define internal1_m14_C1	 BUFFER[3218]	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define idinternal1_m14_C1	 991	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
-#define internal1_m14_C2	 BUFFER[3222]	//(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
+#define internal1_m14_C2	 BUFFER[3223]	//(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
 #define idinternal1_m14_C2	 992	//(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
-#define internal1_m14_C3	 BUFFER[3227]	//(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
+#define internal1_m14_C3	 BUFFER[3228]	//(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
 #define idinternal1_m14_C3	 993	//(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
-#define internal1_m14_C4	 BUFFER[3232]	//(internal1_m14_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
+#define internal1_m14_C4	 BUFFER[3233]	//(internal1_m14_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
 #define idinternal1_m14_C4	 994	//(internal1_m14_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
-#define internal1_m14_C5	 BUFFER[3237]	//(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
+#define internal1_m14_C5	 BUFFER[3238]	//(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
 #define idinternal1_m14_C5	 995	//(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
-#define internal1_m14_C6	 BUFFER[3242]	//(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
+#define internal1_m14_C6	 BUFFER[3243]	//(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
 #define idinternal1_m14_C6	 996	//(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
-#define internal1_m14_N20	 BUFFER[3247]	//(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ
+#define internal1_m14_N20	 BUFFER[3248]	//(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ
 #define idinternal1_m14_N20	 997	//(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ
-#define internal1_m14_C0	 BUFFER[3252]	//(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов
+#define internal1_m14_C0	 BUFFER[3253]	//(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов
 #define idinternal1_m14_C0	 998	//(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов
-#define internal1_m14_ImpINI0	 BUFFER[3282]	//(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
+#define internal1_m14_ImpINI0	 BUFFER[3283]	//(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
 #define idinternal1_m14_ImpINI0	 999	//(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
-#define internal1_m14_MyFirstEnterFlag	 BUFFER[3284]	//(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m14_MyFirstEnterFlag	 BUFFER[3285]	//(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m14_MyFirstEnterFlag	 1000	//(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
@@ -2097,19 +2097,19 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 84	,8	,1	, &R0IN01FI4},	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
 	{ 85	,8	,1	, &R0IN01FI1},	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
 	{ 86	,1	,1	, &B7AP31LDU},	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
-	{ 87	,8	,1	, &B0SN07RIM},	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-	{ 88	,8	,1	, &B0SN06RIM},	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-	{ 89	,8	,1	, &B0SN05RIM},	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-	{ 90	,8	,1	, &B0SN04RIM},	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-	{ 91	,8	,1	, &B0SN03RIM},	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-	{ 92	,8	,1	, &B0SN02RIM},	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-	{ 93	,8	,1	, &A0SN07RIM},	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-	{ 94	,8	,1	, &A0SN06RIM},	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-	{ 95	,8	,1	, &A0SN05RIM},	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-	{ 96	,8	,1	, &A0SN04RIM},	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-	{ 97	,8	,1	, &A0SN03RIM},	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-	{ 98	,8	,1	, &A0SN02RIM},	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-	{ 99	,1	,1	, &R0IS01LDU},	//(R0IS01LDU) Признак работы с имитатором
+	{ 87	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
+	{ 88	,8	,1	, &B0SN07RIM},	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+	{ 89	,8	,1	, &B0SN06RIM},	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+	{ 90	,8	,1	, &B0SN05RIM},	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+	{ 91	,8	,1	, &B0SN04RIM},	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+	{ 92	,8	,1	, &B0SN03RIM},	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+	{ 93	,8	,1	, &B0SN02RIM},	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+	{ 94	,8	,1	, &A0SN07RIM},	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+	{ 95	,8	,1	, &A0SN06RIM},	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+	{ 96	,8	,1	, &A0SN05RIM},	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+	{ 97	,8	,1	, &A0SN04RIM},	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+	{ 98	,8	,1	, &A0SN03RIM},	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+	{ 99	,8	,1	, &A0SN02RIM},	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 	{ 100	,3	,1	, &A0IT03IRP},	//(A0IT03IRP) Температура АЗ1-3
 	{ 101	,3	,1	, &B0IT03IRP},	//(B0IT03IRP) Температура АЗ2-3
 	{ 102	,8	,1	, &R0IN03FI3},	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
@@ -3982,7 +3982,6 @@ static ModbusRegister coil_SA1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SA1[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -3991,6 +3990,7 @@ static ModbusRegister ir_SA1[]={  //
 	{&R0IN01FI1,8,0},	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN02FI1,8,2},	//(R0IN02FI1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI1,8,4},	//(R0IN03FI1) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4006,7 +4006,6 @@ static ModbusRegister coil_SA2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SA2[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4015,6 +4014,7 @@ static ModbusRegister ir_SA2[]={  //
 	{&R0IN01FI2,8,0},	//(R0IN01FI2) Выход КНК15-1 Гц от ПТИ
 	{&R0IN02FI2,8,2},	//(R0IN02FI2) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI2,8,4},	//(R0IN03FI2) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4030,7 +4030,6 @@ static ModbusRegister coil_SA3[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SA3[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4039,6 +4038,7 @@ static ModbusRegister ir_SA3[]={  //
 	{&R0IN01FI3,8,0},	//(R0IN01FI3) Выход СНМ-11 Гц от ПТИ
 	{&R0IN02FI3,8,2},	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI3,8,4},	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4054,7 +4054,6 @@ static ModbusRegister coil_SA4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SA4[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4063,6 +4062,7 @@ static ModbusRegister ir_SA4[]={  //
 	{&R0IN01FI4,8,0},	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
 	{&R0IN02FI4,8,2},	//(R0IN02FI4) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI4,8,4},	//(R0IN03FI4) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4078,7 +4078,6 @@ static ModbusRegister coil_SRP[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SRP[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -4089,6 +4088,7 @@ static ModbusRegister ir_SRP[]={  //
 	{&R0IN03RIP,8,4},	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
 	{&R0IN06RIP,8,6},	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
 	{&R0IN07RIP,8,8},	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
+	{&R0IS01FI0,3,10},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop

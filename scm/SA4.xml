@@ -71,19 +71,6 @@
     </format>
     <records>
         <record>
-            <value name="name">R0IS01LDU</value>
-            <value name="description">(R0IS01LDU) Признак работы с имитатором</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">0</value>
-            <value name="nID">4</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">15</value>
-            <value name="OldData">15</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">R0IN01FI4</value>
             <value name="description">(R0IN01FI4) Выход СНМ-11 Гц от ПТИ</value>
             <value name="type">2</value>
@@ -120,6 +107,19 @@
             <value name="Bf0">0</value>
             <value name="ParData">10</value>
             <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0IS01FI0</value>
+            <value name="description">(R0IS01FI0) Признак работы с имитатором</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">6</value>
+            <value name="nID">4</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">15</value>
+            <value name="OldData">15</value>
             <value name="unitId">1</value>
         </record>
     </records>

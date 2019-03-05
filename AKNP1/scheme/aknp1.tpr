@@ -1340,7 +1340,7 @@
         ABBRV="BOL"
       }
       [VVV_Text]{
-        R="251,407,393,413"
+        R="251,407,409,414"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1370,7 +1370,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1001,410"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2644,17 +2644,17 @@
         Number=150
         IsHold=FALSE
         VisualNumber="1"
-        SIGNAL_NAME="R0IS01LDU"
-        KodTeprol="R0IS01LDU"
+        SIGNAL_NAME="R0IS01FI0"
+        KodTeprol="R0IS01FI0"
         Comment="Признак работы с имитатором"
-        Type=3
+        Type=2
         ParamType=0
         Value=""
         Size=1
         TypeInterface=0
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=3
+        TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
@@ -2882,7 +2882,7 @@
         }
       }
       [VVV_Text]{
-        R="969,14,1015,26"
+        R="969,14,1021,28"
         Number=184
         IsHold=FALSE
         Line1="Неисправность"
@@ -4803,7 +4803,7 @@
         Value=""
         [VVV_GCPoint]{
           Number=150
-          ParameterName="R0IS01LDU"
+          ParameterName="R0IS01FI0"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -5301,4 +5301,4 @@
     }
   }
 }
-5099643
+5099537

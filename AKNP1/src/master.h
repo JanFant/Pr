@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.201\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 398
-static char BUFFER[398];
+#define SIZE_BUFFER 399
+static char BUFFER[399];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.51\0", 5432, "192.168.10.151\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -59,135 +59,135 @@ int nomer = 1;
 #define idR0IN02FI1	 22	//(R0IN02FI1) Выход КНК15-1 Гц
 #define R0IN03FS1	 BUFFER[55]	//(R0IN03FS1) Выход КНК53М Гц
 #define idR0IN03FS1	 23	//(R0IN03FS1) Выход КНК53М Гц
-#define R0IS01LDU	 BUFFER[60]	//(R0IS01LDU) Признак работы с имитатором
-#define idR0IS01LDU	 24	//(R0IS01LDU) Признак работы с имитатором
-#define R0IN01FI1	 BUFFER[62]	//(R0IN01FI1) Выход СНМ-11 Гц
-#define idR0IN01FI1	 25	//(R0IN01FI1) Выход СНМ-11 Гц
-#define R0IN02FS1	 BUFFER[67]	//(R0IN02FS1) Выход КНК15-1 Гц
-#define idR0IN02FS1	 26	//(R0IN02FS1) Выход КНК15-1 Гц
-#define R0IN03FI1	 BUFFER[72]	//(R0IN03FI1) Выход КНК53М Гц
-#define idR0IN03FI1	 27	//(R0IN03FI1) Выход КНК53М Гц
-#define R0VN02RS1	 BUFFER[77]	//(R0VN02RS1) Уровень мощности
+#define R0IN01FI1	 BUFFER[60]	//(R0IN01FI1) Выход СНМ-11 Гц
+#define idR0IN01FI1	 24	//(R0IN01FI1) Выход СНМ-11 Гц
+#define R0IN02FS1	 BUFFER[65]	//(R0IN02FS1) Выход КНК15-1 Гц
+#define idR0IN02FS1	 25	//(R0IN02FS1) Выход КНК15-1 Гц
+#define R0IN03FI1	 BUFFER[70]	//(R0IN03FI1) Выход КНК53М Гц
+#define idR0IN03FI1	 26	//(R0IN03FI1) Выход КНК53М Гц
+#define R0IS01FI0	 BUFFER[75]	//(R0IS01FI0) Признак работы с имитатором
+#define idR0IS01FI0	 27	//(R0IS01FI0) Признак работы с имитатором
+#define R0VN02RS1	 BUFFER[78]	//(R0VN02RS1) Уровень мощности
 #define idR0VN02RS1	 28	//(R0VN02RS1) Уровень мощности
-#define R0VN01RS1	 BUFFER[82]	//(R0VN01RS1) Период разгона канал1
+#define R0VN01RS1	 BUFFER[83]	//(R0VN01RS1) Период разгона канал1
 #define idR0VN01RS1	 29	//(R0VN01RS1) Период разгона канал1
-#define R0VN61LS1	 BUFFER[87]	//(R0VN61LS1) ПС по мощности канал1
+#define R0VN61LS1	 BUFFER[88]	//(R0VN61LS1) ПС по мощности канал1
 #define idR0VN61LS1	 30	//(R0VN61LS1) ПС по мощности канал1
-#define R0VN71LZ1	 BUFFER[89]	//(R0VN71LZ1) АС по мощности на БАЗ1
+#define R0VN71LZ1	 BUFFER[90]	//(R0VN71LZ1) АС по мощности на БАЗ1
 #define idR0VN71LZ1	 31	//(R0VN71LZ1) АС по мощности на БАЗ1
-#define R0VN65LS1	 BUFFER[91]	//(R0VN65LS1) ПС по периоду разгона канал1
+#define R0VN65LS1	 BUFFER[92]	//(R0VN65LS1) ПС по периоду разгона канал1
 #define idR0VN65LS1	 32	//(R0VN65LS1) ПС по периоду разгона канал1
-#define R0VN75LZ1	 BUFFER[93]	//(R0VN75LZ1) АС по периоду разгонана БАЗ1
+#define R0VN75LZ1	 BUFFER[94]	//(R0VN75LZ1) АС по периоду разгонана БАЗ1
 #define idR0VN75LZ1	 33	//(R0VN75LZ1) АС по периоду разгонана БАЗ1
-#define A0EE01LS1	 BUFFER[95]	//(A0EE01LS1) Исправность АКНП1 на БАЗ1
+#define A0EE01LS1	 BUFFER[96]	//(A0EE01LS1) Исправность АКНП1 на БАЗ1
 #define idA0EE01LS1	 34	//(A0EE01LS1) Исправность АКНП1 на БАЗ1
-#define R0VN03RS1	 BUFFER[97]	//(R0VN03RS1) Измеренный нейтронный поток
+#define R0VN03RS1	 BUFFER[98]	//(R0VN03RS1) Измеренный нейтронный поток
 #define idR0VN03RS1	 35	//(R0VN03RS1) Измеренный нейтронный поток
-#define R0VN04RS1	 BUFFER[102]	//(R0VN04RS1) Реактивность канал1
+#define R0VN04RS1	 BUFFER[103]	//(R0VN04RS1) Реактивность канал1
 #define idR0VN04RS1	 36	//(R0VN04RS1) Реактивность канал1
-#define A0VN71LS1	 BUFFER[107]	//(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1
+#define A0VN71LS1	 BUFFER[108]	//(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1
 #define idA0VN71LS1	 37	//(A0VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ1
-#define A0EE02LS1	 BUFFER[109]	//(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1
+#define A0EE02LS1	 BUFFER[110]	//(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1
 #define idA0EE02LS1	 38	//(A0EE02LS1) Исправность АКНП1 (от сшивки каналов) канал 1
-#define R0IE11LS1	 BUFFER[111]	//(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала
+#define R0IE11LS1	 BUFFER[112]	//(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала
 #define idR0IE11LS1	 39	//(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала
-#define R0IE12LS1	 BUFFER[113]	//(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
+#define R0IE12LS1	 BUFFER[114]	//(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
 #define idR0IE12LS1	 40	//(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
-#define R0IE13LS1	 BUFFER[115]	//(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала
+#define R0IE13LS1	 BUFFER[116]	//(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала
 #define idR0IE13LS1	 41	//(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала
-#define R0VN13RS1	 BUFFER[117]	//(R0VN13RS1) Нейтронный поток по камере СНМ11
+#define R0VN13RS1	 BUFFER[118]	//(R0VN13RS1) Нейтронный поток по камере СНМ11
 #define idR0VN13RS1	 42	//(R0VN13RS1) Нейтронный поток по камере СНМ11
-#define R0VN23RS1	 BUFFER[122]	//(R0VN23RS1) Нейтронный поток по камере КНК15-1
+#define R0VN23RS1	 BUFFER[123]	//(R0VN23RS1) Нейтронный поток по камере КНК15-1
 #define idR0VN23RS1	 43	//(R0VN23RS1) Нейтронный поток по камере КНК15-1
-#define R0VN33RS1	 BUFFER[127]	//(R0VN33RS1) Нейтронный поток по камере КНК53М
+#define R0VN33RS1	 BUFFER[128]	//(R0VN33RS1) Нейтронный поток по камере КНК53М
 #define idR0VN33RS1	 44	//(R0VN33RS1) Нейтронный поток по камере КНК53М
-#define R0VN15RS1	 BUFFER[132]	//(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей
+#define R0VN15RS1	 BUFFER[133]	//(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей
 #define idR0VN15RS1	 45	//(R0VN15RS1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей
-#define R0IE01LS1	 BUFFER[135]	//(R0IE01LS1) Отключение питание детекторов 1 канала
+#define R0IE01LS1	 BUFFER[136]	//(R0IE01LS1) Отключение питание детекторов 1 канала
 #define idR0IE01LS1	 46	//(R0IE01LS1) Отключение питание детекторов 1 канала
-#define R0IE02LS1	 BUFFER[137]	//(R0IE02LS1) Отключить питание ПР, ПУ 1 канала
+#define R0IE02LS1	 BUFFER[138]	//(R0IE02LS1) Отключить питание ПР, ПУ 1 канала
 #define idR0IE02LS1	 47	//(R0IE02LS1) Отключить питание ПР, ПУ 1 канала
-#define R0VN71LZ2	 BUFFER[139]	//(R0VN71LZ2) АС по мощности на БАЗ2
+#define R0VN71LZ2	 BUFFER[140]	//(R0VN71LZ2) АС по мощности на БАЗ2
 #define idR0VN71LZ2	 48	//(R0VN71LZ2) АС по мощности на БАЗ2
-#define R0VN75LZ2	 BUFFER[141]	//(R0VN75LZ2) АС по периоду разгонана БАЗ2
+#define R0VN75LZ2	 BUFFER[142]	//(R0VN75LZ2) АС по периоду разгонана БАЗ2
 #define idR0VN75LZ2	 49	//(R0VN75LZ2) АС по периоду разгонана БАЗ2
-#define A1EE01LS1	 BUFFER[143]	//(A1EE01LS1) Исправность АКНП1 на БАЗ2
+#define A1EE01LS1	 BUFFER[144]	//(A1EE01LS1) Исправность АКНП1 на БАЗ2
 #define idA1EE01LS1	 50	//(A1EE01LS1) Исправность АКНП1 на БАЗ2
-#define A1VN71LS1	 BUFFER[145]	//(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2
+#define A1VN71LS1	 BUFFER[146]	//(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2
 #define idA1VN71LS1	 51	//(A1VN71LS1) Блокировка автоматического  подъёма ББ на БАЗ2
-#define B8VC01RDU	 BUFFER[147]	//(B8VC01RDU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[148]	//(B8VC01RDU) Координата АЗ2, мм
 #define idB8VC01RDU	 52	//(B8VC01RDU) Координата АЗ2, мм
-#define R0EE01LZ1	 BUFFER[152]	//(R0EE01LZ1) Питание  АКНП1  отключить
+#define R0EE01LZ1	 BUFFER[153]	//(R0EE01LZ1) Питание  АКНП1  отключить
 #define idR0EE01LZ1	 53	//(R0EE01LZ1) Питание  АКНП1  отключить
-#define R0EE01LZ2	 BUFFER[154]	//(R0EE01LZ2) Питание  АКНП1  отключить
+#define R0EE01LZ2	 BUFFER[155]	//(R0EE01LZ2) Питание  АКНП1  отключить
 #define idR0EE01LZ2	 54	//(R0EE01LZ2) Питание  АКНП1  отключить
-#define fEM_R0UR01RSS	 BUFFER[156]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+#define fEM_R0UR01RSS	 BUFFER[157]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define idfEM_R0UR01RSS	 55	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
-#define fEM_R0UL52RSS	 BUFFER[161]	//(R0UL52RSS) Уровень АС по мощности
+#define fEM_R0UL52RSS	 BUFFER[162]	//(R0UL52RSS) Уровень АС по мощности
 #define idfEM_R0UL52RSS	 56	//(R0UL52RSS) Уровень АС по мощности
-#define fEM_R0UL41RSS	 BUFFER[166]	//(R0UL41RSS) Уровень ПС по периоду разгона
+#define fEM_R0UL41RSS	 BUFFER[167]	//(R0UL41RSS) Уровень ПС по периоду разгона
 #define idfEM_R0UL41RSS	 57	//(R0UL41RSS) Уровень ПС по периоду разгона
-#define fEM_R0UL51RSS	 BUFFER[171]	//(R0UL51RSS) Уровень АС по периоду разгона
+#define fEM_R0UL51RSS	 BUFFER[172]	//(R0UL51RSS) Уровень АС по периоду разгона
 #define idfEM_R0UL51RSS	 58	//(R0UL51RSS) Уровень АС по периоду разгона
-#define fEM_R0UH02RSS	 BUFFER[176]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define fEM_R0UH02RSS	 BUFFER[177]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
 #define idfEM_R0UH02RSS	 59	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define fEM_R0UH03RSS	 BUFFER[181]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define fEM_R0UH03RSS	 BUFFER[182]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
 #define idfEM_R0UH03RSS	 60	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define fEM_R0UL42RSS	 BUFFER[186]	//(R0UL42RSS) Уровень ПС по мощности
+#define fEM_R0UL42RSS	 BUFFER[187]	//(R0UL42RSS) Уровень ПС по мощности
 #define idfEM_R0UL42RSS	 61	//(R0UL42RSS) Уровень ПС по мощности
-#define fEM_R7UX00RSS	 BUFFER[191]	//(R7UX00RSS) X-координата АЗ1 (см)
+#define fEM_R7UX00RSS	 BUFFER[192]	//(R7UX00RSS) X-координата АЗ1 (см)
 #define idfEM_R7UX00RSS	 62	//(R7UX00RSS) X-координата АЗ1 (см)
-#define fEM_R7UX01RSS	 BUFFER[196]	//(R7UX01RSS) X-координата камеры R7IN11
+#define fEM_R7UX01RSS	 BUFFER[197]	//(R7UX01RSS) X-координата камеры R7IN11
 #define idfEM_R7UX01RSS	 63	//(R7UX01RSS) X-координата камеры R7IN11
-#define fEM_R7UX02RSS	 BUFFER[201]	//(R7UX02RSS) X-координата камеры R7IN12 (см)
+#define fEM_R7UX02RSS	 BUFFER[202]	//(R7UX02RSS) X-координата камеры R7IN12 (см)
 #define idfEM_R7UX02RSS	 64	//(R7UX02RSS) X-координата камеры R7IN12 (см)
-#define fEM_R7UX03RSS	 BUFFER[206]	//(R7UX03RSS) X-координата камеры R7IN13 (см)
+#define fEM_R7UX03RSS	 BUFFER[207]	//(R7UX03RSS) X-координата камеры R7IN13 (см)
 #define idfEM_R7UX03RSS	 65	//(R7UX03RSS) X-координата камеры R7IN13 (см)
-#define fEM_R7UY00RSS	 BUFFER[211]	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define fEM_R7UY00RSS	 BUFFER[212]	//(R7UY00RSS) Y-координата АЗ1 (см)
 #define idfEM_R7UY00RSS	 66	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define fEM_R7UY01RSS	 BUFFER[216]	//(R7UY01RSS) Y-координата камеры R7IN11
+#define fEM_R7UY01RSS	 BUFFER[217]	//(R7UY01RSS) Y-координата камеры R7IN11
 #define idfEM_R7UY01RSS	 67	//(R7UY01RSS) Y-координата камеры R7IN11
-#define fEM_R7UY02RSS	 BUFFER[221]	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
+#define fEM_R7UY02RSS	 BUFFER[222]	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
 #define idfEM_R7UY02RSS	 68	//(R7UY02RSS) Y-координата камеры R7IN12 (см)
-#define fEM_R7UY03RSS	 BUFFER[226]	//(R7UY03RSS) Y-координата камеры R7IN13 (см)
+#define fEM_R7UY03RSS	 BUFFER[227]	//(R7UY03RSS) Y-координата камеры R7IN13 (см)
 #define idfEM_R7UY03RSS	 69	//(R7UY03RSS) Y-координата камеры R7IN13 (см)
-#define fEM_A0UX00RSS	 BUFFER[231]	//(A0UX00RSS) Эффективный радиус АЗ
+#define fEM_A0UX00RSS	 BUFFER[232]	//(A0UX00RSS) Эффективный радиус АЗ
 #define idfEM_A0UX00RSS	 70	//(A0UX00RSS) Эффективный радиус АЗ
-#define fEM_A0UX01RSS	 BUFFER[236]	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
+#define fEM_A0UX01RSS	 BUFFER[237]	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
 #define idfEM_A0UX01RSS	 71	//(A0UX01RSS) Первый коэффициент калибровки камеры 1
-#define fEM_A0UX02RSS	 BUFFER[241]	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
+#define fEM_A0UX02RSS	 BUFFER[242]	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
 #define idfEM_A0UX02RSS	 72	//(A0UX02RSS) Первый коэффициент калибровки камеры 2
-#define fEM_A0UX03RSS	 BUFFER[246]	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
+#define fEM_A0UX03RSS	 BUFFER[247]	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
 #define idfEM_A0UX03RSS	 73	//(A0UX03RSS) Первый коэффициент калибровки камеры 3
-#define fEM_B0UX01RSS	 BUFFER[251]	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
+#define fEM_B0UX01RSS	 BUFFER[252]	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
 #define idfEM_B0UX01RSS	 74	//(B0UX01RSS) Второй коэффициент калибровки камеры 1
-#define fEM_B0UX02RSS	 BUFFER[256]	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
+#define fEM_B0UX02RSS	 BUFFER[257]	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
 #define idfEM_B0UX02RSS	 75	//(B0UX02RSS) Второй коэффициент калибровки камеры 2
-#define fEM_B0UX03RSS	 BUFFER[261]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+#define fEM_B0UX03RSS	 BUFFER[262]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
 #define idfEM_B0UX03RSS	 76	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
-#define fEM_R0UH05RSS	 BUFFER[266]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define fEM_R0UH05RSS	 BUFFER[267]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 #define idfEM_R0UH05RSS	 77	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define fEM_R0UN03RSS	 BUFFER[271]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define fEM_R0UN03RSS	 BUFFER[272]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 #define idfEM_R0UN03RSS	 78	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define fEM_R0UL01RSS	 BUFFER[276]	//(R0UL01RSS) Шаг (мс) измерения периода
+#define fEM_R0UL01RSS	 BUFFER[277]	//(R0UL01RSS) Шаг (мс) измерения периода
 #define idfEM_R0UL01RSS	 79	//(R0UL01RSS) Шаг (мс) измерения периода
-#define fEM_R0UL02RSS	 BUFFER[281]	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
+#define fEM_R0UL02RSS	 BUFFER[282]	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
 #define idfEM_R0UL02RSS	 80	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
-#define bFirstEnterFlag	 BUFFER[286]	//(bFirstEnterFlag) 
+#define bFirstEnterFlag	 BUFFER[287]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 81	//(bFirstEnterFlag) 
-#define internal1_m21_Nk	 BUFFER[288]	//(internal1_m21_Nk) Nk - ведущая камера
+#define internal1_m21_Nk	 BUFFER[289]	//(internal1_m21_Nk) Nk - ведущая камера
 #define idinternal1_m21_Nk	 82	//(internal1_m21_Nk) Nk - ведущая камера
-#define internal1_m53_tst	 BUFFER[291]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+#define internal1_m53_tst	 BUFFER[292]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
 #define idinternal1_m53_tst	 83	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-#define internal1_m53_trz	 BUFFER[316]	//(internal1_m53_trz) - массив времени фиксации очередного периода
+#define internal1_m53_trz	 BUFFER[317]	//(internal1_m53_trz) - массив времени фиксации очередного периода
 #define idinternal1_m53_trz	 84	//(internal1_m53_trz) - массив времени фиксации очередного периода
-#define internal1_m53_N1	 BUFFER[341]	//(internal1_m53_N1) - массив значения мощности в начале замера
+#define internal1_m53_N1	 BUFFER[342]	//(internal1_m53_N1) - массив значения мощности в начале замера
 #define idinternal1_m53_N1	 85	//(internal1_m53_N1) - массив значения мощности в начале замера
-#define internal1_m53_N2	 BUFFER[366]	//(internal1_m53_N2) - массив значения мощности в конце замера
+#define internal1_m53_N2	 BUFFER[367]	//(internal1_m53_N2) - массив значения мощности в конце замера
 #define idinternal1_m53_N2	 86	//(internal1_m53_N2) - массив значения мощности в конце замера
-#define internal1_m53_Period0	 BUFFER[391]	//(internal1_m53_Period0) Per - Период разгона РУ
+#define internal1_m53_Period0	 BUFFER[392]	//(internal1_m53_Period0) Per - Период разгона РУ
 #define idinternal1_m53_Period0	 87	//(internal1_m53_Period0) Per - Период разгона РУ
-#define internal1_m53_MyFirstEnterFlag	 BUFFER[396]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m53_MyFirstEnterFlag	 BUFFER[397]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 #define idinternal1_m53_MyFirstEnterFlag	 88	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
@@ -214,10 +214,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 21	,8	,1	, &R0IN01FS1},	//(R0IN01FS1) Выход СНМ-11 Гц
 	{ 22	,8	,1	, &R0IN02FI1},	//(R0IN02FI1) Выход КНК15-1 Гц
 	{ 23	,8	,1	, &R0IN03FS1},	//(R0IN03FS1) Выход КНК53М Гц
-	{ 24	,1	,1	, &R0IS01LDU},	//(R0IS01LDU) Признак работы с имитатором
-	{ 25	,8	,1	, &R0IN01FI1},	//(R0IN01FI1) Выход СНМ-11 Гц
-	{ 26	,8	,1	, &R0IN02FS1},	//(R0IN02FS1) Выход КНК15-1 Гц
-	{ 27	,8	,1	, &R0IN03FI1},	//(R0IN03FI1) Выход КНК53М Гц
+	{ 24	,8	,1	, &R0IN01FI1},	//(R0IN01FI1) Выход СНМ-11 Гц
+	{ 25	,8	,1	, &R0IN02FS1},	//(R0IN02FS1) Выход КНК15-1 Гц
+	{ 26	,8	,1	, &R0IN03FI1},	//(R0IN03FI1) Выход КНК53М Гц
+	{ 27	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
 	{ 28	,8	,1	, &R0VN02RS1},	//(R0VN02RS1) Уровень мощности
 	{ 29	,8	,1	, &R0VN01RS1},	//(R0VN01RS1) Период разгона канал1
 	{ 30	,1	,1	, &R0VN61LS1},	//(R0VN61LS1) ПС по мощности канал1
@@ -381,7 +381,6 @@ static ModbusRegister coil_MA1S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MA1S[]={  // 
-	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -390,6 +389,7 @@ static ModbusRegister ir_MA1S[]={  //
 	{&R0IN01FI1,8,0},	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN02FI1,8,2},	//(R0IN02FI1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI1,8,4},	//(R0IN03FI1) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -666,7 +666,6 @@ ssbool var28;
 ssbool var29;
 ssfloat var30;
 ssbool var31;
-ssint var32;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -692,7 +691,7 @@ _S_andn  S_andn_69_1 = {array_m69_x_1,&iRM_5_,&var2};
 _S_ma  S_ma_9_1 = {array_m9_x_1,&var6,&iRM_2_,&var3};
 _S_ma  S_ma_8_1 = {array_m8_x_1,&var6,&iRM_2_,&var4};
 _S_ma  S_ma_7_1 = {array_m7_x_1,&var6,&iRM_2_,&var5};
-_S_fsumz  S_fsumz_2_1 = {&var32,&iRM_1_,&var6};
+_S_fsumz  S_fsumz_2_1 = {&R0IS01FI0,&iRM_1_,&var6};
 _S_or2  S_or2_102_1 = {&R0DEB3LS1,&R0DEB4LS1,&var7};
 _S_or2  S_or2_95_1 = {&R0DEB1LS1,&R0DEB2LS1,&var8};
 _S_orn  S_orn_97_1 = {array_m97_x_1,&iRM_5_,&var9};
@@ -721,7 +720,6 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and2(&S_and2_89_1);
   or2(&S_or2_95_1);
   or2(&S_or2_102_1);
-  setData(&var32,idR0IS0);
   fsumz(&S_fsumz_2_1);
   ma(&S_ma_7_1);
   ma(&S_ma_8_1);

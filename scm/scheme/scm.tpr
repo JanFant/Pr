@@ -39393,17 +39393,17 @@
         Number=1512
         IsHold=FALSE
         VisualNumber="713"
-        SIGNAL_NAME="R0IS01LDU"
-        KodTeprol="R0IS01LDU"
+        SIGNAL_NAME="R0IS01FI0"
+        KodTeprol="R0IS01FI0"
         Comment="Признак работы с имитатором"
-        Type=3
+        Type=2
         ParamType=1
         Value=""
         Size=1
         TypeInterface=0
-        TypeMB=1
-        FormatMB=1
-        TypeMBMaster=1
+        TypeMB=2
+        FormatMB=3
+        TypeMBMaster=2
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
@@ -71353,4 +71353,4 @@
     }
   }
 }
-68741371
+68741298
