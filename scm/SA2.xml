@@ -71,55 +71,55 @@
     </format>
     <records>
         <record>
-            <value name="name">R0EE01LZ1</value>
-            <value name="description">(R0EE01LZ1) Питание  АКНП1  отключить</value>
-            <value name="type">0</value>
+            <value name="name">R0IS01LDU</value>
+            <value name="description">(R0IS01LDU) Признак работы с имитатором</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">1</value>
+            <value name="nID">4</value>
             <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">15</value>
+            <value name="OldData">15</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0IN01FI2</value>
+            <value name="description">(R0IN01FI2) Выход КНК15-1 Гц от ПТИ</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">129</value>
             <value name="Bf0">0</value>
             <value name="ParData">0</value>
             <value name="OldData">0</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE02LZ1</value>
-            <value name="description">(R0EE02LZ1) Питание  АКНП  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">2</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">2</value>
-            <value name="OldData">2</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE03LZ1</value>
-            <value name="description">(R0EE03LZ1) Питание  АКНП3  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
+            <value name="name">R0IN02FI2</value>
+            <value name="description">(R0IN02FI2) Выход КНК15-1 Гц от ПТИ</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
             <value name="address">2</value>
-            <value name="nID">3</value>
-            <value name="PType">131</value>
+            <value name="nID">2</value>
+            <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">4</value>
-            <value name="OldData">4</value>
+            <value name="ParData">5</value>
+            <value name="OldData">5</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE04LZ1</value>
-            <value name="description">(R0EE04LZ1) Питание  АКНП4  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">4</value>
-            <value name="PType">131</value>
+            <value name="name">R0IN03FI2</value>
+            <value name="description">(R0IN03FI2) Выход КНК53М Гц от ПТИ</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">4</value>
+            <value name="nID">3</value>
+            <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">6</value>
-            <value name="OldData">6</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
             <value name="unitId">1</value>
         </record>
     </records>

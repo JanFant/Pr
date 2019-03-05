@@ -1,316 +1,324 @@
 #ifndef AKNP4_H
 #define AKNP4_H
 // Подсистема AKNP4:AKNP4
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=7;
 static char SimulIP[]="192.168.10.201\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 383
-static char BUFFER[383];
+#define SIZE_BUFFER 398
+static char BUFFER[398];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.55\0", 5432, "192.168.10.155\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define R0VN78LZ2	 BUFFER[0]	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
-#define idR0VN78LZ2	 1	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
-#define A1EE01LS4	 BUFFER[2]	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
-#define idA1EE01LS4	 2	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
-#define B8VC01RDU	 BUFFER[4]	//(B8VC01RDU) Координата АЗ2, мм
-#define idB8VC01RDU	 3	//(B8VC01RDU) Координата АЗ2, мм
-#define R0EE04LZ1	 BUFFER[9]	//(R0EE04LZ1) Питание  АКНП4  отключить
-#define idR0EE04LZ1	 4	//(R0EE04LZ1) Питание  АКНП4  отключить
-#define R0EE04LZ2	 BUFFER[11]	//(R0EE04LZ2) Питание  АКНП4  отключить
-#define idR0EE04LZ2	 5	//(R0EE04LZ2) Питание  АКНП4  отключить
-#define R0DE01LS4	 BUFFER[13]	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
-#define idR0DE01LS4	 6	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
-#define R0DE02LS4	 BUFFER[16]	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
-#define idR0DE02LS4	 7	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
-#define R0DE04LS4	 BUFFER[19]	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
-#define idR0DE04LS4	 8	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
-#define R0DE05LS4	 BUFFER[22]	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
-#define idR0DE05LS4	 9	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
-#define R0DE31LS4	 BUFFER[25]	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
-#define idR0DE31LS4	 10	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
-#define R0DE32LS4	 BUFFER[27]	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
-#define idR0DE32LS4	 11	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
-#define R0DE33LS4	 BUFFER[29]	//(R0DE33LS4) диагностика шкафа АКНП4 двери
-#define idR0DE33LS4	 12	//(R0DE33LS4) диагностика шкафа АКНП4 двери
-#define R0DE34LS4	 BUFFER[31]	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
-#define idR0DE34LS4	 13	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
-#define R0DE35LS4	 BUFFER[33]	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
-#define idR0DE35LS4	 14	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
-#define R0DE36LS4	 BUFFER[35]	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
-#define idR0DE36LS4	 15	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
-#define R0DE37LS4	 BUFFER[37]	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
-#define idR0DE37LS4	 16	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
-#define R0DE38LS4	 BUFFER[39]	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
-#define idR0DE38LS4	 17	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
-#define R0DE39LS4	 BUFFER[41]	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
-#define idR0DE39LS4	 18	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
-#define R0DE3CLS4	 BUFFER[43]	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
-#define idR0DE3CLS4	 19	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
-#define R0DE3DLS4	 BUFFER[45]	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
-#define idR0DE3DLS4	 20	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
-#define TTLaknp4	 BUFFER[47]	//(TTLaknp4) ttl
-#define idTTLaknp4	 21	//(TTLaknp4) ttl
-#define TestDiagnAKNP4	 BUFFER[50]	//(TestDiagnAKNP4) Неисправность от диагностики
-#define idTestDiagnAKNP4	 22	//(TestDiagnAKNP4) Неисправность от диагностики
-#define R0DEB1LS4	 BUFFER[52]	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
-#define idR0DEB1LS4	 23	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
-#define R0DEB2LS4	 BUFFER[54]	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
-#define idR0DEB2LS4	 24	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
-#define R0DEB3LS4	 BUFFER[56]	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
-#define idR0DEB3LS4	 25	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
-#define R0DEB4LS4	 BUFFER[58]	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
-#define idR0DEB4LS4	 26	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
-#define R0VN02RS4	 BUFFER[60]	//(R0VN02RS4) Уровень мощности канал 4
-#define idR0VN02RS4	 27	//(R0VN02RS4) Уровень мощности канал 4
-#define R0VN01RS4	 BUFFER[65]	//(R0VN01RS4) Период разгона канал 4
-#define idR0VN01RS4	 28	//(R0VN01RS4) Период разгона канал 4
-#define R0VN61LS4	 BUFFER[70]	//(R0VN61LS4) ПС по мощности канал 4
-#define idR0VN61LS4	 29	//(R0VN61LS4) ПС по мощности канал 4
-#define R0VN74LZ1	 BUFFER[72]	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
-#define idR0VN74LZ1	 30	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
-#define R0VN65LS4	 BUFFER[74]	//(R0VN65LS4) ПС по периоду разгона канал 4
-#define idR0VN65LS4	 31	//(R0VN65LS4) ПС по периоду разгона канал 4
-#define R0VN78LZ1	 BUFFER[76]	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
-#define idR0VN78LZ1	 32	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
-#define A0EE01LS4	 BUFFER[78]	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
-#define idA0EE01LS4	 33	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
-#define R0IN01FS4	 BUFFER[80]	//(R0IN01FS4) Выход СНМ-11 Гц
-#define idR0IN01FS4	 34	//(R0IN01FS4) Выход СНМ-11 Гц
-#define R0IN02FS4	 BUFFER[85]	//(R0IN02FS4) Выход КНК15-1 Гц
-#define idR0IN02FS4	 35	//(R0IN02FS4) Выход КНК15-1 Гц
-#define R0VN03RS4	 BUFFER[90]	//(R0VN03RS4) Измеренный нейтронный поток канал 4
-#define idR0VN03RS4	 36	//(R0VN03RS4) Измеренный нейтронный поток канал 4
-#define R0VN04RS4	 BUFFER[95]	//(R0VN04RS4) Реактивность канал 4
-#define idR0VN04RS4	 37	//(R0VN04RS4) Реактивность канал 4
-#define A1VN71LS4	 BUFFER[100]	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
-#define idA1VN71LS4	 38	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
-#define R0IN03FS4	 BUFFER[102]	//(R0IN03FS4) Выход КНК53М Гц
-#define idR0IN03FS4	 39	//(R0IN03FS4) Выход КНК53М Гц
-#define A0EE02LS4	 BUFFER[107]	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
-#define idA0EE02LS4	 40	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
-#define R0IE11LS4	 BUFFER[109]	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-#define idR0IE11LS4	 41	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-#define R0IE12LS4	 BUFFER[111]	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-#define idR0IE12LS4	 42	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-#define R0IE13LS4	 BUFFER[113]	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
-#define idR0IE13LS4	 43	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
-#define R0VN13RS4	 BUFFER[115]	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
-#define idR0VN13RS4	 44	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
-#define R0VN23RS4	 BUFFER[120]	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
-#define idR0VN23RS4	 45	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
-#define R0VN33RS4	 BUFFER[125]	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
-#define idR0VN33RS4	 46	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
-#define R0VN15RS4	 BUFFER[130]	//(R0VN15RS4) Номер ведущей камеры канал 4
-#define idR0VN15RS4	 47	//(R0VN15RS4) Номер ведущей камеры канал 4
-#define A0EE03LS4	 BUFFER[133]	//(A0EE03LS4) Подключена сеть питания АКНП канал 4
-#define idA0EE03LS4	 48	//(A0EE03LS4) Подключена сеть питания АКНП канал 4
-#define R0IE01LS4	 BUFFER[135]	//(R0IE01LS4) Отключение питание детекторов канал 4
+#define R0EE04LZ1	 BUFFER[0]	//(R0EE04LZ1) Питание  АКНП4  отключить
+#define idR0EE04LZ1	 1	//(R0EE04LZ1) Питание  АКНП4  отключить
+#define R0EE04LZ2	 BUFFER[2]	//(R0EE04LZ2) Питание  АКНП4  отключить
+#define idR0EE04LZ2	 2	//(R0EE04LZ2) Питание  АКНП4  отключить
+#define R0DE01LS4	 BUFFER[4]	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
+#define idR0DE01LS4	 3	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
+#define R0DE02LS4	 BUFFER[7]	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
+#define idR0DE02LS4	 4	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
+#define R0DE04LS4	 BUFFER[10]	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
+#define idR0DE04LS4	 5	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
+#define R0DE05LS4	 BUFFER[13]	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
+#define idR0DE05LS4	 6	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
+#define R0DE31LS4	 BUFFER[16]	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
+#define idR0DE31LS4	 7	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
+#define R0DE32LS4	 BUFFER[18]	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
+#define idR0DE32LS4	 8	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
+#define R0DE33LS4	 BUFFER[20]	//(R0DE33LS4) диагностика шкафа АКНП4 двери
+#define idR0DE33LS4	 9	//(R0DE33LS4) диагностика шкафа АКНП4 двери
+#define R0DE34LS4	 BUFFER[22]	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
+#define idR0DE34LS4	 10	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
+#define R0DE35LS4	 BUFFER[24]	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
+#define idR0DE35LS4	 11	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
+#define R0DE36LS4	 BUFFER[26]	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
+#define idR0DE36LS4	 12	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
+#define R0DE37LS4	 BUFFER[28]	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
+#define idR0DE37LS4	 13	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
+#define R0DE38LS4	 BUFFER[30]	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
+#define idR0DE38LS4	 14	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
+#define R0DE39LS4	 BUFFER[32]	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
+#define idR0DE39LS4	 15	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
+#define R0DE3CLS4	 BUFFER[34]	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
+#define idR0DE3CLS4	 16	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
+#define R0DE3DLS4	 BUFFER[36]	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
+#define idR0DE3DLS4	 17	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
+#define TTLaknp4	 BUFFER[38]	//(TTLaknp4) ttl
+#define idTTLaknp4	 18	//(TTLaknp4) ttl
+#define TestDiagnAKNP4	 BUFFER[41]	//(TestDiagnAKNP4) Неисправность от диагностики
+#define idTestDiagnAKNP4	 19	//(TestDiagnAKNP4) Неисправность от диагностики
+#define R0DEB1LS4	 BUFFER[43]	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
+#define idR0DEB1LS4	 20	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
+#define R0DEB2LS4	 BUFFER[45]	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
+#define idR0DEB2LS4	 21	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
+#define R0DEB4LS4	 BUFFER[47]	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
+#define idR0DEB4LS4	 22	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
+#define R0DEB3LS4	 BUFFER[49]	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
+#define idR0DEB3LS4	 23	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
+#define R0IS01LDU	 BUFFER[51]	//(R0IS01LDU) Признак работы с имитатором
+#define idR0IS01LDU	 24	//(R0IS01LDU) Признак работы с имитатором
+#define R0IN01FI4	 BUFFER[53]	//(R0IN01FI4) Выход СНМ-11 Гц
+#define idR0IN01FI4	 25	//(R0IN01FI4) Выход СНМ-11 Гц
+#define R0IN02FS4	 BUFFER[58]	//(R0IN02FS4) Выход КНК15-1 Гц
+#define idR0IN02FS4	 26	//(R0IN02FS4) Выход КНК15-1 Гц
+#define R0IN03FI4	 BUFFER[63]	//(R0IN03FI4) Выход КНК53М Гц
+#define idR0IN03FI4	 27	//(R0IN03FI4) Выход КНК53М Гц
+#define R0VN02RS4	 BUFFER[68]	//(R0VN02RS4) Уровень мощности канал 4
+#define idR0VN02RS4	 28	//(R0VN02RS4) Уровень мощности канал 4
+#define R0VN01RS4	 BUFFER[73]	//(R0VN01RS4) Период разгона канал 4
+#define idR0VN01RS4	 29	//(R0VN01RS4) Период разгона канал 4
+#define R0VN61LS4	 BUFFER[78]	//(R0VN61LS4) ПС по мощности канал 4
+#define idR0VN61LS4	 30	//(R0VN61LS4) ПС по мощности канал 4
+#define R0VN74LZ1	 BUFFER[80]	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
+#define idR0VN74LZ1	 31	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
+#define R0VN65LS4	 BUFFER[82]	//(R0VN65LS4) ПС по периоду разгона канал 4
+#define idR0VN65LS4	 32	//(R0VN65LS4) ПС по периоду разгона канал 4
+#define R0VN78LZ1	 BUFFER[84]	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
+#define idR0VN78LZ1	 33	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
+#define A0EE01LS4	 BUFFER[86]	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
+#define idA0EE01LS4	 34	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
+#define R0IN01FS4	 BUFFER[88]	//(R0IN01FS4) Выход СНМ-11 Гц
+#define idR0IN01FS4	 35	//(R0IN01FS4) Выход СНМ-11 Гц
+#define R0IN02FI4	 BUFFER[93]	//(R0IN02FI4) Выход КНК15-1 Гц
+#define idR0IN02FI4	 36	//(R0IN02FI4) Выход КНК15-1 Гц
+#define R0VN03RS4	 BUFFER[98]	//(R0VN03RS4) Измеренный нейтронный поток канал 4
+#define idR0VN03RS4	 37	//(R0VN03RS4) Измеренный нейтронный поток канал 4
+#define R0VN04RS4	 BUFFER[103]	//(R0VN04RS4) Реактивность канал 4
+#define idR0VN04RS4	 38	//(R0VN04RS4) Реактивность канал 4
+#define A1VN71LS4	 BUFFER[108]	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
+#define idA1VN71LS4	 39	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
+#define R0IN03FS4	 BUFFER[110]	//(R0IN03FS4) Выход КНК53М Гц
+#define idR0IN03FS4	 40	//(R0IN03FS4) Выход КНК53М Гц
+#define A0EE02LS4	 BUFFER[115]	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
+#define idA0EE02LS4	 41	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
+#define R0IE11LS4	 BUFFER[117]	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+#define idR0IE11LS4	 42	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+#define R0IE12LS4	 BUFFER[119]	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+#define idR0IE12LS4	 43	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+#define R0IE13LS4	 BUFFER[121]	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+#define idR0IE13LS4	 44	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+#define R0VN13RS4	 BUFFER[123]	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
+#define idR0VN13RS4	 45	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
+#define R0VN23RS4	 BUFFER[128]	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
+#define idR0VN23RS4	 46	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
+#define R0VN33RS4	 BUFFER[133]	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
+#define idR0VN33RS4	 47	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
+#define R0VN15RS4	 BUFFER[138]	//(R0VN15RS4) Номер ведущей камеры канал 4
+#define idR0VN15RS4	 48	//(R0VN15RS4) Номер ведущей камеры канал 4
+#define R0IE01LS4	 BUFFER[141]	//(R0IE01LS4) Отключение питание детекторов канал 4
 #define idR0IE01LS4	 49	//(R0IE01LS4) Отключение питание детекторов канал 4
-#define R0IE02LS4	 BUFFER[137]	//(R0IE02LS4) Отключить питание ПР, ПУ канал 4
+#define R0IE02LS4	 BUFFER[143]	//(R0IE02LS4) Отключить питание ПР, ПУ канал 4
 #define idR0IE02LS4	 50	//(R0IE02LS4) Отключить питание ПР, ПУ канал 4
-#define A0VN71LS4	 BUFFER[139]	//(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1
+#define A0VN71LS4	 BUFFER[145]	//(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1
 #define idA0VN71LS4	 51	//(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1
-#define R0VN74LZ2	 BUFFER[141]	//(R0VN74LZ2) АС по мощности канал 4 на БАЗ2
+#define R0VN74LZ2	 BUFFER[147]	//(R0VN74LZ2) АС по мощности канал 4 на БАЗ2
 #define idR0VN74LZ2	 52	//(R0VN74LZ2) АС по мощности канал 4 на БАЗ2
-#define fEM_R0UR01RSS	 BUFFER[143]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
-#define idfEM_R0UR01RSS	 53	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
-#define fEM_R0UL52RSS	 BUFFER[148]	//(R0UL52RSS) Уровень АС по мощности
-#define idfEM_R0UL52RSS	 54	//(R0UL52RSS) Уровень АС по мощности
-#define fEM_R0UL41RSS	 BUFFER[153]	//(R0UL41RSS) Уровень ПС по периоду разгона
-#define idfEM_R0UL41RSS	 55	//(R0UL41RSS) Уровень ПС по периоду разгона
-#define fEM_R0UL51RSS	 BUFFER[158]	//(R0UL51RSS) Уровень АС по периоду разгона
-#define idfEM_R0UL51RSS	 56	//(R0UL51RSS) Уровень АС по периоду разгона
-#define fEM_R0UH02RSS	 BUFFER[163]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define idfEM_R0UH02RSS	 57	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define fEM_R0UH03RSS	 BUFFER[168]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define idfEM_R0UH03RSS	 58	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define fEM_R0UL42RSS	 BUFFER[173]	//(R0UL42RSS) Уровень ПС по мощности
-#define idfEM_R0UL42RSS	 59	//(R0UL42RSS) Уровень ПС по мощности
-#define fEM_R7UX00RSS	 BUFFER[178]	//(R7UX00RSS) X-координата АЗ1 (см)
-#define idfEM_R7UX00RSS	 60	//(R7UX00RSS) X-координата АЗ1 (см)
-#define fEM_R7UY00RSS	 BUFFER[183]	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define idfEM_R7UY00RSS	 61	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define fEM_R7UX10RSS	 BUFFER[188]	//(R7UX10RSS) X-координата камеры R7IN41
-#define idfEM_R7UX10RSS	 62	//(R7UX10RSS) X-координата камеры R7IN41
-#define fEM_R7UX11RSS	 BUFFER[193]	//(R7UX11RSS) X-координата камеры R7IN42
-#define idfEM_R7UX11RSS	 63	//(R7UX11RSS) X-координата камеры R7IN42
-#define fEM_R7UX12RSS	 BUFFER[198]	//(R7UX12RSS) X-координата камеры R7IN43
-#define idfEM_R7UX12RSS	 64	//(R7UX12RSS) X-координата камеры R7IN43
-#define fEM_R7UY10RSS	 BUFFER[203]	//(R7UY10RSS) Y-координата камеры R7IN41
-#define idfEM_R7UY10RSS	 65	//(R7UY10RSS) Y-координата камеры R7IN41
-#define fEM_R7UY11RSS	 BUFFER[208]	//(R7UY11RSS) Y-координата камеры R7IN42
-#define idfEM_R7UY11RSS	 66	//(R7UY11RSS) Y-координата камеры R7IN42
-#define fEM_R7UY12RSS	 BUFFER[213]	//(R7UY12RSS) Y-координата камеры R7IN43
-#define idfEM_R7UY12RSS	 67	//(R7UY12RSS) Y-координата камеры R7IN43
-#define fEM_A0UX00RSS	 BUFFER[218]	//(A0UX00RSS) Эффективный радиус АЗ
-#define idfEM_A0UX00RSS	 68	//(A0UX00RSS) Эффективный радиус АЗ
-#define fEM_A0UX10RSS	 BUFFER[223]	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
-#define idfEM_A0UX10RSS	 69	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
-#define fEM_A0UX11RSS	 BUFFER[228]	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
-#define idfEM_A0UX11RSS	 70	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
-#define fEM_A0UX12RSS	 BUFFER[233]	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
-#define idfEM_A0UX12RSS	 71	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
-#define fEM_B0UX10RSS	 BUFFER[238]	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
-#define idfEM_B0UX10RSS	 72	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
-#define fEM_B0UX11RSS	 BUFFER[243]	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
-#define idfEM_B0UX11RSS	 73	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
-#define fEM_B0UX12RSS	 BUFFER[248]	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
-#define idfEM_B0UX12RSS	 74	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
-#define fEM_R0UH05RSS	 BUFFER[253]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define idfEM_R0UH05RSS	 75	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define iEM_R0UL01ISS	 BUFFER[258]	//(R0UL01ISS) Шаг (мс) измерения периода
-#define idiEM_R0UL01ISS	 76	//(R0UL01ISS) Шаг (мс) измерения периода
-#define dEM_R0UL02USS	 BUFFER[261]	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-#define iddEM_R0UL02USS	 77	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-#define fEM_R0UN03RSS	 BUFFER[266]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define idfEM_R0UN03RSS	 78	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define bFirstEnterFlag	 BUFFER[271]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 79	//(bFirstEnterFlag) 
-#define internal1_m16_Nk	 BUFFER[273]	//(internal1_m16_Nk) Nk - ведущая камера
-#define idinternal1_m16_Nk	 80	//(internal1_m16_Nk) Nk - ведущая камера
-#define internal1_m45_tst	 BUFFER[276]	//(internal1_m45_tst) - массив времени фиксации стартовой мощности
-#define idinternal1_m45_tst	 81	//(internal1_m45_tst) - массив времени фиксации стартовой мощности
-#define internal1_m45_trz	 BUFFER[301]	//(internal1_m45_trz) - массив времени фиксации очередного периода
-#define idinternal1_m45_trz	 82	//(internal1_m45_trz) - массив времени фиксации очередного периода
-#define internal1_m45_N1	 BUFFER[326]	//(internal1_m45_N1) - массив значения мощности в начале замера
-#define idinternal1_m45_N1	 83	//(internal1_m45_N1) - массив значения мощности в начале замера
-#define internal1_m45_N2	 BUFFER[351]	//(internal1_m45_N2) - массив значения мощности в конце замера
-#define idinternal1_m45_N2	 84	//(internal1_m45_N2) - массив значения мощности в конце замера
-#define internal1_m45_Period0	 BUFFER[376]	//(internal1_m45_Period0) Per - Период разгона РУ
-#define idinternal1_m45_Period0	 85	//(internal1_m45_Period0) Per - Период разгона РУ
-#define internal1_m45_MyFirstEnterFlag	 BUFFER[381]	//(internal1_m45_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m45_MyFirstEnterFlag	 86	//(internal1_m45_MyFirstEnterFlag)  FirstEnterFlag
+#define R0VN78LZ2	 BUFFER[149]	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
+#define idR0VN78LZ2	 53	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
+#define A1EE01LS4	 BUFFER[151]	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
+#define idA1EE01LS4	 54	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
+#define B8VC01RDU	 BUFFER[153]	//(B8VC01RDU) Координата АЗ2, мм
+#define idB8VC01RDU	 55	//(B8VC01RDU) Координата АЗ2, мм
+#define fEM_R0UR01RSS	 BUFFER[158]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+#define idfEM_R0UR01RSS	 56	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+#define fEM_R0UL52RSS	 BUFFER[163]	//(R0UL52RSS) Уровень АС по мощности
+#define idfEM_R0UL52RSS	 57	//(R0UL52RSS) Уровень АС по мощности
+#define fEM_R0UL41RSS	 BUFFER[168]	//(R0UL41RSS) Уровень ПС по периоду разгона
+#define idfEM_R0UL41RSS	 58	//(R0UL41RSS) Уровень ПС по периоду разгона
+#define fEM_R0UL51RSS	 BUFFER[173]	//(R0UL51RSS) Уровень АС по периоду разгона
+#define idfEM_R0UL51RSS	 59	//(R0UL51RSS) Уровень АС по периоду разгона
+#define fEM_R0UH02RSS	 BUFFER[178]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define idfEM_R0UH02RSS	 60	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define fEM_R0UH03RSS	 BUFFER[183]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define idfEM_R0UH03RSS	 61	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define fEM_R0UL42RSS	 BUFFER[188]	//(R0UL42RSS) Уровень ПС по мощности
+#define idfEM_R0UL42RSS	 62	//(R0UL42RSS) Уровень ПС по мощности
+#define fEM_R7UX00RSS	 BUFFER[193]	//(R7UX00RSS) X-координата АЗ1 (см)
+#define idfEM_R7UX00RSS	 63	//(R7UX00RSS) X-координата АЗ1 (см)
+#define fEM_R7UY00RSS	 BUFFER[198]	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define idfEM_R7UY00RSS	 64	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define fEM_R7UX10RSS	 BUFFER[203]	//(R7UX10RSS) X-координата камеры R7IN41
+#define idfEM_R7UX10RSS	 65	//(R7UX10RSS) X-координата камеры R7IN41
+#define fEM_R7UX11RSS	 BUFFER[208]	//(R7UX11RSS) X-координата камеры R7IN42
+#define idfEM_R7UX11RSS	 66	//(R7UX11RSS) X-координата камеры R7IN42
+#define fEM_R7UX12RSS	 BUFFER[213]	//(R7UX12RSS) X-координата камеры R7IN43
+#define idfEM_R7UX12RSS	 67	//(R7UX12RSS) X-координата камеры R7IN43
+#define fEM_R7UY10RSS	 BUFFER[218]	//(R7UY10RSS) Y-координата камеры R7IN41
+#define idfEM_R7UY10RSS	 68	//(R7UY10RSS) Y-координата камеры R7IN41
+#define fEM_R7UY11RSS	 BUFFER[223]	//(R7UY11RSS) Y-координата камеры R7IN42
+#define idfEM_R7UY11RSS	 69	//(R7UY11RSS) Y-координата камеры R7IN42
+#define fEM_R7UY12RSS	 BUFFER[228]	//(R7UY12RSS) Y-координата камеры R7IN43
+#define idfEM_R7UY12RSS	 70	//(R7UY12RSS) Y-координата камеры R7IN43
+#define fEM_A0UX00RSS	 BUFFER[233]	//(A0UX00RSS) Эффективный радиус АЗ
+#define idfEM_A0UX00RSS	 71	//(A0UX00RSS) Эффективный радиус АЗ
+#define fEM_A0UX10RSS	 BUFFER[238]	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
+#define idfEM_A0UX10RSS	 72	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
+#define fEM_A0UX11RSS	 BUFFER[243]	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
+#define idfEM_A0UX11RSS	 73	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
+#define fEM_A0UX12RSS	 BUFFER[248]	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
+#define idfEM_A0UX12RSS	 74	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
+#define fEM_B0UX10RSS	 BUFFER[253]	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
+#define idfEM_B0UX10RSS	 75	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
+#define fEM_B0UX11RSS	 BUFFER[258]	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
+#define idfEM_B0UX11RSS	 76	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
+#define fEM_B0UX12RSS	 BUFFER[263]	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
+#define idfEM_B0UX12RSS	 77	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
+#define fEM_R0UH05RSS	 BUFFER[268]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define idfEM_R0UH05RSS	 78	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define iEM_R0UL01ISS	 BUFFER[273]	//(R0UL01ISS) Шаг (мс) измерения периода
+#define idiEM_R0UL01ISS	 79	//(R0UL01ISS) Шаг (мс) измерения периода
+#define dEM_R0UL02USS	 BUFFER[276]	//(R0UL02USS) Предельное время ожидания роста потока (мс)
+#define iddEM_R0UL02USS	 80	//(R0UL02USS) Предельное время ожидания роста потока (мс)
+#define fEM_R0UN03RSS	 BUFFER[281]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define idfEM_R0UN03RSS	 81	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define bFirstEnterFlag	 BUFFER[286]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 82	//(bFirstEnterFlag) 
+#define internal1_m21_Nk	 BUFFER[288]	//(internal1_m21_Nk) Nk - ведущая камера
+#define idinternal1_m21_Nk	 83	//(internal1_m21_Nk) Nk - ведущая камера
+#define internal1_m53_tst	 BUFFER[291]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+#define idinternal1_m53_tst	 84	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+#define internal1_m53_trz	 BUFFER[316]	//(internal1_m53_trz) - массив времени фиксации очередного периода
+#define idinternal1_m53_trz	 85	//(internal1_m53_trz) - массив времени фиксации очередного периода
+#define internal1_m53_N1	 BUFFER[341]	//(internal1_m53_N1) - массив значения мощности в начале замера
+#define idinternal1_m53_N1	 86	//(internal1_m53_N1) - массив значения мощности в начале замера
+#define internal1_m53_N2	 BUFFER[366]	//(internal1_m53_N2) - массив значения мощности в конце замера
+#define idinternal1_m53_N2	 87	//(internal1_m53_N2) - массив значения мощности в конце замера
+#define internal1_m53_Period0	 BUFFER[391]	//(internal1_m53_Period0) Per - Период разгона РУ
+#define idinternal1_m53_Period0	 88	//(internal1_m53_Period0) Per - Период разгона РУ
+#define internal1_m53_MyFirstEnterFlag	 BUFFER[396]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m53_MyFirstEnterFlag	 89	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,1	,1	, &R0VN78LZ2},	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
-	{ 2	,1	,1	, &A1EE01LS4},	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
-	{ 3	,8	,1	, &B8VC01RDU},	//(B8VC01RDU) Координата АЗ2, мм
-	{ 4	,1	,1	, &R0EE04LZ1},	//(R0EE04LZ1) Питание  АКНП4  отключить
-	{ 5	,1	,1	, &R0EE04LZ2},	//(R0EE04LZ2) Питание  АКНП4  отключить
-	{ 6	,3	,1	, &R0DE01LS4},	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
-	{ 7	,3	,1	, &R0DE02LS4},	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
-	{ 8	,3	,1	, &R0DE04LS4},	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
-	{ 9	,3	,1	, &R0DE05LS4},	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
-	{ 10	,1	,1	, &R0DE31LS4},	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
-	{ 11	,1	,1	, &R0DE32LS4},	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
-	{ 12	,1	,1	, &R0DE33LS4},	//(R0DE33LS4) диагностика шкафа АКНП4 двери
-	{ 13	,1	,1	, &R0DE34LS4},	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
-	{ 14	,1	,1	, &R0DE35LS4},	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
-	{ 15	,1	,1	, &R0DE36LS4},	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
-	{ 16	,1	,1	, &R0DE37LS4},	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
-	{ 17	,1	,1	, &R0DE38LS4},	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
-	{ 18	,1	,1	, &R0DE39LS4},	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
-	{ 19	,1	,1	, &R0DE3CLS4},	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
-	{ 20	,1	,1	, &R0DE3DLS4},	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
-	{ 21	,3	,1	, &TTLaknp4},	//(TTLaknp4) ttl
-	{ 22	,1	,1	, &TestDiagnAKNP4},	//(TestDiagnAKNP4) Неисправность от диагностики
-	{ 23	,1	,1	, &R0DEB1LS4},	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
-	{ 24	,1	,1	, &R0DEB2LS4},	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
-	{ 25	,1	,1	, &R0DEB3LS4},	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
-	{ 26	,1	,1	, &R0DEB4LS4},	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
-	{ 27	,8	,1	, &R0VN02RS4},	//(R0VN02RS4) Уровень мощности канал 4
-	{ 28	,8	,1	, &R0VN01RS4},	//(R0VN01RS4) Период разгона канал 4
-	{ 29	,1	,1	, &R0VN61LS4},	//(R0VN61LS4) ПС по мощности канал 4
-	{ 30	,1	,1	, &R0VN74LZ1},	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
-	{ 31	,1	,1	, &R0VN65LS4},	//(R0VN65LS4) ПС по периоду разгона канал 4
-	{ 32	,1	,1	, &R0VN78LZ1},	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
-	{ 33	,1	,1	, &A0EE01LS4},	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
-	{ 34	,8	,1	, &R0IN01FS4},	//(R0IN01FS4) Выход СНМ-11 Гц
-	{ 35	,8	,1	, &R0IN02FS4},	//(R0IN02FS4) Выход КНК15-1 Гц
-	{ 36	,8	,1	, &R0VN03RS4},	//(R0VN03RS4) Измеренный нейтронный поток канал 4
-	{ 37	,8	,1	, &R0VN04RS4},	//(R0VN04RS4) Реактивность канал 4
-	{ 38	,1	,1	, &A1VN71LS4},	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
-	{ 39	,8	,1	, &R0IN03FS4},	//(R0IN03FS4) Выход КНК53М Гц
-	{ 40	,1	,1	, &A0EE02LS4},	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
-	{ 41	,1	,1	, &R0IE11LS4},	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-	{ 42	,1	,1	, &R0IE12LS4},	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-	{ 43	,1	,1	, &R0IE13LS4},	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
-	{ 44	,8	,1	, &R0VN13RS4},	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
-	{ 45	,8	,1	, &R0VN23RS4},	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
-	{ 46	,8	,1	, &R0VN33RS4},	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
-	{ 47	,3	,1	, &R0VN15RS4},	//(R0VN15RS4) Номер ведущей камеры канал 4
-	{ 48	,1	,1	, &A0EE03LS4},	//(A0EE03LS4) Подключена сеть питания АКНП канал 4
+	{ 1	,1	,1	, &R0EE04LZ1},	//(R0EE04LZ1) Питание  АКНП4  отключить
+	{ 2	,1	,1	, &R0EE04LZ2},	//(R0EE04LZ2) Питание  АКНП4  отключить
+	{ 3	,3	,1	, &R0DE01LS4},	//(R0DE01LS4) диагностика модуля АКНП4 на 1 месте
+	{ 4	,3	,1	, &R0DE02LS4},	//(R0DE02LS4) диагностика модуля АКНП4 на 2 месте
+	{ 5	,3	,1	, &R0DE04LS4},	//(R0DE04LS4) диагностика модуля АКНП4 на 4 месте
+	{ 6	,3	,1	, &R0DE05LS4},	//(R0DE05LS4) диагностика модуля АКНП4 на 5 месте
+	{ 7	,1	,1	, &R0DE31LS4},	//(R0DE31LS4) диагностика шкафа АКНП4 сеть 1
+	{ 8	,1	,1	, &R0DE32LS4},	//(R0DE32LS4) диагностика шкафа АКНП4 сеть 2
+	{ 9	,1	,1	, &R0DE33LS4},	//(R0DE33LS4) диагностика шкафа АКНП4 двери
+	{ 10	,1	,1	, &R0DE34LS4},	//(R0DE34LS4) диагностика шкафа АКНП4 температура меньше 43
+	{ 11	,1	,1	, &R0DE35LS4},	//(R0DE35LS4) диагностика шкафа АКНП4 температура больше 53
+	{ 12	,1	,1	, &R0DE36LS4},	//(R0DE36LS4) диагностика шкафа АКНП4 МП15-3.1 место 1
+	{ 13	,1	,1	, &R0DE37LS4},	//(R0DE37LS4) диагностика шкафа АКНП4 МП15-3.1 место 2
+	{ 14	,1	,1	, &R0DE38LS4},	//(R0DE38LS4) диагностика шкафа АКНП4 МП15-3 место 3
+	{ 15	,1	,1	, &R0DE39LS4},	//(R0DE39LS4) диагностика шкафа АКНП4 МП24-2 место 4
+	{ 16	,1	,1	, &R0DE3CLS4},	//(R0DE3CLS4) диагностика шкафа АКНП4 БП5/24Д место 7
+	{ 17	,1	,1	, &R0DE3DLS4},	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
+	{ 18	,3	,1	, &TTLaknp4},	//(TTLaknp4) ttl
+	{ 19	,1	,1	, &TestDiagnAKNP4},	//(TestDiagnAKNP4) Неисправность от диагностики
+	{ 20	,1	,1	, &R0DEB1LS4},	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
+	{ 21	,1	,1	, &R0DEB2LS4},	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
+	{ 22	,1	,1	, &R0DEB4LS4},	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
+	{ 23	,1	,1	, &R0DEB3LS4},	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
+	{ 24	,1	,1	, &R0IS01LDU},	//(R0IS01LDU) Признак работы с имитатором
+	{ 25	,8	,1	, &R0IN01FI4},	//(R0IN01FI4) Выход СНМ-11 Гц
+	{ 26	,8	,1	, &R0IN02FS4},	//(R0IN02FS4) Выход КНК15-1 Гц
+	{ 27	,8	,1	, &R0IN03FI4},	//(R0IN03FI4) Выход КНК53М Гц
+	{ 28	,8	,1	, &R0VN02RS4},	//(R0VN02RS4) Уровень мощности канал 4
+	{ 29	,8	,1	, &R0VN01RS4},	//(R0VN01RS4) Период разгона канал 4
+	{ 30	,1	,1	, &R0VN61LS4},	//(R0VN61LS4) ПС по мощности канал 4
+	{ 31	,1	,1	, &R0VN74LZ1},	//(R0VN74LZ1) АС по мощности канал 4 на БАЗ1
+	{ 32	,1	,1	, &R0VN65LS4},	//(R0VN65LS4) ПС по периоду разгона канал 4
+	{ 33	,1	,1	, &R0VN78LZ1},	//(R0VN78LZ1) АС по периоду разгона канал 4 на БАЗ1
+	{ 34	,1	,1	, &A0EE01LS4},	//(A0EE01LS4) Исправность АКНП канал 4 на БАЗ1
+	{ 35	,8	,1	, &R0IN01FS4},	//(R0IN01FS4) Выход СНМ-11 Гц
+	{ 36	,8	,1	, &R0IN02FI4},	//(R0IN02FI4) Выход КНК15-1 Гц
+	{ 37	,8	,1	, &R0VN03RS4},	//(R0VN03RS4) Измеренный нейтронный поток канал 4
+	{ 38	,8	,1	, &R0VN04RS4},	//(R0VN04RS4) Реактивность канал 4
+	{ 39	,1	,1	, &A1VN71LS4},	//(A1VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
+	{ 40	,8	,1	, &R0IN03FS4},	//(R0IN03FS4) Выход КНК53М Гц
+	{ 41	,1	,1	, &A0EE02LS4},	//(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4
+	{ 42	,1	,1	, &R0IE11LS4},	//(R0IE11LS4) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+	{ 43	,1	,1	, &R0IE12LS4},	//(R0IE12LS4) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+	{ 44	,1	,1	, &R0IE13LS4},	//(R0IE13LS4) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+	{ 45	,8	,1	, &R0VN13RS4},	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
+	{ 46	,8	,1	, &R0VN23RS4},	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
+	{ 47	,8	,1	, &R0VN33RS4},	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
+	{ 48	,3	,1	, &R0VN15RS4},	//(R0VN15RS4) Номер ведущей камеры канал 4
 	{ 49	,1	,1	, &R0IE01LS4},	//(R0IE01LS4) Отключение питание детекторов канал 4
 	{ 50	,1	,1	, &R0IE02LS4},	//(R0IE02LS4) Отключить питание ПР, ПУ канал 4
 	{ 51	,1	,1	, &A0VN71LS4},	//(A0VN71LS4) Блокировка автоматического  подъёма ББ канал 4 на БАЗ1
 	{ 52	,1	,1	, &R0VN74LZ2},	//(R0VN74LZ2) АС по мощности канал 4 на БАЗ2
-	{ 53	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
-	{ 54	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
-	{ 55	,8	,1	, &fEM_R0UL41RSS},	//(R0UL41RSS) Уровень ПС по периоду разгона
-	{ 56	,8	,1	, &fEM_R0UL51RSS},	//(R0UL51RSS) Уровень АС по периоду разгона
-	{ 57	,8	,1	, &fEM_R0UH02RSS},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-	{ 58	,8	,1	, &fEM_R0UH03RSS},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-	{ 59	,8	,1	, &fEM_R0UL42RSS},	//(R0UL42RSS) Уровень ПС по мощности
-	{ 60	,8	,1	, &fEM_R7UX00RSS},	//(R7UX00RSS) X-координата АЗ1 (см)
-	{ 61	,8	,1	, &fEM_R7UY00RSS},	//(R7UY00RSS) Y-координата АЗ1 (см)
-	{ 62	,8	,1	, &fEM_R7UX10RSS},	//(R7UX10RSS) X-координата камеры R7IN41
-	{ 63	,8	,1	, &fEM_R7UX11RSS},	//(R7UX11RSS) X-координата камеры R7IN42
-	{ 64	,8	,1	, &fEM_R7UX12RSS},	//(R7UX12RSS) X-координата камеры R7IN43
-	{ 65	,8	,1	, &fEM_R7UY10RSS},	//(R7UY10RSS) Y-координата камеры R7IN41
-	{ 66	,8	,1	, &fEM_R7UY11RSS},	//(R7UY11RSS) Y-координата камеры R7IN42
-	{ 67	,8	,1	, &fEM_R7UY12RSS},	//(R7UY12RSS) Y-координата камеры R7IN43
-	{ 68	,8	,1	, &fEM_A0UX00RSS},	//(A0UX00RSS) Эффективный радиус АЗ
-	{ 69	,8	,1	, &fEM_A0UX10RSS},	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
-	{ 70	,8	,1	, &fEM_A0UX11RSS},	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
-	{ 71	,8	,1	, &fEM_A0UX12RSS},	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
-	{ 72	,8	,1	, &fEM_B0UX10RSS},	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
-	{ 73	,8	,1	, &fEM_B0UX11RSS},	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
-	{ 74	,8	,1	, &fEM_B0UX12RSS},	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
-	{ 75	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-	{ 76	,3	,1	, &iEM_R0UL01ISS},	//(R0UL01ISS) Шаг (мс) измерения периода
-	{ 77	,5	,1	, &dEM_R0UL02USS},	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-	{ 78	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-	{ 79	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 80	,3	,1	, &internal1_m16_Nk},	//(internal1_m16_Nk) Nk - ведущая камера
-	{ 81	,8	,5	, &internal1_m45_tst},	//(internal1_m45_tst) - массив времени фиксации стартовой мощности
-	{ 82	,8	,5	, &internal1_m45_trz},	//(internal1_m45_trz) - массив времени фиксации очередного периода
-	{ 83	,8	,5	, &internal1_m45_N1},	//(internal1_m45_N1) - массив значения мощности в начале замера
-	{ 84	,8	,5	, &internal1_m45_N2},	//(internal1_m45_N2) - массив значения мощности в конце замера
-	{ 85	,8	,1	, &internal1_m45_Period0},	//(internal1_m45_Period0) Per - Период разгона РУ
-	{ 86	,1	,1	, &internal1_m45_MyFirstEnterFlag},	//(internal1_m45_MyFirstEnterFlag)  FirstEnterFlag
+	{ 53	,1	,1	, &R0VN78LZ2},	//(R0VN78LZ2) АС по периоду разгона канал 4 на БАЗ2
+	{ 54	,1	,1	, &A1EE01LS4},	//(A1EE01LS4) Исправность АКНП канал 4 на БАЗ2
+	{ 55	,8	,1	, &B8VC01RDU},	//(B8VC01RDU) Координата АЗ2, мм
+	{ 56	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+	{ 57	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
+	{ 58	,8	,1	, &fEM_R0UL41RSS},	//(R0UL41RSS) Уровень ПС по периоду разгона
+	{ 59	,8	,1	, &fEM_R0UL51RSS},	//(R0UL51RSS) Уровень АС по периоду разгона
+	{ 60	,8	,1	, &fEM_R0UH02RSS},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{ 61	,8	,1	, &fEM_R0UH03RSS},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+	{ 62	,8	,1	, &fEM_R0UL42RSS},	//(R0UL42RSS) Уровень ПС по мощности
+	{ 63	,8	,1	, &fEM_R7UX00RSS},	//(R7UX00RSS) X-координата АЗ1 (см)
+	{ 64	,8	,1	, &fEM_R7UY00RSS},	//(R7UY00RSS) Y-координата АЗ1 (см)
+	{ 65	,8	,1	, &fEM_R7UX10RSS},	//(R7UX10RSS) X-координата камеры R7IN41
+	{ 66	,8	,1	, &fEM_R7UX11RSS},	//(R7UX11RSS) X-координата камеры R7IN42
+	{ 67	,8	,1	, &fEM_R7UX12RSS},	//(R7UX12RSS) X-координата камеры R7IN43
+	{ 68	,8	,1	, &fEM_R7UY10RSS},	//(R7UY10RSS) Y-координата камеры R7IN41
+	{ 69	,8	,1	, &fEM_R7UY11RSS},	//(R7UY11RSS) Y-координата камеры R7IN42
+	{ 70	,8	,1	, &fEM_R7UY12RSS},	//(R7UY12RSS) Y-координата камеры R7IN43
+	{ 71	,8	,1	, &fEM_A0UX00RSS},	//(A0UX00RSS) Эффективный радиус АЗ
+	{ 72	,8	,1	, &fEM_A0UX10RSS},	//(A0UX10RSS) Первый коэффициент калибровки камеры 10
+	{ 73	,8	,1	, &fEM_A0UX11RSS},	//(A0UX11RSS) Первый коэффициент калибровки камеры 11
+	{ 74	,8	,1	, &fEM_A0UX12RSS},	//(A0UX12RSS) Первый коэффициент калибровки камеры 12
+	{ 75	,8	,1	, &fEM_B0UX10RSS},	//(B0UX10RSS) Второй коэффициент калибровки камеры 10
+	{ 76	,8	,1	, &fEM_B0UX11RSS},	//(B0UX11RSS) Второй коэффициент калибровки камеры 11
+	{ 77	,8	,1	, &fEM_B0UX12RSS},	//(B0UX12RSS) Второй коэффициент калибровки камеры 12
+	{ 78	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+	{ 79	,3	,1	, &iEM_R0UL01ISS},	//(R0UL01ISS) Шаг (мс) измерения периода
+	{ 80	,5	,1	, &dEM_R0UL02USS},	//(R0UL02USS) Предельное время ожидания роста потока (мс)
+	{ 81	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+	{ 82	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 83	,3	,1	, &internal1_m21_Nk},	//(internal1_m21_Nk) Nk - ведущая камера
+	{ 84	,8	,5	, &internal1_m53_tst},	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+	{ 85	,8	,5	, &internal1_m53_trz},	//(internal1_m53_trz) - массив времени фиксации очередного периода
+	{ 86	,8	,5	, &internal1_m53_N1},	//(internal1_m53_N1) - массив значения мощности в начале замера
+	{ 87	,8	,5	, &internal1_m53_N2},	//(internal1_m53_N2) - массив значения мощности в конце замера
+	{ 88	,8	,1	, &internal1_m53_Period0},	//(internal1_m53_Period0) Per - Период разгона РУ
+	{ 89	,1	,1	, &internal1_m53_MyFirstEnterFlag},	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp4.bin\0";   // Имя файла для сохранения констант
 #pragma pop
 static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
-{53,"fEM_R0UR01RSS\0"}, 
-{54,"fEM_R0UL52RSS\0"}, 
-{55,"fEM_R0UL41RSS\0"}, 
-{56,"fEM_R0UL51RSS\0"}, 
-{57,"fEM_R0UH02RSS\0"}, 
-{58,"fEM_R0UH03RSS\0"}, 
-{59,"fEM_R0UL42RSS\0"}, 
-{60,"fEM_R7UX00RSS\0"}, 
-{61,"fEM_R7UY00RSS\0"}, 
-{62,"fEM_R7UX10RSS\0"}, 
-{63,"fEM_R7UX11RSS\0"}, 
-{64,"fEM_R7UX12RSS\0"}, 
-{65,"fEM_R7UY10RSS\0"}, 
-{66,"fEM_R7UY11RSS\0"}, 
-{67,"fEM_R7UY12RSS\0"}, 
-{68,"fEM_A0UX00RSS\0"}, 
-{69,"fEM_A0UX10RSS\0"}, 
-{70,"fEM_A0UX11RSS\0"}, 
-{71,"fEM_A0UX12RSS\0"}, 
-{72,"fEM_B0UX10RSS\0"}, 
-{73,"fEM_B0UX11RSS\0"}, 
-{74,"fEM_B0UX12RSS\0"}, 
-{75,"fEM_R0UH05RSS\0"}, 
-{76,"iEM_R0UL01ISS\0"}, 
-{77,"dEM_R0UL02USS\0"}, 
-{78,"fEM_R0UN03RSS\0"}, 
+{56,"fEM_R0UR01RSS\0"}, 
+{57,"fEM_R0UL52RSS\0"}, 
+{58,"fEM_R0UL41RSS\0"}, 
+{59,"fEM_R0UL51RSS\0"}, 
+{60,"fEM_R0UH02RSS\0"}, 
+{61,"fEM_R0UH03RSS\0"}, 
+{62,"fEM_R0UL42RSS\0"}, 
+{63,"fEM_R7UX00RSS\0"}, 
+{64,"fEM_R7UY00RSS\0"}, 
+{65,"fEM_R7UX10RSS\0"}, 
+{66,"fEM_R7UX11RSS\0"}, 
+{67,"fEM_R7UX12RSS\0"}, 
+{68,"fEM_R7UY10RSS\0"}, 
+{69,"fEM_R7UY11RSS\0"}, 
+{70,"fEM_R7UY12RSS\0"}, 
+{71,"fEM_A0UX00RSS\0"}, 
+{72,"fEM_A0UX10RSS\0"}, 
+{73,"fEM_A0UX11RSS\0"}, 
+{74,"fEM_A0UX12RSS\0"}, 
+{75,"fEM_B0UX10RSS\0"}, 
+{76,"fEM_B0UX11RSS\0"}, 
+{77,"fEM_B0UX12RSS\0"}, 
+{78,"fEM_R0UH05RSS\0"}, 
+{79,"iEM_R0UL01ISS\0"}, 
+{80,"dEM_R0UL02USS\0"}, 
+{81,"fEM_R0UN03RSS\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP4[]={  // 
 	{&R0EE04LZ2,1,0},	//(R0EE04LZ2) Питание  АКНП4  отключить
 	{&R0EE04LZ1,1,1},	//(R0EE04LZ1) Питание  АКНП4  отключить
-	{&A0EE03LS4,1,2},	//(A0EE03LS4) Подключена сеть питания АКНП канал 4
 	{NULL,0,0},
 };
 #pragma pop
@@ -325,15 +333,15 @@ static ModbusRegister di_AKNP4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP4[]={  // 
-	{&TTLaknp4,3,0},	//(TTLaknp4) ttl
-	{&R0VN15RS4,3,1},	//(R0VN15RS4) Номер ведущей камеры канал 4
-	{&R0VN33RS4,8,2},	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
-	{&R0VN23RS4,8,4},	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
-	{&R0VN13RS4,8,6},	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
-	{&R0IN03FS4,8,8},	//(R0IN03FS4) Выход КНК53М Гц
-	{&R0VN04RS4,8,10},	//(R0VN04RS4) Реактивность канал 4
-	{&R0VN03RS4,8,12},	//(R0VN03RS4) Измеренный нейтронный поток канал 4
-	{&R0IN02FS4,8,14},	//(R0IN02FS4) Выход КНК15-1 Гц
+	{&R0IN02FS4,8,0},	//(R0IN02FS4) Выход КНК15-1 Гц
+	{&TTLaknp4,3,2},	//(TTLaknp4) ttl
+	{&R0VN15RS4,3,3},	//(R0VN15RS4) Номер ведущей камеры канал 4
+	{&R0VN33RS4,8,4},	//(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4
+	{&R0VN23RS4,8,6},	//(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4
+	{&R0VN13RS4,8,8},	//(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4
+	{&R0IN03FS4,8,10},	//(R0IN03FS4) Выход КНК53М Гц
+	{&R0VN04RS4,8,12},	//(R0VN04RS4) Реактивность канал 4
+	{&R0VN03RS4,8,14},	//(R0VN03RS4) Измеренный нейтронный поток канал 4
 	{&R0IN01FS4,8,16},	//(R0IN01FS4) Выход СНМ-11 Гц
 	{&R0VN01RS4,8,18},	//(R0VN01RS4) Период разгона канал 4
 	{&R0VN02RS4,8,20},	//(R0VN02RS4) Уровень мощности канал 4
@@ -373,14 +381,40 @@ static ModbusRegister hr_AKNP4[]={  //
 };
 #pragma pop
 #pragma pack(push,1)
+static ModbusRegister coil_MA4S[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MA4S[]={  // 
+	{&R0IS01LDU,1,0},	//(R0IS01LDU) Признак работы с имитатором
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MA4S[]={  // 
+	{&R0IN01FI4,8,0},	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
+	{&R0IN02FI4,8,2},	//(R0IN02FI4) Выход КНК15-1 Гц от ПТИ
+	{&R0IN03FI4,8,4},	//(R0IN03FI4) Выход КНК53М Гц от ПТИ
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MA4S[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MA4S_ip1[]={"192.168.10.60\0"};
+static char MA4S_ip2[]={"192.168.10.60\0"};
+#pragma pack(push,1)
 static ModbusRegister coil_DiagnAKNP4[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_DiagnAKNP4[]={  // 
-	{&R0DEB4LS4,1,0},	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
-	{&R0DEB3LS4,1,1},	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
+	{&R0DEB3LS4,1,0},	//(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8
+	{&R0DEB4LS4,1,1},	//(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8
 	{&R0DEB2LS4,1,2},	//(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7
 	{&R0DEB1LS4,1,3},	//(R0DEB1LS4) диагностика шкафа АКНП4 БП5 место 7
 	{&R0DE3DLS4,1,4},	//(R0DE3DLS4) диагностика шкафа АКНП4 БП5/24Д место 8
@@ -414,6 +448,7 @@ static ModbusRegister hr_DiagnAKNP4[]={  //
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP4[0],&di_AKNP4[0],&ir_AKNP4[0],&hr_AKNP4[0],NULL,NULL,NULL,0},	 //общий slave AKNP4
+	{1,5005,&coil_MA4S[0],&di_MA4S[0],&ir_MA4S[0],&hr_MA4S[0],NULL,MA4S_ip1,MA4S_ip2,100},	 //Мастер AKNP4 в SCM
 	{0,5003,&coil_DiagnAKNP4[0],&di_DiagnAKNP4[0],&ir_DiagnAKNP4[0],&hr_DiagnAKNP4[0],NULL,NULL,NULL,0},	 //Диагностика корзины АКНП4
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
@@ -426,9 +461,9 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
+	{&R0DE01LS4,3,10},
 	{&R0IN02FS4,8,5},
 	{&R0IN01FS4,8,0},
-	{&R0DE01LS4,3,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -440,8 +475,8 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
-	{&R0IN03FS4,8,0},
 	{&R0DE02LS4,3,10},
+	{&R0IN03FS4,8,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -453,10 +488,10 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
-	{&R0IE11LS4,1,0},
 	{&R0IE12LS4,1,2},
 	{&R0IE13LS4,1,4},
 	{&R0DE04LS4,3,64},
+	{&R0IE11LS4,1,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -468,17 +503,17 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
+	{&A1EE01LS4,1,28},
+	{&R0VN78LZ2,1,26},
+	{&R0VN74LZ2,1,24},
+	{&A0VN71LS4,1,22},
+	{&R0IE02LS4,1,0},
+	{&R0IE01LS4,1,2},
+	{&R0DE05LS4,3,38},
+	{&A1VN71LS4,1,30},
 	{&R0VN74LZ1,1,16},
 	{&R0VN78LZ1,1,18},
 	{&A0EE01LS4,1,20},
-	{&A1VN71LS4,1,30},
-	{&R0IE01LS4,1,2},
-	{&R0IE02LS4,1,0},
-	{&A0VN71LS4,1,22},
-	{&R0VN74LZ2,1,24},
-	{&R0VN78LZ2,1,26},
-	{&A1EE01LS4,1,28},
-	{&R0DE05LS4,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -492,17 +527,17 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 static DriverRegister def_buf_SBKFP[]={
 	{&R0DE31LS4,1,0},
 	{&R0DE32LS4,1,2},
-	{&R0DE33LS4,1,4},
-	{&R0DE34LS4,1,6},
-	{&R0DE35LS4,1,8},
-	{&R0DE36LS4,1,10},
-	{&R0DE37LS4,1,12},
-	{&R0DE38LS4,1,14},
-	{&R0DE39LS4,1,16},
-	{&R0DEB1LS4,1,18},
 	{&R0DEB2LS4,1,20},
-	{&R0DEB3LS4,1,22},
 	{&R0DEB4LS4,1,24},
+	{&R0DEB3LS4,1,22},
+	{&R0DEB1LS4,1,18},
+	{&R0DE39LS4,1,16},
+	{&R0DE38LS4,1,14},
+	{&R0DE37LS4,1,12},
+	{&R0DE36LS4,1,10},
+	{&R0DE35LS4,1,8},
+	{&R0DE34LS4,1,6},
+	{&R0DE33LS4,1,4},
 	{NULL,0,0},
 };
 #pragma pop
@@ -517,32 +552,32 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(53,5000);
-	setAsFloat(54,5100);
-	setAsFloat(55,20);
-	setAsFloat(56,13.0);
-	setAsFloat(57,3703.704 );
-	setAsFloat(58,62500.0);
-	setAsFloat(59,5000);
-	setAsFloat(60,1567.36);
-	setAsFloat(61,506.5);
-	setAsFloat(62,1555.0);
-	setAsFloat(63,1281.2);
-	setAsFloat(64,1269.0);
-	setAsFloat(65,594.0);
-	setAsFloat(66,597.2);
-	setAsFloat(67,556.8);
-	setAsFloat(68,11.0);
-	setAsFloat(69,1.0);
-	setAsFloat(70,1.0);
-	setAsFloat(71,1.0);
-	setAsFloat(72,0.0);
-	setAsFloat(73,0.0);
-	setAsFloat(74,0.0);
-	setAsFloat(75,32000.0);
-	setAsShort(76,500);
-	setAsInt(77,100000);
-	setAsFloat(78,0.005);
+	setAsFloat(56,5000);
+	setAsFloat(57,5100);
+	setAsFloat(58,20);
+	setAsFloat(59,13.0);
+	setAsFloat(60,3703.704 );
+	setAsFloat(61,62500.0);
+	setAsFloat(62,5000);
+	setAsFloat(63,1567.36);
+	setAsFloat(64,506.5);
+	setAsFloat(65,1555.0);
+	setAsFloat(66,1281.2);
+	setAsFloat(67,1269.0);
+	setAsFloat(68,594.0);
+	setAsFloat(69,597.2);
+	setAsFloat(70,556.8);
+	setAsFloat(71,11.0);
+	setAsFloat(72,1.0);
+	setAsFloat(73,1.0);
+	setAsFloat(74,1.0);
+	setAsFloat(75,0.0);
+	setAsFloat(76,0.0);
+	setAsFloat(77,0.0);
+	setAsFloat(78,32000.0);
+	setAsShort(79,500);
+	setAsInt(80,100000);
+	setAsFloat(81,0.005);
 }
 
 // Р’СЃС‚Р°РІРєР° Рє VCHS
@@ -604,38 +639,45 @@ ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования ч
 sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
 ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
 ssint iRM_6_ = {6,0}; /* n - N-размерность массива x */ 
+ssint iRM_1_ = {1,0}; /* x2 - второе слагаемое */ 
 
 uspaint8 SpaEEPROMBuf[128];
 
 /* Определение переменных */
 ssbool var1;
-ssbool var2;
-ssbool var3;
-ssbool var4;
-ssbool var5;
+ssfloat var2;
+ssfloat var3;
+ssint var4;
+ssfloat var5;
 ssbool var6;
-ssint var7;
-ssfloat var8;
-ssfloat var9;
+ssbool var7;
+ssbool var8;
+ssbool var9;
 ssbool var10;
-ssfloat var11;
-ssfloat var12;
+ssbool var11;
+ssint var12;
 ssfloat var13;
-ssint var14;
+ssfloat var14;
 ssbool var15;
 ssfloat var16;
-ssbool var17;
-ssbool var18;
-ssbool var19;
+ssfloat var17;
+ssfloat var18;
+ssint var19;
 ssbool var20;
-ssbool var21;
+ssfloat var21;
 ssbool var22;
 ssbool var23;
 ssbool var24;
-ssfloat var25;
+ssbool var25;
 ssbool var26;
-ssfloat var27;
-ssfloat var28;
+ssbool var27;
+ssbool var28;
+ssbool var29;
+ssfloat var30;
+ssbool var31;
+ssfloat var32;
+ssfloat var33;
+ssint var34;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -644,87 +686,101 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m94_x_1[6] = {&R0DE36LS4,&R0DE37LS4,&R0DE38LS4,&R0DE39LS4,&var2,&var1};
-psint  array_m80_x_1[4] = {&R0DE01LS4,&R0DE02LS4,&R0DE04LS4,&R0DE05LS4};
-psfloat  array_m45_tst_1[5];
-psfloat  array_m45_trz_1[5];
-psfloat  array_m45_N1_1[5];
-psfloat  array_m45_N2_1[5];
-psbool  array_m55_x_1[2] = {&var23,&var18};
-psbool  array_m54_x_1[2] = {&var23,&var24};
-psbool  array_m63_x_1[5] = {&var10,&R0IE11LS4,&R0IE12LS4,&R0IE13LS4,&A0EE03LS4};
+psfloat  array_m10_x_1[2] = {&R0IN03FS4,&R0IN03FI4};
+psfloat  array_m9_x_1[2] = {&R0IN02FS4,&R0IN02FI4};
+psfloat  array_m8_x_1[2] = {&R0IN01FS4,&R0IN01FI4};
+psbool  array_m101_x_1[6] = {&R0DE36LS4,&R0DE37LS4,&R0DE38LS4,&R0DE39LS4,&var7,&var6};
+psint  array_m87_x_1[4] = {&R0DE01LS4,&R0DE02LS4,&R0DE04LS4,&R0DE05LS4};
+psfloat  array_m53_tst_1[5];
+psfloat  array_m53_trz_1[5];
+psfloat  array_m53_N1_1[5];
+psfloat  array_m53_N2_1[5];
+psbool  array_m63_x_1[2] = {&var28,&var23};
+psbool  array_m62_x_1[2] = {&var28,&var29};
+psbool  array_m72_x_1[5] = {&var15,&R0IE11LS4,&R0IE12LS4,&R0IE13LS4,&var1};
 
 /* Объявление структур */
-_S_or2  S_or2_95_1 = {&R0DEB3LS4,&R0DEB4LS4,&var1};
-_S_or2  S_or2_89_1 = {&R0DEB1LS4,&R0DEB2LS4,&var2};
-_S_or3  S_or3_91_1 = {&var6,&var5,&var4,&var3};
-_S_orn  S_orn_94_1 = {array_m94_x_1,&iRM_6_,&var4};
-_S_and2  S_and2_82_1 = {&R0DE31LS4,&R0DE32LS4,&var5};
-_S_diagndev  S_diagndev_80_1 = {array_m80_x_1,&iRM_4_,&var6,&var7};
-_S_ocham  S_ocham_16_1 = {&R0IN01FS4,&R0IN02FS4,&R0IN03FS4,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX10RSS,&fEM_B0UX10RSS,&fEM_A0UX11RSS,&fEM_B0UX11RSS,&fEM_A0UX12RSS,&fEM_B0UX12RSS,&fEM_R7UX10RSS,&fEM_R7UY10RSS,&fEM_R7UX11RSS,&fEM_R7UY11RSS,&fEM_R7UX12RSS,&fEM_R7UY12RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var8,&var9,&var10,&var11,&var12,&var13,&var14,&internal1_m16_Nk};
-_S_or2  S_or2_66_1 = {&R0EE04LZ1,&R0EE04LZ2,&var15};
-_S_period  S_period_45_1 = {&var9,&var20,&iRM_5_,&var27,&var28,&fEM_R0UN03RSS,&var16,array_m45_tst_1,array_m45_trz_1,array_m45_N1_1,array_m45_N2_1,&internal1_m45_Period0,&internal1_m45_MyFirstEnterFlag};
-_S_andn  S_andn_55_1 = {array_m55_x_1,&iRM_2_,&var17};
-_S_bol  S_bol_52_1 = {&fEM_R0UL41RSS,&var16,&var18};
-_S_andn  S_andn_54_1 = {array_m54_x_1,&iRM_2_,&var19};
-_S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_5_,&var20};
-_S_bol  S_bol_35_1 = {&var9,&fEM_R0UL52RSS,&var21};
-_S_bol  S_bol_40_1 = {&var9,&fEM_R0UL42RSS,&var22};
-_S_bol  S_bol_51_1 = {&var9,&fEM_R0UN03RSS,&var23};
-_S_bol  S_bol_50_1 = {&fEM_R0UL51RSS,&var16,&var24};
-_S_react  S_react_46_1 = {&var16,&var25};
-_S_bol  S_bol_31_1 = {&var9,&fEM_R0UR01RSS,&var26};
+_S_noto  S_noto_103_1 = {&var8,&var1};
+_S_ma  S_ma_10_1 = {array_m10_x_1,&var4,&iRM_2_,&var2};
+_S_ma  S_ma_9_1 = {array_m9_x_1,&var4,&iRM_2_,&var3};
+_S_fsumz  S_fsumz_2_1 = {&var34,&iRM_1_,&var4};
+_S_ma  S_ma_8_1 = {array_m8_x_1,&var4,&iRM_2_,&var5};
+_S_or2  S_or2_104_1 = {&R0DEB3LS4,&R0DEB4LS4,&var6};
+_S_or2  S_or2_96_1 = {&R0DEB1LS4,&R0DEB2LS4,&var7};
+_S_or3  S_or3_98_1 = {&var11,&var10,&var9,&var8};
+_S_orn  S_orn_101_1 = {array_m101_x_1,&iRM_6_,&var9};
+_S_and2  S_and2_89_1 = {&R0DE31LS4,&R0DE32LS4,&var10};
+_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var11,&var12};
+_S_ocham  S_ocham_21_1 = {&var5,&var3,&var2,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX10RSS,&fEM_B0UX10RSS,&fEM_A0UX11RSS,&fEM_B0UX11RSS,&fEM_A0UX12RSS,&fEM_B0UX12RSS,&fEM_R7UX10RSS,&fEM_R7UY10RSS,&fEM_R7UX11RSS,&fEM_R7UY11RSS,&fEM_R7UX12RSS,&fEM_R7UY12RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var13,&var14,&var15,&var16,&var17,&var18,&var19,&internal1_m21_Nk};
+_S_or2  S_or2_74_1 = {&R0EE04LZ1,&R0EE04LZ2,&var20};
+_S_period  S_period_53_1 = {&var14,&var25,&iRM_5_,&var32,&var33,&fEM_R0UN03RSS,&var21,array_m53_tst_1,array_m53_trz_1,array_m53_N1_1,array_m53_N2_1,&internal1_m53_Period0,&internal1_m53_MyFirstEnterFlag};
+_S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var22};
+_S_bol  S_bol_60_1 = {&fEM_R0UL41RSS,&var21,&var23};
+_S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var24};
+_S_andn  S_andn_72_1 = {array_m72_x_1,&iRM_5_,&var25};
+_S_bol  S_bol_43_1 = {&var14,&fEM_R0UL52RSS,&var26};
+_S_bol  S_bol_48_1 = {&var14,&fEM_R0UL42RSS,&var27};
+_S_bol  S_bol_59_1 = {&var14,&fEM_R0UN03RSS,&var28};
+_S_bol  S_bol_58_1 = {&fEM_R0UL51RSS,&var21,&var29};
+_S_react  S_react_54_1 = {&var21,&var30};
+_S_bol  S_bol_39_1 = {&var14,&fEM_R0UR01RSS,&var31};
 
 
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_66_1);
-  ocham(&S_ocham_16_1);
-  diagndev(&S_diagndev_80_1);
-  and2(&S_and2_82_1);
-  or2(&S_or2_89_1);
-  or2(&S_or2_95_1);
-  bol(&S_bol_31_1);
-  bol(&S_bol_51_1);
-  bol(&S_bol_40_1);
-  bol(&S_bol_35_1);
+  or2(&S_or2_74_1);
+  diagndev(&S_diagndev_87_1);
+  and2(&S_and2_89_1);
+  or2(&S_or2_96_1);
+  or2(&S_or2_104_1);
+  setData(&var34,idR0IS0);
+  fsumz(&S_fsumz_2_1);
+  ma(&S_ma_9_1);
+  ma(&S_ma_10_1);
+  orn(&S_orn_101_1);
+  or3(&S_or3_98_1);
+  ma(&S_ma_8_1);
+  noto(&S_noto_103_1);
+  ocham(&S_ocham_21_1);
+  bol(&S_bol_39_1);
+  bol(&S_bol_59_1);
+  bol(&S_bol_48_1);
+  bol(&S_bol_43_1);
+  andn(&S_andn_72_1);
+  setData(&var32,&iEM_R0UL01ISS);
+  setData(&var33,&dEM_R0UL02USS);
+  period(&S_period_53_1);
+  react(&S_react_54_1);
+  bol(&S_bol_58_1);
+  andn(&S_andn_62_1);
+  bol(&S_bol_60_1);
   andn(&S_andn_63_1);
-  setData(&var27,&iEM_R0UL01ISS);
-  setData(&var28,&dEM_R0UL02USS);
-  period(&S_period_45_1);
-  orn(&S_orn_94_1);
-  or3(&S_or3_91_1);
-  react(&S_react_46_1);
-  bol(&S_bol_50_1);
-  andn(&S_andn_54_1);
-  bol(&S_bol_52_1);
-  andn(&S_andn_55_1);
-  setData(idTestDiagnAKNP4,&var3);
-  setData(idTTLaknp4,&var7);
-  setData(idR0DE3DLS4,&var1);
-  setData(idR0DE3CLS4,&var2);
-  setData(idA1EE01LS4,&var20);
-  setData(idR0VN78LZ2,&var19);
-  setData(idR0VN74LZ2,&var21);
-  setData(idA0VN71LS4,&var26);
-  setData(idR0IE02LS4,&var15);
-  setData(idR0IE01LS4,&var15);
-  setData(idR0VN15RS4,&var14);
-  setData(idR0VN33RS4,&var13);
-  setData(idR0VN23RS4,&var12);
-  setData(idR0VN13RS4,&var11);
-  setData(idA0EE02LS4,&var10);
-  setData(idA1VN71LS4,&var26);
-  setData(idR0VN04RS4,&var25);
-  setData(idR0VN03RS4,&var8);
-  setData(idA0EE01LS4,&var20);
-  setData(idR0VN78LZ1,&var19);
-  setData(idR0VN65LS4,&var17);
-  setData(idR0VN74LZ1,&var21);
-  setData(idR0VN61LS4,&var22);
-  setData(idR0VN01RS4,&var16);
-  setData(idR0VN02RS4,&var9);
+  setData(idTestDiagnAKNP4,&var8);
+  setData(idTTLaknp4,&var12);
+  setData(idR0DE3DLS4,&var6);
+  setData(idR0DE3CLS4,&var7);
+  setData(idA1EE01LS4,&var25);
+  setData(idR0VN78LZ2,&var24);
+  setData(idR0VN74LZ2,&var26);
+  setData(idA0VN71LS4,&var31);
+  setData(idR0IE02LS4,&var20);
+  setData(idR0IE01LS4,&var20);
+  setData(idR0VN15RS4,&var19);
+  setData(idR0VN33RS4,&var18);
+  setData(idR0VN23RS4,&var17);
+  setData(idR0VN13RS4,&var16);
+  setData(idA0EE02LS4,&var15);
+  setData(idA1VN71LS4,&var31);
+  setData(idR0VN04RS4,&var30);
+  setData(idR0VN03RS4,&var13);
+  setData(idA0EE01LS4,&var25);
+  setData(idR0VN78LZ1,&var24);
+  setData(idR0VN65LS4,&var22);
+  setData(idR0VN74LZ1,&var26);
+  setData(idR0VN61LS4,&var27);
+  setData(idR0VN01RS4,&var21);
+  setData(idR0VN02RS4,&var14);
 
   setAsBool(idbFirstEnterFlag,1);
 }
@@ -733,13 +789,13 @@ void InitInternalParametr(void)
 {
   int i;
   for( i=0;i<5;i++ )
-    array_m45_tst_1[i] = &(&internal1_m45_tst)[i*5];
+    array_m53_tst_1[i] = &(&internal1_m53_tst)[i*5];
   for( i=0;i<5;i++ )
-    array_m45_trz_1[i] = &(&internal1_m45_trz)[i*5];
+    array_m53_trz_1[i] = &(&internal1_m53_trz)[i*5];
   for( i=0;i<5;i++ )
-    array_m45_N1_1[i] = &(&internal1_m45_N1)[i*5];
+    array_m53_N1_1[i] = &(&internal1_m53_N1)[i*5];
   for( i=0;i<5;i++ )
-    array_m45_N2_1[i] = &(&internal1_m45_N2)[i*5];
+    array_m53_N2_1[i] = &(&internal1_m53_N2)[i*5];
 }
 
 #endif

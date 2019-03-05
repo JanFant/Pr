@@ -149,8 +149,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE39LZ2</value>
-            <value name="description">(R0DE39LZ2) диагностика шкафа Баз2 МП24-2 место 4</value>
+            <value name="name">R0DE36LZ2</value>
+            <value name="description">(R0DE36LZ2) диагностика шкафа Баз2 МП15-3.1 место 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -162,8 +162,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE38LZ2</value>
-            <value name="description">(R0DE38LZ2) диагностика шкафа Баз2 МП15-3 место 3</value>
+            <value name="name">R0DE39LZ2</value>
+            <value name="description">(R0DE39LZ2) диагностика шкафа Баз2 МП24-2 место 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -188,8 +188,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE36LZ2</value>
-            <value name="description">(R0DE36LZ2) диагностика шкафа Баз2 МП15-3.1 место 1</value>
+            <value name="name">R0DE38LZ2</value>
+            <value name="description">(R0DE38LZ2) диагностика шкафа Баз2 МП15-3 место 3</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
@@ -258,8 +258,21 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">14</value>
-            <value name="nID">15</value>
+            <value name="nID">16</value>
             <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">31</value>
+            <value name="OldData">31</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE08LZ2</value>
+            <value name="description">(R0DE08LZ2) диагностика модуля Баз2 на 8 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">15</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
             <value name="ParData">28</value>
             <value name="OldData">28</value>
@@ -268,19 +281,6 @@
         <record>
             <value name="name">R0DE0ALZ2</value>
             <value name="description">(R0DE0ALZ2) диагностика модуля Баз2 на 10 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">0</value>
-            <value name="nID">16</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">30</value>
-            <value name="OldData">30</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0DE08LZ2</value>
-            <value name="description">(R0DE08LZ2) диагностика модуля Баз2 на 8 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>

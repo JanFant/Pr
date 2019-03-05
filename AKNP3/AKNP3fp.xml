@@ -4,6 +4,6 @@
         <saves xml="saveAKNP3"/>
         <devices xml="devAKNP3"/>
         <modbus name="AKNP3" description="общий slave AKNP3" type="slave" port="5002" xml="AKNP3"/>
+        <modbus name="MA3S"   description="Мастер AKNP3 в SCM"  type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5005" step="100" xml="..\scm\SA3.xml"/>
         <modbus name="DiagnAKNP3" description="Диагностика корзины АКНП3" type="slave" port="5003" xml="DiagnAKNP3"/>
-
 </subsystem>

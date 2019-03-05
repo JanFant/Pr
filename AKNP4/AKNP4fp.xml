@@ -4,5 +4,6 @@
         <saves xml="saveAKNP4"/>
         <devices xml="devAKNP4"/>
         <modbus name="AKNP4" description="общий slave AKNP4" type="slave" port="5002" xml="AKNP4"/>
+        <modbus name="MA4S"   description="Мастер AKNP4 в SCM"  type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5005" step="100" xml="..\scm\SA4.xml"/>
         <modbus name="DiagnAKNP4" description="Диагностика корзины АКНП4" type="slave" port="5003" xml="DiagnAKNP4"/>
 </subsystem>

@@ -42,18 +42,18 @@
 <var  name="B0VT71LZ2" description="(B0VT71LZ2) АС по температуре в АЗ2" format="1"></var>
 <var  name="R0DE06LZ2" description="(R0DE06LZ2) диагностика модуля Баз2 на 6 месте" format="3"></var>
 <var  name="R0DE07LZ2" description="(R0DE07LZ2) диагностика модуля Баз2 на 7 месте" format="3"></var>
-<var  name="R0DE08LZ2" description="(R0DE08LZ2) диагностика модуля Баз2 на 8 месте" format="3"></var>
 <var  name="R0DE0ALZ2" description="(R0DE0ALZ2) диагностика модуля Баз2 на 10 месте" format="3"></var>
-<var  name="TTLBaz2" description="(TTLBaz2) ttl" format="3"></var>
 <var  name="R0DE31LZ2" description="(R0DE31LZ2) диагностика шкафа Баз2 сеть 1" format="1"></var>
+<var  name="R0DE08LZ2" description="(R0DE08LZ2) диагностика модуля Баз2 на 8 месте" format="3"></var>
+<var  name="TTLBaz2" description="(TTLBaz2) ttl" format="3"></var>
 <var  name="R0DE32LZ2" description="(R0DE32LZ2) диагностика шкафа Баз2 сеть 2" format="1"></var>
 <var  name="R0DE33LZ2" description="(R0DE33LZ2) диагностика шкафа Баз2 двери" format="1"></var>
 <var  name="R0DE34LZ2" description="(R0DE34LZ2) диагностика шкафа Баз2 температура меньше 43" format="1"></var>
 <var  name="R0DE35LZ2" description="(R0DE35LZ2) диагностика шкафа Баз2 температура больше 53" format="1"></var>
-<var  name="R0DE36LZ2" description="(R0DE36LZ2) диагностика шкафа Баз2 МП15-3.1 место 1" format="1"></var>
-<var  name="R0DE37LZ2" description="(R0DE37LZ2) диагностика шкафа Баз2 МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE38LZ2" description="(R0DE38LZ2) диагностика шкафа Баз2 МП15-3 место 3" format="1"></var>
+<var  name="R0DE37LZ2" description="(R0DE37LZ2) диагностика шкафа Баз2 МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE39LZ2" description="(R0DE39LZ2) диагностика шкафа Баз2 МП24-2 место 4" format="1"></var>
+<var  name="R0DE36LZ2" description="(R0DE36LZ2) диагностика шкафа Баз2 МП15-3.1 место 1" format="1"></var>
 <var  name="R0DEB1LZ2" description="(R0DEB1LZ2) диагностика шкафа Баз2 БП5 место 5" format="1"></var>
 <var  name="R0DEB2LZ2" description="(R0DEB2LZ2) диагностика шкафа Баз2 БП24Д место 5" format="1"></var>
 <var  name="R0DEB3LZ2" description="(R0DEB3LZ2) диагностика шкафа Баз2 БП5 место 6" format="1"></var>

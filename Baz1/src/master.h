@@ -1,7 +1,7 @@
 #ifndef BAZ1_H
 #define BAZ1_H
 // Подсистема Baz1:Baz1
-static char SimulOn=1;
+static char SimulOn=0;
 static short CodeSub=4;
 static char SimulIP[]="192.168.10.201\0";
 static int SimulPort=5555;
@@ -870,6 +870,10 @@ static ModbusRegister hr_SBz1DU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_MBz1S[]={  // 
+	{&R0EE01LZ1,1,0},	//(R0EE01LZ1) Питание  АКНП1  отключить
+	{&R0EE02LZ1,1,1},	//(R0EE02LZ1) Питание  АКНП  отключить
+	{&R0EE03LZ1,1,2},	//(R0EE03LZ1) Питание  АКНП3  отключить
+	{&R0EE04LZ1,1,3},	//(R0EE04LZ1) Питание  АКНП4  отключить
 	{NULL,0,0},
 };
 #pragma pop

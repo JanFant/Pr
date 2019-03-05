@@ -14,15 +14,15 @@
         <def name="R0DEB3LZ2">S12SBK</def>
         <def name="R0DEB2LZ2">S11SBK</def>
         <def name="R0DEB1LZ2">S10SBK</def>
-        <def name="R0DE36LZ2">S06SBK</def>
+        <def name="R0DE38LZ2">S08SBK</def>
         <def name="R0DE35LZ2">S05SBK</def>
         <def name="R0DE34LZ2">S04SBK</def>
         <def name="R0DE33LZ2">S03SBK</def>
         <def name="R0DE32LZ2">S02SBK</def>
-        <def name="R0DE31LZ2">S01SBK</def>
         <def name="R0DE37LZ2">S07SBK</def>
-        <def name="R0DE38LZ2">S08SBK</def>
+        <def name="R0DE31LZ2">S01SBK</def>
         <def name="R0DE39LZ2">S09SBK</def>
+        <def name="R0DE36LZ2">S06SBK</def>
     </SBKFP>
 
 

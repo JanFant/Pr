@@ -78,7 +78,7 @@
             <value name="address">0</value>
             <value name="nID">1</value>
             <value name="PType">135</value>
-            <value name="Bf0">417</value>
+            <value name="Bf0">0</value>
             <value name="ParData">0</value>
             <value name="OldData">0</value>
             <value name="unitId">1</value>
@@ -91,7 +91,7 @@
             <value name="address">2</value>
             <value name="nID">2</value>
             <value name="PType">135</value>
-            <value name="Bf0">438</value>
+            <value name="Bf0">0</value>
             <value name="ParData">5</value>
             <value name="OldData">5</value>
             <value name="unitId">1</value>
@@ -104,7 +104,7 @@
             <value name="address">4</value>
             <value name="nID">3</value>
             <value name="PType">135</value>
-            <value name="Bf0">450</value>
+            <value name="Bf0">0</value>
             <value name="ParData">10</value>
             <value name="OldData">10</value>
             <value name="unitId">1</value>
@@ -117,7 +117,7 @@
             <value name="address">6</value>
             <value name="nID">4</value>
             <value name="PType">135</value>
-            <value name="Bf0">486</value>
+            <value name="Bf0">0</value>
             <value name="ParData">15</value>
             <value name="OldData">15</value>
             <value name="unitId">1</value>
@@ -130,7 +130,7 @@
             <value name="address">8</value>
             <value name="nID">5</value>
             <value name="PType">135</value>
-            <value name="Bf0">491</value>
+            <value name="Bf0">0</value>
             <value name="ParData">20</value>
             <value name="OldData">20</value>
             <value name="unitId">1</value>
@@ -143,7 +143,7 @@
             <value name="address">10</value>
             <value name="nID">6</value>
             <value name="PType">135</value>
-            <value name="Bf0">522</value>
+            <value name="Bf0">0</value>
             <value name="ParData">25</value>
             <value name="OldData">25</value>
             <value name="unitId">1</value>
@@ -156,7 +156,7 @@
             <value name="address">12</value>
             <value name="nID">7</value>
             <value name="PType">135</value>
-            <value name="Bf0">595</value>
+            <value name="Bf0">0</value>
             <value name="ParData">30</value>
             <value name="OldData">30</value>
             <value name="unitId">1</value>
@@ -169,7 +169,7 @@
             <value name="address">14</value>
             <value name="nID">8</value>
             <value name="PType">135</value>
-            <value name="Bf0">600</value>
+            <value name="Bf0">0</value>
             <value name="ParData">35</value>
             <value name="OldData">35</value>
             <value name="unitId">1</value>

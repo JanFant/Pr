@@ -74,6 +74,7 @@
   <save value ="0.50">fEM_A8UC08RDU</save>
   <save value ="0.50">fEM_B8UC08RDU</save>
   <save value ="0.50">fEM_R4UC08RDU</save>
+  <save value ="2">fEM_R0UH01RSS</save>
   <save value ="11.0">fEM_A0UX00RSS</save>
   <save value ="1585.0">fEM_R7UX01RSS</save>
   <save value ="1796.0">fEM_R7UX02RSS</save>
@@ -146,13 +147,7 @@
   <save value ="4000">fEM_R0UH21RSS</save>
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
-  <save value ="10.0">fEM_R0UR01RSS</save>
-  <save value ="5100">fEM_R0UL52RSS</save>
-  <save value ="20">fEM_R0UL41RSS</save>
-  <save value ="13.0">fEM_R0UL51RSS</save>
-  <save value ="5000">fEM_R0UL42RSS</save>
   <save value ="32000.0">fEM_R0UH05RSS</save>
-  <save value ="0.005">fEM_R0UN03RSS</save>
   <save value ="5.0">fEM_A4UL10RIM</save>
   <save value ="15.0">fEM_A9UL10RIM</save>
   <save value ="15.0">fEM_R3UL10RIM</save>
@@ -283,18 +278,6 @@
   <save value ="0">iEM_TERB1SS11LIM</save>
   <save value ="0">iEM_TERB1MC01RIM</save>
   <save value ="0">iEM_TERB1SS12LIM</save>
-  <save value ="0">iEM_TERR0IE43LIM</save>
-  <save value ="0">iEM_TERR0IE41LIM</save>
-  <save value ="1">lEM_A0EE06LC1</save>
-  <save value ="0">iEM_TERR0IE33LIM</save>
-  <save value ="0">iEM_TERR0IE31LIM</save>
-  <save value ="1">lEM_A0EE05LC1</save>
-  <save value ="0">iEM_TERR0IE11LIM</save>
-  <save value ="0">iEM_TERR0IE13LIM</save>
-  <save value ="1">lEM_A0EE03LC1</save>
-  <save value ="0">iEM_TERR0IE23LIM</save>
-  <save value ="0">iEM_TERR0IE21LIM</save>
-  <save value ="1">lEM_A0EE04LC1</save>
   <save value ="0">iEM_TERTLG</save>
   <save value ="0">fEM_R4MC01RC1</save>
   <save value ="0">fEM_R4MV01RC1</save>
@@ -331,8 +314,6 @@
   <save value ="0.01">fEM_A1UC08RIM</save>
   <save value ="0.01">fEM_A2UC08RIM</save>
   <save value ="0.01">fEM_A3UC08RIM</save>
-  <save value ="0.5">fEM_R0UL01RSS</save>
-  <save value ="100.0">fEM_R0UL03RSS</save>
   <save value ="0">iEM_TERB2SS33LIM</save>
   <save value ="0">iEM_TERA1VP81LIM</save>
   <save value ="0">iEM_TERB1VP81LIM</save>
@@ -401,8 +382,6 @@
   <save value ="0">fEM_A1MV01RC1</save>
   <save value ="0">iEM_TERB7MS31LIM</save>
   <save value ="0">iEM_TERA7MS31LIM</save>
-  <save value ="1269.0">fEM_R7UX03RSS</save>
-  <save value ="256.0">fEM_R7UY03RSS</save>
   <save value ="506.6">fEM_R7UY00RSS</save>
   <save value ="0">iEM_TERA6VS12LIM</save>
   <save value ="0">iEM_TERA6VS22LIM</save>
@@ -418,4 +397,15 @@
   <save value ="0">iEM_TERR2VS22LIM</save>
   <save value ="0">iEM_TERR4VS12LDU</save>
   <save value ="0">iEM_TERR4VS22LDU</save>
+  <save value ="5065.0">fEM_R4UC23RIM</save>
+  <save value ="1.0">fEM_A0UX13RSS</save>
+  <save value ="1.0">fEM_A0UX14RSS</save>
+  <save value ="1.0">fEM_A0UX15RSS</save>
+  <save value ="1570.0">fEM_R7UX13RSS</save>
+  <save value ="1269">fEM_R7UX14RSS</save>
+  <save value ="1281.2">fEM_R7UX15RSS</save>
+  <save value ="248.0">fEM_R7UY13RSS</save>
+  <save value ="572.4">fEM_R7UY14RSS</save>
+  <save value ="246.8">fEM_R7UY15RSS</save>
+  <save value ="1">fEM_R7UX16RSS</save>
 </saves>

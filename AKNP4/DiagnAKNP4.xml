@@ -71,8 +71,8 @@
     </format>
     <records>
         <record>
-            <value name="name">R0DEB4LS4</value>
-            <value name="description">(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8</value>
+            <value name="name">R0DEB3LS4</value>
+            <value name="description">(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -84,8 +84,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DEB3LS4</value>
-            <value name="description">(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8</value>
+            <value name="name">R0DEB4LS4</value>
+            <value name="description">(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
