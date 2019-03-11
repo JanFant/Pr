@@ -55,18 +55,18 @@ int nomer = 1;
 #define idB2IS21LRP	 20	//(B2IS21LRP) Приход на НУ РБ2-CC
 #define A2IS21LRP	 BUFFER[46]	//(A2IS21LRP) Приход на НУ РБ1-CC
 #define idA2IS21LRP	 21	//(A2IS21LRP) Приход на НУ РБ1-CC
-#define R0IS01FI0	 BUFFER[48]	//(R0IS01FI0) Признак работы с имитатором
-#define idR0IS01FI0	 22	//(R0IS01FI0) Признак работы с имитатором
-#define R0IN07RIP	 BUFFER[51]	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
-#define idR0IN07RIP	 23	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
-#define R0IN06RIP	 BUFFER[56]	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define idR0IN06RIP	 24	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define R0IN03RIP	 BUFFER[61]	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
-#define idR0IN03RIP	 25	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
-#define R0IN02RIP	 BUFFER[66]	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
-#define idR0IN02RIP	 26	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
-#define R0IN01RIP	 BUFFER[71]	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
-#define idR0IN01RIP	 27	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
+#define R0IN07RIP	 BUFFER[48]	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
+#define idR0IN07RIP	 22	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
+#define R0IN06RIP	 BUFFER[53]	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define idR0IN06RIP	 23	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define R0IN03RIP	 BUFFER[58]	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
+#define idR0IN03RIP	 24	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
+#define R0IN02RIP	 BUFFER[63]	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
+#define idR0IN02RIP	 25	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
+#define R0IN01RIP	 BUFFER[68]	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
+#define idR0IN01RIP	 26	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
+#define R0IS01FI0	 BUFFER[73]	//(R0IS01FI0) Признак работы с имитатором
+#define idR0IS01FI0	 27	//(R0IS01FI0) Признак работы с имитатором
 #define R0DEB3LRP	 BUFFER[76]	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
 #define idR0DEB3LRP	 28	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
 #define R0DEB4LRP	 BUFFER[78]	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
@@ -284,12 +284,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 19	,1	,1	, &A1VS21LRP},	//(A1VS21LRP) Индикация - Приход на НУ ББ1
 	{ 20	,1	,1	, &B2IS21LRP},	//(B2IS21LRP) Приход на НУ РБ2-CC
 	{ 21	,1	,1	, &A2IS21LRP},	//(A2IS21LRP) Приход на НУ РБ1-CC
-	{ 22	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
-	{ 23	,8	,1	, &R0IN07RIP},	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
-	{ 24	,8	,1	, &R0IN06RIP},	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
-	{ 25	,8	,1	, &R0IN03RIP},	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
-	{ 26	,8	,1	, &R0IN02RIP},	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
-	{ 27	,8	,1	, &R0IN01RIP},	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
+	{ 22	,8	,1	, &R0IN07RIP},	//(R0IN07RIP) Частота СНМ-11 Гц (канал 7) от ПТИ
+	{ 23	,8	,1	, &R0IN06RIP},	//(R0IN06RIP) Частота СНМ-11 Гц (канал 6) от ПТИ
+	{ 24	,8	,1	, &R0IN03RIP},	//(R0IN03RIP) Частота КНК53М Гц (канал 5) от ПТИ
+	{ 25	,8	,1	, &R0IN02RIP},	//(R0IN02RIP) Частота КНК15-1 Гц (канал 5) от ПТИ
+	{ 26	,8	,1	, &R0IN01RIP},	//(R0IN01RIP) Частота СНМ-11 Гц (канал 5) от ПТИ
+	{ 27	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
 	{ 28	,1	,1	, &R0DEB3LRP},	//(R0DEB3LRP) диагностика шкафа РПУ БП5 место 8
 	{ 29	,1	,1	, &R0DEB4LRP},	//(R0DEB4LRP) диагностика шкафа РПУ БП24Д место 8
 	{ 30	,1	,1	, &R0DEB2LRP},	//(R0DEB2LRP) диагностика шкафа РПУ БП24Д место 7
@@ -941,94 +941,94 @@ _S_bol  S_bol_51_1 = {&var5,&fEM_R0UR01RRP,&var52};
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-//   scalzz(&S_scalzz_89_1);
-//   scalzz(&S_scalzz_91_1);
-//   or2(&S_or2_69_1);
+  scalzz(&S_scalzz_89_1);
+  scalzz(&S_scalzz_91_1);
+  or2(&S_or2_69_1);
   diagndev(&S_diagndev_141_1);
   and2(&S_and2_143_1);
   or2(&S_or2_161_1);
   or2(&S_or2_154_1);
-//   fsumz(&S_fsumz_2_1);
-//   ma(&S_ma_7_1);
-//   ma(&S_ma_8_1);
-//   ma(&S_ma_9_1);
-//   ma(&S_ma_59_1);
-//   bol(&S_bol_63_1);
-//   drg(&S_drg_117_1);
-//   drg(&S_drg_105_1);
-//   geterr(&S_geterr_97_1);
-//   drg(&S_drg_120_1);
-//   drg(&S_drg_107_1);
-//   geterr(&S_geterr_95_1);
-//   zzfs(&S_zzfs_81_1);
-//   or3(&S_or3_72_1);
-//   zzfs(&S_zzfs_73_1);
-//   geterr(&S_geterr_57_1);
-//   noto(&S_noto_82_1);
-//   setData(&var55,&var44);
-//   or2(&S_or2_104_1);
-//   setData(&var56,&var47);
-//   or2(&S_or2_106_1);
-//   setData(&var57,&var44);
-//   setData(&var58,&var47);
-//   or2(&S_or2_99_1);
-//   ocham(&S_ocham_22_1);
+  fsumz(&S_fsumz_2_1);
+  ma(&S_ma_7_1);
+  ma(&S_ma_8_1);
+  ma(&S_ma_9_1);
+  ma(&S_ma_59_1);
+  bol(&S_bol_63_1);
+  drg(&S_drg_117_1);
+  drg(&S_drg_105_1);
+  geterr(&S_geterr_97_1);
+  drg(&S_drg_120_1);
+  drg(&S_drg_107_1);
+  geterr(&S_geterr_95_1);
+  zzfs(&S_zzfs_81_1);
+  or3(&S_or3_72_1);
+  zzfs(&S_zzfs_73_1);
+  geterr(&S_geterr_57_1);
+  noto(&S_noto_82_1);
+  setData(&var55,&var44);
+  or2(&S_or2_104_1);
+  setData(&var56,&var47);
+  or2(&S_or2_106_1);
+  setData(&var57,&var44);
+  setData(&var58,&var47);
+  or2(&S_or2_99_1);
+  ocham(&S_ocham_22_1);
   orn(&S_orn_159_1);
   or3(&S_or3_158_1);
-//   ma(&S_ma_50_1);
+  ma(&S_ma_50_1);
   noto(&S_noto_160_1);
-//   bol(&S_bol_51_1);
-//   bol(&S_bol_43_1);
-//   noto(&S_noto_70_1);
-//   geterr(&S_geterr_58_1);
-//   setData(&var53,&var36);
-//   and3(&S_and3_61_1);
-//   setData(&var54,&var34);
-//   and3(&S_and3_62_1);
-//   and3(&S_and3_52_1);
-//   and3(&S_and3_53_1);
-//   or2(&S_or2_128_1);
-//   and5(&S_and5_44_1);
-//   noto(&S_noto_78_1);
-//   and3(&S_and3_45_1);
-//   or4(&S_or4_49_1);
-//   or4(&S_or4_74_1);
+  bol(&S_bol_51_1);
+  bol(&S_bol_43_1);
+  noto(&S_noto_70_1);
+  geterr(&S_geterr_58_1);
+  setData(&var53,&var36);
+  and3(&S_and3_61_1);
+  setData(&var54,&var34);
+  and3(&S_and3_62_1);
+  and3(&S_and3_52_1);
+  and3(&S_and3_53_1);
+  or2(&S_or2_128_1);
+  and5(&S_and5_44_1);
+  noto(&S_noto_78_1);
+  and3(&S_and3_45_1);
+  or4(&S_or4_49_1);
+  or4(&S_or4_74_1);
   setData(idTTLrpu,&var16);
   setData(idTestDiagnRPU,&var12);
   setData(idR0DE3DLRP,&var11);
   setData(idR0DE3CLRP,&var10);
-//   moveData(idB7MZ31LRP,idC1MZ31LRP);
-//   moveData(idA7MZ31LRP,idC1MZ31LRP);
-//   moveData(idB3VS21LRP,idB3IS21LRP);
-//   moveData(idA3VS21LRP,idA3IS21LRP);
-//   moveData(idB2VS21LRP,idB2IS21LRP);
-//   moveData(idA2VS21LRP,idA2IS21LRP);
-//   moveData(idB1VS21LRP,idB1IS21LRP);
-//   moveData(idA1VS21LRP,idA1IS21LRP);
-//   setData(idR7VE70LRP,&var1);
-//   setData(idR0VN13RRP,&var20);
-//   setData(idR0VN71LRP,&var41);
-//   setData(idA1VT71LRP,&var27);
-//   setData(idR0IE04LRP,&var37);
-//   setData(idR0IE03LRP,&var37);
-//   setData(idA0EE01LRP,&var3);
-//   setData(idB0VT71LRP,&var26);
-//   setData(idB0VT61LRP,&var46);
-//   setData(idB0CT01IRP,&var42);
-//   setData(idR0ET02LRP,&var47);
-//   setData(idR0ET01LRP,&var44);
-//   setData(idA0VT71LRP,&var28);
-//   setData(idA0VT61LRP,&var49);
-//   setData(idA0CT01IRP,&var43);
-//   setData(idR7VN71LRP,&var25);
-//   setData(idR0IE02LRP,&var40);
-//   setData(idR0IE01LRP,&var40);
-//   setData(idR0VN15RRP,&var23);
-//   setData(idR0VN33RRP,&var22);
-//   setData(idR0VN23RRP,&var21);
-//   setData(idA0EE02LRP,&var19);
-//   setData(idR0VN03RRP,&var17);
-//   setData(idR0VN02RRP,&var18);
+  moveData(idB7MZ31LRP,idC1MZ31LRP);
+  moveData(idA7MZ31LRP,idC1MZ31LRP);
+  moveData(idB3VS21LRP,idB3IS21LRP);
+  moveData(idA3VS21LRP,idA3IS21LRP);
+  moveData(idB2VS21LRP,idB2IS21LRP);
+  moveData(idA2VS21LRP,idA2IS21LRP);
+  moveData(idB1VS21LRP,idB1IS21LRP);
+  moveData(idA1VS21LRP,idA1IS21LRP);
+  setData(idR7VE70LRP,&var1);
+  setData(idR0VN13RRP,&var20);
+  setData(idR0VN71LRP,&var41);
+  setData(idA1VT71LRP,&var27);
+  setData(idR0IE04LRP,&var37);
+  setData(idR0IE03LRP,&var37);
+  setData(idA0EE01LRP,&var3);
+  setData(idB0VT71LRP,&var26);
+  setData(idB0VT61LRP,&var46);
+  setData(idB0CT01IRP,&var42);
+  setData(idR0ET02LRP,&var47);
+  setData(idR0ET01LRP,&var44);
+  setData(idA0VT71LRP,&var28);
+  setData(idA0VT61LRP,&var49);
+  setData(idA0CT01IRP,&var43);
+  setData(idR7VN71LRP,&var25);
+  setData(idR0IE02LRP,&var40);
+  setData(idR0IE01LRP,&var40);
+  setData(idR0VN15RRP,&var23);
+  setData(idR0VN33RRP,&var22);
+  setData(idR0VN23RRP,&var21);
+  setData(idA0EE02LRP,&var19);
+  setData(idR0VN03RRP,&var17);
+  setData(idR0VN02RRP,&var18);
 
   setAsBool(idbFirstEnterFlag,1);
 }

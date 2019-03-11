@@ -22,10 +22,10 @@
 <var  name="R0DEB2LS4" description="(R0DEB2LS4) диагностика шкафа АКНП4 БП24Д место 7" format="1"></var>
 <var  name="R0DEB4LS4" description="(R0DEB4LS4) диагностика шкафа АКНП4 БП24Д место 8" format="1"></var>
 <var  name="R0DEB3LS4" description="(R0DEB3LS4) диагностика шкафа АКНП4 БП5 место 8" format="1"></var>
+<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
 <var  name="R0IN01FI4" description="(R0IN01FI4) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS4" description="(R0IN02FS4) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI4" description="(R0IN03FI4) Выход КНК53М Гц" format="8"></var>
-<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
 <var  name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности канал 4" format="8"></var>
 <var  name="R0VN01RS4" description="(R0VN01RS4) Период разгона канал 4" format="8"></var>
 <var  name="R0VN61LS4" description="(R0VN61LS4) ПС по мощности канал 4" format="1"></var>

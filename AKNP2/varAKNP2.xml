@@ -22,10 +22,10 @@
 <var  name="R0IN01FS2" description="(R0IN01FS2) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FI2" description="(R0IN02FI2) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FS2" description="(R0IN03FS2) Выход КНК53М Гц" format="8"></var>
+<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
 <var  name="R0IN01FI2" description="(R0IN01FI2) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS2" description="(R0IN02FS2) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI2" description="(R0IN03FI2) Выход КНК53М Гц" format="8"></var>
-<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
 <var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
 <var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
 <var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>

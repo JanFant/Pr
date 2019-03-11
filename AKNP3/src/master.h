@@ -59,14 +59,14 @@ int nomer = 1;
 #define idR0IN02FI3	 22	//(R0IN02FI3) Выход КНК15-1 Гц
 #define R0IN03FS3	 BUFFER[54]	//(R0IN03FS3) Выход КНК53М Гц
 #define idR0IN03FS3	 23	//(R0IN03FS3) Выход КНК53М Гц
-#define R0IN01FI3	 BUFFER[59]	//(R0IN01FI3) Выход СНМ-11 Гц
-#define idR0IN01FI3	 24	//(R0IN01FI3) Выход СНМ-11 Гц
-#define R0IN02FS3	 BUFFER[64]	//(R0IN02FS3) Выход КНК15-1 Гц
-#define idR0IN02FS3	 25	//(R0IN02FS3) Выход КНК15-1 Гц
-#define R0IN03FI3	 BUFFER[69]	//(R0IN03FI3) Выход КНК53М Гц
-#define idR0IN03FI3	 26	//(R0IN03FI3) Выход КНК53М Гц
-#define R0IS01FI0	 BUFFER[74]	//(R0IS01FI0) Признак работы с имитатором
-#define idR0IS01FI0	 27	//(R0IS01FI0) Признак работы с имитатором
+#define R0IS01FI0	 BUFFER[59]	//(R0IS01FI0) Признак работы с имитатором
+#define idR0IS01FI0	 24	//(R0IS01FI0) Признак работы с имитатором
+#define R0IN01FI3	 BUFFER[62]	//(R0IN01FI3) Выход СНМ-11 Гц
+#define idR0IN01FI3	 25	//(R0IN01FI3) Выход СНМ-11 Гц
+#define R0IN02FS3	 BUFFER[67]	//(R0IN02FS3) Выход КНК15-1 Гц
+#define idR0IN02FS3	 26	//(R0IN02FS3) Выход КНК15-1 Гц
+#define R0IN03FI3	 BUFFER[72]	//(R0IN03FI3) Выход КНК53М Гц
+#define idR0IN03FI3	 27	//(R0IN03FI3) Выход КНК53М Гц
 #define R0VN02RS3	 BUFFER[77]	//(R0VN02RS3) Уровень мощности канал 3
 #define idR0VN02RS3	 28	//(R0VN02RS3) Уровень мощности канал 3
 #define R0VN01RS3	 BUFFER[82]	//(R0VN01RS3) Период разгона канал 3
@@ -216,10 +216,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 21	,8	,1	, &R0IN01FS3},	//(R0IN01FS3) Выход СНМ-11 Гц
 	{ 22	,8	,1	, &R0IN02FI3},	//(R0IN02FI3) Выход КНК15-1 Гц
 	{ 23	,8	,1	, &R0IN03FS3},	//(R0IN03FS3) Выход КНК53М Гц
-	{ 24	,8	,1	, &R0IN01FI3},	//(R0IN01FI3) Выход СНМ-11 Гц
-	{ 25	,8	,1	, &R0IN02FS3},	//(R0IN02FS3) Выход КНК15-1 Гц
-	{ 26	,8	,1	, &R0IN03FI3},	//(R0IN03FI3) Выход КНК53М Гц
-	{ 27	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
+	{ 24	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
+	{ 25	,8	,1	, &R0IN01FI3},	//(R0IN01FI3) Выход СНМ-11 Гц
+	{ 26	,8	,1	, &R0IN02FS3},	//(R0IN02FS3) Выход КНК15-1 Гц
+	{ 27	,8	,1	, &R0IN03FI3},	//(R0IN03FI3) Выход КНК53М Гц
 	{ 28	,8	,1	, &R0VN02RS3},	//(R0VN02RS3) Уровень мощности канал 3
 	{ 29	,8	,1	, &R0VN01RS3},	//(R0VN01RS3) Период разгона канал 3
 	{ 30	,1	,1	, &R0VN61LS3},	//(R0VN61LS3) ПС по мощности канал 3
@@ -725,57 +725,57 @@ _S_bol  S_bol_39_1 = {&var14,&fEM_R0UR01RSS,&var31};
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-//   or2(&S_or2_75_1);
+  or2(&S_or2_75_1);
   diagndev(&S_diagndev_87_1);
   and2(&S_and2_89_1);
   or2(&S_or2_96_1);
   or2(&S_or2_104_1);
-//   fsumz(&S_fsumz_2_1);
-//   ma(&S_ma_7_1);
-//   ma(&S_ma_8_1);
-//   ma(&S_ma_9_1);
-//   ocham(&S_ocham_23_1);
+  fsumz(&S_fsumz_2_1);
+  ma(&S_ma_7_1);
+  ma(&S_ma_8_1);
+  ma(&S_ma_9_1);
+  ocham(&S_ocham_23_1);
   orn(&S_orn_101_1);
   or3(&S_or3_98_1);
   noto(&S_noto_102_1);
-//   bol(&S_bol_39_1);
-//   bol(&S_bol_59_1);
-//   bol(&S_bol_48_1);
-//   bol(&S_bol_43_1);
-//   andn(&S_andn_73_1);
-//   setData(&var32,&iEM_R0UL01ISS);
-//   setData(&var33,&dEM_R0UL02USS);
-//   period(&S_period_53_1);
-//   react(&S_react_54_1);
-//   bol(&S_bol_58_1);
-//   andn(&S_andn_62_1);
-//   bol(&S_bol_60_1);
-//   andn(&S_andn_63_1);
+  bol(&S_bol_39_1);
+  bol(&S_bol_59_1);
+  bol(&S_bol_48_1);
+  bol(&S_bol_43_1);
+  andn(&S_andn_73_1);
+  setData(&var32,&iEM_R0UL01ISS);
+  setData(&var33,&dEM_R0UL02USS);
+  period(&S_period_53_1);
+  react(&S_react_54_1);
+  bol(&S_bol_58_1);
+  andn(&S_andn_62_1);
+  bol(&S_bol_60_1);
+  andn(&S_andn_63_1);
   setData(idTestDiagnAKNP3,&var8);
   setData(idTTLaknp3,&var12);
   setData(idR0DE3DLS3,&var6);
   setData(idR0DE3CLS3,&var7);
-//   setData(idA1EE01LS3,&var25);
-//   setData(idR0VN77LZ2,&var24);
-//   setData(idR0VN73LZ2,&var26);
-//   setData(idA0VN71LS3,&var31);
-//   setData(idR0IE02LS3,&var20);
-//   setData(idR0IE01LS3,&var20);
-//   setData(idR0VN15RS3,&var19);
-//   setData(idR0VN33RS3,&var18);
-//   setData(idR0VN23RS3,&var17);
-//   setData(idR0VN13RS3,&var16);
-//   setData(idA0EE02LS3,&var15);
-//   setData(idA1VN71LS3,&var31);
-//   setData(idR0VN04RS3,&var30);
-//   setData(idR0VN03RS3,&var13);
-//   setData(idA0EE01LS3,&var25);
-//   setData(idR0VN77LZ1,&var24);
-//   setData(idR0VN65LS3,&var22);
-//   setData(idR0VN73LZ1,&var26);
-//   setData(idR0VN61LS3,&var27);
-//   setData(idR0VN01RS3,&var21);
-//   setData(idR0VN02RS3,&var14);
+  setData(idA1EE01LS3,&var25);
+  setData(idR0VN77LZ2,&var24);
+  setData(idR0VN73LZ2,&var26);
+  setData(idA0VN71LS3,&var31);
+  setData(idR0IE02LS3,&var20);
+  setData(idR0IE01LS3,&var20);
+  setData(idR0VN15RS3,&var19);
+  setData(idR0VN33RS3,&var18);
+  setData(idR0VN23RS3,&var17);
+  setData(idR0VN13RS3,&var16);
+  setData(idA0EE02LS3,&var15);
+  setData(idA1VN71LS3,&var31);
+  setData(idR0VN04RS3,&var30);
+  setData(idR0VN03RS3,&var13);
+  setData(idA0EE01LS3,&var25);
+  setData(idR0VN77LZ1,&var24);
+  setData(idR0VN65LS3,&var22);
+  setData(idR0VN73LZ1,&var26);
+  setData(idR0VN61LS3,&var27);
+  setData(idR0VN01RS3,&var21);
+  setData(idR0VN02RS3,&var14);
 
   setAsBool(idbFirstEnterFlag,1);
 }
