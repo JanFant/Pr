@@ -1,58 +1,58 @@
 <vars>
-<var  name="R0DE01LS2" description="(R0DE01LS2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
-<var  name="R0DE02LS2" description="(R0DE02LS2) диагностика модуля АКНП2 на 2 месте" format="3"></var>
-<var  name="R0DE04LS2" description="(R0DE04LS2) диагностика модуля АКНП2 на 4 месте" format="3"></var>
-<var  name="R0DE05LS2" description="(R0DE05LS2) диагностика модуля АКНП2 на 5 месте" format="3"></var>
-<var  name="TTLaknp2" description="(TTLaknp2) TTL" format="3"></var>
-<var  name="R0DE31LS2" description="(R0DE31LS2) диагностика шкафа АКНП2 сеть 1" format="1"></var>
-<var  name="R0DE32LS2" description="(R0DE32LS2) диагностика шкафа АКНП2 сеть 2" format="1"></var>
-<var  name="R0DE33LS2" description="(R0DE33LS2) диагностика шкафа АКНП2 двери" format="1"></var>
-<var  name="R0DE34LS2" description="(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43" format="1"></var>
-<var  name="R0DE35LS2" description="(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53" format="1"></var>
-<var  name="R0DE37LS2" description="(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2" format="1"></var>
-<var  name="R0DE38LS2" description="(R0DE38LS2) диагностика шкафа АКНП2 МП15-3 место 3" format="1"></var>
-<var  name="R0DE39LS2" description="(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4" format="1"></var>
-<var  name="R0DE3CLS2" description="(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7" format="1"></var>
-<var  name="R0DE3DLS2" description="(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8" format="1"></var>
-<var  name="TestDiagnAKNP2" description="(TestDiagnAKNP2) Неисправность от диагностики" format="1"></var>
-<var  name="R0DEB1LS2" description="(R0DEB1LS2) диагностика шкафа АКНП2 БП5 место 7" format="1"></var>
-<var  name="R0DEB2LS2" description="(R0DEB2LS2) диагностика шкафа АКНП2 БП24Д место 7" format="1"></var>
-<var  name="R0DEB3LS2" description="(R0DEB3LS2) диагностика шкафа АКНП2 БП5 место 8" format="1"></var>
-<var  name="R0DEB4LS2" description="(R0DEB4LS2) диагностика шкафа АКНП2 БП24Д место 8" format="1"></var>
-<var  name="R0IN01FS2" description="(R0IN01FS2) Выход СНМ-11 Гц" format="8"></var>
-<var  name="R0IN02FI2" description="(R0IN02FI2) Выход КНК15-1 Гц" format="8"></var>
-<var  name="R0IN03FS2" description="(R0IN03FS2) Выход КНК53М Гц" format="8"></var>
-<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
-<var  name="R0IN01FI2" description="(R0IN01FI2) Выход СНМ-11 Гц" format="8"></var>
-<var  name="R0IN02FS2" description="(R0IN02FS2) Выход КНК15-1 Гц" format="8"></var>
-<var  name="R0IN03FI2" description="(R0IN03FI2) Выход КНК53М Гц" format="8"></var>
-<var  name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности канал 2" format="8"></var>
-<var  name="R0VN01RS2" description="(R0VN01RS2) Период разгона канал 2" format="8"></var>
-<var  name="R0VN61LS2" description="(R0VN61LS2) ПС по мощности канал 2" format="1"></var>
-<var  name="R0VN72LZ1" description="(R0VN72LZ1) АС по мощности канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS2" description="(R0VN65LS2) ПС по периоду разгона канал 2" format="1"></var>
-<var  name="R0VN76LZ1" description="(R0VN76LZ1) АС по периоду разгона канал 2  на БАЗ1" format="1"></var>
-<var  name="A0EE01LS2" description="(A0EE01LS2) Исправность АКНП канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN03RS2" description="(R0VN03RS2) Измеренный нейтронный поток канал 2" format="8"></var>
-<var  name="R0VN04RS2" description="(R0VN04RS2) Реактивность канал 2" format="8"></var>
-<var  name="A1VN71LS2" description="(A1VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
-<var  name="A0EE02LS2" description="(A0EE02LS2) Исправность АКНП2 (от сшивки каналов) канал 2" format="1"></var>
-<var  name="R0IE11LS2" description="(R0IE11LS2) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
-<var  name="R0IE12LS2" description="(R0IE12LS2) Исправность ВИП 0,5 (№12) КНК15-1 2 канала" format="1"></var>
-<var  name="R0IE13LS2" description="(R0IE13LS2) Исправность ВИП 0,5 (№13) КНК53М 2 канала" format="1"></var>
-<var  name="R0VN13RS2" description="(R0VN13RS2) Нейтронный поток по камере СНМ11 канал 2" format="8"></var>
-<var  name="R0VN23RS2" description="(R0VN23RS2) Нейтронный поток по камере КНК15-1 канал 2" format="8"></var>
-<var  name="R0VN33RS2" description="(R0VN33RS2) Нейтронный поток по камере КНК53М канал 2" format="8"></var>
-<var  name="R0VN15RS2" description="(R0VN15RS2) Номер ведущей камеры канал 2" format="3"></var>
-<var  name="R0IE01LS2" description="(R0IE01LS2) Отключение питание детекторов канал 2" format="1"></var>
-<var  name="R0IE02LS2" description="(R0IE02LS2) Отключить питание ПР, ПУ канал 2" format="1"></var>
-<var  name="R0VN72LZ2" description="(R0VN72LZ2) АС по мощности канал 2 на БАЗ2" format="1"></var>
-<var  name="R0VN76LZ2" description="(R0VN76LZ2) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
-<var  name="A1EE01LS2" description="(A1EE01LS2) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
-<var  name="A0VN71LS2" description="(A0VN71LS2) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
-<var  name="B8VC01RDU" description="(B8VC01RDU) Координата АЗ2, мм" format="8"></var>
-<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0DE01LS2" description="(vchs:01 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
+<var  name="R0DE02LS2" description="(vchs:02 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 2 месте" format="3"></var>
+<var  name="R0DE04LS2" description="(vds32:04 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 4 месте" format="3"></var>
+<var  name="R0DE05LS2" description="(fds16:05 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 5 месте" format="3"></var>
+<var  name="TTLaknp2" description="( - , AKNP2) TTL" format="3"></var>
+<var  name="R0DE31LS2" description="(sbk:20 - S01SBK, DiagnAKNP2) диагностика шкафа АКНП2 сеть 1" format="1"></var>
+<var  name="R0DE32LS2" description="(sbk:20 - S02SBK, DiagnAKNP2) диагностика шкафа АКНП2 сеть 2" format="1"></var>
+<var  name="R0DE33LS2" description="(sbk:20 - S03SBK, DiagnAKNP2) диагностика шкафа АКНП2 двери" format="1"></var>
+<var  name="R0DE34LS2" description="(sbk:20 - S04SBK, DiagnAKNP2) диагностика шкафа АКНП2 температура меньше 43" format="1"></var>
+<var  name="R0DE35LS2" description="(sbk:20 - S05SBK, DiagnAKNP2) диагностика шкафа АКНП2 температура больше 53" format="1"></var>
+<var  name="R0DE37LS2" description="(sbk:20 - S07SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП15-3.1 место 2" format="1"></var>
+<var  name="R0DE38LS2" description="(sbk:20 - S08SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП15-3 место 3" format="1"></var>
+<var  name="R0DE39LS2" description="(sbk:20 - S09SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП24-2 место 4" format="1"></var>
+<var  name="R0DE3CLS2" description="( - , DiagnAKNP2) диагностика шкафа АКНП2 БП5/24Д место 7" format="1"></var>
+<var  name="R0DE3DLS2" description="( - , DiagnAKNP2) диагностика шкафа АКНП2 БП5/24Д место 8" format="1"></var>
+<var  name="TestDiagnAKNP2" description="( - , AKNP2) Неисправность от диагностики" format="1"></var>
+<var  name="R0DEB1LS2" description="(sbk:20 - S10SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП5 место 7" format="1"></var>
+<var  name="R0DEB2LS2" description="(sbk:20 - S11SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП24Д место 7" format="1"></var>
+<var  name="R0DEB3LS2" description="(sbk:20 - S12SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП5 место 8" format="1"></var>
+<var  name="R0DEB4LS2" description="(sbk:20 - S13SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП24Д место 8" format="1"></var>
+<var  name="R0IN01FS2" description="(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN02FI2" description="( - , MA2S) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN03FS2" description="(vchs:02 - K01VCHS, - ) Выход КНК53М Гц" format="8"></var>
+<var  name="R0IS01FI0" description="( - , MA2S) Признак работы с имитатором" format="3"></var>
+<var  name="R0IN01FI2" description="( - , MA2S) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN02FS2" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN03FI2" description="( - , MA2S) Выход КНК53М Гц" format="8"></var>
+<var  name="R0VN02RS2" description="( - , AKNP2) Уровень мощности канал 2" format="8"></var>
+<var  name="R0VN01RS2" description="( - , AKNP2) Период разгона канал 2" format="8"></var>
+<var  name="R0VN61LS2" description="( - , AKNP2) ПС по мощности канал 2" format="1"></var>
+<var  name="R0VN72LZ1" description="(fds16:05 - K09FDSR, - ) АС по мощности канал 2 на БАЗ1" format="1"></var>
+<var  name="R0VN65LS2" description="( - , AKNP2) ПС по периоду разгона канал 2" format="1"></var>
+<var  name="R0VN76LZ1" description="(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 2  на БАЗ1" format="1"></var>
+<var  name="A0EE01LS2" description="(fds16:05 - K11FDSR, - ) Исправность АКНП канал 2 на БАЗ1" format="1"></var>
+<var  name="R0VN03RS2" description="( - , AKNP2) Измеренный нейтронный поток канал 2" format="8"></var>
+<var  name="R0VN04RS2" description="( - , AKNP2) Реактивность канал 2" format="8"></var>
+<var  name="A1VN71LS2" description="(fds16:05 - K16FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
+<var  name="A0EE02LS2" description="( - , AKNP2) Исправность АКНП2 (от сшивки каналов) канал 2" format="1"></var>
+<var  name="R0IE11LS2" description="(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
+<var  name="R0IE12LS2" description="(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№12) КНК15-1 2 канала" format="1"></var>
+<var  name="R0IE13LS2" description="(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№13) КНК53М 2 канала" format="1"></var>
+<var  name="R0VN13RS2" description="( - , AKNP2) Нейтронный поток по камере СНМ11 канал 2" format="8"></var>
+<var  name="R0VN23RS2" description="( - , AKNP2) Нейтронный поток по камере КНК15-1 канал 2" format="8"></var>
+<var  name="R0VN33RS2" description="( - , AKNP2) Нейтронный поток по камере КНК53М канал 2" format="8"></var>
+<var  name="R0VN15RS2" description="( - , AKNP2) Номер ведущей камеры канал 2" format="3"></var>
+<var  name="R0IE01LS2" description="(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 2" format="1"></var>
+<var  name="R0IE02LS2" description="(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 2" format="1"></var>
+<var  name="R0VN72LZ2" description="(fds16:05 - K13FDSR, - ) АС по мощности канал 2 на БАЗ2" format="1"></var>
+<var  name="R0VN76LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
+<var  name="A1EE01LS2" description="(fds16:05 - K15FDSR, - ) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
+<var  name="A0VN71LS2" description="(fds16:05 - K12FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
+<var  name="B8VC01RDU" description="( - , AKNP2) Координата АЗ2, мм" format="8"></var>
+<var  name="R0EE02LZ1" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE02LZ2" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП блокировки автоматического подъёма ББ(имп/сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>

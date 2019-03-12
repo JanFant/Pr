@@ -1,280 +1,280 @@
 <vars>
-<var  name="A1IS21LDU" description="(A1IS21LDU) Приход на НУ ББ1" format="1"></var>
-<var  name="B6IS21LDU" description="(B6IS21LDU) Приход на НУ БЗ2" format="1"></var>
-<var  name="B6IS11LDU" description="(B6IS11LDU) Приход на ВУ БЗ2" format="1"></var>
-<var  name="A6IS21LDU" description="(A6IS21LDU) Приход на НУ БЗ1" format="1"></var>
-<var  name="A6IS11LDU" description="(A6IS11LDU) Приход на ВУ БЗ1" format="1"></var>
-<var  name="A8IS12LDU" description="(A8IS12LDU) Приход на механический ВУ ДС2" format="1"></var>
-<var  name="A8IS22LDU" description="(A8IS22LDU) Приход на механический НУ ДС2" format="1"></var>
-<var  name="B8IS12LDU" description="(B8IS12LDU) Приход на ВУ2 АЗ2" format="1"></var>
-<var  name="B8IS22LDU" description="(B8IS22LDU) Приход на НУ2 АЗ2" format="1"></var>
-<var  name="R4IS12LDU" description="(R4IS12LDU) Приход на  ВУ2 тележки" format="1"></var>
-<var  name="R4IS22LDU" description="(R4IS22LDU) Приход на НУ2 тележки" format="1"></var>
-<var  name="R4IS21LDU" description="(R4IS21LDU) Приход на НУ1 тележки" format="1"></var>
-<var  name="R4IS11LDU" description="(R4IS11LDU) Приход на ВУ1 тележки" format="1"></var>
-<var  name="B4VP82LDU" description="(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A4VP82LDU" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
-<var  name="R2IS21LDU" description="(R2IS21LDU) Приход на НУ МДЗ2" format="1"></var>
-<var  name="R2IS11LDU" description="(R2IS11LDU) Приход на ВУ МДЗ2" format="1"></var>
-<var  name="R0EE03LZ1" description="(R0EE03LZ1) Питание  АКНП3  отключить" format="1"></var>
-<var  name="R0EE02LZ1" description="(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE01LZ2" description="(R0EE01LZ2) Питание  АКНП1  отключить" format="1"></var>
-<var  name="R0EE01LZ1" description="(R0EE01LZ1) Питание  АКНП1  отключить" format="1"></var>
-<var  name="B4IS10LDU" description="(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)" format="1"></var>
-<var  name="A4IS10LDU" description="(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)" format="1"></var>
-<var  name="B1IE04LDU" description="(B1IE04LDU) Движение ББ2 назад (от БУШД)" format="1"></var>
-<var  name="B1IE03LDU" description="(B1IE03LDU) Движение ББ2 вперед (от БУШД)" format="1"></var>
-<var  name="A1IE04LDU" description="(A1IE04LDU) Движение ББ1 назад (от БУШД)" format="1"></var>
-<var  name="A1IE03LDU" description="(A1IE03LDU) Движение ББ1 вперед (от БУШД)" format="1"></var>
-<var  name="B1IS12LDU" description="(B1IS12LDU) Магнит ББ2 зацеплен" format="1"></var>
-<var  name="B1IS11LDU" description="(B1IS11LDU) Приход на ВУ ББ2" format="1"></var>
-<var  name="B1IS21LDU" description="(B1IS21LDU) Приход на НУ ББ2" format="1"></var>
-<var  name="B1IC01UDU" description="(B1IC01UDU) Координата штока ББ2" format="5"></var>
-<var  name="A1IC01UDU" description="(A1IC01UDU) Координата штока ББ1" format="5"></var>
-<var  name="A1IS12LDU" description="(A1IS12LDU) Магнит ББ1 зацеплен" format="1"></var>
-<var  name="A1IS11LDU" description="(A1IS11LDU) Приход на ВУ ББ1" format="1"></var>
-<var  name="B9IS21LDU" description="(B9IS21LDU) Приход на НУ НИ ДС2" format="1"></var>
-<var  name="B9IS11LDU" description="(B9IS11LDU) Приход на ВУ НИ ДС2" format="1"></var>
-<var  name="A9IS21LDU" description="(A9IS21LDU) Приход на НУ НИ ДС1" format="1"></var>
-<var  name="A9IS11LDU" description="(A9IS11LDU) Приход на ВУ НИ ДС1" format="1"></var>
-<var  name="B5IS21LDU" description="(B5IS21LDU) Приход на НУ НЛ2" format="1"></var>
-<var  name="B5IS11LDU" description="(B5IS11LDU) Приход на ВУ НЛ2" format="1"></var>
-<var  name="A5IS21LDU" description="(A5IS21LDU) Приход на НУ НЛ1" format="1"></var>
-<var  name="A5IS11LDU" description="(A5IS11LDU) Приход на ВУ НЛ1" format="1"></var>
-<var  name="B0VP81LZZ" description="(B0VP81LZZ) Давление АЗ2 в норме" format="1"></var>
-<var  name="A0VP81LZZ" description="(A0VP81LZZ) Давление АЗ1 в норме" format="1"></var>
-<var  name="B8IC01UDU" description="(B8IC01UDU) Координата АЗ2" format="5"></var>
-<var  name="A8IC01UDU" description="(A8IC01UDU) Координата ДС2" format="5"></var>
-<var  name="R6IS68LZZ" description="(R6IS68LZZ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
-<var  name="R6IS67LZZ" description="(R6IS67LZZ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS66LZZ" description="(R6IS66LZZ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS65LDU" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format="1"></var>
-<var  name="R6IS64LDU" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format="1"></var>
-<var  name="R1IS21LDU" description="(R1IS21LDU) Приход на НУ МДЗ1" format="1"></var>
-<var  name="R1IS11LDU" description="(R1IS11LDU) Приход на ВУ МДЗ1" format="1"></var>
-<var  name="B4IS21LDU" description="(B4IS21LDU) Приход на НУ НИ2" format="1"></var>
-<var  name="B4IS11LDU" description="(B4IS11LDU) Приход на ВУ НИ2" format="1"></var>
-<var  name="R8IS11LDU" description="(R8IS11LDU) Аварийный НИ установлен" format="1"></var>
-<var  name="A4IS21LDU" description="(A4IS21LDU) Приход на НУ НИ1" format="1"></var>
-<var  name="A4IS11LDU" description="(A4IS11LDU) Приход на ВУ НИ1" format="1"></var>
-<var  name="R5IS21LDU" description="(R5IS21LDU) Приход на НУ ворот отстойной зоны" format="1"></var>
-<var  name="R5IS11LDU" description="(R5IS11LDU) Приход на ВУ ворот отстойной зоны" format="1"></var>
-<var  name="R3IS21LDU" description="(R3IS21LDU) Приход на НУ гомогенных дверей" format="1"></var>
-<var  name="R3IS11LDU" description="(R3IS11LDU) Приход на ВУ гомогенных дверей" format="1"></var>
-<var  name="B2VP82LDU" description="(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
-<var  name="B2IP01IZ2" description="(B2IP01IZ2) Текущее давление СБРОС РБ2" format="3"></var>
-<var  name="B2IP01IZ1" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format="3"></var>
-<var  name="B2IC01UDU" description="(B2IC01UDU) Координата штока РБ2" format="5"></var>
-<var  name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
-<var  name="B2IS11LDU" description="(B2IS11LDU) Приход на ВУ РБ2" format="1"></var>
-<var  name="B2IS21LDU" description="(B2IS21LDU) Приход на НУ РБ2" format="1"></var>
-<var  name="R0IN03FI2" description="(R0IN03FI2) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN07RIP" description="(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ" format="8"></var>
-<var  name="R0IN06RIP" description="(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ" format="8"></var>
-<var  name="TerR0IN06FRP" description="(TerR0IN06FRP) Неисправности СНМ-11 -1,2" format="3"></var>
-<var  name="R0IN03RIP" description="(R0IN03RIP) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN02RIP" description="(R0IN02RIP) Выход КНК15- Гц от ПТИ" format="8"></var>
-<var  name="R0IN01RIP" description="(R0IN01RIP) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FI2" description="(R0IN02FI2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN03FI1" description="(R0IN03FI1) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FI1" description="(R0IN02FI1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN03FI4" description="(R0IN03FI4) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FI4" description="(R0IN02FI4) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FI3" description="(R0IN01FI3) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FI2" description="(R0IN01FI2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FI4" description="(R0IN01FI4) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FI1" description="(R0IN01FI1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="B7AP31LDU" description="(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
-<var  name="B0SN07RIM" description="(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
-<var  name="B0SN06RIM" description="(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
-<var  name="B0SN05RIM" description="(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
-<var  name="B0SN04RIM" description="(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2" format="8"></var>
-<var  name="B0SN03RIM" description="(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2" format="8"></var>
-<var  name="B0SN02RIM" description="(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2" format="8"></var>
-<var  name="A0SN07RIM" description="(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1" format="8"></var>
-<var  name="A0SN06RIM" description="(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1" format="8"></var>
-<var  name="A0SN05RIM" description="(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1" format="8"></var>
-<var  name="A0SN04RIM" description="(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
-<var  name="A0SN03RIM" description="(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
-<var  name="A0SN02RIM" description="(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R0IS01FI0" description="(R0IS01FI0) Признак работы с имитатором" format="3"></var>
-<var  name="A0IT03IRP" description="(A0IT03IRP) Температура АЗ1-3" format="3"></var>
-<var  name="B0IT03IRP" description="(B0IT03IRP) Температура АЗ2-3" format="3"></var>
-<var  name="R0IN03FI3" description="(R0IN03FI3) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FI3" description="(R0IN02FI3) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="B1VP81LZZ" description="(B1VP81LZZ) Давление СБРОС ББ2 в норме" format="1"></var>
-<var  name="B2IS33LDU" description="(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)" format="1"></var>
-<var  name="A0VN01RIM" description="(A0VN01RIM) Период разгона  AЗ1" format="8"></var>
-<var  name="B2IS32LIM" description="(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)" format="1"></var>
-<var  name="B2IS11LIM" description="(B2IS11LIM) Магнит РБ2 обесточен" format="1"></var>
-<var  name="A2IS32LIM" description="(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)" format="1"></var>
-<var  name="A2IS11LIM" description="(A2IS11LIM) Магнит РБ1 обесточен" format="1"></var>
-<var  name="B1IS32LIM" description="(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)" format="1"></var>
-<var  name="B1IS11LIM" description="(B1IS11LIM) Магнит ББ2 обесточен" format="1"></var>
-<var  name="A1IS32LIM" description="(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)" format="1"></var>
-<var  name="A1IS11LIM" description="(A1IS11LIM) Магнит ББ1 обесточен" format="1"></var>
-<var  name="A3AD34LDU" description="(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)" format="1"></var>
-<var  name="R0IS02LDU" description="(R0IS02LDU) Разрешение ввода от имитатора" format="1"></var>
-<var  name="R0EE04LZ2" description="(R0EE04LZ2) Питание  АКНП4  отключить" format="1"></var>
-<var  name="R0EE03LZ2" description="(R0EE03LZ2) Питание  АКНП3  отключить" format="1"></var>
-<var  name="R0EE02LZ2" description="(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
-<var  name="R0EE04LZ1" description="(R0EE04LZ1) Питание  АКНП4  отключить" format="1"></var>
-<var  name="A7AP31LDU" description="(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)" format="1"></var>
-<var  name="R4VS12LDU" description="(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
-<var  name="R4VS22LDU" description="(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
-<var  name="R1VS12LDU" description="(R1VS12LDU) Движение МДЗ1 в сторону ВУ" format="1"></var>
-<var  name="R2VS12LDU" description="(R2VS12LDU) Движение МДЗ2 в сторону ВУ" format="1"></var>
-<var  name="R2VS22LDU" description="(R2VS22LDU) Движение МДЗ2 в сторону НУ" format="1"></var>
-<var  name="R1VS22LDU" description="(R1VS22LDU) Движение МДЗ1 в сторону НУ" format="1"></var>
-<var  name="B5VS12LDU" description="(B5VS12LDU) Движение НЛ2 в сторону ВУ" format="1"></var>
-<var  name="B5VS22LDU" description="(B5VS22LDU) Движение НЛ2 в сторону НУ" format="1"></var>
-<var  name="A5VS12LDU" description="(A5VS12LDU) Движение НЛ1 в сторону ВУ" format="1"></var>
-<var  name="A5VS22LDU" description="(A5VS22LDU) Движение НЛ1 в сторону НУ" format="1"></var>
-<var  name="B6VS12LDU" description="(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА" format="1"></var>
-<var  name="B6VS22LDU" description="(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА" format="1"></var>
-<var  name="A6VS12LDU" description="(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА" format="1"></var>
-<var  name="A6VS22LDU" description="(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
-<var  name="B8IS21LDU" description="(B8IS21LDU) Приход на НУ1 АЗ2" format="1"></var>
-<var  name="B8IS11LDU" description="(B8IS11LDU) Приход на ВУ1 АЗ2" format="1"></var>
-<var  name="A1VP81LZZ" description="(A1VP81LZZ) Давление СБРОС ББ1 в норме" format="1"></var>
-<var  name="B8AD20LDU" description="(B8AD20LDU) Перемещение АЗ2 назад" format="1"></var>
-<var  name="B8AD10LDU" description="(B8AD10LDU) Перемещение АЗ2 вперед" format="1"></var>
-<var  name="R4AD20LDU" description="(R4AD20LDU) Перемещение тележки назад" format="1"></var>
-<var  name="R4AD10LDU" description="(R4AD10LDU) Перемещение тележки вперед" format="1"></var>
-<var  name="B0SR01RIM" description="(B0SR01RIM) Текущая реактивность AЗ2" format="8"></var>
-<var  name="B3AD33LDU" description="(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)" format="1"></var>
-<var  name="B3AD05LDU" description="(B3AD05LDU) паритет команды на ИС2" format="1"></var>
-<var  name="B3AD04LDU" description="(B3AD04LDU) 2-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD03LDU" description="(B3AD03LDU) 1-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD02LDU" description="(B3AD02LDU) 0-й бит скорости ИС2" format="1"></var>
-<var  name="B3AD01LDU" description="(B3AD01LDU) Разрешение движения ИС2" format="1"></var>
-<var  name="B3AD21LDU" description="(B3AD21LDU) Сигнал на перемещение ИС2 вниз" format="1"></var>
-<var  name="B3AD11LDU" description="(B3AD11LDU) Сигнал на перемещение ИС2 вверх" format="1"></var>
-<var  name="A3AD33LDU" description="(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)" format="1"></var>
-<var  name="A3AD05LDU" description="(A3AD05LDU) паритет команды на ИС1" format="1"></var>
-<var  name="A3AD04LDU" description="(A3AD04LDU) 2-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD03LDU" description="(A3AD03LDU) 1-й бит скорости ИС1" format="1"></var>
-<var  name="R0CR01RIM" description="(R0CR01RIM) Коэффициент 12 связи АЗ1,2" format="8"></var>
-<var  name="B0SN08RIM" description="(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)" format="8"></var>
-<var  name="A0SN08RIM" description="(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)" format="8"></var>
-<var  name="B5AD20LDU" description="(B5AD20LDU) Опустить НЛ2" format="1"></var>
-<var  name="B5AD10LDU" description="(B5AD10LDU) Поднять НЛ2" format="1"></var>
-<var  name="A5AD20LDU" description="(A5AD20LDU) Опустить НЛ1" format="1"></var>
-<var  name="A5AD10LDU" description="(A5AD10LDU) Поднять НЛ1" format="1"></var>
-<var  name="R2AD20LDU" description="(R2AD20LDU) Поднять МДЗ2" format="1"></var>
-<var  name="R2AD10LDU" description="(R2AD10LDU) Опустить МДЗ2 в зону облучения" format="1"></var>
-<var  name="R1AD20LDU" description="(R1AD20LDU) Поднять МДЗ1" format="1"></var>
-<var  name="R1AD10LDU" description="(R1AD10LDU) Опустить МДЗ1 в зону облучения" format="1"></var>
-<var  name="B6AD20LDU" description="(B6AD20LDU) Закрыть БЗ2" format="1"></var>
-<var  name="B6AD10LDU" description="(B6AD10LDU) Открыть БЗ2" format="1"></var>
-<var  name="A6AD20LDU" description="(A6AD20LDU) Закрыть БЗ1" format="1"></var>
-<var  name="A6AD10LDU" description="(A6AD10LDU) Открыть БЗ1" format="1"></var>
-<var  name="A8AD20LDU" description="(A8AD20LDU) Перемещение ДС2 назад" format="1"></var>
-<var  name="A8AD10LDU" description="(A8AD10LDU) Перемещение ДС2 вперед" format="1"></var>
-<var  name="A2AD21LDU" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format="1"></var>
-<var  name="A2AD11LDU" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format="1"></var>
-<var  name="B1AD05LDU" description="(B1AD05LDU) паритет команды на ББ2" format="1"></var>
-<var  name="B1AD04LDU" description="(B1AD04LDU) 2-й бит скорости ББ2" format="1"></var>
-<var  name="B1AD03LDU" description="(B1AD03LDU) 1-й бит скорости ББ2" format="1"></var>
-<var  name="B1AD02LDU" description="(B1AD02LDU) 0-й бит скорости  ББ2" format="1"></var>
-<var  name="B1AD01LDU" description="(B1AD01LDU) Разрешение движения ББ2" format="1"></var>
-<var  name="B1AD21LDU" description="(B1AD21LDU) Сигнал на перемещение ББ2 вниз" format="1"></var>
-<var  name="B1AD11LDU" description="(B1AD11LDU) Сигнал на перемещение ББ2 вверх" format="1"></var>
-<var  name="A1AD05LDU" description="(A1AD05LDU) паритет команды на ББ1" format="1"></var>
-<var  name="A1AD04LDU" description="(A1AD04LDU) 2-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD03LDU" description="(A1AD03LDU) 1-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD02LDU" description="(A1AD02LDU) 0-й бит скорости ББ1" format="1"></var>
-<var  name="A1AD01LDU" description="(A1AD01LDU) Разрешение движения ББ1" format="1"></var>
-<var  name="A1AD21LDU" description="(A1AD21LDU) Сигнал на перемещение ББ1 вниз" format="1"></var>
-<var  name="A1AD11LDU" description="(A1AD11LDU) Сигнал на перемещение ББ1 вверх" format="1"></var>
-<var  name="A0SR01RIM" description="(A0SR01RIM) Текущая реактивность AЗ1" format="8"></var>
-<var  name="A3AD02LDU" description="(A3AD02LDU) 0-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD01LDU" description="(A3AD01LDU) Разрешение движения ИС1" format="1"></var>
-<var  name="A3AD21LDU" description="(A3AD21LDU) Сигнал на перемещение ИС1 вниз" format="1"></var>
-<var  name="A3AD11LDU" description="(A3AD11LDU) Сигнал на перемещение ИС1 вверх" format="1"></var>
-<var  name="B2AD33LDU" description="(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)" format="1"></var>
-<var  name="B2AD05LDU" description="(B2AD05LDU) паритет команды на РБ2" format="1"></var>
-<var  name="B2AD04LDU" description="(B2AD04LDU) 2-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD03LDU" description="(B2AD03LDU) 1-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD02LDU" description="(B2AD02LDU) 0-й бит скорости РБ2" format="1"></var>
-<var  name="B2AD01LDU" description="(B2AD01LDU) Разрешение движения РБ2" format="1"></var>
-<var  name="B2AD21LDU" description="(B2AD21LDU) Сигнал на перемещение РБ2 вниз" format="1"></var>
-<var  name="B2AD11LDU" description="(B2AD11LDU) Сигнал на перемещение РБ2 вверх" format="1"></var>
-<var  name="A2AD33LDU" description="(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)" format="1"></var>
-<var  name="A2AD05LDU" description="(A2AD05LDU) паритет команды на РБ1" format="1"></var>
-<var  name="A2AD04LDU" description="(A2AD04LDU) 2-й бит скорости РБ1" format="1"></var>
-<var  name="A2AD03LDU" description="(A2AD03LDU) 1-й бит скорости РБ1" format="1"></var>
-<var  name="A2AD02LDU" description="(A2AD02LDU) 0-й бит скорости РБ1" format="1"></var>
-<var  name="A2AD01LDU" description="(A2AD01LDU) Разрешение движения РБ1" format="1"></var>
-<var  name="A2IP01IZ2" description="(A2IP01IZ2) Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="A2IP01IZ1" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="B3IS21LDU" description="(B3IS21LDU) Приход на НУ ИС2" format="1"></var>
-<var  name="A3IS21LDU" description="(A3IS21LDU) Приход на НУ ИС1" format="1"></var>
-<var  name="A2IS33LDU" description="(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)" format="1"></var>
-<var  name="A2IC01UDU" description="(A2IC01UDU) Координата штока РБ1" format="5"></var>
-<var  name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
-<var  name="A2IS11LDU" description="(A2IS11LDU) Приход на ВУ РБ1" format="1"></var>
-<var  name="A2IS21LDU" description="(A2IS21LDU) Приход на НУ РБ1" format="1"></var>
-<var  name="B0IT02IZ2" description="(B0IT02IZ2) Температура АЗ2-2" format="3"></var>
-<var  name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2-1" format="3"></var>
-<var  name="A0IT02IZ2" description="(A0IT02IZ2) Температура АЗ1-2" format="3"></var>
-<var  name="A0IT01IZ1" description="(A0IT01IZ1) Температура АЗ1-1" format="3"></var>
-<var  name="R6IS21LDU" description="(R6IS21LDU) Кран-балка в нерабочем положении" format="1"></var>
-<var  name="B7AS31LDU" description="(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)" format="1"></var>
-<var  name="A7AS31LDU" description="(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)" format="1"></var>
-<var  name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
-<var  name="R6IS63LDU" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format="1"></var>
-<var  name="R6IS62LDU" description="(R6IS62LDU) Исправность ВИП ССДИ-39 1канал" format="1"></var>
-<var  name="B3IS22LDU" description="(B3IS22LDU) Приход на НУП ИС2" format="1"></var>
-<var  name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1" format="1"></var>
-<var  name="B3IS11LDU" description="(B3IS11LDU) Приход на ВУ ИС2" format="1"></var>
-<var  name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1" format="1"></var>
-<var  name="A3IP02IDU" description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
-<var  name="B3VP81LDU" description="(B3VP81LDU) Давление СПУСК ИС2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format="1"></var>
-<var  name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="1"></var>
-<var  name="B3IC01UDU" description="(B3IC01UDU) Координата штока ИС2" format="5"></var>
-<var  name="B3IS31LDU" description="(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)" format="1"></var>
-<var  name="B3IP02IDU" description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2" format="3"></var>
-<var  name="A3IS33LDU" description="(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)" format="1"></var>
-<var  name="A3IC01UDU" description="(A3IC01UDU) Координата штока ИС1" format="5"></var>
-<var  name="A3IS31LDU" description="(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)" format="1"></var>
-<var  name="A2VP82LDU" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
-<var  name="B2AD31LDU" description="(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)" format="1"></var>
-<var  name="B1AD32LDU" description="(B1AD32LDU) Обесточить ЭМ ББ2" format="1"></var>
-<var  name="B1AD31LDU" description="(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)" format="1"></var>
-<var  name="A3AD31LDU" description="(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)" format="1"></var>
-<var  name="C1MD31LP1" description="(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1" format="1"></var>
-<var  name="C1MD31LP2" description="(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2" format="1"></var>
-<var  name="A1AD31LDU" description="(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)" format="1"></var>
-<var  name="A1AD32LDU" description="(A1AD32LDU) Обесточить ЭМ ББ1" format="1"></var>
-<var  name="A2AD31LDU" description="(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)" format="1"></var>
-<var  name="C2MD31LP1" description="(C2MD31LP1) Кнопка «СБРОС РБ»" format="1"></var>
-<var  name="A2AD32LDU" description="(A2AD32LDU) Обесточить ЭМ РБ1" format="1"></var>
-<var  name="R0VZ71LZ2" description="(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
-<var  name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
-<var  name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format="1"></var>
-<var  name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
-<var  name="R0SR02RIM" description="(R0SR02RIM) Текущая мощность РУ (ватт)" format="8"></var>
-<var  name="R0CR02RIM" description="(R0CR02RIM) Коэффициент 11 связи АЗ1,2" format="8"></var>
-<var  name="B3AD34LDU" description="(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)" format="1"></var>
-<var  name="A3IS35LDU" description="(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
-<var  name="R7II73LZ2" description="(R7II73LZ2) Сработала АС IIУР" format="1"></var>
-<var  name="R7II71LZ2" description="(R7II71LZ2) Сработала АС IУР (датчик 1)" format="1"></var>
-<var  name="R7II72LZ2" description="(R7II72LZ2) Сработала АС IУР (датчик 2)" format="1"></var>
-<var  name="R0AD16LDU" description="(R0AD16LDU) Контроль  I-II УР. РАД" format="1"></var>
-<var  name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР (датчик 2)" format="1"></var>
-<var  name="R7II71LZ1" description="(R7II71LZ1) Сработала АС IУР (датчик 1)" format="1"></var>
-<var  name="R7II73LZ1" description="(R7II73LZ1) Сработала АС IIУР" format="1"></var>
-<var  name="R0SR01RIM" description="(R0SR01RIM) Текущая реактивность PУ" format="8"></var>
-<var  name="R0ST01RIM" description="(R0ST01RIM) Текущий период разгона РУ" format="8"></var>
-<var  name="A4AD10LDU" description="(A4AD10LDU) Открыть клапан (Подъем НИ1)" format="1"></var>
-<var  name="B4AD10LDU" description="(B4AD10LDU) Открыть клапан (Подъем НИ2)" format="1"></var>
-<var  name="A9AD10LDU" description="(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)" format="1"></var>
-<var  name="B9AD10LDU" description="(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)" format="1"></var>
-<var  name="R0MW13LP2" description="(R0MW13LP2) Переключатель «СЕТЬ»" format="1"></var>
-<var  name="B3AD31LDU" description="(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)" format="1"></var>
-<var  name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format="1"></var>
+<var  name="A1IS21LDU" description="(do32_pti:140 - K02DO, - ) Приход на НУ ББ1" format="1"></var>
+<var  name="B6IS21LDU" description="(do32_pti:140 - K31DO, - ) Приход на НУ БЗ2" format="1"></var>
+<var  name="B6IS11LDU" description="(do32_pti:140 - K30DO, - ) Приход на ВУ БЗ2" format="1"></var>
+<var  name="A6IS21LDU" description="(do32_pti:140 - K27DO, - ) Приход на НУ БЗ1" format="1"></var>
+<var  name="A6IS11LDU" description="(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1" format="1"></var>
+<var  name="A8IS12LDU" description="(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2" format="1"></var>
+<var  name="A8IS22LDU" description="(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2" format="1"></var>
+<var  name="B8IS12LDU" description="(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2" format="1"></var>
+<var  name="B8IS22LDU" description="(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2" format="1"></var>
+<var  name="R4IS12LDU" description="(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки" format="1"></var>
+<var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки" format="1"></var>
+<var  name="R4IS21LDU" description="(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки" format="1"></var>
+<var  name="R4IS11LDU" description="(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки" format="1"></var>
+<var  name="B4VP82LDU" description="( - , SCM) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="A4VP82LDU" description="( - , SCM) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="R2IS21LDU" description="(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2" format="1"></var>
+<var  name="R2IS11LDU" description="(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2" format="1"></var>
+<var  name="R0EE03LZ1" description="( - , SBz1) Питание  АКНП3  отключить" format="1"></var>
+<var  name="R0EE02LZ1" description="( - , SBz1) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE01LZ2" description="( - , SBz2) Питание  АКНП1  отключить" format="1"></var>
+<var  name="R0EE01LZ1" description="( - , SBz1) Питание  АКНП1  отключить" format="1"></var>
+<var  name="B4IS10LDU" description="( - , - ) Клапан (Подъём НИ2) открыт (обесточен)" format="1"></var>
+<var  name="A4IS10LDU" description="( - , - ) Клапан (Подъём НИ1) открыт (обесточен)" format="1"></var>
+<var  name="B1IE04LDU" description="( - , SCM) Движение ББ2 назад (от БУШД)" format="1"></var>
+<var  name="B1IE03LDU" description="( - , SCM) Движение ББ2 вперед (от БУШД)" format="1"></var>
+<var  name="A1IE04LDU" description="( - , SCM) Движение ББ1 назад (от БУШД)" format="1"></var>
+<var  name="A1IE03LDU" description="( - , SCM) Движение ББ1 вперед (от БУШД)" format="1"></var>
+<var  name="B1IS12LDU" description="(do32_pti:130 - K07DO, - ) Магнит ББ2 зацеплен" format="1"></var>
+<var  name="B1IS11LDU" description="(do32_pti:130 - K08DO, - ) Приход на ВУ ББ2" format="1"></var>
+<var  name="B1IS21LDU" description="(do32_pti:130 - K09DO, - ) Приход на НУ ББ2" format="1"></var>
+<var  name="B1IC01UDU" description="( - , SDu) Координата штока ББ2" format="5"></var>
+<var  name="A1IC01UDU" description="( - , SDu) Координата штока ББ1" format="5"></var>
+<var  name="A1IS12LDU" description="(do32_pti:130 - K32DO, - ) Магнит ББ1 зацеплен" format="1"></var>
+<var  name="A1IS11LDU" description="(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1" format="1"></var>
+<var  name="B9IS21LDU" description="(do32_pti:130 - K21DO, - ) Приход на НУ НИ ДС2" format="1"></var>
+<var  name="B9IS11LDU" description="(do32_pti:130 - K20DO, - ) Приход на ВУ НИ ДС2" format="1"></var>
+<var  name="A9IS21LDU" description="(do32_pti:130 - K19DO, - ) Приход на НУ НИ ДС1" format="1"></var>
+<var  name="A9IS11LDU" description="(do32_pti:130 - K18DO, - ) Приход на ВУ НИ ДС1" format="1"></var>
+<var  name="B5IS21LDU" description="(do32_pti:150 - K01DO, - ) Приход на НУ НЛ2" format="1"></var>
+<var  name="B5IS11LDU" description="(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2" format="1"></var>
+<var  name="A5IS21LDU" description="(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1" format="1"></var>
+<var  name="A5IS11LDU" description="(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1" format="1"></var>
+<var  name="B0VP81LZZ" description="(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме" format="1"></var>
+<var  name="A0VP81LZZ" description="(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме" format="1"></var>
+<var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2" format="5"></var>
+<var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
+<var  name="R6IS68LZZ" description="(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS67LZZ" description="(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS66LZZ" description="(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS65LDU" description="(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
+<var  name="R6IS64LDU" description="(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал" format="1"></var>
+<var  name="R1IS21LDU" description="(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1" format="1"></var>
+<var  name="R1IS11LDU" description="(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1" format="1"></var>
+<var  name="B4IS21LDU" description="(do32_pti:140 - K08DO, SCM) Приход на НУ НИ2" format="1"></var>
+<var  name="B4IS11LDU" description="(do32_pti:140 - K07DO, - ) Приход на ВУ НИ2" format="1"></var>
+<var  name="R8IS11LDU" description="(do32_pti:130 - K14DO, - ) Аварийный НИ установлен" format="1"></var>
+<var  name="A4IS21LDU" description="(do32_pti:130 - K17DO, - ) Приход на НУ НИ1" format="1"></var>
+<var  name="A4IS11LDU" description="(do32_pti:130 - K16DO, - ) Приход на ВУ НИ1" format="1"></var>
+<var  name="R5IS21LDU" description="(do32_pti:150 - K11DO, - ) Приход на НУ ворот отстойной зоны" format="1"></var>
+<var  name="R5IS11LDU" description="(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны" format="1"></var>
+<var  name="R3IS21LDU" description="(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей" format="1"></var>
+<var  name="R3IS11LDU" description="(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей" format="1"></var>
+<var  name="B2VP82LDU" description="( - , SCM) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="B2IP01IZ2" description="(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="B2IP01IZ1" description="(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="B2IC01UDU" description="( - , SDu) Координата штока РБ2" format="5"></var>
+<var  name="B2IS12LDU" description="(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен" format="1"></var>
+<var  name="B2IS11LDU" description="(do32_pti:130 - K11DO, - ) Приход на ВУ РБ2" format="1"></var>
+<var  name="B2IS21LDU" description="(do32_pti:130 - K12DO, - ) Приход на НУ РБ2" format="1"></var>
+<var  name="R0IN03FI2" description="( - , SA2) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN07RIP" description="( - , SRP) Выход СНМ-11-2 Гц от ПТИ" format="8"></var>
+<var  name="R0IN06RIP" description="( - , SRP) Выход СНМ-11-1 Гц от ПТИ" format="8"></var>
+<var  name="TerR0IN06FRP" description="( - , - ) Неисправности СНМ-11 -1,2" format="3"></var>
+<var  name="R0IN03RIP" description="( - , SRP) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN02RIP" description="( - , SRP) Выход КНК15- Гц от ПТИ" format="8"></var>
+<var  name="R0IN01RIP" description="( - , SRP) Выход СНМ-11 Гц от ПТИ" format="8"></var>
+<var  name="R0IN02FI2" description="( - , SA2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN03FI1" description="( - , SA1) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN02FI1" description="( - , SA1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN03FI4" description="( - , SA4) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN02FI4" description="( - , SA4) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI3" description="( - , SA3) Выход СНМ-11 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI2" description="( - , SA2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI4" description="( - , SA4) Выход СНМ-11 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI1" description="( - , SA1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="B7AP31LDU" description="(vds32_pti:340 - K31VDSR, - ) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
+<var  name="B0SN07RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
+<var  name="B0SN06RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
+<var  name="B0SN05RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
+<var  name="B0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2" format="8"></var>
+<var  name="B0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2" format="8"></var>
+<var  name="B0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2" format="8"></var>
+<var  name="A0SN07RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1" format="8"></var>
+<var  name="A0SN06RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1" format="8"></var>
+<var  name="A0SN05RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1" format="8"></var>
+<var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
+<var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
+<var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
+<var  name="R0IS01FI0" description="( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором" format="3"></var>
+<var  name="A0IT03IRP" description="(ao16_pti:320 - K11AO, - ) Температура АЗ1-3" format="3"></var>
+<var  name="B0IT03IRP" description="(ao16_pti:320 - K12AO, - ) Температура АЗ2-3" format="3"></var>
+<var  name="R0IN03FI3" description="( - , SA3) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN02FI3" description="( - , SA3) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="B1VP81LZZ" description="(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме" format="1"></var>
+<var  name="B2IS33LDU" description="( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)" format="1"></var>
+<var  name="A0VN01RIM" description="( - , SCM) Период разгона  AЗ1" format="8"></var>
+<var  name="B2IS32LIM" description="( - , SCM) Клапан cброса РБ2 открыт(обесточен)" format="1"></var>
+<var  name="B2IS11LIM" description="( - , SCM) Магнит РБ2 обесточен" format="1"></var>
+<var  name="A2IS32LIM" description="( - , SCM) Клапан cброса РБ1 открыт(обесточен)" format="1"></var>
+<var  name="A2IS11LIM" description="( - , SCM) Магнит РБ1 обесточен" format="1"></var>
+<var  name="B1IS32LIM" description="( - , SCM) Клапан cброса ББ2 открыт(обесточен)" format="1"></var>
+<var  name="B1IS11LIM" description="( - , SCM) Магнит ББ2 обесточен" format="1"></var>
+<var  name="A1IS32LIM" description="( - , SCM) Клапан cброса ББ1 открыт(обесточен)" format="1"></var>
+<var  name="A1IS11LIM" description="( - , SCM) Магнит ББ1 обесточен" format="1"></var>
+<var  name="A3AD34LDU" description="(vds32_pti:340 - K12VDSR, - ) Клапан (ВПИС ИС1) открыть (обесточить)" format="1"></var>
+<var  name="R0IS02LDU" description="(do32_pti:140 - K17DO, - ) Разрешение ввода от имитатора" format="1"></var>
+<var  name="R0EE04LZ2" description="( - , SBz2) Питание  АКНП4  отключить" format="1"></var>
+<var  name="R0EE03LZ2" description="( - , SBz2) Питание  АКНП3  отключить" format="1"></var>
+<var  name="R0EE02LZ2" description="( - , SBz2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE04LZ1" description="( - , SBz1) Питание  АКНП4  отключить" format="1"></var>
+<var  name="A7AP31LDU" description="(vds32_pti:340 - K17VDSR, - ) Клапан (Обдув АЗ1) открыть (обесточить)" format="1"></var>
+<var  name="R4VS12LDU" description="( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
+<var  name="R4VS22LDU" description="( - , SCM) Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
+<var  name="R1VS12LDU" description="( - , SCM) Движение МДЗ1 в сторону ВУ" format="1"></var>
+<var  name="R2VS12LDU" description="( - , SCM) Движение МДЗ2 в сторону ВУ" format="1"></var>
+<var  name="R2VS22LDU" description="( - , SCM) Движение МДЗ2 в сторону НУ" format="1"></var>
+<var  name="R1VS22LDU" description="( - , SCM) Движение МДЗ1 в сторону НУ" format="1"></var>
+<var  name="B5VS12LDU" description="( - , SCM) Движение НЛ2 в сторону ВУ" format="1"></var>
+<var  name="B5VS22LDU" description="( - , SCM) Движение НЛ2 в сторону НУ" format="1"></var>
+<var  name="A5VS12LDU" description="( - , SCM) Движение НЛ1 в сторону ВУ" format="1"></var>
+<var  name="A5VS22LDU" description="( - , SCM) Движение НЛ1 в сторону НУ" format="1"></var>
+<var  name="B6VS12LDU" description="( - , SCM) Движение створок БЗ2  к ОТКРЫТА" format="1"></var>
+<var  name="B6VS22LDU" description="( - , SCM) Движение створок БЗ2  к ЗАКРЫТА" format="1"></var>
+<var  name="A6VS12LDU" description="( - , SCM) Движение створок БЗ1  к  ОТКРЫТА" format="1"></var>
+<var  name="A6VS22LDU" description="( - , SCM) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
+<var  name="B8IS21LDU" description="( - , SCM) Приход на НУ1 АЗ2" format="1"></var>
+<var  name="B8IS11LDU" description="( - , SCM) Приход на ВУ1 АЗ2" format="1"></var>
+<var  name="A1VP81LZZ" description="(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме" format="1"></var>
+<var  name="B8AD20LDU" description="(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад" format="1"></var>
+<var  name="B8AD10LDU" description="(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед" format="1"></var>
+<var  name="R4AD20LDU" description="(vds32_pti:360 - K07VDSR, - ) Перемещение тележки назад" format="1"></var>
+<var  name="R4AD10LDU" description="(vds32_pti:360 - K06VDSR, - ) Перемещение тележки вперед" format="1"></var>
+<var  name="B0SR01RIM" description="( - , SCM) Текущая реактивность AЗ2" format="8"></var>
+<var  name="B3AD33LDU" description="(vds32_pti:340 - K27VDSR, - ) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)" format="1"></var>
+<var  name="B3AD05LDU" description="(vds32_pti:360 - K23VDSR, - ) паритет команды на ИС2" format="1"></var>
+<var  name="B3AD04LDU" description="(vds32_pti:360 - K22VDSR, - ) 2-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD03LDU" description="(vds32_pti:360 - K21VDSR, - ) 1-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD02LDU" description="(vds32_pti:360 - K20VDSR, - ) 0-й бит скорости ИС2" format="1"></var>
+<var  name="B3AD01LDU" description="(vds32_pti:360 - K19VDSR, - ) Разрешение движения ИС2" format="1"></var>
+<var  name="B3AD21LDU" description="(vds32_pti:360 - K18VDSR, - ) Сигнал на перемещение ИС2 вниз" format="1"></var>
+<var  name="B3AD11LDU" description="(vds32_pti:360 - K17VDSR, - ) Сигнал на перемещение ИС2 вверх" format="1"></var>
+<var  name="A3AD33LDU" description="(vds32_pti:340 - K13VDSR, - ) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)" format="1"></var>
+<var  name="A3AD05LDU" description="(vds32_pti:360 - K16VDSR, - ) паритет команды на ИС1" format="1"></var>
+<var  name="A3AD04LDU" description="(vds32_pti:360 - K15VDSR, - ) 2-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD03LDU" description="(vds32_pti:360 - K14VDSR, - ) 1-й бит скорости ИС1" format="1"></var>
+<var  name="R0CR01RIM" description="( - , SCM) Коэффициент 12 связи АЗ1,2" format="8"></var>
+<var  name="B0SN08RIM" description="( - , SCM) Поток нейтронов AЗ2(нейтр/с)" format="8"></var>
+<var  name="A0SN08RIM" description="( - , SCM) Поток нейтронов AЗ1(нейтр/с)" format="8"></var>
+<var  name="B5AD20LDU" description="(vds32_pti:340 - K25VDSR, - ) Опустить НЛ2" format="1"></var>
+<var  name="B5AD10LDU" description="(vds32_pti:340 - K24VDSR, - ) Поднять НЛ2" format="1"></var>
+<var  name="A5AD20LDU" description="(vds32_pti:340 - K23VDSR, - ) Опустить НЛ1" format="1"></var>
+<var  name="A5AD10LDU" description="(vds32_pti:340 - K22VDSR, - ) Поднять НЛ1" format="1"></var>
+<var  name="R2AD20LDU" description="(vds32_pti:340 - K21VDSR, - ) Поднять МДЗ2" format="1"></var>
+<var  name="R2AD10LDU" description="(vds32_pti:340 - K20VDSR, - ) Опустить МДЗ2 в зону облучения" format="1"></var>
+<var  name="R1AD20LDU" description="(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1" format="1"></var>
+<var  name="R1AD10LDU" description="(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения" format="1"></var>
+<var  name="B6AD20LDU" description="(vds32_pti:360 - K05VDSR, - ) Закрыть БЗ2" format="1"></var>
+<var  name="B6AD10LDU" description="(vds32_pti:360 - K04VDSR, - ) Открыть БЗ2" format="1"></var>
+<var  name="A6AD20LDU" description="(vds32_pti:360 - K03VDSR, - ) Закрыть БЗ1" format="1"></var>
+<var  name="A6AD10LDU" description="(vds32_pti:360 - K02VDSR, - ) Открыть БЗ1" format="1"></var>
+<var  name="A8AD20LDU" description="(vds32_pti:360 - K01VDSR, - ) Перемещение ДС2 назад" format="1"></var>
+<var  name="A8AD10LDU" description="(vds32_pti:340 - K32VDSR, - ) Перемещение ДС2 вперед" format="1"></var>
+<var  name="A2AD21LDU" description="(vds32_pti:310 - K10VDSR, - ) Сигнал на перемещение РБ1 вниз" format="1"></var>
+<var  name="A2AD11LDU" description="(vds32_pti:310 - K09VDSR, - ) Сигнал на перемещение РБ1 вверх" format="1"></var>
+<var  name="B1AD05LDU" description="(vds32_pti:310 - K08VDSR, - ) паритет команды на ББ2" format="1"></var>
+<var  name="B1AD04LDU" description="(vds32_pti:310 - K07VDSR, - ) 2-й бит скорости ББ2" format="1"></var>
+<var  name="B1AD03LDU" description="(vds32_pti:310 - K06VDSR, - ) 1-й бит скорости ББ2" format="1"></var>
+<var  name="B1AD02LDU" description="(vds32_pti:310 - K05VDSR, - ) 0-й бит скорости  ББ2" format="1"></var>
+<var  name="B1AD01LDU" description="(vds32_pti:310 - K04VDSR, - ) Разрешение движения ББ2" format="1"></var>
+<var  name="B1AD21LDU" description="(vds32_pti:310 - K03VDSR, - ) Сигнал на перемещение ББ2 вниз" format="1"></var>
+<var  name="B1AD11LDU" description="(vds32_pti:310 - K02VDSR, - ) Сигнал на перемещение ББ2 вверх" format="1"></var>
+<var  name="A1AD05LDU" description="(vds32_pti:310 - K01VDSR, - ) паритет команды на ББ1" format="1"></var>
+<var  name="A1AD04LDU" description="(vds32_pti:360 - K31VDSR, - ) 2-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD03LDU" description="(vds32_pti:360 - K30VDSR, - ) 1-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD02LDU" description="(vds32_pti:360 - K29VDSR, - ) 0-й бит скорости ББ1" format="1"></var>
+<var  name="A1AD01LDU" description="(vds32_pti:360 - K28VDSR, - ) Разрешение движения ББ1" format="1"></var>
+<var  name="A1AD21LDU" description="(vds32_pti:360 - K27VDSR, - ) Сигнал на перемещение ББ1 вниз" format="1"></var>
+<var  name="A1AD11LDU" description="(vds32_pti:360 - K26VDSR, - ) Сигнал на перемещение ББ1 вверх" format="1"></var>
+<var  name="A0SR01RIM" description="( - , SCM) Текущая реактивность AЗ1" format="8"></var>
+<var  name="A3AD02LDU" description="(vds32_pti:360 - K13VDSR, - ) 0-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD01LDU" description="(vds32_pti:360 - K12VDSR, - ) Разрешение движения ИС1" format="1"></var>
+<var  name="A3AD21LDU" description="(vds32_pti:360 - K11VDSR, - ) Сигнал на перемещение ИС1 вниз" format="1"></var>
+<var  name="A3AD11LDU" description="(vds32_pti:360 - K10VDSR, - ) Сигнал на перемещение ИС1 вверх" format="1"></var>
+<var  name="B2AD33LDU" description="(vds32_pti:340 - K28VDSR, - ) Клапан (Подъем РБ2) закрыть (обесточить)" format="1"></var>
+<var  name="B2AD05LDU" description="(vds32_pti:310 - K22VDSR, - ) паритет команды на РБ2" format="1"></var>
+<var  name="B2AD04LDU" description="(vds32_pti:310 - K21VDSR, - ) 2-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD03LDU" description="(vds32_pti:310 - K20VDSR, - ) 1-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD02LDU" description="(vds32_pti:310 - K19VDSR, - ) 0-й бит скорости РБ2" format="1"></var>
+<var  name="B2AD01LDU" description="(vds32_pti:310 - K18VDSR, - ) Разрешение движения РБ2" format="1"></var>
+<var  name="B2AD21LDU" description="(vds32_pti:310 - K17VDSR, - ) Сигнал на перемещение РБ2 вниз" format="1"></var>
+<var  name="B2AD11LDU" description="(vds32_pti:310 - K16VDSR, - ) Сигнал на перемещение РБ2 вверх" format="1"></var>
+<var  name="A2AD33LDU" description="(vds32_pti:340 - K14VDSR, - ) Клапан (Подъем РБ1) закрыть (обесточить)" format="1"></var>
+<var  name="A2AD05LDU" description="(vds32_pti:310 - K15VDSR, - ) паритет команды на РБ1" format="1"></var>
+<var  name="A2AD04LDU" description="(vds32_pti:310 - K14VDSR, - ) 2-й бит скорости РБ1" format="1"></var>
+<var  name="A2AD03LDU" description="(vds32_pti:310 - K13VDSR, - ) 1-й бит скорости РБ1" format="1"></var>
+<var  name="A2AD02LDU" description="(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1" format="1"></var>
+<var  name="A2AD01LDU" description="(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1" format="1"></var>
+<var  name="A2IP01IZ2" description="(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="A2IP01IZ1" description="(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="B3IS21LDU" description="(do32_pti:130 - K13DO, - ) Приход на НУ ИС2" format="1"></var>
+<var  name="A3IS21LDU" description="(do32_pti:140 - K06DO, - ) Приход на НУ ИС1" format="1"></var>
+<var  name="A2IS33LDU" description="( - , - ) Клапан (Подъём РБ1)  открыт (обесточен)" format="1"></var>
+<var  name="A2IC01UDU" description="( - , SDu) Координата штока РБ1" format="5"></var>
+<var  name="A2IS12LDU" description="(do32_pti:140 - K03DO, - ) Магнит РБ1 зацеплен" format="1"></var>
+<var  name="A2IS11LDU" description="(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1" format="1"></var>
+<var  name="A2IS21LDU" description="(do32_pti:140 - K05DO, - ) Приход на НУ РБ1" format="1"></var>
+<var  name="B0IT02IZ2" description="(ao16_pti:320 - K07AO, - ) Температура АЗ2-2" format="3"></var>
+<var  name="B0IT01IZ1" description="(ao16_pti:320 - K03AO, - ) Температура АЗ2-1" format="3"></var>
+<var  name="A0IT02IZ2" description="(ao16_pti:320 - K05AO, - ) Температура АЗ1-2" format="3"></var>
+<var  name="A0IT01IZ1" description="(ao16_pti:320 - K01AO, - ) Температура АЗ1-1" format="3"></var>
+<var  name="R6IS21LDU" description="(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении" format="1"></var>
+<var  name="B7AS31LDU" description="(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)" format="1"></var>
+<var  name="A7AS31LDU" description="(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)" format="1"></var>
+<var  name="B3IS35LDU" description="( - , - ) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
+<var  name="R6IS63LDU" description="(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал" format="1"></var>
+<var  name="R6IS62LDU" description="(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал" format="1"></var>
+<var  name="B3IS22LDU" description="(do32_pti:100 - K12DO, - ) Приход на НУП ИС2" format="1"></var>
+<var  name="A3IS22LDU" description="(do32_pti:100 - K06DO, - ) Приход на НУП ИС1" format="1"></var>
+<var  name="B3IS11LDU" description="(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2" format="1"></var>
+<var  name="A3IS11LDU" description="(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1" format="1"></var>
+<var  name="A3IP02IDU" description="(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
+<var  name="B3VP81LDU" description="( - , SCM) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="A3VP81LDU" description="( - , SCM) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3IS33LDU" description="( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="1"></var>
+<var  name="B3IC01UDU" description="( - , SDu) Координата штока ИС2" format="5"></var>
+<var  name="B3IS31LDU" description="( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)" format="1"></var>
+<var  name="B3IP02IDU" description="(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2" format="3"></var>
+<var  name="A3IS33LDU" description="( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)" format="1"></var>
+<var  name="A3IC01UDU" description="( - , SDu) Координата штока ИС1" format="5"></var>
+<var  name="A3IS31LDU" description="( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)" format="1"></var>
+<var  name="A2VP82LDU" description="( - , SCM) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="B2AD31LDU" description="(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)" format="1"></var>
+<var  name="B1AD32LDU" description="(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2" format="1"></var>
+<var  name="B1AD31LDU" description="(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)" format="1"></var>
+<var  name="A3AD31LDU" description="(vds32_pti:340 - K16VDSR, - ) Клапан (СПУСК ИС1) открыть (обесточить)" format="1"></var>
+<var  name="C1MD31LP1" description="( - , SCM) Кнопка «СБРОС ББ»  на ОПУ1" format="1"></var>
+<var  name="C1MD31LP2" description="( - , SCM) Кнопка «СБРОС ББ»  на ОПУ2" format="1"></var>
+<var  name="A1AD31LDU" description="(vds32_pti:310 - K24VDSR, - ) Клапан (Сброс ББ1) открыть (обесточить)" format="1"></var>
+<var  name="A1AD32LDU" description="(vds32_pti:310 - K23VDSR, - ) Обесточить ЭМ ББ1" format="1"></var>
+<var  name="A2AD31LDU" description="(vds32_pti:310 - K26VDSR, - ) Клапан (Сброс РБ1) открыть (обесточить)" format="1"></var>
+<var  name="C2MD31LP1" description="( - , SCM) Кнопка «СБРОС РБ»" format="1"></var>
+<var  name="A2AD32LDU" description="(vds32_pti:310 - K25VDSR, - ) Обесточить ЭМ РБ1" format="1"></var>
+<var  name="R0VZ71LZ2" description="( - , SCM) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
+<var  name="R0VZ71LZ1" description="( - , SCM) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
+<var  name="R8AD21LDU" description="(vds32_pti:310 - K31VDSR, - ) Запуск системы инициирования" format="1"></var>
+<var  name="R0AD14LDU" description="( - , SCM) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var  name="R0SR02RIM" description="( - , SCM) Текущая мощность РУ (ватт)" format="8"></var>
+<var  name="R0CR02RIM" description="( - , SCM) Коэффициент 11 связи АЗ1,2" format="8"></var>
+<var  name="B3AD34LDU" description="(vds32_pti:340 - K26VDSR, - ) Клапан (ВПИС2) открыть (обесточить)" format="1"></var>
+<var  name="A3IS35LDU" description="( - , - ) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
+<var  name="R7II73LZ2" description="(do32_pti:110 - K26DO, - ) Сработала АС IIУР" format="1"></var>
+<var  name="R7II71LZ2" description="(do32_pti:110 - K24DO, - ) Сработала АС IУР (датчик 1)" format="1"></var>
+<var  name="R7II72LZ2" description="(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)" format="1"></var>
+<var  name="R0AD16LDU" description="(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД" format="1"></var>
+<var  name="R7II72LZ1" description="(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)" format="1"></var>
+<var  name="R7II71LZ1" description="(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)" format="1"></var>
+<var  name="R7II73LZ1" description="(do32_pti:100 - K26DO, - ) Сработала АС IIУР" format="1"></var>
+<var  name="R0SR01RIM" description="( - , SCM) Текущая реактивность PУ" format="8"></var>
+<var  name="R0ST01RIM" description="( - , SCM) Текущий период разгона РУ" format="8"></var>
+<var  name="A4AD10LDU" description="(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)" format="1"></var>
+<var  name="B4AD10LDU" description="(vds32_pti:340 - K29VDSR, - ) Открыть клапан (Подъем НИ2)" format="1"></var>
+<var  name="A9AD10LDU" description="(vds32_pti:360 - K24VDSR, - ) Открыть клапан (Подъем НИ ДС1)" format="1"></var>
+<var  name="B9AD10LDU" description="(vds32_pti:360 - K25VDSR, - ) Открыть клапан (Подъем НИ ДС2)" format="1"></var>
+<var  name="R0MW13LP2" description="( - , SCM) Переключатель «СЕТЬ»" format="1"></var>
+<var  name="B3AD31LDU" description="(vds32_pti:340 - K30VDSR, - ) Клапан (СПУСК ИС2) открыть (обесточить)" format="1"></var>
+<var  name="B2AD32LDU" description="(vds32_pti:310 - K29VDSR, - ) Обесточить ЭМ РБ2" format="1"></var>
 
 <var  name="fEM_R0UL01RIM" description="(R0UL01RIM) Среднее время генерации нейтронов" format="8"></var>
 <var  name="fEM_R0UN02RIM" description="(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов" format="8"></var>

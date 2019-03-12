@@ -9,558 +9,558 @@ static int StepCycle=20;	 // Время цикла в ms
 float takt;
 #define SIZE_BUFFER 3287
 static char BUFFER[3287];
-#define A1IS21LDU	 BUFFER[0]	//(A1IS21LDU) Приход на НУ ББ1
-#define idA1IS21LDU	 1	//(A1IS21LDU) Приход на НУ ББ1
-#define B6IS21LDU	 BUFFER[2]	//(B6IS21LDU) Приход на НУ БЗ2
-#define idB6IS21LDU	 2	//(B6IS21LDU) Приход на НУ БЗ2
-#define B6IS11LDU	 BUFFER[4]	//(B6IS11LDU) Приход на ВУ БЗ2
-#define idB6IS11LDU	 3	//(B6IS11LDU) Приход на ВУ БЗ2
-#define A6IS21LDU	 BUFFER[6]	//(A6IS21LDU) Приход на НУ БЗ1
-#define idA6IS21LDU	 4	//(A6IS21LDU) Приход на НУ БЗ1
-#define A6IS11LDU	 BUFFER[8]	//(A6IS11LDU) Приход на ВУ БЗ1
-#define idA6IS11LDU	 5	//(A6IS11LDU) Приход на ВУ БЗ1
-#define A8IS12LDU	 BUFFER[10]	//(A8IS12LDU) Приход на механический ВУ ДС2
-#define idA8IS12LDU	 6	//(A8IS12LDU) Приход на механический ВУ ДС2
-#define A8IS22LDU	 BUFFER[12]	//(A8IS22LDU) Приход на механический НУ ДС2
-#define idA8IS22LDU	 7	//(A8IS22LDU) Приход на механический НУ ДС2
-#define B8IS12LDU	 BUFFER[14]	//(B8IS12LDU) Приход на ВУ2 АЗ2
-#define idB8IS12LDU	 8	//(B8IS12LDU) Приход на ВУ2 АЗ2
-#define B8IS22LDU	 BUFFER[16]	//(B8IS22LDU) Приход на НУ2 АЗ2
-#define idB8IS22LDU	 9	//(B8IS22LDU) Приход на НУ2 АЗ2
-#define R4IS12LDU	 BUFFER[18]	//(R4IS12LDU) Приход на  ВУ2 тележки
-#define idR4IS12LDU	 10	//(R4IS12LDU) Приход на  ВУ2 тележки
-#define R4IS22LDU	 BUFFER[20]	//(R4IS22LDU) Приход на НУ2 тележки
-#define idR4IS22LDU	 11	//(R4IS22LDU) Приход на НУ2 тележки
-#define R4IS21LDU	 BUFFER[22]	//(R4IS21LDU) Приход на НУ1 тележки
-#define idR4IS21LDU	 12	//(R4IS21LDU) Приход на НУ1 тележки
-#define R4IS11LDU	 BUFFER[24]	//(R4IS11LDU) Приход на ВУ1 тележки
-#define idR4IS11LDU	 13	//(R4IS11LDU) Приход на ВУ1 тележки
-#define B4VP82LDU	 BUFFER[26]	//(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме
-#define idB4VP82LDU	 14	//(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме
-#define A4VP82LDU	 BUFFER[28]	//(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме
-#define idA4VP82LDU	 15	//(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме
-#define R2IS21LDU	 BUFFER[30]	//(R2IS21LDU) Приход на НУ МДЗ2
-#define idR2IS21LDU	 16	//(R2IS21LDU) Приход на НУ МДЗ2
-#define R2IS11LDU	 BUFFER[32]	//(R2IS11LDU) Приход на ВУ МДЗ2
-#define idR2IS11LDU	 17	//(R2IS11LDU) Приход на ВУ МДЗ2
-#define R0EE03LZ1	 BUFFER[34]	//(R0EE03LZ1) Питание  АКНП3  отключить
-#define idR0EE03LZ1	 18	//(R0EE03LZ1) Питание  АКНП3  отключить
-#define R0EE02LZ1	 BUFFER[36]	//(R0EE02LZ1) Питание  АКНП  отключить
-#define idR0EE02LZ1	 19	//(R0EE02LZ1) Питание  АКНП  отключить
-#define R0EE01LZ2	 BUFFER[38]	//(R0EE01LZ2) Питание  АКНП1  отключить
-#define idR0EE01LZ2	 20	//(R0EE01LZ2) Питание  АКНП1  отключить
-#define R0EE01LZ1	 BUFFER[40]	//(R0EE01LZ1) Питание  АКНП1  отключить
-#define idR0EE01LZ1	 21	//(R0EE01LZ1) Питание  АКНП1  отключить
-#define B4IS10LDU	 BUFFER[42]	//(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)
-#define idB4IS10LDU	 22	//(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)
-#define A4IS10LDU	 BUFFER[44]	//(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)
-#define idA4IS10LDU	 23	//(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)
-#define B1IE04LDU	 BUFFER[46]	//(B1IE04LDU) Движение ББ2 назад (от БУШД)
-#define idB1IE04LDU	 24	//(B1IE04LDU) Движение ББ2 назад (от БУШД)
-#define B1IE03LDU	 BUFFER[48]	//(B1IE03LDU) Движение ББ2 вперед (от БУШД)
-#define idB1IE03LDU	 25	//(B1IE03LDU) Движение ББ2 вперед (от БУШД)
-#define A1IE04LDU	 BUFFER[50]	//(A1IE04LDU) Движение ББ1 назад (от БУШД)
-#define idA1IE04LDU	 26	//(A1IE04LDU) Движение ББ1 назад (от БУШД)
-#define A1IE03LDU	 BUFFER[52]	//(A1IE03LDU) Движение ББ1 вперед (от БУШД)
-#define idA1IE03LDU	 27	//(A1IE03LDU) Движение ББ1 вперед (от БУШД)
-#define B1IS12LDU	 BUFFER[54]	//(B1IS12LDU) Магнит ББ2 зацеплен
-#define idB1IS12LDU	 28	//(B1IS12LDU) Магнит ББ2 зацеплен
-#define B1IS11LDU	 BUFFER[56]	//(B1IS11LDU) Приход на ВУ ББ2
-#define idB1IS11LDU	 29	//(B1IS11LDU) Приход на ВУ ББ2
-#define B1IS21LDU	 BUFFER[58]	//(B1IS21LDU) Приход на НУ ББ2
-#define idB1IS21LDU	 30	//(B1IS21LDU) Приход на НУ ББ2
-#define B1IC01UDU	 BUFFER[60]	//(B1IC01UDU) Координата штока ББ2
-#define idB1IC01UDU	 31	//(B1IC01UDU) Координата штока ББ2
-#define A1IC01UDU	 BUFFER[65]	//(A1IC01UDU) Координата штока ББ1
-#define idA1IC01UDU	 32	//(A1IC01UDU) Координата штока ББ1
-#define A1IS12LDU	 BUFFER[70]	//(A1IS12LDU) Магнит ББ1 зацеплен
-#define idA1IS12LDU	 33	//(A1IS12LDU) Магнит ББ1 зацеплен
-#define A1IS11LDU	 BUFFER[72]	//(A1IS11LDU) Приход на ВУ ББ1
-#define idA1IS11LDU	 34	//(A1IS11LDU) Приход на ВУ ББ1
-#define B9IS21LDU	 BUFFER[74]	//(B9IS21LDU) Приход на НУ НИ ДС2
-#define idB9IS21LDU	 35	//(B9IS21LDU) Приход на НУ НИ ДС2
-#define B9IS11LDU	 BUFFER[76]	//(B9IS11LDU) Приход на ВУ НИ ДС2
-#define idB9IS11LDU	 36	//(B9IS11LDU) Приход на ВУ НИ ДС2
-#define A9IS21LDU	 BUFFER[78]	//(A9IS21LDU) Приход на НУ НИ ДС1
-#define idA9IS21LDU	 37	//(A9IS21LDU) Приход на НУ НИ ДС1
-#define A9IS11LDU	 BUFFER[80]	//(A9IS11LDU) Приход на ВУ НИ ДС1
-#define idA9IS11LDU	 38	//(A9IS11LDU) Приход на ВУ НИ ДС1
-#define B5IS21LDU	 BUFFER[82]	//(B5IS21LDU) Приход на НУ НЛ2
-#define idB5IS21LDU	 39	//(B5IS21LDU) Приход на НУ НЛ2
-#define B5IS11LDU	 BUFFER[84]	//(B5IS11LDU) Приход на ВУ НЛ2
-#define idB5IS11LDU	 40	//(B5IS11LDU) Приход на ВУ НЛ2
-#define A5IS21LDU	 BUFFER[86]	//(A5IS21LDU) Приход на НУ НЛ1
-#define idA5IS21LDU	 41	//(A5IS21LDU) Приход на НУ НЛ1
-#define A5IS11LDU	 BUFFER[88]	//(A5IS11LDU) Приход на ВУ НЛ1
-#define idA5IS11LDU	 42	//(A5IS11LDU) Приход на ВУ НЛ1
-#define B0VP81LZZ	 BUFFER[90]	//(B0VP81LZZ) Давление АЗ2 в норме
-#define idB0VP81LZZ	 43	//(B0VP81LZZ) Давление АЗ2 в норме
-#define A0VP81LZZ	 BUFFER[92]	//(A0VP81LZZ) Давление АЗ1 в норме
-#define idA0VP81LZZ	 44	//(A0VP81LZZ) Давление АЗ1 в норме
-#define B8IC01UDU	 BUFFER[94]	//(B8IC01UDU) Координата АЗ2
-#define idB8IC01UDU	 45	//(B8IC01UDU) Координата АЗ2
-#define A8IC01UDU	 BUFFER[99]	//(A8IC01UDU) Координата ДС2
-#define idA8IC01UDU	 46	//(A8IC01UDU) Координата ДС2
-#define R6IS68LZZ	 BUFFER[104]	//(R6IS68LZZ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 47	//(R6IS68LZZ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define R6IS67LZZ	 BUFFER[106]	//(R6IS67LZZ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 48	//(R6IS67LZZ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS66LZZ	 BUFFER[108]	//(R6IS66LZZ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 49	//(R6IS66LZZ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS65LDU	 BUFFER[110]	//(R6IS65LDU) Исправность ВИП ССДИ-35 2канал
-#define idR6IS65LDU	 50	//(R6IS65LDU) Исправность ВИП ССДИ-35 2канал
-#define R6IS64LDU	 BUFFER[112]	//(R6IS64LDU) Исправность ВИП ССДИ-35 1канал
-#define idR6IS64LDU	 51	//(R6IS64LDU) Исправность ВИП ССДИ-35 1канал
-#define R1IS21LDU	 BUFFER[114]	//(R1IS21LDU) Приход на НУ МДЗ1
-#define idR1IS21LDU	 52	//(R1IS21LDU) Приход на НУ МДЗ1
-#define R1IS11LDU	 BUFFER[116]	//(R1IS11LDU) Приход на ВУ МДЗ1
-#define idR1IS11LDU	 53	//(R1IS11LDU) Приход на ВУ МДЗ1
-#define B4IS21LDU	 BUFFER[118]	//(B4IS21LDU) Приход на НУ НИ2
-#define idB4IS21LDU	 54	//(B4IS21LDU) Приход на НУ НИ2
-#define B4IS11LDU	 BUFFER[120]	//(B4IS11LDU) Приход на ВУ НИ2
-#define idB4IS11LDU	 55	//(B4IS11LDU) Приход на ВУ НИ2
-#define R8IS11LDU	 BUFFER[122]	//(R8IS11LDU) Аварийный НИ установлен
-#define idR8IS11LDU	 56	//(R8IS11LDU) Аварийный НИ установлен
-#define A4IS21LDU	 BUFFER[124]	//(A4IS21LDU) Приход на НУ НИ1
-#define idA4IS21LDU	 57	//(A4IS21LDU) Приход на НУ НИ1
-#define A4IS11LDU	 BUFFER[126]	//(A4IS11LDU) Приход на ВУ НИ1
-#define idA4IS11LDU	 58	//(A4IS11LDU) Приход на ВУ НИ1
-#define R5IS21LDU	 BUFFER[128]	//(R5IS21LDU) Приход на НУ ворот отстойной зоны
-#define idR5IS21LDU	 59	//(R5IS21LDU) Приход на НУ ворот отстойной зоны
-#define R5IS11LDU	 BUFFER[130]	//(R5IS11LDU) Приход на ВУ ворот отстойной зоны
-#define idR5IS11LDU	 60	//(R5IS11LDU) Приход на ВУ ворот отстойной зоны
-#define R3IS21LDU	 BUFFER[132]	//(R3IS21LDU) Приход на НУ гомогенных дверей
-#define idR3IS21LDU	 61	//(R3IS21LDU) Приход на НУ гомогенных дверей
-#define R3IS11LDU	 BUFFER[134]	//(R3IS11LDU) Приход на ВУ гомогенных дверей
-#define idR3IS11LDU	 62	//(R3IS11LDU) Приход на ВУ гомогенных дверей
-#define B2VP82LDU	 BUFFER[136]	//(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме
-#define idB2VP82LDU	 63	//(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме
-#define B2IP01IZ2	 BUFFER[138]	//(B2IP01IZ2) Текущее давление СБРОС РБ2
-#define idB2IP01IZ2	 64	//(B2IP01IZ2) Текущее давление СБРОС РБ2
-#define B2IP01IZ1	 BUFFER[141]	//(B2IP01IZ1) Текущее давление СБРОС РБ2
-#define idB2IP01IZ1	 65	//(B2IP01IZ1) Текущее давление СБРОС РБ2
-#define B2IC01UDU	 BUFFER[144]	//(B2IC01UDU) Координата штока РБ2
-#define idB2IC01UDU	 66	//(B2IC01UDU) Координата штока РБ2
-#define B2IS12LDU	 BUFFER[149]	//(B2IS12LDU) Магнит РБ2 зацеплен
-#define idB2IS12LDU	 67	//(B2IS12LDU) Магнит РБ2 зацеплен
-#define B2IS11LDU	 BUFFER[151]	//(B2IS11LDU) Приход на ВУ РБ2
-#define idB2IS11LDU	 68	//(B2IS11LDU) Приход на ВУ РБ2
-#define B2IS21LDU	 BUFFER[153]	//(B2IS21LDU) Приход на НУ РБ2
-#define idB2IS21LDU	 69	//(B2IS21LDU) Приход на НУ РБ2
-#define R0IN03FI2	 BUFFER[155]	//(R0IN03FI2) Выход КНК53М Гц от ПТИ
-#define idR0IN03FI2	 70	//(R0IN03FI2) Выход КНК53М Гц от ПТИ
-#define R0IN07RIP	 BUFFER[160]	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
-#define idR0IN07RIP	 71	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
-#define R0IN06RIP	 BUFFER[165]	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
-#define idR0IN06RIP	 72	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
-#define TerR0IN06FRP	 BUFFER[170]	//(TerR0IN06FRP) Неисправности СНМ-11 -1,2
-#define idTerR0IN06FRP	 73	//(TerR0IN06FRP) Неисправности СНМ-11 -1,2
-#define R0IN03RIP	 BUFFER[173]	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
-#define idR0IN03RIP	 74	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
-#define R0IN02RIP	 BUFFER[178]	//(R0IN02RIP) Выход КНК15- Гц от ПТИ
-#define idR0IN02RIP	 75	//(R0IN02RIP) Выход КНК15- Гц от ПТИ
-#define R0IN01RIP	 BUFFER[183]	//(R0IN01RIP) Выход СНМ-11 Гц от ПТИ
-#define idR0IN01RIP	 76	//(R0IN01RIP) Выход СНМ-11 Гц от ПТИ
-#define R0IN02FI2	 BUFFER[188]	//(R0IN02FI2) Выход КНК15-1 Гц от ПТИ
-#define idR0IN02FI2	 77	//(R0IN02FI2) Выход КНК15-1 Гц от ПТИ
-#define R0IN03FI1	 BUFFER[193]	//(R0IN03FI1) Выход КНК53М Гц от ПТИ
-#define idR0IN03FI1	 78	//(R0IN03FI1) Выход КНК53М Гц от ПТИ
-#define R0IN02FI1	 BUFFER[198]	//(R0IN02FI1) Выход КНК15-1 Гц от ПТИ
-#define idR0IN02FI1	 79	//(R0IN02FI1) Выход КНК15-1 Гц от ПТИ
-#define R0IN03FI4	 BUFFER[203]	//(R0IN03FI4) Выход КНК53М Гц от ПТИ
-#define idR0IN03FI4	 80	//(R0IN03FI4) Выход КНК53М Гц от ПТИ
-#define R0IN02FI4	 BUFFER[208]	//(R0IN02FI4) Выход КНК15-1 Гц от ПТИ
-#define idR0IN02FI4	 81	//(R0IN02FI4) Выход КНК15-1 Гц от ПТИ
-#define R0IN01FI3	 BUFFER[213]	//(R0IN01FI3) Выход СНМ-11 Гц от ПТИ
-#define idR0IN01FI3	 82	//(R0IN01FI3) Выход СНМ-11 Гц от ПТИ
-#define R0IN01FI2	 BUFFER[218]	//(R0IN01FI2) Выход КНК15-1 Гц от ПТИ
-#define idR0IN01FI2	 83	//(R0IN01FI2) Выход КНК15-1 Гц от ПТИ
-#define R0IN01FI4	 BUFFER[223]	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
-#define idR0IN01FI4	 84	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
-#define R0IN01FI1	 BUFFER[228]	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
-#define idR0IN01FI1	 85	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
-#define B7AP31LDU	 BUFFER[233]	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
-#define idB7AP31LDU	 86	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
-#define B0SN07RIM	 BUFFER[235]	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define idB0SN07RIM	 87	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define B0SN06RIM	 BUFFER[240]	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define idB0SN06RIM	 88	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define B0SN05RIM	 BUFFER[245]	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define idB0SN05RIM	 89	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define B0SN04RIM	 BUFFER[250]	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define idB0SN04RIM	 90	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define B0SN03RIM	 BUFFER[255]	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define idB0SN03RIM	 91	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define B0SN02RIM	 BUFFER[260]	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define idB0SN02RIM	 92	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define A0SN07RIM	 BUFFER[265]	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define idA0SN07RIM	 93	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define A0SN06RIM	 BUFFER[270]	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define idA0SN06RIM	 94	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define A0SN05RIM	 BUFFER[275]	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define idA0SN05RIM	 95	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define A0SN04RIM	 BUFFER[280]	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define idA0SN04RIM	 96	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define A0SN03RIM	 BUFFER[285]	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define idA0SN03RIM	 97	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define A0SN02RIM	 BUFFER[290]	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define idA0SN02RIM	 98	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define R0IS01FI0	 BUFFER[295]	//(R0IS01FI0) Признак работы с имитатором
-#define idR0IS01FI0	 99	//(R0IS01FI0) Признак работы с имитатором
-#define A0IT03IRP	 BUFFER[298]	//(A0IT03IRP) Температура АЗ1-3
-#define idA0IT03IRP	 100	//(A0IT03IRP) Температура АЗ1-3
-#define B0IT03IRP	 BUFFER[301]	//(B0IT03IRP) Температура АЗ2-3
-#define idB0IT03IRP	 101	//(B0IT03IRP) Температура АЗ2-3
-#define R0IN03FI3	 BUFFER[304]	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
-#define idR0IN03FI3	 102	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
-#define R0IN02FI3	 BUFFER[309]	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
-#define idR0IN02FI3	 103	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
-#define B1VP81LZZ	 BUFFER[314]	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
-#define idB1VP81LZZ	 104	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
-#define B2IS33LDU	 BUFFER[316]	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
-#define idB2IS33LDU	 105	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
-#define A0VN01RIM	 BUFFER[318]	//(A0VN01RIM) Период разгона  AЗ1
-#define idA0VN01RIM	 106	//(A0VN01RIM) Период разгона  AЗ1
-#define B2IS32LIM	 BUFFER[323]	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
-#define idB2IS32LIM	 107	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
-#define B2IS11LIM	 BUFFER[325]	//(B2IS11LIM) Магнит РБ2 обесточен
-#define idB2IS11LIM	 108	//(B2IS11LIM) Магнит РБ2 обесточен
-#define A2IS32LIM	 BUFFER[327]	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
-#define idA2IS32LIM	 109	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
-#define A2IS11LIM	 BUFFER[329]	//(A2IS11LIM) Магнит РБ1 обесточен
-#define idA2IS11LIM	 110	//(A2IS11LIM) Магнит РБ1 обесточен
-#define B1IS32LIM	 BUFFER[331]	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
-#define idB1IS32LIM	 111	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
-#define B1IS11LIM	 BUFFER[333]	//(B1IS11LIM) Магнит ББ2 обесточен
-#define idB1IS11LIM	 112	//(B1IS11LIM) Магнит ББ2 обесточен
-#define A1IS32LIM	 BUFFER[335]	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
-#define idA1IS32LIM	 113	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
-#define A1IS11LIM	 BUFFER[337]	//(A1IS11LIM) Магнит ББ1 обесточен
-#define idA1IS11LIM	 114	//(A1IS11LIM) Магнит ББ1 обесточен
-#define A3AD34LDU	 BUFFER[339]	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
-#define idA3AD34LDU	 115	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
-#define R0IS02LDU	 BUFFER[341]	//(R0IS02LDU) Разрешение ввода от имитатора
-#define idR0IS02LDU	 116	//(R0IS02LDU) Разрешение ввода от имитатора
-#define R0EE04LZ2	 BUFFER[343]	//(R0EE04LZ2) Питание  АКНП4  отключить
-#define idR0EE04LZ2	 117	//(R0EE04LZ2) Питание  АКНП4  отключить
-#define R0EE03LZ2	 BUFFER[345]	//(R0EE03LZ2) Питание  АКНП3  отключить
-#define idR0EE03LZ2	 118	//(R0EE03LZ2) Питание  АКНП3  отключить
-#define R0EE02LZ2	 BUFFER[347]	//(R0EE02LZ2) Питание  АКНП  отключить
-#define idR0EE02LZ2	 119	//(R0EE02LZ2) Питание  АКНП  отключить
-#define R0EE04LZ1	 BUFFER[349]	//(R0EE04LZ1) Питание  АКНП4  отключить
-#define idR0EE04LZ1	 120	//(R0EE04LZ1) Питание  АКНП4  отключить
-#define A7AP31LDU	 BUFFER[351]	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
-#define idA7AP31LDU	 121	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
-#define R4VS12LDU	 BUFFER[353]	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
-#define idR4VS12LDU	 122	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
-#define R4VS22LDU	 BUFFER[355]	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
-#define idR4VS22LDU	 123	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
-#define R1VS12LDU	 BUFFER[357]	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
-#define idR1VS12LDU	 124	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
-#define R2VS12LDU	 BUFFER[359]	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
-#define idR2VS12LDU	 125	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
-#define R2VS22LDU	 BUFFER[361]	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
-#define idR2VS22LDU	 126	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
-#define R1VS22LDU	 BUFFER[363]	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
-#define idR1VS22LDU	 127	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
-#define B5VS12LDU	 BUFFER[365]	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
-#define idB5VS12LDU	 128	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
-#define B5VS22LDU	 BUFFER[367]	//(B5VS22LDU) Движение НЛ2 в сторону НУ
-#define idB5VS22LDU	 129	//(B5VS22LDU) Движение НЛ2 в сторону НУ
-#define A5VS12LDU	 BUFFER[369]	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
-#define idA5VS12LDU	 130	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
-#define A5VS22LDU	 BUFFER[371]	//(A5VS22LDU) Движение НЛ1 в сторону НУ
-#define idA5VS22LDU	 131	//(A5VS22LDU) Движение НЛ1 в сторону НУ
-#define B6VS12LDU	 BUFFER[373]	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
-#define idB6VS12LDU	 132	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
-#define B6VS22LDU	 BUFFER[375]	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
-#define idB6VS22LDU	 133	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
-#define A6VS12LDU	 BUFFER[377]	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
-#define idA6VS12LDU	 134	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
-#define A6VS22LDU	 BUFFER[379]	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
-#define idA6VS22LDU	 135	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
-#define B8IS21LDU	 BUFFER[381]	//(B8IS21LDU) Приход на НУ1 АЗ2
-#define idB8IS21LDU	 136	//(B8IS21LDU) Приход на НУ1 АЗ2
-#define B8IS11LDU	 BUFFER[383]	//(B8IS11LDU) Приход на ВУ1 АЗ2
-#define idB8IS11LDU	 137	//(B8IS11LDU) Приход на ВУ1 АЗ2
-#define A1VP81LZZ	 BUFFER[385]	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
-#define idA1VP81LZZ	 138	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
-#define B8AD20LDU	 BUFFER[387]	//(B8AD20LDU) Перемещение АЗ2 назад
-#define idB8AD20LDU	 139	//(B8AD20LDU) Перемещение АЗ2 назад
-#define B8AD10LDU	 BUFFER[389]	//(B8AD10LDU) Перемещение АЗ2 вперед
-#define idB8AD10LDU	 140	//(B8AD10LDU) Перемещение АЗ2 вперед
-#define R4AD20LDU	 BUFFER[391]	//(R4AD20LDU) Перемещение тележки назад
-#define idR4AD20LDU	 141	//(R4AD20LDU) Перемещение тележки назад
-#define R4AD10LDU	 BUFFER[393]	//(R4AD10LDU) Перемещение тележки вперед
-#define idR4AD10LDU	 142	//(R4AD10LDU) Перемещение тележки вперед
-#define B0SR01RIM	 BUFFER[395]	//(B0SR01RIM) Текущая реактивность AЗ2
-#define idB0SR01RIM	 143	//(B0SR01RIM) Текущая реактивность AЗ2
-#define B3AD33LDU	 BUFFER[400]	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
-#define idB3AD33LDU	 144	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
-#define B3AD05LDU	 BUFFER[402]	//(B3AD05LDU) паритет команды на ИС2
-#define idB3AD05LDU	 145	//(B3AD05LDU) паритет команды на ИС2
-#define B3AD04LDU	 BUFFER[404]	//(B3AD04LDU) 2-й бит скорости ИС2
-#define idB3AD04LDU	 146	//(B3AD04LDU) 2-й бит скорости ИС2
-#define B3AD03LDU	 BUFFER[406]	//(B3AD03LDU) 1-й бит скорости ИС2
-#define idB3AD03LDU	 147	//(B3AD03LDU) 1-й бит скорости ИС2
-#define B3AD02LDU	 BUFFER[408]	//(B3AD02LDU) 0-й бит скорости ИС2
-#define idB3AD02LDU	 148	//(B3AD02LDU) 0-й бит скорости ИС2
-#define B3AD01LDU	 BUFFER[410]	//(B3AD01LDU) Разрешение движения ИС2
-#define idB3AD01LDU	 149	//(B3AD01LDU) Разрешение движения ИС2
-#define B3AD21LDU	 BUFFER[412]	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
-#define idB3AD21LDU	 150	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
-#define B3AD11LDU	 BUFFER[414]	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
-#define idB3AD11LDU	 151	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
-#define A3AD33LDU	 BUFFER[416]	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
-#define idA3AD33LDU	 152	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
-#define A3AD05LDU	 BUFFER[418]	//(A3AD05LDU) паритет команды на ИС1
-#define idA3AD05LDU	 153	//(A3AD05LDU) паритет команды на ИС1
-#define A3AD04LDU	 BUFFER[420]	//(A3AD04LDU) 2-й бит скорости ИС1
-#define idA3AD04LDU	 154	//(A3AD04LDU) 2-й бит скорости ИС1
-#define A3AD03LDU	 BUFFER[422]	//(A3AD03LDU) 1-й бит скорости ИС1
-#define idA3AD03LDU	 155	//(A3AD03LDU) 1-й бит скорости ИС1
-#define R0CR01RIM	 BUFFER[424]	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
-#define idR0CR01RIM	 156	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
-#define B0SN08RIM	 BUFFER[429]	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
-#define idB0SN08RIM	 157	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
-#define A0SN08RIM	 BUFFER[434]	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
-#define idA0SN08RIM	 158	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
-#define B5AD20LDU	 BUFFER[439]	//(B5AD20LDU) Опустить НЛ2
-#define idB5AD20LDU	 159	//(B5AD20LDU) Опустить НЛ2
-#define B5AD10LDU	 BUFFER[441]	//(B5AD10LDU) Поднять НЛ2
-#define idB5AD10LDU	 160	//(B5AD10LDU) Поднять НЛ2
-#define A5AD20LDU	 BUFFER[443]	//(A5AD20LDU) Опустить НЛ1
-#define idA5AD20LDU	 161	//(A5AD20LDU) Опустить НЛ1
-#define A5AD10LDU	 BUFFER[445]	//(A5AD10LDU) Поднять НЛ1
-#define idA5AD10LDU	 162	//(A5AD10LDU) Поднять НЛ1
-#define R2AD20LDU	 BUFFER[447]	//(R2AD20LDU) Поднять МДЗ2
-#define idR2AD20LDU	 163	//(R2AD20LDU) Поднять МДЗ2
-#define R2AD10LDU	 BUFFER[449]	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
-#define idR2AD10LDU	 164	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
-#define R1AD20LDU	 BUFFER[451]	//(R1AD20LDU) Поднять МДЗ1
-#define idR1AD20LDU	 165	//(R1AD20LDU) Поднять МДЗ1
-#define R1AD10LDU	 BUFFER[453]	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
-#define idR1AD10LDU	 166	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
-#define B6AD20LDU	 BUFFER[455]	//(B6AD20LDU) Закрыть БЗ2
-#define idB6AD20LDU	 167	//(B6AD20LDU) Закрыть БЗ2
-#define B6AD10LDU	 BUFFER[457]	//(B6AD10LDU) Открыть БЗ2
-#define idB6AD10LDU	 168	//(B6AD10LDU) Открыть БЗ2
-#define A6AD20LDU	 BUFFER[459]	//(A6AD20LDU) Закрыть БЗ1
-#define idA6AD20LDU	 169	//(A6AD20LDU) Закрыть БЗ1
-#define A6AD10LDU	 BUFFER[461]	//(A6AD10LDU) Открыть БЗ1
-#define idA6AD10LDU	 170	//(A6AD10LDU) Открыть БЗ1
-#define A8AD20LDU	 BUFFER[463]	//(A8AD20LDU) Перемещение ДС2 назад
-#define idA8AD20LDU	 171	//(A8AD20LDU) Перемещение ДС2 назад
-#define A8AD10LDU	 BUFFER[465]	//(A8AD10LDU) Перемещение ДС2 вперед
-#define idA8AD10LDU	 172	//(A8AD10LDU) Перемещение ДС2 вперед
-#define A2AD21LDU	 BUFFER[467]	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
-#define idA2AD21LDU	 173	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
-#define A2AD11LDU	 BUFFER[469]	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
-#define idA2AD11LDU	 174	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
-#define B1AD05LDU	 BUFFER[471]	//(B1AD05LDU) паритет команды на ББ2
-#define idB1AD05LDU	 175	//(B1AD05LDU) паритет команды на ББ2
-#define B1AD04LDU	 BUFFER[473]	//(B1AD04LDU) 2-й бит скорости ББ2
-#define idB1AD04LDU	 176	//(B1AD04LDU) 2-й бит скорости ББ2
-#define B1AD03LDU	 BUFFER[475]	//(B1AD03LDU) 1-й бит скорости ББ2
-#define idB1AD03LDU	 177	//(B1AD03LDU) 1-й бит скорости ББ2
-#define B1AD02LDU	 BUFFER[477]	//(B1AD02LDU) 0-й бит скорости  ББ2
-#define idB1AD02LDU	 178	//(B1AD02LDU) 0-й бит скорости  ББ2
-#define B1AD01LDU	 BUFFER[479]	//(B1AD01LDU) Разрешение движения ББ2
-#define idB1AD01LDU	 179	//(B1AD01LDU) Разрешение движения ББ2
-#define B1AD21LDU	 BUFFER[481]	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
-#define idB1AD21LDU	 180	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
-#define B1AD11LDU	 BUFFER[483]	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
-#define idB1AD11LDU	 181	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
-#define A1AD05LDU	 BUFFER[485]	//(A1AD05LDU) паритет команды на ББ1
-#define idA1AD05LDU	 182	//(A1AD05LDU) паритет команды на ББ1
-#define A1AD04LDU	 BUFFER[487]	//(A1AD04LDU) 2-й бит скорости ББ1
-#define idA1AD04LDU	 183	//(A1AD04LDU) 2-й бит скорости ББ1
-#define A1AD03LDU	 BUFFER[489]	//(A1AD03LDU) 1-й бит скорости ББ1
-#define idA1AD03LDU	 184	//(A1AD03LDU) 1-й бит скорости ББ1
-#define A1AD02LDU	 BUFFER[491]	//(A1AD02LDU) 0-й бит скорости ББ1
-#define idA1AD02LDU	 185	//(A1AD02LDU) 0-й бит скорости ББ1
-#define A1AD01LDU	 BUFFER[493]	//(A1AD01LDU) Разрешение движения ББ1
-#define idA1AD01LDU	 186	//(A1AD01LDU) Разрешение движения ББ1
-#define A1AD21LDU	 BUFFER[495]	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
-#define idA1AD21LDU	 187	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
-#define A1AD11LDU	 BUFFER[497]	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
-#define idA1AD11LDU	 188	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
-#define A0SR01RIM	 BUFFER[499]	//(A0SR01RIM) Текущая реактивность AЗ1
-#define idA0SR01RIM	 189	//(A0SR01RIM) Текущая реактивность AЗ1
-#define A3AD02LDU	 BUFFER[504]	//(A3AD02LDU) 0-й бит скорости ИС1
-#define idA3AD02LDU	 190	//(A3AD02LDU) 0-й бит скорости ИС1
-#define A3AD01LDU	 BUFFER[506]	//(A3AD01LDU) Разрешение движения ИС1
-#define idA3AD01LDU	 191	//(A3AD01LDU) Разрешение движения ИС1
-#define A3AD21LDU	 BUFFER[508]	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
-#define idA3AD21LDU	 192	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
-#define A3AD11LDU	 BUFFER[510]	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
-#define idA3AD11LDU	 193	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
-#define B2AD33LDU	 BUFFER[512]	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
-#define idB2AD33LDU	 194	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
-#define B2AD05LDU	 BUFFER[514]	//(B2AD05LDU) паритет команды на РБ2
-#define idB2AD05LDU	 195	//(B2AD05LDU) паритет команды на РБ2
-#define B2AD04LDU	 BUFFER[516]	//(B2AD04LDU) 2-й бит скорости РБ2
-#define idB2AD04LDU	 196	//(B2AD04LDU) 2-й бит скорости РБ2
-#define B2AD03LDU	 BUFFER[518]	//(B2AD03LDU) 1-й бит скорости РБ2
-#define idB2AD03LDU	 197	//(B2AD03LDU) 1-й бит скорости РБ2
-#define B2AD02LDU	 BUFFER[520]	//(B2AD02LDU) 0-й бит скорости РБ2
-#define idB2AD02LDU	 198	//(B2AD02LDU) 0-й бит скорости РБ2
-#define B2AD01LDU	 BUFFER[522]	//(B2AD01LDU) Разрешение движения РБ2
-#define idB2AD01LDU	 199	//(B2AD01LDU) Разрешение движения РБ2
-#define B2AD21LDU	 BUFFER[524]	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
-#define idB2AD21LDU	 200	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
-#define B2AD11LDU	 BUFFER[526]	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
-#define idB2AD11LDU	 201	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
-#define A2AD33LDU	 BUFFER[528]	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
-#define idA2AD33LDU	 202	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
-#define A2AD05LDU	 BUFFER[530]	//(A2AD05LDU) паритет команды на РБ1
-#define idA2AD05LDU	 203	//(A2AD05LDU) паритет команды на РБ1
-#define A2AD04LDU	 BUFFER[532]	//(A2AD04LDU) 2-й бит скорости РБ1
-#define idA2AD04LDU	 204	//(A2AD04LDU) 2-й бит скорости РБ1
-#define A2AD03LDU	 BUFFER[534]	//(A2AD03LDU) 1-й бит скорости РБ1
-#define idA2AD03LDU	 205	//(A2AD03LDU) 1-й бит скорости РБ1
-#define A2AD02LDU	 BUFFER[536]	//(A2AD02LDU) 0-й бит скорости РБ1
-#define idA2AD02LDU	 206	//(A2AD02LDU) 0-й бит скорости РБ1
-#define A2AD01LDU	 BUFFER[538]	//(A2AD01LDU) Разрешение движения РБ1
-#define idA2AD01LDU	 207	//(A2AD01LDU) Разрешение движения РБ1
-#define A2IP01IZ2	 BUFFER[540]	//(A2IP01IZ2) Текущее давление СБРОС РБ1
-#define idA2IP01IZ2	 208	//(A2IP01IZ2) Текущее давление СБРОС РБ1
-#define A2IP01IZ1	 BUFFER[543]	//(A2IP01IZ1) Текущее давление СБРОС РБ1
-#define idA2IP01IZ1	 209	//(A2IP01IZ1) Текущее давление СБРОС РБ1
-#define B3IS21LDU	 BUFFER[546]	//(B3IS21LDU) Приход на НУ ИС2
-#define idB3IS21LDU	 210	//(B3IS21LDU) Приход на НУ ИС2
-#define A3IS21LDU	 BUFFER[548]	//(A3IS21LDU) Приход на НУ ИС1
-#define idA3IS21LDU	 211	//(A3IS21LDU) Приход на НУ ИС1
-#define A2IS33LDU	 BUFFER[550]	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
-#define idA2IS33LDU	 212	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
-#define A2IC01UDU	 BUFFER[552]	//(A2IC01UDU) Координата штока РБ1
-#define idA2IC01UDU	 213	//(A2IC01UDU) Координата штока РБ1
-#define A2IS12LDU	 BUFFER[557]	//(A2IS12LDU) Магнит РБ1 зацеплен
-#define idA2IS12LDU	 214	//(A2IS12LDU) Магнит РБ1 зацеплен
-#define A2IS11LDU	 BUFFER[559]	//(A2IS11LDU) Приход на ВУ РБ1
-#define idA2IS11LDU	 215	//(A2IS11LDU) Приход на ВУ РБ1
-#define A2IS21LDU	 BUFFER[561]	//(A2IS21LDU) Приход на НУ РБ1
-#define idA2IS21LDU	 216	//(A2IS21LDU) Приход на НУ РБ1
-#define B0IT02IZ2	 BUFFER[563]	//(B0IT02IZ2) Температура АЗ2-2
-#define idB0IT02IZ2	 217	//(B0IT02IZ2) Температура АЗ2-2
-#define B0IT01IZ1	 BUFFER[566]	//(B0IT01IZ1) Температура АЗ2-1
-#define idB0IT01IZ1	 218	//(B0IT01IZ1) Температура АЗ2-1
-#define A0IT02IZ2	 BUFFER[569]	//(A0IT02IZ2) Температура АЗ1-2
-#define idA0IT02IZ2	 219	//(A0IT02IZ2) Температура АЗ1-2
-#define A0IT01IZ1	 BUFFER[572]	//(A0IT01IZ1) Температура АЗ1-1
-#define idA0IT01IZ1	 220	//(A0IT01IZ1) Температура АЗ1-1
-#define R6IS21LDU	 BUFFER[575]	//(R6IS21LDU) Кран-балка в нерабочем положении
-#define idR6IS21LDU	 221	//(R6IS21LDU) Кран-балка в нерабочем положении
-#define B7AS31LDU	 BUFFER[577]	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
-#define idB7AS31LDU	 222	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
-#define A7AS31LDU	 BUFFER[579]	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
-#define idA7AS31LDU	 223	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
-#define B3IS35LDU	 BUFFER[581]	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
-#define idB3IS35LDU	 224	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
-#define R6IS63LDU	 BUFFER[583]	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
-#define idR6IS63LDU	 225	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
-#define R6IS62LDU	 BUFFER[585]	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
-#define idR6IS62LDU	 226	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
-#define B3IS22LDU	 BUFFER[587]	//(B3IS22LDU) Приход на НУП ИС2
-#define idB3IS22LDU	 227	//(B3IS22LDU) Приход на НУП ИС2
-#define A3IS22LDU	 BUFFER[589]	//(A3IS22LDU) Приход на НУП ИС1
-#define idA3IS22LDU	 228	//(A3IS22LDU) Приход на НУП ИС1
-#define B3IS11LDU	 BUFFER[591]	//(B3IS11LDU) Приход на ВУ ИС2
-#define idB3IS11LDU	 229	//(B3IS11LDU) Приход на ВУ ИС2
-#define A3IS11LDU	 BUFFER[593]	//(A3IS11LDU) Приход на ВУ ИС1
-#define idA3IS11LDU	 230	//(A3IS11LDU) Приход на ВУ ИС1
-#define A3IP02IDU	 BUFFER[595]	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
-#define idA3IP02IDU	 231	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
-#define B3VP81LDU	 BUFFER[598]	//(B3VP81LDU) Давление СПУСК ИС2 в норме
-#define idB3VP81LDU	 232	//(B3VP81LDU) Давление СПУСК ИС2 в норме
-#define A3VP81LDU	 BUFFER[600]	//(A3VP81LDU) Давление СПУСК ИС1 в норме
-#define idA3VP81LDU	 233	//(A3VP81LDU) Давление СПУСК ИС1 в норме
-#define B3IS33LDU	 BUFFER[602]	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-#define idB3IS33LDU	 234	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-#define B3IC01UDU	 BUFFER[604]	//(B3IC01UDU) Координата штока ИС2
-#define idB3IC01UDU	 235	//(B3IC01UDU) Координата штока ИС2
-#define B3IS31LDU	 BUFFER[609]	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
-#define idB3IS31LDU	 236	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
-#define B3IP02IDU	 BUFFER[611]	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
-#define idB3IP02IDU	 237	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
-#define A3IS33LDU	 BUFFER[614]	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
-#define idA3IS33LDU	 238	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
-#define A3IC01UDU	 BUFFER[616]	//(A3IC01UDU) Координата штока ИС1
-#define idA3IC01UDU	 239	//(A3IC01UDU) Координата штока ИС1
-#define A3IS31LDU	 BUFFER[621]	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
-#define idA3IS31LDU	 240	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
-#define A2VP82LDU	 BUFFER[623]	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
-#define idA2VP82LDU	 241	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
-#define B2AD31LDU	 BUFFER[625]	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
-#define idB2AD31LDU	 242	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
-#define B1AD32LDU	 BUFFER[627]	//(B1AD32LDU) Обесточить ЭМ ББ2
-#define idB1AD32LDU	 243	//(B1AD32LDU) Обесточить ЭМ ББ2
-#define B1AD31LDU	 BUFFER[629]	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
-#define idB1AD31LDU	 244	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
-#define A3AD31LDU	 BUFFER[631]	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
-#define idA3AD31LDU	 245	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
-#define C1MD31LP1	 BUFFER[633]	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
-#define idC1MD31LP1	 246	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
-#define C1MD31LP2	 BUFFER[635]	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
-#define idC1MD31LP2	 247	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
-#define A1AD31LDU	 BUFFER[637]	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
-#define idA1AD31LDU	 248	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
-#define A1AD32LDU	 BUFFER[639]	//(A1AD32LDU) Обесточить ЭМ ББ1
-#define idA1AD32LDU	 249	//(A1AD32LDU) Обесточить ЭМ ББ1
-#define A2AD31LDU	 BUFFER[641]	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
-#define idA2AD31LDU	 250	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
-#define C2MD31LP1	 BUFFER[643]	//(C2MD31LP1) Кнопка «СБРОС РБ»
-#define idC2MD31LP1	 251	//(C2MD31LP1) Кнопка «СБРОС РБ»
-#define A2AD32LDU	 BUFFER[645]	//(A2AD32LDU) Обесточить ЭМ РБ1
-#define idA2AD32LDU	 252	//(A2AD32LDU) Обесточить ЭМ РБ1
-#define R0VZ71LZ2	 BUFFER[647]	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
-#define idR0VZ71LZ2	 253	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
-#define R0VZ71LZ1	 BUFFER[649]	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
-#define idR0VZ71LZ1	 254	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
-#define R8AD21LDU	 BUFFER[651]	//(R8AD21LDU) Запуск системы инициирования
-#define idR8AD21LDU	 255	//(R8AD21LDU) Запуск системы инициирования
-#define R0AD14LDU	 BUFFER[653]	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
-#define idR0AD14LDU	 256	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
-#define R0SR02RIM	 BUFFER[655]	//(R0SR02RIM) Текущая мощность РУ (ватт)
-#define idR0SR02RIM	 257	//(R0SR02RIM) Текущая мощность РУ (ватт)
-#define R0CR02RIM	 BUFFER[660]	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
-#define idR0CR02RIM	 258	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
-#define B3AD34LDU	 BUFFER[665]	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
-#define idB3AD34LDU	 259	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
-#define A3IS35LDU	 BUFFER[667]	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
-#define idA3IS35LDU	 260	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
-#define R7II73LZ2	 BUFFER[669]	//(R7II73LZ2) Сработала АС IIУР
-#define idR7II73LZ2	 261	//(R7II73LZ2) Сработала АС IIУР
-#define R7II71LZ2	 BUFFER[671]	//(R7II71LZ2) Сработала АС IУР (датчик 1)
-#define idR7II71LZ2	 262	//(R7II71LZ2) Сработала АС IУР (датчик 1)
-#define R7II72LZ2	 BUFFER[673]	//(R7II72LZ2) Сработала АС IУР (датчик 2)
-#define idR7II72LZ2	 263	//(R7II72LZ2) Сработала АС IУР (датчик 2)
-#define R0AD16LDU	 BUFFER[675]	//(R0AD16LDU) Контроль  I-II УР. РАД
-#define idR0AD16LDU	 264	//(R0AD16LDU) Контроль  I-II УР. РАД
-#define R7II72LZ1	 BUFFER[677]	//(R7II72LZ1) Сработала АС IУР (датчик 2)
-#define idR7II72LZ1	 265	//(R7II72LZ1) Сработала АС IУР (датчик 2)
-#define R7II71LZ1	 BUFFER[679]	//(R7II71LZ1) Сработала АС IУР (датчик 1)
-#define idR7II71LZ1	 266	//(R7II71LZ1) Сработала АС IУР (датчик 1)
-#define R7II73LZ1	 BUFFER[681]	//(R7II73LZ1) Сработала АС IIУР
-#define idR7II73LZ1	 267	//(R7II73LZ1) Сработала АС IIУР
-#define R0SR01RIM	 BUFFER[683]	//(R0SR01RIM) Текущая реактивность PУ
-#define idR0SR01RIM	 268	//(R0SR01RIM) Текущая реактивность PУ
-#define R0ST01RIM	 BUFFER[688]	//(R0ST01RIM) Текущий период разгона РУ
-#define idR0ST01RIM	 269	//(R0ST01RIM) Текущий период разгона РУ
-#define A4AD10LDU	 BUFFER[693]	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
-#define idA4AD10LDU	 270	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
-#define B4AD10LDU	 BUFFER[695]	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
-#define idB4AD10LDU	 271	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
-#define A9AD10LDU	 BUFFER[697]	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
-#define idA9AD10LDU	 272	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
-#define B9AD10LDU	 BUFFER[699]	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
-#define idB9AD10LDU	 273	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
-#define R0MW13LP2	 BUFFER[701]	//(R0MW13LP2) Переключатель «СЕТЬ»
-#define idR0MW13LP2	 274	//(R0MW13LP2) Переключатель «СЕТЬ»
-#define B3AD31LDU	 BUFFER[703]	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
-#define idB3AD31LDU	 275	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
-#define B2AD32LDU	 BUFFER[705]	//(B2AD32LDU) Обесточить ЭМ РБ2
-#define idB2AD32LDU	 276	//(B2AD32LDU) Обесточить ЭМ РБ2
+#define A1IS21LDU	 BUFFER[0]	//(do32_pti:140 - K02DO, - ) Приход на НУ ББ1
+#define idA1IS21LDU	 1	//(do32_pti:140 - K02DO, - ) Приход на НУ ББ1
+#define B6IS21LDU	 BUFFER[2]	//(do32_pti:140 - K31DO, - ) Приход на НУ БЗ2
+#define idB6IS21LDU	 2	//(do32_pti:140 - K31DO, - ) Приход на НУ БЗ2
+#define B6IS11LDU	 BUFFER[4]	//(do32_pti:140 - K30DO, - ) Приход на ВУ БЗ2
+#define idB6IS11LDU	 3	//(do32_pti:140 - K30DO, - ) Приход на ВУ БЗ2
+#define A6IS21LDU	 BUFFER[6]	//(do32_pti:140 - K27DO, - ) Приход на НУ БЗ1
+#define idA6IS21LDU	 4	//(do32_pti:140 - K27DO, - ) Приход на НУ БЗ1
+#define A6IS11LDU	 BUFFER[8]	//(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1
+#define idA6IS11LDU	 5	//(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1
+#define A8IS12LDU	 BUFFER[10]	//(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2
+#define idA8IS12LDU	 6	//(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2
+#define A8IS22LDU	 BUFFER[12]	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
+#define idA8IS22LDU	 7	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
+#define B8IS12LDU	 BUFFER[14]	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
+#define idB8IS12LDU	 8	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
+#define B8IS22LDU	 BUFFER[16]	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
+#define idB8IS22LDU	 9	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
+#define R4IS12LDU	 BUFFER[18]	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
+#define idR4IS12LDU	 10	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
+#define R4IS22LDU	 BUFFER[20]	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
+#define idR4IS22LDU	 11	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
+#define R4IS21LDU	 BUFFER[22]	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
+#define idR4IS21LDU	 12	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
+#define R4IS11LDU	 BUFFER[24]	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
+#define idR4IS11LDU	 13	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
+#define B4VP82LDU	 BUFFER[26]	//( - , SCM) Давление ПОДЪЁМ НИ2 в норме
+#define idB4VP82LDU	 14	//( - , SCM) Давление ПОДЪЁМ НИ2 в норме
+#define A4VP82LDU	 BUFFER[28]	//( - , SCM) Давление ПОДЪЁМ НИ1 в норме
+#define idA4VP82LDU	 15	//( - , SCM) Давление ПОДЪЁМ НИ1 в норме
+#define R2IS21LDU	 BUFFER[30]	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
+#define idR2IS21LDU	 16	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
+#define R2IS11LDU	 BUFFER[32]	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
+#define idR2IS11LDU	 17	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
+#define R0EE03LZ1	 BUFFER[34]	//( - , SBz1) Питание  АКНП3  отключить
+#define idR0EE03LZ1	 18	//( - , SBz1) Питание  АКНП3  отключить
+#define R0EE02LZ1	 BUFFER[36]	//( - , SBz1) Питание  АКНП  отключить
+#define idR0EE02LZ1	 19	//( - , SBz1) Питание  АКНП  отключить
+#define R0EE01LZ2	 BUFFER[38]	//( - , SBz2) Питание  АКНП1  отключить
+#define idR0EE01LZ2	 20	//( - , SBz2) Питание  АКНП1  отключить
+#define R0EE01LZ1	 BUFFER[40]	//( - , SBz1) Питание  АКНП1  отключить
+#define idR0EE01LZ1	 21	//( - , SBz1) Питание  АКНП1  отключить
+#define B4IS10LDU	 BUFFER[42]	//( - , - ) Клапан (Подъём НИ2) открыт (обесточен)
+#define idB4IS10LDU	 22	//( - , - ) Клапан (Подъём НИ2) открыт (обесточен)
+#define A4IS10LDU	 BUFFER[44]	//( - , - ) Клапан (Подъём НИ1) открыт (обесточен)
+#define idA4IS10LDU	 23	//( - , - ) Клапан (Подъём НИ1) открыт (обесточен)
+#define B1IE04LDU	 BUFFER[46]	//( - , SCM) Движение ББ2 назад (от БУШД)
+#define idB1IE04LDU	 24	//( - , SCM) Движение ББ2 назад (от БУШД)
+#define B1IE03LDU	 BUFFER[48]	//( - , SCM) Движение ББ2 вперед (от БУШД)
+#define idB1IE03LDU	 25	//( - , SCM) Движение ББ2 вперед (от БУШД)
+#define A1IE04LDU	 BUFFER[50]	//( - , SCM) Движение ББ1 назад (от БУШД)
+#define idA1IE04LDU	 26	//( - , SCM) Движение ББ1 назад (от БУШД)
+#define A1IE03LDU	 BUFFER[52]	//( - , SCM) Движение ББ1 вперед (от БУШД)
+#define idA1IE03LDU	 27	//( - , SCM) Движение ББ1 вперед (от БУШД)
+#define B1IS12LDU	 BUFFER[54]	//(do32_pti:130 - K07DO, - ) Магнит ББ2 зацеплен
+#define idB1IS12LDU	 28	//(do32_pti:130 - K07DO, - ) Магнит ББ2 зацеплен
+#define B1IS11LDU	 BUFFER[56]	//(do32_pti:130 - K08DO, - ) Приход на ВУ ББ2
+#define idB1IS11LDU	 29	//(do32_pti:130 - K08DO, - ) Приход на ВУ ББ2
+#define B1IS21LDU	 BUFFER[58]	//(do32_pti:130 - K09DO, - ) Приход на НУ ББ2
+#define idB1IS21LDU	 30	//(do32_pti:130 - K09DO, - ) Приход на НУ ББ2
+#define B1IC01UDU	 BUFFER[60]	//( - , SDu) Координата штока ББ2
+#define idB1IC01UDU	 31	//( - , SDu) Координата штока ББ2
+#define A1IC01UDU	 BUFFER[65]	//( - , SDu) Координата штока ББ1
+#define idA1IC01UDU	 32	//( - , SDu) Координата штока ББ1
+#define A1IS12LDU	 BUFFER[70]	//(do32_pti:130 - K32DO, - ) Магнит ББ1 зацеплен
+#define idA1IS12LDU	 33	//(do32_pti:130 - K32DO, - ) Магнит ББ1 зацеплен
+#define A1IS11LDU	 BUFFER[72]	//(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1
+#define idA1IS11LDU	 34	//(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1
+#define B9IS21LDU	 BUFFER[74]	//(do32_pti:130 - K21DO, - ) Приход на НУ НИ ДС2
+#define idB9IS21LDU	 35	//(do32_pti:130 - K21DO, - ) Приход на НУ НИ ДС2
+#define B9IS11LDU	 BUFFER[76]	//(do32_pti:130 - K20DO, - ) Приход на ВУ НИ ДС2
+#define idB9IS11LDU	 36	//(do32_pti:130 - K20DO, - ) Приход на ВУ НИ ДС2
+#define A9IS21LDU	 BUFFER[78]	//(do32_pti:130 - K19DO, - ) Приход на НУ НИ ДС1
+#define idA9IS21LDU	 37	//(do32_pti:130 - K19DO, - ) Приход на НУ НИ ДС1
+#define A9IS11LDU	 BUFFER[80]	//(do32_pti:130 - K18DO, - ) Приход на ВУ НИ ДС1
+#define idA9IS11LDU	 38	//(do32_pti:130 - K18DO, - ) Приход на ВУ НИ ДС1
+#define B5IS21LDU	 BUFFER[82]	//(do32_pti:150 - K01DO, - ) Приход на НУ НЛ2
+#define idB5IS21LDU	 39	//(do32_pti:150 - K01DO, - ) Приход на НУ НЛ2
+#define B5IS11LDU	 BUFFER[84]	//(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2
+#define idB5IS11LDU	 40	//(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2
+#define A5IS21LDU	 BUFFER[86]	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
+#define idA5IS21LDU	 41	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
+#define A5IS11LDU	 BUFFER[88]	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
+#define idA5IS11LDU	 42	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
+#define B0VP81LZZ	 BUFFER[90]	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
+#define idB0VP81LZZ	 43	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
+#define A0VP81LZZ	 BUFFER[92]	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
+#define idA0VP81LZZ	 44	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
+#define B8IC01UDU	 BUFFER[94]	//( - , SDu) Координата АЗ2
+#define idB8IC01UDU	 45	//( - , SDu) Координата АЗ2
+#define A8IC01UDU	 BUFFER[99]	//( - , SDu) Координата ДС2
+#define idA8IC01UDU	 46	//( - , SDu) Координата ДС2
+#define R6IS68LZZ	 BUFFER[104]	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 47	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS67LZZ	 BUFFER[106]	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 48	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS66LZZ	 BUFFER[108]	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 49	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS65LDU	 BUFFER[110]	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
+#define idR6IS65LDU	 50	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
+#define R6IS64LDU	 BUFFER[112]	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
+#define idR6IS64LDU	 51	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
+#define R1IS21LDU	 BUFFER[114]	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
+#define idR1IS21LDU	 52	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
+#define R1IS11LDU	 BUFFER[116]	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+#define idR1IS11LDU	 53	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+#define B4IS21LDU	 BUFFER[118]	//(do32_pti:140 - K08DO, SCM) Приход на НУ НИ2
+#define idB4IS21LDU	 54	//(do32_pti:140 - K08DO, SCM) Приход на НУ НИ2
+#define B4IS11LDU	 BUFFER[120]	//(do32_pti:140 - K07DO, - ) Приход на ВУ НИ2
+#define idB4IS11LDU	 55	//(do32_pti:140 - K07DO, - ) Приход на ВУ НИ2
+#define R8IS11LDU	 BUFFER[122]	//(do32_pti:130 - K14DO, - ) Аварийный НИ установлен
+#define idR8IS11LDU	 56	//(do32_pti:130 - K14DO, - ) Аварийный НИ установлен
+#define A4IS21LDU	 BUFFER[124]	//(do32_pti:130 - K17DO, - ) Приход на НУ НИ1
+#define idA4IS21LDU	 57	//(do32_pti:130 - K17DO, - ) Приход на НУ НИ1
+#define A4IS11LDU	 BUFFER[126]	//(do32_pti:130 - K16DO, - ) Приход на ВУ НИ1
+#define idA4IS11LDU	 58	//(do32_pti:130 - K16DO, - ) Приход на ВУ НИ1
+#define R5IS21LDU	 BUFFER[128]	//(do32_pti:150 - K11DO, - ) Приход на НУ ворот отстойной зоны
+#define idR5IS21LDU	 59	//(do32_pti:150 - K11DO, - ) Приход на НУ ворот отстойной зоны
+#define R5IS11LDU	 BUFFER[130]	//(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны
+#define idR5IS11LDU	 60	//(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны
+#define R3IS21LDU	 BUFFER[132]	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
+#define idR3IS21LDU	 61	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
+#define R3IS11LDU	 BUFFER[134]	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
+#define idR3IS11LDU	 62	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
+#define B2VP82LDU	 BUFFER[136]	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
+#define idB2VP82LDU	 63	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
+#define B2IP01IZ2	 BUFFER[138]	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
+#define idB2IP01IZ2	 64	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
+#define B2IP01IZ1	 BUFFER[141]	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
+#define idB2IP01IZ1	 65	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
+#define B2IC01UDU	 BUFFER[144]	//( - , SDu) Координата штока РБ2
+#define idB2IC01UDU	 66	//( - , SDu) Координата штока РБ2
+#define B2IS12LDU	 BUFFER[149]	//(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен
+#define idB2IS12LDU	 67	//(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен
+#define B2IS11LDU	 BUFFER[151]	//(do32_pti:130 - K11DO, - ) Приход на ВУ РБ2
+#define idB2IS11LDU	 68	//(do32_pti:130 - K11DO, - ) Приход на ВУ РБ2
+#define B2IS21LDU	 BUFFER[153]	//(do32_pti:130 - K12DO, - ) Приход на НУ РБ2
+#define idB2IS21LDU	 69	//(do32_pti:130 - K12DO, - ) Приход на НУ РБ2
+#define R0IN03FI2	 BUFFER[155]	//( - , SA2) Выход КНК53М Гц от ПТИ
+#define idR0IN03FI2	 70	//( - , SA2) Выход КНК53М Гц от ПТИ
+#define R0IN07RIP	 BUFFER[160]	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
+#define idR0IN07RIP	 71	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
+#define R0IN06RIP	 BUFFER[165]	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
+#define idR0IN06RIP	 72	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
+#define TerR0IN06FRP	 BUFFER[170]	//( - , - ) Неисправности СНМ-11 -1,2
+#define idTerR0IN06FRP	 73	//( - , - ) Неисправности СНМ-11 -1,2
+#define R0IN03RIP	 BUFFER[173]	//( - , SRP) Выход КНК53М Гц от ПТИ
+#define idR0IN03RIP	 74	//( - , SRP) Выход КНК53М Гц от ПТИ
+#define R0IN02RIP	 BUFFER[178]	//( - , SRP) Выход КНК15- Гц от ПТИ
+#define idR0IN02RIP	 75	//( - , SRP) Выход КНК15- Гц от ПТИ
+#define R0IN01RIP	 BUFFER[183]	//( - , SRP) Выход СНМ-11 Гц от ПТИ
+#define idR0IN01RIP	 76	//( - , SRP) Выход СНМ-11 Гц от ПТИ
+#define R0IN02FI2	 BUFFER[188]	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+#define idR0IN02FI2	 77	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+#define R0IN03FI1	 BUFFER[193]	//( - , SA1) Выход КНК53М Гц от ПТИ
+#define idR0IN03FI1	 78	//( - , SA1) Выход КНК53М Гц от ПТИ
+#define R0IN02FI1	 BUFFER[198]	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+#define idR0IN02FI1	 79	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+#define R0IN03FI4	 BUFFER[203]	//( - , SA4) Выход КНК53М Гц от ПТИ
+#define idR0IN03FI4	 80	//( - , SA4) Выход КНК53М Гц от ПТИ
+#define R0IN02FI4	 BUFFER[208]	//( - , SA4) Выход КНК15-1 Гц от ПТИ
+#define idR0IN02FI4	 81	//( - , SA4) Выход КНК15-1 Гц от ПТИ
+#define R0IN01FI3	 BUFFER[213]	//( - , SA3) Выход СНМ-11 Гц от ПТИ
+#define idR0IN01FI3	 82	//( - , SA3) Выход СНМ-11 Гц от ПТИ
+#define R0IN01FI2	 BUFFER[218]	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+#define idR0IN01FI2	 83	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+#define R0IN01FI4	 BUFFER[223]	//( - , SA4) Выход СНМ-11 Гц от ПТИ
+#define idR0IN01FI4	 84	//( - , SA4) Выход СНМ-11 Гц от ПТИ
+#define R0IN01FI1	 BUFFER[228]	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+#define idR0IN01FI1	 85	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+#define B7AP31LDU	 BUFFER[233]	//(vds32_pti:340 - K31VDSR, - ) Клапан (Обдув АЗ2) открыть (обесточить)
+#define idB7AP31LDU	 86	//(vds32_pti:340 - K31VDSR, - ) Клапан (Обдув АЗ2) открыть (обесточить)
+#define B0SN07RIM	 BUFFER[235]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define idB0SN07RIM	 87	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define B0SN06RIM	 BUFFER[240]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define idB0SN06RIM	 88	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define B0SN05RIM	 BUFFER[245]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define idB0SN05RIM	 89	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define B0SN04RIM	 BUFFER[250]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define idB0SN04RIM	 90	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define B0SN03RIM	 BUFFER[255]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define idB0SN03RIM	 91	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define B0SN02RIM	 BUFFER[260]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define idB0SN02RIM	 92	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define A0SN07RIM	 BUFFER[265]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define idA0SN07RIM	 93	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define A0SN06RIM	 BUFFER[270]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define idA0SN06RIM	 94	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define A0SN05RIM	 BUFFER[275]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define idA0SN05RIM	 95	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define A0SN04RIM	 BUFFER[280]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define idA0SN04RIM	 96	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define A0SN03RIM	 BUFFER[285]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define idA0SN03RIM	 97	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define A0SN02RIM	 BUFFER[290]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define idA0SN02RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define R0IS01FI0	 BUFFER[295]	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
+#define idR0IS01FI0	 99	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
+#define A0IT03IRP	 BUFFER[298]	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
+#define idA0IT03IRP	 100	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
+#define B0IT03IRP	 BUFFER[301]	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+#define idB0IT03IRP	 101	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+#define R0IN03FI3	 BUFFER[304]	//( - , SA3) Выход КНК53М Гц от ПТИ
+#define idR0IN03FI3	 102	//( - , SA3) Выход КНК53М Гц от ПТИ
+#define R0IN02FI3	 BUFFER[309]	//( - , SA3) Выход КНК15-1 Гц от ПТИ
+#define idR0IN02FI3	 103	//( - , SA3) Выход КНК15-1 Гц от ПТИ
+#define B1VP81LZZ	 BUFFER[314]	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
+#define idB1VP81LZZ	 104	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
+#define B2IS33LDU	 BUFFER[316]	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
+#define idB2IS33LDU	 105	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
+#define A0VN01RIM	 BUFFER[318]	//( - , SCM) Период разгона  AЗ1
+#define idA0VN01RIM	 106	//( - , SCM) Период разгона  AЗ1
+#define B2IS32LIM	 BUFFER[323]	//( - , SCM) Клапан cброса РБ2 открыт(обесточен)
+#define idB2IS32LIM	 107	//( - , SCM) Клапан cброса РБ2 открыт(обесточен)
+#define B2IS11LIM	 BUFFER[325]	//( - , SCM) Магнит РБ2 обесточен
+#define idB2IS11LIM	 108	//( - , SCM) Магнит РБ2 обесточен
+#define A2IS32LIM	 BUFFER[327]	//( - , SCM) Клапан cброса РБ1 открыт(обесточен)
+#define idA2IS32LIM	 109	//( - , SCM) Клапан cброса РБ1 открыт(обесточен)
+#define A2IS11LIM	 BUFFER[329]	//( - , SCM) Магнит РБ1 обесточен
+#define idA2IS11LIM	 110	//( - , SCM) Магнит РБ1 обесточен
+#define B1IS32LIM	 BUFFER[331]	//( - , SCM) Клапан cброса ББ2 открыт(обесточен)
+#define idB1IS32LIM	 111	//( - , SCM) Клапан cброса ББ2 открыт(обесточен)
+#define B1IS11LIM	 BUFFER[333]	//( - , SCM) Магнит ББ2 обесточен
+#define idB1IS11LIM	 112	//( - , SCM) Магнит ББ2 обесточен
+#define A1IS32LIM	 BUFFER[335]	//( - , SCM) Клапан cброса ББ1 открыт(обесточен)
+#define idA1IS32LIM	 113	//( - , SCM) Клапан cброса ББ1 открыт(обесточен)
+#define A1IS11LIM	 BUFFER[337]	//( - , SCM) Магнит ББ1 обесточен
+#define idA1IS11LIM	 114	//( - , SCM) Магнит ББ1 обесточен
+#define A3AD34LDU	 BUFFER[339]	//(vds32_pti:340 - K12VDSR, - ) Клапан (ВПИС ИС1) открыть (обесточить)
+#define idA3AD34LDU	 115	//(vds32_pti:340 - K12VDSR, - ) Клапан (ВПИС ИС1) открыть (обесточить)
+#define R0IS02LDU	 BUFFER[341]	//(do32_pti:140 - K17DO, - ) Разрешение ввода от имитатора
+#define idR0IS02LDU	 116	//(do32_pti:140 - K17DO, - ) Разрешение ввода от имитатора
+#define R0EE04LZ2	 BUFFER[343]	//( - , SBz2) Питание  АКНП4  отключить
+#define idR0EE04LZ2	 117	//( - , SBz2) Питание  АКНП4  отключить
+#define R0EE03LZ2	 BUFFER[345]	//( - , SBz2) Питание  АКНП3  отключить
+#define idR0EE03LZ2	 118	//( - , SBz2) Питание  АКНП3  отключить
+#define R0EE02LZ2	 BUFFER[347]	//( - , SBz2) Питание  АКНП  отключить
+#define idR0EE02LZ2	 119	//( - , SBz2) Питание  АКНП  отключить
+#define R0EE04LZ1	 BUFFER[349]	//( - , SBz1) Питание  АКНП4  отключить
+#define idR0EE04LZ1	 120	//( - , SBz1) Питание  АКНП4  отключить
+#define A7AP31LDU	 BUFFER[351]	//(vds32_pti:340 - K17VDSR, - ) Клапан (Обдув АЗ1) открыть (обесточить)
+#define idA7AP31LDU	 121	//(vds32_pti:340 - K17VDSR, - ) Клапан (Обдув АЗ1) открыть (обесточить)
+#define R4VS12LDU	 BUFFER[353]	//( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»
+#define idR4VS12LDU	 122	//( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»
+#define R4VS22LDU	 BUFFER[355]	//( - , SCM) Движение реактора к «У ЗАЩИТЫ»
+#define idR4VS22LDU	 123	//( - , SCM) Движение реактора к «У ЗАЩИТЫ»
+#define R1VS12LDU	 BUFFER[357]	//( - , SCM) Движение МДЗ1 в сторону ВУ
+#define idR1VS12LDU	 124	//( - , SCM) Движение МДЗ1 в сторону ВУ
+#define R2VS12LDU	 BUFFER[359]	//( - , SCM) Движение МДЗ2 в сторону ВУ
+#define idR2VS12LDU	 125	//( - , SCM) Движение МДЗ2 в сторону ВУ
+#define R2VS22LDU	 BUFFER[361]	//( - , SCM) Движение МДЗ2 в сторону НУ
+#define idR2VS22LDU	 126	//( - , SCM) Движение МДЗ2 в сторону НУ
+#define R1VS22LDU	 BUFFER[363]	//( - , SCM) Движение МДЗ1 в сторону НУ
+#define idR1VS22LDU	 127	//( - , SCM) Движение МДЗ1 в сторону НУ
+#define B5VS12LDU	 BUFFER[365]	//( - , SCM) Движение НЛ2 в сторону ВУ
+#define idB5VS12LDU	 128	//( - , SCM) Движение НЛ2 в сторону ВУ
+#define B5VS22LDU	 BUFFER[367]	//( - , SCM) Движение НЛ2 в сторону НУ
+#define idB5VS22LDU	 129	//( - , SCM) Движение НЛ2 в сторону НУ
+#define A5VS12LDU	 BUFFER[369]	//( - , SCM) Движение НЛ1 в сторону ВУ
+#define idA5VS12LDU	 130	//( - , SCM) Движение НЛ1 в сторону ВУ
+#define A5VS22LDU	 BUFFER[371]	//( - , SCM) Движение НЛ1 в сторону НУ
+#define idA5VS22LDU	 131	//( - , SCM) Движение НЛ1 в сторону НУ
+#define B6VS12LDU	 BUFFER[373]	//( - , SCM) Движение створок БЗ2  к ОТКРЫТА
+#define idB6VS12LDU	 132	//( - , SCM) Движение створок БЗ2  к ОТКРЫТА
+#define B6VS22LDU	 BUFFER[375]	//( - , SCM) Движение створок БЗ2  к ЗАКРЫТА
+#define idB6VS22LDU	 133	//( - , SCM) Движение створок БЗ2  к ЗАКРЫТА
+#define A6VS12LDU	 BUFFER[377]	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
+#define idA6VS12LDU	 134	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
+#define A6VS22LDU	 BUFFER[379]	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
+#define idA6VS22LDU	 135	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
+#define B8IS21LDU	 BUFFER[381]	//( - , SCM) Приход на НУ1 АЗ2
+#define idB8IS21LDU	 136	//( - , SCM) Приход на НУ1 АЗ2
+#define B8IS11LDU	 BUFFER[383]	//( - , SCM) Приход на ВУ1 АЗ2
+#define idB8IS11LDU	 137	//( - , SCM) Приход на ВУ1 АЗ2
+#define A1VP81LZZ	 BUFFER[385]	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
+#define idA1VP81LZZ	 138	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
+#define B8AD20LDU	 BUFFER[387]	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
+#define idB8AD20LDU	 139	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
+#define B8AD10LDU	 BUFFER[389]	//(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед
+#define idB8AD10LDU	 140	//(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед
+#define R4AD20LDU	 BUFFER[391]	//(vds32_pti:360 - K07VDSR, - ) Перемещение тележки назад
+#define idR4AD20LDU	 141	//(vds32_pti:360 - K07VDSR, - ) Перемещение тележки назад
+#define R4AD10LDU	 BUFFER[393]	//(vds32_pti:360 - K06VDSR, - ) Перемещение тележки вперед
+#define idR4AD10LDU	 142	//(vds32_pti:360 - K06VDSR, - ) Перемещение тележки вперед
+#define B0SR01RIM	 BUFFER[395]	//( - , SCM) Текущая реактивность AЗ2
+#define idB0SR01RIM	 143	//( - , SCM) Текущая реактивность AЗ2
+#define B3AD33LDU	 BUFFER[400]	//(vds32_pti:340 - K27VDSR, - ) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
+#define idB3AD33LDU	 144	//(vds32_pti:340 - K27VDSR, - ) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
+#define B3AD05LDU	 BUFFER[402]	//(vds32_pti:360 - K23VDSR, - ) паритет команды на ИС2
+#define idB3AD05LDU	 145	//(vds32_pti:360 - K23VDSR, - ) паритет команды на ИС2
+#define B3AD04LDU	 BUFFER[404]	//(vds32_pti:360 - K22VDSR, - ) 2-й бит скорости ИС2
+#define idB3AD04LDU	 146	//(vds32_pti:360 - K22VDSR, - ) 2-й бит скорости ИС2
+#define B3AD03LDU	 BUFFER[406]	//(vds32_pti:360 - K21VDSR, - ) 1-й бит скорости ИС2
+#define idB3AD03LDU	 147	//(vds32_pti:360 - K21VDSR, - ) 1-й бит скорости ИС2
+#define B3AD02LDU	 BUFFER[408]	//(vds32_pti:360 - K20VDSR, - ) 0-й бит скорости ИС2
+#define idB3AD02LDU	 148	//(vds32_pti:360 - K20VDSR, - ) 0-й бит скорости ИС2
+#define B3AD01LDU	 BUFFER[410]	//(vds32_pti:360 - K19VDSR, - ) Разрешение движения ИС2
+#define idB3AD01LDU	 149	//(vds32_pti:360 - K19VDSR, - ) Разрешение движения ИС2
+#define B3AD21LDU	 BUFFER[412]	//(vds32_pti:360 - K18VDSR, - ) Сигнал на перемещение ИС2 вниз
+#define idB3AD21LDU	 150	//(vds32_pti:360 - K18VDSR, - ) Сигнал на перемещение ИС2 вниз
+#define B3AD11LDU	 BUFFER[414]	//(vds32_pti:360 - K17VDSR, - ) Сигнал на перемещение ИС2 вверх
+#define idB3AD11LDU	 151	//(vds32_pti:360 - K17VDSR, - ) Сигнал на перемещение ИС2 вверх
+#define A3AD33LDU	 BUFFER[416]	//(vds32_pti:340 - K13VDSR, - ) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
+#define idA3AD33LDU	 152	//(vds32_pti:340 - K13VDSR, - ) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
+#define A3AD05LDU	 BUFFER[418]	//(vds32_pti:360 - K16VDSR, - ) паритет команды на ИС1
+#define idA3AD05LDU	 153	//(vds32_pti:360 - K16VDSR, - ) паритет команды на ИС1
+#define A3AD04LDU	 BUFFER[420]	//(vds32_pti:360 - K15VDSR, - ) 2-й бит скорости ИС1
+#define idA3AD04LDU	 154	//(vds32_pti:360 - K15VDSR, - ) 2-й бит скорости ИС1
+#define A3AD03LDU	 BUFFER[422]	//(vds32_pti:360 - K14VDSR, - ) 1-й бит скорости ИС1
+#define idA3AD03LDU	 155	//(vds32_pti:360 - K14VDSR, - ) 1-й бит скорости ИС1
+#define R0CR01RIM	 BUFFER[424]	//( - , SCM) Коэффициент 12 связи АЗ1,2
+#define idR0CR01RIM	 156	//( - , SCM) Коэффициент 12 связи АЗ1,2
+#define B0SN08RIM	 BUFFER[429]	//( - , SCM) Поток нейтронов AЗ2(нейтр/с)
+#define idB0SN08RIM	 157	//( - , SCM) Поток нейтронов AЗ2(нейтр/с)
+#define A0SN08RIM	 BUFFER[434]	//( - , SCM) Поток нейтронов AЗ1(нейтр/с)
+#define idA0SN08RIM	 158	//( - , SCM) Поток нейтронов AЗ1(нейтр/с)
+#define B5AD20LDU	 BUFFER[439]	//(vds32_pti:340 - K25VDSR, - ) Опустить НЛ2
+#define idB5AD20LDU	 159	//(vds32_pti:340 - K25VDSR, - ) Опустить НЛ2
+#define B5AD10LDU	 BUFFER[441]	//(vds32_pti:340 - K24VDSR, - ) Поднять НЛ2
+#define idB5AD10LDU	 160	//(vds32_pti:340 - K24VDSR, - ) Поднять НЛ2
+#define A5AD20LDU	 BUFFER[443]	//(vds32_pti:340 - K23VDSR, - ) Опустить НЛ1
+#define idA5AD20LDU	 161	//(vds32_pti:340 - K23VDSR, - ) Опустить НЛ1
+#define A5AD10LDU	 BUFFER[445]	//(vds32_pti:340 - K22VDSR, - ) Поднять НЛ1
+#define idA5AD10LDU	 162	//(vds32_pti:340 - K22VDSR, - ) Поднять НЛ1
+#define R2AD20LDU	 BUFFER[447]	//(vds32_pti:340 - K21VDSR, - ) Поднять МДЗ2
+#define idR2AD20LDU	 163	//(vds32_pti:340 - K21VDSR, - ) Поднять МДЗ2
+#define R2AD10LDU	 BUFFER[449]	//(vds32_pti:340 - K20VDSR, - ) Опустить МДЗ2 в зону облучения
+#define idR2AD10LDU	 164	//(vds32_pti:340 - K20VDSR, - ) Опустить МДЗ2 в зону облучения
+#define R1AD20LDU	 BUFFER[451]	//(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+#define idR1AD20LDU	 165	//(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+#define R1AD10LDU	 BUFFER[453]	//(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+#define idR1AD10LDU	 166	//(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+#define B6AD20LDU	 BUFFER[455]	//(vds32_pti:360 - K05VDSR, - ) Закрыть БЗ2
+#define idB6AD20LDU	 167	//(vds32_pti:360 - K05VDSR, - ) Закрыть БЗ2
+#define B6AD10LDU	 BUFFER[457]	//(vds32_pti:360 - K04VDSR, - ) Открыть БЗ2
+#define idB6AD10LDU	 168	//(vds32_pti:360 - K04VDSR, - ) Открыть БЗ2
+#define A6AD20LDU	 BUFFER[459]	//(vds32_pti:360 - K03VDSR, - ) Закрыть БЗ1
+#define idA6AD20LDU	 169	//(vds32_pti:360 - K03VDSR, - ) Закрыть БЗ1
+#define A6AD10LDU	 BUFFER[461]	//(vds32_pti:360 - K02VDSR, - ) Открыть БЗ1
+#define idA6AD10LDU	 170	//(vds32_pti:360 - K02VDSR, - ) Открыть БЗ1
+#define A8AD20LDU	 BUFFER[463]	//(vds32_pti:360 - K01VDSR, - ) Перемещение ДС2 назад
+#define idA8AD20LDU	 171	//(vds32_pti:360 - K01VDSR, - ) Перемещение ДС2 назад
+#define A8AD10LDU	 BUFFER[465]	//(vds32_pti:340 - K32VDSR, - ) Перемещение ДС2 вперед
+#define idA8AD10LDU	 172	//(vds32_pti:340 - K32VDSR, - ) Перемещение ДС2 вперед
+#define A2AD21LDU	 BUFFER[467]	//(vds32_pti:310 - K10VDSR, - ) Сигнал на перемещение РБ1 вниз
+#define idA2AD21LDU	 173	//(vds32_pti:310 - K10VDSR, - ) Сигнал на перемещение РБ1 вниз
+#define A2AD11LDU	 BUFFER[469]	//(vds32_pti:310 - K09VDSR, - ) Сигнал на перемещение РБ1 вверх
+#define idA2AD11LDU	 174	//(vds32_pti:310 - K09VDSR, - ) Сигнал на перемещение РБ1 вверх
+#define B1AD05LDU	 BUFFER[471]	//(vds32_pti:310 - K08VDSR, - ) паритет команды на ББ2
+#define idB1AD05LDU	 175	//(vds32_pti:310 - K08VDSR, - ) паритет команды на ББ2
+#define B1AD04LDU	 BUFFER[473]	//(vds32_pti:310 - K07VDSR, - ) 2-й бит скорости ББ2
+#define idB1AD04LDU	 176	//(vds32_pti:310 - K07VDSR, - ) 2-й бит скорости ББ2
+#define B1AD03LDU	 BUFFER[475]	//(vds32_pti:310 - K06VDSR, - ) 1-й бит скорости ББ2
+#define idB1AD03LDU	 177	//(vds32_pti:310 - K06VDSR, - ) 1-й бит скорости ББ2
+#define B1AD02LDU	 BUFFER[477]	//(vds32_pti:310 - K05VDSR, - ) 0-й бит скорости  ББ2
+#define idB1AD02LDU	 178	//(vds32_pti:310 - K05VDSR, - ) 0-й бит скорости  ББ2
+#define B1AD01LDU	 BUFFER[479]	//(vds32_pti:310 - K04VDSR, - ) Разрешение движения ББ2
+#define idB1AD01LDU	 179	//(vds32_pti:310 - K04VDSR, - ) Разрешение движения ББ2
+#define B1AD21LDU	 BUFFER[481]	//(vds32_pti:310 - K03VDSR, - ) Сигнал на перемещение ББ2 вниз
+#define idB1AD21LDU	 180	//(vds32_pti:310 - K03VDSR, - ) Сигнал на перемещение ББ2 вниз
+#define B1AD11LDU	 BUFFER[483]	//(vds32_pti:310 - K02VDSR, - ) Сигнал на перемещение ББ2 вверх
+#define idB1AD11LDU	 181	//(vds32_pti:310 - K02VDSR, - ) Сигнал на перемещение ББ2 вверх
+#define A1AD05LDU	 BUFFER[485]	//(vds32_pti:310 - K01VDSR, - ) паритет команды на ББ1
+#define idA1AD05LDU	 182	//(vds32_pti:310 - K01VDSR, - ) паритет команды на ББ1
+#define A1AD04LDU	 BUFFER[487]	//(vds32_pti:360 - K31VDSR, - ) 2-й бит скорости ББ1
+#define idA1AD04LDU	 183	//(vds32_pti:360 - K31VDSR, - ) 2-й бит скорости ББ1
+#define A1AD03LDU	 BUFFER[489]	//(vds32_pti:360 - K30VDSR, - ) 1-й бит скорости ББ1
+#define idA1AD03LDU	 184	//(vds32_pti:360 - K30VDSR, - ) 1-й бит скорости ББ1
+#define A1AD02LDU	 BUFFER[491]	//(vds32_pti:360 - K29VDSR, - ) 0-й бит скорости ББ1
+#define idA1AD02LDU	 185	//(vds32_pti:360 - K29VDSR, - ) 0-й бит скорости ББ1
+#define A1AD01LDU	 BUFFER[493]	//(vds32_pti:360 - K28VDSR, - ) Разрешение движения ББ1
+#define idA1AD01LDU	 186	//(vds32_pti:360 - K28VDSR, - ) Разрешение движения ББ1
+#define A1AD21LDU	 BUFFER[495]	//(vds32_pti:360 - K27VDSR, - ) Сигнал на перемещение ББ1 вниз
+#define idA1AD21LDU	 187	//(vds32_pti:360 - K27VDSR, - ) Сигнал на перемещение ББ1 вниз
+#define A1AD11LDU	 BUFFER[497]	//(vds32_pti:360 - K26VDSR, - ) Сигнал на перемещение ББ1 вверх
+#define idA1AD11LDU	 188	//(vds32_pti:360 - K26VDSR, - ) Сигнал на перемещение ББ1 вверх
+#define A0SR01RIM	 BUFFER[499]	//( - , SCM) Текущая реактивность AЗ1
+#define idA0SR01RIM	 189	//( - , SCM) Текущая реактивность AЗ1
+#define A3AD02LDU	 BUFFER[504]	//(vds32_pti:360 - K13VDSR, - ) 0-й бит скорости ИС1
+#define idA3AD02LDU	 190	//(vds32_pti:360 - K13VDSR, - ) 0-й бит скорости ИС1
+#define A3AD01LDU	 BUFFER[506]	//(vds32_pti:360 - K12VDSR, - ) Разрешение движения ИС1
+#define idA3AD01LDU	 191	//(vds32_pti:360 - K12VDSR, - ) Разрешение движения ИС1
+#define A3AD21LDU	 BUFFER[508]	//(vds32_pti:360 - K11VDSR, - ) Сигнал на перемещение ИС1 вниз
+#define idA3AD21LDU	 192	//(vds32_pti:360 - K11VDSR, - ) Сигнал на перемещение ИС1 вниз
+#define A3AD11LDU	 BUFFER[510]	//(vds32_pti:360 - K10VDSR, - ) Сигнал на перемещение ИС1 вверх
+#define idA3AD11LDU	 193	//(vds32_pti:360 - K10VDSR, - ) Сигнал на перемещение ИС1 вверх
+#define B2AD33LDU	 BUFFER[512]	//(vds32_pti:340 - K28VDSR, - ) Клапан (Подъем РБ2) закрыть (обесточить)
+#define idB2AD33LDU	 194	//(vds32_pti:340 - K28VDSR, - ) Клапан (Подъем РБ2) закрыть (обесточить)
+#define B2AD05LDU	 BUFFER[514]	//(vds32_pti:310 - K22VDSR, - ) паритет команды на РБ2
+#define idB2AD05LDU	 195	//(vds32_pti:310 - K22VDSR, - ) паритет команды на РБ2
+#define B2AD04LDU	 BUFFER[516]	//(vds32_pti:310 - K21VDSR, - ) 2-й бит скорости РБ2
+#define idB2AD04LDU	 196	//(vds32_pti:310 - K21VDSR, - ) 2-й бит скорости РБ2
+#define B2AD03LDU	 BUFFER[518]	//(vds32_pti:310 - K20VDSR, - ) 1-й бит скорости РБ2
+#define idB2AD03LDU	 197	//(vds32_pti:310 - K20VDSR, - ) 1-й бит скорости РБ2
+#define B2AD02LDU	 BUFFER[520]	//(vds32_pti:310 - K19VDSR, - ) 0-й бит скорости РБ2
+#define idB2AD02LDU	 198	//(vds32_pti:310 - K19VDSR, - ) 0-й бит скорости РБ2
+#define B2AD01LDU	 BUFFER[522]	//(vds32_pti:310 - K18VDSR, - ) Разрешение движения РБ2
+#define idB2AD01LDU	 199	//(vds32_pti:310 - K18VDSR, - ) Разрешение движения РБ2
+#define B2AD21LDU	 BUFFER[524]	//(vds32_pti:310 - K17VDSR, - ) Сигнал на перемещение РБ2 вниз
+#define idB2AD21LDU	 200	//(vds32_pti:310 - K17VDSR, - ) Сигнал на перемещение РБ2 вниз
+#define B2AD11LDU	 BUFFER[526]	//(vds32_pti:310 - K16VDSR, - ) Сигнал на перемещение РБ2 вверх
+#define idB2AD11LDU	 201	//(vds32_pti:310 - K16VDSR, - ) Сигнал на перемещение РБ2 вверх
+#define A2AD33LDU	 BUFFER[528]	//(vds32_pti:340 - K14VDSR, - ) Клапан (Подъем РБ1) закрыть (обесточить)
+#define idA2AD33LDU	 202	//(vds32_pti:340 - K14VDSR, - ) Клапан (Подъем РБ1) закрыть (обесточить)
+#define A2AD05LDU	 BUFFER[530]	//(vds32_pti:310 - K15VDSR, - ) паритет команды на РБ1
+#define idA2AD05LDU	 203	//(vds32_pti:310 - K15VDSR, - ) паритет команды на РБ1
+#define A2AD04LDU	 BUFFER[532]	//(vds32_pti:310 - K14VDSR, - ) 2-й бит скорости РБ1
+#define idA2AD04LDU	 204	//(vds32_pti:310 - K14VDSR, - ) 2-й бит скорости РБ1
+#define A2AD03LDU	 BUFFER[534]	//(vds32_pti:310 - K13VDSR, - ) 1-й бит скорости РБ1
+#define idA2AD03LDU	 205	//(vds32_pti:310 - K13VDSR, - ) 1-й бит скорости РБ1
+#define A2AD02LDU	 BUFFER[536]	//(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1
+#define idA2AD02LDU	 206	//(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1
+#define A2AD01LDU	 BUFFER[538]	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
+#define idA2AD01LDU	 207	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
+#define A2IP01IZ2	 BUFFER[540]	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
+#define idA2IP01IZ2	 208	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
+#define A2IP01IZ1	 BUFFER[543]	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
+#define idA2IP01IZ1	 209	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
+#define B3IS21LDU	 BUFFER[546]	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
+#define idB3IS21LDU	 210	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
+#define A3IS21LDU	 BUFFER[548]	//(do32_pti:140 - K06DO, - ) Приход на НУ ИС1
+#define idA3IS21LDU	 211	//(do32_pti:140 - K06DO, - ) Приход на НУ ИС1
+#define A2IS33LDU	 BUFFER[550]	//( - , - ) Клапан (Подъём РБ1)  открыт (обесточен)
+#define idA2IS33LDU	 212	//( - , - ) Клапан (Подъём РБ1)  открыт (обесточен)
+#define A2IC01UDU	 BUFFER[552]	//( - , SDu) Координата штока РБ1
+#define idA2IC01UDU	 213	//( - , SDu) Координата штока РБ1
+#define A2IS12LDU	 BUFFER[557]	//(do32_pti:140 - K03DO, - ) Магнит РБ1 зацеплен
+#define idA2IS12LDU	 214	//(do32_pti:140 - K03DO, - ) Магнит РБ1 зацеплен
+#define A2IS11LDU	 BUFFER[559]	//(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1
+#define idA2IS11LDU	 215	//(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1
+#define A2IS21LDU	 BUFFER[561]	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
+#define idA2IS21LDU	 216	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
+#define B0IT02IZ2	 BUFFER[563]	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
+#define idB0IT02IZ2	 217	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
+#define B0IT01IZ1	 BUFFER[566]	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
+#define idB0IT01IZ1	 218	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
+#define A0IT02IZ2	 BUFFER[569]	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
+#define idA0IT02IZ2	 219	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
+#define A0IT01IZ1	 BUFFER[572]	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
+#define idA0IT01IZ1	 220	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
+#define R6IS21LDU	 BUFFER[575]	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
+#define idR6IS21LDU	 221	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
+#define B7AS31LDU	 BUFFER[577]	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
+#define idB7AS31LDU	 222	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
+#define A7AS31LDU	 BUFFER[579]	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
+#define idA7AS31LDU	 223	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
+#define B3IS35LDU	 BUFFER[581]	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
+#define idB3IS35LDU	 224	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
+#define R6IS63LDU	 BUFFER[583]	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
+#define idR6IS63LDU	 225	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
+#define R6IS62LDU	 BUFFER[585]	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
+#define idR6IS62LDU	 226	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
+#define B3IS22LDU	 BUFFER[587]	//(do32_pti:100 - K12DO, - ) Приход на НУП ИС2
+#define idB3IS22LDU	 227	//(do32_pti:100 - K12DO, - ) Приход на НУП ИС2
+#define A3IS22LDU	 BUFFER[589]	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
+#define idA3IS22LDU	 228	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
+#define B3IS11LDU	 BUFFER[591]	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
+#define idB3IS11LDU	 229	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
+#define A3IS11LDU	 BUFFER[593]	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
+#define idA3IS11LDU	 230	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
+#define A3IP02IDU	 BUFFER[595]	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
+#define idA3IP02IDU	 231	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
+#define B3VP81LDU	 BUFFER[598]	//( - , SCM) Давление СПУСК ИС2 в норме
+#define idB3VP81LDU	 232	//( - , SCM) Давление СПУСК ИС2 в норме
+#define A3VP81LDU	 BUFFER[600]	//( - , SCM) Давление СПУСК ИС1 в норме
+#define idA3VP81LDU	 233	//( - , SCM) Давление СПУСК ИС1 в норме
+#define B3IS33LDU	 BUFFER[602]	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+#define idB3IS33LDU	 234	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+#define B3IC01UDU	 BUFFER[604]	//( - , SDu) Координата штока ИС2
+#define idB3IC01UDU	 235	//( - , SDu) Координата штока ИС2
+#define B3IS31LDU	 BUFFER[609]	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
+#define idB3IS31LDU	 236	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
+#define B3IP02IDU	 BUFFER[611]	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
+#define idB3IP02IDU	 237	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
+#define A3IS33LDU	 BUFFER[614]	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
+#define idA3IS33LDU	 238	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
+#define A3IC01UDU	 BUFFER[616]	//( - , SDu) Координата штока ИС1
+#define idA3IC01UDU	 239	//( - , SDu) Координата штока ИС1
+#define A3IS31LDU	 BUFFER[621]	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
+#define idA3IS31LDU	 240	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
+#define A2VP82LDU	 BUFFER[623]	//( - , SCM) Давление ПОДЪЁМ РБ1 в норме
+#define idA2VP82LDU	 241	//( - , SCM) Давление ПОДЪЁМ РБ1 в норме
+#define B2AD31LDU	 BUFFER[625]	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
+#define idB2AD31LDU	 242	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
+#define B1AD32LDU	 BUFFER[627]	//(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2
+#define idB1AD32LDU	 243	//(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2
+#define B1AD31LDU	 BUFFER[629]	//(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)
+#define idB1AD31LDU	 244	//(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)
+#define A3AD31LDU	 BUFFER[631]	//(vds32_pti:340 - K16VDSR, - ) Клапан (СПУСК ИС1) открыть (обесточить)
+#define idA3AD31LDU	 245	//(vds32_pti:340 - K16VDSR, - ) Клапан (СПУСК ИС1) открыть (обесточить)
+#define C1MD31LP1	 BUFFER[633]	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ1
+#define idC1MD31LP1	 246	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ1
+#define C1MD31LP2	 BUFFER[635]	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ2
+#define idC1MD31LP2	 247	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ2
+#define A1AD31LDU	 BUFFER[637]	//(vds32_pti:310 - K24VDSR, - ) Клапан (Сброс ББ1) открыть (обесточить)
+#define idA1AD31LDU	 248	//(vds32_pti:310 - K24VDSR, - ) Клапан (Сброс ББ1) открыть (обесточить)
+#define A1AD32LDU	 BUFFER[639]	//(vds32_pti:310 - K23VDSR, - ) Обесточить ЭМ ББ1
+#define idA1AD32LDU	 249	//(vds32_pti:310 - K23VDSR, - ) Обесточить ЭМ ББ1
+#define A2AD31LDU	 BUFFER[641]	//(vds32_pti:310 - K26VDSR, - ) Клапан (Сброс РБ1) открыть (обесточить)
+#define idA2AD31LDU	 250	//(vds32_pti:310 - K26VDSR, - ) Клапан (Сброс РБ1) открыть (обесточить)
+#define C2MD31LP1	 BUFFER[643]	//( - , SCM) Кнопка «СБРОС РБ»
+#define idC2MD31LP1	 251	//( - , SCM) Кнопка «СБРОС РБ»
+#define A2AD32LDU	 BUFFER[645]	//(vds32_pti:310 - K25VDSR, - ) Обесточить ЭМ РБ1
+#define idA2AD32LDU	 252	//(vds32_pti:310 - K25VDSR, - ) Обесточить ЭМ РБ1
+#define R0VZ71LZ2	 BUFFER[647]	//( - , SCM) Обобщенный сигнал по АЗ  2 канала
+#define idR0VZ71LZ2	 253	//( - , SCM) Обобщенный сигнал по АЗ  2 канала
+#define R0VZ71LZ1	 BUFFER[649]	//( - , SCM) Обобщенный сигнал по АЗ  1 канала
+#define idR0VZ71LZ1	 254	//( - , SCM) Обобщенный сигнал по АЗ  1 канала
+#define R8AD21LDU	 BUFFER[651]	//(vds32_pti:310 - K31VDSR, - ) Запуск системы инициирования
+#define idR8AD21LDU	 255	//(vds32_pti:310 - K31VDSR, - ) Запуск системы инициирования
+#define R0AD14LDU	 BUFFER[653]	//( - , SCM) Имитация срабатывания верхней АС II УР
+#define idR0AD14LDU	 256	//( - , SCM) Имитация срабатывания верхней АС II УР
+#define R0SR02RIM	 BUFFER[655]	//( - , SCM) Текущая мощность РУ (ватт)
+#define idR0SR02RIM	 257	//( - , SCM) Текущая мощность РУ (ватт)
+#define R0CR02RIM	 BUFFER[660]	//( - , SCM) Коэффициент 11 связи АЗ1,2
+#define idR0CR02RIM	 258	//( - , SCM) Коэффициент 11 связи АЗ1,2
+#define B3AD34LDU	 BUFFER[665]	//(vds32_pti:340 - K26VDSR, - ) Клапан (ВПИС2) открыть (обесточить)
+#define idB3AD34LDU	 259	//(vds32_pti:340 - K26VDSR, - ) Клапан (ВПИС2) открыть (обесточить)
+#define A3IS35LDU	 BUFFER[667]	//( - , - ) Клапан (ВПИС1) открыт(обесточен)
+#define idA3IS35LDU	 260	//( - , - ) Клапан (ВПИС1) открыт(обесточен)
+#define R7II73LZ2	 BUFFER[669]	//(do32_pti:110 - K26DO, - ) Сработала АС IIУР
+#define idR7II73LZ2	 261	//(do32_pti:110 - K26DO, - ) Сработала АС IIУР
+#define R7II71LZ2	 BUFFER[671]	//(do32_pti:110 - K24DO, - ) Сработала АС IУР (датчик 1)
+#define idR7II71LZ2	 262	//(do32_pti:110 - K24DO, - ) Сработала АС IУР (датчик 1)
+#define R7II72LZ2	 BUFFER[673]	//(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)
+#define idR7II72LZ2	 263	//(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)
+#define R0AD16LDU	 BUFFER[675]	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
+#define idR0AD16LDU	 264	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
+#define R7II72LZ1	 BUFFER[677]	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
+#define idR7II72LZ1	 265	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
+#define R7II71LZ1	 BUFFER[679]	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
+#define idR7II71LZ1	 266	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
+#define R7II73LZ1	 BUFFER[681]	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
+#define idR7II73LZ1	 267	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
+#define R0SR01RIM	 BUFFER[683]	//( - , SCM) Текущая реактивность PУ
+#define idR0SR01RIM	 268	//( - , SCM) Текущая реактивность PУ
+#define R0ST01RIM	 BUFFER[688]	//( - , SCM) Текущий период разгона РУ
+#define idR0ST01RIM	 269	//( - , SCM) Текущий период разгона РУ
+#define A4AD10LDU	 BUFFER[693]	//(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)
+#define idA4AD10LDU	 270	//(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)
+#define B4AD10LDU	 BUFFER[695]	//(vds32_pti:340 - K29VDSR, - ) Открыть клапан (Подъем НИ2)
+#define idB4AD10LDU	 271	//(vds32_pti:340 - K29VDSR, - ) Открыть клапан (Подъем НИ2)
+#define A9AD10LDU	 BUFFER[697]	//(vds32_pti:360 - K24VDSR, - ) Открыть клапан (Подъем НИ ДС1)
+#define idA9AD10LDU	 272	//(vds32_pti:360 - K24VDSR, - ) Открыть клапан (Подъем НИ ДС1)
+#define B9AD10LDU	 BUFFER[699]	//(vds32_pti:360 - K25VDSR, - ) Открыть клапан (Подъем НИ ДС2)
+#define idB9AD10LDU	 273	//(vds32_pti:360 - K25VDSR, - ) Открыть клапан (Подъем НИ ДС2)
+#define R0MW13LP2	 BUFFER[701]	//( - , SCM) Переключатель «СЕТЬ»
+#define idR0MW13LP2	 274	//( - , SCM) Переключатель «СЕТЬ»
+#define B3AD31LDU	 BUFFER[703]	//(vds32_pti:340 - K30VDSR, - ) Клапан (СПУСК ИС2) открыть (обесточить)
+#define idB3AD31LDU	 275	//(vds32_pti:340 - K30VDSR, - ) Клапан (СПУСК ИС2) открыть (обесточить)
+#define B2AD32LDU	 BUFFER[705]	//(vds32_pti:310 - K29VDSR, - ) Обесточить ЭМ РБ2
+#define idB2AD32LDU	 276	//(vds32_pti:310 - K29VDSR, - ) Обесточить ЭМ РБ2
 #define fEM_R0UL01RIM	 BUFFER[707]	//(R0UL01RIM) Среднее время генерации нейтронов
 #define idfEM_R0UL01RIM	 277	//(R0UL01RIM) Среднее время генерации нейтронов
 #define fEM_R0UN02RIM	 BUFFER[712]	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
@@ -2011,282 +2011,282 @@ static char BUFFER[3287];
 #define idinternal1_m14_MyFirstEnterFlag	 1000	//(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,1	,1	, &A1IS21LDU},	//(A1IS21LDU) Приход на НУ ББ1
-	{ 2	,1	,1	, &B6IS21LDU},	//(B6IS21LDU) Приход на НУ БЗ2
-	{ 3	,1	,1	, &B6IS11LDU},	//(B6IS11LDU) Приход на ВУ БЗ2
-	{ 4	,1	,1	, &A6IS21LDU},	//(A6IS21LDU) Приход на НУ БЗ1
-	{ 5	,1	,1	, &A6IS11LDU},	//(A6IS11LDU) Приход на ВУ БЗ1
-	{ 6	,1	,1	, &A8IS12LDU},	//(A8IS12LDU) Приход на механический ВУ ДС2
-	{ 7	,1	,1	, &A8IS22LDU},	//(A8IS22LDU) Приход на механический НУ ДС2
-	{ 8	,1	,1	, &B8IS12LDU},	//(B8IS12LDU) Приход на ВУ2 АЗ2
-	{ 9	,1	,1	, &B8IS22LDU},	//(B8IS22LDU) Приход на НУ2 АЗ2
-	{ 10	,1	,1	, &R4IS12LDU},	//(R4IS12LDU) Приход на  ВУ2 тележки
-	{ 11	,1	,1	, &R4IS22LDU},	//(R4IS22LDU) Приход на НУ2 тележки
-	{ 12	,1	,1	, &R4IS21LDU},	//(R4IS21LDU) Приход на НУ1 тележки
-	{ 13	,1	,1	, &R4IS11LDU},	//(R4IS11LDU) Приход на ВУ1 тележки
-	{ 14	,1	,1	, &B4VP82LDU},	//(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме
-	{ 15	,1	,1	, &A4VP82LDU},	//(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме
-	{ 16	,1	,1	, &R2IS21LDU},	//(R2IS21LDU) Приход на НУ МДЗ2
-	{ 17	,1	,1	, &R2IS11LDU},	//(R2IS11LDU) Приход на ВУ МДЗ2
-	{ 18	,1	,1	, &R0EE03LZ1},	//(R0EE03LZ1) Питание  АКНП3  отключить
-	{ 19	,1	,1	, &R0EE02LZ1},	//(R0EE02LZ1) Питание  АКНП  отключить
-	{ 20	,1	,1	, &R0EE01LZ2},	//(R0EE01LZ2) Питание  АКНП1  отключить
-	{ 21	,1	,1	, &R0EE01LZ1},	//(R0EE01LZ1) Питание  АКНП1  отключить
-	{ 22	,1	,1	, &B4IS10LDU},	//(B4IS10LDU) Клапан (Подъём НИ2) открыт (обесточен)
-	{ 23	,1	,1	, &A4IS10LDU},	//(A4IS10LDU) Клапан (Подъём НИ1) открыт (обесточен)
-	{ 24	,1	,1	, &B1IE04LDU},	//(B1IE04LDU) Движение ББ2 назад (от БУШД)
-	{ 25	,1	,1	, &B1IE03LDU},	//(B1IE03LDU) Движение ББ2 вперед (от БУШД)
-	{ 26	,1	,1	, &A1IE04LDU},	//(A1IE04LDU) Движение ББ1 назад (от БУШД)
-	{ 27	,1	,1	, &A1IE03LDU},	//(A1IE03LDU) Движение ББ1 вперед (от БУШД)
-	{ 28	,1	,1	, &B1IS12LDU},	//(B1IS12LDU) Магнит ББ2 зацеплен
-	{ 29	,1	,1	, &B1IS11LDU},	//(B1IS11LDU) Приход на ВУ ББ2
-	{ 30	,1	,1	, &B1IS21LDU},	//(B1IS21LDU) Приход на НУ ББ2
-	{ 31	,5	,1	, &B1IC01UDU},	//(B1IC01UDU) Координата штока ББ2
-	{ 32	,5	,1	, &A1IC01UDU},	//(A1IC01UDU) Координата штока ББ1
-	{ 33	,1	,1	, &A1IS12LDU},	//(A1IS12LDU) Магнит ББ1 зацеплен
-	{ 34	,1	,1	, &A1IS11LDU},	//(A1IS11LDU) Приход на ВУ ББ1
-	{ 35	,1	,1	, &B9IS21LDU},	//(B9IS21LDU) Приход на НУ НИ ДС2
-	{ 36	,1	,1	, &B9IS11LDU},	//(B9IS11LDU) Приход на ВУ НИ ДС2
-	{ 37	,1	,1	, &A9IS21LDU},	//(A9IS21LDU) Приход на НУ НИ ДС1
-	{ 38	,1	,1	, &A9IS11LDU},	//(A9IS11LDU) Приход на ВУ НИ ДС1
-	{ 39	,1	,1	, &B5IS21LDU},	//(B5IS21LDU) Приход на НУ НЛ2
-	{ 40	,1	,1	, &B5IS11LDU},	//(B5IS11LDU) Приход на ВУ НЛ2
-	{ 41	,1	,1	, &A5IS21LDU},	//(A5IS21LDU) Приход на НУ НЛ1
-	{ 42	,1	,1	, &A5IS11LDU},	//(A5IS11LDU) Приход на ВУ НЛ1
-	{ 43	,1	,1	, &B0VP81LZZ},	//(B0VP81LZZ) Давление АЗ2 в норме
-	{ 44	,1	,1	, &A0VP81LZZ},	//(A0VP81LZZ) Давление АЗ1 в норме
-	{ 45	,5	,1	, &B8IC01UDU},	//(B8IC01UDU) Координата АЗ2
-	{ 46	,5	,1	, &A8IC01UDU},	//(A8IC01UDU) Координата ДС2
-	{ 47	,1	,1	, &R6IS68LZZ},	//(R6IS68LZZ) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 48	,1	,1	, &R6IS67LZZ},	//(R6IS67LZZ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 49	,1	,1	, &R6IS66LZZ},	//(R6IS66LZZ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 50	,1	,1	, &R6IS65LDU},	//(R6IS65LDU) Исправность ВИП ССДИ-35 2канал
-	{ 51	,1	,1	, &R6IS64LDU},	//(R6IS64LDU) Исправность ВИП ССДИ-35 1канал
-	{ 52	,1	,1	, &R1IS21LDU},	//(R1IS21LDU) Приход на НУ МДЗ1
-	{ 53	,1	,1	, &R1IS11LDU},	//(R1IS11LDU) Приход на ВУ МДЗ1
-	{ 54	,1	,1	, &B4IS21LDU},	//(B4IS21LDU) Приход на НУ НИ2
-	{ 55	,1	,1	, &B4IS11LDU},	//(B4IS11LDU) Приход на ВУ НИ2
-	{ 56	,1	,1	, &R8IS11LDU},	//(R8IS11LDU) Аварийный НИ установлен
-	{ 57	,1	,1	, &A4IS21LDU},	//(A4IS21LDU) Приход на НУ НИ1
-	{ 58	,1	,1	, &A4IS11LDU},	//(A4IS11LDU) Приход на ВУ НИ1
-	{ 59	,1	,1	, &R5IS21LDU},	//(R5IS21LDU) Приход на НУ ворот отстойной зоны
-	{ 60	,1	,1	, &R5IS11LDU},	//(R5IS11LDU) Приход на ВУ ворот отстойной зоны
-	{ 61	,1	,1	, &R3IS21LDU},	//(R3IS21LDU) Приход на НУ гомогенных дверей
-	{ 62	,1	,1	, &R3IS11LDU},	//(R3IS11LDU) Приход на ВУ гомогенных дверей
-	{ 63	,1	,1	, &B2VP82LDU},	//(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме
-	{ 64	,3	,1	, &B2IP01IZ2},	//(B2IP01IZ2) Текущее давление СБРОС РБ2
-	{ 65	,3	,1	, &B2IP01IZ1},	//(B2IP01IZ1) Текущее давление СБРОС РБ2
-	{ 66	,5	,1	, &B2IC01UDU},	//(B2IC01UDU) Координата штока РБ2
-	{ 67	,1	,1	, &B2IS12LDU},	//(B2IS12LDU) Магнит РБ2 зацеплен
-	{ 68	,1	,1	, &B2IS11LDU},	//(B2IS11LDU) Приход на ВУ РБ2
-	{ 69	,1	,1	, &B2IS21LDU},	//(B2IS21LDU) Приход на НУ РБ2
-	{ 70	,8	,1	, &R0IN03FI2},	//(R0IN03FI2) Выход КНК53М Гц от ПТИ
-	{ 71	,8	,1	, &R0IN07RIP},	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
-	{ 72	,8	,1	, &R0IN06RIP},	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
-	{ 73	,3	,1	, &TerR0IN06FRP},	//(TerR0IN06FRP) Неисправности СНМ-11 -1,2
-	{ 74	,8	,1	, &R0IN03RIP},	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
-	{ 75	,8	,1	, &R0IN02RIP},	//(R0IN02RIP) Выход КНК15- Гц от ПТИ
-	{ 76	,8	,1	, &R0IN01RIP},	//(R0IN01RIP) Выход СНМ-11 Гц от ПТИ
-	{ 77	,8	,1	, &R0IN02FI2},	//(R0IN02FI2) Выход КНК15-1 Гц от ПТИ
-	{ 78	,8	,1	, &R0IN03FI1},	//(R0IN03FI1) Выход КНК53М Гц от ПТИ
-	{ 79	,8	,1	, &R0IN02FI1},	//(R0IN02FI1) Выход КНК15-1 Гц от ПТИ
-	{ 80	,8	,1	, &R0IN03FI4},	//(R0IN03FI4) Выход КНК53М Гц от ПТИ
-	{ 81	,8	,1	, &R0IN02FI4},	//(R0IN02FI4) Выход КНК15-1 Гц от ПТИ
-	{ 82	,8	,1	, &R0IN01FI3},	//(R0IN01FI3) Выход СНМ-11 Гц от ПТИ
-	{ 83	,8	,1	, &R0IN01FI2},	//(R0IN01FI2) Выход КНК15-1 Гц от ПТИ
-	{ 84	,8	,1	, &R0IN01FI4},	//(R0IN01FI4) Выход СНМ-11 Гц от ПТИ
-	{ 85	,8	,1	, &R0IN01FI1},	//(R0IN01FI1) Выход КНК15-1 Гц от ПТИ
-	{ 86	,1	,1	, &B7AP31LDU},	//(B7AP31LDU) Клапан (Обдув АЗ2) открыть (обесточить)
-	{ 87	,8	,1	, &B0SN07RIM},	//(B0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-	{ 88	,8	,1	, &B0SN06RIM},	//(B0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-	{ 89	,8	,1	, &B0SN05RIM},	//(B0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-	{ 90	,8	,1	, &B0SN04RIM},	//(B0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-	{ 91	,8	,1	, &B0SN03RIM},	//(B0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-	{ 92	,8	,1	, &B0SN02RIM},	//(B0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-	{ 93	,8	,1	, &A0SN07RIM},	//(A0SN07RIM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-	{ 94	,8	,1	, &A0SN06RIM},	//(A0SN06RIM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-	{ 95	,8	,1	, &A0SN05RIM},	//(A0SN05RIM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-	{ 96	,8	,1	, &A0SN04RIM},	//(A0SN04RIM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-	{ 97	,8	,1	, &A0SN03RIM},	//(A0SN03RIM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-	{ 98	,8	,1	, &A0SN02RIM},	//(A0SN02RIM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-	{ 99	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
-	{ 100	,3	,1	, &A0IT03IRP},	//(A0IT03IRP) Температура АЗ1-3
-	{ 101	,3	,1	, &B0IT03IRP},	//(B0IT03IRP) Температура АЗ2-3
-	{ 102	,8	,1	, &R0IN03FI3},	//(R0IN03FI3) Выход КНК53М Гц от ПТИ
-	{ 103	,8	,1	, &R0IN02FI3},	//(R0IN02FI3) Выход КНК15-1 Гц от ПТИ
-	{ 104	,1	,1	, &B1VP81LZZ},	//(B1VP81LZZ) Давление СБРОС ББ2 в норме
-	{ 105	,1	,1	, &B2IS33LDU},	//(B2IS33LDU) Клапан (Подъём РБ2)  открыт (обесточен)
-	{ 106	,8	,1	, &A0VN01RIM},	//(A0VN01RIM) Период разгона  AЗ1
-	{ 107	,1	,1	, &B2IS32LIM},	//(B2IS32LIM) Клапан cброса РБ2 открыт(обесточен)
-	{ 108	,1	,1	, &B2IS11LIM},	//(B2IS11LIM) Магнит РБ2 обесточен
-	{ 109	,1	,1	, &A2IS32LIM},	//(A2IS32LIM) Клапан cброса РБ1 открыт(обесточен)
-	{ 110	,1	,1	, &A2IS11LIM},	//(A2IS11LIM) Магнит РБ1 обесточен
-	{ 111	,1	,1	, &B1IS32LIM},	//(B1IS32LIM) Клапан cброса ББ2 открыт(обесточен)
-	{ 112	,1	,1	, &B1IS11LIM},	//(B1IS11LIM) Магнит ББ2 обесточен
-	{ 113	,1	,1	, &A1IS32LIM},	//(A1IS32LIM) Клапан cброса ББ1 открыт(обесточен)
-	{ 114	,1	,1	, &A1IS11LIM},	//(A1IS11LIM) Магнит ББ1 обесточен
-	{ 115	,1	,1	, &A3AD34LDU},	//(A3AD34LDU) Клапан (ВПИС ИС1) открыть (обесточить)
-	{ 116	,1	,1	, &R0IS02LDU},	//(R0IS02LDU) Разрешение ввода от имитатора
-	{ 117	,1	,1	, &R0EE04LZ2},	//(R0EE04LZ2) Питание  АКНП4  отключить
-	{ 118	,1	,1	, &R0EE03LZ2},	//(R0EE03LZ2) Питание  АКНП3  отключить
-	{ 119	,1	,1	, &R0EE02LZ2},	//(R0EE02LZ2) Питание  АКНП  отключить
-	{ 120	,1	,1	, &R0EE04LZ1},	//(R0EE04LZ1) Питание  АКНП4  отключить
-	{ 121	,1	,1	, &A7AP31LDU},	//(A7AP31LDU) Клапан (Обдув АЗ1) открыть (обесточить)
-	{ 122	,1	,1	, &R4VS12LDU},	//(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»
-	{ 123	,1	,1	, &R4VS22LDU},	//(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»
-	{ 124	,1	,1	, &R1VS12LDU},	//(R1VS12LDU) Движение МДЗ1 в сторону ВУ
-	{ 125	,1	,1	, &R2VS12LDU},	//(R2VS12LDU) Движение МДЗ2 в сторону ВУ
-	{ 126	,1	,1	, &R2VS22LDU},	//(R2VS22LDU) Движение МДЗ2 в сторону НУ
-	{ 127	,1	,1	, &R1VS22LDU},	//(R1VS22LDU) Движение МДЗ1 в сторону НУ
-	{ 128	,1	,1	, &B5VS12LDU},	//(B5VS12LDU) Движение НЛ2 в сторону ВУ
-	{ 129	,1	,1	, &B5VS22LDU},	//(B5VS22LDU) Движение НЛ2 в сторону НУ
-	{ 130	,1	,1	, &A5VS12LDU},	//(A5VS12LDU) Движение НЛ1 в сторону ВУ
-	{ 131	,1	,1	, &A5VS22LDU},	//(A5VS22LDU) Движение НЛ1 в сторону НУ
-	{ 132	,1	,1	, &B6VS12LDU},	//(B6VS12LDU) Движение створок БЗ2  к ОТКРЫТА
-	{ 133	,1	,1	, &B6VS22LDU},	//(B6VS22LDU) Движение створок БЗ2  к ЗАКРЫТА
-	{ 134	,1	,1	, &A6VS12LDU},	//(A6VS12LDU) Движение створок БЗ1  к  ОТКРЫТА
-	{ 135	,1	,1	, &A6VS22LDU},	//(A6VS22LDU) Движение створок БЗ1  к ЗАКРЫТА
-	{ 136	,1	,1	, &B8IS21LDU},	//(B8IS21LDU) Приход на НУ1 АЗ2
-	{ 137	,1	,1	, &B8IS11LDU},	//(B8IS11LDU) Приход на ВУ1 АЗ2
-	{ 138	,1	,1	, &A1VP81LZZ},	//(A1VP81LZZ) Давление СБРОС ББ1 в норме
-	{ 139	,1	,1	, &B8AD20LDU},	//(B8AD20LDU) Перемещение АЗ2 назад
-	{ 140	,1	,1	, &B8AD10LDU},	//(B8AD10LDU) Перемещение АЗ2 вперед
-	{ 141	,1	,1	, &R4AD20LDU},	//(R4AD20LDU) Перемещение тележки назад
-	{ 142	,1	,1	, &R4AD10LDU},	//(R4AD10LDU) Перемещение тележки вперед
-	{ 143	,8	,1	, &B0SR01RIM},	//(B0SR01RIM) Текущая реактивность AЗ2
-	{ 144	,1	,1	, &B3AD33LDU},	//(B3AD33LDU) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
-	{ 145	,1	,1	, &B3AD05LDU},	//(B3AD05LDU) паритет команды на ИС2
-	{ 146	,1	,1	, &B3AD04LDU},	//(B3AD04LDU) 2-й бит скорости ИС2
-	{ 147	,1	,1	, &B3AD03LDU},	//(B3AD03LDU) 1-й бит скорости ИС2
-	{ 148	,1	,1	, &B3AD02LDU},	//(B3AD02LDU) 0-й бит скорости ИС2
-	{ 149	,1	,1	, &B3AD01LDU},	//(B3AD01LDU) Разрешение движения ИС2
-	{ 150	,1	,1	, &B3AD21LDU},	//(B3AD21LDU) Сигнал на перемещение ИС2 вниз
-	{ 151	,1	,1	, &B3AD11LDU},	//(B3AD11LDU) Сигнал на перемещение ИС2 вверх
-	{ 152	,1	,1	, &A3AD33LDU},	//(A3AD33LDU) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
-	{ 153	,1	,1	, &A3AD05LDU},	//(A3AD05LDU) паритет команды на ИС1
-	{ 154	,1	,1	, &A3AD04LDU},	//(A3AD04LDU) 2-й бит скорости ИС1
-	{ 155	,1	,1	, &A3AD03LDU},	//(A3AD03LDU) 1-й бит скорости ИС1
-	{ 156	,8	,1	, &R0CR01RIM},	//(R0CR01RIM) Коэффициент 12 связи АЗ1,2
-	{ 157	,8	,1	, &B0SN08RIM},	//(B0SN08RIM) Поток нейтронов AЗ2(нейтр/с)
-	{ 158	,8	,1	, &A0SN08RIM},	//(A0SN08RIM) Поток нейтронов AЗ1(нейтр/с)
-	{ 159	,1	,1	, &B5AD20LDU},	//(B5AD20LDU) Опустить НЛ2
-	{ 160	,1	,1	, &B5AD10LDU},	//(B5AD10LDU) Поднять НЛ2
-	{ 161	,1	,1	, &A5AD20LDU},	//(A5AD20LDU) Опустить НЛ1
-	{ 162	,1	,1	, &A5AD10LDU},	//(A5AD10LDU) Поднять НЛ1
-	{ 163	,1	,1	, &R2AD20LDU},	//(R2AD20LDU) Поднять МДЗ2
-	{ 164	,1	,1	, &R2AD10LDU},	//(R2AD10LDU) Опустить МДЗ2 в зону облучения
-	{ 165	,1	,1	, &R1AD20LDU},	//(R1AD20LDU) Поднять МДЗ1
-	{ 166	,1	,1	, &R1AD10LDU},	//(R1AD10LDU) Опустить МДЗ1 в зону облучения
-	{ 167	,1	,1	, &B6AD20LDU},	//(B6AD20LDU) Закрыть БЗ2
-	{ 168	,1	,1	, &B6AD10LDU},	//(B6AD10LDU) Открыть БЗ2
-	{ 169	,1	,1	, &A6AD20LDU},	//(A6AD20LDU) Закрыть БЗ1
-	{ 170	,1	,1	, &A6AD10LDU},	//(A6AD10LDU) Открыть БЗ1
-	{ 171	,1	,1	, &A8AD20LDU},	//(A8AD20LDU) Перемещение ДС2 назад
-	{ 172	,1	,1	, &A8AD10LDU},	//(A8AD10LDU) Перемещение ДС2 вперед
-	{ 173	,1	,1	, &A2AD21LDU},	//(A2AD21LDU) Сигнал на перемещение РБ1 вниз
-	{ 174	,1	,1	, &A2AD11LDU},	//(A2AD11LDU) Сигнал на перемещение РБ1 вверх
-	{ 175	,1	,1	, &B1AD05LDU},	//(B1AD05LDU) паритет команды на ББ2
-	{ 176	,1	,1	, &B1AD04LDU},	//(B1AD04LDU) 2-й бит скорости ББ2
-	{ 177	,1	,1	, &B1AD03LDU},	//(B1AD03LDU) 1-й бит скорости ББ2
-	{ 178	,1	,1	, &B1AD02LDU},	//(B1AD02LDU) 0-й бит скорости  ББ2
-	{ 179	,1	,1	, &B1AD01LDU},	//(B1AD01LDU) Разрешение движения ББ2
-	{ 180	,1	,1	, &B1AD21LDU},	//(B1AD21LDU) Сигнал на перемещение ББ2 вниз
-	{ 181	,1	,1	, &B1AD11LDU},	//(B1AD11LDU) Сигнал на перемещение ББ2 вверх
-	{ 182	,1	,1	, &A1AD05LDU},	//(A1AD05LDU) паритет команды на ББ1
-	{ 183	,1	,1	, &A1AD04LDU},	//(A1AD04LDU) 2-й бит скорости ББ1
-	{ 184	,1	,1	, &A1AD03LDU},	//(A1AD03LDU) 1-й бит скорости ББ1
-	{ 185	,1	,1	, &A1AD02LDU},	//(A1AD02LDU) 0-й бит скорости ББ1
-	{ 186	,1	,1	, &A1AD01LDU},	//(A1AD01LDU) Разрешение движения ББ1
-	{ 187	,1	,1	, &A1AD21LDU},	//(A1AD21LDU) Сигнал на перемещение ББ1 вниз
-	{ 188	,1	,1	, &A1AD11LDU},	//(A1AD11LDU) Сигнал на перемещение ББ1 вверх
-	{ 189	,8	,1	, &A0SR01RIM},	//(A0SR01RIM) Текущая реактивность AЗ1
-	{ 190	,1	,1	, &A3AD02LDU},	//(A3AD02LDU) 0-й бит скорости ИС1
-	{ 191	,1	,1	, &A3AD01LDU},	//(A3AD01LDU) Разрешение движения ИС1
-	{ 192	,1	,1	, &A3AD21LDU},	//(A3AD21LDU) Сигнал на перемещение ИС1 вниз
-	{ 193	,1	,1	, &A3AD11LDU},	//(A3AD11LDU) Сигнал на перемещение ИС1 вверх
-	{ 194	,1	,1	, &B2AD33LDU},	//(B2AD33LDU) Клапан (Подъем РБ2) закрыть (обесточить)
-	{ 195	,1	,1	, &B2AD05LDU},	//(B2AD05LDU) паритет команды на РБ2
-	{ 196	,1	,1	, &B2AD04LDU},	//(B2AD04LDU) 2-й бит скорости РБ2
-	{ 197	,1	,1	, &B2AD03LDU},	//(B2AD03LDU) 1-й бит скорости РБ2
-	{ 198	,1	,1	, &B2AD02LDU},	//(B2AD02LDU) 0-й бит скорости РБ2
-	{ 199	,1	,1	, &B2AD01LDU},	//(B2AD01LDU) Разрешение движения РБ2
-	{ 200	,1	,1	, &B2AD21LDU},	//(B2AD21LDU) Сигнал на перемещение РБ2 вниз
-	{ 201	,1	,1	, &B2AD11LDU},	//(B2AD11LDU) Сигнал на перемещение РБ2 вверх
-	{ 202	,1	,1	, &A2AD33LDU},	//(A2AD33LDU) Клапан (Подъем РБ1) закрыть (обесточить)
-	{ 203	,1	,1	, &A2AD05LDU},	//(A2AD05LDU) паритет команды на РБ1
-	{ 204	,1	,1	, &A2AD04LDU},	//(A2AD04LDU) 2-й бит скорости РБ1
-	{ 205	,1	,1	, &A2AD03LDU},	//(A2AD03LDU) 1-й бит скорости РБ1
-	{ 206	,1	,1	, &A2AD02LDU},	//(A2AD02LDU) 0-й бит скорости РБ1
-	{ 207	,1	,1	, &A2AD01LDU},	//(A2AD01LDU) Разрешение движения РБ1
-	{ 208	,3	,1	, &A2IP01IZ2},	//(A2IP01IZ2) Текущее давление СБРОС РБ1
-	{ 209	,3	,1	, &A2IP01IZ1},	//(A2IP01IZ1) Текущее давление СБРОС РБ1
-	{ 210	,1	,1	, &B3IS21LDU},	//(B3IS21LDU) Приход на НУ ИС2
-	{ 211	,1	,1	, &A3IS21LDU},	//(A3IS21LDU) Приход на НУ ИС1
-	{ 212	,1	,1	, &A2IS33LDU},	//(A2IS33LDU) Клапан (Подъём РБ1)  открыт (обесточен)
-	{ 213	,5	,1	, &A2IC01UDU},	//(A2IC01UDU) Координата штока РБ1
-	{ 214	,1	,1	, &A2IS12LDU},	//(A2IS12LDU) Магнит РБ1 зацеплен
-	{ 215	,1	,1	, &A2IS11LDU},	//(A2IS11LDU) Приход на ВУ РБ1
-	{ 216	,1	,1	, &A2IS21LDU},	//(A2IS21LDU) Приход на НУ РБ1
-	{ 217	,3	,1	, &B0IT02IZ2},	//(B0IT02IZ2) Температура АЗ2-2
-	{ 218	,3	,1	, &B0IT01IZ1},	//(B0IT01IZ1) Температура АЗ2-1
-	{ 219	,3	,1	, &A0IT02IZ2},	//(A0IT02IZ2) Температура АЗ1-2
-	{ 220	,3	,1	, &A0IT01IZ1},	//(A0IT01IZ1) Температура АЗ1-1
-	{ 221	,1	,1	, &R6IS21LDU},	//(R6IS21LDU) Кран-балка в нерабочем положении
-	{ 222	,1	,1	, &B7AS31LDU},	//(B7AS31LDU) Клапан (Обдув АЗ2) открыт (обесточен)
-	{ 223	,1	,1	, &A7AS31LDU},	//(A7AS31LDU) Клапан (Обдув АЗ1) открыт (обесточен)
-	{ 224	,1	,1	, &B3IS35LDU},	//(B3IS35LDU) Клапан «ВПИС2» открыт(обесточен)
-	{ 225	,1	,1	, &R6IS63LDU},	//(R6IS63LDU) Исправность ВИП ССДИ-39 2канал
-	{ 226	,1	,1	, &R6IS62LDU},	//(R6IS62LDU) Исправность ВИП ССДИ-39 1канал
-	{ 227	,1	,1	, &B3IS22LDU},	//(B3IS22LDU) Приход на НУП ИС2
-	{ 228	,1	,1	, &A3IS22LDU},	//(A3IS22LDU) Приход на НУП ИС1
-	{ 229	,1	,1	, &B3IS11LDU},	//(B3IS11LDU) Приход на ВУ ИС2
-	{ 230	,1	,1	, &A3IS11LDU},	//(A3IS11LDU) Приход на ВУ ИС1
-	{ 231	,3	,1	, &A3IP02IDU},	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
-	{ 232	,1	,1	, &B3VP81LDU},	//(B3VP81LDU) Давление СПУСК ИС2 в норме
-	{ 233	,1	,1	, &A3VP81LDU},	//(A3VP81LDU) Давление СПУСК ИС1 в норме
-	{ 234	,1	,1	, &B3IS33LDU},	//(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-	{ 235	,5	,1	, &B3IC01UDU},	//(B3IC01UDU) Координата штока ИС2
-	{ 236	,1	,1	, &B3IS31LDU},	//(B3IS31LDU) Клапан (СПУСК ИС2)  открыт (обесточен)
-	{ 237	,3	,1	, &B3IP02IDU},	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
-	{ 238	,1	,1	, &A3IS33LDU},	//(A3IS33LDU) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
-	{ 239	,5	,1	, &A3IC01UDU},	//(A3IC01UDU) Координата штока ИС1
-	{ 240	,1	,1	, &A3IS31LDU},	//(A3IS31LDU) Клапан (СПУСК ИС1)  открыт (обесточен)
-	{ 241	,1	,1	, &A2VP82LDU},	//(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме
-	{ 242	,1	,1	, &B2AD31LDU},	//(B2AD31LDU) Клапан (Сброс РБ2) открыть (обесточить)
-	{ 243	,1	,1	, &B1AD32LDU},	//(B1AD32LDU) Обесточить ЭМ ББ2
-	{ 244	,1	,1	, &B1AD31LDU},	//(B1AD31LDU) Клапан (Сброс ББ2) открыть (обесточить)
-	{ 245	,1	,1	, &A3AD31LDU},	//(A3AD31LDU) Клапан (СПУСК ИС1) открыть (обесточить)
-	{ 246	,1	,1	, &C1MD31LP1},	//(C1MD31LP1) Кнопка «СБРОС ББ»  на ОПУ1
-	{ 247	,1	,1	, &C1MD31LP2},	//(C1MD31LP2) Кнопка «СБРОС ББ»  на ОПУ2
-	{ 248	,1	,1	, &A1AD31LDU},	//(A1AD31LDU) Клапан (Сброс ББ1) открыть (обесточить)
-	{ 249	,1	,1	, &A1AD32LDU},	//(A1AD32LDU) Обесточить ЭМ ББ1
-	{ 250	,1	,1	, &A2AD31LDU},	//(A2AD31LDU) Клапан (Сброс РБ1) открыть (обесточить)
-	{ 251	,1	,1	, &C2MD31LP1},	//(C2MD31LP1) Кнопка «СБРОС РБ»
-	{ 252	,1	,1	, &A2AD32LDU},	//(A2AD32LDU) Обесточить ЭМ РБ1
-	{ 253	,1	,1	, &R0VZ71LZ2},	//(R0VZ71LZ2) Обобщенный сигнал по АЗ  2 канала
-	{ 254	,1	,1	, &R0VZ71LZ1},	//(R0VZ71LZ1) Обобщенный сигнал по АЗ  1 канала
-	{ 255	,1	,1	, &R8AD21LDU},	//(R8AD21LDU) Запуск системы инициирования
-	{ 256	,1	,1	, &R0AD14LDU},	//(R0AD14LDU) Имитация срабатывания верхней АС II УР
-	{ 257	,8	,1	, &R0SR02RIM},	//(R0SR02RIM) Текущая мощность РУ (ватт)
-	{ 258	,8	,1	, &R0CR02RIM},	//(R0CR02RIM) Коэффициент 11 связи АЗ1,2
-	{ 259	,1	,1	, &B3AD34LDU},	//(B3AD34LDU) Клапан (ВПИС2) открыть (обесточить)
-	{ 260	,1	,1	, &A3IS35LDU},	//(A3IS35LDU) Клапан (ВПИС1) открыт(обесточен)
-	{ 261	,1	,1	, &R7II73LZ2},	//(R7II73LZ2) Сработала АС IIУР
-	{ 262	,1	,1	, &R7II71LZ2},	//(R7II71LZ2) Сработала АС IУР (датчик 1)
-	{ 263	,1	,1	, &R7II72LZ2},	//(R7II72LZ2) Сработала АС IУР (датчик 2)
-	{ 264	,1	,1	, &R0AD16LDU},	//(R0AD16LDU) Контроль  I-II УР. РАД
-	{ 265	,1	,1	, &R7II72LZ1},	//(R7II72LZ1) Сработала АС IУР (датчик 2)
-	{ 266	,1	,1	, &R7II71LZ1},	//(R7II71LZ1) Сработала АС IУР (датчик 1)
-	{ 267	,1	,1	, &R7II73LZ1},	//(R7II73LZ1) Сработала АС IIУР
-	{ 268	,8	,1	, &R0SR01RIM},	//(R0SR01RIM) Текущая реактивность PУ
-	{ 269	,8	,1	, &R0ST01RIM},	//(R0ST01RIM) Текущий период разгона РУ
-	{ 270	,1	,1	, &A4AD10LDU},	//(A4AD10LDU) Открыть клапан (Подъем НИ1)
-	{ 271	,1	,1	, &B4AD10LDU},	//(B4AD10LDU) Открыть клапан (Подъем НИ2)
-	{ 272	,1	,1	, &A9AD10LDU},	//(A9AD10LDU) Открыть клапан (Подъем НИ ДС1)
-	{ 273	,1	,1	, &B9AD10LDU},	//(B9AD10LDU) Открыть клапан (Подъем НИ ДС2)
-	{ 274	,1	,1	, &R0MW13LP2},	//(R0MW13LP2) Переключатель «СЕТЬ»
-	{ 275	,1	,1	, &B3AD31LDU},	//(B3AD31LDU) Клапан (СПУСК ИС2) открыть (обесточить)
-	{ 276	,1	,1	, &B2AD32LDU},	//(B2AD32LDU) Обесточить ЭМ РБ2
+	{ 1	,1	,1	, &A1IS21LDU},	//(do32_pti:140 - K02DO, - ) Приход на НУ ББ1
+	{ 2	,1	,1	, &B6IS21LDU},	//(do32_pti:140 - K31DO, - ) Приход на НУ БЗ2
+	{ 3	,1	,1	, &B6IS11LDU},	//(do32_pti:140 - K30DO, - ) Приход на ВУ БЗ2
+	{ 4	,1	,1	, &A6IS21LDU},	//(do32_pti:140 - K27DO, - ) Приход на НУ БЗ1
+	{ 5	,1	,1	, &A6IS11LDU},	//(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1
+	{ 6	,1	,1	, &A8IS12LDU},	//(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2
+	{ 7	,1	,1	, &A8IS22LDU},	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
+	{ 8	,1	,1	, &B8IS12LDU},	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
+	{ 9	,1	,1	, &B8IS22LDU},	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
+	{ 10	,1	,1	, &R4IS12LDU},	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
+	{ 11	,1	,1	, &R4IS22LDU},	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
+	{ 12	,1	,1	, &R4IS21LDU},	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
+	{ 13	,1	,1	, &R4IS11LDU},	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
+	{ 14	,1	,1	, &B4VP82LDU},	//( - , SCM) Давление ПОДЪЁМ НИ2 в норме
+	{ 15	,1	,1	, &A4VP82LDU},	//( - , SCM) Давление ПОДЪЁМ НИ1 в норме
+	{ 16	,1	,1	, &R2IS21LDU},	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
+	{ 17	,1	,1	, &R2IS11LDU},	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
+	{ 18	,1	,1	, &R0EE03LZ1},	//( - , SBz1) Питание  АКНП3  отключить
+	{ 19	,1	,1	, &R0EE02LZ1},	//( - , SBz1) Питание  АКНП  отключить
+	{ 20	,1	,1	, &R0EE01LZ2},	//( - , SBz2) Питание  АКНП1  отключить
+	{ 21	,1	,1	, &R0EE01LZ1},	//( - , SBz1) Питание  АКНП1  отключить
+	{ 22	,1	,1	, &B4IS10LDU},	//( - , - ) Клапан (Подъём НИ2) открыт (обесточен)
+	{ 23	,1	,1	, &A4IS10LDU},	//( - , - ) Клапан (Подъём НИ1) открыт (обесточен)
+	{ 24	,1	,1	, &B1IE04LDU},	//( - , SCM) Движение ББ2 назад (от БУШД)
+	{ 25	,1	,1	, &B1IE03LDU},	//( - , SCM) Движение ББ2 вперед (от БУШД)
+	{ 26	,1	,1	, &A1IE04LDU},	//( - , SCM) Движение ББ1 назад (от БУШД)
+	{ 27	,1	,1	, &A1IE03LDU},	//( - , SCM) Движение ББ1 вперед (от БУШД)
+	{ 28	,1	,1	, &B1IS12LDU},	//(do32_pti:130 - K07DO, - ) Магнит ББ2 зацеплен
+	{ 29	,1	,1	, &B1IS11LDU},	//(do32_pti:130 - K08DO, - ) Приход на ВУ ББ2
+	{ 30	,1	,1	, &B1IS21LDU},	//(do32_pti:130 - K09DO, - ) Приход на НУ ББ2
+	{ 31	,5	,1	, &B1IC01UDU},	//( - , SDu) Координата штока ББ2
+	{ 32	,5	,1	, &A1IC01UDU},	//( - , SDu) Координата штока ББ1
+	{ 33	,1	,1	, &A1IS12LDU},	//(do32_pti:130 - K32DO, - ) Магнит ББ1 зацеплен
+	{ 34	,1	,1	, &A1IS11LDU},	//(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1
+	{ 35	,1	,1	, &B9IS21LDU},	//(do32_pti:130 - K21DO, - ) Приход на НУ НИ ДС2
+	{ 36	,1	,1	, &B9IS11LDU},	//(do32_pti:130 - K20DO, - ) Приход на ВУ НИ ДС2
+	{ 37	,1	,1	, &A9IS21LDU},	//(do32_pti:130 - K19DO, - ) Приход на НУ НИ ДС1
+	{ 38	,1	,1	, &A9IS11LDU},	//(do32_pti:130 - K18DO, - ) Приход на ВУ НИ ДС1
+	{ 39	,1	,1	, &B5IS21LDU},	//(do32_pti:150 - K01DO, - ) Приход на НУ НЛ2
+	{ 40	,1	,1	, &B5IS11LDU},	//(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2
+	{ 41	,1	,1	, &A5IS21LDU},	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
+	{ 42	,1	,1	, &A5IS11LDU},	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
+	{ 43	,1	,1	, &B0VP81LZZ},	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
+	{ 44	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
+	{ 45	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
+	{ 46	,5	,1	, &A8IC01UDU},	//( - , SDu) Координата ДС2
+	{ 47	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 48	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 49	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 50	,1	,1	, &R6IS65LDU},	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
+	{ 51	,1	,1	, &R6IS64LDU},	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
+	{ 52	,1	,1	, &R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
+	{ 53	,1	,1	, &R1IS11LDU},	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+	{ 54	,1	,1	, &B4IS21LDU},	//(do32_pti:140 - K08DO, SCM) Приход на НУ НИ2
+	{ 55	,1	,1	, &B4IS11LDU},	//(do32_pti:140 - K07DO, - ) Приход на ВУ НИ2
+	{ 56	,1	,1	, &R8IS11LDU},	//(do32_pti:130 - K14DO, - ) Аварийный НИ установлен
+	{ 57	,1	,1	, &A4IS21LDU},	//(do32_pti:130 - K17DO, - ) Приход на НУ НИ1
+	{ 58	,1	,1	, &A4IS11LDU},	//(do32_pti:130 - K16DO, - ) Приход на ВУ НИ1
+	{ 59	,1	,1	, &R5IS21LDU},	//(do32_pti:150 - K11DO, - ) Приход на НУ ворот отстойной зоны
+	{ 60	,1	,1	, &R5IS11LDU},	//(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны
+	{ 61	,1	,1	, &R3IS21LDU},	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
+	{ 62	,1	,1	, &R3IS11LDU},	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
+	{ 63	,1	,1	, &B2VP82LDU},	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
+	{ 64	,3	,1	, &B2IP01IZ2},	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
+	{ 65	,3	,1	, &B2IP01IZ1},	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
+	{ 66	,5	,1	, &B2IC01UDU},	//( - , SDu) Координата штока РБ2
+	{ 67	,1	,1	, &B2IS12LDU},	//(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен
+	{ 68	,1	,1	, &B2IS11LDU},	//(do32_pti:130 - K11DO, - ) Приход на ВУ РБ2
+	{ 69	,1	,1	, &B2IS21LDU},	//(do32_pti:130 - K12DO, - ) Приход на НУ РБ2
+	{ 70	,8	,1	, &R0IN03FI2},	//( - , SA2) Выход КНК53М Гц от ПТИ
+	{ 71	,8	,1	, &R0IN07RIP},	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
+	{ 72	,8	,1	, &R0IN06RIP},	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
+	{ 73	,3	,1	, &TerR0IN06FRP},	//( - , - ) Неисправности СНМ-11 -1,2
+	{ 74	,8	,1	, &R0IN03RIP},	//( - , SRP) Выход КНК53М Гц от ПТИ
+	{ 75	,8	,1	, &R0IN02RIP},	//( - , SRP) Выход КНК15- Гц от ПТИ
+	{ 76	,8	,1	, &R0IN01RIP},	//( - , SRP) Выход СНМ-11 Гц от ПТИ
+	{ 77	,8	,1	, &R0IN02FI2},	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+	{ 78	,8	,1	, &R0IN03FI1},	//( - , SA1) Выход КНК53М Гц от ПТИ
+	{ 79	,8	,1	, &R0IN02FI1},	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+	{ 80	,8	,1	, &R0IN03FI4},	//( - , SA4) Выход КНК53М Гц от ПТИ
+	{ 81	,8	,1	, &R0IN02FI4},	//( - , SA4) Выход КНК15-1 Гц от ПТИ
+	{ 82	,8	,1	, &R0IN01FI3},	//( - , SA3) Выход СНМ-11 Гц от ПТИ
+	{ 83	,8	,1	, &R0IN01FI2},	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+	{ 84	,8	,1	, &R0IN01FI4},	//( - , SA4) Выход СНМ-11 Гц от ПТИ
+	{ 85	,8	,1	, &R0IN01FI1},	//( - , SA1) Выход КНК15-1 Гц от ПТИ
+	{ 86	,1	,1	, &B7AP31LDU},	//(vds32_pti:340 - K31VDSR, - ) Клапан (Обдув АЗ2) открыть (обесточить)
+	{ 87	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+	{ 88	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+	{ 89	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+	{ 90	,8	,1	, &B0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+	{ 91	,8	,1	, &B0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+	{ 92	,8	,1	, &B0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+	{ 93	,8	,1	, &A0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+	{ 94	,8	,1	, &A0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+	{ 95	,8	,1	, &A0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+	{ 96	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+	{ 97	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+	{ 98	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+	{ 99	,3	,1	, &R0IS01FI0},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
+	{ 100	,3	,1	, &A0IT03IRP},	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
+	{ 101	,3	,1	, &B0IT03IRP},	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+	{ 102	,8	,1	, &R0IN03FI3},	//( - , SA3) Выход КНК53М Гц от ПТИ
+	{ 103	,8	,1	, &R0IN02FI3},	//( - , SA3) Выход КНК15-1 Гц от ПТИ
+	{ 104	,1	,1	, &B1VP81LZZ},	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
+	{ 105	,1	,1	, &B2IS33LDU},	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
+	{ 106	,8	,1	, &A0VN01RIM},	//( - , SCM) Период разгона  AЗ1
+	{ 107	,1	,1	, &B2IS32LIM},	//( - , SCM) Клапан cброса РБ2 открыт(обесточен)
+	{ 108	,1	,1	, &B2IS11LIM},	//( - , SCM) Магнит РБ2 обесточен
+	{ 109	,1	,1	, &A2IS32LIM},	//( - , SCM) Клапан cброса РБ1 открыт(обесточен)
+	{ 110	,1	,1	, &A2IS11LIM},	//( - , SCM) Магнит РБ1 обесточен
+	{ 111	,1	,1	, &B1IS32LIM},	//( - , SCM) Клапан cброса ББ2 открыт(обесточен)
+	{ 112	,1	,1	, &B1IS11LIM},	//( - , SCM) Магнит ББ2 обесточен
+	{ 113	,1	,1	, &A1IS32LIM},	//( - , SCM) Клапан cброса ББ1 открыт(обесточен)
+	{ 114	,1	,1	, &A1IS11LIM},	//( - , SCM) Магнит ББ1 обесточен
+	{ 115	,1	,1	, &A3AD34LDU},	//(vds32_pti:340 - K12VDSR, - ) Клапан (ВПИС ИС1) открыть (обесточить)
+	{ 116	,1	,1	, &R0IS02LDU},	//(do32_pti:140 - K17DO, - ) Разрешение ввода от имитатора
+	{ 117	,1	,1	, &R0EE04LZ2},	//( - , SBz2) Питание  АКНП4  отключить
+	{ 118	,1	,1	, &R0EE03LZ2},	//( - , SBz2) Питание  АКНП3  отключить
+	{ 119	,1	,1	, &R0EE02LZ2},	//( - , SBz2) Питание  АКНП  отключить
+	{ 120	,1	,1	, &R0EE04LZ1},	//( - , SBz1) Питание  АКНП4  отключить
+	{ 121	,1	,1	, &A7AP31LDU},	//(vds32_pti:340 - K17VDSR, - ) Клапан (Обдув АЗ1) открыть (обесточить)
+	{ 122	,1	,1	, &R4VS12LDU},	//( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»
+	{ 123	,1	,1	, &R4VS22LDU},	//( - , SCM) Движение реактора к «У ЗАЩИТЫ»
+	{ 124	,1	,1	, &R1VS12LDU},	//( - , SCM) Движение МДЗ1 в сторону ВУ
+	{ 125	,1	,1	, &R2VS12LDU},	//( - , SCM) Движение МДЗ2 в сторону ВУ
+	{ 126	,1	,1	, &R2VS22LDU},	//( - , SCM) Движение МДЗ2 в сторону НУ
+	{ 127	,1	,1	, &R1VS22LDU},	//( - , SCM) Движение МДЗ1 в сторону НУ
+	{ 128	,1	,1	, &B5VS12LDU},	//( - , SCM) Движение НЛ2 в сторону ВУ
+	{ 129	,1	,1	, &B5VS22LDU},	//( - , SCM) Движение НЛ2 в сторону НУ
+	{ 130	,1	,1	, &A5VS12LDU},	//( - , SCM) Движение НЛ1 в сторону ВУ
+	{ 131	,1	,1	, &A5VS22LDU},	//( - , SCM) Движение НЛ1 в сторону НУ
+	{ 132	,1	,1	, &B6VS12LDU},	//( - , SCM) Движение створок БЗ2  к ОТКРЫТА
+	{ 133	,1	,1	, &B6VS22LDU},	//( - , SCM) Движение створок БЗ2  к ЗАКРЫТА
+	{ 134	,1	,1	, &A6VS12LDU},	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
+	{ 135	,1	,1	, &A6VS22LDU},	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
+	{ 136	,1	,1	, &B8IS21LDU},	//( - , SCM) Приход на НУ1 АЗ2
+	{ 137	,1	,1	, &B8IS11LDU},	//( - , SCM) Приход на ВУ1 АЗ2
+	{ 138	,1	,1	, &A1VP81LZZ},	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
+	{ 139	,1	,1	, &B8AD20LDU},	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
+	{ 140	,1	,1	, &B8AD10LDU},	//(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед
+	{ 141	,1	,1	, &R4AD20LDU},	//(vds32_pti:360 - K07VDSR, - ) Перемещение тележки назад
+	{ 142	,1	,1	, &R4AD10LDU},	//(vds32_pti:360 - K06VDSR, - ) Перемещение тележки вперед
+	{ 143	,8	,1	, &B0SR01RIM},	//( - , SCM) Текущая реактивность AЗ2
+	{ 144	,1	,1	, &B3AD33LDU},	//(vds32_pti:340 - K27VDSR, - ) Клапан ВЫСТРЕЛ ИС2 открыть (обесточить)
+	{ 145	,1	,1	, &B3AD05LDU},	//(vds32_pti:360 - K23VDSR, - ) паритет команды на ИС2
+	{ 146	,1	,1	, &B3AD04LDU},	//(vds32_pti:360 - K22VDSR, - ) 2-й бит скорости ИС2
+	{ 147	,1	,1	, &B3AD03LDU},	//(vds32_pti:360 - K21VDSR, - ) 1-й бит скорости ИС2
+	{ 148	,1	,1	, &B3AD02LDU},	//(vds32_pti:360 - K20VDSR, - ) 0-й бит скорости ИС2
+	{ 149	,1	,1	, &B3AD01LDU},	//(vds32_pti:360 - K19VDSR, - ) Разрешение движения ИС2
+	{ 150	,1	,1	, &B3AD21LDU},	//(vds32_pti:360 - K18VDSR, - ) Сигнал на перемещение ИС2 вниз
+	{ 151	,1	,1	, &B3AD11LDU},	//(vds32_pti:360 - K17VDSR, - ) Сигнал на перемещение ИС2 вверх
+	{ 152	,1	,1	, &A3AD33LDU},	//(vds32_pti:340 - K13VDSR, - ) Клапан ВЫСТРЕЛ  ИС1 открыть (обесточить)
+	{ 153	,1	,1	, &A3AD05LDU},	//(vds32_pti:360 - K16VDSR, - ) паритет команды на ИС1
+	{ 154	,1	,1	, &A3AD04LDU},	//(vds32_pti:360 - K15VDSR, - ) 2-й бит скорости ИС1
+	{ 155	,1	,1	, &A3AD03LDU},	//(vds32_pti:360 - K14VDSR, - ) 1-й бит скорости ИС1
+	{ 156	,8	,1	, &R0CR01RIM},	//( - , SCM) Коэффициент 12 связи АЗ1,2
+	{ 157	,8	,1	, &B0SN08RIM},	//( - , SCM) Поток нейтронов AЗ2(нейтр/с)
+	{ 158	,8	,1	, &A0SN08RIM},	//( - , SCM) Поток нейтронов AЗ1(нейтр/с)
+	{ 159	,1	,1	, &B5AD20LDU},	//(vds32_pti:340 - K25VDSR, - ) Опустить НЛ2
+	{ 160	,1	,1	, &B5AD10LDU},	//(vds32_pti:340 - K24VDSR, - ) Поднять НЛ2
+	{ 161	,1	,1	, &A5AD20LDU},	//(vds32_pti:340 - K23VDSR, - ) Опустить НЛ1
+	{ 162	,1	,1	, &A5AD10LDU},	//(vds32_pti:340 - K22VDSR, - ) Поднять НЛ1
+	{ 163	,1	,1	, &R2AD20LDU},	//(vds32_pti:340 - K21VDSR, - ) Поднять МДЗ2
+	{ 164	,1	,1	, &R2AD10LDU},	//(vds32_pti:340 - K20VDSR, - ) Опустить МДЗ2 в зону облучения
+	{ 165	,1	,1	, &R1AD20LDU},	//(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+	{ 166	,1	,1	, &R1AD10LDU},	//(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+	{ 167	,1	,1	, &B6AD20LDU},	//(vds32_pti:360 - K05VDSR, - ) Закрыть БЗ2
+	{ 168	,1	,1	, &B6AD10LDU},	//(vds32_pti:360 - K04VDSR, - ) Открыть БЗ2
+	{ 169	,1	,1	, &A6AD20LDU},	//(vds32_pti:360 - K03VDSR, - ) Закрыть БЗ1
+	{ 170	,1	,1	, &A6AD10LDU},	//(vds32_pti:360 - K02VDSR, - ) Открыть БЗ1
+	{ 171	,1	,1	, &A8AD20LDU},	//(vds32_pti:360 - K01VDSR, - ) Перемещение ДС2 назад
+	{ 172	,1	,1	, &A8AD10LDU},	//(vds32_pti:340 - K32VDSR, - ) Перемещение ДС2 вперед
+	{ 173	,1	,1	, &A2AD21LDU},	//(vds32_pti:310 - K10VDSR, - ) Сигнал на перемещение РБ1 вниз
+	{ 174	,1	,1	, &A2AD11LDU},	//(vds32_pti:310 - K09VDSR, - ) Сигнал на перемещение РБ1 вверх
+	{ 175	,1	,1	, &B1AD05LDU},	//(vds32_pti:310 - K08VDSR, - ) паритет команды на ББ2
+	{ 176	,1	,1	, &B1AD04LDU},	//(vds32_pti:310 - K07VDSR, - ) 2-й бит скорости ББ2
+	{ 177	,1	,1	, &B1AD03LDU},	//(vds32_pti:310 - K06VDSR, - ) 1-й бит скорости ББ2
+	{ 178	,1	,1	, &B1AD02LDU},	//(vds32_pti:310 - K05VDSR, - ) 0-й бит скорости  ББ2
+	{ 179	,1	,1	, &B1AD01LDU},	//(vds32_pti:310 - K04VDSR, - ) Разрешение движения ББ2
+	{ 180	,1	,1	, &B1AD21LDU},	//(vds32_pti:310 - K03VDSR, - ) Сигнал на перемещение ББ2 вниз
+	{ 181	,1	,1	, &B1AD11LDU},	//(vds32_pti:310 - K02VDSR, - ) Сигнал на перемещение ББ2 вверх
+	{ 182	,1	,1	, &A1AD05LDU},	//(vds32_pti:310 - K01VDSR, - ) паритет команды на ББ1
+	{ 183	,1	,1	, &A1AD04LDU},	//(vds32_pti:360 - K31VDSR, - ) 2-й бит скорости ББ1
+	{ 184	,1	,1	, &A1AD03LDU},	//(vds32_pti:360 - K30VDSR, - ) 1-й бит скорости ББ1
+	{ 185	,1	,1	, &A1AD02LDU},	//(vds32_pti:360 - K29VDSR, - ) 0-й бит скорости ББ1
+	{ 186	,1	,1	, &A1AD01LDU},	//(vds32_pti:360 - K28VDSR, - ) Разрешение движения ББ1
+	{ 187	,1	,1	, &A1AD21LDU},	//(vds32_pti:360 - K27VDSR, - ) Сигнал на перемещение ББ1 вниз
+	{ 188	,1	,1	, &A1AD11LDU},	//(vds32_pti:360 - K26VDSR, - ) Сигнал на перемещение ББ1 вверх
+	{ 189	,8	,1	, &A0SR01RIM},	//( - , SCM) Текущая реактивность AЗ1
+	{ 190	,1	,1	, &A3AD02LDU},	//(vds32_pti:360 - K13VDSR, - ) 0-й бит скорости ИС1
+	{ 191	,1	,1	, &A3AD01LDU},	//(vds32_pti:360 - K12VDSR, - ) Разрешение движения ИС1
+	{ 192	,1	,1	, &A3AD21LDU},	//(vds32_pti:360 - K11VDSR, - ) Сигнал на перемещение ИС1 вниз
+	{ 193	,1	,1	, &A3AD11LDU},	//(vds32_pti:360 - K10VDSR, - ) Сигнал на перемещение ИС1 вверх
+	{ 194	,1	,1	, &B2AD33LDU},	//(vds32_pti:340 - K28VDSR, - ) Клапан (Подъем РБ2) закрыть (обесточить)
+	{ 195	,1	,1	, &B2AD05LDU},	//(vds32_pti:310 - K22VDSR, - ) паритет команды на РБ2
+	{ 196	,1	,1	, &B2AD04LDU},	//(vds32_pti:310 - K21VDSR, - ) 2-й бит скорости РБ2
+	{ 197	,1	,1	, &B2AD03LDU},	//(vds32_pti:310 - K20VDSR, - ) 1-й бит скорости РБ2
+	{ 198	,1	,1	, &B2AD02LDU},	//(vds32_pti:310 - K19VDSR, - ) 0-й бит скорости РБ2
+	{ 199	,1	,1	, &B2AD01LDU},	//(vds32_pti:310 - K18VDSR, - ) Разрешение движения РБ2
+	{ 200	,1	,1	, &B2AD21LDU},	//(vds32_pti:310 - K17VDSR, - ) Сигнал на перемещение РБ2 вниз
+	{ 201	,1	,1	, &B2AD11LDU},	//(vds32_pti:310 - K16VDSR, - ) Сигнал на перемещение РБ2 вверх
+	{ 202	,1	,1	, &A2AD33LDU},	//(vds32_pti:340 - K14VDSR, - ) Клапан (Подъем РБ1) закрыть (обесточить)
+	{ 203	,1	,1	, &A2AD05LDU},	//(vds32_pti:310 - K15VDSR, - ) паритет команды на РБ1
+	{ 204	,1	,1	, &A2AD04LDU},	//(vds32_pti:310 - K14VDSR, - ) 2-й бит скорости РБ1
+	{ 205	,1	,1	, &A2AD03LDU},	//(vds32_pti:310 - K13VDSR, - ) 1-й бит скорости РБ1
+	{ 206	,1	,1	, &A2AD02LDU},	//(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1
+	{ 207	,1	,1	, &A2AD01LDU},	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
+	{ 208	,3	,1	, &A2IP01IZ2},	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
+	{ 209	,3	,1	, &A2IP01IZ1},	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
+	{ 210	,1	,1	, &B3IS21LDU},	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
+	{ 211	,1	,1	, &A3IS21LDU},	//(do32_pti:140 - K06DO, - ) Приход на НУ ИС1
+	{ 212	,1	,1	, &A2IS33LDU},	//( - , - ) Клапан (Подъём РБ1)  открыт (обесточен)
+	{ 213	,5	,1	, &A2IC01UDU},	//( - , SDu) Координата штока РБ1
+	{ 214	,1	,1	, &A2IS12LDU},	//(do32_pti:140 - K03DO, - ) Магнит РБ1 зацеплен
+	{ 215	,1	,1	, &A2IS11LDU},	//(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1
+	{ 216	,1	,1	, &A2IS21LDU},	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
+	{ 217	,3	,1	, &B0IT02IZ2},	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
+	{ 218	,3	,1	, &B0IT01IZ1},	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
+	{ 219	,3	,1	, &A0IT02IZ2},	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
+	{ 220	,3	,1	, &A0IT01IZ1},	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
+	{ 221	,1	,1	, &R6IS21LDU},	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
+	{ 222	,1	,1	, &B7AS31LDU},	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
+	{ 223	,1	,1	, &A7AS31LDU},	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
+	{ 224	,1	,1	, &B3IS35LDU},	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
+	{ 225	,1	,1	, &R6IS63LDU},	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
+	{ 226	,1	,1	, &R6IS62LDU},	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
+	{ 227	,1	,1	, &B3IS22LDU},	//(do32_pti:100 - K12DO, - ) Приход на НУП ИС2
+	{ 228	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
+	{ 229	,1	,1	, &B3IS11LDU},	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
+	{ 230	,1	,1	, &A3IS11LDU},	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
+	{ 231	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
+	{ 232	,1	,1	, &B3VP81LDU},	//( - , SCM) Давление СПУСК ИС2 в норме
+	{ 233	,1	,1	, &A3VP81LDU},	//( - , SCM) Давление СПУСК ИС1 в норме
+	{ 234	,1	,1	, &B3IS33LDU},	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+	{ 235	,5	,1	, &B3IC01UDU},	//( - , SDu) Координата штока ИС2
+	{ 236	,1	,1	, &B3IS31LDU},	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
+	{ 237	,3	,1	, &B3IP02IDU},	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
+	{ 238	,1	,1	, &A3IS33LDU},	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
+	{ 239	,5	,1	, &A3IC01UDU},	//( - , SDu) Координата штока ИС1
+	{ 240	,1	,1	, &A3IS31LDU},	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
+	{ 241	,1	,1	, &A2VP82LDU},	//( - , SCM) Давление ПОДЪЁМ РБ1 в норме
+	{ 242	,1	,1	, &B2AD31LDU},	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
+	{ 243	,1	,1	, &B1AD32LDU},	//(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2
+	{ 244	,1	,1	, &B1AD31LDU},	//(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)
+	{ 245	,1	,1	, &A3AD31LDU},	//(vds32_pti:340 - K16VDSR, - ) Клапан (СПУСК ИС1) открыть (обесточить)
+	{ 246	,1	,1	, &C1MD31LP1},	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ1
+	{ 247	,1	,1	, &C1MD31LP2},	//( - , SCM) Кнопка «СБРОС ББ»  на ОПУ2
+	{ 248	,1	,1	, &A1AD31LDU},	//(vds32_pti:310 - K24VDSR, - ) Клапан (Сброс ББ1) открыть (обесточить)
+	{ 249	,1	,1	, &A1AD32LDU},	//(vds32_pti:310 - K23VDSR, - ) Обесточить ЭМ ББ1
+	{ 250	,1	,1	, &A2AD31LDU},	//(vds32_pti:310 - K26VDSR, - ) Клапан (Сброс РБ1) открыть (обесточить)
+	{ 251	,1	,1	, &C2MD31LP1},	//( - , SCM) Кнопка «СБРОС РБ»
+	{ 252	,1	,1	, &A2AD32LDU},	//(vds32_pti:310 - K25VDSR, - ) Обесточить ЭМ РБ1
+	{ 253	,1	,1	, &R0VZ71LZ2},	//( - , SCM) Обобщенный сигнал по АЗ  2 канала
+	{ 254	,1	,1	, &R0VZ71LZ1},	//( - , SCM) Обобщенный сигнал по АЗ  1 канала
+	{ 255	,1	,1	, &R8AD21LDU},	//(vds32_pti:310 - K31VDSR, - ) Запуск системы инициирования
+	{ 256	,1	,1	, &R0AD14LDU},	//( - , SCM) Имитация срабатывания верхней АС II УР
+	{ 257	,8	,1	, &R0SR02RIM},	//( - , SCM) Текущая мощность РУ (ватт)
+	{ 258	,8	,1	, &R0CR02RIM},	//( - , SCM) Коэффициент 11 связи АЗ1,2
+	{ 259	,1	,1	, &B3AD34LDU},	//(vds32_pti:340 - K26VDSR, - ) Клапан (ВПИС2) открыть (обесточить)
+	{ 260	,1	,1	, &A3IS35LDU},	//( - , - ) Клапан (ВПИС1) открыт(обесточен)
+	{ 261	,1	,1	, &R7II73LZ2},	//(do32_pti:110 - K26DO, - ) Сработала АС IIУР
+	{ 262	,1	,1	, &R7II71LZ2},	//(do32_pti:110 - K24DO, - ) Сработала АС IУР (датчик 1)
+	{ 263	,1	,1	, &R7II72LZ2},	//(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)
+	{ 264	,1	,1	, &R0AD16LDU},	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
+	{ 265	,1	,1	, &R7II72LZ1},	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
+	{ 266	,1	,1	, &R7II71LZ1},	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
+	{ 267	,1	,1	, &R7II73LZ1},	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
+	{ 268	,8	,1	, &R0SR01RIM},	//( - , SCM) Текущая реактивность PУ
+	{ 269	,8	,1	, &R0ST01RIM},	//( - , SCM) Текущий период разгона РУ
+	{ 270	,1	,1	, &A4AD10LDU},	//(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)
+	{ 271	,1	,1	, &B4AD10LDU},	//(vds32_pti:340 - K29VDSR, - ) Открыть клапан (Подъем НИ2)
+	{ 272	,1	,1	, &A9AD10LDU},	//(vds32_pti:360 - K24VDSR, - ) Открыть клапан (Подъем НИ ДС1)
+	{ 273	,1	,1	, &B9AD10LDU},	//(vds32_pti:360 - K25VDSR, - ) Открыть клапан (Подъем НИ ДС2)
+	{ 274	,1	,1	, &R0MW13LP2},	//( - , SCM) Переключатель «СЕТЬ»
+	{ 275	,1	,1	, &B3AD31LDU},	//(vds32_pti:340 - K30VDSR, - ) Клапан (СПУСК ИС2) открыть (обесточить)
+	{ 276	,1	,1	, &B2AD32LDU},	//(vds32_pti:310 - K29VDSR, - ) Обесточить ЭМ РБ2
 	{ 277	,8	,1	, &fEM_R0UL01RIM},	//(R0UL01RIM) Среднее время генерации нейтронов
 	{ 278	,8	,1	, &fEM_R0UN02RIM},	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
 	{ 279	,8	,1	, &fEM_A1UR01RIM},	//(A1UR01RIM) Коэффициент-1 функции реактивности вносимой ББ (долл)
@@ -5524,418 +5524,418 @@ _S_azbars  S_azbars_14_1 = {&var323,&var308,&var293,&var279,&fEM_R0UR30RIM,&A7AP
 
 void Scheme()
 {
-if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  noto(&S_noto_86_1);
-  noto(&S_noto_256_1);
-  noto(&S_noto_603_1);
-  noto(&S_noto_604_1);
-  ovb1(&S_ovb1_30_1);
-  ovb1(&S_ovb1_197_1);
-  noto(&S_noto_515_1);
-  bol(&S_bol_943_1);
-  bol(&S_bol_953_1);
-  bol(&S_bol_931_1);
-  bol(&S_bol_952_1);
-  bol(&S_bol_955_1);
-  zpfs(&S_zpfs_632_1);
-  zpfs(&S_zpfs_644_1);
-  noto(&S_noto_481_1);
-  noto(&S_noto_479_1);
-  noto(&S_noto_491_1);
-  noto(&S_noto_490_1);
-  to3val(&S_to3val_969_1);
-  asmot(&S_asmot_906_1);
-  asmot(&S_asmot_366_1);
-  asmot(&S_asmot_383_1);
-  asmot(&S_asmot_399_1);
-  asmot(&S_asmot_504_1);
-  asmot(&S_asmot_448_1);
-  asmot(&S_asmot_463_1);
-  asmot(&S_asmot_577_1);
-  asmot(&S_asmot_592_1);
-  fsumo(&S_fsumo_911_1);
-  inf(&S_inf_9_1);
-  inf(&S_inf_7_1);
-  fsubo(&S_fsubo_8_1);
-  fsubo(&S_fsubo_373_1);
-  noto(&S_noto_45_1);
-  noto(&S_noto_46_1);
-  noto(&S_noto_215_1);
-  noto(&S_noto_216_1);
-  orn(&S_orn_640_1);
-  asmot(&S_asmot_605_1);
-  asmot(&S_asmot_606_1);
-  noto(&S_noto_615_1);
-  noto(&S_noto_617_1);
-  noto(&S_noto_476_1);
-  noto(&S_noto_513_1);
-  lk(&S_lk_519_1);
-  orn(&S_orn_920_1);
-  to3val(&S_to3val_542_1);
-  toao(&S_toao_549_1);
-  toao(&S_toao_550_1);
-  to3val(&S_to3val_520_1);
-  toao(&S_toao_527_1);
-  twobool(&S_twobool_564_1);
-  twobool(&S_twobool_666_1);
-  twobool(&S_twobool_686_1);
-  twobool(&S_twobool_667_1);
-  twobool(&S_twobool_687_1);
-  twobool(&S_twobool_703_1);
-  to3val(&S_to3val_842_1);
-  ktoenc(&S_ktoenc_850_1);
-  to3val(&S_to3val_840_1);
-  ktoenc(&S_ktoenc_848_1);
-  twobool(&S_twobool_562_1);
-  twobool(&S_twobool_563_1);
-  twobool(&S_twobool_705_1);
-  twobool(&S_twobool_704_1);
-  twobool(&S_twobool_707_1);
-  twobool(&S_twobool_706_1);
-  twobool(&S_twobool_1051_1);
-  twobool(&S_twobool_866_1);
-  twobool(&S_twobool_868_1);
-  twobool(&S_twobool_867_1);
-  to3val(&S_to3val_543_1);
-  toao(&S_toao_551_1);
-  toao(&S_toao_552_1);
-  twobool(&S_twobool_545_1);
-  twobool(&S_twobool_995_1);
-  twobool(&S_twobool_1010_1);
-  twobool(&S_twobool_1027_1);
-  twobool(&S_twobool_1049_1);
-  twobool(&S_twobool_829_1);
-  twobool(&S_twobool_996_1);
-  twobool(&S_twobool_997_1);
-  twobool(&S_twobool_998_1);
-  twobool(&S_twobool_999_1);
-  twobool(&S_twobool_1047_1);
-  twobool(&S_twobool_825_1);
-  twobool(&S_twobool_826_1);
-  twobool(&S_twobool_828_1);
-  twobool(&S_twobool_827_1);
-  twobool(&S_twobool_853_1);
-  twobool(&S_twobool_851_1);
-  twobool(&S_twobool_854_1);
-  twobool(&S_twobool_852_1);
-  twobool(&S_twobool_1031_1);
-  twobool(&S_twobool_1032_1);
-  twobool(&S_twobool_1033_1);
-  twobool(&S_twobool_1052_1);
-  twobool(&S_twobool_56_1);
-  twobool(&S_twobool_41_1);
-  twobool(&S_twobool_225_1);
-  twobool(&S_twobool_208_1);
-  zpfs(&S_zpfs_616_1);
-  zpfs(&S_zpfs_618_1);
-  or2(&S_or2_921_1);
-  or2(&S_or2_928_1);
-  or2(&S_or2_935_1);
-  or2(&S_or2_944_1);
-  ampl(&S_ampl_374_1);
-  rs(&S_rs_475_1);
-  rs(&S_rs_474_1);
-  rs(&S_rs_489_1);
-  rs(&S_rs_488_1);
-  twobool(&S_twobool_546_1);
-  twobool(&S_twobool_529_1);
-  twobool(&S_twobool_668_1);
-  twobool(&S_twobool_669_1);
-  twobool(&S_twobool_690_1);
-  twobool(&S_twobool_691_1);
-  twobool(&S_twobool_670_1);
-  twobool(&S_twobool_671_1);
-  twobool(&S_twobool_692_1);
-  twobool(&S_twobool_693_1);
-  twobool(&S_twobool_1011_1);
-  twobool(&S_twobool_1012_1);
-  twobool(&S_twobool_1013_1);
-  twobool(&S_twobool_1014_1);
-  twobool(&S_twobool_830_1);
-  twobool(&S_twobool_831_1);
-  noto(&S_noto_639_1);
-  andn(&S_andn_88_1);
-  andn(&S_andn_87_1);
-  andn(&S_andn_47_1);
-  andn(&S_andn_48_1);
-  andn(&S_andn_121_1);
-  andn(&S_andn_217_1);
-  andn(&S_andn_218_1);
-  andn(&S_andn_258_1);
-  andn(&S_andn_257_1);
-  andn(&S_andn_292_1);
-  noto(&S_noto_922_1);
-  andn(&S_andn_917_1);
-  asmot(&S_asmot_620_1);
-  asmot(&S_asmot_623_1);
-  asmot(&S_asmot_480_1);
-  asmot(&S_asmot_492_1);
-  asmot(&S_asmot_478_1);
-  noto(&S_noto_929_1);
-  andn(&S_andn_925_1);
-  noto(&S_noto_936_1);
-  andn(&S_andn_933_1);
-  noto(&S_noto_945_1);
-  andn(&S_andn_940_1);
-  lk(&S_lk_518_1);
-  noto(&S_noto_919_1);
-  andn(&S_andn_915_1);
-  twobool(&S_twobool_1050_1);
-  to3val(&S_to3val_517_1);
-  toao(&S_toao_523_1);
-  twobool(&S_twobool_1028_1);
-  twobool(&S_twobool_1030_1);
-  twobool(&S_twobool_1029_1);
-  twobool(&S_twobool_1048_1);
-  orrsim(&S_orrsim_60_1);
-  orrsim(&S_orrsim_229_1);
-  orrsim(&S_orrsim_96_1);
-  orrsim(&S_orrsim_266_1);
-  orrsim(&S_orrsim_133_1);
-  orrsim(&S_orrsim_300_1);
-  azbars(&S_azbars_182_1);
-  bol(&S_bol_630_1);
-  bol(&S_bol_636_1);
-  bol(&S_bol_646_1);
-  mod1(&S_mod1_652_1);
-  fsubo(&S_fsubo_74_1);
-  fsubo(&S_fsubo_244_1);
-  fsubo(&S_fsubo_285_1);
-  fsubo(&S_fsubo_115_1);
-  orn(&S_orn_647_1);
-  react(&S_react_200_1);
-  orn(&S_orn_631_1);
-  orn(&S_orn_634_1);
-  twobool(&S_twobool_150_1);
-  to3val(&S_to3val_156_1);
-  toao(&S_toao_161_1);
-  toao(&S_toao_162_1);
-  toao(&S_toao_163_1);
-  twobool(&S_twobool_430_1);
-  twobool(&S_twobool_431_1);
-  twobool(&S_twobool_432_1);
-  to3val(&S_to3val_429_1);
-  ktoenc(&S_ktoenc_434_1);
-  twobool(&S_twobool_433_1);
-  twobool(&S_twobool_337_1);
-  twobool(&S_twobool_321_1);
-  twobool(&S_twobool_350_1);
-  to3val(&S_to3val_325_1);
-  ktoenc(&S_ktoenc_329_1);
-  twobool(&S_twobool_349_1);
-  twobool(&S_twobool_351_1);
-  to3val(&S_to3val_335_1);
-  ktoenc(&S_ktoenc_336_1);
-  twobool(&S_twobool_352_1);
-  twobool(&S_twobool_322_1);
-  twobool(&S_twobool_323_1);
-  twobool(&S_twobool_338_1);
-  twobool(&S_twobool_339_1);
-  ampl(&S_ampl_657_1);
-  twobool(&S_twobool_413_1);
-  twobool(&S_twobool_414_1);
-  twobool(&S_twobool_412_1);
-  to3val(&S_to3val_415_1);
-  ktoenc(&S_ktoenc_421_1);
-  twobool(&S_twobool_964_1);
-  twobool(&S_twobool_965_1);
-  twobool(&S_twobool_968_1);
-  to3val(&S_to3val_960_1);
-  ktoenc(&S_ktoenc_967_1);
-  to3val(&S_to3val_979_1);
-  ktoenc(&S_ktoenc_984_1);
-  twobool(&S_twobool_981_1);
-  twobool(&S_twobool_982_1);
-  twobool(&S_twobool_985_1);
-  andn(&S_andn_357_1);
-  twobool(&S_twobool_411_1);
-  azbars(&S_azbars_14_1);
-  vchs(&S_vchs_718_1);
-  vchs(&S_vchs_726_1);
-  vchs(&S_vchs_735_1);
-  vchs(&S_vchs_744_1);
-  vchs(&S_vchs_752_1);
-  vchs(&S_vchs_761_1);
-  vchs(&S_vchs_770_1);
-  vchs(&S_vchs_778_1);
-  vchs(&S_vchs_787_1);
-  vchs(&S_vchs_796_1);
-  vchs(&S_vchs_804_1);
-  vchs(&S_vchs_813_1);
-  twobool(&S_twobool_149_1);
-  to3val(&S_to3val_158_1);
-  toao(&S_toao_164_1);
-  toao(&S_toao_165_1);
-  toao(&S_toao_166_1);
-  to3val(&S_to3val_658_1);
-  vchs(&S_vchs_876_1);
-  vchs(&S_vchs_884_1);
-  vchs(&S_vchs_894_1);
-  setData(idA0IT03IRP,&var157);
-  setData(idB0IT03IRP,&var151);
-  setData(idR0IN03FI3,&var233);
-  setData(idR0IN02FI3,&var234);
-  setData(idR0IN03FI2,&var236);
-  setData(idR0IN07RIP,&var2);
-  setData(idR0IN06RIP,&var1);
-  setData(idR0IN03RIP,&var3);
-  setData(idR0IN02RIP,&var4);
-  setData(idR0IN01RIP,&var5);
-  setData(idR0IN02FI2,&var237);
-  setData(idR0IN03FI1,&var239);
-  setData(idR0IN02FI1,&var240);
-  setData(idR0IN03FI4,&var230);
-  setData(idR0IN02FI4,&var231);
-  setData(idR0IN01FI3,&var235);
-  setData(idR0IN01FI2,&var238);
-  setData(idR0IN01FI4,&var232);
-  setData(idR0IN01FI1,&var242);
-  setData(idR4VS12LDU,&var7);
-  setData(idR4VS22LDU,&var6);
-  setData(idR1VS12LDU,&var11);
-  setData(idR2VS12LDU,&var9);
-  setData(idR2VS22LDU,&var8);
-  setData(idR1VS22LDU,&var10);
-  setData(idB5VS12LDU,&var13);
-  setData(idB5VS22LDU,&var12);
-  setData(idA5VS12LDU,&var15);
-  setData(idA5VS22LDU,&var14);
-  setData(idB6VS12LDU,&var17);
-  setData(idB6VS22LDU,&var16);
-  setData(idA6VS12LDU,&var19);
-  setData(idA6VS22LDU,&var18);
-  setData(idB8IS21LDU,&var66);
-  setData(idB8IS11LDU,&var64);
-  setData(idA1VP81LZZ,&var20);
-  setData(idB1VP81LZZ,&var21);
-  setData(idB2IS33LDU,&var22);
-  setData(idA0VN01RIM,&var335);
-  setData(idB2IS32LIM,&var304);
-  setData(idB2IS11LIM,&var306);
-  setData(idA2IS32LIM,&var312);
-  setData(idA2IS11LIM,&var314);
-  setData(idB1IS32LIM,&var320);
-  setData(idB1IS11LIM,&var321);
-  setData(idA1IS32LIM,&var325);
-  setData(idA1IS11LIM,&var328);
-  setData(idR0IS02LDU,&lEM_R0IE02LRP);
-  setData(idB4IS10LDU,&var43);
-  setData(idA4IS10LDU,&var42);
-  setData(idB1IE04LDU,&var44);
-  setData(idB1IE03LDU,&var45);
-  setData(idA1IE04LDU,&var46);
-  setData(idA1IE03LDU,&var47);
-  setData(idB1IS12LDU,&var48);
-  setData(idB1IS11LDU,&var49);
-  setData(idB1IS21LDU,&var50);
-  setData(idB1IC01UDU,&var51);
-  setData(idA1IC01UDU,&var53);
-  setData(idA1IS12LDU,&var55);
-  setData(idA1IS11LDU,&var56);
-  setData(idA1IS21LDU,&var57);
-  setData(idB6IS21LDU,&var58);
-  setData(idB6IS11LDU,&var59);
-  setData(idA6IS21LDU,&var60);
-  setData(idA6IS11LDU,&var61);
-  setData(idA8IS12LDU,&var62);
-  setData(idA8IS22LDU,&var63);
-  setData(idB8IS12LDU,&var65);
-  setData(idB8IS22LDU,&var67);
-  setData(idR4IS12LDU,&var68);
-  setData(idR4IS22LDU,&var69);
-  setData(idR4IS21LDU,&var70);
-  setData(idR4IS11LDU,&var71);
-  setData(idB4VP82LDU,&var73);
-  setData(idA4VP82LDU,&var72);
-  setData(idR2IS21LDU,&var74);
-  setData(idR2IS11LDU,&var75);
-  setData(idR1IS21LDU,&var76);
-  setData(idR1IS11LDU,&var77);
-  setData(idB4IS21LDU,&var78);
-  setData(idB4IS11LDU,&var79);
-  setData(idR8IS11LDU,&var80);
-  setData(idA4IS21LDU,&var81);
-  setData(idA4IS11LDU,&var82);
-  setData(idR5IS21LDU,&var83);
-  setData(idR5IS11LDU,&var84);
-  setData(idR3IS21LDU,&var85);
-  setData(idR3IS11LDU,&var86);
-  setData(idB2VP82LDU,&var87);
-  setData(idB2IP01IZ2,&var89);
-  setData(idB2IP01IZ1,&var90);
-  setData(idB2IC01UDU,&var93);
-  setData(idB2IS12LDU,&var95);
-  setData(idB2IS11LDU,&var96);
-  setData(idB2IS21LDU,&var97);
-  setData(idB9IS21LDU,&var98);
-  setData(idB9IS11LDU,&var99);
-  setData(idA9IS21LDU,&var100);
-  setData(idA9IS11LDU,&var101);
-  setData(idB5IS21LDU,&var102);
-  setData(idB5IS11LDU,&var103);
-  setData(idA5IS21LDU,&var104);
-  setData(idA5IS11LDU,&var105);
-  setData(idB0VP81LZZ,&var107);
-  setData(idA0VP81LZZ,&var108);
-  setData(idB8IC01UDU,&var109);
-  setData(idA8IC01UDU,&var111);
-  setData(idR6IS68LZZ,&var113);
-  setData(idR6IS67LZZ,&var114);
-  setData(idR6IS66LZZ,&var115);
-  setData(idR6IS65LDU,&var117);
-  setData(idR6IS64LDU,&var116);
-  setData(idR6IS63LDU,&var119);
-  setData(idR6IS62LDU,&var118);
-  setData(idB3IS22LDU,&var120);
-  setData(idA3IS22LDU,&var121);
-  setData(idB3IS11LDU,&var122);
-  setData(idA3IS11LDU,&var123);
-  setData(idA3IP02IDU,&var124);
-  setData(idB3VP81LDU,&var127);
-  setData(idA3VP81LDU,&var126);
-  setData(idB3IS33LDU,&var130);
-  setData(idB3IC01UDU,&var131);
-  setData(idB3IS31LDU,&var133);
-  setData(idB3IP02IDU,&var128);
-  setData(idA3IS33LDU,&var134);
-  setData(idA3IC01UDU,&var135);
-  setData(idA3IS31LDU,&var137);
-  setData(idA2VP82LDU,&var88);
-  setData(idA2IP01IZ2,&var138);
-  setData(idA2IP01IZ1,&var139);
-  setData(idB3IS21LDU,&var140);
-  setData(idA3IS21LDU,&var141);
-  setData(idA2IS33LDU,&var142);
-  setData(idA2IC01UDU,&var143);
-  setData(idA2IS12LDU,&var145);
-  setData(idA2IS11LDU,&var146);
-  setData(idA2IS21LDU,&var147);
-  setData(idB0IT02IZ2,&var152);
-  setData(idB0IT01IZ1,&var153);
-  setData(idA0IT02IZ2,&var158);
-  setData(idA0IT01IZ1,&var161);
-  setData(idR6IS21LDU,&var159);
-  setData(idB7AS31LDU,&var160);
-  setData(idA7AS31LDU,&var165);
-  setData(idB3IS35LDU,&var168);
-  setData(idA3IS35LDU,&var170);
-  setData(idR7II73LZ2,&var217);
-  setData(idR7II71LZ2,&var178);
-  setData(idR7II72LZ2,&var177);
-  setData(idR7II72LZ1,&var177);
-  setData(idR7II71LZ1,&var178);
-  setData(idR7II73LZ1,&var217);
-  setData(idR0SR01RIM,&var179);
-  setData(idR0ST01RIM,&var284);
-  setData(idR0SR02RIM,&var285);
-  setData(idR0CR02RIM,&var223);
-  setData(idR0CR01RIM,&var225);
-  setData(idB0SN08RIM,&var280);
-  setData(idA0SN08RIM,&var331);
-  setData(idB0SR01RIM,&var281);
-  setData(idA0SR01RIM,&var332);
+// if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
+//   noto(&S_noto_86_1);
+//   noto(&S_noto_256_1);
+//   noto(&S_noto_603_1);
+//   noto(&S_noto_604_1);
+//   ovb1(&S_ovb1_30_1);
+//   ovb1(&S_ovb1_197_1);
+//   noto(&S_noto_515_1);
+//   bol(&S_bol_943_1);
+//   bol(&S_bol_953_1);
+//   bol(&S_bol_931_1);
+//   bol(&S_bol_952_1);
+//   bol(&S_bol_955_1);
+//   zpfs(&S_zpfs_632_1);
+//   zpfs(&S_zpfs_644_1);
+//   noto(&S_noto_481_1);
+//   noto(&S_noto_479_1);
+//   noto(&S_noto_491_1);
+//   noto(&S_noto_490_1);
+//   to3val(&S_to3val_969_1);
+//   asmot(&S_asmot_906_1);
+//   asmot(&S_asmot_366_1);
+//   asmot(&S_asmot_383_1);
+//   asmot(&S_asmot_399_1);
+//   asmot(&S_asmot_504_1);
+//   asmot(&S_asmot_448_1);
+//   asmot(&S_asmot_463_1);
+//   asmot(&S_asmot_577_1);
+//   asmot(&S_asmot_592_1);
+//   fsumo(&S_fsumo_911_1);
+//   inf(&S_inf_9_1);
+//   inf(&S_inf_7_1);
+//   fsubo(&S_fsubo_8_1);
+//   fsubo(&S_fsubo_373_1);
+//   noto(&S_noto_45_1);
+//   noto(&S_noto_46_1);
+//   noto(&S_noto_215_1);
+//   noto(&S_noto_216_1);
+//   orn(&S_orn_640_1);
+//   asmot(&S_asmot_605_1);
+//   asmot(&S_asmot_606_1);
+//   noto(&S_noto_615_1);
+//   noto(&S_noto_617_1);
+//   noto(&S_noto_476_1);
+//   noto(&S_noto_513_1);
+//   lk(&S_lk_519_1);
+//   orn(&S_orn_920_1);
+//   to3val(&S_to3val_542_1);
+//   toao(&S_toao_549_1);
+//   toao(&S_toao_550_1);
+//   to3val(&S_to3val_520_1);
+//   toao(&S_toao_527_1);
+//   twobool(&S_twobool_564_1);
+//   twobool(&S_twobool_666_1);
+//   twobool(&S_twobool_686_1);
+//   twobool(&S_twobool_667_1);
+//   twobool(&S_twobool_687_1);
+//   twobool(&S_twobool_703_1);
+//   to3val(&S_to3val_842_1);
+//   ktoenc(&S_ktoenc_850_1);
+//   to3val(&S_to3val_840_1);
+//   ktoenc(&S_ktoenc_848_1);
+//   twobool(&S_twobool_562_1);
+//   twobool(&S_twobool_563_1);
+//   twobool(&S_twobool_705_1);
+//   twobool(&S_twobool_704_1);
+//   twobool(&S_twobool_707_1);
+//   twobool(&S_twobool_706_1);
+//   twobool(&S_twobool_1051_1);
+//   twobool(&S_twobool_866_1);
+//   twobool(&S_twobool_868_1);
+//   twobool(&S_twobool_867_1);
+//   to3val(&S_to3val_543_1);
+//   toao(&S_toao_551_1);
+//   toao(&S_toao_552_1);
+//   twobool(&S_twobool_545_1);
+//   twobool(&S_twobool_995_1);
+//   twobool(&S_twobool_1010_1);
+//   twobool(&S_twobool_1027_1);
+//   twobool(&S_twobool_1049_1);
+//   twobool(&S_twobool_829_1);
+//   twobool(&S_twobool_996_1);
+//   twobool(&S_twobool_997_1);
+//   twobool(&S_twobool_998_1);
+//   twobool(&S_twobool_999_1);
+//   twobool(&S_twobool_1047_1);
+//   twobool(&S_twobool_825_1);
+//   twobool(&S_twobool_826_1);
+//   twobool(&S_twobool_828_1);
+//   twobool(&S_twobool_827_1);
+//   twobool(&S_twobool_853_1);
+//   twobool(&S_twobool_851_1);
+//   twobool(&S_twobool_854_1);
+//   twobool(&S_twobool_852_1);
+//   twobool(&S_twobool_1031_1);
+//   twobool(&S_twobool_1032_1);
+//   twobool(&S_twobool_1033_1);
+//   twobool(&S_twobool_1052_1);
+//   twobool(&S_twobool_56_1);
+//   twobool(&S_twobool_41_1);
+//   twobool(&S_twobool_225_1);
+//   twobool(&S_twobool_208_1);
+//   zpfs(&S_zpfs_616_1);
+//   zpfs(&S_zpfs_618_1);
+//   or2(&S_or2_921_1);
+//   or2(&S_or2_928_1);
+//   or2(&S_or2_935_1);
+//   or2(&S_or2_944_1);
+//   ampl(&S_ampl_374_1);
+//   rs(&S_rs_475_1);
+//   rs(&S_rs_474_1);
+//   rs(&S_rs_489_1);
+//   rs(&S_rs_488_1);
+//   twobool(&S_twobool_546_1);
+//   twobool(&S_twobool_529_1);
+//   twobool(&S_twobool_668_1);
+//   twobool(&S_twobool_669_1);
+//   twobool(&S_twobool_690_1);
+//   twobool(&S_twobool_691_1);
+//   twobool(&S_twobool_670_1);
+//   twobool(&S_twobool_671_1);
+//   twobool(&S_twobool_692_1);
+//   twobool(&S_twobool_693_1);
+//   twobool(&S_twobool_1011_1);
+//   twobool(&S_twobool_1012_1);
+//   twobool(&S_twobool_1013_1);
+//   twobool(&S_twobool_1014_1);
+//   twobool(&S_twobool_830_1);
+//   twobool(&S_twobool_831_1);
+//   noto(&S_noto_639_1);
+//   andn(&S_andn_88_1);
+//   andn(&S_andn_87_1);
+//   andn(&S_andn_47_1);
+//   andn(&S_andn_48_1);
+//   andn(&S_andn_121_1);
+//   andn(&S_andn_217_1);
+//   andn(&S_andn_218_1);
+//   andn(&S_andn_258_1);
+//   andn(&S_andn_257_1);
+//   andn(&S_andn_292_1);
+//   noto(&S_noto_922_1);
+//   andn(&S_andn_917_1);
+//   asmot(&S_asmot_620_1);
+//   asmot(&S_asmot_623_1);
+//   asmot(&S_asmot_480_1);
+//   asmot(&S_asmot_492_1);
+//   asmot(&S_asmot_478_1);
+//   noto(&S_noto_929_1);
+//   andn(&S_andn_925_1);
+//   noto(&S_noto_936_1);
+//   andn(&S_andn_933_1);
+//   noto(&S_noto_945_1);
+//   andn(&S_andn_940_1);
+//   lk(&S_lk_518_1);
+//   noto(&S_noto_919_1);
+//   andn(&S_andn_915_1);
+//   twobool(&S_twobool_1050_1);
+//   to3val(&S_to3val_517_1);
+//   toao(&S_toao_523_1);
+//   twobool(&S_twobool_1028_1);
+//   twobool(&S_twobool_1030_1);
+//   twobool(&S_twobool_1029_1);
+//   twobool(&S_twobool_1048_1);
+//   orrsim(&S_orrsim_60_1);
+//   orrsim(&S_orrsim_229_1);
+//   orrsim(&S_orrsim_96_1);
+//   orrsim(&S_orrsim_266_1);
+//   orrsim(&S_orrsim_133_1);
+//   orrsim(&S_orrsim_300_1);
+//   azbars(&S_azbars_182_1);
+//   bol(&S_bol_630_1);
+//   bol(&S_bol_636_1);
+//   bol(&S_bol_646_1);
+//   mod1(&S_mod1_652_1);
+//   fsubo(&S_fsubo_74_1);
+//   fsubo(&S_fsubo_244_1);
+//   fsubo(&S_fsubo_285_1);
+//   fsubo(&S_fsubo_115_1);
+//   orn(&S_orn_647_1);
+//   react(&S_react_200_1);
+//   orn(&S_orn_631_1);
+//   orn(&S_orn_634_1);
+//   twobool(&S_twobool_150_1);
+//   to3val(&S_to3val_156_1);
+//   toao(&S_toao_161_1);
+//   toao(&S_toao_162_1);
+//   toao(&S_toao_163_1);
+//   twobool(&S_twobool_430_1);
+//   twobool(&S_twobool_431_1);
+//   twobool(&S_twobool_432_1);
+//   to3val(&S_to3val_429_1);
+//   ktoenc(&S_ktoenc_434_1);
+//   twobool(&S_twobool_433_1);
+//   twobool(&S_twobool_337_1);
+//   twobool(&S_twobool_321_1);
+//   twobool(&S_twobool_350_1);
+//   to3val(&S_to3val_325_1);
+//   ktoenc(&S_ktoenc_329_1);
+//   twobool(&S_twobool_349_1);
+//   twobool(&S_twobool_351_1);
+//   to3val(&S_to3val_335_1);
+//   ktoenc(&S_ktoenc_336_1);
+//   twobool(&S_twobool_352_1);
+//   twobool(&S_twobool_322_1);
+//   twobool(&S_twobool_323_1);
+//   twobool(&S_twobool_338_1);
+//   twobool(&S_twobool_339_1);
+//   ampl(&S_ampl_657_1);
+//   twobool(&S_twobool_413_1);
+//   twobool(&S_twobool_414_1);
+//   twobool(&S_twobool_412_1);
+//   to3val(&S_to3val_415_1);
+//   ktoenc(&S_ktoenc_421_1);
+//   twobool(&S_twobool_964_1);
+//   twobool(&S_twobool_965_1);
+//   twobool(&S_twobool_968_1);
+//   to3val(&S_to3val_960_1);
+//   ktoenc(&S_ktoenc_967_1);
+//   to3val(&S_to3val_979_1);
+//   ktoenc(&S_ktoenc_984_1);
+//   twobool(&S_twobool_981_1);
+//   twobool(&S_twobool_982_1);
+//   twobool(&S_twobool_985_1);
+//   andn(&S_andn_357_1);
+//   twobool(&S_twobool_411_1);
+//   azbars(&S_azbars_14_1);
+//   vchs(&S_vchs_718_1);
+//   vchs(&S_vchs_726_1);
+//   vchs(&S_vchs_735_1);
+//   vchs(&S_vchs_744_1);
+//   vchs(&S_vchs_752_1);
+//   vchs(&S_vchs_761_1);
+//   vchs(&S_vchs_770_1);
+//   vchs(&S_vchs_778_1);
+//   vchs(&S_vchs_787_1);
+//   vchs(&S_vchs_796_1);
+//   vchs(&S_vchs_804_1);
+//   vchs(&S_vchs_813_1);
+//   twobool(&S_twobool_149_1);
+//   to3val(&S_to3val_158_1);
+//   toao(&S_toao_164_1);
+//   toao(&S_toao_165_1);
+//   toao(&S_toao_166_1);
+//   to3val(&S_to3val_658_1);
+//   vchs(&S_vchs_876_1);
+//   vchs(&S_vchs_884_1);
+//   vchs(&S_vchs_894_1);
+//   setData(idA0IT03IRP,&var157);
+//   setData(idB0IT03IRP,&var151);
+//   setData(idR0IN03FI3,&var233);
+//   setData(idR0IN02FI3,&var234);
+//   setData(idR0IN03FI2,&var236);
+//   setData(idR0IN07RIP,&var2);
+//   setData(idR0IN06RIP,&var1);
+//   setData(idR0IN03RIP,&var3);
+//   setData(idR0IN02RIP,&var4);
+//   setData(idR0IN01RIP,&var5);
+//   setData(idR0IN02FI2,&var237);
+//   setData(idR0IN03FI1,&var239);
+//   setData(idR0IN02FI1,&var240);
+//   setData(idR0IN03FI4,&var230);
+//   setData(idR0IN02FI4,&var231);
+//   setData(idR0IN01FI3,&var235);
+//   setData(idR0IN01FI2,&var238);
+//   setData(idR0IN01FI4,&var232);
+//   setData(idR0IN01FI1,&var242);
+//   setData(idR4VS12LDU,&var7);
+//   setData(idR4VS22LDU,&var6);
+//   setData(idR1VS12LDU,&var11);
+//   setData(idR2VS12LDU,&var9);
+//   setData(idR2VS22LDU,&var8);
+//   setData(idR1VS22LDU,&var10);
+//   setData(idB5VS12LDU,&var13);
+//   setData(idB5VS22LDU,&var12);
+//   setData(idA5VS12LDU,&var15);
+//   setData(idA5VS22LDU,&var14);
+//   setData(idB6VS12LDU,&var17);
+//   setData(idB6VS22LDU,&var16);
+//   setData(idA6VS12LDU,&var19);
+//   setData(idA6VS22LDU,&var18);
+//   setData(idB8IS21LDU,&var66);
+//   setData(idB8IS11LDU,&var64);
+//   setData(idA1VP81LZZ,&var20);
+//   setData(idB1VP81LZZ,&var21);
+//   setData(idB2IS33LDU,&var22);
+//   setData(idA0VN01RIM,&var335);
+//   setData(idB2IS32LIM,&var304);
+//   setData(idB2IS11LIM,&var306);
+//   setData(idA2IS32LIM,&var312);
+//   setData(idA2IS11LIM,&var314);
+//   setData(idB1IS32LIM,&var320);
+//   setData(idB1IS11LIM,&var321);
+//   setData(idA1IS32LIM,&var325);
+//   setData(idA1IS11LIM,&var328);
+//   setData(idR0IS02LDU,&lEM_R0IE02LRP);
+//   setData(idB4IS10LDU,&var43);
+//   setData(idA4IS10LDU,&var42);
+//   setData(idB1IE04LDU,&var44);
+//   setData(idB1IE03LDU,&var45);
+//   setData(idA1IE04LDU,&var46);
+//   setData(idA1IE03LDU,&var47);
+//   setData(idB1IS12LDU,&var48);
+//   setData(idB1IS11LDU,&var49);
+//   setData(idB1IS21LDU,&var50);
+//   setData(idB1IC01UDU,&var51);
+//   setData(idA1IC01UDU,&var53);
+//   setData(idA1IS12LDU,&var55);
+//   setData(idA1IS11LDU,&var56);
+//   setData(idA1IS21LDU,&var57);
+//   setData(idB6IS21LDU,&var58);
+//   setData(idB6IS11LDU,&var59);
+//   setData(idA6IS21LDU,&var60);
+//   setData(idA6IS11LDU,&var61);
+//   setData(idA8IS12LDU,&var62);
+//   setData(idA8IS22LDU,&var63);
+//   setData(idB8IS12LDU,&var65);
+//   setData(idB8IS22LDU,&var67);
+//   setData(idR4IS12LDU,&var68);
+//   setData(idR4IS22LDU,&var69);
+//   setData(idR4IS21LDU,&var70);
+//   setData(idR4IS11LDU,&var71);
+//   setData(idB4VP82LDU,&var73);
+//   setData(idA4VP82LDU,&var72);
+//   setData(idR2IS21LDU,&var74);
+//   setData(idR2IS11LDU,&var75);
+//   setData(idR1IS21LDU,&var76);
+//   setData(idR1IS11LDU,&var77);
+//   setData(idB4IS21LDU,&var78);
+//   setData(idB4IS11LDU,&var79);
+//   setData(idR8IS11LDU,&var80);
+//   setData(idA4IS21LDU,&var81);
+//   setData(idA4IS11LDU,&var82);
+//   setData(idR5IS21LDU,&var83);
+//   setData(idR5IS11LDU,&var84);
+//   setData(idR3IS21LDU,&var85);
+//   setData(idR3IS11LDU,&var86);
+//   setData(idB2VP82LDU,&var87);
+//   setData(idB2IP01IZ2,&var89);
+//   setData(idB2IP01IZ1,&var90);
+//   setData(idB2IC01UDU,&var93);
+//   setData(idB2IS12LDU,&var95);
+//   setData(idB2IS11LDU,&var96);
+//   setData(idB2IS21LDU,&var97);
+//   setData(idB9IS21LDU,&var98);
+//   setData(idB9IS11LDU,&var99);
+//   setData(idA9IS21LDU,&var100);
+//   setData(idA9IS11LDU,&var101);
+//   setData(idB5IS21LDU,&var102);
+//   setData(idB5IS11LDU,&var103);
+//   setData(idA5IS21LDU,&var104);
+//   setData(idA5IS11LDU,&var105);
+//   setData(idB0VP81LZZ,&var107);
+//   setData(idA0VP81LZZ,&var108);
+//   setData(idB8IC01UDU,&var109);
+//   setData(idA8IC01UDU,&var111);
+//   setData(idR6IS68LZZ,&var113);
+//   setData(idR6IS67LZZ,&var114);
+//   setData(idR6IS66LZZ,&var115);
+//   setData(idR6IS65LDU,&var117);
+//   setData(idR6IS64LDU,&var116);
+//   setData(idR6IS63LDU,&var119);
+//   setData(idR6IS62LDU,&var118);
+//   setData(idB3IS22LDU,&var120);
+//   setData(idA3IS22LDU,&var121);
+//   setData(idB3IS11LDU,&var122);
+//   setData(idA3IS11LDU,&var123);
+//   setData(idA3IP02IDU,&var124);
+//   setData(idB3VP81LDU,&var127);
+//   setData(idA3VP81LDU,&var126);
+//   setData(idB3IS33LDU,&var130);
+//   setData(idB3IC01UDU,&var131);
+//   setData(idB3IS31LDU,&var133);
+//   setData(idB3IP02IDU,&var128);
+//   setData(idA3IS33LDU,&var134);
+//   setData(idA3IC01UDU,&var135);
+//   setData(idA3IS31LDU,&var137);
+//   setData(idA2VP82LDU,&var88);
+//   setData(idA2IP01IZ2,&var138);
+//   setData(idA2IP01IZ1,&var139);
+//   setData(idB3IS21LDU,&var140);
+//   setData(idA3IS21LDU,&var141);
+//   setData(idA2IS33LDU,&var142);
+//   setData(idA2IC01UDU,&var143);
+//   setData(idA2IS12LDU,&var145);
+//   setData(idA2IS11LDU,&var146);
+//   setData(idA2IS21LDU,&var147);
+//   setData(idB0IT02IZ2,&var152);
+//   setData(idB0IT01IZ1,&var153);
+//   setData(idA0IT02IZ2,&var158);
+//   setData(idA0IT01IZ1,&var161);
+//   setData(idR6IS21LDU,&var159);
+//   setData(idB7AS31LDU,&var160);
+//   setData(idA7AS31LDU,&var165);
+//   setData(idB3IS35LDU,&var168);
+//   setData(idA3IS35LDU,&var170);
+//   setData(idR7II73LZ2,&var217);
+//   setData(idR7II71LZ2,&var178);
+//   setData(idR7II72LZ2,&var177);
+//   setData(idR7II72LZ1,&var177);
+//   setData(idR7II71LZ1,&var178);
+//   setData(idR7II73LZ1,&var217);
+//   setData(idR0SR01RIM,&var179);
+//   setData(idR0ST01RIM,&var284);
+//   setData(idR0SR02RIM,&var285);
+//   setData(idR0CR02RIM,&var223);
+//   setData(idR0CR01RIM,&var225);
+//   setData(idB0SN08RIM,&var280);
+//   setData(idA0SN08RIM,&var331);
+//   setData(idB0SR01RIM,&var281);
+//   setData(idA0SR01RIM,&var332);
 
-  setAsBool(idbFirstEnterFlag,1);
+//   setAsBool(idbFirstEnterFlag,1);
 }
 
 void InitInternalParametr(void)

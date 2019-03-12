@@ -13,116 +13,116 @@ static char BUFFER[399];
 SetupUDP setUDP = {"192.168.10.53\0", 5432, "192.168.10.153\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define R0DE02LS3	 BUFFER[0]	//(R0DE02LS3) диагностика модуля АКНП3 на 2 месте
-#define idR0DE02LS3	 1	//(R0DE02LS3) диагностика модуля АКНП3 на 2 месте
-#define R0DE04LS3	 BUFFER[3]	//(R0DE04LS3) диагностика модуля АКНП3 на 4 месте
-#define idR0DE04LS3	 2	//(R0DE04LS3) диагностика модуля АКНП3 на 4 месте
-#define R0DE05LS3	 BUFFER[6]	//(R0DE05LS3) диагностика модуля АКНП3 на 5 месте
-#define idR0DE05LS3	 3	//(R0DE05LS3) диагностика модуля АКНП3 на 5 месте
-#define R0DE31LS3	 BUFFER[9]	//(R0DE31LS3) диагностика шкафа АКНП3 сеть 1
-#define idR0DE31LS3	 4	//(R0DE31LS3) диагностика шкафа АКНП3 сеть 1
-#define R0DE32LS3	 BUFFER[11]	//(R0DE32LS3) диагностика шкафа АКНП3 сеть 2
-#define idR0DE32LS3	 5	//(R0DE32LS3) диагностика шкафа АКНП3 сеть 2
-#define R0DE33LS3	 BUFFER[13]	//(R0DE33LS3) диагностика шкафа АКНП3 двери
-#define idR0DE33LS3	 6	//(R0DE33LS3) диагностика шкафа АКНП3 двери
-#define R0DE34LS3	 BUFFER[15]	//(R0DE34LS3) диагностика шкафа АКНП3 температура меньше 43
-#define idR0DE34LS3	 7	//(R0DE34LS3) диагностика шкафа АКНП3 температура меньше 43
-#define R0DE35LS3	 BUFFER[17]	//(R0DE35LS3) диагностика шкафа АКНП3 температура больше 53
-#define idR0DE35LS3	 8	//(R0DE35LS3) диагностика шкафа АКНП3 температура больше 53
-#define R0DE36LS3	 BUFFER[19]	//(R0DE36LS3) диагностика шкафа АКНП3 МП15-3.1 место 1
-#define idR0DE36LS3	 9	//(R0DE36LS3) диагностика шкафа АКНП3 МП15-3.1 место 1
-#define R0DE37LS3	 BUFFER[21]	//(R0DE37LS3) диагностика шкафа АКНП3 МП15-3.1 место 2
-#define idR0DE37LS3	 10	//(R0DE37LS3) диагностика шкафа АКНП3 МП15-3.1 место 2
-#define R0DE38LS3	 BUFFER[23]	//(R0DE38LS3) диагностика шкафа АКНП3 МП15-3 место 3
-#define idR0DE38LS3	 11	//(R0DE38LS3) диагностика шкафа АКНП3 МП15-3 место 3
-#define R0DE39LS3	 BUFFER[25]	//(R0DE39LS3) диагностика шкафа АКНП3 МП24-2 место 4
-#define idR0DE39LS3	 12	//(R0DE39LS3) диагностика шкафа АКНП3 МП24-2 место 4
-#define R0DE3CLS3	 BUFFER[27]	//(R0DE3CLS3) диагностика шкафа АКНП3 БП5/24Д место 7
-#define idR0DE3CLS3	 13	//(R0DE3CLS3) диагностика шкафа АКНП3 БП5/24Д место 7
-#define R0DE3DLS3	 BUFFER[29]	//(R0DE3DLS3) диагностика шкафа АКНП3 БП5/24Д место 8
-#define idR0DE3DLS3	 14	//(R0DE3DLS3) диагностика шкафа АКНП3 БП5/24Д место 8
-#define TTLaknp3	 BUFFER[31]	//(TTLaknp3) ttl
-#define idTTLaknp3	 15	//(TTLaknp3) ttl
-#define TestDiagnAKNP3	 BUFFER[34]	//(TestDiagnAKNP3) Неисправность от диагностики
-#define idTestDiagnAKNP3	 16	//(TestDiagnAKNP3) Неисправность от диагностики
-#define R0DEB1LS3	 BUFFER[36]	//(R0DEB1LS3) диагностика шкафа АКНП3 БП5 место 7
-#define idR0DEB1LS3	 17	//(R0DEB1LS3) диагностика шкафа АКНП3 БП5 место 7
-#define R0DEB2LS3	 BUFFER[38]	//(R0DEB2LS3) диагностика шкафа АКНП3 БП24Д место 7
-#define idR0DEB2LS3	 18	//(R0DEB2LS3) диагностика шкафа АКНП3 БП24Д место 7
-#define R0DEB3LS3	 BUFFER[40]	//(R0DEB3LS3) диагностика шкафа АКНП3 БП5 место 8
-#define idR0DEB3LS3	 19	//(R0DEB3LS3) диагностика шкафа АКНП3 БП5 место 8
-#define R0DEB4LS3	 BUFFER[42]	//(R0DEB4LS3) диагностика шкафа АКНП3 БП24Д место 8
-#define idR0DEB4LS3	 20	//(R0DEB4LS3) диагностика шкафа АКНП3 БП24Д место 8
-#define R0IN01FS3	 BUFFER[44]	//(R0IN01FS3) Выход СНМ-11 Гц
-#define idR0IN01FS3	 21	//(R0IN01FS3) Выход СНМ-11 Гц
-#define R0IN02FI3	 BUFFER[49]	//(R0IN02FI3) Выход КНК15-1 Гц
-#define idR0IN02FI3	 22	//(R0IN02FI3) Выход КНК15-1 Гц
-#define R0IN03FS3	 BUFFER[54]	//(R0IN03FS3) Выход КНК53М Гц
-#define idR0IN03FS3	 23	//(R0IN03FS3) Выход КНК53М Гц
-#define R0IS01FI0	 BUFFER[59]	//(R0IS01FI0) Признак работы с имитатором
-#define idR0IS01FI0	 24	//(R0IS01FI0) Признак работы с имитатором
-#define R0IN01FI3	 BUFFER[62]	//(R0IN01FI3) Выход СНМ-11 Гц
-#define idR0IN01FI3	 25	//(R0IN01FI3) Выход СНМ-11 Гц
-#define R0IN02FS3	 BUFFER[67]	//(R0IN02FS3) Выход КНК15-1 Гц
-#define idR0IN02FS3	 26	//(R0IN02FS3) Выход КНК15-1 Гц
-#define R0IN03FI3	 BUFFER[72]	//(R0IN03FI3) Выход КНК53М Гц
-#define idR0IN03FI3	 27	//(R0IN03FI3) Выход КНК53М Гц
-#define R0VN02RS3	 BUFFER[77]	//(R0VN02RS3) Уровень мощности канал 3
-#define idR0VN02RS3	 28	//(R0VN02RS3) Уровень мощности канал 3
-#define R0VN01RS3	 BUFFER[82]	//(R0VN01RS3) Период разгона канал 3
-#define idR0VN01RS3	 29	//(R0VN01RS3) Период разгона канал 3
-#define R0VN61LS3	 BUFFER[87]	//(R0VN61LS3) ПС по мощности канал 3
-#define idR0VN61LS3	 30	//(R0VN61LS3) ПС по мощности канал 3
-#define R0VN73LZ1	 BUFFER[89]	//(R0VN73LZ1) АС по мощности канал 3 на БАЗ1
-#define idR0VN73LZ1	 31	//(R0VN73LZ1) АС по мощности канал 3 на БАЗ1
-#define R0VN65LS3	 BUFFER[91]	//(R0VN65LS3) ПС по периоду разгона канал 3
-#define idR0VN65LS3	 32	//(R0VN65LS3) ПС по периоду разгона канал 3
-#define R0VN77LZ1	 BUFFER[93]	//(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1
-#define idR0VN77LZ1	 33	//(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1
-#define A0EE01LS3	 BUFFER[95]	//(A0EE01LS3) Исправность АКНП канал 3 на БАЗ1
-#define idA0EE01LS3	 34	//(A0EE01LS3) Исправность АКНП канал 3 на БАЗ1
-#define R0VN03RS3	 BUFFER[97]	//(R0VN03RS3) Измеренный нейтронный поток канал 3
-#define idR0VN03RS3	 35	//(R0VN03RS3) Измеренный нейтронный поток канал 3
-#define R0VN04RS3	 BUFFER[102]	//(R0VN04RS3) Реактивность канал 3
-#define idR0VN04RS3	 36	//(R0VN04RS3) Реактивность канал 3
-#define A1VN71LS3	 BUFFER[107]	//(A1VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
-#define idA1VN71LS3	 37	//(A1VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
-#define A0EE02LS3	 BUFFER[109]	//(A0EE02LS3) Исправность АКНП3 (от сшивки каналов) канал 3
-#define idA0EE02LS3	 38	//(A0EE02LS3) Исправность АКНП3 (от сшивки каналов) канал 3
-#define R0IE11LS3	 BUFFER[111]	//(R0IE11LS3) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-#define idR0IE11LS3	 39	//(R0IE11LS3) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-#define R0IE12LS3	 BUFFER[113]	//(R0IE12LS3) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-#define idR0IE12LS3	 40	//(R0IE12LS3) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-#define R0IE13LS3	 BUFFER[115]	//(R0IE13LS3) Исправность ВИП 0,5 (№16) КНК53М 3 канала
-#define idR0IE13LS3	 41	//(R0IE13LS3) Исправность ВИП 0,5 (№16) КНК53М 3 канала
-#define R0VN13RS3	 BUFFER[117]	//(R0VN13RS3) Нейтронный поток по камере СНМ11 канал 3
-#define idR0VN13RS3	 42	//(R0VN13RS3) Нейтронный поток по камере СНМ11 канал 3
-#define R0VN23RS3	 BUFFER[122]	//(R0VN23RS3) Нейтронный поток по камере КНК15-1 канал 3
-#define idR0VN23RS3	 43	//(R0VN23RS3) Нейтронный поток по камере КНК15-1 канал 3
-#define R0VN33RS3	 BUFFER[127]	//(R0VN33RS3) Нейтронный поток по камере КНК53М канал 3
-#define idR0VN33RS3	 44	//(R0VN33RS3) Нейтронный поток по камере КНК53М канал 3
-#define R0VN15RS3	 BUFFER[132]	//(R0VN15RS3) Номер ведущей камеры канал 3
-#define idR0VN15RS3	 45	//(R0VN15RS3) Номер ведущей камеры канал 3
-#define R0IE01LS3	 BUFFER[135]	//(R0IE01LS3) Отключение питание детекторов канал 3
-#define idR0IE01LS3	 46	//(R0IE01LS3) Отключение питание детекторов канал 3
-#define R0IE02LS3	 BUFFER[137]	//(R0IE02LS3) Отключить питание ПР, ПУ канал 3
-#define idR0IE02LS3	 47	//(R0IE02LS3) Отключить питание ПР, ПУ канал 3
-#define A0VN71LS3	 BUFFER[139]	//(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
-#define idA0VN71LS3	 48	//(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
-#define R0VN73LZ2	 BUFFER[141]	//(R0VN73LZ2) АС по мощности канал 3 на БАЗ2
-#define idR0VN73LZ2	 49	//(R0VN73LZ2) АС по мощности канал 3 на БАЗ2
-#define R0VN77LZ2	 BUFFER[143]	//(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2
-#define idR0VN77LZ2	 50	//(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2
-#define A1EE01LS3	 BUFFER[145]	//(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2
-#define idA1EE01LS3	 51	//(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2
-#define B8VC01RDU	 BUFFER[147]	//(B8VC01RDU) Координата АЗ2, мм
-#define idB8VC01RDU	 52	//(B8VC01RDU) Координата АЗ2, мм
-#define R0EE03LZ1	 BUFFER[152]	//(R0EE03LZ1) Питание  АКНП3  отключить
-#define idR0EE03LZ1	 53	//(R0EE03LZ1) Питание  АКНП3  отключить
-#define R0EE03LZ2	 BUFFER[154]	//(R0EE03LZ2) Питание  АКНП3  отключить
-#define idR0EE03LZ2	 54	//(R0EE03LZ2) Питание  АКНП3  отключить
-#define R0DE01LS3	 BUFFER[156]	//(R0DE01LS3) диагностика модуля АКНП3 на 1 месте
-#define idR0DE01LS3	 55	//(R0DE01LS3) диагностика модуля АКНП3 на 1 месте
+#define R0DE02LS3	 BUFFER[0]	//(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте
+#define idR0DE02LS3	 1	//(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте
+#define R0DE04LS3	 BUFFER[3]	//(vds32:04 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 4 месте
+#define idR0DE04LS3	 2	//(vds32:04 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 4 месте
+#define R0DE05LS3	 BUFFER[6]	//(fds16:05 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 5 месте
+#define idR0DE05LS3	 3	//(fds16:05 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 5 месте
+#define R0DE31LS3	 BUFFER[9]	//(sbk:20 - S01SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 1
+#define idR0DE31LS3	 4	//(sbk:20 - S01SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 1
+#define R0DE32LS3	 BUFFER[11]	//(sbk:20 - S02SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 2
+#define idR0DE32LS3	 5	//(sbk:20 - S02SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 2
+#define R0DE33LS3	 BUFFER[13]	//(sbk:20 - S03SBK, DiagnAKNP3) диагностика шкафа АКНП3 двери
+#define idR0DE33LS3	 6	//(sbk:20 - S03SBK, DiagnAKNP3) диагностика шкафа АКНП3 двери
+#define R0DE34LS3	 BUFFER[15]	//(sbk:20 - S04SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура меньше 43
+#define idR0DE34LS3	 7	//(sbk:20 - S04SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура меньше 43
+#define R0DE35LS3	 BUFFER[17]	//(sbk:20 - S05SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура больше 53
+#define idR0DE35LS3	 8	//(sbk:20 - S05SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура больше 53
+#define R0DE36LS3	 BUFFER[19]	//(sbk:20 - S06SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 1
+#define idR0DE36LS3	 9	//(sbk:20 - S06SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 1
+#define R0DE37LS3	 BUFFER[21]	//(sbk:20 - S07SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 2
+#define idR0DE37LS3	 10	//(sbk:20 - S07SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 2
+#define R0DE38LS3	 BUFFER[23]	//(sbk:20 - S08SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3 место 3
+#define idR0DE38LS3	 11	//(sbk:20 - S08SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3 место 3
+#define R0DE39LS3	 BUFFER[25]	//(sbk:20 - S09SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП24-2 место 4
+#define idR0DE39LS3	 12	//(sbk:20 - S09SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП24-2 место 4
+#define R0DE3CLS3	 BUFFER[27]	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 7
+#define idR0DE3CLS3	 13	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 7
+#define R0DE3DLS3	 BUFFER[29]	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 8
+#define idR0DE3DLS3	 14	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 8
+#define TTLaknp3	 BUFFER[31]	//( - , AKNP3) ttl
+#define idTTLaknp3	 15	//( - , AKNP3) ttl
+#define TestDiagnAKNP3	 BUFFER[34]	//( - , AKNP3) Неисправность от диагностики
+#define idTestDiagnAKNP3	 16	//( - , AKNP3) Неисправность от диагностики
+#define R0DEB1LS3	 BUFFER[36]	//(sbk:20 - S10SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 7
+#define idR0DEB1LS3	 17	//(sbk:20 - S10SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 7
+#define R0DEB2LS3	 BUFFER[38]	//(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7
+#define idR0DEB2LS3	 18	//(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7
+#define R0DEB3LS3	 BUFFER[40]	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
+#define idR0DEB3LS3	 19	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
+#define R0DEB4LS3	 BUFFER[42]	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
+#define idR0DEB4LS3	 20	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
+#define R0IN01FS3	 BUFFER[44]	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
+#define idR0IN01FS3	 21	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
+#define R0IN02FI3	 BUFFER[49]	//( - , MA3S) Выход КНК15-1 Гц
+#define idR0IN02FI3	 22	//( - , MA3S) Выход КНК15-1 Гц
+#define R0IN03FS3	 BUFFER[54]	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
+#define idR0IN03FS3	 23	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
+#define R0IS01FI0	 BUFFER[59]	//( - , MA3S) Признак работы с имитатором
+#define idR0IS01FI0	 24	//( - , MA3S) Признак работы с имитатором
+#define R0IN01FI3	 BUFFER[62]	//( - , MA3S) Выход СНМ-11 Гц
+#define idR0IN01FI3	 25	//( - , MA3S) Выход СНМ-11 Гц
+#define R0IN02FS3	 BUFFER[67]	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+#define idR0IN02FS3	 26	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+#define R0IN03FI3	 BUFFER[72]	//( - , MA3S) Выход КНК53М Гц
+#define idR0IN03FI3	 27	//( - , MA3S) Выход КНК53М Гц
+#define R0VN02RS3	 BUFFER[77]	//( - , AKNP3) Уровень мощности канал 3
+#define idR0VN02RS3	 28	//( - , AKNP3) Уровень мощности канал 3
+#define R0VN01RS3	 BUFFER[82]	//( - , AKNP3) Период разгона канал 3
+#define idR0VN01RS3	 29	//( - , AKNP3) Период разгона канал 3
+#define R0VN61LS3	 BUFFER[87]	//( - , AKNP3) ПС по мощности канал 3
+#define idR0VN61LS3	 30	//( - , AKNP3) ПС по мощности канал 3
+#define R0VN73LZ1	 BUFFER[89]	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
+#define idR0VN73LZ1	 31	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
+#define R0VN65LS3	 BUFFER[91]	//( - , AKNP3) ПС по периоду разгона канал 3
+#define idR0VN65LS3	 32	//( - , AKNP3) ПС по периоду разгона канал 3
+#define R0VN77LZ1	 BUFFER[93]	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
+#define idR0VN77LZ1	 33	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
+#define A0EE01LS3	 BUFFER[95]	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
+#define idA0EE01LS3	 34	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
+#define R0VN03RS3	 BUFFER[97]	//( - , AKNP3) Измеренный нейтронный поток канал 3
+#define idR0VN03RS3	 35	//( - , AKNP3) Измеренный нейтронный поток канал 3
+#define R0VN04RS3	 BUFFER[102]	//( - , AKNP3) Реактивность канал 3
+#define idR0VN04RS3	 36	//( - , AKNP3) Реактивность канал 3
+#define A1VN71LS3	 BUFFER[107]	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
+#define idA1VN71LS3	 37	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
+#define A0EE02LS3	 BUFFER[109]	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
+#define idA0EE02LS3	 38	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
+#define R0IE11LS3	 BUFFER[111]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+#define idR0IE11LS3	 39	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+#define R0IE12LS3	 BUFFER[113]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define idR0IE12LS3	 40	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define R0IE13LS3	 BUFFER[115]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+#define idR0IE13LS3	 41	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+#define R0VN13RS3	 BUFFER[117]	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
+#define idR0VN13RS3	 42	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
+#define R0VN23RS3	 BUFFER[122]	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
+#define idR0VN23RS3	 43	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
+#define R0VN33RS3	 BUFFER[127]	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
+#define idR0VN33RS3	 44	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
+#define R0VN15RS3	 BUFFER[132]	//( - , AKNP3) Номер ведущей камеры канал 3
+#define idR0VN15RS3	 45	//( - , AKNP3) Номер ведущей камеры канал 3
+#define R0IE01LS3	 BUFFER[135]	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
+#define idR0IE01LS3	 46	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
+#define R0IE02LS3	 BUFFER[137]	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
+#define idR0IE02LS3	 47	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
+#define A0VN71LS3	 BUFFER[139]	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
+#define idA0VN71LS3	 48	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
+#define R0VN73LZ2	 BUFFER[141]	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
+#define idR0VN73LZ2	 49	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
+#define R0VN77LZ2	 BUFFER[143]	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
+#define idR0VN77LZ2	 50	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
+#define A1EE01LS3	 BUFFER[145]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
+#define idA1EE01LS3	 51	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
+#define B8VC01RDU	 BUFFER[147]	//( - , AKNP3) Координата АЗ2, мм
+#define idB8VC01RDU	 52	//( - , AKNP3) Координата АЗ2, мм
+#define R0EE03LZ1	 BUFFER[152]	//( - , AKNP3) Питание  АКНП3  отключить
+#define idR0EE03LZ1	 53	//( - , AKNP3) Питание  АКНП3  отключить
+#define R0EE03LZ2	 BUFFER[154]	//( - , AKNP3) Питание  АКНП3  отключить
+#define idR0EE03LZ2	 54	//( - , AKNP3) Питание  АКНП3  отключить
+#define R0DE01LS3	 BUFFER[156]	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
+#define idR0DE01LS3	 55	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
 #define fEM_R0UR01RSS	 BUFFER[159]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define idfEM_R0UR01RSS	 56	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define fEM_R0UL52RSS	 BUFFER[164]	//(R0UL52RSS) Уровень АС по мощности
@@ -193,61 +193,61 @@ int nomer = 1;
 #define idinternal1_m53_MyFirstEnterFlag	 89	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,3	,1	, &R0DE02LS3},	//(R0DE02LS3) диагностика модуля АКНП3 на 2 месте
-	{ 2	,3	,1	, &R0DE04LS3},	//(R0DE04LS3) диагностика модуля АКНП3 на 4 месте
-	{ 3	,3	,1	, &R0DE05LS3},	//(R0DE05LS3) диагностика модуля АКНП3 на 5 месте
-	{ 4	,1	,1	, &R0DE31LS3},	//(R0DE31LS3) диагностика шкафа АКНП3 сеть 1
-	{ 5	,1	,1	, &R0DE32LS3},	//(R0DE32LS3) диагностика шкафа АКНП3 сеть 2
-	{ 6	,1	,1	, &R0DE33LS3},	//(R0DE33LS3) диагностика шкафа АКНП3 двери
-	{ 7	,1	,1	, &R0DE34LS3},	//(R0DE34LS3) диагностика шкафа АКНП3 температура меньше 43
-	{ 8	,1	,1	, &R0DE35LS3},	//(R0DE35LS3) диагностика шкафа АКНП3 температура больше 53
-	{ 9	,1	,1	, &R0DE36LS3},	//(R0DE36LS3) диагностика шкафа АКНП3 МП15-3.1 место 1
-	{ 10	,1	,1	, &R0DE37LS3},	//(R0DE37LS3) диагностика шкафа АКНП3 МП15-3.1 место 2
-	{ 11	,1	,1	, &R0DE38LS3},	//(R0DE38LS3) диагностика шкафа АКНП3 МП15-3 место 3
-	{ 12	,1	,1	, &R0DE39LS3},	//(R0DE39LS3) диагностика шкафа АКНП3 МП24-2 место 4
-	{ 13	,1	,1	, &R0DE3CLS3},	//(R0DE3CLS3) диагностика шкафа АКНП3 БП5/24Д место 7
-	{ 14	,1	,1	, &R0DE3DLS3},	//(R0DE3DLS3) диагностика шкафа АКНП3 БП5/24Д место 8
-	{ 15	,3	,1	, &TTLaknp3},	//(TTLaknp3) ttl
-	{ 16	,1	,1	, &TestDiagnAKNP3},	//(TestDiagnAKNP3) Неисправность от диагностики
-	{ 17	,1	,1	, &R0DEB1LS3},	//(R0DEB1LS3) диагностика шкафа АКНП3 БП5 место 7
-	{ 18	,1	,1	, &R0DEB2LS3},	//(R0DEB2LS3) диагностика шкафа АКНП3 БП24Д место 7
-	{ 19	,1	,1	, &R0DEB3LS3},	//(R0DEB3LS3) диагностика шкафа АКНП3 БП5 место 8
-	{ 20	,1	,1	, &R0DEB4LS3},	//(R0DEB4LS3) диагностика шкафа АКНП3 БП24Д место 8
-	{ 21	,8	,1	, &R0IN01FS3},	//(R0IN01FS3) Выход СНМ-11 Гц
-	{ 22	,8	,1	, &R0IN02FI3},	//(R0IN02FI3) Выход КНК15-1 Гц
-	{ 23	,8	,1	, &R0IN03FS3},	//(R0IN03FS3) Выход КНК53М Гц
-	{ 24	,3	,1	, &R0IS01FI0},	//(R0IS01FI0) Признак работы с имитатором
-	{ 25	,8	,1	, &R0IN01FI3},	//(R0IN01FI3) Выход СНМ-11 Гц
-	{ 26	,8	,1	, &R0IN02FS3},	//(R0IN02FS3) Выход КНК15-1 Гц
-	{ 27	,8	,1	, &R0IN03FI3},	//(R0IN03FI3) Выход КНК53М Гц
-	{ 28	,8	,1	, &R0VN02RS3},	//(R0VN02RS3) Уровень мощности канал 3
-	{ 29	,8	,1	, &R0VN01RS3},	//(R0VN01RS3) Период разгона канал 3
-	{ 30	,1	,1	, &R0VN61LS3},	//(R0VN61LS3) ПС по мощности канал 3
-	{ 31	,1	,1	, &R0VN73LZ1},	//(R0VN73LZ1) АС по мощности канал 3 на БАЗ1
-	{ 32	,1	,1	, &R0VN65LS3},	//(R0VN65LS3) ПС по периоду разгона канал 3
-	{ 33	,1	,1	, &R0VN77LZ1},	//(R0VN77LZ1) АС по периоду разгона канал 3 на БАЗ1
-	{ 34	,1	,1	, &A0EE01LS3},	//(A0EE01LS3) Исправность АКНП канал 3 на БАЗ1
-	{ 35	,8	,1	, &R0VN03RS3},	//(R0VN03RS3) Измеренный нейтронный поток канал 3
-	{ 36	,8	,1	, &R0VN04RS3},	//(R0VN04RS3) Реактивность канал 3
-	{ 37	,1	,1	, &A1VN71LS3},	//(A1VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
-	{ 38	,1	,1	, &A0EE02LS3},	//(A0EE02LS3) Исправность АКНП3 (от сшивки каналов) канал 3
-	{ 39	,1	,1	, &R0IE11LS3},	//(R0IE11LS3) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-	{ 40	,1	,1	, &R0IE12LS3},	//(R0IE12LS3) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-	{ 41	,1	,1	, &R0IE13LS3},	//(R0IE13LS3) Исправность ВИП 0,5 (№16) КНК53М 3 канала
-	{ 42	,8	,1	, &R0VN13RS3},	//(R0VN13RS3) Нейтронный поток по камере СНМ11 канал 3
-	{ 43	,8	,1	, &R0VN23RS3},	//(R0VN23RS3) Нейтронный поток по камере КНК15-1 канал 3
-	{ 44	,8	,1	, &R0VN33RS3},	//(R0VN33RS3) Нейтронный поток по камере КНК53М канал 3
-	{ 45	,3	,1	, &R0VN15RS3},	//(R0VN15RS3) Номер ведущей камеры канал 3
-	{ 46	,1	,1	, &R0IE01LS3},	//(R0IE01LS3) Отключение питание детекторов канал 3
-	{ 47	,1	,1	, &R0IE02LS3},	//(R0IE02LS3) Отключить питание ПР, ПУ канал 3
-	{ 48	,1	,1	, &A0VN71LS3},	//(A0VN71LS3) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
-	{ 49	,1	,1	, &R0VN73LZ2},	//(R0VN73LZ2) АС по мощности канал 3 на БАЗ2
-	{ 50	,1	,1	, &R0VN77LZ2},	//(R0VN77LZ2) АС по периоду разгона канал 3 на БАЗ2
-	{ 51	,1	,1	, &A1EE01LS3},	//(A1EE01LS3) Исправность АКНП канал 3 на БАЗ2
-	{ 52	,8	,1	, &B8VC01RDU},	//(B8VC01RDU) Координата АЗ2, мм
-	{ 53	,1	,1	, &R0EE03LZ1},	//(R0EE03LZ1) Питание  АКНП3  отключить
-	{ 54	,1	,1	, &R0EE03LZ2},	//(R0EE03LZ2) Питание  АКНП3  отключить
-	{ 55	,3	,1	, &R0DE01LS3},	//(R0DE01LS3) диагностика модуля АКНП3 на 1 месте
+	{ 1	,3	,1	, &R0DE02LS3},	//(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте
+	{ 2	,3	,1	, &R0DE04LS3},	//(vds32:04 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 4 месте
+	{ 3	,3	,1	, &R0DE05LS3},	//(fds16:05 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 5 месте
+	{ 4	,1	,1	, &R0DE31LS3},	//(sbk:20 - S01SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 1
+	{ 5	,1	,1	, &R0DE32LS3},	//(sbk:20 - S02SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 2
+	{ 6	,1	,1	, &R0DE33LS3},	//(sbk:20 - S03SBK, DiagnAKNP3) диагностика шкафа АКНП3 двери
+	{ 7	,1	,1	, &R0DE34LS3},	//(sbk:20 - S04SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура меньше 43
+	{ 8	,1	,1	, &R0DE35LS3},	//(sbk:20 - S05SBK, DiagnAKNP3) диагностика шкафа АКНП3 температура больше 53
+	{ 9	,1	,1	, &R0DE36LS3},	//(sbk:20 - S06SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 1
+	{ 10	,1	,1	, &R0DE37LS3},	//(sbk:20 - S07SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3.1 место 2
+	{ 11	,1	,1	, &R0DE38LS3},	//(sbk:20 - S08SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП15-3 место 3
+	{ 12	,1	,1	, &R0DE39LS3},	//(sbk:20 - S09SBK, DiagnAKNP3) диагностика шкафа АКНП3 МП24-2 место 4
+	{ 13	,1	,1	, &R0DE3CLS3},	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 7
+	{ 14	,1	,1	, &R0DE3DLS3},	//( - , DiagnAKNP3) диагностика шкафа АКНП3 БП5/24Д место 8
+	{ 15	,3	,1	, &TTLaknp3},	//( - , AKNP3) ttl
+	{ 16	,1	,1	, &TestDiagnAKNP3},	//( - , AKNP3) Неисправность от диагностики
+	{ 17	,1	,1	, &R0DEB1LS3},	//(sbk:20 - S10SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 7
+	{ 18	,1	,1	, &R0DEB2LS3},	//(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7
+	{ 19	,1	,1	, &R0DEB3LS3},	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
+	{ 20	,1	,1	, &R0DEB4LS3},	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
+	{ 21	,8	,1	, &R0IN01FS3},	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
+	{ 22	,8	,1	, &R0IN02FI3},	//( - , MA3S) Выход КНК15-1 Гц
+	{ 23	,8	,1	, &R0IN03FS3},	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
+	{ 24	,3	,1	, &R0IS01FI0},	//( - , MA3S) Признак работы с имитатором
+	{ 25	,8	,1	, &R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц
+	{ 26	,8	,1	, &R0IN02FS3},	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+	{ 27	,8	,1	, &R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц
+	{ 28	,8	,1	, &R0VN02RS3},	//( - , AKNP3) Уровень мощности канал 3
+	{ 29	,8	,1	, &R0VN01RS3},	//( - , AKNP3) Период разгона канал 3
+	{ 30	,1	,1	, &R0VN61LS3},	//( - , AKNP3) ПС по мощности канал 3
+	{ 31	,1	,1	, &R0VN73LZ1},	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
+	{ 32	,1	,1	, &R0VN65LS3},	//( - , AKNP3) ПС по периоду разгона канал 3
+	{ 33	,1	,1	, &R0VN77LZ1},	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
+	{ 34	,1	,1	, &A0EE01LS3},	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
+	{ 35	,8	,1	, &R0VN03RS3},	//( - , AKNP3) Измеренный нейтронный поток канал 3
+	{ 36	,8	,1	, &R0VN04RS3},	//( - , AKNP3) Реактивность канал 3
+	{ 37	,1	,1	, &A1VN71LS3},	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
+	{ 38	,1	,1	, &A0EE02LS3},	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
+	{ 39	,1	,1	, &R0IE11LS3},	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+	{ 40	,1	,1	, &R0IE12LS3},	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+	{ 41	,1	,1	, &R0IE13LS3},	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+	{ 42	,8	,1	, &R0VN13RS3},	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
+	{ 43	,8	,1	, &R0VN23RS3},	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
+	{ 44	,8	,1	, &R0VN33RS3},	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
+	{ 45	,3	,1	, &R0VN15RS3},	//( - , AKNP3) Номер ведущей камеры канал 3
+	{ 46	,1	,1	, &R0IE01LS3},	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
+	{ 47	,1	,1	, &R0IE02LS3},	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
+	{ 48	,1	,1	, &A0VN71LS3},	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
+	{ 49	,1	,1	, &R0VN73LZ2},	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
+	{ 50	,1	,1	, &R0VN77LZ2},	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
+	{ 51	,1	,1	, &A1EE01LS3},	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
+	{ 52	,8	,1	, &B8VC01RDU},	//( - , AKNP3) Координата АЗ2, мм
+	{ 53	,1	,1	, &R0EE03LZ1},	//( - , AKNP3) Питание  АКНП3  отключить
+	{ 54	,1	,1	, &R0EE03LZ2},	//( - , AKNP3) Питание  АКНП3  отключить
+	{ 55	,3	,1	, &R0DE01LS3},	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
 	{ 56	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 	{ 57	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
 	{ 58	,8	,1	, &fEM_R0UL41RSS},	//(R0UL41RSS) Уровень ПС по периоду разгона
@@ -724,60 +724,60 @@ _S_bol  S_bol_39_1 = {&var14,&fEM_R0UR01RSS,&var31};
 
 void Scheme()
 {
-if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_75_1);
-  diagndev(&S_diagndev_87_1);
-  and2(&S_and2_89_1);
-  or2(&S_or2_96_1);
-  or2(&S_or2_104_1);
-  fsumz(&S_fsumz_2_1);
-  ma(&S_ma_7_1);
-  ma(&S_ma_8_1);
-  ma(&S_ma_9_1);
-  ocham(&S_ocham_23_1);
-  orn(&S_orn_101_1);
-  or3(&S_or3_98_1);
-  noto(&S_noto_102_1);
-  bol(&S_bol_39_1);
-  bol(&S_bol_59_1);
-  bol(&S_bol_48_1);
-  bol(&S_bol_43_1);
-  andn(&S_andn_73_1);
-  setData(&var32,&iEM_R0UL01ISS);
-  setData(&var33,&dEM_R0UL02USS);
-  period(&S_period_53_1);
-  react(&S_react_54_1);
-  bol(&S_bol_58_1);
-  andn(&S_andn_62_1);
-  bol(&S_bol_60_1);
-  andn(&S_andn_63_1);
-  setData(idTestDiagnAKNP3,&var8);
-  setData(idTTLaknp3,&var12);
-  setData(idR0DE3DLS3,&var6);
-  setData(idR0DE3CLS3,&var7);
-  setData(idA1EE01LS3,&var25);
-  setData(idR0VN77LZ2,&var24);
-  setData(idR0VN73LZ2,&var26);
-  setData(idA0VN71LS3,&var31);
-  setData(idR0IE02LS3,&var20);
-  setData(idR0IE01LS3,&var20);
-  setData(idR0VN15RS3,&var19);
-  setData(idR0VN33RS3,&var18);
-  setData(idR0VN23RS3,&var17);
-  setData(idR0VN13RS3,&var16);
-  setData(idA0EE02LS3,&var15);
-  setData(idA1VN71LS3,&var31);
-  setData(idR0VN04RS3,&var30);
-  setData(idR0VN03RS3,&var13);
-  setData(idA0EE01LS3,&var25);
-  setData(idR0VN77LZ1,&var24);
-  setData(idR0VN65LS3,&var22);
-  setData(idR0VN73LZ1,&var26);
-  setData(idR0VN61LS3,&var27);
-  setData(idR0VN01RS3,&var21);
-  setData(idR0VN02RS3,&var14);
+// if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
+//   or2(&S_or2_75_1);
+//   diagndev(&S_diagndev_87_1);
+//   and2(&S_and2_89_1);
+//   or2(&S_or2_96_1);
+//   or2(&S_or2_104_1);
+//   fsumz(&S_fsumz_2_1);
+//   ma(&S_ma_7_1);
+//   ma(&S_ma_8_1);
+//   ma(&S_ma_9_1);
+//   ocham(&S_ocham_23_1);
+//   orn(&S_orn_101_1);
+//   or3(&S_or3_98_1);
+//   noto(&S_noto_102_1);
+//   bol(&S_bol_39_1);
+//   bol(&S_bol_59_1);
+//   bol(&S_bol_48_1);
+//   bol(&S_bol_43_1);
+//   andn(&S_andn_73_1);
+//   setData(&var32,&iEM_R0UL01ISS);
+//   setData(&var33,&dEM_R0UL02USS);
+//   period(&S_period_53_1);
+//   react(&S_react_54_1);
+//   bol(&S_bol_58_1);
+//   andn(&S_andn_62_1);
+//   bol(&S_bol_60_1);
+//   andn(&S_andn_63_1);
+//   setData(idTestDiagnAKNP3,&var8);
+//   setData(idTTLaknp3,&var12);
+//   setData(idR0DE3DLS3,&var6);
+//   setData(idR0DE3CLS3,&var7);
+//   setData(idA1EE01LS3,&var25);
+//   setData(idR0VN77LZ2,&var24);
+//   setData(idR0VN73LZ2,&var26);
+//   setData(idA0VN71LS3,&var31);
+//   setData(idR0IE02LS3,&var20);
+//   setData(idR0IE01LS3,&var20);
+//   setData(idR0VN15RS3,&var19);
+//   setData(idR0VN33RS3,&var18);
+//   setData(idR0VN23RS3,&var17);
+//   setData(idR0VN13RS3,&var16);
+//   setData(idA0EE02LS3,&var15);
+//   setData(idA1VN71LS3,&var31);
+//   setData(idR0VN04RS3,&var30);
+//   setData(idR0VN03RS3,&var13);
+//   setData(idA0EE01LS3,&var25);
+//   setData(idR0VN77LZ1,&var24);
+//   setData(idR0VN65LS3,&var22);
+//   setData(idR0VN73LZ1,&var26);
+//   setData(idR0VN61LS3,&var27);
+//   setData(idR0VN01RS3,&var21);
+//   setData(idR0VN02RS3,&var14);
 
-  setAsBool(idbFirstEnterFlag,1);
+//   setAsBool(idbFirstEnterFlag,1);
 }
 
 void InitInternalParametr(void)
