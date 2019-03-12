@@ -3,13 +3,13 @@
         <variable xml="varscm"/>
         <saves xml="savescm"/>
         <devices xml="devscm"/>
-        <modbus name="SCM" description="Общий слэйв" type="slave" port="5002" xml="scm"/>
-        <modbus name="SBz1" description="Cлэйв Baz1" type="slave" port="5003" xml="SBz1"/>
-        <modbus name="SBz2" description="Cлэйв Baz2" type="slave" port="5004" xml="SBz2"/>
-        <modbus name="SDu" description="Cлэйв DU"    type="slave" port="5005" xml="SDu"/>
-        <modbus name="SA1" description="Cлэйв AKNP1" type="slave" port="5006" xml="SA1"/>
-        <modbus name="SA2" description="Cлэйв AKNP2" type="slave" port="5007" xml="SA2"/>                
-        <modbus name="SA3" description="Cлэйв AKNP3" type="slave" port="5008" xml="SA3"/>
-        <modbus name="SA4" description="Cлэйв AKNP4" type="slave" port="5009" xml="SA4"/>        
-        <modbus name="SRP" description="Cлэйв RPU"   type="slave" port="5010" xml="SRP"/>
+        <modbus name="SCM"  description="Общий слэйв" type="slave" port="5002" xml="scm"/>
+        <modbus name="SBz1" description="Cлэйв Baz1"  type="slave" port="5003" xml="SBz1"/>
+        <modbus name="SBz2" description="Cлэйв Baz2"  type="slave" port="5004" xml="SBz2"/>
+        <modbus name="SDu"  description="Cлэйв DU"    type="slave" port="5005" xml="SDu"/>
+        <modbus name="SA1"  description="Cлэйв AKNP1" type="slave" port="5006" xml="SA1"/>
+        <modbus name="SA2"  description="Cлэйв AKNP2" type="slave" port="5007" xml="SA2"/>                
+        <modbus name="SA3"  description="Cлэйв AKNP3" type="slave" port="5008" xml="SA3"/>
+        <modbus name="SA4"  description="Cлэйв AKNP4" type="slave" port="5009" xml="SA4"/>        
+        <modbus name="SRP"  description="Cлэйв RPU"   type="slave" port="5010" xml="SRP"/>
 </subsystem>
