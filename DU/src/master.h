@@ -6233,7 +6233,7 @@ static DriverRegister def_buf_FDS1611[]={
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS8412[28];	//VAS84-12
+static char buf_VAS8412[30];	//VAS84-12
 static vas84r_inipar ini_VAS8412={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
@@ -6349,7 +6349,7 @@ static Driver drivers[]={
 	{0x96,0x09,20,40,def_buf_FDS1609,&table_FDS1609}, //FDS16-09
 	{0x96,0x0a,20,40,def_buf_FDS1610,&table_FDS1610}, //FDS16-10
 	{0x96,0x0b,20,40,def_buf_FDS1611,&table_FDS1611}, //FDS16-11
-	{0xc6,0x0c,7,28,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
+	{0xc6,0x0c,7,30,def_buf_VAS8412,&table_VAS8412}, //VAS84-12
 	{0xc2,0x0d,15,66,def_buf_VDS3213,&table_VDS3213}, //VDS32-13
 	{0x96,0x0f,20,40,def_buf_FDS1615,&table_FDS1615}, //FDS16-15
 	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP

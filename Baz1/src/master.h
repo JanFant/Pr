@@ -945,7 +945,7 @@ static ModbusDevice modbuses[]={
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84[28];	//VAS84
+static char buf_VAS84[30];	//VAS84
 static vas84r_inipar ini_VAS84={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
@@ -1086,7 +1086,7 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc6,0x04,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
+	{0xc6,0x04,7,30,def_buf_VAS84,&table_VAS84}, //VAS84
 	{0xc2,0x05,15,66,def_buf_VDS321,&table_VDS321}, //VDS32
 	{0xc2,0x06,15,66,def_buf_VDS322,&table_VDS322}, //VDS32
 	{0xc2,0x07,15,66,def_buf_VDS323,&table_VDS323}, //VDS32

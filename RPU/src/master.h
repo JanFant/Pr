@@ -616,7 +616,7 @@ static DriverRegister def_buf_VCHS03[]={
 };
 #pragma pop
 #include <fp8/drivers/vas84r.h>
-static char buf_VAS84[28];	//VAS84
+static char buf_VAS84[30];	//VAS84
 static vas84r_inipar ini_VAS84={0xc6,255,1,8,0xff,0,16,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
@@ -709,7 +709,7 @@ static Driver drivers[]={
 	{0xc4,0x01,12,58,def_buf_VCHS01,&table_VCHS01}, //VCHS01
 	{0xc4,0x02,12,58,def_buf_VCHS02,&table_VCHS02}, //VCHS02
 	{0xc4,0x03,12,58,def_buf_VCHS03,&table_VCHS03}, //VCHS03
-	{0xc6,0x06,7,28,def_buf_VAS84,&table_VAS84}, //VAS84
+	{0xc6,0x06,7,30,def_buf_VAS84,&table_VAS84}, //VAS84
 	{0xc2,0x07,15,66,def_buf_VDS32,&table_VDS32}, //VDS32
 	{0x96,0x08,20,40,def_buf_FDS16,&table_FDS16}, //FDS16
 	{0xcc,0x20,4,26,def_buf_SBKFP,&table_SBKFP}, //SBKFP
