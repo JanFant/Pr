@@ -4,7 +4,7 @@
         <saves xml="saveBaz1"/>
         <devices xml="devBaz1"/>
         <modbus name="Baz1" description="Общий слэйв" type="slave" port="5002" xml="Baz1"/>
-        <modbus name="SBz1DU" description="Слэйв для DU" type="slave" port="5003" xml="SBz1DU"/>
+        <modbus name="SBz1DU" description="Слэйв для DU" type="slave" port="5010" xml="SBz1DU"/>
         <modbus name="MBz1S" description="Мастер Баз1 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60" port="5003" step="100" xml="..\scm\SBz1.xml"/>
         <modbus name="DiagnBaz1" description="Диагностика корзины Baz1" type="slave" port="5005" xml="DiagnBaz1"/>
 </subsystem>
