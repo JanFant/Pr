@@ -3,7 +3,7 @@
 // Подсистема scm:SCM
 static char SimulOn=0;
 static short CodeSub=1;
-static char SimulIP[]="192.168.11.11\0";
+static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
@@ -135,10 +135,10 @@ static char BUFFER[3287];
 #define idR3IS11LDU	 62	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
 #define B2VP82LDU	 BUFFER[136]	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
 #define idB2VP82LDU	 63	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
-#define B2IP01IZ2	 BUFFER[138]	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
-#define idB2IP01IZ2	 64	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
-#define B2IP01IZ1	 BUFFER[141]	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
-#define idB2IP01IZ1	 65	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
+#define B2IP01IZ2	 BUFFER[138]	//(ao16_pti:320 - K08AO, SBz2) Текущее давление СБРОС РБ2
+#define idB2IP01IZ2	 64	//(ao16_pti:320 - K08AO, SBz2) Текущее давление СБРОС РБ2
+#define B2IP01IZ1	 BUFFER[141]	//(ao16_pti:320 - K04AO, SBz1) Текущее давление СБРОС РБ2
+#define idB2IP01IZ1	 65	//(ao16_pti:320 - K04AO, SBz1) Текущее давление СБРОС РБ2
 #define B2IC01UDU	 BUFFER[144]	//( - , SDu) Координата штока РБ2
 #define idB2IC01UDU	 66	//( - , SDu) Координата штока РБ2
 #define B2IS12LDU	 BUFFER[149]	//(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен
@@ -207,10 +207,10 @@ static char BUFFER[3287];
 #define idA0SN02RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 #define R0IS01FI0	 BUFFER[295]	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 #define idR0IS01FI0	 99	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
-#define A0IT03IRP	 BUFFER[298]	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
-#define idA0IT03IRP	 100	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
-#define B0IT03IRP	 BUFFER[301]	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
-#define idB0IT03IRP	 101	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+#define A0IT03IRP	 BUFFER[298]	//(ao16_pti:320 - K11AO, SRP) Температура АЗ1-3
+#define idA0IT03IRP	 100	//(ao16_pti:320 - K11AO, SRP) Температура АЗ1-3
+#define B0IT03IRP	 BUFFER[301]	//(ao16_pti:320 - K12AO, SRP) Температура АЗ2-3
+#define idB0IT03IRP	 101	//(ao16_pti:320 - K12AO, SRP) Температура АЗ2-3
 #define R0IN03FI3	 BUFFER[304]	//( - , SA3) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI3	 102	//( - , SA3) Выход КНК53М Гц от ПТИ
 #define R0IN02FI3	 BUFFER[309]	//( - , SA3) Выход КНК15-1 Гц от ПТИ
@@ -423,10 +423,10 @@ static char BUFFER[3287];
 #define idA2AD02LDU	 206	//(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1
 #define A2AD01LDU	 BUFFER[538]	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
 #define idA2AD01LDU	 207	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
-#define A2IP01IZ2	 BUFFER[540]	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
-#define idA2IP01IZ2	 208	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
-#define A2IP01IZ1	 BUFFER[543]	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
-#define idA2IP01IZ1	 209	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
+#define A2IP01IZ2	 BUFFER[540]	//(ao16_pti:320 - K06AO, SBz2) Текущее давление СБРОС РБ1
+#define idA2IP01IZ2	 208	//(ao16_pti:320 - K06AO, SBz2) Текущее давление СБРОС РБ1
+#define A2IP01IZ1	 BUFFER[543]	//(ao16_pti:320 - K02AO, SBz1) Текущее давление СБРОС РБ1
+#define idA2IP01IZ1	 209	//(ao16_pti:320 - K02AO, SBz1) Текущее давление СБРОС РБ1
 #define B3IS21LDU	 BUFFER[546]	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
 #define idB3IS21LDU	 210	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
 #define A3IS21LDU	 BUFFER[548]	//(do32_pti:140 - K06DO, - ) Приход на НУ ИС1
@@ -441,14 +441,14 @@ static char BUFFER[3287];
 #define idA2IS11LDU	 215	//(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1
 #define A2IS21LDU	 BUFFER[561]	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
 #define idA2IS21LDU	 216	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
-#define B0IT02IZ2	 BUFFER[563]	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
-#define idB0IT02IZ2	 217	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
-#define B0IT01IZ1	 BUFFER[566]	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
-#define idB0IT01IZ1	 218	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
-#define A0IT02IZ2	 BUFFER[569]	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
-#define idA0IT02IZ2	 219	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
-#define A0IT01IZ1	 BUFFER[572]	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
-#define idA0IT01IZ1	 220	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
+#define B0IT02IZ2	 BUFFER[563]	//(ao16_pti:320 - K07AO, SBz2) Температура АЗ2-2
+#define idB0IT02IZ2	 217	//(ao16_pti:320 - K07AO, SBz2) Температура АЗ2-2
+#define B0IT01IZ1	 BUFFER[566]	//(ao16_pti:320 - K03AO, SBz1) Температура АЗ2-1
+#define idB0IT01IZ1	 218	//(ao16_pti:320 - K03AO, SBz1) Температура АЗ2-1
+#define A0IT02IZ2	 BUFFER[569]	//(ao16_pti:320 - K05AO, SBz2) Температура АЗ1-2
+#define idA0IT02IZ2	 219	//(ao16_pti:320 - K05AO, SBz2) Температура АЗ1-2
+#define A0IT01IZ1	 BUFFER[572]	//(ao16_pti:320 - K01AO, SBz1) Температура АЗ1-1
+#define idA0IT01IZ1	 220	//(ao16_pti:320 - K01AO, SBz1) Температура АЗ1-1
 #define R6IS21LDU	 BUFFER[575]	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
 #define idR6IS21LDU	 221	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
 #define B7AS31LDU	 BUFFER[577]	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
@@ -469,8 +469,8 @@ static char BUFFER[3287];
 #define idB3IS11LDU	 229	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
 #define A3IS11LDU	 BUFFER[593]	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 #define idA3IS11LDU	 230	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
-#define A3IP02IDU	 BUFFER[595]	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
-#define idA3IP02IDU	 231	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
+#define A3IP02IDU	 BUFFER[595]	//(ao16_pti:320 - K09AO, SDu) Текущее давление ВЫСТРЕЛ ИС1
+#define idA3IP02IDU	 231	//(ao16_pti:320 - K09AO, SDu) Текущее давление ВЫСТРЕЛ ИС1
 #define B3VP81LDU	 BUFFER[598]	//( - , SCM) Давление СПУСК ИС2 в норме
 #define idB3VP81LDU	 232	//( - , SCM) Давление СПУСК ИС2 в норме
 #define A3VP81LDU	 BUFFER[600]	//( - , SCM) Давление СПУСК ИС1 в норме
@@ -481,8 +481,8 @@ static char BUFFER[3287];
 #define idB3IC01UDU	 235	//( - , SDu) Координата штока ИС2
 #define B3IS31LDU	 BUFFER[609]	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
 #define idB3IS31LDU	 236	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
-#define B3IP02IDU	 BUFFER[611]	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
-#define idB3IP02IDU	 237	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
+#define B3IP02IDU	 BUFFER[611]	//(ao16_pti:320 - K10AO, SDu) Текущее давление ВЫСТРЕЛ  ИС2
+#define idB3IP02IDU	 237	//(ao16_pti:320 - K10AO, SDu) Текущее давление ВЫСТРЕЛ  ИС2
 #define A3IS33LDU	 BUFFER[614]	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
 #define idA3IS33LDU	 238	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
 #define A3IC01UDU	 BUFFER[616]	//( - , SDu) Координата штока ИС1
@@ -2074,8 +2074,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 61	,1	,1	, &R3IS21LDU},	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
 	{ 62	,1	,1	, &R3IS11LDU},	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
 	{ 63	,1	,1	, &B2VP82LDU},	//( - , SCM) Давление ПОДЪЁМ РБ2 в норме
-	{ 64	,3	,1	, &B2IP01IZ2},	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
-	{ 65	,3	,1	, &B2IP01IZ1},	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
+	{ 64	,3	,1	, &B2IP01IZ2},	//(ao16_pti:320 - K08AO, SBz2) Текущее давление СБРОС РБ2
+	{ 65	,3	,1	, &B2IP01IZ1},	//(ao16_pti:320 - K04AO, SBz1) Текущее давление СБРОС РБ2
 	{ 66	,5	,1	, &B2IC01UDU},	//( - , SDu) Координата штока РБ2
 	{ 67	,1	,1	, &B2IS12LDU},	//(do32_pti:130 - K10DO, - ) Магнит РБ2 зацеплен
 	{ 68	,1	,1	, &B2IS11LDU},	//(do32_pti:130 - K11DO, - ) Приход на ВУ РБ2
@@ -2110,8 +2110,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 97	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
 	{ 98	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 	{ 99	,3	,1	, &R0IS01FI0},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
-	{ 100	,3	,1	, &A0IT03IRP},	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
-	{ 101	,3	,1	, &B0IT03IRP},	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+	{ 100	,3	,1	, &A0IT03IRP},	//(ao16_pti:320 - K11AO, SRP) Температура АЗ1-3
+	{ 101	,3	,1	, &B0IT03IRP},	//(ao16_pti:320 - K12AO, SRP) Температура АЗ2-3
 	{ 102	,8	,1	, &R0IN03FI3},	//( - , SA3) Выход КНК53М Гц от ПТИ
 	{ 103	,8	,1	, &R0IN02FI3},	//( - , SA3) Выход КНК15-1 Гц от ПТИ
 	{ 104	,1	,1	, &B1VP81LZZ},	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
@@ -2218,8 +2218,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 205	,1	,1	, &A2AD03LDU},	//(vds32_pti:310 - K13VDSR, - ) 1-й бит скорости РБ1
 	{ 206	,1	,1	, &A2AD02LDU},	//(vds32_pti:310 - K12VDSR, - ) 0-й бит скорости РБ1
 	{ 207	,1	,1	, &A2AD01LDU},	//(vds32_pti:310 - K11VDSR, - ) Разрешение движения РБ1
-	{ 208	,3	,1	, &A2IP01IZ2},	//(ao16_pti:320 - K06AO, - ) Текущее давление СБРОС РБ1
-	{ 209	,3	,1	, &A2IP01IZ1},	//(ao16_pti:320 - K02AO, - ) Текущее давление СБРОС РБ1
+	{ 208	,3	,1	, &A2IP01IZ2},	//(ao16_pti:320 - K06AO, SBz2) Текущее давление СБРОС РБ1
+	{ 209	,3	,1	, &A2IP01IZ1},	//(ao16_pti:320 - K02AO, SBz1) Текущее давление СБРОС РБ1
 	{ 210	,1	,1	, &B3IS21LDU},	//(do32_pti:130 - K13DO, - ) Приход на НУ ИС2
 	{ 211	,1	,1	, &A3IS21LDU},	//(do32_pti:140 - K06DO, - ) Приход на НУ ИС1
 	{ 212	,1	,1	, &A2IS33LDU},	//( - , - ) Клапан (Подъём РБ1)  открыт (обесточен)
@@ -2227,10 +2227,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 214	,1	,1	, &A2IS12LDU},	//(do32_pti:140 - K03DO, - ) Магнит РБ1 зацеплен
 	{ 215	,1	,1	, &A2IS11LDU},	//(do32_pti:140 - K04DO, - ) Приход на ВУ РБ1
 	{ 216	,1	,1	, &A2IS21LDU},	//(do32_pti:140 - K05DO, - ) Приход на НУ РБ1
-	{ 217	,3	,1	, &B0IT02IZ2},	//(ao16_pti:320 - K07AO, - ) Температура АЗ2-2
-	{ 218	,3	,1	, &B0IT01IZ1},	//(ao16_pti:320 - K03AO, - ) Температура АЗ2-1
-	{ 219	,3	,1	, &A0IT02IZ2},	//(ao16_pti:320 - K05AO, - ) Температура АЗ1-2
-	{ 220	,3	,1	, &A0IT01IZ1},	//(ao16_pti:320 - K01AO, - ) Температура АЗ1-1
+	{ 217	,3	,1	, &B0IT02IZ2},	//(ao16_pti:320 - K07AO, SBz2) Температура АЗ2-2
+	{ 218	,3	,1	, &B0IT01IZ1},	//(ao16_pti:320 - K03AO, SBz1) Температура АЗ2-1
+	{ 219	,3	,1	, &A0IT02IZ2},	//(ao16_pti:320 - K05AO, SBz2) Температура АЗ1-2
+	{ 220	,3	,1	, &A0IT01IZ1},	//(ao16_pti:320 - K01AO, SBz1) Температура АЗ1-1
 	{ 221	,1	,1	, &R6IS21LDU},	//(do32_pti:150 - K14DO, - ) Кран-балка в нерабочем положении
 	{ 222	,1	,1	, &B7AS31LDU},	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
 	{ 223	,1	,1	, &A7AS31LDU},	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
@@ -2241,13 +2241,13 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 228	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
 	{ 229	,1	,1	, &B3IS11LDU},	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
 	{ 230	,1	,1	, &A3IS11LDU},	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
-	{ 231	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
+	{ 231	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, SDu) Текущее давление ВЫСТРЕЛ ИС1
 	{ 232	,1	,1	, &B3VP81LDU},	//( - , SCM) Давление СПУСК ИС2 в норме
 	{ 233	,1	,1	, &A3VP81LDU},	//( - , SCM) Давление СПУСК ИС1 в норме
 	{ 234	,1	,1	, &B3IS33LDU},	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 	{ 235	,5	,1	, &B3IC01UDU},	//( - , SDu) Координата штока ИС2
 	{ 236	,1	,1	, &B3IS31LDU},	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
-	{ 237	,3	,1	, &B3IP02IDU},	//(ao16_pti:320 - K10AO, - ) Текущее давление ВЫСТРЕЛ  ИС2
+	{ 237	,3	,1	, &B3IP02IDU},	//(ao16_pti:320 - K10AO, SDu) Текущее давление ВЫСТРЕЛ  ИС2
 	{ 238	,1	,1	, &A3IS33LDU},	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
 	{ 239	,5	,1	, &A3IC01UDU},	//( - , SDu) Координата штока ИС1
 	{ 240	,1	,1	, &A3IS31LDU},	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
@@ -3915,6 +3915,10 @@ static ModbusRegister di_SBz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SBz1[]={  // 
+	{&A0IT01IZ1,3,0},	//(A0IT01IZ1) Температура АЗ1-1
+	{&B0IT01IZ1,3,1},	//(B0IT01IZ1) Температура АЗ2-1
+	{&A2IP01IZ1,3,2},	//(A2IP01IZ1) Текущее давление СБРОС РБ1
+	{&B2IP01IZ1,3,3},	//(B2IP01IZ1) Текущее давление СБРОС РБ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3939,6 +3943,10 @@ static ModbusRegister di_SBz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SBz2[]={  // 
+	{&A0IT02IZ2,3,0},	//(A0IT02IZ2) Температура АЗ1-2
+	{&B0IT02IZ2,3,1},	//(B0IT02IZ2) Температура АЗ2-2
+	{&A2IP01IZ2,3,2},	//(A2IP01IZ2) Текущее давление СБРОС РБ1
+	{&B2IP01IZ2,3,3},	//(B2IP01IZ2) Текущее давление СБРОС РБ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3961,12 +3969,14 @@ static ModbusRegister di_SDu[]={  //
 static ModbusRegister ir_SDu[]={  // 
 	{&A2IC01UDU,5,0},	//(A2IC01UDU) Координата штока РБ1
 	{&A3IC01UDU,5,2},	//(A3IC01UDU) Координата штока ИС1
-	{&B3IC01UDU,5,4},	//(B3IC01UDU) Координата штока ИС2
-	{&A8IC01UDU,5,6},	//(A8IC01UDU) Координата ДС2
-	{&B8IC01UDU,5,8},	//(B8IC01UDU) Координата АЗ2
-	{&B2IC01UDU,5,10},	//(B2IC01UDU) Координата штока РБ2
-	{&A1IC01UDU,5,12},	//(A1IC01UDU) Координата штока ББ1
-	{&B1IC01UDU,5,14},	//(B1IC01UDU) Координата штока ББ2
+	{&B3IP02IDU,3,4},	//(B3IP02IDU) Текущее давление ВЫСТРЕЛ  ИС2
+	{&B3IC01UDU,5,5},	//(B3IC01UDU) Координата штока ИС2
+	{&A3IP02IDU,3,7},	//(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1
+	{&A8IC01UDU,5,8},	//(A8IC01UDU) Координата ДС2
+	{&B8IC01UDU,5,10},	//(B8IC01UDU) Координата АЗ2
+	{&B2IC01UDU,5,12},	//(B2IC01UDU) Координата штока РБ2
+	{&A1IC01UDU,5,14},	//(A1IC01UDU) Координата штока ББ1
+	{&B1IC01UDU,5,16},	//(B1IC01UDU) Координата штока ББ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -4088,7 +4098,9 @@ static ModbusRegister ir_SRP[]={  //
 	{&R0IN03RIP,8,4},	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
 	{&R0IN06RIP,8,6},	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
 	{&R0IN07RIP,8,8},	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
-	{&R0IS01FI0,3,10},	//(R0IS01FI0) Признак работы с имитатором
+	{&B0IT03IRP,3,10},	//(B0IT03IRP) Температура АЗ2-3
+	{&A0IT03IRP,3,11},	//(A0IT03IRP) Температура АЗ1-3
+	{&R0IS01FI0,3,12},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop

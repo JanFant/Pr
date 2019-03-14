@@ -3,7 +3,7 @@
 // Подсистема Baz1:Baz1
 static char SimulOn=0;
 static short CodeSub=4;
-static char SimulIP[]="192.168.11.11\0";
+static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
@@ -219,8 +219,8 @@ int nomer = 1;
 #define idR0VN61LS3	 102	//( - , MBz1S) ПС по мощности канал 3
 #define R0VN61LS4	 BUFFER[247]	//( - , MBz1S) ПС по мощности канал 4
 #define idR0VN61LS4	 103	//( - , MBz1S) ПС по мощности канал 4
-#define A0IT01IZ1	 BUFFER[249]	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
-#define idA0IT01IZ1	 104	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
+#define A0IT01IZ1	 BUFFER[249]	//( - , MBz1S) Температура АЗ1-1
+#define idA0IT01IZ1	 104	//( - , MBz1S) Температура АЗ1-1
 #define A0CT01IZ1	 BUFFER[252]	//( - , Baz1, SBz1DU) Температура АЗ1-1
 #define idA0CT01IZ1	 105	//( - , Baz1, SBz1DU) Температура АЗ1-1
 #define A0VT61LZ1	 BUFFER[257]	//( - , Baz1) ПС по температуре в АЗ1
@@ -251,14 +251,14 @@ int nomer = 1;
 #define idB2VP81LZ1	 118	//( - , Baz1) Давление СБРОС РБ2 в норме
 #define A2VP81LZ1	 BUFFER[289]	//( - , Baz1) Давление СБРОС РБ1 в норме
 #define idA2VP81LZ1	 119	//( - , Baz1) Давление СБРОС РБ1 в норме
-#define A2IP01IZ1	 BUFFER[291]	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-#define idA2IP01IZ1	 120	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-#define B2IP01IZ1	 BUFFER[294]	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
-#define idB2IP01IZ1	 121	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
+#define A2IP01IZ1	 BUFFER[291]	//( - , MBz1S) Текущее давление СБРОС РБ1
+#define idA2IP01IZ1	 120	//( - , MBz1S) Текущее давление СБРОС РБ1
+#define B2IP01IZ1	 BUFFER[294]	//( - , MBz1S) Текущее давление СБРОС РБ2
+#define idB2IP01IZ1	 121	//( - , MBz1S) Текущее давление СБРОС РБ2
 #define R0ET01LZ1	 BUFFER[297]	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
 #define idR0ET01LZ1	 122	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
-#define B0IT01IZ1	 BUFFER[299]	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
-#define idB0IT01IZ1	 123	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
+#define B0IT01IZ1	 BUFFER[299]	//( - , MBz1S) Температура АЗ2-1
+#define idB0IT01IZ1	 123	//( - , MBz1S) Температура АЗ2-1
 #define A0VP41LZ1	 BUFFER[302]	//( - , Baz1) Давление АЗ1 ниже АС
 #define idA0VP41LZ1	 124	//( - , Baz1) Давление АЗ1 ниже АС
 #define A3IS11LDU	 BUFFER[304]	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
@@ -554,7 +554,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 101	,1	,1	, &R0VN61LS2},	//( - , MBz1S) ПС по мощности канал 2
 	{ 102	,1	,1	, &R0VN61LS3},	//( - , MBz1S) ПС по мощности канал 3
 	{ 103	,1	,1	, &R0VN61LS4},	//( - , MBz1S) ПС по мощности канал 4
-	{ 104	,3	,1	, &A0IT01IZ1},	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
+	{ 104	,3	,1	, &A0IT01IZ1},	//( - , MBz1S) Температура АЗ1-1
 	{ 105	,8	,1	, &A0CT01IZ1},	//( - , Baz1, SBz1DU) Температура АЗ1-1
 	{ 106	,1	,1	, &A0VT61LZ1},	//( - , Baz1) ПС по температуре в АЗ1
 	{ 107	,1	,1	, &A0VT71LZ1},	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
@@ -570,10 +570,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 117	,1	,1	, &B2VP51LZ1},	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
 	{ 118	,1	,1	, &B2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ2 в норме
 	{ 119	,1	,1	, &A2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ1 в норме
-	{ 120	,3	,1	, &A2IP01IZ1},	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-	{ 121	,3	,1	, &B2IP01IZ1},	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
+	{ 120	,3	,1	, &A2IP01IZ1},	//( - , MBz1S) Текущее давление СБРОС РБ1
+	{ 121	,3	,1	, &B2IP01IZ1},	//( - , MBz1S) Текущее давление СБРОС РБ2
 	{ 122	,1	,1	, &R0ET01LZ1},	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
-	{ 123	,3	,1	, &B0IT01IZ1},	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
+	{ 123	,3	,1	, &B0IT01IZ1},	//( - , MBz1S) Температура АЗ2-1
 	{ 124	,1	,1	, &A0VP41LZ1},	//( - , Baz1) Давление АЗ1 ниже АС
 	{ 125	,1	,1	, &A3IS11LDU},	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
 	{ 126	,1	,1	, &A3IS22LDU},	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
@@ -884,6 +884,10 @@ static ModbusRegister di_MBz1S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz1S[]={  // 
+	{&A0IT01IZ1,3,0},	//(A0IT01IZ1) Температура АЗ1-1
+	{&B0IT01IZ1,3,1},	//(B0IT01IZ1) Температура АЗ2-1
+	{&A2IP01IZ1,3,2},	//(A2IP01IZ1) Текущее давление СБРОС РБ1
+	{&B2IP01IZ1,3,3},	//(B2IP01IZ1) Текущее давление СБРОС РБ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -953,10 +957,6 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS84[]={
 	{&R0DE04LZ1,3,26},
-	{&A0IT01IZ1,3,0},
-	{&B0IT01IZ1,3,6},
-	{&B2IP01IZ1,3,9},
-	{&A2IP01IZ1,3,3},
 	{NULL,0,0},
 };
 #pragma pop
@@ -968,18 +968,18 @@ static table_drv table_VDS321={0,0,&ini_VDS321,buf_VDS321,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS321[]={
-	{&A3IS11LDU,1,8},
-	{&A3IS22LDU,1,10},
-	{&R0AD03LZ1,1,12},
-	{&A0VN71LS1,1,6},
-	{&R0AD05LZ1,1,16},
-	{&B2IS12LDU,1,20},
 	{&A0EE01LS1,1,4},
+	{&R0DE05LZ1,3,64},
+	{&B2IS12LDU,1,20},
 	{&R0AD04LZ1,1,14},
 	{&R0VN75LZ1,1,2},
 	{&R0VN71LZ1,1,0},
 	{&A2IS12LDU,1,18},
-	{&R0DE05LZ1,3,64},
+	{&R0AD05LZ1,1,16},
+	{&A0VN71LS1,1,6},
+	{&R0AD03LZ1,1,12},
+	{&A3IS22LDU,1,10},
+	{&A3IS11LDU,1,8},
 	{NULL,0,0},
 };
 #pragma pop
@@ -991,13 +991,13 @@ static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS322[]={
-	{&A0EE01LS2,1,4},
-	{&R0VN72LZ1,1,0},
-	{&R0VN76LZ1,1,2},
-	{&A0VN71LS2,1,6},
-	{&B3IS22LDU,1,22},
-	{&B3IS11LDU,1,8},
 	{&R0DE06LZ1,3,64},
+	{&A0VN71LS2,1,6},
+	{&R0VN76LZ1,1,2},
+	{&A0EE01LS2,1,4},
+	{&B3IS11LDU,1,8},
+	{&R0VN72LZ1,1,0},
+	{&B3IS22LDU,1,22},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1009,14 +1009,14 @@ static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS323[]={
-	{&R0VN74LZ1,1,0},
 	{&A0EE01LS4,1,4},
-	{&R6IS68LZZ,1,12},
 	{&R0DE07LZ1,3,64},
-	{&R6IS67LZZ,1,10},
-	{&R6IS66LZZ,1,8},
 	{&A0VN71LS4,1,6},
+	{&R6IS66LZZ,1,8},
+	{&R6IS67LZZ,1,10},
+	{&R6IS68LZZ,1,12},
 	{&R0VN78LZ1,1,2},
+	{&R0VN74LZ1,1,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1028,14 +1028,14 @@ static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS324[]={
-	{&R0DE08LZ1,3,64},
-	{&A0VN71LS3,1,6},
-	{&B1VP81LZZ,1,24},
 	{&A1VP81LZZ,1,18},
-	{&R0VN77LZ1,1,2},
+	{&B1VP81LZZ,1,24},
+	{&A0VN71LS3,1,6},
 	{&R7II73LZ1,1,12},
 	{&R7II71LZ1,1,8},
 	{&R7II72LZ1,1,10},
+	{&R0DE08LZ1,3,64},
+	{&R0VN77LZ1,1,2},
 	{&R0VN73LZ1,1,0},
 	{&A0VP81LZZ,1,16},
 	{&B0VP81LZZ,1,22},
@@ -1051,12 +1051,12 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&R0VZ71LZ1,1,8},
-	{&R0AD14LZ1,1,4},
-	{&R0DE0ALZ1,3,38},
 	{&A1VN71LZ1,1,6},
 	{&A3VZ15LZ1,1,2},
 	{&A3VZ13LZ1,1,0},
+	{&R0AD14LZ1,1,4},
+	{&R0VZ71LZ1,1,8},
+	{&R0DE0ALZ1,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1072,15 +1072,15 @@ static DriverRegister def_buf_SBKFP[]={
 	{&R0DEB4LZ1,1,24},
 	{&R0DEB2LZ1,1,20},
 	{&R0DEB1LZ1,1,18},
-	{&R0DE38LZ1,1,14},
+	{&R0DE36LZ1,1,10},
 	{&R0DE33LZ1,1,4},
 	{&R0DE34LZ1,1,6},
 	{&R0DE32LZ1,1,2},
 	{&R0DE31LZ1,1,0},
-	{&R0DE36LZ1,1,10},
+	{&R0DE37LZ1,1,12},
+	{&R0DE38LZ1,1,14},
 	{&R0DE39LZ1,1,16},
 	{&R0DE35LZ1,1,8},
-	{&R0DE37LZ1,1,12},
 	{NULL,0,0},
 };
 #pragma pop

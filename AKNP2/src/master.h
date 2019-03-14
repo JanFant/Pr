@@ -3,7 +3,7 @@
 // Подсистема AKNP2:AKNP2
 static char SimulOn=0;
 static short CodeSub=9;
-static char SimulIP[]="192.168.11.11\0";
+static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;

@@ -1904,16 +1904,16 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K01VASR"
-        DeviceName="VAS84"
+        InterfaceMB="MRPS"
+        ChannalName=""
+        DeviceName=""
         Line1="Температура АЗ1-3"
       }
       [VVV_DrawConst]{
@@ -2162,16 +2162,16 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K02VASR"
-        DeviceName="VAS84"
+        InterfaceMB="MRPS"
+        ChannalName=""
+        DeviceName=""
         Line1="Температура АЗ2-3"
       }
       [TDrawSignal]{
@@ -8946,4 +8946,4 @@
     }
   }
 }
-8582864
+8581837

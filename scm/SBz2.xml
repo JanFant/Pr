@@ -76,11 +76,11 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">1</value>
+            <value name="nID">5</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">0</value>
-            <value name="OldData">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -89,11 +89,11 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
-            <value name="nID">2</value>
+            <value name="nID">6</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">2</value>
-            <value name="OldData">2</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -102,11 +102,11 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">2</value>
-            <value name="nID">3</value>
+            <value name="nID">7</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">4</value>
-            <value name="OldData">4</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -115,11 +115,63 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">3</value>
-            <value name="nID">4</value>
+            <value name="nID">8</value>
             <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A0IT02IZ2</value>
+            <value name="description">(A0IT02IZ2) Температура АЗ1-2</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B0IT02IZ2</value>
+            <value name="description">(B0IT02IZ2) Температура АЗ2-2</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">2</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">3</value>
+            <value name="OldData">3</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A2IP01IZ2</value>
+            <value name="description">(A2IP01IZ2) Текущее давление СБРОС РБ1</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">3</value>
+            <value name="PType">130</value>
             <value name="Bf0">0</value>
             <value name="ParData">6</value>
             <value name="OldData">6</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B2IP01IZ2</value>
+            <value name="description">(B2IP01IZ2) Текущее давление СБРОС РБ2</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">3</value>
+            <value name="nID">4</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">9</value>
+            <value name="OldData">9</value>
             <value name="unitId">1</value>
         </record>
     </records>

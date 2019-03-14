@@ -3,7 +3,7 @@
 // Подсистема RPU:RPU
 static char SimulOn=0;
 static short CodeSub=8;
-static char SimulIP[]="192.168.11.11\0";
+static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=5;	 // Время цикла в ms
 float takt;
@@ -97,8 +97,8 @@ int nomer = 1;
 #define idR0DE34LRP	 41	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
 #define R0DE33LRP	 BUFFER[105]	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
 #define idR0DE33LRP	 42	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
-#define B0IT03IRP	 BUFFER[107]	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
-#define idB0IT03IRP	 43	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
+#define B0IT03IRP	 BUFFER[107]	//( - , MRPS) Температура АЗ2-3
+#define idB0IT03IRP	 43	//( - , MRPS) Температура АЗ2-3
 #define R0ET01LRP	 BUFFER[110]	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
 #define idR0ET01LRP	 44	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
 #define A0VT71LRP	 BUFFER[112]	//( - , RPU) АС по температуре в АЗ1
@@ -107,8 +107,8 @@ int nomer = 1;
 #define idA0VT61LRP	 46	//( - , RPU) ПС по температуре в АЗ1
 #define A0CT01IRP	 BUFFER[116]	//( - , RPU) Температура АЗ1-3
 #define idA0CT01IRP	 47	//( - , RPU) Температура АЗ1-3
-#define A0IT03IRP	 BUFFER[121]	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
-#define idA0IT03IRP	 48	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
+#define A0IT03IRP	 BUFFER[121]	//( - , MRPS) Температура АЗ1-3
+#define idA0IT03IRP	 48	//( - , MRPS) Температура АЗ1-3
 #define R0IN07RRP	 BUFFER[124]	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
 #define idR0IN07RRP	 49	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
 #define R7VN71LRP	 BUFFER[129]	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
@@ -305,12 +305,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 40	,1	,1	, &R0DE35LRP},	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
 	{ 41	,1	,1	, &R0DE34LRP},	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
 	{ 42	,1	,1	, &R0DE33LRP},	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
-	{ 43	,3	,1	, &B0IT03IRP},	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
+	{ 43	,3	,1	, &B0IT03IRP},	//( - , MRPS) Температура АЗ2-3
 	{ 44	,1	,1	, &R0ET01LRP},	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
 	{ 45	,1	,1	, &A0VT71LRP},	//( - , RPU) АС по температуре в АЗ1
 	{ 46	,1	,1	, &A0VT61LRP},	//( - , RPU) ПС по температуре в АЗ1
 	{ 47	,8	,1	, &A0CT01IRP},	//( - , RPU) Температура АЗ1-3
-	{ 48	,3	,1	, &A0IT03IRP},	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
+	{ 48	,3	,1	, &A0IT03IRP},	//( - , MRPS) Температура АЗ1-3
 	{ 49	,8	,1	, &R0IN07RRP},	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
 	{ 50	,1	,1	, &R7VN71LRP},	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
 	{ 51	,8	,1	, &R0IN06RRP},	//(vchs:03 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
@@ -514,7 +514,9 @@ static ModbusRegister ir_MRPS[]={  //
 	{&R0IN03RIP,8,4},	//(R0IN03RIP) Выход КНК53М Гц от ПТИ
 	{&R0IN06RIP,8,6},	//(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ
 	{&R0IN07RIP,8,8},	//(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ
-	{&R0IS01FI0,3,10},	//(R0IS01FI0) Признак работы с имитатором
+	{&B0IT03IRP,3,10},	//(B0IT03IRP) Температура АЗ2-3
+	{&A0IT03IRP,3,11},	//(A0IT03IRP) Температура АЗ1-3
+	{&R0IS01FI0,3,12},	//(R0IS01FI0) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -609,8 +611,8 @@ static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS03[]={
-	{&R0IN06RRP,8,0},
 	{&R0IN07RRP,8,5},
+	{&R0IN06RRP,8,0},
 	{&R0DE03LRP,3,10},
 	{NULL,0,0},
 };
@@ -624,8 +626,6 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS84[]={
 	{&R0DE06LRP,3,26},
-	{&B0IT03IRP,3,3},
-	{&A0IT03IRP,3,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -638,19 +638,19 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
 	{&R0DE07LRP,3,64},
+	{&B2IS21LRP,1,24},
 	{&R0IE11LRP,1,4},
+	{&A2IS21LRP,1,18},
 	{&R0IE12LRP,1,6},
 	{&R0IE13LRP,1,8},
 	{&R0IE14LRP,1,0},
 	{&R0IE15LRP,1,2},
-	{&B1IS21LRP,1,22},
-	{&A1IS21LRP,1,16},
-	{&C1MZ31LRP,1,12},
 	{&C1MD31LRP,1,10},
-	{&B2IS21LRP,1,24},
+	{&C1MZ31LRP,1,12},
+	{&B1IS21LRP,1,22},
 	{&A6IS11LRP,1,26},
 	{&B6IS11LRP,1,28},
-	{&A2IS21LRP,1,18},
+	{&A1IS21LRP,1,16},
 	{&A3IS21LRP,1,14},
 	{&B3IS21LRP,1,20},
 	{NULL,0,0},
@@ -664,18 +664,18 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&B3VS21LRP,1,10},
-	{&R0VN71LRP,1,22},
-	{&A1VT71LRP,1,20},
 	{&A3VS21LRP,1,8},
 	{&B2VS21LRP,1,6},
 	{&A2VS21LRP,1,4},
+	{&B1VS21LRP,1,2},
+	{&A1VS21LRP,1,0},
+	{&R0IE02LRP,1,12},
+	{&R0IE01LRP,1,14},
+	{&B3VS21LRP,1,10},
+	{&R0VN71LRP,1,22},
+	{&A1VT71LRP,1,20},
 	{&R0IE04LRP,1,18},
 	{&R0IE03LRP,1,16},
-	{&B1VS21LRP,1,2},
-	{&R0IE01LRP,1,14},
-	{&R0IE02LRP,1,12},
-	{&A1VS21LRP,1,0},
 	{&R0DE08LRP,3,38},
 	{NULL,0,0},
 };
@@ -688,19 +688,19 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
-	{&R0DE32LRP,1,2},
-	{&R0DE33LRP,1,4},
 	{&R0DE31LRP,1,0},
-	{&R0DE34LRP,1,6},
+	{&R0DE32LRP,1,2},
 	{&R0DEB3LRP,1,22},
+	{&R0DEB4LRP,1,24},
+	{&R0DEB2LRP,1,20},
+	{&R0DE33LRP,1,4},
+	{&R0DEB1LRP,1,18},
+	{&R0DE39LRP,1,16},
+	{&R0DE34LRP,1,6},
+	{&R0DE38LRP,1,14},
 	{&R0DE35LRP,1,8},
 	{&R0DE36LRP,1,10},
 	{&R0DE37LRP,1,12},
-	{&R0DE38LRP,1,14},
-	{&R0DE39LRP,1,16},
-	{&R0DEB1LRP,1,18},
-	{&R0DEB4LRP,1,24},
-	{&R0DEB2LRP,1,20},
 	{NULL,0,0},
 };
 #pragma pop
