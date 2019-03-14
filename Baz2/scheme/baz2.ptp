@@ -7,9 +7,9 @@
   DBSName=""
   SinonimName=""
   VariableName=""
-  SignalsXMLName="D:\md\pti\pr\Baz2\scheme\var.xml"
-  ConstsXMLName="D:\md\pti\pr\Baz2\scheme\save.xml"
-  AssignXMLName="D:\md\pti\pr\Baz2\scheme\ass.xml"
+  SignalsXMLName="D:\md\pti\pr\Baz2\varBaz2.xml"
+  ConstsXMLName="D:\md\pti\pr\Baz2\saveBaz2.xml"
+  AssignXMLName="D:\md\pti\pr\Baz2\Baz2ass.xml"
   PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-47455
+46297

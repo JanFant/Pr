@@ -7,9 +7,9 @@
   DBSName=""
   SinonimName=""
   VariableName=""
-  SignalsXMLName="D:\md\pti\pr\DU\scheme\var.xml"
-  ConstsXMLName="D:\md\pti\pr\DU\scheme\save.xml"
-  AssignXMLName="D:\md\pti\pr\DU\scheme\ass.xml"
+  SignalsXMLName="D:\md\pti\pr\DU\varDU.xml"
+  ConstsXMLName="D:\md\pti\pr\DU\saveDU.xml"
+  AssignXMLName="D:\md\pti\pr\DU\DUass.xml"
   PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-45849
+44145

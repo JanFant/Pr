@@ -7,9 +7,9 @@
   DBSName=""
   SinonimName=""
   VariableName=""
-  SignalsXMLName="D:\md\pti\pr\AKNP3\scheme\var.xml"
-  ConstsXMLName="D:\md\pti\pr\AKNP3\scheme\save.xml"
-  AssignXMLName="D:\md\pti\pr\AKNP3\scheme\ass.xml"
+  SignalsXMLName="D:\md\pti\pr\AKNP3\varAKNP3.xml"
+  ConstsXMLName="D:\md\pti\pr\AKNP3\saveAKNP3.xml"
+  AssignXMLName="D:\md\pti\pr\AKNP3\AKNP3ass.xml"
   PlatformType=5
   ModuleType=3
   intESPPZU_Size=1024
@@ -21,4 +21,4 @@
   FuncName="Scheme"
   IsImitator=FALSE
 }
-47677
+46561
