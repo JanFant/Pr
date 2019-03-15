@@ -6,8 +6,8 @@
 <var  name="A6IS11LDU" description="(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1" format="1"></var>
 <var  name="A8IS12LDU" description="(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2" format="1"></var>
 <var  name="A8IS22LDU" description="(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2" format="1"></var>
-<var  name="B8IS12LDU" description="(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2" format="1"></var>
-<var  name="B8IS22LDU" description="(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2" format="1"></var>
+<var  name="B8IS12LDU" description="(do32_pti:150 - K06DO, - ) Приход на ВУ2 АЗ2" format="1"></var>
+<var  name="B8IS22LDU" description="(do32_pti:150 - K07DO, - ) Приход на НУ2 АЗ2" format="1"></var>
 <var  name="R4IS12LDU" description="(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки" format="1"></var>
 <var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки" format="1"></var>
 <var  name="R4IS21LDU" description="(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки" format="1"></var>
@@ -134,8 +134,8 @@
 <var  name="B6VS22LDU" description="( - , SCM) Движение створок БЗ2  к ЗАКРЫТА" format="1"></var>
 <var  name="A6VS12LDU" description="( - , SCM) Движение створок БЗ1  к  ОТКРЫТА" format="1"></var>
 <var  name="A6VS22LDU" description="( - , SCM) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
-<var  name="B8IS21LDU" description="(do32_pti:140 - K12DO, - ) Приход на НУ1 АЗ2" format="1"></var>
-<var  name="B8IS11LDU" description="(do32_pti:140 - K11DO, - ) Приход на ВУ1 АЗ2" format="1"></var>
+<var  name="B8IS21LDU" description="(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2" format="1"></var>
+<var  name="B8IS11LDU" description="(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2" format="1"></var>
 <var  name="A1VP81LZZ" description="(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме" format="1"></var>
 <var  name="B8AD20LDU" description="(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад" format="1"></var>
 <var  name="B8AD10LDU" description="(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед" format="1"></var>

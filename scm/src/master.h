@@ -23,10 +23,10 @@ static char BUFFER[3287];
 #define idA8IS12LDU	 6	//(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2
 #define A8IS22LDU	 BUFFER[12]	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
 #define idA8IS22LDU	 7	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
-#define B8IS12LDU	 BUFFER[14]	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
-#define idB8IS12LDU	 8	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
-#define B8IS22LDU	 BUFFER[16]	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
-#define idB8IS22LDU	 9	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
+#define B8IS12LDU	 BUFFER[14]	//(do32_pti:150 - K06DO, - ) Приход на ВУ2 АЗ2
+#define idB8IS12LDU	 8	//(do32_pti:150 - K06DO, - ) Приход на ВУ2 АЗ2
+#define B8IS22LDU	 BUFFER[16]	//(do32_pti:150 - K07DO, - ) Приход на НУ2 АЗ2
+#define idB8IS22LDU	 9	//(do32_pti:150 - K07DO, - ) Приход на НУ2 АЗ2
 #define R4IS12LDU	 BUFFER[18]	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
 #define idR4IS12LDU	 10	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
 #define R4IS22LDU	 BUFFER[20]	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
@@ -279,10 +279,10 @@ static char BUFFER[3287];
 #define idA6VS12LDU	 134	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
 #define A6VS22LDU	 BUFFER[379]	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
 #define idA6VS22LDU	 135	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
-#define B8IS21LDU	 BUFFER[381]	//(do32_pti:140 - K12DO, - ) Приход на НУ1 АЗ2
-#define idB8IS21LDU	 136	//(do32_pti:140 - K12DO, - ) Приход на НУ1 АЗ2
-#define B8IS11LDU	 BUFFER[383]	//(do32_pti:140 - K11DO, - ) Приход на ВУ1 АЗ2
-#define idB8IS11LDU	 137	//(do32_pti:140 - K11DO, - ) Приход на ВУ1 АЗ2
+#define B8IS21LDU	 BUFFER[381]	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
+#define idB8IS21LDU	 136	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
+#define B8IS11LDU	 BUFFER[383]	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
+#define idB8IS11LDU	 137	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
 #define A1VP81LZZ	 BUFFER[385]	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 #define idA1VP81LZZ	 138	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 #define B8AD20LDU	 BUFFER[387]	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
@@ -2018,8 +2018,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 5	,1	,1	, &A6IS11LDU},	//(do32_pti:150 - K18DO, - ) Приход на ВУ БЗ1
 	{ 6	,1	,1	, &A8IS12LDU},	//(do32_pti:150 - K15DO, - ) Приход на механический ВУ ДС2
 	{ 7	,1	,1	, &A8IS22LDU},	//(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2
-	{ 8	,1	,1	, &B8IS12LDU},	//(do32_pti:140 - K09DO, - ) Приход на ВУ2 АЗ2
-	{ 9	,1	,1	, &B8IS22LDU},	//(do32_pti:140 - K10DO, - ) Приход на НУ2 АЗ2
+	{ 8	,1	,1	, &B8IS12LDU},	//(do32_pti:150 - K06DO, - ) Приход на ВУ2 АЗ2
+	{ 9	,1	,1	, &B8IS22LDU},	//(do32_pti:150 - K07DO, - ) Приход на НУ2 АЗ2
 	{ 10	,1	,1	, &R4IS12LDU},	//(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки
 	{ 11	,1	,1	, &R4IS22LDU},	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
 	{ 12	,1	,1	, &R4IS21LDU},	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
@@ -2146,8 +2146,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 133	,1	,1	, &B6VS22LDU},	//( - , SCM) Движение створок БЗ2  к ЗАКРЫТА
 	{ 134	,1	,1	, &A6VS12LDU},	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
 	{ 135	,1	,1	, &A6VS22LDU},	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
-	{ 136	,1	,1	, &B8IS21LDU},	//(do32_pti:140 - K12DO, - ) Приход на НУ1 АЗ2
-	{ 137	,1	,1	, &B8IS11LDU},	//(do32_pti:140 - K11DO, - ) Приход на ВУ1 АЗ2
+	{ 136	,1	,1	, &B8IS21LDU},	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
+	{ 137	,1	,1	, &B8IS11LDU},	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
 	{ 138	,1	,1	, &A1VP81LZZ},	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 	{ 139	,1	,1	, &B8AD20LDU},	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
 	{ 140	,1	,1	, &B8AD10LDU},	//(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед
@@ -4129,18 +4129,18 @@ static table_drv table_AO1601={0,0,&ini_AO1601,buf_AO1601,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_AO1601[]={
-	{&A0IT01IZ1,3,0},
+	{&B0IT02IZ2,3,18},
+	{&B0IT01IZ1,3,6},
+	{&A0IT02IZ2,3,12},
 	{&B2IP01IZ2,3,21},
 	{&B2IP01IZ1,3,9},
-	{&A0IT02IZ2,3,12},
-	{&A0IT03IRP,3,30},
-	{&B0IT03IRP,3,33},
-	{&B0IT01IZ1,3,6},
 	{&A3IP02IDU,3,24},
-	{&A2IP01IZ1,3,3},
 	{&B3IP02IDU,3,27},
-	{&B0IT02IZ2,3,18},
 	{&A2IP01IZ2,3,15},
+	{&A2IP01IZ1,3,3},
+	{&A0IT01IZ1,3,0},
+	{&B0IT03IRP,3,33},
+	{&A0IT03IRP,3,30},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4153,19 +4153,19 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
 	{&R7II73LZ1,1,50},
-	{&R7II71LZ1,1,46},
-	{&A3IS22LDU,1,10},
+	{&A3IS11LDU,1,8},
 	{&B3IS11LDU,1,20},
 	{&A1VP81LZZ,1,54},
-	{&A3IS11LDU,1,8},
-	{&R7II72LZ1,1,48},
-	{&B1VP81LZZ,1,60},
-	{&R6IS66LZZ,1,32},
-	{&R6IS67LZZ,1,34},
-	{&R6IS68LZZ,1,36},
-	{&A0VP81LZZ,1,52},
-	{&B0VP81LZZ,1,58},
+	{&A3IS22LDU,1,10},
 	{&B3IS22LDU,1,22},
+	{&R7II71LZ1,1,46},
+	{&R7II72LZ1,1,48},
+	{&B0VP81LZZ,1,58},
+	{&A0VP81LZZ,1,52},
+	{&R6IS68LZZ,1,36},
+	{&R6IS67LZZ,1,34},
+	{&R6IS66LZZ,1,32},
+	{&B1VP81LZZ,1,60},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4177,8 +4177,8 @@ static table_drv table_DO32_5F02={0,0,&ini_DO32_5F02,buf_DO32_5F02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F02[]={
-	{&R7II71LZ2,1,46},
 	{&R7II72LZ2,1,48},
+	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
 	{NULL,0,0},
 };
@@ -4191,27 +4191,27 @@ static table_drv table_DO32_5F08={0,0,&ini_DO32_5F08,buf_DO32_5F08,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F08[]={
-	{&B3IS21LDU,1,24},
-	{&R2IS11LDU,1,46},
-	{&R2IS21LDU,1,48},
-	{&B2IS21LDU,1,22},
-	{&B2IS11LDU,1,20},
 	{&B2IS12LDU,1,18},
+	{&B2IS11LDU,1,20},
 	{&A4IS11LDU,1,30},
 	{&A4IS21LDU,1,32},
 	{&R8IS11LDU,1,26},
-	{&A7AS31LDU,1,60},
-	{&B7AS31LDU,1,10},
+	{&B1IS12LDU,1,12},
+	{&B3IS21LDU,1,24},
 	{&R1IS11LDU,1,42},
 	{&R1IS21LDU,1,44},
+	{&B2IS21LDU,1,22},
+	{&B1IS11LDU,1,14},
+	{&B1IS21LDU,1,16},
+	{&R2IS21LDU,1,48},
+	{&R2IS11LDU,1,46},
+	{&A7AS31LDU,1,60},
+	{&A1IS12LDU,1,62},
 	{&A9IS11LDU,1,34},
 	{&A9IS21LDU,1,36},
 	{&B9IS11LDU,1,38},
 	{&B9IS21LDU,1,40},
-	{&A1IS12LDU,1,62},
-	{&B1IS21LDU,1,16},
-	{&B1IS11LDU,1,14},
-	{&B1IS12LDU,1,12},
+	{&B7AS31LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4223,13 +4223,11 @@ static table_drv table_DO32_5F09={0,0,&ini_DO32_5F09,buf_DO32_5F09,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F09[]={
-	{&A2IS21LDU,1,8},
-	{&A3IS21LDU,1,10},
 	{&A2IS12LDU,1,4},
 	{&A2IS11LDU,1,6},
+	{&A3IS21LDU,1,10},
+	{&A2IS21LDU,1,8},
 	{&R0IS02LDU,1,32},
-	{&B8IS21LDU,1,22},
-	{&B8IS11LDU,1,20},
 	{&B4IS11LDU,1,12},
 	{&B4IS21LDU,1,14},
 	{&A5IS11LDU,1,54},
@@ -4240,8 +4238,6 @@ static DriverRegister def_buf_DO32_5F09[]={
 	{&R4IS21LDU,1,46},
 	{&R4IS22LDU,1,48},
 	{&R4IS12LDU,1,44},
-	{&B8IS22LDU,1,18},
-	{&B8IS12LDU,1,16},
 	{&A6IS21LDU,1,52},
 	{&B6IS11LDU,1,58},
 	{&B6IS21LDU,1,60},
@@ -4257,14 +4253,18 @@ static table_drv table_DO32_5F05={0,0,&ini_DO32_5F05,buf_DO32_5F05,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F05[]={
+	{&B8IS22LDU,1,12},
+	{&B8IS12LDU,1,10},
+	{&A8IS22LDU,1,30},
+	{&A8IS12LDU,1,28},
+	{&A6IS11LDU,1,34},
+	{&R3IS21LDU,1,4},
 	{&R5IS11LDU,1,18},
 	{&R5IS21LDU,1,20},
-	{&A8IS12LDU,1,28},
-	{&R3IS21LDU,1,4},
-	{&R3IS11LDU,1,2},
-	{&A8IS22LDU,1,30},
-	{&A6IS11LDU,1,34},
+	{&B8IS11LDU,1,6},
+	{&B8IS21LDU,1,8},
 	{&R6IS21LDU,1,26},
+	{&R3IS11LDU,1,2},
 	{&B5IS21LDU,1,0},
 	{NULL,0,0},
 };
@@ -4306,11 +4306,12 @@ static DriverRegister def_buf_VDS32F07[]={
 	{&A2AD33LDU,1,26},
 	{&B7AP31LDU,1,60},
 	{&A3AD34LDU,1,22},
+	{&A7AP31LDU,1,32},
+	{&A3AD31LDU,1,30},
 	{&A8AD10LDU,1,62},
 	{&B3AD34LDU,1,50},
 	{&R1AD10LDU,1,34},
 	{&R1AD20LDU,1,36},
-	{&A3AD31LDU,1,30},
 	{&R2AD10LDU,1,38},
 	{&R2AD20LDU,1,40},
 	{&A5AD10LDU,1,42},
@@ -4321,9 +4322,8 @@ static DriverRegister def_buf_VDS32F07[]={
 	{&A4AD10LDU,1,28},
 	{&B4AD10LDU,1,56},
 	{&B3AD33LDU,1,52},
-	{&B3AD31LDU,1,58},
 	{&B2AD33LDU,1,54},
-	{&A7AP31LDU,1,32},
+	{&B3AD31LDU,1,58},
 	{NULL,0,0},
 };
 #pragma pop
