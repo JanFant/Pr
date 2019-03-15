@@ -281,8 +281,8 @@ static char BUFFER[3287];
 #define idA6VS22LDU	 135	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
 #define B8IS21LDU	 BUFFER[381]	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
 #define idB8IS21LDU	 136	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
-#define B8IS11LDU	 BUFFER[383]	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
-#define idB8IS11LDU	 137	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
+#define B8IS11LDU	 BUFFER[383]	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
+#define idB8IS11LDU	 137	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
 #define A1VP81LZZ	 BUFFER[385]	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 #define idA1VP81LZZ	 138	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 #define B8AD20LDU	 BUFFER[387]	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
@@ -2147,7 +2147,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 134	,1	,1	, &A6VS12LDU},	//( - , SCM) Движение створок БЗ1  к  ОТКРЫТА
 	{ 135	,1	,1	, &A6VS22LDU},	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
 	{ 136	,1	,1	, &B8IS21LDU},	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
-	{ 137	,1	,1	, &B8IS11LDU},	//(do32_pti:150 - K04DO, - ) Приход на ВУ1 АЗ2
+	{ 137	,1	,1	, &B8IS11LDU},	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
 	{ 138	,1	,1	, &A1VP81LZZ},	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 	{ 139	,1	,1	, &B8AD20LDU},	//(vds32_pti:360 - K09VDSR, - ) Перемещение АЗ2 назад
 	{ 140	,1	,1	, &B8AD10LDU},	//(vds32_pti:360 - K08VDSR, - ) Перемещение АЗ2 вперед
@@ -4261,7 +4261,7 @@ static DriverRegister def_buf_DO32_5F05[]={
 	{&R3IS21LDU,1,4},
 	{&R5IS11LDU,1,18},
 	{&R5IS21LDU,1,20},
-	{&B8IS11LDU,1,6},
+	{&B8IS11LDU,1,14},
 	{&B8IS21LDU,1,8},
 	{&R6IS21LDU,1,26},
 	{&R3IS11LDU,1,2},
