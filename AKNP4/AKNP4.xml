@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0EE04LZ2</value>
-            <value name="description">(R0EE04LZ2) Питание  АКНП4  отключить</value>
+            <value name="description">( - , AKNP4) Питание  АКНП4  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0EE04LZ1</value>
-            <value name="description">(R0EE04LZ1) Питание  АКНП4  отключить</value>
+            <value name="description">( - , AKNP4) Питание  АКНП4  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">TestDiagnAKNP4</value>
-            <value name="description">(TestDiagnAKNP4) Неисправность от диагностики</value>
+            <value name="description">( - , AKNP4) Неисправность от диагностики</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">A0EE02LS4</value>
-            <value name="description">(A0EE02LS4) Исправность АКНП4 (от сшивки каналов) канал 4</value>
+            <value name="description">( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R0VN65LS4</value>
-            <value name="description">(R0VN65LS4) ПС по периоду разгона канал 4</value>
+            <value name="description">( - , AKNP4) ПС по периоду разгона канал 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">R0VN61LS4</value>
-            <value name="description">(R0VN61LS4) ПС по мощности канал 4</value>
+            <value name="description">( - , AKNP4) ПС по мощности канал 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -150,7 +150,7 @@
         </record>
         <record>
             <value name="name">R0IN02FS4</value>
-            <value name="description">(R0IN02FS4) Выход КНК15-1 Гц</value>
+            <value name="description">( - K02VCHS, AKNP4) Выход КНК15-1 Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -163,7 +163,7 @@
         </record>
         <record>
             <value name="name">TTLaknp4</value>
-            <value name="description">(TTLaknp4) ttl</value>
+            <value name="description">( - , AKNP4) ttl</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">2</value>
@@ -176,7 +176,7 @@
         </record>
         <record>
             <value name="name">R0VN15RS4</value>
-            <value name="description">(R0VN15RS4) Номер ведущей камеры канал 4</value>
+            <value name="description">( - , AKNP4) Номер ведущей камеры канал 4</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>
@@ -189,7 +189,7 @@
         </record>
         <record>
             <value name="name">R0VN33RS4</value>
-            <value name="description">(R0VN33RS4) Нейтронный поток по камере КНК53М канал 4</value>
+            <value name="description">( - , AKNP4) Нейтронный поток по камере КНК53М канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -202,7 +202,7 @@
         </record>
         <record>
             <value name="name">R0VN23RS4</value>
-            <value name="description">(R0VN23RS4) Нейтронный поток по камере КНК15-1 канал 4</value>
+            <value name="description">( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -215,7 +215,7 @@
         </record>
         <record>
             <value name="name">R0VN13RS4</value>
-            <value name="description">(R0VN13RS4) Нейтронный поток по камере СНМ11 канал 4</value>
+            <value name="description">( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -228,7 +228,7 @@
         </record>
         <record>
             <value name="name">R0IN03FS4</value>
-            <value name="description">(R0IN03FS4) Выход КНК53М Гц</value>
+            <value name="description">( - K01VCHS, AKNP4) Выход КНК53М Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">10</value>
@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">R0VN04RS4</value>
-            <value name="description">(R0VN04RS4) Реактивность канал 4</value>
+            <value name="description">( - , AKNP4) Реактивность канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">12</value>
@@ -254,7 +254,7 @@
         </record>
         <record>
             <value name="name">R0VN03RS4</value>
-            <value name="description">(R0VN03RS4) Измеренный нейтронный поток канал 4</value>
+            <value name="description">( - , AKNP4) Измеренный нейтронный поток канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">14</value>
@@ -267,7 +267,7 @@
         </record>
         <record>
             <value name="name">R0IN01FS4</value>
-            <value name="description">(R0IN01FS4) Выход СНМ-11 Гц</value>
+            <value name="description">( - K01VCHS, AKNP4) Выход СНМ-11 Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">16</value>
@@ -280,7 +280,7 @@
         </record>
         <record>
             <value name="name">R0VN01RS4</value>
-            <value name="description">(R0VN01RS4) Период разгона канал 4</value>
+            <value name="description">( - , AKNP4) Период разгона канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">18</value>
@@ -293,7 +293,7 @@
         </record>
         <record>
             <value name="name">R0VN02RS4</value>
-            <value name="description">(R0VN02RS4) Уровень мощности канал 4</value>
+            <value name="description">( - , AKNP4) Уровень мощности канал 4</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">20</value>
@@ -306,7 +306,7 @@
         </record>
         <record>
             <value name="name">B8VC01RDU</value>
-            <value name="description">(B8VC01RDU) Координата АЗ2, мм</value>
+            <value name="description">( - , AKNP4) Координата АЗ2, мм</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -319,7 +319,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UR01RSS</value>
-            <value name="description">(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)</value>
+            <value name="description">( - , AKNP4) Уставка АКНП ПС  АЗ по периоду (сек)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -332,7 +332,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UL52RSS</value>
-            <value name="description">(R0UL52RSS) Уровень АС по мощности</value>
+            <value name="description">( - , AKNP4) Уровень АС по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -345,7 +345,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UL41RSS</value>
-            <value name="description">(R0UL41RSS) Уровень ПС по периоду разгона</value>
+            <value name="description">( - , AKNP4) Уровень ПС по периоду разгона</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -358,7 +358,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UL51RSS</value>
-            <value name="description">(R0UL51RSS) Уровень АС по периоду разгона</value>
+            <value name="description">( - , AKNP4) Уровень АС по периоду разгона</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -371,7 +371,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UH02RSS</value>
-            <value name="description">(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1</value>
+            <value name="description">( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК15-1</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">10</value>
@@ -384,7 +384,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UH03RSS</value>
-            <value name="description">(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М</value>
+            <value name="description">( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК53М</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">12</value>
@@ -397,7 +397,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UL42RSS</value>
-            <value name="description">(R0UL42RSS) Уровень ПС по мощности</value>
+            <value name="description">( - , AKNP4) Уровень ПС по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">14</value>
@@ -410,7 +410,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UX00RSS</value>
-            <value name="description">(R7UX00RSS) X-координата АЗ1 (см)</value>
+            <value name="description">( - , AKNP4) X-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">16</value>
@@ -423,7 +423,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UY00RSS</value>
-            <value name="description">(R7UY00RSS) Y-координата АЗ1 (см)</value>
+            <value name="description">( - , AKNP4) Y-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">18</value>
@@ -436,7 +436,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UX10RSS</value>
-            <value name="description">(R7UX10RSS) X-координата камеры R7IN41</value>
+            <value name="description">( - , AKNP4) X-координата камеры R7IN41</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">20</value>
@@ -449,7 +449,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UX11RSS</value>
-            <value name="description">(R7UX11RSS) X-координата камеры R7IN42</value>
+            <value name="description">( - , AKNP4) X-координата камеры R7IN42</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">22</value>
@@ -462,7 +462,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UX12RSS</value>
-            <value name="description">(R7UX12RSS) X-координата камеры R7IN43</value>
+            <value name="description">( - , AKNP4) X-координата камеры R7IN43</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">24</value>
@@ -475,7 +475,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UY10RSS</value>
-            <value name="description">(R7UY10RSS) Y-координата камеры R7IN41</value>
+            <value name="description">( - , AKNP4) Y-координата камеры R7IN41</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">26</value>
@@ -488,7 +488,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UY11RSS</value>
-            <value name="description">(R7UY11RSS) Y-координата камеры R7IN42</value>
+            <value name="description">( - , AKNP4) Y-координата камеры R7IN42</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">28</value>
@@ -501,7 +501,7 @@
         </record>
         <record>
             <value name="name">fEM_R7UY12RSS</value>
-            <value name="description">(R7UY12RSS) Y-координата камеры R7IN43</value>
+            <value name="description">( - , AKNP4) Y-координата камеры R7IN43</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">30</value>
@@ -514,7 +514,7 @@
         </record>
         <record>
             <value name="name">fEM_A0UX00RSS</value>
-            <value name="description">(A0UX00RSS) Эффективный радиус АЗ</value>
+            <value name="description">( - , AKNP4) Эффективный радиус АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">32</value>
@@ -527,7 +527,7 @@
         </record>
         <record>
             <value name="name">fEM_A0UX10RSS</value>
-            <value name="description">(A0UX10RSS) Первый коэффициент калибровки камеры 10</value>
+            <value name="description">( - , AKNP4) Первый коэффициент калибровки камеры 10</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">34</value>
@@ -540,7 +540,7 @@
         </record>
         <record>
             <value name="name">fEM_A0UX11RSS</value>
-            <value name="description">(A0UX11RSS) Первый коэффициент калибровки камеры 11</value>
+            <value name="description">( - , AKNP4) Первый коэффициент калибровки камеры 11</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">36</value>
@@ -553,7 +553,7 @@
         </record>
         <record>
             <value name="name">fEM_A0UX12RSS</value>
-            <value name="description">(A0UX12RSS) Первый коэффициент калибровки камеры 12</value>
+            <value name="description">( - , AKNP4) Первый коэффициент калибровки камеры 12</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">38</value>
@@ -566,7 +566,7 @@
         </record>
         <record>
             <value name="name">fEM_B0UX10RSS</value>
-            <value name="description">(B0UX10RSS) Второй коэффициент калибровки камеры 10</value>
+            <value name="description">( - , AKNP4) Второй коэффициент калибровки камеры 10</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">40</value>
@@ -579,7 +579,7 @@
         </record>
         <record>
             <value name="name">fEM_B0UX11RSS</value>
-            <value name="description">(B0UX11RSS) Второй коэффициент калибровки камеры 11</value>
+            <value name="description">( - , AKNP4) Второй коэффициент калибровки камеры 11</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">42</value>
@@ -592,7 +592,7 @@
         </record>
         <record>
             <value name="name">fEM_B0UX12RSS</value>
-            <value name="description">(B0UX12RSS) Второй коэффициент калибровки камеры 12</value>
+            <value name="description">( - , AKNP4) Второй коэффициент калибровки камеры 12</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">44</value>
@@ -605,7 +605,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UH05RSS</value>
-            <value name="description">(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6</value>
+            <value name="description">( - , AKNP4) Кол-во делений/сек на 1 ватт * E^6</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">46</value>
@@ -618,7 +618,7 @@
         </record>
         <record>
             <value name="name">iEM_R0UL01ISS</value>
-            <value name="description">(R0UL01ISS) Шаг (мс) измерения периода</value>
+            <value name="description">( - , AKNP4) Шаг (мс) измерения периода</value>
             <value name="type">3</value>
             <value name="format">3</value>
             <value name="address">48</value>
@@ -631,7 +631,7 @@
         </record>
         <record>
             <value name="name">dEM_R0UL02USS</value>
-            <value name="description">(R0UL02USS) Предельное время ожидания роста потока (мс)</value>
+            <value name="description">( - , AKNP4) Предельное время ожидания роста потока (мс)</value>
             <value name="type">3</value>
             <value name="format">5</value>
             <value name="address">49</value>
@@ -644,7 +644,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UN03RSS</value>
-            <value name="description">(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)</value>
+            <value name="description">( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">51</value>

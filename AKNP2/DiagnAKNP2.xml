@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0DEB4LS2</value>
-            <value name="description">(R0DEB4LS2) диагностика шкафа АКНП2 БП24Д место 8</value>
+            <value name="description">( - S13SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0DEB3LS2</value>
-            <value name="description">(R0DEB3LS2) диагностика шкафа АКНП2 БП5 место 8</value>
+            <value name="description">( - S12SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП5 место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">R0DEB2LS2</value>
-            <value name="description">(R0DEB2LS2) диагностика шкафа АКНП2 БП24Д место 7</value>
+            <value name="description">( - S11SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">R0DEB1LS2</value>
-            <value name="description">(R0DEB1LS2) диагностика шкафа АКНП2 БП5 место 7</value>
+            <value name="description">( - S10SBK, DiagnAKNP2) диагностика шкафа АКНП2 БП5 место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R0DE3DLS2</value>
-            <value name="description">(R0DE3DLS2) диагностика шкафа АКНП2 БП5/24Д место 8</value>
+            <value name="description">( - , DiagnAKNP2) диагностика шкафа АКНП2 БП5/24Д место 8</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">R0DE3CLS2</value>
-            <value name="description">(R0DE3CLS2) диагностика шкафа АКНП2 БП5/24Д место 7</value>
+            <value name="description">( - , DiagnAKNP2) диагностика шкафа АКНП2 БП5/24Д место 7</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
@@ -150,7 +150,7 @@
         </record>
         <record>
             <value name="name">R0DE39LS2</value>
-            <value name="description">(R0DE39LS2) диагностика шкафа АКНП2 МП24-2 место 4</value>
+            <value name="description">( - S09SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП24-2 место 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -163,7 +163,7 @@
         </record>
         <record>
             <value name="name">R0DE38LS2</value>
-            <value name="description">(R0DE38LS2) диагностика шкафа АКНП2 МП15-3 место 3</value>
+            <value name="description">( - S08SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП15-3 место 3</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -176,7 +176,7 @@
         </record>
         <record>
             <value name="name">R0DE37LS2</value>
-            <value name="description">(R0DE37LS2) диагностика шкафа АКНП2 МП15-3.1 место 2</value>
+            <value name="description">( - S07SBK, DiagnAKNP2) диагностика шкафа АКНП2 МП15-3.1 место 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
@@ -189,7 +189,7 @@
         </record>
         <record>
             <value name="name">R0DE35LS2</value>
-            <value name="description">(R0DE35LS2) диагностика шкафа АКНП2 температура больше 53</value>
+            <value name="description">( - S05SBK, DiagnAKNP2) диагностика шкафа АКНП2 температура больше 53</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
@@ -202,7 +202,7 @@
         </record>
         <record>
             <value name="name">R0DE34LS2</value>
-            <value name="description">(R0DE34LS2) диагностика шкафа АКНП2 температура меньше 43</value>
+            <value name="description">( - S04SBK, DiagnAKNP2) диагностика шкафа АКНП2 температура меньше 43</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
@@ -215,7 +215,7 @@
         </record>
         <record>
             <value name="name">R0DE33LS2</value>
-            <value name="description">(R0DE33LS2) диагностика шкафа АКНП2 двери</value>
+            <value name="description">( - S03SBK, DiagnAKNP2) диагностика шкафа АКНП2 двери</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
@@ -228,7 +228,7 @@
         </record>
         <record>
             <value name="name">R0DE32LS2</value>
-            <value name="description">(R0DE32LS2) диагностика шкафа АКНП2 сеть 2</value>
+            <value name="description">( - S02SBK, DiagnAKNP2) диагностика шкафа АКНП2 сеть 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">R0DE31LS2</value>
-            <value name="description">(R0DE31LS2) диагностика шкафа АКНП2 сеть 1</value>
+            <value name="description">( - S01SBK, DiagnAKNP2) диагностика шкафа АКНП2 сеть 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">13</value>
@@ -254,7 +254,7 @@
         </record>
         <record>
             <value name="name">R0DE05LS2</value>
-            <value name="description">(R0DE05LS2) диагностика модуля АКНП2 на 5 месте</value>
+            <value name="description">( - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 5 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
@@ -267,7 +267,7 @@
         </record>
         <record>
             <value name="name">R0DE04LS2</value>
-            <value name="description">(R0DE04LS2) диагностика модуля АКНП2 на 4 месте</value>
+            <value name="description">( - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 4 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>
@@ -280,7 +280,7 @@
         </record>
         <record>
             <value name="name">R0DE02LS2</value>
-            <value name="description">(R0DE02LS2) диагностика модуля АКНП2 на 2 месте</value>
+            <value name="description">( - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 2 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">2</value>
@@ -293,7 +293,7 @@
         </record>
         <record>
             <value name="name">R0DE01LS2</value>
-            <value name="description">(R0DE01LS2) диагностика модуля АКНП2 на 1 месте</value>
+            <value name="description">( - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 1 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>

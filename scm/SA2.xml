@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0IN01FI2</value>
-            <value name="description">(R0IN01FI2) Выход КНК15-1 Гц от ПТИ</value>
+            <value name="description">( - , SA2) Выход КНК15-1 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0IN02FI2</value>
-            <value name="description">(R0IN02FI2) Выход КНК15-1 Гц от ПТИ</value>
+            <value name="description">( - , SA2) Выход КНК15-1 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">R0IN03FI2</value>
-            <value name="description">(R0IN03FI2) Выход КНК53М Гц от ПТИ</value>
+            <value name="description">( - , SA2) Выход КНК53М Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">R0IS01FI0</value>
-            <value name="description">(R0IS01FI0) Признак работы с имитатором</value>
+            <value name="description">( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">6</value>

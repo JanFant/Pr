@@ -1,4 +1,6 @@
 <vars>
+<var  name="R0DE34LRP" description="(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43" format="1"></var>
+<var  name="R0DE33LRP" description="(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери" format="1"></var>
 <var  name="R0DE32LRP" description="(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2" format="1"></var>
 <var  name="R0DE31LRP" description="(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1" format="1"></var>
 <var  name="R0DE07LRP" description="(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7" format="3"></var>
@@ -17,9 +19,9 @@
 <var  name="B2VS21LRP" description="(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC" format="1"></var>
 <var  name="A2VS21LRP" description="(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC" format="1"></var>
 <var  name="B1VS21LRP" description="(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2" format="1"></var>
-<var  name="A1VS21LRP" description="(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1" format="1"></var>
 <var  name="B2IS21LRP" description="(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC" format="1"></var>
-<var  name="A2IS21LRP" description="(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC" format="1"></var>
+<var  name="B0IT03FRP" description="( - , MRPS) Температура АЗ2-3" format="3"></var>
+<var  name="A0IT03FRP" description="( - , MRPS) Температура АЗ1-3" format="3"></var>
 <var  name="R0IN07RIP" description="( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ" format="8"></var>
 <var  name="R0IN06RIP" description="( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ" format="8"></var>
 <var  name="R0IN03RIP" description="( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ" format="8"></var>
@@ -39,14 +41,12 @@
 <var  name="R0DE37LRP" description="(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2" format="1"></var>
 <var  name="R0DE36LRP" description="(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1" format="1"></var>
 <var  name="R0DE35LRP" description="(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53" format="1"></var>
-<var  name="R0DE34LRP" description="(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43" format="1"></var>
-<var  name="R0DE33LRP" description="(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери" format="1"></var>
-<var  name="B0IT03IRP" description="( - , MRPS) Температура АЗ2-3" format="3"></var>
+<var  name="B0IT03IRP" description="(vas84:06 - K02VASR, - ) Температура АЗ2-3" format="3"></var>
 <var  name="R0ET01LRP" description="( - , RPU) Признак наличия неисправности по температуре  АЗ1-3" format="1"></var>
 <var  name="A0VT71LRP" description="( - , RPU) АС по температуре в АЗ1" format="1"></var>
 <var  name="A0VT61LRP" description="( - , RPU) ПС по температуре в АЗ1" format="1"></var>
 <var  name="A0CT01IRP" description="( - , RPU) Температура АЗ1-3" format="8"></var>
-<var  name="A0IT03IRP" description="( - , MRPS) Температура АЗ1-3" format="3"></var>
+<var  name="A0IT03IRP" description="(vas84:06 - K01VASR, - ) Температура АЗ1-3" format="3"></var>
 <var  name="R0IN07RRP" description="(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)" format="8"></var>
 <var  name="R7VN71LRP" description="( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера" format="1"></var>
 <var  name="R0IN06RRP" description="(vchs:03 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ" format="8"></var>
@@ -62,8 +62,8 @@
 <var  name="R0IN02RRP" description="(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)" format="8"></var>
 <var  name="R0IN01RRP" description="(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)" format="8"></var>
 <var  name="R0VN02RRP" description="( - , RPU) Уровень мощности канал 5" format="8"></var>
+<var  name="A2IS21LRP" description="(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC" format="1"></var>
 <var  name="B1IS21LRP" description="(vds32:07 - K12VDSR, - ) Приход на НУ ББ2" format="1"></var>
-<var  name="A1IS21LRP" description="(vds32:07 - K09VDSR, - ) Приход на НУ ББ1" format="1"></var>
 <var  name="B3IS21LRP" description="(vds32:07 - K11VDSR, - ) Приход на НУ ИС2" format="1"></var>
 <var  name="A3IS21LRP" description="(vds32:07 - K08VDSR, - ) Приход на НУ ИС1" format="1"></var>
 <var  name="R7VE70LRP" description="( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера" format="1"></var>
@@ -119,10 +119,10 @@
 <var  name="internal1_m73_y0" description="(internal1_m73_y0) y0" format="18"></var>
 <var  name="internal1_m81_tx" description="(internal1_m81_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m81_y0" description="(internal1_m81_y0) y0" format="18"></var>
-<var  name="internal1_m91_y0" description="(internal1_m91_y0) y0" format="8"></var>
 <var  name="internal1_m89_y0" description="(internal1_m89_y0) y0" format="8"></var>
-<var  name="internal1_m107_y1" description="(internal1_m107_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m120_y1" description="(internal1_m120_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m105_y1" description="(internal1_m105_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m117_y1" description="(internal1_m117_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m88_y0" description="(internal1_m88_y0) y0" format="8"></var>
+<var  name="internal1_m103_y1" description="(internal1_m103_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m119_y1" description="(internal1_m119_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m101_y1" description="(internal1_m101_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m115_y1" description="(internal1_m115_y1) y1 - внутренний параметр" format="1"></var>
 </vars>

@@ -72,106 +72,119 @@
     <records>
         <record>
             <value name="name">R0EE01LZ1</value>
-            <value name="description">(R0EE01LZ1) Питание  АКНП1  отключить</value>
+            <value name="description">( - , SBz1) Питание  АКНП1  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">0</value>
-            <value name="nID">5</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">12</value>
-            <value name="OldData">12</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE02LZ1</value>
-            <value name="description">(R0EE02LZ1) Питание  АКНП  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">6</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">14</value>
-            <value name="OldData">14</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE03LZ1</value>
-            <value name="description">(R0EE03LZ1) Питание  АКНП3  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">2</value>
-            <value name="nID">7</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">16</value>
-            <value name="OldData">16</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE04LZ1</value>
-            <value name="description">(R0EE04LZ1) Питание  АКНП4  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">8</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">18</value>
-            <value name="OldData">18</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0IT01IZ1</value>
-            <value name="description">(A0IT01IZ1) Температура АЗ1-1</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
             <value name="address">0</value>
             <value name="nID">1</value>
-            <value name="PType">130</value>
+            <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">0</value>
             <value name="OldData">0</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0IT01IZ1</value>
-            <value name="description">(B0IT01IZ1) Температура АЗ2-1</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
+            <value name="name">R0EE02LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
             <value name="address">1</value>
             <value name="nID">2</value>
-            <value name="PType">130</value>
+            <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">3</value>
-            <value name="OldData">3</value>
+            <value name="ParData">2</value>
+            <value name="OldData">2</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A2IP01IZ1</value>
-            <value name="description">(A2IP01IZ1) Текущее давление СБРОС РБ1</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
+            <value name="name">R0EE03LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП3  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
             <value name="address">2</value>
             <value name="nID">3</value>
-            <value name="PType">130</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">4</value>
+            <value name="OldData">4</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE04LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП4  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">3</value>
+            <value name="nID">4</value>
+            <value name="PType">131</value>
             <value name="Bf0">0</value>
             <value name="ParData">6</value>
             <value name="OldData">6</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B2IP01IZ1</value>
-            <value name="description">(B2IP01IZ1) Текущее давление СБРОС РБ2</value>
+            <value name="name">R0IS01FI0</value>
+            <value name="description">( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">5</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B0IT01FZ1</value>
+            <value name="description">( - , SBz1) Температура АЗ2-1</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">6</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">11</value>
+            <value name="OldData">11</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A0IT01FZ1</value>
+            <value name="description">( - , SBz1) Температура АЗ1-1</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">2</value>
+            <value name="nID">7</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A2IP01FZ1</value>
+            <value name="description">( - , SBz1) Текущее давление СБРОС РБ1</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>
-            <value name="nID">4</value>
+            <value name="nID">8</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">9</value>
-            <value name="OldData">9</value>
+            <value name="ParData">17</value>
+            <value name="OldData">17</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B2IP01FZ1</value>
+            <value name="description">( - , SBz1) Текущее давление СБРОС РБ2</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">4</value>
+            <value name="nID">9</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
             <value name="unitId">1</value>
         </record>
     </records>

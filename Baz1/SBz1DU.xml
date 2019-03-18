@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0AD21LDU</value>
-            <value name="description">(R0AD21LDU) Подключить защиту от II УР</value>
+            <value name="description">( - , SBz1DU) Подключить защиту от II УР</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0VW23LDU</value>
-            <value name="description">(R0VW23LDU) Индикация выбора АЗ2 или АЗ1+АЗ2</value>
+            <value name="description">( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">R0VW13LDU</value>
-            <value name="description">(R0VW13LDU) Индикация выбора АЗ1 или АЗ1+АЗ2</value>
+            <value name="description">( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">B0VT71LZ1</value>
-            <value name="description">(B0VT71LZ1) АС по температуре в АЗ2</value>
+            <value name="description">( - , Baz1, SBz1DU) АС по температуре в АЗ2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R0VP73LZ1</value>
-            <value name="description">(R0VP73LZ1) ПС давления для РУ</value>
+            <value name="description">( - , Baz1, SBz1DU) ПС давления для РУ</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">B0VN71LZ1</value>
-            <value name="description">(B0VN71LZ1) АЗ по АС мощности  АЗ2</value>
+            <value name="description">( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -150,7 +150,7 @@
         </record>
         <record>
             <value name="name">A0VN71LZ1</value>
-            <value name="description">(A0VN71LZ1) АЗ по АС мощности  АЗ1</value>
+            <value name="description">( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -163,7 +163,7 @@
         </record>
         <record>
             <value name="name">A0EE03LZ1</value>
-            <value name="description">(A0EE03LZ1) Исправность АКНП3</value>
+            <value name="description">( - , Baz1, SBz1DU) Исправность АКНП3</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
@@ -176,7 +176,7 @@
         </record>
         <record>
             <value name="name">A0EE02LZ1</value>
-            <value name="description">(A0EE02LZ1) Исправность АКНП2</value>
+            <value name="description">( - , Baz1, SBz1DU) Исправность АКНП2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
@@ -189,7 +189,7 @@
         </record>
         <record>
             <value name="name">A0EE04LZ1</value>
-            <value name="description">(A0EE04LZ1) Исправность АКНП4</value>
+            <value name="description">( - , Baz1, SBz1DU) Исправность АКНП4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -202,7 +202,7 @@
         </record>
         <record>
             <value name="name">A0EE01LZ1</value>
-            <value name="description">(A0EE01LZ1) Исправность АКНП1</value>
+            <value name="description">( - , Baz1, SBz1DU) Исправность АКНП1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -215,7 +215,7 @@
         </record>
         <record>
             <value name="name">B0VP71LZ1</value>
-            <value name="description">(B0VP71LZ1) АЗ по АС любого давления для АЗ2</value>
+            <value name="description">( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
@@ -228,7 +228,7 @@
         </record>
         <record>
             <value name="name">A0VP71LZ1</value>
-            <value name="description">(A0VP71LZ1) АЗ по АС любого давления для АЗ1</value>
+            <value name="description">( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">A0VT71LZ1</value>
-            <value name="description">(A0VT71LZ1) АС по температуре в АЗ1</value>
+            <value name="description">( - , Baz1, SBz1DU) АС по температуре в АЗ1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
@@ -254,7 +254,7 @@
         </record>
         <record>
             <value name="name">B0CT01IZ1</value>
-            <value name="description">(B0CT01IZ1) Температура АЗ2-1</value>
+            <value name="description">( - , Baz1, SBz1DU) Температура АЗ2-1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -267,7 +267,7 @@
         </record>
         <record>
             <value name="name">R0VN11RZ1</value>
-            <value name="description">(R0VN11RZ1) Средняя мощность по БАЗ1</value>
+            <value name="description">( - , Baz1, SBz1DU) Средняя мощность по БАЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -280,7 +280,7 @@
         </record>
         <record>
             <value name="name">R0VN09RZ1</value>
-            <value name="description">(R0VN09RZ1) Усредненный период разгона</value>
+            <value name="description">( - , Baz1, SBz1DU) Усредненный период разгона</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -293,7 +293,7 @@
         </record>
         <record>
             <value name="name">A0CT01IZ1</value>
-            <value name="description">(A0CT01IZ1) Температура АЗ1-1</value>
+            <value name="description">( - , Baz1, SBz1DU) Температура АЗ1-1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>

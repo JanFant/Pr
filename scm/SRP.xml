@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0IN01RIP</value>
-            <value name="description">(R0IN01RIP) Выход СНМ-11 Гц от ПТИ</value>
+            <value name="description">( - , SRP) Выход СНМ-11 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0IN02RIP</value>
-            <value name="description">(R0IN02RIP) Выход КНК15- Гц от ПТИ</value>
+            <value name="description">( - , SRP) Выход КНК15- Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">R0IN03RIP</value>
-            <value name="description">(R0IN03RIP) Выход КНК53М Гц от ПТИ</value>
+            <value name="description">( - , SRP) Выход КНК53М Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">R0IN06RIP</value>
-            <value name="description">(R0IN06RIP) Выход СНМ-11-1 Гц от ПТИ</value>
+            <value name="description">( - , SRP) Выход СНМ-11-1 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R0IN07RIP</value>
-            <value name="description">(R0IN07RIP) Выход СНМ-11-2 Гц от ПТИ</value>
+            <value name="description">( - , SRP) Выход СНМ-11-2 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -136,8 +136,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0IT03IRP</value>
-            <value name="description">(B0IT03IRP) Температура АЗ2-3</value>
+            <value name="name">R0IS01FI0</value>
+            <value name="description">( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">10</value>
@@ -149,8 +149,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0IT03IRP</value>
-            <value name="description">(A0IT03IRP) Температура АЗ1-3</value>
+            <value name="name">B0IT03FRP</value>
+            <value name="description">( - , SRP) Температура АЗ2-3</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">11</value>
@@ -162,8 +162,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IS01FI0</value>
-            <value name="description">(R0IS01FI0) Признак работы с имитатором</value>
+            <value name="name">A0IT03FRP</value>
+            <value name="description">( - , SRP) Температура АЗ1-3</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">12</value>

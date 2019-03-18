@@ -1,87 +1,91 @@
 <assign>
     <FDS16>
+        <def name="R0DE0ALZ1">Diagn</def>
         <def name="A1VN71LZ1">K04FDSR</def>
         <def name="A3VZ15LZ1">K02FDSR</def>
         <def name="A3VZ13LZ1">K01FDSR</def>
-        <def name="R0AD14LZ1">K03FDSR</def>
         <def name="R0VZ71LZ1">K05FDSR</def>
-        <def name="R0DE0ALZ1">Diagn</def>
+        <def name="R0AD14LZ1">K03FDSR</def>
     </FDS16>
 
 
     <SBKFP>
-        <def name="R0DEB3LZ1">S12SBK</def>
-        <def name="R0DEB4LZ1">S13SBK</def>
-        <def name="R0DEB2LZ1">S11SBK</def>
-        <def name="R0DEB1LZ1">S10SBK</def>
-        <def name="R0DE36LZ1">S06SBK</def>
-        <def name="R0DE33LZ1">S03SBK</def>
-        <def name="R0DE34LZ1">S04SBK</def>
-        <def name="R0DE32LZ1">S02SBK</def>
         <def name="R0DE31LZ1">S01SBK</def>
+        <def name="R0DEB3LZ1">S12SBK</def>
+        <def name="R0DE32LZ1">S02SBK</def>
+        <def name="R0DE34LZ1">S04SBK</def>
+        <def name="R0DE33LZ1">S03SBK</def>
+        <def name="R0DE36LZ1">S06SBK</def>
         <def name="R0DE37LZ1">S07SBK</def>
-        <def name="R0DE38LZ1">S08SBK</def>
-        <def name="R0DE39LZ1">S09SBK</def>
         <def name="R0DE35LZ1">S05SBK</def>
+        <def name="R0DE39LZ1">S09SBK</def>
+        <def name="R0DE38LZ1">S08SBK</def>
+        <def name="R0DEB1LZ1">S10SBK</def>
+        <def name="R0DEB2LZ1">S11SBK</def>
+        <def name="R0DEB4LZ1">S13SBK</def>
     </SBKFP>
 
 
     <VAS84>
+        <def name="A2IP01IZ1">K02VASR</def>
+        <def name="B2IP01IZ1">K04VASR</def>
+        <def name="B0IT01IZ1">K03VASR</def>
         <def name="R0DE04LZ1">Diagn</def>
+        <def name="A0IT01IZ1">K01VASR</def>
     </VAS84>
 
 
     <VDS321>
         <def name="A0EE01LS1">K03VDSR</def>
-        <def name="R0DE05LZ1">Diagn</def>
-        <def name="B2IS12LDU">K11VDSR</def>
-        <def name="R0AD04LZ1">K08VDSR</def>
-        <def name="R0VN75LZ1">K02VDSR</def>
-        <def name="R0VN71LZ1">K01VDSR</def>
-        <def name="A2IS12LDU">K10VDSR</def>
-        <def name="R0AD05LZ1">K09VDSR</def>
-        <def name="A0VN71LS1">K04VDSR</def>
         <def name="R0AD03LZ1">K07VDSR</def>
         <def name="A3IS22LDU">K06VDSR</def>
         <def name="A3IS11LDU">K05VDSR</def>
+        <def name="R0AD04LZ1">K08VDSR</def>
+        <def name="R0VN71LZ1">K01VDSR</def>
+        <def name="A0VN71LS1">K04VDSR</def>
+        <def name="R0VN75LZ1">K02VDSR</def>
+        <def name="R0AD05LZ1">K09VDSR</def>
+        <def name="R0DE05LZ1">Diagn</def>
+        <def name="B2IS12LDU">K11VDSR</def>
+        <def name="A2IS12LDU">K10VDSR</def>
     </VDS321>
 
 
     <VDS322>
-        <def name="R0DE06LZ1">Diagn</def>
-        <def name="A0VN71LS2">K04VDSR</def>
         <def name="R0VN76LZ1">K02VDSR</def>
-        <def name="A0EE01LS2">K03VDSR</def>
-        <def name="B3IS11LDU">K05VDSR</def>
         <def name="R0VN72LZ1">K01VDSR</def>
+        <def name="A0VN71LS2">K04VDSR</def>
+        <def name="A0EE01LS2">K03VDSR</def>
+        <def name="R0DE06LZ1">Diagn</def>
+        <def name="B3IS11LDU">K05VDSR</def>
         <def name="B3IS22LDU">K12VDSR</def>
     </VDS322>
 
 
     <VDS323>
+        <def name="R0VN74LZ1">K01VDSR</def>
         <def name="A0EE01LS4">K03VDSR</def>
+        <def name="R0VN78LZ1">K02VDSR</def>
+        <def name="R6IS68LZZ">K07VDSR</def>
+        <def name="R6IS67LZZ">K06VDSR</def>
+        <def name="R6IS66LZZ">K05VDSR</def>
         <def name="R0DE07LZ1">Diagn</def>
         <def name="A0VN71LS4">K04VDSR</def>
-        <def name="R6IS66LZZ">K05VDSR</def>
-        <def name="R6IS67LZZ">K06VDSR</def>
-        <def name="R6IS68LZZ">K07VDSR</def>
-        <def name="R0VN78LZ1">K02VDSR</def>
-        <def name="R0VN74LZ1">K01VDSR</def>
     </VDS323>
 
 
     <VDS324>
+        <def name="A0EE01LS3">K03VDSR</def>
         <def name="A1VP81LZZ">K10VDSR</def>
         <def name="B1VP81LZZ">K13VDSR</def>
-        <def name="A0VN71LS3">K04VDSR</def>
-        <def name="R7II73LZ1">K07VDSR</def>
-        <def name="R7II71LZ1">K05VDSR</def>
-        <def name="R7II72LZ1">K06VDSR</def>
+        <def name="A0VP81LZZ">K09VDSR</def>
+        <def name="B0VP81LZZ">K12VDSR</def>
         <def name="R0DE08LZ1">Diagn</def>
         <def name="R0VN77LZ1">K02VDSR</def>
         <def name="R0VN73LZ1">K01VDSR</def>
-        <def name="A0VP81LZZ">K09VDSR</def>
-        <def name="B0VP81LZZ">K12VDSR</def>
-        <def name="A0EE01LS3">K03VDSR</def>
+        <def name="R7II72LZ1">K06VDSR</def>
+        <def name="R7II71LZ1">K05VDSR</def>
+        <def name="R7II73LZ1">K07VDSR</def>
+        <def name="A0VN71LS3">K04VDSR</def>
     </VDS324>
 </assign>

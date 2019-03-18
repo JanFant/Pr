@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0DE3DLZ1</value>
-            <value name="description">(R0DE3DLZ1) диагностика шкафа Баз1 БП5/24Д место 6</value>
+            <value name="description">( - , DiagnBaz1) диагностика шкафа Баз1 БП5/24Д место 6</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0DE3CLZ1</value>
-            <value name="description">(R0DE3CLZ1) диагностика шкафа Баз1 БП5/24Д место 5</value>
+            <value name="description">( - , DiagnBaz1) диагностика шкафа Баз1 БП5/24Д место 5</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -98,7 +98,7 @@
         </record>
         <record>
             <value name="name">R0DEB3LZ1</value>
-            <value name="description">(R0DEB3LZ1) диагностика шкафа Баз1 БП5 место 6</value>
+            <value name="description">( - S12SBK, DiagnBaz1) диагностика шкафа Баз1 БП5 место 6</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">R0DEB4LZ1</value>
-            <value name="description">(R0DEB4LZ1) диагностика шкафа Баз1 БП24Д место 6</value>
+            <value name="description">( - S13SBK, DiagnBaz1) диагностика шкафа Баз1 БП24Д место 6</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R0DEB2LZ1</value>
-            <value name="description">(R0DEB2LZ1) диагностика шкафа Баз1 БП24Д место 5</value>
+            <value name="description">( - S11SBK, DiagnBaz1) диагностика шкафа Баз1 БП24Д место 5</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">R0DEB1LZ1</value>
-            <value name="description">(R0DEB1LZ1) диагностика шкафа Баз1 БП5 место 5</value>
+            <value name="description">( - S10SBK, DiagnBaz1) диагностика шкафа Баз1 БП5 место 5</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
@@ -150,7 +150,7 @@
         </record>
         <record>
             <value name="name">R0DE38LZ1</value>
-            <value name="description">(R0DE38LZ1) диагностика шкафа Баз1 МП15-3 место 3</value>
+            <value name="description">( - S08SBK, DiagnBaz1) диагностика шкафа Баз1 МП15-3 место 3</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -163,7 +163,7 @@
         </record>
         <record>
             <value name="name">R0DE39LZ1</value>
-            <value name="description">(R0DE39LZ1) диагностика шкафа Баз1 МП24-2 место 4</value>
+            <value name="description">( - S09SBK, DiagnBaz1) диагностика шкафа Баз1 МП24-2 место 4</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -176,7 +176,7 @@
         </record>
         <record>
             <value name="name">R0DE35LZ1</value>
-            <value name="description">(R0DE35LZ1) диагностика шкафа Баз1 температура больше 53</value>
+            <value name="description">( - S05SBK, DiagnBaz1) диагностика шкафа Баз1 температура больше 53</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
@@ -189,7 +189,7 @@
         </record>
         <record>
             <value name="name">R0DE37LZ1</value>
-            <value name="description">(R0DE37LZ1) диагностика шкафа Баз1 МП15-3.1 место 2</value>
+            <value name="description">( - S07SBK, DiagnBaz1) диагностика шкафа Баз1 МП15-3.1 место 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
@@ -202,7 +202,7 @@
         </record>
         <record>
             <value name="name">R0DE36LZ1</value>
-            <value name="description">(R0DE36LZ1) диагностика шкафа Баз1 МП15-3.1 место 1</value>
+            <value name="description">( - S06SBK, DiagnBaz1) диагностика шкафа Баз1 МП15-3.1 место 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
@@ -215,7 +215,7 @@
         </record>
         <record>
             <value name="name">R0DE33LZ1</value>
-            <value name="description">(R0DE33LZ1) диагностика шкафа Баз1 двери</value>
+            <value name="description">( - S03SBK, DiagnBaz1) диагностика шкафа Баз1 двери</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
@@ -228,7 +228,7 @@
         </record>
         <record>
             <value name="name">R0DE34LZ1</value>
-            <value name="description">(R0DE34LZ1) диагностика шкафа Баз1 температура меньше 43</value>
+            <value name="description">( - S04SBK, DiagnBaz1) диагностика шкафа Баз1 температура меньше 43</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">R0DE32LZ1</value>
-            <value name="description">(R0DE32LZ1) диагностика шкафа Баз1 сеть 2</value>
+            <value name="description">( - S02SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">13</value>
@@ -254,7 +254,7 @@
         </record>
         <record>
             <value name="name">R0DE31LZ1</value>
-            <value name="description">(R0DE31LZ1) диагностика шкафа Баз1 сеть 1</value>
+            <value name="description">( - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">14</value>
@@ -267,7 +267,7 @@
         </record>
         <record>
             <value name="name">R0DE0ALZ1</value>
-            <value name="description">(R0DE0ALZ1) диагностика модуля Баз1 на 10 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 10 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">0</value>
@@ -280,7 +280,7 @@
         </record>
         <record>
             <value name="name">R0DE07LZ1</value>
-            <value name="description">(R0DE07LZ1) диагностика модуля Баз1 на 7 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 7 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">1</value>
@@ -293,7 +293,7 @@
         </record>
         <record>
             <value name="name">R0DE08LZ1</value>
-            <value name="description">(R0DE08LZ1) диагностика модуля Баз1 на 8 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 8 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">2</value>
@@ -306,7 +306,7 @@
         </record>
         <record>
             <value name="name">R0DE06LZ1</value>
-            <value name="description">(R0DE06LZ1) диагностика модуля Баз1 на 6 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 6 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>
@@ -319,7 +319,7 @@
         </record>
         <record>
             <value name="name">R0DE05LZ1</value>
-            <value name="description">(R0DE05LZ1) диагностика модуля Баз1 на 5 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 5 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">4</value>
@@ -332,7 +332,7 @@
         </record>
         <record>
             <value name="name">R0DE04LZ1</value>
-            <value name="description">(R0DE04LZ1) диагностика модуля Баз1 на 4 месте</value>
+            <value name="description">( - Diagn, DiagnBaz1) диагностика модуля Баз1 на 4 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">5</value>
