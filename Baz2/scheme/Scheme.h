@@ -11,8 +11,8 @@ ssint iRM_3_ = {3,0}; /* N-число входов */
 ssint iRM_4_ = {4,0}; /* n - размерность массива */ 
 ssint iRM_6_ = {6,0}; /* N-число входов */ 
 ssint iRM_17_ = {17,0}; /* n - размерность массива входных сигналов */ 
-ssint iRM_819_ = {819,0}; /* a */ 
-ssint iRM_4095_ = {4095,0}; /* b */ 
+ssint iRM_3276_ = {3276,0}; /* a */ 
+ssint iRM_16383_ = {16383,0}; /* b */ 
 ssfloat fRM_0_00001 = {0.00001,0}; /* X2 */ 
 ssint iRM_200_ = {200,0}; /* tz - ширина импульса, 10-ки мс */ 
 ssfloat fRM_0_2 = {0.2,0}; /* tz - время задержки сек */ 
@@ -25,8 +25,8 @@ ssfloat fRM_0_01 = {0.01,0}; /* x - массив входных параметров */
 ssfloat fRM_0_015 = {0.015,0}; /* x - массив входных параметров */ 
 ssfloat fRM_0_02 = {0.02,0}; /* x - массив входных параметров */ 
 ssfloat fRM_1_7 = {1.7,0}; /* x - массив входных параметров */ 
-ssint iRM_1_ = {1,0}; /*  */ 
-ssint iRM_2_ = {2,0}; /*  */ 
+ssint iRM_1_ = {1,0}; /* x2 - второе слагаемое */ 
+ssint iRM_2_ = {2,0}; /* n - размерность входного массива */ 
 
 uspaint8 SpaEEPROMBuf[105];
 
@@ -373,11 +373,11 @@ _S_noto  S_noto_232_1 = {&R0VW23LDU,&var134};
 _S_noto  S_noto_231_1 = {&R0VW13LDU,&var135};
 _S_noto  S_noto_230_1 = {&R0VW23LDU,&var136};
 _S_noto  S_noto_229_1 = {&R0VW13LDU,&var137};
-_S_scalzz  S_scalzz_148_1 = {&var3,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var138,&internal1_m148_y0};
-_S_scalzz  S_scalzz_147_1 = {&var4,&iRM_819_,&iRM_4095_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var139,&internal1_m147_y0};
+_S_scalzz  S_scalzz_148_1 = {&var3,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var138,&internal1_m148_y0};
+_S_scalzz  S_scalzz_147_1 = {&var4,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var139,&internal1_m147_y0};
 _S_geterr  S_geterr_149_1 = {&var139,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var140};
-_S_scalzz  S_scalzz_94_1 = {&var1,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var141,&internal1_m94_y0};
-_S_scalzz  S_scalzz_93_1 = {&var2,&iRM_819_,&iRM_4095_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var142,&internal1_m93_y0};
+_S_scalzz  S_scalzz_94_1 = {&var1,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var141,&internal1_m94_y0};
+_S_scalzz  S_scalzz_93_1 = {&var2,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var142,&internal1_m93_y0};
 _S_drg  S_drg_161_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var143,&internal1_m161_y1};
 _S_drg  S_drg_175_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var144,&internal1_m175_y1};
 _S_geterr  S_geterr_151_1 = {&var138,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var145};

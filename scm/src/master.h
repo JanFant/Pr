@@ -153,78 +153,78 @@ static char BUFFER[3323];
 #define idR3IS21LDU	 71	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
 #define R3IS11LDU	 BUFFER[156]	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
 #define idR3IS11LDU	 72	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
-#define A0SN07RIM	 BUFFER[158]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define idA0SN07RIM	 73	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define A0SN06RIM	 BUFFER[163]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define idA0SN06RIM	 74	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define A0SN05RIM	 BUFFER[168]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define idA0SN05RIM	 75	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define A0SN04RIM	 BUFFER[173]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define idA0SN04RIM	 76	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define A0SN03RIM	 BUFFER[178]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define idA0SN03RIM	 77	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define A0SN02RIM	 BUFFER[183]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define idA0SN02RIM	 78	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define R0IS01FI0	 BUFFER[188]	//( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
+#define A0IT03FRP	 BUFFER[158]	//( - , SRP) Температура АЗ1-3
+#define idA0IT03FRP	 73	//( - , SRP) Температура АЗ1-3
+#define A0IT02FZ2	 BUFFER[161]	//( - , SBz2) Температура АЗ1-2
+#define idA0IT02FZ2	 74	//( - , SBz2) Температура АЗ1-2
+#define A0IT01FZ1	 BUFFER[164]	//( - , SBz1) Температура АЗ1-1
+#define idA0IT01FZ1	 75	//( - , SBz1) Температура АЗ1-1
+#define B0IT03FRP	 BUFFER[167]	//( - , SRP) Температура АЗ2-3
+#define idB0IT03FRP	 76	//( - , SRP) Температура АЗ2-3
+#define B0IT02FZ2	 BUFFER[170]	//( - , SBz2) Температура АЗ2-2
+#define idB0IT02FZ2	 77	//( - , SBz2) Температура АЗ2-2
+#define B0IT01FZ1	 BUFFER[173]	//( - , SBz1) Температура АЗ2-1
+#define idB0IT01FZ1	 78	//( - , SBz1) Температура АЗ2-1
+#define R0IS01FI0	 BUFFER[176]	//( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 #define idR0IS01FI0	 79	//( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
-#define A0IT03IRP	 BUFFER[191]	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
+#define A0IT03IRP	 BUFFER[179]	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
 #define idA0IT03IRP	 80	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
-#define B0IT03IRP	 BUFFER[194]	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
+#define B0IT03IRP	 BUFFER[182]	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
 #define idB0IT03IRP	 81	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
-#define R0IN03FI3	 BUFFER[197]	//( - , SA3) Выход КНК53М Гц от ПТИ
+#define R0IN03FI3	 BUFFER[185]	//( - , SA3) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI3	 82	//( - , SA3) Выход КНК53М Гц от ПТИ
-#define R0IN02FI3	 BUFFER[202]	//( - , SA3) Выход КНК15-1 Гц от ПТИ
+#define R0IN02FI3	 BUFFER[190]	//( - , SA3) Выход КНК15-1 Гц от ПТИ
 #define idR0IN02FI3	 83	//( - , SA3) Выход КНК15-1 Гц от ПТИ
-#define R0IN03FI2	 BUFFER[207]	//( - , SA2) Выход КНК53М Гц от ПТИ
+#define R0IN03FI2	 BUFFER[195]	//( - , SA2) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI2	 84	//( - , SA2) Выход КНК53М Гц от ПТИ
-#define R0IN07RIP	 BUFFER[212]	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
+#define R0IN07RIP	 BUFFER[200]	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
 #define idR0IN07RIP	 85	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
-#define R0IN06RIP	 BUFFER[217]	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
+#define R0IN06RIP	 BUFFER[205]	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
 #define idR0IN06RIP	 86	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
-#define TerR0IN06FRP	 BUFFER[222]	//( - , - ) Неисправности СНМ-11 -1,2
+#define TerR0IN06FRP	 BUFFER[210]	//( - , - ) Неисправности СНМ-11 -1,2
 #define idTerR0IN06FRP	 87	//( - , - ) Неисправности СНМ-11 -1,2
-#define R0IN03RIP	 BUFFER[225]	//( - , SRP) Выход КНК53М Гц от ПТИ
+#define R0IN03RIP	 BUFFER[213]	//( - , SRP) Выход КНК53М Гц от ПТИ
 #define idR0IN03RIP	 88	//( - , SRP) Выход КНК53М Гц от ПТИ
-#define R0IN02RIP	 BUFFER[230]	//( - , SRP) Выход КНК15- Гц от ПТИ
+#define R0IN02RIP	 BUFFER[218]	//( - , SRP) Выход КНК15- Гц от ПТИ
 #define idR0IN02RIP	 89	//( - , SRP) Выход КНК15- Гц от ПТИ
-#define R0IN01RIP	 BUFFER[235]	//( - , SRP) Выход СНМ-11 Гц от ПТИ
+#define R0IN01RIP	 BUFFER[223]	//( - , SRP) Выход СНМ-11 Гц от ПТИ
 #define idR0IN01RIP	 90	//( - , SRP) Выход СНМ-11 Гц от ПТИ
-#define A3IP02FDU	 BUFFER[240]	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
-#define idA3IP02FDU	 91	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
-#define B3IP02FDU	 BUFFER[243]	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
-#define idB3IP02FDU	 92	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
-#define B2IP01FZ2	 BUFFER[246]	//( - , SBz2) Текущее давление СБРОС РБ2
-#define idB2IP01FZ2	 93	//( - , SBz2) Текущее давление СБРОС РБ2
-#define B2IP01FZ1	 BUFFER[249]	//( - , SBz1) Текущее давление СБРОС РБ2
-#define idB2IP01FZ1	 94	//( - , SBz1) Текущее давление СБРОС РБ2
-#define A2IP01FZ2	 BUFFER[252]	//( - , SBz2) Текущее давление СБРОС РБ1
-#define idA2IP01FZ2	 95	//( - , SBz2) Текущее давление СБРОС РБ1
-#define A2IP01FZ1	 BUFFER[255]	//( - , SBz1) Текущее давление СБРОС РБ1
-#define idA2IP01FZ1	 96	//( - , SBz1) Текущее давление СБРОС РБ1
-#define A0IT03FRP	 BUFFER[258]	//( - , SRP) Температура АЗ1-3
-#define idA0IT03FRP	 97	//( - , SRP) Температура АЗ1-3
-#define A0IT02FZ2	 BUFFER[261]	//( - , SBz2) Температура АЗ1-2
-#define idA0IT02FZ2	 98	//( - , SBz2) Температура АЗ1-2
-#define A0IT01FZ1	 BUFFER[264]	//( - , SBz1) Температура АЗ1-1
-#define idA0IT01FZ1	 99	//( - , SBz1) Температура АЗ1-1
-#define B0IT03FRP	 BUFFER[267]	//( - , SRP) Температура АЗ2-3
-#define idB0IT03FRP	 100	//( - , SRP) Температура АЗ2-3
-#define B0IT02FZ2	 BUFFER[270]	//( - , SBz2) Температура АЗ2-2
-#define idB0IT02FZ2	 101	//( - , SBz2) Температура АЗ2-2
-#define B0IT01FZ1	 BUFFER[273]	//( - , SBz1) Температура АЗ2-1
-#define idB0IT01FZ1	 102	//( - , SBz1) Температура АЗ2-1
-#define B0SN07RIM	 BUFFER[276]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define idB0SN07RIM	 103	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define B0SN06RIM	 BUFFER[281]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define idB0SN06RIM	 104	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define B0SN05RIM	 BUFFER[286]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define idB0SN05RIM	 105	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define B0SN04RIM	 BUFFER[291]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define idB0SN04RIM	 106	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define B0SN03RIM	 BUFFER[296]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define idB0SN03RIM	 107	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define B0SN02RIM	 BUFFER[301]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define idB0SN02RIM	 108	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define B0SN07RIM	 BUFFER[228]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define idB0SN07RIM	 91	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define B0SN06RIM	 BUFFER[233]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define idB0SN06RIM	 92	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define B0SN05RIM	 BUFFER[238]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define idB0SN05RIM	 93	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define B0SN04RIM	 BUFFER[243]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define idB0SN04RIM	 94	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define B0SN03RIM	 BUFFER[248]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define idB0SN03RIM	 95	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define B0SN02RIM	 BUFFER[253]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define idB0SN02RIM	 96	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define A0SN07RIM	 BUFFER[258]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define idA0SN07RIM	 97	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define A0SN06RIM	 BUFFER[263]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define idA0SN06RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define A0SN05RIM	 BUFFER[268]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define idA0SN05RIM	 99	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define A0SN04RIM	 BUFFER[273]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define idA0SN04RIM	 100	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define A0SN03RIM	 BUFFER[278]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define idA0SN03RIM	 101	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define A0SN02RIM	 BUFFER[283]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define idA0SN02RIM	 102	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define A3IP02FDU	 BUFFER[288]	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
+#define idA3IP02FDU	 103	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
+#define B3IP02FDU	 BUFFER[291]	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
+#define idB3IP02FDU	 104	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
+#define B2IP01FZ2	 BUFFER[294]	//( - , SBz2) Текущее давление СБРОС РБ2
+#define idB2IP01FZ2	 105	//( - , SBz2) Текущее давление СБРОС РБ2
+#define B2IP01FZ1	 BUFFER[297]	//( - , SBz1) Текущее давление СБРОС РБ2
+#define idB2IP01FZ1	 106	//( - , SBz1) Текущее давление СБРОС РБ2
+#define A2IP01FZ2	 BUFFER[300]	//( - , SBz2) Текущее давление СБРОС РБ1
+#define idA2IP01FZ2	 107	//( - , SBz2) Текущее давление СБРОС РБ1
+#define A2IP01FZ1	 BUFFER[303]	//( - , SBz1) Текущее давление СБРОС РБ1
+#define idA2IP01FZ1	 108	//( - , SBz1) Текущее давление СБРОС РБ1
 #define B5VS22LDU	 BUFFER[306]	//( - , SCM) Движение НЛ2 в сторону НУ
 #define idB5VS22LDU	 109	//( - , SCM) Движение НЛ2 в сторону НУ
 #define A5VS12LDU	 BUFFER[308]	//( - , SCM) Движение НЛ1 в сторону ВУ
@@ -2107,12 +2107,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 70	,1	,1	, &R5IS11LDU},	//(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны
 	{ 71	,1	,1	, &R3IS21LDU},	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
 	{ 72	,1	,1	, &R3IS11LDU},	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
-	{ 73	,8	,1	, &A0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-	{ 74	,8	,1	, &A0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-	{ 75	,8	,1	, &A0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-	{ 76	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-	{ 77	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-	{ 78	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+	{ 73	,3	,1	, &A0IT03FRP},	//( - , SRP) Температура АЗ1-3
+	{ 74	,3	,1	, &A0IT02FZ2},	//( - , SBz2) Температура АЗ1-2
+	{ 75	,3	,1	, &A0IT01FZ1},	//( - , SBz1) Температура АЗ1-1
+	{ 76	,3	,1	, &B0IT03FRP},	//( - , SRP) Температура АЗ2-3
+	{ 77	,3	,1	, &B0IT02FZ2},	//( - , SBz2) Температура АЗ2-2
+	{ 78	,3	,1	, &B0IT01FZ1},	//( - , SBz1) Температура АЗ2-1
 	{ 79	,3	,1	, &R0IS01FI0},	//( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{ 80	,3	,1	, &A0IT03IRP},	//(ao16_pti:320 - K11AO, - ) Температура АЗ1-3
 	{ 81	,3	,1	, &B0IT03IRP},	//(ao16_pti:320 - K12AO, - ) Температура АЗ2-3
@@ -2125,24 +2125,24 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 88	,8	,1	, &R0IN03RIP},	//( - , SRP) Выход КНК53М Гц от ПТИ
 	{ 89	,8	,1	, &R0IN02RIP},	//( - , SRP) Выход КНК15- Гц от ПТИ
 	{ 90	,8	,1	, &R0IN01RIP},	//( - , SRP) Выход СНМ-11 Гц от ПТИ
-	{ 91	,3	,1	, &A3IP02FDU},	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
-	{ 92	,3	,1	, &B3IP02FDU},	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
-	{ 93	,3	,1	, &B2IP01FZ2},	//( - , SBz2) Текущее давление СБРОС РБ2
-	{ 94	,3	,1	, &B2IP01FZ1},	//( - , SBz1) Текущее давление СБРОС РБ2
-	{ 95	,3	,1	, &A2IP01FZ2},	//( - , SBz2) Текущее давление СБРОС РБ1
-	{ 96	,3	,1	, &A2IP01FZ1},	//( - , SBz1) Текущее давление СБРОС РБ1
-	{ 97	,3	,1	, &A0IT03FRP},	//( - , SRP) Температура АЗ1-3
-	{ 98	,3	,1	, &A0IT02FZ2},	//( - , SBz2) Температура АЗ1-2
-	{ 99	,3	,1	, &A0IT01FZ1},	//( - , SBz1) Температура АЗ1-1
-	{ 100	,3	,1	, &B0IT03FRP},	//( - , SRP) Температура АЗ2-3
-	{ 101	,3	,1	, &B0IT02FZ2},	//( - , SBz2) Температура АЗ2-2
-	{ 102	,3	,1	, &B0IT01FZ1},	//( - , SBz1) Температура АЗ2-1
-	{ 103	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-	{ 104	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-	{ 105	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-	{ 106	,8	,1	, &B0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-	{ 107	,8	,1	, &B0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-	{ 108	,8	,1	, &B0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+	{ 91	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+	{ 92	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+	{ 93	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+	{ 94	,8	,1	, &B0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+	{ 95	,8	,1	, &B0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+	{ 96	,8	,1	, &B0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+	{ 97	,8	,1	, &A0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+	{ 98	,8	,1	, &A0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+	{ 99	,8	,1	, &A0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+	{ 100	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+	{ 101	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+	{ 102	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+	{ 103	,3	,1	, &A3IP02FDU},	//( - , SDu) Текущее давление ВЫСТРЕЛ ИС1
+	{ 104	,3	,1	, &B3IP02FDU},	//( - , SDu) Текущее давление ВЫСТРЕЛ  ИС2
+	{ 105	,3	,1	, &B2IP01FZ2},	//( - , SBz2) Текущее давление СБРОС РБ2
+	{ 106	,3	,1	, &B2IP01FZ1},	//( - , SBz1) Текущее давление СБРОС РБ2
+	{ 107	,3	,1	, &A2IP01FZ2},	//( - , SBz2) Текущее давление СБРОС РБ1
+	{ 108	,3	,1	, &A2IP01FZ1},	//( - , SBz1) Текущее давление СБРОС РБ1
 	{ 109	,1	,1	, &B5VS22LDU},	//( - , SCM) Движение НЛ2 в сторону НУ
 	{ 110	,1	,1	, &A5VS12LDU},	//( - , SCM) Движение НЛ1 в сторону ВУ
 	{ 111	,1	,1	, &A5VS22LDU},	//( - , SCM) Движение НЛ1 в сторону НУ
@@ -4934,8 +4934,8 @@ ssfloat fRM_3_ = {3,0}; /* m1 - величина отклонения второ
 ssfloat fRM_2_0 = {2.0,0}; /* ampl - амплетуда синусоидального отклонения */ 
 ssint iRM_719_ = {719,0}; /* min - минимальное возможное значение выходного сигнала */ 
 ssint iRM_4195_ = {4195,0}; /* max - максимальное возможное значение выходного сигнала */ 
-ssfloat fRM_819_ = {819,0}; /* c   - мин. значение кода ФАС */ 
-ssfloat fRM_4095_ = {4095,0}; /* d - макс.  значение кода ФАС */ 
+ssfloat fRM_3276_ = {3276,0}; /* c   - мин. значение кода ФАС */ 
+ssfloat fRM_16383_ = {16383,0}; /* d - макс.  значение кода ФАС */ 
 ssfloat fRM_200_ = {200,0}; /* maxs1 - макc. значение второго сигнала */ 
 ssfloat fRM_0_0015 = {0.0015,0}; /* m1 - величина отклонения второго сигнала от входного */ 
 ssfloat fRM_0_001 = {0.001,0}; /* ampl - амплетуда синусоидального отклонения */ 
@@ -5410,8 +5410,8 @@ _S_twobool  S_twobool_1039_1 = {&var182,&iEM_TERR5SS11LIM,&var84,&vainSBool,&int
 _S_twobool  S_twobool_1022_1 = {&var185,&iEM_TERR3SS21LIM,&var85,&vainSBool,&internal1_m1022_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_1007_1 = {&var184,&iEM_TERR3SS11LIM,&var86,&vainSBool,&internal1_m1007_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_553_1 = {&var36,&iEM_TERA2VP82LIM,&var87,&var88,&internal1_m553_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_558_1 = {&var92,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var89,&bFirstEnterFlag};
-_S_toao  S_toao_557_1 = {&var91,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var90,&bFirstEnterFlag};
+_S_toao  S_toao_558_1 = {&var92,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var89,&bFirstEnterFlag};
+_S_toao  S_toao_557_1 = {&var91,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var90,&bFirstEnterFlag};
 _S_to3val  S_to3val_551_1 = {&var149,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A2UP03RDU,&fEM_A2UP03RDU,&iEM_TERB2SP01RIM,&var91,&vainSFloat,&var92,&bFirstEnterFlag};
 _S_ktoenc  S_ktoenc_427_1 = {&var94,&fEM_A2UC03RDU,&fRM_0_,&iRM_0_,&var93,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m427_Xtek0,&bFirstEnterFlag};
 _S_to3val  S_to3val_421_1 = {&var220,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB2SC01RIM,&var94,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
@@ -5443,10 +5443,10 @@ _S_twobool  S_twobool_345_1 = {&var288,&iEM_TERB3SS22LIM,&var120,&vainSBool,&int
 _S_twobool  S_twobool_344_1 = {&var295,&iEM_TERA3SS22LIM,&var121,&vainSBool,&internal1_m344_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_329_1 = {&var289,&iEM_TERB3SS11LIM,&var122,&vainSBool,&internal1_m329_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_328_1 = {&var296,&iEM_TERA3SS11LIM,&var123,&vainSBool,&internal1_m328_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_529_1 = {&var125,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var124,&bFirstEnterFlag};
+_S_toao  S_toao_529_1 = {&var125,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var124,&bFirstEnterFlag};
 _S_to3val  S_to3val_523_1 = {&var171,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERA3SP02RIM,&vainSFloat,&var125,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_575_1 = {&var34,&iEM_TERA3VP81LIM,&var126,&var127,&internal1_m575_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_533_1 = {&var129,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var128,&bFirstEnterFlag};
+_S_toao  S_toao_533_1 = {&var129,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var128,&bFirstEnterFlag};
 _S_to3val  S_to3val_526_1 = {&var169,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERB3SP02RIM,&vainSFloat,&var129,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_358_1 = {&var292,&iEM_TERB3SS33LIM,&var130,&vainSBool,&internal1_m358_Out10,&bFirstEnterFlag};
 _S_ktoenc  S_ktoenc_342_1 = {&var132,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var131,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m342_Xtek0,&bFirstEnterFlag};
@@ -5456,8 +5456,8 @@ _S_twobool  S_twobool_355_1 = {&var299,&iEM_TERA3SS33LIM,&var134,&vainSBool,&int
 _S_ktoenc  S_ktoenc_334_1 = {&var136,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var135,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m334_Xtek0,&bFirstEnterFlag};
 _S_to3val  S_to3val_331_1 = {&var294,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA3SC01RIM,&var136,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_356_1 = {&var298,&iEM_TERA3SS31LIM,&var137,&vainSBool,&internal1_m356_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_556_1 = {&var150,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var138,&bFirstEnterFlag};
-_S_toao  S_toao_555_1 = {&var148,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var139,&bFirstEnterFlag};
+_S_toao  S_toao_556_1 = {&var150,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var138,&bFirstEnterFlag};
+_S_toao  S_toao_555_1 = {&var148,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var139,&bFirstEnterFlag};
 _S_twobool  S_twobool_327_1 = {&var290,&iEM_TERB3SS21LIM,&var140,&vainSBool,&internal1_m327_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_343_1 = {&var297,&iEM_TERA3SS21LIM,&var141,&vainSBool,&internal1_m343_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_439_1 = {&var313,&iEM_TERA2SS33LIM,&var142,&vainSBool,&internal1_m439_Out10,&bFirstEnterFlag};
@@ -5467,15 +5467,15 @@ _S_twobool  S_twobool_438_1 = {&var315,&iEM_TERA2SS12LIM,&var145,&vainSBool,&int
 _S_twobool  S_twobool_437_1 = {&var310,&iEM_TERA2SS11LIM,&var146,&vainSBool,&internal1_m437_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_436_1 = {&var311,&iEM_TERA2SS21LIM,&var147,&vainSBool,&internal1_m436_Out10,&bFirstEnterFlag};
 _S_to3val  S_to3val_550_1 = {&fEM_A2UP01RIM,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A2UP03RDU,&fEM_A2UP03RDU,&iEM_TERA2SP01RIM,&var148,&var149,&var150,&bFirstEnterFlag};
-_S_toao  S_toao_163_1 = {&var156,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var151,&bFirstEnterFlag};
-_S_toao  S_toao_162_1 = {&var155,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var152,&bFirstEnterFlag};
-_S_toao  S_toao_161_1 = {&var154,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var153,&bFirstEnterFlag};
+_S_toao  S_toao_163_1 = {&var156,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var151,&bFirstEnterFlag};
+_S_toao  S_toao_162_1 = {&var155,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var152,&bFirstEnterFlag};
+_S_toao  S_toao_161_1 = {&var154,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var153,&bFirstEnterFlag};
 _S_to3val  S_to3val_156_1 = {&var282,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERB0MT01RIM,&var154,&var155,&var156,&bFirstEnterFlag};
-_S_toao  S_toao_166_1 = {&var164,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var157,&bFirstEnterFlag};
-_S_toao  S_toao_165_1 = {&var163,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var158,&bFirstEnterFlag};
+_S_toao  S_toao_166_1 = {&var164,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var157,&bFirstEnterFlag};
+_S_toao  S_toao_165_1 = {&var163,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var158,&bFirstEnterFlag};
 _S_twobool  S_twobool_1062_1 = {&var181,&iEM_TERR6SS21LIM,&var159,&vainSBool,&internal1_m1062_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_150_1 = {&var283,&iEM_TERB7MS31LIM,&var160,&vainSBool,&internal1_m150_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_164_1 = {&var162,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_819_,&fRM_4095_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var161,&bFirstEnterFlag};
+_S_toao  S_toao_164_1 = {&var162,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var161,&bFirstEnterFlag};
 _S_to3val  S_to3val_158_1 = {&var333,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERA0MT01RIM,&var162,&var163,&var164,&bFirstEnterFlag};
 _S_twobool  S_twobool_149_1 = {&var334,&iEM_TERA7MS31LIM,&var165,&vainSBool,&internal1_m149_Out10,&bFirstEnterFlag};
 _S_orn  S_orn_932_1 = {array_m932_x_1,&iRM_2_,&var166};
