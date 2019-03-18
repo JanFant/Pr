@@ -4911,7 +4911,7 @@
     }
     [TConst]{
       Name="A4"
-      Value="819"
+      Value="3276"
       Type=2
       Numeration=0
       MemoryType=0
@@ -4924,7 +4924,7 @@
       TypeInterface=0
       InterfaceMB=""
       TypeMB=3
-      FormatMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -4933,7 +4933,7 @@
     }
     [TConst]{
       Name="B4"
-      Value="4095"
+      Value="16383"
       Type=2
       Numeration=0
       MemoryType=0
@@ -4946,7 +4946,7 @@
       TypeInterface=0
       InterfaceMB=""
       TypeMB=3
-      FormatMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -185108,4 +185108,4 @@
     }
   }
 }
-173534485
+173534594
