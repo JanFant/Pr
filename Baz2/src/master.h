@@ -1556,6 +1556,7 @@ _S_drg  S_drg_172_1 = {&var139,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&va
 
 void Scheme()
 {
+if(getAsInt(idR0MW11IP1) != 1){
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_279_1);
   noto(&S_noto_284_1);
@@ -1815,6 +1816,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idA0CT01IZ2,&var139);
 
   setAsBool(idbFirstEnterFlag,1);
+}
 }
 
 void InitInternalParametr(void)
