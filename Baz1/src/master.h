@@ -7,54 +7,54 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 630
-static char BUFFER[630];
+#define SIZE_BUFFER 633
+static char BUFFER[633];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.52\0", 5432, "192.168.10.152\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define A0VN71LS3	 BUFFER[0]	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
-#define idA0VN71LS3	 1	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
-#define A0VN71LS4	 BUFFER[2]	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
-#define idA0VN71LS4	 2	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
-#define A1VN71LZ1	 BUFFER[4]	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
-#define idA1VN71LZ1	 3	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
-#define A3VZ15LZ1	 BUFFER[6]	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
-#define idA3VZ15LZ1	 4	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
-#define A3VZ13LZ1	 BUFFER[8]	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
-#define idA3VZ13LZ1	 5	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
-#define R0VW13LDU	 BUFFER[10]	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
-#define idR0VW13LDU	 6	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
-#define R0VW23LDU	 BUFFER[12]	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-#define idR0VW23LDU	 7	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-#define R7II73LZ1	 BUFFER[14]	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
-#define idR7II73LZ1	 8	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
-#define R7II71LZ1	 BUFFER[16]	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
-#define idR7II71LZ1	 9	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
-#define R7II72LZ1	 BUFFER[18]	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
-#define idR7II72LZ1	 10	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
-#define R0AD14LZ1	 BUFFER[20]	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
-#define idR0AD14LZ1	 11	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
-#define R0AD21LDU	 BUFFER[22]	//( - , SBz1DU) Подключить защиту от II УР
-#define idR0AD21LDU	 12	//( - , SBz1DU) Подключить защиту от II УР
-#define R0AD14LDU	 BUFFER[24]	//( - , Baz1) Имитация срабатывания верхней АС II УР
-#define idR0AD14LDU	 13	//( - , Baz1) Имитация срабатывания верхней АС II УР
-#define R0MD34LP1	 BUFFER[26]	//( - , Baz1) Кнопка (Квитировать)
-#define idR0MD34LP1	 14	//( - , Baz1) Кнопка (Квитировать)
-#define R0AD04LZ1	 BUFFER[28]	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
-#define idR0AD04LZ1	 15	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
-#define R0AD16LDU	 BUFFER[30]	//( - , Baz1) Имитация срабатывания верхней АС I УР
-#define idR0AD16LDU	 16	//( - , Baz1) Имитация срабатывания верхней АС I УР
-#define R0EE01LZ1	 BUFFER[32]	//( - , MBz1S) Питание  АКНП1  отключить
-#define idR0EE01LZ1	 17	//( - , MBz1S) Питание  АКНП1  отключить
-#define R6IS66LZZ	 BUFFER[34]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 18	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS67LZZ	 BUFFER[36]	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 19	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS68LZZ	 BUFFER[38]	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 20	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define R0VN71LZ1	 BUFFER[40]	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
-#define idR0VN71LZ1	 21	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
+#define A0VN71LS4	 BUFFER[0]	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
+#define idA0VN71LS4	 1	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
+#define A1VN71LZ1	 BUFFER[2]	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
+#define idA1VN71LZ1	 2	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
+#define A3VZ15LZ1	 BUFFER[4]	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
+#define idA3VZ15LZ1	 3	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
+#define A3VZ13LZ1	 BUFFER[6]	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
+#define idA3VZ13LZ1	 4	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
+#define R0VW13LDU	 BUFFER[8]	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+#define idR0VW13LDU	 5	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+#define R0VW23LDU	 BUFFER[10]	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
+#define idR0VW23LDU	 6	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
+#define R7II73LZ1	 BUFFER[12]	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
+#define idR7II73LZ1	 7	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
+#define R7II71LZ1	 BUFFER[14]	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
+#define idR7II71LZ1	 8	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
+#define R7II72LZ1	 BUFFER[16]	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
+#define idR7II72LZ1	 9	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
+#define R0AD14LZ1	 BUFFER[18]	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
+#define idR0AD14LZ1	 10	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
+#define R0AD21LDU	 BUFFER[20]	//( - , SBz1DU) Подключить защиту от II УР
+#define idR0AD21LDU	 11	//( - , SBz1DU) Подключить защиту от II УР
+#define R0AD14LDU	 BUFFER[22]	//( - , Baz1) Имитация срабатывания верхней АС II УР
+#define idR0AD14LDU	 12	//( - , Baz1) Имитация срабатывания верхней АС II УР
+#define R0MD34LP1	 BUFFER[24]	//( - , Baz1) Кнопка (Квитировать)
+#define idR0MD34LP1	 13	//( - , Baz1) Кнопка (Квитировать)
+#define R0AD04LZ1	 BUFFER[26]	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
+#define idR0AD04LZ1	 14	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
+#define R0AD16LDU	 BUFFER[28]	//( - , Baz1) Имитация срабатывания верхней АС I УР
+#define idR0AD16LDU	 15	//( - , Baz1) Имитация срабатывания верхней АС I УР
+#define R0EE01LZ1	 BUFFER[30]	//( - , MBz1S) Питание  АКНП1  отключить
+#define idR0EE01LZ1	 16	//( - , MBz1S) Питание  АКНП1  отключить
+#define R6IS66LZZ	 BUFFER[32]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 17	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS67LZZ	 BUFFER[34]	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 18	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS68LZZ	 BUFFER[36]	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 19	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R0VN71LZ1	 BUFFER[38]	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
+#define idR0VN71LZ1	 20	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
+#define R0VN75LZ1	 BUFFER[40]	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
+#define idR0VN75LZ1	 21	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
 #define A0EE05LZ1	 BUFFER[42]	//( - , Baz1) Исправность сети АКНП1
 #define idA0EE05LZ1	 22	//( - , Baz1) Исправность сети АКНП1
 #define A0EE06LZ1	 BUFFER[44]	//( - , Baz1) Исправность сети АКНП2
@@ -97,8 +97,8 @@ int nomer = 1;
 #define idA0VN71LS1	 41	//(vds32:05 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 1
 #define A0VN71LS2	 BUFFER[91]	//(vds32:06 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 2
 #define idA0VN71LS2	 42	//(vds32:06 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 2
-#define R0DE31LZ1	 BUFFER[93]	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
-#define idR0DE31LZ1	 43	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
+#define A0VN71LS3	 BUFFER[93]	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
+#define idA0VN71LS3	 43	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
 #define R0DE32LZ1	 BUFFER[95]	//(sbk:20 - S02SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 2
 #define idR0DE32LZ1	 44	//(sbk:20 - S02SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 2
 #define R0DE34LZ1	 BUFFER[97]	//(sbk:20 - S04SBK, DiagnBaz1) диагностика шкафа Баз1 температура меньше 43
@@ -139,349 +139,351 @@ int nomer = 1;
 #define idA2IP01FZ1	 62	//( - , MBz1S) Текущее давление СБРОС РБ1
 #define B2IP01FZ1	 BUFFER[137]	//( - , MBz1S) Текущее давление СБРОС РБ2
 #define idB2IP01FZ1	 63	//( - , MBz1S) Текущее давление СБРОС РБ2
-#define R0VN75LZ1	 BUFFER[140]	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
-#define idR0VN75LZ1	 64	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
-#define R0VN72LZ1	 BUFFER[142]	//(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2
+#define R0MW11IP1	 BUFFER[140]	//( - , Baz1) Переключатель ВЫСТРЕЛ
+#define idR0MW11IP1	 64	//( - , Baz1) Переключатель ВЫСТРЕЛ
+#define R0VN72LZ1	 BUFFER[143]	//(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2
 #define idR0VN72LZ1	 65	//(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2
-#define R0VN76LZ1	 BUFFER[144]	//(vds32:06 - K02VDSR, Baz1) АС по периоду разгона канал  2
+#define R0VN76LZ1	 BUFFER[145]	//(vds32:06 - K02VDSR, Baz1) АС по периоду разгона канал  2
 #define idR0VN76LZ1	 66	//(vds32:06 - K02VDSR, Baz1) АС по периоду разгона канал  2
-#define R0VN73LZ1	 BUFFER[146]	//(vds32:08 - K01VDSR, Baz1) АС по мощности канал 3
+#define R0VN73LZ1	 BUFFER[147]	//(vds32:08 - K01VDSR, Baz1) АС по мощности канал 3
 #define idR0VN73LZ1	 67	//(vds32:08 - K01VDSR, Baz1) АС по мощности канал 3
-#define R0VN77LZ1	 BUFFER[148]	//(vds32:08 - K02VDSR, Baz1) АС по периоду разгона канал  3
+#define R0VN77LZ1	 BUFFER[149]	//(vds32:08 - K02VDSR, Baz1) АС по периоду разгона канал  3
 #define idR0VN77LZ1	 68	//(vds32:08 - K02VDSR, Baz1) АС по периоду разгона канал  3
-#define R0VN74LZ1	 BUFFER[150]	//(vds32:07 - K01VDSR, Baz1) АС по мощности канал 4
+#define R0VN74LZ1	 BUFFER[151]	//(vds32:07 - K01VDSR, Baz1) АС по мощности канал 4
 #define idR0VN74LZ1	 69	//(vds32:07 - K01VDSR, Baz1) АС по мощности канал 4
-#define R0VN78LZ1	 BUFFER[152]	//(vds32:07 - K02VDSR, Baz1) АС по периоду разгона канал  4
+#define R0VN78LZ1	 BUFFER[153]	//(vds32:07 - K02VDSR, Baz1) АС по периоду разгона канал  4
 #define idR0VN78LZ1	 70	//(vds32:07 - K02VDSR, Baz1) АС по периоду разгона канал  4
-#define R0EE02LZ1	 BUFFER[154]	//( - , MBz1S) Питание  АКНП2  отключить
+#define R0EE02LZ1	 BUFFER[155]	//( - , MBz1S) Питание  АКНП2  отключить
 #define idR0EE02LZ1	 71	//( - , MBz1S) Питание  АКНП2  отключить
-#define R0EE03LZ1	 BUFFER[156]	//( - , MBz1S) Питание  АКНП3  отключить
+#define R0EE03LZ1	 BUFFER[157]	//( - , MBz1S) Питание  АКНП3  отключить
 #define idR0EE03LZ1	 72	//( - , MBz1S) Питание  АКНП3  отключить
-#define R0EE04LZ1	 BUFFER[158]	//( - , MBz1S) Питание  АКНП4  отключить
+#define R0EE04LZ1	 BUFFER[159]	//( - , MBz1S) Питание  АКНП4  отключить
 #define idR0EE04LZ1	 73	//( - , MBz1S) Питание  АКНП4  отключить
-#define R0AD15LZ1	 BUFFER[160]	//( - , Baz1) Имитация АЗ от 1УР (датчик1)
+#define R0AD15LZ1	 BUFFER[161]	//( - , Baz1) Имитация АЗ от 1УР (датчик1)
 #define idR0AD15LZ1	 74	//( - , Baz1) Имитация АЗ от 1УР (датчик1)
-#define R0AD16LZ1	 BUFFER[162]	//( - , Baz1) Имитация АЗ от 1УР (датчик2)
+#define R0AD16LZ1	 BUFFER[163]	//( - , Baz1) Имитация АЗ от 1УР (датчик2)
 #define idR0AD16LZ1	 75	//( - , Baz1) Имитация АЗ от 1УР (датчик2)
-#define R0MW12IP2	 BUFFER[164]	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
+#define R0MW12IP2	 BUFFER[165]	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
 #define idR0MW12IP2	 76	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
-#define A2IS12LDU	 BUFFER[167]	//(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен
+#define A2IS12LDU	 BUFFER[168]	//(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен
 #define idA2IS12LDU	 77	//(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен
-#define B2IS12LDU	 BUFFER[169]	//(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен
+#define B2IS12LDU	 BUFFER[170]	//(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен
 #define idB2IS12LDU	 78	//(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен
-#define R0DE04LZ1	 BUFFER[171]	//(vas84:04 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 4 месте
+#define R0DE04LZ1	 BUFFER[172]	//(vas84:04 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 4 месте
 #define idR0DE04LZ1	 79	//(vas84:04 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 4 месте
-#define R0DE05LZ1	 BUFFER[174]	//(vds32:05 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 5 месте
+#define R0DE05LZ1	 BUFFER[175]	//(vds32:05 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 5 месте
 #define idR0DE05LZ1	 80	//(vds32:05 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 5 месте
-#define R0DE06LZ1	 BUFFER[177]	//(vds32:06 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 6 месте
+#define R0DE06LZ1	 BUFFER[178]	//(vds32:06 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 6 месте
 #define idR0DE06LZ1	 81	//(vds32:06 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 6 месте
-#define R0DE08LZ1	 BUFFER[180]	//(vds32:08 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 8 месте
+#define R0DE08LZ1	 BUFFER[181]	//(vds32:08 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 8 месте
 #define idR0DE08LZ1	 82	//(vds32:08 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 8 месте
-#define R0DE07LZ1	 BUFFER[183]	//(vds32:07 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 7 месте
+#define R0DE07LZ1	 BUFFER[184]	//(vds32:07 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 7 месте
 #define idR0DE07LZ1	 83	//(vds32:07 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 7 месте
-#define R0DE0ALZ1	 BUFFER[186]	//(fds16:0a - Diagn, DiagnBaz1) диагностика модуля Баз1 на 10 месте
+#define R0DE0ALZ1	 BUFFER[187]	//(fds16:0a - Diagn, DiagnBaz1) диагностика модуля Баз1 на 10 месте
 #define idR0DE0ALZ1	 84	//(fds16:0a - Diagn, DiagnBaz1) диагностика модуля Баз1 на 10 месте
-#define TTLBaz1	 BUFFER[189]	//( - , Baz1) ttl
+#define TTLBaz1	 BUFFER[190]	//( - , Baz1) ttl
 #define idTTLBaz1	 85	//( - , Baz1) ttl
-#define B0VP81LZZ	 BUFFER[192]	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
-#define idB0VP81LZZ	 86	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
-#define A0VP81LZZ	 BUFFER[194]	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
-#define idA0VP81LZZ	 87	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
-#define R0ET02LZ1	 BUFFER[196]	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
-#define idR0ET02LZ1	 88	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
-#define B0EP02IZ1	 BUFFER[198]	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
-#define idB0EP02IZ1	 89	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
-#define A0EP02IZ1	 BUFFER[201]	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
-#define idA0EP02IZ1	 90	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
-#define A0VP71LZ1	 BUFFER[204]	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
-#define idA0VP71LZ1	 91	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
-#define B0VP71LZ1	 BUFFER[206]	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-#define idB0VP71LZ1	 92	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-#define R0VN02RS1	 BUFFER[208]	//( - , MBz1S) Уровень мощности канал 1
-#define idR0VN02RS1	 93	//( - , MBz1S) Уровень мощности канал 1
-#define R0VN02RS2	 BUFFER[213]	//( - , MBz1S) Уровень мощности канал 2
-#define idR0VN02RS2	 94	//( - , MBz1S) Уровень мощности канал 2
-#define R0VN02RS3	 BUFFER[218]	//( - , MBz1S) Уровень мощности канал 3
-#define idR0VN02RS3	 95	//( - , MBz1S) Уровень мощности канал 3
-#define R0VN02RS4	 BUFFER[223]	//( - , MBz1S) Уровень мощности канал 4
-#define idR0VN02RS4	 96	//( - , MBz1S) Уровень мощности канал 4
-#define R0VN01RS1	 BUFFER[228]	//( - , MBz1S) Период разгона канал 1
-#define idR0VN01RS1	 97	//( - , MBz1S) Период разгона канал 1
-#define R0VN01RS2	 BUFFER[233]	//( - , MBz1S) Период разгона канал 2
-#define idR0VN01RS2	 98	//( - , MBz1S) Период разгона канал 2
-#define R0VN01RS3	 BUFFER[238]	//( - , MBz1S) Период разгона канал 3
-#define idR0VN01RS3	 99	//( - , MBz1S) Период разгона канал 3
-#define R0VN01RS4	 BUFFER[243]	//( - , MBz1S) Период разгона канал 4
-#define idR0VN01RS4	 100	//( - , MBz1S) Период разгона канал 4
-#define R0VN61LS1	 BUFFER[248]	//( - , MBz1S) ПС по мощности канал 1
-#define idR0VN61LS1	 101	//( - , MBz1S) ПС по мощности канал 1
-#define R0VN61LS2	 BUFFER[250]	//( - , MBz1S) ПС по мощности канал 2
-#define idR0VN61LS2	 102	//( - , MBz1S) ПС по мощности канал 2
-#define R0VN61LS3	 BUFFER[252]	//( - , MBz1S) ПС по мощности канал 3
-#define idR0VN61LS3	 103	//( - , MBz1S) ПС по мощности канал 3
-#define R0VN61LS4	 BUFFER[254]	//( - , MBz1S) ПС по мощности канал 4
-#define idR0VN61LS4	 104	//( - , MBz1S) ПС по мощности канал 4
-#define R0VN65LS1	 BUFFER[256]	//( - , MBz1S) ПС по периоду разгона канал 1
-#define idR0VN65LS1	 105	//( - , MBz1S) ПС по периоду разгона канал 1
-#define R0VN65LS2	 BUFFER[258]	//( - , MBz1S) ПС по периоду разгона  канал 2
-#define idR0VN65LS2	 106	//( - , MBz1S) ПС по периоду разгона  канал 2
-#define A0IT01IZ1	 BUFFER[260]	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
-#define idA0IT01IZ1	 107	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
-#define A0CT01IZ1	 BUFFER[263]	//( - , Baz1, SBz1DU) Температура АЗ1-1
-#define idA0CT01IZ1	 108	//( - , Baz1, SBz1DU) Температура АЗ1-1
-#define A0VT61LZ1	 BUFFER[268]	//( - , Baz1) ПС по температуре в АЗ1
-#define idA0VT61LZ1	 109	//( - , Baz1) ПС по температуре в АЗ1
-#define A0VT71LZ1	 BUFFER[270]	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
-#define idA0VT71LZ1	 110	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
-#define A1VP41LZ1	 BUFFER[272]	//( - , Baz1) Давление СБРОС ББ1 ниже АС
-#define idA1VP41LZ1	 111	//( - , Baz1) Давление СБРОС ББ1 ниже АС
-#define B1VP41LZ1	 BUFFER[274]	//( - , Baz1) Давление СБРОС ББ2 ниже АС
-#define idB1VP41LZ1	 112	//( - , Baz1) Давление СБРОС ББ2 ниже АС
-#define B1VP81LZZ	 BUFFER[276]	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
-#define idB1VP81LZZ	 113	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
-#define A1VP81LZZ	 BUFFER[278]	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
-#define idA1VP81LZZ	 114	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
-#define A2VP41LZ1	 BUFFER[280]	//( - , Baz1) Давление СБРОС РБ1 ниже АС
-#define idA2VP41LZ1	 115	//( - , Baz1) Давление СБРОС РБ1 ниже АС
-#define A2CP01RZ1	 BUFFER[282]	//( - , Baz1) Текущее давление СБРОС РБ1
-#define idA2CP01RZ1	 116	//( - , Baz1) Текущее давление СБРОС РБ1
-#define A2VP51LZ1	 BUFFER[287]	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
-#define idA2VP51LZ1	 117	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
-#define B2VP41LZ1	 BUFFER[289]	//( - , Baz1) Давление СБРОС РБ2 ниже АС
-#define idB2VP41LZ1	 118	//( - , Baz1) Давление СБРОС РБ2 ниже АС
-#define B2CP01RZ1	 BUFFER[291]	//( - , Baz1) Текущее давление СБРОС РБ2
-#define idB2CP01RZ1	 119	//( - , Baz1) Текущее давление СБРОС РБ2
-#define B2VP51LZ1	 BUFFER[296]	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
-#define idB2VP51LZ1	 120	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
-#define B2VP81LZ1	 BUFFER[298]	//( - , Baz1) Давление СБРОС РБ2 в норме
-#define idB2VP81LZ1	 121	//( - , Baz1) Давление СБРОС РБ2 в норме
-#define A2VP81LZ1	 BUFFER[300]	//( - , Baz1) Давление СБРОС РБ1 в норме
-#define idA2VP81LZ1	 122	//( - , Baz1) Давление СБРОС РБ1 в норме
-#define A2IP01IZ1	 BUFFER[302]	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-#define idA2IP01IZ1	 123	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-#define B2IP01IZ1	 BUFFER[305]	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
-#define idB2IP01IZ1	 124	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
-#define R0ET01LZ1	 BUFFER[308]	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
-#define idR0ET01LZ1	 125	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
-#define B0IT01IZ1	 BUFFER[310]	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
-#define idB0IT01IZ1	 126	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
-#define A0VP41LZ1	 BUFFER[313]	//( - , Baz1) Давление АЗ1 ниже АС
-#define idA0VP41LZ1	 127	//( - , Baz1) Давление АЗ1 ниже АС
-#define B0VP41LZ1	 BUFFER[315]	//( - , Baz1) Давление АЗ2 ниже АС
-#define idB0VP41LZ1	 128	//( - , Baz1) Давление АЗ2 ниже АС
-#define B3IS11LDU	 BUFFER[317]	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
-#define idB3IS11LDU	 129	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
-#define A3VZ31LZ1	 BUFFER[319]	//( - , Baz1) АЗ от ВУ ИС1
-#define idA3VZ31LZ1	 130	//( - , Baz1) АЗ от ВУ ИС1
-#define B3VZ31LZ1	 BUFFER[321]	//( - , Baz1) АЗ от ВУ ИС2
-#define idB3VZ31LZ1	 131	//( - , Baz1) АЗ от ВУ ИС2
-#define R0AD05LZ1	 BUFFER[323]	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
-#define idR0AD05LZ1	 132	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
-#define A3VZ11LZ1	 BUFFER[325]	//( - , Baz1) АЗ от НУП ИС1
-#define idA3VZ11LZ1	 133	//( - , Baz1) АЗ от НУП ИС1
-#define B3VZ11LZ1	 BUFFER[327]	//( - , Baz1) АЗ от НУП ИС2
-#define idB3VZ11LZ1	 134	//( - , Baz1) АЗ от НУП ИС2
-#define B3IS22LDU	 BUFFER[329]	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
-#define idB3IS22LDU	 135	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
-#define R0VN69LZ1	 BUFFER[331]	//( - , Baz1) ПС по усредненному периоду
-#define idR0VN69LZ1	 136	//( - , Baz1) ПС по усредненному периоду
-#define R0VN79LZ1	 BUFFER[333]	//( - , Baz1) АС по усредненному периоду
-#define idR0VN79LZ1	 137	//( - , Baz1) АС по усредненному периоду
-#define R0VR02RZ1	 BUFFER[335]	//( - , Baz1) Усредненная реактивность
-#define idR0VR02RZ1	 138	//( - , Baz1) Усредненная реактивность
-#define R0VZ71LZ1	 BUFFER[340]	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
-#define idR0VZ71LZ1	 139	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
-#define R0VN70LZ1	 BUFFER[342]	//( - , Baz1) АЗ по АС мощности РУ
-#define idR0VN70LZ1	 140	//( - , Baz1) АЗ по АС мощности РУ
-#define R0VN80LZ1	 BUFFER[344]	//( - , Baz1) АЗ по АС периода разгона РУ
-#define idR0VN80LZ1	 141	//( - , Baz1) АЗ по АС периода разгона РУ
-#define A0EE01LS1	 BUFFER[346]	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
-#define idA0EE01LS1	 142	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
-#define A0EE01LS4	 BUFFER[348]	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
-#define idA0EE01LS4	 143	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
-#define A0EE01LS3	 BUFFER[350]	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
-#define idA0EE01LS3	 144	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
-#define A0EE01LZ1	 BUFFER[352]	//( - , Baz1, SBz1DU) Исправность АКНП1
-#define idA0EE01LZ1	 145	//( - , Baz1, SBz1DU) Исправность АКНП1
-#define A0EE04LZ1	 BUFFER[354]	//( - , Baz1, SBz1DU) Исправность АКНП4
-#define idA0EE04LZ1	 146	//( - , Baz1, SBz1DU) Исправность АКНП4
-#define A0EE02LZ1	 BUFFER[356]	//( - , Baz1, SBz1DU) Исправность АКНП2
-#define idA0EE02LZ1	 147	//( - , Baz1, SBz1DU) Исправность АКНП2
-#define A0EE03LZ1	 BUFFER[358]	//( - , Baz1, SBz1DU) Исправность АКНП3
-#define idA0EE03LZ1	 148	//( - , Baz1, SBz1DU) Исправность АКНП3
-#define A0EE01LS2	 BUFFER[360]	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
-#define idA0EE01LS2	 149	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
-#define R0VN65LS3	 BUFFER[362]	//( - , MBz1S) ПС по периоду разгона канал 3
-#define idR0VN65LS3	 150	//( - , MBz1S) ПС по периоду разгона канал 3
-#define R0VN65LS4	 BUFFER[364]	//( - , MBz1S) ПС по периоду разгона канал 4
-#define idR0VN65LS4	 151	//( - , MBz1S) ПС по периоду разгона канал 4
-#define R0VN01RZ1	 BUFFER[366]	//( - , Baz1) Уровень мощности по каналу 1
-#define idR0VN01RZ1	 152	//( - , Baz1) Уровень мощности по каналу 1
-#define R0VN02RZ1	 BUFFER[371]	//( - , Baz1) Уровень мощности по каналу 2
-#define idR0VN02RZ1	 153	//( - , Baz1) Уровень мощности по каналу 2
-#define R0VN03RZ1	 BUFFER[376]	//( - , Baz1) Уровень мощности по каналу 3
-#define idR0VN03RZ1	 154	//( - , Baz1) Уровень мощности по каналу 3
-#define R0VN04RZ1	 BUFFER[381]	//( - , Baz1) Уровень мощности по каналу 4
-#define idR0VN04RZ1	 155	//( - , Baz1) Уровень мощности по каналу 4
-#define R0VN05RZ1	 BUFFER[386]	//( - , Baz1) Период разгона по каналу 1
-#define idR0VN05RZ1	 156	//( - , Baz1) Период разгона по каналу 1
-#define R0VN06RZ1	 BUFFER[391]	//( - , Baz1) Период разгона по каналу 2
-#define idR0VN06RZ1	 157	//( - , Baz1) Период разгона по каналу 2
-#define R0VN07RZ1	 BUFFER[396]	//( - , Baz1) Период разгона по каналу 3
-#define idR0VN07RZ1	 158	//( - , Baz1) Период разгона по каналу 3
-#define R0VN08RZ1	 BUFFER[401]	//( - , Baz1) Период разгона по каналу 4
-#define idR0VN08RZ1	 159	//( - , Baz1) Период разгона по каналу 4
-#define R0VN61LZ1	 BUFFER[406]	//( - , Baz1) ПС по мощности канал 1
-#define idR0VN61LZ1	 160	//( - , Baz1) ПС по мощности канал 1
-#define R0VN62LZ1	 BUFFER[408]	//( - , Baz1) ПС по мощности канал 2
-#define idR0VN62LZ1	 161	//( - , Baz1) ПС по мощности канал 2
-#define R0VN63LZ1	 BUFFER[410]	//( - , Baz1) ПС по мощности канал 3
-#define idR0VN63LZ1	 162	//( - , Baz1) ПС по мощности канал 3
-#define R0VN64LZ1	 BUFFER[412]	//( - , Baz1) ПС по мощности канал 4
-#define idR0VN64LZ1	 163	//( - , Baz1) ПС по мощности канал 4
-#define R0VN65LZ1	 BUFFER[414]	//( - , Baz1) ПС по периоду разгона канал 1
-#define idR0VN65LZ1	 164	//( - , Baz1) ПС по периоду разгона канал 1
-#define R0VN66LZ1	 BUFFER[416]	//( - , Baz1) ПС по периоду разгона канал 2
-#define idR0VN66LZ1	 165	//( - , Baz1) ПС по периоду разгона канал 2
-#define R0VN67LZ1	 BUFFER[418]	//( - , Baz1) ПС по периоду разгона канал 3
-#define idR0VN67LZ1	 166	//( - , Baz1) ПС по периоду разгона канал 3
-#define R0VN68LZ1	 BUFFER[420]	//( - , Baz1) ПС по периоду разгона канал 4
-#define idR0VN68LZ1	 167	//( - , Baz1) ПС по периоду разгона канал 4
-#define R0VN09RZ1	 BUFFER[422]	//( - , Baz1, SBz1DU) Усредненный период разгона
-#define idR0VN09RZ1	 168	//( - , Baz1, SBz1DU) Усредненный период разгона
-#define A3IS11LDU	 BUFFER[427]	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
-#define idA3IS11LDU	 169	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
-#define A3IS22LDU	 BUFFER[429]	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
-#define idA3IS22LDU	 170	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
-#define R0AD03LZ1	 BUFFER[431]	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
-#define idR0AD03LZ1	 171	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
-#define fEM_R0UT02RZZ	 BUFFER[433]	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-#define idfEM_R0UT02RZZ	 172	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-#define fEM_R0UT01RZZ	 BUFFER[438]	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-#define idfEM_R0UT01RZZ	 173	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-#define fEM_A2UP03RZZ	 BUFFER[443]	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
-#define idfEM_A2UP03RZZ	 174	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
-#define fEM_A2UP04RZZ	 BUFFER[448]	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
-#define idfEM_A2UP04RZZ	 175	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
-#define fEM_R0UT72RZZ	 BUFFER[453]	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-#define idfEM_R0UT72RZZ	 176	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-#define fEM_R0UT71RZZ	 BUFFER[458]	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-#define idfEM_R0UT71RZZ	 177	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-#define fEM_R0UT62RZZ	 BUFFER[463]	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-#define idfEM_R0UT62RZZ	 178	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-#define fEM_R0UT61RZZ	 BUFFER[468]	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-#define idfEM_R0UT61RZZ	 179	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-#define fEM_A2UP41RZZ	 BUFFER[473]	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
-#define idfEM_A2UP41RZZ	 180	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
-#define fEM_A2UP42RZZ	 BUFFER[478]	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
-#define idfEM_A2UP42RZZ	 181	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
-#define fEM_A2UP51RZZ	 BUFFER[483]	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
-#define idfEM_A2UP51RZZ	 182	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
-#define fEM_A2UP81RZZ	 BUFFER[488]	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-#define idfEM_A2UP81RZZ	 183	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-#define fEM_A2UP84RZZ	 BUFFER[493]	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-#define idfEM_A2UP84RZZ	 184	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-#define fEM_A2UP82RZZ	 BUFFER[498]	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
-#define idfEM_A2UP82RZZ	 185	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
-#define fEM_A2UP52RZZ	 BUFFER[503]	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
-#define idfEM_A2UP52RZZ	 186	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
-#define fEM_A2UP83RZZ	 BUFFER[508]	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
-#define idfEM_A2UP83RZZ	 187	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
-#define fEM_R0UR01RZZ	 BUFFER[513]	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
-#define idfEM_R0UR01RZZ	 188	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
-#define fEM_R0UR04RZZ	 BUFFER[518]	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
-#define idfEM_R0UR04RZZ	 189	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
-#define fEM_A1UL12RZZ	 BUFFER[523]	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
-#define idfEM_A1UL12RZZ	 190	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
-#define fEM_A1UL11RZZ	 BUFFER[528]	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
-#define idfEM_A1UL11RZZ	 191	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
-#define fEM_R7UI73RZZ	 BUFFER[533]	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
-#define idfEM_R7UI73RZZ	 192	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
-#define bFirstEnterFlag	 BUFFER[538]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 193	//(bFirstEnterFlag) 
-#define internal1_m254_tx	 BUFFER[540]	//(internal1_m254_tx) tx - время накопленное сек
-#define idinternal1_m254_tx	 194	//(internal1_m254_tx) tx - время накопленное сек
-#define internal1_m254_y0	 BUFFER[545]	//(internal1_m254_y0) y0
-#define idinternal1_m254_y0	 195	//(internal1_m254_y0) y0
-#define internal1_m262_tx	 BUFFER[546]	//(internal1_m262_tx) tx - время накопленное сек
-#define idinternal1_m262_tx	 196	//(internal1_m262_tx) tx - время накопленное сек
-#define internal1_m262_y0	 BUFFER[551]	//(internal1_m262_y0) y0
-#define idinternal1_m262_y0	 197	//(internal1_m262_y0) y0
-#define internal1_m325_tx	 BUFFER[552]	//(internal1_m325_tx) tx - время накопленное сек
-#define idinternal1_m325_tx	 198	//(internal1_m325_tx) tx - время накопленное сек
-#define internal1_m325_y0	 BUFFER[557]	//(internal1_m325_y0) y0
-#define idinternal1_m325_y0	 199	//(internal1_m325_y0) y0
-#define internal1_m221_tx	 BUFFER[558]	//(internal1_m221_tx) tx - время накопленное сек
-#define idinternal1_m221_tx	 200	//(internal1_m221_tx) tx - время накопленное сек
-#define internal1_m221_y0	 BUFFER[563]	//(internal1_m221_y0) y0
-#define idinternal1_m221_y0	 201	//(internal1_m221_y0) y0
-#define internal1_m220_tx	 BUFFER[564]	//(internal1_m220_tx) tx - время накопленное сек
-#define idinternal1_m220_tx	 202	//(internal1_m220_tx) tx - время накопленное сек
-#define internal1_m220_y0	 BUFFER[569]	//(internal1_m220_y0) y0
-#define idinternal1_m220_y0	 203	//(internal1_m220_y0) y0
-#define internal1_m218_tx	 BUFFER[570]	//(internal1_m218_tx) tx - время накопленное сек
-#define idinternal1_m218_tx	 204	//(internal1_m218_tx) tx - время накопленное сек
-#define internal1_m218_y0	 BUFFER[575]	//(internal1_m218_y0) y0
-#define idinternal1_m218_y0	 205	//(internal1_m218_y0) y0
-#define internal1_m216_tx	 BUFFER[576]	//(internal1_m216_tx) tx - время накопленное сек
-#define idinternal1_m216_tx	 206	//(internal1_m216_tx) tx - время накопленное сек
-#define internal1_m216_y0	 BUFFER[581]	//(internal1_m216_y0) y0
-#define idinternal1_m216_y0	 207	//(internal1_m216_y0) y0
-#define internal1_m33_tx	 BUFFER[582]	//(internal1_m33_tx) tx - внутренний параметр
-#define idinternal1_m33_tx	 208	//(internal1_m33_tx) tx - внутренний параметр
-#define internal1_m147_y0	 BUFFER[585]	//(internal1_m147_y0) y0
-#define idinternal1_m147_y0	 209	//(internal1_m147_y0) y0
-#define internal1_m146_y0	 BUFFER[590]	//(internal1_m146_y0) y0
-#define idinternal1_m146_y0	 210	//(internal1_m146_y0) y0
-#define internal1_m94_y0	 BUFFER[595]	//(internal1_m94_y0) y0
-#define idinternal1_m94_y0	 211	//(internal1_m94_y0) y0
-#define internal1_m93_y0	 BUFFER[600]	//(internal1_m93_y0) y0
-#define idinternal1_m93_y0	 212	//(internal1_m93_y0) y0
-#define internal1_m161_y1	 BUFFER[605]	//(internal1_m161_y1) y1 - внутренний параметр
-#define idinternal1_m161_y1	 213	//(internal1_m161_y1) y1 - внутренний параметр
-#define internal1_m175_y1	 BUFFER[607]	//(internal1_m175_y1) y1 - внутренний параметр
-#define idinternal1_m175_y1	 214	//(internal1_m175_y1) y1 - внутренний параметр
-#define internal1_m318_q0	 BUFFER[609]	//(internal1_m318_q0) q0 - внутренний параметр
-#define idinternal1_m318_q0	 215	//(internal1_m318_q0) q0 - внутренний параметр
-#define internal1_m129_y0	 BUFFER[614]	//(internal1_m129_y0) state
-#define idinternal1_m129_y0	 216	//(internal1_m129_y0) state
-#define internal1_m125_y0	 BUFFER[616]	//(internal1_m125_y0) state
-#define idinternal1_m125_y0	 217	//(internal1_m125_y0) state
-#define internal1_m109_y1	 BUFFER[618]	//(internal1_m109_y1) y1 - внутренний параметр
-#define idinternal1_m109_y1	 218	//(internal1_m109_y1) y1 - внутренний параметр
-#define internal1_m118_y1	 BUFFER[620]	//(internal1_m118_y1) y1 - внутренний параметр
-#define idinternal1_m118_y1	 219	//(internal1_m118_y1) y1 - внутренний параметр
-#define internal1_m97_y1	 BUFFER[622]	//(internal1_m97_y1) y1 - внутренний параметр
-#define idinternal1_m97_y1	 220	//(internal1_m97_y1) y1 - внутренний параметр
-#define internal1_m107_y1	 BUFFER[624]	//(internal1_m107_y1) y1 - внутренний параметр
-#define idinternal1_m107_y1	 221	//(internal1_m107_y1) y1 - внутренний параметр
-#define internal1_m159_y1	 BUFFER[626]	//(internal1_m159_y1) y1 - внутренний параметр
-#define idinternal1_m159_y1	 222	//(internal1_m159_y1) y1 - внутренний параметр
-#define internal1_m173_y1	 BUFFER[628]	//(internal1_m173_y1) y1 - внутренний параметр
-#define idinternal1_m173_y1	 223	//(internal1_m173_y1) y1 - внутренний параметр
+#define R0DE31LZ1	 BUFFER[193]	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
+#define idR0DE31LZ1	 86	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
+#define B0VP81LZZ	 BUFFER[195]	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
+#define idB0VP81LZZ	 87	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
+#define A0VP81LZZ	 BUFFER[197]	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
+#define idA0VP81LZZ	 88	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
+#define R0ET02LZ1	 BUFFER[199]	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
+#define idR0ET02LZ1	 89	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
+#define B0EP02IZ1	 BUFFER[201]	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
+#define idB0EP02IZ1	 90	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
+#define A0EP02IZ1	 BUFFER[204]	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
+#define idA0EP02IZ1	 91	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
+#define A0VP71LZ1	 BUFFER[207]	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
+#define idA0VP71LZ1	 92	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
+#define B0VP71LZ1	 BUFFER[209]	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
+#define idB0VP71LZ1	 93	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
+#define R0VN02RS1	 BUFFER[211]	//( - , MBz1S) Уровень мощности канал 1
+#define idR0VN02RS1	 94	//( - , MBz1S) Уровень мощности канал 1
+#define R0VN02RS2	 BUFFER[216]	//( - , MBz1S) Уровень мощности канал 2
+#define idR0VN02RS2	 95	//( - , MBz1S) Уровень мощности канал 2
+#define R0VN02RS3	 BUFFER[221]	//( - , MBz1S) Уровень мощности канал 3
+#define idR0VN02RS3	 96	//( - , MBz1S) Уровень мощности канал 3
+#define R0VN02RS4	 BUFFER[226]	//( - , MBz1S) Уровень мощности канал 4
+#define idR0VN02RS4	 97	//( - , MBz1S) Уровень мощности канал 4
+#define R0VN01RS1	 BUFFER[231]	//( - , MBz1S) Период разгона канал 1
+#define idR0VN01RS1	 98	//( - , MBz1S) Период разгона канал 1
+#define R0VN01RS2	 BUFFER[236]	//( - , MBz1S) Период разгона канал 2
+#define idR0VN01RS2	 99	//( - , MBz1S) Период разгона канал 2
+#define R0VN01RS3	 BUFFER[241]	//( - , MBz1S) Период разгона канал 3
+#define idR0VN01RS3	 100	//( - , MBz1S) Период разгона канал 3
+#define R0VN01RS4	 BUFFER[246]	//( - , MBz1S) Период разгона канал 4
+#define idR0VN01RS4	 101	//( - , MBz1S) Период разгона канал 4
+#define R0VN61LS1	 BUFFER[251]	//( - , MBz1S) ПС по мощности канал 1
+#define idR0VN61LS1	 102	//( - , MBz1S) ПС по мощности канал 1
+#define R0VN61LS2	 BUFFER[253]	//( - , MBz1S) ПС по мощности канал 2
+#define idR0VN61LS2	 103	//( - , MBz1S) ПС по мощности канал 2
+#define R0VN61LS3	 BUFFER[255]	//( - , MBz1S) ПС по мощности канал 3
+#define idR0VN61LS3	 104	//( - , MBz1S) ПС по мощности канал 3
+#define R0VN61LS4	 BUFFER[257]	//( - , MBz1S) ПС по мощности канал 4
+#define idR0VN61LS4	 105	//( - , MBz1S) ПС по мощности канал 4
+#define R0VN65LS1	 BUFFER[259]	//( - , MBz1S) ПС по периоду разгона канал 1
+#define idR0VN65LS1	 106	//( - , MBz1S) ПС по периоду разгона канал 1
+#define R0VN65LS2	 BUFFER[261]	//( - , MBz1S) ПС по периоду разгона  канал 2
+#define idR0VN65LS2	 107	//( - , MBz1S) ПС по периоду разгона  канал 2
+#define A0IT01IZ1	 BUFFER[263]	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
+#define idA0IT01IZ1	 108	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
+#define A0CT01IZ1	 BUFFER[266]	//( - , Baz1, SBz1DU) Температура АЗ1-1
+#define idA0CT01IZ1	 109	//( - , Baz1, SBz1DU) Температура АЗ1-1
+#define A0VT61LZ1	 BUFFER[271]	//( - , Baz1) ПС по температуре в АЗ1
+#define idA0VT61LZ1	 110	//( - , Baz1) ПС по температуре в АЗ1
+#define A0VT71LZ1	 BUFFER[273]	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
+#define idA0VT71LZ1	 111	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
+#define A1VP41LZ1	 BUFFER[275]	//( - , Baz1) Давление СБРОС ББ1 ниже АС
+#define idA1VP41LZ1	 112	//( - , Baz1) Давление СБРОС ББ1 ниже АС
+#define B1VP41LZ1	 BUFFER[277]	//( - , Baz1) Давление СБРОС ББ2 ниже АС
+#define idB1VP41LZ1	 113	//( - , Baz1) Давление СБРОС ББ2 ниже АС
+#define B1VP81LZZ	 BUFFER[279]	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
+#define idB1VP81LZZ	 114	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
+#define A1VP81LZZ	 BUFFER[281]	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
+#define idA1VP81LZZ	 115	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
+#define A2VP41LZ1	 BUFFER[283]	//( - , Baz1) Давление СБРОС РБ1 ниже АС
+#define idA2VP41LZ1	 116	//( - , Baz1) Давление СБРОС РБ1 ниже АС
+#define A2CP01RZ1	 BUFFER[285]	//( - , Baz1) Текущее давление СБРОС РБ1
+#define idA2CP01RZ1	 117	//( - , Baz1) Текущее давление СБРОС РБ1
+#define A2VP51LZ1	 BUFFER[290]	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
+#define idA2VP51LZ1	 118	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
+#define B2VP41LZ1	 BUFFER[292]	//( - , Baz1) Давление СБРОС РБ2 ниже АС
+#define idB2VP41LZ1	 119	//( - , Baz1) Давление СБРОС РБ2 ниже АС
+#define B2CP01RZ1	 BUFFER[294]	//( - , Baz1) Текущее давление СБРОС РБ2
+#define idB2CP01RZ1	 120	//( - , Baz1) Текущее давление СБРОС РБ2
+#define B2VP51LZ1	 BUFFER[299]	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
+#define idB2VP51LZ1	 121	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
+#define B2VP81LZ1	 BUFFER[301]	//( - , Baz1) Давление СБРОС РБ2 в норме
+#define idB2VP81LZ1	 122	//( - , Baz1) Давление СБРОС РБ2 в норме
+#define A2VP81LZ1	 BUFFER[303]	//( - , Baz1) Давление СБРОС РБ1 в норме
+#define idA2VP81LZ1	 123	//( - , Baz1) Давление СБРОС РБ1 в норме
+#define A2IP01IZ1	 BUFFER[305]	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
+#define idA2IP01IZ1	 124	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
+#define B2IP01IZ1	 BUFFER[308]	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
+#define idB2IP01IZ1	 125	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
+#define R0ET01LZ1	 BUFFER[311]	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
+#define idR0ET01LZ1	 126	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
+#define B0IT01IZ1	 BUFFER[313]	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
+#define idB0IT01IZ1	 127	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
+#define A0VP41LZ1	 BUFFER[316]	//( - , Baz1) Давление АЗ1 ниже АС
+#define idA0VP41LZ1	 128	//( - , Baz1) Давление АЗ1 ниже АС
+#define B0VP41LZ1	 BUFFER[318]	//( - , Baz1) Давление АЗ2 ниже АС
+#define idB0VP41LZ1	 129	//( - , Baz1) Давление АЗ2 ниже АС
+#define B3IS11LDU	 BUFFER[320]	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
+#define idB3IS11LDU	 130	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
+#define A3VZ31LZ1	 BUFFER[322]	//( - , Baz1) АЗ от ВУ ИС1
+#define idA3VZ31LZ1	 131	//( - , Baz1) АЗ от ВУ ИС1
+#define B3VZ31LZ1	 BUFFER[324]	//( - , Baz1) АЗ от ВУ ИС2
+#define idB3VZ31LZ1	 132	//( - , Baz1) АЗ от ВУ ИС2
+#define R0AD05LZ1	 BUFFER[326]	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
+#define idR0AD05LZ1	 133	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
+#define A3VZ11LZ1	 BUFFER[328]	//( - , Baz1) АЗ от НУП ИС1
+#define idA3VZ11LZ1	 134	//( - , Baz1) АЗ от НУП ИС1
+#define B3VZ11LZ1	 BUFFER[330]	//( - , Baz1) АЗ от НУП ИС2
+#define idB3VZ11LZ1	 135	//( - , Baz1) АЗ от НУП ИС2
+#define B3IS22LDU	 BUFFER[332]	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
+#define idB3IS22LDU	 136	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
+#define R0VN69LZ1	 BUFFER[334]	//( - , Baz1) ПС по усредненному периоду
+#define idR0VN69LZ1	 137	//( - , Baz1) ПС по усредненному периоду
+#define R0VN79LZ1	 BUFFER[336]	//( - , Baz1) АС по усредненному периоду
+#define idR0VN79LZ1	 138	//( - , Baz1) АС по усредненному периоду
+#define R0VR02RZ1	 BUFFER[338]	//( - , Baz1) Усредненная реактивность
+#define idR0VR02RZ1	 139	//( - , Baz1) Усредненная реактивность
+#define R0VZ71LZ1	 BUFFER[343]	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+#define idR0VZ71LZ1	 140	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+#define R0VN70LZ1	 BUFFER[345]	//( - , Baz1) АЗ по АС мощности РУ
+#define idR0VN70LZ1	 141	//( - , Baz1) АЗ по АС мощности РУ
+#define R0VN80LZ1	 BUFFER[347]	//( - , Baz1) АЗ по АС периода разгона РУ
+#define idR0VN80LZ1	 142	//( - , Baz1) АЗ по АС периода разгона РУ
+#define A0EE01LS1	 BUFFER[349]	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
+#define idA0EE01LS1	 143	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
+#define A0EE01LS4	 BUFFER[351]	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
+#define idA0EE01LS4	 144	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
+#define A0EE01LS3	 BUFFER[353]	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
+#define idA0EE01LS3	 145	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
+#define A0EE01LZ1	 BUFFER[355]	//( - , Baz1, SBz1DU) Исправность АКНП1
+#define idA0EE01LZ1	 146	//( - , Baz1, SBz1DU) Исправность АКНП1
+#define A0EE04LZ1	 BUFFER[357]	//( - , Baz1, SBz1DU) Исправность АКНП4
+#define idA0EE04LZ1	 147	//( - , Baz1, SBz1DU) Исправность АКНП4
+#define A0EE02LZ1	 BUFFER[359]	//( - , Baz1, SBz1DU) Исправность АКНП2
+#define idA0EE02LZ1	 148	//( - , Baz1, SBz1DU) Исправность АКНП2
+#define A0EE03LZ1	 BUFFER[361]	//( - , Baz1, SBz1DU) Исправность АКНП3
+#define idA0EE03LZ1	 149	//( - , Baz1, SBz1DU) Исправность АКНП3
+#define A0EE01LS2	 BUFFER[363]	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
+#define idA0EE01LS2	 150	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
+#define R0VN65LS3	 BUFFER[365]	//( - , MBz1S) ПС по периоду разгона канал 3
+#define idR0VN65LS3	 151	//( - , MBz1S) ПС по периоду разгона канал 3
+#define R0VN65LS4	 BUFFER[367]	//( - , MBz1S) ПС по периоду разгона канал 4
+#define idR0VN65LS4	 152	//( - , MBz1S) ПС по периоду разгона канал 4
+#define R0VN01RZ1	 BUFFER[369]	//( - , Baz1) Уровень мощности по каналу 1
+#define idR0VN01RZ1	 153	//( - , Baz1) Уровень мощности по каналу 1
+#define R0VN02RZ1	 BUFFER[374]	//( - , Baz1) Уровень мощности по каналу 2
+#define idR0VN02RZ1	 154	//( - , Baz1) Уровень мощности по каналу 2
+#define R0VN03RZ1	 BUFFER[379]	//( - , Baz1) Уровень мощности по каналу 3
+#define idR0VN03RZ1	 155	//( - , Baz1) Уровень мощности по каналу 3
+#define R0VN04RZ1	 BUFFER[384]	//( - , Baz1) Уровень мощности по каналу 4
+#define idR0VN04RZ1	 156	//( - , Baz1) Уровень мощности по каналу 4
+#define R0VN05RZ1	 BUFFER[389]	//( - , Baz1) Период разгона по каналу 1
+#define idR0VN05RZ1	 157	//( - , Baz1) Период разгона по каналу 1
+#define R0VN06RZ1	 BUFFER[394]	//( - , Baz1) Период разгона по каналу 2
+#define idR0VN06RZ1	 158	//( - , Baz1) Период разгона по каналу 2
+#define R0VN07RZ1	 BUFFER[399]	//( - , Baz1) Период разгона по каналу 3
+#define idR0VN07RZ1	 159	//( - , Baz1) Период разгона по каналу 3
+#define R0VN08RZ1	 BUFFER[404]	//( - , Baz1) Период разгона по каналу 4
+#define idR0VN08RZ1	 160	//( - , Baz1) Период разгона по каналу 4
+#define R0VN61LZ1	 BUFFER[409]	//( - , Baz1) ПС по мощности канал 1
+#define idR0VN61LZ1	 161	//( - , Baz1) ПС по мощности канал 1
+#define R0VN62LZ1	 BUFFER[411]	//( - , Baz1) ПС по мощности канал 2
+#define idR0VN62LZ1	 162	//( - , Baz1) ПС по мощности канал 2
+#define R0VN63LZ1	 BUFFER[413]	//( - , Baz1) ПС по мощности канал 3
+#define idR0VN63LZ1	 163	//( - , Baz1) ПС по мощности канал 3
+#define R0VN64LZ1	 BUFFER[415]	//( - , Baz1) ПС по мощности канал 4
+#define idR0VN64LZ1	 164	//( - , Baz1) ПС по мощности канал 4
+#define R0VN65LZ1	 BUFFER[417]	//( - , Baz1) ПС по периоду разгона канал 1
+#define idR0VN65LZ1	 165	//( - , Baz1) ПС по периоду разгона канал 1
+#define R0VN66LZ1	 BUFFER[419]	//( - , Baz1) ПС по периоду разгона канал 2
+#define idR0VN66LZ1	 166	//( - , Baz1) ПС по периоду разгона канал 2
+#define R0VN67LZ1	 BUFFER[421]	//( - , Baz1) ПС по периоду разгона канал 3
+#define idR0VN67LZ1	 167	//( - , Baz1) ПС по периоду разгона канал 3
+#define R0VN68LZ1	 BUFFER[423]	//( - , Baz1) ПС по периоду разгона канал 4
+#define idR0VN68LZ1	 168	//( - , Baz1) ПС по периоду разгона канал 4
+#define R0VN09RZ1	 BUFFER[425]	//( - , Baz1, SBz1DU) Усредненный период разгона
+#define idR0VN09RZ1	 169	//( - , Baz1, SBz1DU) Усредненный период разгона
+#define A3IS11LDU	 BUFFER[430]	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
+#define idA3IS11LDU	 170	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
+#define A3IS22LDU	 BUFFER[432]	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
+#define idA3IS22LDU	 171	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
+#define R0AD03LZ1	 BUFFER[434]	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
+#define idR0AD03LZ1	 172	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
+#define fEM_R0UT02RZZ	 BUFFER[436]	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+#define idfEM_R0UT02RZZ	 173	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+#define fEM_R0UT01RZZ	 BUFFER[441]	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+#define idfEM_R0UT01RZZ	 174	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+#define fEM_A2UP03RZZ	 BUFFER[446]	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
+#define idfEM_A2UP03RZZ	 175	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
+#define fEM_A2UP04RZZ	 BUFFER[451]	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
+#define idfEM_A2UP04RZZ	 176	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
+#define fEM_R0UT72RZZ	 BUFFER[456]	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+#define idfEM_R0UT72RZZ	 177	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+#define fEM_R0UT71RZZ	 BUFFER[461]	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+#define idfEM_R0UT71RZZ	 178	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+#define fEM_R0UT62RZZ	 BUFFER[466]	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+#define idfEM_R0UT62RZZ	 179	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+#define fEM_R0UT61RZZ	 BUFFER[471]	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+#define idfEM_R0UT61RZZ	 180	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+#define fEM_A2UP41RZZ	 BUFFER[476]	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+#define idfEM_A2UP41RZZ	 181	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+#define fEM_A2UP42RZZ	 BUFFER[481]	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+#define idfEM_A2UP42RZZ	 182	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+#define fEM_A2UP51RZZ	 BUFFER[486]	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
+#define idfEM_A2UP51RZZ	 183	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
+#define fEM_A2UP81RZZ	 BUFFER[491]	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+#define idfEM_A2UP81RZZ	 184	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+#define fEM_A2UP84RZZ	 BUFFER[496]	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+#define idfEM_A2UP84RZZ	 185	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+#define fEM_A2UP82RZZ	 BUFFER[501]	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
+#define idfEM_A2UP82RZZ	 186	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
+#define fEM_A2UP52RZZ	 BUFFER[506]	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+#define idfEM_A2UP52RZZ	 187	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+#define fEM_A2UP83RZZ	 BUFFER[511]	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
+#define idfEM_A2UP83RZZ	 188	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
+#define fEM_R0UR01RZZ	 BUFFER[516]	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
+#define idfEM_R0UR01RZZ	 189	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
+#define fEM_R0UR04RZZ	 BUFFER[521]	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
+#define idfEM_R0UR04RZZ	 190	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
+#define fEM_A1UL12RZZ	 BUFFER[526]	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
+#define idfEM_A1UL12RZZ	 191	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
+#define fEM_A1UL11RZZ	 BUFFER[531]	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
+#define idfEM_A1UL11RZZ	 192	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
+#define fEM_R7UI73RZZ	 BUFFER[536]	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
+#define idfEM_R7UI73RZZ	 193	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
+#define bFirstEnterFlag	 BUFFER[541]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 194	//(bFirstEnterFlag) 
+#define internal1_m254_tx	 BUFFER[543]	//(internal1_m254_tx) tx - время накопленное сек
+#define idinternal1_m254_tx	 195	//(internal1_m254_tx) tx - время накопленное сек
+#define internal1_m254_y0	 BUFFER[548]	//(internal1_m254_y0) y0
+#define idinternal1_m254_y0	 196	//(internal1_m254_y0) y0
+#define internal1_m262_tx	 BUFFER[549]	//(internal1_m262_tx) tx - время накопленное сек
+#define idinternal1_m262_tx	 197	//(internal1_m262_tx) tx - время накопленное сек
+#define internal1_m262_y0	 BUFFER[554]	//(internal1_m262_y0) y0
+#define idinternal1_m262_y0	 198	//(internal1_m262_y0) y0
+#define internal1_m325_tx	 BUFFER[555]	//(internal1_m325_tx) tx - время накопленное сек
+#define idinternal1_m325_tx	 199	//(internal1_m325_tx) tx - время накопленное сек
+#define internal1_m325_y0	 BUFFER[560]	//(internal1_m325_y0) y0
+#define idinternal1_m325_y0	 200	//(internal1_m325_y0) y0
+#define internal1_m221_tx	 BUFFER[561]	//(internal1_m221_tx) tx - время накопленное сек
+#define idinternal1_m221_tx	 201	//(internal1_m221_tx) tx - время накопленное сек
+#define internal1_m221_y0	 BUFFER[566]	//(internal1_m221_y0) y0
+#define idinternal1_m221_y0	 202	//(internal1_m221_y0) y0
+#define internal1_m220_tx	 BUFFER[567]	//(internal1_m220_tx) tx - время накопленное сек
+#define idinternal1_m220_tx	 203	//(internal1_m220_tx) tx - время накопленное сек
+#define internal1_m220_y0	 BUFFER[572]	//(internal1_m220_y0) y0
+#define idinternal1_m220_y0	 204	//(internal1_m220_y0) y0
+#define internal1_m218_tx	 BUFFER[573]	//(internal1_m218_tx) tx - время накопленное сек
+#define idinternal1_m218_tx	 205	//(internal1_m218_tx) tx - время накопленное сек
+#define internal1_m218_y0	 BUFFER[578]	//(internal1_m218_y0) y0
+#define idinternal1_m218_y0	 206	//(internal1_m218_y0) y0
+#define internal1_m216_tx	 BUFFER[579]	//(internal1_m216_tx) tx - время накопленное сек
+#define idinternal1_m216_tx	 207	//(internal1_m216_tx) tx - время накопленное сек
+#define internal1_m216_y0	 BUFFER[584]	//(internal1_m216_y0) y0
+#define idinternal1_m216_y0	 208	//(internal1_m216_y0) y0
+#define internal1_m33_tx	 BUFFER[585]	//(internal1_m33_tx) tx - внутренний параметр
+#define idinternal1_m33_tx	 209	//(internal1_m33_tx) tx - внутренний параметр
+#define internal1_m147_y0	 BUFFER[588]	//(internal1_m147_y0) y0
+#define idinternal1_m147_y0	 210	//(internal1_m147_y0) y0
+#define internal1_m146_y0	 BUFFER[593]	//(internal1_m146_y0) y0
+#define idinternal1_m146_y0	 211	//(internal1_m146_y0) y0
+#define internal1_m94_y0	 BUFFER[598]	//(internal1_m94_y0) y0
+#define idinternal1_m94_y0	 212	//(internal1_m94_y0) y0
+#define internal1_m93_y0	 BUFFER[603]	//(internal1_m93_y0) y0
+#define idinternal1_m93_y0	 213	//(internal1_m93_y0) y0
+#define internal1_m161_y1	 BUFFER[608]	//(internal1_m161_y1) y1 - внутренний параметр
+#define idinternal1_m161_y1	 214	//(internal1_m161_y1) y1 - внутренний параметр
+#define internal1_m175_y1	 BUFFER[610]	//(internal1_m175_y1) y1 - внутренний параметр
+#define idinternal1_m175_y1	 215	//(internal1_m175_y1) y1 - внутренний параметр
+#define internal1_m318_q0	 BUFFER[612]	//(internal1_m318_q0) q0 - внутренний параметр
+#define idinternal1_m318_q0	 216	//(internal1_m318_q0) q0 - внутренний параметр
+#define internal1_m129_y0	 BUFFER[617]	//(internal1_m129_y0) state
+#define idinternal1_m129_y0	 217	//(internal1_m129_y0) state
+#define internal1_m125_y0	 BUFFER[619]	//(internal1_m125_y0) state
+#define idinternal1_m125_y0	 218	//(internal1_m125_y0) state
+#define internal1_m105_y1	 BUFFER[621]	//(internal1_m105_y1) y1 - внутренний параметр
+#define idinternal1_m105_y1	 219	//(internal1_m105_y1) y1 - внутренний параметр
+#define internal1_m122_y1	 BUFFER[623]	//(internal1_m122_y1) y1 - внутренний параметр
+#define idinternal1_m122_y1	 220	//(internal1_m122_y1) y1 - внутренний параметр
+#define internal1_m97_y1	 BUFFER[625]	//(internal1_m97_y1) y1 - внутренний параметр
+#define idinternal1_m97_y1	 221	//(internal1_m97_y1) y1 - внутренний параметр
+#define internal1_m108_y1	 BUFFER[627]	//(internal1_m108_y1) y1 - внутренний параметр
+#define idinternal1_m108_y1	 222	//(internal1_m108_y1) y1 - внутренний параметр
+#define internal1_m159_y1	 BUFFER[629]	//(internal1_m159_y1) y1 - внутренний параметр
+#define idinternal1_m159_y1	 223	//(internal1_m159_y1) y1 - внутренний параметр
+#define internal1_m171_y1	 BUFFER[631]	//(internal1_m171_y1) y1 - внутренний параметр
+#define idinternal1_m171_y1	 224	//(internal1_m171_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,1	,1	, &A0VN71LS3},	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
-	{ 2	,1	,1	, &A0VN71LS4},	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
-	{ 3	,1	,1	, &A1VN71LZ1},	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
-	{ 4	,1	,1	, &A3VZ15LZ1},	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
-	{ 5	,1	,1	, &A3VZ13LZ1},	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
-	{ 6	,1	,1	, &R0VW13LDU},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
-	{ 7	,1	,1	, &R0VW23LDU},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{ 8	,1	,1	, &R7II73LZ1},	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
-	{ 9	,1	,1	, &R7II71LZ1},	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
-	{ 10	,1	,1	, &R7II72LZ1},	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
-	{ 11	,1	,1	, &R0AD14LZ1},	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
-	{ 12	,1	,1	, &R0AD21LDU},	//( - , SBz1DU) Подключить защиту от II УР
-	{ 13	,1	,1	, &R0AD14LDU},	//( - , Baz1) Имитация срабатывания верхней АС II УР
-	{ 14	,1	,1	, &R0MD34LP1},	//( - , Baz1) Кнопка (Квитировать)
-	{ 15	,1	,1	, &R0AD04LZ1},	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
-	{ 16	,1	,1	, &R0AD16LDU},	//( - , Baz1) Имитация срабатывания верхней АС I УР
-	{ 17	,1	,1	, &R0EE01LZ1},	//( - , MBz1S) Питание  АКНП1  отключить
-	{ 18	,1	,1	, &R6IS66LZZ},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 19	,1	,1	, &R6IS67LZZ},	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 20	,1	,1	, &R6IS68LZZ},	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 21	,1	,1	, &R0VN71LZ1},	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
+	{ 1	,1	,1	, &A0VN71LS4},	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
+	{ 2	,1	,1	, &A1VN71LZ1},	//(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ
+	{ 3	,1	,1	, &A3VZ15LZ1},	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
+	{ 4	,1	,1	, &A3VZ13LZ1},	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
+	{ 5	,1	,1	, &R0VW13LDU},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+	{ 6	,1	,1	, &R0VW23LDU},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
+	{ 7	,1	,1	, &R7II73LZ1},	//(vds32:08 - K07VDSR, Baz1) Сработала АС II УР РАД
+	{ 8	,1	,1	, &R7II71LZ1},	//(vds32:08 - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
+	{ 9	,1	,1	, &R7II72LZ1},	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
+	{ 10	,1	,1	, &R0AD14LZ1},	//(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР
+	{ 11	,1	,1	, &R0AD21LDU},	//( - , SBz1DU) Подключить защиту от II УР
+	{ 12	,1	,1	, &R0AD14LDU},	//( - , Baz1) Имитация срабатывания верхней АС II УР
+	{ 13	,1	,1	, &R0MD34LP1},	//( - , Baz1) Кнопка (Квитировать)
+	{ 14	,1	,1	, &R0AD04LZ1},	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
+	{ 15	,1	,1	, &R0AD16LDU},	//( - , Baz1) Имитация срабатывания верхней АС I УР
+	{ 16	,1	,1	, &R0EE01LZ1},	//( - , MBz1S) Питание  АКНП1  отключить
+	{ 17	,1	,1	, &R6IS66LZZ},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 18	,1	,1	, &R6IS67LZZ},	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 19	,1	,1	, &R6IS68LZZ},	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 20	,1	,1	, &R0VN71LZ1},	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
+	{ 21	,1	,1	, &R0VN75LZ1},	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
 	{ 22	,1	,1	, &A0EE05LZ1},	//( - , Baz1) Исправность сети АКНП1
 	{ 23	,1	,1	, &A0EE06LZ1},	//( - , Baz1) Исправность сети АКНП2
 	{ 24	,1	,1	, &A0EE07LZ1},	//( - , Baz1) Исправность сети АКНП3
@@ -503,7 +505,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 40	,1	,1	, &B0VT71LZ1},	//( - , Baz1, SBz1DU) АС по температуре в АЗ2
 	{ 41	,1	,1	, &A0VN71LS1},	//(vds32:05 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 1
 	{ 42	,1	,1	, &A0VN71LS2},	//(vds32:06 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 2
-	{ 43	,1	,1	, &R0DE31LZ1},	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
+	{ 43	,1	,1	, &A0VN71LS3},	//(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3
 	{ 44	,1	,1	, &R0DE32LZ1},	//(sbk:20 - S02SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 2
 	{ 45	,1	,1	, &R0DE34LZ1},	//(sbk:20 - S04SBK, DiagnBaz1) диагностика шкафа Баз1 температура меньше 43
 	{ 46	,1	,1	, &R0DE33LZ1},	//(sbk:20 - S03SBK, DiagnBaz1) диагностика шкафа Баз1 двери
@@ -524,7 +526,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 61	,3	,1	, &B0IT01FZ1},	//( - , MBz1S) Температура АЗ2-1
 	{ 62	,3	,1	, &A2IP01FZ1},	//( - , MBz1S) Текущее давление СБРОС РБ1
 	{ 63	,3	,1	, &B2IP01FZ1},	//( - , MBz1S) Текущее давление СБРОС РБ2
-	{ 64	,1	,1	, &R0VN75LZ1},	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
+	{ 64	,3	,1	, &R0MW11IP1},	//( - , Baz1) Переключатель ВЫСТРЕЛ
 	{ 65	,1	,1	, &R0VN72LZ1},	//(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2
 	{ 66	,1	,1	, &R0VN76LZ1},	//(vds32:06 - K02VDSR, Baz1) АС по периоду разгона канал  2
 	{ 67	,1	,1	, &R0VN73LZ1},	//(vds32:08 - K01VDSR, Baz1) АС по мощности канал 3
@@ -546,170 +548,171 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 83	,3	,1	, &R0DE07LZ1},	//(vds32:07 - Diagn, DiagnBaz1) диагностика модуля Баз1 на 7 месте
 	{ 84	,3	,1	, &R0DE0ALZ1},	//(fds16:0a - Diagn, DiagnBaz1) диагностика модуля Баз1 на 10 месте
 	{ 85	,3	,1	, &TTLBaz1},	//( - , Baz1) ttl
-	{ 86	,1	,1	, &B0VP81LZZ},	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
-	{ 87	,1	,1	, &A0VP81LZZ},	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
-	{ 88	,1	,1	, &R0ET02LZ1},	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
-	{ 89	,3	,1	, &B0EP02IZ1},	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
-	{ 90	,3	,1	, &A0EP02IZ1},	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
-	{ 91	,1	,1	, &A0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
-	{ 92	,1	,1	, &B0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-	{ 93	,8	,1	, &R0VN02RS1},	//( - , MBz1S) Уровень мощности канал 1
-	{ 94	,8	,1	, &R0VN02RS2},	//( - , MBz1S) Уровень мощности канал 2
-	{ 95	,8	,1	, &R0VN02RS3},	//( - , MBz1S) Уровень мощности канал 3
-	{ 96	,8	,1	, &R0VN02RS4},	//( - , MBz1S) Уровень мощности канал 4
-	{ 97	,8	,1	, &R0VN01RS1},	//( - , MBz1S) Период разгона канал 1
-	{ 98	,8	,1	, &R0VN01RS2},	//( - , MBz1S) Период разгона канал 2
-	{ 99	,8	,1	, &R0VN01RS3},	//( - , MBz1S) Период разгона канал 3
-	{ 100	,8	,1	, &R0VN01RS4},	//( - , MBz1S) Период разгона канал 4
-	{ 101	,1	,1	, &R0VN61LS1},	//( - , MBz1S) ПС по мощности канал 1
-	{ 102	,1	,1	, &R0VN61LS2},	//( - , MBz1S) ПС по мощности канал 2
-	{ 103	,1	,1	, &R0VN61LS3},	//( - , MBz1S) ПС по мощности канал 3
-	{ 104	,1	,1	, &R0VN61LS4},	//( - , MBz1S) ПС по мощности канал 4
-	{ 105	,1	,1	, &R0VN65LS1},	//( - , MBz1S) ПС по периоду разгона канал 1
-	{ 106	,1	,1	, &R0VN65LS2},	//( - , MBz1S) ПС по периоду разгона  канал 2
-	{ 107	,3	,1	, &A0IT01IZ1},	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
-	{ 108	,8	,1	, &A0CT01IZ1},	//( - , Baz1, SBz1DU) Температура АЗ1-1
-	{ 109	,1	,1	, &A0VT61LZ1},	//( - , Baz1) ПС по температуре в АЗ1
-	{ 110	,1	,1	, &A0VT71LZ1},	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
-	{ 111	,1	,1	, &A1VP41LZ1},	//( - , Baz1) Давление СБРОС ББ1 ниже АС
-	{ 112	,1	,1	, &B1VP41LZ1},	//( - , Baz1) Давление СБРОС ББ2 ниже АС
-	{ 113	,1	,1	, &B1VP81LZZ},	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
-	{ 114	,1	,1	, &A1VP81LZZ},	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
-	{ 115	,1	,1	, &A2VP41LZ1},	//( - , Baz1) Давление СБРОС РБ1 ниже АС
-	{ 116	,8	,1	, &A2CP01RZ1},	//( - , Baz1) Текущее давление СБРОС РБ1
-	{ 117	,1	,1	, &A2VP51LZ1},	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
-	{ 118	,1	,1	, &B2VP41LZ1},	//( - , Baz1) Давление СБРОС РБ2 ниже АС
-	{ 119	,8	,1	, &B2CP01RZ1},	//( - , Baz1) Текущее давление СБРОС РБ2
-	{ 120	,1	,1	, &B2VP51LZ1},	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
-	{ 121	,1	,1	, &B2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ2 в норме
-	{ 122	,1	,1	, &A2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ1 в норме
-	{ 123	,3	,1	, &A2IP01IZ1},	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
-	{ 124	,3	,1	, &B2IP01IZ1},	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
-	{ 125	,1	,1	, &R0ET01LZ1},	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
-	{ 126	,3	,1	, &B0IT01IZ1},	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
-	{ 127	,1	,1	, &A0VP41LZ1},	//( - , Baz1) Давление АЗ1 ниже АС
-	{ 128	,1	,1	, &B0VP41LZ1},	//( - , Baz1) Давление АЗ2 ниже АС
-	{ 129	,1	,1	, &B3IS11LDU},	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
-	{ 130	,1	,1	, &A3VZ31LZ1},	//( - , Baz1) АЗ от ВУ ИС1
-	{ 131	,1	,1	, &B3VZ31LZ1},	//( - , Baz1) АЗ от ВУ ИС2
-	{ 132	,1	,1	, &R0AD05LZ1},	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
-	{ 133	,1	,1	, &A3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС1
-	{ 134	,1	,1	, &B3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС2
-	{ 135	,1	,1	, &B3IS22LDU},	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
-	{ 136	,1	,1	, &R0VN69LZ1},	//( - , Baz1) ПС по усредненному периоду
-	{ 137	,1	,1	, &R0VN79LZ1},	//( - , Baz1) АС по усредненному периоду
-	{ 138	,8	,1	, &R0VR02RZ1},	//( - , Baz1) Усредненная реактивность
-	{ 139	,1	,1	, &R0VZ71LZ1},	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
-	{ 140	,1	,1	, &R0VN70LZ1},	//( - , Baz1) АЗ по АС мощности РУ
-	{ 141	,1	,1	, &R0VN80LZ1},	//( - , Baz1) АЗ по АС периода разгона РУ
-	{ 142	,1	,1	, &A0EE01LS1},	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
-	{ 143	,1	,1	, &A0EE01LS4},	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
-	{ 144	,1	,1	, &A0EE01LS3},	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
-	{ 145	,1	,1	, &A0EE01LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП1
-	{ 146	,1	,1	, &A0EE04LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП4
-	{ 147	,1	,1	, &A0EE02LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП2
-	{ 148	,1	,1	, &A0EE03LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП3
-	{ 149	,1	,1	, &A0EE01LS2},	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
-	{ 150	,1	,1	, &R0VN65LS3},	//( - , MBz1S) ПС по периоду разгона канал 3
-	{ 151	,1	,1	, &R0VN65LS4},	//( - , MBz1S) ПС по периоду разгона канал 4
-	{ 152	,8	,1	, &R0VN01RZ1},	//( - , Baz1) Уровень мощности по каналу 1
-	{ 153	,8	,1	, &R0VN02RZ1},	//( - , Baz1) Уровень мощности по каналу 2
-	{ 154	,8	,1	, &R0VN03RZ1},	//( - , Baz1) Уровень мощности по каналу 3
-	{ 155	,8	,1	, &R0VN04RZ1},	//( - , Baz1) Уровень мощности по каналу 4
-	{ 156	,8	,1	, &R0VN05RZ1},	//( - , Baz1) Период разгона по каналу 1
-	{ 157	,8	,1	, &R0VN06RZ1},	//( - , Baz1) Период разгона по каналу 2
-	{ 158	,8	,1	, &R0VN07RZ1},	//( - , Baz1) Период разгона по каналу 3
-	{ 159	,8	,1	, &R0VN08RZ1},	//( - , Baz1) Период разгона по каналу 4
-	{ 160	,1	,1	, &R0VN61LZ1},	//( - , Baz1) ПС по мощности канал 1
-	{ 161	,1	,1	, &R0VN62LZ1},	//( - , Baz1) ПС по мощности канал 2
-	{ 162	,1	,1	, &R0VN63LZ1},	//( - , Baz1) ПС по мощности канал 3
-	{ 163	,1	,1	, &R0VN64LZ1},	//( - , Baz1) ПС по мощности канал 4
-	{ 164	,1	,1	, &R0VN65LZ1},	//( - , Baz1) ПС по периоду разгона канал 1
-	{ 165	,1	,1	, &R0VN66LZ1},	//( - , Baz1) ПС по периоду разгона канал 2
-	{ 166	,1	,1	, &R0VN67LZ1},	//( - , Baz1) ПС по периоду разгона канал 3
-	{ 167	,1	,1	, &R0VN68LZ1},	//( - , Baz1) ПС по периоду разгона канал 4
-	{ 168	,8	,1	, &R0VN09RZ1},	//( - , Baz1, SBz1DU) Усредненный период разгона
-	{ 169	,1	,1	, &A3IS11LDU},	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
-	{ 170	,1	,1	, &A3IS22LDU},	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
-	{ 171	,1	,1	, &R0AD03LZ1},	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
-	{ 172	,8	,1	, &fEM_R0UT02RZZ},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-	{ 173	,8	,1	, &fEM_R0UT01RZZ},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-	{ 174	,8	,1	, &fEM_A2UP03RZZ},	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
-	{ 175	,8	,1	, &fEM_A2UP04RZZ},	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
-	{ 176	,8	,1	, &fEM_R0UT72RZZ},	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-	{ 177	,8	,1	, &fEM_R0UT71RZZ},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-	{ 178	,8	,1	, &fEM_R0UT62RZZ},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-	{ 179	,8	,1	, &fEM_R0UT61RZZ},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-	{ 180	,8	,1	, &fEM_A2UP41RZZ},	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
-	{ 181	,8	,1	, &fEM_A2UP42RZZ},	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
-	{ 182	,8	,1	, &fEM_A2UP51RZZ},	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
-	{ 183	,8	,1	, &fEM_A2UP81RZZ},	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{ 184	,8	,1	, &fEM_A2UP84RZZ},	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{ 185	,8	,1	, &fEM_A2UP82RZZ},	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
-	{ 186	,8	,1	, &fEM_A2UP52RZZ},	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
-	{ 187	,8	,1	, &fEM_A2UP83RZZ},	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
-	{ 188	,8	,1	, &fEM_R0UR01RZZ},	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
-	{ 189	,8	,1	, &fEM_R0UR04RZZ},	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
-	{ 190	,8	,1	, &fEM_A1UL12RZZ},	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
-	{ 191	,8	,1	, &fEM_A1UL11RZZ},	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
-	{ 192	,8	,1	, &fEM_R7UI73RZZ},	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
-	{ 193	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 194	,8	,1	, &internal1_m254_tx},	//(internal1_m254_tx) tx - время накопленное сек
-	{ 195	,18	,1	, &internal1_m254_y0},	//(internal1_m254_y0) y0
-	{ 196	,8	,1	, &internal1_m262_tx},	//(internal1_m262_tx) tx - время накопленное сек
-	{ 197	,18	,1	, &internal1_m262_y0},	//(internal1_m262_y0) y0
-	{ 198	,8	,1	, &internal1_m325_tx},	//(internal1_m325_tx) tx - время накопленное сек
-	{ 199	,18	,1	, &internal1_m325_y0},	//(internal1_m325_y0) y0
-	{ 200	,8	,1	, &internal1_m221_tx},	//(internal1_m221_tx) tx - время накопленное сек
-	{ 201	,18	,1	, &internal1_m221_y0},	//(internal1_m221_y0) y0
-	{ 202	,8	,1	, &internal1_m220_tx},	//(internal1_m220_tx) tx - время накопленное сек
-	{ 203	,18	,1	, &internal1_m220_y0},	//(internal1_m220_y0) y0
-	{ 204	,8	,1	, &internal1_m218_tx},	//(internal1_m218_tx) tx - время накопленное сек
-	{ 205	,18	,1	, &internal1_m218_y0},	//(internal1_m218_y0) y0
-	{ 206	,8	,1	, &internal1_m216_tx},	//(internal1_m216_tx) tx - время накопленное сек
-	{ 207	,18	,1	, &internal1_m216_y0},	//(internal1_m216_y0) y0
-	{ 208	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
-	{ 209	,8	,1	, &internal1_m147_y0},	//(internal1_m147_y0) y0
-	{ 210	,8	,1	, &internal1_m146_y0},	//(internal1_m146_y0) y0
-	{ 211	,8	,1	, &internal1_m94_y0},	//(internal1_m94_y0) y0
-	{ 212	,8	,1	, &internal1_m93_y0},	//(internal1_m93_y0) y0
-	{ 213	,1	,1	, &internal1_m161_y1},	//(internal1_m161_y1) y1 - внутренний параметр
-	{ 214	,1	,1	, &internal1_m175_y1},	//(internal1_m175_y1) y1 - внутренний параметр
-	{ 215	,5	,1	, &internal1_m318_q0},	//(internal1_m318_q0) q0 - внутренний параметр
-	{ 216	,1	,1	, &internal1_m129_y0},	//(internal1_m129_y0) state
-	{ 217	,1	,1	, &internal1_m125_y0},	//(internal1_m125_y0) state
-	{ 218	,1	,1	, &internal1_m109_y1},	//(internal1_m109_y1) y1 - внутренний параметр
-	{ 219	,1	,1	, &internal1_m118_y1},	//(internal1_m118_y1) y1 - внутренний параметр
-	{ 220	,1	,1	, &internal1_m97_y1},	//(internal1_m97_y1) y1 - внутренний параметр
-	{ 221	,1	,1	, &internal1_m107_y1},	//(internal1_m107_y1) y1 - внутренний параметр
-	{ 222	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
-	{ 223	,1	,1	, &internal1_m173_y1},	//(internal1_m173_y1) y1 - внутренний параметр
+	{ 86	,1	,1	, &R0DE31LZ1},	//(sbk:20 - S01SBK, DiagnBaz1) диагностика шкафа Баз1 сеть 1
+	{ 87	,1	,1	, &B0VP81LZZ},	//(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме
+	{ 88	,1	,1	, &A0VP81LZZ},	//(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме
+	{ 89	,1	,1	, &R0ET02LZ1},	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
+	{ 90	,3	,1	, &B0EP02IZ1},	//( - , Baz1) Индикатор -Давление  АЗ2 ниже АС
+	{ 91	,3	,1	, &A0EP02IZ1},	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
+	{ 92	,1	,1	, &A0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
+	{ 93	,1	,1	, &B0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
+	{ 94	,8	,1	, &R0VN02RS1},	//( - , MBz1S) Уровень мощности канал 1
+	{ 95	,8	,1	, &R0VN02RS2},	//( - , MBz1S) Уровень мощности канал 2
+	{ 96	,8	,1	, &R0VN02RS3},	//( - , MBz1S) Уровень мощности канал 3
+	{ 97	,8	,1	, &R0VN02RS4},	//( - , MBz1S) Уровень мощности канал 4
+	{ 98	,8	,1	, &R0VN01RS1},	//( - , MBz1S) Период разгона канал 1
+	{ 99	,8	,1	, &R0VN01RS2},	//( - , MBz1S) Период разгона канал 2
+	{ 100	,8	,1	, &R0VN01RS3},	//( - , MBz1S) Период разгона канал 3
+	{ 101	,8	,1	, &R0VN01RS4},	//( - , MBz1S) Период разгона канал 4
+	{ 102	,1	,1	, &R0VN61LS1},	//( - , MBz1S) ПС по мощности канал 1
+	{ 103	,1	,1	, &R0VN61LS2},	//( - , MBz1S) ПС по мощности канал 2
+	{ 104	,1	,1	, &R0VN61LS3},	//( - , MBz1S) ПС по мощности канал 3
+	{ 105	,1	,1	, &R0VN61LS4},	//( - , MBz1S) ПС по мощности канал 4
+	{ 106	,1	,1	, &R0VN65LS1},	//( - , MBz1S) ПС по периоду разгона канал 1
+	{ 107	,1	,1	, &R0VN65LS2},	//( - , MBz1S) ПС по периоду разгона  канал 2
+	{ 108	,3	,1	, &A0IT01IZ1},	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
+	{ 109	,8	,1	, &A0CT01IZ1},	//( - , Baz1, SBz1DU) Температура АЗ1-1
+	{ 110	,1	,1	, &A0VT61LZ1},	//( - , Baz1) ПС по температуре в АЗ1
+	{ 111	,1	,1	, &A0VT71LZ1},	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
+	{ 112	,1	,1	, &A1VP41LZ1},	//( - , Baz1) Давление СБРОС ББ1 ниже АС
+	{ 113	,1	,1	, &B1VP41LZ1},	//( - , Baz1) Давление СБРОС ББ2 ниже АС
+	{ 114	,1	,1	, &B1VP81LZZ},	//(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме
+	{ 115	,1	,1	, &A1VP81LZZ},	//(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме
+	{ 116	,1	,1	, &A2VP41LZ1},	//( - , Baz1) Давление СБРОС РБ1 ниже АС
+	{ 117	,8	,1	, &A2CP01RZ1},	//( - , Baz1) Текущее давление СБРОС РБ1
+	{ 118	,1	,1	, &A2VP51LZ1},	//( - , Baz1) Давление СБРОС РБ1 ниже ПС
+	{ 119	,1	,1	, &B2VP41LZ1},	//( - , Baz1) Давление СБРОС РБ2 ниже АС
+	{ 120	,8	,1	, &B2CP01RZ1},	//( - , Baz1) Текущее давление СБРОС РБ2
+	{ 121	,1	,1	, &B2VP51LZ1},	//( - , Baz1) Давление СБРОС РБ2 ниже ПС
+	{ 122	,1	,1	, &B2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ2 в норме
+	{ 123	,1	,1	, &A2VP81LZ1},	//( - , Baz1) Давление СБРОС РБ1 в норме
+	{ 124	,3	,1	, &A2IP01IZ1},	//(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1
+	{ 125	,3	,1	, &B2IP01IZ1},	//(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2
+	{ 126	,1	,1	, &R0ET01LZ1},	//( - , Baz1) Признак наличия неисправности по температуре  АЗ1
+	{ 127	,3	,1	, &B0IT01IZ1},	//(vas84:04 - K03VASR, - ) Температура АЗ2-1
+	{ 128	,1	,1	, &A0VP41LZ1},	//( - , Baz1) Давление АЗ1 ниже АС
+	{ 129	,1	,1	, &B0VP41LZ1},	//( - , Baz1) Давление АЗ2 ниже АС
+	{ 130	,1	,1	, &B3IS11LDU},	//(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2
+	{ 131	,1	,1	, &A3VZ31LZ1},	//( - , Baz1) АЗ от ВУ ИС1
+	{ 132	,1	,1	, &B3VZ31LZ1},	//( - , Baz1) АЗ от ВУ ИС2
+	{ 133	,1	,1	, &R0AD05LZ1},	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
+	{ 134	,1	,1	, &A3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС1
+	{ 135	,1	,1	, &B3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС2
+	{ 136	,1	,1	, &B3IS22LDU},	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
+	{ 137	,1	,1	, &R0VN69LZ1},	//( - , Baz1) ПС по усредненному периоду
+	{ 138	,1	,1	, &R0VN79LZ1},	//( - , Baz1) АС по усредненному периоду
+	{ 139	,8	,1	, &R0VR02RZ1},	//( - , Baz1) Усредненная реактивность
+	{ 140	,1	,1	, &R0VZ71LZ1},	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+	{ 141	,1	,1	, &R0VN70LZ1},	//( - , Baz1) АЗ по АС мощности РУ
+	{ 142	,1	,1	, &R0VN80LZ1},	//( - , Baz1) АЗ по АС периода разгона РУ
+	{ 143	,1	,1	, &A0EE01LS1},	//(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1
+	{ 144	,1	,1	, &A0EE01LS4},	//(vds32:07 - K03VDSR, - ) Исправность АКНП канал 4
+	{ 145	,1	,1	, &A0EE01LS3},	//(vds32:08 - K03VDSR, - ) Исправность АКНП канал 3
+	{ 146	,1	,1	, &A0EE01LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП1
+	{ 147	,1	,1	, &A0EE04LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП4
+	{ 148	,1	,1	, &A0EE02LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП2
+	{ 149	,1	,1	, &A0EE03LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП3
+	{ 150	,1	,1	, &A0EE01LS2},	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
+	{ 151	,1	,1	, &R0VN65LS3},	//( - , MBz1S) ПС по периоду разгона канал 3
+	{ 152	,1	,1	, &R0VN65LS4},	//( - , MBz1S) ПС по периоду разгона канал 4
+	{ 153	,8	,1	, &R0VN01RZ1},	//( - , Baz1) Уровень мощности по каналу 1
+	{ 154	,8	,1	, &R0VN02RZ1},	//( - , Baz1) Уровень мощности по каналу 2
+	{ 155	,8	,1	, &R0VN03RZ1},	//( - , Baz1) Уровень мощности по каналу 3
+	{ 156	,8	,1	, &R0VN04RZ1},	//( - , Baz1) Уровень мощности по каналу 4
+	{ 157	,8	,1	, &R0VN05RZ1},	//( - , Baz1) Период разгона по каналу 1
+	{ 158	,8	,1	, &R0VN06RZ1},	//( - , Baz1) Период разгона по каналу 2
+	{ 159	,8	,1	, &R0VN07RZ1},	//( - , Baz1) Период разгона по каналу 3
+	{ 160	,8	,1	, &R0VN08RZ1},	//( - , Baz1) Период разгона по каналу 4
+	{ 161	,1	,1	, &R0VN61LZ1},	//( - , Baz1) ПС по мощности канал 1
+	{ 162	,1	,1	, &R0VN62LZ1},	//( - , Baz1) ПС по мощности канал 2
+	{ 163	,1	,1	, &R0VN63LZ1},	//( - , Baz1) ПС по мощности канал 3
+	{ 164	,1	,1	, &R0VN64LZ1},	//( - , Baz1) ПС по мощности канал 4
+	{ 165	,1	,1	, &R0VN65LZ1},	//( - , Baz1) ПС по периоду разгона канал 1
+	{ 166	,1	,1	, &R0VN66LZ1},	//( - , Baz1) ПС по периоду разгона канал 2
+	{ 167	,1	,1	, &R0VN67LZ1},	//( - , Baz1) ПС по периоду разгона канал 3
+	{ 168	,1	,1	, &R0VN68LZ1},	//( - , Baz1) ПС по периоду разгона канал 4
+	{ 169	,8	,1	, &R0VN09RZ1},	//( - , Baz1, SBz1DU) Усредненный период разгона
+	{ 170	,1	,1	, &A3IS11LDU},	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
+	{ 171	,1	,1	, &A3IS22LDU},	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
+	{ 172	,1	,1	, &R0AD03LZ1},	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
+	{ 173	,8	,1	, &fEM_R0UT02RZZ},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+	{ 174	,8	,1	, &fEM_R0UT01RZZ},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+	{ 175	,8	,1	, &fEM_A2UP03RZZ},	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
+	{ 176	,8	,1	, &fEM_A2UP04RZZ},	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
+	{ 177	,8	,1	, &fEM_R0UT72RZZ},	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+	{ 178	,8	,1	, &fEM_R0UT71RZZ},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+	{ 179	,8	,1	, &fEM_R0UT62RZZ},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+	{ 180	,8	,1	, &fEM_R0UT61RZZ},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+	{ 181	,8	,1	, &fEM_A2UP41RZZ},	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+	{ 182	,8	,1	, &fEM_A2UP42RZZ},	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+	{ 183	,8	,1	, &fEM_A2UP51RZZ},	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
+	{ 184	,8	,1	, &fEM_A2UP81RZZ},	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{ 185	,8	,1	, &fEM_A2UP84RZZ},	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{ 186	,8	,1	, &fEM_A2UP82RZZ},	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
+	{ 187	,8	,1	, &fEM_A2UP52RZZ},	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+	{ 188	,8	,1	, &fEM_A2UP83RZZ},	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
+	{ 189	,8	,1	, &fEM_R0UR01RZZ},	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
+	{ 190	,8	,1	, &fEM_R0UR04RZZ},	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
+	{ 191	,8	,1	, &fEM_A1UL12RZZ},	//(A1UL12RZZ) Время задержки АЗ от НУ ИС(сек)
+	{ 192	,8	,1	, &fEM_A1UL11RZZ},	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
+	{ 193	,8	,1	, &fEM_R7UI73RZZ},	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
+	{ 194	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 195	,8	,1	, &internal1_m254_tx},	//(internal1_m254_tx) tx - время накопленное сек
+	{ 196	,18	,1	, &internal1_m254_y0},	//(internal1_m254_y0) y0
+	{ 197	,8	,1	, &internal1_m262_tx},	//(internal1_m262_tx) tx - время накопленное сек
+	{ 198	,18	,1	, &internal1_m262_y0},	//(internal1_m262_y0) y0
+	{ 199	,8	,1	, &internal1_m325_tx},	//(internal1_m325_tx) tx - время накопленное сек
+	{ 200	,18	,1	, &internal1_m325_y0},	//(internal1_m325_y0) y0
+	{ 201	,8	,1	, &internal1_m221_tx},	//(internal1_m221_tx) tx - время накопленное сек
+	{ 202	,18	,1	, &internal1_m221_y0},	//(internal1_m221_y0) y0
+	{ 203	,8	,1	, &internal1_m220_tx},	//(internal1_m220_tx) tx - время накопленное сек
+	{ 204	,18	,1	, &internal1_m220_y0},	//(internal1_m220_y0) y0
+	{ 205	,8	,1	, &internal1_m218_tx},	//(internal1_m218_tx) tx - время накопленное сек
+	{ 206	,18	,1	, &internal1_m218_y0},	//(internal1_m218_y0) y0
+	{ 207	,8	,1	, &internal1_m216_tx},	//(internal1_m216_tx) tx - время накопленное сек
+	{ 208	,18	,1	, &internal1_m216_y0},	//(internal1_m216_y0) y0
+	{ 209	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
+	{ 210	,8	,1	, &internal1_m147_y0},	//(internal1_m147_y0) y0
+	{ 211	,8	,1	, &internal1_m146_y0},	//(internal1_m146_y0) y0
+	{ 212	,8	,1	, &internal1_m94_y0},	//(internal1_m94_y0) y0
+	{ 213	,8	,1	, &internal1_m93_y0},	//(internal1_m93_y0) y0
+	{ 214	,1	,1	, &internal1_m161_y1},	//(internal1_m161_y1) y1 - внутренний параметр
+	{ 215	,1	,1	, &internal1_m175_y1},	//(internal1_m175_y1) y1 - внутренний параметр
+	{ 216	,5	,1	, &internal1_m318_q0},	//(internal1_m318_q0) q0 - внутренний параметр
+	{ 217	,1	,1	, &internal1_m129_y0},	//(internal1_m129_y0) state
+	{ 218	,1	,1	, &internal1_m125_y0},	//(internal1_m125_y0) state
+	{ 219	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
+	{ 220	,1	,1	, &internal1_m122_y1},	//(internal1_m122_y1) y1 - внутренний параметр
+	{ 221	,1	,1	, &internal1_m97_y1},	//(internal1_m97_y1) y1 - внутренний параметр
+	{ 222	,1	,1	, &internal1_m108_y1},	//(internal1_m108_y1) y1 - внутренний параметр
+	{ 223	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
+	{ 224	,1	,1	, &internal1_m171_y1},	//(internal1_m171_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="baz1.bin\0";   // Имя файла для сохранения констант
 #pragma pop
 static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
-{172,"fEM_R0UT02RZZ\0"}, 
-{173,"fEM_R0UT01RZZ\0"}, 
-{174,"fEM_A2UP03RZZ\0"}, 
-{175,"fEM_A2UP04RZZ\0"}, 
-{176,"fEM_R0UT72RZZ\0"}, 
-{177,"fEM_R0UT71RZZ\0"}, 
-{178,"fEM_R0UT62RZZ\0"}, 
-{179,"fEM_R0UT61RZZ\0"}, 
-{180,"fEM_A2UP41RZZ\0"}, 
-{181,"fEM_A2UP42RZZ\0"}, 
-{182,"fEM_A2UP51RZZ\0"}, 
-{183,"fEM_A2UP81RZZ\0"}, 
-{184,"fEM_A2UP84RZZ\0"}, 
-{185,"fEM_A2UP82RZZ\0"}, 
-{186,"fEM_A2UP52RZZ\0"}, 
-{187,"fEM_A2UP83RZZ\0"}, 
-{188,"fEM_R0UR01RZZ\0"}, 
-{189,"fEM_R0UR04RZZ\0"}, 
-{190,"fEM_A1UL12RZZ\0"}, 
-{191,"fEM_A1UL11RZZ\0"}, 
-{192,"fEM_R7UI73RZZ\0"}, 
+{173,"fEM_R0UT02RZZ\0"}, 
+{174,"fEM_R0UT01RZZ\0"}, 
+{175,"fEM_A2UP03RZZ\0"}, 
+{176,"fEM_A2UP04RZZ\0"}, 
+{177,"fEM_R0UT72RZZ\0"}, 
+{178,"fEM_R0UT71RZZ\0"}, 
+{179,"fEM_R0UT62RZZ\0"}, 
+{180,"fEM_R0UT61RZZ\0"}, 
+{181,"fEM_A2UP41RZZ\0"}, 
+{182,"fEM_A2UP42RZZ\0"}, 
+{183,"fEM_A2UP51RZZ\0"}, 
+{184,"fEM_A2UP81RZZ\0"}, 
+{185,"fEM_A2UP84RZZ\0"}, 
+{186,"fEM_A2UP82RZZ\0"}, 
+{187,"fEM_A2UP52RZZ\0"}, 
+{188,"fEM_A2UP83RZZ\0"}, 
+{189,"fEM_R0UR01RZZ\0"}, 
+{190,"fEM_R0UR04RZZ\0"}, 
+{191,"fEM_A1UL12RZZ\0"}, 
+{192,"fEM_A1UL11RZZ\0"}, 
+{193,"fEM_R7UI73RZZ\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -719,12 +722,12 @@ static ModbusRegister coil_Baz1[]={  //
 	{&A0EE07LZ1,1,2},	//( - , Baz1) Исправность сети АКНП3
 	{&A0EE06LZ1,1,3},	//( - , Baz1) Исправность сети АКНП2
 	{&A0EE05LZ1,1,4},	//( - , Baz1) Исправность сети АКНП1
-	{&R0VN70LZ1,1,5},	//( - , Baz1) АЗ по АС мощности РУ
-	{&R0AD16LDU,1,6},	//( - , Baz1) Имитация срабатывания верхней АС I УР
-	{&R0MD34LP1,1,7},	//( - , Baz1) Кнопка (Квитировать)
-	{&R0AD14LDU,1,8},	//( - , Baz1) Имитация срабатывания верхней АС II УР
-	{&R0VW23LDU,1,9},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0VW13LDU,1,10},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+	{&R0AD16LDU,1,5},	//( - , Baz1) Имитация срабатывания верхней АС I УР
+	{&R0MD34LP1,1,6},	//( - , Baz1) Кнопка (Квитировать)
+	{&R0AD14LDU,1,7},	//( - , Baz1) Имитация срабатывания верхней АС II УР
+	{&R0VW23LDU,1,8},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
+	{&R0VW13LDU,1,9},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+	{&R0VN70LZ1,1,10},	//( - , Baz1) АЗ по АС мощности РУ
 	{&R0VN64LZ1,1,11},	//( - , Baz1) ПС по мощности канал 4
 	{&R0VN63LZ1,1,12},	//( - , Baz1) ПС по мощности канал 3
 	{&R0VN62LZ1,1,13},	//( - , Baz1) ПС по мощности канал 2
@@ -734,36 +737,36 @@ static ModbusRegister coil_Baz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_Baz1[]={  // 
-	{&R0VP73LZ1,1,0},	//( - , Baz1, SBz1DU) ПС давления для РУ
-	{&B0VN81LZ1,1,1},	//( - , Baz1) АЗ по АС периода разгона АЗ2
-	{&A0VN81LZ1,1,2},	//( - , Baz1) АЗ по АС периода разгона АЗ1
-	{&B0VN71LZ1,1,3},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ2
-	{&A0VN71LZ1,1,4},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ1
-	{&B0VZ71LZ1,1,5},	//( - , Baz1) Обобщенный сигнал АС по АЗ2
-	{&B0EE00LZ1,1,6},	//( - , Baz1) Исправность АКНП АЗ2
-	{&A0EE00LZ1,1,7},	//( - , Baz1) Исправность АКНП АЗ1
-	{&A0VZ71LZ1,1,8},	//( - , Baz1) Обобщенный сигнал АС по АЗ1
-	{&A0EE03LZ1,1,9},	//( - , Baz1, SBz1DU) Исправность АКНП3
-	{&A0EE02LZ1,1,10},	//( - , Baz1, SBz1DU) Исправность АКНП2
-	{&A0EE04LZ1,1,11},	//( - , Baz1, SBz1DU) Исправность АКНП4
-	{&A0EE01LZ1,1,12},	//( - , Baz1, SBz1DU) Исправность АКНП1
-	{&R0VN80LZ1,1,13},	//( - , Baz1) АЗ по АС периода разгона РУ
-	{&TestDiagnBaz1,1,14},	//( - , Baz1) Неисправность от диагностики
-	{&R0AD16LZ1,1,15},	//( - , Baz1) Имитация АЗ от 1УР (датчик2)
-	{&R0AD15LZ1,1,16},	//( - , Baz1) Имитация АЗ от 1УР (датчик1)
-	{&R0VN78LZ1,1,17},	//( - K02VDSR, Baz1) АС по периоду разгона канал  4
-	{&R0VN74LZ1,1,18},	//( - K01VDSR, Baz1) АС по мощности канал 4
-	{&R0VN77LZ1,1,19},	//( - K02VDSR, Baz1) АС по периоду разгона канал  3
-	{&R0VN73LZ1,1,20},	//( - K01VDSR, Baz1) АС по мощности канал 3
-	{&R0VN76LZ1,1,21},	//( - K02VDSR, Baz1) АС по периоду разгона канал  2
-	{&R0VN72LZ1,1,22},	//( - K01VDSR, Baz1) АС по мощности канал 2
-	{&R0VN75LZ1,1,23},	//( - K02VDSR, Baz1) АС по периоду разгона канал 1
-	{&R0VN71LZ1,1,24},	//( - K01VDSR, Baz1) АС по мощности канал 1
-	{&R7II72LZ1,1,25},	//( - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
-	{&R7II71LZ1,1,26},	//( - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
-	{&R7II73LZ1,1,27},	//( - K07VDSR, Baz1) Сработала АС II УР РАД
-	{&B0VT71LZ1,1,28},	//( - , Baz1, SBz1DU) АС по температуре в АЗ2
-	{&B0VT61LZ1,1,29},	//( - , Baz1) ПС по температуре в АЗ2
+	{&B0VT61LZ1,1,0},	//( - , Baz1) ПС по температуре в АЗ2
+	{&R0VP73LZ1,1,1},	//( - , Baz1, SBz1DU) ПС давления для РУ
+	{&B0VN81LZ1,1,2},	//( - , Baz1) АЗ по АС периода разгона АЗ2
+	{&A0VN81LZ1,1,3},	//( - , Baz1) АЗ по АС периода разгона АЗ1
+	{&B0VN71LZ1,1,4},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ2
+	{&A0VN71LZ1,1,5},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ1
+	{&B0VZ71LZ1,1,6},	//( - , Baz1) Обобщенный сигнал АС по АЗ2
+	{&B0EE00LZ1,1,7},	//( - , Baz1) Исправность АКНП АЗ2
+	{&A0EE00LZ1,1,8},	//( - , Baz1) Исправность АКНП АЗ1
+	{&A0VZ71LZ1,1,9},	//( - , Baz1) Обобщенный сигнал АС по АЗ1
+	{&A0EE03LZ1,1,10},	//( - , Baz1, SBz1DU) Исправность АКНП3
+	{&A0EE02LZ1,1,11},	//( - , Baz1, SBz1DU) Исправность АКНП2
+	{&A0EE04LZ1,1,12},	//( - , Baz1, SBz1DU) Исправность АКНП4
+	{&A0EE01LZ1,1,13},	//( - , Baz1, SBz1DU) Исправность АКНП1
+	{&R0VN80LZ1,1,14},	//( - , Baz1) АЗ по АС периода разгона РУ
+	{&TestDiagnBaz1,1,15},	//( - , Baz1) Неисправность от диагностики
+	{&R0AD16LZ1,1,16},	//( - , Baz1) Имитация АЗ от 1УР (датчик2)
+	{&R0AD15LZ1,1,17},	//( - , Baz1) Имитация АЗ от 1УР (датчик1)
+	{&R0VN78LZ1,1,18},	//( - K02VDSR, Baz1) АС по периоду разгона канал  4
+	{&R0VN74LZ1,1,19},	//( - K01VDSR, Baz1) АС по мощности канал 4
+	{&R0VN77LZ1,1,20},	//( - K02VDSR, Baz1) АС по периоду разгона канал  3
+	{&R0VN73LZ1,1,21},	//( - K01VDSR, Baz1) АС по мощности канал 3
+	{&R0VN76LZ1,1,22},	//( - K02VDSR, Baz1) АС по периоду разгона канал  2
+	{&R0VN72LZ1,1,23},	//( - K01VDSR, Baz1) АС по мощности канал 2
+	{&R0VN75LZ1,1,24},	//( - K02VDSR, Baz1) АС по периоду разгона канал 1
+	{&R0VN71LZ1,1,25},	//( - K01VDSR, Baz1) АС по мощности канал 1
+	{&R7II72LZ1,1,26},	//( - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
+	{&R7II71LZ1,1,27},	//( - K05VDSR, Baz1) Сработала АС IУР РАД (датчик 1)
+	{&R7II73LZ1,1,28},	//( - K07VDSR, Baz1) Сработала АС II УР РАД
+	{&B0VT71LZ1,1,29},	//( - , Baz1, SBz1DU) АС по температуре в АЗ2
 	{&B0VP71LZ1,1,30},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
 	{&A0VP71LZ1,1,31},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
 	{&R0ET02LZ1,1,32},	//( - , Baz1) Признак наличия неисправности по температуре АЗ2
@@ -820,28 +823,29 @@ static ModbusRegister ir_Baz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_Baz1[]={  // 
-	{&R0MW12IP2,3,0},	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
-	{&fEM_R0UT02RZZ,8,1},	//( - , Baz1) Верхний предел шкалы датчика температуры
-	{&fEM_R0UT01RZZ,8,3},	//( - , Baz1) Нижний предел шкалы датчика температуры
-	{&fEM_A2UP03RZZ,8,5},	//( - , Baz1) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
-	{&fEM_A2UP04RZZ,8,7},	//( - , Baz1) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
-	{&fEM_R0UT72RZZ,8,9},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-	{&fEM_R0UT71RZZ,8,11},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по температуре АЗ
-	{&fEM_R0UT62RZZ,8,13},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-	{&fEM_R0UT61RZZ,8,15},	//( - , Baz1) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-	{&fEM_A2UP41RZZ,8,17},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
-	{&fEM_A2UP42RZZ,8,19},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
-	{&fEM_A2UP51RZZ,8,21},	//( - , Baz1) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
-	{&fEM_A2UP81RZZ,8,23},	//( - , Baz1) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{&fEM_A2UP84RZZ,8,25},	//( - , Baz1) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{&fEM_A2UP82RZZ,8,27},	//( - , Baz1) Нижняя граница нормализации давления СБРОС РБ (МПа)
-	{&fEM_A2UP52RZZ,8,29},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
-	{&fEM_A2UP83RZZ,8,31},	//( - , Baz1) Верхняя граница нормализации давления СБРОС РБ (МПа)
-	{&fEM_R0UR01RZZ,8,33},	//( - , Baz1) Уставка АКНП ПС  АЗ по периоду (сек)
-	{&fEM_R0UR04RZZ,8,35},	//( - , Baz1) Уставка АКНП АС  АЗ по периоду (сек)
-	{&fEM_A1UL12RZZ,8,37},	//( - , Baz1) Время задержки АЗ от НУ ИС(сек)
-	{&fEM_A1UL11RZZ,8,39},	//( - , Baz1) Время задержки АЗ от ВУ ИС сек
-	{&fEM_R7UI73RZZ,8,41},	//( - , Baz1) Время задержки  срабатывания АС II УР
+	{&R0MW11IP1,3,0},	//( - , Baz1) Переключатель ВЫСТРЕЛ
+	{&R0MW12IP2,3,1},	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
+	{&fEM_R0UT02RZZ,8,2},	//( - , Baz1) Верхний предел шкалы датчика температуры
+	{&fEM_R0UT01RZZ,8,4},	//( - , Baz1) Нижний предел шкалы датчика температуры
+	{&fEM_A2UP03RZZ,8,6},	//( - , Baz1) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
+	{&fEM_A2UP04RZZ,8,8},	//( - , Baz1) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
+	{&fEM_R0UT72RZZ,8,10},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+	{&fEM_R0UT71RZZ,8,12},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по температуре АЗ
+	{&fEM_R0UT62RZZ,8,14},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+	{&fEM_R0UT61RZZ,8,16},	//( - , Baz1) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+	{&fEM_A2UP41RZZ,8,18},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+	{&fEM_A2UP42RZZ,8,20},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+	{&fEM_A2UP51RZZ,8,22},	//( - , Baz1) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
+	{&fEM_A2UP81RZZ,8,24},	//( - , Baz1) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP84RZZ,8,26},	//( - , Baz1) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP82RZZ,8,28},	//( - , Baz1) Нижняя граница нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP52RZZ,8,30},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+	{&fEM_A2UP83RZZ,8,32},	//( - , Baz1) Верхняя граница нормализации давления СБРОС РБ (МПа)
+	{&fEM_R0UR01RZZ,8,34},	//( - , Baz1) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UR04RZZ,8,36},	//( - , Baz1) Уставка АКНП АС  АЗ по периоду (сек)
+	{&fEM_A1UL12RZZ,8,38},	//( - , Baz1) Время задержки АЗ от НУ ИС(сек)
+	{&fEM_A1UL11RZZ,8,40},	//( - , Baz1) Время задержки АЗ от ВУ ИС сек
+	{&fEM_R7UI73RZZ,8,42},	//( - , Baz1) Время задержки  срабатывания АС II УР
 	{NULL,0,0},
 };
 #pragma pop
@@ -974,8 +978,8 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 static DriverRegister def_buf_VAS84[]={
 	{&A2IP01IZ1,3,3},
 	{&B2IP01IZ1,3,9},
-	{&B0IT01IZ1,3,6},
 	{&R0DE04LZ1,3,26},
+	{&B0IT01IZ1,3,6},
 	{&A0IT01IZ1,3,0},
 	{NULL,0,0},
 };
@@ -994,12 +998,12 @@ static DriverRegister def_buf_VDS321[]={
 	{&A3IS11LDU,1,8},
 	{&R0AD04LZ1,1,14},
 	{&R0VN71LZ1,1,0},
-	{&A0VN71LS1,1,6},
 	{&R0VN75LZ1,1,2},
-	{&R0AD05LZ1,1,16},
-	{&R0DE05LZ1,3,64},
-	{&B2IS12LDU,1,20},
+	{&A0VN71LS1,1,6},
 	{&A2IS12LDU,1,18},
+	{&B2IS12LDU,1,20},
+	{&R0DE05LZ1,3,64},
+	{&R0AD05LZ1,1,16},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1014,9 +1018,9 @@ static DriverRegister def_buf_VDS322[]={
 	{&R0VN76LZ1,1,2},
 	{&R0VN72LZ1,1,0},
 	{&A0VN71LS2,1,6},
-	{&A0EE01LS2,1,4},
 	{&R0DE06LZ1,3,64},
 	{&B3IS11LDU,1,8},
+	{&A0EE01LS2,1,4},
 	{&B3IS22LDU,1,22},
 	{NULL,0,0},
 };
@@ -1029,14 +1033,14 @@ static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS323[]={
-	{&R0VN74LZ1,1,0},
+	{&A0VN71LS4,1,6},
 	{&A0EE01LS4,1,4},
-	{&R0VN78LZ1,1,2},
-	{&R6IS68LZZ,1,12},
-	{&R6IS67LZZ,1,10},
 	{&R6IS66LZZ,1,8},
 	{&R0DE07LZ1,3,64},
-	{&A0VN71LS4,1,6},
+	{&R6IS67LZZ,1,10},
+	{&R0VN78LZ1,1,2},
+	{&R0VN74LZ1,1,0},
+	{&R6IS68LZZ,1,12},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1048,18 +1052,18 @@ static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS324[]={
-	{&A0EE01LS3,1,4},
-	{&A1VP81LZZ,1,18},
-	{&B1VP81LZZ,1,24},
-	{&A0VP81LZZ,1,16},
-	{&B0VP81LZZ,1,22},
-	{&R0DE08LZ1,3,64},
-	{&R0VN77LZ1,1,2},
-	{&R0VN73LZ1,1,0},
-	{&R7II72LZ1,1,10},
-	{&R7II71LZ1,1,8},
 	{&R7II73LZ1,1,12},
+	{&R7II71LZ1,1,8},
+	{&R7II72LZ1,1,10},
 	{&A0VN71LS3,1,6},
+	{&R0VN73LZ1,1,0},
+	{&R0VN77LZ1,1,2},
+	{&R0DE08LZ1,3,64},
+	{&B0VP81LZZ,1,22},
+	{&A0VP81LZZ,1,16},
+	{&B1VP81LZZ,1,24},
+	{&A1VP81LZZ,1,18},
+	{&A0EE01LS3,1,4},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1071,8 +1075,8 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&R0DE0ALZ1,3,38},
 	{&A1VN71LZ1,1,6},
+	{&R0DE0ALZ1,3,38},
 	{&A3VZ15LZ1,1,2},
 	{&A3VZ13LZ1,1,0},
 	{&R0VZ71LZ1,1,8},
@@ -1088,9 +1092,9 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
-	{&R0DE31LZ1,1,0},
-	{&R0DEB3LZ1,1,22},
 	{&R0DE32LZ1,1,2},
+	{&R0DEB3LZ1,1,22},
+	{&R0DE31LZ1,1,0},
 	{&R0DE34LZ1,1,6},
 	{&R0DE33LZ1,1,4},
 	{&R0DE36LZ1,1,10},
@@ -1117,27 +1121,27 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(172,600);
-	setAsFloat(173,0);
-	setAsFloat(174,1.6);
-	setAsFloat(175,0);
-	setAsFloat(176,150);
-	setAsFloat(177,200);
-	setAsFloat(178,90);
-	setAsFloat(179,100);
-	setAsFloat(180,0.1);
-	setAsFloat(181,0.13);
-	setAsFloat(182,0.16);
-	setAsFloat(183,0.17);
-	setAsFloat(184,0.31);
-	setAsFloat(185,0.2);
-	setAsFloat(186,0.19);
-	setAsFloat(187,0.28);
-	setAsFloat(188,15);
-	setAsFloat(189,10);
-	setAsFloat(190,0.180);
-	setAsFloat(191,0.020);
-	setAsFloat(192,0.045);
+	setAsFloat(173,600);
+	setAsFloat(174,0);
+	setAsFloat(175,1.6);
+	setAsFloat(176,0);
+	setAsFloat(177,150);
+	setAsFloat(178,200);
+	setAsFloat(179,90);
+	setAsFloat(180,100);
+	setAsFloat(181,0.1);
+	setAsFloat(182,0.13);
+	setAsFloat(183,0.16);
+	setAsFloat(184,0.17);
+	setAsFloat(185,0.31);
+	setAsFloat(186,0.2);
+	setAsFloat(187,0.19);
+	setAsFloat(188,0.28);
+	setAsFloat(189,15);
+	setAsFloat(190,10);
+	setAsFloat(191,0.180);
+	setAsFloat(192,0.020);
+	setAsFloat(193,0.045);
 }
 uspaint8 InternalBuf[99];
 
@@ -1383,7 +1387,7 @@ _S_maz  S_maz_154_1 = {array_m154_x_1,&var5,&iRM_2_,&var4};
 _S_fsumz  S_fsumz_148_1 = {&R0IS01FI0,&iRM_1_,&var5};
 _S_or3  S_or3_371_1 = {&var11,&var10,&var7,&var6};
 _S_orn  S_orn_370_1 = {array_m370_x_1,&iRM_6_,&var7};
-_S_or2  S_or2_375_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var8};
+_S_or2  S_or2_376_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var8};
 _S_or2  S_or2_368_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var9};
 _S_and2  S_and2_359_1 = {&R0DE31LZ1,&R0DE32LZ1,&var10};
 _S_diagndev  S_diagndev_357_1 = {array_m357_x_1,&iRM_6_,&var11,&var12};
@@ -1393,9 +1397,9 @@ _S_and3  S_and3_239_1 = {&var26,&var16,&var135,&var14};
 _S_and3  S_and3_238_1 = {&var25,&var16,&var134,&var15};
 _S_noto  S_noto_230_1 = {&R0AD03LZ1,&var16};
 _S_and3  S_and3_236_1 = {&var19,&var22,&var21,&var17};
-_S_and3  S_and3_232_1 = {&var19,&var21,&var137,&var18};
+_S_and3  S_and3_233_1 = {&var19,&var21,&var137,&var18};
 _S_noto  S_noto_224_1 = {&R0AD05LZ1,&var19};
-_S_and3  S_and3_231_1 = {&var19,&var22,&var136,&var20};
+_S_and3  S_and3_232_1 = {&var19,&var22,&var136,&var20};
 _S_and2  S_and2_225_1 = {&var113,&R0VW23LDU,&var21};
 _S_and2  S_and2_223_1 = {&var114,&R0VW13LDU,&var22};
 _S_and3  S_and3_217_1 = {&var114,&var113,&R0AD05LZ1,&var23};
@@ -1406,7 +1410,7 @@ _S_and2  S_and2_261_1 = {&var133,&var43,&var27};
 _S_zzfs  S_zzfs_254_1 = {&R0AD14LDU,&fRM_1_0,&var28,&internal1_m254_tx,&internal1_m254_y0};
 _S_and2  S_and2_128_1 = {&var171,&var147,&var29};
 _S_and2  S_and2_137_1 = {&var170,&var146,&var30};
-_S_or2  S_or2_106_1 = {&var177,&var175,&var31};
+_S_or2  S_or2_107_1 = {&var177,&var175,&var31};
 _S_or2  S_or2_110_1 = {&var172,&var173,&var32};
 _S_and2  S_and2_80_1 = {&A0EE05LZ1,&A0EE01LS1,&var33};
 _S_and2  S_and2_82_1 = {&A0EE06LZ1,&A0EE01LS2,&var34};
@@ -1471,8 +1475,8 @@ _S_or2  S_or2_346_1 = {&var176,&var174,&var92};
 _S_or2  S_or2_35_1 = {&B2IS12LDU,&A2IS12LDU,&var93};
 _S_and2  S_and2_298_1 = {&var96,&var67,&var94};
 _S_and2  S_and2_327_1 = {&var130,&var96,&var95};
-_S_and2  S_and2_26_1 = {&var125,&var121,&var96};
-_S_or2  S_or2_24_1 = {&var153,&var152,&var97};
+_S_and2  S_and2_21_1 = {&var125,&var121,&var96};
+_S_or2  S_or2_25_1 = {&var153,&var152,&var97};
 _S_and2  S_and2_31_1 = {&var99,&var96,&var98};
 _S_or3  S_or3_30_1 = {&var67,&var85,&var124,&var99};
 _S_and2  S_and2_19_1 = {&var96,&var101,&var100};
@@ -1500,7 +1504,7 @@ _S_noto  S_noto_27_1 = {&var122,&var121};
 _S_ovb1  S_ovb1_33_1 = {&var93,&iRM_200_,&var122,&internal1_m33_tx};
 _S_noto  S_noto_15_1 = {&var103,&var123};
 _S_noto  S_noto_14_1 = {&var104,&var124};
-_S_noto  S_noto_23_1 = {&R0EE02LDU,&var125};
+_S_noto  S_noto_24_1 = {&R0EE02LDU,&var125};
 _S_noto  S_noto_335_1 = {&R0AD16LDU,&var126};
 _S_noto  S_noto_334_1 = {&R0AD04LZ1,&var127};
 _S_bol  S_bol_184_1 = {&var164,&fRM_0_00001,&var128};
@@ -1509,8 +1513,8 @@ _S_noto  S_noto_332_1 = {&var104,&var130};
 _S_noto  S_noto_208_1 = {&B3IS11LDU,&var131};
 _S_noto  S_noto_207_1 = {&A3IS11LDU,&var132};
 _S_noto  S_noto_255_1 = {&var28,&var133};
-_S_noto  S_noto_234_1 = {&R0VW23LDU,&var134};
-_S_noto  S_noto_233_1 = {&R0VW13LDU,&var135};
+_S_noto  S_noto_235_1 = {&R0VW23LDU,&var134};
+_S_noto  S_noto_234_1 = {&R0VW13LDU,&var135};
 _S_noto  S_noto_229_1 = {&R0VW23LDU,&var136};
 _S_noto  S_noto_228_1 = {&R0VW13LDU,&var137};
 _S_scalzz  S_scalzz_147_1 = {&var3,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var138,&internal1_m147_y0};
@@ -1545,17 +1549,18 @@ _S_ornc  S_ornc_12_1 = {array_m12_x_1,&iRM_3_,&var168,&var169};
 _S_tprg  S_tprg_129_1 = {&var141,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var170,&internal1_m129_y0};
 _S_tprg  S_tprg_125_1 = {&var142,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var171,&internal1_m125_y0};
 _S_geterr  S_geterr_104_1 = {&var141,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var172};
-_S_drg  S_drg_109_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var173,&internal1_m109_y1};
-_S_drg  S_drg_118_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var174,&internal1_m118_y1};
+_S_drg  S_drg_105_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var173,&internal1_m105_y1};
+_S_drg  S_drg_122_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var174,&internal1_m122_y1};
 _S_drg  S_drg_97_1 = {&var142,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var175,&internal1_m97_y1};
-_S_drg  S_drg_107_1 = {&var142,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var176,&internal1_m107_y1};
+_S_drg  S_drg_108_1 = {&var142,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var176,&internal1_m108_y1};
 _S_geterr  S_geterr_101_1 = {&var142,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var177};
 _S_drg  S_drg_159_1 = {&var139,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var178,&internal1_m159_y1};
-_S_drg  S_drg_173_1 = {&var139,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var179,&internal1_m173_y1};
+_S_drg  S_drg_171_1 = {&var139,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var179,&internal1_m171_y1};
 
 
 void Scheme()
 {
+if ((getAsInt(idR0MW11IP1) == 2) || (getAsInt(idR0MW11IP1) == 3)) { 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_278_1);
   noto(&S_noto_284_1);
@@ -1563,11 +1568,11 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_281_1);
   noto(&S_noto_112_1);
   noto(&S_noto_229_1);
-  noto(&S_noto_233_1);
   noto(&S_noto_234_1);
+  noto(&S_noto_235_1);
   noto(&S_noto_207_1);
   noto(&S_noto_208_1);
-  noto(&S_noto_23_1);
+  noto(&S_noto_24_1);
   noto(&S_noto_113_1);
   noto(&S_noto_135_1);
   noto(&S_noto_136_1);
@@ -1606,7 +1611,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   ma(&S_ma_198_1);
   and2(&S_and2_359_1);
   or2(&S_or2_368_1);
-  or2(&S_or2_375_1);
+  or2(&S_or2_376_1);
   orn(&S_orn_370_1);
   fsumz(&S_fsumz_148_1);
   srm(&S_srm_2_1);
@@ -1643,8 +1648,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and3(&S_and3_217_1);
   and2(&S_and2_223_1);
   and2(&S_and2_225_1);
-  and3(&S_and3_231_1);
   and3(&S_and3_232_1);
+  and3(&S_and3_233_1);
   and3(&S_and3_236_1);
   and3(&S_and3_238_1);
   and3(&S_and3_239_1);
@@ -1666,7 +1671,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_27_1);
   zpfs(&S_zpfs_325_1);
   or2(&S_or2_11_1);
-  and2(&S_and2_26_1);
+  and2(&S_and2_21_1);
   and2(&S_and2_327_1);
   and2(&S_and2_282_1);
   or2(&S_or2_294_1);
@@ -1683,13 +1688,13 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_240_1);
   or3(&S_or3_260_1);
   and2(&S_and2_261_1);
-  drg(&S_drg_173_1);
+  drg(&S_drg_171_1);
   drg(&S_drg_159_1);
   geterr(&S_geterr_101_1);
-  drg(&S_drg_107_1);
+  drg(&S_drg_108_1);
   drg(&S_drg_97_1);
-  drg(&S_drg_118_1);
-  drg(&S_drg_109_1);
+  drg(&S_drg_122_1);
+  drg(&S_drg_105_1);
   geterr(&S_geterr_104_1);
   tprg(&S_tprg_125_1);
   tprg(&S_tprg_129_1);
@@ -1715,7 +1720,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and2(&S_and2_324_1);
   and2(&S_and2_322_1);
   or2(&S_or2_110_1);
-  or2(&S_or2_106_1);
+  or2(&S_or2_107_1);
   and2(&S_and2_137_1);
   and2(&S_and2_128_1);
   ornc(&S_ornc_12_1);
@@ -1732,7 +1737,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or3(&S_or3_30_1);
   and2(&S_and2_31_1);
   orn(&S_orn_36_1);
-  or2(&S_or2_24_1);
+  or2(&S_or2_25_1);
   setData(idTestDiagnBaz1,&var6);
   setData(idR0DE3DLZ1,&var8);
   setData(idR0DE3CLZ1,&var9);
@@ -1814,7 +1819,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idA0VT61LZ1,&var179);
   setData(idA0CT01IZ1,&var139);
 
-  setAsBool(idbFirstEnterFlag,1);
+  setAsBool(idbFirstEnterFlag,1); 
+ }
 }
 
 void InitInternalParametr(void)
