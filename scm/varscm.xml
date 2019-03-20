@@ -243,7 +243,7 @@
 <var  name="R6IS62LDU" description="(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал" format="1"></var>
 <var  name="B3IS22LDU" description="(do32_pti:110 - K12DO, - ) Приход на НУП ИС2" format="1"></var>
 <var  name="A3IS22LDU" description="(do32_pti:100 - K06DO, - ) Приход на НУП ИС1" format="1"></var>
-<var  name="B3IS11LDU" description="(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2" format="1"></var>
+<var  name="B3IS11LDU" description="(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2" format="1"></var>
 <var  name="A3IS11LDU" description="(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IP02IDU" description="(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
 <var  name="B3VP81LDU" description="( - , SCM) Давление СПУСК ИС2 в норме" format="1"></var>

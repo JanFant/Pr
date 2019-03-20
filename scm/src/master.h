@@ -497,8 +497,8 @@ static char BUFFER[3323];
 #define idB3IS22LDU	 243	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define A3IS22LDU	 BUFFER[643]	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
 #define idA3IS22LDU	 244	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
-#define B3IS11LDU	 BUFFER[645]	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
-#define idB3IS11LDU	 245	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
+#define B3IS11LDU	 BUFFER[645]	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
+#define idB3IS11LDU	 245	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
 #define A3IS11LDU	 BUFFER[647]	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 #define idA3IS11LDU	 246	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 #define A3IP02IDU	 BUFFER[649]	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
@@ -2279,7 +2279,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 242	,1	,1	, &R6IS62LDU},	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
 	{ 243	,1	,1	, &B3IS22LDU},	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 	{ 244	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
-	{ 245	,1	,1	, &B3IS11LDU},	//(do32_pti:100 - K11DO, - ) Приход на ВУ ИС2
+	{ 245	,1	,1	, &B3IS11LDU},	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
 	{ 246	,1	,1	, &A3IS11LDU},	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 	{ 247	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
 	{ 248	,1	,1	, &B3VP81LDU},	//( - , SCM) Давление СПУСК ИС2 в норме
@@ -4195,14 +4195,13 @@ static DriverRegister def_buf_DO32_5F01[]={
 	{&B1VP81LZZ,1,60},
 	{&A3IS11LDU,1,8},
 	{&A0VP81LZZ,1,52},
-	{&B3IS11LDU,1,20},
 	{&R6IS66LZZ,1,32},
+	{&R6IS67LZZ,1,34},
 	{&A3IS22LDU,1,10},
 	{&B0VP81LZZ,1,58},
-	{&R6IS67LZZ,1,34},
 	{&R6IS68LZZ,1,36},
-	{&A1VP81LZZ,1,54},
 	{&R7II71LZ1,1,46},
+	{&A1VP81LZZ,1,54},
 	{&R7II72LZ1,1,48},
 	{NULL,0,0},
 };
@@ -4219,6 +4218,7 @@ static DriverRegister def_buf_DO32_5F02[]={
 	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
 	{&B3IS22LDU,1,22},
+	{&B3IS11LDU,1,20},
 	{NULL,0,0},
 };
 #pragma pop
