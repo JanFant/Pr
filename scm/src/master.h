@@ -111,8 +111,8 @@ static char BUFFER[3323];
 #define idA5IS21LDU	 50	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
 #define A5IS11LDU	 BUFFER[111]	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
 #define idA5IS11LDU	 51	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
-#define B0VP81LZZ	 BUFFER[113]	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
-#define idB0VP81LZZ	 52	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
+#define B0VP81LZZ	 BUFFER[113]	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
+#define idB0VP81LZZ	 52	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
 #define A0VP81LZZ	 BUFFER[115]	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 #define idA0VP81LZZ	 53	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 #define B8IC01UDU	 BUFFER[117]	//( - , SDu) Координата АЗ2
@@ -245,8 +245,8 @@ static char BUFFER[3323];
 #define idB8IS11LDU	 117	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
 #define A1VP81LZZ	 BUFFER[324]	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
 #define idA1VP81LZZ	 118	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
-#define B1VP81LZZ	 BUFFER[326]	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
-#define idB1VP81LZZ	 119	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
+#define B1VP81LZZ	 BUFFER[326]	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
+#define idB1VP81LZZ	 119	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
 #define B2IS33LDU	 BUFFER[328]	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
 #define idB2IS33LDU	 120	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
 #define A0VN01RIM	 BUFFER[330]	//( - , SCM) Период разгона  AЗ1
@@ -2086,7 +2086,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 49	,1	,1	, &B5IS11LDU},	//(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2
 	{ 50	,1	,1	, &A5IS21LDU},	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
 	{ 51	,1	,1	, &A5IS11LDU},	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
-	{ 52	,1	,1	, &B0VP81LZZ},	//(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме
+	{ 52	,1	,1	, &B0VP81LZZ},	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
 	{ 53	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 	{ 54	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
 	{ 55	,1	,1	, &R4IS22LDU},	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
@@ -2153,7 +2153,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 116	,1	,1	, &B8IS21LDU},	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
 	{ 117	,1	,1	, &B8IS11LDU},	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
 	{ 118	,1	,1	, &A1VP81LZZ},	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
-	{ 119	,1	,1	, &B1VP81LZZ},	//(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме
+	{ 119	,1	,1	, &B1VP81LZZ},	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
 	{ 120	,1	,1	, &B2IS33LDU},	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
 	{ 121	,8	,1	, &A0VN01RIM},	//( - , SCM) Период разгона  AЗ1
 	{ 122	,1	,1	, &B2IS32LIM},	//( - , SCM) Клапан cброса РБ2 открыт(обесточен)
@@ -4192,17 +4192,15 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
 	{&R7II73LZ1,1,50},
-	{&B1VP81LZZ,1,60},
+	{&R6IS66LZZ,1,32},
 	{&A3IS11LDU,1,8},
 	{&A0VP81LZZ,1,52},
-	{&R6IS66LZZ,1,32},
 	{&R6IS67LZZ,1,34},
-	{&A3IS22LDU,1,10},
-	{&B0VP81LZZ,1,58},
 	{&R6IS68LZZ,1,36},
+	{&A3IS22LDU,1,10},
 	{&R7II71LZ1,1,46},
-	{&A1VP81LZZ,1,54},
 	{&R7II72LZ1,1,48},
+	{&A1VP81LZZ,1,54},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4218,7 +4216,9 @@ static DriverRegister def_buf_DO32_5F02[]={
 	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
 	{&B3IS22LDU,1,22},
+	{&B0VP81LZZ,1,58},
 	{&B3IS11LDU,1,20},
+	{&B1VP81LZZ,1,60},
 	{NULL,0,0},
 };
 #pragma pop

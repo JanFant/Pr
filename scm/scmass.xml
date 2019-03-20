@@ -17,17 +17,15 @@
 
     <DO32_5F01>
         <def name="R7II73LZ1">K26DO</def>
-        <def name="B1VP81LZZ">K31DO</def>
+        <def name="R6IS66LZZ">K17DO</def>
         <def name="A3IS11LDU">K05DO</def>
         <def name="A0VP81LZZ">K27DO</def>
-        <def name="R6IS66LZZ">K17DO</def>
         <def name="R6IS67LZZ">K18DO</def>
-        <def name="A3IS22LDU">K06DO</def>
-        <def name="B0VP81LZZ">K30DO</def>
         <def name="R6IS68LZZ">K19DO</def>
+        <def name="A3IS22LDU">K06DO</def>
         <def name="R7II71LZ1">K24DO</def>
-        <def name="A1VP81LZZ">K28DO</def>
         <def name="R7II72LZ1">K25DO</def>
+        <def name="A1VP81LZZ">K28DO</def>
     </DO32_5F01>
 
 
@@ -36,7 +34,9 @@
         <def name="R7II71LZ2">K24DO</def>
         <def name="R7II73LZ2">K26DO</def>
         <def name="B3IS22LDU">K12DO</def>
+        <def name="B0VP81LZZ">K30DO</def>
         <def name="B3IS11LDU">K11DO</def>
+        <def name="B1VP81LZZ">K31DO</def>
     </DO32_5F02>
 
 

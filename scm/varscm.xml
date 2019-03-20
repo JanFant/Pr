@@ -50,7 +50,7 @@
 <var  name="B5IS11LDU" description="(do32_pti:140 - K32DO, - ) Приход на ВУ НЛ2" format="1"></var>
 <var  name="A5IS21LDU" description="(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1" format="1"></var>
 <var  name="A5IS11LDU" description="(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1" format="1"></var>
-<var  name="B0VP81LZZ" description="(do32_pti:100 - K30DO, - ) Давление АЗ2 в норме" format="1"></var>
+<var  name="B0VP81LZZ" description="(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме" format="1"></var>
 <var  name="A0VP81LZZ" description="(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме" format="1"></var>
 <var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2" format="5"></var>
 <var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки" format="1"></var>
@@ -117,7 +117,7 @@
 <var  name="B8IS21LDU" description="(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2" format="1"></var>
 <var  name="B8IS11LDU" description="(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2" format="1"></var>
 <var  name="A1VP81LZZ" description="(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме" format="1"></var>
-<var  name="B1VP81LZZ" description="(do32_pti:100 - K31DO, - ) Давление СБРОС ББ2 в норме" format="1"></var>
+<var  name="B1VP81LZZ" description="(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме" format="1"></var>
 <var  name="B2IS33LDU" description="( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)" format="1"></var>
 <var  name="A0VN01RIM" description="( - , SCM) Период разгона  AЗ1" format="8"></var>
 <var  name="B2IS32LIM" description="( - , SCM) Клапан cброса РБ2 открыт(обесточен)" format="1"></var>
