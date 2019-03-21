@@ -111,7 +111,7 @@
         </record>
         <record>
             <value name="name">R0IS01FI0</value>
-            <value name="description">( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
+            <value name="description">( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">6</value>

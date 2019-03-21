@@ -1917,10 +1917,10 @@
       PageCountX=3
       PageCountY=4
       Name="AbBAZ1"
-      ObjectCount=1132
+      ObjectCount=1106
       ExpandCompile=1
       [TDrawSignal]{
-        R="225,704,285,744"
+        R="136,517,196,557"
         Number=34
         IsHold=FALSE
         VisualNumber="153"
@@ -2850,7 +2850,7 @@
         Line3=" в норме"
       }
       [TDrawSignal]{
-        R="1309,198,1369,238"
+        R="1374,74,1434,114"
         Number=530
         IsHold=FALSE
         VisualNumber="89"
@@ -2878,7 +2878,7 @@
         Line3="СБРОС РБ1"
       }
       [TDrawSignal]{
-        R="1309,307,1369,347"
+        R="1374,181,1434,221"
         Number=531
         IsHold=FALSE
         VisualNumber="91"
@@ -2934,7 +2934,7 @@
         CONST_NAME="A2UP51RZZ"
       }
       [VVV_Text]{
-        R="1860,143,1954,185"
+        R="1860,143,1943,180"
         Number=444
         IsHold=FALSE
         Line1="Нормальные давления"
@@ -2973,7 +2973,7 @@
         Line3="температуре АЗ1"
       }
       [TDrawSignal]{
-        R="316,703,376,743"
+        R="136,653,196,693"
         Number=287
         IsHold=FALSE
         VisualNumber="166"
@@ -3107,7 +3107,7 @@
         Line2="в норме"
       }
       [VVV_Text]{
-        R="1820,87,1959,143"
+        R="1820,87,1943,137"
         Number=1109
         IsHold=FALSE
         Line1="Давление в кГ/см^2"
@@ -5926,19 +5926,19 @@
         Line1="Рис.5 Контроль периода"
       }
       [VVV_Text]{
-        R="1724,871,1970,878"
+        R="1724,871,1942,877"
         Number=879
         IsHold=FALSE
         Line1="Рис.6 Ввод и контроль давления и обработка сигналов проверки сброса "
       }
       [VVV_Text]{
-        R="1575,430,1685,437"
+        R="1575,430,1672,436"
         Number=880
         IsHold=FALSE
         Line1="Рис.3 Ввод и контроль давления"
       }
       [VVV_Text]{
-        R="1149,433,1219,439"
+        R="1149,433,1223,439"
         Number=883
         IsHold=FALSE
         Line1="Рис.2 Ввод данных АКНП"
@@ -6248,7 +6248,7 @@
         }
       }
       [VVV_Text]{
-        R="1023,945,1065,957"
+        R="1023,945,1061,956"
         Number=944
         IsHold=FALSE
         Line1="    АС по"
@@ -7986,7 +7986,7 @@
         }
       }
       [VVV_Text]{
-        R="1869,593,1884,600"
+        R="1869,593,1882,599"
         Number=1247
         IsHold=FALSE
         Line1="II УР"
@@ -8555,7 +8555,7 @@
         ABBRV="AND2"
       }
       [VVV_Text]{
-        R="1090,487,1135,505"
+        R="1090,487,1138,505"
         Number=405
         IsHold=FALSE
         Line1="Имитация"
@@ -8563,7 +8563,7 @@
         Line3="верхней АС II УР"
       }
       [VVV_Text]{
-        R="1011,571,1051,583"
+        R="1011,571,1054,583"
         Number=406
         IsHold=FALSE
         Line1="Сработала АС"
@@ -8651,7 +8651,7 @@
         }
       }
       [VVV_Text]{
-        R="1092,576,1141,588"
+        R="1092,576,1143,588"
         Number=443
         IsHold=FALSE
         Line1="Сработала АС"
@@ -8671,7 +8671,7 @@
         }
       }
       [VVV_Text]{
-        R="1187,575,1236,587"
+        R="1187,575,1238,587"
         Number=457
         IsHold=FALSE
         Line1="Сработала АС"
@@ -10269,13 +10269,13 @@
         Line2="диагностики"
       }
       [TDrawSignal]{
-        R="79,799,109,839"
-        Number=1054
+        R="499,1590,559,1630"
+        Number=1082
         IsHold=FALSE
-        VisualNumber="145"
-        SIGNAL_NAME="R0IS01FI0"
-        KodTeprol="R0IS01FI0"
-        Comment="Признак работы с имитатором"
+        VisualNumber=""
+        SIGNAL_NAME="R0MW11IP1"
+        KodTeprol="R0MW11IP1"
+        Comment="Переключатель ВЫСТРЕЛ"
         Type=2
         ParamType=0
         Value=""
@@ -10289,252 +10289,10 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="MBz1S"
+        InterfaceMB="Baz1"
         ChannalName=""
         DeviceName=""
-        Line1="Признак работы с "
-        Line2="имитатором"
-      }
-      [TModule]{
-        R="141,798,171,838"
-        Number=1055
-        IsHold=FALSE
-        VisualNumber="148"
-        ABBRV="FSUMZ"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=1055
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=1055
-            ConstName="X2"
-          }
-          [VVV_GCPoint]{
-            Number=1055
-            ParameterName="x2"
-            Index=-1
-          }
-        }
-      }
-      [TModule]{
-        R="245,755,275,795"
-        Number=1057
-        IsHold=FALSE
-        VisualNumber="154"
-        ABBRV="MAZ"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=1057
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=1057
-            ConstName="N2"
-          }
-          [VVV_GCPoint]{
-            Number=1057
-            ParameterName="n"
-            Index=-1
-          }
-        }
-      }
-      [TModule]{
-        R="332,755,362,795"
-        Number=1059
-        IsHold=FALSE
-        VisualNumber="167"
-        ABBRV="MAZ"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=1059
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=1059
-            ConstName="N3"
-          }
-          [VVV_GCPoint]{
-            Number=1059
-            ParameterName="n"
-            Index=-1
-          }
-        }
-      }
-      [TDrawSignal]{
-        R="236,836,296,876"
-        Number=1062
-        IsHold=FALSE
-        VisualNumber="155"
-        SIGNAL_NAME="A0IT01FZ1"
-        KodTeprol="A0IT01FZ1"
-        Comment="Температура АЗ1-1"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=3
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
-        Line1="Температура АЗ1-1"
-      }
-      [TDrawSignal]{
-        R="338,836,398,876"
-        Number=1064
-        IsHold=FALSE
-        VisualNumber="168"
-        SIGNAL_NAME="B0IT01FZ1"
-        KodTeprol="B0IT01FZ1"
-        Comment="Температура АЗ2-1"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=3
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
-        Line1="Температура АЗ2-1"
-      }
-      [VVV_InterBlock]{
-        VisualNumber=""
-        [VVV_InterBlock]{
-          R="187,856,207,876"
-          Number=1069
-          IsHold=FALSE
-        }
-        [VVV_InterBlock]{
-          R="1458,408,1478,428"
-          Number=1070
-          IsHold=FALSE
-        }
-      }
-      [TModule]{
-        R="1386,344,1416,384"
-        Number=1072
-        IsHold=FALSE
-        VisualNumber="96"
-        ABBRV="MAZ"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=1072
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=1072
-            ConstName="N5"
-          }
-          [VVV_GCPoint]{
-            Number=1072
-            ParameterName="n"
-            Index=-1
-          }
-        }
-      }
-      [TModule]{
-        R="1385,228,1415,268"
-        Number=1073
-        IsHold=FALSE
-        VisualNumber="95"
-        ABBRV="MAZ"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=1073
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=1073
-            ConstName="N4"
-          }
-          [VVV_GCPoint]{
-            Number=1073
-            ParameterName="n"
-            Index=-1
-          }
-        }
-      }
-      [TDrawSignal]{
-        R="1309,255,1369,295"
-        Number=300
-        IsHold=FALSE
-        VisualNumber="90"
-        SIGNAL_NAME="A2IP01FZ1"
-        KodTeprol="A2IP01FZ1"
-        Comment="Текущее давление СБРОС РБ1"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=3
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
-        Line1="Текущее"
-        Line2="давление"
-        Line3="СБРОС РБ1"
-      }
-      [TDrawSignal]{
-        R="1309,360,1369,400"
-        Number=372
-        IsHold=FALSE
-        VisualNumber="92"
-        SIGNAL_NAME="B2IP01FZ1"
-        KodTeprol="B2IP01FZ1"
-        Comment="Текущее давление СБРОС РБ2"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=3
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MBz1S"
-        ChannalName=""
-        DeviceName=""
-        Line1="Текущее"
-        Line2="давление"
-        Line3="СБРОС РБ2"
+        Line1="Переключатель ВЫСТРЕЛ"
       }
       [VVV_DrawConnector]{
         Number=348
@@ -21805,174 +21563,18 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=1056
-        IsHold=FALSE
-        p0="109:816"
-        p1="109:815"
-        p2="141:815"
-        BNumber=1054
-        ENumber=1055
-        Comment="Признак работы с имитатором --> x1 - первое слагаемое"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1054
-          ParameterName="R0IS01FI0"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="x1"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1058
-        IsHold=FALSE
-        p0="171:819"
-        p1="238:819"
-        p2="238:785"
-        p3="245:785"
-        BNumber=1055
-        ENumber=1057
-        Comment="y - сумма y=x1+x2 --> r - управляющий сигнал"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1057
-          ParameterName="r"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1060
-        IsHold=FALSE
-        p0="238:819"
-        p1="320:819"
-        p2="320:785"
-        p3="332:785"
-        BNumber=1058
-        ENumber=1059
-        Comment="y - сумма y=x1+x2 --> r - управляющий сигнал"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1059
-          ParameterName="r"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=269
         IsHold=FALSE
-        p0="259:744"
-        p1="259:755"
+        p0="164:517"
+        p1="164:491"
         BNumber=34
-        ENumber=1057
-        Comment="Температура АЗ1-1 --> x - массив входных сигналов"
+        ENumber=36
+        Comment="Температура АЗ1-1 --> x"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
           Number=34
           ParameterName="A0IT01IZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1057
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=293
-        IsHold=FALSE
-        p0="349:743"
-        p1="349:755"
-        BNumber=287
-        ENumber=1059
-        Comment="Температура АЗ2-1 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=287
-          ParameterName="B0IT01IZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1059
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1065
-        IsHold=FALSE
-        p0="262:836"
-        p1="262:795"
-        BNumber=1062
-        ENumber=1057
-        Comment="Температура АЗ1-1 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1062
-          ParameterName="A0IT01FZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1057
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1066
-        IsHold=FALSE
-        p0="351:836"
-        p1="351:795"
-        BNumber=1064
-        ENumber=1059
-        Comment="Температура АЗ2-1 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1064
-          ParameterName="B0IT01FZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1059
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1067
-        IsHold=FALSE
-        p0="245:755"
-        p1="245:766"
-        p2="121:766"
-        p3="121:519"
-        p4="167:519"
-        p5="167:491"
-        BNumber=1057
-        ENumber=36
-        Comment="y - выходной сигнал --> x"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1057
-          ParameterName="y"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -21982,21 +21584,18 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=1068
+        Number=293
         IsHold=FALSE
-        p0="332:765"
-        p1="296:765"
-        p2="296:697"
-        p3="163:697"
-        p4="163:627"
-        BNumber=1059
+        p0="169:653"
+        p1="169:627"
+        BNumber=287
         ENumber=281
-        Comment="y - выходной сигнал --> x"
+        Comment="Температура АЗ2-1 --> x"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=1059
-          ParameterName="y"
+          Number=287
+          ParameterName="B0IT01IZ1"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -22006,179 +21605,18 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=1071
+        Number=300
         IsHold=FALSE
-        p0="196:819"
-        p1="196:856"
-        BNumber=1058
-        ENumber=1069
-        Comment="y - сумма y=x1+x2 --> r - управляющий сигнал"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1073
-          ParameterName="r"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1075
-        IsHold=FALSE
-        p0="1369:217"
-        p1="1376:217"
-        p2="1376:241"
-        p3="1385:241"
+        p0="1400:74"
+        p1="1400:59"
         BNumber=530
-        ENumber=1073
-        Comment="Текущее давление СБРОС РБ1 --> x - массив входных сигналов"
+        ENumber=27
+        Comment="Текущее давление СБРОС РБ1 --> x"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
           Number=530
           ParameterName="A2IP01IZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1073
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1076
-        IsHold=FALSE
-        p0="1369:275"
-        p1="1379:275"
-        p2="1379:252"
-        p3="1385:252"
-        BNumber=300
-        ENumber=1073
-        Comment="Текущее давление СБРОС РБ1 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=300
-          ParameterName="A2IP01FZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1073
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1077
-        IsHold=FALSE
-        p0="1369:325"
-        p1="1382:325"
-        p2="1382:352"
-        p3="1386:352"
-        BNumber=531
-        ENumber=1072
-        Comment="Текущее давление СБРОС РБ2 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=531
-          ParameterName="B2IP01IZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1072
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1078
-        IsHold=FALSE
-        p0="1369:386"
-        p1="1382:386"
-        p2="1382:367"
-        p3="1386:367"
-        BNumber=372
-        ENumber=1072
-        Comment="Текущее давление СБРОС РБ2 --> x - массив входных сигналов"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=372
-          ParameterName="B2IP01FZ1"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1072
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1074
-        IsHold=FALSE
-        p0="1458:417"
-        p1="1428:417"
-        p2="1428:245"
-        p3="1415:245"
-        BNumber=1070
-        ENumber=1073
-        Comment="y - сумма y=x1+x2 --> r - управляющий сигнал"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1073
-          ParameterName="r"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1079
-        IsHold=FALSE
-        p0="1428:367"
-        p1="1416:367"
-        BNumber=1074
-        ENumber=1072
-        Comment="y - сумма y=x1+x2 --> r - управляющий сигнал"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1055
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1072
-          ParameterName="r"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=1080
-        IsHold=FALSE
-        p0="1394:228"
-        p1="1394:192"
-        p2="1436:192"
-        p3="1436:79"
-        p4="1398:79"
-        p5="1398:59"
-        BNumber=1073
-        ENumber=27
-        Comment="y - выходной сигнал --> x"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=1073
-          ParameterName="y"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -22188,22 +21626,18 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=1081
+        Number=372
         IsHold=FALSE
-        p0="1398:344"
-        p1="1398:287"
-        p2="1434:287"
-        p3="1434:216"
-        p4="1411:216"
-        p5="1411:173"
-        BNumber=1072
+        p0="1402:181"
+        p1="1402:173"
+        BNumber=531
         ENumber=359
-        Comment="y - выходной сигнал --> x"
+        Comment="Текущее давление СБРОС РБ2 --> x"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=1072
-          ParameterName="y"
+          Number=531
+          ParameterName="B2IP01IZ1"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -22212,33 +21646,7 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="499,1590,559,1630"
-        Number=1082
-        IsHold=FALSE
-        VisualNumber=""
-        SIGNAL_NAME="R0MW11IP1"
-        KodTeprol="R0MW11IP1"
-        Comment="Переключатель ВЫСТРЕЛ"
-        Type=2
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=3
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="Baz1"
-        ChannalName=""
-        DeviceName=""
-        Line1="Переключатель ВЫСТРЕЛ"
-      }
     }
   }
 }
-20933526
+20376586

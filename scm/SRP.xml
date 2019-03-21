@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">R0IS01FI0</value>
-            <value name="description">( - , SBz1, SBz2, SDu, SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
+            <value name="description">( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">10</value>
@@ -146,32 +146,6 @@
             <value name="Bf0">0</value>
             <value name="ParData">25</value>
             <value name="OldData">25</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B0IT03FRP</value>
-            <value name="description">( - , SRP) Температура АЗ2-3</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">11</value>
-            <value name="nID">7</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">28</value>
-            <value name="OldData">28</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0IT03FRP</value>
-            <value name="description">( - , SRP) Температура АЗ1-3</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">12</value>
-            <value name="nID">8</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">31</value>
-            <value name="OldData">31</value>
             <value name="unitId">1</value>
         </record>
     </records>
