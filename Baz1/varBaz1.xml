@@ -132,7 +132,7 @@
 <var  name="R0AD05LZ1" description="(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС" format="1"></var>
 <var  name="A3VZ11LZ1" description="( - , Baz1) АЗ от НУП ИС1" format="1"></var>
 <var  name="B3VZ11LZ1" description="( - , Baz1) АЗ от НУП ИС2" format="1"></var>
-<var  name="B3IS22LDU" description="(vds32:06 - K12VDSR, - ) Приход на НУП ИС2" format="1"></var>
+<var  name="B3IS22LDU" description="(vds32:06 - K06VDSR, - ) Приход на НУП ИС2" format="1"></var>
 <var  name="R0VN69LZ1" description="( - , Baz1) ПС по усредненному периоду" format="1"></var>
 <var  name="R0VN79LZ1" description="( - , Baz1) АС по усредненному периоду" format="1"></var>
 <var  name="R0VR02RZ1" description="( - , Baz1) Усредненная реактивность" format="8"></var>

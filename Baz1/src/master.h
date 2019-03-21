@@ -279,8 +279,8 @@ int nomer = 1;
 #define idA3VZ11LZ1	 132	//( - , Baz1) АЗ от НУП ИС1
 #define B3VZ11LZ1	 BUFFER[321]	//( - , Baz1) АЗ от НУП ИС2
 #define idB3VZ11LZ1	 133	//( - , Baz1) АЗ от НУП ИС2
-#define B3IS22LDU	 BUFFER[323]	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
-#define idB3IS22LDU	 134	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
+#define B3IS22LDU	 BUFFER[323]	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
+#define idB3IS22LDU	 134	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
 #define R0VN69LZ1	 BUFFER[325]	//( - , Baz1) ПС по усредненному периоду
 #define idR0VN69LZ1	 135	//( - , Baz1) ПС по усредненному периоду
 #define R0VN79LZ1	 BUFFER[327]	//( - , Baz1) АС по усредненному периоду
@@ -586,7 +586,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 131	,1	,1	, &R0AD05LZ1},	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
 	{ 132	,1	,1	, &A3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС1
 	{ 133	,1	,1	, &B3VZ11LZ1},	//( - , Baz1) АЗ от НУП ИС2
-	{ 134	,1	,1	, &B3IS22LDU},	//(vds32:06 - K12VDSR, - ) Приход на НУП ИС2
+	{ 134	,1	,1	, &B3IS22LDU},	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
 	{ 135	,1	,1	, &R0VN69LZ1},	//( - , Baz1) ПС по усредненному периоду
 	{ 136	,1	,1	, &R0VN79LZ1},	//( - , Baz1) АС по усредненному периоду
 	{ 137	,8	,1	, &R0VR02RZ1},	//( - , Baz1) Усредненная реактивность
@@ -997,7 +997,7 @@ static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
 static DriverRegister def_buf_VDS322[]={
 	{&B3IS11LDU,1,8},
 	{&A0EE01LS2,1,4},
-	{&B3IS22LDU,1,22},
+	{&B3IS22LDU,1,10},
 	{&R0VN72LZ1,1,0},
 	{&R0VN76LZ1,1,2},
 	{&R0DE06LZ1,3,64},
