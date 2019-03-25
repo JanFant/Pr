@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=8;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 397
-static char BUFFER[397];
+#define SIZE_BUFFER 399
+static char BUFFER[399];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.57\0", 5432, "192.168.10.157\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -173,22 +173,24 @@ int nomer = 1;
 #define iddEM_R0UL02USS	 79	//(R0UL02USS) Предельное время ожидания роста потока (мс)
 #define fEM_R0UN03RSS	 BUFFER[280]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 #define idfEM_R0UN03RSS	 80	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define bFirstEnterFlag	 BUFFER[285]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 81	//(bFirstEnterFlag) 
-#define internal1_m22_Nk	 BUFFER[287]	//(internal1_m22_Nk) Nk - ведущая камера
-#define idinternal1_m22_Nk	 82	//(internal1_m22_Nk) Nk - ведущая камера
-#define internal1_m53_tst	 BUFFER[290]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-#define idinternal1_m53_tst	 83	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-#define internal1_m53_trz	 BUFFER[315]	//(internal1_m53_trz) - массив времени фиксации очередного периода
-#define idinternal1_m53_trz	 84	//(internal1_m53_trz) - массив времени фиксации очередного периода
-#define internal1_m53_N1	 BUFFER[340]	//(internal1_m53_N1) - массив значения мощности в начале замера
-#define idinternal1_m53_N1	 85	//(internal1_m53_N1) - массив значения мощности в начале замера
-#define internal1_m53_N2	 BUFFER[365]	//(internal1_m53_N2) - массив значения мощности в конце замера
-#define idinternal1_m53_N2	 86	//(internal1_m53_N2) - массив значения мощности в конце замера
-#define internal1_m53_Period0	 BUFFER[390]	//(internal1_m53_Period0) Per - Период разгона РУ
-#define idinternal1_m53_Period0	 87	//(internal1_m53_Period0) Per - Период разгона РУ
-#define internal1_m53_MyFirstEnterFlag	 BUFFER[395]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m53_MyFirstEnterFlag	 88	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+#define lEM_EE01LS2	 BUFFER[285]	//(EE01LS2) Исправность АКНП2
+#define idlEM_EE01LS2	 81	//(EE01LS2) Исправность АКНП2
+#define bFirstEnterFlag	 BUFFER[287]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 82	//(bFirstEnterFlag) 
+#define internal1_m22_Nk	 BUFFER[289]	//(internal1_m22_Nk) Nk - ведущая камера
+#define idinternal1_m22_Nk	 83	//(internal1_m22_Nk) Nk - ведущая камера
+#define internal1_m53_tst	 BUFFER[292]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+#define idinternal1_m53_tst	 84	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+#define internal1_m53_trz	 BUFFER[317]	//(internal1_m53_trz) - массив времени фиксации очередного периода
+#define idinternal1_m53_trz	 85	//(internal1_m53_trz) - массив времени фиксации очередного периода
+#define internal1_m53_N1	 BUFFER[342]	//(internal1_m53_N1) - массив значения мощности в начале замера
+#define idinternal1_m53_N1	 86	//(internal1_m53_N1) - массив значения мощности в начале замера
+#define internal1_m53_N2	 BUFFER[367]	//(internal1_m53_N2) - массив значения мощности в конце замера
+#define idinternal1_m53_N2	 87	//(internal1_m53_N2) - массив значения мощности в конце замера
+#define internal1_m53_Period0	 BUFFER[392]	//(internal1_m53_Period0) Per - Период разгона РУ
+#define idinternal1_m53_Period0	 88	//(internal1_m53_Period0) Per - Период разгона РУ
+#define internal1_m53_MyFirstEnterFlag	 BUFFER[397]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m53_MyFirstEnterFlag	 89	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,3	,1	, &R0DE01LS2},	//(vchs:01 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 1 месте
@@ -271,14 +273,15 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 78	,3	,1	, &iEM_R0UL01ISS},	//(R0UL01ISS) Шаг (мс) измерения периода
 	{ 79	,5	,1	, &dEM_R0UL02USS},	//(R0UL02USS) Предельное время ожидания роста потока (мс)
 	{ 80	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-	{ 81	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 82	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
-	{ 83	,8	,5	, &internal1_m53_tst},	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-	{ 84	,8	,5	, &internal1_m53_trz},	//(internal1_m53_trz) - массив времени фиксации очередного периода
-	{ 85	,8	,5	, &internal1_m53_N1},	//(internal1_m53_N1) - массив значения мощности в начале замера
-	{ 86	,8	,5	, &internal1_m53_N2},	//(internal1_m53_N2) - массив значения мощности в конце замера
-	{ 87	,8	,1	, &internal1_m53_Period0},	//(internal1_m53_Period0) Per - Период разгона РУ
-	{ 88	,1	,1	, &internal1_m53_MyFirstEnterFlag},	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+	{ 81	,1	,1	, &lEM_EE01LS2},	//(EE01LS2) Исправность АКНП2
+	{ 82	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 83	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
+	{ 84	,8	,5	, &internal1_m53_tst},	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
+	{ 85	,8	,5	, &internal1_m53_trz},	//(internal1_m53_trz) - массив времени фиксации очередного периода
+	{ 86	,8	,5	, &internal1_m53_N1},	//(internal1_m53_N1) - массив значения мощности в начале замера
+	{ 87	,8	,5	, &internal1_m53_N2},	//(internal1_m53_N2) - массив значения мощности в конце замера
+	{ 88	,8	,1	, &internal1_m53_Period0},	//(internal1_m53_Period0) Per - Период разгона РУ
+	{ 89	,1	,1	, &internal1_m53_MyFirstEnterFlag},	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp2.bin\0";   // Имя файла для сохранения констант
@@ -310,12 +313,14 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 {78,"iEM_R0UL01ISS\0"}, 
 {79,"dEM_R0UL02USS\0"}, 
 {80,"fEM_R0UN03RSS\0"}, 
+{81,"lEM_EE01LS2\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP2[]={  // 
 	{&R0EE02LZ1,1,0},	//( - , AKNP2) Питание  АКНП  отключить
 	{&R0EE02LZ2,1,1},	//( - , AKNP2) Питание  АКНП  отключить
+	{&lEM_EE01LS2,1,2},	//( - , AKNP2) Исправность АКНП2
 	{NULL,0,0},
 };
 #pragma pop
@@ -570,6 +575,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsShort(78,500);
 	setAsInt(79,100000);
 	setAsFloat(80,0.005);
+	setAsBool(81,1);
 }
 
 // Р’СЃС‚Р°РІРєР° Рє VCHS
@@ -632,7 +638,7 @@ sschar bRM_2_ = {2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 
 ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
 ssint iRM_1_ = {1,0}; /* x2 - второе слагаемое */ 
 
-uspaint8 SpaEEPROMBuf[128];
+uspaint8 SpaEEPROMBuf[130];
 
 /* Определение переменных */
 ssbool var1;
@@ -663,11 +669,10 @@ ssbool var25;
 ssbool var26;
 ssbool var27;
 ssbool var28;
-ssbool var29;
-ssfloat var30;
-ssbool var31;
+ssfloat var29;
+ssbool var30;
+ssfloat var31;
 ssfloat var32;
-ssfloat var33;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -679,66 +684,66 @@ char vainSText[] = "";
 psfloat  array_m9_x_1[2] = {&R0IN03FS2,&R0IN03FI2};
 psfloat  array_m8_x_1[2] = {&R0IN02FS2,&R0IN02FI2};
 psfloat  array_m7_x_1[2] = {&R0IN01FS2,&R0IN01FI2};
-psbool  array_m101_x_1[5] = {&var7,&var6,&R0DE37LS2,&R0DE38LS2,&R0DE39LS2};
-psint  array_m87_x_1[4] = {&R0DE01LS2,&R0DE02LS2,&R0DE04LS2,&R0DE05LS2};
+psbool  array_m102_x_1[5] = {&var7,&var6,&R0DE37LS2,&R0DE38LS2,&R0DE39LS2};
+psint  array_m88_x_1[4] = {&R0DE01LS2,&R0DE02LS2,&R0DE04LS2,&R0DE05LS2};
 psfloat  array_m53_tst_1[5];
 psfloat  array_m53_trz_1[5];
 psfloat  array_m53_N1_1[5];
 psfloat  array_m53_N2_1[5];
-psbool  array_m63_x_1[2] = {&var28,&var23};
-psbool  array_m62_x_1[2] = {&var28,&var29};
-psbool  array_m73_x_1[5] = {&var15,&R0IE11LS2,&R0IE12LS2,&R0IE13LS2,&var1};
+psbool  array_m63_x_1[2] = {&var27,&var23};
+psbool  array_m62_x_1[2] = {&var27,&var28};
+psbool  array_m72_x_1[5] = {&var15,&R0IE11LS2,&R0IE12LS2,&R0IE13LS2,&var1};
 
 /* Объявление структур */
-_S_noto  S_noto_98_1 = {&var8,&var1};
+_S_noto  S_noto_99_1 = {&var8,&var1};
 _S_ma  S_ma_9_1 = {array_m9_x_1,&var5,&iRM_2_,&var2};
 _S_ma  S_ma_8_1 = {array_m8_x_1,&var5,&iRM_2_,&var3};
 _S_ma  S_ma_7_1 = {array_m7_x_1,&var5,&iRM_2_,&var4};
 _S_fsumz  S_fsumz_2_1 = {&R0IS01FI0,&iRM_1_,&var5};
-_S_or2  S_or2_103_1 = {&R0DEB3LS2,&R0DEB4LS2,&var6};
-_S_or2  S_or2_95_1 = {&R0DEB1LS2,&R0DEB2LS2,&var7};
-_S_or3  S_or3_97_1 = {&var11,&var10,&var9,&var8};
-_S_orn  S_orn_101_1 = {array_m101_x_1,&iRM_5_,&var9};
-_S_and2  S_and2_89_1 = {&R0DE31LS2,&R0DE32LS2,&var10};
-_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var11,&var12};
+_S_or2  S_or2_104_1 = {&R0DEB3LS2,&R0DEB4LS2,&var6};
+_S_or2  S_or2_96_1 = {&R0DEB1LS2,&R0DEB2LS2,&var7};
+_S_or3  S_or3_98_1 = {&var11,&var10,&var9,&var8};
+_S_orn  S_orn_102_1 = {array_m102_x_1,&iRM_5_,&var9};
+_S_and2  S_and2_90_1 = {&R0DE31LS2,&R0DE32LS2,&var10};
+_S_diagndev  S_diagndev_88_1 = {array_m88_x_1,&iRM_4_,&var11,&var12};
 _S_ocham  S_ocham_22_1 = {&var4,&var3,&var2,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_2_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var13,&var14,&var15,&var16,&var17,&var18,&var19,&internal1_m22_Nk};
 _S_or2  S_or2_74_1 = {&R0EE02LZ1,&R0EE02LZ2,&var20};
-_S_period  S_period_53_1 = {&var14,&var25,&iRM_5_,&var32,&var33,&fEM_R0UN03RSS,&var21,array_m53_tst_1,array_m53_trz_1,array_m53_N1_1,array_m53_N2_1,&internal1_m53_Period0,&internal1_m53_MyFirstEnterFlag};
+_S_period  S_period_53_1 = {&var14,&lEM_EE01LS2,&iRM_5_,&var31,&var32,&fEM_R0UN03RSS,&var21,array_m53_tst_1,array_m53_trz_1,array_m53_N1_1,array_m53_N2_1,&internal1_m53_Period0,&internal1_m53_MyFirstEnterFlag};
 _S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var22};
 _S_bol  S_bol_60_1 = {&fEM_R0UL41RSS,&var21,&var23};
 _S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var24};
-_S_andn  S_andn_73_1 = {array_m73_x_1,&iRM_5_,&var25};
-_S_bol  S_bol_42_1 = {&var14,&fEM_R0UL52RSS,&var26};
-_S_bol  S_bol_48_1 = {&var14,&fEM_R0UL42RSS,&var27};
-_S_bol  S_bol_59_1 = {&var14,&fEM_R0UN03RSS,&var28};
-_S_bol  S_bol_58_1 = {&fEM_R0UL51RSS,&var21,&var29};
-_S_react  S_react_54_1 = {&var21,&var30};
-_S_bol  S_bol_38_1 = {&var14,&fEM_R0UR01RSS,&var31};
+_S_andn  S_andn_72_1 = {array_m72_x_1,&iRM_5_,&vainSBool};
+_S_bol  S_bol_42_1 = {&var14,&fEM_R0UL52RSS,&var25};
+_S_bol  S_bol_48_1 = {&var14,&fEM_R0UL42RSS,&var26};
+_S_bol  S_bol_59_1 = {&var14,&fEM_R0UN03RSS,&var27};
+_S_bol  S_bol_58_1 = {&fEM_R0UL51RSS,&var21,&var28};
+_S_react  S_react_54_1 = {&var21,&var29};
+_S_bol  S_bol_38_1 = {&var14,&fEM_R0UR01RSS,&var30};
 
 
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_74_1);
-  diagndev(&S_diagndev_87_1);
-  and2(&S_and2_89_1);
-  or2(&S_or2_95_1);
-  or2(&S_or2_103_1);
+  diagndev(&S_diagndev_88_1);
+  and2(&S_and2_90_1);
+  or2(&S_or2_96_1);
+  or2(&S_or2_104_1);
   fsumz(&S_fsumz_2_1);
   ma(&S_ma_7_1);
   ma(&S_ma_8_1);
   ma(&S_ma_9_1);
   ocham(&S_ocham_22_1);
-  orn(&S_orn_101_1);
-  or3(&S_or3_97_1);
-  noto(&S_noto_98_1);
+  orn(&S_orn_102_1);
+  or3(&S_or3_98_1);
+  noto(&S_noto_99_1);
   bol(&S_bol_38_1);
   bol(&S_bol_59_1);
   bol(&S_bol_48_1);
   bol(&S_bol_42_1);
-  andn(&S_andn_73_1);
-  setData(&var32,&iEM_R0UL01ISS);
-  setData(&var33,&dEM_R0UL02USS);
+  andn(&S_andn_72_1);
+  setData(&var31,&iEM_R0UL01ISS);
+  setData(&var32,&dEM_R0UL02USS);
   period(&S_period_53_1);
   react(&S_react_54_1);
   bol(&S_bol_58_1);
@@ -749,10 +754,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idR0DE3DLS2,&var6);
   setData(idR0DE3CLS2,&var7);
   setData(idTTLaknp2,&var12);
-  setData(idA0VN71LS2,&var31);
-  setData(idA1EE01LS2,&var25);
+  setData(idA0VN71LS2,&var30);
+  setData(idA1EE01LS2,&lEM_EE01LS2);
   setData(idR0VN76LZ2,&var24);
-  setData(idR0VN72LZ2,&var26);
+  setData(idR0VN72LZ2,&var25);
   setData(idR0IE02LS2,&var20);
   setData(idR0IE01LS2,&var20);
   setData(idR0VN15RS2,&var19);
@@ -760,14 +765,14 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idR0VN23RS2,&var17);
   setData(idR0VN13RS2,&var16);
   setData(idA0EE02LS2,&var15);
-  setData(idA1VN71LS2,&var31);
-  setData(idR0VN04RS2,&var30);
+  setData(idA1VN71LS2,&var30);
+  setData(idR0VN04RS2,&var29);
   setData(idR0VN03RS2,&var13);
-  setData(idA0EE01LS2,&var25);
+  setData(idA0EE01LS2,&lEM_EE01LS2);
   setData(idR0VN76LZ1,&var24);
   setData(idR0VN65LS2,&var22);
-  setData(idR0VN72LZ1,&var26);
-  setData(idR0VN61LS2,&var27);
+  setData(idR0VN72LZ1,&var25);
+  setData(idR0VN61LS2,&var26);
   setData(idR0VN01RS2,&var21);
   setData(idR0VN02RS2,&var14);
 

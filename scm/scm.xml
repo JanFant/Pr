@@ -4505,7 +4505,7 @@
         </record>
         <record>
             <value name="name">fEM_B8MC01RC1</value>
-            <value name="description">( - , SCM) аданная координата АЗ2 от ИС</value>
+            <value name="description">( - , SCM) Заданная координата АЗ2 от ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">445</value>

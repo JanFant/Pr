@@ -97,6 +97,19 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">lEM_EE01LS4</value>
+            <value name="description">( - , AKNP4) Исправность АКНП4</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">46</value>
+            <value name="PType">35</value>
+            <value name="Bf0">102</value>
+            <value name="ParData">201</value>
+            <value name="OldData">201</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">TestDiagnAKNP4</value>
             <value name="description">( - , AKNP4) Неисправность от диагностики</value>
             <value name="type">1</value>

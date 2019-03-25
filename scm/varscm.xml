@@ -559,7 +559,7 @@
 <var  name="fEM_R4MC01RC1" description="(R4MC01RC1) Заданная координата тележки от ИС" format="8"></var>
 <var  name="fEM_R4MV01RC1" description="(R4MV01RC1) Заданная скорость тележки от ИС" format="8"></var>
 <var  name="iEM_TERMAZ2" description="(TERMAZ2) Неисправности АЗ2 от ИС" format="3"></var>
-<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) аданная координата АЗ2 от ИС" format="8"></var>
+<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) Заданная координата АЗ2 от ИС" format="8"></var>
 <var  name="fEM_B8MV01RC1" description="(B8MV01RC1) Заданная скорость АЗ2 от ИС" format="8"></var>
 <var  name="iEM_TERDS2" description="(TERDS2) Неисправности ДС2 от ИС" format="3"></var>
 <var  name="fEM_A8MC01RC1" description="(A8MC01RC1) Заданная координата ДС2 от ИС" format="8"></var>

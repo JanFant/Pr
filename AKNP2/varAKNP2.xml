@@ -80,6 +80,7 @@
 <var  name="iEM_R0UL01ISS" description="(R0UL01ISS) Шаг (мс) измерения периода" format="3"></var>
 <var  name="dEM_R0UL02USS" description="(R0UL02USS) Предельное время ожидания роста потока (мс)" format="5"></var>
 <var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
+<var  name="lEM_EE01LS2" description="(EE01LS2) Исправность АКНП2" format="1"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>

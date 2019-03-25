@@ -13716,7 +13716,7 @@
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="аданная координата АЗ2 от ИС"
+      Description="Заданная координата АЗ2 от ИС"
       MinValue=""
       MaxValue=""
       Group=""
@@ -71358,4 +71358,4 @@
     }
   }
 }
-68752074
+68752017

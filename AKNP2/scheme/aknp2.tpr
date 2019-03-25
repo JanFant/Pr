@@ -839,6 +839,28 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="EE01LS2"
+      Value="1"
+      Type=3
+      Numeration=0
+      MemoryType=1
+      ESPPZUType=0
+      Description="Исправность АКНП2"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=1
+      InterfaceMB="AKNP2"
+      TypeMB=0
+      FormatMB=1
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -883,7 +905,7 @@
       PageCountX=2
       PageCountY=2
       Name="AbS2"
-      ObjectCount=221
+      ObjectCount=222
       ExpandCompile=1
       [TDrawSignal]{
         R="421,202,481,242"
@@ -1075,10 +1097,10 @@
         ABBRV="REACT"
       }
       [TDrawSignal]{
-        R="1123,186,1183,226"
+        R="1122,203,1182,243"
         Number=569
         IsHold=FALSE
-        VisualNumber="71"
+        VisualNumber="73"
         SIGNAL_NAME="A0EE01LS2"
         KodTeprol="A0EE01LS2"
         Comment="Исправность АКНП канал 2 на БАЗ1"
@@ -1371,7 +1393,7 @@
         R="1142,155,1172,175"
         Number=193
         IsHold=FALSE
-        VisualNumber="73"
+        VisualNumber="72"
         ABBRV="ANDN"
         [VVV_DrawConnector]{
           Number=0
@@ -1763,7 +1785,7 @@
         Line3=" канал 2 на БАЗ2"
       }
       [TDrawSignal]{
-        R="1191,186,1251,226"
+        R="1194,203,1254,243"
         Number=35
         IsHold=FALSE
         VisualNumber="76"
@@ -1849,7 +1871,7 @@
         R="1121,262,1151,302"
         Number=31
         IsHold=FALSE
-        VisualNumber="72"
+        VisualNumber="71"
         SIGNAL_NAME="R0EE02LZ1"
         KodTeprol="R0EE02LZ1"
         Comment="Питание  АКНП  отключить"
@@ -2056,7 +2078,7 @@
         R="14,451,74,491"
         Number=66
         IsHold=FALSE
-        VisualNumber="78"
+        VisualNumber="79"
         SIGNAL_NAME="R0DE01LS2"
         KodTeprol="R0DE01LS2"
         Comment="диагностика модуля АКНП2 на 1 месте"
@@ -2083,7 +2105,7 @@
         R="14,494,74,534"
         Number=67
         IsHold=FALSE
-        VisualNumber="79"
+        VisualNumber="80"
         SIGNAL_NAME="R0DE02LS2"
         KodTeprol="R0DE02LS2"
         Comment="диагностика модуля АКНП2 на 2 месте"
@@ -2110,7 +2132,7 @@
         R="14,539,74,579"
         Number=68
         IsHold=FALSE
-        VisualNumber="80"
+        VisualNumber="81"
         SIGNAL_NAME="R0DE04LS2"
         KodTeprol="R0DE04LS2"
         Comment="диагностика модуля АКНП2 на 4 месте"
@@ -2137,7 +2159,7 @@
         R="14,584,74,624"
         Number=69
         IsHold=FALSE
-        VisualNumber="81"
+        VisualNumber="82"
         SIGNAL_NAME="R0DE05LS2"
         KodTeprol="R0DE05LS2"
         Comment="диагностика модуля АКНП2 на 5 месте"
@@ -2164,7 +2186,7 @@
         R="108,516,138,556"
         Number=70
         IsHold=FALSE
-        VisualNumber="87"
+        VisualNumber="88"
         ABBRV="DIAGNDEV"
         [VVV_DrawConnector]{
           Number=0
@@ -2188,7 +2210,7 @@
         R="108,583,138,623"
         Number=75
         IsHold=FALSE
-        VisualNumber="88"
+        VisualNumber="89"
         SIGNAL_NAME="TTLaknp2"
         KodTeprol="TTLaknp2"
         Comment="TTL"
@@ -2214,7 +2236,7 @@
         R="14,635,74,675"
         Number=77
         IsHold=FALSE
-        VisualNumber="82"
+        VisualNumber="83"
         SIGNAL_NAME="R0DE31LS2"
         KodTeprol="R0DE31LS2"
         Comment="диагностика шкафа АКНП2 сеть 1"
@@ -2241,7 +2263,7 @@
         R="14,681,74,721"
         Number=78
         IsHold=FALSE
-        VisualNumber="83"
+        VisualNumber="84"
         SIGNAL_NAME="R0DE32LS2"
         KodTeprol="R0DE32LS2"
         Comment="диагностика шкафа АКНП2 сеть 2"
@@ -2268,14 +2290,14 @@
         R="108,646,138,686"
         Number=79
         IsHold=FALSE
-        VisualNumber="89"
+        VisualNumber="90"
         ABBRV="AND2"
       }
       [TDrawSignal]{
         R="13,733,73,773"
         Number=82
         IsHold=FALSE
-        VisualNumber="84"
+        VisualNumber="85"
         SIGNAL_NAME="R0DE33LS2"
         KodTeprol="R0DE33LS2"
         Comment="диагностика шкафа АКНП2 двери"
@@ -2302,7 +2324,7 @@
         R="13,781,73,821"
         Number=83
         IsHold=FALSE
-        VisualNumber="85"
+        VisualNumber="86"
         SIGNAL_NAME="R0DE34LS2"
         KodTeprol="R0DE34LS2"
         Comment="диагностика шкафа АКНП2 температура меньше 43"
@@ -2329,7 +2351,7 @@
         R="12,826,72,866"
         Number=84
         IsHold=FALSE
-        VisualNumber="86"
+        VisualNumber="87"
         SIGNAL_NAME="R0DE35LS2"
         KodTeprol="R0DE35LS2"
         Comment="диагностика шкафа АКНП2 температура больше 53"
@@ -2356,7 +2378,7 @@
         R="285,619,345,659"
         Number=86
         IsHold=FALSE
-        VisualNumber="92"
+        VisualNumber="93"
         SIGNAL_NAME="R0DE37LS2"
         KodTeprol="R0DE37LS2"
         Comment="диагностика шкафа АКНП2 МП15-3.1 место 2"
@@ -2383,7 +2405,7 @@
         R="285,665,345,705"
         Number=87
         IsHold=FALSE
-        VisualNumber="93"
+        VisualNumber="94"
         SIGNAL_NAME="R0DE38LS2"
         KodTeprol="R0DE38LS2"
         Comment="диагностика шкафа АКНП2 МП15-3 место 3"
@@ -2410,7 +2432,7 @@
         R="285,719,345,759"
         Number=88
         IsHold=FALSE
-        VisualNumber="94"
+        VisualNumber="95"
         SIGNAL_NAME="R0DE39LS2"
         KodTeprol="R0DE39LS2"
         Comment="диагностика шкафа АКНП2 МП24-2 место 4"
@@ -2437,7 +2459,7 @@
         R="371,559,431,599"
         Number=91
         IsHold=FALSE
-        VisualNumber="96"
+        VisualNumber="97"
         SIGNAL_NAME="R0DE3CLS2"
         KodTeprol="R0DE3CLS2"
         Comment="диагностика шкафа АКНП2 БП5/24Д место 7"
@@ -2464,7 +2486,7 @@
         R="558,559,618,599"
         Number=92
         IsHold=FALSE
-        VisualNumber="104"
+        VisualNumber="105"
         SIGNAL_NAME="R0DE3DLS2"
         KodTeprol="R0DE3DLS2"
         Comment="диагностика шкафа АКНП2 БП5/24Д место 8"
@@ -2491,7 +2513,7 @@
         R="471,664,501,704"
         Number=93
         IsHold=FALSE
-        VisualNumber="101"
+        VisualNumber="102"
         ABBRV="ORN"
         [VVV_DrawConnector]{
           Number=0
@@ -2515,14 +2537,14 @@
         R="370,826,400,866"
         Number=102
         IsHold=FALSE
-        VisualNumber="97"
+        VisualNumber="98"
         ABBRV="OR3"
       }
       [TDrawSignal]{
         R="458,827,518,867"
         Number=106
         IsHold=FALSE
-        VisualNumber="102"
+        VisualNumber="103"
         SIGNAL_NAME="TestDiagnAKNP2"
         KodTeprol="TestDiagnAKNP2"
         Comment="Неисправность от диагностики"
@@ -2549,7 +2571,7 @@
         R="285,451,345,491"
         Number=85
         IsHold=FALSE
-        VisualNumber="90"
+        VisualNumber="91"
         SIGNAL_NAME="R0DEB1LS2"
         KodTeprol="R0DEB1LS2"
         Comment="диагностика шкафа АКНП2 БП5 место 7"
@@ -2576,7 +2598,7 @@
         R="285,495,345,535"
         Number=89
         IsHold=FALSE
-        VisualNumber="91"
+        VisualNumber="92"
         SIGNAL_NAME="R0DEB2LS2"
         KodTeprol="R0DEB2LS2"
         Comment="диагностика шкафа АКНП2 БП24Д место 7"
@@ -2603,7 +2625,7 @@
         R="471,451,531,491"
         Number=90
         IsHold=FALSE
-        VisualNumber="99"
+        VisualNumber="100"
         SIGNAL_NAME="R0DEB3LS2"
         KodTeprol="R0DEB3LS2"
         Comment="диагностика шкафа АКНП2 БП5 место 8"
@@ -2630,7 +2652,7 @@
         R="471,501,531,541"
         Number=94
         IsHold=FALSE
-        VisualNumber="100"
+        VisualNumber="101"
         SIGNAL_NAME="R0DEB4LS2"
         KodTeprol="R0DEB4LS2"
         Comment="диагностика шкафа АКНП2 БП24Д место 8"
@@ -2657,14 +2679,14 @@
         R="377,477,407,517"
         Number=95
         IsHold=FALSE
-        VisualNumber="95"
+        VisualNumber="96"
         ABBRV="OR2"
       }
       [TModule]{
         R="588,477,618,517"
         Number=96
         IsHold=FALSE
-        VisualNumber="103"
+        VisualNumber="104"
         ABBRV="OR2"
       }
       [TDrawSignal]{
@@ -2962,7 +2984,7 @@
           IsHold=FALSE
         }
         [VVV_InterBlock]{
-          R="1221,136,1241,156"
+          R="1197,133,1217,153"
           Number=135
           IsHold=FALSE
         }
@@ -2978,8 +3000,15 @@
         R="411,791,441,811"
         Number=139
         IsHold=FALSE
-        VisualNumber="98"
+        VisualNumber="99"
         ABBRV="NOTO"
+      }
+      [VVV_DrawConst]{
+        R="1249,20,1279,60"
+        Number=155
+        IsHold=FALSE
+        VisualNumber="78"
+        CONST_NAME="EE01LS2"
       }
       [VVV_DrawConnector]{
         Number=169
@@ -3156,27 +3185,6 @@
           Number=193
           ParameterName="x"
           Index=3
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=199
-        IsHold=FALSE
-        p0="1155:175"
-        p1="1155:186"
-        BNumber=193
-        ENumber=569
-        Comment="y - выходной параметр --> Исправность АКНП канал 2 на БАЗ1"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=193
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=569
-          ParameterName="A0EE01LS2"
-          Index=-1
         }
       }
       [VVV_DrawConnector]{
@@ -3525,28 +3533,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=36
-        IsHold=FALSE
-        p0="1155:178"
-        p1="1224:178"
-        p2="1224:186"
-        BNumber=199
-        ENumber=35
-        Comment="y - выходной параметр --> Исправность АКНП канал 2 на БАЗ1"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=193
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=35
-          ParameterName="A1EE01LS2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=134
         IsHold=FALSE
         p0="502:329"
@@ -3565,30 +3551,6 @@
         [VVV_GCPoint]{
           Number=133
           ParameterName="A0VN71LS2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=136
-        IsHold=FALSE
-        p0="1224:178"
-        p1="1251:178"
-        p2="1251:39"
-        p3="810:39"
-        p4="810:166"
-        BNumber=36
-        ENumber=149
-        Comment="y - выходной параметр --> Исправность АКНП канал 2 на БАЗ1"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=193
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=149
-          ParameterName="Flerr"
           Index=-1
         }
       }
@@ -5390,8 +5352,8 @@
       [VVV_DrawConnector]{
         Number=153
         IsHold=FALSE
-        p0="1231:156"
-        p1="1231:168"
+        p0="1207:153"
+        p1="1207:168"
         p2="1172:168"
         BNumber=135
         ENumber=193
@@ -5409,7 +5371,75 @@
           Index=4
         }
       }
+      [VVV_DrawConnector]{
+        Number=36
+        IsHold=FALSE
+        p0="1269:60"
+        p1="1269:195"
+        p2="1147:195"
+        p3="1147:203"
+        BNumber=155
+        ENumber=569
+        Comment="Исправность АКНП2 --> Исправность АКНП канал 2 на БАЗ1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=155
+          ParameterName="EE01LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=569
+          ParameterName="A0EE01LS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=136
+        IsHold=FALSE
+        p0="1223:195"
+        p1="1223:203"
+        BNumber=36
+        ENumber=35
+        Comment="Исправность АКНП2 --> Исправность АКНП канал 2 на БАЗ1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=155
+          ParameterName="EE01LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=35
+          ParameterName="A1EE01LS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=156
+        IsHold=FALSE
+        p0="1269:79"
+        p1="1158:79"
+        p2="1158:50"
+        p3="814:50"
+        p4="814:166"
+        BNumber=36
+        ENumber=149
+        Comment="Исправность АКНП2 --> Исправность АКНП канал 2 на БАЗ1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=155
+          ParameterName="EE01LS2"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=149
+          ParameterName="Flerr"
+          Index=-1
+        }
+      }
     }
   }
 }
-5189813
+5220126

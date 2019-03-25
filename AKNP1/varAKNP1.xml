@@ -80,9 +80,10 @@
 <var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Предельное время ожидания роста потока (мс)" format="8"></var>
+<var  name="lEM_EE01LS1" description="(EE01LS1) исправность АКНП1" format="1"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m21_Nk" description="(internal1_m21_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m20_Nk" description="(internal1_m20_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m53_tst" description="(internal1_m53_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
 <var  name="internal1_m53_trz" description="(internal1_m53_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
 <var  name="internal1_m53_N1" description="(internal1_m53_N1) - массив значения мощности в начале замера" format="8" size="5"></var>

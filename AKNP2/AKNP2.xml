@@ -97,6 +97,19 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">lEM_EE01LS2</value>
+            <value name="description">( - , AKNP2) Исправность АКНП2</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">43</value>
+            <value name="PType">35</value>
+            <value name="Bf0">102</value>
+            <value name="ParData">186</value>
+            <value name="OldData">186</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0VN61LS2</value>
             <value name="description">( - , AKNP2) ПС по мощности канал 2</value>
             <value name="type">1</value>

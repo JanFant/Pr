@@ -25,4 +25,5 @@
   <save value ="0.005">fEM_R0UN03RSS</save>
   <save value ="0.5">fEM_R0UL01RSS</save>
   <save value ="100">fEM_R0UL02RSS</save>
+  <save value ="1">lEM_EE01LS1</save>
 </saves>
