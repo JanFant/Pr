@@ -90,4 +90,5 @@ AKNP2/scheme/*.out
 
 logs
 *.rar
+.vscode
 .tmp.drivedownload
