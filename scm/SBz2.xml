@@ -76,6 +76,58 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
+            <value name="nID">4</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">6</value>
+            <value name="OldData">6</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE02LZ2</value>
+            <value name="description">( - , SBz2) Питание  АКНП  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">1</value>
+            <value name="nID">5</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE03LZ2</value>
+            <value name="description">( - , SBz2) Питание  АКНП3  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">2</value>
+            <value name="nID">6</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE04LZ2</value>
+            <value name="description">( - , SBz2) Питание  АКНП4  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">3</value>
+            <value name="nID">7</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R6IS66LZZ</value>
+            <value name="description">( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">0</value>
             <value name="nID">1</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
@@ -84,9 +136,9 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE02LZ2</value>
-            <value name="description">( - , SBz2) Питание  АКНП  отключить</value>
-            <value name="type">0</value>
+            <value name="name">R6IS67LZZ</value>
+            <value name="description">( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
             <value name="nID">2</value>
@@ -97,9 +149,9 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE03LZ2</value>
-            <value name="description">( - , SBz2) Питание  АКНП3  отключить</value>
-            <value name="type">0</value>
+            <value name="name">R6IS68LZZ</value>
+            <value name="description">( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2</value>
+            <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
             <value name="nID">3</value>
@@ -107,19 +159,6 @@
             <value name="Bf0">0</value>
             <value name="ParData">4</value>
             <value name="OldData">4</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0EE04LZ2</value>
-            <value name="description">( - , SBz2) Питание  АКНП4  отключить</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">4</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">6</value>
-            <value name="OldData">6</value>
             <value name="unitId">1</value>
         </record>
     </records>

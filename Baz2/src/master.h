@@ -43,12 +43,12 @@ int nomer = 1;
 #define idR0AD14LDU	 14	//( - , Baz2) Имитация срабатывания верхней АС II УР
 #define R0AD16LDU	 BUFFER[28]	//( - , Baz2) Имитация срабатывания верхней АС I УР
 #define idR0AD16LDU	 15	//( - , Baz2) Имитация срабатывания верхней АС I УР
-#define R6IS66LZZ	 BUFFER[30]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 16	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS67LZZ	 BUFFER[32]	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 17	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS68LZZ	 BUFFER[34]	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 18	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS66LZZ	 BUFFER[30]	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 16	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS67LZZ	 BUFFER[32]	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 17	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS68LZZ	 BUFFER[34]	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 18	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
 #define R0VN71LZ2	 BUFFER[36]	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 #define idR0VN71LZ2	 19	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 #define R0VN75LZ2	 BUFFER[38]	//(vds32:05 - K02VDSR, Baz2) АС по периоду разгона канал 1
@@ -468,9 +468,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 13	,1	,1	, &R0MD34LP1},	//( - , Baz2) Кнопка Квитировать
 	{ 14	,1	,1	, &R0AD14LDU},	//( - , Baz2) Имитация срабатывания верхней АС II УР
 	{ 15	,1	,1	, &R0AD16LDU},	//( - , Baz2) Имитация срабатывания верхней АС I УР
-	{ 16	,1	,1	, &R6IS66LZZ},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 17	,1	,1	, &R6IS67LZZ},	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 18	,1	,1	, &R6IS68LZZ},	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 16	,1	,1	, &R6IS66LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 17	,1	,1	, &R6IS67LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 18	,1	,1	, &R6IS68LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
 	{ 19	,1	,1	, &R0VN71LZ2},	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 	{ 20	,1	,1	, &R0VN75LZ2},	//(vds32:05 - K02VDSR, Baz2) АС по периоду разгона канал 1
 	{ 21	,1	,1	, &A0EE03LZ2},	//( - , Baz2, SBz2DU) Исправность АКНП3
@@ -883,6 +883,9 @@ static ModbusRegister coil_MBz2S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2S[]={  // 
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -958,9 +961,9 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 static DriverRegister def_buf_VAS84[]={
 	{&A2IP01IZ2,3,3},
 	{&B2IP01IZ2,3,9},
-	{&A0IT02IZ2,3,0},
 	{&B0IT02IZ2,3,6},
 	{&R0DE04LZ2,3,26},
+	{&A0IT02IZ2,3,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -975,14 +978,14 @@ static DriverRegister def_buf_VDS321[]={
 	{&A1EE01LS1,1,4},
 	{&A3IS11LDU,1,8},
 	{&R0AD05LZ2,1,16},
-	{&R0AD03LZ2,1,12},
 	{&R0VN71LZ2,1,0},
+	{&R0AD03LZ2,1,12},
 	{&A3IS22LDU,1,10},
 	{&R0VN75LZ2,1,2},
 	{&A1VN71LS1,1,6},
-	{&R0DE05LZ2,3,64},
 	{&R0AD04LZ2,1,14},
 	{&A2IS12LDU,1,18},
+	{&R0DE05LZ2,3,64},
 	{&B2IS12LDU,1,20},
 	{NULL,0,0},
 };
@@ -999,9 +1002,9 @@ static DriverRegister def_buf_VDS322[]={
 	{&A1EE01LS2,1,4},
 	{&R0VN72LZ2,1,0},
 	{&R0VN76LZ2,1,2},
+	{&B3IS22LDU,1,10},
 	{&B3IS11LDU,1,8},
 	{&R0DE06LZ2,3,64},
-	{&B3IS22LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1013,14 +1016,11 @@ static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS323[]={
-	{&A1EE01LS4,1,4},
-	{&R0VN78LZ2,1,2},
-	{&R0VN74LZ2,1,0},
 	{&A1VN71LS4,1,6},
 	{&R0DE07LZ2,3,64},
-	{&R6IS66LZZ,1,8},
-	{&R6IS67LZZ,1,10},
-	{&R6IS68LZZ,1,12},
+	{&A1EE01LS4,1,4},
+	{&R0VN74LZ2,1,0},
+	{&R0VN78LZ2,1,2},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1032,18 +1032,18 @@ static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS324[]={
-	{&A1VN71LS3,1,6},
-	{&R7II73LZ2,1,12},
-	{&R7II71LZ2,1,8},
-	{&R7II72LZ2,1,10},
-	{&A1VP81LZZ,1,18},
-	{&B1VP81LZZ,1,24},
-	{&A0VP81LZZ,1,16},
-	{&R0DE08LZ2,3,64},
-	{&B0VP81LZZ,1,22},
-	{&R0VN73LZ2,1,0},
-	{&R0VN77LZ2,1,2},
 	{&A1EE01LS3,1,4},
+	{&R0VN73LZ2,1,0},
+	{&R0DE08LZ2,3,64},
+	{&A0VP81LZZ,1,16},
+	{&B1VP81LZZ,1,24},
+	{&A1VP81LZZ,1,18},
+	{&B0VP81LZZ,1,22},
+	{&R7II72LZ2,1,10},
+	{&R7II71LZ2,1,8},
+	{&R7II73LZ2,1,12},
+	{&R0VN77LZ2,1,2},
+	{&A1VN71LS3,1,6},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1055,11 +1055,11 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&A1VN71LZ2,1,6},
-	{&A3VZ15LZ2,1,2},
-	{&A3VZ13LZ2,1,0},
 	{&R0AD14LZ2,1,4},
 	{&R0VZ71LZ2,1,8},
+	{&A3VZ13LZ2,1,0},
+	{&A3VZ15LZ2,1,2},
+	{&A1VN71LZ2,1,6},
 	{&R0DE0ALZ2,3,38},
 	{NULL,0,0},
 };
@@ -1073,18 +1073,18 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
 	{&R0DE31LZ2,1,0},
+	{&R0DE32LZ2,1,2},
+	{&R0DE33LZ2,1,4},
+	{&R0DE34LZ2,1,6},
+	{&R0DE35LZ2,1,8},
 	{&R0DEB4LZ2,1,24},
 	{&R0DEB3LZ2,1,22},
 	{&R0DEB2LZ2,1,20},
 	{&R0DEB1LZ2,1,18},
 	{&R0DE36LZ2,1,10},
 	{&R0DE39LZ2,1,16},
-	{&R0DE37LZ2,1,12},
 	{&R0DE38LZ2,1,14},
-	{&R0DE35LZ2,1,8},
-	{&R0DE32LZ2,1,2},
-	{&R0DE34LZ2,1,6},
-	{&R0DE33LZ2,1,4},
+	{&R0DE37LZ2,1,12},
 	{NULL,0,0},
 };
 #pragma pop

@@ -51,8 +51,8 @@ int nomer = 1;
 #define idR0AD16LDU	 18	//( - , Baz1) Имитация срабатывания верхней АС I УР
 #define R0EE01LZ1	 BUFFER[36]	//( - , MBz1S) Питание  АКНП1  отключить
 #define idR0EE01LZ1	 19	//( - , MBz1S) Питание  АКНП1  отключить
-#define R6IS66LZZ	 BUFFER[38]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 20	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS66LZZ	 BUFFER[38]	//( - , MBz1S) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 20	//( - , MBz1S) Исправность ВИП 4,0 (№5) ССДИ-1-1
 #define A0EE03LZ1	 BUFFER[40]	//( - , Baz1, SBz1DU) Исправность АКНП3
 #define idA0EE03LZ1	 21	//( - , Baz1, SBz1DU) Исправность АКНП3
 #define A0EE01LS2	 BUFFER[42]	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
@@ -137,10 +137,10 @@ int nomer = 1;
 #define idTestDiagnBaz1	 61	//( - , Baz1) Неисправность от диагностики
 #define R0MW11IP1	 BUFFER[135]	//( - , Baz1) Переключатель ВЫСТРЕЛ
 #define idR0MW11IP1	 62	//( - , Baz1) Переключатель ВЫСТРЕЛ
-#define R6IS67LZZ	 BUFFER[138]	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 63	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS68LZZ	 BUFFER[140]	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 64	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS67LZZ	 BUFFER[138]	//( - , MBz1S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 63	//( - , MBz1S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS68LZZ	 BUFFER[140]	//( - , MBz1S) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 64	//( - , MBz1S) Исправность ВИП 4,0 (№7) ССДИ-2
 #define R0VN71LZ1	 BUFFER[142]	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
 #define idR0VN71LZ1	 65	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
 #define R0VN75LZ1	 BUFFER[144]	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
@@ -472,7 +472,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 17	,1	,1	, &R0AD04LZ1},	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
 	{ 18	,1	,1	, &R0AD16LDU},	//( - , Baz1) Имитация срабатывания верхней АС I УР
 	{ 19	,1	,1	, &R0EE01LZ1},	//( - , MBz1S) Питание  АКНП1  отключить
-	{ 20	,1	,1	, &R6IS66LZZ},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 20	,1	,1	, &R6IS66LZZ},	//( - , MBz1S) Исправность ВИП 4,0 (№5) ССДИ-1-1
 	{ 21	,1	,1	, &A0EE03LZ1},	//( - , Baz1, SBz1DU) Исправность АКНП3
 	{ 22	,1	,1	, &A0EE01LS2},	//(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2
 	{ 23	,1	,1	, &A0EE05LZ1},	//( - , Baz1) Исправность сети АКНП1
@@ -515,8 +515,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 60	,1	,1	, &R0DE3DLZ1},	//( - , DiagnBaz1) диагностика шкафа Баз1 БП5/24Д место 6
 	{ 61	,1	,1	, &TestDiagnBaz1},	//( - , Baz1) Неисправность от диагностики
 	{ 62	,3	,1	, &R0MW11IP1},	//( - , Baz1) Переключатель ВЫСТРЕЛ
-	{ 63	,1	,1	, &R6IS67LZZ},	//(vds32:07 - K06VDSR, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 64	,1	,1	, &R6IS68LZZ},	//(vds32:07 - K07VDSR, - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 63	,1	,1	, &R6IS67LZZ},	//( - , MBz1S) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 64	,1	,1	, &R6IS68LZZ},	//( - , MBz1S) Исправность ВИП 4,0 (№7) ССДИ-2
 	{ 65	,1	,1	, &R0VN71LZ1},	//(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1
 	{ 66	,1	,1	, &R0VN75LZ1},	//(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1
 	{ 67	,1	,1	, &R0VN72LZ1},	//(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2
@@ -883,6 +883,9 @@ static ModbusRegister coil_MBz1S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1S[]={  // 
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -956,11 +959,11 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS84[]={
-	{&A2IP01IZ1,3,3},
 	{&B2IP01IZ1,3,9},
 	{&B0IT01IZ1,3,6},
-	{&A0IT01IZ1,3,0},
+	{&A2IP01IZ1,3,3},
 	{&R0DE04LZ1,3,26},
+	{&A0IT01IZ1,3,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -975,15 +978,15 @@ static DriverRegister def_buf_VDS321[]={
 	{&A0EE01LS1,1,4},
 	{&A3IS11LDU,1,8},
 	{&A0VN71LS1,1,6},
+	{&R0AD05LZ1,1,16},
+	{&R0AD03LZ1,1,12},
+	{&A3IS22LDU,1,10},
 	{&R0AD04LZ1,1,14},
 	{&R0VN71LZ1,1,0},
 	{&R0VN75LZ1,1,2},
 	{&A2IS12LDU,1,18},
-	{&B2IS12LDU,1,20},
 	{&R0DE05LZ1,3,64},
-	{&R0AD05LZ1,1,16},
-	{&R0AD03LZ1,1,12},
-	{&A3IS22LDU,1,10},
+	{&B2IS12LDU,1,20},
 	{NULL,0,0},
 };
 #pragma pop
@@ -995,13 +998,13 @@ static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS322[]={
-	{&B3IS11LDU,1,8},
+	{&A0VN71LS2,1,6},
 	{&A0EE01LS2,1,4},
-	{&B3IS22LDU,1,10},
 	{&R0VN72LZ1,1,0},
 	{&R0VN76LZ1,1,2},
+	{&B3IS22LDU,1,10},
+	{&B3IS11LDU,1,8},
 	{&R0DE06LZ1,3,64},
-	{&A0VN71LS2,1,6},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1014,13 +1017,10 @@ static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS323[]={
 	{&R0VN78LZ1,1,2},
-	{&R0VN74LZ1,1,0},
 	{&A0VN71LS4,1,6},
-	{&R6IS68LZZ,1,12},
-	{&R6IS67LZZ,1,10},
 	{&R0DE07LZ1,3,64},
 	{&A0EE01LS4,1,4},
-	{&R6IS66LZZ,1,8},
+	{&R0VN74LZ1,1,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1032,18 +1032,18 @@ static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS324[]={
-	{&R7II73LZ1,1,12},
-	{&A0VN71LS3,1,6},
-	{&R7II71LZ1,1,8},
-	{&R7II72LZ1,1,10},
-	{&A0VP81LZZ,1,16},
-	{&R0DE08LZ1,3,64},
-	{&B0VP81LZZ,1,22},
-	{&R0VN73LZ1,1,0},
-	{&R0VN77LZ1,1,2},
-	{&A1VP81LZZ,1,18},
 	{&A0EE01LS3,1,4},
+	{&A0VP81LZZ,1,16},
+	{&B0VP81LZZ,1,22},
+	{&R0DE08LZ1,3,64},
 	{&B1VP81LZZ,1,24},
+	{&A1VP81LZZ,1,18},
+	{&R7II72LZ1,1,10},
+	{&R7II71LZ1,1,8},
+	{&R7II73LZ1,1,12},
+	{&R0VN73LZ1,1,0},
+	{&A0VN71LS3,1,6},
+	{&R0VN77LZ1,1,2},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1055,12 +1055,12 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&R0AD14LZ1,1,4},
-	{&A3VZ13LZ1,1,0},
-	{&A3VZ15LZ1,1,2},
-	{&A1VN71LZ1,1,6},
 	{&R0DE0ALZ1,3,38},
+	{&A1VN71LZ1,1,6},
+	{&A3VZ15LZ1,1,2},
+	{&A3VZ13LZ1,1,0},
 	{&R0VZ71LZ1,1,8},
+	{&R0AD14LZ1,1,4},
 	{NULL,0,0},
 };
 #pragma pop
@@ -1075,16 +1075,16 @@ static DriverRegister def_buf_SBKFP[]={
 	{&R0DEB3LZ1,1,22},
 	{&R0DEB4LZ1,1,24},
 	{&R0DEB2LZ1,1,20},
-	{&R0DEB1LZ1,1,18},
-	{&R0DE38LZ1,1,14},
-	{&R0DE39LZ1,1,16},
-	{&R0DE35LZ1,1,8},
-	{&R0DE37LZ1,1,12},
-	{&R0DE36LZ1,1,10},
-	{&R0DE33LZ1,1,4},
-	{&R0DE34LZ1,1,6},
-	{&R0DE32LZ1,1,2},
 	{&R0DE31LZ1,1,0},
+	{&R0DE32LZ1,1,2},
+	{&R0DE34LZ1,1,6},
+	{&R0DE33LZ1,1,4},
+	{&R0DE36LZ1,1,10},
+	{&R0DE37LZ1,1,12},
+	{&R0DE35LZ1,1,8},
+	{&R0DE39LZ1,1,16},
+	{&R0DE38LZ1,1,14},
+	{&R0DEB1LZ1,1,18},
 	{NULL,0,0},
 };
 #pragma pop

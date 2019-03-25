@@ -101,12 +101,12 @@ static char BUFFER[3287];
 #define idB8IC01UDU	 45	//( - , SDu) Координата АЗ2
 #define A8IC01UDU	 BUFFER[99]	//( - , SDu) Координата ДС2
 #define idA8IC01UDU	 46	//( - , SDu) Координата ДС2
-#define R6IS68LZZ	 BUFFER[104]	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 47	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define R6IS67LZZ	 BUFFER[106]	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 48	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS66LZZ	 BUFFER[108]	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 49	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS68LZZ	 BUFFER[104]	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 47	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS67LZZ	 BUFFER[106]	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 48	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS66LZZ	 BUFFER[108]	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 49	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
 #define R6IS65LDU	 BUFFER[110]	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 #define idR6IS65LDU	 50	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 #define R6IS64LDU	 BUFFER[112]	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
@@ -2057,9 +2057,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 44	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 	{ 45	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
 	{ 46	,5	,1	, &A8IC01UDU},	//( - , SDu) Координата ДС2
-	{ 47	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, - ) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 48	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 49	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 47	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 48	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 49	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
 	{ 50	,1	,1	, &R6IS65LDU},	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 	{ 51	,1	,1	, &R6IS64LDU},	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
 	{ 52	,1	,1	, &R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
@@ -3908,6 +3908,9 @@ static ModbusRegister coil_SBz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz1[]={  // 
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3932,6 +3935,9 @@ static ModbusRegister coil_SBz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz2[]={  // 
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
