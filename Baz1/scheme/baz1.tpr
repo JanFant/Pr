@@ -1917,7 +1917,7 @@
       PageCountX=3
       PageCountY=4
       Name="AbBAZ1"
-      ObjectCount=1106
+      ObjectCount=1140
       ExpandCompile=1
       [TDrawSignal]{
         R="136,517,196,557"
@@ -3159,7 +3159,7 @@
         }
       }
       [VVV_Text]{
-        R="287,321,324,333"
+        R="287,321,323,333"
         Number=1281
         IsHold=FALSE
         Line1="СБРОС ББ2"
@@ -3323,7 +3323,7 @@
         Line3="АЗ2 ниже АС"
       }
       [VVV_Text]{
-        R="136,320,173,332"
+        R="136,320,172,332"
         Number=8
         IsHold=TRUE
         Line1="СБРОС ББ1"
@@ -3342,7 +3342,7 @@
         Line1="Давление АЗ1"
       }
       [VVV_Text]{
-        R="89,244,172,250"
+        R="89,244,171,250"
         Number=19
         IsHold=TRUE
         Line1="АС по давлению в АЗ1, АЗ2 "
@@ -3454,14 +3454,14 @@
         Line2="давления для АЗ2"
       }
       [VVV_Text]{
-        R="568,226,605,238"
+        R="568,226,606,238"
         Number=40
         IsHold=FALSE
         Line1="АЗ1: АС по "
         Line2="температуре"
       }
       [VVV_Text]{
-        R="205,139,234,158"
+        R="205,139,235,157"
         Number=41
         IsHold=FALSE
         Line1="АС по "
@@ -4469,7 +4469,7 @@
         Line2="период разгона    "
       }
       [VVV_Text]{
-        R="107,184,203,190"
+        R="107,184,206,190"
         Number=140
         IsHold=FALSE
         Line1="АЗ по неисправности 2-х каналов"
@@ -4861,7 +4861,7 @@
         }
       }
       [VVV_Text]{
-        R="50,140,101,152"
+        R="50,140,103,152"
         Number=272
         IsHold=TRUE
         Line1="Усредненный"
@@ -5497,7 +5497,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="106,893,150,907"
+        R="106,893,144,905"
         Number=213
         IsHold=TRUE
         Line1="Исправность"
@@ -5511,7 +5511,7 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="177,894,221,908"
+        R="177,894,215,906"
         Number=628
         IsHold=TRUE
         Line1="Исправность"
@@ -5567,7 +5567,7 @@
         Line2="мощности АЗ1"
       }
       [VVV_Text]{
-        R="527,909,567,923"
+        R="527,909,562,921"
         Number=141
         IsHold=TRUE
         Line1="Канал 1: АС"
@@ -5819,7 +5819,7 @@
         }
       }
       [VVV_Text]{
-        R="581,123,634,135"
+        R="581,123,635,135"
         Number=838
         IsHold=FALSE
         Line1="АЗ по АС любого"
@@ -5846,7 +5846,7 @@
         }
       }
       [VVV_Text]{
-        R="266,126,294,145"
+        R="266,126,296,144"
         Number=861
         IsHold=FALSE
         Line1="АС по"
@@ -5880,7 +5880,7 @@
         }
       }
       [VVV_Text]{
-        R="249,229,302,241"
+        R="249,229,303,241"
         Number=870
         IsHold=TRUE
         Line1="АЗ по АС любого"
@@ -5920,7 +5920,7 @@
         Line1="Рис.7 Определение аварийной защиты по периоду и мощности для каждой зоны"
       }
       [VVV_Text]{
-        R="969,832,1051,839"
+        R="969,832,1042,838"
         Number=204
         IsHold=FALSE
         Line1="Рис.5 Контроль периода"
@@ -5932,19 +5932,19 @@
         Line1="Рис.6 Ввод и контроль давления и обработка сигналов проверки сброса "
       }
       [VVV_Text]{
-        R="1575,430,1669,436"
+        R="1575,430,1685,437"
         Number=880
         IsHold=FALSE
         Line1="Рис.3 Ввод и контроль давления"
       }
       [VVV_Text]{
-        R="1149,433,1223,439"
+        R="1149,433,1219,439"
         Number=883
         IsHold=FALSE
         Line1="Рис.2 Ввод данных АКНП"
       }
       [VVV_Text]{
-        R="352,404,446,409"
+        R="352,404,453,410"
         Number=884
         IsHold=FALSE
         Line1="Рис.1 Формирование сигналов АЗ"
@@ -6085,7 +6085,7 @@
         Line2="отключить"
       }
       [VVV_Text]{
-        R="420,70,453,76"
+        R="420,70,454,76"
         Number=896
         IsHold=FALSE
         Line1="Откючить-1"
@@ -6248,7 +6248,7 @@
         }
       }
       [VVV_Text]{
-        R="1023,945,1061,956"
+        R="1023,945,1065,957"
         Number=944
         IsHold=FALSE
         Line1="    АС по"
@@ -6355,7 +6355,7 @@
         }
       }
       [VVV_Text]{
-        R="1043,1295,1092,1309"
+        R="1043,1295,1085,1307"
         Number=966
         IsHold=FALSE
         Line1="    АС по"
@@ -6375,7 +6375,7 @@
         }
       }
       [VVV_Text]{
-        R="993,1292,1036,1306"
+        R="993,1292,1030,1304"
         Number=970
         IsHold=FALSE
         Line1="    АС по"
@@ -6519,7 +6519,7 @@
         }
       }
       [VVV_Text]{
-        R="1349,908,1375,915"
+        R="1349,908,1371,914"
         Number=1014
         IsHold=TRUE
         Line1="Мощн-1"
@@ -7559,7 +7559,7 @@
         }
       }
       [VVV_Text]{
-        R="553,272,585,284"
+        R="553,272,586,284"
         Number=760
         IsHold=FALSE
         Line1="Сработала"
@@ -7986,13 +7986,13 @@
         }
       }
       [VVV_Text]{
-        R="1869,593,1881,599"
+        R="1869,593,1884,600"
         Number=1247
         IsHold=FALSE
         Line1="II УР"
       }
       [VVV_Text]{
-        R="1198,1166,1225,1173"
+        R="1198,1166,1221,1172"
         Number=961
         IsHold=FALSE
         Line1="АС II УР"
@@ -8312,7 +8312,7 @@
         }
       }
       [VVV_Text]{
-        R="1235,927,1279,941"
+        R="1235,927,1273,939"
         Number=115
         IsHold=FALSE
         Line1="Исправность"
@@ -8671,7 +8671,7 @@
         }
       }
       [VVV_Text]{
-        R="1187,575,1238,587"
+        R="1187,575,1236,587"
         Number=457
         IsHold=FALSE
         Line1="Сработала АС"
@@ -21646,7 +21646,838 @@
           Index=-1
         }
       }
+      [TDrawSignal]{
+        R="698,924,728,964"
+        Number=1054
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS1"
+        KodTeprol="PS1"
+        Comment="АЗ по АС любого давления за АЗ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ по АС любого давления "
+        Line2="за АЗ1"
+      }
+      [TDrawSignal]{
+        R="735,924,765,964"
+        Number=1055
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS2"
+        KodTeprol="PS2"
+        Comment="АЗ от ВУ ИС1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ от ВУ ИС1"
+      }
+      [TDrawSignal]{
+        R="772,924,802,964"
+        Number=1056
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS3"
+        KodTeprol="PS3"
+        Comment="АЗ от НУП ИС1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ от НУП ИС1"
+      }
+      [TDrawSignal]{
+        R="812,924,842,964"
+        Number=1057
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS4"
+        KodTeprol="PS4"
+        Comment="АС по температуру АЗ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ по АС любого давления "
+        Line2="за АЗ1"
+      }
+      [TDrawSignal]{
+        R="850,924,880,964"
+        Number=1058
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS5"
+        KodTeprol="PS5"
+        Comment="АС по периоду АЗ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по периоду АЗ1"
+      }
+      [TDrawSignal]{
+        R="893,923,923,963"
+        Number=1059
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS6"
+        KodTeprol="PS6"
+        Comment="АС по мощности АЗ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по мощности АЗ1"
+      }
+      [TDrawSignal]{
+        R="1192,958,1222,998"
+        Number=1060
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS7"
+        KodTeprol="PS7"
+        Comment="Исправность АКНП АЗ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность АКНП АЗ2"
+      }
+      [VVV_DrawConnector]{
+        Number=1062
+        IsHold=FALSE
+        p0="848:1079"
+        p1="746:1079"
+        p2="746:988"
+        p3="714:988"
+        p4="714:964"
+        BNumber=976
+        ENumber=1054
+        Comment="Y(лог) --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=20
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1054
+          ParameterName="PS1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1064
+        IsHold=FALSE
+        p0="885:1081"
+        p1="863:1081"
+        p2="863:1006"
+        p3="752:1006"
+        p4="752:964"
+        BNumber=220
+        ENumber=1055
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=681
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1055
+          ParameterName="PS2"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1065
+        IsHold=FALSE
+        p0="916:1076"
+        p1="898:1076"
+        p2="898:992"
+        p3="785:992"
+        p4="785:964"
+        BNumber=585
+        ENumber=1056
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=520
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1056
+          ParameterName="PS3"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1066
+        IsHold=FALSE
+        p0="979:1059"
+        p1="979:985"
+        p2="822:985"
+        p3="822:964"
+        BNumber=291
+        ENumber=1057
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=684
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1057
+          ParameterName="PS4"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1067
+        IsHold=FALSE
+        p0="1008:994"
+        p1="860:994"
+        p2="860:964"
+        BNumber=811
+        ENumber=1058
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=785
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1058
+          ParameterName="PS5"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1068
+        IsHold=FALSE
+        p0="1051:989"
+        p1="912:989"
+        p2="912:963"
+        BNumber=694
+        ENumber=1059
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=688
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1059
+          ParameterName="PS6"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1069
+        IsHold=FALSE
+        p0="1201:934"
+        p1="1201:958"
+        BNumber=469
+        ENumber=1060
+        Comment="y - выходной параметр --> x - входной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=464
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1060
+          ParameterName="PS7"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="1269,1050,1299,1090"
+        Number=1070
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS9"
+        KodTeprol="PS9"
+        Comment="АС 1 ур (д2)"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС 1 ур (д2)"
+      }
+      [TDrawSignal]{
+        R="1269,975,1299,1015"
+        Number=1071
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS8"
+        KodTeprol="PS8"
+        Comment="Исправность АКНП АЗ1"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Исправность АКНП АЗ1"
+      }
+      [TDrawSignal]{
+        R="1269,1109,1299,1149"
+        Number=1072
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS10"
+        KodTeprol="PS10"
+        Comment="АС 1 ур (д1)"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС 1 ур (д1)"
+      }
+      [TDrawSignal]{
+        R="1233,1159,1263,1199"
+        Number=1073
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS11"
+        KodTeprol="PS11"
+        Comment="АС 2 ур"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС 2 ур"
+      }
+      [TDrawSignal]{
+        R="707,1277,737,1317"
+        Number=1074
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS17"
+        KodTeprol="PS17"
+        Comment="Аз по Ас любого давления АЗ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Аз по Ас любого давления "
+        Line2="АЗ2"
+      }
+      [VVV_DrawConnector]{
+        Number=1075
+        IsHold=FALSE
+        p0="1197:1034"
+        p1="1197:1015"
+        p2="1253:1015"
+        p3="1253:998"
+        p4="1269:998"
+        BNumber=468
+        ENumber=1071
+        Comment="y - выходной параметр --> x - входной параметр"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=461
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1071
+          ParameterName="PS8"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1076
+        IsHold=FALSE
+        p0="1162:1081"
+        p1="1162:1064"
+        p2="1269:1064"
+        BNumber=456
+        ENumber=1070
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=860
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1070
+          ParameterName="PS9"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1077
+        IsHold=FALSE
+        p0="1158:1122"
+        p1="1158:1134"
+        p2="1269:1134"
+        BNumber=865
+        ENumber=1072
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=543
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1072
+          ParameterName="PS10"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1078
+        IsHold=FALSE
+        p0="1156:1168"
+        p1="1156:1187"
+        p2="1233:1187"
+        BNumber=930
+        ENumber=1073
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=929
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1073
+          ParameterName="PS11"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="761,1277,791,1317"
+        Number=1079
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS16"
+        KodTeprol="PS16"
+        Comment="АЗ от НУП ИС2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ от НУП ИС2"
+      }
+      [TDrawSignal]{
+        R="811,1277,841,1317"
+        Number=1080
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS15"
+        KodTeprol="PS15"
+        Comment="АЗ от ВУ ИС2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АЗ от ВУ ИС2"
+      }
+      [TDrawSignal]{
+        R="851,1276,881,1316"
+        Number=1081
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS14"
+        KodTeprol="PS14"
+        Comment="Ас по температура АЗ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Ас по температура АЗ2"
+      }
+      [TDrawSignal]{
+        R="905,1275,935,1315"
+        Number=1083
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS13"
+        KodTeprol="PS13"
+        Comment="АС по периоду АЗ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="АС по периоду АЗ2"
+      }
+      [TDrawSignal]{
+        R="942,1276,972,1316"
+        Number=1084
+        IsHold=FALSE
+        VisualNumber=""
+        SIGNAL_NAME="PS12"
+        KodTeprol="PS12"
+        Comment="Ас по мощности АЗ2"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+        Line1="Ас по мощности АЗ2"
+      }
+      [VVV_DrawConnector]{
+        Number=1085
+        IsHold=FALSE
+        p0="1056:1265"
+        p1="959:1265"
+        p2="959:1276"
+        BNumber=892
+        ENumber=1084
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=706
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1084
+          ParameterName="PS12"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1086
+        IsHold=FALSE
+        p0="1010:1263"
+        p1="917:1263"
+        p2="917:1275"
+        BNumber=197
+        ENumber=1083
+        Comment="y - выходной параметр --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=780
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1083
+          ParameterName="PS13"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1087
+        IsHold=FALSE
+        p0="973:1185"
+        p1="973:1256"
+        p2="863:1256"
+        p3="863:1276"
+        BNumber=349
+        ENumber=1081
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=663
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1081
+          ParameterName="PS14"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1088
+        IsHold=FALSE
+        p0="929:1168"
+        p1="929:1247"
+        p2="829:1247"
+        p3="829:1277"
+        BNumber=169
+        ENumber=1080
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=757
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1080
+          ParameterName="PS15"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1089
+        IsHold=FALSE
+        p0="900:1164"
+        p1="900:1243"
+        p2="773:1243"
+        p3="773:1277"
+        BNumber=168
+        ENumber=1079
+        Comment="y - выходной параметр --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=756
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1079
+          ParameterName="PS16"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=1090
+        IsHold=FALSE
+        p0="864:1159"
+        p1="864:1238"
+        p2="719:1238"
+        p3="719:1277"
+        BNumber=983
+        ENumber=1074
+        Comment="Y(лог) --> x - массив входных сигналов"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=1383
+          ParameterName="y"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1074
+          ParameterName="PS17"
+          Index=-1
+        }
+      }
     }
   }
 }
-20375096
+21177232

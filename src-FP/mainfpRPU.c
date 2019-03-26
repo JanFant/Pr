@@ -14,58 +14,6 @@
 #include "master.h"
 #include <sys/reboot.h>
 
-void doWork() {
-    char b;
-    short s;
-    int ii;
-    float f;
-    long long int l;
-    double d;
-    for (int i = 0; i < 1000; i++) {
-        VarCtrl *vc = findVariable(i);
-        if (vc == NULL) continue;
-        switch (vc->format) {
-            case boolean:
-                b = getAsBool(i);
-                b = (b) ? 0 : 1;
-                setAsBool(i, b);
-                break;
-            case char1b:
-                b = getAsBool(i);
-                b++;
-                setAsBool(i, b);
-                break;
-            case uint2b:
-            case sint2b:
-                s = getAsShort(i);
-                s += 1;
-                setAsShort(i, s);
-                break;
-            case uint4b:
-            case sint4b:
-                ii = getAsInt(i);
-                ii++;
-                setAsInt(i, ii);
-                break;
-            case float4b:
-                f = getAsFloat(i);
-                f += 1.1;
-                setAsFloat(i, f);
-                break;
-            case sint8b:
-                l = getAsLong(i);
-                l += 1;
-                setAsLong(i, l);
-                break;
-            case float8b:
-                d = getAsDouble(i);
-                d += 1.000001;
-                setAsDouble(i, d);
-                break;
-        }
-
-    }
-}
 //struct timezone tzone;
 static struct timeval tv1, tv2, dtv;
 
@@ -101,7 +49,6 @@ int main(int argc, char** argv) {
         syslog(LOG_ERR, "Error init variables\n");
         return EXIT_FAILURE;
     };
-    //    doWork();
     takt = StepCycle / 1000;
     InitSetConst();
     initSaver(NameSaveFile, saveVariables,10);
