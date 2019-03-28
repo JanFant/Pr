@@ -1381,24 +1381,24 @@ static char BUFFER[3287];
 #define idfEM_R7UX16RSS	 685	//(R7UX16RSS) Величина сигнала СНМ11 в БЗ
 #define bFirstEnterFlag	 BUFFER[2483]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 686	//(bFirstEnterFlag) 
-#define internal1_m894_Chim0	 BUFFER[2485]	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m894_Chim0	 687	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m884_Chim0	 BUFFER[2490]	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m884_Chim0	 688	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m876_Chim0	 BUFFER[2495]	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m876_Chim0	 689	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m831_Out10	 BUFFER[2500]	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m831_Out10	 690	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m830_Out10	 BUFFER[2502]	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m830_Out10	 691	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1014_Out10	 BUFFER[2504]	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1014_Out10	 692	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1013_Out10	 BUFFER[2506]	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1013_Out10	 693	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1012_Out10	 BUFFER[2508]	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1012_Out10	 694	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1011_Out10	 BUFFER[2510]	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1011_Out10	 695	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m895_Chim0	 BUFFER[2485]	//(internal1_m895_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m895_Chim0	 687	//(internal1_m895_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m885_Chim0	 BUFFER[2490]	//(internal1_m885_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m885_Chim0	 688	//(internal1_m885_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m877_Chim0	 BUFFER[2495]	//(internal1_m877_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m877_Chim0	 689	//(internal1_m877_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m832_Out10	 BUFFER[2500]	//(internal1_m832_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m832_Out10	 690	//(internal1_m832_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m831_Out10	 BUFFER[2502]	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m831_Out10	 691	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1015_Out10	 BUFFER[2504]	//(internal1_m1015_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1015_Out10	 692	//(internal1_m1015_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1014_Out10	 BUFFER[2506]	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1014_Out10	 693	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1013_Out10	 BUFFER[2508]	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1013_Out10	 694	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1012_Out10	 BUFFER[2510]	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1012_Out10	 695	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m693_Out10	 BUFFER[2512]	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m693_Out10	 696	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m692_Out10	 BUFFER[2514]	//(internal1_m692_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1453,74 +1453,74 @@ static char BUFFER[3287];
 #define idinternal1_m41_Out10	 721	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m56_Out10	 BUFFER[2572]	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m56_Out10	 722	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m985_Out10	 BUFFER[2574]	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m985_Out10	 723	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m982_Out10	 BUFFER[2576]	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m982_Out10	 724	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m981_Out10	 BUFFER[2578]	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m981_Out10	 725	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m984_Xtek0	 BUFFER[2580]	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m984_Xtek0	 726	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m967_Xtek0	 BUFFER[2585]	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m967_Xtek0	 727	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m968_Out10	 BUFFER[2590]	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m968_Out10	 728	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m965_Out10	 BUFFER[2592]	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m965_Out10	 729	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m964_Out10	 BUFFER[2594]	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m964_Out10	 730	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1052_Out10	 BUFFER[2596]	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1052_Out10	 731	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1033_Out10	 BUFFER[2598]	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1033_Out10	 732	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1032_Out10	 BUFFER[2600]	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1032_Out10	 733	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1031_Out10	 BUFFER[2602]	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1031_Out10	 734	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m852_Out10	 BUFFER[2604]	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m852_Out10	 735	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m854_Out10	 BUFFER[2606]	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m854_Out10	 736	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m851_Out10	 BUFFER[2608]	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m851_Out10	 737	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m853_Out10	 BUFFER[2610]	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m853_Out10	 738	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m827_Out10	 BUFFER[2612]	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m827_Out10	 739	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m828_Out10	 BUFFER[2614]	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m828_Out10	 740	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m826_Out10	 BUFFER[2616]	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m826_Out10	 741	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m825_Out10	 BUFFER[2618]	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m825_Out10	 742	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1047_Out10	 BUFFER[2620]	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1047_Out10	 743	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m999_Out10	 BUFFER[2622]	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m999_Out10	 744	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m998_Out10	 BUFFER[2624]	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m998_Out10	 745	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m997_Out10	 BUFFER[2626]	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m997_Out10	 746	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m996_Out10	 BUFFER[2628]	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m996_Out10	 747	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1048_Out10	 BUFFER[2630]	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1048_Out10	 748	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1029_Out10	 BUFFER[2632]	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1029_Out10	 749	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m829_Out10	 BUFFER[2634]	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m829_Out10	 750	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1030_Out10	 BUFFER[2636]	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1030_Out10	 751	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1028_Out10	 BUFFER[2638]	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1028_Out10	 752	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1049_Out10	 BUFFER[2640]	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1049_Out10	 753	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1027_Out10	 BUFFER[2642]	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1027_Out10	 754	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1010_Out10	 BUFFER[2644]	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1010_Out10	 755	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m995_Out10	 BUFFER[2646]	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m995_Out10	 756	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m986_Out10	 BUFFER[2574]	//(internal1_m986_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m986_Out10	 723	//(internal1_m986_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m983_Out10	 BUFFER[2576]	//(internal1_m983_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m983_Out10	 724	//(internal1_m983_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m982_Out10	 BUFFER[2578]	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m982_Out10	 725	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m985_Xtek0	 BUFFER[2580]	//(internal1_m985_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m985_Xtek0	 726	//(internal1_m985_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m968_Xtek0	 BUFFER[2585]	//(internal1_m968_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m968_Xtek0	 727	//(internal1_m968_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m969_Out10	 BUFFER[2590]	//(internal1_m969_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m969_Out10	 728	//(internal1_m969_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m966_Out10	 BUFFER[2592]	//(internal1_m966_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m966_Out10	 729	//(internal1_m966_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m965_Out10	 BUFFER[2594]	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m965_Out10	 730	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1053_Out10	 BUFFER[2596]	//(internal1_m1053_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1053_Out10	 731	//(internal1_m1053_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1034_Out10	 BUFFER[2598]	//(internal1_m1034_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1034_Out10	 732	//(internal1_m1034_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1033_Out10	 BUFFER[2600]	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1033_Out10	 733	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1032_Out10	 BUFFER[2602]	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1032_Out10	 734	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m853_Out10	 BUFFER[2604]	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m853_Out10	 735	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m855_Out10	 BUFFER[2606]	//(internal1_m855_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m855_Out10	 736	//(internal1_m855_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m852_Out10	 BUFFER[2608]	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m852_Out10	 737	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m854_Out10	 BUFFER[2610]	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m854_Out10	 738	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m828_Out10	 BUFFER[2612]	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m828_Out10	 739	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m829_Out10	 BUFFER[2614]	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m829_Out10	 740	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m827_Out10	 BUFFER[2616]	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m827_Out10	 741	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m826_Out10	 BUFFER[2618]	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m826_Out10	 742	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1048_Out10	 BUFFER[2620]	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1048_Out10	 743	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1000_Out10	 BUFFER[2622]	//(internal1_m1000_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1000_Out10	 744	//(internal1_m1000_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m999_Out10	 BUFFER[2624]	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m999_Out10	 745	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m998_Out10	 BUFFER[2626]	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m998_Out10	 746	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m997_Out10	 BUFFER[2628]	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m997_Out10	 747	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1049_Out10	 BUFFER[2630]	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1049_Out10	 748	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1030_Out10	 BUFFER[2632]	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1030_Out10	 749	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m830_Out10	 BUFFER[2634]	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m830_Out10	 750	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1031_Out10	 BUFFER[2636]	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1031_Out10	 751	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1029_Out10	 BUFFER[2638]	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1029_Out10	 752	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1050_Out10	 BUFFER[2640]	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1050_Out10	 753	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1028_Out10	 BUFFER[2642]	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1028_Out10	 754	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1011_Out10	 BUFFER[2644]	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1011_Out10	 755	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m996_Out10	 BUFFER[2646]	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m996_Out10	 756	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m546_Out10	 BUFFER[2648]	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m546_Out10	 757	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m421_Xtek0	 BUFFER[2650]	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
@@ -1531,14 +1531,14 @@ static char BUFFER[3287];
 #define idinternal1_m414_Out10	 760	//(internal1_m414_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m413_Out10	 BUFFER[2659]	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m413_Out10	 761	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m867_Out10	 BUFFER[2661]	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m867_Out10	 762	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m868_Out10	 BUFFER[2663]	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m868_Out10	 763	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m866_Out10	 BUFFER[2665]	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m866_Out10	 764	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1051_Out10	 BUFFER[2667]	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1051_Out10	 765	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m868_Out10	 BUFFER[2661]	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m868_Out10	 762	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m869_Out10	 BUFFER[2663]	//(internal1_m869_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m869_Out10	 763	//(internal1_m869_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m867_Out10	 BUFFER[2665]	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m867_Out10	 764	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1052_Out10	 BUFFER[2667]	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1052_Out10	 765	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m706_Out10	 BUFFER[2669]	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m706_Out10	 766	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m707_Out10	 BUFFER[2671]	//(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1551,10 +1551,10 @@ static char BUFFER[3287];
 #define idinternal1_m562_Out10	 770	//(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m561_Out10	 BUFFER[2679]	//(internal1_m561_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m561_Out10	 771	//(internal1_m561_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m848_Xtek0	 BUFFER[2681]	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m848_Xtek0	 772	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m850_Xtek0	 BUFFER[2686]	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m850_Xtek0	 773	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m849_Xtek0	 BUFFER[2681]	//(internal1_m849_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m849_Xtek0	 772	//(internal1_m849_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m851_Xtek0	 BUFFER[2686]	//(internal1_m851_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m851_Xtek0	 773	//(internal1_m851_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define internal1_m703_Out10	 BUFFER[2691]	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m703_Out10	 774	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m687_Out10	 BUFFER[2693]	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1601,8 +1601,8 @@ static char BUFFER[3287];
 #define idinternal1_m431_Out10	 795	//(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m430_Out10	 BUFFER[2744]	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m430_Out10	 796	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m1050_Out10	 BUFFER[2746]	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m1050_Out10	 797	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m1051_Out10	 BUFFER[2746]	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m1051_Out10	 797	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m150_Out10	 BUFFER[2748]	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m150_Out10	 798	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m149_Out10	 BUFFER[2750]	//(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1653,20 +1653,20 @@ static char BUFFER[3287];
 #define idinternal1_m480_RA10	 821	//(internal1_m480_RA10)  - последнее задание назад
 #define internal1_m480_MyFirstEnterFlag	 BUFFER[2798]	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m480_MyFirstEnterFlag	 822	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m623_Pav0	 BUFFER[2800]	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m623_Pav0	 823	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m623_Zav0	 BUFFER[2802]	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m623_Zav0	 824	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m623_Pv0	 BUFFER[2804]	//(internal1_m623_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m623_Pv0	 825	//(internal1_m623_Pv0)  - Пер. выключатель механизма
-#define internal1_m623_Zv0	 BUFFER[2806]	//(internal1_m623_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m623_Zv0	 826	//(internal1_m623_Zv0)  - Зад. выключатель механизма
-#define internal1_m623_RA00	 BUFFER[2808]	//(internal1_m623_RA00)  - последнее задание вперед
-#define idinternal1_m623_RA00	 827	//(internal1_m623_RA00)  - последнее задание вперед
-#define internal1_m623_RA10	 BUFFER[2810]	//(internal1_m623_RA10)  - последнее задание назад
-#define idinternal1_m623_RA10	 828	//(internal1_m623_RA10)  - последнее задание назад
-#define internal1_m623_MyFirstEnterFlag	 BUFFER[2812]	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m623_MyFirstEnterFlag	 829	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m621_Pav0	 BUFFER[2800]	//(internal1_m621_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m621_Pav0	 823	//(internal1_m621_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m621_Zav0	 BUFFER[2802]	//(internal1_m621_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m621_Zav0	 824	//(internal1_m621_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m621_Pv0	 BUFFER[2804]	//(internal1_m621_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m621_Pv0	 825	//(internal1_m621_Pv0)  - Пер. выключатель механизма
+#define internal1_m621_Zv0	 BUFFER[2806]	//(internal1_m621_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m621_Zv0	 826	//(internal1_m621_Zv0)  - Зад. выключатель механизма
+#define internal1_m621_RA00	 BUFFER[2808]	//(internal1_m621_RA00)  - последнее задание вперед
+#define idinternal1_m621_RA00	 827	//(internal1_m621_RA00)  - последнее задание вперед
+#define internal1_m621_RA10	 BUFFER[2810]	//(internal1_m621_RA10)  - последнее задание назад
+#define idinternal1_m621_RA10	 828	//(internal1_m621_RA10)  - последнее задание назад
+#define internal1_m621_MyFirstEnterFlag	 BUFFER[2812]	//(internal1_m621_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m621_MyFirstEnterFlag	 829	//(internal1_m621_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m620_Pav0	 BUFFER[2814]	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
 #define idinternal1_m620_Pav0	 830	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
 #define internal1_m620_Zav0	 BUFFER[2816]	//(internal1_m620_Zav0)  - Зад.аварийный выключатель механизма
@@ -1711,28 +1711,28 @@ static char BUFFER[3287];
 #define idinternal1_m605_MyFirstEnterFlag	 850	//(internal1_m605_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m652_y0	 BUFFER[2856]	//(internal1_m652_y0) y0 - внутренний параметр
 #define idinternal1_m652_y0	 851	//(internal1_m652_y0) y0 - внутренний параметр
-#define internal1_m813_Chim0	 BUFFER[2861]	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m813_Chim0	 852	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m804_Chim0	 BUFFER[2866]	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m804_Chim0	 853	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m796_Chim0	 BUFFER[2871]	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m796_Chim0	 854	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m787_Chim0	 BUFFER[2876]	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m787_Chim0	 855	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m778_Chim0	 BUFFER[2881]	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m778_Chim0	 856	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m770_Chim0	 BUFFER[2886]	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m770_Chim0	 857	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m761_Chim0	 BUFFER[2891]	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m761_Chim0	 858	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m752_Chim0	 BUFFER[2896]	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m752_Chim0	 859	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m744_Chim0	 BUFFER[2901]	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m744_Chim0	 860	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m735_Chim0	 BUFFER[2906]	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m735_Chim0	 861	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
-#define internal1_m726_Chim0	 BUFFER[2911]	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
-#define idinternal1_m726_Chim0	 862	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m814_Chim0	 BUFFER[2861]	//(internal1_m814_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m814_Chim0	 852	//(internal1_m814_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m805_Chim0	 BUFFER[2866]	//(internal1_m805_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m805_Chim0	 853	//(internal1_m805_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m797_Chim0	 BUFFER[2871]	//(internal1_m797_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m797_Chim0	 854	//(internal1_m797_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m788_Chim0	 BUFFER[2876]	//(internal1_m788_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m788_Chim0	 855	//(internal1_m788_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m779_Chim0	 BUFFER[2881]	//(internal1_m779_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m779_Chim0	 856	//(internal1_m779_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m771_Chim0	 BUFFER[2886]	//(internal1_m771_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m771_Chim0	 857	//(internal1_m771_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m762_Chim0	 BUFFER[2891]	//(internal1_m762_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m762_Chim0	 858	//(internal1_m762_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m753_Chim0	 BUFFER[2896]	//(internal1_m753_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m753_Chim0	 859	//(internal1_m753_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m745_Chim0	 BUFFER[2901]	//(internal1_m745_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m745_Chim0	 860	//(internal1_m745_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m736_Chim0	 BUFFER[2906]	//(internal1_m736_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m736_Chim0	 861	//(internal1_m736_Chim0) измеренная частота импульсов камеры Гц
+#define internal1_m727_Chim0	 BUFFER[2911]	//(internal1_m727_Chim0) измеренная частота импульсов камеры Гц
+#define idinternal1_m727_Chim0	 862	//(internal1_m727_Chim0) измеренная частота импульсов камеры Гц
 #define internal1_m718_Chim0	 BUFFER[2916]	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
 #define idinternal1_m718_Chim0	 863	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
 #define internal1_m592_Pav0	 BUFFER[2921]	//(internal1_m592_Pav0)  - Пер.аварийный выключатель механизма
@@ -1847,20 +1847,20 @@ static char BUFFER[3287];
 #define idinternal1_m366_RA10	 918	//(internal1_m366_RA10)  - последнее задание назад
 #define internal1_m366_MyFirstEnterFlag	 BUFFER[3031]	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m366_MyFirstEnterFlag	 919	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m906_Pav0	 BUFFER[3033]	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m906_Pav0	 920	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m906_Zav0	 BUFFER[3035]	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m906_Zav0	 921	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m906_Pv0	 BUFFER[3037]	//(internal1_m906_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m906_Pv0	 922	//(internal1_m906_Pv0)  - Пер. выключатель механизма
-#define internal1_m906_Zv0	 BUFFER[3039]	//(internal1_m906_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m906_Zv0	 923	//(internal1_m906_Zv0)  - Зад. выключатель механизма
-#define internal1_m906_RA00	 BUFFER[3041]	//(internal1_m906_RA00)  - последнее задание вперед
-#define idinternal1_m906_RA00	 924	//(internal1_m906_RA00)  - последнее задание вперед
-#define internal1_m906_RA10	 BUFFER[3043]	//(internal1_m906_RA10)  - последнее задание назад
-#define idinternal1_m906_RA10	 925	//(internal1_m906_RA10)  - последнее задание назад
-#define internal1_m906_MyFirstEnterFlag	 BUFFER[3045]	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m906_MyFirstEnterFlag	 926	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m907_Pav0	 BUFFER[3033]	//(internal1_m907_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m907_Pav0	 920	//(internal1_m907_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m907_Zav0	 BUFFER[3035]	//(internal1_m907_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m907_Zav0	 921	//(internal1_m907_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m907_Pv0	 BUFFER[3037]	//(internal1_m907_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m907_Pv0	 922	//(internal1_m907_Pv0)  - Пер. выключатель механизма
+#define internal1_m907_Zv0	 BUFFER[3039]	//(internal1_m907_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m907_Zv0	 923	//(internal1_m907_Zv0)  - Зад. выключатель механизма
+#define internal1_m907_RA00	 BUFFER[3041]	//(internal1_m907_RA00)  - последнее задание вперед
+#define idinternal1_m907_RA00	 924	//(internal1_m907_RA00)  - последнее задание вперед
+#define internal1_m907_RA10	 BUFFER[3043]	//(internal1_m907_RA10)  - последнее задание назад
+#define idinternal1_m907_RA10	 925	//(internal1_m907_RA10)  - последнее задание назад
+#define internal1_m907_MyFirstEnterFlag	 BUFFER[3045]	//(internal1_m907_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m907_MyFirstEnterFlag	 926	//(internal1_m907_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m182_C1	 BUFFER[3047]	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define idinternal1_m182_C1	 927	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define internal1_m182_C2	 BUFFER[3052]	//(internal1_m182_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
@@ -2697,15 +2697,15 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 684	,8	,1	, &fEM_R7UY15RSS},	//(R7UY15RSS) Y-координата камеры R7IN53
 	{ 685	,8	,1	, &fEM_R7UX16RSS},	//(R7UX16RSS) Величина сигнала СНМ11 в БЗ
 	{ 686	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 687	,8	,1	, &internal1_m894_Chim0},	//(internal1_m894_Chim0) измеренная частота импульсов камеры Гц
-	{ 688	,8	,1	, &internal1_m884_Chim0},	//(internal1_m884_Chim0) измеренная частота импульсов камеры Гц
-	{ 689	,8	,1	, &internal1_m876_Chim0},	//(internal1_m876_Chim0) измеренная частота импульсов камеры Гц
-	{ 690	,1	,1	, &internal1_m831_Out10},	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 691	,1	,1	, &internal1_m830_Out10},	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 692	,1	,1	, &internal1_m1014_Out10},	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 693	,1	,1	, &internal1_m1013_Out10},	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 694	,1	,1	, &internal1_m1012_Out10},	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 695	,1	,1	, &internal1_m1011_Out10},	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 687	,8	,1	, &internal1_m895_Chim0},	//(internal1_m895_Chim0) измеренная частота импульсов камеры Гц
+	{ 688	,8	,1	, &internal1_m885_Chim0},	//(internal1_m885_Chim0) измеренная частота импульсов камеры Гц
+	{ 689	,8	,1	, &internal1_m877_Chim0},	//(internal1_m877_Chim0) измеренная частота импульсов камеры Гц
+	{ 690	,1	,1	, &internal1_m832_Out10},	//(internal1_m832_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 691	,1	,1	, &internal1_m831_Out10},	//(internal1_m831_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 692	,1	,1	, &internal1_m1015_Out10},	//(internal1_m1015_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 693	,1	,1	, &internal1_m1014_Out10},	//(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 694	,1	,1	, &internal1_m1013_Out10},	//(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 695	,1	,1	, &internal1_m1012_Out10},	//(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 696	,1	,1	, &internal1_m693_Out10},	//(internal1_m693_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 697	,1	,1	, &internal1_m692_Out10},	//(internal1_m692_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 698	,1	,1	, &internal1_m671_Out10},	//(internal1_m671_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -2733,57 +2733,57 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 720	,1	,1	, &internal1_m225_Out10},	//(internal1_m225_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 721	,1	,1	, &internal1_m41_Out10},	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 722	,1	,1	, &internal1_m56_Out10},	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 723	,1	,1	, &internal1_m985_Out10},	//(internal1_m985_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 724	,1	,1	, &internal1_m982_Out10},	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 725	,1	,1	, &internal1_m981_Out10},	//(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 726	,8	,1	, &internal1_m984_Xtek0},	//(internal1_m984_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 727	,8	,1	, &internal1_m967_Xtek0},	//(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 728	,1	,1	, &internal1_m968_Out10},	//(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 729	,1	,1	, &internal1_m965_Out10},	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 730	,1	,1	, &internal1_m964_Out10},	//(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 731	,1	,1	, &internal1_m1052_Out10},	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 732	,1	,1	, &internal1_m1033_Out10},	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 733	,1	,1	, &internal1_m1032_Out10},	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 734	,1	,1	, &internal1_m1031_Out10},	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 735	,1	,1	, &internal1_m852_Out10},	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 736	,1	,1	, &internal1_m854_Out10},	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 737	,1	,1	, &internal1_m851_Out10},	//(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 738	,1	,1	, &internal1_m853_Out10},	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 739	,1	,1	, &internal1_m827_Out10},	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 740	,1	,1	, &internal1_m828_Out10},	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 741	,1	,1	, &internal1_m826_Out10},	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 742	,1	,1	, &internal1_m825_Out10},	//(internal1_m825_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 743	,1	,1	, &internal1_m1047_Out10},	//(internal1_m1047_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 744	,1	,1	, &internal1_m999_Out10},	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 745	,1	,1	, &internal1_m998_Out10},	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 746	,1	,1	, &internal1_m997_Out10},	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 747	,1	,1	, &internal1_m996_Out10},	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 748	,1	,1	, &internal1_m1048_Out10},	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 749	,1	,1	, &internal1_m1029_Out10},	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 750	,1	,1	, &internal1_m829_Out10},	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 751	,1	,1	, &internal1_m1030_Out10},	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 752	,1	,1	, &internal1_m1028_Out10},	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 753	,1	,1	, &internal1_m1049_Out10},	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 754	,1	,1	, &internal1_m1027_Out10},	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 755	,1	,1	, &internal1_m1010_Out10},	//(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 756	,1	,1	, &internal1_m995_Out10},	//(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 723	,1	,1	, &internal1_m986_Out10},	//(internal1_m986_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 724	,1	,1	, &internal1_m983_Out10},	//(internal1_m983_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 725	,1	,1	, &internal1_m982_Out10},	//(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 726	,8	,1	, &internal1_m985_Xtek0},	//(internal1_m985_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 727	,8	,1	, &internal1_m968_Xtek0},	//(internal1_m968_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 728	,1	,1	, &internal1_m969_Out10},	//(internal1_m969_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 729	,1	,1	, &internal1_m966_Out10},	//(internal1_m966_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 730	,1	,1	, &internal1_m965_Out10},	//(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 731	,1	,1	, &internal1_m1053_Out10},	//(internal1_m1053_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 732	,1	,1	, &internal1_m1034_Out10},	//(internal1_m1034_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 733	,1	,1	, &internal1_m1033_Out10},	//(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 734	,1	,1	, &internal1_m1032_Out10},	//(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 735	,1	,1	, &internal1_m853_Out10},	//(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 736	,1	,1	, &internal1_m855_Out10},	//(internal1_m855_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 737	,1	,1	, &internal1_m852_Out10},	//(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 738	,1	,1	, &internal1_m854_Out10},	//(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 739	,1	,1	, &internal1_m828_Out10},	//(internal1_m828_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 740	,1	,1	, &internal1_m829_Out10},	//(internal1_m829_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 741	,1	,1	, &internal1_m827_Out10},	//(internal1_m827_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 742	,1	,1	, &internal1_m826_Out10},	//(internal1_m826_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 743	,1	,1	, &internal1_m1048_Out10},	//(internal1_m1048_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 744	,1	,1	, &internal1_m1000_Out10},	//(internal1_m1000_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 745	,1	,1	, &internal1_m999_Out10},	//(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 746	,1	,1	, &internal1_m998_Out10},	//(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 747	,1	,1	, &internal1_m997_Out10},	//(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 748	,1	,1	, &internal1_m1049_Out10},	//(internal1_m1049_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 749	,1	,1	, &internal1_m1030_Out10},	//(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 750	,1	,1	, &internal1_m830_Out10},	//(internal1_m830_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 751	,1	,1	, &internal1_m1031_Out10},	//(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 752	,1	,1	, &internal1_m1029_Out10},	//(internal1_m1029_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 753	,1	,1	, &internal1_m1050_Out10},	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 754	,1	,1	, &internal1_m1028_Out10},	//(internal1_m1028_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 755	,1	,1	, &internal1_m1011_Out10},	//(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 756	,1	,1	, &internal1_m996_Out10},	//(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 757	,1	,1	, &internal1_m546_Out10},	//(internal1_m546_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 758	,8	,1	, &internal1_m421_Xtek0},	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 	{ 759	,1	,1	, &internal1_m412_Out10},	//(internal1_m412_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 760	,1	,1	, &internal1_m414_Out10},	//(internal1_m414_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 761	,1	,1	, &internal1_m413_Out10},	//(internal1_m413_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 762	,1	,1	, &internal1_m867_Out10},	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 763	,1	,1	, &internal1_m868_Out10},	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 764	,1	,1	, &internal1_m866_Out10},	//(internal1_m866_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 765	,1	,1	, &internal1_m1051_Out10},	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 762	,1	,1	, &internal1_m868_Out10},	//(internal1_m868_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 763	,1	,1	, &internal1_m869_Out10},	//(internal1_m869_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 764	,1	,1	, &internal1_m867_Out10},	//(internal1_m867_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 765	,1	,1	, &internal1_m1052_Out10},	//(internal1_m1052_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 766	,1	,1	, &internal1_m706_Out10},	//(internal1_m706_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 767	,1	,1	, &internal1_m707_Out10},	//(internal1_m707_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 768	,1	,1	, &internal1_m704_Out10},	//(internal1_m704_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 769	,1	,1	, &internal1_m705_Out10},	//(internal1_m705_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 770	,1	,1	, &internal1_m562_Out10},	//(internal1_m562_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 771	,1	,1	, &internal1_m561_Out10},	//(internal1_m561_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 772	,8	,1	, &internal1_m848_Xtek0},	//(internal1_m848_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 773	,8	,1	, &internal1_m850_Xtek0},	//(internal1_m850_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 772	,8	,1	, &internal1_m849_Xtek0},	//(internal1_m849_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 773	,8	,1	, &internal1_m851_Xtek0},	//(internal1_m851_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 	{ 774	,1	,1	, &internal1_m703_Out10},	//(internal1_m703_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 775	,1	,1	, &internal1_m687_Out10},	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 776	,1	,1	, &internal1_m667_Out10},	//(internal1_m667_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -2807,7 +2807,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 794	,1	,1	, &internal1_m432_Out10},	//(internal1_m432_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 795	,1	,1	, &internal1_m431_Out10},	//(internal1_m431_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 796	,1	,1	, &internal1_m430_Out10},	//(internal1_m430_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 797	,1	,1	, &internal1_m1050_Out10},	//(internal1_m1050_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 797	,1	,1	, &internal1_m1051_Out10},	//(internal1_m1051_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 798	,1	,1	, &internal1_m150_Out10},	//(internal1_m150_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 799	,1	,1	, &internal1_m149_Out10},	//(internal1_m149_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 800	,3	,1	, &internal1_m197_tx},	//(internal1_m197_tx) tx - внутренний параметр
@@ -2833,13 +2833,13 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 820	,1	,1	, &internal1_m480_RA00},	//(internal1_m480_RA00)  - последнее задание вперед
 	{ 821	,1	,1	, &internal1_m480_RA10},	//(internal1_m480_RA10)  - последнее задание назад
 	{ 822	,1	,1	, &internal1_m480_MyFirstEnterFlag},	//(internal1_m480_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 823	,1	,1	, &internal1_m623_Pav0},	//(internal1_m623_Pav0)  - Пер.аварийный выключатель механизма
-	{ 824	,1	,1	, &internal1_m623_Zav0},	//(internal1_m623_Zav0)  - Зад.аварийный выключатель механизма
-	{ 825	,1	,1	, &internal1_m623_Pv0},	//(internal1_m623_Pv0)  - Пер. выключатель механизма
-	{ 826	,1	,1	, &internal1_m623_Zv0},	//(internal1_m623_Zv0)  - Зад. выключатель механизма
-	{ 827	,1	,1	, &internal1_m623_RA00},	//(internal1_m623_RA00)  - последнее задание вперед
-	{ 828	,1	,1	, &internal1_m623_RA10},	//(internal1_m623_RA10)  - последнее задание назад
-	{ 829	,1	,1	, &internal1_m623_MyFirstEnterFlag},	//(internal1_m623_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 823	,1	,1	, &internal1_m621_Pav0},	//(internal1_m621_Pav0)  - Пер.аварийный выключатель механизма
+	{ 824	,1	,1	, &internal1_m621_Zav0},	//(internal1_m621_Zav0)  - Зад.аварийный выключатель механизма
+	{ 825	,1	,1	, &internal1_m621_Pv0},	//(internal1_m621_Pv0)  - Пер. выключатель механизма
+	{ 826	,1	,1	, &internal1_m621_Zv0},	//(internal1_m621_Zv0)  - Зад. выключатель механизма
+	{ 827	,1	,1	, &internal1_m621_RA00},	//(internal1_m621_RA00)  - последнее задание вперед
+	{ 828	,1	,1	, &internal1_m621_RA10},	//(internal1_m621_RA10)  - последнее задание назад
+	{ 829	,1	,1	, &internal1_m621_MyFirstEnterFlag},	//(internal1_m621_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 830	,1	,1	, &internal1_m620_Pav0},	//(internal1_m620_Pav0)  - Пер.аварийный выключатель механизма
 	{ 831	,1	,1	, &internal1_m620_Zav0},	//(internal1_m620_Zav0)  - Зад.аварийный выключатель механизма
 	{ 832	,1	,1	, &internal1_m620_Pv0},	//(internal1_m620_Pv0)  - Пер. выключатель механизма
@@ -2862,17 +2862,17 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 849	,1	,1	, &internal1_m605_RA10},	//(internal1_m605_RA10)  - последнее задание назад
 	{ 850	,1	,1	, &internal1_m605_MyFirstEnterFlag},	//(internal1_m605_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 851	,8	,1	, &internal1_m652_y0},	//(internal1_m652_y0) y0 - внутренний параметр
-	{ 852	,8	,1	, &internal1_m813_Chim0},	//(internal1_m813_Chim0) измеренная частота импульсов камеры Гц
-	{ 853	,8	,1	, &internal1_m804_Chim0},	//(internal1_m804_Chim0) измеренная частота импульсов камеры Гц
-	{ 854	,8	,1	, &internal1_m796_Chim0},	//(internal1_m796_Chim0) измеренная частота импульсов камеры Гц
-	{ 855	,8	,1	, &internal1_m787_Chim0},	//(internal1_m787_Chim0) измеренная частота импульсов камеры Гц
-	{ 856	,8	,1	, &internal1_m778_Chim0},	//(internal1_m778_Chim0) измеренная частота импульсов камеры Гц
-	{ 857	,8	,1	, &internal1_m770_Chim0},	//(internal1_m770_Chim0) измеренная частота импульсов камеры Гц
-	{ 858	,8	,1	, &internal1_m761_Chim0},	//(internal1_m761_Chim0) измеренная частота импульсов камеры Гц
-	{ 859	,8	,1	, &internal1_m752_Chim0},	//(internal1_m752_Chim0) измеренная частота импульсов камеры Гц
-	{ 860	,8	,1	, &internal1_m744_Chim0},	//(internal1_m744_Chim0) измеренная частота импульсов камеры Гц
-	{ 861	,8	,1	, &internal1_m735_Chim0},	//(internal1_m735_Chim0) измеренная частота импульсов камеры Гц
-	{ 862	,8	,1	, &internal1_m726_Chim0},	//(internal1_m726_Chim0) измеренная частота импульсов камеры Гц
+	{ 852	,8	,1	, &internal1_m814_Chim0},	//(internal1_m814_Chim0) измеренная частота импульсов камеры Гц
+	{ 853	,8	,1	, &internal1_m805_Chim0},	//(internal1_m805_Chim0) измеренная частота импульсов камеры Гц
+	{ 854	,8	,1	, &internal1_m797_Chim0},	//(internal1_m797_Chim0) измеренная частота импульсов камеры Гц
+	{ 855	,8	,1	, &internal1_m788_Chim0},	//(internal1_m788_Chim0) измеренная частота импульсов камеры Гц
+	{ 856	,8	,1	, &internal1_m779_Chim0},	//(internal1_m779_Chim0) измеренная частота импульсов камеры Гц
+	{ 857	,8	,1	, &internal1_m771_Chim0},	//(internal1_m771_Chim0) измеренная частота импульсов камеры Гц
+	{ 858	,8	,1	, &internal1_m762_Chim0},	//(internal1_m762_Chim0) измеренная частота импульсов камеры Гц
+	{ 859	,8	,1	, &internal1_m753_Chim0},	//(internal1_m753_Chim0) измеренная частота импульсов камеры Гц
+	{ 860	,8	,1	, &internal1_m745_Chim0},	//(internal1_m745_Chim0) измеренная частота импульсов камеры Гц
+	{ 861	,8	,1	, &internal1_m736_Chim0},	//(internal1_m736_Chim0) измеренная частота импульсов камеры Гц
+	{ 862	,8	,1	, &internal1_m727_Chim0},	//(internal1_m727_Chim0) измеренная частота импульсов камеры Гц
 	{ 863	,8	,1	, &internal1_m718_Chim0},	//(internal1_m718_Chim0) измеренная частота импульсов камеры Гц
 	{ 864	,1	,1	, &internal1_m592_Pav0},	//(internal1_m592_Pav0)  - Пер.аварийный выключатель механизма
 	{ 865	,1	,1	, &internal1_m592_Zav0},	//(internal1_m592_Zav0)  - Зад.аварийный выключатель механизма
@@ -2930,13 +2930,13 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 917	,1	,1	, &internal1_m366_RA00},	//(internal1_m366_RA00)  - последнее задание вперед
 	{ 918	,1	,1	, &internal1_m366_RA10},	//(internal1_m366_RA10)  - последнее задание назад
 	{ 919	,1	,1	, &internal1_m366_MyFirstEnterFlag},	//(internal1_m366_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 920	,1	,1	, &internal1_m906_Pav0},	//(internal1_m906_Pav0)  - Пер.аварийный выключатель механизма
-	{ 921	,1	,1	, &internal1_m906_Zav0},	//(internal1_m906_Zav0)  - Зад.аварийный выключатель механизма
-	{ 922	,1	,1	, &internal1_m906_Pv0},	//(internal1_m906_Pv0)  - Пер. выключатель механизма
-	{ 923	,1	,1	, &internal1_m906_Zv0},	//(internal1_m906_Zv0)  - Зад. выключатель механизма
-	{ 924	,1	,1	, &internal1_m906_RA00},	//(internal1_m906_RA00)  - последнее задание вперед
-	{ 925	,1	,1	, &internal1_m906_RA10},	//(internal1_m906_RA10)  - последнее задание назад
-	{ 926	,1	,1	, &internal1_m906_MyFirstEnterFlag},	//(internal1_m906_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 920	,1	,1	, &internal1_m907_Pav0},	//(internal1_m907_Pav0)  - Пер.аварийный выключатель механизма
+	{ 921	,1	,1	, &internal1_m907_Zav0},	//(internal1_m907_Zav0)  - Зад.аварийный выключатель механизма
+	{ 922	,1	,1	, &internal1_m907_Pv0},	//(internal1_m907_Pv0)  - Пер. выключатель механизма
+	{ 923	,1	,1	, &internal1_m907_Zv0},	//(internal1_m907_Zv0)  - Зад. выключатель механизма
+	{ 924	,1	,1	, &internal1_m907_RA00},	//(internal1_m907_RA00)  - последнее задание вперед
+	{ 925	,1	,1	, &internal1_m907_RA10},	//(internal1_m907_RA10)  - последнее задание назад
+	{ 926	,1	,1	, &internal1_m907_MyFirstEnterFlag},	//(internal1_m907_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 927	,8	,1	, &internal1_m182_C1},	//(internal1_m182_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 	{ 928	,8	,1	, &internal1_m182_C2},	//(internal1_m182_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
 	{ 929	,8	,1	, &internal1_m182_C3},	//(internal1_m182_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
@@ -4745,35 +4745,35 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(596,-0.15912805);
 	setAsFloat(597,0.000000166);
 	setAsFloat(598,25.017338);
-	setAsFloat(599,0);
-	setAsFloat(600,0.000167646);
+	setAsFloat(599,100);
+	setAsFloat(600,100);
 	setAsFloat(601,0);
 	setAsFloat(602,0);
-	setAsFloat(603,0);
+	setAsFloat(603,100);
 	setAsFloat(604,0);
-	setAsFloat(605,0.000167646);
+	setAsFloat(605,100);
 	setAsFloat(606,0);
 	setAsFloat(607,0);
 	setAsFloat(608,0);
-	setAsFloat(609,0);
+	setAsFloat(609,100);
 	setAsFloat(610,0);
-	setAsFloat(611,0);
+	setAsFloat(611,100);
 	setAsFloat(612,0);
-	setAsFloat(613,0);
+	setAsFloat(613,100);
 	setAsFloat(614,0);
-	setAsFloat(615,0);
+	setAsFloat(615,100);
 	setAsFloat(616,0);
-	setAsFloat(617,0.000885839);
+	setAsFloat(617,0);
 	setAsFloat(618,0);
-	setAsFloat(619,0.000885839);
+	setAsFloat(619,0);
 	setAsFloat(620,0);
-	setAsFloat(621,0.000885839);
+	setAsFloat(621,0);
 	setAsFloat(622,0);
-	setAsFloat(623,0.000885839);
+	setAsFloat(623,0);
 	setAsFloat(624,0);
-	setAsFloat(625,390);
+	setAsFloat(625,1500);
 	setAsFloat(626,0);
-	setAsFloat(627,390);
+	setAsFloat(627,1500);
 	setAsFloat(628,0);
 	setAsFloat(629,55);
 	setAsFloat(630,0);
@@ -4898,6 +4898,7 @@ ssfloat fRM_0_1 = {0.1,0}; /* k - коэффициент усиления */
 ssint iRM_16_ = {16,0}; /* n - N-размерность массива входных параметров */ 
 ssfloat fRM_2000_ = {2000,0}; /* maxs1 - макc. значение второго сигнала */ 
 ssfloat fRM_15_ = {15,0}; /* m1 - величина отклонения второго сигнала от входного */ 
+ssint iRM_1_ = {1,0}; /* признак константа */ 
 
 uspaint8 SpaEEPROMBuf[1776];
 
@@ -5246,15 +5247,15 @@ char vainSText[] = "";
 
 /* Объявление массивов */
 psbool  array_m357_x_1[16] = {&lEM_R8AD10LC1,&lEM_R8AD10LC1,&var329,&var187,&var181,&var271,&var269,&var263,&var260,&var276,&var319,&var314,&var305,&var295,&var289,&R0MW13LP2};
-psbool  array_m920_x_1[2] = {&lEM_R0IE02LRP,&lEM_R0IE01LRP};
-psbool  array_m915_x_1[2] = {&var167,&R0MW13LP2};
-psbool  array_m940_x_1[2] = {&var174,&R0MW13LP2};
-psbool  array_m933_x_1[2] = {&var175,&R0MW13LP2};
-psbool  array_m925_x_1[2] = {&var176,&R0MW13LP2};
+psbool  array_m921_x_1[2] = {&lEM_R0IE02LRP,&lEM_R0IE01LRP};
+psbool  array_m916_x_1[2] = {&var167,&R0MW13LP2};
+psbool  array_m941_x_1[2] = {&var174,&R0MW13LP2};
+psbool  array_m934_x_1[2] = {&var175,&R0MW13LP2};
+psbool  array_m926_x_1[2] = {&var176,&R0MW13LP2};
 psbool  array_m634_x_1[2] = {&var32,&var228};
 psbool  array_m631_x_1[2] = {&var32,&var229};
 psbool  array_m640_x_1[3] = {&lEM_C1AD31LRP,&R0VZ71LZ1,&R0VZ71LZ2};
-psbool  array_m917_x_1[2] = {&var199,&R0MW13LP2};
+psbool  array_m918_x_1[2] = {&var199,&R0MW13LP2};
 psbool  array_m292_x_1[2] = {&var216,&B3AD31LDU};
 psbool  array_m257_x_1[3] = {&B2AD31LDU,&var202,&var216};
 psbool  array_m258_x_1[3] = {&B2AD32LDU,&var202,&var216};
@@ -5280,16 +5281,16 @@ psfloat  array_m60_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83R
 psfloat  array_m14_C0_1[6];
 
 /* Объявление структур */
-_S_to3val  S_to3val_969_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var1,&var2,&vainSFloat,&bFirstEnterFlag};
-_S_vchs  S_vchs_894_1 = {&var280,&var331,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var3,&internal1_m894_Chim0};
-_S_vchs  S_vchs_884_1 = {&var331,&var280,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m884_Chim0};
-_S_vchs  S_vchs_876_1 = {&var331,&var280,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&bRM_2_,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var5,&internal1_m876_Chim0};
-_S_twobool  S_twobool_831_1 = {&var278,&iEM_TERR4VS22LDU,&var6,&vainSBool,&internal1_m831_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_830_1 = {&var277,&iEM_TERR4VS12LDU,&var7,&vainSBool,&internal1_m830_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1014_1 = {&var254,&iEM_TERR2VS22LIM,&var8,&vainSBool,&internal1_m1014_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1013_1 = {&var253,&iEM_TERR2VS12LIM,&var9,&vainSBool,&internal1_m1013_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1012_1 = {&var258,&iEM_TERR1VS22LIM,&var10,&vainSBool,&internal1_m1012_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1011_1 = {&var257,&iEM_TERR1VS12LIM,&var11,&vainSBool,&internal1_m1011_Out10,&bFirstEnterFlag};
+_S_to3val  S_to3val_970_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var1,&var2,&vainSFloat,&bFirstEnterFlag};
+_S_vchs  S_vchs_895_1 = {&var280,&var331,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var3,&internal1_m895_Chim0};
+_S_vchs  S_vchs_885_1 = {&var331,&var280,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m885_Chim0};
+_S_vchs  S_vchs_877_1 = {&var331,&var280,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&bRM_2_,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var5,&internal1_m877_Chim0};
+_S_twobool  S_twobool_832_1 = {&var278,&iEM_TERR4VS22LDU,&var6,&vainSBool,&internal1_m832_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_831_1 = {&var277,&iEM_TERR4VS12LDU,&var7,&vainSBool,&internal1_m831_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1015_1 = {&var254,&iEM_TERR2VS22LIM,&var8,&vainSBool,&internal1_m1015_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1014_1 = {&var253,&iEM_TERR2VS12LIM,&var9,&vainSBool,&internal1_m1014_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1013_1 = {&var258,&iEM_TERR1VS22LIM,&var10,&vainSBool,&internal1_m1013_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1012_1 = {&var257,&iEM_TERR1VS12LIM,&var11,&vainSBool,&internal1_m1012_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_693_1 = {&var246,&iEM_TERB5VS22LIM,&var12,&vainSBool,&internal1_m693_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_692_1 = {&var245,&iEM_TERB5VS12LIM,&var13,&vainSBool,&internal1_m692_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_671_1 = {&var250,&iEM_TERA5VS22LIM,&var14,&vainSBool,&internal1_m671_Out10,&bFirstEnterFlag};
@@ -5312,58 +5313,58 @@ _S_rs  S_rs_475_1 = {&var26,&lEM_R3AD20LC1,&var30,&vainSBool,&internal1_m475_q0}
 _S_andn  S_andn_357_1 = {array_m357_x_1,&iRM_16_,&vainSBool};
 _S_zpfs  S_zpfs_644_1 = {&R0AD14LDU,&fEM_R7UI76RIM,&var31,&internal1_m644_tx,&internal1_m644_y0};
 _S_zpfs  S_zpfs_632_1 = {&R0AD16LDU,&fEM_R7UI77RIM,&var32,&internal1_m632_tx,&internal1_m632_y0};
-_S_bol  S_bol_955_1 = {&fEM_A4UP01RIM,&fEM_A4UP02RIM,&var33};
-_S_bol  S_bol_952_1 = {&fEM_A3UP01RIM,&fEM_A3UP02RIM,&var34};
-_S_bol  S_bol_931_1 = {&fEM_A0UP02RIM,&fEM_A0UP01RIM,&var35};
-_S_bol  S_bol_953_1 = {&fEM_A2UP02RIM,&fEM_A2UP03RIM,&var36};
-_S_bol  S_bol_943_1 = {&fEM_A1UP01RIM,&fEM_A1UP82RIM,&var37};
+_S_bol  S_bol_956_1 = {&fEM_A4UP01RIM,&fEM_A4UP02RIM,&var33};
+_S_bol  S_bol_953_1 = {&fEM_A3UP01RIM,&fEM_A3UP02RIM,&var34};
+_S_bol  S_bol_932_1 = {&fEM_A0UP02RIM,&fEM_A0UP01RIM,&var35};
+_S_bol  S_bol_954_1 = {&fEM_A2UP02RIM,&fEM_A2UP03RIM,&var36};
+_S_bol  S_bol_944_1 = {&fEM_A1UP01RIM,&fEM_A1UP82RIM,&var37};
 _S_ampl  S_ampl_374_1 = {&var218,&fRM_0_1,&vainSFloat};
-_S_or2  S_or2_944_1 = {&R0EE04LZ1,&R0EE04LZ2,&var38};
-_S_or2  S_or2_935_1 = {&R0EE03LZ1,&R0EE03LZ2,&var39};
-_S_or2  S_or2_928_1 = {&R0EE02LZ1,&R0EE02LZ2,&var40};
-_S_or2  S_or2_921_1 = {&R0EE01LZ1,&R0EE01LZ2,&var41};
+_S_or2  S_or2_945_1 = {&R0EE04LZ1,&R0EE04LZ2,&var38};
+_S_or2  S_or2_936_1 = {&R0EE03LZ1,&R0EE03LZ2,&var39};
+_S_or2  S_or2_929_1 = {&R0EE02LZ1,&R0EE02LZ2,&var40};
+_S_or2  S_or2_922_1 = {&R0EE01LZ1,&R0EE01LZ2,&var41};
 _S_zpfs  S_zpfs_618_1 = {&var186,&fRM_1_0,&var42,&internal1_m618_tx,&internal1_m618_y0};
 _S_zpfs  S_zpfs_616_1 = {&var189,&fRM_0_5,&var43,&internal1_m616_tx,&internal1_m616_y0};
 _S_twobool  S_twobool_208_1 = {&B1AD21LDU,&iEM_TERB1IE04LDU,&var44,&vainSBool,&internal1_m208_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_225_1 = {&B1AD11LDU,&iEM_TERB1IE03LDU,&var45,&vainSBool,&internal1_m225_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_41_1 = {&A1AD21LDU,&iEM_TERA1IE04LDU,&var46,&vainSBool,&internal1_m41_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_56_1 = {&A1AD11LDU,&iEM_TERA1IE03LDU,&var47,&vainSBool,&internal1_m56_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_985_1 = {&var322,&iEM_TERB1SS12LIM,&var48,&vainSBool,&internal1_m985_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_982_1 = {&var318,&iEM_TERB1SS11LIM,&var49,&vainSBool,&internal1_m982_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_981_1 = {&var319,&iEM_TERB1SS21LIM,&var50,&vainSBool,&internal1_m981_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_984_1 = {&var52,&fEM_A1UC03RDU,&fRM_0_,&iRM_0_,&var51,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m984_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_979_1 = {&var221,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB1MC01RIM,&var52,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_967_1 = {&var54,&fEM_A1UC03RDU,&fRM_0_,&iRM_0_,&var53,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m967_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_960_1 = {&var222,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA1SC01RIM,&var54,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_968_1 = {&var329,&iEM_TERA1SS12LIM,&var55,&vainSBool,&internal1_m968_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_965_1 = {&var326,&iEM_TERA1SS11LIM,&var56,&vainSBool,&internal1_m965_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_964_1 = {&var327,&iEM_TERA1SS21LIM,&var57,&vainSBool,&internal1_m964_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1052_1 = {&var260,&iEM_TERB6SS21LIM,&var58,&vainSBool,&internal1_m1052_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1033_1 = {&var259,&iEM_TERB6SS11LIM,&var59,&vainSBool,&internal1_m1033_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1032_1 = {&var264,&iEM_TERA6SS21LIM,&var60,&vainSBool,&internal1_m1032_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1031_1 = {&var263,&iEM_TERA6MS11LIM,&var61,&vainSBool,&internal1_m1031_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_852_1 = {&var269,&iEM_TERA8SS12LIM,&var62,&vainSBool,&internal1_m852_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_854_1 = {&var268,&iEM_TERA8SS22LIM,&var63,&vainSBool,&internal1_m854_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_851_1 = {&var272,&iEM_TERB8SS12LIM,&var64,&var65,&internal1_m851_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_853_1 = {&var271,&iEM_TERB8SS22LIM,&var66,&var67,&internal1_m853_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_827_1 = {&var273,&iEM_TERR4SS12LIM,&var68,&vainSBool,&internal1_m827_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_828_1 = {&var274,&iEM_TERR4SS22LIM,&var69,&vainSBool,&internal1_m828_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_826_1 = {&var276,&iEM_TERR4MS21LIM,&var70,&vainSBool,&internal1_m826_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_825_1 = {&var275,&iEM_TERR4SS11LIM,&var71,&vainSBool,&internal1_m825_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1047_1 = {&var33,&iEM_TERA4VP82LIM,&var72,&var73,&internal1_m1047_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_999_1 = {&var252,&iEM_TERR2SS21LIM,&var74,&vainSBool,&internal1_m999_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_998_1 = {&var251,&iEM_TERR2SS11LIM,&var75,&vainSBool,&internal1_m998_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_997_1 = {&var256,&iEM_TERR1SS21LIM,&var76,&vainSBool,&internal1_m997_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_996_1 = {&var255,&iEM_TERR1SS11LIM,&var77,&vainSBool,&internal1_m996_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1048_1 = {&var191,&iEM_TERB4SS21LIM,&var78,&vainSBool,&internal1_m1048_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1029_1 = {&var190,&iEM_TERB4SS11LIM,&var79,&vainSBool,&internal1_m1029_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_829_1 = {&lEM_R8AD10LC1,&iEM_TERR8SS11LIM,&var80,&vainSBool,&internal1_m829_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1030_1 = {&var188,&iEM_TERA4SS21LIM,&var81,&vainSBool,&internal1_m1030_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1028_1 = {&var187,&iEM_TERA4SS11LIM,&var82,&vainSBool,&internal1_m1028_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1049_1 = {&var183,&iEM_TERR5SS21LIM,&var83,&vainSBool,&internal1_m1049_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1027_1 = {&var182,&iEM_TERR5SS11LIM,&var84,&vainSBool,&internal1_m1027_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1010_1 = {&var185,&iEM_TERR3SS21LIM,&var85,&vainSBool,&internal1_m1010_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_995_1 = {&var184,&iEM_TERR3SS11LIM,&var86,&vainSBool,&internal1_m995_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_986_1 = {&var322,&iEM_TERB1SS12LIM,&var48,&vainSBool,&internal1_m986_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_983_1 = {&var318,&iEM_TERB1SS11LIM,&var49,&vainSBool,&internal1_m983_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_982_1 = {&var319,&iEM_TERB1SS21LIM,&var50,&vainSBool,&internal1_m982_Out10,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_985_1 = {&var52,&fEM_A1UC03RDU,&fRM_0_,&iRM_0_,&var51,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m985_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_980_1 = {&var221,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB1MC01RIM,&var52,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_968_1 = {&var54,&fEM_A1UC03RDU,&fRM_0_,&iRM_0_,&var53,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m968_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_961_1 = {&var222,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA1SC01RIM,&var54,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_969_1 = {&var329,&iEM_TERA1SS12LIM,&var55,&vainSBool,&internal1_m969_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_966_1 = {&var326,&iEM_TERA1SS11LIM,&var56,&vainSBool,&internal1_m966_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_965_1 = {&var327,&iEM_TERA1SS21LIM,&var57,&vainSBool,&internal1_m965_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1053_1 = {&var260,&iEM_TERB6SS21LIM,&var58,&vainSBool,&internal1_m1053_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1034_1 = {&var259,&iEM_TERB6SS11LIM,&var59,&vainSBool,&internal1_m1034_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1033_1 = {&var264,&iEM_TERA6SS21LIM,&var60,&vainSBool,&internal1_m1033_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1032_1 = {&var263,&iEM_TERA6MS11LIM,&var61,&vainSBool,&internal1_m1032_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_853_1 = {&var269,&iEM_TERA8SS12LIM,&var62,&vainSBool,&internal1_m853_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_855_1 = {&var268,&iEM_TERA8SS22LIM,&var63,&vainSBool,&internal1_m855_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_852_1 = {&var272,&iEM_TERB8SS12LIM,&var64,&var65,&internal1_m852_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_854_1 = {&var271,&iEM_TERB8SS22LIM,&var66,&var67,&internal1_m854_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_828_1 = {&var273,&iEM_TERR4SS12LIM,&var68,&vainSBool,&internal1_m828_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_829_1 = {&var274,&iEM_TERR4SS22LIM,&var69,&vainSBool,&internal1_m829_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_827_1 = {&var276,&iEM_TERR4MS21LIM,&var70,&vainSBool,&internal1_m827_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_826_1 = {&var275,&iEM_TERR4SS11LIM,&var71,&vainSBool,&internal1_m826_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1048_1 = {&var33,&iEM_TERA4VP82LIM,&var72,&var73,&internal1_m1048_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1000_1 = {&var252,&iEM_TERR2SS21LIM,&var74,&vainSBool,&internal1_m1000_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_999_1 = {&var251,&iEM_TERR2SS11LIM,&var75,&vainSBool,&internal1_m999_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_998_1 = {&var256,&iEM_TERR1SS21LIM,&var76,&vainSBool,&internal1_m998_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_997_1 = {&var255,&iEM_TERR1SS11LIM,&var77,&vainSBool,&internal1_m997_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1049_1 = {&var191,&iEM_TERB4SS21LIM,&var78,&vainSBool,&internal1_m1049_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1030_1 = {&var190,&iEM_TERB4SS11LIM,&var79,&vainSBool,&internal1_m1030_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_830_1 = {&lEM_R8AD10LC1,&iEM_TERR8SS11LIM,&var80,&vainSBool,&internal1_m830_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1031_1 = {&var188,&iEM_TERA4SS21LIM,&var81,&vainSBool,&internal1_m1031_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1029_1 = {&var187,&iEM_TERA4SS11LIM,&var82,&vainSBool,&internal1_m1029_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1050_1 = {&var183,&iEM_TERR5SS21LIM,&var83,&vainSBool,&internal1_m1050_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1028_1 = {&var182,&iEM_TERR5SS11LIM,&var84,&vainSBool,&internal1_m1028_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1011_1 = {&var185,&iEM_TERR3SS21LIM,&var85,&vainSBool,&internal1_m1011_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_996_1 = {&var184,&iEM_TERR3SS11LIM,&var86,&vainSBool,&internal1_m996_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_546_1 = {&var36,&iEM_TERA2VP82LIM,&var87,&var88,&internal1_m546_Out10,&bFirstEnterFlag};
 _S_toao  S_toao_550_1 = {&var92,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var89,&bFirstEnterFlag};
 _S_toao  S_toao_549_1 = {&var91,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var90,&bFirstEnterFlag};
@@ -5373,10 +5374,10 @@ _S_to3val  S_to3val_415_1 = {&var220,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,
 _S_twobool  S_twobool_412_1 = {&var307,&iEM_TERB2SS12LIM,&var95,&vainSBool,&internal1_m412_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_414_1 = {&var302,&iEM_TERB2SS11LIM,&var96,&vainSBool,&internal1_m414_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_413_1 = {&var303,&iEM_TERB2SS21LIM,&var97,&vainSBool,&internal1_m413_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_867_1 = {&var197,&iEM_TERB9SS21LIM,&var98,&vainSBool,&internal1_m867_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_868_1 = {&var196,&iEM_TERB9SS11LIM,&var99,&vainSBool,&internal1_m868_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_866_1 = {&var194,&iEM_TERA9SS21LIM,&var100,&vainSBool,&internal1_m866_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_1051_1 = {&var193,&iEM_TERA9SS11LIM,&var101,&vainSBool,&internal1_m1051_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_868_1 = {&var197,&iEM_TERB9SS21LIM,&var98,&vainSBool,&internal1_m868_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_869_1 = {&var196,&iEM_TERB9SS11LIM,&var99,&vainSBool,&internal1_m869_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_867_1 = {&var194,&iEM_TERA9SS21LIM,&var100,&vainSBool,&internal1_m867_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1052_1 = {&var193,&iEM_TERA9SS11LIM,&var101,&vainSBool,&internal1_m1052_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_706_1 = {&var244,&iEM_TERB5SS21LIM,&var102,&vainSBool,&internal1_m706_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_707_1 = {&var243,&iEM_TERB5SS11LIM,&var103,&vainSBool,&internal1_m707_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_704_1 = {&var248,&iEM_TERA5SS21LIM,&var104,&vainSBool,&internal1_m704_Out10,&bFirstEnterFlag};
@@ -5385,10 +5386,10 @@ _S_ampl  S_ampl_657_1 = {&var226,&fEM_R7UI75RIM,&var106};
 _S_to3val  S_to3val_658_1 = {&var106,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R7UI74RIM,&fEM_R7UI74RIM,&iEM_TERR7SI74RIM,&vainSFloat,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_562_1 = {&var35,&iEM_TERB0VP81LIM,&var107,&vainSBool,&internal1_m562_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_561_1 = {&var35,&iEM_TERA0VP81LIM,&var108,&vainSBool,&internal1_m561_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_848_1 = {&var110,&fEM_A8UC03RDU,&fRM_0_,&iRM_0_,&var109,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m848_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_840_1 = {&var270,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB8SC01RIM,&var110,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_850_1 = {&var112,&fEM_A8UC03RDU,&fRM_0_,&iRM_0_,&var111,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m850_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_842_1 = {&var267,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA8SC01RIM,&var112,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_849_1 = {&var110,&fEM_A8UC03RDU,&fRM_0_,&iRM_0_,&var109,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m849_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_841_1 = {&var270,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB8SC01RIM,&var110,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_851_1 = {&var112,&fEM_A8UC03RDU,&fRM_0_,&iRM_0_,&var111,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m851_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_843_1 = {&var267,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA8SC01RIM,&var112,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_703_1 = {&R0MW13LP2,&iEM_TERR6IS68LIM,&var113,&vainSBool,&internal1_m703_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_687_1 = {&R0MW13LP2,&iEM_TERR6IS67LIM,&var114,&vainSBool,&internal1_m687_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_667_1 = {&R0MW13LP2,&iEM_TERR6IS66LIM,&var115,&vainSBool,&internal1_m667_Out10,&bFirstEnterFlag};
@@ -5428,26 +5429,26 @@ _S_toao  S_toao_161_1 = {&var154,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_1
 _S_to3val  S_to3val_156_1 = {&var282,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERB0MT01RIM,&var154,&var155,&var156,&bFirstEnterFlag};
 _S_toao  S_toao_166_1 = {&var164,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var157,&bFirstEnterFlag};
 _S_toao  S_toao_165_1 = {&var163,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var158,&bFirstEnterFlag};
-_S_twobool  S_twobool_1050_1 = {&var181,&iEM_TERR6SS21LIM,&var159,&vainSBool,&internal1_m1050_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_1051_1 = {&var181,&iEM_TERR6SS21LIM,&var159,&vainSBool,&internal1_m1051_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_150_1 = {&var283,&iEM_TERB7MS31LIM,&var160,&vainSBool,&internal1_m150_Out10,&bFirstEnterFlag};
 _S_toao  S_toao_164_1 = {&var162,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_719_,&iRM_4195_,&fRM_1_,&var161,&bFirstEnterFlag};
 _S_to3val  S_to3val_158_1 = {&var333,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERA0MT01RIM,&var162,&var163,&var164,&bFirstEnterFlag};
 _S_twobool  S_twobool_149_1 = {&var334,&iEM_TERA7MS31LIM,&var165,&vainSBool,&internal1_m149_Out10,&bFirstEnterFlag};
-_S_orn  S_orn_920_1 = {array_m920_x_1,&iRM_2_,&var166};
-_S_andn  S_andn_915_1 = {array_m915_x_1,&iRM_2_,&vainSBool};
-_S_noto  S_noto_919_1 = {&var166,&var167};
+_S_orn  S_orn_921_1 = {array_m921_x_1,&iRM_2_,&var166};
+_S_andn  S_andn_916_1 = {array_m916_x_1,&iRM_2_,&vainSBool};
+_S_noto  S_noto_920_1 = {&var166,&var167};
 _S_noto  S_noto_515_1 = {&B3AD34LDU,&var168};
 _S_lk  S_lk_519_1 = {&fEM_A3UP02RDU,&var168,&var169};
 _S_noto  S_noto_513_1 = {&A3AD34LDU,&var170};
 _S_lk  S_lk_518_1 = {&fEM_A3UP02RDU,&var170,&var171};
 _S_ovb1  S_ovb1_197_1 = {&R8AD21LDU,&iRM_500_,&var172,&internal1_m197_tx};
 _S_ovb1  S_ovb1_30_1 = {&R8AD21LDU,&iRM_500_,&var173,&internal1_m30_tx};
-_S_andn  S_andn_940_1 = {array_m940_x_1,&iRM_2_,&vainSBool};
-_S_noto  S_noto_945_1 = {&var38,&var174};
-_S_andn  S_andn_933_1 = {array_m933_x_1,&iRM_2_,&vainSBool};
-_S_noto  S_noto_936_1 = {&var39,&var175};
-_S_andn  S_andn_925_1 = {array_m925_x_1,&iRM_2_,&vainSBool};
-_S_noto  S_noto_929_1 = {&var40,&var176};
+_S_andn  S_andn_941_1 = {array_m941_x_1,&iRM_2_,&vainSBool};
+_S_noto  S_noto_946_1 = {&var38,&var174};
+_S_andn  S_andn_934_1 = {array_m934_x_1,&iRM_2_,&vainSBool};
+_S_noto  S_noto_937_1 = {&var39,&var175};
+_S_andn  S_andn_926_1 = {array_m926_x_1,&iRM_2_,&vainSBool};
+_S_noto  S_noto_930_1 = {&var40,&var176};
 _S_orn  S_orn_634_1 = {array_m634_x_1,&iRM_2_,&var177};
 _S_orn  S_orn_631_1 = {array_m631_x_1,&iRM_2_,&var178};
 _S_react  S_react_200_1 = {&var284,&var179};
@@ -5456,7 +5457,7 @@ _S_asmot  S_asmot_478_1 = {&var180,&lEM_R6AD10LC1,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_
 _S_asmot  S_asmot_492_1 = {&var27,&var28,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R5UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R5UC01RSP,&fEM_R5UV01RSP,&vainSFloat,&var182,&var183,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m492_Pav0,&internal1_m492_Zav0,&internal1_m492_Pv0,&internal1_m492_Zv0,&internal1_m492_RA00,&internal1_m492_RA10,&internal1_m492_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_480_1 = {&var29,&var30,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R3UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R3UC01RSP,&fEM_R3UV01RSP,&vainSFloat,&var184,&var185,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m480_Pav0,&internal1_m480_Zav0,&internal1_m480_Pv0,&internal1_m480_Zv0,&internal1_m480_RA00,&internal1_m480_RA10,&internal1_m480_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_617_1 = {&A4AD10LDU,&var186};
-_S_asmot  S_asmot_623_1 = {&var186,&A4AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A4UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A4MC01RSP,&fEM_A4MV01RSP,&vainSFloat,&var187,&var188,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m623_Pav0,&internal1_m623_Zav0,&internal1_m623_Pv0,&internal1_m623_Zv0,&internal1_m623_RA00,&internal1_m623_RA10,&internal1_m623_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_621_1 = {&var186,&A4AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A4UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A4MC01RSP,&fEM_A4MV01RSP,&vainSFloat,&var187,&var188,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m621_Pav0,&internal1_m621_Zav0,&internal1_m621_Pv0,&internal1_m621_Zv0,&internal1_m621_RA00,&internal1_m621_RA10,&internal1_m621_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_615_1 = {&B4AD10LDU,&var189};
 _S_asmot  S_asmot_620_1 = {&var189,&B4AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_A4UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_B4MC01RSP,&fEM_B4MV01RSP,&vainSFloat,&var190,&var191,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m620_Pav0,&internal1_m620_Zav0,&internal1_m620_Pv0,&internal1_m620_Zv0,&internal1_m620_RA00,&internal1_m620_RA10,&internal1_m620_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_604_1 = {&A9AD10LDU,&var192};
@@ -5464,8 +5465,8 @@ _S_asmot  S_asmot_606_1 = {&var192,&A9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,
 _S_noto  S_noto_603_1 = {&B9AD10LDU,&var195};
 _S_asmot  S_asmot_605_1 = {&var195,&B9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_A9UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_B9MC01RSP,&fEM_B9MV01RSP,&vainSFloat,&var196,&var197,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m605_Pav0,&internal1_m605_Zav0,&internal1_m605_Pv0,&internal1_m605_Zv0,&internal1_m605_RA00,&internal1_m605_RA10,&internal1_m605_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orn  S_orn_640_1 = {array_m640_x_1,&iRM_3_,&var198};
-_S_andn  S_andn_917_1 = {array_m917_x_1,&iRM_2_,&vainSBool};
-_S_noto  S_noto_922_1 = {&var41,&var199};
+_S_andn  S_andn_918_1 = {array_m918_x_1,&iRM_2_,&vainSBool};
+_S_noto  S_noto_923_1 = {&var41,&var199};
 _S_andn  S_andn_292_1 = {array_m292_x_1,&iRM_2_,&var200};
 _S_andn  S_andn_257_1 = {array_m257_x_1,&iRM_3_,&var201};
 _S_noto  S_noto_256_1 = {&C2MD31LP1,&var202};
@@ -5496,18 +5497,18 @@ _S_mod1  S_mod1_652_1 = {&var285,&fEM_R7UI02RIM,&fEM_R7UL01RIM,&var226,&internal
 _S_bol  S_bol_646_1 = {&var285,&fEM_R7UI73RIM,&var227};
 _S_bol  S_bol_636_1 = {&var285,&fEM_R7UI72RIM,&var228};
 _S_bol  S_bol_630_1 = {&var285,&fEM_R7UI71RIM,&var229};
-_S_vchs  S_vchs_813_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX12RSS,&fEM_R7UY12RSS,&bRM_5_,&fEM_A0UX12RSS,&fEM_B0UX12RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var230,&internal1_m813_Chim0};
-_S_vchs  S_vchs_804_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX11RSS,&fEM_R7UY11RSS,&bRM_4_,&fEM_A0UX11RSS,&fEM_B0UX11RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var231,&internal1_m804_Chim0};
-_S_vchs  S_vchs_796_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX10RSS,&fEM_R7UY10RSS,&bRM_1_,&fEM_A0UX10RSS,&fEM_B0UX10RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var232,&internal1_m796_Chim0};
-_S_vchs  S_vchs_787_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_5_,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var233,&internal1_m787_Chim0};
-_S_vchs  S_vchs_778_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&bRM_4_,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var234,&internal1_m778_Chim0};
-_S_vchs  S_vchs_770_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&bRM_1_,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var235,&internal1_m770_Chim0};
-_S_vchs  S_vchs_761_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_5_,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var236,&internal1_m761_Chim0};
-_S_vchs  S_vchs_752_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&bRM_4_,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var237,&internal1_m752_Chim0};
-_S_vchs  S_vchs_744_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&bRM_2_,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var238,&internal1_m744_Chim0};
-_S_vchs  S_vchs_735_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UC10RIM,&fEM_R7UC19RIM,&bRM_5_,&fEM_A0UX03RSS,&fEM_B0UX03RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var239,&internal1_m735_Chim0};
-_S_vchs  S_vchs_726_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX02RSS,&fEM_R7UY02RSS,&bRM_4_,&fEM_A0UX02RSS,&fEM_B0UX02RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var240,&internal1_m726_Chim0};
-_S_fsumo  S_fsumo_911_1 = {&fEM_R4UC10RIM,&fEM_R4UC22RIM,&var241};
+_S_vchs  S_vchs_814_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX12RSS,&fEM_R7UY12RSS,&bRM_5_,&fEM_A0UX12RSS,&fEM_B0UX12RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var230,&internal1_m814_Chim0};
+_S_vchs  S_vchs_805_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX11RSS,&fEM_R7UY11RSS,&bRM_4_,&fEM_A0UX11RSS,&fEM_B0UX11RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var231,&internal1_m805_Chim0};
+_S_vchs  S_vchs_797_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX10RSS,&fEM_R7UY10RSS,&bRM_1_,&fEM_A0UX10RSS,&fEM_B0UX10RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var232,&internal1_m797_Chim0};
+_S_vchs  S_vchs_788_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_5_,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var233,&internal1_m788_Chim0};
+_S_vchs  S_vchs_779_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&bRM_4_,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var234,&internal1_m779_Chim0};
+_S_vchs  S_vchs_771_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&bRM_1_,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var235,&internal1_m771_Chim0};
+_S_vchs  S_vchs_762_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_5_,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var236,&internal1_m762_Chim0};
+_S_vchs  S_vchs_753_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&bRM_4_,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var237,&internal1_m753_Chim0};
+_S_vchs  S_vchs_745_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&bRM_2_,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var238,&internal1_m745_Chim0};
+_S_vchs  S_vchs_736_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UC10RIM,&fEM_R7UC19RIM,&bRM_5_,&fEM_A0UX03RSS,&fEM_B0UX03RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var239,&internal1_m736_Chim0};
+_S_vchs  S_vchs_727_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX02RSS,&fEM_R7UY02RSS,&bRM_4_,&fEM_A0UX02RSS,&fEM_B0UX02RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var240,&internal1_m727_Chim0};
+_S_fsumo  S_fsumo_912_1 = {&fEM_R4UC10RIM,&fEM_R4UC22RIM,&var241};
 _S_vchs  S_vchs_718_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX01RSS,&fEM_R7UY01RSS,&bRM_2_,&fEM_A0UX01RSS,&fEM_B0UX01RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var242,&internal1_m718_Chim0};
 _S_asmot  S_asmot_592_1 = {&B5AD10LDU,&B5AD20LDU,&fEM_B5MC01RC1,&fEM_B5MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERNL2,&fEM_A5UC10RIM,&fRM_0_0,&fRM_1500_0,&fRM_n50_,&fRM_0_10,&fEM_B5MC01RSP,&fEM_B5MV01RSP,&vainSFloat,&var243,&var244,&vainSBool,&vainSBool,&vainSFloat,&var245,&var246,&internal1_m592_Pav0,&internal1_m592_Zav0,&internal1_m592_Pv0,&internal1_m592_Zv0,&internal1_m592_RA00,&internal1_m592_RA10,&internal1_m592_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_577_1 = {&A5AD10LDU,&A5AD20LDU,&fEM_A5MC01RC1,&fEM_A5MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERNL1,&fEM_A5UC10RIM,&fRM_0_0,&fRM_1500_0,&fRM_n50_,&fRM_0_10,&fEM_A5MC01RSP,&fEM_A5MV01RSP,&vainSFloat,&var247,&var248,&vainSBool,&vainSBool,&vainSFloat,&var249,&var250,&internal1_m577_Pav0,&internal1_m577_Zav0,&internal1_m577_Pv0,&internal1_m577_Zv0,&internal1_m577_RA00,&internal1_m577_RA10,&internal1_m577_MyFirstEnterFlag,&bFirstEnterFlag};
@@ -5517,7 +5518,7 @@ _S_asmot  S_asmot_504_1 = {&B6AD10LDU,&B6AD20LDU,&fEM_B6MC01RC1,&fEM_B6MV01RC1,&
 _S_asmot  S_asmot_399_1 = {&A6AD10LDU,&A6AD20LDU,&fEM_A6MC01RC1,&fEM_A6MV01RC1,&fRM_1_0,&fEM_A6US80RDU,&iEM_TERBZ1,&fEM_A6UC10RIM,&fRM_0_0,&fRM_180_0,&fRM_n50_,&fRM_0_10,&fEM_A6MC01RSP,&fEM_A6MV01RSP,&vainSFloat,&var263,&var264,&vainSBool,&vainSBool,&vainSFloat,&var265,&var266,&internal1_m399_Pav0,&internal1_m399_Zav0,&internal1_m399_Pv0,&internal1_m399_Zv0,&internal1_m399_RA00,&internal1_m399_RA10,&internal1_m399_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_383_1 = {&A8AD20LDU,&A8AD10LDU,&fEM_A8MC01RC1,&fEM_A8MV01RC1,&fEM_A8UV80RDU,&fEM_A8US80RDU,&iEM_TERDS2,&fEM_A8UC10RIM,&fEM_A8UC20RIM,&fEM_A8UC11RIM,&fEM_A8UC21RIM,&fEM_A8UC08RDU,&fEM_A8MC01RSP,&fEM_A8MV01RSP,&var267,&var268,&var269,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m383_Pav0,&internal1_m383_Zav0,&internal1_m383_Pv0,&internal1_m383_Zv0,&internal1_m383_RA00,&internal1_m383_RA10,&internal1_m383_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_366_1 = {&B8AD20LDU,&B8AD10LDU,&fEM_B8MC01RC1,&fEM_B8MV01RC1,&fEM_B8UV80RDU,&fEM_B8US80RDU,&iEM_TERMAZ2,&fEM_B8UC10RIM,&fEM_B8UC20RIM,&fEM_B8UC11RIM,&fEM_B8UC21RIM,&fEM_B8UC08RDU,&fEM_B8MC01RSP,&fEM_B8MV01RSP,&var270,&var271,&var272,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m366_Pav0,&internal1_m366_Zav0,&internal1_m366_Pv0,&internal1_m366_Zv0,&internal1_m366_RA00,&internal1_m366_RA10,&internal1_m366_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_906_1 = {&R4AD10LDU,&R4AD20LDU,&fEM_R4MC01RC1,&fEM_R4MV01RC1,&fEM_R4UV80RDU,&fEM_R4US80RDU,&iEM_TERTLG,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC08RDU,&fEM_R4MC01RSP,&fEM_R4MV01RSP,&vainSFloat,&var273,&var274,&var275,&var276,&vainSFloat,&var277,&var278,&internal1_m906_Pav0,&internal1_m906_Zav0,&internal1_m906_Pv0,&internal1_m906_Zv0,&internal1_m906_RA00,&internal1_m906_RA10,&internal1_m906_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_907_1 = {&R4AD10LDU,&R4AD20LDU,&fEM_R4MC01RC1,&fEM_R4MV01RC1,&fEM_R4UV80RDU,&fEM_R4US80RDU,&iEM_TERTLG,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC08RDU,&fEM_R4MC01RSP,&fEM_R4MV01RSP,&vainSFloat,&var273,&var274,&var275,&var276,&vainSFloat,&var277,&var278,&internal1_m907_Pav0,&internal1_m907_Zav0,&internal1_m907_Pv0,&internal1_m907_Zv0,&internal1_m907_RA00,&internal1_m907_RA10,&internal1_m907_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_azbars  S_azbars_182_1 = {&var316,&var300,&var286,&var330,&fEM_R0UR30RIM,&B7AP31LDU,&var190,&lEM_R8AD10LC1,&var172,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_B0UT03RSP,&var279,&var280,&var281,&var282,&var283,&var284,&var285,&internal1_m182_C1,&internal1_m182_C2,&internal1_m182_C3,&internal1_m182_C4,&internal1_m182_C5,&internal1_m182_C6,&internal1_m182_N20,array_m182_C0_1,&internal1_m182_ImpINI0,&internal1_m182_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_300_1 = {&B3AD11LDU,&B3AD21LDU,&B3AD02LDU,&B3AD01LDU,&B3AD03LDU,&B3AD04LDU,&B3AD05LDU,&var200,&B3AD33LDU,&lRM_1_,&fEM_B3MC01RC1,&fEM_B3MC02RC1,&fEM_B3MV01RC1,&fEM_B3MV02RC1,&lRM_0_,array_m300_Vr_1,&fEM_A3UC02RDU,&var169,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS2,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_B3MC01RSP,&fEM_B3MC02RSP,&fEM_B3MV01RSP,&fEM_B3MV02RSP,&var286,&var287,&var288,&var289,&var290,&vainSFloat,&vainSFloat,&var291,&var292,&vainSBool,&vainSBool,&internal1_m300_Ppv0,&internal1_m300_Pav0,&internal1_m300_Zav0,&internal1_m300_RA00,&internal1_m300_RA10,&internal1_m300_RA50,&internal1_m300_fls,&internal1_m300_flp,&internal1_m300_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_133_1 = {&A3AD11LDU,&A3AD21LDU,&A3AD02LDU,&A3AD01LDU,&A3AD03LDU,&A3AD04LDU,&A3AD05LDU,&var208,&A3AD33LDU,&lRM_1_,&fEM_A3MC01RC1,&fEM_A3MC02RC1,&fEM_A3MV01RC1,&fEM_A3MV02RC1,&lRM_0_,array_m133_Vr_1,&fEM_A3UC02RDU,&var171,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS1,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_A3MC01RSP,&fEM_A3MC02RSP,&fEM_A3MV01RSP,&fEM_A3MV02RSP,&var293,&var294,&var295,&var296,&var297,&vainSFloat,&vainSFloat,&var298,&var299,&vainSBool,&vainSBool,&internal1_m133_Ppv0,&internal1_m133_Pav0,&internal1_m133_Zav0,&internal1_m133_RA00,&internal1_m133_RA10,&internal1_m133_RA50,&internal1_m133_fls,&internal1_m133_flp,&internal1_m133_MyFirstEnterFlag,&bFirstEnterFlag};
@@ -5527,421 +5528,432 @@ _S_orrsim  S_orrsim_229_1 = {&B1AD11LDU,&B1AD21LDU,&B1AD02LDU,&B1AD01LDU,&B1AD03
 _S_orrsim  S_orrsim_60_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03LDU,&A1AD04LDU,&A1AD05LDU,&var212,&lRM_1_,&var211,&fEM_A1MC01RC1,&fEM_A1MC02RC1,&fEM_A1MV01RC1,&fEM_A1MV02RC1,&lRM_1_,array_m60_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB1,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_A1MC01RSP,&fEM_A1MC02RSP,&fEM_A1MV01RSP,&fEM_A1MV02RSP,&var323,&var324,&var325,&var326,&var327,&vainSFloat,&vainSFloat,&vainSBool,&vainSBool,&var328,&var329,&internal1_m60_Ppv0,&internal1_m60_Pav0,&internal1_m60_Zav0,&internal1_m60_RA00,&internal1_m60_RA10,&internal1_m60_RA50,&internal1_m60_fls,&internal1_m60_flp,&internal1_m60_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_azbars  S_azbars_14_1 = {&var323,&var308,&var293,&var279,&fEM_R0UR30RIM,&A7AP31LDU,&var187,&lEM_R8AD10LC1,&var173,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_A0UT03RSP,&var330,&var331,&var332,&var333,&var334,&var335,&vainSFloat,&internal1_m14_C1,&internal1_m14_C2,&internal1_m14_C3,&internal1_m14_C4,&internal1_m14_C5,&internal1_m14_C6,&internal1_m14_N20,array_m14_C0_1,&internal1_m14_ImpINI0,&internal1_m14_MyFirstEnterFlag,&bFirstEnterFlag};
 
-
-void Scheme()
-{
-if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  noto(&S_noto_86_1);
-  noto(&S_noto_256_1);
-  noto(&S_noto_603_1);
-  noto(&S_noto_604_1);
-  ovb1(&S_ovb1_30_1);
-  ovb1(&S_ovb1_197_1);
-  noto(&S_noto_515_1);
-  bol(&S_bol_943_1);
-  bol(&S_bol_953_1);
-  bol(&S_bol_931_1);
-  bol(&S_bol_952_1);
-  bol(&S_bol_955_1);
-  zpfs(&S_zpfs_632_1);
-  zpfs(&S_zpfs_644_1);
-  noto(&S_noto_481_1);
-  noto(&S_noto_479_1);
-  noto(&S_noto_491_1);
-  noto(&S_noto_490_1);
-  to3val(&S_to3val_969_1);
-  asmot(&S_asmot_906_1);
-  asmot(&S_asmot_366_1);
-  asmot(&S_asmot_383_1);
-  asmot(&S_asmot_399_1);
-  asmot(&S_asmot_504_1);
-  asmot(&S_asmot_448_1);
-  asmot(&S_asmot_463_1);
-  asmot(&S_asmot_577_1);
-  asmot(&S_asmot_592_1);
-  fsumo(&S_fsumo_911_1);
-  inf(&S_inf_9_1);
-  inf(&S_inf_7_1);
-  fsubo(&S_fsubo_8_1);
-  fsubo(&S_fsubo_373_1);
-  noto(&S_noto_45_1);
-  noto(&S_noto_46_1);
-  noto(&S_noto_215_1);
-  noto(&S_noto_216_1);
-  orn(&S_orn_640_1);
-  asmot(&S_asmot_605_1);
-  asmot(&S_asmot_606_1);
-  noto(&S_noto_615_1);
-  noto(&S_noto_617_1);
-  noto(&S_noto_476_1);
-  noto(&S_noto_513_1);
-  lk(&S_lk_519_1);
-  orn(&S_orn_920_1);
-  to3val(&S_to3val_542_1);
-  toao(&S_toao_547_1);
-  toao(&S_toao_548_1);
-  to3val(&S_to3val_520_1);
-  toao(&S_toao_527_1);
-  twobool(&S_twobool_563_1);
-  twobool(&S_twobool_666_1);
-  twobool(&S_twobool_686_1);
-  twobool(&S_twobool_667_1);
-  twobool(&S_twobool_687_1);
-  twobool(&S_twobool_703_1);
-  to3val(&S_to3val_842_1);
-  ktoenc(&S_ktoenc_850_1);
-  to3val(&S_to3val_840_1);
-  ktoenc(&S_ktoenc_848_1);
-  twobool(&S_twobool_561_1);
-  twobool(&S_twobool_562_1);
-  twobool(&S_twobool_705_1);
-  twobool(&S_twobool_704_1);
-  twobool(&S_twobool_707_1);
-  twobool(&S_twobool_706_1);
-  twobool(&S_twobool_1051_1);
-  twobool(&S_twobool_866_1);
-  twobool(&S_twobool_868_1);
-  twobool(&S_twobool_867_1);
-  to3val(&S_to3val_543_1);
-  toao(&S_toao_549_1);
-  toao(&S_toao_550_1);
-  twobool(&S_twobool_546_1);
-  twobool(&S_twobool_995_1);
-  twobool(&S_twobool_1010_1);
-  twobool(&S_twobool_1027_1);
-  twobool(&S_twobool_1049_1);
-  twobool(&S_twobool_829_1);
-  twobool(&S_twobool_996_1);
-  twobool(&S_twobool_997_1);
-  twobool(&S_twobool_998_1);
-  twobool(&S_twobool_999_1);
-  twobool(&S_twobool_1047_1);
-  twobool(&S_twobool_825_1);
-  twobool(&S_twobool_826_1);
-  twobool(&S_twobool_828_1);
-  twobool(&S_twobool_827_1);
-  twobool(&S_twobool_853_1);
-  twobool(&S_twobool_851_1);
-  twobool(&S_twobool_854_1);
-  twobool(&S_twobool_852_1);
-  twobool(&S_twobool_1031_1);
-  twobool(&S_twobool_1032_1);
-  twobool(&S_twobool_1033_1);
-  twobool(&S_twobool_1052_1);
-  twobool(&S_twobool_56_1);
-  twobool(&S_twobool_41_1);
-  twobool(&S_twobool_225_1);
-  twobool(&S_twobool_208_1);
-  zpfs(&S_zpfs_616_1);
-  zpfs(&S_zpfs_618_1);
-  or2(&S_or2_921_1);
-  or2(&S_or2_928_1);
-  or2(&S_or2_935_1);
-  or2(&S_or2_944_1);
-  ampl(&S_ampl_374_1);
-  rs(&S_rs_475_1);
-  rs(&S_rs_474_1);
-  rs(&S_rs_489_1);
-  rs(&S_rs_488_1);
-  twobool(&S_twobool_545_1);
-  twobool(&S_twobool_529_1);
-  twobool(&S_twobool_668_1);
-  twobool(&S_twobool_669_1);
-  twobool(&S_twobool_690_1);
-  twobool(&S_twobool_691_1);
-  twobool(&S_twobool_670_1);
-  twobool(&S_twobool_671_1);
-  twobool(&S_twobool_692_1);
-  twobool(&S_twobool_693_1);
-  twobool(&S_twobool_1011_1);
-  twobool(&S_twobool_1012_1);
-  twobool(&S_twobool_1013_1);
-  twobool(&S_twobool_1014_1);
-  twobool(&S_twobool_830_1);
-  twobool(&S_twobool_831_1);
-  noto(&S_noto_639_1);
-  andn(&S_andn_88_1);
-  andn(&S_andn_87_1);
-  andn(&S_andn_47_1);
-  andn(&S_andn_48_1);
-  andn(&S_andn_121_1);
-  andn(&S_andn_217_1);
-  andn(&S_andn_218_1);
-  andn(&S_andn_258_1);
-  andn(&S_andn_257_1);
-  andn(&S_andn_292_1);
-  noto(&S_noto_922_1);
-  andn(&S_andn_917_1);
-  asmot(&S_asmot_620_1);
-  asmot(&S_asmot_623_1);
-  asmot(&S_asmot_480_1);
-  asmot(&S_asmot_492_1);
-  asmot(&S_asmot_478_1);
-  noto(&S_noto_929_1);
-  andn(&S_andn_925_1);
-  noto(&S_noto_936_1);
-  andn(&S_andn_933_1);
-  noto(&S_noto_945_1);
-  andn(&S_andn_940_1);
-  lk(&S_lk_518_1);
-  noto(&S_noto_919_1);
-  andn(&S_andn_915_1);
-  twobool(&S_twobool_1050_1);
-  to3val(&S_to3val_517_1);
-  toao(&S_toao_523_1);
-  twobool(&S_twobool_1028_1);
-  twobool(&S_twobool_1030_1);
-  twobool(&S_twobool_1029_1);
-  twobool(&S_twobool_1048_1);
-  orrsim(&S_orrsim_60_1);
-  orrsim(&S_orrsim_229_1);
-  orrsim(&S_orrsim_96_1);
-  orrsim(&S_orrsim_266_1);
-  orrsim(&S_orrsim_133_1);
-  orrsim(&S_orrsim_300_1);
-  azbars(&S_azbars_182_1);
-  bol(&S_bol_630_1);
-  bol(&S_bol_636_1);
-  bol(&S_bol_646_1);
-  mod1(&S_mod1_652_1);
-  fsubo(&S_fsubo_74_1);
-  fsubo(&S_fsubo_244_1);
-  fsubo(&S_fsubo_285_1);
-  fsubo(&S_fsubo_115_1);
-  orn(&S_orn_647_1);
-  react(&S_react_200_1);
-  orn(&S_orn_631_1);
-  orn(&S_orn_634_1);
-  twobool(&S_twobool_150_1);
-  to3val(&S_to3val_156_1);
-  toao(&S_toao_161_1);
-  toao(&S_toao_162_1);
-  toao(&S_toao_163_1);
-  twobool(&S_twobool_430_1);
-  twobool(&S_twobool_431_1);
-  twobool(&S_twobool_432_1);
-  to3val(&S_to3val_429_1);
-  ktoenc(&S_ktoenc_434_1);
-  twobool(&S_twobool_433_1);
-  twobool(&S_twobool_337_1);
-  twobool(&S_twobool_321_1);
-  twobool(&S_twobool_350_1);
-  to3val(&S_to3val_325_1);
-  ktoenc(&S_ktoenc_329_1);
-  twobool(&S_twobool_349_1);
-  twobool(&S_twobool_351_1);
-  to3val(&S_to3val_335_1);
-  ktoenc(&S_ktoenc_336_1);
-  twobool(&S_twobool_352_1);
-  twobool(&S_twobool_322_1);
-  twobool(&S_twobool_323_1);
-  twobool(&S_twobool_338_1);
-  twobool(&S_twobool_339_1);
-  ampl(&S_ampl_657_1);
-  twobool(&S_twobool_413_1);
-  twobool(&S_twobool_414_1);
-  twobool(&S_twobool_412_1);
-  to3val(&S_to3val_415_1);
-  ktoenc(&S_ktoenc_421_1);
-  twobool(&S_twobool_964_1);
-  twobool(&S_twobool_965_1);
-  twobool(&S_twobool_968_1);
-  to3val(&S_to3val_960_1);
-  ktoenc(&S_ktoenc_967_1);
-  to3val(&S_to3val_979_1);
-  ktoenc(&S_ktoenc_984_1);
-  twobool(&S_twobool_981_1);
-  twobool(&S_twobool_982_1);
-  twobool(&S_twobool_985_1);
-  andn(&S_andn_357_1);
-  twobool(&S_twobool_411_1);
-  azbars(&S_azbars_14_1);
-  vchs(&S_vchs_718_1);
-  vchs(&S_vchs_726_1);
-  vchs(&S_vchs_735_1);
-  vchs(&S_vchs_744_1);
-  vchs(&S_vchs_752_1);
-  vchs(&S_vchs_761_1);
-  vchs(&S_vchs_770_1);
-  vchs(&S_vchs_778_1);
-  vchs(&S_vchs_787_1);
-  vchs(&S_vchs_796_1);
-  vchs(&S_vchs_804_1);
-  vchs(&S_vchs_813_1);
-  twobool(&S_twobool_149_1);
-  to3val(&S_to3val_158_1);
-  toao(&S_toao_164_1);
-  toao(&S_toao_165_1);
-  toao(&S_toao_166_1);
-  to3val(&S_to3val_658_1);
-  vchs(&S_vchs_876_1);
-  vchs(&S_vchs_884_1);
-  vchs(&S_vchs_894_1);
-  setData(idA0IT03IRP,&var157);
-  setData(idB0IT03IRP,&var151);
-  setData(idR0IN03FI3,&var233);
-  setData(idR0IN02FI3,&var234);
-  setData(idR0IN03FI2,&var236);
-  setData(idR0IN07RIP,&var2);
-  setData(idR0IN06RIP,&var1);
-  setData(idR0IN03RIP,&var3);
-  setData(idR0IN02RIP,&var4);
-  setData(idR0IN01RIP,&var5);
-  setData(idR0IN02FI2,&var237);
-  setData(idR0IN03FI1,&var239);
-  setData(idR0IN02FI1,&var240);
-  setData(idR0IN03FI4,&var230);
-  setData(idR0IN02FI4,&var231);
-  setData(idR0IN01FI3,&var235);
-  setData(idR0IN01FI2,&var238);
-  setData(idR0IN01FI4,&var232);
-  setData(idR0IN01FI1,&var242);
-  setData(idR4VS12LDU,&var7);
-  setData(idR4VS22LDU,&var6);
-  setData(idR1VS12LDU,&var11);
-  setData(idR2VS12LDU,&var9);
-  setData(idR2VS22LDU,&var8);
-  setData(idR1VS22LDU,&var10);
-  setData(idB5VS12LDU,&var13);
-  setData(idB5VS22LDU,&var12);
-  setData(idA5VS12LDU,&var15);
-  setData(idA5VS22LDU,&var14);
-  setData(idB6VS12LDU,&var17);
-  setData(idB6VS22LDU,&var16);
-  setData(idA6VS12LDU,&var19);
-  setData(idA6VS22LDU,&var18);
-  setData(idB8IS21LDU,&var66);
-  setData(idB8IS11LDU,&var64);
-  setData(idA1VP81LZZ,&var20);
-  setData(idB1VP81LZZ,&var21);
-  setData(idB2IS33LDU,&var22);
-  setData(idA0VN01RIM,&var335);
-  setData(idB2IS32LIM,&var304);
-  setData(idB2IS11LIM,&var306);
-  setData(idA2IS32LIM,&var312);
-  setData(idA2IS11LIM,&var314);
-  setData(idB1IS32LIM,&var320);
-  setData(idB1IS11LIM,&var321);
-  setData(idA1IS32LIM,&var325);
-  setData(idA1IS11LIM,&var328);
-  setData(idR0IS02LDU,&lEM_R0IE02LRP);
-  setData(idB4IS10LDU,&var43);
-  setData(idA4IS10LDU,&var42);
-  setData(idB1IE04LDU,&var44);
-  setData(idB1IE03LDU,&var45);
-  setData(idA1IE04LDU,&var46);
-  setData(idA1IE03LDU,&var47);
-  setData(idB1IS12LDU,&var48);
-  setData(idB1IS11LDU,&var49);
-  setData(idB1IS21LDU,&var50);
-  setData(idB1IC01UDU,&var51);
-  setData(idA1IC01UDU,&var53);
-  setData(idA1IS12LDU,&var55);
-  setData(idA1IS11LDU,&var56);
-  setData(idA1IS21LDU,&var57);
-  setData(idB6IS21LDU,&var58);
-  setData(idB6IS11LDU,&var59);
-  setData(idA6IS21LDU,&var60);
-  setData(idA6IS11LDU,&var61);
-  setData(idA8IS12LDU,&var62);
-  setData(idA8IS22LDU,&var63);
-  setData(idB8IS12LDU,&var65);
-  setData(idB8IS22LDU,&var67);
-  setData(idR4IS12LDU,&var68);
-  setData(idR4IS22LDU,&var69);
-  setData(idR4IS21LDU,&var70);
-  setData(idR4IS11LDU,&var71);
-  setData(idB4VP82LDU,&var73);
-  setData(idA4VP82LDU,&var72);
-  setData(idR2IS21LDU,&var74);
-  setData(idR2IS11LDU,&var75);
-  setData(idR1IS21LDU,&var76);
-  setData(idR1IS11LDU,&var77);
-  setData(idB4IS21LDU,&var78);
-  setData(idB4IS11LDU,&var79);
-  setData(idR8IS11LDU,&var80);
-  setData(idA4IS21LDU,&var81);
-  setData(idA4IS11LDU,&var82);
-  setData(idR5IS21LDU,&var83);
-  setData(idR5IS11LDU,&var84);
-  setData(idR3IS21LDU,&var85);
-  setData(idR3IS11LDU,&var86);
-  setData(idB2VP82LDU,&var87);
-  setData(idB2IP01IZ2,&var89);
-  setData(idB2IP01IZ1,&var90);
-  setData(idB2IC01UDU,&var93);
-  setData(idB2IS12LDU,&var95);
-  setData(idB2IS11LDU,&var96);
-  setData(idB2IS21LDU,&var97);
-  setData(idB9IS21LDU,&var98);
-  setData(idB9IS11LDU,&var99);
-  setData(idA9IS21LDU,&var100);
-  setData(idA9IS11LDU,&var101);
-  setData(idB5IS21LDU,&var102);
-  setData(idB5IS11LDU,&var103);
-  setData(idA5IS21LDU,&var104);
-  setData(idA5IS11LDU,&var105);
-  setData(idB0VP81LZZ,&var107);
-  setData(idA0VP81LZZ,&var108);
-  setData(idB8IC01UDU,&var109);
-  setData(idA8IC01UDU,&var111);
-  setData(idR6IS68LZZ,&var113);
-  setData(idR6IS67LZZ,&var114);
-  setData(idR6IS66LZZ,&var115);
-  setData(idR6IS65LDU,&var117);
-  setData(idR6IS64LDU,&var116);
-  setData(idR6IS63LDU,&var119);
-  setData(idR6IS62LDU,&var118);
-  setData(idB3IS22LDU,&var120);
-  setData(idA3IS22LDU,&var121);
-  setData(idB3IS11LDU,&var122);
-  setData(idA3IS11LDU,&var123);
-  setData(idA3IP02IDU,&var124);
-  setData(idB3VP81LDU,&var127);
-  setData(idA3VP81LDU,&var126);
-  setData(idB3IS33LDU,&var130);
-  setData(idB3IC01UDU,&var131);
-  setData(idB3IS31LDU,&var133);
-  setData(idB3IP02IDU,&var128);
-  setData(idA3IS33LDU,&var134);
-  setData(idA3IC01UDU,&var135);
-  setData(idA3IS31LDU,&var137);
-  setData(idA2VP82LDU,&var88);
-  setData(idA2IP01IZ2,&var138);
-  setData(idA2IP01IZ1,&var139);
-  setData(idB3IS21LDU,&var140);
-  setData(idA3IS21LDU,&var141);
-  setData(idA2IS33LDU,&var142);
-  setData(idA2IC01UDU,&var143);
-  setData(idA2IS12LDU,&var145);
-  setData(idA2IS11LDU,&var146);
-  setData(idA2IS21LDU,&var147);
-  setData(idB0IT02IZ2,&var152);
-  setData(idB0IT01IZ1,&var153);
-  setData(idA0IT02IZ2,&var158);
-  setData(idA0IT01IZ1,&var161);
-  setData(idR6IS21LDU,&var159);
-  setData(idB7AS31LDU,&var160);
-  setData(idA7AS31LDU,&var165);
-  setData(idB3IS35LDU,&var168);
-  setData(idA3IS35LDU,&var170);
-  setData(idR7II73LZ2,&var217);
-  setData(idR7II71LZ2,&var178);
-  setData(idR7II72LZ2,&var177);
-  setData(idR7II72LZ1,&var177);
-  setData(idR7II71LZ1,&var178);
-  setData(idR7II73LZ1,&var217);
-  setData(idR0SR01RIM,&var179);
-  setData(idR0ST01RIM,&var284);
-  setData(idR0SR02RIM,&var285);
-  setData(idR0CR02RIM,&var223);
-  setData(idR0CR01RIM,&var225);
-  setData(idB0SN08RIM,&var280);
-  setData(idA0SN08RIM,&var331);
-  setData(idB0SR01RIM,&var281);
-  setData(idA0SR01RIM,&var332);
-
-  setAsBool(idbFirstEnterFlag,1);
+int freebuff = 0;
+void Scheme(){
+	if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)){
+		freebuff = 0;
+		if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
+  	noto(&S_noto_86_1);
+  	noto(&S_noto_256_1);
+  	noto(&S_noto_603_1);
+  	noto(&S_noto_604_1);
+  	ovb1(&S_ovb1_30_1);
+  	ovb1(&S_ovb1_197_1);
+  	noto(&S_noto_515_1);
+  	bol(&S_bol_944_1);
+  	bol(&S_bol_954_1);
+  	bol(&S_bol_932_1);
+  	bol(&S_bol_953_1);
+  	bol(&S_bol_956_1);
+  	zpfs(&S_zpfs_632_1);
+  	zpfs(&S_zpfs_644_1);
+  	noto(&S_noto_481_1);
+  	noto(&S_noto_479_1);
+  	noto(&S_noto_491_1);
+  	noto(&S_noto_490_1);
+  	to3val(&S_to3val_970_1);
+  	asmot(&S_asmot_907_1);
+  	asmot(&S_asmot_366_1);
+  	asmot(&S_asmot_383_1);
+  	asmot(&S_asmot_399_1);
+  	asmot(&S_asmot_504_1);
+  	asmot(&S_asmot_448_1);
+  	asmot(&S_asmot_463_1);
+  	asmot(&S_asmot_577_1);
+  	asmot(&S_asmot_592_1);
+  	fsumo(&S_fsumo_912_1);
+  	inf(&S_inf_9_1);
+  	inf(&S_inf_7_1);
+  	fsubo(&S_fsubo_8_1);
+  	fsubo(&S_fsubo_373_1);
+  	noto(&S_noto_45_1);
+  	noto(&S_noto_46_1);
+  	noto(&S_noto_215_1);
+  	noto(&S_noto_216_1);
+  	orn(&S_orn_640_1);
+  	asmot(&S_asmot_605_1);
+  	asmot(&S_asmot_606_1);
+  	noto(&S_noto_615_1);
+  	noto(&S_noto_617_1);
+  	noto(&S_noto_476_1);
+  	noto(&S_noto_513_1);
+  	lk(&S_lk_519_1);
+  	orn(&S_orn_921_1);
+  	to3val(&S_to3val_542_1);
+  	toao(&S_toao_547_1);
+  	toao(&S_toao_548_1);
+  	to3val(&S_to3val_520_1);
+  	toao(&S_toao_527_1);
+  	twobool(&S_twobool_563_1);
+  	twobool(&S_twobool_666_1);
+  	twobool(&S_twobool_686_1);
+  	twobool(&S_twobool_667_1);
+  	twobool(&S_twobool_687_1);
+  	twobool(&S_twobool_703_1);
+  	to3val(&S_to3val_843_1);
+  	ktoenc(&S_ktoenc_851_1);
+  	to3val(&S_to3val_841_1);
+  	ktoenc(&S_ktoenc_849_1);
+  	twobool(&S_twobool_561_1);
+  	twobool(&S_twobool_562_1);
+  	twobool(&S_twobool_705_1);
+  	twobool(&S_twobool_704_1);
+  	twobool(&S_twobool_707_1);
+  	twobool(&S_twobool_706_1);
+  	twobool(&S_twobool_1052_1);
+  	twobool(&S_twobool_867_1);
+  	twobool(&S_twobool_869_1);
+  	twobool(&S_twobool_868_1);
+  	to3val(&S_to3val_543_1);
+  	toao(&S_toao_549_1);
+  	toao(&S_toao_550_1);
+  	twobool(&S_twobool_546_1);
+  	twobool(&S_twobool_996_1);
+  	twobool(&S_twobool_1011_1);
+  	twobool(&S_twobool_1028_1);
+  	twobool(&S_twobool_1050_1);
+  	twobool(&S_twobool_830_1);
+  	twobool(&S_twobool_997_1);
+  	twobool(&S_twobool_998_1);
+  	twobool(&S_twobool_999_1);
+  	twobool(&S_twobool_1000_1);
+  	twobool(&S_twobool_1048_1);
+  	twobool(&S_twobool_826_1);
+  	twobool(&S_twobool_827_1);
+  	twobool(&S_twobool_829_1);
+  	twobool(&S_twobool_828_1);
+  	twobool(&S_twobool_854_1);
+  	twobool(&S_twobool_852_1);
+  	twobool(&S_twobool_855_1);
+  	twobool(&S_twobool_853_1);
+  	twobool(&S_twobool_1032_1);
+  	twobool(&S_twobool_1033_1);
+  	twobool(&S_twobool_1034_1);
+  	twobool(&S_twobool_1053_1);
+  	twobool(&S_twobool_56_1);
+  	twobool(&S_twobool_41_1);
+  	twobool(&S_twobool_225_1);
+  	twobool(&S_twobool_208_1);
+  	zpfs(&S_zpfs_616_1);
+  	zpfs(&S_zpfs_618_1);
+  	or2(&S_or2_922_1);
+  	or2(&S_or2_929_1);
+  	or2(&S_or2_936_1);
+  	or2(&S_or2_945_1);
+  	ampl(&S_ampl_374_1);
+  	rs(&S_rs_475_1);
+  	rs(&S_rs_474_1);
+  	rs(&S_rs_489_1);
+  	rs(&S_rs_488_1);
+  	twobool(&S_twobool_545_1);
+  	twobool(&S_twobool_529_1);
+  	twobool(&S_twobool_668_1);
+  	twobool(&S_twobool_669_1);
+  	twobool(&S_twobool_690_1);
+  	twobool(&S_twobool_691_1);
+  	twobool(&S_twobool_670_1);
+  	twobool(&S_twobool_671_1);
+  	twobool(&S_twobool_692_1);
+  	twobool(&S_twobool_693_1);
+  	twobool(&S_twobool_1012_1);
+  	twobool(&S_twobool_1013_1);
+  	twobool(&S_twobool_1014_1);
+  	twobool(&S_twobool_1015_1);
+  	twobool(&S_twobool_831_1);
+  	twobool(&S_twobool_832_1);
+  	noto(&S_noto_639_1);
+  	andn(&S_andn_88_1);
+  	andn(&S_andn_87_1);
+  	andn(&S_andn_47_1);
+  	andn(&S_andn_48_1);
+  	andn(&S_andn_121_1);
+  	andn(&S_andn_217_1);
+  	andn(&S_andn_218_1);
+  	andn(&S_andn_258_1);
+  	andn(&S_andn_257_1);
+  	andn(&S_andn_292_1);
+  	noto(&S_noto_923_1);
+  	andn(&S_andn_918_1);
+  	asmot(&S_asmot_620_1);
+  	asmot(&S_asmot_621_1);
+  	asmot(&S_asmot_480_1);
+  	asmot(&S_asmot_492_1);
+  	asmot(&S_asmot_478_1);
+  	noto(&S_noto_930_1);
+  	andn(&S_andn_926_1);
+  	noto(&S_noto_937_1);
+  	andn(&S_andn_934_1);
+  	noto(&S_noto_946_1);
+  	andn(&S_andn_941_1);
+  	lk(&S_lk_518_1);
+  	noto(&S_noto_920_1);
+  	andn(&S_andn_916_1);
+  	twobool(&S_twobool_1051_1);
+  	to3val(&S_to3val_517_1);
+  	toao(&S_toao_523_1);
+  	twobool(&S_twobool_1029_1);
+  	twobool(&S_twobool_1031_1);
+  	twobool(&S_twobool_1030_1);
+  	twobool(&S_twobool_1049_1);
+  	orrsim(&S_orrsim_60_1);
+  	orrsim(&S_orrsim_229_1);
+  	orrsim(&S_orrsim_96_1);
+  	orrsim(&S_orrsim_266_1);
+  	orrsim(&S_orrsim_133_1);
+  	orrsim(&S_orrsim_300_1);
+  	azbars(&S_azbars_182_1);
+  	bol(&S_bol_630_1);
+  	bol(&S_bol_636_1);
+  	bol(&S_bol_646_1);
+  	mod1(&S_mod1_652_1);
+  	fsubo(&S_fsubo_74_1);
+  	fsubo(&S_fsubo_244_1);
+  	fsubo(&S_fsubo_285_1);
+  	fsubo(&S_fsubo_115_1);
+  	orn(&S_orn_647_1);
+  	react(&S_react_200_1);
+  	orn(&S_orn_631_1);
+  	orn(&S_orn_634_1);
+  	twobool(&S_twobool_150_1);
+  	to3val(&S_to3val_156_1);
+  	toao(&S_toao_161_1);
+  	toao(&S_toao_162_1);
+  	toao(&S_toao_163_1);
+  	twobool(&S_twobool_430_1);
+  	twobool(&S_twobool_431_1);
+  	twobool(&S_twobool_432_1);
+  	to3val(&S_to3val_429_1);
+  	ktoenc(&S_ktoenc_434_1);
+  	twobool(&S_twobool_433_1);
+  	twobool(&S_twobool_337_1);
+  	twobool(&S_twobool_321_1);
+  	twobool(&S_twobool_350_1);
+  	to3val(&S_to3val_325_1);
+  	ktoenc(&S_ktoenc_329_1);
+  	twobool(&S_twobool_349_1);
+  	twobool(&S_twobool_351_1);
+  	to3val(&S_to3val_335_1);
+  	ktoenc(&S_ktoenc_336_1);
+  	twobool(&S_twobool_352_1);
+  	twobool(&S_twobool_322_1);
+  	twobool(&S_twobool_323_1);
+  	twobool(&S_twobool_338_1);
+  	twobool(&S_twobool_339_1);
+  	ampl(&S_ampl_657_1);
+  	twobool(&S_twobool_413_1);
+  	twobool(&S_twobool_414_1);
+  	twobool(&S_twobool_412_1);
+  	to3val(&S_to3val_415_1);
+  	ktoenc(&S_ktoenc_421_1);
+  	twobool(&S_twobool_965_1);
+  	twobool(&S_twobool_966_1);
+  	twobool(&S_twobool_969_1);
+  	to3val(&S_to3val_961_1);
+  	ktoenc(&S_ktoenc_968_1);
+  	to3val(&S_to3val_980_1);
+  	ktoenc(&S_ktoenc_985_1);
+  	twobool(&S_twobool_982_1);
+  	twobool(&S_twobool_983_1);
+  	twobool(&S_twobool_986_1);
+  	andn(&S_andn_357_1);
+  	twobool(&S_twobool_411_1);
+  	azbars(&S_azbars_14_1);
+  	vchs(&S_vchs_718_1);
+  	vchs(&S_vchs_727_1);
+  	vchs(&S_vchs_736_1);
+  	vchs(&S_vchs_745_1);
+  	vchs(&S_vchs_753_1);
+  	vchs(&S_vchs_762_1);
+  	vchs(&S_vchs_771_1);
+  	vchs(&S_vchs_779_1);
+  	vchs(&S_vchs_788_1);
+  	vchs(&S_vchs_797_1);
+  	vchs(&S_vchs_805_1);
+  	vchs(&S_vchs_814_1);
+  	twobool(&S_twobool_149_1);
+  	to3val(&S_to3val_158_1);
+  	toao(&S_toao_164_1);
+  	toao(&S_toao_165_1);
+  	toao(&S_toao_166_1);
+  	to3val(&S_to3val_658_1);
+  	vchs(&S_vchs_877_1);
+  	vchs(&S_vchs_885_1);
+  	vchs(&S_vchs_895_1);
+  	setData(idR0IS01FI0,&iRM_1_);
+  	setData(idA0IT03IRP,&var157);
+  	setData(idB0IT03IRP,&var151);
+  	setData(idR0IN03FI3,&var233);
+  	setData(idR0IN02FI3,&var234);
+  	setData(idR0IN03FI2,&var236);
+  	setData(idR0IN07RIP,&var2);
+  	setData(idR0IN06RIP,&var1);
+  	setData(idR0IN03RIP,&var3);
+  	setData(idR0IN02RIP,&var4);
+  	setData(idR0IN01RIP,&var5);
+  	setData(idR0IN02FI2,&var237);
+  	setData(idR0IN03FI1,&var239);
+  	setData(idR0IN02FI1,&var240);
+  	setData(idR0IN03FI4,&var230);
+  	setData(idR0IN02FI4,&var231);
+  	setData(idR0IN01FI3,&var235);
+  	setData(idR0IN01FI2,&var238);
+  	setData(idR0IN01FI4,&var232);
+  	setData(idR0IN01FI1,&var242);
+  	setData(idR4VS12LDU,&var7);
+  	setData(idR4VS22LDU,&var6);
+  	setData(idR1VS12LDU,&var11);
+  	setData(idR2VS12LDU,&var9);
+  	setData(idR2VS22LDU,&var8);
+  	setData(idR1VS22LDU,&var10);
+  	setData(idB5VS12LDU,&var13);
+  	setData(idB5VS22LDU,&var12);
+  	setData(idA5VS12LDU,&var15);
+  	setData(idA5VS22LDU,&var14);
+  	setData(idB6VS12LDU,&var17);
+  	setData(idB6VS22LDU,&var16);
+  	setData(idA6VS12LDU,&var19);
+  	setData(idA6VS22LDU,&var18);
+  	setData(idB8IS21LDU,&var66);
+  	setData(idB8IS11LDU,&var64);
+  	setData(idA1VP81LZZ,&var20);
+  	setData(idB1VP81LZZ,&var21);
+  	setData(idB2IS33LDU,&var22);
+  	setData(idA0VN01RIM,&var335);
+  	setData(idB2IS32LIM,&var304);
+  	setData(idB2IS11LIM,&var306);
+  	setData(idA2IS32LIM,&var312);
+  	setData(idA2IS11LIM,&var314);
+  	setData(idB1IS32LIM,&var320);
+  	setData(idB1IS11LIM,&var321);
+  	setData(idA1IS32LIM,&var325);
+  	setData(idA1IS11LIM,&var328);
+  	setData(idR0IS02LDU,&lEM_R0IE02LRP);
+  	setData(idB4IS10LDU,&var43);
+  	setData(idA4IS10LDU,&var42);
+  	setData(idB1IE04LDU,&var44);
+  	setData(idB1IE03LDU,&var45);
+  	setData(idA1IE04LDU,&var46);
+  	setData(idA1IE03LDU,&var47);
+  	setData(idB1IS12LDU,&var48);
+  	setData(idB1IS11LDU,&var49);
+  	setData(idB1IS21LDU,&var50);
+  	setData(idB1IC01UDU,&var51);
+  	setData(idA1IC01UDU,&var53);
+  	setData(idA1IS12LDU,&var55);
+  	setData(idA1IS11LDU,&var56);
+  	setData(idA1IS21LDU,&var57);
+  	setData(idB6IS21LDU,&var58);
+  	setData(idB6IS11LDU,&var59);
+  	setData(idA6IS21LDU,&var60);
+  	setData(idA6IS11LDU,&var61);
+  	setData(idA8IS12LDU,&var62);
+  	setData(idA8IS22LDU,&var63);
+  	setData(idB8IS12LDU,&var65);
+  	setData(idB8IS22LDU,&var67);
+  	setData(idR4IS12LDU,&var68);
+  	setData(idR4IS22LDU,&var69);
+  	setData(idR4IS21LDU,&var70);
+  	setData(idR4IS11LDU,&var71);
+  	setData(idB4VP82LDU,&var73);
+  	setData(idA4VP82LDU,&var72);
+  	setData(idR2IS21LDU,&var74);
+  	setData(idR2IS11LDU,&var75);
+  	setData(idR1IS21LDU,&var76);
+  	setData(idR1IS11LDU,&var77);
+  	setData(idB4IS21LDU,&var78);
+  	setData(idB4IS11LDU,&var79);
+  	setData(idR8IS11LDU,&var80);
+  	setData(idA4IS21LDU,&var81);
+  	setData(idA4IS11LDU,&var82);
+  	setData(idR5IS21LDU,&var83);
+  	setData(idR5IS11LDU,&var84);
+  	setData(idR3IS21LDU,&var85);
+  	setData(idR3IS11LDU,&var86);
+  	setData(idB2VP82LDU,&var87);
+  	setData(idB2IP01IZ2,&var89);
+  	setData(idB2IP01IZ1,&var90);
+  	setData(idB2IC01UDU,&var93);
+  	setData(idB2IS12LDU,&var95);
+  	setData(idB2IS11LDU,&var96);
+  	setData(idB2IS21LDU,&var97);
+  	setData(idB9IS21LDU,&var98);
+  	setData(idB9IS11LDU,&var99);
+  	setData(idA9IS21LDU,&var100);
+  	setData(idA9IS11LDU,&var101);
+  	setData(idB5IS21LDU,&var102);
+  	setData(idB5IS11LDU,&var103);
+  	setData(idA5IS21LDU,&var104);
+  	setData(idA5IS11LDU,&var105);
+  	setData(idB0VP81LZZ,&var107);
+  	setData(idA0VP81LZZ,&var108);
+  	setData(idB8IC01UDU,&var109);
+  	setData(idA8IC01UDU,&var111);
+  	setData(idR6IS68LZZ,&var113);
+  	setData(idR6IS67LZZ,&var114);
+  	setData(idR6IS66LZZ,&var115);
+  	setData(idR6IS65LDU,&var117);
+  	setData(idR6IS64LDU,&var116);
+  	setData(idR6IS63LDU,&var119);
+  	setData(idR6IS62LDU,&var118);
+  	setData(idB3IS22LDU,&var120);
+  	setData(idA3IS22LDU,&var121);
+  	setData(idB3IS11LDU,&var122);
+  	setData(idA3IS11LDU,&var123);
+  	setData(idA3IP02IDU,&var124);
+  	setData(idB3VP81LDU,&var127);
+  	setData(idA3VP81LDU,&var126);
+  	setData(idB3IS33LDU,&var130);
+  	setData(idB3IC01UDU,&var131);
+  	setData(idB3IS31LDU,&var133);
+  	setData(idB3IP02IDU,&var128);
+  	setData(idA3IS33LDU,&var134);
+  	setData(idA3IC01UDU,&var135);
+  	setData(idA3IS31LDU,&var137);
+  	setData(idA2VP82LDU,&var88);
+  	setData(idA2IP01IZ2,&var138);
+  	setData(idA2IP01IZ1,&var139);
+  	setData(idB3IS21LDU,&var140);
+  	setData(idA3IS21LDU,&var141);
+  	setData(idA2IS33LDU,&var142);
+  	setData(idA2IC01UDU,&var143);
+  	setData(idA2IS12LDU,&var145);
+  	setData(idA2IS11LDU,&var146);
+  	setData(idA2IS21LDU,&var147);
+  	setData(idB0IT02IZ2,&var152);
+  	setData(idB0IT01IZ1,&var153);
+  	setData(idA0IT02IZ2,&var158);
+  	setData(idA0IT01IZ1,&var161);
+  	setData(idR6IS21LDU,&var159);
+  	setData(idB7AS31LDU,&var160);
+  	setData(idA7AS31LDU,&var165);
+  	setData(idB3IS35LDU,&var168);
+  	setData(idA3IS35LDU,&var170);
+  	setData(idR7II73LZ2,&var217);
+  	setData(idR7II71LZ2,&var178);
+  	setData(idR7II72LZ2,&var177);
+  	setData(idR7II72LZ1,&var177);
+  	setData(idR7II71LZ1,&var178);
+  	setData(idR7II73LZ1,&var217);
+  	setData(idR0SR01RIM,&var179);
+  	setData(idR0ST01RIM,&var284);
+  	setData(idR0SR02RIM,&var285);
+  	setData(idR0CR02RIM,&var223);
+  	setData(idR0CR01RIM,&var225);
+  	setData(idB0SN08RIM,&var280);
+  	setData(idA0SN08RIM,&var331);
+  	setData(idB0SR01RIM,&var281);
+  	setData(idA0SR01RIM,&var332);
+  	setAsBool(idbFirstEnterFlag,1);
+	}
+	else {
+		if(freebuff)
+			return;
+		else {
+			freebuff = 1;
+			memset(BUFFER, 0, SIZE_BUFFER);
+			InitSetConst();
+		}
+	}
 }
 
 void InitInternalParametr(void)
