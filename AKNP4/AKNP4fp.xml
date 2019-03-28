@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
+        <result path="AKNP4\src"/>
         <variable xml="varAKNP4"/>
         <saves xml="saveAKNP4"/>
         <devices xml="devAKNP4"/>

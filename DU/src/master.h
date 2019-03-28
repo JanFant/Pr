@@ -8394,7 +8394,7 @@ psfloat  array_m2185_b_1[6] = {&fEM_R0UN80LDU,&fEM_R0UN81LDU,&fEM_R0UN82LDU,&fEM
 psfloat  array_m2199_x_1[4] = {&B0CT01IZ1,&A0CT01IZ1,&B0CT01IZ2,&A0CT01IZ2};
 psfloat  array_m2220_x_1[2] = {&R0VN09RZ1,&R0VN09RZ2};
 psbool  array_m2189_x_1[14] = {&var197,&var170,&var826,&var231,&var233,&var168,&var1642,&var1222,&var1220,&var1653,&var196,&var185,&var181,&var205};
-psbool  array_m1_x_1[47] = {&var1185,&vainSBool,&var330,&var60,&var480,&var1389,&var715,&R0MD34LP1,&var629,&R0MD34LP1,&var688,&R0MD34LP1,&var922,&R0MD34LP1,&var742,&R0MD34LP1,&var920,&var1416,&A2IS12LDU,&var387,&var1216,&var1109,&var1107,&var1020,&var835,&R0MD34LP1,&var417,&var458,&var1260,&var1570,&R0MD34LP1,&var573,&var564,&var519,&B3IS35LDU,&B3IS35LDU,&var252,&var58,&var491,&var299,&var1621,&var1579,&var1606,&var941,&var1593,&R2IS21LDU,&var171};
+psbool  array_m1_x_1[47] = {&var1185,&lRM_0_,&var330,&var60,&var480,&var1389,&var715,&R0MD34LP1,&var629,&R0MD34LP1,&var688,&R0MD34LP1,&var922,&R0MD34LP1,&var742,&R0MD34LP1,&var920,&var1416,&A2IS12LDU,&var387,&var1216,&var1109,&var1107,&var1020,&var835,&R0MD34LP1,&var417,&var458,&var1260,&var1570,&R0MD34LP1,&var573,&var564,&var519,&B3IS35LDU,&B3IS35LDU,&var252,&var58,&var491,&var299,&var1621,&var1579,&var1606,&var941,&var1593,&R2IS21LDU,&var171};
 psfloat  array_m1447_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
 psbool  array_m1401_x_1[5] = {&var573,&var572,&var571,&var570,&var569};
 psbool  array_m545_x_1[14] = {&var740,&var746,&var747,&var738,&var739,&var924,&var925,&var905,&var904,&var736,&var734,&var742,&var735,&var225};
@@ -8937,7 +8937,7 @@ _S_and2  S_and2_1958_1 = {&var368,&var470,&var366};
 _S_and2  S_and2_1947_1 = {&var368,&var467,&var367};
 _S_noto  S_noto_1941_1 = {&var369,&var368};
 _S_ovbs  S_ovbs_1940_1 = {&var140,&fRM_3_0,&var369,&internal1_m1940_tx};
-_S_or2  S_or2_1462_1 = {&var1134,&vainSBool,&var370};
+_S_or2  S_or2_1462_1 = {&var1134,&lRM_0_,&var370};
 _S_and2  S_and2_433_1 = {&var1607,&var1549,&var371};
 _S_and2  S_and2_1826_1 = {&var1159,&B7AS31LDU,&var372};
 _S_and2  S_and2_444_1 = {&var910,&var756,&var373};
@@ -9988,13 +9988,13 @@ _S_equz_p  S_equz_p_2_1 = {&R0MW12IP1,&iRM_1_,&var1641};
 _S_equz_p  S_equz_p_4_1 = {&R0MW12IP1,&iRM_2_,&var1642};
 
 
-int delau = 0;
+int freebuff = 0, delau = 0;
 void Scheme()
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-if(delau++ < 100)
-return;
-delau = delau > 32000 ? 32000 : delau; 
+     if(delau++ < 300) return;
+     freebuff = 0;
+     delau = delau > 32000 ? 32000 : delau; 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   equz_p(&S_equz_p_18_2);
   andn(&S_andn_131_2);
@@ -10365,7 +10365,6 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   ovbs(&S_ovbs_292_1);
   ovbs(&S_ovbs_337_1);
   ovbs(&S_ovbs_51_1);
-  or2(&S_or2_1462_1);
   or2(&S_or2_1985_1);
   or2(&S_or2_1973_1);
   noto(&S_noto_2003_1);
@@ -10592,6 +10591,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_249_1);
   ovbs(&S_ovbs_1862_1);
   ovbs(&S_ovbs_13_1);
+  or2(&S_or2_1462_1);
   noto(&S_noto_103_1);
   bol(&S_bol_1520_1);
   bol(&S_bol_1511_1);
@@ -11949,8 +11949,18 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idR0ES01LDU,&var900);
 
   setAsBool(idbFirstEnterFlag,1); 
- } else delau = 0;
- 
+ }
+ else {
+      delau = 0;
+      if (freebuff)
+            return;
+       else{
+           freebuff = 1;
+           memset(BUFFER, 0, SIZE_BUFFER);
+           InitSetConst();
+           }
+       }
+
 }
 
 void InitInternalParametr(void)

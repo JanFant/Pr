@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
+        <result path="DU\src"/>
+        <key name="R0MW11IP1"/>
+        <delay cycles="300"/>
         <variable xml="varDU"/>
         <saves xml="saveDU"/>
         <devices xml="devDU"/>

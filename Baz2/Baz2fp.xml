@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
+        <result path="Baz2\src"/>
+        <key name="R0MW11IP1"/>
+        <delay cycles="100"/>
         <variable xml="varBaz2"/>
         <saves xml="saveBaz2"/>
         <devices xml="devBaz2"/>
