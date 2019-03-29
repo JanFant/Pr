@@ -5959,6 +5959,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
+           initAllDrivers(drivers);
            }
        }
 

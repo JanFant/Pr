@@ -1578,13 +1578,13 @@ _S_drg  S_drg_153_1 = {&var134,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&va
 _S_drg  S_drg_163_1 = {&var134,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var174,&internal1_m163_y1};
 
 
-int freebuff = 0, delau = 0;
+int freebuff = 0, delay = 0;
 void Scheme()
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delau++ < 100) return;
+     if(delay++ < 100) return;
      freebuff = 0;
-     delau = delau > 32000 ? 32000 : delau; 
+     delay = delay > 32000 ? 32000 : delay; 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_270_1);
   noto(&S_noto_274_1);
@@ -1859,13 +1859,14 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setAsBool(idbFirstEnterFlag,1); 
  }
  else {
-      delau = 0;
+      delay = 0;
       if (freebuff)
             return;
        else{
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
+           initAllDrivers(drivers);
            }
        }
 

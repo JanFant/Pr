@@ -9988,13 +9988,13 @@ _S_equz_p  S_equz_p_2_1 = {&R0MW12IP1,&iRM_1_,&var1641};
 _S_equz_p  S_equz_p_4_1 = {&R0MW12IP1,&iRM_2_,&var1642};
 
 
-int freebuff = 0, delau = 0;
+int freebuff = 0, delay = 0;
 void Scheme()
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delau++ < 300) return;
+     if(delay++ < 300) return;
      freebuff = 0;
-     delau = delau > 32000 ? 32000 : delau; 
+     delay = delay > 32000 ? 32000 : delay; 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   equz_p(&S_equz_p_18_2);
   andn(&S_andn_131_2);
@@ -11951,13 +11951,14 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setAsBool(idbFirstEnterFlag,1); 
  }
  else {
-      delau = 0;
+      delay = 0;
       if (freebuff)
             return;
        else{
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
+           initAllDrivers(drivers);
            }
        }
 
