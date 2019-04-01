@@ -170410,7 +170410,7 @@
         }
       }
       [VVV_Text]{
-        R="7,7,67,13"
+        R="7,7,72,14"
         Number=129
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -170792,7 +170792,7 @@
         CONST_NAME="RRR_4"
       }
       [VVV_Text]{
-        R="394,30,454,36"
+        R="394,30,459,37"
         Number=61
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -170971,7 +170971,7 @@
         CONST_NAME="RRR_5"
       }
       [VVV_Text]{
-        R="743,224,795,229"
+        R="743,224,803,230"
         Number=99
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -171196,7 +171196,7 @@
         CONST_NAME="RRR_6"
       }
       [VVV_Text]{
-        R="695,7,755,13"
+        R="695,7,760,14"
         Number=112
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -171590,7 +171590,7 @@
         CONST_NAME="RRR_7"
       }
       [VVV_Text]{
-        R="988,16,1041,22"
+        R="988,16,1053,23"
         Number=195
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -171814,7 +171814,7 @@
         CONST_NAME="RRR_1"
       }
       [VVV_Text]{
-        R="101,224,161,230"
+        R="101,224,166,231"
         Number=21
         IsHold=TRUE
         Line1="Режим "Проверка"?"
@@ -172292,7 +172292,7 @@
         Line2="энкодер ДС2"
       }
       [VVV_Text]{
-        R="1232,102,1278,179"
+        R="1232,102,1269,168"
         Number=286
         IsHold=TRUE
         Line1="Нумерация"
@@ -172995,7 +172995,7 @@
         Line6="на спуск ИС - до 0,3 МПа"
       }
       [VVV_Text]{
-        R="1826,527,1949,583"
+        R="1826,527,1965,590"
         Number=369
         IsHold=FALSE
         Line1="Нормальные давления в кГ/см^2"
@@ -173009,7 +173009,7 @@
         Line9="Давление в системе 70 = 7.8 МПа "
       }
       [VVV_Text]{
-        R="1738,454,1936,479"
+        R="1738,454,1968,482"
         Number=370
         IsHold=FALSE
         Line1="- неисправен любой из указателей положения рабочих органов СУЗ;"
@@ -173039,7 +173039,7 @@
         Line8="Давление в зоне  26 30 = 2.65 - 3.06 МПа "
       }
       [VVV_Text]{
-        R="1742,481,1936,525"
+        R="1742,481,1960,530"
         Number=1182
         IsHold=FALSE
         Line1="контроль состояния источников бесперебойного питания (ИБП),"
@@ -173071,7 +173071,7 @@
         Line2="энкодерам"
       }
       [VVV_Text]{
-        R="1743,403,1937,434"
+        R="1743,403,1961,438"
         Number=1206
         IsHold=FALSE
         Line1="контроль состояния источников бесперебойного питания (ИБП),"
@@ -173094,7 +173094,7 @@
         }
       }
       [VVV_Text]{
-        R="1343,640,1372,658"
+        R="1343,640,1377,661"
         Number=1223
         IsHold=FALSE
         Line1="неиспр."
@@ -173115,13 +173115,13 @@
         }
       }
       [VVV_Text]{
-        R="1414,549,1456,555"
+        R="1414,549,1462,556"
         Number=1274
         IsHold=FALSE
         Line1="Давление АЗ1"
       }
       [VVV_Text]{
-        R="1696,583,1738,589"
+        R="1696,583,1744,590"
         Number=1287
         IsHold=FALSE
         Line1="Давление АЗ2"
@@ -173198,7 +173198,7 @@
         }
       }
       [VVV_Text]{
-        R="1413,484,1453,502"
+        R="1413,484,1458,505"
         Number=1288
         IsHold=FALSE
         Line1="Давление"
@@ -173278,7 +173278,7 @@
         }
       }
       [VVV_Text]{
-        R="1378,688,1404,699"
+        R="1378,688,1411,702"
         Number=1424
         IsHold=FALSE
         Line1="Давление"
@@ -173825,7 +173825,7 @@
         Line2="давления для АЗ1"
       }
       [VVV_Text]{
-        R="1304,646,1337,658"
+        R="1304,646,1344,660"
         Number=304
         IsHold=FALSE
         Line1="Каналы АЗ1"
@@ -175018,7 +175018,7 @@
         Line3="2канал"
       }
       [VVV_Text]{
-        R="1624,450,1662,468"
+        R="1624,450,1669,471"
         Number=554
         IsHold=FALSE
         Line1="Давление"
@@ -175039,14 +175039,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="DU"
+        InterfaceMB="MDuS"
         ChannalName=""
         DeviceName=""
         Line1="Исправность "
@@ -175067,14 +175067,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="DU"
+        InterfaceMB="MDuS"
         ChannalName=""
         DeviceName=""
         Line1="Исправность "
@@ -175095,14 +175095,14 @@
         Size=1
         TypeInterface=1
         TypeMB=0
-        FormatMB=2
+        FormatMB=1
         TypeMBMaster=0
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="DU"
+        InterfaceMB="MDuS"
         ChannalName=""
         DeviceName=""
         Line1="Исправность "
@@ -184749,4 +184749,4 @@
     }
   }
 }
-173206364
+173206885

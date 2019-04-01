@@ -237,9 +237,9 @@
 <var  name="R6IS65LDU" description="(vds32:0d - K28VDSR, - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var  name="R6IS62LDU" description="(vds32:0d - K25VDSR, - ) Исправность ВИП ССДИ-39 1канал" format="1"></var>
 <var  name="R6IS63LDU" description="(vds32:0d - K26VDSR, - ) Исправность ВИП ССДИ-39 2канал" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , DU) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS67LZZ" description="( - , DU) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS68LZZ" description="( - , DU) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS66LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS67LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS68LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="syn_R0EE03LDU" description="( - , DU) ВПИС ИС" format="1"></var>
 <var  name="A3VC01RDU" description="( - , DU) Координата ИС1, мм" format="8"></var>
 <var  name="A2VC01RDU" description="( - , DU) Координата РБ1, мм" format="8"></var>

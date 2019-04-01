@@ -937,9 +937,9 @@ static ModbusRegister coil_MBz1S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1S[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop

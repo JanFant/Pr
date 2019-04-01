@@ -103,12 +103,12 @@ static char BUFFER[3290];
 #define idB8IC01UDU	 46	//( - , SDu) Координата АЗ2
 #define A8IC01UDU	 BUFFER[101]	//( - , SDu) Координата ДС2
 #define idA8IC01UDU	 47	//( - , SDu) Координата ДС2
-#define R6IS68LZZ	 BUFFER[106]	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 48	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
-#define R6IS67LZZ	 BUFFER[108]	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 49	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS66LZZ	 BUFFER[110]	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 50	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS68LZZ	 BUFFER[106]	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 48	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS67LZZ	 BUFFER[108]	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 49	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS66LZZ	 BUFFER[110]	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 50	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
 #define R6IS65LDU	 BUFFER[112]	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 #define idR6IS65LDU	 51	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 #define R2IS11LDU	 BUFFER[114]	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
@@ -2060,9 +2060,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 45	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 	{ 46	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
 	{ 47	,5	,1	, &A8IC01UDU},	//( - , SDu) Координата ДС2
-	{ 48	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 49	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 50	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 48	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 49	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 50	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
 	{ 51	,1	,1	, &R6IS65LDU},	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
 	{ 52	,1	,1	, &R2IS11LDU},	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 	{ 53	,1	,1	, &R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
@@ -3906,9 +3906,9 @@ static ModbusRegister coil_SBz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz1[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3933,9 +3933,9 @@ static ModbusRegister coil_SBz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz2[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2
+	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3956,25 +3956,28 @@ static ModbusRegister coil_SDu[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SDu[]={  // 
-	{&A2VP82LDU,1,0},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
-	{&A3VP81LDU,1,1},	//( - , SDu) Давление СПУСК ИС1 в норме
-	{&B3VP81LDU,1,2},	//( - , SDu) Давление СПУСК ИС2 в норме
-	{&B2VP82LDU,1,3},	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
-	{&A4VP82LDU,1,4},	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
-	{&B4VP82LDU,1,5},	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
+	{&B4VP82LDU,1,0},	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
+	{&A4VP82LDU,1,1},	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
+	{&B2VP82LDU,1,2},	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
+	{&R6IS68LZZ,1,3},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
+	{&R6IS67LZZ,1,4},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&R6IS66LZZ,1,5},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&B3VP81LDU,1,6},	//( - , SDu) Давление СПУСК ИС2 в норме
+	{&A3VP81LDU,1,7},	//( - , SDu) Давление СПУСК ИС1 в норме
+	{&A2VP82LDU,1,8},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SDu[]={  // 
-	{&A2IC01UDU,5,0},	//( - , SDu) Координата штока РБ1
-	{&A3IC01UDU,5,2},	//( - , SDu) Координата штока ИС1
-	{&B3IC01UDU,5,4},	//( - , SDu) Координата штока ИС2
-	{&A8IC01UDU,5,6},	//( - , SDu) Координата ДС2
-	{&B8IC01UDU,5,8},	//( - , SDu) Координата АЗ2
-	{&B2IC01UDU,5,10},	//( - , SDu) Координата штока РБ2
-	{&A1IC01UDU,5,12},	//( - , SDu) Координата штока ББ1
-	{&B1IC01UDU,5,14},	//( - , SDu) Координата штока ББ2
+	{&B1IC01UDU,5,0},	//( - , SDu) Координата штока ББ2
+	{&A1IC01UDU,5,2},	//( - , SDu) Координата штока ББ1
+	{&B2IC01UDU,5,4},	//( - , SDu) Координата штока РБ2
+	{&B8IC01UDU,5,6},	//( - , SDu) Координата АЗ2
+	{&A8IC01UDU,5,8},	//( - , SDu) Координата ДС2
+	{&B3IC01UDU,5,10},	//( - , SDu) Координата штока ИС2
+	{&A3IC01UDU,5,12},	//( - , SDu) Координата штока ИС1
+	{&A2IC01UDU,5,14},	//( - , SDu) Координата штока РБ1
 	{NULL,0,0},
 };
 #pragma pop

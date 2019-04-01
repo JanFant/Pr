@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">R6IS66LZZ</value>
-            <value name="description">( - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1</value>
+            <value name="description">( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -137,7 +137,7 @@
         </record>
         <record>
             <value name="name">R6IS67LZZ</value>
-            <value name="description">( - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2</value>
+            <value name="description">( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -150,7 +150,7 @@
         </record>
         <record>
             <value name="name">R6IS68LZZ</value>
-            <value name="description">( - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2</value>
+            <value name="description">( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>

@@ -46,9 +46,9 @@
 <var  name="A0VP81LZZ" description="(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме" format="1"></var>
 <var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2" format="5"></var>
 <var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
-<var  name="R6IS68LZZ" description="(do32_pti:100 - K19DO, SBz1, SBz2) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
-<var  name="R6IS67LZZ" description="(do32_pti:100 - K18DO, SBz1, SBz2) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS66LZZ" description="(do32_pti:100 - K17DO, SBz1, SBz2) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS68LZZ" description="(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS67LZZ" description="(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS66LZZ" description="(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
 <var  name="R6IS65LDU" description="(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var  name="R2IS11LDU" description="(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2" format="1"></var>
 <var  name="R1IS21LDU" description="(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1" format="1"></var>
