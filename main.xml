@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <general name="bars" description="Система БАРС"  defdrv="default" simul="no" ip="192.168.10.12" port="5555"> 
-    <subs name="scm"   scheme="scm/scheme/scm.tpr"     id="1" file="scmfp"   description="SCM"   main="192.168.10.60" second="192.168.10.60"  path="scm"   step="20" />
+    <subs name="scm"   scheme="scm/scheme/scm.tpr"     id="1" file="scmfp"   description="SCM"   main="192.168.10.60" second="192.168.10.60"  path="scm"   step="35" />
     <subs name="DU"    scheme="DU/scheme/DU.tpr"       id="2" file="DUfp"    description="DU"    main="192.168.10.50" second="192.168.10.150" path="DU"    step="20" />
     <subs name="AKNP1" scheme="AKNP1/scheme/AKNP1.tpr" id="3" file="AKNP1fp" description="AKNP1" main="192.168.10.51" second="192.168.10.151" path="AKNP1" step="8"  />
     <subs name="Baz1"  scheme="Baz1/scheme/Baz1.tpr"   id="4" file="Baz1fp"  description="Baz1"  main="192.168.10.52" second="192.168.10.152" path="Baz1"  step="20" />

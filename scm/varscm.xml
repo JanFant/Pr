@@ -13,8 +13,8 @@
 <var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки" format="1"></var>
 <var  name="R4IS21LDU" description="(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки" format="1"></var>
 <var  name="R4IS11LDU" description="(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки" format="1"></var>
-<var  name="B4VP82LDU" description="( - , SCM) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A4VP82LDU" description="( - , SCM) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="B4VP82LDU" description="( - , SDu) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="A4VP82LDU" description="( - , SDu) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
 <var  name="R2IS21LDU" description="(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2" format="1"></var>
 <var  name="R0EE04LZ1" description="( - , SBz1) Питание  АКНП4  отключить" format="1"></var>
 <var  name="R0EE03LZ1" description="( - , SBz1) Питание  АКНП3  отключить" format="1"></var>
@@ -62,7 +62,7 @@
 <var  name="R5IS11LDU" description="(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны" format="1"></var>
 <var  name="R3IS21LDU" description="(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей" format="1"></var>
 <var  name="R3IS11LDU" description="(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей" format="1"></var>
-<var  name="B2VP82LDU" description="( - , SCM) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="B2VP82LDU" description="( - , SDu) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
 <var  name="B2IP01IZ2" description="(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2" format="3"></var>
 <var  name="B2IP01IZ1" description="(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2" format="3"></var>
 <var  name="B2IC01UDU" description="( - , SDu) Координата штока РБ2" format="5"></var>
@@ -231,8 +231,8 @@
 <var  name="B3IS11LDU" description="(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2" format="1"></var>
 <var  name="A3IS11LDU" description="(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IP02IDU" description="(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
-<var  name="B3VP81LDU" description="( - , SCM) Давление СПУСК ИС2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="( - , SCM) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3VP81LDU" description="( - , SDu) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="A3VP81LDU" description="( - , SDu) Давление СПУСК ИС1 в норме" format="1"></var>
 <var  name="B3IS33LDU" description="( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)" format="1"></var>
 <var  name="B3IC01UDU" description="( - , SDu) Координата штока ИС2" format="5"></var>
 <var  name="B3IS31LDU" description="( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)" format="1"></var>
@@ -240,7 +240,7 @@
 <var  name="A3IS33LDU" description="( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)" format="1"></var>
 <var  name="A3IC01UDU" description="( - , SDu) Координата штока ИС1" format="5"></var>
 <var  name="A3IS31LDU" description="( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)" format="1"></var>
-<var  name="A2VP82LDU" description="( - , SCM) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="A2VP82LDU" description="( - , SDu) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
 <var  name="B2AD31LDU" description="(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)" format="1"></var>
 <var  name="B1AD32LDU" description="(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2" format="1"></var>
 <var  name="B1AD31LDU" description="(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)" format="1"></var>

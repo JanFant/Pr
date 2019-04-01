@@ -245,12 +245,12 @@
 <var  name="A2VC01RDU" description="( - , DU) Координата РБ1, мм" format="8"></var>
 <var  name="B2VC01RDU" description="( - , DU) Координата РБ2, мм" format="8"></var>
 <var  name="B8VC01RDU" description="( - , DU) Координата АЗ2, мм" format="8"></var>
-<var  name="A4VP82LDU" description="( - , DU) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
-<var  name="B4VP82LDU" description="( - , DU) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A2VP82LDU" description="( - , DU) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
-<var  name="B2VP82LDU" description="( - , DU) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="( - , DU) Давление СПУСК ИС1 в норме" format="1"></var>
-<var  name="B3VP81LDU" description="( - , DU) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="A4VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="B4VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="A2VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="B2VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="A3VP81LDU" description="( - , MDuS) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3VP81LDU" description="( - , MDuS) Давление СПУСК ИС2 в норме" format="1"></var>
 <var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
 <var  name="A0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ1" format="1"></var>
 <var  name="B0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ2" format="1"></var>
