@@ -109,8 +109,8 @@ static char BUFFER[3290];
 #define idR6IS67LZZ	 49	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
 #define R6IS66LZZ	 BUFFER[110]	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
 #define idR6IS66LZZ	 50	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS65LDU	 BUFFER[112]	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
-#define idR6IS65LDU	 51	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
+#define R6IS65LDU	 BUFFER[112]	//( - , SDu) Исправность ВИП ССДИ-35 2канал
+#define idR6IS65LDU	 51	//( - , SDu) Исправность ВИП ССДИ-35 2канал
 #define R2IS11LDU	 BUFFER[114]	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 #define idR2IS11LDU	 52	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 #define R1IS21LDU	 BUFFER[116]	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
@@ -457,12 +457,12 @@ static char BUFFER[3290];
 #define idA7AS31LDU	 223	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
 #define B3IS35LDU	 BUFFER[582]	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
 #define idB3IS35LDU	 224	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
-#define R6IS64LDU	 BUFFER[584]	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
-#define idR6IS64LDU	 225	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
-#define R6IS63LDU	 BUFFER[586]	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
-#define idR6IS63LDU	 226	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
-#define R6IS62LDU	 BUFFER[588]	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
-#define idR6IS62LDU	 227	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
+#define R6IS64LDU	 BUFFER[584]	//( - , SDu) Исправность ВИП ССДИ-35 1канал
+#define idR6IS64LDU	 225	//( - , SDu) Исправность ВИП ССДИ-35 1канал
+#define R6IS63LDU	 BUFFER[586]	//( - , SDu) Исправность ВИП ССДИ-39 2канал
+#define idR6IS63LDU	 226	//( - , SDu) Исправность ВИП ССДИ-39 2канал
+#define R6IS62LDU	 BUFFER[588]	//( - , SDu) Исправность ВИП ССДИ-39 1канал
+#define idR6IS62LDU	 227	//( - , SDu) Исправность ВИП ССДИ-39 1канал
 #define B3IS22LDU	 BUFFER[590]	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define idB3IS22LDU	 228	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define A3IS22LDU	 BUFFER[592]	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
@@ -2063,7 +2063,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 48	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{ 49	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
 	{ 50	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 51	,1	,1	, &R6IS65LDU},	//(do32_pti:160 - K32DO, - ) Исправность ВИП ССДИ-35 2канал
+	{ 51	,1	,1	, &R6IS65LDU},	//( - , SDu) Исправность ВИП ССДИ-35 2канал
 	{ 52	,1	,1	, &R2IS11LDU},	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 	{ 53	,1	,1	, &R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
 	{ 54	,1	,1	, &R1IS11LDU},	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
@@ -2237,9 +2237,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 222	,1	,1	, &B7AS31LDU},	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
 	{ 223	,1	,1	, &A7AS31LDU},	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
 	{ 224	,1	,1	, &B3IS35LDU},	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
-	{ 225	,1	,1	, &R6IS64LDU},	//(do32_pti:160 - K31DO, - ) Исправность ВИП ССДИ-35 1канал
-	{ 226	,1	,1	, &R6IS63LDU},	//(do32_pti:160 - K30DO, - ) Исправность ВИП ССДИ-39 2канал
-	{ 227	,1	,1	, &R6IS62LDU},	//(do32_pti:160 - K29DO, - ) Исправность ВИП ССДИ-39 1канал
+	{ 225	,1	,1	, &R6IS64LDU},	//( - , SDu) Исправность ВИП ССДИ-35 1канал
+	{ 226	,1	,1	, &R6IS63LDU},	//( - , SDu) Исправность ВИП ССДИ-39 2канал
+	{ 227	,1	,1	, &R6IS62LDU},	//( - , SDu) Исправность ВИП ССДИ-39 1канал
 	{ 228	,1	,1	, &B3IS22LDU},	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 	{ 229	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
 	{ 230	,1	,1	, &B3IS11LDU},	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
@@ -3962,9 +3962,13 @@ static ModbusRegister di_SDu[]={  //
 	{&R6IS68LZZ,1,3},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{&R6IS67LZZ,1,4},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
 	{&R6IS66LZZ,1,5},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&B3VP81LDU,1,6},	//( - , SDu) Давление СПУСК ИС2 в норме
-	{&A3VP81LDU,1,7},	//( - , SDu) Давление СПУСК ИС1 в норме
-	{&A2VP82LDU,1,8},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
+	{&R6IS65LDU,1,6},	//( - , SDu) Исправность ВИП ССДИ-35 2канал
+	{&R6IS64LDU,1,7},	//( - , SDu) Исправность ВИП ССДИ-35 1канал
+	{&R6IS63LDU,1,8},	//( - , SDu) Исправность ВИП ССДИ-39 2канал
+	{&R6IS62LDU,1,9},	//( - , SDu) Исправность ВИП ССДИ-39 1канал
+	{&B3VP81LDU,1,10},	//( - , SDu) Давление СПУСК ИС2 в норме
+	{&A3VP81LDU,1,11},	//( - , SDu) Давление СПУСК ИС1 в норме
+	{&A2VP82LDU,1,12},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
 	{NULL,0,0},
 };
 #pragma pop
@@ -4130,18 +4134,18 @@ static table_drv table_AO1601={0,0,&ini_AO1601,buf_AO1601,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_AO1601[]={
-	{&A3IP02IDU,3,24},
-	{&A2IP01IZ2,3,15},
-	{&B0IT02IZ2,3,18},
 	{&B0IT01IZ1,3,6},
 	{&A0IT02IZ2,3,12},
+	{&B0IT02IZ2,3,18},
+	{&A2IP01IZ2,3,15},
 	{&B3IP02IDU,3,27},
 	{&A2IP01IZ1,3,3},
-	{&A0IT03IRP,3,30},
-	{&B0IT03IRP,3,33},
-	{&A0IT01IZ1,3,0},
 	{&B2IP01IZ2,3,21},
 	{&B2IP01IZ1,3,9},
+	{&A0IT03IRP,3,30},
+	{&B0IT03IRP,3,33},
+	{&A3IP02IDU,3,24},
+	{&A0IT01IZ1,3,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4153,16 +4157,16 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
+	{&A0VP81LZZ,1,52},
 	{&A3IS22LDU,1,10},
-	{&A1VP81LZZ,1,54},
+	{&R6IS68LZZ,1,36},
+	{&R6IS67LZZ,1,34},
+	{&R6IS66LZZ,1,32},
 	{&A3IS11LDU,1,8},
 	{&R7II73LZ1,1,50},
 	{&R7II71LZ1,1,46},
 	{&R7II72LZ1,1,48},
-	{&R6IS66LZZ,1,32},
-	{&R6IS67LZZ,1,34},
-	{&R6IS68LZZ,1,36},
-	{&A0VP81LZZ,1,52},
+	{&A1VP81LZZ,1,54},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4174,11 +4178,11 @@ static table_drv table_DO32_5F02={0,0,&ini_DO32_5F02,buf_DO32_5F02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F02[]={
+	{&B3IS22LDU,1,22},
+	{&B3IS11LDU,1,20},
 	{&R7II72LZ2,1,48},
 	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
-	{&B3IS11LDU,1,20},
-	{&B3IS22LDU,1,22},
 	{&B0VP81LZZ,1,58},
 	{&B1VP81LZZ,1,60},
 	{NULL,0,0},
@@ -4192,8 +4196,8 @@ static table_drv table_DO32_5F08={0,0,&ini_DO32_5F08,buf_DO32_5F08,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F08[]={
-	{&R2IS21LDU,1,48},
 	{&B3IS21LDU,1,24},
+	{&R2IS21LDU,1,48},
 	{&B2IS11LDU,1,20},
 	{&B2IS12LDU,1,18},
 	{&A4IS11LDU,1,30},
@@ -4254,19 +4258,19 @@ static table_drv table_DO32_5F05={0,0,&ini_DO32_5F05,buf_DO32_5F05,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F05[]={
-	{&B5IS21LDU,1,0},
-	{&B8IS22LDU,1,12},
-	{&B8IS12LDU,1,10},
-	{&R3IS11LDU,1,2},
-	{&R6IS21LDU,1,26},
-	{&A8IS22LDU,1,30},
-	{&R3IS21LDU,1,4},
-	{&A8IS12LDU,1,28},
 	{&R5IS11LDU,1,18},
-	{&B8IS11LDU,1,14},
-	{&B8IS21LDU,1,8},
 	{&R5IS21LDU,1,20},
 	{&A6IS11LDU,1,34},
+	{&A8IS12LDU,1,28},
+	{&A8IS22LDU,1,30},
+	{&R6IS21LDU,1,26},
+	{&B8IS12LDU,1,10},
+	{&B8IS22LDU,1,12},
+	{&R3IS21LDU,1,4},
+	{&R3IS11LDU,1,2},
+	{&B5IS21LDU,1,0},
+	{&B8IS21LDU,1,8},
+	{&B8IS11LDU,1,14},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4278,10 +4282,6 @@ static table_drv table_DO32_5F06={0,0,&ini_DO32_5F06,buf_DO32_5F06,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F06[]={
-	{&R6IS62LDU,1,56},
-	{&R6IS63LDU,1,58},
-	{&R6IS64LDU,1,60},
-	{&R6IS65LDU,1,62},
 	{NULL,0,0},
 };
 #pragma pop
