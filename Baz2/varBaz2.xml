@@ -97,22 +97,22 @@
 <var  name="A0EP02IZ2" description="( - , Baz2) Индикатор -Давление  АЗ1 ниже АС" format="3"></var>
 <var  name="A0VP71LZ2" description="( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ1" format="1"></var>
 <var  name="B0VP71LZ2" description="( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ2" format="1"></var>
-<var  name="R0VN02RS1" description="( - , MBz2S) Уровень мощности канал 1" format="8"></var>
-<var  name="R0VN02RS2" description="( - , MBz2S) Уровень мощности канал 2" format="8"></var>
-<var  name="R0VN02RS3" description="( - , MBz2S) Уровень мощности канал 3" format="8"></var>
-<var  name="R0VN02RS4" description="( - , MBz2S) Уровень мощности канал 4" format="8"></var>
-<var  name="R0VN01RS1" description="( - , MBz2S) Период разгона канал 1" format="8"></var>
-<var  name="R0VN01RS2" description="( - , MBz2S) Период разгона канал 2" format="8"></var>
-<var  name="R0VN01RS3" description="( - , MBz2S) Период разгона канал 3" format="8"></var>
-<var  name="R0VN01RS4" description="( - , MBz2S) Период разгона канал 4" format="8"></var>
-<var  name="R0VN61LS1" description="( - , MBz2S) ПС по мощности канал 1" format="1"></var>
-<var  name="R0VN61LS2" description="( - , MBz2S) ПС по мощности канал 2" format="1"></var>
-<var  name="R0VN61LS3" description="( - , MBz2S) ПС по мощности канал 3" format="1"></var>
-<var  name="R0VN61LS4" description="( - , MBz2S) ПС по мощности канал 4" format="1"></var>
-<var  name="R0VN65LS1" description="( - , MBz2S) ПС по периоду разгона канал 1" format="1"></var>
-<var  name="R0VN65LS2" description="( - , MBz2S) ПС по периоду разгона  канал 2" format="1"></var>
-<var  name="R0VN65LS3" description="( - , MBz2S) ПС по периоду разгона канал 3" format="1"></var>
-<var  name="R0VN65LS4" description="( - , MBz2S) ПС по периоду разгона канал 4" format="1"></var>
+<var  name="R0VN02RS1" description="( - , MBz2A1) Уровень мощности канал 1" format="8"></var>
+<var  name="R0VN02RS2" description="( - , MBz2A2) Уровень мощности канал 2" format="8"></var>
+<var  name="R0VN02RS3" description="( - , MBz2A3) Уровень мощности канал 3" format="8"></var>
+<var  name="R0VN02RS4" description="( - , MBz2A4) Уровень мощности канал 4" format="8"></var>
+<var  name="R0VN01RS1" description="( - , MBz2A1) Период разгона канал 1" format="8"></var>
+<var  name="R0VN01RS2" description="( - , MBz2A2) Период разгона канал 2" format="8"></var>
+<var  name="R0VN01RS3" description="( - , MBz2A3) Период разгона канал 3" format="8"></var>
+<var  name="R0VN01RS4" description="( - , MBz2A4) Период разгона канал 4" format="8"></var>
+<var  name="R0VN61LS1" description="( - , MBz2A1) ПС по мощности канал 1" format="1"></var>
+<var  name="R0VN61LS2" description="( - , MBz2A2) ПС по мощности канал 2" format="1"></var>
+<var  name="R0VN61LS3" description="( - , MBz2A3) ПС по мощности канал 3" format="1"></var>
+<var  name="R0VN61LS4" description="( - , MBz2A4) ПС по мощности канал 4" format="1"></var>
+<var  name="R0VN65LS1" description="( - , MBz2A1) ПС по периоду разгона канал 1" format="1"></var>
+<var  name="R0VN65LS2" description="( - , MBz2A2) ПС по периоду разгона  канал 2" format="1"></var>
+<var  name="R0VN65LS3" description="( - , MBz2A3) ПС по периоду разгона канал 3" format="1"></var>
+<var  name="R0VN65LS4" description="( - , MBz2A4) ПС по периоду разгона канал 4" format="1"></var>
 <var  name="R0VN01RZ2" description="( - , Baz2) Уровень мощности по каналу 1" format="8"></var>
 <var  name="A0IT02IZ2" description="(vas84:04 - K01VASR, - ) Температура АЗ1-2" format="3"></var>
 <var  name="A0CT01IZ2" description="( - , Baz2, SBz2DU) Температура АЗ1-1" format="8"></var>

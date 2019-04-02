@@ -922,13 +922,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP2"
+        InterfaceMB="A2Bz1, A2Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -950,13 +950,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP2"
+        InterfaceMB="A2Bz1, A2Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -977,14 +977,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP2"
+        InterfaceMB="A2Bz1, A2Bz2"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -1033,14 +1033,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP2"
+        InterfaceMB="A2Bz1, A2Bz2"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -1181,7 +1181,7 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1476,7 +1476,7 @@
         }
       }
       [VVV_Text]{
-        R="291,426,449,433"
+        R="291,426,417,431"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1532,7 +1532,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1021,411"
+        R="845,404,985,409"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2990,7 +2990,7 @@
         }
       }
       [VVV_Text]{
-        R="1197,119,1260,133"
+        R="1197,119,1244,130"
         Number=151
         IsHold=FALSE
         Line1="Неисправность от "
@@ -5442,4 +5442,4 @@
     }
   }
 }
-5220126
+5221705

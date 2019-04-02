@@ -67,16 +67,16 @@ int nomer = 1;
 #define idR0IN02FS4	 26	//(vchs:01 - K02VCHS, AKNP4) Выход КНК15-1 Гц
 #define R0IN03FI4	 BUFFER[64]	//( - , MA4S) Выход КНК53М Гц
 #define idR0IN03FI4	 27	//( - , MA4S) Выход КНК53М Гц
-#define R0VN02RS4	 BUFFER[69]	//( - , AKNP4) Уровень мощности канал 4
-#define idR0VN02RS4	 28	//( - , AKNP4) Уровень мощности канал 4
-#define R0VN01RS4	 BUFFER[74]	//( - , AKNP4) Период разгона канал 4
-#define idR0VN01RS4	 29	//( - , AKNP4) Период разгона канал 4
-#define R0VN61LS4	 BUFFER[79]	//( - , AKNP4) ПС по мощности канал 4
-#define idR0VN61LS4	 30	//( - , AKNP4) ПС по мощности канал 4
+#define R0VN02RS4	 BUFFER[69]	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+#define idR0VN02RS4	 28	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+#define R0VN01RS4	 BUFFER[74]	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+#define idR0VN01RS4	 29	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+#define R0VN61LS4	 BUFFER[79]	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
+#define idR0VN61LS4	 30	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
 #define R0VN74LZ1	 BUFFER[81]	//(fds16:05 - K09FDSR, - ) АС по мощности канал 4 на БАЗ1
 #define idR0VN74LZ1	 31	//(fds16:05 - K09FDSR, - ) АС по мощности канал 4 на БАЗ1
-#define R0VN65LS4	 BUFFER[83]	//( - , AKNP4) ПС по периоду разгона канал 4
-#define idR0VN65LS4	 32	//( - , AKNP4) ПС по периоду разгона канал 4
+#define R0VN65LS4	 BUFFER[83]	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
+#define idR0VN65LS4	 32	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
 #define R0VN78LZ1	 BUFFER[85]	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 4 на БАЗ1
 #define idR0VN78LZ1	 33	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 4 на БАЗ1
 #define A0EE01LS4	 BUFFER[87]	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 4 на БАЗ1
@@ -222,11 +222,11 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 25	,8	,1	, &R0IN01FI4},	//( - , MA4S) Выход СНМ-11 Гц
 	{ 26	,8	,1	, &R0IN02FS4},	//(vchs:01 - K02VCHS, AKNP4) Выход КНК15-1 Гц
 	{ 27	,8	,1	, &R0IN03FI4},	//( - , MA4S) Выход КНК53М Гц
-	{ 28	,8	,1	, &R0VN02RS4},	//( - , AKNP4) Уровень мощности канал 4
-	{ 29	,8	,1	, &R0VN01RS4},	//( - , AKNP4) Период разгона канал 4
-	{ 30	,1	,1	, &R0VN61LS4},	//( - , AKNP4) ПС по мощности канал 4
+	{ 28	,8	,1	, &R0VN02RS4},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+	{ 29	,8	,1	, &R0VN01RS4},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+	{ 30	,1	,1	, &R0VN61LS4},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
 	{ 31	,1	,1	, &R0VN74LZ1},	//(fds16:05 - K09FDSR, - ) АС по мощности канал 4 на БАЗ1
-	{ 32	,1	,1	, &R0VN65LS4},	//( - , AKNP4) ПС по периоду разгона канал 4
+	{ 32	,1	,1	, &R0VN65LS4},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
 	{ 33	,1	,1	, &R0VN78LZ1},	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 4 на БАЗ1
 	{ 34	,1	,1	, &A0EE01LS4},	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 4 на БАЗ1
 	{ 35	,8	,1	, &R0IN01FS4},	//(vchs:01 - K01VCHS, AKNP4) Выход СНМ-11 Гц
@@ -321,35 +321,31 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 };
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP4[]={  // 
-	{&R0EE04LZ2,1,0},	//( - , AKNP4) Питание  АКНП4  отключить
-	{&R0EE04LZ1,1,1},	//( - , AKNP4) Питание  АКНП4  отключить
+	{&R0EE04LZ1,1,0},	//( - , AKNP4) Питание  АКНП4  отключить
+	{&R0EE04LZ2,1,1},	//( - , AKNP4) Питание  АКНП4  отключить
 	{&lEM_EE01LS4,1,2},	//( - , AKNP4) Исправность АКНП4
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_AKNP4[]={  // 
-	{&TestDiagnAKNP4,1,0},	//( - , AKNP4) Неисправность от диагностики
-	{&A0EE02LS4,1,1},	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
-	{&R0VN65LS4,1,2},	//( - , AKNP4) ПС по периоду разгона канал 4
-	{&R0VN61LS4,1,3},	//( - , AKNP4) ПС по мощности канал 4
+	{&A0EE02LS4,1,0},	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
+	{&TestDiagnAKNP4,1,1},	//( - , AKNP4) Неисправность от диагностики
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP4[]={  // 
-	{&R0IN02FS4,8,0},	//( - K02VCHS, AKNP4) Выход КНК15-1 Гц
-	{&TTLaknp4,3,2},	//( - , AKNP4) ttl
-	{&R0VN15RS4,3,3},	//( - , AKNP4) Номер ведущей камеры канал 4
-	{&R0VN33RS4,8,4},	//( - , AKNP4) Нейтронный поток по камере КНК53М канал 4
-	{&R0VN23RS4,8,6},	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
+	{&R0IN01FS4,8,0},	//( - K01VCHS, AKNP4) Выход СНМ-11 Гц
+	{&R0VN03RS4,8,2},	//( - , AKNP4) Измеренный нейтронный поток канал 4
+	{&R0VN04RS4,8,4},	//( - , AKNP4) Реактивность канал 4
+	{&R0IN03FS4,8,6},	//( - K01VCHS, AKNP4) Выход КНК53М Гц
 	{&R0VN13RS4,8,8},	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
-	{&R0IN03FS4,8,10},	//( - K01VCHS, AKNP4) Выход КНК53М Гц
-	{&R0VN04RS4,8,12},	//( - , AKNP4) Реактивность канал 4
-	{&R0VN03RS4,8,14},	//( - , AKNP4) Измеренный нейтронный поток канал 4
-	{&R0IN01FS4,8,16},	//( - K01VCHS, AKNP4) Выход СНМ-11 Гц
-	{&R0VN01RS4,8,18},	//( - , AKNP4) Период разгона канал 4
-	{&R0VN02RS4,8,20},	//( - , AKNP4) Уровень мощности канал 4
+	{&R0VN23RS4,8,10},	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
+	{&R0VN33RS4,8,12},	//( - , AKNP4) Нейтронный поток по камере КНК53М канал 4
+	{&R0VN15RS4,3,14},	//( - , AKNP4) Номер ведущей камеры канал 4
+	{&TTLaknp4,3,15},	//( - , AKNP4) ttl
+	{&R0IN02FS4,8,16},	//( - K02VCHS, AKNP4) Выход КНК15-1 Гц
 	{NULL,0,0},
 };
 #pragma pop
@@ -382,6 +378,54 @@ static ModbusRegister hr_AKNP4[]={  //
 	{&iEM_R0UL01ISS,3,48},	//( - , AKNP4) Шаг (мс) измерения периода
 	{&dEM_R0UL02USS,5,49},	//( - , AKNP4) Предельное время ожидания роста потока (мс)
 	{&fEM_R0UN03RSS,8,51},	//( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A4Bz1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A4Bz1[]={  // 
+	{&R0VN61LS4,1,0},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
+	{&R0VN65LS4,1,1},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A4Bz1[]={  // 
+	{&R0VN02RS4,8,0},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+	{&R0VN01RS4,8,2},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A4Bz1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A4Bz2[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A4Bz2[]={  // 
+	{&R0VN61LS4,1,0},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
+	{&R0VN65LS4,1,1},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A4Bz2[]={  // 
+	{&R0VN02RS4,8,0},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+	{&R0VN01RS4,8,2},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A4Bz2[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
@@ -453,6 +497,8 @@ static ModbusRegister hr_DiagnAKNP4[]={  //
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP4[0],&di_AKNP4[0],&ir_AKNP4[0],&hr_AKNP4[0],NULL,NULL,NULL,0},	 //общий slave AKNP4
+	{0,5018,&coil_A4Bz1[0],&di_A4Bz1[0],&ir_A4Bz1[0],&hr_A4Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz1
+	{0,5022,&coil_A4Bz2[0],&di_A4Bz2[0],&ir_A4Bz2[0],&hr_A4Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz2
 	{1,5009,&coil_MA4S[0],&di_MA4S[0],&ir_MA4S[0],&hr_MA4S[0],NULL,MA4S_ip1,MA4S_ip2,100},	 //Мастер AKNP4 в SCM
 	{0,5003,&coil_DiagnAKNP4[0],&di_DiagnAKNP4[0],&ir_DiagnAKNP4[0],&hr_DiagnAKNP4[0],NULL,NULL,NULL,0},	 //Диагностика корзины АКНП4
 

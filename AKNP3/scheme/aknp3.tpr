@@ -922,13 +922,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP3"
+        InterfaceMB="A3Bz1, A3Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Уровень"
@@ -950,13 +950,13 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP3"
+        InterfaceMB="A3Bz1, A3Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Период"
@@ -977,14 +977,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP3"
+        InterfaceMB="A3Bz1, A3Bz2"
         ChannalName=""
         DeviceName=""
         Line1="ПС по "
@@ -1033,14 +1033,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="AKNP3"
+        InterfaceMB="A3Bz1, A3Bz2"
         ChannalName=""
         DeviceName=""
         Line1="ПС по периоду"
@@ -1178,7 +1178,7 @@
         TypeInterface=1
         TypeMB=2
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -1473,7 +1473,7 @@
         }
       }
       [VVV_Text]{
-        R="291,425,433,431"
+        R="291,425,449,432"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1529,7 +1529,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1001,410"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -3011,7 +3011,7 @@
         }
       }
       [VVV_Text]{
-        R="1200,122,1241,133"
+        R="1200,122,1252,136"
         Number=192
         IsHold=FALSE
         Line1="Неисправность"
@@ -3023,6 +3023,13 @@
         IsHold=FALSE
         VisualNumber="103"
         ABBRV="NOTO"
+      }
+      [VVV_DrawConst]{
+        R="1258,20,1288,60"
+        Number=157
+        IsHold=FALSE
+        VisualNumber="78"
+        CONST_NAME="EE01LS3"
       }
       [VVV_DrawConnector]{
         Number=169
@@ -5395,13 +5402,6 @@
           Index=4
         }
       }
-      [VVV_DrawConst]{
-        R="1258,20,1288,60"
-        Number=157
-        IsHold=FALSE
-        VisualNumber="78"
-        CONST_NAME="EE01LS3"
-      }
       [VVV_DrawConnector]{
         Number=134
         IsHold=FALSE
@@ -5456,7 +5456,7 @@
         p4="807:163"
         BNumber=134
         ENumber=149
-        Comment="Исправность АКНП3 --> Err - флаг неисправности канала"
+        Comment="Исправность АКНП3 --> Исправность АКНП канал 3 на БАЗ1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -5473,4 +5473,4 @@
     }
   }
 }
-5260625
+5261720

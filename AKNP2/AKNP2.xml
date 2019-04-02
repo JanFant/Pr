@@ -76,11 +76,11 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">13</value>
+            <value name="nID">9</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">49</value>
-            <value name="OldData">49</value>
+            <value name="ParData">35</value>
+            <value name="OldData">35</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -89,11 +89,11 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
-            <value name="nID">14</value>
+            <value name="nID">10</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">51</value>
-            <value name="OldData">51</value>
+            <value name="ParData">37</value>
+            <value name="OldData">37</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -102,16 +102,16 @@
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">2</value>
-            <value name="nID">43</value>
+            <value name="nID">39</value>
             <value name="PType">35</value>
             <value name="Bf0">102</value>
-            <value name="ParData">186</value>
-            <value name="OldData">186</value>
+            <value name="ParData">172</value>
+            <value name="OldData">172</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN61LS2</value>
-            <value name="description">( - , AKNP2) ПС по мощности канал 2</value>
+            <value name="name">A0EE02LS2</value>
+            <value name="description">( - , AKNP2) Исправность АКНП2 (от сшивки каналов) канал 2</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -123,47 +123,21 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN65LS2</value>
-            <value name="description">( - , AKNP2) ПС по периоду разгона канал 2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">1</value>
-            <value name="nID">4</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">12</value>
-            <value name="OldData">12</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0EE02LS2</value>
-            <value name="description">( - , AKNP2) Исправность АКНП2 (от сшивки каналов) канал 2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">2</value>
-            <value name="nID">7</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">24</value>
-            <value name="OldData">24</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">TestDiagnAKNP2</value>
             <value name="description">( - , AKNP2) Неисправность от диагностики</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">3</value>
-            <value name="nID">16</value>
+            <value name="address">1</value>
+            <value name="nID">12</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">56</value>
-            <value name="OldData">56</value>
+            <value name="ParData">42</value>
+            <value name="OldData">42</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN02RS2</value>
-            <value name="description">( - , AKNP2) Уровень мощности канал 2</value>
+            <value name="name">R0VN03RS2</value>
+            <value name="description">( - , AKNP2) Измеренный нейтронный поток канал 2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -175,8 +149,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN01RS2</value>
-            <value name="description">( - , AKNP2) Период разгона канал 2</value>
+            <value name="name">R0VN04RS2</value>
+            <value name="description">( - , AKNP2) Реактивность канал 2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -188,42 +162,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN03RS2</value>
-            <value name="description">( - , AKNP2) Измеренный нейтронный поток канал 2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">4</value>
-            <value name="nID">5</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">14</value>
-            <value name="OldData">14</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0VN04RS2</value>
-            <value name="description">( - , AKNP2) Реактивность канал 2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">6</value>
-            <value name="nID">6</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">19</value>
-            <value name="OldData">19</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">R0VN13RS2</value>
             <value name="description">( - , AKNP2) Нейтронный поток по камере СНМ11 канал 2</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">8</value>
-            <value name="nID">8</value>
+            <value name="address">4</value>
+            <value name="nID">4</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">26</value>
-            <value name="OldData">26</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -231,12 +179,12 @@
             <value name="description">( - , AKNP2) Нейтронный поток по камере КНК15-1 канал 2</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">10</value>
-            <value name="nID">9</value>
+            <value name="address">6</value>
+            <value name="nID">5</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">31</value>
-            <value name="OldData">31</value>
+            <value name="ParData">17</value>
+            <value name="OldData">17</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -244,12 +192,12 @@
             <value name="description">( - , AKNP2) Нейтронный поток по камере КНК53М канал 2</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">12</value>
-            <value name="nID">10</value>
+            <value name="address">8</value>
+            <value name="nID">6</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">36</value>
-            <value name="OldData">36</value>
+            <value name="ParData">22</value>
+            <value name="OldData">22</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -257,12 +205,12 @@
             <value name="description">( - , AKNP2) Номер ведущей камеры канал 2</value>
             <value name="type">2</value>
             <value name="format">3</value>
-            <value name="address">14</value>
-            <value name="nID">11</value>
+            <value name="address">10</value>
+            <value name="nID">7</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">41</value>
-            <value name="OldData">41</value>
+            <value name="ParData">27</value>
+            <value name="OldData">27</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -270,12 +218,12 @@
             <value name="description">( - , AKNP2) TTL</value>
             <value name="type">2</value>
             <value name="format">3</value>
-            <value name="address">15</value>
-            <value name="nID">15</value>
+            <value name="address">11</value>
+            <value name="nID">11</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">53</value>
-            <value name="OldData">53</value>
+            <value name="ParData">39</value>
+            <value name="OldData">39</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -284,11 +232,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">0</value>
-            <value name="nID">12</value>
+            <value name="nID">8</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">44</value>
-            <value name="OldData">44</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -297,11 +245,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">2</value>
-            <value name="nID">17</value>
+            <value name="nID">13</value>
             <value name="PType">33</value>
             <value name="Bf0">0</value>
-            <value name="ParData">58</value>
-            <value name="OldData">58</value>
+            <value name="ParData">44</value>
+            <value name="OldData">44</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -310,11 +258,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">4</value>
-            <value name="nID">18</value>
+            <value name="nID">14</value>
             <value name="PType">33</value>
             <value name="Bf0">4</value>
-            <value name="ParData">63</value>
-            <value name="OldData">63</value>
+            <value name="ParData">49</value>
+            <value name="OldData">49</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -323,11 +271,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">6</value>
-            <value name="nID">19</value>
+            <value name="nID">15</value>
             <value name="PType">33</value>
             <value name="Bf0">8</value>
-            <value name="ParData">68</value>
-            <value name="OldData">68</value>
+            <value name="ParData">54</value>
+            <value name="OldData">54</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -336,11 +284,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">8</value>
-            <value name="nID">20</value>
+            <value name="nID">16</value>
             <value name="PType">33</value>
             <value name="Bf0">12</value>
-            <value name="ParData">73</value>
-            <value name="OldData">73</value>
+            <value name="ParData">59</value>
+            <value name="OldData">59</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -349,11 +297,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">10</value>
-            <value name="nID">21</value>
+            <value name="nID">17</value>
             <value name="PType">33</value>
             <value name="Bf0">16</value>
-            <value name="ParData">78</value>
-            <value name="OldData">78</value>
+            <value name="ParData">64</value>
+            <value name="OldData">64</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -362,11 +310,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">12</value>
-            <value name="nID">22</value>
+            <value name="nID">18</value>
             <value name="PType">33</value>
             <value name="Bf0">20</value>
-            <value name="ParData">83</value>
-            <value name="OldData">83</value>
+            <value name="ParData">69</value>
+            <value name="OldData">69</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -375,11 +323,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">14</value>
-            <value name="nID">23</value>
+            <value name="nID">19</value>
             <value name="PType">33</value>
             <value name="Bf0">24</value>
-            <value name="ParData">88</value>
-            <value name="OldData">88</value>
+            <value name="ParData">74</value>
+            <value name="OldData">74</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -388,11 +336,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">16</value>
-            <value name="nID">24</value>
+            <value name="nID">20</value>
             <value name="PType">33</value>
             <value name="Bf0">28</value>
-            <value name="ParData">93</value>
-            <value name="OldData">93</value>
+            <value name="ParData">79</value>
+            <value name="OldData">79</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -401,11 +349,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">18</value>
-            <value name="nID">25</value>
+            <value name="nID">21</value>
             <value name="PType">33</value>
             <value name="Bf0">32</value>
-            <value name="ParData">98</value>
-            <value name="OldData">98</value>
+            <value name="ParData">84</value>
+            <value name="OldData">84</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -414,11 +362,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">20</value>
-            <value name="nID">26</value>
+            <value name="nID">22</value>
             <value name="PType">33</value>
             <value name="Bf0">36</value>
-            <value name="ParData">103</value>
-            <value name="OldData">103</value>
+            <value name="ParData">89</value>
+            <value name="OldData">89</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -427,11 +375,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">22</value>
-            <value name="nID">27</value>
+            <value name="nID">23</value>
             <value name="PType">33</value>
             <value name="Bf0">40</value>
-            <value name="ParData">108</value>
-            <value name="OldData">108</value>
+            <value name="ParData">94</value>
+            <value name="OldData">94</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -440,11 +388,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">24</value>
-            <value name="nID">28</value>
+            <value name="nID">24</value>
             <value name="PType">33</value>
             <value name="Bf0">44</value>
-            <value name="ParData">113</value>
-            <value name="OldData">113</value>
+            <value name="ParData">99</value>
+            <value name="OldData">99</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -453,11 +401,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">26</value>
-            <value name="nID">29</value>
+            <value name="nID">25</value>
             <value name="PType">33</value>
             <value name="Bf0">48</value>
-            <value name="ParData">118</value>
-            <value name="OldData">118</value>
+            <value name="ParData">104</value>
+            <value name="OldData">104</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -466,11 +414,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">28</value>
-            <value name="nID">30</value>
+            <value name="nID">26</value>
             <value name="PType">33</value>
             <value name="Bf0">52</value>
-            <value name="ParData">123</value>
-            <value name="OldData">123</value>
+            <value name="ParData">109</value>
+            <value name="OldData">109</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -479,11 +427,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">30</value>
-            <value name="nID">31</value>
+            <value name="nID">27</value>
             <value name="PType">33</value>
             <value name="Bf0">56</value>
-            <value name="ParData">128</value>
-            <value name="OldData">128</value>
+            <value name="ParData">114</value>
+            <value name="OldData">114</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -492,11 +440,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">32</value>
-            <value name="nID">32</value>
+            <value name="nID">28</value>
             <value name="PType">33</value>
             <value name="Bf0">60</value>
-            <value name="ParData">133</value>
-            <value name="OldData">133</value>
+            <value name="ParData">119</value>
+            <value name="OldData">119</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -505,11 +453,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">34</value>
-            <value name="nID">33</value>
+            <value name="nID">29</value>
             <value name="PType">33</value>
             <value name="Bf0">64</value>
-            <value name="ParData">138</value>
-            <value name="OldData">138</value>
+            <value name="ParData">124</value>
+            <value name="OldData">124</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -518,11 +466,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">36</value>
-            <value name="nID">34</value>
+            <value name="nID">30</value>
             <value name="PType">33</value>
             <value name="Bf0">68</value>
-            <value name="ParData">143</value>
-            <value name="OldData">143</value>
+            <value name="ParData">129</value>
+            <value name="OldData">129</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -531,11 +479,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">38</value>
-            <value name="nID">35</value>
+            <value name="nID">31</value>
             <value name="PType">33</value>
             <value name="Bf0">72</value>
-            <value name="ParData">148</value>
-            <value name="OldData">148</value>
+            <value name="ParData">134</value>
+            <value name="OldData">134</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -544,11 +492,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">40</value>
-            <value name="nID">36</value>
+            <value name="nID">32</value>
             <value name="PType">33</value>
             <value name="Bf0">76</value>
-            <value name="ParData">153</value>
-            <value name="OldData">153</value>
+            <value name="ParData">139</value>
+            <value name="OldData">139</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -557,11 +505,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">42</value>
-            <value name="nID">37</value>
+            <value name="nID">33</value>
             <value name="PType">33</value>
             <value name="Bf0">80</value>
-            <value name="ParData">158</value>
-            <value name="OldData">158</value>
+            <value name="ParData">144</value>
+            <value name="OldData">144</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -570,11 +518,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">44</value>
-            <value name="nID">38</value>
+            <value name="nID">34</value>
             <value name="PType">33</value>
             <value name="Bf0">84</value>
-            <value name="ParData">163</value>
-            <value name="OldData">163</value>
+            <value name="ParData">149</value>
+            <value name="OldData">149</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -583,11 +531,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">46</value>
-            <value name="nID">39</value>
+            <value name="nID">35</value>
             <value name="PType">33</value>
             <value name="Bf0">88</value>
-            <value name="ParData">168</value>
-            <value name="OldData">168</value>
+            <value name="ParData">154</value>
+            <value name="OldData">154</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -596,11 +544,11 @@
             <value name="type">3</value>
             <value name="format">3</value>
             <value name="address">48</value>
-            <value name="nID">40</value>
+            <value name="nID">36</value>
             <value name="PType">34</value>
             <value name="Bf0">92</value>
-            <value name="ParData">173</value>
-            <value name="OldData">173</value>
+            <value name="ParData">159</value>
+            <value name="OldData">159</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -609,11 +557,11 @@
             <value name="type">3</value>
             <value name="format">5</value>
             <value name="address">49</value>
-            <value name="nID">41</value>
+            <value name="nID">37</value>
             <value name="PType">39</value>
             <value name="Bf0">94</value>
-            <value name="ParData">176</value>
-            <value name="OldData">176</value>
+            <value name="ParData">162</value>
+            <value name="OldData">162</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -622,11 +570,11 @@
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">51</value>
-            <value name="nID">42</value>
+            <value name="nID">38</value>
             <value name="PType">33</value>
             <value name="Bf0">98</value>
-            <value name="ParData">181</value>
-            <value name="OldData">181</value>
+            <value name="ParData">167</value>
+            <value name="OldData">167</value>
             <value name="unitId">1</value>
         </record>
     </records>

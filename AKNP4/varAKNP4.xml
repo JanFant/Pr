@@ -26,11 +26,11 @@
 <var  name="R0IN01FI4" description="( - , MA4S) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS4" description="(vchs:01 - K02VCHS, AKNP4) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI4" description="( - , MA4S) Выход КНК53М Гц" format="8"></var>
-<var  name="R0VN02RS4" description="( - , AKNP4) Уровень мощности канал 4" format="8"></var>
-<var  name="R0VN01RS4" description="( - , AKNP4) Период разгона канал 4" format="8"></var>
-<var  name="R0VN61LS4" description="( - , AKNP4) ПС по мощности канал 4" format="1"></var>
+<var  name="R0VN02RS4" description="( - , A4Bz1, A4Bz2) Уровень мощности канал 4" format="8"></var>
+<var  name="R0VN01RS4" description="( - , A4Bz1, A4Bz2) Период разгона канал 4" format="8"></var>
+<var  name="R0VN61LS4" description="( - , A4Bz1, A4Bz2) ПС по мощности канал 4" format="1"></var>
 <var  name="R0VN74LZ1" description="(fds16:05 - K09FDSR, - ) АС по мощности канал 4 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS4" description="( - , AKNP4) ПС по периоду разгона канал 4" format="1"></var>
+<var  name="R0VN65LS4" description="( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4" format="1"></var>
 <var  name="R0VN78LZ1" description="(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
 <var  name="A0EE01LS4" description="(fds16:05 - K11FDSR, - ) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
 <var  name="R0IN01FS4" description="(vchs:01 - K01VCHS, AKNP4) Выход СНМ-11 Гц" format="8"></var>

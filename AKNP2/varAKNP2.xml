@@ -26,11 +26,11 @@
 <var  name="R0IN01FI2" description="( - , MA2S) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS2" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI2" description="( - , MA2S) Выход КНК53М Гц" format="8"></var>
-<var  name="R0VN02RS2" description="( - , AKNP2) Уровень мощности канал 2" format="8"></var>
-<var  name="R0VN01RS2" description="( - , AKNP2) Период разгона канал 2" format="8"></var>
-<var  name="R0VN61LS2" description="( - , AKNP2) ПС по мощности канал 2" format="1"></var>
+<var  name="R0VN02RS2" description="( - , A2Bz1, A2Bz2) Уровень мощности канал 2" format="8"></var>
+<var  name="R0VN01RS2" description="( - , A2Bz1, A2Bz2) Период разгона канал 2" format="8"></var>
+<var  name="R0VN61LS2" description="( - , A2Bz1, A2Bz2) ПС по мощности канал 2" format="1"></var>
 <var  name="R0VN72LZ1" description="(fds16:05 - K09FDSR, - ) АС по мощности канал 2 на БАЗ1" format="1"></var>
-<var  name="R0VN65LS2" description="( - , AKNP2) ПС по периоду разгона канал 2" format="1"></var>
+<var  name="R0VN65LS2" description="( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2" format="1"></var>
 <var  name="R0VN76LZ1" description="(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 2  на БАЗ1" format="1"></var>
 <var  name="A0EE01LS2" description="(fds16:05 - K11FDSR, - ) Исправность АКНП канал 2 на БАЗ1" format="1"></var>
 <var  name="R0VN03RS2" description="( - , AKNP2) Измеренный нейтронный поток канал 2" format="8"></var>

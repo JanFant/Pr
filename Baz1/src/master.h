@@ -209,38 +209,38 @@ int nomer = 1;
 #define idA0VP71LZ1	 97	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
 #define B0VP71LZ1	 BUFFER[217]	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
 #define idB0VP71LZ1	 98	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-#define R0VN02RS1	 BUFFER[219]	//( - , MBz1S) Уровень мощности канал 1
-#define idR0VN02RS1	 99	//( - , MBz1S) Уровень мощности канал 1
-#define R0VN02RS2	 BUFFER[224]	//( - , MBz1S) Уровень мощности канал 2
-#define idR0VN02RS2	 100	//( - , MBz1S) Уровень мощности канал 2
-#define R0VN02RS3	 BUFFER[229]	//( - , MBz1S) Уровень мощности канал 3
-#define idR0VN02RS3	 101	//( - , MBz1S) Уровень мощности канал 3
-#define R0VN02RS4	 BUFFER[234]	//( - , MBz1S) Уровень мощности канал 4
-#define idR0VN02RS4	 102	//( - , MBz1S) Уровень мощности канал 4
-#define R0VN01RS1	 BUFFER[239]	//( - , MBz1S) Период разгона канал 1
-#define idR0VN01RS1	 103	//( - , MBz1S) Период разгона канал 1
-#define R0VN01RS2	 BUFFER[244]	//( - , MBz1S) Период разгона канал 2
-#define idR0VN01RS2	 104	//( - , MBz1S) Период разгона канал 2
-#define R0VN01RS3	 BUFFER[249]	//( - , MBz1S) Период разгона канал 3
-#define idR0VN01RS3	 105	//( - , MBz1S) Период разгона канал 3
-#define R0VN01RS4	 BUFFER[254]	//( - , MBz1S) Период разгона канал 4
-#define idR0VN01RS4	 106	//( - , MBz1S) Период разгона канал 4
-#define R0VN61LS1	 BUFFER[259]	//( - , MBz1S) ПС по мощности канал 1
-#define idR0VN61LS1	 107	//( - , MBz1S) ПС по мощности канал 1
-#define R0VN61LS2	 BUFFER[261]	//( - , MBz1S) ПС по мощности канал 2
-#define idR0VN61LS2	 108	//( - , MBz1S) ПС по мощности канал 2
-#define R0VN61LS3	 BUFFER[263]	//( - , MBz1S) ПС по мощности канал 3
-#define idR0VN61LS3	 109	//( - , MBz1S) ПС по мощности канал 3
-#define R0VN61LS4	 BUFFER[265]	//( - , MBz1S) ПС по мощности канал 4
-#define idR0VN61LS4	 110	//( - , MBz1S) ПС по мощности канал 4
-#define R0VN65LS1	 BUFFER[267]	//( - , MBz1S) ПС по периоду разгона канал 1
-#define idR0VN65LS1	 111	//( - , MBz1S) ПС по периоду разгона канал 1
-#define R0VN65LS2	 BUFFER[269]	//( - , MBz1S) ПС по периоду разгона  канал 2
-#define idR0VN65LS2	 112	//( - , MBz1S) ПС по периоду разгона  канал 2
-#define R0VN65LS3	 BUFFER[271]	//( - , MBz1S) ПС по периоду разгона канал 3
-#define idR0VN65LS3	 113	//( - , MBz1S) ПС по периоду разгона канал 3
-#define R0VN65LS4	 BUFFER[273]	//( - , MBz1S) ПС по периоду разгона канал 4
-#define idR0VN65LS4	 114	//( - , MBz1S) ПС по периоду разгона канал 4
+#define R0VN02RS1	 BUFFER[219]	//( - , MBz1A1) Уровень мощности канал 1
+#define idR0VN02RS1	 99	//( - , MBz1A1) Уровень мощности канал 1
+#define R0VN02RS2	 BUFFER[224]	//( - , MBz1A2) Уровень мощности канал 2
+#define idR0VN02RS2	 100	//( - , MBz1A2) Уровень мощности канал 2
+#define R0VN02RS3	 BUFFER[229]	//( - , MBz1A3) Уровень мощности канал 3
+#define idR0VN02RS3	 101	//( - , MBz1A3) Уровень мощности канал 3
+#define R0VN02RS4	 BUFFER[234]	//( - , MBz1A4) Уровень мощности канал 4
+#define idR0VN02RS4	 102	//( - , MBz1A4) Уровень мощности канал 4
+#define R0VN01RS1	 BUFFER[239]	//( - , MBz1A1) Период разгона канал 1
+#define idR0VN01RS1	 103	//( - , MBz1A1) Период разгона канал 1
+#define R0VN01RS2	 BUFFER[244]	//( - , MBz1A2) Период разгона канал 2
+#define idR0VN01RS2	 104	//( - , MBz1A2) Период разгона канал 2
+#define R0VN01RS3	 BUFFER[249]	//( - , MBz1A3) Период разгона канал 3
+#define idR0VN01RS3	 105	//( - , MBz1A3) Период разгона канал 3
+#define R0VN01RS4	 BUFFER[254]	//( - , MBz1A4) Период разгона канал 4
+#define idR0VN01RS4	 106	//( - , MBz1A4) Период разгона канал 4
+#define R0VN61LS1	 BUFFER[259]	//( - , MBz1A1) ПС по мощности канал 1
+#define idR0VN61LS1	 107	//( - , MBz1A1) ПС по мощности канал 1
+#define R0VN61LS2	 BUFFER[261]	//( - , MBz1A2) ПС по мощности канал 2
+#define idR0VN61LS2	 108	//( - , MBz1A2) ПС по мощности канал 2
+#define R0VN61LS3	 BUFFER[263]	//( - , MBz1A3) ПС по мощности канал 3
+#define idR0VN61LS3	 109	//( - , MBz1A3) ПС по мощности канал 3
+#define R0VN61LS4	 BUFFER[265]	//( - , MBz1A4) ПС по мощности канал 4
+#define idR0VN61LS4	 110	//( - , MBz1A4) ПС по мощности канал 4
+#define R0VN65LS1	 BUFFER[267]	//( - , MBz1A1) ПС по периоду разгона канал 1
+#define idR0VN65LS1	 111	//( - , MBz1A1) ПС по периоду разгона канал 1
+#define R0VN65LS2	 BUFFER[269]	//( - , MBz1A2) ПС по периоду разгона  канал 2
+#define idR0VN65LS2	 112	//( - , MBz1A2) ПС по периоду разгона  канал 2
+#define R0VN65LS3	 BUFFER[271]	//( - , MBz1A3) ПС по периоду разгона канал 3
+#define idR0VN65LS3	 113	//( - , MBz1A3) ПС по периоду разгона канал 3
+#define R0VN65LS4	 BUFFER[273]	//( - , MBz1A4) ПС по периоду разгона канал 4
+#define idR0VN65LS4	 114	//( - , MBz1A4) ПС по периоду разгона канал 4
 #define R0VN01RZ1	 BUFFER[275]	//( - , Baz1) Уровень мощности по каналу 1
 #define idR0VN01RZ1	 115	//( - , Baz1) Уровень мощности по каналу 1
 #define A0IT01IZ1	 BUFFER[280]	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
@@ -587,22 +587,22 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 96	,3	,1	, &A0EP02IZ1},	//( - , Baz1) Индикатор -Давление  АЗ1 ниже АС
 	{ 97	,1	,1	, &A0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
 	{ 98	,1	,1	, &B0VP71LZ1},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-	{ 99	,8	,1	, &R0VN02RS1},	//( - , MBz1S) Уровень мощности канал 1
-	{ 100	,8	,1	, &R0VN02RS2},	//( - , MBz1S) Уровень мощности канал 2
-	{ 101	,8	,1	, &R0VN02RS3},	//( - , MBz1S) Уровень мощности канал 3
-	{ 102	,8	,1	, &R0VN02RS4},	//( - , MBz1S) Уровень мощности канал 4
-	{ 103	,8	,1	, &R0VN01RS1},	//( - , MBz1S) Период разгона канал 1
-	{ 104	,8	,1	, &R0VN01RS2},	//( - , MBz1S) Период разгона канал 2
-	{ 105	,8	,1	, &R0VN01RS3},	//( - , MBz1S) Период разгона канал 3
-	{ 106	,8	,1	, &R0VN01RS4},	//( - , MBz1S) Период разгона канал 4
-	{ 107	,1	,1	, &R0VN61LS1},	//( - , MBz1S) ПС по мощности канал 1
-	{ 108	,1	,1	, &R0VN61LS2},	//( - , MBz1S) ПС по мощности канал 2
-	{ 109	,1	,1	, &R0VN61LS3},	//( - , MBz1S) ПС по мощности канал 3
-	{ 110	,1	,1	, &R0VN61LS4},	//( - , MBz1S) ПС по мощности канал 4
-	{ 111	,1	,1	, &R0VN65LS1},	//( - , MBz1S) ПС по периоду разгона канал 1
-	{ 112	,1	,1	, &R0VN65LS2},	//( - , MBz1S) ПС по периоду разгона  канал 2
-	{ 113	,1	,1	, &R0VN65LS3},	//( - , MBz1S) ПС по периоду разгона канал 3
-	{ 114	,1	,1	, &R0VN65LS4},	//( - , MBz1S) ПС по периоду разгона канал 4
+	{ 99	,8	,1	, &R0VN02RS1},	//( - , MBz1A1) Уровень мощности канал 1
+	{ 100	,8	,1	, &R0VN02RS2},	//( - , MBz1A2) Уровень мощности канал 2
+	{ 101	,8	,1	, &R0VN02RS3},	//( - , MBz1A3) Уровень мощности канал 3
+	{ 102	,8	,1	, &R0VN02RS4},	//( - , MBz1A4) Уровень мощности канал 4
+	{ 103	,8	,1	, &R0VN01RS1},	//( - , MBz1A1) Период разгона канал 1
+	{ 104	,8	,1	, &R0VN01RS2},	//( - , MBz1A2) Период разгона канал 2
+	{ 105	,8	,1	, &R0VN01RS3},	//( - , MBz1A3) Период разгона канал 3
+	{ 106	,8	,1	, &R0VN01RS4},	//( - , MBz1A4) Период разгона канал 4
+	{ 107	,1	,1	, &R0VN61LS1},	//( - , MBz1A1) ПС по мощности канал 1
+	{ 108	,1	,1	, &R0VN61LS2},	//( - , MBz1A2) ПС по мощности канал 2
+	{ 109	,1	,1	, &R0VN61LS3},	//( - , MBz1A3) ПС по мощности канал 3
+	{ 110	,1	,1	, &R0VN61LS4},	//( - , MBz1A4) ПС по мощности канал 4
+	{ 111	,1	,1	, &R0VN65LS1},	//( - , MBz1A1) ПС по периоду разгона канал 1
+	{ 112	,1	,1	, &R0VN65LS2},	//( - , MBz1A2) ПС по периоду разгона  канал 2
+	{ 113	,1	,1	, &R0VN65LS3},	//( - , MBz1A3) ПС по периоду разгона канал 3
+	{ 114	,1	,1	, &R0VN65LS4},	//( - , MBz1A4) ПС по периоду разгона канал 4
 	{ 115	,8	,1	, &R0VN01RZ1},	//( - , Baz1) Уровень мощности по каналу 1
 	{ 116	,3	,1	, &A0IT01IZ1},	//(vas84:04 - K01VASR, - ) Температура АЗ1-1
 	{ 117	,8	,1	, &A0CT01IZ1},	//( - , Baz1, SBz1DU) Температура АЗ1-1
@@ -956,6 +956,110 @@ static ModbusRegister hr_MBz1S[]={  //
 static char MBz1S_ip1[]={"192.168.10.60\0"};
 static char MBz1S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
+static ModbusRegister coil_MBz1A1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MBz1A1[]={  // 
+	{&R0VN61LS1,1,0},	//( - , A1Bz1, A1Bz2) ПС по мощности канал1
+	{&R0VN65LS1,1,1},	//( - , A1Bz1, A1Bz2) ПС по периоду разгона канал1
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MBz1A1[]={  // 
+	{&R0VN02RS1,8,0},	//( - , A1Bz1, A1Bz2) Уровень мощности
+	{&R0VN01RS1,8,2},	//( - , A1Bz1, A1Bz2) Период разгона канал1
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MBz1A1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MBz1A1_ip1[]={"192.168.10.51\0"};
+static char MBz1A1_ip2[]={"192.168.10.151\0"};
+#pragma pack(push,1)
+static ModbusRegister coil_MBz1A2[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MBz1A2[]={  // 
+	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
+	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MBz1A2[]={  // 
+	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
+	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MBz1A2[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MBz1A2_ip1[]={"192.168.10.57\0"};
+static char MBz1A2_ip2[]={"192.168.10.157\0"};
+#pragma pack(push,1)
+static ModbusRegister coil_MBz1A3[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MBz1A3[]={  // 
+	{&R0VN61LS3,1,0},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+	{&R0VN65LS3,1,1},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MBz1A3[]={  // 
+	{&R0VN02RS3,8,0},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+	{&R0VN01RS3,8,2},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MBz1A3[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MBz1A3_ip1[]={"192.168.10.53\0"};
+static char MBz1A3_ip2[]={"192.168.10.153\0"};
+#pragma pack(push,1)
+static ModbusRegister coil_MBz1A4[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MBz1A4[]={  // 
+	{&R0VN61LS4,1,0},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
+	{&R0VN65LS4,1,1},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MBz1A4[]={  // 
+	{&R0VN02RS4,8,0},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+	{&R0VN01RS4,8,2},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MBz1A4[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MBz1A4_ip1[]={"192.168.10.55\0"};
+static char MBz1A4_ip2[]={"192.168.10.155\0"};
+#pragma pack(push,1)
 static ModbusRegister coil_DiagnBaz1[]={  // 
 	{NULL,0,0},
 };
@@ -1001,6 +1105,10 @@ static ModbusDevice modbuses[]={
 	{0,5002,&coil_Baz1[0],&di_Baz1[0],&ir_Baz1[0],&hr_Baz1[0],NULL,NULL,NULL,0},	 //Общий слэйв
 	{0,5010,&coil_SBz1DU[0],&di_SBz1DU[0],&ir_SBz1DU[0],&hr_SBz1DU[0],NULL,NULL,NULL,0},	 //Слэйв для DU
 	{1,5003,&coil_MBz1S[0],&di_MBz1S[0],&ir_MBz1S[0],&hr_MBz1S[0],NULL,MBz1S_ip1,MBz1S_ip2,100},	 //Мастер Баз1 в SCM
+	{1,5015,&coil_MBz1A1[0],&di_MBz1A1[0],&ir_MBz1A1[0],&hr_MBz1A1[0],NULL,MBz1A1_ip1,MBz1A1_ip2,100},	 //Мастер Баз1 в AKNP1
+	{1,5016,&coil_MBz1A2[0],&di_MBz1A2[0],&ir_MBz1A2[0],&hr_MBz1A2[0],NULL,MBz1A2_ip1,MBz1A2_ip2,100},	 //Мастер Баз1 в AKNP2
+	{1,5017,&coil_MBz1A3[0],&di_MBz1A3[0],&ir_MBz1A3[0],&hr_MBz1A3[0],NULL,MBz1A3_ip1,MBz1A3_ip2,100},	 //Мастер Баз1 в AKNP3
+	{1,5018,&coil_MBz1A4[0],&di_MBz1A4[0],&ir_MBz1A4[0],&hr_MBz1A4[0],NULL,MBz1A4_ip1,MBz1A4_ip2,100},	 //Мастер Баз1 в AKNP4
 	{0,5005,&coil_DiagnBaz1[0],&di_DiagnBaz1[0],&ir_DiagnBaz1[0],&hr_DiagnBaz1[0],NULL,NULL,NULL,0},	 //Диагностика корзины Baz1
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};

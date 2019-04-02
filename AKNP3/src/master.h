@@ -67,16 +67,16 @@ int nomer = 1;
 #define idR0IN02FS3	 26	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
 #define R0IN03FI3	 BUFFER[72]	//( - , MA3S) Выход КНК53М Гц
 #define idR0IN03FI3	 27	//( - , MA3S) Выход КНК53М Гц
-#define R0VN02RS3	 BUFFER[77]	//( - , AKNP3) Уровень мощности канал 3
-#define idR0VN02RS3	 28	//( - , AKNP3) Уровень мощности канал 3
-#define R0VN01RS3	 BUFFER[82]	//( - , AKNP3) Период разгона канал 3
-#define idR0VN01RS3	 29	//( - , AKNP3) Период разгона канал 3
-#define R0VN61LS3	 BUFFER[87]	//( - , AKNP3) ПС по мощности канал 3
-#define idR0VN61LS3	 30	//( - , AKNP3) ПС по мощности канал 3
+#define R0VN02RS3	 BUFFER[77]	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+#define idR0VN02RS3	 28	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+#define R0VN01RS3	 BUFFER[82]	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+#define idR0VN01RS3	 29	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+#define R0VN61LS3	 BUFFER[87]	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+#define idR0VN61LS3	 30	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
 #define R0VN73LZ1	 BUFFER[89]	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
 #define idR0VN73LZ1	 31	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
-#define R0VN65LS3	 BUFFER[91]	//( - , AKNP3) ПС по периоду разгона канал 3
-#define idR0VN65LS3	 32	//( - , AKNP3) ПС по периоду разгона канал 3
+#define R0VN65LS3	 BUFFER[91]	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
+#define idR0VN65LS3	 32	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
 #define R0VN77LZ1	 BUFFER[93]	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
 #define idR0VN77LZ1	 33	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
 #define A0EE01LS3	 BUFFER[95]	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
@@ -222,11 +222,11 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 25	,8	,1	, &R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц
 	{ 26	,8	,1	, &R0IN02FS3},	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
 	{ 27	,8	,1	, &R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц
-	{ 28	,8	,1	, &R0VN02RS3},	//( - , AKNP3) Уровень мощности канал 3
-	{ 29	,8	,1	, &R0VN01RS3},	//( - , AKNP3) Период разгона канал 3
-	{ 30	,1	,1	, &R0VN61LS3},	//( - , AKNP3) ПС по мощности канал 3
+	{ 28	,8	,1	, &R0VN02RS3},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+	{ 29	,8	,1	, &R0VN01RS3},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+	{ 30	,1	,1	, &R0VN61LS3},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
 	{ 31	,1	,1	, &R0VN73LZ1},	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
-	{ 32	,1	,1	, &R0VN65LS3},	//( - , AKNP3) ПС по периоду разгона канал 3
+	{ 32	,1	,1	, &R0VN65LS3},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
 	{ 33	,1	,1	, &R0VN77LZ1},	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
 	{ 34	,1	,1	, &A0EE01LS3},	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
 	{ 35	,8	,1	, &R0VN03RS3},	//( - , AKNP3) Измеренный нейтронный поток канал 3
@@ -329,24 +329,20 @@ static ModbusRegister coil_AKNP3[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_AKNP3[]={  // 
-	{&R0VN61LS3,1,0},	//( - , AKNP3) ПС по мощности канал 3
-	{&R0VN65LS3,1,1},	//( - , AKNP3) ПС по периоду разгона канал 3
-	{&A0EE02LS3,1,2},	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
-	{&TestDiagnAKNP3,1,3},	//( - , AKNP3) Неисправность от диагностики
+	{&A0EE02LS3,1,0},	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
+	{&TestDiagnAKNP3,1,1},	//( - , AKNP3) Неисправность от диагностики
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP3[]={  // 
-	{&R0VN02RS3,8,0},	//( - , AKNP3) Уровень мощности канал 3
-	{&R0VN01RS3,8,2},	//( - , AKNP3) Период разгона канал 3
-	{&R0VN03RS3,8,4},	//( - , AKNP3) Измеренный нейтронный поток канал 3
-	{&R0VN04RS3,8,6},	//( - , AKNP3) Реактивность канал 3
-	{&R0VN13RS3,8,8},	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
-	{&R0VN23RS3,8,10},	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
-	{&R0VN33RS3,8,12},	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
-	{&R0VN15RS3,3,14},	//( - , AKNP3) Номер ведущей камеры канал 3
-	{&TTLaknp3,3,15},	//( - , AKNP3) ttl
+	{&R0VN03RS3,8,0},	//( - , AKNP3) Измеренный нейтронный поток канал 3
+	{&R0VN04RS3,8,2},	//( - , AKNP3) Реактивность канал 3
+	{&R0VN13RS3,8,4},	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
+	{&R0VN23RS3,8,6},	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
+	{&R0VN33RS3,8,8},	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
+	{&R0VN15RS3,3,10},	//( - , AKNP3) Номер ведущей камеры канал 3
+	{&TTLaknp3,3,11},	//( - , AKNP3) ttl
 	{NULL,0,0},
 };
 #pragma pop
@@ -379,6 +375,54 @@ static ModbusRegister hr_AKNP3[]={  //
 	{&iEM_R0UL01ISS,3,48},	//( - , AKNP3) Шаг (мс) измерения периода
 	{&dEM_R0UL02USS,5,49},	//( - , AKNP3) Предельное время ожидания роста потока (мс)
 	{&fEM_R0UN03RSS,8,51},	//( - , AKNP3) Нижняя граница интервала мощности для измерения периода (ватт)
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A3Bz1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A3Bz1[]={  // 
+	{&R0VN61LS3,1,0},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+	{&R0VN65LS3,1,1},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A3Bz1[]={  // 
+	{&R0VN02RS3,8,0},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+	{&R0VN01RS3,8,2},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A3Bz1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A3Bz2[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A3Bz2[]={  // 
+	{&R0VN61LS3,1,0},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+	{&R0VN65LS3,1,1},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A3Bz2[]={  // 
+	{&R0VN02RS3,8,0},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+	{&R0VN01RS3,8,2},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A3Bz2[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
@@ -450,6 +494,8 @@ static ModbusRegister hr_DiagnAKNP3[]={  //
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP3[0],&di_AKNP3[0],&ir_AKNP3[0],&hr_AKNP3[0],NULL,NULL,NULL,0},	 //общий slave AKNP3
+	{0,5017,&coil_A3Bz1[0],&di_A3Bz1[0],&ir_A3Bz1[0],&hr_A3Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz1
+	{0,5021,&coil_A3Bz2[0],&di_A3Bz2[0],&ir_A3Bz2[0],&hr_A3Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz2
 	{1,5008,&coil_MA3S[0],&di_MA3S[0],&ir_MA3S[0],&hr_MA3S[0],NULL,MA3S_ip1,MA3S_ip2,100},	 //Мастер AKNP3 в SCM
 	{0,5003,&coil_DiagnAKNP3[0],&di_DiagnAKNP3[0],&ir_DiagnAKNP3[0],&hr_DiagnAKNP3[0],NULL,NULL,NULL,0},	 //Диагностика корзины АКНП3
 
