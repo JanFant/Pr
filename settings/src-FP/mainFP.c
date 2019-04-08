@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-// %attach_1%
+%attach_1%
 #include <syslog.h>
 #include <sys/reboot.h>
 
@@ -48,22 +48,22 @@ int main(int argc, char **argv) {
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
-    // %attach_2%
-    // %attach_3%
+%attach_2%
+%attach_3%
     while (1) {
         time_start();
         readAllModbus();
         if (SimulOn)
             readAllSimul();
         else {
-        // %attach_4%
+%attach_4%
         }
-        // %attach_5%
+%attach_5%
         Scheme();
         if (SimulOn)
             writeAllSimul();
         else {
-        // %attach_6%
+%attach_6%
         writeAllModbus();
         makeSaveData();
         long int t = time_cycle();
