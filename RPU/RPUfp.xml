@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
+        <model name="Fp"/>
         <result path="RPU\src"/>
         <variable xml="varRPU"/>
         <saves xml="saveRPU"/>

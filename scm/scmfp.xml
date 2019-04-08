@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
+        <model name="PTI"/>
         <result path="scm\src"/>
         <key name="R0MW11IP1"/>
         <variable xml="varscm"/>
