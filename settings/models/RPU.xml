@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model>
-    <attach_1 file="includePTI"/>
-    <attach_2 file="init1-PTI"/>
-    <attach_4 file="init2-PTI"/>
-    <attach_6 file="postSchemePTI"/>
+    <attach_1 file="includeFP"/>
+    <attach_2 file="init1-FP"/>
+    <attach_3 file="initRPU-VCHS"/>
+    <attach_4 file="init2-FP"/>
+    <attach_5 file="postRPU-VCHS"/>
+    <attach_6 file="postSchemeFP"/>
 </model>
 <!-- attach_1 description ="include" -->
 <!-- attach_2 description ="Init 1" -->
