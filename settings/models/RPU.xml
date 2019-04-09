@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model>
-    <attach id="1" file="includeFP"/>
     <attach id="2" file="init1-FP"/>
     <attach id="3" file="initRPU-VCHS"/>
     <attach id="4" file="init2-FP"/>

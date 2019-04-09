@@ -54,22 +54,70 @@ int main(int argc, char **argv) {
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
-%attach_2%
-%attach_3%
+
+    nomer = getNomer();
+    if (SimulOn) {
+        if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+            return EXIT_FAILURE;
+    } else {
+        if (initAllDrivers(drivers)) {
+            //Р—Р°РїСѓСЃС‚РёР»РёСЃСЊ РІ СЂРµР¶РёРјРµ СЂРµР·РµСЂРІРЅРѕРіРѕ
+            syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
+            master = 0;
+            if (initUDP(master, nomer, &setUDP) < 0)
+                return EXIT_FAILURE;
+            while (initAllDrivers(drivers)) {
+                time_start();
+                readAllModbus();
+                reciveVariables();
+                writeAllModbus();
+                long int t = time_cycle();
+                if (t > StepCycle) {
+                    syslog(LOG_INFO, "long cycle %ld\n", t);
+                }
+                while ((time_cycle() + 1) < StepCycle) {
+                    makeStepModbusDevices();
+                }
+                while ((time_cycle()) < StepCycle) {
+                }
+            }
+            closeUDP();
+        };
+    }
+    // Р РµР¶РёРј РѕСЃРЅРѕРІРЅРѕРіРѕ Р¤Рџ
+    master = 1;
+    if (initUDP(master, nomer, &setUDP) < 0)
+        return EXIT_FAILURE;
+    syslog(LOG_INFO, "Mode master FP number %d\n", nomer);
+
+    init_dataVchs(buf_VCHS01);
+    init_dataVchs(buf_VCHS02);
     while (1) {
         time_start();
         readAllModbus();
         if (SimulOn)
             readAllSimul();
         else {
-%attach_4%
+
+            if (isSlave()) {
+                syslog(LOG_ERR, "Lost master \n");
+                break;
+            }
+            if (readAllDrivers() != 0)
+                break;
         }
-%attach_5%
+
+        VCHS_post(buf_VCHS01);
+        VCHS_post(buf_VCHS02);
         Scheme();
         if (SimulOn)
             writeAllSimul();
         else {
-%attach_6%
+
+            if (writeAllDrivers() != 0)
+                break;
+        }
+        sendVariables();
         writeAllModbus();
         makeSaveData();
         long int t = time_cycle();
@@ -91,3 +139,4 @@ int main(int argc, char **argv) {
 
     //    reboot(RB_AUTOBOOT);
 }
+

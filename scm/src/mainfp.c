@@ -54,22 +54,32 @@ int main(int argc, char **argv) {
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
-%attach_2%
-%attach_3%
+
+    if (SimulOn) {
+        if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+            return EXIT_FAILURE;
+    } else {
+        if (initAllDriversPTI(drivers))
+            return EXIT_FAILURE;
+    }
+
     while (1) {
         time_start();
         readAllModbus();
         if (SimulOn)
             readAllSimul();
         else {
-%attach_4%
+
+            readAllDriversPTI();
         }
-%attach_5%
+
         Scheme();
         if (SimulOn)
             writeAllSimul();
         else {
-%attach_6%
+
+            writeAllDriversPTI();
+        }
         writeAllModbus();
         makeSaveData();
         long int t = time_cycle();
@@ -91,3 +101,4 @@ int main(int argc, char **argv) {
 
     //    reboot(RB_AUTOBOOT);
 }
+
