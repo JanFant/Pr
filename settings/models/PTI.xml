@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model>
-    <attach_1 file="includePTI"/>
-    <attach_2 file="init1-PTI"/>
-    <attach_4 file="init2-PTI"/>
-    <attach_6 file="postSchemePTI"/>
+    <attach id="1" file="includePTI"/>
+    <attach id="2" file="init1-PTI"/>
+    <attach id="4" file="init2-PTI"/>
+    <attach id="6" file="postSchemePTI"/>
 </model>
 <!-- attach_1 description ="include" -->
 <!-- attach_2 description ="Init 1" -->
