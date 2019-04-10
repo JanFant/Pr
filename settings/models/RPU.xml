@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model>
-    <attach id="2" file="init1-FP"/>
-    <attach id="3" file="initRPU-VCHS"/>
-    <attach id="4" file="init2-FP"/>
-    <attach id="5" file="postRPU-VCHS"/>
-    <attach id="6" file="postSchemeFP"/>
+    <modif_C>
+        <attach id="1" file="init1-FP"/>
+        <attach id="2" file="initRPU-VCHS"/>
+        <attach id="3" file="init2-FP"/>
+        <attach id="4" file="postRPU-VCHS"/>
+        <attach id="5" file="postSchemeFP"/>
+    </modif_C>
+    <modif_H>
+        <act name="add_VCHS"/>
+    </modif_H>
 </model>
-<!-- attach_1 description ="include" -->
-<!-- attach_2 description ="Init 1" -->
-<!-- attach_3 description ="Init VCHS" -->
-<!-- attach_4 description ="Init 2" -->
-<!-- attach_5 description ="Post VCHS" -->
-<!-- attach_6 description ="Post Sheme" -->
+<!-- attach_1 description ="Init 1" -->
+<!-- attach_2 description ="Init VCHS" -->
+<!-- attach_3 description ="Init 2" -->
+<!-- attach_4 description ="Post VCHS" -->
+<!-- attach_5 description ="Post Sheme" -->

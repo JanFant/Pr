@@ -473,6 +473,10 @@ static ModbusRegister di_MA2S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MA2S[]={  // 
+	{&R0IN01FI2,8,0},	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+	{&R0IN02FI2,8,2},	//( - , SA2) Выход КНК15-1 Гц от ПТИ
+	{&R0IN03FI2,8,4},	//( - , SA2) Выход КНК53М Гц от ПТИ
+	{&R0IS01FI0,3,6},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop

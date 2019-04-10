@@ -9,6 +9,7 @@ static int StepCycle=35;	 // Время цикла в ms
 float takt;
 #define SIZE_BUFFER 3290
 static char BUFFER[3290];
+
 #define A1IS11LDU	 BUFFER[0]	//(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1
 #define idA1IS11LDU	 1	//(do32_pti:140 - K01DO, - ) Приход на ВУ ББ1
 #define A1IS21LDU	 BUFFER[2]	//(do32_pti:140 - K02DO, - ) Приход на НУ ББ1
