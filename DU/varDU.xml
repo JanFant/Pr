@@ -951,76 +951,76 @@
 <var  name="internal2_m21_Nk0" description="(internal2_m21_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m21_SetFlag" description="(internal2_m21_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal1_m198_s" description="(internal1_m198_s) s - запомнили значение" format="1"></var>
-<var  name="internal1_m192_s" description="(internal1_m192_s) s - запомнили значение" format="1"></var>
-<var  name="internal1_m188_s" description="(internal1_m188_s) s - запомнили значение" format="1"></var>
+<var  name="internal1_m195_s" description="(internal1_m195_s) s - запомнили значение" format="1"></var>
+<var  name="internal1_m189_s" description="(internal1_m189_s) s - запомнили значение" format="1"></var>
 <var  name="internal1_m182_s" description="(internal1_m182_s) s - запомнили значение" format="1"></var>
 <var  name="internal1_m179_s" description="(internal1_m179_s) s - запомнили значение" format="1"></var>
 <var  name="internal1_m1707_q0" description="(internal1_m1707_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2142_q0" description="(internal1_m2142_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2126_q0" description="(internal1_m2126_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2174_q0" description="(internal1_m2174_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2158_q0" description="(internal1_m2158_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2148_q0" description="(internal1_m2148_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2129_q0" description="(internal1_m2129_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2140_q0" description="(internal1_m2140_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2124_q0" description="(internal1_m2124_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2172_q0" description="(internal1_m2172_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2156_q0" description="(internal1_m2156_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2146_q0" description="(internal1_m2146_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2127_q0" description="(internal1_m2127_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2125_q0" description="(internal1_m2125_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2124_q0" description="(internal1_m2124_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2138_q0" description="(internal1_m2138_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2136_q0" description="(internal1_m2136_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2144_q0" description="(internal1_m2144_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2140_q0" description="(internal1_m2140_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2180_q0" description="(internal1_m2180_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2161_q0" description="(internal1_m2161_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2125_q0" description="(internal1_m2125_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2123_q0" description="(internal1_m2123_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2122_q0" description="(internal1_m2122_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2136_q0" description="(internal1_m2136_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2134_q0" description="(internal1_m2134_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2142_q0" description="(internal1_m2142_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2138_q0" description="(internal1_m2138_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2178_q0" description="(internal1_m2178_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2160_q0" description="(internal1_m2160_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2157_q0" description="(internal1_m2157_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2156_q0" description="(internal1_m2156_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2170_q0" description="(internal1_m2170_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2159_q0" description="(internal1_m2159_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2176_q0" description="(internal1_m2176_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2158_q0" description="(internal1_m2158_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2155_q0" description="(internal1_m2155_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2154_q0" description="(internal1_m2154_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2168_q0" description="(internal1_m2168_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2045_tx" description="(internal1_m2045_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2024_tx" description="(internal1_m2024_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2166_q0" description="(internal1_m2166_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2043_tx" description="(internal1_m2043_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2022_tx" description="(internal1_m2022_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1729_Pv0" description="(internal1_m1729_Pv0)  - Пер. выключатель механизма" format="1"></var>
 <var  name="internal1_m1729_Zv0" description="(internal1_m1729_Zv0)  - Зад. выключатель механизма" format="1"></var>
 <var  name="internal1_m1729_MyFirstEnterFlag" description="(internal1_m1729_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m1728_Pv0" description="(internal1_m1728_Pv0)  - Пер. выключатель механизма" format="1"></var>
 <var  name="internal1_m1728_Zv0" description="(internal1_m1728_Zv0)  - Зад. выключатель механизма" format="1"></var>
 <var  name="internal1_m1728_MyFirstEnterFlag" description="(internal1_m1728_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m2199_tx" description="(internal1_m2199_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2199_y0" description="(internal1_m2199_y0) y0" format="18"></var>
-<var  name="internal1_m2203_tx" description="(internal1_m2203_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2203_y0" description="(internal1_m2203_y0) y0" format="18"></var>
-<var  name="internal1_m2202_tx" description="(internal1_m2202_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2202_y0" description="(internal1_m2202_y0) y0" format="18"></var>
-<var  name="internal1_m2239_tx" description="(internal1_m2239_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2237_tx" description="(internal1_m2237_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2237_y0" description="(internal1_m2237_y0) y0" format="18"></var>
-<var  name="internal1_m2242_q0" description="(internal1_m2242_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2209_q0" description="(internal1_m2209_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2217_tx" description="(internal1_m2217_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2215_q0" description="(internal1_m2215_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2039_tx" description="(internal1_m2039_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2039_y0" description="(internal1_m2039_y0) y0" format="18"></var>
-<var  name="internal1_m2031_tx" description="(internal1_m2031_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2031_y0" description="(internal1_m2031_y0) y0" format="18"></var>
+<var  name="internal1_m2198_tx" description="(internal1_m2198_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2198_y0" description="(internal1_m2198_y0) y0" format="18"></var>
+<var  name="internal1_m2201_tx" description="(internal1_m2201_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2201_y0" description="(internal1_m2201_y0) y0" format="18"></var>
+<var  name="internal1_m2200_tx" description="(internal1_m2200_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2200_y0" description="(internal1_m2200_y0) y0" format="18"></var>
+<var  name="internal1_m2237_tx" description="(internal1_m2237_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2235_tx" description="(internal1_m2235_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2235_y0" description="(internal1_m2235_y0) y0" format="18"></var>
+<var  name="internal1_m2240_q0" description="(internal1_m2240_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2207_q0" description="(internal1_m2207_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2215_tx" description="(internal1_m2215_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2213_q0" description="(internal1_m2213_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2037_tx" description="(internal1_m2037_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2037_y0" description="(internal1_m2037_y0) y0" format="18"></var>
+<var  name="internal1_m2029_tx" description="(internal1_m2029_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2029_y0" description="(internal1_m2029_y0) y0" format="18"></var>
 <var  name="internal1_m1717_q0" description="(internal1_m1717_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1722_q0" description="(internal1_m1722_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1714_q0" description="(internal1_m1714_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1756_q0" description="(internal1_m1756_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m756_tx" description="(internal1_m756_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m756_y0" description="(internal1_m756_y0) y0" format="18"></var>
-<var  name="internal1_m2035_tx" description="(internal1_m2035_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2038_q0" description="(internal1_m2038_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2030_q0" description="(internal1_m2030_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2000_tx" description="(internal1_m2000_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2011_tx" description="(internal1_m2011_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1997_tx" description="(internal1_m1997_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2003_q0" description="(internal1_m2003_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2015_q0" description="(internal1_m2015_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1973_tx" description="(internal1_m1973_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2033_tx" description="(internal1_m2033_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2036_q0" description="(internal1_m2036_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2028_q0" description="(internal1_m2028_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1998_tx" description="(internal1_m1998_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2009_tx" description="(internal1_m2009_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1995_tx" description="(internal1_m1995_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2001_q0" description="(internal1_m2001_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2013_q0" description="(internal1_m2013_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1971_tx" description="(internal1_m1971_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m57_tx" description="(internal1_m57_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m353_tx" description="(internal1_m353_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m308_tx" description="(internal1_m308_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m307_tx" description="(internal1_m307_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m757_tx" description="(internal1_m757_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1437_tx" description="(internal1_m1437_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m119_tx" description="(internal1_m119_tx) tx - внутренний параметр" format="8"></var>
@@ -1028,35 +1028,35 @@
 <var  name="internal1_m126_tx" description="(internal1_m126_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m24_tx" description="(internal1_m24_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m16_tx" description="(internal1_m16_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1982_tx" description="(internal1_m1982_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1970_tx" description="(internal1_m1970_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2078_tx" description="(internal1_m2078_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2082_tx" description="(internal1_m2082_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1895_tx" description="(internal1_m1895_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1980_tx" description="(internal1_m1980_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1968_tx" description="(internal1_m1968_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2076_tx" description="(internal1_m2076_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2080_tx" description="(internal1_m2080_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1893_tx" description="(internal1_m1893_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m83_tx" description="(internal1_m83_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m322_tx" description="(internal1_m322_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m322_y0" description="(internal1_m322_y0) y0" format="18"></var>
-<var  name="internal1_m1889_tx" description="(internal1_m1889_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1889_y0" description="(internal1_m1889_y0) y0" format="18"></var>
 <var  name="internal1_m1887_tx" description="(internal1_m1887_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1887_y0" description="(internal1_m1887_y0) y0" format="18"></var>
-<var  name="internal1_m1876_tx" description="(internal1_m1876_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1876_y0" description="(internal1_m1876_y0) y0" format="18"></var>
-<var  name="internal1_m1896_q0" description="(internal1_m1896_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1885_tx" description="(internal1_m1885_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1885_y0" description="(internal1_m1885_y0) y0" format="18"></var>
+<var  name="internal1_m1874_tx" description="(internal1_m1874_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1874_y0" description="(internal1_m1874_y0) y0" format="18"></var>
+<var  name="internal1_m1894_q0" description="(internal1_m1894_q0) q0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m1457_q0" description="(internal1_m1457_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1495_q0" description="(internal1_m1495_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1498_q0" description="(internal1_m1498_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1935_q0" description="(internal1_m1935_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1912_tx" description="(internal1_m1912_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1912_y0" description="(internal1_m1912_y0) y0" format="18"></var>
-<var  name="internal1_m1928_tx" description="(internal1_m1928_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1928_y0" description="(internal1_m1928_y0) y0" format="18"></var>
-<var  name="internal1_m1925_tx" description="(internal1_m1925_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1925_y0" description="(internal1_m1925_y0) y0" format="18"></var>
-<var  name="internal1_m2062_tx" description="(internal1_m2062_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2062_y0" description="(internal1_m2062_y0) y0" format="18"></var>
-<var  name="internal1_m2072_tx" description="(internal1_m2072_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2072_y0" description="(internal1_m2072_y0) y0" format="18"></var>
+<var  name="internal1_m1496_q0" description="(internal1_m1496_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1494_q0" description="(internal1_m1494_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1933_q0" description="(internal1_m1933_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1911_tx" description="(internal1_m1911_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1911_y0" description="(internal1_m1911_y0) y0" format="18"></var>
+<var  name="internal1_m1926_tx" description="(internal1_m1926_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1926_y0" description="(internal1_m1926_y0) y0" format="18"></var>
+<var  name="internal1_m1923_tx" description="(internal1_m1923_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1923_y0" description="(internal1_m1923_y0) y0" format="18"></var>
+<var  name="internal1_m2060_tx" description="(internal1_m2060_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2060_y0" description="(internal1_m2060_y0) y0" format="18"></var>
+<var  name="internal1_m2070_tx" description="(internal1_m2070_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2070_y0" description="(internal1_m2070_y0) y0" format="18"></var>
 <var  name="internal1_m1824_tx" description="(internal1_m1824_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1824_y0" description="(internal1_m1824_y0) y0" format="18"></var>
 <var  name="internal1_m1823_tx" description="(internal1_m1823_tx) tx - время накопленное сек" format="8"></var>
@@ -1071,22 +1071,22 @@
 <var  name="internal1_m1503_y0" description="(internal1_m1503_y0) y0" format="18"></var>
 <var  name="internal1_m1453_tx" description="(internal1_m1453_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1453_y0" description="(internal1_m1453_y0) y0" format="18"></var>
-<var  name="internal1_m840_tx" description="(internal1_m840_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m840_y0" description="(internal1_m840_y0) y0" format="18"></var>
+<var  name="internal1_m838_tx" description="(internal1_m838_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m838_y0" description="(internal1_m838_y0) y0" format="18"></var>
 <var  name="internal1_m837_tx" description="(internal1_m837_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m837_y0" description="(internal1_m837_y0) y0" format="18"></var>
 <var  name="internal1_m844_tx" description="(internal1_m844_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m844_y0" description="(internal1_m844_y0) y0" format="18"></var>
 <var  name="internal1_m203_tx" description="(internal1_m203_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m203_y0" description="(internal1_m203_y0) y0" format="18"></var>
-<var  name="internal1_m208_tx" description="(internal1_m208_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m208_y0" description="(internal1_m208_y0) y0" format="18"></var>
+<var  name="internal1_m207_tx" description="(internal1_m207_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m207_y0" description="(internal1_m207_y0) y0" format="18"></var>
 <var  name="internal1_m214_tx" description="(internal1_m214_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m214_y0" description="(internal1_m214_y0) y0" format="18"></var>
 <var  name="internal1_m533_tx" description="(internal1_m533_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m533_y0" description="(internal1_m533_y0) y0" format="18"></var>
-<var  name="internal1_m2110_tx" description="(internal1_m2110_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1197_tx" description="(internal1_m1197_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2108_tx" description="(internal1_m2108_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1198_tx" description="(internal1_m1198_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1623_tx" description="(internal1_m1623_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1623_y0" description="(internal1_m1623_y0) y0" format="18"></var>
 <var  name="internal1_m1148_tx" description="(internal1_m1148_tx) tx - время накопленное сек" format="8"></var>
@@ -1111,16 +1111,16 @@
 <var  name="internal1_m1446_x0" description="(internal1_m1446_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m1490_x0" description="(internal1_m1490_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m1486_x0" description="(internal1_m1486_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
-<var  name="internal1_m1904_x0" description="(internal1_m1904_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
-<var  name="internal1_m1869_x0" description="(internal1_m1869_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
+<var  name="internal1_m1902_x0" description="(internal1_m1902_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
+<var  name="internal1_m1867_x0" description="(internal1_m1867_x0) x0 - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m1036_q0" description="(internal1_m1036_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1048_q0" description="(internal1_m1048_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1060_q0" description="(internal1_m1060_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1072_q0" description="(internal1_m1072_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1070_q0" description="(internal1_m1070_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1047_q0" description="(internal1_m1047_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1062_q0" description="(internal1_m1062_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1962_q0" description="(internal1_m1962_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1961_q0" description="(internal1_m1961_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1960_q0" description="(internal1_m1960_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1959_q0" description="(internal1_m1959_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m341_Step" description="(internal1_m341_Step)  - текущий шаг программы" format="3"></var>
 <var  name="internal1_m341_rz" description="(internal1_m341_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="10"></var>
 <var  name="internal1_m341_TimS" description="(internal1_m341_TimS) Время от старта программы" format="8"></var>
@@ -1133,7 +1133,7 @@
 <var  name="internal1_m341_sbVuRB0" description="(internal1_m341_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
 <var  name="internal1_m341_MyFirstEnterFlag" description="(internal1_m341_MyFirstEnterFlag)  " format="1"></var>
 <var  name="internal1_m349_x0" description="(internal1_m349_x0) x0 - значение входного параметра на предыдущем шаге" format="5"></var>
-<var  name="internal1_m307_TimS" description="(internal1_m307_TimS) Время старта" format="5"></var>
+<var  name="internal1_m309_TimS" description="(internal1_m309_TimS) Время старта" format="5"></var>
 <var  name="internal1_m284_Step" description="(internal1_m284_Step)  - текущий шаг программы" format="3"></var>
 <var  name="internal1_m284_rz" description="(internal1_m284_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="10"></var>
 <var  name="internal1_m284_TimS" description="(internal1_m284_TimS) Время от старта программы" format="8"></var>
@@ -1157,21 +1157,21 @@
 <var  name="internal1_m1421_sbNupIS0" description="(internal1_m1421_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС" format="1"></var>
 <var  name="internal1_m1421_sbVuRB0" description="(internal1_m1421_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
 <var  name="internal1_m1421_MyFirstEnterFlag" description="(internal1_m1421_MyFirstEnterFlag)  " format="1"></var>
+<var  name="internal1_m1032_q0" description="(internal1_m1032_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1029_q0" description="(internal1_m1029_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1031_q0" description="(internal1_m1031_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1028_q0" description="(internal1_m1028_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1030_q0" description="(internal1_m1030_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1025_q0" description="(internal1_m1025_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m758_q0" description="(internal1_m758_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m351_q0" description="(internal1_m351_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m347_q0" description="(internal1_m347_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m304_q0" description="(internal1_m304_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m303_x0" description="(internal1_m303_x0) x0 - значение входного параметра на предыдущем шаге" format="5"></var>
-<var  name="internal1_m1891_q0" description="(internal1_m1891_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1879_q0" description="(internal1_m1879_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1870_q0" description="(internal1_m1870_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1945_q0" description="(internal1_m1945_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1915_q0" description="(internal1_m1915_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1905_q0" description="(internal1_m1905_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1889_q0" description="(internal1_m1889_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1877_q0" description="(internal1_m1877_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1868_q0" description="(internal1_m1868_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1943_q0" description="(internal1_m1943_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1914_q0" description="(internal1_m1914_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1903_q0" description="(internal1_m1903_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1473_q0" description="(internal1_m1473_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1460_x0" description="(internal1_m1460_x0) был приход сигнала x1" format="1"></var>
 <var  name="internal1_m1460_y0" description="(internal1_m1460_y0) интервал между сигналами х1 и х2" format="8"></var>
@@ -1188,7 +1188,7 @@
 <var  name="internal1_m1527_q0" description="(internal1_m1527_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m648_q0" description="(internal1_m648_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m633_q0" description="(internal1_m633_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m660_q0" description="(internal1_m660_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m661_q0" description="(internal1_m661_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m644_q0" description="(internal1_m644_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m628_q0" description="(internal1_m628_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m626_q0" description="(internal1_m626_q0) q0 - внутренний параметр" format="1"></var>
@@ -1203,14 +1203,14 @@
 <var  name="internal1_m1694_q0" description="(internal1_m1694_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1693_q0" description="(internal1_m1693_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1692_q0" description="(internal1_m1692_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1976_q0" description="(internal1_m1976_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1974_q0" description="(internal1_m1974_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1754_q0" description="(internal1_m1754_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1746_q0" description="(internal1_m1746_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1743_q0" description="(internal1_m1743_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1751_q0" description="(internal1_m1751_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1740_q0" description="(internal1_m1740_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1748_q0" description="(internal1_m1748_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2176_q0" description="(internal1_m2176_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2172_q0" description="(internal1_m2172_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2174_q0" description="(internal1_m2174_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2170_q0" description="(internal1_m2170_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1719_q0" description="(internal1_m1719_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1711_q0" description="(internal1_m1711_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1709_q0" description="(internal1_m1709_q0) q0 - внутренний параметр" format="1"></var>
@@ -1224,11 +1224,11 @@
 <var  name="internal1_m1678_q0" description="(internal1_m1678_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1674_q0" description="(internal1_m1674_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1672_q0" description="(internal1_m1672_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2092_q0" description="(internal1_m2092_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2087_q0" description="(internal1_m2087_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2066_q0" description="(internal1_m2066_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2054_q0" description="(internal1_m2054_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1987_q0" description="(internal1_m1987_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2090_q0" description="(internal1_m2090_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2085_q0" description="(internal1_m2085_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2064_q0" description="(internal1_m2064_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2052_q0" description="(internal1_m2052_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1985_q0" description="(internal1_m1985_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1668_q0" description="(internal1_m1668_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1670_q0" description="(internal1_m1670_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1654_q0" description="(internal1_m1654_q0) q0 - внутренний параметр" format="1"></var>
@@ -1239,41 +1239,41 @@
 <var  name="internal1_m1645_q0" description="(internal1_m1645_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1644_q0" description="(internal1_m1644_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1642_q0" description="(internal1_m1642_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2115_DvUp0" description="(internal1_m2115_DvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m2115_DvDw0" description="(internal1_m2115_DvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m2115_FDvUp0" description="(internal1_m2115_FDvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m2115_FDvDw0" description="(internal1_m2115_FDvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m2115_BlDv0" description="(internal1_m2115_BlDv0) - была блокировка" format="18"></var>
-<var  name="internal1_m2115_Pkv0" description="(internal1_m2115_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
-<var  name="internal1_m2115_Pkav0" description="(internal1_m2115_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m2115_Zkv0" description="(internal1_m2115_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
-<var  name="internal1_m2115_Zkav0" description="(internal1_m2115_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m2115_txNm" description="(internal1_m2115_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
-<var  name="internal1_m2115_txSm" description="(internal1_m2115_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
-<var  name="internal1_m2115_txHr" description="(internal1_m2115_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
-<var  name="internal1_m2115_txLd" description="(internal1_m2115_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
-<var  name="internal1_m2115_fef" description="(internal1_m2115_fef) fef" format="18"></var>
-<var  name="internal1_m2109_DvUp0" description="(internal1_m2109_DvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m2109_DvDw0" description="(internal1_m2109_DvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m2109_FDvUp0" description="(internal1_m2109_FDvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m2109_FDvDw0" description="(internal1_m2109_FDvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m2109_BlDv0" description="(internal1_m2109_BlDv0) - была блокировка" format="18"></var>
-<var  name="internal1_m2109_Pkv0" description="(internal1_m2109_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
-<var  name="internal1_m2109_Pkav0" description="(internal1_m2109_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m2109_Zkv0" description="(internal1_m2109_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
-<var  name="internal1_m2109_Zkav0" description="(internal1_m2109_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m2109_txNm" description="(internal1_m2109_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
-<var  name="internal1_m2109_txSm" description="(internal1_m2109_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
-<var  name="internal1_m2109_txHr" description="(internal1_m2109_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
-<var  name="internal1_m2109_txLd" description="(internal1_m2109_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
-<var  name="internal1_m2109_fef" description="(internal1_m2109_fef) fef" format="18"></var>
-<var  name="internal1_m1497_q0" description="(internal1_m1497_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2113_DvUp0" description="(internal1_m2113_DvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m2113_DvDw0" description="(internal1_m2113_DvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m2113_FDvUp0" description="(internal1_m2113_FDvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m2113_FDvDw0" description="(internal1_m2113_FDvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m2113_BlDv0" description="(internal1_m2113_BlDv0) - была блокировка" format="18"></var>
+<var  name="internal1_m2113_Pkv0" description="(internal1_m2113_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
+<var  name="internal1_m2113_Pkav0" description="(internal1_m2113_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m2113_Zkv0" description="(internal1_m2113_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
+<var  name="internal1_m2113_Zkav0" description="(internal1_m2113_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m2113_txNm" description="(internal1_m2113_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
+<var  name="internal1_m2113_txSm" description="(internal1_m2113_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
+<var  name="internal1_m2113_txHr" description="(internal1_m2113_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
+<var  name="internal1_m2113_txLd" description="(internal1_m2113_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
+<var  name="internal1_m2113_fef" description="(internal1_m2113_fef) fef" format="18"></var>
+<var  name="internal1_m2107_DvUp0" description="(internal1_m2107_DvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m2107_DvDw0" description="(internal1_m2107_DvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m2107_FDvUp0" description="(internal1_m2107_FDvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m2107_FDvDw0" description="(internal1_m2107_FDvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m2107_BlDv0" description="(internal1_m2107_BlDv0) - была блокировка" format="18"></var>
+<var  name="internal1_m2107_Pkv0" description="(internal1_m2107_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
+<var  name="internal1_m2107_Pkav0" description="(internal1_m2107_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m2107_Zkv0" description="(internal1_m2107_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
+<var  name="internal1_m2107_Zkav0" description="(internal1_m2107_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m2107_txNm" description="(internal1_m2107_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
+<var  name="internal1_m2107_txSm" description="(internal1_m2107_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
+<var  name="internal1_m2107_txHr" description="(internal1_m2107_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
+<var  name="internal1_m2107_txLd" description="(internal1_m2107_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
+<var  name="internal1_m2107_fef" description="(internal1_m2107_fef) fef" format="18"></var>
+<var  name="internal1_m1498_q0" description="(internal1_m1498_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1501_x0" description="(internal1_m1501_x0) был приход сигнала x1" format="1"></var>
 <var  name="internal1_m1501_y0" description="(internal1_m1501_y0) интервал между сигналами х1 и х2" format="8"></var>
-<var  name="internal1_m1927_x0" description="(internal1_m1927_x0) был приход сигнала x1" format="1"></var>
-<var  name="internal1_m1927_y0" description="(internal1_m1927_y0) интервал между сигналами х1 и х2" format="8"></var>
-<var  name="internal1_m1888_x0" description="(internal1_m1888_x0) был приход сигнала x1" format="1"></var>
-<var  name="internal1_m1888_y0" description="(internal1_m1888_y0) интервал между сигналами х1 и х2" format="8"></var>
+<var  name="internal1_m1925_x0" description="(internal1_m1925_x0) был приход сигнала x1" format="1"></var>
+<var  name="internal1_m1925_y0" description="(internal1_m1925_y0) интервал между сигналами х1 и х2" format="8"></var>
+<var  name="internal1_m1886_x0" description="(internal1_m1886_x0) был приход сигнала x1" format="1"></var>
+<var  name="internal1_m1886_y0" description="(internal1_m1886_y0) интервал между сигналами х1 и х2" format="8"></var>
 <var  name="internal1_m295_q0" description="(internal1_m295_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1005_q0" description="(internal1_m1005_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m636_q0" description="(internal1_m636_q0) q0 - внутренний параметр" format="1"></var>
@@ -1282,8 +1282,8 @@
 <var  name="internal1_m1320_BLDv0" description="(internal1_m1320_BLDv0) BlDv - Блокировка движения" format="18"></var>
 <var  name="internal1_m1339_tx" description="(internal1_m1339_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1339_y0" description="(internal1_m1339_y0) y0" format="18"></var>
-<var  name="internal1_m1340_tx" description="(internal1_m1340_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1340_y0" description="(internal1_m1340_y0) y0" format="18"></var>
+<var  name="internal1_m1341_tx" description="(internal1_m1341_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1341_y0" description="(internal1_m1341_y0) y0" format="18"></var>
 <var  name="internal1_m1348_xptr" description="(internal1_m1348_xptr) указатель текущей позиции в массиве координат" format="3"></var>
 <var  name="internal1_m1348_x0" description="(internal1_m1348_x0) x0 - массив мгновенных значений координат" format="8" size="60"></var>
 <var  name="internal1_m1348_tim0" description="(internal1_m1348_tim0) tim0 - массив значений времени цикла" format="8" size="60"></var>
@@ -1337,8 +1337,8 @@
 <var  name="internal1_m505_BLDv0" description="(internal1_m505_BLDv0) BlDv - Блокировка движения" format="18"></var>
 <var  name="internal1_m525_tx" description="(internal1_m525_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m525_y0" description="(internal1_m525_y0) y0" format="18"></var>
-<var  name="internal1_m528_tx" description="(internal1_m528_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m528_y0" description="(internal1_m528_y0) y0" format="18"></var>
+<var  name="internal1_m526_tx" description="(internal1_m526_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m526_y0" description="(internal1_m526_y0) y0" format="18"></var>
 <var  name="internal1_m532_xptr" description="(internal1_m532_xptr) указатель текущей позиции в массиве координат" format="3"></var>
 <var  name="internal1_m532_x0" description="(internal1_m532_x0) x0 - массив мгновенных значений координат" format="8" size="150"></var>
 <var  name="internal1_m532_tim0" description="(internal1_m532_tim0) tim0 - массив значений времени цикла" format="8" size="150"></var>
@@ -1472,8 +1472,8 @@
 <var  name="internal1_m649_q0" description="(internal1_m649_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1615_tx" description="(internal1_m1615_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1615_y0" description="(internal1_m1615_y0) y0" format="18"></var>
-<var  name="internal1_m1619_tx" description="(internal1_m1619_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1619_y0" description="(internal1_m1619_y0) y0" format="18"></var>
+<var  name="internal1_m1617_tx" description="(internal1_m1617_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1617_y0" description="(internal1_m1617_y0) y0" format="18"></var>
 <var  name="internal1_m1605_DvUp0" description="(internal1_m1605_DvUp0) - есть команда на движение вперёд" format="18"></var>
 <var  name="internal1_m1605_DvDw0" description="(internal1_m1605_DvDw0) - есть команда на движение назад" format="18"></var>
 <var  name="internal1_m1605_FDvUp0" description="(internal1_m1605_FDvUp0) - есть команда на движение вперёд" format="18"></var>
@@ -1514,20 +1514,20 @@
 <var  name="internal1_m1143_y0" description="(internal1_m1143_y0) y0" format="18"></var>
 <var  name="internal1_m639_q0" description="(internal1_m639_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m604_q0" description="(internal1_m604_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1129_DvUp0" description="(internal1_m1129_DvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m1129_DvDw0" description="(internal1_m1129_DvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m1129_FDvUp0" description="(internal1_m1129_FDvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m1129_FDvDw0" description="(internal1_m1129_FDvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m1129_BlDv0" description="(internal1_m1129_BlDv0) - была блокировка" format="18"></var>
-<var  name="internal1_m1129_Pkv0" description="(internal1_m1129_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
-<var  name="internal1_m1129_Pkav0" description="(internal1_m1129_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m1129_Zkv0" description="(internal1_m1129_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
-<var  name="internal1_m1129_Zkav0" description="(internal1_m1129_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m1129_txNm" description="(internal1_m1129_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
-<var  name="internal1_m1129_txSm" description="(internal1_m1129_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
-<var  name="internal1_m1129_txHr" description="(internal1_m1129_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
-<var  name="internal1_m1129_txLd" description="(internal1_m1129_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
-<var  name="internal1_m1129_fef" description="(internal1_m1129_fef) fef" format="18"></var>
+<var  name="internal1_m1130_DvUp0" description="(internal1_m1130_DvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m1130_DvDw0" description="(internal1_m1130_DvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m1130_FDvUp0" description="(internal1_m1130_FDvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m1130_FDvDw0" description="(internal1_m1130_FDvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m1130_BlDv0" description="(internal1_m1130_BlDv0) - была блокировка" format="18"></var>
+<var  name="internal1_m1130_Pkv0" description="(internal1_m1130_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
+<var  name="internal1_m1130_Pkav0" description="(internal1_m1130_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m1130_Zkv0" description="(internal1_m1130_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
+<var  name="internal1_m1130_Zkav0" description="(internal1_m1130_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m1130_txNm" description="(internal1_m1130_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
+<var  name="internal1_m1130_txSm" description="(internal1_m1130_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
+<var  name="internal1_m1130_txHr" description="(internal1_m1130_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
+<var  name="internal1_m1130_txLd" description="(internal1_m1130_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
+<var  name="internal1_m1130_fef" description="(internal1_m1130_fef) fef" format="18"></var>
 <var  name="internal1_m1147_xptr" description="(internal1_m1147_xptr) указатель текущей позиции в массиве координат" format="3"></var>
 <var  name="internal1_m1147_x0" description="(internal1_m1147_x0) x0 - массив мгновенных значений координат" format="8" size="20"></var>
 <var  name="internal1_m1147_tim0" description="(internal1_m1147_tim0) tim0 - массив значений времени цикла" format="8" size="20"></var>
@@ -1558,20 +1558,20 @@
 <var  name="internal1_m753_q0" description="(internal1_m753_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m765_q0" description="(internal1_m765_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m743_q0" description="(internal1_m743_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1199_DvUp0" description="(internal1_m1199_DvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m1199_DvDw0" description="(internal1_m1199_DvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m1199_FDvUp0" description="(internal1_m1199_FDvUp0) - есть команда на движение вперёд" format="18"></var>
-<var  name="internal1_m1199_FDvDw0" description="(internal1_m1199_FDvDw0) - есть команда на движение назад" format="18"></var>
-<var  name="internal1_m1199_BlDv0" description="(internal1_m1199_BlDv0) - была блокировка" format="18"></var>
-<var  name="internal1_m1199_Pkv0" description="(internal1_m1199_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
-<var  name="internal1_m1199_Pkav0" description="(internal1_m1199_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m1199_Zkv0" description="(internal1_m1199_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
-<var  name="internal1_m1199_Zkav0" description="(internal1_m1199_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
-<var  name="internal1_m1199_txNm" description="(internal1_m1199_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
-<var  name="internal1_m1199_txSm" description="(internal1_m1199_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
-<var  name="internal1_m1199_txHr" description="(internal1_m1199_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
-<var  name="internal1_m1199_txLd" description="(internal1_m1199_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
-<var  name="internal1_m1199_fef" description="(internal1_m1199_fef) fef" format="18"></var>
+<var  name="internal1_m1200_DvUp0" description="(internal1_m1200_DvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m1200_DvDw0" description="(internal1_m1200_DvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m1200_FDvUp0" description="(internal1_m1200_FDvUp0) - есть команда на движение вперёд" format="18"></var>
+<var  name="internal1_m1200_FDvDw0" description="(internal1_m1200_FDvDw0) - есть команда на движение назад" format="18"></var>
+<var  name="internal1_m1200_BlDv0" description="(internal1_m1200_BlDv0) - была блокировка" format="18"></var>
+<var  name="internal1_m1200_Pkv0" description="(internal1_m1200_Pkv0) Pkv - передний конечный выключатель" format="18"></var>
+<var  name="internal1_m1200_Pkav0" description="(internal1_m1200_Pkav0) Pkav - передний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m1200_Zkv0" description="(internal1_m1200_Zkv0) Zkv - задний конечный выключатель" format="18"></var>
+<var  name="internal1_m1200_Zkav0" description="(internal1_m1200_Zkav0) Zkav - задний конечный аварийный выключатель" format="18"></var>
+<var  name="internal1_m1200_txNm" description="(internal1_m1200_txNm) txNm - счётчик задержки сигнализации недвижения" format="8"></var>
+<var  name="internal1_m1200_txSm" description="(internal1_m1200_txSm) txSm - счётчик задержки сигнализации самохода" format="8"></var>
+<var  name="internal1_m1200_txHr" description="(internal1_m1200_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения" format="8"></var>
+<var  name="internal1_m1200_txLd" description="(internal1_m1200_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
+<var  name="internal1_m1200_fef" description="(internal1_m1200_fef) fef" format="18"></var>
 <var  name="internal1_m1189_DvUp0" description="(internal1_m1189_DvUp0) - есть команда на движение вперёд" format="18"></var>
 <var  name="internal1_m1189_DvDw0" description="(internal1_m1189_DvDw0) - есть команда на движение назад" format="18"></var>
 <var  name="internal1_m1189_FDvUp0" description="(internal1_m1189_FDvUp0) - есть команда на движение вперёд" format="18"></var>
