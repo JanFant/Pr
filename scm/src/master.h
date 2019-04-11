@@ -4127,7 +4127,7 @@ static ModbusDevice modbuses[]={
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
-#include "drivers/ao16.h"
+#include <drivers/ao16.h>
 static char buf_AO1601[127];	//AO16
 static ao16_inimod ini_AO1601={0xffff,120,0x43,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
@@ -4150,7 +4150,7 @@ static DriverRegister def_buf_AO1601[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F01[137];	//do32_5f(0x100)
 static do32_pti_inipar ini_DO32_5F01={0,};
 #pragma pack(push,1)
@@ -4171,7 +4171,7 @@ static DriverRegister def_buf_DO32_5F01[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F02[137];	//do32_5f(0x110)
 static do32_pti_inipar ini_DO32_5F02={0,};
 #pragma pack(push,1)
@@ -4189,7 +4189,7 @@ static DriverRegister def_buf_DO32_5F02[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F08[137];	//do32_5f(0x130)
 static do32_pti_inipar ini_DO32_5F08={0,};
 #pragma pack(push,1)
@@ -4221,7 +4221,7 @@ static DriverRegister def_buf_DO32_5F08[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F09[137];	//do32_5f(0x140)
 static do32_pti_inipar ini_DO32_5F09={0,};
 #pragma pack(push,1)
@@ -4251,7 +4251,7 @@ static DriverRegister def_buf_DO32_5F09[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F05[137];	//do32_5f(0x150)
 static do32_pti_inipar ini_DO32_5F05={0,};
 #pragma pack(push,1)
@@ -4275,7 +4275,7 @@ static DriverRegister def_buf_DO32_5F05[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/do32_pti.h"
+#include <drivers/do32_pti.h>
 static char buf_DO32_5F06[137];	//do32_5f(0x160)
 static do32_pti_inipar ini_DO32_5F06={0,};
 #pragma pack(push,1)
@@ -4286,7 +4286,7 @@ static DriverRegister def_buf_DO32_5F06[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/emul8enc.h"
+#include <drivers/emul8enc.h>
 static char buf_em8enc120[40];	//em8enc(0x120)
 static em8encpti_inimod ini_em8enc120={0x340,0x4,};
 #pragma pack(push,1)
@@ -4297,7 +4297,7 @@ static DriverRegister def_buf_em8enc120[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/vds32_pti.h"
+#include <drivers/vds32_pti.h>
 static char buf_VDS32F07[66];	//vds32f2(0x340)
 static vds32pti_inimod ini_VDS32F07={0,};
 #pragma pack(push,1)
@@ -4329,7 +4329,7 @@ static DriverRegister def_buf_VDS32F07[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/vds32_pti.h"
+#include <drivers/vds32_pti.h>
 static char buf_VDS32F10[66];	//vds32f2(0x360)
 static vds32pti_inimod ini_VDS32F10={0,};
 #pragma pack(push,1)
@@ -4371,7 +4371,7 @@ static DriverRegister def_buf_VDS32F10[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include "drivers/vds32_pti.h"
+#include <drivers/vds32_pti.h>
 static char buf_VDS32F11[66];	//vds32f2(0x310)
 static vds32pti_inimod ini_VDS32F11={0,};
 #pragma pack(push,1)
@@ -4841,76 +4841,77 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(685,246.8);
 	setAsFloat(686,1);
 }
+
 uspaint8 InternalBuf[814];
 
-/* Определение констант ПЗУ и ЭСППЗУ*/
-ssbool lRM_1_ = {1,0}; /* Флаг наличия магнита на штоке ОРР */ 
-ssfloat fRM_0_ = {0,0}; /* Заглушка давления на подъём ББ1 */ 
-ssfloat fRM_1_ = {1,0}; /* *Vm - массив скоростей движения (шагов в секунду) */ 
-ssbool lRM_0_ = {0,0}; /* Флаг наличия магнита на штоке ОРР */ 
-ssfloat fRM_1_0 = {1.0,0}; /* Номинальная скорость БЗ (град/с) */ 
-ssfloat fRM_180_0 = {180.0,0}; /* Координата верхнего путевого выключателя БЗ град */ 
-ssfloat fRM_0_0 = {0.0,0}; /* Координата нижних упоров БЗ град */ 
-ssfloat fRM_n50_ = {-50,0}; /* Координата нижнего путевого выключателя БЗ град */ 
-ssfloat fRM_2000_0 = {2000.0,0}; /* Координата верхнего путевого выключателя МДЗ мм */ 
-ssfloat fRM_n150_ = {-150,0}; /* Координата нижнего путевого выключателя МДЗ мм */ 
-ssfloat fRM_1500_0 = {1500.0,0}; /* Координата верхнего механического выключателя НЛ мм */ 
+/* ����������� �������� ��� � ������*/
+ssbool lRM_1_ = {1,0}; /* ���� ������� ������� �� ����� ��� */ 
+ssfloat fRM_0_ = {0,0}; /* �������� �������� �� ������ ��1 */ 
+ssfloat fRM_1_ = {1,0}; /* *Vm - ������ ��������� �������� (����� � �������) */ 
+ssbool lRM_0_ = {0,0}; /* ���� ������� ������� �� ����� ��� */ 
+ssfloat fRM_1_0 = {1.0,0}; /* ����������� �������� �� (����/�) */ 
+ssfloat fRM_180_0 = {180.0,0}; /* ���������� �������� �������� ����������� �� ���� */ 
+ssfloat fRM_0_0 = {0.0,0}; /* ���������� ������ ������ �� ���� */ 
+ssfloat fRM_n50_ = {-50,0}; /* ���������� ������� �������� ����������� �� ���� */ 
+ssfloat fRM_2000_0 = {2000.0,0}; /* ���������� �������� �������� ����������� ��� �� */ 
+ssfloat fRM_n150_ = {-150,0}; /* ���������� ������� �������� ����������� ��� �� */ 
+ssfloat fRM_1500_0 = {1500.0,0}; /* ���������� �������� ������������� ����������� �� �� */ 
 ssint iRM_7_ = {7,0}; /* N */ 
-ssfloat fRM_390_ = {390,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_420_ = {420,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_513_ = {513,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_767_ = {767,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_900_ = {900,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_1200_ = {1200,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_1500_ = {1500,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_3_546 = {3.546,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_2_7 = {2.7,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_2_ = {2,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_88884 = {0.88884,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_6221739 = {0.6221739,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_35555072 = {0.35555072,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_2666666667 = {0.2666666667,0}; /* Bi, i=1..N -ординаты опорных точек */ 
+ssfloat fRM_390_ = {390,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_420_ = {420,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_513_ = {513,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_767_ = {767,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_900_ = {900,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_1200_ = {1200,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_1500_ = {1500,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_3_546 = {3.546,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_2_7 = {2.7,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_2_ = {2,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_88884 = {0.88884,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_6221739 = {0.6221739,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_35555072 = {0.35555072,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_2666666667 = {0.2666666667,0}; /* Bi, i=1..N -�������� ������� ����� */ 
 ssint iRM_5_ = {5,0}; /* N */ 
-ssfloat fRM_600_ = {600,0}; /* Ai, i=1..N -абсциссы опорных точек */ 
-ssfloat fRM_0_5 = {0.5,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_2 = {0.2,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_088884 = {0.088884,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_066666667 = {0.066666667,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_02173913 = {0.02173913,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_002453 = {0.002453,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_00184 = {0.00184,0}; /* Bi, i=1..N -ординаты опорных точек */ 
-ssfloat fRM_0_10 = {0.10,0}; /* Зона срабатывания КВ БЗ(мм) */ 
-ssfloat fRM_0_50 = {0.50,0}; /* Зона срабатывания КВ МДЗ (мм) */ 
-ssint iRM_2_ = {2,0}; /* n - N-размерность массива x */ 
-ssint iRM_3_ = {3,0}; /* N-число входов */ 
-ssint iRM_4_ = {4,0}; /* N-число входов */ 
-ssint iRM_0_ = {0,0}; /* Ter - Неисправности механизма */ 
-ssfloat fRM_100000_ = {100000,0}; /* KPv - координата пер. выключателя механизма мм */ 
-ssfloat fRM_n100_ = {-100,0}; /* KZv - координата зад. выключателя механизма мм */ 
-ssfloat fRM_20_ = {20,0}; /* Tp - Тормозной путь мм */ 
-sschar bRM_2_ = {2,0}; /* type - тип камеры */ 
-sschar bRM_4_ = {4,0}; /* type - тип камеры */ 
-sschar bRM_5_ = {5,0}; /* type - тип камеры */ 
-sschar bRM_1_ = {1,0}; /* type - тип камеры */ 
-ssint iRM_500_ = {500,0}; /* tz - ширина импульса, 10-ки мс */ 
-ssfloat fRM_3_ = {3,0}; /* m1 - величина отклонения второго сигнала от входного */ 
-ssfloat fRM_2_0 = {2.0,0}; /* ampl - амплетуда синусоидального отклонения */ 
-ssint iRM_719_ = {719,0}; /* min - минимальное возможное значение выходного сигнала */ 
-ssint iRM_4195_ = {4195,0}; /* max - максимальное возможное значение выходного сигнала */ 
-ssfloat fRM_3276_ = {3276,0}; /* c   - мин. значение кода ФАС */ 
-ssfloat fRM_16383_ = {16383,0}; /* d - макс.  значение кода ФАС */ 
-ssfloat fRM_200_ = {200,0}; /* maxs1 - макc. значение второго сигнала */ 
-ssfloat fRM_0_0015 = {0.0015,0}; /* m1 - величина отклонения второго сигнала от входного */ 
-ssfloat fRM_0_001 = {0.001,0}; /* ampl - амплетуда синусоидального отклонения */ 
-ssfloat fRM_0_1 = {0.1,0}; /* k - коэффициент усиления */ 
-ssint iRM_16_ = {16,0}; /* n - N-размерность массива входных параметров */ 
-ssfloat fRM_2000_ = {2000,0}; /* maxs1 - макc. значение второго сигнала */ 
-ssfloat fRM_15_ = {15,0}; /* m1 - величина отклонения второго сигнала от входного */ 
-ssint iRM_1_ = {1,0}; /* признак константа */ 
+ssfloat fRM_600_ = {600,0}; /* Ai, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_5 = {0.5,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_2 = {0.2,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_088884 = {0.088884,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_066666667 = {0.066666667,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_02173913 = {0.02173913,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_002453 = {0.002453,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_00184 = {0.00184,0}; /* Bi, i=1..N -�������� ������� ����� */ 
+ssfloat fRM_0_10 = {0.10,0}; /* ���� ������������ �� ��(��) */ 
+ssfloat fRM_0_50 = {0.50,0}; /* ���� ������������ �� ��� (��) */ 
+ssint iRM_2_ = {2,0}; /* n - N-����������� ������� x */ 
+ssint iRM_3_ = {3,0}; /* N-����� ������ */ 
+ssint iRM_4_ = {4,0}; /* N-����� ������ */ 
+ssint iRM_0_ = {0,0}; /* Ter - ������������� ��������� */ 
+ssfloat fRM_100000_ = {100000,0}; /* KPv - ���������� ���. ����������� ��������� �� */ 
+ssfloat fRM_n100_ = {-100,0}; /* KZv - ���������� ���. ����������� ��������� �� */ 
+ssfloat fRM_20_ = {20,0}; /* Tp - ��������� ���� �� */ 
+sschar bRM_2_ = {2,0}; /* type - ��� ������ */ 
+sschar bRM_4_ = {4,0}; /* type - ��� ������ */ 
+sschar bRM_5_ = {5,0}; /* type - ��� ������ */ 
+sschar bRM_1_ = {1,0}; /* type - ��� ������ */ 
+ssint iRM_500_ = {500,0}; /* tz - ������ ��������, 10-�� �� */ 
+ssfloat fRM_3_ = {3,0}; /* m1 - �������� ���������� ������� ������� �� �������� */ 
+ssfloat fRM_2_0 = {2.0,0}; /* ampl - ��������� ��������������� ���������� */ 
+ssint iRM_719_ = {719,0}; /* min - ����������� ��������� �������� ��������� ������� */ 
+ssint iRM_4195_ = {4195,0}; /* max - ������������ ��������� �������� ��������� ������� */ 
+ssfloat fRM_3276_ = {3276,0}; /* c   - ���. �������� ���� ��� */ 
+ssfloat fRM_16383_ = {16383,0}; /* d - ����.  �������� ���� ��� */ 
+ssfloat fRM_200_ = {200,0}; /* maxs1 - ���c. �������� ������� ������� */ 
+ssfloat fRM_0_0015 = {0.0015,0}; /* m1 - �������� ���������� ������� ������� �� �������� */ 
+ssfloat fRM_0_001 = {0.001,0}; /* ampl - ��������� ��������������� ���������� */ 
+ssfloat fRM_0_1 = {0.1,0}; /* k - ����������� �������� */ 
+ssint iRM_16_ = {16,0}; /* n - N-����������� ������� ������� ���������� */ 
+ssfloat fRM_2000_ = {2000,0}; /* maxs1 - ���c. �������� ������� ������� */ 
+ssfloat fRM_15_ = {15,0}; /* m1 - �������� ���������� ������� ������� �� �������� */ 
+ssint iRM_1_ = {1,0}; /* ������� ��������� */ 
 
 uspaint8 SpaEEPROMBuf[1776];
 
-/* Определение переменных */
+/* ����������� ���������� */
 ssfloat var1;
 ssfloat var2;
 ssfloat var3;
@@ -5253,7 +5254,7 @@ ssbool vainSBool;
 sschar vainSChar;
 char vainSText[] = "";
 
-/* Объявление массивов */
+/* ���������� �������� */
 psbool  array_m357_x_1[16] = {&lEM_R8AD10LC1,&lEM_R8AD10LC1,&var329,&var187,&var181,&var271,&var269,&var263,&var260,&var276,&var319,&var314,&var305,&var295,&var289,&R0MW13LP2};
 psbool  array_m922_x_1[2] = {&lEM_R0IE02LRP,&lEM_R0IE01LRP};
 psbool  array_m917_x_1[2] = {&var167,&R0MW13LP2};
@@ -5288,7 +5289,7 @@ psfloat  array_m229_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83
 psfloat  array_m60_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m14_C0_1[6];
 
-/* Объявление структур */
+/* ���������� �������� */
 _S_to3val  S_to3val_971_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var1,&var2,&vainSFloat,&bFirstEnterFlag};
 _S_vchs  S_vchs_896_1 = {&var280,&var331,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var3,&internal1_m896_Chim0};
 _S_vchs  S_vchs_886_1 = {&var331,&var280,&var241,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m886_Chim0};
@@ -5963,7 +5964,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
-           initAllDrivers(drivers);
+           initAllDriversPTI(drivers);
            }
        }
 

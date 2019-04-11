@@ -63,6 +63,7 @@ int main(int argc, char **argv) {
             return EXIT_FAILURE;
     }
 
+
     while (1) {
         time_start();
         readAllModbus();
@@ -71,6 +72,7 @@ int main(int argc, char **argv) {
         else {
 
             readAllDriversPTI();
+
         }
 
         Scheme();
@@ -80,6 +82,7 @@ int main(int argc, char **argv) {
 
             writeAllDriversPTI();
         }
+
         writeAllModbus();
         makeSaveData();
         long int t = time_cycle();

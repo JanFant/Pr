@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
             return EXIT_FAILURE;
     } else {
         if (initAllDrivers(drivers)) {
-            //Р—Р°РїСѓСЃС‚РёР»РёСЃСЊ РІ СЂРµР¶РёРјРµ СЂРµР·РµСЂРІРЅРѕРіРѕ
+            //Р вЂ”Р В°Р С—РЎС“РЎРѓРЎвЂљР С‘Р В»Р С‘РЎРѓРЎРЉ Р Р† РЎР‚Р ВµР В¶Р С‘Р СР Вµ РЎР‚Р ВµР В·Р ВµРЎР‚Р Р†Р Р…Р С•Р С–Р С•
             syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
             master = 0;
             if (initUDP(master, nomer, &setUDP) < 0)
@@ -84,11 +84,12 @@ int main(int argc, char **argv) {
             closeUDP();
         };
     }
-    // Р РµР¶РёРј РѕСЃРЅРѕРІРЅРѕРіРѕ Р¤Рџ
+    // Р В Р ВµР В¶Р С‘Р С Р С•РЎРѓР Р…Р С•Р Р†Р Р…Р С•Р С–Р С• Р В¤Р Сџ
     master = 1;
     if (initUDP(master, nomer, &setUDP) < 0)
         return EXIT_FAILURE;
     syslog(LOG_INFO, "Mode master FP number %d\n", nomer);
+
 
     while (1) {
         time_start();
@@ -103,6 +104,7 @@ int main(int argc, char **argv) {
             }
             if (readAllDrivers() != 0)
                 break;
+
         }
 
         Scheme();
@@ -114,6 +116,7 @@ int main(int argc, char **argv) {
                 break;
         }
         sendVariables();
+
         writeAllModbus();
         makeSaveData();
         long int t = time_cycle();
