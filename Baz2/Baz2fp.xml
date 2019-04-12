@@ -3,7 +3,7 @@
         <model    name="FP"/>
         <result   path="Baz2\src"/>
         <key      name="R0MW11IP1"/>
-        <delay    time="1000"/>
+        <delay    time="2000"/>
         <variable xml="varBaz2"/>
         <saves    xml="saveBaz2"/>
         <initsig  xml="initsigBaz2"/>

@@ -3,9 +3,9 @@
 <var  name="R0MD34LP1" description="( - , Baz2) Кнопка Квитировать" format="1"></var>
 <var  name="R0AD14LDU" description="( - , Baz2) Имитация срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0AD16LDU" description="( - , Baz2) Имитация срабатывания верхней АС I УР" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS67LZZ" description="( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS68LZZ" description="( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R0VN71LZ2" description="(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1" format="1"></var>
 <var  name="R0VN75LZ2" description="(vds32:05 - K02VDSR, Baz2) АС по периоду разгона канал 1" format="1"></var>
 <var  name="R0VN72LZ2" description="(vds32:06 - K01VDSR, Baz2) АС по мощности канал 2" format="1"></var>

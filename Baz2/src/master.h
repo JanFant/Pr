@@ -21,12 +21,12 @@ int nomer = 1;
 #define idR0AD14LDU	 3	//( - , Baz2) Имитация срабатывания верхней АС II УР
 #define R0AD16LDU	 BUFFER[6]	//( - , Baz2) Имитация срабатывания верхней АС I УР
 #define idR0AD16LDU	 4	//( - , Baz2) Имитация срабатывания верхней АС I УР
-#define R6IS66LZZ	 BUFFER[8]	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 5	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS67LZZ	 BUFFER[10]	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 6	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS68LZZ	 BUFFER[12]	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 7	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS66LZZ	 BUFFER[8]	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 5	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS67LZZ	 BUFFER[10]	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 6	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS68LZZ	 BUFFER[12]	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 7	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
 #define R0VN71LZ2	 BUFFER[14]	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 #define idR0VN71LZ2	 8	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 #define R0VN75LZ2	 BUFFER[16]	//(vds32:05 - K02VDSR, Baz2) АС по периоду разгона канал 1
@@ -493,9 +493,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 2	,1	,1	, &R0MD34LP1},	//( - , Baz2) Кнопка Квитировать
 	{ 3	,1	,1	, &R0AD14LDU},	//( - , Baz2) Имитация срабатывания верхней АС II УР
 	{ 4	,1	,1	, &R0AD16LDU},	//( - , Baz2) Имитация срабатывания верхней АС I УР
-	{ 5	,1	,1	, &R6IS66LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 6	,1	,1	, &R6IS67LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 7	,1	,1	, &R6IS68LZZ},	//( - , MBz2S) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 5	,1	,1	, &R6IS66LZZ},	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 6	,1	,1	, &R6IS67LZZ},	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 7	,1	,1	, &R6IS68LZZ},	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
 	{ 8	,1	,1	, &R0VN71LZ2},	//(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1
 	{ 9	,1	,1	, &R0VN75LZ2},	//(vds32:05 - K02VDSR, Baz2) АС по периоду разгона канал 1
 	{ 10	,1	,1	, &R0VN72LZ2},	//(vds32:06 - K01VDSR, Baz2) АС по мощности канал 2
@@ -978,9 +978,6 @@ static ModbusRegister coil_MBz2S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2S[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -1284,6 +1281,9 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(204,0.180);
 	setAsFloat(205,0.020);
 	setAsFloat(206,0.045);
+	setAsBool(5,1);
+	setAsBool(6,1);
+	setAsBool(7,1);
 }
 uspaint8 InternalBuf[99];
 
@@ -1685,11 +1685,194 @@ _S_drg  S_drg_153_1 = {&var134,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&va
 _S_drg  S_drg_161_1 = {&var134,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var174,&internal1_m161_y1};
 
 
+void ZeroVar()
+{
+   var1.b=0;
+   var2.b=0;
+   var3.b=0;
+   var4.b=0;
+   var5.b=0;
+   var6.b=0;
+   var7.i=0;
+   var8.b=0;
+   var9.b=0;
+   var10.b=0;
+   var11.b=0;
+   var12.b=0;
+   var13.b=0;
+   var14.b=0;
+   var15.b=0;
+   var16.b=0;
+   var17.b=0;
+   var18.b=0;
+   var19.b=0;
+   var20.b=0;
+   var21.b=0;
+   var22.b=0;
+   var23.b=0;
+   var24.b=0;
+   var25.b=0;
+   var26.b=0;
+   var27.b=0;
+   var28.b=0;
+   var29.b=0;
+   var30.b=0;
+   var31.b=0;
+   var32.b=0;
+   var33.b=0;
+   var34.b=0;
+   var35.b=0;
+   var36.b=0;
+   var37.b=0;
+   var38.b=0;
+   var39.b=0;
+   var40.b=0;
+   var41.b=0;
+   var42.b=0;
+   var43.b=0;
+   var44.b=0;
+   var45.b=0;
+   var46.b=0;
+   var47.b=0;
+   var48.b=0;
+   var49.b=0;
+   var50.b=0;
+   var51.b=0;
+   var52.b=0;
+   var53.b=0;
+   var54.b=0;
+   var55.b=0;
+   var56.b=0;
+   var57.b=0;
+   var58.b=0;
+   var59.b=0;
+   var60.b=0;
+   var61.b=0;
+   var62.b=0;
+   var63.b=0;
+   var64.b=0;
+   var65.b=0;
+   var66.b=0;
+   var67.b=0;
+   var68.b=0;
+   var69.b=0;
+   var70.b=0;
+   var71.b=0;
+   var72.b=0;
+   var73.b=0;
+   var74.b=0;
+   var75.b=0;
+   var76.b=0;
+   var77.b=0;
+   var78.b=0;
+   var79.b=0;
+   var80.b=0;
+   var81.b=0;
+   var82.b=0;
+   var83.b=0;
+   var84.b=0;
+   var85.b=0;
+   var86.b=0;
+   var87.b=0;
+   var88.b=0;
+   var89.b=0;
+   var90.b=0;
+   var91.b=0;
+   var92.b=0;
+   var93.b=0;
+   var94.b=0;
+   var95.b=0;
+   var96.b=0;
+   var97.b=0;
+   var98.b=0;
+   var99.b=0;
+   var100.b=0;
+   var101.b=0;
+   var102.b=0;
+   var103.b=0;
+   var104.b=0;
+   var105.b=0;
+   var106.b=0;
+   var107.b=0;
+   var108.b=0;
+   var109.b=0;
+   var110.b=0;
+   var111.b=0;
+   var112.b=0;
+   var113.b=0;
+   var114.b=0;
+   var115.b=0;
+   var116.b=0;
+   var117.b=0;
+   var118.b=0;
+   var119.b=0;
+   var120.b=0;
+   var121.b=0;
+   var122.b=0;
+   var123.b=0;
+   var124.b=0;
+   var125.b=0;
+   var126.b=0;
+   var127.b=0;
+   var128.b=0;
+   var129.b=0;
+   var130.b=0;
+   var131.b=0;
+   var132.b=0;
+   var133.f=0.0;
+   var134.f=0.0;
+   var135.b=0;
+   var136.f=0.0;
+   var137.f=0.0;
+   var138.b=0;
+   var139.b=0;
+   var140.b=0;
+   var141.b=0;
+   var142.b=0;
+   var143.b=0;
+   var144.f=0.0;
+   var145.l=0L;
+   var146.l=0L;
+   var147.b=0;
+   var148.b=0;
+   var149.b=0;
+   var150.b=0;
+   var151.b=0;
+   var152.b=0;
+   var153.b=0;
+   var154.b=0;
+   var155.b=0;
+   var156.f=0.0;
+   var157.b=0;
+   var158.b=0;
+   var159.f=0.0;
+   var160.b=0;
+   var161.b=0;
+   var162.c=0;
+   var163.b=0;
+   var164.c=0;
+   var165.b=0;
+   var166.b=0;
+   var167.b=0;
+   var168.b=0;
+   var169.b=0;
+   var170.b=0;
+   var171.b=0;
+   var172.b=0;
+   var173.b=0;
+   var174.b=0;
+   vainSLong.l=0L;
+   vainSFloat.f=0.0;
+   vainSInt.i=0;
+   vainSBool.b=0;
+   vainSChar.c=0;
+
+}
 int freebuff = 0, delay = 0;
 void Scheme()
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delay++ < 20) return;
+     if(delay++ < 40) return;
      freebuff = 0;
      delay = delay > 32000 ? 32000 : delay; 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
@@ -1974,6 +2157,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
            initAllDrivers(drivers);
+           ZeroVar();
            }
        }
 

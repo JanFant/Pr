@@ -244,20 +244,20 @@
 <var  name="R1IE01LDU" description="(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1" format="1"></var>
 <var  name="R2IE01LDU" description="(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2" format="1"></var>
 <var  name="R6IS61LDU" description="(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS67LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS68LZZ" description="( - , MDuS) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="syn_R0EE03LDU" description="( - , DU) ВПИС ИС" format="1"></var>
 <var  name="A3VC01RDU" description="( - , DU) Координата ИС1, мм" format="8"></var>
 <var  name="A2VC01RDU" description="( - , DU) Координата РБ1, мм" format="8"></var>
 <var  name="B2VC01RDU" description="( - , DU) Координата РБ2, мм" format="8"></var>
 <var  name="B8VC01RDU" description="( - , DU) Координата АЗ2, мм" format="8"></var>
-<var  name="A4VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
-<var  name="B4VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A2VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
-<var  name="B2VP82LDU" description="( - , MDuS) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="( - , MDuS) Давление СПУСК ИС1 в норме" format="1"></var>
-<var  name="B3VP81LDU" description="( - , MDuS) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="A4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="B4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="A2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="B2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="A3VP81LDU" description="( - , - ) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3VP81LDU" description="( - , - ) Давление СПУСК ИС2 в норме" format="1"></var>
 <var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
 <var  name="B0VN01LDU" description="( - , DU) Каналы АЗ2 проверены" format="1"></var>
 <var  name="A0EE01LZ2" description="( - , MDuBz2) Исправность АКНП1" format="1"></var>

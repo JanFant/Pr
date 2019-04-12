@@ -938,6 +938,73 @@ _S_bol  S_bol_63_1 = {&var4,&fEM_R0UR01RRP,&var51};
 _S_bol  S_bol_51_1 = {&var5,&fEM_R0UR01RRP,&var52};
 
 
+void ZeroVar()
+{
+   var1.b=0;
+   var2.b=0;
+   var3.b=0;
+   var4.f=0.0;
+   var5.f=0.0;
+   var6.f=0.0;
+   var7.f=0.0;
+   var8.f=0.0;
+   var9.i=0;
+   var10.b=0;
+   var11.b=0;
+   var12.b=0;
+   var13.b=0;
+   var14.b=0;
+   var15.b=0;
+   var16.i=0;
+   var17.f=0.0;
+   var18.f=0.0;
+   var19.b=0;
+   var20.f=0.0;
+   var21.f=0.0;
+   var22.f=0.0;
+   var23.i=0;
+   var24.b=0;
+   var25.b=0;
+   var26.b=0;
+   var27.b=0;
+   var28.b=0;
+   var29.b=0;
+   var30.b=0;
+   var31.b=0;
+   var32.b=0;
+   var33.b=0;
+   var34.c=0;
+   var35.b=0;
+   var36.c=0;
+   var37.b=0;
+   var38.b=0;
+   var39.b=0;
+   var40.b=0;
+   var41.b=0;
+   var42.f=0.0;
+   var43.f=0.0;
+   var44.c=0;
+   var45.b=0;
+   var46.b=0;
+   var47.c=0;
+   var48.b=0;
+   var49.b=0;
+   var50.b=0;
+   var51.b=0;
+   var52.b=0;
+   var53.b=0;
+   var54.b=0;
+   var55.b=0;
+   var56.b=0;
+   var57.b=0;
+   var58.b=0;
+   vainSLong.l=0L;
+   vainSFloat.f=0.0;
+   vainSInt.i=0;
+   vainSBool.b=0;
+   vainSChar.c=0;
+
+}
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();

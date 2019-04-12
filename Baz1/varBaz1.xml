@@ -7,9 +7,9 @@
 <var  name="R0AD04LZ1" description="(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0AD16LDU" description="( - , Baz1) Имитация срабатывания верхней АС I УР" format="1"></var>
 <var  name="R0EE01LZ1" description="( - , MBz1S) Питание  АКНП1  отключить" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , MBz1S) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS67LZZ" description="( - , MBz1S) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS68LZZ" description="( - , MBz1S) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
+<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
+<var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R0VN71LZ1" description="(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1" format="1"></var>
 <var  name="R0VN75LZ1" description="(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1" format="1"></var>
 <var  name="R0VN72LZ1" description="(vds32:06 - K01VDSR, Baz1) АС по мощности канал 2" format="1"></var>

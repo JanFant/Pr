@@ -763,6 +763,45 @@ _S_react  S_react_54_1 = {&var23,&var29};
 _S_bol  S_bol_47_1 = {&var16,&fEM_R0UR01RSS,&var30};
 
 
+void ZeroVar()
+{
+   var1.b=0;
+   var2.f=0.0;
+   var3.f=0.0;
+   var4.f=0.0;
+   var5.i=0;
+   var6.b=0;
+   var7.b=0;
+   var8.b=0;
+   var9.b=0;
+   var10.b=0;
+   var11.b=0;
+   var12.i=0;
+   var13.b=0;
+   var14.b=0;
+   var15.f=0.0;
+   var16.f=0.0;
+   var17.b=0;
+   var18.f=0.0;
+   var19.f=0.0;
+   var20.f=0.0;
+   var21.i=0;
+   var22.b=0;
+   var23.f=0.0;
+   var24.b=0;
+   var25.b=0;
+   var26.b=0;
+   var27.b=0;
+   var28.b=0;
+   var29.f=0.0;
+   var30.b=0;
+   vainSLong.l=0L;
+   vainSFloat.f=0.0;
+   vainSInt.i=0;
+   vainSBool.b=0;
+   vainSChar.c=0;
+
+}
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();

@@ -38,10 +38,10 @@ static char BUFFER[3290];
 #define idR4IS21LDU	 13	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
 #define R4IS11LDU	 BUFFER[26]	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
 #define idR4IS11LDU	 14	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
-#define B4VP82LDU	 BUFFER[28]	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
-#define idB4VP82LDU	 15	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
-#define A4VP82LDU	 BUFFER[30]	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
-#define idA4VP82LDU	 16	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
+#define B4VP82LDU	 BUFFER[28]	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+#define idB4VP82LDU	 15	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+#define A4VP82LDU	 BUFFER[30]	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
+#define idA4VP82LDU	 16	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 #define R2IS21LDU	 BUFFER[32]	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
 #define idR2IS21LDU	 17	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
 #define R0EE04LZ1	 BUFFER[34]	//( - , SBz1) Питание  АКНП4  отключить
@@ -104,14 +104,14 @@ static char BUFFER[3290];
 #define idB8IC01UDU	 46	//( - , SDu) Координата АЗ2
 #define A8IC01UDU	 BUFFER[101]	//( - , SDu) Координата ДС2
 #define idA8IC01UDU	 47	//( - , SDu) Координата ДС2
-#define R6IS68LZZ	 BUFFER[106]	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 48	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
-#define R6IS67LZZ	 BUFFER[108]	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 49	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS66LZZ	 BUFFER[110]	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 50	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R6IS65LDU	 BUFFER[112]	//( - , SDu) Исправность ВИП ССДИ-35 2канал
-#define idR6IS65LDU	 51	//( - , SDu) Исправность ВИП ССДИ-35 2канал
+#define R6IS68LZZ	 BUFFER[106]	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 48	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define R6IS67LZZ	 BUFFER[108]	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 49	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS66LZZ	 BUFFER[110]	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 50	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS65LDU	 BUFFER[112]	//( - , - ) Исправность ВИП ССДИ-35 2канал
+#define idR6IS65LDU	 51	//( - , - ) Исправность ВИП ССДИ-35 2канал
 #define R2IS11LDU	 BUFFER[114]	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 #define idR2IS11LDU	 52	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 #define R1IS21LDU	 BUFFER[116]	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
@@ -136,8 +136,8 @@ static char BUFFER[3290];
 #define idR3IS21LDU	 62	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
 #define R3IS11LDU	 BUFFER[136]	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
 #define idR3IS11LDU	 63	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
-#define B2VP82LDU	 BUFFER[138]	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
-#define idB2VP82LDU	 64	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
+#define B2VP82LDU	 BUFFER[138]	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
+#define idB2VP82LDU	 64	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
 #define B2IP01IZ2	 BUFFER[140]	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
 #define idB2IP01IZ2	 65	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
 #define B2IP01IZ1	 BUFFER[143]	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
@@ -458,12 +458,12 @@ static char BUFFER[3290];
 #define idA7AS31LDU	 223	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
 #define B3IS35LDU	 BUFFER[582]	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
 #define idB3IS35LDU	 224	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
-#define R6IS64LDU	 BUFFER[584]	//( - , SDu) Исправность ВИП ССДИ-35 1канал
-#define idR6IS64LDU	 225	//( - , SDu) Исправность ВИП ССДИ-35 1канал
-#define R6IS63LDU	 BUFFER[586]	//( - , SDu) Исправность ВИП ССДИ-39 2канал
-#define idR6IS63LDU	 226	//( - , SDu) Исправность ВИП ССДИ-39 2канал
-#define R6IS62LDU	 BUFFER[588]	//( - , SDu) Исправность ВИП ССДИ-39 1канал
-#define idR6IS62LDU	 227	//( - , SDu) Исправность ВИП ССДИ-39 1канал
+#define R6IS64LDU	 BUFFER[584]	//( - , - ) Исправность ВИП ССДИ-35 1канал
+#define idR6IS64LDU	 225	//( - , - ) Исправность ВИП ССДИ-35 1канал
+#define R6IS63LDU	 BUFFER[586]	//( - , - ) Исправность ВИП ССДИ-39 2канал
+#define idR6IS63LDU	 226	//( - , - ) Исправность ВИП ССДИ-39 2канал
+#define R6IS62LDU	 BUFFER[588]	//( - , - ) Исправность ВИП ССДИ-39 1канал
+#define idR6IS62LDU	 227	//( - , - ) Исправность ВИП ССДИ-39 1канал
 #define B3IS22LDU	 BUFFER[590]	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define idB3IS22LDU	 228	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define A3IS22LDU	 BUFFER[592]	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
@@ -474,10 +474,10 @@ static char BUFFER[3290];
 #define idA3IS11LDU	 231	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 #define A3IP02IDU	 BUFFER[598]	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
 #define idA3IP02IDU	 232	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
-#define B3VP81LDU	 BUFFER[601]	//( - , SDu) Давление СПУСК ИС2 в норме
-#define idB3VP81LDU	 233	//( - , SDu) Давление СПУСК ИС2 в норме
-#define A3VP81LDU	 BUFFER[603]	//( - , SDu) Давление СПУСК ИС1 в норме
-#define idA3VP81LDU	 234	//( - , SDu) Давление СПУСК ИС1 в норме
+#define B3VP81LDU	 BUFFER[601]	//( - , - ) Давление СПУСК ИС2 в норме
+#define idB3VP81LDU	 233	//( - , - ) Давление СПУСК ИС2 в норме
+#define A3VP81LDU	 BUFFER[603]	//( - , - ) Давление СПУСК ИС1 в норме
+#define idA3VP81LDU	 234	//( - , - ) Давление СПУСК ИС1 в норме
 #define B3IS33LDU	 BUFFER[605]	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 #define idB3IS33LDU	 235	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 #define B3IC01UDU	 BUFFER[607]	//( - , SDu) Координата штока ИС2
@@ -492,8 +492,8 @@ static char BUFFER[3290];
 #define idA3IC01UDU	 240	//( - , SDu) Координата штока ИС1
 #define A3IS31LDU	 BUFFER[624]	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
 #define idA3IS31LDU	 241	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
-#define A2VP82LDU	 BUFFER[626]	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
-#define idA2VP82LDU	 242	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
+#define A2VP82LDU	 BUFFER[626]	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
+#define idA2VP82LDU	 242	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
 #define B2AD31LDU	 BUFFER[628]	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
 #define idB2AD31LDU	 243	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
 #define B1AD32LDU	 BUFFER[630]	//(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2
@@ -2028,8 +2028,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 12	,1	,1	, &R4IS22LDU},	//(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки
 	{ 13	,1	,1	, &R4IS21LDU},	//(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки
 	{ 14	,1	,1	, &R4IS11LDU},	//(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки
-	{ 15	,1	,1	, &B4VP82LDU},	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
-	{ 16	,1	,1	, &A4VP82LDU},	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
+	{ 15	,1	,1	, &B4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+	{ 16	,1	,1	, &A4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 	{ 17	,1	,1	, &R2IS21LDU},	//(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2
 	{ 18	,1	,1	, &R0EE04LZ1},	//( - , SBz1) Питание  АКНП4  отключить
 	{ 19	,1	,1	, &R0EE03LZ1},	//( - , SBz1) Питание  АКНП3  отключить
@@ -2061,10 +2061,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 45	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
 	{ 46	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
 	{ 47	,5	,1	, &A8IC01UDU},	//( - , SDu) Координата ДС2
-	{ 48	,1	,1	, &R6IS68LZZ},	//(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 49	,1	,1	, &R6IS67LZZ},	//(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 50	,1	,1	, &R6IS66LZZ},	//(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{ 51	,1	,1	, &R6IS65LDU},	//( - , SDu) Исправность ВИП ССДИ-35 2канал
+	{ 48	,1	,1	, &R6IS68LZZ},	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 49	,1	,1	, &R6IS67LZZ},	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 50	,1	,1	, &R6IS66LZZ},	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 51	,1	,1	, &R6IS65LDU},	//( - , - ) Исправность ВИП ССДИ-35 2канал
 	{ 52	,1	,1	, &R2IS11LDU},	//(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2
 	{ 53	,1	,1	, &R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
 	{ 54	,1	,1	, &R1IS11LDU},	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
@@ -2077,7 +2077,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 61	,1	,1	, &R5IS11LDU},	//(do32_pti:150 - K10DO, - ) Приход на ВУ ворот отстойной зоны
 	{ 62	,1	,1	, &R3IS21LDU},	//(do32_pti:150 - K03DO, - ) Приход на НУ гомогенных дверей
 	{ 63	,1	,1	, &R3IS11LDU},	//(do32_pti:150 - K02DO, - ) Приход на ВУ гомогенных дверей
-	{ 64	,1	,1	, &B2VP82LDU},	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
+	{ 64	,1	,1	, &B2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
 	{ 65	,3	,1	, &B2IP01IZ2},	//(ao16_pti:320 - K08AO, - ) Текущее давление СБРОС РБ2
 	{ 66	,3	,1	, &B2IP01IZ1},	//(ao16_pti:320 - K04AO, - ) Текущее давление СБРОС РБ2
 	{ 67	,5	,1	, &B2IC01UDU},	//( - , SDu) Координата штока РБ2
@@ -2238,16 +2238,16 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 222	,1	,1	, &B7AS31LDU},	//(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)
 	{ 223	,1	,1	, &A7AS31LDU},	//(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)
 	{ 224	,1	,1	, &B3IS35LDU},	//( - , - ) Клапан «ВПИС2» открыт(обесточен)
-	{ 225	,1	,1	, &R6IS64LDU},	//( - , SDu) Исправность ВИП ССДИ-35 1канал
-	{ 226	,1	,1	, &R6IS63LDU},	//( - , SDu) Исправность ВИП ССДИ-39 2канал
-	{ 227	,1	,1	, &R6IS62LDU},	//( - , SDu) Исправность ВИП ССДИ-39 1канал
+	{ 225	,1	,1	, &R6IS64LDU},	//( - , - ) Исправность ВИП ССДИ-35 1канал
+	{ 226	,1	,1	, &R6IS63LDU},	//( - , - ) Исправность ВИП ССДИ-39 2канал
+	{ 227	,1	,1	, &R6IS62LDU},	//( - , - ) Исправность ВИП ССДИ-39 1канал
 	{ 228	,1	,1	, &B3IS22LDU},	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 	{ 229	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
 	{ 230	,1	,1	, &B3IS11LDU},	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
 	{ 231	,1	,1	, &A3IS11LDU},	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
 	{ 232	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
-	{ 233	,1	,1	, &B3VP81LDU},	//( - , SDu) Давление СПУСК ИС2 в норме
-	{ 234	,1	,1	, &A3VP81LDU},	//( - , SDu) Давление СПУСК ИС1 в норме
+	{ 233	,1	,1	, &B3VP81LDU},	//( - , - ) Давление СПУСК ИС2 в норме
+	{ 234	,1	,1	, &A3VP81LDU},	//( - , - ) Давление СПУСК ИС1 в норме
 	{ 235	,1	,1	, &B3IS33LDU},	//( - , - ) Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
 	{ 236	,5	,1	, &B3IC01UDU},	//( - , SDu) Координата штока ИС2
 	{ 237	,1	,1	, &B3IS31LDU},	//( - , - ) Клапан (СПУСК ИС2)  открыт (обесточен)
@@ -2255,7 +2255,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 239	,1	,1	, &A3IS33LDU},	//( - , - ) Клапан (ВЫСТРЕЛ ИС1)  открыт (обесточен)
 	{ 240	,5	,1	, &A3IC01UDU},	//( - , SDu) Координата штока ИС1
 	{ 241	,1	,1	, &A3IS31LDU},	//( - , - ) Клапан (СПУСК ИС1)  открыт (обесточен)
-	{ 242	,1	,1	, &A2VP82LDU},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
+	{ 242	,1	,1	, &A2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
 	{ 243	,1	,1	, &B2AD31LDU},	//(vds32_pti:310 - K30VDSR, - ) Клапан (Сброс РБ2) открыть (обесточить)
 	{ 244	,1	,1	, &B1AD32LDU},	//(vds32_pti:310 - K27VDSR, - ) Обесточить ЭМ ББ2
 	{ 245	,1	,1	, &B1AD31LDU},	//(vds32_pti:310 - K28VDSR, - ) Клапан (Сброс ББ2) открыть (обесточить)
@@ -3907,9 +3907,6 @@ static ModbusRegister coil_SBz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz1[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3934,9 +3931,6 @@ static ModbusRegister coil_SBz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SBz2[]={  // 
-	{&R6IS66LZZ,1,0},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS67LZZ,1,1},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS68LZZ,1,2},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
 	{NULL,0,0},
 };
 #pragma pop
@@ -3957,32 +3951,19 @@ static ModbusRegister coil_SDu[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SDu[]={  // 
-	{&B4VP82LDU,1,0},	//( - , SDu) Давление ПОДЪЁМ НИ2 в норме
-	{&A4VP82LDU,1,1},	//( - , SDu) Давление ПОДЪЁМ НИ1 в норме
-	{&B2VP82LDU,1,2},	//( - , SDu) Давление ПОДЪЁМ РБ2 в норме
-	{&R6IS68LZZ,1,3},	//( - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2
-	{&R6IS67LZZ,1,4},	//( - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&R6IS66LZZ,1,5},	//( - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&R6IS65LDU,1,6},	//( - , SDu) Исправность ВИП ССДИ-35 2канал
-	{&R6IS64LDU,1,7},	//( - , SDu) Исправность ВИП ССДИ-35 1канал
-	{&R6IS63LDU,1,8},	//( - , SDu) Исправность ВИП ССДИ-39 2канал
-	{&R6IS62LDU,1,9},	//( - , SDu) Исправность ВИП ССДИ-39 1канал
-	{&B3VP81LDU,1,10},	//( - , SDu) Давление СПУСК ИС2 в норме
-	{&A3VP81LDU,1,11},	//( - , SDu) Давление СПУСК ИС1 в норме
-	{&A2VP82LDU,1,12},	//( - , SDu) Давление ПОДЪЁМ РБ1 в норме
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SDu[]={  // 
-	{&B1IC01UDU,5,0},	//( - , SDu) Координата штока ББ2
-	{&A1IC01UDU,5,2},	//( - , SDu) Координата штока ББ1
-	{&B2IC01UDU,5,4},	//( - , SDu) Координата штока РБ2
-	{&B8IC01UDU,5,6},	//( - , SDu) Координата АЗ2
-	{&A8IC01UDU,5,8},	//( - , SDu) Координата ДС2
-	{&B3IC01UDU,5,10},	//( - , SDu) Координата штока ИС2
-	{&A3IC01UDU,5,12},	//( - , SDu) Координата штока ИС1
-	{&A2IC01UDU,5,14},	//( - , SDu) Координата штока РБ1
+	{&A2IC01UDU,5,0},	//( - , SDu) Координата штока РБ1
+	{&A3IC01UDU,5,2},	//( - , SDu) Координата штока ИС1
+	{&B3IC01UDU,5,4},	//( - , SDu) Координата штока ИС2
+	{&A8IC01UDU,5,6},	//( - , SDu) Координата ДС2
+	{&B8IC01UDU,5,8},	//( - , SDu) Координата АЗ2
+	{&B2IC01UDU,5,10},	//( - , SDu) Координата штока РБ2
+	{&A1IC01UDU,5,12},	//( - , SDu) Координата штока ББ1
+	{&B1IC01UDU,5,14},	//( - , SDu) Координата штока ББ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -4135,17 +4116,17 @@ static table_drv table_AO1601={0,0,&ini_AO1601,buf_AO1601,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_AO1601[]={
+	{&B0IT02IZ2,3,18},
 	{&B0IT01IZ1,3,6},
 	{&A0IT02IZ2,3,12},
-	{&B0IT02IZ2,3,18},
 	{&A2IP01IZ2,3,15},
-	{&B3IP02IDU,3,27},
-	{&A2IP01IZ1,3,3},
 	{&B2IP01IZ2,3,21},
 	{&B2IP01IZ1,3,9},
+	{&A3IP02IDU,3,24},
+	{&B3IP02IDU,3,27},
+	{&A2IP01IZ1,3,3},
 	{&A0IT03IRP,3,30},
 	{&B0IT03IRP,3,33},
-	{&A3IP02IDU,3,24},
 	{&A0IT01IZ1,3,0},
 	{NULL,0,0},
 };
@@ -4159,15 +4140,12 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
 	{&A0VP81LZZ,1,52},
-	{&A3IS22LDU,1,10},
-	{&R6IS68LZZ,1,36},
-	{&R6IS67LZZ,1,34},
-	{&R6IS66LZZ,1,32},
-	{&A3IS11LDU,1,8},
-	{&R7II73LZ1,1,50},
-	{&R7II71LZ1,1,46},
-	{&R7II72LZ1,1,48},
 	{&A1VP81LZZ,1,54},
+	{&R7II72LZ1,1,48},
+	{&R7II71LZ1,1,46},
+	{&R7II73LZ1,1,50},
+	{&A3IS11LDU,1,8},
+	{&A3IS22LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4179,13 +4157,13 @@ static table_drv table_DO32_5F02={0,0,&ini_DO32_5F02,buf_DO32_5F02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F02[]={
+	{&B1VP81LZZ,1,60},
 	{&B3IS22LDU,1,22},
 	{&B3IS11LDU,1,20},
 	{&R7II72LZ2,1,48},
 	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
 	{&B0VP81LZZ,1,58},
-	{&B1VP81LZZ,1,60},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4259,19 +4237,19 @@ static table_drv table_DO32_5F05={0,0,&ini_DO32_5F05,buf_DO32_5F05,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F05[]={
-	{&R5IS11LDU,1,18},
-	{&R5IS21LDU,1,20},
-	{&A6IS11LDU,1,34},
-	{&A8IS12LDU,1,28},
 	{&A8IS22LDU,1,30},
 	{&R6IS21LDU,1,26},
+	{&B8IS11LDU,1,14},
+	{&B8IS21LDU,1,8},
 	{&B8IS12LDU,1,10},
 	{&B8IS22LDU,1,12},
+	{&A8IS12LDU,1,28},
+	{&A6IS11LDU,1,34},
+	{&R5IS21LDU,1,20},
+	{&R5IS11LDU,1,18},
 	{&R3IS21LDU,1,4},
-	{&R3IS11LDU,1,2},
 	{&B5IS21LDU,1,0},
-	{&B8IS21LDU,1,8},
-	{&B8IS11LDU,1,14},
+	{&R3IS11LDU,1,2},
 	{NULL,0,0},
 };
 #pragma pop
@@ -5537,6 +5515,350 @@ _S_orrsim  S_orrsim_60_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03L
 _S_azbars  S_azbars_14_1 = {&var323,&var308,&var293,&var279,&fEM_R0UR30RIM,&A7AP31LDU,&var187,&lEM_R8AD10LC1,&var173,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_A0UT03RSP,&var330,&var331,&var332,&var333,&var334,&var335,&vainSFloat,&internal1_m14_C1,&internal1_m14_C2,&internal1_m14_C3,&internal1_m14_C4,&internal1_m14_C5,&internal1_m14_C6,&internal1_m14_N20,array_m14_C0_1,&internal1_m14_ImpINI0,&internal1_m14_MyFirstEnterFlag,&bFirstEnterFlag};
 
 
+void ZeroVar()
+{
+   var1.f=0.0;
+   var2.f=0.0;
+   var3.f=0.0;
+   var4.f=0.0;
+   var5.f=0.0;
+   var6.b=0;
+   var7.b=0;
+   var8.b=0;
+   var9.b=0;
+   var10.b=0;
+   var11.b=0;
+   var12.b=0;
+   var13.b=0;
+   var14.b=0;
+   var15.b=0;
+   var16.b=0;
+   var17.b=0;
+   var18.b=0;
+   var19.b=0;
+   var20.b=0;
+   var21.b=0;
+   var22.b=0;
+   var23.b=0;
+   var24.b=0;
+   var25.b=0;
+   var26.b=0;
+   var27.b=0;
+   var28.b=0;
+   var29.b=0;
+   var30.b=0;
+   var31.b=0;
+   var32.b=0;
+   var33.b=0;
+   var34.b=0;
+   var35.b=0;
+   var36.b=0;
+   var37.b=0;
+   var38.b=0;
+   var39.b=0;
+   var40.b=0;
+   var41.b=0;
+   var42.b=0;
+   var43.b=0;
+   var44.b=0;
+   var45.b=0;
+   var46.b=0;
+   var47.b=0;
+   var48.b=0;
+   var49.b=0;
+   var50.b=0;
+   var51.l=0L;
+   var52.f=0.0;
+   var53.l=0L;
+   var54.f=0.0;
+   var55.b=0;
+   var56.b=0;
+   var57.b=0;
+   var58.b=0;
+   var59.b=0;
+   var60.b=0;
+   var61.b=0;
+   var62.b=0;
+   var63.b=0;
+   var64.b=0;
+   var65.b=0;
+   var66.b=0;
+   var67.b=0;
+   var68.b=0;
+   var69.b=0;
+   var70.b=0;
+   var71.b=0;
+   var72.b=0;
+   var73.b=0;
+   var74.b=0;
+   var75.b=0;
+   var76.b=0;
+   var77.b=0;
+   var78.b=0;
+   var79.b=0;
+   var80.b=0;
+   var81.b=0;
+   var82.b=0;
+   var83.b=0;
+   var84.b=0;
+   var85.b=0;
+   var86.b=0;
+   var87.b=0;
+   var88.b=0;
+   var89.i=0;
+   var90.i=0;
+   var91.f=0.0;
+   var92.f=0.0;
+   var93.l=0L;
+   var94.f=0.0;
+   var95.b=0;
+   var96.b=0;
+   var97.b=0;
+   var98.b=0;
+   var99.b=0;
+   var100.b=0;
+   var101.b=0;
+   var102.b=0;
+   var103.b=0;
+   var104.b=0;
+   var105.b=0;
+   var106.f=0.0;
+   var107.b=0;
+   var108.b=0;
+   var109.l=0L;
+   var110.f=0.0;
+   var111.l=0L;
+   var112.f=0.0;
+   var113.b=0;
+   var114.b=0;
+   var115.b=0;
+   var116.b=0;
+   var117.b=0;
+   var118.b=0;
+   var119.b=0;
+   var120.b=0;
+   var121.b=0;
+   var122.b=0;
+   var123.b=0;
+   var124.i=0;
+   var125.f=0.0;
+   var126.b=0;
+   var127.b=0;
+   var128.i=0;
+   var129.f=0.0;
+   var130.b=0;
+   var131.l=0L;
+   var132.f=0.0;
+   var133.b=0;
+   var134.b=0;
+   var135.l=0L;
+   var136.f=0.0;
+   var137.b=0;
+   var138.i=0;
+   var139.i=0;
+   var140.b=0;
+   var141.b=0;
+   var142.b=0;
+   var143.l=0L;
+   var144.f=0.0;
+   var145.b=0;
+   var146.b=0;
+   var147.b=0;
+   var148.f=0.0;
+   var149.f=0.0;
+   var150.f=0.0;
+   var151.i=0;
+   var152.i=0;
+   var153.i=0;
+   var154.f=0.0;
+   var155.f=0.0;
+   var156.f=0.0;
+   var157.i=0;
+   var158.i=0;
+   var159.b=0;
+   var160.b=0;
+   var161.i=0;
+   var162.f=0.0;
+   var163.f=0.0;
+   var164.f=0.0;
+   var165.b=0;
+   var166.b=0;
+   var167.b=0;
+   var168.b=0;
+   var169.f=0.0;
+   var170.b=0;
+   var171.f=0.0;
+   var172.b=0;
+   var173.b=0;
+   var174.b=0;
+   var175.b=0;
+   var176.b=0;
+   var177.b=0;
+   var178.b=0;
+   var179.f=0.0;
+   var180.b=0;
+   var181.b=0;
+   var182.b=0;
+   var183.b=0;
+   var184.b=0;
+   var185.b=0;
+   var186.b=0;
+   var187.b=0;
+   var188.b=0;
+   var189.b=0;
+   var190.b=0;
+   var191.b=0;
+   var192.b=0;
+   var193.b=0;
+   var194.b=0;
+   var195.b=0;
+   var196.b=0;
+   var197.b=0;
+   var198.b=0;
+   var199.b=0;
+   var200.b=0;
+   var201.b=0;
+   var202.b=0;
+   var203.b=0;
+   var204.b=0;
+   var205.b=0;
+   var206.b=0;
+   var207.b=0;
+   var208.b=0;
+   var209.b=0;
+   var210.b=0;
+   var211.b=0;
+   var212.b=0;
+   var213.b=0;
+   var214.b=0;
+   var215.b=0;
+   var216.b=0;
+   var217.b=0;
+   var218.f=0.0;
+   var219.f=0.0;
+   var220.f=0.0;
+   var221.f=0.0;
+   var222.f=0.0;
+   var223.f=0.0;
+   var224.f=0.0;
+   var225.f=0.0;
+   var226.f=0.0;
+   var227.b=0;
+   var228.b=0;
+   var229.b=0;
+   var230.f=0.0;
+   var231.f=0.0;
+   var232.f=0.0;
+   var233.f=0.0;
+   var234.f=0.0;
+   var235.f=0.0;
+   var236.f=0.0;
+   var237.f=0.0;
+   var238.f=0.0;
+   var239.f=0.0;
+   var240.f=0.0;
+   var241.f=0.0;
+   var242.f=0.0;
+   var243.b=0;
+   var244.b=0;
+   var245.b=0;
+   var246.b=0;
+   var247.b=0;
+   var248.b=0;
+   var249.b=0;
+   var250.b=0;
+   var251.b=0;
+   var252.b=0;
+   var253.b=0;
+   var254.b=0;
+   var255.b=0;
+   var256.b=0;
+   var257.b=0;
+   var258.b=0;
+   var259.b=0;
+   var260.b=0;
+   var261.b=0;
+   var262.b=0;
+   var263.b=0;
+   var264.b=0;
+   var265.b=0;
+   var266.b=0;
+   var267.f=0.0;
+   var268.b=0;
+   var269.b=0;
+   var270.f=0.0;
+   var271.b=0;
+   var272.b=0;
+   var273.b=0;
+   var274.b=0;
+   var275.b=0;
+   var276.b=0;
+   var277.b=0;
+   var278.b=0;
+   var279.f=0.0;
+   var280.f=0.0;
+   var281.f=0.0;
+   var282.f=0.0;
+   var283.b=0;
+   var284.f=0.0;
+   var285.f=0.0;
+   var286.f=0.0;
+   var287.f=0.0;
+   var288.b=0;
+   var289.b=0;
+   var290.b=0;
+   var291.b=0;
+   var292.b=0;
+   var293.f=0.0;
+   var294.f=0.0;
+   var295.b=0;
+   var296.b=0;
+   var297.b=0;
+   var298.b=0;
+   var299.b=0;
+   var300.f=0.0;
+   var301.f=0.0;
+   var302.b=0;
+   var303.b=0;
+   var304.b=0;
+   var305.b=0;
+   var306.b=0;
+   var307.b=0;
+   var308.f=0.0;
+   var309.f=0.0;
+   var310.b=0;
+   var311.b=0;
+   var312.b=0;
+   var313.b=0;
+   var314.b=0;
+   var315.b=0;
+   var316.f=0.0;
+   var317.f=0.0;
+   var318.b=0;
+   var319.b=0;
+   var320.b=0;
+   var321.b=0;
+   var322.b=0;
+   var323.f=0.0;
+   var324.f=0.0;
+   var325.b=0;
+   var326.b=0;
+   var327.b=0;
+   var328.b=0;
+   var329.b=0;
+   var330.f=0.0;
+   var331.f=0.0;
+   var332.f=0.0;
+   var333.f=0.0;
+   var334.b=0;
+   var335.f=0.0;
+   vainSLong.l=0L;
+   vainSFloat.f=0.0;
+   vainSInt.i=0;
+   vainSBool.b=0;
+   vainSChar.c=0;
+
+}
 int freebuff = 0;
 void Scheme()
 {
@@ -5964,6 +6286,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
            initAllDriversPTI(drivers);
+           ZeroVar();
            }
        }
 

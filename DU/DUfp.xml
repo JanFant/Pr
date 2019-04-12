@@ -3,7 +3,7 @@
         <model    name="FP"/>
         <result   path="DU\src"/>
         <key      name="R0MW11IP1"/>
-        <delay    time="3000"/>
+        <delay    time="4000"/>
         <variable xml="varDU"/>
         <saves    xml="saveDU"/>
         <initsig  xml="initsigDU"/>
