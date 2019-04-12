@@ -5,6 +5,7 @@
         <key      name="R0MW11IP1"/>
         <variable xml="varscm"/>
         <saves    xml="savescm"/>
+        <initsig  xml="initsigscm"/>
         <devices  xml="devscm"/>
         <modbus   name="SCM"  description="Общий слэйв" type="slave" port="5002" xml="scm"/>
         <modbus   name="SBz1" description="Cлэйв Baz1"  type="slave" port="5003" xml="SBz1"/>

@@ -6,6 +6,7 @@
         <delay    time="1000"/>
         <variable xml="varBaz2"/>
         <saves    xml="saveBaz2"/>
+        <initsig  xml="initsigBaz2"/>
         <devices  xml="devBaz2"/>
         <modbus   name="Baz2"      description="Общий слэйв"         type="slave"                                           port="5002"            xml="Baz2"/>
         <modbus   name="SBz2DU"    description="Слэйв для DU"        type="slave"                                           port="5009"            xml="SBz2DU"/>

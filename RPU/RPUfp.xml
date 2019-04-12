@@ -4,6 +4,7 @@
         <result   path="RPU\src"/>
         <variable xml="varRPU"/>
         <saves    xml="saveRPU"/>
+        <initsig  xml="initsigRPU"/>
         <devices  xml="devRPU"/>
         <modbus   name="RPU"      description="общий slave RPU"  type="slave"                                           port="5002"            xml="RPU"/>
         <modbus   name="DiagnRPU" description="Диагностика РПУ"  type="slave"                                           port="5003"            xml="DiagnRPU"/>

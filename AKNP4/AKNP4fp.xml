@@ -4,6 +4,7 @@
         <result   path="AKNP4\src"/>
         <variable xml="varAKNP4"/>
         <saves    xml="saveAKNP4"/>
+        <initsig  xml="initsigAKNP4"/>
         <devices  xml="devAKNP4"/>
         <modbus   name="AKNP4"      description="общий slave AKNP4"  type="slave"                                           port="5002"            xml="AKNP4"/>
         <modbus   name="A4Bz1"      description="slave AKNP4 - Baz1" type="slave"                                           port="5018"            xml="A4Bz1"/>
