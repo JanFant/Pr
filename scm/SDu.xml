@@ -149,8 +149,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R6IS65LDU</value>
-            <value name="description">( - , SDu) Исправность ВИП ССДИ-35 2канал</value>
+            <value name="name">B3VP81LDU</value>
+            <value name="description">( - , SDu) Давление СПУСК ИС2 в норме</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
@@ -162,8 +162,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R6IS64LDU</value>
-            <value name="description">( - , SDu) Исправность ВИП ССДИ-35 1канал</value>
+            <value name="name">A3VP81LDU</value>
+            <value name="description">( - , SDu) Давление СПУСК ИС1 в норме</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
@@ -175,68 +175,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R6IS63LDU</value>
-            <value name="description">( - , SDu) Исправность ВИП ССДИ-39 2канал</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">8</value>
-            <value name="nID">14</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">41</value>
-            <value name="OldData">41</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R6IS62LDU</value>
-            <value name="description">( - , SDu) Исправность ВИП ССДИ-39 1канал</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">9</value>
-            <value name="nID">15</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">43</value>
-            <value name="OldData">43</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B3VP81LDU</value>
-            <value name="description">( - , SDu) Давление СПУСК ИС2 в норме</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">10</value>
-            <value name="nID">16</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">45</value>
-            <value name="OldData">45</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A3VP81LDU</value>
-            <value name="description">( - , SDu) Давление СПУСК ИС1 в норме</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">11</value>
-            <value name="nID">17</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">47</value>
-            <value name="OldData">47</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">A2VP82LDU</value>
             <value name="description">( - , SDu) Давление ПОДЪЁМ РБ1 в норме</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">12</value>
-            <value name="nID">20</value>
+            <value name="address">8</value>
+            <value name="nID">16</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">59</value>
-            <value name="OldData">59</value>
+            <value name="ParData">51</value>
+            <value name="OldData">51</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -310,11 +258,11 @@
             <value name="type">2</value>
             <value name="format">5</value>
             <value name="address">10</value>
-            <value name="nID">18</value>
+            <value name="nID">14</value>
             <value name="PType">135</value>
             <value name="Bf0">0</value>
-            <value name="ParData">49</value>
-            <value name="OldData">49</value>
+            <value name="ParData">41</value>
+            <value name="OldData">41</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -323,11 +271,11 @@
             <value name="type">2</value>
             <value name="format">5</value>
             <value name="address">12</value>
-            <value name="nID">19</value>
+            <value name="nID">15</value>
             <value name="PType">135</value>
             <value name="Bf0">0</value>
-            <value name="ParData">54</value>
-            <value name="OldData">54</value>
+            <value name="ParData">46</value>
+            <value name="OldData">46</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -336,11 +284,11 @@
             <value name="type">2</value>
             <value name="format">5</value>
             <value name="address">14</value>
-            <value name="nID">21</value>
+            <value name="nID">17</value>
             <value name="PType">135</value>
             <value name="Bf0">0</value>
-            <value name="ParData">61</value>
-            <value name="OldData">61</value>
+            <value name="ParData">53</value>
+            <value name="OldData">53</value>
             <value name="unitId">1</value>
         </record>
     </records>

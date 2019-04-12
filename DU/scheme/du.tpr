@@ -4361,7 +4361,7 @@
     }
     [TConst]{
       Name="N592"
-      Value="17"
+      Value="13"
       Type=2
       Numeration=0
       MemoryType=0
@@ -4374,7 +4374,7 @@
       TypeInterface=0
       InterfaceMB=""
       TypeMB=3
-      FormatMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -171476,7 +171476,7 @@
       PageCountX=3
       PageCountY=2
       Name="InputData"
-      ObjectCount=621
+      ObjectCount=613
       ExpandCompile=1
       [VVV_DrawParameter]{
         R="185,71,225,91"
@@ -171802,7 +171802,7 @@
         }
       }
       [VVV_Text]{
-        R="7,7,61,12"
+        R="7,7,60,13"
         Number=129
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -172013,7 +172013,7 @@
         CONST_NAME="RRR_3"
       }
       [VVV_Text]{
-        R="417,212,471,217"
+        R="417,212,469,217"
         Number=46
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -172184,7 +172184,7 @@
         CONST_NAME="RRR_4"
       }
       [VVV_Text]{
-        R="394,30,448,35"
+        R="394,30,446,35"
         Number=61
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -172363,7 +172363,7 @@
         CONST_NAME="RRR_5"
       }
       [VVV_Text]{
-        R="743,224,796,230"
+        R="743,224,803,230"
         Number=99
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -172812,7 +172812,7 @@
         CONST_NAME="RRR_8"
       }
       [VVV_Text]{
-        R="973,225,1027,230"
+        R="973,225,1030,231"
         Number=173
         IsHold=FALSE
         Line1="Режим "Проверка"?"
@@ -173206,7 +173206,7 @@
         CONST_NAME="RRR_1"
       }
       [VVV_Text]{
-        R="101,224,155,229"
+        R="101,224,153,229"
         Number=21
         IsHold=TRUE
         Line1="Режим "Проверка"?"
@@ -173684,7 +173684,7 @@
         Line2="энкодер ДС2"
       }
       [VVV_Text]{
-        R="1232,102,1269,167"
+        R="1232,102,1270,169"
         Number=286
         IsHold=TRUE
         Line1="Нумерация"
@@ -174376,7 +174376,7 @@
         CONST_NAME="A3UP53RDU"
       }
       [VVV_Text]{
-        R="1849,591,1927,626"
+        R="1849,591,1943,633"
         Number=730
         IsHold=FALSE
         Line1="Нормальные давления"
@@ -174387,7 +174387,7 @@
         Line6="на спуск ИС - до 0,3 МПа"
       }
       [VVV_Text]{
-        R="1826,527,1941,580"
+        R="1826,527,1941,577"
         Number=369
         IsHold=FALSE
         Line1="Нормальные давления в кГ/см^2"
@@ -174401,7 +174401,7 @@
         Line9="Давление в системе 70 = 7.8 МПа "
       }
       [VVV_Text]{
-        R="1738,454,1968,482"
+        R="1738,454,1944,479"
         Number=370
         IsHold=FALSE
         Line1="- неисправен любой из указателей положения рабочих органов СУЗ;"
@@ -174410,7 +174410,7 @@
         Line4="- отсутствует масло в демпфере ББ. (Регламент РУ Барс-4)"
       }
       [VVV_Text]{
-        R="1847,642,1934,659"
+        R="1847,642,1955,663"
         Number=927
         IsHold=FALSE
         Line1="1 мегапаскаль [МПа]"
@@ -174418,7 +174418,7 @@
         Line3="на кв. см [кгс/см^2]"
       }
       [VVV_Text]{
-        R="486,628,601,675"
+        R="486,628,597,677"
         Number=1109
         IsHold=FALSE
         Line1="Давление в кГ/см^2"
@@ -174431,7 +174431,7 @@
         Line8="Давление в зоне  26 30 = 2.65 - 3.06 МПа "
       }
       [VVV_Text]{
-        R="1742,481,1960,530"
+        R="1742,481,1916,520"
         Number=1182
         IsHold=FALSE
         Line1="контроль состояния источников бесперебойного питания (ИБП),"
@@ -174456,14 +174456,14 @@
         }
       }
       [VVV_Text]{
-        R="1722,707,1752,718"
+        R="1722,707,1760,721"
         Number=1197
         IsHold=FALSE
         Line1="неиспр. по "
         Line2="энкодерам"
       }
       [VVV_Text]{
-        R="1743,403,1919,432"
+        R="1743,403,1933,435"
         Number=1206
         IsHold=FALSE
         Line1="контроль состояния источников бесперебойного питания (ИБП),"
@@ -174486,7 +174486,7 @@
         }
       }
       [VVV_Text]{
-        R="1343,640,1377,661"
+        R="1343,640,1372,658"
         Number=1223
         IsHold=FALSE
         Line1="неиспр."
@@ -174507,13 +174507,13 @@
         }
       }
       [VVV_Text]{
-        R="1414,549,1453,554"
+        R="1414,549,1452,554"
         Number=1274
         IsHold=FALSE
         Line1="Давление АЗ1"
       }
       [VVV_Text]{
-        R="1696,583,1735,588"
+        R="1696,583,1744,590"
         Number=1287
         IsHold=FALSE
         Line1="Давление АЗ2"
@@ -174558,7 +174558,7 @@
         }
       }
       [VVV_Text]{
-        R="1497,631,1525,648"
+        R="1497,631,1531,652"
         Number=1415
         IsHold=FALSE
         Line1="неиспр."
@@ -174590,7 +174590,7 @@
         }
       }
       [VVV_Text]{
-        R="1413,484,1450,501"
+        R="1413,484,1449,500"
         Number=1288
         IsHold=FALSE
         Line1="Давление"
@@ -174677,7 +174677,7 @@
         Line2="ниже АС"
       }
       [VVV_Text]{
-        R="1566,700,1592,711"
+        R="1566,700,1599,714"
         Number=1426
         IsHold=FALSE
         Line1="Давление"
@@ -175217,7 +175217,7 @@
         Line2="давления для АЗ1"
       }
       [VVV_Text]{
-        R="1304,646,1344,660"
+        R="1304,646,1337,658"
         Number=304
         IsHold=FALSE
         Line1="Каналы АЗ1"
@@ -175278,7 +175278,7 @@
         Line2="давления для АЗ2"
       }
       [VVV_Text]{
-        R="1472,684,1505,695"
+        R="1472,684,1512,698"
         Number=313
         IsHold=FALSE
         Line1="Каналы АЗ2"
@@ -175459,7 +175459,7 @@
         Line2="температуре в АЗ2"
       }
       [VVV_Text]{
-        R="1727,727,1748,744"
+        R="1727,727,1754,748"
         Number=336
         IsHold=FALSE
         Line1="неиспр."
@@ -175853,7 +175853,7 @@
         ABBRV="NOTO"
       }
       [TDrawSignal]{
-        R="1670,234,1700,254"
+        R="1660,229,1690,249"
         Number=300
         IsHold=FALSE
         VisualNumber="163"
@@ -175880,7 +175880,7 @@
         Line2=" ИП 24 В-1"
       }
       [TDrawSignal]{
-        R="1670,213,1700,233"
+        R="1660,203,1690,223"
         Number=362
         IsHold=FALSE
         VisualNumber="162"
@@ -175934,7 +175934,7 @@
         Line2=" ИП БЗ1"
       }
       [TDrawSignal]{
-        R="1829,259,1859,279"
+        R="1833,252,1863,272"
         Number=384
         IsHold=FALSE
         VisualNumber="177"
@@ -175961,7 +175961,7 @@
         Line2=" ИП БЗ2"
       }
       [TDrawSignal]{
-        R="1754,296,1784,316"
+        R="1797,252,1827,272"
         Number=385
         IsHold=FALSE
         VisualNumber="173"
@@ -176271,7 +176271,7 @@
         Line2="РБ1-СТР"
       }
       [TDrawSignal]{
-        R="1893,179,1923,199"
+        R="1834,173,1864,193"
         Number=514
         IsHold=FALSE
         VisualNumber="180"
@@ -176297,120 +176297,8 @@
         Line1="Исправность"
         Line2="3-х  фазной сети"
       }
-      [TDrawSignal]{
-        R="1791,259,1821,279"
-        Number=516
-        IsHold=FALSE
-        VisualNumber="175"
-        SIGNAL_NAME="R6IS64LDU"
-        KodTeprol="R6IS64LDU"
-        Comment="Исправность ВИП ССДИ-35 1канал"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MDuS"
-        ChannalName=""
-        DeviceName=""
-        Line1="Исправность"
-        Line2="ВИП ССДИ-35"
-        Line3="1канал"
-      }
-      [TDrawSignal]{
-        R="1793,283,1823,303"
-        Number=517
-        IsHold=FALSE
-        VisualNumber="176"
-        SIGNAL_NAME="R6IS65LDU"
-        KodTeprol="R6IS65LDU"
-        Comment="Исправность ВИП ССДИ-35 2канал"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MDuS"
-        ChannalName=""
-        DeviceName=""
-        Line1="Исправность"
-        Line2="ВИП ССДИ-35"
-        Line3="2канал"
-      }
-      [TDrawSignal]{
-        R="1669,258,1699,278"
-        Number=518
-        IsHold=FALSE
-        VisualNumber="164"
-        SIGNAL_NAME="R6IS62LDU"
-        KodTeprol="R6IS62LDU"
-        Comment="Исправность ВИП ССДИ-39 1канал"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MDuS"
-        ChannalName=""
-        DeviceName=""
-        Line1="Исправность"
-        Line2="ВИП ССДИ-39"
-        Line3="1канал"
-      }
-      [TDrawSignal]{
-        R="1668,280,1698,300"
-        Number=519
-        IsHold=FALSE
-        VisualNumber="165"
-        SIGNAL_NAME="R6IS63LDU"
-        KodTeprol="R6IS63LDU"
-        Comment="Исправность ВИП ССДИ-39 2канал"
-        Type=3
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB="MDuS"
-        ChannalName=""
-        DeviceName=""
-        Line1="Исправность"
-        Line2="ВИП ССДИ-39"
-        Line3="2канал"
-      }
       [VVV_Text]{
-        R="1624,450,1669,471"
+        R="1624,450,1666,468"
         Number=554
         IsHold=FALSE
         Line1="Давление"
@@ -176418,7 +176306,7 @@
         Line3="  ниже АС"
       }
       [TDrawSignal]{
-        R="1858,234,1888,254"
+        R="1762,252,1792,272"
         Number=585
         IsHold=FALSE
         VisualNumber="179"
@@ -176446,9 +176334,9 @@
         Line3=" ССДИ-1-1"
       }
       [TDrawSignal]{
-        R="1908,221,1938,241"
+        R="1834,202,1864,222"
         Number=586
-        IsHold=TRUE
+        IsHold=FALSE
         VisualNumber="181"
         SIGNAL_NAME="R6IS67LZZ"
         KodTeprol="R6IS67LZZ"
@@ -176474,7 +176362,7 @@
         Line3=" ССДИ-1-2"
       }
       [TDrawSignal]{
-        R="1858,207,1888,227"
+        R="1833,227,1863,247"
         Number=587
         IsHold=FALSE
         VisualNumber="178"
@@ -179964,161 +179852,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=391
-        IsHold=FALSE
-        p0="1700:236"
-        p1="1725:236"
-        BNumber=300
-        ENumber=390
-        Comment="Исправность ИП 24 В-1 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=300
-          ParameterName="R0IE02LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=392
-        IsHold=FALSE
-        p0="1700:225"
-        p1="1725:225"
-        BNumber=362
-        ENumber=390
-        Comment="Исправность ИП 24 В-2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=362
-          ParameterName="R0IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=395
-        IsHold=FALSE
-        p0="1675:193"
-        p1="1675:210"
-        p2="1728:210"
-        p3="1728:220"
-        BNumber=388
-        ENumber=390
-        Comment="Исправность ИП МДЗ1 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=388
-          ParameterName="R1IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=4
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=396
-        IsHold=FALSE
-        p0="1703:193"
-        p1="1703:205"
-        p2="1733:205"
-        p3="1733:220"
-        BNumber=389
-        ENumber=390
-        Comment="Исправность ИП МДЗ2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=389
-          ParameterName="R2IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=5
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=397
-        IsHold=FALSE
-        p0="1739:193"
-        p1="1739:220"
-        BNumber=387
-        ENumber=390
-        Comment="Исправность ИП НЛ1 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=387
-          ParameterName="A5IE02LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=6
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=398
-        IsHold=FALSE
-        p0="1771:193"
-        p1="1771:199"
-        p2="1744:199"
-        p3="1744:220"
-        BNumber=386
-        ENumber=390
-        Comment="Исправность ИП НЛ2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=386
-          ParameterName="B5IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=7
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=399
-        IsHold=FALSE
-        p0="1805:193"
-        p1="1805:204"
-        p2="1750:204"
-        p3="1750:220"
-        BNumber=383
-        ENumber=390
-        Comment="Исправность ИП БЗ1 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=383
-          ParameterName="A6IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=8
-        }
-      }
-      [VVV_DrawConnector]{
         Number=401
         IsHold=FALSE
         p0="1738:240"
@@ -180489,102 +180222,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=500
-        IsHold=FALSE
-        p0="1699:263"
-        p1="1710:263"
-        p2="1710:242"
-        p3="1729:242"
-        p4="1729:240"
-        BNumber=518
-        ENumber=390
-        Comment="Исправность ВИП ССДИ-39 1канал --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=518
-          ParameterName="R6IS62LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=9
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=501
-        IsHold=FALSE
-        p0="1698:289"
-        p1="1720:289"
-        p2="1720:244"
-        p3="1733:244"
-        p4="1733:240"
-        BNumber=519
-        ENumber=390
-        Comment="Исправность ВИП ССДИ-39 2канал --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=519
-          ParameterName="R6IS63LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=10
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=502
-        IsHold=FALSE
-        p0="1791:268"
-        p1="1774:268"
-        p2="1774:242"
-        p3="1750:242"
-        p4="1750:240"
-        BNumber=516
-        ENumber=390
-        Comment="Исправность ВИП ССДИ-35 1канал --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=516
-          ParameterName="R6IS64LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=11
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=503
-        IsHold=FALSE
-        p0="1793:293"
-        p1="1770:293"
-        p2="1770:246"
-        p3="1744:246"
-        p4="1744:240"
-        BNumber=517
-        ENumber=390
-        Comment="Исправность ВИП ССДИ-35 2канал --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=517
-          ParameterName="R6IS65LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=12
-        }
-      }
-      [VVV_DrawConnector]{
         Number=527
         IsHold=FALSE
         p0="1441:289"
@@ -180666,29 +180303,6 @@
           Number=1416
           ParameterName="x"
           Index=0
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=393
-        IsHold=FALSE
-        p0="1766:296"
-        p1="1766:255"
-        p2="1741:255"
-        p3="1741:240"
-        BNumber=385
-        ENumber=390
-        Comment="Исправность ИП ДС2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=385
-          ParameterName="A8IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=2
         }
       }
       [VVV_DrawConnector]{
@@ -182996,30 +182610,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=394
-        IsHold=FALSE
-        p0="1837:259"
-        p1="1837:253"
-        p2="1777:253"
-        p3="1777:237"
-        p4="1755:237"
-        BNumber=384
-        ENumber=390
-        Comment="Исправность ИП БЗ2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=384
-          ParameterName="B6IE01LDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=3
-        }
-      }
-      [VVV_DrawConnector]{
         Number=53
         IsHold=FALSE
         p0="160:36"
@@ -183792,71 +183382,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=271
-        IsHold=FALSE
-        p0="1908:230"
-        p1="1755:230"
-        BNumber=586
-        ENumber=390
-        Comment="Исправность ВИП 4,0 (№6) ССДИ-1-2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=586
-          ParameterName="R6IS67LZZ"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=15
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=260
-        IsHold=FALSE
-        p0="1858:226"
-        p1="1755:226"
-        BNumber=587
-        ENumber=390
-        Comment="Исправность ВИП 4,0 (№7) ССДИ-2 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=587
-          ParameterName="R6IS68LZZ"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=14
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=280
-        IsHold=FALSE
-        p0="1858:238"
-        p1="1795:238"
-        p2="1795:233"
-        p3="1755:233"
-        BNumber=585
-        ENumber=390
-        Comment="Исправность ВИП 4,0 (№5) ССДИ-1-1 --> x - массив входных параметров"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=585
-          ParameterName="R6IS66LZZ"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=390
-          ParameterName="x"
-          Index=16
-        }
-      }
-      [VVV_DrawConnector]{
         Number=60
         IsHold=FALSE
         p0="806:11"
@@ -184075,11 +183600,168 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=498
+        Number=260
         IsHold=FALSE
-        p0="1893:190"
-        p1="1831:190"
-        p2="1831:221"
+        p0="1690:234"
+        p1="1725:234"
+        BNumber=300
+        ENumber=390
+        Comment="Исправность ИП 24 В-1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=300
+          ParameterName="R0IE02LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=0
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=271
+        IsHold=FALSE
+        p0="1690:217"
+        p1="1698:217"
+        p2="1698:230"
+        p3="1725:230"
+        BNumber=362
+        ENumber=390
+        Comment="Исправность ИП 24 В-2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=362
+          ParameterName="R0IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=280
+        IsHold=FALSE
+        p0="1679:193"
+        p1="1679:199"
+        p2="1701:199"
+        p3="1701:228"
+        p4="1725:228"
+        BNumber=388
+        ENumber=390
+        Comment="Исправность ИП МДЗ1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=388
+          ParameterName="R1IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=2
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=391
+        IsHold=FALSE
+        p0="1702:193"
+        p1="1702:225"
+        p2="1725:225"
+        BNumber=389
+        ENumber=390
+        Comment="Исправность ИП МДЗ2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=389
+          ParameterName="R2IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=3
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=392
+        IsHold=FALSE
+        p0="1728:193"
+        p1="1728:220"
+        BNumber=387
+        ENumber=390
+        Comment="Исправность ИП НЛ1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=387
+          ParameterName="A5IE02LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=4
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=393
+        IsHold=FALSE
+        p0="1760:193"
+        p1="1760:214"
+        p2="1735:214"
+        p3="1735:220"
+        BNumber=386
+        ENumber=390
+        Comment="Исправность ИП НЛ2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=386
+          ParameterName="B5IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=5
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=394
+        IsHold=FALSE
+        p0="1797:193"
+        p1="1797:218"
+        p2="1738:218"
+        p3="1738:220"
+        BNumber=383
+        ENumber=390
+        Comment="Исправность ИП БЗ1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=383
+          ParameterName="A6IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=6
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=395
+        IsHold=FALSE
+        p0="1834:189"
+        p1="1827:189"
+        p2="1827:221"
         p3="1755:221"
         BNumber=514
         ENumber=390
@@ -184094,7 +183776,122 @@
         [VVV_GCPoint]{
           Number=390
           ParameterName="x"
-          Index=13
+          Index=7
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=396
+        IsHold=FALSE
+        p0="1834:213"
+        p1="1828:213"
+        p2="1828:226"
+        p3="1755:226"
+        BNumber=586
+        ENumber=390
+        Comment="Исправность ВИП 4,0 (№6) ССДИ-1-2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=586
+          ParameterName="R6IS67LZZ"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=8
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=397
+        IsHold=FALSE
+        p0="1833:235"
+        p1="1828:235"
+        p2="1828:228"
+        p3="1755:228"
+        BNumber=587
+        ENumber=390
+        Comment="Исправность ВИП 4,0 (№7) ССДИ-2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=587
+          ParameterName="R6IS68LZZ"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=9
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=398
+        IsHold=FALSE
+        p0="1833:261"
+        p1="1828:261"
+        p2="1828:238"
+        p3="1822:238"
+        p4="1822:230"
+        p5="1755:230"
+        BNumber=384
+        ENumber=390
+        Comment="Исправность ИП БЗ2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=384
+          ParameterName="B6IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=10
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=399
+        IsHold=FALSE
+        p0="1814:252"
+        p1="1814:232"
+        p2="1755:232"
+        BNumber=385
+        ENumber=390
+        Comment="Исправность ИП ДС2 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=385
+          ParameterName="A8IE01LDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=11
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=498
+        IsHold=FALSE
+        p0="1779:252"
+        p1="1779:233"
+        p2="1755:233"
+        BNumber=585
+        ENumber=390
+        Comment="Исправность ВИП 4,0 (№5) ССДИ-1-1 --> x - массив входных параметров"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=585
+          ParameterName="R6IS66LZZ"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=390
+          ParameterName="x"
+          Index=12
         }
       }
     }
@@ -186142,4 +185939,4 @@
     }
   }
 }
-174581720
+174386920

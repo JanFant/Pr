@@ -49,7 +49,7 @@
 <var  name="R6IS68LZZ" description="(do32_pti:100 - K19DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R6IS67LZZ" description="(do32_pti:100 - K18DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
 <var  name="R6IS66LZZ" description="(do32_pti:100 - K17DO, SBz1, SBz2, SDu) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS65LDU" description="( - , SDu) Исправность ВИП ССДИ-35 2канал" format="1"></var>
+<var  name="R6IS65LDU" description="( - , - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var  name="R2IS11LDU" description="(do32_pti:130 - K24DO, - ) Приход на ВУ МДЗ2" format="1"></var>
 <var  name="R1IS21LDU" description="(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1" format="1"></var>
 <var  name="R1IS11LDU" description="(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1" format="1"></var>
@@ -223,9 +223,9 @@
 <var  name="B7AS31LDU" description="(do32_pti:130 - K06DO, - ) Клапан (Обдув АЗ2) открыт (обесточен)" format="1"></var>
 <var  name="A7AS31LDU" description="(do32_pti:130 - K31DO, - ) Клапан (Обдув АЗ1) открыт (обесточен)" format="1"></var>
 <var  name="B3IS35LDU" description="( - , - ) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
-<var  name="R6IS64LDU" description="( - , SDu) Исправность ВИП ССДИ-35 1канал" format="1"></var>
-<var  name="R6IS63LDU" description="( - , SDu) Исправность ВИП ССДИ-39 2канал" format="1"></var>
-<var  name="R6IS62LDU" description="( - , SDu) Исправность ВИП ССДИ-39 1канал" format="1"></var>
+<var  name="R6IS64LDU" description="( - , - ) Исправность ВИП ССДИ-35 1канал" format="1"></var>
+<var  name="R6IS63LDU" description="( - , - ) Исправность ВИП ССДИ-39 2канал" format="1"></var>
+<var  name="R6IS62LDU" description="( - , - ) Исправность ВИП ССДИ-39 1канал" format="1"></var>
 <var  name="B3IS22LDU" description="(do32_pti:110 - K12DO, - ) Приход на НУП ИС2" format="1"></var>
 <var  name="A3IS22LDU" description="(do32_pti:100 - K06DO, - ) Приход на НУП ИС1" format="1"></var>
 <var  name="B3IS11LDU" description="(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2" format="1"></var>

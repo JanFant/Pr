@@ -4841,7 +4841,6 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(685,246.8);
 	setAsFloat(686,1);
 }
-
 uspaint8 InternalBuf[814];
 
 /* ����������� �������� ��� � ������*/

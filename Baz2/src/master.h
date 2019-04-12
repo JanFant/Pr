@@ -5,7 +5,7 @@ static char SimulOn=0;
 static short CodeSub=6;
 static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
-static int StepCycle=100;	 // Время цикла в ms
+static int StepCycle=50;	 // Время цикла в ms
 float takt;
 #define SIZE_BUFFER 657
 static char BUFFER[657];
@@ -1285,7 +1285,6 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(205,0.020);
 	setAsFloat(206,0.045);
 }
-
 uspaint8 InternalBuf[99];
 
 /* ����������� �������� ��� � ������*/
@@ -1690,7 +1689,7 @@ int freebuff = 0, delay = 0;
 void Scheme()
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delay++ < 100) return;
+     if(delay++ < 20) return;
      freebuff = 0;
      delay = delay > 32000 ? 32000 : delay; 
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();

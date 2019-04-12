@@ -3,9 +3,10 @@
         <model    name="FP"/>
         <result   path="DU\src"/>
         <key      name="R0MW11IP1"/>
-        <delay    time="1000"/>
+        <delay    time="3000"/>
         <variable xml="varDU"/>
         <saves    xml="saveDU"/>
+        <initsig  xml="initsigDU"/>
         <devices  xml="devDU"/>
         <modbus   name="DU"      description="Общий слэйв"      type="slave"                                           port="5002" step="100" xml="DU"/>
         <modbus   name="MDuBz1"  description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="5010" step="100" xml="..\Baz1\SBz1DU.xml"/>
