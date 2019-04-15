@@ -9,7 +9,6 @@
 #include <fp8/netphoto.h>
 #include <fp8/UDPTrasport.h>
 #include <fp8/drvio.h>
-#include <fp8/Simul.h>
 
 #include "teprLib/allTeprol.h"
 #include "master.h"
