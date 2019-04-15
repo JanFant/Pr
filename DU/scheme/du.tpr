@@ -37,8 +37,8 @@
       MaxValue="0.09999"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -59,8 +59,8 @@
       MaxValue="1024300"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -81,8 +81,8 @@
       MaxValue="1024000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -389,8 +389,8 @@
       MaxValue="1024000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -411,8 +411,8 @@
       MaxValue="1024300"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -433,8 +433,8 @@
       MaxValue="0.09999"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -631,8 +631,8 @@
       MaxValue="1024000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -653,8 +653,8 @@
       MaxValue="1024300000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -697,8 +697,8 @@
       MaxValue="0.09999"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -917,8 +917,8 @@
       MaxValue="1024000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -939,8 +939,8 @@
       MaxValue="0.09999"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -961,8 +961,8 @@
       MaxValue="1024300000"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=5
       HstInterv_item=0
@@ -1093,8 +1093,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1115,8 +1115,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1137,8 +1137,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1159,8 +1159,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1181,8 +1181,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1203,8 +1203,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1225,8 +1225,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2105,8 +2105,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2127,8 +2127,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2149,8 +2149,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2171,8 +2171,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2193,8 +2193,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2215,8 +2215,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2237,8 +2237,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2259,8 +2259,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2435,8 +2435,8 @@
       MaxValue="20"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2457,8 +2457,8 @@
       MaxValue="20"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2479,8 +2479,8 @@
       MaxValue="25"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2655,8 +2655,8 @@
       MaxValue="5"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2743,8 +2743,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -2941,8 +2941,8 @@
       MaxValue="2.5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2963,8 +2963,8 @@
       MaxValue="5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3073,8 +3073,8 @@
       MaxValue="2.5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3095,8 +3095,8 @@
       MaxValue="5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3117,8 +3117,8 @@
       MaxValue="600"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3139,8 +3139,8 @@
       MaxValue="100"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3161,8 +3161,8 @@
       MaxValue="400"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3315,8 +3315,8 @@
       MaxValue="2.5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3337,8 +3337,8 @@
       MaxValue="5"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3359,8 +3359,8 @@
       MaxValue="600"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3381,8 +3381,8 @@
       MaxValue="100"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3403,8 +3403,8 @@
       MaxValue="400"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3535,8 +3535,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -3557,8 +3557,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4987,8 +4987,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5009,8 +5009,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5779,8 +5779,8 @@
       MaxValue="25"
       Group="1V"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5801,8 +5801,8 @@
       MaxValue="6"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5823,8 +5823,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5845,8 +5845,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5867,8 +5867,8 @@
       MaxValue="400"
       Group="1T"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5889,8 +5889,8 @@
       MaxValue="600"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5911,8 +5911,8 @@
       MaxValue="100"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5933,8 +5933,8 @@
       MaxValue="400"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5955,8 +5955,8 @@
       MaxValue="400"
       Group="1T"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5977,8 +5977,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5999,8 +5999,8 @@
       MaxValue="400"
       Group="1T"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6021,8 +6021,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6043,8 +6043,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6065,8 +6065,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6087,8 +6087,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6109,8 +6109,8 @@
       MaxValue="10000"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6593,8 +6593,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6615,8 +6615,8 @@
       MaxValue="10000"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6967,8 +6967,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6989,8 +6989,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7187,8 +7187,8 @@
       MaxValue="10000"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7209,8 +7209,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7231,8 +7231,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7253,8 +7253,8 @@
       MaxValue="1000"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7275,8 +7275,8 @@
       MaxValue="10000"
       Group="1T"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7297,8 +7297,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7319,8 +7319,8 @@
       MaxValue="400"
       Group="1T"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7341,8 +7341,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7363,8 +7363,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7385,8 +7385,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7407,8 +7407,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7429,8 +7429,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7451,8 +7451,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7473,8 +7473,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7495,8 +7495,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7517,8 +7517,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7539,8 +7539,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7561,8 +7561,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7583,8 +7583,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7605,8 +7605,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7627,8 +7627,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7649,8 +7649,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7671,8 +7671,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7693,8 +7693,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7715,8 +7715,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -7737,8 +7737,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8485,8 +8485,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8507,8 +8507,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8661,8 +8661,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8793,8 +8793,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -8991,8 +8991,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9013,8 +9013,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9035,8 +9035,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9057,8 +9057,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -9079,8 +9079,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10619,8 +10619,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10641,8 +10641,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10663,8 +10663,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10685,8 +10685,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10707,8 +10707,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10729,8 +10729,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10751,8 +10751,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10773,8 +10773,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10795,8 +10795,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10817,8 +10817,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10839,8 +10839,8 @@
       MaxValue="150"
       Group="1C"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10861,8 +10861,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10883,8 +10883,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10905,8 +10905,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10927,8 +10927,8 @@
       MaxValue="400"
       Group="1T"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10949,8 +10949,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10971,8 +10971,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10993,8 +10993,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11015,8 +11015,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11037,8 +11037,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11059,8 +11059,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11081,8 +11081,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11103,8 +11103,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11125,8 +11125,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11147,8 +11147,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=3
       HstInterv_item=0
@@ -11411,8 +11411,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -11807,8 +11807,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11873,8 +11873,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11895,8 +11895,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11917,8 +11917,8 @@
       MaxValue="500"
       Group="1L"
       Access="1"
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11983,8 +11983,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -12027,8 +12027,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12071,8 +12071,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12159,8 +12159,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12181,8 +12181,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12203,8 +12203,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12225,8 +12225,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12247,8 +12247,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12269,8 +12269,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12291,8 +12291,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12379,8 +12379,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12401,8 +12401,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12423,8 +12423,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12445,8 +12445,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12467,8 +12467,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12489,8 +12489,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12511,8 +12511,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12533,8 +12533,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12555,8 +12555,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12577,8 +12577,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12599,8 +12599,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12621,8 +12621,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12665,8 +12665,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12687,8 +12687,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12775,8 +12775,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12797,8 +12797,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12819,8 +12819,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -12907,8 +12907,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13369,8 +13369,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="DU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14311,13 +14311,13 @@
         }
       }
       [VVV_Text]{
-        R="664,85,689,91"
+        R="664,85,687,90"
         Number=20
         IsHold=FALSE
         Line1="импульс"
       }
       [VVV_Text]{
-        R="703,85,739,91"
+        R="703,85,735,90"
         Number=21
         IsHold=FALSE
         Line1="статический"
@@ -14386,14 +14386,14 @@
         Line2="ВЫБОР ЗОН"
       }
       [VVV_Text]{
-        R="1184,121,1207,135"
+        R="1184,121,1204,133"
         Number=70
         IsHold=FALSE
         Line1="Только"
         Line2="АЗ1"
       }
       [VVV_Text]{
-        R="1255,121,1278,135"
+        R="1255,121,1275,133"
         Number=71
         IsHold=FALSE
         Line1="Только"
@@ -14523,37 +14523,37 @@
         }
       }
       [VVV_Text]{
-        R="2057,80,2078,85"
+        R="2057,80,2080,86"
         Number=155
         IsHold=TRUE
         Line1="НИ ДС1"
       }
       [VVV_Text]{
-        R="2058,108,2079,113"
+        R="2058,108,2081,114"
         Number=156
         IsHold=TRUE
         Line1="НИ ДС2"
       }
       [VVV_Text]{
-        R="2058,129,2084,134"
+        R="2058,129,2086,135"
         Number=157
         IsHold=TRUE
         Line1="НИ ДС1,2"
       }
       [VVV_Text]{
-        R="2026,186,2046,191"
+        R="2026,186,2047,192"
         Number=161
         IsHold=TRUE
         Line1="РБ мех"
       }
       [VVV_Text]{
-        R="2026,220,2046,225"
+        R="2026,220,2047,226"
         Number=162
         IsHold=TRUE
         Line1="РБ+НИ"
       }
       [VVV_Text]{
-        R="2026,248,2046,253"
+        R="2026,248,2048,254"
         Number=163
         IsHold=TRUE
         Line1="ИС мех"
@@ -14664,19 +14664,19 @@
         }
       }
       [VVV_Text]{
-        R="1321,103,1341,110"
+        R="1321,103,1339,109"
         Number=173
         IsHold=TRUE
         Line1="ВЫКЛ"
       }
       [VVV_Text]{
-        R="1353,103,1382,110"
+        R="1353,103,1379,109"
         Number=176
         IsHold=TRUE
         Line1="РАБОТА"
       }
       [VVV_Text]{
-        R="1384,98,1419,105"
+        R="1384,98,1415,104"
         Number=177
         IsHold=TRUE
         Line1="ВЫСТРЕЛ"
@@ -14754,19 +14754,19 @@
         }
       }
       [VVV_Text]{
-        R="1425,102,1445,109"
+        R="1425,102,1443,108"
         Number=170
         IsHold=TRUE
         Line1="ВЫКЛ"
       }
       [VVV_Text]{
-        R="1457,102,1480,109"
+        R="1457,102,1476,108"
         Number=175
         IsHold=TRUE
         Line1="20 мин"
       }
       [VVV_Text]{
-        R="1490,103,1515,110"
+        R="1490,103,1512,109"
         Number=200
         IsHold=TRUE
         Line1="200 сек"
@@ -14944,37 +14944,37 @@
         }
       }
       [VVV_Text]{
-        R="1522,103,1551,110"
+        R="1522,103,1547,109"
         Number=214
         IsHold=TRUE
         Line1="авт.пров"
       }
       [VVV_Text]{
-        R="1565,102,1580,109"
+        R="1565,102,1579,108"
         Number=215
         IsHold=TRUE
         Line1="ИНИ"
       }
       [VVV_Text]{
-        R="1594,103,1615,110"
+        R="1594,103,1613,109"
         Number=216
         IsHold=TRUE
         Line1="ВУ ИС"
       }
       [VVV_Text]{
-        R="1632,102,1647,109"
+        R="1632,102,1645,108"
         Number=217
         IsHold=TRUE
         Line1="2 УР"
       }
       [VVV_Text]{
-        R="1657,102,1678,109"
+        R="1657,102,1676,108"
         Number=218
         IsHold=TRUE
         Line1="НУ ИС"
       }
       [VVV_Text]{
-        R="1698,102,1714,109"
+        R="1698,102,1711,108"
         Number=219
         IsHold=TRUE
         Line1="1.5 с"
@@ -15258,7 +15258,7 @@
         Line2="состоянии"
       }
       [VVV_Text]{
-        R="1731,156,1774,177"
+        R="1731,156,1769,175"
         Number=363
         IsHold=TRUE
         Line1="Блокировать"
@@ -15461,7 +15461,7 @@
         Line3="НИ1, НИ2"
       }
       [VVV_Text]{
-        R="1909,75,1946,80"
+        R="1909,75,1949,81"
         Number=66
         IsHold=TRUE
         Line1="Квитирование"
@@ -16488,7 +16488,7 @@
         Line2="ВУ2 тележки"
       }
       [VVV_Text]{
-        R="1475,501,1498,515"
+        R="1475,501,1495,512"
         Number=753
         IsHold=TRUE
         Line1="Квит."
@@ -33199,7 +33199,7 @@
         }
       }
       [VVV_Text]{
-        R="53,579,99,593"
+        R="53,579,91,591"
         Number=2629
         IsHold=FALSE
         Line1="Завершен"
@@ -33219,7 +33219,7 @@
         }
       }
       [VVV_Text]{
-        R="58,449,103,455"
+        R="58,449,101,454"
         Number=2692
         IsHold=FALSE
         Line1="Программа 200с"
@@ -33232,7 +33232,7 @@
         ABBRV="RS"
       }
       [VVV_Text]{
-        R="421,472,456,478"
+        R="421,472,456,477"
         Number=3700
         IsHold=FALSE
         Line1="На спуск НИ"
@@ -33251,7 +33251,7 @@
         }
       }
       [VVV_Text]{
-        R="212,448,252,460"
+        R="212,448,249,459"
         Number=4049
         IsHold=FALSE
         Line1="От программы"
@@ -33884,19 +33884,19 @@
         }
       }
       [VVV_Text]{
-        R="1158,123,1171,130"
+        R="1158,123,1170,129"
         Number=310
         IsHold=FALSE
         Line1="АЗ1"
       }
       [VVV_Text]{
-        R="1230,123,1243,130"
+        R="1230,123,1242,129"
         Number=311
         IsHold=FALSE
         Line1="АЗ2"
       }
       [VVV_Text]{
-        R="1098,52,1128,59"
+        R="1098,52,1125,58"
         Number=59
         IsHold=FALSE
         Line1="АЗ1+АЗ2"
@@ -34505,13 +34505,13 @@
         }
       }
       [VVV_Text]{
-        R="231,581,247,588"
+        R="231,581,244,587"
         Number=4466
         IsHold=FALSE
         Line1="Стоп"
       }
       [VVV_Text]{
-        R="267,484,293,490"
+        R="267,484,293,489"
         Number=4511
         IsHold=FALSE
         Line1="НИ на НУ"
@@ -34623,7 +34623,7 @@
         }
       }
       [VVV_Text]{
-        R="591,517,601,523"
+        R="591,517,601,522"
         Number=5312
         IsHold=FALSE
         Line1="АЗ1"
@@ -34642,7 +34642,7 @@
         }
       }
       [VVV_Text]{
-        R="635,496,645,502"
+        R="635,496,645,501"
         Number=5319
         IsHold=FALSE
         Line1="АЗ2"
@@ -34750,7 +34750,7 @@
         Line2="работы"
       }
       [VVV_Text]{
-        R="735,476,786,482"
+        R="735,476,784,481"
         Number=5334
         IsHold=FALSE
         Line1="Программа 20 мин"
@@ -34801,7 +34801,7 @@
         }
       }
       [VVV_Text]{
-        R="1006,539,1040,557"
+        R="1006,539,1038,555"
         Number=5423
         IsHold=FALSE
         Line1="Индикация"
@@ -35042,20 +35042,20 @@
         Line1="Декатрон"
       }
       [VVV_Text]{
-        R="506,679,539,693"
+        R="506,679,532,691"
         Number=5483
         IsHold=FALSE
         Line1="Импульс"
         Line2="разрешен"
       }
       [VVV_Text]{
-        R="602,452,633,458"
+        R="602,452,632,457"
         Number=5585
         IsHold=FALSE
         Line1="ВПИС ИС2"
       }
       [VVV_Text]{
-        R="604,533,635,539"
+        R="604,533,634,538"
         Number=5586
         IsHold=FALSE
         Line1="ВПИС ИС1"
@@ -35675,7 +35675,7 @@
         Line2="управлению НЛ2"
       }
       [VVV_Text]{
-        R="2263,494,2303,500"
+        R="2263,494,2301,499"
         Number=1157
         IsHold=TRUE
         Line1="Квитирование"
@@ -35749,7 +35749,7 @@
         }
       }
       [VVV_Text]{
-        R="1470,453,1508,467"
+        R="1470,453,1505,465"
         Number=6027
         IsHold=TRUE
         Line1="Есть"
@@ -38007,7 +38007,7 @@
         }
       }
       [VVV_Text]{
-        R="2026,156,2052,161"
+        R="2026,156,2054,162"
         Number=143
         IsHold=TRUE
         Line1="РБ пневм"
@@ -38227,7 +38227,7 @@
         Line1="РБ1+НИ"
       }
       [VVV_Text]{
-        R="2023,276,2049,281"
+        R="2023,276,2052,282"
         Number=284
         IsHold=TRUE
         Line1="ИС пневм"
@@ -38311,13 +38311,13 @@
         }
       }
       [VVV_Text]{
-        R="920,369,947,375"
+        R="920,369,946,374"
         Number=7165
         IsHold=FALSE
         Line1="Спуск НИ"
       }
       [VVV_Text]{
-        R="905,359,957,365"
+        R="905,359,955,364"
         Number=6634
         IsHold=FALSE
         Line1="Отключить ЭМ РБ"
@@ -38343,7 +38343,7 @@
         }
       }
       [VVV_Text]{
-        R="1022,418,1058,424"
+        R="1022,418,1057,423"
         Number=1261
         IsHold=FALSE
         Line1="НИ опущены"
@@ -39285,7 +39285,7 @@
         }
       }
       [VVV_Text]{
-        R="963,64,997,82"
+        R="963,64,1000,83"
         Number=7702
         IsHold=FALSE
         Line1="Сброс "
@@ -41406,13 +41406,13 @@
         Line3="НИ2"
       }
       [VVV_Text]{
-        R="968,7,974,13"
+        R="968,7,975,13"
         Number=2354
         IsHold=FALSE
         Line1="#1"
       }
       [VVV_Text]{
-        R="1591,22,1599,29"
+        R="1591,22,1598,28"
         Number=2357
         IsHold=TRUE
         Line1="#2"
@@ -41424,7 +41424,7 @@
         Line1="#3"
       }
       [VVV_Text]{
-        R="2213,431,2220,437"
+        R="2213,431,2219,436"
         Number=2359
         IsHold=TRUE
         Line1="#4"
@@ -41454,13 +41454,13 @@
         Line1="#8"
       }
       [VVV_Text]{
-        R="461,449,467,455"
+        R="461,449,467,454"
         Number=2391
         IsHold=FALSE
         Line1="#9"
       }
       [VVV_Text]{
-        R="965,450,974,456"
+        R="965,450,974,455"
         Number=2742
         IsHold=FALSE
         Line1="#10"
@@ -41472,7 +41472,7 @@
         Line1="#11"
       }
       [VVV_Text]{
-        R="2257,448,2267,454"
+        R="2257,448,2266,453"
         Number=2746
         IsHold=FALSE
         Line1="#12"
@@ -41514,7 +41514,7 @@
         Line1="#27"
       }
       [VVV_Text]{
-        R="952,894,962,900"
+        R="952,894,964,901"
         Number=2820
         IsHold=TRUE
         Line1="#19"
@@ -43094,7 +43094,7 @@
         }
       }
       [VVV_Text]{
-        R="186,449,202,455"
+        R="186,449,201,454"
         Number=8439
         IsHold=FALSE
         Line1="ПУСК"
@@ -43254,7 +43254,7 @@
         }
       }
       [VVV_Text]{
-        R="740,451,784,469"
+        R="740,451,783,467"
         Number=8500
         IsHold=FALSE
         Line1="Завершен"
@@ -43269,50 +43269,50 @@
         ABBRV="RS"
       }
       [VVV_Text]{
-        R="883,457,929,463"
+        R="883,457,929,462"
         Number=8551
         IsHold=FALSE
         Line1="На спуск НИ, РБ"
       }
       [VVV_Text]{
-        R="796,541,809,547"
+        R="796,541,809,546"
         Number=8562
         IsHold=FALSE
         Line1="Стоп"
       }
       [VVV_Text]{
-        R="1057,565,1088,572"
+        R="1057,565,1083,571"
         Number=8564
         IsHold=FALSE
         Line1="НИ на НУ"
       }
       [VVV_Text]{
-        R="684,574,699,581"
+        R="684,574,697,580"
         Number=8566
         IsHold=TRUE
         Line1="ИНИ"
       }
       [VVV_Text]{
-        R="710,571,731,578"
+        R="710,571,728,577"
         Number=8574
         IsHold=TRUE
         Line1="ВУ ИС"
       }
       [VVV_Text]{
-        R="737,572,752,579"
+        R="737,572,749,578"
         Number=8576
         IsHold=TRUE
         Line1="II УР"
       }
       [VVV_Text]{
-        R="760,567,774,581"
+        R="760,567,773,579"
         Number=8581
         IsHold=TRUE
         Line1="НУП"
         Line2="ИС"
       }
       [VVV_Text]{
-        R="782,571,796,578"
+        R="782,571,792,577"
         Number=8585
         IsHold=TRUE
         Line1="1.5c"
@@ -43324,7 +43324,7 @@
         Line1="#18"
       }
       [VVV_Text]{
-        R="817,449,833,455"
+        R="817,449,832,454"
         Number=8641
         IsHold=FALSE
         Line1="ПУСК"
@@ -43350,7 +43350,7 @@
         }
       }
       [VVV_Text]{
-        R="665,635,684,649"
+        R="665,635,681,647"
         Number=8589
         IsHold=TRUE
         Line1="конец"
@@ -43370,7 +43370,7 @@
         }
       }
       [VVV_Text]{
-        R="665,655,686,669"
+        R="665,655,683,667"
         Number=8598
         IsHold=TRUE
         Line1="конец"
@@ -43390,7 +43390,7 @@
         }
       }
       [VVV_Text]{
-        R="668,679,687,693"
+        R="668,679,684,691"
         Number=8597
         IsHold=TRUE
         Line1="конец"
@@ -43470,7 +43470,7 @@
         }
       }
       [VVV_Text]{
-        R="5,686,29,693"
+        R="5,686,25,692"
         Number=5354
         IsHold=FALSE
         Line1="квитир."
@@ -43489,7 +43489,7 @@
         }
       }
       [VVV_Text]{
-        R="669,483,689,489"
+        R="669,483,689,488"
         Number=5360
         IsHold=FALSE
         Line1="квитир."
@@ -44787,7 +44787,7 @@
         }
       }
       [VVV_Text]{
-        R="426,512,458,524"
+        R="426,512,457,523"
         Number=3985
         IsHold=FALSE
         Line1="сброс РБ"
@@ -44970,7 +44970,7 @@
         Line2="НУ РБ2-СС"
       }
       [VVV_Text]{
-        R="1004,164,1038,182"
+        R="1004,164,1041,183"
         Number=7073
         IsHold=FALSE
         Line1="Сброс "
@@ -45004,7 +45004,7 @@
         }
       }
       [VVV_Text]{
-        R="1006,198,1040,216"
+        R="1006,198,1043,217"
         Number=8145
         IsHold=FALSE
         Line1="Сброс "
@@ -45025,7 +45025,7 @@
         }
       }
       [VVV_Text]{
-        R="1010,231,1044,249"
+        R="1010,231,1047,250"
         Number=8236
         IsHold=FALSE
         Line1="Сброс "
@@ -45046,7 +45046,7 @@
         }
       }
       [VVV_Text]{
-        R="1009,263,1043,281"
+        R="1009,263,1046,282"
         Number=8448
         IsHold=FALSE
         Line1="Сброс "
@@ -45632,7 +45632,7 @@
         }
       }
       [VVV_Text]{
-        R="1312,378,1350,392"
+        R="1312,378,1342,389"
         Number=9079
         IsHold=FALSE
         Line1="Без работы"
@@ -46867,7 +46867,7 @@
         }
       }
       [VVV_Text]{
-        R="20,514,41,526"
+        R="20,514,41,525"
         Number=4917
         IsHold=FALSE
         Line1="ДС2 на"
@@ -46887,7 +46887,7 @@
         }
       }
       [VVV_Text]{
-        R="46,515,67,527"
+        R="46,515,67,526"
         Number=5237
         IsHold=FALSE
         Line1="АЗ2 на"
@@ -46962,35 +46962,35 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="144,514,165,526"
+        R="144,514,165,525"
         Number=5254
         IsHold=FALSE
         Line1="ББ1 на"
         Line2="уставке"
       }
       [VVV_Text]{
-        R="118,514,139,526"
+        R="118,514,139,525"
         Number=5260
         IsHold=FALSE
         Line1="ББ2 на"
         Line2="уставке"
       }
       [VVV_Text]{
-        R="93,515,114,527"
+        R="93,515,114,526"
         Number=5267
         IsHold=FALSE
         Line1="ИС1 на"
         Line2="уставке"
       }
       [VVV_Text]{
-        R="69,516,90,528"
+        R="69,516,90,527"
         Number=5274
         IsHold=FALSE
         Line1="ИС2 на"
         Line2="уставке"
       }
       [VVV_Text]{
-        R="209,600,256,621"
+        R="209,600,247,618"
         Number=4690
         IsHold=FALSE
         Line1="Приостановка"
@@ -46998,7 +46998,7 @@
         Line3="по ошибке"
       }
       [VVV_Text]{
-        R="367,554,408,575"
+        R="367,554,399,570"
         Number=5276
         IsHold=FALSE
         Line1="начало"
@@ -47636,7 +47636,7 @@
         }
       }
       [VVV_Text]{
-        R="942,666,980,694"
+        R="942,666,973,690"
         Number=5529
         IsHold=FALSE
         Line1="Конец"
@@ -47704,7 +47704,7 @@
         }
       }
       [VVV_Text]{
-        R="504,591,542,605"
+        R="504,591,534,603"
         Number=5405
         IsHold=FALSE
         Line1="Готовность"
@@ -47798,7 +47798,7 @@
         Line2="НУ НИ2"
       }
       [VVV_Text]{
-        R="983,483,1008,489"
+        R="983,483,1008,488"
         Number=4215
         IsHold=FALSE
         Line1="РБ на НУ"
@@ -47830,7 +47830,7 @@
         }
       }
       [VVV_Text]{
-        R="328,526,353,532"
+        R="328,526,353,531"
         Number=4878
         IsHold=FALSE
         Line1="РБ на НУ"
@@ -47849,13 +47849,13 @@
         }
       }
       [VVV_Text]{
-        R="1162,568,1203,575"
+        R="1162,568,1196,574"
         Number=7156
         IsHold=FALSE
         Line1="НИ не на НУ"
       }
       [VVV_Text]{
-        R="318,450,352,456"
+        R="318,450,353,455"
         Number=7176
         IsHold=FALSE
         Line1="НИ не на НУ"
@@ -47874,13 +47874,13 @@
         }
       }
       [VVV_Text]{
-        R="1093,566,1134,573"
+        R="1093,566,1126,572"
         Number=7285
         IsHold=FALSE
         Line1="РБ не на НУ"
       }
       [VVV_Text]{
-        R="317,495,350,501"
+        R="317,495,350,500"
         Number=7297
         IsHold=FALSE
         Line1="РБ не на НУ"
@@ -48189,7 +48189,7 @@
         }
       }
       [VVV_Text]{
-        R="1530,251,1568,272"
+        R="1530,251,1563,270"
         Number=8366
         IsHold=TRUE
         Line1="Конец"
@@ -48237,7 +48237,7 @@
         }
       }
       [VVV_Text]{
-        R="1421,274,1459,295"
+        R="1421,274,1454,293"
         Number=8407
         IsHold=TRUE
         Line1="Конец"
@@ -48934,7 +48934,7 @@
         }
       }
       [VVV_Text]{
-        R="853,583,888,597"
+        R="853,583,880,595"
         Number=8648
         IsHold=FALSE
         Line1="ОРР не на"
@@ -49532,7 +49532,7 @@
         Line1="Контроль  I-II УР. РАД  "
       }
       [VVV_Text]{
-        R="1595,225,1730,239"
+        R="1595,225,1711,237"
         Number=2467
         IsHold=TRUE
         Line1="соорудить проверку АС 1 УР и АС 2 УР"
@@ -55799,7 +55799,7 @@
         Line2="БЗ1,2"
       }
       [VVV_Text]{
-        R="2285,527,2309,546"
+        R="2285,527,2307,543"
         Number=257
         IsHold=TRUE
         Line1="Блокир. "
@@ -55807,7 +55807,7 @@
         Line3="тия БЗ2"
       }
       [VVV_Text]{
-        R="2256,530,2280,549"
+        R="2256,530,2278,546"
         Number=272
         IsHold=TRUE
         Line1="Блокир. "
@@ -55815,35 +55815,35 @@
         Line3="тия БЗ1"
       }
       [VVV_Text]{
-        R="2116,537,2156,549"
+        R="2116,537,2151,548"
         Number=396
         IsHold=TRUE
         Line1="Блокировки "
         Line2="закрытия БЗ1"
       }
       [VVV_Text]{
-        R="2417,534,2454,546"
+        R="2417,534,2450,545"
         Number=398
         IsHold=TRUE
         Line1="Блокировки "
         Line2="закытия БЗ2"
       }
       [VVV_Text]{
-        R="1497,547,1525,561"
+        R="1497,547,1518,558"
         Number=716
         IsHold=TRUE
         Line1="Тележка"
         Line2="назад"
       }
       [VVV_Text]{
-        R="1453,546,1490,560"
+        R="1453,546,1482,557"
         Number=741
         IsHold=TRUE
         Line1="Тележка"
         Line2="к образцам"
       }
       [VVV_Text]{
-        R="1436,455,1461,469"
+        R="1436,455,1459,467"
         Number=736
         IsHold=TRUE
         Line1="блокир."
@@ -55864,7 +55864,7 @@
         ABBRV="OR2"
       }
       [VVV_Text]{
-        R="1513,453,1538,467"
+        R="1513,453,1536,465"
         Number=904
         IsHold=TRUE
         Line1="блокир."
@@ -57770,7 +57770,7 @@
         }
       }
       [VVV_Text]{
-        R="964,91,998,109"
+        R="964,91,1001,110"
         Number=304
         IsHold=FALSE
         Line1="Сброс "
@@ -57799,7 +57799,7 @@
         Line3="магнитов ББ"
       }
       [VVV_Text]{
-        R="911,335,963,341"
+        R="911,335,964,341"
         Number=336
         IsHold=FALSE
         Line1="Отключить ЭМ ББ"
@@ -57832,7 +57832,7 @@
         Line2="сброс ББ"
       }
       [VVV_Text]{
-        R="817,578,849,592"
+        R="817,578,842,590"
         Number=796
         IsHold=TRUE
         Line1="АЗ или"
@@ -57846,7 +57846,7 @@
         Line2="сброс ББ"
       }
       [VVV_Text]{
-        R="286,555,318,569"
+        R="286,555,311,566"
         Number=802
         IsHold=FALSE
         Line1="АЗ или"
@@ -58649,7 +58649,7 @@
         }
       }
       [VVV_Text]{
-        R="2143,127,2174,138"
+        R="2143,127,2176,139"
         Number=5804
         IsHold=FALSE
         Line1="Приход на "
@@ -58698,7 +58698,7 @@
         Line3="не у образцов"
       }
       [VVV_Text]{
-        R="2086,67,2122,72"
+        R="2086,67,2125,73"
         Number=5828
         IsHold=FALSE
         Line1="не в обмене(("
@@ -59551,7 +59551,7 @@
         }
       }
       [VVV_Text]{
-        R="38,29,206,35"
+        R="38,29,193,34"
         Number=1521
         IsHold=TRUE
         Line1="Стр 2. Переключатели РЕЖИМ РАБОТЫ, ВЫБОР ЗОНЫ "
@@ -59594,7 +59594,7 @@
         }
       }
       [VVV_Text]{
-        R="39,50,231,62"
+        R="39,50,210,61"
         Number=2863
         IsHold=TRUE
         Line1="Стр.3 Переключатели ВЫСТРЕЛ, ПРОГРАММЫ,"
@@ -59614,7 +59614,7 @@
         }
       }
       [VVV_Text]{
-        R="38,74,224,80"
+        R="38,74,213,79"
         Number=4121
         IsHold=TRUE
         Line1="Стр. 4 Переключатели ВИД ПРОВЕРКИ, ПУСК, СТОП, СПУСК  "
@@ -59633,7 +59633,7 @@
         }
       }
       [VVV_Text]{
-        R="37,92,170,98"
+        R="37,92,160,97"
         Number=5950
         IsHold=TRUE
         Line1="Стр. 5 Обобщенный сигнал АЗ, готовность РУ"
@@ -59736,7 +59736,7 @@
         }
       }
       [VVV_Text]{
-        R="37,116,180,122"
+        R="37,116,171,121"
         Number=5976
         IsHold=TRUE
         Line1="Стр. 6 ОРР не в исходном состоянии и самоходы"
@@ -59755,7 +59755,7 @@
         }
       }
       [VVV_Text]{
-        R="38,133,150,139"
+        R="38,133,141,138"
         Number=5991
         IsHold=TRUE
         Line1="Стр.7 Управление перемещением ББ1"
@@ -59774,13 +59774,13 @@
         }
       }
       [VVV_Text]{
-        R="38,157,148,163"
+        R="38,157,139,162"
         Number=6002
         IsHold=TRUE
         Line1="Стр.8 Формирование блокировок ББ1"
       }
       [VVV_Text]{
-        R="266,169,333,175"
+        R="266,169,326,174"
         Number=6004
         IsHold=TRUE
         Line1="Стр.9 Программа 200с"
@@ -59812,7 +59812,7 @@
         }
       }
       [VVV_Text]{
-        R="261,193,343,199"
+        R="261,193,336,198"
         Number=6014
         IsHold=TRUE
         Line1="Стр.10 Программа 20 минут"
@@ -59831,7 +59831,7 @@
         }
       }
       [VVV_Text]{
-        R="465,203,578,209"
+        R="465,203,569,208"
         Number=6020
         IsHold=TRUE
         Line1="Стр.11 Управление тележкой реактора"
@@ -59850,7 +59850,7 @@
         }
       }
       [VVV_Text]{
-        R="463,162,617,168"
+        R="463,162,605,167"
         Number=6032
         IsHold=TRUE
         Line1="Стр.12 Управление биологической защитой БЗ1, БЗ2"
@@ -59869,7 +59869,7 @@
         }
       }
       [VVV_Text]{
-        R="465,182,589,188"
+        R="465,182,578,187"
         Number=6046
         IsHold=TRUE
         Line1="Стр.13 Блокировки перемещения БЗ1,БЗ2"
@@ -59907,7 +59907,7 @@
         }
       }
       [VVV_Text]{
-        R="37,176,153,182"
+        R="37,176,143,181"
         Number=6069
         IsHold=TRUE
         Line1="Стр.15 Управление перемещением ББ2"
@@ -59926,7 +59926,7 @@
         }
       }
       [VVV_Text]{
-        R="36,196,150,202"
+        R="36,196,141,201"
         Number=6077
         IsHold=TRUE
         Line1="Стр.16 Формирование блокировок ББ2"
@@ -59945,7 +59945,7 @@
         }
       }
       [VVV_Text]{
-        R="261,90,398,102"
+        R="261,90,389,101"
         Number=6083
         IsHold=TRUE
         Line1="Рис.17  ПУСК, РАБОТА в режимах калибровка,"
@@ -59965,7 +59965,7 @@
         }
       }
       [VVV_Text]{
-        R="465,224,615,230"
+        R="465,224,603,229"
         Number=6104
         IsHold=TRUE
         Line1="Стр.18 Блокировки перемещения тележки реактора"
@@ -59990,7 +59990,7 @@
         }
       }
       [VVV_Text]{
-        R="463,122,635,128"
+        R="463,122,621,127"
         Number=6111
         IsHold=TRUE
         Line1=" Стр.19 Перемещение тележки из БЗ к ОБРАЗЦАМ и назад"
@@ -60009,7 +60009,7 @@
         }
       }
       [VVV_Text]{
-        R="466,138,585,150"
+        R="466,138,578,149"
         Number=6122
         IsHold=TRUE
         Line1="Стр.20  Схема управления нейтронными "
@@ -60029,7 +60029,7 @@
         }
       }
       [VVV_Text]{
-        R="34,256,150,262"
+        R="34,256,140,261"
         Number=6127
         IsHold=TRUE
         Line1="Стр.21 Управление перемещением РБ2"
@@ -60048,7 +60048,7 @@
         }
       }
       [VVV_Text]{
-        R="35,277,149,283"
+        R="35,277,140,282"
         Number=6132
         IsHold=TRUE
         Line1="Стр.22 Формирование блокировок РБ2"
@@ -60067,7 +60067,7 @@
         }
       }
       [VVV_Text]{
-        R="34,295,143,300"
+        R="34,295,142,300"
         Number=6138
         IsHold=TRUE
         Line1="Стр.23 Управление перемещением ИС1"
@@ -60105,7 +60105,7 @@
         }
       }
       [VVV_Text]{
-        R="264,106,406,118"
+        R="264,106,397,117"
         Number=6165
         IsHold=TRUE
         Line1="Стр.25 СПУСК, РАБОТА в режимах калибровка, "
@@ -60125,7 +60125,7 @@
         }
       }
       [VVV_Text]{
-        R="260,25,408,37"
+        R="260,25,400,36"
         Number=6173
         IsHold=TRUE
         Line1="Стр.26 Одновременный спуск по АЗ или сбросу ББ"
@@ -60145,7 +60145,7 @@
         }
       }
       [VVV_Text]{
-        R="261,8,377,14"
+        R="261,8,367,13"
         Number=6178
         IsHold=TRUE
         Line1="Стр.27 Управление перемещением АЗ2"
@@ -60164,7 +60164,7 @@
         }
       }
       [VVV_Text]{
-        R="262,308,374,325"
+        R="262,308,374,324"
         Number=6185
         IsHold=TRUE
         Line1="Стр.28  Схема управления нейтронными "
@@ -60185,7 +60185,7 @@
         }
       }
       [VVV_Text]{
-        R="39,215,155,221"
+        R="39,215,145,220"
         Number=6190
         IsHold=TRUE
         Line1="Стр.29 Управление перемещением РБ1"
@@ -60204,7 +60204,7 @@
         }
       }
       [VVV_Text]{
-        R="35,237,149,243"
+        R="35,237,140,242"
         Number=6195
         IsHold=TRUE
         Line1="Стр.30 Формирование блокировок РБ1"
@@ -60223,7 +60223,7 @@
         }
       }
       [VVV_Text]{
-        R="35,335,157,341"
+        R="35,335,143,340"
         Number=6206
         IsHold=TRUE
         Line1="Стр.31 Управление перемещением ИС2"
@@ -60242,7 +60242,7 @@
         }
       }
       [VVV_Text]{
-        R="37,358,155,364"
+        R="37,358,143,363"
         Number=6211
         IsHold=TRUE
         Line1="Стр.32 Формирование блокировок ИС2"
@@ -60261,7 +60261,7 @@
         }
       }
       [VVV_Text]{
-        R="263,212,371,218"
+        R="263,212,364,217"
         Number=6217
         IsHold=TRUE
         Line1="Стр.33 Запуск проверок схем сброса"
@@ -60286,7 +60286,7 @@
         }
       }
       [VVV_Text]{
-        R="263,231,383,243"
+        R="263,231,373,242"
         Number=6224
         IsHold=TRUE
         Line1="Стр.34 Алгоритмы проверки схем сброса"
@@ -60306,7 +60306,7 @@
         }
       }
       [VVV_Text]{
-        R="261,67,377,86"
+        R="261,67,367,83"
         Number=6230
         IsHold=TRUE
         Line1="Стр.35 Контроль заданных координат и "
@@ -60327,7 +60327,7 @@
         }
       }
       [VVV_Text]{
-        R="263,49,379,55"
+        R="263,49,371,54"
         Number=6235
         IsHold=TRUE
         Line1="Стр.36 Управление перемещением ДС2"
@@ -60346,7 +60346,7 @@
         }
       }
       [VVV_Text]{
-        R="467,71,635,77"
+        R="467,71,623,76"
         Number=6242
         IsHold=TRUE
         Line1="Стр.37 Режим "ПРОВЕРКА" НИ ДС1,2, РБ мех, РБ пневм"
@@ -60371,7 +60371,7 @@
         }
       }
       [VVV_Text]{
-        R="467,92,628,98"
+        R="467,92,615,97"
         Number=6248
         IsHold=TRUE
         Line1="Стр.38 Режим "ПРОВЕРКА" РБ+НИ ИС мех, ИС пневм"
@@ -60384,7 +60384,7 @@
         Line2="             разрешение режима ПРОВЕРКА  "
       }
       [VVV_Text]{
-        R="467,29,593,41"
+        R="467,29,582,40"
         Number=6278
         IsHold=TRUE
         Line1="Стр.39 Режим ПРОВЕРКА ББ мех, МДЗ1,2"
@@ -60410,7 +60410,7 @@
         Line1=""
       }
       [VVV_Text]{
-        R="467,48,622,60"
+        R="467,48,610,59"
         Number=6288
         IsHold=TRUE
         Line1="Стр.40 Анализ завершения операции ИС-пневматика"
@@ -60430,7 +60430,7 @@
         }
       }
       [VVV_Text]{
-        R="265,250,428,256"
+        R="265,250,418,255"
         Number=6301
         IsHold=TRUE
         Line1="Стр.41 Проверка ИНИ и запуск системы инициирования"
@@ -60449,7 +60449,7 @@
         }
       }
       [VVV_Text]{
-        R="266,266,388,278"
+        R="266,266,379,277"
         Number=6306
         IsHold=TRUE
         Line1="Рис.42 Проверка задержки 1.5 от ВУ РБ и"
@@ -60475,7 +60475,7 @@
         }
       }
       [VVV_Text]{
-        R="265,131,437,137"
+        R="265,131,425,136"
         Number=6314
         IsHold=TRUE
         Line1="Стр.43 Сброс ББ, Сброс РБ, отключение магнитов РБ, ББ "
@@ -60494,7 +60494,7 @@
         }
       }
       [VVV_Text]{
-        R="264,148,377,160"
+        R="264,148,369,159"
         Number=6321
         IsHold=TRUE
         Line1="Стр.44 Управление подъёмом РБ, ИС "
@@ -60514,7 +60514,7 @@
         }
       }
       [VVV_Text]{
-        R="262,290,407,301"
+        R="262,290,406,301"
         Number=6326
         IsHold=TRUE
         Line1="Стр.45 Схема управления нейтронными источниками"
@@ -60540,7 +60540,7 @@
         }
       }
       [VVV_Text]{
-        R="266,349,366,355"
+        R="266,349,355,354"
         Number=6359
         IsHold=TRUE
         Line1="Стр.48 Неиспользуемые сигналы"
@@ -61603,7 +61603,7 @@
         Line3="ПРОВЕРКА"
       }
       [VVV_Text]{
-        R="2440,288,2472,305"
+        R="2440,288,2470,304"
         Number=7199
         IsHold=FALSE
         Line1="ПУСК не в"
@@ -61837,7 +61837,7 @@
         }
       }
       [VVV_Text]{
-        R="1401,342,1432,356"
+        R="1401,342,1427,354"
         Number=7115
         IsHold=FALSE
         Line1="едем"
@@ -61864,7 +61864,7 @@
         ABBRV="AND4"
       }
       [VVV_Text]{
-        R="1361,376,1393,390"
+        R="1361,376,1386,387"
         Number=7472
         IsHold=FALSE
         Line1="не режим"
@@ -62498,7 +62498,7 @@
         Line1="стр.47 Импульсное регулирование мощности в статическом режиме"
       }
       [VVV_Text]{
-        R="465,239,595,251"
+        R="465,239,588,250"
         Number=1984
         IsHold=FALSE
         Line1="стр.47 Импульсное регулирование мощности"
@@ -62966,7 +62966,7 @@
         ABBRV="FSUMO"
       }
       [VVV_Text]{
-        R="1786,30,1820,44"
+        R="1786,30,1814,42"
         Number=8430
         IsHold=FALSE
         Line1="Заданная"
@@ -63000,7 +63000,7 @@
         }
       }
       [VVV_Text]{
-        R="1844,160,1909,167"
+        R="1844,160,1898,166"
         Number=8514
         IsHold=FALSE
         Line1="Текущая мощность"
@@ -185939,4 +185939,4 @@
     }
   }
 }
-174383699
+174358727

@@ -15,8 +15,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -37,8 +37,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -59,8 +59,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -81,8 +81,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -103,8 +103,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -125,8 +125,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -147,8 +147,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -169,8 +169,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -191,8 +191,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -213,8 +213,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -235,8 +235,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -257,8 +257,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -279,8 +279,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -301,8 +301,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -323,8 +323,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -345,8 +345,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -367,8 +367,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -389,8 +389,8 @@
       MaxValue="1000000"
       Group="1"
       Access="0"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -411,8 +411,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -433,8 +433,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -455,8 +455,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -477,8 +477,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -499,8 +499,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -521,8 +521,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -543,8 +543,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -961,8 +961,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -983,8 +983,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=1
-      InterfaceMB="RPU"
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -1894,7 +1894,7 @@
         R="82,542,142,582"
         Number=211
         IsHold=FALSE
-        VisualNumber="96"
+        VisualNumber="88"
         SIGNAL_NAME="A0IT03IRP"
         KodTeprol="A0IT03IRP"
         Comment="Температура АЗ1-3"
@@ -1934,7 +1934,7 @@
         R="436,515,496,555"
         Number=214
         IsHold=FALSE
-        VisualNumber="126"
+        VisualNumber="122"
         SIGNAL_NAME="A0CT01IRP"
         KodTeprol="A0CT01IRP"
         Comment="Температура АЗ1-3"
@@ -1960,21 +1960,21 @@
         R="356,563,386,583"
         Number=215
         IsHold=FALSE
-        VisualNumber="116"
+        VisualNumber="113"
         CONST_NAME="R0UT62RZZ"
       }
       [VVV_DrawConst]{
         R="390,563,420,583"
         Number=216
         IsHold=FALSE
-        VisualNumber="119"
+        VisualNumber="116"
         CONST_NAME="R0UT61RZZ"
       }
       [TModule]{
         R="380,537,410,557"
         Number=217
         IsHold=FALSE
-        VisualNumber="118"
+        VisualNumber="115"
         ABBRV="DRG"
         [VVV_DrawConnector]{
           Number=0
@@ -2015,7 +2015,7 @@
         R="361,478,421,518"
         Number=218
         IsHold=FALSE
-        VisualNumber="115"
+        VisualNumber="112"
         SIGNAL_NAME="A0VT61LRP"
         KodTeprol="A0VT61LRP"
         Comment="ПС по температуре в АЗ1"
@@ -2042,7 +2042,7 @@
         R="252,537,282,557"
         Number=219
         IsHold=FALSE
-        VisualNumber="102"
+        VisualNumber="101"
         ABBRV="DRG"
         [VVV_DrawConnector]{
           Number=0
@@ -2083,7 +2083,7 @@
         R="290,477,350,517"
         Number=221
         IsHold=FALSE
-        VisualNumber="110"
+        VisualNumber="108"
         SIGNAL_NAME="A0VT71LRP"
         KodTeprol="A0VT71LRP"
         Comment="АС по температуре в АЗ1"
@@ -2110,14 +2110,14 @@
         R="234,563,264,583"
         Number=222
         IsHold=FALSE
-        VisualNumber="100"
+        VisualNumber="99"
         CONST_NAME="R0UT72RZZ"
       }
       [VVV_DrawConst]{
         R="271,563,301,583"
         Number=223
         IsHold=FALSE
-        VisualNumber="108"
+        VisualNumber="106"
         CONST_NAME="R0UT71RZZ"
       }
       [TDrawSignal]{
@@ -2152,7 +2152,7 @@
         R="87,678,147,718"
         Number=248
         IsHold=FALSE
-        VisualNumber="97"
+        VisualNumber="90"
         SIGNAL_NAME="B0IT03IRP"
         KodTeprol="B0IT03IRP"
         Comment="Температура АЗ2-3"
@@ -2206,7 +2206,7 @@
         R="436,651,496,691"
         Number=250
         IsHold=FALSE
-        VisualNumber="127"
+        VisualNumber="123"
         SIGNAL_NAME="B0CT01IRP"
         KodTeprol="B0CT01IRP"
         Comment="Температура АЗ2-3"
@@ -2232,14 +2232,14 @@
         R="356,699,386,719"
         Number=251
         IsHold=FALSE
-        VisualNumber="117"
+        VisualNumber="114"
         CONST_NAME="R0UT62RZZ"
       }
       [VVV_DrawConst]{
         R="390,699,420,719"
         Number=253
         IsHold=FALSE
-        VisualNumber="122"
+        VisualNumber="119"
         CONST_NAME="R0UT61RZZ"
       }
       [TModule]{
@@ -2304,7 +2304,7 @@
         R="380,673,410,693"
         Number=255
         IsHold=FALSE
-        VisualNumber="121"
+        VisualNumber="118"
         ABBRV="DRG"
         [VVV_DrawConnector]{
           Number=0
@@ -2345,7 +2345,7 @@
         R="361,614,421,654"
         Number=256
         IsHold=FALSE
-        VisualNumber="120"
+        VisualNumber="117"
         SIGNAL_NAME="B0VT61LRP"
         KodTeprol="B0VT61LRP"
         Comment="ПС по температуре в АЗ2-3"
@@ -2372,7 +2372,7 @@
         R="252,673,282,693"
         Number=257
         IsHold=FALSE
-        VisualNumber="104"
+        VisualNumber="103"
         ABBRV="DRG"
         [VVV_DrawConnector]{
           Number=0
@@ -2413,7 +2413,7 @@
         R="290,613,350,653"
         Number=258
         IsHold=FALSE
-        VisualNumber="111"
+        VisualNumber="109"
         SIGNAL_NAME="B0VT71LRP"
         KodTeprol="B0VT71LRP"
         Comment="АС по температуре в АЗ2-3"
@@ -2440,14 +2440,14 @@
         R="234,699,264,719"
         Number=259
         IsHold=FALSE
-        VisualNumber="101"
+        VisualNumber="100"
         CONST_NAME="R0UT72RZZ"
       }
       [VVV_DrawConst]{
         R="271,699,301,719"
         Number=260
         IsHold=FALSE
-        VisualNumber="109"
+        VisualNumber="107"
         CONST_NAME="R0UT71RZZ"
       }
       [TModule]{
@@ -2512,7 +2512,7 @@
         R="86,477,146,517"
         Number=263
         IsHold=FALSE
-        VisualNumber="88"
+        VisualNumber="87"
         ABBRV="SCALZZ"
         [VVV_DrawConnector]{
           Number=0
@@ -2814,7 +2814,7 @@
         R="564,515,624,555"
         Number=346
         IsHold=FALSE
-        VisualNumber="131"
+        VisualNumber="129"
         SIGNAL_NAME="A1VT71LRP"
         KodTeprol="A1VT71LRP"
         Comment="АС по температуре"
@@ -3259,21 +3259,21 @@
         R="249,486,279,506"
         Number=29
         IsHold=FALSE
-        VisualNumber="99"
+        VisualNumber="98"
         ABBRV="OR2"
       }
       [TModule]{
         R="523,523,553,543"
         Number=273
         IsHold=FALSE
-        VisualNumber="130"
+        VisualNumber="126"
         ABBRV="OR2"
       }
       [TModule]{
         R="252,621,282,641"
         Number=297
         IsHold=FALSE
-        VisualNumber="103"
+        VisualNumber="102"
         ABBRV="OR2"
       }
       [VVV_InterBlock]{
@@ -3307,7 +3307,7 @@
         R="306,793,366,833"
         Number=307
         IsHold=FALSE
-        VisualNumber="113"
+        VisualNumber="110"
         SIGNAL_NAME="A3IS21LRP"
         KodTeprol="A3IS21LRP"
         Comment="Приход на НУ ИС1"
@@ -3334,7 +3334,7 @@
         R="307,841,367,881"
         Number=308
         IsHold=FALSE
-        VisualNumber="114"
+        VisualNumber="111"
         SIGNAL_NAME="B3IS21LRP"
         KodTeprol="B3IS21LRP"
         Comment="Приход на НУ ИС2"
@@ -3361,7 +3361,7 @@
         R="472,792,532,832"
         Number=311
         IsHold=FALSE
-        VisualNumber="129"
+        VisualNumber="124"
         SIGNAL_NAME="A2IS21LRP"
         KodTeprol="A2IS21LRP"
         Comment="Приход на НУ РБ1-CC"
@@ -3388,7 +3388,7 @@
         R="472,840,532,880"
         Number=312
         IsHold=FALSE
-        VisualNumber="132"
+        VisualNumber="125"
         SIGNAL_NAME="B2IS21LRP"
         KodTeprol="B2IS21LRP"
         Comment="Приход на НУ РБ2-CC"
@@ -3415,7 +3415,7 @@
         R="568,792,628,832"
         Number=315
         IsHold=FALSE
-        VisualNumber="137"
+        VisualNumber="132"
         SIGNAL_NAME="A2VS21LRP"
         KodTeprol="A2VS21LRP"
         Comment="Индикация - Приход на НУ РБ1-CC"
@@ -3470,7 +3470,7 @@
         R="400,792,460,832"
         Number=317
         IsHold=FALSE
-        VisualNumber="124"
+        VisualNumber="120"
         SIGNAL_NAME="A3VS21LRP"
         KodTeprol="A3VS21LRP"
         Comment="Индикация - Приход на НУ ИС1"
@@ -3498,7 +3498,7 @@
         R="400,843,460,883"
         Number=318
         IsHold=FALSE
-        VisualNumber="125"
+        VisualNumber="121"
         SIGNAL_NAME="B3VS21LRP"
         KodTeprol="B3VS21LRP"
         Comment="Индикация - Приход на НУ ИС2"
@@ -3526,7 +3526,7 @@
         R="212,457,242,477"
         Number=326
         IsHold=FALSE
-        VisualNumber="98"
+        VisualNumber="97"
         ABBRV="OR2"
       }
       [VVV_InterBlock]{
@@ -3560,7 +3560,7 @@
         R="496,701,556,741"
         Number=371
         IsHold=FALSE
-        VisualNumber="134"
+        VisualNumber="128"
         SIGNAL_NAME="C1MD31LRP"
         KodTeprol="C1MD31LRP"
         Comment="Кнопка ОБЩИЙ СБРОС  на РПУ"
@@ -3588,7 +3588,7 @@
         R="500,649,560,689"
         Number=372
         IsHold=FALSE
-        VisualNumber="128"
+        VisualNumber="127"
         SIGNAL_NAME="C1MZ31LRP"
         KodTeprol="C1MZ31LRP"
         Comment="Кнопка ОБДУВ  на РПУ"
@@ -3762,7 +3762,7 @@
         R="587,651,647,691"
         Number=15
         IsHold=FALSE
-        VisualNumber="135"
+        VisualNumber="130"
         SIGNAL_NAME="A7MZ31LRP"
         KodTeprol="A7MZ31LRP"
         Comment="Клапан ОБДУВ АЗ1 открыть(обесточить)"
@@ -3789,7 +3789,7 @@
         R="589,701,649,741"
         Number=18
         IsHold=FALSE
-        VisualNumber="136"
+        VisualNumber="131"
         SIGNAL_NAME="B7MZ31LRP"
         KodTeprol="B7MZ31LRP"
         Comment="Клапан ОБДУВ АЗ2 открыть(обесточить)"
@@ -3843,7 +3843,7 @@
         R="679,450,739,490"
         Number=48
         IsHold=FALSE
-        VisualNumber="138"
+        VisualNumber="134"
         SIGNAL_NAME="R0DE01LRP"
         KodTeprol="R0DE01LRP"
         Comment="диагностика модуля РПУ-ВЧС место 1"
@@ -3870,7 +3870,7 @@
         R="679,493,739,533"
         Number=53
         IsHold=FALSE
-        VisualNumber="139"
+        VisualNumber="135"
         SIGNAL_NAME="R0DE02LRP"
         KodTeprol="R0DE02LRP"
         Comment="диагностика модуля РПУ-ВЧС место 2"
@@ -3897,7 +3897,7 @@
         R="679,536,739,576"
         Number=63
         IsHold=FALSE
-        VisualNumber="140"
+        VisualNumber="136"
         SIGNAL_NAME="R0DE03LRP"
         KodTeprol="R0DE03LRP"
         Comment="диагностика модуля РПУ-ВЧС место 3"
@@ -3924,7 +3924,7 @@
         R="753,450,813,490"
         Number=64
         IsHold=FALSE
-        VisualNumber="144"
+        VisualNumber="140"
         SIGNAL_NAME="R0DE06LRP"
         KodTeprol="R0DE06LRP"
         Comment="диагностика модуля РПУ-ВАС место 6"
@@ -3951,7 +3951,7 @@
         R="679,582,739,622"
         Number=65
         IsHold=FALSE
-        VisualNumber="141"
+        VisualNumber="137"
         SIGNAL_NAME="R0DE08LRP"
         KodTeprol="R0DE08LRP"
         Comment="диагностика модуля РПУ-ФДС место 8"
@@ -3979,7 +3979,7 @@
         R="828,450,888,490"
         Number=66
         IsHold=FALSE
-        VisualNumber="148"
+        VisualNumber="144"
         SIGNAL_NAME="R0DE07LRP"
         KodTeprol="R0DE07LRP"
         Comment="диагностика модуля РПУ-ВДС место 7"
@@ -4006,7 +4006,7 @@
         R="679,643,739,683"
         Number=67
         IsHold=FALSE
-        VisualNumber="142"
+        VisualNumber="138"
         SIGNAL_NAME="R0DE31LRP"
         KodTeprol="R0DE31LRP"
         Comment="диагностика шкафа РПУ сеть 1"
@@ -4033,7 +4033,7 @@
         R="678,691,738,731"
         Number=68
         IsHold=FALSE
-        VisualNumber="143"
+        VisualNumber="139"
         SIGNAL_NAME="R0DE32LRP"
         KodTeprol="R0DE32LRP"
         Comment="диагностика шкафа РПУ сеть 2"
@@ -4060,7 +4060,7 @@
         R="829,763,889,803"
         Number=69
         IsHold=FALSE
-        VisualNumber="150"
+        VisualNumber="146"
         SIGNAL_NAME="R0DE33LRP"
         KodTeprol="R0DE33LRP"
         Comment="диагностика шкафа РПУ двери"
@@ -4087,7 +4087,7 @@
         R="829,807,889,847"
         Number=70
         IsHold=FALSE
-        VisualNumber="151"
+        VisualNumber="147"
         SIGNAL_NAME="R0DE34LRP"
         KodTeprol="R0DE34LRP"
         Comment="диагностика шкафа РПУ температура меньше 43"
@@ -4114,7 +4114,7 @@
         R="828,719,888,759"
         Number=71
         IsHold=FALSE
-        VisualNumber="149"
+        VisualNumber="145"
         SIGNAL_NAME="R0DE35LRP"
         KodTeprol="R0DE35LRP"
         Comment="диагностика шкафа РПУ температура больше 53"
@@ -4141,7 +4141,7 @@
         R="942,596,1002,636"
         Number=72
         IsHold=FALSE
-        VisualNumber="154"
+        VisualNumber="150"
         SIGNAL_NAME="R0DE36LRP"
         KodTeprol="R0DE36LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 1"
@@ -4168,7 +4168,7 @@
         R="941,640,1001,680"
         Number=73
         IsHold=FALSE
-        VisualNumber="155"
+        VisualNumber="151"
         SIGNAL_NAME="R0DE37LRP"
         KodTeprol="R0DE37LRP"
         Comment="диагностика шкафа РПУ МП15-3.1 место 2"
@@ -4196,7 +4196,7 @@
         R="941,685,1001,725"
         Number=74
         IsHold=FALSE
-        VisualNumber="156"
+        VisualNumber="152"
         SIGNAL_NAME="R0DE38LRP"
         KodTeprol="R0DE38LRP"
         Comment="диагностика шкафа РПУ МП15-3 место 3"
@@ -4223,7 +4223,7 @@
         R="940,728,1000,768"
         Number=75
         IsHold=FALSE
-        VisualNumber="157"
+        VisualNumber="153"
         SIGNAL_NAME="R0DE39LRP"
         KodTeprol="R0DE39LRP"
         Comment="диагностика шкафа РПУ МП24-2 место 4"
@@ -4250,7 +4250,7 @@
         R="1039,558,1099,598"
         Number=78
         IsHold=FALSE
-        VisualNumber="159"
+        VisualNumber="155"
         SIGNAL_NAME="R0DE3CLRP"
         KodTeprol="R0DE3CLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 7"
@@ -4277,7 +4277,7 @@
         R="1210,559,1270,599"
         Number=79
         IsHold=FALSE
-        VisualNumber="166"
+        VisualNumber="162"
         SIGNAL_NAME="R0DE3DLRP"
         KodTeprol="R0DE3DLRP"
         Comment="диагностика шкафа РПУ БП5/24Д место 8"
@@ -4304,7 +4304,7 @@
         R="773,531,803,571"
         Number=80
         IsHold=FALSE
-        VisualNumber="145"
+        VisualNumber="141"
         ABBRV="DIAGNDEV"
         [VVV_DrawConnector]{
           Number=0
@@ -4328,14 +4328,14 @@
         R="773,657,803,697"
         Number=89
         IsHold=FALSE
-        VisualNumber="147"
+        VisualNumber="143"
         ABBRV="AND2"
       }
       [TModule]{
         R="1136,662,1166,702"
         Number=92
         IsHold=FALSE
-        VisualNumber="163"
+        VisualNumber="159"
         ABBRV="ORN"
         [VVV_DrawConnector]{
           Number=0
@@ -4359,7 +4359,7 @@
         R="1233,827,1293,867"
         Number=109
         IsHold=FALSE
-        VisualNumber="167"
+        VisualNumber="163"
         SIGNAL_NAME="TestDiagnRPU"
         KodTeprol="TestDiagnRPU"
         Comment="Неисправность от диагностики"
@@ -4386,14 +4386,14 @@
         R="1108,828,1138,868"
         Number=111
         IsHold=FALSE
-        VisualNumber="162"
+        VisualNumber="158"
         ABBRV="OR3"
       }
       [TDrawSignal]{
         R="773,581,803,621"
         Number=87
         IsHold=FALSE
-        VisualNumber="146"
+        VisualNumber="142"
         SIGNAL_NAME="TTLrpu"
         KodTeprol="TTLrpu"
         Comment="ttl"
@@ -4419,7 +4419,7 @@
         R="940,449,1000,489"
         Number=93
         IsHold=FALSE
-        VisualNumber="152"
+        VisualNumber="148"
         SIGNAL_NAME="R0DEB1LRP"
         KodTeprol="R0DEB1LRP"
         Comment="диагностика шкафа РПУ БП5 место 7"
@@ -4446,7 +4446,7 @@
         R="940,502,1000,542"
         Number=94
         IsHold=FALSE
-        VisualNumber="153"
+        VisualNumber="149"
         SIGNAL_NAME="R0DEB2LRP"
         KodTeprol="R0DEB2LRP"
         Comment="диагностика шкафа РПУ БП24Д место 7"
@@ -4473,7 +4473,7 @@
         R="1122,502,1182,542"
         Number=95
         IsHold=FALSE
-        VisualNumber="161"
+        VisualNumber="157"
         SIGNAL_NAME="R0DEB4LRP"
         KodTeprol="R0DEB4LRP"
         Comment="диагностика шкафа РПУ БП24Д место 8"
@@ -4500,7 +4500,7 @@
         R="1122,449,1182,489"
         Number=96
         IsHold=FALSE
-        VisualNumber="160"
+        VisualNumber="156"
         SIGNAL_NAME="R0DEB3LRP"
         KodTeprol="R0DEB3LRP"
         Comment="диагностика шкафа РПУ БП5 место 8"
@@ -4527,14 +4527,14 @@
         R="1209,475,1239,515"
         Number=103
         IsHold=FALSE
-        VisualNumber="165"
+        VisualNumber="161"
         ABBRV="OR2"
       }
       [TModule]{
         R="1039,474,1069,514"
         Number=104
         IsHold=FALSE
-        VisualNumber="158"
+        VisualNumber="154"
         ABBRV="OR2"
       }
       [TDrawSignal]{
@@ -4877,7 +4877,7 @@
         R="1173,778,1203,798"
         Number=335
         IsHold=FALSE
-        VisualNumber="164"
+        VisualNumber="160"
         ABBRV="NOTO"
       }
       [VVV_InterBlock]{
@@ -4931,7 +4931,7 @@
         R="233,794,293,834"
         Number=361
         IsHold=FALSE
-        VisualNumber="105"
+        VisualNumber="104"
         SIGNAL_NAME="A1VS21LRP"
         KodTeprol="A1VS21LRP"
         Comment="Индикация - Приход на НУ ББ1"
@@ -4958,7 +4958,7 @@
         R="154,842,214,882"
         Number=309
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="96"
         SIGNAL_NAME="B1IS21LRP"
         KodTeprol="B1IS21LRP"
         Comment="Приход на НУ ББ2"
@@ -4986,7 +4986,7 @@
         R="233,841,293,881"
         Number=310
         IsHold=FALSE
-        VisualNumber=""
+        VisualNumber="105"
         SIGNAL_NAME="B1VS21LRP"
         KodTeprol="B1VS21LRP"
         Comment="Индикация - Приход на НУ ББ2"
@@ -8951,4 +8951,4 @@
     }
   }
 }
-8586414
+8579909
