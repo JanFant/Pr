@@ -114,7 +114,7 @@ int main(int argc, char **argv) {
         VCHS_post(buf_VCHS02);
         VCHS_post(buf_VCHS03);
 
-        Scheme();
+        MainCycle();
         if (SimulOn)
             writeAllSimul();
         else {

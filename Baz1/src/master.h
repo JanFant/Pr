@@ -864,6 +864,27 @@ static ModbusRegister ir_Baz1[]={  //
 static ModbusRegister hr_Baz1[]={  // 
 	{&R0MW11IP1,3,0},	//( - , Baz1) Переключатель ВЫСТРЕЛ
 	{&R0MW12IP2,3,1},	//( - , Baz1) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС
+	{&fEM_R0UT02RZZ,8,2},	//( - , Baz1) Верхний предел шкалы датчика температуры
+	{&fEM_R0UT01RZZ,8,4},	//( - , Baz1) Нижний предел шкалы датчика температуры
+	{&fEM_A2UP03RZZ,8,6},	//( - , Baz1) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
+	{&fEM_A2UP04RZZ,8,8},	//( - , Baz1) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
+	{&fEM_R0UT72RZZ,8,10},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+	{&fEM_R0UT71RZZ,8,12},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по температуре АЗ
+	{&fEM_R0UT62RZZ,8,14},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+	{&fEM_R0UT61RZZ,8,16},	//( - , Baz1) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+	{&fEM_A2UP41RZZ,8,18},	//( - , Baz1) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+	{&fEM_A2UP42RZZ,8,20},	//( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+	{&fEM_A2UP51RZZ,8,22},	//( - , Baz1) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
+	{&fEM_A2UP81RZZ,8,24},	//( - , Baz1) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP84RZZ,8,26},	//( - , Baz1) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP82RZZ,8,28},	//( - , Baz1) Нижняя граница нормализации давления СБРОС РБ (МПа)
+	{&fEM_A2UP52RZZ,8,30},	//( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+	{&fEM_A2UP83RZZ,8,32},	//( - , Baz1) Верхняя граница нормализации давления СБРОС РБ (МПа)
+	{&fEM_R0UR01RZZ,8,34},	//( - , Baz1) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UR04RZZ,8,36},	//( - , Baz1) Уставка АКНП АС  АЗ по периоду (сек)
+	{&fEM_A1UL12RZZ,8,38},	//( - , Baz1) Время задержки АЗ от НУ ИС(сек)
+	{&fEM_A1UL11RZZ,8,40},	//( - , Baz1) Время задержки АЗ от ВУ ИС сек
+	{&fEM_R7UI73RZZ,8,42},	//( - , Baz1) Время задержки  срабатывания АС II УР
 	{NULL,0,0},
 };
 #pragma pop
@@ -948,6 +969,10 @@ static ModbusRegister hr_DiagnBaz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_MBz1S[]={  // 
+	{&R0EE01LZ1,1,0},	//( - , SBz1) Питание  АКНП1  отключить
+	{&R0EE02LZ1,1,1},	//( - , SBz1) Питание  АКНП  отключить
+	{&R0EE03LZ1,1,2},	//( - , SBz1) Питание  АКНП3  отключить
+	{&R0EE04LZ1,1,3},	//( - , SBz1) Питание  АКНП4  отключить
 	{NULL,0,0},
 };
 #pragma pop
@@ -975,11 +1000,15 @@ static ModbusRegister coil_MBz1A1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1A1[]={  // 
+	{&R0VN61LS1,1,0},	//( - , A1Bz1, A1Bz2) ПС по мощности канал1
+	{&R0VN65LS1,1,1},	//( - , A1Bz1, A1Bz2) ПС по периоду разгона канал1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz1A1[]={  // 
+	{&R0VN02RS1,8,0},	//( - , A1Bz1, A1Bz2) Уровень мощности
+	{&R0VN01RS1,8,2},	//( - , A1Bz1, A1Bz2) Период разгона канал1
 	{NULL,0,0},
 };
 #pragma pop
@@ -997,11 +1026,15 @@ static ModbusRegister coil_MBz1A2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1A2[]={  // 
+	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
+	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz1A2[]={  // 
+	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
+	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
 	{NULL,0,0},
 };
 #pragma pop
@@ -1019,11 +1052,15 @@ static ModbusRegister coil_MBz1A3[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1A3[]={  // 
+	{&R0VN61LS3,1,0},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+	{&R0VN65LS3,1,1},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz1A3[]={  // 
+	{&R0VN02RS3,8,0},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+	{&R0VN01RS3,8,2},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
 	{NULL,0,0},
 };
 #pragma pop
@@ -1041,11 +1078,15 @@ static ModbusRegister coil_MBz1A4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz1A4[]={  // 
+	{&R0VN61LS4,1,0},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
+	{&R0VN65LS4,1,1},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz1A4[]={  // 
+	{&R0VN02RS4,8,0},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
+	{&R0VN01RS4,8,2},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
 	{NULL,0,0},
 };
 #pragma pop
@@ -2102,7 +2143,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idA0VT61LZ1,&var174);
   setData(idA0CT01IZ1,&var134);
 
-  setAsBool(idbFirstEnterFlag,1); 
+  setAsBool(idbFirstEnterFlag,1);
 }
 
 void InitInternalParametr(void)
@@ -2110,31 +2151,33 @@ void InitInternalParametr(void)
   int i;
 }
 
-void MainCycle(void){
-    if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)){
-        if (delay++ < 40)
+void MainCycle(void)
+{
+if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
+     if(delay++ < 40) return;
+     freebuff = 0;
+     delay = delay > 32000 ? 32000 : delay; 
+       Scheme(); 
+ }
+ else {
+      delay = 0;
+      if (freebuff)
             return;
-        freebuff = 0;
-        delay = delay > 32000 ? 32000 : delay;
-        Scheme();
-    }
-    else{
-        delay = 0;
-        if (freebuff)
-            return;
-        else{
-            freebuff = 1;
-            memset(BUFFER, 0, SIZE_BUFFER);
-            InitSetConst();
-            if (SimulOn){
-                if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
-                    return EXIT_FAILURE;
-            }
-            else{
-                if (initAllDrivers(drivers))
-                    return EXIT_FAILURE;
-            }
-        }
-    }
+       else{
+           freebuff = 1;
+           memset(BUFFER, 0, SIZE_BUFFER);
+           InitSetConst();
+           ZeroVar();
+           if (SimulOn) {
+                 if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+           return EXIT_FAILURE;
+           } else {
+                 if (initAllDrivers(drivers))
+                 return EXIT_FAILURE;
+           }
+           }
+       }
+
+
 }
 #endif

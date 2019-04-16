@@ -15,8 +15,8 @@
       MaxValue="10"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -37,8 +37,8 @@
       MaxValue="0.2"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -59,8 +59,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -81,8 +81,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -103,8 +103,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -125,8 +125,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -147,8 +147,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -169,8 +169,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -191,8 +191,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -213,8 +213,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -235,8 +235,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -257,8 +257,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -279,8 +279,8 @@
       MaxValue="100000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -301,8 +301,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -323,8 +323,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -345,8 +345,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -565,8 +565,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -587,8 +587,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -609,8 +609,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -631,8 +631,8 @@
       MaxValue="100000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -741,8 +741,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -785,8 +785,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -807,8 +807,8 @@
       MaxValue="500"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -829,8 +829,8 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -917,8 +917,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -939,8 +939,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -961,8 +961,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -983,8 +983,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1005,8 +1005,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1027,8 +1027,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1049,8 +1049,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1071,8 +1071,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1093,8 +1093,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1115,8 +1115,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1137,8 +1137,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1159,8 +1159,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1181,8 +1181,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1225,8 +1225,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1335,8 +1335,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1489,8 +1489,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1533,8 +1533,8 @@
       MaxValue="1E15"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1555,8 +1555,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1577,8 +1577,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1599,8 +1599,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1621,8 +1621,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1643,8 +1643,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1665,8 +1665,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1687,8 +1687,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1709,8 +1709,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1731,8 +1731,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -1753,8 +1753,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2435,8 +2435,8 @@
       MaxValue="900000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2457,8 +2457,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2479,8 +2479,8 @@
       MaxValue="40"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2501,8 +2501,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2523,8 +2523,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2545,8 +2545,8 @@
       MaxValue="0.0999"
       Group="9C"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2567,8 +2567,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2589,8 +2589,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2611,8 +2611,8 @@
       MaxValue="0.0999"
       Group="9C"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2633,8 +2633,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2655,8 +2655,8 @@
       MaxValue="20000"
       Group="2A"
       Access="3"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2677,8 +2677,8 @@
       MaxValue="0.0999"
       Group="9C"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2699,8 +2699,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2721,8 +2721,8 @@
       MaxValue="0.0999"
       Group="9C"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2743,8 +2743,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2765,8 +2765,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2787,8 +2787,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2809,8 +2809,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2831,8 +2831,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2853,8 +2853,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2875,8 +2875,8 @@
       MaxValue="900"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2941,8 +2941,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2963,8 +2963,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -2985,8 +2985,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4723,10 +4723,10 @@
       MaxValue="2000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -4745,10 +4745,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -4767,8 +4767,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4789,8 +4789,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4811,8 +4811,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4833,8 +4833,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4855,8 +4855,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4877,8 +4877,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4899,8 +4899,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4921,8 +4921,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4943,8 +4943,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4965,8 +4965,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -4987,8 +4987,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5009,8 +5009,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5031,8 +5031,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5053,8 +5053,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5075,8 +5075,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5097,8 +5097,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5119,8 +5119,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5141,8 +5141,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5163,8 +5163,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5185,8 +5185,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5207,8 +5207,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5229,8 +5229,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5251,8 +5251,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5273,8 +5273,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5295,8 +5295,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5317,8 +5317,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5339,8 +5339,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5361,8 +5361,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5383,8 +5383,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5405,8 +5405,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5427,8 +5427,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5449,8 +5449,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5471,8 +5471,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5493,8 +5493,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5515,8 +5515,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5537,8 +5537,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5559,10 +5559,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -5581,8 +5581,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5603,10 +5603,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -5625,8 +5625,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5647,8 +5647,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5669,8 +5669,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5691,8 +5691,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5713,8 +5713,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5735,8 +5735,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5757,8 +5757,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -5801,10 +5801,10 @@
       MaxValue="2000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -5845,10 +5845,10 @@
       MaxValue="2000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -6065,8 +6065,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6197,8 +6197,8 @@
       MaxValue="200000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6219,8 +6219,8 @@
       MaxValue="200000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6241,8 +6241,8 @@
       MaxValue="200000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6307,8 +6307,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6329,8 +6329,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6351,8 +6351,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6373,8 +6373,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6395,8 +6395,8 @@
       MaxValue="20000"
       Group="0C"
       Access="2"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6417,8 +6417,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6439,8 +6439,8 @@
       MaxValue="50000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6461,8 +6461,8 @@
       MaxValue="50000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6483,8 +6483,8 @@
       MaxValue="50000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6505,8 +6505,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6527,8 +6527,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6571,8 +6571,8 @@
       MaxValue="260"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6615,8 +6615,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6637,8 +6637,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6659,8 +6659,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6725,8 +6725,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -6747,10 +6747,10 @@
       MaxValue="100000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -6857,10 +6857,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -6879,10 +6879,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -7077,8 +7077,8 @@
       MaxValue="1000000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10751,8 +10751,8 @@
       MaxValue="5000"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10773,8 +10773,8 @@
       MaxValue="5000"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10795,8 +10795,8 @@
       MaxValue="50000"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10817,8 +10817,8 @@
       MaxValue="50000"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10839,8 +10839,8 @@
       MaxValue="50000"
       Group="1"
       Access="1"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10861,8 +10861,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -10883,8 +10883,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -10905,8 +10905,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -10949,8 +10949,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10971,8 +10971,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -10993,8 +10993,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11015,8 +11015,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11037,8 +11037,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11059,8 +11059,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11081,8 +11081,8 @@
       MaxValue="200000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11103,8 +11103,8 @@
       MaxValue="200000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -11125,8 +11125,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11147,8 +11147,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11169,8 +11169,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11191,8 +11191,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11213,8 +11213,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11235,8 +11235,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11257,8 +11257,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11279,8 +11279,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11301,8 +11301,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11323,8 +11323,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11345,8 +11345,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11367,8 +11367,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11389,8 +11389,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11411,8 +11411,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11433,8 +11433,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11455,8 +11455,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11477,8 +11477,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11499,8 +11499,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11521,8 +11521,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11543,8 +11543,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11565,8 +11565,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11587,8 +11587,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11609,8 +11609,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11631,8 +11631,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11653,8 +11653,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11675,8 +11675,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11697,8 +11697,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11719,8 +11719,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11741,8 +11741,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11763,8 +11763,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11785,8 +11785,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -11807,8 +11807,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11829,8 +11829,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11851,8 +11851,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11873,8 +11873,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11895,8 +11895,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11917,8 +11917,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11939,8 +11939,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11961,8 +11961,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -11983,8 +11983,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12005,8 +12005,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12027,8 +12027,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12049,8 +12049,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12071,8 +12071,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12093,8 +12093,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12115,8 +12115,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12137,8 +12137,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12159,8 +12159,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12181,8 +12181,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12203,8 +12203,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12225,8 +12225,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12247,8 +12247,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12269,8 +12269,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12291,8 +12291,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12313,8 +12313,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12335,8 +12335,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12357,8 +12357,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12379,8 +12379,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12401,8 +12401,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12423,8 +12423,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12445,8 +12445,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12467,8 +12467,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12489,8 +12489,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12511,8 +12511,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12533,8 +12533,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12555,8 +12555,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12577,8 +12577,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12599,8 +12599,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12621,8 +12621,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12643,8 +12643,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12665,8 +12665,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12687,8 +12687,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12709,8 +12709,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12731,8 +12731,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12753,8 +12753,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12775,8 +12775,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12797,8 +12797,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12819,8 +12819,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12841,8 +12841,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12863,8 +12863,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12885,8 +12885,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12907,8 +12907,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12929,8 +12929,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12951,8 +12951,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12973,8 +12973,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -12995,8 +12995,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13017,8 +13017,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13039,8 +13039,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13061,8 +13061,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13083,8 +13083,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13105,8 +13105,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13127,8 +13127,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13149,8 +13149,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13171,8 +13171,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13193,8 +13193,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13215,8 +13215,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13237,8 +13237,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13259,8 +13259,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13281,8 +13281,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13303,8 +13303,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13325,8 +13325,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13347,8 +13347,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13369,8 +13369,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13391,8 +13391,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13413,8 +13413,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13435,8 +13435,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13457,8 +13457,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13479,8 +13479,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13501,8 +13501,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13523,8 +13523,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13545,8 +13545,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13567,8 +13567,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13589,8 +13589,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13611,8 +13611,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13633,8 +13633,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13655,8 +13655,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13677,8 +13677,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13699,8 +13699,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13721,8 +13721,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13743,8 +13743,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13765,8 +13765,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13787,8 +13787,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13809,8 +13809,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13831,8 +13831,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13853,8 +13853,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13875,8 +13875,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13897,8 +13897,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -13919,8 +13919,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13941,8 +13941,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -13963,8 +13963,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -13985,8 +13985,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14007,8 +14007,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14029,8 +14029,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14051,8 +14051,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=3
@@ -14073,8 +14073,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14095,8 +14095,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14117,8 +14117,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14139,8 +14139,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14161,8 +14161,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14183,8 +14183,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14205,8 +14205,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14227,8 +14227,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14249,8 +14249,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14271,8 +14271,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14293,8 +14293,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14315,8 +14315,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14337,8 +14337,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=0
       FormatMB=1
       HstInterv_item=0
@@ -14403,8 +14403,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14425,8 +14425,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14447,8 +14447,8 @@
       MaxValue="100"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -14469,8 +14469,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14491,8 +14491,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14513,8 +14513,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -14535,8 +14535,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14557,8 +14557,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14579,8 +14579,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14601,8 +14601,8 @@
       MaxValue="10000"
       Group="1"
       Access="0"
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14623,8 +14623,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14645,8 +14645,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14667,8 +14667,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14689,8 +14689,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14711,8 +14711,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14733,8 +14733,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14755,8 +14755,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14777,8 +14777,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14799,8 +14799,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14821,8 +14821,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14843,8 +14843,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14865,8 +14865,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14887,8 +14887,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14909,8 +14909,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14931,8 +14931,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14953,8 +14953,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14975,8 +14975,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -14997,8 +14997,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15019,8 +15019,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15041,8 +15041,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15063,8 +15063,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15085,8 +15085,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15107,8 +15107,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15129,8 +15129,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15151,8 +15151,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15173,8 +15173,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15195,8 +15195,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15217,8 +15217,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15239,8 +15239,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15261,8 +15261,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15283,8 +15283,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15305,8 +15305,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15327,8 +15327,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15349,8 +15349,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15371,8 +15371,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15393,8 +15393,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15415,8 +15415,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15437,8 +15437,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15459,8 +15459,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15481,8 +15481,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15503,8 +15503,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15525,8 +15525,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15547,8 +15547,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15569,8 +15569,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15591,8 +15591,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15613,8 +15613,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15635,8 +15635,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15657,8 +15657,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15679,8 +15679,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15701,8 +15701,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15723,8 +15723,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15745,8 +15745,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15767,8 +15767,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15789,8 +15789,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15811,8 +15811,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15833,8 +15833,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15855,8 +15855,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15877,8 +15877,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15899,8 +15899,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15921,8 +15921,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15943,8 +15943,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -15965,8 +15965,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -15987,8 +15987,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16009,8 +16009,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16031,8 +16031,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16053,8 +16053,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16075,8 +16075,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16097,8 +16097,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16119,8 +16119,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16141,8 +16141,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16163,8 +16163,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16185,8 +16185,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16207,8 +16207,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16229,8 +16229,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16251,8 +16251,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16273,8 +16273,8 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=3
       HstInterv_item=3
@@ -16295,10 +16295,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16317,10 +16317,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16339,10 +16339,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16361,10 +16361,10 @@
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16383,10 +16383,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16405,10 +16405,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16427,10 +16427,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16449,10 +16449,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16471,10 +16471,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16493,10 +16493,10 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="SCM"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -16647,8 +16647,8 @@
       MaxValue="20000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="SCM"
       TypeMB=3
       FormatMB=8
       HstInterv_item=0
@@ -18985,7 +18985,7 @@
         Line1="Рис.2  Модель механизма перемещения блока блокировки ББ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1565,427,1833,434"
+        R="1565,427,1800,433"
         Number=662
         IsHold=FALSE
         Line1="Рис.3  Модель механизма перемещения регулирующего блока РБ1 РУ БАРС-4"
@@ -19003,7 +19003,7 @@
         Line1="Рис.9  Модель механизма перемещения импульсного стержня ИС2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1502,859,1770,866"
+        R="1502,859,1737,865"
         Number=665
         IsHold=TRUE
         Line1="Рис.8  Модель механизма перемещения регулирующего блока РБ2 РУ БАРС-4"
@@ -23189,7 +23189,7 @@
         }
       }
       [VVV_Text]{
-        R="1460,690,1469,697"
+        R="1460,690,1467,696"
         Number=2069
         IsHold=TRUE
         Line1="АЗ"
@@ -31574,7 +31574,7 @@
         }
       }
       [VVV_Text]{
-        R="1587,624,1628,645"
+        R="1587,624,1623,642"
         Number=330
         IsHold=TRUE
         Line1="Текущее"
@@ -31623,7 +31623,7 @@
         Line2="зацеплен"
       }
       [VVV_Text]{
-        R="1668,504,1703,518"
+        R="1668,504,1699,516"
         Number=4104
         IsHold=TRUE
         Line1="Приход на"
@@ -33840,7 +33840,7 @@
         Line2="ЭМ ББ1"
       }
       [VVV_Text]{
-        R="1022,566,1050,578"
+        R="1022,566,1053,578"
         Number=4468
         IsHold=TRUE
         Line1="Приход на"
@@ -33900,7 +33900,7 @@
         Line2="штока ББ1"
       }
       [VVV_Text]{
-        R="1063,568,1093,580"
+        R="1063,568,1095,580"
         Number=4413
         IsHold=TRUE
         Line1="Приход на "
@@ -33928,7 +33928,7 @@
         Line3="(обесточен)"
       }
       [VVV_Text]{
-        R="1149,564,1189,582"
+        R="1149,564,1193,582"
         Number=4441
         IsHold=FALSE
         Line1="Клапан cброса"
@@ -33956,14 +33956,14 @@
         }
       }
       [VVV_Text]{
-        R="1207,568,1237,580"
+        R="1207,568,1239,580"
         Number=4456
         IsHold=FALSE
         Line1="Обесточен"
         Line2="ЭМ ББ2"
       }
       [VVV_Text]{
-        R="1107,567,1139,579"
+        R="1107,567,1141,579"
         Number=4439
         IsHold=FALSE
         Line1="Магнит ББ2"
@@ -34025,7 +34025,7 @@
         Line3="подъём РБ2"
       }
       [VVV_Text]{
-        R="1187,862,1228,876"
+        R="1187,862,1224,874"
         Number=41
         IsHold=FALSE
         Line1="Координата "
@@ -34045,7 +34045,7 @@
         }
       }
       [VVV_Text]{
-        R="1203,721,1258,728"
+        R="1203,721,1252,727"
         Number=194
         IsHold=FALSE
         Line1="Координата ББ2"
@@ -34811,14 +34811,14 @@
         CONST_NAME="A1MC02RC1"
       }
       [VVV_Text]{
-        R="1158,413,1218,425"
+        R="1158,413,1225,425"
         Number=1613
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ББ1 от ИС"
       }
       [VVV_Text]{
-        R="1086,410,1139,428"
+        R="1086,410,1145,428"
         Number=1614
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34840,7 +34840,7 @@
         CONST_NAME="TERBB2"
       }
       [VVV_Text]{
-        R="1179,749,1231,763"
+        R="1179,749,1225,761"
         Number=1620
         IsHold=FALSE
         Line1="Неисправности"
@@ -34854,14 +34854,14 @@
         CONST_NAME="B1MC02RC1"
       }
       [VVV_Text]{
-        R="1154,835,1228,849"
+        R="1154,835,1221,847"
         Number=190
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ББ2 от ИС"
       }
       [VVV_Text]{
-        R="1096,830,1162,851"
+        R="1096,830,1155,848"
         Number=191
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -35153,7 +35153,7 @@
         CONST_NAME="B2MC01RC1"
       }
       [VVV_Text]{
-        R="1504,623,1544,644"
+        R="1504,623,1540,641"
         Number=1661
         IsHold=FALSE
         Line1=" Заданная"
@@ -35161,7 +35161,7 @@
         Line3=" РБ2 от ИС"
       }
       [VVV_Text]{
-        R="1485,728,1520,756"
+        R="1485,728,1516,753"
         Number=379
         IsHold=FALSE
         Line1="Заданная"
@@ -44270,7 +44270,7 @@
         p3="185:147"
         BNumber=25
         ENumber=1
-        Comment="Y --> Коэффициент 12 связи АЗ1,2"
+        Comment="Y --> K12 - Коэффициент 12 связи АЗ1,2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -44742,7 +44742,7 @@
         p2="172:151"
         BNumber=1830
         ENumber=1
-        Comment="y - разность y=x1-x2 --> Коэффициент 11 связи АЗ1,2"
+        Comment="y - разность y=x1-x2 --> K11 - Коэффициент 11 связи АЗ1,2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -65108,7 +65108,7 @@
         p3="1014:698"
         BNumber=1509
         ENumber=152
-        Comment="Стартовая координата  ББ2 --> X0 - координата ОРР"
+        Comment="Стартовая координата  ББ2 --> X0 - исходная координата ОРР"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -65131,7 +65131,7 @@
         p3="1014:700"
         BNumber=1510
         ENumber=152
-        Comment="Стартовая скорость движения  ББ2 --> V0 - текущая скорость ОРР"
+        Comment="Стартовая скорость движения  ББ2 --> V0 - исходная скорость ОРР"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -65154,7 +65154,7 @@
         p3="1014:702"
         BNumber=1515
         ENumber=152
-        Comment="Стартовая координата штока ББ2 --> Sh0 - координата штока ОРР"
+        Comment="Стартовая координата штока ББ2 --> Sh0 - исходная координата штока ОРР"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -65177,7 +65177,7 @@
         p3="1014:704"
         BNumber=1513
         ENumber=152
-        Comment="Стартовая скорость движения  ББ2 --> V0 - текущая скорость штока ОРР"
+        Comment="Стартовая скорость движения  ББ2 --> ShV0 - исходная скорость штока ОРР"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -71467,4 +71467,4 @@
     }
   }
 }
-68764924
+68858617

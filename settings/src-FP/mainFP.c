@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
 %attach_3%
         }
 %attach_4%
-        Scheme();
+        MainCycle();
         if (SimulOn)
             writeAllSimul();
         else {

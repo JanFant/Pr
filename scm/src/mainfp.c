@@ -74,7 +74,7 @@ int main(int argc, char **argv) {
 
         }
 
-        Scheme();
+        MainCycle();
         if (SimulOn)
             writeAllSimul();
         else {
