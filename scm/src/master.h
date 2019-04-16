@@ -5901,8 +5901,13 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
-           initAllDriversPTI(drivers);
-           ZeroVar();
+           if (SimulOn) {
+                 if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+           return EXIT_FAILURE;
+           } else {
+                 if (initAllDriversPTI(drivers))
+                 return EXIT_FAILURE;
+           }
            }
        }
 
@@ -5917,4 +5922,8 @@ void InitInternalParametr(void)
     array_m14_C0_1[i] = &(&internal1_m14_C0)[i*5];
 }
 
+void MainCycle(void)
+{
+	Scheme();
+}
 #endif

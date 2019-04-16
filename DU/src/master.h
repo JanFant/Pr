@@ -5687,34 +5687,16 @@ static ModbusRegister hr_DU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_MDuBz1[]={  // 
-	{&R0AD21LDU,1,0},	//( - , SBz1DU) Подключить защиту от II УР
-	{&R0VW23LDU,1,1},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0VW13LDU,1,2},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MDuBz1[]={  // 
-	{&B0VT71LZ1,1,0},	//( - , Baz1, SBz1DU) АС по температуре в АЗ2
-	{&R0VP73LZ1,1,1},	//( - , Baz1, SBz1DU) ПС давления для РУ
-	{&B0VN71LZ1,1,2},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ2
-	{&A0VN71LZ1,1,3},	//( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ1
-	{&A0EE03LZ1,1,4},	//( - , Baz1, SBz1DU) Исправность АКНП3
-	{&A0EE02LZ1,1,5},	//( - , Baz1, SBz1DU) Исправность АКНП2
-	{&A0EE04LZ1,1,6},	//( - , Baz1, SBz1DU) Исправность АКНП4
-	{&A0EE01LZ1,1,7},	//( - , Baz1, SBz1DU) Исправность АКНП1
-	{&B0VP71LZ1,1,8},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ2
-	{&A0VP71LZ1,1,9},	//( - , Baz1, SBz1DU) АЗ по АС любого давления для АЗ1
-	{&A0VT71LZ1,1,10},	//( - , Baz1, SBz1DU) АС по температуре в АЗ1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuBz1[]={  // 
-	{&B0CT01IZ1,8,0},	//( - , Baz1, SBz1DU) Температура АЗ2-1
-	{&R0VN11RZ1,8,2},	//( - , Baz1, SBz1DU) Средняя мощность по БАЗ1
-	{&R0VN09RZ1,8,4},	//( - , Baz1, SBz1DU) Усредненный период разгона
-	{&A0CT01IZ1,8,6},	//( - , Baz1, SBz1DU) Температура АЗ1-1
 	{NULL,0,0},
 };
 #pragma pop
@@ -5727,34 +5709,16 @@ static char MDuBz1_ip1[]={"192.168.10.52\0"};
 static char MDuBz1_ip2[]={"192.168.10.152\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_MDuBz2[]={  // 
-	{&R0AD21LDU,1,0},	//( - , SBz2DU) Подключить защиту от II УР
-	{&R0VW23LDU,1,1},	//( - , Baz2, SBz2DU) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0VW13LDU,1,2},	//( - , Baz2, SBz2DU) Индикация выбора АЗ1 или АЗ1+АЗ2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MDuBz2[]={  // 
-	{&B0VT71LZ2,1,0},	//( - , Baz2, SBz2DU) АС по температуре в АЗ2
-	{&R0VP73LZ2,1,1},	//( - , Baz2, SBz2DU) ПС давления для РУ
-	{&B0VN71LZ2,1,2},	//( - , Baz2, SBz2DU) АЗ по АС мощности  АЗ2
-	{&A0VN71LZ2,1,3},	//( - , Baz2, SBz2DU) АЗ по АС мощности  АЗ1
-	{&A0EE03LZ2,1,4},	//( - , Baz2, SBz2DU) Исправность АКНП3
-	{&A0EE02LZ2,1,5},	//( - , Baz2, SBz2DU) Исправность АКНП2
-	{&A0EE04LZ2,1,6},	//( - , Baz2, SBz2DU) Исправность АКНП4
-	{&A0EE01LZ2,1,7},	//( - , Baz2, SBz2DU) Исправность АКНП1
-	{&B0VP71LZ2,1,8},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ2
-	{&A0VP71LZ2,1,9},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ1
-	{&A0VT71LZ2,1,10},	//( - , Baz2, SBz2DU) АС по температуре в АЗ1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuBz2[]={  // 
-	{&B0CT01IZ2,8,0},	//( - , Baz2, SBz2DU) Температура АЗ2-1
-	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
-	{&R0VN09RZ2,8,4},	//( - , Baz2, SBz2DU) Усредненный период разгона
-	{&A0CT01IZ2,8,6},	//( - , Baz2, SBz2DU) Температура АЗ1-1
 	{NULL,0,0},
 };
 #pragma pop
@@ -5777,14 +5741,6 @@ static ModbusRegister di_MDuS[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MDuS[]={  // 
-	{&A2IC01UDU,5,0},	//( - , SDu) Координата штока РБ1
-	{&A3IC01UDU,5,2},	//( - , SDu) Координата штока ИС1
-	{&B3IC01UDU,5,4},	//( - , SDu) Координата штока ИС2
-	{&A8IC01UDU,5,6},	//( - , SDu) Координата ДС2
-	{&B8IC01UDU,5,8},	//( - , SDu) Координата АЗ2
-	{&B2IC01UDU,5,10},	//( - , SDu) Координата штока РБ2
-	{&A1IC01UDU,5,12},	//( - , SDu) Координата штока ББ1
-	{&B1IC01UDU,5,14},	//( - , SDu) Координата штока ББ2
 	{NULL,0,0},
 };
 #pragma pop
@@ -13671,8 +13627,13 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
-           initAllDrivers(drivers);
-           ZeroVar();
+           if (SimulOn) {
+                 if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+           return EXIT_FAILURE;
+           } else {
+                 if (initAllDrivers(drivers))
+                 return EXIT_FAILURE;
+           }
            }
        }
 
@@ -13721,4 +13682,8 @@ void InitInternalParametr(void)
     array_m1147_tim0_1[i] = &(&internal1_m1147_tim0)[i*5];
 }
 
+void MainCycle(void)
+{
+       Scheme();
+}
 #endif

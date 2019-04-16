@@ -948,10 +948,6 @@ static ModbusRegister hr_DiagnBaz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister coil_MBz2S[]={  // 
-	{&R0EE01LZ2,1,0},	//( - , SBz2) Питание  АКНП1  отключить
-	{&R0EE02LZ2,1,1},	//( - , SBz2) Питание  АКНП  отключить
-	{&R0EE03LZ2,1,2},	//( - , SBz2) Питание  АКНП3  отключить
-	{&R0EE04LZ2,1,3},	//( - , SBz2) Питание  АКНП4  отключить
 	{NULL,0,0},
 };
 #pragma pop
@@ -979,15 +975,11 @@ static ModbusRegister coil_MBz2A1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2A1[]={  // 
-	{&R0VN61LS1,1,0},	//( - , A1Bz1, A1Bz2) ПС по мощности канал1
-	{&R0VN65LS1,1,1},	//( - , A1Bz1, A1Bz2) ПС по периоду разгона канал1
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz2A1[]={  // 
-	{&R0VN02RS1,8,0},	//( - , A1Bz1, A1Bz2) Уровень мощности
-	{&R0VN01RS1,8,2},	//( - , A1Bz1, A1Bz2) Период разгона канал1
 	{NULL,0,0},
 };
 #pragma pop
@@ -1005,15 +997,11 @@ static ModbusRegister coil_MBz2A2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2A2[]={  // 
-	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
-	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz2A2[]={  // 
-	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
-	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
 	{NULL,0,0},
 };
 #pragma pop
@@ -1031,15 +1019,11 @@ static ModbusRegister coil_MBz2A3[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2A3[]={  // 
-	{&R0VN61LS3,1,0},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
-	{&R0VN65LS3,1,1},	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz2A3[]={  // 
-	{&R0VN02RS3,8,0},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
-	{&R0VN01RS3,8,2},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
 	{NULL,0,0},
 };
 #pragma pop
@@ -1057,15 +1041,11 @@ static ModbusRegister coil_MBz2A4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MBz2A4[]={  // 
-	{&R0VN61LS4,1,0},	//( - , A4Bz1, A4Bz2) ПС по мощности канал 4
-	{&R0VN65LS4,1,1},	//( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MBz2A4[]={  // 
-	{&R0VN02RS4,8,0},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
-	{&R0VN01RS4,8,2},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
 	{NULL,0,0},
 };
 #pragma pop
@@ -2135,8 +2115,13 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
            freebuff = 1;
            memset(BUFFER, 0, SIZE_BUFFER);
            InitSetConst();
-           initAllDrivers(drivers);
-           ZeroVar();
+           if (SimulOn) {
+                 if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+           return EXIT_FAILURE;
+           } else {
+                 if (initAllDrivers(drivers))
+                 return EXIT_FAILURE;
+           }
            }
        }
 
@@ -2147,4 +2132,8 @@ void InitInternalParametr(void)
   int i;
 }
 
+void MainCycle(void)
+{
+       Scheme();
+}
 #endif

@@ -450,10 +450,6 @@ static ModbusRegister di_MA3S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MA3S[]={  // 
-	{&R0IN01FI3,8,0},	//( - , SA3) Выход СНМ-11 Гц от ПТИ
-	{&R0IN02FI3,8,2},	//( - , SA3) Выход КНК15-1 Гц от ПТИ
-	{&R0IN03FI3,8,4},	//( - , SA3) Выход КНК53М Гц от ПТИ
-	{&R0IS01FI0,3,6},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -858,4 +854,8 @@ void InitInternalParametr(void)
     array_m53_N2_1[i] = &(&internal1_m53_N2)[i*5];
 }
 
+void MainCycle(void)
+{
+       Scheme();
+}
 #endif

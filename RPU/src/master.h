@@ -523,12 +523,6 @@ static ModbusRegister di_MRPS[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_MRPS[]={  // 
-	{&R0IN01RIP,8,0},	//( - , SRP) Выход СНМ-11 Гц от ПТИ
-	{&R0IN02RIP,8,2},	//( - , SRP) Выход КНК15- Гц от ПТИ
-	{&R0IN03RIP,8,4},	//( - , SRP) Выход КНК53М Гц от ПТИ
-	{&R0IN06RIP,8,6},	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
-	{&R0IN07RIP,8,8},	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
-	{&R0IS01FI0,3,10},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -1078,4 +1072,8 @@ void InitInternalParametr(void)
   int i;
 }
 
+void MainCycle(void)
+{
+       Scheme();
+}
 #endif
