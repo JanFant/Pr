@@ -49,6 +49,7 @@ int main(int argc, char **argv) {
     };
     takt = StepCycle / 1000.0;
     InitSetConst();
+    ZeroVar();
     initSaver(NameSaveFile, saveVariables, 10);
     initModbusDevices(modbuses);
     initAllregistersModubus();
