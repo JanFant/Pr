@@ -19,6 +19,6 @@
   PostboxAddress=28672
   ESPPZU_Emulation=FALSE
   FuncName="Scheme"
-  IsImitator=FALSE
+  IsImitator=TRUE
 }
-46121
+46078
