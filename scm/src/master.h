@@ -5011,6 +5011,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(685,572.4);
 	setAsFloat(686,246.8);
 	setAsFloat(687,1);
+	setAsShort(99,2);
 }
 uspaint8 InternalBuf[1094];
 
@@ -6481,7 +6482,7 @@ void InitInternalParametr(void)
 
 void MainCycle(void)
 {
-if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
+if ((getAsShort(idR0DEUMLSS) == 2) || (getAsShort(idR0DEUMLSS) == 3)) { 
      freebuff = 0;
        Scheme(); 
  }

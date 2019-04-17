@@ -2,7 +2,7 @@
 <subsystem >
         <model    name="PTI"/>
         <result   path="scm\src"/>
-        <key      name="R0MW11IP1"/>
+        <key      name="R0DEUMLSS"/>
         <variable xml="varscm"/>
         <saves    xml="savescm"/>
         <initsig  xml="initsigscm"/>
