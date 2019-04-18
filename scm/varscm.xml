@@ -602,62 +602,34 @@
 <var  name="fEM_B0UT03RSP" description="(B0UT03RSP) Стартовая  температура АЗ2 град" format="8"></var>
 <var  name="fEM_A1MC01RSP" description="(A1MC01RSP) Стартовая координата  ББ1" format="8"></var>
 <var  name="fEM_A1MC02RSP" description="(A1MC02RSP) Стартовая координата штока ББ1" format="8"></var>
-<var  name="fEM_A1MV01RSP" description="(A1MV01RSP) Стартовая скорость движения  ББ1" format="8"></var>
-<var  name="fEM_A1MV02RSP" description="(A1MV02RSP) Стартовая скорость движения  ББ1" format="8"></var>
 <var  name="fEM_B1MC01RSP" description="(B1MC01RSP) Стартовая координата  ББ2" format="8"></var>
-<var  name="fEM_B1MV01RSP" description="(B1MV01RSP) Стартовая скорость движения  ББ2" format="8"></var>
 <var  name="fEM_B1MC02RSP" description="(B1MC02RSP) Стартовая координата штока ББ2" format="8"></var>
-<var  name="fEM_B1MV02RSP" description="(B1MV02RSP) Стартовая скорость движения  ББ2" format="8"></var>
 <var  name="fEM_A2MC01RC1" description="(A2MC01RC1) Заданная координата РБ1 от ИС" format="8"></var>
 <var  name="fEM_A2MV01RC1" description="(A2MV01RC1) Заданная скорость движения РБ1 от ИС" format="8"></var>
 <var  name="fEM_A2MC01RSP" description="(A2MC01RSP) Стартовая координата  РБ1" format="8"></var>
-<var  name="fEM_A2MV01RSP" description="(A2MV01RSP) Стартовая скорость движения  РБ1" format="8"></var>
 <var  name="fEM_A2MC02RSP" description="(A2MC02RSP) Стартовая координата штока РБ1" format="8"></var>
-<var  name="fEM_A2MV02RSP" description="(A2MV02RSP) Стартовая скорость движения  РБ1" format="8"></var>
 <var  name="fEM_B2MC01RSP" description="(B2MC01RSP) Стартовая координата  РБ2" format="8"></var>
-<var  name="fEM_B2MV01RSP" description="(B2MV01RSP) Стартовая скорость движения  РБ2" format="8"></var>
 <var  name="fEM_B2MC02RSP" description="(B2MC02RSP) Стартовая координата штока РБ2" format="8"></var>
-<var  name="fEM_B2MV02RSP" description="(B2MV02RSP) Стартовая скорость движения  РБ2" format="8"></var>
 <var  name="fEM_A3MC01RSP" description="(A3MC01RSP) Стартовая координата  ИС1" format="8"></var>
-<var  name="fEM_A3MV01RSP" description="(A3MV01RSP) Стартовая скорость движения  ИС1" format="8"></var>
 <var  name="fEM_A3MC02RSP" description="(A3MC02RSP) Стартовая координата штока ИС1" format="8"></var>
-<var  name="fEM_A3MV02RSP" description="(A3MV02RSP) Стартовая скорость движения  ИС1" format="8"></var>
 <var  name="fEM_B3MC01RSP" description="(B3MC01RSP) Стартовая координата  ИС2" format="8"></var>
-<var  name="fEM_B3MV01RSP" description="(B3MV01RSP) Стартовая скорость движения  ИС2" format="8"></var>
 <var  name="fEM_B3MC02RSP" description="(B3MC02RSP) Стартовая координата штока ИС2" format="8"></var>
-<var  name="fEM_B3MV02RSP" description="(B3MV02RSP) Стартовая скорость движения  ИС2" format="8"></var>
 <var  name="fEM_B8MC01RSP" description="(B8MC01RSP) Стартовая координата АЗ2" format="8"></var>
-<var  name="fEM_B8MV01RSP" description="(B8MV01RSP) Стартовая скорость АЗ2" format="8"></var>
 <var  name="fEM_A8MC01RSP" description="(A8MC01RSP) Стартовая координата ДС2" format="8"></var>
-<var  name="fEM_A8MV01RSP" description="(A8MV01RSP) Стартовая скорость ДС2" format="8"></var>
 <var  name="fEM_A6MC01RSP" description="(A6MC01RSP) Стартовая координата БЗ1" format="8"></var>
-<var  name="fEM_A6MV01RSP" description="(A6MV01RSP) Стартовая скорость БЗ1" format="8"></var>
 <var  name="fEM_B6MC01RSP" description="(B6MC01RSP) Стартовая координата БЗ2" format="8"></var>
-<var  name="fEM_B6MV01RSP" description="(B6MV01RSP) Стартовая скорость БЗ2" format="8"></var>
 <var  name="fEM_R3UC01RSP" description="(R3UC01RSP) Стартовая координата Гомогенных дверей" format="8"></var>
-<var  name="fEM_R3UV01RSP" description="(R3UV01RSP) Стартовая скорость Гомогенных дверей" format="8"></var>
 <var  name="fEM_R5UC01RSP" description="(R5UC01RSP) Стартовая координата Ворот отстойной зоны" format="8"></var>
-<var  name="fEM_R5UV01RSP" description="(R5UV01RSP) Стартовая скорость Ворот отстойной зоны" format="8"></var>
 <var  name="fEM_R6UC01RSP" description="(R6UC01RSP) Стартовая координата Кран-балки" format="8"></var>
-<var  name="fEM_R6UV01RSP" description="(R6UV01RSP) Стартовая скорость Кран-балки" format="8"></var>
 <var  name="fEM_R2MC01RSP" description="(R2MC01RSP) Стартовая координата МДЗ2" format="8"></var>
-<var  name="fEM_R2MV01RSP" description="(R2MV01RSP) Стартовая скорость МДЗ2" format="8"></var>
 <var  name="fEM_R1MC01RSP" description="(R1MC01RSP) Стартовая координата МДЗ1" format="8"></var>
-<var  name="fEM_R1MV01RSP" description="(R1MV01RSP) Стартовая скорость МДЗ1" format="8"></var>
 <var  name="fEM_A5MC01RSP" description="(A5MC01RSP) Стартовая координата НЛ1" format="8"></var>
-<var  name="fEM_A5MV01RSP" description="(A5MV01RSP) Стартовая скорость НЛ1" format="8"></var>
 <var  name="fEM_B5MC01RSP" description="(B5MC01RSP) Стартовая координата НЛ2" format="8"></var>
-<var  name="fEM_B5MV01RSP" description="(B5MV01RSP) Стартовая скорость НЛ2" format="8"></var>
 <var  name="fEM_A9MC01RSP" description="(A9MC01RSP) Стартовая координата НИ ДС1" format="8"></var>
-<var  name="fEM_A9MV01RSP" description="(A9MV01RSP) Стартовая скорость НИ ДС1" format="8"></var>
 <var  name="fEM_B9MC01RSP" description="(B9MC01RSP) Стартовая координата НИ ДС2" format="8"></var>
-<var  name="fEM_B9MV01RSP" description="(B9MV01RSP) Стартовая скорость НИ ДС2" format="8"></var>
 <var  name="fEM_A4MC01RSP" description="(A4MC01RSP) Стартовая координата НИ1" format="8"></var>
-<var  name="fEM_A4MV01RSP" description="(A4MV01RSP) Стартовая скорость НИ1" format="8"></var>
 <var  name="fEM_B4MC01RSP" description="(B4MC01RSP) Стартовая координата НИ2" format="8"></var>
-<var  name="fEM_B4MV01RSP" description="(B4MV01RSP) Стартовая скорость НИ2" format="8"></var>
 <var  name="fEM_R4MC01RSP" description="(R4MC01RSP) Стартовая координата тележки" format="8"></var>
-<var  name="fEM_R4MV01RSP" description="(R4MV01RSP) Стартовая скорость тележки" format="8"></var>
 <var  name="fEM_A1MV01RC1" description="(A1MV01RC1) Заданная скорость движения  ББ1 от ИС" format="8"></var>
 <var  name="iEM_TERB7MS31LIM" description="(TERB7MS31LIM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)" format="3"></var>
 <var  name="iEM_TERA7MS31LIM" description="(TERA7MS31LIM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)" format="3"></var>

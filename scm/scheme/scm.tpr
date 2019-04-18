@@ -6407,7 +6407,7 @@
     }
     [TConst]{
       Name="A3UP02RDU"
-      Value="0.41"
+      Value="0.6"
       Type=1
       Numeration=0
       MemoryType=1
@@ -14656,50 +14656,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="A1MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ББ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A1MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ББ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="B1MC01RSP"
       Value="0"
       Type=1
@@ -14722,28 +14678,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B1MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ББ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="B1MC02RSP"
       Value="0.000167676"
       Type=1
@@ -14751,28 +14685,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата штока ББ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="B1MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ББ2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -14854,28 +14766,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="A2MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  РБ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A2MC02RSP"
       Value="0"
       Type=1
@@ -14883,28 +14773,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата штока РБ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A2MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  РБ1"
       MinValue=""
       MaxValue=""
       Group=""
@@ -14942,28 +14810,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B2MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  РБ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="B2MC02RSP"
       Value="0"
       Type=1
@@ -14971,28 +14817,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата штока РБ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="B2MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  РБ2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15030,28 +14854,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="A3MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ИС1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A3MC02RSP"
       Value="0.000885839"
       Type=1
@@ -15059,28 +14861,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата штока ИС1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A3MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ИС1"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15118,28 +14898,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B3MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ИС2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="B3MC02RSP"
       Value="0.000885839"
       Type=1
@@ -15147,28 +14905,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата штока ИС2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="B3MV02RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость движения  ИС2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15206,28 +14942,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B8MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость АЗ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A8MC01RSP"
       Value="390"
       Type=1
@@ -15235,28 +14949,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата ДС2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A8MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость ДС2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15294,28 +14986,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="A6MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость БЗ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="B6MC01RSP"
       Value="55"
       Type=1
@@ -15323,28 +14993,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата БЗ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="B6MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость БЗ2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15382,28 +15030,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R3UV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость Гомогенных дверей"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="R5UC01RSP"
       Value="4000.0"
       Type=1
@@ -15411,28 +15037,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата Ворот отстойной зоны"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="R5UV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость Ворот отстойной зоны"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15470,28 +15074,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R6UV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость Кран-балки"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="R2MC01RSP"
       Value="0"
       Type=1
@@ -15499,28 +15081,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата МДЗ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="R2MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость МДЗ2"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15558,28 +15118,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R1MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость МДЗ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A5MC01RSP"
       Value="5"
       Type=1
@@ -15587,28 +15125,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата НЛ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A5MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НЛ1"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15646,28 +15162,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B5MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НЛ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A9MC01RSP"
       Value="0"
       Type=1
@@ -15675,28 +15169,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата НИ ДС1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A9MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НИ ДС1"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15734,28 +15206,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B9MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НИ ДС2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="A4MC01RSP"
       Value="0"
       Type=1
@@ -15763,28 +15213,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата НИ1"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="A4MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НИ1"
       MinValue=""
       MaxValue=""
       Group=""
@@ -15822,28 +15250,6 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="B4MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость НИ2"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
       Name="R4MC01RSP"
       Value="15650"
       Type=1
@@ -15851,28 +15257,6 @@
       MemoryType=1
       ESPPZUType=0
       Description="Стартовая координата тележки"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=1
-      InterfaceMB="SCM"
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="R4MV01RSP"
-      Value="0"
-      Type=1
-      Numeration=0
-      MemoryType=1
-      ESPPZUType=0
-      Description="Стартовая скорость тележки"
       MinValue=""
       MaxValue=""
       Group=""
@@ -17271,7 +16655,7 @@
         }
       }
       [VVV_Text]{
-        R="15,93,70,100"
+        R="15,93,60,98"
         Number=146
         IsHold=FALSE
         Line1="Координата ББ1"
@@ -17832,7 +17216,7 @@
         }
       }
       [VVV_Text]{
-        R="76,140,131,147"
+        R="76,140,121,145"
         Number=325
         IsHold=TRUE
         Line1="Координата РБ1"
@@ -18478,7 +17862,7 @@
         }
       }
       [VVV_Text]{
-        R="114,187,169,194"
+        R="114,187,159,192"
         Number=454
         IsHold=FALSE
         Line1="Координата ИС1"
@@ -18915,13 +18299,13 @@
         Line1="Координата ББ2"
       }
       [VVV_Text]{
-        R="81,550,132,557"
+        R="81,550,122,556"
         Number=614
         IsHold=TRUE
         Line1="Координата РБ"
       }
       [VVV_Text]{
-        R="300,497,339,511"
+        R="300,497,332,509"
         Number=615
         IsHold=FALSE
         Line1="Координата"
@@ -18967,7 +18351,7 @@
         }
       }
       [VVV_Text]{
-        R="460,430,613,437"
+        R="460,430,583,435"
         Number=659
         IsHold=FALSE
         Line1="Рис.1  Модель активной зоны АЗ1 РУ БАРС-4"
@@ -18979,7 +18363,7 @@
         Line1="Рис.6  Модель активной зоны АЗ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="757,423,1010,430"
+        R="757,423,958,428"
         Number=661
         IsHold=TRUE
         Line1="Рис.2  Модель механизма перемещения блока блокировки ББ1 РУ БАРС-4"
@@ -19429,7 +18813,7 @@
         CONST_NAME="A6UC21RIM"
       }
       [VVV_Text]{
-        R="2110,1286,2382,1293"
+        R="2110,1286,2333,1291"
         Number=793
         IsHold=TRUE
         Line1="Рис.14 Модель механизма перемещения биологической защиты БЗ1 РУ БАРС-4"
@@ -21100,7 +20484,7 @@
         CONST_NAME="R0UR30RIM"
       }
       [VVV_Text]{
-        R="10,45,62,59"
+        R="10,45,52,56"
         Number=1848
         IsHold=FALSE
         Line1="Концентрация"
@@ -21120,7 +20504,7 @@
         }
       }
       [VVV_Text]{
-        R="15,6,69,13"
+        R="15,6,59,11"
         Number=1853
         IsHold=FALSE
         Line1="Координата АЗ2"
@@ -21147,7 +20531,7 @@
         CONST_NAME="A2UR01RIM"
       }
       [VVV_Text]{
-        R="33,514,85,528"
+        R="33,514,74,526"
         Number=1876
         IsHold=FALSE
         Line1="Концентрация"
@@ -21745,7 +21129,7 @@
         }
       }
       [VVV_Text]{
-        R="186,459,241,473"
+        R="186,459,229,471"
         Number=1831
         IsHold=FALSE
         Line1="Коэффициент"
@@ -21765,14 +21149,14 @@
         }
       }
       [VVV_Text]{
-        R="135,458,190,472"
+        R="135,458,178,470"
         Number=1836
         IsHold=FALSE
         Line1="Коэффициент"
         Line2="K12 связи АЗ1,2"
       }
       [VVV_Text]{
-        R="108,247,143,261"
+        R="108,247,137,258"
         Number=1841
         IsHold=FALSE
         Line1="Приход "
@@ -21792,7 +21176,7 @@
         }
       }
       [VVV_Text]{
-        R="71,459,133,466"
+        R="71,459,122,465"
         Number=1856
         IsHold=FALSE
         Line1="Приход на ВУ НИ2"
@@ -22087,110 +21471,110 @@
         CONST_NAME="A5UC08RDU"
       }
       [VVV_Text]{
-        R="76,427,147,441"
+        R="76,427,131,438"
         Number=1965
         IsHold=FALSE
         Line1="Мощность источника"
         Line2="нейтронов ИНИ"
       }
       [VVV_Text]{
-        R="13,428,84,442"
+        R="13,428,68,439"
         Number=1966
         IsHold=FALSE
         Line1="Мощность источника"
         Line2="нейтронов с АНИ"
       }
       [VVV_Text]{
-        R="9,370,84,384"
+        R="9,370,77,382"
         Number=1967
         IsHold=FALSE
         Line1="Конвекционное сопро-"
         Line2="тивление при обдуве"
       }
       [VVV_Text]{
-        R="5,317,97,331"
+        R="5,317,79,328"
         Number=1968
         IsHold=FALSE
         Line1="*Коэффициент-1 функции"
         Line2="реактивности вносимой РБ"
       }
       [VVV_Text]{
-        R="7,259,99,273"
+        R="7,259,81,270"
         Number=1969
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой РБ"
       }
       [VVV_Text]{
-        R="7,208,105,215"
+        R="7,208,86,213"
         Number=1970
         IsHold=FALSE
         Line1="Нормальная температура АЗ"
       }
       [VVV_Text]{
-        R="144,429,215,443"
+        R="144,429,200,440"
         Number=1971
         IsHold=FALSE
         Line1="*Реактивность"
         Line2="вносимая образцами"
       }
       [VVV_Text]{
-        R="203,428,295,442"
+        R="203,428,278,439"
         Number=1972
         IsHold=FALSE
         Line1="*Коэффициент-1 функции"
         Line2="реактивности вносимой ИС"
       }
       [VVV_Text]{
-        R="279,428,371,442"
+        R="279,428,354,439"
         Number=1973
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой ИС"
       }
       [VVV_Text]{
-        R="358,427,433,441"
+        R="358,427,418,438"
         Number=1974
         IsHold=FALSE
         Line1="Удельная"
         Line2="теплоёмкость топлива"
       }
       [VVV_Text]{
-        R="255,363,347,377"
+        R="255,363,336,375"
         Number=1975
         IsHold=FALSE
         Line1="*Коэффициент-1 функции"
         Line2="реактивности вносимой ББ"
       }
       [VVV_Text]{
-        R="256,307,348,321"
+        R="256,307,330,318"
         Number=1976
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой ББ"
       }
       [VVV_Text]{
-        R="274,252,327,266"
+        R="274,252,316,263"
         Number=1977
         IsHold=FALSE
         Line1="Энергия одного"
         Line2="нейтрона"
       }
       [VVV_Text]{
-        R="350,376,418,383"
+        R="350,376,407,382"
         Number=1978
         IsHold=FALSE
         Line1="Масса топлива в АЗ"
       }
       [VVV_Text]{
-        R="357,320,413,334"
+        R="357,320,401,331"
         Number=1979
         IsHold=FALSE
         Line1="*Температурный"
         Line2="коэффициент"
       }
       [VVV_Text]{
-        R="348,258,423,279"
+        R="348,258,408,275"
         Number=1980
         IsHold=FALSE
         Line1="Доля запаздывающих"
@@ -22198,14 +21582,14 @@
         Line3="количестве нейтронов"
       }
       [VVV_Text]{
-        R="348,200,420,214"
+        R="348,200,405,211"
         Number=1981
         IsHold=FALSE
         Line1="Среднее время"
         Line2="генерации нейтронов"
       }
       [VVV_Text]{
-        R="542,406,656,413"
+        R="542,406,633,411"
         Number=1982
         IsHold=FALSE
         Line1="*-значение параметра в долларах"
@@ -22465,7 +21849,7 @@
         }
       }
       [VVV_Text]{
-        R="852,339,861,346"
+        R="852,339,858,344"
         Number=2008
         IsHold=FALSE
         Line1="АЗ"
@@ -25637,7 +25021,7 @@
         CONST_NAME="A4UP01RIM"
       }
       [VVV_Text]{
-        R="873,231,946,245"
+        R="873,231,931,242"
         Number=2121
         IsHold=FALSE
         Line1="Клапан «Сброс ББ1» "
@@ -26994,7 +26378,7 @@
         }
       }
       [VVV_Text]{
-        R="387,22,431,50"
+        R="387,22,423,45"
         Number=3314
         IsHold=FALSE
         Line1=" Клапан "
@@ -27016,7 +26400,7 @@
         }
       }
       [VVV_Text]{
-        R="383,449,427,470"
+        R="383,449,419,467"
         Number=3315
         IsHold=FALSE
         Line1=" Клапан "
@@ -27037,7 +26421,7 @@
         }
       }
       [VVV_Text]{
-        R="325,61,383,75"
+        R="325,61,371,72"
         Number=3316
         IsHold=FALSE
         Line1="Текущая "
@@ -27865,7 +27249,7 @@
         }
       }
       [VVV_Text]{
-        R="520,518,578,532"
+        R="520,518,567,530"
         Number=3423
         IsHold=FALSE
         Line1="Текущая "
@@ -29127,7 +28511,7 @@
         }
       }
       [VVV_Text]{
-        R="2750,1530,2801,1551"
+        R="2750,1530,2791,1547"
         Number=3532
         IsHold=FALSE
         Line1="Текущее"
@@ -32278,7 +31662,7 @@
         }
       }
       [VVV_Text]{
-        R="170,244,209,265"
+        R="170,244,200,261"
         Number=548
         IsHold=FALSE
         Line1="Аварийный"
@@ -32299,7 +31683,7 @@
         }
       }
       [VVV_Text]{
-        R="17,454,67,468"
+        R="17,454,57,466"
         Number=977
         IsHold=FALSE
         Line1="Аварийный НИ"
@@ -33191,7 +32575,7 @@
         }
       }
       [VVV_Text]{
-        R="2321,1461,2358,1475"
+        R="2321,1461,2351,1472"
         Number=4388
         IsHold=FALSE
         Line1="Приход на "
@@ -33211,7 +32595,7 @@
         }
       }
       [VVV_Text]{
-        R="2320,1487,2357,1501"
+        R="2320,1487,2350,1498"
         Number=4389
         IsHold=FALSE
         Line1="Приход на "
@@ -33826,7 +33210,7 @@
         }
       }
       [VVV_Text]{
-        R="1019,112,1054,126"
+        R="1019,112,1047,124"
         Number=4508
         IsHold=FALSE
         Line1="Приход на"
@@ -33860,7 +33244,7 @@
         }
       }
       [VVV_Text]{
-        R="1056,114,1093,128"
+        R="1056,114,1086,126"
         Number=4449
         IsHold=FALSE
         Line1="Приход на "
@@ -34369,7 +33753,7 @@
         Line3="подъём РБ"
       }
       [VVV_Text]{
-        R="918,177,959,198"
+        R="918,177,951,195"
         Number=624
         IsHold=FALSE
         Line1="Текущее "
@@ -35048,7 +34432,7 @@
         CONST_NAME="A3MV02RC1"
       }
       [VVV_Text]{
-        R="676,55,730,76"
+        R="676,55,726,73"
         Number=609
         IsHold=FALSE
         Line1="Искажение"
@@ -35077,7 +34461,7 @@
         CONST_NAME="A1MC01RC1"
       }
       [VVV_Text]{
-        R="842,178,882,199"
+        R="842,178,873,194"
         Number=1637
         IsHold=FALSE
         Line1=" Заданная"
@@ -35130,7 +34514,7 @@
         CONST_NAME="B1MV01RC1"
       }
       [VVV_Text]{
-        R="842,265,877,293"
+        R="842,265,870,287"
         Number=212
         IsHold=FALSE
         Line1="Заданная"
@@ -36148,7 +35532,7 @@
         }
       }
       [VVV_Text]{
-        R="92,508,128,543"
+        R="92,508,119,538"
         Number=2331
         IsHold=FALSE
         Line1="***********"
@@ -36158,7 +35542,7 @@
         Line5="***********"
       }
       [VVV_Text]{
-        R="161,273,197,308"
+        R="161,273,192,302"
         Number=2342
         IsHold=FALSE
         Line1="***********"
@@ -36417,7 +35801,7 @@
         Line1="Рис.14 Модель механизма перемещения биологической защиты БЗ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2316,1501,2346,1543"
+        R="2316,1501,2338,1536"
         Number=2669
         IsHold=FALSE
         Line1="**********"
@@ -37022,7 +36406,7 @@
         Line1="Рис.20 Модель состояния сигналов давления РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2815,1297,3008,1304"
+        R="2815,1297,2972,1302"
         Number=1440
         IsHold=FALSE
         Line1="Рис.15 Формирование выходных сигналов модели РБ1,2"
@@ -70633,4 +70017,4 @@
     }
   }
 }
-68059786
+67438540
