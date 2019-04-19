@@ -184,34 +184,34 @@ static char BUFFER[3443];
 #define idR0IN01FI3	 86	//( - , SA3) Выход СНМ-11 Гц от ПТИ
 #define R0IN01FI2	 BUFFER[233]	//( - , SA2) Выход КНК15-1 Гц от ПТИ
 #define idR0IN01FI2	 87	//( - , SA2) Выход КНК15-1 Гц от ПТИ
-#define B0SN07RIM	 BUFFER[238]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define idB0SN07RIM	 88	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-#define B0SN06RIM	 BUFFER[243]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define idB0SN06RIM	 89	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-#define B0SN05RIM	 BUFFER[248]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define idB0SN05RIM	 90	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-#define B0SN04RIM	 BUFFER[253]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define idB0SN04RIM	 91	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-#define B0SN03RIM	 BUFFER[258]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define idB0SN03RIM	 92	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-#define B0SN02RIM	 BUFFER[263]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define idB0SN02RIM	 93	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-#define A0SN07RIM	 BUFFER[268]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define idA0SN07RIM	 94	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-#define A0SN06RIM	 BUFFER[273]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define idA0SN06RIM	 95	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-#define A0SN05RIM	 BUFFER[278]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define idA0SN05RIM	 96	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-#define A0SN04RIM	 BUFFER[283]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define idA0SN04RIM	 97	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-#define A0SN03RIM	 BUFFER[288]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define idA0SN03RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-#define A0SN02RIM	 BUFFER[293]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define idA0SN02RIM	 99	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define lk2	 BUFFER[298]	//( - , - ) 
-#define idlk2	 100	//( - , - ) 
-#define lk1	 BUFFER[303]	//( - , - ) 
-#define idlk1	 101	//( - , - ) 
+#define krb2	 BUFFER[238]	//( - , - ) 
+#define idkrb2	 88	//( - , - ) 
+#define krb1	 BUFFER[243]	//( - , - ) 
+#define idkrb1	 89	//( - , - ) 
+#define B0SN07RIM	 BUFFER[248]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define idB0SN07RIM	 90	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+#define B0SN06RIM	 BUFFER[253]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define idB0SN06RIM	 91	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+#define B0SN05RIM	 BUFFER[258]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define idB0SN05RIM	 92	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+#define B0SN04RIM	 BUFFER[263]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define idB0SN04RIM	 93	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+#define B0SN03RIM	 BUFFER[268]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define idB0SN03RIM	 94	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+#define B0SN02RIM	 BUFFER[273]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define idB0SN02RIM	 95	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+#define A0SN07RIM	 BUFFER[278]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define idA0SN07RIM	 96	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+#define A0SN06RIM	 BUFFER[283]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define idA0SN06RIM	 97	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+#define A0SN05RIM	 BUFFER[288]	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define idA0SN05RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+#define A0SN04RIM	 BUFFER[293]	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define idA0SN04RIM	 99	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+#define A0SN03RIM	 BUFFER[298]	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define idA0SN03RIM	 100	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+#define A0SN02RIM	 BUFFER[303]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
+#define idA0SN02RIM	 101	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 #define R0DEUMLSS	 BUFFER[308]	//( - , SCM) Сигнал управления моделью
 #define idR0DEUMLSS	 102	//( - , SCM) Сигнал управления моделью
 #define R0MW11IP1	 BUFFER[311]	//( - , SCM) Переключатель ВЫСТРЕЛ
@@ -1368,20 +1368,20 @@ static char BUFFER[3443];
 #define idinternal1_m644_Out10	 678	//(internal1_m644_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m643_Out10	 BUFFER[2402]	//(internal1_m643_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m643_Out10	 679	//(internal1_m643_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m509_Out10	 BUFFER[2404]	//(internal1_m509_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m509_Out10	 680	//(internal1_m509_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m510_Out10	 BUFFER[2404]	//(internal1_m510_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m510_Out10	 680	//(internal1_m510_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m526_Out10	 BUFFER[2406]	//(internal1_m526_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m526_Out10	 681	//(internal1_m526_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m396_Out10	 BUFFER[2408]	//(internal1_m396_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m396_Out10	 682	//(internal1_m396_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m469_q0	 BUFFER[2410]	//(internal1_m469_q0) q0 - внутренний параметр
-#define idinternal1_m469_q0	 683	//(internal1_m469_q0) q0 - внутренний параметр
-#define internal1_m470_q0	 BUFFER[2412]	//(internal1_m470_q0) q0 - внутренний параметр
-#define idinternal1_m470_q0	 684	//(internal1_m470_q0) q0 - внутренний параметр
-#define internal1_m457_q0	 BUFFER[2414]	//(internal1_m457_q0) q0 - внутренний параметр
-#define idinternal1_m457_q0	 685	//(internal1_m457_q0) q0 - внутренний параметр
-#define internal1_m458_q0	 BUFFER[2416]	//(internal1_m458_q0) q0 - внутренний параметр
-#define idinternal1_m458_q0	 686	//(internal1_m458_q0) q0 - внутренний параметр
+#define internal1_m398_Out10	 BUFFER[2408]	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m398_Out10	 682	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m471_q0	 BUFFER[2410]	//(internal1_m471_q0) q0 - внутренний параметр
+#define idinternal1_m471_q0	 683	//(internal1_m471_q0) q0 - внутренний параметр
+#define internal1_m472_q0	 BUFFER[2412]	//(internal1_m472_q0) q0 - внутренний параметр
+#define idinternal1_m472_q0	 684	//(internal1_m472_q0) q0 - внутренний параметр
+#define internal1_m459_q0	 BUFFER[2414]	//(internal1_m459_q0) q0 - внутренний параметр
+#define idinternal1_m459_q0	 685	//(internal1_m459_q0) q0 - внутренний параметр
+#define internal1_m460_q0	 BUFFER[2416]	//(internal1_m460_q0) q0 - внутренний параметр
+#define idinternal1_m460_q0	 686	//(internal1_m460_q0) q0 - внутренний параметр
 #define internal1_m619_tx	 BUFFER[2418]	//(internal1_m619_tx) tx - время накопленное сек
 #define idinternal1_m619_tx	 687	//(internal1_m619_tx) tx - время накопленное сек
 #define internal1_m619_y0	 BUFFER[2423]	//(internal1_m619_y0) y0
@@ -1398,10 +1398,10 @@ static char BUFFER[3443];
 #define idinternal1_m593_tx	 693	//(internal1_m593_tx) tx - время накопленное сек
 #define internal1_m593_y0	 BUFFER[2441]	//(internal1_m593_y0) y0
 #define idinternal1_m593_y0	 694	//(internal1_m593_y0) y0
-#define internal1_m202_Out10	 BUFFER[2442]	//(internal1_m202_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m202_Out10	 695	//(internal1_m202_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m220_Out10	 BUFFER[2444]	//(internal1_m220_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m220_Out10	 696	//(internal1_m220_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m203_Out10	 BUFFER[2442]	//(internal1_m203_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m203_Out10	 695	//(internal1_m203_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m221_Out10	 BUFFER[2444]	//(internal1_m221_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m221_Out10	 696	//(internal1_m221_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m41_Out10	 BUFFER[2446]	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m41_Out10	 697	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m56_Out10	 BUFFER[2448]	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1476,14 +1476,14 @@ static char BUFFER[3443];
 #define idinternal1_m972_Out10	 732	//(internal1_m972_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m527_Out10	 BUFFER[2524]	//(internal1_m527_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m527_Out10	 733	//(internal1_m527_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m406_Xtek0	 BUFFER[2526]	//(internal1_m406_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m406_Xtek0	 734	//(internal1_m406_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m397_Out10	 BUFFER[2531]	//(internal1_m397_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m397_Out10	 735	//(internal1_m397_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m399_Out10	 BUFFER[2533]	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m399_Out10	 736	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m398_Out10	 BUFFER[2535]	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m398_Out10	 737	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m408_Xtek0	 BUFFER[2526]	//(internal1_m408_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m408_Xtek0	 734	//(internal1_m408_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m399_Out10	 BUFFER[2531]	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m399_Out10	 735	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m401_Out10	 BUFFER[2533]	//(internal1_m401_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m401_Out10	 736	//(internal1_m401_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m400_Out10	 BUFFER[2535]	//(internal1_m400_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m400_Out10	 737	//(internal1_m400_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m845_Out10	 BUFFER[2537]	//(internal1_m845_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m845_Out10	 738	//(internal1_m845_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m846_Out10	 BUFFER[2539]	//(internal1_m846_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1518,106 +1518,106 @@ static char BUFFER[3443];
 #define idinternal1_m661_Out10	 753	//(internal1_m661_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m641_Out10	 BUFFER[2575]	//(internal1_m641_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m641_Out10	 754	//(internal1_m641_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m327_Out10	 BUFFER[2577]	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m327_Out10	 755	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m326_Out10	 BUFFER[2579]	//(internal1_m326_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m326_Out10	 756	//(internal1_m326_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m311_Out10	 BUFFER[2581]	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m311_Out10	 757	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m310_Out10	 BUFFER[2583]	//(internal1_m310_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m310_Out10	 758	//(internal1_m310_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m329_Out10	 BUFFER[2577]	//(internal1_m329_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m329_Out10	 755	//(internal1_m329_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m328_Out10	 BUFFER[2579]	//(internal1_m328_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m328_Out10	 756	//(internal1_m328_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m313_Out10	 BUFFER[2581]	//(internal1_m313_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m313_Out10	 757	//(internal1_m313_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m312_Out10	 BUFFER[2583]	//(internal1_m312_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m312_Out10	 758	//(internal1_m312_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m544_Out10	 BUFFER[2585]	//(internal1_m544_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m544_Out10	 759	//(internal1_m544_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m340_Out10	 BUFFER[2587]	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m340_Out10	 760	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m324_Xtek0	 BUFFER[2589]	//(internal1_m324_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m324_Xtek0	 761	//(internal1_m324_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m339_Out10	 BUFFER[2594]	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m339_Out10	 762	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m337_Out10	 BUFFER[2596]	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m337_Out10	 763	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m317_Xtek0	 BUFFER[2598]	//(internal1_m317_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m317_Xtek0	 764	//(internal1_m317_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m338_Out10	 BUFFER[2603]	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m338_Out10	 765	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m309_Out10	 BUFFER[2605]	//(internal1_m309_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m309_Out10	 766	//(internal1_m309_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m325_Out10	 BUFFER[2607]	//(internal1_m325_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m325_Out10	 767	//(internal1_m325_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m418_Out10	 BUFFER[2609]	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m418_Out10	 768	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m419_Xtek0	 BUFFER[2611]	//(internal1_m419_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m419_Xtek0	 769	//(internal1_m419_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define internal1_m417_Out10	 BUFFER[2616]	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m417_Out10	 770	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m416_Out10	 BUFFER[2618]	//(internal1_m416_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m416_Out10	 771	//(internal1_m416_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m415_Out10	 BUFFER[2620]	//(internal1_m415_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m415_Out10	 772	//(internal1_m415_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m342_Out10	 BUFFER[2587]	//(internal1_m342_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m342_Out10	 760	//(internal1_m342_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m326_Xtek0	 BUFFER[2589]	//(internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m326_Xtek0	 761	//(internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m341_Out10	 BUFFER[2594]	//(internal1_m341_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m341_Out10	 762	//(internal1_m341_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m339_Out10	 BUFFER[2596]	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m339_Out10	 763	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m319_Xtek0	 BUFFER[2598]	//(internal1_m319_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m319_Xtek0	 764	//(internal1_m319_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m340_Out10	 BUFFER[2603]	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m340_Out10	 765	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m311_Out10	 BUFFER[2605]	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m311_Out10	 766	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m327_Out10	 BUFFER[2607]	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m327_Out10	 767	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m420_Out10	 BUFFER[2609]	//(internal1_m420_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m420_Out10	 768	//(internal1_m420_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m421_Xtek0	 BUFFER[2611]	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m421_Xtek0	 769	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m419_Out10	 BUFFER[2616]	//(internal1_m419_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m419_Out10	 770	//(internal1_m419_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m418_Out10	 BUFFER[2618]	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m418_Out10	 771	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m417_Out10	 BUFFER[2620]	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m417_Out10	 772	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m1027_Out10	 BUFFER[2622]	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m1027_Out10	 773	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m144_Out10	 BUFFER[2624]	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m144_Out10	 774	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m143_Out10	 BUFFER[2626]	//(internal1_m143_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m143_Out10	 775	//(internal1_m143_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m191_tx	 BUFFER[2628]	//(internal1_m191_tx) tx - внутренний параметр
-#define idinternal1_m191_tx	 776	//(internal1_m191_tx) tx - внутренний параметр
-#define internal1_m30_tx	 BUFFER[2631]	//(internal1_m30_tx) tx - внутренний параметр
-#define idinternal1_m30_tx	 777	//(internal1_m30_tx) tx - внутренний параметр
-#define internal1_m461_X00	 BUFFER[2634]	//(internal1_m461_X00)  X00 - текущая координата механизма
-#define idinternal1_m461_X00	 778	//(internal1_m461_X00)  X00 - текущая координата механизма
-#define internal1_m461_V00	 BUFFER[2639]	//(internal1_m461_V00)  V00 - текущая скорость механизма
-#define idinternal1_m461_V00	 779	//(internal1_m461_V00)  V00 - текущая скорость механизма
-#define internal1_m461_Pav0	 BUFFER[2644]	//(internal1_m461_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m461_Pav0	 780	//(internal1_m461_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m461_Zav0	 BUFFER[2646]	//(internal1_m461_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m461_Zav0	 781	//(internal1_m461_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m461_Pv0	 BUFFER[2648]	//(internal1_m461_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m461_Pv0	 782	//(internal1_m461_Pv0)  - Пер. выключатель механизма
-#define internal1_m461_Zv0	 BUFFER[2650]	//(internal1_m461_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m461_Zv0	 783	//(internal1_m461_Zv0)  - Зад. выключатель механизма
-#define internal1_m461_RA00	 BUFFER[2652]	//(internal1_m461_RA00)  - последнее задание вперед
-#define idinternal1_m461_RA00	 784	//(internal1_m461_RA00)  - последнее задание вперед
-#define internal1_m461_RA10	 BUFFER[2654]	//(internal1_m461_RA10)  - последнее задание назад
-#define idinternal1_m461_RA10	 785	//(internal1_m461_RA10)  - последнее задание назад
-#define internal1_m461_MyFirstEnterFlag	 BUFFER[2656]	//(internal1_m461_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m461_MyFirstEnterFlag	 786	//(internal1_m461_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m473_X00	 BUFFER[2658]	//(internal1_m473_X00)  X00 - текущая координата механизма
-#define idinternal1_m473_X00	 787	//(internal1_m473_X00)  X00 - текущая координата механизма
-#define internal1_m473_V00	 BUFFER[2663]	//(internal1_m473_V00)  V00 - текущая скорость механизма
-#define idinternal1_m473_V00	 788	//(internal1_m473_V00)  V00 - текущая скорость механизма
-#define internal1_m473_Pav0	 BUFFER[2668]	//(internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m473_Pav0	 789	//(internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m473_Zav0	 BUFFER[2670]	//(internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m473_Zav0	 790	//(internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m473_Pv0	 BUFFER[2672]	//(internal1_m473_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m473_Pv0	 791	//(internal1_m473_Pv0)  - Пер. выключатель механизма
-#define internal1_m473_Zv0	 BUFFER[2674]	//(internal1_m473_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m473_Zv0	 792	//(internal1_m473_Zv0)  - Зад. выключатель механизма
-#define internal1_m473_RA00	 BUFFER[2676]	//(internal1_m473_RA00)  - последнее задание вперед
-#define idinternal1_m473_RA00	 793	//(internal1_m473_RA00)  - последнее задание вперед
-#define internal1_m473_RA10	 BUFFER[2678]	//(internal1_m473_RA10)  - последнее задание назад
-#define idinternal1_m473_RA10	 794	//(internal1_m473_RA10)  - последнее задание назад
-#define internal1_m473_MyFirstEnterFlag	 BUFFER[2680]	//(internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m473_MyFirstEnterFlag	 795	//(internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m463_X00	 BUFFER[2682]	//(internal1_m463_X00)  X00 - текущая координата механизма
-#define idinternal1_m463_X00	 796	//(internal1_m463_X00)  X00 - текущая координата механизма
-#define internal1_m463_V00	 BUFFER[2687]	//(internal1_m463_V00)  V00 - текущая скорость механизма
-#define idinternal1_m463_V00	 797	//(internal1_m463_V00)  V00 - текущая скорость механизма
-#define internal1_m463_Pav0	 BUFFER[2692]	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m463_Pav0	 798	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m463_Zav0	 BUFFER[2694]	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m463_Zav0	 799	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m463_Pv0	 BUFFER[2696]	//(internal1_m463_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m463_Pv0	 800	//(internal1_m463_Pv0)  - Пер. выключатель механизма
-#define internal1_m463_Zv0	 BUFFER[2698]	//(internal1_m463_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m463_Zv0	 801	//(internal1_m463_Zv0)  - Зад. выключатель механизма
-#define internal1_m463_RA00	 BUFFER[2700]	//(internal1_m463_RA00)  - последнее задание вперед
-#define idinternal1_m463_RA00	 802	//(internal1_m463_RA00)  - последнее задание вперед
-#define internal1_m463_RA10	 BUFFER[2702]	//(internal1_m463_RA10)  - последнее задание назад
-#define idinternal1_m463_RA10	 803	//(internal1_m463_RA10)  - последнее задание назад
-#define internal1_m463_MyFirstEnterFlag	 BUFFER[2704]	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m463_MyFirstEnterFlag	 804	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m145_Out10	 BUFFER[2624]	//(internal1_m145_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m145_Out10	 774	//(internal1_m145_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m144_Out10	 BUFFER[2626]	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m144_Out10	 775	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m192_tx	 BUFFER[2628]	//(internal1_m192_tx) tx - внутренний параметр
+#define idinternal1_m192_tx	 776	//(internal1_m192_tx) tx - внутренний параметр
+#define internal1_m25_tx	 BUFFER[2631]	//(internal1_m25_tx) tx - внутренний параметр
+#define idinternal1_m25_tx	 777	//(internal1_m25_tx) tx - внутренний параметр
+#define internal1_m465_X00	 BUFFER[2634]	//(internal1_m465_X00)  X00 - текущая координата механизма
+#define idinternal1_m465_X00	 778	//(internal1_m465_X00)  X00 - текущая координата механизма
+#define internal1_m465_V00	 BUFFER[2639]	//(internal1_m465_V00)  V00 - текущая скорость механизма
+#define idinternal1_m465_V00	 779	//(internal1_m465_V00)  V00 - текущая скорость механизма
+#define internal1_m465_Pav0	 BUFFER[2644]	//(internal1_m465_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m465_Pav0	 780	//(internal1_m465_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m465_Zav0	 BUFFER[2646]	//(internal1_m465_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m465_Zav0	 781	//(internal1_m465_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m465_Pv0	 BUFFER[2648]	//(internal1_m465_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m465_Pv0	 782	//(internal1_m465_Pv0)  - Пер. выключатель механизма
+#define internal1_m465_Zv0	 BUFFER[2650]	//(internal1_m465_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m465_Zv0	 783	//(internal1_m465_Zv0)  - Зад. выключатель механизма
+#define internal1_m465_RA00	 BUFFER[2652]	//(internal1_m465_RA00)  - последнее задание вперед
+#define idinternal1_m465_RA00	 784	//(internal1_m465_RA00)  - последнее задание вперед
+#define internal1_m465_RA10	 BUFFER[2654]	//(internal1_m465_RA10)  - последнее задание назад
+#define idinternal1_m465_RA10	 785	//(internal1_m465_RA10)  - последнее задание назад
+#define internal1_m465_MyFirstEnterFlag	 BUFFER[2656]	//(internal1_m465_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m465_MyFirstEnterFlag	 786	//(internal1_m465_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m475_X00	 BUFFER[2658]	//(internal1_m475_X00)  X00 - текущая координата механизма
+#define idinternal1_m475_X00	 787	//(internal1_m475_X00)  X00 - текущая координата механизма
+#define internal1_m475_V00	 BUFFER[2663]	//(internal1_m475_V00)  V00 - текущая скорость механизма
+#define idinternal1_m475_V00	 788	//(internal1_m475_V00)  V00 - текущая скорость механизма
+#define internal1_m475_Pav0	 BUFFER[2668]	//(internal1_m475_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m475_Pav0	 789	//(internal1_m475_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m475_Zav0	 BUFFER[2670]	//(internal1_m475_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m475_Zav0	 790	//(internal1_m475_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m475_Pv0	 BUFFER[2672]	//(internal1_m475_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m475_Pv0	 791	//(internal1_m475_Pv0)  - Пер. выключатель механизма
+#define internal1_m475_Zv0	 BUFFER[2674]	//(internal1_m475_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m475_Zv0	 792	//(internal1_m475_Zv0)  - Зад. выключатель механизма
+#define internal1_m475_RA00	 BUFFER[2676]	//(internal1_m475_RA00)  - последнее задание вперед
+#define idinternal1_m475_RA00	 793	//(internal1_m475_RA00)  - последнее задание вперед
+#define internal1_m475_RA10	 BUFFER[2678]	//(internal1_m475_RA10)  - последнее задание назад
+#define idinternal1_m475_RA10	 794	//(internal1_m475_RA10)  - последнее задание назад
+#define internal1_m475_MyFirstEnterFlag	 BUFFER[2680]	//(internal1_m475_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m475_MyFirstEnterFlag	 795	//(internal1_m475_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m464_X00	 BUFFER[2682]	//(internal1_m464_X00)  X00 - текущая координата механизма
+#define idinternal1_m464_X00	 796	//(internal1_m464_X00)  X00 - текущая координата механизма
+#define internal1_m464_V00	 BUFFER[2687]	//(internal1_m464_V00)  V00 - текущая скорость механизма
+#define idinternal1_m464_V00	 797	//(internal1_m464_V00)  V00 - текущая скорость механизма
+#define internal1_m464_Pav0	 BUFFER[2692]	//(internal1_m464_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m464_Pav0	 798	//(internal1_m464_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m464_Zav0	 BUFFER[2694]	//(internal1_m464_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m464_Zav0	 799	//(internal1_m464_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m464_Pv0	 BUFFER[2696]	//(internal1_m464_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m464_Pv0	 800	//(internal1_m464_Pv0)  - Пер. выключатель механизма
+#define internal1_m464_Zv0	 BUFFER[2698]	//(internal1_m464_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m464_Zv0	 801	//(internal1_m464_Zv0)  - Зад. выключатель механизма
+#define internal1_m464_RA00	 BUFFER[2700]	//(internal1_m464_RA00)  - последнее задание вперед
+#define idinternal1_m464_RA00	 802	//(internal1_m464_RA00)  - последнее задание вперед
+#define internal1_m464_RA10	 BUFFER[2702]	//(internal1_m464_RA10)  - последнее задание назад
+#define idinternal1_m464_RA10	 803	//(internal1_m464_RA10)  - последнее задание назад
+#define internal1_m464_MyFirstEnterFlag	 BUFFER[2704]	//(internal1_m464_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m464_MyFirstEnterFlag	 804	//(internal1_m464_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m598_X00	 BUFFER[2706]	//(internal1_m598_X00)  X00 - текущая координата механизма
 #define idinternal1_m598_X00	 805	//(internal1_m598_X00)  X00 - текущая координата механизма
 #define internal1_m598_V00	 BUFFER[2711]	//(internal1_m598_V00)  V00 - текущая скорость механизма
@@ -1752,114 +1752,114 @@ static char BUFFER[3443];
 #define idinternal1_m558_RA10	 870	//(internal1_m558_RA10)  - последнее задание назад
 #define internal1_m558_MyFirstEnterFlag	 BUFFER[2913]	//(internal1_m558_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m558_MyFirstEnterFlag	 871	//(internal1_m558_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m447_X00	 BUFFER[2915]	//(internal1_m447_X00)  X00 - текущая координата механизма
-#define idinternal1_m447_X00	 872	//(internal1_m447_X00)  X00 - текущая координата механизма
-#define internal1_m447_V00	 BUFFER[2920]	//(internal1_m447_V00)  V00 - текущая скорость механизма
-#define idinternal1_m447_V00	 873	//(internal1_m447_V00)  V00 - текущая скорость механизма
-#define internal1_m447_Pav0	 BUFFER[2925]	//(internal1_m447_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m447_Pav0	 874	//(internal1_m447_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m447_Zav0	 BUFFER[2927]	//(internal1_m447_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m447_Zav0	 875	//(internal1_m447_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m447_Pv0	 BUFFER[2929]	//(internal1_m447_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m447_Pv0	 876	//(internal1_m447_Pv0)  - Пер. выключатель механизма
-#define internal1_m447_Zv0	 BUFFER[2931]	//(internal1_m447_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m447_Zv0	 877	//(internal1_m447_Zv0)  - Зад. выключатель механизма
-#define internal1_m447_RA00	 BUFFER[2933]	//(internal1_m447_RA00)  - последнее задание вперед
-#define idinternal1_m447_RA00	 878	//(internal1_m447_RA00)  - последнее задание вперед
-#define internal1_m447_RA10	 BUFFER[2935]	//(internal1_m447_RA10)  - последнее задание назад
-#define idinternal1_m447_RA10	 879	//(internal1_m447_RA10)  - последнее задание назад
-#define internal1_m447_MyFirstEnterFlag	 BUFFER[2937]	//(internal1_m447_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m447_MyFirstEnterFlag	 880	//(internal1_m447_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m433_X00	 BUFFER[2939]	//(internal1_m433_X00)  X00 - текущая координата механизма
-#define idinternal1_m433_X00	 881	//(internal1_m433_X00)  X00 - текущая координата механизма
-#define internal1_m433_V00	 BUFFER[2944]	//(internal1_m433_V00)  V00 - текущая скорость механизма
-#define idinternal1_m433_V00	 882	//(internal1_m433_V00)  V00 - текущая скорость механизма
-#define internal1_m433_Pav0	 BUFFER[2949]	//(internal1_m433_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m433_Pav0	 883	//(internal1_m433_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m433_Zav0	 BUFFER[2951]	//(internal1_m433_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m433_Zav0	 884	//(internal1_m433_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m433_Pv0	 BUFFER[2953]	//(internal1_m433_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m433_Pv0	 885	//(internal1_m433_Pv0)  - Пер. выключатель механизма
-#define internal1_m433_Zv0	 BUFFER[2955]	//(internal1_m433_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m433_Zv0	 886	//(internal1_m433_Zv0)  - Зад. выключатель механизма
-#define internal1_m433_RA00	 BUFFER[2957]	//(internal1_m433_RA00)  - последнее задание вперед
-#define idinternal1_m433_RA00	 887	//(internal1_m433_RA00)  - последнее задание вперед
-#define internal1_m433_RA10	 BUFFER[2959]	//(internal1_m433_RA10)  - последнее задание назад
-#define idinternal1_m433_RA10	 888	//(internal1_m433_RA10)  - последнее задание назад
-#define internal1_m433_MyFirstEnterFlag	 BUFFER[2961]	//(internal1_m433_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m433_MyFirstEnterFlag	 889	//(internal1_m433_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m484_X00	 BUFFER[2963]	//(internal1_m484_X00)  X00 - текущая координата механизма
-#define idinternal1_m484_X00	 890	//(internal1_m484_X00)  X00 - текущая координата механизма
-#define internal1_m484_V00	 BUFFER[2968]	//(internal1_m484_V00)  V00 - текущая скорость механизма
-#define idinternal1_m484_V00	 891	//(internal1_m484_V00)  V00 - текущая скорость механизма
-#define internal1_m484_Pav0	 BUFFER[2973]	//(internal1_m484_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m484_Pav0	 892	//(internal1_m484_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m484_Zav0	 BUFFER[2975]	//(internal1_m484_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m484_Zav0	 893	//(internal1_m484_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m484_Pv0	 BUFFER[2977]	//(internal1_m484_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m484_Pv0	 894	//(internal1_m484_Pv0)  - Пер. выключатель механизма
-#define internal1_m484_Zv0	 BUFFER[2979]	//(internal1_m484_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m484_Zv0	 895	//(internal1_m484_Zv0)  - Зад. выключатель механизма
-#define internal1_m484_RA00	 BUFFER[2981]	//(internal1_m484_RA00)  - последнее задание вперед
-#define idinternal1_m484_RA00	 896	//(internal1_m484_RA00)  - последнее задание вперед
-#define internal1_m484_RA10	 BUFFER[2983]	//(internal1_m484_RA10)  - последнее задание назад
-#define idinternal1_m484_RA10	 897	//(internal1_m484_RA10)  - последнее задание назад
-#define internal1_m484_MyFirstEnterFlag	 BUFFER[2985]	//(internal1_m484_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m484_MyFirstEnterFlag	 898	//(internal1_m484_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m385_X00	 BUFFER[2987]	//(internal1_m385_X00)  X00 - текущая координата механизма
-#define idinternal1_m385_X00	 899	//(internal1_m385_X00)  X00 - текущая координата механизма
-#define internal1_m385_V00	 BUFFER[2992]	//(internal1_m385_V00)  V00 - текущая скорость механизма
-#define idinternal1_m385_V00	 900	//(internal1_m385_V00)  V00 - текущая скорость механизма
-#define internal1_m385_Pav0	 BUFFER[2997]	//(internal1_m385_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m385_Pav0	 901	//(internal1_m385_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m385_Zav0	 BUFFER[2999]	//(internal1_m385_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m385_Zav0	 902	//(internal1_m385_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m385_Pv0	 BUFFER[3001]	//(internal1_m385_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m385_Pv0	 903	//(internal1_m385_Pv0)  - Пер. выключатель механизма
-#define internal1_m385_Zv0	 BUFFER[3003]	//(internal1_m385_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m385_Zv0	 904	//(internal1_m385_Zv0)  - Зад. выключатель механизма
-#define internal1_m385_RA00	 BUFFER[3005]	//(internal1_m385_RA00)  - последнее задание вперед
-#define idinternal1_m385_RA00	 905	//(internal1_m385_RA00)  - последнее задание вперед
-#define internal1_m385_RA10	 BUFFER[3007]	//(internal1_m385_RA10)  - последнее задание назад
-#define idinternal1_m385_RA10	 906	//(internal1_m385_RA10)  - последнее задание назад
-#define internal1_m385_MyFirstEnterFlag	 BUFFER[3009]	//(internal1_m385_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m385_MyFirstEnterFlag	 907	//(internal1_m385_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m370_X00	 BUFFER[3011]	//(internal1_m370_X00)  X00 - текущая координата механизма
-#define idinternal1_m370_X00	 908	//(internal1_m370_X00)  X00 - текущая координата механизма
-#define internal1_m370_V00	 BUFFER[3016]	//(internal1_m370_V00)  V00 - текущая скорость механизма
-#define idinternal1_m370_V00	 909	//(internal1_m370_V00)  V00 - текущая скорость механизма
-#define internal1_m370_Pav0	 BUFFER[3021]	//(internal1_m370_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m370_Pav0	 910	//(internal1_m370_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m370_Zav0	 BUFFER[3023]	//(internal1_m370_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m370_Zav0	 911	//(internal1_m370_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m370_Pv0	 BUFFER[3025]	//(internal1_m370_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m370_Pv0	 912	//(internal1_m370_Pv0)  - Пер. выключатель механизма
-#define internal1_m370_Zv0	 BUFFER[3027]	//(internal1_m370_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m370_Zv0	 913	//(internal1_m370_Zv0)  - Зад. выключатель механизма
-#define internal1_m370_RA00	 BUFFER[3029]	//(internal1_m370_RA00)  - последнее задание вперед
-#define idinternal1_m370_RA00	 914	//(internal1_m370_RA00)  - последнее задание вперед
-#define internal1_m370_RA10	 BUFFER[3031]	//(internal1_m370_RA10)  - последнее задание назад
-#define idinternal1_m370_RA10	 915	//(internal1_m370_RA10)  - последнее задание назад
-#define internal1_m370_MyFirstEnterFlag	 BUFFER[3033]	//(internal1_m370_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m370_MyFirstEnterFlag	 916	//(internal1_m370_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m354_X00	 BUFFER[3035]	//(internal1_m354_X00)  X00 - текущая координата механизма
-#define idinternal1_m354_X00	 917	//(internal1_m354_X00)  X00 - текущая координата механизма
-#define internal1_m354_V00	 BUFFER[3040]	//(internal1_m354_V00)  V00 - текущая скорость механизма
-#define idinternal1_m354_V00	 918	//(internal1_m354_V00)  V00 - текущая скорость механизма
-#define internal1_m354_Pav0	 BUFFER[3045]	//(internal1_m354_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m354_Pav0	 919	//(internal1_m354_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m354_Zav0	 BUFFER[3047]	//(internal1_m354_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m354_Zav0	 920	//(internal1_m354_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m354_Pv0	 BUFFER[3049]	//(internal1_m354_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m354_Pv0	 921	//(internal1_m354_Pv0)  - Пер. выключатель механизма
-#define internal1_m354_Zv0	 BUFFER[3051]	//(internal1_m354_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m354_Zv0	 922	//(internal1_m354_Zv0)  - Зад. выключатель механизма
-#define internal1_m354_RA00	 BUFFER[3053]	//(internal1_m354_RA00)  - последнее задание вперед
-#define idinternal1_m354_RA00	 923	//(internal1_m354_RA00)  - последнее задание вперед
-#define internal1_m354_RA10	 BUFFER[3055]	//(internal1_m354_RA10)  - последнее задание назад
-#define idinternal1_m354_RA10	 924	//(internal1_m354_RA10)  - последнее задание назад
-#define internal1_m354_MyFirstEnterFlag	 BUFFER[3057]	//(internal1_m354_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m354_MyFirstEnterFlag	 925	//(internal1_m354_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m449_X00	 BUFFER[2915]	//(internal1_m449_X00)  X00 - текущая координата механизма
+#define idinternal1_m449_X00	 872	//(internal1_m449_X00)  X00 - текущая координата механизма
+#define internal1_m449_V00	 BUFFER[2920]	//(internal1_m449_V00)  V00 - текущая скорость механизма
+#define idinternal1_m449_V00	 873	//(internal1_m449_V00)  V00 - текущая скорость механизма
+#define internal1_m449_Pav0	 BUFFER[2925]	//(internal1_m449_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m449_Pav0	 874	//(internal1_m449_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m449_Zav0	 BUFFER[2927]	//(internal1_m449_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m449_Zav0	 875	//(internal1_m449_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m449_Pv0	 BUFFER[2929]	//(internal1_m449_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m449_Pv0	 876	//(internal1_m449_Pv0)  - Пер. выключатель механизма
+#define internal1_m449_Zv0	 BUFFER[2931]	//(internal1_m449_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m449_Zv0	 877	//(internal1_m449_Zv0)  - Зад. выключатель механизма
+#define internal1_m449_RA00	 BUFFER[2933]	//(internal1_m449_RA00)  - последнее задание вперед
+#define idinternal1_m449_RA00	 878	//(internal1_m449_RA00)  - последнее задание вперед
+#define internal1_m449_RA10	 BUFFER[2935]	//(internal1_m449_RA10)  - последнее задание назад
+#define idinternal1_m449_RA10	 879	//(internal1_m449_RA10)  - последнее задание назад
+#define internal1_m449_MyFirstEnterFlag	 BUFFER[2937]	//(internal1_m449_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m449_MyFirstEnterFlag	 880	//(internal1_m449_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m435_X00	 BUFFER[2939]	//(internal1_m435_X00)  X00 - текущая координата механизма
+#define idinternal1_m435_X00	 881	//(internal1_m435_X00)  X00 - текущая координата механизма
+#define internal1_m435_V00	 BUFFER[2944]	//(internal1_m435_V00)  V00 - текущая скорость механизма
+#define idinternal1_m435_V00	 882	//(internal1_m435_V00)  V00 - текущая скорость механизма
+#define internal1_m435_Pav0	 BUFFER[2949]	//(internal1_m435_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m435_Pav0	 883	//(internal1_m435_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m435_Zav0	 BUFFER[2951]	//(internal1_m435_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m435_Zav0	 884	//(internal1_m435_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m435_Pv0	 BUFFER[2953]	//(internal1_m435_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m435_Pv0	 885	//(internal1_m435_Pv0)  - Пер. выключатель механизма
+#define internal1_m435_Zv0	 BUFFER[2955]	//(internal1_m435_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m435_Zv0	 886	//(internal1_m435_Zv0)  - Зад. выключатель механизма
+#define internal1_m435_RA00	 BUFFER[2957]	//(internal1_m435_RA00)  - последнее задание вперед
+#define idinternal1_m435_RA00	 887	//(internal1_m435_RA00)  - последнее задание вперед
+#define internal1_m435_RA10	 BUFFER[2959]	//(internal1_m435_RA10)  - последнее задание назад
+#define idinternal1_m435_RA10	 888	//(internal1_m435_RA10)  - последнее задание назад
+#define internal1_m435_MyFirstEnterFlag	 BUFFER[2961]	//(internal1_m435_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m435_MyFirstEnterFlag	 889	//(internal1_m435_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m486_X00	 BUFFER[2963]	//(internal1_m486_X00)  X00 - текущая координата механизма
+#define idinternal1_m486_X00	 890	//(internal1_m486_X00)  X00 - текущая координата механизма
+#define internal1_m486_V00	 BUFFER[2968]	//(internal1_m486_V00)  V00 - текущая скорость механизма
+#define idinternal1_m486_V00	 891	//(internal1_m486_V00)  V00 - текущая скорость механизма
+#define internal1_m486_Pav0	 BUFFER[2973]	//(internal1_m486_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m486_Pav0	 892	//(internal1_m486_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m486_Zav0	 BUFFER[2975]	//(internal1_m486_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m486_Zav0	 893	//(internal1_m486_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m486_Pv0	 BUFFER[2977]	//(internal1_m486_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m486_Pv0	 894	//(internal1_m486_Pv0)  - Пер. выключатель механизма
+#define internal1_m486_Zv0	 BUFFER[2979]	//(internal1_m486_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m486_Zv0	 895	//(internal1_m486_Zv0)  - Зад. выключатель механизма
+#define internal1_m486_RA00	 BUFFER[2981]	//(internal1_m486_RA00)  - последнее задание вперед
+#define idinternal1_m486_RA00	 896	//(internal1_m486_RA00)  - последнее задание вперед
+#define internal1_m486_RA10	 BUFFER[2983]	//(internal1_m486_RA10)  - последнее задание назад
+#define idinternal1_m486_RA10	 897	//(internal1_m486_RA10)  - последнее задание назад
+#define internal1_m486_MyFirstEnterFlag	 BUFFER[2985]	//(internal1_m486_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m486_MyFirstEnterFlag	 898	//(internal1_m486_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m387_X00	 BUFFER[2987]	//(internal1_m387_X00)  X00 - текущая координата механизма
+#define idinternal1_m387_X00	 899	//(internal1_m387_X00)  X00 - текущая координата механизма
+#define internal1_m387_V00	 BUFFER[2992]	//(internal1_m387_V00)  V00 - текущая скорость механизма
+#define idinternal1_m387_V00	 900	//(internal1_m387_V00)  V00 - текущая скорость механизма
+#define internal1_m387_Pav0	 BUFFER[2997]	//(internal1_m387_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m387_Pav0	 901	//(internal1_m387_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m387_Zav0	 BUFFER[2999]	//(internal1_m387_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m387_Zav0	 902	//(internal1_m387_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m387_Pv0	 BUFFER[3001]	//(internal1_m387_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m387_Pv0	 903	//(internal1_m387_Pv0)  - Пер. выключатель механизма
+#define internal1_m387_Zv0	 BUFFER[3003]	//(internal1_m387_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m387_Zv0	 904	//(internal1_m387_Zv0)  - Зад. выключатель механизма
+#define internal1_m387_RA00	 BUFFER[3005]	//(internal1_m387_RA00)  - последнее задание вперед
+#define idinternal1_m387_RA00	 905	//(internal1_m387_RA00)  - последнее задание вперед
+#define internal1_m387_RA10	 BUFFER[3007]	//(internal1_m387_RA10)  - последнее задание назад
+#define idinternal1_m387_RA10	 906	//(internal1_m387_RA10)  - последнее задание назад
+#define internal1_m387_MyFirstEnterFlag	 BUFFER[3009]	//(internal1_m387_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m387_MyFirstEnterFlag	 907	//(internal1_m387_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m372_X00	 BUFFER[3011]	//(internal1_m372_X00)  X00 - текущая координата механизма
+#define idinternal1_m372_X00	 908	//(internal1_m372_X00)  X00 - текущая координата механизма
+#define internal1_m372_V00	 BUFFER[3016]	//(internal1_m372_V00)  V00 - текущая скорость механизма
+#define idinternal1_m372_V00	 909	//(internal1_m372_V00)  V00 - текущая скорость механизма
+#define internal1_m372_Pav0	 BUFFER[3021]	//(internal1_m372_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m372_Pav0	 910	//(internal1_m372_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m372_Zav0	 BUFFER[3023]	//(internal1_m372_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m372_Zav0	 911	//(internal1_m372_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m372_Pv0	 BUFFER[3025]	//(internal1_m372_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m372_Pv0	 912	//(internal1_m372_Pv0)  - Пер. выключатель механизма
+#define internal1_m372_Zv0	 BUFFER[3027]	//(internal1_m372_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m372_Zv0	 913	//(internal1_m372_Zv0)  - Зад. выключатель механизма
+#define internal1_m372_RA00	 BUFFER[3029]	//(internal1_m372_RA00)  - последнее задание вперед
+#define idinternal1_m372_RA00	 914	//(internal1_m372_RA00)  - последнее задание вперед
+#define internal1_m372_RA10	 BUFFER[3031]	//(internal1_m372_RA10)  - последнее задание назад
+#define idinternal1_m372_RA10	 915	//(internal1_m372_RA10)  - последнее задание назад
+#define internal1_m372_MyFirstEnterFlag	 BUFFER[3033]	//(internal1_m372_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m372_MyFirstEnterFlag	 916	//(internal1_m372_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m356_X00	 BUFFER[3035]	//(internal1_m356_X00)  X00 - текущая координата механизма
+#define idinternal1_m356_X00	 917	//(internal1_m356_X00)  X00 - текущая координата механизма
+#define internal1_m356_V00	 BUFFER[3040]	//(internal1_m356_V00)  V00 - текущая скорость механизма
+#define idinternal1_m356_V00	 918	//(internal1_m356_V00)  V00 - текущая скорость механизма
+#define internal1_m356_Pav0	 BUFFER[3045]	//(internal1_m356_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m356_Pav0	 919	//(internal1_m356_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m356_Zav0	 BUFFER[3047]	//(internal1_m356_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m356_Zav0	 920	//(internal1_m356_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m356_Pv0	 BUFFER[3049]	//(internal1_m356_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m356_Pv0	 921	//(internal1_m356_Pv0)  - Пер. выключатель механизма
+#define internal1_m356_Zv0	 BUFFER[3051]	//(internal1_m356_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m356_Zv0	 922	//(internal1_m356_Zv0)  - Зад. выключатель механизма
+#define internal1_m356_RA00	 BUFFER[3053]	//(internal1_m356_RA00)  - последнее задание вперед
+#define idinternal1_m356_RA00	 923	//(internal1_m356_RA00)  - последнее задание вперед
+#define internal1_m356_RA10	 BUFFER[3055]	//(internal1_m356_RA10)  - последнее задание назад
+#define idinternal1_m356_RA10	 924	//(internal1_m356_RA10)  - последнее задание назад
+#define internal1_m356_MyFirstEnterFlag	 BUFFER[3057]	//(internal1_m356_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m356_MyFirstEnterFlag	 925	//(internal1_m356_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m884_X00	 BUFFER[3059]	//(internal1_m884_X00)  X00 - текущая координата механизма
 #define idinternal1_m884_X00	 926	//(internal1_m884_X00)  X00 - текущая координата механизма
 #define internal1_m884_V00	 BUFFER[3064]	//(internal1_m884_V00)  V00 - текущая скорость механизма
@@ -1878,182 +1878,182 @@ static char BUFFER[3443];
 #define idinternal1_m884_RA10	 933	//(internal1_m884_RA10)  - последнее задание назад
 #define internal1_m884_MyFirstEnterFlag	 BUFFER[3081]	//(internal1_m884_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m884_MyFirstEnterFlag	 934	//(internal1_m884_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m176_C1	 BUFFER[3083]	//(internal1_m176_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
-#define idinternal1_m176_C1	 935	//(internal1_m176_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
-#define internal1_m176_C2	 BUFFER[3088]	//(internal1_m176_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
-#define idinternal1_m176_C2	 936	//(internal1_m176_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
-#define internal1_m176_C3	 BUFFER[3093]	//(internal1_m176_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
-#define idinternal1_m176_C3	 937	//(internal1_m176_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
-#define internal1_m176_C4	 BUFFER[3098]	//(internal1_m176_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
-#define idinternal1_m176_C4	 938	//(internal1_m176_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
-#define internal1_m176_C5	 BUFFER[3103]	//(internal1_m176_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
-#define idinternal1_m176_C5	 939	//(internal1_m176_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
-#define internal1_m176_C6	 BUFFER[3108]	//(internal1_m176_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
-#define idinternal1_m176_C6	 940	//(internal1_m176_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
-#define internal1_m176_N20	 BUFFER[3113]	//(internal1_m176_N20) N20 - пред. концентрация нейтронов второй АЗ
-#define idinternal1_m176_N20	 941	//(internal1_m176_N20) N20 - пред. концентрация нейтронов второй АЗ
-#define internal1_m176_C0	 BUFFER[3118]	//(internal1_m176_C0) *C0 - пред. концентрация запаздывающих нейтронов
-#define idinternal1_m176_C0	 942	//(internal1_m176_C0) *C0 - пред. концентрация запаздывающих нейтронов
-#define internal1_m176_ImpINI0	 BUFFER[3148]	//(internal1_m176_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
-#define idinternal1_m176_ImpINI0	 943	//(internal1_m176_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
-#define internal1_m176_MyFirstEnterFlag	 BUFFER[3150]	//(internal1_m176_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m176_MyFirstEnterFlag	 944	//(internal1_m176_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m290_X00	 BUFFER[3152]	//(internal1_m290_X00) X0 - текущая координата ОРР
-#define idinternal1_m290_X00	 945	//(internal1_m290_X00) X0 - текущая координата ОРР
-#define internal1_m290_Sh00	 BUFFER[3157]	//(internal1_m290_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m290_Sh00	 946	//(internal1_m290_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m290_RV00	 BUFFER[3162]	//(internal1_m290_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m290_RV00	 947	//(internal1_m290_RV00) V0 - текущая скорость ОРР
-#define internal1_m290_ShV00	 BUFFER[3167]	//(internal1_m290_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m290_ShV00	 948	//(internal1_m290_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m290_Ppv0	 BUFFER[3172]	//(internal1_m290_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m290_Ppv0	 949	//(internal1_m290_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m290_Pav0	 BUFFER[3174]	//(internal1_m290_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m290_Pav0	 950	//(internal1_m290_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m290_Zav0	 BUFFER[3176]	//(internal1_m290_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m290_Zav0	 951	//(internal1_m290_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m290_RA00	 BUFFER[3178]	//(internal1_m290_RA00) RA00 - последнее задание вперед
-#define idinternal1_m290_RA00	 952	//(internal1_m290_RA00) RA00 - последнее задание вперед
-#define internal1_m290_RA10	 BUFFER[3180]	//(internal1_m290_RA10) RA10 - последнее задание назад
-#define idinternal1_m290_RA10	 953	//(internal1_m290_RA10) RA10 - последнее задание назад
-#define internal1_m290_RA50	 BUFFER[3182]	//(internal1_m290_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m290_RA50	 954	//(internal1_m290_RA50) Ra50 - последнее задание скорости
-#define internal1_m290_fls	 BUFFER[3183]	//(internal1_m290_fls)  fls - флаг одношагового режима
-#define idinternal1_m290_fls	 955	//(internal1_m290_fls)  fls - флаг одношагового режима
-#define internal1_m290_flp	 BUFFER[3185]	//(internal1_m290_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m290_flp	 956	//(internal1_m290_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m290_MyFirstEnterFlag	 BUFFER[3187]	//(internal1_m290_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m290_MyFirstEnterFlag	 957	//(internal1_m290_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m126_X00	 BUFFER[3189]	//(internal1_m126_X00) X0 - текущая координата ОРР
-#define idinternal1_m126_X00	 958	//(internal1_m126_X00) X0 - текущая координата ОРР
-#define internal1_m126_Sh00	 BUFFER[3194]	//(internal1_m126_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m126_Sh00	 959	//(internal1_m126_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m126_RV00	 BUFFER[3199]	//(internal1_m126_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m126_RV00	 960	//(internal1_m126_RV00) V0 - текущая скорость ОРР
-#define internal1_m126_ShV00	 BUFFER[3204]	//(internal1_m126_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m126_ShV00	 961	//(internal1_m126_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m126_Ppv0	 BUFFER[3209]	//(internal1_m126_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m126_Ppv0	 962	//(internal1_m126_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m126_Pav0	 BUFFER[3211]	//(internal1_m126_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m126_Pav0	 963	//(internal1_m126_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m126_Zav0	 BUFFER[3213]	//(internal1_m126_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m126_Zav0	 964	//(internal1_m126_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m126_RA00	 BUFFER[3215]	//(internal1_m126_RA00) RA00 - последнее задание вперед
-#define idinternal1_m126_RA00	 965	//(internal1_m126_RA00) RA00 - последнее задание вперед
-#define internal1_m126_RA10	 BUFFER[3217]	//(internal1_m126_RA10) RA10 - последнее задание назад
-#define idinternal1_m126_RA10	 966	//(internal1_m126_RA10) RA10 - последнее задание назад
-#define internal1_m126_RA50	 BUFFER[3219]	//(internal1_m126_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m126_RA50	 967	//(internal1_m126_RA50) Ra50 - последнее задание скорости
-#define internal1_m126_fls	 BUFFER[3220]	//(internal1_m126_fls)  fls - флаг одношагового режима
-#define idinternal1_m126_fls	 968	//(internal1_m126_fls)  fls - флаг одношагового режима
-#define internal1_m126_flp	 BUFFER[3222]	//(internal1_m126_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m126_flp	 969	//(internal1_m126_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m126_MyFirstEnterFlag	 BUFFER[3224]	//(internal1_m126_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m126_MyFirstEnterFlag	 970	//(internal1_m126_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m258_X00	 BUFFER[3226]	//(internal1_m258_X00) X0 - текущая координата ОРР
-#define idinternal1_m258_X00	 971	//(internal1_m258_X00) X0 - текущая координата ОРР
-#define internal1_m258_Sh00	 BUFFER[3231]	//(internal1_m258_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m258_Sh00	 972	//(internal1_m258_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m258_RV00	 BUFFER[3236]	//(internal1_m258_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m258_RV00	 973	//(internal1_m258_RV00) V0 - текущая скорость ОРР
-#define internal1_m258_ShV00	 BUFFER[3241]	//(internal1_m258_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m258_ShV00	 974	//(internal1_m258_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m258_Ppv0	 BUFFER[3246]	//(internal1_m258_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m258_Ppv0	 975	//(internal1_m258_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m258_Pav0	 BUFFER[3248]	//(internal1_m258_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m258_Pav0	 976	//(internal1_m258_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m258_Zav0	 BUFFER[3250]	//(internal1_m258_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m258_Zav0	 977	//(internal1_m258_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m258_RA00	 BUFFER[3252]	//(internal1_m258_RA00) RA00 - последнее задание вперед
-#define idinternal1_m258_RA00	 978	//(internal1_m258_RA00) RA00 - последнее задание вперед
-#define internal1_m258_RA10	 BUFFER[3254]	//(internal1_m258_RA10) RA10 - последнее задание назад
-#define idinternal1_m258_RA10	 979	//(internal1_m258_RA10) RA10 - последнее задание назад
-#define internal1_m258_RA50	 BUFFER[3256]	//(internal1_m258_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m258_RA50	 980	//(internal1_m258_RA50) Ra50 - последнее задание скорости
-#define internal1_m258_fls	 BUFFER[3257]	//(internal1_m258_fls)  fls - флаг одношагового режима
-#define idinternal1_m258_fls	 981	//(internal1_m258_fls)  fls - флаг одношагового режима
-#define internal1_m258_flp	 BUFFER[3259]	//(internal1_m258_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m258_flp	 982	//(internal1_m258_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m258_MyFirstEnterFlag	 BUFFER[3261]	//(internal1_m258_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m258_MyFirstEnterFlag	 983	//(internal1_m258_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m97_X00	 BUFFER[3263]	//(internal1_m97_X00) X0 - текущая координата ОРР
-#define idinternal1_m97_X00	 984	//(internal1_m97_X00) X0 - текущая координата ОРР
-#define internal1_m97_Sh00	 BUFFER[3268]	//(internal1_m97_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m97_Sh00	 985	//(internal1_m97_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m97_RV00	 BUFFER[3273]	//(internal1_m97_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m97_RV00	 986	//(internal1_m97_RV00) V0 - текущая скорость ОРР
-#define internal1_m97_ShV00	 BUFFER[3278]	//(internal1_m97_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m97_ShV00	 987	//(internal1_m97_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m97_Ppv0	 BUFFER[3283]	//(internal1_m97_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m97_Ppv0	 988	//(internal1_m97_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m97_Pav0	 BUFFER[3285]	//(internal1_m97_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m97_Pav0	 989	//(internal1_m97_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m97_Zav0	 BUFFER[3287]	//(internal1_m97_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m97_Zav0	 990	//(internal1_m97_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m97_RA00	 BUFFER[3289]	//(internal1_m97_RA00) RA00 - последнее задание вперед
-#define idinternal1_m97_RA00	 991	//(internal1_m97_RA00) RA00 - последнее задание вперед
-#define internal1_m97_RA10	 BUFFER[3291]	//(internal1_m97_RA10) RA10 - последнее задание назад
-#define idinternal1_m97_RA10	 992	//(internal1_m97_RA10) RA10 - последнее задание назад
-#define internal1_m97_RA50	 BUFFER[3293]	//(internal1_m97_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m97_RA50	 993	//(internal1_m97_RA50) Ra50 - последнее задание скорости
-#define internal1_m97_fls	 BUFFER[3294]	//(internal1_m97_fls)  fls - флаг одношагового режима
-#define idinternal1_m97_fls	 994	//(internal1_m97_fls)  fls - флаг одношагового режима
-#define internal1_m97_flp	 BUFFER[3296]	//(internal1_m97_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m97_flp	 995	//(internal1_m97_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m97_MyFirstEnterFlag	 BUFFER[3298]	//(internal1_m97_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m97_MyFirstEnterFlag	 996	//(internal1_m97_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m223_X00	 BUFFER[3300]	//(internal1_m223_X00) X0 - текущая координата ОРР
-#define idinternal1_m223_X00	 997	//(internal1_m223_X00) X0 - текущая координата ОРР
-#define internal1_m223_Sh00	 BUFFER[3305]	//(internal1_m223_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m223_Sh00	 998	//(internal1_m223_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m223_RV00	 BUFFER[3310]	//(internal1_m223_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m223_RV00	 999	//(internal1_m223_RV00) V0 - текущая скорость ОРР
-#define internal1_m223_ShV00	 BUFFER[3315]	//(internal1_m223_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m223_ShV00	 1000	//(internal1_m223_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m223_Ppv0	 BUFFER[3320]	//(internal1_m223_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m223_Ppv0	 1001	//(internal1_m223_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m223_Pav0	 BUFFER[3322]	//(internal1_m223_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m223_Pav0	 1002	//(internal1_m223_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m223_Zav0	 BUFFER[3324]	//(internal1_m223_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m223_Zav0	 1003	//(internal1_m223_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m223_RA00	 BUFFER[3326]	//(internal1_m223_RA00) RA00 - последнее задание вперед
-#define idinternal1_m223_RA00	 1004	//(internal1_m223_RA00) RA00 - последнее задание вперед
-#define internal1_m223_RA10	 BUFFER[3328]	//(internal1_m223_RA10) RA10 - последнее задание назад
-#define idinternal1_m223_RA10	 1005	//(internal1_m223_RA10) RA10 - последнее задание назад
-#define internal1_m223_RA50	 BUFFER[3330]	//(internal1_m223_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m223_RA50	 1006	//(internal1_m223_RA50) Ra50 - последнее задание скорости
-#define internal1_m223_fls	 BUFFER[3331]	//(internal1_m223_fls)  fls - флаг одношагового режима
-#define idinternal1_m223_fls	 1007	//(internal1_m223_fls)  fls - флаг одношагового режима
-#define internal1_m223_flp	 BUFFER[3333]	//(internal1_m223_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m223_flp	 1008	//(internal1_m223_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m223_MyFirstEnterFlag	 BUFFER[3335]	//(internal1_m223_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m223_MyFirstEnterFlag	 1009	//(internal1_m223_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m61_X00	 BUFFER[3337]	//(internal1_m61_X00) X0 - текущая координата ОРР
-#define idinternal1_m61_X00	 1010	//(internal1_m61_X00) X0 - текущая координата ОРР
-#define internal1_m61_Sh00	 BUFFER[3342]	//(internal1_m61_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m61_Sh00	 1011	//(internal1_m61_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m61_RV00	 BUFFER[3347]	//(internal1_m61_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m61_RV00	 1012	//(internal1_m61_RV00) V0 - текущая скорость ОРР
-#define internal1_m61_ShV00	 BUFFER[3352]	//(internal1_m61_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m61_ShV00	 1013	//(internal1_m61_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m61_Ppv0	 BUFFER[3357]	//(internal1_m61_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m61_Ppv0	 1014	//(internal1_m61_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m61_Pav0	 BUFFER[3359]	//(internal1_m61_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m61_Pav0	 1015	//(internal1_m61_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m61_Zav0	 BUFFER[3361]	//(internal1_m61_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m61_Zav0	 1016	//(internal1_m61_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m61_RA00	 BUFFER[3363]	//(internal1_m61_RA00) RA00 - последнее задание вперед
-#define idinternal1_m61_RA00	 1017	//(internal1_m61_RA00) RA00 - последнее задание вперед
-#define internal1_m61_RA10	 BUFFER[3365]	//(internal1_m61_RA10) RA10 - последнее задание назад
-#define idinternal1_m61_RA10	 1018	//(internal1_m61_RA10) RA10 - последнее задание назад
-#define internal1_m61_RA50	 BUFFER[3367]	//(internal1_m61_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m61_RA50	 1019	//(internal1_m61_RA50) Ra50 - последнее задание скорости
-#define internal1_m61_fls	 BUFFER[3368]	//(internal1_m61_fls)  fls - флаг одношагового режима
-#define idinternal1_m61_fls	 1020	//(internal1_m61_fls)  fls - флаг одношагового режима
-#define internal1_m61_flp	 BUFFER[3370]	//(internal1_m61_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m61_flp	 1021	//(internal1_m61_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m61_MyFirstEnterFlag	 BUFFER[3372]	//(internal1_m61_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m61_MyFirstEnterFlag	 1022	//(internal1_m61_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m177_C1	 BUFFER[3083]	//(internal1_m177_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
+#define idinternal1_m177_C1	 935	//(internal1_m177_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
+#define internal1_m177_C2	 BUFFER[3088]	//(internal1_m177_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
+#define idinternal1_m177_C2	 936	//(internal1_m177_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
+#define internal1_m177_C3	 BUFFER[3093]	//(internal1_m177_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
+#define idinternal1_m177_C3	 937	//(internal1_m177_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
+#define internal1_m177_C4	 BUFFER[3098]	//(internal1_m177_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
+#define idinternal1_m177_C4	 938	//(internal1_m177_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
+#define internal1_m177_C5	 BUFFER[3103]	//(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
+#define idinternal1_m177_C5	 939	//(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
+#define internal1_m177_C6	 BUFFER[3108]	//(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
+#define idinternal1_m177_C6	 940	//(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
+#define internal1_m177_N20	 BUFFER[3113]	//(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ
+#define idinternal1_m177_N20	 941	//(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ
+#define internal1_m177_C0	 BUFFER[3118]	//(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов
+#define idinternal1_m177_C0	 942	//(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов
+#define internal1_m177_ImpINI0	 BUFFER[3148]	//(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
+#define idinternal1_m177_ImpINI0	 943	//(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
+#define internal1_m177_MyFirstEnterFlag	 BUFFER[3150]	//(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m177_MyFirstEnterFlag	 944	//(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m295_X00	 BUFFER[3152]	//(internal1_m295_X00) X0 - текущая координата ОРР
+#define idinternal1_m295_X00	 945	//(internal1_m295_X00) X0 - текущая координата ОРР
+#define internal1_m295_Sh00	 BUFFER[3157]	//(internal1_m295_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m295_Sh00	 946	//(internal1_m295_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m295_RV00	 BUFFER[3162]	//(internal1_m295_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m295_RV00	 947	//(internal1_m295_RV00) V0 - текущая скорость ОРР
+#define internal1_m295_ShV00	 BUFFER[3167]	//(internal1_m295_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m295_ShV00	 948	//(internal1_m295_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m295_Ppv0	 BUFFER[3172]	//(internal1_m295_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m295_Ppv0	 949	//(internal1_m295_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m295_Pav0	 BUFFER[3174]	//(internal1_m295_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m295_Pav0	 950	//(internal1_m295_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m295_Zav0	 BUFFER[3176]	//(internal1_m295_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m295_Zav0	 951	//(internal1_m295_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m295_RA00	 BUFFER[3178]	//(internal1_m295_RA00) RA00 - последнее задание вперед
+#define idinternal1_m295_RA00	 952	//(internal1_m295_RA00) RA00 - последнее задание вперед
+#define internal1_m295_RA10	 BUFFER[3180]	//(internal1_m295_RA10) RA10 - последнее задание назад
+#define idinternal1_m295_RA10	 953	//(internal1_m295_RA10) RA10 - последнее задание назад
+#define internal1_m295_RA50	 BUFFER[3182]	//(internal1_m295_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m295_RA50	 954	//(internal1_m295_RA50) Ra50 - последнее задание скорости
+#define internal1_m295_fls	 BUFFER[3183]	//(internal1_m295_fls)  fls - флаг одношагового режима
+#define idinternal1_m295_fls	 955	//(internal1_m295_fls)  fls - флаг одношагового режима
+#define internal1_m295_flp	 BUFFER[3185]	//(internal1_m295_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m295_flp	 956	//(internal1_m295_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m295_MyFirstEnterFlag	 BUFFER[3187]	//(internal1_m295_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m295_MyFirstEnterFlag	 957	//(internal1_m295_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m130_X00	 BUFFER[3189]	//(internal1_m130_X00) X0 - текущая координата ОРР
+#define idinternal1_m130_X00	 958	//(internal1_m130_X00) X0 - текущая координата ОРР
+#define internal1_m130_Sh00	 BUFFER[3194]	//(internal1_m130_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m130_Sh00	 959	//(internal1_m130_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m130_RV00	 BUFFER[3199]	//(internal1_m130_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m130_RV00	 960	//(internal1_m130_RV00) V0 - текущая скорость ОРР
+#define internal1_m130_ShV00	 BUFFER[3204]	//(internal1_m130_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m130_ShV00	 961	//(internal1_m130_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m130_Ppv0	 BUFFER[3209]	//(internal1_m130_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m130_Ppv0	 962	//(internal1_m130_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m130_Pav0	 BUFFER[3211]	//(internal1_m130_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m130_Pav0	 963	//(internal1_m130_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m130_Zav0	 BUFFER[3213]	//(internal1_m130_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m130_Zav0	 964	//(internal1_m130_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m130_RA00	 BUFFER[3215]	//(internal1_m130_RA00) RA00 - последнее задание вперед
+#define idinternal1_m130_RA00	 965	//(internal1_m130_RA00) RA00 - последнее задание вперед
+#define internal1_m130_RA10	 BUFFER[3217]	//(internal1_m130_RA10) RA10 - последнее задание назад
+#define idinternal1_m130_RA10	 966	//(internal1_m130_RA10) RA10 - последнее задание назад
+#define internal1_m130_RA50	 BUFFER[3219]	//(internal1_m130_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m130_RA50	 967	//(internal1_m130_RA50) Ra50 - последнее задание скорости
+#define internal1_m130_fls	 BUFFER[3220]	//(internal1_m130_fls)  fls - флаг одношагового режима
+#define idinternal1_m130_fls	 968	//(internal1_m130_fls)  fls - флаг одношагового режима
+#define internal1_m130_flp	 BUFFER[3222]	//(internal1_m130_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m130_flp	 969	//(internal1_m130_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m130_MyFirstEnterFlag	 BUFFER[3224]	//(internal1_m130_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m130_MyFirstEnterFlag	 970	//(internal1_m130_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m259_X00	 BUFFER[3226]	//(internal1_m259_X00) X0 - текущая координата ОРР
+#define idinternal1_m259_X00	 971	//(internal1_m259_X00) X0 - текущая координата ОРР
+#define internal1_m259_Sh00	 BUFFER[3231]	//(internal1_m259_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m259_Sh00	 972	//(internal1_m259_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m259_RV00	 BUFFER[3236]	//(internal1_m259_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m259_RV00	 973	//(internal1_m259_RV00) V0 - текущая скорость ОРР
+#define internal1_m259_ShV00	 BUFFER[3241]	//(internal1_m259_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m259_ShV00	 974	//(internal1_m259_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m259_Ppv0	 BUFFER[3246]	//(internal1_m259_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m259_Ppv0	 975	//(internal1_m259_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m259_Pav0	 BUFFER[3248]	//(internal1_m259_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m259_Pav0	 976	//(internal1_m259_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m259_Zav0	 BUFFER[3250]	//(internal1_m259_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m259_Zav0	 977	//(internal1_m259_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m259_RA00	 BUFFER[3252]	//(internal1_m259_RA00) RA00 - последнее задание вперед
+#define idinternal1_m259_RA00	 978	//(internal1_m259_RA00) RA00 - последнее задание вперед
+#define internal1_m259_RA10	 BUFFER[3254]	//(internal1_m259_RA10) RA10 - последнее задание назад
+#define idinternal1_m259_RA10	 979	//(internal1_m259_RA10) RA10 - последнее задание назад
+#define internal1_m259_RA50	 BUFFER[3256]	//(internal1_m259_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m259_RA50	 980	//(internal1_m259_RA50) Ra50 - последнее задание скорости
+#define internal1_m259_fls	 BUFFER[3257]	//(internal1_m259_fls)  fls - флаг одношагового режима
+#define idinternal1_m259_fls	 981	//(internal1_m259_fls)  fls - флаг одношагового режима
+#define internal1_m259_flp	 BUFFER[3259]	//(internal1_m259_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m259_flp	 982	//(internal1_m259_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m259_MyFirstEnterFlag	 BUFFER[3261]	//(internal1_m259_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m259_MyFirstEnterFlag	 983	//(internal1_m259_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m94_X00	 BUFFER[3263]	//(internal1_m94_X00) X0 - текущая координата ОРР
+#define idinternal1_m94_X00	 984	//(internal1_m94_X00) X0 - текущая координата ОРР
+#define internal1_m94_Sh00	 BUFFER[3268]	//(internal1_m94_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m94_Sh00	 985	//(internal1_m94_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m94_RV00	 BUFFER[3273]	//(internal1_m94_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m94_RV00	 986	//(internal1_m94_RV00) V0 - текущая скорость ОРР
+#define internal1_m94_ShV00	 BUFFER[3278]	//(internal1_m94_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m94_ShV00	 987	//(internal1_m94_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m94_Ppv0	 BUFFER[3283]	//(internal1_m94_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m94_Ppv0	 988	//(internal1_m94_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m94_Pav0	 BUFFER[3285]	//(internal1_m94_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m94_Pav0	 989	//(internal1_m94_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m94_Zav0	 BUFFER[3287]	//(internal1_m94_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m94_Zav0	 990	//(internal1_m94_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m94_RA00	 BUFFER[3289]	//(internal1_m94_RA00) RA00 - последнее задание вперед
+#define idinternal1_m94_RA00	 991	//(internal1_m94_RA00) RA00 - последнее задание вперед
+#define internal1_m94_RA10	 BUFFER[3291]	//(internal1_m94_RA10) RA10 - последнее задание назад
+#define idinternal1_m94_RA10	 992	//(internal1_m94_RA10) RA10 - последнее задание назад
+#define internal1_m94_RA50	 BUFFER[3293]	//(internal1_m94_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m94_RA50	 993	//(internal1_m94_RA50) Ra50 - последнее задание скорости
+#define internal1_m94_fls	 BUFFER[3294]	//(internal1_m94_fls)  fls - флаг одношагового режима
+#define idinternal1_m94_fls	 994	//(internal1_m94_fls)  fls - флаг одношагового режима
+#define internal1_m94_flp	 BUFFER[3296]	//(internal1_m94_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m94_flp	 995	//(internal1_m94_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m94_MyFirstEnterFlag	 BUFFER[3298]	//(internal1_m94_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m94_MyFirstEnterFlag	 996	//(internal1_m94_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m224_X00	 BUFFER[3300]	//(internal1_m224_X00) X0 - текущая координата ОРР
+#define idinternal1_m224_X00	 997	//(internal1_m224_X00) X0 - текущая координата ОРР
+#define internal1_m224_Sh00	 BUFFER[3305]	//(internal1_m224_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m224_Sh00	 998	//(internal1_m224_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m224_RV00	 BUFFER[3310]	//(internal1_m224_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m224_RV00	 999	//(internal1_m224_RV00) V0 - текущая скорость ОРР
+#define internal1_m224_ShV00	 BUFFER[3315]	//(internal1_m224_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m224_ShV00	 1000	//(internal1_m224_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m224_Ppv0	 BUFFER[3320]	//(internal1_m224_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m224_Ppv0	 1001	//(internal1_m224_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m224_Pav0	 BUFFER[3322]	//(internal1_m224_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m224_Pav0	 1002	//(internal1_m224_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m224_Zav0	 BUFFER[3324]	//(internal1_m224_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m224_Zav0	 1003	//(internal1_m224_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m224_RA00	 BUFFER[3326]	//(internal1_m224_RA00) RA00 - последнее задание вперед
+#define idinternal1_m224_RA00	 1004	//(internal1_m224_RA00) RA00 - последнее задание вперед
+#define internal1_m224_RA10	 BUFFER[3328]	//(internal1_m224_RA10) RA10 - последнее задание назад
+#define idinternal1_m224_RA10	 1005	//(internal1_m224_RA10) RA10 - последнее задание назад
+#define internal1_m224_RA50	 BUFFER[3330]	//(internal1_m224_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m224_RA50	 1006	//(internal1_m224_RA50) Ra50 - последнее задание скорости
+#define internal1_m224_fls	 BUFFER[3331]	//(internal1_m224_fls)  fls - флаг одношагового режима
+#define idinternal1_m224_fls	 1007	//(internal1_m224_fls)  fls - флаг одношагового режима
+#define internal1_m224_flp	 BUFFER[3333]	//(internal1_m224_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m224_flp	 1008	//(internal1_m224_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m224_MyFirstEnterFlag	 BUFFER[3335]	//(internal1_m224_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m224_MyFirstEnterFlag	 1009	//(internal1_m224_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m59_X00	 BUFFER[3337]	//(internal1_m59_X00) X0 - текущая координата ОРР
+#define idinternal1_m59_X00	 1010	//(internal1_m59_X00) X0 - текущая координата ОРР
+#define internal1_m59_Sh00	 BUFFER[3342]	//(internal1_m59_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m59_Sh00	 1011	//(internal1_m59_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m59_RV00	 BUFFER[3347]	//(internal1_m59_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m59_RV00	 1012	//(internal1_m59_RV00) V0 - текущая скорость ОРР
+#define internal1_m59_ShV00	 BUFFER[3352]	//(internal1_m59_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m59_ShV00	 1013	//(internal1_m59_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m59_Ppv0	 BUFFER[3357]	//(internal1_m59_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m59_Ppv0	 1014	//(internal1_m59_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m59_Pav0	 BUFFER[3359]	//(internal1_m59_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m59_Pav0	 1015	//(internal1_m59_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m59_Zav0	 BUFFER[3361]	//(internal1_m59_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m59_Zav0	 1016	//(internal1_m59_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m59_RA00	 BUFFER[3363]	//(internal1_m59_RA00) RA00 - последнее задание вперед
+#define idinternal1_m59_RA00	 1017	//(internal1_m59_RA00) RA00 - последнее задание вперед
+#define internal1_m59_RA10	 BUFFER[3365]	//(internal1_m59_RA10) RA10 - последнее задание назад
+#define idinternal1_m59_RA10	 1018	//(internal1_m59_RA10) RA10 - последнее задание назад
+#define internal1_m59_RA50	 BUFFER[3367]	//(internal1_m59_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m59_RA50	 1019	//(internal1_m59_RA50) Ra50 - последнее задание скорости
+#define internal1_m59_fls	 BUFFER[3368]	//(internal1_m59_fls)  fls - флаг одношагового режима
+#define idinternal1_m59_fls	 1020	//(internal1_m59_fls)  fls - флаг одношагового режима
+#define internal1_m59_flp	 BUFFER[3370]	//(internal1_m59_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m59_flp	 1021	//(internal1_m59_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m59_MyFirstEnterFlag	 BUFFER[3372]	//(internal1_m59_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m59_MyFirstEnterFlag	 1022	//(internal1_m59_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m14_C1	 BUFFER[3374]	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define idinternal1_m14_C1	 1023	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 #define internal1_m14_C2	 BUFFER[3379]	//(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
@@ -2163,20 +2163,20 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 85	,8	,1	, &R0IN02FI4},	//( - , SA4) Выход КНК15-1 Гц от ПТИ
 	{ 86	,8	,1	, &R0IN01FI3},	//( - , SA3) Выход СНМ-11 Гц от ПТИ
 	{ 87	,8	,1	, &R0IN01FI2},	//( - , SA2) Выход КНК15-1 Гц от ПТИ
-	{ 88	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
-	{ 89	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
-	{ 90	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
-	{ 91	,8	,1	, &B0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
-	{ 92	,8	,1	, &B0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
-	{ 93	,8	,1	, &B0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
-	{ 94	,8	,1	, &A0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
-	{ 95	,8	,1	, &A0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
-	{ 96	,8	,1	, &A0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
-	{ 97	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
-	{ 98	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
-	{ 99	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-	{ 100	,8	,1	, &lk2},	//( - , - ) 
-	{ 101	,8	,1	, &lk1},	//( - , - ) 
+	{ 88	,8	,1	, &krb2},	//( - , - ) 
+	{ 89	,8	,1	, &krb1},	//( - , - ) 
+	{ 90	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
+	{ 91	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
+	{ 92	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
+	{ 93	,8	,1	, &B0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2
+	{ 94	,8	,1	, &B0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2
+	{ 95	,8	,1	, &B0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2
+	{ 96	,8	,1	, &A0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1
+	{ 97	,8	,1	, &A0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1
+	{ 98	,8	,1	, &A0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1
+	{ 99	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
+	{ 100	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
+	{ 101	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 	{ 102	,3	,1	, &R0DEUMLSS},	//( - , SCM) Сигнал управления моделью
 	{ 103	,3	,1	, &R0MW11IP1},	//( - , SCM) Переключатель ВЫСТРЕЛ
 	{ 104	,3	,1	, &R0IS01FI0},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
@@ -2755,13 +2755,13 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 677	,1	,1	, &internal1_m665_Out10},	//(internal1_m665_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 678	,1	,1	, &internal1_m644_Out10},	//(internal1_m644_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 679	,1	,1	, &internal1_m643_Out10},	//(internal1_m643_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 680	,1	,1	, &internal1_m509_Out10},	//(internal1_m509_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 680	,1	,1	, &internal1_m510_Out10},	//(internal1_m510_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 681	,1	,1	, &internal1_m526_Out10},	//(internal1_m526_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 682	,1	,1	, &internal1_m396_Out10},	//(internal1_m396_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 683	,1	,1	, &internal1_m469_q0},	//(internal1_m469_q0) q0 - внутренний параметр
-	{ 684	,1	,1	, &internal1_m470_q0},	//(internal1_m470_q0) q0 - внутренний параметр
-	{ 685	,1	,1	, &internal1_m457_q0},	//(internal1_m457_q0) q0 - внутренний параметр
-	{ 686	,1	,1	, &internal1_m458_q0},	//(internal1_m458_q0) q0 - внутренний параметр
+	{ 682	,1	,1	, &internal1_m398_Out10},	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 683	,1	,1	, &internal1_m471_q0},	//(internal1_m471_q0) q0 - внутренний параметр
+	{ 684	,1	,1	, &internal1_m472_q0},	//(internal1_m472_q0) q0 - внутренний параметр
+	{ 685	,1	,1	, &internal1_m459_q0},	//(internal1_m459_q0) q0 - внутренний параметр
+	{ 686	,1	,1	, &internal1_m460_q0},	//(internal1_m460_q0) q0 - внутренний параметр
 	{ 687	,8	,1	, &internal1_m619_tx},	//(internal1_m619_tx) tx - время накопленное сек
 	{ 688	,18	,1	, &internal1_m619_y0},	//(internal1_m619_y0) y0
 	{ 689	,8	,1	, &internal1_m607_tx},	//(internal1_m607_tx) tx - время накопленное сек
@@ -2770,8 +2770,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 692	,18	,1	, &internal1_m595_y0},	//(internal1_m595_y0) y0
 	{ 693	,8	,1	, &internal1_m593_tx},	//(internal1_m593_tx) tx - время накопленное сек
 	{ 694	,18	,1	, &internal1_m593_y0},	//(internal1_m593_y0) y0
-	{ 695	,1	,1	, &internal1_m202_Out10},	//(internal1_m202_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 696	,1	,1	, &internal1_m220_Out10},	//(internal1_m220_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 695	,1	,1	, &internal1_m203_Out10},	//(internal1_m203_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 696	,1	,1	, &internal1_m221_Out10},	//(internal1_m221_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 697	,1	,1	, &internal1_m41_Out10},	//(internal1_m41_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 698	,1	,1	, &internal1_m56_Out10},	//(internal1_m56_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 699	,1	,1	, &internal1_m962_Out10},	//(internal1_m962_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -2809,10 +2809,10 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 731	,1	,1	, &internal1_m987_Out10},	//(internal1_m987_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 732	,1	,1	, &internal1_m972_Out10},	//(internal1_m972_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 733	,1	,1	, &internal1_m527_Out10},	//(internal1_m527_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 734	,8	,1	, &internal1_m406_Xtek0},	//(internal1_m406_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 735	,1	,1	, &internal1_m397_Out10},	//(internal1_m397_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 736	,1	,1	, &internal1_m399_Out10},	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 737	,1	,1	, &internal1_m398_Out10},	//(internal1_m398_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 734	,8	,1	, &internal1_m408_Xtek0},	//(internal1_m408_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 735	,1	,1	, &internal1_m399_Out10},	//(internal1_m399_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 736	,1	,1	, &internal1_m401_Out10},	//(internal1_m401_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 737	,1	,1	, &internal1_m400_Out10},	//(internal1_m400_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 738	,1	,1	, &internal1_m845_Out10},	//(internal1_m845_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 739	,1	,1	, &internal1_m846_Out10},	//(internal1_m846_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 740	,1	,1	, &internal1_m844_Out10},	//(internal1_m844_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -2830,56 +2830,56 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 752	,1	,1	, &internal1_m642_Out10},	//(internal1_m642_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 753	,1	,1	, &internal1_m661_Out10},	//(internal1_m661_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 754	,1	,1	, &internal1_m641_Out10},	//(internal1_m641_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 755	,1	,1	, &internal1_m327_Out10},	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 756	,1	,1	, &internal1_m326_Out10},	//(internal1_m326_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 757	,1	,1	, &internal1_m311_Out10},	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 758	,1	,1	, &internal1_m310_Out10},	//(internal1_m310_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 755	,1	,1	, &internal1_m329_Out10},	//(internal1_m329_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 756	,1	,1	, &internal1_m328_Out10},	//(internal1_m328_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 757	,1	,1	, &internal1_m313_Out10},	//(internal1_m313_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 758	,1	,1	, &internal1_m312_Out10},	//(internal1_m312_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 759	,1	,1	, &internal1_m544_Out10},	//(internal1_m544_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 760	,1	,1	, &internal1_m340_Out10},	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 761	,8	,1	, &internal1_m324_Xtek0},	//(internal1_m324_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 762	,1	,1	, &internal1_m339_Out10},	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 763	,1	,1	, &internal1_m337_Out10},	//(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 764	,8	,1	, &internal1_m317_Xtek0},	//(internal1_m317_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 765	,1	,1	, &internal1_m338_Out10},	//(internal1_m338_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 766	,1	,1	, &internal1_m309_Out10},	//(internal1_m309_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 767	,1	,1	, &internal1_m325_Out10},	//(internal1_m325_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 768	,1	,1	, &internal1_m418_Out10},	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 769	,8	,1	, &internal1_m419_Xtek0},	//(internal1_m419_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-	{ 770	,1	,1	, &internal1_m417_Out10},	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 771	,1	,1	, &internal1_m416_Out10},	//(internal1_m416_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 772	,1	,1	, &internal1_m415_Out10},	//(internal1_m415_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 760	,1	,1	, &internal1_m342_Out10},	//(internal1_m342_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 761	,8	,1	, &internal1_m326_Xtek0},	//(internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 762	,1	,1	, &internal1_m341_Out10},	//(internal1_m341_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 763	,1	,1	, &internal1_m339_Out10},	//(internal1_m339_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 764	,8	,1	, &internal1_m319_Xtek0},	//(internal1_m319_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 765	,1	,1	, &internal1_m340_Out10},	//(internal1_m340_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 766	,1	,1	, &internal1_m311_Out10},	//(internal1_m311_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 767	,1	,1	, &internal1_m327_Out10},	//(internal1_m327_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 768	,1	,1	, &internal1_m420_Out10},	//(internal1_m420_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 769	,8	,1	, &internal1_m421_Xtek0},	//(internal1_m421_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{ 770	,1	,1	, &internal1_m419_Out10},	//(internal1_m419_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 771	,1	,1	, &internal1_m418_Out10},	//(internal1_m418_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 772	,1	,1	, &internal1_m417_Out10},	//(internal1_m417_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{ 773	,1	,1	, &internal1_m1027_Out10},	//(internal1_m1027_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 774	,1	,1	, &internal1_m144_Out10},	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 775	,1	,1	, &internal1_m143_Out10},	//(internal1_m143_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{ 776	,3	,1	, &internal1_m191_tx},	//(internal1_m191_tx) tx - внутренний параметр
-	{ 777	,3	,1	, &internal1_m30_tx},	//(internal1_m30_tx) tx - внутренний параметр
-	{ 778	,8	,1	, &internal1_m461_X00},	//(internal1_m461_X00)  X00 - текущая координата механизма
-	{ 779	,8	,1	, &internal1_m461_V00},	//(internal1_m461_V00)  V00 - текущая скорость механизма
-	{ 780	,1	,1	, &internal1_m461_Pav0},	//(internal1_m461_Pav0)  - Пер.аварийный выключатель механизма
-	{ 781	,1	,1	, &internal1_m461_Zav0},	//(internal1_m461_Zav0)  - Зад.аварийный выключатель механизма
-	{ 782	,1	,1	, &internal1_m461_Pv0},	//(internal1_m461_Pv0)  - Пер. выключатель механизма
-	{ 783	,1	,1	, &internal1_m461_Zv0},	//(internal1_m461_Zv0)  - Зад. выключатель механизма
-	{ 784	,1	,1	, &internal1_m461_RA00},	//(internal1_m461_RA00)  - последнее задание вперед
-	{ 785	,1	,1	, &internal1_m461_RA10},	//(internal1_m461_RA10)  - последнее задание назад
-	{ 786	,1	,1	, &internal1_m461_MyFirstEnterFlag},	//(internal1_m461_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 787	,8	,1	, &internal1_m473_X00},	//(internal1_m473_X00)  X00 - текущая координата механизма
-	{ 788	,8	,1	, &internal1_m473_V00},	//(internal1_m473_V00)  V00 - текущая скорость механизма
-	{ 789	,1	,1	, &internal1_m473_Pav0},	//(internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
-	{ 790	,1	,1	, &internal1_m473_Zav0},	//(internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
-	{ 791	,1	,1	, &internal1_m473_Pv0},	//(internal1_m473_Pv0)  - Пер. выключатель механизма
-	{ 792	,1	,1	, &internal1_m473_Zv0},	//(internal1_m473_Zv0)  - Зад. выключатель механизма
-	{ 793	,1	,1	, &internal1_m473_RA00},	//(internal1_m473_RA00)  - последнее задание вперед
-	{ 794	,1	,1	, &internal1_m473_RA10},	//(internal1_m473_RA10)  - последнее задание назад
-	{ 795	,1	,1	, &internal1_m473_MyFirstEnterFlag},	//(internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 796	,8	,1	, &internal1_m463_X00},	//(internal1_m463_X00)  X00 - текущая координата механизма
-	{ 797	,8	,1	, &internal1_m463_V00},	//(internal1_m463_V00)  V00 - текущая скорость механизма
-	{ 798	,1	,1	, &internal1_m463_Pav0},	//(internal1_m463_Pav0)  - Пер.аварийный выключатель механизма
-	{ 799	,1	,1	, &internal1_m463_Zav0},	//(internal1_m463_Zav0)  - Зад.аварийный выключатель механизма
-	{ 800	,1	,1	, &internal1_m463_Pv0},	//(internal1_m463_Pv0)  - Пер. выключатель механизма
-	{ 801	,1	,1	, &internal1_m463_Zv0},	//(internal1_m463_Zv0)  - Зад. выключатель механизма
-	{ 802	,1	,1	, &internal1_m463_RA00},	//(internal1_m463_RA00)  - последнее задание вперед
-	{ 803	,1	,1	, &internal1_m463_RA10},	//(internal1_m463_RA10)  - последнее задание назад
-	{ 804	,1	,1	, &internal1_m463_MyFirstEnterFlag},	//(internal1_m463_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 774	,1	,1	, &internal1_m145_Out10},	//(internal1_m145_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 775	,1	,1	, &internal1_m144_Out10},	//(internal1_m144_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{ 776	,3	,1	, &internal1_m192_tx},	//(internal1_m192_tx) tx - внутренний параметр
+	{ 777	,3	,1	, &internal1_m25_tx},	//(internal1_m25_tx) tx - внутренний параметр
+	{ 778	,8	,1	, &internal1_m465_X00},	//(internal1_m465_X00)  X00 - текущая координата механизма
+	{ 779	,8	,1	, &internal1_m465_V00},	//(internal1_m465_V00)  V00 - текущая скорость механизма
+	{ 780	,1	,1	, &internal1_m465_Pav0},	//(internal1_m465_Pav0)  - Пер.аварийный выключатель механизма
+	{ 781	,1	,1	, &internal1_m465_Zav0},	//(internal1_m465_Zav0)  - Зад.аварийный выключатель механизма
+	{ 782	,1	,1	, &internal1_m465_Pv0},	//(internal1_m465_Pv0)  - Пер. выключатель механизма
+	{ 783	,1	,1	, &internal1_m465_Zv0},	//(internal1_m465_Zv0)  - Зад. выключатель механизма
+	{ 784	,1	,1	, &internal1_m465_RA00},	//(internal1_m465_RA00)  - последнее задание вперед
+	{ 785	,1	,1	, &internal1_m465_RA10},	//(internal1_m465_RA10)  - последнее задание назад
+	{ 786	,1	,1	, &internal1_m465_MyFirstEnterFlag},	//(internal1_m465_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 787	,8	,1	, &internal1_m475_X00},	//(internal1_m475_X00)  X00 - текущая координата механизма
+	{ 788	,8	,1	, &internal1_m475_V00},	//(internal1_m475_V00)  V00 - текущая скорость механизма
+	{ 789	,1	,1	, &internal1_m475_Pav0},	//(internal1_m475_Pav0)  - Пер.аварийный выключатель механизма
+	{ 790	,1	,1	, &internal1_m475_Zav0},	//(internal1_m475_Zav0)  - Зад.аварийный выключатель механизма
+	{ 791	,1	,1	, &internal1_m475_Pv0},	//(internal1_m475_Pv0)  - Пер. выключатель механизма
+	{ 792	,1	,1	, &internal1_m475_Zv0},	//(internal1_m475_Zv0)  - Зад. выключатель механизма
+	{ 793	,1	,1	, &internal1_m475_RA00},	//(internal1_m475_RA00)  - последнее задание вперед
+	{ 794	,1	,1	, &internal1_m475_RA10},	//(internal1_m475_RA10)  - последнее задание назад
+	{ 795	,1	,1	, &internal1_m475_MyFirstEnterFlag},	//(internal1_m475_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 796	,8	,1	, &internal1_m464_X00},	//(internal1_m464_X00)  X00 - текущая координата механизма
+	{ 797	,8	,1	, &internal1_m464_V00},	//(internal1_m464_V00)  V00 - текущая скорость механизма
+	{ 798	,1	,1	, &internal1_m464_Pav0},	//(internal1_m464_Pav0)  - Пер.аварийный выключатель механизма
+	{ 799	,1	,1	, &internal1_m464_Zav0},	//(internal1_m464_Zav0)  - Зад.аварийный выключатель механизма
+	{ 800	,1	,1	, &internal1_m464_Pv0},	//(internal1_m464_Pv0)  - Пер. выключатель механизма
+	{ 801	,1	,1	, &internal1_m464_Zv0},	//(internal1_m464_Zv0)  - Зад. выключатель механизма
+	{ 802	,1	,1	, &internal1_m464_RA00},	//(internal1_m464_RA00)  - последнее задание вперед
+	{ 803	,1	,1	, &internal1_m464_RA10},	//(internal1_m464_RA10)  - последнее задание назад
+	{ 804	,1	,1	, &internal1_m464_MyFirstEnterFlag},	//(internal1_m464_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 805	,8	,1	, &internal1_m598_X00},	//(internal1_m598_X00)  X00 - текущая координата механизма
 	{ 806	,8	,1	, &internal1_m598_V00},	//(internal1_m598_V00)  V00 - текущая скорость механизма
 	{ 807	,1	,1	, &internal1_m598_Pav0},	//(internal1_m598_Pav0)  - Пер.аварийный выключатель механизма
@@ -2947,60 +2947,60 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 869	,1	,1	, &internal1_m558_RA00},	//(internal1_m558_RA00)  - последнее задание вперед
 	{ 870	,1	,1	, &internal1_m558_RA10},	//(internal1_m558_RA10)  - последнее задание назад
 	{ 871	,1	,1	, &internal1_m558_MyFirstEnterFlag},	//(internal1_m558_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 872	,8	,1	, &internal1_m447_X00},	//(internal1_m447_X00)  X00 - текущая координата механизма
-	{ 873	,8	,1	, &internal1_m447_V00},	//(internal1_m447_V00)  V00 - текущая скорость механизма
-	{ 874	,1	,1	, &internal1_m447_Pav0},	//(internal1_m447_Pav0)  - Пер.аварийный выключатель механизма
-	{ 875	,1	,1	, &internal1_m447_Zav0},	//(internal1_m447_Zav0)  - Зад.аварийный выключатель механизма
-	{ 876	,1	,1	, &internal1_m447_Pv0},	//(internal1_m447_Pv0)  - Пер. выключатель механизма
-	{ 877	,1	,1	, &internal1_m447_Zv0},	//(internal1_m447_Zv0)  - Зад. выключатель механизма
-	{ 878	,1	,1	, &internal1_m447_RA00},	//(internal1_m447_RA00)  - последнее задание вперед
-	{ 879	,1	,1	, &internal1_m447_RA10},	//(internal1_m447_RA10)  - последнее задание назад
-	{ 880	,1	,1	, &internal1_m447_MyFirstEnterFlag},	//(internal1_m447_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 881	,8	,1	, &internal1_m433_X00},	//(internal1_m433_X00)  X00 - текущая координата механизма
-	{ 882	,8	,1	, &internal1_m433_V00},	//(internal1_m433_V00)  V00 - текущая скорость механизма
-	{ 883	,1	,1	, &internal1_m433_Pav0},	//(internal1_m433_Pav0)  - Пер.аварийный выключатель механизма
-	{ 884	,1	,1	, &internal1_m433_Zav0},	//(internal1_m433_Zav0)  - Зад.аварийный выключатель механизма
-	{ 885	,1	,1	, &internal1_m433_Pv0},	//(internal1_m433_Pv0)  - Пер. выключатель механизма
-	{ 886	,1	,1	, &internal1_m433_Zv0},	//(internal1_m433_Zv0)  - Зад. выключатель механизма
-	{ 887	,1	,1	, &internal1_m433_RA00},	//(internal1_m433_RA00)  - последнее задание вперед
-	{ 888	,1	,1	, &internal1_m433_RA10},	//(internal1_m433_RA10)  - последнее задание назад
-	{ 889	,1	,1	, &internal1_m433_MyFirstEnterFlag},	//(internal1_m433_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 890	,8	,1	, &internal1_m484_X00},	//(internal1_m484_X00)  X00 - текущая координата механизма
-	{ 891	,8	,1	, &internal1_m484_V00},	//(internal1_m484_V00)  V00 - текущая скорость механизма
-	{ 892	,1	,1	, &internal1_m484_Pav0},	//(internal1_m484_Pav0)  - Пер.аварийный выключатель механизма
-	{ 893	,1	,1	, &internal1_m484_Zav0},	//(internal1_m484_Zav0)  - Зад.аварийный выключатель механизма
-	{ 894	,1	,1	, &internal1_m484_Pv0},	//(internal1_m484_Pv0)  - Пер. выключатель механизма
-	{ 895	,1	,1	, &internal1_m484_Zv0},	//(internal1_m484_Zv0)  - Зад. выключатель механизма
-	{ 896	,1	,1	, &internal1_m484_RA00},	//(internal1_m484_RA00)  - последнее задание вперед
-	{ 897	,1	,1	, &internal1_m484_RA10},	//(internal1_m484_RA10)  - последнее задание назад
-	{ 898	,1	,1	, &internal1_m484_MyFirstEnterFlag},	//(internal1_m484_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 899	,8	,1	, &internal1_m385_X00},	//(internal1_m385_X00)  X00 - текущая координата механизма
-	{ 900	,8	,1	, &internal1_m385_V00},	//(internal1_m385_V00)  V00 - текущая скорость механизма
-	{ 901	,1	,1	, &internal1_m385_Pav0},	//(internal1_m385_Pav0)  - Пер.аварийный выключатель механизма
-	{ 902	,1	,1	, &internal1_m385_Zav0},	//(internal1_m385_Zav0)  - Зад.аварийный выключатель механизма
-	{ 903	,1	,1	, &internal1_m385_Pv0},	//(internal1_m385_Pv0)  - Пер. выключатель механизма
-	{ 904	,1	,1	, &internal1_m385_Zv0},	//(internal1_m385_Zv0)  - Зад. выключатель механизма
-	{ 905	,1	,1	, &internal1_m385_RA00},	//(internal1_m385_RA00)  - последнее задание вперед
-	{ 906	,1	,1	, &internal1_m385_RA10},	//(internal1_m385_RA10)  - последнее задание назад
-	{ 907	,1	,1	, &internal1_m385_MyFirstEnterFlag},	//(internal1_m385_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 908	,8	,1	, &internal1_m370_X00},	//(internal1_m370_X00)  X00 - текущая координата механизма
-	{ 909	,8	,1	, &internal1_m370_V00},	//(internal1_m370_V00)  V00 - текущая скорость механизма
-	{ 910	,1	,1	, &internal1_m370_Pav0},	//(internal1_m370_Pav0)  - Пер.аварийный выключатель механизма
-	{ 911	,1	,1	, &internal1_m370_Zav0},	//(internal1_m370_Zav0)  - Зад.аварийный выключатель механизма
-	{ 912	,1	,1	, &internal1_m370_Pv0},	//(internal1_m370_Pv0)  - Пер. выключатель механизма
-	{ 913	,1	,1	, &internal1_m370_Zv0},	//(internal1_m370_Zv0)  - Зад. выключатель механизма
-	{ 914	,1	,1	, &internal1_m370_RA00},	//(internal1_m370_RA00)  - последнее задание вперед
-	{ 915	,1	,1	, &internal1_m370_RA10},	//(internal1_m370_RA10)  - последнее задание назад
-	{ 916	,1	,1	, &internal1_m370_MyFirstEnterFlag},	//(internal1_m370_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 917	,8	,1	, &internal1_m354_X00},	//(internal1_m354_X00)  X00 - текущая координата механизма
-	{ 918	,8	,1	, &internal1_m354_V00},	//(internal1_m354_V00)  V00 - текущая скорость механизма
-	{ 919	,1	,1	, &internal1_m354_Pav0},	//(internal1_m354_Pav0)  - Пер.аварийный выключатель механизма
-	{ 920	,1	,1	, &internal1_m354_Zav0},	//(internal1_m354_Zav0)  - Зад.аварийный выключатель механизма
-	{ 921	,1	,1	, &internal1_m354_Pv0},	//(internal1_m354_Pv0)  - Пер. выключатель механизма
-	{ 922	,1	,1	, &internal1_m354_Zv0},	//(internal1_m354_Zv0)  - Зад. выключатель механизма
-	{ 923	,1	,1	, &internal1_m354_RA00},	//(internal1_m354_RA00)  - последнее задание вперед
-	{ 924	,1	,1	, &internal1_m354_RA10},	//(internal1_m354_RA10)  - последнее задание назад
-	{ 925	,1	,1	, &internal1_m354_MyFirstEnterFlag},	//(internal1_m354_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 872	,8	,1	, &internal1_m449_X00},	//(internal1_m449_X00)  X00 - текущая координата механизма
+	{ 873	,8	,1	, &internal1_m449_V00},	//(internal1_m449_V00)  V00 - текущая скорость механизма
+	{ 874	,1	,1	, &internal1_m449_Pav0},	//(internal1_m449_Pav0)  - Пер.аварийный выключатель механизма
+	{ 875	,1	,1	, &internal1_m449_Zav0},	//(internal1_m449_Zav0)  - Зад.аварийный выключатель механизма
+	{ 876	,1	,1	, &internal1_m449_Pv0},	//(internal1_m449_Pv0)  - Пер. выключатель механизма
+	{ 877	,1	,1	, &internal1_m449_Zv0},	//(internal1_m449_Zv0)  - Зад. выключатель механизма
+	{ 878	,1	,1	, &internal1_m449_RA00},	//(internal1_m449_RA00)  - последнее задание вперед
+	{ 879	,1	,1	, &internal1_m449_RA10},	//(internal1_m449_RA10)  - последнее задание назад
+	{ 880	,1	,1	, &internal1_m449_MyFirstEnterFlag},	//(internal1_m449_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 881	,8	,1	, &internal1_m435_X00},	//(internal1_m435_X00)  X00 - текущая координата механизма
+	{ 882	,8	,1	, &internal1_m435_V00},	//(internal1_m435_V00)  V00 - текущая скорость механизма
+	{ 883	,1	,1	, &internal1_m435_Pav0},	//(internal1_m435_Pav0)  - Пер.аварийный выключатель механизма
+	{ 884	,1	,1	, &internal1_m435_Zav0},	//(internal1_m435_Zav0)  - Зад.аварийный выключатель механизма
+	{ 885	,1	,1	, &internal1_m435_Pv0},	//(internal1_m435_Pv0)  - Пер. выключатель механизма
+	{ 886	,1	,1	, &internal1_m435_Zv0},	//(internal1_m435_Zv0)  - Зад. выключатель механизма
+	{ 887	,1	,1	, &internal1_m435_RA00},	//(internal1_m435_RA00)  - последнее задание вперед
+	{ 888	,1	,1	, &internal1_m435_RA10},	//(internal1_m435_RA10)  - последнее задание назад
+	{ 889	,1	,1	, &internal1_m435_MyFirstEnterFlag},	//(internal1_m435_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 890	,8	,1	, &internal1_m486_X00},	//(internal1_m486_X00)  X00 - текущая координата механизма
+	{ 891	,8	,1	, &internal1_m486_V00},	//(internal1_m486_V00)  V00 - текущая скорость механизма
+	{ 892	,1	,1	, &internal1_m486_Pav0},	//(internal1_m486_Pav0)  - Пер.аварийный выключатель механизма
+	{ 893	,1	,1	, &internal1_m486_Zav0},	//(internal1_m486_Zav0)  - Зад.аварийный выключатель механизма
+	{ 894	,1	,1	, &internal1_m486_Pv0},	//(internal1_m486_Pv0)  - Пер. выключатель механизма
+	{ 895	,1	,1	, &internal1_m486_Zv0},	//(internal1_m486_Zv0)  - Зад. выключатель механизма
+	{ 896	,1	,1	, &internal1_m486_RA00},	//(internal1_m486_RA00)  - последнее задание вперед
+	{ 897	,1	,1	, &internal1_m486_RA10},	//(internal1_m486_RA10)  - последнее задание назад
+	{ 898	,1	,1	, &internal1_m486_MyFirstEnterFlag},	//(internal1_m486_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 899	,8	,1	, &internal1_m387_X00},	//(internal1_m387_X00)  X00 - текущая координата механизма
+	{ 900	,8	,1	, &internal1_m387_V00},	//(internal1_m387_V00)  V00 - текущая скорость механизма
+	{ 901	,1	,1	, &internal1_m387_Pav0},	//(internal1_m387_Pav0)  - Пер.аварийный выключатель механизма
+	{ 902	,1	,1	, &internal1_m387_Zav0},	//(internal1_m387_Zav0)  - Зад.аварийный выключатель механизма
+	{ 903	,1	,1	, &internal1_m387_Pv0},	//(internal1_m387_Pv0)  - Пер. выключатель механизма
+	{ 904	,1	,1	, &internal1_m387_Zv0},	//(internal1_m387_Zv0)  - Зад. выключатель механизма
+	{ 905	,1	,1	, &internal1_m387_RA00},	//(internal1_m387_RA00)  - последнее задание вперед
+	{ 906	,1	,1	, &internal1_m387_RA10},	//(internal1_m387_RA10)  - последнее задание назад
+	{ 907	,1	,1	, &internal1_m387_MyFirstEnterFlag},	//(internal1_m387_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 908	,8	,1	, &internal1_m372_X00},	//(internal1_m372_X00)  X00 - текущая координата механизма
+	{ 909	,8	,1	, &internal1_m372_V00},	//(internal1_m372_V00)  V00 - текущая скорость механизма
+	{ 910	,1	,1	, &internal1_m372_Pav0},	//(internal1_m372_Pav0)  - Пер.аварийный выключатель механизма
+	{ 911	,1	,1	, &internal1_m372_Zav0},	//(internal1_m372_Zav0)  - Зад.аварийный выключатель механизма
+	{ 912	,1	,1	, &internal1_m372_Pv0},	//(internal1_m372_Pv0)  - Пер. выключатель механизма
+	{ 913	,1	,1	, &internal1_m372_Zv0},	//(internal1_m372_Zv0)  - Зад. выключатель механизма
+	{ 914	,1	,1	, &internal1_m372_RA00},	//(internal1_m372_RA00)  - последнее задание вперед
+	{ 915	,1	,1	, &internal1_m372_RA10},	//(internal1_m372_RA10)  - последнее задание назад
+	{ 916	,1	,1	, &internal1_m372_MyFirstEnterFlag},	//(internal1_m372_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 917	,8	,1	, &internal1_m356_X00},	//(internal1_m356_X00)  X00 - текущая координата механизма
+	{ 918	,8	,1	, &internal1_m356_V00},	//(internal1_m356_V00)  V00 - текущая скорость механизма
+	{ 919	,1	,1	, &internal1_m356_Pav0},	//(internal1_m356_Pav0)  - Пер.аварийный выключатель механизма
+	{ 920	,1	,1	, &internal1_m356_Zav0},	//(internal1_m356_Zav0)  - Зад.аварийный выключатель механизма
+	{ 921	,1	,1	, &internal1_m356_Pv0},	//(internal1_m356_Pv0)  - Пер. выключатель механизма
+	{ 922	,1	,1	, &internal1_m356_Zv0},	//(internal1_m356_Zv0)  - Зад. выключатель механизма
+	{ 923	,1	,1	, &internal1_m356_RA00},	//(internal1_m356_RA00)  - последнее задание вперед
+	{ 924	,1	,1	, &internal1_m356_RA10},	//(internal1_m356_RA10)  - последнее задание назад
+	{ 925	,1	,1	, &internal1_m356_MyFirstEnterFlag},	//(internal1_m356_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 926	,8	,1	, &internal1_m884_X00},	//(internal1_m884_X00)  X00 - текущая координата механизма
 	{ 927	,8	,1	, &internal1_m884_V00},	//(internal1_m884_V00)  V00 - текущая скорость механизма
 	{ 928	,1	,1	, &internal1_m884_Pav0},	//(internal1_m884_Pav0)  - Пер.аварийный выключатель механизма
@@ -3010,94 +3010,94 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 932	,1	,1	, &internal1_m884_RA00},	//(internal1_m884_RA00)  - последнее задание вперед
 	{ 933	,1	,1	, &internal1_m884_RA10},	//(internal1_m884_RA10)  - последнее задание назад
 	{ 934	,1	,1	, &internal1_m884_MyFirstEnterFlag},	//(internal1_m884_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 935	,8	,1	, &internal1_m176_C1},	//(internal1_m176_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
-	{ 936	,8	,1	, &internal1_m176_C2},	//(internal1_m176_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
-	{ 937	,8	,1	, &internal1_m176_C3},	//(internal1_m176_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
-	{ 938	,8	,1	, &internal1_m176_C4},	//(internal1_m176_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
-	{ 939	,8	,1	, &internal1_m176_C5},	//(internal1_m176_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
-	{ 940	,8	,1	, &internal1_m176_C6},	//(internal1_m176_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
-	{ 941	,8	,1	, &internal1_m176_N20},	//(internal1_m176_N20) N20 - пред. концентрация нейтронов второй АЗ
-	{ 942	,8	,6	, &internal1_m176_C0},	//(internal1_m176_C0) *C0 - пред. концентрация запаздывающих нейтронов
-	{ 943	,1	,1	, &internal1_m176_ImpINI0},	//(internal1_m176_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
-	{ 944	,1	,1	, &internal1_m176_MyFirstEnterFlag},	//(internal1_m176_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 945	,8	,1	, &internal1_m290_X00},	//(internal1_m290_X00) X0 - текущая координата ОРР
-	{ 946	,8	,1	, &internal1_m290_Sh00},	//(internal1_m290_Sh00) Sh0 - текущая координата штока ОРР
-	{ 947	,8	,1	, &internal1_m290_RV00},	//(internal1_m290_RV00) V0 - текущая скорость ОРР
-	{ 948	,8	,1	, &internal1_m290_ShV00},	//(internal1_m290_ShV00) V0 - текущая скорость штока ОРР
-	{ 949	,1	,1	, &internal1_m290_Ppv0},	//(internal1_m290_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 950	,1	,1	, &internal1_m290_Pav0},	//(internal1_m290_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 951	,1	,1	, &internal1_m290_Zav0},	//(internal1_m290_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 952	,1	,1	, &internal1_m290_RA00},	//(internal1_m290_RA00) RA00 - последнее задание вперед
-	{ 953	,1	,1	, &internal1_m290_RA10},	//(internal1_m290_RA10) RA10 - последнее задание назад
-	{ 954	,18	,1	, &internal1_m290_RA50},	//(internal1_m290_RA50) Ra50 - последнее задание скорости
-	{ 955	,1	,1	, &internal1_m290_fls},	//(internal1_m290_fls)  fls - флаг одношагового режима
-	{ 956	,1	,1	, &internal1_m290_flp},	//(internal1_m290_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 957	,1	,1	, &internal1_m290_MyFirstEnterFlag},	//(internal1_m290_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 958	,8	,1	, &internal1_m126_X00},	//(internal1_m126_X00) X0 - текущая координата ОРР
-	{ 959	,8	,1	, &internal1_m126_Sh00},	//(internal1_m126_Sh00) Sh0 - текущая координата штока ОРР
-	{ 960	,8	,1	, &internal1_m126_RV00},	//(internal1_m126_RV00) V0 - текущая скорость ОРР
-	{ 961	,8	,1	, &internal1_m126_ShV00},	//(internal1_m126_ShV00) V0 - текущая скорость штока ОРР
-	{ 962	,1	,1	, &internal1_m126_Ppv0},	//(internal1_m126_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 963	,1	,1	, &internal1_m126_Pav0},	//(internal1_m126_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 964	,1	,1	, &internal1_m126_Zav0},	//(internal1_m126_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 965	,1	,1	, &internal1_m126_RA00},	//(internal1_m126_RA00) RA00 - последнее задание вперед
-	{ 966	,1	,1	, &internal1_m126_RA10},	//(internal1_m126_RA10) RA10 - последнее задание назад
-	{ 967	,18	,1	, &internal1_m126_RA50},	//(internal1_m126_RA50) Ra50 - последнее задание скорости
-	{ 968	,1	,1	, &internal1_m126_fls},	//(internal1_m126_fls)  fls - флаг одношагового режима
-	{ 969	,1	,1	, &internal1_m126_flp},	//(internal1_m126_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 970	,1	,1	, &internal1_m126_MyFirstEnterFlag},	//(internal1_m126_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 971	,8	,1	, &internal1_m258_X00},	//(internal1_m258_X00) X0 - текущая координата ОРР
-	{ 972	,8	,1	, &internal1_m258_Sh00},	//(internal1_m258_Sh00) Sh0 - текущая координата штока ОРР
-	{ 973	,8	,1	, &internal1_m258_RV00},	//(internal1_m258_RV00) V0 - текущая скорость ОРР
-	{ 974	,8	,1	, &internal1_m258_ShV00},	//(internal1_m258_ShV00) V0 - текущая скорость штока ОРР
-	{ 975	,1	,1	, &internal1_m258_Ppv0},	//(internal1_m258_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 976	,1	,1	, &internal1_m258_Pav0},	//(internal1_m258_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 977	,1	,1	, &internal1_m258_Zav0},	//(internal1_m258_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 978	,1	,1	, &internal1_m258_RA00},	//(internal1_m258_RA00) RA00 - последнее задание вперед
-	{ 979	,1	,1	, &internal1_m258_RA10},	//(internal1_m258_RA10) RA10 - последнее задание назад
-	{ 980	,18	,1	, &internal1_m258_RA50},	//(internal1_m258_RA50) Ra50 - последнее задание скорости
-	{ 981	,1	,1	, &internal1_m258_fls},	//(internal1_m258_fls)  fls - флаг одношагового режима
-	{ 982	,1	,1	, &internal1_m258_flp},	//(internal1_m258_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 983	,1	,1	, &internal1_m258_MyFirstEnterFlag},	//(internal1_m258_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 984	,8	,1	, &internal1_m97_X00},	//(internal1_m97_X00) X0 - текущая координата ОРР
-	{ 985	,8	,1	, &internal1_m97_Sh00},	//(internal1_m97_Sh00) Sh0 - текущая координата штока ОРР
-	{ 986	,8	,1	, &internal1_m97_RV00},	//(internal1_m97_RV00) V0 - текущая скорость ОРР
-	{ 987	,8	,1	, &internal1_m97_ShV00},	//(internal1_m97_ShV00) V0 - текущая скорость штока ОРР
-	{ 988	,1	,1	, &internal1_m97_Ppv0},	//(internal1_m97_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 989	,1	,1	, &internal1_m97_Pav0},	//(internal1_m97_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 990	,1	,1	, &internal1_m97_Zav0},	//(internal1_m97_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 991	,1	,1	, &internal1_m97_RA00},	//(internal1_m97_RA00) RA00 - последнее задание вперед
-	{ 992	,1	,1	, &internal1_m97_RA10},	//(internal1_m97_RA10) RA10 - последнее задание назад
-	{ 993	,18	,1	, &internal1_m97_RA50},	//(internal1_m97_RA50) Ra50 - последнее задание скорости
-	{ 994	,1	,1	, &internal1_m97_fls},	//(internal1_m97_fls)  fls - флаг одношагового режима
-	{ 995	,1	,1	, &internal1_m97_flp},	//(internal1_m97_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 996	,1	,1	, &internal1_m97_MyFirstEnterFlag},	//(internal1_m97_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 997	,8	,1	, &internal1_m223_X00},	//(internal1_m223_X00) X0 - текущая координата ОРР
-	{ 998	,8	,1	, &internal1_m223_Sh00},	//(internal1_m223_Sh00) Sh0 - текущая координата штока ОРР
-	{ 999	,8	,1	, &internal1_m223_RV00},	//(internal1_m223_RV00) V0 - текущая скорость ОРР
-	{ 1000	,8	,1	, &internal1_m223_ShV00},	//(internal1_m223_ShV00) V0 - текущая скорость штока ОРР
-	{ 1001	,1	,1	, &internal1_m223_Ppv0},	//(internal1_m223_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 1002	,1	,1	, &internal1_m223_Pav0},	//(internal1_m223_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 1003	,1	,1	, &internal1_m223_Zav0},	//(internal1_m223_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 1004	,1	,1	, &internal1_m223_RA00},	//(internal1_m223_RA00) RA00 - последнее задание вперед
-	{ 1005	,1	,1	, &internal1_m223_RA10},	//(internal1_m223_RA10) RA10 - последнее задание назад
-	{ 1006	,18	,1	, &internal1_m223_RA50},	//(internal1_m223_RA50) Ra50 - последнее задание скорости
-	{ 1007	,1	,1	, &internal1_m223_fls},	//(internal1_m223_fls)  fls - флаг одношагового режима
-	{ 1008	,1	,1	, &internal1_m223_flp},	//(internal1_m223_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 1009	,1	,1	, &internal1_m223_MyFirstEnterFlag},	//(internal1_m223_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 1010	,8	,1	, &internal1_m61_X00},	//(internal1_m61_X00) X0 - текущая координата ОРР
-	{ 1011	,8	,1	, &internal1_m61_Sh00},	//(internal1_m61_Sh00) Sh0 - текущая координата штока ОРР
-	{ 1012	,8	,1	, &internal1_m61_RV00},	//(internal1_m61_RV00) V0 - текущая скорость ОРР
-	{ 1013	,8	,1	, &internal1_m61_ShV00},	//(internal1_m61_ShV00) V0 - текущая скорость штока ОРР
-	{ 1014	,1	,1	, &internal1_m61_Ppv0},	//(internal1_m61_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{ 1015	,1	,1	, &internal1_m61_Pav0},	//(internal1_m61_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{ 1016	,1	,1	, &internal1_m61_Zav0},	//(internal1_m61_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{ 1017	,1	,1	, &internal1_m61_RA00},	//(internal1_m61_RA00) RA00 - последнее задание вперед
-	{ 1018	,1	,1	, &internal1_m61_RA10},	//(internal1_m61_RA10) RA10 - последнее задание назад
-	{ 1019	,18	,1	, &internal1_m61_RA50},	//(internal1_m61_RA50) Ra50 - последнее задание скорости
-	{ 1020	,1	,1	, &internal1_m61_fls},	//(internal1_m61_fls)  fls - флаг одношагового режима
-	{ 1021	,1	,1	, &internal1_m61_flp},	//(internal1_m61_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{ 1022	,1	,1	, &internal1_m61_MyFirstEnterFlag},	//(internal1_m61_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 935	,8	,1	, &internal1_m177_C1},	//(internal1_m177_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
+	{ 936	,8	,1	, &internal1_m177_C2},	//(internal1_m177_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
+	{ 937	,8	,1	, &internal1_m177_C3},	//(internal1_m177_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
+	{ 938	,8	,1	, &internal1_m177_C4},	//(internal1_m177_C4) C4 - концентрация запаздывающих нейтронов 4-го типа
+	{ 939	,8	,1	, &internal1_m177_C5},	//(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа
+	{ 940	,8	,1	, &internal1_m177_C6},	//(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа
+	{ 941	,8	,1	, &internal1_m177_N20},	//(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ
+	{ 942	,8	,6	, &internal1_m177_C0},	//(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов
+	{ 943	,1	,1	, &internal1_m177_ImpINI0},	//(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)
+	{ 944	,1	,1	, &internal1_m177_MyFirstEnterFlag},	//(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 945	,8	,1	, &internal1_m295_X00},	//(internal1_m295_X00) X0 - текущая координата ОРР
+	{ 946	,8	,1	, &internal1_m295_Sh00},	//(internal1_m295_Sh00) Sh0 - текущая координата штока ОРР
+	{ 947	,8	,1	, &internal1_m295_RV00},	//(internal1_m295_RV00) V0 - текущая скорость ОРР
+	{ 948	,8	,1	, &internal1_m295_ShV00},	//(internal1_m295_ShV00) V0 - текущая скорость штока ОРР
+	{ 949	,1	,1	, &internal1_m295_Ppv0},	//(internal1_m295_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 950	,1	,1	, &internal1_m295_Pav0},	//(internal1_m295_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 951	,1	,1	, &internal1_m295_Zav0},	//(internal1_m295_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 952	,1	,1	, &internal1_m295_RA00},	//(internal1_m295_RA00) RA00 - последнее задание вперед
+	{ 953	,1	,1	, &internal1_m295_RA10},	//(internal1_m295_RA10) RA10 - последнее задание назад
+	{ 954	,18	,1	, &internal1_m295_RA50},	//(internal1_m295_RA50) Ra50 - последнее задание скорости
+	{ 955	,1	,1	, &internal1_m295_fls},	//(internal1_m295_fls)  fls - флаг одношагового режима
+	{ 956	,1	,1	, &internal1_m295_flp},	//(internal1_m295_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 957	,1	,1	, &internal1_m295_MyFirstEnterFlag},	//(internal1_m295_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 958	,8	,1	, &internal1_m130_X00},	//(internal1_m130_X00) X0 - текущая координата ОРР
+	{ 959	,8	,1	, &internal1_m130_Sh00},	//(internal1_m130_Sh00) Sh0 - текущая координата штока ОРР
+	{ 960	,8	,1	, &internal1_m130_RV00},	//(internal1_m130_RV00) V0 - текущая скорость ОРР
+	{ 961	,8	,1	, &internal1_m130_ShV00},	//(internal1_m130_ShV00) V0 - текущая скорость штока ОРР
+	{ 962	,1	,1	, &internal1_m130_Ppv0},	//(internal1_m130_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 963	,1	,1	, &internal1_m130_Pav0},	//(internal1_m130_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 964	,1	,1	, &internal1_m130_Zav0},	//(internal1_m130_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 965	,1	,1	, &internal1_m130_RA00},	//(internal1_m130_RA00) RA00 - последнее задание вперед
+	{ 966	,1	,1	, &internal1_m130_RA10},	//(internal1_m130_RA10) RA10 - последнее задание назад
+	{ 967	,18	,1	, &internal1_m130_RA50},	//(internal1_m130_RA50) Ra50 - последнее задание скорости
+	{ 968	,1	,1	, &internal1_m130_fls},	//(internal1_m130_fls)  fls - флаг одношагового режима
+	{ 969	,1	,1	, &internal1_m130_flp},	//(internal1_m130_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 970	,1	,1	, &internal1_m130_MyFirstEnterFlag},	//(internal1_m130_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 971	,8	,1	, &internal1_m259_X00},	//(internal1_m259_X00) X0 - текущая координата ОРР
+	{ 972	,8	,1	, &internal1_m259_Sh00},	//(internal1_m259_Sh00) Sh0 - текущая координата штока ОРР
+	{ 973	,8	,1	, &internal1_m259_RV00},	//(internal1_m259_RV00) V0 - текущая скорость ОРР
+	{ 974	,8	,1	, &internal1_m259_ShV00},	//(internal1_m259_ShV00) V0 - текущая скорость штока ОРР
+	{ 975	,1	,1	, &internal1_m259_Ppv0},	//(internal1_m259_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 976	,1	,1	, &internal1_m259_Pav0},	//(internal1_m259_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 977	,1	,1	, &internal1_m259_Zav0},	//(internal1_m259_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 978	,1	,1	, &internal1_m259_RA00},	//(internal1_m259_RA00) RA00 - последнее задание вперед
+	{ 979	,1	,1	, &internal1_m259_RA10},	//(internal1_m259_RA10) RA10 - последнее задание назад
+	{ 980	,18	,1	, &internal1_m259_RA50},	//(internal1_m259_RA50) Ra50 - последнее задание скорости
+	{ 981	,1	,1	, &internal1_m259_fls},	//(internal1_m259_fls)  fls - флаг одношагового режима
+	{ 982	,1	,1	, &internal1_m259_flp},	//(internal1_m259_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 983	,1	,1	, &internal1_m259_MyFirstEnterFlag},	//(internal1_m259_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 984	,8	,1	, &internal1_m94_X00},	//(internal1_m94_X00) X0 - текущая координата ОРР
+	{ 985	,8	,1	, &internal1_m94_Sh00},	//(internal1_m94_Sh00) Sh0 - текущая координата штока ОРР
+	{ 986	,8	,1	, &internal1_m94_RV00},	//(internal1_m94_RV00) V0 - текущая скорость ОРР
+	{ 987	,8	,1	, &internal1_m94_ShV00},	//(internal1_m94_ShV00) V0 - текущая скорость штока ОРР
+	{ 988	,1	,1	, &internal1_m94_Ppv0},	//(internal1_m94_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 989	,1	,1	, &internal1_m94_Pav0},	//(internal1_m94_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 990	,1	,1	, &internal1_m94_Zav0},	//(internal1_m94_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 991	,1	,1	, &internal1_m94_RA00},	//(internal1_m94_RA00) RA00 - последнее задание вперед
+	{ 992	,1	,1	, &internal1_m94_RA10},	//(internal1_m94_RA10) RA10 - последнее задание назад
+	{ 993	,18	,1	, &internal1_m94_RA50},	//(internal1_m94_RA50) Ra50 - последнее задание скорости
+	{ 994	,1	,1	, &internal1_m94_fls},	//(internal1_m94_fls)  fls - флаг одношагового режима
+	{ 995	,1	,1	, &internal1_m94_flp},	//(internal1_m94_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 996	,1	,1	, &internal1_m94_MyFirstEnterFlag},	//(internal1_m94_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 997	,8	,1	, &internal1_m224_X00},	//(internal1_m224_X00) X0 - текущая координата ОРР
+	{ 998	,8	,1	, &internal1_m224_Sh00},	//(internal1_m224_Sh00) Sh0 - текущая координата штока ОРР
+	{ 999	,8	,1	, &internal1_m224_RV00},	//(internal1_m224_RV00) V0 - текущая скорость ОРР
+	{ 1000	,8	,1	, &internal1_m224_ShV00},	//(internal1_m224_ShV00) V0 - текущая скорость штока ОРР
+	{ 1001	,1	,1	, &internal1_m224_Ppv0},	//(internal1_m224_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 1002	,1	,1	, &internal1_m224_Pav0},	//(internal1_m224_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 1003	,1	,1	, &internal1_m224_Zav0},	//(internal1_m224_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 1004	,1	,1	, &internal1_m224_RA00},	//(internal1_m224_RA00) RA00 - последнее задание вперед
+	{ 1005	,1	,1	, &internal1_m224_RA10},	//(internal1_m224_RA10) RA10 - последнее задание назад
+	{ 1006	,18	,1	, &internal1_m224_RA50},	//(internal1_m224_RA50) Ra50 - последнее задание скорости
+	{ 1007	,1	,1	, &internal1_m224_fls},	//(internal1_m224_fls)  fls - флаг одношагового режима
+	{ 1008	,1	,1	, &internal1_m224_flp},	//(internal1_m224_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 1009	,1	,1	, &internal1_m224_MyFirstEnterFlag},	//(internal1_m224_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 1010	,8	,1	, &internal1_m59_X00},	//(internal1_m59_X00) X0 - текущая координата ОРР
+	{ 1011	,8	,1	, &internal1_m59_Sh00},	//(internal1_m59_Sh00) Sh0 - текущая координата штока ОРР
+	{ 1012	,8	,1	, &internal1_m59_RV00},	//(internal1_m59_RV00) V0 - текущая скорость ОРР
+	{ 1013	,8	,1	, &internal1_m59_ShV00},	//(internal1_m59_ShV00) V0 - текущая скорость штока ОРР
+	{ 1014	,1	,1	, &internal1_m59_Ppv0},	//(internal1_m59_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{ 1015	,1	,1	, &internal1_m59_Pav0},	//(internal1_m59_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{ 1016	,1	,1	, &internal1_m59_Zav0},	//(internal1_m59_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{ 1017	,1	,1	, &internal1_m59_RA00},	//(internal1_m59_RA00) RA00 - последнее задание вперед
+	{ 1018	,1	,1	, &internal1_m59_RA10},	//(internal1_m59_RA10) RA10 - последнее задание назад
+	{ 1019	,18	,1	, &internal1_m59_RA50},	//(internal1_m59_RA50) Ra50 - последнее задание скорости
+	{ 1020	,1	,1	, &internal1_m59_fls},	//(internal1_m59_fls)  fls - флаг одношагового режима
+	{ 1021	,1	,1	, &internal1_m59_flp},	//(internal1_m59_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{ 1022	,1	,1	, &internal1_m59_MyFirstEnterFlag},	//(internal1_m59_MyFirstEnterFlag) MyFirstEnterFlag
 	{ 1023	,8	,1	, &internal1_m14_C1},	//(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа
 	{ 1024	,8	,1	, &internal1_m14_C2},	//(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа
 	{ 1025	,8	,1	, &internal1_m14_C3},	//(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа
@@ -5243,7 +5243,7 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* ���������� �������� */
-psbool  array_m345_x_1[16] = {&lEM_R8AD10LC1,&lEM_R8AD10LC1,&var329,&var187,&var181,&var271,&var269,&var263,&var260,&var276,&var319,&var314,&var305,&var295,&var289,&R0MW13LP2};
+psbool  array_m347_x_1[16] = {&lEM_R8AD10LC1,&lEM_R8AD10LC1,&var329,&var187,&var181,&var271,&var269,&var263,&var260,&var276,&var319,&var314,&var305,&var295,&var289,&R0MW13LP2};
 psbool  array_m897_x_1[2] = {&lEM_R0IE02LRP,&lEM_R0IE01LRP};
 psbool  array_m892_x_1[2] = {&var167,&R0MW13LP2};
 psbool  array_m917_x_1[2] = {&var174,&R0MW13LP2};
@@ -5251,14 +5251,14 @@ psbool  array_m910_x_1[2] = {&var175,&R0MW13LP2};
 psbool  array_m902_x_1[2] = {&var176,&R0MW13LP2};
 psbool  array_m609_x_1[2] = {&var32,&var228};
 psbool  array_m606_x_1[2] = {&var32,&var229};
-psbool  array_m617_x_1[3] = {&lEM_C1AD31LRP,&R0VZ71LZ1,&R0VZ71LZ2};
+psbool  array_m615_x_1[3] = {&lEM_C1AD31LRP,&R0VZ71LZ1,&R0VZ71LZ2};
 psbool  array_m894_x_1[2] = {&var199,&R0MW13LP2};
-psbool  array_m282_x_1[2] = {&var216,&B3AD31LDU};
-psbool  array_m249_x_1[3] = {&B2AD31LDU,&var202,&var216};
-psbool  array_m250_x_1[3] = {&B2AD32LDU,&var202,&var216};
-psbool  array_m212_x_1[4] = {&B1AD32LDU,&var205,&var204,&var216};
-psbool  array_m211_x_1[4] = {&var205,&B1AD31LDU,&var204,&var216};
-psbool  array_m117_x_1[2] = {&A3AD31LDU,&var216};
+psbool  array_m284_x_1[2] = {&var216,&B3AD31LDU};
+psbool  array_m250_x_1[3] = {&B2AD31LDU,&var202,&var216};
+psbool  array_m251_x_1[3] = {&B2AD32LDU,&var202,&var216};
+psbool  array_m213_x_1[4] = {&B1AD32LDU,&var205,&var204,&var216};
+psbool  array_m212_x_1[4] = {&var205,&B1AD31LDU,&var204,&var216};
+psbool  array_m118_x_1[2] = {&A3AD31LDU,&var216};
 psbool  array_m48_x_1[4] = {&A1AD32LDU,&var210,&var209,&var216};
 psbool  array_m47_x_1[4] = {&var210,&A1AD31LDU,&var209,&var216};
 psbool  array_m85_x_1[3] = {&A2AD31LDU,&var214,&var216};
@@ -5268,13 +5268,13 @@ psfloat  array_m7_a_1[5] = {&fRM_390_,&fRM_600_,&fRM_900_,&fRM_1200_,&fRM_1500_}
 psfloat  array_m7_b_1[5] = {&fRM_0_5,&fRM_0_2,&fRM_0_088884,&fRM_0_066666667,&fRM_0_02173913};
 psfloat  array_m9_a_1[7] = {&fRM_390_,&fRM_420_,&fRM_513_,&fRM_767_,&fRM_900_,&fRM_1200_,&fRM_1500_};
 psfloat  array_m9_b_1[7] = {&fRM_3_546,&fRM_2_7,&fRM_2_,&fRM_0_88884,&fRM_0_6221739,&fRM_0_35555072,&fRM_0_2666666667};
-psfloat  array_m176_C0_1[6];
-psfloat  array_m290_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m126_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m258_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m97_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m223_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m61_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m177_C0_1[6];
+psfloat  array_m295_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m130_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m259_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m94_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m224_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m59_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m14_C0_1[6];
 
 /* ���������� �������� */
@@ -5296,18 +5296,18 @@ _S_twobool  S_twobool_666_1 = {&var262,&iEM_TERB6VS22LIM,&var16,&vainSBool,&inte
 _S_twobool  S_twobool_665_1 = {&var261,&iEM_TERB6VS12LIM,&var17,&vainSBool,&internal1_m665_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_644_1 = {&var266,&iEM_TERA6VS22LIM,&var18,&vainSBool,&internal1_m644_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_643_1 = {&var265,&iEM_TERA6VS12LIM,&var19,&vainSBool,&internal1_m643_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_509_1 = {&var37,&iEM_TERA1VP81LIM,&var20,&vainSBool,&internal1_m509_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_510_1 = {&var37,&iEM_TERA1VP81LIM,&var20,&vainSBool,&internal1_m510_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_526_1 = {&var37,&iEM_TERB1VP81LIM,&var21,&vainSBool,&internal1_m526_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_396_1 = {&var305,&iEM_TERB2SS33LIM,&var22,&vainSBool,&internal1_m396_Out10,&bFirstEnterFlag};
-_S_noto  S_noto_471_1 = {&var183,&var23};
-_S_noto  S_noto_472_1 = {&var182,&var24};
-_S_noto  S_noto_462_1 = {&var184,&var25};
-_S_noto  S_noto_464_1 = {&var185,&var26};
-_S_rs  S_rs_469_1 = {&var24,&lEM_R5AD10LC1,&var27,&vainSBool,&internal1_m469_q0};
-_S_rs  S_rs_470_1 = {&var23,&lEM_R5AD20LC1,&var28,&vainSBool,&internal1_m470_q0};
-_S_rs  S_rs_457_1 = {&var25,&lEM_R3AD10LC1,&var29,&vainSBool,&internal1_m457_q0};
-_S_rs  S_rs_458_1 = {&var26,&lEM_R3AD20LC1,&var30,&vainSBool,&internal1_m458_q0};
-_S_andn  S_andn_345_1 = {array_m345_x_1,&iRM_16_,&vainSBool};
+_S_twobool  S_twobool_398_1 = {&var305,&iEM_TERB2SS33LIM,&var22,&vainSBool,&internal1_m398_Out10,&bFirstEnterFlag};
+_S_noto  S_noto_473_1 = {&var183,&var23};
+_S_noto  S_noto_474_1 = {&var182,&var24};
+_S_noto  S_noto_463_1 = {&var184,&var25};
+_S_noto  S_noto_466_1 = {&var185,&var26};
+_S_rs  S_rs_471_1 = {&var24,&lEM_R5AD10LC1,&var27,&vainSBool,&internal1_m471_q0};
+_S_rs  S_rs_472_1 = {&var23,&lEM_R5AD20LC1,&var28,&vainSBool,&internal1_m472_q0};
+_S_rs  S_rs_459_1 = {&var25,&lEM_R3AD10LC1,&var29,&vainSBool,&internal1_m459_q0};
+_S_rs  S_rs_460_1 = {&var26,&lEM_R3AD20LC1,&var30,&vainSBool,&internal1_m460_q0};
+_S_andn  S_andn_347_1 = {array_m347_x_1,&iRM_16_,&vainSBool};
 _S_zpfs  S_zpfs_619_1 = {&R0AD14LDU,&fEM_R7UI76RIM,&var31,&internal1_m619_tx,&internal1_m619_y0};
 _S_zpfs  S_zpfs_607_1 = {&R0AD16LDU,&fEM_R7UI77RIM,&var32,&internal1_m607_tx,&internal1_m607_y0};
 _S_bol  S_bol_932_1 = {&fEM_A4UP01RIM,&fEM_A4UP02RIM,&var33};
@@ -5315,15 +5315,15 @@ _S_bol  S_bol_929_1 = {&fEM_A3UP01RIM,&fEM_A3UP02RIM,&var34};
 _S_bol  S_bol_908_1 = {&fEM_A0UP02RIM,&fEM_A0UP01RIM,&var35};
 _S_bol  S_bol_930_1 = {&fEM_A2UP02RIM,&fEM_A2UP03RIM,&var36};
 _S_bol  S_bol_920_1 = {&fEM_A1UP01RIM,&fEM_A1UP82RIM,&var37};
-_S_ampl  S_ampl_361_1 = {&var218,&fRM_0_1,&vainSFloat};
+_S_ampl  S_ampl_363_1 = {&var218,&fRM_0_1,&vainSFloat};
 _S_or2  S_or2_921_1 = {&R0EE04LZ1,&R0EE04LZ2,&var38};
 _S_or2  S_or2_912_1 = {&R0EE03LZ1,&R0EE03LZ2,&var39};
 _S_or2  S_or2_905_1 = {&R0EE02LZ1,&R0EE02LZ2,&var40};
 _S_or2  S_or2_898_1 = {&R0EE01LZ1,&R0EE01LZ2,&var41};
 _S_zpfs  S_zpfs_595_1 = {&var186,&fRM_1_0,&var42,&internal1_m595_tx,&internal1_m595_y0};
 _S_zpfs  S_zpfs_593_1 = {&var189,&fRM_0_5,&var43,&internal1_m593_tx,&internal1_m593_y0};
-_S_twobool  S_twobool_202_1 = {&B1AD21LDU,&iEM_TERB1IE04LDU,&var44,&vainSBool,&internal1_m202_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_220_1 = {&B1AD11LDU,&iEM_TERB1IE03LDU,&var45,&vainSBool,&internal1_m220_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_203_1 = {&B1AD21LDU,&iEM_TERB1IE04LDU,&var44,&vainSBool,&internal1_m203_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_221_1 = {&B1AD11LDU,&iEM_TERB1IE03LDU,&var45,&vainSBool,&internal1_m221_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_41_1 = {&A1AD21LDU,&iEM_TERA1IE04LDU,&var46,&vainSBool,&internal1_m41_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_56_1 = {&A1AD11LDU,&iEM_TERA1IE03LDU,&var47,&vainSBool,&internal1_m56_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_962_1 = {&var322,&iEM_TERB1SS12LIM,&var48,&vainSBool,&internal1_m962_Out10,&bFirstEnterFlag};
@@ -5366,11 +5366,11 @@ _S_twobool  S_twobool_527_1 = {&var36,&iEM_TERA2VP82LIM,&var87,&var88,&internal1
 _S_toao  S_toao_531_1 = {&var92,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var89,&bFirstEnterFlag};
 _S_toao  S_toao_530_1 = {&var91,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var90,&bFirstEnterFlag};
 _S_to3val  S_to3val_524_1 = {&var149,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A2UP03RDU,&fEM_A2UP03RDU,&iEM_TERB2SP01RIM,&var91,&vainSFloat,&var92,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_406_1 = {&var94,&fEM_A2UC03RDU,&fRM_0_,&iRM_0_,&var93,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m406_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_400_1 = {&var220,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB2SC01RIM,&var94,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_397_1 = {&var307,&iEM_TERB2SS12LIM,&var95,&vainSBool,&internal1_m397_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_399_1 = {&var302,&iEM_TERB2SS11LIM,&var96,&vainSBool,&internal1_m399_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_398_1 = {&var303,&iEM_TERB2SS21LIM,&var97,&vainSBool,&internal1_m398_Out10,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_408_1 = {&var94,&fEM_A2UC03RDU,&fRM_0_,&iRM_0_,&var93,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m408_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_402_1 = {&var220,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB2SC01RIM,&var94,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_399_1 = {&var307,&iEM_TERB2SS12LIM,&var95,&vainSBool,&internal1_m399_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_401_1 = {&var302,&iEM_TERB2SS11LIM,&var96,&vainSBool,&internal1_m401_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_400_1 = {&var303,&iEM_TERB2SS21LIM,&var97,&vainSBool,&internal1_m400_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_845_1 = {&var197,&iEM_TERB9SS21LIM,&var98,&vainSBool,&internal1_m845_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_846_1 = {&var196,&iEM_TERB9SS11LIM,&var99,&vainSBool,&internal1_m846_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_844_1 = {&var194,&iEM_TERA9SS21LIM,&var100,&vainSBool,&internal1_m844_Out10,&bFirstEnterFlag};
@@ -5392,54 +5392,54 @@ _S_twobool  S_twobool_662_1 = {&R0MW13LP2,&iEM_TERR6IS67LIM,&var114,&vainSBool,&
 _S_twobool  S_twobool_642_1 = {&R0MW13LP2,&iEM_TERR6IS66LIM,&var115,&vainSBool,&internal1_m642_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_661_1 = {&R0MW13LP2,&iEM_TERR6IS64LIM,&var116,&var117,&internal1_m661_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_641_1 = {&R0MW13LP2,&iEM_TERR6IS62LIM,&var118,&var119,&internal1_m641_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_327_1 = {&var288,&iEM_TERB3SS22LIM,&var120,&vainSBool,&internal1_m327_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_326_1 = {&var295,&iEM_TERA3SS22LIM,&var121,&vainSBool,&internal1_m326_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_311_1 = {&var289,&iEM_TERB3SS11LIM,&var122,&vainSBool,&internal1_m311_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_310_1 = {&var296,&iEM_TERA3SS11LIM,&var123,&vainSBool,&internal1_m310_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_503_1 = {&var125,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var124,&bFirstEnterFlag};
-_S_to3val  S_to3val_497_1 = {&var171,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERA3SP02RIM,&vainSFloat,&var125,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_329_1 = {&var288,&iEM_TERB3SS22LIM,&var120,&vainSBool,&internal1_m329_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_328_1 = {&var295,&iEM_TERA3SS22LIM,&var121,&vainSBool,&internal1_m328_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_313_1 = {&var289,&iEM_TERB3SS11LIM,&var122,&vainSBool,&internal1_m313_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_312_1 = {&var296,&iEM_TERA3SS11LIM,&var123,&vainSBool,&internal1_m312_Out10,&bFirstEnterFlag};
+_S_toao  S_toao_505_1 = {&var125,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var124,&bFirstEnterFlag};
+_S_to3val  S_to3val_498_1 = {&var171,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERA3SP02RIM,&vainSFloat,&var125,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_544_1 = {&var34,&iEM_TERA3VP81LIM,&var126,&var127,&internal1_m544_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_507_1 = {&var129,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var128,&bFirstEnterFlag};
-_S_to3val  S_to3val_500_1 = {&var169,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERB3SP02RIM,&vainSFloat,&var129,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_340_1 = {&var292,&iEM_TERB3SS33LIM,&var130,&vainSBool,&internal1_m340_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_324_1 = {&var132,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var131,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m324_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_323_1 = {&var287,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB3SC01RIM,&var132,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_339_1 = {&var291,&iEM_TERB3SS31LIM,&var133,&vainSBool,&internal1_m339_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_337_1 = {&var299,&iEM_TERA3SS33LIM,&var134,&vainSBool,&internal1_m337_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_317_1 = {&var136,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var135,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m317_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_313_1 = {&var294,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA3SC01RIM,&var136,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_338_1 = {&var298,&iEM_TERA3SS31LIM,&var137,&vainSBool,&internal1_m338_Out10,&bFirstEnterFlag};
+_S_toao  S_toao_509_1 = {&var129,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var128,&bFirstEnterFlag};
+_S_to3val  S_to3val_501_1 = {&var169,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A3UP03RDU,&fEM_A3UP03RDU,&iEM_TERB3SP02RIM,&vainSFloat,&var129,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_342_1 = {&var292,&iEM_TERB3SS33LIM,&var130,&vainSBool,&internal1_m342_Out10,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_326_1 = {&var132,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var131,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m326_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_325_1 = {&var287,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB3SC01RIM,&var132,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_341_1 = {&var291,&iEM_TERB3SS31LIM,&var133,&vainSBool,&internal1_m341_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_339_1 = {&var299,&iEM_TERA3SS33LIM,&var134,&vainSBool,&internal1_m339_Out10,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_319_1 = {&var136,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var135,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m319_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_315_1 = {&var294,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA3SC01RIM,&var136,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_340_1 = {&var298,&iEM_TERA3SS31LIM,&var137,&vainSBool,&internal1_m340_Out10,&bFirstEnterFlag};
 _S_toao  S_toao_529_1 = {&var150,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var138,&bFirstEnterFlag};
 _S_toao  S_toao_528_1 = {&var148,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var139,&bFirstEnterFlag};
-_S_twobool  S_twobool_309_1 = {&var290,&iEM_TERB3SS21LIM,&var140,&vainSBool,&internal1_m309_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_325_1 = {&var297,&iEM_TERA3SS21LIM,&var141,&vainSBool,&internal1_m325_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_418_1 = {&var313,&iEM_TERA2SS33LIM,&var142,&vainSBool,&internal1_m418_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_419_1 = {&var144,&fEM_A2UC03RDU,&fRM_0_,&iRM_0_,&var143,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m419_Xtek0,&bFirstEnterFlag};
-_S_to3val  S_to3val_414_1 = {&var219,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA2SC01RIM,&var144,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
-_S_twobool  S_twobool_417_1 = {&var315,&iEM_TERA2SS12LIM,&var145,&vainSBool,&internal1_m417_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_416_1 = {&var310,&iEM_TERA2SS11LIM,&var146,&vainSBool,&internal1_m416_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_415_1 = {&var311,&iEM_TERA2SS21LIM,&var147,&vainSBool,&internal1_m415_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_311_1 = {&var290,&iEM_TERB3SS21LIM,&var140,&vainSBool,&internal1_m311_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_327_1 = {&var297,&iEM_TERA3SS21LIM,&var141,&vainSBool,&internal1_m327_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_420_1 = {&var313,&iEM_TERA2SS33LIM,&var142,&vainSBool,&internal1_m420_Out10,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_421_1 = {&var144,&fEM_A2UC03RDU,&fRM_0_,&iRM_0_,&var143,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m421_Xtek0,&bFirstEnterFlag};
+_S_to3val  S_to3val_416_1 = {&var219,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA2SC01RIM,&var144,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
+_S_twobool  S_twobool_419_1 = {&var315,&iEM_TERA2SS12LIM,&var145,&vainSBool,&internal1_m419_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_418_1 = {&var310,&iEM_TERA2SS11LIM,&var146,&vainSBool,&internal1_m418_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_417_1 = {&var311,&iEM_TERA2SS21LIM,&var147,&vainSBool,&internal1_m417_Out10,&bFirstEnterFlag};
 _S_to3val  S_to3val_523_1 = {&fEM_A2UP01RIM,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_A2UP03RDU,&fEM_A2UP03RDU,&iEM_TERA2SP01RIM,&var148,&var149,&var150,&bFirstEnterFlag};
-_S_toao  S_toao_157_1 = {&var156,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var151,&bFirstEnterFlag};
-_S_toao  S_toao_156_1 = {&var155,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var152,&bFirstEnterFlag};
-_S_toao  S_toao_155_1 = {&var154,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var153,&bFirstEnterFlag};
-_S_to3val  S_to3val_150_1 = {&var282,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERB0MT01RIM,&var154,&var155,&var156,&bFirstEnterFlag};
-_S_toao  S_toao_160_1 = {&var164,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var157,&bFirstEnterFlag};
-_S_toao  S_toao_159_1 = {&var163,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var158,&bFirstEnterFlag};
+_S_toao  S_toao_158_1 = {&var156,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var151,&bFirstEnterFlag};
+_S_toao  S_toao_157_1 = {&var155,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var152,&bFirstEnterFlag};
+_S_toao  S_toao_156_1 = {&var154,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var153,&bFirstEnterFlag};
+_S_to3val  S_to3val_151_1 = {&var282,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERB0MT01RIM,&var154,&var155,&var156,&bFirstEnterFlag};
+_S_toao  S_toao_161_1 = {&var164,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var157,&bFirstEnterFlag};
+_S_toao  S_toao_160_1 = {&var163,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var158,&bFirstEnterFlag};
 _S_twobool  S_twobool_1027_1 = {&var181,&iEM_TERR6SS21LIM,&var159,&vainSBool,&internal1_m1027_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_144_1 = {&var283,&iEM_TERB7MS31LIM,&var160,&vainSBool,&internal1_m144_Out10,&bFirstEnterFlag};
-_S_toao  S_toao_158_1 = {&var162,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var161,&bFirstEnterFlag};
-_S_to3val  S_to3val_152_1 = {&var333,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERA0MT01RIM,&var162,&var163,&var164,&bFirstEnterFlag};
-_S_twobool  S_twobool_143_1 = {&var334,&iEM_TERA7MS31LIM,&var165,&vainSBool,&internal1_m143_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_145_1 = {&var283,&iEM_TERB7MS31LIM,&var160,&vainSBool,&internal1_m145_Out10,&bFirstEnterFlag};
+_S_toao  S_toao_159_1 = {&var162,&fEM_R0UT01RDU,&fEM_R0UT02RDU,&fRM_3276_,&fRM_16383_,&iRM_0_,&iRM_3276_,&iRM_16383_,&fRM_1_,&var161,&bFirstEnterFlag};
+_S_to3val  S_to3val_153_1 = {&var333,&fRM_2_0,&fRM_3_,&fRM_3_,&fRM_0_,&fEM_R0UT02RDU,&fEM_R0UT02RDU,&iEM_TERA0MT01RIM,&var162,&var163,&var164,&bFirstEnterFlag};
+_S_twobool  S_twobool_144_1 = {&var334,&iEM_TERA7MS31LIM,&var165,&vainSBool,&internal1_m144_Out10,&bFirstEnterFlag};
 _S_orn  S_orn_897_1 = {array_m897_x_1,&iRM_2_,&var166};
 _S_andn  S_andn_892_1 = {array_m892_x_1,&iRM_2_,&vainSBool};
 _S_noto  S_noto_896_1 = {&var166,&var167};
-_S_noto  S_noto_495_1 = {&B3AD34LDU,&var168};
-_S_lk  S_lk_499_1 = {&fEM_A3UP02RDU,&var168,&var169};
-_S_noto  S_noto_493_1 = {&A3AD34LDU,&var170};
-_S_lk  S_lk_498_1 = {&fEM_A3UP02RDU,&var170,&var171};
-_S_ovb1  S_ovb1_191_1 = {&R8AD21LDU,&iRM_500_,&var172,&internal1_m191_tx};
-_S_ovb1  S_ovb1_30_1 = {&R8AD21LDU,&iRM_500_,&var173,&internal1_m30_tx};
+_S_noto  S_noto_496_1 = {&B3AD34LDU,&var168};
+_S_lk  S_lk_500_1 = {&fEM_A3UP02RDU,&var168,&var169};
+_S_noto  S_noto_494_1 = {&A3AD34LDU,&var170};
+_S_lk  S_lk_499_1 = {&fEM_A3UP02RDU,&var170,&var171};
+_S_ovb1  S_ovb1_192_1 = {&R8AD21LDU,&iRM_500_,&var172,&internal1_m192_tx};
+_S_ovb1  S_ovb1_25_1 = {&R8AD21LDU,&iRM_500_,&var173,&internal1_m25_tx};
 _S_andn  S_andn_917_1 = {array_m917_x_1,&iRM_2_,&vainSBool};
 _S_noto  S_noto_922_1 = {&var38,&var174};
 _S_andn  S_andn_910_1 = {array_m910_x_1,&iRM_2_,&vainSBool};
@@ -5448,11 +5448,11 @@ _S_andn  S_andn_902_1 = {array_m902_x_1,&iRM_2_,&vainSBool};
 _S_noto  S_noto_906_1 = {&var40,&var176};
 _S_orn  S_orn_609_1 = {array_m609_x_1,&iRM_2_,&var177};
 _S_orn  S_orn_606_1 = {array_m606_x_1,&iRM_2_,&var178};
-_S_react  S_react_194_1 = {&var284,&var179};
-_S_noto  S_noto_459_1 = {&lEM_R6AD10LC1,&var180};
-_S_asmot  S_asmot_461_1 = {&var180,&lEM_R6AD10LC1,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R6UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R6UC01RSP,&vainSFloat,&var181,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m461_X00,&internal1_m461_V00,&internal1_m461_Pav0,&internal1_m461_Zav0,&internal1_m461_Pv0,&internal1_m461_Zv0,&internal1_m461_RA00,&internal1_m461_RA10,&internal1_m461_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_473_1 = {&var27,&var28,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R5UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R5UC01RSP,&vainSFloat,&var182,&var183,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m473_X00,&internal1_m473_V00,&internal1_m473_Pav0,&internal1_m473_Zav0,&internal1_m473_Pv0,&internal1_m473_Zv0,&internal1_m473_RA00,&internal1_m473_RA10,&internal1_m473_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_463_1 = {&var29,&var30,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R3UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R3UC01RSP,&vainSFloat,&var184,&var185,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m463_X00,&internal1_m463_V00,&internal1_m463_Pav0,&internal1_m463_Zav0,&internal1_m463_Pv0,&internal1_m463_Zv0,&internal1_m463_RA00,&internal1_m463_RA10,&internal1_m463_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_react  S_react_195_1 = {&var284,&var179};
+_S_noto  S_noto_461_1 = {&lEM_R6AD10LC1,&var180};
+_S_asmot  S_asmot_465_1 = {&var180,&lEM_R6AD10LC1,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R6UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R6UC01RSP,&vainSFloat,&var181,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m465_X00,&internal1_m465_V00,&internal1_m465_Pav0,&internal1_m465_Zav0,&internal1_m465_Pv0,&internal1_m465_Zv0,&internal1_m465_RA00,&internal1_m465_RA10,&internal1_m465_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_475_1 = {&var27,&var28,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R5UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R5UC01RSP,&vainSFloat,&var182,&var183,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m475_X00,&internal1_m475_V00,&internal1_m475_Pav0,&internal1_m475_Zav0,&internal1_m475_Pv0,&internal1_m475_Zv0,&internal1_m475_RA00,&internal1_m475_RA10,&internal1_m475_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_464_1 = {&var29,&var30,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R3UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R3UC01RSP,&vainSFloat,&var184,&var185,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m464_X00,&internal1_m464_V00,&internal1_m464_Pav0,&internal1_m464_Zav0,&internal1_m464_Pv0,&internal1_m464_Zv0,&internal1_m464_RA00,&internal1_m464_RA10,&internal1_m464_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_594_1 = {&A4AD10LDU,&var186};
 _S_asmot  S_asmot_598_1 = {&var186,&A4AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A4UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A4MC01RSP,&vainSFloat,&var187,&var188,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m598_X00,&internal1_m598_V00,&internal1_m598_Pav0,&internal1_m598_Zav0,&internal1_m598_Pv0,&internal1_m598_Zv0,&internal1_m598_RA00,&internal1_m598_RA10,&internal1_m598_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_592_1 = {&B4AD10LDU,&var189};
@@ -5461,18 +5461,18 @@ _S_noto  S_noto_583_1 = {&A9AD10LDU,&var192};
 _S_asmot  S_asmot_585_1 = {&var192,&A9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A9UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A9MC01RSP,&vainSFloat,&var193,&var194,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m585_X00,&internal1_m585_V00,&internal1_m585_Pav0,&internal1_m585_Zav0,&internal1_m585_Pv0,&internal1_m585_Zv0,&internal1_m585_RA00,&internal1_m585_RA10,&internal1_m585_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_582_1 = {&B9AD10LDU,&var195};
 _S_asmot  S_asmot_584_1 = {&var195,&B9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_A9UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_B9MC01RSP,&vainSFloat,&var196,&var197,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m584_X00,&internal1_m584_V00,&internal1_m584_Pav0,&internal1_m584_Zav0,&internal1_m584_Pv0,&internal1_m584_Zv0,&internal1_m584_RA00,&internal1_m584_RA10,&internal1_m584_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orn  S_orn_617_1 = {array_m617_x_1,&iRM_3_,&var198};
+_S_orn  S_orn_615_1 = {array_m615_x_1,&iRM_3_,&var198};
 _S_andn  S_andn_894_1 = {array_m894_x_1,&iRM_2_,&vainSBool};
 _S_noto  S_noto_899_1 = {&var41,&var199};
-_S_andn  S_andn_282_1 = {array_m282_x_1,&iRM_2_,&var200};
-_S_andn  S_andn_249_1 = {array_m249_x_1,&iRM_3_,&var201};
-_S_noto  S_noto_248_1 = {&C2MD31LP1,&var202};
-_S_andn  S_andn_250_1 = {array_m250_x_1,&iRM_3_,&var203};
-_S_noto  S_noto_210_1 = {&C1MD31LP2,&var204};
-_S_noto  S_noto_209_1 = {&C1MD31LP1,&var205};
-_S_andn  S_andn_212_1 = {array_m212_x_1,&iRM_4_,&var206};
-_S_andn  S_andn_211_1 = {array_m211_x_1,&iRM_4_,&var207};
-_S_andn  S_andn_117_1 = {array_m117_x_1,&iRM_2_,&var208};
+_S_andn  S_andn_284_1 = {array_m284_x_1,&iRM_2_,&var200};
+_S_andn  S_andn_250_1 = {array_m250_x_1,&iRM_3_,&var201};
+_S_noto  S_noto_249_1 = {&C2MD31LP1,&var202};
+_S_andn  S_andn_251_1 = {array_m251_x_1,&iRM_3_,&var203};
+_S_noto  S_noto_211_1 = {&C1MD31LP2,&var204};
+_S_noto  S_noto_210_1 = {&C1MD31LP1,&var205};
+_S_andn  S_andn_213_1 = {array_m213_x_1,&iRM_4_,&var206};
+_S_andn  S_andn_212_1 = {array_m212_x_1,&iRM_4_,&var207};
+_S_andn  S_andn_118_1 = {array_m118_x_1,&iRM_2_,&var208};
 _S_noto  S_noto_46_1 = {&C1MD31LP2,&var209};
 _S_noto  S_noto_45_1 = {&C1MD31LP1,&var210};
 _S_andn  S_andn_48_1 = {array_m48_x_1,&iRM_4_,&var211};
@@ -5482,10 +5482,10 @@ _S_noto  S_noto_84_1 = {&C2MD31LP1,&var214};
 _S_andn  S_andn_86_1 = {array_m86_x_1,&iRM_3_,&var215};
 _S_noto  S_noto_614_1 = {&var198,&var216};
 _S_orn  S_orn_622_1 = {array_m622_x_1,&iRM_2_,&var217};
-_S_fsubo  S_fsubo_360_1 = {&fEM_R7UY00RSS,&var270,&var218};
-_S_fsubo  S_fsubo_111_1 = {&fEM_A2UC05RIM,&var309,&var219};
-_S_fsubo  S_fsubo_275_1 = {&fEM_A2UC05RIM,&var301,&var220};
-_S_fsubo  S_fsubo_238_1 = {&fEM_A1UC05RIM,&var317,&var221};
+_S_fsubo  S_fsubo_362_1 = {&fEM_R7UY00RSS,&var270,&var218};
+_S_fsubo  S_fsubo_112_1 = {&fEM_A2UC05RIM,&var309,&var219};
+_S_fsubo  S_fsubo_277_1 = {&fEM_A2UC05RIM,&var301,&var220};
+_S_fsubo  S_fsubo_239_1 = {&fEM_A1UC05RIM,&var317,&var221};
 _S_fsubo  S_fsubo_74_1 = {&fEM_A1UC05RIM,&var324,&var222};
 _S_fsubo  S_fsubo_8_1 = {&var224,&fEM_R0UR01RIM,&var223};
 _S_inf  S_inf_7_1 = {&var270,array_m7_a_1,array_m7_b_1,&iRM_5_,&var224,&vainSInt};
@@ -5509,20 +5509,20 @@ _S_fsumo  S_fsumo_888_1 = {&fEM_R4UC10RIM,&fEM_R4UC22RIM,&var241};
 _S_vchs  S_vchs_694_1 = {&var331,&var280,&var241,&fEM_R7UY00RSS,&fEM_R7UY00RSS,&fEM_R7UX01RSS,&fEM_R7UY01RSS,&bRM_2_,&fEM_A0UX01RSS,&fEM_B0UX01RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var242,&internal1_m694_Chim0};
 _S_asmot  S_asmot_572_1 = {&B5AD10LDU,&B5AD20LDU,&fEM_B5MC01RC1,&fEM_B5MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERNL2,&fEM_A5UC10RIM,&fRM_0_0,&fRM_1500_0,&fRM_n50_,&fRM_0_10,&fEM_B5MC01RSP,&vainSFloat,&var243,&var244,&vainSBool,&vainSBool,&vainSFloat,&var245,&var246,&internal1_m572_X00,&internal1_m572_V00,&internal1_m572_Pav0,&internal1_m572_Zav0,&internal1_m572_Pv0,&internal1_m572_Zv0,&internal1_m572_RA00,&internal1_m572_RA10,&internal1_m572_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_558_1 = {&A5AD10LDU,&A5AD20LDU,&fEM_A5MC01RC1,&fEM_A5MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERNL1,&fEM_A5UC10RIM,&fRM_0_0,&fRM_1500_0,&fRM_n50_,&fRM_0_10,&fEM_A5MC01RSP,&vainSFloat,&var247,&var248,&vainSBool,&vainSBool,&vainSFloat,&var249,&var250,&internal1_m558_X00,&internal1_m558_V00,&internal1_m558_Pav0,&internal1_m558_Zav0,&internal1_m558_Pv0,&internal1_m558_Zv0,&internal1_m558_RA00,&internal1_m558_RA10,&internal1_m558_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_447_1 = {&R2AD10LDU,&R2AD20LDU,&fEM_R2MC01RC1,&fEM_R2MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERMDZ2,&fEM_R1UC10RIM,&fRM_0_0,&fRM_2000_0,&fRM_n150_,&fRM_0_50,&fEM_R2MC01RSP,&vainSFloat,&var251,&var252,&vainSBool,&vainSBool,&vainSFloat,&var253,&var254,&internal1_m447_X00,&internal1_m447_V00,&internal1_m447_Pav0,&internal1_m447_Zav0,&internal1_m447_Pv0,&internal1_m447_Zv0,&internal1_m447_RA00,&internal1_m447_RA10,&internal1_m447_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_433_1 = {&R1AD10LDU,&R1AD20LDU,&fEM_R1MC01RC1,&fEM_R1MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERMDZ1,&fEM_R1UC10RIM,&fRM_0_0,&fRM_2000_0,&fRM_n150_,&fRM_0_50,&fEM_R1MC01RSP,&vainSFloat,&var255,&var256,&vainSBool,&vainSBool,&vainSFloat,&var257,&var258,&internal1_m433_X00,&internal1_m433_V00,&internal1_m433_Pav0,&internal1_m433_Zav0,&internal1_m433_Pv0,&internal1_m433_Zv0,&internal1_m433_RA00,&internal1_m433_RA10,&internal1_m433_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_484_1 = {&B6AD10LDU,&B6AD20LDU,&fEM_B6MC01RC1,&fEM_B6MV01RC1,&fRM_1_0,&fEM_A6US80RDU,&iEM_TERBZ2,&fEM_A6UC10RIM,&fRM_0_0,&fRM_180_0,&fRM_n50_,&fRM_0_10,&fEM_B6MC01RSP,&vainSFloat,&var259,&var260,&vainSBool,&vainSBool,&vainSFloat,&var261,&var262,&internal1_m484_X00,&internal1_m484_V00,&internal1_m484_Pav0,&internal1_m484_Zav0,&internal1_m484_Pv0,&internal1_m484_Zv0,&internal1_m484_RA00,&internal1_m484_RA10,&internal1_m484_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_385_1 = {&A6AD10LDU,&A6AD20LDU,&fEM_A6MC01RC1,&fEM_A6MV01RC1,&fRM_1_0,&fEM_A6US80RDU,&iEM_TERBZ1,&fEM_A6UC10RIM,&fRM_0_0,&fRM_180_0,&fRM_n50_,&fRM_0_10,&fEM_A6MC01RSP,&vainSFloat,&var263,&var264,&vainSBool,&vainSBool,&vainSFloat,&var265,&var266,&internal1_m385_X00,&internal1_m385_V00,&internal1_m385_Pav0,&internal1_m385_Zav0,&internal1_m385_Pv0,&internal1_m385_Zv0,&internal1_m385_RA00,&internal1_m385_RA10,&internal1_m385_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_370_1 = {&A8AD20LDU,&A8AD10LDU,&fEM_A8MC01RC1,&fEM_A8MV01RC1,&fEM_A8UV80RDU,&fEM_A8US80RDU,&iEM_TERDS2,&fEM_A8UC10RIM,&fEM_A8UC20RIM,&fEM_A8UC11RIM,&fEM_A8UC21RIM,&fEM_A8UC08RDU,&fEM_A8MC01RSP,&var267,&var268,&var269,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m370_X00,&internal1_m370_V00,&internal1_m370_Pav0,&internal1_m370_Zav0,&internal1_m370_Pv0,&internal1_m370_Zv0,&internal1_m370_RA00,&internal1_m370_RA10,&internal1_m370_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_354_1 = {&B8AD20LDU,&B8AD10LDU,&fEM_B8MC01RC1,&fEM_B8MV01RC1,&fEM_B8UV80RDU,&fEM_B8US80RDU,&iEM_TERMAZ2,&fEM_B8UC10RIM,&fEM_B8UC20RIM,&fEM_B8UC11RIM,&fEM_B8UC21RIM,&fEM_B8UC08RDU,&fEM_B8MC01RSP,&var270,&var271,&var272,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m354_X00,&internal1_m354_V00,&internal1_m354_Pav0,&internal1_m354_Zav0,&internal1_m354_Pv0,&internal1_m354_Zv0,&internal1_m354_RA00,&internal1_m354_RA10,&internal1_m354_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_449_1 = {&R2AD10LDU,&R2AD20LDU,&fEM_R2MC01RC1,&fEM_R2MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERMDZ2,&fEM_R1UC10RIM,&fRM_0_0,&fRM_2000_0,&fRM_n150_,&fRM_0_50,&fEM_R2MC01RSP,&vainSFloat,&var251,&var252,&vainSBool,&vainSBool,&vainSFloat,&var253,&var254,&internal1_m449_X00,&internal1_m449_V00,&internal1_m449_Pav0,&internal1_m449_Zav0,&internal1_m449_Pv0,&internal1_m449_Zv0,&internal1_m449_RA00,&internal1_m449_RA10,&internal1_m449_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_435_1 = {&R1AD10LDU,&R1AD20LDU,&fEM_R1MC01RC1,&fEM_R1MV01RC1,&fRM_1_,&fRM_0_,&iEM_TERMDZ1,&fEM_R1UC10RIM,&fRM_0_0,&fRM_2000_0,&fRM_n150_,&fRM_0_50,&fEM_R1MC01RSP,&vainSFloat,&var255,&var256,&vainSBool,&vainSBool,&vainSFloat,&var257,&var258,&internal1_m435_X00,&internal1_m435_V00,&internal1_m435_Pav0,&internal1_m435_Zav0,&internal1_m435_Pv0,&internal1_m435_Zv0,&internal1_m435_RA00,&internal1_m435_RA10,&internal1_m435_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_486_1 = {&B6AD10LDU,&B6AD20LDU,&fEM_B6MC01RC1,&fEM_B6MV01RC1,&fRM_1_0,&fEM_A6US80RDU,&iEM_TERBZ2,&fEM_A6UC10RIM,&fRM_0_0,&fRM_180_0,&fRM_n50_,&fRM_0_10,&fEM_B6MC01RSP,&vainSFloat,&var259,&var260,&vainSBool,&vainSBool,&vainSFloat,&var261,&var262,&internal1_m486_X00,&internal1_m486_V00,&internal1_m486_Pav0,&internal1_m486_Zav0,&internal1_m486_Pv0,&internal1_m486_Zv0,&internal1_m486_RA00,&internal1_m486_RA10,&internal1_m486_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_387_1 = {&A6AD10LDU,&A6AD20LDU,&fEM_A6MC01RC1,&fEM_A6MV01RC1,&fRM_1_0,&fEM_A6US80RDU,&iEM_TERBZ1,&fEM_A6UC10RIM,&fRM_0_0,&fRM_180_0,&fRM_n50_,&fRM_0_10,&fEM_A6MC01RSP,&vainSFloat,&var263,&var264,&vainSBool,&vainSBool,&vainSFloat,&var265,&var266,&internal1_m387_X00,&internal1_m387_V00,&internal1_m387_Pav0,&internal1_m387_Zav0,&internal1_m387_Pv0,&internal1_m387_Zv0,&internal1_m387_RA00,&internal1_m387_RA10,&internal1_m387_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_372_1 = {&A8AD20LDU,&A8AD10LDU,&fEM_A8MC01RC1,&fEM_A8MV01RC1,&fEM_A8UV80RDU,&fEM_A8US80RDU,&iEM_TERDS2,&fEM_A8UC10RIM,&fEM_A8UC20RIM,&fEM_A8UC11RIM,&fEM_A8UC21RIM,&fEM_A8UC08RDU,&fEM_A8MC01RSP,&var267,&var268,&var269,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m372_X00,&internal1_m372_V00,&internal1_m372_Pav0,&internal1_m372_Zav0,&internal1_m372_Pv0,&internal1_m372_Zv0,&internal1_m372_RA00,&internal1_m372_RA10,&internal1_m372_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_356_1 = {&B8AD20LDU,&B8AD10LDU,&fEM_B8MC01RC1,&fEM_B8MV01RC1,&fEM_B8UV80RDU,&fEM_B8US80RDU,&iEM_TERMAZ2,&fEM_B8UC10RIM,&fEM_B8UC20RIM,&fEM_B8UC11RIM,&fEM_B8UC21RIM,&fEM_B8UC08RDU,&fEM_B8MC01RSP,&var270,&var271,&var272,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m356_X00,&internal1_m356_V00,&internal1_m356_Pav0,&internal1_m356_Zav0,&internal1_m356_Pv0,&internal1_m356_Zv0,&internal1_m356_RA00,&internal1_m356_RA10,&internal1_m356_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_884_1 = {&R4AD10LDU,&R4AD20LDU,&fEM_R4MC01RC1,&fEM_R4MV01RC1,&fEM_R4UV80RDU,&fEM_R4US80RDU,&iEM_TERTLG,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC08RDU,&fEM_R4MC01RSP,&vainSFloat,&var273,&var274,&var275,&var276,&vainSFloat,&var277,&var278,&internal1_m884_X00,&internal1_m884_V00,&internal1_m884_Pav0,&internal1_m884_Zav0,&internal1_m884_Pv0,&internal1_m884_Zv0,&internal1_m884_RA00,&internal1_m884_RA10,&internal1_m884_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_azbars  S_azbars_176_1 = {&var316,&var300,&var286,&var330,&fEM_R0UR30RIM,&B7AP31LDU,&var190,&lEM_R8AD10LC1,&var172,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_B0UT03RSP,&var279,&var280,&var281,&var282,&var283,&var284,&var285,&internal1_m176_C1,&internal1_m176_C2,&internal1_m176_C3,&internal1_m176_C4,&internal1_m176_C5,&internal1_m176_C6,&internal1_m176_N20,array_m176_C0_1,&internal1_m176_ImpINI0,&internal1_m176_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_290_1 = {&B3AD11LDU,&B3AD21LDU,&B3AD02LDU,&B3AD01LDU,&B3AD03LDU,&B3AD04LDU,&B3AD05LDU,&var200,&B3AD33LDU,&lRM_1_,&fEM_B3MC01RC1,&fEM_B3MC02RC1,&fEM_B3MV01RC1,&fEM_B3MV02RC1,&lRM_0_,array_m290_Vr_1,&fEM_A3UC02RDU,&var169,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS2,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_B3MC01RSP,&fEM_B3MC02RSP,&var286,&var287,&var288,&var289,&var290,&vainSFloat,&vainSFloat,&var291,&var292,&vainSBool,&vainSBool,&internal1_m290_X00,&internal1_m290_Sh00,&internal1_m290_RV00,&internal1_m290_ShV00,&internal1_m290_Ppv0,&internal1_m290_Pav0,&internal1_m290_Zav0,&internal1_m290_RA00,&internal1_m290_RA10,&internal1_m290_RA50,&internal1_m290_fls,&internal1_m290_flp,&internal1_m290_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_126_1 = {&A3AD11LDU,&A3AD21LDU,&A3AD02LDU,&A3AD01LDU,&A3AD03LDU,&A3AD04LDU,&A3AD05LDU,&var208,&A3AD33LDU,&lRM_1_,&fEM_A3MC01RC1,&fEM_A3MC02RC1,&fEM_A3MV01RC1,&fEM_A3MV02RC1,&lRM_0_,array_m126_Vr_1,&fEM_A3UC02RDU,&var171,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS1,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_A3MC01RSP,&fEM_A3MC02RSP,&var293,&var294,&var295,&var296,&var297,&vainSFloat,&vainSFloat,&var298,&var299,&vainSBool,&vainSBool,&internal1_m126_X00,&internal1_m126_Sh00,&internal1_m126_RV00,&internal1_m126_ShV00,&internal1_m126_Ppv0,&internal1_m126_Pav0,&internal1_m126_Zav0,&internal1_m126_RA00,&internal1_m126_RA10,&internal1_m126_RA50,&internal1_m126_fls,&internal1_m126_flp,&internal1_m126_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_258_1 = {&B2AD11LDU,&B2AD21LDU,&B2AD02LDU,&B2AD01LDU,&B2AD03LDU,&B2AD04LDU,&B2AD05LDU,&var201,&B2AD33LDU,&var203,&fEM_B2MC01RC1,&fEM_B2MC02RC1,&fEM_B2MV01RC1,&fEM_B2MV02RC1,&lRM_1_,array_m258_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB2,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_B2MC01RSP,&fEM_B2MC02RSP,&var300,&var301,&vainSBool,&var302,&var303,&vainSFloat,&vainSFloat,&var304,&var305,&var306,&var307,&internal1_m258_X00,&internal1_m258_Sh00,&internal1_m258_RV00,&internal1_m258_ShV00,&internal1_m258_Ppv0,&internal1_m258_Pav0,&internal1_m258_Zav0,&internal1_m258_RA00,&internal1_m258_RA10,&internal1_m258_RA50,&internal1_m258_fls,&internal1_m258_flp,&internal1_m258_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_97_1 = {&A2AD11LDU,&A2AD21LDU,&A2AD02LDU,&A2AD01LDU,&A2AD03LDU,&A2AD04LDU,&A2AD05LDU,&var213,&A2AD33LDU,&var215,&fEM_A2MC01RC1,&fEM_A2MC02RC1,&fEM_A2MV01RC1,&fEM_A2MV02RC1,&lRM_1_,array_m97_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB1,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_A2MC01RSP,&fEM_A2MC02RSP,&var308,&var309,&vainSBool,&var310,&var311,&vainSFloat,&vainSFloat,&var312,&var313,&var314,&var315,&internal1_m97_X00,&internal1_m97_Sh00,&internal1_m97_RV00,&internal1_m97_ShV00,&internal1_m97_Ppv0,&internal1_m97_Pav0,&internal1_m97_Zav0,&internal1_m97_RA00,&internal1_m97_RA10,&internal1_m97_RA50,&internal1_m97_fls,&internal1_m97_flp,&internal1_m97_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_223_1 = {&B1AD11LDU,&B1AD21LDU,&B1AD02LDU,&B1AD01LDU,&B1AD03LDU,&B1AD04LDU,&B1AD05LDU,&var207,&lRM_1_,&var206,&fEM_B1MC01RC1,&fEM_B1MC02RC1,&fEM_B1MV01RC1,&fEM_B1MV02RC1,&lRM_1_,array_m223_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB2,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_B1MC01RSP,&fEM_B1MC02RSP,&var316,&var317,&vainSBool,&var318,&var319,&vainSFloat,&vainSFloat,&var320,&vainSBool,&var321,&var322,&internal1_m223_X00,&internal1_m223_Sh00,&internal1_m223_RV00,&internal1_m223_ShV00,&internal1_m223_Ppv0,&internal1_m223_Pav0,&internal1_m223_Zav0,&internal1_m223_RA00,&internal1_m223_RA10,&internal1_m223_RA50,&internal1_m223_fls,&internal1_m223_flp,&internal1_m223_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_61_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03LDU,&A1AD04LDU,&A1AD05LDU,&var212,&lRM_1_,&var211,&fEM_A1MC01RC1,&fEM_A1MC02RC1,&fEM_A1MV01RC1,&fEM_A1MV02RC1,&lRM_1_,array_m61_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB1,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_A1MC01RSP,&fEM_A1MC02RSP,&var323,&var324,&var325,&var326,&var327,&vainSFloat,&vainSFloat,&vainSBool,&vainSBool,&var328,&var329,&internal1_m61_X00,&internal1_m61_Sh00,&internal1_m61_RV00,&internal1_m61_ShV00,&internal1_m61_Ppv0,&internal1_m61_Pav0,&internal1_m61_Zav0,&internal1_m61_RA00,&internal1_m61_RA10,&internal1_m61_RA50,&internal1_m61_fls,&internal1_m61_flp,&internal1_m61_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_azbars  S_azbars_177_1 = {&var316,&var300,&var286,&var330,&fEM_R0UR30RIM,&B7AP31LDU,&var190,&lEM_R8AD10LC1,&var172,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_B0UT03RSP,&var279,&var280,&var281,&var282,&var283,&var284,&var285,&internal1_m177_C1,&internal1_m177_C2,&internal1_m177_C3,&internal1_m177_C4,&internal1_m177_C5,&internal1_m177_C6,&internal1_m177_N20,array_m177_C0_1,&internal1_m177_ImpINI0,&internal1_m177_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_295_1 = {&B3AD11LDU,&B3AD21LDU,&B3AD02LDU,&B3AD01LDU,&B3AD03LDU,&B3AD04LDU,&B3AD05LDU,&var200,&B3AD33LDU,&lRM_1_,&fEM_B3MC01RC1,&fEM_B3MC02RC1,&fEM_B3MV01RC1,&fEM_B3MV02RC1,&lRM_0_,array_m295_Vr_1,&fEM_A3UC02RDU,&var169,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS2,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_B3MC01RSP,&fEM_B3MC02RSP,&var286,&var287,&var288,&var289,&var290,&vainSFloat,&vainSFloat,&var291,&var292,&vainSBool,&vainSBool,&internal1_m295_X00,&internal1_m295_Sh00,&internal1_m295_RV00,&internal1_m295_ShV00,&internal1_m295_Ppv0,&internal1_m295_Pav0,&internal1_m295_Zav0,&internal1_m295_RA00,&internal1_m295_RA10,&internal1_m295_RA50,&internal1_m295_fls,&internal1_m295_flp,&internal1_m295_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_130_1 = {&A3AD11LDU,&A3AD21LDU,&A3AD02LDU,&A3AD01LDU,&A3AD03LDU,&A3AD04LDU,&A3AD05LDU,&var208,&A3AD33LDU,&lRM_1_,&fEM_A3MC01RC1,&fEM_A3MC02RC1,&fEM_A3MV01RC1,&fEM_A3MV02RC1,&lRM_0_,array_m130_Vr_1,&fEM_A3UC02RDU,&var171,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS1,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_A3MC01RSP,&fEM_A3MC02RSP,&var293,&var294,&var295,&var296,&var297,&vainSFloat,&vainSFloat,&var298,&var299,&vainSBool,&vainSBool,&internal1_m130_X00,&internal1_m130_Sh00,&internal1_m130_RV00,&internal1_m130_ShV00,&internal1_m130_Ppv0,&internal1_m130_Pav0,&internal1_m130_Zav0,&internal1_m130_RA00,&internal1_m130_RA10,&internal1_m130_RA50,&internal1_m130_fls,&internal1_m130_flp,&internal1_m130_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_259_1 = {&B2AD11LDU,&B2AD21LDU,&B2AD02LDU,&B2AD01LDU,&B2AD03LDU,&B2AD04LDU,&B2AD05LDU,&var201,&B2AD33LDU,&var203,&fEM_B2MC01RC1,&fEM_B2MC02RC1,&fEM_B2MV01RC1,&fEM_B2MV02RC1,&lRM_1_,array_m259_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB2,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_B2MC01RSP,&fEM_B2MC02RSP,&var300,&var301,&vainSBool,&var302,&var303,&vainSFloat,&vainSFloat,&var304,&var305,&var306,&var307,&internal1_m259_X00,&internal1_m259_Sh00,&internal1_m259_RV00,&internal1_m259_ShV00,&internal1_m259_Ppv0,&internal1_m259_Pav0,&internal1_m259_Zav0,&internal1_m259_RA00,&internal1_m259_RA10,&internal1_m259_RA50,&internal1_m259_fls,&internal1_m259_flp,&internal1_m259_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_94_1 = {&A2AD11LDU,&A2AD21LDU,&A2AD02LDU,&A2AD01LDU,&A2AD03LDU,&A2AD04LDU,&A2AD05LDU,&var213,&A2AD33LDU,&var215,&fEM_A2MC01RC1,&fEM_A2MC02RC1,&fEM_A2MV01RC1,&fEM_A2MV02RC1,&lRM_1_,array_m94_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB1,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_A2MC01RSP,&fEM_A2MC02RSP,&var308,&var309,&vainSBool,&var310,&var311,&vainSFloat,&vainSFloat,&var312,&var313,&var314,&var315,&internal1_m94_X00,&internal1_m94_Sh00,&internal1_m94_RV00,&internal1_m94_ShV00,&internal1_m94_Ppv0,&internal1_m94_Pav0,&internal1_m94_Zav0,&internal1_m94_RA00,&internal1_m94_RA10,&internal1_m94_RA50,&internal1_m94_fls,&internal1_m94_flp,&internal1_m94_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_224_1 = {&B1AD11LDU,&B1AD21LDU,&B1AD02LDU,&B1AD01LDU,&B1AD03LDU,&B1AD04LDU,&B1AD05LDU,&var207,&lRM_1_,&var206,&fEM_B1MC01RC1,&fEM_B1MC02RC1,&fEM_B1MV01RC1,&fEM_B1MV02RC1,&lRM_1_,array_m224_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB2,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_B1MC01RSP,&fEM_B1MC02RSP,&var316,&var317,&vainSBool,&var318,&var319,&vainSFloat,&vainSFloat,&var320,&vainSBool,&var321,&var322,&internal1_m224_X00,&internal1_m224_Sh00,&internal1_m224_RV00,&internal1_m224_ShV00,&internal1_m224_Ppv0,&internal1_m224_Pav0,&internal1_m224_Zav0,&internal1_m224_RA00,&internal1_m224_RA10,&internal1_m224_RA50,&internal1_m224_fls,&internal1_m224_flp,&internal1_m224_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_59_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03LDU,&A1AD04LDU,&A1AD05LDU,&var212,&lRM_1_,&var211,&fEM_A1MC01RC1,&fEM_A1MC02RC1,&fEM_A1MV01RC1,&fEM_A1MV02RC1,&lRM_1_,array_m59_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB1,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_A1MC01RSP,&fEM_A1MC02RSP,&var323,&var324,&var325,&var326,&var327,&vainSFloat,&vainSFloat,&vainSBool,&vainSBool,&var328,&var329,&internal1_m59_X00,&internal1_m59_Sh00,&internal1_m59_RV00,&internal1_m59_ShV00,&internal1_m59_Ppv0,&internal1_m59_Pav0,&internal1_m59_Zav0,&internal1_m59_RA00,&internal1_m59_RA10,&internal1_m59_RA50,&internal1_m59_fls,&internal1_m59_flp,&internal1_m59_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_azbars  S_azbars_14_1 = {&var323,&var308,&var293,&var279,&fEM_R0UR30RIM,&A7AP31LDU,&var187,&lEM_R8AD10LC1,&var173,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var223,&var225,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_A0UT03RSP,&var330,&var331,&var332,&var333,&var334,&var335,&vainSFloat,&internal1_m14_C1,&internal1_m14_C2,&internal1_m14_C3,&internal1_m14_C4,&internal1_m14_C5,&internal1_m14_C6,&internal1_m14_N20,array_m14_C0_1,&internal1_m14_ImpINI0,&internal1_m14_MyFirstEnterFlag,&bFirstEnterFlag};
 
 
@@ -5875,12 +5875,12 @@ void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_84_1);
-  noto(&S_noto_248_1);
+  noto(&S_noto_249_1);
   noto(&S_noto_582_1);
   noto(&S_noto_583_1);
-  ovb1(&S_ovb1_30_1);
-  ovb1(&S_ovb1_191_1);
-  noto(&S_noto_495_1);
+  ovb1(&S_ovb1_25_1);
+  ovb1(&S_ovb1_192_1);
+  noto(&S_noto_496_1);
   bol(&S_bol_920_1);
   bol(&S_bol_930_1);
   bol(&S_bol_908_1);
@@ -5888,43 +5888,43 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   bol(&S_bol_932_1);
   zpfs(&S_zpfs_607_1);
   zpfs(&S_zpfs_619_1);
-  noto(&S_noto_464_1);
-  noto(&S_noto_462_1);
-  noto(&S_noto_472_1);
-  noto(&S_noto_471_1);
+  noto(&S_noto_466_1);
+  noto(&S_noto_463_1);
+  noto(&S_noto_474_1);
+  noto(&S_noto_473_1);
   to3val(&S_to3val_946_1);
   asmot(&S_asmot_884_1);
-  asmot(&S_asmot_354_1);
-  asmot(&S_asmot_370_1);
-  asmot(&S_asmot_385_1);
-  asmot(&S_asmot_484_1);
-  asmot(&S_asmot_433_1);
-  asmot(&S_asmot_447_1);
+  asmot(&S_asmot_356_1);
+  asmot(&S_asmot_372_1);
+  asmot(&S_asmot_387_1);
+  asmot(&S_asmot_486_1);
+  asmot(&S_asmot_435_1);
+  asmot(&S_asmot_449_1);
   asmot(&S_asmot_558_1);
   asmot(&S_asmot_572_1);
   fsumo(&S_fsumo_888_1);
   inf(&S_inf_9_1);
   inf(&S_inf_7_1);
   fsubo(&S_fsubo_8_1);
-  fsubo(&S_fsubo_360_1);
+  fsubo(&S_fsubo_362_1);
   noto(&S_noto_45_1);
   noto(&S_noto_46_1);
-  noto(&S_noto_209_1);
   noto(&S_noto_210_1);
-  orn(&S_orn_617_1);
+  noto(&S_noto_211_1);
+  orn(&S_orn_615_1);
   asmot(&S_asmot_584_1);
   asmot(&S_asmot_585_1);
   noto(&S_noto_592_1);
   noto(&S_noto_594_1);
-  noto(&S_noto_459_1);
-  noto(&S_noto_493_1);
-  lk(&S_lk_499_1);
+  noto(&S_noto_461_1);
+  noto(&S_noto_494_1);
+  lk(&S_lk_500_1);
   orn(&S_orn_897_1);
   to3val(&S_to3val_523_1);
   toao(&S_toao_528_1);
   toao(&S_toao_529_1);
-  to3val(&S_to3val_500_1);
-  toao(&S_toao_507_1);
+  to3val(&S_to3val_501_1);
+  toao(&S_toao_509_1);
   twobool(&S_twobool_544_1);
   twobool(&S_twobool_641_1);
   twobool(&S_twobool_661_1);
@@ -5973,21 +5973,21 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_1029_1);
   twobool(&S_twobool_56_1);
   twobool(&S_twobool_41_1);
-  twobool(&S_twobool_220_1);
-  twobool(&S_twobool_202_1);
+  twobool(&S_twobool_221_1);
+  twobool(&S_twobool_203_1);
   zpfs(&S_zpfs_593_1);
   zpfs(&S_zpfs_595_1);
   or2(&S_or2_898_1);
   or2(&S_or2_905_1);
   or2(&S_or2_912_1);
   or2(&S_or2_921_1);
-  ampl(&S_ampl_361_1);
-  rs(&S_rs_458_1);
-  rs(&S_rs_457_1);
-  rs(&S_rs_470_1);
-  rs(&S_rs_469_1);
+  ampl(&S_ampl_363_1);
+  rs(&S_rs_460_1);
+  rs(&S_rs_459_1);
+  rs(&S_rs_472_1);
+  rs(&S_rs_471_1);
   twobool(&S_twobool_526_1);
-  twobool(&S_twobool_509_1);
+  twobool(&S_twobool_510_1);
   twobool(&S_twobool_643_1);
   twobool(&S_twobool_644_1);
   twobool(&S_twobool_665_1);
@@ -6007,85 +6007,85 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   andn(&S_andn_85_1);
   andn(&S_andn_47_1);
   andn(&S_andn_48_1);
-  andn(&S_andn_117_1);
-  andn(&S_andn_211_1);
+  andn(&S_andn_118_1);
   andn(&S_andn_212_1);
+  andn(&S_andn_213_1);
+  andn(&S_andn_251_1);
   andn(&S_andn_250_1);
-  andn(&S_andn_249_1);
-  andn(&S_andn_282_1);
+  andn(&S_andn_284_1);
   noto(&S_noto_899_1);
   andn(&S_andn_894_1);
   asmot(&S_asmot_597_1);
   asmot(&S_asmot_598_1);
-  asmot(&S_asmot_463_1);
-  asmot(&S_asmot_473_1);
-  asmot(&S_asmot_461_1);
+  asmot(&S_asmot_464_1);
+  asmot(&S_asmot_475_1);
+  asmot(&S_asmot_465_1);
   noto(&S_noto_906_1);
   andn(&S_andn_902_1);
   noto(&S_noto_913_1);
   andn(&S_andn_910_1);
   noto(&S_noto_922_1);
   andn(&S_andn_917_1);
-  lk(&S_lk_498_1);
+  lk(&S_lk_499_1);
   noto(&S_noto_896_1);
   andn(&S_andn_892_1);
   twobool(&S_twobool_1027_1);
-  to3val(&S_to3val_497_1);
-  toao(&S_toao_503_1);
+  to3val(&S_to3val_498_1);
+  toao(&S_toao_505_1);
   twobool(&S_twobool_1005_1);
   twobool(&S_twobool_1007_1);
   twobool(&S_twobool_1006_1);
   twobool(&S_twobool_1025_1);
-  orrsim(&S_orrsim_61_1);
-  orrsim(&S_orrsim_223_1);
-  orrsim(&S_orrsim_97_1);
-  orrsim(&S_orrsim_258_1);
-  orrsim(&S_orrsim_126_1);
-  orrsim(&S_orrsim_290_1);
-  azbars(&S_azbars_176_1);
+  orrsim(&S_orrsim_59_1);
+  orrsim(&S_orrsim_224_1);
+  orrsim(&S_orrsim_94_1);
+  orrsim(&S_orrsim_259_1);
+  orrsim(&S_orrsim_130_1);
+  orrsim(&S_orrsim_295_1);
+  azbars(&S_azbars_177_1);
   bol(&S_bol_605_1);
   bol(&S_bol_611_1);
   bol(&S_bol_621_1);
   mod1(&S_mod1_627_1);
   fsubo(&S_fsubo_74_1);
-  fsubo(&S_fsubo_238_1);
-  fsubo(&S_fsubo_275_1);
-  fsubo(&S_fsubo_111_1);
+  fsubo(&S_fsubo_239_1);
+  fsubo(&S_fsubo_277_1);
+  fsubo(&S_fsubo_112_1);
   orn(&S_orn_622_1);
-  react(&S_react_194_1);
+  react(&S_react_195_1);
   orn(&S_orn_606_1);
   orn(&S_orn_609_1);
-  twobool(&S_twobool_144_1);
-  to3val(&S_to3val_150_1);
-  toao(&S_toao_155_1);
+  twobool(&S_twobool_145_1);
+  to3val(&S_to3val_151_1);
   toao(&S_toao_156_1);
   toao(&S_toao_157_1);
-  twobool(&S_twobool_415_1);
-  twobool(&S_twobool_416_1);
+  toao(&S_toao_158_1);
   twobool(&S_twobool_417_1);
-  to3val(&S_to3val_414_1);
-  ktoenc(&S_ktoenc_419_1);
   twobool(&S_twobool_418_1);
-  twobool(&S_twobool_325_1);
-  twobool(&S_twobool_309_1);
-  twobool(&S_twobool_338_1);
-  to3val(&S_to3val_313_1);
-  ktoenc(&S_ktoenc_317_1);
-  twobool(&S_twobool_337_1);
-  twobool(&S_twobool_339_1);
-  to3val(&S_to3val_323_1);
-  ktoenc(&S_ktoenc_324_1);
-  twobool(&S_twobool_340_1);
-  twobool(&S_twobool_310_1);
-  twobool(&S_twobool_311_1);
-  twobool(&S_twobool_326_1);
+  twobool(&S_twobool_419_1);
+  to3val(&S_to3val_416_1);
+  ktoenc(&S_ktoenc_421_1);
+  twobool(&S_twobool_420_1);
   twobool(&S_twobool_327_1);
+  twobool(&S_twobool_311_1);
+  twobool(&S_twobool_340_1);
+  to3val(&S_to3val_315_1);
+  ktoenc(&S_ktoenc_319_1);
+  twobool(&S_twobool_339_1);
+  twobool(&S_twobool_341_1);
+  to3val(&S_to3val_325_1);
+  ktoenc(&S_ktoenc_326_1);
+  twobool(&S_twobool_342_1);
+  twobool(&S_twobool_312_1);
+  twobool(&S_twobool_313_1);
+  twobool(&S_twobool_328_1);
+  twobool(&S_twobool_329_1);
   ampl(&S_ampl_632_1);
-  twobool(&S_twobool_398_1);
+  twobool(&S_twobool_400_1);
+  twobool(&S_twobool_401_1);
   twobool(&S_twobool_399_1);
-  twobool(&S_twobool_397_1);
-  to3val(&S_to3val_400_1);
-  ktoenc(&S_ktoenc_406_1);
+  to3val(&S_to3val_402_1);
+  ktoenc(&S_ktoenc_408_1);
   twobool(&S_twobool_941_1);
   twobool(&S_twobool_942_1);
   twobool(&S_twobool_945_1);
@@ -6096,8 +6096,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_958_1);
   twobool(&S_twobool_959_1);
   twobool(&S_twobool_962_1);
-  andn(&S_andn_345_1);
-  twobool(&S_twobool_396_1);
+  andn(&S_andn_347_1);
+  twobool(&S_twobool_398_1);
   azbars(&S_azbars_14_1);
   vchs(&S_vchs_694_1);
   vchs(&S_vchs_704_1);
@@ -6111,17 +6111,17 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   vchs(&S_vchs_774_1);
   vchs(&S_vchs_782_1);
   vchs(&S_vchs_791_1);
-  twobool(&S_twobool_143_1);
-  to3val(&S_to3val_152_1);
-  toao(&S_toao_158_1);
+  twobool(&S_twobool_144_1);
+  to3val(&S_to3val_153_1);
   toao(&S_toao_159_1);
   toao(&S_toao_160_1);
+  toao(&S_toao_161_1);
   to3val(&S_to3val_633_1);
   vchs(&S_vchs_854_1);
   vchs(&S_vchs_862_1);
   vchs(&S_vchs_872_1);
-  setData(idlk2,&var169);
-  setData(idlk1,&var171);
+  setData(idkrb2,&var300);
+  setData(idkrb1,&var308);
   setData(idR0IS01FI0,&iRM_1_);
   setData(idA0IT03IRP,&var157);
   setData(idB0IT03IRP,&var151);
@@ -6294,7 +6294,7 @@ void InitInternalParametr(void)
 {
   int i;
   for( i=0;i<6;i++ )
-    array_m176_C0_1[i] = &(&internal1_m176_C0)[i*5];
+    array_m177_C0_1[i] = &(&internal1_m177_C0)[i*5];
   for( i=0;i<6;i++ )
     array_m14_C0_1[i] = &(&internal1_m14_C0)[i*5];
 }
