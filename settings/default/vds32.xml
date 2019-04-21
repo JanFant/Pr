@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vds32" description="Типовой драйвер ВДС32" code="0xc2" lenData="66" lenInit="15" header="fp8/drivers/vds32r.h">
+<driver name="vds32" description="Типовой драйвер ВДС32" code="0xc2" lenData="132" lenInit="15" header="fp8/drivers/vds32r.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   
@@ -41,6 +41,7 @@
         <signal name="K31VDSR" format="1" mode="input" address="60"/>
         <signal name="K32VDSR" format="1" mode="input" address="62"/>
         <signal name="Diagn"   format="3" mode="input" address="64"/> 
+        <!-- <signal name="PastValue[32]"   format="1" mode="input" address="66"/>  32 * 2 = 64; 66 + 64 = 130    -->
     </signals>
     <init type="vds32r_inipar">
         <signal name="type" mode="input" format="18" value="0xc2" address="0"/>
