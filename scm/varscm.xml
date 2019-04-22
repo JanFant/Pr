@@ -86,8 +86,6 @@
 <var  name="R0IN02FI4" description="( - , SA4) Выход КНК15-1 Гц от ПТИ" format="8"></var>
 <var  name="R0IN01FI3" description="( - , SA3) Выход СНМ-11 Гц от ПТИ" format="8"></var>
 <var  name="R0IN01FI2" description="( - , SA2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="krb2" description="( - , - ) " format="8"></var>
-<var  name="krb1" description="( - , - ) " format="8"></var>
 <var  name="B0SN07RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
 <var  name="B0SN06RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
 <var  name="B0SN05RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
@@ -100,6 +98,8 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
+<var  name="krb2" description="( - , - ) " format="8"></var>
+<var  name="krb1" description="( - , - ) " format="8"></var>
 <var  name="R0DEUMLSS" description="( - , SCM) Сигнал управления моделью" format="3"></var>
 <var  name="R0MW11IP1" description="( - , SCM) Переключатель ВЫСТРЕЛ" format="3"></var>
 <var  name="R0IS01FI0" description="( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором" format="3"></var>
@@ -942,6 +942,9 @@
 <var  name="internal1_m177_C5" description="(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m177_C6" description="(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m177_N20" description="(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
+<var  name="internal1_m177_N00" description="(internal1_m177_N00) N00 - текущая концентрация нейтронов" format="8"></var>
+<var  name="internal1_m177_R00" description="(internal1_m177_R00) R00 - текущая реактивность" format="8"></var>
+<var  name="internal1_m177_T00" description="(internal1_m177_T00) T00 - текущая температура" format="8"></var>
 <var  name="internal1_m177_C0" description="(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m177_ImpINI0" description="(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m177_MyFirstEnterFlag" description="(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1030,6 +1033,9 @@
 <var  name="internal1_m14_C5" description="(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m14_C6" description="(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m14_N20" description="(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
+<var  name="internal1_m14_N00" description="(internal1_m14_N00) N00 - текущая концентрация нейтронов" format="8"></var>
+<var  name="internal1_m14_R00" description="(internal1_m14_R00) R00 - текущая реактивность" format="8"></var>
+<var  name="internal1_m14_T00" description="(internal1_m14_T00) T00 - текущая температура" format="8"></var>
 <var  name="internal1_m14_C0" description="(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m14_ImpINI0" description="(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m14_MyFirstEnterFlag" description="(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>

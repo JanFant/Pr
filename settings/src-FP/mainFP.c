@@ -13,21 +13,21 @@
 #include "teprLib/allTeprol.h"
 #include "master.h"
 
-static struct timeval tv1, tv2, dtv;
+static struct timeval tv1, tv2, dtv, tvStakt;
 
-void time_start() {
-    gettimeofday(&tv1, NULL);
+void time_start(struct timeval *TempTV){
+    gettimeofday(TempTV, NULL);
 }
 
-void takt_time_cycle() {
+float takt_time_cycle(struct timeval TempTV) {
     gettimeofday(&tv2, NULL);
-    dtv.tv_sec = tv2.tv_sec - tv1.tv_sec;
-    dtv.tv_usec = tv2.tv_usec - tv1.tv_usec;
+    dtv.tv_sec = tv2.tv_sec - TempTV.tv_sec;
+    dtv.tv_usec = tv2.tv_usec - TempTV.tv_usec;
     if (dtv.tv_usec < 0) {
         dtv.tv_sec--;
         dtv.tv_usec += 1000000;
     }
-    takt = (float) dtv.tv_sec + ((float) dtv.tv_usec / 1000000.0);
+    return dtv.tv_sec + ((float) dtv.tv_usec / 1000000.0);
 }
 
 long int time_cycle() {
@@ -56,8 +56,9 @@ int main(int argc, char **argv) {
     initNetPhoto();
 %attach_1%
 %attach_2%
+    time_start(&tvStakt);
     while (1) {
-        time_start();
+        time_start(&tv1);
         readAllModbus();
         if (SimulOn)
             readAllSimul();
@@ -65,7 +66,10 @@ int main(int argc, char **argv) {
 %attach_3%
         }
 %attach_4%
+        takt = takt_time_cycle(tvStakt);
+        time_start(&tvStakt);
         MainCycle();
+        taktScheme = takt_time_cycle(tvStakt);
         if (SimulOn)
             writeAllSimul();
         else {
