@@ -6,13 +6,15 @@
         if (initAllDrivers(drivers)) {
             //Запустились в режиме резервного
             syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
+            InitInternalParametr();
             master = 0;
             if (initUDP(master, nomer, &setUDP) < 0)
                 return EXIT_FAILURE;
             while (initAllDrivers(drivers)) {
-                time_start();
+                time_start(&tvStakt);
                 readAllModbus();
                 reciveVariables();
+                MainCycle();
                 writeAllModbus();
                 long int t = time_cycle();
                 if (t > StepCycle) {

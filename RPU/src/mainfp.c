@@ -13,21 +13,21 @@
 #include "teprLib/allTeprol.h"
 #include "master.h"
 
-static struct timeval tv1, tv2, dtv;
+static struct timeval tv1, tv2, dtv, tvStakt;
 
-void time_start() {
-    gettimeofday(&tv1, NULL);
+void time_start(struct timeval *TempTV){
+    gettimeofday(TempTV, NULL);
 }
 
-void takt_time_cycle() {
+float takt_time_cycle(struct timeval TempTV) {
     gettimeofday(&tv2, NULL);
-    dtv.tv_sec = tv2.tv_sec - tv1.tv_sec;
-    dtv.tv_usec = tv2.tv_usec - tv1.tv_usec;
+    dtv.tv_sec = tv2.tv_sec - TempTV.tv_sec;
+    dtv.tv_usec = tv2.tv_usec - TempTV.tv_usec;
     if (dtv.tv_usec < 0) {
         dtv.tv_sec--;
         dtv.tv_usec += 1000000;
     }
-    takt = (float) dtv.tv_sec + ((float) dtv.tv_usec / 1000000.0);
+    return dtv.tv_sec + ((float) dtv.tv_usec / 1000000.0);
 }
 
 long int time_cycle() {
@@ -40,6 +40,8 @@ long int time_cycle() {
     }
     return dtv.tv_sec * 1000 + dtv.tv_usec / 1000;
 }
+
+float taktScheme = 0;
 
 int main(int argc, char **argv) {
     openlog("SUB", LOG_PERROR, LOG_USER);
@@ -63,13 +65,15 @@ int main(int argc, char **argv) {
         if (initAllDrivers(drivers)) {
             //Р вЂ”Р В°Р С—РЎС“РЎРѓРЎвЂљР С‘Р В»Р С‘РЎРѓРЎРЉ Р Р† РЎР‚Р ВµР В¶Р С‘Р СР Вµ РЎР‚Р ВµР В·Р ВµРЎР‚Р Р†Р Р…Р С•Р С–Р С•
             syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
+            InitInternalParametr();
             master = 0;
             if (initUDP(master, nomer, &setUDP) < 0)
                 return EXIT_FAILURE;
             while (initAllDrivers(drivers)) {
-                time_start();
+                time_start(&tvStakt);
                 readAllModbus();
                 reciveVariables();
+                MainCycle();
                 writeAllModbus();
                 long int t = time_cycle();
                 if (t > StepCycle) {
@@ -95,8 +99,9 @@ int main(int argc, char **argv) {
     init_dataVchs(buf_VCHS02);
     init_dataVchs(buf_VCHS03);
 
+    time_start(&tvStakt);
     while (1) {
-        time_start();
+        time_start(&tv1);
         readAllModbus();
         if (SimulOn)
             readAllSimul();
@@ -115,7 +120,10 @@ int main(int argc, char **argv) {
         VCHS_post(buf_VCHS02);
         VCHS_post(buf_VCHS03);
 
+        takt = takt_time_cycle(tvStakt);
+        time_start(&tvStakt);
         MainCycle();
+        taktScheme = takt_time_cycle(tvStakt);
         if (SimulOn)
             writeAllSimul();
         else {
@@ -136,7 +144,6 @@ int main(int argc, char **argv) {
         }
         while ((time_cycle()) < StepCycle) {
         }
-        takt_time_cycle();
     }
     stopNetPhoto();
     sync();

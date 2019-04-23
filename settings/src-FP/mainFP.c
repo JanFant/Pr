@@ -41,6 +41,8 @@ long int time_cycle() {
     return dtv.tv_sec * 1000 + dtv.tv_usec / 1000;
 }
 
+float taktScheme = 0;
+
 int main(int argc, char **argv) {
     openlog("SUB", LOG_PERROR, LOG_USER);
     if (initVariableTable(allVariables)) {
@@ -85,7 +87,6 @@ int main(int argc, char **argv) {
         }
         while ((time_cycle()) < StepCycle) {
         }
-        takt_time_cycle();
     }
     stopNetPhoto();
     sync();
