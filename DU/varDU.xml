@@ -36,14 +36,14 @@
 <var  name="A3IS33LDU" description="(vds32:03 - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС1 открыт (обесточен)" format="1"></var>
 <var  name="A3IS35LDU" description="(vds32:03 - K01VDSR, DU) Клапан ВПИС1 открыт (обесточен)" format="1"></var>
 <var  name="A4IS10LDU" description="(vds32:03 - K04VDSR, DU) Клапан Подъём НИ1 открыт (обесточен)" format="1"></var>
-<var  name="A1VN71LZ1" description="(vds32:02 - K21VDSR, - ) Блокировка автоматического подъёма ББ" format="1"></var>
+<var  name="A1VN71LZ1" description="(vds32:02 - K21VDSR, DU) Блокировка автоматического подъёма ББ" format="1"></var>
 <var  name="A1VN71LZ2" description="(vds32:03 - K21VDSR, DU) Блокировка автоматического подъёма ББ" format="1"></var>
 <var  name="A1AB19LDU" description="( - , DU) Блокировка автоматического подъёма ББ1 -превышение нейтронного потока" format="1"></var>
-<var  name="R0AD14LZ1" description="(vds32:02 - K20VDSR, - ) Имитация срабатывания АЗ от II УР" format="1"></var>
+<var  name="R0AD14LZ1" description="(vds32:02 - K20VDSR, DU) Имитация срабатывания АЗ от II УР" format="1"></var>
 <var  name="R0AD14LZ2" description="(vds32:03 - K20VDSR, DU) Имитация срабатывания АЗ от  II УР" format="1"></var>
 <var  name="A3VZ13LZ2" description="(vds32:03 - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
-<var  name="A3VZ13LZ1" description="(vds32:02 - K18VDSR, - ) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
-<var  name="A3VZ15LZ1" description="(vds32:02 - K19VDSR, - ) Имитация срабатывания АЗ от НУП ИС" format="1"></var>
+<var  name="A3VZ13LZ1" description="(vds32:02 - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var  name="A3VZ15LZ1" description="(vds32:02 - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС" format="1"></var>
 <var  name="R0AB08LDU" description="( - , DU) Блокировка кнопки ПУСК - тележка не у образцов" format="1"></var>
 <var  name="A1MC01RP1" description="( - , DU) Заданная координата положения ББ1 мм" format="8"></var>
 <var  name="B1MC01RP1" description="( - , DU) Заданная координата положения ББ2  мм" format="8"></var>
