@@ -259,18 +259,18 @@
 <var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
 <var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
 <var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
-<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1" format="1"></var>
-<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1" format="1"></var>
-<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1" format="1"></var>
-<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, - ) Исправность ИП ББ1" format="1"></var>
-<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, - ) Исправность ИП ИС1" format="1"></var>
-<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, - ) Исправность ИП РБ1" format="1"></var>
-<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2" format="1"></var>
-<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2" format="1"></var>
-<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2" format="1"></var>
-<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, - ) Исправность ИП ББ2" format="1"></var>
-<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, - ) Исправность ИП ИС2" format="1"></var>
-<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, - ) Исправность ИП РБ2" format="1"></var>
+<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, DU) Исправность БУШД ББ1" format="1"></var>
+<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, DU) Исправность БУШД ИС1" format="1"></var>
+<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, DU) Исправность БУШД РБ1" format="1"></var>
+<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, DU) Исправность ИП ББ1" format="1"></var>
+<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, DU) Исправность ИП ИС1" format="1"></var>
+<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, DU) Исправность ИП РБ1" format="1"></var>
+<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, DU) Исправность БУШД ББ2" format="1"></var>
+<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, DU) Исправность БУШД РБ2" format="1"></var>
+<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, DU) Исправность БУШД ИС2" format="1"></var>
+<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, DU) Исправность ИП ББ2" format="1"></var>
+<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, DU) Исправность ИП ИС2" format="1"></var>
+<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, DU) Исправность ИП РБ2" format="1"></var>
 <var  name="R0IE02LDU" description="(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1" format="1"></var>
 <var  name="R0VN12RDU" description="( - , DU) Заданная мощность РУ" format="8"></var>
 <var  name="R0AB19LDU" description="( - , DU) Блокировка регулирования мощности:Нарушение исходных условий." format="1"></var>
