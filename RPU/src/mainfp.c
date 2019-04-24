@@ -70,7 +70,7 @@ int main(int argc, char **argv) {
             if (initUDP(master, nomer, &setUDP) < 0)
                 return EXIT_FAILURE;
             while (initAllDrivers(drivers)) {
-                time_start(&tvStakt);
+                time_start(&tv1);
                 readAllModbus();
                 reciveVariables();
                 MainCycle();
