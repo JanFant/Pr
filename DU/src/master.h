@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt;
-#define SIZE_BUFFER 11838
-static char BUFFER[11838];
+#define SIZE_BUFFER 11910
+static char BUFFER[11910];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.50\0", 5432, "192.168.10.150\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -533,30 +533,30 @@ int nomer = 1;
 #define idA0VS11LDU	 259	//( - , DU) АЗ1 готова к работе
 #define B0VS11LDU	 BUFFER[617]	//( - , DU) АЗ2 готова к работе
 #define idB0VS11LDU	 260	//( - , DU) АЗ2 готова к работе
-#define A1IE01LDU	 BUFFER[619]	//(vds32:05 - K02VDSR, DU) Исправность БУШД ББ1
-#define idA1IE01LDU	 261	//(vds32:05 - K02VDSR, DU) Исправность БУШД ББ1
-#define A3IE01LDU	 BUFFER[621]	//(vds32:05 - K10VDSR, DU) Исправность БУШД ИС1
-#define idA3IE01LDU	 262	//(vds32:05 - K10VDSR, DU) Исправность БУШД ИС1
-#define A2IE01LDU	 BUFFER[623]	//(vds32:05 - K06VDSR, DU) Исправность БУШД РБ1
-#define idA2IE01LDU	 263	//(vds32:05 - K06VDSR, DU) Исправность БУШД РБ1
-#define A1IE02LDU	 BUFFER[625]	//(vds32:05 - K01VDSR, DU) Исправность ИП ББ1
-#define idA1IE02LDU	 264	//(vds32:05 - K01VDSR, DU) Исправность ИП ББ1
-#define A3IE02LDU	 BUFFER[627]	//(vds32:05 - K09VDSR, DU) Исправность ИП ИС1
-#define idA3IE02LDU	 265	//(vds32:05 - K09VDSR, DU) Исправность ИП ИС1
-#define A2IE02LDU	 BUFFER[629]	//(vds32:05 - K05VDSR, DU) Исправность ИП РБ1
-#define idA2IE02LDU	 266	//(vds32:05 - K05VDSR, DU) Исправность ИП РБ1
-#define B1IE01LDU	 BUFFER[631]	//(vds32:05 - K14VDSR, DU) Исправность БУШД ББ2
-#define idB1IE01LDU	 267	//(vds32:05 - K14VDSR, DU) Исправность БУШД ББ2
-#define B2IE01LDU	 BUFFER[633]	//(vds32:05 - K18VDSR, DU) Исправность БУШД РБ2
-#define idB2IE01LDU	 268	//(vds32:05 - K18VDSR, DU) Исправность БУШД РБ2
-#define B3IE01LDU	 BUFFER[635]	//(vds32:05 - K22VDSR, DU) Исправность БУШД ИС2
-#define idB3IE01LDU	 269	//(vds32:05 - K22VDSR, DU) Исправность БУШД ИС2
-#define B1IE02LDU	 BUFFER[637]	//(vds32:05 - K13VDSR, DU) Исправность ИП ББ2
-#define idB1IE02LDU	 270	//(vds32:05 - K13VDSR, DU) Исправность ИП ББ2
-#define B3IE02LDU	 BUFFER[639]	//(vds32:05 - K21VDSR, DU) Исправность ИП ИС2
-#define idB3IE02LDU	 271	//(vds32:05 - K21VDSR, DU) Исправность ИП ИС2
-#define B2IE02LDU	 BUFFER[641]	//(vds32:05 - K17VDSR, DU) Исправность ИП РБ2
-#define idB2IE02LDU	 272	//(vds32:05 - K17VDSR, DU) Исправность ИП РБ2
+#define A1IE01LDU	 BUFFER[619]	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+#define idA1IE01LDU	 261	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+#define A3IE01LDU	 BUFFER[621]	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+#define idA3IE01LDU	 262	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+#define A2IE01LDU	 BUFFER[623]	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+#define idA2IE01LDU	 263	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+#define A1IE02LDU	 BUFFER[625]	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+#define idA1IE02LDU	 264	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+#define A3IE02LDU	 BUFFER[627]	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+#define idA3IE02LDU	 265	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+#define A2IE02LDU	 BUFFER[629]	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+#define idA2IE02LDU	 266	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+#define B1IE01LDU	 BUFFER[631]	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+#define idB1IE01LDU	 267	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+#define B2IE01LDU	 BUFFER[633]	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+#define idB2IE01LDU	 268	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+#define B3IE01LDU	 BUFFER[635]	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+#define idB3IE01LDU	 269	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+#define B1IE02LDU	 BUFFER[637]	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+#define idB1IE02LDU	 270	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+#define B3IE02LDU	 BUFFER[639]	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+#define idB3IE02LDU	 271	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+#define B2IE02LDU	 BUFFER[641]	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
+#define idB2IE02LDU	 272	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
 #define R0IE02LDU	 BUFFER[643]	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
 #define idR0IE02LDU	 273	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
 #define R0VN12RDU	 BUFFER[645]	//( - , DU) Заданная мощность РУ
@@ -1797,1884 +1797,1932 @@ int nomer = 1;
 #define idfEM_R0UL25RDU	 891	//(R0UL25RDU) Предельное отклонение от времени задержки  сброса от ВУ ИС
 #define bFirstEnterFlag	 BUFFER[2478]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 892	//(bFirstEnterFlag) 
-#define internal2_m182_y0	 BUFFER[2480]	//(internal2_m182_y0) y0
-#define idinternal2_m182_y0	 893	//(internal2_m182_y0) y0
-#define internal2_m180_y0	 BUFFER[2485]	//(internal2_m180_y0) y0
-#define idinternal2_m180_y0	 894	//(internal2_m180_y0) y0
-#define internal2_m215_y0	 BUFFER[2490]	//(internal2_m215_y0) state
-#define idinternal2_m215_y0	 895	//(internal2_m215_y0) state
-#define internal2_m207_y0	 BUFFER[2492]	//(internal2_m207_y0) state
-#define idinternal2_m207_y0	 896	//(internal2_m207_y0) state
-#define internal2_m196_y1	 BUFFER[2494]	//(internal2_m196_y1) y1 - внутренний параметр
-#define idinternal2_m196_y1	 897	//(internal2_m196_y1) y1 - внутренний параметр
-#define internal2_m203_y1	 BUFFER[2496]	//(internal2_m203_y1) y1 - внутренний параметр
-#define idinternal2_m203_y1	 898	//(internal2_m203_y1) y1 - внутренний параметр
-#define internal2_m185_y1	 BUFFER[2498]	//(internal2_m185_y1) y1 - внутренний параметр
-#define idinternal2_m185_y1	 899	//(internal2_m185_y1) y1 - внутренний параметр
-#define internal2_m193_y1	 BUFFER[2500]	//(internal2_m193_y1) y1 - внутренний параметр
-#define idinternal2_m193_y1	 900	//(internal2_m193_y1) y1 - внутренний параметр
-#define internal2_m17_Nk0	 BUFFER[2502]	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m17_Nk0	 901	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m17_SetFlag	 BUFFER[2507]	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m17_SetFlag	 902	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m110_Nk0	 BUFFER[2509]	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m110_Nk0	 903	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m110_SetFlag	 BUFFER[2514]	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m110_SetFlag	 904	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m106_Nk0	 BUFFER[2516]	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m106_Nk0	 905	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m106_SetFlag	 BUFFER[2521]	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m106_SetFlag	 906	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m79_Nk0	 BUFFER[2523]	//(internal2_m79_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m79_Nk0	 907	//(internal2_m79_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m79_SetFlag	 BUFFER[2528]	//(internal2_m79_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m79_SetFlag	 908	//(internal2_m79_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m83_Nk0	 BUFFER[2530]	//(internal2_m83_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m83_Nk0	 909	//(internal2_m83_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m83_SetFlag	 BUFFER[2535]	//(internal2_m83_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m83_SetFlag	 910	//(internal2_m83_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m45_Nk0	 BUFFER[2537]	//(internal2_m45_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m45_Nk0	 911	//(internal2_m45_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m45_SetFlag	 BUFFER[2542]	//(internal2_m45_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m45_SetFlag	 912	//(internal2_m45_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m53_Nk0	 BUFFER[2544]	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m53_Nk0	 913	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m53_SetFlag	 BUFFER[2549]	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m53_SetFlag	 914	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal2_m15_Nk0	 BUFFER[2551]	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define idinternal2_m15_Nk0	 915	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-#define internal2_m15_SetFlag	 BUFFER[2556]	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define idinternal2_m15_SetFlag	 916	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-#define internal1_m2019_tx	 BUFFER[2558]	//(internal1_m2019_tx) tx - внутренний параметр
-#define idinternal1_m2019_tx	 917	//(internal1_m2019_tx) tx - внутренний параметр
-#define internal1_m2018_tx	 BUFFER[2563]	//(internal1_m2018_tx) tx - внутренний параметр
-#define idinternal1_m2018_tx	 918	//(internal1_m2018_tx) tx - внутренний параметр
-#define internal1_m774_tx	 BUFFER[2568]	//(internal1_m774_tx) tx - внутренний параметр
-#define idinternal1_m774_tx	 919	//(internal1_m774_tx) tx - внутренний параметр
-#define internal1_m731_tx	 BUFFER[2573]	//(internal1_m731_tx) tx - внутренний параметр
-#define idinternal1_m731_tx	 920	//(internal1_m731_tx) tx - внутренний параметр
-#define internal1_m784_tx	 BUFFER[2578]	//(internal1_m784_tx) tx - внутренний параметр
-#define idinternal1_m784_tx	 921	//(internal1_m784_tx) tx - внутренний параметр
-#define internal1_m786_tx	 BUFFER[2583]	//(internal1_m786_tx) tx - внутренний параметр
-#define idinternal1_m786_tx	 922	//(internal1_m786_tx) tx - внутренний параметр
-#define internal1_m785_tx	 BUFFER[2588]	//(internal1_m785_tx) tx - внутренний параметр
-#define idinternal1_m785_tx	 923	//(internal1_m785_tx) tx - внутренний параметр
-#define internal1_m740_tx	 BUFFER[2593]	//(internal1_m740_tx) tx - внутренний параметр
-#define idinternal1_m740_tx	 924	//(internal1_m740_tx) tx - внутренний параметр
-#define internal1_m724_tx	 BUFFER[2598]	//(internal1_m724_tx) tx - внутренний параметр
-#define idinternal1_m724_tx	 925	//(internal1_m724_tx) tx - внутренний параметр
-#define internal1_m735_tx	 BUFFER[2603]	//(internal1_m735_tx) tx - внутренний параметр
-#define idinternal1_m735_tx	 926	//(internal1_m735_tx) tx - внутренний параметр
-#define internal1_m766_tx	 BUFFER[2608]	//(internal1_m766_tx) tx - внутренний параметр
-#define idinternal1_m766_tx	 927	//(internal1_m766_tx) tx - внутренний параметр
-#define internal1_m783_tx	 BUFFER[2613]	//(internal1_m783_tx) tx - внутренний параметр
-#define idinternal1_m783_tx	 928	//(internal1_m783_tx) tx - внутренний параметр
-#define internal1_m756_tx	 BUFFER[2618]	//(internal1_m756_tx) tx - внутренний параметр
-#define idinternal1_m756_tx	 929	//(internal1_m756_tx) tx - внутренний параметр
-#define internal1_m387_tx	 BUFFER[2623]	//(internal1_m387_tx) tx - внутренний параметр
-#define idinternal1_m387_tx	 930	//(internal1_m387_tx) tx - внутренний параметр
-#define internal1_m386_tx	 BUFFER[2628]	//(internal1_m386_tx) tx - внутренний параметр
-#define idinternal1_m386_tx	 931	//(internal1_m386_tx) tx - внутренний параметр
-#define internal1_m385_tx	 BUFFER[2633]	//(internal1_m385_tx) tx - внутренний параметр
-#define idinternal1_m385_tx	 932	//(internal1_m385_tx) tx - внутренний параметр
-#define internal1_m384_tx	 BUFFER[2638]	//(internal1_m384_tx) tx - внутренний параметр
-#define idinternal1_m384_tx	 933	//(internal1_m384_tx) tx - внутренний параметр
-#define internal1_m755_tx	 BUFFER[2643]	//(internal1_m755_tx) tx - внутренний параметр
-#define idinternal1_m755_tx	 934	//(internal1_m755_tx) tx - внутренний параметр
-#define internal1_m750_tx	 BUFFER[2648]	//(internal1_m750_tx) tx - внутренний параметр
-#define idinternal1_m750_tx	 935	//(internal1_m750_tx) tx - внутренний параметр
-#define internal1_m759_tx	 BUFFER[2653]	//(internal1_m759_tx) tx - внутренний параметр
-#define idinternal1_m759_tx	 936	//(internal1_m759_tx) tx - внутренний параметр
-#define internal1_m764_tx	 BUFFER[2658]	//(internal1_m764_tx) tx - внутренний параметр
-#define idinternal1_m764_tx	 937	//(internal1_m764_tx) tx - внутренний параметр
-#define internal1_m520_tx	 BUFFER[2663]	//(internal1_m520_tx) tx - внутренний параметр
-#define idinternal1_m520_tx	 938	//(internal1_m520_tx) tx - внутренний параметр
-#define internal1_m519_tx	 BUFFER[2668]	//(internal1_m519_tx) tx - внутренний параметр
-#define idinternal1_m519_tx	 939	//(internal1_m519_tx) tx - внутренний параметр
-#define internal1_m518_tx	 BUFFER[2673]	//(internal1_m518_tx) tx - внутренний параметр
-#define idinternal1_m518_tx	 940	//(internal1_m518_tx) tx - внутренний параметр
-#define internal1_m514_tx	 BUFFER[2678]	//(internal1_m514_tx) tx - внутренний параметр
-#define idinternal1_m514_tx	 941	//(internal1_m514_tx) tx - внутренний параметр
-#define internal1_m491_tx	 BUFFER[2683]	//(internal1_m491_tx) tx - внутренний параметр
-#define idinternal1_m491_tx	 942	//(internal1_m491_tx) tx - внутренний параметр
-#define internal1_m490_tx	 BUFFER[2688]	//(internal1_m490_tx) tx - внутренний параметр
-#define idinternal1_m490_tx	 943	//(internal1_m490_tx) tx - внутренний параметр
-#define internal1_m489_tx	 BUFFER[2693]	//(internal1_m489_tx) tx - внутренний параметр
-#define idinternal1_m489_tx	 944	//(internal1_m489_tx) tx - внутренний параметр
-#define internal1_m492_tx	 BUFFER[2698]	//(internal1_m492_tx) tx - внутренний параметр
-#define idinternal1_m492_tx	 945	//(internal1_m492_tx) tx - внутренний параметр
-#define internal1_m2436_tx	 BUFFER[2703]	//(internal1_m2436_tx) tx - внутренний параметр
-#define idinternal1_m2436_tx	 946	//(internal1_m2436_tx) tx - внутренний параметр
-#define internal1_m2145_tx	 BUFFER[2708]	//(internal1_m2145_tx) tx - внутренний параметр
-#define idinternal1_m2145_tx	 947	//(internal1_m2145_tx) tx - внутренний параметр
-#define internal1_m2435_tx	 BUFFER[2713]	//(internal1_m2435_tx) tx - внутренний параметр
-#define idinternal1_m2435_tx	 948	//(internal1_m2435_tx) tx - внутренний параметр
-#define internal1_m2434_tx	 BUFFER[2718]	//(internal1_m2434_tx) tx - внутренний параметр
-#define idinternal1_m2434_tx	 949	//(internal1_m2434_tx) tx - внутренний параметр
-#define internal1_m2433_tx	 BUFFER[2723]	//(internal1_m2433_tx) tx - внутренний параметр
-#define idinternal1_m2433_tx	 950	//(internal1_m2433_tx) tx - внутренний параметр
-#define internal1_m102_tx	 BUFFER[2728]	//(internal1_m102_tx) tx - внутренний параметр
-#define idinternal1_m102_tx	 951	//(internal1_m102_tx) tx - внутренний параметр
-#define internal1_m1138_tx	 BUFFER[2733]	//(internal1_m1138_tx) tx - внутренний параметр
-#define idinternal1_m1138_tx	 952	//(internal1_m1138_tx) tx - внутренний параметр
-#define internal1_m2291_tx	 BUFFER[2738]	//(internal1_m2291_tx) tx - внутренний параметр
-#define idinternal1_m2291_tx	 953	//(internal1_m2291_tx) tx - внутренний параметр
-#define internal1_m2290_tx	 BUFFER[2743]	//(internal1_m2290_tx) tx - внутренний параметр
-#define idinternal1_m2290_tx	 954	//(internal1_m2290_tx) tx - внутренний параметр
-#define internal1_m2289_tx	 BUFFER[2748]	//(internal1_m2289_tx) tx - внутренний параметр
-#define idinternal1_m2289_tx	 955	//(internal1_m2289_tx) tx - внутренний параметр
-#define internal1_m1224_tx	 BUFFER[2753]	//(internal1_m1224_tx) tx - внутренний параметр
-#define idinternal1_m1224_tx	 956	//(internal1_m1224_tx) tx - внутренний параметр
-#define internal1_m1223_tx	 BUFFER[2758]	//(internal1_m1223_tx) tx - внутренний параметр
-#define idinternal1_m1223_tx	 957	//(internal1_m1223_tx) tx - внутренний параметр
-#define internal1_m1222_tx	 BUFFER[2763]	//(internal1_m1222_tx) tx - внутренний параметр
-#define idinternal1_m1222_tx	 958	//(internal1_m1222_tx) tx - внутренний параметр
-#define internal1_m1215_tx	 BUFFER[2768]	//(internal1_m1215_tx) tx - внутренний параметр
-#define idinternal1_m1215_tx	 959	//(internal1_m1215_tx) tx - внутренний параметр
-#define internal1_m1213_tx	 BUFFER[2773]	//(internal1_m1213_tx) tx - внутренний параметр
-#define idinternal1_m1213_tx	 960	//(internal1_m1213_tx) tx - внутренний параметр
-#define internal1_m1211_tx	 BUFFER[2778]	//(internal1_m1211_tx) tx - внутренний параметр
-#define idinternal1_m1211_tx	 961	//(internal1_m1211_tx) tx - внутренний параметр
-#define internal1_m1209_tx	 BUFFER[2783]	//(internal1_m1209_tx) tx - внутренний параметр
-#define idinternal1_m1209_tx	 962	//(internal1_m1209_tx) tx - внутренний параметр
-#define internal1_m1252_tx	 BUFFER[2788]	//(internal1_m1252_tx) tx - внутренний параметр
-#define idinternal1_m1252_tx	 963	//(internal1_m1252_tx) tx - внутренний параметр
-#define internal1_m1259_tx	 BUFFER[2793]	//(internal1_m1259_tx) tx - внутренний параметр
-#define idinternal1_m1259_tx	 964	//(internal1_m1259_tx) tx - внутренний параметр
-#define internal1_m1264_tx	 BUFFER[2798]	//(internal1_m1264_tx) tx - внутренний параметр
-#define idinternal1_m1264_tx	 965	//(internal1_m1264_tx) tx - внутренний параметр
-#define internal1_m1270_tx	 BUFFER[2803]	//(internal1_m1270_tx) tx - внутренний параметр
-#define idinternal1_m1270_tx	 966	//(internal1_m1270_tx) tx - внутренний параметр
-#define internal1_m1230_tx	 BUFFER[2808]	//(internal1_m1230_tx) tx - внутренний параметр
-#define idinternal1_m1230_tx	 967	//(internal1_m1230_tx) tx - внутренний параметр
-#define internal1_m1251_tx	 BUFFER[2813]	//(internal1_m1251_tx) tx - внутренний параметр
-#define idinternal1_m1251_tx	 968	//(internal1_m1251_tx) tx - внутренний параметр
-#define internal1_m1265_tx	 BUFFER[2818]	//(internal1_m1265_tx) tx - внутренний параметр
-#define idinternal1_m1265_tx	 969	//(internal1_m1265_tx) tx - внутренний параметр
-#define internal1_m469_tx	 BUFFER[2823]	//(internal1_m469_tx) tx - внутренний параметр
-#define idinternal1_m469_tx	 970	//(internal1_m469_tx) tx - внутренний параметр
-#define internal1_m463_tx	 BUFFER[2828]	//(internal1_m463_tx) tx - внутренний параметр
-#define idinternal1_m463_tx	 971	//(internal1_m463_tx) tx - внутренний параметр
-#define internal1_m465_tx	 BUFFER[2833]	//(internal1_m465_tx) tx - внутренний параметр
-#define idinternal1_m465_tx	 972	//(internal1_m465_tx) tx - внутренний параметр
-#define internal1_m467_tx	 BUFFER[2838]	//(internal1_m467_tx) tx - внутренний параметр
-#define idinternal1_m467_tx	 973	//(internal1_m467_tx) tx - внутренний параметр
-#define internal1_m474_tx	 BUFFER[2843]	//(internal1_m474_tx) tx - внутренний параметр
-#define idinternal1_m474_tx	 974	//(internal1_m474_tx) tx - внутренний параметр
-#define internal1_m428_tx	 BUFFER[2848]	//(internal1_m428_tx) tx - внутренний параметр
-#define idinternal1_m428_tx	 975	//(internal1_m428_tx) tx - внутренний параметр
-#define internal1_m426_tx	 BUFFER[2853]	//(internal1_m426_tx) tx - внутренний параметр
-#define idinternal1_m426_tx	 976	//(internal1_m426_tx) tx - внутренний параметр
-#define internal1_m427_tx	 BUFFER[2858]	//(internal1_m427_tx) tx - внутренний параметр
-#define idinternal1_m427_tx	 977	//(internal1_m427_tx) tx - внутренний параметр
-#define internal1_m420_tx	 BUFFER[2863]	//(internal1_m420_tx) tx - внутренний параметр
-#define idinternal1_m420_tx	 978	//(internal1_m420_tx) tx - внутренний параметр
-#define internal1_m882_tx	 BUFFER[2868]	//(internal1_m882_tx) tx - внутренний параметр
-#define idinternal1_m882_tx	 979	//(internal1_m882_tx) tx - внутренний параметр
-#define internal1_m881_tx	 BUFFER[2873]	//(internal1_m881_tx) tx - внутренний параметр
-#define idinternal1_m881_tx	 980	//(internal1_m881_tx) tx - внутренний параметр
-#define internal1_m880_tx	 BUFFER[2878]	//(internal1_m880_tx) tx - внутренний параметр
-#define idinternal1_m880_tx	 981	//(internal1_m880_tx) tx - внутренний параметр
-#define internal1_m876_tx	 BUFFER[2883]	//(internal1_m876_tx) tx - внутренний параметр
-#define idinternal1_m876_tx	 982	//(internal1_m876_tx) tx - внутренний параметр
-#define internal1_m1316_tx	 BUFFER[2888]	//(internal1_m1316_tx) tx - внутренний параметр
-#define idinternal1_m1316_tx	 983	//(internal1_m1316_tx) tx - внутренний параметр
-#define internal1_m1315_tx	 BUFFER[2893]	//(internal1_m1315_tx) tx - внутренний параметр
-#define idinternal1_m1315_tx	 984	//(internal1_m1315_tx) tx - внутренний параметр
-#define internal1_m1314_tx	 BUFFER[2898]	//(internal1_m1314_tx) tx - внутренний параметр
-#define idinternal1_m1314_tx	 985	//(internal1_m1314_tx) tx - внутренний параметр
-#define internal1_m1527_tx	 BUFFER[2903]	//(internal1_m1527_tx) tx - внутренний параметр
-#define idinternal1_m1527_tx	 986	//(internal1_m1527_tx) tx - внутренний параметр
-#define internal1_m1540_tx	 BUFFER[2908]	//(internal1_m1540_tx) tx - внутренний параметр
-#define idinternal1_m1540_tx	 987	//(internal1_m1540_tx) tx - внутренний параметр
-#define internal1_m1539_tx	 BUFFER[2913]	//(internal1_m1539_tx) tx - внутренний параметр
-#define idinternal1_m1539_tx	 988	//(internal1_m1539_tx) tx - внутренний параметр
-#define internal1_m1538_tx	 BUFFER[2918]	//(internal1_m1538_tx) tx - внутренний параметр
-#define idinternal1_m1538_tx	 989	//(internal1_m1538_tx) tx - внутренний параметр
-#define internal1_m1529_tx	 BUFFER[2923]	//(internal1_m1529_tx) tx - внутренний параметр
-#define idinternal1_m1529_tx	 990	//(internal1_m1529_tx) tx - внутренний параметр
-#define internal1_m2263_tx	 BUFFER[2928]	//(internal1_m2263_tx) tx - внутренний параметр
-#define idinternal1_m2263_tx	 991	//(internal1_m2263_tx) tx - внутренний параметр
-#define internal1_m2246_tx	 BUFFER[2933]	//(internal1_m2246_tx) tx - внутренний параметр
-#define idinternal1_m2246_tx	 992	//(internal1_m2246_tx) tx - внутренний параметр
-#define internal1_m2223_tx	 BUFFER[2938]	//(internal1_m2223_tx) tx - внутренний параметр
-#define idinternal1_m2223_tx	 993	//(internal1_m2223_tx) tx - внутренний параметр
-#define internal1_m1537_tx	 BUFFER[2943]	//(internal1_m1537_tx) tx - внутренний параметр
-#define idinternal1_m1537_tx	 994	//(internal1_m1537_tx) tx - внутренний параметр
-#define internal1_m1517_tx	 BUFFER[2948]	//(internal1_m1517_tx) tx - внутренний параметр
-#define idinternal1_m1517_tx	 995	//(internal1_m1517_tx) tx - внутренний параметр
-#define internal1_m1516_tx	 BUFFER[2953]	//(internal1_m1516_tx) tx - внутренний параметр
-#define idinternal1_m1516_tx	 996	//(internal1_m1516_tx) tx - внутренний параметр
-#define internal1_m1514_tx	 BUFFER[2958]	//(internal1_m1514_tx) tx - внутренний параметр
-#define idinternal1_m1514_tx	 997	//(internal1_m1514_tx) tx - внутренний параметр
-#define internal1_m1536_tx	 BUFFER[2963]	//(internal1_m1536_tx) tx - внутренний параметр
-#define idinternal1_m1536_tx	 998	//(internal1_m1536_tx) tx - внутренний параметр
-#define internal1_m1502_tx	 BUFFER[2968]	//(internal1_m1502_tx) tx - внутренний параметр
-#define idinternal1_m1502_tx	 999	//(internal1_m1502_tx) tx - внутренний параметр
-#define internal1_m1504_tx	 BUFFER[2973]	//(internal1_m1504_tx) tx - внутренний параметр
-#define idinternal1_m1504_tx	 1000	//(internal1_m1504_tx) tx - внутренний параметр
-#define internal1_m1501_tx	 BUFFER[2978]	//(internal1_m1501_tx) tx - внутренний параметр
-#define idinternal1_m1501_tx	 1001	//(internal1_m1501_tx) tx - внутренний параметр
-#define internal1_m1474_tx	 BUFFER[2983]	//(internal1_m1474_tx) tx - внутренний параметр
-#define idinternal1_m1474_tx	 1002	//(internal1_m1474_tx) tx - внутренний параметр
-#define internal1_m1473_tx	 BUFFER[2988]	//(internal1_m1473_tx) tx - внутренний параметр
-#define idinternal1_m1473_tx	 1003	//(internal1_m1473_tx) tx - внутренний параметр
-#define internal1_m1482_tx	 BUFFER[2993]	//(internal1_m1482_tx) tx - внутренний параметр
-#define idinternal1_m1482_tx	 1004	//(internal1_m1482_tx) tx - внутренний параметр
-#define internal1_m1486_tx	 BUFFER[2998]	//(internal1_m1486_tx) tx - внутренний параметр
-#define idinternal1_m1486_tx	 1005	//(internal1_m1486_tx) tx - внутренний параметр
-#define internal1_m975_tx	 BUFFER[3003]	//(internal1_m975_tx) tx - внутренний параметр
-#define idinternal1_m975_tx	 1006	//(internal1_m975_tx) tx - внутренний параметр
-#define internal1_m978_tx	 BUFFER[3008]	//(internal1_m978_tx) tx - внутренний параметр
-#define idinternal1_m978_tx	 1007	//(internal1_m978_tx) tx - внутренний параметр
-#define internal1_m2214_tx	 BUFFER[3013]	//(internal1_m2214_tx) tx - внутренний параметр
-#define idinternal1_m2214_tx	 1008	//(internal1_m2214_tx) tx - внутренний параметр
-#define internal1_m968_tx	 BUFFER[3018]	//(internal1_m968_tx) tx - внутренний параметр
-#define idinternal1_m968_tx	 1009	//(internal1_m968_tx) tx - внутренний параметр
-#define internal1_m966_tx	 BUFFER[3023]	//(internal1_m966_tx) tx - внутренний параметр
-#define idinternal1_m966_tx	 1010	//(internal1_m966_tx) tx - внутренний параметр
-#define internal1_m974_tx	 BUFFER[3028]	//(internal1_m974_tx) tx - внутренний параметр
-#define idinternal1_m974_tx	 1011	//(internal1_m974_tx) tx - внутренний параметр
-#define internal1_m958_tx	 BUFFER[3033]	//(internal1_m958_tx) tx - внутренний параметр
-#define idinternal1_m958_tx	 1012	//(internal1_m958_tx) tx - внутренний параметр
-#define internal1_m956_tx	 BUFFER[3038]	//(internal1_m956_tx) tx - внутренний параметр
-#define idinternal1_m956_tx	 1013	//(internal1_m956_tx) tx - внутренний параметр
-#define internal1_m952_tx	 BUFFER[3043]	//(internal1_m952_tx) tx - внутренний параметр
-#define idinternal1_m952_tx	 1014	//(internal1_m952_tx) tx - внутренний параметр
-#define internal1_m973_tx	 BUFFER[3048]	//(internal1_m973_tx) tx - внутренний параметр
-#define idinternal1_m973_tx	 1015	//(internal1_m973_tx) tx - внутренний параметр
-#define internal1_m940_tx	 BUFFER[3053]	//(internal1_m940_tx) tx - внутренний параметр
-#define idinternal1_m940_tx	 1016	//(internal1_m940_tx) tx - внутренний параметр
-#define internal1_m941_tx	 BUFFER[3058]	//(internal1_m941_tx) tx - внутренний параметр
-#define idinternal1_m941_tx	 1017	//(internal1_m941_tx) tx - внутренний параметр
-#define internal1_m938_tx	 BUFFER[3063]	//(internal1_m938_tx) tx - внутренний параметр
-#define idinternal1_m938_tx	 1018	//(internal1_m938_tx) tx - внутренний параметр
-#define internal1_m626_tx	 BUFFER[3068]	//(internal1_m626_tx) tx - внутренний параметр
-#define idinternal1_m626_tx	 1019	//(internal1_m626_tx) tx - внутренний параметр
-#define internal1_m629_tx	 BUFFER[3073]	//(internal1_m629_tx) tx - внутренний параметр
-#define idinternal1_m629_tx	 1020	//(internal1_m629_tx) tx - внутренний параметр
-#define internal1_m628_tx	 BUFFER[3078]	//(internal1_m628_tx) tx - внутренний параметр
-#define idinternal1_m628_tx	 1021	//(internal1_m628_tx) tx - внутренний параметр
-#define internal1_m616_tx	 BUFFER[3083]	//(internal1_m616_tx) tx - внутренний параметр
-#define idinternal1_m616_tx	 1022	//(internal1_m616_tx) tx - внутренний параметр
-#define internal1_m615_tx	 BUFFER[3088]	//(internal1_m615_tx) tx - внутренний параметр
-#define idinternal1_m615_tx	 1023	//(internal1_m615_tx) tx - внутренний параметр
-#define internal1_m611_tx	 BUFFER[3093]	//(internal1_m611_tx) tx - внутренний параметр
-#define idinternal1_m611_tx	 1024	//(internal1_m611_tx) tx - внутренний параметр
-#define internal1_m624_tx	 BUFFER[3098]	//(internal1_m624_tx) tx - внутренний параметр
-#define idinternal1_m624_tx	 1025	//(internal1_m624_tx) tx - внутренний параметр
-#define internal1_m601_tx	 BUFFER[3103]	//(internal1_m601_tx) tx - внутренний параметр
-#define idinternal1_m601_tx	 1026	//(internal1_m601_tx) tx - внутренний параметр
-#define internal1_m600_tx	 BUFFER[3108]	//(internal1_m600_tx) tx - внутренний параметр
-#define idinternal1_m600_tx	 1027	//(internal1_m600_tx) tx - внутренний параметр
-#define internal1_m596_tx	 BUFFER[3113]	//(internal1_m596_tx) tx - внутренний параметр
-#define idinternal1_m596_tx	 1028	//(internal1_m596_tx) tx - внутренний параметр
-#define internal1_m627_tx	 BUFFER[3118]	//(internal1_m627_tx) tx - внутренний параметр
-#define idinternal1_m627_tx	 1029	//(internal1_m627_tx) tx - внутренний параметр
-#define internal1_m584_tx	 BUFFER[3123]	//(internal1_m584_tx) tx - внутренний параметр
-#define idinternal1_m584_tx	 1030	//(internal1_m584_tx) tx - внутренний параметр
-#define internal1_m583_tx	 BUFFER[3128]	//(internal1_m583_tx) tx - внутренний параметр
-#define idinternal1_m583_tx	 1031	//(internal1_m583_tx) tx - внутренний параметр
-#define internal1_m586_tx	 BUFFER[3133]	//(internal1_m586_tx) tx - внутренний параметр
-#define idinternal1_m586_tx	 1032	//(internal1_m586_tx) tx - внутренний параметр
-#define internal1_m563_tx	 BUFFER[3138]	//(internal1_m563_tx) tx - внутренний параметр
-#define idinternal1_m563_tx	 1033	//(internal1_m563_tx) tx - внутренний параметр
-#define internal1_m564_tx	 BUFFER[3143]	//(internal1_m564_tx) tx - внутренний параметр
-#define idinternal1_m564_tx	 1034	//(internal1_m564_tx) tx - внутренний параметр
-#define internal1_m565_tx	 BUFFER[3148]	//(internal1_m565_tx) tx - внутренний параметр
-#define idinternal1_m565_tx	 1035	//(internal1_m565_tx) tx - внутренний параметр
-#define internal1_m570_tx	 BUFFER[3153]	//(internal1_m570_tx) tx - внутренний параметр
-#define idinternal1_m570_tx	 1036	//(internal1_m570_tx) tx - внутренний параметр
-#define internal1_m2274_tx	 BUFFER[3158]	//(internal1_m2274_tx) tx - внутренний параметр
-#define idinternal1_m2274_tx	 1037	//(internal1_m2274_tx) tx - внутренний параметр
-#define internal1_m2275_tx	 BUFFER[3163]	//(internal1_m2275_tx) tx - внутренний параметр
-#define idinternal1_m2275_tx	 1038	//(internal1_m2275_tx) tx - внутренний параметр
-#define internal1_m2276_tx	 BUFFER[3168]	//(internal1_m2276_tx) tx - внутренний параметр
-#define idinternal1_m2276_tx	 1039	//(internal1_m2276_tx) tx - внутренний параметр
-#define internal1_m1745_tx	 BUFFER[3173]	//(internal1_m1745_tx) tx - внутренний параметр
-#define idinternal1_m1745_tx	 1040	//(internal1_m1745_tx) tx - внутренний параметр
-#define internal1_m1744_tx	 BUFFER[3178]	//(internal1_m1744_tx) tx - внутренний параметр
-#define idinternal1_m1744_tx	 1041	//(internal1_m1744_tx) tx - внутренний параметр
-#define internal1_m1739_tx	 BUFFER[3183]	//(internal1_m1739_tx) tx - внутренний параметр
-#define idinternal1_m1739_tx	 1042	//(internal1_m1739_tx) tx - внутренний параметр
-#define internal1_m1730_tx	 BUFFER[3188]	//(internal1_m1730_tx) tx - внутренний параметр
-#define idinternal1_m1730_tx	 1043	//(internal1_m1730_tx) tx - внутренний параметр
-#define internal1_m1728_tx	 BUFFER[3193]	//(internal1_m1728_tx) tx - внутренний параметр
-#define idinternal1_m1728_tx	 1044	//(internal1_m1728_tx) tx - внутренний параметр
-#define internal1_m1726_tx	 BUFFER[3198]	//(internal1_m1726_tx) tx - внутренний параметр
-#define idinternal1_m1726_tx	 1045	//(internal1_m1726_tx) tx - внутренний параметр
-#define internal1_m1725_tx	 BUFFER[3203]	//(internal1_m1725_tx) tx - внутренний параметр
-#define idinternal1_m1725_tx	 1046	//(internal1_m1725_tx) tx - внутренний параметр
-#define internal1_m1766_tx	 BUFFER[3208]	//(internal1_m1766_tx) tx - внутренний параметр
-#define idinternal1_m1766_tx	 1047	//(internal1_m1766_tx) tx - внутренний параметр
-#define internal1_m1774_tx	 BUFFER[3213]	//(internal1_m1774_tx) tx - внутренний параметр
-#define idinternal1_m1774_tx	 1048	//(internal1_m1774_tx) tx - внутренний параметр
-#define internal1_m1781_tx	 BUFFER[3218]	//(internal1_m1781_tx) tx - внутренний параметр
-#define idinternal1_m1781_tx	 1049	//(internal1_m1781_tx) tx - внутренний параметр
-#define internal1_m1782_tx	 BUFFER[3223]	//(internal1_m1782_tx) tx - внутренний параметр
-#define idinternal1_m1782_tx	 1050	//(internal1_m1782_tx) tx - внутренний параметр
-#define internal1_m1772_tx	 BUFFER[3228]	//(internal1_m1772_tx) tx - внутренний параметр
-#define idinternal1_m1772_tx	 1051	//(internal1_m1772_tx) tx - внутренний параметр
-#define internal1_m1747_tx	 BUFFER[3233]	//(internal1_m1747_tx) tx - внутренний параметр
-#define idinternal1_m1747_tx	 1052	//(internal1_m1747_tx) tx - внутренний параметр
-#define internal1_m1761_tx	 BUFFER[3238]	//(internal1_m1761_tx) tx - внутренний параметр
-#define idinternal1_m1761_tx	 1053	//(internal1_m1761_tx) tx - внутренний параметр
-#define internal1_m446_tx	 BUFFER[3243]	//(internal1_m446_tx) tx - внутренний параметр
-#define idinternal1_m446_tx	 1054	//(internal1_m446_tx) tx - внутренний параметр
-#define internal1_m437_tx	 BUFFER[3248]	//(internal1_m437_tx) tx - внутренний параметр
-#define idinternal1_m437_tx	 1055	//(internal1_m437_tx) tx - внутренний параметр
-#define internal1_m438_tx	 BUFFER[3253]	//(internal1_m438_tx) tx - внутренний параметр
-#define idinternal1_m438_tx	 1056	//(internal1_m438_tx) tx - внутренний параметр
-#define internal1_m440_tx	 BUFFER[3258]	//(internal1_m440_tx) tx - внутренний параметр
-#define idinternal1_m440_tx	 1057	//(internal1_m440_tx) tx - внутренний параметр
-#define internal1_m454_tx	 BUFFER[3263]	//(internal1_m454_tx) tx - внутренний параметр
-#define idinternal1_m454_tx	 1058	//(internal1_m454_tx) tx - внутренний параметр
-#define internal1_m404_tx	 BUFFER[3268]	//(internal1_m404_tx) tx - внутренний параметр
-#define idinternal1_m404_tx	 1059	//(internal1_m404_tx) tx - внутренний параметр
-#define internal1_m401_tx	 BUFFER[3273]	//(internal1_m401_tx) tx - внутренний параметр
-#define idinternal1_m401_tx	 1060	//(internal1_m401_tx) tx - внутренний параметр
-#define internal1_m400_tx	 BUFFER[3278]	//(internal1_m400_tx) tx - внутренний параметр
-#define idinternal1_m400_tx	 1061	//(internal1_m400_tx) tx - внутренний параметр
-#define internal1_m399_tx	 BUFFER[3283]	//(internal1_m399_tx) tx - внутренний параметр
-#define idinternal1_m399_tx	 1062	//(internal1_m399_tx) tx - внутренний параметр
-#define internal1_m859_tx	 BUFFER[3288]	//(internal1_m859_tx) tx - внутренний параметр
-#define idinternal1_m859_tx	 1063	//(internal1_m859_tx) tx - внутренний параметр
-#define internal1_m855_tx	 BUFFER[3293]	//(internal1_m855_tx) tx - внутренний параметр
-#define idinternal1_m855_tx	 1064	//(internal1_m855_tx) tx - внутренний параметр
-#define internal1_m854_tx	 BUFFER[3298]	//(internal1_m854_tx) tx - внутренний параметр
-#define idinternal1_m854_tx	 1065	//(internal1_m854_tx) tx - внутренний параметр
-#define internal1_m853_tx	 BUFFER[3303]	//(internal1_m853_tx) tx - внутренний параметр
-#define idinternal1_m853_tx	 1066	//(internal1_m853_tx) tx - внутренний параметр
-#define internal1_m1297_tx	 BUFFER[3308]	//(internal1_m1297_tx) tx - внутренний параметр
-#define idinternal1_m1297_tx	 1067	//(internal1_m1297_tx) tx - внутренний параметр
-#define internal1_m1294_tx	 BUFFER[3313]	//(internal1_m1294_tx) tx - внутренний параметр
-#define idinternal1_m1294_tx	 1068	//(internal1_m1294_tx) tx - внутренний параметр
-#define internal1_m1293_tx	 BUFFER[3318]	//(internal1_m1293_tx) tx - внутренний параметр
-#define idinternal1_m1293_tx	 1069	//(internal1_m1293_tx) tx - внутренний параметр
-#define internal1_m1076_tx	 BUFFER[3323]	//(internal1_m1076_tx) tx - внутренний параметр
-#define idinternal1_m1076_tx	 1070	//(internal1_m1076_tx) tx - внутренний параметр
-#define internal1_m2229_tx	 BUFFER[3328]	//(internal1_m2229_tx) tx - внутренний параметр
-#define idinternal1_m2229_tx	 1071	//(internal1_m2229_tx) tx - внутренний параметр
-#define internal1_m1087_tx	 BUFFER[3333]	//(internal1_m1087_tx) tx - внутренний параметр
-#define idinternal1_m1087_tx	 1072	//(internal1_m1087_tx) tx - внутренний параметр
-#define internal1_m1089_tx	 BUFFER[3338]	//(internal1_m1089_tx) tx - внутренний параметр
-#define idinternal1_m1089_tx	 1073	//(internal1_m1089_tx) tx - внутренний параметр
-#define internal1_m1088_tx	 BUFFER[3343]	//(internal1_m1088_tx) tx - внутренний параметр
-#define idinternal1_m1088_tx	 1074	//(internal1_m1088_tx) tx - внутренний параметр
-#define internal1_m2231_tx	 BUFFER[3348]	//(internal1_m2231_tx) tx - внутренний параметр
-#define idinternal1_m2231_tx	 1075	//(internal1_m2231_tx) tx - внутренний параметр
-#define internal1_m1078_tx	 BUFFER[3353]	//(internal1_m1078_tx) tx - внутренний параметр
-#define idinternal1_m1078_tx	 1076	//(internal1_m1078_tx) tx - внутренний параметр
-#define internal1_m2228_tx	 BUFFER[3358]	//(internal1_m2228_tx) tx - внутренний параметр
-#define idinternal1_m2228_tx	 1077	//(internal1_m2228_tx) tx - внутренний параметр
-#define internal1_m1086_tx	 BUFFER[3363]	//(internal1_m1086_tx) tx - внутренний параметр
-#define idinternal1_m1086_tx	 1078	//(internal1_m1086_tx) tx - внутренний параметр
-#define internal1_m1067_tx	 BUFFER[3368]	//(internal1_m1067_tx) tx - внутренний параметр
-#define idinternal1_m1067_tx	 1079	//(internal1_m1067_tx) tx - внутренний параметр
-#define internal1_m1066_tx	 BUFFER[3373]	//(internal1_m1066_tx) tx - внутренний параметр
-#define idinternal1_m1066_tx	 1080	//(internal1_m1066_tx) tx - внутренний параметр
-#define internal1_m1063_tx	 BUFFER[3378]	//(internal1_m1063_tx) tx - внутренний параметр
-#define idinternal1_m1063_tx	 1081	//(internal1_m1063_tx) tx - внутренний параметр
-#define internal1_m1085_tx	 BUFFER[3383]	//(internal1_m1085_tx) tx - внутренний параметр
-#define idinternal1_m1085_tx	 1082	//(internal1_m1085_tx) tx - внутренний параметр
-#define internal1_m1053_tx	 BUFFER[3388]	//(internal1_m1053_tx) tx - внутренний параметр
-#define idinternal1_m1053_tx	 1083	//(internal1_m1053_tx) tx - внутренний параметр
-#define internal1_m1051_tx	 BUFFER[3393]	//(internal1_m1051_tx) tx - внутренний параметр
-#define idinternal1_m1051_tx	 1084	//(internal1_m1051_tx) tx - внутренний параметр
-#define internal1_m1050_tx	 BUFFER[3398]	//(internal1_m1050_tx) tx - внутренний параметр
-#define idinternal1_m1050_tx	 1085	//(internal1_m1050_tx) tx - внутренний параметр
-#define internal1_m1029_tx	 BUFFER[3403]	//(internal1_m1029_tx) tx - внутренний параметр
-#define idinternal1_m1029_tx	 1086	//(internal1_m1029_tx) tx - внутренний параметр
-#define internal1_m1028_tx	 BUFFER[3408]	//(internal1_m1028_tx) tx - внутренний параметр
-#define idinternal1_m1028_tx	 1087	//(internal1_m1028_tx) tx - внутренний параметр
-#define internal1_m1018_tx	 BUFFER[3413]	//(internal1_m1018_tx) tx - внутренний параметр
-#define idinternal1_m1018_tx	 1088	//(internal1_m1018_tx) tx - внутренний параметр
-#define internal1_m1035_tx	 BUFFER[3418]	//(internal1_m1035_tx) tx - внутренний параметр
-#define idinternal1_m1035_tx	 1089	//(internal1_m1035_tx) tx - внутренний параметр
-#define internal1_m1432_tx	 BUFFER[3423]	//(internal1_m1432_tx) tx - внутренний параметр
-#define idinternal1_m1432_tx	 1090	//(internal1_m1432_tx) tx - внутренний параметр
-#define internal1_m1431_tx	 BUFFER[3428]	//(internal1_m1431_tx) tx - внутренний параметр
-#define idinternal1_m1431_tx	 1091	//(internal1_m1431_tx) tx - внутренний параметр
-#define internal1_m2181_tx	 BUFFER[3433]	//(internal1_m2181_tx) tx - внутренний параметр
-#define idinternal1_m2181_tx	 1092	//(internal1_m2181_tx) tx - внутренний параметр
-#define internal1_m1423_tx	 BUFFER[3438]	//(internal1_m1423_tx) tx - внутренний параметр
-#define idinternal1_m1423_tx	 1093	//(internal1_m1423_tx) tx - внутренний параметр
-#define internal1_m1424_tx	 BUFFER[3443]	//(internal1_m1424_tx) tx - внутренний параметр
-#define idinternal1_m1424_tx	 1094	//(internal1_m1424_tx) tx - внутренний параметр
-#define internal1_m1430_tx	 BUFFER[3448]	//(internal1_m1430_tx) tx - внутренний параметр
-#define idinternal1_m1430_tx	 1095	//(internal1_m1430_tx) tx - внутренний параметр
-#define internal1_m1410_tx	 BUFFER[3453]	//(internal1_m1410_tx) tx - внутренний параметр
-#define idinternal1_m1410_tx	 1096	//(internal1_m1410_tx) tx - внутренний параметр
-#define internal1_m1409_tx	 BUFFER[3458]	//(internal1_m1409_tx) tx - внутренний параметр
-#define idinternal1_m1409_tx	 1097	//(internal1_m1409_tx) tx - внутренний параметр
-#define internal1_m1408_tx	 BUFFER[3463]	//(internal1_m1408_tx) tx - внутренний параметр
-#define idinternal1_m1408_tx	 1098	//(internal1_m1408_tx) tx - внутренний параметр
-#define internal1_m1429_tx	 BUFFER[3468]	//(internal1_m1429_tx) tx - внутренний параметр
-#define idinternal1_m1429_tx	 1099	//(internal1_m1429_tx) tx - внутренний параметр
-#define internal1_m1395_tx	 BUFFER[3473]	//(internal1_m1395_tx) tx - внутренний параметр
-#define idinternal1_m1395_tx	 1100	//(internal1_m1395_tx) tx - внутренний параметр
-#define internal1_m1393_tx	 BUFFER[3478]	//(internal1_m1393_tx) tx - внутренний параметр
-#define idinternal1_m1393_tx	 1101	//(internal1_m1393_tx) tx - внутренний параметр
-#define internal1_m1402_tx	 BUFFER[3483]	//(internal1_m1402_tx) tx - внутренний параметр
-#define idinternal1_m1402_tx	 1102	//(internal1_m1402_tx) tx - внутренний параметр
-#define internal1_m244_tx	 BUFFER[3488]	//(internal1_m244_tx) tx - внутренний параметр
-#define idinternal1_m244_tx	 1103	//(internal1_m244_tx) tx - внутренний параметр
-#define internal1_m259_tx	 BUFFER[3493]	//(internal1_m259_tx) tx - внутренний параметр
-#define idinternal1_m259_tx	 1104	//(internal1_m259_tx) tx - внутренний параметр
-#define internal1_m266_tx	 BUFFER[3498]	//(internal1_m266_tx) tx - внутренний параметр
-#define idinternal1_m266_tx	 1105	//(internal1_m266_tx) tx - внутренний параметр
-#define internal1_m265_tx	 BUFFER[3503]	//(internal1_m265_tx) tx - внутренний параметр
-#define idinternal1_m265_tx	 1106	//(internal1_m265_tx) tx - внутренний параметр
-#define internal1_m251_tx	 BUFFER[3508]	//(internal1_m251_tx) tx - внутренний параметр
-#define idinternal1_m251_tx	 1107	//(internal1_m251_tx) tx - внутренний параметр
-#define internal1_m247_tx	 BUFFER[3513]	//(internal1_m247_tx) tx - внутренний параметр
-#define idinternal1_m247_tx	 1108	//(internal1_m247_tx) tx - внутренний параметр
-#define internal1_m263_tx	 BUFFER[3518]	//(internal1_m263_tx) tx - внутренний параметр
-#define idinternal1_m263_tx	 1109	//(internal1_m263_tx) tx - внутренний параметр
-#define internal1_m235_tx	 BUFFER[3523]	//(internal1_m235_tx) tx - внутренний параметр
-#define idinternal1_m235_tx	 1110	//(internal1_m235_tx) tx - внутренний параметр
-#define internal1_m234_tx	 BUFFER[3528]	//(internal1_m234_tx) tx - внутренний параметр
-#define idinternal1_m234_tx	 1111	//(internal1_m234_tx) tx - внутренний параметр
-#define internal1_m230_tx	 BUFFER[3533]	//(internal1_m230_tx) tx - внутренний параметр
-#define idinternal1_m230_tx	 1112	//(internal1_m230_tx) tx - внутренний параметр
-#define internal1_m262_tx	 BUFFER[3538]	//(internal1_m262_tx) tx - внутренний параметр
-#define idinternal1_m262_tx	 1113	//(internal1_m262_tx) tx - внутренний параметр
-#define internal1_m219_tx	 BUFFER[3543]	//(internal1_m219_tx) tx - внутренний параметр
-#define idinternal1_m219_tx	 1114	//(internal1_m219_tx) tx - внутренний параметр
-#define internal1_m221_tx	 BUFFER[3548]	//(internal1_m221_tx) tx - внутренний параметр
-#define idinternal1_m221_tx	 1115	//(internal1_m221_tx) tx - внутренний параметр
-#define internal1_m218_tx	 BUFFER[3553]	//(internal1_m218_tx) tx - внутренний параметр
-#define idinternal1_m218_tx	 1116	//(internal1_m218_tx) tx - внутренний параметр
-#define internal1_m197_tx	 BUFFER[3558]	//(internal1_m197_tx) tx - внутренний параметр
-#define idinternal1_m197_tx	 1117	//(internal1_m197_tx) tx - внутренний параметр
-#define internal1_m196_tx	 BUFFER[3563]	//(internal1_m196_tx) tx - внутренний параметр
-#define idinternal1_m196_tx	 1118	//(internal1_m196_tx) tx - внутренний параметр
-#define internal1_m195_tx	 BUFFER[3568]	//(internal1_m195_tx) tx - внутренний параметр
-#define idinternal1_m195_tx	 1119	//(internal1_m195_tx) tx - внутренний параметр
-#define internal1_m203_tx	 BUFFER[3573]	//(internal1_m203_tx) tx - внутренний параметр
-#define idinternal1_m203_tx	 1120	//(internal1_m203_tx) tx - внутренний параметр
-#define internal1_m1375_tx	 BUFFER[3578]	//(internal1_m1375_tx) tx - внутренний параметр
-#define idinternal1_m1375_tx	 1121	//(internal1_m1375_tx) tx - внутренний параметр
-#define internal1_m1357_tx	 BUFFER[3583]	//(internal1_m1357_tx) tx - внутренний параметр
-#define idinternal1_m1357_tx	 1122	//(internal1_m1357_tx) tx - внутренний параметр
-#define internal1_m1358_tx	 BUFFER[3588]	//(internal1_m1358_tx) tx - внутренний параметр
-#define idinternal1_m1358_tx	 1123	//(internal1_m1358_tx) tx - внутренний параметр
-#define internal1_m1378_tx	 BUFFER[3593]	//(internal1_m1378_tx) tx - внутренний параметр
-#define idinternal1_m1378_tx	 1124	//(internal1_m1378_tx) tx - внутренний параметр
-#define internal1_m918_tx	 BUFFER[3598]	//(internal1_m918_tx) tx - внутренний параметр
-#define idinternal1_m918_tx	 1125	//(internal1_m918_tx) tx - внутренний параметр
-#define internal1_m923_tx	 BUFFER[3603]	//(internal1_m923_tx) tx - внутренний параметр
-#define idinternal1_m923_tx	 1126	//(internal1_m923_tx) tx - внутренний параметр
-#define internal1_m913_tx	 BUFFER[3608]	//(internal1_m913_tx) tx - внутренний параметр
-#define idinternal1_m913_tx	 1127	//(internal1_m913_tx) tx - внутренний параметр
-#define internal1_m914_tx	 BUFFER[3613]	//(internal1_m914_tx) tx - внутренний параметр
-#define idinternal1_m914_tx	 1128	//(internal1_m914_tx) tx - внутренний параметр
-#define internal1_m1866_q0	 BUFFER[3618]	//(internal1_m1866_q0) q0 - внутренний параметр
-#define idinternal1_m1866_q0	 1129	//(internal1_m1866_q0) q0 - внутренний параметр
-#define internal1_m2316_q0	 BUFFER[3620]	//(internal1_m2316_q0) q0 - внутренний параметр
-#define idinternal1_m2316_q0	 1130	//(internal1_m2316_q0) q0 - внутренний параметр
-#define internal1_m2300_q0	 BUFFER[3622]	//(internal1_m2300_q0) q0 - внутренний параметр
-#define idinternal1_m2300_q0	 1131	//(internal1_m2300_q0) q0 - внутренний параметр
-#define internal1_m2347_q0	 BUFFER[3624]	//(internal1_m2347_q0) q0 - внутренний параметр
-#define idinternal1_m2347_q0	 1132	//(internal1_m2347_q0) q0 - внутренний параметр
-#define internal1_m2331_q0	 BUFFER[3626]	//(internal1_m2331_q0) q0 - внутренний параметр
-#define idinternal1_m2331_q0	 1133	//(internal1_m2331_q0) q0 - внутренний параметр
-#define internal1_m2322_q0	 BUFFER[3628]	//(internal1_m2322_q0) q0 - внутренний параметр
-#define idinternal1_m2322_q0	 1134	//(internal1_m2322_q0) q0 - внутренний параметр
-#define internal1_m2303_q0	 BUFFER[3630]	//(internal1_m2303_q0) q0 - внутренний параметр
-#define idinternal1_m2303_q0	 1135	//(internal1_m2303_q0) q0 - внутренний параметр
-#define internal1_m2320_q0	 BUFFER[3632]	//(internal1_m2320_q0) q0 - внутренний параметр
-#define idinternal1_m2320_q0	 1136	//(internal1_m2320_q0) q0 - внутренний параметр
-#define internal1_m2301_q0	 BUFFER[3634]	//(internal1_m2301_q0) q0 - внутренний параметр
-#define idinternal1_m2301_q0	 1137	//(internal1_m2301_q0) q0 - внутренний параметр
-#define internal1_m2299_q0	 BUFFER[3636]	//(internal1_m2299_q0) q0 - внутренний параметр
-#define idinternal1_m2299_q0	 1138	//(internal1_m2299_q0) q0 - внутренний параметр
-#define internal1_m2298_q0	 BUFFER[3638]	//(internal1_m2298_q0) q0 - внутренний параметр
-#define idinternal1_m2298_q0	 1139	//(internal1_m2298_q0) q0 - внутренний параметр
-#define internal1_m2312_q0	 BUFFER[3640]	//(internal1_m2312_q0) q0 - внутренний параметр
-#define idinternal1_m2312_q0	 1140	//(internal1_m2312_q0) q0 - внутренний параметр
-#define internal1_m2310_q0	 BUFFER[3642]	//(internal1_m2310_q0) q0 - внутренний параметр
-#define idinternal1_m2310_q0	 1141	//(internal1_m2310_q0) q0 - внутренний параметр
-#define internal1_m2318_q0	 BUFFER[3644]	//(internal1_m2318_q0) q0 - внутренний параметр
-#define idinternal1_m2318_q0	 1142	//(internal1_m2318_q0) q0 - внутренний параметр
-#define internal1_m2314_q0	 BUFFER[3646]	//(internal1_m2314_q0) q0 - внутренний параметр
-#define idinternal1_m2314_q0	 1143	//(internal1_m2314_q0) q0 - внутренний параметр
-#define internal1_m2353_q0	 BUFFER[3648]	//(internal1_m2353_q0) q0 - внутренний параметр
-#define idinternal1_m2353_q0	 1144	//(internal1_m2353_q0) q0 - внутренний параметр
-#define internal1_m2334_q0	 BUFFER[3650]	//(internal1_m2334_q0) q0 - внутренний параметр
-#define idinternal1_m2334_q0	 1145	//(internal1_m2334_q0) q0 - внутренний параметр
-#define internal1_m2351_q0	 BUFFER[3652]	//(internal1_m2351_q0) q0 - внутренний параметр
-#define idinternal1_m2351_q0	 1146	//(internal1_m2351_q0) q0 - внутренний параметр
-#define internal1_m2333_q0	 BUFFER[3654]	//(internal1_m2333_q0) q0 - внутренний параметр
-#define idinternal1_m2333_q0	 1147	//(internal1_m2333_q0) q0 - внутренний параметр
-#define internal1_m2330_q0	 BUFFER[3656]	//(internal1_m2330_q0) q0 - внутренний параметр
-#define idinternal1_m2330_q0	 1148	//(internal1_m2330_q0) q0 - внутренний параметр
-#define internal1_m2329_q0	 BUFFER[3658]	//(internal1_m2329_q0) q0 - внутренний параметр
-#define idinternal1_m2329_q0	 1149	//(internal1_m2329_q0) q0 - внутренний параметр
-#define internal1_m2343_q0	 BUFFER[3660]	//(internal1_m2343_q0) q0 - внутренний параметр
-#define idinternal1_m2343_q0	 1150	//(internal1_m2343_q0) q0 - внутренний параметр
-#define internal1_m2341_q0	 BUFFER[3662]	//(internal1_m2341_q0) q0 - внутренний параметр
-#define idinternal1_m2341_q0	 1151	//(internal1_m2341_q0) q0 - внутренний параметр
-#define internal1_m2206_tx	 BUFFER[3664]	//(internal1_m2206_tx) tx - внутренний параметр
-#define idinternal1_m2206_tx	 1152	//(internal1_m2206_tx) tx - внутренний параметр
-#define internal1_m2185_tx	 BUFFER[3669]	//(internal1_m2185_tx) tx - внутренний параметр
-#define idinternal1_m2185_tx	 1153	//(internal1_m2185_tx) tx - внутренний параметр
-#define internal1_m1888_Pv0	 BUFFER[3674]	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m1888_Pv0	 1154	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
-#define internal1_m1888_Zv0	 BUFFER[3676]	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m1888_Zv0	 1155	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
-#define internal1_m1888_MyFirstEnterFlag	 BUFFER[3678]	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m1888_MyFirstEnterFlag	 1156	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m1887_Pv0	 BUFFER[3680]	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m1887_Pv0	 1157	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
-#define internal1_m1887_Zv0	 BUFFER[3682]	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m1887_Zv0	 1158	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
-#define internal1_m1887_MyFirstEnterFlag	 BUFFER[3684]	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m1887_MyFirstEnterFlag	 1159	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m2370_tx	 BUFFER[3686]	//(internal1_m2370_tx) tx - время накопленное сек
-#define idinternal1_m2370_tx	 1160	//(internal1_m2370_tx) tx - время накопленное сек
-#define internal1_m2370_y0	 BUFFER[3691]	//(internal1_m2370_y0) y0
-#define idinternal1_m2370_y0	 1161	//(internal1_m2370_y0) y0
-#define internal1_m2375_tx	 BUFFER[3692]	//(internal1_m2375_tx) tx - время накопленное сек
-#define idinternal1_m2375_tx	 1162	//(internal1_m2375_tx) tx - время накопленное сек
-#define internal1_m2375_y0	 BUFFER[3697]	//(internal1_m2375_y0) y0
-#define idinternal1_m2375_y0	 1163	//(internal1_m2375_y0) y0
-#define internal1_m2374_tx	 BUFFER[3698]	//(internal1_m2374_tx) tx - время накопленное сек
-#define idinternal1_m2374_tx	 1164	//(internal1_m2374_tx) tx - время накопленное сек
-#define internal1_m2374_y0	 BUFFER[3703]	//(internal1_m2374_y0) y0
-#define idinternal1_m2374_y0	 1165	//(internal1_m2374_y0) y0
-#define internal1_m2411_tx	 BUFFER[3704]	//(internal1_m2411_tx) tx - внутренний параметр
-#define idinternal1_m2411_tx	 1166	//(internal1_m2411_tx) tx - внутренний параметр
-#define internal1_m2409_tx	 BUFFER[3709]	//(internal1_m2409_tx) tx - время накопленное сек
-#define idinternal1_m2409_tx	 1167	//(internal1_m2409_tx) tx - время накопленное сек
-#define internal1_m2409_y0	 BUFFER[3714]	//(internal1_m2409_y0) y0
-#define idinternal1_m2409_y0	 1168	//(internal1_m2409_y0) y0
-#define internal1_m2414_q0	 BUFFER[3715]	//(internal1_m2414_q0) q0 - внутренний параметр
-#define idinternal1_m2414_q0	 1169	//(internal1_m2414_q0) q0 - внутренний параметр
-#define internal1_m2381_q0	 BUFFER[3717]	//(internal1_m2381_q0) q0 - внутренний параметр
-#define idinternal1_m2381_q0	 1170	//(internal1_m2381_q0) q0 - внутренний параметр
-#define internal1_m2389_tx	 BUFFER[3719]	//(internal1_m2389_tx) tx - внутренний параметр
-#define idinternal1_m2389_tx	 1171	//(internal1_m2389_tx) tx - внутренний параметр
-#define internal1_m2387_q0	 BUFFER[3724]	//(internal1_m2387_q0) q0 - внутренний параметр
-#define idinternal1_m2387_q0	 1172	//(internal1_m2387_q0) q0 - внутренний параметр
-#define internal1_m2200_tx	 BUFFER[3726]	//(internal1_m2200_tx) tx - время накопленное сек
-#define idinternal1_m2200_tx	 1173	//(internal1_m2200_tx) tx - время накопленное сек
-#define internal1_m2200_y0	 BUFFER[3731]	//(internal1_m2200_y0) y0
-#define idinternal1_m2200_y0	 1174	//(internal1_m2200_y0) y0
-#define internal1_m2192_tx	 BUFFER[3732]	//(internal1_m2192_tx) tx - время накопленное сек
-#define idinternal1_m2192_tx	 1175	//(internal1_m2192_tx) tx - время накопленное сек
-#define internal1_m2192_y0	 BUFFER[3737]	//(internal1_m2192_y0) y0
-#define idinternal1_m2192_y0	 1176	//(internal1_m2192_y0) y0
-#define internal1_m1876_q0	 BUFFER[3738]	//(internal1_m1876_q0) q0 - внутренний параметр
-#define idinternal1_m1876_q0	 1177	//(internal1_m1876_q0) q0 - внутренний параметр
-#define internal1_m1881_q0	 BUFFER[3740]	//(internal1_m1881_q0) q0 - внутренний параметр
-#define idinternal1_m1881_q0	 1178	//(internal1_m1881_q0) q0 - внутренний параметр
-#define internal1_m1873_q0	 BUFFER[3742]	//(internal1_m1873_q0) q0 - внутренний параметр
-#define idinternal1_m1873_q0	 1179	//(internal1_m1873_q0) q0 - внутренний параметр
-#define internal1_m1915_q0	 BUFFER[3744]	//(internal1_m1915_q0) q0 - внутренний параметр
-#define idinternal1_m1915_q0	 1180	//(internal1_m1915_q0) q0 - внутренний параметр
-#define internal1_m823_tx	 BUFFER[3746]	//(internal1_m823_tx) tx - время накопленное сек
-#define idinternal1_m823_tx	 1181	//(internal1_m823_tx) tx - время накопленное сек
-#define internal1_m823_y0	 BUFFER[3751]	//(internal1_m823_y0) y0
-#define idinternal1_m823_y0	 1182	//(internal1_m823_y0) y0
-#define internal1_m2196_tx	 BUFFER[3752]	//(internal1_m2196_tx) tx - внутренний параметр
-#define idinternal1_m2196_tx	 1183	//(internal1_m2196_tx) tx - внутренний параметр
-#define internal1_m2199_q0	 BUFFER[3757]	//(internal1_m2199_q0) q0 - внутренний параметр
-#define idinternal1_m2199_q0	 1184	//(internal1_m2199_q0) q0 - внутренний параметр
-#define internal1_m2191_q0	 BUFFER[3759]	//(internal1_m2191_q0) q0 - внутренний параметр
-#define idinternal1_m2191_q0	 1185	//(internal1_m2191_q0) q0 - внутренний параметр
-#define internal1_m2160_tx	 BUFFER[3761]	//(internal1_m2160_tx) tx - внутренний параметр
-#define idinternal1_m2160_tx	 1186	//(internal1_m2160_tx) tx - внутренний параметр
-#define internal1_m2171_tx	 BUFFER[3766]	//(internal1_m2171_tx) tx - внутренний параметр
-#define idinternal1_m2171_tx	 1187	//(internal1_m2171_tx) tx - внутренний параметр
-#define internal1_m2157_tx	 BUFFER[3771]	//(internal1_m2157_tx) tx - внутренний параметр
-#define idinternal1_m2157_tx	 1188	//(internal1_m2157_tx) tx - внутренний параметр
-#define internal1_m2163_q0	 BUFFER[3776]	//(internal1_m2163_q0) q0 - внутренний параметр
-#define idinternal1_m2163_q0	 1189	//(internal1_m2163_q0) q0 - внутренний параметр
-#define internal1_m2175_q0	 BUFFER[3778]	//(internal1_m2175_q0) q0 - внутренний параметр
-#define idinternal1_m2175_q0	 1190	//(internal1_m2175_q0) q0 - внутренний параметр
-#define internal1_m2132_tx	 BUFFER[3780]	//(internal1_m2132_tx) tx - внутренний параметр
-#define idinternal1_m2132_tx	 1191	//(internal1_m2132_tx) tx - внутренний параметр
-#define internal1_m51_tx	 BUFFER[3785]	//(internal1_m51_tx) tx - внутренний параметр
-#define idinternal1_m51_tx	 1192	//(internal1_m51_tx) tx - внутренний параметр
-#define internal1_m357_tx	 BUFFER[3790]	//(internal1_m357_tx) tx - внутренний параметр
-#define idinternal1_m357_tx	 1193	//(internal1_m357_tx) tx - внутренний параметр
-#define internal1_m311_tx	 BUFFER[3795]	//(internal1_m311_tx) tx - внутренний параметр
-#define idinternal1_m311_tx	 1194	//(internal1_m311_tx) tx - внутренний параметр
-#define internal1_m824_tx	 BUFFER[3800]	//(internal1_m824_tx) tx - внутренний параметр
-#define idinternal1_m824_tx	 1195	//(internal1_m824_tx) tx - внутренний параметр
-#define internal1_m1584_tx	 BUFFER[3805]	//(internal1_m1584_tx) tx - внутренний параметр
-#define idinternal1_m1584_tx	 1196	//(internal1_m1584_tx) tx - внутренний параметр
-#define internal1_m114_tx	 BUFFER[3810]	//(internal1_m114_tx) tx - внутренний параметр
-#define idinternal1_m114_tx	 1197	//(internal1_m114_tx) tx - внутренний параметр
-#define internal1_m116_tx	 BUFFER[3815]	//(internal1_m116_tx) tx - внутренний параметр
-#define idinternal1_m116_tx	 1198	//(internal1_m116_tx) tx - внутренний параметр
-#define internal1_m121_tx	 BUFFER[3820]	//(internal1_m121_tx) tx - внутренний параметр
-#define idinternal1_m121_tx	 1199	//(internal1_m121_tx) tx - внутренний параметр
-#define internal1_m21_tx	 BUFFER[3825]	//(internal1_m21_tx) tx - внутренний параметр
-#define idinternal1_m21_tx	 1200	//(internal1_m21_tx) tx - внутренний параметр
-#define internal1_m13_tx	 BUFFER[3830]	//(internal1_m13_tx) tx - внутренний параметр
-#define idinternal1_m13_tx	 1201	//(internal1_m13_tx) tx - внутренний параметр
-#define internal1_m2142_tx	 BUFFER[3835]	//(internal1_m2142_tx) tx - внутренний параметр
-#define idinternal1_m2142_tx	 1202	//(internal1_m2142_tx) tx - внутренний параметр
-#define internal1_m2129_tx	 BUFFER[3840]	//(internal1_m2129_tx) tx - внутренний параметр
-#define idinternal1_m2129_tx	 1203	//(internal1_m2129_tx) tx - внутренний параметр
-#define internal1_m2247_tx	 BUFFER[3845]	//(internal1_m2247_tx) tx - внутренний параметр
-#define idinternal1_m2247_tx	 1204	//(internal1_m2247_tx) tx - внутренний параметр
-#define internal1_m2249_tx	 BUFFER[3850]	//(internal1_m2249_tx) tx - внутренний параметр
-#define idinternal1_m2249_tx	 1205	//(internal1_m2249_tx) tx - внутренний параметр
-#define internal1_m2054_tx	 BUFFER[3855]	//(internal1_m2054_tx) tx - внутренний параметр
-#define idinternal1_m2054_tx	 1206	//(internal1_m2054_tx) tx - внутренний параметр
-#define internal1_m77_tx	 BUFFER[3860]	//(internal1_m77_tx) tx - внутренний параметр
-#define idinternal1_m77_tx	 1207	//(internal1_m77_tx) tx - внутренний параметр
-#define internal1_m328_tx	 BUFFER[3865]	//(internal1_m328_tx) tx - время накопленное сек
-#define idinternal1_m328_tx	 1208	//(internal1_m328_tx) tx - время накопленное сек
-#define internal1_m328_y0	 BUFFER[3870]	//(internal1_m328_y0) y0
-#define idinternal1_m328_y0	 1209	//(internal1_m328_y0) y0
-#define internal1_m2048_tx	 BUFFER[3871]	//(internal1_m2048_tx) tx - время накопленное сек
-#define idinternal1_m2048_tx	 1210	//(internal1_m2048_tx) tx - время накопленное сек
-#define internal1_m2048_y0	 BUFFER[3876]	//(internal1_m2048_y0) y0
-#define idinternal1_m2048_y0	 1211	//(internal1_m2048_y0) y0
-#define internal1_m2046_tx	 BUFFER[3877]	//(internal1_m2046_tx) tx - время накопленное сек
-#define idinternal1_m2046_tx	 1212	//(internal1_m2046_tx) tx - время накопленное сек
-#define internal1_m2046_y0	 BUFFER[3882]	//(internal1_m2046_y0) y0
-#define idinternal1_m2046_y0	 1213	//(internal1_m2046_y0) y0
-#define internal1_m2035_tx	 BUFFER[3883]	//(internal1_m2035_tx) tx - время накопленное сек
-#define idinternal1_m2035_tx	 1214	//(internal1_m2035_tx) tx - время накопленное сек
-#define internal1_m2035_y0	 BUFFER[3888]	//(internal1_m2035_y0) y0
-#define idinternal1_m2035_y0	 1215	//(internal1_m2035_y0) y0
-#define internal1_m2055_q0	 BUFFER[3889]	//(internal1_m2055_q0) q0 - внутренний параметр
-#define idinternal1_m2055_q0	 1216	//(internal1_m2055_q0) q0 - внутренний параметр
-#define internal1_m1604_q0	 BUFFER[3894]	//(internal1_m1604_q0) q0 - внутренний параметр
-#define idinternal1_m1604_q0	 1217	//(internal1_m1604_q0) q0 - внутренний параметр
-#define internal1_m1641_q0	 BUFFER[3899]	//(internal1_m1641_q0) q0 - внутренний параметр
-#define idinternal1_m1641_q0	 1218	//(internal1_m1641_q0) q0 - внутренний параметр
-#define internal1_m1644_q0	 BUFFER[3904]	//(internal1_m1644_q0) q0 - внутренний параметр
-#define idinternal1_m1644_q0	 1219	//(internal1_m1644_q0) q0 - внутренний параметр
-#define internal1_m2094_q0	 BUFFER[3909]	//(internal1_m2094_q0) q0 - внутренний параметр
-#define idinternal1_m2094_q0	 1220	//(internal1_m2094_q0) q0 - внутренний параметр
-#define internal1_m2072_tx	 BUFFER[3914]	//(internal1_m2072_tx) tx - время накопленное сек
-#define idinternal1_m2072_tx	 1221	//(internal1_m2072_tx) tx - время накопленное сек
-#define internal1_m2072_y0	 BUFFER[3919]	//(internal1_m2072_y0) y0
-#define idinternal1_m2072_y0	 1222	//(internal1_m2072_y0) y0
-#define internal1_m2087_tx	 BUFFER[3920]	//(internal1_m2087_tx) tx - время накопленное сек
-#define idinternal1_m2087_tx	 1223	//(internal1_m2087_tx) tx - время накопленное сек
-#define internal1_m2087_y0	 BUFFER[3925]	//(internal1_m2087_y0) y0
-#define idinternal1_m2087_y0	 1224	//(internal1_m2087_y0) y0
-#define internal1_m2084_tx	 BUFFER[3926]	//(internal1_m2084_tx) tx - время накопленное сек
-#define idinternal1_m2084_tx	 1225	//(internal1_m2084_tx) tx - время накопленное сек
-#define internal1_m2084_y0	 BUFFER[3931]	//(internal1_m2084_y0) y0
-#define idinternal1_m2084_y0	 1226	//(internal1_m2084_y0) y0
-#define internal1_m2227_tx	 BUFFER[3932]	//(internal1_m2227_tx) tx - время накопленное сек
-#define idinternal1_m2227_tx	 1227	//(internal1_m2227_tx) tx - время накопленное сек
-#define internal1_m2227_y0	 BUFFER[3937]	//(internal1_m2227_y0) y0
-#define idinternal1_m2227_y0	 1228	//(internal1_m2227_y0) y0
-#define internal1_m2238_tx	 BUFFER[3938]	//(internal1_m2238_tx) tx - время накопленное сек
-#define idinternal1_m2238_tx	 1229	//(internal1_m2238_tx) tx - время накопленное сек
-#define internal1_m2238_y0	 BUFFER[3943]	//(internal1_m2238_y0) y0
-#define idinternal1_m2238_y0	 1230	//(internal1_m2238_y0) y0
-#define internal1_m1983_tx	 BUFFER[3944]	//(internal1_m1983_tx) tx - время накопленное сек
-#define idinternal1_m1983_tx	 1231	//(internal1_m1983_tx) tx - время накопленное сек
-#define internal1_m1983_y0	 BUFFER[3949]	//(internal1_m1983_y0) y0
-#define idinternal1_m1983_y0	 1232	//(internal1_m1983_y0) y0
-#define internal1_m1982_tx	 BUFFER[3950]	//(internal1_m1982_tx) tx - время накопленное сек
-#define idinternal1_m1982_tx	 1233	//(internal1_m1982_tx) tx - время накопленное сек
-#define internal1_m1982_y0	 BUFFER[3955]	//(internal1_m1982_y0) y0
-#define idinternal1_m1982_y0	 1234	//(internal1_m1982_y0) y0
-#define internal1_m1981_tx	 BUFFER[3956]	//(internal1_m1981_tx) tx - время накопленное сек
-#define idinternal1_m1981_tx	 1235	//(internal1_m1981_tx) tx - время накопленное сек
-#define internal1_m1981_y0	 BUFFER[3961]	//(internal1_m1981_y0) y0
-#define idinternal1_m1981_y0	 1236	//(internal1_m1981_y0) y0
-#define internal1_m1980_tx	 BUFFER[3962]	//(internal1_m1980_tx) tx - время накопленное сек
-#define idinternal1_m1980_tx	 1237	//(internal1_m1980_tx) tx - время накопленное сек
-#define internal1_m1980_y0	 BUFFER[3967]	//(internal1_m1980_y0) y0
-#define idinternal1_m1980_y0	 1238	//(internal1_m1980_y0) y0
-#define internal1_m1656_tx	 BUFFER[3968]	//(internal1_m1656_tx) tx - время накопленное сек
-#define idinternal1_m1656_tx	 1239	//(internal1_m1656_tx) tx - время накопленное сек
-#define internal1_m1656_y0	 BUFFER[3973]	//(internal1_m1656_y0) y0
-#define idinternal1_m1656_y0	 1240	//(internal1_m1656_y0) y0
-#define internal1_m1650_tx	 BUFFER[3974]	//(internal1_m1650_tx) tx - время накопленное сек
-#define idinternal1_m1650_tx	 1241	//(internal1_m1650_tx) tx - время накопленное сек
-#define internal1_m1650_y0	 BUFFER[3979]	//(internal1_m1650_y0) y0
-#define idinternal1_m1650_y0	 1242	//(internal1_m1650_y0) y0
-#define internal1_m1600_tx	 BUFFER[3980]	//(internal1_m1600_tx) tx - время накопленное сек
-#define idinternal1_m1600_tx	 1243	//(internal1_m1600_tx) tx - время накопленное сек
-#define internal1_m1600_y0	 BUFFER[3985]	//(internal1_m1600_y0) y0
-#define idinternal1_m1600_y0	 1244	//(internal1_m1600_y0) y0
-#define internal1_m911_tx	 BUFFER[3986]	//(internal1_m911_tx) tx - время накопленное сек
-#define idinternal1_m911_tx	 1245	//(internal1_m911_tx) tx - время накопленное сек
-#define internal1_m911_y0	 BUFFER[3991]	//(internal1_m911_y0) y0
-#define idinternal1_m911_y0	 1246	//(internal1_m911_y0) y0
-#define internal1_m910_tx	 BUFFER[3992]	//(internal1_m910_tx) tx - время накопленное сек
-#define idinternal1_m910_tx	 1247	//(internal1_m910_tx) tx - время накопленное сек
-#define internal1_m910_y0	 BUFFER[3997]	//(internal1_m910_y0) y0
-#define idinternal1_m910_y0	 1248	//(internal1_m910_y0) y0
-#define internal1_m928_tx	 BUFFER[3998]	//(internal1_m928_tx) tx - время накопленное сек
-#define idinternal1_m928_tx	 1249	//(internal1_m928_tx) tx - время накопленное сек
-#define internal1_m928_y0	 BUFFER[4003]	//(internal1_m928_y0) y0
-#define idinternal1_m928_y0	 1250	//(internal1_m928_y0) y0
-#define internal1_m187_tx	 BUFFER[4004]	//(internal1_m187_tx) tx - время накопленное сек
-#define idinternal1_m187_tx	 1251	//(internal1_m187_tx) tx - время накопленное сек
-#define internal1_m187_y0	 BUFFER[4009]	//(internal1_m187_y0) y0
-#define idinternal1_m187_y0	 1252	//(internal1_m187_y0) y0
-#define internal1_m186_tx	 BUFFER[4010]	//(internal1_m186_tx) tx - время накопленное сек
-#define idinternal1_m186_tx	 1253	//(internal1_m186_tx) tx - время накопленное сек
-#define internal1_m186_y0	 BUFFER[4015]	//(internal1_m186_y0) y0
-#define idinternal1_m186_y0	 1254	//(internal1_m186_y0) y0
-#define internal1_m208_tx	 BUFFER[4016]	//(internal1_m208_tx) tx - время накопленное сек
-#define idinternal1_m208_tx	 1255	//(internal1_m208_tx) tx - время накопленное сек
-#define internal1_m208_y0	 BUFFER[4021]	//(internal1_m208_y0) y0
-#define idinternal1_m208_y0	 1256	//(internal1_m208_y0) y0
-#define internal1_m577_tx	 BUFFER[4022]	//(internal1_m577_tx) tx - время накопленное сек
-#define idinternal1_m577_tx	 1257	//(internal1_m577_tx) tx - время накопленное сек
-#define internal1_m577_y0	 BUFFER[4027]	//(internal1_m577_y0) y0
-#define idinternal1_m577_y0	 1258	//(internal1_m577_y0) y0
-#define internal1_m2281_tx	 BUFFER[4028]	//(internal1_m2281_tx) tx - внутренний параметр
-#define idinternal1_m2281_tx	 1259	//(internal1_m2281_tx) tx - внутренний параметр
-#define internal1_m1308_tx	 BUFFER[4033]	//(internal1_m1308_tx) tx - внутренний параметр
-#define idinternal1_m1308_tx	 1260	//(internal1_m1308_tx) tx - внутренний параметр
-#define internal1_m1785_tx	 BUFFER[4038]	//(internal1_m1785_tx) tx - время накопленное сек
-#define idinternal1_m1785_tx	 1261	//(internal1_m1785_tx) tx - время накопленное сек
-#define internal1_m1785_y0	 BUFFER[4043]	//(internal1_m1785_y0) y0
-#define idinternal1_m1785_y0	 1262	//(internal1_m1785_y0) y0
-#define internal1_m1274_tx	 BUFFER[4044]	//(internal1_m1274_tx) tx - время накопленное сек
-#define idinternal1_m1274_tx	 1263	//(internal1_m1274_tx) tx - время накопленное сек
-#define internal1_m1274_y0	 BUFFER[4049]	//(internal1_m1274_y0) y0
-#define idinternal1_m1274_y0	 1264	//(internal1_m1274_y0) y0
-#define internal1_m1492_tx	 BUFFER[4050]	//(internal1_m1492_tx) tx - время накопленное сек
-#define idinternal1_m1492_tx	 1265	//(internal1_m1492_tx) tx - время накопленное сек
-#define internal1_m1492_y0	 BUFFER[4055]	//(internal1_m1492_y0) y0
-#define idinternal1_m1492_y0	 1266	//(internal1_m1492_y0) y0
-#define internal1_m1041_tx	 BUFFER[4056]	//(internal1_m1041_tx) tx - время накопленное сек
-#define idinternal1_m1041_tx	 1267	//(internal1_m1041_tx) tx - время накопленное сек
-#define internal1_m1041_y0	 BUFFER[4061]	//(internal1_m1041_y0) y0
-#define idinternal1_m1041_y0	 1268	//(internal1_m1041_y0) y0
-#define internal1_m1382_tx	 BUFFER[4062]	//(internal1_m1382_tx) tx - время накопленное сек
-#define idinternal1_m1382_tx	 1269	//(internal1_m1382_tx) tx - время накопленное сек
-#define internal1_m1382_y0	 BUFFER[4067]	//(internal1_m1382_y0) y0
-#define idinternal1_m1382_y0	 1270	//(internal1_m1382_y0) y0
-#define internal1_m1198_q0	 BUFFER[4068]	//(internal1_m1198_q0) q0 - внутренний параметр
-#define idinternal1_m1198_q0	 1271	//(internal1_m1198_q0) q0 - внутренний параметр
-#define internal1_m1196_q0	 BUFFER[4070]	//(internal1_m1196_q0) q0 - внутренний параметр
-#define idinternal1_m1196_q0	 1272	//(internal1_m1196_q0) q0 - внутренний параметр
-#define internal1_m1195_q0	 BUFFER[4072]	//(internal1_m1195_q0) q0 - внутренний параметр
-#define idinternal1_m1195_q0	 1273	//(internal1_m1195_q0) q0 - внутренний параметр
-#define internal1_m1193_q0	 BUFFER[4074]	//(internal1_m1193_q0) q0 - внутренний параметр
-#define idinternal1_m1193_q0	 1274	//(internal1_m1193_q0) q0 - внутренний параметр
-#define internal1_m1192_q0	 BUFFER[4076]	//(internal1_m1192_q0) q0 - внутренний параметр
-#define idinternal1_m1192_q0	 1275	//(internal1_m1192_q0) q0 - внутренний параметр
-#define internal1_m1190_q0	 BUFFER[4078]	//(internal1_m1190_q0) q0 - внутренний параметр
-#define idinternal1_m1190_q0	 1276	//(internal1_m1190_q0) q0 - внутренний параметр
-#define internal1_m1189_q0	 BUFFER[4080]	//(internal1_m1189_q0) q0 - внутренний параметр
-#define idinternal1_m1189_q0	 1277	//(internal1_m1189_q0) q0 - внутренний параметр
-#define internal1_m1187_q0	 BUFFER[4082]	//(internal1_m1187_q0) q0 - внутренний параметр
-#define idinternal1_m1187_q0	 1278	//(internal1_m1187_q0) q0 - внутренний параметр
-#define internal1_m1186_q0	 BUFFER[4084]	//(internal1_m1186_q0) q0 - внутренний параметр
-#define idinternal1_m1186_q0	 1279	//(internal1_m1186_q0) q0 - внутренний параметр
-#define internal1_m52_x0	 BUFFER[4086]	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m52_x0	 1280	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m1105_q0	 BUFFER[4088]	//(internal1_m1105_q0) q0 - внутренний параметр
-#define idinternal1_m1105_q0	 1281	//(internal1_m1105_q0) q0 - внутренний параметр
-#define internal1_m1593_x0	 BUFFER[4090]	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m1593_x0	 1282	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m1637_x0	 BUFFER[4092]	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m1637_x0	 1283	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m1633_x0	 BUFFER[4094]	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m1633_x0	 1284	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m2063_x0	 BUFFER[4096]	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m2063_x0	 1285	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m2028_x0	 BUFFER[4098]	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m2028_x0	 1286	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m1145_q0	 BUFFER[4100]	//(internal1_m1145_q0) q0 - внутренний параметр
-#define idinternal1_m1145_q0	 1287	//(internal1_m1145_q0) q0 - внутренний параметр
-#define internal1_m1157_q0	 BUFFER[4102]	//(internal1_m1157_q0) q0 - внутренний параметр
-#define idinternal1_m1157_q0	 1288	//(internal1_m1157_q0) q0 - внутренний параметр
-#define internal1_m1169_q0	 BUFFER[4104]	//(internal1_m1169_q0) q0 - внутренний параметр
-#define idinternal1_m1169_q0	 1289	//(internal1_m1169_q0) q0 - внутренний параметр
-#define internal1_m1181_q0	 BUFFER[4106]	//(internal1_m1181_q0) q0 - внутренний параметр
-#define idinternal1_m1181_q0	 1290	//(internal1_m1181_q0) q0 - внутренний параметр
-#define internal1_m1156_q0	 BUFFER[4108]	//(internal1_m1156_q0) q0 - внутренний параметр
-#define idinternal1_m1156_q0	 1291	//(internal1_m1156_q0) q0 - внутренний параметр
-#define internal1_m1171_q0	 BUFFER[4110]	//(internal1_m1171_q0) q0 - внутренний параметр
-#define idinternal1_m1171_q0	 1292	//(internal1_m1171_q0) q0 - внутренний параметр
-#define internal1_m2121_q0	 BUFFER[4112]	//(internal1_m2121_q0) q0 - внутренний параметр
-#define idinternal1_m2121_q0	 1293	//(internal1_m2121_q0) q0 - внутренний параметр
-#define internal1_m2120_q0	 BUFFER[4114]	//(internal1_m2120_q0) q0 - внутренний параметр
-#define idinternal1_m2120_q0	 1294	//(internal1_m2120_q0) q0 - внутренний параметр
-#define internal1_m345_Step	 BUFFER[4116]	//(internal1_m345_Step)  - текущий шаг программы
-#define idinternal1_m345_Step	 1295	//(internal1_m345_Step)  - текущий шаг программы
-#define internal1_m345_rz	 BUFFER[4119]	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define idinternal1_m345_rz	 1296	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define internal1_m345_TimS	 BUFFER[4129]	//(internal1_m345_TimS) Время от старта программы
-#define idinternal1_m345_TimS	 1297	//(internal1_m345_TimS) Время от старта программы
-#define internal1_m345_FinPr0	 BUFFER[4134]	//(internal1_m345_FinPr0) FinPr - конец программы
-#define idinternal1_m345_FinPr0	 1298	//(internal1_m345_FinPr0) FinPr - конец программы
-#define internal1_m345_ErrPr0	 BUFFER[4136]	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define idinternal1_m345_ErrPr0	 1299	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define internal1_m345_sbINI0	 BUFFER[4138]	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
-#define idinternal1_m345_sbINI0	 1300	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
-#define internal1_m345_sbVuIS0	 BUFFER[4140]	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define idinternal1_m345_sbVuIS0	 1301	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define internal1_m345_sb2UR0	 BUFFER[4142]	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define idinternal1_m345_sb2UR0	 1302	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define internal1_m345_sbNupIS0	 BUFFER[4144]	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define idinternal1_m345_sbNupIS0	 1303	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define internal1_m345_sbVuRB0	 BUFFER[4146]	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define idinternal1_m345_sbVuRB0	 1304	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define internal1_m345_MyFirstEnterFlag	 BUFFER[4148]	//(internal1_m345_MyFirstEnterFlag)  
-#define idinternal1_m345_MyFirstEnterFlag	 1305	//(internal1_m345_MyFirstEnterFlag)  
-#define internal1_m353_x0	 BUFFER[4150]	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m353_x0	 1306	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m310_TimS	 BUFFER[4155]	//(internal1_m310_TimS) Время старта
-#define idinternal1_m310_TimS	 1307	//(internal1_m310_TimS) Время старта
-#define internal1_m287_Step	 BUFFER[4160]	//(internal1_m287_Step)  - текущий шаг программы
-#define idinternal1_m287_Step	 1308	//(internal1_m287_Step)  - текущий шаг программы
-#define internal1_m287_rz	 BUFFER[4163]	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define idinternal1_m287_rz	 1309	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define internal1_m287_TimS	 BUFFER[4173]	//(internal1_m287_TimS) Время от старта программы
-#define idinternal1_m287_TimS	 1310	//(internal1_m287_TimS) Время от старта программы
-#define internal1_m287_FinPr0	 BUFFER[4178]	//(internal1_m287_FinPr0) FinPr - конец программы
-#define idinternal1_m287_FinPr0	 1311	//(internal1_m287_FinPr0) FinPr - конец программы
-#define internal1_m287_ErrPr0	 BUFFER[4180]	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define idinternal1_m287_ErrPr0	 1312	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define internal1_m287_sbINI0	 BUFFER[4182]	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
-#define idinternal1_m287_sbINI0	 1313	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
-#define internal1_m287_sbVuIS0	 BUFFER[4184]	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define idinternal1_m287_sbVuIS0	 1314	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define internal1_m287_sb2UR0	 BUFFER[4186]	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define idinternal1_m287_sb2UR0	 1315	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define internal1_m287_sbNupIS0	 BUFFER[4188]	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define idinternal1_m287_sbNupIS0	 1316	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define internal1_m287_sbVuRB0	 BUFFER[4190]	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define idinternal1_m287_sbVuRB0	 1317	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define internal1_m287_MyFirstEnterFlag	 BUFFER[4192]	//(internal1_m287_MyFirstEnterFlag)  
-#define idinternal1_m287_MyFirstEnterFlag	 1318	//(internal1_m287_MyFirstEnterFlag)  
-#define internal1_m1567_q0	 BUFFER[4194]	//(internal1_m1567_q0) q0 - внутренний параметр
-#define idinternal1_m1567_q0	 1319	//(internal1_m1567_q0) q0 - внутренний параметр
-#define internal1_m1568_Step	 BUFFER[4196]	//(internal1_m1568_Step)  - текущий шаг программы
-#define idinternal1_m1568_Step	 1320	//(internal1_m1568_Step)  - текущий шаг программы
-#define internal1_m1568_rz	 BUFFER[4199]	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define idinternal1_m1568_rz	 1321	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-#define internal1_m1568_TimS	 BUFFER[4205]	//(internal1_m1568_TimS) Время от старта программы
-#define idinternal1_m1568_TimS	 1322	//(internal1_m1568_TimS) Время от старта программы
-#define internal1_m1568_FinPr0	 BUFFER[4210]	//(internal1_m1568_FinPr0) FinPr - конец программы
-#define idinternal1_m1568_FinPr0	 1323	//(internal1_m1568_FinPr0) FinPr - конец программы
-#define internal1_m1568_ErrPr0	 BUFFER[4212]	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define idinternal1_m1568_ErrPr0	 1324	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
-#define internal1_m1568_sbINI0	 BUFFER[4214]	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
-#define idinternal1_m1568_sbINI0	 1325	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
-#define internal1_m1568_sbVuIS0	 BUFFER[4216]	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define idinternal1_m1568_sbVuIS0	 1326	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-#define internal1_m1568_sb2UR0	 BUFFER[4218]	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define idinternal1_m1568_sb2UR0	 1327	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-#define internal1_m1568_sbNupIS0	 BUFFER[4220]	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define idinternal1_m1568_sbNupIS0	 1328	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-#define internal1_m1568_sbVuRB0	 BUFFER[4222]	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define idinternal1_m1568_sbVuRB0	 1329	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-#define internal1_m1568_MyFirstEnterFlag	 BUFFER[4224]	//(internal1_m1568_MyFirstEnterFlag)  
-#define idinternal1_m1568_MyFirstEnterFlag	 1330	//(internal1_m1568_MyFirstEnterFlag)  
-#define internal1_m1142_q0	 BUFFER[4226]	//(internal1_m1142_q0) q0 - внутренний параметр
-#define idinternal1_m1142_q0	 1331	//(internal1_m1142_q0) q0 - внутренний параметр
-#define internal1_m1139_q0	 BUFFER[4228]	//(internal1_m1139_q0) q0 - внутренний параметр
-#define idinternal1_m1139_q0	 1332	//(internal1_m1139_q0) q0 - внутренний параметр
-#define internal1_m1141_q0	 BUFFER[4230]	//(internal1_m1141_q0) q0 - внутренний параметр
-#define idinternal1_m1141_q0	 1333	//(internal1_m1141_q0) q0 - внутренний параметр
-#define internal1_m1134_q0	 BUFFER[4232]	//(internal1_m1134_q0) q0 - внутренний параметр
-#define idinternal1_m1134_q0	 1334	//(internal1_m1134_q0) q0 - внутренний параметр
-#define internal1_m825_q0	 BUFFER[4234]	//(internal1_m825_q0) q0 - внутренний параметр
-#define idinternal1_m825_q0	 1335	//(internal1_m825_q0) q0 - внутренний параметр
-#define internal1_m355_q0	 BUFFER[4236]	//(internal1_m355_q0) q0 - внутренний параметр
-#define idinternal1_m355_q0	 1336	//(internal1_m355_q0) q0 - внутренний параметр
-#define internal1_m351_q0	 BUFFER[4238]	//(internal1_m351_q0) q0 - внутренний параметр
-#define idinternal1_m351_q0	 1337	//(internal1_m351_q0) q0 - внутренний параметр
-#define internal1_m307_q0	 BUFFER[4240]	//(internal1_m307_q0) q0 - внутренний параметр
-#define idinternal1_m307_q0	 1338	//(internal1_m307_q0) q0 - внутренний параметр
-#define internal1_m306_x0	 BUFFER[4242]	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m306_x0	 1339	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m2050_q0	 BUFFER[4247]	//(internal1_m2050_q0) q0 - внутренний параметр
-#define idinternal1_m2050_q0	 1340	//(internal1_m2050_q0) q0 - внутренний параметр
-#define internal1_m2038_q0	 BUFFER[4249]	//(internal1_m2038_q0) q0 - внутренний параметр
-#define idinternal1_m2038_q0	 1341	//(internal1_m2038_q0) q0 - внутренний параметр
-#define internal1_m2029_q0	 BUFFER[4251]	//(internal1_m2029_q0) q0 - внутренний параметр
-#define idinternal1_m2029_q0	 1342	//(internal1_m2029_q0) q0 - внутренний параметр
-#define internal1_m2104_q0	 BUFFER[4253]	//(internal1_m2104_q0) q0 - внутренний параметр
-#define idinternal1_m2104_q0	 1343	//(internal1_m2104_q0) q0 - внутренний параметр
-#define internal1_m2075_q0	 BUFFER[4255]	//(internal1_m2075_q0) q0 - внутренний параметр
-#define idinternal1_m2075_q0	 1344	//(internal1_m2075_q0) q0 - внутренний параметр
-#define internal1_m2064_q0	 BUFFER[4257]	//(internal1_m2064_q0) q0 - внутренний параметр
-#define idinternal1_m2064_q0	 1345	//(internal1_m2064_q0) q0 - внутренний параметр
-#define internal1_m1620_q0	 BUFFER[4259]	//(internal1_m1620_q0) q0 - внутренний параметр
-#define idinternal1_m1620_q0	 1346	//(internal1_m1620_q0) q0 - внутренний параметр
-#define internal1_m1607_x0	 BUFFER[4261]	//(internal1_m1607_x0) был приход сигнала x1
-#define idinternal1_m1607_x0	 1347	//(internal1_m1607_x0) был приход сигнала x1
-#define internal1_m1607_y0	 BUFFER[4263]	//(internal1_m1607_y0) интервал между сигналами х1 и х2
-#define idinternal1_m1607_y0	 1348	//(internal1_m1607_y0) интервал между сигналами х1 и х2
-#define internal1_m1603_q0	 BUFFER[4268]	//(internal1_m1603_q0) q0 - внутренний параметр
-#define idinternal1_m1603_q0	 1349	//(internal1_m1603_q0) q0 - внутренний параметр
-#define internal1_m1594_q0	 BUFFER[4270]	//(internal1_m1594_q0) q0 - внутренний параметр
-#define idinternal1_m1594_q0	 1350	//(internal1_m1594_q0) q0 - внутренний параметр
-#define internal1_m1653_q0	 BUFFER[4272]	//(internal1_m1653_q0) q0 - внутренний параметр
-#define idinternal1_m1653_q0	 1351	//(internal1_m1653_q0) q0 - внутренний параметр
-#define internal1_m1673_q0	 BUFFER[4274]	//(internal1_m1673_q0) q0 - внутренний параметр
-#define idinternal1_m1673_q0	 1352	//(internal1_m1673_q0) q0 - внутренний параметр
-#define internal1_m1639_q0	 BUFFER[4276]	//(internal1_m1639_q0) q0 - внутренний параметр
-#define idinternal1_m1639_q0	 1353	//(internal1_m1639_q0) q0 - внутренний параметр
-#define internal1_m1654_x0	 BUFFER[4278]	//(internal1_m1654_x0) был приход сигнала x1
-#define idinternal1_m1654_x0	 1354	//(internal1_m1654_x0) был приход сигнала x1
-#define internal1_m1654_y0	 BUFFER[4280]	//(internal1_m1654_y0) интервал между сигналами х1 и х2
-#define idinternal1_m1654_y0	 1355	//(internal1_m1654_y0) интервал между сигналами х1 и х2
-#define internal1_m1578_x0	 BUFFER[4285]	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m1578_x0	 1356	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m1659_q0	 BUFFER[4290]	//(internal1_m1659_q0) q0 - внутренний параметр
-#define idinternal1_m1659_q0	 1357	//(internal1_m1659_q0) q0 - внутренний параметр
-#define internal1_m26_q0	 BUFFER[4292]	//(internal1_m26_q0) q0 - внутренний параметр
-#define idinternal1_m26_q0	 1358	//(internal1_m26_q0) q0 - внутренний параметр
-#define internal1_m1674_q0	 BUFFER[4294]	//(internal1_m1674_q0) q0 - внутренний параметр
-#define idinternal1_m1674_q0	 1359	//(internal1_m1674_q0) q0 - внутренний параметр
-#define internal1_m700_q0	 BUFFER[4296]	//(internal1_m700_q0) q0 - внутренний параметр
-#define idinternal1_m700_q0	 1360	//(internal1_m700_q0) q0 - внутренний параметр
-#define internal1_m685_q0	 BUFFER[4298]	//(internal1_m685_q0) q0 - внутренний параметр
-#define idinternal1_m685_q0	 1361	//(internal1_m685_q0) q0 - внутренний параметр
-#define internal1_m711_q0	 BUFFER[4300]	//(internal1_m711_q0) q0 - внутренний параметр
-#define idinternal1_m711_q0	 1362	//(internal1_m711_q0) q0 - внутренний параметр
-#define internal1_m696_q0	 BUFFER[4302]	//(internal1_m696_q0) q0 - внутренний параметр
-#define idinternal1_m696_q0	 1363	//(internal1_m696_q0) q0 - внутренний параметр
-#define internal1_m680_q0	 BUFFER[4304]	//(internal1_m680_q0) q0 - внутренний параметр
-#define idinternal1_m680_q0	 1364	//(internal1_m680_q0) q0 - внутренний параметр
-#define internal1_m678_q0	 BUFFER[4306]	//(internal1_m678_q0) q0 - внутренний параметр
-#define idinternal1_m678_q0	 1365	//(internal1_m678_q0) q0 - внутренний параметр
-#define internal1_m666_q0	 BUFFER[4308]	//(internal1_m666_q0) q0 - внутренний параметр
-#define idinternal1_m666_q0	 1366	//(internal1_m666_q0) q0 - внутренний параметр
-#define internal1_m1570_q0	 BUFFER[4310]	//(internal1_m1570_q0) q0 - внутренний параметр
-#define idinternal1_m1570_q0	 1367	//(internal1_m1570_q0) q0 - внутренний параметр
-#define internal1_m676_q0	 BUFFER[4315]	//(internal1_m676_q0) q0 - внутренний параметр
-#define idinternal1_m676_q0	 1368	//(internal1_m676_q0) q0 - внутренний параметр
-#define internal1_m110_q0	 BUFFER[4317]	//(internal1_m110_q0) q0 - внутренний параметр
-#define idinternal1_m110_q0	 1369	//(internal1_m110_q0) q0 - внутренний параметр
-#define internal1_m1820_q0	 BUFFER[4319]	//(internal1_m1820_q0) q0 - внутренний параметр
-#define idinternal1_m1820_q0	 1370	//(internal1_m1820_q0) q0 - внутренний параметр
-#define internal1_m1819_q0	 BUFFER[4321]	//(internal1_m1819_q0) q0 - внутренний параметр
-#define idinternal1_m1819_q0	 1371	//(internal1_m1819_q0) q0 - внутренний параметр
-#define internal1_m1818_q0	 BUFFER[4323]	//(internal1_m1818_q0) q0 - внутренний параметр
-#define idinternal1_m1818_q0	 1372	//(internal1_m1818_q0) q0 - внутренний параметр
-#define internal1_m1817_q0	 BUFFER[4325]	//(internal1_m1817_q0) q0 - внутренний параметр
-#define idinternal1_m1817_q0	 1373	//(internal1_m1817_q0) q0 - внутренний параметр
-#define internal1_m1853_q0	 BUFFER[4327]	//(internal1_m1853_q0) q0 - внутренний параметр
-#define idinternal1_m1853_q0	 1374	//(internal1_m1853_q0) q0 - внутренний параметр
-#define internal1_m1852_q0	 BUFFER[4329]	//(internal1_m1852_q0) q0 - внутренний параметр
-#define idinternal1_m1852_q0	 1375	//(internal1_m1852_q0) q0 - внутренний параметр
-#define internal1_m1851_q0	 BUFFER[4331]	//(internal1_m1851_q0) q0 - внутренний параметр
-#define idinternal1_m1851_q0	 1376	//(internal1_m1851_q0) q0 - внутренний параметр
-#define internal1_m2135_q0	 BUFFER[4333]	//(internal1_m2135_q0) q0 - внутренний параметр
-#define idinternal1_m2135_q0	 1377	//(internal1_m2135_q0) q0 - внутренний параметр
-#define internal1_m1913_q0	 BUFFER[4335]	//(internal1_m1913_q0) q0 - внутренний параметр
-#define idinternal1_m1913_q0	 1378	//(internal1_m1913_q0) q0 - внутренний параметр
-#define internal1_m1902_q0	 BUFFER[4337]	//(internal1_m1902_q0) q0 - внутренний параметр
-#define idinternal1_m1902_q0	 1379	//(internal1_m1902_q0) q0 - внутренний параметр
-#define internal1_m1910_q0	 BUFFER[4339]	//(internal1_m1910_q0) q0 - внутренний параметр
-#define idinternal1_m1910_q0	 1380	//(internal1_m1910_q0) q0 - внутренний параметр
-#define internal1_m1899_q0	 BUFFER[4341]	//(internal1_m1899_q0) q0 - внутренний параметр
-#define idinternal1_m1899_q0	 1381	//(internal1_m1899_q0) q0 - внутренний параметр
-#define internal1_m1907_q0	 BUFFER[4343]	//(internal1_m1907_q0) q0 - внутренний параметр
-#define idinternal1_m1907_q0	 1382	//(internal1_m1907_q0) q0 - внутренний параметр
-#define internal1_m2349_q0	 BUFFER[4345]	//(internal1_m2349_q0) q0 - внутренний параметр
-#define idinternal1_m2349_q0	 1383	//(internal1_m2349_q0) q0 - внутренний параметр
-#define internal1_m2345_q0	 BUFFER[4347]	//(internal1_m2345_q0) q0 - внутренний параметр
-#define idinternal1_m2345_q0	 1384	//(internal1_m2345_q0) q0 - внутренний параметр
-#define internal1_m1878_q0	 BUFFER[4349]	//(internal1_m1878_q0) q0 - внутренний параметр
-#define idinternal1_m1878_q0	 1385	//(internal1_m1878_q0) q0 - внутренний параметр
-#define internal1_m1870_q0	 BUFFER[4351]	//(internal1_m1870_q0) q0 - внутренний параметр
-#define idinternal1_m1870_q0	 1386	//(internal1_m1870_q0) q0 - внутренний параметр
-#define internal1_m1868_q0	 BUFFER[4353]	//(internal1_m1868_q0) q0 - внутренний параметр
-#define idinternal1_m1868_q0	 1387	//(internal1_m1868_q0) q0 - внутренний параметр
-#define internal1_m1864_q0	 BUFFER[4355]	//(internal1_m1864_q0) q0 - внутренний параметр
-#define idinternal1_m1864_q0	 1388	//(internal1_m1864_q0) q0 - внутренний параметр
-#define internal1_m1860_q0	 BUFFER[4357]	//(internal1_m1860_q0) q0 - внутренний параметр
-#define idinternal1_m1860_q0	 1389	//(internal1_m1860_q0) q0 - внутренний параметр
-#define internal1_m1862_q0	 BUFFER[4359]	//(internal1_m1862_q0) q0 - внутренний параметр
-#define idinternal1_m1862_q0	 1390	//(internal1_m1862_q0) q0 - внутренний параметр
-#define internal1_m19_q0	 BUFFER[4361]	//(internal1_m19_q0) q0 - внутренний параметр
-#define idinternal1_m19_q0	 1391	//(internal1_m19_q0) q0 - внутренний параметр
-#define internal1_m1843_q0	 BUFFER[4363]	//(internal1_m1843_q0) q0 - внутренний параметр
-#define idinternal1_m1843_q0	 1392	//(internal1_m1843_q0) q0 - внутренний параметр
-#define internal1_m1841_q0	 BUFFER[4365]	//(internal1_m1841_q0) q0 - внутренний параметр
-#define idinternal1_m1841_q0	 1393	//(internal1_m1841_q0) q0 - внутренний параметр
-#define internal1_m1837_q0	 BUFFER[4367]	//(internal1_m1837_q0) q0 - внутренний параметр
-#define idinternal1_m1837_q0	 1394	//(internal1_m1837_q0) q0 - внутренний параметр
-#define internal1_m1839_q0	 BUFFER[4369]	//(internal1_m1839_q0) q0 - внутренний параметр
-#define idinternal1_m1839_q0	 1395	//(internal1_m1839_q0) q0 - внутренний параметр
-#define internal1_m1835_q0	 BUFFER[4371]	//(internal1_m1835_q0) q0 - внутренний параметр
-#define idinternal1_m1835_q0	 1396	//(internal1_m1835_q0) q0 - внутренний параметр
-#define internal1_m1833_q0	 BUFFER[4373]	//(internal1_m1833_q0) q0 - внутренний параметр
-#define idinternal1_m1833_q0	 1397	//(internal1_m1833_q0) q0 - внутренний параметр
-#define internal1_m2257_q0	 BUFFER[4375]	//(internal1_m2257_q0) q0 - внутренний параметр
-#define idinternal1_m2257_q0	 1398	//(internal1_m2257_q0) q0 - внутренний параметр
-#define internal1_m2255_q0	 BUFFER[4377]	//(internal1_m2255_q0) q0 - внутренний параметр
-#define idinternal1_m2255_q0	 1399	//(internal1_m2255_q0) q0 - внутренний параметр
-#define internal1_m2234_q0	 BUFFER[4379]	//(internal1_m2234_q0) q0 - внутренний параметр
-#define idinternal1_m2234_q0	 1400	//(internal1_m2234_q0) q0 - внутренний параметр
-#define internal1_m2216_q0	 BUFFER[4381]	//(internal1_m2216_q0) q0 - внутренний параметр
-#define idinternal1_m2216_q0	 1401	//(internal1_m2216_q0) q0 - внутренний параметр
-#define internal1_m2147_q0	 BUFFER[4383]	//(internal1_m2147_q0) q0 - внутренний параметр
-#define idinternal1_m2147_q0	 1402	//(internal1_m2147_q0) q0 - внутренний параметр
-#define internal1_m1829_q0	 BUFFER[4385]	//(internal1_m1829_q0) q0 - внутренний параметр
-#define idinternal1_m1829_q0	 1403	//(internal1_m1829_q0) q0 - внутренний параметр
-#define internal1_m1831_q0	 BUFFER[4387]	//(internal1_m1831_q0) q0 - внутренний параметр
-#define idinternal1_m1831_q0	 1404	//(internal1_m1831_q0) q0 - внутренний параметр
-#define internal1_m1815_q0	 BUFFER[4389]	//(internal1_m1815_q0) q0 - внутренний параметр
-#define idinternal1_m1815_q0	 1405	//(internal1_m1815_q0) q0 - внутренний параметр
-#define internal1_m1813_q0	 BUFFER[4391]	//(internal1_m1813_q0) q0 - внутренний параметр
-#define idinternal1_m1813_q0	 1406	//(internal1_m1813_q0) q0 - внутренний параметр
-#define internal1_m1811_q0	 BUFFER[4393]	//(internal1_m1811_q0) q0 - внутренний параметр
-#define idinternal1_m1811_q0	 1407	//(internal1_m1811_q0) q0 - внутренний параметр
-#define internal1_m1809_q0	 BUFFER[4395]	//(internal1_m1809_q0) q0 - внутренний параметр
-#define idinternal1_m1809_q0	 1408	//(internal1_m1809_q0) q0 - внутренний параметр
-#define internal1_m1808_q0	 BUFFER[4397]	//(internal1_m1808_q0) q0 - внутренний параметр
-#define idinternal1_m1808_q0	 1409	//(internal1_m1808_q0) q0 - внутренний параметр
-#define internal1_m1806_q0	 BUFFER[4399]	//(internal1_m1806_q0) q0 - внутренний параметр
-#define idinternal1_m1806_q0	 1410	//(internal1_m1806_q0) q0 - внутренний параметр
-#define internal1_m1805_q0	 BUFFER[4401]	//(internal1_m1805_q0) q0 - внутренний параметр
-#define idinternal1_m1805_q0	 1411	//(internal1_m1805_q0) q0 - внутренний параметр
-#define internal1_m1803_q0	 BUFFER[4403]	//(internal1_m1803_q0) q0 - внутренний параметр
-#define idinternal1_m1803_q0	 1412	//(internal1_m1803_q0) q0 - внутренний параметр
-#define internal1_m2286_DvUp0	 BUFFER[4405]	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m2286_DvUp0	 1413	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
-#define internal1_m2286_DvDw0	 BUFFER[4406]	//(internal1_m2286_DvDw0) - есть команда на движение назад
-#define idinternal1_m2286_DvDw0	 1414	//(internal1_m2286_DvDw0) - есть команда на движение назад
-#define internal1_m2286_FDvUp0	 BUFFER[4407]	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m2286_FDvUp0	 1415	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
-#define internal1_m2286_FDvDw0	 BUFFER[4408]	//(internal1_m2286_FDvDw0) - есть команда на движение назад
-#define idinternal1_m2286_FDvDw0	 1416	//(internal1_m2286_FDvDw0) - есть команда на движение назад
-#define internal1_m2286_BlDv0	 BUFFER[4409]	//(internal1_m2286_BlDv0) - была блокировка
-#define idinternal1_m2286_BlDv0	 1417	//(internal1_m2286_BlDv0) - была блокировка
-#define internal1_m2286_Pkv0	 BUFFER[4410]	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m2286_Pkv0	 1418	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m2286_Pkav0	 BUFFER[4411]	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m2286_Pkav0	 1419	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m2286_Zkv0	 BUFFER[4412]	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m2286_Zkv0	 1420	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m2286_Zkav0	 BUFFER[4413]	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m2286_Zkav0	 1421	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m2286_txNm	 BUFFER[4414]	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m2286_txNm	 1422	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m2286_txSm	 BUFFER[4419]	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m2286_txSm	 1423	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m2286_txHr	 BUFFER[4424]	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m2286_txHr	 1424	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m2286_txLd	 BUFFER[4429]	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m2286_txLd	 1425	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m2286_fef	 BUFFER[4434]	//(internal1_m2286_fef) fef
-#define idinternal1_m2286_fef	 1426	//(internal1_m2286_fef) fef
-#define internal1_m2280_DvUp0	 BUFFER[4435]	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m2280_DvUp0	 1427	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
-#define internal1_m2280_DvDw0	 BUFFER[4436]	//(internal1_m2280_DvDw0) - есть команда на движение назад
-#define idinternal1_m2280_DvDw0	 1428	//(internal1_m2280_DvDw0) - есть команда на движение назад
-#define internal1_m2280_FDvUp0	 BUFFER[4437]	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m2280_FDvUp0	 1429	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
-#define internal1_m2280_FDvDw0	 BUFFER[4438]	//(internal1_m2280_FDvDw0) - есть команда на движение назад
-#define idinternal1_m2280_FDvDw0	 1430	//(internal1_m2280_FDvDw0) - есть команда на движение назад
-#define internal1_m2280_BlDv0	 BUFFER[4439]	//(internal1_m2280_BlDv0) - была блокировка
-#define idinternal1_m2280_BlDv0	 1431	//(internal1_m2280_BlDv0) - была блокировка
-#define internal1_m2280_Pkv0	 BUFFER[4440]	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m2280_Pkv0	 1432	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m2280_Pkav0	 BUFFER[4441]	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m2280_Pkav0	 1433	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m2280_Zkv0	 BUFFER[4442]	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m2280_Zkv0	 1434	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m2280_Zkav0	 BUFFER[4443]	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m2280_Zkav0	 1435	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m2280_txNm	 BUFFER[4444]	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m2280_txNm	 1436	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m2280_txSm	 BUFFER[4449]	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m2280_txSm	 1437	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m2280_txHr	 BUFFER[4454]	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m2280_txHr	 1438	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m2280_txLd	 BUFFER[4459]	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m2280_txLd	 1439	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m2280_fef	 BUFFER[4464]	//(internal1_m2280_fef) fef
-#define idinternal1_m2280_fef	 1440	//(internal1_m2280_fef) fef
-#define internal1_m1643_q0	 BUFFER[4465]	//(internal1_m1643_q0) q0 - внутренний параметр
-#define idinternal1_m1643_q0	 1441	//(internal1_m1643_q0) q0 - внутренний параметр
-#define internal1_m1648_x0	 BUFFER[4467]	//(internal1_m1648_x0) был приход сигнала x1
-#define idinternal1_m1648_x0	 1442	//(internal1_m1648_x0) был приход сигнала x1
-#define internal1_m1648_y0	 BUFFER[4469]	//(internal1_m1648_y0) интервал между сигналами х1 и х2
-#define idinternal1_m1648_y0	 1443	//(internal1_m1648_y0) интервал между сигналами х1 и х2
-#define internal1_m2086_x0	 BUFFER[4474]	//(internal1_m2086_x0) был приход сигнала x1
-#define idinternal1_m2086_x0	 1444	//(internal1_m2086_x0) был приход сигнала x1
-#define internal1_m2086_y0	 BUFFER[4476]	//(internal1_m2086_y0) интервал между сигналами х1 и х2
-#define idinternal1_m2086_y0	 1445	//(internal1_m2086_y0) интервал между сигналами х1 и х2
-#define internal1_m2047_x0	 BUFFER[4481]	//(internal1_m2047_x0) был приход сигнала x1
-#define idinternal1_m2047_x0	 1446	//(internal1_m2047_x0) был приход сигнала x1
-#define internal1_m2047_y0	 BUFFER[4483]	//(internal1_m2047_y0) интервал между сигналами х1 и х2
-#define idinternal1_m2047_y0	 1447	//(internal1_m2047_y0) интервал между сигналами х1 и х2
-#define internal1_m298_q0	 BUFFER[4488]	//(internal1_m298_q0) q0 - внутренний параметр
-#define idinternal1_m298_q0	 1448	//(internal1_m298_q0) q0 - внутренний параметр
-#define internal1_m1113_q0	 BUFFER[4490]	//(internal1_m1113_q0) q0 - внутренний параметр
-#define idinternal1_m1113_q0	 1449	//(internal1_m1113_q0) q0 - внутренний параметр
-#define internal1_m688_q0	 BUFFER[4492]	//(internal1_m688_q0) q0 - внутренний параметр
-#define idinternal1_m688_q0	 1450	//(internal1_m688_q0) q0 - внутренний параметр
-#define internal1_m1450_X0	 BUFFER[4494]	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m1450_X0	 1451	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m1450_t0	 BUFFER[4499]	//(internal1_m1450_t0) время нахождения в зоне возврата
-#define idinternal1_m1450_t0	 1452	//(internal1_m1450_t0) время нахождения в зоне возврата
-#define internal1_m1450_BLDv0	 BUFFER[4504]	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m1450_BLDv0	 1453	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
-#define internal1_m1467_tx	 BUFFER[4505]	//(internal1_m1467_tx) tx - время накопленное сек
-#define idinternal1_m1467_tx	 1454	//(internal1_m1467_tx) tx - время накопленное сек
-#define internal1_m1467_y0	 BUFFER[4510]	//(internal1_m1467_y0) y0
-#define idinternal1_m1467_y0	 1455	//(internal1_m1467_y0) y0
-#define internal1_m1468_tx	 BUFFER[4511]	//(internal1_m1468_tx) tx - время накопленное сек
-#define idinternal1_m1468_tx	 1456	//(internal1_m1468_tx) tx - время накопленное сек
-#define internal1_m1468_y0	 BUFFER[4516]	//(internal1_m1468_y0) y0
-#define idinternal1_m1468_y0	 1457	//(internal1_m1468_y0) y0
-#define internal1_m1476_xptr	 BUFFER[4517]	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m1476_xptr	 1458	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
-#define internal1_m1476_x0	 BUFFER[4520]	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m1476_x0	 1459	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
-#define internal1_m1476_tim0	 BUFFER[4820]	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m1476_tim0	 1460	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
-#define internal1_m1476_sumtim	 BUFFER[5120]	//(internal1_m1476_sumtim) sumtim - время в пути
-#define idinternal1_m1476_sumtim	 1461	//(internal1_m1476_sumtim) sumtim - время в пути
-#define internal1_m1476_StSpeed	 BUFFER[5125]	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m1476_StSpeed	 1462	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m1476_Vz0	 BUFFER[5130]	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m1476_Vz0	 1463	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m1476_flRazg	 BUFFER[5135]	//(internal1_m1476_flRazg) признак разгона/торможения
-#define idinternal1_m1476_flRazg	 1464	//(internal1_m1476_flRazg) признак разгона/торможения
-#define internal1_m1476_DelSp	 BUFFER[5138]	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m1476_DelSp	 1465	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
-#define internal1_m1476_z0	 BUFFER[5143]	//(internal1_m1476_z0) z0 - точка прекращения движения
-#define idinternal1_m1476_z0	 1466	//(internal1_m1476_z0) z0 - точка прекращения движения
-#define internal1_m1476_txZS	 BUFFER[5148]	//(internal1_m1476_txZS) txZS
-#define idinternal1_m1476_txZS	 1467	//(internal1_m1476_txZS) txZS
-#define internal1_m1476_tx	 BUFFER[5153]	//(internal1_m1476_tx) tx
-#define idinternal1_m1476_tx	 1468	//(internal1_m1476_tx) tx
-#define internal1_m1476_txd	 BUFFER[5158]	//(internal1_m1476_txd) txd
-#define idinternal1_m1476_txd	 1469	//(internal1_m1476_txd) txd
-#define internal1_m1476_txMBl	 BUFFER[5163]	//(internal1_m1476_txMBl) tx
-#define idinternal1_m1476_txMBl	 1470	//(internal1_m1476_txMBl) tx
-#define internal1_m1476_txBl	 BUFFER[5168]	//(internal1_m1476_txBl) tx
-#define idinternal1_m1476_txBl	 1471	//(internal1_m1476_txBl) tx
-#define internal1_m1476_Speed0	 BUFFER[5173]	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m1476_Speed0	 1472	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m1476_xz0	 BUFFER[5178]	//(internal1_m1476_xz0) xz0 - новое задание мм
-#define idinternal1_m1476_xz0	 1473	//(internal1_m1476_xz0) xz0 - новое задание мм
-#define internal1_m1476_tz0	 BUFFER[5183]	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m1476_tz0	 1474	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m1476_Shift0	 BUFFER[5188]	//(internal1_m1476_Shift0) Shift0 - признак самохода
-#define idinternal1_m1476_Shift0	 1475	//(internal1_m1476_Shift0) Shift0 - признак самохода
-#define internal1_m1476_ShCntlSp0	 BUFFER[5190]	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m1476_ShCntlSp0	 1476	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m1476_ShiftControl	 BUFFER[5192]	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m1476_ShiftControl	 1477	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
-#define internal1_m686_q0	 BUFFER[5194]	//(internal1_m686_q0) q0 - внутренний параметр
-#define idinternal1_m686_q0	 1478	//(internal1_m686_q0) q0 - внутренний параметр
-#define internal1_m994_X0	 BUFFER[5196]	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m994_X0	 1479	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m994_t0	 BUFFER[5201]	//(internal1_m994_t0) время нахождения в зоне возврата
-#define idinternal1_m994_t0	 1480	//(internal1_m994_t0) время нахождения в зоне возврата
-#define internal1_m994_BLDv0	 BUFFER[5206]	//(internal1_m994_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m994_BLDv0	 1481	//(internal1_m994_BLDv0) BlDv - Блокировка движения
-#define internal1_m1017_tx	 BUFFER[5207]	//(internal1_m1017_tx) tx - время накопленное сек
-#define idinternal1_m1017_tx	 1482	//(internal1_m1017_tx) tx - время накопленное сек
-#define internal1_m1017_y0	 BUFFER[5212]	//(internal1_m1017_y0) y0
-#define idinternal1_m1017_y0	 1483	//(internal1_m1017_y0) y0
-#define internal1_m1016_tx	 BUFFER[5213]	//(internal1_m1016_tx) tx - время накопленное сек
-#define idinternal1_m1016_tx	 1484	//(internal1_m1016_tx) tx - время накопленное сек
-#define internal1_m1016_y0	 BUFFER[5218]	//(internal1_m1016_y0) y0
-#define idinternal1_m1016_y0	 1485	//(internal1_m1016_y0) y0
-#define internal1_m1024_xptr	 BUFFER[5219]	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m1024_xptr	 1486	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
-#define internal1_m1024_x0	 BUFFER[5222]	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m1024_x0	 1487	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
-#define internal1_m1024_tim0	 BUFFER[5522]	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m1024_tim0	 1488	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
-#define internal1_m1024_sumtim	 BUFFER[5822]	//(internal1_m1024_sumtim) sumtim - время в пути
-#define idinternal1_m1024_sumtim	 1489	//(internal1_m1024_sumtim) sumtim - время в пути
-#define internal1_m1024_StSpeed	 BUFFER[5827]	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m1024_StSpeed	 1490	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m1024_Vz0	 BUFFER[5832]	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m1024_Vz0	 1491	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m1024_flRazg	 BUFFER[5837]	//(internal1_m1024_flRazg) признак разгона/торможения
-#define idinternal1_m1024_flRazg	 1492	//(internal1_m1024_flRazg) признак разгона/торможения
-#define internal1_m1024_DelSp	 BUFFER[5840]	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m1024_DelSp	 1493	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
-#define internal1_m1024_z0	 BUFFER[5845]	//(internal1_m1024_z0) z0 - точка прекращения движения
-#define idinternal1_m1024_z0	 1494	//(internal1_m1024_z0) z0 - точка прекращения движения
-#define internal1_m1024_txZS	 BUFFER[5850]	//(internal1_m1024_txZS) txZS
-#define idinternal1_m1024_txZS	 1495	//(internal1_m1024_txZS) txZS
-#define internal1_m1024_tx	 BUFFER[5855]	//(internal1_m1024_tx) tx
-#define idinternal1_m1024_tx	 1496	//(internal1_m1024_tx) tx
-#define internal1_m1024_txd	 BUFFER[5860]	//(internal1_m1024_txd) txd
-#define idinternal1_m1024_txd	 1497	//(internal1_m1024_txd) txd
-#define internal1_m1024_txMBl	 BUFFER[5865]	//(internal1_m1024_txMBl) tx
-#define idinternal1_m1024_txMBl	 1498	//(internal1_m1024_txMBl) tx
-#define internal1_m1024_txBl	 BUFFER[5870]	//(internal1_m1024_txBl) tx
-#define idinternal1_m1024_txBl	 1499	//(internal1_m1024_txBl) tx
-#define internal1_m1024_Speed0	 BUFFER[5875]	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m1024_Speed0	 1500	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m1024_xz0	 BUFFER[5880]	//(internal1_m1024_xz0) xz0 - новое задание мм
-#define idinternal1_m1024_xz0	 1501	//(internal1_m1024_xz0) xz0 - новое задание мм
-#define internal1_m1024_tz0	 BUFFER[5885]	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m1024_tz0	 1502	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m1024_Shift0	 BUFFER[5890]	//(internal1_m1024_Shift0) Shift0 - признак самохода
-#define idinternal1_m1024_Shift0	 1503	//(internal1_m1024_Shift0) Shift0 - признак самохода
-#define internal1_m1024_ShCntlSp0	 BUFFER[5892]	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m1024_ShCntlSp0	 1504	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m1024_ShiftControl	 BUFFER[5894]	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m1024_ShiftControl	 1505	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
-#define internal1_m539_X0	 BUFFER[5896]	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m539_X0	 1506	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m539_t0	 BUFFER[5901]	//(internal1_m539_t0) время нахождения в зоне возврата
-#define idinternal1_m539_t0	 1507	//(internal1_m539_t0) время нахождения в зоне возврата
-#define internal1_m539_BLDv0	 BUFFER[5906]	//(internal1_m539_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m539_BLDv0	 1508	//(internal1_m539_BLDv0) BlDv - Блокировка движения
-#define internal1_m558_tx	 BUFFER[5907]	//(internal1_m558_tx) tx - время накопленное сек
-#define idinternal1_m558_tx	 1509	//(internal1_m558_tx) tx - время накопленное сек
-#define internal1_m558_y0	 BUFFER[5912]	//(internal1_m558_y0) y0
-#define idinternal1_m558_y0	 1510	//(internal1_m558_y0) y0
-#define internal1_m557_tx	 BUFFER[5913]	//(internal1_m557_tx) tx - время накопленное сек
-#define idinternal1_m557_tx	 1511	//(internal1_m557_tx) tx - время накопленное сек
-#define internal1_m557_y0	 BUFFER[5918]	//(internal1_m557_y0) y0
-#define idinternal1_m557_y0	 1512	//(internal1_m557_y0) y0
-#define internal1_m562_xptr	 BUFFER[5919]	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m562_xptr	 1513	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
-#define internal1_m562_x0	 BUFFER[5922]	//(internal1_m562_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m562_x0	 1514	//(internal1_m562_x0) x0 - массив мгновенных значений координат
-#define internal1_m562_tim0	 BUFFER[6672]	//(internal1_m562_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m562_tim0	 1515	//(internal1_m562_tim0) tim0 - массив значений времени цикла
-#define internal1_m562_sumtim	 BUFFER[7422]	//(internal1_m562_sumtim) sumtim - время в пути
-#define idinternal1_m562_sumtim	 1516	//(internal1_m562_sumtim) sumtim - время в пути
-#define internal1_m562_StSpeed	 BUFFER[7427]	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m562_StSpeed	 1517	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m562_Vz0	 BUFFER[7432]	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m562_Vz0	 1518	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m562_flRazg	 BUFFER[7437]	//(internal1_m562_flRazg) признак разгона/торможения
-#define idinternal1_m562_flRazg	 1519	//(internal1_m562_flRazg) признак разгона/торможения
-#define internal1_m562_DelSp	 BUFFER[7440]	//(internal1_m562_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m562_DelSp	 1520	//(internal1_m562_DelSp) DelSp - время переключения скоростей
-#define internal1_m562_z0	 BUFFER[7445]	//(internal1_m562_z0) z0 - точка прекращения движения
-#define idinternal1_m562_z0	 1521	//(internal1_m562_z0) z0 - точка прекращения движения
-#define internal1_m562_txZS	 BUFFER[7450]	//(internal1_m562_txZS) txZS
-#define idinternal1_m562_txZS	 1522	//(internal1_m562_txZS) txZS
-#define internal1_m562_tx	 BUFFER[7455]	//(internal1_m562_tx) tx
-#define idinternal1_m562_tx	 1523	//(internal1_m562_tx) tx
-#define internal1_m562_txd	 BUFFER[7460]	//(internal1_m562_txd) txd
-#define idinternal1_m562_txd	 1524	//(internal1_m562_txd) txd
-#define internal1_m562_txMBl	 BUFFER[7465]	//(internal1_m562_txMBl) tx
-#define idinternal1_m562_txMBl	 1525	//(internal1_m562_txMBl) tx
-#define internal1_m562_txBl	 BUFFER[7470]	//(internal1_m562_txBl) tx
-#define idinternal1_m562_txBl	 1526	//(internal1_m562_txBl) tx
-#define internal1_m562_Speed0	 BUFFER[7475]	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m562_Speed0	 1527	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m562_xz0	 BUFFER[7480]	//(internal1_m562_xz0) xz0 - новое задание мм
-#define idinternal1_m562_xz0	 1528	//(internal1_m562_xz0) xz0 - новое задание мм
-#define internal1_m562_tz0	 BUFFER[7485]	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m562_tz0	 1529	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m562_Shift0	 BUFFER[7490]	//(internal1_m562_Shift0) Shift0 - признак самохода
-#define idinternal1_m562_Shift0	 1530	//(internal1_m562_Shift0) Shift0 - признак самохода
-#define internal1_m562_ShCntlSp0	 BUFFER[7492]	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m562_ShCntlSp0	 1531	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m562_ShiftControl	 BUFFER[7494]	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m562_ShiftControl	 1532	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
-#define internal1_m683_q0	 BUFFER[7496]	//(internal1_m683_q0) q0 - внутренний параметр
-#define idinternal1_m683_q0	 1533	//(internal1_m683_q0) q0 - внутренний параметр
-#define internal1_m169_X0	 BUFFER[7498]	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m169_X0	 1534	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m169_t0	 BUFFER[7503]	//(internal1_m169_t0) время нахождения в зоне возврата
-#define idinternal1_m169_t0	 1535	//(internal1_m169_t0) время нахождения в зоне возврата
-#define internal1_m169_BLDv0	 BUFFER[7508]	//(internal1_m169_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m169_BLDv0	 1536	//(internal1_m169_BLDv0) BlDv - Блокировка движения
-#define internal1_m194_xptr	 BUFFER[7509]	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m194_xptr	 1537	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
-#define internal1_m194_x0	 BUFFER[7512]	//(internal1_m194_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m194_x0	 1538	//(internal1_m194_x0) x0 - массив мгновенных значений координат
-#define internal1_m194_tim0	 BUFFER[8262]	//(internal1_m194_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m194_tim0	 1539	//(internal1_m194_tim0) tim0 - массив значений времени цикла
-#define internal1_m194_sumtim	 BUFFER[9012]	//(internal1_m194_sumtim) sumtim - время в пути
-#define idinternal1_m194_sumtim	 1540	//(internal1_m194_sumtim) sumtim - время в пути
-#define internal1_m194_StSpeed	 BUFFER[9017]	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m194_StSpeed	 1541	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m194_Vz0	 BUFFER[9022]	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m194_Vz0	 1542	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m194_flRazg	 BUFFER[9027]	//(internal1_m194_flRazg) признак разгона/торможения
-#define idinternal1_m194_flRazg	 1543	//(internal1_m194_flRazg) признак разгона/торможения
-#define internal1_m194_DelSp	 BUFFER[9030]	//(internal1_m194_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m194_DelSp	 1544	//(internal1_m194_DelSp) DelSp - время переключения скоростей
-#define internal1_m194_z0	 BUFFER[9035]	//(internal1_m194_z0) z0 - точка прекращения движения
-#define idinternal1_m194_z0	 1545	//(internal1_m194_z0) z0 - точка прекращения движения
-#define internal1_m194_txZS	 BUFFER[9040]	//(internal1_m194_txZS) txZS
-#define idinternal1_m194_txZS	 1546	//(internal1_m194_txZS) txZS
-#define internal1_m194_tx	 BUFFER[9045]	//(internal1_m194_tx) tx
-#define idinternal1_m194_tx	 1547	//(internal1_m194_tx) tx
-#define internal1_m194_txd	 BUFFER[9050]	//(internal1_m194_txd) txd
-#define idinternal1_m194_txd	 1548	//(internal1_m194_txd) txd
-#define internal1_m194_txMBl	 BUFFER[9055]	//(internal1_m194_txMBl) tx
-#define idinternal1_m194_txMBl	 1549	//(internal1_m194_txMBl) tx
-#define internal1_m194_txBl	 BUFFER[9060]	//(internal1_m194_txBl) tx
-#define idinternal1_m194_txBl	 1550	//(internal1_m194_txBl) tx
-#define internal1_m194_Speed0	 BUFFER[9065]	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m194_Speed0	 1551	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m194_xz0	 BUFFER[9070]	//(internal1_m194_xz0) xz0 - новое задание мм
-#define idinternal1_m194_xz0	 1552	//(internal1_m194_xz0) xz0 - новое задание мм
-#define internal1_m194_tz0	 BUFFER[9075]	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m194_tz0	 1553	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m194_Shift0	 BUFFER[9080]	//(internal1_m194_Shift0) Shift0 - признак самохода
-#define idinternal1_m194_Shift0	 1554	//(internal1_m194_Shift0) Shift0 - признак самохода
-#define internal1_m194_ShCntlSp0	 BUFFER[9082]	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m194_ShCntlSp0	 1555	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m194_ShiftControl	 BUFFER[9084]	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m194_ShiftControl	 1556	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
-#define internal1_m709_q0	 BUFFER[9086]	//(internal1_m709_q0) q0 - внутренний параметр
-#define idinternal1_m709_q0	 1557	//(internal1_m709_q0) q0 - внутренний параметр
-#define internal1_m506_DvUp0	 BUFFER[9088]	//(internal1_m506_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m506_DvUp0	 1558	//(internal1_m506_DvUp0) - есть команда на движение вперёд
-#define internal1_m506_DvDw0	 BUFFER[9089]	//(internal1_m506_DvDw0) - есть команда на движение назад
-#define idinternal1_m506_DvDw0	 1559	//(internal1_m506_DvDw0) - есть команда на движение назад
-#define internal1_m506_FDvUp0	 BUFFER[9090]	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m506_FDvUp0	 1560	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
-#define internal1_m506_FDvDw0	 BUFFER[9091]	//(internal1_m506_FDvDw0) - есть команда на движение назад
-#define idinternal1_m506_FDvDw0	 1561	//(internal1_m506_FDvDw0) - есть команда на движение назад
-#define internal1_m506_BlDv0	 BUFFER[9092]	//(internal1_m506_BlDv0) - была блокировка
-#define idinternal1_m506_BlDv0	 1562	//(internal1_m506_BlDv0) - была блокировка
-#define internal1_m506_Pkv0	 BUFFER[9093]	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m506_Pkv0	 1563	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m506_Pkav0	 BUFFER[9094]	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m506_Pkav0	 1564	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m506_Zkv0	 BUFFER[9095]	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m506_Zkv0	 1565	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m506_Zkav0	 BUFFER[9096]	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m506_Zkav0	 1566	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m506_txNm	 BUFFER[9097]	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m506_txNm	 1567	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m506_txSm	 BUFFER[9102]	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m506_txSm	 1568	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m506_txHr	 BUFFER[9107]	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m506_txHr	 1569	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m506_txLd	 BUFFER[9112]	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m506_txLd	 1570	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m506_fef	 BUFFER[9117]	//(internal1_m506_fef) fef
-#define idinternal1_m506_fef	 1571	//(internal1_m506_fef) fef
-#define internal1_m500_DvUp0	 BUFFER[9118]	//(internal1_m500_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m500_DvUp0	 1572	//(internal1_m500_DvUp0) - есть команда на движение вперёд
-#define internal1_m500_DvDw0	 BUFFER[9119]	//(internal1_m500_DvDw0) - есть команда на движение назад
-#define idinternal1_m500_DvDw0	 1573	//(internal1_m500_DvDw0) - есть команда на движение назад
-#define internal1_m500_FDvUp0	 BUFFER[9120]	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m500_FDvUp0	 1574	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
-#define internal1_m500_FDvDw0	 BUFFER[9121]	//(internal1_m500_FDvDw0) - есть команда на движение назад
-#define idinternal1_m500_FDvDw0	 1575	//(internal1_m500_FDvDw0) - есть команда на движение назад
-#define internal1_m500_BlDv0	 BUFFER[9122]	//(internal1_m500_BlDv0) - была блокировка
-#define idinternal1_m500_BlDv0	 1576	//(internal1_m500_BlDv0) - была блокировка
-#define internal1_m500_Pkv0	 BUFFER[9123]	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m500_Pkv0	 1577	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m500_Pkav0	 BUFFER[9124]	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m500_Pkav0	 1578	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m500_Zkv0	 BUFFER[9125]	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m500_Zkv0	 1579	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m500_Zkav0	 BUFFER[9126]	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m500_Zkav0	 1580	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m500_txNm	 BUFFER[9127]	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m500_txNm	 1581	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m500_txSm	 BUFFER[9132]	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m500_txSm	 1582	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m500_txHr	 BUFFER[9137]	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m500_txHr	 1583	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m500_txLd	 BUFFER[9142]	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m500_txLd	 1584	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m500_fef	 BUFFER[9147]	//(internal1_m500_fef) fef
-#define idinternal1_m500_fef	 1585	//(internal1_m500_fef) fef
-#define internal1_m898_X0	 BUFFER[9148]	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m898_X0	 1586	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m898_t0	 BUFFER[9153]	//(internal1_m898_t0) время нахождения в зоне возврата
-#define idinternal1_m898_t0	 1587	//(internal1_m898_t0) время нахождения в зоне возврата
-#define internal1_m898_BLDv0	 BUFFER[9158]	//(internal1_m898_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m898_BLDv0	 1588	//(internal1_m898_BLDv0) BlDv - Блокировка движения
-#define internal1_m916_xptr	 BUFFER[9159]	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m916_xptr	 1589	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
-#define internal1_m916_x0	 BUFFER[9162]	//(internal1_m916_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m916_x0	 1590	//(internal1_m916_x0) x0 - массив мгновенных значений координат
-#define internal1_m916_tim0	 BUFFER[9562]	//(internal1_m916_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m916_tim0	 1591	//(internal1_m916_tim0) tim0 - массив значений времени цикла
-#define internal1_m916_sumtim	 BUFFER[9962]	//(internal1_m916_sumtim) sumtim - время в пути
-#define idinternal1_m916_sumtim	 1592	//(internal1_m916_sumtim) sumtim - время в пути
-#define internal1_m916_StSpeed	 BUFFER[9967]	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m916_StSpeed	 1593	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m916_Vz0	 BUFFER[9972]	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m916_Vz0	 1594	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m916_flRazg	 BUFFER[9977]	//(internal1_m916_flRazg) признак разгона/торможения
-#define idinternal1_m916_flRazg	 1595	//(internal1_m916_flRazg) признак разгона/торможения
-#define internal1_m916_DelSp	 BUFFER[9980]	//(internal1_m916_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m916_DelSp	 1596	//(internal1_m916_DelSp) DelSp - время переключения скоростей
-#define internal1_m916_z0	 BUFFER[9985]	//(internal1_m916_z0) z0 - точка прекращения движения
-#define idinternal1_m916_z0	 1597	//(internal1_m916_z0) z0 - точка прекращения движения
-#define internal1_m916_txZS	 BUFFER[9990]	//(internal1_m916_txZS) txZS
-#define idinternal1_m916_txZS	 1598	//(internal1_m916_txZS) txZS
-#define internal1_m916_tx	 BUFFER[9995]	//(internal1_m916_tx) tx
-#define idinternal1_m916_tx	 1599	//(internal1_m916_tx) tx
-#define internal1_m916_txd	 BUFFER[10000]	//(internal1_m916_txd) txd
-#define idinternal1_m916_txd	 1600	//(internal1_m916_txd) txd
-#define internal1_m916_txMBl	 BUFFER[10005]	//(internal1_m916_txMBl) tx
-#define idinternal1_m916_txMBl	 1601	//(internal1_m916_txMBl) tx
-#define internal1_m916_txBl	 BUFFER[10010]	//(internal1_m916_txBl) tx
-#define idinternal1_m916_txBl	 1602	//(internal1_m916_txBl) tx
-#define internal1_m916_Speed0	 BUFFER[10015]	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m916_Speed0	 1603	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m916_xz0	 BUFFER[10020]	//(internal1_m916_xz0) xz0 - новое задание мм
-#define idinternal1_m916_xz0	 1604	//(internal1_m916_xz0) xz0 - новое задание мм
-#define internal1_m916_tz0	 BUFFER[10025]	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m916_tz0	 1605	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m916_Shift0	 BUFFER[10030]	//(internal1_m916_Shift0) Shift0 - признак самохода
-#define idinternal1_m916_Shift0	 1606	//(internal1_m916_Shift0) Shift0 - признак самохода
-#define internal1_m916_ShCntlSp0	 BUFFER[10032]	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m916_ShCntlSp0	 1607	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m916_ShiftControl	 BUFFER[10034]	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m916_ShiftControl	 1608	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
-#define internal1_m1757_X0	 BUFFER[10036]	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m1757_X0	 1609	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m1757_t0	 BUFFER[10041]	//(internal1_m1757_t0) время нахождения в зоне возврата
-#define idinternal1_m1757_t0	 1610	//(internal1_m1757_t0) время нахождения в зоне возврата
-#define internal1_m1757_BLDv0	 BUFFER[10046]	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m1757_BLDv0	 1611	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
-#define internal1_m1240_X0	 BUFFER[10047]	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m1240_X0	 1612	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m1240_t0	 BUFFER[10052]	//(internal1_m1240_t0) время нахождения в зоне возврата
-#define idinternal1_m1240_t0	 1613	//(internal1_m1240_t0) время нахождения в зоне возврата
-#define internal1_m1240_BLDv0	 BUFFER[10057]	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m1240_BLDv0	 1614	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
-#define internal1_m681_q0	 BUFFER[10058]	//(internal1_m681_q0) q0 - внутренний параметр
-#define idinternal1_m681_q0	 1615	//(internal1_m681_q0) q0 - внутренний параметр
-#define internal1_m1337_X0	 BUFFER[10060]	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define idinternal1_m1337_X0	 1616	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-#define internal1_m1337_t0	 BUFFER[10065]	//(internal1_m1337_t0) время нахождения в зоне возврата
-#define idinternal1_m1337_t0	 1617	//(internal1_m1337_t0) время нахождения в зоне возврата
-#define internal1_m1337_BLDv0	 BUFFER[10070]	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
-#define idinternal1_m1337_BLDv0	 1618	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
-#define internal1_m1366_tx	 BUFFER[10071]	//(internal1_m1366_tx) tx - время накопленное сек
-#define idinternal1_m1366_tx	 1619	//(internal1_m1366_tx) tx - время накопленное сек
-#define internal1_m1366_y0	 BUFFER[10076]	//(internal1_m1366_y0) y0
-#define idinternal1_m1366_y0	 1620	//(internal1_m1366_y0) y0
-#define internal1_m1365_tx	 BUFFER[10077]	//(internal1_m1365_tx) tx - время накопленное сек
-#define idinternal1_m1365_tx	 1621	//(internal1_m1365_tx) tx - время накопленное сек
-#define internal1_m1365_y0	 BUFFER[10082]	//(internal1_m1365_y0) y0
-#define idinternal1_m1365_y0	 1622	//(internal1_m1365_y0) y0
-#define internal1_m1372_xptr	 BUFFER[10083]	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m1372_xptr	 1623	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
-#define internal1_m1372_x0	 BUFFER[10086]	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m1372_x0	 1624	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
-#define internal1_m1372_tim0	 BUFFER[10486]	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m1372_tim0	 1625	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
-#define internal1_m1372_sumtim	 BUFFER[10886]	//(internal1_m1372_sumtim) sumtim - время в пути
-#define idinternal1_m1372_sumtim	 1626	//(internal1_m1372_sumtim) sumtim - время в пути
-#define internal1_m1372_StSpeed	 BUFFER[10891]	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m1372_StSpeed	 1627	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m1372_Vz0	 BUFFER[10896]	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m1372_Vz0	 1628	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m1372_flRazg	 BUFFER[10901]	//(internal1_m1372_flRazg) признак разгона/торможения
-#define idinternal1_m1372_flRazg	 1629	//(internal1_m1372_flRazg) признак разгона/торможения
-#define internal1_m1372_DelSp	 BUFFER[10904]	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m1372_DelSp	 1630	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
-#define internal1_m1372_z0	 BUFFER[10909]	//(internal1_m1372_z0) z0 - точка прекращения движения
-#define idinternal1_m1372_z0	 1631	//(internal1_m1372_z0) z0 - точка прекращения движения
-#define internal1_m1372_txZS	 BUFFER[10914]	//(internal1_m1372_txZS) txZS
-#define idinternal1_m1372_txZS	 1632	//(internal1_m1372_txZS) txZS
-#define internal1_m1372_tx	 BUFFER[10919]	//(internal1_m1372_tx) tx
-#define idinternal1_m1372_tx	 1633	//(internal1_m1372_tx) tx
-#define internal1_m1372_txd	 BUFFER[10924]	//(internal1_m1372_txd) txd
-#define idinternal1_m1372_txd	 1634	//(internal1_m1372_txd) txd
-#define internal1_m1372_txMBl	 BUFFER[10929]	//(internal1_m1372_txMBl) tx
-#define idinternal1_m1372_txMBl	 1635	//(internal1_m1372_txMBl) tx
-#define internal1_m1372_txBl	 BUFFER[10934]	//(internal1_m1372_txBl) tx
-#define idinternal1_m1372_txBl	 1636	//(internal1_m1372_txBl) tx
-#define internal1_m1372_Speed0	 BUFFER[10939]	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m1372_Speed0	 1637	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m1372_xz0	 BUFFER[10944]	//(internal1_m1372_xz0) xz0 - новое задание мм
-#define idinternal1_m1372_xz0	 1638	//(internal1_m1372_xz0) xz0 - новое задание мм
-#define internal1_m1372_tz0	 BUFFER[10949]	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m1372_tz0	 1639	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m1372_Shift0	 BUFFER[10954]	//(internal1_m1372_Shift0) Shift0 - признак самохода
-#define idinternal1_m1372_Shift0	 1640	//(internal1_m1372_Shift0) Shift0 - признак самохода
-#define internal1_m1372_ShCntlSp0	 BUFFER[10956]	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m1372_ShCntlSp0	 1641	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m1372_ShiftControl	 BUFFER[10958]	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m1372_ShiftControl	 1642	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
-#define internal1_m701_q0	 BUFFER[10960]	//(internal1_m701_q0) q0 - внутренний параметр
-#define idinternal1_m701_q0	 1643	//(internal1_m701_q0) q0 - внутренний параметр
-#define internal1_m1771_tx	 BUFFER[10962]	//(internal1_m1771_tx) tx - время накопленное сек
-#define idinternal1_m1771_tx	 1644	//(internal1_m1771_tx) tx - время накопленное сек
-#define internal1_m1771_y0	 BUFFER[10967]	//(internal1_m1771_y0) y0
-#define idinternal1_m1771_y0	 1645	//(internal1_m1771_y0) y0
-#define internal1_m1775_tx	 BUFFER[10968]	//(internal1_m1775_tx) tx - время накопленное сек
-#define idinternal1_m1775_tx	 1646	//(internal1_m1775_tx) tx - время накопленное сек
-#define internal1_m1775_y0	 BUFFER[10973]	//(internal1_m1775_y0) y0
-#define idinternal1_m1775_y0	 1647	//(internal1_m1775_y0) y0
-#define internal1_m1760_DvUp0	 BUFFER[10974]	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m1760_DvUp0	 1648	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
-#define internal1_m1760_DvDw0	 BUFFER[10975]	//(internal1_m1760_DvDw0) - есть команда на движение назад
-#define idinternal1_m1760_DvDw0	 1649	//(internal1_m1760_DvDw0) - есть команда на движение назад
-#define internal1_m1760_FDvUp0	 BUFFER[10976]	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m1760_FDvUp0	 1650	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
-#define internal1_m1760_FDvDw0	 BUFFER[10977]	//(internal1_m1760_FDvDw0) - есть команда на движение назад
-#define idinternal1_m1760_FDvDw0	 1651	//(internal1_m1760_FDvDw0) - есть команда на движение назад
-#define internal1_m1760_BlDv0	 BUFFER[10978]	//(internal1_m1760_BlDv0) - была блокировка
-#define idinternal1_m1760_BlDv0	 1652	//(internal1_m1760_BlDv0) - была блокировка
-#define internal1_m1760_Pkv0	 BUFFER[10979]	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m1760_Pkv0	 1653	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m1760_Pkav0	 BUFFER[10980]	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m1760_Pkav0	 1654	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m1760_Zkv0	 BUFFER[10981]	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m1760_Zkv0	 1655	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m1760_Zkav0	 BUFFER[10982]	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m1760_Zkav0	 1656	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m1760_txNm	 BUFFER[10983]	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m1760_txNm	 1657	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m1760_txSm	 BUFFER[10988]	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m1760_txSm	 1658	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m1760_txHr	 BUFFER[10993]	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m1760_txHr	 1659	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m1760_txLd	 BUFFER[10998]	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m1760_txLd	 1660	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m1760_fef	 BUFFER[11003]	//(internal1_m1760_fef) fef
-#define idinternal1_m1760_fef	 1661	//(internal1_m1760_fef) fef
-#define internal1_m1779_xptr	 BUFFER[11004]	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m1779_xptr	 1662	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
-#define internal1_m1779_x0	 BUFFER[11007]	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m1779_x0	 1663	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
-#define internal1_m1779_tim0	 BUFFER[11107]	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m1779_tim0	 1664	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
-#define internal1_m1779_sumtim	 BUFFER[11207]	//(internal1_m1779_sumtim) sumtim - время в пути
-#define idinternal1_m1779_sumtim	 1665	//(internal1_m1779_sumtim) sumtim - время в пути
-#define internal1_m1779_StSpeed	 BUFFER[11212]	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m1779_StSpeed	 1666	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m1779_Vz0	 BUFFER[11217]	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m1779_Vz0	 1667	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m1779_flRazg	 BUFFER[11222]	//(internal1_m1779_flRazg) признак разгона/торможения
-#define idinternal1_m1779_flRazg	 1668	//(internal1_m1779_flRazg) признак разгона/торможения
-#define internal1_m1779_DelSp	 BUFFER[11225]	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m1779_DelSp	 1669	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
-#define internal1_m1779_z0	 BUFFER[11230]	//(internal1_m1779_z0) z0 - точка прекращения движения
-#define idinternal1_m1779_z0	 1670	//(internal1_m1779_z0) z0 - точка прекращения движения
-#define internal1_m1779_txZS	 BUFFER[11235]	//(internal1_m1779_txZS) txZS
-#define idinternal1_m1779_txZS	 1671	//(internal1_m1779_txZS) txZS
-#define internal1_m1779_tx	 BUFFER[11240]	//(internal1_m1779_tx) tx
-#define idinternal1_m1779_tx	 1672	//(internal1_m1779_tx) tx
-#define internal1_m1779_txd	 BUFFER[11245]	//(internal1_m1779_txd) txd
-#define idinternal1_m1779_txd	 1673	//(internal1_m1779_txd) txd
-#define internal1_m1779_txMBl	 BUFFER[11250]	//(internal1_m1779_txMBl) tx
-#define idinternal1_m1779_txMBl	 1674	//(internal1_m1779_txMBl) tx
-#define internal1_m1779_txBl	 BUFFER[11255]	//(internal1_m1779_txBl) tx
-#define idinternal1_m1779_txBl	 1675	//(internal1_m1779_txBl) tx
-#define internal1_m1779_Speed0	 BUFFER[11260]	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m1779_Speed0	 1676	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m1779_xz0	 BUFFER[11265]	//(internal1_m1779_xz0) xz0 - новое задание мм
-#define idinternal1_m1779_xz0	 1677	//(internal1_m1779_xz0) xz0 - новое задание мм
-#define internal1_m1779_tz0	 BUFFER[11270]	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m1779_tz0	 1678	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m1779_Shift0	 BUFFER[11275]	//(internal1_m1779_Shift0) Shift0 - признак самохода
-#define idinternal1_m1779_Shift0	 1679	//(internal1_m1779_Shift0) Shift0 - признак самохода
-#define internal1_m1779_ShCntlSp0	 BUFFER[11277]	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m1779_ShCntlSp0	 1680	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m1779_ShiftControl	 BUFFER[11279]	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m1779_ShiftControl	 1681	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
-#define internal1_m1257_tx	 BUFFER[11281]	//(internal1_m1257_tx) tx - время накопленное сек
-#define idinternal1_m1257_tx	 1682	//(internal1_m1257_tx) tx - время накопленное сек
-#define internal1_m1257_y0	 BUFFER[11286]	//(internal1_m1257_y0) y0
-#define idinternal1_m1257_y0	 1683	//(internal1_m1257_y0) y0
-#define internal1_m1261_tx	 BUFFER[11287]	//(internal1_m1261_tx) tx - время накопленное сек
-#define idinternal1_m1261_tx	 1684	//(internal1_m1261_tx) tx - время накопленное сек
-#define internal1_m1261_y0	 BUFFER[11292]	//(internal1_m1261_y0) y0
-#define idinternal1_m1261_y0	 1685	//(internal1_m1261_y0) y0
-#define internal1_m691_q0	 BUFFER[11293]	//(internal1_m691_q0) q0 - внутренний параметр
-#define idinternal1_m691_q0	 1686	//(internal1_m691_q0) q0 - внутренний параметр
-#define internal1_m656_q0	 BUFFER[11295]	//(internal1_m656_q0) q0 - внутренний параметр
-#define idinternal1_m656_q0	 1687	//(internal1_m656_q0) q0 - внутренний параметр
-#define internal1_m1246_DvUp0	 BUFFER[11297]	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m1246_DvUp0	 1688	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
-#define internal1_m1246_DvDw0	 BUFFER[11298]	//(internal1_m1246_DvDw0) - есть команда на движение назад
-#define idinternal1_m1246_DvDw0	 1689	//(internal1_m1246_DvDw0) - есть команда на движение назад
-#define internal1_m1246_FDvUp0	 BUFFER[11299]	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m1246_FDvUp0	 1690	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
-#define internal1_m1246_FDvDw0	 BUFFER[11300]	//(internal1_m1246_FDvDw0) - есть команда на движение назад
-#define idinternal1_m1246_FDvDw0	 1691	//(internal1_m1246_FDvDw0) - есть команда на движение назад
-#define internal1_m1246_BlDv0	 BUFFER[11301]	//(internal1_m1246_BlDv0) - была блокировка
-#define idinternal1_m1246_BlDv0	 1692	//(internal1_m1246_BlDv0) - была блокировка
-#define internal1_m1246_Pkv0	 BUFFER[11302]	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m1246_Pkv0	 1693	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m1246_Pkav0	 BUFFER[11303]	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m1246_Pkav0	 1694	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m1246_Zkv0	 BUFFER[11304]	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m1246_Zkv0	 1695	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m1246_Zkav0	 BUFFER[11305]	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m1246_Zkav0	 1696	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m1246_txNm	 BUFFER[11306]	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m1246_txNm	 1697	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m1246_txSm	 BUFFER[11311]	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m1246_txSm	 1698	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m1246_txHr	 BUFFER[11316]	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m1246_txHr	 1699	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m1246_txLd	 BUFFER[11321]	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m1246_txLd	 1700	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m1246_fef	 BUFFER[11326]	//(internal1_m1246_fef) fef
-#define idinternal1_m1246_fef	 1701	//(internal1_m1246_fef) fef
-#define internal1_m1267_xptr	 BUFFER[11327]	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
-#define idinternal1_m1267_xptr	 1702	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
-#define internal1_m1267_x0	 BUFFER[11330]	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
-#define idinternal1_m1267_x0	 1703	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
-#define internal1_m1267_tim0	 BUFFER[11430]	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
-#define idinternal1_m1267_tim0	 1704	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
-#define internal1_m1267_sumtim	 BUFFER[11530]	//(internal1_m1267_sumtim) sumtim - время в пути
-#define idinternal1_m1267_sumtim	 1705	//(internal1_m1267_sumtim) sumtim - время в пути
-#define internal1_m1267_StSpeed	 BUFFER[11535]	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define idinternal1_m1267_StSpeed	 1706	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-#define internal1_m1267_Vz0	 BUFFER[11540]	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
-#define idinternal1_m1267_Vz0	 1707	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
-#define internal1_m1267_flRazg	 BUFFER[11545]	//(internal1_m1267_flRazg) признак разгона/торможения
-#define idinternal1_m1267_flRazg	 1708	//(internal1_m1267_flRazg) признак разгона/торможения
-#define internal1_m1267_DelSp	 BUFFER[11548]	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
-#define idinternal1_m1267_DelSp	 1709	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
-#define internal1_m1267_z0	 BUFFER[11553]	//(internal1_m1267_z0) z0 - точка прекращения движения
-#define idinternal1_m1267_z0	 1710	//(internal1_m1267_z0) z0 - точка прекращения движения
-#define internal1_m1267_txZS	 BUFFER[11558]	//(internal1_m1267_txZS) txZS
-#define idinternal1_m1267_txZS	 1711	//(internal1_m1267_txZS) txZS
-#define internal1_m1267_tx	 BUFFER[11563]	//(internal1_m1267_tx) tx
-#define idinternal1_m1267_tx	 1712	//(internal1_m1267_tx) tx
-#define internal1_m1267_txd	 BUFFER[11568]	//(internal1_m1267_txd) txd
-#define idinternal1_m1267_txd	 1713	//(internal1_m1267_txd) txd
-#define internal1_m1267_txMBl	 BUFFER[11573]	//(internal1_m1267_txMBl) tx
-#define idinternal1_m1267_txMBl	 1714	//(internal1_m1267_txMBl) tx
-#define internal1_m1267_txBl	 BUFFER[11578]	//(internal1_m1267_txBl) tx
-#define idinternal1_m1267_txBl	 1715	//(internal1_m1267_txBl) tx
-#define internal1_m1267_Speed0	 BUFFER[11583]	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define idinternal1_m1267_Speed0	 1716	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
-#define internal1_m1267_xz0	 BUFFER[11588]	//(internal1_m1267_xz0) xz0 - новое задание мм
-#define idinternal1_m1267_xz0	 1717	//(internal1_m1267_xz0) xz0 - новое задание мм
-#define internal1_m1267_tz0	 BUFFER[11593]	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
-#define idinternal1_m1267_tz0	 1718	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
-#define internal1_m1267_Shift0	 BUFFER[11598]	//(internal1_m1267_Shift0) Shift0 - признак самохода
-#define idinternal1_m1267_Shift0	 1719	//(internal1_m1267_Shift0) Shift0 - признак самохода
-#define internal1_m1267_ShCntlSp0	 BUFFER[11600]	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define idinternal1_m1267_ShCntlSp0	 1720	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-#define internal1_m1267_ShiftControl	 BUFFER[11602]	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
-#define idinternal1_m1267_ShiftControl	 1721	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
-#define internal1_m819_x0	 BUFFER[11604]	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m819_x0	 1722	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m788_x0	 BUFFER[11606]	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m788_x0	 1723	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m730_x0	 BUFFER[11608]	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
-#define idinternal1_m730_x0	 1724	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
-#define internal1_m844_q0	 BUFFER[11610]	//(internal1_m844_q0) q0 - внутренний параметр
-#define idinternal1_m844_q0	 1725	//(internal1_m844_q0) q0 - внутренний параметр
-#define internal1_m839_q0	 BUFFER[11612]	//(internal1_m839_q0) q0 - внутренний параметр
-#define idinternal1_m839_q0	 1726	//(internal1_m839_q0) q0 - внутренний параметр
-#define internal1_m807_q0	 BUFFER[11614]	//(internal1_m807_q0) q0 - внутренний параметр
-#define idinternal1_m807_q0	 1727	//(internal1_m807_q0) q0 - внутренний параметр
-#define internal1_m812_q0	 BUFFER[11616]	//(internal1_m812_q0) q0 - внутренний параметр
-#define idinternal1_m812_q0	 1728	//(internal1_m812_q0) q0 - внутренний параметр
-#define internal1_m820_q0	 BUFFER[11618]	//(internal1_m820_q0) q0 - внутренний параметр
-#define idinternal1_m820_q0	 1729	//(internal1_m820_q0) q0 - внутренний параметр
-#define internal1_m832_q0	 BUFFER[11620]	//(internal1_m832_q0) q0 - внутренний параметр
-#define idinternal1_m832_q0	 1730	//(internal1_m832_q0) q0 - внутренний параметр
-#define internal1_m810_q0	 BUFFER[11622]	//(internal1_m810_q0) q0 - внутренний параметр
-#define idinternal1_m810_q0	 1731	//(internal1_m810_q0) q0 - внутренний параметр
-#define internal1_m1310_DvUp0	 BUFFER[11624]	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m1310_DvUp0	 1732	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
-#define internal1_m1310_DvDw0	 BUFFER[11625]	//(internal1_m1310_DvDw0) - есть команда на движение назад
-#define idinternal1_m1310_DvDw0	 1733	//(internal1_m1310_DvDw0) - есть команда на движение назад
-#define internal1_m1310_FDvUp0	 BUFFER[11626]	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m1310_FDvUp0	 1734	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
-#define internal1_m1310_FDvDw0	 BUFFER[11627]	//(internal1_m1310_FDvDw0) - есть команда на движение назад
-#define idinternal1_m1310_FDvDw0	 1735	//(internal1_m1310_FDvDw0) - есть команда на движение назад
-#define internal1_m1310_BlDv0	 BUFFER[11628]	//(internal1_m1310_BlDv0) - была блокировка
-#define idinternal1_m1310_BlDv0	 1736	//(internal1_m1310_BlDv0) - была блокировка
-#define internal1_m1310_Pkv0	 BUFFER[11629]	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m1310_Pkv0	 1737	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m1310_Pkav0	 BUFFER[11630]	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m1310_Pkav0	 1738	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m1310_Zkv0	 BUFFER[11631]	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m1310_Zkv0	 1739	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m1310_Zkav0	 BUFFER[11632]	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m1310_Zkav0	 1740	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m1310_txNm	 BUFFER[11633]	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m1310_txNm	 1741	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m1310_txSm	 BUFFER[11638]	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m1310_txSm	 1742	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m1310_txHr	 BUFFER[11643]	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m1310_txHr	 1743	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m1310_txLd	 BUFFER[11648]	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m1310_txLd	 1744	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m1310_fef	 BUFFER[11653]	//(internal1_m1310_fef) fef
-#define idinternal1_m1310_fef	 1745	//(internal1_m1310_fef) fef
-#define internal1_m1300_DvUp0	 BUFFER[11654]	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m1300_DvUp0	 1746	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
-#define internal1_m1300_DvDw0	 BUFFER[11655]	//(internal1_m1300_DvDw0) - есть команда на движение назад
-#define idinternal1_m1300_DvDw0	 1747	//(internal1_m1300_DvDw0) - есть команда на движение назад
-#define internal1_m1300_FDvUp0	 BUFFER[11656]	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m1300_FDvUp0	 1748	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
-#define internal1_m1300_FDvDw0	 BUFFER[11657]	//(internal1_m1300_FDvDw0) - есть команда на движение назад
-#define idinternal1_m1300_FDvDw0	 1749	//(internal1_m1300_FDvDw0) - есть команда на движение назад
-#define internal1_m1300_BlDv0	 BUFFER[11658]	//(internal1_m1300_BlDv0) - была блокировка
-#define idinternal1_m1300_BlDv0	 1750	//(internal1_m1300_BlDv0) - была блокировка
-#define internal1_m1300_Pkv0	 BUFFER[11659]	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m1300_Pkv0	 1751	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m1300_Pkav0	 BUFFER[11660]	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m1300_Pkav0	 1752	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m1300_Zkv0	 BUFFER[11661]	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m1300_Zkv0	 1753	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m1300_Zkav0	 BUFFER[11662]	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m1300_Zkav0	 1754	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m1300_txNm	 BUFFER[11663]	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m1300_txNm	 1755	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m1300_txSm	 BUFFER[11668]	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m1300_txSm	 1756	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m1300_txHr	 BUFFER[11673]	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m1300_txHr	 1757	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m1300_txLd	 BUFFER[11678]	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m1300_txLd	 1758	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m1300_fef	 BUFFER[11683]	//(internal1_m1300_fef) fef
-#define idinternal1_m1300_fef	 1759	//(internal1_m1300_fef) fef
-#define internal1_m868_DvUp0	 BUFFER[11684]	//(internal1_m868_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m868_DvUp0	 1760	//(internal1_m868_DvUp0) - есть команда на движение вперёд
-#define internal1_m868_DvDw0	 BUFFER[11685]	//(internal1_m868_DvDw0) - есть команда на движение назад
-#define idinternal1_m868_DvDw0	 1761	//(internal1_m868_DvDw0) - есть команда на движение назад
-#define internal1_m868_FDvUp0	 BUFFER[11686]	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m868_FDvUp0	 1762	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
-#define internal1_m868_FDvDw0	 BUFFER[11687]	//(internal1_m868_FDvDw0) - есть команда на движение назад
-#define idinternal1_m868_FDvDw0	 1763	//(internal1_m868_FDvDw0) - есть команда на движение назад
-#define internal1_m868_BlDv0	 BUFFER[11688]	//(internal1_m868_BlDv0) - была блокировка
-#define idinternal1_m868_BlDv0	 1764	//(internal1_m868_BlDv0) - была блокировка
-#define internal1_m868_Pkv0	 BUFFER[11689]	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m868_Pkv0	 1765	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m868_Pkav0	 BUFFER[11690]	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m868_Pkav0	 1766	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m868_Zkv0	 BUFFER[11691]	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m868_Zkv0	 1767	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m868_Zkav0	 BUFFER[11692]	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m868_Zkav0	 1768	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m868_txNm	 BUFFER[11693]	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m868_txNm	 1769	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m868_txSm	 BUFFER[11698]	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m868_txSm	 1770	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m868_txHr	 BUFFER[11703]	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m868_txHr	 1771	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m868_txLd	 BUFFER[11708]	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m868_txLd	 1772	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m868_fef	 BUFFER[11713]	//(internal1_m868_fef) fef
-#define idinternal1_m868_fef	 1773	//(internal1_m868_fef) fef
-#define internal1_m864_DvUp0	 BUFFER[11714]	//(internal1_m864_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m864_DvUp0	 1774	//(internal1_m864_DvUp0) - есть команда на движение вперёд
-#define internal1_m864_DvDw0	 BUFFER[11715]	//(internal1_m864_DvDw0) - есть команда на движение назад
-#define idinternal1_m864_DvDw0	 1775	//(internal1_m864_DvDw0) - есть команда на движение назад
-#define internal1_m864_FDvUp0	 BUFFER[11716]	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m864_FDvUp0	 1776	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
-#define internal1_m864_FDvDw0	 BUFFER[11717]	//(internal1_m864_FDvDw0) - есть команда на движение назад
-#define idinternal1_m864_FDvDw0	 1777	//(internal1_m864_FDvDw0) - есть команда на движение назад
-#define internal1_m864_BlDv0	 BUFFER[11718]	//(internal1_m864_BlDv0) - была блокировка
-#define idinternal1_m864_BlDv0	 1778	//(internal1_m864_BlDv0) - была блокировка
-#define internal1_m864_Pkv0	 BUFFER[11719]	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m864_Pkv0	 1779	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m864_Pkav0	 BUFFER[11720]	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m864_Pkav0	 1780	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m864_Zkv0	 BUFFER[11721]	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m864_Zkv0	 1781	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m864_Zkav0	 BUFFER[11722]	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m864_Zkav0	 1782	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m864_txNm	 BUFFER[11723]	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m864_txNm	 1783	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m864_txSm	 BUFFER[11728]	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m864_txSm	 1784	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m864_txHr	 BUFFER[11733]	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m864_txHr	 1785	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m864_txLd	 BUFFER[11738]	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m864_txLd	 1786	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m864_fef	 BUFFER[11743]	//(internal1_m864_fef) fef
-#define idinternal1_m864_fef	 1787	//(internal1_m864_fef) fef
-#define internal1_m379_DvUp0	 BUFFER[11744]	//(internal1_m379_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m379_DvUp0	 1788	//(internal1_m379_DvUp0) - есть команда на движение вперёд
-#define internal1_m379_DvDw0	 BUFFER[11745]	//(internal1_m379_DvDw0) - есть команда на движение назад
-#define idinternal1_m379_DvDw0	 1789	//(internal1_m379_DvDw0) - есть команда на движение назад
-#define internal1_m379_FDvUp0	 BUFFER[11746]	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m379_FDvUp0	 1790	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
-#define internal1_m379_FDvDw0	 BUFFER[11747]	//(internal1_m379_FDvDw0) - есть команда на движение назад
-#define idinternal1_m379_FDvDw0	 1791	//(internal1_m379_FDvDw0) - есть команда на движение назад
-#define internal1_m379_BlDv0	 BUFFER[11748]	//(internal1_m379_BlDv0) - была блокировка
-#define idinternal1_m379_BlDv0	 1792	//(internal1_m379_BlDv0) - была блокировка
-#define internal1_m379_Pkv0	 BUFFER[11749]	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m379_Pkv0	 1793	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m379_Pkav0	 BUFFER[11750]	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m379_Pkav0	 1794	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m379_Zkv0	 BUFFER[11751]	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m379_Zkv0	 1795	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m379_Zkav0	 BUFFER[11752]	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m379_Zkav0	 1796	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m379_txNm	 BUFFER[11753]	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m379_txNm	 1797	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m379_txSm	 BUFFER[11758]	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m379_txSm	 1798	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m379_txHr	 BUFFER[11763]	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m379_txHr	 1799	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m379_txLd	 BUFFER[11768]	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m379_txLd	 1800	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m379_fef	 BUFFER[11773]	//(internal1_m379_fef) fef
-#define idinternal1_m379_fef	 1801	//(internal1_m379_fef) fef
-#define internal1_m416_DvUp0	 BUFFER[11774]	//(internal1_m416_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m416_DvUp0	 1802	//(internal1_m416_DvUp0) - есть команда на движение вперёд
-#define internal1_m416_DvDw0	 BUFFER[11775]	//(internal1_m416_DvDw0) - есть команда на движение назад
-#define idinternal1_m416_DvDw0	 1803	//(internal1_m416_DvDw0) - есть команда на движение назад
-#define internal1_m416_FDvUp0	 BUFFER[11776]	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m416_FDvUp0	 1804	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
-#define internal1_m416_FDvDw0	 BUFFER[11777]	//(internal1_m416_FDvDw0) - есть команда на движение назад
-#define idinternal1_m416_FDvDw0	 1805	//(internal1_m416_FDvDw0) - есть команда на движение назад
-#define internal1_m416_BlDv0	 BUFFER[11778]	//(internal1_m416_BlDv0) - была блокировка
-#define idinternal1_m416_BlDv0	 1806	//(internal1_m416_BlDv0) - была блокировка
-#define internal1_m416_Pkv0	 BUFFER[11779]	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m416_Pkv0	 1807	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m416_Pkav0	 BUFFER[11780]	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m416_Pkav0	 1808	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m416_Zkv0	 BUFFER[11781]	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m416_Zkv0	 1809	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m416_Zkav0	 BUFFER[11782]	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m416_Zkav0	 1810	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m416_txNm	 BUFFER[11783]	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m416_txNm	 1811	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m416_txSm	 BUFFER[11788]	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m416_txSm	 1812	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m416_txHr	 BUFFER[11793]	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m416_txHr	 1813	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m416_txLd	 BUFFER[11798]	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m416_txLd	 1814	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m416_fef	 BUFFER[11803]	//(internal1_m416_fef) fef
-#define idinternal1_m416_fef	 1815	//(internal1_m416_fef) fef
-#define internal1_m410_DvUp0	 BUFFER[11804]	//(internal1_m410_DvUp0) - есть команда на движение вперёд
-#define idinternal1_m410_DvUp0	 1816	//(internal1_m410_DvUp0) - есть команда на движение вперёд
-#define internal1_m410_DvDw0	 BUFFER[11805]	//(internal1_m410_DvDw0) - есть команда на движение назад
-#define idinternal1_m410_DvDw0	 1817	//(internal1_m410_DvDw0) - есть команда на движение назад
-#define internal1_m410_FDvUp0	 BUFFER[11806]	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
-#define idinternal1_m410_FDvUp0	 1818	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
-#define internal1_m410_FDvDw0	 BUFFER[11807]	//(internal1_m410_FDvDw0) - есть команда на движение назад
-#define idinternal1_m410_FDvDw0	 1819	//(internal1_m410_FDvDw0) - есть команда на движение назад
-#define internal1_m410_BlDv0	 BUFFER[11808]	//(internal1_m410_BlDv0) - была блокировка
-#define idinternal1_m410_BlDv0	 1820	//(internal1_m410_BlDv0) - была блокировка
-#define internal1_m410_Pkv0	 BUFFER[11809]	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
-#define idinternal1_m410_Pkv0	 1821	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
-#define internal1_m410_Pkav0	 BUFFER[11810]	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
-#define idinternal1_m410_Pkav0	 1822	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
-#define internal1_m410_Zkv0	 BUFFER[11811]	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
-#define idinternal1_m410_Zkv0	 1823	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
-#define internal1_m410_Zkav0	 BUFFER[11812]	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
-#define idinternal1_m410_Zkav0	 1824	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
-#define internal1_m410_txNm	 BUFFER[11813]	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
-#define idinternal1_m410_txNm	 1825	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
-#define internal1_m410_txSm	 BUFFER[11818]	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
-#define idinternal1_m410_txSm	 1826	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
-#define internal1_m410_txHr	 BUFFER[11823]	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define idinternal1_m410_txHr	 1827	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-#define internal1_m410_txLd	 BUFFER[11828]	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define idinternal1_m410_txLd	 1828	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-#define internal1_m410_fef	 BUFFER[11833]	//(internal1_m410_fef) fef
-#define idinternal1_m410_fef	 1829	//(internal1_m410_fef) fef
-#define internal1_m816_q0	 BUFFER[11834]	//(internal1_m816_q0) q0 - внутренний параметр
-#define idinternal1_m816_q0	 1830	//(internal1_m816_q0) q0 - внутренний параметр
-#define internal1_m813_q0	 BUFFER[11836]	//(internal1_m813_q0) q0 - внутренний параметр
-#define idinternal1_m813_q0	 1831	//(internal1_m813_q0) q0 - внутренний параметр
+#define internal2_m182_tx	 BUFFER[2480]	//(internal2_m182_tx) tx - время накопленное сек
+#define idinternal2_m182_tx	 893	//(internal2_m182_tx) tx - время накопленное сек
+#define internal2_m182_y0	 BUFFER[2485]	//(internal2_m182_y0) y0
+#define idinternal2_m182_y0	 894	//(internal2_m182_y0) y0
+#define internal2_m176_tx	 BUFFER[2486]	//(internal2_m176_tx) tx - время накопленное сек
+#define idinternal2_m176_tx	 895	//(internal2_m176_tx) tx - время накопленное сек
+#define internal2_m176_y0	 BUFFER[2491]	//(internal2_m176_y0) y0
+#define idinternal2_m176_y0	 896	//(internal2_m176_y0) y0
+#define internal2_m173_tx	 BUFFER[2492]	//(internal2_m173_tx) tx - время накопленное сек
+#define idinternal2_m173_tx	 897	//(internal2_m173_tx) tx - время накопленное сек
+#define internal2_m173_y0	 BUFFER[2497]	//(internal2_m173_y0) y0
+#define idinternal2_m173_y0	 898	//(internal2_m173_y0) y0
+#define internal2_m165_tx	 BUFFER[2498]	//(internal2_m165_tx) tx - время накопленное сек
+#define idinternal2_m165_tx	 899	//(internal2_m165_tx) tx - время накопленное сек
+#define internal2_m165_y0	 BUFFER[2503]	//(internal2_m165_y0) y0
+#define idinternal2_m165_y0	 900	//(internal2_m165_y0) y0
+#define internal2_m158_tx	 BUFFER[2504]	//(internal2_m158_tx) tx - время накопленное сек
+#define idinternal2_m158_tx	 901	//(internal2_m158_tx) tx - время накопленное сек
+#define internal2_m158_y0	 BUFFER[2509]	//(internal2_m158_y0) y0
+#define idinternal2_m158_y0	 902	//(internal2_m158_y0) y0
+#define internal2_m155_tx	 BUFFER[2510]	//(internal2_m155_tx) tx - время накопленное сек
+#define idinternal2_m155_tx	 903	//(internal2_m155_tx) tx - время накопленное сек
+#define internal2_m155_y0	 BUFFER[2515]	//(internal2_m155_y0) y0
+#define idinternal2_m155_y0	 904	//(internal2_m155_y0) y0
+#define internal2_m149_tx	 BUFFER[2516]	//(internal2_m149_tx) tx - время накопленное сек
+#define idinternal2_m149_tx	 905	//(internal2_m149_tx) tx - время накопленное сек
+#define internal2_m149_y0	 BUFFER[2521]	//(internal2_m149_y0) y0
+#define idinternal2_m149_y0	 906	//(internal2_m149_y0) y0
+#define internal2_m144_tx	 BUFFER[2522]	//(internal2_m144_tx) tx - время накопленное сек
+#define idinternal2_m144_tx	 907	//(internal2_m144_tx) tx - время накопленное сек
+#define internal2_m144_y0	 BUFFER[2527]	//(internal2_m144_y0) y0
+#define idinternal2_m144_y0	 908	//(internal2_m144_y0) y0
+#define internal2_m141_tx	 BUFFER[2528]	//(internal2_m141_tx) tx - время накопленное сек
+#define idinternal2_m141_tx	 909	//(internal2_m141_tx) tx - время накопленное сек
+#define internal2_m141_y0	 BUFFER[2533]	//(internal2_m141_y0) y0
+#define idinternal2_m141_y0	 910	//(internal2_m141_y0) y0
+#define internal2_m134_tx	 BUFFER[2534]	//(internal2_m134_tx) tx - время накопленное сек
+#define idinternal2_m134_tx	 911	//(internal2_m134_tx) tx - время накопленное сек
+#define internal2_m134_y0	 BUFFER[2539]	//(internal2_m134_y0) y0
+#define idinternal2_m134_y0	 912	//(internal2_m134_y0) y0
+#define internal2_m132_tx	 BUFFER[2540]	//(internal2_m132_tx) tx - время накопленное сек
+#define idinternal2_m132_tx	 913	//(internal2_m132_tx) tx - время накопленное сек
+#define internal2_m132_y0	 BUFFER[2545]	//(internal2_m132_y0) y0
+#define idinternal2_m132_y0	 914	//(internal2_m132_y0) y0
+#define internal2_m127_tx	 BUFFER[2546]	//(internal2_m127_tx) tx - время накопленное сек
+#define idinternal2_m127_tx	 915	//(internal2_m127_tx) tx - время накопленное сек
+#define internal2_m127_y0	 BUFFER[2551]	//(internal2_m127_y0) y0
+#define idinternal2_m127_y0	 916	//(internal2_m127_y0) y0
+#define internal2_m195_y0	 BUFFER[2552]	//(internal2_m195_y0) y0
+#define idinternal2_m195_y0	 917	//(internal2_m195_y0) y0
+#define internal2_m193_y0	 BUFFER[2557]	//(internal2_m193_y0) y0
+#define idinternal2_m193_y0	 918	//(internal2_m193_y0) y0
+#define internal2_m228_y0	 BUFFER[2562]	//(internal2_m228_y0) state
+#define idinternal2_m228_y0	 919	//(internal2_m228_y0) state
+#define internal2_m220_y0	 BUFFER[2564]	//(internal2_m220_y0) state
+#define idinternal2_m220_y0	 920	//(internal2_m220_y0) state
+#define internal2_m208_y1	 BUFFER[2566]	//(internal2_m208_y1) y1 - внутренний параметр
+#define idinternal2_m208_y1	 921	//(internal2_m208_y1) y1 - внутренний параметр
+#define internal2_m214_y1	 BUFFER[2568]	//(internal2_m214_y1) y1 - внутренний параметр
+#define idinternal2_m214_y1	 922	//(internal2_m214_y1) y1 - внутренний параметр
+#define internal2_m198_y1	 BUFFER[2570]	//(internal2_m198_y1) y1 - внутренний параметр
+#define idinternal2_m198_y1	 923	//(internal2_m198_y1) y1 - внутренний параметр
+#define internal2_m205_y1	 BUFFER[2572]	//(internal2_m205_y1) y1 - внутренний параметр
+#define idinternal2_m205_y1	 924	//(internal2_m205_y1) y1 - внутренний параметр
+#define internal2_m17_Nk0	 BUFFER[2574]	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m17_Nk0	 925	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m17_SetFlag	 BUFFER[2579]	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m17_SetFlag	 926	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m110_Nk0	 BUFFER[2581]	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m110_Nk0	 927	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m110_SetFlag	 BUFFER[2586]	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m110_SetFlag	 928	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m106_Nk0	 BUFFER[2588]	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m106_Nk0	 929	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m106_SetFlag	 BUFFER[2593]	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m106_SetFlag	 930	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m75_Nk0	 BUFFER[2595]	//(internal2_m75_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m75_Nk0	 931	//(internal2_m75_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m75_SetFlag	 BUFFER[2600]	//(internal2_m75_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m75_SetFlag	 932	//(internal2_m75_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m77_Nk0	 BUFFER[2602]	//(internal2_m77_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m77_Nk0	 933	//(internal2_m77_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m77_SetFlag	 BUFFER[2607]	//(internal2_m77_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m77_SetFlag	 934	//(internal2_m77_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m49_Nk0	 BUFFER[2609]	//(internal2_m49_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m49_Nk0	 935	//(internal2_m49_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m49_SetFlag	 BUFFER[2614]	//(internal2_m49_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m49_SetFlag	 936	//(internal2_m49_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m53_Nk0	 BUFFER[2616]	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m53_Nk0	 937	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m53_SetFlag	 BUFFER[2621]	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m53_SetFlag	 938	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal2_m15_Nk0	 BUFFER[2623]	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define idinternal2_m15_Nk0	 939	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+#define internal2_m15_SetFlag	 BUFFER[2628]	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define idinternal2_m15_SetFlag	 940	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+#define internal1_m2019_tx	 BUFFER[2630]	//(internal1_m2019_tx) tx - внутренний параметр
+#define idinternal1_m2019_tx	 941	//(internal1_m2019_tx) tx - внутренний параметр
+#define internal1_m2018_tx	 BUFFER[2635]	//(internal1_m2018_tx) tx - внутренний параметр
+#define idinternal1_m2018_tx	 942	//(internal1_m2018_tx) tx - внутренний параметр
+#define internal1_m774_tx	 BUFFER[2640]	//(internal1_m774_tx) tx - внутренний параметр
+#define idinternal1_m774_tx	 943	//(internal1_m774_tx) tx - внутренний параметр
+#define internal1_m731_tx	 BUFFER[2645]	//(internal1_m731_tx) tx - внутренний параметр
+#define idinternal1_m731_tx	 944	//(internal1_m731_tx) tx - внутренний параметр
+#define internal1_m784_tx	 BUFFER[2650]	//(internal1_m784_tx) tx - внутренний параметр
+#define idinternal1_m784_tx	 945	//(internal1_m784_tx) tx - внутренний параметр
+#define internal1_m786_tx	 BUFFER[2655]	//(internal1_m786_tx) tx - внутренний параметр
+#define idinternal1_m786_tx	 946	//(internal1_m786_tx) tx - внутренний параметр
+#define internal1_m785_tx	 BUFFER[2660]	//(internal1_m785_tx) tx - внутренний параметр
+#define idinternal1_m785_tx	 947	//(internal1_m785_tx) tx - внутренний параметр
+#define internal1_m740_tx	 BUFFER[2665]	//(internal1_m740_tx) tx - внутренний параметр
+#define idinternal1_m740_tx	 948	//(internal1_m740_tx) tx - внутренний параметр
+#define internal1_m724_tx	 BUFFER[2670]	//(internal1_m724_tx) tx - внутренний параметр
+#define idinternal1_m724_tx	 949	//(internal1_m724_tx) tx - внутренний параметр
+#define internal1_m735_tx	 BUFFER[2675]	//(internal1_m735_tx) tx - внутренний параметр
+#define idinternal1_m735_tx	 950	//(internal1_m735_tx) tx - внутренний параметр
+#define internal1_m766_tx	 BUFFER[2680]	//(internal1_m766_tx) tx - внутренний параметр
+#define idinternal1_m766_tx	 951	//(internal1_m766_tx) tx - внутренний параметр
+#define internal1_m783_tx	 BUFFER[2685]	//(internal1_m783_tx) tx - внутренний параметр
+#define idinternal1_m783_tx	 952	//(internal1_m783_tx) tx - внутренний параметр
+#define internal1_m756_tx	 BUFFER[2690]	//(internal1_m756_tx) tx - внутренний параметр
+#define idinternal1_m756_tx	 953	//(internal1_m756_tx) tx - внутренний параметр
+#define internal1_m387_tx	 BUFFER[2695]	//(internal1_m387_tx) tx - внутренний параметр
+#define idinternal1_m387_tx	 954	//(internal1_m387_tx) tx - внутренний параметр
+#define internal1_m386_tx	 BUFFER[2700]	//(internal1_m386_tx) tx - внутренний параметр
+#define idinternal1_m386_tx	 955	//(internal1_m386_tx) tx - внутренний параметр
+#define internal1_m385_tx	 BUFFER[2705]	//(internal1_m385_tx) tx - внутренний параметр
+#define idinternal1_m385_tx	 956	//(internal1_m385_tx) tx - внутренний параметр
+#define internal1_m384_tx	 BUFFER[2710]	//(internal1_m384_tx) tx - внутренний параметр
+#define idinternal1_m384_tx	 957	//(internal1_m384_tx) tx - внутренний параметр
+#define internal1_m755_tx	 BUFFER[2715]	//(internal1_m755_tx) tx - внутренний параметр
+#define idinternal1_m755_tx	 958	//(internal1_m755_tx) tx - внутренний параметр
+#define internal1_m750_tx	 BUFFER[2720]	//(internal1_m750_tx) tx - внутренний параметр
+#define idinternal1_m750_tx	 959	//(internal1_m750_tx) tx - внутренний параметр
+#define internal1_m759_tx	 BUFFER[2725]	//(internal1_m759_tx) tx - внутренний параметр
+#define idinternal1_m759_tx	 960	//(internal1_m759_tx) tx - внутренний параметр
+#define internal1_m764_tx	 BUFFER[2730]	//(internal1_m764_tx) tx - внутренний параметр
+#define idinternal1_m764_tx	 961	//(internal1_m764_tx) tx - внутренний параметр
+#define internal1_m520_tx	 BUFFER[2735]	//(internal1_m520_tx) tx - внутренний параметр
+#define idinternal1_m520_tx	 962	//(internal1_m520_tx) tx - внутренний параметр
+#define internal1_m519_tx	 BUFFER[2740]	//(internal1_m519_tx) tx - внутренний параметр
+#define idinternal1_m519_tx	 963	//(internal1_m519_tx) tx - внутренний параметр
+#define internal1_m518_tx	 BUFFER[2745]	//(internal1_m518_tx) tx - внутренний параметр
+#define idinternal1_m518_tx	 964	//(internal1_m518_tx) tx - внутренний параметр
+#define internal1_m514_tx	 BUFFER[2750]	//(internal1_m514_tx) tx - внутренний параметр
+#define idinternal1_m514_tx	 965	//(internal1_m514_tx) tx - внутренний параметр
+#define internal1_m491_tx	 BUFFER[2755]	//(internal1_m491_tx) tx - внутренний параметр
+#define idinternal1_m491_tx	 966	//(internal1_m491_tx) tx - внутренний параметр
+#define internal1_m490_tx	 BUFFER[2760]	//(internal1_m490_tx) tx - внутренний параметр
+#define idinternal1_m490_tx	 967	//(internal1_m490_tx) tx - внутренний параметр
+#define internal1_m489_tx	 BUFFER[2765]	//(internal1_m489_tx) tx - внутренний параметр
+#define idinternal1_m489_tx	 968	//(internal1_m489_tx) tx - внутренний параметр
+#define internal1_m492_tx	 BUFFER[2770]	//(internal1_m492_tx) tx - внутренний параметр
+#define idinternal1_m492_tx	 969	//(internal1_m492_tx) tx - внутренний параметр
+#define internal1_m2436_tx	 BUFFER[2775]	//(internal1_m2436_tx) tx - внутренний параметр
+#define idinternal1_m2436_tx	 970	//(internal1_m2436_tx) tx - внутренний параметр
+#define internal1_m2145_tx	 BUFFER[2780]	//(internal1_m2145_tx) tx - внутренний параметр
+#define idinternal1_m2145_tx	 971	//(internal1_m2145_tx) tx - внутренний параметр
+#define internal1_m2435_tx	 BUFFER[2785]	//(internal1_m2435_tx) tx - внутренний параметр
+#define idinternal1_m2435_tx	 972	//(internal1_m2435_tx) tx - внутренний параметр
+#define internal1_m2434_tx	 BUFFER[2790]	//(internal1_m2434_tx) tx - внутренний параметр
+#define idinternal1_m2434_tx	 973	//(internal1_m2434_tx) tx - внутренний параметр
+#define internal1_m2433_tx	 BUFFER[2795]	//(internal1_m2433_tx) tx - внутренний параметр
+#define idinternal1_m2433_tx	 974	//(internal1_m2433_tx) tx - внутренний параметр
+#define internal1_m102_tx	 BUFFER[2800]	//(internal1_m102_tx) tx - внутренний параметр
+#define idinternal1_m102_tx	 975	//(internal1_m102_tx) tx - внутренний параметр
+#define internal1_m1138_tx	 BUFFER[2805]	//(internal1_m1138_tx) tx - внутренний параметр
+#define idinternal1_m1138_tx	 976	//(internal1_m1138_tx) tx - внутренний параметр
+#define internal1_m2291_tx	 BUFFER[2810]	//(internal1_m2291_tx) tx - внутренний параметр
+#define idinternal1_m2291_tx	 977	//(internal1_m2291_tx) tx - внутренний параметр
+#define internal1_m2290_tx	 BUFFER[2815]	//(internal1_m2290_tx) tx - внутренний параметр
+#define idinternal1_m2290_tx	 978	//(internal1_m2290_tx) tx - внутренний параметр
+#define internal1_m2289_tx	 BUFFER[2820]	//(internal1_m2289_tx) tx - внутренний параметр
+#define idinternal1_m2289_tx	 979	//(internal1_m2289_tx) tx - внутренний параметр
+#define internal1_m1224_tx	 BUFFER[2825]	//(internal1_m1224_tx) tx - внутренний параметр
+#define idinternal1_m1224_tx	 980	//(internal1_m1224_tx) tx - внутренний параметр
+#define internal1_m1223_tx	 BUFFER[2830]	//(internal1_m1223_tx) tx - внутренний параметр
+#define idinternal1_m1223_tx	 981	//(internal1_m1223_tx) tx - внутренний параметр
+#define internal1_m1222_tx	 BUFFER[2835]	//(internal1_m1222_tx) tx - внутренний параметр
+#define idinternal1_m1222_tx	 982	//(internal1_m1222_tx) tx - внутренний параметр
+#define internal1_m1215_tx	 BUFFER[2840]	//(internal1_m1215_tx) tx - внутренний параметр
+#define idinternal1_m1215_tx	 983	//(internal1_m1215_tx) tx - внутренний параметр
+#define internal1_m1213_tx	 BUFFER[2845]	//(internal1_m1213_tx) tx - внутренний параметр
+#define idinternal1_m1213_tx	 984	//(internal1_m1213_tx) tx - внутренний параметр
+#define internal1_m1211_tx	 BUFFER[2850]	//(internal1_m1211_tx) tx - внутренний параметр
+#define idinternal1_m1211_tx	 985	//(internal1_m1211_tx) tx - внутренний параметр
+#define internal1_m1209_tx	 BUFFER[2855]	//(internal1_m1209_tx) tx - внутренний параметр
+#define idinternal1_m1209_tx	 986	//(internal1_m1209_tx) tx - внутренний параметр
+#define internal1_m1252_tx	 BUFFER[2860]	//(internal1_m1252_tx) tx - внутренний параметр
+#define idinternal1_m1252_tx	 987	//(internal1_m1252_tx) tx - внутренний параметр
+#define internal1_m1259_tx	 BUFFER[2865]	//(internal1_m1259_tx) tx - внутренний параметр
+#define idinternal1_m1259_tx	 988	//(internal1_m1259_tx) tx - внутренний параметр
+#define internal1_m1264_tx	 BUFFER[2870]	//(internal1_m1264_tx) tx - внутренний параметр
+#define idinternal1_m1264_tx	 989	//(internal1_m1264_tx) tx - внутренний параметр
+#define internal1_m1270_tx	 BUFFER[2875]	//(internal1_m1270_tx) tx - внутренний параметр
+#define idinternal1_m1270_tx	 990	//(internal1_m1270_tx) tx - внутренний параметр
+#define internal1_m1230_tx	 BUFFER[2880]	//(internal1_m1230_tx) tx - внутренний параметр
+#define idinternal1_m1230_tx	 991	//(internal1_m1230_tx) tx - внутренний параметр
+#define internal1_m1251_tx	 BUFFER[2885]	//(internal1_m1251_tx) tx - внутренний параметр
+#define idinternal1_m1251_tx	 992	//(internal1_m1251_tx) tx - внутренний параметр
+#define internal1_m1265_tx	 BUFFER[2890]	//(internal1_m1265_tx) tx - внутренний параметр
+#define idinternal1_m1265_tx	 993	//(internal1_m1265_tx) tx - внутренний параметр
+#define internal1_m469_tx	 BUFFER[2895]	//(internal1_m469_tx) tx - внутренний параметр
+#define idinternal1_m469_tx	 994	//(internal1_m469_tx) tx - внутренний параметр
+#define internal1_m463_tx	 BUFFER[2900]	//(internal1_m463_tx) tx - внутренний параметр
+#define idinternal1_m463_tx	 995	//(internal1_m463_tx) tx - внутренний параметр
+#define internal1_m465_tx	 BUFFER[2905]	//(internal1_m465_tx) tx - внутренний параметр
+#define idinternal1_m465_tx	 996	//(internal1_m465_tx) tx - внутренний параметр
+#define internal1_m467_tx	 BUFFER[2910]	//(internal1_m467_tx) tx - внутренний параметр
+#define idinternal1_m467_tx	 997	//(internal1_m467_tx) tx - внутренний параметр
+#define internal1_m474_tx	 BUFFER[2915]	//(internal1_m474_tx) tx - внутренний параметр
+#define idinternal1_m474_tx	 998	//(internal1_m474_tx) tx - внутренний параметр
+#define internal1_m428_tx	 BUFFER[2920]	//(internal1_m428_tx) tx - внутренний параметр
+#define idinternal1_m428_tx	 999	//(internal1_m428_tx) tx - внутренний параметр
+#define internal1_m426_tx	 BUFFER[2925]	//(internal1_m426_tx) tx - внутренний параметр
+#define idinternal1_m426_tx	 1000	//(internal1_m426_tx) tx - внутренний параметр
+#define internal1_m427_tx	 BUFFER[2930]	//(internal1_m427_tx) tx - внутренний параметр
+#define idinternal1_m427_tx	 1001	//(internal1_m427_tx) tx - внутренний параметр
+#define internal1_m420_tx	 BUFFER[2935]	//(internal1_m420_tx) tx - внутренний параметр
+#define idinternal1_m420_tx	 1002	//(internal1_m420_tx) tx - внутренний параметр
+#define internal1_m882_tx	 BUFFER[2940]	//(internal1_m882_tx) tx - внутренний параметр
+#define idinternal1_m882_tx	 1003	//(internal1_m882_tx) tx - внутренний параметр
+#define internal1_m881_tx	 BUFFER[2945]	//(internal1_m881_tx) tx - внутренний параметр
+#define idinternal1_m881_tx	 1004	//(internal1_m881_tx) tx - внутренний параметр
+#define internal1_m880_tx	 BUFFER[2950]	//(internal1_m880_tx) tx - внутренний параметр
+#define idinternal1_m880_tx	 1005	//(internal1_m880_tx) tx - внутренний параметр
+#define internal1_m876_tx	 BUFFER[2955]	//(internal1_m876_tx) tx - внутренний параметр
+#define idinternal1_m876_tx	 1006	//(internal1_m876_tx) tx - внутренний параметр
+#define internal1_m1316_tx	 BUFFER[2960]	//(internal1_m1316_tx) tx - внутренний параметр
+#define idinternal1_m1316_tx	 1007	//(internal1_m1316_tx) tx - внутренний параметр
+#define internal1_m1315_tx	 BUFFER[2965]	//(internal1_m1315_tx) tx - внутренний параметр
+#define idinternal1_m1315_tx	 1008	//(internal1_m1315_tx) tx - внутренний параметр
+#define internal1_m1314_tx	 BUFFER[2970]	//(internal1_m1314_tx) tx - внутренний параметр
+#define idinternal1_m1314_tx	 1009	//(internal1_m1314_tx) tx - внутренний параметр
+#define internal1_m1527_tx	 BUFFER[2975]	//(internal1_m1527_tx) tx - внутренний параметр
+#define idinternal1_m1527_tx	 1010	//(internal1_m1527_tx) tx - внутренний параметр
+#define internal1_m1540_tx	 BUFFER[2980]	//(internal1_m1540_tx) tx - внутренний параметр
+#define idinternal1_m1540_tx	 1011	//(internal1_m1540_tx) tx - внутренний параметр
+#define internal1_m1539_tx	 BUFFER[2985]	//(internal1_m1539_tx) tx - внутренний параметр
+#define idinternal1_m1539_tx	 1012	//(internal1_m1539_tx) tx - внутренний параметр
+#define internal1_m1538_tx	 BUFFER[2990]	//(internal1_m1538_tx) tx - внутренний параметр
+#define idinternal1_m1538_tx	 1013	//(internal1_m1538_tx) tx - внутренний параметр
+#define internal1_m1529_tx	 BUFFER[2995]	//(internal1_m1529_tx) tx - внутренний параметр
+#define idinternal1_m1529_tx	 1014	//(internal1_m1529_tx) tx - внутренний параметр
+#define internal1_m2263_tx	 BUFFER[3000]	//(internal1_m2263_tx) tx - внутренний параметр
+#define idinternal1_m2263_tx	 1015	//(internal1_m2263_tx) tx - внутренний параметр
+#define internal1_m2246_tx	 BUFFER[3005]	//(internal1_m2246_tx) tx - внутренний параметр
+#define idinternal1_m2246_tx	 1016	//(internal1_m2246_tx) tx - внутренний параметр
+#define internal1_m2223_tx	 BUFFER[3010]	//(internal1_m2223_tx) tx - внутренний параметр
+#define idinternal1_m2223_tx	 1017	//(internal1_m2223_tx) tx - внутренний параметр
+#define internal1_m1537_tx	 BUFFER[3015]	//(internal1_m1537_tx) tx - внутренний параметр
+#define idinternal1_m1537_tx	 1018	//(internal1_m1537_tx) tx - внутренний параметр
+#define internal1_m1517_tx	 BUFFER[3020]	//(internal1_m1517_tx) tx - внутренний параметр
+#define idinternal1_m1517_tx	 1019	//(internal1_m1517_tx) tx - внутренний параметр
+#define internal1_m1516_tx	 BUFFER[3025]	//(internal1_m1516_tx) tx - внутренний параметр
+#define idinternal1_m1516_tx	 1020	//(internal1_m1516_tx) tx - внутренний параметр
+#define internal1_m1514_tx	 BUFFER[3030]	//(internal1_m1514_tx) tx - внутренний параметр
+#define idinternal1_m1514_tx	 1021	//(internal1_m1514_tx) tx - внутренний параметр
+#define internal1_m1536_tx	 BUFFER[3035]	//(internal1_m1536_tx) tx - внутренний параметр
+#define idinternal1_m1536_tx	 1022	//(internal1_m1536_tx) tx - внутренний параметр
+#define internal1_m1502_tx	 BUFFER[3040]	//(internal1_m1502_tx) tx - внутренний параметр
+#define idinternal1_m1502_tx	 1023	//(internal1_m1502_tx) tx - внутренний параметр
+#define internal1_m1504_tx	 BUFFER[3045]	//(internal1_m1504_tx) tx - внутренний параметр
+#define idinternal1_m1504_tx	 1024	//(internal1_m1504_tx) tx - внутренний параметр
+#define internal1_m1501_tx	 BUFFER[3050]	//(internal1_m1501_tx) tx - внутренний параметр
+#define idinternal1_m1501_tx	 1025	//(internal1_m1501_tx) tx - внутренний параметр
+#define internal1_m1474_tx	 BUFFER[3055]	//(internal1_m1474_tx) tx - внутренний параметр
+#define idinternal1_m1474_tx	 1026	//(internal1_m1474_tx) tx - внутренний параметр
+#define internal1_m1473_tx	 BUFFER[3060]	//(internal1_m1473_tx) tx - внутренний параметр
+#define idinternal1_m1473_tx	 1027	//(internal1_m1473_tx) tx - внутренний параметр
+#define internal1_m1482_tx	 BUFFER[3065]	//(internal1_m1482_tx) tx - внутренний параметр
+#define idinternal1_m1482_tx	 1028	//(internal1_m1482_tx) tx - внутренний параметр
+#define internal1_m1486_tx	 BUFFER[3070]	//(internal1_m1486_tx) tx - внутренний параметр
+#define idinternal1_m1486_tx	 1029	//(internal1_m1486_tx) tx - внутренний параметр
+#define internal1_m975_tx	 BUFFER[3075]	//(internal1_m975_tx) tx - внутренний параметр
+#define idinternal1_m975_tx	 1030	//(internal1_m975_tx) tx - внутренний параметр
+#define internal1_m978_tx	 BUFFER[3080]	//(internal1_m978_tx) tx - внутренний параметр
+#define idinternal1_m978_tx	 1031	//(internal1_m978_tx) tx - внутренний параметр
+#define internal1_m2214_tx	 BUFFER[3085]	//(internal1_m2214_tx) tx - внутренний параметр
+#define idinternal1_m2214_tx	 1032	//(internal1_m2214_tx) tx - внутренний параметр
+#define internal1_m968_tx	 BUFFER[3090]	//(internal1_m968_tx) tx - внутренний параметр
+#define idinternal1_m968_tx	 1033	//(internal1_m968_tx) tx - внутренний параметр
+#define internal1_m966_tx	 BUFFER[3095]	//(internal1_m966_tx) tx - внутренний параметр
+#define idinternal1_m966_tx	 1034	//(internal1_m966_tx) tx - внутренний параметр
+#define internal1_m974_tx	 BUFFER[3100]	//(internal1_m974_tx) tx - внутренний параметр
+#define idinternal1_m974_tx	 1035	//(internal1_m974_tx) tx - внутренний параметр
+#define internal1_m958_tx	 BUFFER[3105]	//(internal1_m958_tx) tx - внутренний параметр
+#define idinternal1_m958_tx	 1036	//(internal1_m958_tx) tx - внутренний параметр
+#define internal1_m956_tx	 BUFFER[3110]	//(internal1_m956_tx) tx - внутренний параметр
+#define idinternal1_m956_tx	 1037	//(internal1_m956_tx) tx - внутренний параметр
+#define internal1_m952_tx	 BUFFER[3115]	//(internal1_m952_tx) tx - внутренний параметр
+#define idinternal1_m952_tx	 1038	//(internal1_m952_tx) tx - внутренний параметр
+#define internal1_m973_tx	 BUFFER[3120]	//(internal1_m973_tx) tx - внутренний параметр
+#define idinternal1_m973_tx	 1039	//(internal1_m973_tx) tx - внутренний параметр
+#define internal1_m940_tx	 BUFFER[3125]	//(internal1_m940_tx) tx - внутренний параметр
+#define idinternal1_m940_tx	 1040	//(internal1_m940_tx) tx - внутренний параметр
+#define internal1_m941_tx	 BUFFER[3130]	//(internal1_m941_tx) tx - внутренний параметр
+#define idinternal1_m941_tx	 1041	//(internal1_m941_tx) tx - внутренний параметр
+#define internal1_m938_tx	 BUFFER[3135]	//(internal1_m938_tx) tx - внутренний параметр
+#define idinternal1_m938_tx	 1042	//(internal1_m938_tx) tx - внутренний параметр
+#define internal1_m626_tx	 BUFFER[3140]	//(internal1_m626_tx) tx - внутренний параметр
+#define idinternal1_m626_tx	 1043	//(internal1_m626_tx) tx - внутренний параметр
+#define internal1_m629_tx	 BUFFER[3145]	//(internal1_m629_tx) tx - внутренний параметр
+#define idinternal1_m629_tx	 1044	//(internal1_m629_tx) tx - внутренний параметр
+#define internal1_m628_tx	 BUFFER[3150]	//(internal1_m628_tx) tx - внутренний параметр
+#define idinternal1_m628_tx	 1045	//(internal1_m628_tx) tx - внутренний параметр
+#define internal1_m616_tx	 BUFFER[3155]	//(internal1_m616_tx) tx - внутренний параметр
+#define idinternal1_m616_tx	 1046	//(internal1_m616_tx) tx - внутренний параметр
+#define internal1_m615_tx	 BUFFER[3160]	//(internal1_m615_tx) tx - внутренний параметр
+#define idinternal1_m615_tx	 1047	//(internal1_m615_tx) tx - внутренний параметр
+#define internal1_m611_tx	 BUFFER[3165]	//(internal1_m611_tx) tx - внутренний параметр
+#define idinternal1_m611_tx	 1048	//(internal1_m611_tx) tx - внутренний параметр
+#define internal1_m624_tx	 BUFFER[3170]	//(internal1_m624_tx) tx - внутренний параметр
+#define idinternal1_m624_tx	 1049	//(internal1_m624_tx) tx - внутренний параметр
+#define internal1_m601_tx	 BUFFER[3175]	//(internal1_m601_tx) tx - внутренний параметр
+#define idinternal1_m601_tx	 1050	//(internal1_m601_tx) tx - внутренний параметр
+#define internal1_m600_tx	 BUFFER[3180]	//(internal1_m600_tx) tx - внутренний параметр
+#define idinternal1_m600_tx	 1051	//(internal1_m600_tx) tx - внутренний параметр
+#define internal1_m596_tx	 BUFFER[3185]	//(internal1_m596_tx) tx - внутренний параметр
+#define idinternal1_m596_tx	 1052	//(internal1_m596_tx) tx - внутренний параметр
+#define internal1_m627_tx	 BUFFER[3190]	//(internal1_m627_tx) tx - внутренний параметр
+#define idinternal1_m627_tx	 1053	//(internal1_m627_tx) tx - внутренний параметр
+#define internal1_m584_tx	 BUFFER[3195]	//(internal1_m584_tx) tx - внутренний параметр
+#define idinternal1_m584_tx	 1054	//(internal1_m584_tx) tx - внутренний параметр
+#define internal1_m583_tx	 BUFFER[3200]	//(internal1_m583_tx) tx - внутренний параметр
+#define idinternal1_m583_tx	 1055	//(internal1_m583_tx) tx - внутренний параметр
+#define internal1_m586_tx	 BUFFER[3205]	//(internal1_m586_tx) tx - внутренний параметр
+#define idinternal1_m586_tx	 1056	//(internal1_m586_tx) tx - внутренний параметр
+#define internal1_m563_tx	 BUFFER[3210]	//(internal1_m563_tx) tx - внутренний параметр
+#define idinternal1_m563_tx	 1057	//(internal1_m563_tx) tx - внутренний параметр
+#define internal1_m564_tx	 BUFFER[3215]	//(internal1_m564_tx) tx - внутренний параметр
+#define idinternal1_m564_tx	 1058	//(internal1_m564_tx) tx - внутренний параметр
+#define internal1_m565_tx	 BUFFER[3220]	//(internal1_m565_tx) tx - внутренний параметр
+#define idinternal1_m565_tx	 1059	//(internal1_m565_tx) tx - внутренний параметр
+#define internal1_m570_tx	 BUFFER[3225]	//(internal1_m570_tx) tx - внутренний параметр
+#define idinternal1_m570_tx	 1060	//(internal1_m570_tx) tx - внутренний параметр
+#define internal1_m2274_tx	 BUFFER[3230]	//(internal1_m2274_tx) tx - внутренний параметр
+#define idinternal1_m2274_tx	 1061	//(internal1_m2274_tx) tx - внутренний параметр
+#define internal1_m2275_tx	 BUFFER[3235]	//(internal1_m2275_tx) tx - внутренний параметр
+#define idinternal1_m2275_tx	 1062	//(internal1_m2275_tx) tx - внутренний параметр
+#define internal1_m2276_tx	 BUFFER[3240]	//(internal1_m2276_tx) tx - внутренний параметр
+#define idinternal1_m2276_tx	 1063	//(internal1_m2276_tx) tx - внутренний параметр
+#define internal1_m1745_tx	 BUFFER[3245]	//(internal1_m1745_tx) tx - внутренний параметр
+#define idinternal1_m1745_tx	 1064	//(internal1_m1745_tx) tx - внутренний параметр
+#define internal1_m1744_tx	 BUFFER[3250]	//(internal1_m1744_tx) tx - внутренний параметр
+#define idinternal1_m1744_tx	 1065	//(internal1_m1744_tx) tx - внутренний параметр
+#define internal1_m1739_tx	 BUFFER[3255]	//(internal1_m1739_tx) tx - внутренний параметр
+#define idinternal1_m1739_tx	 1066	//(internal1_m1739_tx) tx - внутренний параметр
+#define internal1_m1730_tx	 BUFFER[3260]	//(internal1_m1730_tx) tx - внутренний параметр
+#define idinternal1_m1730_tx	 1067	//(internal1_m1730_tx) tx - внутренний параметр
+#define internal1_m1728_tx	 BUFFER[3265]	//(internal1_m1728_tx) tx - внутренний параметр
+#define idinternal1_m1728_tx	 1068	//(internal1_m1728_tx) tx - внутренний параметр
+#define internal1_m1726_tx	 BUFFER[3270]	//(internal1_m1726_tx) tx - внутренний параметр
+#define idinternal1_m1726_tx	 1069	//(internal1_m1726_tx) tx - внутренний параметр
+#define internal1_m1725_tx	 BUFFER[3275]	//(internal1_m1725_tx) tx - внутренний параметр
+#define idinternal1_m1725_tx	 1070	//(internal1_m1725_tx) tx - внутренний параметр
+#define internal1_m1766_tx	 BUFFER[3280]	//(internal1_m1766_tx) tx - внутренний параметр
+#define idinternal1_m1766_tx	 1071	//(internal1_m1766_tx) tx - внутренний параметр
+#define internal1_m1774_tx	 BUFFER[3285]	//(internal1_m1774_tx) tx - внутренний параметр
+#define idinternal1_m1774_tx	 1072	//(internal1_m1774_tx) tx - внутренний параметр
+#define internal1_m1781_tx	 BUFFER[3290]	//(internal1_m1781_tx) tx - внутренний параметр
+#define idinternal1_m1781_tx	 1073	//(internal1_m1781_tx) tx - внутренний параметр
+#define internal1_m1782_tx	 BUFFER[3295]	//(internal1_m1782_tx) tx - внутренний параметр
+#define idinternal1_m1782_tx	 1074	//(internal1_m1782_tx) tx - внутренний параметр
+#define internal1_m1772_tx	 BUFFER[3300]	//(internal1_m1772_tx) tx - внутренний параметр
+#define idinternal1_m1772_tx	 1075	//(internal1_m1772_tx) tx - внутренний параметр
+#define internal1_m1747_tx	 BUFFER[3305]	//(internal1_m1747_tx) tx - внутренний параметр
+#define idinternal1_m1747_tx	 1076	//(internal1_m1747_tx) tx - внутренний параметр
+#define internal1_m1761_tx	 BUFFER[3310]	//(internal1_m1761_tx) tx - внутренний параметр
+#define idinternal1_m1761_tx	 1077	//(internal1_m1761_tx) tx - внутренний параметр
+#define internal1_m446_tx	 BUFFER[3315]	//(internal1_m446_tx) tx - внутренний параметр
+#define idinternal1_m446_tx	 1078	//(internal1_m446_tx) tx - внутренний параметр
+#define internal1_m437_tx	 BUFFER[3320]	//(internal1_m437_tx) tx - внутренний параметр
+#define idinternal1_m437_tx	 1079	//(internal1_m437_tx) tx - внутренний параметр
+#define internal1_m438_tx	 BUFFER[3325]	//(internal1_m438_tx) tx - внутренний параметр
+#define idinternal1_m438_tx	 1080	//(internal1_m438_tx) tx - внутренний параметр
+#define internal1_m440_tx	 BUFFER[3330]	//(internal1_m440_tx) tx - внутренний параметр
+#define idinternal1_m440_tx	 1081	//(internal1_m440_tx) tx - внутренний параметр
+#define internal1_m454_tx	 BUFFER[3335]	//(internal1_m454_tx) tx - внутренний параметр
+#define idinternal1_m454_tx	 1082	//(internal1_m454_tx) tx - внутренний параметр
+#define internal1_m404_tx	 BUFFER[3340]	//(internal1_m404_tx) tx - внутренний параметр
+#define idinternal1_m404_tx	 1083	//(internal1_m404_tx) tx - внутренний параметр
+#define internal1_m401_tx	 BUFFER[3345]	//(internal1_m401_tx) tx - внутренний параметр
+#define idinternal1_m401_tx	 1084	//(internal1_m401_tx) tx - внутренний параметр
+#define internal1_m400_tx	 BUFFER[3350]	//(internal1_m400_tx) tx - внутренний параметр
+#define idinternal1_m400_tx	 1085	//(internal1_m400_tx) tx - внутренний параметр
+#define internal1_m399_tx	 BUFFER[3355]	//(internal1_m399_tx) tx - внутренний параметр
+#define idinternal1_m399_tx	 1086	//(internal1_m399_tx) tx - внутренний параметр
+#define internal1_m859_tx	 BUFFER[3360]	//(internal1_m859_tx) tx - внутренний параметр
+#define idinternal1_m859_tx	 1087	//(internal1_m859_tx) tx - внутренний параметр
+#define internal1_m855_tx	 BUFFER[3365]	//(internal1_m855_tx) tx - внутренний параметр
+#define idinternal1_m855_tx	 1088	//(internal1_m855_tx) tx - внутренний параметр
+#define internal1_m854_tx	 BUFFER[3370]	//(internal1_m854_tx) tx - внутренний параметр
+#define idinternal1_m854_tx	 1089	//(internal1_m854_tx) tx - внутренний параметр
+#define internal1_m853_tx	 BUFFER[3375]	//(internal1_m853_tx) tx - внутренний параметр
+#define idinternal1_m853_tx	 1090	//(internal1_m853_tx) tx - внутренний параметр
+#define internal1_m1297_tx	 BUFFER[3380]	//(internal1_m1297_tx) tx - внутренний параметр
+#define idinternal1_m1297_tx	 1091	//(internal1_m1297_tx) tx - внутренний параметр
+#define internal1_m1294_tx	 BUFFER[3385]	//(internal1_m1294_tx) tx - внутренний параметр
+#define idinternal1_m1294_tx	 1092	//(internal1_m1294_tx) tx - внутренний параметр
+#define internal1_m1293_tx	 BUFFER[3390]	//(internal1_m1293_tx) tx - внутренний параметр
+#define idinternal1_m1293_tx	 1093	//(internal1_m1293_tx) tx - внутренний параметр
+#define internal1_m1076_tx	 BUFFER[3395]	//(internal1_m1076_tx) tx - внутренний параметр
+#define idinternal1_m1076_tx	 1094	//(internal1_m1076_tx) tx - внутренний параметр
+#define internal1_m2229_tx	 BUFFER[3400]	//(internal1_m2229_tx) tx - внутренний параметр
+#define idinternal1_m2229_tx	 1095	//(internal1_m2229_tx) tx - внутренний параметр
+#define internal1_m1087_tx	 BUFFER[3405]	//(internal1_m1087_tx) tx - внутренний параметр
+#define idinternal1_m1087_tx	 1096	//(internal1_m1087_tx) tx - внутренний параметр
+#define internal1_m1089_tx	 BUFFER[3410]	//(internal1_m1089_tx) tx - внутренний параметр
+#define idinternal1_m1089_tx	 1097	//(internal1_m1089_tx) tx - внутренний параметр
+#define internal1_m1088_tx	 BUFFER[3415]	//(internal1_m1088_tx) tx - внутренний параметр
+#define idinternal1_m1088_tx	 1098	//(internal1_m1088_tx) tx - внутренний параметр
+#define internal1_m2231_tx	 BUFFER[3420]	//(internal1_m2231_tx) tx - внутренний параметр
+#define idinternal1_m2231_tx	 1099	//(internal1_m2231_tx) tx - внутренний параметр
+#define internal1_m1078_tx	 BUFFER[3425]	//(internal1_m1078_tx) tx - внутренний параметр
+#define idinternal1_m1078_tx	 1100	//(internal1_m1078_tx) tx - внутренний параметр
+#define internal1_m2228_tx	 BUFFER[3430]	//(internal1_m2228_tx) tx - внутренний параметр
+#define idinternal1_m2228_tx	 1101	//(internal1_m2228_tx) tx - внутренний параметр
+#define internal1_m1086_tx	 BUFFER[3435]	//(internal1_m1086_tx) tx - внутренний параметр
+#define idinternal1_m1086_tx	 1102	//(internal1_m1086_tx) tx - внутренний параметр
+#define internal1_m1067_tx	 BUFFER[3440]	//(internal1_m1067_tx) tx - внутренний параметр
+#define idinternal1_m1067_tx	 1103	//(internal1_m1067_tx) tx - внутренний параметр
+#define internal1_m1066_tx	 BUFFER[3445]	//(internal1_m1066_tx) tx - внутренний параметр
+#define idinternal1_m1066_tx	 1104	//(internal1_m1066_tx) tx - внутренний параметр
+#define internal1_m1063_tx	 BUFFER[3450]	//(internal1_m1063_tx) tx - внутренний параметр
+#define idinternal1_m1063_tx	 1105	//(internal1_m1063_tx) tx - внутренний параметр
+#define internal1_m1085_tx	 BUFFER[3455]	//(internal1_m1085_tx) tx - внутренний параметр
+#define idinternal1_m1085_tx	 1106	//(internal1_m1085_tx) tx - внутренний параметр
+#define internal1_m1053_tx	 BUFFER[3460]	//(internal1_m1053_tx) tx - внутренний параметр
+#define idinternal1_m1053_tx	 1107	//(internal1_m1053_tx) tx - внутренний параметр
+#define internal1_m1051_tx	 BUFFER[3465]	//(internal1_m1051_tx) tx - внутренний параметр
+#define idinternal1_m1051_tx	 1108	//(internal1_m1051_tx) tx - внутренний параметр
+#define internal1_m1050_tx	 BUFFER[3470]	//(internal1_m1050_tx) tx - внутренний параметр
+#define idinternal1_m1050_tx	 1109	//(internal1_m1050_tx) tx - внутренний параметр
+#define internal1_m1029_tx	 BUFFER[3475]	//(internal1_m1029_tx) tx - внутренний параметр
+#define idinternal1_m1029_tx	 1110	//(internal1_m1029_tx) tx - внутренний параметр
+#define internal1_m1028_tx	 BUFFER[3480]	//(internal1_m1028_tx) tx - внутренний параметр
+#define idinternal1_m1028_tx	 1111	//(internal1_m1028_tx) tx - внутренний параметр
+#define internal1_m1018_tx	 BUFFER[3485]	//(internal1_m1018_tx) tx - внутренний параметр
+#define idinternal1_m1018_tx	 1112	//(internal1_m1018_tx) tx - внутренний параметр
+#define internal1_m1035_tx	 BUFFER[3490]	//(internal1_m1035_tx) tx - внутренний параметр
+#define idinternal1_m1035_tx	 1113	//(internal1_m1035_tx) tx - внутренний параметр
+#define internal1_m1432_tx	 BUFFER[3495]	//(internal1_m1432_tx) tx - внутренний параметр
+#define idinternal1_m1432_tx	 1114	//(internal1_m1432_tx) tx - внутренний параметр
+#define internal1_m1431_tx	 BUFFER[3500]	//(internal1_m1431_tx) tx - внутренний параметр
+#define idinternal1_m1431_tx	 1115	//(internal1_m1431_tx) tx - внутренний параметр
+#define internal1_m2181_tx	 BUFFER[3505]	//(internal1_m2181_tx) tx - внутренний параметр
+#define idinternal1_m2181_tx	 1116	//(internal1_m2181_tx) tx - внутренний параметр
+#define internal1_m1423_tx	 BUFFER[3510]	//(internal1_m1423_tx) tx - внутренний параметр
+#define idinternal1_m1423_tx	 1117	//(internal1_m1423_tx) tx - внутренний параметр
+#define internal1_m1424_tx	 BUFFER[3515]	//(internal1_m1424_tx) tx - внутренний параметр
+#define idinternal1_m1424_tx	 1118	//(internal1_m1424_tx) tx - внутренний параметр
+#define internal1_m1430_tx	 BUFFER[3520]	//(internal1_m1430_tx) tx - внутренний параметр
+#define idinternal1_m1430_tx	 1119	//(internal1_m1430_tx) tx - внутренний параметр
+#define internal1_m1410_tx	 BUFFER[3525]	//(internal1_m1410_tx) tx - внутренний параметр
+#define idinternal1_m1410_tx	 1120	//(internal1_m1410_tx) tx - внутренний параметр
+#define internal1_m1409_tx	 BUFFER[3530]	//(internal1_m1409_tx) tx - внутренний параметр
+#define idinternal1_m1409_tx	 1121	//(internal1_m1409_tx) tx - внутренний параметр
+#define internal1_m1408_tx	 BUFFER[3535]	//(internal1_m1408_tx) tx - внутренний параметр
+#define idinternal1_m1408_tx	 1122	//(internal1_m1408_tx) tx - внутренний параметр
+#define internal1_m1429_tx	 BUFFER[3540]	//(internal1_m1429_tx) tx - внутренний параметр
+#define idinternal1_m1429_tx	 1123	//(internal1_m1429_tx) tx - внутренний параметр
+#define internal1_m1395_tx	 BUFFER[3545]	//(internal1_m1395_tx) tx - внутренний параметр
+#define idinternal1_m1395_tx	 1124	//(internal1_m1395_tx) tx - внутренний параметр
+#define internal1_m1393_tx	 BUFFER[3550]	//(internal1_m1393_tx) tx - внутренний параметр
+#define idinternal1_m1393_tx	 1125	//(internal1_m1393_tx) tx - внутренний параметр
+#define internal1_m1402_tx	 BUFFER[3555]	//(internal1_m1402_tx) tx - внутренний параметр
+#define idinternal1_m1402_tx	 1126	//(internal1_m1402_tx) tx - внутренний параметр
+#define internal1_m244_tx	 BUFFER[3560]	//(internal1_m244_tx) tx - внутренний параметр
+#define idinternal1_m244_tx	 1127	//(internal1_m244_tx) tx - внутренний параметр
+#define internal1_m259_tx	 BUFFER[3565]	//(internal1_m259_tx) tx - внутренний параметр
+#define idinternal1_m259_tx	 1128	//(internal1_m259_tx) tx - внутренний параметр
+#define internal1_m266_tx	 BUFFER[3570]	//(internal1_m266_tx) tx - внутренний параметр
+#define idinternal1_m266_tx	 1129	//(internal1_m266_tx) tx - внутренний параметр
+#define internal1_m265_tx	 BUFFER[3575]	//(internal1_m265_tx) tx - внутренний параметр
+#define idinternal1_m265_tx	 1130	//(internal1_m265_tx) tx - внутренний параметр
+#define internal1_m251_tx	 BUFFER[3580]	//(internal1_m251_tx) tx - внутренний параметр
+#define idinternal1_m251_tx	 1131	//(internal1_m251_tx) tx - внутренний параметр
+#define internal1_m247_tx	 BUFFER[3585]	//(internal1_m247_tx) tx - внутренний параметр
+#define idinternal1_m247_tx	 1132	//(internal1_m247_tx) tx - внутренний параметр
+#define internal1_m263_tx	 BUFFER[3590]	//(internal1_m263_tx) tx - внутренний параметр
+#define idinternal1_m263_tx	 1133	//(internal1_m263_tx) tx - внутренний параметр
+#define internal1_m235_tx	 BUFFER[3595]	//(internal1_m235_tx) tx - внутренний параметр
+#define idinternal1_m235_tx	 1134	//(internal1_m235_tx) tx - внутренний параметр
+#define internal1_m234_tx	 BUFFER[3600]	//(internal1_m234_tx) tx - внутренний параметр
+#define idinternal1_m234_tx	 1135	//(internal1_m234_tx) tx - внутренний параметр
+#define internal1_m230_tx	 BUFFER[3605]	//(internal1_m230_tx) tx - внутренний параметр
+#define idinternal1_m230_tx	 1136	//(internal1_m230_tx) tx - внутренний параметр
+#define internal1_m262_tx	 BUFFER[3610]	//(internal1_m262_tx) tx - внутренний параметр
+#define idinternal1_m262_tx	 1137	//(internal1_m262_tx) tx - внутренний параметр
+#define internal1_m219_tx	 BUFFER[3615]	//(internal1_m219_tx) tx - внутренний параметр
+#define idinternal1_m219_tx	 1138	//(internal1_m219_tx) tx - внутренний параметр
+#define internal1_m221_tx	 BUFFER[3620]	//(internal1_m221_tx) tx - внутренний параметр
+#define idinternal1_m221_tx	 1139	//(internal1_m221_tx) tx - внутренний параметр
+#define internal1_m218_tx	 BUFFER[3625]	//(internal1_m218_tx) tx - внутренний параметр
+#define idinternal1_m218_tx	 1140	//(internal1_m218_tx) tx - внутренний параметр
+#define internal1_m197_tx	 BUFFER[3630]	//(internal1_m197_tx) tx - внутренний параметр
+#define idinternal1_m197_tx	 1141	//(internal1_m197_tx) tx - внутренний параметр
+#define internal1_m196_tx	 BUFFER[3635]	//(internal1_m196_tx) tx - внутренний параметр
+#define idinternal1_m196_tx	 1142	//(internal1_m196_tx) tx - внутренний параметр
+#define internal1_m195_tx	 BUFFER[3640]	//(internal1_m195_tx) tx - внутренний параметр
+#define idinternal1_m195_tx	 1143	//(internal1_m195_tx) tx - внутренний параметр
+#define internal1_m203_tx	 BUFFER[3645]	//(internal1_m203_tx) tx - внутренний параметр
+#define idinternal1_m203_tx	 1144	//(internal1_m203_tx) tx - внутренний параметр
+#define internal1_m1375_tx	 BUFFER[3650]	//(internal1_m1375_tx) tx - внутренний параметр
+#define idinternal1_m1375_tx	 1145	//(internal1_m1375_tx) tx - внутренний параметр
+#define internal1_m1357_tx	 BUFFER[3655]	//(internal1_m1357_tx) tx - внутренний параметр
+#define idinternal1_m1357_tx	 1146	//(internal1_m1357_tx) tx - внутренний параметр
+#define internal1_m1358_tx	 BUFFER[3660]	//(internal1_m1358_tx) tx - внутренний параметр
+#define idinternal1_m1358_tx	 1147	//(internal1_m1358_tx) tx - внутренний параметр
+#define internal1_m1378_tx	 BUFFER[3665]	//(internal1_m1378_tx) tx - внутренний параметр
+#define idinternal1_m1378_tx	 1148	//(internal1_m1378_tx) tx - внутренний параметр
+#define internal1_m918_tx	 BUFFER[3670]	//(internal1_m918_tx) tx - внутренний параметр
+#define idinternal1_m918_tx	 1149	//(internal1_m918_tx) tx - внутренний параметр
+#define internal1_m923_tx	 BUFFER[3675]	//(internal1_m923_tx) tx - внутренний параметр
+#define idinternal1_m923_tx	 1150	//(internal1_m923_tx) tx - внутренний параметр
+#define internal1_m913_tx	 BUFFER[3680]	//(internal1_m913_tx) tx - внутренний параметр
+#define idinternal1_m913_tx	 1151	//(internal1_m913_tx) tx - внутренний параметр
+#define internal1_m914_tx	 BUFFER[3685]	//(internal1_m914_tx) tx - внутренний параметр
+#define idinternal1_m914_tx	 1152	//(internal1_m914_tx) tx - внутренний параметр
+#define internal1_m1866_q0	 BUFFER[3690]	//(internal1_m1866_q0) q0 - внутренний параметр
+#define idinternal1_m1866_q0	 1153	//(internal1_m1866_q0) q0 - внутренний параметр
+#define internal1_m2316_q0	 BUFFER[3692]	//(internal1_m2316_q0) q0 - внутренний параметр
+#define idinternal1_m2316_q0	 1154	//(internal1_m2316_q0) q0 - внутренний параметр
+#define internal1_m2300_q0	 BUFFER[3694]	//(internal1_m2300_q0) q0 - внутренний параметр
+#define idinternal1_m2300_q0	 1155	//(internal1_m2300_q0) q0 - внутренний параметр
+#define internal1_m2347_q0	 BUFFER[3696]	//(internal1_m2347_q0) q0 - внутренний параметр
+#define idinternal1_m2347_q0	 1156	//(internal1_m2347_q0) q0 - внутренний параметр
+#define internal1_m2331_q0	 BUFFER[3698]	//(internal1_m2331_q0) q0 - внутренний параметр
+#define idinternal1_m2331_q0	 1157	//(internal1_m2331_q0) q0 - внутренний параметр
+#define internal1_m2322_q0	 BUFFER[3700]	//(internal1_m2322_q0) q0 - внутренний параметр
+#define idinternal1_m2322_q0	 1158	//(internal1_m2322_q0) q0 - внутренний параметр
+#define internal1_m2303_q0	 BUFFER[3702]	//(internal1_m2303_q0) q0 - внутренний параметр
+#define idinternal1_m2303_q0	 1159	//(internal1_m2303_q0) q0 - внутренний параметр
+#define internal1_m2320_q0	 BUFFER[3704]	//(internal1_m2320_q0) q0 - внутренний параметр
+#define idinternal1_m2320_q0	 1160	//(internal1_m2320_q0) q0 - внутренний параметр
+#define internal1_m2301_q0	 BUFFER[3706]	//(internal1_m2301_q0) q0 - внутренний параметр
+#define idinternal1_m2301_q0	 1161	//(internal1_m2301_q0) q0 - внутренний параметр
+#define internal1_m2299_q0	 BUFFER[3708]	//(internal1_m2299_q0) q0 - внутренний параметр
+#define idinternal1_m2299_q0	 1162	//(internal1_m2299_q0) q0 - внутренний параметр
+#define internal1_m2298_q0	 BUFFER[3710]	//(internal1_m2298_q0) q0 - внутренний параметр
+#define idinternal1_m2298_q0	 1163	//(internal1_m2298_q0) q0 - внутренний параметр
+#define internal1_m2312_q0	 BUFFER[3712]	//(internal1_m2312_q0) q0 - внутренний параметр
+#define idinternal1_m2312_q0	 1164	//(internal1_m2312_q0) q0 - внутренний параметр
+#define internal1_m2310_q0	 BUFFER[3714]	//(internal1_m2310_q0) q0 - внутренний параметр
+#define idinternal1_m2310_q0	 1165	//(internal1_m2310_q0) q0 - внутренний параметр
+#define internal1_m2318_q0	 BUFFER[3716]	//(internal1_m2318_q0) q0 - внутренний параметр
+#define idinternal1_m2318_q0	 1166	//(internal1_m2318_q0) q0 - внутренний параметр
+#define internal1_m2314_q0	 BUFFER[3718]	//(internal1_m2314_q0) q0 - внутренний параметр
+#define idinternal1_m2314_q0	 1167	//(internal1_m2314_q0) q0 - внутренний параметр
+#define internal1_m2353_q0	 BUFFER[3720]	//(internal1_m2353_q0) q0 - внутренний параметр
+#define idinternal1_m2353_q0	 1168	//(internal1_m2353_q0) q0 - внутренний параметр
+#define internal1_m2334_q0	 BUFFER[3722]	//(internal1_m2334_q0) q0 - внутренний параметр
+#define idinternal1_m2334_q0	 1169	//(internal1_m2334_q0) q0 - внутренний параметр
+#define internal1_m2351_q0	 BUFFER[3724]	//(internal1_m2351_q0) q0 - внутренний параметр
+#define idinternal1_m2351_q0	 1170	//(internal1_m2351_q0) q0 - внутренний параметр
+#define internal1_m2333_q0	 BUFFER[3726]	//(internal1_m2333_q0) q0 - внутренний параметр
+#define idinternal1_m2333_q0	 1171	//(internal1_m2333_q0) q0 - внутренний параметр
+#define internal1_m2330_q0	 BUFFER[3728]	//(internal1_m2330_q0) q0 - внутренний параметр
+#define idinternal1_m2330_q0	 1172	//(internal1_m2330_q0) q0 - внутренний параметр
+#define internal1_m2329_q0	 BUFFER[3730]	//(internal1_m2329_q0) q0 - внутренний параметр
+#define idinternal1_m2329_q0	 1173	//(internal1_m2329_q0) q0 - внутренний параметр
+#define internal1_m2343_q0	 BUFFER[3732]	//(internal1_m2343_q0) q0 - внутренний параметр
+#define idinternal1_m2343_q0	 1174	//(internal1_m2343_q0) q0 - внутренний параметр
+#define internal1_m2341_q0	 BUFFER[3734]	//(internal1_m2341_q0) q0 - внутренний параметр
+#define idinternal1_m2341_q0	 1175	//(internal1_m2341_q0) q0 - внутренний параметр
+#define internal1_m2206_tx	 BUFFER[3736]	//(internal1_m2206_tx) tx - внутренний параметр
+#define idinternal1_m2206_tx	 1176	//(internal1_m2206_tx) tx - внутренний параметр
+#define internal1_m2185_tx	 BUFFER[3741]	//(internal1_m2185_tx) tx - внутренний параметр
+#define idinternal1_m2185_tx	 1177	//(internal1_m2185_tx) tx - внутренний параметр
+#define internal1_m1888_Pv0	 BUFFER[3746]	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m1888_Pv0	 1178	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
+#define internal1_m1888_Zv0	 BUFFER[3748]	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m1888_Zv0	 1179	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
+#define internal1_m1888_MyFirstEnterFlag	 BUFFER[3750]	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m1888_MyFirstEnterFlag	 1180	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m1887_Pv0	 BUFFER[3752]	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m1887_Pv0	 1181	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
+#define internal1_m1887_Zv0	 BUFFER[3754]	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m1887_Zv0	 1182	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
+#define internal1_m1887_MyFirstEnterFlag	 BUFFER[3756]	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m1887_MyFirstEnterFlag	 1183	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m2370_tx	 BUFFER[3758]	//(internal1_m2370_tx) tx - время накопленное сек
+#define idinternal1_m2370_tx	 1184	//(internal1_m2370_tx) tx - время накопленное сек
+#define internal1_m2370_y0	 BUFFER[3763]	//(internal1_m2370_y0) y0
+#define idinternal1_m2370_y0	 1185	//(internal1_m2370_y0) y0
+#define internal1_m2375_tx	 BUFFER[3764]	//(internal1_m2375_tx) tx - время накопленное сек
+#define idinternal1_m2375_tx	 1186	//(internal1_m2375_tx) tx - время накопленное сек
+#define internal1_m2375_y0	 BUFFER[3769]	//(internal1_m2375_y0) y0
+#define idinternal1_m2375_y0	 1187	//(internal1_m2375_y0) y0
+#define internal1_m2374_tx	 BUFFER[3770]	//(internal1_m2374_tx) tx - время накопленное сек
+#define idinternal1_m2374_tx	 1188	//(internal1_m2374_tx) tx - время накопленное сек
+#define internal1_m2374_y0	 BUFFER[3775]	//(internal1_m2374_y0) y0
+#define idinternal1_m2374_y0	 1189	//(internal1_m2374_y0) y0
+#define internal1_m2411_tx	 BUFFER[3776]	//(internal1_m2411_tx) tx - внутренний параметр
+#define idinternal1_m2411_tx	 1190	//(internal1_m2411_tx) tx - внутренний параметр
+#define internal1_m2409_tx	 BUFFER[3781]	//(internal1_m2409_tx) tx - время накопленное сек
+#define idinternal1_m2409_tx	 1191	//(internal1_m2409_tx) tx - время накопленное сек
+#define internal1_m2409_y0	 BUFFER[3786]	//(internal1_m2409_y0) y0
+#define idinternal1_m2409_y0	 1192	//(internal1_m2409_y0) y0
+#define internal1_m2414_q0	 BUFFER[3787]	//(internal1_m2414_q0) q0 - внутренний параметр
+#define idinternal1_m2414_q0	 1193	//(internal1_m2414_q0) q0 - внутренний параметр
+#define internal1_m2381_q0	 BUFFER[3789]	//(internal1_m2381_q0) q0 - внутренний параметр
+#define idinternal1_m2381_q0	 1194	//(internal1_m2381_q0) q0 - внутренний параметр
+#define internal1_m2389_tx	 BUFFER[3791]	//(internal1_m2389_tx) tx - внутренний параметр
+#define idinternal1_m2389_tx	 1195	//(internal1_m2389_tx) tx - внутренний параметр
+#define internal1_m2387_q0	 BUFFER[3796]	//(internal1_m2387_q0) q0 - внутренний параметр
+#define idinternal1_m2387_q0	 1196	//(internal1_m2387_q0) q0 - внутренний параметр
+#define internal1_m2200_tx	 BUFFER[3798]	//(internal1_m2200_tx) tx - время накопленное сек
+#define idinternal1_m2200_tx	 1197	//(internal1_m2200_tx) tx - время накопленное сек
+#define internal1_m2200_y0	 BUFFER[3803]	//(internal1_m2200_y0) y0
+#define idinternal1_m2200_y0	 1198	//(internal1_m2200_y0) y0
+#define internal1_m2192_tx	 BUFFER[3804]	//(internal1_m2192_tx) tx - время накопленное сек
+#define idinternal1_m2192_tx	 1199	//(internal1_m2192_tx) tx - время накопленное сек
+#define internal1_m2192_y0	 BUFFER[3809]	//(internal1_m2192_y0) y0
+#define idinternal1_m2192_y0	 1200	//(internal1_m2192_y0) y0
+#define internal1_m1876_q0	 BUFFER[3810]	//(internal1_m1876_q0) q0 - внутренний параметр
+#define idinternal1_m1876_q0	 1201	//(internal1_m1876_q0) q0 - внутренний параметр
+#define internal1_m1881_q0	 BUFFER[3812]	//(internal1_m1881_q0) q0 - внутренний параметр
+#define idinternal1_m1881_q0	 1202	//(internal1_m1881_q0) q0 - внутренний параметр
+#define internal1_m1873_q0	 BUFFER[3814]	//(internal1_m1873_q0) q0 - внутренний параметр
+#define idinternal1_m1873_q0	 1203	//(internal1_m1873_q0) q0 - внутренний параметр
+#define internal1_m1915_q0	 BUFFER[3816]	//(internal1_m1915_q0) q0 - внутренний параметр
+#define idinternal1_m1915_q0	 1204	//(internal1_m1915_q0) q0 - внутренний параметр
+#define internal1_m823_tx	 BUFFER[3818]	//(internal1_m823_tx) tx - время накопленное сек
+#define idinternal1_m823_tx	 1205	//(internal1_m823_tx) tx - время накопленное сек
+#define internal1_m823_y0	 BUFFER[3823]	//(internal1_m823_y0) y0
+#define idinternal1_m823_y0	 1206	//(internal1_m823_y0) y0
+#define internal1_m2196_tx	 BUFFER[3824]	//(internal1_m2196_tx) tx - внутренний параметр
+#define idinternal1_m2196_tx	 1207	//(internal1_m2196_tx) tx - внутренний параметр
+#define internal1_m2199_q0	 BUFFER[3829]	//(internal1_m2199_q0) q0 - внутренний параметр
+#define idinternal1_m2199_q0	 1208	//(internal1_m2199_q0) q0 - внутренний параметр
+#define internal1_m2191_q0	 BUFFER[3831]	//(internal1_m2191_q0) q0 - внутренний параметр
+#define idinternal1_m2191_q0	 1209	//(internal1_m2191_q0) q0 - внутренний параметр
+#define internal1_m2160_tx	 BUFFER[3833]	//(internal1_m2160_tx) tx - внутренний параметр
+#define idinternal1_m2160_tx	 1210	//(internal1_m2160_tx) tx - внутренний параметр
+#define internal1_m2171_tx	 BUFFER[3838]	//(internal1_m2171_tx) tx - внутренний параметр
+#define idinternal1_m2171_tx	 1211	//(internal1_m2171_tx) tx - внутренний параметр
+#define internal1_m2157_tx	 BUFFER[3843]	//(internal1_m2157_tx) tx - внутренний параметр
+#define idinternal1_m2157_tx	 1212	//(internal1_m2157_tx) tx - внутренний параметр
+#define internal1_m2163_q0	 BUFFER[3848]	//(internal1_m2163_q0) q0 - внутренний параметр
+#define idinternal1_m2163_q0	 1213	//(internal1_m2163_q0) q0 - внутренний параметр
+#define internal1_m2175_q0	 BUFFER[3850]	//(internal1_m2175_q0) q0 - внутренний параметр
+#define idinternal1_m2175_q0	 1214	//(internal1_m2175_q0) q0 - внутренний параметр
+#define internal1_m2132_tx	 BUFFER[3852]	//(internal1_m2132_tx) tx - внутренний параметр
+#define idinternal1_m2132_tx	 1215	//(internal1_m2132_tx) tx - внутренний параметр
+#define internal1_m51_tx	 BUFFER[3857]	//(internal1_m51_tx) tx - внутренний параметр
+#define idinternal1_m51_tx	 1216	//(internal1_m51_tx) tx - внутренний параметр
+#define internal1_m357_tx	 BUFFER[3862]	//(internal1_m357_tx) tx - внутренний параметр
+#define idinternal1_m357_tx	 1217	//(internal1_m357_tx) tx - внутренний параметр
+#define internal1_m311_tx	 BUFFER[3867]	//(internal1_m311_tx) tx - внутренний параметр
+#define idinternal1_m311_tx	 1218	//(internal1_m311_tx) tx - внутренний параметр
+#define internal1_m824_tx	 BUFFER[3872]	//(internal1_m824_tx) tx - внутренний параметр
+#define idinternal1_m824_tx	 1219	//(internal1_m824_tx) tx - внутренний параметр
+#define internal1_m1584_tx	 BUFFER[3877]	//(internal1_m1584_tx) tx - внутренний параметр
+#define idinternal1_m1584_tx	 1220	//(internal1_m1584_tx) tx - внутренний параметр
+#define internal1_m114_tx	 BUFFER[3882]	//(internal1_m114_tx) tx - внутренний параметр
+#define idinternal1_m114_tx	 1221	//(internal1_m114_tx) tx - внутренний параметр
+#define internal1_m116_tx	 BUFFER[3887]	//(internal1_m116_tx) tx - внутренний параметр
+#define idinternal1_m116_tx	 1222	//(internal1_m116_tx) tx - внутренний параметр
+#define internal1_m121_tx	 BUFFER[3892]	//(internal1_m121_tx) tx - внутренний параметр
+#define idinternal1_m121_tx	 1223	//(internal1_m121_tx) tx - внутренний параметр
+#define internal1_m21_tx	 BUFFER[3897]	//(internal1_m21_tx) tx - внутренний параметр
+#define idinternal1_m21_tx	 1224	//(internal1_m21_tx) tx - внутренний параметр
+#define internal1_m13_tx	 BUFFER[3902]	//(internal1_m13_tx) tx - внутренний параметр
+#define idinternal1_m13_tx	 1225	//(internal1_m13_tx) tx - внутренний параметр
+#define internal1_m2142_tx	 BUFFER[3907]	//(internal1_m2142_tx) tx - внутренний параметр
+#define idinternal1_m2142_tx	 1226	//(internal1_m2142_tx) tx - внутренний параметр
+#define internal1_m2129_tx	 BUFFER[3912]	//(internal1_m2129_tx) tx - внутренний параметр
+#define idinternal1_m2129_tx	 1227	//(internal1_m2129_tx) tx - внутренний параметр
+#define internal1_m2247_tx	 BUFFER[3917]	//(internal1_m2247_tx) tx - внутренний параметр
+#define idinternal1_m2247_tx	 1228	//(internal1_m2247_tx) tx - внутренний параметр
+#define internal1_m2249_tx	 BUFFER[3922]	//(internal1_m2249_tx) tx - внутренний параметр
+#define idinternal1_m2249_tx	 1229	//(internal1_m2249_tx) tx - внутренний параметр
+#define internal1_m2054_tx	 BUFFER[3927]	//(internal1_m2054_tx) tx - внутренний параметр
+#define idinternal1_m2054_tx	 1230	//(internal1_m2054_tx) tx - внутренний параметр
+#define internal1_m77_tx	 BUFFER[3932]	//(internal1_m77_tx) tx - внутренний параметр
+#define idinternal1_m77_tx	 1231	//(internal1_m77_tx) tx - внутренний параметр
+#define internal1_m328_tx	 BUFFER[3937]	//(internal1_m328_tx) tx - время накопленное сек
+#define idinternal1_m328_tx	 1232	//(internal1_m328_tx) tx - время накопленное сек
+#define internal1_m328_y0	 BUFFER[3942]	//(internal1_m328_y0) y0
+#define idinternal1_m328_y0	 1233	//(internal1_m328_y0) y0
+#define internal1_m2048_tx	 BUFFER[3943]	//(internal1_m2048_tx) tx - время накопленное сек
+#define idinternal1_m2048_tx	 1234	//(internal1_m2048_tx) tx - время накопленное сек
+#define internal1_m2048_y0	 BUFFER[3948]	//(internal1_m2048_y0) y0
+#define idinternal1_m2048_y0	 1235	//(internal1_m2048_y0) y0
+#define internal1_m2046_tx	 BUFFER[3949]	//(internal1_m2046_tx) tx - время накопленное сек
+#define idinternal1_m2046_tx	 1236	//(internal1_m2046_tx) tx - время накопленное сек
+#define internal1_m2046_y0	 BUFFER[3954]	//(internal1_m2046_y0) y0
+#define idinternal1_m2046_y0	 1237	//(internal1_m2046_y0) y0
+#define internal1_m2035_tx	 BUFFER[3955]	//(internal1_m2035_tx) tx - время накопленное сек
+#define idinternal1_m2035_tx	 1238	//(internal1_m2035_tx) tx - время накопленное сек
+#define internal1_m2035_y0	 BUFFER[3960]	//(internal1_m2035_y0) y0
+#define idinternal1_m2035_y0	 1239	//(internal1_m2035_y0) y0
+#define internal1_m2055_q0	 BUFFER[3961]	//(internal1_m2055_q0) q0 - внутренний параметр
+#define idinternal1_m2055_q0	 1240	//(internal1_m2055_q0) q0 - внутренний параметр
+#define internal1_m1604_q0	 BUFFER[3966]	//(internal1_m1604_q0) q0 - внутренний параметр
+#define idinternal1_m1604_q0	 1241	//(internal1_m1604_q0) q0 - внутренний параметр
+#define internal1_m1641_q0	 BUFFER[3971]	//(internal1_m1641_q0) q0 - внутренний параметр
+#define idinternal1_m1641_q0	 1242	//(internal1_m1641_q0) q0 - внутренний параметр
+#define internal1_m1644_q0	 BUFFER[3976]	//(internal1_m1644_q0) q0 - внутренний параметр
+#define idinternal1_m1644_q0	 1243	//(internal1_m1644_q0) q0 - внутренний параметр
+#define internal1_m2094_q0	 BUFFER[3981]	//(internal1_m2094_q0) q0 - внутренний параметр
+#define idinternal1_m2094_q0	 1244	//(internal1_m2094_q0) q0 - внутренний параметр
+#define internal1_m2072_tx	 BUFFER[3986]	//(internal1_m2072_tx) tx - время накопленное сек
+#define idinternal1_m2072_tx	 1245	//(internal1_m2072_tx) tx - время накопленное сек
+#define internal1_m2072_y0	 BUFFER[3991]	//(internal1_m2072_y0) y0
+#define idinternal1_m2072_y0	 1246	//(internal1_m2072_y0) y0
+#define internal1_m2087_tx	 BUFFER[3992]	//(internal1_m2087_tx) tx - время накопленное сек
+#define idinternal1_m2087_tx	 1247	//(internal1_m2087_tx) tx - время накопленное сек
+#define internal1_m2087_y0	 BUFFER[3997]	//(internal1_m2087_y0) y0
+#define idinternal1_m2087_y0	 1248	//(internal1_m2087_y0) y0
+#define internal1_m2084_tx	 BUFFER[3998]	//(internal1_m2084_tx) tx - время накопленное сек
+#define idinternal1_m2084_tx	 1249	//(internal1_m2084_tx) tx - время накопленное сек
+#define internal1_m2084_y0	 BUFFER[4003]	//(internal1_m2084_y0) y0
+#define idinternal1_m2084_y0	 1250	//(internal1_m2084_y0) y0
+#define internal1_m2227_tx	 BUFFER[4004]	//(internal1_m2227_tx) tx - время накопленное сек
+#define idinternal1_m2227_tx	 1251	//(internal1_m2227_tx) tx - время накопленное сек
+#define internal1_m2227_y0	 BUFFER[4009]	//(internal1_m2227_y0) y0
+#define idinternal1_m2227_y0	 1252	//(internal1_m2227_y0) y0
+#define internal1_m2238_tx	 BUFFER[4010]	//(internal1_m2238_tx) tx - время накопленное сек
+#define idinternal1_m2238_tx	 1253	//(internal1_m2238_tx) tx - время накопленное сек
+#define internal1_m2238_y0	 BUFFER[4015]	//(internal1_m2238_y0) y0
+#define idinternal1_m2238_y0	 1254	//(internal1_m2238_y0) y0
+#define internal1_m1983_tx	 BUFFER[4016]	//(internal1_m1983_tx) tx - время накопленное сек
+#define idinternal1_m1983_tx	 1255	//(internal1_m1983_tx) tx - время накопленное сек
+#define internal1_m1983_y0	 BUFFER[4021]	//(internal1_m1983_y0) y0
+#define idinternal1_m1983_y0	 1256	//(internal1_m1983_y0) y0
+#define internal1_m1982_tx	 BUFFER[4022]	//(internal1_m1982_tx) tx - время накопленное сек
+#define idinternal1_m1982_tx	 1257	//(internal1_m1982_tx) tx - время накопленное сек
+#define internal1_m1982_y0	 BUFFER[4027]	//(internal1_m1982_y0) y0
+#define idinternal1_m1982_y0	 1258	//(internal1_m1982_y0) y0
+#define internal1_m1981_tx	 BUFFER[4028]	//(internal1_m1981_tx) tx - время накопленное сек
+#define idinternal1_m1981_tx	 1259	//(internal1_m1981_tx) tx - время накопленное сек
+#define internal1_m1981_y0	 BUFFER[4033]	//(internal1_m1981_y0) y0
+#define idinternal1_m1981_y0	 1260	//(internal1_m1981_y0) y0
+#define internal1_m1980_tx	 BUFFER[4034]	//(internal1_m1980_tx) tx - время накопленное сек
+#define idinternal1_m1980_tx	 1261	//(internal1_m1980_tx) tx - время накопленное сек
+#define internal1_m1980_y0	 BUFFER[4039]	//(internal1_m1980_y0) y0
+#define idinternal1_m1980_y0	 1262	//(internal1_m1980_y0) y0
+#define internal1_m1656_tx	 BUFFER[4040]	//(internal1_m1656_tx) tx - время накопленное сек
+#define idinternal1_m1656_tx	 1263	//(internal1_m1656_tx) tx - время накопленное сек
+#define internal1_m1656_y0	 BUFFER[4045]	//(internal1_m1656_y0) y0
+#define idinternal1_m1656_y0	 1264	//(internal1_m1656_y0) y0
+#define internal1_m1650_tx	 BUFFER[4046]	//(internal1_m1650_tx) tx - время накопленное сек
+#define idinternal1_m1650_tx	 1265	//(internal1_m1650_tx) tx - время накопленное сек
+#define internal1_m1650_y0	 BUFFER[4051]	//(internal1_m1650_y0) y0
+#define idinternal1_m1650_y0	 1266	//(internal1_m1650_y0) y0
+#define internal1_m1600_tx	 BUFFER[4052]	//(internal1_m1600_tx) tx - время накопленное сек
+#define idinternal1_m1600_tx	 1267	//(internal1_m1600_tx) tx - время накопленное сек
+#define internal1_m1600_y0	 BUFFER[4057]	//(internal1_m1600_y0) y0
+#define idinternal1_m1600_y0	 1268	//(internal1_m1600_y0) y0
+#define internal1_m911_tx	 BUFFER[4058]	//(internal1_m911_tx) tx - время накопленное сек
+#define idinternal1_m911_tx	 1269	//(internal1_m911_tx) tx - время накопленное сек
+#define internal1_m911_y0	 BUFFER[4063]	//(internal1_m911_y0) y0
+#define idinternal1_m911_y0	 1270	//(internal1_m911_y0) y0
+#define internal1_m910_tx	 BUFFER[4064]	//(internal1_m910_tx) tx - время накопленное сек
+#define idinternal1_m910_tx	 1271	//(internal1_m910_tx) tx - время накопленное сек
+#define internal1_m910_y0	 BUFFER[4069]	//(internal1_m910_y0) y0
+#define idinternal1_m910_y0	 1272	//(internal1_m910_y0) y0
+#define internal1_m928_tx	 BUFFER[4070]	//(internal1_m928_tx) tx - время накопленное сек
+#define idinternal1_m928_tx	 1273	//(internal1_m928_tx) tx - время накопленное сек
+#define internal1_m928_y0	 BUFFER[4075]	//(internal1_m928_y0) y0
+#define idinternal1_m928_y0	 1274	//(internal1_m928_y0) y0
+#define internal1_m187_tx	 BUFFER[4076]	//(internal1_m187_tx) tx - время накопленное сек
+#define idinternal1_m187_tx	 1275	//(internal1_m187_tx) tx - время накопленное сек
+#define internal1_m187_y0	 BUFFER[4081]	//(internal1_m187_y0) y0
+#define idinternal1_m187_y0	 1276	//(internal1_m187_y0) y0
+#define internal1_m186_tx	 BUFFER[4082]	//(internal1_m186_tx) tx - время накопленное сек
+#define idinternal1_m186_tx	 1277	//(internal1_m186_tx) tx - время накопленное сек
+#define internal1_m186_y0	 BUFFER[4087]	//(internal1_m186_y0) y0
+#define idinternal1_m186_y0	 1278	//(internal1_m186_y0) y0
+#define internal1_m208_tx	 BUFFER[4088]	//(internal1_m208_tx) tx - время накопленное сек
+#define idinternal1_m208_tx	 1279	//(internal1_m208_tx) tx - время накопленное сек
+#define internal1_m208_y0	 BUFFER[4093]	//(internal1_m208_y0) y0
+#define idinternal1_m208_y0	 1280	//(internal1_m208_y0) y0
+#define internal1_m577_tx	 BUFFER[4094]	//(internal1_m577_tx) tx - время накопленное сек
+#define idinternal1_m577_tx	 1281	//(internal1_m577_tx) tx - время накопленное сек
+#define internal1_m577_y0	 BUFFER[4099]	//(internal1_m577_y0) y0
+#define idinternal1_m577_y0	 1282	//(internal1_m577_y0) y0
+#define internal1_m2281_tx	 BUFFER[4100]	//(internal1_m2281_tx) tx - внутренний параметр
+#define idinternal1_m2281_tx	 1283	//(internal1_m2281_tx) tx - внутренний параметр
+#define internal1_m1308_tx	 BUFFER[4105]	//(internal1_m1308_tx) tx - внутренний параметр
+#define idinternal1_m1308_tx	 1284	//(internal1_m1308_tx) tx - внутренний параметр
+#define internal1_m1785_tx	 BUFFER[4110]	//(internal1_m1785_tx) tx - время накопленное сек
+#define idinternal1_m1785_tx	 1285	//(internal1_m1785_tx) tx - время накопленное сек
+#define internal1_m1785_y0	 BUFFER[4115]	//(internal1_m1785_y0) y0
+#define idinternal1_m1785_y0	 1286	//(internal1_m1785_y0) y0
+#define internal1_m1274_tx	 BUFFER[4116]	//(internal1_m1274_tx) tx - время накопленное сек
+#define idinternal1_m1274_tx	 1287	//(internal1_m1274_tx) tx - время накопленное сек
+#define internal1_m1274_y0	 BUFFER[4121]	//(internal1_m1274_y0) y0
+#define idinternal1_m1274_y0	 1288	//(internal1_m1274_y0) y0
+#define internal1_m1492_tx	 BUFFER[4122]	//(internal1_m1492_tx) tx - время накопленное сек
+#define idinternal1_m1492_tx	 1289	//(internal1_m1492_tx) tx - время накопленное сек
+#define internal1_m1492_y0	 BUFFER[4127]	//(internal1_m1492_y0) y0
+#define idinternal1_m1492_y0	 1290	//(internal1_m1492_y0) y0
+#define internal1_m1041_tx	 BUFFER[4128]	//(internal1_m1041_tx) tx - время накопленное сек
+#define idinternal1_m1041_tx	 1291	//(internal1_m1041_tx) tx - время накопленное сек
+#define internal1_m1041_y0	 BUFFER[4133]	//(internal1_m1041_y0) y0
+#define idinternal1_m1041_y0	 1292	//(internal1_m1041_y0) y0
+#define internal1_m1382_tx	 BUFFER[4134]	//(internal1_m1382_tx) tx - время накопленное сек
+#define idinternal1_m1382_tx	 1293	//(internal1_m1382_tx) tx - время накопленное сек
+#define internal1_m1382_y0	 BUFFER[4139]	//(internal1_m1382_y0) y0
+#define idinternal1_m1382_y0	 1294	//(internal1_m1382_y0) y0
+#define internal1_m1198_q0	 BUFFER[4140]	//(internal1_m1198_q0) q0 - внутренний параметр
+#define idinternal1_m1198_q0	 1295	//(internal1_m1198_q0) q0 - внутренний параметр
+#define internal1_m1196_q0	 BUFFER[4142]	//(internal1_m1196_q0) q0 - внутренний параметр
+#define idinternal1_m1196_q0	 1296	//(internal1_m1196_q0) q0 - внутренний параметр
+#define internal1_m1195_q0	 BUFFER[4144]	//(internal1_m1195_q0) q0 - внутренний параметр
+#define idinternal1_m1195_q0	 1297	//(internal1_m1195_q0) q0 - внутренний параметр
+#define internal1_m1193_q0	 BUFFER[4146]	//(internal1_m1193_q0) q0 - внутренний параметр
+#define idinternal1_m1193_q0	 1298	//(internal1_m1193_q0) q0 - внутренний параметр
+#define internal1_m1192_q0	 BUFFER[4148]	//(internal1_m1192_q0) q0 - внутренний параметр
+#define idinternal1_m1192_q0	 1299	//(internal1_m1192_q0) q0 - внутренний параметр
+#define internal1_m1190_q0	 BUFFER[4150]	//(internal1_m1190_q0) q0 - внутренний параметр
+#define idinternal1_m1190_q0	 1300	//(internal1_m1190_q0) q0 - внутренний параметр
+#define internal1_m1189_q0	 BUFFER[4152]	//(internal1_m1189_q0) q0 - внутренний параметр
+#define idinternal1_m1189_q0	 1301	//(internal1_m1189_q0) q0 - внутренний параметр
+#define internal1_m1187_q0	 BUFFER[4154]	//(internal1_m1187_q0) q0 - внутренний параметр
+#define idinternal1_m1187_q0	 1302	//(internal1_m1187_q0) q0 - внутренний параметр
+#define internal1_m1186_q0	 BUFFER[4156]	//(internal1_m1186_q0) q0 - внутренний параметр
+#define idinternal1_m1186_q0	 1303	//(internal1_m1186_q0) q0 - внутренний параметр
+#define internal1_m52_x0	 BUFFER[4158]	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m52_x0	 1304	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m1105_q0	 BUFFER[4160]	//(internal1_m1105_q0) q0 - внутренний параметр
+#define idinternal1_m1105_q0	 1305	//(internal1_m1105_q0) q0 - внутренний параметр
+#define internal1_m1593_x0	 BUFFER[4162]	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m1593_x0	 1306	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m1637_x0	 BUFFER[4164]	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m1637_x0	 1307	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m1633_x0	 BUFFER[4166]	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m1633_x0	 1308	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m2063_x0	 BUFFER[4168]	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m2063_x0	 1309	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m2028_x0	 BUFFER[4170]	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m2028_x0	 1310	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m1145_q0	 BUFFER[4172]	//(internal1_m1145_q0) q0 - внутренний параметр
+#define idinternal1_m1145_q0	 1311	//(internal1_m1145_q0) q0 - внутренний параметр
+#define internal1_m1157_q0	 BUFFER[4174]	//(internal1_m1157_q0) q0 - внутренний параметр
+#define idinternal1_m1157_q0	 1312	//(internal1_m1157_q0) q0 - внутренний параметр
+#define internal1_m1169_q0	 BUFFER[4176]	//(internal1_m1169_q0) q0 - внутренний параметр
+#define idinternal1_m1169_q0	 1313	//(internal1_m1169_q0) q0 - внутренний параметр
+#define internal1_m1181_q0	 BUFFER[4178]	//(internal1_m1181_q0) q0 - внутренний параметр
+#define idinternal1_m1181_q0	 1314	//(internal1_m1181_q0) q0 - внутренний параметр
+#define internal1_m1156_q0	 BUFFER[4180]	//(internal1_m1156_q0) q0 - внутренний параметр
+#define idinternal1_m1156_q0	 1315	//(internal1_m1156_q0) q0 - внутренний параметр
+#define internal1_m1171_q0	 BUFFER[4182]	//(internal1_m1171_q0) q0 - внутренний параметр
+#define idinternal1_m1171_q0	 1316	//(internal1_m1171_q0) q0 - внутренний параметр
+#define internal1_m2121_q0	 BUFFER[4184]	//(internal1_m2121_q0) q0 - внутренний параметр
+#define idinternal1_m2121_q0	 1317	//(internal1_m2121_q0) q0 - внутренний параметр
+#define internal1_m2120_q0	 BUFFER[4186]	//(internal1_m2120_q0) q0 - внутренний параметр
+#define idinternal1_m2120_q0	 1318	//(internal1_m2120_q0) q0 - внутренний параметр
+#define internal1_m345_Step	 BUFFER[4188]	//(internal1_m345_Step)  - текущий шаг программы
+#define idinternal1_m345_Step	 1319	//(internal1_m345_Step)  - текущий шаг программы
+#define internal1_m345_rz	 BUFFER[4191]	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define idinternal1_m345_rz	 1320	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define internal1_m345_TimS	 BUFFER[4201]	//(internal1_m345_TimS) Время от старта программы
+#define idinternal1_m345_TimS	 1321	//(internal1_m345_TimS) Время от старта программы
+#define internal1_m345_FinPr0	 BUFFER[4206]	//(internal1_m345_FinPr0) FinPr - конец программы
+#define idinternal1_m345_FinPr0	 1322	//(internal1_m345_FinPr0) FinPr - конец программы
+#define internal1_m345_ErrPr0	 BUFFER[4208]	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define idinternal1_m345_ErrPr0	 1323	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define internal1_m345_sbINI0	 BUFFER[4210]	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
+#define idinternal1_m345_sbINI0	 1324	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
+#define internal1_m345_sbVuIS0	 BUFFER[4212]	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define idinternal1_m345_sbVuIS0	 1325	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define internal1_m345_sb2UR0	 BUFFER[4214]	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define idinternal1_m345_sb2UR0	 1326	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define internal1_m345_sbNupIS0	 BUFFER[4216]	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define idinternal1_m345_sbNupIS0	 1327	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define internal1_m345_sbVuRB0	 BUFFER[4218]	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define idinternal1_m345_sbVuRB0	 1328	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define internal1_m345_MyFirstEnterFlag	 BUFFER[4220]	//(internal1_m345_MyFirstEnterFlag)  
+#define idinternal1_m345_MyFirstEnterFlag	 1329	//(internal1_m345_MyFirstEnterFlag)  
+#define internal1_m353_x0	 BUFFER[4222]	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m353_x0	 1330	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m310_TimS	 BUFFER[4227]	//(internal1_m310_TimS) Время старта
+#define idinternal1_m310_TimS	 1331	//(internal1_m310_TimS) Время старта
+#define internal1_m287_Step	 BUFFER[4232]	//(internal1_m287_Step)  - текущий шаг программы
+#define idinternal1_m287_Step	 1332	//(internal1_m287_Step)  - текущий шаг программы
+#define internal1_m287_rz	 BUFFER[4235]	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define idinternal1_m287_rz	 1333	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define internal1_m287_TimS	 BUFFER[4245]	//(internal1_m287_TimS) Время от старта программы
+#define idinternal1_m287_TimS	 1334	//(internal1_m287_TimS) Время от старта программы
+#define internal1_m287_FinPr0	 BUFFER[4250]	//(internal1_m287_FinPr0) FinPr - конец программы
+#define idinternal1_m287_FinPr0	 1335	//(internal1_m287_FinPr0) FinPr - конец программы
+#define internal1_m287_ErrPr0	 BUFFER[4252]	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define idinternal1_m287_ErrPr0	 1336	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define internal1_m287_sbINI0	 BUFFER[4254]	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
+#define idinternal1_m287_sbINI0	 1337	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
+#define internal1_m287_sbVuIS0	 BUFFER[4256]	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define idinternal1_m287_sbVuIS0	 1338	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define internal1_m287_sb2UR0	 BUFFER[4258]	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define idinternal1_m287_sb2UR0	 1339	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define internal1_m287_sbNupIS0	 BUFFER[4260]	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define idinternal1_m287_sbNupIS0	 1340	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define internal1_m287_sbVuRB0	 BUFFER[4262]	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define idinternal1_m287_sbVuRB0	 1341	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define internal1_m287_MyFirstEnterFlag	 BUFFER[4264]	//(internal1_m287_MyFirstEnterFlag)  
+#define idinternal1_m287_MyFirstEnterFlag	 1342	//(internal1_m287_MyFirstEnterFlag)  
+#define internal1_m1567_q0	 BUFFER[4266]	//(internal1_m1567_q0) q0 - внутренний параметр
+#define idinternal1_m1567_q0	 1343	//(internal1_m1567_q0) q0 - внутренний параметр
+#define internal1_m1568_Step	 BUFFER[4268]	//(internal1_m1568_Step)  - текущий шаг программы
+#define idinternal1_m1568_Step	 1344	//(internal1_m1568_Step)  - текущий шаг программы
+#define internal1_m1568_rz	 BUFFER[4271]	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define idinternal1_m1568_rz	 1345	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+#define internal1_m1568_TimS	 BUFFER[4277]	//(internal1_m1568_TimS) Время от старта программы
+#define idinternal1_m1568_TimS	 1346	//(internal1_m1568_TimS) Время от старта программы
+#define internal1_m1568_FinPr0	 BUFFER[4282]	//(internal1_m1568_FinPr0) FinPr - конец программы
+#define idinternal1_m1568_FinPr0	 1347	//(internal1_m1568_FinPr0) FinPr - конец программы
+#define internal1_m1568_ErrPr0	 BUFFER[4284]	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define idinternal1_m1568_ErrPr0	 1348	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
+#define internal1_m1568_sbINI0	 BUFFER[4286]	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
+#define idinternal1_m1568_sbINI0	 1349	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
+#define internal1_m1568_sbVuIS0	 BUFFER[4288]	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define idinternal1_m1568_sbVuIS0	 1350	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+#define internal1_m1568_sb2UR0	 BUFFER[4290]	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define idinternal1_m1568_sb2UR0	 1351	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+#define internal1_m1568_sbNupIS0	 BUFFER[4292]	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define idinternal1_m1568_sbNupIS0	 1352	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+#define internal1_m1568_sbVuRB0	 BUFFER[4294]	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define idinternal1_m1568_sbVuRB0	 1353	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+#define internal1_m1568_MyFirstEnterFlag	 BUFFER[4296]	//(internal1_m1568_MyFirstEnterFlag)  
+#define idinternal1_m1568_MyFirstEnterFlag	 1354	//(internal1_m1568_MyFirstEnterFlag)  
+#define internal1_m1142_q0	 BUFFER[4298]	//(internal1_m1142_q0) q0 - внутренний параметр
+#define idinternal1_m1142_q0	 1355	//(internal1_m1142_q0) q0 - внутренний параметр
+#define internal1_m1139_q0	 BUFFER[4300]	//(internal1_m1139_q0) q0 - внутренний параметр
+#define idinternal1_m1139_q0	 1356	//(internal1_m1139_q0) q0 - внутренний параметр
+#define internal1_m1141_q0	 BUFFER[4302]	//(internal1_m1141_q0) q0 - внутренний параметр
+#define idinternal1_m1141_q0	 1357	//(internal1_m1141_q0) q0 - внутренний параметр
+#define internal1_m1134_q0	 BUFFER[4304]	//(internal1_m1134_q0) q0 - внутренний параметр
+#define idinternal1_m1134_q0	 1358	//(internal1_m1134_q0) q0 - внутренний параметр
+#define internal1_m825_q0	 BUFFER[4306]	//(internal1_m825_q0) q0 - внутренний параметр
+#define idinternal1_m825_q0	 1359	//(internal1_m825_q0) q0 - внутренний параметр
+#define internal1_m355_q0	 BUFFER[4308]	//(internal1_m355_q0) q0 - внутренний параметр
+#define idinternal1_m355_q0	 1360	//(internal1_m355_q0) q0 - внутренний параметр
+#define internal1_m351_q0	 BUFFER[4310]	//(internal1_m351_q0) q0 - внутренний параметр
+#define idinternal1_m351_q0	 1361	//(internal1_m351_q0) q0 - внутренний параметр
+#define internal1_m307_q0	 BUFFER[4312]	//(internal1_m307_q0) q0 - внутренний параметр
+#define idinternal1_m307_q0	 1362	//(internal1_m307_q0) q0 - внутренний параметр
+#define internal1_m306_x0	 BUFFER[4314]	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m306_x0	 1363	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m2050_q0	 BUFFER[4319]	//(internal1_m2050_q0) q0 - внутренний параметр
+#define idinternal1_m2050_q0	 1364	//(internal1_m2050_q0) q0 - внутренний параметр
+#define internal1_m2038_q0	 BUFFER[4321]	//(internal1_m2038_q0) q0 - внутренний параметр
+#define idinternal1_m2038_q0	 1365	//(internal1_m2038_q0) q0 - внутренний параметр
+#define internal1_m2029_q0	 BUFFER[4323]	//(internal1_m2029_q0) q0 - внутренний параметр
+#define idinternal1_m2029_q0	 1366	//(internal1_m2029_q0) q0 - внутренний параметр
+#define internal1_m2104_q0	 BUFFER[4325]	//(internal1_m2104_q0) q0 - внутренний параметр
+#define idinternal1_m2104_q0	 1367	//(internal1_m2104_q0) q0 - внутренний параметр
+#define internal1_m2075_q0	 BUFFER[4327]	//(internal1_m2075_q0) q0 - внутренний параметр
+#define idinternal1_m2075_q0	 1368	//(internal1_m2075_q0) q0 - внутренний параметр
+#define internal1_m2064_q0	 BUFFER[4329]	//(internal1_m2064_q0) q0 - внутренний параметр
+#define idinternal1_m2064_q0	 1369	//(internal1_m2064_q0) q0 - внутренний параметр
+#define internal1_m1620_q0	 BUFFER[4331]	//(internal1_m1620_q0) q0 - внутренний параметр
+#define idinternal1_m1620_q0	 1370	//(internal1_m1620_q0) q0 - внутренний параметр
+#define internal1_m1607_x0	 BUFFER[4333]	//(internal1_m1607_x0) был приход сигнала x1
+#define idinternal1_m1607_x0	 1371	//(internal1_m1607_x0) был приход сигнала x1
+#define internal1_m1607_y0	 BUFFER[4335]	//(internal1_m1607_y0) интервал между сигналами х1 и х2
+#define idinternal1_m1607_y0	 1372	//(internal1_m1607_y0) интервал между сигналами х1 и х2
+#define internal1_m1603_q0	 BUFFER[4340]	//(internal1_m1603_q0) q0 - внутренний параметр
+#define idinternal1_m1603_q0	 1373	//(internal1_m1603_q0) q0 - внутренний параметр
+#define internal1_m1594_q0	 BUFFER[4342]	//(internal1_m1594_q0) q0 - внутренний параметр
+#define idinternal1_m1594_q0	 1374	//(internal1_m1594_q0) q0 - внутренний параметр
+#define internal1_m1653_q0	 BUFFER[4344]	//(internal1_m1653_q0) q0 - внутренний параметр
+#define idinternal1_m1653_q0	 1375	//(internal1_m1653_q0) q0 - внутренний параметр
+#define internal1_m1673_q0	 BUFFER[4346]	//(internal1_m1673_q0) q0 - внутренний параметр
+#define idinternal1_m1673_q0	 1376	//(internal1_m1673_q0) q0 - внутренний параметр
+#define internal1_m1639_q0	 BUFFER[4348]	//(internal1_m1639_q0) q0 - внутренний параметр
+#define idinternal1_m1639_q0	 1377	//(internal1_m1639_q0) q0 - внутренний параметр
+#define internal1_m1654_x0	 BUFFER[4350]	//(internal1_m1654_x0) был приход сигнала x1
+#define idinternal1_m1654_x0	 1378	//(internal1_m1654_x0) был приход сигнала x1
+#define internal1_m1654_y0	 BUFFER[4352]	//(internal1_m1654_y0) интервал между сигналами х1 и х2
+#define idinternal1_m1654_y0	 1379	//(internal1_m1654_y0) интервал между сигналами х1 и х2
+#define internal1_m1578_x0	 BUFFER[4357]	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m1578_x0	 1380	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m1659_q0	 BUFFER[4362]	//(internal1_m1659_q0) q0 - внутренний параметр
+#define idinternal1_m1659_q0	 1381	//(internal1_m1659_q0) q0 - внутренний параметр
+#define internal1_m26_q0	 BUFFER[4364]	//(internal1_m26_q0) q0 - внутренний параметр
+#define idinternal1_m26_q0	 1382	//(internal1_m26_q0) q0 - внутренний параметр
+#define internal1_m1674_q0	 BUFFER[4366]	//(internal1_m1674_q0) q0 - внутренний параметр
+#define idinternal1_m1674_q0	 1383	//(internal1_m1674_q0) q0 - внутренний параметр
+#define internal1_m700_q0	 BUFFER[4368]	//(internal1_m700_q0) q0 - внутренний параметр
+#define idinternal1_m700_q0	 1384	//(internal1_m700_q0) q0 - внутренний параметр
+#define internal1_m685_q0	 BUFFER[4370]	//(internal1_m685_q0) q0 - внутренний параметр
+#define idinternal1_m685_q0	 1385	//(internal1_m685_q0) q0 - внутренний параметр
+#define internal1_m711_q0	 BUFFER[4372]	//(internal1_m711_q0) q0 - внутренний параметр
+#define idinternal1_m711_q0	 1386	//(internal1_m711_q0) q0 - внутренний параметр
+#define internal1_m696_q0	 BUFFER[4374]	//(internal1_m696_q0) q0 - внутренний параметр
+#define idinternal1_m696_q0	 1387	//(internal1_m696_q0) q0 - внутренний параметр
+#define internal1_m680_q0	 BUFFER[4376]	//(internal1_m680_q0) q0 - внутренний параметр
+#define idinternal1_m680_q0	 1388	//(internal1_m680_q0) q0 - внутренний параметр
+#define internal1_m678_q0	 BUFFER[4378]	//(internal1_m678_q0) q0 - внутренний параметр
+#define idinternal1_m678_q0	 1389	//(internal1_m678_q0) q0 - внутренний параметр
+#define internal1_m666_q0	 BUFFER[4380]	//(internal1_m666_q0) q0 - внутренний параметр
+#define idinternal1_m666_q0	 1390	//(internal1_m666_q0) q0 - внутренний параметр
+#define internal1_m1570_q0	 BUFFER[4382]	//(internal1_m1570_q0) q0 - внутренний параметр
+#define idinternal1_m1570_q0	 1391	//(internal1_m1570_q0) q0 - внутренний параметр
+#define internal1_m676_q0	 BUFFER[4387]	//(internal1_m676_q0) q0 - внутренний параметр
+#define idinternal1_m676_q0	 1392	//(internal1_m676_q0) q0 - внутренний параметр
+#define internal1_m110_q0	 BUFFER[4389]	//(internal1_m110_q0) q0 - внутренний параметр
+#define idinternal1_m110_q0	 1393	//(internal1_m110_q0) q0 - внутренний параметр
+#define internal1_m1820_q0	 BUFFER[4391]	//(internal1_m1820_q0) q0 - внутренний параметр
+#define idinternal1_m1820_q0	 1394	//(internal1_m1820_q0) q0 - внутренний параметр
+#define internal1_m1819_q0	 BUFFER[4393]	//(internal1_m1819_q0) q0 - внутренний параметр
+#define idinternal1_m1819_q0	 1395	//(internal1_m1819_q0) q0 - внутренний параметр
+#define internal1_m1818_q0	 BUFFER[4395]	//(internal1_m1818_q0) q0 - внутренний параметр
+#define idinternal1_m1818_q0	 1396	//(internal1_m1818_q0) q0 - внутренний параметр
+#define internal1_m1817_q0	 BUFFER[4397]	//(internal1_m1817_q0) q0 - внутренний параметр
+#define idinternal1_m1817_q0	 1397	//(internal1_m1817_q0) q0 - внутренний параметр
+#define internal1_m1853_q0	 BUFFER[4399]	//(internal1_m1853_q0) q0 - внутренний параметр
+#define idinternal1_m1853_q0	 1398	//(internal1_m1853_q0) q0 - внутренний параметр
+#define internal1_m1852_q0	 BUFFER[4401]	//(internal1_m1852_q0) q0 - внутренний параметр
+#define idinternal1_m1852_q0	 1399	//(internal1_m1852_q0) q0 - внутренний параметр
+#define internal1_m1851_q0	 BUFFER[4403]	//(internal1_m1851_q0) q0 - внутренний параметр
+#define idinternal1_m1851_q0	 1400	//(internal1_m1851_q0) q0 - внутренний параметр
+#define internal1_m2135_q0	 BUFFER[4405]	//(internal1_m2135_q0) q0 - внутренний параметр
+#define idinternal1_m2135_q0	 1401	//(internal1_m2135_q0) q0 - внутренний параметр
+#define internal1_m1913_q0	 BUFFER[4407]	//(internal1_m1913_q0) q0 - внутренний параметр
+#define idinternal1_m1913_q0	 1402	//(internal1_m1913_q0) q0 - внутренний параметр
+#define internal1_m1902_q0	 BUFFER[4409]	//(internal1_m1902_q0) q0 - внутренний параметр
+#define idinternal1_m1902_q0	 1403	//(internal1_m1902_q0) q0 - внутренний параметр
+#define internal1_m1910_q0	 BUFFER[4411]	//(internal1_m1910_q0) q0 - внутренний параметр
+#define idinternal1_m1910_q0	 1404	//(internal1_m1910_q0) q0 - внутренний параметр
+#define internal1_m1899_q0	 BUFFER[4413]	//(internal1_m1899_q0) q0 - внутренний параметр
+#define idinternal1_m1899_q0	 1405	//(internal1_m1899_q0) q0 - внутренний параметр
+#define internal1_m1907_q0	 BUFFER[4415]	//(internal1_m1907_q0) q0 - внутренний параметр
+#define idinternal1_m1907_q0	 1406	//(internal1_m1907_q0) q0 - внутренний параметр
+#define internal1_m2349_q0	 BUFFER[4417]	//(internal1_m2349_q0) q0 - внутренний параметр
+#define idinternal1_m2349_q0	 1407	//(internal1_m2349_q0) q0 - внутренний параметр
+#define internal1_m2345_q0	 BUFFER[4419]	//(internal1_m2345_q0) q0 - внутренний параметр
+#define idinternal1_m2345_q0	 1408	//(internal1_m2345_q0) q0 - внутренний параметр
+#define internal1_m1878_q0	 BUFFER[4421]	//(internal1_m1878_q0) q0 - внутренний параметр
+#define idinternal1_m1878_q0	 1409	//(internal1_m1878_q0) q0 - внутренний параметр
+#define internal1_m1870_q0	 BUFFER[4423]	//(internal1_m1870_q0) q0 - внутренний параметр
+#define idinternal1_m1870_q0	 1410	//(internal1_m1870_q0) q0 - внутренний параметр
+#define internal1_m1868_q0	 BUFFER[4425]	//(internal1_m1868_q0) q0 - внутренний параметр
+#define idinternal1_m1868_q0	 1411	//(internal1_m1868_q0) q0 - внутренний параметр
+#define internal1_m1864_q0	 BUFFER[4427]	//(internal1_m1864_q0) q0 - внутренний параметр
+#define idinternal1_m1864_q0	 1412	//(internal1_m1864_q0) q0 - внутренний параметр
+#define internal1_m1860_q0	 BUFFER[4429]	//(internal1_m1860_q0) q0 - внутренний параметр
+#define idinternal1_m1860_q0	 1413	//(internal1_m1860_q0) q0 - внутренний параметр
+#define internal1_m1862_q0	 BUFFER[4431]	//(internal1_m1862_q0) q0 - внутренний параметр
+#define idinternal1_m1862_q0	 1414	//(internal1_m1862_q0) q0 - внутренний параметр
+#define internal1_m19_q0	 BUFFER[4433]	//(internal1_m19_q0) q0 - внутренний параметр
+#define idinternal1_m19_q0	 1415	//(internal1_m19_q0) q0 - внутренний параметр
+#define internal1_m1843_q0	 BUFFER[4435]	//(internal1_m1843_q0) q0 - внутренний параметр
+#define idinternal1_m1843_q0	 1416	//(internal1_m1843_q0) q0 - внутренний параметр
+#define internal1_m1841_q0	 BUFFER[4437]	//(internal1_m1841_q0) q0 - внутренний параметр
+#define idinternal1_m1841_q0	 1417	//(internal1_m1841_q0) q0 - внутренний параметр
+#define internal1_m1837_q0	 BUFFER[4439]	//(internal1_m1837_q0) q0 - внутренний параметр
+#define idinternal1_m1837_q0	 1418	//(internal1_m1837_q0) q0 - внутренний параметр
+#define internal1_m1839_q0	 BUFFER[4441]	//(internal1_m1839_q0) q0 - внутренний параметр
+#define idinternal1_m1839_q0	 1419	//(internal1_m1839_q0) q0 - внутренний параметр
+#define internal1_m1835_q0	 BUFFER[4443]	//(internal1_m1835_q0) q0 - внутренний параметр
+#define idinternal1_m1835_q0	 1420	//(internal1_m1835_q0) q0 - внутренний параметр
+#define internal1_m1833_q0	 BUFFER[4445]	//(internal1_m1833_q0) q0 - внутренний параметр
+#define idinternal1_m1833_q0	 1421	//(internal1_m1833_q0) q0 - внутренний параметр
+#define internal1_m2257_q0	 BUFFER[4447]	//(internal1_m2257_q0) q0 - внутренний параметр
+#define idinternal1_m2257_q0	 1422	//(internal1_m2257_q0) q0 - внутренний параметр
+#define internal1_m2255_q0	 BUFFER[4449]	//(internal1_m2255_q0) q0 - внутренний параметр
+#define idinternal1_m2255_q0	 1423	//(internal1_m2255_q0) q0 - внутренний параметр
+#define internal1_m2234_q0	 BUFFER[4451]	//(internal1_m2234_q0) q0 - внутренний параметр
+#define idinternal1_m2234_q0	 1424	//(internal1_m2234_q0) q0 - внутренний параметр
+#define internal1_m2216_q0	 BUFFER[4453]	//(internal1_m2216_q0) q0 - внутренний параметр
+#define idinternal1_m2216_q0	 1425	//(internal1_m2216_q0) q0 - внутренний параметр
+#define internal1_m2147_q0	 BUFFER[4455]	//(internal1_m2147_q0) q0 - внутренний параметр
+#define idinternal1_m2147_q0	 1426	//(internal1_m2147_q0) q0 - внутренний параметр
+#define internal1_m1829_q0	 BUFFER[4457]	//(internal1_m1829_q0) q0 - внутренний параметр
+#define idinternal1_m1829_q0	 1427	//(internal1_m1829_q0) q0 - внутренний параметр
+#define internal1_m1831_q0	 BUFFER[4459]	//(internal1_m1831_q0) q0 - внутренний параметр
+#define idinternal1_m1831_q0	 1428	//(internal1_m1831_q0) q0 - внутренний параметр
+#define internal1_m1815_q0	 BUFFER[4461]	//(internal1_m1815_q0) q0 - внутренний параметр
+#define idinternal1_m1815_q0	 1429	//(internal1_m1815_q0) q0 - внутренний параметр
+#define internal1_m1813_q0	 BUFFER[4463]	//(internal1_m1813_q0) q0 - внутренний параметр
+#define idinternal1_m1813_q0	 1430	//(internal1_m1813_q0) q0 - внутренний параметр
+#define internal1_m1811_q0	 BUFFER[4465]	//(internal1_m1811_q0) q0 - внутренний параметр
+#define idinternal1_m1811_q0	 1431	//(internal1_m1811_q0) q0 - внутренний параметр
+#define internal1_m1809_q0	 BUFFER[4467]	//(internal1_m1809_q0) q0 - внутренний параметр
+#define idinternal1_m1809_q0	 1432	//(internal1_m1809_q0) q0 - внутренний параметр
+#define internal1_m1808_q0	 BUFFER[4469]	//(internal1_m1808_q0) q0 - внутренний параметр
+#define idinternal1_m1808_q0	 1433	//(internal1_m1808_q0) q0 - внутренний параметр
+#define internal1_m1806_q0	 BUFFER[4471]	//(internal1_m1806_q0) q0 - внутренний параметр
+#define idinternal1_m1806_q0	 1434	//(internal1_m1806_q0) q0 - внутренний параметр
+#define internal1_m1805_q0	 BUFFER[4473]	//(internal1_m1805_q0) q0 - внутренний параметр
+#define idinternal1_m1805_q0	 1435	//(internal1_m1805_q0) q0 - внутренний параметр
+#define internal1_m1803_q0	 BUFFER[4475]	//(internal1_m1803_q0) q0 - внутренний параметр
+#define idinternal1_m1803_q0	 1436	//(internal1_m1803_q0) q0 - внутренний параметр
+#define internal1_m2286_DvUp0	 BUFFER[4477]	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m2286_DvUp0	 1437	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
+#define internal1_m2286_DvDw0	 BUFFER[4478]	//(internal1_m2286_DvDw0) - есть команда на движение назад
+#define idinternal1_m2286_DvDw0	 1438	//(internal1_m2286_DvDw0) - есть команда на движение назад
+#define internal1_m2286_FDvUp0	 BUFFER[4479]	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m2286_FDvUp0	 1439	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
+#define internal1_m2286_FDvDw0	 BUFFER[4480]	//(internal1_m2286_FDvDw0) - есть команда на движение назад
+#define idinternal1_m2286_FDvDw0	 1440	//(internal1_m2286_FDvDw0) - есть команда на движение назад
+#define internal1_m2286_BlDv0	 BUFFER[4481]	//(internal1_m2286_BlDv0) - была блокировка
+#define idinternal1_m2286_BlDv0	 1441	//(internal1_m2286_BlDv0) - была блокировка
+#define internal1_m2286_Pkv0	 BUFFER[4482]	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m2286_Pkv0	 1442	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m2286_Pkav0	 BUFFER[4483]	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m2286_Pkav0	 1443	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m2286_Zkv0	 BUFFER[4484]	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m2286_Zkv0	 1444	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m2286_Zkav0	 BUFFER[4485]	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m2286_Zkav0	 1445	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m2286_txNm	 BUFFER[4486]	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m2286_txNm	 1446	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m2286_txSm	 BUFFER[4491]	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m2286_txSm	 1447	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m2286_txHr	 BUFFER[4496]	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m2286_txHr	 1448	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m2286_txLd	 BUFFER[4501]	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m2286_txLd	 1449	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m2286_fef	 BUFFER[4506]	//(internal1_m2286_fef) fef
+#define idinternal1_m2286_fef	 1450	//(internal1_m2286_fef) fef
+#define internal1_m2280_DvUp0	 BUFFER[4507]	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m2280_DvUp0	 1451	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
+#define internal1_m2280_DvDw0	 BUFFER[4508]	//(internal1_m2280_DvDw0) - есть команда на движение назад
+#define idinternal1_m2280_DvDw0	 1452	//(internal1_m2280_DvDw0) - есть команда на движение назад
+#define internal1_m2280_FDvUp0	 BUFFER[4509]	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m2280_FDvUp0	 1453	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
+#define internal1_m2280_FDvDw0	 BUFFER[4510]	//(internal1_m2280_FDvDw0) - есть команда на движение назад
+#define idinternal1_m2280_FDvDw0	 1454	//(internal1_m2280_FDvDw0) - есть команда на движение назад
+#define internal1_m2280_BlDv0	 BUFFER[4511]	//(internal1_m2280_BlDv0) - была блокировка
+#define idinternal1_m2280_BlDv0	 1455	//(internal1_m2280_BlDv0) - была блокировка
+#define internal1_m2280_Pkv0	 BUFFER[4512]	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m2280_Pkv0	 1456	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m2280_Pkav0	 BUFFER[4513]	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m2280_Pkav0	 1457	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m2280_Zkv0	 BUFFER[4514]	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m2280_Zkv0	 1458	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m2280_Zkav0	 BUFFER[4515]	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m2280_Zkav0	 1459	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m2280_txNm	 BUFFER[4516]	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m2280_txNm	 1460	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m2280_txSm	 BUFFER[4521]	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m2280_txSm	 1461	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m2280_txHr	 BUFFER[4526]	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m2280_txHr	 1462	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m2280_txLd	 BUFFER[4531]	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m2280_txLd	 1463	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m2280_fef	 BUFFER[4536]	//(internal1_m2280_fef) fef
+#define idinternal1_m2280_fef	 1464	//(internal1_m2280_fef) fef
+#define internal1_m1643_q0	 BUFFER[4537]	//(internal1_m1643_q0) q0 - внутренний параметр
+#define idinternal1_m1643_q0	 1465	//(internal1_m1643_q0) q0 - внутренний параметр
+#define internal1_m1648_x0	 BUFFER[4539]	//(internal1_m1648_x0) был приход сигнала x1
+#define idinternal1_m1648_x0	 1466	//(internal1_m1648_x0) был приход сигнала x1
+#define internal1_m1648_y0	 BUFFER[4541]	//(internal1_m1648_y0) интервал между сигналами х1 и х2
+#define idinternal1_m1648_y0	 1467	//(internal1_m1648_y0) интервал между сигналами х1 и х2
+#define internal1_m2086_x0	 BUFFER[4546]	//(internal1_m2086_x0) был приход сигнала x1
+#define idinternal1_m2086_x0	 1468	//(internal1_m2086_x0) был приход сигнала x1
+#define internal1_m2086_y0	 BUFFER[4548]	//(internal1_m2086_y0) интервал между сигналами х1 и х2
+#define idinternal1_m2086_y0	 1469	//(internal1_m2086_y0) интервал между сигналами х1 и х2
+#define internal1_m2047_x0	 BUFFER[4553]	//(internal1_m2047_x0) был приход сигнала x1
+#define idinternal1_m2047_x0	 1470	//(internal1_m2047_x0) был приход сигнала x1
+#define internal1_m2047_y0	 BUFFER[4555]	//(internal1_m2047_y0) интервал между сигналами х1 и х2
+#define idinternal1_m2047_y0	 1471	//(internal1_m2047_y0) интервал между сигналами х1 и х2
+#define internal1_m298_q0	 BUFFER[4560]	//(internal1_m298_q0) q0 - внутренний параметр
+#define idinternal1_m298_q0	 1472	//(internal1_m298_q0) q0 - внутренний параметр
+#define internal1_m1113_q0	 BUFFER[4562]	//(internal1_m1113_q0) q0 - внутренний параметр
+#define idinternal1_m1113_q0	 1473	//(internal1_m1113_q0) q0 - внутренний параметр
+#define internal1_m688_q0	 BUFFER[4564]	//(internal1_m688_q0) q0 - внутренний параметр
+#define idinternal1_m688_q0	 1474	//(internal1_m688_q0) q0 - внутренний параметр
+#define internal1_m1450_X0	 BUFFER[4566]	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m1450_X0	 1475	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m1450_t0	 BUFFER[4571]	//(internal1_m1450_t0) время нахождения в зоне возврата
+#define idinternal1_m1450_t0	 1476	//(internal1_m1450_t0) время нахождения в зоне возврата
+#define internal1_m1450_BLDv0	 BUFFER[4576]	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m1450_BLDv0	 1477	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
+#define internal1_m1467_tx	 BUFFER[4577]	//(internal1_m1467_tx) tx - время накопленное сек
+#define idinternal1_m1467_tx	 1478	//(internal1_m1467_tx) tx - время накопленное сек
+#define internal1_m1467_y0	 BUFFER[4582]	//(internal1_m1467_y0) y0
+#define idinternal1_m1467_y0	 1479	//(internal1_m1467_y0) y0
+#define internal1_m1468_tx	 BUFFER[4583]	//(internal1_m1468_tx) tx - время накопленное сек
+#define idinternal1_m1468_tx	 1480	//(internal1_m1468_tx) tx - время накопленное сек
+#define internal1_m1468_y0	 BUFFER[4588]	//(internal1_m1468_y0) y0
+#define idinternal1_m1468_y0	 1481	//(internal1_m1468_y0) y0
+#define internal1_m1476_xptr	 BUFFER[4589]	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m1476_xptr	 1482	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
+#define internal1_m1476_x0	 BUFFER[4592]	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m1476_x0	 1483	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
+#define internal1_m1476_tim0	 BUFFER[4892]	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m1476_tim0	 1484	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
+#define internal1_m1476_sumtim	 BUFFER[5192]	//(internal1_m1476_sumtim) sumtim - время в пути
+#define idinternal1_m1476_sumtim	 1485	//(internal1_m1476_sumtim) sumtim - время в пути
+#define internal1_m1476_StSpeed	 BUFFER[5197]	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m1476_StSpeed	 1486	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m1476_Vz0	 BUFFER[5202]	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m1476_Vz0	 1487	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m1476_flRazg	 BUFFER[5207]	//(internal1_m1476_flRazg) признак разгона/торможения
+#define idinternal1_m1476_flRazg	 1488	//(internal1_m1476_flRazg) признак разгона/торможения
+#define internal1_m1476_DelSp	 BUFFER[5210]	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m1476_DelSp	 1489	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
+#define internal1_m1476_z0	 BUFFER[5215]	//(internal1_m1476_z0) z0 - точка прекращения движения
+#define idinternal1_m1476_z0	 1490	//(internal1_m1476_z0) z0 - точка прекращения движения
+#define internal1_m1476_txZS	 BUFFER[5220]	//(internal1_m1476_txZS) txZS
+#define idinternal1_m1476_txZS	 1491	//(internal1_m1476_txZS) txZS
+#define internal1_m1476_tx	 BUFFER[5225]	//(internal1_m1476_tx) tx
+#define idinternal1_m1476_tx	 1492	//(internal1_m1476_tx) tx
+#define internal1_m1476_txd	 BUFFER[5230]	//(internal1_m1476_txd) txd
+#define idinternal1_m1476_txd	 1493	//(internal1_m1476_txd) txd
+#define internal1_m1476_txMBl	 BUFFER[5235]	//(internal1_m1476_txMBl) tx
+#define idinternal1_m1476_txMBl	 1494	//(internal1_m1476_txMBl) tx
+#define internal1_m1476_txBl	 BUFFER[5240]	//(internal1_m1476_txBl) tx
+#define idinternal1_m1476_txBl	 1495	//(internal1_m1476_txBl) tx
+#define internal1_m1476_Speed0	 BUFFER[5245]	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m1476_Speed0	 1496	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m1476_xz0	 BUFFER[5250]	//(internal1_m1476_xz0) xz0 - новое задание мм
+#define idinternal1_m1476_xz0	 1497	//(internal1_m1476_xz0) xz0 - новое задание мм
+#define internal1_m1476_tz0	 BUFFER[5255]	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m1476_tz0	 1498	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m1476_Shift0	 BUFFER[5260]	//(internal1_m1476_Shift0) Shift0 - признак самохода
+#define idinternal1_m1476_Shift0	 1499	//(internal1_m1476_Shift0) Shift0 - признак самохода
+#define internal1_m1476_ShCntlSp0	 BUFFER[5262]	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m1476_ShCntlSp0	 1500	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m1476_ShiftControl	 BUFFER[5264]	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m1476_ShiftControl	 1501	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
+#define internal1_m686_q0	 BUFFER[5266]	//(internal1_m686_q0) q0 - внутренний параметр
+#define idinternal1_m686_q0	 1502	//(internal1_m686_q0) q0 - внутренний параметр
+#define internal1_m994_X0	 BUFFER[5268]	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m994_X0	 1503	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m994_t0	 BUFFER[5273]	//(internal1_m994_t0) время нахождения в зоне возврата
+#define idinternal1_m994_t0	 1504	//(internal1_m994_t0) время нахождения в зоне возврата
+#define internal1_m994_BLDv0	 BUFFER[5278]	//(internal1_m994_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m994_BLDv0	 1505	//(internal1_m994_BLDv0) BlDv - Блокировка движения
+#define internal1_m1017_tx	 BUFFER[5279]	//(internal1_m1017_tx) tx - время накопленное сек
+#define idinternal1_m1017_tx	 1506	//(internal1_m1017_tx) tx - время накопленное сек
+#define internal1_m1017_y0	 BUFFER[5284]	//(internal1_m1017_y0) y0
+#define idinternal1_m1017_y0	 1507	//(internal1_m1017_y0) y0
+#define internal1_m1016_tx	 BUFFER[5285]	//(internal1_m1016_tx) tx - время накопленное сек
+#define idinternal1_m1016_tx	 1508	//(internal1_m1016_tx) tx - время накопленное сек
+#define internal1_m1016_y0	 BUFFER[5290]	//(internal1_m1016_y0) y0
+#define idinternal1_m1016_y0	 1509	//(internal1_m1016_y0) y0
+#define internal1_m1024_xptr	 BUFFER[5291]	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m1024_xptr	 1510	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
+#define internal1_m1024_x0	 BUFFER[5294]	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m1024_x0	 1511	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
+#define internal1_m1024_tim0	 BUFFER[5594]	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m1024_tim0	 1512	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
+#define internal1_m1024_sumtim	 BUFFER[5894]	//(internal1_m1024_sumtim) sumtim - время в пути
+#define idinternal1_m1024_sumtim	 1513	//(internal1_m1024_sumtim) sumtim - время в пути
+#define internal1_m1024_StSpeed	 BUFFER[5899]	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m1024_StSpeed	 1514	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m1024_Vz0	 BUFFER[5904]	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m1024_Vz0	 1515	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m1024_flRazg	 BUFFER[5909]	//(internal1_m1024_flRazg) признак разгона/торможения
+#define idinternal1_m1024_flRazg	 1516	//(internal1_m1024_flRazg) признак разгона/торможения
+#define internal1_m1024_DelSp	 BUFFER[5912]	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m1024_DelSp	 1517	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
+#define internal1_m1024_z0	 BUFFER[5917]	//(internal1_m1024_z0) z0 - точка прекращения движения
+#define idinternal1_m1024_z0	 1518	//(internal1_m1024_z0) z0 - точка прекращения движения
+#define internal1_m1024_txZS	 BUFFER[5922]	//(internal1_m1024_txZS) txZS
+#define idinternal1_m1024_txZS	 1519	//(internal1_m1024_txZS) txZS
+#define internal1_m1024_tx	 BUFFER[5927]	//(internal1_m1024_tx) tx
+#define idinternal1_m1024_tx	 1520	//(internal1_m1024_tx) tx
+#define internal1_m1024_txd	 BUFFER[5932]	//(internal1_m1024_txd) txd
+#define idinternal1_m1024_txd	 1521	//(internal1_m1024_txd) txd
+#define internal1_m1024_txMBl	 BUFFER[5937]	//(internal1_m1024_txMBl) tx
+#define idinternal1_m1024_txMBl	 1522	//(internal1_m1024_txMBl) tx
+#define internal1_m1024_txBl	 BUFFER[5942]	//(internal1_m1024_txBl) tx
+#define idinternal1_m1024_txBl	 1523	//(internal1_m1024_txBl) tx
+#define internal1_m1024_Speed0	 BUFFER[5947]	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m1024_Speed0	 1524	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m1024_xz0	 BUFFER[5952]	//(internal1_m1024_xz0) xz0 - новое задание мм
+#define idinternal1_m1024_xz0	 1525	//(internal1_m1024_xz0) xz0 - новое задание мм
+#define internal1_m1024_tz0	 BUFFER[5957]	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m1024_tz0	 1526	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m1024_Shift0	 BUFFER[5962]	//(internal1_m1024_Shift0) Shift0 - признак самохода
+#define idinternal1_m1024_Shift0	 1527	//(internal1_m1024_Shift0) Shift0 - признак самохода
+#define internal1_m1024_ShCntlSp0	 BUFFER[5964]	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m1024_ShCntlSp0	 1528	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m1024_ShiftControl	 BUFFER[5966]	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m1024_ShiftControl	 1529	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
+#define internal1_m539_X0	 BUFFER[5968]	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m539_X0	 1530	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m539_t0	 BUFFER[5973]	//(internal1_m539_t0) время нахождения в зоне возврата
+#define idinternal1_m539_t0	 1531	//(internal1_m539_t0) время нахождения в зоне возврата
+#define internal1_m539_BLDv0	 BUFFER[5978]	//(internal1_m539_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m539_BLDv0	 1532	//(internal1_m539_BLDv0) BlDv - Блокировка движения
+#define internal1_m558_tx	 BUFFER[5979]	//(internal1_m558_tx) tx - время накопленное сек
+#define idinternal1_m558_tx	 1533	//(internal1_m558_tx) tx - время накопленное сек
+#define internal1_m558_y0	 BUFFER[5984]	//(internal1_m558_y0) y0
+#define idinternal1_m558_y0	 1534	//(internal1_m558_y0) y0
+#define internal1_m557_tx	 BUFFER[5985]	//(internal1_m557_tx) tx - время накопленное сек
+#define idinternal1_m557_tx	 1535	//(internal1_m557_tx) tx - время накопленное сек
+#define internal1_m557_y0	 BUFFER[5990]	//(internal1_m557_y0) y0
+#define idinternal1_m557_y0	 1536	//(internal1_m557_y0) y0
+#define internal1_m562_xptr	 BUFFER[5991]	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m562_xptr	 1537	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
+#define internal1_m562_x0	 BUFFER[5994]	//(internal1_m562_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m562_x0	 1538	//(internal1_m562_x0) x0 - массив мгновенных значений координат
+#define internal1_m562_tim0	 BUFFER[6744]	//(internal1_m562_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m562_tim0	 1539	//(internal1_m562_tim0) tim0 - массив значений времени цикла
+#define internal1_m562_sumtim	 BUFFER[7494]	//(internal1_m562_sumtim) sumtim - время в пути
+#define idinternal1_m562_sumtim	 1540	//(internal1_m562_sumtim) sumtim - время в пути
+#define internal1_m562_StSpeed	 BUFFER[7499]	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m562_StSpeed	 1541	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m562_Vz0	 BUFFER[7504]	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m562_Vz0	 1542	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m562_flRazg	 BUFFER[7509]	//(internal1_m562_flRazg) признак разгона/торможения
+#define idinternal1_m562_flRazg	 1543	//(internal1_m562_flRazg) признак разгона/торможения
+#define internal1_m562_DelSp	 BUFFER[7512]	//(internal1_m562_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m562_DelSp	 1544	//(internal1_m562_DelSp) DelSp - время переключения скоростей
+#define internal1_m562_z0	 BUFFER[7517]	//(internal1_m562_z0) z0 - точка прекращения движения
+#define idinternal1_m562_z0	 1545	//(internal1_m562_z0) z0 - точка прекращения движения
+#define internal1_m562_txZS	 BUFFER[7522]	//(internal1_m562_txZS) txZS
+#define idinternal1_m562_txZS	 1546	//(internal1_m562_txZS) txZS
+#define internal1_m562_tx	 BUFFER[7527]	//(internal1_m562_tx) tx
+#define idinternal1_m562_tx	 1547	//(internal1_m562_tx) tx
+#define internal1_m562_txd	 BUFFER[7532]	//(internal1_m562_txd) txd
+#define idinternal1_m562_txd	 1548	//(internal1_m562_txd) txd
+#define internal1_m562_txMBl	 BUFFER[7537]	//(internal1_m562_txMBl) tx
+#define idinternal1_m562_txMBl	 1549	//(internal1_m562_txMBl) tx
+#define internal1_m562_txBl	 BUFFER[7542]	//(internal1_m562_txBl) tx
+#define idinternal1_m562_txBl	 1550	//(internal1_m562_txBl) tx
+#define internal1_m562_Speed0	 BUFFER[7547]	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m562_Speed0	 1551	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m562_xz0	 BUFFER[7552]	//(internal1_m562_xz0) xz0 - новое задание мм
+#define idinternal1_m562_xz0	 1552	//(internal1_m562_xz0) xz0 - новое задание мм
+#define internal1_m562_tz0	 BUFFER[7557]	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m562_tz0	 1553	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m562_Shift0	 BUFFER[7562]	//(internal1_m562_Shift0) Shift0 - признак самохода
+#define idinternal1_m562_Shift0	 1554	//(internal1_m562_Shift0) Shift0 - признак самохода
+#define internal1_m562_ShCntlSp0	 BUFFER[7564]	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m562_ShCntlSp0	 1555	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m562_ShiftControl	 BUFFER[7566]	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m562_ShiftControl	 1556	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
+#define internal1_m683_q0	 BUFFER[7568]	//(internal1_m683_q0) q0 - внутренний параметр
+#define idinternal1_m683_q0	 1557	//(internal1_m683_q0) q0 - внутренний параметр
+#define internal1_m169_X0	 BUFFER[7570]	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m169_X0	 1558	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m169_t0	 BUFFER[7575]	//(internal1_m169_t0) время нахождения в зоне возврата
+#define idinternal1_m169_t0	 1559	//(internal1_m169_t0) время нахождения в зоне возврата
+#define internal1_m169_BLDv0	 BUFFER[7580]	//(internal1_m169_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m169_BLDv0	 1560	//(internal1_m169_BLDv0) BlDv - Блокировка движения
+#define internal1_m194_xptr	 BUFFER[7581]	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m194_xptr	 1561	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
+#define internal1_m194_x0	 BUFFER[7584]	//(internal1_m194_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m194_x0	 1562	//(internal1_m194_x0) x0 - массив мгновенных значений координат
+#define internal1_m194_tim0	 BUFFER[8334]	//(internal1_m194_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m194_tim0	 1563	//(internal1_m194_tim0) tim0 - массив значений времени цикла
+#define internal1_m194_sumtim	 BUFFER[9084]	//(internal1_m194_sumtim) sumtim - время в пути
+#define idinternal1_m194_sumtim	 1564	//(internal1_m194_sumtim) sumtim - время в пути
+#define internal1_m194_StSpeed	 BUFFER[9089]	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m194_StSpeed	 1565	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m194_Vz0	 BUFFER[9094]	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m194_Vz0	 1566	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m194_flRazg	 BUFFER[9099]	//(internal1_m194_flRazg) признак разгона/торможения
+#define idinternal1_m194_flRazg	 1567	//(internal1_m194_flRazg) признак разгона/торможения
+#define internal1_m194_DelSp	 BUFFER[9102]	//(internal1_m194_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m194_DelSp	 1568	//(internal1_m194_DelSp) DelSp - время переключения скоростей
+#define internal1_m194_z0	 BUFFER[9107]	//(internal1_m194_z0) z0 - точка прекращения движения
+#define idinternal1_m194_z0	 1569	//(internal1_m194_z0) z0 - точка прекращения движения
+#define internal1_m194_txZS	 BUFFER[9112]	//(internal1_m194_txZS) txZS
+#define idinternal1_m194_txZS	 1570	//(internal1_m194_txZS) txZS
+#define internal1_m194_tx	 BUFFER[9117]	//(internal1_m194_tx) tx
+#define idinternal1_m194_tx	 1571	//(internal1_m194_tx) tx
+#define internal1_m194_txd	 BUFFER[9122]	//(internal1_m194_txd) txd
+#define idinternal1_m194_txd	 1572	//(internal1_m194_txd) txd
+#define internal1_m194_txMBl	 BUFFER[9127]	//(internal1_m194_txMBl) tx
+#define idinternal1_m194_txMBl	 1573	//(internal1_m194_txMBl) tx
+#define internal1_m194_txBl	 BUFFER[9132]	//(internal1_m194_txBl) tx
+#define idinternal1_m194_txBl	 1574	//(internal1_m194_txBl) tx
+#define internal1_m194_Speed0	 BUFFER[9137]	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m194_Speed0	 1575	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m194_xz0	 BUFFER[9142]	//(internal1_m194_xz0) xz0 - новое задание мм
+#define idinternal1_m194_xz0	 1576	//(internal1_m194_xz0) xz0 - новое задание мм
+#define internal1_m194_tz0	 BUFFER[9147]	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m194_tz0	 1577	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m194_Shift0	 BUFFER[9152]	//(internal1_m194_Shift0) Shift0 - признак самохода
+#define idinternal1_m194_Shift0	 1578	//(internal1_m194_Shift0) Shift0 - признак самохода
+#define internal1_m194_ShCntlSp0	 BUFFER[9154]	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m194_ShCntlSp0	 1579	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m194_ShiftControl	 BUFFER[9156]	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m194_ShiftControl	 1580	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
+#define internal1_m709_q0	 BUFFER[9158]	//(internal1_m709_q0) q0 - внутренний параметр
+#define idinternal1_m709_q0	 1581	//(internal1_m709_q0) q0 - внутренний параметр
+#define internal1_m506_DvUp0	 BUFFER[9160]	//(internal1_m506_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m506_DvUp0	 1582	//(internal1_m506_DvUp0) - есть команда на движение вперёд
+#define internal1_m506_DvDw0	 BUFFER[9161]	//(internal1_m506_DvDw0) - есть команда на движение назад
+#define idinternal1_m506_DvDw0	 1583	//(internal1_m506_DvDw0) - есть команда на движение назад
+#define internal1_m506_FDvUp0	 BUFFER[9162]	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m506_FDvUp0	 1584	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
+#define internal1_m506_FDvDw0	 BUFFER[9163]	//(internal1_m506_FDvDw0) - есть команда на движение назад
+#define idinternal1_m506_FDvDw0	 1585	//(internal1_m506_FDvDw0) - есть команда на движение назад
+#define internal1_m506_BlDv0	 BUFFER[9164]	//(internal1_m506_BlDv0) - была блокировка
+#define idinternal1_m506_BlDv0	 1586	//(internal1_m506_BlDv0) - была блокировка
+#define internal1_m506_Pkv0	 BUFFER[9165]	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m506_Pkv0	 1587	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m506_Pkav0	 BUFFER[9166]	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m506_Pkav0	 1588	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m506_Zkv0	 BUFFER[9167]	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m506_Zkv0	 1589	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m506_Zkav0	 BUFFER[9168]	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m506_Zkav0	 1590	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m506_txNm	 BUFFER[9169]	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m506_txNm	 1591	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m506_txSm	 BUFFER[9174]	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m506_txSm	 1592	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m506_txHr	 BUFFER[9179]	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m506_txHr	 1593	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m506_txLd	 BUFFER[9184]	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m506_txLd	 1594	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m506_fef	 BUFFER[9189]	//(internal1_m506_fef) fef
+#define idinternal1_m506_fef	 1595	//(internal1_m506_fef) fef
+#define internal1_m500_DvUp0	 BUFFER[9190]	//(internal1_m500_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m500_DvUp0	 1596	//(internal1_m500_DvUp0) - есть команда на движение вперёд
+#define internal1_m500_DvDw0	 BUFFER[9191]	//(internal1_m500_DvDw0) - есть команда на движение назад
+#define idinternal1_m500_DvDw0	 1597	//(internal1_m500_DvDw0) - есть команда на движение назад
+#define internal1_m500_FDvUp0	 BUFFER[9192]	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m500_FDvUp0	 1598	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
+#define internal1_m500_FDvDw0	 BUFFER[9193]	//(internal1_m500_FDvDw0) - есть команда на движение назад
+#define idinternal1_m500_FDvDw0	 1599	//(internal1_m500_FDvDw0) - есть команда на движение назад
+#define internal1_m500_BlDv0	 BUFFER[9194]	//(internal1_m500_BlDv0) - была блокировка
+#define idinternal1_m500_BlDv0	 1600	//(internal1_m500_BlDv0) - была блокировка
+#define internal1_m500_Pkv0	 BUFFER[9195]	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m500_Pkv0	 1601	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m500_Pkav0	 BUFFER[9196]	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m500_Pkav0	 1602	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m500_Zkv0	 BUFFER[9197]	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m500_Zkv0	 1603	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m500_Zkav0	 BUFFER[9198]	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m500_Zkav0	 1604	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m500_txNm	 BUFFER[9199]	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m500_txNm	 1605	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m500_txSm	 BUFFER[9204]	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m500_txSm	 1606	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m500_txHr	 BUFFER[9209]	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m500_txHr	 1607	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m500_txLd	 BUFFER[9214]	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m500_txLd	 1608	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m500_fef	 BUFFER[9219]	//(internal1_m500_fef) fef
+#define idinternal1_m500_fef	 1609	//(internal1_m500_fef) fef
+#define internal1_m898_X0	 BUFFER[9220]	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m898_X0	 1610	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m898_t0	 BUFFER[9225]	//(internal1_m898_t0) время нахождения в зоне возврата
+#define idinternal1_m898_t0	 1611	//(internal1_m898_t0) время нахождения в зоне возврата
+#define internal1_m898_BLDv0	 BUFFER[9230]	//(internal1_m898_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m898_BLDv0	 1612	//(internal1_m898_BLDv0) BlDv - Блокировка движения
+#define internal1_m916_xptr	 BUFFER[9231]	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m916_xptr	 1613	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
+#define internal1_m916_x0	 BUFFER[9234]	//(internal1_m916_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m916_x0	 1614	//(internal1_m916_x0) x0 - массив мгновенных значений координат
+#define internal1_m916_tim0	 BUFFER[9634]	//(internal1_m916_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m916_tim0	 1615	//(internal1_m916_tim0) tim0 - массив значений времени цикла
+#define internal1_m916_sumtim	 BUFFER[10034]	//(internal1_m916_sumtim) sumtim - время в пути
+#define idinternal1_m916_sumtim	 1616	//(internal1_m916_sumtim) sumtim - время в пути
+#define internal1_m916_StSpeed	 BUFFER[10039]	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m916_StSpeed	 1617	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m916_Vz0	 BUFFER[10044]	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m916_Vz0	 1618	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m916_flRazg	 BUFFER[10049]	//(internal1_m916_flRazg) признак разгона/торможения
+#define idinternal1_m916_flRazg	 1619	//(internal1_m916_flRazg) признак разгона/торможения
+#define internal1_m916_DelSp	 BUFFER[10052]	//(internal1_m916_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m916_DelSp	 1620	//(internal1_m916_DelSp) DelSp - время переключения скоростей
+#define internal1_m916_z0	 BUFFER[10057]	//(internal1_m916_z0) z0 - точка прекращения движения
+#define idinternal1_m916_z0	 1621	//(internal1_m916_z0) z0 - точка прекращения движения
+#define internal1_m916_txZS	 BUFFER[10062]	//(internal1_m916_txZS) txZS
+#define idinternal1_m916_txZS	 1622	//(internal1_m916_txZS) txZS
+#define internal1_m916_tx	 BUFFER[10067]	//(internal1_m916_tx) tx
+#define idinternal1_m916_tx	 1623	//(internal1_m916_tx) tx
+#define internal1_m916_txd	 BUFFER[10072]	//(internal1_m916_txd) txd
+#define idinternal1_m916_txd	 1624	//(internal1_m916_txd) txd
+#define internal1_m916_txMBl	 BUFFER[10077]	//(internal1_m916_txMBl) tx
+#define idinternal1_m916_txMBl	 1625	//(internal1_m916_txMBl) tx
+#define internal1_m916_txBl	 BUFFER[10082]	//(internal1_m916_txBl) tx
+#define idinternal1_m916_txBl	 1626	//(internal1_m916_txBl) tx
+#define internal1_m916_Speed0	 BUFFER[10087]	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m916_Speed0	 1627	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m916_xz0	 BUFFER[10092]	//(internal1_m916_xz0) xz0 - новое задание мм
+#define idinternal1_m916_xz0	 1628	//(internal1_m916_xz0) xz0 - новое задание мм
+#define internal1_m916_tz0	 BUFFER[10097]	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m916_tz0	 1629	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m916_Shift0	 BUFFER[10102]	//(internal1_m916_Shift0) Shift0 - признак самохода
+#define idinternal1_m916_Shift0	 1630	//(internal1_m916_Shift0) Shift0 - признак самохода
+#define internal1_m916_ShCntlSp0	 BUFFER[10104]	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m916_ShCntlSp0	 1631	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m916_ShiftControl	 BUFFER[10106]	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m916_ShiftControl	 1632	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
+#define internal1_m1757_X0	 BUFFER[10108]	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m1757_X0	 1633	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m1757_t0	 BUFFER[10113]	//(internal1_m1757_t0) время нахождения в зоне возврата
+#define idinternal1_m1757_t0	 1634	//(internal1_m1757_t0) время нахождения в зоне возврата
+#define internal1_m1757_BLDv0	 BUFFER[10118]	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m1757_BLDv0	 1635	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
+#define internal1_m1240_X0	 BUFFER[10119]	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m1240_X0	 1636	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m1240_t0	 BUFFER[10124]	//(internal1_m1240_t0) время нахождения в зоне возврата
+#define idinternal1_m1240_t0	 1637	//(internal1_m1240_t0) время нахождения в зоне возврата
+#define internal1_m1240_BLDv0	 BUFFER[10129]	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m1240_BLDv0	 1638	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
+#define internal1_m681_q0	 BUFFER[10130]	//(internal1_m681_q0) q0 - внутренний параметр
+#define idinternal1_m681_q0	 1639	//(internal1_m681_q0) q0 - внутренний параметр
+#define internal1_m1337_X0	 BUFFER[10132]	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define idinternal1_m1337_X0	 1640	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+#define internal1_m1337_t0	 BUFFER[10137]	//(internal1_m1337_t0) время нахождения в зоне возврата
+#define idinternal1_m1337_t0	 1641	//(internal1_m1337_t0) время нахождения в зоне возврата
+#define internal1_m1337_BLDv0	 BUFFER[10142]	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
+#define idinternal1_m1337_BLDv0	 1642	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
+#define internal1_m1366_tx	 BUFFER[10143]	//(internal1_m1366_tx) tx - время накопленное сек
+#define idinternal1_m1366_tx	 1643	//(internal1_m1366_tx) tx - время накопленное сек
+#define internal1_m1366_y0	 BUFFER[10148]	//(internal1_m1366_y0) y0
+#define idinternal1_m1366_y0	 1644	//(internal1_m1366_y0) y0
+#define internal1_m1365_tx	 BUFFER[10149]	//(internal1_m1365_tx) tx - время накопленное сек
+#define idinternal1_m1365_tx	 1645	//(internal1_m1365_tx) tx - время накопленное сек
+#define internal1_m1365_y0	 BUFFER[10154]	//(internal1_m1365_y0) y0
+#define idinternal1_m1365_y0	 1646	//(internal1_m1365_y0) y0
+#define internal1_m1372_xptr	 BUFFER[10155]	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m1372_xptr	 1647	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
+#define internal1_m1372_x0	 BUFFER[10158]	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m1372_x0	 1648	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
+#define internal1_m1372_tim0	 BUFFER[10558]	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m1372_tim0	 1649	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
+#define internal1_m1372_sumtim	 BUFFER[10958]	//(internal1_m1372_sumtim) sumtim - время в пути
+#define idinternal1_m1372_sumtim	 1650	//(internal1_m1372_sumtim) sumtim - время в пути
+#define internal1_m1372_StSpeed	 BUFFER[10963]	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m1372_StSpeed	 1651	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m1372_Vz0	 BUFFER[10968]	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m1372_Vz0	 1652	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m1372_flRazg	 BUFFER[10973]	//(internal1_m1372_flRazg) признак разгона/торможения
+#define idinternal1_m1372_flRazg	 1653	//(internal1_m1372_flRazg) признак разгона/торможения
+#define internal1_m1372_DelSp	 BUFFER[10976]	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m1372_DelSp	 1654	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
+#define internal1_m1372_z0	 BUFFER[10981]	//(internal1_m1372_z0) z0 - точка прекращения движения
+#define idinternal1_m1372_z0	 1655	//(internal1_m1372_z0) z0 - точка прекращения движения
+#define internal1_m1372_txZS	 BUFFER[10986]	//(internal1_m1372_txZS) txZS
+#define idinternal1_m1372_txZS	 1656	//(internal1_m1372_txZS) txZS
+#define internal1_m1372_tx	 BUFFER[10991]	//(internal1_m1372_tx) tx
+#define idinternal1_m1372_tx	 1657	//(internal1_m1372_tx) tx
+#define internal1_m1372_txd	 BUFFER[10996]	//(internal1_m1372_txd) txd
+#define idinternal1_m1372_txd	 1658	//(internal1_m1372_txd) txd
+#define internal1_m1372_txMBl	 BUFFER[11001]	//(internal1_m1372_txMBl) tx
+#define idinternal1_m1372_txMBl	 1659	//(internal1_m1372_txMBl) tx
+#define internal1_m1372_txBl	 BUFFER[11006]	//(internal1_m1372_txBl) tx
+#define idinternal1_m1372_txBl	 1660	//(internal1_m1372_txBl) tx
+#define internal1_m1372_Speed0	 BUFFER[11011]	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m1372_Speed0	 1661	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m1372_xz0	 BUFFER[11016]	//(internal1_m1372_xz0) xz0 - новое задание мм
+#define idinternal1_m1372_xz0	 1662	//(internal1_m1372_xz0) xz0 - новое задание мм
+#define internal1_m1372_tz0	 BUFFER[11021]	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m1372_tz0	 1663	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m1372_Shift0	 BUFFER[11026]	//(internal1_m1372_Shift0) Shift0 - признак самохода
+#define idinternal1_m1372_Shift0	 1664	//(internal1_m1372_Shift0) Shift0 - признак самохода
+#define internal1_m1372_ShCntlSp0	 BUFFER[11028]	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m1372_ShCntlSp0	 1665	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m1372_ShiftControl	 BUFFER[11030]	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m1372_ShiftControl	 1666	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
+#define internal1_m701_q0	 BUFFER[11032]	//(internal1_m701_q0) q0 - внутренний параметр
+#define idinternal1_m701_q0	 1667	//(internal1_m701_q0) q0 - внутренний параметр
+#define internal1_m1771_tx	 BUFFER[11034]	//(internal1_m1771_tx) tx - время накопленное сек
+#define idinternal1_m1771_tx	 1668	//(internal1_m1771_tx) tx - время накопленное сек
+#define internal1_m1771_y0	 BUFFER[11039]	//(internal1_m1771_y0) y0
+#define idinternal1_m1771_y0	 1669	//(internal1_m1771_y0) y0
+#define internal1_m1775_tx	 BUFFER[11040]	//(internal1_m1775_tx) tx - время накопленное сек
+#define idinternal1_m1775_tx	 1670	//(internal1_m1775_tx) tx - время накопленное сек
+#define internal1_m1775_y0	 BUFFER[11045]	//(internal1_m1775_y0) y0
+#define idinternal1_m1775_y0	 1671	//(internal1_m1775_y0) y0
+#define internal1_m1760_DvUp0	 BUFFER[11046]	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m1760_DvUp0	 1672	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
+#define internal1_m1760_DvDw0	 BUFFER[11047]	//(internal1_m1760_DvDw0) - есть команда на движение назад
+#define idinternal1_m1760_DvDw0	 1673	//(internal1_m1760_DvDw0) - есть команда на движение назад
+#define internal1_m1760_FDvUp0	 BUFFER[11048]	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m1760_FDvUp0	 1674	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
+#define internal1_m1760_FDvDw0	 BUFFER[11049]	//(internal1_m1760_FDvDw0) - есть команда на движение назад
+#define idinternal1_m1760_FDvDw0	 1675	//(internal1_m1760_FDvDw0) - есть команда на движение назад
+#define internal1_m1760_BlDv0	 BUFFER[11050]	//(internal1_m1760_BlDv0) - была блокировка
+#define idinternal1_m1760_BlDv0	 1676	//(internal1_m1760_BlDv0) - была блокировка
+#define internal1_m1760_Pkv0	 BUFFER[11051]	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m1760_Pkv0	 1677	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m1760_Pkav0	 BUFFER[11052]	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m1760_Pkav0	 1678	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m1760_Zkv0	 BUFFER[11053]	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m1760_Zkv0	 1679	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m1760_Zkav0	 BUFFER[11054]	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m1760_Zkav0	 1680	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m1760_txNm	 BUFFER[11055]	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m1760_txNm	 1681	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m1760_txSm	 BUFFER[11060]	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m1760_txSm	 1682	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m1760_txHr	 BUFFER[11065]	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m1760_txHr	 1683	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m1760_txLd	 BUFFER[11070]	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m1760_txLd	 1684	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m1760_fef	 BUFFER[11075]	//(internal1_m1760_fef) fef
+#define idinternal1_m1760_fef	 1685	//(internal1_m1760_fef) fef
+#define internal1_m1779_xptr	 BUFFER[11076]	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m1779_xptr	 1686	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
+#define internal1_m1779_x0	 BUFFER[11079]	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m1779_x0	 1687	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
+#define internal1_m1779_tim0	 BUFFER[11179]	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m1779_tim0	 1688	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
+#define internal1_m1779_sumtim	 BUFFER[11279]	//(internal1_m1779_sumtim) sumtim - время в пути
+#define idinternal1_m1779_sumtim	 1689	//(internal1_m1779_sumtim) sumtim - время в пути
+#define internal1_m1779_StSpeed	 BUFFER[11284]	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m1779_StSpeed	 1690	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m1779_Vz0	 BUFFER[11289]	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m1779_Vz0	 1691	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m1779_flRazg	 BUFFER[11294]	//(internal1_m1779_flRazg) признак разгона/торможения
+#define idinternal1_m1779_flRazg	 1692	//(internal1_m1779_flRazg) признак разгона/торможения
+#define internal1_m1779_DelSp	 BUFFER[11297]	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m1779_DelSp	 1693	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
+#define internal1_m1779_z0	 BUFFER[11302]	//(internal1_m1779_z0) z0 - точка прекращения движения
+#define idinternal1_m1779_z0	 1694	//(internal1_m1779_z0) z0 - точка прекращения движения
+#define internal1_m1779_txZS	 BUFFER[11307]	//(internal1_m1779_txZS) txZS
+#define idinternal1_m1779_txZS	 1695	//(internal1_m1779_txZS) txZS
+#define internal1_m1779_tx	 BUFFER[11312]	//(internal1_m1779_tx) tx
+#define idinternal1_m1779_tx	 1696	//(internal1_m1779_tx) tx
+#define internal1_m1779_txd	 BUFFER[11317]	//(internal1_m1779_txd) txd
+#define idinternal1_m1779_txd	 1697	//(internal1_m1779_txd) txd
+#define internal1_m1779_txMBl	 BUFFER[11322]	//(internal1_m1779_txMBl) tx
+#define idinternal1_m1779_txMBl	 1698	//(internal1_m1779_txMBl) tx
+#define internal1_m1779_txBl	 BUFFER[11327]	//(internal1_m1779_txBl) tx
+#define idinternal1_m1779_txBl	 1699	//(internal1_m1779_txBl) tx
+#define internal1_m1779_Speed0	 BUFFER[11332]	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m1779_Speed0	 1700	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m1779_xz0	 BUFFER[11337]	//(internal1_m1779_xz0) xz0 - новое задание мм
+#define idinternal1_m1779_xz0	 1701	//(internal1_m1779_xz0) xz0 - новое задание мм
+#define internal1_m1779_tz0	 BUFFER[11342]	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m1779_tz0	 1702	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m1779_Shift0	 BUFFER[11347]	//(internal1_m1779_Shift0) Shift0 - признак самохода
+#define idinternal1_m1779_Shift0	 1703	//(internal1_m1779_Shift0) Shift0 - признак самохода
+#define internal1_m1779_ShCntlSp0	 BUFFER[11349]	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m1779_ShCntlSp0	 1704	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m1779_ShiftControl	 BUFFER[11351]	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m1779_ShiftControl	 1705	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
+#define internal1_m1257_tx	 BUFFER[11353]	//(internal1_m1257_tx) tx - время накопленное сек
+#define idinternal1_m1257_tx	 1706	//(internal1_m1257_tx) tx - время накопленное сек
+#define internal1_m1257_y0	 BUFFER[11358]	//(internal1_m1257_y0) y0
+#define idinternal1_m1257_y0	 1707	//(internal1_m1257_y0) y0
+#define internal1_m1261_tx	 BUFFER[11359]	//(internal1_m1261_tx) tx - время накопленное сек
+#define idinternal1_m1261_tx	 1708	//(internal1_m1261_tx) tx - время накопленное сек
+#define internal1_m1261_y0	 BUFFER[11364]	//(internal1_m1261_y0) y0
+#define idinternal1_m1261_y0	 1709	//(internal1_m1261_y0) y0
+#define internal1_m691_q0	 BUFFER[11365]	//(internal1_m691_q0) q0 - внутренний параметр
+#define idinternal1_m691_q0	 1710	//(internal1_m691_q0) q0 - внутренний параметр
+#define internal1_m656_q0	 BUFFER[11367]	//(internal1_m656_q0) q0 - внутренний параметр
+#define idinternal1_m656_q0	 1711	//(internal1_m656_q0) q0 - внутренний параметр
+#define internal1_m1246_DvUp0	 BUFFER[11369]	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m1246_DvUp0	 1712	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
+#define internal1_m1246_DvDw0	 BUFFER[11370]	//(internal1_m1246_DvDw0) - есть команда на движение назад
+#define idinternal1_m1246_DvDw0	 1713	//(internal1_m1246_DvDw0) - есть команда на движение назад
+#define internal1_m1246_FDvUp0	 BUFFER[11371]	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m1246_FDvUp0	 1714	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
+#define internal1_m1246_FDvDw0	 BUFFER[11372]	//(internal1_m1246_FDvDw0) - есть команда на движение назад
+#define idinternal1_m1246_FDvDw0	 1715	//(internal1_m1246_FDvDw0) - есть команда на движение назад
+#define internal1_m1246_BlDv0	 BUFFER[11373]	//(internal1_m1246_BlDv0) - была блокировка
+#define idinternal1_m1246_BlDv0	 1716	//(internal1_m1246_BlDv0) - была блокировка
+#define internal1_m1246_Pkv0	 BUFFER[11374]	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m1246_Pkv0	 1717	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m1246_Pkav0	 BUFFER[11375]	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m1246_Pkav0	 1718	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m1246_Zkv0	 BUFFER[11376]	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m1246_Zkv0	 1719	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m1246_Zkav0	 BUFFER[11377]	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m1246_Zkav0	 1720	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m1246_txNm	 BUFFER[11378]	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m1246_txNm	 1721	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m1246_txSm	 BUFFER[11383]	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m1246_txSm	 1722	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m1246_txHr	 BUFFER[11388]	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m1246_txHr	 1723	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m1246_txLd	 BUFFER[11393]	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m1246_txLd	 1724	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m1246_fef	 BUFFER[11398]	//(internal1_m1246_fef) fef
+#define idinternal1_m1246_fef	 1725	//(internal1_m1246_fef) fef
+#define internal1_m1267_xptr	 BUFFER[11399]	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
+#define idinternal1_m1267_xptr	 1726	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
+#define internal1_m1267_x0	 BUFFER[11402]	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
+#define idinternal1_m1267_x0	 1727	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
+#define internal1_m1267_tim0	 BUFFER[11502]	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
+#define idinternal1_m1267_tim0	 1728	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
+#define internal1_m1267_sumtim	 BUFFER[11602]	//(internal1_m1267_sumtim) sumtim - время в пути
+#define idinternal1_m1267_sumtim	 1729	//(internal1_m1267_sumtim) sumtim - время в пути
+#define internal1_m1267_StSpeed	 BUFFER[11607]	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define idinternal1_m1267_StSpeed	 1730	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+#define internal1_m1267_Vz0	 BUFFER[11612]	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
+#define idinternal1_m1267_Vz0	 1731	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
+#define internal1_m1267_flRazg	 BUFFER[11617]	//(internal1_m1267_flRazg) признак разгона/торможения
+#define idinternal1_m1267_flRazg	 1732	//(internal1_m1267_flRazg) признак разгона/торможения
+#define internal1_m1267_DelSp	 BUFFER[11620]	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
+#define idinternal1_m1267_DelSp	 1733	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
+#define internal1_m1267_z0	 BUFFER[11625]	//(internal1_m1267_z0) z0 - точка прекращения движения
+#define idinternal1_m1267_z0	 1734	//(internal1_m1267_z0) z0 - точка прекращения движения
+#define internal1_m1267_txZS	 BUFFER[11630]	//(internal1_m1267_txZS) txZS
+#define idinternal1_m1267_txZS	 1735	//(internal1_m1267_txZS) txZS
+#define internal1_m1267_tx	 BUFFER[11635]	//(internal1_m1267_tx) tx
+#define idinternal1_m1267_tx	 1736	//(internal1_m1267_tx) tx
+#define internal1_m1267_txd	 BUFFER[11640]	//(internal1_m1267_txd) txd
+#define idinternal1_m1267_txd	 1737	//(internal1_m1267_txd) txd
+#define internal1_m1267_txMBl	 BUFFER[11645]	//(internal1_m1267_txMBl) tx
+#define idinternal1_m1267_txMBl	 1738	//(internal1_m1267_txMBl) tx
+#define internal1_m1267_txBl	 BUFFER[11650]	//(internal1_m1267_txBl) tx
+#define idinternal1_m1267_txBl	 1739	//(internal1_m1267_txBl) tx
+#define internal1_m1267_Speed0	 BUFFER[11655]	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define idinternal1_m1267_Speed0	 1740	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
+#define internal1_m1267_xz0	 BUFFER[11660]	//(internal1_m1267_xz0) xz0 - новое задание мм
+#define idinternal1_m1267_xz0	 1741	//(internal1_m1267_xz0) xz0 - новое задание мм
+#define internal1_m1267_tz0	 BUFFER[11665]	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
+#define idinternal1_m1267_tz0	 1742	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
+#define internal1_m1267_Shift0	 BUFFER[11670]	//(internal1_m1267_Shift0) Shift0 - признак самохода
+#define idinternal1_m1267_Shift0	 1743	//(internal1_m1267_Shift0) Shift0 - признак самохода
+#define internal1_m1267_ShCntlSp0	 BUFFER[11672]	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define idinternal1_m1267_ShCntlSp0	 1744	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+#define internal1_m1267_ShiftControl	 BUFFER[11674]	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
+#define idinternal1_m1267_ShiftControl	 1745	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
+#define internal1_m819_x0	 BUFFER[11676]	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m819_x0	 1746	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m788_x0	 BUFFER[11678]	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m788_x0	 1747	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m730_x0	 BUFFER[11680]	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
+#define idinternal1_m730_x0	 1748	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
+#define internal1_m844_q0	 BUFFER[11682]	//(internal1_m844_q0) q0 - внутренний параметр
+#define idinternal1_m844_q0	 1749	//(internal1_m844_q0) q0 - внутренний параметр
+#define internal1_m839_q0	 BUFFER[11684]	//(internal1_m839_q0) q0 - внутренний параметр
+#define idinternal1_m839_q0	 1750	//(internal1_m839_q0) q0 - внутренний параметр
+#define internal1_m807_q0	 BUFFER[11686]	//(internal1_m807_q0) q0 - внутренний параметр
+#define idinternal1_m807_q0	 1751	//(internal1_m807_q0) q0 - внутренний параметр
+#define internal1_m812_q0	 BUFFER[11688]	//(internal1_m812_q0) q0 - внутренний параметр
+#define idinternal1_m812_q0	 1752	//(internal1_m812_q0) q0 - внутренний параметр
+#define internal1_m820_q0	 BUFFER[11690]	//(internal1_m820_q0) q0 - внутренний параметр
+#define idinternal1_m820_q0	 1753	//(internal1_m820_q0) q0 - внутренний параметр
+#define internal1_m832_q0	 BUFFER[11692]	//(internal1_m832_q0) q0 - внутренний параметр
+#define idinternal1_m832_q0	 1754	//(internal1_m832_q0) q0 - внутренний параметр
+#define internal1_m810_q0	 BUFFER[11694]	//(internal1_m810_q0) q0 - внутренний параметр
+#define idinternal1_m810_q0	 1755	//(internal1_m810_q0) q0 - внутренний параметр
+#define internal1_m1310_DvUp0	 BUFFER[11696]	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m1310_DvUp0	 1756	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
+#define internal1_m1310_DvDw0	 BUFFER[11697]	//(internal1_m1310_DvDw0) - есть команда на движение назад
+#define idinternal1_m1310_DvDw0	 1757	//(internal1_m1310_DvDw0) - есть команда на движение назад
+#define internal1_m1310_FDvUp0	 BUFFER[11698]	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m1310_FDvUp0	 1758	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
+#define internal1_m1310_FDvDw0	 BUFFER[11699]	//(internal1_m1310_FDvDw0) - есть команда на движение назад
+#define idinternal1_m1310_FDvDw0	 1759	//(internal1_m1310_FDvDw0) - есть команда на движение назад
+#define internal1_m1310_BlDv0	 BUFFER[11700]	//(internal1_m1310_BlDv0) - была блокировка
+#define idinternal1_m1310_BlDv0	 1760	//(internal1_m1310_BlDv0) - была блокировка
+#define internal1_m1310_Pkv0	 BUFFER[11701]	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m1310_Pkv0	 1761	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m1310_Pkav0	 BUFFER[11702]	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m1310_Pkav0	 1762	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m1310_Zkv0	 BUFFER[11703]	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m1310_Zkv0	 1763	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m1310_Zkav0	 BUFFER[11704]	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m1310_Zkav0	 1764	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m1310_txNm	 BUFFER[11705]	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m1310_txNm	 1765	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m1310_txSm	 BUFFER[11710]	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m1310_txSm	 1766	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m1310_txHr	 BUFFER[11715]	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m1310_txHr	 1767	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m1310_txLd	 BUFFER[11720]	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m1310_txLd	 1768	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m1310_fef	 BUFFER[11725]	//(internal1_m1310_fef) fef
+#define idinternal1_m1310_fef	 1769	//(internal1_m1310_fef) fef
+#define internal1_m1300_DvUp0	 BUFFER[11726]	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m1300_DvUp0	 1770	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
+#define internal1_m1300_DvDw0	 BUFFER[11727]	//(internal1_m1300_DvDw0) - есть команда на движение назад
+#define idinternal1_m1300_DvDw0	 1771	//(internal1_m1300_DvDw0) - есть команда на движение назад
+#define internal1_m1300_FDvUp0	 BUFFER[11728]	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m1300_FDvUp0	 1772	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
+#define internal1_m1300_FDvDw0	 BUFFER[11729]	//(internal1_m1300_FDvDw0) - есть команда на движение назад
+#define idinternal1_m1300_FDvDw0	 1773	//(internal1_m1300_FDvDw0) - есть команда на движение назад
+#define internal1_m1300_BlDv0	 BUFFER[11730]	//(internal1_m1300_BlDv0) - была блокировка
+#define idinternal1_m1300_BlDv0	 1774	//(internal1_m1300_BlDv0) - была блокировка
+#define internal1_m1300_Pkv0	 BUFFER[11731]	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m1300_Pkv0	 1775	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m1300_Pkav0	 BUFFER[11732]	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m1300_Pkav0	 1776	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m1300_Zkv0	 BUFFER[11733]	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m1300_Zkv0	 1777	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m1300_Zkav0	 BUFFER[11734]	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m1300_Zkav0	 1778	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m1300_txNm	 BUFFER[11735]	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m1300_txNm	 1779	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m1300_txSm	 BUFFER[11740]	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m1300_txSm	 1780	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m1300_txHr	 BUFFER[11745]	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m1300_txHr	 1781	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m1300_txLd	 BUFFER[11750]	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m1300_txLd	 1782	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m1300_fef	 BUFFER[11755]	//(internal1_m1300_fef) fef
+#define idinternal1_m1300_fef	 1783	//(internal1_m1300_fef) fef
+#define internal1_m868_DvUp0	 BUFFER[11756]	//(internal1_m868_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m868_DvUp0	 1784	//(internal1_m868_DvUp0) - есть команда на движение вперёд
+#define internal1_m868_DvDw0	 BUFFER[11757]	//(internal1_m868_DvDw0) - есть команда на движение назад
+#define idinternal1_m868_DvDw0	 1785	//(internal1_m868_DvDw0) - есть команда на движение назад
+#define internal1_m868_FDvUp0	 BUFFER[11758]	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m868_FDvUp0	 1786	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
+#define internal1_m868_FDvDw0	 BUFFER[11759]	//(internal1_m868_FDvDw0) - есть команда на движение назад
+#define idinternal1_m868_FDvDw0	 1787	//(internal1_m868_FDvDw0) - есть команда на движение назад
+#define internal1_m868_BlDv0	 BUFFER[11760]	//(internal1_m868_BlDv0) - была блокировка
+#define idinternal1_m868_BlDv0	 1788	//(internal1_m868_BlDv0) - была блокировка
+#define internal1_m868_Pkv0	 BUFFER[11761]	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m868_Pkv0	 1789	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m868_Pkav0	 BUFFER[11762]	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m868_Pkav0	 1790	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m868_Zkv0	 BUFFER[11763]	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m868_Zkv0	 1791	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m868_Zkav0	 BUFFER[11764]	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m868_Zkav0	 1792	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m868_txNm	 BUFFER[11765]	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m868_txNm	 1793	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m868_txSm	 BUFFER[11770]	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m868_txSm	 1794	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m868_txHr	 BUFFER[11775]	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m868_txHr	 1795	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m868_txLd	 BUFFER[11780]	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m868_txLd	 1796	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m868_fef	 BUFFER[11785]	//(internal1_m868_fef) fef
+#define idinternal1_m868_fef	 1797	//(internal1_m868_fef) fef
+#define internal1_m864_DvUp0	 BUFFER[11786]	//(internal1_m864_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m864_DvUp0	 1798	//(internal1_m864_DvUp0) - есть команда на движение вперёд
+#define internal1_m864_DvDw0	 BUFFER[11787]	//(internal1_m864_DvDw0) - есть команда на движение назад
+#define idinternal1_m864_DvDw0	 1799	//(internal1_m864_DvDw0) - есть команда на движение назад
+#define internal1_m864_FDvUp0	 BUFFER[11788]	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m864_FDvUp0	 1800	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
+#define internal1_m864_FDvDw0	 BUFFER[11789]	//(internal1_m864_FDvDw0) - есть команда на движение назад
+#define idinternal1_m864_FDvDw0	 1801	//(internal1_m864_FDvDw0) - есть команда на движение назад
+#define internal1_m864_BlDv0	 BUFFER[11790]	//(internal1_m864_BlDv0) - была блокировка
+#define idinternal1_m864_BlDv0	 1802	//(internal1_m864_BlDv0) - была блокировка
+#define internal1_m864_Pkv0	 BUFFER[11791]	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m864_Pkv0	 1803	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m864_Pkav0	 BUFFER[11792]	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m864_Pkav0	 1804	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m864_Zkv0	 BUFFER[11793]	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m864_Zkv0	 1805	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m864_Zkav0	 BUFFER[11794]	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m864_Zkav0	 1806	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m864_txNm	 BUFFER[11795]	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m864_txNm	 1807	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m864_txSm	 BUFFER[11800]	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m864_txSm	 1808	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m864_txHr	 BUFFER[11805]	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m864_txHr	 1809	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m864_txLd	 BUFFER[11810]	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m864_txLd	 1810	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m864_fef	 BUFFER[11815]	//(internal1_m864_fef) fef
+#define idinternal1_m864_fef	 1811	//(internal1_m864_fef) fef
+#define internal1_m379_DvUp0	 BUFFER[11816]	//(internal1_m379_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m379_DvUp0	 1812	//(internal1_m379_DvUp0) - есть команда на движение вперёд
+#define internal1_m379_DvDw0	 BUFFER[11817]	//(internal1_m379_DvDw0) - есть команда на движение назад
+#define idinternal1_m379_DvDw0	 1813	//(internal1_m379_DvDw0) - есть команда на движение назад
+#define internal1_m379_FDvUp0	 BUFFER[11818]	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m379_FDvUp0	 1814	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
+#define internal1_m379_FDvDw0	 BUFFER[11819]	//(internal1_m379_FDvDw0) - есть команда на движение назад
+#define idinternal1_m379_FDvDw0	 1815	//(internal1_m379_FDvDw0) - есть команда на движение назад
+#define internal1_m379_BlDv0	 BUFFER[11820]	//(internal1_m379_BlDv0) - была блокировка
+#define idinternal1_m379_BlDv0	 1816	//(internal1_m379_BlDv0) - была блокировка
+#define internal1_m379_Pkv0	 BUFFER[11821]	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m379_Pkv0	 1817	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m379_Pkav0	 BUFFER[11822]	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m379_Pkav0	 1818	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m379_Zkv0	 BUFFER[11823]	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m379_Zkv0	 1819	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m379_Zkav0	 BUFFER[11824]	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m379_Zkav0	 1820	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m379_txNm	 BUFFER[11825]	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m379_txNm	 1821	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m379_txSm	 BUFFER[11830]	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m379_txSm	 1822	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m379_txHr	 BUFFER[11835]	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m379_txHr	 1823	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m379_txLd	 BUFFER[11840]	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m379_txLd	 1824	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m379_fef	 BUFFER[11845]	//(internal1_m379_fef) fef
+#define idinternal1_m379_fef	 1825	//(internal1_m379_fef) fef
+#define internal1_m416_DvUp0	 BUFFER[11846]	//(internal1_m416_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m416_DvUp0	 1826	//(internal1_m416_DvUp0) - есть команда на движение вперёд
+#define internal1_m416_DvDw0	 BUFFER[11847]	//(internal1_m416_DvDw0) - есть команда на движение назад
+#define idinternal1_m416_DvDw0	 1827	//(internal1_m416_DvDw0) - есть команда на движение назад
+#define internal1_m416_FDvUp0	 BUFFER[11848]	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m416_FDvUp0	 1828	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
+#define internal1_m416_FDvDw0	 BUFFER[11849]	//(internal1_m416_FDvDw0) - есть команда на движение назад
+#define idinternal1_m416_FDvDw0	 1829	//(internal1_m416_FDvDw0) - есть команда на движение назад
+#define internal1_m416_BlDv0	 BUFFER[11850]	//(internal1_m416_BlDv0) - была блокировка
+#define idinternal1_m416_BlDv0	 1830	//(internal1_m416_BlDv0) - была блокировка
+#define internal1_m416_Pkv0	 BUFFER[11851]	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m416_Pkv0	 1831	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m416_Pkav0	 BUFFER[11852]	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m416_Pkav0	 1832	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m416_Zkv0	 BUFFER[11853]	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m416_Zkv0	 1833	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m416_Zkav0	 BUFFER[11854]	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m416_Zkav0	 1834	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m416_txNm	 BUFFER[11855]	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m416_txNm	 1835	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m416_txSm	 BUFFER[11860]	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m416_txSm	 1836	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m416_txHr	 BUFFER[11865]	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m416_txHr	 1837	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m416_txLd	 BUFFER[11870]	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m416_txLd	 1838	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m416_fef	 BUFFER[11875]	//(internal1_m416_fef) fef
+#define idinternal1_m416_fef	 1839	//(internal1_m416_fef) fef
+#define internal1_m410_DvUp0	 BUFFER[11876]	//(internal1_m410_DvUp0) - есть команда на движение вперёд
+#define idinternal1_m410_DvUp0	 1840	//(internal1_m410_DvUp0) - есть команда на движение вперёд
+#define internal1_m410_DvDw0	 BUFFER[11877]	//(internal1_m410_DvDw0) - есть команда на движение назад
+#define idinternal1_m410_DvDw0	 1841	//(internal1_m410_DvDw0) - есть команда на движение назад
+#define internal1_m410_FDvUp0	 BUFFER[11878]	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
+#define idinternal1_m410_FDvUp0	 1842	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
+#define internal1_m410_FDvDw0	 BUFFER[11879]	//(internal1_m410_FDvDw0) - есть команда на движение назад
+#define idinternal1_m410_FDvDw0	 1843	//(internal1_m410_FDvDw0) - есть команда на движение назад
+#define internal1_m410_BlDv0	 BUFFER[11880]	//(internal1_m410_BlDv0) - была блокировка
+#define idinternal1_m410_BlDv0	 1844	//(internal1_m410_BlDv0) - была блокировка
+#define internal1_m410_Pkv0	 BUFFER[11881]	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
+#define idinternal1_m410_Pkv0	 1845	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
+#define internal1_m410_Pkav0	 BUFFER[11882]	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
+#define idinternal1_m410_Pkav0	 1846	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
+#define internal1_m410_Zkv0	 BUFFER[11883]	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
+#define idinternal1_m410_Zkv0	 1847	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
+#define internal1_m410_Zkav0	 BUFFER[11884]	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
+#define idinternal1_m410_Zkav0	 1848	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
+#define internal1_m410_txNm	 BUFFER[11885]	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
+#define idinternal1_m410_txNm	 1849	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
+#define internal1_m410_txSm	 BUFFER[11890]	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
+#define idinternal1_m410_txSm	 1850	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
+#define internal1_m410_txHr	 BUFFER[11895]	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define idinternal1_m410_txHr	 1851	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+#define internal1_m410_txLd	 BUFFER[11900]	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define idinternal1_m410_txLd	 1852	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+#define internal1_m410_fef	 BUFFER[11905]	//(internal1_m410_fef) fef
+#define idinternal1_m410_fef	 1853	//(internal1_m410_fef) fef
+#define internal1_m816_q0	 BUFFER[11906]	//(internal1_m816_q0) q0 - внутренний параметр
+#define idinternal1_m816_q0	 1854	//(internal1_m816_q0) q0 - внутренний параметр
+#define internal1_m813_q0	 BUFFER[11908]	//(internal1_m813_q0) q0 - внутренний параметр
+#define idinternal1_m813_q0	 1855	//(internal1_m813_q0) q0 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &A3VZ15LZ2},	//(vds32:03 - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС
@@ -3937,18 +3985,18 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 258	,1	,1	, &B0VP71LZ2},	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
 	{ 259	,1	,1	, &A0VS11LDU},	//( - , DU) АЗ1 готова к работе
 	{ 260	,1	,1	, &B0VS11LDU},	//( - , DU) АЗ2 готова к работе
-	{ 261	,1	,1	, &A1IE01LDU},	//(vds32:05 - K02VDSR, DU) Исправность БУШД ББ1
-	{ 262	,1	,1	, &A3IE01LDU},	//(vds32:05 - K10VDSR, DU) Исправность БУШД ИС1
-	{ 263	,1	,1	, &A2IE01LDU},	//(vds32:05 - K06VDSR, DU) Исправность БУШД РБ1
-	{ 264	,1	,1	, &A1IE02LDU},	//(vds32:05 - K01VDSR, DU) Исправность ИП ББ1
-	{ 265	,1	,1	, &A3IE02LDU},	//(vds32:05 - K09VDSR, DU) Исправность ИП ИС1
-	{ 266	,1	,1	, &A2IE02LDU},	//(vds32:05 - K05VDSR, DU) Исправность ИП РБ1
-	{ 267	,1	,1	, &B1IE01LDU},	//(vds32:05 - K14VDSR, DU) Исправность БУШД ББ2
-	{ 268	,1	,1	, &B2IE01LDU},	//(vds32:05 - K18VDSR, DU) Исправность БУШД РБ2
-	{ 269	,1	,1	, &B3IE01LDU},	//(vds32:05 - K22VDSR, DU) Исправность БУШД ИС2
-	{ 270	,1	,1	, &B1IE02LDU},	//(vds32:05 - K13VDSR, DU) Исправность ИП ББ2
-	{ 271	,1	,1	, &B3IE02LDU},	//(vds32:05 - K21VDSR, DU) Исправность ИП ИС2
-	{ 272	,1	,1	, &B2IE02LDU},	//(vds32:05 - K17VDSR, DU) Исправность ИП РБ2
+	{ 261	,1	,1	, &A1IE01LDU},	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+	{ 262	,1	,1	, &A3IE01LDU},	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+	{ 263	,1	,1	, &A2IE01LDU},	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+	{ 264	,1	,1	, &A1IE02LDU},	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+	{ 265	,1	,1	, &A3IE02LDU},	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+	{ 266	,1	,1	, &A2IE02LDU},	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+	{ 267	,1	,1	, &B1IE01LDU},	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+	{ 268	,1	,1	, &B2IE01LDU},	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+	{ 269	,1	,1	, &B3IE01LDU},	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+	{ 270	,1	,1	, &B1IE02LDU},	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+	{ 271	,1	,1	, &B3IE02LDU},	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+	{ 272	,1	,1	, &B2IE02LDU},	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
 	{ 273	,1	,1	, &R0IE02LDU},	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
 	{ 274	,8	,1	, &R0VN12RDU},	//( - , DU) Заданная мощность РУ
 	{ 275	,1	,1	, &R0AB19LDU},	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
@@ -4569,945 +4617,969 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 890	,8	,1	, &fEM_R0UN24RDU},	//(R0UN24RDU) Нижняя граница интервала мощности для измерения периода (ватт)
 	{ 891	,8	,1	, &fEM_R0UL25RDU},	//(R0UL25RDU) Предельное отклонение от времени задержки  сброса от ВУ ИС
 	{ 892	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 893	,8	,1	, &internal2_m182_y0},	//(internal2_m182_y0) y0
-	{ 894	,8	,1	, &internal2_m180_y0},	//(internal2_m180_y0) y0
-	{ 895	,1	,1	, &internal2_m215_y0},	//(internal2_m215_y0) state
-	{ 896	,1	,1	, &internal2_m207_y0},	//(internal2_m207_y0) state
-	{ 897	,1	,1	, &internal2_m196_y1},	//(internal2_m196_y1) y1 - внутренний параметр
-	{ 898	,1	,1	, &internal2_m203_y1},	//(internal2_m203_y1) y1 - внутренний параметр
-	{ 899	,1	,1	, &internal2_m185_y1},	//(internal2_m185_y1) y1 - внутренний параметр
-	{ 900	,1	,1	, &internal2_m193_y1},	//(internal2_m193_y1) y1 - внутренний параметр
-	{ 901	,5	,1	, &internal2_m17_Nk0},	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 902	,1	,1	, &internal2_m17_SetFlag},	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 903	,5	,1	, &internal2_m110_Nk0},	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 904	,1	,1	, &internal2_m110_SetFlag},	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 905	,5	,1	, &internal2_m106_Nk0},	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 906	,1	,1	, &internal2_m106_SetFlag},	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 907	,5	,1	, &internal2_m79_Nk0},	//(internal2_m79_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 908	,1	,1	, &internal2_m79_SetFlag},	//(internal2_m79_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 909	,5	,1	, &internal2_m83_Nk0},	//(internal2_m83_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 910	,1	,1	, &internal2_m83_SetFlag},	//(internal2_m83_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 911	,5	,1	, &internal2_m45_Nk0},	//(internal2_m45_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 912	,1	,1	, &internal2_m45_SetFlag},	//(internal2_m45_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 913	,5	,1	, &internal2_m53_Nk0},	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 914	,1	,1	, &internal2_m53_SetFlag},	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 915	,5	,1	, &internal2_m15_Nk0},	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
-	{ 916	,1	,1	, &internal2_m15_SetFlag},	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
-	{ 917	,8	,1	, &internal1_m2019_tx},	//(internal1_m2019_tx) tx - внутренний параметр
-	{ 918	,8	,1	, &internal1_m2018_tx},	//(internal1_m2018_tx) tx - внутренний параметр
-	{ 919	,8	,1	, &internal1_m774_tx},	//(internal1_m774_tx) tx - внутренний параметр
-	{ 920	,8	,1	, &internal1_m731_tx},	//(internal1_m731_tx) tx - внутренний параметр
-	{ 921	,8	,1	, &internal1_m784_tx},	//(internal1_m784_tx) tx - внутренний параметр
-	{ 922	,8	,1	, &internal1_m786_tx},	//(internal1_m786_tx) tx - внутренний параметр
-	{ 923	,8	,1	, &internal1_m785_tx},	//(internal1_m785_tx) tx - внутренний параметр
-	{ 924	,8	,1	, &internal1_m740_tx},	//(internal1_m740_tx) tx - внутренний параметр
-	{ 925	,8	,1	, &internal1_m724_tx},	//(internal1_m724_tx) tx - внутренний параметр
-	{ 926	,8	,1	, &internal1_m735_tx},	//(internal1_m735_tx) tx - внутренний параметр
-	{ 927	,8	,1	, &internal1_m766_tx},	//(internal1_m766_tx) tx - внутренний параметр
-	{ 928	,8	,1	, &internal1_m783_tx},	//(internal1_m783_tx) tx - внутренний параметр
-	{ 929	,8	,1	, &internal1_m756_tx},	//(internal1_m756_tx) tx - внутренний параметр
-	{ 930	,8	,1	, &internal1_m387_tx},	//(internal1_m387_tx) tx - внутренний параметр
-	{ 931	,8	,1	, &internal1_m386_tx},	//(internal1_m386_tx) tx - внутренний параметр
-	{ 932	,8	,1	, &internal1_m385_tx},	//(internal1_m385_tx) tx - внутренний параметр
-	{ 933	,8	,1	, &internal1_m384_tx},	//(internal1_m384_tx) tx - внутренний параметр
-	{ 934	,8	,1	, &internal1_m755_tx},	//(internal1_m755_tx) tx - внутренний параметр
-	{ 935	,8	,1	, &internal1_m750_tx},	//(internal1_m750_tx) tx - внутренний параметр
-	{ 936	,8	,1	, &internal1_m759_tx},	//(internal1_m759_tx) tx - внутренний параметр
-	{ 937	,8	,1	, &internal1_m764_tx},	//(internal1_m764_tx) tx - внутренний параметр
-	{ 938	,8	,1	, &internal1_m520_tx},	//(internal1_m520_tx) tx - внутренний параметр
-	{ 939	,8	,1	, &internal1_m519_tx},	//(internal1_m519_tx) tx - внутренний параметр
-	{ 940	,8	,1	, &internal1_m518_tx},	//(internal1_m518_tx) tx - внутренний параметр
-	{ 941	,8	,1	, &internal1_m514_tx},	//(internal1_m514_tx) tx - внутренний параметр
-	{ 942	,8	,1	, &internal1_m491_tx},	//(internal1_m491_tx) tx - внутренний параметр
-	{ 943	,8	,1	, &internal1_m490_tx},	//(internal1_m490_tx) tx - внутренний параметр
-	{ 944	,8	,1	, &internal1_m489_tx},	//(internal1_m489_tx) tx - внутренний параметр
-	{ 945	,8	,1	, &internal1_m492_tx},	//(internal1_m492_tx) tx - внутренний параметр
-	{ 946	,8	,1	, &internal1_m2436_tx},	//(internal1_m2436_tx) tx - внутренний параметр
-	{ 947	,8	,1	, &internal1_m2145_tx},	//(internal1_m2145_tx) tx - внутренний параметр
-	{ 948	,8	,1	, &internal1_m2435_tx},	//(internal1_m2435_tx) tx - внутренний параметр
-	{ 949	,8	,1	, &internal1_m2434_tx},	//(internal1_m2434_tx) tx - внутренний параметр
-	{ 950	,8	,1	, &internal1_m2433_tx},	//(internal1_m2433_tx) tx - внутренний параметр
-	{ 951	,8	,1	, &internal1_m102_tx},	//(internal1_m102_tx) tx - внутренний параметр
-	{ 952	,8	,1	, &internal1_m1138_tx},	//(internal1_m1138_tx) tx - внутренний параметр
-	{ 953	,8	,1	, &internal1_m2291_tx},	//(internal1_m2291_tx) tx - внутренний параметр
-	{ 954	,8	,1	, &internal1_m2290_tx},	//(internal1_m2290_tx) tx - внутренний параметр
-	{ 955	,8	,1	, &internal1_m2289_tx},	//(internal1_m2289_tx) tx - внутренний параметр
-	{ 956	,8	,1	, &internal1_m1224_tx},	//(internal1_m1224_tx) tx - внутренний параметр
-	{ 957	,8	,1	, &internal1_m1223_tx},	//(internal1_m1223_tx) tx - внутренний параметр
-	{ 958	,8	,1	, &internal1_m1222_tx},	//(internal1_m1222_tx) tx - внутренний параметр
-	{ 959	,8	,1	, &internal1_m1215_tx},	//(internal1_m1215_tx) tx - внутренний параметр
-	{ 960	,8	,1	, &internal1_m1213_tx},	//(internal1_m1213_tx) tx - внутренний параметр
-	{ 961	,8	,1	, &internal1_m1211_tx},	//(internal1_m1211_tx) tx - внутренний параметр
-	{ 962	,8	,1	, &internal1_m1209_tx},	//(internal1_m1209_tx) tx - внутренний параметр
-	{ 963	,8	,1	, &internal1_m1252_tx},	//(internal1_m1252_tx) tx - внутренний параметр
-	{ 964	,8	,1	, &internal1_m1259_tx},	//(internal1_m1259_tx) tx - внутренний параметр
-	{ 965	,8	,1	, &internal1_m1264_tx},	//(internal1_m1264_tx) tx - внутренний параметр
-	{ 966	,8	,1	, &internal1_m1270_tx},	//(internal1_m1270_tx) tx - внутренний параметр
-	{ 967	,8	,1	, &internal1_m1230_tx},	//(internal1_m1230_tx) tx - внутренний параметр
-	{ 968	,8	,1	, &internal1_m1251_tx},	//(internal1_m1251_tx) tx - внутренний параметр
-	{ 969	,8	,1	, &internal1_m1265_tx},	//(internal1_m1265_tx) tx - внутренний параметр
-	{ 970	,8	,1	, &internal1_m469_tx},	//(internal1_m469_tx) tx - внутренний параметр
-	{ 971	,8	,1	, &internal1_m463_tx},	//(internal1_m463_tx) tx - внутренний параметр
-	{ 972	,8	,1	, &internal1_m465_tx},	//(internal1_m465_tx) tx - внутренний параметр
-	{ 973	,8	,1	, &internal1_m467_tx},	//(internal1_m467_tx) tx - внутренний параметр
-	{ 974	,8	,1	, &internal1_m474_tx},	//(internal1_m474_tx) tx - внутренний параметр
-	{ 975	,8	,1	, &internal1_m428_tx},	//(internal1_m428_tx) tx - внутренний параметр
-	{ 976	,8	,1	, &internal1_m426_tx},	//(internal1_m426_tx) tx - внутренний параметр
-	{ 977	,8	,1	, &internal1_m427_tx},	//(internal1_m427_tx) tx - внутренний параметр
-	{ 978	,8	,1	, &internal1_m420_tx},	//(internal1_m420_tx) tx - внутренний параметр
-	{ 979	,8	,1	, &internal1_m882_tx},	//(internal1_m882_tx) tx - внутренний параметр
-	{ 980	,8	,1	, &internal1_m881_tx},	//(internal1_m881_tx) tx - внутренний параметр
-	{ 981	,8	,1	, &internal1_m880_tx},	//(internal1_m880_tx) tx - внутренний параметр
-	{ 982	,8	,1	, &internal1_m876_tx},	//(internal1_m876_tx) tx - внутренний параметр
-	{ 983	,8	,1	, &internal1_m1316_tx},	//(internal1_m1316_tx) tx - внутренний параметр
-	{ 984	,8	,1	, &internal1_m1315_tx},	//(internal1_m1315_tx) tx - внутренний параметр
-	{ 985	,8	,1	, &internal1_m1314_tx},	//(internal1_m1314_tx) tx - внутренний параметр
-	{ 986	,8	,1	, &internal1_m1527_tx},	//(internal1_m1527_tx) tx - внутренний параметр
-	{ 987	,8	,1	, &internal1_m1540_tx},	//(internal1_m1540_tx) tx - внутренний параметр
-	{ 988	,8	,1	, &internal1_m1539_tx},	//(internal1_m1539_tx) tx - внутренний параметр
-	{ 989	,8	,1	, &internal1_m1538_tx},	//(internal1_m1538_tx) tx - внутренний параметр
-	{ 990	,8	,1	, &internal1_m1529_tx},	//(internal1_m1529_tx) tx - внутренний параметр
-	{ 991	,8	,1	, &internal1_m2263_tx},	//(internal1_m2263_tx) tx - внутренний параметр
-	{ 992	,8	,1	, &internal1_m2246_tx},	//(internal1_m2246_tx) tx - внутренний параметр
-	{ 993	,8	,1	, &internal1_m2223_tx},	//(internal1_m2223_tx) tx - внутренний параметр
-	{ 994	,8	,1	, &internal1_m1537_tx},	//(internal1_m1537_tx) tx - внутренний параметр
-	{ 995	,8	,1	, &internal1_m1517_tx},	//(internal1_m1517_tx) tx - внутренний параметр
-	{ 996	,8	,1	, &internal1_m1516_tx},	//(internal1_m1516_tx) tx - внутренний параметр
-	{ 997	,8	,1	, &internal1_m1514_tx},	//(internal1_m1514_tx) tx - внутренний параметр
-	{ 998	,8	,1	, &internal1_m1536_tx},	//(internal1_m1536_tx) tx - внутренний параметр
-	{ 999	,8	,1	, &internal1_m1502_tx},	//(internal1_m1502_tx) tx - внутренний параметр
-	{ 1000	,8	,1	, &internal1_m1504_tx},	//(internal1_m1504_tx) tx - внутренний параметр
-	{ 1001	,8	,1	, &internal1_m1501_tx},	//(internal1_m1501_tx) tx - внутренний параметр
-	{ 1002	,8	,1	, &internal1_m1474_tx},	//(internal1_m1474_tx) tx - внутренний параметр
-	{ 1003	,8	,1	, &internal1_m1473_tx},	//(internal1_m1473_tx) tx - внутренний параметр
-	{ 1004	,8	,1	, &internal1_m1482_tx},	//(internal1_m1482_tx) tx - внутренний параметр
-	{ 1005	,8	,1	, &internal1_m1486_tx},	//(internal1_m1486_tx) tx - внутренний параметр
-	{ 1006	,8	,1	, &internal1_m975_tx},	//(internal1_m975_tx) tx - внутренний параметр
-	{ 1007	,8	,1	, &internal1_m978_tx},	//(internal1_m978_tx) tx - внутренний параметр
-	{ 1008	,8	,1	, &internal1_m2214_tx},	//(internal1_m2214_tx) tx - внутренний параметр
-	{ 1009	,8	,1	, &internal1_m968_tx},	//(internal1_m968_tx) tx - внутренний параметр
-	{ 1010	,8	,1	, &internal1_m966_tx},	//(internal1_m966_tx) tx - внутренний параметр
-	{ 1011	,8	,1	, &internal1_m974_tx},	//(internal1_m974_tx) tx - внутренний параметр
-	{ 1012	,8	,1	, &internal1_m958_tx},	//(internal1_m958_tx) tx - внутренний параметр
-	{ 1013	,8	,1	, &internal1_m956_tx},	//(internal1_m956_tx) tx - внутренний параметр
-	{ 1014	,8	,1	, &internal1_m952_tx},	//(internal1_m952_tx) tx - внутренний параметр
-	{ 1015	,8	,1	, &internal1_m973_tx},	//(internal1_m973_tx) tx - внутренний параметр
-	{ 1016	,8	,1	, &internal1_m940_tx},	//(internal1_m940_tx) tx - внутренний параметр
-	{ 1017	,8	,1	, &internal1_m941_tx},	//(internal1_m941_tx) tx - внутренний параметр
-	{ 1018	,8	,1	, &internal1_m938_tx},	//(internal1_m938_tx) tx - внутренний параметр
-	{ 1019	,8	,1	, &internal1_m626_tx},	//(internal1_m626_tx) tx - внутренний параметр
-	{ 1020	,8	,1	, &internal1_m629_tx},	//(internal1_m629_tx) tx - внутренний параметр
-	{ 1021	,8	,1	, &internal1_m628_tx},	//(internal1_m628_tx) tx - внутренний параметр
-	{ 1022	,8	,1	, &internal1_m616_tx},	//(internal1_m616_tx) tx - внутренний параметр
-	{ 1023	,8	,1	, &internal1_m615_tx},	//(internal1_m615_tx) tx - внутренний параметр
-	{ 1024	,8	,1	, &internal1_m611_tx},	//(internal1_m611_tx) tx - внутренний параметр
-	{ 1025	,8	,1	, &internal1_m624_tx},	//(internal1_m624_tx) tx - внутренний параметр
-	{ 1026	,8	,1	, &internal1_m601_tx},	//(internal1_m601_tx) tx - внутренний параметр
-	{ 1027	,8	,1	, &internal1_m600_tx},	//(internal1_m600_tx) tx - внутренний параметр
-	{ 1028	,8	,1	, &internal1_m596_tx},	//(internal1_m596_tx) tx - внутренний параметр
-	{ 1029	,8	,1	, &internal1_m627_tx},	//(internal1_m627_tx) tx - внутренний параметр
-	{ 1030	,8	,1	, &internal1_m584_tx},	//(internal1_m584_tx) tx - внутренний параметр
-	{ 1031	,8	,1	, &internal1_m583_tx},	//(internal1_m583_tx) tx - внутренний параметр
-	{ 1032	,8	,1	, &internal1_m586_tx},	//(internal1_m586_tx) tx - внутренний параметр
-	{ 1033	,8	,1	, &internal1_m563_tx},	//(internal1_m563_tx) tx - внутренний параметр
-	{ 1034	,8	,1	, &internal1_m564_tx},	//(internal1_m564_tx) tx - внутренний параметр
-	{ 1035	,8	,1	, &internal1_m565_tx},	//(internal1_m565_tx) tx - внутренний параметр
-	{ 1036	,8	,1	, &internal1_m570_tx},	//(internal1_m570_tx) tx - внутренний параметр
-	{ 1037	,8	,1	, &internal1_m2274_tx},	//(internal1_m2274_tx) tx - внутренний параметр
-	{ 1038	,8	,1	, &internal1_m2275_tx},	//(internal1_m2275_tx) tx - внутренний параметр
-	{ 1039	,8	,1	, &internal1_m2276_tx},	//(internal1_m2276_tx) tx - внутренний параметр
-	{ 1040	,8	,1	, &internal1_m1745_tx},	//(internal1_m1745_tx) tx - внутренний параметр
-	{ 1041	,8	,1	, &internal1_m1744_tx},	//(internal1_m1744_tx) tx - внутренний параметр
-	{ 1042	,8	,1	, &internal1_m1739_tx},	//(internal1_m1739_tx) tx - внутренний параметр
-	{ 1043	,8	,1	, &internal1_m1730_tx},	//(internal1_m1730_tx) tx - внутренний параметр
-	{ 1044	,8	,1	, &internal1_m1728_tx},	//(internal1_m1728_tx) tx - внутренний параметр
-	{ 1045	,8	,1	, &internal1_m1726_tx},	//(internal1_m1726_tx) tx - внутренний параметр
-	{ 1046	,8	,1	, &internal1_m1725_tx},	//(internal1_m1725_tx) tx - внутренний параметр
-	{ 1047	,8	,1	, &internal1_m1766_tx},	//(internal1_m1766_tx) tx - внутренний параметр
-	{ 1048	,8	,1	, &internal1_m1774_tx},	//(internal1_m1774_tx) tx - внутренний параметр
-	{ 1049	,8	,1	, &internal1_m1781_tx},	//(internal1_m1781_tx) tx - внутренний параметр
-	{ 1050	,8	,1	, &internal1_m1782_tx},	//(internal1_m1782_tx) tx - внутренний параметр
-	{ 1051	,8	,1	, &internal1_m1772_tx},	//(internal1_m1772_tx) tx - внутренний параметр
-	{ 1052	,8	,1	, &internal1_m1747_tx},	//(internal1_m1747_tx) tx - внутренний параметр
-	{ 1053	,8	,1	, &internal1_m1761_tx},	//(internal1_m1761_tx) tx - внутренний параметр
-	{ 1054	,8	,1	, &internal1_m446_tx},	//(internal1_m446_tx) tx - внутренний параметр
-	{ 1055	,8	,1	, &internal1_m437_tx},	//(internal1_m437_tx) tx - внутренний параметр
-	{ 1056	,8	,1	, &internal1_m438_tx},	//(internal1_m438_tx) tx - внутренний параметр
-	{ 1057	,8	,1	, &internal1_m440_tx},	//(internal1_m440_tx) tx - внутренний параметр
-	{ 1058	,8	,1	, &internal1_m454_tx},	//(internal1_m454_tx) tx - внутренний параметр
-	{ 1059	,8	,1	, &internal1_m404_tx},	//(internal1_m404_tx) tx - внутренний параметр
-	{ 1060	,8	,1	, &internal1_m401_tx},	//(internal1_m401_tx) tx - внутренний параметр
-	{ 1061	,8	,1	, &internal1_m400_tx},	//(internal1_m400_tx) tx - внутренний параметр
-	{ 1062	,8	,1	, &internal1_m399_tx},	//(internal1_m399_tx) tx - внутренний параметр
-	{ 1063	,8	,1	, &internal1_m859_tx},	//(internal1_m859_tx) tx - внутренний параметр
-	{ 1064	,8	,1	, &internal1_m855_tx},	//(internal1_m855_tx) tx - внутренний параметр
-	{ 1065	,8	,1	, &internal1_m854_tx},	//(internal1_m854_tx) tx - внутренний параметр
-	{ 1066	,8	,1	, &internal1_m853_tx},	//(internal1_m853_tx) tx - внутренний параметр
-	{ 1067	,8	,1	, &internal1_m1297_tx},	//(internal1_m1297_tx) tx - внутренний параметр
-	{ 1068	,8	,1	, &internal1_m1294_tx},	//(internal1_m1294_tx) tx - внутренний параметр
-	{ 1069	,8	,1	, &internal1_m1293_tx},	//(internal1_m1293_tx) tx - внутренний параметр
-	{ 1070	,8	,1	, &internal1_m1076_tx},	//(internal1_m1076_tx) tx - внутренний параметр
-	{ 1071	,8	,1	, &internal1_m2229_tx},	//(internal1_m2229_tx) tx - внутренний параметр
-	{ 1072	,8	,1	, &internal1_m1087_tx},	//(internal1_m1087_tx) tx - внутренний параметр
-	{ 1073	,8	,1	, &internal1_m1089_tx},	//(internal1_m1089_tx) tx - внутренний параметр
-	{ 1074	,8	,1	, &internal1_m1088_tx},	//(internal1_m1088_tx) tx - внутренний параметр
-	{ 1075	,8	,1	, &internal1_m2231_tx},	//(internal1_m2231_tx) tx - внутренний параметр
-	{ 1076	,8	,1	, &internal1_m1078_tx},	//(internal1_m1078_tx) tx - внутренний параметр
-	{ 1077	,8	,1	, &internal1_m2228_tx},	//(internal1_m2228_tx) tx - внутренний параметр
-	{ 1078	,8	,1	, &internal1_m1086_tx},	//(internal1_m1086_tx) tx - внутренний параметр
-	{ 1079	,8	,1	, &internal1_m1067_tx},	//(internal1_m1067_tx) tx - внутренний параметр
-	{ 1080	,8	,1	, &internal1_m1066_tx},	//(internal1_m1066_tx) tx - внутренний параметр
-	{ 1081	,8	,1	, &internal1_m1063_tx},	//(internal1_m1063_tx) tx - внутренний параметр
-	{ 1082	,8	,1	, &internal1_m1085_tx},	//(internal1_m1085_tx) tx - внутренний параметр
-	{ 1083	,8	,1	, &internal1_m1053_tx},	//(internal1_m1053_tx) tx - внутренний параметр
-	{ 1084	,8	,1	, &internal1_m1051_tx},	//(internal1_m1051_tx) tx - внутренний параметр
-	{ 1085	,8	,1	, &internal1_m1050_tx},	//(internal1_m1050_tx) tx - внутренний параметр
-	{ 1086	,8	,1	, &internal1_m1029_tx},	//(internal1_m1029_tx) tx - внутренний параметр
-	{ 1087	,8	,1	, &internal1_m1028_tx},	//(internal1_m1028_tx) tx - внутренний параметр
-	{ 1088	,8	,1	, &internal1_m1018_tx},	//(internal1_m1018_tx) tx - внутренний параметр
-	{ 1089	,8	,1	, &internal1_m1035_tx},	//(internal1_m1035_tx) tx - внутренний параметр
-	{ 1090	,8	,1	, &internal1_m1432_tx},	//(internal1_m1432_tx) tx - внутренний параметр
-	{ 1091	,8	,1	, &internal1_m1431_tx},	//(internal1_m1431_tx) tx - внутренний параметр
-	{ 1092	,8	,1	, &internal1_m2181_tx},	//(internal1_m2181_tx) tx - внутренний параметр
-	{ 1093	,8	,1	, &internal1_m1423_tx},	//(internal1_m1423_tx) tx - внутренний параметр
-	{ 1094	,8	,1	, &internal1_m1424_tx},	//(internal1_m1424_tx) tx - внутренний параметр
-	{ 1095	,8	,1	, &internal1_m1430_tx},	//(internal1_m1430_tx) tx - внутренний параметр
-	{ 1096	,8	,1	, &internal1_m1410_tx},	//(internal1_m1410_tx) tx - внутренний параметр
-	{ 1097	,8	,1	, &internal1_m1409_tx},	//(internal1_m1409_tx) tx - внутренний параметр
-	{ 1098	,8	,1	, &internal1_m1408_tx},	//(internal1_m1408_tx) tx - внутренний параметр
-	{ 1099	,8	,1	, &internal1_m1429_tx},	//(internal1_m1429_tx) tx - внутренний параметр
-	{ 1100	,8	,1	, &internal1_m1395_tx},	//(internal1_m1395_tx) tx - внутренний параметр
-	{ 1101	,8	,1	, &internal1_m1393_tx},	//(internal1_m1393_tx) tx - внутренний параметр
-	{ 1102	,8	,1	, &internal1_m1402_tx},	//(internal1_m1402_tx) tx - внутренний параметр
-	{ 1103	,8	,1	, &internal1_m244_tx},	//(internal1_m244_tx) tx - внутренний параметр
-	{ 1104	,8	,1	, &internal1_m259_tx},	//(internal1_m259_tx) tx - внутренний параметр
-	{ 1105	,8	,1	, &internal1_m266_tx},	//(internal1_m266_tx) tx - внутренний параметр
-	{ 1106	,8	,1	, &internal1_m265_tx},	//(internal1_m265_tx) tx - внутренний параметр
-	{ 1107	,8	,1	, &internal1_m251_tx},	//(internal1_m251_tx) tx - внутренний параметр
-	{ 1108	,8	,1	, &internal1_m247_tx},	//(internal1_m247_tx) tx - внутренний параметр
-	{ 1109	,8	,1	, &internal1_m263_tx},	//(internal1_m263_tx) tx - внутренний параметр
-	{ 1110	,8	,1	, &internal1_m235_tx},	//(internal1_m235_tx) tx - внутренний параметр
-	{ 1111	,8	,1	, &internal1_m234_tx},	//(internal1_m234_tx) tx - внутренний параметр
-	{ 1112	,8	,1	, &internal1_m230_tx},	//(internal1_m230_tx) tx - внутренний параметр
-	{ 1113	,8	,1	, &internal1_m262_tx},	//(internal1_m262_tx) tx - внутренний параметр
-	{ 1114	,8	,1	, &internal1_m219_tx},	//(internal1_m219_tx) tx - внутренний параметр
-	{ 1115	,8	,1	, &internal1_m221_tx},	//(internal1_m221_tx) tx - внутренний параметр
-	{ 1116	,8	,1	, &internal1_m218_tx},	//(internal1_m218_tx) tx - внутренний параметр
-	{ 1117	,8	,1	, &internal1_m197_tx},	//(internal1_m197_tx) tx - внутренний параметр
-	{ 1118	,8	,1	, &internal1_m196_tx},	//(internal1_m196_tx) tx - внутренний параметр
-	{ 1119	,8	,1	, &internal1_m195_tx},	//(internal1_m195_tx) tx - внутренний параметр
-	{ 1120	,8	,1	, &internal1_m203_tx},	//(internal1_m203_tx) tx - внутренний параметр
-	{ 1121	,8	,1	, &internal1_m1375_tx},	//(internal1_m1375_tx) tx - внутренний параметр
-	{ 1122	,8	,1	, &internal1_m1357_tx},	//(internal1_m1357_tx) tx - внутренний параметр
-	{ 1123	,8	,1	, &internal1_m1358_tx},	//(internal1_m1358_tx) tx - внутренний параметр
-	{ 1124	,8	,1	, &internal1_m1378_tx},	//(internal1_m1378_tx) tx - внутренний параметр
-	{ 1125	,8	,1	, &internal1_m918_tx},	//(internal1_m918_tx) tx - внутренний параметр
-	{ 1126	,8	,1	, &internal1_m923_tx},	//(internal1_m923_tx) tx - внутренний параметр
-	{ 1127	,8	,1	, &internal1_m913_tx},	//(internal1_m913_tx) tx - внутренний параметр
-	{ 1128	,8	,1	, &internal1_m914_tx},	//(internal1_m914_tx) tx - внутренний параметр
-	{ 1129	,1	,1	, &internal1_m1866_q0},	//(internal1_m1866_q0) q0 - внутренний параметр
-	{ 1130	,1	,1	, &internal1_m2316_q0},	//(internal1_m2316_q0) q0 - внутренний параметр
-	{ 1131	,1	,1	, &internal1_m2300_q0},	//(internal1_m2300_q0) q0 - внутренний параметр
-	{ 1132	,1	,1	, &internal1_m2347_q0},	//(internal1_m2347_q0) q0 - внутренний параметр
-	{ 1133	,1	,1	, &internal1_m2331_q0},	//(internal1_m2331_q0) q0 - внутренний параметр
-	{ 1134	,1	,1	, &internal1_m2322_q0},	//(internal1_m2322_q0) q0 - внутренний параметр
-	{ 1135	,1	,1	, &internal1_m2303_q0},	//(internal1_m2303_q0) q0 - внутренний параметр
-	{ 1136	,1	,1	, &internal1_m2320_q0},	//(internal1_m2320_q0) q0 - внутренний параметр
-	{ 1137	,1	,1	, &internal1_m2301_q0},	//(internal1_m2301_q0) q0 - внутренний параметр
-	{ 1138	,1	,1	, &internal1_m2299_q0},	//(internal1_m2299_q0) q0 - внутренний параметр
-	{ 1139	,1	,1	, &internal1_m2298_q0},	//(internal1_m2298_q0) q0 - внутренний параметр
-	{ 1140	,1	,1	, &internal1_m2312_q0},	//(internal1_m2312_q0) q0 - внутренний параметр
-	{ 1141	,1	,1	, &internal1_m2310_q0},	//(internal1_m2310_q0) q0 - внутренний параметр
-	{ 1142	,1	,1	, &internal1_m2318_q0},	//(internal1_m2318_q0) q0 - внутренний параметр
-	{ 1143	,1	,1	, &internal1_m2314_q0},	//(internal1_m2314_q0) q0 - внутренний параметр
-	{ 1144	,1	,1	, &internal1_m2353_q0},	//(internal1_m2353_q0) q0 - внутренний параметр
-	{ 1145	,1	,1	, &internal1_m2334_q0},	//(internal1_m2334_q0) q0 - внутренний параметр
-	{ 1146	,1	,1	, &internal1_m2351_q0},	//(internal1_m2351_q0) q0 - внутренний параметр
-	{ 1147	,1	,1	, &internal1_m2333_q0},	//(internal1_m2333_q0) q0 - внутренний параметр
-	{ 1148	,1	,1	, &internal1_m2330_q0},	//(internal1_m2330_q0) q0 - внутренний параметр
-	{ 1149	,1	,1	, &internal1_m2329_q0},	//(internal1_m2329_q0) q0 - внутренний параметр
-	{ 1150	,1	,1	, &internal1_m2343_q0},	//(internal1_m2343_q0) q0 - внутренний параметр
-	{ 1151	,1	,1	, &internal1_m2341_q0},	//(internal1_m2341_q0) q0 - внутренний параметр
-	{ 1152	,8	,1	, &internal1_m2206_tx},	//(internal1_m2206_tx) tx - внутренний параметр
-	{ 1153	,8	,1	, &internal1_m2185_tx},	//(internal1_m2185_tx) tx - внутренний параметр
-	{ 1154	,1	,1	, &internal1_m1888_Pv0},	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
-	{ 1155	,1	,1	, &internal1_m1888_Zv0},	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
-	{ 1156	,1	,1	, &internal1_m1888_MyFirstEnterFlag},	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 1157	,1	,1	, &internal1_m1887_Pv0},	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
-	{ 1158	,1	,1	, &internal1_m1887_Zv0},	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
-	{ 1159	,1	,1	, &internal1_m1887_MyFirstEnterFlag},	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
-	{ 1160	,8	,1	, &internal1_m2370_tx},	//(internal1_m2370_tx) tx - время накопленное сек
-	{ 1161	,18	,1	, &internal1_m2370_y0},	//(internal1_m2370_y0) y0
-	{ 1162	,8	,1	, &internal1_m2375_tx},	//(internal1_m2375_tx) tx - время накопленное сек
-	{ 1163	,18	,1	, &internal1_m2375_y0},	//(internal1_m2375_y0) y0
-	{ 1164	,8	,1	, &internal1_m2374_tx},	//(internal1_m2374_tx) tx - время накопленное сек
-	{ 1165	,18	,1	, &internal1_m2374_y0},	//(internal1_m2374_y0) y0
-	{ 1166	,8	,1	, &internal1_m2411_tx},	//(internal1_m2411_tx) tx - внутренний параметр
-	{ 1167	,8	,1	, &internal1_m2409_tx},	//(internal1_m2409_tx) tx - время накопленное сек
-	{ 1168	,18	,1	, &internal1_m2409_y0},	//(internal1_m2409_y0) y0
-	{ 1169	,1	,1	, &internal1_m2414_q0},	//(internal1_m2414_q0) q0 - внутренний параметр
-	{ 1170	,1	,1	, &internal1_m2381_q0},	//(internal1_m2381_q0) q0 - внутренний параметр
-	{ 1171	,8	,1	, &internal1_m2389_tx},	//(internal1_m2389_tx) tx - внутренний параметр
-	{ 1172	,1	,1	, &internal1_m2387_q0},	//(internal1_m2387_q0) q0 - внутренний параметр
-	{ 1173	,8	,1	, &internal1_m2200_tx},	//(internal1_m2200_tx) tx - время накопленное сек
-	{ 1174	,18	,1	, &internal1_m2200_y0},	//(internal1_m2200_y0) y0
-	{ 1175	,8	,1	, &internal1_m2192_tx},	//(internal1_m2192_tx) tx - время накопленное сек
-	{ 1176	,18	,1	, &internal1_m2192_y0},	//(internal1_m2192_y0) y0
-	{ 1177	,1	,1	, &internal1_m1876_q0},	//(internal1_m1876_q0) q0 - внутренний параметр
-	{ 1178	,1	,1	, &internal1_m1881_q0},	//(internal1_m1881_q0) q0 - внутренний параметр
-	{ 1179	,1	,1	, &internal1_m1873_q0},	//(internal1_m1873_q0) q0 - внутренний параметр
-	{ 1180	,1	,1	, &internal1_m1915_q0},	//(internal1_m1915_q0) q0 - внутренний параметр
-	{ 1181	,8	,1	, &internal1_m823_tx},	//(internal1_m823_tx) tx - время накопленное сек
-	{ 1182	,18	,1	, &internal1_m823_y0},	//(internal1_m823_y0) y0
-	{ 1183	,8	,1	, &internal1_m2196_tx},	//(internal1_m2196_tx) tx - внутренний параметр
-	{ 1184	,1	,1	, &internal1_m2199_q0},	//(internal1_m2199_q0) q0 - внутренний параметр
-	{ 1185	,1	,1	, &internal1_m2191_q0},	//(internal1_m2191_q0) q0 - внутренний параметр
-	{ 1186	,8	,1	, &internal1_m2160_tx},	//(internal1_m2160_tx) tx - внутренний параметр
-	{ 1187	,8	,1	, &internal1_m2171_tx},	//(internal1_m2171_tx) tx - внутренний параметр
-	{ 1188	,8	,1	, &internal1_m2157_tx},	//(internal1_m2157_tx) tx - внутренний параметр
-	{ 1189	,1	,1	, &internal1_m2163_q0},	//(internal1_m2163_q0) q0 - внутренний параметр
-	{ 1190	,1	,1	, &internal1_m2175_q0},	//(internal1_m2175_q0) q0 - внутренний параметр
-	{ 1191	,8	,1	, &internal1_m2132_tx},	//(internal1_m2132_tx) tx - внутренний параметр
-	{ 1192	,8	,1	, &internal1_m51_tx},	//(internal1_m51_tx) tx - внутренний параметр
-	{ 1193	,8	,1	, &internal1_m357_tx},	//(internal1_m357_tx) tx - внутренний параметр
-	{ 1194	,8	,1	, &internal1_m311_tx},	//(internal1_m311_tx) tx - внутренний параметр
-	{ 1195	,8	,1	, &internal1_m824_tx},	//(internal1_m824_tx) tx - внутренний параметр
-	{ 1196	,8	,1	, &internal1_m1584_tx},	//(internal1_m1584_tx) tx - внутренний параметр
-	{ 1197	,8	,1	, &internal1_m114_tx},	//(internal1_m114_tx) tx - внутренний параметр
-	{ 1198	,8	,1	, &internal1_m116_tx},	//(internal1_m116_tx) tx - внутренний параметр
-	{ 1199	,8	,1	, &internal1_m121_tx},	//(internal1_m121_tx) tx - внутренний параметр
-	{ 1200	,8	,1	, &internal1_m21_tx},	//(internal1_m21_tx) tx - внутренний параметр
-	{ 1201	,8	,1	, &internal1_m13_tx},	//(internal1_m13_tx) tx - внутренний параметр
-	{ 1202	,8	,1	, &internal1_m2142_tx},	//(internal1_m2142_tx) tx - внутренний параметр
-	{ 1203	,8	,1	, &internal1_m2129_tx},	//(internal1_m2129_tx) tx - внутренний параметр
-	{ 1204	,8	,1	, &internal1_m2247_tx},	//(internal1_m2247_tx) tx - внутренний параметр
-	{ 1205	,8	,1	, &internal1_m2249_tx},	//(internal1_m2249_tx) tx - внутренний параметр
-	{ 1206	,8	,1	, &internal1_m2054_tx},	//(internal1_m2054_tx) tx - внутренний параметр
-	{ 1207	,8	,1	, &internal1_m77_tx},	//(internal1_m77_tx) tx - внутренний параметр
-	{ 1208	,8	,1	, &internal1_m328_tx},	//(internal1_m328_tx) tx - время накопленное сек
-	{ 1209	,18	,1	, &internal1_m328_y0},	//(internal1_m328_y0) y0
-	{ 1210	,8	,1	, &internal1_m2048_tx},	//(internal1_m2048_tx) tx - время накопленное сек
-	{ 1211	,18	,1	, &internal1_m2048_y0},	//(internal1_m2048_y0) y0
-	{ 1212	,8	,1	, &internal1_m2046_tx},	//(internal1_m2046_tx) tx - время накопленное сек
-	{ 1213	,18	,1	, &internal1_m2046_y0},	//(internal1_m2046_y0) y0
-	{ 1214	,8	,1	, &internal1_m2035_tx},	//(internal1_m2035_tx) tx - время накопленное сек
-	{ 1215	,18	,1	, &internal1_m2035_y0},	//(internal1_m2035_y0) y0
-	{ 1216	,8	,1	, &internal1_m2055_q0},	//(internal1_m2055_q0) q0 - внутренний параметр
-	{ 1217	,8	,1	, &internal1_m1604_q0},	//(internal1_m1604_q0) q0 - внутренний параметр
-	{ 1218	,8	,1	, &internal1_m1641_q0},	//(internal1_m1641_q0) q0 - внутренний параметр
-	{ 1219	,8	,1	, &internal1_m1644_q0},	//(internal1_m1644_q0) q0 - внутренний параметр
-	{ 1220	,8	,1	, &internal1_m2094_q0},	//(internal1_m2094_q0) q0 - внутренний параметр
-	{ 1221	,8	,1	, &internal1_m2072_tx},	//(internal1_m2072_tx) tx - время накопленное сек
-	{ 1222	,18	,1	, &internal1_m2072_y0},	//(internal1_m2072_y0) y0
-	{ 1223	,8	,1	, &internal1_m2087_tx},	//(internal1_m2087_tx) tx - время накопленное сек
-	{ 1224	,18	,1	, &internal1_m2087_y0},	//(internal1_m2087_y0) y0
-	{ 1225	,8	,1	, &internal1_m2084_tx},	//(internal1_m2084_tx) tx - время накопленное сек
-	{ 1226	,18	,1	, &internal1_m2084_y0},	//(internal1_m2084_y0) y0
-	{ 1227	,8	,1	, &internal1_m2227_tx},	//(internal1_m2227_tx) tx - время накопленное сек
-	{ 1228	,18	,1	, &internal1_m2227_y0},	//(internal1_m2227_y0) y0
-	{ 1229	,8	,1	, &internal1_m2238_tx},	//(internal1_m2238_tx) tx - время накопленное сек
-	{ 1230	,18	,1	, &internal1_m2238_y0},	//(internal1_m2238_y0) y0
-	{ 1231	,8	,1	, &internal1_m1983_tx},	//(internal1_m1983_tx) tx - время накопленное сек
-	{ 1232	,18	,1	, &internal1_m1983_y0},	//(internal1_m1983_y0) y0
-	{ 1233	,8	,1	, &internal1_m1982_tx},	//(internal1_m1982_tx) tx - время накопленное сек
-	{ 1234	,18	,1	, &internal1_m1982_y0},	//(internal1_m1982_y0) y0
-	{ 1235	,8	,1	, &internal1_m1981_tx},	//(internal1_m1981_tx) tx - время накопленное сек
-	{ 1236	,18	,1	, &internal1_m1981_y0},	//(internal1_m1981_y0) y0
-	{ 1237	,8	,1	, &internal1_m1980_tx},	//(internal1_m1980_tx) tx - время накопленное сек
-	{ 1238	,18	,1	, &internal1_m1980_y0},	//(internal1_m1980_y0) y0
-	{ 1239	,8	,1	, &internal1_m1656_tx},	//(internal1_m1656_tx) tx - время накопленное сек
-	{ 1240	,18	,1	, &internal1_m1656_y0},	//(internal1_m1656_y0) y0
-	{ 1241	,8	,1	, &internal1_m1650_tx},	//(internal1_m1650_tx) tx - время накопленное сек
-	{ 1242	,18	,1	, &internal1_m1650_y0},	//(internal1_m1650_y0) y0
-	{ 1243	,8	,1	, &internal1_m1600_tx},	//(internal1_m1600_tx) tx - время накопленное сек
-	{ 1244	,18	,1	, &internal1_m1600_y0},	//(internal1_m1600_y0) y0
-	{ 1245	,8	,1	, &internal1_m911_tx},	//(internal1_m911_tx) tx - время накопленное сек
-	{ 1246	,18	,1	, &internal1_m911_y0},	//(internal1_m911_y0) y0
-	{ 1247	,8	,1	, &internal1_m910_tx},	//(internal1_m910_tx) tx - время накопленное сек
-	{ 1248	,18	,1	, &internal1_m910_y0},	//(internal1_m910_y0) y0
-	{ 1249	,8	,1	, &internal1_m928_tx},	//(internal1_m928_tx) tx - время накопленное сек
-	{ 1250	,18	,1	, &internal1_m928_y0},	//(internal1_m928_y0) y0
-	{ 1251	,8	,1	, &internal1_m187_tx},	//(internal1_m187_tx) tx - время накопленное сек
-	{ 1252	,18	,1	, &internal1_m187_y0},	//(internal1_m187_y0) y0
-	{ 1253	,8	,1	, &internal1_m186_tx},	//(internal1_m186_tx) tx - время накопленное сек
-	{ 1254	,18	,1	, &internal1_m186_y0},	//(internal1_m186_y0) y0
-	{ 1255	,8	,1	, &internal1_m208_tx},	//(internal1_m208_tx) tx - время накопленное сек
-	{ 1256	,18	,1	, &internal1_m208_y0},	//(internal1_m208_y0) y0
-	{ 1257	,8	,1	, &internal1_m577_tx},	//(internal1_m577_tx) tx - время накопленное сек
-	{ 1258	,18	,1	, &internal1_m577_y0},	//(internal1_m577_y0) y0
-	{ 1259	,8	,1	, &internal1_m2281_tx},	//(internal1_m2281_tx) tx - внутренний параметр
-	{ 1260	,8	,1	, &internal1_m1308_tx},	//(internal1_m1308_tx) tx - внутренний параметр
-	{ 1261	,8	,1	, &internal1_m1785_tx},	//(internal1_m1785_tx) tx - время накопленное сек
-	{ 1262	,18	,1	, &internal1_m1785_y0},	//(internal1_m1785_y0) y0
-	{ 1263	,8	,1	, &internal1_m1274_tx},	//(internal1_m1274_tx) tx - время накопленное сек
-	{ 1264	,18	,1	, &internal1_m1274_y0},	//(internal1_m1274_y0) y0
-	{ 1265	,8	,1	, &internal1_m1492_tx},	//(internal1_m1492_tx) tx - время накопленное сек
-	{ 1266	,18	,1	, &internal1_m1492_y0},	//(internal1_m1492_y0) y0
-	{ 1267	,8	,1	, &internal1_m1041_tx},	//(internal1_m1041_tx) tx - время накопленное сек
-	{ 1268	,18	,1	, &internal1_m1041_y0},	//(internal1_m1041_y0) y0
-	{ 1269	,8	,1	, &internal1_m1382_tx},	//(internal1_m1382_tx) tx - время накопленное сек
-	{ 1270	,18	,1	, &internal1_m1382_y0},	//(internal1_m1382_y0) y0
-	{ 1271	,1	,1	, &internal1_m1198_q0},	//(internal1_m1198_q0) q0 - внутренний параметр
-	{ 1272	,1	,1	, &internal1_m1196_q0},	//(internal1_m1196_q0) q0 - внутренний параметр
-	{ 1273	,1	,1	, &internal1_m1195_q0},	//(internal1_m1195_q0) q0 - внутренний параметр
-	{ 1274	,1	,1	, &internal1_m1193_q0},	//(internal1_m1193_q0) q0 - внутренний параметр
-	{ 1275	,1	,1	, &internal1_m1192_q0},	//(internal1_m1192_q0) q0 - внутренний параметр
-	{ 1276	,1	,1	, &internal1_m1190_q0},	//(internal1_m1190_q0) q0 - внутренний параметр
-	{ 1277	,1	,1	, &internal1_m1189_q0},	//(internal1_m1189_q0) q0 - внутренний параметр
-	{ 1278	,1	,1	, &internal1_m1187_q0},	//(internal1_m1187_q0) q0 - внутренний параметр
-	{ 1279	,1	,1	, &internal1_m1186_q0},	//(internal1_m1186_q0) q0 - внутренний параметр
-	{ 1280	,1	,1	, &internal1_m52_x0},	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1281	,1	,1	, &internal1_m1105_q0},	//(internal1_m1105_q0) q0 - внутренний параметр
-	{ 1282	,1	,1	, &internal1_m1593_x0},	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1283	,1	,1	, &internal1_m1637_x0},	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1284	,1	,1	, &internal1_m1633_x0},	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1285	,1	,1	, &internal1_m2063_x0},	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1286	,1	,1	, &internal1_m2028_x0},	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1287	,1	,1	, &internal1_m1145_q0},	//(internal1_m1145_q0) q0 - внутренний параметр
-	{ 1288	,1	,1	, &internal1_m1157_q0},	//(internal1_m1157_q0) q0 - внутренний параметр
-	{ 1289	,1	,1	, &internal1_m1169_q0},	//(internal1_m1169_q0) q0 - внутренний параметр
-	{ 1290	,1	,1	, &internal1_m1181_q0},	//(internal1_m1181_q0) q0 - внутренний параметр
-	{ 1291	,1	,1	, &internal1_m1156_q0},	//(internal1_m1156_q0) q0 - внутренний параметр
-	{ 1292	,1	,1	, &internal1_m1171_q0},	//(internal1_m1171_q0) q0 - внутренний параметр
-	{ 1293	,1	,1	, &internal1_m2121_q0},	//(internal1_m2121_q0) q0 - внутренний параметр
-	{ 1294	,1	,1	, &internal1_m2120_q0},	//(internal1_m2120_q0) q0 - внутренний параметр
-	{ 1295	,3	,1	, &internal1_m345_Step},	//(internal1_m345_Step)  - текущий шаг программы
-	{ 1296	,18	,10	, &internal1_m345_rz},	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-	{ 1297	,8	,1	, &internal1_m345_TimS},	//(internal1_m345_TimS) Время от старта программы
-	{ 1298	,1	,1	, &internal1_m345_FinPr0},	//(internal1_m345_FinPr0) FinPr - конец программы
-	{ 1299	,1	,1	, &internal1_m345_ErrPr0},	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
-	{ 1300	,1	,1	, &internal1_m345_sbINI0},	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
-	{ 1301	,1	,1	, &internal1_m345_sbVuIS0},	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-	{ 1302	,1	,1	, &internal1_m345_sb2UR0},	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-	{ 1303	,1	,1	, &internal1_m345_sbNupIS0},	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-	{ 1304	,1	,1	, &internal1_m345_sbVuRB0},	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-	{ 1305	,1	,1	, &internal1_m345_MyFirstEnterFlag},	//(internal1_m345_MyFirstEnterFlag)  
-	{ 1306	,5	,1	, &internal1_m353_x0},	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1307	,5	,1	, &internal1_m310_TimS},	//(internal1_m310_TimS) Время старта
-	{ 1308	,3	,1	, &internal1_m287_Step},	//(internal1_m287_Step)  - текущий шаг программы
-	{ 1309	,18	,10	, &internal1_m287_rz},	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-	{ 1310	,8	,1	, &internal1_m287_TimS},	//(internal1_m287_TimS) Время от старта программы
-	{ 1311	,1	,1	, &internal1_m287_FinPr0},	//(internal1_m287_FinPr0) FinPr - конец программы
-	{ 1312	,1	,1	, &internal1_m287_ErrPr0},	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
-	{ 1313	,1	,1	, &internal1_m287_sbINI0},	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
-	{ 1314	,1	,1	, &internal1_m287_sbVuIS0},	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-	{ 1315	,1	,1	, &internal1_m287_sb2UR0},	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-	{ 1316	,1	,1	, &internal1_m287_sbNupIS0},	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-	{ 1317	,1	,1	, &internal1_m287_sbVuRB0},	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-	{ 1318	,1	,1	, &internal1_m287_MyFirstEnterFlag},	//(internal1_m287_MyFirstEnterFlag)  
-	{ 1319	,1	,1	, &internal1_m1567_q0},	//(internal1_m1567_q0) q0 - внутренний параметр
-	{ 1320	,3	,1	, &internal1_m1568_Step},	//(internal1_m1568_Step)  - текущий шаг программы
-	{ 1321	,18	,6	, &internal1_m1568_rz},	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
-	{ 1322	,8	,1	, &internal1_m1568_TimS},	//(internal1_m1568_TimS) Время от старта программы
-	{ 1323	,1	,1	, &internal1_m1568_FinPr0},	//(internal1_m1568_FinPr0) FinPr - конец программы
-	{ 1324	,1	,1	, &internal1_m1568_ErrPr0},	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
-	{ 1325	,1	,1	, &internal1_m1568_sbINI0},	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
-	{ 1326	,1	,1	, &internal1_m1568_sbVuIS0},	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
-	{ 1327	,1	,1	, &internal1_m1568_sb2UR0},	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
-	{ 1328	,1	,1	, &internal1_m1568_sbNupIS0},	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
-	{ 1329	,1	,1	, &internal1_m1568_sbVuRB0},	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
-	{ 1330	,1	,1	, &internal1_m1568_MyFirstEnterFlag},	//(internal1_m1568_MyFirstEnterFlag)  
-	{ 1331	,1	,1	, &internal1_m1142_q0},	//(internal1_m1142_q0) q0 - внутренний параметр
-	{ 1332	,1	,1	, &internal1_m1139_q0},	//(internal1_m1139_q0) q0 - внутренний параметр
-	{ 1333	,1	,1	, &internal1_m1141_q0},	//(internal1_m1141_q0) q0 - внутренний параметр
-	{ 1334	,1	,1	, &internal1_m1134_q0},	//(internal1_m1134_q0) q0 - внутренний параметр
-	{ 1335	,1	,1	, &internal1_m825_q0},	//(internal1_m825_q0) q0 - внутренний параметр
-	{ 1336	,1	,1	, &internal1_m355_q0},	//(internal1_m355_q0) q0 - внутренний параметр
-	{ 1337	,1	,1	, &internal1_m351_q0},	//(internal1_m351_q0) q0 - внутренний параметр
-	{ 1338	,1	,1	, &internal1_m307_q0},	//(internal1_m307_q0) q0 - внутренний параметр
-	{ 1339	,5	,1	, &internal1_m306_x0},	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1340	,1	,1	, &internal1_m2050_q0},	//(internal1_m2050_q0) q0 - внутренний параметр
-	{ 1341	,1	,1	, &internal1_m2038_q0},	//(internal1_m2038_q0) q0 - внутренний параметр
-	{ 1342	,1	,1	, &internal1_m2029_q0},	//(internal1_m2029_q0) q0 - внутренний параметр
-	{ 1343	,1	,1	, &internal1_m2104_q0},	//(internal1_m2104_q0) q0 - внутренний параметр
-	{ 1344	,1	,1	, &internal1_m2075_q0},	//(internal1_m2075_q0) q0 - внутренний параметр
-	{ 1345	,1	,1	, &internal1_m2064_q0},	//(internal1_m2064_q0) q0 - внутренний параметр
-	{ 1346	,1	,1	, &internal1_m1620_q0},	//(internal1_m1620_q0) q0 - внутренний параметр
-	{ 1347	,1	,1	, &internal1_m1607_x0},	//(internal1_m1607_x0) был приход сигнала x1
-	{ 1348	,8	,1	, &internal1_m1607_y0},	//(internal1_m1607_y0) интервал между сигналами х1 и х2
-	{ 1349	,1	,1	, &internal1_m1603_q0},	//(internal1_m1603_q0) q0 - внутренний параметр
-	{ 1350	,1	,1	, &internal1_m1594_q0},	//(internal1_m1594_q0) q0 - внутренний параметр
-	{ 1351	,1	,1	, &internal1_m1653_q0},	//(internal1_m1653_q0) q0 - внутренний параметр
-	{ 1352	,1	,1	, &internal1_m1673_q0},	//(internal1_m1673_q0) q0 - внутренний параметр
-	{ 1353	,1	,1	, &internal1_m1639_q0},	//(internal1_m1639_q0) q0 - внутренний параметр
-	{ 1354	,1	,1	, &internal1_m1654_x0},	//(internal1_m1654_x0) был приход сигнала x1
-	{ 1355	,8	,1	, &internal1_m1654_y0},	//(internal1_m1654_y0) интервал между сигналами х1 и х2
-	{ 1356	,5	,1	, &internal1_m1578_x0},	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1357	,1	,1	, &internal1_m1659_q0},	//(internal1_m1659_q0) q0 - внутренний параметр
-	{ 1358	,1	,1	, &internal1_m26_q0},	//(internal1_m26_q0) q0 - внутренний параметр
-	{ 1359	,1	,1	, &internal1_m1674_q0},	//(internal1_m1674_q0) q0 - внутренний параметр
-	{ 1360	,1	,1	, &internal1_m700_q0},	//(internal1_m700_q0) q0 - внутренний параметр
-	{ 1361	,1	,1	, &internal1_m685_q0},	//(internal1_m685_q0) q0 - внутренний параметр
-	{ 1362	,1	,1	, &internal1_m711_q0},	//(internal1_m711_q0) q0 - внутренний параметр
-	{ 1363	,1	,1	, &internal1_m696_q0},	//(internal1_m696_q0) q0 - внутренний параметр
-	{ 1364	,1	,1	, &internal1_m680_q0},	//(internal1_m680_q0) q0 - внутренний параметр
-	{ 1365	,1	,1	, &internal1_m678_q0},	//(internal1_m678_q0) q0 - внутренний параметр
-	{ 1366	,1	,1	, &internal1_m666_q0},	//(internal1_m666_q0) q0 - внутренний параметр
-	{ 1367	,5	,1	, &internal1_m1570_q0},	//(internal1_m1570_q0) q0 - внутренний параметр
-	{ 1368	,1	,1	, &internal1_m676_q0},	//(internal1_m676_q0) q0 - внутренний параметр
-	{ 1369	,1	,1	, &internal1_m110_q0},	//(internal1_m110_q0) q0 - внутренний параметр
-	{ 1370	,1	,1	, &internal1_m1820_q0},	//(internal1_m1820_q0) q0 - внутренний параметр
-	{ 1371	,1	,1	, &internal1_m1819_q0},	//(internal1_m1819_q0) q0 - внутренний параметр
-	{ 1372	,1	,1	, &internal1_m1818_q0},	//(internal1_m1818_q0) q0 - внутренний параметр
-	{ 1373	,1	,1	, &internal1_m1817_q0},	//(internal1_m1817_q0) q0 - внутренний параметр
-	{ 1374	,1	,1	, &internal1_m1853_q0},	//(internal1_m1853_q0) q0 - внутренний параметр
-	{ 1375	,1	,1	, &internal1_m1852_q0},	//(internal1_m1852_q0) q0 - внутренний параметр
-	{ 1376	,1	,1	, &internal1_m1851_q0},	//(internal1_m1851_q0) q0 - внутренний параметр
-	{ 1377	,1	,1	, &internal1_m2135_q0},	//(internal1_m2135_q0) q0 - внутренний параметр
-	{ 1378	,1	,1	, &internal1_m1913_q0},	//(internal1_m1913_q0) q0 - внутренний параметр
-	{ 1379	,1	,1	, &internal1_m1902_q0},	//(internal1_m1902_q0) q0 - внутренний параметр
-	{ 1380	,1	,1	, &internal1_m1910_q0},	//(internal1_m1910_q0) q0 - внутренний параметр
-	{ 1381	,1	,1	, &internal1_m1899_q0},	//(internal1_m1899_q0) q0 - внутренний параметр
-	{ 1382	,1	,1	, &internal1_m1907_q0},	//(internal1_m1907_q0) q0 - внутренний параметр
-	{ 1383	,1	,1	, &internal1_m2349_q0},	//(internal1_m2349_q0) q0 - внутренний параметр
-	{ 1384	,1	,1	, &internal1_m2345_q0},	//(internal1_m2345_q0) q0 - внутренний параметр
-	{ 1385	,1	,1	, &internal1_m1878_q0},	//(internal1_m1878_q0) q0 - внутренний параметр
-	{ 1386	,1	,1	, &internal1_m1870_q0},	//(internal1_m1870_q0) q0 - внутренний параметр
-	{ 1387	,1	,1	, &internal1_m1868_q0},	//(internal1_m1868_q0) q0 - внутренний параметр
-	{ 1388	,1	,1	, &internal1_m1864_q0},	//(internal1_m1864_q0) q0 - внутренний параметр
-	{ 1389	,1	,1	, &internal1_m1860_q0},	//(internal1_m1860_q0) q0 - внутренний параметр
-	{ 1390	,1	,1	, &internal1_m1862_q0},	//(internal1_m1862_q0) q0 - внутренний параметр
-	{ 1391	,1	,1	, &internal1_m19_q0},	//(internal1_m19_q0) q0 - внутренний параметр
-	{ 1392	,1	,1	, &internal1_m1843_q0},	//(internal1_m1843_q0) q0 - внутренний параметр
-	{ 1393	,1	,1	, &internal1_m1841_q0},	//(internal1_m1841_q0) q0 - внутренний параметр
-	{ 1394	,1	,1	, &internal1_m1837_q0},	//(internal1_m1837_q0) q0 - внутренний параметр
-	{ 1395	,1	,1	, &internal1_m1839_q0},	//(internal1_m1839_q0) q0 - внутренний параметр
-	{ 1396	,1	,1	, &internal1_m1835_q0},	//(internal1_m1835_q0) q0 - внутренний параметр
-	{ 1397	,1	,1	, &internal1_m1833_q0},	//(internal1_m1833_q0) q0 - внутренний параметр
-	{ 1398	,1	,1	, &internal1_m2257_q0},	//(internal1_m2257_q0) q0 - внутренний параметр
-	{ 1399	,1	,1	, &internal1_m2255_q0},	//(internal1_m2255_q0) q0 - внутренний параметр
-	{ 1400	,1	,1	, &internal1_m2234_q0},	//(internal1_m2234_q0) q0 - внутренний параметр
-	{ 1401	,1	,1	, &internal1_m2216_q0},	//(internal1_m2216_q0) q0 - внутренний параметр
-	{ 1402	,1	,1	, &internal1_m2147_q0},	//(internal1_m2147_q0) q0 - внутренний параметр
-	{ 1403	,1	,1	, &internal1_m1829_q0},	//(internal1_m1829_q0) q0 - внутренний параметр
-	{ 1404	,1	,1	, &internal1_m1831_q0},	//(internal1_m1831_q0) q0 - внутренний параметр
-	{ 1405	,1	,1	, &internal1_m1815_q0},	//(internal1_m1815_q0) q0 - внутренний параметр
-	{ 1406	,1	,1	, &internal1_m1813_q0},	//(internal1_m1813_q0) q0 - внутренний параметр
-	{ 1407	,1	,1	, &internal1_m1811_q0},	//(internal1_m1811_q0) q0 - внутренний параметр
-	{ 1408	,1	,1	, &internal1_m1809_q0},	//(internal1_m1809_q0) q0 - внутренний параметр
-	{ 1409	,1	,1	, &internal1_m1808_q0},	//(internal1_m1808_q0) q0 - внутренний параметр
-	{ 1410	,1	,1	, &internal1_m1806_q0},	//(internal1_m1806_q0) q0 - внутренний параметр
-	{ 1411	,1	,1	, &internal1_m1805_q0},	//(internal1_m1805_q0) q0 - внутренний параметр
-	{ 1412	,1	,1	, &internal1_m1803_q0},	//(internal1_m1803_q0) q0 - внутренний параметр
-	{ 1413	,18	,1	, &internal1_m2286_DvUp0},	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
-	{ 1414	,18	,1	, &internal1_m2286_DvDw0},	//(internal1_m2286_DvDw0) - есть команда на движение назад
-	{ 1415	,18	,1	, &internal1_m2286_FDvUp0},	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
-	{ 1416	,18	,1	, &internal1_m2286_FDvDw0},	//(internal1_m2286_FDvDw0) - есть команда на движение назад
-	{ 1417	,18	,1	, &internal1_m2286_BlDv0},	//(internal1_m2286_BlDv0) - была блокировка
-	{ 1418	,18	,1	, &internal1_m2286_Pkv0},	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
-	{ 1419	,18	,1	, &internal1_m2286_Pkav0},	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1420	,18	,1	, &internal1_m2286_Zkv0},	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
-	{ 1421	,18	,1	, &internal1_m2286_Zkav0},	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1422	,8	,1	, &internal1_m2286_txNm},	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1423	,8	,1	, &internal1_m2286_txSm},	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1424	,8	,1	, &internal1_m2286_txHr},	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1425	,8	,1	, &internal1_m2286_txLd},	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1426	,18	,1	, &internal1_m2286_fef},	//(internal1_m2286_fef) fef
-	{ 1427	,18	,1	, &internal1_m2280_DvUp0},	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
-	{ 1428	,18	,1	, &internal1_m2280_DvDw0},	//(internal1_m2280_DvDw0) - есть команда на движение назад
-	{ 1429	,18	,1	, &internal1_m2280_FDvUp0},	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
-	{ 1430	,18	,1	, &internal1_m2280_FDvDw0},	//(internal1_m2280_FDvDw0) - есть команда на движение назад
-	{ 1431	,18	,1	, &internal1_m2280_BlDv0},	//(internal1_m2280_BlDv0) - была блокировка
-	{ 1432	,18	,1	, &internal1_m2280_Pkv0},	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
-	{ 1433	,18	,1	, &internal1_m2280_Pkav0},	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1434	,18	,1	, &internal1_m2280_Zkv0},	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
-	{ 1435	,18	,1	, &internal1_m2280_Zkav0},	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1436	,8	,1	, &internal1_m2280_txNm},	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1437	,8	,1	, &internal1_m2280_txSm},	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1438	,8	,1	, &internal1_m2280_txHr},	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1439	,8	,1	, &internal1_m2280_txLd},	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1440	,18	,1	, &internal1_m2280_fef},	//(internal1_m2280_fef) fef
-	{ 1441	,1	,1	, &internal1_m1643_q0},	//(internal1_m1643_q0) q0 - внутренний параметр
-	{ 1442	,1	,1	, &internal1_m1648_x0},	//(internal1_m1648_x0) был приход сигнала x1
-	{ 1443	,8	,1	, &internal1_m1648_y0},	//(internal1_m1648_y0) интервал между сигналами х1 и х2
-	{ 1444	,1	,1	, &internal1_m2086_x0},	//(internal1_m2086_x0) был приход сигнала x1
-	{ 1445	,8	,1	, &internal1_m2086_y0},	//(internal1_m2086_y0) интервал между сигналами х1 и х2
-	{ 1446	,1	,1	, &internal1_m2047_x0},	//(internal1_m2047_x0) был приход сигнала x1
-	{ 1447	,8	,1	, &internal1_m2047_y0},	//(internal1_m2047_y0) интервал между сигналами х1 и х2
-	{ 1448	,1	,1	, &internal1_m298_q0},	//(internal1_m298_q0) q0 - внутренний параметр
-	{ 1449	,1	,1	, &internal1_m1113_q0},	//(internal1_m1113_q0) q0 - внутренний параметр
-	{ 1450	,1	,1	, &internal1_m688_q0},	//(internal1_m688_q0) q0 - внутренний параметр
-	{ 1451	,8	,1	, &internal1_m1450_X0},	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1452	,8	,1	, &internal1_m1450_t0},	//(internal1_m1450_t0) время нахождения в зоне возврата
-	{ 1453	,18	,1	, &internal1_m1450_BLDv0},	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
-	{ 1454	,8	,1	, &internal1_m1467_tx},	//(internal1_m1467_tx) tx - время накопленное сек
-	{ 1455	,18	,1	, &internal1_m1467_y0},	//(internal1_m1467_y0) y0
-	{ 1456	,8	,1	, &internal1_m1468_tx},	//(internal1_m1468_tx) tx - время накопленное сек
-	{ 1457	,18	,1	, &internal1_m1468_y0},	//(internal1_m1468_y0) y0
-	{ 1458	,3	,1	, &internal1_m1476_xptr},	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
-	{ 1459	,8	,60	, &internal1_m1476_x0},	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
-	{ 1460	,8	,60	, &internal1_m1476_tim0},	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
-	{ 1461	,8	,1	, &internal1_m1476_sumtim},	//(internal1_m1476_sumtim) sumtim - время в пути
-	{ 1462	,8	,1	, &internal1_m1476_StSpeed},	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1463	,8	,1	, &internal1_m1476_Vz0},	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1464	,3	,1	, &internal1_m1476_flRazg},	//(internal1_m1476_flRazg) признак разгона/торможения
-	{ 1465	,8	,1	, &internal1_m1476_DelSp},	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
-	{ 1466	,8	,1	, &internal1_m1476_z0},	//(internal1_m1476_z0) z0 - точка прекращения движения
-	{ 1467	,8	,1	, &internal1_m1476_txZS},	//(internal1_m1476_txZS) txZS
-	{ 1468	,8	,1	, &internal1_m1476_tx},	//(internal1_m1476_tx) tx
-	{ 1469	,8	,1	, &internal1_m1476_txd},	//(internal1_m1476_txd) txd
-	{ 1470	,8	,1	, &internal1_m1476_txMBl},	//(internal1_m1476_txMBl) tx
-	{ 1471	,8	,1	, &internal1_m1476_txBl},	//(internal1_m1476_txBl) tx
-	{ 1472	,8	,1	, &internal1_m1476_Speed0},	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1473	,8	,1	, &internal1_m1476_xz0},	//(internal1_m1476_xz0) xz0 - новое задание мм
-	{ 1474	,8	,1	, &internal1_m1476_tz0},	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
-	{ 1475	,1	,1	, &internal1_m1476_Shift0},	//(internal1_m1476_Shift0) Shift0 - признак самохода
-	{ 1476	,1	,1	, &internal1_m1476_ShCntlSp0},	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1477	,1	,1	, &internal1_m1476_ShiftControl},	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
-	{ 1478	,1	,1	, &internal1_m686_q0},	//(internal1_m686_q0) q0 - внутренний параметр
-	{ 1479	,8	,1	, &internal1_m994_X0},	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1480	,8	,1	, &internal1_m994_t0},	//(internal1_m994_t0) время нахождения в зоне возврата
-	{ 1481	,18	,1	, &internal1_m994_BLDv0},	//(internal1_m994_BLDv0) BlDv - Блокировка движения
-	{ 1482	,8	,1	, &internal1_m1017_tx},	//(internal1_m1017_tx) tx - время накопленное сек
-	{ 1483	,18	,1	, &internal1_m1017_y0},	//(internal1_m1017_y0) y0
-	{ 1484	,8	,1	, &internal1_m1016_tx},	//(internal1_m1016_tx) tx - время накопленное сек
-	{ 1485	,18	,1	, &internal1_m1016_y0},	//(internal1_m1016_y0) y0
-	{ 1486	,3	,1	, &internal1_m1024_xptr},	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
-	{ 1487	,8	,60	, &internal1_m1024_x0},	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
-	{ 1488	,8	,60	, &internal1_m1024_tim0},	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
-	{ 1489	,8	,1	, &internal1_m1024_sumtim},	//(internal1_m1024_sumtim) sumtim - время в пути
-	{ 1490	,8	,1	, &internal1_m1024_StSpeed},	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1491	,8	,1	, &internal1_m1024_Vz0},	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1492	,3	,1	, &internal1_m1024_flRazg},	//(internal1_m1024_flRazg) признак разгона/торможения
-	{ 1493	,8	,1	, &internal1_m1024_DelSp},	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
-	{ 1494	,8	,1	, &internal1_m1024_z0},	//(internal1_m1024_z0) z0 - точка прекращения движения
-	{ 1495	,8	,1	, &internal1_m1024_txZS},	//(internal1_m1024_txZS) txZS
-	{ 1496	,8	,1	, &internal1_m1024_tx},	//(internal1_m1024_tx) tx
-	{ 1497	,8	,1	, &internal1_m1024_txd},	//(internal1_m1024_txd) txd
-	{ 1498	,8	,1	, &internal1_m1024_txMBl},	//(internal1_m1024_txMBl) tx
-	{ 1499	,8	,1	, &internal1_m1024_txBl},	//(internal1_m1024_txBl) tx
-	{ 1500	,8	,1	, &internal1_m1024_Speed0},	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1501	,8	,1	, &internal1_m1024_xz0},	//(internal1_m1024_xz0) xz0 - новое задание мм
-	{ 1502	,8	,1	, &internal1_m1024_tz0},	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
-	{ 1503	,1	,1	, &internal1_m1024_Shift0},	//(internal1_m1024_Shift0) Shift0 - признак самохода
-	{ 1504	,1	,1	, &internal1_m1024_ShCntlSp0},	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1505	,1	,1	, &internal1_m1024_ShiftControl},	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
-	{ 1506	,8	,1	, &internal1_m539_X0},	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1507	,8	,1	, &internal1_m539_t0},	//(internal1_m539_t0) время нахождения в зоне возврата
-	{ 1508	,18	,1	, &internal1_m539_BLDv0},	//(internal1_m539_BLDv0) BlDv - Блокировка движения
-	{ 1509	,8	,1	, &internal1_m558_tx},	//(internal1_m558_tx) tx - время накопленное сек
-	{ 1510	,18	,1	, &internal1_m558_y0},	//(internal1_m558_y0) y0
-	{ 1511	,8	,1	, &internal1_m557_tx},	//(internal1_m557_tx) tx - время накопленное сек
-	{ 1512	,18	,1	, &internal1_m557_y0},	//(internal1_m557_y0) y0
-	{ 1513	,3	,1	, &internal1_m562_xptr},	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
-	{ 1514	,8	,150	, &internal1_m562_x0},	//(internal1_m562_x0) x0 - массив мгновенных значений координат
-	{ 1515	,8	,150	, &internal1_m562_tim0},	//(internal1_m562_tim0) tim0 - массив значений времени цикла
-	{ 1516	,8	,1	, &internal1_m562_sumtim},	//(internal1_m562_sumtim) sumtim - время в пути
-	{ 1517	,8	,1	, &internal1_m562_StSpeed},	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1518	,8	,1	, &internal1_m562_Vz0},	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1519	,3	,1	, &internal1_m562_flRazg},	//(internal1_m562_flRazg) признак разгона/торможения
-	{ 1520	,8	,1	, &internal1_m562_DelSp},	//(internal1_m562_DelSp) DelSp - время переключения скоростей
-	{ 1521	,8	,1	, &internal1_m562_z0},	//(internal1_m562_z0) z0 - точка прекращения движения
-	{ 1522	,8	,1	, &internal1_m562_txZS},	//(internal1_m562_txZS) txZS
-	{ 1523	,8	,1	, &internal1_m562_tx},	//(internal1_m562_tx) tx
-	{ 1524	,8	,1	, &internal1_m562_txd},	//(internal1_m562_txd) txd
-	{ 1525	,8	,1	, &internal1_m562_txMBl},	//(internal1_m562_txMBl) tx
-	{ 1526	,8	,1	, &internal1_m562_txBl},	//(internal1_m562_txBl) tx
-	{ 1527	,8	,1	, &internal1_m562_Speed0},	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1528	,8	,1	, &internal1_m562_xz0},	//(internal1_m562_xz0) xz0 - новое задание мм
-	{ 1529	,8	,1	, &internal1_m562_tz0},	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
-	{ 1530	,1	,1	, &internal1_m562_Shift0},	//(internal1_m562_Shift0) Shift0 - признак самохода
-	{ 1531	,1	,1	, &internal1_m562_ShCntlSp0},	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1532	,1	,1	, &internal1_m562_ShiftControl},	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
-	{ 1533	,1	,1	, &internal1_m683_q0},	//(internal1_m683_q0) q0 - внутренний параметр
-	{ 1534	,8	,1	, &internal1_m169_X0},	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1535	,8	,1	, &internal1_m169_t0},	//(internal1_m169_t0) время нахождения в зоне возврата
-	{ 1536	,18	,1	, &internal1_m169_BLDv0},	//(internal1_m169_BLDv0) BlDv - Блокировка движения
-	{ 1537	,3	,1	, &internal1_m194_xptr},	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
-	{ 1538	,8	,150	, &internal1_m194_x0},	//(internal1_m194_x0) x0 - массив мгновенных значений координат
-	{ 1539	,8	,150	, &internal1_m194_tim0},	//(internal1_m194_tim0) tim0 - массив значений времени цикла
-	{ 1540	,8	,1	, &internal1_m194_sumtim},	//(internal1_m194_sumtim) sumtim - время в пути
-	{ 1541	,8	,1	, &internal1_m194_StSpeed},	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1542	,8	,1	, &internal1_m194_Vz0},	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1543	,3	,1	, &internal1_m194_flRazg},	//(internal1_m194_flRazg) признак разгона/торможения
-	{ 1544	,8	,1	, &internal1_m194_DelSp},	//(internal1_m194_DelSp) DelSp - время переключения скоростей
-	{ 1545	,8	,1	, &internal1_m194_z0},	//(internal1_m194_z0) z0 - точка прекращения движения
-	{ 1546	,8	,1	, &internal1_m194_txZS},	//(internal1_m194_txZS) txZS
-	{ 1547	,8	,1	, &internal1_m194_tx},	//(internal1_m194_tx) tx
-	{ 1548	,8	,1	, &internal1_m194_txd},	//(internal1_m194_txd) txd
-	{ 1549	,8	,1	, &internal1_m194_txMBl},	//(internal1_m194_txMBl) tx
-	{ 1550	,8	,1	, &internal1_m194_txBl},	//(internal1_m194_txBl) tx
-	{ 1551	,8	,1	, &internal1_m194_Speed0},	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1552	,8	,1	, &internal1_m194_xz0},	//(internal1_m194_xz0) xz0 - новое задание мм
-	{ 1553	,8	,1	, &internal1_m194_tz0},	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
-	{ 1554	,1	,1	, &internal1_m194_Shift0},	//(internal1_m194_Shift0) Shift0 - признак самохода
-	{ 1555	,1	,1	, &internal1_m194_ShCntlSp0},	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1556	,1	,1	, &internal1_m194_ShiftControl},	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
-	{ 1557	,1	,1	, &internal1_m709_q0},	//(internal1_m709_q0) q0 - внутренний параметр
-	{ 1558	,18	,1	, &internal1_m506_DvUp0},	//(internal1_m506_DvUp0) - есть команда на движение вперёд
-	{ 1559	,18	,1	, &internal1_m506_DvDw0},	//(internal1_m506_DvDw0) - есть команда на движение назад
-	{ 1560	,18	,1	, &internal1_m506_FDvUp0},	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
-	{ 1561	,18	,1	, &internal1_m506_FDvDw0},	//(internal1_m506_FDvDw0) - есть команда на движение назад
-	{ 1562	,18	,1	, &internal1_m506_BlDv0},	//(internal1_m506_BlDv0) - была блокировка
-	{ 1563	,18	,1	, &internal1_m506_Pkv0},	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
-	{ 1564	,18	,1	, &internal1_m506_Pkav0},	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1565	,18	,1	, &internal1_m506_Zkv0},	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
-	{ 1566	,18	,1	, &internal1_m506_Zkav0},	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1567	,8	,1	, &internal1_m506_txNm},	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1568	,8	,1	, &internal1_m506_txSm},	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1569	,8	,1	, &internal1_m506_txHr},	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1570	,8	,1	, &internal1_m506_txLd},	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1571	,18	,1	, &internal1_m506_fef},	//(internal1_m506_fef) fef
-	{ 1572	,18	,1	, &internal1_m500_DvUp0},	//(internal1_m500_DvUp0) - есть команда на движение вперёд
-	{ 1573	,18	,1	, &internal1_m500_DvDw0},	//(internal1_m500_DvDw0) - есть команда на движение назад
-	{ 1574	,18	,1	, &internal1_m500_FDvUp0},	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
-	{ 1575	,18	,1	, &internal1_m500_FDvDw0},	//(internal1_m500_FDvDw0) - есть команда на движение назад
-	{ 1576	,18	,1	, &internal1_m500_BlDv0},	//(internal1_m500_BlDv0) - была блокировка
-	{ 1577	,18	,1	, &internal1_m500_Pkv0},	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
-	{ 1578	,18	,1	, &internal1_m500_Pkav0},	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1579	,18	,1	, &internal1_m500_Zkv0},	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
-	{ 1580	,18	,1	, &internal1_m500_Zkav0},	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1581	,8	,1	, &internal1_m500_txNm},	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1582	,8	,1	, &internal1_m500_txSm},	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1583	,8	,1	, &internal1_m500_txHr},	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1584	,8	,1	, &internal1_m500_txLd},	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1585	,18	,1	, &internal1_m500_fef},	//(internal1_m500_fef) fef
-	{ 1586	,8	,1	, &internal1_m898_X0},	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1587	,8	,1	, &internal1_m898_t0},	//(internal1_m898_t0) время нахождения в зоне возврата
-	{ 1588	,18	,1	, &internal1_m898_BLDv0},	//(internal1_m898_BLDv0) BlDv - Блокировка движения
-	{ 1589	,3	,1	, &internal1_m916_xptr},	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
-	{ 1590	,8	,80	, &internal1_m916_x0},	//(internal1_m916_x0) x0 - массив мгновенных значений координат
-	{ 1591	,8	,80	, &internal1_m916_tim0},	//(internal1_m916_tim0) tim0 - массив значений времени цикла
-	{ 1592	,8	,1	, &internal1_m916_sumtim},	//(internal1_m916_sumtim) sumtim - время в пути
-	{ 1593	,8	,1	, &internal1_m916_StSpeed},	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1594	,8	,1	, &internal1_m916_Vz0},	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1595	,3	,1	, &internal1_m916_flRazg},	//(internal1_m916_flRazg) признак разгона/торможения
-	{ 1596	,8	,1	, &internal1_m916_DelSp},	//(internal1_m916_DelSp) DelSp - время переключения скоростей
-	{ 1597	,8	,1	, &internal1_m916_z0},	//(internal1_m916_z0) z0 - точка прекращения движения
-	{ 1598	,8	,1	, &internal1_m916_txZS},	//(internal1_m916_txZS) txZS
-	{ 1599	,8	,1	, &internal1_m916_tx},	//(internal1_m916_tx) tx
-	{ 1600	,8	,1	, &internal1_m916_txd},	//(internal1_m916_txd) txd
-	{ 1601	,8	,1	, &internal1_m916_txMBl},	//(internal1_m916_txMBl) tx
-	{ 1602	,8	,1	, &internal1_m916_txBl},	//(internal1_m916_txBl) tx
-	{ 1603	,8	,1	, &internal1_m916_Speed0},	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1604	,8	,1	, &internal1_m916_xz0},	//(internal1_m916_xz0) xz0 - новое задание мм
-	{ 1605	,8	,1	, &internal1_m916_tz0},	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
-	{ 1606	,1	,1	, &internal1_m916_Shift0},	//(internal1_m916_Shift0) Shift0 - признак самохода
-	{ 1607	,1	,1	, &internal1_m916_ShCntlSp0},	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1608	,1	,1	, &internal1_m916_ShiftControl},	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
-	{ 1609	,8	,1	, &internal1_m1757_X0},	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1610	,8	,1	, &internal1_m1757_t0},	//(internal1_m1757_t0) время нахождения в зоне возврата
-	{ 1611	,18	,1	, &internal1_m1757_BLDv0},	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
-	{ 1612	,8	,1	, &internal1_m1240_X0},	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1613	,8	,1	, &internal1_m1240_t0},	//(internal1_m1240_t0) время нахождения в зоне возврата
-	{ 1614	,18	,1	, &internal1_m1240_BLDv0},	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
-	{ 1615	,1	,1	, &internal1_m681_q0},	//(internal1_m681_q0) q0 - внутренний параметр
-	{ 1616	,8	,1	, &internal1_m1337_X0},	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
-	{ 1617	,8	,1	, &internal1_m1337_t0},	//(internal1_m1337_t0) время нахождения в зоне возврата
-	{ 1618	,18	,1	, &internal1_m1337_BLDv0},	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
-	{ 1619	,8	,1	, &internal1_m1366_tx},	//(internal1_m1366_tx) tx - время накопленное сек
-	{ 1620	,18	,1	, &internal1_m1366_y0},	//(internal1_m1366_y0) y0
-	{ 1621	,8	,1	, &internal1_m1365_tx},	//(internal1_m1365_tx) tx - время накопленное сек
-	{ 1622	,18	,1	, &internal1_m1365_y0},	//(internal1_m1365_y0) y0
-	{ 1623	,3	,1	, &internal1_m1372_xptr},	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
-	{ 1624	,8	,80	, &internal1_m1372_x0},	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
-	{ 1625	,8	,80	, &internal1_m1372_tim0},	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
-	{ 1626	,8	,1	, &internal1_m1372_sumtim},	//(internal1_m1372_sumtim) sumtim - время в пути
-	{ 1627	,8	,1	, &internal1_m1372_StSpeed},	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1628	,8	,1	, &internal1_m1372_Vz0},	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1629	,3	,1	, &internal1_m1372_flRazg},	//(internal1_m1372_flRazg) признак разгона/торможения
-	{ 1630	,8	,1	, &internal1_m1372_DelSp},	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
-	{ 1631	,8	,1	, &internal1_m1372_z0},	//(internal1_m1372_z0) z0 - точка прекращения движения
-	{ 1632	,8	,1	, &internal1_m1372_txZS},	//(internal1_m1372_txZS) txZS
-	{ 1633	,8	,1	, &internal1_m1372_tx},	//(internal1_m1372_tx) tx
-	{ 1634	,8	,1	, &internal1_m1372_txd},	//(internal1_m1372_txd) txd
-	{ 1635	,8	,1	, &internal1_m1372_txMBl},	//(internal1_m1372_txMBl) tx
-	{ 1636	,8	,1	, &internal1_m1372_txBl},	//(internal1_m1372_txBl) tx
-	{ 1637	,8	,1	, &internal1_m1372_Speed0},	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1638	,8	,1	, &internal1_m1372_xz0},	//(internal1_m1372_xz0) xz0 - новое задание мм
-	{ 1639	,8	,1	, &internal1_m1372_tz0},	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
-	{ 1640	,1	,1	, &internal1_m1372_Shift0},	//(internal1_m1372_Shift0) Shift0 - признак самохода
-	{ 1641	,1	,1	, &internal1_m1372_ShCntlSp0},	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1642	,1	,1	, &internal1_m1372_ShiftControl},	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
-	{ 1643	,1	,1	, &internal1_m701_q0},	//(internal1_m701_q0) q0 - внутренний параметр
-	{ 1644	,8	,1	, &internal1_m1771_tx},	//(internal1_m1771_tx) tx - время накопленное сек
-	{ 1645	,18	,1	, &internal1_m1771_y0},	//(internal1_m1771_y0) y0
-	{ 1646	,8	,1	, &internal1_m1775_tx},	//(internal1_m1775_tx) tx - время накопленное сек
-	{ 1647	,18	,1	, &internal1_m1775_y0},	//(internal1_m1775_y0) y0
-	{ 1648	,18	,1	, &internal1_m1760_DvUp0},	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
-	{ 1649	,18	,1	, &internal1_m1760_DvDw0},	//(internal1_m1760_DvDw0) - есть команда на движение назад
-	{ 1650	,18	,1	, &internal1_m1760_FDvUp0},	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
-	{ 1651	,18	,1	, &internal1_m1760_FDvDw0},	//(internal1_m1760_FDvDw0) - есть команда на движение назад
-	{ 1652	,18	,1	, &internal1_m1760_BlDv0},	//(internal1_m1760_BlDv0) - была блокировка
-	{ 1653	,18	,1	, &internal1_m1760_Pkv0},	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
-	{ 1654	,18	,1	, &internal1_m1760_Pkav0},	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1655	,18	,1	, &internal1_m1760_Zkv0},	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
-	{ 1656	,18	,1	, &internal1_m1760_Zkav0},	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1657	,8	,1	, &internal1_m1760_txNm},	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1658	,8	,1	, &internal1_m1760_txSm},	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1659	,8	,1	, &internal1_m1760_txHr},	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1660	,8	,1	, &internal1_m1760_txLd},	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1661	,18	,1	, &internal1_m1760_fef},	//(internal1_m1760_fef) fef
-	{ 1662	,3	,1	, &internal1_m1779_xptr},	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
-	{ 1663	,8	,20	, &internal1_m1779_x0},	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
-	{ 1664	,8	,20	, &internal1_m1779_tim0},	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
-	{ 1665	,8	,1	, &internal1_m1779_sumtim},	//(internal1_m1779_sumtim) sumtim - время в пути
-	{ 1666	,8	,1	, &internal1_m1779_StSpeed},	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1667	,8	,1	, &internal1_m1779_Vz0},	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1668	,3	,1	, &internal1_m1779_flRazg},	//(internal1_m1779_flRazg) признак разгона/торможения
-	{ 1669	,8	,1	, &internal1_m1779_DelSp},	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
-	{ 1670	,8	,1	, &internal1_m1779_z0},	//(internal1_m1779_z0) z0 - точка прекращения движения
-	{ 1671	,8	,1	, &internal1_m1779_txZS},	//(internal1_m1779_txZS) txZS
-	{ 1672	,8	,1	, &internal1_m1779_tx},	//(internal1_m1779_tx) tx
-	{ 1673	,8	,1	, &internal1_m1779_txd},	//(internal1_m1779_txd) txd
-	{ 1674	,8	,1	, &internal1_m1779_txMBl},	//(internal1_m1779_txMBl) tx
-	{ 1675	,8	,1	, &internal1_m1779_txBl},	//(internal1_m1779_txBl) tx
-	{ 1676	,8	,1	, &internal1_m1779_Speed0},	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1677	,8	,1	, &internal1_m1779_xz0},	//(internal1_m1779_xz0) xz0 - новое задание мм
-	{ 1678	,8	,1	, &internal1_m1779_tz0},	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
-	{ 1679	,1	,1	, &internal1_m1779_Shift0},	//(internal1_m1779_Shift0) Shift0 - признак самохода
-	{ 1680	,1	,1	, &internal1_m1779_ShCntlSp0},	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1681	,1	,1	, &internal1_m1779_ShiftControl},	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
-	{ 1682	,8	,1	, &internal1_m1257_tx},	//(internal1_m1257_tx) tx - время накопленное сек
-	{ 1683	,18	,1	, &internal1_m1257_y0},	//(internal1_m1257_y0) y0
-	{ 1684	,8	,1	, &internal1_m1261_tx},	//(internal1_m1261_tx) tx - время накопленное сек
-	{ 1685	,18	,1	, &internal1_m1261_y0},	//(internal1_m1261_y0) y0
-	{ 1686	,1	,1	, &internal1_m691_q0},	//(internal1_m691_q0) q0 - внутренний параметр
-	{ 1687	,1	,1	, &internal1_m656_q0},	//(internal1_m656_q0) q0 - внутренний параметр
-	{ 1688	,18	,1	, &internal1_m1246_DvUp0},	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
-	{ 1689	,18	,1	, &internal1_m1246_DvDw0},	//(internal1_m1246_DvDw0) - есть команда на движение назад
-	{ 1690	,18	,1	, &internal1_m1246_FDvUp0},	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
-	{ 1691	,18	,1	, &internal1_m1246_FDvDw0},	//(internal1_m1246_FDvDw0) - есть команда на движение назад
-	{ 1692	,18	,1	, &internal1_m1246_BlDv0},	//(internal1_m1246_BlDv0) - была блокировка
-	{ 1693	,18	,1	, &internal1_m1246_Pkv0},	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
-	{ 1694	,18	,1	, &internal1_m1246_Pkav0},	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1695	,18	,1	, &internal1_m1246_Zkv0},	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
-	{ 1696	,18	,1	, &internal1_m1246_Zkav0},	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1697	,8	,1	, &internal1_m1246_txNm},	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1698	,8	,1	, &internal1_m1246_txSm},	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1699	,8	,1	, &internal1_m1246_txHr},	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1700	,8	,1	, &internal1_m1246_txLd},	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1701	,18	,1	, &internal1_m1246_fef},	//(internal1_m1246_fef) fef
-	{ 1702	,3	,1	, &internal1_m1267_xptr},	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
-	{ 1703	,8	,20	, &internal1_m1267_x0},	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
-	{ 1704	,8	,20	, &internal1_m1267_tim0},	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
-	{ 1705	,8	,1	, &internal1_m1267_sumtim},	//(internal1_m1267_sumtim) sumtim - время в пути
-	{ 1706	,8	,1	, &internal1_m1267_StSpeed},	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
-	{ 1707	,8	,1	, &internal1_m1267_Vz0},	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
-	{ 1708	,3	,1	, &internal1_m1267_flRazg},	//(internal1_m1267_flRazg) признак разгона/торможения
-	{ 1709	,8	,1	, &internal1_m1267_DelSp},	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
-	{ 1710	,8	,1	, &internal1_m1267_z0},	//(internal1_m1267_z0) z0 - точка прекращения движения
-	{ 1711	,8	,1	, &internal1_m1267_txZS},	//(internal1_m1267_txZS) txZS
-	{ 1712	,8	,1	, &internal1_m1267_tx},	//(internal1_m1267_tx) tx
-	{ 1713	,8	,1	, &internal1_m1267_txd},	//(internal1_m1267_txd) txd
-	{ 1714	,8	,1	, &internal1_m1267_txMBl},	//(internal1_m1267_txMBl) tx
-	{ 1715	,8	,1	, &internal1_m1267_txBl},	//(internal1_m1267_txBl) tx
-	{ 1716	,8	,1	, &internal1_m1267_Speed0},	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
-	{ 1717	,8	,1	, &internal1_m1267_xz0},	//(internal1_m1267_xz0) xz0 - новое задание мм
-	{ 1718	,8	,1	, &internal1_m1267_tz0},	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
-	{ 1719	,1	,1	, &internal1_m1267_Shift0},	//(internal1_m1267_Shift0) Shift0 - признак самохода
-	{ 1720	,1	,1	, &internal1_m1267_ShCntlSp0},	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
-	{ 1721	,1	,1	, &internal1_m1267_ShiftControl},	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
-	{ 1722	,1	,1	, &internal1_m819_x0},	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1723	,1	,1	, &internal1_m788_x0},	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1724	,1	,1	, &internal1_m730_x0},	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
-	{ 1725	,1	,1	, &internal1_m844_q0},	//(internal1_m844_q0) q0 - внутренний параметр
-	{ 1726	,1	,1	, &internal1_m839_q0},	//(internal1_m839_q0) q0 - внутренний параметр
-	{ 1727	,1	,1	, &internal1_m807_q0},	//(internal1_m807_q0) q0 - внутренний параметр
-	{ 1728	,1	,1	, &internal1_m812_q0},	//(internal1_m812_q0) q0 - внутренний параметр
-	{ 1729	,1	,1	, &internal1_m820_q0},	//(internal1_m820_q0) q0 - внутренний параметр
-	{ 1730	,1	,1	, &internal1_m832_q0},	//(internal1_m832_q0) q0 - внутренний параметр
-	{ 1731	,1	,1	, &internal1_m810_q0},	//(internal1_m810_q0) q0 - внутренний параметр
-	{ 1732	,18	,1	, &internal1_m1310_DvUp0},	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
-	{ 1733	,18	,1	, &internal1_m1310_DvDw0},	//(internal1_m1310_DvDw0) - есть команда на движение назад
-	{ 1734	,18	,1	, &internal1_m1310_FDvUp0},	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
-	{ 1735	,18	,1	, &internal1_m1310_FDvDw0},	//(internal1_m1310_FDvDw0) - есть команда на движение назад
-	{ 1736	,18	,1	, &internal1_m1310_BlDv0},	//(internal1_m1310_BlDv0) - была блокировка
-	{ 1737	,18	,1	, &internal1_m1310_Pkv0},	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
-	{ 1738	,18	,1	, &internal1_m1310_Pkav0},	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1739	,18	,1	, &internal1_m1310_Zkv0},	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
-	{ 1740	,18	,1	, &internal1_m1310_Zkav0},	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1741	,8	,1	, &internal1_m1310_txNm},	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1742	,8	,1	, &internal1_m1310_txSm},	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1743	,8	,1	, &internal1_m1310_txHr},	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1744	,8	,1	, &internal1_m1310_txLd},	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1745	,18	,1	, &internal1_m1310_fef},	//(internal1_m1310_fef) fef
-	{ 1746	,18	,1	, &internal1_m1300_DvUp0},	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
-	{ 1747	,18	,1	, &internal1_m1300_DvDw0},	//(internal1_m1300_DvDw0) - есть команда на движение назад
-	{ 1748	,18	,1	, &internal1_m1300_FDvUp0},	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
-	{ 1749	,18	,1	, &internal1_m1300_FDvDw0},	//(internal1_m1300_FDvDw0) - есть команда на движение назад
-	{ 1750	,18	,1	, &internal1_m1300_BlDv0},	//(internal1_m1300_BlDv0) - была блокировка
-	{ 1751	,18	,1	, &internal1_m1300_Pkv0},	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
-	{ 1752	,18	,1	, &internal1_m1300_Pkav0},	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1753	,18	,1	, &internal1_m1300_Zkv0},	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
-	{ 1754	,18	,1	, &internal1_m1300_Zkav0},	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1755	,8	,1	, &internal1_m1300_txNm},	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1756	,8	,1	, &internal1_m1300_txSm},	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1757	,8	,1	, &internal1_m1300_txHr},	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1758	,8	,1	, &internal1_m1300_txLd},	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1759	,18	,1	, &internal1_m1300_fef},	//(internal1_m1300_fef) fef
-	{ 1760	,18	,1	, &internal1_m868_DvUp0},	//(internal1_m868_DvUp0) - есть команда на движение вперёд
-	{ 1761	,18	,1	, &internal1_m868_DvDw0},	//(internal1_m868_DvDw0) - есть команда на движение назад
-	{ 1762	,18	,1	, &internal1_m868_FDvUp0},	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
-	{ 1763	,18	,1	, &internal1_m868_FDvDw0},	//(internal1_m868_FDvDw0) - есть команда на движение назад
-	{ 1764	,18	,1	, &internal1_m868_BlDv0},	//(internal1_m868_BlDv0) - была блокировка
-	{ 1765	,18	,1	, &internal1_m868_Pkv0},	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
-	{ 1766	,18	,1	, &internal1_m868_Pkav0},	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1767	,18	,1	, &internal1_m868_Zkv0},	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
-	{ 1768	,18	,1	, &internal1_m868_Zkav0},	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1769	,8	,1	, &internal1_m868_txNm},	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1770	,8	,1	, &internal1_m868_txSm},	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1771	,8	,1	, &internal1_m868_txHr},	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1772	,8	,1	, &internal1_m868_txLd},	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1773	,18	,1	, &internal1_m868_fef},	//(internal1_m868_fef) fef
-	{ 1774	,18	,1	, &internal1_m864_DvUp0},	//(internal1_m864_DvUp0) - есть команда на движение вперёд
-	{ 1775	,18	,1	, &internal1_m864_DvDw0},	//(internal1_m864_DvDw0) - есть команда на движение назад
-	{ 1776	,18	,1	, &internal1_m864_FDvUp0},	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
-	{ 1777	,18	,1	, &internal1_m864_FDvDw0},	//(internal1_m864_FDvDw0) - есть команда на движение назад
-	{ 1778	,18	,1	, &internal1_m864_BlDv0},	//(internal1_m864_BlDv0) - была блокировка
-	{ 1779	,18	,1	, &internal1_m864_Pkv0},	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
-	{ 1780	,18	,1	, &internal1_m864_Pkav0},	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1781	,18	,1	, &internal1_m864_Zkv0},	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
-	{ 1782	,18	,1	, &internal1_m864_Zkav0},	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1783	,8	,1	, &internal1_m864_txNm},	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1784	,8	,1	, &internal1_m864_txSm},	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1785	,8	,1	, &internal1_m864_txHr},	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1786	,8	,1	, &internal1_m864_txLd},	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1787	,18	,1	, &internal1_m864_fef},	//(internal1_m864_fef) fef
-	{ 1788	,18	,1	, &internal1_m379_DvUp0},	//(internal1_m379_DvUp0) - есть команда на движение вперёд
-	{ 1789	,18	,1	, &internal1_m379_DvDw0},	//(internal1_m379_DvDw0) - есть команда на движение назад
-	{ 1790	,18	,1	, &internal1_m379_FDvUp0},	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
-	{ 1791	,18	,1	, &internal1_m379_FDvDw0},	//(internal1_m379_FDvDw0) - есть команда на движение назад
-	{ 1792	,18	,1	, &internal1_m379_BlDv0},	//(internal1_m379_BlDv0) - была блокировка
-	{ 1793	,18	,1	, &internal1_m379_Pkv0},	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
-	{ 1794	,18	,1	, &internal1_m379_Pkav0},	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1795	,18	,1	, &internal1_m379_Zkv0},	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
-	{ 1796	,18	,1	, &internal1_m379_Zkav0},	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1797	,8	,1	, &internal1_m379_txNm},	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1798	,8	,1	, &internal1_m379_txSm},	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1799	,8	,1	, &internal1_m379_txHr},	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1800	,8	,1	, &internal1_m379_txLd},	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1801	,18	,1	, &internal1_m379_fef},	//(internal1_m379_fef) fef
-	{ 1802	,18	,1	, &internal1_m416_DvUp0},	//(internal1_m416_DvUp0) - есть команда на движение вперёд
-	{ 1803	,18	,1	, &internal1_m416_DvDw0},	//(internal1_m416_DvDw0) - есть команда на движение назад
-	{ 1804	,18	,1	, &internal1_m416_FDvUp0},	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
-	{ 1805	,18	,1	, &internal1_m416_FDvDw0},	//(internal1_m416_FDvDw0) - есть команда на движение назад
-	{ 1806	,18	,1	, &internal1_m416_BlDv0},	//(internal1_m416_BlDv0) - была блокировка
-	{ 1807	,18	,1	, &internal1_m416_Pkv0},	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
-	{ 1808	,18	,1	, &internal1_m416_Pkav0},	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1809	,18	,1	, &internal1_m416_Zkv0},	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
-	{ 1810	,18	,1	, &internal1_m416_Zkav0},	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1811	,8	,1	, &internal1_m416_txNm},	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1812	,8	,1	, &internal1_m416_txSm},	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1813	,8	,1	, &internal1_m416_txHr},	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1814	,8	,1	, &internal1_m416_txLd},	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1815	,18	,1	, &internal1_m416_fef},	//(internal1_m416_fef) fef
-	{ 1816	,18	,1	, &internal1_m410_DvUp0},	//(internal1_m410_DvUp0) - есть команда на движение вперёд
-	{ 1817	,18	,1	, &internal1_m410_DvDw0},	//(internal1_m410_DvDw0) - есть команда на движение назад
-	{ 1818	,18	,1	, &internal1_m410_FDvUp0},	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
-	{ 1819	,18	,1	, &internal1_m410_FDvDw0},	//(internal1_m410_FDvDw0) - есть команда на движение назад
-	{ 1820	,18	,1	, &internal1_m410_BlDv0},	//(internal1_m410_BlDv0) - была блокировка
-	{ 1821	,18	,1	, &internal1_m410_Pkv0},	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
-	{ 1822	,18	,1	, &internal1_m410_Pkav0},	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
-	{ 1823	,18	,1	, &internal1_m410_Zkv0},	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
-	{ 1824	,18	,1	, &internal1_m410_Zkav0},	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
-	{ 1825	,8	,1	, &internal1_m410_txNm},	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
-	{ 1826	,8	,1	, &internal1_m410_txSm},	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
-	{ 1827	,8	,1	, &internal1_m410_txHr},	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
-	{ 1828	,8	,1	, &internal1_m410_txLd},	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
-	{ 1829	,18	,1	, &internal1_m410_fef},	//(internal1_m410_fef) fef
-	{ 1830	,1	,1	, &internal1_m816_q0},	//(internal1_m816_q0) q0 - внутренний параметр
-	{ 1831	,1	,1	, &internal1_m813_q0},	//(internal1_m813_q0) q0 - внутренний параметр
+	{ 893	,8	,1	, &internal2_m182_tx},	//(internal2_m182_tx) tx - время накопленное сек
+	{ 894	,18	,1	, &internal2_m182_y0},	//(internal2_m182_y0) y0
+	{ 895	,8	,1	, &internal2_m176_tx},	//(internal2_m176_tx) tx - время накопленное сек
+	{ 896	,18	,1	, &internal2_m176_y0},	//(internal2_m176_y0) y0
+	{ 897	,8	,1	, &internal2_m173_tx},	//(internal2_m173_tx) tx - время накопленное сек
+	{ 898	,18	,1	, &internal2_m173_y0},	//(internal2_m173_y0) y0
+	{ 899	,8	,1	, &internal2_m165_tx},	//(internal2_m165_tx) tx - время накопленное сек
+	{ 900	,18	,1	, &internal2_m165_y0},	//(internal2_m165_y0) y0
+	{ 901	,8	,1	, &internal2_m158_tx},	//(internal2_m158_tx) tx - время накопленное сек
+	{ 902	,18	,1	, &internal2_m158_y0},	//(internal2_m158_y0) y0
+	{ 903	,8	,1	, &internal2_m155_tx},	//(internal2_m155_tx) tx - время накопленное сек
+	{ 904	,18	,1	, &internal2_m155_y0},	//(internal2_m155_y0) y0
+	{ 905	,8	,1	, &internal2_m149_tx},	//(internal2_m149_tx) tx - время накопленное сек
+	{ 906	,18	,1	, &internal2_m149_y0},	//(internal2_m149_y0) y0
+	{ 907	,8	,1	, &internal2_m144_tx},	//(internal2_m144_tx) tx - время накопленное сек
+	{ 908	,18	,1	, &internal2_m144_y0},	//(internal2_m144_y0) y0
+	{ 909	,8	,1	, &internal2_m141_tx},	//(internal2_m141_tx) tx - время накопленное сек
+	{ 910	,18	,1	, &internal2_m141_y0},	//(internal2_m141_y0) y0
+	{ 911	,8	,1	, &internal2_m134_tx},	//(internal2_m134_tx) tx - время накопленное сек
+	{ 912	,18	,1	, &internal2_m134_y0},	//(internal2_m134_y0) y0
+	{ 913	,8	,1	, &internal2_m132_tx},	//(internal2_m132_tx) tx - время накопленное сек
+	{ 914	,18	,1	, &internal2_m132_y0},	//(internal2_m132_y0) y0
+	{ 915	,8	,1	, &internal2_m127_tx},	//(internal2_m127_tx) tx - время накопленное сек
+	{ 916	,18	,1	, &internal2_m127_y0},	//(internal2_m127_y0) y0
+	{ 917	,8	,1	, &internal2_m195_y0},	//(internal2_m195_y0) y0
+	{ 918	,8	,1	, &internal2_m193_y0},	//(internal2_m193_y0) y0
+	{ 919	,1	,1	, &internal2_m228_y0},	//(internal2_m228_y0) state
+	{ 920	,1	,1	, &internal2_m220_y0},	//(internal2_m220_y0) state
+	{ 921	,1	,1	, &internal2_m208_y1},	//(internal2_m208_y1) y1 - внутренний параметр
+	{ 922	,1	,1	, &internal2_m214_y1},	//(internal2_m214_y1) y1 - внутренний параметр
+	{ 923	,1	,1	, &internal2_m198_y1},	//(internal2_m198_y1) y1 - внутренний параметр
+	{ 924	,1	,1	, &internal2_m205_y1},	//(internal2_m205_y1) y1 - внутренний параметр
+	{ 925	,5	,1	, &internal2_m17_Nk0},	//(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 926	,1	,1	, &internal2_m17_SetFlag},	//(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 927	,5	,1	, &internal2_m110_Nk0},	//(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 928	,1	,1	, &internal2_m110_SetFlag},	//(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 929	,5	,1	, &internal2_m106_Nk0},	//(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 930	,1	,1	, &internal2_m106_SetFlag},	//(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 931	,5	,1	, &internal2_m75_Nk0},	//(internal2_m75_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 932	,1	,1	, &internal2_m75_SetFlag},	//(internal2_m75_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 933	,5	,1	, &internal2_m77_Nk0},	//(internal2_m77_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 934	,1	,1	, &internal2_m77_SetFlag},	//(internal2_m77_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 935	,5	,1	, &internal2_m49_Nk0},	//(internal2_m49_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 936	,1	,1	, &internal2_m49_SetFlag},	//(internal2_m49_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 937	,5	,1	, &internal2_m53_Nk0},	//(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 938	,1	,1	, &internal2_m53_SetFlag},	//(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 939	,5	,1	, &internal2_m15_Nk0},	//(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках
+	{ 940	,1	,1	, &internal2_m15_SetFlag},	//(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ
+	{ 941	,8	,1	, &internal1_m2019_tx},	//(internal1_m2019_tx) tx - внутренний параметр
+	{ 942	,8	,1	, &internal1_m2018_tx},	//(internal1_m2018_tx) tx - внутренний параметр
+	{ 943	,8	,1	, &internal1_m774_tx},	//(internal1_m774_tx) tx - внутренний параметр
+	{ 944	,8	,1	, &internal1_m731_tx},	//(internal1_m731_tx) tx - внутренний параметр
+	{ 945	,8	,1	, &internal1_m784_tx},	//(internal1_m784_tx) tx - внутренний параметр
+	{ 946	,8	,1	, &internal1_m786_tx},	//(internal1_m786_tx) tx - внутренний параметр
+	{ 947	,8	,1	, &internal1_m785_tx},	//(internal1_m785_tx) tx - внутренний параметр
+	{ 948	,8	,1	, &internal1_m740_tx},	//(internal1_m740_tx) tx - внутренний параметр
+	{ 949	,8	,1	, &internal1_m724_tx},	//(internal1_m724_tx) tx - внутренний параметр
+	{ 950	,8	,1	, &internal1_m735_tx},	//(internal1_m735_tx) tx - внутренний параметр
+	{ 951	,8	,1	, &internal1_m766_tx},	//(internal1_m766_tx) tx - внутренний параметр
+	{ 952	,8	,1	, &internal1_m783_tx},	//(internal1_m783_tx) tx - внутренний параметр
+	{ 953	,8	,1	, &internal1_m756_tx},	//(internal1_m756_tx) tx - внутренний параметр
+	{ 954	,8	,1	, &internal1_m387_tx},	//(internal1_m387_tx) tx - внутренний параметр
+	{ 955	,8	,1	, &internal1_m386_tx},	//(internal1_m386_tx) tx - внутренний параметр
+	{ 956	,8	,1	, &internal1_m385_tx},	//(internal1_m385_tx) tx - внутренний параметр
+	{ 957	,8	,1	, &internal1_m384_tx},	//(internal1_m384_tx) tx - внутренний параметр
+	{ 958	,8	,1	, &internal1_m755_tx},	//(internal1_m755_tx) tx - внутренний параметр
+	{ 959	,8	,1	, &internal1_m750_tx},	//(internal1_m750_tx) tx - внутренний параметр
+	{ 960	,8	,1	, &internal1_m759_tx},	//(internal1_m759_tx) tx - внутренний параметр
+	{ 961	,8	,1	, &internal1_m764_tx},	//(internal1_m764_tx) tx - внутренний параметр
+	{ 962	,8	,1	, &internal1_m520_tx},	//(internal1_m520_tx) tx - внутренний параметр
+	{ 963	,8	,1	, &internal1_m519_tx},	//(internal1_m519_tx) tx - внутренний параметр
+	{ 964	,8	,1	, &internal1_m518_tx},	//(internal1_m518_tx) tx - внутренний параметр
+	{ 965	,8	,1	, &internal1_m514_tx},	//(internal1_m514_tx) tx - внутренний параметр
+	{ 966	,8	,1	, &internal1_m491_tx},	//(internal1_m491_tx) tx - внутренний параметр
+	{ 967	,8	,1	, &internal1_m490_tx},	//(internal1_m490_tx) tx - внутренний параметр
+	{ 968	,8	,1	, &internal1_m489_tx},	//(internal1_m489_tx) tx - внутренний параметр
+	{ 969	,8	,1	, &internal1_m492_tx},	//(internal1_m492_tx) tx - внутренний параметр
+	{ 970	,8	,1	, &internal1_m2436_tx},	//(internal1_m2436_tx) tx - внутренний параметр
+	{ 971	,8	,1	, &internal1_m2145_tx},	//(internal1_m2145_tx) tx - внутренний параметр
+	{ 972	,8	,1	, &internal1_m2435_tx},	//(internal1_m2435_tx) tx - внутренний параметр
+	{ 973	,8	,1	, &internal1_m2434_tx},	//(internal1_m2434_tx) tx - внутренний параметр
+	{ 974	,8	,1	, &internal1_m2433_tx},	//(internal1_m2433_tx) tx - внутренний параметр
+	{ 975	,8	,1	, &internal1_m102_tx},	//(internal1_m102_tx) tx - внутренний параметр
+	{ 976	,8	,1	, &internal1_m1138_tx},	//(internal1_m1138_tx) tx - внутренний параметр
+	{ 977	,8	,1	, &internal1_m2291_tx},	//(internal1_m2291_tx) tx - внутренний параметр
+	{ 978	,8	,1	, &internal1_m2290_tx},	//(internal1_m2290_tx) tx - внутренний параметр
+	{ 979	,8	,1	, &internal1_m2289_tx},	//(internal1_m2289_tx) tx - внутренний параметр
+	{ 980	,8	,1	, &internal1_m1224_tx},	//(internal1_m1224_tx) tx - внутренний параметр
+	{ 981	,8	,1	, &internal1_m1223_tx},	//(internal1_m1223_tx) tx - внутренний параметр
+	{ 982	,8	,1	, &internal1_m1222_tx},	//(internal1_m1222_tx) tx - внутренний параметр
+	{ 983	,8	,1	, &internal1_m1215_tx},	//(internal1_m1215_tx) tx - внутренний параметр
+	{ 984	,8	,1	, &internal1_m1213_tx},	//(internal1_m1213_tx) tx - внутренний параметр
+	{ 985	,8	,1	, &internal1_m1211_tx},	//(internal1_m1211_tx) tx - внутренний параметр
+	{ 986	,8	,1	, &internal1_m1209_tx},	//(internal1_m1209_tx) tx - внутренний параметр
+	{ 987	,8	,1	, &internal1_m1252_tx},	//(internal1_m1252_tx) tx - внутренний параметр
+	{ 988	,8	,1	, &internal1_m1259_tx},	//(internal1_m1259_tx) tx - внутренний параметр
+	{ 989	,8	,1	, &internal1_m1264_tx},	//(internal1_m1264_tx) tx - внутренний параметр
+	{ 990	,8	,1	, &internal1_m1270_tx},	//(internal1_m1270_tx) tx - внутренний параметр
+	{ 991	,8	,1	, &internal1_m1230_tx},	//(internal1_m1230_tx) tx - внутренний параметр
+	{ 992	,8	,1	, &internal1_m1251_tx},	//(internal1_m1251_tx) tx - внутренний параметр
+	{ 993	,8	,1	, &internal1_m1265_tx},	//(internal1_m1265_tx) tx - внутренний параметр
+	{ 994	,8	,1	, &internal1_m469_tx},	//(internal1_m469_tx) tx - внутренний параметр
+	{ 995	,8	,1	, &internal1_m463_tx},	//(internal1_m463_tx) tx - внутренний параметр
+	{ 996	,8	,1	, &internal1_m465_tx},	//(internal1_m465_tx) tx - внутренний параметр
+	{ 997	,8	,1	, &internal1_m467_tx},	//(internal1_m467_tx) tx - внутренний параметр
+	{ 998	,8	,1	, &internal1_m474_tx},	//(internal1_m474_tx) tx - внутренний параметр
+	{ 999	,8	,1	, &internal1_m428_tx},	//(internal1_m428_tx) tx - внутренний параметр
+	{ 1000	,8	,1	, &internal1_m426_tx},	//(internal1_m426_tx) tx - внутренний параметр
+	{ 1001	,8	,1	, &internal1_m427_tx},	//(internal1_m427_tx) tx - внутренний параметр
+	{ 1002	,8	,1	, &internal1_m420_tx},	//(internal1_m420_tx) tx - внутренний параметр
+	{ 1003	,8	,1	, &internal1_m882_tx},	//(internal1_m882_tx) tx - внутренний параметр
+	{ 1004	,8	,1	, &internal1_m881_tx},	//(internal1_m881_tx) tx - внутренний параметр
+	{ 1005	,8	,1	, &internal1_m880_tx},	//(internal1_m880_tx) tx - внутренний параметр
+	{ 1006	,8	,1	, &internal1_m876_tx},	//(internal1_m876_tx) tx - внутренний параметр
+	{ 1007	,8	,1	, &internal1_m1316_tx},	//(internal1_m1316_tx) tx - внутренний параметр
+	{ 1008	,8	,1	, &internal1_m1315_tx},	//(internal1_m1315_tx) tx - внутренний параметр
+	{ 1009	,8	,1	, &internal1_m1314_tx},	//(internal1_m1314_tx) tx - внутренний параметр
+	{ 1010	,8	,1	, &internal1_m1527_tx},	//(internal1_m1527_tx) tx - внутренний параметр
+	{ 1011	,8	,1	, &internal1_m1540_tx},	//(internal1_m1540_tx) tx - внутренний параметр
+	{ 1012	,8	,1	, &internal1_m1539_tx},	//(internal1_m1539_tx) tx - внутренний параметр
+	{ 1013	,8	,1	, &internal1_m1538_tx},	//(internal1_m1538_tx) tx - внутренний параметр
+	{ 1014	,8	,1	, &internal1_m1529_tx},	//(internal1_m1529_tx) tx - внутренний параметр
+	{ 1015	,8	,1	, &internal1_m2263_tx},	//(internal1_m2263_tx) tx - внутренний параметр
+	{ 1016	,8	,1	, &internal1_m2246_tx},	//(internal1_m2246_tx) tx - внутренний параметр
+	{ 1017	,8	,1	, &internal1_m2223_tx},	//(internal1_m2223_tx) tx - внутренний параметр
+	{ 1018	,8	,1	, &internal1_m1537_tx},	//(internal1_m1537_tx) tx - внутренний параметр
+	{ 1019	,8	,1	, &internal1_m1517_tx},	//(internal1_m1517_tx) tx - внутренний параметр
+	{ 1020	,8	,1	, &internal1_m1516_tx},	//(internal1_m1516_tx) tx - внутренний параметр
+	{ 1021	,8	,1	, &internal1_m1514_tx},	//(internal1_m1514_tx) tx - внутренний параметр
+	{ 1022	,8	,1	, &internal1_m1536_tx},	//(internal1_m1536_tx) tx - внутренний параметр
+	{ 1023	,8	,1	, &internal1_m1502_tx},	//(internal1_m1502_tx) tx - внутренний параметр
+	{ 1024	,8	,1	, &internal1_m1504_tx},	//(internal1_m1504_tx) tx - внутренний параметр
+	{ 1025	,8	,1	, &internal1_m1501_tx},	//(internal1_m1501_tx) tx - внутренний параметр
+	{ 1026	,8	,1	, &internal1_m1474_tx},	//(internal1_m1474_tx) tx - внутренний параметр
+	{ 1027	,8	,1	, &internal1_m1473_tx},	//(internal1_m1473_tx) tx - внутренний параметр
+	{ 1028	,8	,1	, &internal1_m1482_tx},	//(internal1_m1482_tx) tx - внутренний параметр
+	{ 1029	,8	,1	, &internal1_m1486_tx},	//(internal1_m1486_tx) tx - внутренний параметр
+	{ 1030	,8	,1	, &internal1_m975_tx},	//(internal1_m975_tx) tx - внутренний параметр
+	{ 1031	,8	,1	, &internal1_m978_tx},	//(internal1_m978_tx) tx - внутренний параметр
+	{ 1032	,8	,1	, &internal1_m2214_tx},	//(internal1_m2214_tx) tx - внутренний параметр
+	{ 1033	,8	,1	, &internal1_m968_tx},	//(internal1_m968_tx) tx - внутренний параметр
+	{ 1034	,8	,1	, &internal1_m966_tx},	//(internal1_m966_tx) tx - внутренний параметр
+	{ 1035	,8	,1	, &internal1_m974_tx},	//(internal1_m974_tx) tx - внутренний параметр
+	{ 1036	,8	,1	, &internal1_m958_tx},	//(internal1_m958_tx) tx - внутренний параметр
+	{ 1037	,8	,1	, &internal1_m956_tx},	//(internal1_m956_tx) tx - внутренний параметр
+	{ 1038	,8	,1	, &internal1_m952_tx},	//(internal1_m952_tx) tx - внутренний параметр
+	{ 1039	,8	,1	, &internal1_m973_tx},	//(internal1_m973_tx) tx - внутренний параметр
+	{ 1040	,8	,1	, &internal1_m940_tx},	//(internal1_m940_tx) tx - внутренний параметр
+	{ 1041	,8	,1	, &internal1_m941_tx},	//(internal1_m941_tx) tx - внутренний параметр
+	{ 1042	,8	,1	, &internal1_m938_tx},	//(internal1_m938_tx) tx - внутренний параметр
+	{ 1043	,8	,1	, &internal1_m626_tx},	//(internal1_m626_tx) tx - внутренний параметр
+	{ 1044	,8	,1	, &internal1_m629_tx},	//(internal1_m629_tx) tx - внутренний параметр
+	{ 1045	,8	,1	, &internal1_m628_tx},	//(internal1_m628_tx) tx - внутренний параметр
+	{ 1046	,8	,1	, &internal1_m616_tx},	//(internal1_m616_tx) tx - внутренний параметр
+	{ 1047	,8	,1	, &internal1_m615_tx},	//(internal1_m615_tx) tx - внутренний параметр
+	{ 1048	,8	,1	, &internal1_m611_tx},	//(internal1_m611_tx) tx - внутренний параметр
+	{ 1049	,8	,1	, &internal1_m624_tx},	//(internal1_m624_tx) tx - внутренний параметр
+	{ 1050	,8	,1	, &internal1_m601_tx},	//(internal1_m601_tx) tx - внутренний параметр
+	{ 1051	,8	,1	, &internal1_m600_tx},	//(internal1_m600_tx) tx - внутренний параметр
+	{ 1052	,8	,1	, &internal1_m596_tx},	//(internal1_m596_tx) tx - внутренний параметр
+	{ 1053	,8	,1	, &internal1_m627_tx},	//(internal1_m627_tx) tx - внутренний параметр
+	{ 1054	,8	,1	, &internal1_m584_tx},	//(internal1_m584_tx) tx - внутренний параметр
+	{ 1055	,8	,1	, &internal1_m583_tx},	//(internal1_m583_tx) tx - внутренний параметр
+	{ 1056	,8	,1	, &internal1_m586_tx},	//(internal1_m586_tx) tx - внутренний параметр
+	{ 1057	,8	,1	, &internal1_m563_tx},	//(internal1_m563_tx) tx - внутренний параметр
+	{ 1058	,8	,1	, &internal1_m564_tx},	//(internal1_m564_tx) tx - внутренний параметр
+	{ 1059	,8	,1	, &internal1_m565_tx},	//(internal1_m565_tx) tx - внутренний параметр
+	{ 1060	,8	,1	, &internal1_m570_tx},	//(internal1_m570_tx) tx - внутренний параметр
+	{ 1061	,8	,1	, &internal1_m2274_tx},	//(internal1_m2274_tx) tx - внутренний параметр
+	{ 1062	,8	,1	, &internal1_m2275_tx},	//(internal1_m2275_tx) tx - внутренний параметр
+	{ 1063	,8	,1	, &internal1_m2276_tx},	//(internal1_m2276_tx) tx - внутренний параметр
+	{ 1064	,8	,1	, &internal1_m1745_tx},	//(internal1_m1745_tx) tx - внутренний параметр
+	{ 1065	,8	,1	, &internal1_m1744_tx},	//(internal1_m1744_tx) tx - внутренний параметр
+	{ 1066	,8	,1	, &internal1_m1739_tx},	//(internal1_m1739_tx) tx - внутренний параметр
+	{ 1067	,8	,1	, &internal1_m1730_tx},	//(internal1_m1730_tx) tx - внутренний параметр
+	{ 1068	,8	,1	, &internal1_m1728_tx},	//(internal1_m1728_tx) tx - внутренний параметр
+	{ 1069	,8	,1	, &internal1_m1726_tx},	//(internal1_m1726_tx) tx - внутренний параметр
+	{ 1070	,8	,1	, &internal1_m1725_tx},	//(internal1_m1725_tx) tx - внутренний параметр
+	{ 1071	,8	,1	, &internal1_m1766_tx},	//(internal1_m1766_tx) tx - внутренний параметр
+	{ 1072	,8	,1	, &internal1_m1774_tx},	//(internal1_m1774_tx) tx - внутренний параметр
+	{ 1073	,8	,1	, &internal1_m1781_tx},	//(internal1_m1781_tx) tx - внутренний параметр
+	{ 1074	,8	,1	, &internal1_m1782_tx},	//(internal1_m1782_tx) tx - внутренний параметр
+	{ 1075	,8	,1	, &internal1_m1772_tx},	//(internal1_m1772_tx) tx - внутренний параметр
+	{ 1076	,8	,1	, &internal1_m1747_tx},	//(internal1_m1747_tx) tx - внутренний параметр
+	{ 1077	,8	,1	, &internal1_m1761_tx},	//(internal1_m1761_tx) tx - внутренний параметр
+	{ 1078	,8	,1	, &internal1_m446_tx},	//(internal1_m446_tx) tx - внутренний параметр
+	{ 1079	,8	,1	, &internal1_m437_tx},	//(internal1_m437_tx) tx - внутренний параметр
+	{ 1080	,8	,1	, &internal1_m438_tx},	//(internal1_m438_tx) tx - внутренний параметр
+	{ 1081	,8	,1	, &internal1_m440_tx},	//(internal1_m440_tx) tx - внутренний параметр
+	{ 1082	,8	,1	, &internal1_m454_tx},	//(internal1_m454_tx) tx - внутренний параметр
+	{ 1083	,8	,1	, &internal1_m404_tx},	//(internal1_m404_tx) tx - внутренний параметр
+	{ 1084	,8	,1	, &internal1_m401_tx},	//(internal1_m401_tx) tx - внутренний параметр
+	{ 1085	,8	,1	, &internal1_m400_tx},	//(internal1_m400_tx) tx - внутренний параметр
+	{ 1086	,8	,1	, &internal1_m399_tx},	//(internal1_m399_tx) tx - внутренний параметр
+	{ 1087	,8	,1	, &internal1_m859_tx},	//(internal1_m859_tx) tx - внутренний параметр
+	{ 1088	,8	,1	, &internal1_m855_tx},	//(internal1_m855_tx) tx - внутренний параметр
+	{ 1089	,8	,1	, &internal1_m854_tx},	//(internal1_m854_tx) tx - внутренний параметр
+	{ 1090	,8	,1	, &internal1_m853_tx},	//(internal1_m853_tx) tx - внутренний параметр
+	{ 1091	,8	,1	, &internal1_m1297_tx},	//(internal1_m1297_tx) tx - внутренний параметр
+	{ 1092	,8	,1	, &internal1_m1294_tx},	//(internal1_m1294_tx) tx - внутренний параметр
+	{ 1093	,8	,1	, &internal1_m1293_tx},	//(internal1_m1293_tx) tx - внутренний параметр
+	{ 1094	,8	,1	, &internal1_m1076_tx},	//(internal1_m1076_tx) tx - внутренний параметр
+	{ 1095	,8	,1	, &internal1_m2229_tx},	//(internal1_m2229_tx) tx - внутренний параметр
+	{ 1096	,8	,1	, &internal1_m1087_tx},	//(internal1_m1087_tx) tx - внутренний параметр
+	{ 1097	,8	,1	, &internal1_m1089_tx},	//(internal1_m1089_tx) tx - внутренний параметр
+	{ 1098	,8	,1	, &internal1_m1088_tx},	//(internal1_m1088_tx) tx - внутренний параметр
+	{ 1099	,8	,1	, &internal1_m2231_tx},	//(internal1_m2231_tx) tx - внутренний параметр
+	{ 1100	,8	,1	, &internal1_m1078_tx},	//(internal1_m1078_tx) tx - внутренний параметр
+	{ 1101	,8	,1	, &internal1_m2228_tx},	//(internal1_m2228_tx) tx - внутренний параметр
+	{ 1102	,8	,1	, &internal1_m1086_tx},	//(internal1_m1086_tx) tx - внутренний параметр
+	{ 1103	,8	,1	, &internal1_m1067_tx},	//(internal1_m1067_tx) tx - внутренний параметр
+	{ 1104	,8	,1	, &internal1_m1066_tx},	//(internal1_m1066_tx) tx - внутренний параметр
+	{ 1105	,8	,1	, &internal1_m1063_tx},	//(internal1_m1063_tx) tx - внутренний параметр
+	{ 1106	,8	,1	, &internal1_m1085_tx},	//(internal1_m1085_tx) tx - внутренний параметр
+	{ 1107	,8	,1	, &internal1_m1053_tx},	//(internal1_m1053_tx) tx - внутренний параметр
+	{ 1108	,8	,1	, &internal1_m1051_tx},	//(internal1_m1051_tx) tx - внутренний параметр
+	{ 1109	,8	,1	, &internal1_m1050_tx},	//(internal1_m1050_tx) tx - внутренний параметр
+	{ 1110	,8	,1	, &internal1_m1029_tx},	//(internal1_m1029_tx) tx - внутренний параметр
+	{ 1111	,8	,1	, &internal1_m1028_tx},	//(internal1_m1028_tx) tx - внутренний параметр
+	{ 1112	,8	,1	, &internal1_m1018_tx},	//(internal1_m1018_tx) tx - внутренний параметр
+	{ 1113	,8	,1	, &internal1_m1035_tx},	//(internal1_m1035_tx) tx - внутренний параметр
+	{ 1114	,8	,1	, &internal1_m1432_tx},	//(internal1_m1432_tx) tx - внутренний параметр
+	{ 1115	,8	,1	, &internal1_m1431_tx},	//(internal1_m1431_tx) tx - внутренний параметр
+	{ 1116	,8	,1	, &internal1_m2181_tx},	//(internal1_m2181_tx) tx - внутренний параметр
+	{ 1117	,8	,1	, &internal1_m1423_tx},	//(internal1_m1423_tx) tx - внутренний параметр
+	{ 1118	,8	,1	, &internal1_m1424_tx},	//(internal1_m1424_tx) tx - внутренний параметр
+	{ 1119	,8	,1	, &internal1_m1430_tx},	//(internal1_m1430_tx) tx - внутренний параметр
+	{ 1120	,8	,1	, &internal1_m1410_tx},	//(internal1_m1410_tx) tx - внутренний параметр
+	{ 1121	,8	,1	, &internal1_m1409_tx},	//(internal1_m1409_tx) tx - внутренний параметр
+	{ 1122	,8	,1	, &internal1_m1408_tx},	//(internal1_m1408_tx) tx - внутренний параметр
+	{ 1123	,8	,1	, &internal1_m1429_tx},	//(internal1_m1429_tx) tx - внутренний параметр
+	{ 1124	,8	,1	, &internal1_m1395_tx},	//(internal1_m1395_tx) tx - внутренний параметр
+	{ 1125	,8	,1	, &internal1_m1393_tx},	//(internal1_m1393_tx) tx - внутренний параметр
+	{ 1126	,8	,1	, &internal1_m1402_tx},	//(internal1_m1402_tx) tx - внутренний параметр
+	{ 1127	,8	,1	, &internal1_m244_tx},	//(internal1_m244_tx) tx - внутренний параметр
+	{ 1128	,8	,1	, &internal1_m259_tx},	//(internal1_m259_tx) tx - внутренний параметр
+	{ 1129	,8	,1	, &internal1_m266_tx},	//(internal1_m266_tx) tx - внутренний параметр
+	{ 1130	,8	,1	, &internal1_m265_tx},	//(internal1_m265_tx) tx - внутренний параметр
+	{ 1131	,8	,1	, &internal1_m251_tx},	//(internal1_m251_tx) tx - внутренний параметр
+	{ 1132	,8	,1	, &internal1_m247_tx},	//(internal1_m247_tx) tx - внутренний параметр
+	{ 1133	,8	,1	, &internal1_m263_tx},	//(internal1_m263_tx) tx - внутренний параметр
+	{ 1134	,8	,1	, &internal1_m235_tx},	//(internal1_m235_tx) tx - внутренний параметр
+	{ 1135	,8	,1	, &internal1_m234_tx},	//(internal1_m234_tx) tx - внутренний параметр
+	{ 1136	,8	,1	, &internal1_m230_tx},	//(internal1_m230_tx) tx - внутренний параметр
+	{ 1137	,8	,1	, &internal1_m262_tx},	//(internal1_m262_tx) tx - внутренний параметр
+	{ 1138	,8	,1	, &internal1_m219_tx},	//(internal1_m219_tx) tx - внутренний параметр
+	{ 1139	,8	,1	, &internal1_m221_tx},	//(internal1_m221_tx) tx - внутренний параметр
+	{ 1140	,8	,1	, &internal1_m218_tx},	//(internal1_m218_tx) tx - внутренний параметр
+	{ 1141	,8	,1	, &internal1_m197_tx},	//(internal1_m197_tx) tx - внутренний параметр
+	{ 1142	,8	,1	, &internal1_m196_tx},	//(internal1_m196_tx) tx - внутренний параметр
+	{ 1143	,8	,1	, &internal1_m195_tx},	//(internal1_m195_tx) tx - внутренний параметр
+	{ 1144	,8	,1	, &internal1_m203_tx},	//(internal1_m203_tx) tx - внутренний параметр
+	{ 1145	,8	,1	, &internal1_m1375_tx},	//(internal1_m1375_tx) tx - внутренний параметр
+	{ 1146	,8	,1	, &internal1_m1357_tx},	//(internal1_m1357_tx) tx - внутренний параметр
+	{ 1147	,8	,1	, &internal1_m1358_tx},	//(internal1_m1358_tx) tx - внутренний параметр
+	{ 1148	,8	,1	, &internal1_m1378_tx},	//(internal1_m1378_tx) tx - внутренний параметр
+	{ 1149	,8	,1	, &internal1_m918_tx},	//(internal1_m918_tx) tx - внутренний параметр
+	{ 1150	,8	,1	, &internal1_m923_tx},	//(internal1_m923_tx) tx - внутренний параметр
+	{ 1151	,8	,1	, &internal1_m913_tx},	//(internal1_m913_tx) tx - внутренний параметр
+	{ 1152	,8	,1	, &internal1_m914_tx},	//(internal1_m914_tx) tx - внутренний параметр
+	{ 1153	,1	,1	, &internal1_m1866_q0},	//(internal1_m1866_q0) q0 - внутренний параметр
+	{ 1154	,1	,1	, &internal1_m2316_q0},	//(internal1_m2316_q0) q0 - внутренний параметр
+	{ 1155	,1	,1	, &internal1_m2300_q0},	//(internal1_m2300_q0) q0 - внутренний параметр
+	{ 1156	,1	,1	, &internal1_m2347_q0},	//(internal1_m2347_q0) q0 - внутренний параметр
+	{ 1157	,1	,1	, &internal1_m2331_q0},	//(internal1_m2331_q0) q0 - внутренний параметр
+	{ 1158	,1	,1	, &internal1_m2322_q0},	//(internal1_m2322_q0) q0 - внутренний параметр
+	{ 1159	,1	,1	, &internal1_m2303_q0},	//(internal1_m2303_q0) q0 - внутренний параметр
+	{ 1160	,1	,1	, &internal1_m2320_q0},	//(internal1_m2320_q0) q0 - внутренний параметр
+	{ 1161	,1	,1	, &internal1_m2301_q0},	//(internal1_m2301_q0) q0 - внутренний параметр
+	{ 1162	,1	,1	, &internal1_m2299_q0},	//(internal1_m2299_q0) q0 - внутренний параметр
+	{ 1163	,1	,1	, &internal1_m2298_q0},	//(internal1_m2298_q0) q0 - внутренний параметр
+	{ 1164	,1	,1	, &internal1_m2312_q0},	//(internal1_m2312_q0) q0 - внутренний параметр
+	{ 1165	,1	,1	, &internal1_m2310_q0},	//(internal1_m2310_q0) q0 - внутренний параметр
+	{ 1166	,1	,1	, &internal1_m2318_q0},	//(internal1_m2318_q0) q0 - внутренний параметр
+	{ 1167	,1	,1	, &internal1_m2314_q0},	//(internal1_m2314_q0) q0 - внутренний параметр
+	{ 1168	,1	,1	, &internal1_m2353_q0},	//(internal1_m2353_q0) q0 - внутренний параметр
+	{ 1169	,1	,1	, &internal1_m2334_q0},	//(internal1_m2334_q0) q0 - внутренний параметр
+	{ 1170	,1	,1	, &internal1_m2351_q0},	//(internal1_m2351_q0) q0 - внутренний параметр
+	{ 1171	,1	,1	, &internal1_m2333_q0},	//(internal1_m2333_q0) q0 - внутренний параметр
+	{ 1172	,1	,1	, &internal1_m2330_q0},	//(internal1_m2330_q0) q0 - внутренний параметр
+	{ 1173	,1	,1	, &internal1_m2329_q0},	//(internal1_m2329_q0) q0 - внутренний параметр
+	{ 1174	,1	,1	, &internal1_m2343_q0},	//(internal1_m2343_q0) q0 - внутренний параметр
+	{ 1175	,1	,1	, &internal1_m2341_q0},	//(internal1_m2341_q0) q0 - внутренний параметр
+	{ 1176	,8	,1	, &internal1_m2206_tx},	//(internal1_m2206_tx) tx - внутренний параметр
+	{ 1177	,8	,1	, &internal1_m2185_tx},	//(internal1_m2185_tx) tx - внутренний параметр
+	{ 1178	,1	,1	, &internal1_m1888_Pv0},	//(internal1_m1888_Pv0)  - Пер. выключатель механизма
+	{ 1179	,1	,1	, &internal1_m1888_Zv0},	//(internal1_m1888_Zv0)  - Зад. выключатель механизма
+	{ 1180	,1	,1	, &internal1_m1888_MyFirstEnterFlag},	//(internal1_m1888_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 1181	,1	,1	, &internal1_m1887_Pv0},	//(internal1_m1887_Pv0)  - Пер. выключатель механизма
+	{ 1182	,1	,1	, &internal1_m1887_Zv0},	//(internal1_m1887_Zv0)  - Зад. выключатель механизма
+	{ 1183	,1	,1	, &internal1_m1887_MyFirstEnterFlag},	//(internal1_m1887_MyFirstEnterFlag) MyFirstEnterFlag
+	{ 1184	,8	,1	, &internal1_m2370_tx},	//(internal1_m2370_tx) tx - время накопленное сек
+	{ 1185	,18	,1	, &internal1_m2370_y0},	//(internal1_m2370_y0) y0
+	{ 1186	,8	,1	, &internal1_m2375_tx},	//(internal1_m2375_tx) tx - время накопленное сек
+	{ 1187	,18	,1	, &internal1_m2375_y0},	//(internal1_m2375_y0) y0
+	{ 1188	,8	,1	, &internal1_m2374_tx},	//(internal1_m2374_tx) tx - время накопленное сек
+	{ 1189	,18	,1	, &internal1_m2374_y0},	//(internal1_m2374_y0) y0
+	{ 1190	,8	,1	, &internal1_m2411_tx},	//(internal1_m2411_tx) tx - внутренний параметр
+	{ 1191	,8	,1	, &internal1_m2409_tx},	//(internal1_m2409_tx) tx - время накопленное сек
+	{ 1192	,18	,1	, &internal1_m2409_y0},	//(internal1_m2409_y0) y0
+	{ 1193	,1	,1	, &internal1_m2414_q0},	//(internal1_m2414_q0) q0 - внутренний параметр
+	{ 1194	,1	,1	, &internal1_m2381_q0},	//(internal1_m2381_q0) q0 - внутренний параметр
+	{ 1195	,8	,1	, &internal1_m2389_tx},	//(internal1_m2389_tx) tx - внутренний параметр
+	{ 1196	,1	,1	, &internal1_m2387_q0},	//(internal1_m2387_q0) q0 - внутренний параметр
+	{ 1197	,8	,1	, &internal1_m2200_tx},	//(internal1_m2200_tx) tx - время накопленное сек
+	{ 1198	,18	,1	, &internal1_m2200_y0},	//(internal1_m2200_y0) y0
+	{ 1199	,8	,1	, &internal1_m2192_tx},	//(internal1_m2192_tx) tx - время накопленное сек
+	{ 1200	,18	,1	, &internal1_m2192_y0},	//(internal1_m2192_y0) y0
+	{ 1201	,1	,1	, &internal1_m1876_q0},	//(internal1_m1876_q0) q0 - внутренний параметр
+	{ 1202	,1	,1	, &internal1_m1881_q0},	//(internal1_m1881_q0) q0 - внутренний параметр
+	{ 1203	,1	,1	, &internal1_m1873_q0},	//(internal1_m1873_q0) q0 - внутренний параметр
+	{ 1204	,1	,1	, &internal1_m1915_q0},	//(internal1_m1915_q0) q0 - внутренний параметр
+	{ 1205	,8	,1	, &internal1_m823_tx},	//(internal1_m823_tx) tx - время накопленное сек
+	{ 1206	,18	,1	, &internal1_m823_y0},	//(internal1_m823_y0) y0
+	{ 1207	,8	,1	, &internal1_m2196_tx},	//(internal1_m2196_tx) tx - внутренний параметр
+	{ 1208	,1	,1	, &internal1_m2199_q0},	//(internal1_m2199_q0) q0 - внутренний параметр
+	{ 1209	,1	,1	, &internal1_m2191_q0},	//(internal1_m2191_q0) q0 - внутренний параметр
+	{ 1210	,8	,1	, &internal1_m2160_tx},	//(internal1_m2160_tx) tx - внутренний параметр
+	{ 1211	,8	,1	, &internal1_m2171_tx},	//(internal1_m2171_tx) tx - внутренний параметр
+	{ 1212	,8	,1	, &internal1_m2157_tx},	//(internal1_m2157_tx) tx - внутренний параметр
+	{ 1213	,1	,1	, &internal1_m2163_q0},	//(internal1_m2163_q0) q0 - внутренний параметр
+	{ 1214	,1	,1	, &internal1_m2175_q0},	//(internal1_m2175_q0) q0 - внутренний параметр
+	{ 1215	,8	,1	, &internal1_m2132_tx},	//(internal1_m2132_tx) tx - внутренний параметр
+	{ 1216	,8	,1	, &internal1_m51_tx},	//(internal1_m51_tx) tx - внутренний параметр
+	{ 1217	,8	,1	, &internal1_m357_tx},	//(internal1_m357_tx) tx - внутренний параметр
+	{ 1218	,8	,1	, &internal1_m311_tx},	//(internal1_m311_tx) tx - внутренний параметр
+	{ 1219	,8	,1	, &internal1_m824_tx},	//(internal1_m824_tx) tx - внутренний параметр
+	{ 1220	,8	,1	, &internal1_m1584_tx},	//(internal1_m1584_tx) tx - внутренний параметр
+	{ 1221	,8	,1	, &internal1_m114_tx},	//(internal1_m114_tx) tx - внутренний параметр
+	{ 1222	,8	,1	, &internal1_m116_tx},	//(internal1_m116_tx) tx - внутренний параметр
+	{ 1223	,8	,1	, &internal1_m121_tx},	//(internal1_m121_tx) tx - внутренний параметр
+	{ 1224	,8	,1	, &internal1_m21_tx},	//(internal1_m21_tx) tx - внутренний параметр
+	{ 1225	,8	,1	, &internal1_m13_tx},	//(internal1_m13_tx) tx - внутренний параметр
+	{ 1226	,8	,1	, &internal1_m2142_tx},	//(internal1_m2142_tx) tx - внутренний параметр
+	{ 1227	,8	,1	, &internal1_m2129_tx},	//(internal1_m2129_tx) tx - внутренний параметр
+	{ 1228	,8	,1	, &internal1_m2247_tx},	//(internal1_m2247_tx) tx - внутренний параметр
+	{ 1229	,8	,1	, &internal1_m2249_tx},	//(internal1_m2249_tx) tx - внутренний параметр
+	{ 1230	,8	,1	, &internal1_m2054_tx},	//(internal1_m2054_tx) tx - внутренний параметр
+	{ 1231	,8	,1	, &internal1_m77_tx},	//(internal1_m77_tx) tx - внутренний параметр
+	{ 1232	,8	,1	, &internal1_m328_tx},	//(internal1_m328_tx) tx - время накопленное сек
+	{ 1233	,18	,1	, &internal1_m328_y0},	//(internal1_m328_y0) y0
+	{ 1234	,8	,1	, &internal1_m2048_tx},	//(internal1_m2048_tx) tx - время накопленное сек
+	{ 1235	,18	,1	, &internal1_m2048_y0},	//(internal1_m2048_y0) y0
+	{ 1236	,8	,1	, &internal1_m2046_tx},	//(internal1_m2046_tx) tx - время накопленное сек
+	{ 1237	,18	,1	, &internal1_m2046_y0},	//(internal1_m2046_y0) y0
+	{ 1238	,8	,1	, &internal1_m2035_tx},	//(internal1_m2035_tx) tx - время накопленное сек
+	{ 1239	,18	,1	, &internal1_m2035_y0},	//(internal1_m2035_y0) y0
+	{ 1240	,8	,1	, &internal1_m2055_q0},	//(internal1_m2055_q0) q0 - внутренний параметр
+	{ 1241	,8	,1	, &internal1_m1604_q0},	//(internal1_m1604_q0) q0 - внутренний параметр
+	{ 1242	,8	,1	, &internal1_m1641_q0},	//(internal1_m1641_q0) q0 - внутренний параметр
+	{ 1243	,8	,1	, &internal1_m1644_q0},	//(internal1_m1644_q0) q0 - внутренний параметр
+	{ 1244	,8	,1	, &internal1_m2094_q0},	//(internal1_m2094_q0) q0 - внутренний параметр
+	{ 1245	,8	,1	, &internal1_m2072_tx},	//(internal1_m2072_tx) tx - время накопленное сек
+	{ 1246	,18	,1	, &internal1_m2072_y0},	//(internal1_m2072_y0) y0
+	{ 1247	,8	,1	, &internal1_m2087_tx},	//(internal1_m2087_tx) tx - время накопленное сек
+	{ 1248	,18	,1	, &internal1_m2087_y0},	//(internal1_m2087_y0) y0
+	{ 1249	,8	,1	, &internal1_m2084_tx},	//(internal1_m2084_tx) tx - время накопленное сек
+	{ 1250	,18	,1	, &internal1_m2084_y0},	//(internal1_m2084_y0) y0
+	{ 1251	,8	,1	, &internal1_m2227_tx},	//(internal1_m2227_tx) tx - время накопленное сек
+	{ 1252	,18	,1	, &internal1_m2227_y0},	//(internal1_m2227_y0) y0
+	{ 1253	,8	,1	, &internal1_m2238_tx},	//(internal1_m2238_tx) tx - время накопленное сек
+	{ 1254	,18	,1	, &internal1_m2238_y0},	//(internal1_m2238_y0) y0
+	{ 1255	,8	,1	, &internal1_m1983_tx},	//(internal1_m1983_tx) tx - время накопленное сек
+	{ 1256	,18	,1	, &internal1_m1983_y0},	//(internal1_m1983_y0) y0
+	{ 1257	,8	,1	, &internal1_m1982_tx},	//(internal1_m1982_tx) tx - время накопленное сек
+	{ 1258	,18	,1	, &internal1_m1982_y0},	//(internal1_m1982_y0) y0
+	{ 1259	,8	,1	, &internal1_m1981_tx},	//(internal1_m1981_tx) tx - время накопленное сек
+	{ 1260	,18	,1	, &internal1_m1981_y0},	//(internal1_m1981_y0) y0
+	{ 1261	,8	,1	, &internal1_m1980_tx},	//(internal1_m1980_tx) tx - время накопленное сек
+	{ 1262	,18	,1	, &internal1_m1980_y0},	//(internal1_m1980_y0) y0
+	{ 1263	,8	,1	, &internal1_m1656_tx},	//(internal1_m1656_tx) tx - время накопленное сек
+	{ 1264	,18	,1	, &internal1_m1656_y0},	//(internal1_m1656_y0) y0
+	{ 1265	,8	,1	, &internal1_m1650_tx},	//(internal1_m1650_tx) tx - время накопленное сек
+	{ 1266	,18	,1	, &internal1_m1650_y0},	//(internal1_m1650_y0) y0
+	{ 1267	,8	,1	, &internal1_m1600_tx},	//(internal1_m1600_tx) tx - время накопленное сек
+	{ 1268	,18	,1	, &internal1_m1600_y0},	//(internal1_m1600_y0) y0
+	{ 1269	,8	,1	, &internal1_m911_tx},	//(internal1_m911_tx) tx - время накопленное сек
+	{ 1270	,18	,1	, &internal1_m911_y0},	//(internal1_m911_y0) y0
+	{ 1271	,8	,1	, &internal1_m910_tx},	//(internal1_m910_tx) tx - время накопленное сек
+	{ 1272	,18	,1	, &internal1_m910_y0},	//(internal1_m910_y0) y0
+	{ 1273	,8	,1	, &internal1_m928_tx},	//(internal1_m928_tx) tx - время накопленное сек
+	{ 1274	,18	,1	, &internal1_m928_y0},	//(internal1_m928_y0) y0
+	{ 1275	,8	,1	, &internal1_m187_tx},	//(internal1_m187_tx) tx - время накопленное сек
+	{ 1276	,18	,1	, &internal1_m187_y0},	//(internal1_m187_y0) y0
+	{ 1277	,8	,1	, &internal1_m186_tx},	//(internal1_m186_tx) tx - время накопленное сек
+	{ 1278	,18	,1	, &internal1_m186_y0},	//(internal1_m186_y0) y0
+	{ 1279	,8	,1	, &internal1_m208_tx},	//(internal1_m208_tx) tx - время накопленное сек
+	{ 1280	,18	,1	, &internal1_m208_y0},	//(internal1_m208_y0) y0
+	{ 1281	,8	,1	, &internal1_m577_tx},	//(internal1_m577_tx) tx - время накопленное сек
+	{ 1282	,18	,1	, &internal1_m577_y0},	//(internal1_m577_y0) y0
+	{ 1283	,8	,1	, &internal1_m2281_tx},	//(internal1_m2281_tx) tx - внутренний параметр
+	{ 1284	,8	,1	, &internal1_m1308_tx},	//(internal1_m1308_tx) tx - внутренний параметр
+	{ 1285	,8	,1	, &internal1_m1785_tx},	//(internal1_m1785_tx) tx - время накопленное сек
+	{ 1286	,18	,1	, &internal1_m1785_y0},	//(internal1_m1785_y0) y0
+	{ 1287	,8	,1	, &internal1_m1274_tx},	//(internal1_m1274_tx) tx - время накопленное сек
+	{ 1288	,18	,1	, &internal1_m1274_y0},	//(internal1_m1274_y0) y0
+	{ 1289	,8	,1	, &internal1_m1492_tx},	//(internal1_m1492_tx) tx - время накопленное сек
+	{ 1290	,18	,1	, &internal1_m1492_y0},	//(internal1_m1492_y0) y0
+	{ 1291	,8	,1	, &internal1_m1041_tx},	//(internal1_m1041_tx) tx - время накопленное сек
+	{ 1292	,18	,1	, &internal1_m1041_y0},	//(internal1_m1041_y0) y0
+	{ 1293	,8	,1	, &internal1_m1382_tx},	//(internal1_m1382_tx) tx - время накопленное сек
+	{ 1294	,18	,1	, &internal1_m1382_y0},	//(internal1_m1382_y0) y0
+	{ 1295	,1	,1	, &internal1_m1198_q0},	//(internal1_m1198_q0) q0 - внутренний параметр
+	{ 1296	,1	,1	, &internal1_m1196_q0},	//(internal1_m1196_q0) q0 - внутренний параметр
+	{ 1297	,1	,1	, &internal1_m1195_q0},	//(internal1_m1195_q0) q0 - внутренний параметр
+	{ 1298	,1	,1	, &internal1_m1193_q0},	//(internal1_m1193_q0) q0 - внутренний параметр
+	{ 1299	,1	,1	, &internal1_m1192_q0},	//(internal1_m1192_q0) q0 - внутренний параметр
+	{ 1300	,1	,1	, &internal1_m1190_q0},	//(internal1_m1190_q0) q0 - внутренний параметр
+	{ 1301	,1	,1	, &internal1_m1189_q0},	//(internal1_m1189_q0) q0 - внутренний параметр
+	{ 1302	,1	,1	, &internal1_m1187_q0},	//(internal1_m1187_q0) q0 - внутренний параметр
+	{ 1303	,1	,1	, &internal1_m1186_q0},	//(internal1_m1186_q0) q0 - внутренний параметр
+	{ 1304	,1	,1	, &internal1_m52_x0},	//(internal1_m52_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1305	,1	,1	, &internal1_m1105_q0},	//(internal1_m1105_q0) q0 - внутренний параметр
+	{ 1306	,1	,1	, &internal1_m1593_x0},	//(internal1_m1593_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1307	,1	,1	, &internal1_m1637_x0},	//(internal1_m1637_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1308	,1	,1	, &internal1_m1633_x0},	//(internal1_m1633_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1309	,1	,1	, &internal1_m2063_x0},	//(internal1_m2063_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1310	,1	,1	, &internal1_m2028_x0},	//(internal1_m2028_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1311	,1	,1	, &internal1_m1145_q0},	//(internal1_m1145_q0) q0 - внутренний параметр
+	{ 1312	,1	,1	, &internal1_m1157_q0},	//(internal1_m1157_q0) q0 - внутренний параметр
+	{ 1313	,1	,1	, &internal1_m1169_q0},	//(internal1_m1169_q0) q0 - внутренний параметр
+	{ 1314	,1	,1	, &internal1_m1181_q0},	//(internal1_m1181_q0) q0 - внутренний параметр
+	{ 1315	,1	,1	, &internal1_m1156_q0},	//(internal1_m1156_q0) q0 - внутренний параметр
+	{ 1316	,1	,1	, &internal1_m1171_q0},	//(internal1_m1171_q0) q0 - внутренний параметр
+	{ 1317	,1	,1	, &internal1_m2121_q0},	//(internal1_m2121_q0) q0 - внутренний параметр
+	{ 1318	,1	,1	, &internal1_m2120_q0},	//(internal1_m2120_q0) q0 - внутренний параметр
+	{ 1319	,3	,1	, &internal1_m345_Step},	//(internal1_m345_Step)  - текущий шаг программы
+	{ 1320	,18	,10	, &internal1_m345_rz},	//(internal1_m345_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+	{ 1321	,8	,1	, &internal1_m345_TimS},	//(internal1_m345_TimS) Время от старта программы
+	{ 1322	,1	,1	, &internal1_m345_FinPr0},	//(internal1_m345_FinPr0) FinPr - конец программы
+	{ 1323	,1	,1	, &internal1_m345_ErrPr0},	//(internal1_m345_ErrPr0) ErrPr - Приостановка программы по ошибке
+	{ 1324	,1	,1	, &internal1_m345_sbINI0},	//(internal1_m345_sbINI0) sbINI - запуск проверки ИНИ
+	{ 1325	,1	,1	, &internal1_m345_sbVuIS0},	//(internal1_m345_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+	{ 1326	,1	,1	, &internal1_m345_sb2UR0},	//(internal1_m345_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+	{ 1327	,1	,1	, &internal1_m345_sbNupIS0},	//(internal1_m345_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+	{ 1328	,1	,1	, &internal1_m345_sbVuRB0},	//(internal1_m345_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+	{ 1329	,1	,1	, &internal1_m345_MyFirstEnterFlag},	//(internal1_m345_MyFirstEnterFlag)  
+	{ 1330	,5	,1	, &internal1_m353_x0},	//(internal1_m353_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1331	,5	,1	, &internal1_m310_TimS},	//(internal1_m310_TimS) Время старта
+	{ 1332	,3	,1	, &internal1_m287_Step},	//(internal1_m287_Step)  - текущий шаг программы
+	{ 1333	,18	,10	, &internal1_m287_rz},	//(internal1_m287_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+	{ 1334	,8	,1	, &internal1_m287_TimS},	//(internal1_m287_TimS) Время от старта программы
+	{ 1335	,1	,1	, &internal1_m287_FinPr0},	//(internal1_m287_FinPr0) FinPr - конец программы
+	{ 1336	,1	,1	, &internal1_m287_ErrPr0},	//(internal1_m287_ErrPr0) ErrPr - Приостановка программы по ошибке
+	{ 1337	,1	,1	, &internal1_m287_sbINI0},	//(internal1_m287_sbINI0) sbINI - запуск проверки ИНИ
+	{ 1338	,1	,1	, &internal1_m287_sbVuIS0},	//(internal1_m287_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+	{ 1339	,1	,1	, &internal1_m287_sb2UR0},	//(internal1_m287_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+	{ 1340	,1	,1	, &internal1_m287_sbNupIS0},	//(internal1_m287_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+	{ 1341	,1	,1	, &internal1_m287_sbVuRB0},	//(internal1_m287_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+	{ 1342	,1	,1	, &internal1_m287_MyFirstEnterFlag},	//(internal1_m287_MyFirstEnterFlag)  
+	{ 1343	,1	,1	, &internal1_m1567_q0},	//(internal1_m1567_q0) q0 - внутренний параметр
+	{ 1344	,3	,1	, &internal1_m1568_Step},	//(internal1_m1568_Step)  - текущий шаг программы
+	{ 1345	,18	,6	, &internal1_m1568_rz},	//(internal1_m1568_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка
+	{ 1346	,8	,1	, &internal1_m1568_TimS},	//(internal1_m1568_TimS) Время от старта программы
+	{ 1347	,1	,1	, &internal1_m1568_FinPr0},	//(internal1_m1568_FinPr0) FinPr - конец программы
+	{ 1348	,1	,1	, &internal1_m1568_ErrPr0},	//(internal1_m1568_ErrPr0) ErrPr - Приостановка программы по ошибке
+	{ 1349	,1	,1	, &internal1_m1568_sbINI0},	//(internal1_m1568_sbINI0) sbINI - запуск проверки ИНИ
+	{ 1350	,1	,1	, &internal1_m1568_sbVuIS0},	//(internal1_m1568_sbVuIS0) sbVuIS - запуск проверки сброса от ВУ ИС
+	{ 1351	,1	,1	, &internal1_m1568_sb2UR0},	//(internal1_m1568_sb2UR0) sb2UR - запуск проверки сброса от 2УР
+	{ 1352	,1	,1	, &internal1_m1568_sbNupIS0},	//(internal1_m1568_sbNupIS0) sbNupIS - запуск проверки сброса от НУП ИС
+	{ 1353	,1	,1	, &internal1_m1568_sbVuRB0},	//(internal1_m1568_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ
+	{ 1354	,1	,1	, &internal1_m1568_MyFirstEnterFlag},	//(internal1_m1568_MyFirstEnterFlag)  
+	{ 1355	,1	,1	, &internal1_m1142_q0},	//(internal1_m1142_q0) q0 - внутренний параметр
+	{ 1356	,1	,1	, &internal1_m1139_q0},	//(internal1_m1139_q0) q0 - внутренний параметр
+	{ 1357	,1	,1	, &internal1_m1141_q0},	//(internal1_m1141_q0) q0 - внутренний параметр
+	{ 1358	,1	,1	, &internal1_m1134_q0},	//(internal1_m1134_q0) q0 - внутренний параметр
+	{ 1359	,1	,1	, &internal1_m825_q0},	//(internal1_m825_q0) q0 - внутренний параметр
+	{ 1360	,1	,1	, &internal1_m355_q0},	//(internal1_m355_q0) q0 - внутренний параметр
+	{ 1361	,1	,1	, &internal1_m351_q0},	//(internal1_m351_q0) q0 - внутренний параметр
+	{ 1362	,1	,1	, &internal1_m307_q0},	//(internal1_m307_q0) q0 - внутренний параметр
+	{ 1363	,5	,1	, &internal1_m306_x0},	//(internal1_m306_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1364	,1	,1	, &internal1_m2050_q0},	//(internal1_m2050_q0) q0 - внутренний параметр
+	{ 1365	,1	,1	, &internal1_m2038_q0},	//(internal1_m2038_q0) q0 - внутренний параметр
+	{ 1366	,1	,1	, &internal1_m2029_q0},	//(internal1_m2029_q0) q0 - внутренний параметр
+	{ 1367	,1	,1	, &internal1_m2104_q0},	//(internal1_m2104_q0) q0 - внутренний параметр
+	{ 1368	,1	,1	, &internal1_m2075_q0},	//(internal1_m2075_q0) q0 - внутренний параметр
+	{ 1369	,1	,1	, &internal1_m2064_q0},	//(internal1_m2064_q0) q0 - внутренний параметр
+	{ 1370	,1	,1	, &internal1_m1620_q0},	//(internal1_m1620_q0) q0 - внутренний параметр
+	{ 1371	,1	,1	, &internal1_m1607_x0},	//(internal1_m1607_x0) был приход сигнала x1
+	{ 1372	,8	,1	, &internal1_m1607_y0},	//(internal1_m1607_y0) интервал между сигналами х1 и х2
+	{ 1373	,1	,1	, &internal1_m1603_q0},	//(internal1_m1603_q0) q0 - внутренний параметр
+	{ 1374	,1	,1	, &internal1_m1594_q0},	//(internal1_m1594_q0) q0 - внутренний параметр
+	{ 1375	,1	,1	, &internal1_m1653_q0},	//(internal1_m1653_q0) q0 - внутренний параметр
+	{ 1376	,1	,1	, &internal1_m1673_q0},	//(internal1_m1673_q0) q0 - внутренний параметр
+	{ 1377	,1	,1	, &internal1_m1639_q0},	//(internal1_m1639_q0) q0 - внутренний параметр
+	{ 1378	,1	,1	, &internal1_m1654_x0},	//(internal1_m1654_x0) был приход сигнала x1
+	{ 1379	,8	,1	, &internal1_m1654_y0},	//(internal1_m1654_y0) интервал между сигналами х1 и х2
+	{ 1380	,5	,1	, &internal1_m1578_x0},	//(internal1_m1578_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1381	,1	,1	, &internal1_m1659_q0},	//(internal1_m1659_q0) q0 - внутренний параметр
+	{ 1382	,1	,1	, &internal1_m26_q0},	//(internal1_m26_q0) q0 - внутренний параметр
+	{ 1383	,1	,1	, &internal1_m1674_q0},	//(internal1_m1674_q0) q0 - внутренний параметр
+	{ 1384	,1	,1	, &internal1_m700_q0},	//(internal1_m700_q0) q0 - внутренний параметр
+	{ 1385	,1	,1	, &internal1_m685_q0},	//(internal1_m685_q0) q0 - внутренний параметр
+	{ 1386	,1	,1	, &internal1_m711_q0},	//(internal1_m711_q0) q0 - внутренний параметр
+	{ 1387	,1	,1	, &internal1_m696_q0},	//(internal1_m696_q0) q0 - внутренний параметр
+	{ 1388	,1	,1	, &internal1_m680_q0},	//(internal1_m680_q0) q0 - внутренний параметр
+	{ 1389	,1	,1	, &internal1_m678_q0},	//(internal1_m678_q0) q0 - внутренний параметр
+	{ 1390	,1	,1	, &internal1_m666_q0},	//(internal1_m666_q0) q0 - внутренний параметр
+	{ 1391	,5	,1	, &internal1_m1570_q0},	//(internal1_m1570_q0) q0 - внутренний параметр
+	{ 1392	,1	,1	, &internal1_m676_q0},	//(internal1_m676_q0) q0 - внутренний параметр
+	{ 1393	,1	,1	, &internal1_m110_q0},	//(internal1_m110_q0) q0 - внутренний параметр
+	{ 1394	,1	,1	, &internal1_m1820_q0},	//(internal1_m1820_q0) q0 - внутренний параметр
+	{ 1395	,1	,1	, &internal1_m1819_q0},	//(internal1_m1819_q0) q0 - внутренний параметр
+	{ 1396	,1	,1	, &internal1_m1818_q0},	//(internal1_m1818_q0) q0 - внутренний параметр
+	{ 1397	,1	,1	, &internal1_m1817_q0},	//(internal1_m1817_q0) q0 - внутренний параметр
+	{ 1398	,1	,1	, &internal1_m1853_q0},	//(internal1_m1853_q0) q0 - внутренний параметр
+	{ 1399	,1	,1	, &internal1_m1852_q0},	//(internal1_m1852_q0) q0 - внутренний параметр
+	{ 1400	,1	,1	, &internal1_m1851_q0},	//(internal1_m1851_q0) q0 - внутренний параметр
+	{ 1401	,1	,1	, &internal1_m2135_q0},	//(internal1_m2135_q0) q0 - внутренний параметр
+	{ 1402	,1	,1	, &internal1_m1913_q0},	//(internal1_m1913_q0) q0 - внутренний параметр
+	{ 1403	,1	,1	, &internal1_m1902_q0},	//(internal1_m1902_q0) q0 - внутренний параметр
+	{ 1404	,1	,1	, &internal1_m1910_q0},	//(internal1_m1910_q0) q0 - внутренний параметр
+	{ 1405	,1	,1	, &internal1_m1899_q0},	//(internal1_m1899_q0) q0 - внутренний параметр
+	{ 1406	,1	,1	, &internal1_m1907_q0},	//(internal1_m1907_q0) q0 - внутренний параметр
+	{ 1407	,1	,1	, &internal1_m2349_q0},	//(internal1_m2349_q0) q0 - внутренний параметр
+	{ 1408	,1	,1	, &internal1_m2345_q0},	//(internal1_m2345_q0) q0 - внутренний параметр
+	{ 1409	,1	,1	, &internal1_m1878_q0},	//(internal1_m1878_q0) q0 - внутренний параметр
+	{ 1410	,1	,1	, &internal1_m1870_q0},	//(internal1_m1870_q0) q0 - внутренний параметр
+	{ 1411	,1	,1	, &internal1_m1868_q0},	//(internal1_m1868_q0) q0 - внутренний параметр
+	{ 1412	,1	,1	, &internal1_m1864_q0},	//(internal1_m1864_q0) q0 - внутренний параметр
+	{ 1413	,1	,1	, &internal1_m1860_q0},	//(internal1_m1860_q0) q0 - внутренний параметр
+	{ 1414	,1	,1	, &internal1_m1862_q0},	//(internal1_m1862_q0) q0 - внутренний параметр
+	{ 1415	,1	,1	, &internal1_m19_q0},	//(internal1_m19_q0) q0 - внутренний параметр
+	{ 1416	,1	,1	, &internal1_m1843_q0},	//(internal1_m1843_q0) q0 - внутренний параметр
+	{ 1417	,1	,1	, &internal1_m1841_q0},	//(internal1_m1841_q0) q0 - внутренний параметр
+	{ 1418	,1	,1	, &internal1_m1837_q0},	//(internal1_m1837_q0) q0 - внутренний параметр
+	{ 1419	,1	,1	, &internal1_m1839_q0},	//(internal1_m1839_q0) q0 - внутренний параметр
+	{ 1420	,1	,1	, &internal1_m1835_q0},	//(internal1_m1835_q0) q0 - внутренний параметр
+	{ 1421	,1	,1	, &internal1_m1833_q0},	//(internal1_m1833_q0) q0 - внутренний параметр
+	{ 1422	,1	,1	, &internal1_m2257_q0},	//(internal1_m2257_q0) q0 - внутренний параметр
+	{ 1423	,1	,1	, &internal1_m2255_q0},	//(internal1_m2255_q0) q0 - внутренний параметр
+	{ 1424	,1	,1	, &internal1_m2234_q0},	//(internal1_m2234_q0) q0 - внутренний параметр
+	{ 1425	,1	,1	, &internal1_m2216_q0},	//(internal1_m2216_q0) q0 - внутренний параметр
+	{ 1426	,1	,1	, &internal1_m2147_q0},	//(internal1_m2147_q0) q0 - внутренний параметр
+	{ 1427	,1	,1	, &internal1_m1829_q0},	//(internal1_m1829_q0) q0 - внутренний параметр
+	{ 1428	,1	,1	, &internal1_m1831_q0},	//(internal1_m1831_q0) q0 - внутренний параметр
+	{ 1429	,1	,1	, &internal1_m1815_q0},	//(internal1_m1815_q0) q0 - внутренний параметр
+	{ 1430	,1	,1	, &internal1_m1813_q0},	//(internal1_m1813_q0) q0 - внутренний параметр
+	{ 1431	,1	,1	, &internal1_m1811_q0},	//(internal1_m1811_q0) q0 - внутренний параметр
+	{ 1432	,1	,1	, &internal1_m1809_q0},	//(internal1_m1809_q0) q0 - внутренний параметр
+	{ 1433	,1	,1	, &internal1_m1808_q0},	//(internal1_m1808_q0) q0 - внутренний параметр
+	{ 1434	,1	,1	, &internal1_m1806_q0},	//(internal1_m1806_q0) q0 - внутренний параметр
+	{ 1435	,1	,1	, &internal1_m1805_q0},	//(internal1_m1805_q0) q0 - внутренний параметр
+	{ 1436	,1	,1	, &internal1_m1803_q0},	//(internal1_m1803_q0) q0 - внутренний параметр
+	{ 1437	,18	,1	, &internal1_m2286_DvUp0},	//(internal1_m2286_DvUp0) - есть команда на движение вперёд
+	{ 1438	,18	,1	, &internal1_m2286_DvDw0},	//(internal1_m2286_DvDw0) - есть команда на движение назад
+	{ 1439	,18	,1	, &internal1_m2286_FDvUp0},	//(internal1_m2286_FDvUp0) - есть команда на движение вперёд
+	{ 1440	,18	,1	, &internal1_m2286_FDvDw0},	//(internal1_m2286_FDvDw0) - есть команда на движение назад
+	{ 1441	,18	,1	, &internal1_m2286_BlDv0},	//(internal1_m2286_BlDv0) - была блокировка
+	{ 1442	,18	,1	, &internal1_m2286_Pkv0},	//(internal1_m2286_Pkv0) Pkv - передний конечный выключатель
+	{ 1443	,18	,1	, &internal1_m2286_Pkav0},	//(internal1_m2286_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1444	,18	,1	, &internal1_m2286_Zkv0},	//(internal1_m2286_Zkv0) Zkv - задний конечный выключатель
+	{ 1445	,18	,1	, &internal1_m2286_Zkav0},	//(internal1_m2286_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1446	,8	,1	, &internal1_m2286_txNm},	//(internal1_m2286_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1447	,8	,1	, &internal1_m2286_txSm},	//(internal1_m2286_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1448	,8	,1	, &internal1_m2286_txHr},	//(internal1_m2286_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1449	,8	,1	, &internal1_m2286_txLd},	//(internal1_m2286_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1450	,18	,1	, &internal1_m2286_fef},	//(internal1_m2286_fef) fef
+	{ 1451	,18	,1	, &internal1_m2280_DvUp0},	//(internal1_m2280_DvUp0) - есть команда на движение вперёд
+	{ 1452	,18	,1	, &internal1_m2280_DvDw0},	//(internal1_m2280_DvDw0) - есть команда на движение назад
+	{ 1453	,18	,1	, &internal1_m2280_FDvUp0},	//(internal1_m2280_FDvUp0) - есть команда на движение вперёд
+	{ 1454	,18	,1	, &internal1_m2280_FDvDw0},	//(internal1_m2280_FDvDw0) - есть команда на движение назад
+	{ 1455	,18	,1	, &internal1_m2280_BlDv0},	//(internal1_m2280_BlDv0) - была блокировка
+	{ 1456	,18	,1	, &internal1_m2280_Pkv0},	//(internal1_m2280_Pkv0) Pkv - передний конечный выключатель
+	{ 1457	,18	,1	, &internal1_m2280_Pkav0},	//(internal1_m2280_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1458	,18	,1	, &internal1_m2280_Zkv0},	//(internal1_m2280_Zkv0) Zkv - задний конечный выключатель
+	{ 1459	,18	,1	, &internal1_m2280_Zkav0},	//(internal1_m2280_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1460	,8	,1	, &internal1_m2280_txNm},	//(internal1_m2280_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1461	,8	,1	, &internal1_m2280_txSm},	//(internal1_m2280_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1462	,8	,1	, &internal1_m2280_txHr},	//(internal1_m2280_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1463	,8	,1	, &internal1_m2280_txLd},	//(internal1_m2280_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1464	,18	,1	, &internal1_m2280_fef},	//(internal1_m2280_fef) fef
+	{ 1465	,1	,1	, &internal1_m1643_q0},	//(internal1_m1643_q0) q0 - внутренний параметр
+	{ 1466	,1	,1	, &internal1_m1648_x0},	//(internal1_m1648_x0) был приход сигнала x1
+	{ 1467	,8	,1	, &internal1_m1648_y0},	//(internal1_m1648_y0) интервал между сигналами х1 и х2
+	{ 1468	,1	,1	, &internal1_m2086_x0},	//(internal1_m2086_x0) был приход сигнала x1
+	{ 1469	,8	,1	, &internal1_m2086_y0},	//(internal1_m2086_y0) интервал между сигналами х1 и х2
+	{ 1470	,1	,1	, &internal1_m2047_x0},	//(internal1_m2047_x0) был приход сигнала x1
+	{ 1471	,8	,1	, &internal1_m2047_y0},	//(internal1_m2047_y0) интервал между сигналами х1 и х2
+	{ 1472	,1	,1	, &internal1_m298_q0},	//(internal1_m298_q0) q0 - внутренний параметр
+	{ 1473	,1	,1	, &internal1_m1113_q0},	//(internal1_m1113_q0) q0 - внутренний параметр
+	{ 1474	,1	,1	, &internal1_m688_q0},	//(internal1_m688_q0) q0 - внутренний параметр
+	{ 1475	,8	,1	, &internal1_m1450_X0},	//(internal1_m1450_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1476	,8	,1	, &internal1_m1450_t0},	//(internal1_m1450_t0) время нахождения в зоне возврата
+	{ 1477	,18	,1	, &internal1_m1450_BLDv0},	//(internal1_m1450_BLDv0) BlDv - Блокировка движения
+	{ 1478	,8	,1	, &internal1_m1467_tx},	//(internal1_m1467_tx) tx - время накопленное сек
+	{ 1479	,18	,1	, &internal1_m1467_y0},	//(internal1_m1467_y0) y0
+	{ 1480	,8	,1	, &internal1_m1468_tx},	//(internal1_m1468_tx) tx - время накопленное сек
+	{ 1481	,18	,1	, &internal1_m1468_y0},	//(internal1_m1468_y0) y0
+	{ 1482	,3	,1	, &internal1_m1476_xptr},	//(internal1_m1476_xptr) указатель текущей позиции в массиве координат
+	{ 1483	,8	,60	, &internal1_m1476_x0},	//(internal1_m1476_x0) x0 - массив мгновенных значений координат
+	{ 1484	,8	,60	, &internal1_m1476_tim0},	//(internal1_m1476_tim0) tim0 - массив значений времени цикла
+	{ 1485	,8	,1	, &internal1_m1476_sumtim},	//(internal1_m1476_sumtim) sumtim - время в пути
+	{ 1486	,8	,1	, &internal1_m1476_StSpeed},	//(internal1_m1476_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1487	,8	,1	, &internal1_m1476_Vz0},	//(internal1_m1476_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1488	,3	,1	, &internal1_m1476_flRazg},	//(internal1_m1476_flRazg) признак разгона/торможения
+	{ 1489	,8	,1	, &internal1_m1476_DelSp},	//(internal1_m1476_DelSp) DelSp - время переключения скоростей
+	{ 1490	,8	,1	, &internal1_m1476_z0},	//(internal1_m1476_z0) z0 - точка прекращения движения
+	{ 1491	,8	,1	, &internal1_m1476_txZS},	//(internal1_m1476_txZS) txZS
+	{ 1492	,8	,1	, &internal1_m1476_tx},	//(internal1_m1476_tx) tx
+	{ 1493	,8	,1	, &internal1_m1476_txd},	//(internal1_m1476_txd) txd
+	{ 1494	,8	,1	, &internal1_m1476_txMBl},	//(internal1_m1476_txMBl) tx
+	{ 1495	,8	,1	, &internal1_m1476_txBl},	//(internal1_m1476_txBl) tx
+	{ 1496	,8	,1	, &internal1_m1476_Speed0},	//(internal1_m1476_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1497	,8	,1	, &internal1_m1476_xz0},	//(internal1_m1476_xz0) xz0 - новое задание мм
+	{ 1498	,8	,1	, &internal1_m1476_tz0},	//(internal1_m1476_tz0) tz0 - время защиты от нового задания сек
+	{ 1499	,1	,1	, &internal1_m1476_Shift0},	//(internal1_m1476_Shift0) Shift0 - признак самохода
+	{ 1500	,1	,1	, &internal1_m1476_ShCntlSp0},	//(internal1_m1476_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1501	,1	,1	, &internal1_m1476_ShiftControl},	//(internal1_m1476_ShiftControl) ShiftControl - признак самохода
+	{ 1502	,1	,1	, &internal1_m686_q0},	//(internal1_m686_q0) q0 - внутренний параметр
+	{ 1503	,8	,1	, &internal1_m994_X0},	//(internal1_m994_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1504	,8	,1	, &internal1_m994_t0},	//(internal1_m994_t0) время нахождения в зоне возврата
+	{ 1505	,18	,1	, &internal1_m994_BLDv0},	//(internal1_m994_BLDv0) BlDv - Блокировка движения
+	{ 1506	,8	,1	, &internal1_m1017_tx},	//(internal1_m1017_tx) tx - время накопленное сек
+	{ 1507	,18	,1	, &internal1_m1017_y0},	//(internal1_m1017_y0) y0
+	{ 1508	,8	,1	, &internal1_m1016_tx},	//(internal1_m1016_tx) tx - время накопленное сек
+	{ 1509	,18	,1	, &internal1_m1016_y0},	//(internal1_m1016_y0) y0
+	{ 1510	,3	,1	, &internal1_m1024_xptr},	//(internal1_m1024_xptr) указатель текущей позиции в массиве координат
+	{ 1511	,8	,60	, &internal1_m1024_x0},	//(internal1_m1024_x0) x0 - массив мгновенных значений координат
+	{ 1512	,8	,60	, &internal1_m1024_tim0},	//(internal1_m1024_tim0) tim0 - массив значений времени цикла
+	{ 1513	,8	,1	, &internal1_m1024_sumtim},	//(internal1_m1024_sumtim) sumtim - время в пути
+	{ 1514	,8	,1	, &internal1_m1024_StSpeed},	//(internal1_m1024_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1515	,8	,1	, &internal1_m1024_Vz0},	//(internal1_m1024_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1516	,3	,1	, &internal1_m1024_flRazg},	//(internal1_m1024_flRazg) признак разгона/торможения
+	{ 1517	,8	,1	, &internal1_m1024_DelSp},	//(internal1_m1024_DelSp) DelSp - время переключения скоростей
+	{ 1518	,8	,1	, &internal1_m1024_z0},	//(internal1_m1024_z0) z0 - точка прекращения движения
+	{ 1519	,8	,1	, &internal1_m1024_txZS},	//(internal1_m1024_txZS) txZS
+	{ 1520	,8	,1	, &internal1_m1024_tx},	//(internal1_m1024_tx) tx
+	{ 1521	,8	,1	, &internal1_m1024_txd},	//(internal1_m1024_txd) txd
+	{ 1522	,8	,1	, &internal1_m1024_txMBl},	//(internal1_m1024_txMBl) tx
+	{ 1523	,8	,1	, &internal1_m1024_txBl},	//(internal1_m1024_txBl) tx
+	{ 1524	,8	,1	, &internal1_m1024_Speed0},	//(internal1_m1024_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1525	,8	,1	, &internal1_m1024_xz0},	//(internal1_m1024_xz0) xz0 - новое задание мм
+	{ 1526	,8	,1	, &internal1_m1024_tz0},	//(internal1_m1024_tz0) tz0 - время защиты от нового задания сек
+	{ 1527	,1	,1	, &internal1_m1024_Shift0},	//(internal1_m1024_Shift0) Shift0 - признак самохода
+	{ 1528	,1	,1	, &internal1_m1024_ShCntlSp0},	//(internal1_m1024_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1529	,1	,1	, &internal1_m1024_ShiftControl},	//(internal1_m1024_ShiftControl) ShiftControl - признак самохода
+	{ 1530	,8	,1	, &internal1_m539_X0},	//(internal1_m539_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1531	,8	,1	, &internal1_m539_t0},	//(internal1_m539_t0) время нахождения в зоне возврата
+	{ 1532	,18	,1	, &internal1_m539_BLDv0},	//(internal1_m539_BLDv0) BlDv - Блокировка движения
+	{ 1533	,8	,1	, &internal1_m558_tx},	//(internal1_m558_tx) tx - время накопленное сек
+	{ 1534	,18	,1	, &internal1_m558_y0},	//(internal1_m558_y0) y0
+	{ 1535	,8	,1	, &internal1_m557_tx},	//(internal1_m557_tx) tx - время накопленное сек
+	{ 1536	,18	,1	, &internal1_m557_y0},	//(internal1_m557_y0) y0
+	{ 1537	,3	,1	, &internal1_m562_xptr},	//(internal1_m562_xptr) указатель текущей позиции в массиве координат
+	{ 1538	,8	,150	, &internal1_m562_x0},	//(internal1_m562_x0) x0 - массив мгновенных значений координат
+	{ 1539	,8	,150	, &internal1_m562_tim0},	//(internal1_m562_tim0) tim0 - массив значений времени цикла
+	{ 1540	,8	,1	, &internal1_m562_sumtim},	//(internal1_m562_sumtim) sumtim - время в пути
+	{ 1541	,8	,1	, &internal1_m562_StSpeed},	//(internal1_m562_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1542	,8	,1	, &internal1_m562_Vz0},	//(internal1_m562_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1543	,3	,1	, &internal1_m562_flRazg},	//(internal1_m562_flRazg) признак разгона/торможения
+	{ 1544	,8	,1	, &internal1_m562_DelSp},	//(internal1_m562_DelSp) DelSp - время переключения скоростей
+	{ 1545	,8	,1	, &internal1_m562_z0},	//(internal1_m562_z0) z0 - точка прекращения движения
+	{ 1546	,8	,1	, &internal1_m562_txZS},	//(internal1_m562_txZS) txZS
+	{ 1547	,8	,1	, &internal1_m562_tx},	//(internal1_m562_tx) tx
+	{ 1548	,8	,1	, &internal1_m562_txd},	//(internal1_m562_txd) txd
+	{ 1549	,8	,1	, &internal1_m562_txMBl},	//(internal1_m562_txMBl) tx
+	{ 1550	,8	,1	, &internal1_m562_txBl},	//(internal1_m562_txBl) tx
+	{ 1551	,8	,1	, &internal1_m562_Speed0},	//(internal1_m562_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1552	,8	,1	, &internal1_m562_xz0},	//(internal1_m562_xz0) xz0 - новое задание мм
+	{ 1553	,8	,1	, &internal1_m562_tz0},	//(internal1_m562_tz0) tz0 - время защиты от нового задания сек
+	{ 1554	,1	,1	, &internal1_m562_Shift0},	//(internal1_m562_Shift0) Shift0 - признак самохода
+	{ 1555	,1	,1	, &internal1_m562_ShCntlSp0},	//(internal1_m562_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1556	,1	,1	, &internal1_m562_ShiftControl},	//(internal1_m562_ShiftControl) ShiftControl - признак самохода
+	{ 1557	,1	,1	, &internal1_m683_q0},	//(internal1_m683_q0) q0 - внутренний параметр
+	{ 1558	,8	,1	, &internal1_m169_X0},	//(internal1_m169_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1559	,8	,1	, &internal1_m169_t0},	//(internal1_m169_t0) время нахождения в зоне возврата
+	{ 1560	,18	,1	, &internal1_m169_BLDv0},	//(internal1_m169_BLDv0) BlDv - Блокировка движения
+	{ 1561	,3	,1	, &internal1_m194_xptr},	//(internal1_m194_xptr) указатель текущей позиции в массиве координат
+	{ 1562	,8	,150	, &internal1_m194_x0},	//(internal1_m194_x0) x0 - массив мгновенных значений координат
+	{ 1563	,8	,150	, &internal1_m194_tim0},	//(internal1_m194_tim0) tim0 - массив значений времени цикла
+	{ 1564	,8	,1	, &internal1_m194_sumtim},	//(internal1_m194_sumtim) sumtim - время в пути
+	{ 1565	,8	,1	, &internal1_m194_StSpeed},	//(internal1_m194_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1566	,8	,1	, &internal1_m194_Vz0},	//(internal1_m194_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1567	,3	,1	, &internal1_m194_flRazg},	//(internal1_m194_flRazg) признак разгона/торможения
+	{ 1568	,8	,1	, &internal1_m194_DelSp},	//(internal1_m194_DelSp) DelSp - время переключения скоростей
+	{ 1569	,8	,1	, &internal1_m194_z0},	//(internal1_m194_z0) z0 - точка прекращения движения
+	{ 1570	,8	,1	, &internal1_m194_txZS},	//(internal1_m194_txZS) txZS
+	{ 1571	,8	,1	, &internal1_m194_tx},	//(internal1_m194_tx) tx
+	{ 1572	,8	,1	, &internal1_m194_txd},	//(internal1_m194_txd) txd
+	{ 1573	,8	,1	, &internal1_m194_txMBl},	//(internal1_m194_txMBl) tx
+	{ 1574	,8	,1	, &internal1_m194_txBl},	//(internal1_m194_txBl) tx
+	{ 1575	,8	,1	, &internal1_m194_Speed0},	//(internal1_m194_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1576	,8	,1	, &internal1_m194_xz0},	//(internal1_m194_xz0) xz0 - новое задание мм
+	{ 1577	,8	,1	, &internal1_m194_tz0},	//(internal1_m194_tz0) tz0 - время защиты от нового задания сек
+	{ 1578	,1	,1	, &internal1_m194_Shift0},	//(internal1_m194_Shift0) Shift0 - признак самохода
+	{ 1579	,1	,1	, &internal1_m194_ShCntlSp0},	//(internal1_m194_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1580	,1	,1	, &internal1_m194_ShiftControl},	//(internal1_m194_ShiftControl) ShiftControl - признак самохода
+	{ 1581	,1	,1	, &internal1_m709_q0},	//(internal1_m709_q0) q0 - внутренний параметр
+	{ 1582	,18	,1	, &internal1_m506_DvUp0},	//(internal1_m506_DvUp0) - есть команда на движение вперёд
+	{ 1583	,18	,1	, &internal1_m506_DvDw0},	//(internal1_m506_DvDw0) - есть команда на движение назад
+	{ 1584	,18	,1	, &internal1_m506_FDvUp0},	//(internal1_m506_FDvUp0) - есть команда на движение вперёд
+	{ 1585	,18	,1	, &internal1_m506_FDvDw0},	//(internal1_m506_FDvDw0) - есть команда на движение назад
+	{ 1586	,18	,1	, &internal1_m506_BlDv0},	//(internal1_m506_BlDv0) - была блокировка
+	{ 1587	,18	,1	, &internal1_m506_Pkv0},	//(internal1_m506_Pkv0) Pkv - передний конечный выключатель
+	{ 1588	,18	,1	, &internal1_m506_Pkav0},	//(internal1_m506_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1589	,18	,1	, &internal1_m506_Zkv0},	//(internal1_m506_Zkv0) Zkv - задний конечный выключатель
+	{ 1590	,18	,1	, &internal1_m506_Zkav0},	//(internal1_m506_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1591	,8	,1	, &internal1_m506_txNm},	//(internal1_m506_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1592	,8	,1	, &internal1_m506_txSm},	//(internal1_m506_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1593	,8	,1	, &internal1_m506_txHr},	//(internal1_m506_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1594	,8	,1	, &internal1_m506_txLd},	//(internal1_m506_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1595	,18	,1	, &internal1_m506_fef},	//(internal1_m506_fef) fef
+	{ 1596	,18	,1	, &internal1_m500_DvUp0},	//(internal1_m500_DvUp0) - есть команда на движение вперёд
+	{ 1597	,18	,1	, &internal1_m500_DvDw0},	//(internal1_m500_DvDw0) - есть команда на движение назад
+	{ 1598	,18	,1	, &internal1_m500_FDvUp0},	//(internal1_m500_FDvUp0) - есть команда на движение вперёд
+	{ 1599	,18	,1	, &internal1_m500_FDvDw0},	//(internal1_m500_FDvDw0) - есть команда на движение назад
+	{ 1600	,18	,1	, &internal1_m500_BlDv0},	//(internal1_m500_BlDv0) - была блокировка
+	{ 1601	,18	,1	, &internal1_m500_Pkv0},	//(internal1_m500_Pkv0) Pkv - передний конечный выключатель
+	{ 1602	,18	,1	, &internal1_m500_Pkav0},	//(internal1_m500_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1603	,18	,1	, &internal1_m500_Zkv0},	//(internal1_m500_Zkv0) Zkv - задний конечный выключатель
+	{ 1604	,18	,1	, &internal1_m500_Zkav0},	//(internal1_m500_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1605	,8	,1	, &internal1_m500_txNm},	//(internal1_m500_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1606	,8	,1	, &internal1_m500_txSm},	//(internal1_m500_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1607	,8	,1	, &internal1_m500_txHr},	//(internal1_m500_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1608	,8	,1	, &internal1_m500_txLd},	//(internal1_m500_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1609	,18	,1	, &internal1_m500_fef},	//(internal1_m500_fef) fef
+	{ 1610	,8	,1	, &internal1_m898_X0},	//(internal1_m898_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1611	,8	,1	, &internal1_m898_t0},	//(internal1_m898_t0) время нахождения в зоне возврата
+	{ 1612	,18	,1	, &internal1_m898_BLDv0},	//(internal1_m898_BLDv0) BlDv - Блокировка движения
+	{ 1613	,3	,1	, &internal1_m916_xptr},	//(internal1_m916_xptr) указатель текущей позиции в массиве координат
+	{ 1614	,8	,80	, &internal1_m916_x0},	//(internal1_m916_x0) x0 - массив мгновенных значений координат
+	{ 1615	,8	,80	, &internal1_m916_tim0},	//(internal1_m916_tim0) tim0 - массив значений времени цикла
+	{ 1616	,8	,1	, &internal1_m916_sumtim},	//(internal1_m916_sumtim) sumtim - время в пути
+	{ 1617	,8	,1	, &internal1_m916_StSpeed},	//(internal1_m916_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1618	,8	,1	, &internal1_m916_Vz0},	//(internal1_m916_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1619	,3	,1	, &internal1_m916_flRazg},	//(internal1_m916_flRazg) признак разгона/торможения
+	{ 1620	,8	,1	, &internal1_m916_DelSp},	//(internal1_m916_DelSp) DelSp - время переключения скоростей
+	{ 1621	,8	,1	, &internal1_m916_z0},	//(internal1_m916_z0) z0 - точка прекращения движения
+	{ 1622	,8	,1	, &internal1_m916_txZS},	//(internal1_m916_txZS) txZS
+	{ 1623	,8	,1	, &internal1_m916_tx},	//(internal1_m916_tx) tx
+	{ 1624	,8	,1	, &internal1_m916_txd},	//(internal1_m916_txd) txd
+	{ 1625	,8	,1	, &internal1_m916_txMBl},	//(internal1_m916_txMBl) tx
+	{ 1626	,8	,1	, &internal1_m916_txBl},	//(internal1_m916_txBl) tx
+	{ 1627	,8	,1	, &internal1_m916_Speed0},	//(internal1_m916_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1628	,8	,1	, &internal1_m916_xz0},	//(internal1_m916_xz0) xz0 - новое задание мм
+	{ 1629	,8	,1	, &internal1_m916_tz0},	//(internal1_m916_tz0) tz0 - время защиты от нового задания сек
+	{ 1630	,1	,1	, &internal1_m916_Shift0},	//(internal1_m916_Shift0) Shift0 - признак самохода
+	{ 1631	,1	,1	, &internal1_m916_ShCntlSp0},	//(internal1_m916_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1632	,1	,1	, &internal1_m916_ShiftControl},	//(internal1_m916_ShiftControl) ShiftControl - признак самохода
+	{ 1633	,8	,1	, &internal1_m1757_X0},	//(internal1_m1757_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1634	,8	,1	, &internal1_m1757_t0},	//(internal1_m1757_t0) время нахождения в зоне возврата
+	{ 1635	,18	,1	, &internal1_m1757_BLDv0},	//(internal1_m1757_BLDv0) BlDv - Блокировка движения
+	{ 1636	,8	,1	, &internal1_m1240_X0},	//(internal1_m1240_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1637	,8	,1	, &internal1_m1240_t0},	//(internal1_m1240_t0) время нахождения в зоне возврата
+	{ 1638	,18	,1	, &internal1_m1240_BLDv0},	//(internal1_m1240_BLDv0) BlDv - Блокировка движения
+	{ 1639	,1	,1	, &internal1_m681_q0},	//(internal1_m681_q0) q0 - внутренний параметр
+	{ 1640	,8	,1	, &internal1_m1337_X0},	//(internal1_m1337_X0) текущая зона нечувствительности (Dlt/Du) в мм (гр.)
+	{ 1641	,8	,1	, &internal1_m1337_t0},	//(internal1_m1337_t0) время нахождения в зоне возврата
+	{ 1642	,18	,1	, &internal1_m1337_BLDv0},	//(internal1_m1337_BLDv0) BlDv - Блокировка движения
+	{ 1643	,8	,1	, &internal1_m1366_tx},	//(internal1_m1366_tx) tx - время накопленное сек
+	{ 1644	,18	,1	, &internal1_m1366_y0},	//(internal1_m1366_y0) y0
+	{ 1645	,8	,1	, &internal1_m1365_tx},	//(internal1_m1365_tx) tx - время накопленное сек
+	{ 1646	,18	,1	, &internal1_m1365_y0},	//(internal1_m1365_y0) y0
+	{ 1647	,3	,1	, &internal1_m1372_xptr},	//(internal1_m1372_xptr) указатель текущей позиции в массиве координат
+	{ 1648	,8	,80	, &internal1_m1372_x0},	//(internal1_m1372_x0) x0 - массив мгновенных значений координат
+	{ 1649	,8	,80	, &internal1_m1372_tim0},	//(internal1_m1372_tim0) tim0 - массив значений времени цикла
+	{ 1650	,8	,1	, &internal1_m1372_sumtim},	//(internal1_m1372_sumtim) sumtim - время в пути
+	{ 1651	,8	,1	, &internal1_m1372_StSpeed},	//(internal1_m1372_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1652	,8	,1	, &internal1_m1372_Vz0},	//(internal1_m1372_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1653	,3	,1	, &internal1_m1372_flRazg},	//(internal1_m1372_flRazg) признак разгона/торможения
+	{ 1654	,8	,1	, &internal1_m1372_DelSp},	//(internal1_m1372_DelSp) DelSp - время переключения скоростей
+	{ 1655	,8	,1	, &internal1_m1372_z0},	//(internal1_m1372_z0) z0 - точка прекращения движения
+	{ 1656	,8	,1	, &internal1_m1372_txZS},	//(internal1_m1372_txZS) txZS
+	{ 1657	,8	,1	, &internal1_m1372_tx},	//(internal1_m1372_tx) tx
+	{ 1658	,8	,1	, &internal1_m1372_txd},	//(internal1_m1372_txd) txd
+	{ 1659	,8	,1	, &internal1_m1372_txMBl},	//(internal1_m1372_txMBl) tx
+	{ 1660	,8	,1	, &internal1_m1372_txBl},	//(internal1_m1372_txBl) tx
+	{ 1661	,8	,1	, &internal1_m1372_Speed0},	//(internal1_m1372_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1662	,8	,1	, &internal1_m1372_xz0},	//(internal1_m1372_xz0) xz0 - новое задание мм
+	{ 1663	,8	,1	, &internal1_m1372_tz0},	//(internal1_m1372_tz0) tz0 - время защиты от нового задания сек
+	{ 1664	,1	,1	, &internal1_m1372_Shift0},	//(internal1_m1372_Shift0) Shift0 - признак самохода
+	{ 1665	,1	,1	, &internal1_m1372_ShCntlSp0},	//(internal1_m1372_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1666	,1	,1	, &internal1_m1372_ShiftControl},	//(internal1_m1372_ShiftControl) ShiftControl - признак самохода
+	{ 1667	,1	,1	, &internal1_m701_q0},	//(internal1_m701_q0) q0 - внутренний параметр
+	{ 1668	,8	,1	, &internal1_m1771_tx},	//(internal1_m1771_tx) tx - время накопленное сек
+	{ 1669	,18	,1	, &internal1_m1771_y0},	//(internal1_m1771_y0) y0
+	{ 1670	,8	,1	, &internal1_m1775_tx},	//(internal1_m1775_tx) tx - время накопленное сек
+	{ 1671	,18	,1	, &internal1_m1775_y0},	//(internal1_m1775_y0) y0
+	{ 1672	,18	,1	, &internal1_m1760_DvUp0},	//(internal1_m1760_DvUp0) - есть команда на движение вперёд
+	{ 1673	,18	,1	, &internal1_m1760_DvDw0},	//(internal1_m1760_DvDw0) - есть команда на движение назад
+	{ 1674	,18	,1	, &internal1_m1760_FDvUp0},	//(internal1_m1760_FDvUp0) - есть команда на движение вперёд
+	{ 1675	,18	,1	, &internal1_m1760_FDvDw0},	//(internal1_m1760_FDvDw0) - есть команда на движение назад
+	{ 1676	,18	,1	, &internal1_m1760_BlDv0},	//(internal1_m1760_BlDv0) - была блокировка
+	{ 1677	,18	,1	, &internal1_m1760_Pkv0},	//(internal1_m1760_Pkv0) Pkv - передний конечный выключатель
+	{ 1678	,18	,1	, &internal1_m1760_Pkav0},	//(internal1_m1760_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1679	,18	,1	, &internal1_m1760_Zkv0},	//(internal1_m1760_Zkv0) Zkv - задний конечный выключатель
+	{ 1680	,18	,1	, &internal1_m1760_Zkav0},	//(internal1_m1760_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1681	,8	,1	, &internal1_m1760_txNm},	//(internal1_m1760_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1682	,8	,1	, &internal1_m1760_txSm},	//(internal1_m1760_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1683	,8	,1	, &internal1_m1760_txHr},	//(internal1_m1760_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1684	,8	,1	, &internal1_m1760_txLd},	//(internal1_m1760_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1685	,18	,1	, &internal1_m1760_fef},	//(internal1_m1760_fef) fef
+	{ 1686	,3	,1	, &internal1_m1779_xptr},	//(internal1_m1779_xptr) указатель текущей позиции в массиве координат
+	{ 1687	,8	,20	, &internal1_m1779_x0},	//(internal1_m1779_x0) x0 - массив мгновенных значений координат
+	{ 1688	,8	,20	, &internal1_m1779_tim0},	//(internal1_m1779_tim0) tim0 - массив значений времени цикла
+	{ 1689	,8	,1	, &internal1_m1779_sumtim},	//(internal1_m1779_sumtim) sumtim - время в пути
+	{ 1690	,8	,1	, &internal1_m1779_StSpeed},	//(internal1_m1779_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1691	,8	,1	, &internal1_m1779_Vz0},	//(internal1_m1779_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1692	,3	,1	, &internal1_m1779_flRazg},	//(internal1_m1779_flRazg) признак разгона/торможения
+	{ 1693	,8	,1	, &internal1_m1779_DelSp},	//(internal1_m1779_DelSp) DelSp - время переключения скоростей
+	{ 1694	,8	,1	, &internal1_m1779_z0},	//(internal1_m1779_z0) z0 - точка прекращения движения
+	{ 1695	,8	,1	, &internal1_m1779_txZS},	//(internal1_m1779_txZS) txZS
+	{ 1696	,8	,1	, &internal1_m1779_tx},	//(internal1_m1779_tx) tx
+	{ 1697	,8	,1	, &internal1_m1779_txd},	//(internal1_m1779_txd) txd
+	{ 1698	,8	,1	, &internal1_m1779_txMBl},	//(internal1_m1779_txMBl) tx
+	{ 1699	,8	,1	, &internal1_m1779_txBl},	//(internal1_m1779_txBl) tx
+	{ 1700	,8	,1	, &internal1_m1779_Speed0},	//(internal1_m1779_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1701	,8	,1	, &internal1_m1779_xz0},	//(internal1_m1779_xz0) xz0 - новое задание мм
+	{ 1702	,8	,1	, &internal1_m1779_tz0},	//(internal1_m1779_tz0) tz0 - время защиты от нового задания сек
+	{ 1703	,1	,1	, &internal1_m1779_Shift0},	//(internal1_m1779_Shift0) Shift0 - признак самохода
+	{ 1704	,1	,1	, &internal1_m1779_ShCntlSp0},	//(internal1_m1779_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1705	,1	,1	, &internal1_m1779_ShiftControl},	//(internal1_m1779_ShiftControl) ShiftControl - признак самохода
+	{ 1706	,8	,1	, &internal1_m1257_tx},	//(internal1_m1257_tx) tx - время накопленное сек
+	{ 1707	,18	,1	, &internal1_m1257_y0},	//(internal1_m1257_y0) y0
+	{ 1708	,8	,1	, &internal1_m1261_tx},	//(internal1_m1261_tx) tx - время накопленное сек
+	{ 1709	,18	,1	, &internal1_m1261_y0},	//(internal1_m1261_y0) y0
+	{ 1710	,1	,1	, &internal1_m691_q0},	//(internal1_m691_q0) q0 - внутренний параметр
+	{ 1711	,1	,1	, &internal1_m656_q0},	//(internal1_m656_q0) q0 - внутренний параметр
+	{ 1712	,18	,1	, &internal1_m1246_DvUp0},	//(internal1_m1246_DvUp0) - есть команда на движение вперёд
+	{ 1713	,18	,1	, &internal1_m1246_DvDw0},	//(internal1_m1246_DvDw0) - есть команда на движение назад
+	{ 1714	,18	,1	, &internal1_m1246_FDvUp0},	//(internal1_m1246_FDvUp0) - есть команда на движение вперёд
+	{ 1715	,18	,1	, &internal1_m1246_FDvDw0},	//(internal1_m1246_FDvDw0) - есть команда на движение назад
+	{ 1716	,18	,1	, &internal1_m1246_BlDv0},	//(internal1_m1246_BlDv0) - была блокировка
+	{ 1717	,18	,1	, &internal1_m1246_Pkv0},	//(internal1_m1246_Pkv0) Pkv - передний конечный выключатель
+	{ 1718	,18	,1	, &internal1_m1246_Pkav0},	//(internal1_m1246_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1719	,18	,1	, &internal1_m1246_Zkv0},	//(internal1_m1246_Zkv0) Zkv - задний конечный выключатель
+	{ 1720	,18	,1	, &internal1_m1246_Zkav0},	//(internal1_m1246_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1721	,8	,1	, &internal1_m1246_txNm},	//(internal1_m1246_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1722	,8	,1	, &internal1_m1246_txSm},	//(internal1_m1246_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1723	,8	,1	, &internal1_m1246_txHr},	//(internal1_m1246_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1724	,8	,1	, &internal1_m1246_txLd},	//(internal1_m1246_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1725	,18	,1	, &internal1_m1246_fef},	//(internal1_m1246_fef) fef
+	{ 1726	,3	,1	, &internal1_m1267_xptr},	//(internal1_m1267_xptr) указатель текущей позиции в массиве координат
+	{ 1727	,8	,20	, &internal1_m1267_x0},	//(internal1_m1267_x0) x0 - массив мгновенных значений координат
+	{ 1728	,8	,20	, &internal1_m1267_tim0},	//(internal1_m1267_tim0) tim0 - массив значений времени цикла
+	{ 1729	,8	,1	, &internal1_m1267_sumtim},	//(internal1_m1267_sumtim) sumtim - время в пути
+	{ 1730	,8	,1	, &internal1_m1267_StSpeed},	//(internal1_m1267_StSpeed) StSpeed - стартовая скорость - с которой начинается изменение скорости
+	{ 1731	,8	,1	, &internal1_m1267_Vz0},	//(internal1_m1267_Vz0) Vz0 - предыдущая заданная скорость
+	{ 1732	,3	,1	, &internal1_m1267_flRazg},	//(internal1_m1267_flRazg) признак разгона/торможения
+	{ 1733	,8	,1	, &internal1_m1267_DelSp},	//(internal1_m1267_DelSp) DelSp - время переключения скоростей
+	{ 1734	,8	,1	, &internal1_m1267_z0},	//(internal1_m1267_z0) z0 - точка прекращения движения
+	{ 1735	,8	,1	, &internal1_m1267_txZS},	//(internal1_m1267_txZS) txZS
+	{ 1736	,8	,1	, &internal1_m1267_tx},	//(internal1_m1267_tx) tx
+	{ 1737	,8	,1	, &internal1_m1267_txd},	//(internal1_m1267_txd) txd
+	{ 1738	,8	,1	, &internal1_m1267_txMBl},	//(internal1_m1267_txMBl) tx
+	{ 1739	,8	,1	, &internal1_m1267_txBl},	//(internal1_m1267_txBl) tx
+	{ 1740	,8	,1	, &internal1_m1267_Speed0},	//(internal1_m1267_Speed0) Speed0 - предыдущее значение скорости перемещения
+	{ 1741	,8	,1	, &internal1_m1267_xz0},	//(internal1_m1267_xz0) xz0 - новое задание мм
+	{ 1742	,8	,1	, &internal1_m1267_tz0},	//(internal1_m1267_tz0) tz0 - время защиты от нового задания сек
+	{ 1743	,1	,1	, &internal1_m1267_Shift0},	//(internal1_m1267_Shift0) Shift0 - признак самохода
+	{ 1744	,1	,1	, &internal1_m1267_ShCntlSp0},	//(internal1_m1267_ShCntlSp0) ShCntlSp0 - признак выдержки времени после достижения 0 скорости
+	{ 1745	,1	,1	, &internal1_m1267_ShiftControl},	//(internal1_m1267_ShiftControl) ShiftControl - признак самохода
+	{ 1746	,1	,1	, &internal1_m819_x0},	//(internal1_m819_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1747	,1	,1	, &internal1_m788_x0},	//(internal1_m788_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1748	,1	,1	, &internal1_m730_x0},	//(internal1_m730_x0) x0 - значение входного параметра на предыдущем шаге
+	{ 1749	,1	,1	, &internal1_m844_q0},	//(internal1_m844_q0) q0 - внутренний параметр
+	{ 1750	,1	,1	, &internal1_m839_q0},	//(internal1_m839_q0) q0 - внутренний параметр
+	{ 1751	,1	,1	, &internal1_m807_q0},	//(internal1_m807_q0) q0 - внутренний параметр
+	{ 1752	,1	,1	, &internal1_m812_q0},	//(internal1_m812_q0) q0 - внутренний параметр
+	{ 1753	,1	,1	, &internal1_m820_q0},	//(internal1_m820_q0) q0 - внутренний параметр
+	{ 1754	,1	,1	, &internal1_m832_q0},	//(internal1_m832_q0) q0 - внутренний параметр
+	{ 1755	,1	,1	, &internal1_m810_q0},	//(internal1_m810_q0) q0 - внутренний параметр
+	{ 1756	,18	,1	, &internal1_m1310_DvUp0},	//(internal1_m1310_DvUp0) - есть команда на движение вперёд
+	{ 1757	,18	,1	, &internal1_m1310_DvDw0},	//(internal1_m1310_DvDw0) - есть команда на движение назад
+	{ 1758	,18	,1	, &internal1_m1310_FDvUp0},	//(internal1_m1310_FDvUp0) - есть команда на движение вперёд
+	{ 1759	,18	,1	, &internal1_m1310_FDvDw0},	//(internal1_m1310_FDvDw0) - есть команда на движение назад
+	{ 1760	,18	,1	, &internal1_m1310_BlDv0},	//(internal1_m1310_BlDv0) - была блокировка
+	{ 1761	,18	,1	, &internal1_m1310_Pkv0},	//(internal1_m1310_Pkv0) Pkv - передний конечный выключатель
+	{ 1762	,18	,1	, &internal1_m1310_Pkav0},	//(internal1_m1310_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1763	,18	,1	, &internal1_m1310_Zkv0},	//(internal1_m1310_Zkv0) Zkv - задний конечный выключатель
+	{ 1764	,18	,1	, &internal1_m1310_Zkav0},	//(internal1_m1310_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1765	,8	,1	, &internal1_m1310_txNm},	//(internal1_m1310_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1766	,8	,1	, &internal1_m1310_txSm},	//(internal1_m1310_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1767	,8	,1	, &internal1_m1310_txHr},	//(internal1_m1310_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1768	,8	,1	, &internal1_m1310_txLd},	//(internal1_m1310_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1769	,18	,1	, &internal1_m1310_fef},	//(internal1_m1310_fef) fef
+	{ 1770	,18	,1	, &internal1_m1300_DvUp0},	//(internal1_m1300_DvUp0) - есть команда на движение вперёд
+	{ 1771	,18	,1	, &internal1_m1300_DvDw0},	//(internal1_m1300_DvDw0) - есть команда на движение назад
+	{ 1772	,18	,1	, &internal1_m1300_FDvUp0},	//(internal1_m1300_FDvUp0) - есть команда на движение вперёд
+	{ 1773	,18	,1	, &internal1_m1300_FDvDw0},	//(internal1_m1300_FDvDw0) - есть команда на движение назад
+	{ 1774	,18	,1	, &internal1_m1300_BlDv0},	//(internal1_m1300_BlDv0) - была блокировка
+	{ 1775	,18	,1	, &internal1_m1300_Pkv0},	//(internal1_m1300_Pkv0) Pkv - передний конечный выключатель
+	{ 1776	,18	,1	, &internal1_m1300_Pkav0},	//(internal1_m1300_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1777	,18	,1	, &internal1_m1300_Zkv0},	//(internal1_m1300_Zkv0) Zkv - задний конечный выключатель
+	{ 1778	,18	,1	, &internal1_m1300_Zkav0},	//(internal1_m1300_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1779	,8	,1	, &internal1_m1300_txNm},	//(internal1_m1300_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1780	,8	,1	, &internal1_m1300_txSm},	//(internal1_m1300_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1781	,8	,1	, &internal1_m1300_txHr},	//(internal1_m1300_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1782	,8	,1	, &internal1_m1300_txLd},	//(internal1_m1300_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1783	,18	,1	, &internal1_m1300_fef},	//(internal1_m1300_fef) fef
+	{ 1784	,18	,1	, &internal1_m868_DvUp0},	//(internal1_m868_DvUp0) - есть команда на движение вперёд
+	{ 1785	,18	,1	, &internal1_m868_DvDw0},	//(internal1_m868_DvDw0) - есть команда на движение назад
+	{ 1786	,18	,1	, &internal1_m868_FDvUp0},	//(internal1_m868_FDvUp0) - есть команда на движение вперёд
+	{ 1787	,18	,1	, &internal1_m868_FDvDw0},	//(internal1_m868_FDvDw0) - есть команда на движение назад
+	{ 1788	,18	,1	, &internal1_m868_BlDv0},	//(internal1_m868_BlDv0) - была блокировка
+	{ 1789	,18	,1	, &internal1_m868_Pkv0},	//(internal1_m868_Pkv0) Pkv - передний конечный выключатель
+	{ 1790	,18	,1	, &internal1_m868_Pkav0},	//(internal1_m868_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1791	,18	,1	, &internal1_m868_Zkv0},	//(internal1_m868_Zkv0) Zkv - задний конечный выключатель
+	{ 1792	,18	,1	, &internal1_m868_Zkav0},	//(internal1_m868_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1793	,8	,1	, &internal1_m868_txNm},	//(internal1_m868_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1794	,8	,1	, &internal1_m868_txSm},	//(internal1_m868_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1795	,8	,1	, &internal1_m868_txHr},	//(internal1_m868_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1796	,8	,1	, &internal1_m868_txLd},	//(internal1_m868_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1797	,18	,1	, &internal1_m868_fef},	//(internal1_m868_fef) fef
+	{ 1798	,18	,1	, &internal1_m864_DvUp0},	//(internal1_m864_DvUp0) - есть команда на движение вперёд
+	{ 1799	,18	,1	, &internal1_m864_DvDw0},	//(internal1_m864_DvDw0) - есть команда на движение назад
+	{ 1800	,18	,1	, &internal1_m864_FDvUp0},	//(internal1_m864_FDvUp0) - есть команда на движение вперёд
+	{ 1801	,18	,1	, &internal1_m864_FDvDw0},	//(internal1_m864_FDvDw0) - есть команда на движение назад
+	{ 1802	,18	,1	, &internal1_m864_BlDv0},	//(internal1_m864_BlDv0) - была блокировка
+	{ 1803	,18	,1	, &internal1_m864_Pkv0},	//(internal1_m864_Pkv0) Pkv - передний конечный выключатель
+	{ 1804	,18	,1	, &internal1_m864_Pkav0},	//(internal1_m864_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1805	,18	,1	, &internal1_m864_Zkv0},	//(internal1_m864_Zkv0) Zkv - задний конечный выключатель
+	{ 1806	,18	,1	, &internal1_m864_Zkav0},	//(internal1_m864_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1807	,8	,1	, &internal1_m864_txNm},	//(internal1_m864_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1808	,8	,1	, &internal1_m864_txSm},	//(internal1_m864_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1809	,8	,1	, &internal1_m864_txHr},	//(internal1_m864_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1810	,8	,1	, &internal1_m864_txLd},	//(internal1_m864_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1811	,18	,1	, &internal1_m864_fef},	//(internal1_m864_fef) fef
+	{ 1812	,18	,1	, &internal1_m379_DvUp0},	//(internal1_m379_DvUp0) - есть команда на движение вперёд
+	{ 1813	,18	,1	, &internal1_m379_DvDw0},	//(internal1_m379_DvDw0) - есть команда на движение назад
+	{ 1814	,18	,1	, &internal1_m379_FDvUp0},	//(internal1_m379_FDvUp0) - есть команда на движение вперёд
+	{ 1815	,18	,1	, &internal1_m379_FDvDw0},	//(internal1_m379_FDvDw0) - есть команда на движение назад
+	{ 1816	,18	,1	, &internal1_m379_BlDv0},	//(internal1_m379_BlDv0) - была блокировка
+	{ 1817	,18	,1	, &internal1_m379_Pkv0},	//(internal1_m379_Pkv0) Pkv - передний конечный выключатель
+	{ 1818	,18	,1	, &internal1_m379_Pkav0},	//(internal1_m379_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1819	,18	,1	, &internal1_m379_Zkv0},	//(internal1_m379_Zkv0) Zkv - задний конечный выключатель
+	{ 1820	,18	,1	, &internal1_m379_Zkav0},	//(internal1_m379_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1821	,8	,1	, &internal1_m379_txNm},	//(internal1_m379_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1822	,8	,1	, &internal1_m379_txSm},	//(internal1_m379_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1823	,8	,1	, &internal1_m379_txHr},	//(internal1_m379_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1824	,8	,1	, &internal1_m379_txLd},	//(internal1_m379_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1825	,18	,1	, &internal1_m379_fef},	//(internal1_m379_fef) fef
+	{ 1826	,18	,1	, &internal1_m416_DvUp0},	//(internal1_m416_DvUp0) - есть команда на движение вперёд
+	{ 1827	,18	,1	, &internal1_m416_DvDw0},	//(internal1_m416_DvDw0) - есть команда на движение назад
+	{ 1828	,18	,1	, &internal1_m416_FDvUp0},	//(internal1_m416_FDvUp0) - есть команда на движение вперёд
+	{ 1829	,18	,1	, &internal1_m416_FDvDw0},	//(internal1_m416_FDvDw0) - есть команда на движение назад
+	{ 1830	,18	,1	, &internal1_m416_BlDv0},	//(internal1_m416_BlDv0) - была блокировка
+	{ 1831	,18	,1	, &internal1_m416_Pkv0},	//(internal1_m416_Pkv0) Pkv - передний конечный выключатель
+	{ 1832	,18	,1	, &internal1_m416_Pkav0},	//(internal1_m416_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1833	,18	,1	, &internal1_m416_Zkv0},	//(internal1_m416_Zkv0) Zkv - задний конечный выключатель
+	{ 1834	,18	,1	, &internal1_m416_Zkav0},	//(internal1_m416_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1835	,8	,1	, &internal1_m416_txNm},	//(internal1_m416_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1836	,8	,1	, &internal1_m416_txSm},	//(internal1_m416_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1837	,8	,1	, &internal1_m416_txHr},	//(internal1_m416_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1838	,8	,1	, &internal1_m416_txLd},	//(internal1_m416_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1839	,18	,1	, &internal1_m416_fef},	//(internal1_m416_fef) fef
+	{ 1840	,18	,1	, &internal1_m410_DvUp0},	//(internal1_m410_DvUp0) - есть команда на движение вперёд
+	{ 1841	,18	,1	, &internal1_m410_DvDw0},	//(internal1_m410_DvDw0) - есть команда на движение назад
+	{ 1842	,18	,1	, &internal1_m410_FDvUp0},	//(internal1_m410_FDvUp0) - есть команда на движение вперёд
+	{ 1843	,18	,1	, &internal1_m410_FDvDw0},	//(internal1_m410_FDvDw0) - есть команда на движение назад
+	{ 1844	,18	,1	, &internal1_m410_BlDv0},	//(internal1_m410_BlDv0) - была блокировка
+	{ 1845	,18	,1	, &internal1_m410_Pkv0},	//(internal1_m410_Pkv0) Pkv - передний конечный выключатель
+	{ 1846	,18	,1	, &internal1_m410_Pkav0},	//(internal1_m410_Pkav0) Pkav - передний конечный аварийный выключатель
+	{ 1847	,18	,1	, &internal1_m410_Zkv0},	//(internal1_m410_Zkv0) Zkv - задний конечный выключатель
+	{ 1848	,18	,1	, &internal1_m410_Zkav0},	//(internal1_m410_Zkav0) Zkav - задний конечный аварийный выключатель
+	{ 1849	,8	,1	, &internal1_m410_txNm},	//(internal1_m410_txNm) txNm - счётчик задержки сигнализации недвижения
+	{ 1850	,8	,1	, &internal1_m410_txSm},	//(internal1_m410_txSm) txSm - счётчик задержки сигнализации самохода
+	{ 1851	,8	,1	, &internal1_m410_txHr},	//(internal1_m410_txHr) txHr - счётчик задержки сигнализации ошибки направления перемещения
+	{ 1852	,8	,1	, &internal1_m410_txLd},	//(internal1_m410_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения
+	{ 1853	,18	,1	, &internal1_m410_fef},	//(internal1_m410_fef) fef
+	{ 1854	,1	,1	, &internal1_m816_q0},	//(internal1_m816_q0) q0 - внутренний параметр
+	{ 1855	,1	,1	, &internal1_m813_q0},	//(internal1_m813_q0) q0 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="du.bin\0";   // Имя файла для сохранения констант
@@ -5679,52 +5751,52 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 };
 #pragma pack(push,1)
 static ModbusRegister coil_DU[]={  // 
-	{&R0MD34LP1,1,0},	//( - , DU) Кнопка КВИТИРОВАТЬ
-	{&A2MD12LP1,1,1},	//( - , DU) Переключатель РАЗРЕШИТЬ РБ1
-	{&A2MD11LP1,1,2},	//( - , DU) Кнопка ПУСК РБ1
-	{&B2MD12LP1,1,3},	//( - , DU) Переключатель РАЗРЕШИТЬ РБ2
-	{&B2MD11LP1,1,4},	//( - , DU) Кнопка ПУСК РБ2
-	{&B1MD12LP1,1,5},	//( - , DU) Переключатель РАЗРЕШИТЬ ББ2
-	{&B1MD11LP1,1,6},	//( - , DU) Кнопка ПУСК ББ2
-	{&A3MD12LP1,1,7},	//( - , DU) Переключатель РАЗРЕШИТЬ ИС1
+	{&B2MD12LP1,1,0},	//( - , DU) Переключатель РАЗРЕШИТЬ РБ2
+	{&B2MD11LP1,1,1},	//( - , DU) Кнопка ПУСК РБ2
+	{&B1MD12LP1,1,2},	//( - , DU) Переключатель РАЗРЕШИТЬ ББ2
+	{&B1MD11LP1,1,3},	//( - , DU) Кнопка ПУСК ББ2
+	{&R0MW17LP1,1,4},	//( - , DU) Переключатель АВТ/Р
+	{&A1MD11LP1,1,5},	//( - , DU) Кнопка ПУСК ББ1
+	{&A1MD12LP1,1,6},	//( - , DU) Переключатель РАЗРЕШИТЬ ББ1
+	{&R0MD33LP1,1,7},	//( - , DU) Переключатель РАЗРЕШИТЬ МДЗ
 	{&A3MD11LP1,1,8},	//( - , DU) Кнопка ПУСК ИС1
-	{&R0MD33LP1,1,9},	//( - , DU) Переключатель РАЗРЕШИТЬ МДЗ
-	{&A1MD12LP1,1,10},	//( - , DU) Переключатель РАЗРЕШИТЬ ББ1
-	{&A1MD11LP1,1,11},	//( - , DU) Кнопка ПУСК ББ1
-	{&R0MW17LP1,1,12},	//( - , DU) Переключатель АВТ/Р
+	{&A3MD12LP1,1,9},	//( - , DU) Переключатель РАЗРЕШИТЬ ИС1
+	{&A2MD11LP1,1,10},	//( - , DU) Кнопка ПУСК РБ1
+	{&A2MD12LP1,1,11},	//( - , DU) Переключатель РАЗРЕШИТЬ РБ1
+	{&R0MD34LP1,1,12},	//( - , DU) Кнопка КВИТИРОВАТЬ
 	{&B3MD12LP1,1,13},	//( - , DU) Переключатель РАЗРЕШИТЬ ИС2
 	{&B3MD11LP1,1,14},	//( - , DU) Кнопка ПУСК ИС2
 	{&R0MD11LP2,1,15},	//( - , DU) Кнопка Пуск проверки схем сброса
-	{&C1MD31LP1,1,16},	//( - , DU) Кнопка СБРОС ББ
-	{&C1MD31LP2,1,17},	//( - , DU) Кнопка СБРОС ББ
-	{&A8MC01LC1,1,18},	//( - , DU) Настроить энкодер ДС2
-	{&B8MC01LC2,1,19},	//( - , DU) Настроить энкодер АЗ2
-	{&B8MC01LC1,1,20},	//( - , DU) Настроить энкодер АЗ2
-	{&A3MC01LC2,1,21},	//( - , DU) Настроить энкодер ИС1
-	{&A3MC01LC1,1,22},	//( - , DU) Настроить энкодер ИС1
-	{&B3MC01LC2,1,23},	//( - , DU) Настроить энкодер ИС2
-	{&B3MC01LC1,1,24},	//( - , DU) Настроить энкодер ИС2
-	{&A2MC01LC2,1,25},	//( - , DU) Настроить энкодер РБ1
-	{&A2MC01LC1,1,26},	//( - , DU) Настроить энкодер РБ1
-	{&B2MC01LC2,1,27},	//( - , DU) Настроить энкодер РБ2
-	{&B2MC01LC1,1,28},	//( - , DU) Настроить энкодер РБ2
-	{&A1MC01LC2,1,29},	//( - , DU) Настроить энкодер ББ1
-	{&A1MC01LC1,1,30},	//( - , DU) Настроить энкодер ББ1
-	{&B1MC01LC2,1,31},	//( - , DU) Настроить энкодер ББ2
-	{&B1MC01LC1,1,32},	//( - , DU) Настроить энкодер ББ2
-	{&A8MC01LC2,1,33},	//( - , DU) Настроить энкодер ДС2
-	{&C2MD31LP1,1,34},	//( - , DU) Кнопка СБРОС РБ
-	{&A1VP41LZ1,1,35},	//( - , DU) Давление СБРОС ББ1 ниже АС
-	{&A1VP41LZ2,1,36},	//( - , DU) Давление СБРОС ББ1 ниже АС
-	{&B1VP41LZ1,1,37},	//( - , DU) Давление СБРОС ББ2 ниже АС
-	{&B1VP41LZ2,1,38},	//( - , DU) Давление СБРОС ББ2 ниже АС
+	{&C1MD31LP2,1,16},	//( - , DU) Кнопка СБРОС ББ
+	{&C1MD31LP1,1,17},	//( - , DU) Кнопка СБРОС ББ
+	{&A1MC01LC2,1,18},	//( - , DU) Настроить энкодер ББ1
+	{&A1MC01LC1,1,19},	//( - , DU) Настроить энкодер ББ1
+	{&B1MC01LC2,1,20},	//( - , DU) Настроить энкодер ББ2
+	{&B1MC01LC1,1,21},	//( - , DU) Настроить энкодер ББ2
+	{&B1VP41LZ2,1,22},	//( - , DU) Давление СБРОС ББ2 ниже АС
+	{&B1VP41LZ1,1,23},	//( - , DU) Давление СБРОС ББ2 ниже АС
+	{&A1VP41LZ2,1,24},	//( - , DU) Давление СБРОС ББ1 ниже АС
+	{&B2MC01LC1,1,25},	//( - , DU) Настроить энкодер РБ2
+	{&B2MC01LC2,1,26},	//( - , DU) Настроить энкодер РБ2
+	{&A2MC01LC1,1,27},	//( - , DU) Настроить энкодер РБ1
+	{&A2MC01LC2,1,28},	//( - , DU) Настроить энкодер РБ1
+	{&B3MC01LC1,1,29},	//( - , DU) Настроить энкодер ИС2
+	{&B3MC01LC2,1,30},	//( - , DU) Настроить энкодер ИС2
+	{&A3MC01LC1,1,31},	//( - , DU) Настроить энкодер ИС1
+	{&A3MC01LC2,1,32},	//( - , DU) Настроить энкодер ИС1
+	{&B8MC01LC1,1,33},	//( - , DU) Настроить энкодер АЗ2
+	{&B8MC01LC2,1,34},	//( - , DU) Настроить энкодер АЗ2
+	{&A8MC01LC1,1,35},	//( - , DU) Настроить энкодер ДС2
+	{&A8MC01LC2,1,36},	//( - , DU) Настроить энкодер ДС2
+	{&C2MD31LP1,1,37},	//( - , DU) Кнопка СБРОС РБ
+	{&A1VP41LZ1,1,38},	//( - , DU) Давление СБРОС ББ1 ниже АС
 	{&R0MD11LP1,1,39},	//( - , DU) Кнопка ПУСК
 	{&R4MD21LP2,1,40},	//( - , DU) Кнопка НАЗАД  (тележки)
 	{&R4MD31LP2,1,41},	//( - , DU) Кнопка СТОП  (тележки)
 	{&R4MD11LP2,1,42},	//( - , DU) Кнопка ВПЕРЁД  (тележки)
-	{&R0MW13LP2,1,43},	//( - , DU) Переключатель СЕТЬ
+	{&R0MD31LP1,1,43},	//( - , DU) Кнопка СТОП
 	{&R0MD32LP1,1,44},	//( - , DU) Кнопка СПУСК
-	{&R0MD31LP1,1,45},	//( - , DU) Кнопка СТОП
+	{&R0MW13LP2,1,45},	//( - , DU) Переключатель СЕТЬ
 	{&R0NE01LDU,1,46},	//( - , DU) Потеря связи с БАЗ1
 	{&R0NE02LDU,1,47},	//( - , DU) Потеря связи с БАЗ2
 	{&R0NE08LDU,1,48},	//( - , DU) Потеря связи с ОПУ
@@ -5734,478 +5806,466 @@ static ModbusRegister coil_DU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_DU[]={  // 
-	{&B2VS21LDU,1,0},	//( - , DU) Движение РБ2 в сторону НУ
-	{&B2VS11LDU,1,1},	//( - , DU) Движение РБ2 в сторону ВУ
-	{&R0VP73LDU,1,2},	//( - , DU) ПС давления для РУ
-	{&R0IS02LDU,1,3},	//( - K30VDSR, DU) Разрешение ввода от имитатора
-	{&R0IS01LDU,1,4},	//( - K29VDSR, DU) Признак работы с имитатором
-	{&R0VS18LDU,1,5},	//( - , DU) Индикация  Проверка схем сброса
-	{&B3VX01LDU,1,6},	//( - , DU) Индикация Выстрел ИС2
-	{&A3IS11LDU,1,7},	//( - K01VDSR, DU) Приход на ВУ ИС1
-	{&B2IS11LDU,1,8},	//( - K11VDSR, DU) Приход на ВУ РБ2-СТР
+	{&R0VS18LDU,1,0},	//( - , DU) Индикация  Проверка схем сброса
+	{&B3VX01LDU,1,1},	//( - , DU) Индикация Выстрел ИС2
+	{&A3IS11LDU,1,2},	//( - K01VDSR, DU) Приход на ВУ ИС1
+	{&A3VX01LDU,1,3},	//( - , DU) Индикация Выстрел ИС1
+	{&B2VS32LDU,1,4},	//( - , DU) Индикация  СБРОС РБ2
+	{&A2VS32LDU,1,5},	//( - , DU) Индикация  СБРОС РБ1
+	{&R0VS17LDU,1,6},	//( - , DU) Индикация выбора АВТОМАТ
+	{&R0VX09LDU,1,7},	//( - , DU) Индикация регулятор мощности включен/отключен
+	{&R0VW23LDU,1,8},	//( - , DU, MDuBz1, MDuBz2) Индикация выбора АЗ2 или АЗ1+АЗ2
 	{&R0VW13LDU,1,9},	//( - , DU, MDuBz1, MDuBz2) Индикация выбора АЗ1 или АЗ1+АЗ2
-	{&R0VW23LDU,1,10},	//( - , DU, MDuBz1, MDuBz2) Индикация выбора АЗ2 или АЗ1+АЗ2
-	{&R0VX09LDU,1,11},	//( - , DU) Индикация регулятор мощности включен/отключен
-	{&R0VS17LDU,1,12},	//( - , DU) Индикация выбора АВТОМАТ
-	{&A2VS32LDU,1,13},	//( - , DU) Индикация  СБРОС РБ1
-	{&B2VS32LDU,1,14},	//( - , DU) Индикация  СБРОС РБ2
-	{&A3VX01LDU,1,15},	//( - , DU) Индикация Выстрел ИС1
-	{&B2AB15LDU,1,16},	//( - , DU) Блокировка на подъем РБ2 пневматикой:  после  сброса РБ прошло менее 3,5 мин
-	{&A2AB15LDU,1,17},	//( - , DU) Блокировка на подъем РБ1 пневматикой:  после  сброса РБ прошло менее 3,5 мин
-	{&R0AB05LDU,1,18},	//( - , DU) Нарушение времени срабатывания АЗ от НУП ИС
-	{&R0AB03LDU,1,19},	//( - , DU) Нарушение времени срабатывания АЗ от ВУ ИС
-	{&R3IS21LDU,1,20},	//( - K18VDSR, DU) Приход на НУ гомогенных дверей
-	{&R3IS11LDU,1,21},	//( - K17VDSR, DU) Приход на ВУ гомогенных дверей
-	{&B4IS10LDU,1,22},	//( - K04VDSR, DU) Клапан ПОДЪЕМ НИ2 открыт (обесточен)
-	{&B3IS35LDU,1,23},	//( - K01VDSR, DU) Клапан ВПИС2 открыт (обесточен)
-	{&B3IS33LDU,1,24},	//( - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС2 открыт (обесточен)
-	{&B3IS31LDU,1,25},	//( - K05VDSR, DU) Клапан СПУСК ИС2 открыт (обесточен)
-	{&B2IS33LDU,1,26},	//( - K03VDSR, DU) Клапан ПОДЪЕМ РБ2 открыт (обесточен)
-	{&A3VZ15LZ2,1,27},	//( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС
-	{&A3VZ15LZ1,1,28},	//( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС
-	{&A3VZ13LZ1,1,29},	//( - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС
-	{&A3VZ13LZ2,1,30},	//( - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС
-	{&R0AD14LZ2,1,31},	//( - K20VDSR, DU) Имитация срабатывания АЗ от  II УР
-	{&A7AS31LDU,1,32},	//( - K06VDSR, DU) Клапан Обдув АЗ1 открыт (обесточен)
-	{&B7AS31LDU,1,33},	//( - K06VDSR, DU) Клапан Обдув АЗ2 открыт (обесточен)
-	{&A7AZ03LDU,1,34},	//( - , DU) Несанкционированное включение обдува АЗ1
-	{&B7AZ03LDU,1,35},	//( - , DU) Несанкционированное включение обдува АЗ2
-	{&R0VZ71LDU,1,36},	//( - , DU) Обобщенный сигнал АЗ
-	{&A2IS33LDU,1,37},	//( - K03VDSR, DU) Клапан ПОДЪЕМ РБ1 открыт (обесточен)
-	{&A3IS31LDU,1,38},	//( - K05VDSR, DU) Клапан СПУСК ИС1 открыт (обесточен)
-	{&A3IS33LDU,1,39},	//( - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС1 открыт (обесточен)
-	{&A3IS35LDU,1,40},	//( - K01VDSR, DU) Клапан ВПИС1 открыт (обесточен)
-	{&A4IS10LDU,1,41},	//( - K04VDSR, DU) Клапан Подъём НИ1 открыт (обесточен)
-	{&A1VN71LZ1,1,42},	//( - K21VDSR, DU) Блокировка автоматического подъёма ББ
-	{&A1VN71LZ2,1,43},	//( - K21VDSR, DU) Блокировка автоматического подъёма ББ
-	{&A1AB19LDU,1,44},	//( - , DU) Блокировка автоматического подъёма ББ1 -превышение нейтронного потока
-	{&R0AD14LZ1,1,45},	//( - K20VDSR, DU) Имитация срабатывания АЗ от II УР
-	{&R0AB02LDU,1,46},	//( - , DU) Нарушение времени задержки ИНИ
-	{&R0AB06LDU,1,47},	//( - , DU) Нарушение времени задержки от ВУ РБ
-	{&R0AB04LDU,1,48},	//( - , DU) Нарушение времени срабатывания верхней АС II УР
-	{&R0AD14LDU,1,49},	//( - , DU) Имитация срабатывания верхней АС II УР
-	{&B3IS11LDU,1,50},	//( - K03VDSR, DU) Приход на ВУ ИС2
-	{&R0VX01LDU,1,51},	//( - , DU) ДО ИМПУЛЬСА
-	{&B1AD31LDU,1,52},	//( - K06FDSR, DU) Клапан СБРОС ББ2 открыть (обесточить)
-	{&A1AD31LDU,1,53},	//( - K02FDSR, DU) Клапан СБРОС ББ1 открыть (обесточить)
-	{&B2AD31LDU,1,54},	//( - K08FDSR, DU) Клапан Сброс РБ2 открыть (обесточить)
-	{&A2AD31LDU,1,55},	//( - K04FDSR, DU) Клапан СБРОС РБ1 открыть (обесточить)
-	{&B3AZ03LDU,1,56},	//( - , DU) Сброс РБ: Несанкционированное перемещение ИС2
-	{&B3AB07LDU,1,57},	//( - , DU) Блокировка подъёма ИС2 Гомогенные двери не закрыты
-	{&B3AB08LDU,1,58},	//( - , DU) Блокировка подъёма ИС2 - реактор не на рабочем месте
-	{&B3AB05LDU,1,59},	//( - , DU) Блокировка подъёма ИС2 -нет сигнала готовности СУЗ
-	{&B3AB06LDU,1,60},	//( - , DU) Блокировка подъёма ИС2 - НИ не в положении ВУ,режим работы не проверочный
-	{&B3AB09LDU,1,61},	//( - , DU) Блокировка подъёма ИС2- АНИ не установлен
-	{&B3AB10LDU,1,62},	//( - , DU) Блокировка подъёма ИС2- есть сигнал общего сброса
-	{&B3AB11LDU,1,63},	//( - , DU) Блокировка подъёма ИС2- АЗ2 или ДС2 не на заданной координате
-	{&B3AB12LDU,1,64},	//( - , DU) Блокировка подъёма ИС2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ
-	{&B3AB14LDU,1,65},	//( - , DU) Блокировка подъёма ИС2- в режимах Калибровка, Статический мощность больше заданной
-	{&B3AB16LDU,1,66},	//( - , DU) Блокировка перемещения ИС2: выполняется программа 200 с
-	{&B3AB17LDU,1,67},	//( - , DU) Блокировка перемещения ИС2: выполняется программа 20 мин
-	{&B3AB18LDU,1,68},	//( - , DU) Блокировка подъёма ИС2- РБ-СТР ниже 80 мм
-	{&B3AB20LDU,1,69},	//( - , DU) Блокировка выстрела ИС2 - клапан ВПИС2 закрыт
-	{&A9IS11LDU,1,70},	//( - K23VDSR, DU) Приход на ВУ НИ ДС1
-	{&B9IS11LDU,1,71},	//( - K25VDSR, DU) Приход на ВУ НИ ДС2
-	{&A9AZ03LDU,1,72},	//( - , DU) Несанкционированное перемещение НИ ДС1
-	{&A9AB01LDU,1,73},	//( - , DU) Блокировка движения НИ ДС1 - Превышение времени движения
-	{&A9AB02LDU,1,74},	//( - , DU) Блокировка НИ ДС1 - Нет перемещения
-	{&B9AZ03LDU,1,75},	//( - , DU) Несанкционированное перемещение НИ ДС2
-	{&B9AB01LDU,1,76},	//( - , DU) Блокировка движения НИ ДС2 - Превышение времени движения
-	{&B9AB02LDU,1,77},	//( - , DU) Блокировка движения НИ ДС2 - Нет перемещения
-	{&R0AB01LDU,1,78},	//( - , DU) Режим проверки разрешён
-	{&A3IS22LDU,1,79},	//( - K02VDSR, DU) Приход на НУП ИС1
-	{&B3IS22LDU,1,80},	//( - K04VDSR, DU) Приход на НУП ИС2
-	{&A2IS11LDU,1,81},	//( - K11VDSR, DU) Приход на ВУ РБ1-СТР
-	{&R0VX03LDU,1,82},	//( - , DU) Готовность 2 мин
-	{&A4VS12LDU,1,83},	//( - , DU) Движение НИ1 в сторону ВУ
-	{&A4VS22LDU,1,84},	//( - , DU) Движение НИ1 в сторону НУ
-	{&B4VS12LDU,1,85},	//( - , DU) Движение НИ2 в сторону ВУ
-	{&B4VS22LDU,1,86},	//( - , DU) Движение НИ2 в сторону НУ
-	{&A1IS11LDU,1,87},	//( - K08VDSR, DU) Приход на ВУ ББ1
-	{&R5IS21LDU,1,88},	//( - K26VDSR, DU) Приход на НУ ворот отстойной зоны
-	{&R5VS22LDU,1,89},	//( - , DU) Движение ворот отстойной зоны к закрыты
-	{&R5VS12LDU,1,90},	//( - , DU) Движение ворот отстойной зоны к открыты
-	{&R3VS22LDU,1,91},	//( - , DU) Движение гомогенных дверей к закрыты
-	{&R3VS12LDU,1,92},	//( - , DU) Движение гомогенных дверей к открыты
-	{&A3AB13LDU,1,93},	//( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС
-	{&B3AB13LDU,1,94},	//( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой
-	{&TestDiagnDU,1,95},	//( - , DU) Неисправность от
-	{&B1IS11LDU,1,96},	//( - K08VDSR, DU) Приход на ВУ ББ2
-	{&A1IE01LDU,1,97},	//( - K02VDSR, DU) Исправность БУШД ББ1
-	{&A3IE01LDU,1,98},	//( - K10VDSR, DU) Исправность БУШД ИС1
-	{&A2IE01LDU,1,99},	//( - K06VDSR, DU) Исправность БУШД РБ1
-	{&A1IE02LDU,1,100},	//( - K01VDSR, DU) Исправность ИП ББ1
-	{&A3IE02LDU,1,101},	//( - K09VDSR, DU) Исправность ИП ИС1
-	{&A2IE02LDU,1,102},	//( - K05VDSR, DU) Исправность ИП РБ1
-	{&B1IE01LDU,1,103},	//( - K14VDSR, DU) Исправность БУШД ББ2
-	{&B2IE01LDU,1,104},	//( - K18VDSR, DU) Исправность БУШД РБ2
-	{&B3IE01LDU,1,105},	//( - K22VDSR, DU) Исправность БУШД ИС2
-	{&B1IE02LDU,1,106},	//( - K13VDSR, DU) Исправность ИП ББ2
-	{&B3IE02LDU,1,107},	//( - K21VDSR, DU) Исправность ИП ИС2
-	{&B2IE02LDU,1,108},	//( - K17VDSR, DU) Исправность ИП РБ2
-	{&R0EE02LDU,1,109},	//( - , DU) Питание  АКНП  отключить
-	{&A3VP42LDU,1,110},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
-	{&A3VP52LDU,1,111},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
-	{&B3VP42LDU,1,112},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
-	{&B3VP52LDU,1,113},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
-	{&B3VP82LDU,1,114},	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
-	{&A3VP82LDU,1,115},	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
-	{&A0VE01LDU,1,116},	//( - , DU) Напряжение в системы АЗ1 подано
-	{&B0VE01LDU,1,117},	//( - , DU) Напряжение в системы АЗ2 подано
-	{&A0VP01LDU,1,118},	//( - , DU) Давление в системы АЗ1 подано
-	{&B0VP01LDU,1,119},	//( - , DU) Давление в системы АЗ2 подано
-	{&A0VN01LDU,1,120},	//( - , DU) Каналы АЗ1 проверены
-	{&B0VN01LDU,1,121},	//( - , DU) Каналы АЗ2 проверены
-	{&A0VS11LDU,1,122},	//( - , DU) АЗ1 готова к работе
-	{&B0VS11LDU,1,123},	//( - , DU) АЗ2 готова к работе
-	{&R0AB15LDU,1,124},	//( - , DU) Режим проверки не разрешён: ИС1 ниже 55 мм
-	{&R0AB14LDU,1,125},	//( - , DU) Режим проверки не разрешён: ИС2 ниже 55 мм
-	{&A4DW,1,126},	//( - , DU) 
-	{&A4UP,1,127},	//( - , DU) 
-	{&R4ABL,1,128},	//( - , DU) Блокировка тележки -
-	{&A9ZAV,1,129},	//( - , DU) Завершение НИ ДС1(2)
-	{&A8ZAV,1,130},	//( - , DU) 
-	{&A2ZAV,1,131},	//( - , DU) Завершение РБ1,2
-	{&B8ZAV,1,132},	//( - , DU) 
-	{&A5ZAV,1,133},	//( - , DU) 
-	{&R2ZAV,1,134},	//( - , DU) 
-	{&A6ZAV,1,135},	//( - , DU) 
-	{&A4ZAV,1,136},	//( - , DU) 
-	{&R0AB13LDU,1,137},	//( - , DU) Ошибка в заданной координате  АЗ2
-	{&R0AB12LDU,1,138},	//( - , DU) Ошибка в заданной координате  ИС2
-	{&R0AB11LDU,1,139},	//( - , DU) Ошибка в заданной координате  ИС1
-	{&R0VX02LDU,1,140},	//( - , DU) Импульс разрешен
-	{&R0EE03LDU,1,141},	//( - , DU) ВПИС ИС
-	{&R0AB07LDU,1,142},	//( - , DU) Блокировка программы подъёма ОРР-ошибка уставки АЗ2
-	{&R0VS11LDU,1,143},	//( - , DU) РУ не готова к работе
-	{&B6AB05LDU,1,144},	//( - , DU) Блокировка открытия БЗ2- АНИ не установлен
-	{&R0AB08LDU,1,145},	//( - , DU) Блокировка кнопки ПУСК - тележка не у образцов
-	{&R0AB09LDU,1,146},	//( - , DU) Ошибка в заданной координате ББ1
-	{&R0AB10LDU,1,147},	//( - , DU) Ошибка в заданной координате ББ2
-	{&R0AB19LDU,1,148},	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
-	{&B8IS12LDU,1,149},	//( - K21VDSR, DU) Приход на ВУ2 АЗ2
-	{&B8IS21LDU,1,150},	//( - K20VDSR, DU) Приход на НУ1 АЗ2
-	{&R0VL22LDU,1,151},	//( - , DU) Конец программы 200сек
-	{&R0VL23LDU,1,152},	//( - , DU) Конец программы 20мин
-	{&A3AB19LDU,1,153},	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
-	{&B3AB19LDU,1,154},	//( - , DU) Блокировка пневматического подъема ИС2: режим статический
-	{&A3EE03LDU,1,155},	//( - , DU) ВПИС ИС1
-	{&B3EE03LDU,1,156},	//( - , DU) ВПИС ИС2
-	{&B3AB15LDU,1,157},	//( - , DU) Блокировка заполнения ресивера ИС2: работает регулятор мощности
-	{&A3IS12LDU,1,158},	//( - , DU) Приход на ВУ штока ИС1
-	{&B3IS12LDU,1,159},	//( - , DU) Приход на ВУ штока ИС2
-	{&A1ZAV,1,160},	//( - , DU) 
-	{&A3ZAV,1,161},	//( - , DU) 
-	{&B1AB19LDU,1,162},	//( - , DU) Блокировка автоматического подъёма ББ2 -превышение нейтронного потока
-	{&R0AB16LDU,1,163},	//( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого
-	{&R0AB17LDU,1,164},	//( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого
-	{&R0AB18LDU,1,165},	//( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2
-	{&A3AB15LDU,1,166},	//( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности
-	{&R0AB20LDU,1,167},	//( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности
-	{&A6AB06LDU,1,168},	//( - , DU) Блокировка открытия БЗ1 - ОРР не в исходном состоянии
-	{&R4IS11LDU,1,169},	//( - K05VDSR, DU) Приход на ВУ1 тележки
-	{&B2IS12LDU,1,170},	//( - K10VDSR, DU) Магнит РБ2 зацеплен
-	{&B1IS12LDU,1,171},	//( - K07VDSR, DU) Магнит ББ2 зацеплен
-	{&A2IS12LDU,1,172},	//( - K10VDSR, DU) Магнит РБ1 зацеплен
-	{&A1IS12LDU,1,173},	//( - K07VDSR, DU) Магнит ББ1 зацеплен
-	{&B5AB04LDU,1,174},	//( - , DU) Блокировка движения НЛ2 -Ошибка в направлении  движения
-	{&A5AB04LDU,1,175},	//( - , DU) Блокировка движения НЛ1 -Ошибка в направлении  движения
-	{&B4AB02LDU,1,176},	//( - , DU) Блокировка движения НИ2 - Нет перемещения
-	{&B4AB01LDU,1,177},	//( - , DU) Блокировка движения НИ2 - Превышение времени движения
-	{&B4AZ03LDU,1,178},	//( - , DU) Несанкционированное перемещение НИ2
-	{&A4AB02LDU,1,179},	//( - , DU) Блокировка движения НИ1 - Нет перемещения
-	{&A4AB01LDU,1,180},	//( - , DU) Блокировка движения НИ1 - Превышение времени движения
-	{&A4AZ03LDU,1,181},	//( - , DU) Несанкционированное перемещение НИ1
-	{&B4IS21LDU,1,182},	//( - K32VDSR, DU) Приход на НУ НИ2
-	{&A4IS21LDU,1,183},	//( - K15VDSR, DU) Приход на НУ НИ1
-	{&R4AB17LDU,1,184},	//( - , DU) Блокировка движения тележки вперёд - тележка на верхних механических упорах реактора
-	{&R4AB18LDU,1,185},	//( - , DU) Блокировка движения тележки назад - тележка на нижних механических упорах реактора
-	{&R4AD20LDU,1,186},	//( - K14FDSR, DU) Перемещение тележки назад
-	{&A5VS22LDU,1,187},	//( - K12VDSR, DU) Движение НЛ1 в сторону НУ
-	{&A5VS12LDU,1,188},	//( - K11VDSR, DU) Движение НЛ1 в сторону ВУ
-	{&B5VS22LDU,1,189},	//( - K15VDSR, DU) Движение НЛ2 в сторону НУ
-	{&B5VS12LDU,1,190},	//( - K14VDSR, DU) Движение НЛ2 в сторону ВУ
-	{&A5IS11LDU,1,191},	//( - K11VDSR, DU) Приход на ВУ НЛ1
-	{&A5IS21LDU,1,192},	//( - K12VDSR, DU) Приход на НУ НЛ1
-	{&B5IS11LDU,1,193},	//( - K15VDSR, DU) Приход на ВУ НЛ2
-	{&B5IS21LDU,1,194},	//( - K16VDSR, DU) Приход на НУ НЛ2
-	{&A5AZ03LDU,1,195},	//( - , DU) Несанкционированное перемещение НЛ1
-	{&A5AB01LDU,1,196},	//( - , DU) Блокировка движения НЛ1 - Превышение времени движения
-	{&A5AB02LDU,1,197},	//( - , DU) Блокировка движения НЛ1 - Нет перемещения
-	{&B5AZ03LDU,1,198},	//( - , DU) Несанкционированное перемещение НЛ2
-	{&B5AB01LDU,1,199},	//( - , DU) Блокировка движения НЛ2 - Превышение времени движения
-	{&B5AB02LDU,1,200},	//( - , DU) Блокировка движения НЛ2 - Нет перемещения
-	{&A8VS22LDU,1,201},	//( - , DU) Движение ДС2 в сторону НУ
-	{&A8AB05LDU,1,202},	//( - , DU) Блокировка движения ДС2: скорость перемещения менее заданной
-	{&A8AB07LDU,1,203},	//( - , DU) Блокировка движения ДС2: превышение заданной скорости
-	{&A8AB06LDU,1,204},	//( - , DU) Блокировка движения ДС2 нет перемещения ДС2
-	{&A8VS12LDU,1,205},	//( - , DU) Движение ДС2 в сторону ВУ
-	{&B8AB02LDU,1,206},	//( - , DU) Блокировка движения АЗ2- АНИ не установлен
-	{&B8AB14LDU,1,207},	//( - , DU) Блокировка движения АЗ2 - Самоход любого механизма
-	{&B8AB13LDU,1,208},	//( - , DU) Блокировка движения АЗ2 - ОРР не в исходном состоянии
-	{&B8AB12LDU,1,209},	//( - , DU) Блокировка движения АЗ2 - НИ не в положении ВУ
-	{&B8AB11LDU,1,210},	//( - , DU) Блокировка движения АЗ2 -нет сигнала готовности СУЗ
-	{&B8AB10LDU,1,211},	//( - , DU) Блокировка движения АЗ2 - тележка не на верхних механических упорах реактора
-	{&B8AB09LDU,1,212},	//( - , DU) Блокировка  движения  АЗ2 - АС по мощности от любого канала
-	{&B8AB08LDU,1,213},	//( - , DU) Блокировка движения АЗ2 Гомогенные двери не закрыты
-	{&B8AB04LDU,1,214},	//( - , DU) Блокировка движения АЗ2 -Ошибка в направлении  движения
-	{&B8AB01LDU,1,215},	//( - , DU) Блокировка движения АЗ2 - Превышение времени движения
-	{&A6AB07LDU,1,216},	//( - , DU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах 1,5м
-	{&A6AB08LDU,1,217},	//( - , DU) Блокировка открытия БЗ1 - ДС2 находится не на упорах 1,5м
-	{&A6AB09LDU,1,218},	//( - , DU) Блокировка открытия БЗ1 -ворота отстойной зоны не открыты
-	{&B6AB06LDU,1,219},	//( - , DU) Блокировка открытия БЗ2 - ОРР не в исходном состоянии
-	{&B6AB07LDU,1,220},	//( - , DU) Блокировка открытия БЗ2 - АЗ2 находится не на упорах 1,5м
-	{&B6AB08LDU,1,221},	//( - , DU) Блокировка открытия БЗ2 - ДС2находится не на упорах 1,5м
-	{&B6AB09LDU,1,222},	//( - , DU) Блокировка открытия БЗ2 -ворота отстойной зоны не открыты
-	{&A6AB05LDU,1,223},	//( - , DU) Блокировка открытия БЗ1 - АНИ не установлен
-	{&B8VS12LDU,1,224},	//( - , DU) Движение АЗ2 в сторону ВУ
-	{&B8AB06LDU,1,225},	//( - , DU) Блокировка движения АЗ2 нет перемещения АЗ2
-	{&B8AB07LDU,1,226},	//( - , DU) Блокировка движения АЗ2: превышение заданной скорости
-	{&B8AB05LDU,1,227},	//( - , DU) Блокировка движения АЗ2: скорость перемещения менее заданной
-	{&B8VS22LDU,1,228},	//( - , DU) Движение АЗ2 в сторону НУ
-	{&B8AZ03LDU,1,229},	//( - , DU) Несанкционированное перемещение АЗ2
-	{&B8IS11LDU,1,230},	//( - K19VDSR, DU) Приход на ВУ1 АЗ2
-	{&B6AB01LDU,1,231},	//( - , DU) Блокировка движения движения БЗ2 - Превышение времени движения
-	{&B6AZ03LDU,1,232},	//( - , DU) Несанкционированное перемещение БЗ2
-	{&A6AB02LDU,1,233},	//( - , DU) Блокировка движения БЗ1 - Нет перемещения
-	{&A6AB01LDU,1,234},	//( - , DU) Блокировка движения БЗ1 - Превышение времени движения
-	{&A6AZ03LDU,1,235},	//( - , DU) Несанкционированное перемещение БЗ1
-	{&B6VS12LDU,1,236},	//( - K20VDSR, DU) Движение створок БЗ2  к  ОТКРЫТА
-	{&B6VS22LDU,1,237},	//( - K21VDSR, DU) Движение створок БЗ2  к «ЗАКРЫТА»
-	{&A6VS12LDU,1,238},	//( - K17VDSR, DU) Движение створок БЗ1  к  ОТКРЫТА
-	{&A6VS22LDU,1,239},	//( - K18VDSR, DU) Движение створок БЗ1  к ЗАКРЫТА
-	{&B6IS21LDU,1,240},	//( - K14VDSR, DU) Приход на НУ БЗ2
-	{&B6IS11LDU,1,241},	//( - K13VDSR, DU) Приход на ВУ БЗ2
-	{&A6IS21LDU,1,242},	//( - K10VDSR, DU) Приход на НУ БЗ1
-	{&A6IS11LDU,1,243},	//( - K09VDSR, DU) Приход на ВУ БЗ1
-	{&A1IS21LDU,1,244},	//( - K09VDSR, DU) Приход на НУ ББ1
-	{&A2IS21LDU,1,245},	//( - K12VDSR, DU) Приход на НУ РБ1-СС
-	{&A3IS21LDU,1,246},	//( - K13VDSR, DU) Приход на НУ ИС1
-	{&B1IS21LDU,1,247},	//( - K09VDSR, DU) Приход на НУ ББ2
-	{&B2IS21LDU,1,248},	//( - K12VDSR, DU) Приход на НУ РБ2-СС
-	{&B3IS21LDU,1,249},	//( - K13VDSR, DU) Приход на НУ ИС2
-	{&R0ES01LDU,1,250},	//( - , DU) ОРР не в исходном состоянии
-	{&R2IS21LDU,1,251},	//( - K30VDSR, DU) Приход на НУ МДЗ2
-	{&R4AB04LDU,1,252},	//( - , DU) Блокировка движения тележки - Превышение времени движения
-	{&R4AB05LDU,1,253},	//( - , DU) Блокировка движения  тележки - Нет перемещения тележки
+	{&B2IS11LDU,1,10},	//( - K11VDSR, DU) Приход на ВУ РБ2-СТР
+	{&A2IS11LDU,1,11},	//( - K11VDSR, DU) Приход на ВУ РБ1-СТР
+	{&B3IS22LDU,1,12},	//( - K04VDSR, DU) Приход на НУП ИС2
+	{&A3IS22LDU,1,13},	//( - K02VDSR, DU) Приход на НУП ИС1
+	{&R0AB01LDU,1,14},	//( - , DU) Режим проверки разрешён
+	{&B9AB02LDU,1,15},	//( - , DU) Блокировка движения НИ ДС2 - Нет перемещения
+	{&B9AB01LDU,1,16},	//( - , DU) Блокировка движения НИ ДС2 - Превышение времени движения
+	{&B9AZ03LDU,1,17},	//( - , DU) Несанкционированное перемещение НИ ДС2
+	{&A9AB02LDU,1,18},	//( - , DU) Блокировка НИ ДС1 - Нет перемещения
+	{&B3IS31LDU,1,19},	//( - K05VDSR, DU) Клапан СПУСК ИС2 открыт (обесточен)
+	{&B2IS33LDU,1,20},	//( - K03VDSR, DU) Клапан ПОДЪЕМ РБ2 открыт (обесточен)
+	{&A3VZ15LZ2,1,21},	//( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС
+	{&A3VZ15LZ1,1,22},	//( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС
+	{&A3VZ13LZ1,1,23},	//( - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС
+	{&A3VZ13LZ2,1,24},	//( - K18VDSR, DU) Имитация срабатывания АЗ от ВУ ИС
+	{&R0AD14LZ2,1,25},	//( - K20VDSR, DU) Имитация срабатывания АЗ от  II УР
+	{&R0AD14LZ1,1,26},	//( - K20VDSR, DU) Имитация срабатывания АЗ от II УР
+	{&A1AB19LDU,1,27},	//( - , DU) Блокировка автоматического подъёма ББ1 -превышение нейтронного потока
+	{&A1VN71LZ2,1,28},	//( - K21VDSR, DU) Блокировка автоматического подъёма ББ
+	{&A1VN71LZ1,1,29},	//( - K21VDSR, DU) Блокировка автоматического подъёма ББ
+	{&A4IS10LDU,1,30},	//( - K04VDSR, DU) Клапан Подъём НИ1 открыт (обесточен)
+	{&A3IS35LDU,1,31},	//( - K01VDSR, DU) Клапан ВПИС1 открыт (обесточен)
+	{&A3IS33LDU,1,32},	//( - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС1 открыт (обесточен)
+	{&A3IS31LDU,1,33},	//( - K05VDSR, DU) Клапан СПУСК ИС1 открыт (обесточен)
+	{&A2IS33LDU,1,34},	//( - K03VDSR, DU) Клапан ПОДЪЕМ РБ1 открыт (обесточен)
+	{&R0IS01LDU,1,35},	//( - K29VDSR, DU) Признак работы с имитатором
+	{&R0IS02LDU,1,36},	//( - K30VDSR, DU) Разрешение ввода от имитатора
+	{&R0VP73LDU,1,37},	//( - , DU) ПС давления для РУ
+	{&B2VS11LDU,1,38},	//( - , DU) Движение РБ2 в сторону ВУ
+	{&B2VS21LDU,1,39},	//( - , DU) Движение РБ2 в сторону НУ
+	{&A7AS31LDU,1,40},	//( - K06VDSR, DU) Клапан Обдув АЗ1 открыт (обесточен)
+	{&B7AS31LDU,1,41},	//( - K06VDSR, DU) Клапан Обдув АЗ2 открыт (обесточен)
+	{&A7AZ03LDU,1,42},	//( - , DU) Несанкционированное включение обдува АЗ1
+	{&B7AZ03LDU,1,43},	//( - , DU) Несанкционированное включение обдува АЗ2
+	{&R0VZ71LDU,1,44},	//( - , DU) Обобщенный сигнал АЗ
+	{&R0VX01LDU,1,45},	//( - , DU) ДО ИМПУЛЬСА
+	{&B1AD31LDU,1,46},	//( - K06FDSR, DU) Клапан СБРОС ББ2 открыть (обесточить)
+	{&A1AD31LDU,1,47},	//( - K02FDSR, DU) Клапан СБРОС ББ1 открыть (обесточить)
+	{&B2AD31LDU,1,48},	//( - K08FDSR, DU) Клапан Сброс РБ2 открыть (обесточить)
+	{&A2AD31LDU,1,49},	//( - K04FDSR, DU) Клапан СБРОС РБ1 открыть (обесточить)
+	{&B3AB20LDU,1,50},	//( - , DU) Блокировка выстрела ИС2 - клапан ВПИС2 закрыт
+	{&B3AB18LDU,1,51},	//( - , DU) Блокировка подъёма ИС2- РБ-СТР ниже 80 мм
+	{&B3AB17LDU,1,52},	//( - , DU) Блокировка перемещения ИС2: выполняется программа 20 мин
+	{&B3AB16LDU,1,53},	//( - , DU) Блокировка перемещения ИС2: выполняется программа 200 с
+	{&B3AB14LDU,1,54},	//( - , DU) Блокировка подъёма ИС2- в режимах Калибровка, Статический мощность больше заданной
+	{&B3AB12LDU,1,55},	//( - , DU) Блокировка подъёма ИС2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ
+	{&B3AB11LDU,1,56},	//( - , DU) Блокировка подъёма ИС2- АЗ2 или ДС2 не на заданной координате
+	{&B3AB10LDU,1,57},	//( - , DU) Блокировка подъёма ИС2- есть сигнал общего сброса
+	{&B3AB09LDU,1,58},	//( - , DU) Блокировка подъёма ИС2- АНИ не установлен
+	{&B3AB06LDU,1,59},	//( - , DU) Блокировка подъёма ИС2 - НИ не в положении ВУ,режим работы не проверочный
+	{&B3AB05LDU,1,60},	//( - , DU) Блокировка подъёма ИС2 -нет сигнала готовности СУЗ
+	{&B3AB08LDU,1,61},	//( - , DU) Блокировка подъёма ИС2 - реактор не на рабочем месте
+	{&B3AB07LDU,1,62},	//( - , DU) Блокировка подъёма ИС2 Гомогенные двери не закрыты
+	{&B3AZ03LDU,1,63},	//( - , DU) Сброс РБ: Несанкционированное перемещение ИС2
+	{&B3VS22LDU,1,64},	//( - , DU) Движение ИС2 в сторону НУ
+	{&B3AB01LDU,1,65},	//( - , DU) Блокировка движения ИС2: скорость перемещения менее заданной
+	{&B3AB02LDU,1,66},	//( - , DU) Блокировка движения ИС2: превышение заданной скорости
+	{&B3AB04LDU,1,67},	//( - , DU) Блокировка движения ИС2 нет перемещения  ИС1
+	{&B3VS12LDU,1,68},	//( - , DU) Движение ИС2 в сторону ВУ
+	{&A3AB20LDU,1,69},	//( - , DU) Блокировка выстрела ИС1 - клапан ВПИС1 закрыт
+	{&A9AB01LDU,1,70},	//( - , DU) Блокировка движения НИ ДС1 - Превышение времени движения
+	{&A9AZ03LDU,1,71},	//( - , DU) Несанкционированное перемещение НИ ДС1
+	{&B9IS11LDU,1,72},	//( - K25VDSR, DU) Приход на ВУ НИ ДС2
+	{&A9IS11LDU,1,73},	//( - K23VDSR, DU) Приход на ВУ НИ ДС1
+	{&B4VS22LDU,1,74},	//( - , DU) Движение НИ2 в сторону НУ
+	{&B4VS12LDU,1,75},	//( - , DU) Движение НИ2 в сторону ВУ
+	{&A4VS22LDU,1,76},	//( - , DU) Движение НИ1 в сторону НУ
+	{&A4VS12LDU,1,77},	//( - , DU) Движение НИ1 в сторону ВУ
+	{&B3IS11LDU,1,78},	//( - K03VDSR, DU) Приход на ВУ ИС2
+	{&R0AD14LDU,1,79},	//( - , DU) Имитация срабатывания верхней АС II УР
+	{&R0AB04LDU,1,80},	//( - , DU) Нарушение времени срабатывания верхней АС II УР
+	{&R0AB06LDU,1,81},	//( - , DU) Нарушение времени задержки от ВУ РБ
+	{&R0AB02LDU,1,82},	//( - , DU) Нарушение времени задержки ИНИ
+	{&R0VX03LDU,1,83},	//( - , DU) Готовность 2 мин
+	{&A1IS11LDU,1,84},	//( - K08VDSR, DU) Приход на ВУ ББ1
+	{&B1IS11LDU,1,85},	//( - K08VDSR, DU) Приход на ВУ ББ2
+	{&TestDiagnDU,1,86},	//( - , DU) Неисправность от
+	{&B3AB13LDU,1,87},	//( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой
+	{&A3AB13LDU,1,88},	//( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС
+	{&R3VS12LDU,1,89},	//( - , DU) Движение гомогенных дверей к открыты
+	{&R3VS22LDU,1,90},	//( - , DU) Движение гомогенных дверей к закрыты
+	{&R5VS12LDU,1,91},	//( - , DU) Движение ворот отстойной зоны к открыты
+	{&R5VS22LDU,1,92},	//( - , DU) Движение ворот отстойной зоны к закрыты
+	{&R5IS21LDU,1,93},	//( - K26VDSR, DU) Приход на НУ ворот отстойной зоны
+	{&B3AB15LDU,1,94},	//( - , DU) Блокировка заполнения ресивера ИС2: работает регулятор мощности
+	{&B3EE03LDU,1,95},	//( - , DU) ВПИС ИС2
+	{&A3EE03LDU,1,96},	//( - , DU) ВПИС ИС1
+	{&B3AB19LDU,1,97},	//( - , DU) Блокировка пневматического подъема ИС2: режим статический
+	{&A3AB19LDU,1,98},	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
+	{&R0VL23LDU,1,99},	//( - , DU) Конец программы 20мин
+	{&R0VL22LDU,1,100},	//( - , DU) Конец программы 200сек
+	{&R0EE02LDU,1,101},	//( - , DU) Питание  АКНП  отключить
+	{&B0VS11LDU,1,102},	//( - , DU) АЗ2 готова к работе
+	{&A0VS11LDU,1,103},	//( - , DU) АЗ1 готова к работе
+	{&B0VN01LDU,1,104},	//( - , DU) Каналы АЗ2 проверены
+	{&A0VN01LDU,1,105},	//( - , DU) Каналы АЗ1 проверены
+	{&B0VP01LDU,1,106},	//( - , DU) Давление в системы АЗ2 подано
+	{&A0VP01LDU,1,107},	//( - , DU) Давление в системы АЗ1 подано
+	{&B0VE01LDU,1,108},	//( - , DU) Напряжение в системы АЗ2 подано
+	{&A0VE01LDU,1,109},	//( - , DU) Напряжение в системы АЗ1 подано
+	{&A3VP82LDU,1,110},	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
+	{&B3VP82LDU,1,111},	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
+	{&B3VP52LDU,1,112},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
+	{&A3VP42LDU,1,113},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
+	{&A3VP52LDU,1,114},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
+	{&B3VP42LDU,1,115},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
+	{&A5ZAV,1,116},	//( - , DU) 
+	{&R2ZAV,1,117},	//( - , DU) 
+	{&A6ZAV,1,118},	//( - , DU) 
+	{&A4ZAV,1,119},	//( - , DU) 
+	{&R0AB13LDU,1,120},	//( - , DU) Ошибка в заданной координате  АЗ2
+	{&R0AB12LDU,1,121},	//( - , DU) Ошибка в заданной координате  ИС2
+	{&R0AB11LDU,1,122},	//( - , DU) Ошибка в заданной координате  ИС1
+	{&R0AB10LDU,1,123},	//( - , DU) Ошибка в заданной координате ББ2
+	{&R0AB09LDU,1,124},	//( - , DU) Ошибка в заданной координате ББ1
+	{&R0AB08LDU,1,125},	//( - , DU) Блокировка кнопки ПУСК - тележка не у образцов
+	{&B6AB05LDU,1,126},	//( - , DU) Блокировка открытия БЗ2- АНИ не установлен
+	{&B3IS33LDU,1,127},	//( - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС2 открыт (обесточен)
+	{&B3IS35LDU,1,128},	//( - K01VDSR, DU) Клапан ВПИС2 открыт (обесточен)
+	{&B4IS10LDU,1,129},	//( - K04VDSR, DU) Клапан ПОДЪЕМ НИ2 открыт (обесточен)
+	{&R3IS11LDU,1,130},	//( - K17VDSR, DU) Приход на ВУ гомогенных дверей
+	{&R3IS21LDU,1,131},	//( - K18VDSR, DU) Приход на НУ гомогенных дверей
+	{&R0AB03LDU,1,132},	//( - , DU) Нарушение времени срабатывания АЗ от ВУ ИС
+	{&R0AB05LDU,1,133},	//( - , DU) Нарушение времени срабатывания АЗ от НУП ИС
+	{&A2AB15LDU,1,134},	//( - , DU) Блокировка на подъем РБ1 пневматикой:  после  сброса РБ прошло менее 3,5 мин
+	{&B2AB15LDU,1,135},	//( - , DU) Блокировка на подъем РБ2 пневматикой:  после  сброса РБ прошло менее 3,5 мин
+	{&R0VX02LDU,1,136},	//( - , DU) Импульс разрешен
+	{&R0EE03LDU,1,137},	//( - , DU) ВПИС ИС
+	{&R0AB07LDU,1,138},	//( - , DU) Блокировка программы подъёма ОРР-ошибка уставки АЗ2
+	{&R0VS11LDU,1,139},	//( - , DU) РУ не готова к работе
+	{&B8IS21LDU,1,140},	//( - K20VDSR, DU) Приход на НУ1 АЗ2
+	{&B8IS12LDU,1,141},	//( - K21VDSR, DU) Приход на ВУ2 АЗ2
+	{&R0AB19LDU,1,142},	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
+	{&R0AB20LDU,1,143},	//( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности
+	{&A3AB15LDU,1,144},	//( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности
+	{&B8ZAV,1,145},	//( - , DU) 
+	{&A2ZAV,1,146},	//( - , DU) Завершение РБ1,2
+	{&A8ZAV,1,147},	//( - , DU) 
+	{&A9ZAV,1,148},	//( - , DU) Завершение НИ ДС1(2)
+	{&R4ABL,1,149},	//( - , DU) Блокировка тележки -
+	{&A4UP,1,150},	//( - , DU) 
+	{&A4DW,1,151},	//( - , DU) 
+	{&R0AB14LDU,1,152},	//( - , DU) Режим проверки не разрешён: ИС2 ниже 55 мм
+	{&R0AB15LDU,1,153},	//( - , DU) Режим проверки не разрешён: ИС1 ниже 55 мм
+	{&A3IS12LDU,1,154},	//( - , DU) Приход на ВУ штока ИС1
+	{&B3IS12LDU,1,155},	//( - , DU) Приход на ВУ штока ИС2
+	{&A1ZAV,1,156},	//( - , DU) 
+	{&A3ZAV,1,157},	//( - , DU) 
+	{&B1AB19LDU,1,158},	//( - , DU) Блокировка автоматического подъёма ББ2 -превышение нейтронного потока
+	{&R0AB16LDU,1,159},	//( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого
+	{&R0AB17LDU,1,160},	//( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого
+	{&R0AB18LDU,1,161},	//( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2
+	{&B1IS12LDU,1,162},	//( - K07VDSR, DU) Магнит ББ2 зацеплен
+	{&A2IS12LDU,1,163},	//( - K10VDSR, DU) Магнит РБ1 зацеплен
+	{&A1IS12LDU,1,164},	//( - K07VDSR, DU) Магнит ББ1 зацеплен
+	{&B5AB04LDU,1,165},	//( - , DU) Блокировка движения НЛ2 -Ошибка в направлении  движения
+	{&A5AB04LDU,1,166},	//( - , DU) Блокировка движения НЛ1 -Ошибка в направлении  движения
+	{&B4AB02LDU,1,167},	//( - , DU) Блокировка движения НИ2 - Нет перемещения
+	{&B4AB01LDU,1,168},	//( - , DU) Блокировка движения НИ2 - Превышение времени движения
+	{&B4AZ03LDU,1,169},	//( - , DU) Несанкционированное перемещение НИ2
+	{&A4AB02LDU,1,170},	//( - , DU) Блокировка движения НИ1 - Нет перемещения
+	{&A4AB01LDU,1,171},	//( - , DU) Блокировка движения НИ1 - Превышение времени движения
+	{&A4AZ03LDU,1,172},	//( - , DU) Несанкционированное перемещение НИ1
+	{&B4IS21LDU,1,173},	//( - K32VDSR, DU) Приход на НУ НИ2
+	{&A4IS21LDU,1,174},	//( - K15VDSR, DU) Приход на НУ НИ1
+	{&B5AB02LDU,1,175},	//( - , DU) Блокировка движения НЛ2 - Нет перемещения
+	{&B5AB01LDU,1,176},	//( - , DU) Блокировка движения НЛ2 - Превышение времени движения
+	{&B5AZ03LDU,1,177},	//( - , DU) Несанкционированное перемещение НЛ2
+	{&A5AB02LDU,1,178},	//( - , DU) Блокировка движения НЛ1 - Нет перемещения
+	{&A5AB01LDU,1,179},	//( - , DU) Блокировка движения НЛ1 - Превышение времени движения
+	{&A5AZ03LDU,1,180},	//( - , DU) Несанкционированное перемещение НЛ1
+	{&B5IS21LDU,1,181},	//( - K16VDSR, DU) Приход на НУ НЛ2
+	{&B5IS11LDU,1,182},	//( - K15VDSR, DU) Приход на ВУ НЛ2
+	{&A5IS21LDU,1,183},	//( - K12VDSR, DU) Приход на НУ НЛ1
+	{&A5IS11LDU,1,184},	//( - K11VDSR, DU) Приход на ВУ НЛ1
+	{&B5VS12LDU,1,185},	//( - K14VDSR, DU) Движение НЛ2 в сторону ВУ
+	{&B5VS22LDU,1,186},	//( - K15VDSR, DU) Движение НЛ2 в сторону НУ
+	{&A5VS12LDU,1,187},	//( - K11VDSR, DU) Движение НЛ1 в сторону ВУ
+	{&A5VS22LDU,1,188},	//( - K12VDSR, DU) Движение НЛ1 в сторону НУ
+	{&R4AD20LDU,1,189},	//( - K14FDSR, DU) Перемещение тележки назад
+	{&R4AB18LDU,1,190},	//( - , DU) Блокировка движения тележки назад - тележка на нижних механических упорах реактора
+	{&R4AB17LDU,1,191},	//( - , DU) Блокировка движения тележки вперёд - тележка на верхних механических упорах реактора
+	{&R4AB16LDU,1,192},	//( - , DU) Блокировка движения тележки - Гомогенные двери не в положении Закрыты
+	{&R5IS11LDU,1,193},	//( - K25VDSR, DU) Приход на ВУ ворот отстойной зоны
+	{&A8AB06LDU,1,194},	//( - , DU) Блокировка движения ДС2 нет перемещения ДС2
+	{&A8VS12LDU,1,195},	//( - , DU) Движение ДС2 в сторону ВУ
+	{&B8AB02LDU,1,196},	//( - , DU) Блокировка движения АЗ2- АНИ не установлен
+	{&B8AB14LDU,1,197},	//( - , DU) Блокировка движения АЗ2 - Самоход любого механизма
+	{&B8AB13LDU,1,198},	//( - , DU) Блокировка движения АЗ2 - ОРР не в исходном состоянии
+	{&B8AB12LDU,1,199},	//( - , DU) Блокировка движения АЗ2 - НИ не в положении ВУ
+	{&B8AB11LDU,1,200},	//( - , DU) Блокировка движения АЗ2 -нет сигнала готовности СУЗ
+	{&B8AB10LDU,1,201},	//( - , DU) Блокировка движения АЗ2 - тележка не на верхних механических упорах реактора
+	{&B8AB09LDU,1,202},	//( - , DU) Блокировка  движения  АЗ2 - АС по мощности от любого канала
+	{&B8AB08LDU,1,203},	//( - , DU) Блокировка движения АЗ2 Гомогенные двери не закрыты
+	{&B8AB04LDU,1,204},	//( - , DU) Блокировка движения АЗ2 -Ошибка в направлении  движения
+	{&B8AB01LDU,1,205},	//( - , DU) Блокировка движения АЗ2 - Превышение времени движения
+	{&B8IS11LDU,1,206},	//( - K19VDSR, DU) Приход на ВУ1 АЗ2
+	{&B8AZ03LDU,1,207},	//( - , DU) Несанкционированное перемещение АЗ2
+	{&B2IS12LDU,1,208},	//( - K10VDSR, DU) Магнит РБ2 зацеплен
+	{&R4IS11LDU,1,209},	//( - K05VDSR, DU) Приход на ВУ1 тележки
+	{&A6AB06LDU,1,210},	//( - , DU) Блокировка открытия БЗ1 - ОРР не в исходном состоянии
+	{&A6AB07LDU,1,211},	//( - , DU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах 1,5м
+	{&A6AB08LDU,1,212},	//( - , DU) Блокировка открытия БЗ1 - ДС2 находится не на упорах 1,5м
+	{&A6AB09LDU,1,213},	//( - , DU) Блокировка открытия БЗ1 -ворота отстойной зоны не открыты
+	{&B6AB06LDU,1,214},	//( - , DU) Блокировка открытия БЗ2 - ОРР не в исходном состоянии
+	{&B6AB07LDU,1,215},	//( - , DU) Блокировка открытия БЗ2 - АЗ2 находится не на упорах 1,5м
+	{&B6AB08LDU,1,216},	//( - , DU) Блокировка открытия БЗ2 - ДС2находится не на упорах 1,5м
+	{&B6AB09LDU,1,217},	//( - , DU) Блокировка открытия БЗ2 -ворота отстойной зоны не открыты
+	{&A6AB05LDU,1,218},	//( - , DU) Блокировка открытия БЗ1 - АНИ не установлен
+	{&B8VS12LDU,1,219},	//( - , DU) Движение АЗ2 в сторону ВУ
+	{&B8AB06LDU,1,220},	//( - , DU) Блокировка движения АЗ2 нет перемещения АЗ2
+	{&B8AB07LDU,1,221},	//( - , DU) Блокировка движения АЗ2: превышение заданной скорости
+	{&B8AB05LDU,1,222},	//( - , DU) Блокировка движения АЗ2: скорость перемещения менее заданной
+	{&B8VS22LDU,1,223},	//( - , DU) Движение АЗ2 в сторону НУ
+	{&B6AZ03LDU,1,224},	//( - , DU) Несанкционированное перемещение БЗ2
+	{&A6AB02LDU,1,225},	//( - , DU) Блокировка движения БЗ1 - Нет перемещения
+	{&A6AB01LDU,1,226},	//( - , DU) Блокировка движения БЗ1 - Превышение времени движения
+	{&A6AZ03LDU,1,227},	//( - , DU) Несанкционированное перемещение БЗ1
+	{&B6VS12LDU,1,228},	//( - K20VDSR, DU) Движение створок БЗ2  к  ОТКРЫТА
+	{&B6VS22LDU,1,229},	//( - K21VDSR, DU) Движение створок БЗ2  к «ЗАКРЫТА»
+	{&A6VS12LDU,1,230},	//( - K17VDSR, DU) Движение створок БЗ1  к  ОТКРЫТА
+	{&A6VS22LDU,1,231},	//( - K18VDSR, DU) Движение створок БЗ1  к ЗАКРЫТА
+	{&B6IS21LDU,1,232},	//( - K14VDSR, DU) Приход на НУ БЗ2
+	{&B6IS11LDU,1,233},	//( - K13VDSR, DU) Приход на ВУ БЗ2
+	{&A6IS21LDU,1,234},	//( - K10VDSR, DU) Приход на НУ БЗ1
+	{&A6IS11LDU,1,235},	//( - K09VDSR, DU) Приход на ВУ БЗ1
+	{&R0ES01LDU,1,236},	//( - , DU) ОРР не в исходном состоянии
+	{&B3IS21LDU,1,237},	//( - K13VDSR, DU) Приход на НУ ИС2
+	{&B2IS21LDU,1,238},	//( - K12VDSR, DU) Приход на НУ РБ2-СС
+	{&B1IS21LDU,1,239},	//( - K09VDSR, DU) Приход на НУ ББ2
+	{&A3IS21LDU,1,240},	//( - K13VDSR, DU) Приход на НУ ИС1
+	{&A2IS21LDU,1,241},	//( - K12VDSR, DU) Приход на НУ РБ1-СС
+	{&A1IS21LDU,1,242},	//( - K09VDSR, DU) Приход на НУ ББ1
+	{&R4AB15LDU,1,243},	//( - , DU) Блокировка движения тележки - ворота в пом. 0041 не в положении Открыты
+	{&R4AB14LDU,1,244},	//( - , DU) Блокировка движения тележки - Кран - балка не в безопасном положении
+	{&R4AB13LDU,1,245},	//( - , DU) Блокировка тележки - НЛ не в положении ВУ
+	{&B4IS11LDU,1,246},	//( - K31VDSR, DU) Приход на ВУ НИ2
+	{&A4IS11LDU,1,247},	//( - K14VDSR, DU) Приход на ВУ НИ1
+	{&R4AB12LDU,1,248},	//( - , DU) Блокировка движения тележки - НИ не в положении ВУ
+	{&R4AB11LDU,1,249},	//( - , DU) Блокировка движения тележки - МДЗ1,2 не находятся на НУ
+	{&R4AB10LDU,1,250},	//( - , DU) Блокировка тележки - не открыта биологическая защита
+	{&R4AB09LDU,1,251},	//( - , DU) Блокировка движения тележки - АЗ по мощности от любого канала  БАЗ
+	{&R4AB08LDU,1,252},	//( - , DU) Блокировка движения тележки - А32 или ДС2 не на НУ(координата 1500 мм)
+	{&R4AB07LDU,1,253},	//( - , DU) Блокировка движения тележки - ОРР не в исходном состоянии
 	{&R4AB06LDU,1,254},	//( - , DU) Блокировка движения тележки - Ошибка в  направлении перемещения
-	{&R4AB07LDU,1,255},	//( - , DU) Блокировка движения тележки - ОРР не в исходном состоянии
-	{&R4AB08LDU,1,256},	//( - , DU) Блокировка движения тележки - А32 или ДС2 не на НУ(координата 1500 мм)
-	{&R4AB09LDU,1,257},	//( - , DU) Блокировка движения тележки - АЗ по мощности от любого канала  БАЗ
-	{&R4AB10LDU,1,258},	//( - , DU) Блокировка тележки - не открыта биологическая защита
-	{&R4AB11LDU,1,259},	//( - , DU) Блокировка движения тележки - МДЗ1,2 не находятся на НУ
-	{&R4AB12LDU,1,260},	//( - , DU) Блокировка движения тележки - НИ не в положении ВУ
-	{&A4IS11LDU,1,261},	//( - K14VDSR, DU) Приход на ВУ НИ1
-	{&B4IS11LDU,1,262},	//( - K31VDSR, DU) Приход на ВУ НИ2
-	{&R4AB13LDU,1,263},	//( - , DU) Блокировка тележки - НЛ не в положении ВУ
-	{&R4AB14LDU,1,264},	//( - , DU) Блокировка движения тележки - Кран - балка не в безопасном положении
-	{&R4AB15LDU,1,265},	//( - , DU) Блокировка движения тележки - ворота в пом. 0041 не в положении Открыты
-	{&R5IS11LDU,1,266},	//( - K25VDSR, DU) Приход на ВУ ворот отстойной зоны
-	{&R4AB16LDU,1,267},	//( - , DU) Блокировка движения тележки - Гомогенные двери не в положении Закрыты
-	{&B6AB02LDU,1,268},	//( - , DU) Блокировка движения БЗ2 - Нет перемещения
-	{&A6AB04LDU,1,269},	//( - , DU) Блокировка движения БЗ1 -Ошибка в направлении  движения
-	{&B6AB04LDU,1,270},	//( - , DU) Блокировка движения БЗ2 -Ошибка в направлении  движения
-	{&R4AB01LDU,1,271},	//( - , DU) Блокировка движения тележки - АНИ не установлен
-	{&R8IS11LDU,1,272},	//( - K14VDSR, DU) Аварийный НИ установлен
-	{&R4AB02LDU,1,273},	//( - , DU) Блокировка движения тележки - Потеря связи с БАЗ, ОПУ
-	{&R4IS21LDU,1,274},	//( - K07VDSR, DU) Приход на НУ1 тележки
-	{&R4IS22LDU,1,275},	//( - K08VDSR, DU) Приход на НУ2 тележки
-	{&R4IS12LDU,1,276},	//( - K06VDSR, DU) Приход на ВУ2 тележки
-	{&R4VS22LDU,1,277},	//( - K03VDSR, DU) Движение реактора к У ЗАЩИТЫ
-	{&R4VS12LDU,1,278},	//( - K02VDSR, DU) Движение реактора  к У ОБРАЗЦОВ
-	{&R4AZ03LDU,1,279},	//( - , DU) Несанкционированное перемещение тележки
-	{&R4AB03LDU,1,280},	//( - , DU) Блокировка движения тележки - Самоход любого механизма
-	{&R1IS21LDU,1,281},	//( - K28VDSR, DU) Приход на НУ МДЗ1
-	{&B1AB09LDU,1,282},	//( - , DU) Блокировка подъёма ББ2- АНИ не установлен
-	{&B1AB06LDU,1,283},	//( - , DU) Блокировка подъёма ББ2 - НИ не в положении ВУ,режим работы не проверочный
-	{&B1AB05LDU,1,284},	//( - , DU) Блокировка подъёма ББ2 -нет сигнала готовности СУЗ
-	{&B1AB08LDU,1,285},	//( - , DU) Блокировка подъёма ББ2 - реактор не на рабочем месте
-	{&B1AB07LDU,1,286},	//( - , DU) Блокировка подъёма ББ2 Гомогенные двери не закрыты
-	{&B1AZ03LDU,1,287},	//( - , DU) Сброс ББ: Несанкционированное перемещение ББ2
-	{&B1VS22LDU,1,288},	//( - , DU) Движение ББ2 в сторону НУ
-	{&B1AB01LDU,1,289},	//( - , DU) Блокировка движения ББ2: скорость перемещения менее заданной
-	{&B1AB02LDU,1,290},	//( - , DU) Блокировка движения ББ2: превышение заданной скорости
-	{&B1AB04LDU,1,291},	//( - , DU) Блокировка движения ББ2 нет перемещения  ББ2
-	{&B1VS12LDU,1,292},	//( - , DU) Движение ББ2 в сторону ВУ
-	{&A1AB18LDU,1,293},	//( - , DU) Блокировка подъёма ББ1- РБ-СТР ниже 80 мм
-	{&A1AB17LDU,1,294},	//( - , DU) Блокировка перемещения ББ1: выполняется программа 20 мин
-	{&A1AB16LDU,1,295},	//( - , DU) Блокировка перемещения ББ1: выполняется программа 200 с
+	{&R4AB05LDU,1,255},	//( - , DU) Блокировка движения  тележки - Нет перемещения тележки
+	{&R4AB04LDU,1,256},	//( - , DU) Блокировка движения тележки - Превышение времени движения
+	{&R2IS21LDU,1,257},	//( - K30VDSR, DU) Приход на НУ МДЗ2
+	{&R1IS21LDU,1,258},	//( - K28VDSR, DU) Приход на НУ МДЗ1
+	{&B6AB01LDU,1,259},	//( - , DU) Блокировка движения движения БЗ2 - Превышение времени движения
+	{&B6AB02LDU,1,260},	//( - , DU) Блокировка движения БЗ2 - Нет перемещения
+	{&A6AB04LDU,1,261},	//( - , DU) Блокировка движения БЗ1 -Ошибка в направлении  движения
+	{&B6AB04LDU,1,262},	//( - , DU) Блокировка движения БЗ2 -Ошибка в направлении  движения
+	{&R4AB01LDU,1,263},	//( - , DU) Блокировка движения тележки - АНИ не установлен
+	{&R8IS11LDU,1,264},	//( - K14VDSR, DU) Аварийный НИ установлен
+	{&R4AB02LDU,1,265},	//( - , DU) Блокировка движения тележки - Потеря связи с БАЗ, ОПУ
+	{&R4IS21LDU,1,266},	//( - K07VDSR, DU) Приход на НУ1 тележки
+	{&R4IS22LDU,1,267},	//( - K08VDSR, DU) Приход на НУ2 тележки
+	{&R4IS12LDU,1,268},	//( - K06VDSR, DU) Приход на ВУ2 тележки
+	{&R4VS22LDU,1,269},	//( - K03VDSR, DU) Движение реактора к У ЗАЩИТЫ
+	{&R4VS12LDU,1,270},	//( - K02VDSR, DU) Движение реактора  к У ОБРАЗЦОВ
+	{&R4AZ03LDU,1,271},	//( - , DU) Несанкционированное перемещение тележки
+	{&R4AB03LDU,1,272},	//( - , DU) Блокировка движения тележки - Самоход любого механизма
+	{&B1AZ03LDU,1,273},	//( - , DU) Сброс ББ: Несанкционированное перемещение ББ2
+	{&B1VS22LDU,1,274},	//( - , DU) Движение ББ2 в сторону НУ
+	{&B1AB01LDU,1,275},	//( - , DU) Блокировка движения ББ2: скорость перемещения менее заданной
+	{&B1AB02LDU,1,276},	//( - , DU) Блокировка движения ББ2: превышение заданной скорости
+	{&B1AB04LDU,1,277},	//( - , DU) Блокировка движения ББ2 нет перемещения  ББ2
+	{&B1VS12LDU,1,278},	//( - , DU) Движение ББ2 в сторону ВУ
+	{&A1AB18LDU,1,279},	//( - , DU) Блокировка подъёма ББ1- РБ-СТР ниже 80 мм
+	{&A1AB17LDU,1,280},	//( - , DU) Блокировка перемещения ББ1: выполняется программа 20 мин
+	{&A1AB16LDU,1,281},	//( - , DU) Блокировка перемещения ББ1: выполняется программа 200 с
+	{&A1AB14LDU,1,282},	//( - , DU) Блокировка подъёма ББ1- в режимах Калибровка, Статический мощность больше заданной
+	{&A1AB13LDU,1,283},	//( - , DU) Блокировка подъёма ББ1- давление в пневмосистеме сброса ББ1 ниже АС
+	{&A1AB12LDU,1,284},	//( - , DU) Блокировка подъёма ББ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
+	{&A1AB11LDU,1,285},	//( - , DU) Блокировка подъёма ББ1- АЗ2 или ДС2 не на заданной координате
+	{&A1AB10LDU,1,286},	//( - , DU) Блокировка подъёма ББ1- есть сигнал общего сброса
+	{&A1AB09LDU,1,287},	//( - , DU) Блокировка подъёма ББ1- АНИ не установлен
+	{&A1AB06LDU,1,288},	//( - , DU) Блокировка подъёма ББ1 - НИ не в положении ВУ,режим работы не проверочный
+	{&A1AB05LDU,1,289},	//( - , DU) Блокировка подъёма ББ1 -нет сигнала готовности СУЗ
+	{&A1AB08LDU,1,290},	//( - , DU) Блокировка подъёма ББ1 - реактор не на рабочем месте
+	{&A1AB07LDU,1,291},	//( - , DU) Блокировка подъёма ББ1 Гомогенные двери не закрыты
+	{&A1AZ03LDU,1,292},	//( - , DU) Сброс ББ: Несанкционированное перемещение ББ1
+	{&A1VS22LDU,1,293},	//( - , DU) Движение ББ1 в сторону НУ
+	{&A1AB01LDU,1,294},	//( - , DU) Блокировка движения ББ1: скорость перемещения менее заданной
+	{&A1AB02LDU,1,295},	//( - , DU) Блокировка движения ББ1: превышение заданной скорости
 	{&A1AB04LDU,1,296},	//( - , DU) Блокировка движения ББ1 нет перемещения  ББ1
-	{&A1AB02LDU,1,297},	//( - , DU) Блокировка движения ББ1: превышение заданной скорости
-	{&A1AB01LDU,1,298},	//( - , DU) Блокировка движения ББ1: скорость перемещения менее заданной
-	{&A1VS22LDU,1,299},	//( - , DU) Движение ББ1 в сторону НУ
-	{&A1AZ03LDU,1,300},	//( - , DU) Сброс ББ: Несанкционированное перемещение ББ1
-	{&A1AB07LDU,1,301},	//( - , DU) Блокировка подъёма ББ1 Гомогенные двери не закрыты
-	{&A1AB08LDU,1,302},	//( - , DU) Блокировка подъёма ББ1 - реактор не на рабочем месте
-	{&A1AB05LDU,1,303},	//( - , DU) Блокировка подъёма ББ1 -нет сигнала готовности СУЗ
-	{&A1AB06LDU,1,304},	//( - , DU) Блокировка подъёма ББ1 - НИ не в положении ВУ,режим работы не проверочный
-	{&A1AB09LDU,1,305},	//( - , DU) Блокировка подъёма ББ1- АНИ не установлен
-	{&A1AB10LDU,1,306},	//( - , DU) Блокировка подъёма ББ1- есть сигнал общего сброса
-	{&A1AB11LDU,1,307},	//( - , DU) Блокировка подъёма ББ1- АЗ2 или ДС2 не на заданной координате
-	{&A1AB12LDU,1,308},	//( - , DU) Блокировка подъёма ББ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
-	{&A1AB13LDU,1,309},	//( - , DU) Блокировка подъёма ББ1- давление в пневмосистеме сброса ББ1 ниже АС
-	{&A1AB14LDU,1,310},	//( - , DU) Блокировка подъёма ББ1- в режимах Калибровка, Статический мощность больше заданной
+	{&A1VS12LDU,1,297},	//( - , DU) Движение ББ1 в сторону ВУ
+	{&R2IS11LDU,1,298},	//( - K29VDSR, DU) Приход на ВУ МДЗ2
+	{&R1VS12LDU,1,299},	//( - K05VDSR, DU) Движение МДЗ1 в сторону ВУ
+	{&R2VS12LDU,1,300},	//( - K08VDSR, DU) Движение МДЗ2 в сторону ВУ
+	{&A3AB18LDU,1,301},	//( - , DU) Блокировка подъёма ИС1- РБ-СТР ниже 80 мм
+	{&A3AB17LDU,1,302},	//( - , DU) Блокировка перемещения ИС1: выполняется программа 20 мин
+	{&A3AB16LDU,1,303},	//( - , DU) Блокировка перемещения ИС1: выполняется программа 200 с
+	{&A3AB14LDU,1,304},	//( - , DU) Блокировка подъёма ИС1- в режимах Калибровка, Статический мощность больше заданной
+	{&A3AB12LDU,1,305},	//( - , DU) Блокировка подъёма ИС1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
+	{&A3AB11LDU,1,306},	//( - , DU) Блокировка подъёма ИС1- АЗ2 или ДС2 не на заданной координате
+	{&A3AB10LDU,1,307},	//( - , DU) Блокировка подъёма ИС1- есть сигнал общего сброса
+	{&A3AB09LDU,1,308},	//( - , DU) Блокировка подъёма ИС1- АНИ не установлен
+	{&A3AB06LDU,1,309},	//( - , DU) Блокировка подъёма ИС1 - НИ не в положении ВУ,режим работы не проверочный
+	{&A3AB05LDU,1,310},	//( - , DU) Блокировка подъёма ИС1 -нет сигнала готовности СУЗ
 	{&A3AB08LDU,1,311},	//( - , DU) Блокировка подъёма ИС1 - реактор не на рабочем месте
-	{&A3AB05LDU,1,312},	//( - , DU) Блокировка подъёма ИС1 -нет сигнала готовности СУЗ
-	{&A3AB06LDU,1,313},	//( - , DU) Блокировка подъёма ИС1 - НИ не в положении ВУ,режим работы не проверочный
-	{&A3AB09LDU,1,314},	//( - , DU) Блокировка подъёма ИС1- АНИ не установлен
-	{&A3AB10LDU,1,315},	//( - , DU) Блокировка подъёма ИС1- есть сигнал общего сброса
-	{&A3AB11LDU,1,316},	//( - , DU) Блокировка подъёма ИС1- АЗ2 или ДС2 не на заданной координате
-	{&A3AB12LDU,1,317},	//( - , DU) Блокировка подъёма ИС1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
-	{&A3AB14LDU,1,318},	//( - , DU) Блокировка подъёма ИС1- в режимах Калибровка, Статический мощность больше заданной
-	{&A3AB16LDU,1,319},	//( - , DU) Блокировка перемещения ИС1: выполняется программа 200 с
-	{&A3AB17LDU,1,320},	//( - , DU) Блокировка перемещения ИС1: выполняется программа 20 мин
-	{&A3AB18LDU,1,321},	//( - , DU) Блокировка подъёма ИС1- РБ-СТР ниже 80 мм
-	{&A3AB20LDU,1,322},	//( - , DU) Блокировка выстрела ИС1 - клапан ВПИС1 закрыт
-	{&B3VS12LDU,1,323},	//( - , DU) Движение ИС2 в сторону ВУ
-	{&B3AB04LDU,1,324},	//( - , DU) Блокировка движения ИС2 нет перемещения  ИС1
-	{&B3AB02LDU,1,325},	//( - , DU) Блокировка движения ИС2: превышение заданной скорости
-	{&B3AB01LDU,1,326},	//( - , DU) Блокировка движения ИС2: скорость перемещения менее заданной
-	{&B3VS22LDU,1,327},	//( - , DU) Движение ИС2 в сторону НУ
-	{&B1AB10LDU,1,328},	//( - , DU) Блокировка подъёма ББ2- есть сигнал общего сброса
-	{&B1AB11LDU,1,329},	//( - , DU) Блокировка подъёма ББ2- АЗ2 или ДС2 не на заданной координате
-	{&B1AB12LDU,1,330},	//( - , DU) Блокировка подъёма ББ2- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
-	{&B1AB13LDU,1,331},	//( - , DU) Блокировка подъёма ББ2- давление в пневмосистеме ББ2 ниже АС
-	{&B1AB14LDU,1,332},	//( - , DU) Блокировка подъёма ББ2- в режимах Калибровка, Статический мощность больше заданной
-	{&B1AB16LDU,1,333},	//( - , DU) Блокировка перемещения ББ2: выполняется программа 200 с
-	{&B1AB17LDU,1,334},	//( - , DU) Блокировка перемещения ББ2: выполняется программа 20 мин
-	{&B1AB18LDU,1,335},	//( - , DU) Блокировка подъёма ББ2- РБ-СТР ниже 80 мм
-	{&A3VS12LDU,1,336},	//( - , DU) Движение ИС1 в сторону ВУ
-	{&A3AB04LDU,1,337},	//( - , DU) Блокировка движения ИС1 нет перемещения  ИС1
-	{&A3AB02LDU,1,338},	//( - , DU) Блокировка движения ИС1: превышение заданной скорости
-	{&A3AB01LDU,1,339},	//( - , DU) Блокировка движения ИС1: скорость перемещения менее заданной
-	{&A3VS22LDU,1,340},	//( - , DU) Движение ИС1 в сторону НУ
-	{&A3AZ03LDU,1,341},	//( - , DU) Сброс РБ: Несанкционированное перемещение ИС1
-	{&A3AB07LDU,1,342},	//( - , DU) Блокировка подъёма ИС1 Гомогенные двери не закрыты
-	{&A2AB17LDU,1,343},	//( - , DU) Блокировка перемещения РБ1: выполняется программа 20 мин
-	{&A2AB16LDU,1,344},	//( - , DU) Блокировка перемещения РБ1: выполняется программа 200 с
-	{&A2AB14LDU,1,345},	//( - , DU) Блокировка подъёма РБ1- в режимах Калибровка, Статический мощность больше заданной
-	{&A2AB13LDU,1,346},	//( - , DU) Блокировка подъёма РБ1- давление в пневмосистеме сброса РБ ниже ПС
-	{&A2AB12LDU,1,347},	//( - , DU) Блокировка подъёма РБ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
-	{&A2AB11LDU,1,348},	//( - , DU) Блокировка подъёма РБ1- АЗ2 или ДС2 не на заданной координате
-	{&A2AB10LDU,1,349},	//( - , DU) Блокировка подъёма РБ1- есть сигнал общего сброса
-	{&A2AB09LDU,1,350},	//( - , DU) Блокировка подъёма РБ1- АНИ не установлен
-	{&A2AB06LDU,1,351},	//( - , DU) Блокировка подъёма РБ1 - НИ не в положении ВУ,режим работы не проверочный
-	{&A2AB05LDU,1,352},	//( - , DU) Блокировка подъёма РБ1 -нет сигнала готовности СУЗ
-	{&A2AB08LDU,1,353},	//( - , DU) Блокировка подъёма РБ1 - реактор не на рабочем месте
-	{&A2AB07LDU,1,354},	//( - , DU) Блокировка подъёма РБ1 Гомогенные двери не закрыты
-	{&A2AZ03LDU,1,355},	//( - , DU) Сброс РБ: Несанкционированное перемещение РБ1
-	{&A2VS21LDU,1,356},	//( - , DU) Движение РБ1 в сторону НУ
-	{&A2AB01LDU,1,357},	//( - , DU) Блокировка движения РБ1: скорость перемещения менее заданной
-	{&A2AB02LDU,1,358},	//( - , DU) Блокировка движения РБ1: превышение заданной скорости
-	{&A8AZ03LDU,1,359},	//( - , DU) Несанкционированное перемещение ДС2
-	{&B8IS22LDU,1,360},	//( - K22VDSR, DU) Приход на НУ2 АЗ2
-	{&A8IS12LDU,1,361},	//( - K30VDSR, DU) Приход на механический ВУ ДС2
-	{&A8AB04LDU,1,362},	//( - , DU) Блокировка ДС2 -Ошибка в направлении  движения
-	{&A8IS22LDU,1,363},	//( - K31VDSR, DU) Приход на механический НУ ДС2
-	{&A8AB08LDU,1,364},	//( - , DU) Блокировка движения ДС2 Гомогенные двери не закрыты
-	{&A8AB09LDU,1,365},	//( - , DU) Блокировка  движения ДС2 - АС по мощности от любого канала
-	{&A8AB10LDU,1,366},	//( - , DU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора
-	{&A8AB11LDU,1,367},	//( - , DU) Блокировка движения ДС2 -нет сигнала готовности СУЗ
-	{&A8AB12LDU,1,368},	//( - , DU) Блокировка движения ДС2 - НИ не в положении ВУ
-	{&A8AB13LDU,1,369},	//( - , DU) Блокировка движения ДС2 - ОРР не в исходном состоянии
-	{&A8AB14LDU,1,370},	//( - , DU) Блокировка движения ДС2 - Самоход любого механизма
-	{&A8AB02LDU,1,371},	//( - , DU) Блокировка движения ДС2- АНИ не установлен
-	{&A8AB01LDU,1,372},	//( - , DU) Блокировка ДС2 -Превышение времени перемещения
-	{&A2VS11LDU,1,373},	//( - , DU) Движение РБ1 в сторону ВУ
-	{&A2AB04LDU,1,374},	//( - , DU) Блокировка движения РБ1 нет перемещения  РБ1
-	{&B2AB16LDU,1,375},	//( - , DU) Блокировка перемещения РБ2: выполняется программа 200 с
-	{&B2AB17LDU,1,376},	//( - , DU) Блокировка перемещения РБ2: выполняется программа 20 мин
-	{&R1AZ03LDU,1,377},	//( - , DU) Несанкционированное перемещение МДЗ1
-	{&R1AB01LDU,1,378},	//( - , DU) Блокировка движения МДЗ1 - Превышение времени движения
-	{&R1AB02LDU,1,379},	//( - , DU) Блокировка движения МДЗ1 - Нет перемещения МДЗ1
-	{&R2AZ03LDU,1,380},	//( - , DU) Несанкционированное перемещение МДЗ2
-	{&R2AB01LDU,1,381},	//( - , DU) Блокировка движения МДЗ2 - Превышение времени движения
-	{&R2AB02LDU,1,382},	//( - , DU) Блокировка движения МДЗ2 - Нет перемещения МДЗ2
-	{&R1AB04LDU,1,383},	//( - , DU) Блокировка движения МДЗ1 -Ошибка в направлении  движения
-	{&R2AB04LDU,1,384},	//( - , DU) Блокировка движения МДЗ2 -Ошибка в направлении  движения
-	{&R1IS11LDU,1,385},	//( - K27VDSR, DU) Приход на ВУ МДЗ1
-	{&R1VS22LDU,1,386},	//( - K06VDSR, DU) Движение МДЗ1 в сторону НУ
-	{&R2VS22LDU,1,387},	//( - K09VDSR, DU) Движение МДЗ2 в сторону НУ
-	{&R2VS12LDU,1,388},	//( - K08VDSR, DU) Движение МДЗ2 в сторону ВУ
-	{&R1VS12LDU,1,389},	//( - K05VDSR, DU) Движение МДЗ1 в сторону ВУ
-	{&R2IS11LDU,1,390},	//( - K29VDSR, DU) Приход на ВУ МДЗ2
-	{&A1VS12LDU,1,391},	//( - , DU) Движение ББ1 в сторону ВУ
-	{&B2AB04LDU,1,392},	//( - , DU) Блокировка движения РБ2 нет перемещения  РБ2
-	{&B2AB02LDU,1,393},	//( - , DU) Блокировка движения РБ2: превышение заданной скорости
-	{&B2AB01LDU,1,394},	//( - , DU) Блокировка движения РБ2: скорость перемещения менее заданной
-	{&B2AZ03LDU,1,395},	//( - , DU) Сброс РБ: Несанкционированное перемещение РБ2
-	{&B2AB07LDU,1,396},	//( - , DU) Блокировка подъёма РБ2 Гомогенные двери не закрыты
-	{&B2AB08LDU,1,397},	//( - , DU) Блокировка подъёма РБ2 - реактор не на рабочем месте
-	{&B2AB05LDU,1,398},	//( - , DU) Блокировка подъёма РБ2 -нет сигнала готовности СУЗ
-	{&B2AB06LDU,1,399},	//( - , DU) Блокировка подъёма РБ2 - НИ не в положении ВУ,режим работы не проверочный
-	{&B2AB09LDU,1,400},	//( - , DU) Блокировка подъёма РБ2- АНИ не установлен
-	{&B2AB10LDU,1,401},	//( - , DU) Блокировка подъёма РБ2- есть сигнал общего сброса
-	{&B2AB11LDU,1,402},	//( - , DU) Блокировка подъёма РБ2- АЗ2 или ДС2 не на заданной координате
-	{&B2AB12LDU,1,403},	//( - , DU) Блокировка подъёма РБ2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ
-	{&B2AB13LDU,1,404},	//( - , DU) Блокировка подъёма РБ2- давление в пневмосистеме сброса РБ ниже ПС
-	{&B2AB14LDU,1,405},	//( - , DU) Блокировка подъёма РБ2- в режимах Калибровка, Статический мощность больше заданной
+	{&A3AB07LDU,1,312},	//( - , DU) Блокировка подъёма ИС1 Гомогенные двери не закрыты
+	{&A3AZ03LDU,1,313},	//( - , DU) Сброс РБ: Несанкционированное перемещение ИС1
+	{&A3VS22LDU,1,314},	//( - , DU) Движение ИС1 в сторону НУ
+	{&A3AB01LDU,1,315},	//( - , DU) Блокировка движения ИС1: скорость перемещения менее заданной
+	{&B1AB07LDU,1,316},	//( - , DU) Блокировка подъёма ББ2 Гомогенные двери не закрыты
+	{&B1AB08LDU,1,317},	//( - , DU) Блокировка подъёма ББ2 - реактор не на рабочем месте
+	{&B1AB05LDU,1,318},	//( - , DU) Блокировка подъёма ББ2 -нет сигнала готовности СУЗ
+	{&B1AB06LDU,1,319},	//( - , DU) Блокировка подъёма ББ2 - НИ не в положении ВУ,режим работы не проверочный
+	{&B1AB09LDU,1,320},	//( - , DU) Блокировка подъёма ББ2- АНИ не установлен
+	{&B1AB10LDU,1,321},	//( - , DU) Блокировка подъёма ББ2- есть сигнал общего сброса
+	{&B1AB11LDU,1,322},	//( - , DU) Блокировка подъёма ББ2- АЗ2 или ДС2 не на заданной координате
+	{&B1AB12LDU,1,323},	//( - , DU) Блокировка подъёма ББ2- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
+	{&B1AB13LDU,1,324},	//( - , DU) Блокировка подъёма ББ2- давление в пневмосистеме ББ2 ниже АС
+	{&B1AB14LDU,1,325},	//( - , DU) Блокировка подъёма ББ2- в режимах Калибровка, Статический мощность больше заданной
+	{&B1AB16LDU,1,326},	//( - , DU) Блокировка перемещения ББ2: выполняется программа 200 с
+	{&B1AB17LDU,1,327},	//( - , DU) Блокировка перемещения ББ2: выполняется программа 20 мин
+	{&B1AB18LDU,1,328},	//( - , DU) Блокировка подъёма ББ2- РБ-СТР ниже 80 мм
+	{&A3VS12LDU,1,329},	//( - , DU) Движение ИС1 в сторону ВУ
+	{&A3AB04LDU,1,330},	//( - , DU) Блокировка движения ИС1 нет перемещения  ИС1
+	{&A3AB02LDU,1,331},	//( - , DU) Блокировка движения ИС1: превышение заданной скорости
+	{&A2AB13LDU,1,332},	//( - , DU) Блокировка подъёма РБ1- давление в пневмосистеме сброса РБ ниже ПС
+	{&A2AB12LDU,1,333},	//( - , DU) Блокировка подъёма РБ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ
+	{&A2AB11LDU,1,334},	//( - , DU) Блокировка подъёма РБ1- АЗ2 или ДС2 не на заданной координате
+	{&A2AB10LDU,1,335},	//( - , DU) Блокировка подъёма РБ1- есть сигнал общего сброса
+	{&A2AB09LDU,1,336},	//( - , DU) Блокировка подъёма РБ1- АНИ не установлен
+	{&A2AB06LDU,1,337},	//( - , DU) Блокировка подъёма РБ1 - НИ не в положении ВУ,режим работы не проверочный
+	{&A2AB05LDU,1,338},	//( - , DU) Блокировка подъёма РБ1 -нет сигнала готовности СУЗ
+	{&A2AB08LDU,1,339},	//( - , DU) Блокировка подъёма РБ1 - реактор не на рабочем месте
+	{&A2AB07LDU,1,340},	//( - , DU) Блокировка подъёма РБ1 Гомогенные двери не закрыты
+	{&A2AZ03LDU,1,341},	//( - , DU) Сброс РБ: Несанкционированное перемещение РБ1
+	{&A2VS21LDU,1,342},	//( - , DU) Движение РБ1 в сторону НУ
+	{&A2AB01LDU,1,343},	//( - , DU) Блокировка движения РБ1: скорость перемещения менее заданной
+	{&A2AB02LDU,1,344},	//( - , DU) Блокировка движения РБ1: превышение заданной скорости
+	{&A2AB04LDU,1,345},	//( - , DU) Блокировка движения РБ1 нет перемещения  РБ1
+	{&A2VS11LDU,1,346},	//( - , DU) Движение РБ1 в сторону ВУ
+	{&A8AB07LDU,1,347},	//( - , DU) Блокировка движения ДС2: превышение заданной скорости
+	{&A8AB05LDU,1,348},	//( - , DU) Блокировка движения ДС2: скорость перемещения менее заданной
+	{&A8VS22LDU,1,349},	//( - , DU) Движение ДС2 в сторону НУ
+	{&A8AZ03LDU,1,350},	//( - , DU) Несанкционированное перемещение ДС2
+	{&B8IS22LDU,1,351},	//( - K22VDSR, DU) Приход на НУ2 АЗ2
+	{&A8IS12LDU,1,352},	//( - K30VDSR, DU) Приход на механический ВУ ДС2
+	{&A8AB04LDU,1,353},	//( - , DU) Блокировка ДС2 -Ошибка в направлении  движения
+	{&A8IS22LDU,1,354},	//( - K31VDSR, DU) Приход на механический НУ ДС2
+	{&A8AB08LDU,1,355},	//( - , DU) Блокировка движения ДС2 Гомогенные двери не закрыты
+	{&A8AB09LDU,1,356},	//( - , DU) Блокировка  движения ДС2 - АС по мощности от любого канала
+	{&A8AB10LDU,1,357},	//( - , DU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора
+	{&A8AB11LDU,1,358},	//( - , DU) Блокировка движения ДС2 -нет сигнала готовности СУЗ
+	{&A8AB12LDU,1,359},	//( - , DU) Блокировка движения ДС2 - НИ не в положении ВУ
+	{&A8AB13LDU,1,360},	//( - , DU) Блокировка движения ДС2 - ОРР не в исходном состоянии
+	{&A8AB14LDU,1,361},	//( - , DU) Блокировка движения ДС2 - Самоход любого механизма
+	{&A8AB02LDU,1,362},	//( - , DU) Блокировка движения ДС2- АНИ не установлен
+	{&A8AB01LDU,1,363},	//( - , DU) Блокировка ДС2 -Превышение времени перемещения
+	{&R2VS22LDU,1,364},	//( - K09VDSR, DU) Движение МДЗ2 в сторону НУ
+	{&R1VS22LDU,1,365},	//( - K06VDSR, DU) Движение МДЗ1 в сторону НУ
+	{&R1IS11LDU,1,366},	//( - K27VDSR, DU) Приход на ВУ МДЗ1
+	{&R2AB04LDU,1,367},	//( - , DU) Блокировка движения МДЗ2 -Ошибка в направлении  движения
+	{&R1AB04LDU,1,368},	//( - , DU) Блокировка движения МДЗ1 -Ошибка в направлении  движения
+	{&R2AB02LDU,1,369},	//( - , DU) Блокировка движения МДЗ2 - Нет перемещения МДЗ2
+	{&R2AB01LDU,1,370},	//( - , DU) Блокировка движения МДЗ2 - Превышение времени движения
+	{&R2AZ03LDU,1,371},	//( - , DU) Несанкционированное перемещение МДЗ2
+	{&R1AB02LDU,1,372},	//( - , DU) Блокировка движения МДЗ1 - Нет перемещения МДЗ1
+	{&R1AB01LDU,1,373},	//( - , DU) Блокировка движения МДЗ1 - Превышение времени движения
+	{&R1AZ03LDU,1,374},	//( - , DU) Несанкционированное перемещение МДЗ1
+	{&B2AB17LDU,1,375},	//( - , DU) Блокировка перемещения РБ2: выполняется программа 20 мин
+	{&B2AB16LDU,1,376},	//( - , DU) Блокировка перемещения РБ2: выполняется программа 200 с
+	{&B2AB14LDU,1,377},	//( - , DU) Блокировка подъёма РБ2- в режимах Калибровка, Статический мощность больше заданной
+	{&B2AB13LDU,1,378},	//( - , DU) Блокировка подъёма РБ2- давление в пневмосистеме сброса РБ ниже ПС
+	{&B2AB12LDU,1,379},	//( - , DU) Блокировка подъёма РБ2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ
+	{&A2AB14LDU,1,380},	//( - , DU) Блокировка подъёма РБ1- в режимах Калибровка, Статический мощность больше заданной
+	{&A2AB16LDU,1,381},	//( - , DU) Блокировка перемещения РБ1: выполняется программа 200 с
+	{&A2AB17LDU,1,382},	//( - , DU) Блокировка перемещения РБ1: выполняется программа 20 мин
+	{&B2AB04LDU,1,383},	//( - , DU) Блокировка движения РБ2 нет перемещения  РБ2
+	{&B2AB02LDU,1,384},	//( - , DU) Блокировка движения РБ2: превышение заданной скорости
+	{&B2AB01LDU,1,385},	//( - , DU) Блокировка движения РБ2: скорость перемещения менее заданной
+	{&B2AZ03LDU,1,386},	//( - , DU) Сброс РБ: Несанкционированное перемещение РБ2
+	{&B2AB07LDU,1,387},	//( - , DU) Блокировка подъёма РБ2 Гомогенные двери не закрыты
+	{&B2AB08LDU,1,388},	//( - , DU) Блокировка подъёма РБ2 - реактор не на рабочем месте
+	{&B2AB05LDU,1,389},	//( - , DU) Блокировка подъёма РБ2 -нет сигнала готовности СУЗ
+	{&B2AB06LDU,1,390},	//( - , DU) Блокировка подъёма РБ2 - НИ не в положении ВУ,режим работы не проверочный
+	{&B2AB09LDU,1,391},	//( - , DU) Блокировка подъёма РБ2- АНИ не установлен
+	{&B2AB10LDU,1,392},	//( - , DU) Блокировка подъёма РБ2- есть сигнал общего сброса
+	{&B2AB11LDU,1,393},	//( - , DU) Блокировка подъёма РБ2- АЗ2 или ДС2 не на заданной координате
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_DU[]={  // 
-	{&B2VS01IDU,3,0},	//( - , DU) Готовность к управлению РБ2
-	{&R0VX08IDU,3,1},	//( - , DU) Индикация Режим
+	{&R0VX08IDU,3,0},	//( - , DU) Индикация Режим
+	{&B2VS01IDU,3,1},	//( - , DU) Готовность к управлению РБ2
 	{&R0VL01RDU,8,2},	//( - , DU) Индикация Время задержки
-	{&R0VL04RDU,8,4},	//( - , DU) Индикация (Время срабатывания верхней АС II УР)
-	{&R0VL02RDU,8,6},	//( - , DU) Индикация (Время задержки ИНИ)
-	{&R0VL06RDU,8,8},	//( - , DU) Индикация (Время задержки от ВУ РБ)
-	{&R0VL11IDU,3,10},	//( - , DU) До импульса секунд
-	{&R0VL01IDU,3,11},	//( - , DU) До импульса минут
-	{&B3CV02RDU,8,12},	//( - , DU) Заданная скорость перемещения ИС2
+	{&R0VL06RDU,8,4},	//( - , DU) Индикация (Время задержки от ВУ РБ)
+	{&R0VL11IDU,3,6},	//( - , DU) До импульса секунд
+	{&R0VL01IDU,3,7},	//( - , DU) До импульса минут
+	{&B3CV02RDU,8,8},	//( - , DU) Заданная скорость перемещения ИС2
+	{&R1VS01IDU,3,10},	//( - , DU) Готовность к управлению МДЗ1
+	{&R2VS01IDU,3,11},	//( - , DU) Готовность к управлению МДЗ2
+	{&R4VS01IDU,3,12},	//( - , DU) Готовность к управлению тележкой реактора
+	{&A6VS01IDU,3,13},	//( - , DU) Готовность к управлению БЗ1
 	{&B5VS01IDU,3,14},	//( - , DU) Готовность к управлению НЛ2
-	{&A6VS01IDU,3,15},	//( - , DU) Готовность к управлению БЗ1
-	{&R4VS01IDU,3,16},	//( - , DU) Готовность к управлению тележкой реактора
-	{&R2VS01IDU,3,17},	//( - , DU) Готовность к управлению МДЗ2
-	{&R1VS01IDU,3,18},	//( - , DU) Готовность к управлению МДЗ1
-	{&R0VL03RDU,8,19},	//( - , DU) Индикация (Время срабатывания АЗ от ВУ ИС)
-	{&R0VL05RDU,8,21},	//( - , DU) Индикация (Время срабатывания АЗ от НУП ИС)
-	{&R0VL21IDU,3,23},	//( - , DU) Декатрон
-	{&R0VS21IDU,3,24},	//( - , DU) Индикация ВИД ПРОВЕРКИ
-	{&A1VS01IDU,3,25},	//( - , DU) Готовность к управлению ББ1
-	{&B1VS01IDU,3,26},	//( - , DU) Готовность к управлению ББ2
-	{&A3VS01IDU,3,27},	//( - , DU) Готовность к управлению ИС1
-	{&B3VS01IDU,3,28},	//( - , DU) Готовность к управлению ИС2
-	{&A2VS01IDU,3,29},	//( - , DU) Готовность к управлению РБ1
-	{&A4VS01IDU,3,30},	//( - , DU) Готовность к управлению НИ1
-	{&B4VS01IDU,3,31},	//( - , DU) Готовность к управлению НИ2
-	{&A5VS01IDU,3,32},	//( - , DU) Готовность к управлению НЛ1
-	{&R5VS01IDU,3,33},	//( - , DU) Готовность к управлению ворот отстойной зоны
-	{&R3VS01IDU,3,34},	//( - , DU) Готовность к управлению гомогенных дверей
-	{&TTLDU,3,35},	//( - , DU) ttl
-	{&B3CV01RDU,8,36},	//( - , DU) Измеренная скорость перемещения ИС2
-	{&B1VC01RDU,8,38},	//( - , DU) Координата ББ2, мм
-	{&B3VC01RDU,8,40},	//( - , DU) Координата ИС2, мм
-	{&A8VC01RDU,8,42},	//( - , DU) Координата ДС2, мм
-	{&A1VC01RDU,8,44},	//( - , DU) Координата ББ1, мм
-	{&A3VC01RDU,8,46},	//( - , DU) Координата ИС1, мм
-	{&A2VC01RDU,8,48},	//( - , DU) Координата РБ1, мм
-	{&B2VC01RDU,8,50},	//( - , DU) Координата РБ2, мм
-	{&B8VC01RDU,8,52},	//( - , DU) Координата АЗ2, мм
+	{&A5VS01IDU,3,15},	//( - , DU) Готовность к управлению НЛ1
+	{&B4VS01IDU,3,16},	//( - , DU) Готовность к управлению НИ2
+	{&A4VS01IDU,3,17},	//( - , DU) Готовность к управлению НИ1
+	{&R0VL02RDU,8,18},	//( - , DU) Индикация (Время задержки ИНИ)
+	{&R0VL04RDU,8,20},	//( - , DU) Индикация (Время срабатывания верхней АС II УР)
+	{&R0VL03RDU,8,22},	//( - , DU) Индикация (Время срабатывания АЗ от ВУ ИС)
+	{&R0VL05RDU,8,24},	//( - , DU) Индикация (Время срабатывания АЗ от НУП ИС)
+	{&R0VL21IDU,3,26},	//( - , DU) Декатрон
+	{&R0VS21IDU,3,27},	//( - , DU) Индикация ВИД ПРОВЕРКИ
+	{&A1VS01IDU,3,28},	//( - , DU) Готовность к управлению ББ1
+	{&B1VS01IDU,3,29},	//( - , DU) Готовность к управлению ББ2
+	{&A3VS01IDU,3,30},	//( - , DU) Готовность к управлению ИС1
+	{&B3VS01IDU,3,31},	//( - , DU) Готовность к управлению ИС2
+	{&A2VS01IDU,3,32},	//( - , DU) Готовность к управлению РБ1
+	{&A1VC01RDU,8,33},	//( - , DU) Координата ББ1, мм
+	{&A8VC01RDU,8,35},	//( - , DU) Координата ДС2, мм
+	{&B3VC01RDU,8,37},	//( - , DU) Координата ИС2, мм
+	{&B1VC01RDU,8,39},	//( - , DU) Координата ББ2, мм
+	{&B3CV01RDU,8,41},	//( - , DU) Измеренная скорость перемещения ИС2
+	{&TTLDU,3,43},	//( - , DU) ttl
+	{&R3VS01IDU,3,44},	//( - , DU) Готовность к управлению гомогенных дверей
+	{&R5VS01IDU,3,45},	//( - , DU) Готовность к управлению ворот отстойной зоны
+	{&B8VC01RDU,8,46},	//( - , DU) Координата АЗ2, мм
+	{&B2VC01RDU,8,48},	//( - , DU) Координата РБ2, мм
+	{&A2VC01RDU,8,50},	//( - , DU) Координата РБ1, мм
+	{&A3VC01RDU,8,52},	//( - , DU) Координата ИС1, мм
 	{&A3CP02RDU,8,54},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
 	{&B3CP02RDU,8,56},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
 	{&B6VS01IDU,3,58},	//( - , DU) Готовность к управлению БЗ2
 	{&B8VS01IDU,3,59},	//( - , DU) Готовность к управлению АЗ2
 	{&A8VS01IDU,3,60},	//( - , DU) Готовность к управлению ДС2
-	{&R0CN93LDU,8,61},	//( - , DU) время работы на мощности более 100Вт, сек
-	{&R0CN94LDU,8,63},	//( - , DU) Скорость изменения мощности
-	{&R0CN95LDU,3,65},	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
-	{&A3MC01RDU,8,66},	//( - , DU) Заданная координата положения ИС от регулятора мм
-	{&A3MC02RDU,8,68},	//( - , DU) Температурная корректировка координаты ИМ
-	{&R0CN91LDU,8,70},	//( - , DU) Рассчётная реактивность от регулятора
+	{&R0CN95LDU,3,61},	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
+	{&R0CN94LDU,8,62},	//( - , DU) Скорость изменения мощности
+	{&R0CN93LDU,8,64},	//( - , DU) время работы на мощности более 100Вт, сек
+	{&R0VN12RDU,8,66},	//( - , DU) Заданная мощность РУ
+	{&R0VN11RDU,8,68},	//( - , DU) Текущая мощность РУ
+	{&R0CN92LDU,8,70},	//( - , DU) Рассчётный коэффициент  опережения старта ИМ
 	{&A3MC03RDU,8,72},	//( - , DU) Координата положения ИМ 0-й реактивности
-	{&R0CN92LDU,8,74},	//( - , DU) Рассчётный коэффициент  опережения старта ИМ
-	{&R0VN11RDU,8,76},	//( - , DU) Текущая мощность РУ
-	{&R0VN12RDU,8,78},	//( - , DU) Заданная мощность РУ
+	{&R0CN91LDU,8,74},	//( - , DU) Рассчётная реактивность от регулятора
+	{&A3MC02RDU,8,76},	//( - , DU) Температурная корректировка координаты ИМ
+	{&A3MC01RDU,8,78},	//( - , DU) Заданная координата положения ИС от регулятора мм
 	{&A8CV01RDU,8,80},	//( - , DU) Измеренная скорость перемещения ДС2
 	{&B8CV01RDU,8,82},	//( - , DU) Измеренная скорость перемещения АЗ2
 	{&B1CV02RDU,8,84},	//( - , DU) Заданная скорость перемещения ББ2
 	{&B1CV01RDU,8,86},	//( - , DU) Измеренная скорость перемещения ББ2
-	{&A1CV01RDU,8,88},	//( - , DU) Измеренная скорость перемещения ББ1
-	{&A1CV02RDU,8,90},	//( - , DU) Заданная скорость перемещения ББ1
-	{&A3CV01RDU,8,92},	//( - , DU) Измеренная скорость перемещения ИС1
-	{&A3CV02RDU,8,94},	//( - , DU) Заданная скорость перемещения ИС1
+	{&A1CV02RDU,8,88},	//( - , DU) Заданная скорость перемещения ББ1
+	{&A1CV01RDU,8,90},	//( - , DU) Измеренная скорость перемещения ББ1
+	{&A3CV02RDU,8,92},	//( - , DU) Заданная скорость перемещения ИС1
+	{&A3CV01RDU,8,94},	//( - , DU) Измеренная скорость перемещения ИС1
 	{&A2CV01RDU,8,96},	//( - , DU) Измеренная скорость перемещения РБ1
 	{&A2CV02RDU,8,98},	//( - , DU) Заданная скорость перемещения РБ1
 	{&B2CV01RDU,8,100},	//( - , DU) Измеренная скорость перемещения РБ2
@@ -6215,20 +6275,20 @@ static ModbusRegister ir_DU[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_DU[]={  // 
-	{&R0MW14IP2,3,0},	//( - , DU) Переключатель ОБДУВ
-	{&R0MW12IP2,3,1},	//( - , DU) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ РБ
-	{&A1MC01RP1,8,2},	//( - , DU) Заданная координата положения ББ1 мм
-	{&B1MC01RP1,8,4},	//( - , DU) Заданная координата положения ББ2  мм
+	{&R0MW12IP2,3,0},	//( - , DU) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ РБ
+	{&R0MW14IP2,3,1},	//( - , DU) Переключатель ОБДУВ
+	{&B8MC01RP2,8,2},	//( - , DU) Заданная координата АЗ2 мм
+	{&B3MC01RP1,8,4},	//( - , DU) Заданная координата положения ИС2 мм
 	{&A3MC01RP1,8,6},	//( - , DU) Заданная координата положения ИС1 мм
-	{&B3MC01RP1,8,8},	//( - , DU) Заданная координата положения ИС2 мм
-	{&B8MC01RP2,8,10},	//( - , DU) Заданная координата АЗ2 мм
-	{&R0MW15IP1,3,12},	//( - , DU) Переключатель МОЩНОСТЬ В СТАТИЧЕСКОМ РЕЖИМЕ
-	{&R0MW14IP1,3,13},	//( - , DU) Переключатель ПРОГРАММЫ
-	{&R0MW12IP1,3,14},	//( - , DU) Переключатель РЕЖИМ РАБОТЫ
+	{&B1MC01RP1,8,8},	//( - , DU) Заданная координата положения ББ2  мм
+	{&A1MC01RP1,8,10},	//( - , DU) Заданная координата положения ББ1 мм
+	{&R0MW11IP2,3,12},	//( - , DU) Переключатель ПРОВЕРКА СХЕМ СБРОСА
+	{&R0MW11IP1,3,13},	//( - , DU) Переключатель ВЫСТРЕЛ
+	{&R0MW16IP1,3,14},	//( - , DU) Переключатель ВИД ПРОВЕРКИ
 	{&R0MW13IP1,3,15},	//( - , DU) Переключатель ВЫБОР ЗОН
-	{&R0MW16IP1,3,16},	//( - , DU) Переключатель ВИД ПРОВЕРКИ
-	{&R0MW11IP1,3,17},	//( - , DU) Переключатель ВЫСТРЕЛ
-	{&R0MW11IP2,3,18},	//( - , DU) Переключатель ПРОВЕРКА СХЕМ СБРОСА
+	{&R0MW12IP1,3,16},	//( - , DU) Переключатель РЕЖИМ РАБОТЫ
+	{&R0MW14IP1,3,17},	//( - , DU) Переключатель ПРОГРАММЫ
+	{&R0MW15IP1,3,18},	//( - , DU) Переключатель МОЩНОСТЬ В СТАТИЧЕСКОМ РЕЖИМЕ
 	{&fEM_A1UC03RDU,8,19},	//( - , DU) Коэффициент преобразования показаний энкодера ББ, мм/дел.энкодера
 	{&dEM_A1UC05UDU,5,21},	//( - , DU) Верхняя граница показания энкодера ББ, деления энкодера
 	{&dEM_A1UC06UDU,5,23},	//( - , DU) Нижняя граница показания энкодера ББ, деления энкодера
@@ -7064,7 +7124,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(820,0.50);
 	setAsFloat(821,1.0);
 	setAsFloat(822,20.0);
-	setAsFloat(823,0.50);
+	setAsFloat(823,1);
 	setAsFloat(824,2.0);
 	setAsFloat(825,2.0);
 	setAsFloat(826,1.5);
@@ -7143,7 +7203,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsBool(238,1);
 	setAsBool(239,1);
 }
-uspaint8 InternalBuf[9571];
+uspaint8 InternalBuf[9655];
 
 /* ����������� �������� ��� � ������*/
 ssint iRM_8_ = {8,0}; /* N-����� ������ */ 
@@ -9112,7 +9172,7 @@ ssbool var1859;
 ssbool var1860;
 ssbool var1861;
 ssbool var1862;
-ssfloat var1863;
+ssbool var1863;
 ssbool var1864;
 ssbool var1865;
 ssbool var1866;
@@ -9124,7 +9184,7 @@ ssbool var1871;
 ssbool var1872;
 ssbool var1873;
 ssbool var1874;
-ssbool var1875;
+ssfloat var1875;
 ssbool var1876;
 ssbool var1877;
 ssbool var1878;
@@ -9147,8 +9207,8 @@ ssbool var1894;
 ssbool var1895;
 ssbool var1896;
 ssbool var1897;
-ssfloat var1898;
-ssfloat var1899;
+ssbool var1898;
+ssbool var1899;
 ssbool var1900;
 ssbool var1901;
 ssbool var1902;
@@ -9159,8 +9219,8 @@ ssbool var1906;
 ssbool var1907;
 ssbool var1908;
 ssbool var1909;
-ssbool var1910;
-ssbool var1911;
+ssfloat var1910;
+ssfloat var1911;
 ssbool var1912;
 ssbool var1913;
 ssbool var1914;
@@ -9175,16 +9235,16 @@ ssbool var1922;
 ssbool var1923;
 ssbool var1924;
 ssbool var1925;
-ssfloat var1926;
+ssbool var1926;
 ssbool var1927;
 ssbool var1928;
-ssfloat var1929;
+ssbool var1929;
 ssbool var1930;
 ssbool var1931;
-ssfloat var1932;
+ssbool var1932;
 ssbool var1933;
 ssbool var1934;
-ssfloat var1935;
+ssbool var1935;
 ssbool var1936;
 ssbool var1937;
 ssfloat var1938;
@@ -9196,11 +9256,23 @@ ssbool var1943;
 ssfloat var1944;
 ssbool var1945;
 ssbool var1946;
-ssbool var1947;
-ssfloat var1948;
+ssfloat var1947;
+ssbool var1948;
 ssbool var1949;
-ssbool var1950;
+ssfloat var1950;
 ssbool var1951;
+ssbool var1952;
+ssfloat var1953;
+ssbool var1954;
+ssbool var1955;
+ssfloat var1956;
+ssbool var1957;
+ssbool var1958;
+ssbool var1959;
+ssfloat var1960;
+ssbool var1961;
+ssbool var1962;
+ssbool var1963;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -9209,14 +9281,14 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* ���������� �������� */
-psbool  array_m168_x_2[13] = {&R0IE02LDU,&R0IE01LDU,&R1IE01LDU,&R2IE01LDU,&A5IE02LDU,&B5IE01LDU,&A6IE01LDU,&R6IS61LDU,&R6IS67LZZ,&R6IS68LZZ,&B6IE01LDU,&A8IE01LDU,&R6IS66LZZ};
-psbool  array_m150_x_2[6] = {&B3IE02LDU,&B1IE02LDU,&B2IE01LDU,&B1IE01LDU,&B3IE01LDU,&B2IE02LDU};
-psbool  array_m133_x_2[6] = {&A1IE02LDU,&A2IE02LDU,&A1IE01LDU,&A2IE01LDU,&A3IE01LDU,&A3IE02LDU};
-psbool  array_m241_x_2[6] = {&var1910,&var1902,&var1916,&B0VT71LZ1,&B0VT71LZ2,&var1861};
-psbool  array_m230_x_2[6] = {&var1911,&var1904,&var1917,&A0VT71LZ1,&A0VT71LZ2,&var1861};
-psbool  array_m253_x_2[6] = {&var1895,&B0VP71LZ1,&B0VP71LZ2,&var1866,&var1865,&var1864};
-psbool  array_m232_x_2[6] = {&var1896,&A0VP71LZ1,&A0VP71LZ2,&var1869,&var1868,&var1867};
-psbool  array_m124_x_2[8] = {&var1928,&var1950,&var1946,&var1943,&var1940,&var1937,&var1931,&var1934};
+psbool  array_m179_x_2[13] = {&R0IE02LDU,&R0IE01LDU,&R1IE01LDU,&R2IE01LDU,&A5IE02LDU,&B5IE01LDU,&A6IE01LDU,&R6IS61LDU,&R6IS67LZZ,&R6IS68LZZ,&B6IE01LDU,&A8IE01LDU,&R6IS66LZZ};
+psbool  array_m166_x_2[6] = {&var1857,&var1856,&var1855,&var1854,&var1853,&var1852};
+psbool  array_m138_x_2[6] = {&var1863,&var1862,&var1861,&var1860,&var1859,&var1858};
+psbool  array_m254_x_2[6] = {&var1922,&var1914,&var1928,&B0VT71LZ1,&B0VT71LZ2,&var1873};
+psbool  array_m243_x_2[6] = {&var1923,&var1916,&var1929,&A0VT71LZ1,&A0VT71LZ2,&var1873};
+psbool  array_m266_x_2[6] = {&var1907,&B0VP71LZ1,&B0VP71LZ2,&var1878,&var1877,&var1876};
+psbool  array_m245_x_2[6] = {&var1908,&A0VP71LZ1,&A0VP71LZ2,&var1881,&var1880,&var1879};
+psbool  array_m124_x_2[8] = {&var1940,&var1962,&var1958,&var1955,&var1952,&var1949,&var1943,&var1946};
 psbool  array_m2503_x_1[6] = {&var215,&var214,&R0DE36LDU,&R0DE37LDU,&R0DE38LDU,&R0DE39LDU};
 psint  array_m2487_x_1[12] = {&R0DE0DLDU,&R0DE0FLDU,&R0DE02LDU,&R0DE03LDU,&R0DE04LDU,&R0DE05LDU,&R0DE07LDU,&R0DE08LDU,&R0DE09LDU,&R0DE0ALDU,&R0DE0BLDU,&R0DE0CLDU};
 psbool  array_m887_x_1[6] = {&var806,&var1442,&var1418,&var1407,&var1211,&var294};
@@ -9227,7 +9299,7 @@ psfloat  array_m2391_a_1[6] = {&fEM_R0UN70LDU,&fEM_R0UN71LDU,&fEM_R0UN72LDU,&fEM
 psfloat  array_m2391_b_1[6] = {&fEM_R0UN80LDU,&fEM_R0UN81LDU,&fEM_R0UN82LDU,&fEM_R0UN83LDU,&fEM_R0UN84LDU,&fEM_R0UN85LDU};
 psfloat  array_m2404_x_1[4] = {&B0CT01IZ1,&A0CT01IZ1,&B0CT01IZ2,&A0CT01IZ2};
 psfloat  array_m2425_x_1[2] = {&R0VN09RZ1,&R0VN09RZ2};
-psbool  array_m2394_x_1[14] = {&var406,&var379,&var1035,&var440,&var442,&var377,&var1851,&var1431,&var1429,&var1862,&var405,&var394,&var390,&var414};
+psbool  array_m2394_x_1[14] = {&var406,&var379,&var1035,&var440,&var442,&var377,&var1851,&var1431,&var1429,&var1874,&var405,&var394,&var390,&var414};
 psbool  array_m1_x_1[47] = {&var1394,&lRM_0_,&var539,&var269,&var689,&var1598,&var924,&R0MD34LP1,&var838,&R0MD34LP1,&var897,&R0MD34LP1,&var1131,&R0MD34LP1,&var951,&R0MD34LP1,&var1129,&var1625,&A2IS12LDU,&var596,&var1425,&var1318,&var1316,&var1229,&var1044,&R0MD34LP1,&var626,&var667,&var1469,&var1779,&R0MD34LP1,&var782,&var773,&var728,&B3IS35LDU,&B3IS35LDU,&var461,&var267,&var700,&var508,&var1830,&var1788,&var1815,&var1150,&var1802,&R2IS21LDU,&var380};
 psfloat  array_m1625_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
 psbool  array_m1579_x_1[5] = {&var782,&var781,&var780,&var779,&var778};
@@ -9329,90 +9401,102 @@ psbool  array_m843_x_1[17] = {&var1060,&var1105,&var1104,&var1101,&var1100,&var1
 psbool  array_m133_x_1[21] = {&var938,&var958,&var1203,&var911,&var1202,&var1201,&var1766,&var1775,&var1793,&var1784,&var1820,&var1811,&var689,&var581,&var1193,&var1194,&var1472,&var1466,&var1630,&var1621,&var1802};
 
 /* ���������� �������� */
-_S_and4  S_and4_108_2 = {&var1947,&var1882,&B8IS11LDU,&B8IS12LDU,&var1852};
-_S_lkb  S_lkb_112_2 = {&lRM_1_,&var1880,&var1853};
-_S_lkb  S_lkb_109_2 = {&lRM_1_,&var1852,&var1854};
-_S_lkb  S_lkb_78_2 = {&lRM_1_,&var1883,&var1855};
-_S_lkb  S_lkb_52_2 = {&lRM_1_,&var1888,&var1856};
-_S_lkb  S_lkb_82_2 = {&lRM_1_,&var1886,&var1857};
-_S_lkb  S_lkb_49_2 = {&lRM_1_,&var1892,&var1858};
-_S_lkb  S_lkb_24_2 = {&lRM_1_,&var1890,&var1859};
-_S_lkb  S_lkb_21_2 = {&lRM_1_,&var1894,&var1860};
-_S_or2  S_or2_256_2 = {&var1951,&var1900,&var1861};
-_S_bol  S_bol_221_2 = {&fRM_0_5,&var1863,&var1862};
-_S_fsumo  S_fsumo_220_2 = {&var1899,&var1898,&var1863};
-_S_noto  S_noto_249_2 = {&B3VP81LDU,&var1864};
-_S_noto  S_noto_248_2 = {&B2VP82LDU,&var1865};
-_S_noto  S_noto_247_2 = {&B4VP82LDU,&var1866};
-_S_noto  S_noto_229_2 = {&A3VP81LDU,&var1867};
-_S_noto  S_noto_228_2 = {&A2VP82LDU,&var1868};
-_S_noto  S_noto_227_2 = {&A4VP82LDU,&var1869};
-_S_schl24  S_schl24_149_2 = {&A0EE02LZ1,&A0EE03LZ1,&A0EE01LZ1,&A0EE04LZ1,&var1870};
-_S_schl24  S_schl24_143_2 = {&A0EE03LZ2,&A0EE01LZ2,&A0EE02LZ2,&A0EE04LZ2,&var1871};
-_S_or2  S_or2_195_2 = {&var1920,&var1921,&var1872};
-_S_or2  S_or2_191_2 = {&var1923,&var1924,&var1873};
-_S_and2  S_and2_210_2 = {&var1908,&var1919,&var1874};
-_S_or2  S_or2_242_2 = {&var1915,&var1914,&var1875};
-_S_and4  S_and4_159_2 = {&A0EE02LZ1,&A0EE04LZ1,&A0EE02LZ2,&A0EE04LZ2,&var1876};
-_S_or3  S_or3_158_2 = {&var1876,&var1023,&var1870,&var1877};
-_S_and4  S_and4_136_2 = {&A0EE03LZ1,&A0EE01LZ1,&A0EE01LZ2,&A0EE03LZ2,&var1878};
-_S_or3  S_or3_135_2 = {&var1878,&var1871,&var1023,&var1879};
-_S_and3  S_and3_111_2 = {&var1881,&var1947,&A8IS12LDU,&var1880};
-_S_or2  S_or2_104_2 = {&A8MC01LC2,&A8MC01LC1,&var1881};
-_S_or2  S_or2_103_2 = {&B8MC01LC2,&B8MC01LC1,&var1882};
-_S_and3  S_and3_77_2 = {&var1947,&B3IS11LDU,&var1884,&var1883};
-_S_or2  S_or2_71_2 = {&B3MC01LC2,&B3MC01LC1,&var1884};
-_S_or2  S_or2_74_2 = {&A3MC01LC2,&A3MC01LC1,&var1885};
-_S_and3  S_and3_81_2 = {&var1947,&var1885,&A3IS11LDU,&var1886};
-_S_or2  S_or2_43_2 = {&A2MC01LC2,&A2MC01LC1,&var1887};
-_S_and3  S_and3_51_2 = {&var1947,&A2IS11LDU,&var1887,&var1888};
-_S_or2  S_or2_13_2 = {&A1MC01LC2,&A1MC01LC1,&var1889};
-_S_and3  S_and3_23_2 = {&var1889,&var1947,&A1IS11LDU,&var1890};
-_S_or2  S_or2_42_2 = {&B2MC01LC1,&B2MC01LC2,&var1891};
-_S_and3  S_and3_48_2 = {&var1947,&B2IS11LDU,&var1891,&var1892};
-_S_or2  S_or2_11_2 = {&B1MC01LC2,&B1MC01LC1,&var1893};
-_S_and3  S_and3_20_2 = {&var1947,&B1IS11LDU,&var1893,&var1894};
-_S_and2  S_and2_252_2 = {&var604,&var1872,&var1895};
-_S_and2  S_and2_231_2 = {&var604,&var1873,&var1896};
-_S_and2  S_and2_217_2 = {&var1909,&var1918,&var1897};
-_S_scalzz  S_scalzz_182_2 = {&B3IP02IDU,&iRM_3276_,&iRM_16383_,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&var1898,&internal2_m182_y0};
-_S_scalzz  S_scalzz_180_2 = {&A3IP02IDU,&iRM_3276_,&iRM_16383_,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&var1899,&internal2_m180_y0};
-_S_noto  S_noto_169_2 = {&var1901,&var1900};
-_S_andn  S_andn_168_2 = {array_m168_x_2,&iRM_13_,&var1901};
-_S_noto  S_noto_153_2 = {&var1903,&var1902};
-_S_andn  S_andn_150_2 = {array_m150_x_2,&iRM_6_,&var1903};
-_S_noto  S_noto_134_2 = {&var1905,&var1904};
-_S_andn  S_andn_133_2 = {array_m133_x_2,&iRM_6_,&var1905};
-_S_noto  S_noto_251_2 = {&var1914,&var1906};
-_S_noto  S_noto_233_2 = {&var1915,&var1907};
-_S_noto  S_noto_209_2 = {&var1923,&var1908};
-_S_noto  S_noto_218_2 = {&var1920,&var1909};
-_S_noto  S_noto_157_2 = {&var1877,&var1910};
-_S_noto  S_noto_141_2 = {&var1879,&var1911};
-_S_noto  S_noto_254_2 = {&var1916,&var1912};
-_S_noto  S_noto_238_2 = {&var1917,&var1913};
-_S_ornc  S_ornc_241_2 = {array_m241_x_2,&iRM_6_,&var1914,&vainSChar};
-_S_ornc  S_ornc_230_2 = {array_m230_x_2,&iRM_6_,&var1915,&vainSChar};
-_S_ornc  S_ornc_253_2 = {array_m253_x_2,&iRM_6_,&var1916,&vainSChar};
-_S_ornc  S_ornc_232_2 = {array_m232_x_2,&iRM_6_,&var1917,&vainSChar};
-_S_tprg  S_tprg_215_2 = {&var1898,&fEM_A3UP85RDU,&fEM_A3UP86RDU,&fEM_A3UP87RDU,&fEM_A3UP88RDU,&var1918,&internal2_m215_y0};
-_S_tprg  S_tprg_207_2 = {&var1899,&fEM_A3UP85RDU,&fEM_A3UP86RDU,&fEM_A3UP87RDU,&fEM_A3UP88RDU,&var1919,&internal2_m207_y0};
-_S_geterr  S_geterr_187_2 = {&var1898,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var1920};
-_S_drg  S_drg_196_2 = {&var1898,&lRM_1_,&lRM_0_,&fEM_A3UP43RDU,&fEM_A3UP44RDU,&var1921,&internal2_m196_y1};
-_S_drg  S_drg_203_2 = {&var1898,&lRM_1_,&lRM_0_,&fEM_A3UP53RDU,&fEM_A3UP54RDU,&var1922,&internal2_m203_y1};
-_S_geterr  S_geterr_184_2 = {&var1899,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var1923};
-_S_drg  S_drg_185_2 = {&var1899,&lRM_1_,&lRM_0_,&fEM_A3UP43RDU,&fEM_A3UP44RDU,&var1924,&internal2_m185_y1};
-_S_drg  S_drg_193_2 = {&var1899,&lRM_1_,&lRM_0_,&fEM_A3UP53RDU,&fEM_A3UP54RDU,&var1925,&internal2_m193_y1};
-_S_enctkb  S_enctkb_17_2 = {&var1859,&fRM_0_0,&A1IC01UDU,&dEM_A1UC06UDU,&dEM_A1UC05UDU,&fEM_A1UC03RDU,&fRM_100_,&dRM_0_,&var1926,&var1927,&var1928,&internal2_m17_Nk0,&internal2_m17_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_110_2 = {&var1854,&fRM_390_,&B8IC01UDU,&dEM_A8UC06UDU,&dEM_A8UC05UDU,&fEM_A8UC03RDU,&fRM_1500_0,&dRM_0_,&var1929,&var1930,&var1931,&internal2_m110_Nk0,&internal2_m110_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_106_2 = {&var1853,&fRM_390_0,&A8IC01UDU,&dEM_A8UC06UDU,&dEM_A8UC05UDU,&fEM_A8UC03RDU,&fRM_1500_0,&dRM_0_,&var1932,&var1933,&var1934,&internal2_m106_Nk0,&internal2_m106_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_79_2 = {&var1855,&fRM_0_,&B3IC01UDU,&dEM_A3UC06UDU,&dEM_A3UC05UDU,&fEM_A3UC03RDU,&fRM_0_0,&dRM_0_,&var1935,&var1936,&var1937,&internal2_m79_Nk0,&internal2_m79_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_83_2 = {&var1857,&fRM_0_0,&A3IC01UDU,&dEM_A3UC06UDU,&dEM_A3UC05UDU,&fEM_A3UC03RDU,&fRM_0_0,&dRM_0_,&var1938,&var1939,&var1940,&internal2_m83_Nk0,&internal2_m83_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_45_2 = {&var1858,&fRM_0_0,&B2IC01UDU,&dEM_A2UC06UDU,&dEM_A2UC05UDU,&fEM_A2UC03RDU,&fRM_100_,&dRM_0_,&var1941,&var1942,&var1943,&internal2_m45_Nk0,&internal2_m45_SetFlag,&bFirstEnterFlag};
-_S_enctkb  S_enctkb_53_2 = {&var1856,&fRM_0_0,&A2IC01UDU,&dEM_A2UC06UDU,&dEM_A2UC05UDU,&fEM_A2UC03RDU,&fRM_100_,&dRM_0_,&var1944,&var1945,&var1946,&internal2_m53_Nk0,&internal2_m53_SetFlag,&bFirstEnterFlag};
-_S_equz_p  S_equz_p_19_2 = {&R0MW12IP1,&iRM_4_,&var1947};
-_S_enctkb  S_enctkb_15_2 = {&var1860,&fRM_0_0,&B1IC01UDU,&dEM_A1UC06UDU,&dEM_A1UC05UDU,&fEM_A1UC03RDU,&fRM_100_,&dRM_0_,&var1948,&var1949,&var1950,&internal2_m15_Nk0,&internal2_m15_SetFlag,&bFirstEnterFlag};
-_S_ornc  S_ornc_124_2 = {array_m124_x_2,&iRM_8_,&var1951,&vainSChar};
+_S_zzfs  S_zzfs_182_2 = {&B2IE02LDU,&fRM_1_,&var1852,&internal2_m182_tx,&internal2_m182_y0};
+_S_zzfs  S_zzfs_176_2 = {&B3IE01LDU,&fRM_1_,&var1853,&internal2_m176_tx,&internal2_m176_y0};
+_S_zzfs  S_zzfs_173_2 = {&B1IE01LDU,&fRM_1_,&var1854,&internal2_m173_tx,&internal2_m173_y0};
+_S_zzfs  S_zzfs_165_2 = {&B2IE01LDU,&fRM_1_,&var1855,&internal2_m165_tx,&internal2_m165_y0};
+_S_zzfs  S_zzfs_158_2 = {&B1IE02LDU,&fRM_1_,&var1856,&internal2_m158_tx,&internal2_m158_y0};
+_S_zzfs  S_zzfs_155_2 = {&B3IE02LDU,&fRM_1_,&var1857,&internal2_m155_tx,&internal2_m155_y0};
+_S_zzfs  S_zzfs_149_2 = {&A3IE02LDU,&fRM_1_,&var1858,&internal2_m149_tx,&internal2_m149_y0};
+_S_zzfs  S_zzfs_144_2 = {&A3IE01LDU,&fRM_1_,&var1859,&internal2_m144_tx,&internal2_m144_y0};
+_S_zzfs  S_zzfs_141_2 = {&A2IE01LDU,&fRM_1_,&var1860,&internal2_m141_tx,&internal2_m141_y0};
+_S_zzfs  S_zzfs_134_2 = {&A1IE01LDU,&fRM_1_,&var1861,&internal2_m134_tx,&internal2_m134_y0};
+_S_zzfs  S_zzfs_132_2 = {&A2IE02LDU,&fRM_1_,&var1862,&internal2_m132_tx,&internal2_m132_y0};
+_S_zzfs  S_zzfs_127_2 = {&A1IE02LDU,&fRM_1_,&var1863,&internal2_m127_tx,&internal2_m127_y0};
+_S_and4  S_and4_108_2 = {&var1959,&var1894,&B8IS11LDU,&B8IS12LDU,&var1864};
+_S_lkb  S_lkb_112_2 = {&lRM_1_,&var1892,&var1865};
+_S_lkb  S_lkb_109_2 = {&lRM_1_,&var1864,&var1866};
+_S_lkb  S_lkb_80_2 = {&lRM_1_,&var1895,&var1867};
+_S_lkb  S_lkb_52_2 = {&lRM_1_,&var1900,&var1868};
+_S_lkb  S_lkb_83_2 = {&lRM_1_,&var1898,&var1869};
+_S_lkb  S_lkb_48_2 = {&lRM_1_,&var1904,&var1870};
+_S_lkb  S_lkb_24_2 = {&lRM_1_,&var1902,&var1871};
+_S_lkb  S_lkb_21_2 = {&lRM_1_,&var1906,&var1872};
+_S_or2  S_or2_269_2 = {&var1963,&var1912,&var1873};
+_S_bol  S_bol_234_2 = {&fRM_0_5,&var1875,&var1874};
+_S_fsumo  S_fsumo_233_2 = {&var1911,&var1910,&var1875};
+_S_noto  S_noto_262_2 = {&B3VP81LDU,&var1876};
+_S_noto  S_noto_261_2 = {&B2VP82LDU,&var1877};
+_S_noto  S_noto_260_2 = {&B4VP82LDU,&var1878};
+_S_noto  S_noto_242_2 = {&A3VP81LDU,&var1879};
+_S_noto  S_noto_241_2 = {&A2VP82LDU,&var1880};
+_S_noto  S_noto_240_2 = {&A4VP82LDU,&var1881};
+_S_schl24  S_schl24_151_2 = {&A0EE02LZ1,&A0EE03LZ1,&A0EE01LZ1,&A0EE04LZ1,&var1882};
+_S_schl24  S_schl24_147_2 = {&A0EE03LZ2,&A0EE01LZ2,&A0EE02LZ2,&A0EE04LZ2,&var1883};
+_S_or2  S_or2_207_2 = {&var1932,&var1933,&var1884};
+_S_or2  S_or2_203_2 = {&var1935,&var1936,&var1885};
+_S_and2  S_and2_223_2 = {&var1920,&var1931,&var1886};
+_S_or2  S_or2_255_2 = {&var1927,&var1926,&var1887};
+_S_and4  S_and4_162_2 = {&A0EE02LZ1,&A0EE04LZ1,&A0EE02LZ2,&A0EE04LZ2,&var1888};
+_S_or3  S_or3_161_2 = {&var1888,&var1023,&var1882,&var1889};
+_S_and4  S_and4_136_2 = {&A0EE03LZ1,&A0EE01LZ1,&A0EE01LZ2,&A0EE03LZ2,&var1890};
+_S_or3  S_or3_135_2 = {&var1890,&var1883,&var1023,&var1891};
+_S_and3  S_and3_111_2 = {&var1893,&var1959,&A8IS12LDU,&var1892};
+_S_or2  S_or2_104_2 = {&A8MC01LC2,&A8MC01LC1,&var1893};
+_S_or2  S_or2_103_2 = {&B8MC01LC2,&B8MC01LC1,&var1894};
+_S_and3  S_and3_79_2 = {&var1959,&B3IS11LDU,&var1896,&var1895};
+_S_or2  S_or2_71_2 = {&B3MC01LC2,&B3MC01LC1,&var1896};
+_S_or2  S_or2_74_2 = {&A3MC01LC2,&A3MC01LC1,&var1897};
+_S_and3  S_and3_82_2 = {&var1959,&var1897,&A3IS11LDU,&var1898};
+_S_or2  S_or2_43_2 = {&A2MC01LC2,&A2MC01LC1,&var1899};
+_S_and3  S_and3_51_2 = {&var1959,&A2IS11LDU,&var1899,&var1900};
+_S_or2  S_or2_13_2 = {&A1MC01LC2,&A1MC01LC1,&var1901};
+_S_and3  S_and3_23_2 = {&var1901,&var1959,&A1IS11LDU,&var1902};
+_S_or2  S_or2_42_2 = {&B2MC01LC1,&B2MC01LC2,&var1903};
+_S_and3  S_and3_47_2 = {&var1959,&B2IS11LDU,&var1903,&var1904};
+_S_or2  S_or2_11_2 = {&B1MC01LC2,&B1MC01LC1,&var1905};
+_S_and3  S_and3_20_2 = {&var1959,&B1IS11LDU,&var1905,&var1906};
+_S_and2  S_and2_265_2 = {&var604,&var1884,&var1907};
+_S_and2  S_and2_244_2 = {&var604,&var1885,&var1908};
+_S_and2  S_and2_230_2 = {&var1921,&var1930,&var1909};
+_S_scalzz  S_scalzz_195_2 = {&B3IP02IDU,&iRM_3276_,&iRM_16383_,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&var1910,&internal2_m195_y0};
+_S_scalzz  S_scalzz_193_2 = {&A3IP02IDU,&iRM_3276_,&iRM_16383_,&fEM_A3UP04RDU,&fEM_A3UP03RDU,&var1911,&internal2_m193_y0};
+_S_noto  S_noto_180_2 = {&var1913,&var1912};
+_S_andn  S_andn_179_2 = {array_m179_x_2,&iRM_13_,&var1913};
+_S_noto  S_noto_177_2 = {&var1915,&var1914};
+_S_andn  S_andn_166_2 = {array_m166_x_2,&iRM_6_,&var1915};
+_S_noto  S_noto_145_2 = {&var1917,&var1916};
+_S_andn  S_andn_138_2 = {array_m138_x_2,&iRM_6_,&var1917};
+_S_noto  S_noto_264_2 = {&var1926,&var1918};
+_S_noto  S_noto_246_2 = {&var1927,&var1919};
+_S_noto  S_noto_222_2 = {&var1935,&var1920};
+_S_noto  S_noto_231_2 = {&var1932,&var1921};
+_S_noto  S_noto_160_2 = {&var1889,&var1922};
+_S_noto  S_noto_142_2 = {&var1891,&var1923};
+_S_noto  S_noto_267_2 = {&var1928,&var1924};
+_S_noto  S_noto_251_2 = {&var1929,&var1925};
+_S_ornc  S_ornc_254_2 = {array_m254_x_2,&iRM_6_,&var1926,&vainSChar};
+_S_ornc  S_ornc_243_2 = {array_m243_x_2,&iRM_6_,&var1927,&vainSChar};
+_S_ornc  S_ornc_266_2 = {array_m266_x_2,&iRM_6_,&var1928,&vainSChar};
+_S_ornc  S_ornc_245_2 = {array_m245_x_2,&iRM_6_,&var1929,&vainSChar};
+_S_tprg  S_tprg_228_2 = {&var1910,&fEM_A3UP85RDU,&fEM_A3UP86RDU,&fEM_A3UP87RDU,&fEM_A3UP88RDU,&var1930,&internal2_m228_y0};
+_S_tprg  S_tprg_220_2 = {&var1911,&fEM_A3UP85RDU,&fEM_A3UP86RDU,&fEM_A3UP87RDU,&fEM_A3UP88RDU,&var1931,&internal2_m220_y0};
+_S_geterr  S_geterr_200_2 = {&var1910,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var1932};
+_S_drg  S_drg_208_2 = {&var1910,&lRM_1_,&lRM_0_,&fEM_A3UP43RDU,&fEM_A3UP44RDU,&var1933,&internal2_m208_y1};
+_S_drg  S_drg_214_2 = {&var1910,&lRM_1_,&lRM_0_,&fEM_A3UP53RDU,&fEM_A3UP54RDU,&var1934,&internal2_m214_y1};
+_S_geterr  S_geterr_197_2 = {&var1911,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var1935};
+_S_drg  S_drg_198_2 = {&var1911,&lRM_1_,&lRM_0_,&fEM_A3UP43RDU,&fEM_A3UP44RDU,&var1936,&internal2_m198_y1};
+_S_drg  S_drg_205_2 = {&var1911,&lRM_1_,&lRM_0_,&fEM_A3UP53RDU,&fEM_A3UP54RDU,&var1937,&internal2_m205_y1};
+_S_enctkb  S_enctkb_17_2 = {&var1871,&fRM_0_0,&A1IC01UDU,&dEM_A1UC06UDU,&dEM_A1UC05UDU,&fEM_A1UC03RDU,&fRM_100_,&dRM_0_,&var1938,&var1939,&var1940,&internal2_m17_Nk0,&internal2_m17_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_110_2 = {&var1866,&fRM_390_,&B8IC01UDU,&dEM_A8UC06UDU,&dEM_A8UC05UDU,&fEM_A8UC03RDU,&fRM_1500_0,&dRM_0_,&var1941,&var1942,&var1943,&internal2_m110_Nk0,&internal2_m110_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_106_2 = {&var1865,&fRM_390_0,&A8IC01UDU,&dEM_A8UC06UDU,&dEM_A8UC05UDU,&fEM_A8UC03RDU,&fRM_1500_0,&dRM_0_,&var1944,&var1945,&var1946,&internal2_m106_Nk0,&internal2_m106_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_75_2 = {&var1867,&fRM_0_,&B3IC01UDU,&dEM_A3UC06UDU,&dEM_A3UC05UDU,&fEM_A3UC03RDU,&fRM_0_0,&dRM_0_,&var1947,&var1948,&var1949,&internal2_m75_Nk0,&internal2_m75_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_77_2 = {&var1869,&fRM_0_0,&A3IC01UDU,&dEM_A3UC06UDU,&dEM_A3UC05UDU,&fEM_A3UC03RDU,&fRM_0_0,&dRM_0_,&var1950,&var1951,&var1952,&internal2_m77_Nk0,&internal2_m77_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_49_2 = {&var1870,&fRM_0_0,&B2IC01UDU,&dEM_A2UC06UDU,&dEM_A2UC05UDU,&fEM_A2UC03RDU,&fRM_100_,&dRM_0_,&var1953,&var1954,&var1955,&internal2_m49_Nk0,&internal2_m49_SetFlag,&bFirstEnterFlag};
+_S_enctkb  S_enctkb_53_2 = {&var1868,&fRM_0_0,&A2IC01UDU,&dEM_A2UC06UDU,&dEM_A2UC05UDU,&fEM_A2UC03RDU,&fRM_100_,&dRM_0_,&var1956,&var1957,&var1958,&internal2_m53_Nk0,&internal2_m53_SetFlag,&bFirstEnterFlag};
+_S_equz_p  S_equz_p_19_2 = {&R0MW12IP1,&iRM_4_,&var1959};
+_S_enctkb  S_enctkb_15_2 = {&var1872,&fRM_0_0,&B1IC01UDU,&dEM_A1UC06UDU,&dEM_A1UC05UDU,&fEM_A1UC03RDU,&fRM_100_,&dRM_0_,&var1960,&var1961,&var1962,&internal2_m15_Nk0,&internal2_m15_SetFlag,&bFirstEnterFlag};
+_S_ornc  S_ornc_124_2 = {array_m124_x_2,&iRM_8_,&var1963,&vainSChar};
 _S_ovbsb  S_ovbsb_2019_1 = {&var581,&var1,&internal1_m2019_tx};
 _S_ovbsb  S_ovbsb_2018_1 = {&var689,&var2,&internal1_m2018_tx};
 _S_ovbsb  S_ovbsb_774_1 = {&var1091,&var3,&internal1_m774_tx};
@@ -9698,10 +9782,10 @@ _S_or2  S_or2_1628_1 = {&var1483,&var1412,&var282};
 _S_or2  S_or2_1597_1 = {&var1340,&var1412,&var283};
 _S_rs  S_rs_2316_1 = {&var230,&var287,&var284,&vainSBool,&internal1_m2316_q0};
 _S_rs  S_rs_2300_1 = {&var231,&var306,&var285,&vainSBool,&internal1_m2300_q0};
-_S_noto  S_noto_2324_1 = {&var1922,&var286};
+_S_noto  S_noto_2324_1 = {&var1934,&var286};
 _S_and2  S_and2_2307_1 = {&var286,&var285,&var287};
 _S_rs  S_rs_2347_1 = {&var237,&var290,&var288,&vainSBool,&internal1_m2347_q0};
-_S_noto  S_noto_2355_1 = {&var1925,&var289};
+_S_noto  S_noto_2355_1 = {&var1937,&var289};
 _S_and2  S_and2_2338_1 = {&var291,&var289,&var290};
 _S_rs  S_rs_2331_1 = {&var234,&var324,&var291,&vainSBool,&internal1_m2331_q0};
 _S_and4  S_and4_1508_1 = {&var1168,&var1412,&var472,&var1457,&var292};
@@ -9750,10 +9834,10 @@ _S_or2  S_or2_2183_1 = {&var372,&var1240,&var334};
 _S_or2  S_or2_2186_1 = {&var1441,&var333,&var335};
 _S_noto  S_noto_1846_1 = {&B2IS21LDU,&var336};
 _S_noto  S_noto_1845_1 = {&A2IS21LDU,&var337};
-_S_and2  S_and2_2264_1 = {&var1922,&var686,&var338};
+_S_and2  S_and2_2264_1 = {&var1934,&var686,&var338};
 _S_or5  S_or5_2267_1 = {&var861,&var1851,&var355,&var311,&var338,&var339};
 _S_or5  S_or5_2266_1 = {&var612,&var1403,&var688,&var1851,&var341,&var340};
-_S_and2  S_and2_2239_1 = {&var1925,&var687,&var341};
+_S_and2  S_and2_2239_1 = {&var1937,&var687,&var341};
 _S_nocnm  S_nocnm_1888_1 = {&R5IS21LDU,&R5IS11LDU,&var342,&var343,&var344,&internal1_m1888_Pv0,&internal1_m1888_Zv0,&internal1_m1888_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_nocnm  S_nocnm_1887_1 = {&R3IS11LDU,&R3IS21LDU,&var345,&var346,&var347,&internal1_m1887_Pv0,&internal1_m1887_Zv0,&internal1_m1887_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_or5  S_or5_2153_1 = {&var1203,&var911,&C2MD31LP1,&var1202,&var1201,&var348};
@@ -9795,7 +9879,7 @@ _S_and2  S_and2_1464_1 = {&var1524,&var384,&var383};
 _S_noto  S_noto_1461_1 = {&var369,&var384};
 _S_or2  S_or2_2415_1 = {&var395,&var396,&var385};
 _S_and2  S_and2_2369_1 = {&var387,&var380,&var386};
-_S_abs_subf  S_abs_subf_2362_1 = {&var1938,&var420,&fEM_A3UC08RDU,&vainSFloat,&var387};
+_S_abs_subf  S_abs_subf_2362_1 = {&var1950,&var420,&fEM_A3UC08RDU,&vainSFloat,&var387};
 _S_and2  S_and2_2417_1 = {&var380,&var395,&var388};
 _S_or4  S_or4_2154_1 = {&var348,&var1016,&var1126,&var388,&var389};
 _S_noto  S_noto_2421_1 = {&var373,&var390};
@@ -9828,7 +9912,7 @@ _S_and2  S_and2_2440_1 = {&var424,&var380,&var416};
 _S_and2  S_and2_2439_1 = {&var418,&var380,&var417};
 _S_bol  S_bol_2430_1 = {&fEM_R0UN09RDU,&var408,&var418};
 _S_andn  S_andn_2394_1 = {array_m2394_x_1,&iRM_14_,&var419};
-_S_irm  S_irm_2373_1 = {&var1188,&var1186,&B3MC01RP1,&var1938,&var408,&var407,&var380,&var1212,&fEM_R0UN12RDU,&fEM_R0UN13RDU,&fEM_R0UN14RDU,&fEM_R0UT20RDU,&var392,&fEM_R0UN15RDU,&fEM_R0UN25RDU,&fEM_R0UN16RDU,&fEM_R0UN17RDU,&fEM_R0UN18RDU,&fEM_R0UN19RDU,&fEM_R0UN27RDU,&fEM_R0UN26RDU,&fEM_R0UN24RDU,&var420,&var421,&var422,&var423,&var424,&var425,&var426,&var427};
+_S_irm  S_irm_2373_1 = {&var1188,&var1186,&B3MC01RP1,&var1950,&var408,&var407,&var380,&var1212,&fEM_R0UN12RDU,&fEM_R0UN13RDU,&fEM_R0UN14RDU,&fEM_R0UT20RDU,&var392,&fEM_R0UN15RDU,&fEM_R0UN25RDU,&fEM_R0UN16RDU,&fEM_R0UN17RDU,&fEM_R0UN18RDU,&fEM_R0UN19RDU,&fEM_R0UN27RDU,&fEM_R0UN26RDU,&fEM_R0UN24RDU,&var420,&var421,&var422,&var423,&var424,&var425,&var426,&var427};
 _S_noto  S_noto_2213_1 = {&var550,&var428};
 _S_noto  S_noto_2182_1 = {&var551,&var429};
 _S_and4  S_and4_2205_1 = {&var573,&var330,&var543,&var428,&var430};
@@ -9838,15 +9922,15 @@ _S_zpfs  S_zpfs_2192_1 = {&var558,&fRM_210_0,&var433,&internal1_m2192_tx,&intern
 _S_and2  S_and2_610_1 = {&var1571,&var606,&var434};
 _S_and2  S_and2_245_1 = {&var606,&var1604,&var435};
 _S_noto  S_noto_1717_1 = {&var437,&var436};
-_S_abs_subf  S_abs_subf_1708_1 = {&var1935,&var522,&fEM_A3UC07RDU,&vainSFloat,&var437};
+_S_abs_subf  S_abs_subf_1708_1 = {&var1947,&var522,&fEM_A3UC07RDU,&vainSFloat,&var437};
 _S_noto  S_noto_1699_1 = {&var439,&var438};
-_S_abs_subf  S_abs_subf_1688_1 = {&var526,&var1938,&fEM_A3UC07RDU,&vainSFloat,&var439};
+_S_abs_subf  S_abs_subf_1688_1 = {&var526,&var1950,&fEM_A3UC07RDU,&vainSFloat,&var439};
 _S_noto  S_noto_1713_1 = {&var441,&var440};
-_S_abs_subf  S_abs_subf_1707_1 = {&var530,&var1948,&fEM_A1UC07RDU,&vainSFloat,&var441};
+_S_abs_subf  S_abs_subf_1707_1 = {&var530,&var1960,&fEM_A1UC07RDU,&vainSFloat,&var441};
 _S_noto  S_noto_1693_1 = {&var443,&var442};
-_S_abs_subf  S_abs_subf_1687_1 = {&var534,&var1926,&fEM_A1UC07RDU,&vainSFloat,&var443};
-_S_bol  S_bol_1460_1 = {&var1935,&fEM_A3UC09RDU,&var444};
-_S_bol  S_bol_1007_1 = {&var1938,&fEM_A3UC09RDU,&var445};
+_S_abs_subf  S_abs_subf_1687_1 = {&var534,&var1938,&fEM_A1UC07RDU,&vainSFloat,&var443};
+_S_bol  S_bol_1460_1 = {&var1947,&fEM_A3UC09RDU,&var444};
+_S_bol  S_bol_1007_1 = {&var1950,&fEM_A3UC09RDU,&var445};
 _S_noto  S_noto_1953_1 = {&var450,&var446};
 _S_noto  S_noto_1942_1 = {&var448,&var447};
 _S_and3  S_and3_1935_1 = {&var1120,&var449,&var1412,&var448};
@@ -10128,7 +10212,7 @@ _S_and2  S_and2_1736_1 = {&var1832,&var1667,&var721};
 _S_and2  S_and2_1735_1 = {&var1109,&var1667,&var722};
 _S_or2  S_or2_1734_1 = {&B4IS11LDU,&A4IS11LDU,&var723};
 _S_and2  S_and2_1733_1 = {&var723,&var1667,&var724};
-_S_and2  S_and2_1723_1 = {&var1875,&var1667,&var725};
+_S_and2  S_and2_1723_1 = {&var1887,&var1667,&var725};
 _S_and2  S_and2_1722_1 = {&var362,&var1667,&var726};
 _S_and2  S_and2_1721_1 = {&var1098,&var1667,&var727};
 _S_and2  S_and2_1720_1 = {&R3IS21LDU,&var1667,&var728};
@@ -10137,7 +10221,7 @@ _S_or2  S_or2_1793_1 = {&var1847,&var1845,&var730};
 _S_or2  S_or2_2282_1 = {&var1191,&R0MD34LP1,&var731};
 _S_or3  S_or3_2288_1 = {&var1466,&var1468,&var1467,&var732};
 _S_or3  S_or3_2279_1 = {&var1472,&var1474,&var1473,&var733};
-_S_or2  S_or2_1778_1 = {&var1933,&var1667,&var734};
+_S_or2  S_or2_1778_1 = {&var1945,&var1667,&var734};
 _S_or2  S_or2_1750_1 = {&var1710,&var1300,&var735};
 _S_or5  S_or5_1250_1 = {&var1725,&var737,&var1736,&var1722,&var1723,&var736};
 _S_or3  S_or3_1254_1 = {&var1730,&var1731,&var1194,&var737};
@@ -10232,7 +10316,7 @@ _S_and2  S_and2_1355_1 = {&var825,&var1363,&var826};
 _S_and2  S_and2_1346_1 = {&B2MD11LP1,&var1381,&var827};
 _S_or3  S_or3_1335_1 = {&var1445,&var1440,&var983,&var828};
 _S_or5  S_or5_1350_1 = {&var831,&var1203,&var1706,&var1701,&var1700,&var829};
-_S_or2  S_or2_1370_1 = {&var1945,&var1691,&var830};
+_S_or2  S_or2_1370_1 = {&var1957,&var1691,&var830};
 _S_or3  S_or3_1437_1 = {&var1672,&var832,&var833,&var831};
 _S_and2  S_and2_1428_1 = {&var1691,&var1166,&var832};
 _S_and2  S_and2_1427_1 = {&var1116,&var1691,&var833};
@@ -10241,7 +10325,7 @@ _S_and2  S_and2_1425_1 = {&var362,&var848,&var835};
 _S_and3  S_and3_1419_1 = {&var1141,&var1187,&var848,&var836};
 _S_and2  S_and2_1418_1 = {&var700,&var848,&var837};
 _S_and2  S_and2_1403_1 = {&var1682,&var848,&var838};
-_S_and2  S_and2_1387_1 = {&var1875,&var848,&var839};
+_S_and2  S_and2_1387_1 = {&var1887,&var848,&var839};
 _S_and2  S_and2_1405_1 = {&var269,&var848,&var840};
 _S_and2  S_and2_1388_1 = {&R3IS21LDU,&var848,&var841};
 _S_and2  S_and2_1406_1 = {&var844,&var848,&var842};
@@ -10254,7 +10338,7 @@ _S_or3  S_or3_1390_1 = {&var1692,&var847,&var846,&var848};
 _S_and2  S_and2_1484_1 = {&var850,&var1363,&var849};
 _S_or2  S_or2_1483_1 = {&var851,&B3MD12LP1,&var850};
 _S_and2  S_and2_1470_1 = {&B3MD11LP1,&var1359,&var851};
-_S_or2  S_or2_1475_1 = {&var1936,&var1509,&var852};
+_S_or2  S_or2_1475_1 = {&var1948,&var1509,&var852};
 _S_or5  S_or5_1463_1 = {&var611,&var1518,&var1519,&var383,&var1201,&var853};
 _S_and2  S_and2_1535_1 = {&var1509,&var1166,&var854};
 _S_and2  S_and2_1534_1 = {&var1509,&var1116,&var855};
@@ -10272,7 +10356,7 @@ _S_or2  S_or2_1499_1 = {&var1511,&var292,&var866};
 _S_or2  S_or2_1497_1 = {&B4IS11LDU,&A4IS11LDU,&var867};
 _S_and3  S_and3_1496_1 = {&var1501,&var867,&var866,&var868};
 _S_and2  S_and2_1495_1 = {&R3IS21LDU,&var866,&var869};
-_S_and2  S_and2_1494_1 = {&var1875,&var866,&var870};
+_S_and2  S_and2_1494_1 = {&var1887,&var866,&var870};
 _S_and2  S_and2_1094_1 = {&var1180,&var1529,&var871};
 _S_and2  S_and2_1083_1 = {&var1116,&var1541,&var872};
 _S_and2  S_and2_1084_1 = {&var1166,&var1541,&var873};
@@ -10288,8 +10372,8 @@ _S_or2  S_or2_1048_1 = {&B4IS11LDU,&A4IS11LDU,&var882};
 _S_and3  S_and3_1045_1 = {&var882,&var1533,&var881,&var883};
 _S_and2  S_and2_1060_1 = {&var269,&var881,&var884};
 _S_and2  S_and2_1044_1 = {&R3IS21LDU,&var881,&var885};
-_S_and2  S_and2_1043_1 = {&var1875,&var881,&var886};
-_S_or2  S_or2_1023_1 = {&var1541,&var1939,&var887};
+_S_and2  S_and2_1043_1 = {&var1887,&var881,&var886};
+_S_or2  S_or2_1023_1 = {&var1541,&var1951,&var887};
 _S_or5  S_or5_1008_1 = {&var610,&var1202,&var381,&var1550,&var1551,&var888};
 _S_and2  S_and2_1036_1 = {&var1363,&var890,&var889};
 _S_or2  S_or2_1031_1 = {&var891,&A3MD12LP1,&var890};
@@ -10303,14 +10387,14 @@ _S_and2  S_and2_947_1 = {&var1643,&var906,&var897};
 _S_and2  S_and2_949_1 = {&var269,&var906,&var898};
 _S_and2  S_and2_950_1 = {&var900,&var906,&var899};
 _S_or2  S_or2_951_1 = {&var1641,&var1640,&var900};
-_S_and2  S_and2_931_1 = {&var1875,&var906,&var901};
+_S_and2  S_and2_931_1 = {&var1887,&var906,&var901};
 _S_and3  S_and3_933_1 = {&var1642,&var907,&var906,&var902};
 _S_and2  S_and2_932_1 = {&R3IS21LDU,&var906,&var903};
 _S_and3  S_and3_946_1 = {&var1415,&var472,&var1168,&var904};
 _S_and3  S_and3_945_1 = {&var472,&var1417,&var1168,&var905};
 _S_or3  S_or3_936_1 = {&var1651,&var904,&var905,&var906};
 _S_or2  S_or2_934_1 = {&B4IS11LDU,&A4IS11LDU,&var907};
-_S_or2  S_or2_915_1 = {&var1942,&var1650,&var908};
+_S_or2  S_or2_915_1 = {&var1954,&var1650,&var908};
 _S_zpfs  S_zpfs_911_1 = {&var1664,&fRM_3_0,&var909,&internal1_m911_tx,&internal1_m911_y0};
 _S_zpfs  S_zpfs_910_1 = {&var1665,&fRM_2_0,&var910,&internal1_m910_tx,&internal1_m910_y0};
 _S_zpfs  S_zpfs_928_1 = {&var1662,&fEM_A2UL83RDU,&var911,&internal1_m928_tx,&internal1_m928_y0};
@@ -10332,12 +10416,12 @@ _S_or2  S_or2_229_1 = {&var1593,&var1594,&var926};
 _S_and2  S_and2_228_1 = {&var926,&var1604,&var927};
 _S_or2  S_or2_215_1 = {&B4IS11LDU,&A4IS11LDU,&var928};
 _S_and3  S_and3_214_1 = {&var1595,&var928,&var1604,&var929};
-_S_and2  S_and2_212_1 = {&var1875,&var1604,&var930};
+_S_and2  S_and2_212_1 = {&var1887,&var1604,&var930};
 _S_and2  S_and2_213_1 = {&R3IS21LDU,&var1604,&var931};
 _S_and2  S_and2_184_1 = {&var1363,&var934,&var932};
 _S_and2  S_and2_177_1 = {&A1MD11LP1,&var1402,&var933};
 _S_or2  S_or2_183_1 = {&A1MD12LP1,&var933,&var934};
-_S_or2  S_or2_193_1 = {&var1603,&var1927,&var935};
+_S_or2  S_or2_193_1 = {&var1603,&var1939,&var935};
 _S_zpfs  S_zpfs_187_1 = {&var1618,&fRM_2_0,&var936,&internal1_m187_tx,&internal1_m187_y0};
 _S_zpfs  S_zpfs_186_1 = {&var1617,&fRM_2_0,&var937,&internal1_m186_tx,&internal1_m186_y0};
 _S_zpfs  S_zpfs_208_1 = {&var1615,&fEM_A1UL03RDU,&var938,&internal1_m208_tx,&internal1_m208_y0};
@@ -10358,8 +10442,8 @@ _S_or2  S_or2_554_1 = {&B1MD12LP1,&var954,&var952};
 _S_and2  S_and2_556_1 = {&var1363,&var952,&var953};
 _S_and2  S_and2_548_1 = {&B1MD11LP1,&var1382,&var954};
 _S_and2  S_and2_579_1 = {&var1571,&R3IS21LDU,&var955};
-_S_and2  S_and2_578_1 = {&var1571,&var1875,&var956};
-_S_or2  S_or2_561_1 = {&var1570,&var1949,&var957};
+_S_and2  S_and2_578_1 = {&var1571,&var1887,&var956};
+_S_or2  S_or2_561_1 = {&var1570,&var1961,&var957};
 _S_zpfs  S_zpfs_577_1 = {&var1584,&fEM_A1UL03RDU,&var958,&internal1_m577_tx,&internal1_m577_y0};
 _S_or5  S_or5_550_1 = {&var1112,&var958,&var1585,&var1579,&var1580,&var959};
 _S_or2  S_or2_538_1 = {&var1398,&var979,&var960};
@@ -10447,14 +10531,14 @@ _S_and2  S_and2_1216_1 = {&var1677,&var1037,&var1041};
 _S_and2  S_and2_1206_1 = {&var1677,&var362,&var1042};
 _S_and2  S_and2_1205_1 = {&var1098,&var1677,&var1043};
 _S_and2  S_and2_1204_1 = {&var1677,&R3IS21LDU,&var1044};
-_S_and2  S_and2_1207_1 = {&var1677,&var1875,&var1045};
+_S_and2  S_and2_1207_1 = {&var1677,&var1887,&var1045};
 _S_and2  S_and2_1199_1 = {&var455,&var1211,&var1046};
 _S_and2  S_and2_1200_1 = {&var466,&var1209,&var1047};
 _S_and2  S_and2_1201_1 = {&var460,&var1207,&var1048};
 _S_and2  S_and2_1202_1 = {&var463,&var1205,&var1049};
 _S_or2  S_or2_1184_1 = {&R0MD31LP1,&var1051,&var1050};
 _S_and4  S_and4_1185_1 = {&var367,&var366,&var365,&var364,&var1051};
-_S_or2  S_or2_1266_1 = {&var1677,&var1930,&var1052};
+_S_or2  S_or2_1266_1 = {&var1677,&var1942,&var1052};
 _S_or2  S_or2_1239_1 = {&var1727,&var1299,&var1053};
 _S_or2  S_or2_1313_1 = {&var1768,&var1767,&var1054};
 _S_or2  S_or2_1299_1 = {&var1777,&var1776,&var1055};
@@ -10578,16 +10662,16 @@ _S_and2  S_and2_28_1 = {&var1307,&var1394,&var1172};
 _S_and2  S_and2_27_1 = {&var1308,&var1394,&var1173};
 _S_and2  S_and2_835_1 = {&var1747,&var1755,&var1174};
 _S_and2  S_and2_817_1 = {&var1754,&var1831,&var1175};
-_S_bol  S_bol_652_1 = {&var1944,&fRM_20_0,&var1176};
-_S_bol  S_bol_646_1 = {&var1941,&fRM_20_0,&var1177};
-_S_bol  S_bol_638_1 = {&var1941,&fRM_20_03,&var1178};
-_S_bol  S_bol_633_1 = {&var1944,&fRM_20_03,&var1179};
-_S_bol  S_bol_1093_1 = {&var1941,&fRM_20_03,&var1180};
-_S_bol  S_bol_1100_1 = {&var1944,&fRM_20_03,&var1181};
-_S_bol  S_bol_1547_1 = {&var1944,&fRM_20_03,&var1182};
-_S_bol  S_bol_1549_1 = {&var1941,&fRM_20_03,&var1183};
-_S_bol  S_bol_270_1 = {&var1941,&fRM_20_03,&var1184};
-_S_bol  S_bol_274_1 = {&var1944,&fRM_20_03,&var1185};
+_S_bol  S_bol_652_1 = {&var1956,&fRM_20_0,&var1176};
+_S_bol  S_bol_646_1 = {&var1953,&fRM_20_0,&var1177};
+_S_bol  S_bol_638_1 = {&var1953,&fRM_20_03,&var1178};
+_S_bol  S_bol_633_1 = {&var1956,&fRM_20_03,&var1179};
+_S_bol  S_bol_1093_1 = {&var1953,&fRM_20_03,&var1180};
+_S_bol  S_bol_1100_1 = {&var1956,&fRM_20_03,&var1181};
+_S_bol  S_bol_1547_1 = {&var1956,&fRM_20_03,&var1182};
+_S_bol  S_bol_1549_1 = {&var1953,&fRM_20_03,&var1183};
+_S_bol  S_bol_270_1 = {&var1953,&fRM_20_03,&var1184};
+_S_bol  S_bol_274_1 = {&var1956,&fRM_20_03,&var1185};
 _S_sr  S_sr_82_1 = {array_m82_x_1,&iRM_2_,&var1186};
 _S_bol  S_bol_81_1 = {&var1186,&var411,&var1187};
 _S_ma  S_ma_84_1 = {array_m84_x_1,&R0MW15IP1,&iRM_8_,&var1188};
@@ -10635,11 +10719,11 @@ _S_noto  S_noto_1163_1 = {&var813,&var1229};
 _S_noto  S_noto_1162_1 = {&var817,&var1230};
 _S_rs  S_rs_1156_1 = {&var791,&var793,&var1231,&vainSBool,&internal1_m1156_q0};
 _S_rs  S_rs_1171_1 = {&var1298,&var789,&var1232,&vainSBool,&internal1_m1171_q0};
-_S_bol  S_bol_1153_1 = {&var1929,&var518,&var1233};
-_S_bol  S_bol_1152_1 = {&var1932,&var518,&var1234};
+_S_bol  S_bol_1153_1 = {&var1941,&var518,&var1233};
+_S_bol  S_bol_1152_1 = {&var1944,&var518,&var1234};
 _S_noto  S_noto_1112_1 = {&var1293,&var1235};
-_S_bol  S_bol_1150_1 = {&var518,&var1929,&var1236};
-_S_bol  S_bol_1149_1 = {&var518,&var1932,&var1237};
+_S_bol  S_bol_1150_1 = {&var518,&var1941,&var1236};
+_S_bol  S_bol_1149_1 = {&var518,&var1944,&var1237};
 _S_noto  S_noto_1136_1 = {&var1294,&var1238};
 _S_rs  S_rs_2121_1 = {&var673,&var664,&var1239,&vainSBool,&internal1_m2121_q0};
 _S_rs  S_rs_2120_1 = {&var673,&var665,&var1240,&vainSBool,&internal1_m2120_q0};
@@ -10674,8 +10758,8 @@ _S_noto  S_noto_277_1 = {&R2IS11LDU,&var1276};
 _S_provsbr  S_provsbr_287_1 = {&var1318,&var1030,&var1331,&var1348,&var1342,&var1337,&var1334,&var1332,&var1346,&var1341,&var1339,&var1335,&iRM_10_,array_m287_Tpr_1,array_m287_type_1,&var1277,&var1278,&var1279,&var1280,&var1281,&var1282,&var1283,&var1284,&var1285,&internal1_m287_Step,array_m287_rz_1,&internal1_m287_TimS,&internal1_m287_FinPr0,&internal1_m287_ErrPr0,&internal1_m287_sbINI0,&internal1_m287_sbVuIS0,&internal1_m287_sb2UR0,&internal1_m287_sbNupIS0,&internal1_m287_sbVuRB0,&internal1_m287_MyFirstEnterFlag};
 _S_rs  S_rs_1567_1 = {&var1287,&var788,&var1286,&vainSBool,&internal1_m1567_q0};
 _S_provsbr  S_provsbr_1568_1 = {&var1286,&R0MD34LP1,&var1331,&var1348,&var1342,&var1337,&var1334,&var1332,&var1346,&var1341,&var1339,&var1335,&iRM_6_,array_m1568_Tpr_1,array_m1568_type_1,&var1287,&vainSInt,&vainSInt,&vainSBool,&var1288,&var1289,&var1290,&var1291,&var1292,&internal1_m1568_Step,array_m1568_rz_1,&internal1_m1568_TimS,&internal1_m1568_FinPr0,&internal1_m1568_ErrPr0,&internal1_m1568_sbINI0,&internal1_m1568_sbVuIS0,&internal1_m1568_sb2UR0,&internal1_m1568_sbNupIS0,&internal1_m1568_sbVuRB0,&internal1_m1568_MyFirstEnterFlag};
-_S_abs_subf  S_abs_subf_1115_1 = {&var518,&var1932,&fEM_B8UC01RDU,&vainSFloat,&var1293};
-_S_abs_subf  S_abs_subf_1128_1 = {&var1929,&var518,&fEM_B8UC01RDU,&vainSFloat,&var1294};
+_S_abs_subf  S_abs_subf_1115_1 = {&var518,&var1944,&fEM_B8UC01RDU,&vainSFloat,&var1293};
+_S_abs_subf  S_abs_subf_1128_1 = {&var1941,&var518,&fEM_B8UC01RDU,&vainSFloat,&var1294};
 _S_noto  S_noto_713_1 = {&var981,&var1295};
 _S_noto  S_noto_659_1 = {&var997,&var1296};
 _S_noto  S_noto_49_1 = {&var514,&var1297};
@@ -10878,10 +10962,10 @@ _S_noto  S_noto_1510_1 = {&R8IS11LDU,&var1502};
 _S_charint  S_charint_1442_1 = {&var1505,&var1503};
 _S_ornc  S_ornc_1448_1 = {array_m1448_x_1,&iRM_3_,&var1504,&var1505};
 _S_fsumz  S_fsumz_1443_1 = {&var1503,&iRM_1_,&var1506};
-_S_cnshd  S_cnshd_1450_1 = {&R0MD34LP1,&var1935,&var1198,&var522,&var1504,&var853,&var849,&iRM_1_,array_m1450_Lt_fw_1,array_m1450_Vr_fw_1,&iRM_1_,array_m1450_Lt_bw_1,array_m1450_Vr_bw_1,&fEM_A3UC08RDU,&fEM_A3UC07RDU,&fEM_A3UL01RDU,&fEM_A3UC02RDU,&var1507,&vainSBool,&var1508,&var1509,&var1510,&var1511,&var1512,&var1513,&var1514,&var1515,&var1516,&var1517,&internal1_m1450_X0,&internal1_m1450_t0,&internal1_m1450_BLDv0};
+_S_cnshd  S_cnshd_1450_1 = {&R0MD34LP1,&var1947,&var1198,&var522,&var1504,&var853,&var849,&iRM_1_,array_m1450_Lt_fw_1,array_m1450_Vr_fw_1,&iRM_1_,array_m1450_Lt_bw_1,array_m1450_Vr_bw_1,&fEM_A3UC08RDU,&fEM_A3UC07RDU,&fEM_A3UL01RDU,&fEM_A3UC02RDU,&var1507,&vainSBool,&var1508,&var1509,&var1510,&var1511,&var1512,&var1513,&var1514,&var1515,&var1516,&var1517,&internal1_m1450_X0,&internal1_m1450_t0,&internal1_m1450_BLDv0};
 _S_zpfs  S_zpfs_1467_1 = {&var1526,&fRM_2_0,&var1518,&internal1_m1467_tx,&internal1_m1467_y0};
 _S_zpfs  S_zpfs_1468_1 = {&var1525,&fRM_3_0,&var1519,&internal1_m1468_tx,&internal1_m1468_y0};
-_S_fnapb  S_fnapb_1476_1 = {&var1935,&var1198,&var852,&R0MD34LP1,&var1509,&var1516,&fEM_B8UV04RDU,&fEM_A3UV01RDU,&fEM_A3UV02RDU,&fEM_A3UC06RDU,&fEM_A3UC05RDU,&iRM_60_,&fEM_A3UL04RDU,&fEM_A3UL05RDU,&fEM_A3UL03RDU,&var1520,&var1521,&var1522,&var1523,&var1524,&var1525,&var1526,&vainSFloat,&internal1_m1476_xptr,array_m1476_x0_1,array_m1476_tim0_1,&internal1_m1476_sumtim,&internal1_m1476_StSpeed,&internal1_m1476_Vz0,&internal1_m1476_flRazg,&internal1_m1476_DelSp,&internal1_m1476_z0,&internal1_m1476_txZS,&internal1_m1476_tx,&internal1_m1476_txd,&internal1_m1476_txMBl,&internal1_m1476_txBl,&internal1_m1476_Speed0,&internal1_m1476_xz0,&internal1_m1476_tz0,&internal1_m1476_Shift0,&internal1_m1476_ShCntlSp0,&internal1_m1476_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_1476_1 = {&var1947,&var1198,&var852,&R0MD34LP1,&var1509,&var1516,&fEM_B8UV04RDU,&fEM_A3UV01RDU,&fEM_A3UV02RDU,&fEM_A3UC06RDU,&fEM_A3UC05RDU,&iRM_60_,&fEM_A3UL04RDU,&fEM_A3UL05RDU,&fEM_A3UL03RDU,&var1520,&var1521,&var1522,&var1523,&var1524,&var1525,&var1526,&vainSFloat,&internal1_m1476_xptr,array_m1476_x0_1,array_m1476_tim0_1,&internal1_m1476_sumtim,&internal1_m1476_StSpeed,&internal1_m1476_Vz0,&internal1_m1476_flRazg,&internal1_m1476_DelSp,&internal1_m1476_z0,&internal1_m1476_txZS,&internal1_m1476_tx,&internal1_m1476_txd,&internal1_m1476_txMBl,&internal1_m1476_txBl,&internal1_m1476_Speed0,&internal1_m1476_xz0,&internal1_m1476_tz0,&internal1_m1476_Shift0,&internal1_m1476_ShCntlSp0,&internal1_m1476_ShiftControl,&bFirstEnterFlag};
 _S_newstage  S_newstage_1006_1 = {&var1536,&var1504,&var1539,&var1507,&var1527};
 _S_rs  S_rs_686_1 = {&var987,&var991,&var1528,&vainSBool,&internal1_m686_q0};
 _S_noto  S_noto_1099_1 = {&var1152,&var1529};
@@ -10893,10 +10977,10 @@ _S_noto  S_noto_1059_1 = {&R8IS11LDU,&var1534};
 _S_charint  S_charint_983_1 = {&var1537,&var1535};
 _S_ornc  S_ornc_992_1 = {array_m992_x_1,&iRM_3_,&var1536,&var1537};
 _S_fsumz  S_fsumz_984_1 = {&var1535,&iRM_1_,&var1538};
-_S_cnshd  S_cnshd_994_1 = {&R0MD34LP1,&var1938,&var1197,&var526,&var1536,&var888,&var889,&iRM_1_,array_m994_Lt_fw_1,array_m994_Vr_fw_1,&iRM_1_,array_m994_Lt_bw_1,array_m994_Vr_bw_1,&fEM_A3UC08RDU,&fEM_A3UC07RDU,&fEM_A3UL01RDU,&fEM_A3UC02RDU,&var1539,&vainSBool,&var1540,&var1541,&var1542,&var1543,&var1544,&var1545,&var1546,&var1547,&var1548,&var1549,&internal1_m994_X0,&internal1_m994_t0,&internal1_m994_BLDv0};
+_S_cnshd  S_cnshd_994_1 = {&R0MD34LP1,&var1950,&var1197,&var526,&var1536,&var888,&var889,&iRM_1_,array_m994_Lt_fw_1,array_m994_Vr_fw_1,&iRM_1_,array_m994_Lt_bw_1,array_m994_Vr_bw_1,&fEM_A3UC08RDU,&fEM_A3UC07RDU,&fEM_A3UL01RDU,&fEM_A3UC02RDU,&var1539,&vainSBool,&var1540,&var1541,&var1542,&var1543,&var1544,&var1545,&var1546,&var1547,&var1548,&var1549,&internal1_m994_X0,&internal1_m994_t0,&internal1_m994_BLDv0};
 _S_zpfs  S_zpfs_1017_1 = {&var1558,&fRM_2_0,&var1550,&internal1_m1017_tx,&internal1_m1017_y0};
 _S_zpfs  S_zpfs_1016_1 = {&var1557,&fRM_3_0,&var1551,&internal1_m1016_tx,&internal1_m1016_y0};
-_S_fnapb  S_fnapb_1024_1 = {&var1938,&var1197,&var887,&R0MD34LP1,&var1541,&var1548,&fEM_B8UV04RDU,&fEM_A3UV01RDU,&fEM_A3UV02RDU,&fEM_A3UC06RDU,&fEM_A3UC05RDU,&iRM_60_,&fEM_A3UL04RDU,&fEM_A3UL05RDU,&fEM_A3UL03RDU,&var1552,&var1553,&var1554,&var1555,&var1556,&var1557,&var1558,&vainSFloat,&internal1_m1024_xptr,array_m1024_x0_1,array_m1024_tim0_1,&internal1_m1024_sumtim,&internal1_m1024_StSpeed,&internal1_m1024_Vz0,&internal1_m1024_flRazg,&internal1_m1024_DelSp,&internal1_m1024_z0,&internal1_m1024_txZS,&internal1_m1024_tx,&internal1_m1024_txd,&internal1_m1024_txMBl,&internal1_m1024_txBl,&internal1_m1024_Speed0,&internal1_m1024_xz0,&internal1_m1024_tz0,&internal1_m1024_Shift0,&internal1_m1024_ShCntlSp0,&internal1_m1024_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_1024_1 = {&var1950,&var1197,&var887,&R0MD34LP1,&var1541,&var1548,&fEM_B8UV04RDU,&fEM_A3UV01RDU,&fEM_A3UV02RDU,&fEM_A3UC06RDU,&fEM_A3UC05RDU,&iRM_60_,&fEM_A3UL04RDU,&fEM_A3UL05RDU,&fEM_A3UL03RDU,&var1552,&var1553,&var1554,&var1555,&var1556,&var1557,&var1558,&vainSFloat,&internal1_m1024_xptr,array_m1024_x0_1,array_m1024_tim0_1,&internal1_m1024_sumtim,&internal1_m1024_StSpeed,&internal1_m1024_Vz0,&internal1_m1024_flRazg,&internal1_m1024_DelSp,&internal1_m1024_z0,&internal1_m1024_txZS,&internal1_m1024_tx,&internal1_m1024_txd,&internal1_m1024_txMBl,&internal1_m1024_txBl,&internal1_m1024_Speed0,&internal1_m1024_xz0,&internal1_m1024_tz0,&internal1_m1024_Shift0,&internal1_m1024_ShCntlSp0,&internal1_m1024_ShiftControl,&bFirstEnterFlag};
 _S_noto  S_noto_637_1 = {&var1167,&var1559};
 _S_noto  S_noto_604_1 = {&var1666,&var1560};
 _S_noto  S_noto_603_1 = {&var1676,&var1561};
@@ -10905,10 +10989,10 @@ _S_noto  S_noto_592_1 = {&R8IS11LDU,&var1563};
 _S_charint  S_charint_530_1 = {&var1566,&var1564};
 _S_ornc  S_ornc_536_1 = {array_m536_x_1,&iRM_3_,&var1565,&var1566};
 _S_fsumz  S_fsumz_531_1 = {&var1564,&iRM_1_,&var1567};
-_S_cnshd  S_cnshd_539_1 = {&R0MD34LP1,&var1948,&var1199,&var530,&var1565,&var959,&var953,&iRM_2_,array_m539_Lt_fw_1,array_m539_Vr_fw_1,&iRM_1_,array_m539_Lt_bw_1,array_m539_Vr_bw_1,&fEM_A1UC08RDU,&fEM_A1UC07RDU,&fEM_A1UL01RDU,&fEM_A1UC02RDU,&var1568,&vainSBool,&var1569,&var1570,&var1571,&var1572,&var1573,&var1574,&var1575,&var1576,&var1577,&var1578,&internal1_m539_X0,&internal1_m539_t0,&internal1_m539_BLDv0};
+_S_cnshd  S_cnshd_539_1 = {&R0MD34LP1,&var1960,&var1199,&var530,&var1565,&var959,&var953,&iRM_2_,array_m539_Lt_fw_1,array_m539_Vr_fw_1,&iRM_1_,array_m539_Lt_bw_1,array_m539_Vr_bw_1,&fEM_A1UC08RDU,&fEM_A1UC07RDU,&fEM_A1UL01RDU,&fEM_A1UC02RDU,&var1568,&vainSBool,&var1569,&var1570,&var1571,&var1572,&var1573,&var1574,&var1575,&var1576,&var1577,&var1578,&internal1_m539_X0,&internal1_m539_t0,&internal1_m539_BLDv0};
 _S_zpfs  S_zpfs_558_1 = {&var1587,&fRM_2_0,&var1579,&internal1_m558_tx,&internal1_m558_y0};
 _S_zpfs  S_zpfs_557_1 = {&var1586,&fRM_3_0,&var1580,&internal1_m557_tx,&internal1_m557_y0};
-_S_fnapb  S_fnapb_562_1 = {&var1948,&var1199,&var957,&R0MD34LP1,&var1570,&var1577,&fEM_B8UV04RDU,&fEM_A1UV01RDU,&fEM_A1UV02RDU,&fEM_A1UC06RDU,&fEM_A1UC05RDU,&iRM_150_,&fEM_A1UL04RDU,&fEM_A1UL05RDU,&fEM_A1UL03RDU,&var1581,&var1582,&var1583,&var1584,&var1585,&var1586,&var1587,&vainSFloat,&internal1_m562_xptr,array_m562_x0_1,array_m562_tim0_1,&internal1_m562_sumtim,&internal1_m562_StSpeed,&internal1_m562_Vz0,&internal1_m562_flRazg,&internal1_m562_DelSp,&internal1_m562_z0,&internal1_m562_txZS,&internal1_m562_tx,&internal1_m562_txd,&internal1_m562_txMBl,&internal1_m562_txBl,&internal1_m562_Speed0,&internal1_m562_xz0,&internal1_m562_tz0,&internal1_m562_Shift0,&internal1_m562_ShCntlSp0,&internal1_m562_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_562_1 = {&var1960,&var1199,&var957,&R0MD34LP1,&var1570,&var1577,&fEM_B8UV04RDU,&fEM_A1UV01RDU,&fEM_A1UV02RDU,&fEM_A1UC06RDU,&fEM_A1UC05RDU,&iRM_150_,&fEM_A1UL04RDU,&fEM_A1UL05RDU,&fEM_A1UL03RDU,&var1581,&var1582,&var1583,&var1584,&var1585,&var1586,&var1587,&vainSFloat,&internal1_m562_xptr,array_m562_x0_1,array_m562_tim0_1,&internal1_m562_sumtim,&internal1_m562_StSpeed,&internal1_m562_Vz0,&internal1_m562_flRazg,&internal1_m562_DelSp,&internal1_m562_z0,&internal1_m562_txZS,&internal1_m562_tx,&internal1_m562_txd,&internal1_m562_txMBl,&internal1_m562_txBl,&internal1_m562_Speed0,&internal1_m562_xz0,&internal1_m562_tz0,&internal1_m562_Shift0,&internal1_m562_ShCntlSp0,&internal1_m562_ShiftControl,&bFirstEnterFlag};
 _S_noto  S_noto_704_1 = {&R0MD33LP1,&var1588};
 _S_noto  S_noto_276_1 = {&var1152,&var1589};
 _S_newstage  S_newstage_204_1 = {&var1598,&var1565,&var1601,&var1568,&var1590};
@@ -10921,8 +11005,8 @@ _S_noto  S_noto_226_1 = {&R8IS11LDU,&var1596};
 _S_charint  S_charint_158_1 = {&var1599,&var1597};
 _S_ornc  S_ornc_166_1 = {array_m166_x_1,&iRM_3_,&var1598,&var1599};
 _S_fsumz  S_fsumz_159_1 = {&var1597,&iRM_1_,&var1600};
-_S_cnshd  S_cnshd_169_1 = {&R0MD34LP1,&var1926,&var1200,&var534,&var1598,&var939,&var932,&iRM_2_,array_m169_Lt_fw_1,array_m169_Vr_fw_1,&iRM_1_,array_m169_Lt_bw_1,array_m169_Vr_bw_1,&fEM_A1UC08RDU,&fEM_A1UC07RDU,&fEM_A1UL01RDU,&fEM_A1UC02RDU,&var1601,&vainSBool,&var1602,&var1603,&var1604,&var1605,&var1606,&var1607,&var1608,&var1609,&var1610,&var1611,&internal1_m169_X0,&internal1_m169_t0,&internal1_m169_BLDv0};
-_S_fnapb  S_fnapb_194_1 = {&var1926,&var1200,&var935,&R0MD34LP1,&var1603,&var1610,&fEM_B8UV04RDU,&fEM_A1UV01RDU,&fEM_A1UV02RDU,&fEM_A1UC06RDU,&fEM_A1UC05RDU,&iRM_150_,&fEM_A1UL04RDU,&fEM_A1UL05RDU,&fEM_A1UL03RDU,&var1612,&var1613,&var1614,&var1615,&var1616,&var1617,&var1618,&vainSFloat,&internal1_m194_xptr,array_m194_x0_1,array_m194_tim0_1,&internal1_m194_sumtim,&internal1_m194_StSpeed,&internal1_m194_Vz0,&internal1_m194_flRazg,&internal1_m194_DelSp,&internal1_m194_z0,&internal1_m194_txZS,&internal1_m194_tx,&internal1_m194_txd,&internal1_m194_txMBl,&internal1_m194_txBl,&internal1_m194_Speed0,&internal1_m194_xz0,&internal1_m194_tz0,&internal1_m194_Shift0,&internal1_m194_ShCntlSp0,&internal1_m194_ShiftControl,&bFirstEnterFlag};
+_S_cnshd  S_cnshd_169_1 = {&R0MD34LP1,&var1938,&var1200,&var534,&var1598,&var939,&var932,&iRM_2_,array_m169_Lt_fw_1,array_m169_Vr_fw_1,&iRM_1_,array_m169_Lt_bw_1,array_m169_Vr_bw_1,&fEM_A1UC08RDU,&fEM_A1UC07RDU,&fEM_A1UL01RDU,&fEM_A1UC02RDU,&var1601,&vainSBool,&var1602,&var1603,&var1604,&var1605,&var1606,&var1607,&var1608,&var1609,&var1610,&var1611,&internal1_m169_X0,&internal1_m169_t0,&internal1_m169_BLDv0};
+_S_fnapb  S_fnapb_194_1 = {&var1938,&var1200,&var935,&R0MD34LP1,&var1603,&var1610,&fEM_B8UV04RDU,&fEM_A1UV01RDU,&fEM_A1UV02RDU,&fEM_A1UC06RDU,&fEM_A1UC05RDU,&iRM_150_,&fEM_A1UL04RDU,&fEM_A1UL05RDU,&fEM_A1UL03RDU,&var1612,&var1613,&var1614,&var1615,&var1616,&var1617,&var1618,&vainSFloat,&internal1_m194_xptr,array_m194_x0_1,array_m194_tim0_1,&internal1_m194_sumtim,&internal1_m194_StSpeed,&internal1_m194_Vz0,&internal1_m194_flRazg,&internal1_m194_DelSp,&internal1_m194_z0,&internal1_m194_txZS,&internal1_m194_tx,&internal1_m194_txd,&internal1_m194_txMBl,&internal1_m194_txBl,&internal1_m194_Speed0,&internal1_m194_xz0,&internal1_m194_tz0,&internal1_m194_Shift0,&internal1_m194_ShCntlSp0,&internal1_m194_ShiftControl,&bFirstEnterFlag};
 _S_rs  S_rs_709_1 = {&var993,&var996,&var1619,&vainSBool,&internal1_m709_q0};
 _S_newstage  S_newstage_502_1 = {&var1638,&var1629,&var1637,&var1628,&var1620};
 _S_samhd  S_samhd_506_1 = {&R0MD34LP1,&var962,&var962,&var585,&var584,&R2VS12LDU,&R2VS22LDU,&R2IS11LDU,&R2IS11LDU,&R2IS21LDU,&R2IS21LDU,&bRM_0_,&fEM_R1UZ05RDU,&fEM_R1UZ03RDU,&fEM_R1UZ04RDU,&var1621,&var1622,&var1623,&var1624,&var1625,&var1626,&vainSBool,&vainSBool,&var1627,&var1628,&var1629,&internal1_m506_DvUp0,&internal1_m506_DvDw0,&internal1_m506_FDvUp0,&internal1_m506_FDvDw0,&internal1_m506_BlDv0,&internal1_m506_Pkv0,&internal1_m506_Pkav0,&internal1_m506_Zkv0,&internal1_m506_Zkav0,&internal1_m506_txNm,&internal1_m506_txSm,&internal1_m506_txHr,&internal1_m506_txLd,&internal1_m506_fef,&bFirstEnterFlag};
@@ -10935,15 +11019,15 @@ _S_noto  S_noto_948_1 = {&R8IS11LDU,&var1643};
 _S_charint  S_charint_888_1 = {&var1646,&var1644};
 _S_ornc  S_ornc_895_1 = {array_m895_x_1,&iRM_3_,&var1645,&var1646};
 _S_fsumz  S_fsumz_889_1 = {&var1644,&iRM_1_,&var1647};
-_S_cnshd  S_cnshd_898_1 = {&R0MD34LP1,&var1941,&var1196,&var1196,&var1645,&var912,&var826,&iRM_2_,array_m898_Lt_fw_1,array_m898_Vr_fw_1,&iRM_1_,array_m898_Lt_bw_1,array_m898_Vr_bw_1,&fEM_A2UC08RDU,&fEM_A2UC07RDU,&fEM_A2UL01RDU,&fEM_A2UC02RDU,&var1648,&vainSBool,&var1649,&var1650,&var1651,&var1652,&var1653,&var1654,&var1655,&var1656,&var1657,&var1658,&internal1_m898_X0,&internal1_m898_t0,&internal1_m898_BLDv0};
-_S_fnapb  S_fnapb_916_1 = {&var1941,&var1196,&var908,&R0MD34LP1,&var1650,&var1657,&fEM_B8UV04RDU,&fEM_A2UV01RDU,&fEM_A2UV02RDU,&fEM_A2UC06RDU,&fEM_A2UC05RDU,&iRM_80_,&fEM_A2UL04RDU,&fEM_A2UL05RDU,&fEM_A2UL83RDU,&var1659,&var1660,&var1661,&var1662,&var1663,&var1664,&var1665,&vainSFloat,&internal1_m916_xptr,array_m916_x0_1,array_m916_tim0_1,&internal1_m916_sumtim,&internal1_m916_StSpeed,&internal1_m916_Vz0,&internal1_m916_flRazg,&internal1_m916_DelSp,&internal1_m916_z0,&internal1_m916_txZS,&internal1_m916_tx,&internal1_m916_txd,&internal1_m916_txMBl,&internal1_m916_txBl,&internal1_m916_Speed0,&internal1_m916_xz0,&internal1_m916_tz0,&internal1_m916_Shift0,&internal1_m916_ShCntlSp0,&internal1_m916_ShiftControl,&bFirstEnterFlag};
-_S_cnshd  S_cnshd_1757_1 = {&R0MD34LP1,&var1932,&var518,&var518,&var735,&var738,&lRM_1_,&iRM_1_,array_m1757_Lt_fw_1,array_m1757_Vr_fw_1,&iRM_1_,array_m1757_Lt_bw_1,array_m1757_Vr_bw_1,&fEM_B8UC01RDU,&fEM_B8UC02RDU,&fEM_B8UL01RDU,&fRM_0_0,&var1666,&vainSBool,&vainSFloat,&var1667,&var1668,&var1669,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&var1670,&internal1_m1757_X0,&internal1_m1757_t0,&internal1_m1757_BLDv0};
+_S_cnshd  S_cnshd_898_1 = {&R0MD34LP1,&var1953,&var1196,&var1196,&var1645,&var912,&var826,&iRM_2_,array_m898_Lt_fw_1,array_m898_Vr_fw_1,&iRM_1_,array_m898_Lt_bw_1,array_m898_Vr_bw_1,&fEM_A2UC08RDU,&fEM_A2UC07RDU,&fEM_A2UL01RDU,&fEM_A2UC02RDU,&var1648,&vainSBool,&var1649,&var1650,&var1651,&var1652,&var1653,&var1654,&var1655,&var1656,&var1657,&var1658,&internal1_m898_X0,&internal1_m898_t0,&internal1_m898_BLDv0};
+_S_fnapb  S_fnapb_916_1 = {&var1953,&var1196,&var908,&R0MD34LP1,&var1650,&var1657,&fEM_B8UV04RDU,&fEM_A2UV01RDU,&fEM_A2UV02RDU,&fEM_A2UC06RDU,&fEM_A2UC05RDU,&iRM_80_,&fEM_A2UL04RDU,&fEM_A2UL05RDU,&fEM_A2UL83RDU,&var1659,&var1660,&var1661,&var1662,&var1663,&var1664,&var1665,&vainSFloat,&internal1_m916_xptr,array_m916_x0_1,array_m916_tim0_1,&internal1_m916_sumtim,&internal1_m916_StSpeed,&internal1_m916_Vz0,&internal1_m916_flRazg,&internal1_m916_DelSp,&internal1_m916_z0,&internal1_m916_txZS,&internal1_m916_tx,&internal1_m916_txd,&internal1_m916_txMBl,&internal1_m916_txBl,&internal1_m916_Speed0,&internal1_m916_xz0,&internal1_m916_tz0,&internal1_m916_Shift0,&internal1_m916_ShCntlSp0,&internal1_m916_ShiftControl,&bFirstEnterFlag};
+_S_cnshd  S_cnshd_1757_1 = {&R0MD34LP1,&var1944,&var518,&var518,&var735,&var738,&lRM_1_,&iRM_1_,array_m1757_Lt_fw_1,array_m1757_Vr_fw_1,&iRM_1_,array_m1757_Lt_bw_1,array_m1757_Vr_bw_1,&fEM_B8UC01RDU,&fEM_B8UC02RDU,&fEM_B8UL01RDU,&fRM_0_0,&var1666,&vainSBool,&vainSFloat,&var1667,&var1668,&var1669,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&var1670,&internal1_m1757_X0,&internal1_m1757_t0,&internal1_m1757_BLDv0};
 _S_newstage  S_newstage_1379_1 = {&var1684,&var1645,&var1689,&var1648,&var1671};
 _S_orn  S_orn_1413_1 = {array_m1413_x_1,&iRM_10_,&var1672};
 _S_orn  S_orn_147_1 = {array_m147_x_1,&iRM_5_,&var1673};
 _S_noto  S_noto_1412_1 = {&var1666,&var1674};
 _S_noto  S_noto_1411_1 = {&var1676,&var1675};
-_S_cnshd  S_cnshd_1240_1 = {&R0MD34LP1,&var1929,&var518,&var518,&var1053,&var736,&lRM_1_,&iRM_1_,array_m1240_Lt_fw_1,array_m1240_Vr_fw_1,&iRM_1_,array_m1240_Lt_bw_1,array_m1240_Vr_bw_1,&fEM_B8UC01RDU,&fEM_B8UC02RDU,&fEM_B8UL01RDU,&fRM_0_0,&var1676,&vainSBool,&vainSFloat,&var1677,&var1678,&var1679,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&var1680,&internal1_m1240_X0,&internal1_m1240_t0,&internal1_m1240_BLDv0};
+_S_cnshd  S_cnshd_1240_1 = {&R0MD34LP1,&var1941,&var518,&var518,&var1053,&var736,&lRM_1_,&iRM_1_,array_m1240_Lt_fw_1,array_m1240_Vr_fw_1,&iRM_1_,array_m1240_Lt_bw_1,array_m1240_Vr_bw_1,&fEM_B8UC01RDU,&fEM_B8UC02RDU,&fEM_B8UL01RDU,&fRM_0_0,&var1676,&vainSBool,&vainSFloat,&var1677,&var1678,&var1679,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&var1680,&internal1_m1240_X0,&internal1_m1240_t0,&internal1_m1240_BLDv0};
 _S_noto  S_noto_1392_1 = {&var1168,&var1681};
 _S_noto  S_noto_1404_1 = {&R8IS11LDU,&var1682};
 _S_charint  S_charint_1327_1 = {&var1685,&var1683};
@@ -10951,16 +11035,16 @@ _S_ornc  S_ornc_1336_1 = {array_m1336_x_1,&iRM_3_,&var1684,&var1685};
 _S_noto  S_noto_668_1 = {&lEM_R0MD01LC1,&var1686};
 _S_fsumz  S_fsumz_1328_1 = {&var1683,&iRM_1_,&var1687};
 _S_rs  S_rs_681_1 = {&var1004,&var1006,&var1688,&vainSBool,&internal1_m681_q0};
-_S_cnshd  S_cnshd_1337_1 = {&R0MD34LP1,&var1944,&var1195,&var1195,&var1684,&var829,&var822,&iRM_2_,array_m1337_Lt_fw_1,array_m1337_Vr_fw_1,&iRM_1_,array_m1337_Lt_bw_1,array_m1337_Vr_bw_1,&fEM_A2UC08RDU,&fEM_A2UC07RDU,&fEM_A2UL01RDU,&fEM_A2UC02RDU,&var1689,&vainSBool,&var1690,&var1691,&var1692,&var1693,&var1694,&var1695,&var1696,&var1697,&var1698,&var1699,&internal1_m1337_X0,&internal1_m1337_t0,&internal1_m1337_BLDv0};
+_S_cnshd  S_cnshd_1337_1 = {&R0MD34LP1,&var1956,&var1195,&var1195,&var1684,&var829,&var822,&iRM_2_,array_m1337_Lt_fw_1,array_m1337_Vr_fw_1,&iRM_1_,array_m1337_Lt_bw_1,array_m1337_Vr_bw_1,&fEM_A2UC08RDU,&fEM_A2UC07RDU,&fEM_A2UL01RDU,&fEM_A2UC02RDU,&var1689,&vainSBool,&var1690,&var1691,&var1692,&var1693,&var1694,&var1695,&var1696,&var1697,&var1698,&var1699,&internal1_m1337_X0,&internal1_m1337_t0,&internal1_m1337_BLDv0};
 _S_zpfs  S_zpfs_1366_1 = {&var1708,&fRM_2_0,&var1700,&internal1_m1366_tx,&internal1_m1366_y0};
 _S_zpfs  S_zpfs_1365_1 = {&var1707,&fRM_3_0,&var1701,&internal1_m1365_tx,&internal1_m1365_y0};
-_S_fnapb  S_fnapb_1372_1 = {&var1944,&var1195,&var830,&R0MD34LP1,&var1691,&var1698,&fEM_B8UV04RDU,&fEM_A2UV01RDU,&fEM_A2UV02RDU,&fEM_A2UC06RDU,&fEM_A2UC05RDU,&iRM_80_,&fEM_A2UL04RDU,&fEM_A2UL05RDU,&fEM_A2UL03RDU,&var1702,&var1703,&var1704,&var1705,&var1706,&var1707,&var1708,&vainSFloat,&internal1_m1372_xptr,array_m1372_x0_1,array_m1372_tim0_1,&internal1_m1372_sumtim,&internal1_m1372_StSpeed,&internal1_m1372_Vz0,&internal1_m1372_flRazg,&internal1_m1372_DelSp,&internal1_m1372_z0,&internal1_m1372_txZS,&internal1_m1372_tx,&internal1_m1372_txd,&internal1_m1372_txMBl,&internal1_m1372_txBl,&internal1_m1372_Speed0,&internal1_m1372_xz0,&internal1_m1372_tz0,&internal1_m1372_Shift0,&internal1_m1372_ShCntlSp0,&internal1_m1372_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_1372_1 = {&var1956,&var1195,&var830,&R0MD34LP1,&var1691,&var1698,&fEM_B8UV04RDU,&fEM_A2UV01RDU,&fEM_A2UV02RDU,&fEM_A2UC06RDU,&fEM_A2UC05RDU,&iRM_80_,&fEM_A2UL04RDU,&fEM_A2UL05RDU,&fEM_A2UL03RDU,&var1702,&var1703,&var1704,&var1705,&var1706,&var1707,&var1708,&vainSFloat,&internal1_m1372_xptr,array_m1372_x0_1,array_m1372_tim0_1,&internal1_m1372_sumtim,&internal1_m1372_StSpeed,&internal1_m1372_Vz0,&internal1_m1372_flRazg,&internal1_m1372_DelSp,&internal1_m1372_z0,&internal1_m1372_txZS,&internal1_m1372_tx,&internal1_m1372_txd,&internal1_m1372_txMBl,&internal1_m1372_txBl,&internal1_m1372_Speed0,&internal1_m1372_xz0,&internal1_m1372_tz0,&internal1_m1372_Shift0,&internal1_m1372_ShCntlSp0,&internal1_m1372_ShiftControl,&bFirstEnterFlag};
 _S_noto  S_noto_1738_1 = {&R8IS11LDU,&var1709};
 _S_rs  S_rs_701_1 = {&var1007,&var1008,&var1710,&vainSBool,&internal1_m701_q0};
 _S_zpfs  S_zpfs_1771_1 = {&var1721,&fRM_2_0,&var1711,&internal1_m1771_tx,&internal1_m1771_y0};
 _S_zpfs  S_zpfs_1775_1 = {&var1720,&fRM_3_0,&var1712,&internal1_m1775_tx,&internal1_m1775_y0};
 _S_samhd  S_samhd_1760_1 = {&R0MD34LP1,&var738,&var738,&var1668,&var1669,&var1715,&var1716,&A8IS12LDU,&A8IS12LDU,&A8IS22LDU,&A8IS22LDU,&bRM_3_,&fEM_B8UL05RDU,&fEM_B8UL03RDU,&fEM_B8UL07RDU,&var1713,&var1714,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSInt,&vainSBool,&vainSBool,&internal1_m1760_DvUp0,&internal1_m1760_DvDw0,&internal1_m1760_FDvUp0,&internal1_m1760_FDvDw0,&internal1_m1760_BlDv0,&internal1_m1760_Pkv0,&internal1_m1760_Pkav0,&internal1_m1760_Zkv0,&internal1_m1760_Zkav0,&internal1_m1760_txNm,&internal1_m1760_txSm,&internal1_m1760_txHr,&internal1_m1760_txLd,&internal1_m1760_fef,&bFirstEnterFlag};
-_S_fnapb  S_fnapb_1779_1 = {&var1932,&var518,&var734,&R0MD34LP1,&var1667,&fEM_B8UV03RDU,&fEM_B8UV04RDU,&fEM_B8UV01RDU,&fEM_B8UV02RDU,&fEM_B8UC06RDU,&fEM_B8UC05RDU,&iRM_20_,&fEM_B8UL04RDU,&fEM_B8UL05RDU,&fEM_B8UL03RDU,&var1715,&var1716,&var1717,&var1718,&var1719,&var1720,&var1721,&vainSFloat,&internal1_m1779_xptr,array_m1779_x0_1,array_m1779_tim0_1,&internal1_m1779_sumtim,&internal1_m1779_StSpeed,&internal1_m1779_Vz0,&internal1_m1779_flRazg,&internal1_m1779_DelSp,&internal1_m1779_z0,&internal1_m1779_txZS,&internal1_m1779_tx,&internal1_m1779_txd,&internal1_m1779_txMBl,&internal1_m1779_txBl,&internal1_m1779_Speed0,&internal1_m1779_xz0,&internal1_m1779_tz0,&internal1_m1779_Shift0,&internal1_m1779_ShCntlSp0,&internal1_m1779_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_1779_1 = {&var1944,&var518,&var734,&R0MD34LP1,&var1667,&fEM_B8UV03RDU,&fEM_B8UV04RDU,&fEM_B8UV01RDU,&fEM_B8UV02RDU,&fEM_B8UC06RDU,&fEM_B8UC05RDU,&iRM_20_,&fEM_B8UL04RDU,&fEM_B8UL05RDU,&fEM_B8UL03RDU,&var1715,&var1716,&var1717,&var1718,&var1719,&var1720,&var1721,&vainSFloat,&internal1_m1779_xptr,array_m1779_x0_1,array_m1779_tim0_1,&internal1_m1779_sumtim,&internal1_m1779_StSpeed,&internal1_m1779_Vz0,&internal1_m1779_flRazg,&internal1_m1779_DelSp,&internal1_m1779_z0,&internal1_m1779_txZS,&internal1_m1779_tx,&internal1_m1779_txd,&internal1_m1779_txMBl,&internal1_m1779_txBl,&internal1_m1779_Speed0,&internal1_m1779_xz0,&internal1_m1779_tz0,&internal1_m1779_Shift0,&internal1_m1779_ShCntlSp0,&internal1_m1779_ShiftControl,&bFirstEnterFlag};
 _S_zpfs  S_zpfs_1257_1 = {&var1738,&fRM_2_0,&var1722,&internal1_m1257_tx,&internal1_m1257_y0};
 _S_zpfs  S_zpfs_1261_1 = {&var1737,&fRM_3_0,&var1723,&internal1_m1261_tx,&internal1_m1261_y0};
 _S_noto  S_noto_1221_1 = {&R8IS11LDU,&var1724};
@@ -10970,7 +11054,7 @@ _S_rs  S_rs_691_1 = {&var1009,&var1010,&var1727,&vainSBool,&internal1_m691_q0};
 _S_orn  S_orn_658_1 = {array_m658_x_1,&iRM_18_,&var1728};
 _S_rs  S_rs_656_1 = {&var1493,&var1125,&var1729,&vainSBool,&internal1_m656_q0};
 _S_samhd  S_samhd_1246_1 = {&R0MD34LP1,&var736,&var736,&var1678,&var1679,&var1732,&var1733,&var361,&var361,&var360,&var360,&bRM_3_,&fEM_B8UL05RDU,&fEM_B8UL03RDU,&fEM_B8UL07RDU,&vainSBool,&vainSBool,&var1730,&var1731,&vainSBool,&vainSBool,&vainSBool,&vainSBool,&vainSInt,&vainSBool,&vainSBool,&internal1_m1246_DvUp0,&internal1_m1246_DvDw0,&internal1_m1246_FDvUp0,&internal1_m1246_FDvDw0,&internal1_m1246_BlDv0,&internal1_m1246_Pkv0,&internal1_m1246_Pkav0,&internal1_m1246_Zkv0,&internal1_m1246_Zkav0,&internal1_m1246_txNm,&internal1_m1246_txSm,&internal1_m1246_txHr,&internal1_m1246_txLd,&internal1_m1246_fef,&bFirstEnterFlag};
-_S_fnapb  S_fnapb_1267_1 = {&var1929,&var518,&var1052,&R0MD34LP1,&var1677,&fEM_B8UV03RDU,&fEM_B8UV04RDU,&fEM_B8UV01RDU,&fEM_B8UV02RDU,&fEM_B8UC06RDU,&fEM_B8UC05RDU,&iRM_20_,&fEM_B8UL04RDU,&fEM_B8UL06RDU,&fEM_B8UL03RDU,&var1732,&var1733,&var1734,&var1735,&var1736,&var1737,&var1738,&vainSFloat,&internal1_m1267_xptr,array_m1267_x0_1,array_m1267_tim0_1,&internal1_m1267_sumtim,&internal1_m1267_StSpeed,&internal1_m1267_Vz0,&internal1_m1267_flRazg,&internal1_m1267_DelSp,&internal1_m1267_z0,&internal1_m1267_txZS,&internal1_m1267_tx,&internal1_m1267_txd,&internal1_m1267_txMBl,&internal1_m1267_txBl,&internal1_m1267_Speed0,&internal1_m1267_xz0,&internal1_m1267_tz0,&internal1_m1267_Shift0,&internal1_m1267_ShCntlSp0,&internal1_m1267_ShiftControl,&bFirstEnterFlag};
+_S_fnapb  S_fnapb_1267_1 = {&var1941,&var518,&var1052,&R0MD34LP1,&var1677,&fEM_B8UV03RDU,&fEM_B8UV04RDU,&fEM_B8UV01RDU,&fEM_B8UV02RDU,&fEM_B8UC06RDU,&fEM_B8UC05RDU,&iRM_20_,&fEM_B8UL04RDU,&fEM_B8UL06RDU,&fEM_B8UL03RDU,&var1732,&var1733,&var1734,&var1735,&var1736,&var1737,&var1738,&vainSFloat,&internal1_m1267_xptr,array_m1267_x0_1,array_m1267_tim0_1,&internal1_m1267_sumtim,&internal1_m1267_StSpeed,&internal1_m1267_Vz0,&internal1_m1267_flRazg,&internal1_m1267_DelSp,&internal1_m1267_z0,&internal1_m1267_txZS,&internal1_m1267_tx,&internal1_m1267_txd,&internal1_m1267_txMBl,&internal1_m1267_txBl,&internal1_m1267_Speed0,&internal1_m1267_xz0,&internal1_m1267_tz0,&internal1_m1267_Shift0,&internal1_m1267_ShCntlSp0,&internal1_m1267_ShiftControl,&bFirstEnterFlag};
 _S_noto  S_noto_796_1 = {&A5IS21LDU,&var1739};
 _S_vmemb  S_vmemb_819_1 = {&var1741,&var1740,&internal1_m819_x0};
 _S_noto  S_noto_827_1 = {&var362,&var1741};
@@ -12896,7 +12980,7 @@ void ZeroVar()
    var1860.b=0;
    var1861.b=0;
    var1862.b=0;
-   var1863.f=0.0;
+   var1863.b=0;
    var1864.b=0;
    var1865.b=0;
    var1866.b=0;
@@ -12908,7 +12992,7 @@ void ZeroVar()
    var1872.b=0;
    var1873.b=0;
    var1874.b=0;
-   var1875.b=0;
+   var1875.f=0.0;
    var1876.b=0;
    var1877.b=0;
    var1878.b=0;
@@ -12931,8 +13015,8 @@ void ZeroVar()
    var1895.b=0;
    var1896.b=0;
    var1897.b=0;
-   var1898.f=0.0;
-   var1899.f=0.0;
+   var1898.b=0;
+   var1899.b=0;
    var1900.b=0;
    var1901.b=0;
    var1902.b=0;
@@ -12943,8 +13027,8 @@ void ZeroVar()
    var1907.b=0;
    var1908.b=0;
    var1909.b=0;
-   var1910.b=0;
-   var1911.b=0;
+   var1910.f=0.0;
+   var1911.f=0.0;
    var1912.b=0;
    var1913.b=0;
    var1914.b=0;
@@ -12959,16 +13043,16 @@ void ZeroVar()
    var1923.b=0;
    var1924.b=0;
    var1925.b=0;
-   var1926.f=0.0;
+   var1926.b=0;
    var1927.b=0;
    var1928.b=0;
-   var1929.f=0.0;
+   var1929.b=0;
    var1930.b=0;
    var1931.b=0;
-   var1932.f=0.0;
+   var1932.b=0;
    var1933.b=0;
    var1934.b=0;
-   var1935.f=0.0;
+   var1935.b=0;
    var1936.b=0;
    var1937.b=0;
    var1938.f=0.0;
@@ -12980,11 +13064,23 @@ void ZeroVar()
    var1944.f=0.0;
    var1945.b=0;
    var1946.b=0;
-   var1947.b=0;
-   var1948.f=0.0;
+   var1947.f=0.0;
+   var1948.b=0;
    var1949.b=0;
-   var1950.b=0;
+   var1950.f=0.0;
    var1951.b=0;
+   var1952.b=0;
+   var1953.f=0.0;
+   var1954.b=0;
+   var1955.b=0;
+   var1956.f=0.0;
+   var1957.b=0;
+   var1958.b=0;
+   var1959.b=0;
+   var1960.f=0.0;
+   var1961.b=0;
+   var1962.b=0;
+   var1963.b=0;
    vainSLong.l=0L;
    vainSFloat.f=0.0;
    vainSInt.i=0;
@@ -12997,114 +13093,126 @@ void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   equz_p(&S_equz_p_19_2);
-  andn(&S_andn_133_2);
-  noto(&S_noto_134_2);
-  andn(&S_andn_150_2);
-  noto(&S_noto_153_2);
-  scalzz(&S_scalzz_180_2);
-  scalzz(&S_scalzz_182_2);
+  scalzz(&S_scalzz_193_2);
+  scalzz(&S_scalzz_195_2);
   or2(&S_or2_11_2);
   or2(&S_or2_42_2);
   or2(&S_or2_13_2);
   or2(&S_or2_43_2);
   or2(&S_or2_74_2);
   or2(&S_or2_71_2);
-  and3(&S_and3_77_2);
+  and3(&S_and3_79_2);
   or2(&S_or2_103_2);
   or2(&S_or2_104_2);
   and3(&S_and3_111_2);
   and4(&S_and4_136_2);
-  and4(&S_and4_159_2);
-  schl24(&S_schl24_143_2);
-  schl24(&S_schl24_149_2);
-  noto(&S_noto_227_2);
-  noto(&S_noto_228_2);
-  noto(&S_noto_229_2);
-  noto(&S_noto_247_2);
-  noto(&S_noto_248_2);
-  noto(&S_noto_249_2);
-  fsumo(&S_fsumo_220_2);
-  bol(&S_bol_221_2);
-  lkb(&S_lkb_78_2);
+  and4(&S_and4_162_2);
+  schl24(&S_schl24_147_2);
+  schl24(&S_schl24_151_2);
+  noto(&S_noto_240_2);
+  noto(&S_noto_241_2);
+  noto(&S_noto_242_2);
+  noto(&S_noto_260_2);
+  noto(&S_noto_261_2);
+  noto(&S_noto_262_2);
+  fsumo(&S_fsumo_233_2);
+  bol(&S_bol_234_2);
+  lkb(&S_lkb_80_2);
   lkb(&S_lkb_112_2);
   and4(&S_and4_108_2);
-  enctkb(&S_enctkb_79_2);
+  zzfs(&S_zzfs_127_2);
+  zzfs(&S_zzfs_132_2);
+  zzfs(&S_zzfs_134_2);
+  zzfs(&S_zzfs_141_2);
+  zzfs(&S_zzfs_144_2);
+  zzfs(&S_zzfs_149_2);
+  zzfs(&S_zzfs_155_2);
+  zzfs(&S_zzfs_158_2);
+  zzfs(&S_zzfs_165_2);
+  zzfs(&S_zzfs_173_2);
+  zzfs(&S_zzfs_176_2);
+  zzfs(&S_zzfs_182_2);
+  enctkb(&S_enctkb_75_2);
   enctkb(&S_enctkb_106_2);
-  drg(&S_drg_193_2);
-  drg(&S_drg_185_2);
-  geterr(&S_geterr_184_2);
-  drg(&S_drg_203_2);
-  drg(&S_drg_196_2);
-  geterr(&S_geterr_187_2);
-  tprg(&S_tprg_207_2);
-  tprg(&S_tprg_215_2);
-  noto(&S_noto_218_2);
-  noto(&S_noto_209_2);
-  andn(&S_andn_168_2);
-  noto(&S_noto_169_2);
-  and2(&S_and2_217_2);
+  drg(&S_drg_205_2);
+  drg(&S_drg_198_2);
+  geterr(&S_geterr_197_2);
+  drg(&S_drg_214_2);
+  drg(&S_drg_208_2);
+  geterr(&S_geterr_200_2);
+  tprg(&S_tprg_220_2);
+  tprg(&S_tprg_228_2);
+  noto(&S_noto_231_2);
+  noto(&S_noto_222_2);
+  andn(&S_andn_138_2);
+  noto(&S_noto_145_2);
+  andn(&S_andn_166_2);
+  noto(&S_noto_177_2);
+  andn(&S_andn_179_2);
+  noto(&S_noto_180_2);
+  and2(&S_and2_230_2);
   and3(&S_and3_20_2);
-  and3(&S_and3_48_2);
+  and3(&S_and3_47_2);
   and3(&S_and3_23_2);
   and3(&S_and3_51_2);
-  and3(&S_and3_81_2);
+  and3(&S_and3_82_2);
   or3(&S_or3_135_2);
-  or3(&S_or3_158_2);
-  and2(&S_and2_210_2);
-  or2(&S_or2_191_2);
-  or2(&S_or2_195_2);
+  or3(&S_or3_161_2);
+  and2(&S_and2_223_2);
+  or2(&S_or2_203_2);
+  or2(&S_or2_207_2);
   lkb(&S_lkb_21_2);
   lkb(&S_lkb_24_2);
-  lkb(&S_lkb_49_2);
-  lkb(&S_lkb_82_2);
+  lkb(&S_lkb_48_2);
+  lkb(&S_lkb_83_2);
   lkb(&S_lkb_52_2);
   lkb(&S_lkb_109_2);
   enctkb(&S_enctkb_15_2);
   enctkb(&S_enctkb_53_2);
-  enctkb(&S_enctkb_45_2);
-  enctkb(&S_enctkb_83_2);
+  enctkb(&S_enctkb_49_2);
+  enctkb(&S_enctkb_77_2);
   enctkb(&S_enctkb_110_2);
   enctkb(&S_enctkb_17_2);
-  noto(&S_noto_141_2);
-  noto(&S_noto_157_2);
-  and2(&S_and2_231_2);
-  and2(&S_and2_252_2);
+  noto(&S_noto_142_2);
+  noto(&S_noto_160_2);
+  and2(&S_and2_244_2);
+  and2(&S_and2_265_2);
   ornc(&S_ornc_124_2);
-  ornc(&S_ornc_232_2);
-  ornc(&S_ornc_253_2);
-  noto(&S_noto_238_2);
-  noto(&S_noto_254_2);
-  or2(&S_or2_256_2);
-  ornc(&S_ornc_230_2);
-  ornc(&S_ornc_241_2);
-  noto(&S_noto_233_2);
+  ornc(&S_ornc_245_2);
+  ornc(&S_ornc_266_2);
   noto(&S_noto_251_2);
-  or2(&S_or2_242_2);
+  noto(&S_noto_267_2);
+  or2(&S_or2_269_2);
+  ornc(&S_ornc_243_2);
+  ornc(&S_ornc_254_2);
+  noto(&S_noto_246_2);
+  noto(&S_noto_264_2);
+  or2(&S_or2_255_2);
   setData(idR0EE02LDU,&var1023);
-  setData(idB8VC01RDU,&var1929);
-  setData(idB2VC01RDU,&var1941);
-  setData(idA2VC01RDU,&var1944);
-  setData(idA3VC01RDU,&var1938);
-  setData(idB0VS11LDU,&var1906);
-  setData(idA0VS11LDU,&var1907);
-  setData(idB0VN01LDU,&var1876);
-  setData(idA0VN01LDU,&var1878);
-  setData(idB0VP01LDU,&var1912);
-  setData(idA0VP01LDU,&var1913);
-  setData(idB0VE01LDU,&var1903);
-  setData(idA0VE01LDU,&var1905);
-  setData(idA3VP82LDU,&var1874);
-  setData(idB3VP82LDU,&var1897);
-  setData(idB3VP52LDU,&var1922);
-  setData(idB3CP02RDU,&var1898);
-  setData(idB3VP42LDU,&var1872);
-  setData(idA3VP52LDU,&var1925);
-  setData(idA3CP02RDU,&var1899);
-  setData(idA3VP42LDU,&var1873);
-  setData(idA1VC01RDU,&var1926);
-  setData(idA8VC01RDU,&var1932);
-  setData(idB3VC01RDU,&var1935);
-  setData(idB1VC01RDU,&var1948);
+  setData(idB8VC01RDU,&var1941);
+  setData(idB2VC01RDU,&var1953);
+  setData(idA2VC01RDU,&var1956);
+  setData(idA3VC01RDU,&var1950);
+  setData(idB0VS11LDU,&var1918);
+  setData(idA0VS11LDU,&var1919);
+  setData(idB0VN01LDU,&var1888);
+  setData(idA0VN01LDU,&var1890);
+  setData(idB0VP01LDU,&var1924);
+  setData(idA0VP01LDU,&var1925);
+  setData(idB0VE01LDU,&var1915);
+  setData(idA0VE01LDU,&var1917);
+  setData(idA3VP82LDU,&var1886);
+  setData(idB3VP82LDU,&var1909);
+  setData(idB3VP52LDU,&var1934);
+  setData(idB3CP02RDU,&var1910);
+  setData(idB3VP42LDU,&var1884);
+  setData(idA3VP52LDU,&var1937);
+  setData(idA3CP02RDU,&var1911);
+  setData(idA3VP42LDU,&var1885);
+  setData(idA1VC01RDU,&var1938);
+  setData(idA8VC01RDU,&var1944);
+  setData(idB3VC01RDU,&var1947);
+  setData(idB1VC01RDU,&var1960);
   equz_p(&S_equz_p_4_1);
   equz_p(&S_equz_p_2_1);
   equz_p(&S_equz_p_7_1);
@@ -14788,7 +14896,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idR0AB09LDU,&var533);
   setData(idR0AB08LDU,&var35);
   setData(idB6AB05LDU,&var58);
-  setData(idR0VS11LDU,&var1875);
+  setData(idR0VS11LDU,&var1887);
   setData(idA8VS01IDU,&var1670);
   setData(idB8VS01IDU,&var1680);
   setData(idR2AD10LDU,&var1625);

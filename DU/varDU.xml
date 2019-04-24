@@ -259,18 +259,18 @@
 <var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
 <var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
 <var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
-<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, DU) Исправность БУШД ББ1" format="1"></var>
-<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, DU) Исправность БУШД ИС1" format="1"></var>
-<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, DU) Исправность БУШД РБ1" format="1"></var>
-<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, DU) Исправность ИП ББ1" format="1"></var>
-<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, DU) Исправность ИП ИС1" format="1"></var>
-<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, DU) Исправность ИП РБ1" format="1"></var>
-<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, DU) Исправность БУШД ББ2" format="1"></var>
-<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, DU) Исправность БУШД РБ2" format="1"></var>
-<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, DU) Исправность БУШД ИС2" format="1"></var>
-<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, DU) Исправность ИП ББ2" format="1"></var>
-<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, DU) Исправность ИП ИС2" format="1"></var>
-<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, DU) Исправность ИП РБ2" format="1"></var>
+<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1" format="1"></var>
+<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1" format="1"></var>
+<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1" format="1"></var>
+<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, - ) Исправность ИП ББ1" format="1"></var>
+<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, - ) Исправность ИП ИС1" format="1"></var>
+<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, - ) Исправность ИП РБ1" format="1"></var>
+<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2" format="1"></var>
+<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2" format="1"></var>
+<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2" format="1"></var>
+<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, - ) Исправность ИП ББ2" format="1"></var>
+<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, - ) Исправность ИП ИС2" format="1"></var>
+<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, - ) Исправность ИП РБ2" format="1"></var>
 <var  name="R0IE02LDU" description="(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1" format="1"></var>
 <var  name="R0VN12RDU" description="( - , DU) Заданная мощность РУ" format="8"></var>
 <var  name="R0AB19LDU" description="( - , DU) Блокировка регулирования мощности:Нарушение исходных условий." format="1"></var>
@@ -893,26 +893,50 @@
 <var  name="fEM_R0UL25RDU" description="(R0UL25RDU) Предельное отклонение от времени задержки  сброса от ВУ ИС" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal2_m182_y0" description="(internal2_m182_y0) y0" format="8"></var>
-<var  name="internal2_m180_y0" description="(internal2_m180_y0) y0" format="8"></var>
-<var  name="internal2_m215_y0" description="(internal2_m215_y0) state" format="1"></var>
-<var  name="internal2_m207_y0" description="(internal2_m207_y0) state" format="1"></var>
-<var  name="internal2_m196_y1" description="(internal2_m196_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal2_m203_y1" description="(internal2_m203_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal2_m185_y1" description="(internal2_m185_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal2_m193_y1" description="(internal2_m193_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal2_m182_tx" description="(internal2_m182_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m182_y0" description="(internal2_m182_y0) y0" format="18"></var>
+<var  name="internal2_m176_tx" description="(internal2_m176_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m176_y0" description="(internal2_m176_y0) y0" format="18"></var>
+<var  name="internal2_m173_tx" description="(internal2_m173_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m173_y0" description="(internal2_m173_y0) y0" format="18"></var>
+<var  name="internal2_m165_tx" description="(internal2_m165_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m165_y0" description="(internal2_m165_y0) y0" format="18"></var>
+<var  name="internal2_m158_tx" description="(internal2_m158_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m158_y0" description="(internal2_m158_y0) y0" format="18"></var>
+<var  name="internal2_m155_tx" description="(internal2_m155_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m155_y0" description="(internal2_m155_y0) y0" format="18"></var>
+<var  name="internal2_m149_tx" description="(internal2_m149_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m149_y0" description="(internal2_m149_y0) y0" format="18"></var>
+<var  name="internal2_m144_tx" description="(internal2_m144_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m144_y0" description="(internal2_m144_y0) y0" format="18"></var>
+<var  name="internal2_m141_tx" description="(internal2_m141_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m141_y0" description="(internal2_m141_y0) y0" format="18"></var>
+<var  name="internal2_m134_tx" description="(internal2_m134_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m134_y0" description="(internal2_m134_y0) y0" format="18"></var>
+<var  name="internal2_m132_tx" description="(internal2_m132_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m132_y0" description="(internal2_m132_y0) y0" format="18"></var>
+<var  name="internal2_m127_tx" description="(internal2_m127_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal2_m127_y0" description="(internal2_m127_y0) y0" format="18"></var>
+<var  name="internal2_m195_y0" description="(internal2_m195_y0) y0" format="8"></var>
+<var  name="internal2_m193_y0" description="(internal2_m193_y0) y0" format="8"></var>
+<var  name="internal2_m228_y0" description="(internal2_m228_y0) state" format="1"></var>
+<var  name="internal2_m220_y0" description="(internal2_m220_y0) state" format="1"></var>
+<var  name="internal2_m208_y1" description="(internal2_m208_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal2_m214_y1" description="(internal2_m214_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal2_m198_y1" description="(internal2_m198_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal2_m205_y1" description="(internal2_m205_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal2_m17_Nk0" description="(internal2_m17_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m17_SetFlag" description="(internal2_m17_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal2_m110_Nk0" description="(internal2_m110_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m110_SetFlag" description="(internal2_m110_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal2_m106_Nk0" description="(internal2_m106_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m106_SetFlag" description="(internal2_m106_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
-<var  name="internal2_m79_Nk0" description="(internal2_m79_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
-<var  name="internal2_m79_SetFlag" description="(internal2_m79_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
-<var  name="internal2_m83_Nk0" description="(internal2_m83_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
-<var  name="internal2_m83_SetFlag" description="(internal2_m83_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
-<var  name="internal2_m45_Nk0" description="(internal2_m45_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
-<var  name="internal2_m45_SetFlag" description="(internal2_m45_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
+<var  name="internal2_m75_Nk0" description="(internal2_m75_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
+<var  name="internal2_m75_SetFlag" description="(internal2_m75_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
+<var  name="internal2_m77_Nk0" description="(internal2_m77_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
+<var  name="internal2_m77_SetFlag" description="(internal2_m77_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
+<var  name="internal2_m49_Nk0" description="(internal2_m49_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
+<var  name="internal2_m49_SetFlag" description="(internal2_m49_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal2_m53_Nk0" description="(internal2_m53_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m53_SetFlag" description="(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal2_m15_Nk0" description="(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
