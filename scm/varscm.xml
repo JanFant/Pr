@@ -942,9 +942,6 @@
 <var  name="internal1_m177_C5" description="(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m177_C6" description="(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m177_N20" description="(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
-<var  name="internal1_m177_N00" description="(internal1_m177_N00) N00 - текущая концентрация нейтронов" format="8"></var>
-<var  name="internal1_m177_R00" description="(internal1_m177_R00) R00 - текущая реактивность" format="8"></var>
-<var  name="internal1_m177_T00" description="(internal1_m177_T00) T00 - текущая температура" format="8"></var>
 <var  name="internal1_m177_C0" description="(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m177_ImpINI0" description="(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m177_MyFirstEnterFlag" description="(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -957,7 +954,8 @@
 <var  name="internal1_m295_Zav0" description="(internal1_m295_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m295_RA00" description="(internal1_m295_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m295_RA10" description="(internal1_m295_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m295_RA50" description="(internal1_m295_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m295_RA30" description="(internal1_m295_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m295_RA50" description="(internal1_m295_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m295_fls" description="(internal1_m295_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m295_flp" description="(internal1_m295_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m295_MyFirstEnterFlag" description="(internal1_m295_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -970,7 +968,8 @@
 <var  name="internal1_m130_Zav0" description="(internal1_m130_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m130_RA00" description="(internal1_m130_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m130_RA10" description="(internal1_m130_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m130_RA50" description="(internal1_m130_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m130_RA30" description="(internal1_m130_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m130_RA50" description="(internal1_m130_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m130_fls" description="(internal1_m130_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m130_flp" description="(internal1_m130_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m130_MyFirstEnterFlag" description="(internal1_m130_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -983,7 +982,8 @@
 <var  name="internal1_m259_Zav0" description="(internal1_m259_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m259_RA00" description="(internal1_m259_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m259_RA10" description="(internal1_m259_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m259_RA50" description="(internal1_m259_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m259_RA30" description="(internal1_m259_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m259_RA50" description="(internal1_m259_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m259_fls" description="(internal1_m259_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m259_flp" description="(internal1_m259_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m259_MyFirstEnterFlag" description="(internal1_m259_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -996,7 +996,8 @@
 <var  name="internal1_m94_Zav0" description="(internal1_m94_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m94_RA00" description="(internal1_m94_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m94_RA10" description="(internal1_m94_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m94_RA50" description="(internal1_m94_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m94_RA30" description="(internal1_m94_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m94_RA50" description="(internal1_m94_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m94_fls" description="(internal1_m94_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m94_flp" description="(internal1_m94_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m94_MyFirstEnterFlag" description="(internal1_m94_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1009,7 +1010,8 @@
 <var  name="internal1_m224_Zav0" description="(internal1_m224_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m224_RA00" description="(internal1_m224_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m224_RA10" description="(internal1_m224_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m224_RA50" description="(internal1_m224_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m224_RA30" description="(internal1_m224_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m224_RA50" description="(internal1_m224_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m224_fls" description="(internal1_m224_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m224_flp" description="(internal1_m224_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m224_MyFirstEnterFlag" description="(internal1_m224_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1022,7 +1024,8 @@
 <var  name="internal1_m59_Zav0" description="(internal1_m59_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
 <var  name="internal1_m59_RA00" description="(internal1_m59_RA00) RA00 - последнее задание вперед" format="1"></var>
 <var  name="internal1_m59_RA10" description="(internal1_m59_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m59_RA50" description="(internal1_m59_RA50) Ra50 - последнее задание скорости" format="18"></var>
+<var  name="internal1_m59_RA30" description="(internal1_m59_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m59_RA50" description="(internal1_m59_RA50) Ra50 - последнее задание скорости" format="1"></var>
 <var  name="internal1_m59_fls" description="(internal1_m59_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m59_flp" description="(internal1_m59_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m59_MyFirstEnterFlag" description="(internal1_m59_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1033,9 +1036,6 @@
 <var  name="internal1_m14_C5" description="(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m14_C6" description="(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m14_N20" description="(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
-<var  name="internal1_m14_N00" description="(internal1_m14_N00) N00 - текущая концентрация нейтронов" format="8"></var>
-<var  name="internal1_m14_R00" description="(internal1_m14_R00) R00 - текущая реактивность" format="8"></var>
-<var  name="internal1_m14_T00" description="(internal1_m14_T00) T00 - текущая температура" format="8"></var>
 <var  name="internal1_m14_C0" description="(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m14_ImpINI0" description="(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m14_MyFirstEnterFlag" description="(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
