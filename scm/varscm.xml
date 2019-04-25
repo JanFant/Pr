@@ -942,6 +942,9 @@
 <var  name="internal1_m177_C5" description="(internal1_m177_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m177_C6" description="(internal1_m177_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m177_N20" description="(internal1_m177_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
+<var  name="internal1_m177_N00" description="(internal1_m177_N00) N00 - Текущая концентрация нейтронов" format="8"></var>
+<var  name="internal1_m177_R00" description="(internal1_m177_R00) R00 - Текущая реактивность" format="8"></var>
+<var  name="internal1_m177_T00" description="(internal1_m177_T00) T00 - Текущая температура" format="8"></var>
 <var  name="internal1_m177_C0" description="(internal1_m177_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m177_ImpINI0" description="(internal1_m177_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m177_MyFirstEnterFlag" description="(internal1_m177_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1036,6 +1039,9 @@
 <var  name="internal1_m14_C5" description="(internal1_m14_C5) C5 - концентрация запаздывающих нейтронов 5-го типа" format="8"></var>
 <var  name="internal1_m14_C6" description="(internal1_m14_C6) C6 - концентрация запаздывающих нейтронов 6-го типа" format="8"></var>
 <var  name="internal1_m14_N20" description="(internal1_m14_N20) N20 - пред. концентрация нейтронов второй АЗ" format="8"></var>
+<var  name="internal1_m14_N00" description="(internal1_m14_N00) N00 - Текущая концентрация нейтронов" format="8"></var>
+<var  name="internal1_m14_R00" description="(internal1_m14_R00) R00 - Текущая реактивность" format="8"></var>
+<var  name="internal1_m14_T00" description="(internal1_m14_T00) T00 - Текущая температура" format="8"></var>
 <var  name="internal1_m14_C0" description="(internal1_m14_C0) *C0 - пред. концентрация запаздывающих нейтронов" format="8" size="6"></var>
 <var  name="internal1_m14_ImpINI0" description="(internal1_m14_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m14_MyFirstEnterFlag" description="(internal1_m14_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>

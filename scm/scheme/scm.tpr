@@ -14635,7 +14635,7 @@
     }
     [TConst]{
       Name="A1MC02RSP"
-      Value="0.000167646"
+      Value="0"
       Type=1
       Numeration=0
       MemoryType=1
@@ -14679,7 +14679,7 @@
     }
     [TConst]{
       Name="B1MC02RSP"
-      Value="0.000167676"
+      Value="0"
       Type=1
       Numeration=0
       MemoryType=1
@@ -18293,19 +18293,19 @@
         CONST_NAME="R0UT06RIM"
       }
       [VVV_Text]{
-        R="83,583,126,588"
+        R="83,583,127,589"
         Number=613
         IsHold=TRUE
         Line1="Координата ББ2"
       }
       [VVV_Text]{
-        R="81,550,121,555"
+        R="81,550,122,556"
         Number=614
         IsHold=TRUE
         Line1="Координата РБ"
       }
       [VVV_Text]{
-        R="300,497,330,508"
+        R="300,497,332,509"
         Number=615
         IsHold=FALSE
         Line1="Координата"
@@ -18351,31 +18351,31 @@
         }
       }
       [VVV_Text]{
-        R="460,430,583,435"
+        R="460,430,595,436"
         Number=659
         IsHold=FALSE
         Line1="Рис.1  Модель активной зоны АЗ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="195,867,318,872"
+        R="195,867,348,874"
         Number=660
         IsHold=TRUE
         Line1="Рис.6  Модель активной зоны АЗ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="757,423,958,428"
+        R="757,423,983,429"
         Number=661
         IsHold=TRUE
         Line1="Рис.2  Модель механизма перемещения блока блокировки ББ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1565,427,1800,433"
+        R="1565,427,1833,434"
         Number=662
         IsHold=FALSE
         Line1="Рис.3  Модель механизма перемещения регулирующего блока РБ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="2177,414,2414,420"
+        R="2177,414,2390,419"
         Number=663
         IsHold=FALSE
         Line1="Рис.4  Модель механизма перемещения импульсного стержня ИС1 РУ БАРС-4"
@@ -18393,7 +18393,7 @@
         Line1="Рис.8  Модель механизма перемещения регулирующего блока РБ2 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="776,858,977,863"
+        R="776,858,1029,865"
         Number=666
         IsHold=FALSE
         Line1="Рис.7  Модель механизма перемещения блока блокировки ББ2 РУ БАРС-4"
@@ -20531,7 +20531,7 @@
         CONST_NAME="A2UR01RIM"
       }
       [VVV_Text]{
-        R="33,514,74,525"
+        R="33,514,74,526"
         Number=1876
         IsHold=FALSE
         Line1="Концентрация"
@@ -21129,7 +21129,7 @@
         }
       }
       [VVV_Text]{
-        R="186,459,230,470"
+        R="186,459,233,471"
         Number=1831
         IsHold=FALSE
         Line1="Коэффициент"
@@ -21149,7 +21149,7 @@
         }
       }
       [VVV_Text]{
-        R="135,458,179,469"
+        R="135,458,182,470"
         Number=1836
         IsHold=FALSE
         Line1="Коэффициент"
@@ -21176,7 +21176,7 @@
         }
       }
       [VVV_Text]{
-        R="71,459,122,464"
+        R="71,459,126,465"
         Number=1856
         IsHold=FALSE
         Line1="Приход на ВУ НИ2"
@@ -21471,14 +21471,14 @@
         CONST_NAME="A5UC08RDU"
       }
       [VVV_Text]{
-        R="76,427,131,438"
+        R="76,427,138,439"
         Number=1965
         IsHold=FALSE
         Line1="Мощность источника"
         Line2="нейтронов ИНИ"
       }
       [VVV_Text]{
-        R="13,428,68,439"
+        R="13,428,75,440"
         Number=1966
         IsHold=FALSE
         Line1="Мощность источника"
@@ -21512,28 +21512,28 @@
         Line1="Нормальная температура АЗ"
       }
       [VVV_Text]{
-        R="144,429,200,440"
+        R="144,429,208,441"
         Number=1971
         IsHold=FALSE
         Line1="*Реактивность"
         Line2="вносимая образцами"
       }
       [VVV_Text]{
-        R="203,428,278,439"
+        R="203,428,285,440"
         Number=1972
         IsHold=FALSE
         Line1="*Коэффициент-1 функции"
         Line2="реактивности вносимой ИС"
       }
       [VVV_Text]{
-        R="279,428,354,439"
+        R="279,428,361,440"
         Number=1973
         IsHold=FALSE
         Line1="*Коэффициент-0 функции"
         Line2="реактивности вносимой ИС"
       }
       [VVV_Text]{
-        R="358,427,418,438"
+        R="358,427,425,439"
         Number=1974
         IsHold=FALSE
         Line1="Удельная"
@@ -21589,7 +21589,7 @@
         Line2="генерации нейтронов"
       }
       [VVV_Text]{
-        R="542,406,633,411"
+        R="542,406,644,412"
         Number=1982
         IsHold=FALSE
         Line1="*-значение параметра в долларах"
@@ -21849,7 +21849,7 @@
         }
       }
       [VVV_Text]{
-        R="852,339,858,344"
+        R="852,339,859,345"
         Number=2008
         IsHold=FALSE
         Line1="АЗ"
@@ -22377,7 +22377,7 @@
         Line3=""
       }
       [VVV_Text]{
-        R="845,764,851,769"
+        R="845,764,852,770"
         Number=2061
         IsHold=TRUE
         Line1="АЗ"
@@ -25021,7 +25021,7 @@
         CONST_NAME="A4UP01RIM"
       }
       [VVV_Text]{
-        R="873,231,931,242"
+        R="873,231,938,243"
         Number=2121
         IsHold=FALSE
         Line1="Клапан «Сброс ББ1» "
@@ -25586,7 +25586,7 @@
         Line3="обесточен"
       }
       [VVV_Text]{
-        R="2813,405,3035,411"
+        R="2813,405,3015,410"
         Number=3244
         IsHold=FALSE
         Line1="Рис.5 Формирование выходных сигналов модели активных зон РУ БАРС-4"
@@ -26400,7 +26400,7 @@
         }
       }
       [VVV_Text]{
-        R="383,449,419,465"
+        R="383,449,420,467"
         Number=3315
         IsHold=FALSE
         Line1=" Клапан "
@@ -27249,7 +27249,7 @@
         }
       }
       [VVV_Text]{
-        R="520,518,566,529"
+        R="520,518,571,530"
         Number=3423
         IsHold=FALSE
         Line1="Текущая "
@@ -27269,14 +27269,14 @@
         }
       }
       [VVV_Text]{
-        R="1741,85,1773,97"
+        R="1741,85,1778,99"
         Number=3425
         IsHold=TRUE
         Line1="Приход на "
         Line2="ВУ РБ1"
       }
       [VVV_Text]{
-        R="1703,84,1734,96"
+        R="1703,84,1738,98"
         Number=284
         IsHold=TRUE
         Line1="Приход на"
@@ -27296,14 +27296,14 @@
         }
       }
       [VVV_Text]{
-        R="1728,141,1760,153"
+        R="1728,141,1764,155"
         Number=3325
         IsHold=TRUE
         Line1="Обесточен"
         Line2="ЭМ РБ1"
       }
       [VVV_Text]{
-        R="1692,142,1726,154"
+        R="1692,142,1732,156"
         Number=3398
         IsHold=TRUE
         Line1="Магнит РБ1"
@@ -27336,7 +27336,7 @@
         }
       }
       [VVV_Text]{
-        R="2327,548,2362,562"
+        R="2327,548,2355,559"
         Number=3430
         IsHold=TRUE
         Line1="Приход на"
@@ -27364,7 +27364,7 @@
         }
       }
       [VVV_Text]{
-        R="1587,169,1623,187"
+        R="1587,169,1628,190"
         Number=3415
         IsHold=TRUE
         Line1="Текущее"
@@ -27385,7 +27385,7 @@
         }
       }
       [VVV_Text]{
-        R="1781,80,1825,98"
+        R="1781,80,1831,101"
         Number=255
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -27406,7 +27406,7 @@
         }
       }
       [VVV_Text]{
-        R="1875,428,1912,440"
+        R="1875,428,1907,439"
         Number=3437
         IsHold=FALSE
         Line1="Координата "
@@ -27426,7 +27426,7 @@
         }
       }
       [VVV_Text]{
-        R="2305,69,2336,81"
+        R="2305,69,2333,80"
         Number=3438
         IsHold=TRUE
         Line1="Приход на"
@@ -27446,7 +27446,7 @@
         }
       }
       [VVV_Text]{
-        R="1806,136,1857,154"
+        R="1806,136,1864,157"
         Number=3439
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ"
@@ -28540,7 +28540,7 @@
         }
       }
       [VVV_Text]{
-        R="2520,286,2557,298"
+        R="2520,286,2552,297"
         Number=3536
         IsHold=FALSE
         Line1="Координата "
@@ -28560,7 +28560,7 @@
         }
       }
       [VVV_Text]{
-        R="2435,67,2488,85"
+        R="2435,67,2483,83"
         Number=3537
         IsHold=TRUE
         Line1="Клапан ПОДЪЁМ "
@@ -28581,7 +28581,7 @@
         }
       }
       [VVV_Text]{
-        R="2383,66,2427,84"
+        R="2383,66,2422,82"
         Number=3538
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -28602,7 +28602,7 @@
         }
       }
       [VVV_Text]{
-        R="2354,638,2404,659"
+        R="2354,638,2393,654"
         Number=3539
         IsHold=FALSE
         Line1="Клапан cброса"
@@ -28643,7 +28643,7 @@
         }
       }
       [VVV_Text]{
-        R="2405,638,2465,659"
+        R="2405,638,2453,654"
         Number=3541
         IsHold=FALSE
         Line1="Клапан ПОДЪЁМ "
@@ -28802,7 +28802,7 @@
         }
       }
       [VVV_Text]{
-        R="2341,70,2373,82"
+        R="2341,70,2371,81"
         Number=3628
         IsHold=TRUE
         Line1="Приход на "
@@ -28822,7 +28822,7 @@
         }
       }
       [VVV_Text]{
-        R="2363,548,2400,562"
+        R="2363,548,2393,559"
         Number=3629
         IsHold=TRUE
         Line1="Приход на "
@@ -28848,7 +28848,7 @@
         }
       }
       [VVV_Text]{
-        R="2494,70,2525,82"
+        R="2494,70,2522,81"
         Number=3633
         IsHold=FALSE
         Line1="Приход на"
@@ -28868,7 +28868,7 @@
         }
       }
       [VVV_Text]{
-        R="2462,640,2497,654"
+        R="2462,640,2490,651"
         Number=3634
         IsHold=FALSE
         Line1="Приход на"
@@ -28888,7 +28888,7 @@
         }
       }
       [VVV_Text]{
-        R="2085,237,2130,255"
+        R="2085,237,2126,253"
         Number=3640
         IsHold=FALSE
         Line1="Текущее"
@@ -30958,7 +30958,7 @@
         }
       }
       [VVV_Text]{
-        R="1587,624,1623,642"
+        R="1587,624,1628,645"
         Number=330
         IsHold=TRUE
         Line1="Текущее"
@@ -31000,14 +31000,14 @@
         }
       }
       [VVV_Text]{
-        R="1796,504,1830,516"
+        R="1796,504,1836,518"
         Number=4150
         IsHold=TRUE
         Line1="Магнит РБ2"
         Line2="зацеплен"
       }
       [VVV_Text]{
-        R="1668,504,1699,516"
+        R="1668,504,1703,518"
         Number=4104
         IsHold=TRUE
         Line1="Приход на"
@@ -31040,14 +31040,14 @@
         }
       }
       [VVV_Text]{
-        R="1707,504,1739,516"
+        R="1707,504,1744,518"
         Number=4153
         IsHold=TRUE
         Line1="Приход на "
         Line2="ВУ РБ2"
       }
       [VVV_Text]{
-        R="1744,500,1788,518"
+        R="1744,500,1794,521"
         Number=4154
         IsHold=TRUE
         Line1="Клапан cброса"
@@ -31075,7 +31075,7 @@
         Line2="штока РБ2"
       }
       [VVV_Text]{
-        R="1832,572,1883,590"
+        R="1832,572,1890,593"
         Number=4123
         IsHold=FALSE
         Line1="Клапан ПОДЪЁМ"
@@ -31683,7 +31683,7 @@
         }
       }
       [VVV_Text]{
-        R="17,454,57,465"
+        R="17,454,61,466"
         Number=977
         IsHold=FALSE
         Line1="Аварийный НИ"
@@ -33210,21 +33210,21 @@
         }
       }
       [VVV_Text]{
-        R="1019,112,1047,124"
+        R="1019,112,1050,124"
         Number=4508
         IsHold=FALSE
         Line1="Приход на"
         Line2="НУ ББ1"
       }
       [VVV_Text]{
-        R="1194,113,1230,127"
+        R="1194,113,1226,125"
         Number=4390
         IsHold=FALSE
         Line1="Обесточен"
         Line2="ЭМ ББ1"
       }
       [VVV_Text]{
-        R="1022,566,1057,580"
+        R="1022,566,1053,578"
         Number=4468
         IsHold=TRUE
         Line1="Приход на"
@@ -33244,7 +33244,7 @@
         }
       }
       [VVV_Text]{
-        R="1056,114,1086,126"
+        R="1056,114,1088,126"
         Number=4449
         IsHold=FALSE
         Line1="Приход на "
@@ -33284,7 +33284,7 @@
         Line2="штока ББ1"
       }
       [VVV_Text]{
-        R="1063,568,1100,582"
+        R="1063,568,1095,580"
         Number=4413
         IsHold=TRUE
         Line1="Приход на "
@@ -33304,7 +33304,7 @@
         }
       }
       [VVV_Text]{
-        R="1093,109,1143,130"
+        R="1093,109,1137,127"
         Number=4515
         IsHold=FALSE
         Line1="Клапан cброса"
@@ -33312,7 +33312,7 @@
         Line3="(обесточен)"
       }
       [VVV_Text]{
-        R="1149,564,1199,585"
+        R="1149,564,1193,582"
         Number=4441
         IsHold=FALSE
         Line1="Клапан cброса"
@@ -33320,7 +33320,7 @@
         Line3="(обесточен)"
       }
       [VVV_Text]{
-        R="1149,116,1189,130"
+        R="1149,116,1183,128"
         Number=4471
         IsHold=FALSE
         Line1="Магнит ББ1"
@@ -33340,14 +33340,14 @@
         }
       }
       [VVV_Text]{
-        R="1207,568,1243,582"
+        R="1207,568,1239,580"
         Number=4456
         IsHold=FALSE
         Line1="Обесточен"
         Line2="ЭМ ББ2"
       }
       [VVV_Text]{
-        R="1107,567,1147,581"
+        R="1107,567,1141,579"
         Number=4439
         IsHold=FALSE
         Line1="Магнит ББ2"
@@ -33380,7 +33380,7 @@
         }
       }
       [VVV_Text]{
-        R="1875,134,1912,152"
+        R="1875,134,1908,150"
         Number=2295
         IsHold=TRUE
         Line1="Текущее"
@@ -33401,7 +33401,7 @@
         }
       }
       [VVV_Text]{
-        R="1842,643,1879,661"
+        R="1842,643,1884,664"
         Number=4521
         IsHold=FALSE
         Line1="Текущее"
@@ -33435,33 +33435,33 @@
         Line1="Координата ББ2"
       }
       [VVV_Text]{
-        R="1199,284,1238,298"
+        R="1199,284,1234,296"
         Number=81
         IsHold=FALSE
         Line1="Координата"
         Line2=" ББ1"
       }
       [VVV_Text]{
-        R="1850,297,1899,303"
+        R="1850,297,1905,304"
         Number=145
         IsHold=FALSE
         Line1="Координата РБ1"
       }
       [VVV_Text]{
-        R="1850,717,1899,723"
+        R="1850,717,1905,724"
         Number=258
         IsHold=FALSE
         Line1="Координата РБ2"
       }
       [VVV_Text]{
-        R="2513,226,2548,238"
+        R="2513,226,2543,237"
         Number=280
         IsHold=FALSE
         Line1="Координата"
         Line2=" ИС1"
       }
       [VVV_Text]{
-        R="2498,641,2533,653"
+        R="2498,641,2528,652"
         Number=283
         IsHold=FALSE
         Line1="Координата"
@@ -33753,7 +33753,7 @@
         Line3="подъём РБ"
       }
       [VVV_Text]{
-        R="918,177,951,195"
+        R="918,177,954,195"
         Number=624
         IsHold=FALSE
         Line1="Текущее "
@@ -34181,7 +34181,7 @@
         CONST_NAME="TERBB1"
       }
       [VVV_Text]{
-        R="1140,344,1192,358"
+        R="1140,344,1186,356"
         Number=126
         IsHold=FALSE
         Line1="Неисправности"
@@ -34195,14 +34195,14 @@
         CONST_NAME="A1MC02RC1"
       }
       [VVV_Text]{
-        R="1158,413,1232,427"
+        R="1158,413,1225,425"
         Number=1613
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ББ1 от ИС"
       }
       [VVV_Text]{
-        R="1086,410,1152,431"
+        R="1086,410,1145,428"
         Number=1614
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34224,7 +34224,7 @@
         CONST_NAME="TERBB2"
       }
       [VVV_Text]{
-        R="1179,749,1231,763"
+        R="1179,749,1225,761"
         Number=1620
         IsHold=FALSE
         Line1="Неисправности"
@@ -34238,14 +34238,14 @@
         CONST_NAME="B1MC02RC1"
       }
       [VVV_Text]{
-        R="1154,835,1228,849"
+        R="1154,835,1221,847"
         Number=190
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ББ2 от ИС"
       }
       [VVV_Text]{
-        R="1096,830,1162,851"
+        R="1096,830,1155,848"
         Number=191
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34267,7 +34267,7 @@
         CONST_NAME="TERRB2"
       }
       [VVV_Text]{
-        R="1842,752,1888,764"
+        R="1842,752,1894,766"
         Number=1623
         IsHold=FALSE
         Line1="Неисправности"
@@ -34281,14 +34281,14 @@
         CONST_NAME="B2MC02RC1"
       }
       [VVV_Text]{
-        R="1817,838,1884,850"
+        R="1817,838,1891,852"
         Number=1625
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока РБ2 от ИС"
       }
       [VVV_Text]{
-        R="1759,833,1818,851"
+        R="1759,833,1825,854"
         Number=1626
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34310,7 +34310,7 @@
         CONST_NAME="TERRB1"
       }
       [VVV_Text]{
-        R="1852,317,1898,329"
+        R="1852,317,1904,331"
         Number=397
         IsHold=FALSE
         Line1="Неисправности"
@@ -34324,14 +34324,14 @@
         CONST_NAME="A2MC02RC1"
       }
       [VVV_Text]{
-        R="1827,403,1894,415"
+        R="1827,403,1901,417"
         Number=1628
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока РБ1 от ИС"
       }
       [VVV_Text]{
-        R="1769,398,1828,416"
+        R="1769,398,1835,419"
         Number=1630
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34396,7 +34396,7 @@
         CONST_NAME="TERIS1"
       }
       [VVV_Text]{
-        R="2492,306,2538,318"
+        R="2492,306,2533,317"
         Number=559
         IsHold=FALSE
         Line1="Неисправности"
@@ -34410,14 +34410,14 @@
         CONST_NAME="A3MC02RC1"
       }
       [VVV_Text]{
-        R="2478,388,2545,400"
+        R="2478,388,2536,399"
         Number=1634
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ИС1 от ИС"
       }
       [VVV_Text]{
-        R="2409,387,2475,408"
+        R="2409,387,2461,403"
         Number=1635
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -34461,7 +34461,7 @@
         CONST_NAME="A1MC01RC1"
       }
       [VVV_Text]{
-        R="842,178,873,194"
+        R="842,178,878,196"
         Number=1637
         IsHold=FALSE
         Line1=" Заданная"
@@ -34490,7 +34490,7 @@
         CONST_NAME="B1MC01RC1"
       }
       [VVV_Text]{
-        R="860,615,891,631"
+        R="860,615,896,633"
         Number=1416
         IsHold=FALSE
         Line1=" Заданная"
@@ -34498,7 +34498,7 @@
         Line3=" ББ2 от ИС"
       }
       [VVV_Text]{
-        R="835,695,863,717"
+        R="835,695,866,720"
         Number=211
         IsHold=FALSE
         Line1="Заданная"
@@ -34514,7 +34514,7 @@
         CONST_NAME="B1MV01RC1"
       }
       [VVV_Text]{
-        R="842,265,870,287"
+        R="842,265,873,290"
         Number=212
         IsHold=FALSE
         Line1="Заданная"
@@ -34568,7 +34568,7 @@
         CONST_NAME="A3MC01RC1"
       }
       [VVV_Text]{
-        R="2152,163,2188,181"
+        R="2152,163,2183,179"
         Number=1669
         IsHold=FALSE
         Line1=" Заданная"
@@ -34576,7 +34576,7 @@
         Line3=" ИС1 от ИС"
       }
       [VVV_Text]{
-        R="2123,261,2155,286"
+        R="2123,261,2153,283"
         Number=463
         IsHold=FALSE
         Line1="Заданная"
@@ -34599,7 +34599,7 @@
         CONST_NAME="B3MC01RC1"
       }
       [VVV_Text]{
-        R="2185,629,2221,647"
+        R="2185,629,2216,645"
         Number=1681
         IsHold=FALSE
         Line1=" Заданная"
@@ -34607,7 +34607,7 @@
         Line3=" ИС2 от ИС"
       }
       [VVV_Text]{
-        R="2140,689,2172,714"
+        R="2140,689,2175,717"
         Number=540
         IsHold=FALSE
         Line1="Заданная"
@@ -35532,7 +35532,7 @@
         }
       }
       [VVV_Text]{
-        R="92,508,125,536"
+        R="92,508,119,538"
         Number=2331
         IsHold=FALSE
         Line1="***********"
@@ -36118,7 +36118,7 @@
         Line1="Рис.3  Модель механизма перемещения регулирующего блока РБ1 РУ БАРС-4"
       }
       [VVV_Text]{
-        R="1757,197,1785,228"
+        R="1757,197,1793,232"
         Number=2762
         IsHold=FALSE
         Line1="***********"
@@ -36141,7 +36141,7 @@
         }
       }
       [VVV_Text]{
-        R="1744,625,1772,656"
+        R="1744,625,1780,660"
         Number=2770
         IsHold=FALSE
         Line1="***********"
@@ -36170,7 +36170,7 @@
         }
       }
       [VVV_Text]{
-        R="2499,157,2527,188"
+        R="2499,157,2532,185"
         Number=2778
         IsHold=FALSE
         Line1="***********"
@@ -36199,7 +36199,7 @@
         }
       }
       [VVV_Text]{
-        R="2358,604,2394,639"
+        R="2358,604,2391,632"
         Number=2791
         IsHold=FALSE
         Line1="***********"
@@ -38685,7 +38685,57 @@
         Line1="Сигнал управления моделью"
         Line2="(0 - сигналы обнулены:"
         Line3=" 1 - остановить цикл:"
-        Line4=" 2/3 - работа по циклу) "
+        Line4=" 2/3 - работа по циклу ) "
+      }
+      [TDrawSignal]{
+        R="1915,319,1945,339"
+        Number=286
+        IsHold=FALSE
+        VisualNumber="111"
+        SIGNAL_NAME="krb1"
+        KodTeprol="krb1"
+        Comment=""
+        Type=1
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
+      }
+      [TDrawSignal]{
+        R="1915,678,1945,698"
+        Number=1501
+        IsHold=FALSE
+        VisualNumber="276"
+        SIGNAL_NAME="krb2"
+        KodTeprol="krb2"
+        Comment=""
+        Type=1
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName=""
+        DeviceName=""
       }
       [VVV_DrawConnector]{
         Number=7
@@ -68850,31 +68900,6 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="1915,319,1945,339"
-        Number=286
-        IsHold=FALSE
-        VisualNumber="111"
-        SIGNAL_NAME="krb1"
-        KodTeprol="krb1"
-        Comment=""
-        Type=1
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
-      }
       [VVV_DrawConnector]{
         Number=1497
         IsHold=FALSE
@@ -68897,31 +68922,6 @@
           ParameterName="krb1"
           Index=-1
         }
-      }
-      [TDrawSignal]{
-        R="1915,678,1945,698"
-        Number=1501
-        IsHold=FALSE
-        VisualNumber="276"
-        SIGNAL_NAME="krb2"
-        KodTeprol="krb2"
-        Comment=""
-        Type=1
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
       }
       [VVV_DrawConnector]{
         Number=1502
@@ -70112,4 +70112,4 @@
     }
   }
 }
-67534801
+67533816
