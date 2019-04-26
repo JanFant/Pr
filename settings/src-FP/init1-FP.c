@@ -15,6 +15,7 @@
                 readAllModbus();
                 reciveVariables();
                 MainCycle();
+                reciveVariables();
                 writeAllModbus();
                 long int t = time_cycle();
                 if (t > StepCycle) {
