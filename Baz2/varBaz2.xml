@@ -118,8 +118,8 @@
 <var  name="A0CT01IZ2" description="( - , Baz2, SBz2DU) Температура АЗ1-1" format="8"></var>
 <var  name="A0VT61LZ2" description="( - , Baz2) ПС по температуре в АЗ1" format="1"></var>
 <var  name="A0VT71LZ2" description="( - , Baz2, SBz2DU) АС по температуре в АЗ1" format="1"></var>
-<var  name="A1VP41LZ2" description="( - , Baz2) Давление СБРОС ББ1 ниже АС" format="1"></var>
-<var  name="B1VP41LZ2" description="( - , Baz2) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var  name="A1VP41LZ2" description="( - , SBz2DU) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var  name="B1VP41LZ2" description="( - , SBz2DU) Давление СБРОС ББ2 ниже АС" format="1"></var>
 <var  name="B1VP81LZZ" description="(vds32:08 - K13VDSR, - ) Давление СБРОС ББ2 в норме" format="1"></var>
 <var  name="A1VP81LZZ" description="(vds32:08 - K10VDSR, - ) Давление СБРОС ББ1 в норме" format="1"></var>
 <var  name="A2VP41LZ2" description="( - , Baz2) Давление СБРОС РБ1 ниже АС" format="1"></var>

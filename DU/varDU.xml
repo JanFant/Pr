@@ -285,12 +285,12 @@
 <var  name="R0AD05LZ2" description="(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)" format="1"></var>
 <var  name="B8IS12LDU" description="(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2" format="1"></var>
 <var  name="B8IS21LDU" description="(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2" format="1"></var>
-<var  name="A1VP41LZ1" description="( - , DU) Давление СБРОС ББ1 ниже АС" format="1"></var>
-<var  name="A1VP41LZ2" description="( - , DU) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var  name="A1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var  name="A1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ1 ниже АС" format="1"></var>
 <var  name="R0VL22LDU" description="( - , DU) Конец программы 200сек" format="1"></var>
 <var  name="R0VL23LDU" description="( - , DU) Конец программы 20мин" format="1"></var>
-<var  name="B1VP41LZ1" description="( - , DU) Давление СБРОС ББ2 ниже АС" format="1"></var>
-<var  name="B1VP41LZ2" description="( - , DU) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var  name="B1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var  name="B1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ2 ниже АС" format="1"></var>
 <var  name="A3AB19LDU" description="( - , DU) Блокировка пневматического подъема ИС1: режим статический" format="1"></var>
 <var  name="B3AB19LDU" description="( - , DU) Блокировка пневматического подъема ИС2: режим статический" format="1"></var>
 <var  name="A3EE03LDU" description="( - , DU) ВПИС ИС1" format="1"></var>

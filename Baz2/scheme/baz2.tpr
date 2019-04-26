@@ -2039,14 +2039,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="Baz2"
+        InterfaceMB="SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Давление"
@@ -2081,14 +2081,14 @@
         Size=1
         TypeInterface=1
         TypeMB=1
-        FormatMB=2
-        TypeMBMaster=0
+        FormatMB=1
+        TypeMBMaster=1
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="Baz2"
+        InterfaceMB="SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Давление"
@@ -22342,4 +22342,4 @@
     }
   }
 }
-21038346
+21038624
