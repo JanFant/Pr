@@ -71,9 +71,8 @@ int main(int argc, char **argv) {
                 time_start(&tv1);
                 readAllModbus();
                 reciveVariables();
-                MainCycle();
-                reciveVariables();
                 writeAllModbus();
+                MainCycle();
                 long int t = time_cycle();
                 if (t > StepCycle) {
                     syslog(LOG_INFO, "long cycle %ld\n", t);
