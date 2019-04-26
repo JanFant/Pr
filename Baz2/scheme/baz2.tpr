@@ -2046,7 +2046,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Давление"
@@ -2088,7 +2088,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="SBz2DU"
+        InterfaceMB="Baz2, SBz2DU"
         ChannalName=""
         DeviceName=""
         Line1="Давление"
@@ -22342,4 +22342,4 @@
     }
   }
 }
-21038624
+21039382

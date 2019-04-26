@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">B1VP41LZ2</value>
-            <value name="description">( - , SBz2DU) Давление СБРОС ББ2 ниже АС</value>
+            <value name="description">( - , Baz2, SBz2DU) Давление СБРОС ББ2 ниже АС</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
@@ -254,7 +254,7 @@
         </record>
         <record>
             <value name="name">A1VP41LZ2</value>
-            <value name="description">( - , SBz2DU) Давление СБРОС ББ1 ниже АС</value>
+            <value name="description">( - , Baz2, SBz2DU) Давление СБРОС ББ1 ниже АС</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
