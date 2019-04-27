@@ -57,7 +57,7 @@
 <var  name="R0VN23RRP" description="( - , RPU) Нейтронный поток по камере КНК15-1 канал 5" format="8"></var>
 <var  name="A0EE02LRP" description="( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5" format="1"></var>
 <var  name="R0IN03RRP" description="(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)" format="8"></var>
-<var  name="B8VC01RDU" description="( - , MRPDU) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , RPU) Координата АЗ2, мм" format="8"></var>
 <var  name="R0VN03RRP" description="( - , RPU) Измеренный нейтронный поток канал 5" format="8"></var>
 <var  name="R0IN02RRP" description="(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)" format="8"></var>
 <var  name="R0IN01RRP" description="(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)" format="8"></var>

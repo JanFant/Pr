@@ -1861,7 +1861,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="MA2DU"
+        InterfaceMB="AKNP2"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -5442,4 +5442,4 @@
     }
   }
 }
-5221736
+5221739

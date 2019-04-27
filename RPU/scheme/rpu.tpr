@@ -1547,7 +1547,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB="MRPDU"
+        InterfaceMB="RPU"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -8951,4 +8951,4 @@
     }
   }
 }
-8586752
+8586607

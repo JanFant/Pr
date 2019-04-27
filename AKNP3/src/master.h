@@ -115,8 +115,8 @@ int nomer = 1;
 #define idR0VN77LZ2	 50	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
 #define A1EE01LS3	 BUFFER[145]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
 #define idA1EE01LS3	 51	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
-#define B8VC01RDU	 BUFFER[147]	//( - , MA3DU) Координата АЗ2, мм
-#define idB8VC01RDU	 52	//( - , MA3DU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[147]	//( - , AKNP3) Координата АЗ2, мм
+#define idB8VC01RDU	 52	//( - , AKNP3) Координата АЗ2, мм
 #define R0EE03LZ1	 BUFFER[152]	//( - , AKNP3) Питание  АКНП3  отключить
 #define idR0EE03LZ1	 53	//( - , AKNP3) Питание  АКНП3  отключить
 #define R0EE03LZ2	 BUFFER[154]	//( - , AKNP3) Питание  АКНП3  отключить
@@ -246,7 +246,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 49	,1	,1	, &R0VN73LZ2},	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
 	{ 50	,1	,1	, &R0VN77LZ2},	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
 	{ 51	,1	,1	, &A1EE01LS3},	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
-	{ 52	,8	,1	, &B8VC01RDU},	//( - , MA3DU) Координата АЗ2, мм
+	{ 52	,8	,1	, &B8VC01RDU},	//( - , AKNP3) Координата АЗ2, мм
 	{ 53	,1	,1	, &R0EE03LZ1},	//( - , AKNP3) Питание  АКНП3  отключить
 	{ 54	,1	,1	, &R0EE03LZ2},	//( - , AKNP3) Питание  АКНП3  отключить
 	{ 55	,3	,1	, &R0DE01LS3},	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
@@ -348,32 +348,33 @@ static ModbusRegister ir_AKNP3[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_AKNP3[]={  // 
-	{&fEM_R0UR01RSS,8,0},	//( - , AKNP3) Уставка АКНП ПС  АЗ по периоду (сек)
-	{&fEM_R0UL52RSS,8,2},	//( - , AKNP3) Уровень АС по мощности
-	{&fEM_R0UL41RSS,8,4},	//( - , AKNP3) Уровень ПС по периоду разгона
-	{&fEM_R0UL51RSS,8,6},	//( - , AKNP3) Уровень АС по периоду разгона
-	{&fEM_R0UH02RSS,8,8},	//( - , AKNP3) Коэфф. преобразования частота->нейтр/с КНК15-1
-	{&fEM_R0UH03RSS,8,10},	//( - , AKNP3) Коэфф. преобразования частота->нейтр/с КНК53М
-	{&fEM_R0UL42RSS,8,12},	//( - , AKNP3) Уровень ПС по мощности
-	{&fEM_R7UX00RSS,8,14},	//( - , AKNP3) X-координата АЗ1 (см)
-	{&fEM_R7UX07RSS,8,16},	//( - , AKNP3) X-координата камеры R7IN31 (см)
-	{&fEM_R7UX08RSS,8,18},	//( - , AKNP3) X-координата камеры R7IN32 (см)
-	{&fEM_R7UX09RSS,8,20},	//( - , AKNP3) X-координата камеры R7IN33 (см)
-	{&fEM_R7UY00RSS,8,22},	//( - , AKNP3) Y-координата АЗ1 (см)
-	{&fEM_R7UY07RSS,8,24},	//( - , AKNP3) Y-координата камеры R7IN31 (см)
-	{&fEM_R7UY08RSS,8,26},	//( - , AKNP3) Y-координата камеры R7IN32 (см)
-	{&fEM_R7UY09RSS,8,28},	//( - , AKNP3) Y-координата камеры R7IN33 (см)
-	{&fEM_A0UX00RSS,8,30},	//( - , AKNP3) Эффективный радиус АЗ
-	{&fEM_A0UX07RSS,8,32},	//( - , AKNP3) Первый коэффициент калибровки камеры 7
-	{&fEM_A0UX08RSS,8,34},	//( - , AKNP3) Первый коэффициент калибровки камеры 8
-	{&fEM_A0UX09RSS,8,36},	//( - , AKNP3) Первый коэффициент калибровки камеры 9
-	{&fEM_B0UX07RSS,8,38},	//( - , AKNP3) Второй коэффициент калибровки камеры 7
-	{&fEM_B0UX08RSS,8,40},	//( - , AKNP3) Второй коэффициент калибровки камеры 8
-	{&fEM_B0UX09RSS,8,42},	//( - , AKNP3) Второй коэффициент калибровки камеры 9
-	{&fEM_R0UH05RSS,8,44},	//( - , AKNP3) Кол-во делений/сек на 1 ватт * E^6
-	{&iEM_R0UL01ISS,3,46},	//( - , AKNP3) Шаг (мс) измерения периода
-	{&dEM_R0UL02USS,5,47},	//( - , AKNP3) Предельное время ожидания роста потока (мс)
-	{&fEM_R0UN03RSS,8,49},	//( - , AKNP3) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&B8VC01RDU,8,0},	//( - , AKNP3) Координата АЗ2, мм
+	{&fEM_R0UR01RSS,8,2},	//( - , AKNP3) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UL52RSS,8,4},	//( - , AKNP3) Уровень АС по мощности
+	{&fEM_R0UL41RSS,8,6},	//( - , AKNP3) Уровень ПС по периоду разгона
+	{&fEM_R0UL51RSS,8,8},	//( - , AKNP3) Уровень АС по периоду разгона
+	{&fEM_R0UH02RSS,8,10},	//( - , AKNP3) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{&fEM_R0UH03RSS,8,12},	//( - , AKNP3) Коэфф. преобразования частота->нейтр/с КНК53М
+	{&fEM_R0UL42RSS,8,14},	//( - , AKNP3) Уровень ПС по мощности
+	{&fEM_R7UX00RSS,8,16},	//( - , AKNP3) X-координата АЗ1 (см)
+	{&fEM_R7UX07RSS,8,18},	//( - , AKNP3) X-координата камеры R7IN31 (см)
+	{&fEM_R7UX08RSS,8,20},	//( - , AKNP3) X-координата камеры R7IN32 (см)
+	{&fEM_R7UX09RSS,8,22},	//( - , AKNP3) X-координата камеры R7IN33 (см)
+	{&fEM_R7UY00RSS,8,24},	//( - , AKNP3) Y-координата АЗ1 (см)
+	{&fEM_R7UY07RSS,8,26},	//( - , AKNP3) Y-координата камеры R7IN31 (см)
+	{&fEM_R7UY08RSS,8,28},	//( - , AKNP3) Y-координата камеры R7IN32 (см)
+	{&fEM_R7UY09RSS,8,30},	//( - , AKNP3) Y-координата камеры R7IN33 (см)
+	{&fEM_A0UX00RSS,8,32},	//( - , AKNP3) Эффективный радиус АЗ
+	{&fEM_A0UX07RSS,8,34},	//( - , AKNP3) Первый коэффициент калибровки камеры 7
+	{&fEM_A0UX08RSS,8,36},	//( - , AKNP3) Первый коэффициент калибровки камеры 8
+	{&fEM_A0UX09RSS,8,38},	//( - , AKNP3) Первый коэффициент калибровки камеры 9
+	{&fEM_B0UX07RSS,8,40},	//( - , AKNP3) Второй коэффициент калибровки камеры 7
+	{&fEM_B0UX08RSS,8,42},	//( - , AKNP3) Второй коэффициент калибровки камеры 8
+	{&fEM_B0UX09RSS,8,44},	//( - , AKNP3) Второй коэффициент калибровки камеры 9
+	{&fEM_R0UH05RSS,8,46},	//( - , AKNP3) Кол-во делений/сек на 1 ватт * E^6
+	{&iEM_R0UL01ISS,3,48},	//( - , AKNP3) Шаг (мс) измерения периода
+	{&dEM_R0UL02USS,5,49},	//( - , AKNP3) Предельное время ожидания роста потока (мс)
+	{&fEM_R0UN03RSS,8,51},	//( - , AKNP3) Нижняя граница интервала мощности для измерения периода (ватт)
 	{NULL,0,0},
 };
 #pragma pop
@@ -491,36 +492,12 @@ static ModbusRegister hr_MA3S[]={  //
 static char MA3S_ip1[]={"192.168.10.60\0"};
 static char MA3S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
-static ModbusRegister coil_MA3DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_MA3DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_MA3DU[]={  // 
-	{&B8VC01RDU,8,0},	//( - , DU, SAKNP) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_MA3DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-static char MA3DU_ip1[]={"192.168.10.50\0"};
-static char MA3DU_ip2[]={"192.168.10.150\0"};
-#pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP3[0],&di_AKNP3[0],&ir_AKNP3[0],&hr_AKNP3[0],NULL,NULL,NULL,0},	 //общий slave AKNP3
 	{0,5017,&coil_A3Bz1[0],&di_A3Bz1[0],&ir_A3Bz1[0],&hr_A3Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz1
 	{0,5021,&coil_A3Bz2[0],&di_A3Bz2[0],&ir_A3Bz2[0],&hr_A3Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz2
 	{0,5003,&coil_DiagnAKNP3[0],&di_DiagnAKNP3[0],&ir_DiagnAKNP3[0],&hr_DiagnAKNP3[0],NULL,NULL,NULL,0},	 //Диагностика АКНП3
 	{1,5008,&coil_MA3S[0],&di_MA3S[0],&ir_MA3S[0],&hr_MA3S[0],NULL,MA3S_ip1,MA3S_ip2,100},	 //Мастер AKNP3 в SCM
-	{1,5030,&coil_MA3DU[0],&di_MA3DU[0],&ir_MA3DU[0],&hr_MA3DU[0],NULL,MA3DU_ip1,MA3DU_ip2,100},	 //Мастер АКНП3 в ДУ
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

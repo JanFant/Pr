@@ -6247,7 +6247,7 @@
         </record>
         <record>
             <value name="name">B8VC01RDU</value>
-            <value name="description">( - , DU, SAKNP) Координата АЗ2, мм</value>
+            <value name="description">( - , DU) Координата АЗ2, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">47</value>

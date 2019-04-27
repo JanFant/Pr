@@ -388,19 +388,6 @@
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">18</value>
-            <value name="nID">25</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">74</value>
-            <value name="OldData">74</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0IN02RRP</value>
-            <value name="description">( - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">20</value>
             <value name="nID">26</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -409,11 +396,11 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN01RRP</value>
-            <value name="description">( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)</value>
+            <value name="name">R0IN02RRP</value>
+            <value name="description">( - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">22</value>
+            <value name="address">20</value>
             <value name="nID">27</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -422,11 +409,11 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN02RRP</value>
-            <value name="description">( - , RPU) Уровень мощности канал 5</value>
+            <value name="name">R0IN01RRP</value>
+            <value name="description">( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">24</value>
+            <value name="address">22</value>
             <value name="nID">28</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
@@ -435,16 +422,42 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0VN02RRP</value>
+            <value name="description">( - , RPU) Уровень мощности канал 5</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">24</value>
+            <value name="nID">29</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">94</value>
+            <value name="OldData">94</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B8VC01RDU</value>
+            <value name="description">( - , RPU) Координата АЗ2, мм</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">0</value>
+            <value name="nID">25</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">74</value>
+            <value name="OldData">74</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">fEM_R0UH02RSS</value>
             <value name="description">( - , RPU) Коэфф. преобразования частота->нейтр/с КНК15-1</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">0</value>
-            <value name="nID">29</value>
+            <value name="address">2</value>
+            <value name="nID">30</value>
             <value name="PType">33</value>
             <value name="Bf0">0</value>
-            <value name="ParData">94</value>
-            <value name="OldData">94</value>
+            <value name="ParData">99</value>
+            <value name="OldData">99</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -452,12 +465,12 @@
             <value name="description">( - , RPU) Коэфф. преобразования частота->нейтр/с КНК53М</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">2</value>
-            <value name="nID">30</value>
+            <value name="address">4</value>
+            <value name="nID">31</value>
             <value name="PType">33</value>
             <value name="Bf0">4</value>
-            <value name="ParData">99</value>
-            <value name="OldData">99</value>
+            <value name="ParData">104</value>
+            <value name="OldData">104</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -465,12 +478,12 @@
             <value name="description">( - , RPU) X-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">4</value>
-            <value name="nID">31</value>
+            <value name="address">6</value>
+            <value name="nID">32</value>
             <value name="PType">33</value>
             <value name="Bf0">8</value>
-            <value name="ParData">104</value>
-            <value name="OldData">104</value>
+            <value name="ParData">109</value>
+            <value name="OldData">109</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -478,12 +491,12 @@
             <value name="description">( - , RPU) Y-координата АЗ1 (см)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">6</value>
-            <value name="nID">32</value>
+            <value name="address">8</value>
+            <value name="nID">33</value>
             <value name="PType">33</value>
             <value name="Bf0">12</value>
-            <value name="ParData">109</value>
-            <value name="OldData">109</value>
+            <value name="ParData">114</value>
+            <value name="OldData">114</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -491,12 +504,12 @@
             <value name="description">( - , RPU) X-координата камеры R7IN51</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">8</value>
-            <value name="nID">33</value>
+            <value name="address">10</value>
+            <value name="nID">34</value>
             <value name="PType">33</value>
             <value name="Bf0">16</value>
-            <value name="ParData">114</value>
-            <value name="OldData">114</value>
+            <value name="ParData">119</value>
+            <value name="OldData">119</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -504,12 +517,12 @@
             <value name="description">( - , RPU) X-координата камеры R7IN52</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">10</value>
-            <value name="nID">34</value>
+            <value name="address">12</value>
+            <value name="nID">35</value>
             <value name="PType">33</value>
             <value name="Bf0">20</value>
-            <value name="ParData">119</value>
-            <value name="OldData">119</value>
+            <value name="ParData">124</value>
+            <value name="OldData">124</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -517,12 +530,12 @@
             <value name="description">( - , RPU) X-координата камеры R7IN53</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">12</value>
-            <value name="nID">35</value>
+            <value name="address">14</value>
+            <value name="nID">36</value>
             <value name="PType">33</value>
             <value name="Bf0">24</value>
-            <value name="ParData">124</value>
-            <value name="OldData">124</value>
+            <value name="ParData">129</value>
+            <value name="OldData">129</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -530,12 +543,12 @@
             <value name="description">( - , RPU) Y-координата камеры R7IN51</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">14</value>
-            <value name="nID">36</value>
+            <value name="address">16</value>
+            <value name="nID">37</value>
             <value name="PType">33</value>
             <value name="Bf0">28</value>
-            <value name="ParData">129</value>
-            <value name="OldData">129</value>
+            <value name="ParData">134</value>
+            <value name="OldData">134</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -543,12 +556,12 @@
             <value name="description">( - , RPU) Y-координата камеры R7IN52</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">16</value>
-            <value name="nID">37</value>
+            <value name="address">18</value>
+            <value name="nID">38</value>
             <value name="PType">33</value>
             <value name="Bf0">32</value>
-            <value name="ParData">134</value>
-            <value name="OldData">134</value>
+            <value name="ParData">139</value>
+            <value name="OldData">139</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -556,12 +569,12 @@
             <value name="description">( - , RPU) Y-координата камеры R7IN53</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">18</value>
-            <value name="nID">38</value>
+            <value name="address">20</value>
+            <value name="nID">39</value>
             <value name="PType">33</value>
             <value name="Bf0">36</value>
-            <value name="ParData">139</value>
-            <value name="OldData">139</value>
+            <value name="ParData">144</value>
+            <value name="OldData">144</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -569,12 +582,12 @@
             <value name="description">( - , RPU) Эффективный радиус АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">20</value>
-            <value name="nID">39</value>
+            <value name="address">22</value>
+            <value name="nID">40</value>
             <value name="PType">33</value>
             <value name="Bf0">40</value>
-            <value name="ParData">144</value>
-            <value name="OldData">144</value>
+            <value name="ParData">149</value>
+            <value name="OldData">149</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -582,12 +595,12 @@
             <value name="description">( - , RPU) Первый коэффициент калибровки камеры 13</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">22</value>
-            <value name="nID">40</value>
+            <value name="address">24</value>
+            <value name="nID">41</value>
             <value name="PType">33</value>
             <value name="Bf0">44</value>
-            <value name="ParData">149</value>
-            <value name="OldData">149</value>
+            <value name="ParData">154</value>
+            <value name="OldData">154</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -595,12 +608,12 @@
             <value name="description">( - , RPU) Первый коэффициент калибровки камеры 14</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">24</value>
-            <value name="nID">41</value>
+            <value name="address">26</value>
+            <value name="nID">42</value>
             <value name="PType">33</value>
             <value name="Bf0">48</value>
-            <value name="ParData">154</value>
-            <value name="OldData">154</value>
+            <value name="ParData">159</value>
+            <value name="OldData">159</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -608,12 +621,12 @@
             <value name="description">( - , RPU) Первый коэффициент калибровки камеры 15</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">26</value>
-            <value name="nID">42</value>
+            <value name="address">28</value>
+            <value name="nID">43</value>
             <value name="PType">33</value>
             <value name="Bf0">52</value>
-            <value name="ParData">159</value>
-            <value name="OldData">159</value>
+            <value name="ParData">164</value>
+            <value name="OldData">164</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -621,12 +634,12 @@
             <value name="description">( - , RPU) Второй коэффициент калибровки камеры 3</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">28</value>
-            <value name="nID">43</value>
+            <value name="address">30</value>
+            <value name="nID">44</value>
             <value name="PType">33</value>
             <value name="Bf0">56</value>
-            <value name="ParData">164</value>
-            <value name="OldData">164</value>
+            <value name="ParData">169</value>
+            <value name="OldData">169</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -634,12 +647,12 @@
             <value name="description">( - , RPU) Второй коэффициент калибровки камеры4</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">30</value>
-            <value name="nID">44</value>
+            <value name="address">32</value>
+            <value name="nID">45</value>
             <value name="PType">33</value>
             <value name="Bf0">60</value>
-            <value name="ParData">169</value>
-            <value name="OldData">169</value>
+            <value name="ParData">174</value>
+            <value name="OldData">174</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -647,12 +660,12 @@
             <value name="description">( - , RPU) Второй коэффициент калибровки камеры 5</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">32</value>
-            <value name="nID">45</value>
+            <value name="address">34</value>
+            <value name="nID">46</value>
             <value name="PType">33</value>
             <value name="Bf0">64</value>
-            <value name="ParData">174</value>
-            <value name="OldData">174</value>
+            <value name="ParData">179</value>
+            <value name="OldData">179</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -660,12 +673,12 @@
             <value name="description">( - , RPU) Кол-во делений/сек на 1 ватт * E^6</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">34</value>
-            <value name="nID">46</value>
+            <value name="address">36</value>
+            <value name="nID">47</value>
             <value name="PType">33</value>
             <value name="Bf0">68</value>
-            <value name="ParData">179</value>
-            <value name="OldData">179</value>
+            <value name="ParData">184</value>
+            <value name="OldData">184</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -673,12 +686,12 @@
             <value name="description">( - , RPU) Уставка СНМ11 в БЗ - АС по частоте</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">36</value>
-            <value name="nID">47</value>
+            <value name="address">38</value>
+            <value name="nID">48</value>
             <value name="PType">33</value>
             <value name="Bf0">72</value>
-            <value name="ParData">184</value>
-            <value name="OldData">184</value>
+            <value name="ParData">189</value>
+            <value name="OldData">189</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -686,12 +699,12 @@
             <value name="description">( - , RPU) Верхний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">38</value>
-            <value name="nID">48</value>
+            <value name="address">40</value>
+            <value name="nID">49</value>
             <value name="PType">33</value>
             <value name="Bf0">76</value>
-            <value name="ParData">189</value>
-            <value name="OldData">189</value>
+            <value name="ParData">194</value>
+            <value name="OldData">194</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -699,12 +712,12 @@
             <value name="description">( - , RPU) Нижний предел шкалы датчика температуры</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">40</value>
-            <value name="nID">49</value>
+            <value name="address">42</value>
+            <value name="nID">50</value>
             <value name="PType">33</value>
             <value name="Bf0">80</value>
-            <value name="ParData">194</value>
-            <value name="OldData">194</value>
+            <value name="ParData">199</value>
+            <value name="OldData">199</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -712,12 +725,12 @@
             <value name="description">( - , RPU) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">42</value>
-            <value name="nID">50</value>
+            <value name="address">44</value>
+            <value name="nID">51</value>
             <value name="PType">33</value>
             <value name="Bf0">84</value>
-            <value name="ParData">199</value>
-            <value name="OldData">199</value>
+            <value name="ParData">204</value>
+            <value name="OldData">204</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -725,12 +738,12 @@
             <value name="description">( - , RPU) Уровень срабатывания аварийной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">44</value>
-            <value name="nID">51</value>
+            <value name="address">46</value>
+            <value name="nID">52</value>
             <value name="PType">33</value>
             <value name="Bf0">88</value>
-            <value name="ParData">204</value>
-            <value name="OldData">204</value>
+            <value name="ParData">209</value>
+            <value name="OldData">209</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -738,12 +751,12 @@
             <value name="description">( - , RPU) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">46</value>
-            <value name="nID">52</value>
+            <value name="address">48</value>
+            <value name="nID">53</value>
             <value name="PType">33</value>
             <value name="Bf0">92</value>
-            <value name="ParData">209</value>
-            <value name="OldData">209</value>
+            <value name="ParData">214</value>
+            <value name="OldData">214</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -751,12 +764,12 @@
             <value name="description">( - , RPU) Уровень срабатывания предупредительной сигнализации по температуре АЗ</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">48</value>
-            <value name="nID">53</value>
+            <value name="address">50</value>
+            <value name="nID">54</value>
             <value name="PType">33</value>
             <value name="Bf0">96</value>
-            <value name="ParData">214</value>
-            <value name="OldData">214</value>
+            <value name="ParData">219</value>
+            <value name="OldData">219</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -764,12 +777,12 @@
             <value name="description">( - , RPU) Уровень АС по мощности</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">50</value>
-            <value name="nID">54</value>
+            <value name="address">52</value>
+            <value name="nID">55</value>
             <value name="PType">33</value>
             <value name="Bf0">100</value>
-            <value name="ParData">219</value>
-            <value name="OldData">219</value>
+            <value name="ParData">224</value>
+            <value name="OldData">224</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -777,12 +790,12 @@
             <value name="description">( - , RPU) Время задержки сигнала на включение источников питания после снятия команды на отключение</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">52</value>
-            <value name="nID">55</value>
+            <value name="address">54</value>
+            <value name="nID">56</value>
             <value name="PType">33</value>
             <value name="Bf0">104</value>
-            <value name="ParData">224</value>
-            <value name="OldData">224</value>
+            <value name="ParData">229</value>
+            <value name="OldData">229</value>
             <value name="unitId">1</value>
         </record>
     </records>

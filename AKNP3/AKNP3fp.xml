@@ -11,5 +11,5 @@
         <modbus   name="A3Bz2"      description="slave AKNP3 - Baz2" type="slave"                                           port="5021"            xml="A3Bz2"/>
         <modbus   name="DiagnAKNP3" description="Диагностика АКНП3"  type="slave"                                           port="5003"            xml="DiagnAKNP3"/>
         <modbus   name="MA3S"       description="Мастер AKNP3 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5008" step="100" xml="..\scm\SA3.xml"/>
-        <modbus   name="MA3DU"      description="Мастер АКНП3 в ДУ"  type="master" ip1="192.168.10.50" ip2="192.168.10.150" port="5030" step="100" xml="..\DU\SADU.xml"/>
+        <!-- <modbus   name="MA3DU"      description="Мастер АКНП3 в ДУ"  type="master" ip1="192.168.10.50" ip2="192.168.10.150" port="5030" step="100" xml="..\DU\SADU.xml"/> -->
 </subsystem>
