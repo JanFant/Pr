@@ -817,6 +817,28 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="K"
+      Value="0.0009765625"
+      Type=1
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="k - коэффициент усиления"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -1392,7 +1414,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,985,409"
+        R="845,404,985,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -1717,7 +1739,7 @@
         Line3="подъёма ББ на БАЗ2"
       }
       [TDrawSignal]{
-        R="579,18,639,58"
+        R="580,6,640,46"
         Number=25
         IsHold=FALSE
         VisualNumber="44"
@@ -1731,13 +1753,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="AKNP1"
+        InterfaceMB="A1DU"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -2904,7 +2926,7 @@
         }
       }
       [VVV_Text]{
-        R="969,14,1010,25"
+        R="969,14,1010,26"
         Number=184
         IsHold=FALSE
         Line1="Неисправность"
@@ -4773,31 +4795,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=7
-        IsHold=FALSE
-        p0="579:44"
-        p1="571:44"
-        p2="571:105"
-        p3="540:105"
-        p4="540:168"
-        p5="284:168"
-        BNumber=25
-        ENumber=1
-        Comment="Координата АЗ2, мм --> YAz2 - y-координата АЗ2 мм"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=25
-          ParameterName="B8VC01RDU"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=1
-          ParameterName="YAz2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=9
         IsHold=FALSE
         p0="533:75"
@@ -5329,7 +5326,32 @@
           Index=-1
         }
       }
+      [VVV_DrawConnector]{
+        Number=7
+        IsHold=FALSE
+        p0="580:21"
+        p1="569:21"
+        p2="569:105"
+        p3="530:105"
+        p4="530:168"
+        p5="284:168"
+        BNumber=25
+        ENumber=1
+        Comment="Координата АЗ2, мм --> YAz2 - y-координата АЗ2 мм"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=25
+          ParameterName="B8VC01RDU"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=1
+          ParameterName="YAz2"
+          Index=-1
+        }
+      }
     }
   }
 }
-5132569
+5154705

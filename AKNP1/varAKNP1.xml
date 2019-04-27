@@ -50,7 +50,7 @@
 <var  name="R0VN75LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгонана БАЗ2" format="1"></var>
 <var  name="A1EE01LS1" description="(fds16:05 - K15FDSR, - ) Исправность АКНП1 на БАЗ2" format="1"></var>
 <var  name="A1VN71LS1" description="(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ на БАЗ2" format="1"></var>
-<var  name="B8VC01RDU" description="( - , AKNP1) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , A1DU) Координата АЗ2, мм" format="8"></var>
 <var  name="R0EE01LZ1" description="( - , AKNP1) Питание  АКНП1  отключить" format="1"></var>
 <var  name="R0EE01LZ2" description="( - , AKNP1) Питание  АКНП1  отключить" format="1"></var>
 
