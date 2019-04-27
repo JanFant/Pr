@@ -1759,7 +1759,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="A1DU"
+        InterfaceMB="MA1DU"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -5354,4 +5354,4 @@
     }
   }
 }
-5154738
+5154815

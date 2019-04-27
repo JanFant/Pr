@@ -50,7 +50,7 @@
 <var  name="R0VN73LZ2" description="(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2" format="1"></var>
 <var  name="R0VN77LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2" format="1"></var>
 <var  name="A1EE01LS3" description="(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2" format="1"></var>
-<var  name="B8VC01RDU" description="( - , A3DU) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , MA3DU) Координата АЗ2, мм" format="8"></var>
 <var  name="R0EE03LZ1" description="( - , AKNP3) Питание  АКНП3  отключить" format="1"></var>
 <var  name="R0EE03LZ2" description="( - , AKNP3) Питание  АКНП3  отключить" format="1"></var>
 <var  name="R0DE01LS3" description="(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте" format="3"></var>

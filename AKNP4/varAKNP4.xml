@@ -53,7 +53,7 @@
 <var  name="R0VN74LZ2" description="(fds16:05 - K13FDSR, - ) АС по мощности канал 4 на БАЗ2" format="1"></var>
 <var  name="R0VN78LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
 <var  name="A1EE01LS4" description="(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
-<var  name="B8VC01RDU" description="( - , A4DU) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , MA4DU) Координата АЗ2, мм" format="8"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
