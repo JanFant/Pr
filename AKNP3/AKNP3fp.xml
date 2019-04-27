@@ -9,7 +9,7 @@
         <modbus   name="AKNP3"      description="общий slave AKNP3"  type="slave"                                           port="5002"            xml="AKNP3"/>
         <modbus   name="A3Bz1"      description="slave AKNP3 - Baz1" type="slave"                                           port="5017"            xml="A3Bz1"/>
         <modbus   name="A3Bz2"      description="slave AKNP3 - Baz2" type="slave"                                           port="5021"            xml="A3Bz2"/>
-        <modbus   name="A3DU"       description="slave AKNP3 - DU"   type="slave"                                           port="5103"            xml="SA3DU"/>
+        <modbus   name="A3DU"       description="slave AKNP3 - DU"   type="slave"                                           port="4053"            xml="SA3DU"/>
         <modbus   name="DiagnAKNP3" description="Диагностика АКНП3"  type="slave"                                           port="5003"            xml="DiagnAKNP3"/>
         <modbus   name="MA3S"       description="Мастер AKNP3 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5008" step="100" xml="..\scm\SA3.xml"/>
 </subsystem>

@@ -512,7 +512,7 @@ static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP2[0],&di_AKNP2[0],&ir_AKNP2[0],&hr_AKNP2[0],NULL,NULL,NULL,0},	 //общий slave AKNP2
 	{0,5016,&coil_A2Bz1[0],&di_A2Bz1[0],&ir_A2Bz1[0],&hr_A2Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP2 - Baz1
 	{0,5020,&coil_A2Bz2[0],&di_A2Bz2[0],&ir_A2Bz2[0],&hr_A2Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP2 - Baz2
-	{0,5102,&coil_A2DU[0],&di_A2DU[0],&ir_A2DU[0],&hr_A2DU[0],NULL,NULL,NULL,0},	 //slave AKNP2 - DU
+	{0,4052,&coil_A2DU[0],&di_A2DU[0],&ir_A2DU[0],&hr_A2DU[0],NULL,NULL,NULL,0},	 //slave AKNP2 - DU
 	{0,5003,&coil_DiagnAKNP2[0],&di_DiagnAKNP2[0],&ir_DiagnAKNP2[0],&hr_DiagnAKNP2[0],NULL,NULL,NULL,0},	 //Диагностика АКНП2
 	{1,5007,&coil_MA2S[0],&di_MA2S[0],&ir_MA2S[0],&hr_MA2S[0],NULL,MA2S_ip1,MA2S_ip2,100},	 //Мастер AKNP2 в SCM
 

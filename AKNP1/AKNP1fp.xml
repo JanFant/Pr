@@ -9,7 +9,7 @@
         <modbus   name="AKNP1"      description="общий slave AKNP1"  type="slave"                                           port="5002"            xml="AKNP1"/>
         <modbus   name="A1Bz1"      description="slave AKNP1 - Baz1" type="slave"                                           port="5015"            xml="A1Bz1"/>
         <modbus   name="A1Bz2"      description="slave AKNP1 - Baz2" type="slave"                                           port="5019"            xml="A1Bz2"/>
-        <modbus   name="A1DU"       description="slave AKNP1 - DU"   type="slave"                                           port="5101"            xml="SA1DU"/>
+        <modbus   name="A1DU"       description="slave AKNP1 - DU"   type="slave"                                           port="4051"            xml="SA1DU"/>
         <modbus   name="DiagnAKNP1" description="Диагностика АКНП1"  type="slave"                                           port="5003"            xml="DiagnAKNP1"/>
         <modbus   name="MA1S"       description="Мастер AKNP1 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5006" step="100" xml="..\scm\SA1.xml"/>
 </subsystem>

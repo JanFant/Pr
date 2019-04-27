@@ -12,10 +12,10 @@
         <modbus   name="MDuBz1"  description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="5010" step="100" xml="..\Baz1\SBz1DU.xml"/>
         <modbus   name="MDuBz2"  description="Мастер ДУ в Баз2" type="master" ip1="192.168.10.54" ip2="192.168.10.154" port="5009" step="100" xml="..\Baz2\SBz2DU.xml"/>
         <modbus   name="MDuS"    description="Мастер ДУ в SCM"  type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5005" step="10"  xml="..\scm\SDu.xml"/>
-        <modbus   name="MDuA1"  description="Мастер ДУ в АКНП1" type="master" ip1="192.168.10.51" ip2="192.168.10.151" port="5101" step="100" xml="..\AKNP1\SA1DU.xml"/>
-        <modbus   name="MDuA2"  description="Мастер ДУ в АКНП2" type="master" ip1="192.168.10.53" ip2="192.168.10.153" port="5102" step="100" xml="..\AKNP2\SA2DU.xml"/>
-        <modbus   name="MDuA3"  description="Мастер ДУ в АКНП3" type="master" ip1="192.168.10.55" ip2="192.168.10.155" port="5103" step="100" xml="..\AKNP3\SA3DU.xml"/>
-        <modbus   name="MDuA4"  description="Мастер ДУ в АКНП4" type="master" ip1="192.168.10.57" ip2="192.168.10.157" port="5104" step="100" xml="..\AKNP4\SA4DU.xml"/>
+        <modbus   name="MDuA2"  description="Мастер ДУ в АКНП2" type="master" ip1="192.168.10.53" ip2="192.168.10.153" port="4052" step="100" xml="..\AKNP2\SA2DU.xml"/>
+        <modbus   name="MDuA1"  description="Мастер ДУ в АКНП1" type="master" ip1="192.168.10.51" ip2="192.168.10.151" port="4051" step="100" xml="..\AKNP1\SA1DU.xml"/>
+        <modbus   name="MDuA3"  description="Мастер ДУ в АКНП3" type="master" ip1="192.168.10.55" ip2="192.168.10.155" port="4053" step="100" xml="..\AKNP3\SA3DU.xml"/>
+        <modbus   name="MDuA4"  description="Мастер ДУ в АКНП4" type="master" ip1="192.168.10.57" ip2="192.168.10.157" port="4054" step="100" xml="..\AKNP4\SA4DU.xml"/>
         <!-- <modbus   name="MDuRP"  description="Мастер ДУ в RPU"   type="master" ip1="192.168.10.31" ip2="192.168.10.131" port="5105" step="100" xml="..\RPU\SRPDU.xml"/> -->
         <modbus   name="DiagnDU" description="Диагностика DU"   type="slave"                                           port="5006"            xml="DiagnDU"/>
 </subsystem>

@@ -6564,29 +6564,6 @@ static ModbusRegister hr_MDuS[]={  //
 static char MDuS_ip1[]={"192.168.10.60\0"};
 static char MDuS_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
-static ModbusRegister coil_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_MDuA1[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A1DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-static char MDuA1_ip1[]={"192.168.10.51\0"};
-static char MDuA1_ip2[]={"192.168.10.151\0"};
-#pragma pack(push,1)
 static ModbusRegister coil_MDuA2[]={  // 
 	{NULL,0,0},
 };
@@ -6609,6 +6586,29 @@ static ModbusRegister hr_MDuA2[]={  //
 #pragma pop
 static char MDuA2_ip1[]={"192.168.10.53\0"};
 static char MDuA2_ip2[]={"192.168.10.153\0"};
+#pragma pack(push,1)
+static ModbusRegister coil_MDuA1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MDuA1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MDuA1[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MDuA1[]={  // 
+	{&B8VC01RDU,8,0},	//( - , A1DU) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+static char MDuA1_ip1[]={"192.168.10.51\0"};
+static char MDuA1_ip2[]={"192.168.10.151\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_MDuA3[]={  // 
 	{NULL,0,0},
@@ -6708,10 +6708,10 @@ static ModbusDevice modbuses[]={
 	{1,5010,&coil_MDuBz1[0],&di_MDuBz1[0],&ir_MDuBz1[0],&hr_MDuBz1[0],NULL,MDuBz1_ip1,MDuBz1_ip2,100},	 //Мастер ДУ в Баз1
 	{1,5009,&coil_MDuBz2[0],&di_MDuBz2[0],&ir_MDuBz2[0],&hr_MDuBz2[0],NULL,MDuBz2_ip1,MDuBz2_ip2,100},	 //Мастер ДУ в Баз2
 	{1,5005,&coil_MDuS[0],&di_MDuS[0],&ir_MDuS[0],&hr_MDuS[0],NULL,MDuS_ip1,MDuS_ip2,10},	 //Мастер ДУ в SCM
-	{1,5101,&coil_MDuA1[0],&di_MDuA1[0],&ir_MDuA1[0],&hr_MDuA1[0],NULL,MDuA1_ip1,MDuA1_ip2,100},	 //Мастер ДУ в АКНП1
-	{1,5102,&coil_MDuA2[0],&di_MDuA2[0],&ir_MDuA2[0],&hr_MDuA2[0],NULL,MDuA2_ip1,MDuA2_ip2,100},	 //Мастер ДУ в АКНП2
-	{1,5103,&coil_MDuA3[0],&di_MDuA3[0],&ir_MDuA3[0],&hr_MDuA3[0],NULL,MDuA3_ip1,MDuA3_ip2,100},	 //Мастер ДУ в АКНП3
-	{1,5104,&coil_MDuA4[0],&di_MDuA4[0],&ir_MDuA4[0],&hr_MDuA4[0],NULL,MDuA4_ip1,MDuA4_ip2,100},	 //Мастер ДУ в АКНП4
+	{1,4052,&coil_MDuA2[0],&di_MDuA2[0],&ir_MDuA2[0],&hr_MDuA2[0],NULL,MDuA2_ip1,MDuA2_ip2,100},	 //Мастер ДУ в АКНП2
+	{1,4051,&coil_MDuA1[0],&di_MDuA1[0],&ir_MDuA1[0],&hr_MDuA1[0],NULL,MDuA1_ip1,MDuA1_ip2,100},	 //Мастер ДУ в АКНП1
+	{1,4053,&coil_MDuA3[0],&di_MDuA3[0],&ir_MDuA3[0],&hr_MDuA3[0],NULL,MDuA3_ip1,MDuA3_ip2,100},	 //Мастер ДУ в АКНП3
+	{1,4054,&coil_MDuA4[0],&di_MDuA4[0],&ir_MDuA4[0],&hr_MDuA4[0],NULL,MDuA4_ip1,MDuA4_ip2,100},	 //Мастер ДУ в АКНП4
 	{0,5006,&coil_DiagnDU[0],&di_DiagnDU[0],&ir_DiagnDU[0],&hr_DiagnDU[0],NULL,NULL,NULL,0},	 //Диагностика DU
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};

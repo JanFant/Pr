@@ -590,7 +590,7 @@ static char MRPS_ip2[]={"192.168.10.60\0"};
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_RPU[0],&di_RPU[0],&ir_RPU[0],&hr_RPU[0],NULL,NULL,NULL,0},	 //общий slave RPU
 	{0,5003,&coil_DiagnRPU[0],&di_DiagnRPU[0],&ir_DiagnRPU[0],&hr_DiagnRPU[0],NULL,NULL,NULL,0},	 //Диагностика РПУ
-	{0,5105,&coil_RPDU[0],&di_RPDU[0],&ir_RPDU[0],&hr_RPDU[0],NULL,NULL,NULL,0},	 //slave RPU - DU
+	{0,5055,&coil_RPDU[0],&di_RPDU[0],&ir_RPDU[0],&hr_RPDU[0],NULL,NULL,NULL,0},	 //slave RPU - DU
 	{1,5010,&coil_MRPS[0],&di_MRPS[0],&ir_MRPS[0],&hr_MRPS[0],NULL,MRPS_ip1,MRPS_ip2,100},	 //Мастер RPU в SCM
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};

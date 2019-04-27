@@ -516,7 +516,7 @@ static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP3[0],&di_AKNP3[0],&ir_AKNP3[0],&hr_AKNP3[0],NULL,NULL,NULL,0},	 //общий slave AKNP3
 	{0,5017,&coil_A3Bz1[0],&di_A3Bz1[0],&ir_A3Bz1[0],&hr_A3Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz1
 	{0,5021,&coil_A3Bz2[0],&di_A3Bz2[0],&ir_A3Bz2[0],&hr_A3Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP3 - Baz2
-	{0,5103,&coil_A3DU[0],&di_A3DU[0],&ir_A3DU[0],&hr_A3DU[0],NULL,NULL,NULL,0},	 //slave AKNP3 - DU
+	{0,4053,&coil_A3DU[0],&di_A3DU[0],&ir_A3DU[0],&hr_A3DU[0],NULL,NULL,NULL,0},	 //slave AKNP3 - DU
 	{0,5003,&coil_DiagnAKNP3[0],&di_DiagnAKNP3[0],&ir_DiagnAKNP3[0],&hr_DiagnAKNP3[0],NULL,NULL,NULL,0},	 //Диагностика АКНП3
 	{1,5008,&coil_MA3S[0],&di_MA3S[0],&ir_MA3S[0],&hr_MA3S[0],NULL,MA3S_ip1,MA3S_ip2,100},	 //Мастер AKNP3 в SCM
 
