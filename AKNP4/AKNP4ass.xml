@@ -8,26 +8,26 @@
         <def name="R0IE01LS4">K02FDSR</def>
         <def name="R0DE05LS4">Diagn</def>
         <def name="A1VN71LS4">K16FDSR</def>
-        <def name="R0VN74LZ1">K09FDSR</def>
-        <def name="R0VN78LZ1">K10FDSR</def>
         <def name="A0EE01LS4">K11FDSR</def>
+        <def name="R0VN78LZ1">K10FDSR</def>
+        <def name="R0VN74LZ1">K09FDSR</def>
     </FDS16>
 
 
     <SBKFP>
-        <def name="R0DE31LS4">S01SBK</def>
-        <def name="R0DE32LS4">S02SBK</def>
-        <def name="R0DEB2LS4">S11SBK</def>
-        <def name="R0DEB4LS4">S13SBK</def>
         <def name="R0DEB3LS4">S12SBK</def>
-        <def name="R0DEB1LS4">S10SBK</def>
+        <def name="R0DEB4LS4">S13SBK</def>
+        <def name="R0DEB2LS4">S11SBK</def>
         <def name="R0DE39LS4">S09SBK</def>
         <def name="R0DE38LS4">S08SBK</def>
         <def name="R0DE37LS4">S07SBK</def>
+        <def name="R0DEB1LS4">S10SBK</def>
         <def name="R0DE36LS4">S06SBK</def>
         <def name="R0DE35LS4">S05SBK</def>
-        <def name="R0DE34LS4">S04SBK</def>
+        <def name="R0DE31LS4">S01SBK</def>
+        <def name="R0DE32LS4">S02SBK</def>
         <def name="R0DE33LS4">S03SBK</def>
+        <def name="R0DE34LS4">S04SBK</def>
     </SBKFP>
 
 
@@ -45,9 +45,9 @@
 
 
     <VDS32>
+        <def name="R0IE11LS4">K01VDSR</def>
         <def name="R0IE12LS4">K02VDSR</def>
         <def name="R0IE13LS4">K03VDSR</def>
         <def name="R0DE04LS4">Diagn</def>
-        <def name="R0IE11LS4">K01VDSR</def>
     </VDS32>
 </assign>

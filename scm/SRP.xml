@@ -71,21 +71,21 @@
     </format>
     <records>
         <record>
-            <value name="name">R0IN01RIP</value>
-            <value name="description">( - , SRP) Выход СНМ-11 Гц от ПТИ</value>
+            <value name="name">B8IC01UDU</value>
+            <value name="description">( - , SDu, SA1, SA2, SA3, SA4, SRP) Координата АЗ2</value>
             <value name="type">2</value>
-            <value name="format">8</value>
+            <value name="format">5</value>
             <value name="address">0</value>
             <value name="nID">1</value>
-            <value name="PType">129</value>
+            <value name="PType">135</value>
             <value name="Bf0">0</value>
             <value name="ParData">0</value>
             <value name="OldData">0</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN02RIP</value>
-            <value name="description">( - , SRP) Выход КНК15- Гц от ПТИ</value>
+            <value name="name">R0IN01RIP</value>
+            <value name="description">( - , SRP) Выход СНМ-11 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -97,8 +97,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN03RIP</value>
-            <value name="description">( - , SRP) Выход КНК53М Гц от ПТИ</value>
+            <value name="name">R0IN02RIP</value>
+            <value name="description">( - , SRP) Выход КНК15- Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -110,8 +110,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN06RIP</value>
-            <value name="description">( - , SRP) Выход СНМ-11-1 Гц от ПТИ</value>
+            <value name="name">R0IN03RIP</value>
+            <value name="description">( - , SRP) Выход КНК53М Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -123,8 +123,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0IN07RIP</value>
-            <value name="description">( - , SRP) Выход СНМ-11-2 Гц от ПТИ</value>
+            <value name="name">R0IN06RIP</value>
+            <value name="description">( - , SRP) Выход СНМ-11-1 Гц от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -136,16 +136,29 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">R0IN07RIP</value>
+            <value name="description">( - , SRP) Выход СНМ-11-2 Гц от ПТИ</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+            <value name="nID">6</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">25</value>
+            <value name="OldData">25</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">R0IS01FI0</value>
             <value name="description">( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором</value>
             <value name="type">2</value>
             <value name="format">3</value>
-            <value name="address">10</value>
-            <value name="nID">6</value>
+            <value name="address">12</value>
+            <value name="nID">7</value>
             <value name="PType">130</value>
             <value name="Bf0">0</value>
-            <value name="ParData">25</value>
-            <value name="OldData">25</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
             <value name="unitId">1</value>
         </record>
     </records>

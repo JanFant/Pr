@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0DE01LS2" description="(vchs:01 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
 <var  name="R0DE02LS2" description="(vchs:02 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 2 месте" format="3"></var>
 <var  name="R0DE04LS2" description="(vds32:04 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 4 месте" format="3"></var>
 <var  name="R0DE05LS2" description="(fds16:05 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 5 месте" format="3"></var>
@@ -26,6 +25,7 @@
 <var  name="R0IN01FI2" description="( - , MA2S) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS2" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI2" description="( - , MA2S) Выход КНК53М Гц" format="8"></var>
+<var  name="B8IC01UDU" description="( - , MA2S) Координата АЗ2 (дел. енк)" format="5"></var>
 <var  name="R0VN02RS2" description="( - , A2Bz1, A2Bz2) Уровень мощности канал 2" format="8"></var>
 <var  name="R0VN01RS2" description="( - , A2Bz1, A2Bz2) Период разгона канал 2" format="8"></var>
 <var  name="R0VN61LS2" description="( - , A2Bz1, A2Bz2) ПС по мощности канал 2" format="1"></var>
@@ -53,6 +53,7 @@
 <var  name="B8VC01RDU" description="( - , AKNP2) Координата АЗ2, мм" format="8"></var>
 <var  name="R0EE02LZ1" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
 <var  name="R0EE02LZ2" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0DE01LS2" description="(vchs:01 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 1 месте" format="3"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП блокировки автоматического подъёма ББ(имп/сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
@@ -84,10 +85,10 @@
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m53_tst" description="(internal1_m53_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
-<var  name="internal1_m53_trz" description="(internal1_m53_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
-<var  name="internal1_m53_N1" description="(internal1_m53_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
-<var  name="internal1_m53_N2" description="(internal1_m53_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
-<var  name="internal1_m53_Period0" description="(internal1_m53_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m53_MyFirstEnterFlag" description="(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m55_tst" description="(internal1_m55_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
+<var  name="internal1_m55_trz" description="(internal1_m55_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
+<var  name="internal1_m55_N1" description="(internal1_m55_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
+<var  name="internal1_m55_N2" description="(internal1_m55_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
+<var  name="internal1_m55_Period0" description="(internal1_m55_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m55_MyFirstEnterFlag" description="(internal1_m55_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

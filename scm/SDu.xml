@@ -124,7 +124,7 @@
         </record>
         <record>
             <value name="name">B8IC01UDU</value>
-            <value name="description">( - , SDu) Координата АЗ2</value>
+            <value name="description">( - , SDu, SA1, SA2, SA3, SA4, SRP) Координата АЗ2</value>
             <value name="type">2</value>
             <value name="format">5</value>
             <value name="address">8</value>

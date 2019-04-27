@@ -26,6 +26,7 @@
 <var  name="R0IN01FI3" description="( - , MA3S) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FS3" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI3" description="( - , MA3S) Выход КНК53М Гц" format="8"></var>
+<var  name="B8IC01UDU" description="( - , MA3S) Координата АЗ2 (дел. енк)" format="5"></var>
 <var  name="R0VN02RS3" description="( - , A3Bz1, A3Bz2) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="( - , A3Bz1, A3Bz2) Период разгона канал 3" format="8"></var>
 <var  name="R0VN61LS3" description="( - , A3Bz1, A3Bz2) ПС по мощности канал 3" format="1"></var>
@@ -85,10 +86,10 @@
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m23_Nk" description="(internal1_m23_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m53_tst" description="(internal1_m53_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
-<var  name="internal1_m53_trz" description="(internal1_m53_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
-<var  name="internal1_m53_N1" description="(internal1_m53_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
-<var  name="internal1_m53_N2" description="(internal1_m53_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
-<var  name="internal1_m53_Period0" description="(internal1_m53_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m53_MyFirstEnterFlag" description="(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m55_tst" description="(internal1_m55_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
+<var  name="internal1_m55_trz" description="(internal1_m55_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
+<var  name="internal1_m55_N1" description="(internal1_m55_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
+<var  name="internal1_m55_N2" description="(internal1_m55_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
+<var  name="internal1_m55_Period0" description="(internal1_m55_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m55_MyFirstEnterFlag" description="(internal1_m55_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

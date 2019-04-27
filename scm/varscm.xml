@@ -47,7 +47,7 @@
 <var  name="A5IS11LDU" description="(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1" format="1"></var>
 <var  name="B0VP81LZZ" description="(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме" format="1"></var>
 <var  name="A0VP81LZZ" description="(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме" format="1"></var>
-<var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2" format="5"></var>
+<var  name="B8IC01UDU" description="( - , SDu, SA1, SA2, SA3, SA4, SRP) Координата АЗ2" format="5"></var>
 <var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
