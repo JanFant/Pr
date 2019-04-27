@@ -208,34 +208,42 @@
 <var  name="fEM_R7UI73RZZ" description="(R7UI73RZZ) Время задержки  срабатывания АС II УР" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m244_tx" description="(internal1_m244_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m244_y0" description="(internal1_m244_y0) y0" format="18"></var>
-<var  name="internal1_m252_tx" description="(internal1_m252_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m252_y0" description="(internal1_m252_y0) y0" format="18"></var>
-<var  name="internal1_m328_tx" description="(internal1_m328_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m328_y0" description="(internal1_m328_y0) y0" format="18"></var>
-<var  name="internal1_m211_tx" description="(internal1_m211_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m211_y0" description="(internal1_m211_y0) y0" format="18"></var>
+<var  name="internal1_m107_tx" description="(internal1_m107_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m107_y0" description="(internal1_m107_y0) y0" format="18"></var>
+<var  name="internal1_m106_tx" description="(internal1_m106_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m106_y0" description="(internal1_m106_y0) y0" format="18"></var>
+<var  name="internal1_m134_tx" description="(internal1_m134_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m134_y0" description="(internal1_m134_y0) y0" format="18"></var>
+<var  name="internal1_m133_tx" description="(internal1_m133_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m133_y0" description="(internal1_m133_y0) y0" format="18"></var>
+<var  name="internal1_m248_tx" description="(internal1_m248_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m248_y0" description="(internal1_m248_y0) y0" format="18"></var>
+<var  name="internal1_m256_tx" description="(internal1_m256_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m256_y0" description="(internal1_m256_y0) y0" format="18"></var>
+<var  name="internal1_m332_tx" description="(internal1_m332_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m332_y0" description="(internal1_m332_y0) y0" format="18"></var>
+<var  name="internal1_m215_tx" description="(internal1_m215_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m215_y0" description="(internal1_m215_y0) y0" format="18"></var>
+<var  name="internal1_m214_tx" description="(internal1_m214_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m214_y0" description="(internal1_m214_y0) y0" format="18"></var>
+<var  name="internal1_m212_tx" description="(internal1_m212_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m212_y0" description="(internal1_m212_y0) y0" format="18"></var>
 <var  name="internal1_m210_tx" description="(internal1_m210_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m210_y0" description="(internal1_m210_y0) y0" format="18"></var>
-<var  name="internal1_m208_tx" description="(internal1_m208_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m208_y0" description="(internal1_m208_y0) y0" format="18"></var>
-<var  name="internal1_m206_tx" description="(internal1_m206_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m206_y0" description="(internal1_m206_y0) y0" format="18"></var>
 <var  name="internal1_m33_tx" description="(internal1_m33_tx) tx - внутренний параметр" format="3"></var>
-<var  name="internal1_m143_y0" description="(internal1_m143_y0) y0" format="8"></var>
-<var  name="internal1_m141_y0" description="(internal1_m141_y0) y0" format="8"></var>
+<var  name="internal1_m147_y0" description="(internal1_m147_y0) y0" format="8"></var>
+<var  name="internal1_m145_y0" description="(internal1_m145_y0) y0" format="8"></var>
 <var  name="internal1_m91_y0" description="(internal1_m91_y0) y0" format="8"></var>
 <var  name="internal1_m89_y0" description="(internal1_m89_y0) y0" format="8"></var>
-<var  name="internal1_m154_y1" description="(internal1_m154_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m165_y1" description="(internal1_m165_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m316_q0" description="(internal1_m316_q0) q0 - внутренний параметр" format="5"></var>
-<var  name="internal1_m125_y0" description="(internal1_m125_y0) state" format="1"></var>
-<var  name="internal1_m121_y0" description="(internal1_m121_y0) state" format="1"></var>
+<var  name="internal1_m158_y1" description="(internal1_m158_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m169_y1" description="(internal1_m169_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m320_q0" description="(internal1_m320_q0) q0 - внутренний параметр" format="5"></var>
+<var  name="internal1_m127_y0" description="(internal1_m127_y0) state" format="1"></var>
+<var  name="internal1_m123_y0" description="(internal1_m123_y0) state" format="1"></var>
 <var  name="internal1_m105_y1" description="(internal1_m105_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m118_y1" description="(internal1_m118_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m116_y1" description="(internal1_m116_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m93_y1" description="(internal1_m93_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m103_y1" description="(internal1_m103_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m153_y1" description="(internal1_m153_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m163_y1" description="(internal1_m163_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m155_y1" description="(internal1_m155_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m165_y1" description="(internal1_m165_y1) y1 - внутренний параметр" format="1"></var>
 </vars>
