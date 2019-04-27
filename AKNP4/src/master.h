@@ -121,8 +121,8 @@ int nomer = 1;
 #define idR0VN78LZ2	 53	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2
 #define A1EE01LS4	 BUFFER[152]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
 #define idA1EE01LS4	 54	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
-#define B8VC01RDU	 BUFFER[154]	//( - , A4DU) Координата АЗ2, мм
-#define idB8VC01RDU	 55	//( - , A4DU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[154]	//( - , MA4DU) Координата АЗ2, мм
+#define idB8VC01RDU	 55	//( - , MA4DU) Координата АЗ2, мм
 #define fEM_R0UR01RSS	 BUFFER[159]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define idfEM_R0UR01RSS	 56	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define fEM_R0UL52RSS	 BUFFER[164]	//(R0UL52RSS) Уровень АС по мощности
@@ -249,7 +249,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 52	,1	,1	, &R0VN74LZ2},	//(fds16:05 - K13FDSR, - ) АС по мощности канал 4 на БАЗ2
 	{ 53	,1	,1	, &R0VN78LZ2},	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2
 	{ 54	,1	,1	, &A1EE01LS4},	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
-	{ 55	,8	,1	, &B8VC01RDU},	//( - , A4DU) Координата АЗ2, мм
+	{ 55	,8	,1	, &B8VC01RDU},	//( - , MA4DU) Координата АЗ2, мм
 	{ 56	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 	{ 57	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
 	{ 58	,8	,1	, &fEM_R0UL41RSS},	//(R0UL41RSS) Уровень ПС по периоду разгона
@@ -429,27 +429,6 @@ static ModbusRegister hr_A4Bz2[]={  //
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister coil_A4DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_A4DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_A4DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_A4DU[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A4DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
 static ModbusRegister coil_DiagnAKNP4[]={  // 
 	{NULL,0,0},
 };
@@ -515,13 +494,36 @@ static ModbusRegister hr_MA4S[]={  //
 static char MA4S_ip1[]={"192.168.10.60\0"};
 static char MA4S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
+static ModbusRegister coil_MA4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MA4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MA4DU[]={  // 
+	{&B8VC01RDU,8,0},	//( - , DU, SAKNP) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MA4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MA4DU_ip1[]={"192.168.10.50\0"};
+static char MA4DU_ip2[]={"192.168.10.150\0"};
+#pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP4[0],&di_AKNP4[0],&ir_AKNP4[0],&hr_AKNP4[0],NULL,NULL,NULL,0},	 //общий slave AKNP4
 	{0,5018,&coil_A4Bz1[0],&di_A4Bz1[0],&ir_A4Bz1[0],&hr_A4Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz1
 	{0,5022,&coil_A4Bz2[0],&di_A4Bz2[0],&ir_A4Bz2[0],&hr_A4Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz2
-	{0,4054,&coil_A4DU[0],&di_A4DU[0],&ir_A4DU[0],&hr_A4DU[0],NULL,NULL,NULL,0},	 //slave AKNP4 - DU
 	{0,5003,&coil_DiagnAKNP4[0],&di_DiagnAKNP4[0],&ir_DiagnAKNP4[0],&hr_DiagnAKNP4[0],NULL,NULL,NULL,0},	 //Диагностика АКНП4
 	{1,5009,&coil_MA4S[0],&di_MA4S[0],&ir_MA4S[0],&hr_MA4S[0],NULL,MA4S_ip1,MA4S_ip2,100},	 //Мастер AKNP4 в SCM
+	{1,5030,&coil_MA4DU[0],&di_MA4DU[0],&ir_MA4DU[0],&hr_MA4DU[0],NULL,MA4DU_ip1,MA4DU_ip2,100},	 //Мастер АКНП4 в ДУ
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

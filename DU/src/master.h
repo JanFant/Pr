@@ -497,8 +497,8 @@ int nomer = 1;
 #define idA2VC01RDU	 241	//( - , DU) Координата РБ1, мм
 #define B2VC01RDU	 BUFFER[575]	//( - , DU) Координата РБ2, мм
 #define idB2VC01RDU	 242	//( - , DU) Координата РБ2, мм
-#define B8VC01RDU	 BUFFER[580]	//( - , DU, MDuA1, MDuA2, MDuA3, MDuA4) Координата АЗ2, мм
-#define idB8VC01RDU	 243	//( - , DU, MDuA1, MDuA2, MDuA3, MDuA4) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[580]	//( - , DU, SAKNP) Координата АЗ2, мм
+#define idB8VC01RDU	 243	//( - , DU, SAKNP) Координата АЗ2, мм
 #define A4VP82LDU	 BUFFER[585]	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 #define idA4VP82LDU	 244	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 #define B4VP82LDU	 BUFFER[587]	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
@@ -3967,7 +3967,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 240	,8	,1	, &A3VC01RDU},	//( - , DU) Координата ИС1, мм
 	{ 241	,8	,1	, &A2VC01RDU},	//( - , DU) Координата РБ1, мм
 	{ 242	,8	,1	, &B2VC01RDU},	//( - , DU) Координата РБ2, мм
-	{ 243	,8	,1	, &B8VC01RDU},	//( - , DU, MDuA1, MDuA2, MDuA3, MDuA4) Координата АЗ2, мм
+	{ 243	,8	,1	, &B8VC01RDU},	//( - , DU, SAKNP) Координата АЗ2, мм
 	{ 244	,1	,1	, &A4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 	{ 245	,1	,1	, &B4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
 	{ 246	,1	,1	, &A2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
@@ -6236,7 +6236,7 @@ static ModbusRegister ir_DU[]={  //
 	{&R3VS01IDU,3,44},	//( - , DU) Готовность к управлению гомогенных дверей
 	{&R5VS01IDU,3,45},	//( - , DU) Готовность к управлению ворот отстойной зоны
 	{&R0CN95LDU,3,46},	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
-	{&B8VC01RDU,8,47},	//( - , DU, MDuA1, MDuA2, MDuA3, MDuA4) Координата АЗ2, мм
+	{&B8VC01RDU,8,47},	//( - , DU, SAKNP) Координата АЗ2, мм
 	{&B2VC01RDU,8,49},	//( - , DU) Координата РБ2, мм
 	{&A2VC01RDU,8,51},	//( - , DU) Координата РБ1, мм
 	{&A3VC01RDU,8,53},	//( - , DU) Координата ИС1, мм
@@ -6564,97 +6564,26 @@ static ModbusRegister hr_MDuS[]={  //
 static char MDuS_ip1[]={"192.168.10.60\0"};
 static char MDuS_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
-static ModbusRegister coil_MDuA2[]={  // 
+static ModbusRegister coil_SAKNP[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister di_MDuA2[]={  // 
+static ModbusRegister di_SAKNP[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister ir_MDuA2[]={  // 
+static ModbusRegister ir_SAKNP[]={  // 
+	{&B8VC01RDU,8,0},	//( - , DU, SAKNP) Координата АЗ2, мм
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister hr_MDuA2[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A2DU) Координата АЗ2, мм
+static ModbusRegister hr_SAKNP[]={  // 
 	{NULL,0,0},
 };
 #pragma pop
-static char MDuA2_ip1[]={"192.168.10.53\0"};
-static char MDuA2_ip2[]={"192.168.10.153\0"};
-#pragma pack(push,1)
-static ModbusRegister coil_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_MDuA1[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_MDuA1[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A1DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-static char MDuA1_ip1[]={"192.168.10.51\0"};
-static char MDuA1_ip2[]={"192.168.10.151\0"};
-#pragma pack(push,1)
-static ModbusRegister coil_MDuA3[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_MDuA3[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_MDuA3[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_MDuA3[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A3DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-static char MDuA3_ip1[]={"192.168.10.55\0"};
-static char MDuA3_ip2[]={"192.168.10.155\0"};
-#pragma pack(push,1)
-static ModbusRegister coil_MDuA4[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_MDuA4[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_MDuA4[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_MDuA4[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A4DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-static char MDuA4_ip1[]={"192.168.10.57\0"};
-static char MDuA4_ip2[]={"192.168.10.157\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_DiagnDU[]={  // 
 	{NULL,0,0},
@@ -6708,10 +6637,7 @@ static ModbusDevice modbuses[]={
 	{1,5010,&coil_MDuBz1[0],&di_MDuBz1[0],&ir_MDuBz1[0],&hr_MDuBz1[0],NULL,MDuBz1_ip1,MDuBz1_ip2,100},	 //Мастер ДУ в Баз1
 	{1,5009,&coil_MDuBz2[0],&di_MDuBz2[0],&ir_MDuBz2[0],&hr_MDuBz2[0],NULL,MDuBz2_ip1,MDuBz2_ip2,100},	 //Мастер ДУ в Баз2
 	{1,5005,&coil_MDuS[0],&di_MDuS[0],&ir_MDuS[0],&hr_MDuS[0],NULL,MDuS_ip1,MDuS_ip2,10},	 //Мастер ДУ в SCM
-	{1,4052,&coil_MDuA2[0],&di_MDuA2[0],&ir_MDuA2[0],&hr_MDuA2[0],NULL,MDuA2_ip1,MDuA2_ip2,100},	 //Мастер ДУ в АКНП2
-	{1,4051,&coil_MDuA1[0],&di_MDuA1[0],&ir_MDuA1[0],&hr_MDuA1[0],NULL,MDuA1_ip1,MDuA1_ip2,100},	 //Мастер ДУ в АКНП1
-	{1,4053,&coil_MDuA3[0],&di_MDuA3[0],&ir_MDuA3[0],&hr_MDuA3[0],NULL,MDuA3_ip1,MDuA3_ip2,100},	 //Мастер ДУ в АКНП3
-	{1,4054,&coil_MDuA4[0],&di_MDuA4[0],&ir_MDuA4[0],&hr_MDuA4[0],NULL,MDuA4_ip1,MDuA4_ip2,100},	 //Мастер ДУ в АКНП4
+	{0,5030,&coil_SAKNP[0],&di_SAKNP[0],&ir_SAKNP[0],&hr_SAKNP[0],NULL,NULL,NULL,0},	 //Слэйв АКНП
 	{0,5006,&coil_DiagnDU[0],&di_DiagnDU[0],&ir_DiagnDU[0],&hr_DiagnDU[0],NULL,NULL,NULL,0},	 //Диагностика DU
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};

@@ -115,8 +115,8 @@ int nomer = 1;
 #define idA1EE01LS2	 50	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 2 на БАЗ2
 #define A0VN71LS2	 BUFFER[146]	//(fds16:05 - K12FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
 #define idA0VN71LS2	 51	//(fds16:05 - K12FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
-#define B8VC01RDU	 BUFFER[148]	//( - , A2DU) Координата АЗ2, мм
-#define idB8VC01RDU	 52	//( - , A2DU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[148]	//( - , MA2DU) Координата АЗ2, мм
+#define idB8VC01RDU	 52	//( - , MA2DU) Координата АЗ2, мм
 #define R0EE02LZ1	 BUFFER[153]	//( - , AKNP2) Питание  АКНП  отключить
 #define idR0EE02LZ1	 53	//( - , AKNP2) Питание  АКНП  отключить
 #define R0EE02LZ2	 BUFFER[155]	//( - , AKNP2) Питание  АКНП  отключить
@@ -244,7 +244,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 49	,1	,1	, &R0VN76LZ2},	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 2  на БАЗ2
 	{ 50	,1	,1	, &A1EE01LS2},	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 2 на БАЗ2
 	{ 51	,1	,1	, &A0VN71LS2},	//(fds16:05 - K12FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ1
-	{ 52	,8	,1	, &B8VC01RDU},	//( - , A2DU) Координата АЗ2, мм
+	{ 52	,8	,1	, &B8VC01RDU},	//( - , MA2DU) Координата АЗ2, мм
 	{ 53	,1	,1	, &R0EE02LZ1},	//( - , AKNP2) Питание  АКНП  отключить
 	{ 54	,1	,1	, &R0EE02LZ2},	//( - , AKNP2) Питание  АКНП  отключить
 	{ 55	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП блокировки автоматического подъёма ББ(имп/сек)
@@ -423,27 +423,6 @@ static ModbusRegister hr_A2Bz2[]={  //
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister coil_A2DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_A2DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_A2DU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_A2DU[]={  // 
-	{&B8VC01RDU,8,0},	//( - , A2DU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
 static ModbusRegister coil_DiagnAKNP2[]={  // 
 	{NULL,0,0},
 };
@@ -508,13 +487,36 @@ static ModbusRegister hr_MA2S[]={  //
 static char MA2S_ip1[]={"192.168.10.60\0"};
 static char MA2S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
+static ModbusRegister coil_MA2DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MA2DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MA2DU[]={  // 
+	{&B8VC01RDU,8,0},	//( - , DU, SAKNP) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MA2DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MA2DU_ip1[]={"192.168.10.50\0"};
+static char MA2DU_ip2[]={"192.168.10.150\0"};
+#pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP2[0],&di_AKNP2[0],&ir_AKNP2[0],&hr_AKNP2[0],NULL,NULL,NULL,0},	 //общий slave AKNP2
 	{0,5016,&coil_A2Bz1[0],&di_A2Bz1[0],&ir_A2Bz1[0],&hr_A2Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP2 - Baz1
 	{0,5020,&coil_A2Bz2[0],&di_A2Bz2[0],&ir_A2Bz2[0],&hr_A2Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP2 - Baz2
-	{0,4052,&coil_A2DU[0],&di_A2DU[0],&ir_A2DU[0],&hr_A2DU[0],NULL,NULL,NULL,0},	 //slave AKNP2 - DU
 	{0,5003,&coil_DiagnAKNP2[0],&di_DiagnAKNP2[0],&ir_DiagnAKNP2[0],&hr_DiagnAKNP2[0],NULL,NULL,NULL,0},	 //Диагностика АКНП2
 	{1,5007,&coil_MA2S[0],&di_MA2S[0],&ir_MA2S[0],&hr_MA2S[0],NULL,MA2S_ip1,MA2S_ip2,100},	 //Мастер AKNP2 в SCM
+	{1,5030,&coil_MA2DU[0],&di_MA2DU[0],&ir_MA2DU[0],&hr_MA2DU[0],NULL,MA2DU_ip1,MA2DU_ip2,100},	 //Мастер АКНП2 в ДУ
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop

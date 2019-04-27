@@ -129,8 +129,8 @@ int nomer = 1;
 #define idA0EE02LRP	 57	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
 #define R0IN03RRP	 BUFFER[155]	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
 #define idR0IN03RRP	 58	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
-#define B8VC01RDU	 BUFFER[160]	//( - , RPDU) Координата АЗ2, мм
-#define idB8VC01RDU	 59	//( - , RPDU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[160]	//( - , MRPDU) Координата АЗ2, мм
+#define idB8VC01RDU	 59	//( - , MRPDU) Координата АЗ2, мм
 #define R0VN03RRP	 BUFFER[165]	//( - , RPU) Измеренный нейтронный поток канал 5
 #define idR0VN03RRP	 60	//( - , RPU) Измеренный нейтронный поток канал 5
 #define R0IN02RRP	 BUFFER[170]	//(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
@@ -321,7 +321,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 56	,8	,1	, &R0VN23RRP},	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
 	{ 57	,1	,1	, &A0EE02LRP},	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
 	{ 58	,8	,1	, &R0IN03RRP},	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
-	{ 59	,8	,1	, &B8VC01RDU},	//( - , RPDU) Координата АЗ2, мм
+	{ 59	,8	,1	, &B8VC01RDU},	//( - , MRPDU) Координата АЗ2, мм
 	{ 60	,8	,1	, &R0VN03RRP},	//( - , RPU) Измеренный нейтронный поток канал 5
 	{ 61	,8	,1	, &R0IN02RRP},	//(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
 	{ 62	,8	,1	, &R0IN01RRP},	//(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)
@@ -538,27 +538,6 @@ static ModbusRegister hr_DiagnRPU[]={  //
 };
 #pragma pop
 #pragma pack(push,1)
-static ModbusRegister coil_RPDU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_RPDU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_RPDU[]={  // 
-	{&B8VC01RDU,8,0},	//( - , RPDU) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_RPDU[]={  // 
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
 static ModbusRegister coil_MRPS[]={  // 
 	{NULL,0,0},
 };
@@ -587,11 +566,34 @@ static ModbusRegister hr_MRPS[]={  //
 static char MRPS_ip1[]={"192.168.10.60\0"};
 static char MRPS_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
+static ModbusRegister coil_MRPDU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_MRPDU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_MRPDU[]={  // 
+	{&B8VC01RDU,8,0},	//( - , DU, SAKNP) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_MRPDU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+static char MRPDU_ip1[]={"192.168.10.50\0"};
+static char MRPDU_ip2[]={"192.168.10.150\0"};
+#pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_RPU[0],&di_RPU[0],&ir_RPU[0],&hr_RPU[0],NULL,NULL,NULL,0},	 //общий slave RPU
 	{0,5003,&coil_DiagnRPU[0],&di_DiagnRPU[0],&ir_DiagnRPU[0],&hr_DiagnRPU[0],NULL,NULL,NULL,0},	 //Диагностика РПУ
-	{0,5055,&coil_RPDU[0],&di_RPDU[0],&ir_RPDU[0],&hr_RPDU[0],NULL,NULL,NULL,0},	 //slave RPU - DU
 	{1,5010,&coil_MRPS[0],&di_MRPS[0],&ir_MRPS[0],&hr_MRPS[0],NULL,MRPS_ip1,MRPS_ip2,100},	 //Мастер RPU в SCM
+	{1,5030,&coil_MRPDU[0],&di_MRPDU[0],&ir_MRPDU[0],&hr_MRPDU[0],NULL,MRPDU_ip1,MRPDU_ip2,100},	 //Мастер RPU в ДУ
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
