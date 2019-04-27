@@ -1941,13 +1941,13 @@
         TypeInterface=1
         TypeMB=3
         FormatMB=8
-        TypeMBMaster=0
+        TypeMBMaster=3
         HstInterv_item=3
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="AKNP4"
+        InterfaceMB="A4DU"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -5477,4 +5477,4 @@
     }
   }
 }
-5266714
+5266637

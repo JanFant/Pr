@@ -1539,9 +1539,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -8951,4 +8951,4 @@
     }
   }
 }
-8586675
+8586673

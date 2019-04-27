@@ -86,6 +86,7 @@
 <var  name="R0IN03FI4" description="( - , SA4) Выход КНК53М Гц от ПТИ" format="8"></var>
 <var  name="R0IN02FI4" description="( - , SA4) Выход КНК15-1 Гц от ПТИ" format="8"></var>
 <var  name="R0IN01FI3" description="( - , SA3) Выход СНМ-11 Гц от ПТИ" format="8"></var>
+<var  name="LTAKTS" description="( - , - ) takt scm" format="8"></var>
 <var  name="B0SN07RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2" format="8"></var>
 <var  name="B0SN06RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2" format="8"></var>
 <var  name="B0SN05RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2" format="8"></var>
@@ -98,7 +99,6 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="LTAKTSCM" description="( - , - ) takt scm" format="8"></var>
 <var  name="krb2" description="( - , - ) " format="8"></var>
 <var  name="krb1" description="( - , - ) " format="8"></var>
 <var  name="R0DEUMLSS" description="( - , SCM) Сигнал управления моделью" format="3"></var>

@@ -184,8 +184,8 @@ static char BUFFER[3496];
 #define idR0IN02FI4	 86	//( - , SA4) Выход КНК15-1 Гц от ПТИ
 #define R0IN01FI3	 BUFFER[231]	//( - , SA3) Выход СНМ-11 Гц от ПТИ
 #define idR0IN01FI3	 87	//( - , SA3) Выход СНМ-11 Гц от ПТИ
-#define LTAKTSCM	 BUFFER[236]	//( - , - ) takt scm
-#define idLTAKTSCM	 88	//( - , - ) takt scm
+#define LTAKTS	 BUFFER[236]	//( - , - ) takt scm
+#define idLTAKTS	 88	//( - , - ) takt scm
 #define B0SN07RIM	 BUFFER[241]	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
 #define idB0SN07RIM	 89	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
 #define B0SN06RIM	 BUFFER[246]	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
@@ -2189,7 +2189,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 85	,8	,1	, &R0IN03FI4},	//( - , SA4) Выход КНК53М Гц от ПТИ
 	{ 86	,8	,1	, &R0IN02FI4},	//( - , SA4) Выход КНК15-1 Гц от ПТИ
 	{ 87	,8	,1	, &R0IN01FI3},	//( - , SA3) Выход СНМ-11 Гц от ПТИ
-	{ 88	,8	,1	, &LTAKTSCM},	//( - , - ) takt scm
+	{ 88	,8	,1	, &LTAKTS},	//( - , - ) takt scm
 	{ 89	,8	,1	, &B0SN07RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2
 	{ 90	,8	,1	, &B0SN06RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2
 	{ 91	,8	,1	, &B0SN05RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2
@@ -6163,7 +6163,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   vchs(&S_vchs_856_1);
   vchs(&S_vchs_864_1);
   vchs(&S_vchs_874_1);
-  setData(idLTAKTSCM,&var1);
+  setData(idLTAKTS,&var1);
   setData(idkrb2,&var301);
   setData(idkrb1,&var309);
   setData(idR0IS01FI0,&iRM_1_);

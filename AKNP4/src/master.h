@@ -121,8 +121,8 @@ int nomer = 1;
 #define idR0VN78LZ2	 53	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2
 #define A1EE01LS4	 BUFFER[152]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
 #define idA1EE01LS4	 54	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
-#define B8VC01RDU	 BUFFER[154]	//( - , AKNP4) Координата АЗ2, мм
-#define idB8VC01RDU	 55	//( - , AKNP4) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[154]	//( - , A4DU) Координата АЗ2, мм
+#define idB8VC01RDU	 55	//( - , A4DU) Координата АЗ2, мм
 #define fEM_R0UR01RSS	 BUFFER[159]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define idfEM_R0UR01RSS	 56	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define fEM_R0UL52RSS	 BUFFER[164]	//(R0UL52RSS) Уровень АС по мощности
@@ -249,7 +249,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 52	,1	,1	, &R0VN74LZ2},	//(fds16:05 - K13FDSR, - ) АС по мощности канал 4 на БАЗ2
 	{ 53	,1	,1	, &R0VN78LZ2},	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2
 	{ 54	,1	,1	, &A1EE01LS4},	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2
-	{ 55	,8	,1	, &B8VC01RDU},	//( - , AKNP4) Координата АЗ2, мм
+	{ 55	,8	,1	, &B8VC01RDU},	//( - , A4DU) Координата АЗ2, мм
 	{ 56	,8	,1	, &fEM_R0UR01RSS},	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 	{ 57	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
 	{ 58	,8	,1	, &fEM_R0UL41RSS},	//(R0UL41RSS) Уровень ПС по периоду разгона
@@ -351,33 +351,32 @@ static ModbusRegister ir_AKNP4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_AKNP4[]={  // 
-	{&B8VC01RDU,8,0},	//( - , AKNP4) Координата АЗ2, мм
-	{&fEM_R0UR01RSS,8,2},	//( - , AKNP4) Уставка АКНП ПС  АЗ по периоду (сек)
-	{&fEM_R0UL52RSS,8,4},	//( - , AKNP4) Уровень АС по мощности
-	{&fEM_R0UL41RSS,8,6},	//( - , AKNP4) Уровень ПС по периоду разгона
-	{&fEM_R0UL51RSS,8,8},	//( - , AKNP4) Уровень АС по периоду разгона
-	{&fEM_R0UH02RSS,8,10},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК15-1
-	{&fEM_R0UH03RSS,8,12},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК53М
-	{&fEM_R0UL42RSS,8,14},	//( - , AKNP4) Уровень ПС по мощности
-	{&fEM_R7UX00RSS,8,16},	//( - , AKNP4) X-координата АЗ1 (см)
-	{&fEM_R7UY00RSS,8,18},	//( - , AKNP4) Y-координата АЗ1 (см)
-	{&fEM_R7UX10RSS,8,20},	//( - , AKNP4) X-координата камеры R7IN41
-	{&fEM_R7UX11RSS,8,22},	//( - , AKNP4) X-координата камеры R7IN42
-	{&fEM_R7UX12RSS,8,24},	//( - , AKNP4) X-координата камеры R7IN43
-	{&fEM_R7UY10RSS,8,26},	//( - , AKNP4) Y-координата камеры R7IN41
-	{&fEM_R7UY11RSS,8,28},	//( - , AKNP4) Y-координата камеры R7IN42
-	{&fEM_R7UY12RSS,8,30},	//( - , AKNP4) Y-координата камеры R7IN43
-	{&fEM_A0UX00RSS,8,32},	//( - , AKNP4) Эффективный радиус АЗ
-	{&fEM_A0UX10RSS,8,34},	//( - , AKNP4) Первый коэффициент калибровки камеры 10
-	{&fEM_A0UX11RSS,8,36},	//( - , AKNP4) Первый коэффициент калибровки камеры 11
-	{&fEM_A0UX12RSS,8,38},	//( - , AKNP4) Первый коэффициент калибровки камеры 12
-	{&fEM_B0UX10RSS,8,40},	//( - , AKNP4) Второй коэффициент калибровки камеры 10
-	{&fEM_B0UX11RSS,8,42},	//( - , AKNP4) Второй коэффициент калибровки камеры 11
-	{&fEM_B0UX12RSS,8,44},	//( - , AKNP4) Второй коэффициент калибровки камеры 12
-	{&fEM_R0UH05RSS,8,46},	//( - , AKNP4) Кол-во делений/сек на 1 ватт * E^6
-	{&iEM_R0UL01ISS,3,48},	//( - , AKNP4) Шаг (мс) измерения периода
-	{&dEM_R0UL02USS,5,49},	//( - , AKNP4) Предельное время ожидания роста потока (мс)
-	{&fEM_R0UN03RSS,8,51},	//( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&fEM_R0UR01RSS,8,0},	//( - , AKNP4) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UL52RSS,8,2},	//( - , AKNP4) Уровень АС по мощности
+	{&fEM_R0UL41RSS,8,4},	//( - , AKNP4) Уровень ПС по периоду разгона
+	{&fEM_R0UL51RSS,8,6},	//( - , AKNP4) Уровень АС по периоду разгона
+	{&fEM_R0UH02RSS,8,8},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{&fEM_R0UH03RSS,8,10},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК53М
+	{&fEM_R0UL42RSS,8,12},	//( - , AKNP4) Уровень ПС по мощности
+	{&fEM_R7UX00RSS,8,14},	//( - , AKNP4) X-координата АЗ1 (см)
+	{&fEM_R7UY00RSS,8,16},	//( - , AKNP4) Y-координата АЗ1 (см)
+	{&fEM_R7UX10RSS,8,18},	//( - , AKNP4) X-координата камеры R7IN41
+	{&fEM_R7UX11RSS,8,20},	//( - , AKNP4) X-координата камеры R7IN42
+	{&fEM_R7UX12RSS,8,22},	//( - , AKNP4) X-координата камеры R7IN43
+	{&fEM_R7UY10RSS,8,24},	//( - , AKNP4) Y-координата камеры R7IN41
+	{&fEM_R7UY11RSS,8,26},	//( - , AKNP4) Y-координата камеры R7IN42
+	{&fEM_R7UY12RSS,8,28},	//( - , AKNP4) Y-координата камеры R7IN43
+	{&fEM_A0UX00RSS,8,30},	//( - , AKNP4) Эффективный радиус АЗ
+	{&fEM_A0UX10RSS,8,32},	//( - , AKNP4) Первый коэффициент калибровки камеры 10
+	{&fEM_A0UX11RSS,8,34},	//( - , AKNP4) Первый коэффициент калибровки камеры 11
+	{&fEM_A0UX12RSS,8,36},	//( - , AKNP4) Первый коэффициент калибровки камеры 12
+	{&fEM_B0UX10RSS,8,38},	//( - , AKNP4) Второй коэффициент калибровки камеры 10
+	{&fEM_B0UX11RSS,8,40},	//( - , AKNP4) Второй коэффициент калибровки камеры 11
+	{&fEM_B0UX12RSS,8,42},	//( - , AKNP4) Второй коэффициент калибровки камеры 12
+	{&fEM_R0UH05RSS,8,44},	//( - , AKNP4) Кол-во делений/сек на 1 ватт * E^6
+	{&iEM_R0UL01ISS,3,46},	//( - , AKNP4) Шаг (мс) измерения периода
+	{&dEM_R0UL02USS,5,47},	//( - , AKNP4) Предельное время ожидания роста потока (мс)
+	{&fEM_R0UN03RSS,8,49},	//( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)
 	{NULL,0,0},
 };
 #pragma pop
@@ -426,6 +425,27 @@ static ModbusRegister ir_A4Bz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_A4Bz2[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A4DU[]={  // 
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A4DU[]={  // 
+	{&B8VC01RDU,8,0},	//( - , A4DU) Координата АЗ2, мм
 	{NULL,0,0},
 };
 #pragma pop
@@ -499,6 +519,7 @@ static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP4[0],&di_AKNP4[0],&ir_AKNP4[0],&hr_AKNP4[0],NULL,NULL,NULL,0},	 //общий slave AKNP4
 	{0,5018,&coil_A4Bz1[0],&di_A4Bz1[0],&ir_A4Bz1[0],&hr_A4Bz1[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz1
 	{0,5022,&coil_A4Bz2[0],&di_A4Bz2[0],&ir_A4Bz2[0],&hr_A4Bz2[0],NULL,NULL,NULL,0},	 //slave AKNP4 - Baz2
+	{0,5104,&coil_A4DU[0],&di_A4DU[0],&ir_A4DU[0],&hr_A4DU[0],NULL,NULL,NULL,0},	 //slave AKNP4 - DU
 	{0,5003,&coil_DiagnAKNP4[0],&di_DiagnAKNP4[0],&ir_DiagnAKNP4[0],&hr_DiagnAKNP4[0],NULL,NULL,NULL,0},	 //Диагностика АКНП4
 	{1,5009,&coil_MA4S[0],&di_MA4S[0],&ir_MA4S[0],&hr_MA4S[0],NULL,MA4S_ip1,MA4S_ip2,100},	 //Мастер AKNP4 в SCM
 
