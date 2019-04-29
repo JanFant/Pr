@@ -15,6 +15,8 @@
                 readAllModbus();
                 reciveVariables();
                 writeAllModbus();
+                takt = takt_time_cycle(tvStakt);
+                time_start(&tvStakt);
                 MainCycle();
                 long int t = time_cycle();
                 if (t > StepCycle) {
