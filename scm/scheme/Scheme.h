@@ -448,7 +448,7 @@ psfloat  array_m61_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83R
 psfloat  array_m14_C0_1[6];
 
 /* Объявление структур */
-_S_locktakt  S_locktakt_144_1 = {&var1};
+_S_looktakt  S_looktakt_144_1 = {&var1};
 _S_to3val  S_to3val_948_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var2,&var3,&vainSFloat,&bFirstEnterFlag};
 _S_vchs  S_vchs_874_1 = {&var281,&var332,&var242,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m874_Chim0};
 _S_vchs  S_vchs_864_1 = {&var332,&var281,&var242,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var5,&internal1_m864_Chim0};
@@ -719,7 +719,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_476_1);
   noto(&S_noto_475_1);
   to3val(&S_to3val_948_1);
-  locktakt(&S_locktakt_144_1);
+  looktakt(&S_looktakt_144_1);
   asmot(&S_asmot_886_1);
   asmot(&S_asmot_358_1);
   asmot(&S_asmot_374_1);

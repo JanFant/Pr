@@ -104,8 +104,8 @@ static char BUFFER[3496];
 #define idA5IS11LDU	 46	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
 #define B0VP81LZZ	 BUFFER[98]	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
 #define idB0VP81LZZ	 47	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
-#define A0VP81LZZ	 BUFFER[100]	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
-#define idA0VP81LZZ	 48	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
+#define A0VP81LZZ	 BUFFER[100]	//(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме
+#define idA0VP81LZZ	 48	//(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме
 #define B8IC01UDU	 BUFFER[102]	//( - , SDu) Координата АЗ2
 #define idB8IC01UDU	 49	//( - , SDu) Координата АЗ2
 #define A8IC01UDU	 BUFFER[107]	//( - , SDu) Координата ДС2
@@ -226,8 +226,8 @@ static char BUFFER[3496];
 #define idB8IS21LDU	 107	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
 #define B8IS11LDU	 BUFFER[324]	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
 #define idB8IS11LDU	 108	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
-#define A1VP81LZZ	 BUFFER[326]	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
-#define idA1VP81LZZ	 109	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
+#define A1VP81LZZ	 BUFFER[326]	//(do32_pti:110 - K01DO, - ) Давление СБРОС ББ1 в норме
+#define idA1VP81LZZ	 109	//(do32_pti:110 - K01DO, - ) Давление СБРОС ББ1 в норме
 #define B1VP81LZZ	 BUFFER[328]	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
 #define idB1VP81LZZ	 110	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
 #define B2IS33LDU	 BUFFER[330]	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
@@ -476,12 +476,12 @@ static char BUFFER[3496];
 #define idR6IS62LDU	 232	//( - , - ) Исправность ВИП ССДИ-39 1канал
 #define B3IS22LDU	 BUFFER[613]	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
 #define idB3IS22LDU	 233	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
-#define A3IS22LDU	 BUFFER[615]	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
-#define idA3IS22LDU	 234	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
+#define A3IS22LDU	 BUFFER[615]	//(do32_pti:110 - K02DO, - ) Приход на НУП ИС1
+#define idA3IS22LDU	 234	//(do32_pti:110 - K02DO, - ) Приход на НУП ИС1
 #define B3IS11LDU	 BUFFER[617]	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
 #define idB3IS11LDU	 235	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
-#define A3IS11LDU	 BUFFER[619]	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
-#define idA3IS11LDU	 236	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
+#define A3IS11LDU	 BUFFER[619]	//(do32_pti:110 - K04DO, - ) Приход на ВУ ИС1
+#define idA3IS11LDU	 236	//(do32_pti:110 - K04DO, - ) Приход на ВУ ИС1
 #define A3IP02IDU	 BUFFER[621]	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
 #define idA3IP02IDU	 237	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
 #define B3VP81LDU	 BUFFER[624]	//( - , - ) Давление СПУСК ИС2 в норме
@@ -552,12 +552,12 @@ static char BUFFER[3496];
 #define idR7II72LZ2	 270	//(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)
 #define R0AD16LDU	 BUFFER[700]	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
 #define idR0AD16LDU	 271	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
-#define R7II72LZ1	 BUFFER[702]	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
-#define idR7II72LZ1	 272	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
-#define R7II71LZ1	 BUFFER[704]	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
-#define idR7II71LZ1	 273	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
-#define R7II73LZ1	 BUFFER[706]	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
-#define idR7II73LZ1	 274	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
+#define R7II72LZ1	 BUFFER[702]	//(do32_pti:110 - K07DO, - ) Сработала АС IУР (датчик 2)
+#define idR7II72LZ1	 272	//(do32_pti:110 - K07DO, - ) Сработала АС IУР (датчик 2)
+#define R7II71LZ1	 BUFFER[704]	//(do32_pti:110 - K08DO, - ) Сработала АС IУР (датчик 1)
+#define idR7II71LZ1	 273	//(do32_pti:110 - K08DO, - ) Сработала АС IУР (датчик 1)
+#define R7II73LZ1	 BUFFER[706]	//(do32_pti:110 - K09DO, - ) Сработала АС IIУР
+#define idR7II73LZ1	 274	//(do32_pti:110 - K09DO, - ) Сработала АС IIУР
 #define R0SR01RIM	 BUFFER[708]	//( - , SCM) Текущая реактивность PУ
 #define idR0SR01RIM	 275	//( - , SCM) Текущая реактивность PУ
 #define R0ST01RIM	 BUFFER[713]	//( - , SCM) Текущий период разгона РУ
@@ -2149,7 +2149,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 45	,1	,1	, &A5IS21LDU},	//(do32_pti:140 - K29DO, - ) Приход на НУ НЛ1
 	{ 46	,1	,1	, &A5IS11LDU},	//(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1
 	{ 47	,1	,1	, &B0VP81LZZ},	//(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме
-	{ 48	,1	,1	, &A0VP81LZZ},	//(do32_pti:100 - K27DO, - ) Давление АЗ1 в норме
+	{ 48	,1	,1	, &A0VP81LZZ},	//(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме
 	{ 49	,5	,1	, &B8IC01UDU},	//( - , SDu) Координата АЗ2
 	{ 50	,5	,1	, &A8IC01UDU},	//( - , SDu) Координата ДС2
 	{ 51	,1	,1	, &R6IS68LZZ},	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
@@ -2210,7 +2210,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 106	,1	,1	, &A6VS22LDU},	//( - , SCM) Движение створок БЗ1  к ЗАКРЫТА
 	{ 107	,1	,1	, &B8IS21LDU},	//(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2
 	{ 108	,1	,1	, &B8IS11LDU},	//(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2
-	{ 109	,1	,1	, &A1VP81LZZ},	//(do32_pti:100 - K28DO, - ) Давление СБРОС ББ1 в норме
+	{ 109	,1	,1	, &A1VP81LZZ},	//(do32_pti:110 - K01DO, - ) Давление СБРОС ББ1 в норме
 	{ 110	,1	,1	, &B1VP81LZZ},	//(do32_pti:110 - K31DO, - ) Давление СБРОС ББ2 в норме
 	{ 111	,1	,1	, &B2IS33LDU},	//( - , - ) Клапан (Подъём РБ2)  открыт (обесточен)
 	{ 112	,8	,1	, &A0VN01RIM},	//( - , SCM) Период разгона  AЗ1
@@ -2335,9 +2335,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 231	,1	,1	, &R6IS63LDU},	//( - , - ) Исправность ВИП ССДИ-39 2канал
 	{ 232	,1	,1	, &R6IS62LDU},	//( - , - ) Исправность ВИП ССДИ-39 1канал
 	{ 233	,1	,1	, &B3IS22LDU},	//(do32_pti:110 - K12DO, - ) Приход на НУП ИС2
-	{ 234	,1	,1	, &A3IS22LDU},	//(do32_pti:100 - K06DO, - ) Приход на НУП ИС1
+	{ 234	,1	,1	, &A3IS22LDU},	//(do32_pti:110 - K02DO, - ) Приход на НУП ИС1
 	{ 235	,1	,1	, &B3IS11LDU},	//(do32_pti:110 - K11DO, - ) Приход на ВУ ИС2
-	{ 236	,1	,1	, &A3IS11LDU},	//(do32_pti:100 - K05DO, - ) Приход на ВУ ИС1
+	{ 236	,1	,1	, &A3IS11LDU},	//(do32_pti:110 - K04DO, - ) Приход на ВУ ИС1
 	{ 237	,3	,1	, &A3IP02IDU},	//(ao16_pti:320 - K09AO, - ) Текущее давление ВЫСТРЕЛ ИС1
 	{ 238	,1	,1	, &B3VP81LDU},	//( - , - ) Давление СПУСК ИС2 в норме
 	{ 239	,1	,1	, &A3VP81LDU},	//( - , - ) Давление СПУСК ИС1 в норме
@@ -2373,9 +2373,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 269	,1	,1	, &R7II71LZ2},	//(do32_pti:110 - K24DO, - ) Сработала АС IУР (датчик 1)
 	{ 270	,1	,1	, &R7II72LZ2},	//(do32_pti:110 - K25DO, - ) Сработала АС IУР (датчик 2)
 	{ 271	,1	,1	, &R0AD16LDU},	//(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД
-	{ 272	,1	,1	, &R7II72LZ1},	//(do32_pti:100 - K25DO, - ) Сработала АС IУР (датчик 2)
-	{ 273	,1	,1	, &R7II71LZ1},	//(do32_pti:100 - K24DO, - ) Сработала АС IУР (датчик 1)
-	{ 274	,1	,1	, &R7II73LZ1},	//(do32_pti:100 - K26DO, - ) Сработала АС IIУР
+	{ 272	,1	,1	, &R7II72LZ1},	//(do32_pti:110 - K07DO, - ) Сработала АС IУР (датчик 2)
+	{ 273	,1	,1	, &R7II71LZ1},	//(do32_pti:110 - K08DO, - ) Сработала АС IУР (датчик 1)
+	{ 274	,1	,1	, &R7II73LZ1},	//(do32_pti:110 - K09DO, - ) Сработала АС IIУР
 	{ 275	,8	,1	, &R0SR01RIM},	//( - , SCM) Текущая реактивность PУ
 	{ 276	,8	,1	, &R0ST01RIM},	//( - , SCM) Текущий период разгона РУ
 	{ 277	,1	,1	, &A4AD10LDU},	//(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)
@@ -4216,13 +4216,6 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
-	{&A1VP81LZZ,1,54},
-	{&R7II73LZ1,1,50},
-	{&R7II71LZ1,1,46},
-	{&R7II72LZ1,1,48},
-	{&A3IS22LDU,1,10},
-	{&A3IS11LDU,1,8},
-	{&A0VP81LZZ,1,52},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4234,13 +4227,20 @@ static table_drv table_DO32_5F02={0,0,&ini_DO32_5F02,buf_DO32_5F02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F02[]={
-	{&B3IS11LDU,1,20},
-	{&R7II72LZ2,1,48},
+	{&A1VP81LZZ,1,0},
+	{&B1VP81LZZ,1,60},
+	{&R7II73LZ1,1,16},
+	{&R7II71LZ1,1,14},
+	{&R7II72LZ1,1,12},
 	{&B3IS22LDU,1,22},
+	{&A3IS22LDU,1,2},
+	{&B3IS11LDU,1,20},
+	{&A3IS11LDU,1,6},
+	{&R7II72LZ2,1,48},
 	{&R7II71LZ2,1,46},
 	{&R7II73LZ2,1,50},
-	{&B1VP81LZZ,1,60},
 	{&B0VP81LZZ,1,58},
+	{&A0VP81LZZ,1,4},
 	{NULL,0,0},
 };
 #pragma pop
@@ -5318,7 +5318,7 @@ psfloat  array_m61_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83R
 psfloat  array_m14_C0_1[6];
 
 /* ���������� �������� */
-_S_locktakt  S_locktakt_144_1 = {&var1};
+_S_looktakt  S_looktakt_144_1 = {&var1};
 _S_to3val  S_to3val_948_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var2,&var3,&vainSFloat,&bFirstEnterFlag};
 _S_vchs  S_vchs_874_1 = {&var281,&var332,&var242,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m874_Chim0};
 _S_vchs  S_vchs_864_1 = {&var332,&var281,&var242,&fEM_R4UC23RIM,&fEM_R7UY00RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var5,&internal1_m864_Chim0};
@@ -5935,7 +5935,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_476_1);
   noto(&S_noto_475_1);
   to3val(&S_to3val_948_1);
-  locktakt(&S_locktakt_144_1);
+  looktakt(&S_looktakt_144_1);
   asmot(&S_asmot_886_1);
   asmot(&S_asmot_358_1);
   asmot(&S_asmot_374_1);
