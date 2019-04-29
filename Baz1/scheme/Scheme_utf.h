@@ -236,7 +236,7 @@ _S_zzfs  S_zzfs_134_1 = {&B0VP81LZZ,&fRM_10000_,&var3,&internal1_m134_tx,&intern
 _S_zzfs  S_zzfs_133_1 = {&A0VP81LZZ,&fRM_10000_,&var4,&internal1_m133_tx,&internal1_m133_y0};
 _S_or3  S_or3_383_1 = {&var10,&var9,&var6,&var5};
 _S_orn  S_orn_382_1 = {array_m382_x_1,&iRM_6_,&var6};
-_S_or2  S_or2_388_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var7};
+_S_or2  S_or2_389_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var7};
 _S_or2  S_or2_380_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var8};
 _S_and2  S_and2_371_1 = {&R0DE31LZ1,&R0DE32LZ1,&var9};
 _S_diagndev  S_diagndev_369_1 = {array_m369_x_1,&iRM_6_,&var10,&var11};
@@ -459,7 +459,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   ma(&S_ma_192_1);
   and2(&S_and2_371_1);
   or2(&S_or2_380_1);
-  or2(&S_or2_388_1);
+  or2(&S_or2_389_1);
   orn(&S_orn_382_1);
   zzfs(&S_zzfs_133_1);
   zzfs(&S_zzfs_134_1);

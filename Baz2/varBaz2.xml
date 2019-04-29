@@ -45,7 +45,6 @@
 <var  name="R7II73LZ2" description="(vds32:08 - K07VDSR, Baz2) Сработала АС II УР РАД" format="1"></var>
 <var  name="R7II71LZ2" description="(vds32:08 - K05VDSR, Baz2) Сработала АС IУР РАД (датчик 1)" format="1"></var>
 <var  name="R7II72LZ2" description="(vds32:08 - K06VDSR, Baz2) Сработала АС IУР РАД (датчик 2)" format="1"></var>
-<var  name="R0DEB4LZ2" description="(sbk:20 - S13SBK, DiagnBaz2) диагностика шкафа Баз2 БП24Д место 6" format="1"></var>
 <var  name="R0DE3CLZ2" description="( - , DiagnBaz2) диагностика шкафа Баз2 БП5/24Д место 5" format="1"></var>
 <var  name="R0DE3DLZ2" description="( - , DiagnBaz2) диагностика шкафа Баз2 БП5/24Д место 6" format="1"></var>
 <var  name="TestDiagnBaz2" description="( - , Baz2) Неисправность от" format="1"></var>
@@ -68,6 +67,7 @@
 <var  name="PS12" description="( - , - ) АС по мощности АЗ2" format="1"></var>
 <var  name="PS13" description="( - , - ) АС по периоду АЗ2" format="1"></var>
 <var  name="R0VZ05U" description="( - , - ) причины сброса" format="5"></var>
+<var  name="B8VC01RDU" description="( - , SBz2DU, MBz2A1, MBz2A2, MBz2A3, MBz2A4) Координата АЗ2, мм" format="8"></var>
 <var  name="R0MW12IP2" description="( - , Baz2) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС" format="3"></var>
 <var  name="A2IS12LDU" description="(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен" format="1"></var>
@@ -91,6 +91,7 @@
 <var  name="R0DEB1LZ2" description="(sbk:20 - S10SBK, DiagnBaz2) диагностика шкафа Баз2 БП5 место 5" format="1"></var>
 <var  name="R0DEB2LZ2" description="(sbk:20 - S11SBK, DiagnBaz2) диагностика шкафа Баз2 БП24Д место 5" format="1"></var>
 <var  name="R0DEB3LZ2" description="(sbk:20 - S12SBK, DiagnBaz2) диагностика шкафа Баз2 БП5 место 6" format="1"></var>
+<var  name="R0DEB4LZ2" description="(sbk:20 - S13SBK, DiagnBaz2) диагностика шкафа Баз2 БП24Д место 6" format="1"></var>
 <var  name="A0VP81LZZ" description="(vds32:08 - K09VDSR, - ) Давление  АЗ1 в норме" format="1"></var>
 <var  name="R0ET02LZ2" description="( - , Baz2) Признак наличия неисправности по температуре АЗ2" format="1"></var>
 <var  name="B0EP02IZ2" description="( - , Baz2) Индикатор -Давление  АЗ2 ниже АС" format="3"></var>

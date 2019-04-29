@@ -50,7 +50,7 @@
 <var  name="R0VN76LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 2  на БАЗ2" format="1"></var>
 <var  name="A1EE01LS2" description="(fds16:05 - K15FDSR, - ) Исправность АКНП канал 2 на БАЗ2" format="1"></var>
 <var  name="A0VN71LS2" description="(fds16:05 - K12FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ1" format="1"></var>
-<var  name="B8VC01RDU" description="( - , AKNP2) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , A2Bz1, A2Bz2) Координата АЗ2, мм" format="8"></var>
 <var  name="R0EE02LZ1" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
 <var  name="R0EE02LZ2" description="( - , AKNP2) Питание  АКНП  отключить" format="1"></var>
 

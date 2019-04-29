@@ -122,5 +122,18 @@
             <value name="OldData">5</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">B8VC01RDU</value>
+            <value name="description">( - , A1Bz1, A1Bz2) Координата АЗ2, мм</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">0</value>
+            <value name="nID">5</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>

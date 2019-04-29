@@ -241,7 +241,7 @@
 <var  name="A3VC01RDU" description="( - , DU) Координата ИС1, мм" format="8"></var>
 <var  name="A2VC01RDU" description="( - , DU) Координата РБ1, мм" format="8"></var>
 <var  name="B2VC01RDU" description="( - , DU) Координата РБ2, мм" format="8"></var>
-<var  name="B8VC01RDU" description="( - , DU) Координата АЗ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм" format="8"></var>
 <var  name="A4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
 <var  name="B4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
 <var  name="A2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>

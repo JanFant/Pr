@@ -497,8 +497,8 @@ int nomer = 1;
 #define idA2VC01RDU	 241	//( - , DU) Координата РБ1, мм
 #define B2VC01RDU	 BUFFER[575]	//( - , DU) Координата РБ2, мм
 #define idB2VC01RDU	 242	//( - , DU) Координата РБ2, мм
-#define B8VC01RDU	 BUFFER[580]	//( - , DU) Координата АЗ2, мм
-#define idB8VC01RDU	 243	//( - , DU) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[580]	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
+#define idB8VC01RDU	 243	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
 #define A4VP82LDU	 BUFFER[585]	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 #define idA4VP82LDU	 244	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 #define B4VP82LDU	 BUFFER[587]	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
@@ -3967,7 +3967,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 240	,8	,1	, &A3VC01RDU},	//( - , DU) Координата ИС1, мм
 	{ 241	,8	,1	, &A2VC01RDU},	//( - , DU) Координата РБ1, мм
 	{ 242	,8	,1	, &B2VC01RDU},	//( - , DU) Координата РБ2, мм
-	{ 243	,8	,1	, &B8VC01RDU},	//( - , DU) Координата АЗ2, мм
+	{ 243	,8	,1	, &B8VC01RDU},	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
 	{ 244	,1	,1	, &A4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
 	{ 245	,1	,1	, &B4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
 	{ 246	,1	,1	, &A2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
@@ -6236,7 +6236,7 @@ static ModbusRegister ir_DU[]={  //
 	{&R3VS01IDU,3,44},	//( - , DU) Готовность к управлению гомогенных дверей
 	{&R5VS01IDU,3,45},	//( - , DU) Готовность к управлению ворот отстойной зоны
 	{&R0CN95LDU,3,46},	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
-	{&B8VC01RDU,8,47},	//( - , DU) Координата АЗ2, мм
+	{&B8VC01RDU,8,47},	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
 	{&B2VC01RDU,8,49},	//( - , DU) Координата РБ2, мм
 	{&A2VC01RDU,8,51},	//( - , DU) Координата РБ1, мм
 	{&A3VC01RDU,8,53},	//( - , DU) Координата ИС1, мм
@@ -6533,6 +6533,7 @@ static ModbusRegister ir_MDuBz1[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_MDuBz1[]={  // 
+	{&B8VC01RDU,8,0},	//( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм
 	{NULL,0,0},
 };
 #pragma pop
@@ -6575,6 +6576,7 @@ static ModbusRegister ir_MDuBz2[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_MDuBz2[]={  // 
+	{&B8VC01RDU,8,0},	//( - , SBz2DU, MBz2A1, MBz2A2, MBz2A3, MBz2A4) Координата АЗ2, мм
 	{NULL,0,0},
 };
 #pragma pop

@@ -1579,7 +1579,7 @@
         }
       }
       [VVV_Text]{
-        R="371,423,513,429"
+        R="371,423,529,430"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1635,7 +1635,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,985,410"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -1943,7 +1943,7 @@
         Line2="АКНП канал 4 на БАЗ2"
       }
       [VVV_Text]{
-        R="754,319,810,324"
+        R="754,319,825,326"
         Number=137
         IsHold=FALSE
         Line1="нигде не используем"
@@ -1969,7 +1969,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="AKNP4"
+        InterfaceMB="A4Bz1, A4Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -5499,4 +5499,4 @@
     }
   }
 }
-5288962
+5289403

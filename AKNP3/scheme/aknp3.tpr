@@ -1877,7 +1877,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB="AKNP3"
+        InterfaceMB="A3Bz1, A3Bz2"
         ChannalName=""
         DeviceName=""
         Line1="Координата"
@@ -5496,4 +5496,4 @@
     }
   }
 }
-5284568
+5284970

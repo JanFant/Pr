@@ -20,7 +20,6 @@
 <var  name="A3VS21LRP" description="(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1" format="1"></var>
 <var  name="B2VS21LRP" description="(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC" format="1"></var>
 <var  name="A2VS21LRP" description="(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC" format="1"></var>
-<var  name="B8IC01UDU" description="( - , MRPS) Координата АЗ2 (дел. енк)" format="5"></var>
 <var  name="B1VS21LRP" description="(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2" format="1"></var>
 <var  name="B1IS21LRP" description="(vds32:07 - K12VDSR, - ) Приход на НУ ББ2" format="1"></var>
 <var  name="A1VS21LRP" description="(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1" format="1"></var>
@@ -116,14 +115,14 @@
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m75_tx" description="(internal1_m75_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m75_y0" description="(internal1_m75_y0) y0" format="18"></var>
-<var  name="internal1_m83_tx" description="(internal1_m83_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m83_y0" description="(internal1_m83_y0) y0" format="18"></var>
-<var  name="internal1_m91_y0" description="(internal1_m91_y0) y0" format="8"></var>
+<var  name="internal1_m73_tx" description="(internal1_m73_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m73_y0" description="(internal1_m73_y0) y0" format="18"></var>
+<var  name="internal1_m81_tx" description="(internal1_m81_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m81_y0" description="(internal1_m81_y0) y0" format="18"></var>
 <var  name="internal1_m89_y0" description="(internal1_m89_y0) y0" format="8"></var>
-<var  name="internal1_m105_y1" description="(internal1_m105_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m120_y1" description="(internal1_m120_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m87_y0" description="(internal1_m87_y0) y0" format="8"></var>
 <var  name="internal1_m103_y1" description="(internal1_m103_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m118_y1" description="(internal1_m118_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m101_y1" description="(internal1_m101_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m115_y1" description="(internal1_m115_y1) y1 - внутренний параметр" format="1"></var>
 </vars>
