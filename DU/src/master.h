@@ -381,328 +381,328 @@ int nomer = 1;
 #define idB1MD11LP1	 183	//( - , DU) Кнопка ПУСК ББ2
 #define B1MD12LP1	 BUFFER[421]	//( - , DU) Переключатель РАЗРЕШИТЬ ББ2
 #define idB1MD12LP1	 184	//( - , DU) Переключатель РАЗРЕШИТЬ ББ2
-#define A3VP82LDU	 BUFFER[423]	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
-#define idA3VP82LDU	 185	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
-#define A3IP02IDU	 BUFFER[425]	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
-#define idA3IP02IDU	 186	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
-#define B3IP02IDU	 BUFFER[428]	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
-#define idB3IP02IDU	 187	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
-#define A0VE01LDU	 BUFFER[431]	//( - , DU) Напряжение в системы АЗ1 подано
-#define idA0VE01LDU	 188	//( - , DU) Напряжение в системы АЗ1 подано
-#define B0VE01LDU	 BUFFER[433]	//( - , DU) Напряжение в системы АЗ2 подано
-#define idB0VE01LDU	 189	//( - , DU) Напряжение в системы АЗ2 подано
-#define A0VP01LDU	 BUFFER[435]	//( - , DU) Давление в системы АЗ1 подано
-#define idA0VP01LDU	 190	//( - , DU) Давление в системы АЗ1 подано
-#define B0VP01LDU	 BUFFER[437]	//( - , DU) Давление в системы АЗ2 подано
-#define idB0VP01LDU	 191	//( - , DU) Давление в системы АЗ2 подано
-#define A0EE01LZ1	 BUFFER[439]	//( - , MDuBz1) Исправность АКНП1
-#define idA0EE01LZ1	 192	//( - , MDuBz1) Исправность АКНП1
-#define A0EE03LZ1	 BUFFER[441]	//( - , MDuBz1) Исправность АКНП3
-#define idA0EE03LZ1	 193	//( - , MDuBz1) Исправность АКНП3
-#define A0EE02LZ1	 BUFFER[443]	//( - , MDuBz1) Исправность АКНП2
-#define idA0EE02LZ1	 194	//( - , MDuBz1) Исправность АКНП2
-#define A0EE04LZ1	 BUFFER[445]	//( - , MDuBz1) Исправность АКНП4
-#define idA0EE04LZ1	 195	//( - , MDuBz1) Исправность АКНП4
-#define A0VN01LDU	 BUFFER[447]	//( - , DU) Каналы АЗ1 проверены
-#define idA0VN01LDU	 196	//( - , DU) Каналы АЗ1 проверены
-#define B0VN01LDU	 BUFFER[449]	//( - , DU) Каналы АЗ2 проверены
-#define idB0VN01LDU	 197	//( - , DU) Каналы АЗ2 проверены
-#define A0EE01LZ2	 BUFFER[451]	//( - , MDuBz2) Исправность АКНП1
-#define idA0EE01LZ2	 198	//( - , MDuBz2) Исправность АКНП1
-#define A0EE03LZ2	 BUFFER[453]	//( - , MDuBz2) Исправность АКНП3
-#define idA0EE03LZ2	 199	//( - , MDuBz2) Исправность АКНП3
-#define A0EE02LZ2	 BUFFER[455]	//( - , MDuBz2) Исправность АКНП2
-#define idA0EE02LZ2	 200	//( - , MDuBz2) Исправность АКНП2
-#define A0EE04LZ2	 BUFFER[457]	//( - , MDuBz2) Исправность АКНП4
-#define idA0EE04LZ2	 201	//( - , MDuBz2) Исправность АКНП4
-#define A0VP71LZ1	 BUFFER[459]	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
-#define idA0VP71LZ1	 202	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
-#define A0VP71LZ2	 BUFFER[461]	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
-#define idA0VP71LZ2	 203	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
-#define B0VP71LZ1	 BUFFER[463]	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
-#define idB0VP71LZ1	 204	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
-#define B0VP71LZ2	 BUFFER[465]	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
-#define idB0VP71LZ2	 205	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
-#define A0VS11LDU	 BUFFER[467]	//( - , DU) АЗ1 готова к работе
-#define idA0VS11LDU	 206	//( - , DU) АЗ1 готова к работе
-#define B0VS11LDU	 BUFFER[469]	//( - , DU) АЗ2 готова к работе
-#define idB0VS11LDU	 207	//( - , DU) АЗ2 готова к работе
-#define B1MC01LC1	 BUFFER[471]	//( - , DU) Настроить энкодер ББ2
-#define idB1MC01LC1	 208	//( - , DU) Настроить энкодер ББ2
-#define B1MC01LC2	 BUFFER[473]	//( - , DU) Настроить энкодер ББ2
-#define idB1MC01LC2	 209	//( - , DU) Настроить энкодер ББ2
-#define A1MC01LC1	 BUFFER[475]	//( - , DU) Настроить энкодер ББ1
-#define idA1MC01LC1	 210	//( - , DU) Настроить энкодер ББ1
-#define A1MC01LC2	 BUFFER[477]	//( - , DU) Настроить энкодер ББ1
-#define idA1MC01LC2	 211	//( - , DU) Настроить энкодер ББ1
-#define B2MC01LC1	 BUFFER[479]	//( - , DU) Настроить энкодер РБ2
-#define idB2MC01LC1	 212	//( - , DU) Настроить энкодер РБ2
-#define B2MC01LC2	 BUFFER[481]	//( - , DU) Настроить энкодер РБ2
-#define idB2MC01LC2	 213	//( - , DU) Настроить энкодер РБ2
-#define A2MC01LC1	 BUFFER[483]	//( - , DU) Настроить энкодер РБ1
-#define idA2MC01LC1	 214	//( - , DU) Настроить энкодер РБ1
-#define A2MC01LC2	 BUFFER[485]	//( - , DU) Настроить энкодер РБ1
-#define idA2MC01LC2	 215	//( - , DU) Настроить энкодер РБ1
-#define B3MC01LC1	 BUFFER[487]	//( - , DU) Настроить энкодер ИС2
-#define idB3MC01LC1	 216	//( - , DU) Настроить энкодер ИС2
-#define B3MC01LC2	 BUFFER[489]	//( - , DU) Настроить энкодер ИС2
-#define idB3MC01LC2	 217	//( - , DU) Настроить энкодер ИС2
-#define A3MC01LC1	 BUFFER[491]	//( - , DU) Настроить энкодер ИС1
-#define idA3MC01LC1	 218	//( - , DU) Настроить энкодер ИС1
-#define A3MC01LC2	 BUFFER[493]	//( - , DU) Настроить энкодер ИС1
-#define idA3MC01LC2	 219	//( - , DU) Настроить энкодер ИС1
-#define B8MC01LC1	 BUFFER[495]	//( - , DU) Настроить энкодер АЗ2
-#define idB8MC01LC1	 220	//( - , DU) Настроить энкодер АЗ2
-#define B8MC01LC2	 BUFFER[497]	//( - , DU) Настроить энкодер АЗ2
-#define idB8MC01LC2	 221	//( - , DU) Настроить энкодер АЗ2
-#define A8MC01LC1	 BUFFER[499]	//( - , DU) Настроить энкодер ДС2
-#define idA8MC01LC1	 222	//( - , DU) Настроить энкодер ДС2
-#define A8MC01LC2	 BUFFER[501]	//( - , DU) Настроить энкодер ДС2
-#define idA8MC01LC2	 223	//( - , DU) Настроить энкодер ДС2
-#define A3VP42LDU	 BUFFER[503]	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
-#define idA3VP42LDU	 224	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
-#define A3CP02RDU	 BUFFER[505]	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
-#define idA3CP02RDU	 225	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
-#define A3VP52LDU	 BUFFER[510]	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
-#define idA3VP52LDU	 226	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
-#define B3VP42LDU	 BUFFER[512]	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
-#define idB3VP42LDU	 227	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
-#define B3CP02RDU	 BUFFER[514]	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
-#define idB3CP02RDU	 228	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
-#define B3VP52LDU	 BUFFER[519]	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
-#define idB3VP52LDU	 229	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
-#define B3VP82LDU	 BUFFER[521]	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
-#define idB3VP82LDU	 230	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
-#define R6IS67LZZ	 BUFFER[523]	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define idR6IS67LZZ	 231	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-#define R6IS68LZZ	 BUFFER[525]	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define idR6IS68LZZ	 232	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
-#define A3VC01RDU	 BUFFER[527]	//( - , DU) Координата ИС1, мм
-#define idA3VC01RDU	 233	//( - , DU) Координата ИС1, мм
-#define A2VC01RDU	 BUFFER[532]	//( - , DU) Координата РБ1, мм
-#define idA2VC01RDU	 234	//( - , DU) Координата РБ1, мм
-#define B2VC01RDU	 BUFFER[537]	//( - , DU) Координата РБ2, мм
-#define idB2VC01RDU	 235	//( - , DU) Координата РБ2, мм
-#define B8VC01RDU	 BUFFER[542]	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
-#define idB8VC01RDU	 236	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
-#define A4VP82LDU	 BUFFER[547]	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
-#define idA4VP82LDU	 237	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
-#define B4VP82LDU	 BUFFER[549]	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
-#define idB4VP82LDU	 238	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
-#define A2VP82LDU	 BUFFER[551]	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
-#define idA2VP82LDU	 239	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
-#define B2VP82LDU	 BUFFER[553]	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
-#define idB2VP82LDU	 240	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
-#define A3VP81LDU	 BUFFER[555]	//( - , - ) Давление СПУСК ИС1 в норме
-#define idA3VP81LDU	 241	//( - , - ) Давление СПУСК ИС1 в норме
-#define B3VP81LDU	 BUFFER[557]	//( - , - ) Давление СПУСК ИС2 в норме
-#define idB3VP81LDU	 242	//( - , - ) Давление СПУСК ИС2 в норме
-#define R0EE02LDU	 BUFFER[559]	//( - , DU) Питание  АКНП  отключить
-#define idR0EE02LDU	 243	//( - , DU) Питание  АКНП  отключить
-#define R0DE01LDU	 BUFFER[561]	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
-#define idR0DE01LDU	 244	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
-#define R0DE06LDU	 BUFFER[564]	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
-#define idR0DE06LDU	 245	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
-#define venc01	 BUFFER[567]	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
-#define idvenc01	 246	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
-#define venc02	 BUFFER[572]	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
-#define idvenc02	 247	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
-#define venc03	 BUFFER[577]	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
-#define idvenc03	 248	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
-#define venc04	 BUFFER[582]	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
-#define idvenc04	 249	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
-#define venc05	 BUFFER[587]	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
-#define idvenc05	 250	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
-#define venc06	 BUFFER[592]	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
-#define idvenc06	 251	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
-#define venc07	 BUFFER[597]	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
-#define idvenc07	 252	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
-#define venc08	 BUFFER[602]	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
-#define idvenc08	 253	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
-#define A1IE01LDU	 BUFFER[607]	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
-#define idA1IE01LDU	 254	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
-#define A3IE01LDU	 BUFFER[609]	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
-#define idA3IE01LDU	 255	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
-#define A2IE01LDU	 BUFFER[611]	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
-#define idA2IE01LDU	 256	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
-#define A1IE02LDU	 BUFFER[613]	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
-#define idA1IE02LDU	 257	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
-#define A3IE02LDU	 BUFFER[615]	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
-#define idA3IE02LDU	 258	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
-#define A2IE02LDU	 BUFFER[617]	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
-#define idA2IE02LDU	 259	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
-#define B1IE01LDU	 BUFFER[619]	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
-#define idB1IE01LDU	 260	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
-#define B2IE01LDU	 BUFFER[621]	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
-#define idB2IE01LDU	 261	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
-#define B3IE01LDU	 BUFFER[623]	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
-#define idB3IE01LDU	 262	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
-#define B1IE02LDU	 BUFFER[625]	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
-#define idB1IE02LDU	 263	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
-#define B3IE02LDU	 BUFFER[627]	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
-#define idB3IE02LDU	 264	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
-#define B2IE02LDU	 BUFFER[629]	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
-#define idB2IE02LDU	 265	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
-#define R0IE02LDU	 BUFFER[631]	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
-#define idR0IE02LDU	 266	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
-#define R0IE01LDU	 BUFFER[633]	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
-#define idR0IE01LDU	 267	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
-#define A6IE01LDU	 BUFFER[635]	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
-#define idA6IE01LDU	 268	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
-#define B6IE01LDU	 BUFFER[637]	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
-#define idB6IE01LDU	 269	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
-#define A8IE01LDU	 BUFFER[639]	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
-#define idA8IE01LDU	 270	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
-#define B5IE01LDU	 BUFFER[641]	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
-#define idB5IE01LDU	 271	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
-#define A5IE02LDU	 BUFFER[643]	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
-#define idA5IE02LDU	 272	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
-#define R1IE01LDU	 BUFFER[645]	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
-#define idR1IE01LDU	 273	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
-#define R2IE01LDU	 BUFFER[647]	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
-#define idR2IE01LDU	 274	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
-#define R6IS61LDU	 BUFFER[649]	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
-#define idR6IS61LDU	 275	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
-#define R6IS66LZZ	 BUFFER[651]	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define idR6IS66LZZ	 276	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
-#define R0AD04LZ1	 BUFFER[653]	//(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)
+#define B8MC01LC2	 BUFFER[423]	//( - , DU) Настроить энкодер АЗ2
+#define idB8MC01LC2	 185	//( - , DU) Настроить энкодер АЗ2
+#define A8MC01LC1	 BUFFER[425]	//( - , DU) Настроить энкодер ДС2
+#define idA8MC01LC1	 186	//( - , DU) Настроить энкодер ДС2
+#define A8MC01LC2	 BUFFER[427]	//( - , DU) Настроить энкодер ДС2
+#define idA8MC01LC2	 187	//( - , DU) Настроить энкодер ДС2
+#define A3VP42LDU	 BUFFER[429]	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
+#define idA3VP42LDU	 188	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
+#define A3CP02RDU	 BUFFER[431]	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
+#define idA3CP02RDU	 189	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
+#define A3VP52LDU	 BUFFER[436]	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
+#define idA3VP52LDU	 190	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
+#define B3VP42LDU	 BUFFER[438]	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
+#define idB3VP42LDU	 191	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
+#define B3CP02RDU	 BUFFER[440]	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
+#define idB3CP02RDU	 192	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
+#define B3VP52LDU	 BUFFER[445]	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
+#define idB3VP52LDU	 193	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
+#define B3VP82LDU	 BUFFER[447]	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
+#define idB3VP82LDU	 194	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
+#define A3VP82LDU	 BUFFER[449]	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
+#define idA3VP82LDU	 195	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
+#define A3IP02IDU	 BUFFER[451]	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
+#define idA3IP02IDU	 196	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
+#define B3IP02IDU	 BUFFER[454]	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
+#define idB3IP02IDU	 197	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
+#define A0VE01LDU	 BUFFER[457]	//( - , DU) Напряжение в системы АЗ1 подано
+#define idA0VE01LDU	 198	//( - , DU) Напряжение в системы АЗ1 подано
+#define B0VE01LDU	 BUFFER[459]	//( - , DU) Напряжение в системы АЗ2 подано
+#define idB0VE01LDU	 199	//( - , DU) Напряжение в системы АЗ2 подано
+#define A0VP01LDU	 BUFFER[461]	//( - , DU) Давление в системы АЗ1 подано
+#define idA0VP01LDU	 200	//( - , DU) Давление в системы АЗ1 подано
+#define B0VP01LDU	 BUFFER[463]	//( - , DU) Давление в системы АЗ2 подано
+#define idB0VP01LDU	 201	//( - , DU) Давление в системы АЗ2 подано
+#define A0EE01LZ1	 BUFFER[465]	//( - , MDuBz1) Исправность АКНП1
+#define idA0EE01LZ1	 202	//( - , MDuBz1) Исправность АКНП1
+#define A0EE03LZ1	 BUFFER[467]	//( - , MDuBz1) Исправность АКНП3
+#define idA0EE03LZ1	 203	//( - , MDuBz1) Исправность АКНП3
+#define A0EE02LZ1	 BUFFER[469]	//( - , MDuBz1) Исправность АКНП2
+#define idA0EE02LZ1	 204	//( - , MDuBz1) Исправность АКНП2
+#define A0EE04LZ1	 BUFFER[471]	//( - , MDuBz1) Исправность АКНП4
+#define idA0EE04LZ1	 205	//( - , MDuBz1) Исправность АКНП4
+#define A0VN01LDU	 BUFFER[473]	//( - , DU) Каналы АЗ1 проверены
+#define idA0VN01LDU	 206	//( - , DU) Каналы АЗ1 проверены
+#define B0VN01LDU	 BUFFER[475]	//( - , DU) Каналы АЗ2 проверены
+#define idB0VN01LDU	 207	//( - , DU) Каналы АЗ2 проверены
+#define B2IC01UDU	 BUFFER[477]	//( - , MDuS) Координата штока РБ2 (дел.энк)
+#define idB2IC01UDU	 208	//( - , MDuS) Координата штока РБ2 (дел.энк)
+#define A3IC01UDU	 BUFFER[482]	//( - , MDuS) Координата штока ИС1 (дел.энк)
+#define idA3IC01UDU	 209	//( - , MDuS) Координата штока ИС1 (дел.энк)
+#define B3IC01UDU	 BUFFER[487]	//( - , MDuS) Координата штока ИС2 (дел.энк)
+#define idB3IC01UDU	 210	//( - , MDuS) Координата штока ИС2 (дел.энк)
+#define B3VC01RDU	 BUFFER[492]	//( - , DU) Координата ИС2, мм
+#define idB3VC01RDU	 211	//( - , DU) Координата ИС2, мм
+#define A8IC01UDU	 BUFFER[497]	//( - , MDuS) Координата ДС2 (дел.энк)
+#define idA8IC01UDU	 212	//( - , MDuS) Координата ДС2 (дел.энк)
+#define A8VC01RDU	 BUFFER[502]	//( - , DU) Координата ДС2, мм
+#define idA8VC01RDU	 213	//( - , DU) Координата ДС2, мм
+#define B8IC01UDU	 BUFFER[507]	//( - , MDuS) Координата АЗ2 (дел.энк)
+#define idB8IC01UDU	 214	//( - , MDuS) Координата АЗ2 (дел.энк)
+#define A1IC01UDU	 BUFFER[512]	//( - , MDuS) Координата штока ББ1 (дел.энк)
+#define idA1IC01UDU	 215	//( - , MDuS) Координата штока ББ1 (дел.энк)
+#define A1VC01RDU	 BUFFER[517]	//( - , DU) Координата ББ1, мм
+#define idA1VC01RDU	 216	//( - , DU) Координата ББ1, мм
+#define A1IS11LDU	 BUFFER[522]	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
+#define idA1IS11LDU	 217	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
+#define B1MC01LC1	 BUFFER[524]	//( - , DU) Настроить энкодер ББ2
+#define idB1MC01LC1	 218	//( - , DU) Настроить энкодер ББ2
+#define B1MC01LC2	 BUFFER[526]	//( - , DU) Настроить энкодер ББ2
+#define idB1MC01LC2	 219	//( - , DU) Настроить энкодер ББ2
+#define A1MC01LC1	 BUFFER[528]	//( - , DU) Настроить энкодер ББ1
+#define idA1MC01LC1	 220	//( - , DU) Настроить энкодер ББ1
+#define A1MC01LC2	 BUFFER[530]	//( - , DU) Настроить энкодер ББ1
+#define idA1MC01LC2	 221	//( - , DU) Настроить энкодер ББ1
+#define B2MC01LC1	 BUFFER[532]	//( - , DU) Настроить энкодер РБ2
+#define idB2MC01LC1	 222	//( - , DU) Настроить энкодер РБ2
+#define B2MC01LC2	 BUFFER[534]	//( - , DU) Настроить энкодер РБ2
+#define idB2MC01LC2	 223	//( - , DU) Настроить энкодер РБ2
+#define A2MC01LC1	 BUFFER[536]	//( - , DU) Настроить энкодер РБ1
+#define idA2MC01LC1	 224	//( - , DU) Настроить энкодер РБ1
+#define A2MC01LC2	 BUFFER[538]	//( - , DU) Настроить энкодер РБ1
+#define idA2MC01LC2	 225	//( - , DU) Настроить энкодер РБ1
+#define B3MC01LC1	 BUFFER[540]	//( - , DU) Настроить энкодер ИС2
+#define idB3MC01LC1	 226	//( - , DU) Настроить энкодер ИС2
+#define B3MC01LC2	 BUFFER[542]	//( - , DU) Настроить энкодер ИС2
+#define idB3MC01LC2	 227	//( - , DU) Настроить энкодер ИС2
+#define A3MC01LC1	 BUFFER[544]	//( - , DU) Настроить энкодер ИС1
+#define idA3MC01LC1	 228	//( - , DU) Настроить энкодер ИС1
+#define A3MC01LC2	 BUFFER[546]	//( - , DU) Настроить энкодер ИС1
+#define idA3MC01LC2	 229	//( - , DU) Настроить энкодер ИС1
+#define B8MC01LC1	 BUFFER[548]	//( - , DU) Настроить энкодер АЗ2
+#define idB8MC01LC1	 230	//( - , DU) Настроить энкодер АЗ2
+#define R0IE01LDU	 BUFFER[550]	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
+#define idR0IE01LDU	 231	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
+#define A6IE01LDU	 BUFFER[552]	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
+#define idA6IE01LDU	 232	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
+#define B6IE01LDU	 BUFFER[554]	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
+#define idB6IE01LDU	 233	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
+#define A8IE01LDU	 BUFFER[556]	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
+#define idA8IE01LDU	 234	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
+#define B5IE01LDU	 BUFFER[558]	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
+#define idB5IE01LDU	 235	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
+#define A5IE02LDU	 BUFFER[560]	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
+#define idA5IE02LDU	 236	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
+#define R1IE01LDU	 BUFFER[562]	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
+#define idR1IE01LDU	 237	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
+#define R2IE01LDU	 BUFFER[564]	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
+#define idR2IE01LDU	 238	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
+#define R6IS61LDU	 BUFFER[566]	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
+#define idR6IS61LDU	 239	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
+#define R6IS66LZZ	 BUFFER[568]	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define idR6IS66LZZ	 240	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+#define R6IS67LZZ	 BUFFER[570]	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define idR6IS67LZZ	 241	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+#define R6IS68LZZ	 BUFFER[572]	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define idR6IS68LZZ	 242	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+#define A3VC01RDU	 BUFFER[574]	//( - , DU) Координата ИС1, мм
+#define idA3VC01RDU	 243	//( - , DU) Координата ИС1, мм
+#define A2VC01RDU	 BUFFER[579]	//( - , DU) Координата РБ1, мм
+#define idA2VC01RDU	 244	//( - , DU) Координата РБ1, мм
+#define B2VC01RDU	 BUFFER[584]	//( - , DU) Координата РБ2, мм
+#define idB2VC01RDU	 245	//( - , DU) Координата РБ2, мм
+#define B8VC01RDU	 BUFFER[589]	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
+#define idB8VC01RDU	 246	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
+#define A4VP82LDU	 BUFFER[594]	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
+#define idA4VP82LDU	 247	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
+#define B4VP82LDU	 BUFFER[596]	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+#define idB4VP82LDU	 248	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+#define A2VP82LDU	 BUFFER[598]	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
+#define idA2VP82LDU	 249	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
+#define B2VP82LDU	 BUFFER[600]	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
+#define idB2VP82LDU	 250	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
+#define A3VP81LDU	 BUFFER[602]	//( - , - ) Давление СПУСК ИС1 в норме
+#define idA3VP81LDU	 251	//( - , - ) Давление СПУСК ИС1 в норме
+#define B3VP81LDU	 BUFFER[604]	//( - , - ) Давление СПУСК ИС2 в норме
+#define idB3VP81LDU	 252	//( - , - ) Давление СПУСК ИС2 в норме
+#define R0EE02LDU	 BUFFER[606]	//( - , DU) Питание  АКНП  отключить
+#define idR0EE02LDU	 253	//( - , DU) Питание  АКНП  отключить
+#define A0EE01LZ2	 BUFFER[608]	//( - , MDuBz2) Исправность АКНП1
+#define idA0EE01LZ2	 254	//( - , MDuBz2) Исправность АКНП1
+#define A0EE03LZ2	 BUFFER[610]	//( - , MDuBz2) Исправность АКНП3
+#define idA0EE03LZ2	 255	//( - , MDuBz2) Исправность АКНП3
+#define A0EE02LZ2	 BUFFER[612]	//( - , MDuBz2) Исправность АКНП2
+#define idA0EE02LZ2	 256	//( - , MDuBz2) Исправность АКНП2
+#define A0EE04LZ2	 BUFFER[614]	//( - , MDuBz2) Исправность АКНП4
+#define idA0EE04LZ2	 257	//( - , MDuBz2) Исправность АКНП4
+#define A0VP71LZ1	 BUFFER[616]	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
+#define idA0VP71LZ1	 258	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
+#define A0VP71LZ2	 BUFFER[618]	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
+#define idA0VP71LZ2	 259	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
+#define B0VP71LZ1	 BUFFER[620]	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
+#define idB0VP71LZ1	 260	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
+#define B0VP71LZ2	 BUFFER[622]	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
+#define idB0VP71LZ2	 261	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
+#define A0VS11LDU	 BUFFER[624]	//( - , DU) АЗ1 готова к работе
+#define idA0VS11LDU	 262	//( - , DU) АЗ1 готова к работе
+#define B0VS11LDU	 BUFFER[626]	//( - , DU) АЗ2 готова к работе
+#define idB0VS11LDU	 263	//( - , DU) АЗ2 готова к работе
+#define A1IE01LDU	 BUFFER[628]	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+#define idA1IE01LDU	 264	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+#define A3IE01LDU	 BUFFER[630]	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+#define idA3IE01LDU	 265	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+#define A2IE01LDU	 BUFFER[632]	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+#define idA2IE01LDU	 266	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+#define A1IE02LDU	 BUFFER[634]	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+#define idA1IE02LDU	 267	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+#define A3IE02LDU	 BUFFER[636]	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+#define idA3IE02LDU	 268	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+#define A2IE02LDU	 BUFFER[638]	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+#define idA2IE02LDU	 269	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+#define B1IE01LDU	 BUFFER[640]	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+#define idB1IE01LDU	 270	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+#define B2IE01LDU	 BUFFER[642]	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+#define idB2IE01LDU	 271	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+#define B3IE01LDU	 BUFFER[644]	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+#define idB3IE01LDU	 272	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+#define B1IE02LDU	 BUFFER[646]	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+#define idB1IE02LDU	 273	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+#define B3IE02LDU	 BUFFER[648]	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+#define idB3IE02LDU	 274	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+#define B2IE02LDU	 BUFFER[650]	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
+#define idB2IE02LDU	 275	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
+#define R0IE02LDU	 BUFFER[652]	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
+#define idR0IE02LDU	 276	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
+#define R0AD04LZ1	 BUFFER[654]	//(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)
 #define idR0AD04LZ1	 277	//(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)
-#define R0AD04LZ2	 BUFFER[655]	//(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)
+#define R0AD04LZ2	 BUFFER[656]	//(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)
 #define idR0AD04LZ2	 278	//(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)
-#define R0AD05LZ1	 BUFFER[657]	//(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)
+#define R0AD05LZ1	 BUFFER[658]	//(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)
 #define idR0AD05LZ1	 279	//(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)
-#define R0AD05LZ2	 BUFFER[659]	//(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)
+#define R0AD05LZ2	 BUFFER[660]	//(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)
 #define idR0AD05LZ2	 280	//(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)
-#define B8IS12LDU	 BUFFER[661]	//(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2
+#define B8IS12LDU	 BUFFER[662]	//(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2
 #define idB8IS12LDU	 281	//(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2
-#define B8IS21LDU	 BUFFER[663]	//(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2
+#define B8IS21LDU	 BUFFER[664]	//(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2
 #define idB8IS21LDU	 282	//(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2
-#define A1VP41LZ1	 BUFFER[665]	//( - , MDuBz1) Давление СБРОС ББ1 ниже АС
+#define A1VP41LZ1	 BUFFER[666]	//( - , MDuBz1) Давление СБРОС ББ1 ниже АС
 #define idA1VP41LZ1	 283	//( - , MDuBz1) Давление СБРОС ББ1 ниже АС
-#define A1VP41LZ2	 BUFFER[667]	//( - , MDuBz2) Давление СБРОС ББ1 ниже АС
+#define A1VP41LZ2	 BUFFER[668]	//( - , MDuBz2) Давление СБРОС ББ1 ниже АС
 #define idA1VP41LZ2	 284	//( - , MDuBz2) Давление СБРОС ББ1 ниже АС
-#define R0VL22LDU	 BUFFER[669]	//( - , DU) Конец программы 200сек
+#define R0VL22LDU	 BUFFER[670]	//( - , DU) Конец программы 200сек
 #define idR0VL22LDU	 285	//( - , DU) Конец программы 200сек
-#define R0VL23LDU	 BUFFER[671]	//( - , DU) Конец программы 20мин
+#define R0VL23LDU	 BUFFER[672]	//( - , DU) Конец программы 20мин
 #define idR0VL23LDU	 286	//( - , DU) Конец программы 20мин
-#define B1VP41LZ1	 BUFFER[673]	//( - , MDuBz1) Давление СБРОС ББ2 ниже АС
+#define B1VP41LZ1	 BUFFER[674]	//( - , MDuBz1) Давление СБРОС ББ2 ниже АС
 #define idB1VP41LZ1	 287	//( - , MDuBz1) Давление СБРОС ББ2 ниже АС
-#define B1VP41LZ2	 BUFFER[675]	//( - , MDuBz2) Давление СБРОС ББ2 ниже АС
+#define B1VP41LZ2	 BUFFER[676]	//( - , MDuBz2) Давление СБРОС ББ2 ниже АС
 #define idB1VP41LZ2	 288	//( - , MDuBz2) Давление СБРОС ББ2 ниже АС
-#define A3AB19LDU	 BUFFER[677]	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
+#define A3AB19LDU	 BUFFER[678]	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
 #define idA3AB19LDU	 289	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
-#define B3AB19LDU	 BUFFER[679]	//( - , DU) Блокировка пневматического подъема ИС2: режим статический
+#define B3AB19LDU	 BUFFER[680]	//( - , DU) Блокировка пневматического подъема ИС2: режим статический
 #define idB3AB19LDU	 290	//( - , DU) Блокировка пневматического подъема ИС2: режим статический
-#define A3EE03LDU	 BUFFER[681]	//( - , DU) ВПИС ИС1
+#define A3EE03LDU	 BUFFER[682]	//( - , DU) ВПИС ИС1
 #define idA3EE03LDU	 291	//( - , DU) ВПИС ИС1
-#define B3EE03LDU	 BUFFER[683]	//( - , DU) ВПИС ИС2
+#define B3EE03LDU	 BUFFER[684]	//( - , DU) ВПИС ИС2
 #define idB3EE03LDU	 292	//( - , DU) ВПИС ИС2
-#define B3AB15LDU	 BUFFER[685]	//( - , DU) Блокировка заполнения ресивера ИС2: работает регулятор мощности
+#define B3AB15LDU	 BUFFER[686]	//( - , DU) Блокировка заполнения ресивера ИС2: работает регулятор мощности
 #define idB3AB15LDU	 293	//( - , DU) Блокировка заполнения ресивера ИС2: работает регулятор мощности
-#define R5IS21LDU	 BUFFER[687]	//(vds32:04 - K26VDSR, DU) Приход на НУ ворот отстойной зоны
+#define R5IS21LDU	 BUFFER[688]	//(vds32:04 - K26VDSR, DU) Приход на НУ ворот отстойной зоны
 #define idR5IS21LDU	 294	//(vds32:04 - K26VDSR, DU) Приход на НУ ворот отстойной зоны
-#define R5VS22LDU	 BUFFER[689]	//( - , DU) Движение ворот отстойной зоны к закрыты
+#define R5VS22LDU	 BUFFER[690]	//( - , DU) Движение ворот отстойной зоны к закрыты
 #define idR5VS22LDU	 295	//( - , DU) Движение ворот отстойной зоны к закрыты
-#define R5VS12LDU	 BUFFER[691]	//( - , DU) Движение ворот отстойной зоны к открыты
+#define R5VS12LDU	 BUFFER[692]	//( - , DU) Движение ворот отстойной зоны к открыты
 #define idR5VS12LDU	 296	//( - , DU) Движение ворот отстойной зоны к открыты
-#define R5VS01IDU	 BUFFER[693]	//( - , DU) Готовность к управлению ворот отстойной зоны
+#define R5VS01IDU	 BUFFER[694]	//( - , DU) Готовность к управлению ворот отстойной зоны
 #define idR5VS01IDU	 297	//( - , DU) Готовность к управлению ворот отстойной зоны
-#define R3VS22LDU	 BUFFER[696]	//( - , DU) Движение гомогенных дверей к закрыты
+#define R3VS22LDU	 BUFFER[697]	//( - , DU) Движение гомогенных дверей к закрыты
 #define idR3VS22LDU	 298	//( - , DU) Движение гомогенных дверей к закрыты
-#define R3VS12LDU	 BUFFER[698]	//( - , DU) Движение гомогенных дверей к открыты
+#define R3VS12LDU	 BUFFER[699]	//( - , DU) Движение гомогенных дверей к открыты
 #define idR3VS12LDU	 299	//( - , DU) Движение гомогенных дверей к открыты
-#define R0VN09RZ1	 BUFFER[700]	//( - , MDuBz1) Усредненный период разгона
+#define R0VN09RZ1	 BUFFER[701]	//( - , MDuBz1) Усредненный период разгона
 #define idR0VN09RZ1	 300	//( - , MDuBz1) Усредненный период разгона
-#define R0AB16LDU	 BUFFER[705]	//( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого
+#define R0AB16LDU	 BUFFER[706]	//( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого
 #define idR0AB16LDU	 301	//( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого
-#define R0AB17LDU	 BUFFER[707]	//( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого
+#define R0AB17LDU	 BUFFER[708]	//( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого
 #define idR0AB17LDU	 302	//( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого
-#define R0AB18LDU	 BUFFER[709]	//( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2
+#define R0AB18LDU	 BUFFER[710]	//( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2
 #define idR0AB18LDU	 303	//( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2
-#define A0CT01IZ1	 BUFFER[711]	//( - , MDuBz1) Температура АЗ1-1
+#define A0CT01IZ1	 BUFFER[712]	//( - , MDuBz1) Температура АЗ1-1
 #define idA0CT01IZ1	 304	//( - , MDuBz1) Температура АЗ1-1
-#define B0CT01IZ1	 BUFFER[716]	//( - , MDuBz1) Температура АЗ2-1
+#define B0CT01IZ1	 BUFFER[717]	//( - , MDuBz1) Температура АЗ2-1
 #define idB0CT01IZ1	 305	//( - , MDuBz1) Температура АЗ2-1
-#define A0CT01IZ2	 BUFFER[721]	//( - , MDuBz2) Температура АЗ1-2
+#define A0CT01IZ2	 BUFFER[722]	//( - , MDuBz2) Температура АЗ1-2
 #define idA0CT01IZ2	 306	//( - , MDuBz2) Температура АЗ1-2
-#define B0CT01IZ2	 BUFFER[726]	//( - , MDuBz2) Температура АЗ2-2
+#define B0CT01IZ2	 BUFFER[727]	//( - , MDuBz2) Температура АЗ2-2
 #define idB0CT01IZ2	 307	//( - , MDuBz2) Температура АЗ2-2
-#define A3MC01RDU	 BUFFER[731]	//( - , DU) Заданная координата положения ИС от регулятора мм
+#define A3MC01RDU	 BUFFER[732]	//( - , DU) Заданная координата положения ИС от регулятора мм
 #define idA3MC01RDU	 308	//( - , DU) Заданная координата положения ИС от регулятора мм
-#define A3MC02RDU	 BUFFER[736]	//( - , DU) Температурная корректировка координаты ИМ
+#define A3MC02RDU	 BUFFER[737]	//( - , DU) Температурная корректировка координаты ИМ
 #define idA3MC02RDU	 309	//( - , DU) Температурная корректировка координаты ИМ
-#define R0CN91LDU	 BUFFER[741]	//( - , DU) Рассчётная реактивность от регулятора
+#define R0CN91LDU	 BUFFER[742]	//( - , DU) Рассчётная реактивность от регулятора
 #define idR0CN91LDU	 310	//( - , DU) Рассчётная реактивность от регулятора
-#define A3MC03RDU	 BUFFER[746]	//( - , DU) Координата положения ИМ 0-й реактивности
+#define A3MC03RDU	 BUFFER[747]	//( - , DU) Координата положения ИМ 0-й реактивности
 #define idA3MC03RDU	 311	//( - , DU) Координата положения ИМ 0-й реактивности
-#define A3AB15LDU	 BUFFER[751]	//( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности
+#define A3AB15LDU	 BUFFER[752]	//( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности
 #define idA3AB15LDU	 312	//( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности
-#define R0AB20LDU	 BUFFER[753]	//( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности
+#define R0AB20LDU	 BUFFER[754]	//( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности
 #define idR0AB20LDU	 313	//( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности
-#define R0CN92LDU	 BUFFER[755]	//( - , DU) Рассчётный коэффициент  опережения старта ИМ
+#define R0CN92LDU	 BUFFER[756]	//( - , DU) Рассчётный коэффициент  опережения старта ИМ
 #define idR0CN92LDU	 314	//( - , DU) Рассчётный коэффициент  опережения старта ИМ
-#define R0VN11RDU	 BUFFER[760]	//( - , DU) Текущая мощность РУ
+#define R0VN11RDU	 BUFFER[761]	//( - , DU) Текущая мощность РУ
 #define idR0VN11RDU	 315	//( - , DU) Текущая мощность РУ
-#define R0VN12RDU	 BUFFER[765]	//( - , DU) Заданная мощность РУ
+#define R0VN12RDU	 BUFFER[766]	//( - , DU) Заданная мощность РУ
 #define idR0VN12RDU	 316	//( - , DU) Заданная мощность РУ
-#define R0AB19LDU	 BUFFER[770]	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
+#define R0AB19LDU	 BUFFER[771]	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
 #define idR0AB19LDU	 317	//( - , DU) Блокировка регулирования мощности:Нарушение исходных условий.
-#define R0CN93LDU	 BUFFER[772]	//( - , DU) время работы на мощности более 100Вт, сек
+#define R0CN93LDU	 BUFFER[773]	//( - , DU) время работы на мощности более 100Вт, сек
 #define idR0CN93LDU	 318	//( - , DU) время работы на мощности более 100Вт, сек
-#define R0CN94LDU	 BUFFER[777]	//( - , DU) Скорость изменения мощности
+#define R0CN94LDU	 BUFFER[778]	//( - , DU) Скорость изменения мощности
 #define idR0CN94LDU	 319	//( - , DU) Скорость изменения мощности
-#define R0CN95LDU	 BUFFER[782]	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
+#define R0CN95LDU	 BUFFER[783]	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
 #define idR0CN95LDU	 320	//( - , DU) Этап 0 - не начинали, 53 - выход в 0 реакт,51-повышаем, 52 - уменьшаем, 54- на новое задание
-#define R0AD03LZ1	 BUFFER[785]	//(fds16:0f - K09FDSR, - ) Имитация прихода на ВУ ИС (БАЗ1)
+#define R0AD03LZ1	 BUFFER[786]	//(fds16:0f - K09FDSR, - ) Имитация прихода на ВУ ИС (БАЗ1)
 #define idR0AD03LZ1	 321	//(fds16:0f - K09FDSR, - ) Имитация прихода на ВУ ИС (БАЗ1)
-#define R0AD03LZ2	 BUFFER[787]	//(fds16:0f - K14FDSR, - ) Имитация прихода на ВУ ИС (БАЗ2)
+#define R0AD03LZ2	 BUFFER[788]	//(fds16:0f - K14FDSR, - ) Имитация прихода на ВУ ИС (БАЗ2)
 #define idR0AD03LZ2	 322	//(fds16:0f - K14FDSR, - ) Имитация прихода на ВУ ИС (БАЗ2)
-#define R0DE39LDU	 BUFFER[789]	//(sbk:20 - S09SBK, DiagnDU) диагностика шкафа ДУ МП24-2 место 4
+#define R0DE39LDU	 BUFFER[790]	//(sbk:20 - S09SBK, DiagnDU) диагностика шкафа ДУ МП24-2 место 4
 #define idR0DE39LDU	 323	//(sbk:20 - S09SBK, DiagnDU) диагностика шкафа ДУ МП24-2 место 4
-#define R0DEB3LDU	 BUFFER[791]	//(sbk:20 - S12SBK, DiagnDU) диагностика шкафа ДУ БП5 место 6
+#define R0DEB3LDU	 BUFFER[792]	//(sbk:20 - S12SBK, DiagnDU) диагностика шкафа ДУ БП5 место 6
 #define idR0DEB3LDU	 324	//(sbk:20 - S12SBK, DiagnDU) диагностика шкафа ДУ БП5 место 6
-#define R0DEB2LDU	 BUFFER[793]	//(sbk:20 - S11SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 5
+#define R0DEB2LDU	 BUFFER[794]	//(sbk:20 - S11SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 5
 #define idR0DEB2LDU	 325	//(sbk:20 - S11SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 5
-#define R0DEB1LDU	 BUFFER[795]	//(sbk:20 - S10SBK, DiagnDU) диагностика шкафа ДУ БП5 место 5
+#define R0DEB1LDU	 BUFFER[796]	//(sbk:20 - S10SBK, DiagnDU) диагностика шкафа ДУ БП5 место 5
 #define idR0DEB1LDU	 326	//(sbk:20 - S10SBK, DiagnDU) диагностика шкафа ДУ БП5 место 5
-#define R0DEB4LDU	 BUFFER[797]	//(sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
+#define R0DEB4LDU	 BUFFER[798]	//(sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
 #define idR0DEB4LDU	 327	//(sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
-#define R0DE3DLDU	 BUFFER[799]	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 6
+#define R0DE3DLDU	 BUFFER[800]	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 6
 #define idR0DE3DLDU	 328	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 6
-#define R0DE3CLDU	 BUFFER[801]	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5
+#define R0DE3CLDU	 BUFFER[802]	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5
 #define idR0DE3CLDU	 329	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5
-#define TestDiagnDU	 BUFFER[803]	//( - , DU) Неисправность от
+#define TestDiagnDU	 BUFFER[804]	//( - , DU) Неисправность от
 #define idTestDiagnDU	 330	//( - , DU) Неисправность от
-#define B3CV01RDU	 BUFFER[805]	//( - , DU) Измеренная скорость перемещения ИС2
+#define B3CV01RDU	 BUFFER[806]	//( - , DU) Измеренная скорость перемещения ИС2
 #define idB3CV01RDU	 331	//( - , DU) Измеренная скорость перемещения ИС2
-#define B1IC01UDU	 BUFFER[810]	//( - , MDuS) Координата штока ББ2 (дел.энк)
-#define idB1IC01UDU	 332	//( - , MDuS) Координата штока ББ2 (дел.энк)
-#define B1VC01RDU	 BUFFER[815]	//( - , DU) Координата ББ2, мм
-#define idB1VC01RDU	 333	//( - , DU) Координата ББ2, мм
-#define B1IS11LDU	 BUFFER[820]	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
-#define idB1IS11LDU	 334	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
-#define A2IC01UDU	 BUFFER[822]	//( - , MDuS) Координата штока РБ1 (дел.энк)
-#define idA2IC01UDU	 335	//( - , MDuS) Координата штока РБ1 (дел.энк)
-#define B2IC01UDU	 BUFFER[827]	//( - , MDuS) Координата штока РБ2 (дел.энк)
-#define idB2IC01UDU	 336	//( - , MDuS) Координата штока РБ2 (дел.энк)
-#define A3IC01UDU	 BUFFER[832]	//( - , MDuS) Координата штока ИС1 (дел.энк)
-#define idA3IC01UDU	 337	//( - , MDuS) Координата штока ИС1 (дел.энк)
-#define B3IC01UDU	 BUFFER[837]	//( - , MDuS) Координата штока ИС2 (дел.энк)
-#define idB3IC01UDU	 338	//( - , MDuS) Координата штока ИС2 (дел.энк)
-#define B3VC01RDU	 BUFFER[842]	//( - , DU) Координата ИС2, мм
-#define idB3VC01RDU	 339	//( - , DU) Координата ИС2, мм
-#define A8IC01UDU	 BUFFER[847]	//( - , MDuS) Координата ДС2 (дел.энк)
-#define idA8IC01UDU	 340	//( - , MDuS) Координата ДС2 (дел.энк)
-#define A8VC01RDU	 BUFFER[852]	//( - , DU) Координата ДС2, мм
-#define idA8VC01RDU	 341	//( - , DU) Координата ДС2, мм
-#define B8IC01UDU	 BUFFER[857]	//( - , MDuS) Координата АЗ2 (дел.энк)
-#define idB8IC01UDU	 342	//( - , MDuS) Координата АЗ2 (дел.энк)
-#define A1IC01UDU	 BUFFER[862]	//( - , MDuS) Координата штока ББ1 (дел.энк)
-#define idA1IC01UDU	 343	//( - , MDuS) Координата штока ББ1 (дел.энк)
-#define A1VC01RDU	 BUFFER[867]	//( - , DU) Координата ББ1, мм
-#define idA1VC01RDU	 344	//( - , DU) Координата ББ1, мм
-#define A1IS11LDU	 BUFFER[872]	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
-#define idA1IS11LDU	 345	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
+#define R0DE01LDU	 BUFFER[811]	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
+#define idR0DE01LDU	 332	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
+#define R0DE06LDU	 BUFFER[814]	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
+#define idR0DE06LDU	 333	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
+#define venc01	 BUFFER[817]	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
+#define idvenc01	 334	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
+#define venc02	 BUFFER[822]	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
+#define idvenc02	 335	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
+#define venc03	 BUFFER[827]	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
+#define idvenc03	 336	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
+#define venc04	 BUFFER[832]	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
+#define idvenc04	 337	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
+#define venc05	 BUFFER[837]	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
+#define idvenc05	 338	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
+#define venc06	 BUFFER[842]	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
+#define idvenc06	 339	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
+#define venc07	 BUFFER[847]	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
+#define idvenc07	 340	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
+#define venc08	 BUFFER[852]	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
+#define idvenc08	 341	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
+#define B1IC01UDU	 BUFFER[857]	//( - , MDuS) Координата штока ББ2 (дел.энк)
+#define idB1IC01UDU	 342	//( - , MDuS) Координата штока ББ2 (дел.энк)
+#define B1VC01RDU	 BUFFER[862]	//( - , DU) Координата ББ2, мм
+#define idB1VC01RDU	 343	//( - , DU) Координата ББ2, мм
+#define B1IS11LDU	 BUFFER[867]	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
+#define idB1IS11LDU	 344	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
+#define A2IC01UDU	 BUFFER[869]	//( - , MDuS) Координата штока РБ1 (дел.энк)
+#define idA2IC01UDU	 345	//( - , MDuS) Координата штока РБ1 (дел.энк)
 #define R3VS01IDU	 BUFFER[874]	//( - , DU) Готовность к управлению гомогенных дверей
 #define idR3VS01IDU	 346	//( - , DU) Готовность к управлению гомогенных дверей
 #define A3AB13LDU	 BUFFER[877]	//( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС
@@ -3929,98 +3929,98 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 182	,1	,1	, &R0VS18LDU},	//( - , DU) Индикация  Проверка схем сброса
 	{ 183	,1	,1	, &B1MD11LP1},	//( - , DU) Кнопка ПУСК ББ2
 	{ 184	,1	,1	, &B1MD12LP1},	//( - , DU) Переключатель РАЗРЕШИТЬ ББ2
-	{ 185	,1	,1	, &A3VP82LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
-	{ 186	,3	,1	, &A3IP02IDU},	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
-	{ 187	,3	,1	, &B3IP02IDU},	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
-	{ 188	,1	,1	, &A0VE01LDU},	//( - , DU) Напряжение в системы АЗ1 подано
-	{ 189	,1	,1	, &B0VE01LDU},	//( - , DU) Напряжение в системы АЗ2 подано
-	{ 190	,1	,1	, &A0VP01LDU},	//( - , DU) Давление в системы АЗ1 подано
-	{ 191	,1	,1	, &B0VP01LDU},	//( - , DU) Давление в системы АЗ2 подано
-	{ 192	,1	,1	, &A0EE01LZ1},	//( - , MDuBz1) Исправность АКНП1
-	{ 193	,1	,1	, &A0EE03LZ1},	//( - , MDuBz1) Исправность АКНП3
-	{ 194	,1	,1	, &A0EE02LZ1},	//( - , MDuBz1) Исправность АКНП2
-	{ 195	,1	,1	, &A0EE04LZ1},	//( - , MDuBz1) Исправность АКНП4
-	{ 196	,1	,1	, &A0VN01LDU},	//( - , DU) Каналы АЗ1 проверены
-	{ 197	,1	,1	, &B0VN01LDU},	//( - , DU) Каналы АЗ2 проверены
-	{ 198	,1	,1	, &A0EE01LZ2},	//( - , MDuBz2) Исправность АКНП1
-	{ 199	,1	,1	, &A0EE03LZ2},	//( - , MDuBz2) Исправность АКНП3
-	{ 200	,1	,1	, &A0EE02LZ2},	//( - , MDuBz2) Исправность АКНП2
-	{ 201	,1	,1	, &A0EE04LZ2},	//( - , MDuBz2) Исправность АКНП4
-	{ 202	,1	,1	, &A0VP71LZ1},	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
-	{ 203	,1	,1	, &A0VP71LZ2},	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
-	{ 204	,1	,1	, &B0VP71LZ1},	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
-	{ 205	,1	,1	, &B0VP71LZ2},	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
-	{ 206	,1	,1	, &A0VS11LDU},	//( - , DU) АЗ1 готова к работе
-	{ 207	,1	,1	, &B0VS11LDU},	//( - , DU) АЗ2 готова к работе
-	{ 208	,1	,1	, &B1MC01LC1},	//( - , DU) Настроить энкодер ББ2
-	{ 209	,1	,1	, &B1MC01LC2},	//( - , DU) Настроить энкодер ББ2
-	{ 210	,1	,1	, &A1MC01LC1},	//( - , DU) Настроить энкодер ББ1
-	{ 211	,1	,1	, &A1MC01LC2},	//( - , DU) Настроить энкодер ББ1
-	{ 212	,1	,1	, &B2MC01LC1},	//( - , DU) Настроить энкодер РБ2
-	{ 213	,1	,1	, &B2MC01LC2},	//( - , DU) Настроить энкодер РБ2
-	{ 214	,1	,1	, &A2MC01LC1},	//( - , DU) Настроить энкодер РБ1
-	{ 215	,1	,1	, &A2MC01LC2},	//( - , DU) Настроить энкодер РБ1
-	{ 216	,1	,1	, &B3MC01LC1},	//( - , DU) Настроить энкодер ИС2
-	{ 217	,1	,1	, &B3MC01LC2},	//( - , DU) Настроить энкодер ИС2
-	{ 218	,1	,1	, &A3MC01LC1},	//( - , DU) Настроить энкодер ИС1
-	{ 219	,1	,1	, &A3MC01LC2},	//( - , DU) Настроить энкодер ИС1
-	{ 220	,1	,1	, &B8MC01LC1},	//( - , DU) Настроить энкодер АЗ2
-	{ 221	,1	,1	, &B8MC01LC2},	//( - , DU) Настроить энкодер АЗ2
-	{ 222	,1	,1	, &A8MC01LC1},	//( - , DU) Настроить энкодер ДС2
-	{ 223	,1	,1	, &A8MC01LC2},	//( - , DU) Настроить энкодер ДС2
-	{ 224	,1	,1	, &A3VP42LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
-	{ 225	,8	,1	, &A3CP02RDU},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
-	{ 226	,1	,1	, &A3VP52LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
-	{ 227	,1	,1	, &B3VP42LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
-	{ 228	,8	,1	, &B3CP02RDU},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
-	{ 229	,1	,1	, &B3VP52LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
-	{ 230	,1	,1	, &B3VP82LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
-	{ 231	,1	,1	, &R6IS67LZZ},	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{ 232	,1	,1	, &R6IS68LZZ},	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
-	{ 233	,8	,1	, &A3VC01RDU},	//( - , DU) Координата ИС1, мм
-	{ 234	,8	,1	, &A2VC01RDU},	//( - , DU) Координата РБ1, мм
-	{ 235	,8	,1	, &B2VC01RDU},	//( - , DU) Координата РБ2, мм
-	{ 236	,8	,1	, &B8VC01RDU},	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
-	{ 237	,1	,1	, &A4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
-	{ 238	,1	,1	, &B4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
-	{ 239	,1	,1	, &A2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
-	{ 240	,1	,1	, &B2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
-	{ 241	,1	,1	, &A3VP81LDU},	//( - , - ) Давление СПУСК ИС1 в норме
-	{ 242	,1	,1	, &B3VP81LDU},	//( - , - ) Давление СПУСК ИС2 в норме
-	{ 243	,1	,1	, &R0EE02LDU},	//( - , DU) Питание  АКНП  отключить
-	{ 244	,3	,1	, &R0DE01LDU},	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
-	{ 245	,3	,1	, &R0DE06LDU},	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
-	{ 246	,5	,1	, &venc01},	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
-	{ 247	,5	,1	, &venc02},	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
-	{ 248	,5	,1	, &venc03},	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
-	{ 249	,5	,1	, &venc04},	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
-	{ 250	,5	,1	, &venc05},	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
-	{ 251	,5	,1	, &venc06},	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
-	{ 252	,5	,1	, &venc07},	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
-	{ 253	,5	,1	, &venc08},	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
-	{ 254	,1	,1	, &A1IE01LDU},	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
-	{ 255	,1	,1	, &A3IE01LDU},	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
-	{ 256	,1	,1	, &A2IE01LDU},	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
-	{ 257	,1	,1	, &A1IE02LDU},	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
-	{ 258	,1	,1	, &A3IE02LDU},	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
-	{ 259	,1	,1	, &A2IE02LDU},	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
-	{ 260	,1	,1	, &B1IE01LDU},	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
-	{ 261	,1	,1	, &B2IE01LDU},	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
-	{ 262	,1	,1	, &B3IE01LDU},	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
-	{ 263	,1	,1	, &B1IE02LDU},	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
-	{ 264	,1	,1	, &B3IE02LDU},	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
-	{ 265	,1	,1	, &B2IE02LDU},	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
-	{ 266	,1	,1	, &R0IE02LDU},	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
-	{ 267	,1	,1	, &R0IE01LDU},	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
-	{ 268	,1	,1	, &A6IE01LDU},	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
-	{ 269	,1	,1	, &B6IE01LDU},	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
-	{ 270	,1	,1	, &A8IE01LDU},	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
-	{ 271	,1	,1	, &B5IE01LDU},	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
-	{ 272	,1	,1	, &A5IE02LDU},	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
-	{ 273	,1	,1	, &R1IE01LDU},	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
-	{ 274	,1	,1	, &R2IE01LDU},	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
-	{ 275	,1	,1	, &R6IS61LDU},	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
-	{ 276	,1	,1	, &R6IS66LZZ},	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 185	,1	,1	, &B8MC01LC2},	//( - , DU) Настроить энкодер АЗ2
+	{ 186	,1	,1	, &A8MC01LC1},	//( - , DU) Настроить энкодер ДС2
+	{ 187	,1	,1	, &A8MC01LC2},	//( - , DU) Настроить энкодер ДС2
+	{ 188	,1	,1	, &A3VP42LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС
+	{ 189	,8	,1	, &A3CP02RDU},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС1
+	{ 190	,1	,1	, &A3VP52LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС
+	{ 191	,1	,1	, &B3VP42LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС
+	{ 192	,8	,1	, &B3CP02RDU},	//( - , DU) Текущее давление ВЫСТРЕЛ ИС2
+	{ 193	,1	,1	, &B3VP52LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС
+	{ 194	,1	,1	, &B3VP82LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС2 в норме
+	{ 195	,1	,1	, &A3VP82LDU},	//( - , DU) Давление ВЫСТРЕЛ ИС1 в норме
+	{ 196	,3	,1	, &A3IP02IDU},	//(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1
+	{ 197	,3	,1	, &B3IP02IDU},	//(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2
+	{ 198	,1	,1	, &A0VE01LDU},	//( - , DU) Напряжение в системы АЗ1 подано
+	{ 199	,1	,1	, &B0VE01LDU},	//( - , DU) Напряжение в системы АЗ2 подано
+	{ 200	,1	,1	, &A0VP01LDU},	//( - , DU) Давление в системы АЗ1 подано
+	{ 201	,1	,1	, &B0VP01LDU},	//( - , DU) Давление в системы АЗ2 подано
+	{ 202	,1	,1	, &A0EE01LZ1},	//( - , MDuBz1) Исправность АКНП1
+	{ 203	,1	,1	, &A0EE03LZ1},	//( - , MDuBz1) Исправность АКНП3
+	{ 204	,1	,1	, &A0EE02LZ1},	//( - , MDuBz1) Исправность АКНП2
+	{ 205	,1	,1	, &A0EE04LZ1},	//( - , MDuBz1) Исправность АКНП4
+	{ 206	,1	,1	, &A0VN01LDU},	//( - , DU) Каналы АЗ1 проверены
+	{ 207	,1	,1	, &B0VN01LDU},	//( - , DU) Каналы АЗ2 проверены
+	{ 208	,5	,1	, &B2IC01UDU},	//( - , MDuS) Координата штока РБ2 (дел.энк)
+	{ 209	,5	,1	, &A3IC01UDU},	//( - , MDuS) Координата штока ИС1 (дел.энк)
+	{ 210	,5	,1	, &B3IC01UDU},	//( - , MDuS) Координата штока ИС2 (дел.энк)
+	{ 211	,8	,1	, &B3VC01RDU},	//( - , DU) Координата ИС2, мм
+	{ 212	,5	,1	, &A8IC01UDU},	//( - , MDuS) Координата ДС2 (дел.энк)
+	{ 213	,8	,1	, &A8VC01RDU},	//( - , DU) Координата ДС2, мм
+	{ 214	,5	,1	, &B8IC01UDU},	//( - , MDuS) Координата АЗ2 (дел.энк)
+	{ 215	,5	,1	, &A1IC01UDU},	//( - , MDuS) Координата штока ББ1 (дел.энк)
+	{ 216	,8	,1	, &A1VC01RDU},	//( - , DU) Координата ББ1, мм
+	{ 217	,1	,1	, &A1IS11LDU},	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
+	{ 218	,1	,1	, &B1MC01LC1},	//( - , DU) Настроить энкодер ББ2
+	{ 219	,1	,1	, &B1MC01LC2},	//( - , DU) Настроить энкодер ББ2
+	{ 220	,1	,1	, &A1MC01LC1},	//( - , DU) Настроить энкодер ББ1
+	{ 221	,1	,1	, &A1MC01LC2},	//( - , DU) Настроить энкодер ББ1
+	{ 222	,1	,1	, &B2MC01LC1},	//( - , DU) Настроить энкодер РБ2
+	{ 223	,1	,1	, &B2MC01LC2},	//( - , DU) Настроить энкодер РБ2
+	{ 224	,1	,1	, &A2MC01LC1},	//( - , DU) Настроить энкодер РБ1
+	{ 225	,1	,1	, &A2MC01LC2},	//( - , DU) Настроить энкодер РБ1
+	{ 226	,1	,1	, &B3MC01LC1},	//( - , DU) Настроить энкодер ИС2
+	{ 227	,1	,1	, &B3MC01LC2},	//( - , DU) Настроить энкодер ИС2
+	{ 228	,1	,1	, &A3MC01LC1},	//( - , DU) Настроить энкодер ИС1
+	{ 229	,1	,1	, &A3MC01LC2},	//( - , DU) Настроить энкодер ИС1
+	{ 230	,1	,1	, &B8MC01LC1},	//( - , DU) Настроить энкодер АЗ2
+	{ 231	,1	,1	, &R0IE01LDU},	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
+	{ 232	,1	,1	, &A6IE01LDU},	//(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1
+	{ 233	,1	,1	, &B6IE01LDU},	//(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2
+	{ 234	,1	,1	, &A8IE01LDU},	//(vds32:0d - K04VDSR, - ) Исправность ИП ДС2
+	{ 235	,1	,1	, &B5IE01LDU},	//(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2
+	{ 236	,1	,1	, &A5IE02LDU},	//(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1
+	{ 237	,1	,1	, &R1IE01LDU},	//(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1
+	{ 238	,1	,1	, &R2IE01LDU},	//(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2
+	{ 239	,1	,1	, &R6IS61LDU},	//(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети
+	{ 240	,1	,1	, &R6IS66LZZ},	//( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{ 241	,1	,1	, &R6IS67LZZ},	//( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{ 242	,1	,1	, &R6IS68LZZ},	//( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2
+	{ 243	,8	,1	, &A3VC01RDU},	//( - , DU) Координата ИС1, мм
+	{ 244	,8	,1	, &A2VC01RDU},	//( - , DU) Координата РБ1, мм
+	{ 245	,8	,1	, &B2VC01RDU},	//( - , DU) Координата РБ2, мм
+	{ 246	,8	,1	, &B8VC01RDU},	//( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм
+	{ 247	,1	,1	, &A4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ1 в норме
+	{ 248	,1	,1	, &B4VP82LDU},	//( - , - ) Давление ПОДЪЁМ НИ2 в норме
+	{ 249	,1	,1	, &A2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ1 в норме
+	{ 250	,1	,1	, &B2VP82LDU},	//( - , - ) Давление ПОДЪЁМ РБ2 в норме
+	{ 251	,1	,1	, &A3VP81LDU},	//( - , - ) Давление СПУСК ИС1 в норме
+	{ 252	,1	,1	, &B3VP81LDU},	//( - , - ) Давление СПУСК ИС2 в норме
+	{ 253	,1	,1	, &R0EE02LDU},	//( - , DU) Питание  АКНП  отключить
+	{ 254	,1	,1	, &A0EE01LZ2},	//( - , MDuBz2) Исправность АКНП1
+	{ 255	,1	,1	, &A0EE03LZ2},	//( - , MDuBz2) Исправность АКНП3
+	{ 256	,1	,1	, &A0EE02LZ2},	//( - , MDuBz2) Исправность АКНП2
+	{ 257	,1	,1	, &A0EE04LZ2},	//( - , MDuBz2) Исправность АКНП4
+	{ 258	,1	,1	, &A0VP71LZ1},	//( - , MDuBz1) АЗ по АС любого давления для АЗ1
+	{ 259	,1	,1	, &A0VP71LZ2},	//( - , MDuBz2) АЗ по АС любого давления для АЗ1
+	{ 260	,1	,1	, &B0VP71LZ1},	//( - , MDuBz1) АЗ по АС любого давления для АЗ2
+	{ 261	,1	,1	, &B0VP71LZ2},	//( - , MDuBz2) АЗ по АС любого давления для АЗ2
+	{ 262	,1	,1	, &A0VS11LDU},	//( - , DU) АЗ1 готова к работе
+	{ 263	,1	,1	, &B0VS11LDU},	//( - , DU) АЗ2 готова к работе
+	{ 264	,1	,1	, &A1IE01LDU},	//(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1
+	{ 265	,1	,1	, &A3IE01LDU},	//(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1
+	{ 266	,1	,1	, &A2IE01LDU},	//(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1
+	{ 267	,1	,1	, &A1IE02LDU},	//(vds32:05 - K01VDSR, - ) Исправность ИП ББ1
+	{ 268	,1	,1	, &A3IE02LDU},	//(vds32:05 - K09VDSR, - ) Исправность ИП ИС1
+	{ 269	,1	,1	, &A2IE02LDU},	//(vds32:05 - K05VDSR, - ) Исправность ИП РБ1
+	{ 270	,1	,1	, &B1IE01LDU},	//(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2
+	{ 271	,1	,1	, &B2IE01LDU},	//(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2
+	{ 272	,1	,1	, &B3IE01LDU},	//(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2
+	{ 273	,1	,1	, &B1IE02LDU},	//(vds32:05 - K13VDSR, - ) Исправность ИП ББ2
+	{ 274	,1	,1	, &B3IE02LDU},	//(vds32:05 - K21VDSR, - ) Исправность ИП ИС2
+	{ 275	,1	,1	, &B2IE02LDU},	//(vds32:05 - K17VDSR, - ) Исправность ИП РБ2
+	{ 276	,1	,1	, &R0IE02LDU},	//(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1
 	{ 277	,1	,1	, &R0AD04LZ1},	//(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)
 	{ 278	,1	,1	, &R0AD04LZ2},	//(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)
 	{ 279	,1	,1	, &R0AD05LZ1},	//(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)
@@ -4076,20 +4076,20 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 329	,1	,1	, &R0DE3CLDU},	//( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5
 	{ 330	,1	,1	, &TestDiagnDU},	//( - , DU) Неисправность от
 	{ 331	,8	,1	, &B3CV01RDU},	//( - , DU) Измеренная скорость перемещения ИС2
-	{ 332	,5	,1	, &B1IC01UDU},	//( - , MDuS) Координата штока ББ2 (дел.энк)
-	{ 333	,8	,1	, &B1VC01RDU},	//( - , DU) Координата ББ2, мм
-	{ 334	,1	,1	, &B1IS11LDU},	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
-	{ 335	,5	,1	, &A2IC01UDU},	//( - , MDuS) Координата штока РБ1 (дел.энк)
-	{ 336	,5	,1	, &B2IC01UDU},	//( - , MDuS) Координата штока РБ2 (дел.энк)
-	{ 337	,5	,1	, &A3IC01UDU},	//( - , MDuS) Координата штока ИС1 (дел.энк)
-	{ 338	,5	,1	, &B3IC01UDU},	//( - , MDuS) Координата штока ИС2 (дел.энк)
-	{ 339	,8	,1	, &B3VC01RDU},	//( - , DU) Координата ИС2, мм
-	{ 340	,5	,1	, &A8IC01UDU},	//( - , MDuS) Координата ДС2 (дел.энк)
-	{ 341	,8	,1	, &A8VC01RDU},	//( - , DU) Координата ДС2, мм
-	{ 342	,5	,1	, &B8IC01UDU},	//( - , MDuS) Координата АЗ2 (дел.энк)
-	{ 343	,5	,1	, &A1IC01UDU},	//( - , MDuS) Координата штока ББ1 (дел.энк)
-	{ 344	,8	,1	, &A1VC01RDU},	//( - , DU) Координата ББ1, мм
-	{ 345	,1	,1	, &A1IS11LDU},	//(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1
+	{ 332	,3	,1	, &R0DE01LDU},	//(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте
+	{ 333	,3	,1	, &R0DE06LDU},	//(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте
+	{ 334	,5	,1	, &venc01},	//(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1
+	{ 335	,5	,1	, &venc02},	//(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1
+	{ 336	,5	,1	, &venc03},	//(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1
+	{ 337	,5	,1	, &venc04},	//(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1
+	{ 338	,5	,1	, &venc05},	//(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2
+	{ 339	,5	,1	, &venc06},	//(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2
+	{ 340	,5	,1	, &venc07},	//(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2
+	{ 341	,5	,1	, &venc08},	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
+	{ 342	,5	,1	, &B1IC01UDU},	//( - , MDuS) Координата штока ББ2 (дел.энк)
+	{ 343	,8	,1	, &B1VC01RDU},	//( - , DU) Координата ББ2, мм
+	{ 344	,1	,1	, &B1IS11LDU},	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
+	{ 345	,5	,1	, &A2IC01UDU},	//( - , MDuS) Координата штока РБ1 (дел.энк)
 	{ 346	,3	,1	, &R3VS01IDU},	//( - , DU) Готовность к управлению гомогенных дверей
 	{ 347	,1	,1	, &A3AB13LDU},	//( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС
 	{ 348	,1	,1	, &B3AB13LDU},	//( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой
@@ -6662,16 +6662,16 @@ static table_drv table_VENCF={0,0,&ini_VENCF,buf_VENCF,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VENCF[]={
-	{&R0DE01LDU,3,82},
-	{&R0DE06LDU,3,80},
-	{&venc01,5,40},
-	{&venc02,5,45},
-	{&venc03,5,50},
-	{&venc04,5,55},
 	{&venc05,5,60},
 	{&venc06,5,65},
 	{&venc07,5,70},
 	{&venc08,5,75},
+	{&venc04,5,55},
+	{&venc03,5,50},
+	{&venc02,5,45},
+	{&venc01,5,40},
+	{&R0DE06LDU,3,80},
+	{&R0DE01LDU,3,82},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6683,36 +6683,36 @@ static table_drv table_VDS3202={0,0,&ini_VDS3202,buf_VDS3202,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3202[]={
-	{&R1IS11LDU,1,52},
 	{&R0AD14LZ1,1,38},
-	{&B4IS11LDU,1,60},
-	{&A9IS11LDU,1,44},
-	{&R2IS21LDU,1,58},
-	{&R1IS21LDU,1,54},
-	{&B4IS10LDU,1,6},
-	{&B3IS35LDU,1,0},
 	{&A3VZ13LZ1,1,34},
 	{&A3VZ15LZ1,1,36},
-	{&A1VN71LZ1,1,40},
 	{&B2IS33LDU,1,4},
-	{&B1IS11LDU,1,14},
-	{&B2IS11LDU,1,20},
-	{&R2IS11LDU,1,56},
-	{&B2IS12LDU,1,18},
-	{&R8IS11LDU,1,26},
-	{&B1IS12LDU,1,12},
 	{&B3IS31LDU,1,8},
 	{&B3IS33LDU,1,2},
+	{&R1IS11LDU,1,52},
+	{&R2IS11LDU,1,56},
 	{&B1IS21LDU,1,16},
-	{&B2IS21LDU,1,22},
-	{&B9IS21LDU,1,50},
-	{&B9IS11LDU,1,48},
-	{&A9IS21LDU,1,46},
-	{&B3IS21LDU,1,24},
-	{&B7AS31LDU,1,10},
 	{&B4IS21LDU,1,62},
+	{&B7AS31LDU,1,10},
+	{&B3IS35LDU,1,0},
+	{&B3IS21LDU,1,24},
+	{&B4IS10LDU,1,6},
+	{&A1VN71LZ1,1,40},
 	{&R0VZ71LZ1,1,42},
+	{&B2IS21LDU,1,22},
+	{&R8IS11LDU,1,26},
+	{&B1IS11LDU,1,14},
 	{&R0DE02LDU,3,64},
+	{&B2IS12LDU,1,18},
+	{&B2IS11LDU,1,20},
+	{&R1IS21LDU,1,54},
+	{&B4IS11LDU,1,60},
+	{&R2IS21LDU,1,58},
+	{&B1IS12LDU,1,12},
+	{&A9IS11LDU,1,44},
+	{&A9IS21LDU,1,46},
+	{&B9IS11LDU,1,48},
+	{&B9IS21LDU,1,50},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6724,29 +6724,29 @@ static table_drv table_VDS3203={0,0,&ini_VDS3203,buf_VDS3203,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3203[]={
-	{&A3VZ13LZ2,1,34},
-	{&A4IS10LDU,1,6},
-	{&A4IS21LDU,1,28},
-	{&A1IS12LDU,1,12},
-	{&A2IS12LDU,1,18},
-	{&A3IS35LDU,1,0},
-	{&A2IS11LDU,1,20},
-	{&A1VN71LZ2,1,40},
-	{&A3IS31LDU,1,8},
-	{&A1IS21LDU,1,16},
-	{&A2IS21LDU,1,22},
-	{&A3IS21LDU,1,24},
-	{&A7AS31LDU,1,10},
-	{&A1IS11LDU,1,14},
-	{&A2IS33LDU,1,4},
 	{&A4IS11LDU,1,26},
-	{&R0DE03LDU,3,64},
-	{&R0AD14LZ2,1,38},
+	{&A4IS10LDU,1,6},
+	{&A1IS21LDU,1,16},
+	{&A3IS35LDU,1,0},
 	{&A3IS33LDU,1,2},
-	{&R0IS01LDU,1,56},
+	{&A3IS31LDU,1,8},
+	{&A2IS33LDU,1,4},
+	{&A2IS11LDU,1,20},
 	{&R0IS02LDU,1,58},
+	{&R0DE03LDU,3,64},
+	{&A7AS31LDU,1,10},
 	{&R0VZ71LZ2,1,42},
+	{&A4IS21LDU,1,28},
+	{&A2IS12LDU,1,18},
+	{&R0AD14LZ2,1,38},
+	{&A1IS12LDU,1,12},
+	{&A3IS21LDU,1,24},
+	{&A1VN71LZ2,1,40},
+	{&A1IS11LDU,1,14},
+	{&A2IS21LDU,1,22},
 	{&A3VZ15LZ2,1,36},
+	{&R0IS01LDU,1,56},
+	{&A3VZ13LZ2,1,34},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6758,34 +6758,34 @@ static table_drv table_VDS3204={0,0,&ini_VDS3204,buf_VDS3204,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3204[]={
-	{&R3IS21LDU,1,34},
-	{&R3IS11LDU,1,32},
-	{&R4IS21LDU,1,12},
-	{&B5IS21LDU,1,30},
 	{&B5IS11LDU,1,28},
-	{&A5IS21LDU,1,22},
-	{&A5IS11LDU,1,20},
-	{&R5IS11LDU,1,48},
+	{&B5IS21LDU,1,30},
+	{&R4IS12LDU,1,10},
+	{&R4IS22LDU,1,14},
+	{&B8IS11LDU,1,36},
+	{&R4IS21LDU,1,12},
+	{&R5IS21LDU,1,50},
 	{&B6IS11LDU,1,24},
+	{&B3IS11LDU,1,4},
 	{&A6IS21LDU,1,18},
 	{&A6IS11LDU,1,16},
-	{&R6IS21LDU,1,56},
-	{&R0DE04LDU,3,64},
-	{&B6IS21LDU,1,26},
+	{&R3IS21LDU,1,34},
 	{&A3IS11LDU,1,0},
-	{&A8IS22LDU,1,60},
-	{&A8IS12LDU,1,58},
-	{&B8IS22LDU,1,42},
-	{&R4IS11LDU,1,8},
-	{&B8IS11LDU,1,36},
-	{&R4IS22LDU,1,14},
-	{&R4IS12LDU,1,10},
-	{&B3IS22LDU,1,6},
-	{&A3IS22LDU,1,2},
-	{&R5IS21LDU,1,50},
-	{&B3IS11LDU,1,4},
+	{&B6IS21LDU,1,26},
+	{&R3IS11LDU,1,32},
 	{&B8IS21LDU,1,38},
 	{&B8IS12LDU,1,40},
+	{&A8IS22LDU,1,60},
+	{&R4IS11LDU,1,8},
+	{&A3IS22LDU,1,2},
+	{&B3IS22LDU,1,6},
+	{&R6IS21LDU,1,56},
+	{&R5IS11LDU,1,48},
+	{&A8IS12LDU,1,58},
+	{&B8IS22LDU,1,42},
+	{&A5IS11LDU,1,20},
+	{&R0DE04LDU,3,64},
+	{&A5IS21LDU,1,22},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6800,34 +6800,34 @@ static DriverRegister def_buf_VDS3205[]={
 	{&R6IS31LDU,1,48},
 	{&R6IS32LDU,1,50},
 	{&R6IS42LDU,1,54},
-	{&R6IS41LDU,1,52},
-	{&R6IS52LDU,1,58},
 	{&R6IS51LDU,1,56},
-	{&R0DE05LDU,3,64},
+	{&R6IS52LDU,1,58},
+	{&R6IS41LDU,1,52},
+	{&B3IE03LDU,1,44},
+	{&B2IE04LDU,1,38},
+	{&B3IE04LDU,1,46},
+	{&B2IE03LDU,1,36},
+	{&B1IE04LDU,1,30},
+	{&B1IE03LDU,1,28},
+	{&A3IE04LDU,1,22},
+	{&A3IE03LDU,1,20},
+	{&A2IE04LDU,1,14},
+	{&A2IE03LDU,1,12},
+	{&A1IE04LDU,1,6},
+	{&A1IE03LDU,1,4},
 	{&A1IE01LDU,1,2},
 	{&A3IE01LDU,1,18},
-	{&B2IE02LDU,1,32},
-	{&B3IE02LDU,1,40},
-	{&B1IE02LDU,1,24},
 	{&A2IE01LDU,1,10},
 	{&A1IE02LDU,1,0},
 	{&A3IE02LDU,1,16},
 	{&A2IE02LDU,1,8},
-	{&B3IE01LDU,1,42},
 	{&B1IE01LDU,1,26},
 	{&B2IE01LDU,1,34},
-	{&A1IE03LDU,1,4},
-	{&A1IE04LDU,1,6},
-	{&A2IE03LDU,1,12},
-	{&A2IE04LDU,1,14},
-	{&A3IE03LDU,1,20},
-	{&A3IE04LDU,1,22},
-	{&B1IE03LDU,1,28},
-	{&B1IE04LDU,1,30},
-	{&B2IE03LDU,1,36},
-	{&B3IE04LDU,1,46},
-	{&B3IE03LDU,1,44},
-	{&B2IE04LDU,1,38},
+	{&B3IE01LDU,1,42},
+	{&B2IE02LDU,1,32},
+	{&R0DE05LDU,3,64},
+	{&B1IE02LDU,1,24},
+	{&B3IE02LDU,1,40},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6839,21 +6839,21 @@ static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1607[]={
-	{&A2AD11LDU,1,0},
-	{&A2AD21LDU,1,2},
-	{&A2AD02LDU,1,6},
-	{&A2AD03LDU,1,8},
 	{&A2AD05LDU,1,12},
-	{&A2AD04LDU,1,10},
-	{&R0DE07LDU,3,38},
 	{&A2AD01LDU,1,4},
-	{&B2AD05LDU,1,26},
-	{&B2AD04LDU,1,24},
-	{&B2AD01LDU,1,18},
-	{&B2AD03LDU,1,22},
-	{&B2AD02LDU,1,20},
-	{&B2AD21LDU,1,16},
 	{&B2AD11LDU,1,14},
+	{&B2AD21LDU,1,16},
+	{&B2AD02LDU,1,20},
+	{&B2AD03LDU,1,22},
+	{&A2AD04LDU,1,10},
+	{&A2AD03LDU,1,8},
+	{&B2AD04LDU,1,24},
+	{&B2AD05LDU,1,26},
+	{&B2AD01LDU,1,18},
+	{&A2AD02LDU,1,6},
+	{&A2AD21LDU,1,2},
+	{&A2AD11LDU,1,0},
+	{&R0DE07LDU,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6866,20 +6866,20 @@ static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1608[]={
 	{&R0DE08LDU,3,38},
-	{&A1AD05LDU,1,12},
-	{&A1AD01LDU,1,4},
-	{&A1AD04LDU,1,10},
-	{&B1AD11LDU,1,14},
-	{&B1AD21LDU,1,16},
-	{&B1AD02LDU,1,20},
-	{&B1AD03LDU,1,22},
-	{&B1AD04LDU,1,24},
+	{&B1AD01LDU,1,18},
 	{&B1AD05LDU,1,26},
+	{&B1AD04LDU,1,24},
+	{&B1AD03LDU,1,22},
+	{&B1AD02LDU,1,20},
+	{&A1AD01LDU,1,4},
+	{&A1AD05LDU,1,12},
+	{&A1AD04LDU,1,10},
 	{&A1AD03LDU,1,8},
+	{&B1AD21LDU,1,16},
 	{&A1AD02LDU,1,6},
 	{&A1AD21LDU,1,2},
 	{&A1AD11LDU,1,0},
-	{&B1AD01LDU,1,18},
+	{&B1AD11LDU,1,14},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6891,23 +6891,23 @@ static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1609[]={
-	{&B6AD10LDU,1,20},
-	{&B6AD20LDU,1,22},
-	{&A6AD20LDU,1,18},
-	{&A6AD10LDU,1,16},
-	{&B3AD33LDU,1,2},
-	{&R0DE09LDU,3,38},
-	{&B8AD20LDU,1,30},
-	{&B8AD10LDU,1,28},
-	{&B7AP31LDU,1,10},
-	{&B3AD31LDU,1,8},
-	{&B3AD34LDU,1,0},
-	{&R4AD20LDU,1,26},
-	{&R4AD10LDU,1,24},
 	{&A8AD20LDU,1,14},
 	{&A8AD10LDU,1,12},
 	{&B4AD10LDU,1,6},
+	{&B7AP31LDU,1,10},
+	{&R0DE09LDU,3,38},
+	{&B8AD20LDU,1,30},
+	{&B8AD10LDU,1,28},
+	{&B3AD31LDU,1,8},
+	{&B3AD34LDU,1,0},
+	{&B6AD20LDU,1,22},
+	{&B6AD10LDU,1,20},
 	{&B2AD33LDU,1,4},
+	{&A6AD20LDU,1,18},
+	{&R4AD20LDU,1,26},
+	{&R4AD10LDU,1,24},
+	{&B3AD33LDU,1,2},
+	{&A6AD10LDU,1,16},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6919,21 +6919,21 @@ static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1610[]={
-	{&A2AD33LDU,1,4},
-	{&A3AD31LDU,1,8},
-	{&A7AP31LDU,1,10},
-	{&A3AD34LDU,1,0},
 	{&R2AD20LDU,1,18},
-	{&R0DE0ALDU,3,38},
 	{&R2AD10LDU,1,16},
-	{&A3AD33LDU,1,2},
-	{&A4AD10LDU,1,6},
-	{&B5AD10LDU,1,24},
-	{&B5AD20LDU,1,26},
-	{&A5AD10LDU,1,20},
-	{&A5AD20LDU,1,22},
+	{&R0DE0ALDU,3,38},
+	{&A2AD33LDU,1,4},
 	{&R1AD10LDU,1,12},
 	{&R1AD20LDU,1,14},
+	{&A3AD33LDU,1,2},
+	{&A3AD31LDU,1,8},
+	{&A3AD34LDU,1,0},
+	{&B5AD10LDU,1,24},
+	{&B5AD20LDU,1,26},
+	{&A7AP31LDU,1,10},
+	{&A5AD10LDU,1,20},
+	{&A5AD20LDU,1,22},
+	{&A4AD10LDU,1,6},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6945,23 +6945,23 @@ static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1611[]={
-	{&A3AD21LDU,1,2},
-	{&A3AD02LDU,1,6},
-	{&A3AD11LDU,1,0},
-	{&B9AD10LDU,1,30},
-	{&A9AD10LDU,1,28},
+	{&B3AD01LDU,1,18},
+	{&B3AD05LDU,1,26},
+	{&B3AD04LDU,1,24},
+	{&R0DE0BLDU,3,38},
 	{&B3AD03LDU,1,22},
 	{&A3AD01LDU,1,4},
 	{&A3AD05LDU,1,12},
 	{&A3AD04LDU,1,10},
 	{&A3AD03LDU,1,8},
 	{&B3AD02LDU,1,20},
+	{&A9AD10LDU,1,28},
+	{&B9AD10LDU,1,30},
 	{&B3AD21LDU,1,16},
 	{&B3AD11LDU,1,14},
-	{&B3AD04LDU,1,24},
-	{&B3AD05LDU,1,26},
-	{&B3AD01LDU,1,18},
-	{&R0DE0BLDU,3,38},
+	{&A3AD11LDU,1,0},
+	{&A3AD21LDU,1,2},
+	{&A3AD02LDU,1,6},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6973,9 +6973,9 @@ static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS8412[]={
+	{&R0DE0CLDU,3,26},
 	{&A3IP02IDU,3,0},
 	{&B3IP02IDU,3,3},
-	{&R0DE0CLDU,3,26},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6987,30 +6987,30 @@ static table_drv table_VDS3213={0,0,&ini_VDS3213,buf_VDS3213,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3213[]={
-	{&R2VS12LDU,1,14},
-	{&R1VS12LDU,1,8},
-	{&R0IE02LDU,1,44},
-	{&R0IE01LDU,1,46},
-	{&A6IE01LDU,1,36},
-	{&B6IE01LDU,1,42},
-	{&A8IE01LDU,1,6},
-	{&B5IE01LDU,1,30},
-	{&A5IE02LDU,1,24},
-	{&R1IE01LDU,1,12},
-	{&R2IE01LDU,1,18},
-	{&R6IS61LDU,1,0},
-	{&R0DE0DLDU,3,64},
-	{&A6VS22LDU,1,34},
-	{&A6VS12LDU,1,32},
-	{&B6VS22LDU,1,40},
-	{&B6VS12LDU,1,38},
-	{&A5VS22LDU,1,22},
-	{&A5VS12LDU,1,20},
-	{&B5VS22LDU,1,28},
-	{&B5VS12LDU,1,26},
-	{&R1VS22LDU,1,10},
 	{&R4VS22LDU,1,4},
 	{&R4VS12LDU,1,2},
+	{&R2VS12LDU,1,14},
+	{&R1VS12LDU,1,8},
+	{&R2IE01LDU,1,18},
+	{&R0DE0DLDU,3,64},
+	{&B5VS12LDU,1,26},
+	{&B5VS22LDU,1,28},
+	{&A5VS12LDU,1,20},
+	{&R6IS61LDU,1,0},
+	{&A5VS22LDU,1,22},
+	{&R0IE02LDU,1,44},
+	{&R1VS22LDU,1,10},
+	{&B5IE01LDU,1,30},
+	{&A8IE01LDU,1,6},
+	{&B6IE01LDU,1,42},
+	{&A6IE01LDU,1,36},
+	{&R0IE01LDU,1,46},
+	{&A5IE02LDU,1,24},
+	{&R1IE01LDU,1,12},
+	{&B6VS12LDU,1,38},
+	{&B6VS22LDU,1,40},
+	{&A6VS12LDU,1,32},
+	{&A6VS22LDU,1,34},
 	{&R2VS22LDU,1,16},
 	{NULL,0,0},
 };
@@ -7023,23 +7023,23 @@ static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1615[]={
-	{&R0AD04LZ1,1,18},
-	{&R0DE0FLDU,3,38},
 	{&R8AD21LDU,1,22},
-	{&R0AD05LZ1,1,20},
-	{&R0AD05LZ2,1,30},
-	{&R0AD03LZ1,1,16},
-	{&R0AD03LZ2,1,26},
-	{&R0AD04LZ2,1,28},
 	{&B1AD32LDU,1,8},
 	{&A1AD32LDU,1,0},
 	{&B2AD32LDU,1,12},
 	{&A2AD32LDU,1,4},
+	{&R0AD05LZ1,1,20},
+	{&R0AD03LZ2,1,26},
+	{&R0AD03LZ1,1,16},
+	{&R0AD05LZ2,1,30},
+	{&R0AD16LDU,1,24},
 	{&B1AD31LDU,1,10},
+	{&R0AD04LZ2,1,28},
 	{&A1AD31LDU,1,2},
+	{&R0AD04LZ1,1,18},
 	{&B2AD31LDU,1,14},
 	{&A2AD31LDU,1,6},
-	{&R0AD16LDU,1,24},
+	{&R0DE0FLDU,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -7052,18 +7052,18 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
 	{&R0DEB4LDU,1,24},
+	{&R0DE38LDU,1,14},
+	{&R0DE37LDU,1,12},
+	{&R0DE36LDU,1,10},
+	{&R0DE35LDU,1,8},
+	{&R0DE34LDU,1,6},
+	{&R0DE33LDU,1,4},
+	{&R0DE32LDU,1,2},
+	{&R0DE31LDU,1,0},
 	{&R0DEB1LDU,1,18},
 	{&R0DE39LDU,1,16},
 	{&R0DEB2LDU,1,20},
 	{&R0DEB3LDU,1,22},
-	{&R0DE38LDU,1,14},
-	{&R0DE31LDU,1,0},
-	{&R0DE32LDU,1,2},
-	{&R0DE34LDU,1,6},
-	{&R0DE33LDU,1,4},
-	{&R0DE37LDU,1,12},
-	{&R0DE35LDU,1,8},
-	{&R0DE36LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -7249,15 +7249,15 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(899,0.000418877);
 	setAsFloat(900,0.0015);
 	setAsFloat(901,0.30);
-	setAsBool(239,1);
-	setAsBool(241,1);
-	setAsBool(237,1);
+	setAsBool(249,1);
+	setAsBool(251,1);
+	setAsBool(247,1);
+	setAsBool(250,1);
+	setAsBool(252,1);
+	setAsBool(248,1);
 	setAsBool(240,1);
+	setAsBool(241,1);
 	setAsBool(242,1);
-	setAsBool(238,1);
-	setAsBool(276,1);
-	setAsBool(231,1);
-	setAsBool(232,1);
 }
 uspaint8 InternalBuf[9655];
 
