@@ -1,7 +1,7 @@
 <!-->
 Описание драйвера по умолчанию
 -->
-<driver name="vencf8l" description="Драйвер Энкодеров" code="0x02" lenData="84" lenInit="5" header="fp8/drivers/vencf8l.h">
+<driver name="vencf8l" description="Драйвер Энкодеров" code="0x02" lenData="86" lenInit="5" header="fp8/drivers/vencf8l.h">
     <signals>
         <signal name="gray01" format="4" mode="input" address="0"/>
         <signal name="gray02" format="4" mode="input" address="5"/>
@@ -19,6 +19,8 @@
         <signal name="venc06" format="5" mode="input" address="65"/>
         <signal name="venc07" format="5" mode="input" address="70"/>
         <signal name="venc08" format="5" mode="input" address="75"/>
+        <signal name="DiagnFDS" format="3" mode="input" address="80"/>
+        <signal name="DiagnVDS" format="3" mode="input" address="82"/>
     </signals>
     <init type="vencf8_inipar">
         <signal name="typeVds"       mode="input" format="18" value="0xc2" address="0"/>

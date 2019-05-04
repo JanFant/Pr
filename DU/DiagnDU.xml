@@ -76,11 +76,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">0</value>
-            <value name="nID">1</value>
+            <value name="nID">3</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">0</value>
-            <value name="OldData">0</value>
+            <value name="ParData">6</value>
+            <value name="OldData">6</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -89,11 +89,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">1</value>
-            <value name="nID">2</value>
+            <value name="nID">4</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">2</value>
-            <value name="OldData">2</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -102,11 +102,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">2</value>
-            <value name="nID">3</value>
+            <value name="nID">5</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">4</value>
-            <value name="OldData">4</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -115,11 +115,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">3</value>
-            <value name="nID">4</value>
+            <value name="nID">6</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">6</value>
-            <value name="OldData">6</value>
+            <value name="ParData">12</value>
+            <value name="OldData">12</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -128,11 +128,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">4</value>
-            <value name="nID">5</value>
+            <value name="nID">7</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">8</value>
-            <value name="OldData">8</value>
+            <value name="ParData">14</value>
+            <value name="OldData">14</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -141,11 +141,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">5</value>
-            <value name="nID">6</value>
+            <value name="nID">8</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">10</value>
-            <value name="OldData">10</value>
+            <value name="ParData">16</value>
+            <value name="OldData">16</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -154,11 +154,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">6</value>
-            <value name="nID">7</value>
+            <value name="nID">9</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">12</value>
-            <value name="OldData">12</value>
+            <value name="ParData">18</value>
+            <value name="OldData">18</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -167,11 +167,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">7</value>
-            <value name="nID">8</value>
+            <value name="nID">10</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">14</value>
-            <value name="OldData">14</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -180,11 +180,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
-            <value name="nID">9</value>
+            <value name="nID">11</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">16</value>
-            <value name="OldData">16</value>
+            <value name="ParData">22</value>
+            <value name="OldData">22</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -193,11 +193,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
-            <value name="nID">10</value>
+            <value name="nID">12</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">18</value>
-            <value name="OldData">18</value>
+            <value name="ParData">24</value>
+            <value name="OldData">24</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -206,11 +206,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
-            <value name="nID">11</value>
+            <value name="nID">13</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">20</value>
-            <value name="OldData">20</value>
+            <value name="ParData">26</value>
+            <value name="OldData">26</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -219,11 +219,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
-            <value name="nID">12</value>
+            <value name="nID">14</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">22</value>
-            <value name="OldData">22</value>
+            <value name="ParData">28</value>
+            <value name="OldData">28</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -232,11 +232,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
-            <value name="nID">13</value>
+            <value name="nID">15</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">24</value>
-            <value name="OldData">24</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -245,11 +245,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">13</value>
-            <value name="nID">14</value>
+            <value name="nID">16</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">26</value>
-            <value name="OldData">26</value>
+            <value name="ParData">32</value>
+            <value name="OldData">32</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -258,42 +258,42 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">14</value>
-            <value name="nID">15</value>
+            <value name="nID">17</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">28</value>
-            <value name="OldData">28</value>
+            <value name="ParData">34</value>
+            <value name="OldData">34</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE06LDU</value>
+            <value name="description">( - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE01LDU</value>
+            <value name="description">( - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">1</value>
+            <value name="nID">2</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">3</value>
+            <value name="OldData">3</value>
             <value name="unitId">1</value>
         </record>
         <record>
             <value name="name">R0DE0FLDU</value>
             <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 15 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">0</value>
-            <value name="nID">16</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">30</value>
-            <value name="OldData">30</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0DE0DLDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 13 месте</value>
-            <value name="type">2</value>
-            <value name="format">3</value>
-            <value name="address">1</value>
-            <value name="nID">17</value>
-            <value name="PType">130</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">33</value>
-            <value name="OldData">33</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">R0DE0BLDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 11 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">2</value>
@@ -305,8 +305,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE0CLDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 12 месте</value>
+            <value name="name">R0DE0DLDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 13 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">3</value>
@@ -318,8 +318,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE07LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 7 месте</value>
+            <value name="name">R0DE0BLDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 11 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">4</value>
@@ -331,8 +331,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE0ALDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 10 месте</value>
+            <value name="name">R0DE0CLDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 12 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">5</value>
@@ -344,8 +344,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE09LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 9 месте</value>
+            <value name="name">R0DE07LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 7 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">6</value>
@@ -357,8 +357,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE05LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 5 месте</value>
+            <value name="name">R0DE0ALDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 10 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">7</value>
@@ -370,8 +370,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE08LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 8 месте</value>
+            <value name="name">R0DE09LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 9 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">8</value>
@@ -383,8 +383,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE04LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 4 месте</value>
+            <value name="name">R0DE05LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 5 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">9</value>
@@ -396,8 +396,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE03LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 3 месте</value>
+            <value name="name">R0DE08LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 8 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">10</value>
@@ -409,8 +409,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0DE02LDU</value>
-            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 2 месте</value>
+            <value name="name">R0DE04LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 4 месте</value>
             <value name="type">2</value>
             <value name="format">3</value>
             <value name="address">11</value>
@@ -419,6 +419,32 @@
             <value name="Bf0">0</value>
             <value name="ParData">63</value>
             <value name="OldData">63</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE03LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 3 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">12</value>
+            <value name="nID">28</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">66</value>
+            <value name="OldData">66</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0DE02LDU</value>
+            <value name="description">( - Diagn, DiagnDU) диагностика модуля ДУ на 2 месте</value>
+            <value name="type">2</value>
+            <value name="format">3</value>
+            <value name="address">13</value>
+            <value name="nID">29</value>
+            <value name="PType">130</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">69</value>
+            <value name="OldData">69</value>
             <value name="unitId">1</value>
         </record>
     </records>
