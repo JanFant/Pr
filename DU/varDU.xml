@@ -183,14 +183,6 @@
 <var  name="R0VS18LDU" description="( - , DU) Индикация  Проверка схем сброса" format="1"></var>
 <var  name="B1MD11LP1" description="( - , DU) Кнопка ПУСК ББ2" format="1"></var>
 <var  name="B1MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ББ2" format="1"></var>
-<var  name="A8MC01LC2" description="( - , DU) Настроить энкодер ДС2" format="1"></var>
-<var  name="A3VP42LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС" format="1"></var>
-<var  name="A3CP02RDU" description="( - , DU) Текущее давление ВЫСТРЕЛ ИС1" format="8"></var>
-<var  name="A3VP52LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС" format="1"></var>
-<var  name="B3VP42LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС" format="1"></var>
-<var  name="B3CP02RDU" description="( - , DU) Текущее давление ВЫСТРЕЛ ИС2" format="8"></var>
-<var  name="B3VP52LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС" format="1"></var>
-<var  name="B3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 в норме" format="1"></var>
 <var  name="A3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 в норме" format="1"></var>
 <var  name="A3IP02IDU" description="(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
 <var  name="B3IP02IDU" description="(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
@@ -206,14 +198,14 @@
 <var  name="B0VN01LDU" description="( - , DU) Каналы АЗ2 проверены" format="1"></var>
 <var  name="A0EE01LZ2" description="( - , MDuBz2) Исправность АКНП1" format="1"></var>
 <var  name="A0EE03LZ2" description="( - , MDuBz2) Исправность АКНП3" format="1"></var>
-<var  name="B3IC01UDU" description="( - , MDuS) Координата штока ИС2 (дел.энк)" format="5"></var>
-<var  name="B3VC01RDU" description="( - , DU) Координата ИС2, мм" format="8"></var>
-<var  name="A8IC01UDU" description="( - , MDuS) Координата ДС2 (дел.энк)" format="5"></var>
-<var  name="A8VC01RDU" description="( - , DU) Координата ДС2, мм" format="8"></var>
-<var  name="B8IC01UDU" description="( - , MDuS) Координата АЗ2 (дел.энк)" format="5"></var>
-<var  name="A1IC01UDU" description="( - , MDuS) Координата штока ББ1 (дел.энк)" format="5"></var>
-<var  name="A1VC01RDU" description="( - , DU) Координата ББ1, мм" format="8"></var>
-<var  name="A1IS11LDU" description="(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1" format="1"></var>
+<var  name="A0EE02LZ2" description="( - , MDuBz2) Исправность АКНП2" format="1"></var>
+<var  name="A0EE04LZ2" description="( - , MDuBz2) Исправность АКНП4" format="1"></var>
+<var  name="A0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var  name="A0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var  name="B0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
+<var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
 <var  name="B1MC01LC1" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
 <var  name="B1MC01LC2" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
 <var  name="A1MC01LC1" description="( - , DU) Настроить энкодер ББ1" format="1"></var>
@@ -229,14 +221,14 @@
 <var  name="B8MC01LC1" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
 <var  name="B8MC01LC2" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
 <var  name="A8MC01LC1" description="( - , DU) Настроить энкодер ДС2" format="1"></var>
-<var  name="B6IE01LDU" description="(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2" format="1"></var>
-<var  name="A8IE01LDU" description="(vds32:0d - K04VDSR, - ) Исправность ИП ДС2" format="1"></var>
-<var  name="B5IE01LDU" description="(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2" format="1"></var>
-<var  name="A5IE02LDU" description="(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1" format="1"></var>
-<var  name="R1IE01LDU" description="(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1" format="1"></var>
-<var  name="R2IE01LDU" description="(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2" format="1"></var>
-<var  name="R6IS61LDU" description="(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
+<var  name="A8MC01LC2" description="( - , DU) Настроить энкодер ДС2" format="1"></var>
+<var  name="A3VP42LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС" format="1"></var>
+<var  name="A3CP02RDU" description="( - , DU) Текущее давление ВЫСТРЕЛ ИС1" format="8"></var>
+<var  name="A3VP52LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС" format="1"></var>
+<var  name="B3VP42LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС" format="1"></var>
+<var  name="B3CP02RDU" description="( - , DU) Текущее давление ВЫСТРЕЛ ИС2" format="8"></var>
+<var  name="B3VP52LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС" format="1"></var>
+<var  name="B3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 в норме" format="1"></var>
 <var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="A3VC01RDU" description="( - , DU) Координата ИС1, мм" format="8"></var>
@@ -252,14 +244,14 @@
 <var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
 <var  name="R0DE01LDU" description="(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте" format="3"></var>
 <var  name="R0DE06LDU" description="(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте" format="3"></var>
-<var  name="A0EE02LZ2" description="( - , MDuBz2) Исправность АКНП2" format="1"></var>
-<var  name="A0EE04LZ2" description="( - , MDuBz2) Исправность АКНП4" format="1"></var>
-<var  name="A0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ1" format="1"></var>
-<var  name="A0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ1" format="1"></var>
-<var  name="B0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ2" format="1"></var>
-<var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
-<var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
-<var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
+<var  name="venc01" description="(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1" format="5"></var>
+<var  name="venc02" description="(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1" format="5"></var>
+<var  name="venc03" description="(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1" format="5"></var>
+<var  name="venc04" description="(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1" format="5"></var>
+<var  name="venc05" description="(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2" format="5"></var>
+<var  name="venc06" description="(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2" format="5"></var>
+<var  name="venc07" description="(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2" format="5"></var>
+<var  name="venc08" description="(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2" format="5"></var>
 <var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1" format="1"></var>
 <var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1" format="1"></var>
 <var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1" format="1"></var>
@@ -275,6 +267,14 @@
 <var  name="R0IE02LDU" description="(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1" format="1"></var>
 <var  name="R0IE01LDU" description="(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2" format="1"></var>
 <var  name="A6IE01LDU" description="(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1" format="1"></var>
+<var  name="B6IE01LDU" description="(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2" format="1"></var>
+<var  name="A8IE01LDU" description="(vds32:0d - K04VDSR, - ) Исправность ИП ДС2" format="1"></var>
+<var  name="B5IE01LDU" description="(vds32:0d - K16VDSR, - ) Исправность ИП НЛ2" format="1"></var>
+<var  name="A5IE02LDU" description="(vds32:0d - K13VDSR, - ) Исправность ИП НЛ1" format="1"></var>
+<var  name="R1IE01LDU" description="(vds32:0d - K07VDSR, - ) Исправность ИП МДЗ1" format="1"></var>
+<var  name="R2IE01LDU" description="(vds32:0d - K10VDSR, - ) Исправность ИП МДЗ2" format="1"></var>
+<var  name="R6IS61LDU" description="(vds32:0d - K01VDSR, - ) Исправность 3-х  фазной сети" format="1"></var>
+<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
 <var  name="R0AD04LZ1" description="(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)" format="1"></var>
 <var  name="R0AD04LZ2" description="(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)" format="1"></var>
 <var  name="R0AD05LZ1" description="(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)" format="1"></var>
@@ -330,20 +330,20 @@
 <var  name="R0DE3CLDU" description="( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5" format="1"></var>
 <var  name="TestDiagnDU" description="( - , DU) Неисправность от" format="1"></var>
 <var  name="B3CV01RDU" description="( - , DU) Измеренная скорость перемещения ИС2" format="8"></var>
-<var  name="venc01" description="(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1" format="5"></var>
-<var  name="venc02" description="(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1" format="5"></var>
-<var  name="venc03" description="(vencf8l:01 - venc03, - ) заначение реального энкодера ИС1" format="5"></var>
-<var  name="venc04" description="(vencf8l:01 - venc04, - ) заначение реального энкодера ДС2" format="5"></var>
-<var  name="venc05" description="(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2" format="5"></var>
-<var  name="venc06" description="(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2" format="5"></var>
-<var  name="venc07" description="(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2" format="5"></var>
-<var  name="venc08" description="(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2" format="5"></var>
 <var  name="B1IC01UDU" description="( - , MDuS) Координата штока ББ2 (дел.энк)" format="5"></var>
 <var  name="B1VC01RDU" description="( - , DU) Координата ББ2, мм" format="8"></var>
 <var  name="B1IS11LDU" description="(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2" format="1"></var>
 <var  name="A2IC01UDU" description="( - , MDuS) Координата штока РБ1 (дел.энк)" format="5"></var>
 <var  name="B2IC01UDU" description="( - , MDuS) Координата штока РБ2 (дел.энк)" format="5"></var>
 <var  name="A3IC01UDU" description="( - , MDuS) Координата штока ИС1 (дел.энк)" format="5"></var>
+<var  name="B3IC01UDU" description="( - , MDuS) Координата штока ИС2 (дел.энк)" format="5"></var>
+<var  name="B3VC01RDU" description="( - , DU) Координата ИС2, мм" format="8"></var>
+<var  name="A8IC01UDU" description="( - , MDuS) Координата ДС2 (дел.энк)" format="5"></var>
+<var  name="A8VC01RDU" description="( - , DU) Координата ДС2, мм" format="8"></var>
+<var  name="B8IC01UDU" description="( - , MDuS) Координата АЗ2 (дел.энк)" format="5"></var>
+<var  name="A1IC01UDU" description="( - , MDuS) Координата штока ББ1 (дел.энк)" format="5"></var>
+<var  name="A1VC01RDU" description="( - , DU) Координата ББ1, мм" format="8"></var>
+<var  name="A1IS11LDU" description="(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1" format="1"></var>
 <var  name="R3VS01IDU" description="( - , DU) Готовность к управлению гомогенных дверей" format="3"></var>
 <var  name="A3AB13LDU" description="( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС" format="1"></var>
 <var  name="B3AB13LDU" description="( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой" format="1"></var>

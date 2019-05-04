@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=50;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 401
-static char BUFFER[401];
+#define SIZE_BUFFER 400
+static char BUFFER[400];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.53\0", 5432, "192.168.10.153\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -55,144 +55,144 @@ int nomer = 1;
 #define idR0DEB4LS3	 20	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
 #define R0IN01FS3	 BUFFER[44]	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
 #define idR0IN01FS3	 21	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
-#define R0IN02FI3	 BUFFER[49]	//( - , MA3S) Выход КНК15-1 Гц
-#define idR0IN02FI3	 22	//( - , MA3S) Выход КНК15-1 Гц
+#define R0IN02FI3	 BUFFER[49]	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
+#define idR0IN02FI3	 22	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
 #define R0IN03FS3	 BUFFER[54]	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
 #define idR0IN03FS3	 23	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
 #define R0IS01FI0	 BUFFER[59]	//( - , MA3S) Признак работы с имитатором
 #define idR0IS01FI0	 24	//( - , MA3S) Признак работы с имитатором
-#define R0IN01FI3	 BUFFER[62]	//( - , MA3S) Выход СНМ-11 Гц
-#define idR0IN01FI3	 25	//( - , MA3S) Выход СНМ-11 Гц
-#define R0IN02FS3	 BUFFER[67]	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+#define R0IN01FI3	 BUFFER[61]	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
+#define idR0IN01FI3	 25	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
+#define R0IN02FS3	 BUFFER[66]	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
 #define idR0IN02FS3	 26	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
-#define R0IN03FI3	 BUFFER[72]	//( - , MA3S) Выход КНК53М Гц
-#define idR0IN03FI3	 27	//( - , MA3S) Выход КНК53М Гц
-#define R0VN02RS3	 BUFFER[77]	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
+#define R0IN03FI3	 BUFFER[71]	//( - , MA3S) Выход КНК53М Гц от ПТИ
+#define idR0IN03FI3	 27	//( - , MA3S) Выход КНК53М Гц от ПТИ
+#define R0VN02RS3	 BUFFER[76]	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
 #define idR0VN02RS3	 28	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
-#define R0VN01RS3	 BUFFER[82]	//( - , A3Bz1, A3Bz2) Период разгона канал 3
+#define R0VN01RS3	 BUFFER[81]	//( - , A3Bz1, A3Bz2) Период разгона канал 3
 #define idR0VN01RS3	 29	//( - , A3Bz1, A3Bz2) Период разгона канал 3
-#define R0VN61LS3	 BUFFER[87]	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
+#define R0VN61LS3	 BUFFER[86]	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
 #define idR0VN61LS3	 30	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
-#define R0VN73LZ1	 BUFFER[89]	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
+#define R0VN73LZ1	 BUFFER[88]	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
 #define idR0VN73LZ1	 31	//(fds16:05 - K09FDSR, - ) АС по мощности канал 3 на БАЗ1
-#define R0VN65LS3	 BUFFER[91]	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
+#define R0VN65LS3	 BUFFER[90]	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
 #define idR0VN65LS3	 32	//( - , A3Bz1, A3Bz2) ПС по периоду разгона канал 3
-#define R0VN77LZ1	 BUFFER[93]	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
+#define R0VN77LZ1	 BUFFER[92]	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
 #define idR0VN77LZ1	 33	//(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 3 на БАЗ1
-#define A0EE01LS3	 BUFFER[95]	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
+#define A0EE01LS3	 BUFFER[94]	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
 #define idA0EE01LS3	 34	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 3 на БАЗ1
-#define R0VN03RS3	 BUFFER[97]	//( - , AKNP3) Измеренный нейтронный поток канал 3
+#define R0VN03RS3	 BUFFER[96]	//( - , AKNP3) Измеренный нейтронный поток канал 3
 #define idR0VN03RS3	 35	//( - , AKNP3) Измеренный нейтронный поток канал 3
-#define R0VN04RS3	 BUFFER[102]	//( - , AKNP3) Реактивность канал 3
+#define R0VN04RS3	 BUFFER[101]	//( - , AKNP3) Реактивность канал 3
 #define idR0VN04RS3	 36	//( - , AKNP3) Реактивность канал 3
-#define A1VN71LS3	 BUFFER[107]	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
+#define A1VN71LS3	 BUFFER[106]	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
 #define idA1VN71LS3	 37	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
-#define A0EE02LS3	 BUFFER[109]	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
+#define A0EE02LS3	 BUFFER[108]	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
 #define idA0EE02LS3	 38	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
-#define R0IE11LS3	 BUFFER[111]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+#define R0IE11LS3	 BUFFER[110]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
 #define idR0IE11LS3	 39	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-#define R0IE12LS3	 BUFFER[113]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define R0IE12LS3	 BUFFER[112]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
 #define idR0IE12LS3	 40	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-#define R0IE13LS3	 BUFFER[115]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+#define R0IE13LS3	 BUFFER[114]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
 #define idR0IE13LS3	 41	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
-#define R0VN13RS3	 BUFFER[117]	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
+#define R0VN13RS3	 BUFFER[116]	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
 #define idR0VN13RS3	 42	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
-#define R0VN23RS3	 BUFFER[122]	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
+#define R0VN23RS3	 BUFFER[121]	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
 #define idR0VN23RS3	 43	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
-#define R0VN33RS3	 BUFFER[127]	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
+#define R0VN33RS3	 BUFFER[126]	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
 #define idR0VN33RS3	 44	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
-#define R0VN15RS3	 BUFFER[132]	//( - , AKNP3) Номер ведущей камеры канал 3
+#define R0VN15RS3	 BUFFER[131]	//( - , AKNP3) Номер ведущей камеры канал 3
 #define idR0VN15RS3	 45	//( - , AKNP3) Номер ведущей камеры канал 3
-#define R0IE01LS3	 BUFFER[135]	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
+#define R0IE01LS3	 BUFFER[134]	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
 #define idR0IE01LS3	 46	//(fds16:05 - K02FDSR, - ) Отключение питание детекторов канал 3
-#define R0IE02LS3	 BUFFER[137]	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
+#define R0IE02LS3	 BUFFER[136]	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
 #define idR0IE02LS3	 47	//(fds16:05 - K01FDSR, - ) Отключить питание ПР, ПУ канал 3
-#define A0VN71LS3	 BUFFER[139]	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
+#define A0VN71LS3	 BUFFER[138]	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
 #define idA0VN71LS3	 48	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ1
-#define R0VN73LZ2	 BUFFER[141]	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
+#define R0VN73LZ2	 BUFFER[140]	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
 #define idR0VN73LZ2	 49	//(fds16:05 - K13FDSR, - ) АС по мощности канал 3 на БАЗ2
-#define R0VN77LZ2	 BUFFER[143]	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
+#define R0VN77LZ2	 BUFFER[142]	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
 #define idR0VN77LZ2	 50	//(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 3 на БАЗ2
-#define A1EE01LS3	 BUFFER[145]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
+#define A1EE01LS3	 BUFFER[144]	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
 #define idA1EE01LS3	 51	//(fds16:05 - K15FDSR, - ) Исправность АКНП канал 3 на БАЗ2
-#define B8VC01RDU	 BUFFER[147]	//( - , A3Bz1, A3Bz2) Координата АЗ2, мм
+#define B8VC01RDU	 BUFFER[146]	//( - , A3Bz1, A3Bz2) Координата АЗ2, мм
 #define idB8VC01RDU	 52	//( - , A3Bz1, A3Bz2) Координата АЗ2, мм
-#define R0EE03LZ1	 BUFFER[152]	//( - , AKNP3) Питание  АКНП3  отключить
+#define R0EE03LZ1	 BUFFER[151]	//( - , AKNP3) Питание  АКНП3  отключить
 #define idR0EE03LZ1	 53	//( - , AKNP3) Питание  АКНП3  отключить
-#define R0EE03LZ2	 BUFFER[154]	//( - , AKNP3) Питание  АКНП3  отключить
+#define R0EE03LZ2	 BUFFER[153]	//( - , AKNP3) Питание  АКНП3  отключить
 #define idR0EE03LZ2	 54	//( - , AKNP3) Питание  АКНП3  отключить
-#define R0DE01LS3	 BUFFER[156]	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
+#define R0DE01LS3	 BUFFER[155]	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
 #define idR0DE01LS3	 55	//(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте
-#define fEM_R0UR01RSS	 BUFFER[159]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
+#define fEM_R0UR01RSS	 BUFFER[158]	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
 #define idfEM_R0UR01RSS	 56	//(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)
-#define fEM_R0UL52RSS	 BUFFER[164]	//(R0UL52RSS) Уровень АС по мощности
+#define fEM_R0UL52RSS	 BUFFER[163]	//(R0UL52RSS) Уровень АС по мощности
 #define idfEM_R0UL52RSS	 57	//(R0UL52RSS) Уровень АС по мощности
-#define fEM_R0UL41RSS	 BUFFER[169]	//(R0UL41RSS) Уровень ПС по периоду разгона
+#define fEM_R0UL41RSS	 BUFFER[168]	//(R0UL41RSS) Уровень ПС по периоду разгона
 #define idfEM_R0UL41RSS	 58	//(R0UL41RSS) Уровень ПС по периоду разгона
-#define fEM_R0UL51RSS	 BUFFER[174]	//(R0UL51RSS) Уровень АС по периоду разгона
+#define fEM_R0UL51RSS	 BUFFER[173]	//(R0UL51RSS) Уровень АС по периоду разгона
 #define idfEM_R0UL51RSS	 59	//(R0UL51RSS) Уровень АС по периоду разгона
-#define fEM_R0UH02RSS	 BUFFER[179]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define fEM_R0UH02RSS	 BUFFER[178]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
 #define idfEM_R0UH02RSS	 60	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define fEM_R0UH03RSS	 BUFFER[184]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define fEM_R0UH03RSS	 BUFFER[183]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
 #define idfEM_R0UH03RSS	 61	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define fEM_R0UL42RSS	 BUFFER[189]	//(R0UL42RSS) Уровень ПС по мощности
+#define fEM_R0UL42RSS	 BUFFER[188]	//(R0UL42RSS) Уровень ПС по мощности
 #define idfEM_R0UL42RSS	 62	//(R0UL42RSS) Уровень ПС по мощности
-#define fEM_R7UX00RSS	 BUFFER[194]	//(R7UX00RSS) X-координата АЗ1 (см)
+#define fEM_R7UX00RSS	 BUFFER[193]	//(R7UX00RSS) X-координата АЗ1 (см)
 #define idfEM_R7UX00RSS	 63	//(R7UX00RSS) X-координата АЗ1 (см)
-#define fEM_R7UX07RSS	 BUFFER[199]	//(R7UX07RSS) X-координата камеры R7IN31 (см)
+#define fEM_R7UX07RSS	 BUFFER[198]	//(R7UX07RSS) X-координата камеры R7IN31 (см)
 #define idfEM_R7UX07RSS	 64	//(R7UX07RSS) X-координата камеры R7IN31 (см)
-#define fEM_R7UX08RSS	 BUFFER[204]	//(R7UX08RSS) X-координата камеры R7IN32 (см)
+#define fEM_R7UX08RSS	 BUFFER[203]	//(R7UX08RSS) X-координата камеры R7IN32 (см)
 #define idfEM_R7UX08RSS	 65	//(R7UX08RSS) X-координата камеры R7IN32 (см)
-#define fEM_R7UX09RSS	 BUFFER[209]	//(R7UX09RSS) X-координата камеры R7IN33 (см)
+#define fEM_R7UX09RSS	 BUFFER[208]	//(R7UX09RSS) X-координата камеры R7IN33 (см)
 #define idfEM_R7UX09RSS	 66	//(R7UX09RSS) X-координата камеры R7IN33 (см)
-#define fEM_R7UY00RSS	 BUFFER[214]	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define fEM_R7UY00RSS	 BUFFER[213]	//(R7UY00RSS) Y-координата АЗ1 (см)
 #define idfEM_R7UY00RSS	 67	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define fEM_R7UY07RSS	 BUFFER[219]	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
+#define fEM_R7UY07RSS	 BUFFER[218]	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
 #define idfEM_R7UY07RSS	 68	//(R7UY07RSS) Y-координата камеры R7IN31 (см)
-#define fEM_R7UY08RSS	 BUFFER[224]	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
+#define fEM_R7UY08RSS	 BUFFER[223]	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
 #define idfEM_R7UY08RSS	 69	//(R7UY08RSS) Y-координата камеры R7IN32 (см)
-#define fEM_R7UY09RSS	 BUFFER[229]	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
+#define fEM_R7UY09RSS	 BUFFER[228]	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
 #define idfEM_R7UY09RSS	 70	//(R7UY09RSS) Y-координата камеры R7IN33 (см)
-#define fEM_A0UX00RSS	 BUFFER[234]	//(A0UX00RSS) Эффективный радиус АЗ
+#define fEM_A0UX00RSS	 BUFFER[233]	//(A0UX00RSS) Эффективный радиус АЗ
 #define idfEM_A0UX00RSS	 71	//(A0UX00RSS) Эффективный радиус АЗ
-#define fEM_A0UX07RSS	 BUFFER[239]	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
+#define fEM_A0UX07RSS	 BUFFER[238]	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
 #define idfEM_A0UX07RSS	 72	//(A0UX07RSS) Первый коэффициент калибровки камеры 7
-#define fEM_A0UX08RSS	 BUFFER[244]	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
+#define fEM_A0UX08RSS	 BUFFER[243]	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
 #define idfEM_A0UX08RSS	 73	//(A0UX08RSS) Первый коэффициент калибровки камеры 8
-#define fEM_A0UX09RSS	 BUFFER[249]	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
+#define fEM_A0UX09RSS	 BUFFER[248]	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
 #define idfEM_A0UX09RSS	 74	//(A0UX09RSS) Первый коэффициент калибровки камеры 9
-#define fEM_B0UX07RSS	 BUFFER[254]	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
+#define fEM_B0UX07RSS	 BUFFER[253]	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
 #define idfEM_B0UX07RSS	 75	//(B0UX07RSS) Второй коэффициент калибровки камеры 7
-#define fEM_B0UX08RSS	 BUFFER[259]	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
+#define fEM_B0UX08RSS	 BUFFER[258]	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
 #define idfEM_B0UX08RSS	 76	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
-#define fEM_B0UX09RSS	 BUFFER[264]	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
+#define fEM_B0UX09RSS	 BUFFER[263]	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
 #define idfEM_B0UX09RSS	 77	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
-#define fEM_R0UH05RSS	 BUFFER[269]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define fEM_R0UH05RSS	 BUFFER[268]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 #define idfEM_R0UH05RSS	 78	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define iEM_R0UL01ISS	 BUFFER[274]	//(R0UL01ISS) Шаг (мс) измерения периода
+#define iEM_R0UL01ISS	 BUFFER[273]	//(R0UL01ISS) Шаг (мс) измерения периода
 #define idiEM_R0UL01ISS	 79	//(R0UL01ISS) Шаг (мс) измерения периода
-#define dEM_R0UL02USS	 BUFFER[277]	//(R0UL02USS) Предельное время ожидания роста потока (мс)
+#define dEM_R0UL02USS	 BUFFER[276]	//(R0UL02USS) Предельное время ожидания роста потока (мс)
 #define iddEM_R0UL02USS	 80	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-#define fEM_R0UN03RSS	 BUFFER[282]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define fEM_R0UN03RSS	 BUFFER[281]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 #define idfEM_R0UN03RSS	 81	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define lEM_EE01LS3	 BUFFER[287]	//(EE01LS3) Исправность АКНП3
+#define lEM_EE01LS3	 BUFFER[286]	//(EE01LS3) Исправность АКНП3
 #define idlEM_EE01LS3	 82	//(EE01LS3) Исправность АКНП3
-#define bFirstEnterFlag	 BUFFER[289]	//(bFirstEnterFlag) 
+#define bFirstEnterFlag	 BUFFER[288]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 83	//(bFirstEnterFlag) 
-#define internal1_m23_Nk	 BUFFER[291]	//(internal1_m23_Nk) Nk - ведущая камера
-#define idinternal1_m23_Nk	 84	//(internal1_m23_Nk) Nk - ведущая камера
-#define internal1_m53_tst	 BUFFER[294]	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-#define idinternal1_m53_tst	 85	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-#define internal1_m53_trz	 BUFFER[319]	//(internal1_m53_trz) - массив времени фиксации очередного периода
-#define idinternal1_m53_trz	 86	//(internal1_m53_trz) - массив времени фиксации очередного периода
-#define internal1_m53_N1	 BUFFER[344]	//(internal1_m53_N1) - массив значения мощности в начале замера
-#define idinternal1_m53_N1	 87	//(internal1_m53_N1) - массив значения мощности в начале замера
-#define internal1_m53_N2	 BUFFER[369]	//(internal1_m53_N2) - массив значения мощности в конце замера
-#define idinternal1_m53_N2	 88	//(internal1_m53_N2) - массив значения мощности в конце замера
-#define internal1_m53_Period0	 BUFFER[394]	//(internal1_m53_Period0) Per - Период разгона РУ
-#define idinternal1_m53_Period0	 89	//(internal1_m53_Period0) Per - Период разгона РУ
-#define internal1_m53_MyFirstEnterFlag	 BUFFER[399]	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m53_MyFirstEnterFlag	 90	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m22_Nk	 BUFFER[290]	//(internal1_m22_Nk) Nk - ведущая камера
+#define idinternal1_m22_Nk	 84	//(internal1_m22_Nk) Nk - ведущая камера
+#define internal1_m52_tst	 BUFFER[293]	//(internal1_m52_tst) - массив времени фиксации стартовой мощности
+#define idinternal1_m52_tst	 85	//(internal1_m52_tst) - массив времени фиксации стартовой мощности
+#define internal1_m52_trz	 BUFFER[318]	//(internal1_m52_trz) - массив времени фиксации очередного периода
+#define idinternal1_m52_trz	 86	//(internal1_m52_trz) - массив времени фиксации очередного периода
+#define internal1_m52_N1	 BUFFER[343]	//(internal1_m52_N1) - массив значения мощности в начале замера
+#define idinternal1_m52_N1	 87	//(internal1_m52_N1) - массив значения мощности в начале замера
+#define internal1_m52_N2	 BUFFER[368]	//(internal1_m52_N2) - массив значения мощности в конце замера
+#define idinternal1_m52_N2	 88	//(internal1_m52_N2) - массив значения мощности в конце замера
+#define internal1_m52_Period0	 BUFFER[393]	//(internal1_m52_Period0) Per - Период разгона РУ
+#define idinternal1_m52_Period0	 89	//(internal1_m52_Period0) Per - Период разгона РУ
+#define internal1_m52_MyFirstEnterFlag	 BUFFER[398]	//(internal1_m52_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m52_MyFirstEnterFlag	 90	//(internal1_m52_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,3	,1	, &R0DE02LS3},	//(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте
@@ -216,12 +216,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 19	,1	,1	, &R0DEB3LS3},	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
 	{ 20	,1	,1	, &R0DEB4LS3},	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
 	{ 21	,8	,1	, &R0IN01FS3},	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
-	{ 22	,8	,1	, &R0IN02FI3},	//( - , MA3S) Выход КНК15-1 Гц
+	{ 22	,8	,1	, &R0IN02FI3},	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
 	{ 23	,8	,1	, &R0IN03FS3},	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
-	{ 24	,3	,1	, &R0IS01FI0},	//( - , MA3S) Признак работы с имитатором
-	{ 25	,8	,1	, &R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц
+	{ 24	,1	,1	, &R0IS01FI0},	//( - , MA3S) Признак работы с имитатором
+	{ 25	,8	,1	, &R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
 	{ 26	,8	,1	, &R0IN02FS3},	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
-	{ 27	,8	,1	, &R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц
+	{ 27	,8	,1	, &R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц от ПТИ
 	{ 28	,8	,1	, &R0VN02RS3},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
 	{ 29	,8	,1	, &R0VN01RS3},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
 	{ 30	,1	,1	, &R0VN61LS3},	//( - , A3Bz1, A3Bz2) ПС по мощности канал 3
@@ -278,13 +278,13 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 81	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 	{ 82	,1	,1	, &lEM_EE01LS3},	//(EE01LS3) Исправность АКНП3
 	{ 83	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 84	,3	,1	, &internal1_m23_Nk},	//(internal1_m23_Nk) Nk - ведущая камера
-	{ 85	,8	,5	, &internal1_m53_tst},	//(internal1_m53_tst) - массив времени фиксации стартовой мощности
-	{ 86	,8	,5	, &internal1_m53_trz},	//(internal1_m53_trz) - массив времени фиксации очередного периода
-	{ 87	,8	,5	, &internal1_m53_N1},	//(internal1_m53_N1) - массив значения мощности в начале замера
-	{ 88	,8	,5	, &internal1_m53_N2},	//(internal1_m53_N2) - массив значения мощности в конце замера
-	{ 89	,8	,1	, &internal1_m53_Period0},	//(internal1_m53_Period0) Per - Период разгона РУ
-	{ 90	,1	,1	, &internal1_m53_MyFirstEnterFlag},	//(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag
+	{ 84	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
+	{ 85	,8	,5	, &internal1_m52_tst},	//(internal1_m52_tst) - массив времени фиксации стартовой мощности
+	{ 86	,8	,5	, &internal1_m52_trz},	//(internal1_m52_trz) - массив времени фиксации очередного периода
+	{ 87	,8	,5	, &internal1_m52_N1},	//(internal1_m52_N1) - массив значения мощности в начале замера
+	{ 88	,8	,5	, &internal1_m52_N2},	//(internal1_m52_N2) - массив значения мощности в конце замера
+	{ 89	,8	,1	, &internal1_m52_Period0},	//(internal1_m52_Period0) Per - Период разгона РУ
+	{ 90	,1	,1	, &internal1_m52_MyFirstEnterFlag},	//(internal1_m52_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp3.bin\0";   // Имя файла для сохранения констант
@@ -473,6 +473,7 @@ static ModbusRegister coil_MA3S[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_MA3S[]={  // 
+	{&R0IS01FI0,1,0},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -481,7 +482,6 @@ static ModbusRegister ir_MA3S[]={  //
 	{&R0IN01FI3,8,0},	//( - , SA3) Выход СНМ-11 Гц от ПТИ
 	{&R0IN02FI3,8,2},	//( - , SA3) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI3,8,4},	//( - , SA3) Выход КНК53М Гц от ПТИ
-	{&R0IS01FI0,3,6},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
@@ -608,7 +608,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(60,3703.704 );
 	setAsFloat(61,62500.0);
 	setAsFloat(62,5000);
-	setAsFloat(63,1567.36);
+	setAsFloat(63,1570.0);
 	setAsFloat(64,1585.0);
 	setAsFloat(65,1796.0);
 	setAsFloat(66,1269.0);
@@ -689,44 +689,41 @@ sschar bRM_1_ = {1,0}; /* type - ��� ������ ���-11 1- �
 ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - �����. �������������� �������->�����/� ���-11 */ 
 ssint iRM_4_ = {4,0}; /* n - ����������� ������� �������� */ 
 ssint iRM_6_ = {6,0}; /* n - N-����������� ������� x */ 
-ssint iRM_1_ = {1,0}; /* x2 - ������ ��������� */ 
-ssfloat fRM_0_0009765625 = {0.0009765625,0}; /* k - ����������� �������� */ 
 
 uspaint8 SpaEEPROMBuf[130];
 
 /* ����������� ���������� */
-ssbool var1;
+ssfloat var1;
 ssfloat var2;
 ssfloat var3;
-ssfloat var4;
-ssint var5;
+ssbool var4;
+ssbool var5;
 ssbool var6;
 ssbool var7;
 ssbool var8;
 ssbool var9;
 ssbool var10;
-ssbool var11;
-ssint var12;
+ssint var11;
+ssfloat var12;
 ssfloat var13;
-ssfloat var14;
-ssbool var15;
+ssbool var14;
+ssfloat var15;
 ssfloat var16;
 ssfloat var17;
-ssfloat var18;
-ssint var19;
-ssbool var20;
-ssfloat var21;
+ssint var18;
+ssbool var19;
+ssfloat var20;
+ssbool var21;
 ssbool var22;
 ssbool var23;
 ssbool var24;
 ssbool var25;
 ssbool var26;
 ssbool var27;
-ssbool var28;
-ssfloat var29;
-ssbool var30;
+ssfloat var28;
+ssbool var29;
+ssfloat var30;
 ssfloat var31;
-ssfloat var32;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -735,80 +732,75 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* ���������� �������� */
-psfloat  array_m9_x_1[2] = {&R0IN03FS3,&R0IN03FI3};
-psfloat  array_m8_x_1[2] = {&R0IN02FS3,&R0IN02FI3};
-psfloat  array_m7_x_1[2] = {&R0IN01FS3,&R0IN01FI3};
-psbool  array_m102_x_1[6] = {&var7,&var6,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE39LS3};
-psint  array_m88_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
-psfloat  array_m53_tst_1[5];
-psfloat  array_m53_trz_1[5];
-psfloat  array_m53_N1_1[5];
-psfloat  array_m53_N2_1[5];
-psbool  array_m63_x_1[2] = {&var27,&var23};
-psbool  array_m62_x_1[2] = {&var27,&var28};
-psbool  array_m72_x_1[5] = {&var15,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&var1};
+psbool  array_m101_x_1[6] = {&var6,&var5,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE39LS3};
+psint  array_m87_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
+psfloat  array_m52_tst_1[5];
+psfloat  array_m52_trz_1[5];
+psfloat  array_m52_N1_1[5];
+psfloat  array_m52_N2_1[5];
+psbool  array_m62_x_1[2] = {&var26,&var22};
+psbool  array_m61_x_1[2] = {&var26,&var27};
+psbool  array_m71_x_1[5] = {&var14,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&var4};
 
 /* ���������� �������� */
-_S_noto  S_noto_103_1 = {&var8,&var1};
-_S_ma  S_ma_9_1 = {array_m9_x_1,&var5,&iRM_2_,&var2};
-_S_ma  S_ma_8_1 = {array_m8_x_1,&var5,&iRM_2_,&var3};
-_S_ma  S_ma_7_1 = {array_m7_x_1,&var5,&iRM_2_,&var4};
-_S_fsumz  S_fsumz_2_1 = {&R0IS01FI0,&iRM_1_,&var5};
-_S_or2  S_or2_105_1 = {&R0DEB3LS3,&R0DEB4LS3,&var6};
-_S_or2  S_or2_97_1 = {&R0DEB1LS3,&R0DEB2LS3,&var7};
-_S_or3  S_or3_99_1 = {&var11,&var10,&var9,&var8};
-_S_orn  S_orn_102_1 = {array_m102_x_1,&iRM_6_,&var9};
-_S_and2  S_and2_90_1 = {&R0DE31LS3,&R0DE32LS3,&var10};
-_S_diagndev  S_diagndev_88_1 = {array_m88_x_1,&iRM_4_,&var11,&var12};
-_S_ocham  S_ocham_23_1 = {&var4,&var3,&var2,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var13,&var14,&var15,&var16,&var17,&var18,&var19,&internal1_m23_Nk};
-_S_or2  S_or2_75_1 = {&R0EE03LZ1,&R0EE03LZ2,&var20};
-_S_period  S_period_53_1 = {&var14,&lEM_EE01LS3,&iRM_5_,&var31,&var32,&fEM_R0UN03RSS,&var21,array_m53_tst_1,array_m53_trz_1,array_m53_N1_1,array_m53_N2_1,&internal1_m53_Period0,&internal1_m53_MyFirstEnterFlag};
-_S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var22};
-_S_bol  S_bol_60_1 = {&fEM_R0UL41RSS,&var21,&var23};
-_S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var24};
-_S_andn  S_andn_72_1 = {array_m72_x_1,&iRM_5_,&vainSBool};
-_S_bol  S_bol_43_1 = {&var14,&fEM_R0UL52RSS,&var25};
-_S_bol  S_bol_48_1 = {&var14,&fEM_R0UL42RSS,&var26};
-_S_bol  S_bol_59_1 = {&var14,&fEM_R0UN03RSS,&var27};
-_S_bol  S_bol_58_1 = {&fEM_R0UL51RSS,&var21,&var28};
-_S_react  S_react_54_1 = {&var21,&var29};
-_S_bol  S_bol_38_1 = {&var14,&fEM_R0UR01RSS,&var30};
+_S_ml  S_ml_8_1 = {&R0IN03FI3,&R0IN03FS3,&R0IS01FI0,&var1};
+_S_ml  S_ml_7_1 = {&R0IN02FI3,&R0IN02FS3,&R0IS01FI0,&var2};
+_S_ml  S_ml_6_1 = {&R0IN01FI3,&R0IN01FS3,&R0IS01FI0,&var3};
+_S_noto  S_noto_102_1 = {&var7,&var4};
+_S_or2  S_or2_104_1 = {&R0DEB3LS3,&R0DEB4LS3,&var5};
+_S_or2  S_or2_96_1 = {&R0DEB1LS3,&R0DEB2LS3,&var6};
+_S_or3  S_or3_98_1 = {&var10,&var9,&var8,&var7};
+_S_orn  S_orn_101_1 = {array_m101_x_1,&iRM_6_,&var8};
+_S_and2  S_and2_89_1 = {&R0DE31LS3,&R0DE32LS3,&var9};
+_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var10,&var11};
+_S_ocham  S_ocham_22_1 = {&var3,&var2,&var1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&var12,&var13,&var14,&var15,&var16,&var17,&var18,&internal1_m22_Nk};
+_S_or2  S_or2_74_1 = {&R0EE03LZ1,&R0EE03LZ2,&var19};
+_S_period  S_period_52_1 = {&var13,&lEM_EE01LS3,&iRM_5_,&var30,&var31,&fEM_R0UN03RSS,&var20,array_m52_tst_1,array_m52_trz_1,array_m52_N1_1,array_m52_N2_1,&internal1_m52_Period0,&internal1_m52_MyFirstEnterFlag};
+_S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var21};
+_S_bol  S_bol_59_1 = {&fEM_R0UL41RSS,&var20,&var22};
+_S_andn  S_andn_61_1 = {array_m61_x_1,&iRM_2_,&var23};
+_S_andn  S_andn_71_1 = {array_m71_x_1,&iRM_5_,&vainSBool};
+_S_bol  S_bol_42_1 = {&var13,&fEM_R0UL52RSS,&var24};
+_S_bol  S_bol_47_1 = {&var13,&fEM_R0UL42RSS,&var25};
+_S_bol  S_bol_58_1 = {&var13,&fEM_R0UN03RSS,&var26};
+_S_bol  S_bol_57_1 = {&fEM_R0UL51RSS,&var20,&var27};
+_S_react  S_react_53_1 = {&var20,&var28};
+_S_bol  S_bol_37_1 = {&var13,&fEM_R0UR01RSS,&var29};
 
 
 void ZeroVar()
 {
-   var1.b=0;
+   var1.f=0.0;
    var2.f=0.0;
    var3.f=0.0;
-   var4.f=0.0;
-   var5.i=0;
+   var4.b=0;
+   var5.b=0;
    var6.b=0;
    var7.b=0;
    var8.b=0;
    var9.b=0;
    var10.b=0;
-   var11.b=0;
-   var12.i=0;
+   var11.i=0;
+   var12.f=0.0;
    var13.f=0.0;
-   var14.f=0.0;
-   var15.b=0;
+   var14.b=0;
+   var15.f=0.0;
    var16.f=0.0;
    var17.f=0.0;
-   var18.f=0.0;
-   var19.i=0;
-   var20.b=0;
-   var21.f=0.0;
+   var18.i=0;
+   var19.b=0;
+   var20.f=0.0;
+   var21.b=0;
    var22.b=0;
    var23.b=0;
    var24.b=0;
    var25.b=0;
    var26.b=0;
    var27.b=0;
-   var28.b=0;
-   var29.f=0.0;
-   var30.b=0;
+   var28.f=0.0;
+   var29.b=0;
+   var30.f=0.0;
    var31.f=0.0;
-   var32.f=0.0;
    vainSLong.l=0L;
    vainSFloat.f=0.0;
    vainSInt.i=0;
@@ -819,57 +811,56 @@ void ZeroVar()
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_75_1);
-  diagndev(&S_diagndev_88_1);
-  and2(&S_and2_90_1);
-  or2(&S_or2_97_1);
-  or2(&S_or2_105_1);
-  fsumz(&S_fsumz_2_1);
-  ma(&S_ma_7_1);
-  ma(&S_ma_8_1);
-  ma(&S_ma_9_1);
-  ocham(&S_ocham_23_1);
-  orn(&S_orn_102_1);
-  or3(&S_or3_99_1);
-  noto(&S_noto_103_1);
-  bol(&S_bol_38_1);
-  bol(&S_bol_59_1);
-  bol(&S_bol_48_1);
-  bol(&S_bol_43_1);
-  andn(&S_andn_72_1);
-  setData(&var31,&iEM_R0UL01ISS);
-  setData(&var32,&dEM_R0UL02USS);
-  period(&S_period_53_1);
-  react(&S_react_54_1);
+  or2(&S_or2_74_1);
+  diagndev(&S_diagndev_87_1);
+  and2(&S_and2_89_1);
+  or2(&S_or2_96_1);
+  or2(&S_or2_104_1);
+  ml(&S_ml_6_1);
+  ml(&S_ml_7_1);
+  ml(&S_ml_8_1);
+  ocham(&S_ocham_22_1);
+  orn(&S_orn_101_1);
+  or3(&S_or3_98_1);
+  noto(&S_noto_102_1);
+  bol(&S_bol_37_1);
   bol(&S_bol_58_1);
+  bol(&S_bol_47_1);
+  bol(&S_bol_42_1);
+  andn(&S_andn_71_1);
+  setData(&var30,&iEM_R0UL01ISS);
+  setData(&var31,&dEM_R0UL02USS);
+  period(&S_period_52_1);
+  react(&S_react_53_1);
+  bol(&S_bol_57_1);
+  andn(&S_andn_61_1);
+  bol(&S_bol_59_1);
   andn(&S_andn_62_1);
-  bol(&S_bol_60_1);
-  andn(&S_andn_63_1);
-  setData(idTestDiagnAKNP3,&var8);
-  setData(idTTLaknp3,&var12);
-  setData(idR0DE3DLS3,&var6);
-  setData(idR0DE3CLS3,&var7);
+  setData(idTestDiagnAKNP3,&var7);
+  setData(idTTLaknp3,&var11);
+  setData(idR0DE3DLS3,&var5);
+  setData(idR0DE3CLS3,&var6);
   setData(idA1EE01LS3,&lEM_EE01LS3);
-  setData(idR0VN77LZ2,&var24);
-  setData(idR0VN73LZ2,&var25);
-  setData(idA0VN71LS3,&var30);
-  setData(idR0IE02LS3,&var20);
-  setData(idR0IE01LS3,&var20);
-  setData(idR0VN15RS3,&var19);
-  setData(idR0VN33RS3,&var18);
-  setData(idR0VN23RS3,&var17);
-  setData(idR0VN13RS3,&var16);
-  setData(idA0EE02LS3,&var15);
-  setData(idA1VN71LS3,&var30);
-  setData(idR0VN04RS3,&var29);
-  setData(idR0VN03RS3,&var13);
+  setData(idR0VN77LZ2,&var23);
+  setData(idR0VN73LZ2,&var24);
+  setData(idA0VN71LS3,&var29);
+  setData(idR0IE02LS3,&var19);
+  setData(idR0IE01LS3,&var19);
+  setData(idR0VN15RS3,&var18);
+  setData(idR0VN33RS3,&var17);
+  setData(idR0VN23RS3,&var16);
+  setData(idR0VN13RS3,&var15);
+  setData(idA0EE02LS3,&var14);
+  setData(idA1VN71LS3,&var29);
+  setData(idR0VN04RS3,&var28);
+  setData(idR0VN03RS3,&var12);
   setData(idA0EE01LS3,&lEM_EE01LS3);
-  setData(idR0VN77LZ1,&var24);
-  setData(idR0VN65LS3,&var22);
-  setData(idR0VN73LZ1,&var25);
-  setData(idR0VN61LS3,&var26);
-  setData(idR0VN01RS3,&var21);
-  setData(idR0VN02RS3,&var14);
+  setData(idR0VN77LZ1,&var23);
+  setData(idR0VN65LS3,&var21);
+  setData(idR0VN73LZ1,&var24);
+  setData(idR0VN61LS3,&var25);
+  setData(idR0VN01RS3,&var20);
+  setData(idR0VN02RS3,&var13);
 
   setAsBool(idbFirstEnterFlag,1);
 }
@@ -878,13 +869,13 @@ void InitInternalParametr(void)
 {
   int i;
   for( i=0;i<5;i++ )
-    array_m53_tst_1[i] = &(&internal1_m53_tst)[i*5];
+    array_m52_tst_1[i] = &(&internal1_m52_tst)[i*5];
   for( i=0;i<5;i++ )
-    array_m53_trz_1[i] = &(&internal1_m53_trz)[i*5];
+    array_m52_trz_1[i] = &(&internal1_m52_trz)[i*5];
   for( i=0;i<5;i++ )
-    array_m53_N1_1[i] = &(&internal1_m53_N1)[i*5];
+    array_m52_N1_1[i] = &(&internal1_m52_N1)[i*5];
   for( i=0;i<5;i++ )
-    array_m53_N2_1[i] = &(&internal1_m53_N2)[i*5];
+    array_m52_N2_1[i] = &(&internal1_m52_N2)[i*5];
 }
 
 void MainCycle(void)

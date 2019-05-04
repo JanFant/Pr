@@ -47,7 +47,7 @@
 <var  name="A5IS11LDU" description="(do32_pti:140 - K28DO, - ) Приход на ВУ НЛ1" format="1"></var>
 <var  name="B0VP81LZZ" description="(do32_pti:110 - K30DO, - ) Давление АЗ2 в норме" format="1"></var>
 <var  name="A0VP81LZZ" description="(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме" format="1"></var>
-<var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2" format="5"></var>
+<var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2, мм" format="5"></var>
 <var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
@@ -103,7 +103,7 @@
 <var  name="krb1" description="( - , - ) " format="8"></var>
 <var  name="R0DEUMLSS" description="( - , SCM) Сигнал управления моделью" format="3"></var>
 <var  name="R0MW11IP1" description="( - , SCM) Переключатель ВЫСТРЕЛ" format="3"></var>
-<var  name="R0IS01FI0" description="( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором" format="3"></var>
+<var  name="R0IS01FI0" description="( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором" format="1"></var>
 <var  name="A6VS22LDU" description="( - , SCM) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
 <var  name="B8IS21LDU" description="(do32_pti:150 - K05DO, - ) Приход на НУ1 АЗ2" format="1"></var>
 <var  name="B8IS11LDU" description="(do32_pti:150 - K08DO, - ) Приход на ВУ1 АЗ2" format="1"></var>
@@ -121,9 +121,9 @@
 <var  name="A1IS11LIM" description="( - , SCM) Магнит ББ1 обесточен" format="1"></var>
 <var  name="A3AD34LDU" description="(vds32_pti:340 - K12VDSR, - ) Клапан (ВПИС ИС1) открыть (обесточить)" format="1"></var>
 <var  name="R0IS02LDU" description="(do32_pti:140 - K17DO, - ) Разрешение ввода от имитатора" format="1"></var>
-<var  name="R0IN01FI2" description="( - , SA2) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI2" description="( - , SA2) Выход СНМ-11 Гц от ПТИ" format="8"></var>
 <var  name="R0IN01FI4" description="( - , SA4) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FI1" description="( - , SA1) Выход КНК15-1 Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FI1" description="( - , SA1) Выход СНМ11 Гц от ПТИ" format="8"></var>
 <var  name="B7AP31LDU" description="(vds32_pti:340 - K31VDSR, - ) Клапан (Обдув АЗ2) открыть (обесточить)" format="1"></var>
 <var  name="A7AP31LDU" description="(vds32_pti:340 - K17VDSR, - ) Клапан (Обдув АЗ1) открыть (обесточить)" format="1"></var>
 <var  name="R4VS12LDU" description="( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
@@ -305,7 +305,7 @@
 <var  name="fEM_A3UC05RIM" description="(A3UC05RIM) Координата переднего аварийного выключателя ИС мм" format="8"></var>
 <var  name="fEM_A3UC04RIM" description="(A3UC04RIM) Координата промежуточного путевого выключателя ИС мм" format="8"></var>
 <var  name="fEM_A3UC02RDU" description="(A3UC02RDU) Коэффициент преобразования частоты двигателя ИС в скорость мм/с" format="8"></var>
-<var  name="fEM_R4UV80RDU" description="(R4UV80RDU) Номинальная скорость тележки (мм/с)" format="8"></var>
+<var  name="fEM_R4UV80RDU" description="(R4UV80RDU) Номинальная скорость тележки (см/с)" format="8"></var>
 <var  name="fEM_R4UC10RIM" description="(R4UC10RIM) Координата верхних механических упоров тележки мм" format="8"></var>
 <var  name="fEM_R4UC20RIM" description="(R4UC20RIM) Координата нижних механических упоров тележки мм" format="8"></var>
 <var  name="fEM_B8UC21RIM" description="(B8UC21RIM) Координата верхнего путевого выключателя АЗ2 мм" format="8"></var>
@@ -564,7 +564,6 @@
 <var  name="fEM_R4MC01RC1" description="(R4MC01RC1) Заданная координата тележки от ИС" format="8"></var>
 <var  name="fEM_R4MV01RC1" description="(R4MV01RC1) Заданная скорость тележки от ИС" format="8"></var>
 <var  name="iEM_TERMAZ2" description="(TERMAZ2) Неисправности АЗ2 от ИС" format="3"></var>
-<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) Заданная координата АЗ2 от ИС" format="8"></var>
 <var  name="fEM_B8MV01RC1" description="(B8MV01RC1) Заданная скорость АЗ2 от ИС" format="8"></var>
 <var  name="iEM_TERDS2" description="(TERDS2) Неисправности ДС2 от ИС" format="3"></var>
 <var  name="fEM_A8MC01RC1" description="(A8MC01RC1) Заданная координата ДС2 от ИС" format="8"></var>
@@ -651,7 +650,6 @@
 <var  name="iEM_TERR2VS22LIM" description="(TERR2VS22LIM) Искажение: Движение МДЗ2 в сторону НУ" format="3"></var>
 <var  name="iEM_TERR4VS12LDU" description="(TERR4VS12LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»" format="3"></var>
 <var  name="iEM_TERR4VS22LDU" description="(TERR4VS22LDU) Искажение: Движение реактора к «У ЗАЩИТЫ»" format="3"></var>
-<var  name="fEM_R4UC23RIM" description="(R4UC23RIM) Y-координата АЗ1" format="8"></var>
 <var  name="fEM_A0UX13RSS" description="(A0UX13RSS) Первый коэффициент калибровки камеры 13" format="8"></var>
 <var  name="fEM_A0UX14RSS" description="(A0UX14RSS) Первый коэффициент калибровки камеры 14" format="8"></var>
 <var  name="fEM_A0UX15RSS" description="(A0UX15RSS) Первый коэффициент калибровки камеры 15" format="8"></var>
@@ -662,6 +660,7 @@
 <var  name="fEM_R7UY14RSS" description="(R7UY14RSS) Y-координата камеры R7IN52" format="8"></var>
 <var  name="fEM_R7UY15RSS" description="(R7UY15RSS) Y-координата камеры R7IN53" format="8"></var>
 <var  name="fEM_R7UX16RSS" description="(R7UX16RSS) Величина сигнала СНМ11 в БЗ" format="8"></var>
+<var  name="fEM_B8MC01RC1" description="(B8MC01RC1) Заданная координата АЗ2 от ИС" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m874_Chim0" description="(internal1_m874_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
