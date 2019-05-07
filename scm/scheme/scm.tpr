@@ -4713,7 +4713,7 @@
     }
     [TConst]{
       Name="R0UH01RSS"
-      Value="2"
+      Value="20"
       Type=1
       Numeration=0
       MemoryType=1
@@ -4725,8 +4725,8 @@
       Access=""
       TypeInterface=0
       InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -5791,7 +5791,7 @@
     }
     [TConst]{
       Name="R0UH02RSS"
-      Value="3703.704"
+      Value="37037.04"
       Type=1
       Numeration=0
       MemoryType=1
@@ -5803,8 +5803,8 @@
       Access=""
       TypeInterface=0
       InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -5835,7 +5835,7 @@
     }
     [TConst]{
       Name="R0UH03RSS"
-      Value="62500.0"
+      Value="975000.0"
       Type=1
       Numeration=0
       MemoryType=1
@@ -5847,8 +5847,8 @@
       Access=""
       TypeInterface=0
       InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -33188,7 +33188,7 @@
         }
       }
       [VVV_Text]{
-        R="1019,112,1047,124"
+        R="1019,112,1047,123"
         Number=4508
         IsHold=FALSE
         Line1="Приход на"
@@ -33222,7 +33222,7 @@
         }
       }
       [VVV_Text]{
-        R="1056,114,1086,126"
+        R="1056,114,1086,125"
         Number=4449
         IsHold=FALSE
         Line1="Приход на "
@@ -33282,7 +33282,7 @@
         }
       }
       [VVV_Text]{
-        R="1093,109,1133,127"
+        R="1093,109,1132,125"
         Number=4515
         IsHold=FALSE
         Line1="Клапан cброса"
@@ -33298,7 +33298,7 @@
         Line3="(обесточен)"
       }
       [VVV_Text]{
-        R="1149,116,1181,128"
+        R="1149,116,1179,127"
         Number=4471
         IsHold=FALSE
         Line1="Магнит ББ1"
@@ -34159,7 +34159,7 @@
         CONST_NAME="TERBB1"
       }
       [VVV_Text]{
-        R="1140,344,1181,356"
+        R="1140,344,1181,355"
         Number=126
         IsHold=FALSE
         Line1="Неисправности"
@@ -34173,14 +34173,14 @@
         CONST_NAME="A1MC02RC1"
       }
       [VVV_Text]{
-        R="1158,413,1218,425"
+        R="1158,413,1216,424"
         Number=1613
         IsHold=FALSE
         Line1=" Заданная координата"
         Line2=" штока ББ1 от ИС"
       }
       [VVV_Text]{
-        R="1086,410,1139,428"
+        R="1086,410,1138,426"
         Number=1614
         IsHold=FALSE
         Line1="Заданная скорость "
@@ -66348,7 +66348,7 @@
         p1="97:2325"
         BNumber=1085
         ENumber=2340
-        Comment="Chim - частота импульсов камеры Гц --> Выход КНК15-1 Гц от ПТИ"
+        Comment="Chim - частота импульсов камеры Гц --> Выход СНМ11 Гц от ПТИ"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -70154,4 +70154,4 @@
     }
   }
 }
-67580735
+67580777

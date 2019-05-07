@@ -3,8 +3,8 @@
   <save value ="5100">fEM_R0UL52RSS</save>
   <save value ="20">fEM_R0UL41RSS</save>
   <save value ="13.0">fEM_R0UL51RSS</save>
-  <save value ="3703.704 ">fEM_R0UH02RSS</save>
-  <save value ="62500.0">fEM_R0UH03RSS</save>
+  <save value ="37037.04 ">fEM_R0UH02RSS</save>
+  <save value ="975000.0">fEM_R0UH03RSS</save>
   <save value ="5000">fEM_R0UL42RSS</save>
   <save value ="1570.0">fEM_R7UX00RSS</save>
   <save value ="506.5">fEM_R7UY00RSS</save>
@@ -25,5 +25,8 @@
   <save value ="500">iEM_R0UL01ISS</save>
   <save value ="100000">dEM_R0UL02USS</save>
   <save value ="0.005">fEM_R0UN03RSS</save>
-  <save value ="1">lEM_EE01LS4</save>
+  <save value ="20">fEM_R0UH01RSS</save>
+  <save value ="4000">fEM_R0UH21RSS</save>
+  <save value ="100000">fEM_R0UH22RSS</save>
+  <save value ="1000000">fEM_R0UH23RSS</save>
 </saves>

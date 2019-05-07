@@ -97,19 +97,6 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">lEM_EE01LS1</value>
-            <value name="description">( - , AKNP1) исправность АКНП1</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">2</value>
-            <value name="nID">38</value>
-            <value name="PType">35</value>
-            <value name="Bf0">104</value>
-            <value name="ParData">169</value>
-            <value name="OldData">169</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">A0EE02LS1</value>
             <value name="description">( - , AKNP1) Исправность АКНП1 (от сшивки каналов) канал 1</value>
             <value name="type">1</value>
@@ -562,6 +549,19 @@
             <value name="Bf0">100</value>
             <value name="ParData">164</value>
             <value name="OldData">164</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH01RSS</value>
+            <value name="description">( - , AKNP1) Коэфф. преобразования частота->нейтр/с СНМ-11</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">52</value>
+            <value name="nID">38</value>
+            <value name="PType">33</value>
+            <value name="Bf0">104</value>
+            <value name="ParData">169</value>
+            <value name="OldData">169</value>
             <value name="unitId">1</value>
         </record>
     </records>

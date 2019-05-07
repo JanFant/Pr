@@ -4887,6 +4887,41 @@
         Line1="Индикация - "
         Line2="Приход на НУ ББ2 "
       }
+      [TModule]{
+        R="55,18,85,38"
+        Number=117
+        IsHold=FALSE
+        VisualNumber="6"
+        ABBRV="ML"
+      }
+      [TModule]{
+        R="56,77,86,97"
+        Number=118
+        IsHold=FALSE
+        VisualNumber="7"
+        ABBRV="ML"
+      }
+      [TModule]{
+        R="55,135,85,155"
+        Number=119
+        IsHold=FALSE
+        VisualNumber="8"
+        ABBRV="ML"
+      }
+      [TModule]{
+        R="709,26,739,46"
+        Number=132
+        IsHold=FALSE
+        VisualNumber="49"
+        ABBRV="ML"
+      }
+      [TModule]{
+        R="853,26,883,46"
+        Number=169
+        IsHold=FALSE
+        VisualNumber="58"
+        ABBRV="ML"
+      }
       [VVV_DrawConnector]{
         Number=61
         IsHold=FALSE
@@ -8287,27 +8322,6 @@
           Index=-1
         }
       }
-      [TModule]{
-        R="55,18,85,38"
-        Number=117
-        IsHold=FALSE
-        VisualNumber="6"
-        ABBRV="ML"
-      }
-      [TModule]{
-        R="56,77,86,97"
-        Number=118
-        IsHold=FALSE
-        VisualNumber="7"
-        ABBRV="ML"
-      }
-      [TModule]{
-        R="55,135,85,155"
-        Number=119
-        IsHold=FALSE
-        VisualNumber="8"
-        ABBRV="ML"
-      }
       [VVV_DrawConnector]{
         Number=116
         IsHold=FALSE
@@ -8604,13 +8618,6 @@
           Index=-1
         }
       }
-      [TModule]{
-        R="709,26,739,46"
-        Number=132
-        IsHold=FALSE
-        VisualNumber="49"
-        ABBRV="ML"
-      }
       [VVV_DrawConnector]{
         Number=161
         IsHold=FALSE
@@ -8663,7 +8670,7 @@
         p3="820:267"
         BNumber=162
         ENumber=166
-        Comment="y - выходной параметр --> fx - вещественный вход"
+        Comment="y - выходной параметр --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -8721,13 +8728,6 @@
           ParameterName="x1"
           Index=-1
         }
-      }
-      [TModule]{
-        R="853,26,883,46"
-        Number=169
-        IsHold=FALSE
-        VisualNumber="58"
-        ABBRV="ML"
       }
       [VVV_DrawConnector]{
         Number=227
@@ -8828,7 +8828,7 @@
         p2="828:231"
         BNumber=236
         ENumber=159
-        Comment="y - выходной параметр --> fx - вещественный вход"
+        Comment="y - выходной параметр --> X1"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -8845,4 +8845,4 @@
     }
   }
 }
-8484250
+8484650

@@ -81,14 +81,20 @@
 <var  name="iEM_R0UL01ISS" description="(R0UL01ISS) Шаг (мс) измерения периода" format="3"></var>
 <var  name="dEM_R0UL02USS" description="(R0UL02USS) Предельное время ожидания роста потока (мс)" format="5"></var>
 <var  name="fEM_R0UN03RSS" description="(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)" format="8"></var>
-<var  name="lEM_EE01LS4" description="(EE01LS4) Исправность АКНП4" format="1"></var>
+<var  name="fEM_R0UH01RSS" description="(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11" format="8"></var>
+<var  name="fEM_R0UH21RSS" description="(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11" format="8"></var>
+<var  name="fEM_R0UH22RSS" description="(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1" format="8"></var>
+<var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m20_Nk" description="(internal1_m20_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m52_tst" description="(internal1_m52_tst) - массив времени фиксации стартовой мощности" format="8" size="5"></var>
-<var  name="internal1_m52_trz" description="(internal1_m52_trz) - массив времени фиксации очередного периода" format="8" size="5"></var>
-<var  name="internal1_m52_N1" description="(internal1_m52_N1) - массив значения мощности в начале замера" format="8" size="5"></var>
-<var  name="internal1_m52_N2" description="(internal1_m52_N2) - массив значения мощности в конце замера" format="8" size="5"></var>
-<var  name="internal1_m52_Period0" description="(internal1_m52_Period0) Per - Период разгона РУ" format="8"></var>
-<var  name="internal1_m52_MyFirstEnterFlag" description="(internal1_m52_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m56_flst" description="(internal1_m56_flst)  флаг старта измерения" format="3"></var>
+<var  name="internal1_m56_chsr" description="(internal1_m56_chsr)  счетчик усреднения" format="3"></var>
+<var  name="internal1_m56_chizm" description="(internal1_m56_chizm)  счетчик измерения" format="3"></var>
+<var  name="internal1_m56_chpass" description="(internal1_m56_chpass)  время уменьшения мощности" format="8"></var>
+<var  name="internal1_m56_sumtim" description="(internal1_m56_sumtim)  время измерения мощности" format="8"></var>
+<var  name="internal1_m56_W1" description="(internal1_m56_W1)  мощность на старте измерения" format="8"></var>
+<var  name="internal1_m56_W2" description="(internal1_m56_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m56_Period0" description="(internal1_m56_Period0) Per - Период разгона РУ" format="8"></var>
+<var  name="internal1_m56_MyFirstEnterFlag" description="(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>
