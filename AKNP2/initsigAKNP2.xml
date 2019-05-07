@@ -1,3 +1,5 @@
 <signals>
-
+    <signal value ="1">R0IE11LS2</signal>
+    <signal value ="1">R0IE12LS2</signal>
+    <signal value ="1">R0IE13LS2</signal>
 </signals>

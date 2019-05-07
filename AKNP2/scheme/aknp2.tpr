@@ -1296,17 +1296,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 1,6 (№11)"
         Line3="СНМ11 2 канала"
@@ -1324,17 +1324,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 (№12)"
         Line3="КНК15-1 2 канала"
@@ -1352,17 +1352,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K03VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 (№13) "
         Line3="НК53М 2 канала"
@@ -1454,7 +1454,7 @@
         }
       }
       [VVV_Text]{
-        R="291,426,449,433"
+        R="291,426,417,431"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1510,7 +1510,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1021,411"
+        R="845,404,985,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2855,7 +2855,7 @@
         }
       }
       [VVV_Text]{
-        R="1197,119,1260,133"
+        R="1197,119,1252,131"
         Number=151
         IsHold=FALSE
         Line1="Неисправность от "
@@ -2916,6 +2916,13 @@
         IsHold=FALSE
         VisualNumber="22"
         CONST_NAME="R0UH23RSS"
+      }
+      [VVV_DrawConst]{
+        R="517,776,547,816"
+        Number=152
+        IsHold=FALSE
+        VisualNumber="106"
+        CONST_NAME="A2DISP"
       }
       [VVV_DrawConnector]{
         Number=169
@@ -5364,13 +5371,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="517,776,547,816"
-        Number=152
-        IsHold=FALSE
-        VisualNumber="106"
-        CONST_NAME="A2DISP"
-      }
       [VVV_DrawConnector]{
         Number=153
         IsHold=FALSE
@@ -5417,4 +5417,4 @@
     }
   }
 }
-5200424
+5197934

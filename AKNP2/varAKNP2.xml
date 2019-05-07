@@ -37,9 +37,9 @@
 <var  name="R0VN04RS2" description="( - , AKNP2) Реактивность канал 2" format="8"></var>
 <var  name="A1VN71LS2" description="(fds16:05 - K16FDSR, - ) Блокировка автоматического подъёма ББ канал 2 на БАЗ2" format="1"></var>
 <var  name="A0EE02LS2" description="( - , AKNP2) Исправность АКНП2 (от сшивки каналов) канал 2" format="1"></var>
-<var  name="R0IE11LS2" description="(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
-<var  name="R0IE12LS2" description="(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№12) КНК15-1 2 канала" format="1"></var>
-<var  name="R0IE13LS2" description="(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№13) КНК53М 2 канала" format="1"></var>
+<var  name="R0IE11LS2" description="( - , - ) Исправность ВИП 1,6 (№11) СНМ11 2канала" format="1"></var>
+<var  name="R0IE12LS2" description="( - , - ) Исправность ВИП 0,5 (№12) КНК15-1 2 канала" format="1"></var>
+<var  name="R0IE13LS2" description="( - , - ) Исправность ВИП 0,5 (№13) КНК53М 2 канала" format="1"></var>
 <var  name="R0VN13RS2" description="( - , AKNP2) Нейтронный поток по камере СНМ11 канал 2" format="8"></var>
 <var  name="R0VN23RS2" description="( - , AKNP2) Нейтронный поток по камере КНК15-1 канал 2" format="8"></var>
 <var  name="R0VN33RS2" description="( - , AKNP2) Нейтронный поток по камере КНК53М канал 2" format="8"></var>

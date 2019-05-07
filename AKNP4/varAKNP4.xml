@@ -40,9 +40,9 @@
 <var  name="A1VN71LS4" description="(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
 <var  name="R0IN03FS4" description="(vchs:02 - K01VCHS, AKNP4) Выход КНК53М Гц" format="8"></var>
 <var  name="A0EE02LS4" description="( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4" format="1"></var>
-<var  name="R0IE11LS4" description="(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала" format="1"></var>
-<var  name="R0IE12LS4" description="(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
-<var  name="R0IE13LS4" description="(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала" format="1"></var>
+<var  name="R0IE11LS4" description="( - , - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала" format="1"></var>
+<var  name="R0IE12LS4" description="( - , - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
+<var  name="R0IE13LS4" description="( - , - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала" format="1"></var>
 <var  name="R0VN13RS4" description="( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4" format="8"></var>
 <var  name="R0VN23RS4" description="( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4" format="8"></var>
 <var  name="R0VN33RS4" description="( - , AKNP4) Нейтронный поток по камере КНК53М канал 4" format="8"></var>

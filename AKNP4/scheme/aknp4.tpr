@@ -1377,17 +1377,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 1,6 (№17)"
         Line3="СНМ11 4 канала"
@@ -1405,17 +1405,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 (№18)"
         Line3="КНК15-1 4 канала"
@@ -1433,17 +1433,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K03VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 (№19) "
         Line3="НК53М 4 канала"
@@ -2947,6 +2947,13 @@
         IsHold=FALSE
         VisualNumber="37"
         CONST_NAME="R0UH23RSS"
+      }
+      [VVV_DrawConst]{
+        R="588,795,618,835"
+        Number=152
+        IsHold=FALSE
+        VisualNumber="109"
+        CONST_NAME="A4DISP"
       }
       [VVV_DrawConnector]{
         Number=184
@@ -5408,13 +5415,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="588,795,618,835"
-        Number=152
-        IsHold=FALSE
-        VisualNumber="109"
-        CONST_NAME="A4DISP"
-      }
       [VVV_DrawConnector]{
         Number=155
         IsHold=FALSE
@@ -5462,4 +5462,4 @@
     }
   }
 }
-5250754
+5248303
