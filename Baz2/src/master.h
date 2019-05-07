@@ -5,7 +5,7 @@ static char SimulOn=0;
 static short CodeSub=6;
 static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
-static int StepCycle=50;	 // Время цикла в ms
+static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
 #define SIZE_BUFFER 698
 static char BUFFER[698];
@@ -2224,7 +2224,7 @@ void InitInternalParametr(void)
 void MainCycle(void)
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delay++ < 40) return;
+     if(delay++ < 100) return;
      freebuff = 0;
      delay = delay > 32000 ? 32000 : delay; 
        Scheme(); 

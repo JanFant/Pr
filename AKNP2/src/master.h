@@ -5,7 +5,7 @@ static char SimulOn=0;
 static short CodeSub=9;
 static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
-static int StepCycle=50;	 // Время цикла в ms
+static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
 #define SIZE_BUFFER 345
 static char BUFFER[345];
