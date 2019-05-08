@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 347
-static char BUFFER[347];
+#define SIZE_BUFFER 354
+static char BUFFER[354];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.53\0", 5432, "192.168.10.153\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -89,12 +89,12 @@ int nomer = 1;
 #define idA1VN71LS3	 37	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
 #define A0EE02LS3	 BUFFER[108]	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
 #define idA0EE02LS3	 38	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
-#define R0IE11LS3	 BUFFER[110]	//( - , - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-#define idR0IE11LS3	 39	//( - , - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-#define R0IE12LS3	 BUFFER[112]	//( - , - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-#define idR0IE12LS3	 40	//( - , - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-#define R0IE13LS3	 BUFFER[114]	//( - , - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
-#define idR0IE13LS3	 41	//( - , - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+#define R0IE11LS3	 BUFFER[110]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+#define idR0IE11LS3	 39	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+#define R0IE12LS3	 BUFFER[112]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define idR0IE12LS3	 40	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+#define R0IE13LS3	 BUFFER[114]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+#define idR0IE13LS3	 41	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
 #define R0VN13RS3	 BUFFER[116]	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
 #define idR0VN13RS3	 42	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
 #define R0VN23RS3	 BUFFER[121]	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
@@ -169,42 +169,44 @@ int nomer = 1;
 #define idfEM_B0UX09RSS	 77	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
 #define fEM_R0UH05RSS	 BUFFER[268]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 #define idfEM_R0UH05RSS	 78	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define iEM_R0UL01ISS	 BUFFER[273]	//(R0UL01ISS) Шаг (мс) измерения периода
-#define idiEM_R0UL01ISS	 79	//(R0UL01ISS) Шаг (мс) измерения периода
-#define dEM_R0UL02USS	 BUFFER[276]	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-#define iddEM_R0UL02USS	 80	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-#define fEM_R0UN03RSS	 BUFFER[281]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define idfEM_R0UN03RSS	 81	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-#define fEM_R0UH01RSS	 BUFFER[286]	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
-#define idfEM_R0UH01RSS	 82	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
-#define fEM_R0UH21RSS	 BUFFER[291]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-#define idfEM_R0UH21RSS	 83	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-#define fEM_R0UH22RSS	 BUFFER[296]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-#define idfEM_R0UH22RSS	 84	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-#define fEM_R0UH23RSS	 BUFFER[301]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define idfEM_R0UH23RSS	 85	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define bFirstEnterFlag	 BUFFER[306]	//(bFirstEnterFlag) 
+#define fEM_R0UN03RSS	 BUFFER[273]	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define idfEM_R0UN03RSS	 79	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+#define fEM_R0UH01RSS	 BUFFER[278]	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
+#define idfEM_R0UH01RSS	 80	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
+#define fEM_R0UH21RSS	 BUFFER[283]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define idfEM_R0UH21RSS	 81	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define fEM_R0UH22RSS	 BUFFER[288]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define idfEM_R0UH22RSS	 82	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define fEM_R0UH23RSS	 BUFFER[293]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define idfEM_R0UH23RSS	 83	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define fEM_R0UL02RSS	 BUFFER[298]	//(R0UL02RSS) Tф-постоянная времени, с
+#define idfEM_R0UL02RSS	 84	//(R0UL02RSS) Tф-постоянная времени, с
+#define fEM_R0UL01RSS	 BUFFER[303]	//(R0UL01RSS) Шаг (мс) измерения периода
+#define idfEM_R0UL01RSS	 85	//(R0UL01RSS) Шаг (мс) измерения периода
+#define bFirstEnterFlag	 BUFFER[308]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 86	//(bFirstEnterFlag) 
-#define internal1_m22_Nk	 BUFFER[308]	//(internal1_m22_Nk) Nk - ведущая камера
-#define idinternal1_m22_Nk	 87	//(internal1_m22_Nk) Nk - ведущая камера
-#define internal1_m56_flst	 BUFFER[311]	//(internal1_m56_flst)  флаг старта измерения
-#define idinternal1_m56_flst	 88	//(internal1_m56_flst)  флаг старта измерения
-#define internal1_m56_chsr	 BUFFER[314]	//(internal1_m56_chsr)  счетчик усреднения
-#define idinternal1_m56_chsr	 89	//(internal1_m56_chsr)  счетчик усреднения
-#define internal1_m56_chizm	 BUFFER[317]	//(internal1_m56_chizm)  счетчик измерения
-#define idinternal1_m56_chizm	 90	//(internal1_m56_chizm)  счетчик измерения
-#define internal1_m56_chpass	 BUFFER[320]	//(internal1_m56_chpass)  время уменьшения мощности
-#define idinternal1_m56_chpass	 91	//(internal1_m56_chpass)  время уменьшения мощности
-#define internal1_m56_sumtim	 BUFFER[325]	//(internal1_m56_sumtim)  время измерения мощности
-#define idinternal1_m56_sumtim	 92	//(internal1_m56_sumtim)  время измерения мощности
-#define internal1_m56_W1	 BUFFER[330]	//(internal1_m56_W1)  мощность на старте измерения
-#define idinternal1_m56_W1	 93	//(internal1_m56_W1)  мощность на старте измерения
-#define internal1_m56_W2	 BUFFER[335]	//(internal1_m56_W2)  мощность в конце измерения
-#define idinternal1_m56_W2	 94	//(internal1_m56_W2)  мощность в конце измерения
-#define internal1_m56_Period0	 BUFFER[340]	//(internal1_m56_Period0) Per - Период разгона РУ
-#define idinternal1_m56_Period0	 95	//(internal1_m56_Period0) Per - Период разгона РУ
-#define internal1_m56_MyFirstEnterFlag	 BUFFER[345]	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m56_MyFirstEnterFlag	 96	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m58_y0	 BUFFER[310]	//(internal1_m58_y0) y0 - внутренний параметр
+#define idinternal1_m58_y0	 87	//(internal1_m58_y0) y0 - внутренний параметр
+#define internal1_m22_Nk	 BUFFER[315]	//(internal1_m22_Nk) Nk - ведущая камера
+#define idinternal1_m22_Nk	 88	//(internal1_m22_Nk) Nk - ведущая камера
+#define internal1_m57_flst	 BUFFER[318]	//(internal1_m57_flst)  флаг старта измерения
+#define idinternal1_m57_flst	 89	//(internal1_m57_flst)  флаг старта измерения
+#define internal1_m57_chsr	 BUFFER[321]	//(internal1_m57_chsr)  счетчик усреднения
+#define idinternal1_m57_chsr	 90	//(internal1_m57_chsr)  счетчик усреднения
+#define internal1_m57_chizm	 BUFFER[324]	//(internal1_m57_chizm)  счетчик измерения
+#define idinternal1_m57_chizm	 91	//(internal1_m57_chizm)  счетчик измерения
+#define internal1_m57_chpass	 BUFFER[327]	//(internal1_m57_chpass)  время уменьшения мощности
+#define idinternal1_m57_chpass	 92	//(internal1_m57_chpass)  время уменьшения мощности
+#define internal1_m57_sumtim	 BUFFER[332]	//(internal1_m57_sumtim)  время измерения мощности
+#define idinternal1_m57_sumtim	 93	//(internal1_m57_sumtim)  время измерения мощности
+#define internal1_m57_W1	 BUFFER[337]	//(internal1_m57_W1)  мощность на старте измерения
+#define idinternal1_m57_W1	 94	//(internal1_m57_W1)  мощность на старте измерения
+#define internal1_m57_W2	 BUFFER[342]	//(internal1_m57_W2)  мощность в конце измерения
+#define idinternal1_m57_W2	 95	//(internal1_m57_W2)  мощность в конце измерения
+#define internal1_m57_Period0	 BUFFER[347]	//(internal1_m57_Period0) Per - Период разгона РУ
+#define idinternal1_m57_Period0	 96	//(internal1_m57_Period0) Per - Период разгона РУ
+#define internal1_m57_MyFirstEnterFlag	 BUFFER[352]	//(internal1_m57_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m57_MyFirstEnterFlag	 97	//(internal1_m57_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,3	,1	, &R0DE02LS3},	//(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте
@@ -245,9 +247,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 36	,8	,1	, &R0VN04RS3},	//( - , AKNP3) Реактивность канал 3
 	{ 37	,1	,1	, &A1VN71LS3},	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 3 на БАЗ2
 	{ 38	,1	,1	, &A0EE02LS3},	//( - , AKNP3) Исправность АКНП3 (от сшивки каналов) канал 3
-	{ 39	,1	,1	, &R0IE11LS3},	//( - , - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
-	{ 40	,1	,1	, &R0IE12LS3},	//( - , - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
-	{ 41	,1	,1	, &R0IE13LS3},	//( - , - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
+	{ 39	,1	,1	, &R0IE11LS3},	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№14) СНМ11 3 канала
+	{ 40	,1	,1	, &R0IE12LS3},	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№15) КНК15-1 3 канала
+	{ 41	,1	,1	, &R0IE13LS3},	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
 	{ 42	,8	,1	, &R0VN13RS3},	//( - , AKNP3) Нейтронный поток по камере СНМ11 канал 3
 	{ 43	,8	,1	, &R0VN23RS3},	//( - , AKNP3) Нейтронный поток по камере КНК15-1 канал 3
 	{ 44	,8	,1	, &R0VN33RS3},	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
@@ -285,24 +287,25 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 76	,8	,1	, &fEM_B0UX08RSS},	//(B0UX08RSS) Второй коэффициент калибровки камеры 8
 	{ 77	,8	,1	, &fEM_B0UX09RSS},	//(B0UX09RSS) Второй коэффициент калибровки камеры 9
 	{ 78	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-	{ 79	,3	,1	, &iEM_R0UL01ISS},	//(R0UL01ISS) Шаг (мс) измерения периода
-	{ 80	,5	,1	, &dEM_R0UL02USS},	//(R0UL02USS) Предельное время ожидания роста потока (мс)
-	{ 81	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-	{ 82	,8	,1	, &fEM_R0UH01RSS},	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
-	{ 83	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-	{ 84	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-	{ 85	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{ 79	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+	{ 80	,8	,1	, &fEM_R0UH01RSS},	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
+	{ 81	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{ 82	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+	{ 83	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{ 84	,8	,1	, &fEM_R0UL02RSS},	//(R0UL02RSS) Tф-постоянная времени, с
+	{ 85	,8	,1	, &fEM_R0UL01RSS},	//(R0UL01RSS) Шаг (мс) измерения периода
 	{ 86	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 87	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
-	{ 88	,3	,1	, &internal1_m56_flst},	//(internal1_m56_flst)  флаг старта измерения
-	{ 89	,3	,1	, &internal1_m56_chsr},	//(internal1_m56_chsr)  счетчик усреднения
-	{ 90	,3	,1	, &internal1_m56_chizm},	//(internal1_m56_chizm)  счетчик измерения
-	{ 91	,8	,1	, &internal1_m56_chpass},	//(internal1_m56_chpass)  время уменьшения мощности
-	{ 92	,8	,1	, &internal1_m56_sumtim},	//(internal1_m56_sumtim)  время измерения мощности
-	{ 93	,8	,1	, &internal1_m56_W1},	//(internal1_m56_W1)  мощность на старте измерения
-	{ 94	,8	,1	, &internal1_m56_W2},	//(internal1_m56_W2)  мощность в конце измерения
-	{ 95	,8	,1	, &internal1_m56_Period0},	//(internal1_m56_Period0) Per - Период разгона РУ
-	{ 96	,1	,1	, &internal1_m56_MyFirstEnterFlag},	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+	{ 87	,8	,1	, &internal1_m58_y0},	//(internal1_m58_y0) y0 - внутренний параметр
+	{ 88	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
+	{ 89	,3	,1	, &internal1_m57_flst},	//(internal1_m57_flst)  флаг старта измерения
+	{ 90	,3	,1	, &internal1_m57_chsr},	//(internal1_m57_chsr)  счетчик усреднения
+	{ 91	,3	,1	, &internal1_m57_chizm},	//(internal1_m57_chizm)  счетчик измерения
+	{ 92	,8	,1	, &internal1_m57_chpass},	//(internal1_m57_chpass)  время уменьшения мощности
+	{ 93	,8	,1	, &internal1_m57_sumtim},	//(internal1_m57_sumtim)  время измерения мощности
+	{ 94	,8	,1	, &internal1_m57_W1},	//(internal1_m57_W1)  мощность на старте измерения
+	{ 95	,8	,1	, &internal1_m57_W2},	//(internal1_m57_W2)  мощность в конце измерения
+	{ 96	,8	,1	, &internal1_m57_Period0},	//(internal1_m57_Period0) Per - Период разгона РУ
+	{ 97	,1	,1	, &internal1_m57_MyFirstEnterFlag},	//(internal1_m57_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp3.bin\0";   // Имя файла для сохранения констант
@@ -331,13 +334,13 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 {76,"fEM_B0UX08RSS\0"}, 
 {77,"fEM_B0UX09RSS\0"}, 
 {78,"fEM_R0UH05RSS\0"}, 
-{79,"iEM_R0UL01ISS\0"}, 
-{80,"dEM_R0UL02USS\0"}, 
-{81,"fEM_R0UN03RSS\0"}, 
-{82,"fEM_R0UH01RSS\0"}, 
-{83,"fEM_R0UH21RSS\0"}, 
-{84,"fEM_R0UH22RSS\0"}, 
-{85,"fEM_R0UH23RSS\0"}, 
+{79,"fEM_R0UN03RSS\0"}, 
+{80,"fEM_R0UH01RSS\0"}, 
+{81,"fEM_R0UH21RSS\0"}, 
+{82,"fEM_R0UH22RSS\0"}, 
+{83,"fEM_R0UH23RSS\0"}, 
+{84,"fEM_R0UL02RSS\0"}, 
+{85,"fEM_R0UL01RSS\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -391,9 +394,8 @@ static ModbusRegister hr_AKNP3[]={  //
 	{&fEM_B0UX08RSS,8,40},	//( - , AKNP3) Второй коэффициент калибровки камеры 8
 	{&fEM_B0UX09RSS,8,42},	//( - , AKNP3) Второй коэффициент калибровки камеры 9
 	{&fEM_R0UH05RSS,8,44},	//( - , AKNP3) Кол-во делений/сек на 1 ватт * E^6
-	{&iEM_R0UL01ISS,3,46},	//( - , AKNP3) Шаг (мс) измерения периода
-	{&dEM_R0UL02USS,5,47},	//( - , AKNP3) Предельное время ожидания роста потока (мс)
-	{&fEM_R0UN03RSS,8,49},	//( - , AKNP3) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&fEM_R0UN03RSS,8,46},	//( - , AKNP3) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&fEM_R0UL01RSS,8,48},	//( - , AKNP3) Шаг (мс) измерения периода
 	{NULL,0,0},
 };
 #pragma pop
@@ -557,6 +559,9 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
+	{&R0IE13LS3,1,4},
+	{&R0IE12LS3,1,2},
+	{&R0IE11LS3,1,0},
 	{&R0DE04LS3,3,64},
 	{NULL,0,0},
 };
@@ -570,13 +575,13 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
 	{&A1VN71LS3,1,30},
+	{&A0EE01LS3,1,20},
+	{&R0VN77LZ1,1,18},
+	{&R0VN77LZ2,1,26},
+	{&R0VN73LZ2,1,24},
+	{&A0VN71LS3,1,22},
 	{&R0IE01LS3,1,2},
 	{&R0IE02LS3,1,0},
-	{&A0VN71LS3,1,22},
-	{&R0VN73LZ2,1,24},
-	{&A0EE01LS3,1,20},
-	{&R0VN77LZ2,1,26},
-	{&R0VN77LZ1,1,18},
 	{&R0VN73LZ1,1,16},
 	{&A1EE01LS3,1,28},
 	{&R0DE05LS3,3,38},
@@ -641,13 +646,13 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(76,0);
 	setAsFloat(77,0.0);
 	setAsFloat(78,32000.0);
-	setAsShort(79,500);
-	setAsInt(80,100000);
-	setAsFloat(81,0.005);
-	setAsFloat(82,20);
-	setAsFloat(83,4000);
-	setAsFloat(84,100000);
-	setAsFloat(85,1000000);
+	setAsFloat(79,0.005);
+	setAsFloat(80,20);
+	setAsFloat(81,4000);
+	setAsFloat(82,100000);
+	setAsFloat(83,1000000);
+	setAsFloat(84,2.0);
+	setAsFloat(85,0.5);
 	setAsBool(39,1);
 	setAsBool(40,1);
 	setAsBool(41,1);
@@ -703,7 +708,7 @@ void VCHS_post(vchs_data *vch_data) {
 
 }
 
-uspaint8 InternalBuf[41];
+uspaint8 InternalBuf[46];
 
 /* ����������� �������� ��� � ������*/
 ssint iRM_5_ = {5,0}; /* n - N-����������� ������� ������� ���������� */ 
@@ -712,30 +717,31 @@ sschar bRM_1_ = {1,0}; /* type - ��� ������ ���-11 1- �
 ssint iRM_4_ = {4,0}; /* n - ����������� ������� �������� */ 
 ssint iRM_6_ = {6,0}; /* n - N-����������� ������� x */ 
 ssbool lRM_1_ = {1,0}; /*  */ 
+ssfloat fRM_1_0 = {1.0,0}; /* k - K�-����������� �������� */ 
 
-uspaint8 SpaEEPROMBuf[148];
+uspaint8 SpaEEPROMBuf[150];
 
 /* ����������� ���������� */
 ssfloat var1;
 ssfloat var2;
 ssfloat var3;
-ssbool var4;
+ssfloat var4;
 ssbool var5;
 ssbool var6;
 ssbool var7;
 ssbool var8;
 ssbool var9;
-ssint var10;
-ssfloat var11;
+ssbool var10;
+ssint var11;
 ssfloat var12;
-ssbool var13;
-ssfloat var14;
+ssfloat var13;
+ssbool var14;
 ssfloat var15;
 ssfloat var16;
-ssint var17;
-ssbool var18;
-ssfloat var19;
-ssbool var20;
+ssfloat var17;
+ssint var18;
+ssbool var19;
+ssfloat var20;
 ssbool var21;
 ssbool var22;
 ssbool var23;
@@ -743,10 +749,9 @@ ssbool var24;
 ssbool var25;
 ssbool var26;
 ssbool var27;
-ssfloat var28;
-ssbool var29;
-ssfloat var30;
-ssfloat var31;
+ssbool var28;
+ssfloat var29;
+ssbool var30;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -755,36 +760,37 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* ���������� �������� */
-psbool  array_m104_x_1[6] = {&var5,&var4,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE39LS3};
-psint  array_m90_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
-psbool  array_m66_x_1[2] = {&var26,&var21};
-psbool  array_m65_x_1[2] = {&var26,&var27};
-psbool  array_m74_x_1[5] = {&var13,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&lRM_1_};
+psbool  array_m105_x_1[6] = {&var6,&var5,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE39LS3};
+psint  array_m91_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
+psbool  array_m67_x_1[2] = {&var27,&var22};
+psbool  array_m66_x_1[2] = {&var27,&var28};
+psbool  array_m77_x_1[5] = {&var14,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&lRM_1_};
 
 /* ���������� �������� */
-_S_ml  S_ml_8_1 = {&R0IN03FI3,&R0IN03FS3,&R0IS01FI0,&var1};
-_S_ml  S_ml_7_1 = {&R0IN02FI3,&R0IN02FS3,&R0IS01FI0,&var2};
-_S_ml  S_ml_6_1 = {&R0IN01FI3,&R0IN01FS3,&R0IS01FI0,&var3};
-_S_noto  S_noto_105_1 = {&var6,&vainSBool};
-_S_or2  S_or2_107_1 = {&R0DEB3LS3,&R0DEB4LS3,&var4};
-_S_or2  S_or2_99_1 = {&R0DEB1LS3,&R0DEB2LS3,&var5};
-_S_or3  S_or3_101_1 = {&var9,&var8,&var7,&var6};
-_S_orn  S_orn_104_1 = {array_m104_x_1,&iRM_6_,&var7};
-_S_and2  S_and2_92_1 = {&R0DE31LS3,&R0DE32LS3,&var8};
-_S_diagndev  S_diagndev_90_1 = {array_m90_x_1,&iRM_4_,&var9,&var10};
-_S_ocham  S_ocham_22_1 = {&var3,&var2,&var1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_1_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var11,&var12,&var13,&var14,&var15,&var16,&var17,&internal1_m22_Nk};
-_S_or2  S_or2_78_1 = {&R0EE03LZ1,&R0EE03LZ2,&var18};
-_S_period  S_period_56_1 = {&var12,&var23,&iRM_5_,&var30,&var31,&fEM_R0UN03RSS,&var19,&internal1_m56_flst,&internal1_m56_chsr,&internal1_m56_chizm,&internal1_m56_chpass,&internal1_m56_sumtim,&internal1_m56_W1,&internal1_m56_W2,&internal1_m56_Period0,&internal1_m56_MyFirstEnterFlag};
-_S_andn  S_andn_66_1 = {array_m66_x_1,&iRM_2_,&var20};
-_S_bol  S_bol_63_1 = {&fEM_R0UL41RSS,&var19,&var21};
-_S_andn  S_andn_65_1 = {array_m65_x_1,&iRM_2_,&var22};
-_S_andn  S_andn_74_1 = {array_m74_x_1,&iRM_5_,&var23};
-_S_bol  S_bol_46_1 = {&var12,&fEM_R0UL52RSS,&var24};
-_S_bol  S_bol_51_1 = {&var12,&fEM_R0UL42RSS,&var25};
-_S_bol  S_bol_62_1 = {&var12,&fEM_R0UN03RSS,&var26};
-_S_bol  S_bol_61_1 = {&fEM_R0UL51RSS,&var19,&var27};
-_S_react  S_react_57_1 = {&var19,&var28};
-_S_bol  S_bol_41_1 = {&var12,&fEM_R0UR01RSS,&var29};
+_S_mod1  S_mod1_58_1 = {&var20,&fRM_1_0,&fEM_R0UL02RSS,&var1,&internal1_m58_y0};
+_S_ml  S_ml_8_1 = {&R0IN03FI3,&R0IN03FS3,&R0IS01FI0,&var2};
+_S_ml  S_ml_7_1 = {&R0IN02FI3,&R0IN02FS3,&R0IS01FI0,&var3};
+_S_ml  S_ml_6_1 = {&R0IN01FI3,&R0IN01FS3,&R0IS01FI0,&var4};
+_S_noto  S_noto_106_1 = {&var7,&vainSBool};
+_S_or2  S_or2_108_1 = {&R0DEB3LS3,&R0DEB4LS3,&var5};
+_S_or2  S_or2_100_1 = {&R0DEB1LS3,&R0DEB2LS3,&var6};
+_S_or3  S_or3_102_1 = {&var10,&var9,&var8,&var7};
+_S_orn  S_orn_105_1 = {array_m105_x_1,&iRM_6_,&var8};
+_S_and2  S_and2_93_1 = {&R0DE31LS3,&R0DE32LS3,&var9};
+_S_diagndev  S_diagndev_91_1 = {array_m91_x_1,&iRM_4_,&var10,&var11};
+_S_ocham  S_ocham_22_1 = {&var4,&var3,&var2,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX07RSS,&fEM_B0UX07RSS,&fEM_A0UX08RSS,&fEM_B0UX08RSS,&fEM_A0UX09RSS,&fEM_B0UX09RSS,&fEM_R7UX07RSS,&fEM_R7UY07RSS,&fEM_R7UX08RSS,&fEM_R7UY08RSS,&fEM_R7UX09RSS,&fEM_R7UY09RSS,&bRM_1_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var12,&var13,&var14,&var15,&var16,&var17,&var18,&internal1_m22_Nk};
+_S_or2  S_or2_79_1 = {&R0EE03LZ1,&R0EE03LZ2,&var19};
+_S_period  S_period_57_1 = {&var13,&var24,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UN03RSS,&var20,&internal1_m57_flst,&internal1_m57_chsr,&internal1_m57_chizm,&internal1_m57_chpass,&internal1_m57_sumtim,&internal1_m57_W1,&internal1_m57_W2,&internal1_m57_Period0,&internal1_m57_MyFirstEnterFlag};
+_S_andn  S_andn_67_1 = {array_m67_x_1,&iRM_2_,&var21};
+_S_bol  S_bol_64_1 = {&fEM_R0UL41RSS,&var1,&var22};
+_S_andn  S_andn_66_1 = {array_m66_x_1,&iRM_2_,&var23};
+_S_andn  S_andn_77_1 = {array_m77_x_1,&iRM_5_,&var24};
+_S_bol  S_bol_46_1 = {&var13,&fEM_R0UL52RSS,&var25};
+_S_bol  S_bol_51_1 = {&var13,&fEM_R0UL42RSS,&var26};
+_S_bol  S_bol_63_1 = {&var13,&fEM_R0UN03RSS,&var27};
+_S_bol  S_bol_62_1 = {&fEM_R0UL51RSS,&var1,&var28};
+_S_react  S_react_59_1 = {&var1,&var29};
+_S_bol  S_bol_41_1 = {&var13,&fEM_R0UR01RSS,&var30};
 
 
 void ZeroVar()
@@ -792,23 +798,23 @@ void ZeroVar()
    var1.f=0.0;
    var2.f=0.0;
    var3.f=0.0;
-   var4.b=0;
+   var4.f=0.0;
    var5.b=0;
    var6.b=0;
    var7.b=0;
    var8.b=0;
    var9.b=0;
-   var10.i=0;
-   var11.f=0.0;
+   var10.b=0;
+   var11.i=0;
    var12.f=0.0;
-   var13.b=0;
-   var14.f=0.0;
+   var13.f=0.0;
+   var14.b=0;
    var15.f=0.0;
    var16.f=0.0;
-   var17.i=0;
-   var18.b=0;
-   var19.f=0.0;
-   var20.b=0;
+   var17.f=0.0;
+   var18.i=0;
+   var19.b=0;
+   var20.f=0.0;
    var21.b=0;
    var22.b=0;
    var23.b=0;
@@ -816,10 +822,9 @@ void ZeroVar()
    var25.b=0;
    var26.b=0;
    var27.b=0;
-   var28.f=0.0;
-   var29.b=0;
-   var30.f=0.0;
-   var31.f=0.0;
+   var28.b=0;
+   var29.f=0.0;
+   var30.b=0;
    vainSLong.l=0L;
    vainSFloat.f=0.0;
    vainSInt.i=0;
@@ -830,56 +835,55 @@ void ZeroVar()
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_78_1);
-  diagndev(&S_diagndev_90_1);
-  and2(&S_and2_92_1);
-  or2(&S_or2_99_1);
-  or2(&S_or2_107_1);
+  or2(&S_or2_79_1);
+  diagndev(&S_diagndev_91_1);
+  and2(&S_and2_93_1);
+  or2(&S_or2_100_1);
+  or2(&S_or2_108_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
   ocham(&S_ocham_22_1);
-  orn(&S_orn_104_1);
-  or3(&S_or3_101_1);
-  noto(&S_noto_105_1);
+  orn(&S_orn_105_1);
+  or3(&S_or3_102_1);
+  noto(&S_noto_106_1);
   bol(&S_bol_41_1);
-  bol(&S_bol_62_1);
+  bol(&S_bol_63_1);
   bol(&S_bol_51_1);
   bol(&S_bol_46_1);
-  andn(&S_andn_74_1);
-  setData(&var30,&iEM_R0UL01ISS);
-  setData(&var31,&dEM_R0UL02USS);
-  period(&S_period_56_1);
-  react(&S_react_57_1);
-  bol(&S_bol_61_1);
-  andn(&S_andn_65_1);
-  bol(&S_bol_63_1);
+  andn(&S_andn_77_1);
+  period(&S_period_57_1);
+  mod1(&S_mod1_58_1);
+  react(&S_react_59_1);
+  bol(&S_bol_62_1);
   andn(&S_andn_66_1);
-  setData(idTestDiagnAKNP3,&var6);
-  setData(idTTLaknp3,&var10);
-  setData(idR0DE3DLS3,&var4);
-  setData(idR0DE3CLS3,&var5);
-  setData(idA1EE01LS3,&var23);
-  setData(idR0VN77LZ2,&var22);
-  setData(idR0VN73LZ2,&var24);
-  setData(idA0VN71LS3,&var29);
-  setData(idR0IE02LS3,&var18);
-  setData(idR0IE01LS3,&var18);
-  setData(idR0VN15RS3,&var17);
-  setData(idR0VN33RS3,&var16);
-  setData(idR0VN23RS3,&var15);
-  setData(idR0VN13RS3,&var14);
-  setData(idA0EE02LS3,&var13);
-  setData(idA1VN71LS3,&var29);
-  setData(idR0VN04RS3,&var28);
-  setData(idR0VN03RS3,&var11);
-  setData(idA0EE01LS3,&var23);
-  setData(idR0VN77LZ1,&var22);
-  setData(idR0VN65LS3,&var20);
-  setData(idR0VN73LZ1,&var24);
-  setData(idR0VN61LS3,&var25);
-  setData(idR0VN01RS3,&var19);
-  setData(idR0VN02RS3,&var12);
+  bol(&S_bol_64_1);
+  andn(&S_andn_67_1);
+  setData(idTestDiagnAKNP3,&var7);
+  setData(idTTLaknp3,&var11);
+  setData(idR0DE3DLS3,&var5);
+  setData(idR0DE3CLS3,&var6);
+  setData(idA1EE01LS3,&var24);
+  setData(idR0VN77LZ2,&var23);
+  setData(idR0VN73LZ2,&var25);
+  setData(idA0VN71LS3,&var30);
+  setData(idR0IE02LS3,&var19);
+  setData(idR0IE01LS3,&var19);
+  setData(idR0VN15RS3,&var18);
+  setData(idR0VN33RS3,&var17);
+  setData(idR0VN23RS3,&var16);
+  setData(idR0VN13RS3,&var15);
+  setData(idA0EE02LS3,&var14);
+  setData(idA1VN71LS3,&var30);
+  setData(idR0VN04RS3,&var29);
+  setData(idR0VN03RS3,&var12);
+  setData(idA0EE01LS3,&var24);
+  setData(idR0VN77LZ1,&var23);
+  setData(idR0VN65LS3,&var21);
+  setData(idR0VN73LZ1,&var25);
+  setData(idR0VN61LS3,&var26);
+  setData(idR0VN01RS3,&var1);
+  setData(idR0VN02RS3,&var13);
 
   setAsBool(idbFirstEnterFlag,1);
 }
