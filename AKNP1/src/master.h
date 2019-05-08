@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 347
-static char BUFFER[347];
+#define SIZE_BUFFER 352
+static char BUFFER[352];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.51\0", 5432, "192.168.10.151\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -89,12 +89,12 @@ int nomer = 1;
 #define idA0VN71LS1	 37	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ на БАЗ1
 #define A0EE02LS1	 BUFFER[109]	//( - , AKNP1) Исправность АКНП1 (от сшивки каналов) канал 1
 #define idA0EE02LS1	 38	//( - , AKNP1) Исправность АКНП1 (от сшивки каналов) канал 1
-#define R0IE11LS1	 BUFFER[111]	//( - , - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
-#define idR0IE11LS1	 39	//( - , - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
-#define R0IE12LS1	 BUFFER[113]	//( - , - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
-#define idR0IE12LS1	 40	//( - , - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
-#define R0IE13LS1	 BUFFER[115]	//( - , - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
-#define idR0IE13LS1	 41	//( - , - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
+#define R0IE11LS1	 BUFFER[111]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
+#define idR0IE11LS1	 39	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
+#define R0IE12LS1	 BUFFER[113]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
+#define idR0IE12LS1	 40	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
+#define R0IE13LS1	 BUFFER[115]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
+#define idR0IE13LS1	 41	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
 #define R0VN13RS1	 BUFFER[117]	//( - , AKNP1) Нейтронный поток по камере СНМ11
 #define idR0VN13RS1	 42	//( - , AKNP1) Нейтронный поток по камере СНМ11
 #define R0VN23RS1	 BUFFER[122]	//( - , AKNP1) Нейтронный поток по камере КНК15-1
@@ -171,8 +171,8 @@ int nomer = 1;
 #define idfEM_R0UN03RSS	 78	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 #define fEM_R0UL01RSS	 BUFFER[276]	//(R0UL01RSS) Шаг (мс) измерения периода
 #define idfEM_R0UL01RSS	 79	//(R0UL01RSS) Шаг (мс) измерения периода
-#define fEM_R0UL02RSS	 BUFFER[281]	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
-#define idfEM_R0UL02RSS	 80	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
+#define fEM_R0UL02RSS	 BUFFER[281]	//(R0UL02RSS) Tф-постоянная времени, с
+#define idfEM_R0UL02RSS	 80	//(R0UL02RSS) Tф-постоянная времени, с
 #define fEM_R0UH01RSS	 BUFFER[286]	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
 #define idfEM_R0UH01RSS	 81	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
 #define fEM_R0UH21RSS	 BUFFER[291]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
@@ -183,26 +183,28 @@ int nomer = 1;
 #define idfEM_R0UH23RSS	 84	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 #define bFirstEnterFlag	 BUFFER[306]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 85	//(bFirstEnterFlag) 
-#define internal1_m22_Nk	 BUFFER[308]	//(internal1_m22_Nk) Nk - ведущая камера
-#define idinternal1_m22_Nk	 86	//(internal1_m22_Nk) Nk - ведущая камера
-#define internal1_m56_flst	 BUFFER[311]	//(internal1_m56_flst)  флаг старта измерения
-#define idinternal1_m56_flst	 87	//(internal1_m56_flst)  флаг старта измерения
-#define internal1_m56_chsr	 BUFFER[314]	//(internal1_m56_chsr)  счетчик усреднения
-#define idinternal1_m56_chsr	 88	//(internal1_m56_chsr)  счетчик усреднения
-#define internal1_m56_chizm	 BUFFER[317]	//(internal1_m56_chizm)  счетчик измерения
-#define idinternal1_m56_chizm	 89	//(internal1_m56_chizm)  счетчик измерения
-#define internal1_m56_chpass	 BUFFER[320]	//(internal1_m56_chpass)  время уменьшения мощности
-#define idinternal1_m56_chpass	 90	//(internal1_m56_chpass)  время уменьшения мощности
-#define internal1_m56_sumtim	 BUFFER[325]	//(internal1_m56_sumtim)  время измерения мощности
-#define idinternal1_m56_sumtim	 91	//(internal1_m56_sumtim)  время измерения мощности
-#define internal1_m56_W1	 BUFFER[330]	//(internal1_m56_W1)  мощность на старте измерения
-#define idinternal1_m56_W1	 92	//(internal1_m56_W1)  мощность на старте измерения
-#define internal1_m56_W2	 BUFFER[335]	//(internal1_m56_W2)  мощность в конце измерения
-#define idinternal1_m56_W2	 93	//(internal1_m56_W2)  мощность в конце измерения
-#define internal1_m56_Period0	 BUFFER[340]	//(internal1_m56_Period0) Per - Период разгона РУ
-#define idinternal1_m56_Period0	 94	//(internal1_m56_Period0) Per - Период разгона РУ
-#define internal1_m56_MyFirstEnterFlag	 BUFFER[345]	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m56_MyFirstEnterFlag	 95	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m59_y0	 BUFFER[308]	//(internal1_m59_y0) y0 - внутренний параметр
+#define idinternal1_m59_y0	 86	//(internal1_m59_y0) y0 - внутренний параметр
+#define internal1_m19_Nk	 BUFFER[313]	//(internal1_m19_Nk) Nk - ведущая камера
+#define idinternal1_m19_Nk	 87	//(internal1_m19_Nk) Nk - ведущая камера
+#define internal1_m58_flst	 BUFFER[316]	//(internal1_m58_flst)  флаг старта измерения
+#define idinternal1_m58_flst	 88	//(internal1_m58_flst)  флаг старта измерения
+#define internal1_m58_chsr	 BUFFER[319]	//(internal1_m58_chsr)  счетчик усреднения
+#define idinternal1_m58_chsr	 89	//(internal1_m58_chsr)  счетчик усреднения
+#define internal1_m58_chizm	 BUFFER[322]	//(internal1_m58_chizm)  счетчик измерения
+#define idinternal1_m58_chizm	 90	//(internal1_m58_chizm)  счетчик измерения
+#define internal1_m58_chpass	 BUFFER[325]	//(internal1_m58_chpass)  время уменьшения мощности
+#define idinternal1_m58_chpass	 91	//(internal1_m58_chpass)  время уменьшения мощности
+#define internal1_m58_sumtim	 BUFFER[330]	//(internal1_m58_sumtim)  время измерения мощности
+#define idinternal1_m58_sumtim	 92	//(internal1_m58_sumtim)  время измерения мощности
+#define internal1_m58_W1	 BUFFER[335]	//(internal1_m58_W1)  мощность на старте измерения
+#define idinternal1_m58_W1	 93	//(internal1_m58_W1)  мощность на старте измерения
+#define internal1_m58_W2	 BUFFER[340]	//(internal1_m58_W2)  мощность в конце измерения
+#define idinternal1_m58_W2	 94	//(internal1_m58_W2)  мощность в конце измерения
+#define internal1_m58_Period0	 BUFFER[345]	//(internal1_m58_Period0) Per - Период разгона РУ
+#define idinternal1_m58_Period0	 95	//(internal1_m58_Period0) Per - Период разгона РУ
+#define internal1_m58_MyFirstEnterFlag	 BUFFER[350]	//(internal1_m58_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m58_MyFirstEnterFlag	 96	//(internal1_m58_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,3	,1	, &R0DE01LS1},	//(vchs:01 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 1 месте
@@ -243,9 +245,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 36	,8	,1	, &R0VN04RS1},	//( - , AKNP1) Реактивность канал1
 	{ 37	,1	,1	, &A0VN71LS1},	//(fds16:05 - K12FDSR, - ) Блокировка автоматического  подъёма ББ на БАЗ1
 	{ 38	,1	,1	, &A0EE02LS1},	//( - , AKNP1) Исправность АКНП1 (от сшивки каналов) канал 1
-	{ 39	,1	,1	, &R0IE11LS1},	//( - , - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
-	{ 40	,1	,1	, &R0IE12LS1},	//( - , - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
-	{ 41	,1	,1	, &R0IE13LS1},	//( - , - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
+	{ 39	,1	,1	, &R0IE11LS1},	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№8) СНМ11 1 канала
+	{ 40	,1	,1	, &R0IE12LS1},	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№9) КНК15-1 1 канала
+	{ 41	,1	,1	, &R0IE13LS1},	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№10) КНК53М 1 канала
 	{ 42	,8	,1	, &R0VN13RS1},	//( - , AKNP1) Нейтронный поток по камере СНМ11
 	{ 43	,8	,1	, &R0VN23RS1},	//( - , AKNP1) Нейтронный поток по камере КНК15-1
 	{ 44	,8	,1	, &R0VN33RS1},	//( - , AKNP1) Нейтронный поток по камере КНК53М
@@ -284,22 +286,23 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 77	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 	{ 78	,8	,1	, &fEM_R0UN03RSS},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
 	{ 79	,8	,1	, &fEM_R0UL01RSS},	//(R0UL01RSS) Шаг (мс) измерения периода
-	{ 80	,8	,1	, &fEM_R0UL02RSS},	//(R0UL02RSS) Предельное время ожидания роста потока (мс)
+	{ 80	,8	,1	, &fEM_R0UL02RSS},	//(R0UL02RSS) Tф-постоянная времени, с
 	{ 81	,8	,1	, &fEM_R0UH01RSS},	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
 	{ 82	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
 	{ 83	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 	{ 84	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 	{ 85	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 86	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
-	{ 87	,3	,1	, &internal1_m56_flst},	//(internal1_m56_flst)  флаг старта измерения
-	{ 88	,3	,1	, &internal1_m56_chsr},	//(internal1_m56_chsr)  счетчик усреднения
-	{ 89	,3	,1	, &internal1_m56_chizm},	//(internal1_m56_chizm)  счетчик измерения
-	{ 90	,8	,1	, &internal1_m56_chpass},	//(internal1_m56_chpass)  время уменьшения мощности
-	{ 91	,8	,1	, &internal1_m56_sumtim},	//(internal1_m56_sumtim)  время измерения мощности
-	{ 92	,8	,1	, &internal1_m56_W1},	//(internal1_m56_W1)  мощность на старте измерения
-	{ 93	,8	,1	, &internal1_m56_W2},	//(internal1_m56_W2)  мощность в конце измерения
-	{ 94	,8	,1	, &internal1_m56_Period0},	//(internal1_m56_Period0) Per - Период разгона РУ
-	{ 95	,1	,1	, &internal1_m56_MyFirstEnterFlag},	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+	{ 86	,8	,1	, &internal1_m59_y0},	//(internal1_m59_y0) y0 - внутренний параметр
+	{ 87	,3	,1	, &internal1_m19_Nk},	//(internal1_m19_Nk) Nk - ведущая камера
+	{ 88	,3	,1	, &internal1_m58_flst},	//(internal1_m58_flst)  флаг старта измерения
+	{ 89	,3	,1	, &internal1_m58_chsr},	//(internal1_m58_chsr)  счетчик усреднения
+	{ 90	,3	,1	, &internal1_m58_chizm},	//(internal1_m58_chizm)  счетчик измерения
+	{ 91	,8	,1	, &internal1_m58_chpass},	//(internal1_m58_chpass)  время уменьшения мощности
+	{ 92	,8	,1	, &internal1_m58_sumtim},	//(internal1_m58_sumtim)  время измерения мощности
+	{ 93	,8	,1	, &internal1_m58_W1},	//(internal1_m58_W1)  мощность на старте измерения
+	{ 94	,8	,1	, &internal1_m58_W2},	//(internal1_m58_W2)  мощность в конце измерения
+	{ 95	,8	,1	, &internal1_m58_Period0},	//(internal1_m58_Period0) Per - Период разгона РУ
+	{ 96	,1	,1	, &internal1_m58_MyFirstEnterFlag},	//(internal1_m58_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp1.bin\0";   // Имя файла для сохранения констант
@@ -389,9 +392,7 @@ static ModbusRegister hr_AKNP1[]={  //
 	{&fEM_B0UX03RSS,8,42},	//( - , AKNP1) Второй коэффициент калибровки камеры 3
 	{&fEM_R0UH05RSS,8,44},	//( - , AKNP1) Кол-во делений/сек на 1 ватт * E^6
 	{&fEM_R0UN03RSS,8,46},	//( - , AKNP1) Нижняя граница интервала мощности для измерения периода (ватт)
-	{&fEM_R0UL01RSS,8,48},	//( - , AKNP1) Шаг (мс) измерения периода
-	{&fEM_R0UL02RSS,8,50},	//( - , AKNP1) Предельное время ожидания роста потока (мс)
-	{&fEM_R0UH01RSS,8,52},	//( - , AKNP1) Коэфф. преобразования частота->нейтр/с СНМ-11
+	{&fEM_R0UH01RSS,8,48},	//( - , AKNP1) Коэфф. преобразования частота->нейтр/с СНМ-11
 	{NULL,0,0},
 };
 #pragma pop
@@ -527,9 +528,9 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
-	{&R0DE01LS1,3,10},
 	{&R0IN02FS1,8,5},
 	{&R0IN01FS1,8,0},
+	{&R0DE01LS1,3,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -554,6 +555,9 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
+	{&R0IE13LS1,1,4},
+	{&R0IE12LS1,1,2},
+	{&R0IE11LS1,1,0},
 	{&R0DE04LS1,3,64},
 	{NULL,0,0},
 };
@@ -572,11 +576,11 @@ static DriverRegister def_buf_FDS16[]={
 	{&R0VN71LZ1,1,16},
 	{&R0DE05LS1,3,38},
 	{&R0IE01LS1,1,2},
-	{&A1EE01LS1,1,28},
 	{&R0IE02LS1,1,0},
 	{&R0VN71LZ2,1,24},
-	{&A1VN71LS1,1,30},
 	{&R0VN75LZ2,1,26},
+	{&A1EE01LS1,1,28},
+	{&A1VN71LS1,1,30},
 	{NULL,0,0},
 };
 #pragma pop
@@ -591,15 +595,15 @@ static DriverRegister def_buf_SBKFP[]={
 	{&R0DE31LS1,1,0},
 	{&R0DE32LS1,1,2},
 	{&R0DE33LS1,1,4},
-	{&R0DE34LS1,1,6},
-	{&R0DE35LS1,1,8},
-	{&R0DE37LS1,1,12},
-	{&R0DE38LS1,1,14},
-	{&R0DE39LS1,1,16},
-	{&R0DEB1LS1,1,18},
-	{&R0DEB2LS1,1,20},
 	{&R0DEB4LS1,1,24},
 	{&R0DEB3LS1,1,22},
+	{&R0DEB2LS1,1,20},
+	{&R0DEB1LS1,1,18},
+	{&R0DE39LS1,1,16},
+	{&R0DE38LS1,1,14},
+	{&R0DE37LS1,1,12},
+	{&R0DE35LS1,1,8},
+	{&R0DE34LS1,1,6},
 	{NULL,0,0},
 };
 #pragma pop
@@ -639,7 +643,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(77,32000.0);
 	setAsFloat(78,0.005);
 	setAsFloat(79,0.5);
-	setAsFloat(80,100);
+	setAsFloat(80,2.0);
 	setAsFloat(81,20);
 	setAsFloat(82,4000);
 	setAsFloat(83,100000);
