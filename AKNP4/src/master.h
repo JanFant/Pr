@@ -95,12 +95,12 @@ int nomer = 1;
 #define idR0IN03FS4	 40	//(vchs:02 - K01VCHS, AKNP4) Выход КНК53М Гц
 #define A0EE02LS4	 BUFFER[115]	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
 #define idA0EE02LS4	 41	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
-#define R0IE11LS4	 BUFFER[117]	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-#define idR0IE11LS4	 42	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-#define R0IE12LS4	 BUFFER[119]	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-#define idR0IE12LS4	 43	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-#define R0IE13LS4	 BUFFER[121]	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
-#define idR0IE13LS4	 44	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+#define R0IE11LS4	 BUFFER[117]	//( - , - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+#define idR0IE11LS4	 42	//( - , - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+#define R0IE12LS4	 BUFFER[119]	//( - , - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+#define idR0IE12LS4	 43	//( - , - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+#define R0IE13LS4	 BUFFER[121]	//( - , - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+#define idR0IE13LS4	 44	//( - , - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
 #define R0VN13RS4	 BUFFER[123]	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
 #define idR0VN13RS4	 45	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
 #define R0VN23RS4	 BUFFER[128]	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
@@ -250,9 +250,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 39	,1	,1	, &A1VN71LS4},	//(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2
 	{ 40	,8	,1	, &R0IN03FS4},	//(vchs:02 - K01VCHS, AKNP4) Выход КНК53М Гц
 	{ 41	,1	,1	, &A0EE02LS4},	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
-	{ 42	,1	,1	, &R0IE11LS4},	//(vds32:04 - K01VDSR, - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
-	{ 43	,1	,1	, &R0IE12LS4},	//(vds32:04 - K02VDSR, - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
-	{ 44	,1	,1	, &R0IE13LS4},	//(vds32:04 - K03VDSR, - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
+	{ 42	,1	,1	, &R0IE11LS4},	//( - , - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала
+	{ 43	,1	,1	, &R0IE12LS4},	//( - , - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала
+	{ 44	,1	,1	, &R0IE13LS4},	//( - , - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
 	{ 45	,8	,1	, &R0VN13RS4},	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
 	{ 46	,8	,1	, &R0VN23RS4},	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
 	{ 47	,8	,1	, &R0VN33RS4},	//( - , AKNP4) Нейтронный поток по камере КНК53М канал 4
@@ -536,9 +536,9 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
+	{&R0IN01FS4,8,0},
 	{&R0DE01LS4,3,10},
 	{&R0IN02FS4,8,5},
-	{&R0IN01FS4,8,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -550,8 +550,8 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
-	{&R0DE02LS4,3,10},
 	{&R0IN03FS4,8,0},
+	{&R0DE02LS4,3,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -563,10 +563,7 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
-	{&R0IE12LS4,1,2},
-	{&R0IE13LS4,1,4},
 	{&R0DE04LS4,3,64},
-	{&R0IE11LS4,1,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -578,17 +575,17 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&A1EE01LS4,1,28},
-	{&R0VN78LZ2,1,26},
-	{&R0VN74LZ2,1,24},
-	{&A0VN71LS4,1,22},
-	{&R0IE02LS4,1,0},
-	{&R0IE01LS4,1,2},
-	{&R0DE05LS4,3,38},
 	{&A1VN71LS4,1,30},
-	{&R0VN74LZ1,1,16},
-	{&R0VN78LZ1,1,18},
+	{&R0DE05LS4,3,38},
 	{&A0EE01LS4,1,20},
+	{&R0VN78LZ1,1,18},
+	{&R0VN74LZ1,1,16},
+	{&R0IE01LS4,1,2},
+	{&R0IE02LS4,1,0},
+	{&A0VN71LS4,1,22},
+	{&R0VN74LZ2,1,24},
+	{&R0VN78LZ2,1,26},
+	{&A1EE01LS4,1,28},
 	{NULL,0,0},
 };
 #pragma pop
@@ -602,17 +599,17 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 static DriverRegister def_buf_SBKFP[]={
 	{&R0DE31LS4,1,0},
 	{&R0DE32LS4,1,2},
-	{&R0DEB2LS4,1,20},
-	{&R0DEB4LS4,1,24},
-	{&R0DEB3LS4,1,22},
-	{&R0DEB1LS4,1,18},
-	{&R0DE39LS4,1,16},
-	{&R0DE38LS4,1,14},
-	{&R0DE37LS4,1,12},
-	{&R0DE36LS4,1,10},
-	{&R0DE35LS4,1,8},
-	{&R0DE34LS4,1,6},
 	{&R0DE33LS4,1,4},
+	{&R0DE34LS4,1,6},
+	{&R0DE35LS4,1,8},
+	{&R0DE36LS4,1,10},
+	{&R0DE37LS4,1,12},
+	{&R0DE38LS4,1,14},
+	{&R0DE39LS4,1,16},
+	{&R0DEB3LS4,1,22},
+	{&R0DEB4LS4,1,24},
+	{&R0DEB2LS4,1,20},
+	{&R0DEB1LS4,1,18},
 	{NULL,0,0},
 };
 #pragma pop
