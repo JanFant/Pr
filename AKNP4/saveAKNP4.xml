@@ -22,11 +22,11 @@
   <save value ="0.0">fEM_B0UX11RSS</save>
   <save value ="0.0">fEM_B0UX12RSS</save>
   <save value ="32000.0">fEM_R0UH05RSS</save>
-  <save value ="500">iEM_R0UL01ISS</save>
-  <save value ="100000">dEM_R0UL02USS</save>
   <save value ="0.005">fEM_R0UN03RSS</save>
   <save value ="20">fEM_R0UH01RSS</save>
   <save value ="4000">fEM_R0UH21RSS</save>
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
+  <save value ="2.0">fEM_R0UL02RSS</save>
+  <save value ="0.5">fEM_R0UL01RSS</save>
 </saves>

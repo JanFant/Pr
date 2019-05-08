@@ -552,42 +552,42 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">iEM_R0UL01ISS</value>
-            <value name="description">( - , AKNP4) Шаг (мс) измерения периода</value>
+            <value name="name">fEM_R0UN03RSS</value>
+            <value name="description">( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)</value>
             <value name="type">3</value>
-            <value name="format">3</value>
+            <value name="format">8</value>
             <value name="address">46</value>
             <value name="nID">38</value>
-            <value name="PType">34</value>
+            <value name="PType">33</value>
             <value name="Bf0">92</value>
             <value name="ParData">169</value>
             <value name="OldData">169</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">dEM_R0UL02USS</value>
-            <value name="description">( - , AKNP4) Предельное время ожидания роста потока (мс)</value>
+            <value name="name">fEM_R0UL02RSS</value>
+            <value name="description">( - , AKNP4) Tф-постоянная времени, с</value>
             <value name="type">3</value>
-            <value name="format">5</value>
-            <value name="address">47</value>
+            <value name="format">8</value>
+            <value name="address">48</value>
             <value name="nID">39</value>
-            <value name="PType">39</value>
-            <value name="Bf0">94</value>
-            <value name="ParData">172</value>
-            <value name="OldData">172</value>
+            <value name="PType">33</value>
+            <value name="Bf0">112</value>
+            <value name="ParData">174</value>
+            <value name="OldData">174</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R0UN03RSS</value>
-            <value name="description">( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)</value>
+            <value name="name">fEM_R0UL01RSS</value>
+            <value name="description">( - , AKNP4) Шаг (с) измерения периода</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">49</value>
+            <value name="address">50</value>
             <value name="nID">40</value>
             <value name="PType">33</value>
-            <value name="Bf0">98</value>
-            <value name="ParData">177</value>
-            <value name="OldData">177</value>
+            <value name="Bf0">116</value>
+            <value name="ParData">179</value>
+            <value name="OldData">179</value>
             <value name="unitId">1</value>
         </record>
     </records>
