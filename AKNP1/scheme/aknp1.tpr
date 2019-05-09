@@ -861,7 +861,7 @@
       PageCountX=2
       PageCountY=2
       Name="AbS1"
-      ObjectCount=230
+      ObjectCount=228
       ExpandCompile=1
       [TDrawSignal]{
         R="295,191,355,231"
@@ -892,7 +892,7 @@
         Line3=""
       }
       [TDrawSignal]{
-        R="701,297,761,337"
+        R="701,274,761,314"
         Number=48
         IsHold=FALSE
         VisualNumber="55"
@@ -977,7 +977,7 @@
         R="978,255,1038,295"
         Number=60
         IsHold=FALSE
-        VisualNumber="73"
+        VisualNumber="71"
         SIGNAL_NAME="R0VN65LS1"
         KodTeprol="R0VN65LS1"
         Comment="ПС по периоду разгона канал1"
@@ -1004,7 +1004,7 @@
         R="978,206,1038,246"
         Number=61
         IsHold=FALSE
-        VisualNumber="72"
+        VisualNumber="70"
         SIGNAL_NAME="R0VN75LZ1"
         KodTeprol="R0VN75LZ1"
         Comment="АС по периоду разгонана БАЗ1"
@@ -1046,14 +1046,14 @@
         R="770,342,800,382"
         Number=276
         IsHold=FALSE
-        VisualNumber="60"
+        VisualNumber="59"
         ABBRV="REACT"
       }
       [TDrawSignal]{
         R="933,147,993,187"
         Number=569
         IsHold=FALSE
-        VisualNumber="68"
+        VisualNumber="67"
         SIGNAL_NAME="A0EE01LS1"
         KodTeprol="A0EE01LS1"
         Comment="Исправность АКНП1 на БАЗ1"
@@ -1087,7 +1087,7 @@
         R="143,185,173,225"
         Number=21
         IsHold=FALSE
-        VisualNumber="17"
+        VisualNumber="16"
         CONST_NAME="R0UH03RSS"
       }
       [TDrawSignal]{
@@ -1204,28 +1204,28 @@
         R="850,183,880,223"
         Number=171
         IsHold=FALSE
-        VisualNumber="61"
+        VisualNumber="60"
         ABBRV="BOL"
       }
       [TModule]{
         R="850,232,880,272"
         Number=174
         IsHold=FALSE
-        VisualNumber="62"
+        VisualNumber="61"
         ABBRV="BOL"
       }
       [VVV_DrawConst]{
         R="850,341,880,381"
         Number=175
         IsHold=FALSE
-        VisualNumber="64"
+        VisualNumber="63"
         CONST_NAME="R0UL41RSS"
       }
       [VVV_DrawConst]{
         R="896,147,926,187"
         Number=177
         IsHold=FALSE
-        VisualNumber="67"
+        VisualNumber="66"
         CONST_NAME="R0UL51RSS"
       }
       [TModule]{
@@ -1260,7 +1260,7 @@
         R="909,30,969,70"
         Number=29
         IsHold=TRUE
-        VisualNumber="65"
+        VisualNumber="64"
         SIGNAL_NAME="R0IE11LS1"
         KodTeprol="R0IE11LS1"
         Comment="Исправность ВИП 1,6 (№8) СНМ11 1 канала"
@@ -1288,7 +1288,7 @@
         R="908,81,968,121"
         Number=160
         IsHold=TRUE
-        VisualNumber="66"
+        VisualNumber="65"
         SIGNAL_NAME="R0IE12LS1"
         KodTeprol="R0IE12LS1"
         Comment="Исправность ВИП 0,5 (№9) КНК15-1 1 канала"
@@ -1316,7 +1316,7 @@
         R="1069,30,1129,70"
         Number=194
         IsHold=FALSE
-        VisualNumber="75"
+        VisualNumber="74"
         SIGNAL_NAME="R0IE13LS1"
         KodTeprol="R0IE13LS1"
         Comment="Исправность ВИП 0,5 (№10) КНК53М 1 канала"
@@ -1351,7 +1351,7 @@
         R="850,281,880,321"
         Number=201
         IsHold=FALSE
-        VisualNumber="63"
+        VisualNumber="62"
         ABBRV="BOL"
       }
       [VVV_Text]{
@@ -1516,7 +1516,7 @@
         }
       }
       [VVV_DrawConst]{
-        R="722,74,752,114"
+        R="720,131,750,171"
         Number=221
         IsHold=FALSE
         VisualNumber="54"
@@ -1526,7 +1526,7 @@
         R="1074,344,1134,384"
         Number=242
         IsHold=FALSE
-        VisualNumber="77"
+        VisualNumber="76"
         SIGNAL_NAME="R0IE01LS1"
         KodTeprol="R0IE01LS1"
         Comment="Отключение питание детекторов 1 канала"
@@ -1554,7 +1554,7 @@
         R="1167,344,1227,384"
         Number=243
         IsHold=FALSE
-        VisualNumber="81"
+        VisualNumber="80"
         SIGNAL_NAME="R0IE02LS1"
         KodTeprol="R0IE02LS1"
         Comment="Отключить питание ПР, ПУ 1 канала"
@@ -1610,7 +1610,7 @@
         R="1052,206,1112,246"
         Number=248
         IsHold=FALSE
-        VisualNumber="76"
+        VisualNumber="75"
         SIGNAL_NAME="R0VN75LZ2"
         KodTeprol="R0VN75LZ2"
         Comment="АС по периоду разгонана БАЗ2"
@@ -1638,7 +1638,7 @@
         R="1003,148,1063,188"
         Number=250
         IsHold=FALSE
-        VisualNumber="71"
+        VisualNumber="73"
         SIGNAL_NAME="A1EE01LS1"
         KodTeprol="A1EE01LS1"
         Comment="Исправность АКНП1 на БАЗ2"
@@ -1733,7 +1733,7 @@
         R="1111,259,1141,299"
         Number=28
         IsHold=FALSE
-        VisualNumber="78"
+        VisualNumber="77"
         SIGNAL_NAME="R0EE01LZ1"
         KodTeprol="R0EE01LZ1"
         Comment="Питание  АКНП1  отключить"
@@ -1760,7 +1760,7 @@
         R="1148,259,1178,299"
         Number=30
         IsHold=FALSE
-        VisualNumber="80"
+        VisualNumber="79"
         SIGNAL_NAME="R0EE01LZ2"
         KodTeprol="R0EE01LZ2"
         Comment="Питание  АКНП1  отключить"
@@ -1787,7 +1787,7 @@
         R="1129,310,1159,330"
         Number=137
         IsHold=FALSE
-        VisualNumber="79"
+        VisualNumber="78"
         ABBRV="OR2"
       }
       [VVV_DrawConst]{
@@ -1923,21 +1923,21 @@
         R="929,218,959,238"
         Number=79
         IsHold=FALSE
-        VisualNumber="69"
+        VisualNumber="68"
         ABBRV="AND2"
       }
       [TModule]{
         R="929,266,959,286"
         Number=82
         IsHold=FALSE
-        VisualNumber="70"
+        VisualNumber="69"
         ABBRV="AND2"
       }
       [TDrawSignal]{
         R="10,452,70,492"
         Number=92
         IsHold=FALSE
-        VisualNumber="82"
+        VisualNumber="81"
         SIGNAL_NAME="R0DE01LS1"
         KodTeprol="R0DE01LS1"
         Comment="диагностика модуля АКНП1 на 1 месте"
@@ -1964,7 +1964,7 @@
         R="10,496,70,536"
         Number=93
         IsHold=FALSE
-        VisualNumber="83"
+        VisualNumber="82"
         SIGNAL_NAME="R0DE02LS1"
         KodTeprol="R0DE02LS1"
         Comment="диагностика модуля АКНП1 на 2 месте"
@@ -1991,7 +1991,7 @@
         R="10,539,70,579"
         Number=94
         IsHold=FALSE
-        VisualNumber="84"
+        VisualNumber="83"
         SIGNAL_NAME="R0DE04LS1"
         KodTeprol="R0DE04LS1"
         Comment="диагностика модуля АКНП1 на 4 месте"
@@ -2018,7 +2018,7 @@
         R="10,583,70,623"
         Number=95
         IsHold=FALSE
-        VisualNumber="85"
+        VisualNumber="84"
         SIGNAL_NAME="R0DE05LS1"
         KodTeprol="R0DE05LS1"
         Comment="диагностика модуля АКНП1 на 5 месте"
@@ -2045,7 +2045,7 @@
         R="106,520,136,560"
         Number=96
         IsHold=FALSE
-        VisualNumber="91"
+        VisualNumber="90"
         ABBRV="DIAGNDEV"
         [VVV_DrawConnector]{
           Number=0
@@ -2069,7 +2069,7 @@
         R="106,586,136,626"
         Number=101
         IsHold=FALSE
-        VisualNumber="92"
+        VisualNumber="91"
         SIGNAL_NAME="TTLaknp1"
         KodTeprol="TTLaknp1"
         Comment="ttl"
@@ -2095,7 +2095,7 @@
         R="10,641,70,681"
         Number=103
         IsHold=FALSE
-        VisualNumber="86"
+        VisualNumber="85"
         SIGNAL_NAME="R0DE31LS1"
         KodTeprol="R0DE31LS1"
         Comment="диагностика шкафа АКНП1 сеть 1"
@@ -2122,7 +2122,7 @@
         R="10,691,70,731"
         Number=104
         IsHold=FALSE
-        VisualNumber="87"
+        VisualNumber="86"
         SIGNAL_NAME="R0DE32LS1"
         KodTeprol="R0DE32LS1"
         Comment="диагностика шкафа АКНП1 сеть 2"
@@ -2149,14 +2149,14 @@
         R="101,668,131,708"
         Number=105
         IsHold=FALSE
-        VisualNumber="93"
+        VisualNumber="92"
         ABBRV="AND2"
       }
       [TDrawSignal]{
         R="10,742,70,782"
         Number=108
         IsHold=FALSE
-        VisualNumber="88"
+        VisualNumber="87"
         SIGNAL_NAME="R0DE33LS1"
         KodTeprol="R0DE33LS1"
         Comment="диагностика шкафа АКНП1 двери"
@@ -2183,7 +2183,7 @@
         R="10,786,70,826"
         Number=109
         IsHold=FALSE
-        VisualNumber="89"
+        VisualNumber="88"
         SIGNAL_NAME="R0DE34LS1"
         KodTeprol="R0DE34LS1"
         Comment="диагностика шкафа АКНП1 температура меньше 43"
@@ -2210,7 +2210,7 @@
         R="10,836,70,876"
         Number=110
         IsHold=FALSE
-        VisualNumber="90"
+        VisualNumber="89"
         SIGNAL_NAME="R0DE35LS1"
         KodTeprol="R0DE35LS1"
         Comment="диагностика шкафа АКНП1 температура больше 53"
@@ -2237,14 +2237,14 @@
         R="470,812,500,852"
         Number=111
         IsHold=FALSE
-        VisualNumber="104"
+        VisualNumber="103"
         ABBRV="OR3"
       }
       [TDrawSignal]{
         R="274,598,334,638"
         Number=115
         IsHold=FALSE
-        VisualNumber="96"
+        VisualNumber="95"
         SIGNAL_NAME="R0DE37LS1"
         KodTeprol="R0DE37LS1"
         Comment="диагностика шкафа АКНП1 МП15-3.1 место 2"
@@ -2271,7 +2271,7 @@
         R="273,645,333,685"
         Number=116
         IsHold=FALSE
-        VisualNumber="97"
+        VisualNumber="96"
         SIGNAL_NAME="R0DE38LS1"
         KodTeprol="R0DE38LS1"
         Comment="диагностика шкафа АКНП1 МП15-3 место 3"
@@ -2298,7 +2298,7 @@
         R="273,689,333,729"
         Number=117
         IsHold=FALSE
-        VisualNumber="98"
+        VisualNumber="97"
         SIGNAL_NAME="R0DE39LS1"
         KodTeprol="R0DE39LS1"
         Comment="диагностика шкафа АКНП1 МП24-2 место 4"
@@ -2325,7 +2325,7 @@
         R="352,550,412,590"
         Number=120
         IsHold=FALSE
-        VisualNumber="100"
+        VisualNumber="99"
         SIGNAL_NAME="R0DE3CLS1"
         KodTeprol="R0DE3CLS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 7"
@@ -2352,7 +2352,7 @@
         R="562,549,622,589"
         Number=121
         IsHold=FALSE
-        VisualNumber="107"
+        VisualNumber="106"
         SIGNAL_NAME="R0DE3DLS1"
         KodTeprol="R0DE3DLS1"
         Comment="диагностика шкафа АКНП1 БП5/24Д место 8"
@@ -2379,7 +2379,7 @@
         R="452,657,482,697"
         Number=122
         IsHold=FALSE
-        VisualNumber="101"
+        VisualNumber="100"
         ABBRV="ORN"
         [VVV_DrawConnector]{
           Number=0
@@ -2403,7 +2403,7 @@
         R="541,812,601,852"
         Number=132
         IsHold=FALSE
-        VisualNumber="109"
+        VisualNumber="108"
         SIGNAL_NAME="TestDiagnAKNP1"
         KodTeprol="TestDiagnAKNP1"
         Comment="Неисправность от диагностики"
@@ -2430,7 +2430,7 @@
         R="273,452,333,492"
         Number=112
         IsHold=FALSE
-        VisualNumber="94"
+        VisualNumber="93"
         SIGNAL_NAME="R0DEB1LS1"
         KodTeprol="R0DEB1LS1"
         Comment="диагностика шкафа АКНП1 БП5 место 7"
@@ -2457,7 +2457,7 @@
         R="274,496,334,536"
         Number=113
         IsHold=FALSE
-        VisualNumber="95"
+        VisualNumber="94"
         SIGNAL_NAME="R0DEB2LS1"
         KodTeprol="R0DEB2LS1"
         Comment="диагностика шкафа АКНП1 БП24Д место 7"
@@ -2484,7 +2484,7 @@
         R="468,496,528,536"
         Number=118
         IsHold=FALSE
-        VisualNumber="103"
+        VisualNumber="102"
         SIGNAL_NAME="R0DEB4LS1"
         KodTeprol="R0DEB4LS1"
         Comment="диагностика шкафа АКНП1 БП24Д место 8"
@@ -2511,7 +2511,7 @@
         R="468,452,528,492"
         Number=119
         IsHold=FALSE
-        VisualNumber="102"
+        VisualNumber="101"
         SIGNAL_NAME="R0DEB3LS1"
         KodTeprol="R0DEB3LS1"
         Comment="диагностика шкафа АКНП1 БП5 место 8"
@@ -2538,14 +2538,14 @@
         R="361,474,391,514"
         Number=123
         IsHold=FALSE
-        VisualNumber="99"
+        VisualNumber="98"
         ABBRV="OR2"
       }
       [TModule]{
         R="570,474,600,514"
         Number=124
         IsHold=FALSE
-        VisualNumber="106"
+        VisualNumber="105"
         ABBRV="OR2"
       }
       [TDrawSignal]{
@@ -2580,7 +2580,7 @@
         R="159,57,189,97"
         Number=142
         IsHold=FALSE
-        VisualNumber="15"
+        VisualNumber="17"
         SIGNAL_NAME="R0IN02FI1"
         KodTeprol="R0IN02FI1"
         Comment="Выход КНК15-1 Гц от ПТИ"
@@ -2715,7 +2715,7 @@
         R="158,111,188,151"
         Number=156
         IsHold=FALSE
-        VisualNumber="16"
+        VisualNumber="15"
         SIGNAL_NAME="R0IN03FI1"
         KodTeprol="R0IN03FI1"
         Comment="Выход КНК53М Гц от ПТИ"
@@ -2755,7 +2755,7 @@
         R="1015,77,1045,97"
         Number=183
         IsHold=FALSE
-        VisualNumber="74"
+        VisualNumber="72"
         ABBRV="ANDN"
         [VVV_DrawConnector]{
           Number=0
@@ -2786,7 +2786,7 @@
         R="503,768,533,788"
         Number=37
         IsHold=FALSE
-        VisualNumber="105"
+        VisualNumber="104"
         ABBRV="NOTO"
       }
       [TModule]{
@@ -2842,7 +2842,7 @@
         R="567,722,597,762"
         Number=200
         IsHold=FALSE
-        VisualNumber="108"
+        VisualNumber="107"
         CONST_NAME="A1DISP"
       }
       [VVV_DrawConst]{
@@ -2853,35 +2853,11 @@
         CONST_NAME="R0UL01RSS"
       }
       [VVV_DrawConst]{
-        R="681,246,711,286"
+        R="721,73,751,113"
         Number=204
         IsHold=FALSE
         VisualNumber="53"
         CONST_NAME="R0UL02RSS"
-      }
-      [TModule]{
-        R="769,281,799,321"
-        Number=74
-        IsHold=FALSE
-        VisualNumber="59"
-        ABBRV="MOD1"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=74
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=74
-            ConstName="K"
-          }
-          [VVV_GCPoint]{
-            Number=74
-            ParameterName="k"
-            Index=-1
-          }
-        }
       }
       [VVV_DrawConnector]{
         Number=187
@@ -2955,8 +2931,8 @@
       [VVV_DrawConnector]{
         Number=222
         IsHold=FALSE
-        p0="738:114"
-        p1="738:213"
+        p0="736:171"
+        p1="736:213"
         p2="756:213"
         BNumber=221
         ENumber=149
@@ -3942,7 +3918,7 @@
       [VVV_DrawConnector]{
         Number=78
         IsHold=FALSE
-        p0="738:212"
+        p0="738:213"
         p1="738:266"
         p2="850:266"
         BNumber=222
@@ -5251,79 +5227,13 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=75
+        Number=74
         IsHold=FALSE
-        p0="783:224"
-        p1="783:281"
-        BNumber=149
-        ENumber=74
-        Comment="Per - Период разгона РУ --> x - входной параметр"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=149
-          ParameterName="Period"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=74
-          ParameterName="x"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=77
-        IsHold=FALSE
-        p0="783:321"
-        p1="783:342"
-        BNumber=74
-        ENumber=276
-        Comment="y - выходной параметр --> t-период разгона"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=74
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=276
-          ParameterName="t"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=159
-        IsHold=FALSE
-        p0="783:331"
-        p1="840:331"
-        p2="840:202"
-        p3="850:202"
-        BNumber=77
-        ENumber=171
-        Comment="y - выходной параметр --> t-период разгона"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=74
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=171
-          ParameterName="x2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=179
-        IsHold=FALSE
-        p0="711:273"
-        p1="757:273"
-        p2="757:291"
-        p3="769:291"
+        p0="751:94"
+        p1="764:94"
+        p2="764:184"
         BNumber=204
-        ENumber=74
+        ENumber=149
         Comment="Tф-постоянная времени, с --> tau - Tф-постоянная времени, с"
         CommentChange=0
         Value=""
@@ -5333,24 +5243,66 @@
           Index=-1
         }
         [VVV_GCPoint]{
-          Number=74
+          Number=149
           ParameterName="tau"
           Index=-1
         }
       }
       [VVV_DrawConnector]{
-        Number=203
+        Number=75
         IsHold=FALSE
-        p0="840:300"
-        p1="850:300"
-        BNumber=159
-        ENumber=201
-        Comment="y - выходной параметр --> t-период разгона"
+        p0="785:224"
+        p1="785:342"
+        BNumber=149
+        ENumber=276
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=74
-          ParameterName="y"
+          Number=149
+          ParameterName="Period"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=276
+          ParameterName="t"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=77
+        IsHold=FALSE
+        p0="785:293"
+        p1="761:293"
+        BNumber=75
+        ENumber=48
+        Comment="Per - Период разгона РУ --> t-период разгона"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=149
+          ParameterName="Period"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=48
+          ParameterName="R0VN01RS1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=159
+        IsHold=FALSE
+        p0="785:293"
+        p1="850:293"
+        BNumber=75
+        ENumber=201
+        Comment="Per - Период разгона РУ --> t-период разгона"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=149
+          ParameterName="Period"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -5360,27 +5312,28 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=205
+        Number=179
         IsHold=FALSE
-        p0="783:331"
-        p1="761:331"
-        BNumber=77
-        ENumber=48
-        Comment="y - выходной параметр --> t-период разгона"
+        p0="837:293"
+        p1="837:207"
+        p2="850:207"
+        BNumber=159
+        ENumber=171
+        Comment="Per - Период разгона РУ --> t-период разгона"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
-          Number=74
-          ParameterName="y"
+          Number=149
+          ParameterName="Period"
           Index=-1
         }
         [VVV_GCPoint]{
-          Number=48
-          ParameterName="R0VN01RS1"
+          Number=171
+          ParameterName="x2"
           Index=-1
         }
       }
     }
   }
 }
-5176368
+5136238
