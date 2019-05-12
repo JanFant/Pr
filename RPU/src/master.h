@@ -565,7 +565,7 @@ static ModbusRegister hr_MRPS[]={  //
 };
 #pragma pop
 static char MRPS_ip1[]={"192.168.10.60\0"};
-static char MRPS_ip2[]={"192.168.10.60\0"};
+static char MRPS_ip2[]={"192.168.10.160\0"};
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_RPU[0],&di_RPU[0],&ir_RPU[0],&hr_RPU[0],NULL,NULL,NULL,0},	 //общий slave RPU
