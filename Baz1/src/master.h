@@ -429,82 +429,82 @@ int nomer = 1;
 #define idfEM_R7UI73RZZ	 207	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
 #define bFirstEnterFlag	 BUFFER[570]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 208	//(bFirstEnterFlag) 
-#define internal1_m107_tx	 BUFFER[572]	//(internal1_m107_tx) tx - время накопленное сек
-#define idinternal1_m107_tx	 209	//(internal1_m107_tx) tx - время накопленное сек
-#define internal1_m107_y0	 BUFFER[577]	//(internal1_m107_y0) y0
-#define idinternal1_m107_y0	 210	//(internal1_m107_y0) y0
-#define internal1_m106_tx	 BUFFER[578]	//(internal1_m106_tx) tx - время накопленное сек
-#define idinternal1_m106_tx	 211	//(internal1_m106_tx) tx - время накопленное сек
-#define internal1_m106_y0	 BUFFER[583]	//(internal1_m106_y0) y0
-#define idinternal1_m106_y0	 212	//(internal1_m106_y0) y0
-#define internal1_m134_tx	 BUFFER[584]	//(internal1_m134_tx) tx - время накопленное сек
-#define idinternal1_m134_tx	 213	//(internal1_m134_tx) tx - время накопленное сек
-#define internal1_m134_y0	 BUFFER[589]	//(internal1_m134_y0) y0
-#define idinternal1_m134_y0	 214	//(internal1_m134_y0) y0
-#define internal1_m133_tx	 BUFFER[590]	//(internal1_m133_tx) tx - время накопленное сек
-#define idinternal1_m133_tx	 215	//(internal1_m133_tx) tx - время накопленное сек
-#define internal1_m133_y0	 BUFFER[595]	//(internal1_m133_y0) y0
-#define idinternal1_m133_y0	 216	//(internal1_m133_y0) y0
-#define internal1_m248_tx	 BUFFER[596]	//(internal1_m248_tx) tx - время накопленное сек
-#define idinternal1_m248_tx	 217	//(internal1_m248_tx) tx - время накопленное сек
-#define internal1_m248_y0	 BUFFER[601]	//(internal1_m248_y0) y0
-#define idinternal1_m248_y0	 218	//(internal1_m248_y0) y0
-#define internal1_m256_tx	 BUFFER[602]	//(internal1_m256_tx) tx - время накопленное сек
-#define idinternal1_m256_tx	 219	//(internal1_m256_tx) tx - время накопленное сек
-#define internal1_m256_y0	 BUFFER[607]	//(internal1_m256_y0) y0
-#define idinternal1_m256_y0	 220	//(internal1_m256_y0) y0
-#define internal1_m332_tx	 BUFFER[608]	//(internal1_m332_tx) tx - время накопленное сек
-#define idinternal1_m332_tx	 221	//(internal1_m332_tx) tx - время накопленное сек
-#define internal1_m332_y0	 BUFFER[613]	//(internal1_m332_y0) y0
-#define idinternal1_m332_y0	 222	//(internal1_m332_y0) y0
-#define internal1_m215_tx	 BUFFER[614]	//(internal1_m215_tx) tx - время накопленное сек
-#define idinternal1_m215_tx	 223	//(internal1_m215_tx) tx - время накопленное сек
-#define internal1_m215_y0	 BUFFER[619]	//(internal1_m215_y0) y0
-#define idinternal1_m215_y0	 224	//(internal1_m215_y0) y0
-#define internal1_m214_tx	 BUFFER[620]	//(internal1_m214_tx) tx - время накопленное сек
-#define idinternal1_m214_tx	 225	//(internal1_m214_tx) tx - время накопленное сек
-#define internal1_m214_y0	 BUFFER[625]	//(internal1_m214_y0) y0
-#define idinternal1_m214_y0	 226	//(internal1_m214_y0) y0
-#define internal1_m212_tx	 BUFFER[626]	//(internal1_m212_tx) tx - время накопленное сек
-#define idinternal1_m212_tx	 227	//(internal1_m212_tx) tx - время накопленное сек
-#define internal1_m212_y0	 BUFFER[631]	//(internal1_m212_y0) y0
-#define idinternal1_m212_y0	 228	//(internal1_m212_y0) y0
-#define internal1_m210_tx	 BUFFER[632]	//(internal1_m210_tx) tx - время накопленное сек
-#define idinternal1_m210_tx	 229	//(internal1_m210_tx) tx - время накопленное сек
-#define internal1_m210_y0	 BUFFER[637]	//(internal1_m210_y0) y0
-#define idinternal1_m210_y0	 230	//(internal1_m210_y0) y0
+#define internal1_m110_tx	 BUFFER[572]	//(internal1_m110_tx) tx - время накопленное сек
+#define idinternal1_m110_tx	 209	//(internal1_m110_tx) tx - время накопленное сек
+#define internal1_m110_y0	 BUFFER[577]	//(internal1_m110_y0) y0
+#define idinternal1_m110_y0	 210	//(internal1_m110_y0) y0
+#define internal1_m107_tx	 BUFFER[578]	//(internal1_m107_tx) tx - время накопленное сек
+#define idinternal1_m107_tx	 211	//(internal1_m107_tx) tx - время накопленное сек
+#define internal1_m107_y0	 BUFFER[583]	//(internal1_m107_y0) y0
+#define idinternal1_m107_y0	 212	//(internal1_m107_y0) y0
+#define internal1_m135_tx	 BUFFER[584]	//(internal1_m135_tx) tx - время накопленное сек
+#define idinternal1_m135_tx	 213	//(internal1_m135_tx) tx - время накопленное сек
+#define internal1_m135_y0	 BUFFER[589]	//(internal1_m135_y0) y0
+#define idinternal1_m135_y0	 214	//(internal1_m135_y0) y0
+#define internal1_m134_tx	 BUFFER[590]	//(internal1_m134_tx) tx - время накопленное сек
+#define idinternal1_m134_tx	 215	//(internal1_m134_tx) tx - время накопленное сек
+#define internal1_m134_y0	 BUFFER[595]	//(internal1_m134_y0) y0
+#define idinternal1_m134_y0	 216	//(internal1_m134_y0) y0
+#define internal1_m249_tx	 BUFFER[596]	//(internal1_m249_tx) tx - время накопленное сек
+#define idinternal1_m249_tx	 217	//(internal1_m249_tx) tx - время накопленное сек
+#define internal1_m249_y0	 BUFFER[601]	//(internal1_m249_y0) y0
+#define idinternal1_m249_y0	 218	//(internal1_m249_y0) y0
+#define internal1_m257_tx	 BUFFER[602]	//(internal1_m257_tx) tx - время накопленное сек
+#define idinternal1_m257_tx	 219	//(internal1_m257_tx) tx - время накопленное сек
+#define internal1_m257_y0	 BUFFER[607]	//(internal1_m257_y0) y0
+#define idinternal1_m257_y0	 220	//(internal1_m257_y0) y0
+#define internal1_m333_tx	 BUFFER[608]	//(internal1_m333_tx) tx - время накопленное сек
+#define idinternal1_m333_tx	 221	//(internal1_m333_tx) tx - время накопленное сек
+#define internal1_m333_y0	 BUFFER[613]	//(internal1_m333_y0) y0
+#define idinternal1_m333_y0	 222	//(internal1_m333_y0) y0
+#define internal1_m216_tx	 BUFFER[614]	//(internal1_m216_tx) tx - время накопленное сек
+#define idinternal1_m216_tx	 223	//(internal1_m216_tx) tx - время накопленное сек
+#define internal1_m216_y0	 BUFFER[619]	//(internal1_m216_y0) y0
+#define idinternal1_m216_y0	 224	//(internal1_m216_y0) y0
+#define internal1_m215_tx	 BUFFER[620]	//(internal1_m215_tx) tx - время накопленное сек
+#define idinternal1_m215_tx	 225	//(internal1_m215_tx) tx - время накопленное сек
+#define internal1_m215_y0	 BUFFER[625]	//(internal1_m215_y0) y0
+#define idinternal1_m215_y0	 226	//(internal1_m215_y0) y0
+#define internal1_m213_tx	 BUFFER[626]	//(internal1_m213_tx) tx - время накопленное сек
+#define idinternal1_m213_tx	 227	//(internal1_m213_tx) tx - время накопленное сек
+#define internal1_m213_y0	 BUFFER[631]	//(internal1_m213_y0) y0
+#define idinternal1_m213_y0	 228	//(internal1_m213_y0) y0
+#define internal1_m211_tx	 BUFFER[632]	//(internal1_m211_tx) tx - время накопленное сек
+#define idinternal1_m211_tx	 229	//(internal1_m211_tx) tx - время накопленное сек
+#define internal1_m211_y0	 BUFFER[637]	//(internal1_m211_y0) y0
+#define idinternal1_m211_y0	 230	//(internal1_m211_y0) y0
 #define internal1_m33_tx	 BUFFER[638]	//(internal1_m33_tx) tx - внутренний параметр
 #define idinternal1_m33_tx	 231	//(internal1_m33_tx) tx - внутренний параметр
-#define internal1_m147_y0	 BUFFER[641]	//(internal1_m147_y0) y0
-#define idinternal1_m147_y0	 232	//(internal1_m147_y0) y0
-#define internal1_m145_y0	 BUFFER[646]	//(internal1_m145_y0) y0
-#define idinternal1_m145_y0	 233	//(internal1_m145_y0) y0
-#define internal1_m91_y0	 BUFFER[651]	//(internal1_m91_y0) y0
-#define idinternal1_m91_y0	 234	//(internal1_m91_y0) y0
-#define internal1_m89_y0	 BUFFER[656]	//(internal1_m89_y0) y0
-#define idinternal1_m89_y0	 235	//(internal1_m89_y0) y0
-#define internal1_m158_y1	 BUFFER[661]	//(internal1_m158_y1) y1 - внутренний параметр
-#define idinternal1_m158_y1	 236	//(internal1_m158_y1) y1 - внутренний параметр
-#define internal1_m169_y1	 BUFFER[663]	//(internal1_m169_y1) y1 - внутренний параметр
-#define idinternal1_m169_y1	 237	//(internal1_m169_y1) y1 - внутренний параметр
-#define internal1_m320_q0	 BUFFER[665]	//(internal1_m320_q0) q0 - внутренний параметр
-#define idinternal1_m320_q0	 238	//(internal1_m320_q0) q0 - внутренний параметр
-#define internal1_m127_y0	 BUFFER[670]	//(internal1_m127_y0) state
-#define idinternal1_m127_y0	 239	//(internal1_m127_y0) state
-#define internal1_m123_y0	 BUFFER[672]	//(internal1_m123_y0) state
-#define idinternal1_m123_y0	 240	//(internal1_m123_y0) state
-#define internal1_m105_y1	 BUFFER[674]	//(internal1_m105_y1) y1 - внутренний параметр
-#define idinternal1_m105_y1	 241	//(internal1_m105_y1) y1 - внутренний параметр
-#define internal1_m116_y1	 BUFFER[676]	//(internal1_m116_y1) y1 - внутренний параметр
-#define idinternal1_m116_y1	 242	//(internal1_m116_y1) y1 - внутренний параметр
-#define internal1_m93_y1	 BUFFER[678]	//(internal1_m93_y1) y1 - внутренний параметр
-#define idinternal1_m93_y1	 243	//(internal1_m93_y1) y1 - внутренний параметр
-#define internal1_m103_y1	 BUFFER[680]	//(internal1_m103_y1) y1 - внутренний параметр
-#define idinternal1_m103_y1	 244	//(internal1_m103_y1) y1 - внутренний параметр
-#define internal1_m155_y1	 BUFFER[682]	//(internal1_m155_y1) y1 - внутренний параметр
-#define idinternal1_m155_y1	 245	//(internal1_m155_y1) y1 - внутренний параметр
-#define internal1_m165_y1	 BUFFER[684]	//(internal1_m165_y1) y1 - внутренний параметр
-#define idinternal1_m165_y1	 246	//(internal1_m165_y1) y1 - внутренний параметр
+#define internal1_m148_y0	 BUFFER[641]	//(internal1_m148_y0) y0
+#define idinternal1_m148_y0	 232	//(internal1_m148_y0) y0
+#define internal1_m146_y0	 BUFFER[646]	//(internal1_m146_y0) y0
+#define idinternal1_m146_y0	 233	//(internal1_m146_y0) y0
+#define internal1_m92_y0	 BUFFER[651]	//(internal1_m92_y0) y0
+#define idinternal1_m92_y0	 234	//(internal1_m92_y0) y0
+#define internal1_m90_y0	 BUFFER[656]	//(internal1_m90_y0) y0
+#define idinternal1_m90_y0	 235	//(internal1_m90_y0) y0
+#define internal1_m159_y1	 BUFFER[661]	//(internal1_m159_y1) y1 - внутренний параметр
+#define idinternal1_m159_y1	 236	//(internal1_m159_y1) y1 - внутренний параметр
+#define internal1_m170_y1	 BUFFER[663]	//(internal1_m170_y1) y1 - внутренний параметр
+#define idinternal1_m170_y1	 237	//(internal1_m170_y1) y1 - внутренний параметр
+#define internal1_m321_q0	 BUFFER[665]	//(internal1_m321_q0) q0 - внутренний параметр
+#define idinternal1_m321_q0	 238	//(internal1_m321_q0) q0 - внутренний параметр
+#define internal1_m128_y0	 BUFFER[670]	//(internal1_m128_y0) state
+#define idinternal1_m128_y0	 239	//(internal1_m128_y0) state
+#define internal1_m124_y0	 BUFFER[672]	//(internal1_m124_y0) state
+#define idinternal1_m124_y0	 240	//(internal1_m124_y0) state
+#define internal1_m106_y1	 BUFFER[674]	//(internal1_m106_y1) y1 - внутренний параметр
+#define idinternal1_m106_y1	 241	//(internal1_m106_y1) y1 - внутренний параметр
+#define internal1_m117_y1	 BUFFER[676]	//(internal1_m117_y1) y1 - внутренний параметр
+#define idinternal1_m117_y1	 242	//(internal1_m117_y1) y1 - внутренний параметр
+#define internal1_m94_y1	 BUFFER[678]	//(internal1_m94_y1) y1 - внутренний параметр
+#define idinternal1_m94_y1	 243	//(internal1_m94_y1) y1 - внутренний параметр
+#define internal1_m104_y1	 BUFFER[680]	//(internal1_m104_y1) y1 - внутренний параметр
+#define idinternal1_m104_y1	 244	//(internal1_m104_y1) y1 - внутренний параметр
+#define internal1_m157_y1	 BUFFER[682]	//(internal1_m157_y1) y1 - внутренний параметр
+#define idinternal1_m157_y1	 245	//(internal1_m157_y1) y1 - внутренний параметр
+#define internal1_m168_y1	 BUFFER[684]	//(internal1_m168_y1) y1 - внутренний параметр
+#define idinternal1_m168_y1	 246	//(internal1_m168_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &R7II72LZ1},	//(vds32:08 - K06VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)
@@ -715,44 +715,44 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 206	,8	,1	, &fEM_A1UL11RZZ},	//(A1UL11RZZ) Время задержки АЗ от ВУ ИС сек
 	{ 207	,8	,1	, &fEM_R7UI73RZZ},	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
 	{ 208	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 209	,8	,1	, &internal1_m107_tx},	//(internal1_m107_tx) tx - время накопленное сек
-	{ 210	,18	,1	, &internal1_m107_y0},	//(internal1_m107_y0) y0
-	{ 211	,8	,1	, &internal1_m106_tx},	//(internal1_m106_tx) tx - время накопленное сек
-	{ 212	,18	,1	, &internal1_m106_y0},	//(internal1_m106_y0) y0
-	{ 213	,8	,1	, &internal1_m134_tx},	//(internal1_m134_tx) tx - время накопленное сек
-	{ 214	,18	,1	, &internal1_m134_y0},	//(internal1_m134_y0) y0
-	{ 215	,8	,1	, &internal1_m133_tx},	//(internal1_m133_tx) tx - время накопленное сек
-	{ 216	,18	,1	, &internal1_m133_y0},	//(internal1_m133_y0) y0
-	{ 217	,8	,1	, &internal1_m248_tx},	//(internal1_m248_tx) tx - время накопленное сек
-	{ 218	,18	,1	, &internal1_m248_y0},	//(internal1_m248_y0) y0
-	{ 219	,8	,1	, &internal1_m256_tx},	//(internal1_m256_tx) tx - время накопленное сек
-	{ 220	,18	,1	, &internal1_m256_y0},	//(internal1_m256_y0) y0
-	{ 221	,8	,1	, &internal1_m332_tx},	//(internal1_m332_tx) tx - время накопленное сек
-	{ 222	,18	,1	, &internal1_m332_y0},	//(internal1_m332_y0) y0
-	{ 223	,8	,1	, &internal1_m215_tx},	//(internal1_m215_tx) tx - время накопленное сек
-	{ 224	,18	,1	, &internal1_m215_y0},	//(internal1_m215_y0) y0
-	{ 225	,8	,1	, &internal1_m214_tx},	//(internal1_m214_tx) tx - время накопленное сек
-	{ 226	,18	,1	, &internal1_m214_y0},	//(internal1_m214_y0) y0
-	{ 227	,8	,1	, &internal1_m212_tx},	//(internal1_m212_tx) tx - время накопленное сек
-	{ 228	,18	,1	, &internal1_m212_y0},	//(internal1_m212_y0) y0
-	{ 229	,8	,1	, &internal1_m210_tx},	//(internal1_m210_tx) tx - время накопленное сек
-	{ 230	,18	,1	, &internal1_m210_y0},	//(internal1_m210_y0) y0
+	{ 209	,8	,1	, &internal1_m110_tx},	//(internal1_m110_tx) tx - время накопленное сек
+	{ 210	,18	,1	, &internal1_m110_y0},	//(internal1_m110_y0) y0
+	{ 211	,8	,1	, &internal1_m107_tx},	//(internal1_m107_tx) tx - время накопленное сек
+	{ 212	,18	,1	, &internal1_m107_y0},	//(internal1_m107_y0) y0
+	{ 213	,8	,1	, &internal1_m135_tx},	//(internal1_m135_tx) tx - время накопленное сек
+	{ 214	,18	,1	, &internal1_m135_y0},	//(internal1_m135_y0) y0
+	{ 215	,8	,1	, &internal1_m134_tx},	//(internal1_m134_tx) tx - время накопленное сек
+	{ 216	,18	,1	, &internal1_m134_y0},	//(internal1_m134_y0) y0
+	{ 217	,8	,1	, &internal1_m249_tx},	//(internal1_m249_tx) tx - время накопленное сек
+	{ 218	,18	,1	, &internal1_m249_y0},	//(internal1_m249_y0) y0
+	{ 219	,8	,1	, &internal1_m257_tx},	//(internal1_m257_tx) tx - время накопленное сек
+	{ 220	,18	,1	, &internal1_m257_y0},	//(internal1_m257_y0) y0
+	{ 221	,8	,1	, &internal1_m333_tx},	//(internal1_m333_tx) tx - время накопленное сек
+	{ 222	,18	,1	, &internal1_m333_y0},	//(internal1_m333_y0) y0
+	{ 223	,8	,1	, &internal1_m216_tx},	//(internal1_m216_tx) tx - время накопленное сек
+	{ 224	,18	,1	, &internal1_m216_y0},	//(internal1_m216_y0) y0
+	{ 225	,8	,1	, &internal1_m215_tx},	//(internal1_m215_tx) tx - время накопленное сек
+	{ 226	,18	,1	, &internal1_m215_y0},	//(internal1_m215_y0) y0
+	{ 227	,8	,1	, &internal1_m213_tx},	//(internal1_m213_tx) tx - время накопленное сек
+	{ 228	,18	,1	, &internal1_m213_y0},	//(internal1_m213_y0) y0
+	{ 229	,8	,1	, &internal1_m211_tx},	//(internal1_m211_tx) tx - время накопленное сек
+	{ 230	,18	,1	, &internal1_m211_y0},	//(internal1_m211_y0) y0
 	{ 231	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
-	{ 232	,8	,1	, &internal1_m147_y0},	//(internal1_m147_y0) y0
-	{ 233	,8	,1	, &internal1_m145_y0},	//(internal1_m145_y0) y0
-	{ 234	,8	,1	, &internal1_m91_y0},	//(internal1_m91_y0) y0
-	{ 235	,8	,1	, &internal1_m89_y0},	//(internal1_m89_y0) y0
-	{ 236	,1	,1	, &internal1_m158_y1},	//(internal1_m158_y1) y1 - внутренний параметр
-	{ 237	,1	,1	, &internal1_m169_y1},	//(internal1_m169_y1) y1 - внутренний параметр
-	{ 238	,5	,1	, &internal1_m320_q0},	//(internal1_m320_q0) q0 - внутренний параметр
-	{ 239	,1	,1	, &internal1_m127_y0},	//(internal1_m127_y0) state
-	{ 240	,1	,1	, &internal1_m123_y0},	//(internal1_m123_y0) state
-	{ 241	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
-	{ 242	,1	,1	, &internal1_m116_y1},	//(internal1_m116_y1) y1 - внутренний параметр
-	{ 243	,1	,1	, &internal1_m93_y1},	//(internal1_m93_y1) y1 - внутренний параметр
-	{ 244	,1	,1	, &internal1_m103_y1},	//(internal1_m103_y1) y1 - внутренний параметр
-	{ 245	,1	,1	, &internal1_m155_y1},	//(internal1_m155_y1) y1 - внутренний параметр
-	{ 246	,1	,1	, &internal1_m165_y1},	//(internal1_m165_y1) y1 - внутренний параметр
+	{ 232	,8	,1	, &internal1_m148_y0},	//(internal1_m148_y0) y0
+	{ 233	,8	,1	, &internal1_m146_y0},	//(internal1_m146_y0) y0
+	{ 234	,8	,1	, &internal1_m92_y0},	//(internal1_m92_y0) y0
+	{ 235	,8	,1	, &internal1_m90_y0},	//(internal1_m90_y0) y0
+	{ 236	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
+	{ 237	,1	,1	, &internal1_m170_y1},	//(internal1_m170_y1) y1 - внутренний параметр
+	{ 238	,5	,1	, &internal1_m321_q0},	//(internal1_m321_q0) q0 - внутренний параметр
+	{ 239	,1	,1	, &internal1_m128_y0},	//(internal1_m128_y0) state
+	{ 240	,1	,1	, &internal1_m124_y0},	//(internal1_m124_y0) state
+	{ 241	,1	,1	, &internal1_m106_y1},	//(internal1_m106_y1) y1 - внутренний параметр
+	{ 242	,1	,1	, &internal1_m117_y1},	//(internal1_m117_y1) y1 - внутренний параметр
+	{ 243	,1	,1	, &internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
+	{ 244	,1	,1	, &internal1_m104_y1},	//(internal1_m104_y1) y1 - внутренний параметр
+	{ 245	,1	,1	, &internal1_m157_y1},	//(internal1_m157_y1) y1 - внутренний параметр
+	{ 246	,1	,1	, &internal1_m168_y1},	//(internal1_m168_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="baz1.bin\0";   // Имя файла для сохранения констант
@@ -1536,12 +1536,12 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* ���������� �������� */
-psbool  array_m382_x_1[6] = {&var8,&var7,&R0DE36LZ1,&R0DE37LZ1,&R0DE38LZ1,&R0DE39LZ1};
-psint  array_m369_x_1[6] = {&R0DE04LZ1,&R0DE05LZ1,&R0DE06LZ1,&R0DE0ALZ1,&R0DE08LZ1,&R0DE07LZ1};
-psfloat  array_m192_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
-psfloat  array_m352_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
-psbool  array_m352_diag_1[4] = {&var32,&var33,&var34,&var35};
-psbool  array_m327_x_1[17] = {&var94,&var60,&var61,&var89,&var44,&var47,&var165,&var59,&var55,&var54,&var90,&var50,&var48,&var167,&var58,&var57,&var56};
+psbool  array_m383_x_1[6] = {&var8,&var7,&R0DE36LZ1,&R0DE37LZ1,&R0DE38LZ1,&R0DE39LZ1};
+psint  array_m370_x_1[6] = {&R0DE04LZ1,&R0DE05LZ1,&R0DE06LZ1,&R0DE0ALZ1,&R0DE08LZ1,&R0DE07LZ1};
+psfloat  array_m193_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
+psfloat  array_m353_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
+psbool  array_m353_diag_1[4] = {&var32,&var33,&var34,&var35};
+psbool  array_m328_x_1[17] = {&var94,&var60,&var61,&var89,&var44,&var47,&var165,&var59,&var55,&var54,&var90,&var50,&var48,&var167,&var58,&var57,&var56};
 psbool  array_m16_x_1[6] = {&var99,&var90,&var48,&var50,&var108,&var167};
 psbool  array_m36_x_1[6] = {&var89,&var44,&var47,&var165,&var97,&var108};
 psfloat  array_m2_x_1[4] = {&R0VN01RS1,&R0VN01RS2,&R0VN01RS3,&R0VN01RS4};
@@ -1550,100 +1550,100 @@ psbool  array_m3_x_1[3] = {&var118,&var147,&var30};
 psbool  array_m12_x_1[3] = {&var117,&var31,&var119};
 
 /* ���������� �������� */
-_S_zzfs  S_zzfs_107_1 = {&B1VP81LZZ,&fRM_10000_,&var1,&internal1_m107_tx,&internal1_m107_y0};
-_S_zzfs  S_zzfs_106_1 = {&A1VP81LZZ,&fRM_10000_,&var2,&internal1_m106_tx,&internal1_m106_y0};
-_S_zzfs  S_zzfs_134_1 = {&B0VP81LZZ,&fRM_10000_,&var3,&internal1_m134_tx,&internal1_m134_y0};
-_S_zzfs  S_zzfs_133_1 = {&A0VP81LZZ,&fRM_10000_,&var4,&internal1_m133_tx,&internal1_m133_y0};
-_S_or3  S_or3_383_1 = {&var10,&var9,&var6,&var5};
-_S_orn  S_orn_382_1 = {array_m382_x_1,&iRM_6_,&var6};
-_S_or2  S_or2_389_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var7};
-_S_or2  S_or2_380_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var8};
-_S_and2  S_and2_371_1 = {&R0DE31LZ1,&R0DE32LZ1,&var9};
-_S_diagndev  S_diagndev_369_1 = {array_m369_x_1,&iRM_6_,&var10,&var11};
-_S_ma  S_ma_192_1 = {array_m192_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
-_S_and3  S_and3_236_1 = {&var15,&var25,&var24,&var12};
-_S_and3  S_and3_233_1 = {&var25,&var15,&var134,&var13};
-_S_and3  S_and3_232_1 = {&var24,&var15,&var133,&var14};
-_S_noto  S_noto_224_1 = {&R0AD03LZ1,&var15};
-_S_and3  S_and3_230_1 = {&var18,&var21,&var20,&var16};
-_S_and3  S_and3_227_1 = {&var18,&var20,&var136,&var17};
-_S_noto  S_noto_218_1 = {&R0AD05LZ1,&var18};
-_S_and3  S_and3_226_1 = {&var18,&var21,&var135,&var19};
-_S_and2  S_and2_219_1 = {&var112,&R0VW23LDU,&var20};
-_S_and2  S_and2_217_1 = {&var113,&R0VW13LDU,&var21};
-_S_and3  S_and3_211_1 = {&var113,&var112,&R0AD05LZ1,&var22};
-_S_and3  S_and3_216_1 = {&var111,&var110,&R0AD03LZ1,&var23};
-_S_and2  S_and2_220_1 = {&var111,&R0VW13LDU,&var24};
-_S_and2  S_and2_221_1 = {&R0VW23LDU,&var110,&var25};
-_S_and2  S_and2_255_1 = {&var132,&var42,&var26};
-_S_zzfs  S_zzfs_248_1 = {&R0AD14LDU,&fRM_1_0,&var27,&internal1_m248_tx,&internal1_m248_y0};
-_S_and2  S_and2_126_1 = {&var170,&var146,&var28};
-_S_and2  S_and2_137_1 = {&var169,&var145,&var29};
-_S_or2  S_or2_102_1 = {&var176,&var174,&var30};
+_S_zzfs  S_zzfs_110_1 = {&B1VP81LZZ,&fRM_10000_,&var1,&internal1_m110_tx,&internal1_m110_y0};
+_S_zzfs  S_zzfs_107_1 = {&A1VP81LZZ,&fRM_10000_,&var2,&internal1_m107_tx,&internal1_m107_y0};
+_S_zzfs  S_zzfs_135_1 = {&B0VP81LZZ,&fRM_10000_,&var3,&internal1_m135_tx,&internal1_m135_y0};
+_S_zzfs  S_zzfs_134_1 = {&A0VP81LZZ,&fRM_10000_,&var4,&internal1_m134_tx,&internal1_m134_y0};
+_S_or3  S_or3_384_1 = {&var10,&var9,&var6,&var5};
+_S_orn  S_orn_383_1 = {array_m383_x_1,&iRM_6_,&var6};
+_S_or2  S_or2_390_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var7};
+_S_or2  S_or2_381_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var8};
+_S_and2  S_and2_372_1 = {&R0DE31LZ1,&R0DE32LZ1,&var9};
+_S_diagndev  S_diagndev_370_1 = {array_m370_x_1,&iRM_6_,&var10,&var11};
+_S_ma  S_ma_193_1 = {array_m193_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
+_S_and3  S_and3_237_1 = {&var15,&var25,&var24,&var12};
+_S_and3  S_and3_234_1 = {&var25,&var15,&var134,&var13};
+_S_and3  S_and3_233_1 = {&var24,&var15,&var133,&var14};
+_S_noto  S_noto_225_1 = {&R0AD03LZ1,&var15};
+_S_and3  S_and3_231_1 = {&var18,&var21,&var20,&var16};
+_S_and3  S_and3_230_1 = {&var18,&var20,&var136,&var17};
+_S_noto  S_noto_219_1 = {&R0AD05LZ1,&var18};
+_S_and3  S_and3_229_1 = {&var18,&var21,&var135,&var19};
+_S_and2  S_and2_220_1 = {&var112,&R0VW23LDU,&var20};
+_S_and2  S_and2_218_1 = {&var113,&R0VW13LDU,&var21};
+_S_and3  S_and3_212_1 = {&var113,&var112,&R0AD05LZ1,&var22};
+_S_and3  S_and3_217_1 = {&var111,&var110,&R0AD03LZ1,&var23};
+_S_and2  S_and2_221_1 = {&var111,&R0VW13LDU,&var24};
+_S_and2  S_and2_222_1 = {&R0VW23LDU,&var110,&var25};
+_S_and2  S_and2_256_1 = {&var132,&var42,&var26};
+_S_zzfs  S_zzfs_249_1 = {&R0AD14LDU,&fRM_1_0,&var27,&internal1_m249_tx,&internal1_m249_y0};
+_S_and2  S_and2_127_1 = {&var170,&var146,&var28};
+_S_and2  S_and2_138_1 = {&var169,&var145,&var29};
+_S_or2  S_or2_103_1 = {&var176,&var174,&var30};
 _S_or2  S_or2_108_1 = {&var171,&var172,&var31};
-_S_and2  S_and2_80_1 = {&A0EE05LZ1,&A0EE01LS1,&var32};
-_S_and2  S_and2_82_1 = {&A0EE06LZ1,&A0EE01LS2,&var33};
-_S_and2  S_and2_84_1 = {&A0EE07LZ1,&A0EE01LS3,&var34};
-_S_and2  S_and2_86_1 = {&A0EE08LZ1,&A0EE01LS4,&var35};
-_S_and2  S_and2_182_1 = {&var162,&var127,&var36};
-_S_and2  S_and2_183_1 = {&var161,&var127,&var37};
-_S_or2  S_or2_259_1 = {&var115,&R7II73LZ1,&var38};
-_S_or2  S_or2_261_1 = {&R0AD21LDU,&R0AD14LDU,&var39};
-_S_and2  S_and2_260_1 = {&var39,&var38,&var40};
-_S_or2  S_or2_253_1 = {&R7II71LZ1,&var114,&var41};
-_S_or3  S_or3_254_1 = {&var43,&var41,&var40,&var42};
-_S_or2  S_or2_247_1 = {&var116,&R7II72LZ1,&var43};
-_S_or2  S_or2_234_1 = {&var19,&var16,&var44};
-_S_or2  S_or2_203_1 = {&A3IS22LDU,&R0AD05LZ1,&var45};
-_S_or2  S_or2_205_1 = {&B3IS22LDU,&R0AD05LZ1,&var46};
-_S_or2  S_or2_237_1 = {&var14,&var12,&var47};
-_S_or2  S_or2_238_1 = {&var13,&var12,&var48};
-_S_or2  S_or2_206_1 = {&var131,&R0AD03LZ1,&var49};
-_S_or2  S_or2_235_1 = {&var17,&var16,&var50};
-_S_or2  S_or2_208_1 = {&var130,&R0AD03LZ1,&var51};
-_S_schl24  S_schl24_354_1 = {&A0VN71LS2,&A0VN71LS1,&A0VN71LS4,&A0VN71LS3,&var52};
-_S_and2  S_and2_340_1 = {&var126,&var125,&var53};
-_S_and2  S_and2_329_1 = {&var73,&var95,&var54};
-_S_and2  S_and2_331_1 = {&var80,&var95,&var55};
-_S_and2  S_and2_337_1 = {&var40,&var109,&var56};
-_S_and2  S_and2_336_1 = {&var41,&var109,&var57};
-_S_and2  S_and2_335_1 = {&var43,&var109,&var58};
-_S_and2  S_and2_333_1 = {&var128,&var95,&var59};
-_S_and2  S_and2_330_1 = {&var84,&var95,&var60};
-_S_and2  S_and2_328_1 = {&var66,&var95,&var61};
-_S_and2  S_and2_301_1 = {&var64,&var63,&var62};
-_S_or2  S_or2_303_1 = {&R0VN75LZ1,&var159,&var63};
-_S_or2  S_or2_304_1 = {&R0VN77LZ1,&var158,&var64};
-_S_or2  S_or2_289_1 = {&var62,&var70,&var65};
-_S_or2  S_or2_295_1 = {&var67,&var62,&var66};
-_S_and2  S_and2_296_1 = {&var154,&var71,&var67};
-_S_or2  S_or2_306_1 = {&R0VN78LZ1,&var156,&var68};
-_S_or2  S_or2_305_1 = {&R0VN76LZ1,&var157,&var69};
-_S_and2  S_and2_302_1 = {&var69,&var68,&var70};
-_S_schl24  S_schl24_300_1 = {&var69,&var68,&var64,&var63,&var71};
-_S_and2  S_and2_298_1 = {&var95,&var71,&var72};
-_S_or2  S_or2_297_1 = {&var70,&var67,&var73};
-_S_and2  S_and2_293_1 = {&var73,&var95,&var74};
-_S_or2  S_or2_269_1 = {&R0VN72LZ1,&var157,&var75};
-_S_and2  S_and2_284_1 = {&var84,&var95,&var76};
-_S_and2  S_and2_272_1 = {&var75,&var78,&var77};
-_S_or2  S_or2_270_1 = {&R0VN74LZ1,&var156,&var78};
-_S_and2  S_and2_285_1 = {&var80,&var95,&var79};
-_S_or2  S_or2_282_1 = {&var77,&var83,&var80};
-_S_or2  S_or2_288_1 = {&var85,&var77,&var81};
-_S_and2  S_and2_276_1 = {&var87,&var95,&var82};
-_S_and2  S_and2_281_1 = {&var155,&var87,&var83};
-_S_or2  S_or2_280_1 = {&var85,&var83,&var84};
-_S_and2  S_and2_271_1 = {&var86,&var88,&var85};
-_S_or2  S_or2_268_1 = {&R0VN73LZ1,&var158,&var86};
+_S_and2  S_and2_81_1 = {&lRM_1_,&A0EE01LS1,&var32};
+_S_and2  S_and2_83_1 = {&lRM_1_,&A0EE01LS2,&var33};
+_S_and2  S_and2_85_1 = {&lRM_1_,&A0EE01LS3,&var34};
+_S_and2  S_and2_87_1 = {&lRM_1_,&A0EE01LS4,&var35};
+_S_and2  S_and2_183_1 = {&var162,&var127,&var36};
+_S_and2  S_and2_184_1 = {&var161,&var127,&var37};
+_S_or2  S_or2_260_1 = {&var115,&R7II73LZ1,&var38};
+_S_or2  S_or2_262_1 = {&R0AD21LDU,&R0AD14LDU,&var39};
+_S_and2  S_and2_261_1 = {&var39,&var38,&var40};
+_S_or2  S_or2_254_1 = {&R7II71LZ1,&var114,&var41};
+_S_or3  S_or3_255_1 = {&var43,&var41,&var40,&var42};
+_S_or2  S_or2_248_1 = {&var116,&R7II72LZ1,&var43};
+_S_or2  S_or2_235_1 = {&var19,&var16,&var44};
+_S_or2  S_or2_204_1 = {&A3IS22LDU,&R0AD05LZ1,&var45};
+_S_or2  S_or2_206_1 = {&B3IS22LDU,&R0AD05LZ1,&var46};
+_S_or2  S_or2_238_1 = {&var14,&var12,&var47};
+_S_or2  S_or2_239_1 = {&var13,&var12,&var48};
+_S_or2  S_or2_207_1 = {&var131,&R0AD03LZ1,&var49};
+_S_or2  S_or2_236_1 = {&var17,&var16,&var50};
+_S_or2  S_or2_209_1 = {&var130,&R0AD03LZ1,&var51};
+_S_schl24  S_schl24_355_1 = {&A0VN71LS2,&A0VN71LS1,&A0VN71LS4,&A0VN71LS3,&var52};
+_S_and2  S_and2_341_1 = {&var126,&var125,&var53};
+_S_and2  S_and2_330_1 = {&var73,&var95,&var54};
+_S_and2  S_and2_332_1 = {&var80,&var95,&var55};
+_S_and2  S_and2_338_1 = {&var40,&var109,&var56};
+_S_and2  S_and2_337_1 = {&var41,&var109,&var57};
+_S_and2  S_and2_336_1 = {&var43,&var109,&var58};
+_S_and2  S_and2_334_1 = {&var128,&var95,&var59};
+_S_and2  S_and2_331_1 = {&var84,&var95,&var60};
+_S_and2  S_and2_329_1 = {&var66,&var95,&var61};
+_S_and2  S_and2_302_1 = {&var64,&var63,&var62};
+_S_or2  S_or2_304_1 = {&R0VN75LZ1,&var159,&var63};
+_S_or2  S_or2_305_1 = {&R0VN77LZ1,&var158,&var64};
+_S_or2  S_or2_290_1 = {&var62,&var70,&var65};
+_S_or2  S_or2_296_1 = {&var67,&var62,&var66};
+_S_and2  S_and2_297_1 = {&var154,&var71,&var67};
+_S_or2  S_or2_307_1 = {&R0VN78LZ1,&var156,&var68};
+_S_or2  S_or2_306_1 = {&R0VN76LZ1,&var157,&var69};
+_S_and2  S_and2_303_1 = {&var69,&var68,&var70};
+_S_schl24  S_schl24_301_1 = {&var69,&var68,&var64,&var63,&var71};
+_S_and2  S_and2_299_1 = {&var95,&var71,&var72};
+_S_or2  S_or2_298_1 = {&var70,&var67,&var73};
+_S_and2  S_and2_294_1 = {&var73,&var95,&var74};
+_S_or2  S_or2_270_1 = {&R0VN72LZ1,&var157,&var75};
+_S_and2  S_and2_285_1 = {&var84,&var95,&var76};
+_S_and2  S_and2_275_1 = {&var75,&var78,&var77};
+_S_or2  S_or2_271_1 = {&R0VN74LZ1,&var156,&var78};
+_S_and2  S_and2_286_1 = {&var80,&var95,&var79};
+_S_or2  S_or2_283_1 = {&var77,&var83,&var80};
+_S_or2  S_or2_289_1 = {&var85,&var77,&var81};
+_S_and2  S_and2_277_1 = {&var87,&var95,&var82};
+_S_and2  S_and2_282_1 = {&var155,&var87,&var83};
+_S_or2  S_or2_281_1 = {&var85,&var83,&var84};
+_S_and2  S_and2_272_1 = {&var86,&var88,&var85};
+_S_or2  S_or2_269_1 = {&R0VN73LZ1,&var158,&var86};
 _S_schl24  S_schl24_274_1 = {&var86,&var88,&var75,&var78,&var87};
-_S_or2  S_or2_267_1 = {&R0VN71LZ1,&var159,&var88};
-_S_or2  S_or2_154_1 = {&var139,&var177,&var89};
-_S_or2  S_or2_156_1 = {&var144,&var142,&var90};
-_S_or2  S_or2_358_1 = {&var175,&var173,&var91};
+_S_or2  S_or2_268_1 = {&R0VN71LZ1,&var159,&var88};
+_S_or2  S_or2_156_1 = {&var139,&var177,&var89};
+_S_or2  S_or2_158_1 = {&var144,&var142,&var90};
+_S_or2  S_or2_359_1 = {&var175,&var173,&var91};
 _S_or2  S_or2_35_1 = {&B2IS12LDU,&A2IS12LDU,&var92};
-_S_and2  S_and2_292_1 = {&var95,&var66,&var93};
-_S_and2  S_and2_334_1 = {&var129,&var95,&var94};
+_S_and2  S_and2_293_1 = {&var95,&var66,&var93};
+_S_and2  S_and2_335_1 = {&var129,&var95,&var94};
 _S_and2  S_and2_21_1 = {&var124,&var120,&var95};
 _S_or2  S_or2_25_1 = {&var152,&var151,&var96};
 _S_and2  S_and2_31_1 = {&var98,&var95,&var97};
@@ -1651,80 +1651,80 @@ _S_or3  S_or3_30_1 = {&var66,&var84,&var123,&var98};
 _S_and2  S_and2_19_1 = {&var95,&var100,&var99};
 _S_or3  S_or3_18_1 = {&var80,&var73,&var122,&var100};
 _S_and2  S_and2_6_1 = {&var33,&var35,&var101};
-_S_or2  S_or2_10_1 = {&var153,&var101,&var102};
-_S_or2  S_or2_9_1 = {&var104,&var153,&var103};
+_S_or2  S_or2_11_1 = {&var153,&var101,&var102};
+_S_or2  S_or2_10_1 = {&var104,&var153,&var103};
 _S_and2  S_and2_5_1 = {&var32,&var34,&var104};
-_S_and2  S_and2_193_1 = {&R0AD14LDU,&R7II72LZ1,&var105};
-_S_and2  S_and2_189_1 = {&R0AD14LDU,&R7II71LZ1,&var106};
-_S_and2  S_and2_186_1 = {&R0AD14LDU,&R7II73LZ1,&var107};
-_S_zpfs  S_zpfs_256_1 = {&var26,&fEM_R7UI73RZZ,&var108,&internal1_m256_tx,&internal1_m256_y0};
-_S_zpfs  S_zpfs_332_1 = {&var53,&fRM_0_2,&var109,&internal1_m332_tx,&internal1_m332_y0};
-_S_zpfs  S_zpfs_215_1 = {&var51,&fEM_A1UL11RZZ,&var110,&internal1_m215_tx,&internal1_m215_y0};
-_S_zpfs  S_zpfs_214_1 = {&var49,&fEM_A1UL11RZZ,&var111,&internal1_m214_tx,&internal1_m214_y0};
-_S_zpfs  S_zpfs_212_1 = {&var46,&fEM_A1UL12RZZ,&var112,&internal1_m212_tx,&internal1_m212_y0};
-_S_zpfs  S_zpfs_210_1 = {&var45,&fEM_A1UL12RZZ,&var113,&internal1_m210_tx,&internal1_m210_y0};
-_S_noto  S_noto_252_1 = {&R6IS67LZZ,&var114};
-_S_noto  S_noto_258_1 = {&R6IS68LZZ,&var115};
-_S_noto  S_noto_241_1 = {&R6IS66LZZ,&var116};
-_S_noto  S_noto_136_1 = {&var3,&var117};
-_S_noto  S_noto_135_1 = {&var4,&var118};
-_S_noto  S_noto_111_1 = {&var1,&var119};
+_S_and2  S_and2_194_1 = {&R0AD14LDU,&R7II72LZ1,&var105};
+_S_and2  S_and2_190_1 = {&R0AD14LDU,&R7II71LZ1,&var106};
+_S_and2  S_and2_187_1 = {&R0AD14LDU,&R7II73LZ1,&var107};
+_S_zpfs  S_zpfs_257_1 = {&var26,&fEM_R7UI73RZZ,&var108,&internal1_m257_tx,&internal1_m257_y0};
+_S_zpfs  S_zpfs_333_1 = {&var53,&fRM_0_2,&var109,&internal1_m333_tx,&internal1_m333_y0};
+_S_zpfs  S_zpfs_216_1 = {&var51,&fEM_A1UL11RZZ,&var110,&internal1_m216_tx,&internal1_m216_y0};
+_S_zpfs  S_zpfs_215_1 = {&var49,&fEM_A1UL11RZZ,&var111,&internal1_m215_tx,&internal1_m215_y0};
+_S_zpfs  S_zpfs_213_1 = {&var46,&fEM_A1UL12RZZ,&var112,&internal1_m213_tx,&internal1_m213_y0};
+_S_zpfs  S_zpfs_211_1 = {&var45,&fEM_A1UL12RZZ,&var113,&internal1_m211_tx,&internal1_m211_y0};
+_S_noto  S_noto_253_1 = {&R6IS67LZZ,&var114};
+_S_noto  S_noto_259_1 = {&R6IS68LZZ,&var115};
+_S_noto  S_noto_242_1 = {&R6IS66LZZ,&var116};
+_S_noto  S_noto_137_1 = {&var3,&var117};
+_S_noto  S_noto_136_1 = {&var4,&var118};
+_S_noto  S_noto_112_1 = {&var1,&var119};
 _S_noto  S_noto_27_1 = {&var121,&var120};
 _S_ovb1  S_ovb1_33_1 = {&var92,&iRM_200_,&var121,&internal1_m33_tx};
 _S_noto  S_noto_14_1 = {&var102,&var122};
 _S_noto  S_noto_13_1 = {&var103,&var123};
 _S_noto  S_noto_24_1 = {&R0EE02LDU,&var124};
-_S_noto  S_noto_343_1 = {&R0AD16LDU,&var125};
-_S_noto  S_noto_342_1 = {&R0AD04LZ1,&var126};
-_S_bol  S_bol_178_1 = {&var163,&fRM_0_00001,&var127};
-_S_noto  S_noto_338_1 = {&var102,&var128};
-_S_noto  S_noto_339_1 = {&var103,&var129};
-_S_noto  S_noto_202_1 = {&B3IS11LDU,&var130};
-_S_noto  S_noto_201_1 = {&A3IS11LDU,&var131};
-_S_noto  S_noto_249_1 = {&var27,&var132};
-_S_noto  S_noto_229_1 = {&R0VW23LDU,&var133};
-_S_noto  S_noto_228_1 = {&R0VW13LDU,&var134};
-_S_noto  S_noto_223_1 = {&R0VW23LDU,&var135};
-_S_noto  S_noto_222_1 = {&R0VW13LDU,&var136};
-_S_scalzz  S_scalzz_147_1 = {&B0IT01IZ1,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var137,&internal1_m147_y0};
-_S_scalzz  S_scalzz_145_1 = {&A0IT01IZ1,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var138,&internal1_m145_y0};
-_S_geterr  S_geterr_149_1 = {&var138,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var139};
-_S_scalzz  S_scalzz_91_1 = {&B2IP01IZ1,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var140,&internal1_m91_y0};
-_S_scalzz  S_scalzz_89_1 = {&A2IP01IZ1,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var141,&internal1_m89_y0};
-_S_drg  S_drg_158_1 = {&var137,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var142,&internal1_m158_y1};
-_S_drg  S_drg_169_1 = {&var137,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var143,&internal1_m169_y1};
-_S_geterr  S_geterr_151_1 = {&var137,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var144};
-_S_noto  S_noto_138_1 = {&var171,&var145};
-_S_noto  S_noto_125_1 = {&var176,&var146};
-_S_noto  S_noto_110_1 = {&var2,&var147};
-_S_srm  S_srm_352_1 = {array_m352_x_1,array_m352_diag_1,&iRM_4_,&iRM_3_,&var148,&vainSBool};
-_S_rsu  S_rsu_320_1 = {&R0MD34LP1,&var150,&var149,&internal1_m320_q0};
-_S_orni  S_orni_327_1 = {array_m327_x_1,&iRM_17_,&vainSBool,&var150};
+_S_noto  S_noto_344_1 = {&R0AD16LDU,&var125};
+_S_noto  S_noto_343_1 = {&R0AD04LZ1,&var126};
+_S_bol  S_bol_179_1 = {&var163,&fRM_0_00001,&var127};
+_S_noto  S_noto_339_1 = {&var102,&var128};
+_S_noto  S_noto_340_1 = {&var103,&var129};
+_S_noto  S_noto_203_1 = {&B3IS11LDU,&var130};
+_S_noto  S_noto_202_1 = {&A3IS11LDU,&var131};
+_S_noto  S_noto_250_1 = {&var27,&var132};
+_S_noto  S_noto_227_1 = {&R0VW23LDU,&var133};
+_S_noto  S_noto_226_1 = {&R0VW13LDU,&var134};
+_S_noto  S_noto_224_1 = {&R0VW23LDU,&var135};
+_S_noto  S_noto_223_1 = {&R0VW13LDU,&var136};
+_S_scalzz  S_scalzz_148_1 = {&B0IT01IZ1,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var137,&internal1_m148_y0};
+_S_scalzz  S_scalzz_146_1 = {&A0IT01IZ1,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var138,&internal1_m146_y0};
+_S_geterr  S_geterr_150_1 = {&var138,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var139};
+_S_scalzz  S_scalzz_92_1 = {&B2IP01IZ1,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var140,&internal1_m92_y0};
+_S_scalzz  S_scalzz_90_1 = {&A2IP01IZ1,&iRM_3276_,&iRM_16383_,&fEM_A2UP04RZZ,&fEM_A2UP03RZZ,&var141,&internal1_m90_y0};
+_S_drg  S_drg_159_1 = {&var137,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var142,&internal1_m159_y1};
+_S_drg  S_drg_170_1 = {&var137,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var143,&internal1_m170_y1};
+_S_geterr  S_geterr_152_1 = {&var137,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var144};
+_S_noto  S_noto_139_1 = {&var171,&var145};
+_S_noto  S_noto_126_1 = {&var176,&var146};
+_S_noto  S_noto_111_1 = {&var2,&var147};
+_S_srm  S_srm_353_1 = {array_m353_x_1,array_m353_diag_1,&iRM_4_,&iRM_3_,&var148,&vainSBool};
+_S_rsu  S_rsu_321_1 = {&R0MD34LP1,&var150,&var149,&internal1_m321_q0};
+_S_orni  S_orni_328_1 = {array_m328_x_1,&iRM_17_,&vainSBool,&var150};
 _S_orn  S_orn_16_1 = {array_m16_x_1,&iRM_6_,&var151};
 _S_orn  S_orn_36_1 = {array_m36_x_1,&iRM_6_,&var152};
 _S_noto  S_noto_7_1 = {&var164,&var153};
-_S_noto  S_noto_291_1 = {&var65,&var154};
-_S_noto  S_noto_286_1 = {&var81,&var155};
-_S_noto  S_noto_275_1 = {&A0EE01LS4,&var156};
-_S_noto  S_noto_279_1 = {&A0EE01LS2,&var157};
-_S_noto  S_noto_278_1 = {&A0EE01LS3,&var158};
+_S_noto  S_noto_292_1 = {&var65,&var154};
+_S_noto  S_noto_287_1 = {&var81,&var155};
+_S_noto  S_noto_276_1 = {&A0EE01LS4,&var156};
+_S_noto  S_noto_280_1 = {&A0EE01LS2,&var157};
+_S_noto  S_noto_279_1 = {&A0EE01LS3,&var158};
 _S_noto  S_noto_273_1 = {&A0EE01LS1,&var159};
-_S_react  S_react_174_1 = {&var163,&var160};
-_S_bol  S_bol_179_1 = {&fEM_R0UR04RZZ,&var163,&var161};
-_S_bol  S_bol_177_1 = {&fEM_R0UR01RZZ,&var163,&var162};
+_S_react  S_react_175_1 = {&var163,&var160};
+_S_bol  S_bol_180_1 = {&fEM_R0UR04RZZ,&var163,&var161};
+_S_bol  S_bol_178_1 = {&fEM_R0UR01RZZ,&var163,&var162};
 _S_srm  S_srm_2_1 = {array_m2_x_1,array_m2_diag_1,&iRM_4_,&iRM_3_,&var163,&var164};
 _S_ornc  S_ornc_3_1 = {array_m3_x_1,&iRM_3_,&var165,&var166};
 _S_ornc  S_ornc_12_1 = {array_m12_x_1,&iRM_3_,&var167,&var168};
-_S_tprg  S_tprg_127_1 = {&var140,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var169,&internal1_m127_y0};
-_S_tprg  S_tprg_123_1 = {&var141,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var170,&internal1_m123_y0};
-_S_geterr  S_geterr_100_1 = {&var140,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var171};
-_S_drg  S_drg_105_1 = {&var140,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var172,&internal1_m105_y1};
-_S_drg  S_drg_116_1 = {&var140,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var173,&internal1_m116_y1};
-_S_drg  S_drg_93_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var174,&internal1_m93_y1};
-_S_drg  S_drg_103_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var175,&internal1_m103_y1};
-_S_geterr  S_geterr_97_1 = {&var141,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var176};
-_S_drg  S_drg_155_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var177,&internal1_m155_y1};
-_S_drg  S_drg_165_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var178,&internal1_m165_y1};
+_S_tprg  S_tprg_128_1 = {&var140,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var169,&internal1_m128_y0};
+_S_tprg  S_tprg_124_1 = {&var141,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var170,&internal1_m124_y0};
+_S_geterr  S_geterr_101_1 = {&var140,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var171};
+_S_drg  S_drg_106_1 = {&var140,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var172,&internal1_m106_y1};
+_S_drg  S_drg_117_1 = {&var140,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var173,&internal1_m117_y1};
+_S_drg  S_drg_94_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var174,&internal1_m94_y1};
+_S_drg  S_drg_104_1 = {&var141,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var175,&internal1_m104_y1};
+_S_geterr  S_geterr_98_1 = {&var141,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var176};
+_S_drg  S_drg_157_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var177,&internal1_m157_y1};
+_S_drg  S_drg_168_1 = {&var138,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var178,&internal1_m168_y1};
 
 
 void ZeroVar()
@@ -1919,176 +1919,176 @@ void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_273_1);
-  noto(&S_noto_278_1);
   noto(&S_noto_279_1);
-  noto(&S_noto_275_1);
-  scalzz(&S_scalzz_89_1);
-  scalzz(&S_scalzz_91_1);
-  scalzz(&S_scalzz_145_1);
-  scalzz(&S_scalzz_147_1);
-  noto(&S_noto_223_1);
-  noto(&S_noto_228_1);
-  noto(&S_noto_229_1);
-  noto(&S_noto_201_1);
-  noto(&S_noto_202_1);
-  noto(&S_noto_24_1);
-  noto(&S_noto_241_1);
-  noto(&S_noto_258_1);
-  noto(&S_noto_252_1);
-  and2(&S_and2_186_1);
-  and2(&S_and2_189_1);
-  and2(&S_and2_193_1);
-  or2(&S_or2_267_1);
-  or2(&S_or2_268_1);
-  and2(&S_and2_271_1);
-  or2(&S_or2_270_1);
-  or2(&S_or2_269_1);
-  or2(&S_or2_305_1);
-  or2(&S_or2_306_1);
-  or2(&S_or2_304_1);
-  or2(&S_or2_303_1);
-  and2(&S_and2_301_1);
-  schl24(&S_schl24_354_1);
-  or2(&S_or2_208_1);
-  or2(&S_or2_206_1);
-  or2(&S_or2_205_1);
-  or2(&S_or2_203_1);
-  or2(&S_or2_247_1);
-  or2(&S_or2_253_1);
-  or2(&S_or2_261_1);
-  or2(&S_or2_259_1);
-  and2(&S_and2_86_1);
-  and2(&S_and2_84_1);
-  and2(&S_and2_82_1);
-  and2(&S_and2_80_1);
-  zzfs(&S_zzfs_248_1);
-  noto(&S_noto_218_1);
+  noto(&S_noto_280_1);
+  noto(&S_noto_276_1);
+  scalzz(&S_scalzz_90_1);
+  scalzz(&S_scalzz_92_1);
+  scalzz(&S_scalzz_146_1);
+  scalzz(&S_scalzz_148_1);
   noto(&S_noto_224_1);
-  ma(&S_ma_192_1);
-  and2(&S_and2_371_1);
-  or2(&S_or2_380_1);
-  or2(&S_or2_389_1);
-  orn(&S_orn_382_1);
-  zzfs(&S_zzfs_133_1);
-  zzfs(&S_zzfs_134_1);
-  zzfs(&S_zzfs_106_1);
-  zzfs(&S_zzfs_107_1);
-  drg(&S_drg_165_1);
-  drg(&S_drg_155_1);
-  geterr(&S_geterr_97_1);
-  drg(&S_drg_103_1);
-  drg(&S_drg_93_1);
-  drg(&S_drg_116_1);
-  drg(&S_drg_105_1);
-  geterr(&S_geterr_100_1);
-  tprg(&S_tprg_123_1);
-  tprg(&S_tprg_127_1);
-  srm(&S_srm_2_1);
-  bol(&S_bol_177_1);
-  bol(&S_bol_179_1);
-  react(&S_react_174_1);
-  noto(&S_noto_7_1);
-  srm(&S_srm_352_1);
-  noto(&S_noto_110_1);
-  noto(&S_noto_125_1);
-  noto(&S_noto_138_1);
-  geterr(&S_geterr_151_1);
-  drg(&S_drg_169_1);
-  drg(&S_drg_158_1);
-  geterr(&S_geterr_149_1);
-  noto(&S_noto_222_1);
-  noto(&S_noto_249_1);
-  bol(&S_bol_178_1);
-  noto(&S_noto_342_1);
-  noto(&S_noto_343_1);
-  noto(&S_noto_111_1);
-  noto(&S_noto_135_1);
-  noto(&S_noto_136_1);
-  zpfs(&S_zpfs_210_1);
-  zpfs(&S_zpfs_212_1);
-  zpfs(&S_zpfs_214_1);
-  zpfs(&S_zpfs_215_1);
-  and2(&S_and2_5_1);
-  or2(&S_or2_9_1);
-  and2(&S_and2_6_1);
-  or2(&S_or2_35_1);
-  or2(&S_or2_358_1);
-  or2(&S_or2_156_1);
-  or2(&S_or2_154_1);
-  schl24(&S_schl24_274_1);
+  noto(&S_noto_226_1);
+  noto(&S_noto_227_1);
+  noto(&S_noto_202_1);
+  noto(&S_noto_203_1);
+  noto(&S_noto_24_1);
+  noto(&S_noto_242_1);
+  noto(&S_noto_259_1);
+  noto(&S_noto_253_1);
+  and2(&S_and2_187_1);
+  and2(&S_and2_190_1);
+  and2(&S_and2_194_1);
+  or2(&S_or2_268_1);
+  or2(&S_or2_269_1);
   and2(&S_and2_272_1);
-  schl24(&S_schl24_300_1);
+  or2(&S_or2_271_1);
+  or2(&S_or2_270_1);
+  or2(&S_or2_306_1);
+  or2(&S_or2_307_1);
+  or2(&S_or2_305_1);
+  or2(&S_or2_304_1);
   and2(&S_and2_302_1);
-  or2(&S_or2_289_1);
-  and2(&S_and2_340_1);
-  and2(&S_and2_260_1);
-  and2(&S_and2_183_1);
-  and2(&S_and2_182_1);
+  schl24(&S_schl24_355_1);
+  or2(&S_or2_209_1);
+  or2(&S_or2_207_1);
+  or2(&S_or2_206_1);
+  or2(&S_or2_204_1);
+  or2(&S_or2_248_1);
+  or2(&S_or2_254_1);
+  or2(&S_or2_262_1);
+  or2(&S_or2_260_1);
+  zzfs(&S_zzfs_249_1);
+  noto(&S_noto_219_1);
+  noto(&S_noto_225_1);
+  ma(&S_ma_193_1);
+  and2(&S_and2_372_1);
+  or2(&S_or2_381_1);
+  or2(&S_or2_390_1);
+  orn(&S_orn_383_1);
+  zzfs(&S_zzfs_134_1);
+  zzfs(&S_zzfs_135_1);
+  zzfs(&S_zzfs_107_1);
+  zzfs(&S_zzfs_110_1);
+  drg(&S_drg_168_1);
+  drg(&S_drg_157_1);
+  geterr(&S_geterr_98_1);
+  drg(&S_drg_104_1);
+  drg(&S_drg_94_1);
+  drg(&S_drg_117_1);
+  drg(&S_drg_106_1);
+  geterr(&S_geterr_101_1);
+  tprg(&S_tprg_124_1);
+  tprg(&S_tprg_128_1);
+  noto(&S_noto_111_1);
+  noto(&S_noto_126_1);
+  noto(&S_noto_139_1);
+  geterr(&S_geterr_152_1);
+  drg(&S_drg_170_1);
+  drg(&S_drg_159_1);
+  geterr(&S_geterr_150_1);
+  noto(&S_noto_223_1);
+  noto(&S_noto_250_1);
+  noto(&S_noto_343_1);
+  noto(&S_noto_344_1);
+  noto(&S_noto_112_1);
+  noto(&S_noto_136_1);
+  noto(&S_noto_137_1);
+  zpfs(&S_zpfs_211_1);
+  zpfs(&S_zpfs_213_1);
+  zpfs(&S_zpfs_215_1);
+  zpfs(&S_zpfs_216_1);
+  or2(&S_or2_35_1);
+  or2(&S_or2_359_1);
+  or2(&S_or2_158_1);
+  or2(&S_or2_156_1);
+  schl24(&S_schl24_274_1);
+  and2(&S_and2_275_1);
+  schl24(&S_schl24_301_1);
+  and2(&S_and2_303_1);
+  or2(&S_or2_290_1);
+  and2(&S_and2_341_1);
+  and2(&S_and2_261_1);
+  and2(&S_and2_87_1);
+  and2(&S_and2_85_1);
+  and2(&S_and2_83_1);
+  and2(&S_and2_81_1);
   or2(&S_or2_108_1);
-  or2(&S_or2_102_1);
-  and2(&S_and2_137_1);
-  and2(&S_and2_126_1);
+  or2(&S_or2_103_1);
+  and2(&S_and2_138_1);
+  and2(&S_and2_127_1);
+  and2(&S_and2_222_1);
   and2(&S_and2_221_1);
+  and3(&S_and3_217_1);
+  and3(&S_and3_212_1);
+  and2(&S_and2_218_1);
   and2(&S_and2_220_1);
-  and3(&S_and3_216_1);
-  and3(&S_and3_211_1);
-  and2(&S_and2_217_1);
-  and2(&S_and2_219_1);
-  and3(&S_and3_226_1);
-  and3(&S_and3_227_1);
+  and3(&S_and3_229_1);
   and3(&S_and3_230_1);
-  and3(&S_and3_232_1);
+  and3(&S_and3_231_1);
   and3(&S_and3_233_1);
-  and3(&S_and3_236_1);
-  diagndev(&S_diagndev_369_1);
-  or3(&S_or3_383_1);
+  and3(&S_and3_234_1);
+  and3(&S_and3_237_1);
+  diagndev(&S_diagndev_370_1);
+  or3(&S_or3_384_1);
   ornc(&S_ornc_12_1);
   ornc(&S_ornc_3_1);
-  noto(&S_noto_291_1);
-  noto(&S_noto_339_1);
-  noto(&S_noto_13_1);
+  srm(&S_srm_2_1);
+  bol(&S_bol_178_1);
+  bol(&S_bol_180_1);
+  react(&S_react_175_1);
+  noto(&S_noto_292_1);
+  noto(&S_noto_7_1);
+  srm(&S_srm_353_1);
+  bol(&S_bol_179_1);
   ovb1(&S_ovb1_33_1);
   noto(&S_noto_27_1);
-  zpfs(&S_zpfs_332_1);
+  zpfs(&S_zpfs_333_1);
+  and2(&S_and2_5_1);
   or2(&S_or2_10_1);
+  and2(&S_and2_6_1);
   and2(&S_and2_21_1);
-  and2(&S_and2_334_1);
-  and2(&S_and2_276_1);
-  or2(&S_or2_288_1);
-  and2(&S_and2_298_1);
-  and2(&S_and2_296_1);
-  or2(&S_or2_295_1);
-  and2(&S_and2_328_1);
-  and2(&S_and2_335_1);
+  and2(&S_and2_277_1);
+  or2(&S_or2_289_1);
+  and2(&S_and2_299_1);
+  and2(&S_and2_297_1);
+  or2(&S_or2_296_1);
+  and2(&S_and2_329_1);
   and2(&S_and2_336_1);
   and2(&S_and2_337_1);
-  or2(&S_or2_235_1);
+  and2(&S_and2_338_1);
+  or2(&S_or2_236_1);
+  or2(&S_or2_239_1);
   or2(&S_or2_238_1);
-  or2(&S_or2_237_1);
-  or2(&S_or2_234_1);
-  or3(&S_or3_254_1);
-  and2(&S_and2_255_1);
-  noto(&S_noto_286_1);
-  noto(&S_noto_338_1);
+  or2(&S_or2_235_1);
+  or3(&S_or3_255_1);
+  and2(&S_and2_184_1);
+  and2(&S_and2_183_1);
+  and2(&S_and2_256_1);
+  noto(&S_noto_287_1);
+  noto(&S_noto_340_1);
+  noto(&S_noto_13_1);
+  zpfs(&S_zpfs_257_1);
+  or2(&S_or2_11_1);
+  and2(&S_and2_335_1);
+  and2(&S_and2_293_1);
+  and2(&S_and2_282_1);
+  or2(&S_or2_283_1);
+  and2(&S_and2_286_1);
+  or2(&S_or2_298_1);
+  and2(&S_and2_332_1);
+  and2(&S_and2_330_1);
+  noto(&S_noto_339_1);
   noto(&S_noto_14_1);
-  zpfs(&S_zpfs_256_1);
-  and2(&S_and2_292_1);
-  and2(&S_and2_281_1);
-  or2(&S_or2_282_1);
-  and2(&S_and2_285_1);
-  or2(&S_or2_297_1);
-  and2(&S_and2_333_1);
-  and2(&S_and2_331_1);
-  and2(&S_and2_329_1);
   or3(&S_or3_18_1);
   and2(&S_and2_19_1);
-  or2(&S_or2_280_1);
-  and2(&S_and2_284_1);
-  and2(&S_and2_293_1);
-  and2(&S_and2_330_1);
+  or2(&S_or2_281_1);
+  and2(&S_and2_285_1);
+  and2(&S_and2_294_1);
+  and2(&S_and2_331_1);
+  and2(&S_and2_334_1);
   orn(&S_orn_16_1);
-  orni(&S_orni_327_1);
-  rsu(&S_rsu_320_1);
+  orni(&S_orni_328_1);
+  rsu(&S_rsu_321_1);
   or3(&S_or3_30_1);
   and2(&S_and2_31_1);
   orn(&S_orn_36_1);
