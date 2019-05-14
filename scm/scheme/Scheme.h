@@ -65,7 +65,7 @@ ssint iRM_16_ = {16,0}; /* n - N-размерность массива входных параметров */
 ssfloat fRM_2000_ = {2000,0}; /* maxs1 - макc. значение второго сигнала */ 
 ssfloat fRM_15_ = {15,0}; /* m1 - величина отклонени€ второго сигнала от входного */ 
 
-uspaint8 SpaEEPROMBuf[1631];
+uspaint8 SpaEEPROMBuf[1634];
 
 /* ќпределение переменных */
 ssfloat var1;
@@ -447,7 +447,7 @@ psfloat  array_m61_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83R
 
 /* ќбъ€вление структур */
 _S_looktakt  S_looktakt_144_1 = {&var1};
-_S_to3val  S_to3val_948_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var2,&var3,&vainSFloat,&bFirstEnterFlag};
+_S_to3val  S_to3val_948_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&iEM_TERR0IN06FRP,&var2,&var3,&vainSFloat,&bFirstEnterFlag};
 _S_vchs  S_vchs_874_1 = {&var282,&var333,&var243,&fEM_R7UY00RSS,&var220,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var4,&internal1_m874_Chim0};
 _S_vchs  S_vchs_864_1 = {&var333,&var282,&var243,&fEM_R7UY00RSS,&var220,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&bRM_4_,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_R0UH02RSS,&fEM_R0UH22RSS,&fRM_0_,&fEM_A0UX00RSS,&var5,&internal1_m864_Chim0};
 _S_vchs  S_vchs_856_1 = {&var333,&var282,&var243,&fEM_R7UY00RSS,&var220,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&bRM_2_,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_R0UH01RSS,&fEM_R0UH21RSS,&fRM_0_,&fEM_A0UX00RSS,&var6,&internal1_m856_Chim0};
@@ -716,7 +716,6 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_467_1);
   noto(&S_noto_476_1);
   noto(&S_noto_475_1);
-  to3val(&S_to3val_948_1);
   looktakt(&S_looktakt_144_1);
   asmot(&S_asmot_886_1);
   asmot(&S_asmot_358_1);
@@ -826,6 +825,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_993_1);
   twobool(&S_twobool_810_1);
   twobool(&S_twobool_811_1);
+  to3val(&S_to3val_948_1);
   fsubo(&S_fsubo_365_1);
   noto(&S_noto_616_1);
   andn(&S_andn_86_1);
