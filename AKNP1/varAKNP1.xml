@@ -89,11 +89,12 @@
 <var  name="internal1_m19_Nk" description="(internal1_m19_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m58_flst" description="(internal1_m58_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m58_chsr" description="(internal1_m58_chsr)  счетчик усреднения" format="3"></var>
-<var  name="internal1_m58_chizm" description="(internal1_m58_chizm)  счетчик измерения" format="3"></var>
-<var  name="internal1_m58_chpass" description="(internal1_m58_chpass)  время уменьшения мощности" format="8"></var>
+<var  name="internal1_m58_chizm" description="(internal1_m58_chizm)  счетчик уменьшения мощности" format="3"></var>
 <var  name="internal1_m58_sumtim" description="(internal1_m58_sumtim)  время измерения мощности" format="8"></var>
 <var  name="internal1_m58_W1" description="(internal1_m58_W1)  мощность на старте измерения" format="8"></var>
 <var  name="internal1_m58_W2" description="(internal1_m58_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m58_Wmin" description="(internal1_m58_Wmin)  минимальное измерение в серии" format="8"></var>
+<var  name="internal1_m58_Wmax" description="(internal1_m58_Wmax)  максимальное измерение в серии" format="8"></var>
 <var  name="internal1_m58_y0" description="(internal1_m58_y0) y0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m58_MyFirstEnterFlag" description="(internal1_m58_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

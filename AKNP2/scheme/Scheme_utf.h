@@ -1,5 +1,5 @@
 /* Определение внутренних параметров */
-uspaint8 InternalBuf[41];
+uspaint8 InternalBuf[46];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssint iRM_5_ = {5,0}; /* n - N-размерность массива входных параметров */ 
@@ -68,7 +68,7 @@ _S_and2  S_and2_92_1 = {&R0DE31LS2,&R0DE32LS2,&var8};
 _S_diagndev  S_diagndev_90_1 = {array_m90_x_1,&iRM_4_,&var9,&var10};
 _S_ocham  S_ocham_22_1 = {&var3,&var2,&var1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_2_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var11,&var12,&var13,&var14,&var15,&var16,&var17,&internal1_m22_Nk};
 _S_or2  S_or2_77_1 = {&R0EE02LZ1,&R0EE02LZ2,&var18};
-_S_period  S_period_57_1 = {&var12,&var23,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var19,&internal1_m57_flst,&internal1_m57_chsr,&internal1_m57_chizm,&internal1_m57_chpass,&internal1_m57_sumtim,&internal1_m57_W1,&internal1_m57_W2,&internal1_m57_y0,&internal1_m57_MyFirstEnterFlag};
+_S_period  S_period_57_1 = {&var12,&var23,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var19,&internal1_m57_flst,&internal1_m57_chsr,&internal1_m57_chizm,&internal1_m57_sumtim,&internal1_m57_W1,&internal1_m57_W2,&internal1_m57_Wmin,&internal1_m57_Wmax,&internal1_m57_y0,&internal1_m57_MyFirstEnterFlag};
 _S_andn  S_andn_66_1 = {array_m66_x_1,&iRM_2_,&var20};
 _S_bol  S_bol_63_1 = {&fEM_R0UL41RSS,&var19,&var21};
 _S_andn  S_andn_65_1 = {array_m65_x_1,&iRM_2_,&var22};

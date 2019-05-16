@@ -1,5 +1,5 @@
 /* Определение внутренних параметров */
-uspaint8 InternalBuf[41];
+uspaint8 InternalBuf[46];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssint iRM_5_ = {5,0}; /* n - N-размерность массива x */ 
@@ -68,7 +68,7 @@ _S_and2  S_and2_69_1 = {&var26,&var23,&var12};
 _S_and2  S_and2_68_1 = {&var27,&var26,&var13};
 _S_ocham  S_ocham_19_1 = {&var3,&var2,&var1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX01RSS,&fEM_B0UX01RSS,&fEM_A0UX02RSS,&fEM_B0UX02RSS,&fEM_A0UX03RSS,&fEM_B0UX03RSS,&fEM_R7UX01RSS,&fEM_R7UY01RSS,&fEM_R7UX02RSS,&fEM_R7UY02RSS,&fEM_R7UX03RSS,&fEM_R7UY03RSS,&bRM_2_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var14,&var15,&var16,&var17,&var18,&var19,&var20,&internal1_m19_Nk};
 _S_or2  S_or2_78_1 = {&R0EE01LZ1,&R0EE01LZ2,&var21};
-_S_period  S_period_58_1 = {&var15,&var4,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var22,&internal1_m58_flst,&internal1_m58_chsr,&internal1_m58_chizm,&internal1_m58_chpass,&internal1_m58_sumtim,&internal1_m58_W1,&internal1_m58_W2,&internal1_m58_y0,&internal1_m58_MyFirstEnterFlag};
+_S_period  S_period_58_1 = {&var15,&var4,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var22,&internal1_m58_flst,&internal1_m58_chsr,&internal1_m58_chizm,&internal1_m58_sumtim,&internal1_m58_W1,&internal1_m58_W2,&internal1_m58_Wmin,&internal1_m58_Wmax,&internal1_m58_y0,&internal1_m58_MyFirstEnterFlag};
 _S_bol  S_bol_62_1 = {&fEM_R0UL41RSS,&var22,&var23};
 _S_bol  S_bol_45_1 = {&var15,&fEM_R0UL52RSS,&var24};
 _S_bol  S_bol_40_1 = {&var15,&fEM_R0UL42RSS,&var25};

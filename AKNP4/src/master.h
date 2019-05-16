@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 349
-static char BUFFER[349];
+#define SIZE_BUFFER 354
+static char BUFFER[354];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.55\0", 5432, "192.168.10.155\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -191,20 +191,22 @@ int nomer = 1;
 #define idinternal1_m56_flst	 88	//(internal1_m56_flst)  флаг старта измерения
 #define internal1_m56_chsr	 BUFFER[316]	//(internal1_m56_chsr)  счетчик усреднения
 #define idinternal1_m56_chsr	 89	//(internal1_m56_chsr)  счетчик усреднения
-#define internal1_m56_chizm	 BUFFER[319]	//(internal1_m56_chizm)  счетчик измерения
-#define idinternal1_m56_chizm	 90	//(internal1_m56_chizm)  счетчик измерения
-#define internal1_m56_chpass	 BUFFER[322]	//(internal1_m56_chpass)  время уменьшения мощности
-#define idinternal1_m56_chpass	 91	//(internal1_m56_chpass)  время уменьшения мощности
-#define internal1_m56_sumtim	 BUFFER[327]	//(internal1_m56_sumtim)  время измерения мощности
-#define idinternal1_m56_sumtim	 92	//(internal1_m56_sumtim)  время измерения мощности
-#define internal1_m56_W1	 BUFFER[332]	//(internal1_m56_W1)  мощность на старте измерения
-#define idinternal1_m56_W1	 93	//(internal1_m56_W1)  мощность на старте измерения
-#define internal1_m56_W2	 BUFFER[337]	//(internal1_m56_W2)  мощность в конце измерения
-#define idinternal1_m56_W2	 94	//(internal1_m56_W2)  мощность в конце измерения
-#define internal1_m56_y0	 BUFFER[342]	//(internal1_m56_y0) y0 - внутренний параметр
-#define idinternal1_m56_y0	 95	//(internal1_m56_y0) y0 - внутренний параметр
-#define internal1_m56_MyFirstEnterFlag	 BUFFER[347]	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m56_MyFirstEnterFlag	 96	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m56_chizm	 BUFFER[319]	//(internal1_m56_chizm)  счетчик уменьшения мощности
+#define idinternal1_m56_chizm	 90	//(internal1_m56_chizm)  счетчик уменьшения мощности
+#define internal1_m56_sumtim	 BUFFER[322]	//(internal1_m56_sumtim)  время измерения мощности
+#define idinternal1_m56_sumtim	 91	//(internal1_m56_sumtim)  время измерения мощности
+#define internal1_m56_W1	 BUFFER[327]	//(internal1_m56_W1)  мощность на старте измерения
+#define idinternal1_m56_W1	 92	//(internal1_m56_W1)  мощность на старте измерения
+#define internal1_m56_W2	 BUFFER[332]	//(internal1_m56_W2)  мощность в конце измерения
+#define idinternal1_m56_W2	 93	//(internal1_m56_W2)  мощность в конце измерения
+#define internal1_m56_Wmin	 BUFFER[337]	//(internal1_m56_Wmin)  минимальное измерение в серии
+#define idinternal1_m56_Wmin	 94	//(internal1_m56_Wmin)  минимальное измерение в серии
+#define internal1_m56_Wmax	 BUFFER[342]	//(internal1_m56_Wmax)  максимальное измерение в серии
+#define idinternal1_m56_Wmax	 95	//(internal1_m56_Wmax)  максимальное измерение в серии
+#define internal1_m56_y0	 BUFFER[347]	//(internal1_m56_y0) y0 - внутренний параметр
+#define idinternal1_m56_y0	 96	//(internal1_m56_y0) y0 - внутренний параметр
+#define internal1_m56_MyFirstEnterFlag	 BUFFER[352]	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m56_MyFirstEnterFlag	 97	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &R0EE04LZ1},	//( - , AKNP4) Питание  АКНП4  отключить
@@ -296,13 +298,14 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 87	,3	,1	, &internal1_m22_Nk},	//(internal1_m22_Nk) Nk - ведущая камера
 	{ 88	,3	,1	, &internal1_m56_flst},	//(internal1_m56_flst)  флаг старта измерения
 	{ 89	,3	,1	, &internal1_m56_chsr},	//(internal1_m56_chsr)  счетчик усреднения
-	{ 90	,3	,1	, &internal1_m56_chizm},	//(internal1_m56_chizm)  счетчик измерения
-	{ 91	,8	,1	, &internal1_m56_chpass},	//(internal1_m56_chpass)  время уменьшения мощности
-	{ 92	,8	,1	, &internal1_m56_sumtim},	//(internal1_m56_sumtim)  время измерения мощности
-	{ 93	,8	,1	, &internal1_m56_W1},	//(internal1_m56_W1)  мощность на старте измерения
-	{ 94	,8	,1	, &internal1_m56_W2},	//(internal1_m56_W2)  мощность в конце измерения
-	{ 95	,8	,1	, &internal1_m56_y0},	//(internal1_m56_y0) y0 - внутренний параметр
-	{ 96	,1	,1	, &internal1_m56_MyFirstEnterFlag},	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
+	{ 90	,3	,1	, &internal1_m56_chizm},	//(internal1_m56_chizm)  счетчик уменьшения мощности
+	{ 91	,8	,1	, &internal1_m56_sumtim},	//(internal1_m56_sumtim)  время измерения мощности
+	{ 92	,8	,1	, &internal1_m56_W1},	//(internal1_m56_W1)  мощность на старте измерения
+	{ 93	,8	,1	, &internal1_m56_W2},	//(internal1_m56_W2)  мощность в конце измерения
+	{ 94	,8	,1	, &internal1_m56_Wmin},	//(internal1_m56_Wmin)  минимальное измерение в серии
+	{ 95	,8	,1	, &internal1_m56_Wmax},	//(internal1_m56_Wmax)  максимальное измерение в серии
+	{ 96	,8	,1	, &internal1_m56_y0},	//(internal1_m56_y0) y0 - внутренний параметр
+	{ 97	,1	,1	, &internal1_m56_MyFirstEnterFlag},	//(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp4.bin\0";   // Имя файла для сохранения констант
@@ -371,6 +374,32 @@ static ModbusRegister ir_AKNP4[]={  //
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_AKNP4[]={  // 
+	{&fEM_R0UR01RSS,8,0},	//( - , AKNP4) Уставка АКНП ПС  АЗ по периоду (сек)
+	{&fEM_R0UL52RSS,8,2},	//( - , AKNP4) Уровень АС по мощности
+	{&fEM_R0UL41RSS,8,4},	//( - , AKNP4) Уровень ПС по периоду разгона
+	{&fEM_R0UL51RSS,8,6},	//( - , AKNP4) Уровень АС по периоду разгона
+	{&fEM_R0UH02RSS,8,8},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{&fEM_R0UH03RSS,8,10},	//( - , AKNP4) Коэфф. преобразования частота->нейтр/с КНК53М
+	{&fEM_R0UL42RSS,8,12},	//( - , AKNP4) Уровень ПС по мощности
+	{&fEM_R7UX00RSS,8,14},	//( - , AKNP4) X-координата АЗ1 (см)
+	{&fEM_R7UY00RSS,8,16},	//( - , AKNP4) Y-координата АЗ1 (см)
+	{&fEM_R7UX10RSS,8,18},	//( - , AKNP4) X-координата камеры R7IN41
+	{&fEM_R7UX11RSS,8,20},	//( - , AKNP4) X-координата камеры R7IN42
+	{&fEM_R7UX12RSS,8,22},	//( - , AKNP4) X-координата камеры R7IN43
+	{&fEM_R7UY10RSS,8,24},	//( - , AKNP4) Y-координата камеры R7IN41
+	{&fEM_R7UY11RSS,8,26},	//( - , AKNP4) Y-координата камеры R7IN42
+	{&fEM_R7UY12RSS,8,28},	//( - , AKNP4) Y-координата камеры R7IN43
+	{&fEM_A0UX00RSS,8,30},	//( - , AKNP4) Эффективный радиус АЗ
+	{&fEM_A0UX10RSS,8,32},	//( - , AKNP4) Первый коэффициент калибровки камеры 10
+	{&fEM_A0UX11RSS,8,34},	//( - , AKNP4) Первый коэффициент калибровки камеры 11
+	{&fEM_A0UX12RSS,8,36},	//( - , AKNP4) Первый коэффициент калибровки камеры 12
+	{&fEM_B0UX10RSS,8,38},	//( - , AKNP4) Второй коэффициент калибровки камеры 10
+	{&fEM_B0UX11RSS,8,40},	//( - , AKNP4) Второй коэффициент калибровки камеры 11
+	{&fEM_B0UX12RSS,8,42},	//( - , AKNP4) Второй коэффициент калибровки камеры 12
+	{&fEM_R0UH05RSS,8,44},	//( - , AKNP4) Кол-во делений/сек на 1 ватт * E^6
+	{&fEM_R0UN03RSS,8,46},	//( - , AKNP4) Нижняя граница интервала мощности для измерения периода (ватт)
+	{&fEM_R0UL02RSS,8,48},	//( - , AKNP4) Tф-постоянная времени, с
+	{&fEM_R0UL01RSS,8,50},	//( - , AKNP4) Шаг (с) измерения периода
 	{NULL,0,0},
 };
 #pragma pop
@@ -680,7 +709,7 @@ void VCHS_post(vchs_data *vch_data) {
 
 }
 
-uspaint8 InternalBuf[41];
+uspaint8 InternalBuf[46];
 
 /* ����������� �������� ��� � ������*/
 ssint iRM_5_ = {5,0}; /* n - N-����������� ������� ������� ���������� */ 
@@ -749,7 +778,7 @@ _S_and2  S_and2_92_1 = {&R0DE31LS4,&R0DE32LS4,&var8};
 _S_diagndev  S_diagndev_90_1 = {array_m90_x_1,&iRM_4_,&var9,&var10};
 _S_ocham  S_ocham_22_1 = {&var3,&var2,&var1,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX10RSS,&fEM_B0UX10RSS,&fEM_A0UX11RSS,&fEM_B0UX11RSS,&fEM_A0UX12RSS,&fEM_B0UX12RSS,&fEM_R7UX10RSS,&fEM_R7UY10RSS,&fEM_R7UX11RSS,&fEM_R7UY11RSS,&fEM_R7UX12RSS,&fEM_R7UY12RSS,&bRM_1_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var11,&var12,&var13,&var14,&var15,&var16,&var17,&internal1_m22_Nk};
 _S_or2  S_or2_77_1 = {&R0EE04LZ1,&R0EE04LZ2,&var18};
-_S_period  S_period_56_1 = {&var12,&var23,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var19,&internal1_m56_flst,&internal1_m56_chsr,&internal1_m56_chizm,&internal1_m56_chpass,&internal1_m56_sumtim,&internal1_m56_W1,&internal1_m56_W2,&internal1_m56_y0,&internal1_m56_MyFirstEnterFlag};
+_S_period  S_period_56_1 = {&var12,&var23,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var19,&internal1_m56_flst,&internal1_m56_chsr,&internal1_m56_chizm,&internal1_m56_sumtim,&internal1_m56_W1,&internal1_m56_W2,&internal1_m56_Wmin,&internal1_m56_Wmax,&internal1_m56_y0,&internal1_m56_MyFirstEnterFlag};
 _S_andn  S_andn_66_1 = {array_m66_x_1,&iRM_2_,&var20};
 _S_bol  S_bol_63_1 = {&fEM_R0UL41RSS,&var19,&var21};
 _S_andn  S_andn_65_1 = {array_m65_x_1,&iRM_2_,&var22};
