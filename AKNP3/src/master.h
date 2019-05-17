@@ -707,18 +707,18 @@ void VCHS_post(vchs_data *vch_data) {
 
 uspaint8 InternalBuf[46];
 
-/* ����������� �������� ��� � ������*/
-ssint iRM_5_ = {5,0}; /* n - N-����������� ������� ������� ���������� */ 
-ssint iRM_2_ = {2,0}; /* n - N-����������� ������� ������� ���������� */ 
-sschar bRM_1_ = {1,0}; /* type - ��� ������ ���-11 1- ��� ��1, 2- ��� ��2, >2 ��� */ 
-ssint iRM_4_ = {4,0}; /* n - ����������� ������� �������� */ 
-ssint iRM_6_ = {6,0}; /* n - N-����������� ������� x */ 
+/* Определение констант ПЗУ и ЭСППЗУ*/
+ssint iRM_5_ = {5,0}; /* n - N-размерность массива входных параметров */ 
+ssint iRM_2_ = {2,0}; /* n - N-размерность массива входных параметров */ 
+sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
+ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
+ssint iRM_6_ = {6,0}; /* n - N-размерность массива x */ 
 ssbool lRM_1_ = {1,0}; /*  */ 
-ssfloat fRM_1_0 = {1.0,0}; /* k - K�-����������� �������� */ 
+ssfloat fRM_1_0 = {1.0,0}; /* k - Kф-коэффициент усиления */ 
 
 uspaint8 SpaEEPROMBuf[150];
 
-/* ����������� ���������� */
+/* Определение переменных */
 ssfloat var1;
 ssfloat var2;
 ssfloat var3;
@@ -755,14 +755,14 @@ ssbool vainSBool;
 sschar vainSChar;
 char vainSText[] = "";
 
-/* ���������� �������� */
+/* Объявление массивов */
 psbool  array_m104_x_1[6] = {&var5,&var4,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE39LS3};
 psint  array_m90_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
 psbool  array_m66_x_1[2] = {&var26,&var21};
 psbool  array_m65_x_1[2] = {&var26,&var27};
 psbool  array_m76_x_1[5] = {&var13,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&lRM_1_};
 
-/* ���������� �������� */
+/* Объявление структур */
 _S_ml  S_ml_8_1 = {&R0IN03FI3,&R0IN03FS3,&R0IS01FI0,&var1};
 _S_ml  S_ml_7_1 = {&R0IN02FI3,&R0IN02FS3,&R0IS01FI0,&var2};
 _S_ml  S_ml_6_1 = {&R0IN01FI3,&R0IN01FS3,&R0IS01FI0,&var3};
