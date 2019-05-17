@@ -509,7 +509,7 @@ static ModbusRegister hr_MA2S[]={  //
 };
 #pragma pop
 static char MA2S_ip1[]={"192.168.10.60\0"};
-static char MA2S_ip2[]={"192.168.10.160\0"};
+static char MA2S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP2[0],&di_AKNP2[0],&ir_AKNP2[0],&hr_AKNP2[0],NULL,NULL,NULL,0},	 //общий slave AKNP2

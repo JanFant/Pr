@@ -1034,7 +1034,7 @@ static ModbusRegister hr_MBz2S[]={  //
 };
 #pragma pop
 static char MBz2S_ip1[]={"192.168.10.60\0"};
-static char MBz2S_ip2[]={"192.168.10.160\0"};
+static char MBz2S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_MBz2A1[]={  // 
 	{NULL,0,0},

@@ -11,7 +11,7 @@
         <modbus   name="Baz2"      description="Общий слэйв"         type="slave"                                           port="5002"            xml="Baz2"/>
         <modbus   name="SBz2DU"    description="Слэйв для DU"        type="slave"                                           port="5009"            xml="SBz2DU"/>
         <modbus   name="DiagnBaz2" description="Диагностика Baz2"    type="slave"                                           port="5005"            xml="DiagnBaz2"/>
-        <modbus   name="MBz2S"     description="Мастер Баз2 в SCM"   type="master" ip1="192.168.10.60" ip2="192.168.10.160"  port="5004" step="100" xml="..\scm\SBz2.xml"/>
+        <modbus   name="MBz2S"     description="Мастер Баз2 в SCM"   type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5004" step="100" xml="..\scm\SBz2.xml"/>
         <modbus   name="MBz2A1"    description="Мастер Баз2 в AKNP1" type="master" ip1="192.168.10.51" ip2="192.168.10.151" port="5019" step="50" xml="..\AKNP1\A1Bz2.xml"/>
         <modbus   name="MBz2A2"    description="Мастер Баз2 в AKNP2" type="master" ip1="192.168.10.57" ip2="192.168.10.157" port="5020" step="50" xml="..\AKNP2\A2Bz2.xml"/>
         <modbus   name="MBz2A3"    description="Мастер Баз2 в AKNP3" type="master" ip1="192.168.10.53" ip2="192.168.10.153" port="5021" step="50" xml="..\AKNP3\A3Bz2.xml"/>

@@ -517,7 +517,7 @@ static ModbusRegister hr_MA4S[]={  //
 };
 #pragma pop
 static char MA4S_ip1[]={"192.168.10.60\0"};
-static char MA4S_ip2[]={"192.168.10.160\0"};
+static char MA4S_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_AKNP4[0],&di_AKNP4[0],&ir_AKNP4[0],&hr_AKNP4[0],NULL,NULL,NULL,0},	 //общий slave AKNP4

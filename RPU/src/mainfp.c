@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
             return EXIT_FAILURE;
     } else {
         if (initAllDrivers(drivers)) {
-            //Р вЂ”Р В°Р С—РЎС“РЎРѓРЎвЂљР С‘Р В»Р С‘РЎРѓРЎРЉ Р Р† РЎР‚Р ВµР В¶Р С‘Р СР Вµ РЎР‚Р ВµР В·Р ВµРЎР‚Р Р†Р Р…Р С•Р С–Р С•
+            //Запустились в режиме резервного
             syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
             InitInternalParametr();
             master = 0;
@@ -88,7 +88,7 @@ int main(int argc, char **argv) {
             closeUDP();
         };
     }
-    // Р В Р ВµР В¶Р С‘Р С Р С•РЎРѓР Р…Р С•Р Р†Р Р…Р С•Р С–Р С• Р В¤Р Сџ
+    // Режим основного ФП
     master = 1;
     if (initUDP(master, nomer, &setUDP) < 0)
         return EXIT_FAILURE;

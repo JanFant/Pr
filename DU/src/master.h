@@ -6643,7 +6643,7 @@ static ModbusRegister hr_MDuS[]={  //
 };
 #pragma pop
 static char MDuS_ip1[]={"192.168.10.60\0"};
-static char MDuS_ip2[]={"192.168.10.160\0"};
+static char MDuS_ip2[]={"192.168.10.60\0"};
 #pragma pack(push,1)
 static ModbusDevice modbuses[]={
 	{0,5002,&coil_DU[0],&di_DU[0],&ir_DU[0],&hr_DU[0],NULL,NULL,NULL,0},	 //Общий слэйв
