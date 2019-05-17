@@ -1,10 +1,10 @@
 <saves name="du.bin">
-  <save value ="0.0000976563">fEM_A1UC03RDU</save>
+  <save value ="0.00009765625">fEM_A1UC03RDU</save>
   <save value ="1024200">dEM_A1UC05UDU</save>
   <save value ="-200">dEM_A1UC06UDU</save>
   <save value ="-200">dEM_A2UC06UDU</save>
   <save value ="1024200">dEM_A2UC05UDU</save>
-  <save value ="0.0000976563">fEM_A2UC03RDU</save>
+  <save value ="0.00009765625">fEM_A2UC03RDU</save>
   <save value ="-200">dEM_A3UC06UDU</save>
   <save value ="1689599">dEM_A3UC05UDU</save>
   <save value ="0.00009765625">fEM_A3UC03RDU</save>

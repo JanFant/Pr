@@ -615,18 +615,18 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(55,10);
+	setAsFloat(55,5000);
 	setAsFloat(56,5100);
 	setAsFloat(57,20);
 	setAsFloat(58,13.0);
 	setAsFloat(59,37037.04 );
-	setAsFloat(60,97500.0);
+	setAsFloat(60,975000.0);
 	setAsFloat(61,5000);
 	setAsFloat(62,1570.0);
 	setAsFloat(63,1585.0);
 	setAsFloat(64,1796.0);
 	setAsFloat(65,1269.0);
-	setAsFloat(66,506.6);
+	setAsFloat(66,506.5);
 	setAsFloat(67,248.0);
 	setAsFloat(68,284.5);
 	setAsFloat(69,256.0);
@@ -707,7 +707,6 @@ ssint iRM_5_ = {5,0}; /* n - N-размерность массива x */
 sschar bRM_2_ = {2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РПУ */ 
 ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
 ssbool lRM_1_ = {1,0}; /*  */ 
-ssfloat fRM_1_0 = {1.0,0}; /* k - Kф-коэффициент усиления */ 
 
 uspaint8 SpaEEPROMBuf[150];
 

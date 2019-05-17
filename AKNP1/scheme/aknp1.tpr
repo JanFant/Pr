@@ -5,7 +5,7 @@
   [TableConstant]{
     [TConst]{
       Name="R0UR01RSS"
-      Value="10"
+      Value="5000"
       Type=1
       Numeration=0
       MemoryType=1
@@ -115,7 +115,7 @@
     }
     [TConst]{
       Name="R0UH03RSS"
-      Value="97500.0"
+      Value="975000.0"
       Type=1
       Numeration=0
       MemoryType=1
@@ -247,7 +247,7 @@
     }
     [TConst]{
       Name="R7UY00RSS"
-      Value="506.6"
+      Value="506.5"
       Type=1
       Numeration=0
       MemoryType=1
@@ -781,28 +781,6 @@
       MemoryType=0
       ESPPZUType=0
       Description=""
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
-    [TConst]{
-      Name="K"
-      Value="1.0"
-      Type=1
-      Numeration=0
-      MemoryType=0
-      ESPPZUType=0
-      Description="k - Kф-коэффициент усиления"
       MinValue=""
       MaxValue=""
       Group=""
@@ -5336,4 +5314,4 @@
     }
   }
 }
-5136204
+5114418

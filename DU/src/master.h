@@ -7087,12 +7087,12 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(740,0.0000976563);
+	setAsFloat(740,0.00009765625);
 	setAsInt(741,1024200);
 	setAsInt(742,-200);
 	setAsInt(743,-200);
 	setAsInt(744,1024200);
-	setAsFloat(745,0.0000976563);
+	setAsFloat(745,0.00009765625);
 	setAsInt(746,-200);
 	setAsInt(747,1689599);
 	setAsFloat(748,0.00009765625);

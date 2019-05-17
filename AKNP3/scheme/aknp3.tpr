@@ -839,28 +839,6 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
-    [TConst]{
-      Name="K"
-      Value="1.0"
-      Type=1
-      Numeration=0
-      MemoryType=0
-      ESPPZUType=0
-      Description="k - Kф-коэффициент усиления"
-      MinValue=""
-      MaxValue=""
-      Group=""
-      Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=3
-      FormatMB=8
-      HstInterv_item=3
-      HstInterv_val=1
-      HistReg=0
-      SinhrCycle_item=3
-      SinhrCycle_val=1
-    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -5482,4 +5460,4 @@
     }
   }
 }
-5266261
+5244328
