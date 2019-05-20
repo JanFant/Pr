@@ -752,12 +752,12 @@
 <var  name="fEM_A8UC03RDU" description="(A8UC03RDU) Коэффициент преобразования показаний энкодера АЗ2/ДС2, мм/дел.энкодера" format="8"></var>
 <var  name="dEM_A8UC05UDU" description="(A8UC05UDU) Верхняя граница показания энкодера АЗ2/ДС2, деления энкодера" format="5"></var>
 <var  name="fEM_R0UV81RDU" description="(R0UV81RDU) 1-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV82RDU" description="(R0UV82RDU) 3-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV83RDU" description="(R0UV83RDU) 4-я частота двигателя (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV84RDU" description="(R0UV84RDU) 5-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV82RDU" description="(R0UV82RDU) 2-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV83RDU" description="(R0UV83RDU) 3-я частота двигателя (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV84RDU" description="(R0UV84RDU) 4-я частота двигателя (шагов/секунду)" format="8"></var>
 <var  name="fEM_R0UV86RDU" description="(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
 <var  name="fEM_R0UV85RDU" description="(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
-<var  name="fEM_R0UV87RDU" description="(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var  name="fEM_R0UV87RDU" description="(R0UV87RDU) 8-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
 <var  name="fEM_A3UP03RDU" description="(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
 <var  name="fEM_A3UP04RDU" description="(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
 <var  name="fEM_A3UP43RDU" description="(A3UP43RDU) Уровень срабатывания аварийной сигнализации по давлению ВЫСТРЕЛ ИС" format="8"></var>

@@ -6988,7 +6988,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UV82RDU</value>
-            <value name="description">( - , DU) 3-я частота двигателя (шагов/секунду)</value>
+            <value name="description">( - , DU) 2-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">45</value>
@@ -7001,7 +7001,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UV83RDU</value>
-            <value name="description">( - , DU) 4-я частота двигателя (шагов/секунду)</value>
+            <value name="description">( - , DU) 3-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">47</value>
@@ -7014,7 +7014,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UV84RDU</value>
-            <value name="description">( - , DU) 5-я частота двигателя (шагов/секунду)</value>
+            <value name="description">( - , DU) 4-я частота двигателя (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">49</value>
@@ -7053,7 +7053,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UV87RDU</value>
-            <value name="description">( - , DU) 7-я скорость перемещения ББ (шагов/секунду)</value>
+            <value name="description">( - , DU) 8-я скорость перемещения ББ (шагов/секунду)</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">55</value>
