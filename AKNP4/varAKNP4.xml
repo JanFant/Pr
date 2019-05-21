@@ -87,6 +87,7 @@
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (с) измерения периода" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
+<var  name="internal1_m90_sttlf" description="(internal1_m90_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m56_flst" description="(internal1_m56_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m56_chsr" description="(internal1_m56_chsr)  счетчик усреднения" format="3"></var>
@@ -96,6 +97,7 @@
 <var  name="internal1_m56_W2" description="(internal1_m56_W2)  мощность в конце измерения" format="8"></var>
 <var  name="internal1_m56_Wmin" description="(internal1_m56_Wmin)  минимальное измерение в серии" format="8"></var>
 <var  name="internal1_m56_Wmax" description="(internal1_m56_Wmax)  максимальное измерение в серии" format="8"></var>
+<var  name="internal1_m56_Wlast" description="(internal1_m56_Wlast)  последнее растущее измерение" format="8"></var>
 <var  name="internal1_m56_y0" description="(internal1_m56_y0) y0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m56_MyFirstEnterFlag" description="(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

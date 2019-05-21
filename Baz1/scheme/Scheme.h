@@ -1,5 +1,5 @@
 /* Определение внутренних параметров */
-uspaint8 InternalBuf[127];
+uspaint8 InternalBuf[130];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssbool lRM_0_ = {0,0}; /* A-Граница участка насыщения А */ 
@@ -239,7 +239,7 @@ _S_orn  S_orn_383_1 = {array_m383_x_1,&iRM_6_,&var6};
 _S_or2  S_or2_390_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var7};
 _S_or2  S_or2_381_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var8};
 _S_and2  S_and2_372_1 = {&R0DE31LZ1,&R0DE32LZ1,&var9};
-_S_diagndev  S_diagndev_370_1 = {array_m370_x_1,&iRM_6_,&var10,&var11};
+_S_diagndev  S_diagndev_370_1 = {array_m370_x_1,&iRM_6_,&var10,&var11,&vainSFloat,&internal1_m370_sttlf};
 _S_ma  S_ma_193_1 = {array_m193_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
 _S_and3  S_and3_237_1 = {&var15,&var25,&var24,&var12};
 _S_and3  S_and3_234_1 = {&var25,&var15,&var134,&var13};

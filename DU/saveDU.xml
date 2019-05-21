@@ -159,6 +159,9 @@
   <save value ="0.1">fEM_R0UN15RDU</save>
   <save value ="0.006792308">fEM_R0UN26RDU</save>
   <save value ="0.000418877">fEM_R0UN27RDU</save>
-  <save value ="0.0015">fEM_R0UN24RDU</save>
+  <save value ="0.001">fEM_R0UN24RDU</save>
   <save value ="0.30">fEM_R0UL25RDU</save>
+  <save value ="0.5">fEM_R0UL01RSS</save>
+  <save value ="2.0">fEM_R0UL02RSS</save>
+  <save value ="0.005">fEM_R0UN03RSS</save>
 </saves>

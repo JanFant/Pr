@@ -176,7 +176,7 @@
 <var  name="R0VN66LZ1" description="( - , Baz1) ПС по периоду разгона канал 2" format="1"></var>
 <var  name="R0VN67LZ1" description="( - , Baz1) ПС по периоду разгона канал 3" format="1"></var>
 <var  name="R0VN68LZ1" description="( - , Baz1) ПС по периоду разгона канал 4" format="1"></var>
-<var  name="R0VN09RZ1" description="( - , Baz1, SBz1DU) Усредненный период разгона" format="8"></var>
+<var  name="R0VN09RZ1" description="( - , Baz1) Усредненный период разгона" format="8"></var>
 <var  name="A3IS11LDU" description="(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IS22LDU" description="(vds32:05 - K06VDSR, - ) Приход на НУП ИС1" format="1"></var>
 <var  name="R0AD03LZ1" description="(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС" format="1"></var>
@@ -217,6 +217,7 @@
 <var  name="internal1_m135_y0" description="(internal1_m135_y0) y0" format="18"></var>
 <var  name="internal1_m134_tx" description="(internal1_m134_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m134_y0" description="(internal1_m134_y0) y0" format="18"></var>
+<var  name="internal1_m370_sttlf" description="(internal1_m370_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m249_tx" description="(internal1_m249_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m249_y0" description="(internal1_m249_y0) y0" format="18"></var>
 <var  name="internal1_m257_tx" description="(internal1_m257_tx) tx - время накопленное сек" format="8"></var>

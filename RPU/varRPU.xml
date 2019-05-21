@@ -114,6 +114,7 @@
 <var  name="fEM_Z7UE20RRP" description="(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
+<var  name="internal1_m140_sttlf" description="(internal1_m140_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m21_Nk" description="(internal1_m21_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m72_tx" description="(internal1_m72_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m72_y0" description="(internal1_m72_y0) y0" format="18"></var>

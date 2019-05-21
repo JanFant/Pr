@@ -219,11 +219,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">8</value>
-            <value name="nID">16</value>
+            <value name="nID">15</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">42</value>
-            <value name="OldData">42</value>
+            <value name="ParData">37</value>
+            <value name="OldData">37</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -232,11 +232,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">9</value>
-            <value name="nID">17</value>
+            <value name="nID">16</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">44</value>
-            <value name="OldData">44</value>
+            <value name="ParData">39</value>
+            <value name="OldData">39</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -245,11 +245,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">10</value>
-            <value name="nID">18</value>
+            <value name="nID">17</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">46</value>
-            <value name="OldData">46</value>
+            <value name="ParData">41</value>
+            <value name="OldData">41</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -258,11 +258,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">11</value>
-            <value name="nID">19</value>
+            <value name="nID">18</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">48</value>
-            <value name="OldData">48</value>
+            <value name="ParData">43</value>
+            <value name="OldData">43</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -271,11 +271,11 @@
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">12</value>
-            <value name="nID">20</value>
+            <value name="nID">19</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">50</value>
-            <value name="OldData">50</value>
+            <value name="ParData">45</value>
+            <value name="OldData">45</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -305,29 +305,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0VN09RZ2</value>
-            <value name="description">( - , Baz2, SBz2DU) Усредненный период разгона</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">4</value>
-            <value name="nID">15</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">37</value>
-            <value name="OldData">37</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">A0CT01IZ2</value>
             <value name="description">( - , Baz2, SBz2DU) Температура АЗ1-1</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">6</value>
-            <value name="nID">21</value>
+            <value name="address">4</value>
+            <value name="nID">20</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">52</value>
-            <value name="OldData">52</value>
+            <value name="ParData">47</value>
+            <value name="OldData">47</value>
             <value name="unitId">1</value>
         </record>
         <record>
