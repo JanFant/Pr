@@ -125,9 +125,9 @@
         <record>
             <value name="name">ttlAknp1</value>
             <value name="description">( - , SA1) </value>
-            <value name="type">2</value>
+            <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">6</value>
+            <value name="address">0</value>
             <value name="nID">5</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
