@@ -2,7 +2,7 @@
 <var  name="R0DE02LS1" description="(vchs:02 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 2 месте" format="3"></var>
 <var  name="R0DE04LS1" description="(vds32:04 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 4 месте" format="3"></var>
 <var  name="R0DE05LS1" description="(fds16:05 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 5 месте" format="3"></var>
-<var  name="TTLaknp1" description="( - , AKNP1) ttl" format="3"></var>
+<var  name="TTL" description="( - , AKNP1) ttl" format="3"></var>
 <var  name="R0DE31LS1" description="(sbk:20 - S01SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 1" format="1"></var>
 <var  name="R0DE32LS1" description="(sbk:20 - S02SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 2" format="1"></var>
 <var  name="R0DE33LS1" description="(sbk:20 - S03SBK, DiagnAKNP1) диагностика шкафа АКНП1 двери" format="1"></var>
@@ -26,7 +26,6 @@
 <var  name="R0IN02FS1" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI1" description="( - , MA1S) Выход КНК53М Гц от ПТИ" format="8"></var>
 <var  name="ttlAknp1" description="( - , AKNP1, MA1S) ttlAknp1" format="8"></var>
-<var  name="TTL" description="( - , AKNP1) ttl" format="3"></var>
 <var  name="R0VN02RS1" description="( - , A1Bz1, A1Bz2) Уровень мощности" format="8"></var>
 <var  name="R0VN01RS1" description="( - , A1Bz1, A1Bz2) Период разгона канал1" format="8"></var>
 <var  name="R0VN61LS1" description="( - , A1Bz1, A1Bz2) ПС по мощности канал1" format="1"></var>
