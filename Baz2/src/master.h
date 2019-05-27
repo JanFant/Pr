@@ -117,16 +117,16 @@ int nomer = 1;
 #define idA3IS22LDU	 51	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
 #define R0AD03LZ2	 BUFFER[119]	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
 #define idR0AD03LZ2	 52	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
-#define A3VZ31LZ2	 BUFFER[121]	//( - , Baz2) АЗ от ВУ ИС1
-#define idA3VZ31LZ2	 53	//( - , Baz2) АЗ от ВУ ИС1
-#define B3VZ31LZ2	 BUFFER[123]	//( - , Baz2) АЗ от ВУ ИС2
-#define idB3VZ31LZ2	 54	//( - , Baz2) АЗ от ВУ ИС2
+#define A3VZ31LZ2	 BUFFER[121]	//( - , - ) АЗ от ВУ ИС1
+#define idA3VZ31LZ2	 53	//( - , - ) АЗ от ВУ ИС1
+#define B3VZ31LZ2	 BUFFER[123]	//( - , - ) АЗ от ВУ ИС2
+#define idB3VZ31LZ2	 54	//( - , - ) АЗ от ВУ ИС2
 #define R0AD05LZ2	 BUFFER[125]	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
 #define idR0AD05LZ2	 55	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
 #define A3VZ11LZ2	 BUFFER[127]	//( - , Baz2) АЗ от НУП ИС1
 #define idA3VZ11LZ2	 56	//( - , Baz2) АЗ от НУП ИС1
-#define B3VZ11LZ2	 BUFFER[129]	//( - , Baz2) АЗ от НУП ИС2
-#define idB3VZ11LZ2	 57	//( - , Baz2) АЗ от НУП ИС2
+#define B3VZ11LZ2	 BUFFER[129]	//( - , - ) АЗ от НУП ИС2
+#define idB3VZ11LZ2	 57	//( - , - ) АЗ от НУП ИС2
 #define B3IS22LDU	 BUFFER[131]	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
 #define idB3IS22LDU	 58	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
 #define A3VZ15LZ2	 BUFFER[133]	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
@@ -425,26 +425,26 @@ int nomer = 1;
 #define idfEM_A1UL13RZZ	 205	//(A1UL13RZZ) Максимальное время цикла
 #define bFirstEnterFlag	 BUFFER[569]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 206	//(bFirstEnterFlag) 
-#define internal1_m208_TVuIs1	 BUFFER[571]	//(internal1_m208_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
-#define idinternal1_m208_TVuIs1	 207	//(internal1_m208_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
-#define internal1_m208_TVuIs2	 BUFFER[576]	//(internal1_m208_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
-#define idinternal1_m208_TVuIs2	 208	//(internal1_m208_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
-#define internal1_m208_TImVuIs	 BUFFER[581]	//(internal1_m208_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
-#define idinternal1_m208_TImVuIs	 209	//(internal1_m208_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
-#define internal1_m208_TNupIs1	 BUFFER[586]	//(internal1_m208_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
-#define idinternal1_m208_TNupIs1	 210	//(internal1_m208_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
-#define internal1_m208_TNupIs2	 BUFFER[591]	//(internal1_m208_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
-#define idinternal1_m208_TNupIs2	 211	//(internal1_m208_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
-#define internal1_m208_TImNupIs	 BUFFER[596]	//(internal1_m208_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
-#define idinternal1_m208_TImNupIs	 212	//(internal1_m208_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
-#define internal1_m208_TImAZ2UR	 BUFFER[601]	//(internal1_m208_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
-#define idinternal1_m208_TImAZ2UR	 213	//(internal1_m208_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
-#define internal1_m208_fef	 BUFFER[606]	//(internal1_m208_fef) fef
-#define idinternal1_m208_fef	 214	//(internal1_m208_fef) fef
-#define internal1_m228_tx	 BUFFER[608]	//(internal1_m228_tx) tx - время накопленное сек
-#define idinternal1_m228_tx	 215	//(internal1_m228_tx) tx - время накопленное сек
-#define internal1_m228_y0	 BUFFER[613]	//(internal1_m228_y0) y0
-#define idinternal1_m228_y0	 216	//(internal1_m228_y0) y0
+#define internal1_m207_TVuIs1	 BUFFER[571]	//(internal1_m207_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
+#define idinternal1_m207_TVuIs1	 207	//(internal1_m207_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
+#define internal1_m207_TVuIs2	 BUFFER[576]	//(internal1_m207_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
+#define idinternal1_m207_TVuIs2	 208	//(internal1_m207_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
+#define internal1_m207_TImVuIs	 BUFFER[581]	//(internal1_m207_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
+#define idinternal1_m207_TImVuIs	 209	//(internal1_m207_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
+#define internal1_m207_TNupIs1	 BUFFER[586]	//(internal1_m207_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
+#define idinternal1_m207_TNupIs1	 210	//(internal1_m207_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
+#define internal1_m207_TNupIs2	 BUFFER[591]	//(internal1_m207_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
+#define idinternal1_m207_TNupIs2	 211	//(internal1_m207_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
+#define internal1_m207_TImNupIs	 BUFFER[596]	//(internal1_m207_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
+#define idinternal1_m207_TImNupIs	 212	//(internal1_m207_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
+#define internal1_m207_TImAZ2UR	 BUFFER[601]	//(internal1_m207_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
+#define idinternal1_m207_TImAZ2UR	 213	//(internal1_m207_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
+#define internal1_m207_fef	 BUFFER[606]	//(internal1_m207_fef) fef
+#define idinternal1_m207_fef	 214	//(internal1_m207_fef) fef
+#define internal1_m227_tx	 BUFFER[608]	//(internal1_m227_tx) tx - время накопленное сек
+#define idinternal1_m227_tx	 215	//(internal1_m227_tx) tx - время накопленное сек
+#define internal1_m227_y0	 BUFFER[613]	//(internal1_m227_y0) y0
+#define idinternal1_m227_y0	 216	//(internal1_m227_y0) y0
 #define internal1_m111_tx	 BUFFER[614]	//(internal1_m111_tx) tx - время накопленное сек
 #define idinternal1_m111_tx	 217	//(internal1_m111_tx) tx - время накопленное сек
 #define internal1_m111_y0	 BUFFER[619]	//(internal1_m111_y0) y0
@@ -469,14 +469,14 @@ int nomer = 1;
 #define idinternal1_m139_tx	 227	//(internal1_m139_tx) tx - время накопленное сек
 #define internal1_m139_y0	 BUFFER[649]	//(internal1_m139_y0) y0
 #define idinternal1_m139_y0	 228	//(internal1_m139_y0) y0
-#define internal1_m337_sttlf	 BUFFER[650]	//(internal1_m337_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m337_sttlf	 229	//(internal1_m337_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m300_tx	 BUFFER[653]	//(internal1_m300_tx) tx - время накопленное сек
-#define idinternal1_m300_tx	 230	//(internal1_m300_tx) tx - время накопленное сек
-#define internal1_m300_y0	 BUFFER[658]	//(internal1_m300_y0) y0
-#define idinternal1_m300_y0	 231	//(internal1_m300_y0) y0
-#define internal1_m33_tx	 BUFFER[659]	//(internal1_m33_tx) tx - внутренний параметр
-#define idinternal1_m33_tx	 232	//(internal1_m33_tx) tx - внутренний параметр
+#define internal1_m336_sttlf	 BUFFER[650]	//(internal1_m336_sttlf) sttlf - счетчик для вещественного формата
+#define idinternal1_m336_sttlf	 229	//(internal1_m336_sttlf) sttlf - счетчик для вещественного формата
+#define internal1_m299_tx	 BUFFER[653]	//(internal1_m299_tx) tx - время накопленное сек
+#define idinternal1_m299_tx	 230	//(internal1_m299_tx) tx - время накопленное сек
+#define internal1_m299_y0	 BUFFER[658]	//(internal1_m299_y0) y0
+#define idinternal1_m299_y0	 231	//(internal1_m299_y0) y0
+#define internal1_m32_tx	 BUFFER[659]	//(internal1_m32_tx) tx - внутренний параметр
+#define idinternal1_m32_tx	 232	//(internal1_m32_tx) tx - внутренний параметр
 #define internal1_m150_y0	 BUFFER[662]	//(internal1_m150_y0) y0
 #define idinternal1_m150_y0	 233	//(internal1_m150_y0) y0
 #define internal1_m148_y0	 BUFFER[667]	//(internal1_m148_y0) y0
@@ -489,16 +489,16 @@ int nomer = 1;
 #define idinternal1_m161_y1	 237	//(internal1_m161_y1) y1 - внутренний параметр
 #define internal1_m172_y1	 BUFFER[684]	//(internal1_m172_y1) y1 - внутренний параметр
 #define idinternal1_m172_y1	 238	//(internal1_m172_y1) y1 - внутренний параметр
-#define internal1_m286_q0	 BUFFER[686]	//(internal1_m286_q0) q0 - внутренний параметр
-#define idinternal1_m286_q0	 239	//(internal1_m286_q0) q0 - внутренний параметр
+#define internal1_m285_q0	 BUFFER[686]	//(internal1_m285_q0) q0 - внутренний параметр
+#define idinternal1_m285_q0	 239	//(internal1_m285_q0) q0 - внутренний параметр
 #define internal1_m130_y0	 BUFFER[691]	//(internal1_m130_y0) state
 #define idinternal1_m130_y0	 240	//(internal1_m130_y0) state
 #define internal1_m124_y0	 BUFFER[693]	//(internal1_m124_y0) state
 #define idinternal1_m124_y0	 241	//(internal1_m124_y0) state
 #define internal1_m107_y1	 BUFFER[695]	//(internal1_m107_y1) y1 - внутренний параметр
 #define idinternal1_m107_y1	 242	//(internal1_m107_y1) y1 - внутренний параметр
-#define internal1_m120_y1	 BUFFER[697]	//(internal1_m120_y1) y1 - внутренний параметр
-#define idinternal1_m120_y1	 243	//(internal1_m120_y1) y1 - внутренний параметр
+#define internal1_m119_y1	 BUFFER[697]	//(internal1_m119_y1) y1 - внутренний параметр
+#define idinternal1_m119_y1	 243	//(internal1_m119_y1) y1 - внутренний параметр
 #define internal1_m94_y1	 BUFFER[699]	//(internal1_m94_y1) y1 - внутренний параметр
 #define idinternal1_m94_y1	 244	//(internal1_m94_y1) y1 - внутренний параметр
 #define internal1_m105_y1	 BUFFER[701]	//(internal1_m105_y1) y1 - внутренний параметр
@@ -561,11 +561,11 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 50	,1	,1	, &A3IS11LDU},	//(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1
 	{ 51	,1	,1	, &A3IS22LDU},	//(vds32:05 - K06VDSR, - ) Приход на НУП ИС1
 	{ 52	,1	,1	, &R0AD03LZ2},	//(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС
-	{ 53	,1	,1	, &A3VZ31LZ2},	//( - , Baz2) АЗ от ВУ ИС1
-	{ 54	,1	,1	, &B3VZ31LZ2},	//( - , Baz2) АЗ от ВУ ИС2
+	{ 53	,1	,1	, &A3VZ31LZ2},	//( - , - ) АЗ от ВУ ИС1
+	{ 54	,1	,1	, &B3VZ31LZ2},	//( - , - ) АЗ от ВУ ИС2
 	{ 55	,1	,1	, &R0AD05LZ2},	//(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС
 	{ 56	,1	,1	, &A3VZ11LZ2},	//( - , Baz2) АЗ от НУП ИС1
-	{ 57	,1	,1	, &B3VZ11LZ2},	//( - , Baz2) АЗ от НУП ИС2
+	{ 57	,1	,1	, &B3VZ11LZ2},	//( - , - ) АЗ от НУП ИС2
 	{ 58	,1	,1	, &B3IS22LDU},	//(vds32:06 - K06VDSR, - ) Приход на НУП ИС2
 	{ 59	,1	,1	, &A3VZ15LZ2},	//(fds16:0a - K02FDSR, - ) Имитация АЗ от НУП ИС
 	{ 60	,1	,1	, &A3VZ13LZ2},	//(fds16:0a - K01FDSR, - ) Имитация АЗ от ВУ ИС
@@ -715,16 +715,16 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 204	,8	,1	, &fEM_R7UI73RZZ},	//(R7UI73RZZ) Время задержки  срабатывания АС II УР
 	{ 205	,8	,1	, &fEM_A1UL13RZZ},	//(A1UL13RZZ) Максимальное время цикла
 	{ 206	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 207	,8	,1	, &internal1_m208_TVuIs1},	//(internal1_m208_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
-	{ 208	,8	,1	, &internal1_m208_TVuIs2},	//(internal1_m208_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
-	{ 209	,8	,1	, &internal1_m208_TImVuIs},	//(internal1_m208_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
-	{ 210	,8	,1	, &internal1_m208_TNupIs1},	//(internal1_m208_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
-	{ 211	,8	,1	, &internal1_m208_TNupIs2},	//(internal1_m208_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
-	{ 212	,8	,1	, &internal1_m208_TImNupIs},	//(internal1_m208_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
-	{ 213	,8	,1	, &internal1_m208_TImAZ2UR},	//(internal1_m208_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
-	{ 214	,1	,1	, &internal1_m208_fef},	//(internal1_m208_fef) fef
-	{ 215	,8	,1	, &internal1_m228_tx},	//(internal1_m228_tx) tx - время накопленное сек
-	{ 216	,18	,1	, &internal1_m228_y0},	//(internal1_m228_y0) y0
+	{ 207	,8	,1	, &internal1_m207_TVuIs1},	//(internal1_m207_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1
+	{ 208	,8	,1	, &internal1_m207_TVuIs2},	//(internal1_m207_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2
+	{ 209	,8	,1	, &internal1_m207_TImVuIs},	//(internal1_m207_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 
+	{ 210	,8	,1	, &internal1_m207_TNupIs1},	//(internal1_m207_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1
+	{ 211	,8	,1	, &internal1_m207_TNupIs2},	//(internal1_m207_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2
+	{ 212	,8	,1	, &internal1_m207_TImNupIs},	//(internal1_m207_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС
+	{ 213	,8	,1	, &internal1_m207_TImAZ2UR},	//(internal1_m207_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР
+	{ 214	,1	,1	, &internal1_m207_fef},	//(internal1_m207_fef) fef
+	{ 215	,8	,1	, &internal1_m227_tx},	//(internal1_m227_tx) tx - время накопленное сек
+	{ 216	,18	,1	, &internal1_m227_y0},	//(internal1_m227_y0) y0
 	{ 217	,8	,1	, &internal1_m111_tx},	//(internal1_m111_tx) tx - время накопленное сек
 	{ 218	,18	,1	, &internal1_m111_y0},	//(internal1_m111_y0) y0
 	{ 219	,8	,1	, &internal1_m110_tx},	//(internal1_m110_tx) tx - время накопленное сек
@@ -737,21 +737,21 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 226	,18	,1	, &internal1_m140_y0},	//(internal1_m140_y0) y0
 	{ 227	,8	,1	, &internal1_m139_tx},	//(internal1_m139_tx) tx - время накопленное сек
 	{ 228	,18	,1	, &internal1_m139_y0},	//(internal1_m139_y0) y0
-	{ 229	,3	,1	, &internal1_m337_sttlf},	//(internal1_m337_sttlf) sttlf - счетчик для вещественного формата
-	{ 230	,8	,1	, &internal1_m300_tx},	//(internal1_m300_tx) tx - время накопленное сек
-	{ 231	,18	,1	, &internal1_m300_y0},	//(internal1_m300_y0) y0
-	{ 232	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
+	{ 229	,3	,1	, &internal1_m336_sttlf},	//(internal1_m336_sttlf) sttlf - счетчик для вещественного формата
+	{ 230	,8	,1	, &internal1_m299_tx},	//(internal1_m299_tx) tx - время накопленное сек
+	{ 231	,18	,1	, &internal1_m299_y0},	//(internal1_m299_y0) y0
+	{ 232	,3	,1	, &internal1_m32_tx},	//(internal1_m32_tx) tx - внутренний параметр
 	{ 233	,8	,1	, &internal1_m150_y0},	//(internal1_m150_y0) y0
 	{ 234	,8	,1	, &internal1_m148_y0},	//(internal1_m148_y0) y0
 	{ 235	,8	,1	, &internal1_m92_y0},	//(internal1_m92_y0) y0
 	{ 236	,8	,1	, &internal1_m90_y0},	//(internal1_m90_y0) y0
 	{ 237	,1	,1	, &internal1_m161_y1},	//(internal1_m161_y1) y1 - внутренний параметр
 	{ 238	,1	,1	, &internal1_m172_y1},	//(internal1_m172_y1) y1 - внутренний параметр
-	{ 239	,5	,1	, &internal1_m286_q0},	//(internal1_m286_q0) q0 - внутренний параметр
+	{ 239	,5	,1	, &internal1_m285_q0},	//(internal1_m285_q0) q0 - внутренний параметр
 	{ 240	,1	,1	, &internal1_m130_y0},	//(internal1_m130_y0) state
 	{ 241	,1	,1	, &internal1_m124_y0},	//(internal1_m124_y0) state
 	{ 242	,1	,1	, &internal1_m107_y1},	//(internal1_m107_y1) y1 - внутренний параметр
-	{ 243	,1	,1	, &internal1_m120_y1},	//(internal1_m120_y1) y1 - внутренний параметр
+	{ 243	,1	,1	, &internal1_m119_y1},	//(internal1_m119_y1) y1 - внутренний параметр
 	{ 244	,1	,1	, &internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
 	{ 245	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
 	{ 246	,1	,1	, &internal1_m160_y1},	//(internal1_m160_y1) y1 - внутренний параметр
@@ -787,17 +787,17 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 };
 #pragma pack(push,1)
 static ModbusRegister coil_Baz2[]={  // 
-	{&R0AD14LDU,1,0},	//( - , Baz2) Имитация срабатывания верхней АС II УР
-	{&R0MD34LP1,1,1},	//( - , Baz2) Кнопка Квитировать
-	{&A0EE08LZ2,1,2},	//( - , Baz2) Исправность сети АКНП4
-	{&A0EE07LZ2,1,3},	//( - , Baz2) Исправность сети АКНП3
-	{&A0EE06LZ2,1,4},	//( - , Baz2) Исправность сети АКНП2
-	{&A0EE05LZ2,1,5},	//( - , Baz2) Исправность сети АКНП1
-	{&R7II72LZ2,1,6},	//( - K06VDSR, Baz2) Сработала АС IУР РАД  (датчик 2)
-	{&R7II71LZ2,1,7},	//( - K05VDSR, Baz2) Сработала АС IУР РАД (датчик 1)
-	{&R7II73LZ2,1,8},	//( - K07VDSR, Baz2) Сработала АС II УР РАД
-	{&R0EE02LDU,1,9},	//( - , Baz2) Питание  АКНП  отключить
-	{&R0AD16LDU,1,10},	//( - , Baz2) Имитация срабатывания верхней АС I УР
+	{&A0EE08LZ2,1,0},	//( - , Baz2) Исправность сети АКНП4
+	{&A0EE07LZ2,1,1},	//( - , Baz2) Исправность сети АКНП3
+	{&A0EE06LZ2,1,2},	//( - , Baz2) Исправность сети АКНП2
+	{&A0EE05LZ2,1,3},	//( - , Baz2) Исправность сети АКНП1
+	{&R7II72LZ2,1,4},	//( - K06VDSR, Baz2) Сработала АС IУР РАД  (датчик 2)
+	{&R7II71LZ2,1,5},	//( - K05VDSR, Baz2) Сработала АС IУР РАД (датчик 1)
+	{&R7II73LZ2,1,6},	//( - K07VDSR, Baz2) Сработала АС II УР РАД
+	{&R0EE02LDU,1,7},	//( - , Baz2) Питание  АКНП  отключить
+	{&R0AD16LDU,1,8},	//( - , Baz2) Имитация срабатывания верхней АС I УР
+	{&R0AD14LDU,1,9},	//( - , Baz2) Имитация срабатывания верхней АС II УР
+	{&R0MD34LP1,1,10},	//( - , Baz2) Кнопка Квитировать
 	{NULL,0,0},
 };
 #pragma pop
@@ -816,52 +816,49 @@ static ModbusRegister di_Baz2[]={  //
 	{&A0VZ71LZ2,1,10},	//( - , Baz2) Обобщенный сигнал АС по АЗ1
 	{&A0EE03LZ2,1,11},	//( - , Baz2, SBz2DU) Исправность АКНП3
 	{&A0EE02LZ2,1,12},	//( - , Baz2, SBz2DU) Исправность АКНП2
-	{&B3VZ11LZ2,1,13},	//( - , Baz2) АЗ от НУП ИС2
-	{&A3VZ11LZ2,1,14},	//( - , Baz2) АЗ от НУП ИС1
-	{&B3VZ31LZ2,1,15},	//( - , Baz2) АЗ от ВУ ИС2
-	{&A3VZ31LZ2,1,16},	//( - , Baz2) АЗ от ВУ ИС1
-	{&TestDiagnBaz2,1,17},	//( - , Baz2) Неисправность от
-	{&R0AD16LZ2,1,18},	//( - , Baz2) Имитация АЗ от 1УР (датчик2)
-	{&R0AD15LZ2,1,19},	//( - , Baz2) Имитация АЗ от 1УР (датчик1)
-	{&R0VN78LZ2,1,20},	//( - K02VDSR, Baz2) АС по периоду разгона канал  4
-	{&R0VN77LZ2,1,21},	//( - K02VDSR, Baz2) АС по периоду разгона канал  3
-	{&R0VN74LZ2,1,22},	//( - K01VDSR, Baz2) АС по мощности канал 4
-	{&R0VN73LZ2,1,23},	//( - K01VDSR, Baz2) АС по мощности канал 3
-	{&R0VN76LZ2,1,24},	//( - K02VDSR, Baz2) АС по периоду разгона канал  2
-	{&R0VN72LZ2,1,25},	//( - K01VDSR, Baz2) АС по мощности канал 2
-	{&R0VN75LZ2,1,26},	//( - K02VDSR, Baz2) АС по периоду разгона канал 1
-	{&R0VN71LZ2,1,27},	//( - K01VDSR, Baz2) АС по мощности канал 1
-	{&B0VP71LZ2,1,28},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ2
-	{&A0VP71LZ2,1,29},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ1
-	{&R0ET02LZ2,1,30},	//( - , Baz2) Признак наличия неисправности по температуре АЗ2
-	{&B0VP41LZ2,1,31},	//( - , Baz2) Давление АЗ2 ниже АС
-	{&A0VP41LZ2,1,32},	//( - , Baz2) Давление АЗ1 ниже АС
-	{&R0ET01LZ2,1,33},	//( - , Baz2) Признак наличия неисправности по температуре  АЗ1
-	{&A2VP81LZ2,1,34},	//( - , Baz2) Давление СБРОС РБ1 в норме
-	{&B2VP81LZ2,1,35},	//( - , Baz2) Давление СБРОС РБ2 в норме
-	{&B2VP51LZ2,1,36},	//( - , Baz2) Давление СБРОС РБ2 ниже ПС
-	{&B2VP41LZ2,1,37},	//( - , Baz2) Давление СБРОС РБ2 ниже АС
-	{&A2VP51LZ2,1,38},	//( - , Baz2) Давление СБРОС РБ1 ниже ПС
-	{&A2VP41LZ2,1,39},	//( - , Baz2) Давление СБРОС РБ1 ниже АС
-	{&B1VP41LZ2,1,40},	//( - , Baz2, SBz2DU) Давление СБРОС ББ2 ниже АС
-	{&A1VP41LZ2,1,41},	//( - , Baz2, SBz2DU) Давление СБРОС ББ1 ниже АС
-	{&A0VT71LZ2,1,42},	//( - , Baz2, SBz2DU) АС по температуре в АЗ1
-	{&A0VT61LZ2,1,43},	//( - , Baz2) ПС по температуре в АЗ1
-	{&A0EE04LZ2,1,44},	//( - , Baz2, SBz2DU) Исправность АКНП4
-	{&A0EE01LZ2,1,45},	//( - , Baz2, SBz2DU) Исправность АКНП1
-	{&R0VN80LZ2,1,46},	//( - , Baz2) АЗ по АС периода разгона РУ
-	{&R0VN70LZ2,1,47},	//( - , Baz2) АЗ по АС мощности РУ
-	{&R0VZ71LZ2,1,48},	//( - K05FDSR, Baz2) Обобщенный сигнал АЗ 2 канала
-	{&R0VN79LZ2,1,49},	//( - , Baz2) АС по усредненному периоду
-	{&R0VN69LZ2,1,50},	//( - , Baz2) ПС по усредненному периоду
-	{&R0VN68LZ2,1,51},	//( - , Baz2) ПС по периоду разгона канал 4
-	{&R0VN67LZ2,1,52},	//( - , Baz2) ПС по периоду разгона канал 3
-	{&R0VN66LZ2,1,53},	//( - , Baz2) ПС по периоду разгона канал 2
-	{&R0VN65LZ2,1,54},	//( - , Baz2) ПС по периоду разгона канал 1
-	{&R0VN64LZ2,1,55},	//( - , Baz2) ПС по мощности канал 4
-	{&R0VN63LZ2,1,56},	//( - , Baz2) ПС по мощности канал 3
-	{&R0VN62LZ2,1,57},	//( - , Baz2) ПС по мощности канал 2
-	{&R0VN61LZ2,1,58},	//( - , Baz2) ПС по мощности канал 1
+	{&A0EE04LZ2,1,13},	//( - , Baz2, SBz2DU) Исправность АКНП4
+	{&A0EE01LZ2,1,14},	//( - , Baz2, SBz2DU) Исправность АКНП1
+	{&A3VZ11LZ2,1,15},	//( - , Baz2) АЗ от НУП ИС1
+	{&TestDiagnBaz2,1,16},	//( - , Baz2) Неисправность от
+	{&R0AD16LZ2,1,17},	//( - , Baz2) Имитация АЗ от 1УР (датчик2)
+	{&R0AD15LZ2,1,18},	//( - , Baz2) Имитация АЗ от 1УР (датчик1)
+	{&R0VN78LZ2,1,19},	//( - K02VDSR, Baz2) АС по периоду разгона канал  4
+	{&R0VN77LZ2,1,20},	//( - K02VDSR, Baz2) АС по периоду разгона канал  3
+	{&R0VN74LZ2,1,21},	//( - K01VDSR, Baz2) АС по мощности канал 4
+	{&R0VN73LZ2,1,22},	//( - K01VDSR, Baz2) АС по мощности канал 3
+	{&R0VN76LZ2,1,23},	//( - K02VDSR, Baz2) АС по периоду разгона канал  2
+	{&R0VN72LZ2,1,24},	//( - K01VDSR, Baz2) АС по мощности канал 2
+	{&R0VN75LZ2,1,25},	//( - K02VDSR, Baz2) АС по периоду разгона канал 1
+	{&R0VN71LZ2,1,26},	//( - K01VDSR, Baz2) АС по мощности канал 1
+	{&B0VP71LZ2,1,27},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ2
+	{&A0VP71LZ2,1,28},	//( - , Baz2, SBz2DU) АЗ по АС любого давления для АЗ1
+	{&R0ET02LZ2,1,29},	//( - , Baz2) Признак наличия неисправности по температуре АЗ2
+	{&B0VP41LZ2,1,30},	//( - , Baz2) Давление АЗ2 ниже АС
+	{&A0VP41LZ2,1,31},	//( - , Baz2) Давление АЗ1 ниже АС
+	{&R0ET01LZ2,1,32},	//( - , Baz2) Признак наличия неисправности по температуре  АЗ1
+	{&A2VP81LZ2,1,33},	//( - , Baz2) Давление СБРОС РБ1 в норме
+	{&B2VP81LZ2,1,34},	//( - , Baz2) Давление СБРОС РБ2 в норме
+	{&B2VP51LZ2,1,35},	//( - , Baz2) Давление СБРОС РБ2 ниже ПС
+	{&B2VP41LZ2,1,36},	//( - , Baz2) Давление СБРОС РБ2 ниже АС
+	{&A2VP51LZ2,1,37},	//( - , Baz2) Давление СБРОС РБ1 ниже ПС
+	{&A2VP41LZ2,1,38},	//( - , Baz2) Давление СБРОС РБ1 ниже АС
+	{&B1VP41LZ2,1,39},	//( - , Baz2, SBz2DU) Давление СБРОС ББ2 ниже АС
+	{&A1VP41LZ2,1,40},	//( - , Baz2, SBz2DU) Давление СБРОС ББ1 ниже АС
+	{&A0VT71LZ2,1,41},	//( - , Baz2, SBz2DU) АС по температуре в АЗ1
+	{&A0VT61LZ2,1,42},	//( - , Baz2) ПС по температуре в АЗ1
+	{&R0VN80LZ2,1,43},	//( - , Baz2) АЗ по АС периода разгона РУ
+	{&R0VN70LZ2,1,44},	//( - , Baz2) АЗ по АС мощности РУ
+	{&R0VZ71LZ2,1,45},	//( - K05FDSR, Baz2) Обобщенный сигнал АЗ 2 канала
+	{&R0VN79LZ2,1,46},	//( - , Baz2) АС по усредненному периоду
+	{&R0VN69LZ2,1,47},	//( - , Baz2) ПС по усредненному периоду
+	{&R0VN68LZ2,1,48},	//( - , Baz2) ПС по периоду разгона канал 4
+	{&R0VN67LZ2,1,49},	//( - , Baz2) ПС по периоду разгона канал 3
+	{&R0VN66LZ2,1,50},	//( - , Baz2) ПС по периоду разгона канал 2
+	{&R0VN65LZ2,1,51},	//( - , Baz2) ПС по периоду разгона канал 1
+	{&R0VN64LZ2,1,52},	//( - , Baz2) ПС по мощности канал 4
+	{&R0VN63LZ2,1,53},	//( - , Baz2) ПС по мощности канал 3
+	{&R0VN62LZ2,1,54},	//( - , Baz2) ПС по мощности канал 2
+	{&R0VN61LZ2,1,55},	//( - , Baz2) ПС по мощности канал 1
 	{NULL,0,0},
 };
 #pragma pop
@@ -871,21 +868,21 @@ static ModbusRegister ir_Baz2[]={  //
 	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
 	{&R0VZ05UZ2,5,4},	//( - , Baz2) Индикатор причины сброса
 	{&TTLBaz2,3,6},	//( - , Baz2) ttl
-	{&R0VN02RZ2,8,7},	//( - , Baz2) Уровень мощности по каналу 2
-	{&R0VN01RZ2,8,9},	//( - , Baz2) Уровень мощности по каналу 1
-	{&A0EP02IZ2,3,11},	//( - , Baz2) Индикатор -Давление  АЗ1 ниже АС
-	{&B0EP02IZ2,3,12},	//( - , Baz2) Индикатор -Давление  АЗ2 ниже АС
-	{&B2CP01RZ2,8,13},	//( - , Baz2) Текущее давление СБРОС РБ2
-	{&A2CP01RZ2,8,15},	//( - , Baz2) Текущее давление СБРОС РБ1
-	{&A0CT01IZ2,8,17},	//( - , Baz2, SBz2DU) Температура АЗ1-1
-	{&R0VR02RZ2,8,19},	//( - , Baz2) Усредненная реактивность
-	{&R0VN09RZ2,8,21},	//( - , Baz2) Усредненный период разгона
-	{&R0VN08RZ2,8,23},	//( - , Baz2) Период разгона по каналу 4
-	{&R0VN07RZ2,8,25},	//( - , Baz2) Период разгона по каналу 3
-	{&R0VN06RZ2,8,27},	//( - , Baz2) Период разгона по каналу 2
-	{&R0VN05RZ2,8,29},	//( - , Baz2) Период разгона по каналу 1
-	{&R0VN04RZ2,8,31},	//( - , Baz2) Уровень мощности по каналу 4
-	{&R0VN03RZ2,8,33},	//( - , Baz2) Уровень мощности по каналу 3
+	{&R0VN01RZ2,8,7},	//( - , Baz2) Уровень мощности по каналу 1
+	{&A0EP02IZ2,3,9},	//( - , Baz2) Индикатор -Давление  АЗ1 ниже АС
+	{&B0EP02IZ2,3,10},	//( - , Baz2) Индикатор -Давление  АЗ2 ниже АС
+	{&B2CP01RZ2,8,11},	//( - , Baz2) Текущее давление СБРОС РБ2
+	{&A2CP01RZ2,8,13},	//( - , Baz2) Текущее давление СБРОС РБ1
+	{&A0CT01IZ2,8,15},	//( - , Baz2, SBz2DU) Температура АЗ1-1
+	{&R0VR02RZ2,8,17},	//( - , Baz2) Усредненная реактивность
+	{&R0VN09RZ2,8,19},	//( - , Baz2) Усредненный период разгона
+	{&R0VN08RZ2,8,21},	//( - , Baz2) Период разгона по каналу 4
+	{&R0VN07RZ2,8,23},	//( - , Baz2) Период разгона по каналу 3
+	{&R0VN06RZ2,8,25},	//( - , Baz2) Период разгона по каналу 2
+	{&R0VN05RZ2,8,27},	//( - , Baz2) Период разгона по каналу 1
+	{&R0VN04RZ2,8,29},	//( - , Baz2) Уровень мощности по каналу 4
+	{&R0VN03RZ2,8,31},	//( - , Baz2) Уровень мощности по каналу 3
+	{&R0VN02RZ2,8,33},	//( - , Baz2) Уровень мощности по каналу 2
 	{NULL,0,0},
 };
 #pragma pop
@@ -1505,12 +1502,12 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m350_x_1[6] = {&R0DE36LZ2,&R0DE37LZ2,&R0DE38LZ2,&R0DE39LZ2,&var29,&var28};
-psint  array_m337_x_1[6] = {&R0DE04LZ2,&R0DE05LZ2,&R0DE06LZ2,&R0DE0ALZ2,&R0DE08LZ2,&R0DE07LZ2};
+psbool  array_m349_x_1[6] = {&R0DE36LZ2,&R0DE37LZ2,&R0DE38LZ2,&R0DE39LZ2,&var29,&var28};
+psint  array_m336_x_1[6] = {&R0DE04LZ2,&R0DE05LZ2,&R0DE06LZ2,&R0DE0ALZ2,&R0DE08LZ2,&R0DE07LZ2};
 psfloat  array_m189_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
-psfloat  array_m320_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
-psbool  array_m320_diag_1[4] = {&var33,&var34,&var35,&var36};
-psbool  array_m293_x_1[17] = {&var80,&var41,&var42,&var91,&var7,&var4,&var138,&var43,&var50,&var51,&var89,&var8,&var5,&var140,&var47,&var48,&var49};
+psfloat  array_m319_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
+psbool  array_m319_diag_1[4] = {&var33,&var34,&var35,&var36};
+psbool  array_m292_x_1[17] = {&var80,&var41,&var42,&var91,&var7,&var4,&var138,&var43,&var50,&var51,&var89,&var8,&var5,&var140,&var47,&var48,&var49};
 psbool  array_m16_x_1[6] = {&var84,&var89,&var8,&var5,&var16,&var140};
 psbool  array_m36_x_1[6] = {&var91,&var4,&var7,&var138,&var82,&var16};
 psfloat  array_m2_x_1[4] = {&R0VN01RS1,&R0VN01RS2,&R0VN01RS3,&R0VN01RS4};
@@ -1519,31 +1516,31 @@ psbool  array_m3_x_1[3] = {&var98,&var120,&var37};
 psbool  array_m12_x_1[3] = {&var97,&var40,&var99};
 
 /* Объявление структур */
-_S_noto  S_noto_226_1 = {&R0AD14LDU,&var1};
-_S_and2  S_and2_229_1 = {&var1,&var3,&var2};
-_S_or3  S_or3_230_1 = {&var14,&var15,&R7II73LZ2,&var3};
-_S_inicn  S_inicn_208_1 = {&A3IS11LDU,&B3IS11LDU,&R0AD03LZ2,&A3IS22LDU,&B3IS22LDU,&R0AD05LZ2,&var14,&var15,&var13,&R0AD14LDU,&fEM_A1UL11RZZ,&fEM_A1UL12RZZ,&fEM_R7UI73RZZ,&fEM_A1UL13RZZ,&var4,&var5,&var6,&var7,&var8,&var9,&var10,&internal1_m208_TVuIs1,&internal1_m208_TVuIs2,&internal1_m208_TImVuIs,&internal1_m208_TNupIs1,&internal1_m208_TNupIs2,&internal1_m208_TImNupIs,&internal1_m208_TImAZ2UR,&internal1_m208_fef};
-_S_or2  S_or2_220_1 = {&R7II73LZ2,&var18,&var11};
-_S_or2  S_or2_218_1 = {&R0AD21LDU,&R0AD14LDU,&var12};
-_S_and2  S_and2_217_1 = {&var11,&var12,&var13};
-_S_or2  S_or2_209_1 = {&var17,&R7II71LZ2,&var14};
-_S_or2  S_or2_202_1 = {&var19,&R7II72LZ2,&var15};
-_S_zpfs  S_zpfs_228_1 = {&var2,&fEM_R7UI73RZZ,&var16,&internal1_m228_tx,&internal1_m228_y0};
-_S_noto  S_noto_204_1 = {&R6IS67LZZ,&var17};
-_S_noto  S_noto_221_1 = {&R6IS68LZZ,&var18};
-_S_noto  S_noto_203_1 = {&R6IS66LZZ,&var19};
+_S_noto  S_noto_225_1 = {&R0AD14LDU,&var1};
+_S_and2  S_and2_228_1 = {&var1,&var3,&var2};
+_S_or3  S_or3_229_1 = {&var14,&var15,&R7II73LZ2,&var3};
+_S_inicn  S_inicn_207_1 = {&A3IS11LDU,&B3IS11LDU,&R0AD03LZ2,&A3IS22LDU,&B3IS22LDU,&R0AD05LZ2,&var14,&var15,&var13,&R0AD14LDU,&fEM_A1UL11RZZ,&fEM_A1UL12RZZ,&fEM_R7UI73RZZ,&fEM_A1UL13RZZ,&var4,&var5,&var6,&var7,&var8,&var9,&var10,&internal1_m207_TVuIs1,&internal1_m207_TVuIs2,&internal1_m207_TImVuIs,&internal1_m207_TNupIs1,&internal1_m207_TNupIs2,&internal1_m207_TImNupIs,&internal1_m207_TImAZ2UR,&internal1_m207_fef};
+_S_or2  S_or2_219_1 = {&R7II73LZ2,&var18,&var11};
+_S_or2  S_or2_217_1 = {&R0AD21LDU,&R0AD14LDU,&var12};
+_S_and2  S_and2_216_1 = {&var11,&var12,&var13};
+_S_or2  S_or2_208_1 = {&var17,&R7II71LZ2,&var14};
+_S_or2  S_or2_201_1 = {&var19,&R7II72LZ2,&var15};
+_S_zpfs  S_zpfs_227_1 = {&var2,&fEM_R7UI73RZZ,&var16,&internal1_m227_tx,&internal1_m227_y0};
+_S_noto  S_noto_203_1 = {&R6IS67LZZ,&var17};
+_S_noto  S_noto_220_1 = {&R6IS68LZZ,&var18};
+_S_noto  S_noto_202_1 = {&R6IS66LZZ,&var19};
 _S_zzfs  S_zzfs_111_1 = {&B1VP81LZZ,&fRM_10000_,&var20,&internal1_m111_tx,&internal1_m111_y0};
 _S_zzfs  S_zzfs_110_1 = {&A1VP81LZZ,&fRM_10000_,&var21,&internal1_m110_tx,&internal1_m110_y0};
 _S_zzfs  S_zzfs_98_1 = {&var37,&fRM_10_,&var22,&internal1_m98_tx,&internal1_m98_y0};
 _S_zzfs  S_zzfs_112_1 = {&var40,&fRM_10_,&var23,&internal1_m112_tx,&internal1_m112_y0};
 _S_zzfs  S_zzfs_140_1 = {&B0VP81LZZ,&fRM_10000_,&var24,&internal1_m140_tx,&internal1_m140_y0};
 _S_zzfs  S_zzfs_139_1 = {&A0VP81LZZ,&fRM_10000_,&var25,&internal1_m139_tx,&internal1_m139_y0};
-_S_or3  S_or3_351_1 = {&var27,&var31,&var30,&var26};
-_S_orn  S_orn_350_1 = {array_m350_x_1,&iRM_6_,&var27};
-_S_or2  S_or2_357_1 = {&R0DEB3LZ2,&R0DEB4LZ2,&var28};
-_S_or2  S_or2_348_1 = {&R0DEB1LZ2,&R0DEB2LZ2,&var29};
-_S_and2  S_and2_339_1 = {&R0DE31LZ2,&R0DE32LZ2,&var30};
-_S_diagndev  S_diagndev_337_1 = {array_m337_x_1,&iRM_6_,&var31,&var32,&vainSFloat,&internal1_m337_sttlf};
+_S_or3  S_or3_350_1 = {&var27,&var31,&var30,&var26};
+_S_orn  S_orn_349_1 = {array_m349_x_1,&iRM_6_,&var27};
+_S_or2  S_or2_356_1 = {&R0DEB3LZ2,&R0DEB4LZ2,&var28};
+_S_or2  S_or2_347_1 = {&R0DEB1LZ2,&R0DEB2LZ2,&var29};
+_S_and2  S_and2_338_1 = {&R0DE31LZ2,&R0DE32LZ2,&var30};
+_S_diagndev  S_diagndev_336_1 = {array_m336_x_1,&iRM_6_,&var31,&var32,&vainSFloat,&internal1_m336_sttlf};
 _S_ma  S_ma_189_1 = {array_m189_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
 _S_and2  S_and2_81_1 = {&lRM_1_,&A1EE01LS1,&var33};
 _S_and2  S_and2_83_1 = {&lRM_1_,&A1EE01LS2,&var34};
@@ -1553,54 +1550,54 @@ _S_or2  S_or2_104_1 = {&var149,&var147,&var37};
 _S_and2  S_and2_136_1 = {&var142,&var118,&var38};
 _S_and2  S_and2_129_1 = {&var119,&var143,&var39};
 _S_or2  S_or2_108_1 = {&var144,&var145,&var40};
-_S_and2  S_and2_298_1 = {&var67,&var93,&var41};
-_S_and2  S_and2_295_1 = {&var55,&var93,&var42};
-_S_and2  S_and2_301_1 = {&var108,&var93,&var43};
-_S_schl24  S_schl24_322_1 = {&A1VN71LS2,&A1VN71LS1,&A1VN71LS4,&A1VN71LS3,&var44};
-_S_or2  S_or2_326_1 = {&var146,&var148,&var45};
-_S_and2  S_and2_308_1 = {&var106,&var105,&var46};
-_S_and2  S_and2_303_1 = {&R7II72LZ2,&var96,&var47};
-_S_and2  S_and2_304_1 = {&R7II71LZ2,&var96,&var48};
-_S_and2  S_and2_305_1 = {&R7II73LZ2,&var96,&var49};
-_S_and2  S_and2_299_1 = {&var68,&var93,&var50};
-_S_and2  S_and2_296_1 = {&var56,&var93,&var51};
-_S_and2  S_and2_260_1 = {&var93,&var55,&var52};
-_S_or2  S_or2_257_1 = {&var65,&var63,&var53};
-_S_and2  S_and2_266_1 = {&var64,&var93,&var54};
-_S_or2  S_or2_263_1 = {&var57,&var65,&var55};
-_S_or2  S_or2_265_1 = {&var57,&var63,&var56};
-_S_and2  S_and2_264_1 = {&var64,&var127,&var57};
-_S_and2  S_and2_261_1 = {&var93,&var56,&var58};
-_S_or2  S_or2_273_1 = {&R0VN76LZ2,&var130,&var59};
-_S_or2  S_or2_274_1 = {&R0VN78LZ2,&var129,&var60};
-_S_or2  S_or2_271_1 = {&R0VN75LZ2,&var132,&var61};
-_S_or2  S_or2_272_1 = {&R0VN77LZ2,&var131,&var62};
-_S_and2  S_and2_270_1 = {&var59,&var60,&var63};
-_S_schl24  S_schl24_268_1 = {&var61,&var62,&var59,&var60,&var64};
-_S_and2  S_and2_269_1 = {&var61,&var62,&var65};
-_S_or2  S_or2_256_1 = {&var75,&var79,&var66};
-_S_or2  S_or2_248_1 = {&var70,&var79,&var67};
-_S_or2  S_or2_250_1 = {&var70,&var75,&var68};
-_S_and2  S_and2_244_1 = {&var76,&var93,&var69};
-_S_and2  S_and2_249_1 = {&var76,&var128,&var70};
-_S_and2  S_and2_252_1 = {&var67,&var93,&var71};
-_S_and2  S_and2_253_1 = {&var93,&var68,&var72};
-_S_or2  S_or2_237_1 = {&R0VN72LZ2,&var130,&var73};
-_S_or2  S_or2_238_1 = {&R0VN74LZ2,&var129,&var74};
-_S_and2  S_and2_240_1 = {&var74,&var73,&var75};
-_S_schl24  S_schl24_242_1 = {&var78,&var77,&var73,&var74,&var76};
-_S_or2  S_or2_235_1 = {&R0VN71LZ2,&var132,&var77};
-_S_or2  S_or2_236_1 = {&R0VN73LZ2,&var131,&var78};
-_S_and2  S_and2_239_1 = {&var78,&var77,&var79};
-_S_and2  S_and2_302_1 = {&var109,&var93,&var80};
-_S_or3  S_or3_30_1 = {&var103,&var67,&var55,&var81};
-_S_and2  S_and2_31_1 = {&var81,&var93,&var82};
+_S_and2  S_and2_297_1 = {&var67,&var93,&var41};
+_S_and2  S_and2_294_1 = {&var55,&var93,&var42};
+_S_and2  S_and2_300_1 = {&var108,&var93,&var43};
+_S_schl24  S_schl24_321_1 = {&A1VN71LS2,&A1VN71LS1,&A1VN71LS4,&A1VN71LS3,&var44};
+_S_or2  S_or2_325_1 = {&var146,&var148,&var45};
+_S_and2  S_and2_307_1 = {&var106,&var105,&var46};
+_S_and2  S_and2_302_1 = {&R7II72LZ2,&var96,&var47};
+_S_and2  S_and2_303_1 = {&R7II71LZ2,&var96,&var48};
+_S_and2  S_and2_304_1 = {&R7II73LZ2,&var96,&var49};
+_S_and2  S_and2_298_1 = {&var68,&var93,&var50};
+_S_and2  S_and2_295_1 = {&var56,&var93,&var51};
+_S_and2  S_and2_259_1 = {&var93,&var55,&var52};
+_S_or2  S_or2_256_1 = {&var65,&var63,&var53};
+_S_and2  S_and2_265_1 = {&var64,&var93,&var54};
+_S_or2  S_or2_262_1 = {&var57,&var65,&var55};
+_S_or2  S_or2_264_1 = {&var57,&var63,&var56};
+_S_and2  S_and2_263_1 = {&var64,&var127,&var57};
+_S_and2  S_and2_260_1 = {&var93,&var56,&var58};
+_S_or2  S_or2_272_1 = {&R0VN76LZ2,&var130,&var59};
+_S_or2  S_or2_273_1 = {&R0VN78LZ2,&var129,&var60};
+_S_or2  S_or2_270_1 = {&R0VN75LZ2,&var132,&var61};
+_S_or2  S_or2_271_1 = {&R0VN77LZ2,&var131,&var62};
+_S_and2  S_and2_269_1 = {&var59,&var60,&var63};
+_S_schl24  S_schl24_267_1 = {&var61,&var62,&var59,&var60,&var64};
+_S_and2  S_and2_268_1 = {&var61,&var62,&var65};
+_S_or2  S_or2_255_1 = {&var75,&var79,&var66};
+_S_or2  S_or2_247_1 = {&var70,&var79,&var67};
+_S_or2  S_or2_249_1 = {&var70,&var75,&var68};
+_S_and2  S_and2_243_1 = {&var76,&var93,&var69};
+_S_and2  S_and2_248_1 = {&var76,&var128,&var70};
+_S_and2  S_and2_251_1 = {&var67,&var93,&var71};
+_S_and2  S_and2_252_1 = {&var93,&var68,&var72};
+_S_or2  S_or2_236_1 = {&R0VN72LZ2,&var130,&var73};
+_S_or2  S_or2_237_1 = {&R0VN74LZ2,&var129,&var74};
+_S_and2  S_and2_239_1 = {&var74,&var73,&var75};
+_S_schl24  S_schl24_241_1 = {&var78,&var77,&var73,&var74,&var76};
+_S_or2  S_or2_234_1 = {&R0VN71LZ2,&var132,&var77};
+_S_or2  S_or2_235_1 = {&R0VN73LZ2,&var131,&var78};
+_S_and2  S_and2_238_1 = {&var78,&var77,&var79};
+_S_and2  S_and2_301_1 = {&var109,&var93,&var80};
+_S_or3  S_or3_29_1 = {&var103,&var67,&var55,&var81};
+_S_and2  S_and2_30_1 = {&var81,&var93,&var82};
 _S_or2  S_or2_25_1 = {&var124,&var125,&var83};
 _S_and2  S_and2_19_1 = {&var85,&var93,&var84};
 _S_or3  S_or3_18_1 = {&var68,&var56,&var102,&var85};
 _S_and2  S_and2_6_1 = {&var34,&var36,&var86};
-_S_or2  S_or2_10_1 = {&var126,&var86,&var87};
-_S_or2  S_or2_9_1 = {&var92,&var126,&var88};
+_S_or2  S_or2_8_1 = {&var126,&var86,&var87};
+_S_or2  S_or2_11_1 = {&var92,&var126,&var88};
 _S_or2  S_or2_158_1 = {&var115,&var117,&var89};
 _S_or2  S_or2_35_1 = {&B2IS12LDU,&A2IS12LDU,&var90};
 _S_or2  S_or2_156_1 = {&var150,&var112,&var91};
@@ -1608,20 +1605,20 @@ _S_and2  S_and2_5_1 = {&var35,&var33,&var92};
 _S_and2  S_and2_22_1 = {&var104,&var100,&var93};
 _S_and2  S_and2_186_1 = {&var107,&var134,&var94};
 _S_and2  S_and2_185_1 = {&var135,&var107,&var95};
-_S_zpfs  S_zpfs_300_1 = {&var46,&fRM_0_2,&var96,&internal1_m300_tx,&internal1_m300_y0};
+_S_zpfs  S_zpfs_299_1 = {&var46,&fRM_0_2,&var96,&internal1_m299_tx,&internal1_m299_y0};
 _S_noto  S_noto_142_1 = {&var24,&var97};
 _S_noto  S_noto_141_1 = {&var25,&var98};
 _S_noto  S_noto_116_1 = {&var20,&var99};
 _S_noto  S_noto_27_1 = {&var101,&var100};
-_S_ovb1  S_ovb1_33_1 = {&var90,&iRM_200_,&var101,&internal1_m33_tx};
+_S_ovb1  S_ovb1_32_1 = {&var90,&iRM_200_,&var101,&internal1_m32_tx};
 _S_noto  S_noto_14_1 = {&var87,&var102};
 _S_noto  S_noto_13_1 = {&var88,&var103};
 _S_noto  S_noto_24_1 = {&R0EE02LDU,&var104};
-_S_noto  S_noto_311_1 = {&R0AD16LDU,&var105};
-_S_noto  S_noto_310_1 = {&R0AD14LDU,&var106};
+_S_noto  S_noto_310_1 = {&R0AD16LDU,&var105};
+_S_noto  S_noto_309_1 = {&R0AD14LDU,&var106};
 _S_bol  S_bol_181_1 = {&var136,&fRM_0_00001,&var107};
-_S_noto  S_noto_306_1 = {&var87,&var108};
-_S_noto  S_noto_307_1 = {&var88,&var109};
+_S_noto  S_noto_305_1 = {&var87,&var108};
+_S_noto  S_noto_306_1 = {&var88,&var109};
 _S_scalzz  S_scalzz_150_1 = {&B0IT02IZ2,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var110,&internal1_m150_y0};
 _S_scalzz  S_scalzz_148_1 = {&A0IT02IZ2,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var111,&internal1_m148_y0};
 _S_geterr  S_geterr_152_1 = {&var111,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var112};
@@ -1633,18 +1630,18 @@ _S_geterr  S_geterr_154_1 = {&var110,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSCh
 _S_noto  S_noto_137_1 = {&var144,&var118};
 _S_noto  S_noto_128_1 = {&var149,&var119};
 _S_noto  S_noto_115_1 = {&var21,&var120};
-_S_srm  S_srm_320_1 = {array_m320_x_1,array_m320_diag_1,&iRM_4_,&iRM_3_,&var121,&vainSBool};
-_S_rsu  S_rsu_286_1 = {&R0MD34LP1,&var123,&var122,&internal1_m286_q0};
-_S_orni  S_orni_293_1 = {array_m293_x_1,&iRM_17_,&vainSBool,&var123};
+_S_srm  S_srm_319_1 = {array_m319_x_1,array_m319_diag_1,&iRM_4_,&iRM_3_,&var121,&vainSBool};
+_S_rsu  S_rsu_285_1 = {&R0MD34LP1,&var123,&var122,&internal1_m285_q0};
+_S_orni  S_orni_292_1 = {array_m292_x_1,&iRM_17_,&vainSBool,&var123};
 _S_orn  S_orn_16_1 = {array_m16_x_1,&iRM_6_,&var124};
 _S_orn  S_orn_36_1 = {array_m36_x_1,&iRM_6_,&var125};
 _S_noto  S_noto_7_1 = {&var137,&var126};
-_S_noto  S_noto_259_1 = {&var53,&var127};
-_S_noto  S_noto_254_1 = {&var66,&var128};
-_S_noto  S_noto_243_1 = {&A1EE01LS4,&var129};
-_S_noto  S_noto_247_1 = {&A1EE01LS2,&var130};
-_S_noto  S_noto_246_1 = {&A1EE01LS3,&var131};
-_S_noto  S_noto_241_1 = {&A1EE01LS1,&var132};
+_S_noto  S_noto_258_1 = {&var53,&var127};
+_S_noto  S_noto_253_1 = {&var66,&var128};
+_S_noto  S_noto_242_1 = {&A1EE01LS4,&var129};
+_S_noto  S_noto_246_1 = {&A1EE01LS2,&var130};
+_S_noto  S_noto_245_1 = {&A1EE01LS3,&var131};
+_S_noto  S_noto_240_1 = {&A1EE01LS1,&var132};
 _S_react  S_react_177_1 = {&var136,&var133};
 _S_bol  S_bol_182_1 = {&fEM_R0UR04RZZ,&var136,&var134};
 _S_bol  S_bol_180_1 = {&fEM_R0UR01RZZ,&var136,&var135};
@@ -1655,7 +1652,7 @@ _S_tprg  S_tprg_130_1 = {&var113,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&f
 _S_tprg  S_tprg_124_1 = {&var114,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var143,&internal1_m124_y0};
 _S_geterr  S_geterr_100_1 = {&var113,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var144};
 _S_drg  S_drg_107_1 = {&var113,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var145,&internal1_m107_y1};
-_S_drg  S_drg_120_1 = {&var113,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var146,&internal1_m120_y1};
+_S_drg  S_drg_119_1 = {&var113,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var146,&internal1_m119_y1};
 _S_drg  S_drg_94_1 = {&var114,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var147,&internal1_m94_y1};
 _S_drg  S_drg_105_1 = {&var114,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var148,&internal1_m105_y1};
 _S_geterr  S_geterr_96_1 = {&var114,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var149};
@@ -1827,49 +1824,49 @@ int freebuff = 0, delay = 0;
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  noto(&S_noto_241_1);
+  noto(&S_noto_240_1);
+  noto(&S_noto_245_1);
   noto(&S_noto_246_1);
-  noto(&S_noto_247_1);
-  noto(&S_noto_243_1);
+  noto(&S_noto_242_1);
   scalzz(&S_scalzz_90_1);
   scalzz(&S_scalzz_92_1);
   scalzz(&S_scalzz_148_1);
   scalzz(&S_scalzz_150_1);
-  or2(&S_or2_236_1);
   or2(&S_or2_235_1);
-  or2(&S_or2_238_1);
+  or2(&S_or2_234_1);
   or2(&S_or2_237_1);
-  or2(&S_or2_272_1);
+  or2(&S_or2_236_1);
   or2(&S_or2_271_1);
-  or2(&S_or2_274_1);
+  or2(&S_or2_270_1);
   or2(&S_or2_273_1);
-  schl24(&S_schl24_322_1);
+  or2(&S_or2_272_1);
+  schl24(&S_schl24_321_1);
   ma(&S_ma_189_1);
-  diagndev(&S_diagndev_337_1);
-  and2(&S_and2_339_1);
-  or2(&S_or2_348_1);
-  or2(&S_or2_357_1);
-  orn(&S_orn_350_1);
-  or3(&S_or3_351_1);
+  diagndev(&S_diagndev_336_1);
+  and2(&S_and2_338_1);
+  or2(&S_or2_347_1);
+  or2(&S_or2_356_1);
+  orn(&S_orn_349_1);
+  or3(&S_or3_350_1);
   zzfs(&S_zzfs_139_1);
   zzfs(&S_zzfs_140_1);
   zzfs(&S_zzfs_110_1);
   zzfs(&S_zzfs_111_1);
+  noto(&S_noto_202_1);
+  noto(&S_noto_220_1);
   noto(&S_noto_203_1);
-  noto(&S_noto_221_1);
-  noto(&S_noto_204_1);
-  or2(&S_or2_202_1);
-  or2(&S_or2_209_1);
-  or2(&S_or2_218_1);
-  or2(&S_or2_220_1);
-  or3(&S_or3_230_1);
-  noto(&S_noto_226_1);
+  or2(&S_or2_201_1);
+  or2(&S_or2_208_1);
+  or2(&S_or2_217_1);
+  or2(&S_or2_219_1);
+  or3(&S_or3_229_1);
+  noto(&S_noto_225_1);
   drg(&S_drg_170_1);
   drg(&S_drg_160_1);
   geterr(&S_geterr_96_1);
   drg(&S_drg_105_1);
   drg(&S_drg_94_1);
-  drg(&S_drg_120_1);
+  drg(&S_drg_119_1);
   drg(&S_drg_107_1);
   geterr(&S_geterr_100_1);
   tprg(&S_tprg_124_1);
@@ -1881,8 +1878,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   drg(&S_drg_172_1);
   drg(&S_drg_161_1);
   geterr(&S_geterr_152_1);
+  noto(&S_noto_309_1);
   noto(&S_noto_310_1);
-  noto(&S_noto_311_1);
   noto(&S_noto_24_1);
   noto(&S_noto_116_1);
   noto(&S_noto_141_1);
@@ -1890,16 +1887,16 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_156_1);
   or2(&S_or2_35_1);
   or2(&S_or2_158_1);
+  and2(&S_and2_238_1);
+  schl24(&S_schl24_241_1);
   and2(&S_and2_239_1);
-  schl24(&S_schl24_242_1);
-  and2(&S_and2_240_1);
-  or2(&S_or2_256_1);
+  or2(&S_or2_255_1);
+  and2(&S_and2_268_1);
+  schl24(&S_schl24_267_1);
   and2(&S_and2_269_1);
-  schl24(&S_schl24_268_1);
-  and2(&S_and2_270_1);
-  or2(&S_or2_257_1);
-  and2(&S_and2_308_1);
-  or2(&S_or2_326_1);
+  or2(&S_or2_256_1);
+  and2(&S_and2_307_1);
+  or2(&S_or2_325_1);
   or2(&S_or2_108_1);
   and2(&S_and2_129_1);
   and2(&S_and2_136_1);
@@ -1910,64 +1907,64 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and2(&S_and2_81_1);
   zzfs(&S_zzfs_112_1);
   zzfs(&S_zzfs_98_1);
-  and2(&S_and2_217_1);
-  inicn(&S_inicn_208_1);
-  and2(&S_and2_229_1);
+  and2(&S_and2_216_1);
+  inicn(&S_inicn_207_1);
+  and2(&S_and2_228_1);
   ornc(&S_ornc_12_1);
   ornc(&S_ornc_3_1);
   srm(&S_srm_2_1);
   bol(&S_bol_180_1);
   bol(&S_bol_182_1);
   react(&S_react_177_1);
-  noto(&S_noto_254_1);
-  noto(&S_noto_259_1);
+  noto(&S_noto_253_1);
+  noto(&S_noto_258_1);
   noto(&S_noto_7_1);
-  srm(&S_srm_320_1);
+  srm(&S_srm_319_1);
   bol(&S_bol_181_1);
-  ovb1(&S_ovb1_33_1);
+  ovb1(&S_ovb1_32_1);
   noto(&S_noto_27_1);
-  zpfs(&S_zpfs_300_1);
+  zpfs(&S_zpfs_299_1);
   and2(&S_and2_185_1);
   and2(&S_and2_186_1);
   and2(&S_and2_22_1);
   and2(&S_and2_5_1);
-  or2(&S_or2_9_1);
+  or2(&S_or2_11_1);
   and2(&S_and2_6_1);
-  and2(&S_and2_249_1);
-  and2(&S_and2_244_1);
-  or2(&S_or2_250_1);
-  or2(&S_or2_248_1);
-  and2(&S_and2_264_1);
-  or2(&S_or2_265_1);
-  or2(&S_or2_263_1);
-  and2(&S_and2_266_1);
-  and2(&S_and2_260_1);
-  and2(&S_and2_296_1);
-  and2(&S_and2_299_1);
-  and2(&S_and2_305_1);
-  and2(&S_and2_304_1);
-  and2(&S_and2_303_1);
+  and2(&S_and2_248_1);
+  and2(&S_and2_243_1);
+  or2(&S_or2_249_1);
+  or2(&S_or2_247_1);
+  and2(&S_and2_263_1);
+  or2(&S_or2_264_1);
+  or2(&S_or2_262_1);
+  and2(&S_and2_265_1);
+  and2(&S_and2_259_1);
   and2(&S_and2_295_1);
   and2(&S_and2_298_1);
-  zpfs(&S_zpfs_228_1);
-  noto(&S_noto_307_1);
-  noto(&S_noto_13_1);
-  or2(&S_or2_10_1);
-  or3(&S_or3_30_1);
+  and2(&S_and2_304_1);
+  and2(&S_and2_303_1);
   and2(&S_and2_302_1);
-  and2(&S_and2_253_1);
-  and2(&S_and2_252_1);
-  and2(&S_and2_261_1);
+  and2(&S_and2_294_1);
+  and2(&S_and2_297_1);
+  zpfs(&S_zpfs_227_1);
   noto(&S_noto_306_1);
+  noto(&S_noto_13_1);
+  or2(&S_or2_8_1);
+  or3(&S_or3_29_1);
+  and2(&S_and2_301_1);
+  and2(&S_and2_252_1);
+  and2(&S_and2_251_1);
+  and2(&S_and2_260_1);
+  noto(&S_noto_305_1);
   noto(&S_noto_14_1);
   or3(&S_or3_18_1);
   and2(&S_and2_19_1);
-  and2(&S_and2_31_1);
-  and2(&S_and2_301_1);
+  and2(&S_and2_30_1);
+  and2(&S_and2_300_1);
   orn(&S_orn_36_1);
   orn(&S_orn_16_1);
-  orni(&S_orni_293_1);
-  rsu(&S_rsu_286_1);
+  orni(&S_orni_292_1);
+  rsu(&S_rsu_285_1);
   or2(&S_or2_25_1);
   setData(idR0AD14LZ2,&var10);
   setData(idA3VZ13LZ2,&var6);

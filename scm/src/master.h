@@ -4115,12 +4115,12 @@ static ModbusRegister ir_SA1[]={  //
 	{&R0IN01FI1,8,0},	//( - , SA1) Выход СНМ11 Гц от ПТИ
 	{&R0IN02FI1,8,2},	//( - , SA1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI1,8,4},	//( - , SA1) Выход КНК53М Гц от ПТИ
-	{&ttlAknp1,8,6},	//( - , SA1) 
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_SA1[]={  // 
+	{&ttlAknp1,8,0},	//( - , SA1) 
 	{NULL,0,0},
 };
 #pragma pop
