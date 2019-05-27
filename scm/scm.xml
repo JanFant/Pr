@@ -5791,8 +5791,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R0UL04RDU</value>
-            <value name="description">( - , SCM) Время блокировки повторной генерации импульса</value>
+            <value name="name">fEM_R0UL02RDU</value>
+            <value name="description">( - , SCM) Время задержки  ИНИ</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">627</value>
@@ -5804,8 +5804,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R0UL02RDU</value>
-            <value name="description">( - , SCM) Время задержки  ИНИ</value>
+            <value name="name">fEM_R0UL04RIM</value>
+            <value name="description">( - , SCM) Время блокировки повторной генерации импульса</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">629</value>
@@ -5817,7 +5817,7 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R0UL03RDU</value>
+            <value name="name">fEM_R0UL03RIM</value>
             <value name="description">( - , SCM) Максимальное время цикла, сек</value>
             <value name="type">3</value>
             <value name="format">8</value>

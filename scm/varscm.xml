@@ -665,9 +665,9 @@
 <var  name="fEM_B8MC01RC1" description="(B8MC01RC1) Заданная координата АЗ2 от ИС" format="8"></var>
 <var  name="fEM_A0UN07RIM" description="(A0UN07RIM) Доля запаздывающих нейтронов" format="8"></var>
 <var  name="fEM_R0UL02RIM" description="(R0UL02RIM) Время удержания синхроимпульса" format="8"></var>
-<var  name="fEM_R0UL04RDU" description="(R0UL04RDU) Время блокировки повторной генерации импульса" format="8"></var>
 <var  name="fEM_R0UL02RDU" description="(R0UL02RDU) Время задержки  ИНИ" format="8"></var>
-<var  name="fEM_R0UL03RDU" description="(R0UL03RDU) Максимальное время цикла, сек" format="8"></var>
+<var  name="fEM_R0UL04RIM" description="(R0UL04RIM) Время блокировки повторной генерации импульса" format="8"></var>
+<var  name="fEM_R0UL03RIM" description="(R0UL03RIM) Максимальное время цикла, сек" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m39_reg" description="(internal1_m39_reg) режим работы квдс 0 - ожидание сигнала 1- выдан импульс 2 отсчет удержания синхроимпульса 3 -блокировка" format="3"></var>

@@ -1340,12 +1340,12 @@ static char BUFFER[3476];
 #define idfEM_A0UN07RIM	 664	//(A0UN07RIM) Доля запаздывающих нейтронов
 #define fEM_R0UL02RIM	 BUFFER[2370]	//(R0UL02RIM) Время удержания синхроимпульса
 #define idfEM_R0UL02RIM	 665	//(R0UL02RIM) Время удержания синхроимпульса
-#define fEM_R0UL04RDU	 BUFFER[2375]	//(R0UL04RDU) Время блокировки повторной генерации импульса
-#define idfEM_R0UL04RDU	 666	//(R0UL04RDU) Время блокировки повторной генерации импульса
-#define fEM_R0UL02RDU	 BUFFER[2380]	//(R0UL02RDU) Время задержки  ИНИ
-#define idfEM_R0UL02RDU	 667	//(R0UL02RDU) Время задержки  ИНИ
-#define fEM_R0UL03RDU	 BUFFER[2385]	//(R0UL03RDU) Максимальное время цикла, сек
-#define idfEM_R0UL03RDU	 668	//(R0UL03RDU) Максимальное время цикла, сек
+#define fEM_R0UL02RDU	 BUFFER[2375]	//(R0UL02RDU) Время задержки  ИНИ
+#define idfEM_R0UL02RDU	 666	//(R0UL02RDU) Время задержки  ИНИ
+#define fEM_R0UL04RIM	 BUFFER[2380]	//(R0UL04RIM) Время блокировки повторной генерации импульса
+#define idfEM_R0UL04RIM	 667	//(R0UL04RIM) Время блокировки повторной генерации импульса
+#define fEM_R0UL03RIM	 BUFFER[2385]	//(R0UL03RIM) Максимальное время цикла, сек
+#define idfEM_R0UL03RIM	 668	//(R0UL03RIM) Максимальное время цикла, сек
 #define bFirstEnterFlag	 BUFFER[2390]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 669	//(bFirstEnterFlag) 
 #define internal1_m39_reg	 BUFFER[2392]	//(internal1_m39_reg) режим работы квдс 0 - ожидание сигнала 1- выдан импульс 2 отсчет удержания синхроимпульса 3 -блокировка
@@ -2781,9 +2781,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 663	,8	,1	, &fEM_B8MC01RC1},	//(B8MC01RC1) Заданная координата АЗ2 от ИС
 	{ 664	,8	,1	, &fEM_A0UN07RIM},	//(A0UN07RIM) Доля запаздывающих нейтронов
 	{ 665	,8	,1	, &fEM_R0UL02RIM},	//(R0UL02RIM) Время удержания синхроимпульса
-	{ 666	,8	,1	, &fEM_R0UL04RDU},	//(R0UL04RDU) Время блокировки повторной генерации импульса
-	{ 667	,8	,1	, &fEM_R0UL02RDU},	//(R0UL02RDU) Время задержки  ИНИ
-	{ 668	,8	,1	, &fEM_R0UL03RDU},	//(R0UL03RDU) Максимальное время цикла, сек
+	{ 666	,8	,1	, &fEM_R0UL02RDU},	//(R0UL02RDU) Время задержки  ИНИ
+	{ 667	,8	,1	, &fEM_R0UL04RIM},	//(R0UL04RIM) Время блокировки повторной генерации импульса
+	{ 668	,8	,1	, &fEM_R0UL03RIM},	//(R0UL03RIM) Максимальное время цикла, сек
 	{ 669	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
 	{ 670	,3	,1	, &internal1_m39_reg},	//(internal1_m39_reg) режим работы квдс 0 - ожидание сигнала 1- выдан импульс 2 отсчет удержания синхроимпульса 3 -блокировка
 	{ 671	,8	,1	, &internal1_m39_tgen},	//(internal1_m39_tgen) задержки срабатывания генератора импульса
@@ -3555,9 +3555,9 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 {663,"fEM_B8MC01RC1\0"}, 
 {664,"fEM_A0UN07RIM\0"}, 
 {665,"fEM_R0UL02RIM\0"}, 
-{666,"fEM_R0UL04RDU\0"}, 
-{667,"fEM_R0UL02RDU\0"}, 
-{668,"fEM_R0UL03RDU\0"}, 
+{666,"fEM_R0UL02RDU\0"}, 
+{667,"fEM_R0UL04RIM\0"}, 
+{668,"fEM_R0UL03RIM\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -4017,9 +4017,9 @@ static ModbusRegister hr_SCM[]={  //
 	{&fEM_B8MC01RC1,8,621},	//( - , SCM) Заданная координата АЗ2 от ИС
 	{&fEM_A0UN07RIM,8,623},	//( - , SCM) Доля запаздывающих нейтронов
 	{&fEM_R0UL02RIM,8,625},	//( - , SCM) Время удержания синхроимпульса
-	{&fEM_R0UL04RDU,8,627},	//( - , SCM) Время блокировки повторной генерации импульса
-	{&fEM_R0UL02RDU,8,629},	//( - , SCM) Время задержки  ИНИ
-	{&fEM_R0UL03RDU,8,631},	//( - , SCM) Максимальное время цикла, сек
+	{&fEM_R0UL02RDU,8,627},	//( - , SCM) Время задержки  ИНИ
+	{&fEM_R0UL04RIM,8,629},	//( - , SCM) Время блокировки повторной генерации импульса
+	{&fEM_R0UL03RIM,8,631},	//( - , SCM) Максимальное время цикла, сек
 	{NULL,0,0},
 };
 #pragma pop
@@ -4920,8 +4920,8 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(663,0);
 	setAsFloat(664,0.0069);
 	setAsFloat(665,0.5);
-	setAsFloat(666,600);
-	setAsFloat(667,0.014);
+	setAsFloat(666,0.014);
+	setAsFloat(667,600);
 	setAsFloat(668,0.019);
 	setAsShort(105,2);
 }
@@ -5371,7 +5371,7 @@ psfloat  array_m234_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83
 psfloat  array_m66_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 
 /* Объявление структур */
-_S_kvds  S_kvds_39_1 = {&var298,&var291,&R8AD21LDU,&fEM_R0UL02RDU,&fEM_R0UL04RDU,&fEM_R0UL02RIM,&fEM_R0UL03RDU,&var1,&var2,&internal1_m39_reg,&internal1_m39_tgen,&internal1_m39_tsin,&internal1_m39_tlock,&internal1_m39_fef};
+_S_kvds  S_kvds_39_1 = {&var298,&var291,&R8AD21LDU,&fEM_R0UL02RDU,&fEM_R0UL04RIM,&fEM_R0UL02RIM,&fEM_R0UL03RIM,&var1,&var2,&internal1_m39_reg,&internal1_m39_tgen,&internal1_m39_tsin,&internal1_m39_tlock,&internal1_m39_fef};
 _S_looktakt  S_looktakt_150_1 = {&var3};
 _S_to3val  S_to3val_954_1 = {&fEM_R7UX16RSS,&fRM_900_,&fRM_15_,&fRM_0_0015,&fRM_0_,&fRM_2000_,&fRM_2000_,&TerR0IN06FRP,&var4,&var5,&vainSFloat,&bFirstEnterFlag};
 _S_vchs  S_vchs_880_1 = {&var282,&var333,&var243,&fEM_R7UY00RSS,&var220,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_5_,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R0UH03RSS,&fEM_R0UH23RSS,&fRM_0_,&fEM_A0UX00RSS,&var6,&internal1_m880_Chim0};
