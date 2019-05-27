@@ -19,8 +19,8 @@ int nomer = 1;
 #define idR0DE04LS1	 2	//(vds32:04 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 4 месте
 #define R0DE05LS1	 BUFFER[6]	//(fds16:05 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 5 месте
 #define idR0DE05LS1	 3	//(fds16:05 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 5 месте
-#define TTL	 BUFFER[9]	//( - , AKNP1) ttl
-#define idTTL	 4	//( - , AKNP1) ttl
+#define TTLaknp1	 BUFFER[9]	//( - , AKNP1) ttl
+#define idTTLaknp1	 4	//( - , AKNP1) ttl
 #define R0DE31LS1	 BUFFER[12]	//(sbk:20 - S01SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 1
 #define idR0DE31LS1	 5	//(sbk:20 - S01SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 1
 #define R0DE32LS1	 BUFFER[14]	//(sbk:20 - S02SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 2
@@ -216,7 +216,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 1	,3	,1	, &R0DE02LS1},	//(vchs:02 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 2 месте
 	{ 2	,3	,1	, &R0DE04LS1},	//(vds32:04 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 4 месте
 	{ 3	,3	,1	, &R0DE05LS1},	//(fds16:05 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 5 месте
-	{ 4	,3	,1	, &TTL},	//( - , AKNP1) ttl
+	{ 4	,3	,1	, &TTLaknp1},	//( - , AKNP1) ttl
 	{ 5	,1	,1	, &R0DE31LS1},	//(sbk:20 - S01SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 1
 	{ 6	,1	,1	, &R0DE32LS1},	//(sbk:20 - S02SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 2
 	{ 7	,1	,1	, &R0DE33LS1},	//(sbk:20 - S03SBK, DiagnAKNP1) диагностика шкафа АКНП1 двери
@@ -371,7 +371,7 @@ static ModbusRegister ir_AKNP1[]={  //
 	{&R0VN23RS1,8,6},	//( - , AKNP1) Нейтронный поток по камере КНК15-1
 	{&R0VN33RS1,8,8},	//( - , AKNP1) Нейтронный поток по камере КНК53М
 	{&R0VN15RS1,3,10},	//( - , AKNP1) Номер ведущей камеры 1-СНМ-11,2-КНК-15М-1,3-КНК-53М,0-нет ведущей
-	{&TTL,3,11},	//( - , AKNP1) ttl
+	{&TTLaknp1,3,11},	//( - , AKNP1) ttl
 	{&ttlAknp1,8,12},	//( - , AKNP1, MA1S) ttlAknp1
 	{NULL,0,0},
 };
@@ -510,12 +510,12 @@ static ModbusRegister ir_MA1S[]={  //
 	{&R0IN01FI1,8,0},	//( - , SA1) Выход СНМ11 Гц от ПТИ
 	{&R0IN02FI1,8,2},	//( - , SA1) Выход КНК15-1 Гц от ПТИ
 	{&R0IN03FI1,8,4},	//( - , SA1) Выход КНК53М Гц от ПТИ
+	{&ttlAknp1,8,6},	//( - , SA1) 
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_MA1S[]={  // 
-	{&ttlAknp1,8,0},	//( - , SA1) 
 	{NULL,0,0},
 };
 #pragma pop
@@ -859,7 +859,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idTestDiagnAKNP1,&var8);
   setData(idR0DE3DLS1,&var5);
   setData(idR0DE3CLS1,&var6);
-  setData(idTTL,&var11);
+  setData(idTTLaknp1,&var11);
   setData(idA1VN71LS1,&var30);
   setData(idA1EE01LS1,&var4);
   setData(idR0VN75LZ2,&var14);

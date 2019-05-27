@@ -108,7 +108,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   setData(idTestDiagnAKNP1,&var8);
   setData(idR0DE3DLS1,&var5);
   setData(idR0DE3CLS1,&var6);
-  setData(idTTL,&var11);
+  setData(idTTLaknp1,&var11);
   setData(idA1VN71LS1,&var30);
   setData(idA1EE01LS1,&var4);
   setData(idR0VN75LZ2,&var14);

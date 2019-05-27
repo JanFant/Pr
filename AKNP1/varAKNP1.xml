@@ -2,7 +2,7 @@
 <var  name="R0DE02LS1" description="(vchs:02 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 2 месте" format="3"></var>
 <var  name="R0DE04LS1" description="(vds32:04 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 4 месте" format="3"></var>
 <var  name="R0DE05LS1" description="(fds16:05 - Diagn, DiagnAKNP1) диагностика модуля АКНП1 на 5 месте" format="3"></var>
-<var  name="TTL" description="( - , AKNP1) ttl" format="3"></var>
+<var  name="TTLaknp1" description="( - , AKNP1) ttl" format="3"></var>
 <var  name="R0DE31LS1" description="(sbk:20 - S01SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 1" format="1"></var>
 <var  name="R0DE32LS1" description="(sbk:20 - S02SBK, DiagnAKNP1) диагностика шкафа АКНП1 сеть 2" format="1"></var>
 <var  name="R0DE33LS1" description="(sbk:20 - S03SBK, DiagnAKNP1) диагностика шкафа АКНП1 двери" format="1"></var>
