@@ -208,8 +208,8 @@ static char BUFFER[3476];
 #define idA0SN03RIM	 98	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
 #define A0SN02RIM	 BUFFER[286]	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 #define idA0SN02RIM	 99	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-#define R8AD22LDU	 BUFFER[291]	//( - , - ) Сигнал синхронизации с импульсом
-#define idR8AD22LDU	 100	//( - , - ) Сигнал синхронизации с импульсом
+#define R8AD22LDU	 BUFFER[291]	//(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом
+#define idR8AD22LDU	 100	//(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом
 #define ttlAknp1	 BUFFER[293]	//( - , SA1) 
 #define idttlAknp1	 101	//( - , SA1) 
 #define LTAKTS	 BUFFER[298]	//( - , - ) takt scm
@@ -2215,7 +2215,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 97	,8	,1	, &A0SN04RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
 	{ 98	,8	,1	, &A0SN03RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
 	{ 99	,8	,1	, &A0SN02RIM},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
-	{ 100	,1	,1	, &R8AD22LDU},	//( - , - ) Сигнал синхронизации с импульсом
+	{ 100	,1	,1	, &R8AD22LDU},	//(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом
 	{ 101	,8	,1	, &ttlAknp1},	//( - , SA1) 
 	{ 102	,8	,1	, &LTAKTS},	//( - , - ) takt scm
 	{ 103	,8	,1	, &krb2},	//( - , - ) 
@@ -4250,12 +4250,12 @@ static DriverRegister def_buf_AO1601[]={
 	{&A0IT03IRP,3,30},
 	{&B0IT03IRP,3,33},
 	{&A3IP02IDU,3,24},
+	{&A2IP01IZ2,3,15},
 	{&A0IT01IZ1,3,0},
 	{&A0IT02IZ2,3,12},
 	{&B0IT01IZ1,3,6},
 	{&B0IT02IZ2,3,18},
 	{&A2IP01IZ1,3,3},
-	{&A2IP01IZ2,3,15},
 	{NULL,0,0},
 };
 #pragma pop
@@ -4306,20 +4306,20 @@ static DriverRegister def_buf_DO32_5F08[]={
 	{&R1IS21LDU,1,44},
 	{&R1IS11LDU,1,42},
 	{&A4IS11LDU,1,30},
-	{&A4IS21LDU,1,32},
 	{&R8IS11LDU,1,26},
+	{&A4IS21LDU,1,32},
 	{&B1IS11LDU,1,14},
 	{&B1IS21LDU,1,16},
 	{&B2IS12LDU,1,18},
 	{&B2IS11LDU,1,20},
-	{&B1IS12LDU,1,12},
 	{&B2IS21LDU,1,22},
+	{&B1IS12LDU,1,12},
 	{&B9IS21LDU,1,40},
 	{&B9IS11LDU,1,38},
 	{&A9IS21LDU,1,36},
+	{&A9IS11LDU,1,34},
 	{&A7AS31LDU,1,60},
 	{&B7AS31LDU,1,10},
-	{&A9IS11LDU,1,34},
 	{&A1IS12LDU,1,62},
 	{&B3IS21LDU,1,24},
 	{&R2IS21LDU,1,48},
@@ -4336,6 +4336,7 @@ static table_drv table_DO32_5F09={0,0,&ini_DO32_5F09,buf_DO32_5F09,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F09[]={
 	{&A2IS21LDU,1,8},
+	{&R8AD22LDU,1,16},
 	{&A2IS11LDU,1,6},
 	{&B6IS21LDU,1,60},
 	{&A2IS12LDU,1,4},
@@ -4345,11 +4346,11 @@ static DriverRegister def_buf_DO32_5F09[]={
 	{&B6IS11LDU,1,58},
 	{&A6IS21LDU,1,52},
 	{&B4IS11LDU,1,12},
-	{&B4IS21LDU,1,14},
 	{&R4IS12LDU,1,44},
 	{&R4IS22LDU,1,48},
 	{&R4IS21LDU,1,46},
 	{&R4IS11LDU,1,42},
+	{&B4IS21LDU,1,14},
 	{&R0IS02LDU,1,32},
 	{&B5IS11LDU,1,62},
 	{&A5IS11LDU,1,54},
@@ -4368,15 +4369,15 @@ static DriverRegister def_buf_DO32_5F05[]={
 	{&A8IS12LDU,1,28},
 	{&A8IS22LDU,1,30},
 	{&B8IS12LDU,1,10},
-	{&A6IS11LDU,1,34},
-	{&R3IS11LDU,1,2},
-	{&B8IS21LDU,1,8},
 	{&B8IS11LDU,1,14},
-	{&B5IS21LDU,1,0},
-	{&R3IS21LDU,1,4},
+	{&A6IS11LDU,1,34},
+	{&B8IS21LDU,1,8},
 	{&B8IS22LDU,1,12},
-	{&R5IS11LDU,1,18},
+	{&B5IS21LDU,1,0},
+	{&R3IS11LDU,1,2},
 	{&R5IS21LDU,1,20},
+	{&R3IS21LDU,1,4},
+	{&R5IS11LDU,1,18},
 	{&R6IS21LDU,1,26},
 	{NULL,0,0},
 };

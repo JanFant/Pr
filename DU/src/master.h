@@ -693,8 +693,8 @@ int nomer = 1;
 #define idR0VN15RDU	 339	//( - , DU) Период разгона РУ
 #define R8AD21LDU	 BUFFER[845]	//(fds16:0f - K12FDSR, - ) Запуск системы инициирования
 #define idR8AD21LDU	 340	//(fds16:0f - K12FDSR, - ) Запуск системы инициирования
-#define R8AD22LDU	 BUFFER[847]	//( - , - ) Сигнал синхронизации с импульсом
-#define idR8AD22LDU	 341	//( - , - ) Сигнал синхронизации с импульсом
+#define R8AD22LDU	 BUFFER[847]	//(vds32:02 - K15VDSR, - ) Сигнал синхронизации с импульсом
+#define idR8AD22LDU	 341	//(vds32:02 - K15VDSR, - ) Сигнал синхронизации с импульсом
 #define B1IC01UDU	 BUFFER[849]	//( - , MDuS) Координата штока ББ2 (дел.энк)
 #define idB1IC01UDU	 342	//( - , MDuS) Координата штока ББ2 (дел.энк)
 #define B1VC01RDU	 BUFFER[854]	//( - , DU) Координата ББ2, мм
@@ -4117,7 +4117,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 338	,5	,1	, &venc08},	//(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2
 	{ 339	,8	,1	, &R0VN15RDU},	//( - , DU) Период разгона РУ
 	{ 340	,1	,1	, &R8AD21LDU},	//(fds16:0f - K12FDSR, - ) Запуск системы инициирования
-	{ 341	,1	,1	, &R8AD22LDU},	//( - , - ) Сигнал синхронизации с импульсом
+	{ 341	,1	,1	, &R8AD22LDU},	//(vds32:02 - K15VDSR, - ) Сигнал синхронизации с импульсом
 	{ 342	,5	,1	, &B1IC01UDU},	//( - , MDuS) Координата штока ББ2 (дел.энк)
 	{ 343	,8	,1	, &B1VC01RDU},	//( - , DU) Координата ББ2, мм
 	{ 344	,1	,1	, &B1IS11LDU},	//(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2
@@ -6734,36 +6734,37 @@ static table_drv table_VDS3202={0,0,&ini_VDS3202,buf_VDS3202,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3202[]={
-	{&A3VZ13LZ1,1,34},
-	{&A3VZ15LZ1,1,36},
-	{&B4IS21LDU,1,62},
-	{&R2IS21LDU,1,58},
-	{&B3IS21LDU,1,24},
+	{&A9IS11LDU,1,44},
+	{&A9IS21LDU,1,46},
 	{&B2IS12LDU,1,18},
 	{&B1IS12LDU,1,12},
-	{&R2IS11LDU,1,56},
-	{&R1IS21LDU,1,54},
-	{&B4IS11LDU,1,60},
-	{&R8IS11LDU,1,26},
+	{&B2IS21LDU,1,22},
+	{&B3IS21LDU,1,24},
 	{&B7AS31LDU,1,10},
-	{&B4IS10LDU,1,6},
-	{&B1IS21LDU,1,16},
-	{&R0DE02LDU,3,64},
-	{&A1VN71LZ1,1,40},
+	{&B9IS11LDU,1,48},
+	{&B2IS33LDU,1,4},
+	{&B4IS21LDU,1,62},
+	{&B4IS11LDU,1,60},
+	{&A3VZ15LZ1,1,36},
+	{&A3VZ13LZ1,1,34},
+	{&R2IS21LDU,1,58},
+	{&R1IS21LDU,1,54},
 	{&B2IS11LDU,1,20},
+	{&B1IS11LDU,1,14},
+	{&A1VN71LZ1,1,40},
+	{&R8IS11LDU,1,26},
+	{&R0DE02LDU,3,64},
+	{&B4IS10LDU,1,6},
 	{&R1IS11LDU,1,52},
+	{&R0VZ71LZ1,1,42},
+	{&R8AD22LDU,1,28},
 	{&R0AD14LZ1,1,38},
+	{&R2IS11LDU,1,56},
+	{&B1IS21LDU,1,16},
 	{&B3IS35LDU,1,0},
 	{&B3IS33LDU,1,2},
-	{&B3IS31LDU,1,8},
-	{&B1IS11LDU,1,14},
-	{&R0VZ71LZ1,1,42},
-	{&B2IS21LDU,1,22},
-	{&B2IS33LDU,1,4},
-	{&A9IS11LDU,1,44},
 	{&B9IS21LDU,1,50},
-	{&A9IS21LDU,1,46},
-	{&B9IS11LDU,1,48},
+	{&B3IS31LDU,1,8},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6781,23 +6782,23 @@ static DriverRegister def_buf_VDS3203[]={
 	{&A3IS33LDU,1,2},
 	{&A3IS35LDU,1,0},
 	{&A4IS10LDU,1,6},
-	{&A1IS21LDU,1,16},
 	{&A1VN71LZ2,1,40},
 	{&A3IS21LDU,1,24},
-	{&A3VZ15LZ2,1,36},
 	{&A2IS21LDU,1,22},
+	{&A3VZ15LZ2,1,36},
+	{&A1IS21LDU,1,16},
 	{&A3VZ13LZ2,1,34},
 	{&R0AD14LZ2,1,38},
-	{&A4IS11LDU,1,26},
-	{&A4IS21LDU,1,28},
-	{&A2IS11LDU,1,20},
-	{&R0IS01LDU,1,56},
-	{&A7AS31LDU,1,10},
-	{&A1IS11LDU,1,14},
 	{&R0IS02LDU,1,58},
+	{&R0IS01LDU,1,56},
+	{&A4IS21LDU,1,28},
+	{&A1IS11LDU,1,14},
+	{&A4IS11LDU,1,26},
+	{&A2IS11LDU,1,20},
 	{&A2IS12LDU,1,18},
 	{&R0DE03LDU,3,64},
 	{&A1IS12LDU,1,12},
+	{&A7AS31LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6809,17 +6810,17 @@ static table_drv table_VDS3204={0,0,&ini_VDS3204,buf_VDS3204,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3204[]={
-	{&B8IS11LDU,1,36},
 	{&A5IS11LDU,1,20},
+	{&B8IS11LDU,1,36},
 	{&A5IS21LDU,1,22},
 	{&R0DE04LDU,3,64},
 	{&B5IS11LDU,1,28},
 	{&B5IS21LDU,1,30},
 	{&R4IS21LDU,1,12},
 	{&R4IS22LDU,1,14},
-	{&R4IS12LDU,1,10},
 	{&B3IS11LDU,1,4},
 	{&A3IS11LDU,1,0},
+	{&R4IS12LDU,1,10},
 	{&R6IS21LDU,1,56},
 	{&B8IS21LDU,1,38},
 	{&B8IS12LDU,1,40},
@@ -6828,8 +6829,8 @@ static DriverRegister def_buf_VDS3204[]={
 	{&B6IS21LDU,1,26},
 	{&A8IS22LDU,1,60},
 	{&B6IS11LDU,1,24},
-	{&A8IS12LDU,1,58},
 	{&R5IS21LDU,1,50},
+	{&A8IS12LDU,1,58},
 	{&B8IS22LDU,1,42},
 	{&R3IS21LDU,1,34},
 	{&R4IS11LDU,1,8},
@@ -6848,37 +6849,37 @@ static table_drv table_VDS3205={0,0,&ini_VDS3205,buf_VDS3205,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3205[]={
-	{&R6IS42LDU,1,54},
-	{&R6IS32LDU,1,50},
-	{&R6IS41LDU,1,52},
 	{&R6IS52LDU,1,58},
 	{&B2IE02LDU,1,32},
+	{&R6IS41LDU,1,52},
 	{&R6IS51LDU,1,56},
-	{&A3IE03LDU,1,20},
+	{&R6IS42LDU,1,54},
+	{&R6IS32LDU,1,50},
+	{&B2IE03LDU,1,36},
+	{&B1IE04LDU,1,30},
+	{&B1IE03LDU,1,28},
 	{&B2IE04LDU,1,38},
+	{&A3IE04LDU,1,22},
+	{&A3IE03LDU,1,20},
 	{&B3IE03LDU,1,44},
 	{&A2IE04LDU,1,14},
 	{&A2IE03LDU,1,12},
 	{&A1IE04LDU,1,6},
 	{&B3IE04LDU,1,46},
-	{&A3IE04LDU,1,22},
 	{&A1IE03LDU,1,4},
-	{&B1IE03LDU,1,28},
 	{&A1IE01LDU,1,2},
-	{&B1IE04LDU,1,30},
 	{&A3IE01LDU,1,18},
 	{&A2IE01LDU,1,10},
-	{&A1IE02LDU,1,0},
-	{&A3IE02LDU,1,16},
-	{&A2IE02LDU,1,8},
-	{&B1IE01LDU,1,26},
-	{&B2IE01LDU,1,34},
-	{&B2IE03LDU,1,36},
+	{&R6IS31LDU,1,48},
+	{&B3IE02LDU,1,40},
+	{&B1IE02LDU,1,24},
 	{&R0DE05LDU,3,64},
 	{&B3IE01LDU,1,42},
-	{&B1IE02LDU,1,24},
-	{&B3IE02LDU,1,40},
-	{&R6IS31LDU,1,48},
+	{&B2IE01LDU,1,34},
+	{&B1IE01LDU,1,26},
+	{&A2IE02LDU,1,8},
+	{&A3IE02LDU,1,16},
+	{&A1IE02LDU,1,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6890,20 +6891,20 @@ static table_drv table_FDS1607={0,0,&ini_FDS1607,buf_FDS1607,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1607[]={
+	{&A2AD04LDU,1,10},
 	{&A2AD05LDU,1,12},
+	{&A2AD03LDU,1,8},
+	{&A2AD02LDU,1,6},
+	{&A2AD21LDU,1,2},
 	{&A2AD01LDU,1,4},
 	{&B2AD11LDU,1,14},
 	{&B2AD21LDU,1,16},
 	{&B2AD02LDU,1,20},
 	{&B2AD03LDU,1,22},
 	{&B2AD04LDU,1,24},
-	{&A2AD04LDU,1,10},
-	{&A2AD03LDU,1,8},
 	{&B2AD05LDU,1,26},
-	{&A2AD02LDU,1,6},
-	{&B2AD01LDU,1,18},
-	{&A2AD21LDU,1,2},
 	{&A2AD11LDU,1,0},
+	{&B2AD01LDU,1,18},
 	{&R0DE07LDU,3,38},
 	{NULL,0,0},
 };
@@ -6916,21 +6917,21 @@ static table_drv table_FDS1608={0,0,&ini_FDS1608,buf_FDS1608,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1608[]={
-	{&R0DE08LDU,3,38},
+	{&B1AD11LDU,1,14},
 	{&B1AD21LDU,1,16},
 	{&B1AD01LDU,1,18},
 	{&B1AD05LDU,1,26},
 	{&B1AD04LDU,1,24},
+	{&B1AD03LDU,1,22},
+	{&B1AD02LDU,1,20},
 	{&A1AD01LDU,1,4},
 	{&A1AD05LDU,1,12},
 	{&A1AD04LDU,1,10},
-	{&B1AD11LDU,1,14},
-	{&B1AD02LDU,1,20},
-	{&B1AD03LDU,1,22},
-	{&A1AD11LDU,1,0},
 	{&A1AD03LDU,1,8},
 	{&A1AD02LDU,1,6},
 	{&A1AD21LDU,1,2},
+	{&A1AD11LDU,1,0},
+	{&R0DE08LDU,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6942,23 +6943,23 @@ static table_drv table_FDS1609={0,0,&ini_FDS1609,buf_FDS1609,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1609[]={
-	{&B4AD10LDU,1,6},
+	{&R4AD20LDU,1,26},
+	{&B2AD33LDU,1,4},
+	{&B3AD34LDU,1,0},
+	{&B3AD31LDU,1,8},
 	{&A8AD20LDU,1,14},
 	{&R0DE09LDU,3,38},
-	{&B7AP31LDU,1,10},
-	{&B3AD31LDU,1,8},
-	{&B3AD34LDU,1,0},
-	{&B2AD33LDU,1,4},
+	{&A8AD10LDU,1,12},
+	{&B4AD10LDU,1,6},
 	{&B8AD20LDU,1,30},
-	{&B3AD33LDU,1,2},
+	{&B7AP31LDU,1,10},
+	{&B8AD10LDU,1,28},
+	{&B6AD20LDU,1,22},
+	{&B6AD10LDU,1,20},
 	{&A6AD20LDU,1,18},
 	{&A6AD10LDU,1,16},
-	{&B6AD10LDU,1,20},
-	{&B6AD20LDU,1,22},
-	{&A8AD10LDU,1,12},
+	{&B3AD33LDU,1,2},
 	{&R4AD10LDU,1,24},
-	{&R4AD20LDU,1,26},
-	{&B8AD10LDU,1,28},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6970,21 +6971,21 @@ static table_drv table_FDS1610={0,0,&ini_FDS1610,buf_FDS1610,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1610[]={
-	{&R1AD20LDU,1,14},
-	{&A3AD31LDU,1,8},
-	{&R2AD10LDU,1,16},
-	{&R1AD10LDU,1,12},
-	{&R2AD20LDU,1,18},
-	{&A3AD34LDU,1,0},
 	{&A3AD33LDU,1,2},
-	{&R0DE0ALDU,3,38},
+	{&A3AD34LDU,1,0},
+	{&A3AD31LDU,1,8},
+	{&R1AD10LDU,1,12},
+	{&R1AD20LDU,1,14},
 	{&A2AD33LDU,1,4},
-	{&A7AP31LDU,1,10},
-	{&A5AD20LDU,1,22},
-	{&A5AD10LDU,1,20},
-	{&B5AD20LDU,1,26},
-	{&B5AD10LDU,1,24},
+	{&R2AD10LDU,1,16},
+	{&R2AD20LDU,1,18},
+	{&R0DE0ALDU,3,38},
 	{&A4AD10LDU,1,6},
+	{&B5AD10LDU,1,24},
+	{&B5AD20LDU,1,26},
+	{&A5AD10LDU,1,20},
+	{&A5AD20LDU,1,22},
+	{&A7AP31LDU,1,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -6996,23 +6997,23 @@ static table_drv table_FDS1611={0,0,&ini_FDS1611,buf_FDS1611,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1611[]={
-	{&A3AD03LDU,1,8},
-	{&A3AD04LDU,1,10},
-	{&A3AD05LDU,1,12},
-	{&A3AD01LDU,1,4},
-	{&B3AD11LDU,1,14},
-	{&B3AD21LDU,1,16},
-	{&B3AD02LDU,1,20},
 	{&B3AD03LDU,1,22},
-	{&R0DE0BLDU,3,38},
+	{&B3AD02LDU,1,20},
 	{&B3AD04LDU,1,24},
-	{&B3AD01LDU,1,18},
+	{&B3AD21LDU,1,16},
 	{&B3AD05LDU,1,26},
+	{&B3AD01LDU,1,18},
+	{&B3AD11LDU,1,14},
 	{&A9AD10LDU,1,28},
+	{&R0DE0BLDU,3,38},
 	{&B9AD10LDU,1,30},
 	{&A3AD11LDU,1,0},
 	{&A3AD21LDU,1,2},
 	{&A3AD02LDU,1,6},
+	{&A3AD01LDU,1,4},
+	{&A3AD05LDU,1,12},
+	{&A3AD04LDU,1,10},
+	{&A3AD03LDU,1,8},
 	{NULL,0,0},
 };
 #pragma pop
@@ -7024,8 +7025,8 @@ static table_drv table_VAS8412={0,0,&ini_VAS8412,buf_VAS8412,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS8412[]={
-	{&R0DE0CLDU,3,26},
 	{&B3IP02IDU,3,3},
+	{&R0DE0CLDU,3,26},
 	{&A3IP02IDU,3,0},
 	{NULL,0,0},
 };
@@ -7038,23 +7039,23 @@ static table_drv table_VDS3213={0,0,&ini_VDS3213,buf_VDS3213,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS3213[]={
-	{&R1VS12LDU,1,8},
-	{&R2VS12LDU,1,14},
-	{&R2VS22LDU,1,16},
 	{&A5VS22LDU,1,22},
-	{&A5VS12LDU,1,20},
 	{&B5VS22LDU,1,28},
 	{&B5VS12LDU,1,26},
 	{&R0DE0DLDU,3,64},
 	{&R4VS12LDU,1,2},
+	{&A5VS12LDU,1,20},
+	{&R1VS12LDU,1,8},
+	{&R2VS12LDU,1,14},
+	{&R2VS22LDU,1,16},
 	{&R4VS22LDU,1,4},
 	{&R1VS22LDU,1,10},
+	{&R6IS61LDU,1,0},
 	{&R2IE01LDU,1,18},
 	{&R1IE01LDU,1,12},
 	{&A5IE02LDU,1,24},
 	{&B5IE01LDU,1,30},
 	{&R0IE02LDU,1,44},
-	{&R6IS61LDU,1,0},
 	{&A8IE01LDU,1,6},
 	{&A6VS22LDU,1,34},
 	{&A6VS12LDU,1,32},
@@ -7074,23 +7075,23 @@ static table_drv table_FDS1615={0,0,&ini_FDS1615,buf_FDS1615,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS1615[]={
+	{&R0AD16LDU,1,24},
+	{&R0AD05LZ2,1,30},
 	{&R0AD05LZ1,1,20},
 	{&R0AD04LZ2,1,28},
 	{&R0AD04LZ1,1,18},
 	{&R0AD03LZ2,1,26},
 	{&R0AD03LZ1,1,16},
+	{&R8AD21LDU,1,22},
 	{&B1AD32LDU,1,8},
 	{&A1AD32LDU,1,0},
 	{&B2AD32LDU,1,12},
+	{&R0DE0FLDU,3,38},
 	{&A2AD32LDU,1,4},
 	{&B1AD31LDU,1,10},
 	{&A1AD31LDU,1,2},
-	{&B2AD31LDU,1,14},
 	{&A2AD31LDU,1,6},
-	{&R8AD21LDU,1,22},
-	{&R0AD16LDU,1,24},
-	{&R0AD05LZ2,1,30},
-	{&R0DE0FLDU,3,38},
+	{&B2AD31LDU,1,14},
 	{NULL,0,0},
 };
 #pragma pop
@@ -7102,19 +7103,19 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
-	{&R0DE36LDU,1,10},
-	{&R0DE37LDU,1,12},
-	{&R0DE35LDU,1,8},
-	{&R0DE34LDU,1,6},
-	{&R0DE38LDU,1,14},
-	{&R0DE33LDU,1,4},
-	{&R0DE32LDU,1,2},
-	{&R0DE31LDU,1,0},
-	{&R0DEB3LDU,1,22},
-	{&R0DEB2LDU,1,20},
-	{&R0DEB1LDU,1,18},
 	{&R0DEB4LDU,1,24},
+	{&R0DEB1LDU,1,18},
+	{&R0DEB3LDU,1,22},
 	{&R0DE39LDU,1,16},
+	{&R0DE35LDU,1,8},
+	{&R0DE36LDU,1,10},
+	{&R0DE34LDU,1,6},
+	{&R0DE33LDU,1,4},
+	{&R0DE37LDU,1,12},
+	{&R0DE32LDU,1,2},
+	{&R0DE38LDU,1,14},
+	{&R0DEB2LDU,1,20},
+	{&R0DE31LDU,1,0},
 	{NULL,0,0},
 };
 #pragma pop
