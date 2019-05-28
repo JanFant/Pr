@@ -698,7 +698,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="AKNP1"
+      InterfaceMB="AKNP3"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -719,10 +719,10 @@
       MaxValue="100000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP3"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -741,10 +741,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP3"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -763,10 +763,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP3"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -808,7 +808,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="AKNP4"
+      InterfaceMB="AKNP3"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -5460,4 +5460,4 @@
     }
   }
 }
-5244328
+5245412

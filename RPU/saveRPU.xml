@@ -1,7 +1,7 @@
 <saves name="rpu.bin">
-  <save value ="37037.704 ">fEM_R0UH02RSS</save>
-  <save value ="62500.0">fEM_R0UH03RSS</save>
-  <save value ="1567.36">fEM_R7UX00RSS</save>
+  <save value ="37037.04 ">fEM_R0UH02RSS</save>
+  <save value ="975000.0">fEM_R0UH03RSS</save>
+  <save value ="1570.0">fEM_R7UX00RSS</save>
   <save value ="506.5">fEM_R7UY00RSS</save>
   <save value ="1570.0">fEM_R7UX13RSS</save>
   <save value ="1269">fEM_R7UX14RSS</save>
@@ -26,4 +26,7 @@
   <save value ="100">fEM_R0UT61RZZ</save>
   <save value ="5100">fEM_R0UL52RSS</save>
   <save value ="210">fEM_Z7UE20RRP</save>
+  <save value ="4000">fEM_R0UH21RSS</save>
+  <save value ="100000">fEM_R0UH22RSS</save>
+  <save value ="1000000">fEM_R0UH23RSS</save>
 </saves>

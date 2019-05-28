@@ -526,16 +526,81 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R0UL01RSS</value>
-            <value name="description">( - , AKNP3) Шаг (мс) измерения периода</value>
+            <value name="name">fEM_R0UH01RSS</value>
+            <value name="description">( - , AKNP3) Коэфф. преобразования частота->нейтр/с СНМ-11</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">48</value>
             <value name="nID">36</value>
             <value name="PType">33</value>
-            <value name="Bf0">116</value>
+            <value name="Bf0">96</value>
             <value name="ParData">159</value>
             <value name="OldData">159</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH21RSS</value>
+            <value name="description">( - , AKNP3) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">50</value>
+            <value name="nID">37</value>
+            <value name="PType">33</value>
+            <value name="Bf0">100</value>
+            <value name="ParData">164</value>
+            <value name="OldData">164</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH22RSS</value>
+            <value name="description">( - , AKNP3) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">52</value>
+            <value name="nID">38</value>
+            <value name="PType">33</value>
+            <value name="Bf0">104</value>
+            <value name="ParData">169</value>
+            <value name="OldData">169</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH23RSS</value>
+            <value name="description">( - , AKNP3) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">54</value>
+            <value name="nID">39</value>
+            <value name="PType">33</value>
+            <value name="Bf0">108</value>
+            <value name="ParData">174</value>
+            <value name="OldData">174</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UL02RSS</value>
+            <value name="description">( - , AKNP3) Tф-постоянная времени, с</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">56</value>
+            <value name="nID">40</value>
+            <value name="PType">33</value>
+            <value name="Bf0">112</value>
+            <value name="ParData">179</value>
+            <value name="OldData">179</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UL01RSS</value>
+            <value name="description">( - , AKNP3) Шаг (мс) измерения периода</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">58</value>
+            <value name="nID">41</value>
+            <value name="PType">33</value>
+            <value name="Bf0">116</value>
+            <value name="ParData">184</value>
+            <value name="OldData">184</value>
             <value name="unitId">1</value>
         </record>
     </records>

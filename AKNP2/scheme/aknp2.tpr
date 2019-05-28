@@ -71,7 +71,7 @@
     }
     [TConst]{
       Name="R0UL51RSS"
-      Value="13"
+      Value="13.0"
       Type=1
       Numeration=0
       MemoryType=1
@@ -698,7 +698,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="AKNP1"
+      InterfaceMB="AKNP2"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -719,10 +719,10 @@
       MaxValue="100000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP2"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -741,10 +741,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP2"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -763,10 +763,10 @@
       MaxValue="1000000"
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
-      TypeMB=0
-      FormatMB=0
+      TypeInterface=1
+      InterfaceMB="AKNP2"
+      TypeMB=3
+      FormatMB=8
       HstInterv_item=0
       HstInterv_val=1
       HistReg=0
@@ -808,7 +808,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="AKNP4"
+      InterfaceMB="AKNP2"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -1510,7 +1510,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,987,409"
+        R="845,404,985,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2848,7 +2848,7 @@
         }
       }
       [VVV_Text]{
-        R="1197,119,1260,133"
+        R="1197,119,1247,130"
         Number=151
         IsHold=FALSE
         Line1="Неисправность от "
@@ -5413,4 +5413,4 @@
     }
   }
 }
-5196377
+5197542

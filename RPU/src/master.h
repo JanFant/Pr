@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 407
-static char BUFFER[407];
+#define SIZE_BUFFER 422
+static char BUFFER[422];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.31\0", 5432, "192.168.10.131\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -237,32 +237,38 @@ int nomer = 1;
 #define idfEM_R0UL52RSS	 111	//(R0UL52RSS) Уровень АС по мощности
 #define fEM_Z7UE20RRP	 BUFFER[364]	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
 #define idfEM_Z7UE20RRP	 112	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
-#define bFirstEnterFlag	 BUFFER[369]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 113	//(bFirstEnterFlag) 
-#define internal1_m140_sttlf	 BUFFER[371]	//(internal1_m140_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m140_sttlf	 114	//(internal1_m140_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m21_Nk	 BUFFER[374]	//(internal1_m21_Nk) Nk - ведущая камера
-#define idinternal1_m21_Nk	 115	//(internal1_m21_Nk) Nk - ведущая камера
-#define internal1_m72_tx	 BUFFER[377]	//(internal1_m72_tx) tx - время накопленное сек
-#define idinternal1_m72_tx	 116	//(internal1_m72_tx) tx - время накопленное сек
-#define internal1_m72_y0	 BUFFER[382]	//(internal1_m72_y0) y0
-#define idinternal1_m72_y0	 117	//(internal1_m72_y0) y0
-#define internal1_m80_tx	 BUFFER[383]	//(internal1_m80_tx) tx - время накопленное сек
-#define idinternal1_m80_tx	 118	//(internal1_m80_tx) tx - время накопленное сек
-#define internal1_m80_y0	 BUFFER[388]	//(internal1_m80_y0) y0
-#define idinternal1_m80_y0	 119	//(internal1_m80_y0) y0
-#define internal1_m88_y0	 BUFFER[389]	//(internal1_m88_y0) y0
-#define idinternal1_m88_y0	 120	//(internal1_m88_y0) y0
-#define internal1_m86_y0	 BUFFER[394]	//(internal1_m86_y0) y0
-#define idinternal1_m86_y0	 121	//(internal1_m86_y0) y0
-#define internal1_m102_y1	 BUFFER[399]	//(internal1_m102_y1) y1 - внутренний параметр
-#define idinternal1_m102_y1	 122	//(internal1_m102_y1) y1 - внутренний параметр
-#define internal1_m117_y1	 BUFFER[401]	//(internal1_m117_y1) y1 - внутренний параметр
-#define idinternal1_m117_y1	 123	//(internal1_m117_y1) y1 - внутренний параметр
-#define internal1_m100_y1	 BUFFER[403]	//(internal1_m100_y1) y1 - внутренний параметр
-#define idinternal1_m100_y1	 124	//(internal1_m100_y1) y1 - внутренний параметр
-#define internal1_m115_y1	 BUFFER[405]	//(internal1_m115_y1) y1 - внутренний параметр
-#define idinternal1_m115_y1	 125	//(internal1_m115_y1) y1 - внутренний параметр
+#define fEM_R0UH21RSS	 BUFFER[369]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define idfEM_R0UH21RSS	 113	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define fEM_R0UH22RSS	 BUFFER[374]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define idfEM_R0UH22RSS	 114	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define fEM_R0UH23RSS	 BUFFER[379]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define idfEM_R0UH23RSS	 115	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define bFirstEnterFlag	 BUFFER[384]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 116	//(bFirstEnterFlag) 
+#define internal1_m143_sttlf	 BUFFER[386]	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
+#define idinternal1_m143_sttlf	 117	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
+#define internal1_m21_Nk	 BUFFER[389]	//(internal1_m21_Nk) Nk - ведущая камера
+#define idinternal1_m21_Nk	 118	//(internal1_m21_Nk) Nk - ведущая камера
+#define internal1_m75_tx	 BUFFER[392]	//(internal1_m75_tx) tx - время накопленное сек
+#define idinternal1_m75_tx	 119	//(internal1_m75_tx) tx - время накопленное сек
+#define internal1_m75_y0	 BUFFER[397]	//(internal1_m75_y0) y0
+#define idinternal1_m75_y0	 120	//(internal1_m75_y0) y0
+#define internal1_m83_tx	 BUFFER[398]	//(internal1_m83_tx) tx - время накопленное сек
+#define idinternal1_m83_tx	 121	//(internal1_m83_tx) tx - время накопленное сек
+#define internal1_m83_y0	 BUFFER[403]	//(internal1_m83_y0) y0
+#define idinternal1_m83_y0	 122	//(internal1_m83_y0) y0
+#define internal1_m91_y0	 BUFFER[404]	//(internal1_m91_y0) y0
+#define idinternal1_m91_y0	 123	//(internal1_m91_y0) y0
+#define internal1_m89_y0	 BUFFER[409]	//(internal1_m89_y0) y0
+#define idinternal1_m89_y0	 124	//(internal1_m89_y0) y0
+#define internal1_m105_y1	 BUFFER[414]	//(internal1_m105_y1) y1 - внутренний параметр
+#define idinternal1_m105_y1	 125	//(internal1_m105_y1) y1 - внутренний параметр
+#define internal1_m120_y1	 BUFFER[416]	//(internal1_m120_y1) y1 - внутренний параметр
+#define idinternal1_m120_y1	 126	//(internal1_m120_y1) y1 - внутренний параметр
+#define internal1_m103_y1	 BUFFER[418]	//(internal1_m103_y1) y1 - внутренний параметр
+#define idinternal1_m103_y1	 127	//(internal1_m103_y1) y1 - внутренний параметр
+#define internal1_m116_y1	 BUFFER[420]	//(internal1_m116_y1) y1 - внутренний параметр
+#define idinternal1_m116_y1	 128	//(internal1_m116_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &R0DE36LRP},	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
@@ -377,19 +383,22 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 110	,8	,1	, &fEM_R0UT61RZZ},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
 	{ 111	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
 	{ 112	,8	,1	, &fEM_Z7UE20RRP},	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
-	{ 113	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 114	,3	,1	, &internal1_m140_sttlf},	//(internal1_m140_sttlf) sttlf - счетчик для вещественного формата
-	{ 115	,3	,1	, &internal1_m21_Nk},	//(internal1_m21_Nk) Nk - ведущая камера
-	{ 116	,8	,1	, &internal1_m72_tx},	//(internal1_m72_tx) tx - время накопленное сек
-	{ 117	,18	,1	, &internal1_m72_y0},	//(internal1_m72_y0) y0
-	{ 118	,8	,1	, &internal1_m80_tx},	//(internal1_m80_tx) tx - время накопленное сек
-	{ 119	,18	,1	, &internal1_m80_y0},	//(internal1_m80_y0) y0
-	{ 120	,8	,1	, &internal1_m88_y0},	//(internal1_m88_y0) y0
-	{ 121	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
-	{ 122	,1	,1	, &internal1_m102_y1},	//(internal1_m102_y1) y1 - внутренний параметр
-	{ 123	,1	,1	, &internal1_m117_y1},	//(internal1_m117_y1) y1 - внутренний параметр
-	{ 124	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
-	{ 125	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
+	{ 113	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{ 114	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+	{ 115	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{ 116	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 117	,3	,1	, &internal1_m143_sttlf},	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
+	{ 118	,3	,1	, &internal1_m21_Nk},	//(internal1_m21_Nk) Nk - ведущая камера
+	{ 119	,8	,1	, &internal1_m75_tx},	//(internal1_m75_tx) tx - время накопленное сек
+	{ 120	,18	,1	, &internal1_m75_y0},	//(internal1_m75_y0) y0
+	{ 121	,8	,1	, &internal1_m83_tx},	//(internal1_m83_tx) tx - время накопленное сек
+	{ 122	,18	,1	, &internal1_m83_y0},	//(internal1_m83_y0) y0
+	{ 123	,8	,1	, &internal1_m91_y0},	//(internal1_m91_y0) y0
+	{ 124	,8	,1	, &internal1_m89_y0},	//(internal1_m89_y0) y0
+	{ 125	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
+	{ 126	,1	,1	, &internal1_m120_y1},	//(internal1_m120_y1) y1 - внутренний параметр
+	{ 127	,1	,1	, &internal1_m103_y1},	//(internal1_m103_y1) y1 - внутренний параметр
+	{ 128	,1	,1	, &internal1_m116_y1},	//(internal1_m116_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="rpu.bin\0";   // Имя файла для сохранения констант
@@ -422,6 +431,9 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 {110,"fEM_R0UT61RZZ\0"}, 
 {111,"fEM_R0UL52RSS\0"}, 
 {112,"fEM_Z7UE20RRP\0"}, 
+{113,"fEM_R0UH21RSS\0"}, 
+{114,"fEM_R0UH22RSS\0"}, 
+{115,"fEM_R0UH23RSS\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -497,6 +509,9 @@ static ModbusRegister hr_RPU[]={  //
 	{&fEM_R0UT61RZZ,8,50},	//( - , RPU) Уровень срабатывания предупредительной сигнализации по температуре АЗ
 	{&fEM_R0UL52RSS,8,52},	//( - , RPU) Уровень АС по мощности
 	{&fEM_Z7UE20RRP,8,54},	//( - , RPU) Время задержки сигнала на включение источников питания после снятия команды на отключение
+	{&fEM_R0UH21RSS,8,56},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{&fEM_R0UH22RSS,8,58},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+	{&fEM_R0UH23RSS,8,60},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 	{NULL,0,0},
 };
 #pragma pop
@@ -720,9 +735,9 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(86,37037.704 );
-	setAsFloat(87,62500.0);
-	setAsFloat(88,1567.36);
+	setAsFloat(86,37037.04 );
+	setAsFloat(87,975000.0);
+	setAsFloat(88,1570.0);
 	setAsFloat(89,506.5);
 	setAsFloat(90,1570.0);
 	setAsFloat(91,1269);
@@ -747,6 +762,9 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(110,100);
 	setAsFloat(111,5100);
 	setAsFloat(112,210);
+	setAsFloat(113,4000);
+	setAsFloat(114,100000);
+	setAsFloat(115,1000000);
 }
 
 // Вставка к VCHS
@@ -813,7 +831,7 @@ sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 
 ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
 ssint iRM_6_ = {6,0}; /* n - размерность массива значений */ 
 
-uspaint8 SpaEEPROMBuf[135];
+uspaint8 SpaEEPROMBuf[150];
 
 /* Определение переменных */
 ssfloat var1;
@@ -881,55 +899,55 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m158_x_1[6] = {&var9,&var10,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0DE39LRP};
-psint  array_m140_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
+psbool  array_m161_x_1[6] = {&var9,&var10,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0DE39LRP};
+psint  array_m143_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
 
 /* Объявление структур */
-_S_ml  S_ml_58_1 = {&R0IN07RIP,&R0IN07RRP,&R0IS01FI0,&var1};
-_S_ml  S_ml_49_1 = {&R0IN06RIP,&R0IN06RRP,&R0IS01FI0,&var2};
+_S_ml  S_ml_61_1 = {&R0IN07RIP,&R0IN07RRP,&R0IS01FI0,&var1};
+_S_ml  S_ml_52_1 = {&R0IN06RIP,&R0IN06RRP,&R0IS01FI0,&var2};
 _S_ml  S_ml_8_1 = {&R0IN03RIP,&R0IN03RRP,&R0IS01FI0,&var3};
 _S_ml  S_ml_7_1 = {&R0IN02RIP,&R0IN02RRP,&R0IS01FI0,&var4};
 _S_ml  S_ml_6_1 = {&R0IN01RIP,&R0IN01RRP,&R0IS01FI0,&var5};
-_S_or4  S_or4_73_1 = {&var49,&var23,&var31,&var32,&var6};
-_S_noto  S_noto_159_1 = {&var11,&var7};
-_S_and5  S_and5_43_1 = {&var7,&R0IE11LRP,&R0IE12LRP,&R0IE13LRP,&var18,&var8};
-_S_or2  S_or2_153_1 = {&R0DEB1LRP,&R0DEB2LRP,&var9};
-_S_or2  S_or2_160_1 = {&R0DEB3LRP,&R0DEB4LRP,&var10};
-_S_or3  S_or3_157_1 = {&var14,&var13,&var12,&var11};
-_S_orn  S_orn_158_1 = {array_m158_x_1,&iRM_6_,&var12};
-_S_and2  S_and2_142_1 = {&R0DE31LRP,&R0DE32LRP,&var13};
-_S_diagndev  S_diagndev_140_1 = {array_m140_x_1,&iRM_6_,&var14,&var15,&vainSFloat,&internal1_m140_sttlf};
-_S_ocham  S_ocham_21_1 = {&var5,&var4,&var3,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&vainSFloat,&vainSFloat,&vainSFloat,&var16,&var17,&var18,&var19,&var20,&var21,&var22,&internal1_m21_Nk};
-_S_or2  S_or2_68_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
-_S_or2  S_or2_96_1 = {&var56,&var57,&var23};
-_S_or4  S_or4_48_1 = {&var30,&var28,&var29,&var26,&var24};
-_S_or2  S_or2_101_1 = {&var55,&var44,&var25};
-_S_or2  S_or2_127_1 = {&var27,&var25,&var26};
-_S_or2  S_or2_97_1 = {&var54,&var47,&var27};
-_S_and3  S_and3_44_1 = {&var8,&var40,&var34,&var28};
-_S_and3  S_and3_52_1 = {&var38,&R0IE14LRP,&var50,&var29};
-_S_and3  S_and3_51_1 = {&R0IE15LRP,&var38,&var51,&var30};
-_S_and3  S_and3_61_1 = {&R0IE14LRP,&var38,&var53,&var31};
-_S_and3  S_and3_60_1 = {&var52,&R0IE15LRP,&var38,&var32};
-_S_geterr  S_geterr_57_1 = {&var2,&dRM_0_,&iRM_0_,&bRM_0_,&var33,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_noto  S_noto_81_1 = {&var39,&var34};
-_S_geterr  S_geterr_56_1 = {&var1,&dRM_0_,&iRM_0_,&bRM_0_,&var35,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_zzfs  S_zzfs_72_1 = {&var37,&fEM_Z7UE20RRP,&var36,&internal1_m72_tx,&internal1_m72_y0};
-_S_or3  S_or3_71_1 = {&A6IS11LRP,&B6IS11LRP,&R0EE02LDU,&var37};
-_S_noto  S_noto_69_1 = {&var36,&var38};
-_S_zzfs  S_zzfs_80_1 = {&R0EE02LDU,&fEM_Z7UE20RRP,&var39,&internal1_m80_tx,&internal1_m80_y0};
-_S_bol  S_bol_42_1 = {&var17,&fEM_R0UL52RSS,&var40};
-_S_scalzz  S_scalzz_88_1 = {&B0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var41,&internal1_m88_y0};
-_S_scalzz  S_scalzz_86_1 = {&A0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var42,&internal1_m86_y0};
-_S_geterr  S_geterr_90_1 = {&var42,&dRM_0_,&iRM_0_,&bRM_0_,&var43,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_drg  S_drg_102_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var44,&internal1_m102_y1};
-_S_drg  S_drg_117_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var45,&internal1_m117_y1};
-_S_geterr  S_geterr_92_1 = {&var41,&dRM_0_,&iRM_0_,&bRM_0_,&var46,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_drg  S_drg_100_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var47,&internal1_m100_y1};
-_S_drg  S_drg_115_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var48,&internal1_m115_y1};
-_S_noto  S_noto_77_1 = {&var8,&var49};
-_S_bol  S_bol_62_1 = {&var1,&fEM_R0UR01RRP,&var50};
-_S_bol  S_bol_50_1 = {&var2,&fEM_R0UR01RRP,&var51};
+_S_or4  S_or4_76_1 = {&var49,&var23,&var31,&var32,&var6};
+_S_noto  S_noto_162_1 = {&var11,&var7};
+_S_and5  S_and5_46_1 = {&var7,&R0IE11LRP,&R0IE12LRP,&R0IE13LRP,&var18,&var8};
+_S_or2  S_or2_156_1 = {&R0DEB1LRP,&R0DEB2LRP,&var9};
+_S_or2  S_or2_163_1 = {&R0DEB3LRP,&R0DEB4LRP,&var10};
+_S_or3  S_or3_160_1 = {&var14,&var13,&var12,&var11};
+_S_orn  S_orn_161_1 = {array_m161_x_1,&iRM_6_,&var12};
+_S_and2  S_and2_145_1 = {&R0DE31LRP,&R0DE32LRP,&var13};
+_S_diagndev  S_diagndev_143_1 = {array_m143_x_1,&iRM_6_,&var14,&var15,&vainSFloat,&internal1_m143_sttlf};
+_S_ocham  S_ocham_21_1 = {&var5,&var4,&var3,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var16,&var17,&var18,&var19,&var20,&var21,&var22,&internal1_m21_Nk};
+_S_or2  S_or2_71_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
+_S_or2  S_or2_99_1 = {&var56,&var57,&var23};
+_S_or4  S_or4_51_1 = {&var30,&var28,&var29,&var26,&var24};
+_S_or2  S_or2_104_1 = {&var55,&var44,&var25};
+_S_or2  S_or2_128_1 = {&var27,&var25,&var26};
+_S_or2  S_or2_100_1 = {&var54,&var47,&var27};
+_S_and3  S_and3_47_1 = {&var8,&var40,&var34,&var28};
+_S_and3  S_and3_55_1 = {&var38,&R0IE14LRP,&var50,&var29};
+_S_and3  S_and3_54_1 = {&R0IE15LRP,&var38,&var51,&var30};
+_S_and3  S_and3_64_1 = {&R0IE14LRP,&var38,&var53,&var31};
+_S_and3  S_and3_63_1 = {&var52,&R0IE15LRP,&var38,&var32};
+_S_geterr  S_geterr_60_1 = {&var2,&dRM_0_,&iRM_0_,&bRM_0_,&var33,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_noto  S_noto_84_1 = {&var39,&var34};
+_S_geterr  S_geterr_59_1 = {&var1,&dRM_0_,&iRM_0_,&bRM_0_,&var35,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_zzfs  S_zzfs_75_1 = {&var37,&fEM_Z7UE20RRP,&var36,&internal1_m75_tx,&internal1_m75_y0};
+_S_or3  S_or3_74_1 = {&A6IS11LRP,&B6IS11LRP,&R0EE02LDU,&var37};
+_S_noto  S_noto_72_1 = {&var36,&var38};
+_S_zzfs  S_zzfs_83_1 = {&R0EE02LDU,&fEM_Z7UE20RRP,&var39,&internal1_m83_tx,&internal1_m83_y0};
+_S_bol  S_bol_44_1 = {&var17,&fEM_R0UL52RSS,&var40};
+_S_scalzz  S_scalzz_91_1 = {&B0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var41,&internal1_m91_y0};
+_S_scalzz  S_scalzz_89_1 = {&A0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var42,&internal1_m89_y0};
+_S_geterr  S_geterr_93_1 = {&var42,&dRM_0_,&iRM_0_,&bRM_0_,&var43,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_drg  S_drg_105_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var44,&internal1_m105_y1};
+_S_drg  S_drg_120_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var45,&internal1_m120_y1};
+_S_geterr  S_geterr_95_1 = {&var41,&dRM_0_,&iRM_0_,&bRM_0_,&var46,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_drg  S_drg_103_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var47,&internal1_m103_y1};
+_S_drg  S_drg_116_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var48,&internal1_m116_y1};
+_S_noto  S_noto_80_1 = {&var8,&var49};
+_S_bol  S_bol_65_1 = {&var1,&fEM_R0UR01RRP,&var50};
+_S_bol  S_bol_53_1 = {&var2,&fEM_R0UR01RRP,&var51};
 
 
 void ZeroVar()
@@ -1001,57 +1019,57 @@ void ZeroVar()
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  scalzz(&S_scalzz_86_1);
-  scalzz(&S_scalzz_88_1);
-  or2(&S_or2_68_1);
-  diagndev(&S_diagndev_140_1);
-  and2(&S_and2_142_1);
-  or2(&S_or2_160_1);
-  or2(&S_or2_153_1);
+  scalzz(&S_scalzz_89_1);
+  scalzz(&S_scalzz_91_1);
+  or2(&S_or2_71_1);
+  diagndev(&S_diagndev_143_1);
+  and2(&S_and2_145_1);
+  or2(&S_or2_163_1);
+  or2(&S_or2_156_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
-  ml(&S_ml_49_1);
-  ml(&S_ml_58_1);
-  bol(&S_bol_50_1);
-  bol(&S_bol_62_1);
-  drg(&S_drg_115_1);
-  drg(&S_drg_100_1);
-  geterr(&S_geterr_92_1);
-  drg(&S_drg_117_1);
-  drg(&S_drg_102_1);
-  geterr(&S_geterr_90_1);
-  zzfs(&S_zzfs_80_1);
-  or3(&S_or3_71_1);
-  zzfs(&S_zzfs_72_1);
-  geterr(&S_geterr_56_1);
-  noto(&S_noto_81_1);
-  geterr(&S_geterr_57_1);
+  ml(&S_ml_52_1);
+  ml(&S_ml_61_1);
+  bol(&S_bol_53_1);
+  bol(&S_bol_65_1);
+  drg(&S_drg_116_1);
+  drg(&S_drg_103_1);
+  geterr(&S_geterr_95_1);
+  drg(&S_drg_120_1);
+  drg(&S_drg_105_1);
+  geterr(&S_geterr_93_1);
+  zzfs(&S_zzfs_83_1);
+  or3(&S_or3_74_1);
+  zzfs(&S_zzfs_75_1);
+  geterr(&S_geterr_59_1);
+  noto(&S_noto_84_1);
+  geterr(&S_geterr_60_1);
   setData(&var54,&var43);
-  or2(&S_or2_97_1);
+  or2(&S_or2_100_1);
   setData(&var55,&var46);
-  or2(&S_or2_101_1);
+  or2(&S_or2_104_1);
   setData(&var56,&var43);
   setData(&var57,&var46);
-  or2(&S_or2_96_1);
+  or2(&S_or2_99_1);
   ocham(&S_ocham_21_1);
-  orn(&S_orn_158_1);
-  or3(&S_or3_157_1);
-  noto(&S_noto_159_1);
-  bol(&S_bol_42_1);
-  noto(&S_noto_69_1);
+  orn(&S_orn_161_1);
+  or3(&S_or3_160_1);
+  noto(&S_noto_162_1);
+  bol(&S_bol_44_1);
+  noto(&S_noto_72_1);
   setData(&var52,&var35);
-  and3(&S_and3_60_1);
+  and3(&S_and3_63_1);
   setData(&var53,&var33);
-  and3(&S_and3_61_1);
-  and3(&S_and3_51_1);
-  and3(&S_and3_52_1);
-  or2(&S_or2_127_1);
-  and5(&S_and5_43_1);
-  noto(&S_noto_77_1);
-  and3(&S_and3_44_1);
-  or4(&S_or4_48_1);
-  or4(&S_or4_73_1);
+  and3(&S_and3_64_1);
+  and3(&S_and3_54_1);
+  and3(&S_and3_55_1);
+  or2(&S_or2_128_1);
+  and5(&S_and5_46_1);
+  noto(&S_noto_80_1);
+  and3(&S_and3_47_1);
+  or4(&S_or4_51_1);
+  or4(&S_or4_76_1);
   moveData(idB1VS21LRP,idB1IS21LRP);
   moveData(idA1VS21LRP,idA1IS21LRP);
   setData(idTTLrpu,&var15);

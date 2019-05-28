@@ -798,5 +798,44 @@
             <value name="OldData">229</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R0UH21RSS</value>
+            <value name="description">( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">56</value>
+            <value name="nID">57</value>
+            <value name="PType">33</value>
+            <value name="Bf0">108</value>
+            <value name="ParData">234</value>
+            <value name="OldData">234</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH22RSS</value>
+            <value name="description">( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">58</value>
+            <value name="nID">58</value>
+            <value name="PType">33</value>
+            <value name="Bf0">112</value>
+            <value name="ParData">239</value>
+            <value name="OldData">239</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UH23RSS</value>
+            <value name="description">( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">60</value>
+            <value name="nID">59</value>
+            <value name="PType">33</value>
+            <value name="Bf0">116</value>
+            <value name="ParData">244</value>
+            <value name="OldData">244</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>
