@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
         <model    name="FP"/>
-        <NetBlKey name="ShNetDU">
+        <!-- <NetBlKey name="ShNetDU"/> -->
         <result   path="DU\src"/>
         <key      name="R0MW11IP1"/>
         <delay    time="4000"/>
@@ -10,7 +10,6 @@
         <initsig  xml="initsigDU"/>
         <devices  xml="devDU"/>
         <modbus   name="DU"      description="Общий слэйв"      type="slave"                                           port="5002" step="100" xml="DU"/>
-        <!-- <modbus   name="SAKNP"   description="Слэйв АКНП"       type="slave"                                           port="5030" step="100" xml="SADU"/> -->
         <modbus   name="DiagnDU" description="Диагностика DU"   type="slave"                                           port="5006" step="100" xml="DiagnDU"/>
         <modbus   name="MDuBz1"  description="Мастер ДУ в Баз1" type="master" ip1="192.168.10.52" ip2="192.168.10.152" port="5010" step="100" xml="..\Baz1\SBz1DU.xml"/>
         <modbus   name="MDuBz2"  description="Мастер ДУ в Баз2" type="master" ip1="192.168.10.54" ip2="192.168.10.154" port="5009" step="100" xml="..\Baz2\SBz2DU.xml"/>
