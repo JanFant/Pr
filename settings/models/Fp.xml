@@ -4,6 +4,9 @@
         <attach id="1" file="init1-FP"/>
         <attach id="3" file="init2-FP"/>
         <attach id="5" file="postSchemeFP"/>
+        <attach id="6" file="SaveVar"/>
+        <attach id="7" file="netblock1-FP"/>
+        <attach id="8" file="netblock2-FP"/>
     </modif_C>
 </model>
 <!-- attach_1 description ="Init 1" -->

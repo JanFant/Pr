@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
         <model    name="FP"/>
+        <NetBlKey name="ShNetBz1">
         <result   path="Baz1\src"/>
         <key      name="R0MW11IP1"/>
         <delay    time="2000"/>

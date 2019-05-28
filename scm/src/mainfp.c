@@ -67,6 +67,7 @@ int main(int argc, char **argv) {
     time_start(&tvStakt);
     while (1) {
         time_start(&tv1);
+
         readAllModbus();
         if (SimulOn)
             readAllSimul();
@@ -87,16 +88,20 @@ int main(int argc, char **argv) {
             writeAllDriversPTI();
         }
 
-        writeAllModbus();
-        makeSaveData();
-        long int t = time_cycle();
-        if (t > StepCycle) {
-            syslog(LOG_INFO, "long cycle %ld\n", t);
-        }
-        while ((time_cycle() + 1) < StepCycle) {
-            makeStepModbusDevices();
-        }
-        while ((time_cycle()) < StepCycle) {
+
+        {
+
+            writeAllModbus();
+            makeSaveData();
+            long int t = time_cycle();
+            if (t > StepCycle) {
+                syslog(LOG_INFO, "long cycle %ld\n", t);
+            }
+            while ((time_cycle() + 1) < StepCycle) {
+                makeStepModbusDevices();
+            }
+            while ((time_cycle()) < StepCycle) {
+            }
         }
     }
     stopNetPhoto();
