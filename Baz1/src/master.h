@@ -129,8 +129,8 @@ int nomer = 1;
 #define idR0VZ05U	 57	//( - , - ) причины сброса
 #define B8VC01RDU	 BUFFER[134]	//( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм
 #define idB8VC01RDU	 58	//( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм
-#define ShNetBZ1	 BUFFER[139]	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач Баз1
-#define idShNetBZ1	 59	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач Баз1
+#define R0S01LZ1	 BUFFER[139]	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1
+#define idR0S01LZ1	 59	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1
 #define R0AD14LDU	 BUFFER[141]	//( - , Baz1) Имитация срабатывания верхней АС II УР
 #define idR0AD14LDU	 60	//( - , Baz1) Имитация срабатывания верхней АС II УР
 #define R0MD34LP1	 BUFFER[143]	//( - , Baz1) Кнопка (Квитировать)
@@ -511,7 +511,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 56	,3	,1	, &R0MW11IP1},	//( - , Baz1) Переключатель ВЫСТРЕЛ
 	{ 57	,5	,1	, &R0VZ05U},	//( - , - ) причины сброса
 	{ 58	,8	,1	, &B8VC01RDU},	//( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм
-	{ 59	,1	,1	, &ShNetBZ1},	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач Баз1
+	{ 59	,1	,1	, &R0S01LZ1},	//(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1
 	{ 60	,1	,1	, &R0AD14LDU},	//( - , Baz1) Имитация срабатывания верхней АС II УР
 	{ 61	,1	,1	, &R0MD34LP1},	//( - , Baz1) Кнопка (Квитировать)
 	{ 62	,1	,1	, &R0AD04LZ1},	//(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР
@@ -1143,7 +1143,7 @@ static DriverRegister def_buf_VDS324[]={
 	{&A0VN71LS3,1,6},
 	{&A0EE01LS3,1,4},
 	{&R0VN73LZ1,1,0},
-	{&ShNetBZ1,1,14},
+	{&R0S01LZ1,1,14},
 	{&A0VP81LZZ,1,16},
 	{&R0DE08LZ1,3,64},
 	{&B0VP81LZZ,1,22},

@@ -57,7 +57,7 @@
 <var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
 <var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
-<var  name="ShNetBZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач Баз2" format="1"></var>
+<var  name="R0S01LZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен" format="1"></var>
 <var  name="R0EE02LDU" description="( - , Baz2) Питание  АКНП  отключить" format="1"></var>
 <var  name="R0DE04LZ2" description="(vas84:04 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 4 месте" format="3"></var>

@@ -57,7 +57,7 @@
 <var  name="R0MW11IP1" description="( - , Baz1) Переключатель ВЫСТРЕЛ" format="3"></var>
 <var  name="R0VZ05U" description="( - , - ) причины сброса" format="5"></var>
 <var  name="B8VC01RDU" description="( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм" format="8"></var>
-<var  name="ShNetBZ1" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач Баз1" format="1"></var>
+<var  name="R0S01LZ1" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
 <var  name="R0AD14LDU" description="( - , Baz1) Имитация срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0MD34LP1" description="( - , Baz1) Кнопка (Квитировать)" format="1"></var>
 <var  name="R0AD04LZ1" description="(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР" format="1"></var>
