@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
         <model    name="FP"/>
-        <netblkey name="ShNetDU"/>
+        <netblkey name="R0S01LDU"/>
         <result   path="DU\src"/>
         <key      name="R0MW11IP1"/>
         <delay    time="4000"/>
