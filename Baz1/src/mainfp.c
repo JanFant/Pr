@@ -99,7 +99,7 @@ int main(int argc, char **argv) {
     while (1) {
         time_start(&tv1);
 
-        if(!getAsBool(%NetBlKey%))
+        if(!getAsBool(idR0S01LZ1))
 
         readAllModbus();
         if (SimulOn)
@@ -128,7 +128,7 @@ int main(int argc, char **argv) {
         }
 
 
-        if(!getAsBool(%NetBlKey%))
+        if(!getAsBool(idR0S01LZ1))
 
         {
 
@@ -155,4 +155,5 @@ int main(int argc, char **argv) {
 
     //    reboot(RB_AUTOBOOT);
 }
+
 
