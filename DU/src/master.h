@@ -7323,7 +7323,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(892,0.006792308);
 	setAsFloat(893,0.000418877);
 	setAsFloat(894,0.001);
-	setAsFloat(895,0.20);
+	setAsFloat(895,0.020);
 	setAsFloat(896,0.5);
 	setAsFloat(897,2.0);
 	setAsFloat(898,0.005);
