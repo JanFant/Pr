@@ -162,8 +162,8 @@
   <save value ="0.07">fEM_A3UP02RIM</save>
   <save value ="0.275">fEM_A4UP01RIM</save>
   <save value ="0.245">fEM_A4UP02RIM</save>
-  <save value ="0">fEM_R7UI76RIM</save>
-  <save value ="0.05">fEM_R7UI77RIM</save>
+  <save value ="0.035">fEM_R7UI76RIM</save>
+  <save value ="0.035">fEM_R7UI77RIM</save>
   <save value ="0">iEM_TERBB1</save>
   <save value ="0">fEM_A1MC02RC1</save>
   <save value ="0">fEM_A1MV02RC1</save>
