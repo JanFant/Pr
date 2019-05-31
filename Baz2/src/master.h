@@ -5,7 +5,7 @@ static char SimulOn=0;
 static short CodeSub=6;
 static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
-static int StepCycle=50;	 // Время цикла в ms
+static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
 #define SIZE_BUFFER 653
 static char BUFFER[653];
@@ -1043,10 +1043,10 @@ static ModbusDevice modbuses[]={
 	{0,5009,&coil_SBz2DU[0],&di_SBz2DU[0],&ir_SBz2DU[0],&hr_SBz2DU[0],NULL,NULL,NULL,0},	 //Слэйв для DU
 	{0,5005,&coil_DiagnBaz2[0],&di_DiagnBaz2[0],&ir_DiagnBaz2[0],&hr_DiagnBaz2[0],NULL,NULL,NULL,0},	 //Диагностика Baz2
 	{1,5004,&coil_MBz2S[0],&di_MBz2S[0],&ir_MBz2S[0],&hr_MBz2S[0],NULL,MBz2S_ip1,MBz2S_ip2,100},	 //Мастер Баз2 в SCM
-	{1,5019,&coil_MBz2A1[0],&di_MBz2A1[0],&ir_MBz2A1[0],&hr_MBz2A1[0],NULL,MBz2A1_ip1,MBz2A1_ip2,50},	 //Мастер Баз2 в AKNP1
-	{1,5020,&coil_MBz2A2[0],&di_MBz2A2[0],&ir_MBz2A2[0],&hr_MBz2A2[0],NULL,MBz2A2_ip1,MBz2A2_ip2,50},	 //Мастер Баз2 в AKNP2
-	{1,5021,&coil_MBz2A3[0],&di_MBz2A3[0],&ir_MBz2A3[0],&hr_MBz2A3[0],NULL,MBz2A3_ip1,MBz2A3_ip2,50},	 //Мастер Баз2 в AKNP3
-	{1,5022,&coil_MBz2A4[0],&di_MBz2A4[0],&ir_MBz2A4[0],&hr_MBz2A4[0],NULL,MBz2A4_ip1,MBz2A4_ip2,50},	 //Мастер Баз2 в AKNP4
+	{1,5019,&coil_MBz2A1[0],&di_MBz2A1[0],&ir_MBz2A1[0],&hr_MBz2A1[0],NULL,MBz2A1_ip1,MBz2A1_ip2,20},	 //Мастер Баз2 в AKNP1
+	{1,5020,&coil_MBz2A2[0],&di_MBz2A2[0],&ir_MBz2A2[0],&hr_MBz2A2[0],NULL,MBz2A2_ip1,MBz2A2_ip2,20},	 //Мастер Баз2 в AKNP2
+	{1,5021,&coil_MBz2A3[0],&di_MBz2A3[0],&ir_MBz2A3[0],&hr_MBz2A3[0],NULL,MBz2A3_ip1,MBz2A3_ip2,20},	 //Мастер Баз2 в AKNP3
+	{1,5022,&coil_MBz2A4[0],&di_MBz2A4[0],&ir_MBz2A4[0],&hr_MBz2A4[0],NULL,MBz2A4_ip1,MBz2A4_ip2,20},	 //Мастер Баз2 в AKNP4
 
 	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},};
 #pragma pop
@@ -1953,7 +1953,7 @@ void InitInternalParametr(void)
 void MainCycle(void)
 {
 if ((getAsShort(idR0MW11IP1) == 2) || (getAsShort(idR0MW11IP1) == 3)) { 
-     if(delay++ < 40) return;
+     if(delay++ < 100) return;
      freebuff = 0;
      delay = delay > 32000 ? 32000 : delay; 
        Scheme(); 
