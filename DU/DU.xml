@@ -8962,5 +8962,18 @@
             <value name="OldData">2012</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R0UL00RDU</value>
+            <value name="description">( - , DU) Время ожидания передачи  сигнала отключения сети</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">341</value>
+            <value name="nID">685</value>
+            <value name="PType">33</value>
+            <value name="Bf0">645</value>
+            <value name="ParData">2017</value>
+            <value name="OldData">2017</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>
