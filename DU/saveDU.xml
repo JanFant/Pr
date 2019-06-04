@@ -46,7 +46,7 @@
   <save value ="0.55">fEM_A3UP54RDU</save>
   <save value ="0.64">fEM_A3UP87RDU</save>
   <save value ="0.190">fEM_R0UL05RDU</save>
-  <save value ="1.0">fEM_R0UL20RDU</save>
+  <save value ="0.045">fEM_R0UL20RDU</save>
   <save value ="0.1">fEM_B8UV04RDU</save>
   <save value ="2">fEM_B8UC06RDU</save>
   <save value ="0.3">fEM_B8UC05RDU</save>
@@ -96,11 +96,11 @@
   <save value ="2.0">fEM_R0UL04RDU</save>
   <save value ="2.0">fEM_R0UL06RDU</save>
   <save value ="1.5">fEM_R0UL03RDU</save>
-  <save value ="0.06">fEM_R0UL17RDU</save>
-  <save value ="0.008">fEM_R0UL19RDU</save>
+  <save value ="0.045">fEM_R0UL17RDU</save>
+  <save value ="0.045">fEM_R0UL19RDU</save>
   <save value ="0.150">fEM_R0UL07RDU</save>
-  <save value ="0.040">fEM_R0UL18RDU</save>
-  <save value ="0.007">fEM_R0UL16RDU</save>
+  <save value ="0.045">fEM_R0UL18RDU</save>
+  <save value ="0.045">fEM_R0UL16RDU</save>
   <save value ="0.015">fEM_R0UL02RDU</save>
   <save value ="2000.0">fEM_R0UN08RDU</save>
   <save value ="1500.0">fEM_R0UN07RDU</save>
