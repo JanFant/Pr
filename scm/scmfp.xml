@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsystem >
         <model    name="PTI"/>
+        <netblkey name="R0S01LIM"/>
         <result   path="scm\src"/>
         <key      name="R0DEUMLSS"/>
         <variable xml="varscm"/>

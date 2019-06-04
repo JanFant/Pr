@@ -4,6 +4,8 @@
         <attach id="1" file="init1-PTI"/>
         <attach id="3" file="init2-PTI"/>
         <attach id="5" file="postSchemePTI"/>
+        <attach id="7" file="netblock-FP"/>
+        <attach id="8" file="netblock-FP"/>
     </modif_C>
     <modif_H>
         <act name="one_ip"/>

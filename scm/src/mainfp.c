@@ -68,6 +68,8 @@ int main(int argc, char **argv) {
     while (1) {
         time_start(&tv1);
 
+        if(!getAsBool(idR0S01LIM))
+
         readAllModbus();
         if (SimulOn)
             readAllSimul();
@@ -88,6 +90,8 @@ int main(int argc, char **argv) {
             writeAllDriversPTI();
         }
 
+
+        if(!getAsBool(idR0S01LIM))
 
         {
 
