@@ -198,7 +198,7 @@
 <var  name="internal1_m135_y0" description="(internal1_m135_y0) y0" format="18"></var>
 <var  name="internal1_m134_tx" description="(internal1_m134_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m134_y0" description="(internal1_m134_y0) y0" format="18"></var>
-<var  name="internal1_m305_sttlf" description="(internal1_m305_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
+<var  name="internal1_m306_sttlf" description="(internal1_m306_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m225_tx" description="(internal1_m225_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m225_y0" description="(internal1_m225_y0) y0" format="18"></var>
 <var  name="internal1_m33_tx" description="(internal1_m33_tx) tx - внутренний параметр" format="3"></var>
@@ -208,7 +208,7 @@
 <var  name="internal1_m90_y0" description="(internal1_m90_y0) y0" format="8"></var>
 <var  name="internal1_m159_y1" description="(internal1_m159_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m170_y1" description="(internal1_m170_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m278_q0" description="(internal1_m278_q0) q0 - внутренний параметр" format="5"></var>
+<var  name="internal1_m280_q0" description="(internal1_m280_q0) q0 - внутренний параметр" format="5"></var>
 <var  name="internal1_m128_y0" description="(internal1_m128_y0) state" format="1"></var>
 <var  name="internal1_m124_y0" description="(internal1_m124_y0) state" format="1"></var>
 <var  name="internal1_m106_y1" description="(internal1_m106_y1) y1 - внутренний параметр" format="1"></var>

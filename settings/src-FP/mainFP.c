@@ -10,7 +10,7 @@
 #include <fp8/UDPTrasport.h>
 #include <fp8/drvio.h>
 
-#include "teprLib/allTeprol.h"
+#include <teprLib/allTeprol.h>
 #include "master.h"
 
 static struct timeval tv1, tv2, dtv, tvStakt;

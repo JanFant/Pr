@@ -5803,18 +5803,5 @@
             <value name="OldData">1828</value>
             <value name="unitId">1</value>
         </record>
-        <record>
-            <value name="name">fEM_R0UL03RIM</value>
-            <value name="description">( - , SCM) Максимальное время цикла, сек</value>
-            <value name="type">3</value>
-            <value name="format">8</value>
-            <value name="address">631</value>
-            <value name="nID">442</value>
-            <value name="PType">33</value>
-            <value name="Bf0">1267</value>
-            <value name="ParData">1833</value>
-            <value name="OldData">1833</value>
-            <value name="unitId">1</value>
-        </record>
     </records>
 </table>
