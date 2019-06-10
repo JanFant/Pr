@@ -9,11 +9,9 @@ endif
 ifeq "$(SYS)" "G"
 LIBPATH = /usr/local
 PTHREAD = -lpthread
-EXEP = ../result
 endif
 ifeq "$(SYS)" "OW"
 LIBPATH = /usr
-EXEP = ../
 endif
 
 OMK =  -m32 -c $(DK) -w -DLINUXMODE -I$(LIBPATH)/include/modbus -I$(LIBPATH)/include/teprLib -I$(LIBPATH)/include/fp8 -std=c99  -MMD -MP -MF
@@ -23,7 +21,7 @@ all: clean Create
 
 Create:
 	gcc $(OMK) $(SPATH)/mainfp.o.dt -o $(SPATH)/mainfp.o $(SPATH)/mainfp.c
-	gcc -m32 -o $(EXEP)/$(NAME) $(SPATH)/mainfp.o $(LK)
+	gcc -m32 -o ../result/$(NAME) $(SPATH)/mainfp.o $(LK)
 
 test:
 	$(SPATH)
