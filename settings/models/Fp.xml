@@ -9,8 +9,3 @@
         <attach id="8" file="netblock-FP"/>
     </modif_C>
 </model>
-<!-- attach_1 description ="Init 1" -->
-<!-- attach_2 description ="Init VCHS" -->
-<!-- attach_3 description ="Init 2" -->
-<!-- attach_4 description ="Post VCHS" -->
-<!-- attach_5 description ="Post Sheme" -->
