@@ -23,8 +23,8 @@ Create:
 	gcc $(OMK) $(SPATH)/mainfp.o.dt -o $(SPATH)/mainfp.o $(SPATH)/mainfp.c
 	gcc -m32 -o ../result/$(NAME) $(SPATH)/mainfp.o $(LK)
 
-test:
-	$(SPATH)
+
+
 
 clean:
 	@rm -f *.o*
