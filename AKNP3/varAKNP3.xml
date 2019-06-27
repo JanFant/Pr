@@ -19,12 +19,12 @@
 <var  name="R0DEB2LS3" description="(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7" format="1"></var>
 <var  name="R0DEB3LS3" description="(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8" format="1"></var>
 <var  name="R0DEB4LS3" description="(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8" format="1"></var>
-<var  name="R0IN01FS3" description="(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN01FS3" description="(vchs:01 - K01VCHS, AKNP3) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FI3" description="( - , MA3S) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN03FS3" description="(vchs:02 - K01VCHS, - ) Выход КНК53М Гц" format="8"></var>
+<var  name="R0IN03FS3" description="(vchs:02 - K01VCHS, AKNP3) Выход КНК53М Гц" format="8"></var>
 <var  name="R0IS01FI0" description="( - , MA3S) Признак работы с имитатором" format="1"></var>
 <var  name="R0IN01FI3" description="( - , MA3S) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FS3" description="(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN02FS3" description="(vchs:01 - K02VCHS, AKNP3) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI3" description="( - , MA3S) Выход КНК53М Гц от ПТИ" format="8"></var>
 <var  name="R0VN02RS3" description="( - , A3Bz1, A3Bz2) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="( - , A3Bz1, A3Bz2) Период разгона канал 3" format="8"></var>
