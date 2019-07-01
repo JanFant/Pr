@@ -1,16 +1,16 @@
 <assign>
     <FDS16>
-        <def name="A1VN71LS4">K16FDSR</def>
-        <def name="R0DE05LS4">Diagn</def>
-        <def name="A0EE01LS4">K11FDSR</def>
-        <def name="R0VN78LZ1">K10FDSR</def>
-        <def name="R0VN74LZ1">K09FDSR</def>
-        <def name="R0IE01LS4">K02FDSR</def>
-        <def name="R0IE02LS4">K01FDSR</def>
-        <def name="A0VN71LS4">K12FDSR</def>
-        <def name="R0VN74LZ2">K13FDSR</def>
-        <def name="R0VN78LZ2">K14FDSR</def>
         <def name="A1EE01LS4">K15FDSR</def>
+        <def name="R0VN78LZ2">K14FDSR</def>
+        <def name="R0VN74LZ2">K13FDSR</def>
+        <def name="A0VN71LS4">K12FDSR</def>
+        <def name="R0VN74LZ1">K09FDSR</def>
+        <def name="R0IE02LS4">K01FDSR</def>
+        <def name="R0VN78LZ1">K10FDSR</def>
+        <def name="A0EE01LS4">K11FDSR</def>
+        <def name="R0IE01LS4">K02FDSR</def>
+        <def name="R0DE05LS4">Diagn</def>
+        <def name="A1VN71LS4">K16FDSR</def>
     </FDS16>
 
 
@@ -32,15 +32,15 @@
 
 
     <VCHS01>
-        <def name="R0IN01FS4">K01VCHS</def>
+        <def name="R0IN01FV4">K01VCHS</def>
         <def name="R0DE01LS4">Diagn</def>
-        <def name="R0IN02FS4">K02VCHS</def>
+        <def name="R0IN02FV4">K02VCHS</def>
     </VCHS01>
 
 
     <VCHS02>
-        <def name="R0IN03FS4">K01VCHS</def>
         <def name="R0DE02LS4">Diagn</def>
+        <def name="R0IN03FV4">K01VCHS</def>
     </VCHS02>
 
 

@@ -306,7 +306,7 @@
         </record>
         <record>
             <value name="name">R0IN07RRP</value>
-            <value name="description">( - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)</value>
+            <value name="description">( - , RPU) Частота СНМ-11 Гц (канал 7)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">7</value>
@@ -319,7 +319,7 @@
         </record>
         <record>
             <value name="name">R0IN06RRP</value>
-            <value name="description">( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ</value>
+            <value name="description">( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">9</value>
@@ -371,7 +371,7 @@
         </record>
         <record>
             <value name="name">R0IN03RRP</value>
-            <value name="description">( - K01VCHS, RPU) Частота КНК53М Гц (канал 5)</value>
+            <value name="description">( - , RPU) Частота КНК53М Гц (канал 5)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">16</value>
@@ -397,7 +397,7 @@
         </record>
         <record>
             <value name="name">R0IN02RRP</value>
-            <value name="description">( - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)</value>
+            <value name="description">( - , RPU) Частота КНК15-1 Гц (канал 5)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">20</value>
@@ -410,7 +410,7 @@
         </record>
         <record>
             <value name="name">R0IN01RRP</value>
-            <value name="description">( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)</value>
+            <value name="description">( - , RPU) Частота СНМ-11 Гц (канал 5)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">22</value>

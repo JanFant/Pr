@@ -7,433 +7,468 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 422
-static char BUFFER[422];
+#define SIZE_BUFFER 472
+static char BUFFER[472];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.31\0", 5432, "192.168.10.131\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
 int nomer = 1;
-#define R0DE36LRP	 BUFFER[0]	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
-#define idR0DE36LRP	 1	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
-#define R0DE35LRP	 BUFFER[2]	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
-#define idR0DE35LRP	 2	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
-#define R0DE34LRP	 BUFFER[4]	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
-#define idR0DE34LRP	 3	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
-#define R0DE33LRP	 BUFFER[6]	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
-#define idR0DE33LRP	 4	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
-#define R0DE32LRP	 BUFFER[8]	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
-#define idR0DE32LRP	 5	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
-#define R0DE31LRP	 BUFFER[10]	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
-#define idR0DE31LRP	 6	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
-#define R0DE07LRP	 BUFFER[12]	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
-#define idR0DE07LRP	 7	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
-#define R0DE08LRP	 BUFFER[15]	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
-#define idR0DE08LRP	 8	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
-#define R0DE06LRP	 BUFFER[18]	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
-#define idR0DE06LRP	 9	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
-#define R0DE03LRP	 BUFFER[21]	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
-#define idR0DE03LRP	 10	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
-#define R0DE02LRP	 BUFFER[24]	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
-#define idR0DE02LRP	 11	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
-#define R0DE01LRP	 BUFFER[27]	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
-#define idR0DE01LRP	 12	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
-#define R0EE02LDU	 BUFFER[30]	//( - , RPU) Питание  АКНП  отключить
-#define idR0EE02LDU	 13	//( - , RPU) Питание  АКНП  отключить
-#define B7MZ31LRP	 BUFFER[32]	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
-#define idB7MZ31LRP	 14	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
-#define A7MZ31LRP	 BUFFER[34]	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
-#define idA7MZ31LRP	 15	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
-#define C1MZ31LRP	 BUFFER[36]	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
-#define idC1MZ31LRP	 16	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
-#define C1MD31LRP	 BUFFER[38]	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
-#define idC1MD31LRP	 17	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
-#define B3VS21LRP	 BUFFER[40]	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
-#define idB3VS21LRP	 18	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
-#define A3VS21LRP	 BUFFER[42]	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
-#define idA3VS21LRP	 19	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
-#define B2VS21LRP	 BUFFER[44]	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
-#define idB2VS21LRP	 20	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
-#define A2VS21LRP	 BUFFER[46]	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
-#define idA2VS21LRP	 21	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
-#define B1VS21LRP	 BUFFER[48]	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
-#define idB1VS21LRP	 22	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
-#define B1IS21LRP	 BUFFER[50]	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
-#define idB1IS21LRP	 23	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
-#define A1VS21LRP	 BUFFER[52]	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
-#define idA1VS21LRP	 24	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
-#define A1IS21LRP	 BUFFER[54]	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
-#define idA1IS21LRP	 25	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
-#define R0IN07RIP	 BUFFER[56]	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
-#define idR0IN07RIP	 26	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
-#define R0IN06RIP	 BUFFER[61]	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define idR0IN06RIP	 27	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define R0IN03RIP	 BUFFER[66]	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
-#define idR0IN03RIP	 28	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
-#define R0IN02RIP	 BUFFER[71]	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
-#define idR0IN02RIP	 29	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
-#define R0IN01RIP	 BUFFER[76]	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
-#define idR0IN01RIP	 30	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
-#define R0IS01FI0	 BUFFER[81]	//( - , MRPS) Признак работы с имитатором
-#define idR0IS01FI0	 31	//( - , MRPS) Признак работы с имитатором
-#define R0DEB3LRP	 BUFFER[83]	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
-#define idR0DEB3LRP	 32	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
-#define R0DEB4LRP	 BUFFER[85]	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
-#define idR0DEB4LRP	 33	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
-#define R0DEB2LRP	 BUFFER[87]	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
-#define idR0DEB2LRP	 34	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
-#define R0DEB1LRP	 BUFFER[89]	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
-#define idR0DEB1LRP	 35	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
-#define TTLrpu	 BUFFER[91]	//( - , RPU) ttl
-#define idTTLrpu	 36	//( - , RPU) ttl
-#define TestDiagnRPU	 BUFFER[94]	//( - , RPU) Неисправность от диагностики
-#define idTestDiagnRPU	 37	//( - , RPU) Неисправность от диагностики
-#define R0DE3DLRP	 BUFFER[96]	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
-#define idR0DE3DLRP	 38	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
-#define R0DE3CLRP	 BUFFER[98]	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
-#define idR0DE3CLRP	 39	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
-#define R0DE39LRP	 BUFFER[100]	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
-#define idR0DE39LRP	 40	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
-#define R0DE38LRP	 BUFFER[102]	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
-#define idR0DE38LRP	 41	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
-#define R0DE37LRP	 BUFFER[104]	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
-#define idR0DE37LRP	 42	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
-#define B0IT03IRP	 BUFFER[106]	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
-#define idB0IT03IRP	 43	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
-#define R0ET01LRP	 BUFFER[109]	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
-#define idR0ET01LRP	 44	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
-#define A0VT71LRP	 BUFFER[111]	//( - , RPU) АС по температуре в АЗ1
-#define idA0VT71LRP	 45	//( - , RPU) АС по температуре в АЗ1
-#define A0VT61LRP	 BUFFER[113]	//( - , RPU) ПС по температуре в АЗ1
-#define idA0VT61LRP	 46	//( - , RPU) ПС по температуре в АЗ1
-#define A0CT01IRP	 BUFFER[115]	//( - , RPU) Температура АЗ1-3
-#define idA0CT01IRP	 47	//( - , RPU) Температура АЗ1-3
-#define A0IT03IRP	 BUFFER[120]	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
-#define idA0IT03IRP	 48	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
-#define R0IN07RRP	 BUFFER[123]	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
-#define idR0IN07RRP	 49	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
-#define R7VN71LRP	 BUFFER[128]	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
-#define idR7VN71LRP	 50	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
-#define R0IN06RRP	 BUFFER[130]	//(vchs:03 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define idR0IN06RRP	 51	//(vchs:03 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
-#define R0IE02LRP	 BUFFER[135]	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
-#define idR0IE02LRP	 52	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
-#define R0IE01LRP	 BUFFER[137]	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
-#define idR0IE01LRP	 53	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
-#define R0VN15RRP	 BUFFER[139]	//( - , RPU) Номер ведущей камеры канал 5
-#define idR0VN15RRP	 54	//( - , RPU) Номер ведущей камеры канал 5
-#define R0VN33RRP	 BUFFER[142]	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
-#define idR0VN33RRP	 55	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
-#define R0VN23RRP	 BUFFER[147]	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
-#define idR0VN23RRP	 56	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
-#define A0EE02LRP	 BUFFER[152]	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
-#define idA0EE02LRP	 57	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
-#define R0IN03RRP	 BUFFER[154]	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
-#define idR0IN03RRP	 58	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
-#define B8VC01RDU	 BUFFER[159]	//( - , RPU) Координата АЗ2, мм
-#define idB8VC01RDU	 59	//( - , RPU) Координата АЗ2, мм
-#define R0VN03RRP	 BUFFER[164]	//( - , RPU) Измеренный нейтронный поток канал 5
-#define idR0VN03RRP	 60	//( - , RPU) Измеренный нейтронный поток канал 5
-#define R0IN02RRP	 BUFFER[169]	//(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
-#define idR0IN02RRP	 61	//(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
-#define R0IN01RRP	 BUFFER[174]	//(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)
-#define idR0IN01RRP	 62	//(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)
-#define R0VN02RRP	 BUFFER[179]	//( - , RPU) Уровень мощности канал 5
-#define idR0VN02RRP	 63	//( - , RPU) Уровень мощности канал 5
-#define B2IS21LRP	 BUFFER[184]	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
-#define idB2IS21LRP	 64	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
-#define A2IS21LRP	 BUFFER[186]	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
-#define idA2IS21LRP	 65	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
-#define B3IS21LRP	 BUFFER[188]	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
-#define idB3IS21LRP	 66	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
-#define A3IS21LRP	 BUFFER[190]	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
-#define idA3IS21LRP	 67	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
-#define R7VE70LRP	 BUFFER[192]	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
-#define idR7VE70LRP	 68	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
-#define B6IS11LRP	 BUFFER[194]	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
-#define idB6IS11LRP	 69	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
-#define A6IS11LRP	 BUFFER[196]	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
-#define idA6IS11LRP	 70	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
-#define R0VN13RRP	 BUFFER[198]	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
-#define idR0VN13RRP	 71	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
-#define R0VN71LRP	 BUFFER[203]	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
-#define idR0VN71LRP	 72	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
-#define A1VT71LRP	 BUFFER[205]	//(fds16:08 - K11FDSR, - ) АС по температуре
-#define idA1VT71LRP	 73	//(fds16:08 - K11FDSR, - ) АС по температуре
-#define R0IE04LRP	 BUFFER[207]	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
-#define idR0IE04LRP	 74	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
-#define R0IE03LRP	 BUFFER[209]	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
-#define idR0IE03LRP	 75	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
-#define R0IE15LRP	 BUFFER[211]	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
-#define idR0IE15LRP	 76	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
-#define R0IE14LRP	 BUFFER[213]	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
-#define idR0IE14LRP	 77	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
-#define R0IE13LRP	 BUFFER[215]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
-#define idR0IE13LRP	 78	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
-#define R0IE12LRP	 BUFFER[217]	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
-#define idR0IE12LRP	 79	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
-#define A0EE01LRP	 BUFFER[219]	//( - , RPU) Исправность АКНП канал 5
-#define idA0EE01LRP	 80	//( - , RPU) Исправность АКНП канал 5
-#define R0IE11LRP	 BUFFER[221]	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
-#define idR0IE11LRP	 81	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
-#define B0VT71LRP	 BUFFER[223]	//( - , RPU) АС по температуре в АЗ2-3
-#define idB0VT71LRP	 82	//( - , RPU) АС по температуре в АЗ2-3
-#define B0VT61LRP	 BUFFER[225]	//( - , RPU) ПС по температуре в АЗ2-3
-#define idB0VT61LRP	 83	//( - , RPU) ПС по температуре в АЗ2-3
-#define B0CT01IRP	 BUFFER[227]	//( - , RPU) Температура АЗ2-3
-#define idB0CT01IRP	 84	//( - , RPU) Температура АЗ2-3
-#define R0ET02LRP	 BUFFER[232]	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
-#define idR0ET02LRP	 85	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
-#define fEM_R0UH02RSS	 BUFFER[234]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define idfEM_R0UH02RSS	 86	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-#define fEM_R0UH03RSS	 BUFFER[239]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define idfEM_R0UH03RSS	 87	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-#define fEM_R7UX00RSS	 BUFFER[244]	//(R7UX00RSS) X-координата АЗ1 (см)
-#define idfEM_R7UX00RSS	 88	//(R7UX00RSS) X-координата АЗ1 (см)
-#define fEM_R7UY00RSS	 BUFFER[249]	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define idfEM_R7UY00RSS	 89	//(R7UY00RSS) Y-координата АЗ1 (см)
-#define fEM_R7UX13RSS	 BUFFER[254]	//(R7UX13RSS) X-координата камеры R7IN51
-#define idfEM_R7UX13RSS	 90	//(R7UX13RSS) X-координата камеры R7IN51
-#define fEM_R7UX14RSS	 BUFFER[259]	//(R7UX14RSS) X-координата камеры R7IN52
-#define idfEM_R7UX14RSS	 91	//(R7UX14RSS) X-координата камеры R7IN52
-#define fEM_R7UX15RSS	 BUFFER[264]	//(R7UX15RSS) X-координата камеры R7IN53
-#define idfEM_R7UX15RSS	 92	//(R7UX15RSS) X-координата камеры R7IN53
-#define fEM_R7UY13RSS	 BUFFER[269]	//(R7UY13RSS) Y-координата камеры R7IN51
-#define idfEM_R7UY13RSS	 93	//(R7UY13RSS) Y-координата камеры R7IN51
-#define fEM_R7UY14RSS	 BUFFER[274]	//(R7UY14RSS) Y-координата камеры R7IN52
-#define idfEM_R7UY14RSS	 94	//(R7UY14RSS) Y-координата камеры R7IN52
-#define fEM_R7UY15RSS	 BUFFER[279]	//(R7UY15RSS) Y-координата камеры R7IN53
-#define idfEM_R7UY15RSS	 95	//(R7UY15RSS) Y-координата камеры R7IN53
-#define fEM_A0UX00RSS	 BUFFER[284]	//(A0UX00RSS) Эффективный радиус АЗ
-#define idfEM_A0UX00RSS	 96	//(A0UX00RSS) Эффективный радиус АЗ
-#define fEM_A0UX13RSS	 BUFFER[289]	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
-#define idfEM_A0UX13RSS	 97	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
-#define fEM_A0UX14RSS	 BUFFER[294]	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
-#define idfEM_A0UX14RSS	 98	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
-#define fEM_A0UX15RSS	 BUFFER[299]	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
-#define idfEM_A0UX15RSS	 99	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
-#define fEM_B0UX03RSS	 BUFFER[304]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
-#define idfEM_B0UX03RSS	 100	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
-#define fEM_B0UX04RSS	 BUFFER[309]	//(B0UX04RSS) Второй коэффициент калибровки камеры4
-#define idfEM_B0UX04RSS	 101	//(B0UX04RSS) Второй коэффициент калибровки камеры4
-#define fEM_B0UX05RSS	 BUFFER[314]	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
-#define idfEM_B0UX05RSS	 102	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
-#define fEM_R0UH05RSS	 BUFFER[319]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define idfEM_R0UH05RSS	 103	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-#define fEM_R0UR01RRP	 BUFFER[324]	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
-#define idfEM_R0UR01RRP	 104	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
-#define fEM_R0UT02RZZ	 BUFFER[329]	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-#define idfEM_R0UT02RZZ	 105	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-#define fEM_R0UT01RZZ	 BUFFER[334]	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-#define idfEM_R0UT01RZZ	 106	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-#define fEM_R0UT72RZZ	 BUFFER[339]	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-#define idfEM_R0UT72RZZ	 107	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-#define fEM_R0UT71RZZ	 BUFFER[344]	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-#define idfEM_R0UT71RZZ	 108	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-#define fEM_R0UT62RZZ	 BUFFER[349]	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-#define idfEM_R0UT62RZZ	 109	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-#define fEM_R0UT61RZZ	 BUFFER[354]	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-#define idfEM_R0UT61RZZ	 110	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-#define fEM_R0UL52RSS	 BUFFER[359]	//(R0UL52RSS) Уровень АС по мощности
-#define idfEM_R0UL52RSS	 111	//(R0UL52RSS) Уровень АС по мощности
-#define fEM_Z7UE20RRP	 BUFFER[364]	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
-#define idfEM_Z7UE20RRP	 112	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
-#define fEM_R0UH21RSS	 BUFFER[369]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-#define idfEM_R0UH21RSS	 113	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-#define fEM_R0UH22RSS	 BUFFER[374]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-#define idfEM_R0UH22RSS	 114	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-#define fEM_R0UH23RSS	 BUFFER[379]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define idfEM_R0UH23RSS	 115	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define bFirstEnterFlag	 BUFFER[384]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 116	//(bFirstEnterFlag) 
-#define internal1_m143_sttlf	 BUFFER[386]	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m143_sttlf	 117	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m21_Nk	 BUFFER[389]	//(internal1_m21_Nk) Nk - ведущая камера
-#define idinternal1_m21_Nk	 118	//(internal1_m21_Nk) Nk - ведущая камера
-#define internal1_m75_tx	 BUFFER[392]	//(internal1_m75_tx) tx - время накопленное сек
-#define idinternal1_m75_tx	 119	//(internal1_m75_tx) tx - время накопленное сек
-#define internal1_m75_y0	 BUFFER[397]	//(internal1_m75_y0) y0
-#define idinternal1_m75_y0	 120	//(internal1_m75_y0) y0
-#define internal1_m83_tx	 BUFFER[398]	//(internal1_m83_tx) tx - время накопленное сек
-#define idinternal1_m83_tx	 121	//(internal1_m83_tx) tx - время накопленное сек
-#define internal1_m83_y0	 BUFFER[403]	//(internal1_m83_y0) y0
-#define idinternal1_m83_y0	 122	//(internal1_m83_y0) y0
-#define internal1_m91_y0	 BUFFER[404]	//(internal1_m91_y0) y0
-#define idinternal1_m91_y0	 123	//(internal1_m91_y0) y0
-#define internal1_m89_y0	 BUFFER[409]	//(internal1_m89_y0) y0
-#define idinternal1_m89_y0	 124	//(internal1_m89_y0) y0
-#define internal1_m105_y1	 BUFFER[414]	//(internal1_m105_y1) y1 - внутренний параметр
-#define idinternal1_m105_y1	 125	//(internal1_m105_y1) y1 - внутренний параметр
-#define internal1_m120_y1	 BUFFER[416]	//(internal1_m120_y1) y1 - внутренний параметр
-#define idinternal1_m120_y1	 126	//(internal1_m120_y1) y1 - внутренний параметр
-#define internal1_m103_y1	 BUFFER[418]	//(internal1_m103_y1) y1 - внутренний параметр
-#define idinternal1_m103_y1	 127	//(internal1_m103_y1) y1 - внутренний параметр
-#define internal1_m116_y1	 BUFFER[420]	//(internal1_m116_y1) y1 - внутренний параметр
-#define idinternal1_m116_y1	 128	//(internal1_m116_y1) y1 - внутренний параметр
+#define R0DE39LRP	 BUFFER[0]	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
+#define idR0DE39LRP	 1	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
+#define R0DE38LRP	 BUFFER[2]	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
+#define idR0DE38LRP	 2	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
+#define R0DE37LRP	 BUFFER[4]	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
+#define idR0DE37LRP	 3	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
+#define R0DE36LRP	 BUFFER[6]	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
+#define idR0DE36LRP	 4	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
+#define R0DE35LRP	 BUFFER[8]	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
+#define idR0DE35LRP	 5	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
+#define R0DE34LRP	 BUFFER[10]	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
+#define idR0DE34LRP	 6	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
+#define R0DE33LRP	 BUFFER[12]	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
+#define idR0DE33LRP	 7	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
+#define R0DE32LRP	 BUFFER[14]	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
+#define idR0DE32LRP	 8	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
+#define R0DE31LRP	 BUFFER[16]	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
+#define idR0DE31LRP	 9	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
+#define R0DE07LRP	 BUFFER[18]	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
+#define idR0DE07LRP	 10	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
+#define R0DE08LRP	 BUFFER[21]	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
+#define idR0DE08LRP	 11	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
+#define R0DE06LRP	 BUFFER[24]	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
+#define idR0DE06LRP	 12	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
+#define R0DE03LRP	 BUFFER[27]	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
+#define idR0DE03LRP	 13	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
+#define R0DE02LRP	 BUFFER[30]	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
+#define idR0DE02LRP	 14	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
+#define R0DE01LRP	 BUFFER[33]	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
+#define idR0DE01LRP	 15	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
+#define R0EE02LDU	 BUFFER[36]	//( - , RPU) Питание  АКНП  отключить
+#define idR0EE02LDU	 16	//( - , RPU) Питание  АКНП  отключить
+#define B7MZ31LRP	 BUFFER[38]	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
+#define idB7MZ31LRP	 17	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
+#define A7MZ31LRP	 BUFFER[40]	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
+#define idA7MZ31LRP	 18	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
+#define C1MZ31LRP	 BUFFER[42]	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
+#define idC1MZ31LRP	 19	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
+#define C1MD31LRP	 BUFFER[44]	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
+#define idC1MD31LRP	 20	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
+#define B3VS21LRP	 BUFFER[46]	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
+#define idB3VS21LRP	 21	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
+#define A3VS21LRP	 BUFFER[48]	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
+#define idA3VS21LRP	 22	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
+#define R0IN07VRP	 BUFFER[50]	//(vchs:03 - K02VCHS, - ) Частота с ВЧС к 7
+#define idR0IN07VRP	 23	//(vchs:03 - K02VCHS, - ) Частота с ВЧС к 7
+#define R0IN06VRP	 BUFFER[55]	//(vchs:03 - K01VCHS, - ) Частота с ВЧС к 6
+#define idR0IN06VRP	 24	//(vchs:03 - K01VCHS, - ) Частота с ВЧС к 6
+#define R0IN03VRP	 BUFFER[60]	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+#define idR0IN03VRP	 25	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+#define R0IN02VRP	 BUFFER[65]	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define idR0IN02VRP	 26	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define R0IN01VRP	 BUFFER[70]	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+#define idR0IN01VRP	 27	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+#define B1VS21LRP	 BUFFER[75]	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
+#define idB1VS21LRP	 28	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
+#define B1IS21LRP	 BUFFER[77]	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
+#define idB1IS21LRP	 29	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
+#define A1VS21LRP	 BUFFER[79]	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
+#define idA1VS21LRP	 30	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
+#define A1IS21LRP	 BUFFER[81]	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
+#define idA1IS21LRP	 31	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
+#define R0IN07RIP	 BUFFER[83]	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
+#define idR0IN07RIP	 32	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
+#define R0IN06RIP	 BUFFER[88]	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define idR0IN06RIP	 33	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define R0IN03RIP	 BUFFER[93]	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
+#define idR0IN03RIP	 34	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
+#define R0IN02RIP	 BUFFER[98]	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
+#define idR0IN02RIP	 35	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
+#define R0IN01RIP	 BUFFER[103]	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
+#define idR0IN01RIP	 36	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
+#define R0IS01FI0	 BUFFER[108]	//( - , MRPS) Признак работы с имитатором
+#define idR0IS01FI0	 37	//( - , MRPS) Признак работы с имитатором
+#define R0DEB3LRP	 BUFFER[110]	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
+#define idR0DEB3LRP	 38	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
+#define R0DEB4LRP	 BUFFER[112]	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
+#define idR0DEB4LRP	 39	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
+#define R0DEB2LRP	 BUFFER[114]	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
+#define idR0DEB2LRP	 40	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
+#define R0DEB1LRP	 BUFFER[116]	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
+#define idR0DEB1LRP	 41	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
+#define TTLrpu	 BUFFER[118]	//( - , RPU) ttl
+#define idTTLrpu	 42	//( - , RPU) ttl
+#define TestDiagnRPU	 BUFFER[121]	//( - , RPU) Неисправность от диагностики
+#define idTestDiagnRPU	 43	//( - , RPU) Неисправность от диагностики
+#define R0DE3DLRP	 BUFFER[123]	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
+#define idR0DE3DLRP	 44	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
+#define R0DE3CLRP	 BUFFER[125]	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
+#define idR0DE3CLRP	 45	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
+#define R0ET02LRP	 BUFFER[127]	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
+#define idR0ET02LRP	 46	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
+#define B0IT03IRP	 BUFFER[129]	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
+#define idB0IT03IRP	 47	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
+#define R0ET01LRP	 BUFFER[132]	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
+#define idR0ET01LRP	 48	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
+#define A0VT71LRP	 BUFFER[134]	//( - , RPU) АС по температуре в АЗ1
+#define idA0VT71LRP	 49	//( - , RPU) АС по температуре в АЗ1
+#define A0VT61LRP	 BUFFER[136]	//( - , RPU) ПС по температуре в АЗ1
+#define idA0VT61LRP	 50	//( - , RPU) ПС по температуре в АЗ1
+#define A0CT01IRP	 BUFFER[138]	//( - , RPU) Температура АЗ1-3
+#define idA0CT01IRP	 51	//( - , RPU) Температура АЗ1-3
+#define A0IT03IRP	 BUFFER[143]	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
+#define idA0IT03IRP	 52	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
+#define R0IN07RRP	 BUFFER[146]	//( - , RPU) Частота СНМ-11 Гц (канал 7)
+#define idR0IN07RRP	 53	//( - , RPU) Частота СНМ-11 Гц (канал 7)
+#define R7VN71LRP	 BUFFER[151]	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
+#define idR7VN71LRP	 54	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
+#define R0IN06RRP	 BUFFER[153]	//( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define idR0IN06RRP	 55	//( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
+#define R0IE02LRP	 BUFFER[158]	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
+#define idR0IE02LRP	 56	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
+#define R0IE01LRP	 BUFFER[160]	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
+#define idR0IE01LRP	 57	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
+#define R0VN15RRP	 BUFFER[162]	//( - , RPU) Номер ведущей камеры канал 5
+#define idR0VN15RRP	 58	//( - , RPU) Номер ведущей камеры канал 5
+#define R0VN33RRP	 BUFFER[165]	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
+#define idR0VN33RRP	 59	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
+#define R0VN23RRP	 BUFFER[170]	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
+#define idR0VN23RRP	 60	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
+#define A0EE02LRP	 BUFFER[175]	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
+#define idA0EE02LRP	 61	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
+#define R0IN03RRP	 BUFFER[177]	//( - , RPU) Частота КНК53М Гц (канал 5)
+#define idR0IN03RRP	 62	//( - , RPU) Частота КНК53М Гц (канал 5)
+#define B8VC01RDU	 BUFFER[182]	//( - , RPU) Координата АЗ2, мм
+#define idB8VC01RDU	 63	//( - , RPU) Координата АЗ2, мм
+#define R0VN03RRP	 BUFFER[187]	//( - , RPU) Измеренный нейтронный поток канал 5
+#define idR0VN03RRP	 64	//( - , RPU) Измеренный нейтронный поток канал 5
+#define R0IN02RRP	 BUFFER[192]	//( - , RPU) Частота КНК15-1 Гц (канал 5)
+#define idR0IN02RRP	 65	//( - , RPU) Частота КНК15-1 Гц (канал 5)
+#define R0IN01RRP	 BUFFER[197]	//( - , RPU) Частота СНМ-11 Гц (канал 5)
+#define idR0IN01RRP	 66	//( - , RPU) Частота СНМ-11 Гц (канал 5)
+#define R0VN02RRP	 BUFFER[202]	//( - , RPU) Уровень мощности канал 5
+#define idR0VN02RRP	 67	//( - , RPU) Уровень мощности канал 5
+#define B2VS21LRP	 BUFFER[207]	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
+#define idB2VS21LRP	 68	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
+#define A2VS21LRP	 BUFFER[209]	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
+#define idA2VS21LRP	 69	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
+#define B2IS21LRP	 BUFFER[211]	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
+#define idB2IS21LRP	 70	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
+#define A2IS21LRP	 BUFFER[213]	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
+#define idA2IS21LRP	 71	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
+#define B3IS21LRP	 BUFFER[215]	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
+#define idB3IS21LRP	 72	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
+#define A3IS21LRP	 BUFFER[217]	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
+#define idA3IS21LRP	 73	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
+#define R7VE70LRP	 BUFFER[219]	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
+#define idR7VE70LRP	 74	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
+#define B6IS11LRP	 BUFFER[221]	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
+#define idB6IS11LRP	 75	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
+#define A6IS11LRP	 BUFFER[223]	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
+#define idA6IS11LRP	 76	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
+#define R0VN13RRP	 BUFFER[225]	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
+#define idR0VN13RRP	 77	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
+#define R0VN71LRP	 BUFFER[230]	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
+#define idR0VN71LRP	 78	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
+#define A1VT71LRP	 BUFFER[232]	//(fds16:08 - K11FDSR, - ) АС по температуре
+#define idA1VT71LRP	 79	//(fds16:08 - K11FDSR, - ) АС по температуре
+#define R0IE04LRP	 BUFFER[234]	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
+#define idR0IE04LRP	 80	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
+#define R0IE03LRP	 BUFFER[236]	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
+#define idR0IE03LRP	 81	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
+#define R0IE15LRP	 BUFFER[238]	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
+#define idR0IE15LRP	 82	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
+#define R0IE14LRP	 BUFFER[240]	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
+#define idR0IE14LRP	 83	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
+#define R0IE13LRP	 BUFFER[242]	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
+#define idR0IE13LRP	 84	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
+#define R0IE12LRP	 BUFFER[244]	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
+#define idR0IE12LRP	 85	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
+#define A0EE01LRP	 BUFFER[246]	//( - , RPU) Исправность АКНП канал 5
+#define idA0EE01LRP	 86	//( - , RPU) Исправность АКНП канал 5
+#define R0IE11LRP	 BUFFER[248]	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
+#define idR0IE11LRP	 87	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
+#define B0VT71LRP	 BUFFER[250]	//( - , RPU) АС по температуре в АЗ2-3
+#define idB0VT71LRP	 88	//( - , RPU) АС по температуре в АЗ2-3
+#define B0VT61LRP	 BUFFER[252]	//( - , RPU) ПС по температуре в АЗ2-3
+#define idB0VT61LRP	 89	//( - , RPU) ПС по температуре в АЗ2-3
+#define B0CT01IRP	 BUFFER[254]	//( - , RPU) Температура АЗ2-3
+#define idB0CT01IRP	 90	//( - , RPU) Температура АЗ2-3
+#define fEM_R0UH02RSS	 BUFFER[259]	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define idfEM_R0UH02RSS	 91	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+#define fEM_R0UH03RSS	 BUFFER[264]	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define idfEM_R0UH03RSS	 92	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+#define fEM_R7UX00RSS	 BUFFER[269]	//(R7UX00RSS) X-координата АЗ1 (см)
+#define idfEM_R7UX00RSS	 93	//(R7UX00RSS) X-координата АЗ1 (см)
+#define fEM_R7UY00RSS	 BUFFER[274]	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define idfEM_R7UY00RSS	 94	//(R7UY00RSS) Y-координата АЗ1 (см)
+#define fEM_R7UX13RSS	 BUFFER[279]	//(R7UX13RSS) X-координата камеры R7IN51
+#define idfEM_R7UX13RSS	 95	//(R7UX13RSS) X-координата камеры R7IN51
+#define fEM_R7UX14RSS	 BUFFER[284]	//(R7UX14RSS) X-координата камеры R7IN52
+#define idfEM_R7UX14RSS	 96	//(R7UX14RSS) X-координата камеры R7IN52
+#define fEM_R7UX15RSS	 BUFFER[289]	//(R7UX15RSS) X-координата камеры R7IN53
+#define idfEM_R7UX15RSS	 97	//(R7UX15RSS) X-координата камеры R7IN53
+#define fEM_R7UY13RSS	 BUFFER[294]	//(R7UY13RSS) Y-координата камеры R7IN51
+#define idfEM_R7UY13RSS	 98	//(R7UY13RSS) Y-координата камеры R7IN51
+#define fEM_R7UY14RSS	 BUFFER[299]	//(R7UY14RSS) Y-координата камеры R7IN52
+#define idfEM_R7UY14RSS	 99	//(R7UY14RSS) Y-координата камеры R7IN52
+#define fEM_R7UY15RSS	 BUFFER[304]	//(R7UY15RSS) Y-координата камеры R7IN53
+#define idfEM_R7UY15RSS	 100	//(R7UY15RSS) Y-координата камеры R7IN53
+#define fEM_A0UX00RSS	 BUFFER[309]	//(A0UX00RSS) Эффективный радиус АЗ
+#define idfEM_A0UX00RSS	 101	//(A0UX00RSS) Эффективный радиус АЗ
+#define fEM_A0UX13RSS	 BUFFER[314]	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
+#define idfEM_A0UX13RSS	 102	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
+#define fEM_A0UX14RSS	 BUFFER[319]	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
+#define idfEM_A0UX14RSS	 103	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
+#define fEM_A0UX15RSS	 BUFFER[324]	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
+#define idfEM_A0UX15RSS	 104	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
+#define fEM_B0UX03RSS	 BUFFER[329]	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+#define idfEM_B0UX03RSS	 105	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+#define fEM_B0UX04RSS	 BUFFER[334]	//(B0UX04RSS) Второй коэффициент калибровки камеры4
+#define idfEM_B0UX04RSS	 106	//(B0UX04RSS) Второй коэффициент калибровки камеры4
+#define fEM_B0UX05RSS	 BUFFER[339]	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
+#define idfEM_B0UX05RSS	 107	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
+#define fEM_R0UH05RSS	 BUFFER[344]	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define idfEM_R0UH05RSS	 108	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+#define fEM_R0UR01RRP	 BUFFER[349]	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
+#define idfEM_R0UR01RRP	 109	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
+#define fEM_R0UT02RZZ	 BUFFER[354]	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+#define idfEM_R0UT02RZZ	 110	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+#define fEM_R0UT01RZZ	 BUFFER[359]	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+#define idfEM_R0UT01RZZ	 111	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+#define fEM_R0UT72RZZ	 BUFFER[364]	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+#define idfEM_R0UT72RZZ	 112	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+#define fEM_R0UT71RZZ	 BUFFER[369]	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+#define idfEM_R0UT71RZZ	 113	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+#define fEM_R0UT62RZZ	 BUFFER[374]	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+#define idfEM_R0UT62RZZ	 114	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+#define fEM_R0UT61RZZ	 BUFFER[379]	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+#define idfEM_R0UT61RZZ	 115	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+#define fEM_R0UL52RSS	 BUFFER[384]	//(R0UL52RSS) Уровень АС по мощности
+#define idfEM_R0UL52RSS	 116	//(R0UL52RSS) Уровень АС по мощности
+#define fEM_Z7UE20RRP	 BUFFER[389]	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
+#define idfEM_Z7UE20RRP	 117	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
+#define fEM_R0UH21RSS	 BUFFER[394]	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define idfEM_R0UH21RSS	 118	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+#define fEM_R0UH22RSS	 BUFFER[399]	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define idfEM_R0UH22RSS	 119	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+#define fEM_R0UH23RSS	 BUFFER[404]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define idfEM_R0UH23RSS	 120	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+#define fEM_R0IN01NRP	 BUFFER[409]	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
+#define idfEM_R0IN01NRP	 121	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
+#define fEM_R0IN02NRP	 BUFFER[414]	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
+#define idfEM_R0IN02NRP	 122	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
+#define fEM_R0IN03NRP	 BUFFER[419]	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
+#define idfEM_R0IN03NRP	 123	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
+#define fEM_R0IN06NRP	 BUFFER[424]	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
+#define idfEM_R0IN06NRP	 124	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
+#define fEM_R0IN07NRP	 BUFFER[429]	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
+#define idfEM_R0IN07NRP	 125	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
+#define bFirstEnterFlag	 BUFFER[434]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 126	//(bFirstEnterFlag) 
+#define internal1_m138_sttlf	 BUFFER[436]	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+#define idinternal1_m138_sttlf	 127	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+#define internal1_m18_Nk	 BUFFER[439]	//(internal1_m18_Nk) Nk - ведущая камера
+#define idinternal1_m18_Nk	 128	//(internal1_m18_Nk) Nk - ведущая камера
+#define internal1_m70_tx	 BUFFER[442]	//(internal1_m70_tx) tx - время накопленное сек
+#define idinternal1_m70_tx	 129	//(internal1_m70_tx) tx - время накопленное сек
+#define internal1_m70_y0	 BUFFER[447]	//(internal1_m70_y0) y0
+#define idinternal1_m70_y0	 130	//(internal1_m70_y0) y0
+#define internal1_m78_tx	 BUFFER[448]	//(internal1_m78_tx) tx - время накопленное сек
+#define idinternal1_m78_tx	 131	//(internal1_m78_tx) tx - время накопленное сек
+#define internal1_m78_y0	 BUFFER[453]	//(internal1_m78_y0) y0
+#define idinternal1_m78_y0	 132	//(internal1_m78_y0) y0
+#define internal1_m86_y0	 BUFFER[454]	//(internal1_m86_y0) y0
+#define idinternal1_m86_y0	 133	//(internal1_m86_y0) y0
+#define internal1_m84_y0	 BUFFER[459]	//(internal1_m84_y0) y0
+#define idinternal1_m84_y0	 134	//(internal1_m84_y0) y0
+#define internal1_m100_y1	 BUFFER[464]	//(internal1_m100_y1) y1 - внутренний параметр
+#define idinternal1_m100_y1	 135	//(internal1_m100_y1) y1 - внутренний параметр
+#define internal1_m115_y1	 BUFFER[466]	//(internal1_m115_y1) y1 - внутренний параметр
+#define idinternal1_m115_y1	 136	//(internal1_m115_y1) y1 - внутренний параметр
+#define internal1_m98_y1	 BUFFER[468]	//(internal1_m98_y1) y1 - внутренний параметр
+#define idinternal1_m98_y1	 137	//(internal1_m98_y1) y1 - внутренний параметр
+#define internal1_m112_y1	 BUFFER[470]	//(internal1_m112_y1) y1 - внутренний параметр
+#define idinternal1_m112_y1	 138	//(internal1_m112_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
-	{ 1	,1	,1	, &R0DE36LRP},	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
-	{ 2	,1	,1	, &R0DE35LRP},	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
-	{ 3	,1	,1	, &R0DE34LRP},	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
-	{ 4	,1	,1	, &R0DE33LRP},	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
-	{ 5	,1	,1	, &R0DE32LRP},	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
-	{ 6	,1	,1	, &R0DE31LRP},	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
-	{ 7	,3	,1	, &R0DE07LRP},	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
-	{ 8	,3	,1	, &R0DE08LRP},	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
-	{ 9	,3	,1	, &R0DE06LRP},	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
-	{ 10	,3	,1	, &R0DE03LRP},	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
-	{ 11	,3	,1	, &R0DE02LRP},	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
-	{ 12	,3	,1	, &R0DE01LRP},	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
-	{ 13	,1	,1	, &R0EE02LDU},	//( - , RPU) Питание  АКНП  отключить
-	{ 14	,1	,1	, &B7MZ31LRP},	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
-	{ 15	,1	,1	, &A7MZ31LRP},	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
-	{ 16	,1	,1	, &C1MZ31LRP},	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
-	{ 17	,1	,1	, &C1MD31LRP},	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
-	{ 18	,1	,1	, &B3VS21LRP},	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
-	{ 19	,1	,1	, &A3VS21LRP},	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
-	{ 20	,1	,1	, &B2VS21LRP},	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
-	{ 21	,1	,1	, &A2VS21LRP},	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
-	{ 22	,1	,1	, &B1VS21LRP},	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
-	{ 23	,1	,1	, &B1IS21LRP},	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
-	{ 24	,1	,1	, &A1VS21LRP},	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
-	{ 25	,1	,1	, &A1IS21LRP},	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
-	{ 26	,8	,1	, &R0IN07RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
-	{ 27	,8	,1	, &R0IN06RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
-	{ 28	,8	,1	, &R0IN03RIP},	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
-	{ 29	,8	,1	, &R0IN02RIP},	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
-	{ 30	,8	,1	, &R0IN01RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
-	{ 31	,1	,1	, &R0IS01FI0},	//( - , MRPS) Признак работы с имитатором
-	{ 32	,1	,1	, &R0DEB3LRP},	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
-	{ 33	,1	,1	, &R0DEB4LRP},	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
-	{ 34	,1	,1	, &R0DEB2LRP},	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
-	{ 35	,1	,1	, &R0DEB1LRP},	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
-	{ 36	,3	,1	, &TTLrpu},	//( - , RPU) ttl
-	{ 37	,1	,1	, &TestDiagnRPU},	//( - , RPU) Неисправность от диагностики
-	{ 38	,1	,1	, &R0DE3DLRP},	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
-	{ 39	,1	,1	, &R0DE3CLRP},	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
-	{ 40	,1	,1	, &R0DE39LRP},	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
-	{ 41	,1	,1	, &R0DE38LRP},	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
-	{ 42	,1	,1	, &R0DE37LRP},	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
-	{ 43	,3	,1	, &B0IT03IRP},	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
-	{ 44	,1	,1	, &R0ET01LRP},	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
-	{ 45	,1	,1	, &A0VT71LRP},	//( - , RPU) АС по температуре в АЗ1
-	{ 46	,1	,1	, &A0VT61LRP},	//( - , RPU) ПС по температуре в АЗ1
-	{ 47	,8	,1	, &A0CT01IRP},	//( - , RPU) Температура АЗ1-3
-	{ 48	,3	,1	, &A0IT03IRP},	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
-	{ 49	,8	,1	, &R0IN07RRP},	//(vchs:03 - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
-	{ 50	,1	,1	, &R7VN71LRP},	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
-	{ 51	,8	,1	, &R0IN06RRP},	//(vchs:03 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
-	{ 52	,1	,1	, &R0IE02LRP},	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
-	{ 53	,1	,1	, &R0IE01LRP},	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
-	{ 54	,3	,1	, &R0VN15RRP},	//( - , RPU) Номер ведущей камеры канал 5
-	{ 55	,8	,1	, &R0VN33RRP},	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
-	{ 56	,8	,1	, &R0VN23RRP},	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
-	{ 57	,1	,1	, &A0EE02LRP},	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
-	{ 58	,8	,1	, &R0IN03RRP},	//(vchs:02 - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
-	{ 59	,8	,1	, &B8VC01RDU},	//( - , RPU) Координата АЗ2, мм
-	{ 60	,8	,1	, &R0VN03RRP},	//( - , RPU) Измеренный нейтронный поток канал 5
-	{ 61	,8	,1	, &R0IN02RRP},	//(vchs:01 - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
-	{ 62	,8	,1	, &R0IN01RRP},	//(vchs:01 - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)
-	{ 63	,8	,1	, &R0VN02RRP},	//( - , RPU) Уровень мощности канал 5
-	{ 64	,1	,1	, &B2IS21LRP},	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
-	{ 65	,1	,1	, &A2IS21LRP},	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
-	{ 66	,1	,1	, &B3IS21LRP},	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
-	{ 67	,1	,1	, &A3IS21LRP},	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
-	{ 68	,1	,1	, &R7VE70LRP},	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
-	{ 69	,1	,1	, &B6IS11LRP},	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
-	{ 70	,1	,1	, &A6IS11LRP},	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
-	{ 71	,8	,1	, &R0VN13RRP},	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
-	{ 72	,1	,1	, &R0VN71LRP},	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
-	{ 73	,1	,1	, &A1VT71LRP},	//(fds16:08 - K11FDSR, - ) АС по температуре
-	{ 74	,1	,1	, &R0IE04LRP},	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
-	{ 75	,1	,1	, &R0IE03LRP},	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
-	{ 76	,1	,1	, &R0IE15LRP},	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
-	{ 77	,1	,1	, &R0IE14LRP},	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
-	{ 78	,1	,1	, &R0IE13LRP},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
-	{ 79	,1	,1	, &R0IE12LRP},	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
-	{ 80	,1	,1	, &A0EE01LRP},	//( - , RPU) Исправность АКНП канал 5
-	{ 81	,1	,1	, &R0IE11LRP},	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
-	{ 82	,1	,1	, &B0VT71LRP},	//( - , RPU) АС по температуре в АЗ2-3
-	{ 83	,1	,1	, &B0VT61LRP},	//( - , RPU) ПС по температуре в АЗ2-3
-	{ 84	,8	,1	, &B0CT01IRP},	//( - , RPU) Температура АЗ2-3
-	{ 85	,1	,1	, &R0ET02LRP},	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
-	{ 86	,8	,1	, &fEM_R0UH02RSS},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-	{ 87	,8	,1	, &fEM_R0UH03RSS},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-	{ 88	,8	,1	, &fEM_R7UX00RSS},	//(R7UX00RSS) X-координата АЗ1 (см)
-	{ 89	,8	,1	, &fEM_R7UY00RSS},	//(R7UY00RSS) Y-координата АЗ1 (см)
-	{ 90	,8	,1	, &fEM_R7UX13RSS},	//(R7UX13RSS) X-координата камеры R7IN51
-	{ 91	,8	,1	, &fEM_R7UX14RSS},	//(R7UX14RSS) X-координата камеры R7IN52
-	{ 92	,8	,1	, &fEM_R7UX15RSS},	//(R7UX15RSS) X-координата камеры R7IN53
-	{ 93	,8	,1	, &fEM_R7UY13RSS},	//(R7UY13RSS) Y-координата камеры R7IN51
-	{ 94	,8	,1	, &fEM_R7UY14RSS},	//(R7UY14RSS) Y-координата камеры R7IN52
-	{ 95	,8	,1	, &fEM_R7UY15RSS},	//(R7UY15RSS) Y-координата камеры R7IN53
-	{ 96	,8	,1	, &fEM_A0UX00RSS},	//(A0UX00RSS) Эффективный радиус АЗ
-	{ 97	,8	,1	, &fEM_A0UX13RSS},	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
-	{ 98	,8	,1	, &fEM_A0UX14RSS},	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
-	{ 99	,8	,1	, &fEM_A0UX15RSS},	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
-	{ 100	,8	,1	, &fEM_B0UX03RSS},	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
-	{ 101	,8	,1	, &fEM_B0UX04RSS},	//(B0UX04RSS) Второй коэффициент калибровки камеры4
-	{ 102	,8	,1	, &fEM_B0UX05RSS},	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
-	{ 103	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-	{ 104	,8	,1	, &fEM_R0UR01RRP},	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
-	{ 105	,8	,1	, &fEM_R0UT02RZZ},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-	{ 106	,8	,1	, &fEM_R0UT01RZZ},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
-	{ 107	,8	,1	, &fEM_R0UT72RZZ},	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-	{ 108	,8	,1	, &fEM_R0UT71RZZ},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-	{ 109	,8	,1	, &fEM_R0UT62RZZ},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-	{ 110	,8	,1	, &fEM_R0UT61RZZ},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-	{ 111	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
-	{ 112	,8	,1	, &fEM_Z7UE20RRP},	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
-	{ 113	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-	{ 114	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-	{ 115	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-	{ 116	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 117	,3	,1	, &internal1_m143_sttlf},	//(internal1_m143_sttlf) sttlf - счетчик для вещественного формата
-	{ 118	,3	,1	, &internal1_m21_Nk},	//(internal1_m21_Nk) Nk - ведущая камера
-	{ 119	,8	,1	, &internal1_m75_tx},	//(internal1_m75_tx) tx - время накопленное сек
-	{ 120	,18	,1	, &internal1_m75_y0},	//(internal1_m75_y0) y0
-	{ 121	,8	,1	, &internal1_m83_tx},	//(internal1_m83_tx) tx - время накопленное сек
-	{ 122	,18	,1	, &internal1_m83_y0},	//(internal1_m83_y0) y0
-	{ 123	,8	,1	, &internal1_m91_y0},	//(internal1_m91_y0) y0
-	{ 124	,8	,1	, &internal1_m89_y0},	//(internal1_m89_y0) y0
-	{ 125	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
-	{ 126	,1	,1	, &internal1_m120_y1},	//(internal1_m120_y1) y1 - внутренний параметр
-	{ 127	,1	,1	, &internal1_m103_y1},	//(internal1_m103_y1) y1 - внутренний параметр
-	{ 128	,1	,1	, &internal1_m116_y1},	//(internal1_m116_y1) y1 - внутренний параметр
+	{ 1	,1	,1	, &R0DE39LRP},	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
+	{ 2	,1	,1	, &R0DE38LRP},	//(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3
+	{ 3	,1	,1	, &R0DE37LRP},	//(sbk:20 - S07SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 2
+	{ 4	,1	,1	, &R0DE36LRP},	//(sbk:20 - S06SBK, DiagnRPU) диагностика шкафа РПУ МП15-3.1 место 1
+	{ 5	,1	,1	, &R0DE35LRP},	//(sbk:20 - S05SBK, DiagnRPU) диагностика шкафа РПУ температура больше 53
+	{ 6	,1	,1	, &R0DE34LRP},	//(sbk:20 - S04SBK, DiagnRPU) диагностика шкафа РПУ температура меньше 43
+	{ 7	,1	,1	, &R0DE33LRP},	//(sbk:20 - S03SBK, DiagnRPU) диагностика шкафа РПУ двери
+	{ 8	,1	,1	, &R0DE32LRP},	//(sbk:20 - S02SBK, DiagnRPU) диагностика шкафа РПУ сеть 2
+	{ 9	,1	,1	, &R0DE31LRP},	//(sbk:20 - S01SBK, DiagnRPU) диагностика шкафа РПУ сеть 1
+	{ 10	,3	,1	, &R0DE07LRP},	//(vds32:07 - Diagn, DiagnRPU) диагностика модуля РПУ-ВДС место 7
+	{ 11	,3	,1	, &R0DE08LRP},	//(fds16:08 - Diagn, DiagnRPU) диагностика модуля РПУ-ФДС место 8
+	{ 12	,3	,1	, &R0DE06LRP},	//(vas84:06 - Diagn, DiagnRPU) диагностика модуля РПУ-ВАС место 6
+	{ 13	,3	,1	, &R0DE03LRP},	//(vchs:03 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 3
+	{ 14	,3	,1	, &R0DE02LRP},	//(vchs:02 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 2
+	{ 15	,3	,1	, &R0DE01LRP},	//(vchs:01 - Diagn, DiagnRPU) диагностика модуля РПУ-ВЧС место 1
+	{ 16	,1	,1	, &R0EE02LDU},	//( - , RPU) Питание  АКНП  отключить
+	{ 17	,1	,1	, &B7MZ31LRP},	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
+	{ 18	,1	,1	, &A7MZ31LRP},	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
+	{ 19	,1	,1	, &C1MZ31LRP},	//(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ
+	{ 20	,1	,1	, &C1MD31LRP},	//(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ
+	{ 21	,1	,1	, &B3VS21LRP},	//(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2
+	{ 22	,1	,1	, &A3VS21LRP},	//(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1
+	{ 23	,8	,1	, &R0IN07VRP},	//(vchs:03 - K02VCHS, - ) Частота с ВЧС к 7
+	{ 24	,8	,1	, &R0IN06VRP},	//(vchs:03 - K01VCHS, - ) Частота с ВЧС к 6
+	{ 25	,8	,1	, &R0IN03VRP},	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+	{ 26	,8	,1	, &R0IN02VRP},	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+	{ 27	,8	,1	, &R0IN01VRP},	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+	{ 28	,1	,1	, &B1VS21LRP},	//(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2
+	{ 29	,1	,1	, &B1IS21LRP},	//(vds32:07 - K12VDSR, - ) Приход на НУ ББ2
+	{ 30	,1	,1	, &A1VS21LRP},	//(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1
+	{ 31	,1	,1	, &A1IS21LRP},	//(vds32:07 - K09VDSR, - ) Приход на НУ ББ1
+	{ 32	,8	,1	, &R0IN07RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ
+	{ 33	,8	,1	, &R0IN06RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ
+	{ 34	,8	,1	, &R0IN03RIP},	//( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ
+	{ 35	,8	,1	, &R0IN02RIP},	//( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ
+	{ 36	,8	,1	, &R0IN01RIP},	//( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ
+	{ 37	,1	,1	, &R0IS01FI0},	//( - , MRPS) Признак работы с имитатором
+	{ 38	,1	,1	, &R0DEB3LRP},	//(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8
+	{ 39	,1	,1	, &R0DEB4LRP},	//(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8
+	{ 40	,1	,1	, &R0DEB2LRP},	//(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7
+	{ 41	,1	,1	, &R0DEB1LRP},	//(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7
+	{ 42	,3	,1	, &TTLrpu},	//( - , RPU) ttl
+	{ 43	,1	,1	, &TestDiagnRPU},	//( - , RPU) Неисправность от диагностики
+	{ 44	,1	,1	, &R0DE3DLRP},	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8
+	{ 45	,1	,1	, &R0DE3CLRP},	//( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7
+	{ 46	,1	,1	, &R0ET02LRP},	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
+	{ 47	,3	,1	, &B0IT03IRP},	//(vas84:06 - K02VASR, - ) Температура АЗ2-3
+	{ 48	,1	,1	, &R0ET01LRP},	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
+	{ 49	,1	,1	, &A0VT71LRP},	//( - , RPU) АС по температуре в АЗ1
+	{ 50	,1	,1	, &A0VT61LRP},	//( - , RPU) ПС по температуре в АЗ1
+	{ 51	,8	,1	, &A0CT01IRP},	//( - , RPU) Температура АЗ1-3
+	{ 52	,3	,1	, &A0IT03IRP},	//(vas84:06 - K01VASR, - ) Температура АЗ1-3
+	{ 53	,8	,1	, &R0IN07RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 7)
+	{ 54	,1	,1	, &R7VN71LRP},	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
+	{ 55	,8	,1	, &R0IN06RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
+	{ 56	,1	,1	, &R0IE02LRP},	//(fds16:08 - K07FDSR, - ) Отключить питание ПР, ПУ канал 5
+	{ 57	,1	,1	, &R0IE01LRP},	//(fds16:08 - K08FDSR, - ) Отключение питание детекторов канал 5
+	{ 58	,3	,1	, &R0VN15RRP},	//( - , RPU) Номер ведущей камеры канал 5
+	{ 59	,8	,1	, &R0VN33RRP},	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
+	{ 60	,8	,1	, &R0VN23RRP},	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
+	{ 61	,1	,1	, &A0EE02LRP},	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
+	{ 62	,8	,1	, &R0IN03RRP},	//( - , RPU) Частота КНК53М Гц (канал 5)
+	{ 63	,8	,1	, &B8VC01RDU},	//( - , RPU) Координата АЗ2, мм
+	{ 64	,8	,1	, &R0VN03RRP},	//( - , RPU) Измеренный нейтронный поток канал 5
+	{ 65	,8	,1	, &R0IN02RRP},	//( - , RPU) Частота КНК15-1 Гц (канал 5)
+	{ 66	,8	,1	, &R0IN01RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 5)
+	{ 67	,8	,1	, &R0VN02RRP},	//( - , RPU) Уровень мощности канал 5
+	{ 68	,1	,1	, &B2VS21LRP},	//(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC
+	{ 69	,1	,1	, &A2VS21LRP},	//(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC
+	{ 70	,1	,1	, &B2IS21LRP},	//(vds32:07 - K13VDSR, - ) Приход на НУ РБ2-CC
+	{ 71	,1	,1	, &A2IS21LRP},	//(vds32:07 - K10VDSR, - ) Приход на НУ РБ1-CC
+	{ 72	,1	,1	, &B3IS21LRP},	//(vds32:07 - K11VDSR, - ) Приход на НУ ИС2
+	{ 73	,1	,1	, &A3IS21LRP},	//(vds32:07 - K08VDSR, - ) Приход на НУ ИС1
+	{ 74	,1	,1	, &R7VE70LRP},	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
+	{ 75	,1	,1	, &B6IS11LRP},	//(vds32:07 - K15VDSR, - ) Приход на ВУ БЗ2
+	{ 76	,1	,1	, &A6IS11LRP},	//(vds32:07 - K14VDSR, - ) Приход на ВУ БЗ1
+	{ 77	,8	,1	, &R0VN13RRP},	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
+	{ 78	,1	,1	, &R0VN71LRP},	//(fds16:08 - K12FDSR, - ) АС по мощности канал 5
+	{ 79	,1	,1	, &A1VT71LRP},	//(fds16:08 - K11FDSR, - ) АС по температуре
+	{ 80	,1	,1	, &R0IE04LRP},	//(fds16:08 - K10FDSR, - ) Отключить питание ПР, ПУ канал 6,7
+	{ 81	,1	,1	, &R0IE03LRP},	//(fds16:08 - K09FDSR, - ) Отключение питание детекторов канал  6,7
+	{ 82	,1	,1	, &R0IE15LRP},	//(vds32:07 - K02VDSR, - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
+	{ 83	,1	,1	, &R0IE14LRP},	//(vds32:07 - K01VDSR, - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
+	{ 84	,1	,1	, &R0IE13LRP},	//(vds32:07 - K05VDSR, - ) Исправность ВИП 0,5 -5к (№22)
+	{ 85	,1	,1	, &R0IE12LRP},	//(vds32:07 - K04VDSR, - ) Исправность ВИП 0,5 -5к (№21)
+	{ 86	,1	,1	, &A0EE01LRP},	//( - , RPU) Исправность АКНП канал 5
+	{ 87	,1	,1	, &R0IE11LRP},	//(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала
+	{ 88	,1	,1	, &B0VT71LRP},	//( - , RPU) АС по температуре в АЗ2-3
+	{ 89	,1	,1	, &B0VT61LRP},	//( - , RPU) ПС по температуре в АЗ2-3
+	{ 90	,8	,1	, &B0CT01IRP},	//( - , RPU) Температура АЗ2-3
+	{ 91	,8	,1	, &fEM_R0UH02RSS},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{ 92	,8	,1	, &fEM_R0UH03RSS},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+	{ 93	,8	,1	, &fEM_R7UX00RSS},	//(R7UX00RSS) X-координата АЗ1 (см)
+	{ 94	,8	,1	, &fEM_R7UY00RSS},	//(R7UY00RSS) Y-координата АЗ1 (см)
+	{ 95	,8	,1	, &fEM_R7UX13RSS},	//(R7UX13RSS) X-координата камеры R7IN51
+	{ 96	,8	,1	, &fEM_R7UX14RSS},	//(R7UX14RSS) X-координата камеры R7IN52
+	{ 97	,8	,1	, &fEM_R7UX15RSS},	//(R7UX15RSS) X-координата камеры R7IN53
+	{ 98	,8	,1	, &fEM_R7UY13RSS},	//(R7UY13RSS) Y-координата камеры R7IN51
+	{ 99	,8	,1	, &fEM_R7UY14RSS},	//(R7UY14RSS) Y-координата камеры R7IN52
+	{ 100	,8	,1	, &fEM_R7UY15RSS},	//(R7UY15RSS) Y-координата камеры R7IN53
+	{ 101	,8	,1	, &fEM_A0UX00RSS},	//(A0UX00RSS) Эффективный радиус АЗ
+	{ 102	,8	,1	, &fEM_A0UX13RSS},	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
+	{ 103	,8	,1	, &fEM_A0UX14RSS},	//(A0UX14RSS) Первый коэффициент калибровки камеры 14
+	{ 104	,8	,1	, &fEM_A0UX15RSS},	//(A0UX15RSS) Первый коэффициент калибровки камеры 15
+	{ 105	,8	,1	, &fEM_B0UX03RSS},	//(B0UX03RSS) Второй коэффициент калибровки камеры 3
+	{ 106	,8	,1	, &fEM_B0UX04RSS},	//(B0UX04RSS) Второй коэффициент калибровки камеры4
+	{ 107	,8	,1	, &fEM_B0UX05RSS},	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
+	{ 108	,8	,1	, &fEM_R0UH05RSS},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
+	{ 109	,8	,1	, &fEM_R0UR01RRP},	//(R0UR01RRP) Уставка СНМ11 в БЗ - АС по частоте
+	{ 110	,8	,1	, &fEM_R0UT02RZZ},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+	{ 111	,8	,1	, &fEM_R0UT01RZZ},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+	{ 112	,8	,1	, &fEM_R0UT72RZZ},	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
+	{ 113	,8	,1	, &fEM_R0UT71RZZ},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+	{ 114	,8	,1	, &fEM_R0UT62RZZ},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+	{ 115	,8	,1	, &fEM_R0UT61RZZ},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+	{ 116	,8	,1	, &fEM_R0UL52RSS},	//(R0UL52RSS) Уровень АС по мощности
+	{ 117	,8	,1	, &fEM_Z7UE20RRP},	//(Z7UE20RRP) Время задержки сигнала на включение источников питания после снятия команды на отключение
+	{ 118	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{ 119	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+	{ 120	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{ 121	,8	,1	, &fEM_R0IN01NRP},	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
+	{ 122	,8	,1	, &fEM_R0IN02NRP},	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
+	{ 123	,8	,1	, &fEM_R0IN03NRP},	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
+	{ 124	,8	,1	, &fEM_R0IN06NRP},	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
+	{ 125	,8	,1	, &fEM_R0IN07NRP},	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
+	{ 126	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 127	,3	,1	, &internal1_m138_sttlf},	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+	{ 128	,3	,1	, &internal1_m18_Nk},	//(internal1_m18_Nk) Nk - ведущая камера
+	{ 129	,8	,1	, &internal1_m70_tx},	//(internal1_m70_tx) tx - время накопленное сек
+	{ 130	,18	,1	, &internal1_m70_y0},	//(internal1_m70_y0) y0
+	{ 131	,8	,1	, &internal1_m78_tx},	//(internal1_m78_tx) tx - время накопленное сек
+	{ 132	,18	,1	, &internal1_m78_y0},	//(internal1_m78_y0) y0
+	{ 133	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
+	{ 134	,8	,1	, &internal1_m84_y0},	//(internal1_m84_y0) y0
+	{ 135	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
+	{ 136	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
+	{ 137	,1	,1	, &internal1_m98_y1},	//(internal1_m98_y1) y1 - внутренний параметр
+	{ 138	,1	,1	, &internal1_m112_y1},	//(internal1_m112_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="rpu.bin\0";   // Имя файла для сохранения констант
 #pragma pop
 static VarSaveCtrl saveVariables[]={      // Id переменных для сохранения
-{86,"fEM_R0UH02RSS\0"}, 
-{87,"fEM_R0UH03RSS\0"}, 
-{88,"fEM_R7UX00RSS\0"}, 
-{89,"fEM_R7UY00RSS\0"}, 
-{90,"fEM_R7UX13RSS\0"}, 
-{91,"fEM_R7UX14RSS\0"}, 
-{92,"fEM_R7UX15RSS\0"}, 
-{93,"fEM_R7UY13RSS\0"}, 
-{94,"fEM_R7UY14RSS\0"}, 
-{95,"fEM_R7UY15RSS\0"}, 
-{96,"fEM_A0UX00RSS\0"}, 
-{97,"fEM_A0UX13RSS\0"}, 
-{98,"fEM_A0UX14RSS\0"}, 
-{99,"fEM_A0UX15RSS\0"}, 
-{100,"fEM_B0UX03RSS\0"}, 
-{101,"fEM_B0UX04RSS\0"}, 
-{102,"fEM_B0UX05RSS\0"}, 
-{103,"fEM_R0UH05RSS\0"}, 
-{104,"fEM_R0UR01RRP\0"}, 
-{105,"fEM_R0UT02RZZ\0"}, 
-{106,"fEM_R0UT01RZZ\0"}, 
-{107,"fEM_R0UT72RZZ\0"}, 
-{108,"fEM_R0UT71RZZ\0"}, 
-{109,"fEM_R0UT62RZZ\0"}, 
-{110,"fEM_R0UT61RZZ\0"}, 
-{111,"fEM_R0UL52RSS\0"}, 
-{112,"fEM_Z7UE20RRP\0"}, 
-{113,"fEM_R0UH21RSS\0"}, 
-{114,"fEM_R0UH22RSS\0"}, 
-{115,"fEM_R0UH23RSS\0"}, 
+{91,"fEM_R0UH02RSS\0"}, 
+{92,"fEM_R0UH03RSS\0"}, 
+{93,"fEM_R7UX00RSS\0"}, 
+{94,"fEM_R7UY00RSS\0"}, 
+{95,"fEM_R7UX13RSS\0"}, 
+{96,"fEM_R7UX14RSS\0"}, 
+{97,"fEM_R7UX15RSS\0"}, 
+{98,"fEM_R7UY13RSS\0"}, 
+{99,"fEM_R7UY14RSS\0"}, 
+{100,"fEM_R7UY15RSS\0"}, 
+{101,"fEM_A0UX00RSS\0"}, 
+{102,"fEM_A0UX13RSS\0"}, 
+{103,"fEM_A0UX14RSS\0"}, 
+{104,"fEM_A0UX15RSS\0"}, 
+{105,"fEM_B0UX03RSS\0"}, 
+{106,"fEM_B0UX04RSS\0"}, 
+{107,"fEM_B0UX05RSS\0"}, 
+{108,"fEM_R0UH05RSS\0"}, 
+{109,"fEM_R0UR01RRP\0"}, 
+{110,"fEM_R0UT02RZZ\0"}, 
+{111,"fEM_R0UT01RZZ\0"}, 
+{112,"fEM_R0UT72RZZ\0"}, 
+{113,"fEM_R0UT71RZZ\0"}, 
+{114,"fEM_R0UT62RZZ\0"}, 
+{115,"fEM_R0UT61RZZ\0"}, 
+{116,"fEM_R0UL52RSS\0"}, 
+{117,"fEM_Z7UE20RRP\0"}, 
+{118,"fEM_R0UH21RSS\0"}, 
+{119,"fEM_R0UH22RSS\0"}, 
+{120,"fEM_R0UH23RSS\0"}, 
+{121,"fEM_R0IN01NRP\0"}, 
+{122,"fEM_R0IN02NRP\0"}, 
+{123,"fEM_R0IN03NRP\0"}, 
+{124,"fEM_R0IN06NRP\0"}, 
+{125,"fEM_R0IN07NRP\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -466,15 +501,15 @@ static ModbusRegister ir_RPU[]={  //
 	{&R0VN13RRP,8,1},	//( - , RPU) Нейтронный поток по камере  СНМ-11 канал 5
 	{&B0CT01IRP,8,3},	//( - , RPU) Температура АЗ2-3
 	{&A0CT01IRP,8,5},	//( - , RPU) Температура АЗ1-3
-	{&R0IN07RRP,8,7},	//( - K02VCHS, RPU) Частота СНМ-11 Гц (канал 7)
-	{&R0IN06RRP,8,9},	//( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
+	{&R0IN07RRP,8,7},	//( - , RPU) Частота СНМ-11 Гц (канал 7)
+	{&R0IN06RRP,8,9},	//( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
 	{&R0VN15RRP,3,11},	//( - , RPU) Номер ведущей камеры канал 5
 	{&R0VN33RRP,8,12},	//( - , RPU) Нейтронный поток по камере КНК53М канал 5
 	{&R0VN23RRP,8,14},	//( - , RPU) Нейтронный поток по камере КНК15-1 канал 5
-	{&R0IN03RRP,8,16},	//( - K01VCHS, RPU) Частота КНК53М Гц (канал 5)
+	{&R0IN03RRP,8,16},	//( - , RPU) Частота КНК53М Гц (канал 5)
 	{&R0VN03RRP,8,18},	//( - , RPU) Измеренный нейтронный поток канал 5
-	{&R0IN02RRP,8,20},	//( - K02VCHS, RPU) Частота КНК15-1 Гц (канал 5)
-	{&R0IN01RRP,8,22},	//( - K01VCHS, RPU) Частота СНМ-11 Гц (канал 5)
+	{&R0IN02RRP,8,20},	//( - , RPU) Частота КНК15-1 Гц (канал 5)
+	{&R0IN01RRP,8,22},	//( - , RPU) Частота СНМ-11 Гц (канал 5)
 	{&R0VN02RRP,8,24},	//( - , RPU) Уровень мощности канал 5
 	{NULL,0,0},
 };
@@ -600,9 +635,9 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
-	{&R0IN02RRP,8,5},
-	{&R0IN01RRP,8,0},
 	{&R0DE01LRP,3,10},
+	{&R0IN01VRP,8,0},
+	{&R0IN02VRP,8,5},
 	{NULL,0,0},
 };
 #pragma pop
@@ -615,7 +650,7 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
 	{&R0DE02LRP,3,10},
-	{&R0IN03RRP,8,0},
+	{&R0IN03VRP,8,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -627,9 +662,9 @@ static table_drv table_VCHS03={0,0,&ini_VCHS03,buf_VCHS03,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS03[]={
-	{&R0IN07RRP,8,5},
-	{&R0IN06RRP,8,0},
 	{&R0DE03LRP,3,10},
+	{&R0IN07VRP,8,5},
+	{&R0IN06VRP,8,0},
 	{NULL,0,0},
 };
 #pragma pop
@@ -641,9 +676,9 @@ static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VAS84[]={
-	{&R0DE06LRP,3,26},
-	{&B0IT03IRP,3,3},
 	{&A0IT03IRP,3,0},
+	{&B0IT03IRP,3,3},
+	{&R0DE06LRP,3,26},
 	{NULL,0,0},
 };
 #pragma pop
@@ -655,22 +690,22 @@ static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VDS32[]={
-	{&R0IE11LRP,1,4},
-	{&A1IS21LRP,1,16},
-	{&R0IE12LRP,1,6},
-	{&R0IE13LRP,1,8},
-	{&R0IE14LRP,1,0},
 	{&R0IE15LRP,1,2},
-	{&R0DE07LRP,3,64},
+	{&R0IE14LRP,1,0},
+	{&R0IE13LRP,1,8},
+	{&R0IE12LRP,1,6},
+	{&R0IE11LRP,1,4},
 	{&B1IS21LRP,1,22},
+	{&A1IS21LRP,1,16},
 	{&A6IS11LRP,1,26},
 	{&B6IS11LRP,1,28},
 	{&A3IS21LRP,1,14},
 	{&B3IS21LRP,1,20},
 	{&A2IS21LRP,1,18},
 	{&B2IS21LRP,1,24},
-	{&C1MZ31LRP,1,12},
 	{&C1MD31LRP,1,10},
+	{&C1MZ31LRP,1,12},
+	{&R0DE07LRP,3,64},
 	{NULL,0,0},
 };
 #pragma pop
@@ -682,19 +717,19 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&B3VS21LRP,1,10},
-	{&R0VN71LRP,1,22},
-	{&R0IE01LRP,1,14},
-	{&A1VT71LRP,1,20},
 	{&R0DE08LRP,3,38},
+	{&R0IE01LRP,1,14},
+	{&R0IE02LRP,1,12},
+	{&B3VS21LRP,1,10},
+	{&A3VS21LRP,1,8},
+	{&B2VS21LRP,1,6},
+	{&A2VS21LRP,1,4},
+	{&R0VN71LRP,1,22},
+	{&A1VT71LRP,1,20},
+	{&B1VS21LRP,1,2},
 	{&R0IE04LRP,1,18},
 	{&R0IE03LRP,1,16},
-	{&R0IE02LRP,1,12},
-	{&A3VS21LRP,1,8},
 	{&A1VS21LRP,1,0},
-	{&B2VS21LRP,1,6},
-	{&B1VS21LRP,1,2},
-	{&A2VS21LRP,1,4},
 	{NULL,0,0},
 };
 #pragma pop
@@ -706,19 +741,19 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
-	{&R0DE36LRP,1,10},
-	{&R0DE37LRP,1,12},
 	{&R0DE35LRP,1,8},
 	{&R0DE34LRP,1,6},
-	{&R0DE38LRP,1,14},
 	{&R0DE33LRP,1,4},
-	{&R0DE39LRP,1,16},
-	{&R0DEB1LRP,1,18},
-	{&R0DEB2LRP,1,20},
-	{&R0DEB4LRP,1,24},
-	{&R0DEB3LRP,1,22},
 	{&R0DE32LRP,1,2},
 	{&R0DE31LRP,1,0},
+	{&R0DE36LRP,1,10},
+	{&R0DE37LRP,1,12},
+	{&R0DE38LRP,1,14},
+	{&R0DE39LRP,1,16},
+	{&R0DEB2LRP,1,20},
+	{&R0DEB1LRP,1,18},
+	{&R0DEB4LRP,1,24},
+	{&R0DEB3LRP,1,22},
 	{NULL,0,0},
 };
 #pragma pop
@@ -735,36 +770,41 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){      // Инициализация  переменных для сохранения
-	setAsFloat(86,37037.04 );
-	setAsFloat(87,975000.0);
-	setAsFloat(88,1570.0);
-	setAsFloat(89,506.5);
-	setAsFloat(90,1570.0);
-	setAsFloat(91,1269);
-	setAsFloat(92,1281.2);
-	setAsFloat(93,248.0);
-	setAsFloat(94,572.4);
-	setAsFloat(95,246.8);
-	setAsFloat(96,11.0);
-	setAsFloat(97,1.0);
-	setAsFloat(98,1.0);
-	setAsFloat(99,1.0);
-	setAsFloat(100,0);
-	setAsFloat(101,0);
-	setAsFloat(102,0.0);
-	setAsFloat(103,32000.0);
-	setAsFloat(104,1000);
-	setAsFloat(105,600);
+	setAsFloat(91,37037.04 );
+	setAsFloat(92,975000.0);
+	setAsFloat(93,1570.0);
+	setAsFloat(94,506.5);
+	setAsFloat(95,1570.0);
+	setAsFloat(96,1269);
+	setAsFloat(97,1281.2);
+	setAsFloat(98,248.0);
+	setAsFloat(99,572.4);
+	setAsFloat(100,246.8);
+	setAsFloat(101,11.0);
+	setAsFloat(102,1.0);
+	setAsFloat(103,1.0);
+	setAsFloat(104,1.0);
+	setAsFloat(105,0);
 	setAsFloat(106,0);
-	setAsFloat(107,150);
-	setAsFloat(108,200);
-	setAsFloat(109,90);
-	setAsFloat(110,100);
-	setAsFloat(111,5100);
-	setAsFloat(112,210);
-	setAsFloat(113,4000);
-	setAsFloat(114,100000);
-	setAsFloat(115,1000000);
+	setAsFloat(107,0.0);
+	setAsFloat(108,32000.0);
+	setAsFloat(109,1000);
+	setAsFloat(110,600);
+	setAsFloat(111,0);
+	setAsFloat(112,150);
+	setAsFloat(113,200);
+	setAsFloat(114,90);
+	setAsFloat(115,100);
+	setAsFloat(116,5100);
+	setAsFloat(117,210);
+	setAsFloat(118,4000);
+	setAsFloat(119,100000);
+	setAsFloat(120,1000000);
+	setAsFloat(121,0);
+	setAsFloat(122,0);
+	setAsFloat(123,0);
+	setAsFloat(124,0);
+	setAsFloat(125,0);
 }
 
 // Вставка к VCHS
@@ -831,7 +871,7 @@ sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 
 ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
 ssint iRM_6_ = {6,0}; /* n - размерность массива значений */ 
 
-uspaint8 SpaEEPROMBuf[150];
+uspaint8 SpaEEPROMBuf[175];
 
 /* Определение переменных */
 ssfloat var1;
@@ -839,58 +879,63 @@ ssfloat var2;
 ssfloat var3;
 ssfloat var4;
 ssfloat var5;
-ssbool var6;
-ssbool var7;
-ssbool var8;
-ssbool var9;
-ssbool var10;
+ssfloat var6;
+ssfloat var7;
+ssfloat var8;
+ssfloat var9;
+ssfloat var10;
 ssbool var11;
 ssbool var12;
 ssbool var13;
 ssbool var14;
-ssint var15;
-ssfloat var16;
-ssfloat var17;
+ssbool var15;
+ssbool var16;
+ssbool var17;
 ssbool var18;
-ssfloat var19;
-ssfloat var20;
+ssbool var19;
+ssint var20;
 ssfloat var21;
-ssint var22;
+ssfloat var22;
 ssbool var23;
-ssbool var24;
-ssbool var25;
-ssbool var26;
-ssbool var27;
+ssfloat var24;
+ssfloat var25;
+ssfloat var26;
+ssint var27;
 ssbool var28;
 ssbool var29;
 ssbool var30;
 ssbool var31;
 ssbool var32;
-sschar var33;
+ssbool var33;
 ssbool var34;
-sschar var35;
+ssbool var35;
 ssbool var36;
 ssbool var37;
-ssbool var38;
+sschar var38;
 ssbool var39;
-ssbool var40;
-ssfloat var41;
-ssfloat var42;
-sschar var43;
+sschar var40;
+ssbool var41;
+ssbool var42;
+ssbool var43;
 ssbool var44;
 ssbool var45;
-sschar var46;
-ssbool var47;
-ssbool var48;
+ssfloat var46;
+ssfloat var47;
+sschar var48;
 ssbool var49;
 ssbool var50;
-ssbool var51;
+sschar var51;
 ssbool var52;
 ssbool var53;
 ssbool var54;
 ssbool var55;
 ssbool var56;
 ssbool var57;
+ssbool var58;
+ssbool var59;
+ssbool var60;
+ssbool var61;
+ssbool var62;
 sslong vainSLong;
 ssfloat vainSFloat;
 ssint vainSInt;
@@ -899,55 +944,60 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m161_x_1[6] = {&var9,&var10,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0DE39LRP};
-psint  array_m143_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
+psbool  array_m156_x_1[6] = {&var14,&var15,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0DE39LRP};
+psint  array_m138_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
 
 /* Объявление структур */
-_S_ml  S_ml_61_1 = {&R0IN07RIP,&R0IN07RRP,&R0IS01FI0,&var1};
-_S_ml  S_ml_52_1 = {&R0IN06RIP,&R0IN06RRP,&R0IS01FI0,&var2};
-_S_ml  S_ml_8_1 = {&R0IN03RIP,&R0IN03RRP,&R0IS01FI0,&var3};
-_S_ml  S_ml_7_1 = {&R0IN02RIP,&R0IN02RRP,&R0IS01FI0,&var4};
-_S_ml  S_ml_6_1 = {&R0IN01RIP,&R0IN01RRP,&R0IS01FI0,&var5};
-_S_or4  S_or4_76_1 = {&var49,&var23,&var31,&var32,&var6};
-_S_noto  S_noto_162_1 = {&var11,&var7};
-_S_and5  S_and5_46_1 = {&var7,&R0IE11LRP,&R0IE12LRP,&R0IE13LRP,&var18,&var8};
-_S_or2  S_or2_156_1 = {&R0DEB1LRP,&R0DEB2LRP,&var9};
-_S_or2  S_or2_163_1 = {&R0DEB3LRP,&R0DEB4LRP,&var10};
-_S_or3  S_or3_160_1 = {&var14,&var13,&var12,&var11};
-_S_orn  S_orn_161_1 = {array_m161_x_1,&iRM_6_,&var12};
-_S_and2  S_and2_145_1 = {&R0DE31LRP,&R0DE32LRP,&var13};
-_S_diagndev  S_diagndev_143_1 = {array_m143_x_1,&iRM_6_,&var14,&var15,&vainSFloat,&internal1_m143_sttlf};
-_S_ocham  S_ocham_21_1 = {&var5,&var4,&var3,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var16,&var17,&var18,&var19,&var20,&var21,&var22,&internal1_m21_Nk};
-_S_or2  S_or2_71_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
-_S_or2  S_or2_99_1 = {&var56,&var57,&var23};
-_S_or4  S_or4_51_1 = {&var30,&var28,&var29,&var26,&var24};
-_S_or2  S_or2_104_1 = {&var55,&var44,&var25};
-_S_or2  S_or2_128_1 = {&var27,&var25,&var26};
-_S_or2  S_or2_100_1 = {&var54,&var47,&var27};
-_S_and3  S_and3_47_1 = {&var8,&var40,&var34,&var28};
-_S_and3  S_and3_55_1 = {&var38,&R0IE14LRP,&var50,&var29};
-_S_and3  S_and3_54_1 = {&R0IE15LRP,&var38,&var51,&var30};
-_S_and3  S_and3_64_1 = {&R0IE14LRP,&var38,&var53,&var31};
-_S_and3  S_and3_63_1 = {&var52,&R0IE15LRP,&var38,&var32};
-_S_geterr  S_geterr_60_1 = {&var2,&dRM_0_,&iRM_0_,&bRM_0_,&var33,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_noto  S_noto_84_1 = {&var39,&var34};
-_S_geterr  S_geterr_59_1 = {&var1,&dRM_0_,&iRM_0_,&bRM_0_,&var35,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_zzfs  S_zzfs_75_1 = {&var37,&fEM_Z7UE20RRP,&var36,&internal1_m75_tx,&internal1_m75_y0};
-_S_or3  S_or3_74_1 = {&A6IS11LRP,&B6IS11LRP,&R0EE02LDU,&var37};
-_S_noto  S_noto_72_1 = {&var36,&var38};
-_S_zzfs  S_zzfs_83_1 = {&R0EE02LDU,&fEM_Z7UE20RRP,&var39,&internal1_m83_tx,&internal1_m83_y0};
-_S_bol  S_bol_44_1 = {&var17,&fEM_R0UL52RSS,&var40};
-_S_scalzz  S_scalzz_91_1 = {&B0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var41,&internal1_m91_y0};
-_S_scalzz  S_scalzz_89_1 = {&A0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var42,&internal1_m89_y0};
-_S_geterr  S_geterr_93_1 = {&var42,&dRM_0_,&iRM_0_,&bRM_0_,&var43,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_drg  S_drg_105_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var44,&internal1_m105_y1};
-_S_drg  S_drg_120_1 = {&var41,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var45,&internal1_m120_y1};
-_S_geterr  S_geterr_95_1 = {&var41,&dRM_0_,&iRM_0_,&bRM_0_,&var46,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
-_S_drg  S_drg_103_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var47,&internal1_m103_y1};
-_S_drg  S_drg_116_1 = {&var42,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var48,&internal1_m116_y1};
-_S_noto  S_noto_80_1 = {&var8,&var49};
-_S_bol  S_bol_65_1 = {&var1,&fEM_R0UR01RRP,&var50};
-_S_bol  S_bol_53_1 = {&var2,&fEM_R0UR01RRP,&var51};
+_S_pogrvh  S_pogrvh_179_1 = {&R0IN07VRP,&fEM_R0IN07NRP,&var1};
+_S_pogrvh  S_pogrvh_172_1 = {&R0IN06VRP,&fEM_R0IN06NRP,&var2};
+_S_pogrvh  S_pogrvh_171_1 = {&R0IN03VRP,&fEM_R0IN03NRP,&var3};
+_S_pogrvh  S_pogrvh_170_1 = {&R0IN02VRP,&fEM_R0IN02NRP,&var4};
+_S_pogrvh  S_pogrvh_169_1 = {&R0IN01VRP,&fEM_R0IN01NRP,&var5};
+_S_ml  S_ml_57_1 = {&R0IN07RIP,&var1,&R0IS01FI0,&var6};
+_S_ml  S_ml_49_1 = {&R0IN06RIP,&var2,&R0IS01FI0,&var7};
+_S_ml  S_ml_8_1 = {&R0IN03RIP,&var3,&R0IS01FI0,&var8};
+_S_ml  S_ml_7_1 = {&R0IN02RIP,&var4,&R0IS01FI0,&var9};
+_S_ml  S_ml_6_1 = {&R0IN01RIP,&var5,&R0IS01FI0,&var10};
+_S_or4  S_or4_71_1 = {&var54,&var28,&var36,&var37,&var11};
+_S_noto  S_noto_157_1 = {&var16,&var12};
+_S_and5  S_and5_43_1 = {&var12,&R0IE11LRP,&R0IE12LRP,&R0IE13LRP,&var23,&var13};
+_S_or2  S_or2_151_1 = {&R0DEB1LRP,&R0DEB2LRP,&var14};
+_S_or2  S_or2_158_1 = {&R0DEB3LRP,&R0DEB4LRP,&var15};
+_S_or3  S_or3_155_1 = {&var19,&var18,&var17,&var16};
+_S_orn  S_orn_156_1 = {array_m156_x_1,&iRM_6_,&var17};
+_S_and2  S_and2_140_1 = {&R0DE31LRP,&R0DE32LRP,&var18};
+_S_diagndev  S_diagndev_138_1 = {array_m138_x_1,&iRM_6_,&var19,&var20,&vainSFloat,&internal1_m138_sttlf};
+_S_ocham  S_ocham_18_1 = {&var10,&var9,&var8,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var21,&var22,&var23,&var24,&var25,&var26,&var27,&internal1_m18_Nk};
+_S_or2  S_or2_66_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
+_S_or2  S_or2_94_1 = {&var61,&var62,&var28};
+_S_or4  S_or4_48_1 = {&var35,&var33,&var34,&var31,&var29};
+_S_or2  S_or2_99_1 = {&var60,&var49,&var30};
+_S_or2  S_or2_123_1 = {&var32,&var30,&var31};
+_S_or2  S_or2_95_1 = {&var59,&var52,&var32};
+_S_and3  S_and3_44_1 = {&var13,&var45,&var39,&var33};
+_S_and3  S_and3_52_1 = {&var43,&R0IE14LRP,&var55,&var34};
+_S_and3  S_and3_51_1 = {&R0IE15LRP,&var43,&var56,&var35};
+_S_and3  S_and3_60_1 = {&R0IE14LRP,&var43,&var58,&var36};
+_S_and3  S_and3_59_1 = {&var57,&R0IE15LRP,&var43,&var37};
+_S_geterr  S_geterr_56_1 = {&var7,&dRM_0_,&iRM_0_,&bRM_0_,&var38,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_noto  S_noto_79_1 = {&var44,&var39};
+_S_geterr  S_geterr_55_1 = {&var6,&dRM_0_,&iRM_0_,&bRM_0_,&var40,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_zzfs  S_zzfs_70_1 = {&var42,&fEM_Z7UE20RRP,&var41,&internal1_m70_tx,&internal1_m70_y0};
+_S_or3  S_or3_69_1 = {&A6IS11LRP,&B6IS11LRP,&R0EE02LDU,&var42};
+_S_noto  S_noto_67_1 = {&var41,&var43};
+_S_zzfs  S_zzfs_78_1 = {&R0EE02LDU,&fEM_Z7UE20RRP,&var44,&internal1_m78_tx,&internal1_m78_y0};
+_S_bol  S_bol_41_1 = {&var22,&fEM_R0UL52RSS,&var45};
+_S_scalzz  S_scalzz_86_1 = {&B0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var46,&internal1_m86_y0};
+_S_scalzz  S_scalzz_84_1 = {&A0IT03IRP,&iRM_3276_,&iRM_16383_,&fEM_R0UT01RZZ,&fEM_R0UT02RZZ,&var47,&internal1_m84_y0};
+_S_geterr  S_geterr_88_1 = {&var47,&dRM_0_,&iRM_0_,&bRM_0_,&var48,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_drg  S_drg_100_1 = {&var46,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var49,&internal1_m100_y1};
+_S_drg  S_drg_115_1 = {&var46,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var50,&internal1_m115_y1};
+_S_geterr  S_geterr_90_1 = {&var46,&dRM_0_,&iRM_0_,&bRM_0_,&var51,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
+_S_drg  S_drg_98_1 = {&var47,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var52,&internal1_m98_y1};
+_S_drg  S_drg_112_1 = {&var47,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var53,&internal1_m112_y1};
+_S_noto  S_noto_75_1 = {&var13,&var54};
+_S_bol  S_bol_61_1 = {&var6,&fEM_R0UR01RRP,&var55};
+_S_bol  S_bol_50_1 = {&var7,&fEM_R0UR01RRP,&var56};
 
 
 void ZeroVar()
@@ -957,58 +1007,63 @@ void ZeroVar()
    var3.f=0.0;
    var4.f=0.0;
    var5.f=0.0;
-   var6.b=0;
-   var7.b=0;
-   var8.b=0;
-   var9.b=0;
-   var10.b=0;
+   var6.f=0.0;
+   var7.f=0.0;
+   var8.f=0.0;
+   var9.f=0.0;
+   var10.f=0.0;
    var11.b=0;
    var12.b=0;
    var13.b=0;
    var14.b=0;
-   var15.i=0;
-   var16.f=0.0;
-   var17.f=0.0;
+   var15.b=0;
+   var16.b=0;
+   var17.b=0;
    var18.b=0;
-   var19.f=0.0;
-   var20.f=0.0;
+   var19.b=0;
+   var20.i=0;
    var21.f=0.0;
-   var22.i=0;
+   var22.f=0.0;
    var23.b=0;
-   var24.b=0;
-   var25.b=0;
-   var26.b=0;
-   var27.b=0;
+   var24.f=0.0;
+   var25.f=0.0;
+   var26.f=0.0;
+   var27.i=0;
    var28.b=0;
    var29.b=0;
    var30.b=0;
    var31.b=0;
    var32.b=0;
-   var33.c=0;
+   var33.b=0;
    var34.b=0;
-   var35.c=0;
+   var35.b=0;
    var36.b=0;
    var37.b=0;
-   var38.b=0;
+   var38.c=0;
    var39.b=0;
-   var40.b=0;
-   var41.f=0.0;
-   var42.f=0.0;
-   var43.c=0;
+   var40.c=0;
+   var41.b=0;
+   var42.b=0;
+   var43.b=0;
    var44.b=0;
    var45.b=0;
-   var46.c=0;
-   var47.b=0;
-   var48.b=0;
+   var46.f=0.0;
+   var47.f=0.0;
+   var48.c=0;
    var49.b=0;
    var50.b=0;
-   var51.b=0;
+   var51.c=0;
    var52.b=0;
    var53.b=0;
    var54.b=0;
    var55.b=0;
    var56.b=0;
    var57.b=0;
+   var58.b=0;
+   var59.b=0;
+   var60.b=0;
+   var61.b=0;
+   var62.b=0;
    vainSLong.l=0L;
    vainSFloat.f=0.0;
    vainSInt.i=0;
@@ -1019,93 +1074,103 @@ void ZeroVar()
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  scalzz(&S_scalzz_89_1);
-  scalzz(&S_scalzz_91_1);
-  or2(&S_or2_71_1);
-  diagndev(&S_diagndev_143_1);
-  and2(&S_and2_145_1);
-  or2(&S_or2_163_1);
-  or2(&S_or2_156_1);
+  scalzz(&S_scalzz_84_1);
+  scalzz(&S_scalzz_86_1);
+  or2(&S_or2_66_1);
+  diagndev(&S_diagndev_138_1);
+  and2(&S_and2_140_1);
+  or2(&S_or2_158_1);
+  or2(&S_or2_151_1);
+  drg(&S_drg_112_1);
+  drg(&S_drg_98_1);
+  geterr(&S_geterr_90_1);
+  drg(&S_drg_115_1);
+  drg(&S_drg_100_1);
+  geterr(&S_geterr_88_1);
+  zzfs(&S_zzfs_78_1);
+  or3(&S_or3_69_1);
+  zzfs(&S_zzfs_70_1);
+  noto(&S_noto_79_1);
+  setData(&var59,&var48);
+  or2(&S_or2_95_1);
+  setData(&var60,&var51);
+  or2(&S_or2_99_1);
+  setData(&var61,&var48);
+  setData(&var62,&var51);
+  or2(&S_or2_94_1);
+  orn(&S_orn_156_1);
+  or3(&S_or3_155_1);
+  noto(&S_noto_157_1);
+  pogrvh(&S_pogrvh_169_1);
+  pogrvh(&S_pogrvh_170_1);
+  pogrvh(&S_pogrvh_171_1);
+  pogrvh(&S_pogrvh_172_1);
+  pogrvh(&S_pogrvh_179_1);
+  noto(&S_noto_67_1);
+  or2(&S_or2_123_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
-  ml(&S_ml_52_1);
-  ml(&S_ml_61_1);
-  bol(&S_bol_53_1);
-  bol(&S_bol_65_1);
-  drg(&S_drg_116_1);
-  drg(&S_drg_103_1);
-  geterr(&S_geterr_95_1);
-  drg(&S_drg_120_1);
-  drg(&S_drg_105_1);
-  geterr(&S_geterr_93_1);
-  zzfs(&S_zzfs_83_1);
-  or3(&S_or3_74_1);
-  zzfs(&S_zzfs_75_1);
-  geterr(&S_geterr_59_1);
-  noto(&S_noto_84_1);
-  geterr(&S_geterr_60_1);
-  setData(&var54,&var43);
-  or2(&S_or2_100_1);
-  setData(&var55,&var46);
-  or2(&S_or2_104_1);
-  setData(&var56,&var43);
-  setData(&var57,&var46);
-  or2(&S_or2_99_1);
-  ocham(&S_ocham_21_1);
-  orn(&S_orn_161_1);
-  or3(&S_or3_160_1);
-  noto(&S_noto_162_1);
-  bol(&S_bol_44_1);
-  noto(&S_noto_72_1);
-  setData(&var52,&var35);
-  and3(&S_and3_63_1);
-  setData(&var53,&var33);
-  and3(&S_and3_64_1);
-  and3(&S_and3_54_1);
-  and3(&S_and3_55_1);
-  or2(&S_or2_128_1);
-  and5(&S_and5_46_1);
-  noto(&S_noto_80_1);
-  and3(&S_and3_47_1);
-  or4(&S_or4_51_1);
-  or4(&S_or4_76_1);
+  ml(&S_ml_49_1);
+  ml(&S_ml_57_1);
+  bol(&S_bol_50_1);
+  bol(&S_bol_61_1);
+  geterr(&S_geterr_55_1);
+  geterr(&S_geterr_56_1);
+  setData(&var57,&var40);
+  and3(&S_and3_59_1);
+  setData(&var58,&var38);
+  and3(&S_and3_60_1);
+  and3(&S_and3_51_1);
+  and3(&S_and3_52_1);
+  ocham(&S_ocham_18_1);
+  and5(&S_and5_43_1);
+  noto(&S_noto_75_1);
+  bol(&S_bol_41_1);
+  and3(&S_and3_44_1);
+  or4(&S_or4_48_1);
+  or4(&S_or4_71_1);
   moveData(idB1VS21LRP,idB1IS21LRP);
   moveData(idA1VS21LRP,idA1IS21LRP);
-  setData(idTTLrpu,&var15);
-  setData(idTestDiagnRPU,&var11);
-  setData(idR0DE3DLRP,&var10);
-  setData(idR0DE3CLRP,&var9);
+  setData(idTTLrpu,&var20);
+  setData(idTestDiagnRPU,&var16);
+  setData(idR0DE3DLRP,&var15);
+  setData(idR0DE3CLRP,&var14);
   moveData(idB7MZ31LRP,idC1MZ31LRP);
   moveData(idA7MZ31LRP,idC1MZ31LRP);
   moveData(idB3VS21LRP,idB3IS21LRP);
   moveData(idA3VS21LRP,idA3IS21LRP);
   moveData(idB2VS21LRP,idB2IS21LRP);
   moveData(idA2VS21LRP,idA2IS21LRP);
-  setData(idR7VE70LRP,&var6);
-  setData(idR0VN13RRP,&var19);
-  setData(idR0VN71LRP,&var40);
-  setData(idA1VT71LRP,&var26);
-  setData(idR0IE04LRP,&var36);
-  setData(idR0IE03LRP,&var36);
-  setData(idA0EE01LRP,&var8);
-  setData(idB0VT71LRP,&var25);
-  setData(idB0VT61LRP,&var45);
-  setData(idB0CT01IRP,&var41);
-  setData(idR0ET02LRP,&var46);
-  setData(idR0ET01LRP,&var43);
-  setData(idA0VT71LRP,&var27);
-  setData(idA0VT61LRP,&var48);
-  setData(idA0CT01IRP,&var42);
-  setData(idR7VN71LRP,&var24);
-  setData(idR0IE02LRP,&var39);
-  setData(idR0IE01LRP,&var39);
-  setData(idR0VN15RRP,&var22);
-  setData(idR0VN33RRP,&var21);
-  setData(idR0VN23RRP,&var20);
-  setData(idA0EE02LRP,&var18);
-  setData(idR0VN03RRP,&var16);
-  setData(idR0VN02RRP,&var17);
+  setData(idR7VE70LRP,&var11);
+  setData(idR0VN13RRP,&var24);
+  setData(idR0VN71LRP,&var45);
+  setData(idA1VT71LRP,&var31);
+  setData(idR0IE04LRP,&var41);
+  setData(idR0IE03LRP,&var41);
+  setData(idA0EE01LRP,&var13);
+  setData(idB0VT71LRP,&var30);
+  setData(idB0VT61LRP,&var50);
+  setData(idB0CT01IRP,&var46);
+  setData(idR0ET02LRP,&var51);
+  setData(idR0ET01LRP,&var48);
+  setData(idA0VT71LRP,&var32);
+  setData(idA0VT61LRP,&var53);
+  setData(idA0CT01IRP,&var47);
+  setData(idR0IN07RRP,&var1);
+  setData(idR7VN71LRP,&var29);
+  setData(idR0IN06RRP,&var2);
+  setData(idR0IE02LRP,&var44);
+  setData(idR0IE01LRP,&var44);
+  setData(idR0VN15RRP,&var27);
+  setData(idR0VN33RRP,&var26);
+  setData(idR0VN23RRP,&var25);
+  setData(idA0EE02LRP,&var23);
+  setData(idR0IN03RRP,&var3);
+  setData(idR0VN03RRP,&var21);
+  setData(idR0IN02RRP,&var4);
+  setData(idR0IN01RRP,&var5);
+  setData(idR0VN02RRP,&var22);
 
   setAsBool(idbFirstEnterFlag,1);
 }

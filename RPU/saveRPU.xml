@@ -29,4 +29,9 @@
   <save value ="4000">fEM_R0UH21RSS</save>
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
+  <save value ="0">fEM_R0IN01NRP</save>
+  <save value ="0">fEM_R0IN02NRP</save>
+  <save value ="0">fEM_R0IN03NRP</save>
+  <save value ="0">fEM_R0IN06NRP</save>
+  <save value ="0">fEM_R0IN07NRP</save>
 </saves>

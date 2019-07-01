@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0EE04LZ1" description="( - , AKNP4) Питание  АКНП4  отключить" format="1"></var>
 <var  name="R0EE04LZ2" description="( - , AKNP4) Питание  АКНП4  отключить" format="1"></var>
 <var  name="R0DE01LS4" description="(vchs:01 - Diagn, DiagnAKNP4) диагностика модуля АКНП4 на 1 месте" format="3"></var>
 <var  name="R0DE02LS4" description="(vchs:02 - Diagn, DiagnAKNP4) диагностика модуля АКНП4 на 2 месте" format="3"></var>
@@ -24,8 +23,11 @@
 <var  name="R0DEB3LS4" description="(sbk:20 - S12SBK, DiagnAKNP4) диагностика шкафа АКНП4 БП5 место 8" format="1"></var>
 <var  name="R0IS01FI0" description="( - , MA4S) Признак работы с имитатором" format="1"></var>
 <var  name="R0IN01FI4" description="( - , MA4S) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FS4" description="(vchs:01 - K02VCHS, AKNP4) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN02FS4" description="( - , AKNP4) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI4" description="( - , MA4S) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FV4" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
+<var  name="R0IN02FV4" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
+<var  name="R0IN03FV4" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
 <var  name="R0VN02RS4" description="( - , A4Bz1, A4Bz2) Уровень мощности канал 4" format="8"></var>
 <var  name="R0VN01RS4" description="( - , A4Bz1, A4Bz2) Период разгона канал 4" format="8"></var>
 <var  name="R0VN61LS4" description="( - , A4Bz1, A4Bz2) ПС по мощности канал 4" format="1"></var>
@@ -33,12 +35,12 @@
 <var  name="R0VN65LS4" description="( - , A4Bz1, A4Bz2) ПС по периоду разгона канал 4" format="1"></var>
 <var  name="R0VN78LZ1" description="(fds16:05 - K10FDSR, - ) АС по периоду разгона канал 4 на БАЗ1" format="1"></var>
 <var  name="A0EE01LS4" description="(fds16:05 - K11FDSR, - ) Исправность АКНП канал 4 на БАЗ1" format="1"></var>
-<var  name="R0IN01FS4" description="(vchs:01 - K01VCHS, AKNP4) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN01FS4" description="( - , AKNP4) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FI4" description="( - , MA4S) Выход КНК15-1 Гц от ПТИ" format="8"></var>
 <var  name="R0VN03RS4" description="( - , AKNP4) Измеренный нейтронный поток канал 4" format="8"></var>
 <var  name="R0VN04RS4" description="( - , AKNP4) Реактивность канал 4" format="8"></var>
 <var  name="A1VN71LS4" description="(fds16:05 - K16FDSR, - ) Блокировка автоматического  подъёма ББ канал 4 на БАЗ2" format="1"></var>
-<var  name="R0IN03FS4" description="(vchs:02 - K01VCHS, AKNP4) Выход КНК53М Гц" format="8"></var>
+<var  name="R0IN03FS4" description="( - , AKNP4) Выход КНК53М Гц" format="8"></var>
 <var  name="A0EE02LS4" description="( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4" format="1"></var>
 <var  name="R0IE11LS4" description="( - , - ) Исправность ВИП 1,6 (№17) СНМ11 4 канала" format="1"></var>
 <var  name="R0IE12LS4" description="( - , - ) Исправность ВИП 0,5 (№18) КНК15-1 4 канала" format="1"></var>
@@ -54,6 +56,7 @@
 <var  name="R0VN78LZ2" description="(fds16:05 - K14FDSR, - ) АС по периоду разгона канал 4 на БАЗ2" format="1"></var>
 <var  name="A1EE01LS4" description="(fds16:05 - K15FDSR, - ) Исправность АКНП канал 4 на БАЗ2" format="1"></var>
 <var  name="B8VC01RDU" description="( - , A4Bz1, A4Bz2) Координата АЗ2, мм" format="8"></var>
+<var  name="R0EE04LZ1" description="( - , AKNP4) Питание  АКНП4  отключить" format="1"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
@@ -85,19 +88,22 @@
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Tф-постоянная времени, с" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (с) измерения периода" format="8"></var>
+<var  name="fEM_R0IN01FN4" description="(R0IN01FN4) Коэффициент погрешности А4 к 1" format="8"></var>
+<var  name="fEM_R0IN02FN4" description="(R0IN02FN4) Коэффициент погрешности А4 к 2" format="8"></var>
+<var  name="fEM_R0IN03FN4" description="(R0IN03FN4) Коэффициент погрешности А4 к 3" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m90_sttlf" description="(internal1_m90_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
-<var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m56_flst" description="(internal1_m56_flst)  флаг старта измерения" format="3"></var>
-<var  name="internal1_m56_chsr" description="(internal1_m56_chsr)  счетчик усреднения" format="3"></var>
-<var  name="internal1_m56_chizm" description="(internal1_m56_chizm)  счетчик уменьшения мощности" format="3"></var>
-<var  name="internal1_m56_sumtim" description="(internal1_m56_sumtim)  время измерения мощности" format="8"></var>
-<var  name="internal1_m56_W1" description="(internal1_m56_W1)  мощность на старте измерения" format="8"></var>
-<var  name="internal1_m56_W2" description="(internal1_m56_W2)  мощность в конце измерения" format="8"></var>
-<var  name="internal1_m56_Wmin" description="(internal1_m56_Wmin)  минимальное измерение в серии" format="8"></var>
-<var  name="internal1_m56_Wmax" description="(internal1_m56_Wmax)  максимальное измерение в серии" format="8"></var>
-<var  name="internal1_m56_Wlast" description="(internal1_m56_Wlast)  последнее растущее измерение" format="8"></var>
-<var  name="internal1_m56_y0" description="(internal1_m56_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m56_MyFirstEnterFlag" description="(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
+<var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m53_flst" description="(internal1_m53_flst)  флаг старта измерения" format="3"></var>
+<var  name="internal1_m53_chsr" description="(internal1_m53_chsr)  счетчик усреднения" format="3"></var>
+<var  name="internal1_m53_chizm" description="(internal1_m53_chizm)  счетчик уменьшения мощности" format="3"></var>
+<var  name="internal1_m53_sumtim" description="(internal1_m53_sumtim)  время измерения мощности" format="8"></var>
+<var  name="internal1_m53_W1" description="(internal1_m53_W1)  мощность на старте измерения" format="8"></var>
+<var  name="internal1_m53_W2" description="(internal1_m53_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m53_Wmin" description="(internal1_m53_Wmin)  минимальное измерение в серии" format="8"></var>
+<var  name="internal1_m53_Wmax" description="(internal1_m53_Wmax)  максимальное измерение в серии" format="8"></var>
+<var  name="internal1_m53_Wlast" description="(internal1_m53_Wlast)  последнее растущее измерение" format="8"></var>
+<var  name="internal1_m53_y0" description="(internal1_m53_y0) y0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m53_MyFirstEnterFlag" description="(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

@@ -1,5 +1,4 @@
 <vars>
-<var  name="R0DE02LS3" description="(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте" format="3"></var>
 <var  name="R0DE04LS3" description="(vds32:04 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 4 месте" format="3"></var>
 <var  name="R0DE05LS3" description="(fds16:05 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 5 месте" format="3"></var>
 <var  name="R0DE31LS3" description="(sbk:20 - S01SBK, DiagnAKNP3) диагностика шкафа АКНП3 сеть 1" format="1"></var>
@@ -19,13 +18,16 @@
 <var  name="R0DEB2LS3" description="(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7" format="1"></var>
 <var  name="R0DEB3LS3" description="(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8" format="1"></var>
 <var  name="R0DEB4LS3" description="(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8" format="1"></var>
-<var  name="R0IN01FS3" description="(vchs:01 - K01VCHS, AKNP3) Выход СНМ-11 Гц" format="8"></var>
+<var  name="R0IN01FS3" description="( - , AKNP3) Выход СНМ-11 Гц" format="8"></var>
 <var  name="R0IN02FI3" description="( - , MA3S) Выход КНК15-1 Гц от ПТИ" format="8"></var>
-<var  name="R0IN03FS3" description="(vchs:02 - K01VCHS, AKNP3) Выход КНК53М Гц" format="8"></var>
+<var  name="R0IN03FS3" description="( - , - ) Выход КНК53М Гц" format="8"></var>
 <var  name="R0IS01FI0" description="( - , MA3S) Признак работы с имитатором" format="1"></var>
 <var  name="R0IN01FI3" description="( - , MA3S) Выход СНМ-11 Гц от ПТИ" format="8"></var>
-<var  name="R0IN02FS3" description="(vchs:01 - K02VCHS, AKNP3) Выход КНК15-1 Гц" format="8"></var>
+<var  name="R0IN02FS3" description="( - , AKNP3) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI3" description="( - , MA3S) Выход КНК53М Гц от ПТИ" format="8"></var>
+<var  name="R0IN01FV3" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
+<var  name="R0IN02FV3" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
+<var  name="R0IN03FV3" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
 <var  name="R0VN02RS3" description="( - , A3Bz1, A3Bz2) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="( - , A3Bz1, A3Bz2) Период разгона канал 3" format="8"></var>
 <var  name="R0VN61LS3" description="( - , A3Bz1, A3Bz2) ПС по мощности канал 3" format="1"></var>
@@ -54,6 +56,7 @@
 <var  name="R0EE03LZ1" description="( - , AKNP3) Питание  АКНП3  отключить" format="1"></var>
 <var  name="R0EE03LZ2" description="( - , AKNP3) Питание  АКНП3  отключить" format="1"></var>
 <var  name="R0DE01LS3" description="(vchs:01 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 1 месте" format="3"></var>
+<var  name="R0DE02LS3" description="(vchs:02 - Diagn, DiagnAKNP3) диагностика модуля АКНП3 на 2 месте" format="3"></var>
 
 <var  name="fEM_R0UR01RSS" description="(R0UR01RSS) Уставка АКНП ПС  АЗ по периоду (сек)" format="8"></var>
 <var  name="fEM_R0UL52RSS" description="(R0UL52RSS) Уровень АС по мощности" format="8"></var>
@@ -85,19 +88,22 @@
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Tф-постоянная времени, с" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
+<var  name="fEM_R0IN01FN3" description="(R0IN01FN3) Коэффициент погрешности А3 к 1" format="8"></var>
+<var  name="fEM_R0IN02FN3" description="(R0IN02FN3) Коэффициент погрешности А3 к 2" format="8"></var>
+<var  name="fEM_R0IN03FN3" description="(R0IN03FN3) Коэффициент погрешности А3 к 3" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m90_sttlf" description="(internal1_m90_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
-<var  name="internal1_m22_Nk" description="(internal1_m22_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m57_flst" description="(internal1_m57_flst)  флаг старта измерения" format="3"></var>
-<var  name="internal1_m57_chsr" description="(internal1_m57_chsr)  счетчик усреднения" format="3"></var>
-<var  name="internal1_m57_chizm" description="(internal1_m57_chizm)  счетчик уменьшения мощности" format="3"></var>
-<var  name="internal1_m57_sumtim" description="(internal1_m57_sumtim)  время измерения мощности" format="8"></var>
-<var  name="internal1_m57_W1" description="(internal1_m57_W1)  мощность на старте измерения" format="8"></var>
-<var  name="internal1_m57_W2" description="(internal1_m57_W2)  мощность в конце измерения" format="8"></var>
-<var  name="internal1_m57_Wmin" description="(internal1_m57_Wmin)  минимальное измерение в серии" format="8"></var>
-<var  name="internal1_m57_Wmax" description="(internal1_m57_Wmax)  максимальное измерение в серии" format="8"></var>
-<var  name="internal1_m57_Wlast" description="(internal1_m57_Wlast)  последнее растущее измерение" format="8"></var>
-<var  name="internal1_m57_y0" description="(internal1_m57_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m57_MyFirstEnterFlag" description="(internal1_m57_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
+<var  name="internal1_m19_Nk" description="(internal1_m19_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m54_flst" description="(internal1_m54_flst)  флаг старта измерения" format="3"></var>
+<var  name="internal1_m54_chsr" description="(internal1_m54_chsr)  счетчик усреднения" format="3"></var>
+<var  name="internal1_m54_chizm" description="(internal1_m54_chizm)  счетчик уменьшения мощности" format="3"></var>
+<var  name="internal1_m54_sumtim" description="(internal1_m54_sumtim)  время измерения мощности" format="8"></var>
+<var  name="internal1_m54_W1" description="(internal1_m54_W1)  мощность на старте измерения" format="8"></var>
+<var  name="internal1_m54_W2" description="(internal1_m54_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m54_Wmin" description="(internal1_m54_Wmin)  минимальное измерение в серии" format="8"></var>
+<var  name="internal1_m54_Wmax" description="(internal1_m54_Wmax)  максимальное измерение в серии" format="8"></var>
+<var  name="internal1_m54_Wlast" description="(internal1_m54_Wlast)  последнее растущее измерение" format="8"></var>
+<var  name="internal1_m54_y0" description="(internal1_m54_y0) y0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m54_MyFirstEnterFlag" description="(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

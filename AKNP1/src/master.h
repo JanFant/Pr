@@ -67,10 +67,10 @@ int nomer = 1;
 #define idttlAknp1	 26	//( - , AKNP1, MA1S) ttlAknp1
 #define R0IN01FV1	 BUFFER[76]	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
 #define idR0IN01FV1	 27	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
-#define R0IN02FV1	 BUFFER[81]	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к2
-#define idR0IN02FV1	 28	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к2
-#define R0IN03FV1	 BUFFER[86]	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к3
-#define idR0IN03FV1	 29	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к3
+#define R0IN02FV1	 BUFFER[81]	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define idR0IN02FV1	 28	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define R0IN03FV1	 BUFFER[86]	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+#define idR0IN03FV1	 29	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
 #define R0VN02RS1	 BUFFER[91]	//( - , A1Bz1, A1Bz2) Уровень мощности
 #define idR0VN02RS1	 30	//( - , A1Bz1, A1Bz2) Уровень мощности
 #define R0VN01RS1	 BUFFER[96]	//( - , A1Bz1, A1Bz2) Период разгона канал1
@@ -189,12 +189,12 @@ int nomer = 1;
 #define idfEM_R0UH22RSS	 87	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 #define fEM_R0UH23RSS	 BUFFER[321]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 #define idfEM_R0UH23RSS	 88	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define fEM_R0IN01FN1	 BUFFER[326]	//(R0IN01FN1) Процент погрешности А1 к1
-#define idfEM_R0IN01FN1	 89	//(R0IN01FN1) Процент погрешности А1 к1
-#define fEM_R0IN02FN1	 BUFFER[331]	//(R0IN02FN1) Процент погрешности А1 к2
-#define idfEM_R0IN02FN1	 90	//(R0IN02FN1) Процент погрешности А1 к2
-#define fEM_R0IN03FN1	 BUFFER[336]	//(R0IN03FN1) Процент погрешности А1 к3
-#define idfEM_R0IN03FN1	 91	//(R0IN03FN1) Процент погрешности А1 к3
+#define fEM_R0IN01FN1	 BUFFER[326]	//(R0IN01FN1) Коэффициент погрешности А1 к 1
+#define idfEM_R0IN01FN1	 89	//(R0IN01FN1) Коэффициент погрешности А1 к 1
+#define fEM_R0IN02FN1	 BUFFER[331]	//(R0IN02FN1) Коэффициент погрешности А1 к 2
+#define idfEM_R0IN02FN1	 90	//(R0IN02FN1) Коэффициент погрешности А1 к 2
+#define fEM_R0IN03FN1	 BUFFER[336]	//(R0IN03FN1) Коэффициент погрешности А1 к 3
+#define idfEM_R0IN03FN1	 91	//(R0IN03FN1) Коэффициент погрешности А1 к 3
 #define bFirstEnterFlag	 BUFFER[341]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 92	//(bFirstEnterFlag) 
 #define internal1_m87_sttlf	 BUFFER[343]	//(internal1_m87_sttlf) sttlf - счетчик для вещественного формата
@@ -252,8 +252,8 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 25	,8	,1	, &R0IN03FI1},	//( - , MA1S) Выход КНК53М Гц от ПТИ
 	{ 26	,8	,1	, &ttlAknp1},	//( - , AKNP1, MA1S) ttlAknp1
 	{ 27	,8	,1	, &R0IN01FV1},	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
-	{ 28	,8	,1	, &R0IN02FV1},	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к2
-	{ 29	,8	,1	, &R0IN03FV1},	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к3
+	{ 28	,8	,1	, &R0IN02FV1},	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+	{ 29	,8	,1	, &R0IN03FV1},	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
 	{ 30	,8	,1	, &R0VN02RS1},	//( - , A1Bz1, A1Bz2) Уровень мощности
 	{ 31	,8	,1	, &R0VN01RS1},	//( - , A1Bz1, A1Bz2) Период разгона канал1
 	{ 32	,1	,1	, &R0VN61LS1},	//( - , A1Bz1, A1Bz2) ПС по мощности канал1
@@ -313,9 +313,9 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 86	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
 	{ 87	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 	{ 88	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-	{ 89	,8	,1	, &fEM_R0IN01FN1},	//(R0IN01FN1) Процент погрешности А1 к1
-	{ 90	,8	,1	, &fEM_R0IN02FN1},	//(R0IN02FN1) Процент погрешности А1 к2
-	{ 91	,8	,1	, &fEM_R0IN03FN1},	//(R0IN03FN1) Процент погрешности А1 к3
+	{ 89	,8	,1	, &fEM_R0IN01FN1},	//(R0IN01FN1) Коэффициент погрешности А1 к 1
+	{ 90	,8	,1	, &fEM_R0IN02FN1},	//(R0IN02FN1) Коэффициент погрешности А1 к 2
+	{ 91	,8	,1	, &fEM_R0IN03FN1},	//(R0IN03FN1) Коэффициент погрешности А1 к 3
 	{ 92	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
 	{ 93	,3	,1	, &internal1_m87_sttlf},	//(internal1_m87_sttlf) sttlf - счетчик для вещественного формата
 	{ 94	,3	,1	, &internal1_m17_Nk},	//(internal1_m17_Nk) Nk - ведущая камера
