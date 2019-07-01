@@ -215,7 +215,7 @@
         </record>
         <record>
             <value name="name">R0IN01FS1</value>
-            <value name="description">( - K01VCHS, AKNP1) Выход СНМ-11 Гц</value>
+            <value name="description">( - , AKNP1) Выход СНМ-11 Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">12</value>
@@ -228,7 +228,7 @@
         </record>
         <record>
             <value name="name">R0IN03FS1</value>
-            <value name="description">( - K01VCHS, AKNP1) Выход КНК53М Гц</value>
+            <value name="description">( - , AKNP1) Выход КНК53М Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">14</value>
@@ -241,7 +241,7 @@
         </record>
         <record>
             <value name="name">R0IN02FS1</value>
-            <value name="description">( - K02VCHS, AKNP1) Выход КНК15-1 Гц</value>
+            <value name="description">( - , AKNP1) Выход КНК15-1 Гц</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">16</value>

@@ -53,18 +53,18 @@ int nomer = 1;
 #define idR0DEB3LS3	 19	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
 #define R0DEB4LS3	 BUFFER[42]	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
 #define idR0DEB4LS3	 20	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
-#define R0IN01FS3	 BUFFER[44]	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
-#define idR0IN01FS3	 21	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
+#define R0IN01FS3	 BUFFER[44]	//(vchs:01 - K01VCHS, AKNP3) Выход СНМ-11 Гц
+#define idR0IN01FS3	 21	//(vchs:01 - K01VCHS, AKNP3) Выход СНМ-11 Гц
 #define R0IN02FI3	 BUFFER[49]	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
 #define idR0IN02FI3	 22	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
-#define R0IN03FS3	 BUFFER[54]	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
-#define idR0IN03FS3	 23	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
+#define R0IN03FS3	 BUFFER[54]	//(vchs:02 - K01VCHS, AKNP3) Выход КНК53М Гц
+#define idR0IN03FS3	 23	//(vchs:02 - K01VCHS, AKNP3) Выход КНК53М Гц
 #define R0IS01FI0	 BUFFER[59]	//( - , MA3S) Признак работы с имитатором
 #define idR0IS01FI0	 24	//( - , MA3S) Признак работы с имитатором
 #define R0IN01FI3	 BUFFER[61]	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
 #define idR0IN01FI3	 25	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
-#define R0IN02FS3	 BUFFER[66]	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
-#define idR0IN02FS3	 26	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+#define R0IN02FS3	 BUFFER[66]	//(vchs:01 - K02VCHS, AKNP3) Выход КНК15-1 Гц
+#define idR0IN02FS3	 26	//(vchs:01 - K02VCHS, AKNP3) Выход КНК15-1 Гц
 #define R0IN03FI3	 BUFFER[71]	//( - , MA3S) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI3	 27	//( - , MA3S) Выход КНК53М Гц от ПТИ
 #define R0VN02RS3	 BUFFER[76]	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
@@ -233,12 +233,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 18	,1	,1	, &R0DEB2LS3},	//(sbk:20 - S11SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 7
 	{ 19	,1	,1	, &R0DEB3LS3},	//(sbk:20 - S12SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП5 место 8
 	{ 20	,1	,1	, &R0DEB4LS3},	//(sbk:20 - S13SBK, DiagnAKNP3) диагностика шкафа АКНП3 БП24Д место 8
-	{ 21	,8	,1	, &R0IN01FS3},	//(vchs:01 - K01VCHS, - ) Выход СНМ-11 Гц
+	{ 21	,8	,1	, &R0IN01FS3},	//(vchs:01 - K01VCHS, AKNP3) Выход СНМ-11 Гц
 	{ 22	,8	,1	, &R0IN02FI3},	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
-	{ 23	,8	,1	, &R0IN03FS3},	//(vchs:02 - K01VCHS, - ) Выход КНК53М Гц
+	{ 23	,8	,1	, &R0IN03FS3},	//(vchs:02 - K01VCHS, AKNP3) Выход КНК53М Гц
 	{ 24	,1	,1	, &R0IS01FI0},	//( - , MA3S) Признак работы с имитатором
 	{ 25	,8	,1	, &R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
-	{ 26	,8	,1	, &R0IN02FS3},	//(vchs:01 - K02VCHS, - ) Выход КНК15-1 Гц
+	{ 26	,8	,1	, &R0IN02FS3},	//(vchs:01 - K02VCHS, AKNP3) Выход КНК15-1 Гц
 	{ 27	,8	,1	, &R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц от ПТИ
 	{ 28	,8	,1	, &R0VN02RS3},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
 	{ 29	,8	,1	, &R0VN01RS3},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
@@ -372,6 +372,9 @@ static ModbusRegister ir_AKNP3[]={  //
 	{&R0VN33RS3,8,8},	//( - , AKNP3) Нейтронный поток по камере КНК53М канал 3
 	{&R0VN15RS3,3,10},	//( - , AKNP3) Номер ведущей камеры канал 3
 	{&TTLaknp3,3,11},	//( - , AKNP3) ttl
+	{&R0IN01FS3,8,12},	//( - K01VCHS, AKNP3) Выход СНМ-11 Гц
+	{&R0IN03FS3,8,14},	//( - K01VCHS, AKNP3) Выход КНК53М Гц
+	{&R0IN02FS3,8,16},	//( - K02VCHS, AKNP3) Выход КНК15-1 Гц
 	{NULL,0,0},
 };
 #pragma pop
