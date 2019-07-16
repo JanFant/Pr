@@ -9,7 +9,7 @@ ssint iRM_4_ = {4,0}; /* n - размерность массива значен�
 ssint iRM_6_ = {6,0}; /* n - N-размерность массива x */ 
 ssbool lRM_1_ = {1,0}; /*  */ 
 
-uspaint8 SpaEEPROMBuf[165];
+uspaint8 SpaEEPROMBuf[180];
 
 /* Определение переменных */
 ssfloat var1;
@@ -56,12 +56,12 @@ psbool  array_m101_x_1[6] = {&var8,&var7,&R0DE36LS3,&R0DE37LS3,&R0DE38LS3,&R0DE3
 psint  array_m87_x_1[4] = {&R0DE01LS3,&R0DE02LS3,&R0DE04LS3,&R0DE05LS3};
 psbool  array_m63_x_1[2] = {&var29,&var24};
 psbool  array_m62_x_1[2] = {&var29,&var30};
-psbool  array_m73_x_1[5] = {&var16,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&lRM_1_};
+psbool  array_m71_x_1[5] = {&var16,&R0IE11LS3,&R0IE12LS3,&R0IE13LS3,&lRM_1_};
 
 /* Объявление структур */
-_S_pogrvh  S_pogrvh_115_1 = {&R0IN03FV3,&fEM_R0IN03FN3,&var1};
-_S_pogrvh  S_pogrvh_114_1 = {&R0IN02FV3,&fEM_R0IN02FN3,&var2};
-_S_pogrvh  S_pogrvh_113_1 = {&R0IN01FV3,&fEM_R0IN01FN3,&var3};
+_S_pogrvh  S_pogrvh_117_1 = {&R0IN03FV3,&fEM_R0IN31FN3,&fEM_R0IN32FN3,&var1};
+_S_pogrvh  S_pogrvh_115_1 = {&R0IN02FV3,&fEM_R0IN21FN3,&fEM_R0IN22FN3,&var2};
+_S_pogrvh  S_pogrvh_113_1 = {&R0IN01FV3,&fEM_R0IN11FN3,&fEM_R0IN12FN3,&var3};
 _S_ml  S_ml_8_1 = {&R0IN03FI3,&var1,&R0IS01FI0,&var4};
 _S_ml  S_ml_7_1 = {&R0IN02FI3,&var2,&R0IS01FI0,&var5};
 _S_ml  S_ml_6_1 = {&R0IN01FI3,&var3,&R0IS01FI0,&var6};
@@ -78,7 +78,7 @@ _S_period  S_period_54_1 = {&var15,&var26,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,
 _S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var23};
 _S_bol  S_bol_60_1 = {&fEM_R0UL41RSS,&var22,&var24};
 _S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var25};
-_S_andn  S_andn_73_1 = {array_m73_x_1,&iRM_5_,&var26};
+_S_andn  S_andn_71_1 = {array_m71_x_1,&iRM_5_,&var26};
 _S_bol  S_bol_43_1 = {&var15,&fEM_R0UL52RSS,&var27};
 _S_bol  S_bol_48_1 = {&var15,&fEM_R0UL42RSS,&var28};
 _S_bol  S_bol_59_1 = {&var15,&fEM_R0UN03RSS,&var29};
@@ -99,8 +99,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or3(&S_or3_98_1);
   noto(&S_noto_102_1);
   pogrvh(&S_pogrvh_113_1);
-  pogrvh(&S_pogrvh_114_1);
   pogrvh(&S_pogrvh_115_1);
+  pogrvh(&S_pogrvh_117_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
@@ -109,7 +109,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   bol(&S_bol_59_1);
   bol(&S_bol_48_1);
   bol(&S_bol_43_1);
-  andn(&S_andn_73_1);
+  andn(&S_andn_71_1);
   period(&S_period_54_1);
   react(&S_react_55_1);
   bol(&S_bol_58_1);

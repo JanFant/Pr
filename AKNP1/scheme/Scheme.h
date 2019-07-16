@@ -7,7 +7,7 @@ sschar bRM_2_ = {2,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 2- для аз2, >2 РП
 ssint iRM_4_ = {4,0}; /* n - размерность массива значений */ 
 ssbool lRM_1_ = {1,0}; /*  */ 
 
-uspaint8 SpaEEPROMBuf[165];
+uspaint8 SpaEEPROMBuf[180];
 
 /* Определение переменных */
 ssfloat var1;
@@ -51,19 +51,19 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m69_x_1[5] = {&lRM_1_,&var20,&R0IE13LS1,&R0IE12LS1,&R0IE11LS1};
+psbool  array_m70_x_1[5] = {&lRM_1_,&var20,&R0IE13LS1,&R0IE12LS1,&R0IE11LS1};
 psbool  array_m98_x_1[5] = {&var9,&var8,&R0DE37LS1,&R0DE38LS1,&R0DE39LS1};
 psint  array_m87_x_1[4] = {&R0DE01LS1,&R0DE02LS1,&R0DE04LS1,&R0DE05LS1};
 
 /* Объявление структур */
-_S_pogrvh  S_pogrvh_115_1 = {&R0IN03FV1,&fEM_R0IN03FN1,&var1};
-_S_pogrvh  S_pogrvh_114_1 = {&R0IN02FV1,&fEM_R0IN02FN1,&var2};
-_S_pogrvh  S_pogrvh_113_1 = {&R0IN01FV1,&fEM_R0IN01FN1,&var3};
+_S_pogrvh  S_pogrvh_117_1 = {&R0IN03FV1,&fEM_R0IN31FN1,&fEM_R0IN32FN1,&var1};
+_S_pogrvh  S_pogrvh_115_1 = {&R0IN02FV1,&fEM_R0IN21FN1,&fEM_R0IN22FN1,&var2};
+_S_pogrvh  S_pogrvh_113_1 = {&R0IN01FV1,&fEM_R0IN11FN1,&fEM_R0IN12FN1,&var3};
 _S_ml  S_ml_9_1 = {&R0IN03FI1,&var1,&R0IS01FI0,&var4};
 _S_ml  S_ml_8_1 = {&R0IN02FI1,&var2,&R0IS01FI0,&var5};
 _S_ml  S_ml_7_1 = {&R0IN01FI1,&var3,&R0IS01FI0,&var6};
 _S_noto  S_noto_102_1 = {&var11,&vainSBool};
-_S_andn  S_andn_69_1 = {array_m69_x_1,&iRM_5_,&var7};
+_S_andn  S_andn_70_1 = {array_m70_x_1,&iRM_5_,&var7};
 _S_or2  S_or2_103_1 = {&R0DEB3LS1,&R0DEB4LS1,&var8};
 _S_or2  S_or2_96_1 = {&R0DEB1LS1,&R0DEB2LS1,&var9};
 _S_orn  S_orn_98_1 = {array_m98_x_1,&iRM_5_,&var10};
@@ -94,15 +94,15 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_103_1);
   orn(&S_orn_98_1);
   pogrvh(&S_pogrvh_113_1);
-  pogrvh(&S_pogrvh_114_1);
   pogrvh(&S_pogrvh_115_1);
+  pogrvh(&S_pogrvh_117_1);
   or3(&S_or3_101_1);
   noto(&S_noto_102_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
   ml(&S_ml_9_1);
   ocham(&S_ocham_17_1);
-  andn(&S_andn_69_1);
+  andn(&S_andn_70_1);
   bol(&S_bol_47_1);
   bol(&S_bol_58_1);
   bol(&S_bol_37_1);

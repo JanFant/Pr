@@ -88,22 +88,25 @@
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Tф-постоянная времени, с" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (с) измерения периода" format="8"></var>
-<var  name="fEM_R0IN01FN4" description="(R0IN01FN4) Коэффициент погрешности А4 к 1" format="8"></var>
-<var  name="fEM_R0IN02FN4" description="(R0IN02FN4) Коэффициент погрешности А4 к 2" format="8"></var>
-<var  name="fEM_R0IN03FN4" description="(R0IN03FN4) Коэффициент погрешности А4 к 3" format="8"></var>
+<var  name="fEM_R0IN11FN4" description="(R0IN11FN4) Коэффициент A (А4 к 1)" format="8"></var>
+<var  name="fEM_R0IN21FN4" description="(R0IN21FN4) Коэффициент A (А4 к 2)" format="8"></var>
+<var  name="fEM_R0IN12FN4" description="(R0IN12FN4) Коэффициент B (А4 к 1)" format="8"></var>
+<var  name="fEM_R0IN22FN4" description="(R0IN22FN4) Коэффициент B (А4 к 2)" format="8"></var>
+<var  name="fEM_R0IN31FN4" description="(R0IN31FN4) Коэффициент A (А4 к 3)" format="8"></var>
+<var  name="fEM_R0IN32FN4" description="(R0IN32FN4) Коэффициент B (А4 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
-<var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m53_flst" description="(internal1_m53_flst)  флаг старта измерения" format="3"></var>
-<var  name="internal1_m53_chsr" description="(internal1_m53_chsr)  счетчик усреднения" format="3"></var>
-<var  name="internal1_m53_chizm" description="(internal1_m53_chizm)  счетчик уменьшения мощности" format="3"></var>
-<var  name="internal1_m53_sumtim" description="(internal1_m53_sumtim)  время измерения мощности" format="8"></var>
-<var  name="internal1_m53_W1" description="(internal1_m53_W1)  мощность на старте измерения" format="8"></var>
-<var  name="internal1_m53_W2" description="(internal1_m53_W2)  мощность в конце измерения" format="8"></var>
-<var  name="internal1_m53_Wmin" description="(internal1_m53_Wmin)  минимальное измерение в серии" format="8"></var>
-<var  name="internal1_m53_Wmax" description="(internal1_m53_Wmax)  максимальное измерение в серии" format="8"></var>
-<var  name="internal1_m53_Wlast" description="(internal1_m53_Wlast)  последнее растущее измерение" format="8"></var>
-<var  name="internal1_m53_y0" description="(internal1_m53_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m53_MyFirstEnterFlag" description="(internal1_m53_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m56_flst" description="(internal1_m56_flst)  флаг старта измерения" format="3"></var>
+<var  name="internal1_m56_chsr" description="(internal1_m56_chsr)  счетчик усреднения" format="3"></var>
+<var  name="internal1_m56_chizm" description="(internal1_m56_chizm)  счетчик уменьшения мощности" format="3"></var>
+<var  name="internal1_m56_sumtim" description="(internal1_m56_sumtim)  время измерения мощности" format="8"></var>
+<var  name="internal1_m56_W1" description="(internal1_m56_W1)  мощность на старте измерения" format="8"></var>
+<var  name="internal1_m56_W2" description="(internal1_m56_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m56_Wmin" description="(internal1_m56_Wmin)  минимальное измерение в серии" format="8"></var>
+<var  name="internal1_m56_Wmax" description="(internal1_m56_Wmax)  максимальное измерение в серии" format="8"></var>
+<var  name="internal1_m56_Wlast" description="(internal1_m56_Wlast)  последнее растущее измерение" format="8"></var>
+<var  name="internal1_m56_y0" description="(internal1_m56_y0) y0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m56_MyFirstEnterFlag" description="(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

@@ -29,7 +29,10 @@
   <save value ="4000">fEM_R0UH21RSS</save>
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
-  <save value ="0">fEM_R0IN01FN1</save>
-  <save value ="0">fEM_R0IN02FN1</save>
-  <save value ="0">fEM_R0IN03FN1</save>
+  <save value ="1">fEM_R0IN11FN1</save>
+  <save value ="0">fEM_R0IN12FN1</save>
+  <save value ="1">fEM_R0IN21FN1</save>
+  <save value ="0">fEM_R0IN22FN1</save>
+  <save value ="1">fEM_R0IN31FN1</save>
+  <save value ="0">fEM_R0IN32FN1</save>
 </saves>

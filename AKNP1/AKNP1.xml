@@ -655,5 +655,83 @@
             <value name="OldData">204</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R0IN11FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент А (А1 к 1)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">60</value>
+            <value name="nID">46</value>
+            <value name="PType">33</value>
+            <value name="Bf0">120</value>
+            <value name="ParData">209</value>
+            <value name="OldData">209</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0IN12FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент B (А1 к 1)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">62</value>
+            <value name="nID">47</value>
+            <value name="PType">33</value>
+            <value name="Bf0">124</value>
+            <value name="ParData">214</value>
+            <value name="OldData">214</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0IN21FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент A (А1 к 2)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">64</value>
+            <value name="nID">48</value>
+            <value name="PType">33</value>
+            <value name="Bf0">128</value>
+            <value name="ParData">219</value>
+            <value name="OldData">219</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0IN22FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент B (А1 к 2)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">66</value>
+            <value name="nID">49</value>
+            <value name="PType">33</value>
+            <value name="Bf0">132</value>
+            <value name="ParData">224</value>
+            <value name="OldData">224</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0IN31FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент A (А1 к 3)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">68</value>
+            <value name="nID">50</value>
+            <value name="PType">33</value>
+            <value name="Bf0">136</value>
+            <value name="ParData">229</value>
+            <value name="OldData">229</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0IN32FN1</value>
+            <value name="description">( - , AKNP1) Коэффициент B (А1 к 3)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">70</value>
+            <value name="nID">51</value>
+            <value name="PType">33</value>
+            <value name="Bf0">140</value>
+            <value name="ParData">234</value>
+            <value name="OldData">234</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>

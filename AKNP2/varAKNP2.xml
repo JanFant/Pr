@@ -87,13 +87,16 @@
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Tф-постоянная времени, с" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
-<var  name="fEM_R0IN01FN2" description="(R0IN01FN2) Коэффициент погрешности А2 к 1" format="8"></var>
-<var  name="fEM_R0IN02FN2" description="(R0IN02FN2) Коэффициент погрешности А2 к 2" format="8"></var>
-<var  name="fEM_R0IN03FN2" description="(R0IN03FN2) Коэффициент погрешности А2 к 3" format="8"></var>
+<var  name="fEM_R0IN11FN2" description="(R0IN11FN2) Коэффициент A (А2 к 1)" format="8"></var>
+<var  name="fEM_R0IN12FN2" description="(R0IN12FN2) Коэффициент B (А2 к 1)" format="8"></var>
+<var  name="fEM_R0IN21FN2" description="(R0IN21FN2) Коэффициент A (А2 к 2)" format="8"></var>
+<var  name="fEM_R0IN22FN2" description="(R0IN22FN2) Коэффициент B (А2 к 2)" format="8"></var>
+<var  name="fEM_R0IN31FN2" description="(R0IN31FN2) Коэффициент A (А2 к 3)" format="8"></var>
+<var  name="fEM_R0IN32FN2" description="(R0IN32FN2) Коэффициент B (А2 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
-<var  name="internal1_m19_Nk" description="(internal1_m19_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m54_flst" description="(internal1_m54_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m54_chsr" description="(internal1_m54_chsr)  счетчик усреднения" format="3"></var>
 <var  name="internal1_m54_chizm" description="(internal1_m54_chizm)  счетчик уменьшения мощности" format="3"></var>

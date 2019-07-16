@@ -88,9 +88,12 @@
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
 <var  name="fEM_R0UL02RSS" description="(R0UL02RSS) Tф-постоянная времени, с" format="8"></var>
 <var  name="fEM_R0UL01RSS" description="(R0UL01RSS) Шаг (мс) измерения периода" format="8"></var>
-<var  name="fEM_R0IN01FN3" description="(R0IN01FN3) Коэффициент погрешности А3 к 1" format="8"></var>
-<var  name="fEM_R0IN02FN3" description="(R0IN02FN3) Коэффициент погрешности А3 к 2" format="8"></var>
-<var  name="fEM_R0IN03FN3" description="(R0IN03FN3) Коэффициент погрешности А3 к 3" format="8"></var>
+<var  name="fEM_R0IN11FN3" description="(R0IN11FN3) Коэффициент A (А3 к 1)" format="8"></var>
+<var  name="fEM_R0IN12FN3" description="(R0IN12FN3) Коэффициент B (А3 к 1)" format="8"></var>
+<var  name="fEM_R0IN21FN3" description="(R0IN21FN3) Коэффициент A (А3 к 2)" format="8"></var>
+<var  name="fEM_R0IN22FN3" description="(R0IN22FN3) Коэффициент B (А3 к 2)" format="8"></var>
+<var  name="fEM_R0IN31FN3" description="(R0IN31FN3) Коэффициент A (А3 к 3)" format="8"></var>
+<var  name="fEM_R0IN32FN3" description="(R0IN32FN3) Коэффициент B (А3 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>

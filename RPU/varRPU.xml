@@ -120,11 +120,16 @@
 <var  name="fEM_R0UH21RSS" description="(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11" format="8"></var>
 <var  name="fEM_R0UH22RSS" description="(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1" format="8"></var>
 <var  name="fEM_R0UH23RSS" description="(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М" format="8"></var>
-<var  name="fEM_R0IN01NRP" description="(R0IN01NRP) Коэффициент погрешности РПУ к 1" format="8"></var>
-<var  name="fEM_R0IN02NRP" description="(R0IN02NRP) Коэффициент погрешности РПУ к 2" format="8"></var>
-<var  name="fEM_R0IN03NRP" description="(R0IN03NRP) Коэффициент погрешности РПУ к 3" format="8"></var>
-<var  name="fEM_R0IN06NRP" description="(R0IN06NRP) Коэффициент погрешности РПУ к 6" format="8"></var>
-<var  name="fEM_R0IN07NRP" description="(R0IN07NRP) Коэффициент погрешности РПУ к 7" format="8"></var>
+<var  name="fEM_R0IN11NRP" description="(R0IN11NRP) Коэффициент A (РПУ к 1)" format="8"></var>
+<var  name="fEM_R0IN12NRP" description="(R0IN12NRP) Коэффициент B (РПУ к 1)" format="8"></var>
+<var  name="fEM_R0IN21NRP" description="(R0IN21NRP) Коэффициент A (РПУ к 2)" format="8"></var>
+<var  name="fEM_R0IN22NRP" description="(R0IN22NRP) Коэффициент B (РПУ к 2)" format="8"></var>
+<var  name="fEM_R0IN31NRP" description="(R0IN31NRP) Коэффициент A (РПУ к 3)" format="8"></var>
+<var  name="fEM_R0IN32NRP" description="(R0IN32NRP) Коэффициент B (РПУ к 3)" format="8"></var>
+<var  name="fEM_R0IN61NRP" description="(R0IN61NRP) Коэффициент A (РПУ к 6)" format="8"></var>
+<var  name="fEM_R0IN62NRP" description="(R0IN62NRP) Коэффициент B (РПУ к 6)" format="8"></var>
+<var  name="fEM_R0IN71NRP" description="(R0IN71NRP) Коэффициент A (РПУ к 7)" format="8"></var>
+<var  name="fEM_R0IN72NRP" description="(R0IN72NRP) Коэффициент B (РПУ к 7)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m138_sttlf" description="(internal1_m138_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
@@ -138,5 +143,5 @@
 <var  name="internal1_m100_y1" description="(internal1_m100_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m115_y1" description="(internal1_m115_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m98_y1" description="(internal1_m98_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m112_y1" description="(internal1_m112_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m111_y1" description="(internal1_m111_y1) y1 - внутренний параметр" format="1"></var>
 </vars>

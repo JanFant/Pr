@@ -840,19 +840,19 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R0IN01FN4"
-      Value="0"
+      Name="R0IN11FN4"
+      Value="1"
       Type=1
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Коэффициент погрешности А4 к 1"
+      Description="Коэффициент A (А4 к 1)"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -862,19 +862,19 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R0IN02FN4"
-      Value="0"
+      Name="R0IN21FN4"
+      Value="1"
       Type=1
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Коэффициент погрешности А4 к 2"
+      Description="Коэффициент A (А4 к 2)"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -884,19 +884,85 @@
       SinhrCycle_val=1
     }
     [TConst]{
-      Name="R0IN03FN4"
+      Name="R0IN12FN4"
       Value="0"
       Type=1
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Коэффициент погрешности А4 к 3"
+      Description="Коэффициент B (А4 к 1)"
       MinValue=""
       MaxValue=""
       Group=""
       Access=""
-      TypeInterface=0
-      InterfaceMB=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="R0IN22FN4"
+      Value="0"
+      Type=1
+      Numeration=0
+      MemoryType=1
+      ESPPZUType=0
+      Description="Коэффициент B (А4 к 2)"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="R0IN31FN4"
+      Value="1"
+      Type=1
+      Numeration=0
+      MemoryType=1
+      ESPPZUType=0
+      Description="Коэффициент A (А4 к 3)"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="R0IN32FN4"
+      Value="0"
+      Type=1
+      Numeration=0
+      MemoryType=1
+      ESPPZUType=0
+      Description="Коэффициент B (А4 к 3)"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=1
+      InterfaceMB="AKNP4"
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -949,7 +1015,7 @@
       PageCountX=2
       PageCountY=2
       Name="AbS4"
-      ObjectCount=259
+      ObjectCount=265
       ExpandCompile=1
       [TDrawSignal]{
         R="399,157,459,197"
@@ -1136,14 +1202,14 @@
         R="757,213,787,253"
         Number=276
         IsHold=FALSE
-        VisualNumber="54"
+        VisualNumber="53"
         ABBRV="REACT"
       }
       [TDrawSignal]{
         R="1123,196,1183,236"
         Number=569
         IsHold=FALSE
-        VisualNumber="73"
+        VisualNumber="71"
         SIGNAL_NAME="A0EE01LS4"
         KodTeprol="A0EE01LS4"
         Comment="Исправность АКНП канал 4 на БАЗ1"
@@ -1170,7 +1236,7 @@
         R="835,490,865,530"
         Number=3
         IsHold=FALSE
-        VisualNumber="116"
+        VisualNumber="119"
         SIGNAL_NAME="R0IN01FS4"
         KodTeprol="R0IN01FS4"
         Comment="Выход СНМ-11 Гц"
@@ -1267,7 +1333,7 @@
         R="742,273,802,313"
         Number=17
         IsHold=FALSE
-        VisualNumber="55"
+        VisualNumber="54"
         SIGNAL_NAME="R0VN04RS4"
         KodTeprol="R0VN04RS4"
         Comment="Реактивность канал 4"
@@ -1323,7 +1389,7 @@
         R="835,699,865,739"
         Number=8
         IsHold=FALSE
-        VisualNumber="118"
+        VisualNumber="121"
         SIGNAL_NAME="R0IN03FS4"
         KodTeprol="R0IN03FS4"
         Comment="Выход КНК53М Гц"
@@ -1518,7 +1584,7 @@
         R="1142,155,1172,175"
         Number=193
         IsHold=FALSE
-        VisualNumber="72"
+        VisualNumber="73"
         ABBRV="ANDN"
         [VVV_DrawConnector]{
           Number=0
@@ -1601,7 +1667,7 @@
         }
       }
       [VVV_Text]{
-        R="371,423,501,429"
+        R="371,423,513,429"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1610,7 +1676,7 @@
         R="756,117,816,157"
         Number=149
         IsHold=FALSE
-        VisualNumber="53"
+        VisualNumber="56"
         ABBRV="PERIOD"
         [VVV_DrawConnector]{
           Number=0
@@ -1657,7 +1723,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,985,410"
+        R="845,404,1001,410"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -1750,7 +1816,7 @@
         R="195,384,225,424"
         Number=235
         IsHold=FALSE
-        VisualNumber="18"
+        VisualNumber="19"
         SIGNAL_NAME="R0VN15RS4"
         KodTeprol="R0VN15RS4"
         Comment="Номер ведущей камеры канал 4"
@@ -1779,7 +1845,7 @@
         R="773,16,803,56"
         Number=154
         IsHold=FALSE
-        VisualNumber="56"
+        VisualNumber="55"
         CONST_NAME="R0UL01RSS"
       }
       [VVV_DrawConst]{
@@ -1958,7 +2024,7 @@
         Line2="АКНП канал 4 на БАЗ2"
       }
       [VVV_Text]{
-        R="741,317,798,323"
+        R="741,317,804,323"
         Number=137
         IsHold=FALSE
         Line1="нигде не используем"
@@ -1994,7 +2060,7 @@
         R="1116,258,1146,298"
         Number=31
         IsHold=FALSE
-        VisualNumber="71"
+        VisualNumber="72"
         SIGNAL_NAME="R0EE04LZ1"
         KodTeprol="R0EE04LZ1"
         Comment="Питание  АКНП4  отключить"
@@ -2062,7 +2128,7 @@
         R="217,16,247,56"
         Number=165
         IsHold=FALSE
-        VisualNumber="19"
+        VisualNumber="17"
         CONST_NAME="A0UX10RSS"
       }
       [VVV_DrawConst]{
@@ -2160,7 +2226,7 @@
         R="188,180,248,220"
         Number=7
         IsHold=FALSE
-        VisualNumber="17"
+        VisualNumber="18"
         ABBRV="OCHAM"
         [VVV_DrawConnector]{
           Number=0
@@ -2881,7 +2947,7 @@
         R="835,598,865,638"
         Number=11
         IsHold=FALSE
-        VisualNumber="117"
+        VisualNumber="120"
         SIGNAL_NAME="R0IN02FS4"
         KodTeprol="R0IN02FS4"
         Comment="Выход КНК15-1 Гц"
@@ -2945,7 +3011,7 @@
         }
       }
       [VVV_Text]{
-        R="1192,75,1227,80"
+        R="1192,75,1236,87"
         Number=156
         IsHold=FALSE
         Line1="исправность"
@@ -3020,6 +3086,194 @@
         IsHold=FALSE
         VisualNumber="50"
         CONST_NAME="R0UL02RSS"
+      }
+      [VVV_DrawConst]{
+        R="672,490,702,530"
+        Number=122
+        IsHold=FALSE
+        VisualNumber="107"
+        CONST_NAME="R0IN11FN4"
+      }
+      [VVV_DrawConst]{
+        R="672,598,702,638"
+        Number=128
+        IsHold=FALSE
+        VisualNumber="109"
+        CONST_NAME="R0IN21FN4"
+      }
+      [VVV_DrawConst]{
+        R="672,700,702,740"
+        Number=132
+        IsHold=FALSE
+        VisualNumber="111"
+        CONST_NAME="R0IN31FN4"
+      }
+      [TModule]{
+        R="749,490,779,530"
+        Number=186
+        IsHold=FALSE
+        VisualNumber="113"
+        ABBRV="POGRVH"
+      }
+      [TModule]{
+        R="749,700,779,740"
+        Number=195
+        IsHold=FALSE
+        VisualNumber="117"
+        ABBRV="POGRVH"
+      }
+      [TModule]{
+        R="749,598,779,638"
+        Number=199
+        IsHold=FALSE
+        VisualNumber="115"
+        ABBRV="POGRVH"
+      }
+      [TDrawSignal]{
+        R="749,550,779,590"
+        Number=208
+        IsHold=FALSE
+        VisualNumber="114"
+        SIGNAL_NAME="R0IN01FV4"
+        KodTeprol="R0IN01FV4"
+        Comment="Частота с ВЧС к 1"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K01VCHS"
+        DeviceName="VCHS01"
+        Line1="Частота с ВЧС к 1"
+        Line2=""
+      }
+      [TDrawSignal]{
+        R="749,654,779,694"
+        Number=213
+        IsHold=FALSE
+        VisualNumber="116"
+        SIGNAL_NAME="R0IN02FV4"
+        KodTeprol="R0IN02FV4"
+        Comment="Частота с ВЧС к 2"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K02VCHS"
+        DeviceName="VCHS01"
+        Line1="Частота с ВЧС к 2"
+        Line2=""
+      }
+      [TDrawSignal]{
+        R="749,758,779,798"
+        Number=226
+        IsHold=FALSE
+        VisualNumber="118"
+        SIGNAL_NAME="R0IN03FV4"
+        KodTeprol="R0IN03FV4"
+        Comment="Частота с ВЧС к 3"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=1
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=0
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=0
+        SinhrCycle_val=2
+        InterfaceMB=""
+        ChannalName="K01VCHS"
+        DeviceName="VCHS02"
+        Line1="Частота с ВЧС к 3"
+      }
+      [VVV_InterBlock]{
+        VisualNumber=""
+        [VVV_InterBlock]{
+          R="797,532,817,552"
+          Number=229
+          IsHold=FALSE
+        }
+        [VVV_InterBlock]{
+          R="99,4,119,24"
+          Number=230
+          IsHold=FALSE
+        }
+      }
+      [VVV_InterBlock]{
+        VisualNumber=""
+        [VVV_InterBlock]{
+          R="796,645,816,665"
+          Number=233
+          IsHold=FALSE
+        }
+        [VVV_InterBlock]{
+          R="99,64,119,84"
+          Number=234
+          IsHold=FALSE
+        }
+      }
+      [VVV_InterBlock]{
+        VisualNumber=""
+        [VVV_InterBlock]{
+          R="796,742,816,762"
+          Number=238
+          IsHold=FALSE
+        }
+        [VVV_InterBlock]{
+          R="100,115,120,135"
+          Number=241
+          IsHold=FALSE
+        }
+      }
+      [VVV_Text]{
+        R="683,857,833,863"
+        Number=247
+        IsHold=FALSE
+        Line1="Выравнивание частоты по линейной зависимости"
+      }
+      [VVV_DrawConst]{
+        R="672,550,702,590"
+        Number=248
+        IsHold=FALSE
+        VisualNumber="108"
+        CONST_NAME="R0IN12FN4"
+      }
+      [VVV_DrawConst]{
+        R="672,654,702,694"
+        Number=250
+        IsHold=FALSE
+        VisualNumber="110"
+        CONST_NAME="R0IN22FN4"
+      }
+      [VVV_DrawConst]{
+        R="672,759,702,799"
+        Number=253
+        IsHold=FALSE
+        VisualNumber="112"
+        CONST_NAME="R0IN32FN4"
       }
       [VVV_DrawConnector]{
         Number=184
@@ -5462,48 +5716,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="672,490,702,530"
-        Number=122
-        IsHold=FALSE
-        VisualNumber="107"
-        CONST_NAME="R0IN01FN4"
-      }
-      [VVV_DrawConst]{
-        R="672,598,702,638"
-        Number=128
-        IsHold=FALSE
-        VisualNumber="108"
-        CONST_NAME="R0IN02FN4"
-      }
-      [VVV_DrawConst]{
-        R="672,700,702,740"
-        Number=132
-        IsHold=FALSE
-        VisualNumber="109"
-        CONST_NAME="R0IN03FN4"
-      }
-      [TModule]{
-        R="749,490,779,530"
-        Number=186
-        IsHold=FALSE
-        VisualNumber="113"
-        ABBRV="POGRVH"
-      }
-      [TModule]{
-        R="749,700,779,740"
-        Number=195
-        IsHold=FALSE
-        VisualNumber="115"
-        ABBRV="POGRVH"
-      }
-      [TModule]{
-        R="749,598,779,638"
-        Number=199
-        IsHold=FALSE
-        VisualNumber="114"
-        ABBRV="POGRVH"
-      }
       [VVV_DrawConnector]{
         Number=200
         IsHold=FALSE
@@ -5512,12 +5724,12 @@
         p2="749:506"
         BNumber=122
         ENumber=186
-        Comment="Коэффициент погрешности А4 к 1 --> a - погрешность (0 - 1)"
+        Comment="Коэффициент A (А4 к 1) --> a - коэффициен А"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
           Number=122
-          ParameterName="R0IN01FN4"
+          ParameterName="R0IN11FN4"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -5538,7 +5750,7 @@
         Value=""
         [VVV_GCPoint]{
           Number=132
-          ParameterName="R0IN03FN4"
+          ParameterName="R0IN31FN4"
           Index=-1
         }
         [VVV_GCPoint]{
@@ -5554,66 +5766,17 @@
         p1="749:613"
         BNumber=128
         ENumber=199
-        Comment="Коэффициент погрешности А4 к 2 --> a - погрешность (0 - 1)"
+        Comment="Коэффициент A (А4 к 2) --> a - коэффициен А"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
           Number=128
-          ParameterName="R0IN02FN4"
+          ParameterName="R0IN21FN4"
           Index=-1
         }
         [VVV_GCPoint]{
           Number=199
           ParameterName="a"
-          Index=-1
-        }
-      }
-      [TDrawSignal]{
-        R="708,546,738,586"
-        Number=208
-        IsHold=FALSE
-        VisualNumber="110"
-        SIGNAL_NAME="R0IN01FV4"
-        KodTeprol="R0IN01FV4"
-        Comment="Частота с ВЧС к 1"
-        Type=1
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K01VCHS"
-        DeviceName="VCHS01"
-        Line1="Частота с ВЧС к 1"
-        Line2=""
-      }
-      [VVV_DrawConnector]{
-        Number=209
-        IsHold=FALSE
-        p0="738:567"
-        p1="760:567"
-        p2="760:530"
-        BNumber=208
-        ENumber=186
-        Comment="Частота с ВЧС к 1 --> x - входное значение частоты"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=208
-          ParameterName="R0IN01FV4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=186
-          ParameterName="x"
           Index=-1
         }
       }
@@ -5638,55 +5801,6 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="708,647,738,687"
-        Number=213
-        IsHold=FALSE
-        VisualNumber="111"
-        SIGNAL_NAME="R0IN02FV4"
-        KodTeprol="R0IN02FV4"
-        Comment="Частота с ВЧС к 2"
-        Type=1
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K02VCHS"
-        DeviceName="VCHS01"
-        Line1="Частота с ВЧС к 2"
-        Line2=""
-      }
-      [VVV_DrawConnector]{
-        Number=214
-        IsHold=FALSE
-        p0="738:666"
-        p1="761:666"
-        p2="761:638"
-        BNumber=213
-        ENumber=199
-        Comment="Частота с ВЧС к 2 --> x - входное значение частоты"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=213
-          ParameterName="R0IN02FV4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=199
-          ParameterName="x"
-          Index=-1
-        }
-      }
       [VVV_DrawConnector]{
         Number=215
         IsHold=FALSE
@@ -5705,54 +5819,6 @@
         [VVV_GCPoint]{
           Number=11
           ParameterName="R0IN02FS4"
-          Index=-1
-        }
-      }
-      [TDrawSignal]{
-        R="708,757,738,797"
-        Number=226
-        IsHold=FALSE
-        VisualNumber="112"
-        SIGNAL_NAME="R0IN03FV4"
-        KodTeprol="R0IN03FV4"
-        Comment="Частота с ВЧС к 3"
-        Type=1
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=1
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=0
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=0
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName="K01VCHS"
-        DeviceName="VCHS02"
-        Line1="Частота с ВЧС к 3"
-      }
-      [VVV_DrawConnector]{
-        Number=227
-        IsHold=FALSE
-        p0="738:777"
-        p1="757:777"
-        p2="757:740"
-        BNumber=226
-        ENumber=195
-        Comment="Частота с ВЧС к 3 --> x - входное значение частоты"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=226
-          ParameterName="R0IN03FV4"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=195
-          ParameterName="x"
           Index=-1
         }
       }
@@ -5775,19 +5841,6 @@
           Number=8
           ParameterName="R0IN03FS4"
           Index=-1
-        }
-      }
-      [VVV_InterBlock]{
-        VisualNumber=""
-        [VVV_InterBlock]{
-          R="797,532,817,552"
-          Number=229
-          IsHold=FALSE
-        }
-        [VVV_InterBlock]{
-          R="99,4,119,24"
-          Number=230
-          IsHold=FALSE
         }
       }
       [VVV_DrawConnector]{
@@ -5832,19 +5885,6 @@
           Index=-1
         }
       }
-      [VVV_InterBlock]{
-        VisualNumber=""
-        [VVV_InterBlock]{
-          R="796,645,816,665"
-          Number=233
-          IsHold=FALSE
-        }
-        [VVV_InterBlock]{
-          R="99,64,119,84"
-          Number=234
-          IsHold=FALSE
-        }
-      }
       [VVV_DrawConnector]{
         Number=236
         IsHold=FALSE
@@ -5885,19 +5925,6 @@
           Number=125
           ParameterName="x2"
           Index=-1
-        }
-      }
-      [VVV_InterBlock]{
-        VisualNumber=""
-        [VVV_InterBlock]{
-          R="796,742,816,762"
-          Number=238
-          IsHold=FALSE
-        }
-        [VVV_InterBlock]{
-          R="100,115,120,135"
-          Number=241
-          IsHold=FALSE
         }
       }
       [VVV_DrawConnector]{
@@ -5942,13 +5969,139 @@
           Index=-1
         }
       }
-      [VVV_Text]{
-        R="669,825,879,831"
-        Number=247
+      [VVV_DrawConnector]{
+        Number=209
         IsHold=FALSE
-        Line1="Внесение коэффициента погрешности в частоту полученную с каналов ВЧС"
+        p0="764:550"
+        p1="764:530"
+        BNumber=208
+        ENumber=186
+        Comment="Частота с ВЧС к 1 --> x - входное значение частоты"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=208
+          ParameterName="R0IN01FV4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=186
+          ParameterName="x"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=249
+        IsHold=FALSE
+        p0="702:571"
+        p1="727:571"
+        p2="727:516"
+        p3="749:516"
+        BNumber=248
+        ENumber=186
+        Comment="Коэффициент B (А4 к 1) --> b - коэффициен B"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=248
+          ParameterName="R0IN12FN4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=186
+          ParameterName="b"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=214
+        IsHold=FALSE
+        p0="762:654"
+        p1="762:638"
+        BNumber=213
+        ENumber=199
+        Comment="Частота с ВЧС к 2 --> x - входное значение частоты"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=213
+          ParameterName="R0IN02FV4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=199
+          ParameterName="x"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=252
+        IsHold=FALSE
+        p0="702:675"
+        p1="725:675"
+        p2="725:626"
+        p3="749:626"
+        BNumber=250
+        ENumber=199
+        Comment="Коэффициент B (А4 к 2) --> b - коэффициен B"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=250
+          ParameterName="R0IN22FN4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=199
+          ParameterName="b"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=227
+        IsHold=FALSE
+        p0="765:758"
+        p1="765:740"
+        BNumber=226
+        ENumber=195
+        Comment="Частота с ВЧС к 3 --> x - входное значение частоты"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=226
+          ParameterName="R0IN03FV4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=195
+          ParameterName="x"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=254
+        IsHold=FALSE
+        p0="702:778"
+        p1="728:778"
+        p2="728:730"
+        p3="749:730"
+        BNumber=253
+        ENumber=195
+        Comment="Коэффициент B (А4 к 3) --> b - коэффициен B"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=253
+          ParameterName="R0IN32FN4"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=195
+          ParameterName="b"
+          Index=-1
+        }
       }
     }
   }
 }
-5711812
+5865950

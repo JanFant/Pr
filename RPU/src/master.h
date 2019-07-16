@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 472
-static char BUFFER[472];
+#define SIZE_BUFFER 497
+static char BUFFER[497];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.31\0", 5432, "192.168.10.131\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -253,42 +253,52 @@ int nomer = 1;
 #define idfEM_R0UH22RSS	 119	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 #define fEM_R0UH23RSS	 BUFFER[404]	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
 #define idfEM_R0UH23RSS	 120	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-#define fEM_R0IN01NRP	 BUFFER[409]	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
-#define idfEM_R0IN01NRP	 121	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
-#define fEM_R0IN02NRP	 BUFFER[414]	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
-#define idfEM_R0IN02NRP	 122	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
-#define fEM_R0IN03NRP	 BUFFER[419]	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
-#define idfEM_R0IN03NRP	 123	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
-#define fEM_R0IN06NRP	 BUFFER[424]	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
-#define idfEM_R0IN06NRP	 124	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
-#define fEM_R0IN07NRP	 BUFFER[429]	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
-#define idfEM_R0IN07NRP	 125	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
-#define bFirstEnterFlag	 BUFFER[434]	//(bFirstEnterFlag) 
-#define idbFirstEnterFlag	 126	//(bFirstEnterFlag) 
-#define internal1_m138_sttlf	 BUFFER[436]	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m138_sttlf	 127	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m18_Nk	 BUFFER[439]	//(internal1_m18_Nk) Nk - ведущая камера
-#define idinternal1_m18_Nk	 128	//(internal1_m18_Nk) Nk - ведущая камера
-#define internal1_m70_tx	 BUFFER[442]	//(internal1_m70_tx) tx - время накопленное сек
-#define idinternal1_m70_tx	 129	//(internal1_m70_tx) tx - время накопленное сек
-#define internal1_m70_y0	 BUFFER[447]	//(internal1_m70_y0) y0
-#define idinternal1_m70_y0	 130	//(internal1_m70_y0) y0
-#define internal1_m78_tx	 BUFFER[448]	//(internal1_m78_tx) tx - время накопленное сек
-#define idinternal1_m78_tx	 131	//(internal1_m78_tx) tx - время накопленное сек
-#define internal1_m78_y0	 BUFFER[453]	//(internal1_m78_y0) y0
-#define idinternal1_m78_y0	 132	//(internal1_m78_y0) y0
-#define internal1_m86_y0	 BUFFER[454]	//(internal1_m86_y0) y0
-#define idinternal1_m86_y0	 133	//(internal1_m86_y0) y0
-#define internal1_m84_y0	 BUFFER[459]	//(internal1_m84_y0) y0
-#define idinternal1_m84_y0	 134	//(internal1_m84_y0) y0
-#define internal1_m100_y1	 BUFFER[464]	//(internal1_m100_y1) y1 - внутренний параметр
-#define idinternal1_m100_y1	 135	//(internal1_m100_y1) y1 - внутренний параметр
-#define internal1_m115_y1	 BUFFER[466]	//(internal1_m115_y1) y1 - внутренний параметр
-#define idinternal1_m115_y1	 136	//(internal1_m115_y1) y1 - внутренний параметр
-#define internal1_m98_y1	 BUFFER[468]	//(internal1_m98_y1) y1 - внутренний параметр
-#define idinternal1_m98_y1	 137	//(internal1_m98_y1) y1 - внутренний параметр
-#define internal1_m112_y1	 BUFFER[470]	//(internal1_m112_y1) y1 - внутренний параметр
-#define idinternal1_m112_y1	 138	//(internal1_m112_y1) y1 - внутренний параметр
+#define fEM_R0IN11NRP	 BUFFER[409]	//(R0IN11NRP) Коэффициент A (РПУ к 1)
+#define idfEM_R0IN11NRP	 121	//(R0IN11NRP) Коэффициент A (РПУ к 1)
+#define fEM_R0IN12NRP	 BUFFER[414]	//(R0IN12NRP) Коэффициент B (РПУ к 1)
+#define idfEM_R0IN12NRP	 122	//(R0IN12NRP) Коэффициент B (РПУ к 1)
+#define fEM_R0IN21NRP	 BUFFER[419]	//(R0IN21NRP) Коэффициент A (РПУ к 2)
+#define idfEM_R0IN21NRP	 123	//(R0IN21NRP) Коэффициент A (РПУ к 2)
+#define fEM_R0IN22NRP	 BUFFER[424]	//(R0IN22NRP) Коэффициент B (РПУ к 2)
+#define idfEM_R0IN22NRP	 124	//(R0IN22NRP) Коэффициент B (РПУ к 2)
+#define fEM_R0IN31NRP	 BUFFER[429]	//(R0IN31NRP) Коэффициент A (РПУ к 3)
+#define idfEM_R0IN31NRP	 125	//(R0IN31NRP) Коэффициент A (РПУ к 3)
+#define fEM_R0IN32NRP	 BUFFER[434]	//(R0IN32NRP) Коэффициент B (РПУ к 3)
+#define idfEM_R0IN32NRP	 126	//(R0IN32NRP) Коэффициент B (РПУ к 3)
+#define fEM_R0IN61NRP	 BUFFER[439]	//(R0IN61NRP) Коэффициент A (РПУ к 6)
+#define idfEM_R0IN61NRP	 127	//(R0IN61NRP) Коэффициент A (РПУ к 6)
+#define fEM_R0IN62NRP	 BUFFER[444]	//(R0IN62NRP) Коэффициент B (РПУ к 6)
+#define idfEM_R0IN62NRP	 128	//(R0IN62NRP) Коэффициент B (РПУ к 6)
+#define fEM_R0IN71NRP	 BUFFER[449]	//(R0IN71NRP) Коэффициент A (РПУ к 7)
+#define idfEM_R0IN71NRP	 129	//(R0IN71NRP) Коэффициент A (РПУ к 7)
+#define fEM_R0IN72NRP	 BUFFER[454]	//(R0IN72NRP) Коэффициент B (РПУ к 7)
+#define idfEM_R0IN72NRP	 130	//(R0IN72NRP) Коэффициент B (РПУ к 7)
+#define bFirstEnterFlag	 BUFFER[459]	//(bFirstEnterFlag) 
+#define idbFirstEnterFlag	 131	//(bFirstEnterFlag) 
+#define internal1_m138_sttlf	 BUFFER[461]	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+#define idinternal1_m138_sttlf	 132	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+#define internal1_m18_Nk	 BUFFER[464]	//(internal1_m18_Nk) Nk - ведущая камера
+#define idinternal1_m18_Nk	 133	//(internal1_m18_Nk) Nk - ведущая камера
+#define internal1_m70_tx	 BUFFER[467]	//(internal1_m70_tx) tx - время накопленное сек
+#define idinternal1_m70_tx	 134	//(internal1_m70_tx) tx - время накопленное сек
+#define internal1_m70_y0	 BUFFER[472]	//(internal1_m70_y0) y0
+#define idinternal1_m70_y0	 135	//(internal1_m70_y0) y0
+#define internal1_m78_tx	 BUFFER[473]	//(internal1_m78_tx) tx - время накопленное сек
+#define idinternal1_m78_tx	 136	//(internal1_m78_tx) tx - время накопленное сек
+#define internal1_m78_y0	 BUFFER[478]	//(internal1_m78_y0) y0
+#define idinternal1_m78_y0	 137	//(internal1_m78_y0) y0
+#define internal1_m86_y0	 BUFFER[479]	//(internal1_m86_y0) y0
+#define idinternal1_m86_y0	 138	//(internal1_m86_y0) y0
+#define internal1_m84_y0	 BUFFER[484]	//(internal1_m84_y0) y0
+#define idinternal1_m84_y0	 139	//(internal1_m84_y0) y0
+#define internal1_m100_y1	 BUFFER[489]	//(internal1_m100_y1) y1 - внутренний параметр
+#define idinternal1_m100_y1	 140	//(internal1_m100_y1) y1 - внутренний параметр
+#define internal1_m115_y1	 BUFFER[491]	//(internal1_m115_y1) y1 - внутренний параметр
+#define idinternal1_m115_y1	 141	//(internal1_m115_y1) y1 - внутренний параметр
+#define internal1_m98_y1	 BUFFER[493]	//(internal1_m98_y1) y1 - внутренний параметр
+#define idinternal1_m98_y1	 142	//(internal1_m98_y1) y1 - внутренний параметр
+#define internal1_m111_y1	 BUFFER[495]	//(internal1_m111_y1) y1 - внутренний параметр
+#define idinternal1_m111_y1	 143	//(internal1_m111_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &R0DE39LRP},	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
@@ -411,24 +421,29 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 118	,8	,1	, &fEM_R0UH21RSS},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
 	{ 119	,8	,1	, &fEM_R0UH22RSS},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 	{ 120	,8	,1	, &fEM_R0UH23RSS},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-	{ 121	,8	,1	, &fEM_R0IN01NRP},	//(R0IN01NRP) Коэффициент погрешности РПУ к 1
-	{ 122	,8	,1	, &fEM_R0IN02NRP},	//(R0IN02NRP) Коэффициент погрешности РПУ к 2
-	{ 123	,8	,1	, &fEM_R0IN03NRP},	//(R0IN03NRP) Коэффициент погрешности РПУ к 3
-	{ 124	,8	,1	, &fEM_R0IN06NRP},	//(R0IN06NRP) Коэффициент погрешности РПУ к 6
-	{ 125	,8	,1	, &fEM_R0IN07NRP},	//(R0IN07NRP) Коэффициент погрешности РПУ к 7
-	{ 126	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 127	,3	,1	, &internal1_m138_sttlf},	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-	{ 128	,3	,1	, &internal1_m18_Nk},	//(internal1_m18_Nk) Nk - ведущая камера
-	{ 129	,8	,1	, &internal1_m70_tx},	//(internal1_m70_tx) tx - время накопленное сек
-	{ 130	,18	,1	, &internal1_m70_y0},	//(internal1_m70_y0) y0
-	{ 131	,8	,1	, &internal1_m78_tx},	//(internal1_m78_tx) tx - время накопленное сек
-	{ 132	,18	,1	, &internal1_m78_y0},	//(internal1_m78_y0) y0
-	{ 133	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
-	{ 134	,8	,1	, &internal1_m84_y0},	//(internal1_m84_y0) y0
-	{ 135	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
-	{ 136	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
-	{ 137	,1	,1	, &internal1_m98_y1},	//(internal1_m98_y1) y1 - внутренний параметр
-	{ 138	,1	,1	, &internal1_m112_y1},	//(internal1_m112_y1) y1 - внутренний параметр
+	{ 121	,8	,1	, &fEM_R0IN11NRP},	//(R0IN11NRP) Коэффициент A (РПУ к 1)
+	{ 122	,8	,1	, &fEM_R0IN12NRP},	//(R0IN12NRP) Коэффициент B (РПУ к 1)
+	{ 123	,8	,1	, &fEM_R0IN21NRP},	//(R0IN21NRP) Коэффициент A (РПУ к 2)
+	{ 124	,8	,1	, &fEM_R0IN22NRP},	//(R0IN22NRP) Коэффициент B (РПУ к 2)
+	{ 125	,8	,1	, &fEM_R0IN31NRP},	//(R0IN31NRP) Коэффициент A (РПУ к 3)
+	{ 126	,8	,1	, &fEM_R0IN32NRP},	//(R0IN32NRP) Коэффициент B (РПУ к 3)
+	{ 127	,8	,1	, &fEM_R0IN61NRP},	//(R0IN61NRP) Коэффициент A (РПУ к 6)
+	{ 128	,8	,1	, &fEM_R0IN62NRP},	//(R0IN62NRP) Коэффициент B (РПУ к 6)
+	{ 129	,8	,1	, &fEM_R0IN71NRP},	//(R0IN71NRP) Коэффициент A (РПУ к 7)
+	{ 130	,8	,1	, &fEM_R0IN72NRP},	//(R0IN72NRP) Коэффициент B (РПУ к 7)
+	{ 131	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
+	{ 132	,3	,1	, &internal1_m138_sttlf},	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
+	{ 133	,3	,1	, &internal1_m18_Nk},	//(internal1_m18_Nk) Nk - ведущая камера
+	{ 134	,8	,1	, &internal1_m70_tx},	//(internal1_m70_tx) tx - время накопленное сек
+	{ 135	,18	,1	, &internal1_m70_y0},	//(internal1_m70_y0) y0
+	{ 136	,8	,1	, &internal1_m78_tx},	//(internal1_m78_tx) tx - время накопленное сек
+	{ 137	,18	,1	, &internal1_m78_y0},	//(internal1_m78_y0) y0
+	{ 138	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
+	{ 139	,8	,1	, &internal1_m84_y0},	//(internal1_m84_y0) y0
+	{ 140	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
+	{ 141	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
+	{ 142	,1	,1	, &internal1_m98_y1},	//(internal1_m98_y1) y1 - внутренний параметр
+	{ 143	,1	,1	, &internal1_m111_y1},	//(internal1_m111_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="rpu.bin\0";   // Имя файла для сохранения констант
@@ -464,11 +479,16 @@ static VarSaveCtrl saveVariables[]={      // Id переменных для со
 {118,"fEM_R0UH21RSS\0"}, 
 {119,"fEM_R0UH22RSS\0"}, 
 {120,"fEM_R0UH23RSS\0"}, 
-{121,"fEM_R0IN01NRP\0"}, 
-{122,"fEM_R0IN02NRP\0"}, 
-{123,"fEM_R0IN03NRP\0"}, 
-{124,"fEM_R0IN06NRP\0"}, 
-{125,"fEM_R0IN07NRP\0"}, 
+{121,"fEM_R0IN11NRP\0"}, 
+{122,"fEM_R0IN12NRP\0"}, 
+{123,"fEM_R0IN21NRP\0"}, 
+{124,"fEM_R0IN22NRP\0"}, 
+{125,"fEM_R0IN31NRP\0"}, 
+{126,"fEM_R0IN32NRP\0"}, 
+{127,"fEM_R0IN61NRP\0"}, 
+{128,"fEM_R0IN62NRP\0"}, 
+{129,"fEM_R0IN71NRP\0"}, 
+{130,"fEM_R0IN72NRP\0"}, 
 {0,NULL}
 };
 #pragma pack(push,1)
@@ -547,6 +567,16 @@ static ModbusRegister hr_RPU[]={  //
 	{&fEM_R0UH21RSS,8,56},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
 	{&fEM_R0UH22RSS,8,58},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
 	{&fEM_R0UH23RSS,8,60},	//( - , RPU) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{&fEM_R0IN11NRP,8,62},	//( - , RPU) Коэффициент A (РПУ к 1)
+	{&fEM_R0IN12NRP,8,64},	//( - , RPU) Коэффициент B (РПУ к 1)
+	{&fEM_R0IN21NRP,8,66},	//( - , RPU) Коэффициент A (РПУ к 2)
+	{&fEM_R0IN22NRP,8,68},	//( - , RPU) Коэффициент B (РПУ к 2)
+	{&fEM_R0IN31NRP,8,70},	//( - , RPU) Коэффициент A (РПУ к 3)
+	{&fEM_R0IN32NRP,8,72},	//( - , RPU) Коэффициент B (РПУ к 3)
+	{&fEM_R0IN61NRP,8,74},	//( - , RPU) Коэффициент A (РПУ к 6)
+	{&fEM_R0IN62NRP,8,76},	//( - , RPU) Коэффициент B (РПУ к 6)
+	{&fEM_R0IN71NRP,8,78},	//( - , RPU) Коэффициент A (РПУ к 7)
+	{&fEM_R0IN72NRP,8,80},	//( - , RPU) Коэффициент B (РПУ к 7)
 	{NULL,0,0},
 };
 #pragma pop
@@ -800,11 +830,16 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsFloat(118,4000);
 	setAsFloat(119,100000);
 	setAsFloat(120,1000000);
-	setAsFloat(121,0);
+	setAsFloat(121,1);
 	setAsFloat(122,0);
-	setAsFloat(123,0);
+	setAsFloat(123,1);
 	setAsFloat(124,0);
-	setAsFloat(125,0);
+	setAsFloat(125,1);
+	setAsFloat(126,0);
+	setAsFloat(127,1);
+	setAsFloat(128,0);
+	setAsFloat(129,1);
+	setAsFloat(130,0);
 }
 
 // Вставка к VCHS
@@ -871,7 +906,7 @@ sschar bRM_1_ = {1,0}; /* type - тип камеры СНМ-11 1- для АЗ1, 
 ssfloat fRM_2_0 = {2.0,0}; /* Kpr1 - коэфф. преобразования частота->нейтр/с СНМ-11 */ 
 ssint iRM_6_ = {6,0}; /* n - размерность массива значений */ 
 
-uspaint8 SpaEEPROMBuf[175];
+uspaint8 SpaEEPROMBuf[200];
 
 /* Определение переменных */
 ssfloat var1;
@@ -948,11 +983,11 @@ psbool  array_m156_x_1[6] = {&var14,&var15,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0D
 psint  array_m138_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
 
 /* Объявление структур */
-_S_pogrvh  S_pogrvh_179_1 = {&R0IN07VRP,&fEM_R0IN07NRP,&var1};
-_S_pogrvh  S_pogrvh_172_1 = {&R0IN06VRP,&fEM_R0IN06NRP,&var2};
-_S_pogrvh  S_pogrvh_171_1 = {&R0IN03VRP,&fEM_R0IN03NRP,&var3};
-_S_pogrvh  S_pogrvh_170_1 = {&R0IN02VRP,&fEM_R0IN02NRP,&var4};
-_S_pogrvh  S_pogrvh_169_1 = {&R0IN01VRP,&fEM_R0IN01NRP,&var5};
+_S_pogrvh  S_pogrvh_183_1 = {&R0IN07VRP,&fEM_R0IN71NRP,&fEM_R0IN72NRP,&var1};
+_S_pogrvh  S_pogrvh_175_1 = {&R0IN06VRP,&fEM_R0IN61NRP,&fEM_R0IN62NRP,&var2};
+_S_pogrvh  S_pogrvh_173_1 = {&R0IN03VRP,&fEM_R0IN31NRP,&fEM_R0IN32NRP,&var3};
+_S_pogrvh  S_pogrvh_171_1 = {&R0IN02VRP,&fEM_R0IN21NRP,&fEM_R0IN22NRP,&var4};
+_S_pogrvh  S_pogrvh_169_1 = {&R0IN01VRP,&fEM_R0IN11NRP,&fEM_R0IN12NRP,&var5};
 _S_ml  S_ml_57_1 = {&R0IN07RIP,&var1,&R0IS01FI0,&var6};
 _S_ml  S_ml_49_1 = {&R0IN06RIP,&var2,&R0IS01FI0,&var7};
 _S_ml  S_ml_8_1 = {&R0IN03RIP,&var3,&R0IS01FI0,&var8};
@@ -994,7 +1029,7 @@ _S_drg  S_drg_100_1 = {&var46,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var
 _S_drg  S_drg_115_1 = {&var46,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var50,&internal1_m115_y1};
 _S_geterr  S_geterr_90_1 = {&var46,&dRM_0_,&iRM_0_,&bRM_0_,&var51,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
 _S_drg  S_drg_98_1 = {&var47,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var52,&internal1_m98_y1};
-_S_drg  S_drg_112_1 = {&var47,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var53,&internal1_m112_y1};
+_S_drg  S_drg_111_1 = {&var47,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var53,&internal1_m111_y1};
 _S_noto  S_noto_75_1 = {&var13,&var54};
 _S_bol  S_bol_61_1 = {&var6,&fEM_R0UR01RRP,&var55};
 _S_bol  S_bol_50_1 = {&var7,&fEM_R0UR01RRP,&var56};
@@ -1081,7 +1116,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and2(&S_and2_140_1);
   or2(&S_or2_158_1);
   or2(&S_or2_151_1);
-  drg(&S_drg_112_1);
+  drg(&S_drg_111_1);
   drg(&S_drg_98_1);
   geterr(&S_geterr_90_1);
   drg(&S_drg_115_1);
@@ -1102,10 +1137,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or3(&S_or3_155_1);
   noto(&S_noto_157_1);
   pogrvh(&S_pogrvh_169_1);
-  pogrvh(&S_pogrvh_170_1);
   pogrvh(&S_pogrvh_171_1);
-  pogrvh(&S_pogrvh_172_1);
-  pogrvh(&S_pogrvh_179_1);
+  pogrvh(&S_pogrvh_173_1);
+  pogrvh(&S_pogrvh_175_1);
+  pogrvh(&S_pogrvh_183_1);
   noto(&S_noto_67_1);
   or2(&S_or2_123_1);
   ml(&S_ml_6_1);
