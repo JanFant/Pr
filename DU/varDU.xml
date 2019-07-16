@@ -90,9 +90,9 @@
 <var  name="A3MC01RP1" description="( - , DU) Заданная координата положения ИС1 мм" format="8"></var>
 <var  name="B3MC01RP1" description="( - , DU) Заданная координата положения ИС2 мм" format="8"></var>
 <var  name="B8MC01RP2" description="( - , DU) Заданная координата АЗ2 мм" format="8"></var>
-<var  name="A9IS21LDU" description="(vds32:02 - K24VDSR, - ) Приход на НУ НИ ДС1" format="1"></var>
+<var  name="A9IS21LDU" description="(vds32:02 - K24VDSR, DU) Приход на НУ НИ ДС1" format="1"></var>
 <var  name="B9IS11LDU" description="(vds32:02 - K25VDSR, DU) Приход на ВУ НИ ДС2" format="1"></var>
-<var  name="B9IS21LDU" description="(vds32:02 - K26VDSR, - ) Приход на НУ НИ ДС2" format="1"></var>
+<var  name="B9IS21LDU" description="(vds32:02 - K26VDSR, DU) Приход на НУ НИ ДС2" format="1"></var>
 <var  name="B9AD10LDU" description="(fds16:0b - K16FDSR, - ) Открыть клапан Подъем НИ ДС2" format="1"></var>
 <var  name="A9AD10LDU" description="(fds16:0b - K15FDSR, - ) Открыть клапан Подъем НИ ДС1" format="1"></var>
 <var  name="A9AZ03LDU" description="( - , DU) Несанкционированное перемещение НИ ДС1" format="1"></var>
