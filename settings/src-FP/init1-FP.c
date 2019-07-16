@@ -13,7 +13,10 @@
             while (initAllDrivers(drivers)) {
                 time_start(&tv1);
                 readAllModbus();
-                reciveVariables();
+                if (reciveVariables()!=0) {
+			makeStepModbusDevices();
+			continue;	
+		}
                 writeAllModbus();
                 takt = takt_time_cycle(tvStakt);
                 time_start(&tvStakt);
