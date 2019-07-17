@@ -1,12 +1,4 @@
 <vars>
-<var  name="B4IS10LDU" description="(vds32:02 - K04VDSR, DU) Клапан ПОДЪЕМ НИ2 открыт (обесточен)" format="1"></var>
-<var  name="R6IS31LDU" description="(vds32:05 - K25VDSR, - ) контроль задней двери ШС" format="1"></var>
-<var  name="R6IS32LDU" description="(vds32:05 - K26VDSR, - ) контроль передней двери ШС" format="1"></var>
-<var  name="R6IS42LDU" description="(vds32:05 - K28VDSR, - ) контроль передней двери ШЭП" format="1"></var>
-<var  name="R6IS41LDU" description="(vds32:05 - K27VDSR, - ) контроль задней двери ШЭП" format="1"></var>
-<var  name="R6IS52LDU" description="(vds32:05 - K30VDSR, - ) контроль передней двери ШПУ" format="1"></var>
-<var  name="R6IS51LDU" description="(vds32:05 - K29VDSR, - ) контроль задней двери ШПУ" format="1"></var>
-<var  name="R3IS11LDU" description="(vds32:04 - K17VDSR, DU) Приход на ВУ гомогенных дверей" format="1"></var>
 <var  name="R3IS21LDU" description="(vds32:04 - K18VDSR, DU) Приход на НУ гомогенных дверей" format="1"></var>
 <var  name="R0AB03LDU" description="( - , DU) Нарушение времени срабатывания АЗ от ВУ ИС" format="1"></var>
 <var  name="R0AB05LDU" description="( - , DU) Нарушение времени срабатывания АЗ от НУП ИС" format="1"></var>
@@ -21,14 +13,15 @@
 <var  name="C2MD31LP1" description="( - , DU) Кнопка СБРОС РБ" format="1"></var>
 <var  name="B6VS01IDU" description="( - , DU) Готовность к управлению БЗ2" format="3"></var>
 <var  name="R2AD20LDU" description="(fds16:0a - K10FDSR, - ) Поднять МДЗ2" format="1"></var>
-<var  name="B3MD11LP1" description="( - , DU) Кнопка ПУСК ИС2" format="1"></var>
-<var  name="R0VL01RDU" description="( - , DU) Индикация Время задержки" format="8"></var>
-<var  name="R0VZ71LZ2" description="(vds32:03 - K22VDSR, - ) Обобщенный сигнал АЗ 2 канала" format="1"></var>
-<var  name="R0VZ71LZ1" description="(vds32:02 - K22VDSR, - ) Обобщенный сигнал АЗ 1канала" format="1"></var>
-<var  name="R0VZ71LDU" description="( - , DU) Обобщенный сигнал АЗ" format="1"></var>
-<var  name="A2IS33LDU" description="(vds32:03 - K03VDSR, DU) Клапан ПОДЪЕМ РБ1 открыт (обесточен)" format="1"></var>
-<var  name="A3IS31LDU" description="(vds32:03 - K05VDSR, DU) Клапан СПУСК ИС1 открыт (обесточен)" format="1"></var>
-<var  name="A3IS33LDU" description="(vds32:03 - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС1 открыт (обесточен)" format="1"></var>
+<var  name="R2AD10LDU" description="(fds16:0a - K09FDSR, - ) Опустить МДЗ2" format="1"></var>
+<var  name="B8VS01IDU" description="( - , DU) Готовность к управлению АЗ2" format="3"></var>
+<var  name="A8VS01IDU" description="( - , DU) Готовность к управлению ДС2" format="3"></var>
+<var  name="A1IE03LDU" description="(vds32:05 - K03VDSR, - ) Движение ББ1 вперед (от БУШД)" format="1"></var>
+<var  name="A1IE04LDU" description="(vds32:05 - K04VDSR, - ) Движение ББ1 назад (от БУШД)" format="1"></var>
+<var  name="A2IE03LDU" description="(vds32:05 - K07VDSR, - ) Движение РБ1 вперед (от БУШД)" format="1"></var>
+<var  name="A2IE04LDU" description="(vds32:05 - K08VDSR, - ) Движение РБ1 назад (от БУШД)" format="1"></var>
+<var  name="A3IE03LDU" description="(vds32:05 - K11VDSR, - ) Движение ИС1 вперед (от БУШД)" format="1"></var>
+<var  name="A3IE04LDU" description="(vds32:05 - K12VDSR, - ) Движение ИС1 назад (от БУШД)" format="1"></var>
 <var  name="A3IS35LDU" description="(vds32:03 - K01VDSR, DU) Клапан ВПИС1 открыт (обесточен)" format="1"></var>
 <var  name="A4IS10LDU" description="(vds32:03 - K04VDSR, DU) Клапан Подъём НИ1 открыт (обесточен)" format="1"></var>
 <var  name="A1VN71LZ1" description="(vds32:02 - K21VDSR, DU) Блокировка автоматического подъёма ББ" format="1"></var>
@@ -44,16 +37,14 @@
 <var  name="B3IS31LDU" description="(vds32:02 - K05VDSR, DU) Клапан СПУСК ИС2 открыт (обесточен)" format="1"></var>
 <var  name="B3IS33LDU" description="(vds32:02 - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС2 открыт (обесточен)" format="1"></var>
 <var  name="B3IS35LDU" description="(vds32:02 - K01VDSR, DU) Клапан ВПИС2 открыт (обесточен)" format="1"></var>
-<var  name="R0AB09LDU" description="( - , DU) Ошибка в заданной координате ББ1" format="1"></var>
-<var  name="R0AB10LDU" description="( - , DU) Ошибка в заданной координате ББ2" format="1"></var>
-<var  name="R0AB11LDU" description="( - , DU) Ошибка в заданной координате  ИС1" format="1"></var>
-<var  name="R0AB12LDU" description="( - , DU) Ошибка в заданной координате  ИС2" format="1"></var>
-<var  name="R0AB13LDU" description="( - , DU) Ошибка в заданной координате  АЗ2" format="1"></var>
-<var  name="A4ZAV" description="( - , DU) " format="1"></var>
-<var  name="A6ZAV" description="( - , DU) " format="1"></var>
-<var  name="R2ZAV" description="( - , DU) " format="1"></var>
-<var  name="A5ZAV" description="( - , DU) " format="1"></var>
-<var  name="B8ZAV" description="( - , DU) " format="1"></var>
+<var  name="B4IS10LDU" description="(vds32:02 - K04VDSR, DU) Клапан ПОДЪЕМ НИ2 открыт (обесточен)" format="1"></var>
+<var  name="R6IS31LDU" description="(vds32:05 - K25VDSR, - ) контроль задней двери ШС" format="1"></var>
+<var  name="R6IS32LDU" description="(vds32:05 - K26VDSR, - ) контроль передней двери ШС" format="1"></var>
+<var  name="R6IS42LDU" description="(vds32:05 - K28VDSR, - ) контроль передней двери ШЭП" format="1"></var>
+<var  name="R6IS41LDU" description="(vds32:05 - K27VDSR, - ) контроль задней двери ШЭП" format="1"></var>
+<var  name="R6IS52LDU" description="(vds32:05 - K30VDSR, - ) контроль передней двери ШПУ" format="1"></var>
+<var  name="R6IS51LDU" description="(vds32:05 - K29VDSR, - ) контроль задней двери ШПУ" format="1"></var>
+<var  name="R3IS11LDU" description="(vds32:04 - K17VDSR, DU) Приход на ВУ гомогенных дверей" format="1"></var>
 <var  name="A2ZAV" description="( - , DU) Завершение РБ1,2" format="1"></var>
 <var  name="A8ZAV" description="( - , DU) " format="1"></var>
 <var  name="A9ZAV" description="( - , DU) Завершение НИ ДС1(2)" format="1"></var>
@@ -67,15 +58,16 @@
 <var  name="A1ZAV" description="( - , DU) " format="1"></var>
 <var  name="A3ZAV" description="( - , DU) " format="1"></var>
 <var  name="B1AB19LDU" description="( - , DU) Блокировка автоматического подъёма ББ2 -превышение нейтронного потока" format="1"></var>
-<var  name="R2AD10LDU" description="(fds16:0a - K09FDSR, - ) Опустить МДЗ2" format="1"></var>
-<var  name="B8VS01IDU" description="( - , DU) Готовность к управлению АЗ2" format="3"></var>
-<var  name="A8VS01IDU" description="( - , DU) Готовность к управлению ДС2" format="3"></var>
-<var  name="A1IE03LDU" description="(vds32:05 - K03VDSR, - ) Движение ББ1 вперед (от БУШД)" format="1"></var>
-<var  name="A1IE04LDU" description="(vds32:05 - K04VDSR, - ) Движение ББ1 назад (от БУШД)" format="1"></var>
-<var  name="A2IE03LDU" description="(vds32:05 - K07VDSR, - ) Движение РБ1 вперед (от БУШД)" format="1"></var>
-<var  name="A2IE04LDU" description="(vds32:05 - K08VDSR, - ) Движение РБ1 назад (от БУШД)" format="1"></var>
-<var  name="A3IE03LDU" description="(vds32:05 - K11VDSR, - ) Движение ИС1 вперед (от БУШД)" format="1"></var>
-<var  name="A3IE04LDU" description="(vds32:05 - K12VDSR, - ) Движение ИС1 назад (от БУШД)" format="1"></var>
+<var  name="R0AB16LDU" description="( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого" format="1"></var>
+<var  name="R0AB17LDU" description="( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого" format="1"></var>
+<var  name="R0AB18LDU" description="( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2" format="1"></var>
+<var  name="A0CT01IZ1" description="( - , MDuBz1) Температура АЗ1-1" format="8"></var>
+<var  name="B0CT01IZ1" description="( - , MDuBz1) Температура АЗ2-1" format="8"></var>
+<var  name="A0CT01IZ2" description="( - , MDuBz2) Температура АЗ1-2" format="8"></var>
+<var  name="B0CT01IZ2" description="( - , MDuBz2) Температура АЗ2-2" format="8"></var>
+<var  name="A3MC01RDU" description="( - , DU) Заданная координата положения ИС от регулятора мм" format="8"></var>
+<var  name="A3MC02RDU" description="( - , DU) Температурная корректировка координаты ИМ" format="8"></var>
+<var  name="R0CN91LDU" description="( - , DU) Рассчётная реактивность от регулятора" format="8"></var>
 <var  name="B1IE03LDU" description="(vds32:05 - K15VDSR, - ) Движение ББ2 вперед (от БУШД)" format="1"></var>
 <var  name="B1IE04LDU" description="(vds32:05 - K16VDSR, - ) Движение ББ2 назад (от БУШД)" format="1"></var>
 <var  name="B2IE03LDU" description="(vds32:05 - K19VDSR, - ) Движение РБ2 вперед (от БУШД)" format="1"></var>
@@ -90,13 +82,16 @@
 <var  name="A3MC01RP1" description="( - , DU) Заданная координата положения ИС1 мм" format="8"></var>
 <var  name="B3MC01RP1" description="( - , DU) Заданная координата положения ИС2 мм" format="8"></var>
 <var  name="B8MC01RP2" description="( - , DU) Заданная координата АЗ2 мм" format="8"></var>
-<var  name="A9IS21LDU" description="(vds32:02 - K24VDSR, DU) Приход на НУ НИ ДС1" format="1"></var>
-<var  name="B9IS11LDU" description="(vds32:02 - K25VDSR, DU) Приход на ВУ НИ ДС2" format="1"></var>
-<var  name="B9IS21LDU" description="(vds32:02 - K26VDSR, DU) Приход на НУ НИ ДС2" format="1"></var>
-<var  name="B9AD10LDU" description="(fds16:0b - K16FDSR, - ) Открыть клапан Подъем НИ ДС2" format="1"></var>
-<var  name="A9AD10LDU" description="(fds16:0b - K15FDSR, - ) Открыть клапан Подъем НИ ДС1" format="1"></var>
-<var  name="A9AZ03LDU" description="( - , DU) Несанкционированное перемещение НИ ДС1" format="1"></var>
-<var  name="A9AB01LDU" description="( - , DU) Блокировка движения НИ ДС1 - Превышение времени движения" format="1"></var>
+<var  name="R0AB09LDU" description="( - , DU) Ошибка в заданной координате ББ1" format="1"></var>
+<var  name="R0AB10LDU" description="( - , DU) Ошибка в заданной координате ББ2" format="1"></var>
+<var  name="R0AB11LDU" description="( - , DU) Ошибка в заданной координате  ИС1" format="1"></var>
+<var  name="R0AB12LDU" description="( - , DU) Ошибка в заданной координате  ИС2" format="1"></var>
+<var  name="R0AB13LDU" description="( - , DU) Ошибка в заданной координате  АЗ2" format="1"></var>
+<var  name="A4ZAV" description="( - , DU) " format="1"></var>
+<var  name="A6ZAV" description="( - , DU) " format="1"></var>
+<var  name="R2ZAV" description="( - , DU) " format="1"></var>
+<var  name="A5ZAV" description="( - , DU) " format="1"></var>
+<var  name="B8ZAV" description="( - , DU) " format="1"></var>
 <var  name="A9AB02LDU" description="( - , DU) Блокировка НИ ДС1 - Нет перемещения" format="1"></var>
 <var  name="B9AZ03LDU" description="( - , DU) Несанкционированное перемещение НИ ДС2" format="1"></var>
 <var  name="B9AB01LDU" description="( - , DU) Блокировка движения НИ ДС2 - Превышение времени движения" format="1"></var>
@@ -113,13 +108,13 @@
 <var  name="B3AD31LDU" description="(fds16:09 - K05FDSR, - ) Клапан СПУСК ИС2 открыть (обесточить)" format="1"></var>
 <var  name="A2IS11LDU" description="(vds32:03 - K11VDSR, DU) Приход на ВУ РБ1-СТР" format="1"></var>
 <var  name="B2IS11LDU" description="(vds32:02 - K11VDSR, DU) Приход на ВУ РБ2-СТР" format="1"></var>
-<var  name="R0VL03RDU" description="( - , DU) Индикация (Время срабатывания АЗ от ВУ ИС)" format="8"></var>
-<var  name="R0VL05RDU" description="( - , DU) Индикация (Время срабатывания АЗ от НУП ИС)" format="8"></var>
-<var  name="R0VL21IDU" description="( - , DU) Декатрон" format="3"></var>
-<var  name="R0VX03LDU" description="( - , DU) Готовность 2 мин" format="1"></var>
-<var  name="R0VS21IDU" description="( - , DU) Индикация ВИД ПРОВЕРКИ" format="3"></var>
-<var  name="A1VS01IDU" description="( - , DU) Готовность к управлению ББ1" format="3"></var>
-<var  name="B1VS01IDU" description="( - , DU) Готовность к управлению ББ2" format="3"></var>
+<var  name="A3MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ИС1" format="1"></var>
+<var  name="A3MD11LP1" description="( - , DU) Кнопка ПУСК ИС1" format="1"></var>
+<var  name="R0MD33LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ МДЗ" format="1"></var>
+<var  name="A1MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ББ1" format="1"></var>
+<var  name="A1MD11LP1" description="( - , DU) Кнопка ПУСК ББ1" format="1"></var>
+<var  name="R0MW14IP2" description="( - , DU) Переключатель ОБДУВ" format="3"></var>
+<var  name="A7AP31LDU" description="(fds16:0a - K06FDSR, - ) Клапан Обдув АЗ1 открыть (обесточить)" format="1"></var>
 <var  name="A3VS01IDU" description="( - , DU) Готовность к управлению ИС1" format="3"></var>
 <var  name="B3VS01IDU" description="( - , DU) Готовность к управлению ИС2" format="3"></var>
 <var  name="A2VS01IDU" description="( - , DU) Готовность к управлению РБ1" format="3"></var>
@@ -136,14 +131,13 @@
 <var  name="R2VS01IDU" description="( - , DU) Готовность к управлению МДЗ2" format="3"></var>
 <var  name="R1VS01IDU" description="( - , DU) Готовность к управлению МДЗ1" format="3"></var>
 <var  name="A9IS11LDU" description="(vds32:02 - K23VDSR, DU) Приход на ВУ НИ ДС1" format="1"></var>
-<var  name="B2MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ РБ2" format="1"></var>
-<var  name="A2MD11LP1" description="( - , DU) Кнопка ПУСК РБ1" format="1"></var>
-<var  name="A2MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ РБ1" format="1"></var>
-<var  name="B3IS11LDU" description="(vds32:04 - K03VDSR, DU) Приход на ВУ ИС2" format="1"></var>
-<var  name="A3IS11LDU" description="(vds32:04 - K01VDSR, DU) Приход на ВУ ИС1" format="1"></var>
-<var  name="R0IS01LDU" description="(vds32:03 - K29VDSR, DU) Признак работы с имитатором" format="1"></var>
-<var  name="R0IS02LDU" description="(vds32:03 - K30VDSR, DU) Разрешение ввода от имитатора" format="1"></var>
-<var  name="R0VP73LZ1" description="( - , MDuBz1) ПС давления для РУ" format="1"></var>
+<var  name="A9IS21LDU" description="(vds32:02 - K24VDSR, DU) Приход на НУ НИ ДС1" format="1"></var>
+<var  name="B9IS11LDU" description="(vds32:02 - K25VDSR, DU) Приход на ВУ НИ ДС2" format="1"></var>
+<var  name="B9IS21LDU" description="(vds32:02 - K26VDSR, DU) Приход на НУ НИ ДС2" format="1"></var>
+<var  name="B9AD10LDU" description="(fds16:0b - K16FDSR, - ) Открыть клапан Подъем НИ ДС2" format="1"></var>
+<var  name="A9AD10LDU" description="(fds16:0b - K15FDSR, - ) Открыть клапан Подъем НИ ДС1" format="1"></var>
+<var  name="A9AZ03LDU" description="( - , DU) Несанкционированное перемещение НИ ДС1" format="1"></var>
+<var  name="A9AB01LDU" description="( - , DU) Блокировка движения НИ ДС1 - Превышение времени движения" format="1"></var>
 <var  name="R0VP73LZ2" description="( - , MDuBz2) ПС давления для РУ" format="1"></var>
 <var  name="R0VP73LDU" description="( - , DU) ПС давления для РУ" format="1"></var>
 <var  name="R0MD34LP1" description="( - , DU) Кнопка КВИТИРОВАТЬ" format="1"></var>
@@ -159,13 +153,14 @@
 <var  name="A7AZ03LDU" description="( - , DU) Несанкционированное включение обдува АЗ1" format="1"></var>
 <var  name="B7AZ03LDU" description="( - , DU) Несанкционированное включение обдува АЗ2" format="1"></var>
 <var  name="B3MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ИС2" format="1"></var>
-<var  name="A3MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ИС1" format="1"></var>
-<var  name="A3MD11LP1" description="( - , DU) Кнопка ПУСК ИС1" format="1"></var>
-<var  name="R0MD33LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ МДЗ" format="1"></var>
-<var  name="A1MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ББ1" format="1"></var>
-<var  name="A1MD11LP1" description="( - , DU) Кнопка ПУСК ББ1" format="1"></var>
-<var  name="R0MW14IP2" description="( - , DU) Переключатель ОБДУВ" format="3"></var>
-<var  name="A7AP31LDU" description="(fds16:0a - K06FDSR, - ) Клапан Обдув АЗ1 открыть (обесточить)" format="1"></var>
+<var  name="B3MD11LP1" description="( - , DU) Кнопка ПУСК ИС2" format="1"></var>
+<var  name="R0VL01RDU" description="( - , DU) Индикация Время задержки" format="8"></var>
+<var  name="R0VZ71LZ2" description="(vds32:03 - K22VDSR, - ) Обобщенный сигнал АЗ 2 канала" format="1"></var>
+<var  name="R0VZ71LZ1" description="(vds32:02 - K22VDSR, - ) Обобщенный сигнал АЗ 1канала" format="1"></var>
+<var  name="R0VZ71LDU" description="( - , DU) Обобщенный сигнал АЗ" format="1"></var>
+<var  name="A2IS33LDU" description="(vds32:03 - K03VDSR, DU) Клапан ПОДЪЕМ РБ1 открыт (обесточен)" format="1"></var>
+<var  name="A3IS31LDU" description="(vds32:03 - K05VDSR, DU) Клапан СПУСК ИС1 открыт (обесточен)" format="1"></var>
+<var  name="A3IS33LDU" description="(vds32:03 - K02VDSR, DU) Клапан ВЫСТРЕЛ ИС1 открыт (обесточен)" format="1"></var>
 <var  name="B7AP31LDU" description="(fds16:09 - K06FDSR, - ) Клапан Обдув АЗ2 открыть (обесточить)" format="1"></var>
 <var  name="R0MW12IP2" description="( - , DU) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ РБ" format="3"></var>
 <var  name="R0MW17LP1" description="( - , DU) Переключатель АВТ/Р" format="1"></var>
@@ -182,6 +177,48 @@
 <var  name="B1MD11LP1" description="( - , DU) Кнопка ПУСК ББ2" format="1"></var>
 <var  name="B1MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ ББ2" format="1"></var>
 <var  name="B2MD11LP1" description="( - , DU) Кнопка ПУСК РБ2" format="1"></var>
+<var  name="B2MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ РБ2" format="1"></var>
+<var  name="A2MD11LP1" description="( - , DU) Кнопка ПУСК РБ1" format="1"></var>
+<var  name="A2MD12LP1" description="( - , DU) Переключатель РАЗРЕШИТЬ РБ1" format="1"></var>
+<var  name="B3IS11LDU" description="(vds32:04 - K03VDSR, DU) Приход на ВУ ИС2" format="1"></var>
+<var  name="A3IS11LDU" description="(vds32:04 - K01VDSR, DU) Приход на ВУ ИС1" format="1"></var>
+<var  name="R0IS01LDU" description="(vds32:03 - K29VDSR, DU) Признак работы с имитатором" format="1"></var>
+<var  name="R0IS02LDU" description="(vds32:03 - K30VDSR, DU) Разрешение ввода от имитатора" format="1"></var>
+<var  name="R0VP73LZ1" description="( - , MDuBz1) ПС давления для РУ" format="1"></var>
+<var  name="A0VE01LDU" description="( - , DU) Напряжение в системы АЗ1 подано" format="1"></var>
+<var  name="B0VE01LDU" description="( - , DU) Напряжение в системы АЗ2 подано" format="1"></var>
+<var  name="A0VP01LDU" description="( - , DU) Давление в системы АЗ1 подано" format="1"></var>
+<var  name="B0VP01LDU" description="( - , DU) Давление в системы АЗ2 подано" format="1"></var>
+<var  name="A0EE01LZ1" description="( - , MDuBz1) Исправность АКНП1" format="1"></var>
+<var  name="A0EE03LZ1" description="( - , MDuBz1) Исправность АКНП3" format="1"></var>
+<var  name="A0EE02LZ1" description="( - , MDuBz1) Исправность АКНП2" format="1"></var>
+<var  name="A0EE04LZ1" description="( - , MDuBz1) Исправность АКНП4" format="1"></var>
+<var  name="A0VN01LDU" description="( - , DU) Каналы АЗ1 проверены" format="1"></var>
+<var  name="B0VN01LDU" description="( - , DU) Каналы АЗ2 проверены" format="1"></var>
+<var  name="A0EE01LZ2" description="( - , MDuBz2) Исправность АКНП1" format="1"></var>
+<var  name="A0EE03LZ2" description="( - , MDuBz2) Исправность АКНП3" format="1"></var>
+<var  name="A0EE02LZ2" description="( - , MDuBz2) Исправность АКНП2" format="1"></var>
+<var  name="A0EE04LZ2" description="( - , MDuBz2) Исправность АКНП4" format="1"></var>
+<var  name="A0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var  name="A0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var  name="B0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
+<var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
+<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1" format="1"></var>
+<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1" format="1"></var>
+<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1" format="1"></var>
+<var  name="A1MC01LC2" description="( - , DU) Настроить энкодер ББ1" format="1"></var>
+<var  name="B2MC01LC1" description="( - , DU) Настроить энкодер РБ2" format="1"></var>
+<var  name="B2MC01LC2" description="( - , DU) Настроить энкодер РБ2" format="1"></var>
+<var  name="A2MC01LC1" description="( - , DU) Настроить энкодер РБ1" format="1"></var>
+<var  name="A2MC01LC2" description="( - , DU) Настроить энкодер РБ1" format="1"></var>
+<var  name="B3MC01LC1" description="( - , DU) Настроить энкодер ИС2" format="1"></var>
+<var  name="B3MC01LC2" description="( - , DU) Настроить энкодер ИС2" format="1"></var>
+<var  name="A3MC01LC1" description="( - , DU) Настроить энкодер ИС1" format="1"></var>
+<var  name="A3MC01LC2" description="( - , DU) Настроить энкодер ИС1" format="1"></var>
+<var  name="B8MC01LC1" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
+<var  name="B8MC01LC2" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
 <var  name="A8MC01LC1" description="( - , DU) Настроить энкодер ДС2" format="1"></var>
 <var  name="A8MC01LC2" description="( - , DU) Настроить энкодер ДС2" format="1"></var>
 <var  name="A3VP42LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС" format="1"></var>
@@ -194,39 +231,39 @@
 <var  name="A3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 в норме" format="1"></var>
 <var  name="A3IP02IDU" description="(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
 <var  name="B3IP02IDU" description="(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
-<var  name="A0VE01LDU" description="( - , DU) Напряжение в системы АЗ1 подано" format="1"></var>
-<var  name="B0VE01LDU" description="( - , DU) Напряжение в системы АЗ2 подано" format="1"></var>
-<var  name="A0VP01LDU" description="( - , DU) Давление в системы АЗ1 подано" format="1"></var>
-<var  name="B0VP01LDU" description="( - , DU) Давление в системы АЗ2 подано" format="1"></var>
-<var  name="A0EE01LZ1" description="( - , MDuBz1) Исправность АКНП1" format="1"></var>
-<var  name="A0EE03LZ1" description="( - , MDuBz1) Исправность АКНП3" format="1"></var>
-<var  name="A0EE02LZ1" description="( - , MDuBz1) Исправность АКНП2" format="1"></var>
-<var  name="A0EE04LZ1" description="( - , MDuBz1) Исправность АКНП4" format="1"></var>
-<var  name="A0VN01LDU" description="( - , DU) Каналы АЗ1 проверены" format="1"></var>
-<var  name="B0VN01LDU" description="( - , DU) Каналы АЗ2 проверены" format="1"></var>
-<var  name="A3IC01UDU" description="( - , MDuS) Координата штока ИС1 (дел.энк)" format="5"></var>
-<var  name="B3IC01UDU" description="( - , MDuS) Координата штока ИС2 (дел.энк)" format="5"></var>
-<var  name="B3VC01RDU" description="( - , DU) Координата ИС2, мм" format="8"></var>
-<var  name="A8IC01UDU" description="( - , MDuS) Координата ДС2 (дел.энк)" format="5"></var>
-<var  name="A8VC01RDU" description="( - , DU) Координата ДС2, мм" format="8"></var>
-<var  name="B8IC01UDU" description="( - , MDuS) Координата АЗ2 (дел.энк)" format="5"></var>
-<var  name="A1IC01UDU" description="( - , MDuS) Координата штока ББ1 (дел.энк)" format="5"></var>
-<var  name="A1VC01RDU" description="( - , DU) Координата ББ1, мм" format="8"></var>
-<var  name="A1IS11LDU" description="(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1" format="1"></var>
-<var  name="B1MC01LC1" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
-<var  name="B1MC01LC2" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
-<var  name="A1MC01LC1" description="( - , DU) Настроить энкодер ББ1" format="1"></var>
-<var  name="A1MC01LC2" description="( - , DU) Настроить энкодер ББ1" format="1"></var>
-<var  name="B2MC01LC1" description="( - , DU) Настроить энкодер РБ2" format="1"></var>
-<var  name="B2MC01LC2" description="( - , DU) Настроить энкодер РБ2" format="1"></var>
-<var  name="A2MC01LC1" description="( - , DU) Настроить энкодер РБ1" format="1"></var>
-<var  name="A2MC01LC2" description="( - , DU) Настроить энкодер РБ1" format="1"></var>
-<var  name="B3MC01LC1" description="( - , DU) Настроить энкодер ИС2" format="1"></var>
-<var  name="B3MC01LC2" description="( - , DU) Настроить энкодер ИС2" format="1"></var>
-<var  name="A3MC01LC1" description="( - , DU) Настроить энкодер ИС1" format="1"></var>
-<var  name="A3MC01LC2" description="( - , DU) Настроить энкодер ИС1" format="1"></var>
-<var  name="B8MC01LC1" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
-<var  name="B8MC01LC2" description="( - , DU) Настроить энкодер АЗ2" format="1"></var>
+<var  name="B2VC01RDU" description="( - , DU) Координата РБ2, мм" format="8"></var>
+<var  name="B8VC01RDU" description="( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм" format="8"></var>
+<var  name="A4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var  name="B4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var  name="A2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var  name="B2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var  name="A3VP81LDU" description="( - , - ) Давление СПУСК ИС1 в норме" format="1"></var>
+<var  name="B3VP81LDU" description="( - , - ) Давление СПУСК ИС2 в норме" format="1"></var>
+<var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
+<var  name="psz1" description="( - , DU) " format="1"></var>
+<var  name="psz2" description="( - , DU) " format="1"></var>
+<var  name="psz3" description="( - , DU) " format="1"></var>
+<var  name="psz4" description="( - , DU) " format="1"></var>
+<var  name="psz5" description="( - , DU) " format="1"></var>
+<var  name="psz6" description="( - , DU) " format="1"></var>
+<var  name="psz7" description="( - , DU) " format="1"></var>
+<var  name="psz8" description="( - , DU) " format="1"></var>
+<var  name="psz9" description="( - , DU) " format="1"></var>
+<var  name="psz10" description="( - , DU) " format="1"></var>
+<var  name="psz11" description="( - , DU) " format="1"></var>
+<var  name="psz12" description="( - , DU) " format="1"></var>
+<var  name="psz13" description="( - , DU) " format="1"></var>
+<var  name="psz14" description="( - , DU) " format="1"></var>
+<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, - ) Исправность ИП ББ1" format="1"></var>
+<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, - ) Исправность ИП ИС1" format="1"></var>
+<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, - ) Исправность ИП РБ1" format="1"></var>
+<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2" format="1"></var>
+<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2" format="1"></var>
+<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2" format="1"></var>
+<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, - ) Исправность ИП ББ2" format="1"></var>
+<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, - ) Исправность ИП ИС2" format="1"></var>
+<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, - ) Исправность ИП РБ2" format="1"></var>
+<var  name="R0IE02LDU" description="(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1" format="1"></var>
 <var  name="R0IE01LDU" description="(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2" format="1"></var>
 <var  name="A6IE01LDU" description="(vds32:0d - K19VDSR, - ) Исправность ИП БЗ1" format="1"></var>
 <var  name="B6IE01LDU" description="(vds32:0d - K22VDSR, - ) Исправность ИП БЗ2" format="1"></var>
@@ -241,49 +278,6 @@
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="A3VC01RDU" description="( - , DU) Координата ИС1, мм" format="8"></var>
 <var  name="A2VC01RDU" description="( - , DU) Координата РБ1, мм" format="8"></var>
-<var  name="B2VC01RDU" description="( - , DU) Координата РБ2, мм" format="8"></var>
-<var  name="B8VC01RDU" description="( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм" format="8"></var>
-<var  name="A4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
-<var  name="B4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
-<var  name="A2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
-<var  name="B2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
-<var  name="A3VP81LDU" description="( - , - ) Давление СПУСК ИС1 в норме" format="1"></var>
-<var  name="B3VP81LDU" description="( - , - ) Давление СПУСК ИС2 в норме" format="1"></var>
-<var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
-<var  name="A0EE01LZ2" description="( - , MDuBz2) Исправность АКНП1" format="1"></var>
-<var  name="A0EE03LZ2" description="( - , MDuBz2) Исправность АКНП3" format="1"></var>
-<var  name="A0EE02LZ2" description="( - , MDuBz2) Исправность АКНП2" format="1"></var>
-<var  name="A0EE04LZ2" description="( - , MDuBz2) Исправность АКНП4" format="1"></var>
-<var  name="A0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ1" format="1"></var>
-<var  name="A0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ1" format="1"></var>
-<var  name="B0VP71LZ1" description="( - , MDuBz1) АЗ по АС любого давления для АЗ2" format="1"></var>
-<var  name="B0VP71LZ2" description="( - , MDuBz2) АЗ по АС любого давления для АЗ2" format="1"></var>
-<var  name="A0VS11LDU" description="( - , DU) АЗ1 готова к работе" format="1"></var>
-<var  name="B0VS11LDU" description="( - , DU) АЗ2 готова к работе" format="1"></var>
-<var  name="A1IE01LDU" description="(vds32:05 - K02VDSR, - ) Исправность БУШД ББ1" format="1"></var>
-<var  name="A3IE01LDU" description="(vds32:05 - K10VDSR, - ) Исправность БУШД ИС1" format="1"></var>
-<var  name="A2IE01LDU" description="(vds32:05 - K06VDSR, - ) Исправность БУШД РБ1" format="1"></var>
-<var  name="A1IE02LDU" description="(vds32:05 - K01VDSR, - ) Исправность ИП ББ1" format="1"></var>
-<var  name="A3IE02LDU" description="(vds32:05 - K09VDSR, - ) Исправность ИП ИС1" format="1"></var>
-<var  name="A2IE02LDU" description="(vds32:05 - K05VDSR, - ) Исправность ИП РБ1" format="1"></var>
-<var  name="B1IE01LDU" description="(vds32:05 - K14VDSR, - ) Исправность БУШД ББ2" format="1"></var>
-<var  name="B2IE01LDU" description="(vds32:05 - K18VDSR, - ) Исправность БУШД РБ2" format="1"></var>
-<var  name="B3IE01LDU" description="(vds32:05 - K22VDSR, - ) Исправность БУШД ИС2" format="1"></var>
-<var  name="B1IE02LDU" description="(vds32:05 - K13VDSR, - ) Исправность ИП ББ2" format="1"></var>
-<var  name="B3IE02LDU" description="(vds32:05 - K21VDSR, - ) Исправность ИП ИС2" format="1"></var>
-<var  name="B2IE02LDU" description="(vds32:05 - K17VDSR, - ) Исправность ИП РБ2" format="1"></var>
-<var  name="R0IE02LDU" description="(vds32:0d - K23VDSR, - ) Исправность ИП 24 В-1" format="1"></var>
-<var  name="R0AD04LZ2" description="(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)" format="1"></var>
-<var  name="R0AD05LZ1" description="(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)" format="1"></var>
-<var  name="R0AD05LZ2" description="(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)" format="1"></var>
-<var  name="B8IS12LDU" description="(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2" format="1"></var>
-<var  name="B8IS21LDU" description="(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2" format="1"></var>
-<var  name="A1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ1 ниже АС" format="1"></var>
-<var  name="A1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ1 ниже АС" format="1"></var>
-<var  name="R0VL22LDU" description="( - , DU) Конец программы 200сек" format="1"></var>
-<var  name="R0VL23LDU" description="( - , DU) Конец программы 20мин" format="1"></var>
-<var  name="B1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ2 ниже АС" format="1"></var>
-<var  name="B1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ2 ниже АС" format="1"></var>
 <var  name="A3AB19LDU" description="( - , DU) Блокировка пневматического подъема ИС1: режим статический" format="1"></var>
 <var  name="B3AB19LDU" description="( - , DU) Блокировка пневматического подъема ИС2: режим статический" format="1"></var>
 <var  name="A3EE03LDU" description="( - , DU) ВПИС ИС1" format="1"></var>
@@ -296,16 +290,17 @@
 <var  name="R3VS22LDU" description="( - , DU) Движение гомогенных дверей к закрыты" format="1"></var>
 <var  name="R3VS12LDU" description="( - , DU) Движение гомогенных дверей к открыты" format="1"></var>
 <var  name="R3VS01IDU" description="( - , DU) Готовность к управлению гомогенных дверей" format="3"></var>
-<var  name="R0AB16LDU" description="( - , DU) Блокировка регулирования мощности: Усредненный период разгона меньше допустимого" format="1"></var>
-<var  name="R0AB17LDU" description="( - , DU) Блокировка регулирования мощности: Время работы при мощности более 100Вт больше допустимого" format="1"></var>
-<var  name="R0AB18LDU" description="( - , DU) Блокировка регулирования мощности: Рассогласование  заданных координат ИС1,2" format="1"></var>
-<var  name="A0CT01IZ1" description="( - , MDuBz1) Температура АЗ1-1" format="8"></var>
-<var  name="B0CT01IZ1" description="( - , MDuBz1) Температура АЗ2-1" format="8"></var>
-<var  name="A0CT01IZ2" description="( - , MDuBz2) Температура АЗ1-2" format="8"></var>
-<var  name="B0CT01IZ2" description="( - , MDuBz2) Температура АЗ2-2" format="8"></var>
-<var  name="A3MC01RDU" description="( - , DU) Заданная координата положения ИС от регулятора мм" format="8"></var>
-<var  name="A3MC02RDU" description="( - , DU) Температурная корректировка координаты ИМ" format="8"></var>
-<var  name="R0CN91LDU" description="( - , DU) Рассчётная реактивность от регулятора" format="8"></var>
+<var  name="A3AB13LDU" description="( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС" format="1"></var>
+<var  name="B3AB13LDU" description="( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой" format="1"></var>
+<var  name="R0DE02LDU" description="(vds32:02 - Diagn, DiagnDU) диагностика модуля ДУ на 2 месте" format="3"></var>
+<var  name="R0DE03LDU" description="(vds32:03 - Diagn, DiagnDU) диагностика модуля ДУ на 3 месте" format="3"></var>
+<var  name="R0DE04LDU" description="(vds32:04 - Diagn, DiagnDU) диагностика модуля ДУ на 4 месте" format="3"></var>
+<var  name="R0DE08LDU" description="(fds16:08 - Diagn, DiagnDU) диагностика модуля ДУ на 8 месте" format="3"></var>
+<var  name="R0DE05LDU" description="(vds32:05 - Diagn, DiagnDU) диагностика модуля ДУ на 5 месте" format="3"></var>
+<var  name="R0DE09LDU" description="(fds16:09 - Diagn, DiagnDU) диагностика модуля ДУ на 9 месте" format="3"></var>
+<var  name="R0DE0ALDU" description="(fds16:0a - Diagn, DiagnDU) диагностика модуля ДУ на 10 месте" format="3"></var>
+<var  name="R0DE07LDU" description="(fds16:07 - Diagn, DiagnDU) диагностика модуля ДУ на 7 месте" format="3"></var>
+<var  name="R0DE0CLDU" description="(vas84:0c - Diagn, DiagnDU) диагностика модуля ДУ на 12 месте" format="3"></var>
 <var  name="A3MC03RDU" description="( - , DU) Координата положения ИМ 0-й реактивности" format="8"></var>
 <var  name="A3AB15LDU" description="( - , DU) Блокировка заполнения ресивера ИС1: работает регулятор мощности" format="1"></var>
 <var  name="R0AB20LDU" description="( - , DU) Блокировка изменения положения ОР: работает  регулятор мощности" format="1"></var>
@@ -319,18 +314,17 @@
 <var  name="R0AD03LZ1" description="(fds16:0f - K09FDSR, - ) Имитация прихода на ВУ ИС (БАЗ1)" format="1"></var>
 <var  name="R0AD03LZ2" description="(fds16:0f - K14FDSR, - ) Имитация прихода на ВУ ИС (БАЗ2)" format="1"></var>
 <var  name="R0AD04LZ1" description="(fds16:0f - K10FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ1)" format="1"></var>
-<var  name="R0DE01LDU" description="(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте" format="3"></var>
-<var  name="R0DE06LDU" description="(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте" format="3"></var>
-<var  name="venc01" description="(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1" format="5"></var>
-<var  name="venc02" description="(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1" format="5"></var>
-<var  name="venc03" description="(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1" format="5"></var>
-<var  name="venc04" description="(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1" format="5"></var>
-<var  name="venc05" description="(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2" format="5"></var>
-<var  name="venc06" description="(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2" format="5"></var>
-<var  name="venc07" description="(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2" format="5"></var>
-<var  name="venc08" description="(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2" format="5"></var>
-<var  name="R0VN15RDU" description="( - , DU) Период разгона РУ" format="8"></var>
-<var  name="R8AD21LDU" description="(fds16:0f - K12FDSR, - ) Запуск системы инициирования" format="1"></var>
+<var  name="R0AD04LZ2" description="(fds16:0f - K15FDSR, - ) Имитация срабатывания АС II УР. РАД (БАЗ2)" format="1"></var>
+<var  name="R0AD05LZ1" description="(fds16:0f - K11FDSR, - ) Имитация ухода с НУП ИС  (БАЗ1)" format="1"></var>
+<var  name="R0AD05LZ2" description="(fds16:0f - K16FDSR, - ) Имитация ухода с НУП ИС  (БАЗ2)" format="1"></var>
+<var  name="B8IS12LDU" description="(vds32:04 - K21VDSR, DU) Приход на ВУ2 АЗ2" format="1"></var>
+<var  name="B8IS21LDU" description="(vds32:04 - K20VDSR, DU) Приход на НУ1 АЗ2" format="1"></var>
+<var  name="A1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var  name="A1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var  name="R0VL22LDU" description="( - , DU) Конец программы 200сек" format="1"></var>
+<var  name="R0VL23LDU" description="( - , DU) Конец программы 20мин" format="1"></var>
+<var  name="B1VP41LZ1" description="( - , MDuBz1) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var  name="B1VP41LZ2" description="( - , MDuBz2) Давление СБРОС ББ2 ниже АС" format="1"></var>
 <var  name="R8AD22LDU" description="(vds32:02 - K15VDSR, - ) Сигнал синхронизации с импульсом" format="1"></var>
 <var  name="R0S01LDU" description="( - , - ) Отключение сетевых передач ДУ" format="1"></var>
 <var  name="R0S01LZ1" description="(fds16:07 - K15FDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
@@ -342,17 +336,18 @@
 <var  name="B1IS11LDU" description="(vds32:02 - K08VDSR, DU) Приход на ВУ ББ2" format="1"></var>
 <var  name="A2IC01UDU" description="( - , MDuS) Координата штока РБ1 (дел.энк)" format="5"></var>
 <var  name="B2IC01UDU" description="( - , MDuS) Координата штока РБ2 (дел.энк)" format="5"></var>
-<var  name="A3AB13LDU" description="( - , DU) Блокировка подъёма ИС1- давление в пневмосистеме ИС1 ниже ПС" format="1"></var>
-<var  name="B3AB13LDU" description="( - , DU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой" format="1"></var>
-<var  name="R0DE02LDU" description="(vds32:02 - Diagn, DiagnDU) диагностика модуля ДУ на 2 месте" format="3"></var>
-<var  name="R0DE03LDU" description="(vds32:03 - Diagn, DiagnDU) диагностика модуля ДУ на 3 месте" format="3"></var>
-<var  name="R0DE04LDU" description="(vds32:04 - Diagn, DiagnDU) диагностика модуля ДУ на 4 месте" format="3"></var>
-<var  name="R0DE08LDU" description="(fds16:08 - Diagn, DiagnDU) диагностика модуля ДУ на 8 месте" format="3"></var>
-<var  name="R0DE05LDU" description="(vds32:05 - Diagn, DiagnDU) диагностика модуля ДУ на 5 месте" format="3"></var>
-<var  name="R0DE09LDU" description="(fds16:09 - Diagn, DiagnDU) диагностика модуля ДУ на 9 месте" format="3"></var>
-<var  name="R0DE0ALDU" description="(fds16:0a - Diagn, DiagnDU) диагностика модуля ДУ на 10 месте" format="3"></var>
-<var  name="R0DE07LDU" description="(fds16:07 - Diagn, DiagnDU) диагностика модуля ДУ на 7 месте" format="3"></var>
-<var  name="R0DE0CLDU" description="(vas84:0c - Diagn, DiagnDU) диагностика модуля ДУ на 12 месте" format="3"></var>
+<var  name="A3IC01UDU" description="( - , MDuS) Координата штока ИС1 (дел.энк)" format="5"></var>
+<var  name="B3IC01UDU" description="( - , MDuS) Координата штока ИС2 (дел.энк)" format="5"></var>
+<var  name="B3VC01RDU" description="( - , DU) Координата ИС2, мм" format="8"></var>
+<var  name="A8IC01UDU" description="( - , MDuS) Координата ДС2 (дел.энк)" format="5"></var>
+<var  name="A8VC01RDU" description="( - , DU) Координата ДС2, мм" format="8"></var>
+<var  name="B8IC01UDU" description="( - , MDuS) Координата АЗ2 (дел.энк)" format="5"></var>
+<var  name="A1IC01UDU" description="( - , MDuS) Координата штока ББ1 (дел.энк)" format="5"></var>
+<var  name="A1VC01RDU" description="( - , DU) Координата ББ1, мм" format="8"></var>
+<var  name="A1IS11LDU" description="(vds32:03 - K08VDSR, DU) Приход на ВУ ББ1" format="1"></var>
+<var  name="B1MC01LC1" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
+<var  name="B1MC01LC2" description="( - , DU) Настроить энкодер ББ2" format="1"></var>
+<var  name="A1MC01LC1" description="( - , DU) Настроить энкодер ББ1" format="1"></var>
 <var  name="R0DE0BLDU" description="(fds16:0b - Diagn, DiagnDU) диагностика модуля ДУ на 11 месте" format="3"></var>
 <var  name="R0DE0DLDU" description="(vds32:0d - Diagn, DiagnDU) диагностика модуля ДУ на 13 месте" format="3"></var>
 <var  name="R0DE0FLDU" description="(fds16:0f - Diagn, DiagnDU) диагностика модуля ДУ на 15 месте" format="3"></var>
@@ -365,8 +360,18 @@
 <var  name="R0DE3CLDU" description="( - , DiagnDU) диагностика шкафа ДУ БП5/24Д место 5" format="1"></var>
 <var  name="TestDiagnDU" description="( - , DU) Неисправность от" format="1"></var>
 <var  name="B3CV01RDU" description="( - , DU) Измеренная скорость перемещения ИС2" format="8"></var>
-<var  name="A6AB06LDU" description="( - , DU) Блокировка открытия БЗ1 - ОРР не в исходном состоянии" format="1"></var>
-<var  name="A6AB07LDU" description="( - , DU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах 1,5м" format="1"></var>
+<var  name="R0DE01LDU" description="(vencf8l:01 - DiagnVDS, DiagnDU) диагностика модуля ДУ на 1 месте" format="3"></var>
+<var  name="R0DE06LDU" description="(vencf8l:01 - DiagnFDS, DiagnDU) диагностика модуля ДУ на 6 месте" format="3"></var>
+<var  name="venc01" description="(vencf8l:01 - venc01, - ) заначение реального энкодера ББ1" format="5"></var>
+<var  name="venc02" description="(vencf8l:01 - venc02, - ) заначение реального энкодера РБ1" format="5"></var>
+<var  name="venc03" description="(vencf8l:01 - venc03, - ) заначение реального энкодера Ис1" format="5"></var>
+<var  name="venc04" description="(vencf8l:01 - venc04, - ) заначение реального энкодера ДС1" format="5"></var>
+<var  name="venc05" description="(vencf8l:01 - venc05, - ) заначение реального энкодера ББ2" format="5"></var>
+<var  name="venc06" description="(vencf8l:01 - venc06, - ) заначение реального энкодера РБ2" format="5"></var>
+<var  name="venc07" description="(vencf8l:01 - venc07, - ) заначение реального энкодера ИС2" format="5"></var>
+<var  name="venc08" description="(vencf8l:01 - venc08, - ) заначение реального энкодера АЗ2" format="5"></var>
+<var  name="R0VN15RDU" description="( - , DU) Период разгона РУ" format="8"></var>
+<var  name="R8AD21LDU" description="(fds16:0f - K12FDSR, - ) Запуск системы инициирования" format="1"></var>
 <var  name="A6AB08LDU" description="( - , DU) Блокировка открытия БЗ1 - ДС2 находится не на упорах 1,5м" format="1"></var>
 <var  name="A6AB09LDU" description="( - , DU) Блокировка открытия БЗ1 -ворота отстойной зоны не открыты" format="1"></var>
 <var  name="B6AB06LDU" description="( - , DU) Блокировка открытия БЗ2 - ОРР не в исходном состоянии" format="1"></var>
@@ -387,8 +392,9 @@
 <var  name="B8IS11LDU" description="(vds32:04 - K19VDSR, DU) Приход на ВУ1 АЗ2" format="1"></var>
 <var  name="B8AB01LDU" description="( - , DU) Блокировка движения АЗ2 - Превышение времени движения" format="1"></var>
 <var  name="B8AB04LDU" description="( - , DU) Блокировка движения АЗ2 -Ошибка в направлении  движения" format="1"></var>
-<var  name="A5AZ03LDU" description="( - , DU) Несанкционированное перемещение НЛ1" format="1"></var>
-<var  name="A5AB01LDU" description="( - , DU) Блокировка движения НЛ1 - Превышение времени движения" format="1"></var>
+<var  name="B8AB08LDU" description="( - , DU) Блокировка движения АЗ2 Гомогенные двери не закрыты" format="1"></var>
+<var  name="B8AB09LDU" description="( - , DU) Блокировка  движения  АЗ2 - АС по мощности от любого канала" format="1"></var>
+<var  name="B8AB10LDU" description="( - , DU) Блокировка движения АЗ2 - тележка не на верхних механических упорах реактора" format="1"></var>
 <var  name="A5AB02LDU" description="( - , DU) Блокировка движения НЛ1 - Нет перемещения" format="1"></var>
 <var  name="B5AZ03LDU" description="( - , DU) Несанкционированное перемещение НЛ2" format="1"></var>
 <var  name="B5AB01LDU" description="( - , DU) Блокировка движения НЛ2 - Превышение времени движения" format="1"></var>
@@ -410,10 +416,8 @@
 <var  name="B1IS12LDU" description="(vds32:02 - K07VDSR, DU) Магнит ББ2 зацеплен" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:02 - K10VDSR, DU) Магнит РБ2 зацеплен" format="1"></var>
 <var  name="R4IS11LDU" description="(vds32:04 - K05VDSR, DU) Приход на ВУ1 тележки" format="1"></var>
-<var  name="A8AB10LDU" description="( - , DU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора" format="1"></var>
-<var  name="A8AB11LDU" description="( - , DU) Блокировка движения ДС2 -нет сигнала готовности СУЗ" format="1"></var>
-<var  name="A8AB12LDU" description="( - , DU) Блокировка движения ДС2 - НИ не в положении ВУ" format="1"></var>
-<var  name="A8AB13LDU" description="( - , DU) Блокировка движения ДС2 - ОРР не в исходном состоянии" format="1"></var>
+<var  name="A6AB06LDU" description="( - , DU) Блокировка открытия БЗ1 - ОРР не в исходном состоянии" format="1"></var>
+<var  name="A6AB07LDU" description="( - , DU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах 1,5м" format="1"></var>
 <var  name="A8AB14LDU" description="( - , DU) Блокировка движения ДС2 - Самоход любого механизма" format="1"></var>
 <var  name="A8AB02LDU" description="( - , DU) Блокировка движения ДС2- АНИ не установлен" format="1"></var>
 <var  name="A8AB01LDU" description="( - , DU) Блокировка ДС2 -Превышение времени перемещения" format="1"></var>
@@ -433,9 +437,10 @@
 <var  name="A2AB07LDU" description="( - , DU) Блокировка подъёма РБ1 Гомогенные двери не закрыты" format="1"></var>
 <var  name="A2AB08LDU" description="( - , DU) Блокировка подъёма РБ1 - реактор не на рабочем месте" format="1"></var>
 <var  name="A2AB05LDU" description="( - , DU) Блокировка подъёма РБ1 -нет сигнала готовности СУЗ" format="1"></var>
-<var  name="B8AB08LDU" description="( - , DU) Блокировка движения АЗ2 Гомогенные двери не закрыты" format="1"></var>
-<var  name="B8AB09LDU" description="( - , DU) Блокировка  движения  АЗ2 - АС по мощности от любого канала" format="1"></var>
-<var  name="B8AB10LDU" description="( - , DU) Блокировка движения АЗ2 - тележка не на верхних механических упорах реактора" format="1"></var>
+<var  name="A2AB06LDU" description="( - , DU) Блокировка подъёма РБ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var  name="A2AB09LDU" description="( - , DU) Блокировка подъёма РБ1- АНИ не установлен" format="1"></var>
+<var  name="A2AB10LDU" description="( - , DU) Блокировка подъёма РБ1- есть сигнал общего сброса" format="1"></var>
+<var  name="A2AB11LDU" description="( - , DU) Блокировка подъёма РБ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
 <var  name="B8AB11LDU" description="( - , DU) Блокировка движения АЗ2 -нет сигнала готовности СУЗ" format="1"></var>
 <var  name="B8AB12LDU" description="( - , DU) Блокировка движения АЗ2 - НИ не в положении ВУ" format="1"></var>
 <var  name="B8AB13LDU" description="( - , DU) Блокировка движения АЗ2 - ОРР не в исходном состоянии" format="1"></var>
@@ -456,7 +461,10 @@
 <var  name="A8IS22LDU" description="(vds32:04 - K31VDSR, DU) Приход на механический НУ ДС2" format="1"></var>
 <var  name="A8AB08LDU" description="( - , DU) Блокировка движения ДС2 Гомогенные двери не закрыты" format="1"></var>
 <var  name="A8AB09LDU" description="( - , DU) Блокировка  движения ДС2 - АС по мощности от любого канала" format="1"></var>
-<var  name="B6IS21LDU" description="(vds32:04 - K14VDSR, DU) Приход на НУ БЗ2" format="1"></var>
+<var  name="A8AB10LDU" description="( - , DU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора" format="1"></var>
+<var  name="A8AB11LDU" description="( - , DU) Блокировка движения ДС2 -нет сигнала готовности СУЗ" format="1"></var>
+<var  name="A8AB12LDU" description="( - , DU) Блокировка движения ДС2 - НИ не в положении ВУ" format="1"></var>
+<var  name="A8AB13LDU" description="( - , DU) Блокировка движения ДС2 - ОРР не в исходном состоянии" format="1"></var>
 <var  name="A6VS22LDU" description="(vds32:0d - K18VDSR, DU) Движение створок БЗ1  к ЗАКРЫТА" format="1"></var>
 <var  name="A6VS12LDU" description="(vds32:0d - K17VDSR, DU) Движение створок БЗ1  к  ОТКРЫТА" format="1"></var>
 <var  name="B6VS22LDU" description="(vds32:0d - K21VDSR, DU) Движение створок БЗ2  к «ЗАКРЫТА»" format="1"></var>
@@ -479,6 +487,7 @@
 <var  name="A0VN71LZ2" description="( - , MDuBz2) АЗ по АС мощности для АЗ1" format="1"></var>
 <var  name="A0VN71LZ1" description="( - , MDuBz1) АЗ по АС мощности для АЗ1" format="1"></var>
 <var  name="R0NE01LDU" description="( - , DU) Потеря связи с БАЗ1" format="1"></var>
+<var  name="R0NE02LDU" description="( - , DU) Потеря связи с БАЗ2" format="1"></var>
 <var  name="R0MW15IP1" description="( - , DU) Переключатель МОЩНОСТЬ В СТАТИЧЕСКОМ РЕЖИМЕ" format="3"></var>
 <var  name="R0MW14IP1" description="( - , DU) Переключатель ПРОГРАММЫ" format="3"></var>
 <var  name="R0MW12IP1" description="( - , DU) Переключатель РЕЖИМ РАБОТЫ" format="3"></var>
@@ -502,8 +511,7 @@
 <var  name="A6IS11LDU" description="(vds32:04 - K09VDSR, DU) Приход на ВУ БЗ1" format="1"></var>
 <var  name="A6IS21LDU" description="(vds32:04 - K10VDSR, DU) Приход на НУ БЗ1" format="1"></var>
 <var  name="B6IS11LDU" description="(vds32:04 - K13VDSR, DU) Приход на ВУ БЗ2" format="1"></var>
-<var  name="A4IS11LDU" description="(vds32:03 - K14VDSR, DU) Приход на ВУ НИ1" format="1"></var>
-<var  name="B4IS11LDU" description="(vds32:02 - K31VDSR, DU) Приход на ВУ НИ2" format="1"></var>
+<var  name="B6IS21LDU" description="(vds32:04 - K14VDSR, DU) Приход на НУ БЗ2" format="1"></var>
 <var  name="R4AB13LDU" description="( - , DU) Блокировка тележки - НЛ не в положении ВУ" format="1"></var>
 <var  name="R4AB14LDU" description="( - , DU) Блокировка движения тележки - Кран - балка не в безопасном положении" format="1"></var>
 <var  name="R4AB15LDU" description="( - , DU) Блокировка движения тележки - ворота в пом. 0041 не в положении Открыты" format="1"></var>
@@ -525,7 +533,8 @@
 <var  name="A5IS21LDU" description="(vds32:04 - K12VDSR, DU) Приход на НУ НЛ1" format="1"></var>
 <var  name="B5IS11LDU" description="(vds32:04 - K15VDSR, DU) Приход на ВУ НЛ2" format="1"></var>
 <var  name="B5IS21LDU" description="(vds32:04 - K16VDSR, DU) Приход на НУ НЛ2" format="1"></var>
-<var  name="R0NE02LDU" description="( - , DU) Потеря связи с БАЗ2" format="1"></var>
+<var  name="A5AZ03LDU" description="( - , DU) Несанкционированное перемещение НЛ1" format="1"></var>
+<var  name="A5AB01LDU" description="( - , DU) Блокировка движения НЛ1 - Превышение времени движения" format="1"></var>
 <var  name="R4AB02LDU" description="( - , DU) Блокировка движения тележки - Потеря связи с БАЗ, ОПУ" format="1"></var>
 <var  name="R0NE08LDU" description="( - , DU) Потеря связи с ОПУ" format="1"></var>
 <var  name="R4IS21LDU" description="(vds32:04 - K07VDSR, DU) Приход на НУ1 тележки" format="1"></var>
@@ -548,12 +557,8 @@
 <var  name="R4AB10LDU" description="( - , DU) Блокировка тележки - не открыта биологическая защита" format="1"></var>
 <var  name="R4AB11LDU" description="( - , DU) Блокировка движения тележки - МДЗ1,2 не находятся на НУ" format="1"></var>
 <var  name="R4AB12LDU" description="( - , DU) Блокировка движения тележки - НИ не в положении ВУ" format="1"></var>
-<var  name="A3AD11LDU" description="(fds16:0b - K01FDSR, - ) Сигнал на перемещение ИС1 вверх" format="1"></var>
-<var  name="A3AD21LDU" description="(fds16:0b - K02FDSR, - ) Сигнал на перемещение ИС1 вниз" format="1"></var>
-<var  name="A3AD02LDU" description="(fds16:0b - K04FDSR, - ) 0-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD03LDU" description="(fds16:0b - K05FDSR, - ) 1-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD04LDU" description="(fds16:0b - K06FDSR, - ) 2-й бит скорости ИС1" format="1"></var>
-<var  name="A3AD05LDU" description="(fds16:0b - K07FDSR, - ) паритет команды на ИС1" format="1"></var>
+<var  name="A4IS11LDU" description="(vds32:03 - K14VDSR, DU) Приход на ВУ НИ1" format="1"></var>
+<var  name="B4IS11LDU" description="(vds32:02 - K31VDSR, DU) Приход на ВУ НИ2" format="1"></var>
 <var  name="A3AD01LDU" description="(fds16:0b - K03FDSR, - ) Разрешение движения ИС1" format="1"></var>
 <var  name="A3CV02RDU" description="( - , DU) Заданная скорость перемещения ИС1" format="8"></var>
 <var  name="A3AB07LDU" description="( - , DU) Блокировка подъёма ИС1 Гомогенные двери не закрыты" format="1"></var>
@@ -571,12 +576,12 @@
 <var  name="A3AB20LDU" description="( - , DU) Блокировка выстрела ИС1 - клапан ВПИС1 закрыт" format="1"></var>
 <var  name="B3VS12LDU" description="( - , DU) Движение ИС2 в сторону ВУ" format="1"></var>
 <var  name="B3AB04LDU" description="( - , DU) Блокировка движения ИС2 нет перемещения  ИС1" format="1"></var>
-<var  name="B1AD05LDU" description="(fds16:08 - K14FDSR, - ) паритет команды на ББ2" format="1"></var>
-<var  name="B1AD01LDU" description="(fds16:08 - K10FDSR, - ) Разрешение движения ББ2" format="1"></var>
-<var  name="B1CV02RDU" description="( - , DU) Заданная скорость перемещения ББ2" format="8"></var>
-<var  name="B1AB07LDU" description="( - , DU) Блокировка подъёма ББ2 Гомогенные двери не закрыты" format="1"></var>
-<var  name="B1AB08LDU" description="( - , DU) Блокировка подъёма ББ2 - реактор не на рабочем месте" format="1"></var>
-<var  name="B1AB05LDU" description="( - , DU) Блокировка подъёма ББ2 -нет сигнала готовности СУЗ" format="1"></var>
+<var  name="B3AB02LDU" description="( - , DU) Блокировка движения ИС2: превышение заданной скорости" format="1"></var>
+<var  name="B3AB01LDU" description="( - , DU) Блокировка движения ИС2: скорость перемещения менее заданной" format="1"></var>
+<var  name="B3VS22LDU" description="( - , DU) Движение ИС2 в сторону НУ" format="1"></var>
+<var  name="B3AZ03LDU" description="( - , DU) Сброс РБ: Несанкционированное перемещение ИС2" format="1"></var>
+<var  name="B3AD11LDU" description="(fds16:0b - K08FDSR, - ) Сигнал на перемещение ИС2 вверх" format="1"></var>
+<var  name="B3AD21LDU" description="(fds16:0b - K09FDSR, - ) Сигнал на перемещение ИС2 вниз" format="1"></var>
 <var  name="B1AB06LDU" description="( - , DU) Блокировка подъёма ББ2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
 <var  name="B1AB09LDU" description="( - , DU) Блокировка подъёма ББ2- АНИ не установлен" format="1"></var>
 <var  name="B1AB10LDU" description="( - , DU) Блокировка подъёма ББ2- есть сигнал общего сброса" format="1"></var>
@@ -594,13 +599,12 @@
 <var  name="A3AB01LDU" description="( - , DU) Блокировка движения ИС1: скорость перемещения менее заданной" format="1"></var>
 <var  name="A3VS22LDU" description="( - , DU) Движение ИС1 в сторону НУ" format="1"></var>
 <var  name="A3AZ03LDU" description="( - , DU) Сброс РБ: Несанкционированное перемещение ИС1" format="1"></var>
-<var  name="B3AB18LDU" description="( - , DU) Блокировка подъёма ИС2- РБ-СТР ниже 80 мм" format="1"></var>
-<var  name="B3AB20LDU" description="( - , DU) Блокировка выстрела ИС2 - клапан ВПИС2 закрыт" format="1"></var>
-<var  name="C1MD31LP1" description="( - , DU) Кнопка СБРОС ББ" format="1"></var>
-<var  name="C1MD31LP2" description="( - , DU) Кнопка СБРОС ББ" format="1"></var>
-<var  name="A2AD31LDU" description="(fds16:0f - K04FDSR, DU) Клапан СБРОС РБ1 открыть (обесточить)" format="1"></var>
-<var  name="B2AD31LDU" description="(fds16:0f - K08FDSR, DU) Клапан Сброс РБ2 открыть (обесточить)" format="1"></var>
-<var  name="A1AD31LDU" description="(fds16:0f - K02FDSR, DU) Клапан СБРОС ББ1 открыть (обесточить)" format="1"></var>
+<var  name="A3AD11LDU" description="(fds16:0b - K01FDSR, - ) Сигнал на перемещение ИС1 вверх" format="1"></var>
+<var  name="A3AD21LDU" description="(fds16:0b - K02FDSR, - ) Сигнал на перемещение ИС1 вниз" format="1"></var>
+<var  name="A3AD02LDU" description="(fds16:0b - K04FDSR, - ) 0-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD03LDU" description="(fds16:0b - K05FDSR, - ) 1-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD04LDU" description="(fds16:0b - K06FDSR, - ) 2-й бит скорости ИС1" format="1"></var>
+<var  name="A3AD05LDU" description="(fds16:0b - K07FDSR, - ) паритет команды на ИС1" format="1"></var>
 <var  name="B1AD31LDU" description="(fds16:0f - K06FDSR, DU) Клапан СБРОС ББ2 открыть (обесточить)" format="1"></var>
 <var  name="A2AD32LDU" description="(fds16:0f - K03FDSR, - ) Обесточить ЭМ РБ1" format="1"></var>
 <var  name="B2AD32LDU" description="(fds16:0f - K07FDSR, - ) Обесточить ЭМ РБ2" format="1"></var>
@@ -617,12 +621,13 @@
 <var  name="R0AB04LDU" description="( - , DU) Нарушение времени срабатывания верхней АС II УР" format="1"></var>
 <var  name="R0AB06LDU" description="( - , DU) Нарушение времени задержки от ВУ РБ" format="1"></var>
 <var  name="R0AB02LDU" description="( - , DU) Нарушение времени задержки ИНИ" format="1"></var>
-<var  name="B3AB02LDU" description="( - , DU) Блокировка движения ИС2: превышение заданной скорости" format="1"></var>
-<var  name="B3AB01LDU" description="( - , DU) Блокировка движения ИС2: скорость перемещения менее заданной" format="1"></var>
-<var  name="B3VS22LDU" description="( - , DU) Движение ИС2 в сторону НУ" format="1"></var>
-<var  name="B3AZ03LDU" description="( - , DU) Сброс РБ: Несанкционированное перемещение ИС2" format="1"></var>
-<var  name="B3AD11LDU" description="(fds16:0b - K08FDSR, - ) Сигнал на перемещение ИС2 вверх" format="1"></var>
-<var  name="B3AD21LDU" description="(fds16:0b - K09FDSR, - ) Сигнал на перемещение ИС2 вниз" format="1"></var>
+<var  name="R0VL03RDU" description="( - , DU) Индикация (Время срабатывания АЗ от ВУ ИС)" format="8"></var>
+<var  name="R0VL05RDU" description="( - , DU) Индикация (Время срабатывания АЗ от НУП ИС)" format="8"></var>
+<var  name="R0VL21IDU" description="( - , DU) Декатрон" format="3"></var>
+<var  name="R0VX03LDU" description="( - , DU) Готовность 2 мин" format="1"></var>
+<var  name="R0VS21IDU" description="( - , DU) Индикация ВИД ПРОВЕРКИ" format="3"></var>
+<var  name="A1VS01IDU" description="( - , DU) Готовность к управлению ББ1" format="3"></var>
+<var  name="B1VS01IDU" description="( - , DU) Готовность к управлению ББ2" format="3"></var>
 <var  name="B3AD02LDU" description="(fds16:0b - K11FDSR, - ) 0-й бит скорости ИС2" format="1"></var>
 <var  name="B3AD03LDU" description="(fds16:0b - K12FDSR, - ) 1-й бит скорости ИС2" format="1"></var>
 <var  name="B3AD04LDU" description="(fds16:0b - K13FDSR, - ) 2-й бит скорости ИС2" format="1"></var>
@@ -640,11 +645,13 @@
 <var  name="B3AB14LDU" description="( - , DU) Блокировка подъёма ИС2- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
 <var  name="B3AB16LDU" description="( - , DU) Блокировка перемещения ИС2: выполняется программа 200 с" format="1"></var>
 <var  name="B3AB17LDU" description="( - , DU) Блокировка перемещения ИС2: выполняется программа 20 мин" format="1"></var>
-<var  name="B2CV02RDU" description="( - , DU) Заданная скорость перемещения РБ2" format="8"></var>
-<var  name="B2AB07LDU" description="( - , DU) Блокировка подъёма РБ2 Гомогенные двери не закрыты" format="1"></var>
-<var  name="B2AB08LDU" description="( - , DU) Блокировка подъёма РБ2 - реактор не на рабочем месте" format="1"></var>
-<var  name="B2AB05LDU" description="( - , DU) Блокировка подъёма РБ2 -нет сигнала готовности СУЗ" format="1"></var>
-<var  name="B2AB06LDU" description="( - , DU) Блокировка подъёма РБ2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var  name="B3AB18LDU" description="( - , DU) Блокировка подъёма ИС2- РБ-СТР ниже 80 мм" format="1"></var>
+<var  name="B3AB20LDU" description="( - , DU) Блокировка выстрела ИС2 - клапан ВПИС2 закрыт" format="1"></var>
+<var  name="C1MD31LP1" description="( - , DU) Кнопка СБРОС ББ" format="1"></var>
+<var  name="C1MD31LP2" description="( - , DU) Кнопка СБРОС ББ" format="1"></var>
+<var  name="A2AD31LDU" description="(fds16:0f - K04FDSR, DU) Клапан СБРОС РБ1 открыть (обесточить)" format="1"></var>
+<var  name="B2AD31LDU" description="(fds16:0f - K08FDSR, DU) Клапан Сброс РБ2 открыть (обесточить)" format="1"></var>
+<var  name="A1AD31LDU" description="(fds16:0f - K02FDSR, DU) Клапан СБРОС ББ1 открыть (обесточить)" format="1"></var>
 <var  name="B2AB09LDU" description="( - , DU) Блокировка подъёма РБ2- АНИ не установлен" format="1"></var>
 <var  name="B2AB10LDU" description="( - , DU) Блокировка подъёма РБ2- есть сигнал общего сброса" format="1"></var>
 <var  name="B2AB11LDU" description="( - , DU) Блокировка подъёма РБ2- АЗ2 или ДС2 не на заданной координате" format="1"></var>
@@ -663,10 +670,11 @@
 <var  name="R2AB04LDU" description="( - , DU) Блокировка движения МДЗ2 -Ошибка в направлении  движения" format="1"></var>
 <var  name="R1AD10LDU" description="(fds16:0a - K07FDSR, - ) Опустить МДЗ1" format="1"></var>
 <var  name="R1AD20LDU" description="(fds16:0a - K08FDSR, - ) Поднять МДЗ1" format="1"></var>
-<var  name="A2AB06LDU" description="( - , DU) Блокировка подъёма РБ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
-<var  name="A2AB09LDU" description="( - , DU) Блокировка подъёма РБ1- АНИ не установлен" format="1"></var>
-<var  name="A2AB10LDU" description="( - , DU) Блокировка подъёма РБ1- есть сигнал общего сброса" format="1"></var>
-<var  name="A2AB11LDU" description="( - , DU) Блокировка подъёма РБ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var  name="R1IS11LDU" description="(vds32:02 - K27VDSR, DU) Приход на ВУ МДЗ1" format="1"></var>
+<var  name="R1VS22LDU" description="(vds32:0d - K06VDSR, DU) Движение МДЗ1 в сторону НУ" format="1"></var>
+<var  name="R2VS22LDU" description="(vds32:0d - K09VDSR, DU) Движение МДЗ2 в сторону НУ" format="1"></var>
+<var  name="R2VS12LDU" description="(vds32:0d - K08VDSR, DU) Движение МДЗ2 в сторону ВУ" format="1"></var>
+<var  name="R1VS12LDU" description="(vds32:0d - K05VDSR, DU) Движение МДЗ1 в сторону ВУ" format="1"></var>
 <var  name="A2AB12LDU" description="( - , DU) Блокировка подъёма РБ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
 <var  name="A2AB13LDU" description="( - , DU) Блокировка подъёма РБ1- давление в пневмосистеме сброса РБ ниже ПС" format="1"></var>
 <var  name="A2AB14LDU" description="( - , DU) Блокировка подъёма РБ1- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
@@ -686,12 +694,11 @@
 <var  name="B2AD04LDU" description="(fds16:07 - K13FDSR, - ) 2-й бит скорости РБ2" format="1"></var>
 <var  name="B2AD05LDU" description="(fds16:07 - K14FDSR, - ) паритет команды на РБ2" format="1"></var>
 <var  name="B2AD01LDU" description="(fds16:07 - K10FDSR, - ) Разрешение движения РБ2" format="1"></var>
-<var  name="A1AB05LDU" description="( - , DU) Блокировка подъёма ББ1 -нет сигнала готовности СУЗ" format="1"></var>
-<var  name="A1AB06LDU" description="( - , DU) Блокировка подъёма ББ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
-<var  name="A1AB09LDU" description="( - , DU) Блокировка подъёма ББ1- АНИ не установлен" format="1"></var>
-<var  name="A1AB10LDU" description="( - , DU) Блокировка подъёма ББ1- есть сигнал общего сброса" format="1"></var>
-<var  name="A1AB11LDU" description="( - , DU) Блокировка подъёма ББ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
-<var  name="A1AB12LDU" description="( - , DU) Блокировка подъёма ББ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
+<var  name="B2CV02RDU" description="( - , DU) Заданная скорость перемещения РБ2" format="8"></var>
+<var  name="B2AB07LDU" description="( - , DU) Блокировка подъёма РБ2 Гомогенные двери не закрыты" format="1"></var>
+<var  name="B2AB08LDU" description="( - , DU) Блокировка подъёма РБ2 - реактор не на рабочем месте" format="1"></var>
+<var  name="B2AB05LDU" description="( - , DU) Блокировка подъёма РБ2 -нет сигнала готовности СУЗ" format="1"></var>
+<var  name="B2AB06LDU" description="( - , DU) Блокировка подъёма РБ2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
 <var  name="A1AB13LDU" description="( - , DU) Блокировка подъёма ББ1- давление в пневмосистеме сброса ББ1 ниже АС" format="1"></var>
 <var  name="A1AB14LDU" description="( - , DU) Блокировка подъёма ББ1- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
 <var  name="A1AB16LDU" description="( - , DU) Блокировка перемещения ББ1: выполняется программа 200 с" format="1"></var>
@@ -709,11 +716,12 @@
 <var  name="B1AD02LDU" description="(fds16:08 - K11FDSR, - ) 0-й бит скорости ББ2" format="1"></var>
 <var  name="B1AD03LDU" description="(fds16:08 - K12FDSR, - ) 1-й бит скорости ББ2" format="1"></var>
 <var  name="B1AD04LDU" description="(fds16:08 - K13FDSR, - ) 2-й бит скорости ББ2" format="1"></var>
-<var  name="R1IS11LDU" description="(vds32:02 - K27VDSR, DU) Приход на ВУ МДЗ1" format="1"></var>
-<var  name="R1VS22LDU" description="(vds32:0d - K06VDSR, DU) Движение МДЗ1 в сторону НУ" format="1"></var>
-<var  name="R2VS22LDU" description="(vds32:0d - K09VDSR, DU) Движение МДЗ2 в сторону НУ" format="1"></var>
-<var  name="R2VS12LDU" description="(vds32:0d - K08VDSR, DU) Движение МДЗ2 в сторону ВУ" format="1"></var>
-<var  name="R1VS12LDU" description="(vds32:0d - K05VDSR, DU) Движение МДЗ1 в сторону ВУ" format="1"></var>
+<var  name="B1AD05LDU" description="(fds16:08 - K14FDSR, - ) паритет команды на ББ2" format="1"></var>
+<var  name="B1AD01LDU" description="(fds16:08 - K10FDSR, - ) Разрешение движения ББ2" format="1"></var>
+<var  name="B1CV02RDU" description="( - , DU) Заданная скорость перемещения ББ2" format="8"></var>
+<var  name="B1AB07LDU" description="( - , DU) Блокировка подъёма ББ2 Гомогенные двери не закрыты" format="1"></var>
+<var  name="B1AB08LDU" description="( - , DU) Блокировка подъёма ББ2 - реактор не на рабочем месте" format="1"></var>
+<var  name="B1AB05LDU" description="( - , DU) Блокировка подъёма ББ2 -нет сигнала готовности СУЗ" format="1"></var>
 <var  name="R2IS11LDU" description="(vds32:02 - K29VDSR, DU) Приход на ВУ МДЗ2" format="1"></var>
 <var  name="A1VS12LDU" description="( - , DU) Движение ББ1 в сторону ВУ" format="1"></var>
 <var  name="A1CV01RDU" description="( - , DU) Измеренная скорость перемещения ББ1" format="8"></var>
@@ -732,6 +740,12 @@
 <var  name="A1CV02RDU" description="( - , DU) Заданная скорость перемещения ББ1" format="8"></var>
 <var  name="A1AB07LDU" description="( - , DU) Блокировка подъёма ББ1 Гомогенные двери не закрыты" format="1"></var>
 <var  name="A1AB08LDU" description="( - , DU) Блокировка подъёма ББ1 - реактор не на рабочем месте" format="1"></var>
+<var  name="A1AB05LDU" description="( - , DU) Блокировка подъёма ББ1 -нет сигнала готовности СУЗ" format="1"></var>
+<var  name="A1AB06LDU" description="( - , DU) Блокировка подъёма ББ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var  name="A1AB09LDU" description="( - , DU) Блокировка подъёма ББ1- АНИ не установлен" format="1"></var>
+<var  name="A1AB10LDU" description="( - , DU) Блокировка подъёма ББ1- есть сигнал общего сброса" format="1"></var>
+<var  name="A1AB11LDU" description="( - , DU) Блокировка подъёма ББ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var  name="A1AB12LDU" description="( - , DU) Блокировка подъёма ББ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
 
 <var  name="fEM_A1UC03RDU" description="(A1UC03RDU) Коэффициент преобразования показаний энкодера ББ, мм/дел.энкодера" format="8"></var>
 <var  name="dEM_A1UC05UDU" description="(A1UC05UDU) Верхняя граница показания энкодера ББ, деления энкодера" format="5"></var>
@@ -950,6 +964,34 @@
 <var  name="internal2_m53_SetFlag" description="(internal2_m53_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
 <var  name="internal2_m15_Nk0" description="(internal2_m15_Nk0) Nk0 - предыдущее показание энкодера, в тиках" format="5"></var>
 <var  name="internal2_m15_SetFlag" description="(internal2_m15_SetFlag) SetFlag - признак записи смещения в ЭСППЗУ" format="1"></var>
+<var  name="internal1_m2565_tx" description="(internal1_m2565_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2565_y0" description="(internal1_m2565_y0) y0" format="18"></var>
+<var  name="internal1_m2573_tx" description="(internal1_m2573_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2573_y0" description="(internal1_m2573_y0) y0" format="18"></var>
+<var  name="internal1_m2571_tx" description="(internal1_m2571_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2571_y0" description="(internal1_m2571_y0) y0" format="18"></var>
+<var  name="internal1_m2569_tx" description="(internal1_m2569_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2569_y0" description="(internal1_m2569_y0) y0" format="18"></var>
+<var  name="internal1_m2567_tx" description="(internal1_m2567_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2567_y0" description="(internal1_m2567_y0) y0" format="18"></var>
+<var  name="internal1_m2563_tx" description="(internal1_m2563_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2563_y0" description="(internal1_m2563_y0) y0" format="18"></var>
+<var  name="internal1_m2561_tx" description="(internal1_m2561_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2561_y0" description="(internal1_m2561_y0) y0" format="18"></var>
+<var  name="internal1_m2559_tx" description="(internal1_m2559_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2559_y0" description="(internal1_m2559_y0) y0" format="18"></var>
+<var  name="internal1_m2557_tx" description="(internal1_m2557_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2557_y0" description="(internal1_m2557_y0) y0" format="18"></var>
+<var  name="internal1_m2555_tx" description="(internal1_m2555_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2555_y0" description="(internal1_m2555_y0) y0" format="18"></var>
+<var  name="internal1_m2553_tx" description="(internal1_m2553_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2553_y0" description="(internal1_m2553_y0) y0" format="18"></var>
+<var  name="internal1_m2551_tx" description="(internal1_m2551_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2551_y0" description="(internal1_m2551_y0) y0" format="18"></var>
+<var  name="internal1_m2549_tx" description="(internal1_m2549_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2549_y0" description="(internal1_m2549_y0) y0" format="18"></var>
+<var  name="internal1_m2547_tx" description="(internal1_m2547_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2547_y0" description="(internal1_m2547_y0) y0" format="18"></var>
 <var  name="internal1_m2097_x0" description="(internal1_m2097_x0) - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m2097_tim" description="(internal1_m2097_tim) - время задержки выходного сигнала" format="8"></var>
 <var  name="internal1_m1673_tx" description="(internal1_m1673_tx) tx - время накопленное сек" format="8"></var>
@@ -972,8 +1014,8 @@
 <var  name="internal1_m795_tx" description="(internal1_m795_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m792_tx" description="(internal1_m792_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m791_tx" description="(internal1_m791_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m746_tx" description="(internal1_m746_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m732_tx" description="(internal1_m732_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m747_tx" description="(internal1_m747_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m731_tx" description="(internal1_m731_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m742_tx" description="(internal1_m742_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m773_tx" description="(internal1_m773_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m790_tx" description="(internal1_m790_tx) tx - внутренний параметр" format="8"></var>
@@ -998,14 +1040,14 @@
 <var  name="internal1_m2178_tx" description="(internal1_m2178_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2467_tx" description="(internal1_m2467_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2466_tx" description="(internal1_m2466_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2464_tx" description="(internal1_m2464_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m2463_tx" description="(internal1_m2463_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m108_tx" description="(internal1_m108_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1144_tx" description="(internal1_m1144_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2326_tx" description="(internal1_m2326_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2325_tx" description="(internal1_m2325_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2324_tx" description="(internal1_m2324_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1257_tx" description="(internal1_m1257_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1256_tx" description="(internal1_m1256_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1255_tx" description="(internal1_m1255_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1251_tx" description="(internal1_m1251_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1244_tx" description="(internal1_m1244_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1242_tx" description="(internal1_m1242_tx) tx - внутренний параметр" format="8"></var>
@@ -1052,7 +1094,7 @@
 <var  name="internal1_m1530_tx" description="(internal1_m1530_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1503_tx" description="(internal1_m1503_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1502_tx" description="(internal1_m1502_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1509_tx" description="(internal1_m1509_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1512_tx" description="(internal1_m1512_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1515_tx" description="(internal1_m1515_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m982_tx" description="(internal1_m982_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m985_tx" description="(internal1_m985_tx) tx - внутренний параметр" format="8"></var>
@@ -1060,14 +1102,14 @@
 <var  name="internal1_m975_tx" description="(internal1_m975_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m973_tx" description="(internal1_m973_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m981_tx" description="(internal1_m981_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m965_tx" description="(internal1_m965_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m963_tx" description="(internal1_m963_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m967_tx" description="(internal1_m967_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m960_tx" description="(internal1_m960_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m959_tx" description="(internal1_m959_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m980_tx" description="(internal1_m980_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m947_tx" description="(internal1_m947_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m948_tx" description="(internal1_m948_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m945_tx" description="(internal1_m945_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m632_tx" description="(internal1_m632_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m946_tx" description="(internal1_m946_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m953_tx" description="(internal1_m953_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m633_tx" description="(internal1_m633_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m636_tx" description="(internal1_m636_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m635_tx" description="(internal1_m635_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m624_tx" description="(internal1_m624_tx) tx - внутренний параметр" format="8"></var>
@@ -1077,7 +1119,7 @@
 <var  name="internal1_m608_tx" description="(internal1_m608_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m607_tx" description="(internal1_m607_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m603_tx" description="(internal1_m603_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m633_tx" description="(internal1_m633_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m634_tx" description="(internal1_m634_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m591_tx" description="(internal1_m591_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m590_tx" description="(internal1_m590_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m593_tx" description="(internal1_m593_tx) tx - внутренний параметр" format="8"></var>
@@ -1127,8 +1169,8 @@
 <var  name="internal1_m1085_tx" description="(internal1_m1085_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2261_tx" description="(internal1_m2261_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1093_tx" description="(internal1_m1093_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1074_tx" description="(internal1_m1074_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1073_tx" description="(internal1_m1073_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1071_tx" description="(internal1_m1071_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1070_tx" description="(internal1_m1070_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1092_tx" description="(internal1_m1092_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1060_tx" description="(internal1_m1060_tx) tx - внутренний параметр" format="8"></var>
@@ -1141,21 +1183,21 @@
 <var  name="internal1_m1461_tx" description="(internal1_m1461_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1460_tx" description="(internal1_m1460_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2214_tx" description="(internal1_m2214_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1452_tx" description="(internal1_m1452_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1453_tx" description="(internal1_m1453_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1451_tx" description="(internal1_m1451_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1459_tx" description="(internal1_m1459_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1442_tx" description="(internal1_m1442_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1441_tx" description="(internal1_m1441_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1439_tx" description="(internal1_m1439_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1438_tx" description="(internal1_m1438_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1437_tx" description="(internal1_m1437_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1458_tx" description="(internal1_m1458_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1423_tx" description="(internal1_m1423_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1424_tx" description="(internal1_m1424_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1422_tx" description="(internal1_m1422_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1425_tx" description="(internal1_m1425_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1431_tx" description="(internal1_m1431_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m251_tx" description="(internal1_m251_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m266_tx" description="(internal1_m266_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m274_tx" description="(internal1_m274_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m273_tx" description="(internal1_m273_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m272_tx" description="(internal1_m272_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m257_tx" description="(internal1_m257_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m259_tx" description="(internal1_m259_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m254_tx" description="(internal1_m254_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m270_tx" description="(internal1_m270_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m242_tx" description="(internal1_m242_tx) tx - внутренний параметр" format="8"></var>
@@ -1171,13 +1213,12 @@
 <var  name="internal1_m210_tx" description="(internal1_m210_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1404_tx" description="(internal1_m1404_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1386_tx" description="(internal1_m1386_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1391_tx" description="(internal1_m1391_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1407_tx" description="(internal1_m1407_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1387_tx" description="(internal1_m1387_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m1408_tx" description="(internal1_m1408_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m925_tx" description="(internal1_m925_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m930_tx" description="(internal1_m930_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m920_tx" description="(internal1_m920_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m921_tx" description="(internal1_m921_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m2519_sttlf" description="(internal1_m2519_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m1909_q0" description="(internal1_m1909_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2351_q0" description="(internal1_m2351_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2335_q0" description="(internal1_m2335_q0) q0 - внутренний параметр" format="1"></var>
@@ -1203,9 +1244,9 @@
 <var  name="internal1_m2376_q0" description="(internal1_m2376_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2239_tx" description="(internal1_m2239_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m2218_tx" description="(internal1_m2218_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m1931_Pv0" description="(internal1_m1931_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m1931_Zv0" description="(internal1_m1931_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m1931_MyFirstEnterFlag" description="(internal1_m1931_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m1932_Pv0" description="(internal1_m1932_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m1932_Zv0" description="(internal1_m1932_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m1932_MyFirstEnterFlag" description="(internal1_m1932_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m1930_Pv0" description="(internal1_m1930_Pv0)  - Пер. выключатель механизма" format="1"></var>
 <var  name="internal1_m1930_Zv0" description="(internal1_m1930_Zv0)  - Зад. выключатель механизма" format="1"></var>
 <var  name="internal1_m1930_MyFirstEnterFlag" description="(internal1_m1930_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
@@ -1262,7 +1303,7 @@
 <var  name="internal1_m2165_tx" description="(internal1_m2165_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m52_tx" description="(internal1_m52_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m364_tx" description="(internal1_m364_tx) tx - внутренний параметр" format="8"></var>
-<var  name="internal1_m318_tx" description="(internal1_m318_tx) tx - внутренний параметр" format="8"></var>
+<var  name="internal1_m319_tx" description="(internal1_m319_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m831_tx" description="(internal1_m831_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m1623_tx" description="(internal1_m1623_tx) tx - внутренний параметр" format="8"></var>
 <var  name="internal1_m120_tx" description="(internal1_m120_tx) tx - внутренний параметр" format="8"></var>
@@ -1281,11 +1322,11 @@
 <var  name="internal1_m2073_y0" description="(internal1_m2073_y0) y0" format="18"></var>
 <var  name="internal1_m2087_q0" description="(internal1_m2087_q0) q0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m1644_q0" description="(internal1_m1644_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1686_q0" description="(internal1_m1686_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m1682_q0" description="(internal1_m1682_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1685_q0" description="(internal1_m1685_q0) q0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m1688_q0" description="(internal1_m1688_q0) q0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m2127_q0" description="(internal1_m2127_q0) q0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m2104_tx" description="(internal1_m2104_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m2104_y0" description="(internal1_m2104_y0) y0" format="18"></var>
+<var  name="internal1_m2105_tx" description="(internal1_m2105_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m2105_y0" description="(internal1_m2105_y0) y0" format="18"></var>
 <var  name="internal1_m2120_tx" description="(internal1_m2120_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m2120_y0" description="(internal1_m2120_y0) y0" format="18"></var>
 <var  name="internal1_m2117_tx" description="(internal1_m2117_tx) tx - время накопленное сек" format="8"></var>
@@ -1302,8 +1343,8 @@
 <var  name="internal1_m2024_y0" description="(internal1_m2024_y0) y0" format="18"></var>
 <var  name="internal1_m2023_tx" description="(internal1_m2023_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m2023_y0" description="(internal1_m2023_y0) y0" format="18"></var>
-<var  name="internal1_m1698_tx" description="(internal1_m1698_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m1698_y0" description="(internal1_m1698_y0) y0" format="18"></var>
+<var  name="internal1_m1697_tx" description="(internal1_m1697_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m1697_y0" description="(internal1_m1697_y0) y0" format="18"></var>
 <var  name="internal1_m1692_tx" description="(internal1_m1692_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m1692_y0" description="(internal1_m1692_y0) y0" format="18"></var>
 <var  name="internal1_m1639_tx" description="(internal1_m1639_tx) tx - время накопленное сек" format="8"></var>
@@ -1350,15 +1391,15 @@
 <var  name="internal1_m1633_tim" description="(internal1_m1633_tim) - время задержки выходного сигнала" format="8"></var>
 <var  name="internal1_m1681_x0" description="(internal1_m1681_x0) - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m1681_tim" description="(internal1_m1681_tim) - время задержки выходного сигнала" format="8"></var>
-<var  name="internal1_m1688_x0" description="(internal1_m1688_x0) - значение входного параметра на предыдущем шаге" format="1"></var>
-<var  name="internal1_m1688_tim" description="(internal1_m1688_tim) - время задержки выходного сигнала" format="8"></var>
+<var  name="internal1_m1687_x0" description="(internal1_m1687_x0) - значение входного параметра на предыдущем шаге" format="1"></var>
+<var  name="internal1_m1687_tim" description="(internal1_m1687_tim) - время задержки выходного сигнала" format="8"></var>
 <var  name="internal1_m2068_x0" description="(internal1_m2068_x0) - значение входного параметра на предыдущем шаге" format="1"></var>
 <var  name="internal1_m2068_tim" description="(internal1_m2068_tim) - время задержки выходного сигнала" format="8"></var>
 <var  name="internal1_m1152_q0" description="(internal1_m1152_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1164_q0" description="(internal1_m1164_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1158_q0" description="(internal1_m1158_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1176_q0" description="(internal1_m1176_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1188_q0" description="(internal1_m1188_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1163_q0" description="(internal1_m1163_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m1164_q0" description="(internal1_m1164_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1178_q0" description="(internal1_m1178_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2154_q0" description="(internal1_m2154_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2153_q0" description="(internal1_m2153_q0) q0 - внутренний параметр" format="1"></var>
@@ -1374,8 +1415,8 @@
 <var  name="internal1_m352_sbVuRB0" description="(internal1_m352_sbVuRB0) sbVuRB - запуск проверки сброса от ВУ РБ" format="1"></var>
 <var  name="internal1_m352_MyFirstEnterFlag" description="(internal1_m352_MyFirstEnterFlag)  " format="1"></var>
 <var  name="internal1_m360_x0" description="(internal1_m360_x0) x0 - значение входного параметра на предыдущем шаге" format="5"></var>
-<var  name="internal1_m317_TimS" description="(internal1_m317_TimS) Время до нулевого отсчета" format="8"></var>
-<var  name="internal1_m317_pusk0" description="(internal1_m317_pusk0) pusk - разрешение выполнения программы" format="1"></var>
+<var  name="internal1_m318_TimS" description="(internal1_m318_TimS) Время до нулевого отсчета" format="8"></var>
+<var  name="internal1_m318_pusk0" description="(internal1_m318_pusk0) pusk - разрешение выполнения программы" format="1"></var>
 <var  name="internal1_m294_Step" description="(internal1_m294_Step)  - текущий шаг программы" format="3"></var>
 <var  name="internal1_m294_rz" description="(internal1_m294_rz) - результат проверки 0-не запускалась, 1-запущена, 2-приостановлена, 3-успешно завершена, 4-ошибка" format="18" size="10"></var>
 <var  name="internal1_m294_TimS" description="(internal1_m294_TimS) Время от старта программы" format="8"></var>
@@ -1412,7 +1453,7 @@
 <var  name="internal1_m2076_q0" description="(internal1_m2076_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2071_q0" description="(internal1_m2071_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2137_q0" description="(internal1_m2137_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m2107_q0" description="(internal1_m2107_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m2108_q0" description="(internal1_m2108_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m2096_q0" description="(internal1_m2096_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1660_q0" description="(internal1_m1660_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1647_x0" description="(internal1_m1647_x0) был приход сигнала x1" format="1"></var>
@@ -1432,7 +1473,7 @@
 <var  name="internal1_m1717_q0" description="(internal1_m1717_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m707_q0" description="(internal1_m707_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m692_q0" description="(internal1_m692_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m720_q0" description="(internal1_m720_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m718_q0" description="(internal1_m718_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m703_q0" description="(internal1_m703_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m687_q0" description="(internal1_m687_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m685_q0" description="(internal1_m685_q0) q0 - внутренний параметр" format="1"></var>
@@ -1512,9 +1553,9 @@
 <var  name="internal1_m2315_txLd" description="(internal1_m2315_txLd) txLd - счётчик задержки сигнализации превышения времени перемещения" format="8"></var>
 <var  name="internal1_m2315_fef" description="(internal1_m2315_fef) fef" format="18"></var>
 <var  name="internal1_m1675_q0" description="(internal1_m1675_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m1701_x0" description="(internal1_m1701_x0) был приход сигнала x1" format="1"></var>
-<var  name="internal1_m1701_y0" description="(internal1_m1701_y0) интервал между сигналами х1 и х2" format="8"></var>
-<var  name="internal1_m1701_fef" description="(internal1_m1701_fef) FirstEnterFlag" format="1"></var>
+<var  name="internal1_m1700_x0" description="(internal1_m1700_x0) был приход сигнала x1" format="1"></var>
+<var  name="internal1_m1700_y0" description="(internal1_m1700_y0) интервал между сигналами х1 и х2" format="8"></var>
+<var  name="internal1_m1700_fef" description="(internal1_m1700_fef) FirstEnterFlag" format="1"></var>
 <var  name="internal1_m2119_x0" description="(internal1_m2119_x0) был приход сигнала x1" format="1"></var>
 <var  name="internal1_m2119_y0" description="(internal1_m2119_y0) интервал между сигналами х1 и х2" format="8"></var>
 <var  name="internal1_m2119_fef" description="(internal1_m2119_fef) FirstEnterFlag" format="1"></var>
@@ -1801,10 +1842,10 @@
 <var  name="internal1_m851_q0" description="(internal1_m851_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m846_q0" description="(internal1_m846_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m814_q0" description="(internal1_m814_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m818_q0" description="(internal1_m818_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m819_q0" description="(internal1_m819_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m827_q0" description="(internal1_m827_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m839_q0" description="(internal1_m839_q0) q0 - внутренний параметр" format="1"></var>
-<var  name="internal1_m816_q0" description="(internal1_m816_q0) q0 - внутренний параметр" format="1"></var>
+<var  name="internal1_m817_q0" description="(internal1_m817_q0) q0 - внутренний параметр" format="1"></var>
 <var  name="internal1_m1339_DvUp0" description="(internal1_m1339_DvUp0) - есть команда на движение вперёд" format="18"></var>
 <var  name="internal1_m1339_DvDw0" description="(internal1_m1339_DvDw0) - есть команда на движение назад" format="18"></var>
 <var  name="internal1_m1339_FDvUp0" description="(internal1_m1339_FDvUp0) - есть команда на движение вперёд" format="18"></var>

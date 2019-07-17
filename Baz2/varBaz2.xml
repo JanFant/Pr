@@ -204,7 +204,6 @@
 <var  name="internal1_m140_y0" description="(internal1_m140_y0) y0" format="18"></var>
 <var  name="internal1_m139_tx" description="(internal1_m139_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m139_y0" description="(internal1_m139_y0) y0" format="18"></var>
-<var  name="internal1_m307_sttlf" description="(internal1_m307_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m33_tx" description="(internal1_m33_tx) tx - внутренний параметр" format="3"></var>
 <var  name="internal1_m150_y0" description="(internal1_m150_y0) y0" format="8"></var>
 <var  name="internal1_m148_y0" description="(internal1_m148_y0) y0" format="8"></var>

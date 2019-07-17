@@ -132,7 +132,6 @@
 <var  name="fEM_R0IN72NRP" description="(R0IN72NRP) Коэффициент B (РПУ к 7)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m138_sttlf" description="(internal1_m138_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m70_tx" description="(internal1_m70_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m70_y0" description="(internal1_m70_y0) y0" format="18"></var>

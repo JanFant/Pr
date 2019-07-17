@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 638
-static char BUFFER[638];
+#define SIZE_BUFFER 635
+static char BUFFER[635];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.52\0", 5432, "192.168.10.152\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -407,44 +407,42 @@ int nomer = 1;
 #define idinternal1_m134_tx	 196	//(internal1_m134_tx) tx - время накопленное сек
 #define internal1_m134_y0	 BUFFER[580]	//(internal1_m134_y0) y0
 #define idinternal1_m134_y0	 197	//(internal1_m134_y0) y0
-#define internal1_m306_sttlf	 BUFFER[581]	//(internal1_m306_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m306_sttlf	 198	//(internal1_m306_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m225_tx	 BUFFER[584]	//(internal1_m225_tx) tx - время накопленное сек
-#define idinternal1_m225_tx	 199	//(internal1_m225_tx) tx - время накопленное сек
-#define internal1_m225_y0	 BUFFER[589]	//(internal1_m225_y0) y0
-#define idinternal1_m225_y0	 200	//(internal1_m225_y0) y0
-#define internal1_m33_tx	 BUFFER[590]	//(internal1_m33_tx) tx - внутренний параметр
-#define idinternal1_m33_tx	 201	//(internal1_m33_tx) tx - внутренний параметр
-#define internal1_m148_y0	 BUFFER[593]	//(internal1_m148_y0) y0
-#define idinternal1_m148_y0	 202	//(internal1_m148_y0) y0
-#define internal1_m146_y0	 BUFFER[598]	//(internal1_m146_y0) y0
-#define idinternal1_m146_y0	 203	//(internal1_m146_y0) y0
-#define internal1_m92_y0	 BUFFER[603]	//(internal1_m92_y0) y0
-#define idinternal1_m92_y0	 204	//(internal1_m92_y0) y0
-#define internal1_m90_y0	 BUFFER[608]	//(internal1_m90_y0) y0
-#define idinternal1_m90_y0	 205	//(internal1_m90_y0) y0
-#define internal1_m159_y1	 BUFFER[613]	//(internal1_m159_y1) y1 - внутренний параметр
-#define idinternal1_m159_y1	 206	//(internal1_m159_y1) y1 - внутренний параметр
-#define internal1_m170_y1	 BUFFER[615]	//(internal1_m170_y1) y1 - внутренний параметр
-#define idinternal1_m170_y1	 207	//(internal1_m170_y1) y1 - внутренний параметр
-#define internal1_m280_q0	 BUFFER[617]	//(internal1_m280_q0) q0 - внутренний параметр
-#define idinternal1_m280_q0	 208	//(internal1_m280_q0) q0 - внутренний параметр
-#define internal1_m128_y0	 BUFFER[622]	//(internal1_m128_y0) state
-#define idinternal1_m128_y0	 209	//(internal1_m128_y0) state
-#define internal1_m124_y0	 BUFFER[624]	//(internal1_m124_y0) state
-#define idinternal1_m124_y0	 210	//(internal1_m124_y0) state
-#define internal1_m106_y1	 BUFFER[626]	//(internal1_m106_y1) y1 - внутренний параметр
-#define idinternal1_m106_y1	 211	//(internal1_m106_y1) y1 - внутренний параметр
-#define internal1_m121_y1	 BUFFER[628]	//(internal1_m121_y1) y1 - внутренний параметр
-#define idinternal1_m121_y1	 212	//(internal1_m121_y1) y1 - внутренний параметр
-#define internal1_m94_y1	 BUFFER[630]	//(internal1_m94_y1) y1 - внутренний параметр
-#define idinternal1_m94_y1	 213	//(internal1_m94_y1) y1 - внутренний параметр
-#define internal1_m104_y1	 BUFFER[632]	//(internal1_m104_y1) y1 - внутренний параметр
-#define idinternal1_m104_y1	 214	//(internal1_m104_y1) y1 - внутренний параметр
-#define internal1_m156_y1	 BUFFER[634]	//(internal1_m156_y1) y1 - внутренний параметр
-#define idinternal1_m156_y1	 215	//(internal1_m156_y1) y1 - внутренний параметр
-#define internal1_m167_y1	 BUFFER[636]	//(internal1_m167_y1) y1 - внутренний параметр
-#define idinternal1_m167_y1	 216	//(internal1_m167_y1) y1 - внутренний параметр
+#define internal1_m225_tx	 BUFFER[581]	//(internal1_m225_tx) tx - время накопленное сек
+#define idinternal1_m225_tx	 198	//(internal1_m225_tx) tx - время накопленное сек
+#define internal1_m225_y0	 BUFFER[586]	//(internal1_m225_y0) y0
+#define idinternal1_m225_y0	 199	//(internal1_m225_y0) y0
+#define internal1_m33_tx	 BUFFER[587]	//(internal1_m33_tx) tx - внутренний параметр
+#define idinternal1_m33_tx	 200	//(internal1_m33_tx) tx - внутренний параметр
+#define internal1_m148_y0	 BUFFER[590]	//(internal1_m148_y0) y0
+#define idinternal1_m148_y0	 201	//(internal1_m148_y0) y0
+#define internal1_m146_y0	 BUFFER[595]	//(internal1_m146_y0) y0
+#define idinternal1_m146_y0	 202	//(internal1_m146_y0) y0
+#define internal1_m92_y0	 BUFFER[600]	//(internal1_m92_y0) y0
+#define idinternal1_m92_y0	 203	//(internal1_m92_y0) y0
+#define internal1_m90_y0	 BUFFER[605]	//(internal1_m90_y0) y0
+#define idinternal1_m90_y0	 204	//(internal1_m90_y0) y0
+#define internal1_m159_y1	 BUFFER[610]	//(internal1_m159_y1) y1 - внутренний параметр
+#define idinternal1_m159_y1	 205	//(internal1_m159_y1) y1 - внутренний параметр
+#define internal1_m170_y1	 BUFFER[612]	//(internal1_m170_y1) y1 - внутренний параметр
+#define idinternal1_m170_y1	 206	//(internal1_m170_y1) y1 - внутренний параметр
+#define internal1_m280_q0	 BUFFER[614]	//(internal1_m280_q0) q0 - внутренний параметр
+#define idinternal1_m280_q0	 207	//(internal1_m280_q0) q0 - внутренний параметр
+#define internal1_m128_y0	 BUFFER[619]	//(internal1_m128_y0) state
+#define idinternal1_m128_y0	 208	//(internal1_m128_y0) state
+#define internal1_m124_y0	 BUFFER[621]	//(internal1_m124_y0) state
+#define idinternal1_m124_y0	 209	//(internal1_m124_y0) state
+#define internal1_m106_y1	 BUFFER[623]	//(internal1_m106_y1) y1 - внутренний параметр
+#define idinternal1_m106_y1	 210	//(internal1_m106_y1) y1 - внутренний параметр
+#define internal1_m121_y1	 BUFFER[625]	//(internal1_m121_y1) y1 - внутренний параметр
+#define idinternal1_m121_y1	 211	//(internal1_m121_y1) y1 - внутренний параметр
+#define internal1_m94_y1	 BUFFER[627]	//(internal1_m94_y1) y1 - внутренний параметр
+#define idinternal1_m94_y1	 212	//(internal1_m94_y1) y1 - внутренний параметр
+#define internal1_m104_y1	 BUFFER[629]	//(internal1_m104_y1) y1 - внутренний параметр
+#define idinternal1_m104_y1	 213	//(internal1_m104_y1) y1 - внутренний параметр
+#define internal1_m156_y1	 BUFFER[631]	//(internal1_m156_y1) y1 - внутренний параметр
+#define idinternal1_m156_y1	 214	//(internal1_m156_y1) y1 - внутренний параметр
+#define internal1_m167_y1	 BUFFER[633]	//(internal1_m167_y1) y1 - внутренний параметр
+#define idinternal1_m167_y1	 215	//(internal1_m167_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,5	,1	, &R0VZ05UZ1},	//( - , Baz1) Индикатор причины сброса
@@ -644,25 +642,24 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 195	,18	,1	, &internal1_m135_y0},	//(internal1_m135_y0) y0
 	{ 196	,8	,1	, &internal1_m134_tx},	//(internal1_m134_tx) tx - время накопленное сек
 	{ 197	,18	,1	, &internal1_m134_y0},	//(internal1_m134_y0) y0
-	{ 198	,3	,1	, &internal1_m306_sttlf},	//(internal1_m306_sttlf) sttlf - счетчик для вещественного формата
-	{ 199	,8	,1	, &internal1_m225_tx},	//(internal1_m225_tx) tx - время накопленное сек
-	{ 200	,18	,1	, &internal1_m225_y0},	//(internal1_m225_y0) y0
-	{ 201	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
-	{ 202	,8	,1	, &internal1_m148_y0},	//(internal1_m148_y0) y0
-	{ 203	,8	,1	, &internal1_m146_y0},	//(internal1_m146_y0) y0
-	{ 204	,8	,1	, &internal1_m92_y0},	//(internal1_m92_y0) y0
-	{ 205	,8	,1	, &internal1_m90_y0},	//(internal1_m90_y0) y0
-	{ 206	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
-	{ 207	,1	,1	, &internal1_m170_y1},	//(internal1_m170_y1) y1 - внутренний параметр
-	{ 208	,5	,1	, &internal1_m280_q0},	//(internal1_m280_q0) q0 - внутренний параметр
-	{ 209	,1	,1	, &internal1_m128_y0},	//(internal1_m128_y0) state
-	{ 210	,1	,1	, &internal1_m124_y0},	//(internal1_m124_y0) state
-	{ 211	,1	,1	, &internal1_m106_y1},	//(internal1_m106_y1) y1 - внутренний параметр
-	{ 212	,1	,1	, &internal1_m121_y1},	//(internal1_m121_y1) y1 - внутренний параметр
-	{ 213	,1	,1	, &internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
-	{ 214	,1	,1	, &internal1_m104_y1},	//(internal1_m104_y1) y1 - внутренний параметр
-	{ 215	,1	,1	, &internal1_m156_y1},	//(internal1_m156_y1) y1 - внутренний параметр
-	{ 216	,1	,1	, &internal1_m167_y1},	//(internal1_m167_y1) y1 - внутренний параметр
+	{ 198	,8	,1	, &internal1_m225_tx},	//(internal1_m225_tx) tx - время накопленное сек
+	{ 199	,18	,1	, &internal1_m225_y0},	//(internal1_m225_y0) y0
+	{ 200	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
+	{ 201	,8	,1	, &internal1_m148_y0},	//(internal1_m148_y0) y0
+	{ 202	,8	,1	, &internal1_m146_y0},	//(internal1_m146_y0) y0
+	{ 203	,8	,1	, &internal1_m92_y0},	//(internal1_m92_y0) y0
+	{ 204	,8	,1	, &internal1_m90_y0},	//(internal1_m90_y0) y0
+	{ 205	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
+	{ 206	,1	,1	, &internal1_m170_y1},	//(internal1_m170_y1) y1 - внутренний параметр
+	{ 207	,5	,1	, &internal1_m280_q0},	//(internal1_m280_q0) q0 - внутренний параметр
+	{ 208	,1	,1	, &internal1_m128_y0},	//(internal1_m128_y0) state
+	{ 209	,1	,1	, &internal1_m124_y0},	//(internal1_m124_y0) state
+	{ 210	,1	,1	, &internal1_m106_y1},	//(internal1_m106_y1) y1 - внутренний параметр
+	{ 211	,1	,1	, &internal1_m121_y1},	//(internal1_m121_y1) y1 - внутренний параметр
+	{ 212	,1	,1	, &internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
+	{ 213	,1	,1	, &internal1_m104_y1},	//(internal1_m104_y1) y1 - внутренний параметр
+	{ 214	,1	,1	, &internal1_m156_y1},	//(internal1_m156_y1) y1 - внутренний параметр
+	{ 215	,1	,1	, &internal1_m167_y1},	//(internal1_m167_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="baz1.bin\0";   // Имя файла для сохранения констант
@@ -1207,7 +1204,7 @@ void InitSetConst(void){      // Инициализация  переменны�
 	setAsBool(64,1);
 	setAsBool(65,1);
 }
-uspaint8 InternalBuf[132];
+uspaint8 InternalBuf[129];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssbool lRM_0_ = {0,0}; /* A-Граница участка насыщения А */ 
@@ -1413,7 +1410,7 @@ _S_zzfs  S_zzfs_134_1 = {&A0VP81LZZ,&fRM_10000_,&var16,&internal1_m134_tx,&inter
 _S_or3  S_or3_314_1 = {&var20,&var19,&var18,&var17};
 _S_or2  S_or2_316_1 = {&R0DEB3LZ1,&R0DEB4LZ1,&var18};
 _S_or2  S_or2_310_1 = {&R0DEB1LZ1,&R0DEB2LZ1,&var19};
-_S_diagndev  S_diagndev_306_1 = {array_m306_x_1,&iRM_6_,&var20,&var21,&vainSFloat,&internal1_m306_sttlf};
+_S_diagndev  S_diagndev_306_1 = {array_m306_x_1,&iRM_6_,&var20,&var21};
 _S_ma  S_ma_189_1 = {array_m189_x_1,&R0MW12IP2,&iRM_7_,&vainSFloat};
 _S_and2  S_and2_127_1 = {&var134,&var110,&var22};
 _S_and2  S_and2_138_1 = {&var133,&var109,&var23};

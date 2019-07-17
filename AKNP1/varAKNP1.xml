@@ -24,7 +24,6 @@
 <var  name="R0IN01FI1" description="( - , MA1S) Выход СНМ-11 Гц от ПТИ" format="8"></var>
 <var  name="R0IN02FS1" description="( - , AKNP1) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI1" description="( - , MA1S) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="ttlAknp1" description="( - , AKNP1, MA1S) ttlAknp1" format="8"></var>
 <var  name="R0IN01FV1" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
 <var  name="R0IN02FV1" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
 <var  name="R0IN03FV1" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
@@ -96,7 +95,6 @@
 <var  name="fEM_R0IN32FN1" description="(R0IN32FN1) Коэффициент B (А1 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m55_flst" description="(internal1_m55_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m55_chsr" description="(internal1_m55_chsr)  счетчик усреднения" format="3"></var>

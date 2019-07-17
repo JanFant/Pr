@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 405
-static char BUFFER[405];
+#define SIZE_BUFFER 402
+static char BUFFER[402];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.57\0", 5432, "192.168.10.157\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -201,32 +201,30 @@ int nomer = 1;
 #define idfEM_R0IN32FN2	 93	//(R0IN32FN2) Коэффициент B (А2 к 3)
 #define bFirstEnterFlag	 BUFFER[351]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 94	//(bFirstEnterFlag) 
-#define internal1_m87_sttlf	 BUFFER[353]	//(internal1_m87_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m87_sttlf	 95	//(internal1_m87_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m17_Nk	 BUFFER[356]	//(internal1_m17_Nk) Nk - ведущая камера
-#define idinternal1_m17_Nk	 96	//(internal1_m17_Nk) Nk - ведущая камера
-#define internal1_m54_flst	 BUFFER[359]	//(internal1_m54_flst)  флаг старта измерения
-#define idinternal1_m54_flst	 97	//(internal1_m54_flst)  флаг старта измерения
-#define internal1_m54_chsr	 BUFFER[362]	//(internal1_m54_chsr)  счетчик усреднения
-#define idinternal1_m54_chsr	 98	//(internal1_m54_chsr)  счетчик усреднения
-#define internal1_m54_chizm	 BUFFER[365]	//(internal1_m54_chizm)  счетчик уменьшения мощности
-#define idinternal1_m54_chizm	 99	//(internal1_m54_chizm)  счетчик уменьшения мощности
-#define internal1_m54_sumtim	 BUFFER[368]	//(internal1_m54_sumtim)  время измерения мощности
-#define idinternal1_m54_sumtim	 100	//(internal1_m54_sumtim)  время измерения мощности
-#define internal1_m54_W1	 BUFFER[373]	//(internal1_m54_W1)  мощность на старте измерения
-#define idinternal1_m54_W1	 101	//(internal1_m54_W1)  мощность на старте измерения
-#define internal1_m54_W2	 BUFFER[378]	//(internal1_m54_W2)  мощность в конце измерения
-#define idinternal1_m54_W2	 102	//(internal1_m54_W2)  мощность в конце измерения
-#define internal1_m54_Wmin	 BUFFER[383]	//(internal1_m54_Wmin)  минимальное измерение в серии
-#define idinternal1_m54_Wmin	 103	//(internal1_m54_Wmin)  минимальное измерение в серии
-#define internal1_m54_Wmax	 BUFFER[388]	//(internal1_m54_Wmax)  максимальное измерение в серии
-#define idinternal1_m54_Wmax	 104	//(internal1_m54_Wmax)  максимальное измерение в серии
-#define internal1_m54_Wlast	 BUFFER[393]	//(internal1_m54_Wlast)  последнее растущее измерение
-#define idinternal1_m54_Wlast	 105	//(internal1_m54_Wlast)  последнее растущее измерение
-#define internal1_m54_y0	 BUFFER[398]	//(internal1_m54_y0) y0 - внутренний параметр
-#define idinternal1_m54_y0	 106	//(internal1_m54_y0) y0 - внутренний параметр
-#define internal1_m54_MyFirstEnterFlag	 BUFFER[403]	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
-#define idinternal1_m54_MyFirstEnterFlag	 107	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
+#define internal1_m17_Nk	 BUFFER[353]	//(internal1_m17_Nk) Nk - ведущая камера
+#define idinternal1_m17_Nk	 95	//(internal1_m17_Nk) Nk - ведущая камера
+#define internal1_m54_flst	 BUFFER[356]	//(internal1_m54_flst)  флаг старта измерения
+#define idinternal1_m54_flst	 96	//(internal1_m54_flst)  флаг старта измерения
+#define internal1_m54_chsr	 BUFFER[359]	//(internal1_m54_chsr)  счетчик усреднения
+#define idinternal1_m54_chsr	 97	//(internal1_m54_chsr)  счетчик усреднения
+#define internal1_m54_chizm	 BUFFER[362]	//(internal1_m54_chizm)  счетчик уменьшения мощности
+#define idinternal1_m54_chizm	 98	//(internal1_m54_chizm)  счетчик уменьшения мощности
+#define internal1_m54_sumtim	 BUFFER[365]	//(internal1_m54_sumtim)  время измерения мощности
+#define idinternal1_m54_sumtim	 99	//(internal1_m54_sumtim)  время измерения мощности
+#define internal1_m54_W1	 BUFFER[370]	//(internal1_m54_W1)  мощность на старте измерения
+#define idinternal1_m54_W1	 100	//(internal1_m54_W1)  мощность на старте измерения
+#define internal1_m54_W2	 BUFFER[375]	//(internal1_m54_W2)  мощность в конце измерения
+#define idinternal1_m54_W2	 101	//(internal1_m54_W2)  мощность в конце измерения
+#define internal1_m54_Wmin	 BUFFER[380]	//(internal1_m54_Wmin)  минимальное измерение в серии
+#define idinternal1_m54_Wmin	 102	//(internal1_m54_Wmin)  минимальное измерение в серии
+#define internal1_m54_Wmax	 BUFFER[385]	//(internal1_m54_Wmax)  максимальное измерение в серии
+#define idinternal1_m54_Wmax	 103	//(internal1_m54_Wmax)  максимальное измерение в серии
+#define internal1_m54_Wlast	 BUFFER[390]	//(internal1_m54_Wlast)  последнее растущее измерение
+#define idinternal1_m54_Wlast	 104	//(internal1_m54_Wlast)  последнее растущее измерение
+#define internal1_m54_y0	 BUFFER[395]	//(internal1_m54_y0) y0 - внутренний параметр
+#define idinternal1_m54_y0	 105	//(internal1_m54_y0) y0 - внутренний параметр
+#define internal1_m54_MyFirstEnterFlag	 BUFFER[400]	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
+#define idinternal1_m54_MyFirstEnterFlag	 106	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,3	,1	, &R0DE04LS2},	//(vds32:04 - Diagn, DiagnAKNP2) диагностика модуля АКНП2 на 4 месте
@@ -323,19 +321,18 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 92	,8	,1	, &fEM_R0IN31FN2},	//(R0IN31FN2) Коэффициент A (А2 к 3)
 	{ 93	,8	,1	, &fEM_R0IN32FN2},	//(R0IN32FN2) Коэффициент B (А2 к 3)
 	{ 94	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 95	,3	,1	, &internal1_m87_sttlf},	//(internal1_m87_sttlf) sttlf - счетчик для вещественного формата
-	{ 96	,3	,1	, &internal1_m17_Nk},	//(internal1_m17_Nk) Nk - ведущая камера
-	{ 97	,3	,1	, &internal1_m54_flst},	//(internal1_m54_flst)  флаг старта измерения
-	{ 98	,3	,1	, &internal1_m54_chsr},	//(internal1_m54_chsr)  счетчик усреднения
-	{ 99	,3	,1	, &internal1_m54_chizm},	//(internal1_m54_chizm)  счетчик уменьшения мощности
-	{ 100	,8	,1	, &internal1_m54_sumtim},	//(internal1_m54_sumtim)  время измерения мощности
-	{ 101	,8	,1	, &internal1_m54_W1},	//(internal1_m54_W1)  мощность на старте измерения
-	{ 102	,8	,1	, &internal1_m54_W2},	//(internal1_m54_W2)  мощность в конце измерения
-	{ 103	,8	,1	, &internal1_m54_Wmin},	//(internal1_m54_Wmin)  минимальное измерение в серии
-	{ 104	,8	,1	, &internal1_m54_Wmax},	//(internal1_m54_Wmax)  максимальное измерение в серии
-	{ 105	,8	,1	, &internal1_m54_Wlast},	//(internal1_m54_Wlast)  последнее растущее измерение
-	{ 106	,8	,1	, &internal1_m54_y0},	//(internal1_m54_y0) y0 - внутренний параметр
-	{ 107	,1	,1	, &internal1_m54_MyFirstEnterFlag},	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
+	{ 95	,3	,1	, &internal1_m17_Nk},	//(internal1_m17_Nk) Nk - ведущая камера
+	{ 96	,3	,1	, &internal1_m54_flst},	//(internal1_m54_flst)  флаг старта измерения
+	{ 97	,3	,1	, &internal1_m54_chsr},	//(internal1_m54_chsr)  счетчик усреднения
+	{ 98	,3	,1	, &internal1_m54_chizm},	//(internal1_m54_chizm)  счетчик уменьшения мощности
+	{ 99	,8	,1	, &internal1_m54_sumtim},	//(internal1_m54_sumtim)  время измерения мощности
+	{ 100	,8	,1	, &internal1_m54_W1},	//(internal1_m54_W1)  мощность на старте измерения
+	{ 101	,8	,1	, &internal1_m54_W2},	//(internal1_m54_W2)  мощность в конце измерения
+	{ 102	,8	,1	, &internal1_m54_Wmin},	//(internal1_m54_Wmin)  минимальное измерение в серии
+	{ 103	,8	,1	, &internal1_m54_Wmax},	//(internal1_m54_Wmax)  максимальное измерение в серии
+	{ 104	,8	,1	, &internal1_m54_Wlast},	//(internal1_m54_Wlast)  последнее растущее измерение
+	{ 105	,8	,1	, &internal1_m54_y0},	//(internal1_m54_y0) y0 - внутренний параметр
+	{ 106	,1	,1	, &internal1_m54_MyFirstEnterFlag},	//(internal1_m54_MyFirstEnterFlag)  FirstEnterFlag
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp2.bin\0";   // Имя файла для сохранения констант
@@ -759,7 +756,7 @@ void VCHS_post(vchs_data *vch_data) {
 
 }
 
-uspaint8 InternalBuf[54];
+uspaint8 InternalBuf[51];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssint iRM_5_ = {5,0}; /* n - N-размерность массива входных параметров */ 
@@ -830,7 +827,7 @@ _S_or2  S_or2_95_1 = {&R0DEB1LS2,&R0DEB2LS2,&var8};
 _S_or3  S_or3_97_1 = {&var12,&var11,&var10,&var9};
 _S_orn  S_orn_101_1 = {array_m101_x_1,&iRM_5_,&var10};
 _S_and2  S_and2_89_1 = {&R0DE31LS2,&R0DE32LS2,&var11};
-_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var12,&var13,&vainSFloat,&internal1_m87_sttlf};
+_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var12,&var13};
 _S_ocham  S_ocham_17_1 = {&var6,&var5,&var4,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_2_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var14,&var15,&var16,&var17,&var18,&var19,&var20,&internal1_m17_Nk};
 _S_or2  S_or2_74_1 = {&R0EE02LZ1,&R0EE02LZ2,&var21};
 _S_period  S_period_54_1 = {&var15,&var26,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var22,&internal1_m54_flst,&internal1_m54_chsr,&internal1_m54_chizm,&internal1_m54_sumtim,&internal1_m54_W1,&internal1_m54_W2,&internal1_m54_Wmin,&internal1_m54_Wmax,&internal1_m54_Wlast,&internal1_m54_y0,&internal1_m54_MyFirstEnterFlag};

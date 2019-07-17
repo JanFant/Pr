@@ -7,8 +7,8 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 // Время цикла в ms
 float takt, taktScheme=0, taktSS=0;
-#define SIZE_BUFFER 497
-static char BUFFER[497];
+#define SIZE_BUFFER 494
+static char BUFFER[494];
 #include <fp8/UDPTrasport.h>
 SetupUDP setUDP = {"192.168.10.31\0", 5432, "192.168.10.131\0", 5432, BUFFER, sizeof(BUFFER),};
 int master = 1;
@@ -275,30 +275,28 @@ int nomer = 1;
 #define idfEM_R0IN72NRP	 130	//(R0IN72NRP) Коэффициент B (РПУ к 7)
 #define bFirstEnterFlag	 BUFFER[459]	//(bFirstEnterFlag) 
 #define idbFirstEnterFlag	 131	//(bFirstEnterFlag) 
-#define internal1_m138_sttlf	 BUFFER[461]	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-#define idinternal1_m138_sttlf	 132	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-#define internal1_m18_Nk	 BUFFER[464]	//(internal1_m18_Nk) Nk - ведущая камера
-#define idinternal1_m18_Nk	 133	//(internal1_m18_Nk) Nk - ведущая камера
-#define internal1_m70_tx	 BUFFER[467]	//(internal1_m70_tx) tx - время накопленное сек
-#define idinternal1_m70_tx	 134	//(internal1_m70_tx) tx - время накопленное сек
-#define internal1_m70_y0	 BUFFER[472]	//(internal1_m70_y0) y0
-#define idinternal1_m70_y0	 135	//(internal1_m70_y0) y0
-#define internal1_m78_tx	 BUFFER[473]	//(internal1_m78_tx) tx - время накопленное сек
-#define idinternal1_m78_tx	 136	//(internal1_m78_tx) tx - время накопленное сек
-#define internal1_m78_y0	 BUFFER[478]	//(internal1_m78_y0) y0
-#define idinternal1_m78_y0	 137	//(internal1_m78_y0) y0
-#define internal1_m86_y0	 BUFFER[479]	//(internal1_m86_y0) y0
-#define idinternal1_m86_y0	 138	//(internal1_m86_y0) y0
-#define internal1_m84_y0	 BUFFER[484]	//(internal1_m84_y0) y0
-#define idinternal1_m84_y0	 139	//(internal1_m84_y0) y0
-#define internal1_m100_y1	 BUFFER[489]	//(internal1_m100_y1) y1 - внутренний параметр
-#define idinternal1_m100_y1	 140	//(internal1_m100_y1) y1 - внутренний параметр
-#define internal1_m115_y1	 BUFFER[491]	//(internal1_m115_y1) y1 - внутренний параметр
-#define idinternal1_m115_y1	 141	//(internal1_m115_y1) y1 - внутренний параметр
-#define internal1_m98_y1	 BUFFER[493]	//(internal1_m98_y1) y1 - внутренний параметр
-#define idinternal1_m98_y1	 142	//(internal1_m98_y1) y1 - внутренний параметр
-#define internal1_m111_y1	 BUFFER[495]	//(internal1_m111_y1) y1 - внутренний параметр
-#define idinternal1_m111_y1	 143	//(internal1_m111_y1) y1 - внутренний параметр
+#define internal1_m18_Nk	 BUFFER[461]	//(internal1_m18_Nk) Nk - ведущая камера
+#define idinternal1_m18_Nk	 132	//(internal1_m18_Nk) Nk - ведущая камера
+#define internal1_m70_tx	 BUFFER[464]	//(internal1_m70_tx) tx - время накопленное сек
+#define idinternal1_m70_tx	 133	//(internal1_m70_tx) tx - время накопленное сек
+#define internal1_m70_y0	 BUFFER[469]	//(internal1_m70_y0) y0
+#define idinternal1_m70_y0	 134	//(internal1_m70_y0) y0
+#define internal1_m78_tx	 BUFFER[470]	//(internal1_m78_tx) tx - время накопленное сек
+#define idinternal1_m78_tx	 135	//(internal1_m78_tx) tx - время накопленное сек
+#define internal1_m78_y0	 BUFFER[475]	//(internal1_m78_y0) y0
+#define idinternal1_m78_y0	 136	//(internal1_m78_y0) y0
+#define internal1_m86_y0	 BUFFER[476]	//(internal1_m86_y0) y0
+#define idinternal1_m86_y0	 137	//(internal1_m86_y0) y0
+#define internal1_m84_y0	 BUFFER[481]	//(internal1_m84_y0) y0
+#define idinternal1_m84_y0	 138	//(internal1_m84_y0) y0
+#define internal1_m100_y1	 BUFFER[486]	//(internal1_m100_y1) y1 - внутренний параметр
+#define idinternal1_m100_y1	 139	//(internal1_m100_y1) y1 - внутренний параметр
+#define internal1_m115_y1	 BUFFER[488]	//(internal1_m115_y1) y1 - внутренний параметр
+#define idinternal1_m115_y1	 140	//(internal1_m115_y1) y1 - внутренний параметр
+#define internal1_m98_y1	 BUFFER[490]	//(internal1_m98_y1) y1 - внутренний параметр
+#define idinternal1_m98_y1	 141	//(internal1_m98_y1) y1 - внутренний параметр
+#define internal1_m111_y1	 BUFFER[492]	//(internal1_m111_y1) y1 - внутренний параметр
+#define idinternal1_m111_y1	 142	//(internal1_m111_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &R0DE39LRP},	//(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4
@@ -432,18 +430,17 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 129	,8	,1	, &fEM_R0IN71NRP},	//(R0IN71NRP) Коэффициент A (РПУ к 7)
 	{ 130	,8	,1	, &fEM_R0IN72NRP},	//(R0IN72NRP) Коэффициент B (РПУ к 7)
 	{ 131	,1	,1	, &bFirstEnterFlag},	//(bFirstEnterFlag) 
-	{ 132	,3	,1	, &internal1_m138_sttlf},	//(internal1_m138_sttlf) sttlf - счетчик для вещественного формата
-	{ 133	,3	,1	, &internal1_m18_Nk},	//(internal1_m18_Nk) Nk - ведущая камера
-	{ 134	,8	,1	, &internal1_m70_tx},	//(internal1_m70_tx) tx - время накопленное сек
-	{ 135	,18	,1	, &internal1_m70_y0},	//(internal1_m70_y0) y0
-	{ 136	,8	,1	, &internal1_m78_tx},	//(internal1_m78_tx) tx - время накопленное сек
-	{ 137	,18	,1	, &internal1_m78_y0},	//(internal1_m78_y0) y0
-	{ 138	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
-	{ 139	,8	,1	, &internal1_m84_y0},	//(internal1_m84_y0) y0
-	{ 140	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
-	{ 141	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
-	{ 142	,1	,1	, &internal1_m98_y1},	//(internal1_m98_y1) y1 - внутренний параметр
-	{ 143	,1	,1	, &internal1_m111_y1},	//(internal1_m111_y1) y1 - внутренний параметр
+	{ 132	,3	,1	, &internal1_m18_Nk},	//(internal1_m18_Nk) Nk - ведущая камера
+	{ 133	,8	,1	, &internal1_m70_tx},	//(internal1_m70_tx) tx - время накопленное сек
+	{ 134	,18	,1	, &internal1_m70_y0},	//(internal1_m70_y0) y0
+	{ 135	,8	,1	, &internal1_m78_tx},	//(internal1_m78_tx) tx - время накопленное сек
+	{ 136	,18	,1	, &internal1_m78_y0},	//(internal1_m78_y0) y0
+	{ 137	,8	,1	, &internal1_m86_y0},	//(internal1_m86_y0) y0
+	{ 138	,8	,1	, &internal1_m84_y0},	//(internal1_m84_y0) y0
+	{ 139	,1	,1	, &internal1_m100_y1},	//(internal1_m100_y1) y1 - внутренний параметр
+	{ 140	,1	,1	, &internal1_m115_y1},	//(internal1_m115_y1) y1 - внутренний параметр
+	{ 141	,1	,1	, &internal1_m98_y1},	//(internal1_m98_y1) y1 - внутренний параметр
+	{ 142	,1	,1	, &internal1_m111_y1},	//(internal1_m111_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="rpu.bin\0";   // Имя файла для сохранения констант
@@ -892,7 +889,7 @@ void VCHS_post(vchs_data *vch_data) {
 
 }
 
-uspaint8 InternalBuf[40];
+uspaint8 InternalBuf[37];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssbool lRM_0_ = {0,0}; /* A-Граница участка насыщения А */ 
@@ -1001,7 +998,7 @@ _S_or2  S_or2_158_1 = {&R0DEB3LRP,&R0DEB4LRP,&var15};
 _S_or3  S_or3_155_1 = {&var19,&var18,&var17,&var16};
 _S_orn  S_orn_156_1 = {array_m156_x_1,&iRM_6_,&var17};
 _S_and2  S_and2_140_1 = {&R0DE31LRP,&R0DE32LRP,&var18};
-_S_diagndev  S_diagndev_138_1 = {array_m138_x_1,&iRM_6_,&var19,&var20,&vainSFloat,&internal1_m138_sttlf};
+_S_diagndev  S_diagndev_138_1 = {array_m138_x_1,&iRM_6_,&var19,&var20};
 _S_ocham  S_ocham_18_1 = {&var10,&var9,&var8,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var21,&var22,&var23,&var24,&var25,&var26,&var27,&internal1_m18_Nk};
 _S_or2  S_or2_66_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
 _S_or2  S_or2_94_1 = {&var61,&var62,&var28};

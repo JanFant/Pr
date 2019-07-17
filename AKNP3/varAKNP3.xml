@@ -96,7 +96,6 @@
 <var  name="fEM_R0IN32FN3" description="(R0IN32FN3) Коэффициент B (А3 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m87_sttlf" description="(internal1_m87_sttlf) sttlf - счетчик для вещественного формата" format="3"></var>
 <var  name="internal1_m19_Nk" description="(internal1_m19_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m54_flst" description="(internal1_m54_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m54_chsr" description="(internal1_m54_chsr)  счетчик усреднения" format="3"></var>

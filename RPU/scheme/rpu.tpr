@@ -5340,6 +5340,41 @@
           IsHold=FALSE
         }
       }
+      [VVV_DrawConst]{
+        R="23,958,53,998"
+        Number=408
+        IsHold=FALSE
+        VisualNumber="162"
+        CONST_NAME="R0IN12NRP"
+      }
+      [VVV_DrawConst]{
+        R="23,1052,53,1092"
+        Number=410
+        IsHold=FALSE
+        VisualNumber="164"
+        CONST_NAME="R0IN22NRP"
+      }
+      [VVV_DrawConst]{
+        R="23,1154,53,1194"
+        Number=412
+        IsHold=FALSE
+        VisualNumber="166"
+        CONST_NAME="R0IN32NRP"
+      }
+      [VVV_DrawConst]{
+        R="23,1267,53,1307"
+        Number=414
+        IsHold=FALSE
+        VisualNumber="168"
+        CONST_NAME="R0IN62NRP"
+      }
+      [VVV_DrawConst]{
+        R="347,971,377,1011"
+        Number=417
+        IsHold=FALSE
+        VisualNumber="182"
+        CONST_NAME="R0IN72NRP"
+      }
       [VVV_DrawConnector]{
         Number=61
         IsHold=FALSE
@@ -9749,13 +9784,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="23,958,53,998"
-        Number=408
-        IsHold=FALSE
-        VisualNumber="162"
-        CONST_NAME="R0IN12NRP"
-      }
       [VVV_DrawConnector]{
         Number=409
         IsHold=FALSE
@@ -9778,13 +9806,6 @@
           ParameterName="b"
           Index=-1
         }
-      }
-      [VVV_DrawConst]{
-        R="23,1052,53,1092"
-        Number=410
-        IsHold=FALSE
-        VisualNumber="164"
-        CONST_NAME="R0IN22NRP"
       }
       [VVV_DrawConnector]{
         Number=411
@@ -9809,13 +9830,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="23,1154,53,1194"
-        Number=412
-        IsHold=FALSE
-        VisualNumber="166"
-        CONST_NAME="R0IN32NRP"
-      }
       [VVV_DrawConnector]{
         Number=413
         IsHold=FALSE
@@ -9839,13 +9853,6 @@
           Index=-1
         }
       }
-      [VVV_DrawConst]{
-        R="23,1267,53,1307"
-        Number=414
-        IsHold=FALSE
-        VisualNumber="168"
-        CONST_NAME="R0IN62NRP"
-      }
       [VVV_DrawConnector]{
         Number=416
         IsHold=FALSE
@@ -9868,13 +9875,6 @@
           ParameterName="b"
           Index=-1
         }
-      }
-      [VVV_DrawConst]{
-        R="347,971,377,1011"
-        Number=417
-        IsHold=FALSE
-        VisualNumber="182"
-        CONST_NAME="R0IN72NRP"
       }
       [VVV_DrawConnector]{
         Number=418

@@ -1,5 +1,5 @@
 /* Определение внутренних параметров */
-uspaint8 InternalBuf[40];
+uspaint8 InternalBuf[37];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssbool lRM_0_ = {0,0}; /* A-Граница участка насыщения А */ 
@@ -108,7 +108,7 @@ _S_or2  S_or2_158_1 = {&R0DEB3LRP,&R0DEB4LRP,&var15};
 _S_or3  S_or3_155_1 = {&var19,&var18,&var17,&var16};
 _S_orn  S_orn_156_1 = {array_m156_x_1,&iRM_6_,&var17};
 _S_and2  S_and2_140_1 = {&R0DE31LRP,&R0DE32LRP,&var18};
-_S_diagndev  S_diagndev_138_1 = {array_m138_x_1,&iRM_6_,&var19,&var20,&vainSFloat,&internal1_m138_sttlf};
+_S_diagndev  S_diagndev_138_1 = {array_m138_x_1,&iRM_6_,&var19,&var20};
 _S_ocham  S_ocham_18_1 = {&var10,&var9,&var8,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX13RSS,&fEM_B0UX03RSS,&fEM_A0UX14RSS,&fEM_B0UX04RSS,&fEM_A0UX15RSS,&fEM_B0UX05RSS,&fEM_R7UX13RSS,&fEM_R7UY13RSS,&fEM_R7UX14RSS,&fEM_R7UY14RSS,&fEM_R7UX15RSS,&fEM_R7UY15RSS,&bRM_1_,&fRM_2_0,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var21,&var22,&var23,&var24,&var25,&var26,&var27,&internal1_m18_Nk};
 _S_or2  S_or2_66_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
 _S_or2  S_or2_94_1 = {&var61,&var62,&var28};
