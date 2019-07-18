@@ -95,6 +95,7 @@
 <var  name="fEM_R0IN32FN1" description="(R0IN32FN1) Коэффициент B (А1 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
+<var  name="internal1_m56_y0" description="(internal1_m56_y0) y0 - внутренний параметр" format="8"></var>
 <var  name="internal1_m17_Nk" description="(internal1_m17_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m55_flst" description="(internal1_m55_flst)  флаг старта измерения" format="3"></var>
 <var  name="internal1_m55_chsr" description="(internal1_m55_chsr)  счетчик усреднения" format="3"></var>
