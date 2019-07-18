@@ -419,8 +419,8 @@ int nomer = 1;
 #define idinternal1_m139_tx	 202	//(internal1_m139_tx) tx - время накопленное сек
 #define internal1_m139_y0	 BUFFER[600]	//(internal1_m139_y0) y0
 #define idinternal1_m139_y0	 203	//(internal1_m139_y0) y0
-#define internal1_m33_tx	 BUFFER[601]	//(internal1_m33_tx) tx - внутренний параметр
-#define idinternal1_m33_tx	 204	//(internal1_m33_tx) tx - внутренний параметр
+#define internal1_m32_tx	 BUFFER[601]	//(internal1_m32_tx) tx - внутренний параметр
+#define idinternal1_m32_tx	 204	//(internal1_m32_tx) tx - внутренний параметр
 #define internal1_m150_y0	 BUFFER[604]	//(internal1_m150_y0) y0
 #define idinternal1_m150_y0	 205	//(internal1_m150_y0) y0
 #define internal1_m148_y0	 BUFFER[609]	//(internal1_m148_y0) y0
@@ -439,18 +439,18 @@ int nomer = 1;
 #define idinternal1_m130_y0	 212	//(internal1_m130_y0) state
 #define internal1_m124_y0	 BUFFER[635]	//(internal1_m124_y0) state
 #define idinternal1_m124_y0	 213	//(internal1_m124_y0) state
-#define internal1_m107_y1	 BUFFER[637]	//(internal1_m107_y1) y1 - внутренний параметр
-#define idinternal1_m107_y1	 214	//(internal1_m107_y1) y1 - внутренний параметр
+#define internal1_m101_y1	 BUFFER[637]	//(internal1_m101_y1) y1 - внутренний параметр
+#define idinternal1_m101_y1	 214	//(internal1_m101_y1) y1 - внутренний параметр
 #define internal1_m120_y1	 BUFFER[639]	//(internal1_m120_y1) y1 - внутренний параметр
 #define idinternal1_m120_y1	 215	//(internal1_m120_y1) y1 - внутренний параметр
 #define internal1_m94_y1	 BUFFER[641]	//(internal1_m94_y1) y1 - внутренний параметр
 #define idinternal1_m94_y1	 216	//(internal1_m94_y1) y1 - внутренний параметр
-#define internal1_m105_y1	 BUFFER[643]	//(internal1_m105_y1) y1 - внутренний параметр
-#define idinternal1_m105_y1	 217	//(internal1_m105_y1) y1 - внутренний параметр
-#define internal1_m159_y1	 BUFFER[645]	//(internal1_m159_y1) y1 - внутренний параметр
-#define idinternal1_m159_y1	 218	//(internal1_m159_y1) y1 - внутренний параметр
-#define internal1_m170_y1	 BUFFER[647]	//(internal1_m170_y1) y1 - внутренний параметр
-#define idinternal1_m170_y1	 219	//(internal1_m170_y1) y1 - внутренний параметр
+#define internal1_m106_y1	 BUFFER[643]	//(internal1_m106_y1) y1 - внутренний параметр
+#define idinternal1_m106_y1	 217	//(internal1_m106_y1) y1 - внутренний параметр
+#define internal1_m160_y1	 BUFFER[645]	//(internal1_m160_y1) y1 - внутренний параметр
+#define idinternal1_m160_y1	 218	//(internal1_m160_y1) y1 - внутренний параметр
+#define internal1_m168_y1	 BUFFER[647]	//(internal1_m168_y1) y1 - внутренний параметр
+#define idinternal1_m168_y1	 219	//(internal1_m168_y1) y1 - внутренний параметр
 #pragma pack(push,1)
 static VarCtrl allVariables[]={      // Описание всех переменных
 	{ 1	,1	,1	, &A1VN71LS4},	//(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4
@@ -656,7 +656,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 201	,18	,1	, &internal1_m140_y0},	//(internal1_m140_y0) y0
 	{ 202	,8	,1	, &internal1_m139_tx},	//(internal1_m139_tx) tx - время накопленное сек
 	{ 203	,18	,1	, &internal1_m139_y0},	//(internal1_m139_y0) y0
-	{ 204	,3	,1	, &internal1_m33_tx},	//(internal1_m33_tx) tx - внутренний параметр
+	{ 204	,3	,1	, &internal1_m32_tx},	//(internal1_m32_tx) tx - внутренний параметр
 	{ 205	,8	,1	, &internal1_m150_y0},	//(internal1_m150_y0) y0
 	{ 206	,8	,1	, &internal1_m148_y0},	//(internal1_m148_y0) y0
 	{ 207	,8	,1	, &internal1_m92_y0},	//(internal1_m92_y0) y0
@@ -666,12 +666,12 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 211	,5	,1	, &internal1_m281_q0},	//(internal1_m281_q0) q0 - внутренний параметр
 	{ 212	,1	,1	, &internal1_m130_y0},	//(internal1_m130_y0) state
 	{ 213	,1	,1	, &internal1_m124_y0},	//(internal1_m124_y0) state
-	{ 214	,1	,1	, &internal1_m107_y1},	//(internal1_m107_y1) y1 - внутренний параметр
+	{ 214	,1	,1	, &internal1_m101_y1},	//(internal1_m101_y1) y1 - внутренний параметр
 	{ 215	,1	,1	, &internal1_m120_y1},	//(internal1_m120_y1) y1 - внутренний параметр
 	{ 216	,1	,1	, &internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
-	{ 217	,1	,1	, &internal1_m105_y1},	//(internal1_m105_y1) y1 - внутренний параметр
-	{ 218	,1	,1	, &internal1_m159_y1},	//(internal1_m159_y1) y1 - внутренний параметр
-	{ 219	,1	,1	, &internal1_m170_y1},	//(internal1_m170_y1) y1 - внутренний параметр
+	{ 217	,1	,1	, &internal1_m106_y1},	//(internal1_m106_y1) y1 - внутренний параметр
+	{ 218	,1	,1	, &internal1_m160_y1},	//(internal1_m160_y1) y1 - внутренний параметр
+	{ 219	,1	,1	, &internal1_m168_y1},	//(internal1_m168_y1) y1 - внутренний параметр
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="baz2.bin\0";   // Имя файла для сохранения констант
@@ -1397,8 +1397,8 @@ char vainSText[] = "";
 /* Объявление массивов */
 psint  array_m307_x_1[6] = {&R0DE04LZ2,&R0DE05LZ2,&R0DE06LZ2,&R0DE0ALZ2,&R0DE08LZ2,&R0DE07LZ2};
 psfloat  array_m189_x_1[7] = {&fRM_0_002,&fRM_0_005,&fRM_0_007,&fRM_0_01,&fRM_0_015,&fRM_0_02,&fRM_1_7};
-psfloat  array_m293_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
-psbool  array_m293_diag_1[4] = {&var34,&var35,&var36,&var37};
+psfloat  array_m291_x_1[4] = {&R0VN02RS1,&R0VN02RS2,&R0VN02RS3,&R0VN02RS4};
+psbool  array_m291_diag_1[4] = {&var34,&var35,&var36,&var37};
 psbool  array_m282_x_1[17] = {&var77,&var42,&var43,&var88,&var10,&var7,&var132,&var44,&var47,&var48,&var86,&var11,&var8,&var134,&R7II72LZ2,&R7II71LZ2,&R7II73LZ2};
 psbool  array_m16_x_1[6] = {&var81,&var86,&var11,&var8,&var19,&var134};
 psbool  array_m36_x_1[6] = {&var88,&var7,&var10,&var132,&var79,&var19};
@@ -1439,15 +1439,15 @@ _S_and2  S_and2_81_1 = {&lRM_1_,&A1EE01LS1,&var34};
 _S_and2  S_and2_83_1 = {&lRM_1_,&A1EE01LS2,&var35};
 _S_and2  S_and2_85_1 = {&lRM_1_,&A1EE01LS3,&var36};
 _S_and2  S_and2_87_1 = {&lRM_1_,&A1EE01LS4,&var37};
-_S_or2  S_or2_104_1 = {&var143,&var141,&var38};
+_S_or2  S_or2_105_1 = {&var143,&var141,&var38};
 _S_and2  S_and2_136_1 = {&var136,&var112,&var39};
 _S_and2  S_and2_129_1 = {&var113,&var137,&var40};
 _S_or2  S_or2_108_1 = {&var138,&var139,&var41};
 _S_and2  S_and2_285_1 = {&var64,&var90,&var42};
 _S_and2  S_and2_283_1 = {&var52,&var90,&var43};
 _S_and2  S_and2_287_1 = {&var102,&var90,&var44};
-_S_schl24  S_schl24_295_1 = {&A1VN71LS2,&A1VN71LS1,&A1VN71LS4,&A1VN71LS3,&var45};
-_S_or2  S_or2_299_1 = {&var140,&var142,&var46};
+_S_schl24  S_schl24_297_1 = {&A1VN71LS2,&A1VN71LS1,&A1VN71LS4,&A1VN71LS3,&var45};
+_S_or2  S_or2_295_1 = {&var140,&var142,&var46};
 _S_and2  S_and2_286_1 = {&var65,&var90,&var47};
 _S_and2  S_and2_284_1 = {&var53,&var90,&var48};
 _S_and2  S_and2_258_1 = {&var90,&var52,&var49};
@@ -1479,15 +1479,15 @@ _S_or2  S_or2_233_1 = {&R0VN71LZ2,&var126,&var74};
 _S_or2  S_or2_234_1 = {&R0VN73LZ2,&var125,&var75};
 _S_and2  S_and2_237_1 = {&var75,&var74,&var76};
 _S_and2  S_and2_288_1 = {&var103,&var90,&var77};
-_S_or3  S_or3_30_1 = {&var99,&var64,&var52,&var78};
-_S_and2  S_and2_31_1 = {&var78,&var90,&var79};
+_S_or3  S_or3_29_1 = {&var99,&var64,&var52,&var78};
+_S_and2  S_and2_30_1 = {&var78,&var90,&var79};
 _S_or2  S_or2_25_1 = {&var118,&var119,&var80};
 _S_and2  S_and2_19_1 = {&var82,&var90,&var81};
 _S_or3  S_or3_18_1 = {&var65,&var53,&var98,&var82};
 _S_and2  S_and2_6_1 = {&var35,&var37,&var83};
-_S_or2  S_or2_8_1 = {&var120,&var83,&var84};
-_S_or2  S_or2_11_1 = {&var89,&var120,&var85};
-_S_or2  S_or2_160_1 = {&var109,&var111,&var86};
+_S_or2  S_or2_11_1 = {&var120,&var83,&var84};
+_S_or2  S_or2_10_1 = {&var89,&var120,&var85};
+_S_or2  S_or2_158_1 = {&var109,&var111,&var86};
 _S_or2  S_or2_35_1 = {&B2IS12LDU,&A2IS12LDU,&var87};
 _S_or2  S_or2_156_1 = {&var144,&var106,&var88};
 _S_and2  S_and2_5_1 = {&var36,&var34,&var89};
@@ -1498,7 +1498,7 @@ _S_noto  S_noto_142_1 = {&var27,&var93};
 _S_noto  S_noto_141_1 = {&var28,&var94};
 _S_noto  S_noto_116_1 = {&var23,&var95};
 _S_noto  S_noto_27_1 = {&var97,&var96};
-_S_ovb1  S_ovb1_33_1 = {&var87,&iRM_200_,&var97,&internal1_m33_tx};
+_S_ovb1  S_ovb1_32_1 = {&var87,&iRM_200_,&var97,&internal1_m32_tx};
 _S_noto  S_noto_14_1 = {&var84,&var98};
 _S_noto  S_noto_13_1 = {&var85,&var99};
 _S_noto  S_noto_24_1 = {&R0EE02LDU,&var100};
@@ -1516,7 +1516,7 @@ _S_geterr  S_geterr_154_1 = {&var104,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSCh
 _S_noto  S_noto_137_1 = {&var138,&var112};
 _S_noto  S_noto_128_1 = {&var143,&var113};
 _S_noto  S_noto_115_1 = {&var24,&var114};
-_S_srm  S_srm_293_1 = {array_m293_x_1,array_m293_diag_1,&iRM_4_,&iRM_3_,&var115,&vainSBool};
+_S_srm  S_srm_291_1 = {array_m291_x_1,array_m291_diag_1,&iRM_4_,&iRM_3_,&var115,&vainSBool};
 _S_rsu  S_rsu_281_1 = {&var2,&var117,&var116,&internal1_m281_q0};
 _S_orni  S_orni_282_1 = {array_m282_x_1,&iRM_17_,&vainSBool,&var117};
 _S_orn  S_orn_16_1 = {array_m16_x_1,&iRM_6_,&var118};
@@ -1537,13 +1537,13 @@ _S_ornc  S_ornc_12_1 = {array_m12_x_1,&iRM_3_,&var134,&var135};
 _S_tprg  S_tprg_130_1 = {&var107,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var136,&internal1_m130_y0};
 _S_tprg  S_tprg_124_1 = {&var108,&fEM_A2UP81RZZ,&fEM_A2UP82RZZ,&fEM_A2UP83RZZ,&fEM_A2UP84RZZ,&var137,&internal1_m124_y0};
 _S_geterr  S_geterr_100_1 = {&var107,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var138};
-_S_drg  S_drg_107_1 = {&var107,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var139,&internal1_m107_y1};
+_S_drg  S_drg_101_1 = {&var107,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var139,&internal1_m101_y1};
 _S_drg  S_drg_120_1 = {&var107,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var140,&internal1_m120_y1};
 _S_drg  S_drg_94_1 = {&var108,&lRM_1_,&lRM_0_,&fEM_A2UP41RZZ,&fEM_A2UP42RZZ,&var141,&internal1_m94_y1};
-_S_drg  S_drg_105_1 = {&var108,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var142,&internal1_m105_y1};
+_S_drg  S_drg_106_1 = {&var108,&lRM_1_,&lRM_0_,&fEM_A2UP51RZZ,&fEM_A2UP52RZZ,&var142,&internal1_m106_y1};
 _S_geterr  S_geterr_96_1 = {&var108,&dRM_0_,&iRM_0_,&bRM_0_,&vainSChar,&vainSChar,&vainSChar,&vainSChar,&var143};
-_S_drg  S_drg_159_1 = {&var105,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var144,&internal1_m159_y1};
-_S_drg  S_drg_170_1 = {&var105,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var145,&internal1_m170_y1};
+_S_drg  S_drg_160_1 = {&var105,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var144,&internal1_m160_y1};
+_S_drg  S_drg_168_1 = {&var105,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var145,&internal1_m168_y1};
 
 
 void ZeroVar()
@@ -1720,7 +1720,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_269_1);
   or2(&S_or2_272_1);
   or2(&S_or2_271_1);
-  schl24(&S_schl24_295_1);
+  schl24(&S_schl24_297_1);
   ma(&S_ma_189_1);
   diagndev(&S_diagndev_307_1);
   or2(&S_or2_311_1);
@@ -1738,13 +1738,13 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   or2(&S_or2_218_1);
   or3(&S_or3_228_1);
   zzfs(&S_zzfs_210_1);
-  drg(&S_drg_170_1);
-  drg(&S_drg_159_1);
+  drg(&S_drg_168_1);
+  drg(&S_drg_160_1);
   geterr(&S_geterr_96_1);
-  drg(&S_drg_105_1);
+  drg(&S_drg_106_1);
   drg(&S_drg_94_1);
   drg(&S_drg_120_1);
-  drg(&S_drg_107_1);
+  drg(&S_drg_101_1);
   geterr(&S_geterr_100_1);
   tprg(&S_tprg_124_1);
   tprg(&S_tprg_130_1);
@@ -1761,7 +1761,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_142_1);
   or2(&S_or2_156_1);
   or2(&S_or2_35_1);
-  or2(&S_or2_160_1);
+  or2(&S_or2_158_1);
   and2(&S_and2_237_1);
   schl24(&S_schl24_240_1);
   and2(&S_and2_238_1);
@@ -1770,11 +1770,11 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   schl24(&S_schl24_266_1);
   and2(&S_and2_268_1);
   or2(&S_or2_255_1);
-  or2(&S_or2_299_1);
+  or2(&S_or2_295_1);
   or2(&S_or2_108_1);
   and2(&S_and2_129_1);
   and2(&S_and2_136_1);
-  or2(&S_or2_104_1);
+  or2(&S_or2_105_1);
   and2(&S_and2_87_1);
   and2(&S_and2_85_1);
   and2(&S_and2_83_1);
@@ -1792,15 +1792,15 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_252_1);
   noto(&S_noto_257_1);
   noto(&S_noto_7_1);
-  srm(&S_srm_293_1);
+  srm(&S_srm_291_1);
   bol(&S_bol_181_1);
-  ovb1(&S_ovb1_33_1);
+  ovb1(&S_ovb1_32_1);
   noto(&S_noto_27_1);
   and2(&S_and2_185_1);
   and2(&S_and2_186_1);
   and2(&S_and2_22_1);
   and2(&S_and2_5_1);
-  or2(&S_or2_11_1);
+  or2(&S_or2_10_1);
   and2(&S_and2_6_1);
   and2(&S_and2_247_1);
   and2(&S_and2_242_1);
@@ -1821,8 +1821,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   zzfs(&S_zzfs_214_1);
   noto(&S_noto_290_1);
   noto(&S_noto_13_1);
-  or2(&S_or2_8_1);
-  or3(&S_or3_30_1);
+  or2(&S_or2_11_1);
+  or3(&S_or3_29_1);
   and2(&S_and2_288_1);
   and2(&S_and2_251_1);
   and2(&S_and2_250_1);
@@ -1833,7 +1833,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_14_1);
   or3(&S_or3_18_1);
   and2(&S_and2_19_1);
-  and2(&S_and2_31_1);
+  and2(&S_and2_30_1);
   and2(&S_and2_287_1);
   orn(&S_orn_36_1);
   orn(&S_orn_16_1);

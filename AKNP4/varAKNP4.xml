@@ -96,16 +96,17 @@
 <var  name="fEM_R0IN32FN4" description="(R0IN32FN4) Коэффициент B (А4 к 3)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m56_flst" description="(internal1_m56_flst)  флаг старта измерения" format="3"></var>
-<var  name="internal1_m56_chsr" description="(internal1_m56_chsr)  счетчик усреднения" format="3"></var>
-<var  name="internal1_m56_chizm" description="(internal1_m56_chizm)  счетчик уменьшения мощности" format="3"></var>
-<var  name="internal1_m56_sumtim" description="(internal1_m56_sumtim)  время измерения мощности" format="8"></var>
-<var  name="internal1_m56_W1" description="(internal1_m56_W1)  мощность на старте измерения" format="8"></var>
-<var  name="internal1_m56_W2" description="(internal1_m56_W2)  мощность в конце измерения" format="8"></var>
-<var  name="internal1_m56_Wmin" description="(internal1_m56_Wmin)  минимальное измерение в серии" format="8"></var>
-<var  name="internal1_m56_Wmax" description="(internal1_m56_Wmax)  максимальное измерение в серии" format="8"></var>
-<var  name="internal1_m56_Wlast" description="(internal1_m56_Wlast)  последнее растущее измерение" format="8"></var>
 <var  name="internal1_m56_y0" description="(internal1_m56_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m56_MyFirstEnterFlag" description="(internal1_m56_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
+<var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m55_flst" description="(internal1_m55_flst)  флаг старта измерения" format="3"></var>
+<var  name="internal1_m55_chsr" description="(internal1_m55_chsr)  счетчик усреднения" format="3"></var>
+<var  name="internal1_m55_chizm" description="(internal1_m55_chizm)  счетчик уменьшения мощности" format="3"></var>
+<var  name="internal1_m55_sumtim" description="(internal1_m55_sumtim)  время измерения мощности" format="8"></var>
+<var  name="internal1_m55_W1" description="(internal1_m55_W1)  мощность на старте измерения" format="8"></var>
+<var  name="internal1_m55_W2" description="(internal1_m55_W2)  мощность в конце измерения" format="8"></var>
+<var  name="internal1_m55_Wmin" description="(internal1_m55_Wmin)  минимальное измерение в серии" format="8"></var>
+<var  name="internal1_m55_Wmax" description="(internal1_m55_Wmax)  максимальное измерение в серии" format="8"></var>
+<var  name="internal1_m55_Wlast" description="(internal1_m55_Wlast)  последнее растущее измерение" format="8"></var>
+<var  name="internal1_m55_y0" description="(internal1_m55_y0) y0 - внутренний параметр" format="8"></var>
+<var  name="internal1_m55_MyFirstEnterFlag" description="(internal1_m55_MyFirstEnterFlag)  FirstEnterFlag" format="1"></var>
 </vars>

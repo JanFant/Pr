@@ -204,7 +204,7 @@
 <var  name="internal1_m140_y0" description="(internal1_m140_y0) y0" format="18"></var>
 <var  name="internal1_m139_tx" description="(internal1_m139_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m139_y0" description="(internal1_m139_y0) y0" format="18"></var>
-<var  name="internal1_m33_tx" description="(internal1_m33_tx) tx - внутренний параметр" format="3"></var>
+<var  name="internal1_m32_tx" description="(internal1_m32_tx) tx - внутренний параметр" format="3"></var>
 <var  name="internal1_m150_y0" description="(internal1_m150_y0) y0" format="8"></var>
 <var  name="internal1_m148_y0" description="(internal1_m148_y0) y0" format="8"></var>
 <var  name="internal1_m92_y0" description="(internal1_m92_y0) y0" format="8"></var>
@@ -214,10 +214,10 @@
 <var  name="internal1_m281_q0" description="(internal1_m281_q0) q0 - внутренний параметр" format="5"></var>
 <var  name="internal1_m130_y0" description="(internal1_m130_y0) state" format="1"></var>
 <var  name="internal1_m124_y0" description="(internal1_m124_y0) state" format="1"></var>
-<var  name="internal1_m107_y1" description="(internal1_m107_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m101_y1" description="(internal1_m101_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m120_y1" description="(internal1_m120_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m94_y1" description="(internal1_m94_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m105_y1" description="(internal1_m105_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m159_y1" description="(internal1_m159_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m170_y1" description="(internal1_m170_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m106_y1" description="(internal1_m106_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m160_y1" description="(internal1_m160_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m168_y1" description="(internal1_m168_y1) y1 - внутренний параметр" format="1"></var>
 </vars>
