@@ -267,7 +267,7 @@
         </record>
         <record>
             <value name="name">R0VN11RZ2</value>
-            <value name="description">( - , Baz2, SBz2DU) Средняя мощность по БАЗ1</value>
+            <value name="description">( - , Baz2, SBz2DU) Средняя мощность по БАЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>

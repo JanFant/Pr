@@ -73,8 +73,8 @@ int nomer = 1;
 #define idB0VN81LZ2	 29	//( - , Baz2) АЗ по АС периода разгона АЗ2
 #define R0VZ05UZ2	 BUFFER[59]	//( - , Baz2) Индикатор причины сброса
 #define idR0VZ05UZ2	 30	//( - , Baz2) Индикатор причины сброса
-#define R0VN11RZ2	 BUFFER[64]	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
-#define idR0VN11RZ2	 31	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
+#define R0VN11RZ2	 BUFFER[64]	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ2
+#define idR0VN11RZ2	 31	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ2
 #define R0VP73LZ2	 BUFFER[69]	//( - , Baz2, SBz2DU) ПС давления для РУ
 #define idR0VP73LZ2	 32	//( - , Baz2, SBz2DU) ПС давления для РУ
 #define B0CT01IZ2	 BUFFER[71]	//( - , Baz2, SBz2DU) Температура АЗ2-1
@@ -483,7 +483,7 @@ static VarCtrl allVariables[]={      // Описание всех перемен
 	{ 28	,1	,1	, &A0VN81LZ2},	//( - , Baz2) АЗ по АС периода разгона АЗ1
 	{ 29	,1	,1	, &B0VN81LZ2},	//( - , Baz2) АЗ по АС периода разгона АЗ2
 	{ 30	,5	,1	, &R0VZ05UZ2},	//( - , Baz2) Индикатор причины сброса
-	{ 31	,8	,1	, &R0VN11RZ2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
+	{ 31	,8	,1	, &R0VN11RZ2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ2
 	{ 32	,1	,1	, &R0VP73LZ2},	//( - , Baz2, SBz2DU) ПС давления для РУ
 	{ 33	,8	,1	, &B0CT01IZ2},	//( - , Baz2, SBz2DU) Температура АЗ2-1
 	{ 34	,1	,1	, &B0VT61LZ2},	//( - , Baz2) ПС по температуре в АЗ2
@@ -781,7 +781,7 @@ static ModbusRegister di_Baz2[]={  //
 #pragma pack(push,1)
 static ModbusRegister ir_Baz2[]={  // 
 	{&B0CT01IZ2,8,0},	//( - , Baz2, SBz2DU) Температура АЗ2-1
-	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
+	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ2
 	{&R0VZ05UZ2,5,4},	//( - , Baz2) Индикатор причины сброса
 	{&TTLBaz2,3,6},	//( - , Baz2) ttl
 	{&R0VN01RZ2,8,7},	//( - , Baz2) Уровень мощности по каналу 1
@@ -854,7 +854,7 @@ static ModbusRegister di_SBz2DU[]={  //
 #pragma pack(push,1)
 static ModbusRegister ir_SBz2DU[]={  // 
 	{&B0CT01IZ2,8,0},	//( - , Baz2, SBz2DU) Температура АЗ2-1
-	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ1
+	{&R0VN11RZ2,8,2},	//( - , Baz2, SBz2DU) Средняя мощность по БАЗ2
 	{&A0CT01IZ2,8,4},	//( - , Baz2, SBz2DU) Температура АЗ1-1
 	{NULL,0,0},
 };

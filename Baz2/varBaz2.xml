@@ -29,7 +29,7 @@
 <var  name="A0VN81LZ2" description="( - , Baz2) АЗ по АС периода разгона АЗ1" format="1"></var>
 <var  name="B0VN81LZ2" description="( - , Baz2) АЗ по АС периода разгона АЗ2" format="1"></var>
 <var  name="R0VZ05UZ2" description="( - , Baz2) Индикатор причины сброса" format="5"></var>
-<var  name="R0VN11RZ2" description="( - , Baz2, SBz2DU) Средняя мощность по БАЗ1" format="8"></var>
+<var  name="R0VN11RZ2" description="( - , Baz2, SBz2DU) Средняя мощность по БАЗ2" format="8"></var>
 <var  name="R0VP73LZ2" description="( - , Baz2, SBz2DU) ПС давления для РУ" format="1"></var>
 <var  name="B0CT01IZ2" description="( - , Baz2, SBz2DU) Температура АЗ2-1" format="8"></var>
 <var  name="B0VT61LZ2" description="( - , Baz2) ПС по температуре в АЗ2" format="1"></var>
