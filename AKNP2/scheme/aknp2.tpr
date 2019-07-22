@@ -978,7 +978,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="k - Kф-коэффициент усиления"
       MinValue=""
       MaxValue=""
       Group=""
@@ -1000,7 +1000,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="tau - Tф-постоянная времени, с"
       MinValue=""
       MaxValue=""
       Group=""
@@ -1630,7 +1630,7 @@
         }
       }
       [VVV_Text]{
-        R="291,426,419,431"
+        R="291,426,449,433"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1686,7 +1686,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,987,409"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -3221,7 +3221,7 @@
         Line1="Частота с ВЧС к 3"
       }
       [VVV_Text]{
-        R="671,825,806,830"
+        R="671,825,839,832"
         Number=226
         IsHold=FALSE
         Line1="Выравнивание частоты по линейной зависимости"
@@ -3285,6 +3285,47 @@
         IsHold=FALSE
         VisualNumber="112"
         CONST_NAME="R0IN32FN2"
+      }
+      [TModule]{
+        R="778,274,808,314"
+        Number=63
+        IsHold=FALSE
+        VisualNumber="56"
+        ABBRV="MOD1"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=63
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=63
+            ConstName="K"
+          }
+          [VVV_GCPoint]{
+            Number=63
+            ParameterName="k"
+            Index=-1
+          }
+        }
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=63
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=63
+            ConstName="TAU"
+          }
+          [VVV_GCPoint]{
+            Number=63
+            ParameterName="tau"
+            Index=-1
+          }
+        }
       }
       [VVV_DrawConnector]{
         Number=169
@@ -4731,27 +4772,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=76
-        IsHold=FALSE
-        p0="121:556"
-        p1="121:583"
-        BNumber=70
-        ENumber=75
-        Comment="ttl - время жизни"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=70
-          ParameterName="ttl"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=75
-          ParameterName="TTLaknp2"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=80
         IsHold=FALSE
         p0="74:653"
@@ -5987,47 +6007,6 @@
           Index=-1
         }
       }
-      [TModule]{
-        R="778,274,808,314"
-        Number=63
-        IsHold=FALSE
-        VisualNumber="56"
-        ABBRV="MOD1"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=63
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=63
-            ConstName="K"
-          }
-          [VVV_GCPoint]{
-            Number=63
-            ParameterName="k"
-            Index=-1
-          }
-        }
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=63
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=63
-            ConstName="TAU"
-          }
-          [VVV_GCPoint]{
-            Number=63
-            ParameterName="tau"
-            Index=-1
-          }
-        }
-      }
       [VVV_DrawConnector]{
         Number=159
         IsHold=FALSE
@@ -6078,7 +6057,7 @@
         p1="793:382"
         BNumber=167
         ENumber=276
-        Comment="y - выходной параметр --> t-период разгона"
+        Comment="y - выходной параметр --> Период разгона канал 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6122,7 +6101,7 @@
         p3="854:187"
         BNumber=167
         ENumber=171
-        Comment="y - выходной параметр --> X2"
+        Comment="y - выходной параметр --> Период разгона канал 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6143,7 +6122,7 @@
         p1="854:282"
         BNumber=252
         ENumber=201
-        Comment="y - выходной параметр --> X2"
+        Comment="y - выходной параметр --> Период разгона канал 2"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6157,7 +6136,28 @@
           Index=-1
         }
       }
+      [VVV_DrawConnector]{
+        Number=76
+        IsHold=FALSE
+        p0="125:556"
+        p1="125:583"
+        BNumber=70
+        ENumber=75
+        Comment="ttl - время жизни"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=70
+          ParameterName="ttl"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=75
+          ParameterName="TTLaknp2"
+          Index=-1
+        }
+      }
     }
   }
 }
-5912300
+5911114

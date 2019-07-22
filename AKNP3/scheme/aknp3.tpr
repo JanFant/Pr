@@ -978,7 +978,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="k - Kф-коэффициент усиления"
       MinValue=""
       MaxValue=""
       Group=""
@@ -1000,7 +1000,7 @@
       Numeration=0
       MemoryType=0
       ESPPZUType=0
-      Description=""
+      Description="tau - Tф-постоянная времени, с"
       MinValue=""
       MaxValue=""
       Group=""
@@ -3307,6 +3307,47 @@
         IsHold=FALSE
         VisualNumber="113"
         CONST_NAME="R0IN32FN3"
+      }
+      [TModule]{
+        R="773,272,803,312"
+        Number=11
+        IsHold=FALSE
+        VisualNumber="56"
+        ABBRV="MOD1"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=11
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=11
+            ConstName="K"
+          }
+          [VVV_GCPoint]{
+            Number=11
+            ParameterName="k"
+            Index=-1
+          }
+        }
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=11
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=11
+            ConstName="TAU"
+          }
+          [VVV_GCPoint]{
+            Number=11
+            ParameterName="tau"
+            Index=-1
+          }
+        }
       }
       [VVV_DrawConnector]{
         Number=169
@@ -6035,47 +6076,6 @@
           Index=-1
         }
       }
-      [TModule]{
-        R="773,272,803,312"
-        Number=11
-        IsHold=FALSE
-        VisualNumber="56"
-        ABBRV="MOD1"
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=11
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=11
-            ConstName="K"
-          }
-          [VVV_GCPoint]{
-            Number=11
-            ParameterName="k"
-            Index=-1
-          }
-        }
-        [VVV_DrawConnector]{
-          Number=0
-          IsHold=FALSE
-          ENumber=11
-          Comment=""
-          CommentChange=0
-          Value=""
-          [VVV_ConstCPoint]{
-            Number=11
-            ConstName="TAU"
-          }
-          [VVV_GCPoint]{
-            Number=11
-            ParameterName="tau"
-            Index=-1
-          }
-        }
-      }
       [VVV_DrawConnector]{
         Number=159
         IsHold=FALSE
@@ -6147,7 +6147,7 @@
         p1="789:380"
         BNumber=172
         ENumber=276
-        Comment="y - выходной параметр --> t-период разгона"
+        Comment="y - выходной параметр --> Период разгона канал 3"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6170,7 +6170,7 @@
         p3="853:184"
         BNumber=172
         ENumber=171
-        Comment="y - выходной параметр --> X2"
+        Comment="y - выходной параметр --> Период разгона канал 3"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6191,7 +6191,7 @@
         p1="853:280"
         BNumber=263
         ENumber=201
-        Comment="y - выходной параметр --> X2"
+        Comment="y - выходной параметр --> Период разгона канал 3"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -6208,4 +6208,4 @@
     }
   }
 }
-5960627
+5959402
