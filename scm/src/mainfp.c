@@ -53,19 +53,23 @@ int main(int argc, char **argv) {
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
-%attach_1%
-%attach_2%
+    if (SimulOn) {
+        if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+            return EXIT_FAILURE;
+    } else {
+        if (initAllDriversPTI(drivers))
+            return EXIT_FAILURE;
+    }
     time_start(&tvStakt);
     while (1) {
         time_start(&tv1);
-%attach_7%
+        if(!getAsBool(idR0S01LIM))
         readAllModbus();
         if (SimulOn)
             readAllSimul();
         else {
-%attach_3%
+            readAllDriversPTI();
         }
-%attach_4%
         takt = takt_time_cycle(tvStakt);
         time_start(&tvStakt);
         MainCycle();
@@ -73,10 +77,10 @@ int main(int argc, char **argv) {
         if (SimulOn)
             writeAllSimul();
         else {
-%attach_5%
-%attach_8%
+            writeAllDriversPTI();
+        }
+        if(!getAsBool(idR0S01LIM))
         {
-%attach_6%
             writeAllModbus();
             makeSaveData();
             long int t = time_cycle();

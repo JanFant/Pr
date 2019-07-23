@@ -53,19 +53,62 @@ int main(int argc, char **argv) {
     initModbusDevices(modbuses);
     initAllregistersModubus();
     initNetPhoto();
-%attach_1%
-%attach_2%
+    nomer = getNomer();
+    if (SimulOn) {
+        if (initAllSimul(CodeSub, drivers, SimulIP, SimulPort))
+            return EXIT_FAILURE;
+    } else {
+        if (initAllDrivers(drivers)) {
+            //Запустились в режиме резервного
+            syslog(LOG_INFO, "Mode reserved FP number %d\n", nomer);
+            InitInternalParametr();
+            master = 0;
+            if (initUDP(master, nomer, &setUDP) < 0)
+                return EXIT_FAILURE;
+            while (initAllDrivers(drivers)) {
+                time_start(&tv1);
+                readAllModbus();
+                reciveVariables();
+                writeAllModbus();
+                takt = takt_time_cycle(tvStakt);
+                time_start(&tvStakt);
+                MainCycle();
+                long int t = time_cycle();
+                if (t > StepCycle) {
+                    syslog(LOG_INFO, "long cycle %ld\n", t);
+                }
+                while ((time_cycle() + 1) < StepCycle) {
+                    makeStepModbusDevices();
+                }
+                while ((time_cycle()) < StepCycle) {
+                }
+            }
+            closeUDP();
+        };
+    }
+    // Режим основного ФП
+    master = 1;
+    if (initUDP(master, nomer, &setUDP) < 0)
+        return EXIT_FAILURE;
+    syslog(LOG_INFO, "Mode master FP number %d\n", nomer);
+    init_dataVchs(buf_VCHS01);
+    init_dataVchs(buf_VCHS02);
     time_start(&tvStakt);
     while (1) {
         time_start(&tv1);
-%attach_7%
         readAllModbus();
         if (SimulOn)
             readAllSimul();
         else {
-%attach_3%
+            if (isSlave()) {
+                syslog(LOG_ERR, "Lost master \n");
+                break;
+            }
+            if (readAllDrivers() != 0)
+                break;
         }
-%attach_4%
+        VCHS_post(buf_VCHS01);
+        VCHS_post(buf_VCHS02);
         takt = takt_time_cycle(tvStakt);
         time_start(&tvStakt);
         MainCycle();
@@ -73,10 +116,12 @@ int main(int argc, char **argv) {
         if (SimulOn)
             writeAllSimul();
         else {
-%attach_5%
-%attach_8%
+            if (writeAllDrivers() != 0)
+                break;
+        }
+
         {
-%attach_6%
+            sendVariables();
             writeAllModbus();
             makeSaveData();
             long int t = time_cycle();
