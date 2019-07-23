@@ -6,7 +6,7 @@
         <attach id="3" file="init2-FP"/>
         <attach id="4" file="postRPU-VCHS"/>
         <attach id="5" file="postSchemeFP"/>
-        <attach id="6" file="SaveVar"/>
+        <attach id="6" file="saveVar"/>
     </modif_C>
     <modif_H>
         <act name="add_VCHS"/>
