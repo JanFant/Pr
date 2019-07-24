@@ -1,7 +1,7 @@
 <!-->
 Описание драйвера по умолчанию
 -->
-<driver name="em8enc" description="Эмулятор енкодеров 8 канальный" code="0x05" lenData="40" lenInit="2" header="drivers/emul8enc.h">
+<driver name="em8enc" description="Эмулятор енкодеров 8 канальный" code="0x05" lenData="96" lenInit="2" header="drivers/emul8enc.h">
     <signals>
         <signal name="ENC01" format="4" mode="output" address="0"/>
         <signal name="ENC02" format="4" mode="output" address="5"/>

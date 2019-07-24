@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0xcc" lenData="26" lenInit="4" header="fp8/drivers/sbkfp7.h">
+<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0xcc" lenData="90" lenInit="7" header="fp8/drivers/sbkfp7.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   

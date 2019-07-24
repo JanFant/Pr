@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="fds16" description="Типовой драйвер ФДС16" code="0x96" lenData="40" lenInit="20" header="fp8/drivers/fds16r.h">
+<driver name="fds16" description="Типовой драйвер ФДС16" code="0x96" lenData="104" lenInit="23" header="fp8/drivers/fds16r.h">
 <!-->
     mode="output" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   

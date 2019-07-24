@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vds32" description="Типовой драйвер ВДС32" code="0xc2" lenData="132" lenInit="15" header="fp8/drivers/vds32r.h">
+<driver name="vds32" description="Типовой драйвер ВДС32" code="0xc2" lenData="194" lenInit="19" header="fp8/drivers/vds32r.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   

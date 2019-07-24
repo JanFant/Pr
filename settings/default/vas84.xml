@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="30" lenInit="7" header="fp8/drivers/vas84r.h">
+<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="64" lenInit="10" header="fp8/drivers/vas84r.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   

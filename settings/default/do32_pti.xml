@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="do32_pti" description="ПТИ драйвер DO32" code="0x02" lenData="137" lenInit="1" header="drivers/do32_pti.h">
+<driver name="do32_pti" description="ПТИ драйвер DO32" code="0x02" lenData="197" lenInit="1" header="drivers/do32_pti.h">
 <!-->
     mode="output" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   

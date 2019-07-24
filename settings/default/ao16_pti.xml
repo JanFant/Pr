@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="ao16_pti" description="ПТИ драйвер AO16" code="0x04" lenData="127" lenInit="20" header="drivers/ao16.h">
+<driver name="ao16_pti" description="ПТИ драйвер AO16" code="0x04" lenData="176" lenInit="37" header="drivers/ao16.h">
 <!-->
     mode="output" - обязатльное назначение имени переменной
         ="n"  - можно не назначать   
