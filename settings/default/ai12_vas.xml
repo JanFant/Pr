@@ -1,4 +1,4 @@
-<driver name="AI12_vas" description="ПТИ драйвер Vas" code="0x33" lenData="103" lenInit="1" header="drivers/ai12_vas.h">
+<driver name="AI12_vas" description="ПТИ драйвер Vas" code="0x33" lenData="103" lenInit="4" header="drivers/ai12_vas.h">
 
     <signals>
         <signal name="K01AI" format="3" mode="output" address="0"/>
