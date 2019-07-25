@@ -450,300 +450,300 @@ int master=1,nomer=1;
 #define idinternal1_m99_tx	218	// (internal1_m99_tx) tx - время накопленное сек
 #define internal1_m99_y0	BUFFER[656]	// (internal1_m99_y0) y0
 #define idinternal1_m99_y0	219	// (internal1_m99_y0) y0
-#define var29	BUFFER[658]	// Внутренняя переменная var29
-#define idvar29	220	// Внутренняя переменная var29
-#define var68	BUFFER[660]	// Внутренняя переменная var68
-#define idvar68	221	// Внутренняя переменная var68
-#define var83	BUFFER[662]	// Внутренняя переменная var83
-#define idvar83	222	// Внутренняя переменная var83
-#define var117	BUFFER[664]	// Внутренняя переменная var117
-#define idvar117	223	// Внутренняя переменная var117
-#define var141	BUFFER[673]	// Внутренняя переменная var141
-#define idvar141	224	// Внутренняя переменная var141
-#define var94	BUFFER[675]	// Внутренняя переменная var94
-#define idvar94	225	// Внутренняя переменная var94
-#define var134	BUFFER[677]	// Внутренняя переменная var134
-#define idvar134	226	// Внутренняя переменная var134
-#define var90	BUFFER[679]	// Внутренняя переменная var90
-#define idvar90	227	// Внутренняя переменная var90
-#define var145	BUFFER[681]	// Внутренняя переменная var145
-#define idvar145	228	// Внутренняя переменная var145
-#define var49	BUFFER[683]	// Внутренняя переменная var49
-#define idvar49	229	// Внутренняя переменная var49
-#define var54	BUFFER[685]	// Внутренняя переменная var54
-#define idvar54	230	// Внутренняя переменная var54
-#define vainSLong	BUFFER[687]	// Внутренняя переменная vainSLong
-#define idvainSLong	231	// Внутренняя переменная vainSLong
-#define var19	BUFFER[696]	// Внутренняя переменная var19
-#define idvar19	232	// Внутренняя переменная var19
-#define var23	BUFFER[698]	// Внутренняя переменная var23
-#define idvar23	233	// Внутренняя переменная var23
-#define var55	BUFFER[700]	// Внутренняя переменная var55
-#define idvar55	234	// Внутренняя переменная var55
-#define var65	BUFFER[702]	// Внутренняя переменная var65
-#define idvar65	235	// Внутренняя переменная var65
-#define var105	BUFFER[704]	// Внутренняя переменная var105
-#define idvar105	236	// Внутренняя переменная var105
-#define var9	BUFFER[709]	// Внутренняя переменная var9
-#define idvar9	237	// Внутренняя переменная var9
-#define var31	BUFFER[711]	// Внутренняя переменная var31
-#define idvar31	238	// Внутренняя переменная var31
-#define var45	BUFFER[713]	// Внутренняя переменная var45
-#define idvar45	239	// Внутренняя переменная var45
-#define var51	BUFFER[715]	// Внутренняя переменная var51
-#define idvar51	240	// Внутренняя переменная var51
-#define var67	BUFFER[717]	// Внутренняя переменная var67
-#define idvar67	241	// Внутренняя переменная var67
-#define var131	BUFFER[719]	// Внутренняя переменная var131
-#define idvar131	242	// Внутренняя переменная var131
-#define var140	BUFFER[721]	// Внутренняя переменная var140
-#define idvar140	243	// Внутренняя переменная var140
-#define var10	BUFFER[723]	// Внутренняя переменная var10
-#define idvar10	244	// Внутренняя переменная var10
-#define var32	BUFFER[725]	// Внутренняя переменная var32
-#define idvar32	245	// Внутренняя переменная var32
-#define var60	BUFFER[727]	// Внутренняя переменная var60
-#define idvar60	246	// Внутренняя переменная var60
-#define var72	BUFFER[729]	// Внутренняя переменная var72
-#define idvar72	247	// Внутренняя переменная var72
-#define var80	BUFFER[731]	// Внутренняя переменная var80
-#define idvar80	248	// Внутренняя переменная var80
-#define var125	BUFFER[733]	// Внутренняя переменная var125
-#define idvar125	249	// Внутренняя переменная var125
-#define var35	BUFFER[735]	// Внутренняя переменная var35
-#define idvar35	250	// Внутренняя переменная var35
-#define var62	BUFFER[737]	// Внутренняя переменная var62
-#define idvar62	251	// Внутренняя переменная var62
-#define var91	BUFFER[739]	// Внутренняя переменная var91
-#define idvar91	252	// Внутренняя переменная var91
-#define var92	BUFFER[741]	// Внутренняя переменная var92
-#define idvar92	253	// Внутренняя переменная var92
-#define var115	BUFFER[743]	// Внутренняя переменная var115
-#define idvar115	254	// Внутренняя переменная var115
-#define var118	BUFFER[748]	// Внутренняя переменная var118
-#define idvar118	255	// Внутренняя переменная var118
-#define var121	BUFFER[750]	// Внутренняя переменная var121
-#define idvar121	256	// Внутренняя переменная var121
-#define var13	BUFFER[752]	// Внутренняя переменная var13
-#define idvar13	257	// Внутренняя переменная var13
-#define var28	BUFFER[754]	// Внутренняя переменная var28
-#define idvar28	258	// Внутренняя переменная var28
-#define var37	BUFFER[756]	// Внутренняя переменная var37
-#define idvar37	259	// Внутренняя переменная var37
-#define var120	BUFFER[758]	// Внутренняя переменная var120
-#define idvar120	260	// Внутренняя переменная var120
-#define var127	BUFFER[760]	// Внутренняя переменная var127
-#define idvar127	261	// Внутренняя переменная var127
-#define var18	BUFFER[765]	// Внутренняя переменная var18
-#define idvar18	262	// Внутренняя переменная var18
-#define var21	BUFFER[767]	// Внутренняя переменная var21
-#define idvar21	263	// Внутренняя переменная var21
-#define var63	BUFFER[769]	// Внутренняя переменная var63
-#define idvar63	264	// Внутренняя переменная var63
-#define var82	BUFFER[771]	// Внутренняя переменная var82
-#define idvar82	265	// Внутренняя переменная var82
-#define var106	BUFFER[773]	// Внутренняя переменная var106
-#define idvar106	266	// Внутренняя переменная var106
-#define var107	BUFFER[775]	// Внутренняя переменная var107
-#define idvar107	267	// Внутренняя переменная var107
-#define var109	BUFFER[780]	// Внутренняя переменная var109
-#define idvar109	268	// Внутренняя переменная var109
-#define var95	BUFFER[782]	// Внутренняя переменная var95
-#define idvar95	269	// Внутренняя переменная var95
-#define var132	BUFFER[784]	// Внутренняя переменная var132
-#define idvar132	270	// Внутренняя переменная var132
-#define var14	BUFFER[786]	// Внутренняя переменная var14
-#define idvar14	271	// Внутренняя переменная var14
-#define var114	BUFFER[788]	// Внутренняя переменная var114
-#define idvar114	272	// Внутренняя переменная var114
-#define var136	BUFFER[790]	// Внутренняя переменная var136
-#define idvar136	273	// Внутренняя переменная var136
-#define var3	BUFFER[792]	// Внутренняя переменная var3
-#define idvar3	274	// Внутренняя переменная var3
-#define var6	BUFFER[794]	// Внутренняя переменная var6
-#define idvar6	275	// Внутренняя переменная var6
-#define var8	BUFFER[796]	// Внутренняя переменная var8
-#define idvar8	276	// Внутренняя переменная var8
-#define var20	BUFFER[798]	// Внутренняя переменная var20
-#define idvar20	277	// Внутренняя переменная var20
-#define var33	BUFFER[800]	// Внутренняя переменная var33
-#define idvar33	278	// Внутренняя переменная var33
-#define var40	BUFFER[805]	// Внутренняя переменная var40
-#define idvar40	279	// Внутренняя переменная var40
-#define var47	BUFFER[807]	// Внутренняя переменная var47
-#define idvar47	280	// Внутренняя переменная var47
-#define var53	BUFFER[809]	// Внутренняя переменная var53
-#define idvar53	281	// Внутренняя переменная var53
-#define var66	BUFFER[811]	// Внутренняя переменная var66
-#define idvar66	282	// Внутренняя переменная var66
-#define var69	BUFFER[813]	// Внутренняя переменная var69
-#define idvar69	283	// Внутренняя переменная var69
-#define var85	BUFFER[815]	// Внутренняя переменная var85
-#define idvar85	284	// Внутренняя переменная var85
-#define var112	BUFFER[817]	// Внутренняя переменная var112
-#define idvar112	285	// Внутренняя переменная var112
-#define var122	BUFFER[819]	// Внутренняя переменная var122
-#define idvar122	286	// Внутренняя переменная var122
-#define var129	BUFFER[821]	// Внутренняя переменная var129
-#define idvar129	287	// Внутренняя переменная var129
-#define var58	BUFFER[823]	// Внутренняя переменная var58
-#define idvar58	288	// Внутренняя переменная var58
-#define var71	BUFFER[825]	// Внутренняя переменная var71
-#define idvar71	289	// Внутренняя переменная var71
-#define var77	BUFFER[827]	// Внутренняя переменная var77
-#define idvar77	290	// Внутренняя переменная var77
-#define var102	BUFFER[829]	// Внутренняя переменная var102
-#define idvar102	291	// Внутренняя переменная var102
-#define var104	BUFFER[831]	// Внутренняя переменная var104
-#define idvar104	292	// Внутренняя переменная var104
-#define vainSBool	BUFFER[836]	// Внутренняя переменная vainSBool
-#define idvainSBool	293	// Внутренняя переменная vainSBool
-#define var44	BUFFER[838]	// Внутренняя переменная var44
-#define idvar44	294	// Внутренняя переменная var44
-#define var75	BUFFER[840]	// Внутренняя переменная var75
-#define idvar75	295	// Внутренняя переменная var75
-#define var81	BUFFER[842]	// Внутренняя переменная var81
-#define idvar81	296	// Внутренняя переменная var81
-#define var87	BUFFER[844]	// Внутренняя переменная var87
-#define idvar87	297	// Внутренняя переменная var87
-#define var103	BUFFER[846]	// Внутренняя переменная var103
-#define idvar103	298	// Внутренняя переменная var103
-#define var119	BUFFER[848]	// Внутренняя переменная var119
-#define idvar119	299	// Внутренняя переменная var119
-#define vainSInt	BUFFER[850]	// Внутренняя переменная vainSInt
-#define idvainSInt	300	// Внутренняя переменная vainSInt
-#define var50	BUFFER[855]	// Внутренняя переменная var50
-#define idvar50	301	// Внутренняя переменная var50
-#define var57	BUFFER[857]	// Внутренняя переменная var57
-#define idvar57	302	// Внутренняя переменная var57
-#define var143	BUFFER[859]	// Внутренняя переменная var143
-#define idvar143	303	// Внутренняя переменная var143
-#define vainSFloat	BUFFER[861]	// Внутренняя переменная vainSFloat
-#define idvainSFloat	304	// Внутренняя переменная vainSFloat
-#define var2	BUFFER[866]	// Внутренняя переменная var2
-#define idvar2	305	// Внутренняя переменная var2
-#define var26	BUFFER[868]	// Внутренняя переменная var26
-#define idvar26	306	// Внутренняя переменная var26
-#define var59	BUFFER[870]	// Внутренняя переменная var59
-#define idvar59	307	// Внутренняя переменная var59
-#define var124	BUFFER[872]	// Внутренняя переменная var124
-#define idvar124	308	// Внутренняя переменная var124
-#define var1	BUFFER[874]	// Внутренняя переменная var1
-#define idvar1	309	// Внутренняя переменная var1
-#define var7	BUFFER[876]	// Внутренняя переменная var7
-#define idvar7	310	// Внутренняя переменная var7
-#define var16	BUFFER[878]	// Внутренняя переменная var16
-#define idvar16	311	// Внутренняя переменная var16
-#define var86	BUFFER[880]	// Внутренняя переменная var86
-#define idvar86	312	// Внутренняя переменная var86
-#define var89	BUFFER[882]	// Внутренняя переменная var89
-#define idvar89	313	// Внутренняя переменная var89
-#define var93	BUFFER[884]	// Внутренняя переменная var93
-#define idvar93	314	// Внутренняя переменная var93
-#define var144	BUFFER[886]	// Внутренняя переменная var144
-#define idvar144	315	// Внутренняя переменная var144
-#define var11	BUFFER[888]	// Внутренняя переменная var11
-#define idvar11	316	// Внутренняя переменная var11
-#define var43	BUFFER[890]	// Внутренняя переменная var43
-#define idvar43	317	// Внутренняя переменная var43
-#define var142	BUFFER[892]	// Внутренняя переменная var142
-#define idvar142	318	// Внутренняя переменная var142
-#define var25	BUFFER[894]	// Внутренняя переменная var25
-#define idvar25	319	// Внутренняя переменная var25
-#define var34	BUFFER[896]	// Внутренняя переменная var34
-#define idvar34	320	// Внутренняя переменная var34
-#define var41	BUFFER[898]	// Внутренняя переменная var41
-#define idvar41	321	// Внутренняя переменная var41
-#define var73	BUFFER[900]	// Внутренняя переменная var73
-#define idvar73	322	// Внутренняя переменная var73
-#define var139	BUFFER[902]	// Внутренняя переменная var139
-#define idvar139	323	// Внутренняя переменная var139
-#define var5	BUFFER[904]	// Внутренняя переменная var5
-#define idvar5	324	// Внутренняя переменная var5
-#define var27	BUFFER[906]	// Внутренняя переменная var27
-#define idvar27	325	// Внутренняя переменная var27
-#define var30	BUFFER[908]	// Внутренняя переменная var30
-#define idvar30	326	// Внутренняя переменная var30
-#define var38	BUFFER[910]	// Внутренняя переменная var38
-#define idvar38	327	// Внутренняя переменная var38
-#define var46	BUFFER[912]	// Внутренняя переменная var46
-#define idvar46	328	// Внутренняя переменная var46
-#define var70	BUFFER[914]	// Внутренняя переменная var70
-#define idvar70	329	// Внутренняя переменная var70
-#define var84	BUFFER[916]	// Внутренняя переменная var84
-#define idvar84	330	// Внутренняя переменная var84
-#define var113	BUFFER[918]	// Внутренняя переменная var113
-#define idvar113	331	// Внутренняя переменная var113
-#define var17	BUFFER[920]	// Внутренняя переменная var17
-#define idvar17	332	// Внутренняя переменная var17
-#define var61	BUFFER[922]	// Внутренняя переменная var61
-#define idvar61	333	// Внутренняя переменная var61
-#define var78	BUFFER[924]	// Внутренняя переменная var78
-#define idvar78	334	// Внутренняя переменная var78
-#define var108	BUFFER[926]	// Внутренняя переменная var108
-#define idvar108	335	// Внутренняя переменная var108
-#define var137	BUFFER[931]	// Внутренняя переменная var137
-#define idvar137	336	// Внутренняя переменная var137
-#define var24	BUFFER[933]	// Внутренняя переменная var24
-#define idvar24	337	// Внутренняя переменная var24
-#define var48	BUFFER[935]	// Внутренняя переменная var48
-#define idvar48	338	// Внутренняя переменная var48
-#define var96	BUFFER[937]	// Внутренняя переменная var96
-#define idvar96	339	// Внутренняя переменная var96
-#define var98	BUFFER[939]	// Внутренняя переменная var98
-#define idvar98	340	// Внутренняя переменная var98
-#define var126	BUFFER[941]	// Внутренняя переменная var126
-#define idvar126	341	// Внутренняя переменная var126
-#define var39	BUFFER[943]	// Внутренняя переменная var39
-#define idvar39	342	// Внутренняя переменная var39
-#define var97	BUFFER[945]	// Внутренняя переменная var97
-#define idvar97	343	// Внутренняя переменная var97
-#define var101	BUFFER[947]	// Внутренняя переменная var101
-#define idvar101	344	// Внутренняя переменная var101
-#define var111	BUFFER[949]	// Внутренняя переменная var111
-#define idvar111	345	// Внутренняя переменная var111
-#define var116	BUFFER[951]	// Внутренняя переменная var116
-#define idvar116	346	// Внутренняя переменная var116
-#define var42	BUFFER[960]	// Внутренняя переменная var42
-#define idvar42	347	// Внутренняя переменная var42
-#define var52	BUFFER[962]	// Внутренняя переменная var52
-#define idvar52	348	// Внутренняя переменная var52
-#define var76	BUFFER[964]	// Внутренняя переменная var76
-#define idvar76	349	// Внутренняя переменная var76
-#define var138	BUFFER[966]	// Внутренняя переменная var138
-#define idvar138	350	// Внутренняя переменная var138
-#define var15	BUFFER[968]	// Внутренняя переменная var15
-#define idvar15	351	// Внутренняя переменная var15
-#define var88	BUFFER[970]	// Внутренняя переменная var88
-#define idvar88	352	// Внутренняя переменная var88
-#define var100	BUFFER[972]	// Внутренняя переменная var100
-#define idvar100	353	// Внутренняя переменная var100
-#define var128	BUFFER[974]	// Внутренняя переменная var128
-#define idvar128	354	// Внутренняя переменная var128
-#define var4	BUFFER[976]	// Внутренняя переменная var4
-#define idvar4	355	// Внутренняя переменная var4
-#define var64	BUFFER[978]	// Внутренняя переменная var64
-#define idvar64	356	// Внутренняя переменная var64
-#define var74	BUFFER[980]	// Внутренняя переменная var74
-#define idvar74	357	// Внутренняя переменная var74
-#define var79	BUFFER[982]	// Внутренняя переменная var79
-#define idvar79	358	// Внутренняя переменная var79
-#define var22	BUFFER[984]	// Внутренняя переменная var22
-#define idvar22	359	// Внутренняя переменная var22
-#define var36	BUFFER[986]	// Внутренняя переменная var36
-#define idvar36	360	// Внутренняя переменная var36
-#define var56	BUFFER[988]	// Внутренняя переменная var56
-#define idvar56	361	// Внутренняя переменная var56
-#define var123	BUFFER[990]	// Внутренняя переменная var123
-#define idvar123	362	// Внутренняя переменная var123
-#define var130	BUFFER[992]	// Внутренняя переменная var130
-#define idvar130	363	// Внутренняя переменная var130
-#define var12	BUFFER[997]	// Внутренняя переменная var12
-#define idvar12	364	// Внутренняя переменная var12
-#define var99	BUFFER[999]	// Внутренняя переменная var99
-#define idvar99	365	// Внутренняя переменная var99
-#define var110	BUFFER[1001]	// Внутренняя переменная var110
-#define idvar110	366	// Внутренняя переменная var110
+#define var27	BUFFER[658]	// Внутренняя переменная var27
+#define idvar27	220	// Внутренняя переменная var27
+#define var37	BUFFER[660]	// Внутренняя переменная var37
+#define idvar37	221	// Внутренняя переменная var37
+#define var81	BUFFER[662]	// Внутренняя переменная var81
+#define idvar81	222	// Внутренняя переменная var81
+#define var144	BUFFER[664]	// Внутренняя переменная var144
+#define idvar144	223	// Внутренняя переменная var144
+#define var55	BUFFER[666]	// Внутренняя переменная var55
+#define idvar55	224	// Внутренняя переменная var55
+#define var62	BUFFER[668]	// Внутренняя переменная var62
+#define idvar62	225	// Внутренняя переменная var62
+#define var66	BUFFER[670]	// Внутренняя переменная var66
+#define idvar66	226	// Внутренняя переменная var66
+#define var139	BUFFER[672]	// Внутренняя переменная var139
+#define idvar139	227	// Внутренняя переменная var139
+#define var29	BUFFER[674]	// Внутренняя переменная var29
+#define idvar29	228	// Внутренняя переменная var29
+#define var41	BUFFER[676]	// Внутренняя переменная var41
+#define idvar41	229	// Внутренняя переменная var41
+#define var44	BUFFER[678]	// Внутренняя переменная var44
+#define idvar44	230	// Внутренняя переменная var44
+#define var49	BUFFER[680]	// Внутренняя переменная var49
+#define idvar49	231	// Внутренняя переменная var49
+#define var136	BUFFER[682]	// Внутренняя переменная var136
+#define idvar136	232	// Внутренняя переменная var136
+#define var33	BUFFER[684]	// Внутренняя переменная var33
+#define idvar33	233	// Внутренняя переменная var33
+#define var59	BUFFER[689]	// Внутренняя переменная var59
+#define idvar59	234	// Внутренняя переменная var59
+#define var93	BUFFER[691]	// Внутренняя переменная var93
+#define idvar93	235	// Внутренняя переменная var93
+#define var128	BUFFER[693]	// Внутренняя переменная var128
+#define idvar128	236	// Внутренняя переменная var128
+#define var110	BUFFER[695]	// Внутренняя переменная var110
+#define idvar110	237	// Внутренняя переменная var110
+#define var14	BUFFER[697]	// Внутренняя переменная var14
+#define idvar14	238	// Внутренняя переменная var14
+#define var65	BUFFER[699]	// Внутренняя переменная var65
+#define idvar65	239	// Внутренняя переменная var65
+#define var77	BUFFER[701]	// Внутренняя переменная var77
+#define idvar77	240	// Внутренняя переменная var77
+#define var79	BUFFER[703]	// Внутренняя переменная var79
+#define idvar79	241	// Внутренняя переменная var79
+#define var119	BUFFER[705]	// Внутренняя переменная var119
+#define idvar119	242	// Внутренняя переменная var119
+#define var132	BUFFER[707]	// Внутренняя переменная var132
+#define idvar132	243	// Внутренняя переменная var132
+#define vainSInt	BUFFER[709]	// Внутренняя переменная vainSInt
+#define idvainSInt	244	// Внутренняя переменная vainSInt
+#define var4	BUFFER[714]	// Внутренняя переменная var4
+#define idvar4	245	// Внутренняя переменная var4
+#define var19	BUFFER[716]	// Внутренняя переменная var19
+#define idvar19	246	// Внутренняя переменная var19
+#define var71	BUFFER[718]	// Внутренняя переменная var71
+#define idvar71	247	// Внутренняя переменная var71
+#define var115	BUFFER[720]	// Внутренняя переменная var115
+#define idvar115	248	// Внутренняя переменная var115
+#define var94	BUFFER[725]	// Внутренняя переменная var94
+#define idvar94	249	// Внутренняя переменная var94
+#define var98	BUFFER[727]	// Внутренняя переменная var98
+#define idvar98	250	// Внутренняя переменная var98
+#define var143	BUFFER[729]	// Внутренняя переменная var143
+#define idvar143	251	// Внутренняя переменная var143
+#define var2	BUFFER[731]	// Внутренняя переменная var2
+#define idvar2	252	// Внутренняя переменная var2
+#define var17	BUFFER[733]	// Внутренняя переменная var17
+#define idvar17	253	// Внутренняя переменная var17
+#define var56	BUFFER[735]	// Внутренняя переменная var56
+#define idvar56	254	// Внутренняя переменная var56
+#define var85	BUFFER[737]	// Внутренняя переменная var85
+#define idvar85	255	// Внутренняя переменная var85
+#define var8	BUFFER[739]	// Внутренняя переменная var8
+#define idvar8	256	// Внутренняя переменная var8
+#define var12	BUFFER[741]	// Внутренняя переменная var12
+#define idvar12	257	// Внутренняя переменная var12
+#define var43	BUFFER[743]	// Внутренняя переменная var43
+#define idvar43	258	// Внутренняя переменная var43
+#define var142	BUFFER[745]	// Внутренняя переменная var142
+#define idvar142	259	// Внутренняя переменная var142
+#define var28	BUFFER[747]	// Внутренняя переменная var28
+#define idvar28	260	// Внутренняя переменная var28
+#define var31	BUFFER[749]	// Внутренняя переменная var31
+#define idvar31	261	// Внутренняя переменная var31
+#define var130	BUFFER[751]	// Внутренняя переменная var130
+#define idvar130	262	// Внутренняя переменная var130
+#define var54	BUFFER[756]	// Внутренняя переменная var54
+#define idvar54	263	// Внутренняя переменная var54
+#define var20	BUFFER[758]	// Внутренняя переменная var20
+#define idvar20	264	// Внутренняя переменная var20
+#define var35	BUFFER[760]	// Внутренняя переменная var35
+#define idvar35	265	// Внутренняя переменная var35
+#define var46	BUFFER[762]	// Внутренняя переменная var46
+#define idvar46	266	// Внутренняя переменная var46
+#define var47	BUFFER[764]	// Внутренняя переменная var47
+#define idvar47	267	// Внутренняя переменная var47
+#define var18	BUFFER[766]	// Внутренняя переменная var18
+#define idvar18	268	// Внутренняя переменная var18
+#define var112	BUFFER[768]	// Внутренняя переменная var112
+#define idvar112	269	// Внутренняя переменная var112
+#define var90	BUFFER[770]	// Внутренняя переменная var90
+#define idvar90	270	// Внутренняя переменная var90
+#define var97	BUFFER[772]	// Внутренняя переменная var97
+#define idvar97	271	// Внутренняя переменная var97
+#define var122	BUFFER[774]	// Внутренняя переменная var122
+#define idvar122	272	// Внутренняя переменная var122
+#define var21	BUFFER[776]	// Внутренняя переменная var21
+#define idvar21	273	// Внутренняя переменная var21
+#define var34	BUFFER[778]	// Внутренняя переменная var34
+#define idvar34	274	// Внутренняя переменная var34
+#define var53	BUFFER[780]	// Внутренняя переменная var53
+#define idvar53	275	// Внутренняя переменная var53
+#define var61	BUFFER[782]	// Внутренняя переменная var61
+#define idvar61	276	// Внутренняя переменная var61
+#define var3	BUFFER[784]	// Внутренняя переменная var3
+#define idvar3	277	// Внутренняя переменная var3
+#define var111	BUFFER[786]	// Внутренняя переменная var111
+#define idvar111	278	// Внутренняя переменная var111
+#define var129	BUFFER[788]	// Внутренняя переменная var129
+#define idvar129	279	// Внутренняя переменная var129
+#define vainSLong	BUFFER[790]	// Внутренняя переменная vainSLong
+#define idvainSLong	280	// Внутренняя переменная vainSLong
+#define var9	BUFFER[799]	// Внутренняя переменная var9
+#define idvar9	281	// Внутренняя переменная var9
+#define var57	BUFFER[801]	// Внутренняя переменная var57
+#define idvar57	282	// Внутренняя переменная var57
+#define var83	BUFFER[803]	// Внутренняя переменная var83
+#define idvar83	283	// Внутренняя переменная var83
+#define var121	BUFFER[805]	// Внутренняя переменная var121
+#define idvar121	284	// Внутренняя переменная var121
+#define var131	BUFFER[807]	// Внутренняя переменная var131
+#define idvar131	285	// Внутренняя переменная var131
+#define var7	BUFFER[809]	// Внутренняя переменная var7
+#define idvar7	286	// Внутренняя переменная var7
+#define var13	BUFFER[811]	// Внутренняя переменная var13
+#define idvar13	287	// Внутренняя переменная var13
+#define var87	BUFFER[813]	// Внутренняя переменная var87
+#define idvar87	288	// Внутренняя переменная var87
+#define var124	BUFFER[815]	// Внутренняя переменная var124
+#define idvar124	289	// Внутренняя переменная var124
+#define var58	BUFFER[817]	// Внутренняя переменная var58
+#define idvar58	290	// Внутренняя переменная var58
+#define var96	BUFFER[819]	// Внутренняя переменная var96
+#define idvar96	291	// Внутренняя переменная var96
+#define var145	BUFFER[821]	// Внутренняя переменная var145
+#define idvar145	292	// Внутренняя переменная var145
+#define var91	BUFFER[823]	// Внутренняя переменная var91
+#define idvar91	293	// Внутренняя переменная var91
+#define var99	BUFFER[825]	// Внутренняя переменная var99
+#define idvar99	294	// Внутренняя переменная var99
+#define var26	BUFFER[827]	// Внутренняя переменная var26
+#define idvar26	295	// Внутренняя переменная var26
+#define var48	BUFFER[829]	// Внутренняя переменная var48
+#define idvar48	296	// Внутренняя переменная var48
+#define var63	BUFFER[831]	// Внутренняя переменная var63
+#define idvar63	297	// Внутренняя переменная var63
+#define var82	BUFFER[833]	// Внутренняя переменная var82
+#define idvar82	298	// Внутренняя переменная var82
+#define var102	BUFFER[835]	// Внутренняя переменная var102
+#define idvar102	299	// Внутренняя переменная var102
+#define var141	BUFFER[837]	// Внутренняя переменная var141
+#define idvar141	300	// Внутренняя переменная var141
+#define var107	BUFFER[839]	// Внутренняя переменная var107
+#define idvar107	301	// Внутренняя переменная var107
+#define var108	BUFFER[844]	// Внутренняя переменная var108
+#define idvar108	302	// Внутренняя переменная var108
+#define var123	BUFFER[849]	// Внутренняя переменная var123
+#define idvar123	303	// Внутренняя переменная var123
+#define var134	BUFFER[851]	// Внутренняя переменная var134
+#define idvar134	304	// Внутренняя переменная var134
+#define var11	BUFFER[853]	// Внутренняя переменная var11
+#define idvar11	305	// Внутренняя переменная var11
+#define var39	BUFFER[855]	// Внутренняя переменная var39
+#define idvar39	306	// Внутренняя переменная var39
+#define var75	BUFFER[857]	// Внутренняя переменная var75
+#define idvar75	307	// Внутренняя переменная var75
+#define var104	BUFFER[859]	// Внутренняя переменная var104
+#define idvar104	308	// Внутренняя переменная var104
+#define var76	BUFFER[864]	// Внутренняя переменная var76
+#define idvar76	309	// Внутренняя переменная var76
+#define var117	BUFFER[866]	// Внутренняя переменная var117
+#define idvar117	310	// Внутренняя переменная var117
+#define var140	BUFFER[875]	// Внутренняя переменная var140
+#define idvar140	311	// Внутренняя переменная var140
+#define var10	BUFFER[877]	// Внутренняя переменная var10
+#define idvar10	312	// Внутренняя переменная var10
+#define var22	BUFFER[879]	// Внутренняя переменная var22
+#define idvar22	313	// Внутренняя переменная var22
+#define var23	BUFFER[881]	// Внутренняя переменная var23
+#define idvar23	314	// Внутренняя переменная var23
+#define var74	BUFFER[883]	// Внутренняя переменная var74
+#define idvar74	315	// Внутренняя переменная var74
+#define var25	BUFFER[885]	// Внутренняя переменная var25
+#define idvar25	316	// Внутренняя переменная var25
+#define var36	BUFFER[887]	// Внутренняя переменная var36
+#define idvar36	317	// Внутренняя переменная var36
+#define var70	BUFFER[889]	// Внутренняя переменная var70
+#define idvar70	318	// Внутренняя переменная var70
+#define var86	BUFFER[891]	// Внутренняя переменная var86
+#define idvar86	319	// Внутренняя переменная var86
+#define var69	BUFFER[893]	// Внутренняя переменная var69
+#define idvar69	320	// Внутренняя переменная var69
+#define var72	BUFFER[895]	// Внутренняя переменная var72
+#define idvar72	321	// Внутренняя переменная var72
+#define var89	BUFFER[897]	// Внутренняя переменная var89
+#define idvar89	322	// Внутренняя переменная var89
+#define var127	BUFFER[899]	// Внутренняя переменная var127
+#define idvar127	323	// Внутренняя переменная var127
+#define var15	BUFFER[904]	// Внутренняя переменная var15
+#define idvar15	324	// Внутренняя переменная var15
+#define var40	BUFFER[906]	// Внутренняя переменная var40
+#define idvar40	325	// Внутренняя переменная var40
+#define var50	BUFFER[908]	// Внутренняя переменная var50
+#define idvar50	326	// Внутренняя переменная var50
+#define var67	BUFFER[910]	// Внутренняя переменная var67
+#define idvar67	327	// Внутренняя переменная var67
+#define var16	BUFFER[912]	// Внутренняя переменная var16
+#define idvar16	328	// Внутренняя переменная var16
+#define var32	BUFFER[914]	// Внутренняя переменная var32
+#define idvar32	329	// Внутренняя переменная var32
+#define var80	BUFFER[916]	// Внутренняя переменная var80
+#define idvar80	330	// Внутренняя переменная var80
+#define vainSFloat	BUFFER[918]	// Внутренняя переменная vainSFloat
+#define idvainSFloat	331	// Внутренняя переменная vainSFloat
+#define var38	BUFFER[923]	// Внутренняя переменная var38
+#define idvar38	332	// Внутренняя переменная var38
+#define var103	BUFFER[925]	// Внутренняя переменная var103
+#define idvar103	333	// Внутренняя переменная var103
+#define var105	BUFFER[927]	// Внутренняя переменная var105
+#define idvar105	334	// Внутренняя переменная var105
+#define var120	BUFFER[932]	// Внутренняя переменная var120
+#define idvar120	335	// Внутренняя переменная var120
+#define var116	BUFFER[934]	// Внутренняя переменная var116
+#define idvar116	336	// Внутренняя переменная var116
+#define var1	BUFFER[943]	// Внутренняя переменная var1
+#define idvar1	337	// Внутренняя переменная var1
+#define var92	BUFFER[945]	// Внутренняя переменная var92
+#define idvar92	338	// Внутренняя переменная var92
+#define var95	BUFFER[947]	// Внутренняя переменная var95
+#define idvar95	339	// Внутренняя переменная var95
+#define var113	BUFFER[949]	// Внутренняя переменная var113
+#define idvar113	340	// Внутренняя переменная var113
+#define var106	BUFFER[951]	// Внутренняя переменная var106
+#define idvar106	341	// Внутренняя переменная var106
+#define var114	BUFFER[953]	// Внутренняя переменная var114
+#define idvar114	342	// Внутренняя переменная var114
+#define var125	BUFFER[955]	// Внутренняя переменная var125
+#define idvar125	343	// Внутренняя переменная var125
+#define var6	BUFFER[957]	// Внутренняя переменная var6
+#define idvar6	344	// Внутренняя переменная var6
+#define var24	BUFFER[959]	// Внутренняя переменная var24
+#define idvar24	345	// Внутренняя переменная var24
+#define var51	BUFFER[961]	// Внутренняя переменная var51
+#define idvar51	346	// Внутренняя переменная var51
+#define var101	BUFFER[963]	// Внутренняя переменная var101
+#define idvar101	347	// Внутренняя переменная var101
+#define var45	BUFFER[965]	// Внутренняя переменная var45
+#define idvar45	348	// Внутренняя переменная var45
+#define var126	BUFFER[967]	// Внутренняя переменная var126
+#define idvar126	349	// Внутренняя переменная var126
+#define var5	BUFFER[969]	// Внутренняя переменная var5
+#define idvar5	350	// Внутренняя переменная var5
+#define var73	BUFFER[971]	// Внутренняя переменная var73
+#define idvar73	351	// Внутренняя переменная var73
+#define var109	BUFFER[973]	// Внутренняя переменная var109
+#define idvar109	352	// Внутренняя переменная var109
+#define var118	BUFFER[975]	// Внутренняя переменная var118
+#define idvar118	353	// Внутренняя переменная var118
+#define var78	BUFFER[977]	// Внутренняя переменная var78
+#define idvar78	354	// Внутренняя переменная var78
+#define var100	BUFFER[979]	// Внутренняя переменная var100
+#define idvar100	355	// Внутренняя переменная var100
+#define var138	BUFFER[981]	// Внутренняя переменная var138
+#define idvar138	356	// Внутренняя переменная var138
+#define var42	BUFFER[983]	// Внутренняя переменная var42
+#define idvar42	357	// Внутренняя переменная var42
+#define vainSBool	BUFFER[985]	// Внутренняя переменная vainSBool
+#define idvainSBool	358	// Внутренняя переменная vainSBool
+#define var84	BUFFER[987]	// Внутренняя переменная var84
+#define idvar84	359	// Внутренняя переменная var84
+#define var137	BUFFER[989]	// Внутренняя переменная var137
+#define idvar137	360	// Внутренняя переменная var137
+#define var68	BUFFER[991]	// Внутренняя переменная var68
+#define idvar68	361	// Внутренняя переменная var68
+#define var88	BUFFER[993]	// Внутренняя переменная var88
+#define idvar88	362	// Внутренняя переменная var88
+#define var30	BUFFER[995]	// Внутренняя переменная var30
+#define idvar30	363	// Внутренняя переменная var30
+#define var52	BUFFER[997]	// Внутренняя переменная var52
+#define idvar52	364	// Внутренняя переменная var52
+#define var60	BUFFER[999]	// Внутренняя переменная var60
+#define idvar60	365	// Внутренняя переменная var60
+#define var64	BUFFER[1001]	// Внутренняя переменная var64
+#define idvar64	366	// Внутренняя переменная var64
 #pragma pack(push,1)
 static VarCtrl allVariables[]={ 			 //Описание всех переменных
 	{1	,8	,1	,&A0CT01IZ2},	//( - , Baz2, SBz2DU) Температура АЗ1-1
@@ -965,179 +965,179 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{217	,1	,1	,&internal1_m94_y1},	//(internal1_m94_y1) y1 - внутренний параметр
 	{218	,8	,1	,&internal1_m99_tx},	//(internal1_m99_tx) tx - время накопленное сек
 	{219	,18	,1	,&internal1_m99_y0},	//(internal1_m99_y0) y0
-	{220	,1	,1	,&var29},	//Внутренняя переменная var29
-	{221	,1	,1	,&var68},	//Внутренняя переменная var68
-	{222	,1	,1	,&var83},	//Внутренняя переменная var83
-	{223	,11	,1	,&var117},	//Внутренняя переменная var117
-	{224	,1	,1	,&var141},	//Внутренняя переменная var141
-	{225	,1	,1	,&var94},	//Внутренняя переменная var94
-	{226	,1	,1	,&var134},	//Внутренняя переменная var134
-	{227	,1	,1	,&var90},	//Внутренняя переменная var90
-	{228	,1	,1	,&var145},	//Внутренняя переменная var145
-	{229	,1	,1	,&var49},	//Внутренняя переменная var49
-	{230	,1	,1	,&var54},	//Внутренняя переменная var54
-	{231	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
-	{232	,1	,1	,&var19},	//Внутренняя переменная var19
-	{233	,1	,1	,&var23},	//Внутренняя переменная var23
-	{234	,1	,1	,&var55},	//Внутренняя переменная var55
-	{235	,1	,1	,&var65},	//Внутренняя переменная var65
-	{236	,8	,1	,&var105},	//Внутренняя переменная var105
-	{237	,1	,1	,&var9},	//Внутренняя переменная var9
-	{238	,1	,1	,&var31},	//Внутренняя переменная var31
-	{239	,1	,1	,&var45},	//Внутренняя переменная var45
-	{240	,1	,1	,&var51},	//Внутренняя переменная var51
-	{241	,1	,1	,&var67},	//Внутренняя переменная var67
-	{242	,1	,1	,&var131},	//Внутренняя переменная var131
-	{243	,1	,1	,&var140},	//Внутренняя переменная var140
-	{244	,1	,1	,&var10},	//Внутренняя переменная var10
-	{245	,1	,1	,&var32},	//Внутренняя переменная var32
-	{246	,1	,1	,&var60},	//Внутренняя переменная var60
-	{247	,1	,1	,&var72},	//Внутренняя переменная var72
-	{248	,1	,1	,&var80},	//Внутренняя переменная var80
-	{249	,1	,1	,&var125},	//Внутренняя переменная var125
-	{250	,1	,1	,&var35},	//Внутренняя переменная var35
-	{251	,1	,1	,&var62},	//Внутренняя переменная var62
-	{252	,1	,1	,&var91},	//Внутренняя переменная var91
-	{253	,1	,1	,&var92},	//Внутренняя переменная var92
-	{254	,8	,1	,&var115},	//Внутренняя переменная var115
-	{255	,1	,1	,&var118},	//Внутренняя переменная var118
-	{256	,1	,1	,&var121},	//Внутренняя переменная var121
-	{257	,1	,1	,&var13},	//Внутренняя переменная var13
-	{258	,1	,1	,&var28},	//Внутренняя переменная var28
-	{259	,1	,1	,&var37},	//Внутренняя переменная var37
-	{260	,1	,1	,&var120},	//Внутренняя переменная var120
-	{261	,8	,1	,&var127},	//Внутренняя переменная var127
-	{262	,1	,1	,&var18},	//Внутренняя переменная var18
-	{263	,1	,1	,&var21},	//Внутренняя переменная var21
-	{264	,1	,1	,&var63},	//Внутренняя переменная var63
-	{265	,1	,1	,&var82},	//Внутренняя переменная var82
-	{266	,1	,1	,&var106},	//Внутренняя переменная var106
-	{267	,8	,1	,&var107},	//Внутренняя переменная var107
-	{268	,1	,1	,&var109},	//Внутренняя переменная var109
-	{269	,1	,1	,&var95},	//Внутренняя переменная var95
-	{270	,1	,1	,&var132},	//Внутренняя переменная var132
-	{271	,1	,1	,&var14},	//Внутренняя переменная var14
-	{272	,1	,1	,&var114},	//Внутренняя переменная var114
-	{273	,1	,1	,&var136},	//Внутренняя переменная var136
-	{274	,1	,1	,&var3},	//Внутренняя переменная var3
-	{275	,1	,1	,&var6},	//Внутренняя переменная var6
-	{276	,1	,1	,&var8},	//Внутренняя переменная var8
-	{277	,1	,1	,&var20},	//Внутренняя переменная var20
-	{278	,5	,1	,&var33},	//Внутренняя переменная var33
-	{279	,1	,1	,&var40},	//Внутренняя переменная var40
-	{280	,1	,1	,&var47},	//Внутренняя переменная var47
-	{281	,1	,1	,&var53},	//Внутренняя переменная var53
-	{282	,1	,1	,&var66},	//Внутренняя переменная var66
-	{283	,1	,1	,&var69},	//Внутренняя переменная var69
-	{284	,1	,1	,&var85},	//Внутренняя переменная var85
-	{285	,1	,1	,&var112},	//Внутренняя переменная var112
-	{286	,1	,1	,&var122},	//Внутренняя переменная var122
-	{287	,1	,1	,&var129},	//Внутренняя переменная var129
-	{288	,1	,1	,&var58},	//Внутренняя переменная var58
-	{289	,1	,1	,&var71},	//Внутренняя переменная var71
-	{290	,1	,1	,&var77},	//Внутренняя переменная var77
-	{291	,1	,1	,&var102},	//Внутренняя переменная var102
-	{292	,8	,1	,&var104},	//Внутренняя переменная var104
-	{293	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
-	{294	,1	,1	,&var44},	//Внутренняя переменная var44
-	{295	,1	,1	,&var75},	//Внутренняя переменная var75
-	{296	,1	,1	,&var81},	//Внутренняя переменная var81
-	{297	,1	,1	,&var87},	//Внутренняя переменная var87
-	{298	,1	,1	,&var103},	//Внутренняя переменная var103
-	{299	,1	,1	,&var119},	//Внутренняя переменная var119
-	{300	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
-	{301	,1	,1	,&var50},	//Внутренняя переменная var50
-	{302	,1	,1	,&var57},	//Внутренняя переменная var57
-	{303	,1	,1	,&var143},	//Внутренняя переменная var143
-	{304	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
-	{305	,1	,1	,&var2},	//Внутренняя переменная var2
-	{306	,1	,1	,&var26},	//Внутренняя переменная var26
-	{307	,1	,1	,&var59},	//Внутренняя переменная var59
-	{308	,1	,1	,&var124},	//Внутренняя переменная var124
-	{309	,1	,1	,&var1},	//Внутренняя переменная var1
-	{310	,1	,1	,&var7},	//Внутренняя переменная var7
-	{311	,1	,1	,&var16},	//Внутренняя переменная var16
-	{312	,1	,1	,&var86},	//Внутренняя переменная var86
-	{313	,1	,1	,&var89},	//Внутренняя переменная var89
-	{314	,1	,1	,&var93},	//Внутренняя переменная var93
-	{315	,1	,1	,&var144},	//Внутренняя переменная var144
-	{316	,1	,1	,&var11},	//Внутренняя переменная var11
-	{317	,1	,1	,&var43},	//Внутренняя переменная var43
-	{318	,1	,1	,&var142},	//Внутренняя переменная var142
-	{319	,1	,1	,&var25},	//Внутренняя переменная var25
-	{320	,1	,1	,&var34},	//Внутренняя переменная var34
-	{321	,1	,1	,&var41},	//Внутренняя переменная var41
-	{322	,1	,1	,&var73},	//Внутренняя переменная var73
-	{323	,1	,1	,&var139},	//Внутренняя переменная var139
-	{324	,1	,1	,&var5},	//Внутренняя переменная var5
-	{325	,1	,1	,&var27},	//Внутренняя переменная var27
-	{326	,1	,1	,&var30},	//Внутренняя переменная var30
-	{327	,1	,1	,&var38},	//Внутренняя переменная var38
-	{328	,1	,1	,&var46},	//Внутренняя переменная var46
-	{329	,1	,1	,&var70},	//Внутренняя переменная var70
-	{330	,1	,1	,&var84},	//Внутренняя переменная var84
-	{331	,1	,1	,&var113},	//Внутренняя переменная var113
-	{332	,1	,1	,&var17},	//Внутренняя переменная var17
-	{333	,1	,1	,&var61},	//Внутренняя переменная var61
-	{334	,1	,1	,&var78},	//Внутренняя переменная var78
-	{335	,8	,1	,&var108},	//Внутренняя переменная var108
-	{336	,1	,1	,&var137},	//Внутренняя переменная var137
-	{337	,1	,1	,&var24},	//Внутренняя переменная var24
-	{338	,1	,1	,&var48},	//Внутренняя переменная var48
-	{339	,1	,1	,&var96},	//Внутренняя переменная var96
-	{340	,1	,1	,&var98},	//Внутренняя переменная var98
-	{341	,1	,1	,&var126},	//Внутренняя переменная var126
-	{342	,1	,1	,&var39},	//Внутренняя переменная var39
-	{343	,1	,1	,&var97},	//Внутренняя переменная var97
-	{344	,1	,1	,&var101},	//Внутренняя переменная var101
-	{345	,1	,1	,&var111},	//Внутренняя переменная var111
-	{346	,11	,1	,&var116},	//Внутренняя переменная var116
-	{347	,1	,1	,&var42},	//Внутренняя переменная var42
-	{348	,1	,1	,&var52},	//Внутренняя переменная var52
-	{349	,1	,1	,&var76},	//Внутренняя переменная var76
-	{350	,1	,1	,&var138},	//Внутренняя переменная var138
-	{351	,1	,1	,&var15},	//Внутренняя переменная var15
-	{352	,1	,1	,&var88},	//Внутренняя переменная var88
-	{353	,1	,1	,&var100},	//Внутренняя переменная var100
-	{354	,1	,1	,&var128},	//Внутренняя переменная var128
-	{355	,1	,1	,&var4},	//Внутренняя переменная var4
-	{356	,1	,1	,&var64},	//Внутренняя переменная var64
-	{357	,1	,1	,&var74},	//Внутренняя переменная var74
-	{358	,1	,1	,&var79},	//Внутренняя переменная var79
-	{359	,1	,1	,&var22},	//Внутренняя переменная var22
-	{360	,1	,1	,&var36},	//Внутренняя переменная var36
-	{361	,1	,1	,&var56},	//Внутренняя переменная var56
-	{362	,1	,1	,&var123},	//Внутренняя переменная var123
-	{363	,8	,1	,&var130},	//Внутренняя переменная var130
-	{364	,1	,1	,&var12},	//Внутренняя переменная var12
-	{365	,1	,1	,&var99},	//Внутренняя переменная var99
-	{366	,1	,1	,&var110},	//Внутренняя переменная var110
+	{220	,1	,1	,&var27},	//Внутренняя переменная var27
+	{221	,1	,1	,&var37},	//Внутренняя переменная var37
+	{222	,1	,1	,&var81},	//Внутренняя переменная var81
+	{223	,1	,1	,&var144},	//Внутренняя переменная var144
+	{224	,1	,1	,&var55},	//Внутренняя переменная var55
+	{225	,1	,1	,&var62},	//Внутренняя переменная var62
+	{226	,1	,1	,&var66},	//Внутренняя переменная var66
+	{227	,1	,1	,&var139},	//Внутренняя переменная var139
+	{228	,1	,1	,&var29},	//Внутренняя переменная var29
+	{229	,1	,1	,&var41},	//Внутренняя переменная var41
+	{230	,1	,1	,&var44},	//Внутренняя переменная var44
+	{231	,1	,1	,&var49},	//Внутренняя переменная var49
+	{232	,1	,1	,&var136},	//Внутренняя переменная var136
+	{233	,5	,1	,&var33},	//Внутренняя переменная var33
+	{234	,1	,1	,&var59},	//Внутренняя переменная var59
+	{235	,1	,1	,&var93},	//Внутренняя переменная var93
+	{236	,1	,1	,&var128},	//Внутренняя переменная var128
+	{237	,1	,1	,&var110},	//Внутренняя переменная var110
+	{238	,1	,1	,&var14},	//Внутренняя переменная var14
+	{239	,1	,1	,&var65},	//Внутренняя переменная var65
+	{240	,1	,1	,&var77},	//Внутренняя переменная var77
+	{241	,1	,1	,&var79},	//Внутренняя переменная var79
+	{242	,1	,1	,&var119},	//Внутренняя переменная var119
+	{243	,1	,1	,&var132},	//Внутренняя переменная var132
+	{244	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
+	{245	,1	,1	,&var4},	//Внутренняя переменная var4
+	{246	,1	,1	,&var19},	//Внутренняя переменная var19
+	{247	,1	,1	,&var71},	//Внутренняя переменная var71
+	{248	,8	,1	,&var115},	//Внутренняя переменная var115
+	{249	,1	,1	,&var94},	//Внутренняя переменная var94
+	{250	,1	,1	,&var98},	//Внутренняя переменная var98
+	{251	,1	,1	,&var143},	//Внутренняя переменная var143
+	{252	,1	,1	,&var2},	//Внутренняя переменная var2
+	{253	,1	,1	,&var17},	//Внутренняя переменная var17
+	{254	,1	,1	,&var56},	//Внутренняя переменная var56
+	{255	,1	,1	,&var85},	//Внутренняя переменная var85
+	{256	,1	,1	,&var8},	//Внутренняя переменная var8
+	{257	,1	,1	,&var12},	//Внутренняя переменная var12
+	{258	,1	,1	,&var43},	//Внутренняя переменная var43
+	{259	,1	,1	,&var142},	//Внутренняя переменная var142
+	{260	,1	,1	,&var28},	//Внутренняя переменная var28
+	{261	,1	,1	,&var31},	//Внутренняя переменная var31
+	{262	,8	,1	,&var130},	//Внутренняя переменная var130
+	{263	,1	,1	,&var54},	//Внутренняя переменная var54
+	{264	,1	,1	,&var20},	//Внутренняя переменная var20
+	{265	,1	,1	,&var35},	//Внутренняя переменная var35
+	{266	,1	,1	,&var46},	//Внутренняя переменная var46
+	{267	,1	,1	,&var47},	//Внутренняя переменная var47
+	{268	,1	,1	,&var18},	//Внутренняя переменная var18
+	{269	,1	,1	,&var112},	//Внутренняя переменная var112
+	{270	,1	,1	,&var90},	//Внутренняя переменная var90
+	{271	,1	,1	,&var97},	//Внутренняя переменная var97
+	{272	,1	,1	,&var122},	//Внутренняя переменная var122
+	{273	,1	,1	,&var21},	//Внутренняя переменная var21
+	{274	,1	,1	,&var34},	//Внутренняя переменная var34
+	{275	,1	,1	,&var53},	//Внутренняя переменная var53
+	{276	,1	,1	,&var61},	//Внутренняя переменная var61
+	{277	,1	,1	,&var3},	//Внутренняя переменная var3
+	{278	,1	,1	,&var111},	//Внутренняя переменная var111
+	{279	,1	,1	,&var129},	//Внутренняя переменная var129
+	{280	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
+	{281	,1	,1	,&var9},	//Внутренняя переменная var9
+	{282	,1	,1	,&var57},	//Внутренняя переменная var57
+	{283	,1	,1	,&var83},	//Внутренняя переменная var83
+	{284	,1	,1	,&var121},	//Внутренняя переменная var121
+	{285	,1	,1	,&var131},	//Внутренняя переменная var131
+	{286	,1	,1	,&var7},	//Внутренняя переменная var7
+	{287	,1	,1	,&var13},	//Внутренняя переменная var13
+	{288	,1	,1	,&var87},	//Внутренняя переменная var87
+	{289	,1	,1	,&var124},	//Внутренняя переменная var124
+	{290	,1	,1	,&var58},	//Внутренняя переменная var58
+	{291	,1	,1	,&var96},	//Внутренняя переменная var96
+	{292	,1	,1	,&var145},	//Внутренняя переменная var145
+	{293	,1	,1	,&var91},	//Внутренняя переменная var91
+	{294	,1	,1	,&var99},	//Внутренняя переменная var99
+	{295	,1	,1	,&var26},	//Внутренняя переменная var26
+	{296	,1	,1	,&var48},	//Внутренняя переменная var48
+	{297	,1	,1	,&var63},	//Внутренняя переменная var63
+	{298	,1	,1	,&var82},	//Внутренняя переменная var82
+	{299	,1	,1	,&var102},	//Внутренняя переменная var102
+	{300	,1	,1	,&var141},	//Внутренняя переменная var141
+	{301	,8	,1	,&var107},	//Внутренняя переменная var107
+	{302	,8	,1	,&var108},	//Внутренняя переменная var108
+	{303	,1	,1	,&var123},	//Внутренняя переменная var123
+	{304	,1	,1	,&var134},	//Внутренняя переменная var134
+	{305	,1	,1	,&var11},	//Внутренняя переменная var11
+	{306	,1	,1	,&var39},	//Внутренняя переменная var39
+	{307	,1	,1	,&var75},	//Внутренняя переменная var75
+	{308	,8	,1	,&var104},	//Внутренняя переменная var104
+	{309	,1	,1	,&var76},	//Внутренняя переменная var76
+	{310	,11	,1	,&var117},	//Внутренняя переменная var117
+	{311	,1	,1	,&var140},	//Внутренняя переменная var140
+	{312	,1	,1	,&var10},	//Внутренняя переменная var10
+	{313	,1	,1	,&var22},	//Внутренняя переменная var22
+	{314	,1	,1	,&var23},	//Внутренняя переменная var23
+	{315	,1	,1	,&var74},	//Внутренняя переменная var74
+	{316	,1	,1	,&var25},	//Внутренняя переменная var25
+	{317	,1	,1	,&var36},	//Внутренняя переменная var36
+	{318	,1	,1	,&var70},	//Внутренняя переменная var70
+	{319	,1	,1	,&var86},	//Внутренняя переменная var86
+	{320	,1	,1	,&var69},	//Внутренняя переменная var69
+	{321	,1	,1	,&var72},	//Внутренняя переменная var72
+	{322	,1	,1	,&var89},	//Внутренняя переменная var89
+	{323	,8	,1	,&var127},	//Внутренняя переменная var127
+	{324	,1	,1	,&var15},	//Внутренняя переменная var15
+	{325	,1	,1	,&var40},	//Внутренняя переменная var40
+	{326	,1	,1	,&var50},	//Внутренняя переменная var50
+	{327	,1	,1	,&var67},	//Внутренняя переменная var67
+	{328	,1	,1	,&var16},	//Внутренняя переменная var16
+	{329	,1	,1	,&var32},	//Внутренняя переменная var32
+	{330	,1	,1	,&var80},	//Внутренняя переменная var80
+	{331	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
+	{332	,1	,1	,&var38},	//Внутренняя переменная var38
+	{333	,1	,1	,&var103},	//Внутренняя переменная var103
+	{334	,8	,1	,&var105},	//Внутренняя переменная var105
+	{335	,1	,1	,&var120},	//Внутренняя переменная var120
+	{336	,11	,1	,&var116},	//Внутренняя переменная var116
+	{337	,1	,1	,&var1},	//Внутренняя переменная var1
+	{338	,1	,1	,&var92},	//Внутренняя переменная var92
+	{339	,1	,1	,&var95},	//Внутренняя переменная var95
+	{340	,1	,1	,&var113},	//Внутренняя переменная var113
+	{341	,1	,1	,&var106},	//Внутренняя переменная var106
+	{342	,1	,1	,&var114},	//Внутренняя переменная var114
+	{343	,1	,1	,&var125},	//Внутренняя переменная var125
+	{344	,1	,1	,&var6},	//Внутренняя переменная var6
+	{345	,1	,1	,&var24},	//Внутренняя переменная var24
+	{346	,1	,1	,&var51},	//Внутренняя переменная var51
+	{347	,1	,1	,&var101},	//Внутренняя переменная var101
+	{348	,1	,1	,&var45},	//Внутренняя переменная var45
+	{349	,1	,1	,&var126},	//Внутренняя переменная var126
+	{350	,1	,1	,&var5},	//Внутренняя переменная var5
+	{351	,1	,1	,&var73},	//Внутренняя переменная var73
+	{352	,1	,1	,&var109},	//Внутренняя переменная var109
+	{353	,1	,1	,&var118},	//Внутренняя переменная var118
+	{354	,1	,1	,&var78},	//Внутренняя переменная var78
+	{355	,1	,1	,&var100},	//Внутренняя переменная var100
+	{356	,1	,1	,&var138},	//Внутренняя переменная var138
+	{357	,1	,1	,&var42},	//Внутренняя переменная var42
+	{358	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
+	{359	,1	,1	,&var84},	//Внутренняя переменная var84
+	{360	,1	,1	,&var137},	//Внутренняя переменная var137
+	{361	,1	,1	,&var68},	//Внутренняя переменная var68
+	{362	,1	,1	,&var88},	//Внутренняя переменная var88
+	{363	,1	,1	,&var30},	//Внутренняя переменная var30
+	{364	,1	,1	,&var52},	//Внутренняя переменная var52
+	{365	,1	,1	,&var60},	//Внутренняя переменная var60
+	{366	,1	,1	,&var64},	//Внутренняя переменная var64
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="baz2.bin\0"; //Имя файла сохранения переменных
 #pragma pop
 static VarSaveCtrl saveVariables[]={	//Id переменных для сохранения
-	{160,"fEM_A2UP42RZZ\0"},	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
 	{161,"fEM_A2UP51RZZ\0"},	//(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)
-	{164,"fEM_A2UP82RZZ\0"},	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
+	{169,"fEM_R0UL25RDU\0"},	//(R0UL25RDU) Время задержки АЗ от ВУ ИС сек
+	{173,"fEM_R0UT02RZZ\0"},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
+	{172,"fEM_R0UT01RZZ\0"},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
+	{159,"fEM_A2UP41RZZ\0"},	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
 	{165,"fEM_A2UP83RZZ\0"},	//(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)
 	{170,"fEM_R0UR01RZZ\0"},	//(R0UR01RZZ) Уставка АКНП ПС  АЗ по периоду (сек)
-	{167,"fEM_R0UL05RDU\0"},	//(R0UL05RDU) Время задержки АЗ от НУП ИС(сек)
-	{169,"fEM_R0UL25RDU\0"},	//(R0UL25RDU) Время задержки АЗ от ВУ ИС сек
-	{159,"fEM_A2UP41RZZ\0"},	//(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ
+	{176,"fEM_R0UT71RZZ\0"},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
+	{175,"fEM_R0UT62RZZ\0"},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
+	{160,"fEM_A2UP42RZZ\0"},	//(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)
+	{162,"fEM_A2UP52RZZ\0"},	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
+	{171,"fEM_R0UR04RZZ\0"},	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
 	{168,"fEM_R0UL07RDU\0"},	//(R0UL07RDU) Время задержки  срабатывания АС II УР
+	{163,"fEM_A2UP81RZZ\0"},	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{166,"fEM_A2UP84RZZ\0"},	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
+	{164,"fEM_A2UP82RZZ\0"},	//(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)
+	{174,"fEM_R0UT61RZZ\0"},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
+	{167,"fEM_R0UL05RDU\0"},	//(R0UL05RDU) Время задержки АЗ от НУП ИС(сек)
+	{157,"fEM_A2UP03RZZ\0"},	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
 	{158,"fEM_A2UP04RZZ\0"},	//(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ
 	{177,"fEM_R0UT72RZZ\0"},	//(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)
-	{173,"fEM_R0UT02RZZ\0"},	//(R0UT02RZZ) Верхний предел шкалы датчика температуры
-	{175,"fEM_R0UT62RZZ\0"},	//(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)
-	{174,"fEM_R0UT61RZZ\0"},	//(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ
-	{163,"fEM_A2UP81RZZ\0"},	//(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{171,"fEM_R0UR04RZZ\0"},	//(R0UR04RZZ) Уставка АКНП АС  АЗ по периоду (сек)
-	{157,"fEM_A2UP03RZZ\0"},	//(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ
-	{176,"fEM_R0UT71RZZ\0"},	//(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ
-	{166,"fEM_A2UP84RZZ\0"},	//(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)
-	{162,"fEM_A2UP52RZZ\0"},	//(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)
-	{172,"fEM_R0UT01RZZ\0"},	//(R0UT01RZZ) Нижний предел шкалы датчика температуры
 	{0,NULL}
 };
 #pragma pack(push,1)
@@ -1485,6 +1485,63 @@ static ModbusDevice modbuses[]={
 };
 #pragma pop
 #include <fp8/drivers/vds32r.h>
+static char buf_VDS321[194];	//VDS321
+static vds32r_inipar ini_VDS321={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS321={0,0,&ini_VDS321,buf_VDS321,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS321[]={
+	{&A3IS11LDU,1,8},
+	{&A3IS22LDU,1,10},
+	{&R0AD04LZ2,1,14},
+	{&R0VN71LZ2,1,0},
+	{&R0VN75LZ2,1,2},
+	{&A2IS12LDU,1,18},
+	{&B2IS12LDU,1,20},
+	{&R0DE05LZ2,3,64},
+	{&A1VN71LS1,1,6},
+	{&A1EE01LS1,1,4},
+	{&R0AD03LZ2,1,12},
+	{&R0AD05LZ2,1,16},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS322[194];	//VDS322
+static vds32r_inipar ini_VDS322={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS322[]={
+	{&A1VN71LS2,1,6},
+	{&B3IS11LDU,1,8},
+	{&A1EE01LS2,1,4},
+	{&R0VN72LZ2,1,0},
+	{&B3IS22LDU,1,10},
+	{&R0VN76LZ2,1,2},
+	{&R0DE06LZ2,3,64},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS323[194];	//VDS323
+static vds32r_inipar ini_VDS323={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS323[]={
+	{&A1VN71LS4,1,6},
+	{&R0VN74LZ2,1,0},
+	{&R0VN78LZ2,1,2},
+	{&R0DE07LZ2,3,64},
+	{&A1EE01LS4,1,4},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
 static char buf_VDS324[194];	//VDS324
 static vds32r_inipar ini_VDS324={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
@@ -1556,97 +1613,40 @@ static DriverRegister def_buf_VAS84[]={
 	{NULL,0,0},
 };
 #pragma pop
-#include <fp8/drivers/vds32r.h>
-static char buf_VDS321[194];	//VDS321
-static vds32r_inipar ini_VDS321={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
-#pragma pack(push,1)
-static table_drv table_VDS321={0,0,&ini_VDS321,buf_VDS321,0,0};
-#pragma pop
-#pragma pack(push,1)
-static DriverRegister def_buf_VDS321[]={
-	{&A3IS11LDU,1,8},
-	{&A3IS22LDU,1,10},
-	{&R0AD04LZ2,1,14},
-	{&R0VN71LZ2,1,0},
-	{&R0VN75LZ2,1,2},
-	{&A2IS12LDU,1,18},
-	{&B2IS12LDU,1,20},
-	{&R0DE05LZ2,3,64},
-	{&A1VN71LS1,1,6},
-	{&A1EE01LS1,1,4},
-	{&R0AD03LZ2,1,12},
-	{&R0AD05LZ2,1,16},
-	{NULL,0,0},
-};
-#pragma pop
-#include <fp8/drivers/vds32r.h>
-static char buf_VDS322[194];	//VDS322
-static vds32r_inipar ini_VDS322={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
-#pragma pack(push,1)
-static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
-#pragma pop
-#pragma pack(push,1)
-static DriverRegister def_buf_VDS322[]={
-	{&A1VN71LS2,1,6},
-	{&B3IS11LDU,1,8},
-	{&A1EE01LS2,1,4},
-	{&R0VN72LZ2,1,0},
-	{&B3IS22LDU,1,10},
-	{&R0VN76LZ2,1,2},
-	{&R0DE06LZ2,3,64},
-	{NULL,0,0},
-};
-#pragma pop
-#include <fp8/drivers/vds32r.h>
-static char buf_VDS323[194];	//VDS323
-static vds32r_inipar ini_VDS323={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
-#pragma pack(push,1)
-static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
-#pragma pop
-#pragma pack(push,1)
-static DriverRegister def_buf_VDS323[]={
-	{&A1VN71LS4,1,6},
-	{&R0VN74LZ2,1,0},
-	{&R0VN78LZ2,1,2},
-	{&R0DE07LZ2,3,64},
-	{&A1EE01LS4,1,4},
-	{NULL,0,0},
-};
-#pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc2,0x08,19,194,def_buf_VDS324,&table_VDS324},	//VDS32
 	{0x96,0x0a,23,104,def_buf_FDS16,&table_FDS16},	//FDS16
 	{0xcc,0x20,7,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
 	{0xc6,0x04,10,64,def_buf_VAS84,&table_VAS84},	//VAS84
 	{0xc2,0x05,19,194,def_buf_VDS321,&table_VDS321},	//VDS32
 	{0xc2,0x06,19,194,def_buf_VDS322,&table_VDS322},	//VDS32
 	{0xc2,0x07,19,194,def_buf_VDS323,&table_VDS323},	//VDS32
+	{0xc2,0x08,19,194,def_buf_VDS324,&table_VDS324},	//VDS32
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
 void InitSetConst(void){	//Инициализация переменных для хранения
-	setAsFloat(167,0.190);
-	setAsFloat(169,0.170);
-	setAsFloat(159,0.1);
-	setAsFloat(160,0.13);
-	setAsFloat(161,0.16);
-	setAsFloat(164,0.2);
-	setAsFloat(165,0.28);
-	setAsFloat(170,15);
-	setAsFloat(168,0.150);
-	setAsFloat(173,600);
+	setAsFloat(157,1.6);
 	setAsFloat(158,0);
 	setAsFloat(177,150);
-	setAsFloat(157,1.6);
-	setAsFloat(175,90);
 	setAsFloat(174,100);
-	setAsFloat(163,0.17);
-	setAsFloat(171,10);
+	setAsFloat(167,0.190);
+	setAsFloat(173,600);
 	setAsFloat(172,0);
+	setAsFloat(159,0.1);
+	setAsFloat(161,0.16);
+	setAsFloat(169,0.170);
 	setAsFloat(176,200);
+	setAsFloat(175,90);
+	setAsFloat(160,0.13);
+	setAsFloat(165,0.28);
+	setAsFloat(170,15);
+	setAsFloat(163,0.17);
 	setAsFloat(166,0.31);
+	setAsFloat(164,0.2);
 	setAsFloat(162,0.19);
+	setAsFloat(171,10);
+	setAsFloat(168,0.150);
 	setAsBool(148,1);
 	setAsBool(149,1);
 	setAsBool(150,1);
