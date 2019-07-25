@@ -331,81 +331,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3MC01LC2</value>
-            <value name="description">( - , DU) Настроить энкодер ИС1</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">20</value>
-            <value name="nID">139</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">327</value>
-            <value name="OldData">327</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B8MC01LC1</value>
-            <value name="description">( - , DU) Настроить энкодер АЗ2</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">21</value>
-            <value name="nID">140</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">329</value>
-            <value name="OldData">329</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B8MC01LC2</value>
-            <value name="description">( - , DU) Настроить энкодер АЗ2</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">22</value>
-            <value name="nID">141</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">331</value>
-            <value name="OldData">331</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A8MC01LC1</value>
-            <value name="description">( - , DU) Настроить энкодер ДС2</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">23</value>
-            <value name="nID">142</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">333</value>
-            <value name="OldData">333</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A8MC01LC2</value>
-            <value name="description">( - , DU) Настроить энкодер ДС2</value>
-            <value name="type">0</value>
-            <value name="format">2</value>
-            <value name="address">24</value>
-            <value name="nID">143</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">335</value>
-            <value name="OldData">335</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">B1MC01LC1</value>
             <value name="description">( - , DU) Настроить энкодер ББ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">25</value>
-            <value name="nID">162</value>
+            <value name="address">20</value>
+            <value name="nID">143</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">391</value>
-            <value name="OldData">391</value>
+            <value name="ParData">344</value>
+            <value name="OldData">344</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -413,12 +348,12 @@
             <value name="description">( - , DU) Настроить энкодер ББ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">26</value>
-            <value name="nID">163</value>
+            <value name="address">21</value>
+            <value name="nID">144</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">393</value>
-            <value name="OldData">393</value>
+            <value name="ParData">346</value>
+            <value name="OldData">346</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -426,12 +361,12 @@
             <value name="description">( - , DU) Настроить энкодер ББ1</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">27</value>
-            <value name="nID">164</value>
+            <value name="address">22</value>
+            <value name="nID">145</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">395</value>
-            <value name="OldData">395</value>
+            <value name="ParData">348</value>
+            <value name="OldData">348</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -439,12 +374,12 @@
             <value name="description">( - , DU) Настроить энкодер ББ1</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">28</value>
-            <value name="nID">165</value>
+            <value name="address">23</value>
+            <value name="nID">146</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">397</value>
-            <value name="OldData">397</value>
+            <value name="ParData">350</value>
+            <value name="OldData">350</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -452,12 +387,12 @@
             <value name="description">( - , DU) Настроить энкодер РБ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">29</value>
-            <value name="nID">166</value>
+            <value name="address">24</value>
+            <value name="nID">147</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">399</value>
-            <value name="OldData">399</value>
+            <value name="ParData">352</value>
+            <value name="OldData">352</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -465,12 +400,12 @@
             <value name="description">( - , DU) Настроить энкодер РБ2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">30</value>
-            <value name="nID">167</value>
+            <value name="address">25</value>
+            <value name="nID">148</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">401</value>
-            <value name="OldData">401</value>
+            <value name="ParData">354</value>
+            <value name="OldData">354</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -478,12 +413,12 @@
             <value name="description">( - , DU) Настроить энкодер РБ1</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">31</value>
-            <value name="nID">168</value>
+            <value name="address">26</value>
+            <value name="nID">149</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">403</value>
-            <value name="OldData">403</value>
+            <value name="ParData">356</value>
+            <value name="OldData">356</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -491,12 +426,12 @@
             <value name="description">( - , DU) Настроить энкодер РБ1</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">32</value>
-            <value name="nID">169</value>
+            <value name="address">27</value>
+            <value name="nID">150</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">405</value>
-            <value name="OldData">405</value>
+            <value name="ParData">358</value>
+            <value name="OldData">358</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -504,12 +439,12 @@
             <value name="description">( - , DU) Настроить энкодер ИС2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">33</value>
-            <value name="nID">170</value>
+            <value name="address">28</value>
+            <value name="nID">151</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">407</value>
-            <value name="OldData">407</value>
+            <value name="ParData">360</value>
+            <value name="OldData">360</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -517,12 +452,12 @@
             <value name="description">( - , DU) Настроить энкодер ИС2</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">34</value>
-            <value name="nID">171</value>
+            <value name="address">29</value>
+            <value name="nID">152</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">409</value>
-            <value name="OldData">409</value>
+            <value name="ParData">362</value>
+            <value name="OldData">362</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -530,12 +465,77 @@
             <value name="description">( - , DU) Настроить энкодер ИС1</value>
             <value name="type">0</value>
             <value name="format">2</value>
-            <value name="address">35</value>
-            <value name="nID">172</value>
+            <value name="address">30</value>
+            <value name="nID">153</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">411</value>
-            <value name="OldData">411</value>
+            <value name="ParData">364</value>
+            <value name="OldData">364</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A3MC01LC2</value>
+            <value name="description">( - , DU) Настроить энкодер ИС1</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">31</value>
+            <value name="nID">154</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">366</value>
+            <value name="OldData">366</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B8MC01LC1</value>
+            <value name="description">( - , DU) Настроить энкодер АЗ2</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">32</value>
+            <value name="nID">155</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">368</value>
+            <value name="OldData">368</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B8MC01LC2</value>
+            <value name="description">( - , DU) Настроить энкодер АЗ2</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">33</value>
+            <value name="nID">190</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">453</value>
+            <value name="OldData">453</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A8MC01LC1</value>
+            <value name="description">( - , DU) Настроить энкодер ДС2</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">34</value>
+            <value name="nID">191</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">455</value>
+            <value name="OldData">455</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A8MC01LC2</value>
+            <value name="description">( - , DU) Настроить энкодер ДС2</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">35</value>
+            <value name="nID">192</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">457</value>
+            <value name="OldData">457</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -1787,141 +1787,37 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3VP42LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС</value>
+            <value name="name">A1IS11LDU</value>
+            <value name="description">( - K08VDSR, DU) Приход на ВУ ББ1</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">85</value>
-            <value name="nID">144</value>
+            <value name="nID">142</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">337</value>
-            <value name="OldData">337</value>
+            <value name="ParData">342</value>
+            <value name="OldData">342</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3VP52LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС</value>
+            <value name="name">azp1</value>
+            <value name="description">( - , DU) реж.стат</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">86</value>
-            <value name="nID">146</value>
+            <value name="nID">156</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">344</value>
-            <value name="OldData">344</value>
+            <value name="ParData">370</value>
+            <value name="OldData">370</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B3VP42LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС</value>
+            <value name="name">azp2</value>
+            <value name="description">( - , DU) аз2 на уставке</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">87</value>
-            <value name="nID">147</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">346</value>
-            <value name="OldData">346</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B3VP52LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">88</value>
-            <value name="nID">149</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">353</value>
-            <value name="OldData">353</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B3VP82LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 в норме</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">89</value>
-            <value name="nID">150</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">355</value>
-            <value name="OldData">355</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A3VP82LDU</value>
-            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 в норме</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">90</value>
-            <value name="nID">151</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">357</value>
-            <value name="OldData">357</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0VE01LDU</value>
-            <value name="description">( - , DU) Напряжение в системы АЗ1 подано</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">91</value>
-            <value name="nID">152</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">359</value>
-            <value name="OldData">359</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B0VE01LDU</value>
-            <value name="description">( - , DU) Напряжение в системы АЗ2 подано</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">92</value>
-            <value name="nID">153</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">361</value>
-            <value name="OldData">361</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0VP01LDU</value>
-            <value name="description">( - , DU) Давление в системы АЗ1 подано</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">93</value>
-            <value name="nID">154</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">363</value>
-            <value name="OldData">363</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B0VP01LDU</value>
-            <value name="description">( - , DU) Давление в системы АЗ2 подано</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">94</value>
-            <value name="nID">155</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">365</value>
-            <value name="OldData">365</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B1IS11LDU</value>
-            <value name="description">( - K08VDSR, DU) Приход на ВУ ББ2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">95</value>
             <value name="nID">157</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
@@ -1930,81 +1826,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A1IS11LDU</value>
-            <value name="description">( - K08VDSR, DU) Приход на ВУ ББ1</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">96</value>
-            <value name="nID">161</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">389</value>
-            <value name="OldData">389</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">psaz25</value>
-            <value name="description">( - , DU) питание</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">97</value>
-            <value name="nID">173</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">413</value>
-            <value name="OldData">413</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">psaz3</value>
-            <value name="description">( - , DU) энкодеры</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">98</value>
-            <value name="nID">174</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">415</value>
-            <value name="OldData">415</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">azp1</value>
-            <value name="description">( - , DU) реж.стат</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">99</value>
-            <value name="nID">175</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">417</value>
-            <value name="OldData">417</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">azp2</value>
-            <value name="description">( - , DU) аз2 на уставке</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">100</value>
-            <value name="nID">176</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">419</value>
-            <value name="OldData">419</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">azp3</value>
             <value name="description">( - , DU) дс2 на уставке</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">101</value>
-            <value name="nID">177</value>
+            <value name="address">88</value>
+            <value name="nID">158</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">421</value>
-            <value name="OldData">421</value>
+            <value name="ParData">374</value>
+            <value name="OldData">374</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2012,12 +1843,12 @@
             <value name="description">( - , DU) раб. спуск</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">102</value>
-            <value name="nID">178</value>
+            <value name="address">89</value>
+            <value name="nID">159</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">423</value>
-            <value name="OldData">423</value>
+            <value name="ParData">376</value>
+            <value name="OldData">376</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2025,12 +1856,12 @@
             <value name="description">( - , DU) зав под МДЗ</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">103</value>
-            <value name="nID">179</value>
+            <value name="address">90</value>
+            <value name="nID">160</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">425</value>
-            <value name="OldData">425</value>
+            <value name="ParData">378</value>
+            <value name="OldData">378</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2038,12 +1869,12 @@
             <value name="description">( - , DU) бб2 на уставке</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">104</value>
-            <value name="nID">180</value>
+            <value name="address">91</value>
+            <value name="nID">161</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">427</value>
-            <value name="OldData">427</value>
+            <value name="ParData">380</value>
+            <value name="OldData">380</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2051,12 +1882,12 @@
             <value name="description">( - , DU) бб1 на уставке</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">105</value>
-            <value name="nID">181</value>
+            <value name="address">92</value>
+            <value name="nID">162</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">429</value>
-            <value name="OldData">429</value>
+            <value name="ParData">382</value>
+            <value name="OldData">382</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2064,12 +1895,12 @@
             <value name="description">( - , DU) сброс бб</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">106</value>
-            <value name="nID">182</value>
+            <value name="address">93</value>
+            <value name="nID">163</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">431</value>
-            <value name="OldData">431</value>
+            <value name="ParData">384</value>
+            <value name="OldData">384</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2077,12 +1908,12 @@
             <value name="description">( - , DU) сброс рб</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">107</value>
-            <value name="nID">183</value>
+            <value name="address">94</value>
+            <value name="nID">164</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">433</value>
-            <value name="OldData">433</value>
+            <value name="ParData">386</value>
+            <value name="OldData">386</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2090,12 +1921,12 @@
             <value name="description">( - , DU) впис ис1</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">108</value>
-            <value name="nID">184</value>
+            <value name="address">95</value>
+            <value name="nID">165</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">435</value>
-            <value name="OldData">435</value>
+            <value name="ParData">388</value>
+            <value name="OldData">388</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2103,12 +1934,12 @@
             <value name="description">( - , DU) впис ис2</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">109</value>
-            <value name="nID">185</value>
+            <value name="address">96</value>
+            <value name="nID">166</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">437</value>
-            <value name="OldData">437</value>
+            <value name="ParData">390</value>
+            <value name="OldData">390</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2116,25 +1947,12 @@
             <value name="description">( - , DU) блок</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">110</value>
-            <value name="nID">186</value>
+            <value name="address">97</value>
+            <value name="nID">167</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">439</value>
-            <value name="OldData">439</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">azp13</value>
-            <value name="description">( - , DU) блок ис1 2</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">111</value>
-            <value name="nID">187</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">441</value>
-            <value name="OldData">441</value>
+            <value name="ParData">392</value>
+            <value name="OldData">392</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2142,12 +1960,25 @@
             <value name="description">( - , DU) статика выход</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">112</value>
-            <value name="nID">188</value>
+            <value name="address">98</value>
+            <value name="nID">168</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">443</value>
-            <value name="OldData">443</value>
+            <value name="ParData">394</value>
+            <value name="OldData">394</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">azp13</value>
+            <value name="description">( - , DU) блок ис1 2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">99</value>
+            <value name="nID">169</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">396</value>
+            <value name="OldData">396</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2155,51 +1986,25 @@
             <value name="description">( - , DU) рес ис</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">113</value>
-            <value name="nID">189</value>
+            <value name="address">100</value>
+            <value name="nID">170</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">445</value>
-            <value name="OldData">445</value>
+            <value name="ParData">398</value>
+            <value name="OldData">398</value>
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0VN01LDU</value>
-            <value name="description">( - , DU) Каналы АЗ1 проверены</value>
+            <value name="name">B1IS11LDU</value>
+            <value name="description">( - K08VDSR, DU) Приход на ВУ ББ2</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">114</value>
-            <value name="nID">190</value>
+            <value name="address">101</value>
+            <value name="nID">172</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">447</value>
-            <value name="OldData">447</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B0VN01LDU</value>
-            <value name="description">( - , DU) Каналы АЗ2 проверены</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">115</value>
-            <value name="nID">191</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">449</value>
-            <value name="OldData">449</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">A0VS11LDU</value>
-            <value name="description">( - , DU) АЗ1 готова к работе</value>
-            <value name="type">1</value>
-            <value name="format">2</value>
-            <value name="address">116</value>
-            <value name="nID">192</value>
-            <value name="PType">131</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">451</value>
-            <value name="OldData">451</value>
+            <value name="ParData">405</value>
+            <value name="OldData">405</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -2207,17 +2012,212 @@
             <value name="description">( - , DU) АЗ2 готова к работе</value>
             <value name="type">1</value>
             <value name="format">2</value>
-            <value name="address">117</value>
-            <value name="nID">193</value>
+            <value name="address">102</value>
+            <value name="nID">173</value>
             <value name="PType">131</value>
             <value name="Bf0">0</value>
-            <value name="ParData">453</value>
-            <value name="OldData">453</value>
+            <value name="ParData">407</value>
+            <value name="OldData">407</value>
             <value name="unitId">1</value>
         </record>
         <record>
             <value name="name">R0EE02LDU</value>
             <value name="description">( - , DU) Питание  АКНП  отключить</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">103</value>
+            <value name="nID">178</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">429</value>
+            <value name="OldData">429</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz11</value>
+            <value name="description">( - , DU) каналы</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">104</value>
+            <value name="nID">179</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">431</value>
+            <value name="OldData">431</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz12</value>
+            <value name="description">( - , DU) напряжение</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">105</value>
+            <value name="nID">180</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">433</value>
+            <value name="OldData">433</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz13</value>
+            <value name="description">( - , DU) давление</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">106</value>
+            <value name="nID">181</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">435</value>
+            <value name="OldData">435</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz14</value>
+            <value name="description">( - , DU) ас темп з2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">107</value>
+            <value name="nID">182</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">437</value>
+            <value name="OldData">437</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz15</value>
+            <value name="description">( - , DU) ас темп з1</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">108</value>
+            <value name="nID">183</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">439</value>
+            <value name="OldData">439</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz21</value>
+            <value name="description">( - , DU) каналы</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">109</value>
+            <value name="nID">184</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">441</value>
+            <value name="OldData">441</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz22</value>
+            <value name="description">( - , DU) напряжение</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">110</value>
+            <value name="nID">185</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">443</value>
+            <value name="OldData">443</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz23</value>
+            <value name="description">( - , DU) давление</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">111</value>
+            <value name="nID">186</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">445</value>
+            <value name="OldData">445</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz24</value>
+            <value name="description">( - , DU) ас темп з2</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">112</value>
+            <value name="nID">187</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">447</value>
+            <value name="OldData">447</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz25</value>
+            <value name="description">( - , DU) питание</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">113</value>
+            <value name="nID">188</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">449</value>
+            <value name="OldData">449</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">psaz3</value>
+            <value name="description">( - , DU) энкодеры</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">114</value>
+            <value name="nID">189</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">451</value>
+            <value name="OldData">451</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A3VP42LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 ниже АС</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">115</value>
+            <value name="nID">193</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">459</value>
+            <value name="OldData">459</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A3VP52LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 ниже ПС</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">116</value>
+            <value name="nID">195</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">466</value>
+            <value name="OldData">466</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B3VP42LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 ниже АС</value>
+            <value name="type">1</value>
+            <value name="format">2</value>
+            <value name="address">117</value>
+            <value name="nID">196</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">468</value>
+            <value name="OldData">468</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B3VP52LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">118</value>
@@ -2229,8 +2229,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz11</value>
-            <value name="description">( - , DU) каналы</value>
+            <value name="name">B3VP82LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС2 в норме</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">119</value>
@@ -2242,8 +2242,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz12</value>
-            <value name="description">( - , DU) напряжение</value>
+            <value name="name">A3VP82LDU</value>
+            <value name="description">( - , DU) Давление ВЫСТРЕЛ ИС1 в норме</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">120</value>
@@ -2255,8 +2255,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz13</value>
-            <value name="description">( - , DU) давление</value>
+            <value name="name">A0VE01LDU</value>
+            <value name="description">( - , DU) Напряжение в системы АЗ1 подано</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">121</value>
@@ -2268,8 +2268,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz14</value>
-            <value name="description">( - , DU) ас темп з2</value>
+            <value name="name">B0VE01LDU</value>
+            <value name="description">( - , DU) Напряжение в системы АЗ2 подано</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">122</value>
@@ -2281,8 +2281,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz15</value>
-            <value name="description">( - , DU) ас темп з1</value>
+            <value name="name">A0VP01LDU</value>
+            <value name="description">( - , DU) Давление в системы АЗ1 подано</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">123</value>
@@ -2294,8 +2294,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz21</value>
-            <value name="description">( - , DU) каналы</value>
+            <value name="name">B0VP01LDU</value>
+            <value name="description">( - , DU) Давление в системы АЗ2 подано</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">124</value>
@@ -2307,8 +2307,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz22</value>
-            <value name="description">( - , DU) напряжение</value>
+            <value name="name">A0VN01LDU</value>
+            <value name="description">( - , DU) Каналы АЗ1 проверены</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">125</value>
@@ -2320,8 +2320,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz23</value>
-            <value name="description">( - , DU) давление</value>
+            <value name="name">B0VN01LDU</value>
+            <value name="description">( - , DU) Каналы АЗ2 проверены</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">126</value>
@@ -2333,8 +2333,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">psaz24</value>
-            <value name="description">( - , DU) ас темп з2</value>
+            <value name="name">A0VS11LDU</value>
+            <value name="description">( - , DU) АЗ1 готова к работе</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">127</value>
@@ -6584,55 +6584,16 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A3CP02RDU</value>
-            <value name="description">( - , DU) Текущее давление ВЫСТРЕЛ ИС1</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">34</value>
-            <value name="nID">145</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">339</value>
-            <value name="OldData">339</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B3CP02RDU</value>
-            <value name="description">( - , DU) Текущее давление ВЫСТРЕЛ ИС2</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">36</value>
-            <value name="nID">148</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">348</value>
-            <value name="OldData">348</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
-            <value name="name">B1VC01RDU</value>
-            <value name="description">( - , DU) Координата ББ2, мм</value>
-            <value name="type">2</value>
-            <value name="format">8</value>
-            <value name="address">38</value>
-            <value name="nID">156</value>
-            <value name="PType">129</value>
-            <value name="Bf0">0</value>
-            <value name="ParData">367</value>
-            <value name="OldData">367</value>
-            <value name="unitId">1</value>
-        </record>
-        <record>
             <value name="name">B3VC01RDU</value>
             <value name="description">( - , DU) Координата ИС2, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">40</value>
-            <value name="nID">158</value>
+            <value name="address">34</value>
+            <value name="nID">139</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">374</value>
-            <value name="OldData">374</value>
+            <value name="ParData">327</value>
+            <value name="OldData">327</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -6640,12 +6601,12 @@
             <value name="description">( - , DU) Координата ДС2, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">42</value>
-            <value name="nID">159</value>
+            <value name="address">36</value>
+            <value name="nID">140</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">379</value>
-            <value name="OldData">379</value>
+            <value name="ParData">332</value>
+            <value name="OldData">332</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -6653,12 +6614,25 @@
             <value name="description">( - , DU) Координата ББ1, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">44</value>
-            <value name="nID">160</value>
+            <value name="address">38</value>
+            <value name="nID">141</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">384</value>
-            <value name="OldData">384</value>
+            <value name="ParData">337</value>
+            <value name="OldData">337</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B1VC01RDU</value>
+            <value name="description">( - , DU) Координата ББ2, мм</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">40</value>
+            <value name="nID">171</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">400</value>
+            <value name="OldData">400</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -6666,12 +6640,12 @@
             <value name="description">( - , DU) Координата ИС1, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">46</value>
-            <value name="nID">194</value>
+            <value name="address">42</value>
+            <value name="nID">174</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">455</value>
-            <value name="OldData">455</value>
+            <value name="ParData">409</value>
+            <value name="OldData">409</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -6679,12 +6653,12 @@
             <value name="description">( - , DU) Координата РБ1, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">48</value>
-            <value name="nID">195</value>
+            <value name="address">44</value>
+            <value name="nID">175</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">460</value>
-            <value name="OldData">460</value>
+            <value name="ParData">414</value>
+            <value name="OldData">414</value>
             <value name="unitId">1</value>
         </record>
         <record>
@@ -6692,17 +6666,43 @@
             <value name="description">( - , DU) Координата РБ2, мм</value>
             <value name="type">2</value>
             <value name="format">8</value>
-            <value name="address">50</value>
-            <value name="nID">196</value>
+            <value name="address">46</value>
+            <value name="nID">176</value>
             <value name="PType">129</value>
             <value name="Bf0">0</value>
-            <value name="ParData">465</value>
-            <value name="OldData">465</value>
+            <value name="ParData">419</value>
+            <value name="OldData">419</value>
             <value name="unitId">1</value>
         </record>
         <record>
             <value name="name">B8VC01RDU</value>
             <value name="description">( - , DU, MDuBz1, MDuBz2) Координата АЗ2, мм</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">48</value>
+            <value name="nID">177</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">424</value>
+            <value name="OldData">424</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A3CP02RDU</value>
+            <value name="description">( - , DU) Текущее давление ВЫСТРЕЛ ИС1</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">50</value>
+            <value name="nID">194</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">461</value>
+            <value name="OldData">461</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B3CP02RDU</value>
+            <value name="description">( - , DU) Текущее давление ВЫСТРЕЛ ИС2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">52</value>
