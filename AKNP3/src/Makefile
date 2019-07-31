@@ -15,7 +15,7 @@ LIBPATH = /usr
 endif
 
 OMK =  -m32 -c $(DK) -w -DLINUXMODE -I$(LIBPATH)/include/modbus -I$(LIBPATH)/include/teprLib -I$(LIBPATH)/include/fp8 -std=c99  -MMD -MP -MF
-LK = -L$(LIBPATH)/lib -lmodbus -L$(LIBPATH)/lib -lteprLib -L$(LIBPATH)/lib -lfp8 $(PTHREAD)
+LK = -L$(LIBPATH)/lib -lmodbus -L$(LIBPATH)/lib -lteprLib -L$(LIBPATH)/lib -lfp8 $(PTHREAD) -lm
 
 all: clean Create
 
