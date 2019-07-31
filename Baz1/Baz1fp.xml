@@ -9,12 +9,12 @@
         <saves    xml="saveBaz1"/>
         <initsig  xml="initsigBaz1"/>
         <devices  xml="devBaz1"/>
-        <modbus   name="Baz1"      description="Общий слэйв"         type="slave"                                           port="5002"            xml="Baz1"/>
-        <modbus   name="SBz1DU"    description="Слэйв для DU"        type="slave"                                           port="5010"            xml="SBz1DU"/>
-        <modbus   name="DiagnBaz1" description="Диагностика Baz1"    type="slave"                                           port="5005"            xml="DiagnBaz1"/>
-        <modbus   name="MBz1S"     description="Мастер Баз1 в SCM"   type="master" ip1="192.168.10.60" ip2="192.168.10.60"  port="5003" step="100" xml="..\scm\SBz1.xml"/>
-        <modbus   name="MBz1A1"    description="Мастер Баз1 в AKNP1" type="master" ip1="192.168.10.51" ip2="192.168.10.151" port="5015" step="20" xml="..\AKNP1\A1Bz1.xml"/>
-        <modbus   name="MBz1A2"    description="Мастер Баз1 в AKNP2" type="master" ip1="192.168.10.57" ip2="192.168.10.157" port="5016" step="20" xml="..\AKNP2\A2Bz1.xml"/>
-        <modbus   name="MBz1A3"    description="Мастер Баз1 в AKNP3" type="master" ip1="192.168.10.53" ip2="192.168.10.153" port="5017" step="20" xml="..\AKNP3\A3Bz1.xml"/>
-        <modbus   name="MBz1A4"    description="Мастер Баз1 в AKNP4" type="master" ip1="192.168.10.55" ip2="192.168.10.155" port="5018" step="20" xml="..\AKNP4\A4Bz1.xml"/>
+        <modbus   name="Baz1"      description="Общий слэйв"         type="slave"                                            port="5002"            xml="Baz1"/>
+        <modbus   name="SBz1DU"    description="Слэйв для DU"        type="slave"                                            port="5010"            xml="SBz1DU"/>
+        <modbus   name="DiagnBaz1" description="Диагностика Baz1"    type="slave"                                            port="5005"            xml="DiagnBaz1"/>
+        <modbus   name="MBz1S"     description="Мастер Баз1 в SCM"   type="master" ip1="192.168.10.60" ip2="192.168.10.160"  port="5003" step="100" xml="..\scm\SBz1.xml"/>
+        <modbus   name="MBz1A1"    description="Мастер Баз1 в AKNP1" type="master" ip1="192.168.10.51" ip2="192.168.10.151"  port="5015" step="20" xml="..\AKNP1\A1Bz1.xml"/>
+        <modbus   name="MBz1A2"    description="Мастер Баз1 в AKNP2" type="master" ip1="192.168.10.57" ip2="192.168.10.157"  port="5016" step="20" xml="..\AKNP2\A2Bz1.xml"/>
+        <modbus   name="MBz1A3"    description="Мастер Баз1 в AKNP3" type="master" ip1="192.168.10.53" ip2="192.168.10.153"  port="5017" step="20" xml="..\AKNP3\A3Bz1.xml"/>
+        <modbus   name="MBz1A4"    description="Мастер Баз1 в AKNP4" type="master" ip1="192.168.10.55" ip2="192.168.10.155"  port="5018" step="20" xml="..\AKNP4\A4Bz1.xml"/>
 </subsystem>
