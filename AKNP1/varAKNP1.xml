@@ -27,6 +27,7 @@
 <var  name="R0IN01FV1" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
 <var  name="R0IN02FV1" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
 <var  name="R0IN03FV1" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
+<var  name="ttlfa1" description="( - , AKNP1, A1Bz1, A1Bz2) ttlf float" format="8"></var>
 <var  name="R0VN02RS1" description="( - , A1Bz1, A1Bz2) Уровень мощности" format="8"></var>
 <var  name="R0VN01RS1" description="( - , A1Bz1, A1Bz2) Период разгона канал1" format="8"></var>
 <var  name="R0VN61LS1" description="( - , A1Bz1, A1Bz2) ПС по мощности канал1" format="1"></var>

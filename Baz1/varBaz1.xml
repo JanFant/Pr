@@ -57,6 +57,7 @@
 <var  name="R0VZ05U" description="( - , - ) причины сброса" format="5"></var>
 <var  name="B8VC01RDU" description="( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм" format="8"></var>
 <var  name="R0S01LZ1" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
+<var  name="ttlfa1" description="( - , MBz1A1) ttlf float" format="8"></var>
 <var  name="R0AD21LDU" description="( - , SBz1DU) Подключить защиту от II УР" format="1"></var>
 <var  name="R0MD34LP1" description="( - , Baz1) Кнопка (Квитировать)" format="1"></var>
 <var  name="R0AD04LZ1" description="(vds32:05 - K08VDSR, - ) Имитация срабатывания верхней АС II УР" format="1"></var>
@@ -190,8 +191,8 @@
 <var  name="internal1_m205_TImNupIs" description="(internal1_m205_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС" format="8"></var>
 <var  name="internal1_m205_TImAZ2UR" description="(internal1_m205_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР" format="8"></var>
 <var  name="internal1_m205_fef" description="(internal1_m205_fef) fef" format="1"></var>
-<var  name="internal1_m110_tx" description="(internal1_m110_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m110_y0" description="(internal1_m110_y0) y0" format="18"></var>
+<var  name="internal1_m108_tx" description="(internal1_m108_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m108_y0" description="(internal1_m108_y0) y0" format="18"></var>
 <var  name="internal1_m107_tx" description="(internal1_m107_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m107_y0" description="(internal1_m107_y0) y0" format="18"></var>
 <var  name="internal1_m135_tx" description="(internal1_m135_tx) tx - время накопленное сек" format="8"></var>
@@ -210,10 +211,10 @@
 <var  name="internal1_m280_q0" description="(internal1_m280_q0) q0 - внутренний параметр" format="5"></var>
 <var  name="internal1_m128_y0" description="(internal1_m128_y0) state" format="1"></var>
 <var  name="internal1_m124_y0" description="(internal1_m124_y0) state" format="1"></var>
-<var  name="internal1_m106_y1" description="(internal1_m106_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m121_y1" description="(internal1_m121_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m102_y1" description="(internal1_m102_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m118_y1" description="(internal1_m118_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m94_y1" description="(internal1_m94_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m104_y1" description="(internal1_m104_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m156_y1" description="(internal1_m156_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m167_y1" description="(internal1_m167_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m105_y1" description="(internal1_m105_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m157_y1" description="(internal1_m157_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m168_y1" description="(internal1_m168_y1) y1 - внутренний параметр" format="1"></var>
 </vars>

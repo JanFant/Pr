@@ -1,5 +1,4 @@
 <vars>
-<var  name="A1VN71LS4" description="(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4" format="1"></var>
 <var  name="A1VN71LZ2" description="(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ" format="1"></var>
 <var  name="R0MD34LP1" description="( - , Baz2) Кнопка Квитировать" format="1"></var>
 <var  name="R0AD04LZ2" description="(vds32:05 - K08VDSR, - ) Имитация срабатывания АС II УР рад (БАЗ2)" format="1"></var>
@@ -18,6 +17,7 @@
 <var  name="R0MW12IP2" description="( - , Baz2) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС" format="3"></var>
 <var  name="A2IS12LDU" description="(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен" format="1"></var>
+<var  name="R0EE02LDU" description="( - , Baz2) Питание  АКНП  отключить" format="1"></var>
 <var  name="A0EE07LZ2" description="( - , Baz2) Исправность сети АКНП3" format="1"></var>
 <var  name="A0EE08LZ2" description="( - , Baz2) Исправность сети АКНП4" format="1"></var>
 <var  name="A0VZ71LZ2" description="( - , Baz2) Обобщенный сигнал АС по АЗ1" format="1"></var>
@@ -37,7 +37,7 @@
 <var  name="A1VN71LS1" description="(vds32:05 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 1" format="1"></var>
 <var  name="A1VN71LS2" description="(vds32:06 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 2" format="1"></var>
 <var  name="A1VN71LS3" description="(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3" format="1"></var>
-<var  name="R0AD03LZ2" description="(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС" format="1"></var>
+<var  name="A1VN71LS4" description="(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4" format="1"></var>
 <var  name="B3IS11LDU" description="(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2" format="1"></var>
 <var  name="A3VZ31LZ2" description="( - , Baz2) АЗ от ВУ ИС1" format="1"></var>
 <var  name="B3VZ31LZ2" description="( - , Baz2) АЗ от ВУ ИС2" format="1"></var>
@@ -56,7 +56,7 @@
 <var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
 <var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R0S01LZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
-<var  name="R0EE02LDU" description="( - , Baz2) Питание  АКНП  отключить" format="1"></var>
+<var  name="ttlfa1" description="( - , MBz2A1) ttlf float" format="8"></var>
 <var  name="R0DE04LZ2" description="(vas84:04 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 4 месте" format="3"></var>
 <var  name="R0DE05LZ2" description="(vds32:05 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 5 месте" format="3"></var>
 <var  name="R0DE06LZ2" description="(vds32:06 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 6 месте" format="3"></var>
@@ -76,6 +76,7 @@
 <var  name="B8VC01RDU" description="( - , SBz2DU, MBz2A1, MBz2A2, MBz2A3, MBz2A4) Координата АЗ2, мм" format="8"></var>
 <var  name="A3IS11LDU" description="(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IS22LDU" description="(vds32:05 - K06VDSR, - ) Приход на НУП ИС1" format="1"></var>
+<var  name="R0AD03LZ2" description="(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС" format="1"></var>
 <var  name="A0VP41LZ2" description="( - , Baz2) Давление АЗ1 ниже АС" format="1"></var>
 <var  name="B0VP41LZ2" description="( - , Baz2) Давление АЗ2 ниже АС" format="1"></var>
 <var  name="B0VP81LZZ" description="(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме" format="1"></var>

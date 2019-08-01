@@ -123,6 +123,19 @@
             <value name="unitId">1</value>
         </record>
         <record>
+            <value name="name">ttlfa1</value>
+            <value name="description">( - , AKNP1, A1Bz1, A1Bz2) ttlf float</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+            <value name="address">4</value>
+            <value name="nID">6</value>
+            <value name="PType">129</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">19</value>
+            <value name="OldData">19</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
             <value name="name">B8VC01RDU</value>
             <value name="description">( - , A1Bz1, A1Bz2) Координата АЗ2, мм</value>
             <value name="type">3</value>
