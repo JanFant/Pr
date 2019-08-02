@@ -9675,6 +9675,31 @@
         IsHold=FALSE
         Line1="Рисунок 10. Самодиагностика контроллера БАЗ1 "
       }
+      [TDrawSignal]{
+        R="504,1557,534,1597"
+        Number=497
+        IsHold=FALSE
+        VisualNumber="321"
+        SIGNAL_NAME="ttlfa1"
+        KodTeprol="ttlfa1"
+        Comment="ttlf float"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="MBz1A1"
+        ChannalName=""
+        DeviceName=""
+      }
       [VVV_DrawConnector]{
         Number=348
         IsHold=FALSE
@@ -19435,31 +19460,6 @@
           ParameterName="r"
           Index=-1
         }
-      }
-      [TDrawSignal]{
-        R="504,1557,534,1597"
-        Number=497
-        IsHold=FALSE
-        VisualNumber="321"
-        SIGNAL_NAME="ttlfa1"
-        KodTeprol="ttlfa1"
-        Comment="ttlf float"
-        Type=1
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="MBz1A1"
-        ChannalName=""
-        DeviceName=""
       }
     }
   }

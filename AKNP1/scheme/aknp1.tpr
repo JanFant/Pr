@@ -1509,7 +1509,7 @@
         ABBRV="BOL"
       }
       [VVV_Text]{
-        R="251,407,379,412"
+        R="251,407,409,414"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1539,7 +1539,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,985,410"
+        R="845,404,1021,411"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -2930,7 +2930,7 @@
         }
       }
       [VVV_Text]{
-        R="969,14,1010,26"
+        R="969,14,1021,28"
         Number=184
         IsHold=FALSE
         Line1="Неисправность"
@@ -3239,6 +3239,32 @@
             Index=-1
           }
         }
+      }
+      [TDrawSignal]{
+        R="152,589,182,629"
+        Number=259
+        IsHold=FALSE
+        VisualNumber="91"
+        SIGNAL_NAME="ttlfa1"
+        KodTeprol="ttlfa1"
+        Comment="ttlf float"
+        Type=1
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=2
+        FormatMB=8
+        TypeMBMaster=2
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="AKNP1, A1Bz1, A1Bz2"
+        ChannalName=""
+        DeviceName=""
+        Line1="float ttl"
       }
       [VVV_DrawConnector]{
         Number=187
@@ -6060,32 +6086,6 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="152,589,182,629"
-        Number=259
-        IsHold=FALSE
-        VisualNumber="91"
-        SIGNAL_NAME="ttlfa1"
-        KodTeprol="ttlfa1"
-        Comment="ttlf float"
-        Type=1
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=2
-        FormatMB=8
-        TypeMBMaster=2
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB="AKNP1, A1Bz1, A1Bz2"
-        ChannalName=""
-        DeviceName=""
-        Line1="float ttl"
-      }
       [VVV_DrawConnector]{
         Number=260
         IsHold=FALSE
@@ -6111,4 +6111,4 @@
     }
   }
 }
-5881401
+5881432
