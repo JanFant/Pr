@@ -226,80 +226,80 @@ int master=1,nomer=1;
 #define idinternal1_m55_y0	106	// (internal1_m55_y0) y0 - внутренний параметр
 #define internal1_m56_y0	BUFFER[402]	// (internal1_m56_y0) y0 - внутренний параметр
 #define idinternal1_m56_y0	107	// (internal1_m56_y0) y0 - внутренний параметр
-#define var5	BUFFER[407]	// Внутренняя переменная var5
-#define idvar5	108	// Внутренняя переменная var5
-#define var23	BUFFER[412]	// Внутренняя переменная var23
-#define idvar23	109	// Внутренняя переменная var23
-#define var25	BUFFER[417]	// Внутренняя переменная var25
-#define idvar25	110	// Внутренняя переменная var25
-#define var27	BUFFER[419]	// Внутренняя переменная var27
-#define idvar27	111	// Внутренняя переменная var27
-#define var28	BUFFER[421]	// Внутренняя переменная var28
-#define idvar28	112	// Внутренняя переменная var28
-#define var2	BUFFER[423]	// Внутренняя переменная var2
-#define idvar2	113	// Внутренняя переменная var2
-#define var20	BUFFER[428]	// Внутренняя переменная var20
-#define idvar20	114	// Внутренняя переменная var20
-#define vainSLong	BUFFER[433]	// Внутренняя переменная vainSLong
-#define idvainSLong	115	// Внутренняя переменная vainSLong
-#define vainSFloat	BUFFER[442]	// Внутренняя переменная vainSFloat
-#define idvainSFloat	116	// Внутренняя переменная vainSFloat
-#define var8	BUFFER[447]	// Внутренняя переменная var8
-#define idvar8	117	// Внутренняя переменная var8
-#define var7	BUFFER[449]	// Внутренняя переменная var7
-#define idvar7	118	// Внутренняя переменная var7
-#define var26	BUFFER[454]	// Внутренняя переменная var26
-#define idvar26	119	// Внутренняя переменная var26
-#define var4	BUFFER[456]	// Внутренняя переменная var4
-#define idvar4	120	// Внутренняя переменная var4
-#define var32	BUFFER[461]	// Внутренняя переменная var32
-#define idvar32	121	// Внутренняя переменная var32
-#define var10	BUFFER[466]	// Внутренняя переменная var10
-#define idvar10	122	// Внутренняя переменная var10
-#define var12	BUFFER[468]	// Внутренняя переменная var12
-#define idvar12	123	// Внутренняя переменная var12
-#define var13	BUFFER[470]	// Внутренняя переменная var13
-#define idvar13	124	// Внутренняя переменная var13
-#define var16	BUFFER[472]	// Внутренняя переменная var16
-#define idvar16	125	// Внутренняя переменная var16
-#define var19	BUFFER[477]	// Внутренняя переменная var19
-#define idvar19	126	// Внутренняя переменная var19
-#define var30	BUFFER[482]	// Внутренняя переменная var30
-#define idvar30	127	// Внутренняя переменная var30
-#define var31	BUFFER[484]	// Внутренняя переменная var31
-#define idvar31	128	// Внутренняя переменная var31
+#define vainSBool	BUFFER[484]	// Внутренняя переменная vainSBool
+#define idvainSBool	130	// Внутренняя переменная vainSBool
+#define vainSFloat	BUFFER[517]	// Внутренняя переменная vainSFloat
+#define idvainSFloat	137	// Внутренняя переменная vainSFloat
+#define vainSInt	BUFFER[522]	// Внутренняя переменная vainSInt
+#define idvainSInt	138	// Внутренняя переменная vainSInt
+#define vainSLong	BUFFER[508]	// Внутренняя переменная vainSLong
+#define idvainSLong	136	// Внутренняя переменная vainSLong
 #define var1	BUFFER[486]	// Внутренняя переменная var1
-#define idvar1	129	// Внутренняя переменная var1
-#define var14	BUFFER[491]	// Внутренняя переменная var14
-#define idvar14	130	// Внутренняя переменная var14
-#define var15	BUFFER[496]	// Внутренняя переменная var15
-#define idvar15	131	// Внутренняя переменная var15
-#define var24	BUFFER[501]	// Внутренняя переменная var24
-#define idvar24	132	// Внутренняя переменная var24
-#define var33	BUFFER[503]	// Внутренняя переменная var33
-#define idvar33	133	// Внутренняя переменная var33
-#define var11	BUFFER[505]	// Внутренняя переменная var11
-#define idvar11	134	// Внутренняя переменная var11
-#define var6	BUFFER[507]	// Внутренняя переменная var6
-#define idvar6	135	// Внутренняя переменная var6
-#define var18	BUFFER[512]	// Внутренняя переменная var18
-#define idvar18	136	// Внутренняя переменная var18
-#define var21	BUFFER[517]	// Внутренняя переменная var21
-#define idvar21	137	// Внутренняя переменная var21
-#define var22	BUFFER[522]	// Внутренняя переменная var22
-#define idvar22	138	// Внутренняя переменная var22
-#define var29	BUFFER[524]	// Внутренняя переменная var29
-#define idvar29	139	// Внутренняя переменная var29
-#define vainSBool	BUFFER[526]	// Внутренняя переменная vainSBool
-#define idvainSBool	140	// Внутренняя переменная vainSBool
-#define var3	BUFFER[528]	// Внутренняя переменная var3
-#define idvar3	141	// Внутренняя переменная var3
-#define var17	BUFFER[533]	// Внутренняя переменная var17
-#define idvar17	142	// Внутренняя переменная var17
-#define vainSInt	BUFFER[535]	// Внутренняя переменная vainSInt
-#define idvainSInt	143	// Внутренняя переменная vainSInt
-#define var9	BUFFER[540]	// Внутренняя переменная var9
-#define idvar9	144	// Внутренняя переменная var9
+#define idvar1	131	// Внутренняя переменная var1
+#define var10	BUFFER[477]	// Внутренняя переменная var10
+#define idvar10	128	// Внутренняя переменная var10
+#define var11	BUFFER[527]	// Внутренняя переменная var11
+#define idvar11	139	// Внутренняя переменная var11
+#define var12	BUFFER[461]	// Внутренняя переменная var12
+#define idvar12	123	// Внутренняя переменная var12
+#define var13	BUFFER[452]	// Внутренняя переменная var13
+#define idvar13	120	// Внутренняя переменная var13
+#define var14	BUFFER[498]	// Внутренняя переменная var14
+#define idvar14	134	// Внутренняя переменная var14
+#define var15	BUFFER[529]	// Внутренняя переменная var15
+#define idvar15	140	// Внутренняя переменная var15
+#define var16	BUFFER[503]	// Внутренняя переменная var16
+#define idvar16	135	// Внутренняя переменная var16
+#define var17	BUFFER[443]	// Внутренняя переменная var17
+#define idvar17	117	// Внутренняя переменная var17
+#define var18	BUFFER[412]	// Внутренняя переменная var18
+#define idvar18	109	// Внутренняя переменная var18
+#define var19	BUFFER[463]	// Внутренняя переменная var19
+#define idvar19	124	// Внутренняя переменная var19
+#define var2	BUFFER[426]	// Внутренняя переменная var2
+#define idvar2	113	// Внутренняя переменная var2
+#define var20	BUFFER[454]	// Внутренняя переменная var20
+#define idvar20	121	// Внутренняя переменная var20
+#define var21	BUFFER[417]	// Внутренняя переменная var21
+#define idvar21	110	// Внутренняя переменная var21
+#define var22	BUFFER[445]	// Внутренняя переменная var22
+#define idvar22	118	// Внутренняя переменная var22
+#define var23	BUFFER[447]	// Внутренняя переменная var23
+#define idvar23	119	// Внутренняя переменная var23
+#define var24	BUFFER[468]	// Внутренняя переменная var24
+#define idvar24	125	// Внутренняя переменная var24
+#define var25	BUFFER[459]	// Внутренняя переменная var25
+#define idvar25	122	// Внутренняя переменная var25
+#define var26	BUFFER[470]	// Внутренняя переменная var26
+#define idvar26	126	// Внутренняя переменная var26
+#define var27	BUFFER[534]	// Внутренняя переменная var27
+#define idvar27	141	// Внутренняя переменная var27
+#define var28	BUFFER[422]	// Внутренняя переменная var28
+#define idvar28	111	// Внутренняя переменная var28
+#define var29	BUFFER[536]	// Внутренняя переменная var29
+#define idvar29	142	// Внутренняя переменная var29
+#define var3	BUFFER[491]	// Внутренняя переменная var3
+#define idvar3	132	// Внутренняя переменная var3
+#define var30	BUFFER[424]	// Внутренняя переменная var30
+#define idvar30	112	// Внутренняя переменная var30
+#define var31	BUFFER[540]	// Внутренняя переменная var31
+#define idvar31	144	// Внутренняя переменная var31
+#define var32	BUFFER[479]	// Внутренняя переменная var32
+#define idvar32	129	// Внутренняя переменная var32
+#define var33	BUFFER[538]	// Внутренняя переменная var33
+#define idvar33	143	// Внутренняя переменная var33
+#define var4	BUFFER[407]	// Внутренняя переменная var4
+#define idvar4	108	// Внутренняя переменная var4
+#define var5	BUFFER[431]	// Внутренняя переменная var5
+#define idvar5	114	// Внутренняя переменная var5
+#define var6	BUFFER[472]	// Внутренняя переменная var6
+#define idvar6	127	// Внутренняя переменная var6
+#define var7	BUFFER[436]	// Внутренняя переменная var7
+#define idvar7	115	// Внутренняя переменная var7
+#define var8	BUFFER[441]	// Внутренняя переменная var8
+#define idvar8	116	// Внутренняя переменная var8
+#define var9	BUFFER[496]	// Внутренняя переменная var9
+#define idvar9	133	// Внутренняя переменная var9
 #pragma pack(push,1)
 static VarCtrl allVariables[]={ 			 //Описание всех переменных
 	{1	,1	,1	,&A0EE01LS2},	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 2 на БАЗ1
@@ -409,84 +409,84 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{105	,8	,1	,&internal1_m55_sumtim},	//(internal1_m55_sumtim)  время измерения мощности
 	{106	,8	,1	,&internal1_m55_y0},	//(internal1_m55_y0) y0 - внутренний параметр
 	{107	,8	,1	,&internal1_m56_y0},	//(internal1_m56_y0) y0 - внутренний параметр
-	{108	,8	,1	,&var5},	//Внутренняя переменная var5
-	{109	,8	,1	,&var23},	//Внутренняя переменная var23
-	{110	,1	,1	,&var25},	//Внутренняя переменная var25
-	{111	,1	,1	,&var27},	//Внутренняя переменная var27
-	{112	,1	,1	,&var28},	//Внутренняя переменная var28
-	{113	,8	,1	,&var2},	//Внутренняя переменная var2
-	{114	,8	,1	,&var20},	//Внутренняя переменная var20
-	{115	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
-	{116	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
-	{117	,1	,1	,&var8},	//Внутренняя переменная var8
-	{118	,8	,1	,&var7},	//Внутренняя переменная var7
-	{119	,1	,1	,&var26},	//Внутренняя переменная var26
-	{120	,8	,1	,&var4},	//Внутренняя переменная var4
-	{121	,8	,1	,&var32},	//Внутренняя переменная var32
-	{122	,1	,1	,&var10},	//Внутренняя переменная var10
+	{130	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
+	{137	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
+	{138	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
+	{136	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
+	{131	,8	,1	,&var1},	//Внутренняя переменная var1
+	{128	,1	,1	,&var10},	//Внутренняя переменная var10
+	{139	,1	,1	,&var11},	//Внутренняя переменная var11
 	{123	,1	,1	,&var12},	//Внутренняя переменная var12
-	{124	,1	,1	,&var13},	//Внутренняя переменная var13
-	{125	,8	,1	,&var16},	//Внутренняя переменная var16
-	{126	,8	,1	,&var19},	//Внутренняя переменная var19
-	{127	,1	,1	,&var30},	//Внутренняя переменная var30
-	{128	,1	,1	,&var31},	//Внутренняя переменная var31
-	{129	,8	,1	,&var1},	//Внутренняя переменная var1
-	{130	,5	,1	,&var14},	//Внутренняя переменная var14
-	{131	,8	,1	,&var15},	//Внутренняя переменная var15
-	{132	,1	,1	,&var24},	//Внутренняя переменная var24
-	{133	,1	,1	,&var33},	//Внутренняя переменная var33
-	{134	,1	,1	,&var11},	//Внутренняя переменная var11
-	{135	,8	,1	,&var6},	//Внутренняя переменная var6
-	{136	,8	,1	,&var18},	//Внутренняя переменная var18
-	{137	,5	,1	,&var21},	//Внутренняя переменная var21
-	{138	,1	,1	,&var22},	//Внутренняя переменная var22
-	{139	,1	,1	,&var29},	//Внутренняя переменная var29
-	{140	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
-	{141	,8	,1	,&var3},	//Внутренняя переменная var3
-	{142	,1	,1	,&var17},	//Внутренняя переменная var17
-	{143	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
-	{144	,1	,1	,&var9},	//Внутренняя переменная var9
+	{120	,1	,1	,&var13},	//Внутренняя переменная var13
+	{134	,5	,1	,&var14},	//Внутренняя переменная var14
+	{140	,8	,1	,&var15},	//Внутренняя переменная var15
+	{135	,8	,1	,&var16},	//Внутренняя переменная var16
+	{117	,1	,1	,&var17},	//Внутренняя переменная var17
+	{109	,8	,1	,&var18},	//Внутренняя переменная var18
+	{124	,8	,1	,&var19},	//Внутренняя переменная var19
+	{113	,8	,1	,&var2},	//Внутренняя переменная var2
+	{121	,8	,1	,&var20},	//Внутренняя переменная var20
+	{110	,5	,1	,&var21},	//Внутренняя переменная var21
+	{118	,1	,1	,&var22},	//Внутренняя переменная var22
+	{119	,8	,1	,&var23},	//Внутренняя переменная var23
+	{125	,1	,1	,&var24},	//Внутренняя переменная var24
+	{122	,1	,1	,&var25},	//Внутренняя переменная var25
+	{126	,1	,1	,&var26},	//Внутренняя переменная var26
+	{141	,1	,1	,&var27},	//Внутренняя переменная var27
+	{111	,1	,1	,&var28},	//Внутренняя переменная var28
+	{142	,1	,1	,&var29},	//Внутренняя переменная var29
+	{132	,8	,1	,&var3},	//Внутренняя переменная var3
+	{112	,1	,1	,&var30},	//Внутренняя переменная var30
+	{144	,1	,1	,&var31},	//Внутренняя переменная var31
+	{129	,8	,1	,&var32},	//Внутренняя переменная var32
+	{143	,1	,1	,&var33},	//Внутренняя переменная var33
+	{108	,8	,1	,&var4},	//Внутренняя переменная var4
+	{114	,8	,1	,&var5},	//Внутренняя переменная var5
+	{127	,8	,1	,&var6},	//Внутренняя переменная var6
+	{115	,8	,1	,&var7},	//Внутренняя переменная var7
+	{116	,1	,1	,&var8},	//Внутренняя переменная var8
+	{133	,1	,1	,&var9},	//Внутренняя переменная var9
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp2.bin\0"; //Имя файла сохранения переменных
 #pragma pop
 static VarSaveCtrl saveVariables[]={	//Id переменных для сохранения
-	{70,"fEM_R0IN31FN2\0"},	//(R0IN31FN2) Коэффициент A (А2 к 3)
-	{91,"fEM_R7UY00RSS\0"},	//(R7UY00RSS) Y-координата АЗ1 (см)
-	{59,"fEM_A0UX00RSS\0"},	//(A0UX00RSS) Эффективный радиус АЗ
-	{80,"fEM_R0UL02RSS\0"},	//(R0UL02RSS) Tф-постоянная времени, с
-	{79,"fEM_R0UL01RSS\0"},	//(R0UL01RSS) Шаг (мс) измерения периода
-	{69,"fEM_R0IN22FN2\0"},	//(R0IN22FN2) Коэффициент B (А2 к 2)
 	{86,"fEM_R0UR01RSS\0"},	//(R0UR01RSS) Уставка АКНП блокировки автоматического подъёма ББ(имп/сек)
-	{88,"fEM_R7UX04RSS\0"},	//(R7UX04RSS) X-координата камеры R7IN21 (см)
 	{89,"fEM_R7UX05RSS\0"},	//(R7UX05RSS) X-координата камеры R7IN22 (см)
 	{63,"fEM_B0UX04RSS\0"},	//(B0UX04RSS) Второй коэффициент калибровки камеры4
-	{76,"fEM_R0UH21RSS\0"},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-	{78,"fEM_R0UH23RSS\0"},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-	{81,"fEM_R0UL41RSS\0"},	//(R0UL41RSS) Уровень ПС по периоду разгона
-	{73,"fEM_R0UH02RSS\0"},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
-	{82,"fEM_R0UL42RSS\0"},	//(R0UL42RSS) Уровень ПС по мощности
-	{60,"fEM_A0UX04RSS\0"},	//(A0UX04RSS) Первый коэффициент калибровки камеры4
-	{61,"fEM_A0UX05RSS\0"},	//(A0UX05RSS) Первый коэффициент калибровки камеры 5
-	{85,"fEM_R0UN03RSS\0"},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
-	{84,"fEM_R0UL52RSS\0"},	//(R0UL52RSS) Уровень АС по мощности
-	{64,"fEM_B0UX05RSS\0"},	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
 	{65,"fEM_B0UX06RSS\0"},	//(B0UX06RSS) Второй коэффициент калибровки камеры 6
-	{71,"fEM_R0IN32FN2\0"},	//(R0IN32FN2) Коэффициент B (А2 к 3)
-	{93,"fEM_R7UY05RSS\0"},	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
-	{68,"fEM_R0IN21FN2\0"},	//(R0IN21FN2) Коэффициент A (А2 к 2)
-	{75,"fEM_R0UH05RSS\0"},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
-	{94,"fEM_R7UY06RSS\0"},	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
-	{62,"fEM_A0UX06RSS\0"},	//(A0UX06RSS) Первый коэффициент калибровки камеры 6
-	{66,"fEM_R0IN11FN2\0"},	//(R0IN11FN2) Коэффициент A (А2 к 1)
-	{92,"fEM_R7UY04RSS\0"},	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
-	{74,"fEM_R0UH03RSS\0"},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
-	{87,"fEM_R7UX00RSS\0"},	//(R7UX00RSS) X-координата АЗ1 (см)
-	{90,"fEM_R7UX06RSS\0"},	//(R7UX06RSS) Y-координата камеры R7IN23 (см)
+	{85,"fEM_R0UN03RSS\0"},	//(R0UN03RSS) Нижняя граница интервала мощности для измерения периода (ватт)
+	{69,"fEM_R0IN22FN2\0"},	//(R0IN22FN2) Коэффициент B (А2 к 2)
 	{72,"fEM_R0UH01RSS\0"},	//(R0UH01RSS) Коэфф. преобразования частота->нейтр/с СНМ-11
 	{77,"fEM_R0UH22RSS\0"},	//(R0UH22RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-	{67,"fEM_R0IN12FN2\0"},	//(R0IN12FN2) Коэффициент B (А2 к 1)
+	{66,"fEM_R0IN11FN2\0"},	//(R0IN11FN2) Коэффициент A (А2 к 1)
+	{88,"fEM_R7UX04RSS\0"},	//(R7UX04RSS) X-координата камеры R7IN21 (см)
+	{90,"fEM_R7UX06RSS\0"},	//(R7UX06RSS) Y-координата камеры R7IN23 (см)
+	{79,"fEM_R0UL01RSS\0"},	//(R0UL01RSS) Шаг (мс) измерения периода
+	{59,"fEM_A0UX00RSS\0"},	//(A0UX00RSS) Эффективный радиус АЗ
+	{75,"fEM_R0UH05RSS\0"},	//(R0UH05RSS) Кол-во делений/сек на 1 ватт * E^6
 	{83,"fEM_R0UL51RSS\0"},	//(R0UL51RSS) Уровень АС по периоду разгона
+	{93,"fEM_R7UY05RSS\0"},	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
+	{68,"fEM_R0IN21FN2\0"},	//(R0IN21FN2) Коэффициент A (А2 к 2)
+	{70,"fEM_R0IN31FN2\0"},	//(R0IN31FN2) Коэффициент A (А2 к 3)
+	{67,"fEM_R0IN12FN2\0"},	//(R0IN12FN2) Коэффициент B (А2 к 1)
+	{82,"fEM_R0UL42RSS\0"},	//(R0UL42RSS) Уровень ПС по мощности
+	{91,"fEM_R7UY00RSS\0"},	//(R7UY00RSS) Y-координата АЗ1 (см)
+	{92,"fEM_R7UY04RSS\0"},	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
+	{62,"fEM_A0UX06RSS\0"},	//(A0UX06RSS) Первый коэффициент калибровки камеры 6
+	{64,"fEM_B0UX05RSS\0"},	//(B0UX05RSS) Второй коэффициент калибровки камеры 5
+	{76,"fEM_R0UH21RSS\0"},	//(R0UH21RSS) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{78,"fEM_R0UH23RSS\0"},	//(R0UH23RSS) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{71,"fEM_R0IN32FN2\0"},	//(R0IN32FN2) Коэффициент B (А2 к 3)
+	{73,"fEM_R0UH02RSS\0"},	//(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1
+	{74,"fEM_R0UH03RSS\0"},	//(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М
+	{87,"fEM_R7UX00RSS\0"},	//(R7UX00RSS) X-координата АЗ1 (см)
+	{60,"fEM_A0UX04RSS\0"},	//(A0UX04RSS) Первый коэффициент калибровки камеры4
+	{80,"fEM_R0UL02RSS\0"},	//(R0UL02RSS) Tф-постоянная времени, с
+	{84,"fEM_R0UL52RSS\0"},	//(R0UL52RSS) Уровень АС по мощности
+	{81,"fEM_R0UL41RSS\0"},	//(R0UL41RSS) Уровень ПС по периоду разгона
+	{94,"fEM_R7UY06RSS\0"},	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
+	{61,"fEM_A0UX05RSS\0"},	//(A0UX05RSS) Первый коэффициент калибровки камеры 5
 	{0,NULL}
 };
 #pragma pack(push,1)
@@ -520,56 +520,6 @@ static ModbusRegister ir_AKNP2[]={
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister hr_AKNP2[]={
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister coil_A2Bz1[]={
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_A2Bz1[]={
-	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
-	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_A2Bz1[]={
-	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
-	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_A2Bz1[]={
-	{&B8VC01RDU,8,0},	//( - , A2Bz1, A2Bz2) Координата АЗ2, мм
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister coil_A2Bz2[]={
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister di_A2Bz2[]={
-	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
-	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister ir_A2Bz2[]={
-	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
-	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
-	{NULL,0,0},
-};
-#pragma pop
-#pragma pack(push,1)
-static ModbusRegister hr_A2Bz2[]={
-	{&B8VC01RDU,8,0},	//( - , A2Bz1, A2Bz2) Координата АЗ2, мм
 	{NULL,0,0},
 };
 #pragma pop
@@ -638,25 +588,63 @@ static ModbusRegister hr_MA2S[]={
 static char MA2S_ip1[]={"192.168.10.60\0"};
 static char MA2S_ip2[]={"192.168.10.160\0"};
 #pragma pack(push,1)
-static ModbusDevice modbuses[]={
-	{0,5002,&coil_AKNP2[0],&di_AKNP2[0],&ir_AKNP2[0],&hr_AKNP2[0],NULL,NULL,NULL,0},	//общий slave AKNP2
-	{0,5016,&coil_A2Bz1[0],&di_A2Bz1[0],&ir_A2Bz1[0],&hr_A2Bz1[0],NULL,NULL,NULL,0},	//slave AKNP2 - Baz1
-	{0,5020,&coil_A2Bz2[0],&di_A2Bz2[0],&ir_A2Bz2[0],&hr_A2Bz2[0],NULL,NULL,NULL,0},	//slave AKNP2 - Baz2
-	{0,5003,&coil_DiagnAKNP2[0],&di_DiagnAKNP2[0],&ir_DiagnAKNP2[0],&hr_DiagnAKNP2[0],NULL,NULL,NULL,0},	//Диагностика АКНП2
-	{1,5007,&coil_MA2S[0],&di_MA2S[0],&ir_MA2S[0],&hr_MA2S[0],NULL,MA2S_ip1,MA2S_ip2,100},	//Мастер AKNP2 в SCM
-	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},
+static ModbusRegister coil_A2Bz1[]={
+	{NULL,0,0},
 };
 #pragma pop
-#include <fp8/drivers/vds32r.h>
-static char buf_VDS32[194];	//VDS32
-static vds32r_inipar ini_VDS32={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
 #pragma pack(push,1)
-static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
+static ModbusRegister di_A2Bz1[]={
+	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
+	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
+	{NULL,0,0},
+};
 #pragma pop
 #pragma pack(push,1)
-static DriverRegister def_buf_VDS32[]={
-	{&R0DE04LS2,3,64},
+static ModbusRegister ir_A2Bz1[]={
+	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
+	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
 	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A2Bz1[]={
+	{&B8VC01RDU,8,0},	//( - , A2Bz1, A2Bz2) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister coil_A2Bz2[]={
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister di_A2Bz2[]={
+	{&R0VN61LS2,1,0},	//( - , A2Bz1, A2Bz2) ПС по мощности канал 2
+	{&R0VN65LS2,1,1},	//( - , A2Bz1, A2Bz2) ПС по периоду разгона канал 2
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister ir_A2Bz2[]={
+	{&R0VN02RS2,8,0},	//( - , A2Bz1, A2Bz2) Уровень мощности канал 2
+	{&R0VN01RS2,8,2},	//( - , A2Bz1, A2Bz2) Период разгона канал 2
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusRegister hr_A2Bz2[]={
+	{&B8VC01RDU,8,0},	//( - , A2Bz1, A2Bz2) Координата АЗ2, мм
+	{NULL,0,0},
+};
+#pragma pop
+#pragma pack(push,1)
+static ModbusDevice modbuses[]={
+	{0,5002,&coil_AKNP2[0],&di_AKNP2[0],&ir_AKNP2[0],&hr_AKNP2[0],NULL,NULL,NULL,0},	//общий slave AKNP2
+	{0,5003,&coil_DiagnAKNP2[0],&di_DiagnAKNP2[0],&ir_DiagnAKNP2[0],&hr_DiagnAKNP2[0],NULL,NULL,NULL,0},	//Диагностика АКНП2
+	{1,5007,&coil_MA2S[0],&di_MA2S[0],&ir_MA2S[0],&hr_MA2S[0],NULL,MA2S_ip1,MA2S_ip2,100},	//Мастер AKNP2 в SCM
+	{0,5016,&coil_A2Bz1[0],&di_A2Bz1[0],&ir_A2Bz1[0],&hr_A2Bz1[0],NULL,NULL,NULL,0},	//slave AKNP2 - Baz1
+	{0,5020,&coil_A2Bz2[0],&di_A2Bz2[0],&ir_A2Bz2[0],&hr_A2Bz2[0],NULL,NULL,NULL,0},	//slave AKNP2 - Baz2
+	{0,-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0},
 };
 #pragma pop
 #include <fp8/drivers/fds16r.h>
@@ -667,17 +655,17 @@ static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_FDS16[]={
-	{&A1EE01LS2,1,28},
-	{&R0VN76LZ2,1,26},
-	{&R0VN72LZ2,1,24},
 	{&R0IE02LS2,1,0},
 	{&R0IE01LS2,1,2},
-	{&R0DE05LS2,3,38},
-	{&A1VN71LS2,1,30},
-	{&A0EE01LS2,1,20},
-	{&R0VN76LZ1,1,18},
 	{&R0VN72LZ1,1,16},
+	{&R0VN76LZ1,1,18},
+	{&A0EE01LS2,1,20},
 	{&A0VN71LS2,1,22},
+	{&R0VN72LZ2,1,24},
+	{&R0VN76LZ2,1,26},
+	{&A1EE01LS2,1,28},
+	{&A1VN71LS2,1,30},
+	{&R0DE05LS2,3,38},
 	{NULL,0,0},
 };
 #pragma pop
@@ -689,13 +677,13 @@ static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_SBKFP[]={
-	{&R0DE38LS2,1,14},
-	{&R0DE37LS2,1,12},
-	{&R0DE35LS2,1,8},
-	{&R0DE34LS2,1,6},
-	{&R0DE33LS2,1,4},
-	{&R0DE32LS2,1,2},
 	{&R0DE31LS2,1,0},
+	{&R0DE32LS2,1,2},
+	{&R0DE33LS2,1,4},
+	{&R0DE34LS2,1,6},
+	{&R0DE35LS2,1,8},
+	{&R0DE37LS2,1,12},
+	{&R0DE38LS2,1,14},
 	{&R0DE39LS2,1,16},
 	{&R0DEB1LS2,1,18},
 	{&R0DEB2LS2,1,20},
@@ -712,9 +700,9 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS01[]={
-	{&R0DE01LS2,3,10},
-	{&R0IN02FV2,8,5},
 	{&R0IN01FV2,8,0},
+	{&R0IN02FV2,8,5},
+	{&R0DE01LS2,3,10},
 	{NULL,0,0},
 };
 #pragma pop
@@ -726,58 +714,70 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
-	{&R0DE02LS2,3,10},
 	{&R0IN03FV2,8,0},
+	{&R0DE02LS2,3,10},
+	{NULL,0,0},
+};
+#pragma pop
+#include <fp8/drivers/vds32r.h>
+static char buf_VDS32[194];	//VDS32
+static vds32r_inipar ini_VDS32={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+#pragma pack(push,1)
+static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
+#pragma pop
+#pragma pack(push,1)
+static DriverRegister def_buf_VDS32[]={
+	{&R0DE04LS2,3,64},
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0xc4,0x02,27,122,def_buf_VCHS02,&table_VCHS02},	//VCHS02
-	{0xc2,0x04,19,194,def_buf_VDS32,&table_VDS32},	//VDS32
 	{0x96,0x05,23,104,def_buf_FDS16,&table_FDS16},	//FDS16
 	{0xcc,0x20,7,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
 	{0xc4,0x01,27,122,def_buf_VCHS01,&table_VCHS01},	//VCHS01
+	{0xc4,0x02,27,122,def_buf_VCHS02,&table_VCHS02},	//VCHS02
+	{0xc2,0x04,19,194,def_buf_VDS32,&table_VDS32},	//VDS32
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
 void InitSetConst(void){	//Инициализация переменных для хранения
-	setAsFloat(75,32000.0);
-	setAsFloat(68,1);
-	setAsFloat(66,1);
-	setAsFloat(92,248.0);
-	setAsFloat(94,287.2);
-	setAsFloat(62,1.0);
-	setAsFloat(90,1269.0);
-	setAsFloat(72,20);
-	setAsFloat(77,100000);
-	setAsFloat(67,0);
-	setAsFloat(83,13.0);
-	setAsFloat(74,975000.0);
-	setAsFloat(87,1570.00);
-	setAsFloat(70,1);
-	setAsFloat(80,2.0);
-	setAsFloat(79,0.5);
-	setAsFloat(69,0);
-	setAsFloat(86,5000);
-	setAsFloat(91,506.5);
 	setAsFloat(59,11.0);
-	setAsFloat(63,0);
-	setAsFloat(76,4000);
-	setAsFloat(78,1000000);
-	setAsFloat(81,20);
-	setAsFloat(88,1555.0);
-	setAsFloat(89,1269.0);
 	setAsFloat(60,1.0);
 	setAsFloat(61,1.0);
-	setAsFloat(85,0.005);
-	setAsFloat(84,5100);
-	setAsFloat(73,37037.04 );
-	setAsFloat(82,5000);
-	setAsFloat(71,0);
-	setAsFloat(93,271.6);
+	setAsFloat(62,1.0);
+	setAsFloat(63,0);
 	setAsFloat(64,0.0);
 	setAsFloat(65,0);
+	setAsFloat(66,1);
+	setAsFloat(67,0);
+	setAsFloat(68,1);
+	setAsFloat(69,0);
+	setAsFloat(70,1);
+	setAsFloat(71,0);
+	setAsFloat(72,20);
+	setAsFloat(73,37037.04 );
+	setAsFloat(74,975000.0);
+	setAsFloat(75,32000.0);
+	setAsFloat(76,4000);
+	setAsFloat(77,100000);
+	setAsFloat(78,1000000);
+	setAsFloat(79,0.5);
+	setAsFloat(80,2.0);
+	setAsFloat(81,20);
+	setAsFloat(82,5000);
+	setAsFloat(83,13.0);
+	setAsFloat(84,5100);
+	setAsFloat(85,0.005);
+	setAsFloat(86,5000);
+	setAsFloat(87,1570.00);
+	setAsFloat(88,1555.0);
+	setAsFloat(89,1269.0);
+	setAsFloat(90,1269.0);
+	setAsFloat(91,506.5);
+	setAsFloat(92,248.0);
+	setAsFloat(93,271.6);
+	setAsFloat(94,287.2);
 	setAsBool(29,1);
 	setAsBool(30,1);
 	setAsBool(31,1);
