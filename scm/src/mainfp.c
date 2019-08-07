@@ -71,8 +71,6 @@ int main(int argc, char **argv) {
             readAllDriversPTI();
         }
         takt = takt_time_cycle(tvStakt);
-        if (fabs(takt - 0.02) < 0.001))
-            takt = 0.02;
         time_start(&tvStakt);
         MainCycle();
         taktScheme = takt_time_cycle(tvStakt);
