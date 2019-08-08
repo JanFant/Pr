@@ -500,8 +500,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN02RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1</value>
+            <value name="name">R0SR03RIM</value>
+            <value name="description">( - , SCM) Текущая мощность РУ аз1  (ватт)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
@@ -513,8 +513,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN03RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1</value>
+            <value name="name">A0SN02RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">2</value>
@@ -526,8 +526,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN04RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1</value>
+            <value name="name">A0SN03RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">4</value>
@@ -539,8 +539,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN05RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1</value>
+            <value name="name">A0SN04RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">6</value>
@@ -552,8 +552,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN06RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1</value>
+            <value name="name">A0SN05RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">8</value>
@@ -565,8 +565,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">A0SN07RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1</value>
+            <value name="name">A0SN06RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">10</value>
@@ -578,8 +578,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN02RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2</value>
+            <value name="name">A0SN07RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ1</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">12</value>
@@ -591,8 +591,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN03RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2</value>
+            <value name="name">B0SN02RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">14</value>
@@ -604,8 +604,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN04RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2</value>
+            <value name="name">B0SN03RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">16</value>
@@ -617,8 +617,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN05RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2</value>
+            <value name="name">B0SN04RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">18</value>
@@ -630,8 +630,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN06RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2</value>
+            <value name="name">B0SN05RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 4-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">20</value>
@@ -643,8 +643,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">B0SN07RIM</value>
-            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2</value>
+            <value name="name">B0SN06RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 5-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">22</value>
@@ -656,8 +656,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0SR03RIM</value>
-            <value name="description">( - , SCM) Текущая мощность РУ аз1  (ватт)</value>
+            <value name="name">B0SN07RIM</value>
+            <value name="description">( - , SCM) Концентрация запаздывающих нейтронов 6-го типа AЗ2</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">24</value>
