@@ -98,7 +98,7 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R0SR03RIM" description="( - , SCM) Текущая мощность РУ аз1  (ватт)" format="8"></var>
+<var  name="R1SR02RIM" description="( - , SCM) Текущая мощность РУ АЗ1 (ватт)" format="8"></var>
 <var  name="R0S01LIM" description="(vds32_pti:360 - K32VDSR, - ) Отключение сетевых передач ПТИ" format="1"></var>
 <var  name="R8AD22LDU" description="(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом" format="1"></var>
 <var  name="LTAKTS" description="( - , - ) takt scm" format="8"></var>

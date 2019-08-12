@@ -946,7 +946,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   vchs(&S_vchs_870_1);
   vchs(&S_vchs_880_1);
   to3val(&S_to3val_640_1);
-  setData(idR0SR03RIM,&var339);
+  setData(idR1SR02RIM,&var339);
   setData(idR8AD22LDU,&var3);
   setData(idLTAKTS,&var4);
   setData(idkrb2,&var303);

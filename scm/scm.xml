@@ -500,8 +500,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0SR03RIM</value>
-            <value name="description">( - , SCM) Текущая мощность РУ аз1  (ватт)</value>
+            <value name="name">R1SR02RIM</value>
+            <value name="description">( - , SCM) Текущая мощность РУ АЗ1 (ватт)</value>
             <value name="type">2</value>
             <value name="format">8</value>
             <value name="address">0</value>
