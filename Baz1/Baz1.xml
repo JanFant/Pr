@@ -1227,5 +1227,278 @@
             <value name="OldData">58</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R0UT02RZZ</value>
+            <value name="description">( - , Baz1) Верхний предел шкалы датчика температуры</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">2</value>
+            <value name="nID">90</value>
+            <value name="PType">33</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">231</value>
+            <value name="OldData">231</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UT01RZZ</value>
+            <value name="description">( - , Baz1) Нижний предел шкалы датчика температуры</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">4</value>
+            <value name="nID">91</value>
+            <value name="PType">33</value>
+            <value name="Bf0">4</value>
+            <value name="ParData">236</value>
+            <value name="OldData">236</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP03RZZ</value>
+            <value name="description">( - , Baz1) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">6</value>
+            <value name="nID">92</value>
+            <value name="PType">33</value>
+            <value name="Bf0">8</value>
+            <value name="ParData">241</value>
+            <value name="OldData">241</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP04RZZ</value>
+            <value name="description">( - , Baz1) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">8</value>
+            <value name="nID">93</value>
+            <value name="PType">33</value>
+            <value name="Bf0">12</value>
+            <value name="ParData">246</value>
+            <value name="OldData">246</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UT72RZZ</value>
+            <value name="description">( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+            <value name="nID">94</value>
+            <value name="PType">33</value>
+            <value name="Bf0">16</value>
+            <value name="ParData">251</value>
+            <value name="OldData">251</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UT71RZZ</value>
+            <value name="description">( - , Baz1) Уровень срабатывания аварийной сигнализации по температуре АЗ</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">12</value>
+            <value name="nID">95</value>
+            <value name="PType">33</value>
+            <value name="Bf0">20</value>
+            <value name="ParData">256</value>
+            <value name="OldData">256</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UT62RZZ</value>
+            <value name="description">( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">14</value>
+            <value name="nID">96</value>
+            <value name="PType">33</value>
+            <value name="Bf0">24</value>
+            <value name="ParData">261</value>
+            <value name="OldData">261</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UT61RZZ</value>
+            <value name="description">( - , Baz1) Уровень срабатывания предупредительной сигнализации по температуре АЗ</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">16</value>
+            <value name="nID">97</value>
+            <value name="PType">33</value>
+            <value name="Bf0">28</value>
+            <value name="ParData">266</value>
+            <value name="OldData">266</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP41RZZ</value>
+            <value name="description">( - , Baz1) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">18</value>
+            <value name="nID">98</value>
+            <value name="PType">33</value>
+            <value name="Bf0">32</value>
+            <value name="ParData">271</value>
+            <value name="OldData">271</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP42RZZ</value>
+            <value name="description">( - , Baz1) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">20</value>
+            <value name="nID">99</value>
+            <value name="PType">33</value>
+            <value name="Bf0">36</value>
+            <value name="ParData">276</value>
+            <value name="OldData">276</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP51RZZ</value>
+            <value name="description">( - , Baz1) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">22</value>
+            <value name="nID">100</value>
+            <value name="PType">33</value>
+            <value name="Bf0">40</value>
+            <value name="ParData">281</value>
+            <value name="OldData">281</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP81RZZ</value>
+            <value name="description">( - , Baz1) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">24</value>
+            <value name="nID">101</value>
+            <value name="PType">33</value>
+            <value name="Bf0">44</value>
+            <value name="ParData">286</value>
+            <value name="OldData">286</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP84RZZ</value>
+            <value name="description">( - , Baz1) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">26</value>
+            <value name="nID">102</value>
+            <value name="PType">33</value>
+            <value name="Bf0">48</value>
+            <value name="ParData">291</value>
+            <value name="OldData">291</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP82RZZ</value>
+            <value name="description">( - , Baz1) Нижняя граница нормализации давления СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">28</value>
+            <value name="nID">103</value>
+            <value name="PType">33</value>
+            <value name="Bf0">52</value>
+            <value name="ParData">296</value>
+            <value name="OldData">296</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP52RZZ</value>
+            <value name="description">( - , Baz1) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">30</value>
+            <value name="nID">104</value>
+            <value name="PType">33</value>
+            <value name="Bf0">56</value>
+            <value name="ParData">301</value>
+            <value name="OldData">301</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_A2UP83RZZ</value>
+            <value name="description">( - , Baz1) Верхняя граница нормализации давления СБРОС РБ (МПа)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">32</value>
+            <value name="nID">105</value>
+            <value name="PType">33</value>
+            <value name="Bf0">60</value>
+            <value name="ParData">306</value>
+            <value name="OldData">306</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UR01RZZ</value>
+            <value name="description">( - , Baz1) Уставка АКНП ПС  АЗ по периоду (сек)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">34</value>
+            <value name="nID">106</value>
+            <value name="PType">33</value>
+            <value name="Bf0">64</value>
+            <value name="ParData">311</value>
+            <value name="OldData">311</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UR04RZZ</value>
+            <value name="description">( - , Baz1) Уставка АКНП АС  АЗ по периоду (сек)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">36</value>
+            <value name="nID">107</value>
+            <value name="PType">33</value>
+            <value name="Bf0">68</value>
+            <value name="ParData">316</value>
+            <value name="OldData">316</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UL05RDU</value>
+            <value name="description">( - , Baz1) Время задержки АЗ от НУП ИС(сек)</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">38</value>
+            <value name="nID">108</value>
+            <value name="PType">33</value>
+            <value name="Bf0">72</value>
+            <value name="ParData">321</value>
+            <value name="OldData">321</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UL25RDU</value>
+            <value name="description">( - , Baz1) Время задержки АЗ от ВУ ИС сек</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">40</value>
+            <value name="nID">109</value>
+            <value name="PType">33</value>
+            <value name="Bf0">76</value>
+            <value name="ParData">326</value>
+            <value name="OldData">326</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R0UL07RDU</value>
+            <value name="description">( - , Baz1) Время задержки  срабатывания АС II УР</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">42</value>
+            <value name="nID">110</value>
+            <value name="PType">33</value>
+            <value name="Bf0">80</value>
+            <value name="ParData">331</value>
+            <value name="OldData">331</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>
