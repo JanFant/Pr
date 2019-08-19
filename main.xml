@@ -9,5 +9,4 @@
     <subs name="AKNP4" scheme="AKNP4/scheme/AKNP4.tpr" id="7" file="AKNP4fp" description="AKNP4" main="192.168.10.55" second="192.168.10.155" path="AKNP4" step="20" />
     <subs name="RPU"   scheme="RPU/scheme/RPU.tpr"     id="8" file="RPUfp"   description="RPU"   main="192.168.10.31" second="192.168.10.131" path="RPU"   step="20" />
     <subs name="AKNP2" scheme="AKNP2/scheme/AKNP2.tpr" id="9" file="AKNP2fp" description="AKNP2" main="192.168.10.57" second="192.168.10.157" path="AKNP2" step="20" />
-    
 </general>
