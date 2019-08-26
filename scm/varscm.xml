@@ -98,7 +98,7 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R1SR02RIM" description="( - , SCM) Текущая мощность РУ АЗ1 (ватт)" format="8"></var>
+<var  name="R0SR03RIM" description="( - , SCM) Текущая мощность РУ аз1  (ватт)" format="8"></var>
 <var  name="R0S01LIM" description="(vds32_pti:360 - K32VDSR, - ) Отключение сетевых передач ПТИ" format="1"></var>
 <var  name="R8AD22LDU" description="(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом" format="1"></var>
 <var  name="LTAKTS" description="( - , - ) takt scm" format="8"></var>
@@ -289,7 +289,6 @@
 <var  name="fEM_A1UR00RIM" description="(A1UR00RIM) Коэффициент-0 функции реактивности вносимой ББ (долл)" format="8"></var>
 <var  name="fEM_A3UR00RIM" description="(A3UR00RIM) Коэффициент-0 функции реактивности вносимой ИС (долл)" format="8"></var>
 <var  name="fEM_A3UR01RIM" description="(A3UR01RIM) Коэффициент-1 функции реактивности вносимой ИС (долл)" format="8"></var>
-<var  name="fEM_R0UT01RIM" description="(R0UT01RIM) Температурный коэффициент (долл)" format="8"></var>
 <var  name="fEM_R0UT02RIM" description="(R0UT02RIM) Масса топлива в АЗ" format="8"></var>
 <var  name="fEM_R0UT04RIM" description="(R0UT04RIM) Удельная теплоёмкость топлива" format="8"></var>
 <var  name="fEM_R0UT03RIM" description="(R0UT03RIM) Нормальная температура АЗ град" format="8"></var>
@@ -667,6 +666,7 @@
 <var  name="fEM_R0UL02RIM" description="(R0UL02RIM) Время удержания синхроимпульса" format="8"></var>
 <var  name="fEM_R0UL02RDU" description="(R0UL02RDU) Время задержки  ИНИ" format="8"></var>
 <var  name="fEM_R0UL04RIM" description="(R0UL04RIM) Время блокировки повторной генерации импульса" format="8"></var>
+<var  name="fEM_R0UN18RDU" description="(R0UN18RDU) Коэффициент температурной корректировки реактивности(долл)" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m176_x0" description="(internal1_m176_x0) x0 - значение входного параметра на предыдущем шаге" format="8"></var>
@@ -708,7 +708,7 @@
 <var  name="internal1_m601_tx" description="(internal1_m601_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m601_y0" description="(internal1_m601_y0) y0" format="18"></var>
 <var  name="internal1_m211_Out10" description="(internal1_m211_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m229_Out10" description="(internal1_m229_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m228_Out10" description="(internal1_m228_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m47_Out10" description="(internal1_m47_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m62_Out10" description="(internal1_m62_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m970_Out10" description="(internal1_m970_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -776,7 +776,7 @@
 <var  name="internal1_m334_Xtek0" description="(internal1_m334_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
 <var  name="internal1_m349_Out10" description="(internal1_m349_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m347_Out10" description="(internal1_m347_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m327_Xtek0" description="(internal1_m327_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m326_Xtek0" description="(internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
 <var  name="internal1_m348_Out10" description="(internal1_m348_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m319_Out10" description="(internal1_m319_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m335_Out10" description="(internal1_m335_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -788,15 +788,15 @@
 <var  name="internal1_m1035_Out10" description="(internal1_m1035_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m152_Out10" description="(internal1_m152_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m151_Out10" description="(internal1_m151_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m472_X00" description="(internal1_m472_X00)  X00 - текущая координата механизма" format="8"></var>
-<var  name="internal1_m472_V00" description="(internal1_m472_V00)  V00 - текущая скорость механизма" format="8"></var>
-<var  name="internal1_m472_Pav0" description="(internal1_m472_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m472_Zav0" description="(internal1_m472_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m472_Pv0" description="(internal1_m472_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m472_Zv0" description="(internal1_m472_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m472_RA00" description="(internal1_m472_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m472_RA10" description="(internal1_m472_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m472_MyFirstEnterFlag" description="(internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m473_X00" description="(internal1_m473_X00)  X00 - текущая координата механизма" format="8"></var>
+<var  name="internal1_m473_V00" description="(internal1_m473_V00)  V00 - текущая скорость механизма" format="8"></var>
+<var  name="internal1_m473_Pav0" description="(internal1_m473_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m473_Zav0" description="(internal1_m473_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m473_Pv0" description="(internal1_m473_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m473_Zv0" description="(internal1_m473_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m473_RA00" description="(internal1_m473_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m473_RA10" description="(internal1_m473_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m473_MyFirstEnterFlag" description="(internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m483_X00" description="(internal1_m483_X00)  X00 - текущая координата механизма" format="8"></var>
 <var  name="internal1_m483_V00" description="(internal1_m483_V00)  V00 - текущая скорость механизма" format="8"></var>
 <var  name="internal1_m483_Pav0" description="(internal1_m483_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
@@ -806,15 +806,15 @@
 <var  name="internal1_m483_RA00" description="(internal1_m483_RA00)  - последнее задание вперед" format="1"></var>
 <var  name="internal1_m483_RA10" description="(internal1_m483_RA10)  - последнее задание назад" format="1"></var>
 <var  name="internal1_m483_MyFirstEnterFlag" description="(internal1_m483_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m471_X00" description="(internal1_m471_X00)  X00 - текущая координата механизма" format="8"></var>
-<var  name="internal1_m471_V00" description="(internal1_m471_V00)  V00 - текущая скорость механизма" format="8"></var>
-<var  name="internal1_m471_Pav0" description="(internal1_m471_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m471_Zav0" description="(internal1_m471_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m471_Pv0" description="(internal1_m471_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m471_Zv0" description="(internal1_m471_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m471_RA00" description="(internal1_m471_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m471_RA10" description="(internal1_m471_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m471_MyFirstEnterFlag" description="(internal1_m471_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m472_X00" description="(internal1_m472_X00)  X00 - текущая координата механизма" format="8"></var>
+<var  name="internal1_m472_V00" description="(internal1_m472_V00)  V00 - текущая скорость механизма" format="8"></var>
+<var  name="internal1_m472_Pav0" description="(internal1_m472_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m472_Zav0" description="(internal1_m472_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m472_Pv0" description="(internal1_m472_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m472_Zv0" description="(internal1_m472_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m472_RA00" description="(internal1_m472_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m472_RA10" description="(internal1_m472_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m472_MyFirstEnterFlag" description="(internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m606_X00" description="(internal1_m606_X00)  X00 - текущая координата механизма" format="8"></var>
 <var  name="internal1_m606_V00" description="(internal1_m606_V00)  V00 - текущая скорость механизма" format="8"></var>
 <var  name="internal1_m606_Pav0" description="(internal1_m606_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
@@ -957,20 +957,20 @@
 <var  name="internal1_m186_T00" description="(internal1_m186_T00) T00 - Текущая температура" format="8"></var>
 <var  name="internal1_m186_ImpINI0" description="(internal1_m186_ImpINI0) ImpINI - Запуск системы инициирования(пред.)" format="1"></var>
 <var  name="internal1_m186_MyFirstEnterFlag" description="(internal1_m186_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m300_X00" description="(internal1_m300_X00) X0 - текущая координата ОРР" format="8"></var>
-<var  name="internal1_m300_Sh00" description="(internal1_m300_Sh00) Sh0 - текущая координата штока ОРР" format="8"></var>
-<var  name="internal1_m300_RV00" description="(internal1_m300_RV00) V0 - текущая скорость ОРР" format="8"></var>
-<var  name="internal1_m300_ShV00" description="(internal1_m300_ShV00) V0 - текущая скорость штока ОРР" format="8"></var>
-<var  name="internal1_m300_Ppv0" description="(internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m300_Pav0" description="(internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m300_Zav0" description="(internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m300_RA00" description="(internal1_m300_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m300_RA10" description="(internal1_m300_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m300_RA30" description="(internal1_m300_RA30)  RA30 - разрешение движения" format="1"></var>
-<var  name="internal1_m300_RA50" description="(internal1_m300_RA50) Ra50 - последнее задание скорости" format="1"></var>
-<var  name="internal1_m300_fls" description="(internal1_m300_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m300_flp" description="(internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m300_MyFirstEnterFlag" description="(internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m303_X00" description="(internal1_m303_X00) X0 - текущая координата ОРР" format="8"></var>
+<var  name="internal1_m303_Sh00" description="(internal1_m303_Sh00) Sh0 - текущая координата штока ОРР" format="8"></var>
+<var  name="internal1_m303_RV00" description="(internal1_m303_RV00) V0 - текущая скорость ОРР" format="8"></var>
+<var  name="internal1_m303_ShV00" description="(internal1_m303_ShV00) V0 - текущая скорость штока ОРР" format="8"></var>
+<var  name="internal1_m303_Ppv0" description="(internal1_m303_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m303_Pav0" description="(internal1_m303_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m303_Zav0" description="(internal1_m303_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m303_RA00" description="(internal1_m303_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m303_RA10" description="(internal1_m303_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m303_RA30" description="(internal1_m303_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m303_RA50" description="(internal1_m303_RA50) Ra50 - последнее задание скорости" format="1"></var>
+<var  name="internal1_m303_fls" description="(internal1_m303_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m303_flp" description="(internal1_m303_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m303_MyFirstEnterFlag" description="(internal1_m303_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m136_X00" description="(internal1_m136_X00) X0 - текущая координата ОРР" format="8"></var>
 <var  name="internal1_m136_Sh00" description="(internal1_m136_Sh00) Sh0 - текущая координата штока ОРР" format="8"></var>
 <var  name="internal1_m136_RV00" description="(internal1_m136_RV00) V0 - текущая скорость ОРР" format="8"></var>
@@ -1027,20 +1027,20 @@
 <var  name="internal1_m232_fls" description="(internal1_m232_fls)  fls - флаг одношагового режима" format="1"></var>
 <var  name="internal1_m232_flp" description="(internal1_m232_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
 <var  name="internal1_m232_MyFirstEnterFlag" description="(internal1_m232_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m67_X00" description="(internal1_m67_X00) X0 - текущая координата ОРР" format="8"></var>
-<var  name="internal1_m67_Sh00" description="(internal1_m67_Sh00) Sh0 - текущая координата штока ОРР" format="8"></var>
-<var  name="internal1_m67_RV00" description="(internal1_m67_RV00) V0 - текущая скорость ОРР" format="8"></var>
-<var  name="internal1_m67_ShV00" description="(internal1_m67_ShV00) V0 - текущая скорость штока ОРР" format="8"></var>
-<var  name="internal1_m67_Ppv0" description="(internal1_m67_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
-<var  name="internal1_m67_Pav0" description="(internal1_m67_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m67_Zav0" description="(internal1_m67_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
-<var  name="internal1_m67_RA00" description="(internal1_m67_RA00) RA00 - последнее задание вперед" format="1"></var>
-<var  name="internal1_m67_RA10" description="(internal1_m67_RA10) RA10 - последнее задание назад" format="1"></var>
-<var  name="internal1_m67_RA30" description="(internal1_m67_RA30)  RA30 - разрешение движения" format="1"></var>
-<var  name="internal1_m67_RA50" description="(internal1_m67_RA50) Ra50 - последнее задание скорости" format="1"></var>
-<var  name="internal1_m67_fls" description="(internal1_m67_fls)  fls - флаг одношагового режима" format="1"></var>
-<var  name="internal1_m67_flp" description="(internal1_m67_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
-<var  name="internal1_m67_MyFirstEnterFlag" description="(internal1_m67_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m65_X00" description="(internal1_m65_X00) X0 - текущая координата ОРР" format="8"></var>
+<var  name="internal1_m65_Sh00" description="(internal1_m65_Sh00) Sh0 - текущая координата штока ОРР" format="8"></var>
+<var  name="internal1_m65_RV00" description="(internal1_m65_RV00) V0 - текущая скорость ОРР" format="8"></var>
+<var  name="internal1_m65_ShV00" description="(internal1_m65_ShV00) V0 - текущая скорость штока ОРР" format="8"></var>
+<var  name="internal1_m65_Ppv0" description="(internal1_m65_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)" format="1"></var>
+<var  name="internal1_m65_Pav0" description="(internal1_m65_Pav0) Pav0 - Пер.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m65_Zav0" description="(internal1_m65_Zav0) Zav0 - Зад.аварийный выключатель ОРР" format="1"></var>
+<var  name="internal1_m65_RA00" description="(internal1_m65_RA00) RA00 - последнее задание вперед" format="1"></var>
+<var  name="internal1_m65_RA10" description="(internal1_m65_RA10) RA10 - последнее задание назад" format="1"></var>
+<var  name="internal1_m65_RA30" description="(internal1_m65_RA30)  RA30 - разрешение движения" format="1"></var>
+<var  name="internal1_m65_RA50" description="(internal1_m65_RA50) Ra50 - последнее задание скорости" format="1"></var>
+<var  name="internal1_m65_fls" description="(internal1_m65_fls)  fls - флаг одношагового режима" format="1"></var>
+<var  name="internal1_m65_flp" description="(internal1_m65_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)" format="1"></var>
+<var  name="internal1_m65_MyFirstEnterFlag" description="(internal1_m65_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m14_C1" description="(internal1_m14_C1) C1 - концентрация запаздывающих нейтронов 1-го типа" format="8"></var>
 <var  name="internal1_m14_C2" description="(internal1_m14_C2) C2 - концентрация запаздывающих нейтронов 2-го типа" format="8"></var>
 <var  name="internal1_m14_C3" description="(internal1_m14_C3) C3 - концентрация запаздывающих нейтронов 3-го типа" format="8"></var>

@@ -5,9 +5,8 @@
   <save value ="0">fEM_A1UR00RIM</save>
   <save value ="0">fEM_A3UR00RIM</save>
   <save value ="0.0096">fEM_A3UR01RIM</save>
-  <save value ="0.0026">fEM_R0UT01RIM</save>
-  <save value ="106">fEM_R0UT02RIM</save>
-  <save value ="135.227">fEM_R0UT04RIM</save>
+  <save value ="120">fEM_R0UT02RIM</save>
+  <save value ="200">fEM_R0UT04RIM</save>
   <save value ="25">fEM_R0UT03RIM</save>
   <save value ="320.435466">fEM_R0UT05RIM</save>
   <save value ="0.0055">fEM_R0UT06RIM</save>
@@ -20,7 +19,7 @@
   <save value ="80">fEM_A2UC04RIM</save>
   <save value ="0.002375">fEM_A2UC02RDU</save>
   <save value ="0">fEM_A3UC06RIM</save>
-  <save value ="165">fEM_A3UC05RIM</save>
+  <save value ="160">fEM_A3UC05RIM</save>
   <save value ="200">fEM_A3UC04RIM</save>
   <save value ="0.001675">fEM_A3UC02RDU</save>
   <save value ="4">fEM_R4UV80RDU</save>
@@ -50,7 +49,7 @@
   <save value ="2.0">fEM_R7UL01RIM</save>
   <save value ="0">fEM_A2UR00RIM</save>
   <save value ="0.026">fEM_A2UR01RIM</save>
-  <save value ="0.8">fEM_A0UN02RIM</save>
+  <save value ="0.008">fEM_A0UN02RIM</save>
   <save value ="0.0">fEM_R0UR30RIM</save>
   <save value ="27.108">fEM_R0UR01RIM</save>
   <save value ="600">fEM_R0UT02RDU</save>
@@ -383,4 +382,5 @@
   <save value ="0.5">fEM_R0UL02RIM</save>
   <save value ="0.015">fEM_R0UL02RDU</save>
   <save value ="600">fEM_R0UL04RIM</save>
+  <save value ="0.00097">fEM_R0UN18RDU</save>
 </saves>
