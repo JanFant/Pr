@@ -7,7 +7,7 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 //Время цикла мс
 float takt,taktScheme=0,taktSS=0;
-#define SIZE_BUFFER 542
+#define SIZE_BUFFER 532
 static char BUFFER[SIZE_BUFFER];
 #include <fp8/UDPTransport.h>
 SetupUDP setUDP ={"192.168.10.57\0",5432,"192.168.10.157\0",5432,BUFFER,sizeof(BUFFER),};
@@ -200,8 +200,8 @@ int master=1,nomer=1;
 #define idfEM_R7UY05RSS	93	// (R7UY05RSS) Y-координата камеры R7IN22 (см)
 #define fEM_R7UY06RSS	BUFFER[348]	// (R7UY06RSS) Y-координата камеры R7IN23 (см)
 #define idfEM_R7UY06RSS	94	// (R7UY06RSS) Y-координата камеры R7IN23 (см)
-#define internal1_m19_Nk	BUFFER[353]	// (internal1_m19_Nk) Nk - ведущая камера
-#define idinternal1_m19_Nk	95	// (internal1_m19_Nk) Nk - ведущая камера
+#define internal1_m17_Nk	BUFFER[353]	// (internal1_m17_Nk) Nk - ведущая камера
+#define idinternal1_m17_Nk	95	// (internal1_m17_Nk) Nk - ведущая камера
 #define internal1_m55_MyFirstEnterFlag	BUFFER[356]	// (internal1_m55_MyFirstEnterFlag)  FirstEnterFlag
 #define idinternal1_m55_MyFirstEnterFlag	96	// (internal1_m55_MyFirstEnterFlag)  FirstEnterFlag
 #define internal1_m55_W1	BUFFER[358]	// (internal1_m55_W1)  мощность на старте измерения
@@ -224,82 +224,78 @@ int master=1,nomer=1;
 #define idinternal1_m55_sumtim	105	// (internal1_m55_sumtim)  время измерения мощности
 #define internal1_m55_y0	BUFFER[397]	// (internal1_m55_y0) y0 - внутренний параметр
 #define idinternal1_m55_y0	106	// (internal1_m55_y0) y0 - внутренний параметр
-#define internal1_m56_y0	BUFFER[402]	// (internal1_m56_y0) y0 - внутренний параметр
-#define idinternal1_m56_y0	107	// (internal1_m56_y0) y0 - внутренний параметр
-#define vainSBool	BUFFER[407]	// Внутренняя переменная vainSBool
-#define idvainSBool	108	// Внутренняя переменная vainSBool
-#define vainSFloat	BUFFER[409]	// Внутренняя переменная vainSFloat
-#define idvainSFloat	109	// Внутренняя переменная vainSFloat
-#define vainSInt	BUFFER[414]	// Внутренняя переменная vainSInt
-#define idvainSInt	110	// Внутренняя переменная vainSInt
-#define vainSLong	BUFFER[419]	// Внутренняя переменная vainSLong
-#define idvainSLong	111	// Внутренняя переменная vainSLong
-#define var1	BUFFER[428]	// Внутренняя переменная var1
-#define idvar1	112	// Внутренняя переменная var1
-#define var10	BUFFER[433]	// Внутренняя переменная var10
-#define idvar10	113	// Внутренняя переменная var10
-#define var11	BUFFER[435]	// Внутренняя переменная var11
-#define idvar11	114	// Внутренняя переменная var11
-#define var12	BUFFER[437]	// Внутренняя переменная var12
-#define idvar12	115	// Внутренняя переменная var12
-#define var13	BUFFER[439]	// Внутренняя переменная var13
-#define idvar13	116	// Внутренняя переменная var13
-#define var14	BUFFER[441]	// Внутренняя переменная var14
-#define idvar14	117	// Внутренняя переменная var14
-#define var15	BUFFER[446]	// Внутренняя переменная var15
-#define idvar15	118	// Внутренняя переменная var15
-#define var16	BUFFER[451]	// Внутренняя переменная var16
-#define idvar16	119	// Внутренняя переменная var16
-#define var17	BUFFER[456]	// Внутренняя переменная var17
-#define idvar17	120	// Внутренняя переменная var17
-#define var18	BUFFER[458]	// Внутренняя переменная var18
-#define idvar18	121	// Внутренняя переменная var18
-#define var19	BUFFER[463]	// Внутренняя переменная var19
-#define idvar19	122	// Внутренняя переменная var19
-#define var2	BUFFER[468]	// Внутренняя переменная var2
-#define idvar2	123	// Внутренняя переменная var2
-#define var20	BUFFER[473]	// Внутренняя переменная var20
-#define idvar20	124	// Внутренняя переменная var20
-#define var21	BUFFER[478]	// Внутренняя переменная var21
-#define idvar21	125	// Внутренняя переменная var21
-#define var22	BUFFER[483]	// Внутренняя переменная var22
-#define idvar22	126	// Внутренняя переменная var22
-#define var23	BUFFER[485]	// Внутренняя переменная var23
-#define idvar23	127	// Внутренняя переменная var23
-#define var24	BUFFER[490]	// Внутренняя переменная var24
-#define idvar24	128	// Внутренняя переменная var24
-#define var25	BUFFER[492]	// Внутренняя переменная var25
-#define idvar25	129	// Внутренняя переменная var25
-#define var26	BUFFER[494]	// Внутренняя переменная var26
-#define idvar26	130	// Внутренняя переменная var26
-#define var27	BUFFER[496]	// Внутренняя переменная var27
-#define idvar27	131	// Внутренняя переменная var27
-#define var28	BUFFER[498]	// Внутренняя переменная var28
-#define idvar28	132	// Внутренняя переменная var28
-#define var29	BUFFER[500]	// Внутренняя переменная var29
-#define idvar29	133	// Внутренняя переменная var29
-#define var3	BUFFER[502]	// Внутренняя переменная var3
-#define idvar3	134	// Внутренняя переменная var3
-#define var30	BUFFER[507]	// Внутренняя переменная var30
-#define idvar30	135	// Внутренняя переменная var30
-#define var31	BUFFER[509]	// Внутренняя переменная var31
-#define idvar31	136	// Внутренняя переменная var31
-#define var32	BUFFER[511]	// Внутренняя переменная var32
-#define idvar32	137	// Внутренняя переменная var32
-#define var33	BUFFER[516]	// Внутренняя переменная var33
-#define idvar33	138	// Внутренняя переменная var33
-#define var4	BUFFER[518]	// Внутренняя переменная var4
-#define idvar4	139	// Внутренняя переменная var4
-#define var5	BUFFER[523]	// Внутренняя переменная var5
-#define idvar5	140	// Внутренняя переменная var5
-#define var6	BUFFER[528]	// Внутренняя переменная var6
-#define idvar6	141	// Внутренняя переменная var6
-#define var7	BUFFER[533]	// Внутренняя переменная var7
-#define idvar7	142	// Внутренняя переменная var7
-#define var8	BUFFER[538]	// Внутренняя переменная var8
-#define idvar8	143	// Внутренняя переменная var8
-#define var9	BUFFER[540]	// Внутренняя переменная var9
-#define idvar9	144	// Внутренняя переменная var9
+#define vainSBool	BUFFER[402]	// Внутренняя переменная vainSBool
+#define idvainSBool	107	// Внутренняя переменная vainSBool
+#define vainSFloat	BUFFER[404]	// Внутренняя переменная vainSFloat
+#define idvainSFloat	108	// Внутренняя переменная vainSFloat
+#define vainSInt	BUFFER[409]	// Внутренняя переменная vainSInt
+#define idvainSInt	109	// Внутренняя переменная vainSInt
+#define vainSLong	BUFFER[414]	// Внутренняя переменная vainSLong
+#define idvainSLong	110	// Внутренняя переменная vainSLong
+#define var1	BUFFER[423]	// Внутренняя переменная var1
+#define idvar1	111	// Внутренняя переменная var1
+#define var10	BUFFER[428]	// Внутренняя переменная var10
+#define idvar10	112	// Внутренняя переменная var10
+#define var11	BUFFER[430]	// Внутренняя переменная var11
+#define idvar11	113	// Внутренняя переменная var11
+#define var12	BUFFER[432]	// Внутренняя переменная var12
+#define idvar12	114	// Внутренняя переменная var12
+#define var13	BUFFER[434]	// Внутренняя переменная var13
+#define idvar13	115	// Внутренняя переменная var13
+#define var14	BUFFER[439]	// Внутренняя переменная var14
+#define idvar14	116	// Внутренняя переменная var14
+#define var15	BUFFER[444]	// Внутренняя переменная var15
+#define idvar15	117	// Внутренняя переменная var15
+#define var16	BUFFER[449]	// Внутренняя переменная var16
+#define idvar16	118	// Внутренняя переменная var16
+#define var17	BUFFER[451]	// Внутренняя переменная var17
+#define idvar17	119	// Внутренняя переменная var17
+#define var18	BUFFER[456]	// Внутренняя переменная var18
+#define idvar18	120	// Внутренняя переменная var18
+#define var19	BUFFER[461]	// Внутренняя переменная var19
+#define idvar19	121	// Внутренняя переменная var19
+#define var2	BUFFER[466]	// Внутренняя переменная var2
+#define idvar2	122	// Внутренняя переменная var2
+#define var20	BUFFER[471]	// Внутренняя переменная var20
+#define idvar20	123	// Внутренняя переменная var20
+#define var21	BUFFER[476]	// Внутренняя переменная var21
+#define idvar21	124	// Внутренняя переменная var21
+#define var22	BUFFER[478]	// Внутренняя переменная var22
+#define idvar22	125	// Внутренняя переменная var22
+#define var23	BUFFER[483]	// Внутренняя переменная var23
+#define idvar23	126	// Внутренняя переменная var23
+#define var24	BUFFER[485]	// Внутренняя переменная var24
+#define idvar24	127	// Внутренняя переменная var24
+#define var25	BUFFER[487]	// Внутренняя переменная var25
+#define idvar25	128	// Внутренняя переменная var25
+#define var26	BUFFER[489]	// Внутренняя переменная var26
+#define idvar26	129	// Внутренняя переменная var26
+#define var27	BUFFER[491]	// Внутренняя переменная var27
+#define idvar27	130	// Внутренняя переменная var27
+#define var28	BUFFER[493]	// Внутренняя переменная var28
+#define idvar28	131	// Внутренняя переменная var28
+#define var29	BUFFER[495]	// Внутренняя переменная var29
+#define idvar29	132	// Внутренняя переменная var29
+#define var3	BUFFER[497]	// Внутренняя переменная var3
+#define idvar3	133	// Внутренняя переменная var3
+#define var30	BUFFER[502]	// Внутренняя переменная var30
+#define idvar30	134	// Внутренняя переменная var30
+#define var31	BUFFER[504]	// Внутренняя переменная var31
+#define idvar31	135	// Внутренняя переменная var31
+#define var32	BUFFER[509]	// Внутренняя переменная var32
+#define idvar32	136	// Внутренняя переменная var32
+#define var4	BUFFER[511]	// Внутренняя переменная var4
+#define idvar4	137	// Внутренняя переменная var4
+#define var5	BUFFER[516]	// Внутренняя переменная var5
+#define idvar5	138	// Внутренняя переменная var5
+#define var6	BUFFER[521]	// Внутренняя переменная var6
+#define idvar6	139	// Внутренняя переменная var6
+#define var7	BUFFER[526]	// Внутренняя переменная var7
+#define idvar7	140	// Внутренняя переменная var7
+#define var8	BUFFER[528]	// Внутренняя переменная var8
+#define idvar8	141	// Внутренняя переменная var8
+#define var9	BUFFER[530]	// Внутренняя переменная var9
+#define idvar9	142	// Внутренняя переменная var9
 #pragma pack(push,1)
 static VarCtrl allVariables[]={ 			 //Описание всех переменных
 	{1	,1	,1	,&A0EE01LS2},	//(fds16:05 - K11FDSR, - ) Исправность АКНП канал 2 на БАЗ1
@@ -396,7 +392,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{92	,8	,1	,&fEM_R7UY04RSS},	//(R7UY04RSS) Y-координата камеры R7IN21 (см)
 	{93	,8	,1	,&fEM_R7UY05RSS},	//(R7UY05RSS) Y-координата камеры R7IN22 (см)
 	{94	,8	,1	,&fEM_R7UY06RSS},	//(R7UY06RSS) Y-координата камеры R7IN23 (см)
-	{95	,3	,1	,&internal1_m19_Nk},	//(internal1_m19_Nk) Nk - ведущая камера
+	{95	,3	,1	,&internal1_m17_Nk},	//(internal1_m17_Nk) Nk - ведущая камера
 	{96	,1	,1	,&internal1_m55_MyFirstEnterFlag},	//(internal1_m55_MyFirstEnterFlag)  FirstEnterFlag
 	{97	,8	,1	,&internal1_m55_W1},	//(internal1_m55_W1)  мощность на старте измерения
 	{98	,8	,1	,&internal1_m55_W2},	//(internal1_m55_W2)  мощность в конце измерения
@@ -408,44 +404,42 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{104	,3	,1	,&internal1_m55_flst},	//(internal1_m55_flst)  флаг старта измерения
 	{105	,8	,1	,&internal1_m55_sumtim},	//(internal1_m55_sumtim)  время измерения мощности
 	{106	,8	,1	,&internal1_m55_y0},	//(internal1_m55_y0) y0 - внутренний параметр
-	{107	,8	,1	,&internal1_m56_y0},	//(internal1_m56_y0) y0 - внутренний параметр
-	{108	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
-	{109	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
-	{110	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
-	{111	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
-	{112	,8	,1	,&var1},	//Внутренняя переменная var1
-	{113	,1	,1	,&var10},	//Внутренняя переменная var10
-	{114	,1	,1	,&var11},	//Внутренняя переменная var11
-	{115	,1	,1	,&var12},	//Внутренняя переменная var12
-	{116	,1	,1	,&var13},	//Внутренняя переменная var13
-	{117	,5	,1	,&var14},	//Внутренняя переменная var14
-	{118	,8	,1	,&var15},	//Внутренняя переменная var15
-	{119	,8	,1	,&var16},	//Внутренняя переменная var16
-	{120	,1	,1	,&var17},	//Внутренняя переменная var17
-	{121	,8	,1	,&var18},	//Внутренняя переменная var18
-	{122	,8	,1	,&var19},	//Внутренняя переменная var19
-	{123	,8	,1	,&var2},	//Внутренняя переменная var2
-	{124	,8	,1	,&var20},	//Внутренняя переменная var20
-	{125	,5	,1	,&var21},	//Внутренняя переменная var21
-	{126	,1	,1	,&var22},	//Внутренняя переменная var22
-	{127	,8	,1	,&var23},	//Внутренняя переменная var23
-	{128	,1	,1	,&var24},	//Внутренняя переменная var24
-	{129	,1	,1	,&var25},	//Внутренняя переменная var25
-	{130	,1	,1	,&var26},	//Внутренняя переменная var26
-	{131	,1	,1	,&var27},	//Внутренняя переменная var27
-	{132	,1	,1	,&var28},	//Внутренняя переменная var28
-	{133	,1	,1	,&var29},	//Внутренняя переменная var29
-	{134	,8	,1	,&var3},	//Внутренняя переменная var3
-	{135	,1	,1	,&var30},	//Внутренняя переменная var30
-	{136	,1	,1	,&var31},	//Внутренняя переменная var31
-	{137	,8	,1	,&var32},	//Внутренняя переменная var32
-	{138	,1	,1	,&var33},	//Внутренняя переменная var33
-	{139	,8	,1	,&var4},	//Внутренняя переменная var4
-	{140	,8	,1	,&var5},	//Внутренняя переменная var5
-	{141	,8	,1	,&var6},	//Внутренняя переменная var6
-	{142	,8	,1	,&var7},	//Внутренняя переменная var7
-	{143	,1	,1	,&var8},	//Внутренняя переменная var8
-	{144	,1	,1	,&var9},	//Внутренняя переменная var9
+	{107	,1	,1	,&vainSBool},	//Внутренняя переменная vainSBool
+	{108	,8	,1	,&vainSFloat},	//Внутренняя переменная vainSFloat
+	{109	,5	,1	,&vainSInt},	//Внутренняя переменная vainSInt
+	{110	,11	,1	,&vainSLong},	//Внутренняя переменная vainSLong
+	{111	,8	,1	,&var1},	//Внутренняя переменная var1
+	{112	,1	,1	,&var10},	//Внутренняя переменная var10
+	{113	,1	,1	,&var11},	//Внутренняя переменная var11
+	{114	,1	,1	,&var12},	//Внутренняя переменная var12
+	{115	,5	,1	,&var13},	//Внутренняя переменная var13
+	{116	,8	,1	,&var14},	//Внутренняя переменная var14
+	{117	,8	,1	,&var15},	//Внутренняя переменная var15
+	{118	,1	,1	,&var16},	//Внутренняя переменная var16
+	{119	,8	,1	,&var17},	//Внутренняя переменная var17
+	{120	,8	,1	,&var18},	//Внутренняя переменная var18
+	{121	,8	,1	,&var19},	//Внутренняя переменная var19
+	{122	,8	,1	,&var2},	//Внутренняя переменная var2
+	{123	,5	,1	,&var20},	//Внутренняя переменная var20
+	{124	,1	,1	,&var21},	//Внутренняя переменная var21
+	{125	,8	,1	,&var22},	//Внутренняя переменная var22
+	{126	,1	,1	,&var23},	//Внутренняя переменная var23
+	{127	,1	,1	,&var24},	//Внутренняя переменная var24
+	{128	,1	,1	,&var25},	//Внутренняя переменная var25
+	{129	,1	,1	,&var26},	//Внутренняя переменная var26
+	{130	,1	,1	,&var27},	//Внутренняя переменная var27
+	{131	,1	,1	,&var28},	//Внутренняя переменная var28
+	{132	,1	,1	,&var29},	//Внутренняя переменная var29
+	{133	,8	,1	,&var3},	//Внутренняя переменная var3
+	{134	,1	,1	,&var30},	//Внутренняя переменная var30
+	{135	,8	,1	,&var31},	//Внутренняя переменная var31
+	{136	,1	,1	,&var32},	//Внутренняя переменная var32
+	{137	,8	,1	,&var4},	//Внутренняя переменная var4
+	{138	,8	,1	,&var5},	//Внутренняя переменная var5
+	{139	,8	,1	,&var6},	//Внутренняя переменная var6
+	{140	,1	,1	,&var7},	//Внутренняя переменная var7
+	{141	,1	,1	,&var8},	//Внутренняя переменная var8
+	{142	,1	,1	,&var9},	//Внутренняя переменная var9
 	{-1,0,NULL},
 };
 static char NameSaveFile[]="aknp2.bin\0"; //Имя файла сохранения переменных
@@ -884,100 +878,98 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
-psbool  array_m102_x_1[5] = {&var9,&var8,&R0DE37LS2,&R0DE38LS2,&R0DE39LS2};
-psint  array_m88_x_1[4] = {&R0DE01LS2,&R0DE02LS2,&R0DE04LS2,&R0DE05LS2};
-psbool  array_m64_x_1[2] = {&var30,&var25};
-psbool  array_m63_x_1[2] = {&var30,&var31};
-psbool  array_m72_x_1[5] = {&var17,&R0IE11LS2,&R0IE12LS2,&R0IE13LS2,&lRM_1_};
+psbool  array_m101_x_1[5] = {&var8,&var7,&R0DE37LS2,&R0DE38LS2,&R0DE39LS2};
+psint  array_m87_x_1[4] = {&R0DE01LS2,&R0DE02LS2,&R0DE04LS2,&R0DE05LS2};
+psbool  array_m63_x_1[2] = {&var29,&var24};
+psbool  array_m62_x_1[2] = {&var29,&var30};
+psbool  array_m71_x_1[5] = {&var16,&R0IE11LS2,&R0IE12LS2,&R0IE13LS2,&lRM_1_};
 
 /* Объявление структур */
-_S_mod1  S_mod1_56_1 = {&var23,&fRM_1_,&fRM_3_,&var1,&internal1_m56_y0};
-_S_pogrvh  S_pogrvh_117_1 = {&R0IN03FV2,&fEM_R0IN31FN2,&fEM_R0IN32FN2,&var2};
-_S_pogrvh  S_pogrvh_115_1 = {&R0IN02FV2,&fEM_R0IN21FN2,&fEM_R0IN22FN2,&var3};
-_S_pogrvh  S_pogrvh_113_1 = {&R0IN01FV2,&fEM_R0IN11FN2,&fEM_R0IN12FN2,&var4};
-_S_ml  S_ml_8_1 = {&R0IN03FI2,&var2,&R0IS01FI0,&var5};
-_S_ml  S_ml_7_1 = {&R0IN02FI2,&var3,&R0IS01FI0,&var6};
-_S_ml  S_ml_6_1 = {&R0IN01FI2,&var4,&R0IS01FI0,&var7};
-_S_noto  S_noto_99_1 = {&var10,&vainSBool};
-_S_or2  S_or2_105_1 = {&R0DEB3LS2,&R0DEB4LS2,&var8};
-_S_or2  S_or2_96_1 = {&R0DEB1LS2,&R0DEB2LS2,&var9};
-_S_or3  S_or3_98_1 = {&var13,&var12,&var11,&var10};
-_S_orn  S_orn_102_1 = {array_m102_x_1,&iRM_5_,&var11};
-_S_and2  S_and2_90_1 = {&R0DE31LS2,&R0DE32LS2,&var12};
-_S_diagndev  S_diagndev_88_1 = {array_m88_x_1,&iRM_4_,&var13,&var14,&vainSFloat};
-_S_ocham  S_ocham_19_1 = {&var7,&var6,&var5,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_2_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var15,&var16,&var17,&var18,&var19,&var20,&var21,&internal1_m19_Nk};
-_S_or2  S_or2_75_1 = {&R0EE02LZ1,&R0EE02LZ2,&var22};
-_S_period  S_period_55_1 = {&var16,&var27,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var23,&internal1_m55_flst,&internal1_m55_chsr,&internal1_m55_chizm,&internal1_m55_sumtim,&internal1_m55_W1,&internal1_m55_W2,&internal1_m55_Wmin,&internal1_m55_Wmax,&internal1_m55_Wlast,&internal1_m55_y0,&internal1_m55_MyFirstEnterFlag};
-_S_andn  S_andn_64_1 = {array_m64_x_1,&iRM_2_,&var24};
-_S_bol  S_bol_61_1 = {&fEM_R0UL41RSS,&var1,&var25};
-_S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var26};
-_S_andn  S_andn_72_1 = {array_m72_x_1,&iRM_5_,&var27};
-_S_bol  S_bol_42_1 = {&var16,&fEM_R0UL52RSS,&var28};
-_S_bol  S_bol_48_1 = {&var16,&fEM_R0UL42RSS,&var29};
-_S_bol  S_bol_60_1 = {&var16,&fEM_R0UN03RSS,&var30};
-_S_bol  S_bol_59_1 = {&fEM_R0UL51RSS,&var1,&var31};
-_S_react  S_react_57_1 = {&var1,&var32};
-_S_bol  S_bol_38_1 = {&var16,&fEM_R0UR01RSS,&var33};
+_S_pogrvh  S_pogrvh_116_1 = {&R0IN03FV2,&fEM_R0IN31FN2,&fEM_R0IN32FN2,&var1};
+_S_pogrvh  S_pogrvh_114_1 = {&R0IN02FV2,&fEM_R0IN21FN2,&fEM_R0IN22FN2,&var2};
+_S_pogrvh  S_pogrvh_112_1 = {&R0IN01FV2,&fEM_R0IN11FN2,&fEM_R0IN12FN2,&var3};
+_S_ml  S_ml_8_1 = {&R0IN03FI2,&var1,&R0IS01FI0,&var4};
+_S_ml  S_ml_7_1 = {&R0IN02FI2,&var2,&R0IS01FI0,&var5};
+_S_ml  S_ml_6_1 = {&R0IN01FI2,&var3,&R0IS01FI0,&var6};
+_S_noto  S_noto_98_1 = {&var9,&vainSBool};
+_S_or2  S_or2_104_1 = {&R0DEB3LS2,&R0DEB4LS2,&var7};
+_S_or2  S_or2_95_1 = {&R0DEB1LS2,&R0DEB2LS2,&var8};
+_S_or3  S_or3_97_1 = {&var12,&var11,&var10,&var9};
+_S_orn  S_orn_101_1 = {array_m101_x_1,&iRM_5_,&var10};
+_S_and2  S_and2_89_1 = {&R0DE31LS2,&R0DE32LS2,&var11};
+_S_diagndev  S_diagndev_87_1 = {array_m87_x_1,&iRM_4_,&var12,&var13,&vainSFloat};
+_S_ocham  S_ocham_17_1 = {&var6,&var5,&var4,&B8VC01RDU,&fEM_R7UX00RSS,&fEM_R7UY00RSS,&fEM_A0UX00RSS,&fEM_A0UX04RSS,&fEM_B0UX04RSS,&fEM_A0UX05RSS,&fEM_B0UX05RSS,&fEM_A0UX06RSS,&fEM_B0UX06RSS,&fEM_R7UX04RSS,&fEM_R7UY04RSS,&fEM_R7UX05RSS,&fEM_R7UY05RSS,&fEM_R7UX06RSS,&fEM_R7UY06RSS,&bRM_2_,&fEM_R0UH01RSS,&fEM_R0UH02RSS,&fEM_R0UH03RSS,&fEM_R0UH05RSS,&fEM_R0UH21RSS,&fEM_R0UH22RSS,&fEM_R0UH23RSS,&var14,&var15,&var16,&var17,&var18,&var19,&var20,&internal1_m17_Nk};
+_S_or2  S_or2_74_1 = {&R0EE02LZ1,&R0EE02LZ2,&var21};
+_S_period  S_period_55_1 = {&var15,&var26,&iRM_5_,&fEM_R0UL01RSS,&fEM_R0UL02RSS,&fEM_R0UN03RSS,&var22,&internal1_m55_flst,&internal1_m55_chsr,&internal1_m55_chizm,&internal1_m55_sumtim,&internal1_m55_W1,&internal1_m55_W2,&internal1_m55_Wmin,&internal1_m55_Wmax,&internal1_m55_Wlast,&internal1_m55_y0,&internal1_m55_MyFirstEnterFlag};
+_S_andn  S_andn_63_1 = {array_m63_x_1,&iRM_2_,&var23};
+_S_bol  S_bol_60_1 = {&fEM_R0UL41RSS,&var22,&var24};
+_S_andn  S_andn_62_1 = {array_m62_x_1,&iRM_2_,&var25};
+_S_andn  S_andn_71_1 = {array_m71_x_1,&iRM_5_,&var26};
+_S_bol  S_bol_42_1 = {&var15,&fEM_R0UL52RSS,&var27};
+_S_bol  S_bol_48_1 = {&var15,&fEM_R0UL42RSS,&var28};
+_S_bol  S_bol_59_1 = {&var15,&fEM_R0UN03RSS,&var29};
+_S_bol  S_bol_58_1 = {&fEM_R0UL51RSS,&var22,&var30};
+_S_react  S_react_56_1 = {&var22,&var31};
+_S_bol  S_bol_38_1 = {&var15,&fEM_R0UR01RSS,&var32};
 
 
 void Scheme()
 {
 if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
-  or2(&S_or2_75_1);
-  diagndev(&S_diagndev_88_1);
-  and2(&S_and2_90_1);
-  or2(&S_or2_96_1);
-  or2(&S_or2_105_1);
-  orn(&S_orn_102_1);
-  or3(&S_or3_98_1);
-  noto(&S_noto_99_1);
-  pogrvh(&S_pogrvh_113_1);
-  pogrvh(&S_pogrvh_115_1);
-  pogrvh(&S_pogrvh_117_1);
+  or2(&S_or2_74_1);
+  diagndev(&S_diagndev_87_1);
+  and2(&S_and2_89_1);
+  or2(&S_or2_95_1);
+  or2(&S_or2_104_1);
+  orn(&S_orn_101_1);
+  or3(&S_or3_97_1);
+  noto(&S_noto_98_1);
+  pogrvh(&S_pogrvh_112_1);
+  pogrvh(&S_pogrvh_114_1);
+  pogrvh(&S_pogrvh_116_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);
-  ocham(&S_ocham_19_1);
+  ocham(&S_ocham_17_1);
   bol(&S_bol_38_1);
-  bol(&S_bol_60_1);
+  bol(&S_bol_59_1);
   bol(&S_bol_48_1);
   bol(&S_bol_42_1);
-  andn(&S_andn_72_1);
+  andn(&S_andn_71_1);
   period(&S_period_55_1);
-  mod1(&S_mod1_56_1);
-  react(&S_react_57_1);
-  bol(&S_bol_59_1);
+  react(&S_react_56_1);
+  bol(&S_bol_58_1);
+  andn(&S_andn_62_1);
+  bol(&S_bol_60_1);
   andn(&S_andn_63_1);
-  bol(&S_bol_61_1);
-  andn(&S_andn_64_1);
-  setData(idR0IN02FS2,&var3);
-  setData(idR0IN03FS2,&var2);
-  setData(idR0IN01FS2,&var4);
-  setData(idTestDiagnAKNP2,&var10);
-  setData(idR0DE3DLS2,&var8);
-  setData(idR0DE3CLS2,&var9);
-  setData(idTTLaknp2,&var14);
-  setData(idA0VN71LS2,&var33);
-  setData(idA1EE01LS2,&var27);
-  setData(idR0VN76LZ2,&var26);
-  setData(idR0VN72LZ2,&var28);
-  setData(idR0IE02LS2,&var22);
-  setData(idR0IE01LS2,&var22);
-  setData(idR0VN15RS2,&var21);
-  setData(idR0VN33RS2,&var20);
-  setData(idR0VN23RS2,&var19);
-  setData(idR0VN13RS2,&var18);
-  setData(idA0EE02LS2,&var17);
-  setData(idA1VN71LS2,&var33);
-  setData(idR0VN04RS2,&var32);
-  setData(idR0VN03RS2,&var15);
-  setData(idA0EE01LS2,&var27);
-  setData(idR0VN76LZ1,&var26);
-  setData(idR0VN65LS2,&var24);
-  setData(idR0VN72LZ1,&var28);
-  setData(idR0VN61LS2,&var29);
-  setData(idR0VN01RS2,&var1);
-  setData(idR0VN02RS2,&var16);
+  setData(idR0IN02FS2,&var2);
+  setData(idR0IN03FS2,&var1);
+  setData(idR0IN01FS2,&var3);
+  setData(idTestDiagnAKNP2,&var9);
+  setData(idR0DE3DLS2,&var7);
+  setData(idR0DE3CLS2,&var8);
+  setData(idTTLaknp2,&var13);
+  setData(idA0VN71LS2,&var32);
+  setData(idA1EE01LS2,&var26);
+  setData(idR0VN76LZ2,&var25);
+  setData(idR0VN72LZ2,&var27);
+  setData(idR0IE02LS2,&var21);
+  setData(idR0IE01LS2,&var21);
+  setData(idR0VN15RS2,&var20);
+  setData(idR0VN33RS2,&var19);
+  setData(idR0VN23RS2,&var18);
+  setData(idR0VN13RS2,&var17);
+  setData(idA0EE02LS2,&var16);
+  setData(idA1VN71LS2,&var32);
+  setData(idR0VN04RS2,&var31);
+  setData(idR0VN03RS2,&var14);
+  setData(idA0EE01LS2,&var26);
+  setData(idR0VN76LZ1,&var25);
+  setData(idR0VN65LS2,&var23);
+  setData(idR0VN72LZ1,&var27);
+  setData(idR0VN61LS2,&var28);
+  setData(idR0VN01RS2,&var22);
+  setData(idR0VN02RS2,&var15);
 
   setAsBool(idbFirstEnterFlag,1);
 }

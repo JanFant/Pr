@@ -479,22 +479,22 @@ static char BUFFER[SIZE_BUFFER];
 #define idR0SR01RIM	234	// ( - , SCM) Текущая реактивность PУ
 #define R0SR02RIM	BUFFER[620]	// ( - , SCM) Текущая мощность РУ (ватт)
 #define idR0SR02RIM	235	// ( - , SCM) Текущая мощность РУ (ватт)
-#define R0ST01RIM	BUFFER[625]	// ( - , SCM) Текущий период разгона РУ
-#define idR0ST01RIM	236	// ( - , SCM) Текущий период разгона РУ
-#define R0VZ71LZ1	BUFFER[630]	// ( - , SCM) Обобщенный сигнал по АЗ  1 канала
-#define idR0VZ71LZ1	237	// ( - , SCM) Обобщенный сигнал по АЗ  1 канала
-#define R0VZ71LZ2	BUFFER[632]	// ( - , SCM) Обобщенный сигнал по АЗ  2 канала
-#define idR0VZ71LZ2	238	// ( - , SCM) Обобщенный сигнал по АЗ  2 канала
-#define R1AD10LDU	BUFFER[634]	// (vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
-#define idR1AD10LDU	239	// (vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
-#define R1AD20LDU	BUFFER[636]	// (vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
-#define idR1AD20LDU	240	// (vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
-#define R1IS11LDU	BUFFER[638]	// (do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
-#define idR1IS11LDU	241	// (do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
-#define R1IS21LDU	BUFFER[640]	// (do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
-#define idR1IS21LDU	242	// (do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
-#define R1SR02RIM	BUFFER[642]	// ( - , SCM) Текущая мощность РУ АЗ1 (ватт)
-#define idR1SR02RIM	243	// ( - , SCM) Текущая мощность РУ АЗ1 (ватт)
+#define R0SR03RIM	BUFFER[625]	// ( - , SCM) Текущая мощность РУ аз1  (ватт)
+#define idR0SR03RIM	236	// ( - , SCM) Текущая мощность РУ аз1  (ватт)
+#define R0ST01RIM	BUFFER[630]	// ( - , SCM) Текущий период разгона РУ
+#define idR0ST01RIM	237	// ( - , SCM) Текущий период разгона РУ
+#define R0VZ71LZ1	BUFFER[635]	// ( - , SCM) Обобщенный сигнал по АЗ  1 канала
+#define idR0VZ71LZ1	238	// ( - , SCM) Обобщенный сигнал по АЗ  1 канала
+#define R0VZ71LZ2	BUFFER[637]	// ( - , SCM) Обобщенный сигнал по АЗ  2 канала
+#define idR0VZ71LZ2	239	// ( - , SCM) Обобщенный сигнал по АЗ  2 канала
+#define R1AD10LDU	BUFFER[639]	// (vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+#define idR1AD10LDU	240	// (vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+#define R1AD20LDU	BUFFER[641]	// (vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+#define idR1AD20LDU	241	// (vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+#define R1IS11LDU	BUFFER[643]	// (do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+#define idR1IS11LDU	242	// (do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+#define R1IS21LDU	BUFFER[645]	// (do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
+#define idR1IS21LDU	243	// (do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
 #define R1VS12LDU	BUFFER[647]	// ( - , SCM) Движение МДЗ1 в сторону ВУ
 #define idR1VS12LDU	244	// ( - , SCM) Движение МДЗ1 в сторону ВУ
 #define R1VS22LDU	BUFFER[649]	// ( - , SCM) Движение МДЗ1 в сторону НУ
@@ -921,14 +921,14 @@ static char BUFFER[SIZE_BUFFER];
 #define idfEM_R0UL04RIM	455	// (R0UL04RIM) Время блокировки повторной генерации импульса
 #define fEM_R0UN02RIM	BUFFER[1591]	// (R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
 #define idfEM_R0UN02RIM	456	// (R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
-#define fEM_R0UR01RIM	BUFFER[1596]	// (R0UR01RIM) Стартовая отрицательная реактивность
-#define idfEM_R0UR01RIM	457	// (R0UR01RIM) Стартовая отрицательная реактивность
-#define fEM_R0UR30RIM	BUFFER[1601]	// (R0UR30RIM) Реактивность вносимая образцами (долл)
-#define idfEM_R0UR30RIM	458	// (R0UR30RIM) Реактивность вносимая образцами (долл)
-#define fEM_R0UT01RDU	BUFFER[1606]	// (R0UT01RDU) Нижний предел шкалы датчика температуры
-#define idfEM_R0UT01RDU	459	// (R0UT01RDU) Нижний предел шкалы датчика температуры
-#define fEM_R0UT01RIM	BUFFER[1611]	// (R0UT01RIM) Температурный коэффициент (долл)
-#define idfEM_R0UT01RIM	460	// (R0UT01RIM) Температурный коэффициент (долл)
+#define fEM_R0UN18RDU	BUFFER[1596]	// (R0UN18RDU) Коэффициент температурной корректировки реактивности(долл)
+#define idfEM_R0UN18RDU	457	// (R0UN18RDU) Коэффициент температурной корректировки реактивности(долл)
+#define fEM_R0UR01RIM	BUFFER[1601]	// (R0UR01RIM) Стартовая отрицательная реактивность
+#define idfEM_R0UR01RIM	458	// (R0UR01RIM) Стартовая отрицательная реактивность
+#define fEM_R0UR30RIM	BUFFER[1606]	// (R0UR30RIM) Реактивность вносимая образцами (долл)
+#define idfEM_R0UR30RIM	459	// (R0UR30RIM) Реактивность вносимая образцами (долл)
+#define fEM_R0UT01RDU	BUFFER[1611]	// (R0UT01RDU) Нижний предел шкалы датчика температуры
+#define idfEM_R0UT01RDU	460	// (R0UT01RDU) Нижний предел шкалы датчика температуры
 #define fEM_R0UT02RDU	BUFFER[1616]	// (R0UT02RDU) Верхний предел шкалы датчика температуры
 #define idfEM_R0UT02RDU	461	// (R0UT02RDU) Верхний предел шкалы датчика температуры
 #define fEM_R0UT02RIM	BUFFER[1621]	// (R0UT02RIM) Масса топлива в АЗ
@@ -1461,8 +1461,8 @@ static char BUFFER[SIZE_BUFFER];
 #define idinternal1_m186_T00	725	// (internal1_m186_T00) T00 - Текущая температура
 #define internal1_m211_Out10	BUFFER[2582]	// (internal1_m211_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m211_Out10	726	// (internal1_m211_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m229_Out10	BUFFER[2584]	// (internal1_m229_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m229_Out10	727	// (internal1_m229_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m228_Out10	BUFFER[2584]	// (internal1_m228_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m228_Out10	727	// (internal1_m228_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m232_MyFirstEnterFlag	BUFFER[2586]	// (internal1_m232_MyFirstEnterFlag) MyFirstEnterFlag
 #define idinternal1_m232_MyFirstEnterFlag	728	// (internal1_m232_MyFirstEnterFlag) MyFirstEnterFlag
 #define internal1_m232_Pav0	BUFFER[2588]	// (internal1_m232_Pav0) Pav0 - Пер.аварийный выключатель ОРР
@@ -1519,42 +1519,42 @@ static char BUFFER[SIZE_BUFFER];
 #define idinternal1_m270_flp	754	// (internal1_m270_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 #define internal1_m270_fls	BUFFER[2664]	// (internal1_m270_fls)  fls - флаг одношагового режима
 #define idinternal1_m270_fls	755	// (internal1_m270_fls)  fls - флаг одношагового режима
-#define internal1_m300_MyFirstEnterFlag	BUFFER[2666]	// (internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m300_MyFirstEnterFlag	756	// (internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m300_Pav0	BUFFER[2668]	// (internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m300_Pav0	757	// (internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m300_Ppv0	BUFFER[2670]	// (internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m300_Ppv0	758	// (internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m300_RA00	BUFFER[2672]	// (internal1_m300_RA00) RA00 - последнее задание вперед
-#define idinternal1_m300_RA00	759	// (internal1_m300_RA00) RA00 - последнее задание вперед
-#define internal1_m300_RA10	BUFFER[2674]	// (internal1_m300_RA10) RA10 - последнее задание назад
-#define idinternal1_m300_RA10	760	// (internal1_m300_RA10) RA10 - последнее задание назад
-#define internal1_m300_RA30	BUFFER[2676]	// (internal1_m300_RA30)  RA30 - разрешение движения
-#define idinternal1_m300_RA30	761	// (internal1_m300_RA30)  RA30 - разрешение движения
-#define internal1_m300_RA50	BUFFER[2678]	// (internal1_m300_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m300_RA50	762	// (internal1_m300_RA50) Ra50 - последнее задание скорости
-#define internal1_m300_RV00	BUFFER[2680]	// (internal1_m300_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m300_RV00	763	// (internal1_m300_RV00) V0 - текущая скорость ОРР
-#define internal1_m300_Sh00	BUFFER[2685]	// (internal1_m300_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m300_Sh00	764	// (internal1_m300_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m300_ShV00	BUFFER[2690]	// (internal1_m300_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m300_ShV00	765	// (internal1_m300_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m300_X00	BUFFER[2695]	// (internal1_m300_X00) X0 - текущая координата ОРР
-#define idinternal1_m300_X00	766	// (internal1_m300_X00) X0 - текущая координата ОРР
-#define internal1_m300_Zav0	BUFFER[2700]	// (internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m300_Zav0	767	// (internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m300_flp	BUFFER[2702]	// (internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m300_flp	768	// (internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m300_fls	BUFFER[2704]	// (internal1_m300_fls)  fls - флаг одношагового режима
-#define idinternal1_m300_fls	769	// (internal1_m300_fls)  fls - флаг одношагового режима
+#define internal1_m303_MyFirstEnterFlag	BUFFER[2666]	// (internal1_m303_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m303_MyFirstEnterFlag	756	// (internal1_m303_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m303_Pav0	BUFFER[2668]	// (internal1_m303_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m303_Pav0	757	// (internal1_m303_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m303_Ppv0	BUFFER[2670]	// (internal1_m303_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m303_Ppv0	758	// (internal1_m303_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m303_RA00	BUFFER[2672]	// (internal1_m303_RA00) RA00 - последнее задание вперед
+#define idinternal1_m303_RA00	759	// (internal1_m303_RA00) RA00 - последнее задание вперед
+#define internal1_m303_RA10	BUFFER[2674]	// (internal1_m303_RA10) RA10 - последнее задание назад
+#define idinternal1_m303_RA10	760	// (internal1_m303_RA10) RA10 - последнее задание назад
+#define internal1_m303_RA30	BUFFER[2676]	// (internal1_m303_RA30)  RA30 - разрешение движения
+#define idinternal1_m303_RA30	761	// (internal1_m303_RA30)  RA30 - разрешение движения
+#define internal1_m303_RA50	BUFFER[2678]	// (internal1_m303_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m303_RA50	762	// (internal1_m303_RA50) Ra50 - последнее задание скорости
+#define internal1_m303_RV00	BUFFER[2680]	// (internal1_m303_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m303_RV00	763	// (internal1_m303_RV00) V0 - текущая скорость ОРР
+#define internal1_m303_Sh00	BUFFER[2685]	// (internal1_m303_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m303_Sh00	764	// (internal1_m303_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m303_ShV00	BUFFER[2690]	// (internal1_m303_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m303_ShV00	765	// (internal1_m303_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m303_X00	BUFFER[2695]	// (internal1_m303_X00) X0 - текущая координата ОРР
+#define idinternal1_m303_X00	766	// (internal1_m303_X00) X0 - текущая координата ОРР
+#define internal1_m303_Zav0	BUFFER[2700]	// (internal1_m303_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m303_Zav0	767	// (internal1_m303_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m303_flp	BUFFER[2702]	// (internal1_m303_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m303_flp	768	// (internal1_m303_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m303_fls	BUFFER[2704]	// (internal1_m303_fls)  fls - флаг одношагового режима
+#define idinternal1_m303_fls	769	// (internal1_m303_fls)  fls - флаг одношагового режима
 #define internal1_m319_Out10	BUFFER[2706]	// (internal1_m319_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m319_Out10	770	// (internal1_m319_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m320_Out10	BUFFER[2708]	// (internal1_m320_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m320_Out10	771	// (internal1_m320_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m321_Out10	BUFFER[2710]	// (internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m321_Out10	772	// (internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m327_Xtek0	BUFFER[2712]	// (internal1_m327_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
-#define idinternal1_m327_Xtek0	773	// (internal1_m327_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define internal1_m326_Xtek0	BUFFER[2712]	// (internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+#define idinternal1_m326_Xtek0	773	// (internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define internal1_m334_Xtek0	BUFFER[2717]	// (internal1_m334_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define idinternal1_m334_Xtek0	774	// (internal1_m334_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 #define internal1_m335_Out10	BUFFER[2722]	// (internal1_m335_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1695,42 +1695,42 @@ static char BUFFER[SIZE_BUFFER];
 #define idinternal1_m467_q0	842	// (internal1_m467_q0) q0 - внутренний параметр
 #define internal1_m468_q0	BUFFER[2904]	// (internal1_m468_q0) q0 - внутренний параметр
 #define idinternal1_m468_q0	843	// (internal1_m468_q0) q0 - внутренний параметр
-#define internal1_m471_MyFirstEnterFlag	BUFFER[2906]	// (internal1_m471_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m471_MyFirstEnterFlag	844	// (internal1_m471_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m471_Pav0	BUFFER[2908]	// (internal1_m471_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m471_Pav0	845	// (internal1_m471_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m471_Pv0	BUFFER[2910]	// (internal1_m471_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m471_Pv0	846	// (internal1_m471_Pv0)  - Пер. выключатель механизма
-#define internal1_m471_RA00	BUFFER[2912]	// (internal1_m471_RA00)  - последнее задание вперед
-#define idinternal1_m471_RA00	847	// (internal1_m471_RA00)  - последнее задание вперед
-#define internal1_m471_RA10	BUFFER[2914]	// (internal1_m471_RA10)  - последнее задание назад
-#define idinternal1_m471_RA10	848	// (internal1_m471_RA10)  - последнее задание назад
-#define internal1_m471_V00	BUFFER[2916]	// (internal1_m471_V00)  V00 - текущая скорость механизма
-#define idinternal1_m471_V00	849	// (internal1_m471_V00)  V00 - текущая скорость механизма
-#define internal1_m471_X00	BUFFER[2921]	// (internal1_m471_X00)  X00 - текущая координата механизма
-#define idinternal1_m471_X00	850	// (internal1_m471_X00)  X00 - текущая координата механизма
-#define internal1_m471_Zav0	BUFFER[2926]	// (internal1_m471_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m471_Zav0	851	// (internal1_m471_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m471_Zv0	BUFFER[2928]	// (internal1_m471_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m471_Zv0	852	// (internal1_m471_Zv0)  - Зад. выключатель механизма
-#define internal1_m472_MyFirstEnterFlag	BUFFER[2930]	// (internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m472_MyFirstEnterFlag	853	// (internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m472_Pav0	BUFFER[2932]	// (internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
-#define idinternal1_m472_Pav0	854	// (internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
-#define internal1_m472_Pv0	BUFFER[2934]	// (internal1_m472_Pv0)  - Пер. выключатель механизма
-#define idinternal1_m472_Pv0	855	// (internal1_m472_Pv0)  - Пер. выключатель механизма
-#define internal1_m472_RA00	BUFFER[2936]	// (internal1_m472_RA00)  - последнее задание вперед
-#define idinternal1_m472_RA00	856	// (internal1_m472_RA00)  - последнее задание вперед
-#define internal1_m472_RA10	BUFFER[2938]	// (internal1_m472_RA10)  - последнее задание назад
-#define idinternal1_m472_RA10	857	// (internal1_m472_RA10)  - последнее задание назад
-#define internal1_m472_V00	BUFFER[2940]	// (internal1_m472_V00)  V00 - текущая скорость механизма
-#define idinternal1_m472_V00	858	// (internal1_m472_V00)  V00 - текущая скорость механизма
-#define internal1_m472_X00	BUFFER[2945]	// (internal1_m472_X00)  X00 - текущая координата механизма
-#define idinternal1_m472_X00	859	// (internal1_m472_X00)  X00 - текущая координата механизма
-#define internal1_m472_Zav0	BUFFER[2950]	// (internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
-#define idinternal1_m472_Zav0	860	// (internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
-#define internal1_m472_Zv0	BUFFER[2952]	// (internal1_m472_Zv0)  - Зад. выключатель механизма
-#define idinternal1_m472_Zv0	861	// (internal1_m472_Zv0)  - Зад. выключатель механизма
+#define internal1_m472_MyFirstEnterFlag	BUFFER[2906]	// (internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m472_MyFirstEnterFlag	844	// (internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m472_Pav0	BUFFER[2908]	// (internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m472_Pav0	845	// (internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m472_Pv0	BUFFER[2910]	// (internal1_m472_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m472_Pv0	846	// (internal1_m472_Pv0)  - Пер. выключатель механизма
+#define internal1_m472_RA00	BUFFER[2912]	// (internal1_m472_RA00)  - последнее задание вперед
+#define idinternal1_m472_RA00	847	// (internal1_m472_RA00)  - последнее задание вперед
+#define internal1_m472_RA10	BUFFER[2914]	// (internal1_m472_RA10)  - последнее задание назад
+#define idinternal1_m472_RA10	848	// (internal1_m472_RA10)  - последнее задание назад
+#define internal1_m472_V00	BUFFER[2916]	// (internal1_m472_V00)  V00 - текущая скорость механизма
+#define idinternal1_m472_V00	849	// (internal1_m472_V00)  V00 - текущая скорость механизма
+#define internal1_m472_X00	BUFFER[2921]	// (internal1_m472_X00)  X00 - текущая координата механизма
+#define idinternal1_m472_X00	850	// (internal1_m472_X00)  X00 - текущая координата механизма
+#define internal1_m472_Zav0	BUFFER[2926]	// (internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m472_Zav0	851	// (internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m472_Zv0	BUFFER[2928]	// (internal1_m472_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m472_Zv0	852	// (internal1_m472_Zv0)  - Зад. выключатель механизма
+#define internal1_m473_MyFirstEnterFlag	BUFFER[2930]	// (internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m473_MyFirstEnterFlag	853	// (internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m473_Pav0	BUFFER[2932]	// (internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
+#define idinternal1_m473_Pav0	854	// (internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
+#define internal1_m473_Pv0	BUFFER[2934]	// (internal1_m473_Pv0)  - Пер. выключатель механизма
+#define idinternal1_m473_Pv0	855	// (internal1_m473_Pv0)  - Пер. выключатель механизма
+#define internal1_m473_RA00	BUFFER[2936]	// (internal1_m473_RA00)  - последнее задание вперед
+#define idinternal1_m473_RA00	856	// (internal1_m473_RA00)  - последнее задание вперед
+#define internal1_m473_RA10	BUFFER[2938]	// (internal1_m473_RA10)  - последнее задание назад
+#define idinternal1_m473_RA10	857	// (internal1_m473_RA10)  - последнее задание назад
+#define internal1_m473_V00	BUFFER[2940]	// (internal1_m473_V00)  V00 - текущая скорость механизма
+#define idinternal1_m473_V00	858	// (internal1_m473_V00)  V00 - текущая скорость механизма
+#define internal1_m473_X00	BUFFER[2945]	// (internal1_m473_X00)  X00 - текущая координата механизма
+#define idinternal1_m473_X00	859	// (internal1_m473_X00)  X00 - текущая координата механизма
+#define internal1_m473_Zav0	BUFFER[2950]	// (internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
+#define idinternal1_m473_Zav0	860	// (internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
+#define internal1_m473_Zv0	BUFFER[2952]	// (internal1_m473_Zv0)  - Зад. выключатель механизма
+#define idinternal1_m473_Zv0	861	// (internal1_m473_Zv0)  - Зад. выключатель механизма
 #define internal1_m479_q0	BUFFER[2954]	// (internal1_m479_q0) q0 - внутренний параметр
 #define idinternal1_m479_q0	862	// (internal1_m479_q0) q0 - внутренний параметр
 #define internal1_m47_Out10	BUFFER[2956]	// (internal1_m47_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -1925,46 +1925,46 @@ static char BUFFER[SIZE_BUFFER];
 #define idinternal1_m652_Out10	957	// (internal1_m652_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m653_Out10	BUFFER[3209]	// (internal1_m653_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m653_Out10	958	// (internal1_m653_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m668_Out10	BUFFER[3211]	// (internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m668_Out10	959	// (internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m669_Out10	BUFFER[3213]	// (internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m669_Out10	960	// (internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m672_Out10	BUFFER[3215]	// (internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m672_Out10	961	// (internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m673_Out10	BUFFER[3217]	// (internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m673_Out10	962	// (internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m674_Out10	BUFFER[3219]	// (internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m674_Out10	963	// (internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m675_Out10	BUFFER[3221]	// (internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define idinternal1_m675_Out10	964	// (internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-#define internal1_m67_MyFirstEnterFlag	BUFFER[3223]	// (internal1_m67_MyFirstEnterFlag) MyFirstEnterFlag
-#define idinternal1_m67_MyFirstEnterFlag	965	// (internal1_m67_MyFirstEnterFlag) MyFirstEnterFlag
-#define internal1_m67_Pav0	BUFFER[3225]	// (internal1_m67_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define idinternal1_m67_Pav0	966	// (internal1_m67_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-#define internal1_m67_Ppv0	BUFFER[3227]	// (internal1_m67_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define idinternal1_m67_Ppv0	967	// (internal1_m67_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-#define internal1_m67_RA00	BUFFER[3229]	// (internal1_m67_RA00) RA00 - последнее задание вперед
-#define idinternal1_m67_RA00	968	// (internal1_m67_RA00) RA00 - последнее задание вперед
-#define internal1_m67_RA10	BUFFER[3231]	// (internal1_m67_RA10) RA10 - последнее задание назад
-#define idinternal1_m67_RA10	969	// (internal1_m67_RA10) RA10 - последнее задание назад
-#define internal1_m67_RA30	BUFFER[3233]	// (internal1_m67_RA30)  RA30 - разрешение движения
-#define idinternal1_m67_RA30	970	// (internal1_m67_RA30)  RA30 - разрешение движения
-#define internal1_m67_RA50	BUFFER[3235]	// (internal1_m67_RA50) Ra50 - последнее задание скорости
-#define idinternal1_m67_RA50	971	// (internal1_m67_RA50) Ra50 - последнее задание скорости
-#define internal1_m67_RV00	BUFFER[3237]	// (internal1_m67_RV00) V0 - текущая скорость ОРР
-#define idinternal1_m67_RV00	972	// (internal1_m67_RV00) V0 - текущая скорость ОРР
-#define internal1_m67_Sh00	BUFFER[3242]	// (internal1_m67_Sh00) Sh0 - текущая координата штока ОРР
-#define idinternal1_m67_Sh00	973	// (internal1_m67_Sh00) Sh0 - текущая координата штока ОРР
-#define internal1_m67_ShV00	BUFFER[3247]	// (internal1_m67_ShV00) V0 - текущая скорость штока ОРР
-#define idinternal1_m67_ShV00	974	// (internal1_m67_ShV00) V0 - текущая скорость штока ОРР
-#define internal1_m67_X00	BUFFER[3252]	// (internal1_m67_X00) X0 - текущая координата ОРР
-#define idinternal1_m67_X00	975	// (internal1_m67_X00) X0 - текущая координата ОРР
-#define internal1_m67_Zav0	BUFFER[3257]	// (internal1_m67_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define idinternal1_m67_Zav0	976	// (internal1_m67_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-#define internal1_m67_flp	BUFFER[3259]	// (internal1_m67_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define idinternal1_m67_flp	977	// (internal1_m67_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-#define internal1_m67_fls	BUFFER[3261]	// (internal1_m67_fls)  fls - флаг одношагового режима
-#define idinternal1_m67_fls	978	// (internal1_m67_fls)  fls - флаг одношагового режима
+#define internal1_m65_MyFirstEnterFlag	BUFFER[3211]	// (internal1_m65_MyFirstEnterFlag) MyFirstEnterFlag
+#define idinternal1_m65_MyFirstEnterFlag	959	// (internal1_m65_MyFirstEnterFlag) MyFirstEnterFlag
+#define internal1_m65_Pav0	BUFFER[3213]	// (internal1_m65_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define idinternal1_m65_Pav0	960	// (internal1_m65_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+#define internal1_m65_Ppv0	BUFFER[3215]	// (internal1_m65_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define idinternal1_m65_Ppv0	961	// (internal1_m65_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+#define internal1_m65_RA00	BUFFER[3217]	// (internal1_m65_RA00) RA00 - последнее задание вперед
+#define idinternal1_m65_RA00	962	// (internal1_m65_RA00) RA00 - последнее задание вперед
+#define internal1_m65_RA10	BUFFER[3219]	// (internal1_m65_RA10) RA10 - последнее задание назад
+#define idinternal1_m65_RA10	963	// (internal1_m65_RA10) RA10 - последнее задание назад
+#define internal1_m65_RA30	BUFFER[3221]	// (internal1_m65_RA30)  RA30 - разрешение движения
+#define idinternal1_m65_RA30	964	// (internal1_m65_RA30)  RA30 - разрешение движения
+#define internal1_m65_RA50	BUFFER[3223]	// (internal1_m65_RA50) Ra50 - последнее задание скорости
+#define idinternal1_m65_RA50	965	// (internal1_m65_RA50) Ra50 - последнее задание скорости
+#define internal1_m65_RV00	BUFFER[3225]	// (internal1_m65_RV00) V0 - текущая скорость ОРР
+#define idinternal1_m65_RV00	966	// (internal1_m65_RV00) V0 - текущая скорость ОРР
+#define internal1_m65_Sh00	BUFFER[3230]	// (internal1_m65_Sh00) Sh0 - текущая координата штока ОРР
+#define idinternal1_m65_Sh00	967	// (internal1_m65_Sh00) Sh0 - текущая координата штока ОРР
+#define internal1_m65_ShV00	BUFFER[3235]	// (internal1_m65_ShV00) V0 - текущая скорость штока ОРР
+#define idinternal1_m65_ShV00	968	// (internal1_m65_ShV00) V0 - текущая скорость штока ОРР
+#define internal1_m65_X00	BUFFER[3240]	// (internal1_m65_X00) X0 - текущая координата ОРР
+#define idinternal1_m65_X00	969	// (internal1_m65_X00) X0 - текущая координата ОРР
+#define internal1_m65_Zav0	BUFFER[3245]	// (internal1_m65_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define idinternal1_m65_Zav0	970	// (internal1_m65_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+#define internal1_m65_flp	BUFFER[3247]	// (internal1_m65_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define idinternal1_m65_flp	971	// (internal1_m65_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+#define internal1_m65_fls	BUFFER[3249]	// (internal1_m65_fls)  fls - флаг одношагового режима
+#define idinternal1_m65_fls	972	// (internal1_m65_fls)  fls - флаг одношагового режима
+#define internal1_m668_Out10	BUFFER[3251]	// (internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m668_Out10	973	// (internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m669_Out10	BUFFER[3253]	// (internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m669_Out10	974	// (internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m672_Out10	BUFFER[3255]	// (internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m672_Out10	975	// (internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m673_Out10	BUFFER[3257]	// (internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m673_Out10	976	// (internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m674_Out10	BUFFER[3259]	// (internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m674_Out10	977	// (internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define internal1_m675_Out10	BUFFER[3261]	// (internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+#define idinternal1_m675_Out10	978	// (internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m685_Out10	BUFFER[3263]	// (internal1_m685_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define idinternal1_m685_Out10	979	// (internal1_m685_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 #define internal1_m686_Out10	BUFFER[3265]	// (internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -3036,14 +3036,14 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{233	,1	,1	,&R0S01LIM},	//(vds32_pti:360 - K32VDSR, - ) Отключение сетевых передач ПТИ
 	{234	,8	,1	,&R0SR01RIM},	//( - , SCM) Текущая реактивность PУ
 	{235	,8	,1	,&R0SR02RIM},	//( - , SCM) Текущая мощность РУ (ватт)
-	{236	,8	,1	,&R0ST01RIM},	//( - , SCM) Текущий период разгона РУ
-	{237	,1	,1	,&R0VZ71LZ1},	//( - , SCM) Обобщенный сигнал по АЗ  1 канала
-	{238	,1	,1	,&R0VZ71LZ2},	//( - , SCM) Обобщенный сигнал по АЗ  2 канала
-	{239	,1	,1	,&R1AD10LDU},	//(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
-	{240	,1	,1	,&R1AD20LDU},	//(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
-	{241	,1	,1	,&R1IS11LDU},	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
-	{242	,1	,1	,&R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
-	{243	,8	,1	,&R1SR02RIM},	//( - , SCM) Текущая мощность РУ АЗ1 (ватт)
+	{236	,8	,1	,&R0SR03RIM},	//( - , SCM) Текущая мощность РУ аз1  (ватт)
+	{237	,8	,1	,&R0ST01RIM},	//( - , SCM) Текущий период разгона РУ
+	{238	,1	,1	,&R0VZ71LZ1},	//( - , SCM) Обобщенный сигнал по АЗ  1 канала
+	{239	,1	,1	,&R0VZ71LZ2},	//( - , SCM) Обобщенный сигнал по АЗ  2 канала
+	{240	,1	,1	,&R1AD10LDU},	//(vds32_pti:340 - K18VDSR, - ) Опустить МДЗ1 в зону облучения
+	{241	,1	,1	,&R1AD20LDU},	//(vds32_pti:340 - K19VDSR, - ) Поднять МДЗ1
+	{242	,1	,1	,&R1IS11LDU},	//(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1
+	{243	,1	,1	,&R1IS21LDU},	//(do32_pti:130 - K23DO, - ) Приход на НУ МДЗ1
 	{244	,1	,1	,&R1VS12LDU},	//( - , SCM) Движение МДЗ1 в сторону ВУ
 	{245	,1	,1	,&R1VS22LDU},	//( - , SCM) Движение МДЗ1 в сторону НУ
 	{246	,1	,1	,&R2AD10LDU},	//(vds32_pti:340 - K20VDSR, - ) Опустить МДЗ2 в зону облучения
@@ -3257,10 +3257,10 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{454	,8	,1	,&fEM_R0UL02RIM},	//(R0UL02RIM) Время удержания синхроимпульса
 	{455	,8	,1	,&fEM_R0UL04RIM},	//(R0UL04RIM) Время блокировки повторной генерации импульса
 	{456	,8	,1	,&fEM_R0UN02RIM},	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
-	{457	,8	,1	,&fEM_R0UR01RIM},	//(R0UR01RIM) Стартовая отрицательная реактивность
-	{458	,8	,1	,&fEM_R0UR30RIM},	//(R0UR30RIM) Реактивность вносимая образцами (долл)
-	{459	,8	,1	,&fEM_R0UT01RDU},	//(R0UT01RDU) Нижний предел шкалы датчика температуры
-	{460	,8	,1	,&fEM_R0UT01RIM},	//(R0UT01RIM) Температурный коэффициент (долл)
+	{457	,8	,1	,&fEM_R0UN18RDU},	//(R0UN18RDU) Коэффициент температурной корректировки реактивности(долл)
+	{458	,8	,1	,&fEM_R0UR01RIM},	//(R0UR01RIM) Стартовая отрицательная реактивность
+	{459	,8	,1	,&fEM_R0UR30RIM},	//(R0UR30RIM) Реактивность вносимая образцами (долл)
+	{460	,8	,1	,&fEM_R0UT01RDU},	//(R0UT01RDU) Нижний предел шкалы датчика температуры
 	{461	,8	,1	,&fEM_R0UT02RDU},	//(R0UT02RDU) Верхний предел шкалы датчика температуры
 	{462	,8	,1	,&fEM_R0UT02RIM},	//(R0UT02RIM) Масса топлива в АЗ
 	{463	,8	,1	,&fEM_R0UT03RIM},	//(R0UT03RIM) Нормальная температура АЗ град
@@ -3527,7 +3527,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{724	,8	,1	,&internal1_m186_R00},	//(internal1_m186_R00) R00 - Текущая реактивность
 	{725	,8	,1	,&internal1_m186_T00},	//(internal1_m186_T00) T00 - Текущая температура
 	{726	,1	,1	,&internal1_m211_Out10},	//(internal1_m211_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{727	,1	,1	,&internal1_m229_Out10},	//(internal1_m229_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{727	,1	,1	,&internal1_m228_Out10},	//(internal1_m228_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{728	,1	,1	,&internal1_m232_MyFirstEnterFlag},	//(internal1_m232_MyFirstEnterFlag) MyFirstEnterFlag
 	{729	,1	,1	,&internal1_m232_Pav0},	//(internal1_m232_Pav0) Pav0 - Пер.аварийный выключатель ОРР
 	{730	,1	,1	,&internal1_m232_Ppv0},	//(internal1_m232_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
@@ -3556,24 +3556,24 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{753	,1	,1	,&internal1_m270_Zav0},	//(internal1_m270_Zav0) Zav0 - Зад.аварийный выключатель ОРР
 	{754	,1	,1	,&internal1_m270_flp},	//(internal1_m270_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
 	{755	,1	,1	,&internal1_m270_fls},	//(internal1_m270_fls)  fls - флаг одношагового режима
-	{756	,1	,1	,&internal1_m300_MyFirstEnterFlag},	//(internal1_m300_MyFirstEnterFlag) MyFirstEnterFlag
-	{757	,1	,1	,&internal1_m300_Pav0},	//(internal1_m300_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{758	,1	,1	,&internal1_m300_Ppv0},	//(internal1_m300_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{759	,1	,1	,&internal1_m300_RA00},	//(internal1_m300_RA00) RA00 - последнее задание вперед
-	{760	,1	,1	,&internal1_m300_RA10},	//(internal1_m300_RA10) RA10 - последнее задание назад
-	{761	,1	,1	,&internal1_m300_RA30},	//(internal1_m300_RA30)  RA30 - разрешение движения
-	{762	,1	,1	,&internal1_m300_RA50},	//(internal1_m300_RA50) Ra50 - последнее задание скорости
-	{763	,8	,1	,&internal1_m300_RV00},	//(internal1_m300_RV00) V0 - текущая скорость ОРР
-	{764	,8	,1	,&internal1_m300_Sh00},	//(internal1_m300_Sh00) Sh0 - текущая координата штока ОРР
-	{765	,8	,1	,&internal1_m300_ShV00},	//(internal1_m300_ShV00) V0 - текущая скорость штока ОРР
-	{766	,8	,1	,&internal1_m300_X00},	//(internal1_m300_X00) X0 - текущая координата ОРР
-	{767	,1	,1	,&internal1_m300_Zav0},	//(internal1_m300_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{768	,1	,1	,&internal1_m300_flp},	//(internal1_m300_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{769	,1	,1	,&internal1_m300_fls},	//(internal1_m300_fls)  fls - флаг одношагового режима
+	{756	,1	,1	,&internal1_m303_MyFirstEnterFlag},	//(internal1_m303_MyFirstEnterFlag) MyFirstEnterFlag
+	{757	,1	,1	,&internal1_m303_Pav0},	//(internal1_m303_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{758	,1	,1	,&internal1_m303_Ppv0},	//(internal1_m303_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{759	,1	,1	,&internal1_m303_RA00},	//(internal1_m303_RA00) RA00 - последнее задание вперед
+	{760	,1	,1	,&internal1_m303_RA10},	//(internal1_m303_RA10) RA10 - последнее задание назад
+	{761	,1	,1	,&internal1_m303_RA30},	//(internal1_m303_RA30)  RA30 - разрешение движения
+	{762	,1	,1	,&internal1_m303_RA50},	//(internal1_m303_RA50) Ra50 - последнее задание скорости
+	{763	,8	,1	,&internal1_m303_RV00},	//(internal1_m303_RV00) V0 - текущая скорость ОРР
+	{764	,8	,1	,&internal1_m303_Sh00},	//(internal1_m303_Sh00) Sh0 - текущая координата штока ОРР
+	{765	,8	,1	,&internal1_m303_ShV00},	//(internal1_m303_ShV00) V0 - текущая скорость штока ОРР
+	{766	,8	,1	,&internal1_m303_X00},	//(internal1_m303_X00) X0 - текущая координата ОРР
+	{767	,1	,1	,&internal1_m303_Zav0},	//(internal1_m303_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{768	,1	,1	,&internal1_m303_flp},	//(internal1_m303_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{769	,1	,1	,&internal1_m303_fls},	//(internal1_m303_fls)  fls - флаг одношагового режима
 	{770	,1	,1	,&internal1_m319_Out10},	//(internal1_m319_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{771	,1	,1	,&internal1_m320_Out10},	//(internal1_m320_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{772	,1	,1	,&internal1_m321_Out10},	//(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{773	,8	,1	,&internal1_m327_Xtek0},	//(internal1_m327_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
+	{773	,8	,1	,&internal1_m326_Xtek0},	//(internal1_m326_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 	{774	,8	,1	,&internal1_m334_Xtek0},	//(internal1_m334_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм
 	{775	,1	,1	,&internal1_m335_Out10},	//(internal1_m335_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{776	,1	,1	,&internal1_m336_Out10},	//(internal1_m336_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -3644,24 +3644,24 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{841	,1	,1	,&internal1_m457_Zv0},	//(internal1_m457_Zv0)  - Зад. выключатель механизма
 	{842	,1	,1	,&internal1_m467_q0},	//(internal1_m467_q0) q0 - внутренний параметр
 	{843	,1	,1	,&internal1_m468_q0},	//(internal1_m468_q0) q0 - внутренний параметр
-	{844	,1	,1	,&internal1_m471_MyFirstEnterFlag},	//(internal1_m471_MyFirstEnterFlag) MyFirstEnterFlag
-	{845	,1	,1	,&internal1_m471_Pav0},	//(internal1_m471_Pav0)  - Пер.аварийный выключатель механизма
-	{846	,1	,1	,&internal1_m471_Pv0},	//(internal1_m471_Pv0)  - Пер. выключатель механизма
-	{847	,1	,1	,&internal1_m471_RA00},	//(internal1_m471_RA00)  - последнее задание вперед
-	{848	,1	,1	,&internal1_m471_RA10},	//(internal1_m471_RA10)  - последнее задание назад
-	{849	,8	,1	,&internal1_m471_V00},	//(internal1_m471_V00)  V00 - текущая скорость механизма
-	{850	,8	,1	,&internal1_m471_X00},	//(internal1_m471_X00)  X00 - текущая координата механизма
-	{851	,1	,1	,&internal1_m471_Zav0},	//(internal1_m471_Zav0)  - Зад.аварийный выключатель механизма
-	{852	,1	,1	,&internal1_m471_Zv0},	//(internal1_m471_Zv0)  - Зад. выключатель механизма
-	{853	,1	,1	,&internal1_m472_MyFirstEnterFlag},	//(internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
-	{854	,1	,1	,&internal1_m472_Pav0},	//(internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
-	{855	,1	,1	,&internal1_m472_Pv0},	//(internal1_m472_Pv0)  - Пер. выключатель механизма
-	{856	,1	,1	,&internal1_m472_RA00},	//(internal1_m472_RA00)  - последнее задание вперед
-	{857	,1	,1	,&internal1_m472_RA10},	//(internal1_m472_RA10)  - последнее задание назад
-	{858	,8	,1	,&internal1_m472_V00},	//(internal1_m472_V00)  V00 - текущая скорость механизма
-	{859	,8	,1	,&internal1_m472_X00},	//(internal1_m472_X00)  X00 - текущая координата механизма
-	{860	,1	,1	,&internal1_m472_Zav0},	//(internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
-	{861	,1	,1	,&internal1_m472_Zv0},	//(internal1_m472_Zv0)  - Зад. выключатель механизма
+	{844	,1	,1	,&internal1_m472_MyFirstEnterFlag},	//(internal1_m472_MyFirstEnterFlag) MyFirstEnterFlag
+	{845	,1	,1	,&internal1_m472_Pav0},	//(internal1_m472_Pav0)  - Пер.аварийный выключатель механизма
+	{846	,1	,1	,&internal1_m472_Pv0},	//(internal1_m472_Pv0)  - Пер. выключатель механизма
+	{847	,1	,1	,&internal1_m472_RA00},	//(internal1_m472_RA00)  - последнее задание вперед
+	{848	,1	,1	,&internal1_m472_RA10},	//(internal1_m472_RA10)  - последнее задание назад
+	{849	,8	,1	,&internal1_m472_V00},	//(internal1_m472_V00)  V00 - текущая скорость механизма
+	{850	,8	,1	,&internal1_m472_X00},	//(internal1_m472_X00)  X00 - текущая координата механизма
+	{851	,1	,1	,&internal1_m472_Zav0},	//(internal1_m472_Zav0)  - Зад.аварийный выключатель механизма
+	{852	,1	,1	,&internal1_m472_Zv0},	//(internal1_m472_Zv0)  - Зад. выключатель механизма
+	{853	,1	,1	,&internal1_m473_MyFirstEnterFlag},	//(internal1_m473_MyFirstEnterFlag) MyFirstEnterFlag
+	{854	,1	,1	,&internal1_m473_Pav0},	//(internal1_m473_Pav0)  - Пер.аварийный выключатель механизма
+	{855	,1	,1	,&internal1_m473_Pv0},	//(internal1_m473_Pv0)  - Пер. выключатель механизма
+	{856	,1	,1	,&internal1_m473_RA00},	//(internal1_m473_RA00)  - последнее задание вперед
+	{857	,1	,1	,&internal1_m473_RA10},	//(internal1_m473_RA10)  - последнее задание назад
+	{858	,8	,1	,&internal1_m473_V00},	//(internal1_m473_V00)  V00 - текущая скорость механизма
+	{859	,8	,1	,&internal1_m473_X00},	//(internal1_m473_X00)  X00 - текущая координата механизма
+	{860	,1	,1	,&internal1_m473_Zav0},	//(internal1_m473_Zav0)  - Зад.аварийный выключатель механизма
+	{861	,1	,1	,&internal1_m473_Zv0},	//(internal1_m473_Zv0)  - Зад. выключатель механизма
 	{862	,1	,1	,&internal1_m479_q0},	//(internal1_m479_q0) q0 - внутренний параметр
 	{863	,1	,1	,&internal1_m47_Out10},	//(internal1_m47_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{864	,1	,1	,&internal1_m480_q0},	//(internal1_m480_q0) q0 - внутренний параметр
@@ -3759,26 +3759,26 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{956	,1	,1	,&internal1_m651_Out10},	//(internal1_m651_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{957	,1	,1	,&internal1_m652_Out10},	//(internal1_m652_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{958	,1	,1	,&internal1_m653_Out10},	//(internal1_m653_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{959	,1	,1	,&internal1_m668_Out10},	//(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{960	,1	,1	,&internal1_m669_Out10},	//(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{961	,1	,1	,&internal1_m672_Out10},	//(internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{962	,1	,1	,&internal1_m673_Out10},	//(internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{963	,1	,1	,&internal1_m674_Out10},	//(internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{964	,1	,1	,&internal1_m675_Out10},	//(internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
-	{965	,1	,1	,&internal1_m67_MyFirstEnterFlag},	//(internal1_m67_MyFirstEnterFlag) MyFirstEnterFlag
-	{966	,1	,1	,&internal1_m67_Pav0},	//(internal1_m67_Pav0) Pav0 - Пер.аварийный выключатель ОРР
-	{967	,1	,1	,&internal1_m67_Ppv0},	//(internal1_m67_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
-	{968	,1	,1	,&internal1_m67_RA00},	//(internal1_m67_RA00) RA00 - последнее задание вперед
-	{969	,1	,1	,&internal1_m67_RA10},	//(internal1_m67_RA10) RA10 - последнее задание назад
-	{970	,1	,1	,&internal1_m67_RA30},	//(internal1_m67_RA30)  RA30 - разрешение движения
-	{971	,1	,1	,&internal1_m67_RA50},	//(internal1_m67_RA50) Ra50 - последнее задание скорости
-	{972	,8	,1	,&internal1_m67_RV00},	//(internal1_m67_RV00) V0 - текущая скорость ОРР
-	{973	,8	,1	,&internal1_m67_Sh00},	//(internal1_m67_Sh00) Sh0 - текущая координата штока ОРР
-	{974	,8	,1	,&internal1_m67_ShV00},	//(internal1_m67_ShV00) V0 - текущая скорость штока ОРР
-	{975	,8	,1	,&internal1_m67_X00},	//(internal1_m67_X00) X0 - текущая координата ОРР
-	{976	,1	,1	,&internal1_m67_Zav0},	//(internal1_m67_Zav0) Zav0 - Зад.аварийный выключатель ОРР
-	{977	,1	,1	,&internal1_m67_flp},	//(internal1_m67_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
-	{978	,1	,1	,&internal1_m67_fls},	//(internal1_m67_fls)  fls - флаг одношагового режима
+	{959	,1	,1	,&internal1_m65_MyFirstEnterFlag},	//(internal1_m65_MyFirstEnterFlag) MyFirstEnterFlag
+	{960	,1	,1	,&internal1_m65_Pav0},	//(internal1_m65_Pav0) Pav0 - Пер.аварийный выключатель ОРР
+	{961	,1	,1	,&internal1_m65_Ppv0},	//(internal1_m65_Ppv0) Ppv0 - Промежуточный путевой выключатель ОРР(80 мм)
+	{962	,1	,1	,&internal1_m65_RA00},	//(internal1_m65_RA00) RA00 - последнее задание вперед
+	{963	,1	,1	,&internal1_m65_RA10},	//(internal1_m65_RA10) RA10 - последнее задание назад
+	{964	,1	,1	,&internal1_m65_RA30},	//(internal1_m65_RA30)  RA30 - разрешение движения
+	{965	,1	,1	,&internal1_m65_RA50},	//(internal1_m65_RA50) Ra50 - последнее задание скорости
+	{966	,8	,1	,&internal1_m65_RV00},	//(internal1_m65_RV00) V0 - текущая скорость ОРР
+	{967	,8	,1	,&internal1_m65_Sh00},	//(internal1_m65_Sh00) Sh0 - текущая координата штока ОРР
+	{968	,8	,1	,&internal1_m65_ShV00},	//(internal1_m65_ShV00) V0 - текущая скорость штока ОРР
+	{969	,8	,1	,&internal1_m65_X00},	//(internal1_m65_X00) X0 - текущая координата ОРР
+	{970	,1	,1	,&internal1_m65_Zav0},	//(internal1_m65_Zav0) Zav0 - Зад.аварийный выключатель ОРР
+	{971	,1	,1	,&internal1_m65_flp},	//(internal1_m65_flp)  flp - флаг сброса/подъёма от пневматики (0 - без, 1-сброс, 2-подъём)
+	{972	,1	,1	,&internal1_m65_fls},	//(internal1_m65_fls)  fls - флаг одношагового режима
+	{973	,1	,1	,&internal1_m668_Out10},	//(internal1_m668_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{974	,1	,1	,&internal1_m669_Out10},	//(internal1_m669_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{975	,1	,1	,&internal1_m672_Out10},	//(internal1_m672_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{976	,1	,1	,&internal1_m673_Out10},	//(internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{977	,1	,1	,&internal1_m674_Out10},	//(internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала
+	{978	,1	,1	,&internal1_m675_Out10},	//(internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{979	,1	,1	,&internal1_m685_Out10},	//(internal1_m685_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{980	,1	,1	,&internal1_m686_Out10},	//(internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала
 	{981	,1	,1	,&internal1_m687_Out10},	//(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала
@@ -4375,10 +4375,10 @@ static VarSaveCtrl saveVariables[]={	//Id переменных для сохра
 	{454,"fEM_R0UL02RIM\0"},	//(R0UL02RIM) Время удержания синхроимпульса
 	{455,"fEM_R0UL04RIM\0"},	//(R0UL04RIM) Время блокировки повторной генерации импульса
 	{456,"fEM_R0UN02RIM\0"},	//(R0UN02RIM) Доля запаздывающих нейтронов в общем количестве нейтронов
-	{457,"fEM_R0UR01RIM\0"},	//(R0UR01RIM) Стартовая отрицательная реактивность
-	{458,"fEM_R0UR30RIM\0"},	//(R0UR30RIM) Реактивность вносимая образцами (долл)
-	{459,"fEM_R0UT01RDU\0"},	//(R0UT01RDU) Нижний предел шкалы датчика температуры
-	{460,"fEM_R0UT01RIM\0"},	//(R0UT01RIM) Температурный коэффициент (долл)
+	{457,"fEM_R0UN18RDU\0"},	//(R0UN18RDU) Коэффициент температурной корректировки реактивности(долл)
+	{458,"fEM_R0UR01RIM\0"},	//(R0UR01RIM) Стартовая отрицательная реактивность
+	{459,"fEM_R0UR30RIM\0"},	//(R0UR30RIM) Реактивность вносимая образцами (долл)
+	{460,"fEM_R0UT01RDU\0"},	//(R0UT01RDU) Нижний предел шкалы датчика температуры
 	{461,"fEM_R0UT02RDU\0"},	//(R0UT02RDU) Верхний предел шкалы датчика температуры
 	{462,"fEM_R0UT02RIM\0"},	//(R0UT02RIM) Масса топлива в АЗ
 	{463,"fEM_R0UT03RIM\0"},	//(R0UT03RIM) Нормальная температура АЗ град
@@ -4641,7 +4641,7 @@ static ModbusRegister di_SCM[]={
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SCM[]={
-	{&R1SR02RIM,8,0},	//( - , SCM) Текущая мощность РУ АЗ1 (ватт)
+	{&R0SR03RIM,8,0},	//( - , SCM) Текущая мощность РУ аз1  (ватт)
 	{&A0SN02RIM,8,2},	//( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1
 	{&A0SN03RIM,8,4},	//( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1
 	{&A0SN04RIM,8,6},	//( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1
@@ -4677,375 +4677,375 @@ static ModbusRegister hr_SCM[]={
 	{&fEM_A1UR00RIM,8,8},	//( - , SCM) Коэффициент-0 функции реактивности вносимой ББ (долл)
 	{&fEM_A3UR00RIM,8,10},	//( - , SCM) Коэффициент-0 функции реактивности вносимой ИС (долл)
 	{&fEM_A3UR01RIM,8,12},	//( - , SCM) Коэффициент-1 функции реактивности вносимой ИС (долл)
-	{&fEM_R0UT01RIM,8,14},	//( - , SCM) Температурный коэффициент (долл)
-	{&fEM_R0UT02RIM,8,16},	//( - , SCM) Масса топлива в АЗ
-	{&fEM_R0UT04RIM,8,18},	//( - , SCM) Удельная теплоёмкость топлива
-	{&fEM_R0UT03RIM,8,20},	//( - , SCM) Нормальная температура АЗ град
-	{&fEM_R0UT05RIM,8,22},	//( - , SCM) Энергия деления ядра
-	{&fEM_R0UT06RIM,8,24},	//( - , SCM) Конвекционное сопротивление при обдуве
-	{&fEM_A1UC02RDU,8,26},	//( - , SCM) Коэффициент преобразования частоты двигателя ББ в скорость мм/с
-	{&fEM_A1UC04RIM,8,28},	//( - , SCM) Координата промежуточного путевого выключателя ББ мм
-	{&fEM_A1UC05RIM,8,30},	//( - , SCM) Координата переднего аварийного выключателя ББ мм
-	{&fEM_A1UC06RIM,8,32},	//( - , SCM) Координата заднего аварийного выключателя ББ мм
-	{&fEM_A2UC06RIM,8,34},	//( - , SCM) Координата заднего аварийного выключателя РБ мм
-	{&fEM_A2UC05RIM,8,36},	//( - , SCM) Координата переднего аварийного выключателя РБ мм
-	{&fEM_A2UC04RIM,8,38},	//( - , SCM) Координата промежуточного путевого выключателя РБ мм
-	{&fEM_A2UC02RDU,8,40},	//( - , SCM) Коэффициент преобразования частоты двигателя РБ в скорость мм/с
-	{&fEM_A3UC06RIM,8,42},	//( - , SCM) Координата заднего аварийного выключателя ИС мм
-	{&fEM_A3UC05RIM,8,44},	//( - , SCM) Координата переднего аварийного выключателя ИС мм
-	{&fEM_A3UC04RIM,8,46},	//( - , SCM) Координата промежуточного путевого выключателя ИС мм
-	{&fEM_A3UC02RDU,8,48},	//( - , SCM) Коэффициент преобразования частоты двигателя ИС в скорость мм/с
-	{&fEM_R4UV80RDU,8,50},	//( - , SCM) Номинальная скорость тележки (см/с)
-	{&fEM_R4UC10RIM,8,52},	//( - , SCM) Координата верхних механических упоров тележки мм
-	{&fEM_R4UC20RIM,8,54},	//( - , SCM) Координата нижних механических упоров тележки мм
-	{&fEM_B8UC21RIM,8,56},	//( - , SCM) Координата верхнего путевого выключателя АЗ2 мм
-	{&fEM_B8UC20RIM,8,58},	//( - , SCM) Координата верхних механических упоров АЗ2 мм
-	{&fEM_B8UC11RIM,8,60},	//( - , SCM) Координата нижнего путевого выключателя АЗ2 мм
-	{&fEM_B8UC10RIM,8,62},	//( - , SCM) Координата нижних механических упоров АЗ2 мм
-	{&fEM_B8UV80RDU,8,64},	//( - , SCM) Номинальная скорость АЗ2 (мм/с)
-	{&fEM_A8UV80RDU,8,66},	//( - , SCM) Номинальная скорость ДС2 (мм/с)
-	{&fEM_A8UC10RIM,8,68},	//( - , SCM) Координата нижних механических упоров ДС2 мм
-	{&fEM_A8UC11RIM,8,70},	//( - , SCM) Координата нижнего путевого выключателя ДС2 мм
-	{&fEM_A8UC20RIM,8,72},	//( - , SCM) Координата верхних механических упоров ДС2 мм
-	{&fEM_A8UC21RIM,8,74},	//( - , SCM) Координата верхнего путевого выключателя ДС2 мм
-	{&fEM_A6UC10RIM,8,76},	//( - , SCM) Время полного хода БЗ (сек)
-	{&fEM_R1UC10RIM,8,78},	//( - , SCM) Время полного хода МДЗ сек
-	{&fEM_A5UC10RIM,8,80},	//( - , SCM) Время полного хода НЛ сек
-	{&fEM_A0UN01RIM,8,82},	//( - , SCM) Мощность источника нейтронов ИНИ
-	{&fEM_R4UC22RIM,8,84},	//( - , SCM) Смещение координаты АЗ от координаты тележки
-	{&fEM_A1UG01RDU,8,86},	//( - , SCM) Расстояние включения масляного демпфера ББ(мм)
-	{&fEM_A2UG01RDU,8,88},	//( - , SCM) Расстояние включения масляного демпфера РБ
-	{&fEM_A3UG01RDU,8,90},	//( - , SCM) Расстояние включения масляного демпфера ИС
-	{&fEM_R7UC10RIM,8,92},	//( - , SCM) X-координата КНК53М R7IN13 см
-	{&fEM_R7UC19RIM,8,94},	//( - , SCM) Y-координата СНМ-11 (11) см
-	{&fEM_R7UI02RIM,8,96},	//( - , SCM) Коэффициент усиления уровня радиации
-	{&fEM_R7UL01RIM,8,98},	//( - , SCM) Постоянная времени изменения уровня радиации в зале
-	{&fEM_A2UR00RIM,8,100},	//( - , SCM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)
-	{&fEM_A2UR01RIM,8,102},	//( - , SCM) Коэффициент-1 функции реактивности вносимой РБ (долл)
-	{&fEM_A0UN02RIM,8,104},	//( - , SCM) Мощность источника нейтронов с АНИ
-	{&fEM_R0UR30RIM,8,106},	//( - , SCM) Реактивность вносимая образцами (долл)
-	{&fEM_R0UR01RIM,8,108},	//( - , SCM) Стартовая отрицательная реактивность
-	{&fEM_R0UT02RDU,8,110},	//( - , SCM) Верхний предел шкалы датчика температуры
-	{&fEM_R0UT01RDU,8,112},	//( - , SCM) Нижний предел шкалы датчика температуры
-	{&fEM_A1UC03RDU,8,114},	//( - , SCM) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера
-	{&fEM_A2UP03RDU,8,116},	//( - , SCM) Верхний предел шкалы датчика давления на подъем/сброс РБ
-	{&fEM_A2UP04RDU,8,118},	//( - , SCM) Нижний предел шкалы датчика давления на подъем/сброс РБ
-	{&fEM_A2UC03RDU,8,120},	//( - , SCM) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм
-	{&fEM_A3UP03RDU,8,122},	//( - , SCM) Верхний предел шкалы датчика давления на подъем/сброс ИС
-	{&fEM_A3UP04RDU,8,124},	//( - , SCM) Нижний предел шкалы датчика давления на подъем/сброс ИС
-	{&fEM_A3UC03RDU,8,126},	//( - , SCM) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм
-	{&fEM_R7UI74RIM,8,128},	//( - , SCM) Верхняя граница измерения уровня радиации в зале
-	{&fEM_A8UC03RDU,8,130},	//( - , SCM) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера
-	{&fEM_R0UV87RDU,8,132},	//( - , SCM) 7-я скорость перемещения ББ (шагов/секунду)
-	{&fEM_R0UV81RDU,8,134},	//( - , SCM) 1-я частота двигателя (шагов/секунду)
-	{&fEM_R0UV82RDU,8,136},	//( - , SCM) 3-я частота двигателя (шагов/секунду)
-	{&fEM_R0UV83RDU,8,138},	//( - , SCM) 4-я частота двигателя (шагов/секунду)
-	{&fEM_R0UV84RDU,8,140},	//( - , SCM) 5-я частота двигателя (шагов/секунду)
-	{&fEM_R0UV85RDU,8,142},	//( - , SCM) 6-я скорость перемещения ББ (шагов/секунду)
-	{&fEM_R0UV86RDU,8,144},	//( - , SCM) 7-я скорость перемещения ББ (шагов/секунду)
-	{&fEM_A8UC08RDU,8,146},	//( - , SCM) Зона срабатывания КВ ДС2(мм)
-	{&fEM_B8UC08RDU,8,148},	//( - , SCM) Зона срабатывания КВ АЗ2(мм)
-	{&fEM_R4UC08RDU,8,150},	//( - , SCM) Зона срабатывания КВ тележки РУ(мм)
-	{&fEM_R0UH01RSS,8,152},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  СНМ11
-	{&fEM_A0UX00RSS,8,154},	//( - , SCM) Эффективный радиус АЗ
-	{&fEM_R7UX01RSS,8,156},	//( - , SCM) X-координата камеры R7IN11
-	{&fEM_R7UX02RSS,8,158},	//( - , SCM) X-координата камеры R7IN12 (см)
-	{&fEM_R7UX04RSS,8,160},	//( - , SCM) X-координата камеры R7IN21 (см)
-	{&fEM_R7UX05RSS,8,162},	//( - , SCM) X-координата камеры R7IN22 (см)
-	{&fEM_R7UX06RSS,8,164},	//( - , SCM) X-координата камеры R7IN23 (см)
-	{&fEM_R7UX07RSS,8,166},	//( - , SCM) X-координата камеры R7IN31 (см)
-	{&fEM_R7UX08RSS,8,168},	//( - , SCM) X-координата камеры R7IN32 (см)
-	{&fEM_R7UX09RSS,8,170},	//( - , SCM) X-координата камеры R7IN33 (см)
-	{&fEM_R7UY01RSS,8,172},	//( - , SCM) Y-координата камеры R7IN11
-	{&fEM_R7UY02RSS,8,174},	//( - , SCM) Y-координата камеры R7IN12 (см)
-	{&fEM_R7UY04RSS,8,176},	//( - , SCM) Y-координата камеры R7IN21 (см)
-	{&fEM_R7UY05RSS,8,178},	//( - , SCM) Y-координата камеры R7IN22 (см)
-	{&fEM_R7UY06RSS,8,180},	//( - , SCM) Y-координата камеры R7IN23 (см)
-	{&fEM_R7UY07RSS,8,182},	//( - , SCM) Y-координата камеры R7IN31 (см)
-	{&fEM_R7UY08RSS,8,184},	//( - , SCM) Y-координата камеры R7IN32 (см)
-	{&fEM_R7UY09RSS,8,186},	//( - , SCM) Y-координата камеры R7IN33 (см)
-	{&fEM_R7UX10RSS,8,188},	//( - , SCM) X-координата камеры R7IN41
-	{&fEM_R7UX11RSS,8,190},	//( - , SCM) X-координата камеры R7IN42
-	{&fEM_R7UX12RSS,8,192},	//( - , SCM) X-координата камеры R7IN43
-	{&fEM_R7UY10RSS,8,194},	//( - , SCM) Y-координата камеры R7IN41
-	{&fEM_R7UY11RSS,8,196},	//( - , SCM) Y-координата камеры R7IN42
-	{&fEM_R7UY12RSS,8,198},	//( - , SCM) Y-координата камеры R7IN43
-	{&fEM_A0UX01RSS,8,200},	//( - , SCM) Первый коэффициент калибровки камеры 1
-	{&fEM_A0UX02RSS,8,202},	//( - , SCM) Первый коэффициент калибровки камеры 2
-	{&fEM_A0UX03RSS,8,204},	//( - , SCM) Первый коэффициент калибровки камеры 3
-	{&fEM_A0UX04RSS,8,206},	//( - , SCM) Первый коэффициент калибровки камеры4
-	{&fEM_A0UX05RSS,8,208},	//( - , SCM) Первый коэффициент калибровки камеры 5
-	{&fEM_A0UX06RSS,8,210},	//( - , SCM) Первый коэффициент калибровки камеры 6
-	{&fEM_A0UX07RSS,8,212},	//( - , SCM) Первый коэффициент калибровки камеры 7
-	{&fEM_A0UX08RSS,8,214},	//( - , SCM) Первый коэффициент калибровки камеры 8
-	{&fEM_A0UX09RSS,8,216},	//( - , SCM) Первый коэффициент калибровки камеры 9
-	{&fEM_A0UX10RSS,8,218},	//( - , SCM) Первый коэффициент калибровки камеры 10
-	{&fEM_A0UX11RSS,8,220},	//( - , SCM) Первый коэффициент калибровки камеры 11
-	{&fEM_A0UX12RSS,8,222},	//( - , SCM) Первый коэффициент калибровки камеры 12
-	{&fEM_B0UX01RSS,8,224},	//( - , SCM) Второй коэффициент калибровки камеры 1
-	{&fEM_B0UX02RSS,8,226},	//( - , SCM) Второй коэффициент калибровки камеры 2
-	{&fEM_B0UX03RSS,8,228},	//( - , SCM) Второй коэффициент калибровки камеры 3
-	{&fEM_B0UX04RSS,8,230},	//( - , SCM) Второй коэффициент калибровки камеры 4
-	{&fEM_B0UX05RSS,8,232},	//( - , SCM) Второй коэффициент калибровки камеры 5
-	{&fEM_B0UX06RSS,8,234},	//( - , SCM) Второй коэффициент калибровки камеры 6
-	{&fEM_B0UX07RSS,8,236},	//( - , SCM) Второй коэффициент калибровки камеры 7
-	{&fEM_B0UX08RSS,8,238},	//( - , SCM) Второй коэффициент калибровки камеры 8
-	{&fEM_B0UX09RSS,8,240},	//( - , SCM) Второй коэффициент калибровки камеры 9
-	{&fEM_B0UX10RSS,8,242},	//( - , SCM) Второй коэффициент калибровки камеры 10
-	{&fEM_B0UX11RSS,8,244},	//( - , SCM) Второй коэффициент калибровки камеры 11
-	{&fEM_B0UX12RSS,8,246},	//( - , SCM) Второй коэффициент калибровки камеры 12
-	{&fEM_R0UH02RSS,8,248},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  КНК15-1
-	{&fEM_R0UH03RSS,8,250},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  КНК53М
-	{&fEM_R4US80RDU,8,252},	//( - , SCM) Тормозной путь тележки (мм)
-	{&fEM_R7UI71RIM,8,254},	//( - , SCM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)
-	{&fEM_R7UI72RIM,8,256},	//( - , SCM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)
-	{&fEM_R7UI73RIM,8,258},	//( - , SCM) Уровень мощности срабатывания АС II УР  ватт
-	{&fEM_A1UP01RIM,8,260},	//( - , SCM) Текущее давление на сброс ББ (МПа)
-	{&fEM_A2UP01RIM,8,262},	//( - , SCM) Текущее давление на сброс РБ
-	{&fEM_A0UP02RIM,8,264},	//( - , SCM) Текущее давление в АЗ1,2
-	{&fEM_A3UP01RIM,8,266},	//( - , SCM) Текущее давление на СПУСК ИС
-	{&fEM_A1UP82RIM,8,268},	//( - , SCM) Нижняя граница нормализации давления СБРОС ББ (МПа)
-	{&fEM_A3UP02RDU,8,270},	//( - , SCM) Текущее давление ВЫСТРЕЛ ИС
-	{&fEM_A1UV02RIM,8,272},	//( - , SCM) Ускорение сброса ББ от пневматики - g (мм/с^2)
-	{&fEM_A3UV02RIM,8,274},	//( - , SCM) Ускорение сброса ИС от пневматики - g (мм/с^2)
-	{&fEM_A2UV02RIM,8,276},	//( - , SCM) Ускорение сброса РБ от пневматики - g (мм/с^2)
-	{&fEM_B8US80RDU,8,278},	//( - , SCM) Тормозной путь АЗ2 (мм)
-	{&fEM_A8US80RDU,8,280},	//( - , SCM) Тормозной путь ДС2 (мм)
-	{&fEM_A6US80RDU,8,282},	//( - , SCM) Тормозной путь БЗ (мм)
-	{&fEM_A1US07RDU,8,284},	//( - , SCM) Постоянная времени масляного демпфера ББ
-	{&fEM_A2US07RDU,8,286},	//( - , SCM) Постоянная времени масляного демпфера РБ
-	{&fEM_A3US07RDU,8,288},	//( - , SCM) Постоянная времени масляного демпфера ИС
-	{&fEM_R7UI75RIM,8,290},	//( - , SCM) Множитель к уровню радиации
-	{&fEM_R0UH21RSS,8,292},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
-	{&fEM_R0UH22RSS,8,294},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
-	{&fEM_R0UH23RSS,8,296},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
-	{&fEM_R0UH05RSS,8,298},	//( - , SCM) Кол-во делений/сек на 1 ватт * E^6
-	{&fEM_A4UL10RIM,8,300},	//( - , SCM) Время полного перемещения НИ сек
-	{&fEM_A9UL10RIM,8,302},	//( - , SCM) Время полного перемещения НИ ДС1/ДС2 сек
-	{&fEM_R3UL10RIM,8,304},	//( - , SCM) Время полного хода гомогенных дверей (сек)
-	{&fEM_R5UL10RIM,8,306},	//( - , SCM) Время полного хода ворот отстойной зоны (дес. мс)
-	{&fEM_R6UL10RIM,8,308},	//( - , SCM) Время полного хода кран-балки сек
-	{&fEM_A2UP02RIM,8,310},	//( - , SCM) Текущее давление на подъём РБ
-	{&fEM_A2UP03RIM,8,312},	//( - , SCM) Нижняя граница давления на ПОДЪЁМ РБ
-	{&fEM_A0UP01RIM,8,314},	//( - , SCM) Текущее давление в АЗ1,2
-	{&fEM_A3UP02RIM,8,316},	//( - , SCM) Нижняя граница  давления на СПУСК ИС
-	{&fEM_A4UP01RIM,8,318},	//( - , SCM) Текущее давление на подъём НИ
-	{&fEM_A4UP02RIM,8,320},	//( - , SCM) Нижняя граница давления на подъём НИ
-	{&fEM_R7UI76RIM,8,322},	//( - , SCM) Время задержки  срабатывания АС II УР при имитации сигнала сек
-	{&fEM_R7UI77RIM,8,324},	//( - , SCM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек
-	{&iEM_TERBB1,3,326},	//( - , SCM) Неисправности  ББ1
-	{&fEM_A1MC02RC1,8,327},	//( - , SCM) Заданная координата штока ББ1 от ИС
-	{&fEM_A1MV02RC1,8,329},	//( - , SCM) Заданная скорость движения  штока ББ1 от ИС
-	{&iEM_TERBB2,3,331},	//( - , SCM) Неисправности  ББ2
-	{&fEM_B1MC02RC1,8,332},	//( - , SCM) Заданная координата штока ББ2 от ИС
-	{&fEM_B1MV02RC1,8,334},	//( - , SCM) Заданная скорость движения штока ББ2 от ИС
-	{&iEM_TERRB2,3,336},	//( - , SCM) Неисправности  РБ2
-	{&fEM_B2MC02RC1,8,337},	//( - , SCM) Заданная координата штока РБ2 от ИС
-	{&fEM_B2MV02RC1,8,339},	//( - , SCM) Заданная скорость движения штока РБ2 от ИС
-	{&iEM_TERRB1,3,341},	//( - , SCM) Неисправности  РБ1
-	{&fEM_A2MC02RC1,8,342},	//( - , SCM) Заданная координата штока РБ1 от ИС
-	{&fEM_A2MV02RC1,8,344},	//( - , SCM) Заданная скорость движения штока РБ1 от ИС
-	{&iEM_TERIS2,3,346},	//( - , SCM) Неисправности  ИС2
-	{&fEM_B3MC02RC1,8,347},	//( - , SCM) Заданная координата штока ИС2 от ИС
-	{&fEM_B3MV02RC1,8,349},	//( - , SCM) Заданная скорость движения штока ИС2 от ИС
-	{&iEM_TERIS1,3,351},	//( - , SCM) Неисправности  ИС1
-	{&fEM_A3MC02RC1,8,352},	//( - , SCM) Заданная координата штока ИС1 от ИС
-	{&fEM_A3MV02RC1,8,354},	//( - , SCM) Заданная скорость движения штока ИС1 от ИС
-	{&iEM_TERA1IE04LDU,3,356},	//( - , SCM) Искажение Движение ББ1 назад (от БУШД)
-	{&iEM_TERA1IE03LDU,3,357},	//( - , SCM) Искажение Движение ББ1 вперёд (от БУШД)
-	{&fEM_A1MC01RC1,8,358},	//( - , SCM) Заданная координата  ББ1 от ИС
-	{&iEM_TERB1IE03LDU,3,360},	//( - , SCM) Искажение Движение ББ2 вперёд (от БУШД)
-	{&iEM_TERB1IE04LDU,3,361},	//( - , SCM) Искажение Движение ББ2 назад (от БУШД)
-	{&fEM_B1MC01RC1,8,362},	//( - , SCM) Заданная координата ББ2 от ИС
-	{&fEM_B1MV01RC1,8,364},	//( - , SCM) Заданная скорость движения ББ2 от ИС
-	{&fEM_B2MC01RC1,8,366},	//( - , SCM) Заданная координата РБ2 от ИС
-	{&fEM_B2MV01RC1,8,368},	//( - , SCM) Заданная скорость движения  РБ2 от ИС
-	{&fEM_A3MC01RC1,8,370},	//( - , SCM) Заданная координата ИС1 от ИС
-	{&fEM_A3MV01RC1,8,372},	//( - , SCM) Заданная скорость движения ИС1 от ИС
-	{&fEM_B3MC01RC1,8,374},	//( - , SCM) Заданная координата ИС2 от ИС
-	{&fEM_B3MV01RC1,8,376},	//( - , SCM) Заданная скорость движения ИС2 от ИС
-	{&iEM_TERA2SS21LIM,3,378},	//( - , SCM) Искажение: Приход на НУ РБ1
-	{&iEM_TERA2SS12LIM,3,379},	//( - , SCM) Искажение: Магнит РБ1 зацеплен
-	{&iEM_TERR6SS21LIM,3,380},	//( - , SCM) Искажение: Кран-балка в нерабочем положении
-	{&iEM_TERA2VP82LIM,3,381},	//( - , SCM) Искажение: Текущее давление на подъём РБ  в норме
-	{&iEM_TERA2SS11LIM,3,382},	//( - , SCM) Искажение: Приход на ВУ РБ1
-	{&iEM_TERB3SS21LIM,3,383},	//( - , SCM) Искажение: Приход на НУ ИС2
-	{&iEM_TERA0MT01RIM,3,384},	//( - , SCM) Искажение: Текущая температура AЗ1
-	{&iEM_TERB0MT01RIM,3,385},	//( - , SCM) Искажение: Текущая температура AЗ2
-	{&iEM_TERA2SP01RIM,3,386},	//( - , SCM) Искажение: Текущее давление СБРОС РБ1
-	{&iEM_TERB2SP01RIM,3,387},	//( - , SCM) Искажение: Текущее давление СБРОС РБ2
-	{&iEM_TERB3SP02RIM,3,388},	//( - , SCM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2
-	{&iEM_TERA3SC01RIM,3,389},	//( - , SCM) Искажение: Координата штока ИС1
-	{&iEM_TERA3VP81LIM,3,390},	//( - , SCM) Искажение: Текущее давление СПУСК ИС  в норме
-	{&iEM_TERA2SC01RIM,3,391},	//( - , SCM) Искажение: Координата штока РБ1
-	{&iEM_TERA2SS33LIM,3,392},	//( - , SCM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)
-	{&iEM_TERA3SS21LIM,3,393},	//( - , SCM) Искажение: Приход на НУ ИС1
-	{&iEM_TERA3SS33LIM,3,394},	//( - , SCM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)
-	{&iEM_TERA3SS31LIM,3,395},	//( - , SCM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)
-	{&iEM_TERB3SS31LIM,3,396},	//( - , SCM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)
-	{&iEM_TERB3SS33LIM,3,397},	//( - , SCM) Искажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
-	{&iEM_TERB3SC01RIM,3,398},	//( - , SCM) Искажение: Координата штока ИС2
-	{&iEM_TERA3SS11LIM,3,399},	//( - , SCM) Искажение: Приход на ВУ ИС1
-	{&iEM_TERB3SS11LIM,3,400},	//( - , SCM) Искажение: Приход на ВУ ИС2
-	{&iEM_TERR6IS64LIM,3,401},	//( - , SCM) Искажение: Исправность ВИП ССДИ-35
-	{&iEM_TERB3SS22LIM,3,402},	//( - , SCM) Искажение: Приход на НУП ИС2
-	{&iEM_TERA3SS22LIM,3,403},	//( - , SCM) Искажение: Приход на НУП ИС1
-	{&iEM_TERA3SP02RIM,3,404},	//( - , SCM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1
-	{&iEM_TERR6IS62LIM,3,405},	//( - , SCM) Искажение Исправность ВИП ССДИ-39
-	{&iEM_TERR6IS66LIM,3,406},	//( - , SCM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1
-	{&iEM_TERR6IS67LIM,3,407},	//( - , SCM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2
-	{&iEM_TERA0VP81LIM,3,408},	//( - , SCM) Искажение: Давление  АЗ1  в норме
-	{&iEM_TERB0VP81LIM,3,409},	//( - , SCM) Искажение: Давление  АЗ2 в норме
-	{&iEM_TERR0VP81LIM,3,410},	//( - , SCM) Искажение: Давление  в СИСТЕМЕ-1 в норме
-	{&iEM_TERR6IS68LIM,3,411},	//( - , SCM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2
-	{&iEM_TERR7SI74RIM,3,412},	//( - , SCM) Искажение: Радиация в реакторном зале
-	{&iEM_TERA5SS21LIM,3,413},	//( - , SCM) Искажение: Приход на НУ НЛ1
-	{&iEM_TERB5SS11LIM,3,414},	//( - , SCM) Искажение: Приход на ВУ НЛ2
-	{&iEM_TERA5SS11LIM,3,415},	//( - , SCM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА
-	{&iEM_TERA9SS11LIM,3,416},	//( - , SCM) Искажение: Приход на ВУ НИ ДС1
-	{&iEM_TERB2SS11LIM,3,417},	//( - , SCM) Искажение: Приход на ВУ РБ2
-	{&iEM_TERB2SS12LIM,3,418},	//( - , SCM) Искажение: Магнит РБ2 зацеплен
-	{&iEM_TERB2SS21LIM,3,419},	//( - , SCM) Искажение: Приход на НУ РБ2
-	{&iEM_TERR3SS11LIM,3,420},	//( - , SCM) Искажение: Приход на ВУ гомогенных дверей-1
-	{&iEM_TERB2SC01RIM,3,421},	//( - , SCM) Искажение: Координата штока РБ2
-	{&iEM_TERR3SS21LIM,3,422},	//( - , SCM) Искажение: Приход на НУ гомогенных дверей-1
-	{&iEM_TERR5SS11LIM,3,423},	//( - , SCM) Искажение: Приход на ВУ ворот отстойной зоны
-	{&iEM_TERA4SS11LIM,3,424},	//( - , SCM) Искажение: Приход на ВУ НИ1
-	{&iEM_TERR1SS11LIM,3,425},	//( - , SCM) Искажение: Приход на ВУ МДЗ1
-	{&iEM_TERR1SS21LIM,3,426},	//( - , SCM) Искажение: Приход на НУ МДЗ1
-	{&iEM_TERR2SS11LIM,3,427},	//( - , SCM) Искажение: Приход на ВУ МДЗ2
-	{&iEM_TERR2SS21LIM,3,428},	//( - , SCM) Искажение: Приход на НУ МДЗ2
-	{&iEM_TERA4VP82LIM,3,429},	//( - , SCM) Искажение Давление ПОДЪЁМ НИ в норме
-	{&iEM_TERB4SS21LIM,3,430},	//( - , SCM) Искажение: Приход на НУ НИ2
-	{&iEM_TERR5SS21LIM,3,431},	//( - , SCM) Искажение: Приход на НУ ворот отстойной зоны
-	{&iEM_TERB6SS21LIM,3,432},	//( - , SCM) Искажение: Приход на НУ БЗ2
-	{&iEM_TERB4SS11LIM,3,433},	//( - , SCM) Искажение: Приход на ВУ НИ2
-	{&iEM_TERA4SS21LIM,3,434},	//( - , SCM) Искажение: Приход на НУ НИ1
-	{&iEM_TERA6MS11LIM,3,435},	//( - , SCM) Искажение: Приход на ВУ БЗ1
-	{&iEM_TERA6SS21LIM,3,436},	//( - , SCM) Искажение: Приход на НУ БЗ1
-	{&iEM_TERB6SS11LIM,3,437},	//( - , SCM) Искажение: Приход на ВУ БЗ2
-	{&iEM_TERR4SS11LIM,3,438},	//( - , SCM) Искажение: Приход на ВУ тележки
-	{&iEM_TERR4MS21LIM,3,439},	//( - , SCM) Искажение: Приход на НУ тележки
-	{&iEM_TERR4SS12LIM,3,440},	//( - , SCM) Искажение: Приход на механический ВУ тележки
-	{&iEM_TERR4SS22LIM,3,441},	//( - , SCM) Искажение: Приход на механический НУ тележки
-	{&iEM_TERR8SS11LIM,3,442},	//( - , SCM) Искажение: Аварийный НИ установлен
-	{&iEM_TERB8SC01RIM,3,443},	//( - , SCM) Искажение: Координата АЗ2
-	{&iEM_TERA8SC01RIM,3,444},	//( - , SCM) Искажение: Координата ДС2
-	{&iEM_TERB8SS12LIM,3,445},	//( - , SCM) Искажение: Приход на механический ВУ АЗ2
-	{&iEM_TERA8SS12LIM,3,446},	//( - , SCM) Искажение: Приход на механический ВУ ДС2
-	{&iEM_TERB8SS22LIM,3,447},	//( - , SCM) Искажение: Приход на механический НУ АЗ2
-	{&iEM_TERA8SS22LIM,3,448},	//( - , SCM) Искажение: Приход на механический НУ ДС2
-	{&iEM_TERA9SS21LIM,3,449},	//( - , SCM) Искажение: Приход на НУ НИ ДС1
-	{&iEM_TERB9SS21LIM,3,450},	//( - , SCM) Искажение: Приход на НУ НИ ДС2
-	{&iEM_TERB9SS11LIM,3,451},	//( - , SCM) Искажение: Приход на ВУ НИ ДС2
-	{&iEM_TERB5SS21LIM,3,452},	//( - , SCM) Искажение: Приход на НУ НЛ2
-	{&iEM_TERA1SS21LIM,3,453},	//( - , SCM) Искажение: Приход на НУ ББ1
-	{&iEM_TERA1SS11LIM,3,454},	//( - , SCM) Искажение: Приход на ВУ ББ1
-	{&iEM_TERA1SC01RIM,3,455},	//( - , SCM) Искажение: Координата штока ББ1
-	{&iEM_TERA1SS12LIM,3,456},	//( - , SCM) Искажение: Магнит ББ1 зацеплен
-	{&iEM_TERB1SS21LIM,3,457},	//( - , SCM) Искажение: Приход на НУ ББ2
-	{&iEM_TERB1SS11LIM,3,458},	//( - , SCM) Искажение:Приход на ВУ ББ2
-	{&iEM_TERB1MC01RIM,3,459},	//( - , SCM) Искажение: Координата штока ББ2
-	{&iEM_TERB1SS12LIM,3,460},	//( - , SCM) Искажение: Магнит ББ2 зацеплен
-	{&iEM_TERTLG,3,461},	//( - , SCM) Неисправности  тележки от ИС
-	{&fEM_R4MC01RC1,8,462},	//( - , SCM) Заданная координата тележки от ИС
-	{&fEM_R4MV01RC1,8,464},	//( - , SCM) Заданная скорость тележки от ИС
-	{&iEM_TERMAZ2,3,466},	//( - , SCM) Неисправности АЗ2 от ИС
-	{&fEM_B8MV01RC1,8,467},	//( - , SCM) Заданная скорость АЗ2 от ИС
-	{&iEM_TERDS2,3,469},	//( - , SCM) Неисправности ДС2 от ИС
-	{&fEM_A8MC01RC1,8,470},	//( - , SCM) Заданная координата ДС2 от ИС
-	{&fEM_A8MV01RC1,8,472},	//( - , SCM) Заданная скорость ДС2 от ИС
-	{&iEM_TERBZ1,3,474},	//( - , SCM) Неисправности БЗ1
-	{&fEM_A6MC01RC1,8,475},	//( - , SCM) Заданная координата БЗ1 от ИС
-	{&fEM_A6MV01RC1,8,477},	//( - , SCM) Заданная скорость БЗ1 от ИС
-	{&iEM_TERBZ2,3,479},	//( - , SCM) Неисправности БЗ2
-	{&fEM_B6MC01RC1,8,480},	//( - , SCM) Заданная координата БЗ2 от ИС
-	{&fEM_B6MV01RC1,8,482},	//( - , SCM) Заданная скорость БЗ2 от ИС
-	{&iEM_TERMDZ2,3,484},	//( - , SCM) Неисправности МДЗ2
-	{&fEM_R2MC01RC1,8,485},	//( - , SCM) Заданная координата МДЗ2 от ИС
-	{&fEM_R2MV01RC1,8,487},	//( - , SCM) Заданная скорость МДЗ2 от ИС
-	{&iEM_TERMDZ1,3,489},	//( - , SCM) Неисправности МДЗ1
-	{&fEM_R1MC01RC1,8,490},	//( - , SCM) Заданная координата МДЗ1 от ИС
-	{&fEM_R1MV01RC1,8,492},	//( - , SCM) Заданная скорость МДЗ1 от ИС
-	{&iEM_TERNL1,3,494},	//( - , SCM) Неисправности НЛ1
-	{&fEM_A5MC01RC1,8,495},	//( - , SCM) Заданная координата НЛ1 от ИС
-	{&fEM_A5MV01RC1,8,497},	//( - , SCM) Заданная скорость НЛ1 от ИС
-	{&iEM_TERNL2,3,499},	//( - , SCM) Неисправности НЛ2
-	{&fEM_B5MC01RC1,8,500},	//( - , SCM) Заданная координата НЛ2 от ИС
-	{&fEM_B5MV01RC1,8,502},	//( - , SCM) Заданная скорость НЛ2 от ИС
-	{&fEM_A1UC08RIM,8,504},	//( - , SCM) Зона срабатывания КВ ББ(мм)
-	{&fEM_A2UC08RIM,8,506},	//( - , SCM) Зона срабатывания КВ  РБ мм
-	{&fEM_A3UC08RIM,8,508},	//( - , SCM) Зона срабатывания КВ ИС(мм)
-	{&iEM_TERB2SS33LIM,3,510},	//( - , SCM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)
-	{&iEM_TERA1VP81LIM,3,511},	//( - , SCM) Искажение: Текущее давление СБРОС ББ1  в норме
-	{&iEM_TERB1VP81LIM,3,512},	//( - , SCM) Искажение: Текущее давление СБРОС ББ2  в норме
-	{&fEM_A0UT03RSP,8,513},	//( - , SCM) Стартовая  температура АЗ1 град
-	{&fEM_A0UR01RSP,8,515},	//( - , SCM) Стартовая  реактивность АЗ1
-	{&fEM_A0UR02RSP,8,517},	//( - , SCM) Стартовый  поток нейтронов АЗ1
-	{&fEM_B0UT03RSP,8,519},	//( - , SCM) Стартовая  температура АЗ2 град
-	{&fEM_A1MC01RSP,8,521},	//( - , SCM) Стартовая координата  ББ1
-	{&fEM_A1MC02RSP,8,523},	//( - , SCM) Стартовая координата штока ББ1
-	{&fEM_B1MC01RSP,8,525},	//( - , SCM) Стартовая координата  ББ2
-	{&fEM_B1MC02RSP,8,527},	//( - , SCM) Стартовая координата штока ББ2
-	{&fEM_A2MC01RC1,8,529},	//( - , SCM) Заданная координата РБ1 от ИС
-	{&fEM_A2MV01RC1,8,531},	//( - , SCM) Заданная скорость движения РБ1 от ИС
-	{&fEM_A2MC01RSP,8,533},	//( - , SCM) Стартовая координата  РБ1
-	{&fEM_A2MC02RSP,8,535},	//( - , SCM) Стартовая координата штока РБ1
-	{&fEM_B2MC01RSP,8,537},	//( - , SCM) Стартовая координата  РБ2
-	{&fEM_B2MC02RSP,8,539},	//( - , SCM) Стартовая координата штока РБ2
-	{&fEM_A3MC01RSP,8,541},	//( - , SCM) Стартовая координата  ИС1
-	{&fEM_A3MC02RSP,8,543},	//( - , SCM) Стартовая координата штока ИС1
-	{&fEM_B3MC01RSP,8,545},	//( - , SCM) Стартовая координата  ИС2
-	{&fEM_B3MC02RSP,8,547},	//( - , SCM) Стартовая координата штока ИС2
-	{&fEM_B8MC01RSP,8,549},	//( - , SCM) Стартовая координата АЗ2
-	{&fEM_A8MC01RSP,8,551},	//( - , SCM) Стартовая координата ДС2
-	{&fEM_A6MC01RSP,8,553},	//( - , SCM) Стартовая координата БЗ1
-	{&fEM_B6MC01RSP,8,555},	//( - , SCM) Стартовая координата БЗ2
-	{&fEM_R3UC01RSP,8,557},	//( - , SCM) Стартовая координата Гомогенных дверей
-	{&fEM_R5UC01RSP,8,559},	//( - , SCM) Стартовая координата Ворот отстойной зоны
-	{&fEM_R6UC01RSP,8,561},	//( - , SCM) Стартовая координата Кран-балки
-	{&fEM_R2MC01RSP,8,563},	//( - , SCM) Стартовая координата МДЗ2
-	{&fEM_R1MC01RSP,8,565},	//( - , SCM) Стартовая координата МДЗ1
-	{&fEM_A5MC01RSP,8,567},	//( - , SCM) Стартовая координата НЛ1
-	{&fEM_B5MC01RSP,8,569},	//( - , SCM) Стартовая координата НЛ2
-	{&fEM_A9MC01RSP,8,571},	//( - , SCM) Стартовая координата НИ ДС1
-	{&fEM_B9MC01RSP,8,573},	//( - , SCM) Стартовая координата НИ ДС2
-	{&fEM_A4MC01RSP,8,575},	//( - , SCM) Стартовая координата НИ1
-	{&fEM_B4MC01RSP,8,577},	//( - , SCM) Стартовая координата НИ2
-	{&fEM_R4MC01RSP,8,579},	//( - , SCM) Стартовая координата тележки
-	{&fEM_A1MV01RC1,8,581},	//( - , SCM) Заданная скорость движения  ББ1 от ИС
-	{&iEM_TERB7MS31LIM,3,583},	//( - , SCM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)
-	{&iEM_TERA7MS31LIM,3,584},	//( - , SCM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)
-	{&fEM_R7UY00RSS,8,585},	//( - , SCM) Y-координата АЗ1 см
-	{&iEM_TERA6VS12LIM,3,587},	//( - , SCM) Искажение: Движение створок БЗ1 к ОТКРЫТА
-	{&iEM_TERA6VS22LIM,3,588},	//( - , SCM) Искажение: Движение створок БЗ1 к ЗАКРЫТА
-	{&iEM_TERB6VS12LIM,3,589},	//( - , SCM) Искажение: Движение створок БЗ2 к ОТКРЫТА
-	{&iEM_TERB6VS22LIM,3,590},	//( - , SCM) Искажение: Движение створок БЗ2 к ЗАКРЫТА
-	{&iEM_TERA5VS22LIM,3,591},	//( - , SCM) Искажение: Движение створок НЛ1 к НУ
-	{&iEM_TERA5VS12LIM,3,592},	//( - , SCM) Искажение: Движение створок НЛ1 к ВУ
-	{&iEM_TERB5VS12LIM,3,593},	//( - , SCM) Искажение: Движение створок НЛ2 к ВУ
-	{&iEM_TERB5VS22LIM,3,594},	//( - , SCM) Искажение: Движение створок НЛ2 к НУ
-	{&iEM_TERR1VS12LIM,3,595},	//( - , SCM) Искажение: Движение МДЗ1 в сторону ВУ
-	{&iEM_TERR1VS22LIM,3,596},	//( - , SCM) Искажение: Движение МДЗ1 в сторону НУ
-	{&iEM_TERR2VS12LIM,3,597},	//( - , SCM) Искажение: Движение МДЗ2 в сторону ВУ
-	{&iEM_TERR2VS22LIM,3,598},	//( - , SCM) Искажение: Движение МДЗ2 в сторону НУ
-	{&iEM_TERR4VS12LDU,3,599},	//( - , SCM) Искажение: Движение реактора к «У ЗАЩИТЫ»
-	{&iEM_TERR4VS22LDU,3,600},	//( - , SCM) Искажение: Движение реактора к «У ЗАЩИТЫ»
-	{&fEM_A0UX13RSS,8,601},	//( - , SCM) Первый коэффициент калибровки камеры 13
-	{&fEM_A0UX14RSS,8,603},	//( - , SCM) Первый коэффициент калибровки камеры 14
-	{&fEM_A0UX15RSS,8,605},	//( - , SCM) Первый коэффициент калибровки камеры 15
-	{&fEM_R7UX13RSS,8,607},	//( - , SCM) X-координата камеры R7IN51
-	{&fEM_R7UX14RSS,8,609},	//( - , SCM) X-координата камеры R7IN52
-	{&fEM_R7UX15RSS,8,611},	//( - , SCM) X-координата камеры R7IN53
-	{&fEM_R7UY13RSS,8,613},	//( - , SCM) Y-координата камеры R7IN51
-	{&fEM_R7UY14RSS,8,615},	//( - , SCM) Y-координата камеры R7IN52
-	{&fEM_R7UY15RSS,8,617},	//( - , SCM) Y-координата камеры R7IN53
-	{&fEM_R7UX16RSS,8,619},	//( - , SCM) Величина сигнала СНМ11 в БЗ
-	{&fEM_B8MC01RC1,8,621},	//( - , SCM) Заданная координата АЗ2 от ИС
-	{&fEM_A0UN07RIM,8,623},	//( - , SCM) Доля запаздывающих нейтронов
-	{&fEM_R0UL02RIM,8,625},	//( - , SCM) Время удержания синхроимпульса
-	{&fEM_R0UL02RDU,8,627},	//( - , SCM) Время задержки  ИНИ
-	{&fEM_R0UL04RIM,8,629},	//( - , SCM) Время блокировки повторной генерации импульса
+	{&fEM_R0UT02RIM,8,14},	//( - , SCM) Масса топлива в АЗ
+	{&fEM_R0UT04RIM,8,16},	//( - , SCM) Удельная теплоёмкость топлива
+	{&fEM_R0UT03RIM,8,18},	//( - , SCM) Нормальная температура АЗ град
+	{&fEM_R0UT05RIM,8,20},	//( - , SCM) Энергия деления ядра
+	{&fEM_R0UT06RIM,8,22},	//( - , SCM) Конвекционное сопротивление при обдуве
+	{&fEM_A1UC02RDU,8,24},	//( - , SCM) Коэффициент преобразования частоты двигателя ББ в скорость мм/с
+	{&fEM_A1UC04RIM,8,26},	//( - , SCM) Координата промежуточного путевого выключателя ББ мм
+	{&fEM_A1UC05RIM,8,28},	//( - , SCM) Координата переднего аварийного выключателя ББ мм
+	{&fEM_A1UC06RIM,8,30},	//( - , SCM) Координата заднего аварийного выключателя ББ мм
+	{&fEM_A2UC06RIM,8,32},	//( - , SCM) Координата заднего аварийного выключателя РБ мм
+	{&fEM_A2UC05RIM,8,34},	//( - , SCM) Координата переднего аварийного выключателя РБ мм
+	{&fEM_A2UC04RIM,8,36},	//( - , SCM) Координата промежуточного путевого выключателя РБ мм
+	{&fEM_A2UC02RDU,8,38},	//( - , SCM) Коэффициент преобразования частоты двигателя РБ в скорость мм/с
+	{&fEM_A3UC06RIM,8,40},	//( - , SCM) Координата заднего аварийного выключателя ИС мм
+	{&fEM_A3UC05RIM,8,42},	//( - , SCM) Координата переднего аварийного выключателя ИС мм
+	{&fEM_A3UC04RIM,8,44},	//( - , SCM) Координата промежуточного путевого выключателя ИС мм
+	{&fEM_A3UC02RDU,8,46},	//( - , SCM) Коэффициент преобразования частоты двигателя ИС в скорость мм/с
+	{&fEM_R4UV80RDU,8,48},	//( - , SCM) Номинальная скорость тележки (см/с)
+	{&fEM_R4UC10RIM,8,50},	//( - , SCM) Координата верхних механических упоров тележки мм
+	{&fEM_R4UC20RIM,8,52},	//( - , SCM) Координата нижних механических упоров тележки мм
+	{&fEM_B8UC21RIM,8,54},	//( - , SCM) Координата верхнего путевого выключателя АЗ2 мм
+	{&fEM_B8UC20RIM,8,56},	//( - , SCM) Координата верхних механических упоров АЗ2 мм
+	{&fEM_B8UC11RIM,8,58},	//( - , SCM) Координата нижнего путевого выключателя АЗ2 мм
+	{&fEM_B8UC10RIM,8,60},	//( - , SCM) Координата нижних механических упоров АЗ2 мм
+	{&fEM_B8UV80RDU,8,62},	//( - , SCM) Номинальная скорость АЗ2 (мм/с)
+	{&fEM_A8UV80RDU,8,64},	//( - , SCM) Номинальная скорость ДС2 (мм/с)
+	{&fEM_A8UC10RIM,8,66},	//( - , SCM) Координата нижних механических упоров ДС2 мм
+	{&fEM_A8UC11RIM,8,68},	//( - , SCM) Координата нижнего путевого выключателя ДС2 мм
+	{&fEM_A8UC20RIM,8,70},	//( - , SCM) Координата верхних механических упоров ДС2 мм
+	{&fEM_A8UC21RIM,8,72},	//( - , SCM) Координата верхнего путевого выключателя ДС2 мм
+	{&fEM_A6UC10RIM,8,74},	//( - , SCM) Время полного хода БЗ (сек)
+	{&fEM_R1UC10RIM,8,76},	//( - , SCM) Время полного хода МДЗ сек
+	{&fEM_A5UC10RIM,8,78},	//( - , SCM) Время полного хода НЛ сек
+	{&fEM_A0UN01RIM,8,80},	//( - , SCM) Мощность источника нейтронов ИНИ
+	{&fEM_R4UC22RIM,8,82},	//( - , SCM) Смещение координаты АЗ от координаты тележки
+	{&fEM_A1UG01RDU,8,84},	//( - , SCM) Расстояние включения масляного демпфера ББ(мм)
+	{&fEM_A2UG01RDU,8,86},	//( - , SCM) Расстояние включения масляного демпфера РБ
+	{&fEM_A3UG01RDU,8,88},	//( - , SCM) Расстояние включения масляного демпфера ИС
+	{&fEM_R7UC10RIM,8,90},	//( - , SCM) X-координата КНК53М R7IN13 см
+	{&fEM_R7UC19RIM,8,92},	//( - , SCM) Y-координата СНМ-11 (11) см
+	{&fEM_R7UI02RIM,8,94},	//( - , SCM) Коэффициент усиления уровня радиации
+	{&fEM_R7UL01RIM,8,96},	//( - , SCM) Постоянная времени изменения уровня радиации в зале
+	{&fEM_A2UR00RIM,8,98},	//( - , SCM) Коэффициент-0 (долл) функции реактивности вносимой РБ (долл)
+	{&fEM_A2UR01RIM,8,100},	//( - , SCM) Коэффициент-1 функции реактивности вносимой РБ (долл)
+	{&fEM_A0UN02RIM,8,102},	//( - , SCM) Мощность источника нейтронов с АНИ
+	{&fEM_R0UR30RIM,8,104},	//( - , SCM) Реактивность вносимая образцами (долл)
+	{&fEM_R0UR01RIM,8,106},	//( - , SCM) Стартовая отрицательная реактивность
+	{&fEM_R0UT02RDU,8,108},	//( - , SCM) Верхний предел шкалы датчика температуры
+	{&fEM_R0UT01RDU,8,110},	//( - , SCM) Нижний предел шкалы датчика температуры
+	{&fEM_A1UC03RDU,8,112},	//( - , SCM) Коэффициент преобразования показания энкодера ББ мм/дел.энкодера
+	{&fEM_A2UP03RDU,8,114},	//( - , SCM) Верхний предел шкалы датчика давления на подъем/сброс РБ
+	{&fEM_A2UP04RDU,8,116},	//( - , SCM) Нижний предел шкалы датчика давления на подъем/сброс РБ
+	{&fEM_A2UC03RDU,8,118},	//( - , SCM) Коэффициент преобразования показания энкодера РБ, дел.энкодера/мм
+	{&fEM_A3UP03RDU,8,120},	//( - , SCM) Верхний предел шкалы датчика давления на подъем/сброс ИС
+	{&fEM_A3UP04RDU,8,122},	//( - , SCM) Нижний предел шкалы датчика давления на подъем/сброс ИС
+	{&fEM_A3UC03RDU,8,124},	//( - , SCM) Коэффициент преобразования показания энкодера ИС, дел.энкодера/мм
+	{&fEM_R7UI74RIM,8,126},	//( - , SCM) Верхняя граница измерения уровня радиации в зале
+	{&fEM_A8UC03RDU,8,128},	//( - , SCM) Коэффициент преобразования показания энкодера АЗ2/ДС2 мм/дел.энкодера
+	{&fEM_R0UV87RDU,8,130},	//( - , SCM) 7-я скорость перемещения ББ (шагов/секунду)
+	{&fEM_R0UV81RDU,8,132},	//( - , SCM) 1-я частота двигателя (шагов/секунду)
+	{&fEM_R0UV82RDU,8,134},	//( - , SCM) 3-я частота двигателя (шагов/секунду)
+	{&fEM_R0UV83RDU,8,136},	//( - , SCM) 4-я частота двигателя (шагов/секунду)
+	{&fEM_R0UV84RDU,8,138},	//( - , SCM) 5-я частота двигателя (шагов/секунду)
+	{&fEM_R0UV85RDU,8,140},	//( - , SCM) 6-я скорость перемещения ББ (шагов/секунду)
+	{&fEM_R0UV86RDU,8,142},	//( - , SCM) 7-я скорость перемещения ББ (шагов/секунду)
+	{&fEM_A8UC08RDU,8,144},	//( - , SCM) Зона срабатывания КВ ДС2(мм)
+	{&fEM_B8UC08RDU,8,146},	//( - , SCM) Зона срабатывания КВ АЗ2(мм)
+	{&fEM_R4UC08RDU,8,148},	//( - , SCM) Зона срабатывания КВ тележки РУ(мм)
+	{&fEM_R0UH01RSS,8,150},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  СНМ11
+	{&fEM_A0UX00RSS,8,152},	//( - , SCM) Эффективный радиус АЗ
+	{&fEM_R7UX01RSS,8,154},	//( - , SCM) X-координата камеры R7IN11
+	{&fEM_R7UX02RSS,8,156},	//( - , SCM) X-координата камеры R7IN12 (см)
+	{&fEM_R7UX04RSS,8,158},	//( - , SCM) X-координата камеры R7IN21 (см)
+	{&fEM_R7UX05RSS,8,160},	//( - , SCM) X-координата камеры R7IN22 (см)
+	{&fEM_R7UX06RSS,8,162},	//( - , SCM) X-координата камеры R7IN23 (см)
+	{&fEM_R7UX07RSS,8,164},	//( - , SCM) X-координата камеры R7IN31 (см)
+	{&fEM_R7UX08RSS,8,166},	//( - , SCM) X-координата камеры R7IN32 (см)
+	{&fEM_R7UX09RSS,8,168},	//( - , SCM) X-координата камеры R7IN33 (см)
+	{&fEM_R7UY01RSS,8,170},	//( - , SCM) Y-координата камеры R7IN11
+	{&fEM_R7UY02RSS,8,172},	//( - , SCM) Y-координата камеры R7IN12 (см)
+	{&fEM_R7UY04RSS,8,174},	//( - , SCM) Y-координата камеры R7IN21 (см)
+	{&fEM_R7UY05RSS,8,176},	//( - , SCM) Y-координата камеры R7IN22 (см)
+	{&fEM_R7UY06RSS,8,178},	//( - , SCM) Y-координата камеры R7IN23 (см)
+	{&fEM_R7UY07RSS,8,180},	//( - , SCM) Y-координата камеры R7IN31 (см)
+	{&fEM_R7UY08RSS,8,182},	//( - , SCM) Y-координата камеры R7IN32 (см)
+	{&fEM_R7UY09RSS,8,184},	//( - , SCM) Y-координата камеры R7IN33 (см)
+	{&fEM_R7UX10RSS,8,186},	//( - , SCM) X-координата камеры R7IN41
+	{&fEM_R7UX11RSS,8,188},	//( - , SCM) X-координата камеры R7IN42
+	{&fEM_R7UX12RSS,8,190},	//( - , SCM) X-координата камеры R7IN43
+	{&fEM_R7UY10RSS,8,192},	//( - , SCM) Y-координата камеры R7IN41
+	{&fEM_R7UY11RSS,8,194},	//( - , SCM) Y-координата камеры R7IN42
+	{&fEM_R7UY12RSS,8,196},	//( - , SCM) Y-координата камеры R7IN43
+	{&fEM_A0UX01RSS,8,198},	//( - , SCM) Первый коэффициент калибровки камеры 1
+	{&fEM_A0UX02RSS,8,200},	//( - , SCM) Первый коэффициент калибровки камеры 2
+	{&fEM_A0UX03RSS,8,202},	//( - , SCM) Первый коэффициент калибровки камеры 3
+	{&fEM_A0UX04RSS,8,204},	//( - , SCM) Первый коэффициент калибровки камеры4
+	{&fEM_A0UX05RSS,8,206},	//( - , SCM) Первый коэффициент калибровки камеры 5
+	{&fEM_A0UX06RSS,8,208},	//( - , SCM) Первый коэффициент калибровки камеры 6
+	{&fEM_A0UX07RSS,8,210},	//( - , SCM) Первый коэффициент калибровки камеры 7
+	{&fEM_A0UX08RSS,8,212},	//( - , SCM) Первый коэффициент калибровки камеры 8
+	{&fEM_A0UX09RSS,8,214},	//( - , SCM) Первый коэффициент калибровки камеры 9
+	{&fEM_A0UX10RSS,8,216},	//( - , SCM) Первый коэффициент калибровки камеры 10
+	{&fEM_A0UX11RSS,8,218},	//( - , SCM) Первый коэффициент калибровки камеры 11
+	{&fEM_A0UX12RSS,8,220},	//( - , SCM) Первый коэффициент калибровки камеры 12
+	{&fEM_B0UX01RSS,8,222},	//( - , SCM) Второй коэффициент калибровки камеры 1
+	{&fEM_B0UX02RSS,8,224},	//( - , SCM) Второй коэффициент калибровки камеры 2
+	{&fEM_B0UX03RSS,8,226},	//( - , SCM) Второй коэффициент калибровки камеры 3
+	{&fEM_B0UX04RSS,8,228},	//( - , SCM) Второй коэффициент калибровки камеры 4
+	{&fEM_B0UX05RSS,8,230},	//( - , SCM) Второй коэффициент калибровки камеры 5
+	{&fEM_B0UX06RSS,8,232},	//( - , SCM) Второй коэффициент калибровки камеры 6
+	{&fEM_B0UX07RSS,8,234},	//( - , SCM) Второй коэффициент калибровки камеры 7
+	{&fEM_B0UX08RSS,8,236},	//( - , SCM) Второй коэффициент калибровки камеры 8
+	{&fEM_B0UX09RSS,8,238},	//( - , SCM) Второй коэффициент калибровки камеры 9
+	{&fEM_B0UX10RSS,8,240},	//( - , SCM) Второй коэффициент калибровки камеры 10
+	{&fEM_B0UX11RSS,8,242},	//( - , SCM) Второй коэффициент калибровки камеры 11
+	{&fEM_B0UX12RSS,8,244},	//( - , SCM) Второй коэффициент калибровки камеры 12
+	{&fEM_R0UH02RSS,8,246},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  КНК15-1
+	{&fEM_R0UH03RSS,8,248},	//( - , SCM) Коэфф. преобразования частота->нейтр/с  КНК53М
+	{&fEM_R4US80RDU,8,250},	//( - , SCM) Тормозной путь тележки (мм)
+	{&fEM_R7UI71RIM,8,252},	//( - , SCM) Уровень мощности срабатывания АС IУР  ватт (датчик 1)
+	{&fEM_R7UI72RIM,8,254},	//( - , SCM) Уровень мощности срабатывания АС IУР  ватт (датчик 2)
+	{&fEM_R7UI73RIM,8,256},	//( - , SCM) Уровень мощности срабатывания АС II УР  ватт
+	{&fEM_A1UP01RIM,8,258},	//( - , SCM) Текущее давление на сброс ББ (МПа)
+	{&fEM_A2UP01RIM,8,260},	//( - , SCM) Текущее давление на сброс РБ
+	{&fEM_A0UP02RIM,8,262},	//( - , SCM) Текущее давление в АЗ1,2
+	{&fEM_A3UP01RIM,8,264},	//( - , SCM) Текущее давление на СПУСК ИС
+	{&fEM_A1UP82RIM,8,266},	//( - , SCM) Нижняя граница нормализации давления СБРОС ББ (МПа)
+	{&fEM_A3UP02RDU,8,268},	//( - , SCM) Текущее давление ВЫСТРЕЛ ИС
+	{&fEM_A1UV02RIM,8,270},	//( - , SCM) Ускорение сброса ББ от пневматики - g (мм/с^2)
+	{&fEM_A3UV02RIM,8,272},	//( - , SCM) Ускорение сброса ИС от пневматики - g (мм/с^2)
+	{&fEM_A2UV02RIM,8,274},	//( - , SCM) Ускорение сброса РБ от пневматики - g (мм/с^2)
+	{&fEM_B8US80RDU,8,276},	//( - , SCM) Тормозной путь АЗ2 (мм)
+	{&fEM_A8US80RDU,8,278},	//( - , SCM) Тормозной путь ДС2 (мм)
+	{&fEM_A6US80RDU,8,280},	//( - , SCM) Тормозной путь БЗ (мм)
+	{&fEM_A1US07RDU,8,282},	//( - , SCM) Постоянная времени масляного демпфера ББ
+	{&fEM_A2US07RDU,8,284},	//( - , SCM) Постоянная времени масляного демпфера РБ
+	{&fEM_A3US07RDU,8,286},	//( - , SCM) Постоянная времени масляного демпфера ИС
+	{&fEM_R7UI75RIM,8,288},	//( - , SCM) Множитель к уровню радиации
+	{&fEM_R0UH21RSS,8,290},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) СНМ-11
+	{&fEM_R0UH22RSS,8,292},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) КНК-15-1
+	{&fEM_R0UH23RSS,8,294},	//( - , SCM) Верхняя граница измерения частоты импульсов(имп/с) КНК-53М
+	{&fEM_R0UH05RSS,8,296},	//( - , SCM) Кол-во делений/сек на 1 ватт * E^6
+	{&fEM_A4UL10RIM,8,298},	//( - , SCM) Время полного перемещения НИ сек
+	{&fEM_A9UL10RIM,8,300},	//( - , SCM) Время полного перемещения НИ ДС1/ДС2 сек
+	{&fEM_R3UL10RIM,8,302},	//( - , SCM) Время полного хода гомогенных дверей (сек)
+	{&fEM_R5UL10RIM,8,304},	//( - , SCM) Время полного хода ворот отстойной зоны (дес. мс)
+	{&fEM_R6UL10RIM,8,306},	//( - , SCM) Время полного хода кран-балки сек
+	{&fEM_A2UP02RIM,8,308},	//( - , SCM) Текущее давление на подъём РБ
+	{&fEM_A2UP03RIM,8,310},	//( - , SCM) Нижняя граница давления на ПОДЪЁМ РБ
+	{&fEM_A0UP01RIM,8,312},	//( - , SCM) Текущее давление в АЗ1,2
+	{&fEM_A3UP02RIM,8,314},	//( - , SCM) Нижняя граница  давления на СПУСК ИС
+	{&fEM_A4UP01RIM,8,316},	//( - , SCM) Текущее давление на подъём НИ
+	{&fEM_A4UP02RIM,8,318},	//( - , SCM) Нижняя граница давления на подъём НИ
+	{&fEM_R7UI76RIM,8,320},	//( - , SCM) Время задержки  срабатывания АС II УР при имитации сигнала сек
+	{&fEM_R7UI77RIM,8,322},	//( - , SCM) Время задержки  срабатывания АС 1 УР при имитации сигнала сек
+	{&iEM_TERBB1,3,324},	//( - , SCM) Неисправности  ББ1
+	{&fEM_A1MC02RC1,8,325},	//( - , SCM) Заданная координата штока ББ1 от ИС
+	{&fEM_A1MV02RC1,8,327},	//( - , SCM) Заданная скорость движения  штока ББ1 от ИС
+	{&iEM_TERBB2,3,329},	//( - , SCM) Неисправности  ББ2
+	{&fEM_B1MC02RC1,8,330},	//( - , SCM) Заданная координата штока ББ2 от ИС
+	{&fEM_B1MV02RC1,8,332},	//( - , SCM) Заданная скорость движения штока ББ2 от ИС
+	{&iEM_TERRB2,3,334},	//( - , SCM) Неисправности  РБ2
+	{&fEM_B2MC02RC1,8,335},	//( - , SCM) Заданная координата штока РБ2 от ИС
+	{&fEM_B2MV02RC1,8,337},	//( - , SCM) Заданная скорость движения штока РБ2 от ИС
+	{&iEM_TERRB1,3,339},	//( - , SCM) Неисправности  РБ1
+	{&fEM_A2MC02RC1,8,340},	//( - , SCM) Заданная координата штока РБ1 от ИС
+	{&fEM_A2MV02RC1,8,342},	//( - , SCM) Заданная скорость движения штока РБ1 от ИС
+	{&iEM_TERIS2,3,344},	//( - , SCM) Неисправности  ИС2
+	{&fEM_B3MC02RC1,8,345},	//( - , SCM) Заданная координата штока ИС2 от ИС
+	{&fEM_B3MV02RC1,8,347},	//( - , SCM) Заданная скорость движения штока ИС2 от ИС
+	{&iEM_TERIS1,3,349},	//( - , SCM) Неисправности  ИС1
+	{&fEM_A3MC02RC1,8,350},	//( - , SCM) Заданная координата штока ИС1 от ИС
+	{&fEM_A3MV02RC1,8,352},	//( - , SCM) Заданная скорость движения штока ИС1 от ИС
+	{&iEM_TERA1IE04LDU,3,354},	//( - , SCM) Искажение Движение ББ1 назад (от БУШД)
+	{&iEM_TERA1IE03LDU,3,355},	//( - , SCM) Искажение Движение ББ1 вперёд (от БУШД)
+	{&fEM_A1MC01RC1,8,356},	//( - , SCM) Заданная координата  ББ1 от ИС
+	{&iEM_TERB1IE03LDU,3,358},	//( - , SCM) Искажение Движение ББ2 вперёд (от БУШД)
+	{&iEM_TERB1IE04LDU,3,359},	//( - , SCM) Искажение Движение ББ2 назад (от БУШД)
+	{&fEM_B1MC01RC1,8,360},	//( - , SCM) Заданная координата ББ2 от ИС
+	{&fEM_B1MV01RC1,8,362},	//( - , SCM) Заданная скорость движения ББ2 от ИС
+	{&fEM_B2MC01RC1,8,364},	//( - , SCM) Заданная координата РБ2 от ИС
+	{&fEM_B2MV01RC1,8,366},	//( - , SCM) Заданная скорость движения  РБ2 от ИС
+	{&fEM_A3MC01RC1,8,368},	//( - , SCM) Заданная координата ИС1 от ИС
+	{&fEM_A3MV01RC1,8,370},	//( - , SCM) Заданная скорость движения ИС1 от ИС
+	{&fEM_B3MC01RC1,8,372},	//( - , SCM) Заданная координата ИС2 от ИС
+	{&fEM_B3MV01RC1,8,374},	//( - , SCM) Заданная скорость движения ИС2 от ИС
+	{&iEM_TERA2SS21LIM,3,376},	//( - , SCM) Искажение: Приход на НУ РБ1
+	{&iEM_TERA2SS12LIM,3,377},	//( - , SCM) Искажение: Магнит РБ1 зацеплен
+	{&iEM_TERR6SS21LIM,3,378},	//( - , SCM) Искажение: Кран-балка в нерабочем положении
+	{&iEM_TERA2VP82LIM,3,379},	//( - , SCM) Искажение: Текущее давление на подъём РБ  в норме
+	{&iEM_TERA2SS11LIM,3,380},	//( - , SCM) Искажение: Приход на ВУ РБ1
+	{&iEM_TERB3SS21LIM,3,381},	//( - , SCM) Искажение: Приход на НУ ИС2
+	{&iEM_TERA0MT01RIM,3,382},	//( - , SCM) Искажение: Текущая температура AЗ1
+	{&iEM_TERB0MT01RIM,3,383},	//( - , SCM) Искажение: Текущая температура AЗ2
+	{&iEM_TERA2SP01RIM,3,384},	//( - , SCM) Искажение: Текущее давление СБРОС РБ1
+	{&iEM_TERB2SP01RIM,3,385},	//( - , SCM) Искажение: Текущее давление СБРОС РБ2
+	{&iEM_TERB3SP02RIM,3,386},	//( - , SCM) Искажение: Текущее давление на ВЫСТРЕЛ ИС2
+	{&iEM_TERA3SC01RIM,3,387},	//( - , SCM) Искажение: Координата штока ИС1
+	{&iEM_TERA3VP81LIM,3,388},	//( - , SCM) Искажение: Текущее давление СПУСК ИС  в норме
+	{&iEM_TERA2SC01RIM,3,389},	//( - , SCM) Искажение: Координата штока РБ1
+	{&iEM_TERA2SS33LIM,3,390},	//( - , SCM) Искажение: Клапан «Подъём РБ1»  открыт (обесточен)
+	{&iEM_TERA3SS21LIM,3,391},	//( - , SCM) Искажение: Приход на НУ ИС1
+	{&iEM_TERA3SS33LIM,3,392},	//( - , SCM) Искажение: Клапан «ВЫСТРЕЛ ИС1»  открыт (обесточен)
+	{&iEM_TERA3SS31LIM,3,393},	//( - , SCM) Искажение: Клапан «СПУСК ИС1»  открыт (обесточен)
+	{&iEM_TERB3SS31LIM,3,394},	//( - , SCM) Искажение: Клапан «СПУСК ИС2»  открыт (обесточен)
+	{&iEM_TERB3SS33LIM,3,395},	//( - , SCM) Искажение: Клапан «ВЫСТРЕЛ ИС2»  открыт (обесточен)
+	{&iEM_TERB3SC01RIM,3,396},	//( - , SCM) Искажение: Координата штока ИС2
+	{&iEM_TERA3SS11LIM,3,397},	//( - , SCM) Искажение: Приход на ВУ ИС1
+	{&iEM_TERB3SS11LIM,3,398},	//( - , SCM) Искажение: Приход на ВУ ИС2
+	{&iEM_TERR6IS64LIM,3,399},	//( - , SCM) Искажение: Исправность ВИП ССДИ-35
+	{&iEM_TERB3SS22LIM,3,400},	//( - , SCM) Искажение: Приход на НУП ИС2
+	{&iEM_TERA3SS22LIM,3,401},	//( - , SCM) Искажение: Приход на НУП ИС1
+	{&iEM_TERA3SP02RIM,3,402},	//( - , SCM) Искажение: Текущее давление на ВЫСТРЕЛ ИС1
+	{&iEM_TERR6IS62LIM,3,403},	//( - , SCM) Искажение Исправность ВИП ССДИ-39
+	{&iEM_TERR6IS66LIM,3,404},	//( - , SCM) Искажение Исправность ВИП 4,0 (№5) ССДИ-1-1
+	{&iEM_TERR6IS67LIM,3,405},	//( - , SCM) Искажение Исправность ВИП 4,0 (№6) ССДИ-1-2
+	{&iEM_TERA0VP81LIM,3,406},	//( - , SCM) Искажение: Давление  АЗ1  в норме
+	{&iEM_TERB0VP81LIM,3,407},	//( - , SCM) Искажение: Давление  АЗ2 в норме
+	{&iEM_TERR0VP81LIM,3,408},	//( - , SCM) Искажение: Давление  в СИСТЕМЕ-1 в норме
+	{&iEM_TERR6IS68LIM,3,409},	//( - , SCM) Искажение Исправность ВИП 4,0 (№7) ССДИ-2
+	{&iEM_TERR7SI74RIM,3,410},	//( - , SCM) Искажение: Радиация в реакторном зале
+	{&iEM_TERA5SS21LIM,3,411},	//( - , SCM) Искажение: Приход на НУ НЛ1
+	{&iEM_TERB5SS11LIM,3,412},	//( - , SCM) Искажение: Приход на ВУ НЛ2
+	{&iEM_TERA5SS11LIM,3,413},	//( - , SCM) Искажение: Движенеие створок БЗ1 к ОТКРЫТА
+	{&iEM_TERA9SS11LIM,3,414},	//( - , SCM) Искажение: Приход на ВУ НИ ДС1
+	{&iEM_TERB2SS11LIM,3,415},	//( - , SCM) Искажение: Приход на ВУ РБ2
+	{&iEM_TERB2SS12LIM,3,416},	//( - , SCM) Искажение: Магнит РБ2 зацеплен
+	{&iEM_TERB2SS21LIM,3,417},	//( - , SCM) Искажение: Приход на НУ РБ2
+	{&iEM_TERR3SS11LIM,3,418},	//( - , SCM) Искажение: Приход на ВУ гомогенных дверей-1
+	{&iEM_TERB2SC01RIM,3,419},	//( - , SCM) Искажение: Координата штока РБ2
+	{&iEM_TERR3SS21LIM,3,420},	//( - , SCM) Искажение: Приход на НУ гомогенных дверей-1
+	{&iEM_TERR5SS11LIM,3,421},	//( - , SCM) Искажение: Приход на ВУ ворот отстойной зоны
+	{&iEM_TERA4SS11LIM,3,422},	//( - , SCM) Искажение: Приход на ВУ НИ1
+	{&iEM_TERR1SS11LIM,3,423},	//( - , SCM) Искажение: Приход на ВУ МДЗ1
+	{&iEM_TERR1SS21LIM,3,424},	//( - , SCM) Искажение: Приход на НУ МДЗ1
+	{&iEM_TERR2SS11LIM,3,425},	//( - , SCM) Искажение: Приход на ВУ МДЗ2
+	{&iEM_TERR2SS21LIM,3,426},	//( - , SCM) Искажение: Приход на НУ МДЗ2
+	{&iEM_TERA4VP82LIM,3,427},	//( - , SCM) Искажение Давление ПОДЪЁМ НИ в норме
+	{&iEM_TERB4SS21LIM,3,428},	//( - , SCM) Искажение: Приход на НУ НИ2
+	{&iEM_TERR5SS21LIM,3,429},	//( - , SCM) Искажение: Приход на НУ ворот отстойной зоны
+	{&iEM_TERB6SS21LIM,3,430},	//( - , SCM) Искажение: Приход на НУ БЗ2
+	{&iEM_TERB4SS11LIM,3,431},	//( - , SCM) Искажение: Приход на ВУ НИ2
+	{&iEM_TERA4SS21LIM,3,432},	//( - , SCM) Искажение: Приход на НУ НИ1
+	{&iEM_TERA6MS11LIM,3,433},	//( - , SCM) Искажение: Приход на ВУ БЗ1
+	{&iEM_TERA6SS21LIM,3,434},	//( - , SCM) Искажение: Приход на НУ БЗ1
+	{&iEM_TERB6SS11LIM,3,435},	//( - , SCM) Искажение: Приход на ВУ БЗ2
+	{&iEM_TERR4SS11LIM,3,436},	//( - , SCM) Искажение: Приход на ВУ тележки
+	{&iEM_TERR4MS21LIM,3,437},	//( - , SCM) Искажение: Приход на НУ тележки
+	{&iEM_TERR4SS12LIM,3,438},	//( - , SCM) Искажение: Приход на механический ВУ тележки
+	{&iEM_TERR4SS22LIM,3,439},	//( - , SCM) Искажение: Приход на механический НУ тележки
+	{&iEM_TERR8SS11LIM,3,440},	//( - , SCM) Искажение: Аварийный НИ установлен
+	{&iEM_TERB8SC01RIM,3,441},	//( - , SCM) Искажение: Координата АЗ2
+	{&iEM_TERA8SC01RIM,3,442},	//( - , SCM) Искажение: Координата ДС2
+	{&iEM_TERB8SS12LIM,3,443},	//( - , SCM) Искажение: Приход на механический ВУ АЗ2
+	{&iEM_TERA8SS12LIM,3,444},	//( - , SCM) Искажение: Приход на механический ВУ ДС2
+	{&iEM_TERB8SS22LIM,3,445},	//( - , SCM) Искажение: Приход на механический НУ АЗ2
+	{&iEM_TERA8SS22LIM,3,446},	//( - , SCM) Искажение: Приход на механический НУ ДС2
+	{&iEM_TERA9SS21LIM,3,447},	//( - , SCM) Искажение: Приход на НУ НИ ДС1
+	{&iEM_TERB9SS21LIM,3,448},	//( - , SCM) Искажение: Приход на НУ НИ ДС2
+	{&iEM_TERB9SS11LIM,3,449},	//( - , SCM) Искажение: Приход на ВУ НИ ДС2
+	{&iEM_TERB5SS21LIM,3,450},	//( - , SCM) Искажение: Приход на НУ НЛ2
+	{&iEM_TERA1SS21LIM,3,451},	//( - , SCM) Искажение: Приход на НУ ББ1
+	{&iEM_TERA1SS11LIM,3,452},	//( - , SCM) Искажение: Приход на ВУ ББ1
+	{&iEM_TERA1SC01RIM,3,453},	//( - , SCM) Искажение: Координата штока ББ1
+	{&iEM_TERA1SS12LIM,3,454},	//( - , SCM) Искажение: Магнит ББ1 зацеплен
+	{&iEM_TERB1SS21LIM,3,455},	//( - , SCM) Искажение: Приход на НУ ББ2
+	{&iEM_TERB1SS11LIM,3,456},	//( - , SCM) Искажение:Приход на ВУ ББ2
+	{&iEM_TERB1MC01RIM,3,457},	//( - , SCM) Искажение: Координата штока ББ2
+	{&iEM_TERB1SS12LIM,3,458},	//( - , SCM) Искажение: Магнит ББ2 зацеплен
+	{&iEM_TERTLG,3,459},	//( - , SCM) Неисправности  тележки от ИС
+	{&fEM_R4MC01RC1,8,460},	//( - , SCM) Заданная координата тележки от ИС
+	{&fEM_R4MV01RC1,8,462},	//( - , SCM) Заданная скорость тележки от ИС
+	{&iEM_TERMAZ2,3,464},	//( - , SCM) Неисправности АЗ2 от ИС
+	{&fEM_B8MV01RC1,8,465},	//( - , SCM) Заданная скорость АЗ2 от ИС
+	{&iEM_TERDS2,3,467},	//( - , SCM) Неисправности ДС2 от ИС
+	{&fEM_A8MC01RC1,8,468},	//( - , SCM) Заданная координата ДС2 от ИС
+	{&fEM_A8MV01RC1,8,470},	//( - , SCM) Заданная скорость ДС2 от ИС
+	{&iEM_TERBZ1,3,472},	//( - , SCM) Неисправности БЗ1
+	{&fEM_A6MC01RC1,8,473},	//( - , SCM) Заданная координата БЗ1 от ИС
+	{&fEM_A6MV01RC1,8,475},	//( - , SCM) Заданная скорость БЗ1 от ИС
+	{&iEM_TERBZ2,3,477},	//( - , SCM) Неисправности БЗ2
+	{&fEM_B6MC01RC1,8,478},	//( - , SCM) Заданная координата БЗ2 от ИС
+	{&fEM_B6MV01RC1,8,480},	//( - , SCM) Заданная скорость БЗ2 от ИС
+	{&iEM_TERMDZ2,3,482},	//( - , SCM) Неисправности МДЗ2
+	{&fEM_R2MC01RC1,8,483},	//( - , SCM) Заданная координата МДЗ2 от ИС
+	{&fEM_R2MV01RC1,8,485},	//( - , SCM) Заданная скорость МДЗ2 от ИС
+	{&iEM_TERMDZ1,3,487},	//( - , SCM) Неисправности МДЗ1
+	{&fEM_R1MC01RC1,8,488},	//( - , SCM) Заданная координата МДЗ1 от ИС
+	{&fEM_R1MV01RC1,8,490},	//( - , SCM) Заданная скорость МДЗ1 от ИС
+	{&iEM_TERNL1,3,492},	//( - , SCM) Неисправности НЛ1
+	{&fEM_A5MC01RC1,8,493},	//( - , SCM) Заданная координата НЛ1 от ИС
+	{&fEM_A5MV01RC1,8,495},	//( - , SCM) Заданная скорость НЛ1 от ИС
+	{&iEM_TERNL2,3,497},	//( - , SCM) Неисправности НЛ2
+	{&fEM_B5MC01RC1,8,498},	//( - , SCM) Заданная координата НЛ2 от ИС
+	{&fEM_B5MV01RC1,8,500},	//( - , SCM) Заданная скорость НЛ2 от ИС
+	{&fEM_A1UC08RIM,8,502},	//( - , SCM) Зона срабатывания КВ ББ(мм)
+	{&fEM_A2UC08RIM,8,504},	//( - , SCM) Зона срабатывания КВ  РБ мм
+	{&fEM_A3UC08RIM,8,506},	//( - , SCM) Зона срабатывания КВ ИС(мм)
+	{&iEM_TERB2SS33LIM,3,508},	//( - , SCM) Искажение: Клапан «Подъём РБ2»  открыт (обесточен)
+	{&iEM_TERA1VP81LIM,3,509},	//( - , SCM) Искажение: Текущее давление СБРОС ББ1  в норме
+	{&iEM_TERB1VP81LIM,3,510},	//( - , SCM) Искажение: Текущее давление СБРОС ББ2  в норме
+	{&fEM_A0UT03RSP,8,511},	//( - , SCM) Стартовая  температура АЗ1 град
+	{&fEM_A0UR01RSP,8,513},	//( - , SCM) Стартовая  реактивность АЗ1
+	{&fEM_A0UR02RSP,8,515},	//( - , SCM) Стартовый  поток нейтронов АЗ1
+	{&fEM_B0UT03RSP,8,517},	//( - , SCM) Стартовая  температура АЗ2 град
+	{&fEM_A1MC01RSP,8,519},	//( - , SCM) Стартовая координата  ББ1
+	{&fEM_A1MC02RSP,8,521},	//( - , SCM) Стартовая координата штока ББ1
+	{&fEM_B1MC01RSP,8,523},	//( - , SCM) Стартовая координата  ББ2
+	{&fEM_B1MC02RSP,8,525},	//( - , SCM) Стартовая координата штока ББ2
+	{&fEM_A2MC01RC1,8,527},	//( - , SCM) Заданная координата РБ1 от ИС
+	{&fEM_A2MV01RC1,8,529},	//( - , SCM) Заданная скорость движения РБ1 от ИС
+	{&fEM_A2MC01RSP,8,531},	//( - , SCM) Стартовая координата  РБ1
+	{&fEM_A2MC02RSP,8,533},	//( - , SCM) Стартовая координата штока РБ1
+	{&fEM_B2MC01RSP,8,535},	//( - , SCM) Стартовая координата  РБ2
+	{&fEM_B2MC02RSP,8,537},	//( - , SCM) Стартовая координата штока РБ2
+	{&fEM_A3MC01RSP,8,539},	//( - , SCM) Стартовая координата  ИС1
+	{&fEM_A3MC02RSP,8,541},	//( - , SCM) Стартовая координата штока ИС1
+	{&fEM_B3MC01RSP,8,543},	//( - , SCM) Стартовая координата  ИС2
+	{&fEM_B3MC02RSP,8,545},	//( - , SCM) Стартовая координата штока ИС2
+	{&fEM_B8MC01RSP,8,547},	//( - , SCM) Стартовая координата АЗ2
+	{&fEM_A8MC01RSP,8,549},	//( - , SCM) Стартовая координата ДС2
+	{&fEM_A6MC01RSP,8,551},	//( - , SCM) Стартовая координата БЗ1
+	{&fEM_B6MC01RSP,8,553},	//( - , SCM) Стартовая координата БЗ2
+	{&fEM_R3UC01RSP,8,555},	//( - , SCM) Стартовая координата Гомогенных дверей
+	{&fEM_R5UC01RSP,8,557},	//( - , SCM) Стартовая координата Ворот отстойной зоны
+	{&fEM_R6UC01RSP,8,559},	//( - , SCM) Стартовая координата Кран-балки
+	{&fEM_R2MC01RSP,8,561},	//( - , SCM) Стартовая координата МДЗ2
+	{&fEM_R1MC01RSP,8,563},	//( - , SCM) Стартовая координата МДЗ1
+	{&fEM_A5MC01RSP,8,565},	//( - , SCM) Стартовая координата НЛ1
+	{&fEM_B5MC01RSP,8,567},	//( - , SCM) Стартовая координата НЛ2
+	{&fEM_A9MC01RSP,8,569},	//( - , SCM) Стартовая координата НИ ДС1
+	{&fEM_B9MC01RSP,8,571},	//( - , SCM) Стартовая координата НИ ДС2
+	{&fEM_A4MC01RSP,8,573},	//( - , SCM) Стартовая координата НИ1
+	{&fEM_B4MC01RSP,8,575},	//( - , SCM) Стартовая координата НИ2
+	{&fEM_R4MC01RSP,8,577},	//( - , SCM) Стартовая координата тележки
+	{&fEM_A1MV01RC1,8,579},	//( - , SCM) Заданная скорость движения  ББ1 от ИС
+	{&iEM_TERB7MS31LIM,3,581},	//( - , SCM) Искажение: Клапан (Обдув АЗ2) открыт (обесточен)
+	{&iEM_TERA7MS31LIM,3,582},	//( - , SCM) Искажение:  Клапан «Обдув АЗ1» открыт (обесточен)
+	{&fEM_R7UY00RSS,8,583},	//( - , SCM) Y-координата АЗ1 см
+	{&iEM_TERA6VS12LIM,3,585},	//( - , SCM) Искажение: Движение створок БЗ1 к ОТКРЫТА
+	{&iEM_TERA6VS22LIM,3,586},	//( - , SCM) Искажение: Движение створок БЗ1 к ЗАКРЫТА
+	{&iEM_TERB6VS12LIM,3,587},	//( - , SCM) Искажение: Движение створок БЗ2 к ОТКРЫТА
+	{&iEM_TERB6VS22LIM,3,588},	//( - , SCM) Искажение: Движение створок БЗ2 к ЗАКРЫТА
+	{&iEM_TERA5VS22LIM,3,589},	//( - , SCM) Искажение: Движение створок НЛ1 к НУ
+	{&iEM_TERA5VS12LIM,3,590},	//( - , SCM) Искажение: Движение створок НЛ1 к ВУ
+	{&iEM_TERB5VS12LIM,3,591},	//( - , SCM) Искажение: Движение створок НЛ2 к ВУ
+	{&iEM_TERB5VS22LIM,3,592},	//( - , SCM) Искажение: Движение створок НЛ2 к НУ
+	{&iEM_TERR1VS12LIM,3,593},	//( - , SCM) Искажение: Движение МДЗ1 в сторону ВУ
+	{&iEM_TERR1VS22LIM,3,594},	//( - , SCM) Искажение: Движение МДЗ1 в сторону НУ
+	{&iEM_TERR2VS12LIM,3,595},	//( - , SCM) Искажение: Движение МДЗ2 в сторону ВУ
+	{&iEM_TERR2VS22LIM,3,596},	//( - , SCM) Искажение: Движение МДЗ2 в сторону НУ
+	{&iEM_TERR4VS12LDU,3,597},	//( - , SCM) Искажение: Движение реактора к «У ЗАЩИТЫ»
+	{&iEM_TERR4VS22LDU,3,598},	//( - , SCM) Искажение: Движение реактора к «У ЗАЩИТЫ»
+	{&fEM_A0UX13RSS,8,599},	//( - , SCM) Первый коэффициент калибровки камеры 13
+	{&fEM_A0UX14RSS,8,601},	//( - , SCM) Первый коэффициент калибровки камеры 14
+	{&fEM_A0UX15RSS,8,603},	//( - , SCM) Первый коэффициент калибровки камеры 15
+	{&fEM_R7UX13RSS,8,605},	//( - , SCM) X-координата камеры R7IN51
+	{&fEM_R7UX14RSS,8,607},	//( - , SCM) X-координата камеры R7IN52
+	{&fEM_R7UX15RSS,8,609},	//( - , SCM) X-координата камеры R7IN53
+	{&fEM_R7UY13RSS,8,611},	//( - , SCM) Y-координата камеры R7IN51
+	{&fEM_R7UY14RSS,8,613},	//( - , SCM) Y-координата камеры R7IN52
+	{&fEM_R7UY15RSS,8,615},	//( - , SCM) Y-координата камеры R7IN53
+	{&fEM_R7UX16RSS,8,617},	//( - , SCM) Величина сигнала СНМ11 в БЗ
+	{&fEM_B8MC01RC1,8,619},	//( - , SCM) Заданная координата АЗ2 от ИС
+	{&fEM_A0UN07RIM,8,621},	//( - , SCM) Доля запаздывающих нейтронов
+	{&fEM_R0UL02RIM,8,623},	//( - , SCM) Время удержания синхроимпульса
+	{&fEM_R0UL02RDU,8,625},	//( - , SCM) Время задержки  ИНИ
+	{&fEM_R0UL04RIM,8,627},	//( - , SCM) Время блокировки повторной генерации импульса
+	{&fEM_R0UN18RDU,8,629},	//( - , SCM) Коэффициент температурной корректировки реактивности(долл)
 	{NULL,0,0},
 };
 #pragma pop
@@ -5565,7 +5565,7 @@ static Driver drivers[]={
 #pragma pop
 void InitSetConst(void){	//Инициализация переменных для хранения
 	setAsFloat(283,1E12);
-	setAsFloat(284,0.8);
+	setAsFloat(284,0.008);
 	setAsFloat(285,0.0069);
 	setAsFloat(286,2.74);
 	setAsFloat(287,2.9);
@@ -5638,7 +5638,7 @@ void InitSetConst(void){	//Инициализация переменных дл�
 	setAsFloat(354,0.001675);
 	setAsFloat(355,0.00009765625);
 	setAsFloat(356,200);
-	setAsFloat(357,165);
+	setAsFloat(357,160);
 	setAsFloat(358,0);
 	setAsFloat(359,0.01);
 	setAsFloat(360,20.0);
@@ -5738,14 +5738,14 @@ void InitSetConst(void){	//Инициализация переменных дл�
 	setAsFloat(454,0.5);
 	setAsFloat(455,600);
 	setAsFloat(456,0.0069);
-	setAsFloat(457,27.108);
-	setAsFloat(458,0.0);
-	setAsFloat(459,0);
-	setAsFloat(460,0.0026);
+	setAsFloat(457,0.00097);
+	setAsFloat(458,27.108);
+	setAsFloat(459,0.0);
+	setAsFloat(460,0);
 	setAsFloat(461,600);
-	setAsFloat(462,106);
+	setAsFloat(462,120);
 	setAsFloat(463,25);
-	setAsFloat(464,135.227);
+	setAsFloat(464,200);
 	setAsFloat(465,320.435466);
 	setAsFloat(466,0.0055);
 	setAsFloat(467,100);
@@ -6030,7 +6030,7 @@ psbool  array_m918_x_1[2] = {&var178,&R0MW13LP2};
 psbool  array_m910_x_1[2] = {&var179,&R0MW13LP2};
 psbool  array_m617_x_1[2] = {&var36,&var231};
 psbool  array_m614_x_1[2] = {&var36,&var232};
-psbool  array_m623_x_1[3] = {&lEM_C1AD31LRP,&R0VZ71LZ1,&R0VZ71LZ2};
+psbool  array_m625_x_1[3] = {&lEM_C1AD31LRP,&R0VZ71LZ1,&R0VZ71LZ2};
 psbool  array_m902_x_1[2] = {&var202,&R0MW13LP2};
 psbool  array_m292_x_1[2] = {&var219,&B3AD31LDU};
 psbool  array_m258_x_1[3] = {&B2AD31LDU,&var205,&var219};
@@ -6047,12 +6047,12 @@ psfloat  array_m7_a_1[5] = {&fRM_390_,&fRM_600_,&fRM_900_,&fRM_1200_,&fRM_1500_}
 psfloat  array_m7_b_1[5] = {&fRM_0_5,&fRM_0_2,&fRM_0_088884,&fRM_0_066666667,&fRM_0_02173913};
 psfloat  array_m9_a_1[7] = {&fRM_390_,&fRM_420_,&fRM_513_,&fRM_767_,&fRM_900_,&fRM_1200_,&fRM_1500_};
 psfloat  array_m9_b_1[7] = {&fRM_3_546,&fRM_2_7,&fRM_2_,&fRM_0_88884,&fRM_0_6221739,&fRM_0_35555072,&fRM_0_2666666667};
-psfloat  array_m300_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m303_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m136_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m270_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m100_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 psfloat  array_m232_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
-psfloat  array_m67_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
+psfloat  array_m65_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 
 /* Объявление структур */
 _S_vmemf  S_vmemf_176_1 = {&var333,&var1,&internal1_m176_x0};
@@ -6081,7 +6081,7 @@ _S_twobool  S_twobool_534_1 = {&var41,&iEM_TERB1VP81LIM,&var25,&vainSBool,&inter
 _S_twobool  S_twobool_406_1 = {&var308,&iEM_TERB2SS33LIM,&var26,&vainSBool,&internal1_m406_Out10,&bFirstEnterFlag};
 _S_noto  S_noto_481_1 = {&var186,&var27};
 _S_noto  S_noto_482_1 = {&var185,&var28};
-_S_noto  S_noto_473_1 = {&var187,&var29};
+_S_noto  S_noto_471_1 = {&var187,&var29};
 _S_noto  S_noto_474_1 = {&var188,&var30};
 _S_rs  S_rs_479_1 = {&var28,&lEM_R5AD10LC1,&var31,&vainSBool,&internal1_m479_q0};
 _S_rs  S_rs_480_1 = {&var27,&lEM_R5AD20LC1,&var32,&vainSBool,&internal1_m480_q0};
@@ -6103,7 +6103,7 @@ _S_or2  S_or2_906_1 = {&R0EE01LZ1,&R0EE01LZ2,&var46};
 _S_zpfs  S_zpfs_603_1 = {&var189,&fRM_1_0,&var47,&internal1_m603_tx,&internal1_m603_y0};
 _S_zpfs  S_zpfs_601_1 = {&var192,&fRM_0_5,&var48,&internal1_m601_tx,&internal1_m601_y0};
 _S_twobool  S_twobool_211_1 = {&B1AD21LDU,&iEM_TERB1IE04LDU,&var49,&vainSBool,&internal1_m211_Out10,&bFirstEnterFlag};
-_S_twobool  S_twobool_229_1 = {&B1AD11LDU,&iEM_TERB1IE03LDU,&var50,&vainSBool,&internal1_m229_Out10,&bFirstEnterFlag};
+_S_twobool  S_twobool_228_1 = {&B1AD11LDU,&iEM_TERB1IE03LDU,&var50,&vainSBool,&internal1_m228_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_47_1 = {&A1AD21LDU,&iEM_TERA1IE04LDU,&var51,&vainSBool,&internal1_m47_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_62_1 = {&A1AD11LDU,&iEM_TERA1IE03LDU,&var52,&vainSBool,&internal1_m62_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_970_1 = {&var325,&iEM_TERB1SS12LIM,&var53,&vainSBool,&internal1_m970_Out10,&bFirstEnterFlag};
@@ -6186,7 +6186,7 @@ _S_ktoenc  S_ktoenc_334_1 = {&var137,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var136,&vai
 _S_to3val  S_to3val_333_1 = {&var290,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERB3SC01RIM,&var137,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_349_1 = {&var294,&iEM_TERB3SS31LIM,&var138,&vainSBool,&internal1_m349_Out10,&bFirstEnterFlag};
 _S_twobool  S_twobool_347_1 = {&var302,&iEM_TERA3SS33LIM,&var139,&vainSBool,&internal1_m347_Out10,&bFirstEnterFlag};
-_S_ktoenc  S_ktoenc_327_1 = {&var141,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var140,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m327_Xtek0,&bFirstEnterFlag};
+_S_ktoenc  S_ktoenc_326_1 = {&var141,&fEM_A3UC03RDU,&fRM_0_,&iRM_0_,&var140,&vainSBool,&vainSBool,&vainSBool,&vainSLong,&internal1_m326_Xtek0,&bFirstEnterFlag};
 _S_to3val  S_to3val_323_1 = {&var297,&fRM_0_001,&fRM_0_0015,&fRM_0_0015,&fRM_0_,&fRM_200_,&fRM_200_,&iEM_TERA3SC01RIM,&var141,&vainSFloat,&vainSFloat,&bFirstEnterFlag};
 _S_twobool  S_twobool_348_1 = {&var301,&iEM_TERA3SS31LIM,&var142,&vainSBool,&internal1_m348_Out10,&bFirstEnterFlag};
 _S_toao  S_toao_537_1 = {&var155,&fEM_A2UP04RDU,&fEM_A2UP03RDU,&fRM_3276_,&fRM_16000_,&iRM_0_,&iRM_3276_,&iRM_16000_,&fRM_1_,&var143,&bFirstEnterFlag};
@@ -6228,9 +6228,9 @@ _S_orn  S_orn_617_1 = {array_m617_x_1,&iRM_2_,&var180};
 _S_orn  S_orn_614_1 = {array_m614_x_1,&iRM_2_,&var181};
 _S_react  S_react_204_1 = {&var287,&var182};
 _S_noto  S_noto_469_1 = {&lEM_R6AD10LC1,&var183};
-_S_asmot  S_asmot_472_1 = {&var183,&lEM_R6AD10LC1,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R6UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R6UC01RSP,&vainSFloat,&var184,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m472_X00,&internal1_m472_V00,&internal1_m472_Pav0,&internal1_m472_Zav0,&internal1_m472_Pv0,&internal1_m472_Zv0,&internal1_m472_RA00,&internal1_m472_RA10,&internal1_m472_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_473_1 = {&var183,&lEM_R6AD10LC1,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R6UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R6UC01RSP,&vainSFloat,&var184,&vainSBool,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m473_X00,&internal1_m473_V00,&internal1_m473_Pav0,&internal1_m473_Zav0,&internal1_m473_Pv0,&internal1_m473_Zv0,&internal1_m473_RA00,&internal1_m473_RA10,&internal1_m473_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_483_1 = {&var31,&var32,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R5UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R5UC01RSP,&vainSFloat,&var185,&var186,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m483_X00,&internal1_m483_V00,&internal1_m483_Pav0,&internal1_m483_Zav0,&internal1_m483_Pv0,&internal1_m483_Zv0,&internal1_m483_RA00,&internal1_m483_RA10,&internal1_m483_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_asmot  S_asmot_471_1 = {&var33,&var34,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R3UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R3UC01RSP,&vainSFloat,&var187,&var188,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m471_X00,&internal1_m471_V00,&internal1_m471_Pav0,&internal1_m471_Zav0,&internal1_m471_Pv0,&internal1_m471_Zv0,&internal1_m471_RA00,&internal1_m471_RA10,&internal1_m471_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_asmot  S_asmot_472_1 = {&var33,&var34,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_R3UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_R3UC01RSP,&vainSFloat,&var187,&var188,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m472_X00,&internal1_m472_V00,&internal1_m472_Pav0,&internal1_m472_Zav0,&internal1_m472_Pv0,&internal1_m472_Zv0,&internal1_m472_RA00,&internal1_m472_RA10,&internal1_m472_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_602_1 = {&A4AD10LDU,&var189};
 _S_asmot  S_asmot_606_1 = {&var189,&A4AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A4UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A4MC01RSP,&vainSFloat,&var190,&var191,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m606_X00,&internal1_m606_V00,&internal1_m606_Pav0,&internal1_m606_Zav0,&internal1_m606_Pv0,&internal1_m606_Zv0,&internal1_m606_RA00,&internal1_m606_RA10,&internal1_m606_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_600_1 = {&B4AD10LDU,&var192};
@@ -6239,7 +6239,7 @@ _S_noto  S_noto_591_1 = {&A9AD10LDU,&var195};
 _S_asmot  S_asmot_593_1 = {&var195,&A9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_20_,&iRM_0_,&fEM_A9UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_A9MC01RSP,&vainSFloat,&var196,&var197,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m593_X00,&internal1_m593_V00,&internal1_m593_Pav0,&internal1_m593_Zav0,&internal1_m593_Pv0,&internal1_m593_Zv0,&internal1_m593_RA00,&internal1_m593_RA10,&internal1_m593_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_noto  S_noto_590_1 = {&B9AD10LDU,&var198};
 _S_asmot  S_asmot_592_1 = {&var198,&B9AD10LDU,&fRM_0_,&fRM_0_,&fRM_1_0,&fRM_0_,&iRM_0_,&fEM_A9UL10RIM,&fRM_0_,&fRM_100000_,&fRM_n100_,&fRM_0_5,&fEM_B9MC01RSP,&vainSFloat,&var199,&var200,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m592_X00,&internal1_m592_V00,&internal1_m592_Pav0,&internal1_m592_Zav0,&internal1_m592_Pv0,&internal1_m592_Zv0,&internal1_m592_RA00,&internal1_m592_RA10,&internal1_m592_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orn  S_orn_623_1 = {array_m623_x_1,&iRM_3_,&var201};
+_S_orn  S_orn_625_1 = {array_m625_x_1,&iRM_3_,&var201};
 _S_andn  S_andn_902_1 = {array_m902_x_1,&iRM_2_,&vainSBool};
 _S_noto  S_noto_907_1 = {&var46,&var202};
 _S_andn  S_andn_292_1 = {array_m292_x_1,&iRM_2_,&var203};
@@ -6294,14 +6294,14 @@ _S_asmot  S_asmot_395_1 = {&A6AD10LDU,&A6AD20LDU,&fEM_A6MC01RC1,&fEM_A6MV01RC1,&
 _S_asmot  S_asmot_380_1 = {&A8AD20LDU,&A8AD10LDU,&fEM_A8MC01RC1,&fEM_A8MV01RC1,&fEM_A8UV80RDU,&fEM_A8US80RDU,&iEM_TERDS2,&fEM_A8UC10RIM,&fEM_A8UC20RIM,&fEM_A8UC11RIM,&fEM_A8UC21RIM,&fEM_A8UC08RDU,&fEM_A8MC01RSP,&var270,&var271,&var272,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m380_X00,&internal1_m380_V00,&internal1_m380_Pav0,&internal1_m380_Zav0,&internal1_m380_Pv0,&internal1_m380_Zv0,&internal1_m380_RA00,&internal1_m380_RA10,&internal1_m380_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_364_1 = {&B8AD20LDU,&B8AD10LDU,&fEM_B8MC01RC1,&fEM_B8MV01RC1,&fEM_B8UV80RDU,&fEM_B8US80RDU,&iEM_TERMAZ2,&fEM_B8UC10RIM,&fEM_B8UC20RIM,&fEM_B8UC11RIM,&fEM_B8UC21RIM,&fEM_B8UC08RDU,&fEM_B8MC01RSP,&var273,&var274,&var275,&vainSBool,&vainSBool,&vainSFloat,&vainSBool,&vainSBool,&internal1_m364_X00,&internal1_m364_V00,&internal1_m364_Pav0,&internal1_m364_Zav0,&internal1_m364_Pv0,&internal1_m364_Zv0,&internal1_m364_RA00,&internal1_m364_RA10,&internal1_m364_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_asmot  S_asmot_892_1 = {&R4AD10LDU,&R4AD20LDU,&fEM_R4MC01RC1,&fEM_R4MV01RC1,&fEM_R4UV80RDU,&fEM_R4US80RDU,&iEM_TERTLG,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC10RIM,&fEM_R4UC20RIM,&fEM_R4UC08RDU,&fEM_R4MC01RSP,&vainSFloat,&var276,&var277,&var278,&var279,&vainSFloat,&var280,&var281,&internal1_m892_X00,&internal1_m892_V00,&internal1_m892_Pav0,&internal1_m892_Zav0,&internal1_m892_Pv0,&internal1_m892_Zv0,&internal1_m892_RA00,&internal1_m892_RA10,&internal1_m892_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_azbars  S_azbars_186_1 = {&var319,&var303,&var289,&var1,&fEM_R0UR30RIM,&B7AP31LDU,&var193,&lEM_R8AD10LC1,&var2,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_A0UN07RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var226,&var228,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_B0UT03RSP,&var282,&var283,&var284,&var285,&var286,&var287,&var288,&internal1_m186_C1,&internal1_m186_C2,&internal1_m186_C3,&internal1_m186_C4,&internal1_m186_C5,&internal1_m186_C6,&internal1_m186_N20,&internal1_m186_N00,&internal1_m186_R00,&internal1_m186_T00,&internal1_m186_ImpINI0,&internal1_m186_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_300_1 = {&B3AD11LDU,&B3AD21LDU,&B3AD02LDU,&B3AD01LDU,&B3AD03LDU,&B3AD04LDU,&B3AD05LDU,&var203,&B3AD33LDU,&lRM_1_,&fEM_B3MC01RC1,&fEM_B3MC02RC1,&fEM_B3MV01RC1,&fEM_B3MV02RC1,&lRM_0_,array_m300_Vr_1,&fEM_A3UC02RDU,&var174,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS2,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_B3MC01RSP,&fEM_B3MC02RSP,&var289,&var290,&var291,&var292,&var293,&vainSFloat,&vainSFloat,&var294,&var295,&vainSBool,&vainSBool,&internal1_m300_X00,&internal1_m300_Sh00,&internal1_m300_RV00,&internal1_m300_ShV00,&internal1_m300_Ppv0,&internal1_m300_Pav0,&internal1_m300_Zav0,&internal1_m300_RA00,&internal1_m300_RA10,&internal1_m300_RA30,&internal1_m300_RA50,&internal1_m300_fls,&internal1_m300_flp,&internal1_m300_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_azbars  S_azbars_186_1 = {&var319,&var303,&var289,&var1,&fEM_R0UR30RIM,&B7AP31LDU,&var193,&lEM_R8AD10LC1,&var2,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_A0UN07RIM,&fEM_R0UN18RDU,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var226,&var228,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_B0UT03RSP,&var282,&var283,&var284,&var285,&var286,&var287,&var288,&internal1_m186_C1,&internal1_m186_C2,&internal1_m186_C3,&internal1_m186_C4,&internal1_m186_C5,&internal1_m186_C6,&internal1_m186_N20,&internal1_m186_N00,&internal1_m186_R00,&internal1_m186_T00,&internal1_m186_ImpINI0,&internal1_m186_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_303_1 = {&B3AD11LDU,&B3AD21LDU,&B3AD02LDU,&B3AD01LDU,&B3AD03LDU,&B3AD04LDU,&B3AD05LDU,&var203,&B3AD33LDU,&lRM_1_,&fEM_B3MC01RC1,&fEM_B3MC02RC1,&fEM_B3MV01RC1,&fEM_B3MV02RC1,&lRM_0_,array_m303_Vr_1,&fEM_A3UC02RDU,&var174,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS2,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_B3MC01RSP,&fEM_B3MC02RSP,&var289,&var290,&var291,&var292,&var293,&vainSFloat,&vainSFloat,&var294,&var295,&vainSBool,&vainSBool,&internal1_m303_X00,&internal1_m303_Sh00,&internal1_m303_RV00,&internal1_m303_ShV00,&internal1_m303_Ppv0,&internal1_m303_Pav0,&internal1_m303_Zav0,&internal1_m303_RA00,&internal1_m303_RA10,&internal1_m303_RA30,&internal1_m303_RA50,&internal1_m303_fls,&internal1_m303_flp,&internal1_m303_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_136_1 = {&A3AD11LDU,&A3AD21LDU,&A3AD02LDU,&A3AD01LDU,&A3AD03LDU,&A3AD04LDU,&A3AD05LDU,&var211,&A3AD33LDU,&lRM_1_,&fEM_A3MC01RC1,&fEM_A3MC02RC1,&fEM_A3MV01RC1,&fEM_A3MV02RC1,&lRM_0_,array_m136_Vr_1,&fEM_A3UC02RDU,&var176,&fEM_A3UP01RIM,&fEM_A3UG01RDU,&fEM_A3US07RDU,&fEM_A3UV02RIM,&iEM_TERIS1,&fEM_A3UC04RIM,&fEM_A3UC05RIM,&fEM_A3UC06RIM,&fEM_A3UC08RIM,&fEM_A3MC01RSP,&fEM_A3MC02RSP,&var296,&var297,&var298,&var299,&var300,&vainSFloat,&vainSFloat,&var301,&var302,&vainSBool,&vainSBool,&internal1_m136_X00,&internal1_m136_Sh00,&internal1_m136_RV00,&internal1_m136_ShV00,&internal1_m136_Ppv0,&internal1_m136_Pav0,&internal1_m136_Zav0,&internal1_m136_RA00,&internal1_m136_RA10,&internal1_m136_RA30,&internal1_m136_RA50,&internal1_m136_fls,&internal1_m136_flp,&internal1_m136_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_270_1 = {&B2AD11LDU,&B2AD21LDU,&B2AD02LDU,&B2AD01LDU,&B2AD03LDU,&B2AD04LDU,&B2AD05LDU,&var204,&B2AD33LDU,&var206,&fEM_B2MC01RC1,&fEM_B2MC02RC1,&fEM_B2MV01RC1,&fEM_B2MV02RC1,&lRM_1_,array_m270_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB2,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_B2MC01RSP,&fEM_B2MC02RSP,&var303,&var304,&vainSBool,&var305,&var306,&vainSFloat,&vainSFloat,&var307,&var308,&var309,&var310,&internal1_m270_X00,&internal1_m270_Sh00,&internal1_m270_RV00,&internal1_m270_ShV00,&internal1_m270_Ppv0,&internal1_m270_Pav0,&internal1_m270_Zav0,&internal1_m270_RA00,&internal1_m270_RA10,&internal1_m270_RA30,&internal1_m270_RA50,&internal1_m270_fls,&internal1_m270_flp,&internal1_m270_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_100_1 = {&A2AD11LDU,&A2AD21LDU,&A2AD02LDU,&A2AD01LDU,&A2AD03LDU,&A2AD04LDU,&A2AD05LDU,&var216,&A2AD33LDU,&var218,&fEM_A2MC01RC1,&fEM_A2MC02RC1,&fEM_A2MV01RC1,&fEM_A2MV02RC1,&lRM_1_,array_m100_Vr_1,&fEM_A2UC02RDU,&fEM_A2UP02RIM,&fEM_A2UP01RIM,&fEM_A2UG01RDU,&fEM_A2US07RDU,&fEM_A2UV02RIM,&iEM_TERRB1,&fEM_A2UC04RIM,&fEM_A2UC05RIM,&fEM_A2UC06RIM,&fEM_A2UC08RIM,&fEM_A2MC01RSP,&fEM_A2MC02RSP,&var311,&var312,&vainSBool,&var313,&var314,&vainSFloat,&vainSFloat,&var315,&var316,&var317,&var318,&internal1_m100_X00,&internal1_m100_Sh00,&internal1_m100_RV00,&internal1_m100_ShV00,&internal1_m100_Ppv0,&internal1_m100_Pav0,&internal1_m100_Zav0,&internal1_m100_RA00,&internal1_m100_RA10,&internal1_m100_RA30,&internal1_m100_RA50,&internal1_m100_fls,&internal1_m100_flp,&internal1_m100_MyFirstEnterFlag,&bFirstEnterFlag};
 _S_orrsim  S_orrsim_232_1 = {&B1AD11LDU,&B1AD21LDU,&B1AD02LDU,&B1AD01LDU,&B1AD03LDU,&B1AD04LDU,&B1AD05LDU,&var210,&lRM_1_,&var209,&fEM_B1MC01RC1,&fEM_B1MC02RC1,&fEM_B1MV01RC1,&fEM_B1MV02RC1,&lRM_1_,array_m232_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB2,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_B1MC01RSP,&fEM_B1MC02RSP,&var319,&var320,&vainSBool,&var321,&var322,&vainSFloat,&vainSFloat,&var323,&vainSBool,&var324,&var325,&internal1_m232_X00,&internal1_m232_Sh00,&internal1_m232_RV00,&internal1_m232_ShV00,&internal1_m232_Ppv0,&internal1_m232_Pav0,&internal1_m232_Zav0,&internal1_m232_RA00,&internal1_m232_RA10,&internal1_m232_RA30,&internal1_m232_RA50,&internal1_m232_fls,&internal1_m232_flp,&internal1_m232_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_orrsim  S_orrsim_67_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03LDU,&A1AD04LDU,&A1AD05LDU,&var215,&lRM_1_,&var214,&fEM_A1MC01RC1,&fEM_A1MC02RC1,&fEM_A1MV01RC1,&fEM_A1MV02RC1,&lRM_1_,array_m67_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB1,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_A1MC01RSP,&fEM_A1MC02RSP,&var326,&var327,&var328,&var329,&var330,&vainSFloat,&vainSFloat,&vainSBool,&vainSBool,&var331,&var332,&internal1_m67_X00,&internal1_m67_Sh00,&internal1_m67_RV00,&internal1_m67_ShV00,&internal1_m67_Ppv0,&internal1_m67_Pav0,&internal1_m67_Zav0,&internal1_m67_RA00,&internal1_m67_RA10,&internal1_m67_RA30,&internal1_m67_RA50,&internal1_m67_fls,&internal1_m67_flp,&internal1_m67_MyFirstEnterFlag,&bFirstEnterFlag};
-_S_azbars  S_azbars_14_1 = {&var326,&var311,&var296,&var282,&fEM_R0UR30RIM,&A7AP31LDU,&var190,&lEM_R8AD10LC1,&var2,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_A0UN07RIM,&fEM_R0UT01RIM,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var226,&var228,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_A0UT03RSP,&var333,&var334,&var335,&var336,&var337,&var338,&var339,&internal1_m14_C1,&internal1_m14_C2,&internal1_m14_C3,&internal1_m14_C4,&internal1_m14_C5,&internal1_m14_C6,&internal1_m14_N20,&internal1_m14_N00,&internal1_m14_R00,&internal1_m14_T00,&internal1_m14_ImpINI0,&internal1_m14_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_orrsim  S_orrsim_65_1 = {&A1AD11LDU,&A1AD21LDU,&A1AD02LDU,&A1AD01LDU,&A1AD03LDU,&A1AD04LDU,&A1AD05LDU,&var215,&lRM_1_,&var214,&fEM_A1MC01RC1,&fEM_A1MC02RC1,&fEM_A1MV01RC1,&fEM_A1MV02RC1,&lRM_1_,array_m65_Vr_1,&fEM_A1UC02RDU,&fRM_0_,&fEM_A1UP01RIM,&fEM_A1UG01RDU,&fEM_A1US07RDU,&fEM_A1UV02RIM,&iEM_TERBB1,&fEM_A1UC04RIM,&fEM_A1UC05RIM,&fEM_A1UC06RIM,&fEM_A1UC08RIM,&fEM_A1MC01RSP,&fEM_A1MC02RSP,&var326,&var327,&var328,&var329,&var330,&vainSFloat,&vainSFloat,&vainSBool,&vainSBool,&var331,&var332,&internal1_m65_X00,&internal1_m65_Sh00,&internal1_m65_RV00,&internal1_m65_ShV00,&internal1_m65_Ppv0,&internal1_m65_Pav0,&internal1_m65_Zav0,&internal1_m65_RA00,&internal1_m65_RA10,&internal1_m65_RA30,&internal1_m65_RA50,&internal1_m65_fls,&internal1_m65_flp,&internal1_m65_MyFirstEnterFlag,&bFirstEnterFlag};
+_S_azbars  S_azbars_14_1 = {&var326,&var311,&var296,&var282,&fEM_R0UR30RIM,&A7AP31LDU,&var190,&lEM_R8AD10LC1,&var2,&fEM_R0UL01RIM,&fEM_R0UN02RIM,&fEM_A0UN07RIM,&fEM_R0UN18RDU,&fEM_R0UT02RIM,&fEM_R0UT04RIM,&fEM_R0UT05RIM,&fEM_R0UH05RSS,&fEM_A0UN02RIM,&fEM_A0UN01RIM,&fEM_A1UR00RIM,&fEM_A1UR01RIM,&fEM_A2UR00RIM,&fEM_A2UR01RIM,&fEM_A3UR00RIM,&fEM_A3UR01RIM,&var226,&var228,&fEM_R0UT03RIM,&fEM_R0UT06RIM,&fEM_A0UR02RSP,&fEM_A0UR01RSP,&fEM_A0UT03RSP,&var333,&var334,&var335,&var336,&var337,&var338,&var339,&internal1_m14_C1,&internal1_m14_C2,&internal1_m14_C3,&internal1_m14_C4,&internal1_m14_C5,&internal1_m14_C6,&internal1_m14_N20,&internal1_m14_N00,&internal1_m14_R00,&internal1_m14_T00,&internal1_m14_ImpINI0,&internal1_m14_MyFirstEnterFlag,&bFirstEnterFlag};
 
 
 void Scheme()
@@ -6320,7 +6320,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   zpfs(&S_zpfs_615_1);
   zpfs(&S_zpfs_627_1);
   noto(&S_noto_474_1);
-  noto(&S_noto_473_1);
+  noto(&S_noto_471_1);
   noto(&S_noto_482_1);
   noto(&S_noto_481_1);
   to3val(&S_to3val_954_1);
@@ -6342,7 +6342,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_52_1);
   noto(&S_noto_218_1);
   noto(&S_noto_219_1);
-  orn(&S_orn_623_1);
+  orn(&S_orn_625_1);
   asmot(&S_asmot_592_1);
   asmot(&S_asmot_593_1);
   noto(&S_noto_600_1);
@@ -6404,7 +6404,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_1037_1);
   twobool(&S_twobool_62_1);
   twobool(&S_twobool_47_1);
-  twobool(&S_twobool_229_1);
+  twobool(&S_twobool_228_1);
   twobool(&S_twobool_211_1);
   zpfs(&S_zpfs_601_1);
   zpfs(&S_zpfs_603_1);
@@ -6449,9 +6449,9 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   andn(&S_andn_902_1);
   asmot(&S_asmot_605_1);
   asmot(&S_asmot_606_1);
-  asmot(&S_asmot_471_1);
-  asmot(&S_asmot_483_1);
   asmot(&S_asmot_472_1);
+  asmot(&S_asmot_483_1);
+  asmot(&S_asmot_473_1);
   noto(&S_noto_914_1);
   andn(&S_andn_910_1);
   noto(&S_noto_921_1);
@@ -6468,12 +6468,12 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_1015_1);
   twobool(&S_twobool_1014_1);
   twobool(&S_twobool_1033_1);
-  orrsim(&S_orrsim_67_1);
+  orrsim(&S_orrsim_65_1);
   orrsim(&S_orrsim_232_1);
   orrsim(&S_orrsim_100_1);
   orrsim(&S_orrsim_270_1);
   orrsim(&S_orrsim_136_1);
-  orrsim(&S_orrsim_300_1);
+  orrsim(&S_orrsim_303_1);
   fsubo(&S_fsubo_80_1);
   fsubo(&S_fsubo_247_1);
   fsubo(&S_fsubo_285_1);
@@ -6488,7 +6488,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   twobool(&S_twobool_319_1);
   twobool(&S_twobool_348_1);
   to3val(&S_to3val_323_1);
-  ktoenc(&S_ktoenc_327_1);
+  ktoenc(&S_ktoenc_326_1);
   twobool(&S_twobool_347_1);
   twobool(&S_twobool_349_1);
   to3val(&S_to3val_333_1);
@@ -6554,7 +6554,7 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   vchs(&S_vchs_870_1);
   vchs(&S_vchs_880_1);
   to3val(&S_to3val_640_1);
-  setData(idR1SR02RIM,&var339);
+  setData(idR0SR03RIM,&var339);
   setData(idR8AD22LDU,&var3);
   setData(idLTAKTS,&var4);
   setData(idkrb2,&var303);
