@@ -1,5 +1,4 @@
 <vars>
-<var  name="A1VN71LZ2" description="(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ" format="1"></var>
 <var  name="R0MD34LP1" description="( - , Baz2) Кнопка Квитировать" format="1"></var>
 <var  name="R0AD04LZ2" description="(vds32:05 - K08VDSR, - ) Имитация срабатывания АС II УР рад (БАЗ2)" format="1"></var>
 <var  name="R0VN71LZ2" description="(vds32:05 - K01VDSR, Baz2) АС по мощности канал 1" format="1"></var>
@@ -18,7 +17,7 @@
 <var  name="A2IS12LDU" description="(vds32:05 - K10VDSR, - ) Магнит РБ1 зацеплен" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:05 - K11VDSR, - ) Магнит РБ2 зацеплен" format="1"></var>
 <var  name="R0EE02LDU" description="( - , Baz2) Питание  АКНП  отключить" format="1"></var>
-<var  name="A0EE07LZ2" description="( - , Baz2) Исправность сети АКНП3" format="1"></var>
+<var  name="R0DE04LZ2" description="(vas84:04 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 4 месте" format="3"></var>
 <var  name="A0EE08LZ2" description="( - , Baz2) Исправность сети АКНП4" format="1"></var>
 <var  name="A0VZ71LZ2" description="( - , Baz2) Обобщенный сигнал АС по АЗ1" format="1"></var>
 <var  name="A0EE00LZ2" description="( - , Baz2) Исправность АКНП АЗ1" format="1"></var>
@@ -38,7 +37,7 @@
 <var  name="A1VN71LS2" description="(vds32:06 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 2" format="1"></var>
 <var  name="A1VN71LS3" description="(vds32:08 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 3" format="1"></var>
 <var  name="A1VN71LS4" description="(vds32:07 - K04VDSR, - ) Блокировка автоматического подъёма ББ канал 4" format="1"></var>
-<var  name="B3IS11LDU" description="(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2" format="1"></var>
+<var  name="A1VN71LZ2" description="(fds16:0a - K04FDSR, - ) Блокировка автоматического подъёма ББ" format="1"></var>
 <var  name="A3VZ31LZ2" description="( - , Baz2) АЗ от ВУ ИС1" format="1"></var>
 <var  name="B3VZ31LZ2" description="( - , Baz2) АЗ от ВУ ИС2" format="1"></var>
 <var  name="R0AD05LZ2" description="(vds32:05 - K09VDSR, - ) Имитация ухода с НУП ИС" format="1"></var>
@@ -47,17 +46,17 @@
 <var  name="B3IS22LDU" description="(vds32:06 - K06VDSR, - ) Приход на НУП ИС2" format="1"></var>
 <var  name="A3VZ15LZ2" description="(fds16:0a - K02FDSR, Baz2) Имитация АЗ от НУП ИС" format="1"></var>
 <var  name="A3VZ13LZ2" description="(fds16:0a - K01FDSR, Baz2) Имитация АЗ от ВУ ИС" format="1"></var>
-<var  name="R7II73LZ2" description="(vds32:08 - K07VDSR, Baz2) Сработала АС II УР РАД" format="1"></var>
-<var  name="R7II71LZ2" description="(vds32:08 - K05VDSR, Baz2) Сработала АС IУР РАД (датчик 1)" format="1"></var>
-<var  name="R7II72LZ2" description="(vds32:08 - K06VDSR, Baz2) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
 <var  name="R0AD14LZ2" description="(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР" format="1"></var>
 <var  name="R0AD21LDU" description="( - , SBz2DU) Подключить защиту от II УР" format="1"></var>
-<var  name="R6IS66LZZ" description="( - , - ) Исправность ВИП 4,0 (№5) ССДИ-1-1" format="1"></var>
-<var  name="R6IS67LZZ" description="( - , - ) Исправность ВИП 4,0 (№6) ССДИ-1-2" format="1"></var>
-<var  name="R6IS68LZZ" description="( - , - ) Исправность ВИП 4,0 (№7) ССДИ-2" format="1"></var>
 <var  name="R0S01LZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
 <var  name="ttlfa1" description="( - , MBz2A1) ttlf float" format="8"></var>
-<var  name="R0DE04LZ2" description="(vas84:04 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 4 месте" format="3"></var>
+<var  name="R7II74LZ2" description="(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР" format="1"></var>
+<var  name="R7II75LZ2" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР" format="1"></var>
+<var  name="R7II76LZ2" description="(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР" format="1"></var>
+<var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)" format="1"></var>
+<var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
+<var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД" format="1"></var>
+<var  name="R6IS66LZ2" description="(vds32:07 - K05VDSR, - ) Исправность БОС" format="1"></var>
 <var  name="R0DE05LZ2" description="(vds32:05 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 5 месте" format="3"></var>
 <var  name="R0DE06LZ2" description="(vds32:06 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 6 месте" format="3"></var>
 <var  name="R0DE07LZ2" description="(vds32:07 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 7 месте" format="3"></var>
@@ -77,6 +76,7 @@
 <var  name="A3IS11LDU" description="(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IS22LDU" description="(vds32:05 - K06VDSR, - ) Приход на НУП ИС1" format="1"></var>
 <var  name="R0AD03LZ2" description="(vds32:05 - K07VDSR, - ) Имитация прихода на ВУ ИС" format="1"></var>
+<var  name="B3IS11LDU" description="(vds32:06 - K05VDSR, - ) Приход на ВУ ИС2" format="1"></var>
 <var  name="A0VP41LZ2" description="( - , Baz2) Давление АЗ1 ниже АС" format="1"></var>
 <var  name="B0VP41LZ2" description="( - , Baz2) Давление АЗ2 ниже АС" format="1"></var>
 <var  name="B0VP81LZZ" description="(vds32:08 - K12VDSR, - ) Давление АЗ2 в норме" format="1"></var>
@@ -135,6 +135,7 @@
 <var  name="A1EE01LS2" description="(vds32:06 - K03VDSR, - ) Исправность АКНП  канал 2" format="1"></var>
 <var  name="A0EE05LZ2" description="( - , Baz2) Исправность сети АКНП1" format="1"></var>
 <var  name="A0EE06LZ2" description="( - , Baz2) Исправность сети АКНП2" format="1"></var>
+<var  name="A0EE07LZ2" description="( - , Baz2) Исправность сети АКНП3" format="1"></var>
 <var  name="R0VN61LS3" description="( - , MBz2A3) ПС по мощности канал 3" format="1"></var>
 <var  name="R0VN61LS4" description="( - , MBz2A4) ПС по мощности канал 4" format="1"></var>
 <var  name="R0VN65LS1" description="( - , MBz2A1) ПС по периоду разгона канал 1" format="1"></var>
@@ -179,18 +180,18 @@
 <var  name="fEM_R0UL07RDU" description="(R0UL07RDU) Время задержки  срабатывания АС II УР" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m214_tx" description="(internal1_m214_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m214_y0" description="(internal1_m214_y0) y0" format="18"></var>
-<var  name="internal1_m210_tx" description="(internal1_m210_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m210_y0" description="(internal1_m210_y0) y0" format="18"></var>
-<var  name="internal1_m205_TVuIs1" description="(internal1_m205_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1" format="8"></var>
-<var  name="internal1_m205_TVuIs2" description="(internal1_m205_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2" format="8"></var>
-<var  name="internal1_m205_TImVuIs" description="(internal1_m205_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 " format="8"></var>
-<var  name="internal1_m205_TNupIs1" description="(internal1_m205_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1" format="8"></var>
-<var  name="internal1_m205_TNupIs2" description="(internal1_m205_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2" format="8"></var>
-<var  name="internal1_m205_TImNupIs" description="(internal1_m205_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС" format="8"></var>
-<var  name="internal1_m205_TImAZ2UR" description="(internal1_m205_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР" format="8"></var>
-<var  name="internal1_m205_fef" description="(internal1_m205_fef) fef" format="1"></var>
+<var  name="internal1_m213_tx" description="(internal1_m213_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m213_y0" description="(internal1_m213_y0) y0" format="18"></var>
+<var  name="internal1_m209_tx" description="(internal1_m209_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m209_y0" description="(internal1_m209_y0) y0" format="18"></var>
+<var  name="internal1_m204_TVuIs1" description="(internal1_m204_TVuIs1)  Время до срабатывания АС от прихода на ВУ ИС1" format="8"></var>
+<var  name="internal1_m204_TVuIs2" description="(internal1_m204_TVuIs2)  Время до срабатывания АС от прихода на ВУ ИС2" format="8"></var>
+<var  name="internal1_m204_TImVuIs" description="(internal1_m204_TImVuIs)  Время до срабатывания имитации АС от прихода на ВУ ИС1,ИС2 " format="8"></var>
+<var  name="internal1_m204_TNupIs1" description="(internal1_m204_TNupIs1)  Время до срабатывания АС от ухода с НУП ИС1" format="8"></var>
+<var  name="internal1_m204_TNupIs2" description="(internal1_m204_TNupIs2)  Время до срабатывания АС от ухода с НУП ИС2" format="8"></var>
+<var  name="internal1_m204_TImNupIs" description="(internal1_m204_TImNupIs)  Время до срабатывания имитации АС от ухода с НУП ИС" format="8"></var>
+<var  name="internal1_m204_TImAZ2UR" description="(internal1_m204_TImAZ2UR) ImVuIs - Время до имитации срабатывания АС 2УР" format="8"></var>
+<var  name="internal1_m204_fef" description="(internal1_m204_fef) fef" format="1"></var>
 <var  name="internal1_m226_tx" description="(internal1_m226_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m226_y0" description="(internal1_m226_y0) y0" format="18"></var>
 <var  name="internal1_m111_tx" description="(internal1_m111_tx) tx - время накопленное сек" format="8"></var>
