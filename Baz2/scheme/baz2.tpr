@@ -3000,7 +3000,7 @@
         CONST_NAME="A2UP51RZZ"
       }
       [VVV_Text]{
-        R="1860,143,1943,180"
+        R="1860,143,1938,178"
         Number=444
         IsHold=TRUE
         Line1="Нормальные давления"
@@ -3173,7 +3173,7 @@
         Line2="в норме"
       }
       [VVV_Text]{
-        R="1820,87,1943,137"
+        R="1820,87,1935,134"
         Number=1109
         IsHold=TRUE
         Line1="Давление в кГ/см^2"
@@ -3225,20 +3225,20 @@
         }
       }
       [VVV_Text]{
-        R="278,321,314,333"
+        R="278,321,312,332"
         Number=1281
         IsHold=TRUE
         Line1="СБРОС ББ2"
         Line2=""
       }
       [VVV_Text]{
-        R="283,263,315,269"
+        R="283,263,313,268"
         Number=1283
         IsHold=TRUE
         Line1="Сброс РБ2"
       }
       [VVV_Text]{
-        R="177,324,219,330"
+        R="177,324,216,329"
         Number=1287
         IsHold=TRUE
         Line1="Давление АЗ2"
@@ -3389,26 +3389,26 @@
         Line3="АЗ2 ниже АС"
       }
       [VVV_Text]{
-        R="136,320,172,332"
+        R="136,320,170,331"
         Number=8
         IsHold=TRUE
         Line1="СБРОС ББ1"
         Line2=""
       }
       [VVV_Text]{
-        R="130,267,162,273"
+        R="130,267,160,272"
         Number=9
         IsHold=TRUE
         Line1="Сброс РБ1"
       }
       [VVV_Text]{
-        R="6,324,44,329"
+        R="6,324,45,329"
         Number=11
         IsHold=TRUE
         Line1="Давление АЗ1"
       }
       [VVV_Text]{
-        R="126,253,214,259"
+        R="126,253,210,258"
         Number=19
         IsHold=FALSE
         Line1="Давление в АЗ1, АЗ2 ниже АС"
@@ -3520,14 +3520,14 @@
         Line2="давления для АЗ2"
       }
       [VVV_Text]{
-        R="568,226,606,238"
+        R="568,226,602,237"
         Number=40
         IsHold=TRUE
         Line1="АЗ1: АС по "
         Line2="температуре"
       }
       [VVV_Text]{
-        R="205,139,235,157"
+        R="205,139,231,156"
         Number=41
         IsHold=TRUE
         Line1="АС по "
@@ -4535,7 +4535,7 @@
         Line2="период разгона    "
       }
       [VVV_Text]{
-        R="107,184,206,190"
+        R="107,184,198,189"
         Number=140
         IsHold=TRUE
         Line1="АЗ по неисправности 2-х каналов"
@@ -4645,7 +4645,7 @@
         }
       }
       [VVV_Text]{
-        R="50,140,103,152"
+        R="50,140,99,151"
         Number=272
         IsHold=TRUE
         Line1="Усредненный"
@@ -4795,7 +4795,7 @@
         }
       }
       [VVV_Text]{
-        R="212,167,235,179"
+        R="212,167,232,178"
         Number=548
         IsHold=TRUE
         Line1="АЗ от"
@@ -4828,14 +4828,14 @@
         }
       }
       [VVV_Text]{
-        R="618,190,641,202"
+        R="618,190,638,201"
         Number=565
         IsHold=TRUE
         Line1="АЗ от"
         Line2="НУ ИС1"
       }
       [VVV_Text]{
-        R="211,189,234,201"
+        R="211,189,231,200"
         Number=566
         IsHold=TRUE
         Line1="АЗ от"
@@ -5379,28 +5379,28 @@
         ABBRV="NOTO"
       }
       [VVV_Text]{
-        R="120,8,164,22"
+        R="120,8,155,19"
         Number=210
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП1"
       }
       [VVV_Text]{
-        R="163,8,207,22"
+        R="163,8,198,19"
         Number=211
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП3"
       }
       [VVV_Text]{
-        R="122,161,160,173"
+        R="122,161,157,172"
         Number=212
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП4"
       }
       [VVV_Text]{
-        R="161,160,199,172"
+        R="161,160,196,171"
         Number=796
         IsHold=TRUE
         Line1="Исправность"
@@ -5512,7 +5512,7 @@
         }
       }
       [VVV_Text]{
-        R="616,166,639,178"
+        R="616,166,636,177"
         Number=816
         IsHold=TRUE
         Line1="АЗ от"
@@ -5532,7 +5532,7 @@
         }
       }
       [VVV_Text]{
-        R="528,75,570,87"
+        R="528,75,568,86"
         Number=820
         IsHold=TRUE
         Line1="    АС по"
@@ -5552,7 +5552,7 @@
         }
       }
       [VVV_Text]{
-        R="530,113,567,125"
+        R="530,113,565,124"
         Number=825
         IsHold=TRUE
         Line1="    АС по"
@@ -5596,14 +5596,14 @@
         }
       }
       [VVV_Text]{
-        R="581,123,635,135"
+        R="581,123,631,134"
         Number=838
         IsHold=TRUE
         Line1="АЗ по АС любого"
         Line2="давления для АЗ1"
       }
       [VVV_Text]{
-        R="375,150,412,162"
+        R="375,150,410,161"
         Number=839
         IsHold=FALSE
         Line1="    АС по"
@@ -5623,7 +5623,7 @@
         }
       }
       [VVV_Text]{
-        R="266,126,296,144"
+        R="266,126,293,143"
         Number=861
         IsHold=TRUE
         Line1="АС по"
@@ -5657,7 +5657,7 @@
         }
       }
       [VVV_Text]{
-        R="249,229,303,241"
+        R="249,229,299,240"
         Number=870
         IsHold=TRUE
         Line1="АЗ по АС любого"
@@ -5703,25 +5703,25 @@
         Line1="Рис.5 Контроль периода"
       }
       [VVV_Text]{
-        R="1516,871,1769,877"
+        R="1516,871,1745,876"
         Number=879
         IsHold=FALSE
         Line1="Рис.6 Обработка сигналов проверки и реализации сброса при выполнении имульса"
       }
       [VVV_Text]{
-        R="1575,416,1672,422"
+        R="1575,416,1665,421"
         Number=880
         IsHold=TRUE
         Line1="Рис.3 Ввод и контроль давления"
       }
       [VVV_Text]{
-        R="992,428,1066,434"
+        R="992,428,1061,433"
         Number=883
         IsHold=FALSE
         Line1="Рис.2 Ввод данных АКНП"
       }
       [VVV_Text]{
-        R="352,404,453,410"
+        R="352,404,446,409"
         Number=884
         IsHold=TRUE
         Line1="Рис.1 Формирование сигналов АЗ"
@@ -6187,7 +6187,7 @@
         }
       }
       [VVV_Text]{
-        R="1495,911,1516,917"
+        R="1495,911,1513,916"
         Number=995
         IsHold=TRUE
         Line1="Испр-1"
@@ -6206,7 +6206,7 @@
         }
       }
       [VVV_Text]{
-        R="1495,943,1516,949"
+        R="1495,943,1513,948"
         Number=999
         IsHold=TRUE
         Line1="Испр-2"
@@ -6225,7 +6225,7 @@
         }
       }
       [VVV_Text]{
-        R="1497,974,1518,980"
+        R="1497,974,1515,979"
         Number=1004
         IsHold=TRUE
         Line1="Испр-3"
@@ -6263,7 +6263,7 @@
         }
       }
       [VVV_Text]{
-        R="1349,908,1371,914"
+        R="1349,908,1370,913"
         Number=1014
         IsHold=TRUE
         Line1="Мощн-1"
@@ -6282,7 +6282,7 @@
         }
       }
       [VVV_Text]{
-        R="1352,943,1374,949"
+        R="1352,943,1373,948"
         Number=1019
         IsHold=TRUE
         Line1="Мощн-2"
@@ -6301,7 +6301,7 @@
         }
       }
       [VVV_Text]{
-        R="1352,976,1374,982"
+        R="1352,976,1373,981"
         Number=1024
         IsHold=TRUE
         Line1="Мощн-3"
@@ -7025,7 +7025,7 @@
         }
       }
       [VVV_Text]{
-        R="553,272,586,284"
+        R="553,272,581,283"
         Number=760
         IsHold=TRUE
         Line1="Сработала"
@@ -7522,14 +7522,14 @@
         }
       }
       [VVV_Text]{
-        R="1230,924,1268,936"
+        R="1230,924,1265,935"
         Number=111
         IsHold=TRUE
         Line1="Исправность"
         Line2="АКНП АЗ2"
       }
       [VVV_Text]{
-        R="1609,932,1645,950"
+        R="1609,932,1643,949"
         Number=114
         IsHold=TRUE
         Line1="Давление"
@@ -7537,7 +7537,7 @@
         Line3="ниже ПС"
       }
       [VVV_Text]{
-        R="1807,929,1843,947"
+        R="1807,929,1841,946"
         Number=115
         IsHold=TRUE
         Line1="Давление"
@@ -9800,14 +9800,14 @@
         Line2="АС 3К IУР"
       }
       [VVV_Text]{
-        R="1507,718,1540,730"
+        R="1507,718,1540,729"
         Number=543
         IsHold=FALSE
         Line1="Сработала"
         Line2="АС IУР РАД"
       }
       [VVV_Text]{
-        R="1766,732,1802,744"
+        R="1766,732,1802,743"
         Number=228
         IsHold=FALSE
         Line1="Сработала"
@@ -9867,6 +9867,58 @@
             Index=-1
           }
         }
+      }
+      [TDrawSignal]{
+        R="1371,804,1401,844"
+        Number=398
+        IsHold=FALSE
+        VisualNumber="196"
+        SIGNAL_NAME="R7II81LZ2"
+        KodTeprol="R7II81LZ2"
+        Comment="Сработала АС IУР"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="Baz2"
+        ChannalName=""
+        DeviceName=""
+        Line1="Сработала АС IУР"
+      }
+      [TDrawSignal]{
+        R="1855,809,1885,849"
+        Number=404
+        IsHold=FALSE
+        VisualNumber="230"
+        SIGNAL_NAME="R7II82LZ2"
+        KodTeprol="R7II82LZ2"
+        Comment="Сработала АС IIУР"
+        Type=3
+        ParamType=1
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=1
+        FormatMB=1
+        TypeMBMaster=1
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="Baz2"
+        ChannalName=""
+        DeviceName=""
+        Line1="Сработала АС IIУР"
       }
       [VVV_DrawConnector]{
         Number=348
@@ -19660,32 +19712,6 @@
           Index=-1
         }
       }
-      [TDrawSignal]{
-        R="1371,804,1401,844"
-        Number=398
-        IsHold=FALSE
-        VisualNumber="196"
-        SIGNAL_NAME="R7II81LZ2"
-        KodTeprol="R7II81LZ2"
-        Comment="Сработала АС IУР"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
-        Line1="Сработала АС IУР"
-      }
       [VVV_DrawConnector]{
         Number=401
         IsHold=FALSE
@@ -19708,32 +19734,6 @@
           ParameterName="R7II81LZ2"
           Index=-1
         }
-      }
-      [TDrawSignal]{
-        R="1855,809,1885,849"
-        Number=404
-        IsHold=FALSE
-        VisualNumber="230"
-        SIGNAL_NAME="R7II82LZ2"
-        KodTeprol="R7II82LZ2"
-        Comment="Сработала АС IIУР"
-        Type=3
-        ParamType=1
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
-        Line1="Сработала АС IIУР"
       }
       [VVV_DrawConnector]{
         Number=427
@@ -19763,4 +19763,4 @@
     }
   }
 }
-18645022
+18645649

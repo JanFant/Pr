@@ -56,8 +56,8 @@
 <var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)" format="1"></var>
 <var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
 <var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД" format="1"></var>
-<var  name="R7II81LZ2" description="( - , - ) Сработала АС IУР" format="1"></var>
-<var  name="R7II82LZ2" description="( - , - ) Сработала АС IIУР" format="1"></var>
+<var  name="R7II81LZ2" description="( - , Baz2) Сработала АС IУР" format="1"></var>
+<var  name="R7II82LZ2" description="( - , Baz2) Сработала АС IIУР" format="1"></var>
 <var  name="R0DE06LZ2" description="(vds32:06 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 6 месте" format="3"></var>
 <var  name="R0DE07LZ2" description="(vds32:07 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 7 месте" format="3"></var>
 <var  name="R0DE0ALZ2" description="(fds16:0a - Diagn, DiagnBaz2) диагностика модуля Баз2 на 10 месте" format="3"></var>
