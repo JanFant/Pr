@@ -943,7 +943,7 @@
         </record>
         <record>
             <value name="name">A3VZ15LZ1</value>
-            <value name="description">( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС</value>
+            <value name="description">( - K19VDSR, DU) Имитация срабатывания АЗ от НУП ИС (БАЗ1)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">20</value>
@@ -982,7 +982,7 @@
         </record>
         <record>
             <value name="name">R0AD14LZ2</value>
-            <value name="description">( - K20VDSR, DU) Имитация срабатывания АЗ от  II УР</value>
+            <value name="description">( - K20VDSR, DU) Имитация срабатывания АЗ от  II УР (БАЗ2)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">23</value>
@@ -995,7 +995,7 @@
         </record>
         <record>
             <value name="name">R0AD14LZ1</value>
-            <value name="description">( - K20VDSR, DU) Имитация срабатывания АЗ от II УР</value>
+            <value name="description">( - K20VDSR, DU) Имитация срабатывания АЗ от II УР (БАЗ1)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">24</value>
@@ -8626,7 +8626,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UN16RDU</value>
-            <value name="description">( - , DU) Коэффициент a1 ф-ции определения положения ИМ с 0-й реактивностью</value>
+            <value name="description">( - , DU) Коэффициент a1 ф-ции определения положения ИС с 0-й реактивностью</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">285</value>
@@ -8652,7 +8652,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UN18RDU</value>
-            <value name="description">( - , DU) Коэффициент температурной корректировки реактивности(долл)</value>
+            <value name="description">( - , DU) Коэффициент t1 ф-ции температурной корректировки положения ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">289</value>
@@ -8665,7 +8665,7 @@
         </record>
         <record>
             <value name="name">fEM_R0UN19RDU</value>
-            <value name="description">( - , DU) Коэффициент t0 ф-ции температурной корректировки ИМ</value>
+            <value name="description">( - , DU) Коэффициент t0 ф-ции температурной корректировки положения ИС</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">291</value>

@@ -125,7 +125,6 @@
   <save value ="975000.0">fEM_R0UH03RSS</save>
   <save value ="20">fEM_R4US80RDU</save>
   <save value ="18000">fEM_R7UI71RIM</save>
-  <save value ="18000">fEM_R7UI72RIM</save>
   <save value ="18000">fEM_R7UI73RIM</save>
   <save value ="0.76">fEM_A1UP01RIM</save>
   <save value ="0.245">fEM_A2UP01RIM</save>
@@ -223,11 +222,9 @@
   <save value ="0">iEM_TERA3SP02RIM</save>
   <save value ="0">iEM_TERR6IS62LIM</save>
   <save value ="0">iEM_TERR6IS66LIM</save>
-  <save value ="0">iEM_TERR6IS67LIM</save>
   <save value ="0">iEM_TERA0VP81LIM</save>
   <save value ="0">iEM_TERB0VP81LIM</save>
   <save value ="0">iEM_TERR0VP81LIM</save>
-  <save value ="0">iEM_TERR6IS68LIM</save>
   <save value ="0">iEM_TERR7SI74RIM</save>
   <save value ="0">iEM_TERA5SS21LIM</save>
   <save value ="0">iEM_TERB5SS11LIM</save>

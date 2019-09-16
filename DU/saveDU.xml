@@ -160,7 +160,7 @@
   <save value ="0.05">fEM_R0UN03RSS</save>
   <save value ="0.08">fEM_R7UI76RDU</save>
   <save value ="0.100">fEM_R0UL00RDU</save>
-  <save value ="2.0">fEM_R0UN15RDU</save>
+  <save value ="1.0">fEM_R0UN15RDU</save>
   <save value ="0.21">fEM_A1UR01RDU</save>
   <save value ="0.0096">fEM_A3UR01RDU</save>
 </saves>
