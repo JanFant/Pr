@@ -51,12 +51,12 @@
 <var  name="R6IS66LZ2" description="(vds32:07 - K05VDSR, - ) Исправность БОС" format="1"></var>
 <var  name="R0S01LZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
 <var  name="ttlfa1" description="( - , MBz2A1) ttlf float" format="8"></var>
-<var  name="R7II74LZ2" description="(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР" format="1"></var>
-<var  name="R7II75LZ2" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР" format="1"></var>
-<var  name="R7II76LZ2" description="(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)" format="1"></var>
-<var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
-<var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД" format="1"></var>
+<var  name="R7II74LZ2" description="(vds32:06 - K08VDSR, Baz2) Сработала АС 1К IIУР" format="1"></var>
+<var  name="R7II75LZ2" description="(vds32:07 - K07VDSR, Baz2) Сработала АС 2К IIУР" format="1"></var>
+<var  name="R7II76LZ2" description="(vds32:08 - K06VDSR, Baz2) Сработала АС 3К IIУР" format="1"></var>
+<var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, Baz2) Сработала АС IУР РАД (датчик 1)" format="1"></var>
+<var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, Baz2) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
+<var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, Baz2) Сработала АС II УР РАД" format="1"></var>
 <var  name="R0DE05LZ2" description="(vds32:05 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 5 месте" format="3"></var>
 <var  name="R0DE06LZ2" description="(vds32:06 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 6 месте" format="3"></var>
 <var  name="R0DE07LZ2" description="(vds32:07 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 7 месте" format="3"></var>

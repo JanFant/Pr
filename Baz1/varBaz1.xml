@@ -52,12 +52,12 @@
 <var  name="B8VC01RDU" description="( - , SBz1DU, MBz1A1, MBz1A2, MBz1A3, MBz1A4) Координата АЗ2, мм" format="8"></var>
 <var  name="R0S01LZ1" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
 <var  name="ttlfa1" description="( - , MBz1A1) ttlf float" format="8"></var>
-<var  name="R7II74LZ1" description="(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР" format="1"></var>
-<var  name="R7II71LZ1" description="(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)" format="1"></var>
-<var  name="R7II75LZ1" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР" format="1"></var>
-<var  name="R7II76LZ1" description="(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II72LZ1" description="(vds32:07 - K07VDSR, - ) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
-<var  name="R7II73LZ1" description="(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД" format="1"></var>
+<var  name="R7II74LZ1" description="(vds32:06 - K08VDSR, Baz1) Сработала АС 1К IIУР" format="1"></var>
+<var  name="R7II71LZ1" description="(vds32:06 - K07VDSR, Baz1) Сработала АС IУР РАД (датчик 1)" format="1"></var>
+<var  name="R7II75LZ1" description="(vds32:07 - K07VDSR, Baz1) Сработала АС 2К IIУР" format="1"></var>
+<var  name="R7II76LZ1" description="(vds32:08 - K06VDSR, Baz1) Сработала АС 3К IIУР" format="1"></var>
+<var  name="R7II72LZ1" description="(vds32:07 - K07VDSR, Baz1) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
+<var  name="R7II73LZ1" description="(vds32:08 - K05VDSR, Baz1) Сработала АС II УР РАД" format="1"></var>
 <var  name="R6IS66LZ1" description="(vds32:07 - K05VDSR, - ) Исправность БУС УР" format="1"></var>
 <var  name="R0VN71LZ1" description="(vds32:05 - K01VDSR, Baz1) АС по мощности канал 1" format="1"></var>
 <var  name="R0VN75LZ1" description="(vds32:05 - K02VDSR, Baz1) АС по периоду разгона канал 1" format="1"></var>
