@@ -545,34 +545,34 @@ static char BUFFER[SIZE_BUFFER];
 #define idR6IS64LDU	267	// ( - , - ) Исправность ВИП ССДИ-35 1канал
 #define R6IS65LDU	BUFFER[695]	// ( - , - ) Исправность ВИП ССДИ-35 2канал
 #define idR6IS65LDU	268	// ( - , - ) Исправность ВИП ССДИ-35 2канал
-#define R6IS66LZ1	BUFFER[697]	// ( - , - ) Исправность БОС
-#define idR6IS66LZ1	269	// ( - , - ) Исправность БОС
-#define R6IS66LZ2	BUFFER[699]	// ( - , - ) Исправность БОС
-#define idR6IS66LZ2	270	// ( - , - ) Исправность БОС
-#define R7II71LZ1	BUFFER[701]	// ( - , - ) Сработала АС 1К IУР
-#define idR7II71LZ1	271	// ( - , - ) Сработала АС 1К IУР
-#define R7II71LZ2	BUFFER[703]	// ( - , - ) Сработала АС 1К IУР
-#define idR7II71LZ2	272	// ( - , - ) Сработала АС 1К IУР
-#define R7II72LZ1	BUFFER[705]	// ( - , - ) Сработала АС 2К IУР
-#define idR7II72LZ1	273	// ( - , - ) Сработала АС 2К IУР
-#define R7II72LZ2	BUFFER[707]	// ( - , - ) Сработала АС 2К IУР
-#define idR7II72LZ2	274	// ( - , - ) Сработала АС 2К IУР
-#define R7II73LZ1	BUFFER[709]	// ( - , - ) Сработала АС 3К IУР
-#define idR7II73LZ1	275	// ( - , - ) Сработала АС 3К IУР
-#define R7II73LZ2	BUFFER[711]	// ( - , - ) Сработала АС 3К IУР
-#define idR7II73LZ2	276	// ( - , - ) Сработала АС 3К IУР
-#define R7II74LZ1	BUFFER[713]	// ( - , - ) Сработала АС 1К IIУР
-#define idR7II74LZ1	277	// ( - , - ) Сработала АС 1К IIУР
-#define R7II74LZ2	BUFFER[715]	// ( - , - ) Сработала АС 1К IIУР
-#define idR7II74LZ2	278	// ( - , - ) Сработала АС 1К IIУР
-#define R7II75LZ1	BUFFER[717]	// ( - , - ) Сработала АС 2К IIУР
-#define idR7II75LZ1	279	// ( - , - ) Сработала АС 2К IIУР
-#define R7II75LZ2	BUFFER[719]	// ( - , - ) Сработала АС 2К IIУР
-#define idR7II75LZ2	280	// ( - , - ) Сработала АС 2К IIУР
-#define R7II76LZ1	BUFFER[721]	// ( - , - ) Сработала АС 3К IIУР
-#define idR7II76LZ1	281	// ( - , - ) Сработала АС 3К IIУР
-#define R7II76LZ2	BUFFER[723]	// ( - , - ) Сработала АС 3К IIУР
-#define idR7II76LZ2	282	// ( - , - ) Сработала АС 3К IIУР
+#define R6IS66LZ1	BUFFER[697]	// (do32_pti:100 - K17DO, - ) Исправность БОС
+#define idR6IS66LZ1	269	// (do32_pti:100 - K17DO, - ) Исправность БОС
+#define R6IS66LZ2	BUFFER[699]	// (do32_pti:110 - K17DO, - ) Исправность БОС
+#define idR6IS66LZ2	270	// (do32_pti:110 - K17DO, - ) Исправность БОС
+#define R7II71LZ1	BUFFER[701]	// (do32_pti:100 - K16DO, - ) Сработала АС 1К IУР
+#define idR7II71LZ1	271	// (do32_pti:100 - K16DO, - ) Сработала АС 1К IУР
+#define R7II71LZ2	BUFFER[703]	// (do32_pti:110 - K22DO, - ) Сработала АС 1К IУР
+#define idR7II71LZ2	272	// (do32_pti:110 - K22DO, - ) Сработала АС 1К IУР
+#define R7II72LZ1	BUFFER[705]	// (do32_pti:100 - K18DO, - ) Сработала АС 2К IУР
+#define idR7II72LZ1	273	// (do32_pti:100 - K18DO, - ) Сработала АС 2К IУР
+#define R7II72LZ2	BUFFER[707]	// (do32_pti:110 - K18DO, - ) Сработала АС 2К IУР
+#define idR7II72LZ2	274	// (do32_pti:110 - K18DO, - ) Сработала АС 2К IУР
+#define R7II73LZ1	BUFFER[709]	// (do32_pti:110 - K08DO, - ) Сработала АС 3К IУР
+#define idR7II73LZ1	275	// (do32_pti:110 - K08DO, - ) Сработала АС 3К IУР
+#define R7II73LZ2	BUFFER[711]	// (do32_pti:110 - K24DO, - ) Сработала АС 3К IУР
+#define idR7II73LZ2	276	// (do32_pti:110 - K24DO, - ) Сработала АС 3К IУР
+#define R7II74LZ1	BUFFER[713]	// (do32_pti:100 - K13DO, - ) Сработала АС 1К IIУР
+#define idR7II74LZ1	277	// (do32_pti:100 - K13DO, - ) Сработала АС 1К IIУР
+#define R7II74LZ2	BUFFER[715]	// (do32_pti:110 - K20DO, - ) Сработала АС 1К IIУР
+#define idR7II74LZ2	278	// (do32_pti:110 - K20DO, - ) Сработала АС 1К IIУР
+#define R7II75LZ1	BUFFER[717]	// (do32_pti:100 - K19DO, - ) Сработала АС 2К IIУР
+#define idR7II75LZ1	279	// (do32_pti:100 - K19DO, - ) Сработала АС 2К IIУР
+#define R7II75LZ2	BUFFER[719]	// (do32_pti:110 - K19DO, - ) Сработала АС 2К IIУР
+#define idR7II75LZ2	280	// (do32_pti:110 - K19DO, - ) Сработала АС 2К IIУР
+#define R7II76LZ1	BUFFER[721]	// (do32_pti:110 - K23DO, - ) Сработала АС 3К IIУР
+#define idR7II76LZ1	281	// (do32_pti:110 - K23DO, - ) Сработала АС 3К IIУР
+#define R7II76LZ2	BUFFER[723]	// (do32_pti:110 - K25DO, - ) Сработала АС 3К IIУР
+#define idR7II76LZ2	282	// (do32_pti:110 - K25DO, - ) Сработала АС 3К IIУР
 #define R8AD21LDU	BUFFER[725]	// (vds32_pti:310 - K31VDSR, - ) Имитация прихода на ВУ ИС для КВДС
 #define idR8AD21LDU	283	// (vds32_pti:310 - K31VDSR, - ) Имитация прихода на ВУ ИС для КВДС
 #define R8AD22LDU	BUFFER[727]	// (do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом
@@ -3063,20 +3063,20 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{266	,1	,1	,&R6IS63LDU},	//( - , - ) Исправность ВИП ССДИ-39 2канал
 	{267	,1	,1	,&R6IS64LDU},	//( - , - ) Исправность ВИП ССДИ-35 1канал
 	{268	,1	,1	,&R6IS65LDU},	//( - , - ) Исправность ВИП ССДИ-35 2канал
-	{269	,1	,1	,&R6IS66LZ1},	//( - , - ) Исправность БОС
-	{270	,1	,1	,&R6IS66LZ2},	//( - , - ) Исправность БОС
-	{271	,1	,1	,&R7II71LZ1},	//( - , - ) Сработала АС 1К IУР
-	{272	,1	,1	,&R7II71LZ2},	//( - , - ) Сработала АС 1К IУР
-	{273	,1	,1	,&R7II72LZ1},	//( - , - ) Сработала АС 2К IУР
-	{274	,1	,1	,&R7II72LZ2},	//( - , - ) Сработала АС 2К IУР
-	{275	,1	,1	,&R7II73LZ1},	//( - , - ) Сработала АС 3К IУР
-	{276	,1	,1	,&R7II73LZ2},	//( - , - ) Сработала АС 3К IУР
-	{277	,1	,1	,&R7II74LZ1},	//( - , - ) Сработала АС 1К IIУР
-	{278	,1	,1	,&R7II74LZ2},	//( - , - ) Сработала АС 1К IIУР
-	{279	,1	,1	,&R7II75LZ1},	//( - , - ) Сработала АС 2К IIУР
-	{280	,1	,1	,&R7II75LZ2},	//( - , - ) Сработала АС 2К IIУР
-	{281	,1	,1	,&R7II76LZ1},	//( - , - ) Сработала АС 3К IIУР
-	{282	,1	,1	,&R7II76LZ2},	//( - , - ) Сработала АС 3К IIУР
+	{269	,1	,1	,&R6IS66LZ1},	//(do32_pti:100 - K17DO, - ) Исправность БОС
+	{270	,1	,1	,&R6IS66LZ2},	//(do32_pti:110 - K17DO, - ) Исправность БОС
+	{271	,1	,1	,&R7II71LZ1},	//(do32_pti:100 - K16DO, - ) Сработала АС 1К IУР
+	{272	,1	,1	,&R7II71LZ2},	//(do32_pti:110 - K22DO, - ) Сработала АС 1К IУР
+	{273	,1	,1	,&R7II72LZ1},	//(do32_pti:100 - K18DO, - ) Сработала АС 2К IУР
+	{274	,1	,1	,&R7II72LZ2},	//(do32_pti:110 - K18DO, - ) Сработала АС 2К IУР
+	{275	,1	,1	,&R7II73LZ1},	//(do32_pti:110 - K08DO, - ) Сработала АС 3К IУР
+	{276	,1	,1	,&R7II73LZ2},	//(do32_pti:110 - K24DO, - ) Сработала АС 3К IУР
+	{277	,1	,1	,&R7II74LZ1},	//(do32_pti:100 - K13DO, - ) Сработала АС 1К IIУР
+	{278	,1	,1	,&R7II74LZ2},	//(do32_pti:110 - K20DO, - ) Сработала АС 1К IIУР
+	{279	,1	,1	,&R7II75LZ1},	//(do32_pti:100 - K19DO, - ) Сработала АС 2К IIУР
+	{280	,1	,1	,&R7II75LZ2},	//(do32_pti:110 - K19DO, - ) Сработала АС 2К IIУР
+	{281	,1	,1	,&R7II76LZ1},	//(do32_pti:110 - K23DO, - ) Сработала АС 3К IIУР
+	{282	,1	,1	,&R7II76LZ2},	//(do32_pti:110 - K25DO, - ) Сработала АС 3К IIУР
 	{283	,1	,1	,&R8AD21LDU},	//(vds32_pti:310 - K31VDSR, - ) Имитация прихода на ВУ ИС для КВДС
 	{284	,1	,1	,&R8AD22LDU},	//(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом
 	{285	,1	,1	,&R8IS11LDU},	//(do32_pti:130 - K14DO, - ) Аварийный НИ установлен
@@ -5277,6 +5277,11 @@ static table_drv table_DO32_5F01={0,0,&ini_DO32_5F01,buf_DO32_5F01,0,0};
 #pragma pop
 #pragma pack(push,1)
 static DriverRegister def_buf_DO32_5F01[]={
+	{&R7II74LZ1,1,24},
+	{&R7II71LZ1,1,30},
+	{&R6IS66LZ1,1,32},
+	{&R7II72LZ1,1,34},
+	{&R7II75LZ1,1,36},
 	{NULL,0,0},
 };
 #pragma pop
@@ -5292,8 +5297,17 @@ static DriverRegister def_buf_DO32_5F02[]={
 	{&A3IS22LDU,1,2},
 	{&A0VP81LZZ,1,4},
 	{&A3IS11LDU,1,6},
+	{&R7II73LZ1,1,14},
 	{&B3IS11LDU,1,20},
 	{&B3IS22LDU,1,22},
+	{&R6IS66LZ2,1,32},
+	{&R7II72LZ2,1,34},
+	{&R7II75LZ2,1,36},
+	{&R7II74LZ2,1,38},
+	{&R7II71LZ2,1,42},
+	{&R7II76LZ1,1,44},
+	{&R7II73LZ2,1,46},
+	{&R7II76LZ2,1,48},
 	{&B0VP81LZZ,1,58},
 	{&B1VP81LZZ,1,60},
 	{NULL,0,0},

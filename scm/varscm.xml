@@ -71,11 +71,11 @@
 <var  name="R1IS11LDU" description="(do32_pti:130 - K22DO, - ) Приход на ВУ МДЗ1" format="1"></var>
 <var  name="B4IS21LDU" description="(do32_pti:140 - K08DO, SCM) Приход на НУ НИ2" format="1"></var>
 <var  name="B4IS11LDU" description="(do32_pti:140 - K07DO, - ) Приход на ВУ НИ2" format="1"></var>
-<var  name="R7II76LZ2" description="( - , - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II76LZ1" description="( - , - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II75LZ2" description="( - , - ) Сработала АС 2К IIУР" format="1"></var>
-<var  name="R7II75LZ1" description="( - , - ) Сработала АС 2К IIУР" format="1"></var>
-<var  name="R7II74LZ2" description="( - , - ) Сработала АС 1К IIУР" format="1"></var>
+<var  name="R7II76LZ2" description="(do32_pti:110 - K25DO, - ) Сработала АС 3К IIУР" format="1"></var>
+<var  name="R7II76LZ1" description="(do32_pti:110 - K23DO, - ) Сработала АС 3К IIУР" format="1"></var>
+<var  name="R7II75LZ2" description="(do32_pti:110 - K19DO, - ) Сработала АС 2К IIУР" format="1"></var>
+<var  name="R7II75LZ1" description="(do32_pti:100 - K19DO, - ) Сработала АС 2К IIУР" format="1"></var>
+<var  name="R7II74LZ2" description="(do32_pti:110 - K20DO, - ) Сработала АС 1К IIУР" format="1"></var>
 <var  name="R0SR03RIM" description="( - , SCM) Текущая мощность РУ аз1  (ватт)" format="8"></var>
 <var  name="R0S01LIM" description="(vds32_pti:360 - K32VDSR, - ) Отключение сетевых передач ПТИ" format="1"></var>
 <var  name="R8AD22LDU" description="(do32_pti:140 - K09DO, - ) Сигнал синхронизации с импульсом" format="1"></var>
@@ -101,12 +101,12 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R6IS66LZ2" description="( - , - ) Исправность БОС" format="1"></var>
-<var  name="R7II73LZ2" description="( - , - ) Сработала АС 3К IУР" format="1"></var>
-<var  name="R7II72LZ2" description="( - , - ) Сработала АС 2К IУР" format="1"></var>
-<var  name="R7II73LZ1" description="( - , - ) Сработала АС 3К IУР" format="1"></var>
-<var  name="R7II72LZ1" description="( - , - ) Сработала АС 2К IУР" format="1"></var>
-<var  name="R7II71LZ2" description="( - , - ) Сработала АС 1К IУР" format="1"></var>
+<var  name="R6IS66LZ2" description="(do32_pti:110 - K17DO, - ) Исправность БОС" format="1"></var>
+<var  name="R7II73LZ2" description="(do32_pti:110 - K24DO, - ) Сработала АС 3К IУР" format="1"></var>
+<var  name="R7II72LZ2" description="(do32_pti:110 - K18DO, - ) Сработала АС 2К IУР" format="1"></var>
+<var  name="R7II73LZ1" description="(do32_pti:110 - K08DO, - ) Сработала АС 3К IУР" format="1"></var>
+<var  name="R7II72LZ1" description="(do32_pti:100 - K18DO, - ) Сработала АС 2К IУР" format="1"></var>
+<var  name="R7II71LZ2" description="(do32_pti:110 - K22DO, - ) Сработала АС 1К IУР" format="1"></var>
 <var  name="R4VS12LDU" description="( - , SCM) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
 <var  name="R4VS22LDU" description="( - , SCM) Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
 <var  name="R1VS12LDU" description="( - , SCM) Движение МДЗ1 в сторону ВУ" format="1"></var>
@@ -241,7 +241,7 @@
 <var  name="A0VP81LZZ" description="(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме" format="1"></var>
 <var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2, мм" format="5"></var>
 <var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
-<var  name="R6IS66LZ1" description="( - , - ) Исправность БОС" format="1"></var>
+<var  name="R6IS66LZ1" description="(do32_pti:100 - K17DO, - ) Исправность БОС" format="1"></var>
 <var  name="R6IS65LDU" description="( - , - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var  name="R6IS64LDU" description="( - , - ) Исправность ВИП ССДИ-35 1канал" format="1"></var>
 <var  name="R6IS63LDU" description="( - , - ) Исправность ВИП ССДИ-39 2канал" format="1"></var>
@@ -280,9 +280,9 @@
 <var  name="B3IS35LDU" description="( - , - ) Клапан «ВПИС2» открыт(обесточен)" format="1"></var>
 <var  name="B3AD34LDU" description="(vds32_pti:340 - K26VDSR, - ) Клапан (ВПИС2) открыть (обесточить)" format="1"></var>
 <var  name="A3IS35LDU" description="( - , - ) Клапан (ВПИС1) открыт(обесточен)" format="1"></var>
-<var  name="R7II71LZ1" description="( - , - ) Сработала АС 1К IУР" format="1"></var>
+<var  name="R7II71LZ1" description="(do32_pti:100 - K16DO, - ) Сработала АС 1К IУР" format="1"></var>
 <var  name="R0AD16LDU" description="(vds32_pti:310 - K32VDSR, - ) Контроль  I-II УР. РАД" format="1"></var>
-<var  name="R7II74LZ1" description="( - , - ) Сработала АС 1К IIУР" format="1"></var>
+<var  name="R7II74LZ1" description="(do32_pti:100 - K13DO, - ) Сработала АС 1К IIУР" format="1"></var>
 <var  name="R0SR01RIM" description="( - , SCM) Текущая реактивность PУ" format="8"></var>
 <var  name="R0ST01RIM" description="( - , SCM) Текущий период разгона РУ" format="8"></var>
 <var  name="A4AD10LDU" description="(vds32_pti:340 - K15VDSR, - ) Открыть клапан (Подъем НИ1)" format="1"></var>
