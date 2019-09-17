@@ -308,12 +308,12 @@ int master=1,nomer=1;
 #define idR0VZ71LZ2	147	// (fds16:0a - K05FDSR, Baz2) Обобщенный сигнал АЗ 2 канала
 #define R6IS66LZ2	BUFFER[386]	// (vds32:07 - K05VDSR, - ) Исправность БОС
 #define idR6IS66LZ2	148	// (vds32:07 - K05VDSR, - ) Исправность БОС
-#define R7II71LZ2	BUFFER[388]	// (vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)
-#define idR7II71LZ2	149	// (vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)
-#define R7II72LZ2	BUFFER[390]	// (vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)
-#define idR7II72LZ2	150	// (vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)
-#define R7II73LZ2	BUFFER[392]	// (vds32:08 - K05VDSR, - ) Сработала АС II УР РАД
-#define idR7II73LZ2	151	// (vds32:08 - K05VDSR, - ) Сработала АС II УР РАД
+#define R7II71LZ2	BUFFER[388]	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
+#define idR7II71LZ2	149	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
+#define R7II72LZ2	BUFFER[390]	// (vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
+#define idR7II72LZ2	150	// (vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
+#define R7II73LZ2	BUFFER[392]	// (vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
+#define idR7II73LZ2	151	// (vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
 #define R7II74LZ2	BUFFER[394]	// (vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР
 #define idR7II74LZ2	152	// (vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР
 #define R7II75LZ2	BUFFER[396]	// (vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР
@@ -900,9 +900,9 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{146	,5	,1	,&R0VZ05UZ2},	//( - , Baz2) Индикатор причины сброса
 	{147	,1	,1	,&R0VZ71LZ2},	//(fds16:0a - K05FDSR, Baz2) Обобщенный сигнал АЗ 2 канала
 	{148	,1	,1	,&R6IS66LZ2},	//(vds32:07 - K05VDSR, - ) Исправность БОС
-	{149	,1	,1	,&R7II71LZ2},	//(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)
-	{150	,1	,1	,&R7II72LZ2},	//(vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)
-	{151	,1	,1	,&R7II73LZ2},	//(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД
+	{149	,1	,1	,&R7II71LZ2},	//(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
+	{150	,1	,1	,&R7II72LZ2},	//(vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
+	{151	,1	,1	,&R7II73LZ2},	//(vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
 	{152	,1	,1	,&R7II74LZ2},	//(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР
 	{153	,1	,1	,&R7II75LZ2},	//(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР
 	{154	,1	,1	,&R7II76LZ2},	//(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР

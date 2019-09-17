@@ -53,9 +53,9 @@
 <var  name="R7II74LZ2" description="(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР" format="1"></var>
 <var  name="R7II75LZ2" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР" format="1"></var>
 <var  name="R7II76LZ2" description="(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, - ) Сработала АС IУР РАД (датчик 1)" format="1"></var>
-<var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, - ) Сработала АС IУР РАД  (датчик 2)" format="1"></var>
-<var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, - ) Сработала АС II УР РАД" format="1"></var>
+<var  name="R7II71LZ2" description="(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР" format="1"></var>
+<var  name="R7II72LZ2" description="(vds32:07 - K06VDSR, - ) Сработала АС 2К IУР" format="1"></var>
+<var  name="R7II73LZ2" description="(vds32:08 - K05VDSR, - ) Сработала АС 3К IУР" format="1"></var>
 <var  name="R7II81LZ2" description="( - , Baz2) Сработала АС IУР" format="1"></var>
 <var  name="R7II82LZ2" description="( - , Baz2) Сработала АС IIУР" format="1"></var>
 <var  name="R0DE06LZ2" description="(vds32:06 - Diagn, DiagnBaz2) диагностика модуля Баз2 на 6 месте" format="3"></var>

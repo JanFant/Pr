@@ -9650,9 +9650,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -9677,9 +9677,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -9704,9 +9704,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -9725,15 +9725,15 @@
         VisualNumber="190"
         SIGNAL_NAME="R7II71LZ2"
         KodTeprol="R7II71LZ2"
-        Comment="Сработала АС IУР РАД (датчик 1)"
+        Comment="Сработала АС 1К IУР"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -9752,15 +9752,15 @@
         VisualNumber="197"
         SIGNAL_NAME="R7II72LZ2"
         KodTeprol="R7II72LZ2"
-        Comment="Сработала АС IУР РАД  (датчик 2)"
+        Comment="Сработала АС 2К IУР"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -9779,15 +9779,15 @@
         VisualNumber="200"
         SIGNAL_NAME="R7II73LZ2"
         KodTeprol="R7II73LZ2"
-        Comment="Сработала АС II УР РАД"
+        Comment="Сработала АС 3К IУР"
         Type=3
         ParamType=0
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -19763,4 +19763,4 @@
     }
   }
 }
-18645686
+18646192
