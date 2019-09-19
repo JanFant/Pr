@@ -3032,7 +3032,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP1"
         ChannalName="K01VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 1"
@@ -3058,7 +3058,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP1"
         ChannalName="K02VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 2"
@@ -3084,7 +3084,7 @@
         HistReg=0
         SinhrCycle_item=1
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP1"
         ChannalName="K01VCHS"
         DeviceName="VCHS02"
         Line1="Частота с ВЧС к 3"
@@ -3129,7 +3129,7 @@
         }
       }
       [VVV_Text]{
-        R="695,830,886,837"
+        R="695,830,888,837"
         Number=240
         IsHold=FALSE
         Line1="Рис. 3. Выравнивание частоты по линейной зависимости"
@@ -6005,4 +6005,4 @@
     }
   }
 }
-5782714
+5783757

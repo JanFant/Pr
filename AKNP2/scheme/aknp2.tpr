@@ -1630,7 +1630,7 @@
         }
       }
       [VVV_Text]{
-        R="291,426,449,433"
+        R="291,426,419,431"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -1686,7 +1686,7 @@
         }
       }
       [VVV_Text]{
-        R="845,404,1021,411"
+        R="845,404,987,409"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. Вычисление периода разгона и реактивности"
@@ -3024,7 +3024,7 @@
         }
       }
       [VVV_Text]{
-        R="1197,119,1260,133"
+        R="1197,119,1247,130"
         Number=151
         IsHold=FALSE
         Line1="Неисправность от "
@@ -3163,7 +3163,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP2"
         ChannalName="K01VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 1"
@@ -3189,7 +3189,7 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP2"
         ChannalName="K02VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 2"
@@ -3215,13 +3215,13 @@
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP2"
         ChannalName="K01VCHS"
         DeviceName="VCHS02"
         Line1="Частота с ВЧС к 3"
       }
       [VVV_Text]{
-        R="671,825,862,832"
+        R="671,825,826,830"
         Number=226
         IsHold=FALSE
         Line1="Рис. 3. Выравнивание частоты по линейной зависимости"
@@ -6097,4 +6097,4 @@
     }
   }
 }
-5856376
+5857394
