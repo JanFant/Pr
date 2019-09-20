@@ -16,11 +16,12 @@
 
 
     <DO32_5F01>
-        <def name="R7II74LZ1">K13DO</def>
-        <def name="R7II75LZ1">K19DO</def>
-        <def name="R7II72LZ1">K18DO</def>
+        <def name="R7II71LZ1">K01DO</def>
+        <def name="R7II74LZ1">K04DO</def>
+        <def name="R7II75LZ1">K02DO</def>
+        <def name="R7II72LZ1">K05DO</def>
+        <def name="R7II76LZ1">K03DO</def>
         <def name="R6IS66LZ1">K17DO</def>
-        <def name="R7II71LZ1">K16DO</def>
     </DO32_5F01>
 
 
@@ -37,9 +38,8 @@
         <def name="R7II73LZ1">K08DO</def>
         <def name="R7II72LZ2">K18DO</def>
         <def name="R7II73LZ2">K24DO</def>
-        <def name="R6IS66LZ2">K17DO</def>
         <def name="R7II76LZ2">K25DO</def>
-        <def name="R7II76LZ1">K23DO</def>
+        <def name="R6IS66LZ2">K17DO</def>
         <def name="R7II75LZ2">K19DO</def>
         <def name="R7II74LZ2">K20DO</def>
     </DO32_5F02>
@@ -64,8 +64,8 @@
 
     <DO32_5F08>
         <def name="B3IS21LDU">K13DO</def>
-        <def name="A4IS11LDU">K16DO</def>
         <def name="A7AS31LDU">K31DO</def>
+        <def name="A4IS11LDU">K16DO</def>
         <def name="B2IS12LDU">K10DO</def>
         <def name="B2IS11LDU">K11DO</def>
         <def name="B2IS21LDU">K12DO</def>
@@ -74,8 +74,8 @@
         <def name="A9IS21LDU">K19DO</def>
         <def name="A9IS11LDU">K18DO</def>
         <def name="A4IS21LDU">K17DO</def>
-        <def name="R8IS11LDU">K14DO</def>
         <def name="B7AS31LDU">K06DO</def>
+        <def name="R8IS11LDU">K14DO</def>
         <def name="A1IS12LDU">K32DO</def>
         <def name="B1IS21LDU">K09DO</def>
         <def name="B1IS11LDU">K08DO</def>
