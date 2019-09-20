@@ -184,8 +184,8 @@ int master=1,nomer=1;
 #define idR0DEB4LZ1	85	// (sbk:20 - S13SBK, DiagnBaz1) диагностика шкафа Баз1 БП24Д место 6
 #define R0EE01LZ1	BUFFER[197]	// ( - , MBz1S) Питание  АКНП1  отключить
 #define idR0EE01LZ1	86	// ( - , MBz1S) Питание  АКНП1  отключить
-#define R0EE02LDU	BUFFER[199]	// ( - , Baz1) Питание  АКНП  отключить
-#define idR0EE02LDU	87	// ( - , Baz1) Питание  АКНП  отключить
+#define R0EE02LDU	BUFFER[199]	// ( - , Baz1, SBz1DU) Питание  АКНП  отключить
+#define idR0EE02LDU	87	// ( - , Baz1, SBz1DU) Питание  АКНП  отключить
 #define R0EE02LZ1	BUFFER[201]	// ( - , MBz1S) Питание  АКНП2  отключить
 #define idR0EE02LZ1	88	// ( - , MBz1S) Питание  АКНП2  отключить
 #define R0EE03LZ1	BUFFER[203]	// ( - , MBz1S) Питание  АКНП3  отключить
@@ -308,8 +308,8 @@ int master=1,nomer=1;
 #define idR0VZ05U	147	// ( - , - ) причины сброса
 #define R0VZ05UZ1	BUFFER[383]	// ( - , Baz1) Индикатор причины сброса
 #define idR0VZ05UZ1	148	// ( - , Baz1) Индикатор причины сброса
-#define R0VZ71LZ1	BUFFER[388]	// (fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
-#define idR0VZ71LZ1	149	// (fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+#define R0VZ71LZ1	BUFFER[388]	// (fds16:0a - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+#define idR0VZ71LZ1	149	// (fds16:0a - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
 #define R6IS66LZ1	BUFFER[390]	// (vds32:07 - K05VDSR, - ) Исправность БУС УР
 #define idR6IS66LZ1	150	// (vds32:07 - K05VDSR, - ) Исправность БУС УР
 #define R7II71LZ1	BUFFER[392]	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
@@ -824,7 +824,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{84	,1	,1	,&R0DEB3LZ1},	//(sbk:20 - S12SBK, DiagnBaz1) диагностика шкафа Баз1 БП5 место 6
 	{85	,1	,1	,&R0DEB4LZ1},	//(sbk:20 - S13SBK, DiagnBaz1) диагностика шкафа Баз1 БП24Д место 6
 	{86	,1	,1	,&R0EE01LZ1},	//( - , MBz1S) Питание  АКНП1  отключить
-	{87	,1	,1	,&R0EE02LDU},	//( - , Baz1) Питание  АКНП  отключить
+	{87	,1	,1	,&R0EE02LDU},	//( - , Baz1, SBz1DU) Питание  АКНП  отключить
 	{88	,1	,1	,&R0EE02LZ1},	//( - , MBz1S) Питание  АКНП2  отключить
 	{89	,1	,1	,&R0EE03LZ1},	//( - , MBz1S) Питание  АКНП3  отключить
 	{90	,1	,1	,&R0EE04LZ1},	//( - , MBz1S) Питание  АКНП4  отключить
@@ -886,7 +886,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{146	,1	,1	,&R0VW23LDU},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
 	{147	,5	,1	,&R0VZ05U},	//( - , - ) причины сброса
 	{148	,5	,1	,&R0VZ05UZ1},	//( - , Baz1) Индикатор причины сброса
-	{149	,1	,1	,&R0VZ71LZ1},	//(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+	{149	,1	,1	,&R0VZ71LZ1},	//(fds16:0a - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
 	{150	,1	,1	,&R6IS66LZ1},	//(vds32:07 - K05VDSR, - ) Исправность БУС УР
 	{151	,1	,1	,&R7II71LZ1},	//(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
 	{152	,1	,1	,&R7II72LZ1},	//(vds32:07 - K07VDSR, - ) Сработала АС 2К IУР
@@ -1130,7 +1130,7 @@ static VarSaveCtrl saveVariables[]={	//Id переменных для сохра
 };
 #pragma pack(push,1)
 static ModbusRegister coil_Baz1[]={
-	{&R0EE02LDU,1,0},	//( - , Baz1) Питание  АКНП  отключить
+	{&R0EE02LDU,1,0},	//( - , Baz1, SBz1DU) Питание  АКНП  отключить
 	{&A0EE08LZ1,1,1},	//( - , Baz1) Исправность сети АКНП4
 	{&A0EE07LZ1,1,2},	//( - , Baz1) Исправность сети АКНП3
 	{&A0EE06LZ1,1,3},	//( - , Baz1) Исправность сети АКНП2
@@ -1161,7 +1161,7 @@ static ModbusRegister di_Baz1[]={
 	{&A0EE04LZ1,1,10},	//( - , Baz1, SBz1DU) Исправность АКНП4
 	{&A0EE01LZ1,1,11},	//( - , Baz1, SBz1DU) Исправность АКНП1
 	{&R0VN80LZ1,1,12},	//( - , Baz1) АЗ по АС периода разгона РУ
-	{&R0VZ71LZ1,1,13},	//( - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
+	{&R0VZ71LZ1,1,13},	//( - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
 	{&R7II82LZ1,1,14},	//( - , Baz1) Сработала АС IIУР
 	{&R7II81LZ1,1,15},	//( - , Baz1) Сработала АС IУР
 	{&TestDiagnBaz1,1,16},	//( - , Baz1) Неисправность от диагностики
@@ -1320,6 +1320,7 @@ static ModbusRegister coil_SBz1DU[]={
 	{&R0AD21LDU,1,0},	//( - , SBz1DU) Подключить защиту от II УР
 	{&R0VW23LDU,1,1},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
 	{&R0VW13LDU,1,2},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+	{&R0EE02LDU,1,3},	//( - , Baz1, SBz1DU) Питание  АКНП  отключить
 	{NULL,0,0},
 };
 #pragma pop
@@ -1489,7 +1490,7 @@ static DriverRegister def_buf_FDS16[]={
 	{&A3VZ15LZ1,1,2},
 	{&R0AD14LZ1,1,4},
 	{&A1VN71LZ1,1,6},
-	{&R0VZ71LZ1,1,8},
+	{&R0VZ71LZ1,1,30},
 	{&R0DE0ALZ1,3,38},
 	{NULL,0,0},
 };

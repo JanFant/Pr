@@ -2009,7 +2009,7 @@
         </record>
         <record>
             <value name="name">R0EE02LDU</value>
-            <value name="description">( - , DU) Питание  АКНП  отключить</value>
+            <value name="description">( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">102</value>

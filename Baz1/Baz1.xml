@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0EE02LDU</value>
-            <value name="description">( - , Baz1) Питание  АКНП  отключить</value>
+            <value name="description">( - , Baz1, SBz1DU) Питание  АКНП  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -410,7 +410,7 @@
         </record>
         <record>
             <value name="name">R0VZ71LZ1</value>
-            <value name="description">( - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала</value>
+            <value name="description">( - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">13</value>

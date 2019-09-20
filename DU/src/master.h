@@ -1164,8 +1164,8 @@ int master=1,nomer=1;
 #define idR0DEB3LDU	575	// (sbk:20 - S12SBK, DiagnDU) диагностика шкафа ДУ БП5 место 6
 #define R0DEB4LDU	BUFFER[1319]	// (sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
 #define idR0DEB4LDU	576	// (sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
-#define R0EE02LDU	BUFFER[1321]	// ( - , DU) Питание  АКНП  отключить
-#define idR0EE02LDU	577	// ( - , DU) Питание  АКНП  отключить
+#define R0EE02LDU	BUFFER[1321]	// ( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить
+#define idR0EE02LDU	577	// ( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить
 #define R0EE03LDU	BUFFER[1323]	// ( - , DU) ВПИС ИС
 #define idR0EE03LDU	578	// ( - , DU) ВПИС ИС
 #define R0ES01LDU	BUFFER[1325]	// ( - , DU) ОРР не в исходном состоянии
@@ -8330,7 +8330,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{574	,1	,1	,&R0DEB2LDU},	//(sbk:20 - S11SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 5
 	{575	,1	,1	,&R0DEB3LDU},	//(sbk:20 - S12SBK, DiagnDU) диагностика шкафа ДУ БП5 место 6
 	{576	,1	,1	,&R0DEB4LDU},	//(sbk:20 - S13SBK, DiagnDU) диагностика шкафа ДУ БП24Д место 6
-	{577	,1	,1	,&R0EE02LDU},	//( - , DU) Питание  АКНП  отключить
+	{577	,1	,1	,&R0EE02LDU},	//( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить
 	{578	,1	,1	,&R0EE03LDU},	//( - , DU) ВПИС ИС
 	{579	,1	,1	,&R0ES01LDU},	//( - , DU) ОРР не в исходном состоянии
 	{580	,1	,1	,&R0IE01LDU},	//(vds32:0d - K24VDSR, - ) Исправность ИП 24 В-2
@@ -11951,7 +11951,7 @@ static ModbusRegister di_DU[]={
 	{&A3AB19LDU,1,99},	//( - , DU) Блокировка пневматического подъема ИС1: режим статический
 	{&R0VL23LDU,1,100},	//( - , DU) Конец программы 20мин
 	{&R0VL22LDU,1,101},	//( - , DU) Конец программы 200сек
-	{&R0EE02LDU,1,102},	//( - , DU) Питание  АКНП  отключить
+	{&R0EE02LDU,1,102},	//( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить
 	{&B0VS11LDU,1,103},	//( - , DU) АЗ2 готова к работе
 	{&A0VS11LDU,1,104},	//( - , DU) АЗ1 готова к работе
 	{&B0VN01LDU,1,105},	//( - , DU) Каналы АЗ2 проверены
@@ -12572,6 +12572,7 @@ static ModbusRegister hr_DiagnDU[]={
 #pragma pack(push,1)
 static ModbusRegister coil_MDuBz2[]={
 	{&R0AD21LDU,1,0},	//( - , SBz2DU) Подключить защиту от II УР
+	{&R0EE02LDU,1,1},	//( - , Baz2, SBz2DU) Питание  АКНП  отключить
 	{NULL,0,0},
 };
 #pragma pop
@@ -12614,6 +12615,7 @@ static ModbusRegister coil_MDuBz1[]={
 	{&R0AD21LDU,1,0},	//( - , SBz1DU) Подключить защиту от II УР
 	{&R0VW23LDU,1,1},	//( - , Baz1, SBz1DU) Индикация выбора АЗ2 или АЗ1+АЗ2
 	{&R0VW13LDU,1,2},	//( - , Baz1, SBz1DU) Индикация выбора АЗ1 или АЗ1+АЗ2
+	{&R0EE02LDU,1,3},	//( - , Baz1, SBz1DU) Питание  АКНП  отключить
 	{NULL,0,0},
 };
 #pragma pop

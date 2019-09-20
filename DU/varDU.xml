@@ -248,7 +248,7 @@
 <var  name="B2VP82LDU" description="( - , - ) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
 <var  name="A3VP81LDU" description="( - , - ) Давление СПУСК ИС1 в норме" format="1"></var>
 <var  name="B3VP81LDU" description="( - , - ) Давление СПУСК ИС2 в норме" format="1"></var>
-<var  name="R0EE02LDU" description="( - , DU) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE02LDU" description="( - , DU, MDuBz1, MDuBz2) Питание  АКНП  отключить" format="1"></var>
 <var  name="A0VN01LDU" description="( - , DU) Каналы АЗ1 проверены" format="1"></var>
 <var  name="B0VN01LDU" description="( - , DU) Каналы АЗ2 проверены" format="1"></var>
 <var  name="A0EE01LZ2" description="( - , MDuBz2) Исправность АКНП1" format="1"></var>

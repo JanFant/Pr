@@ -36,7 +36,7 @@
 <var  name="B0VN71LZ1" description="( - , Baz1, SBz1DU) АЗ по АС мощности  АЗ2" format="1"></var>
 <var  name="A0VN81LZ1" description="( - , Baz1) АЗ по АС периода разгона АЗ1" format="1"></var>
 <var  name="B0VN81LZ1" description="( - , Baz1) АЗ по АС периода разгона АЗ2" format="1"></var>
-<var  name="R0EE02LDU" description="( - , Baz1) Питание  АКНП  отключить" format="1"></var>
+<var  name="R0EE02LDU" description="( - , Baz1, SBz1DU) Питание  АКНП  отключить" format="1"></var>
 <var  name="R0VZ05UZ1" description="( - , Baz1) Индикатор причины сброса" format="5"></var>
 <var  name="R0VN11RZ1" description="( - , Baz1, SBz1DU) Средняя мощность по БАЗ1" format="8"></var>
 <var  name="R0DEB1LZ1" description="(sbk:20 - S10SBK, DiagnBaz1) диагностика шкафа Баз1 БП5 место 5" format="1"></var>
@@ -133,7 +133,7 @@
 <var  name="R0VN69LZ1" description="( - , Baz1) ПС по усредненному периоду" format="1"></var>
 <var  name="R0VN79LZ1" description="( - , Baz1) АС по усредненному периоду" format="1"></var>
 <var  name="R0VR02RZ1" description="( - , Baz1) Усредненная реактивность" format="8"></var>
-<var  name="R0VZ71LZ1" description="(fds16:0a - K05FDSR, Baz1) Обобщенный сигнал АЗ 1 канала" format="1"></var>
+<var  name="R0VZ71LZ1" description="(fds16:0a - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала" format="1"></var>
 <var  name="R0VN70LZ1" description="( - , Baz1) АЗ по АС мощности РУ" format="1"></var>
 <var  name="R0VN80LZ1" description="( - , Baz1) АЗ по АС периода разгона РУ" format="1"></var>
 <var  name="A0EE01LS1" description="(vds32:05 - K03VDSR, - ) Исправность АКНП канал 1" format="1"></var>
