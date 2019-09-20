@@ -55,7 +55,7 @@
 <var  name="R7II71LZ1" description="(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР" format="1"></var>
 <var  name="R7II75LZ1" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР" format="1"></var>
 <var  name="R7II76LZ1" description="(vds32:08 - K06VDSR, - ) Сработала АС 3К IIУР" format="1"></var>
-<var  name="R7II72LZ1" description="(vds32:07 - K07VDSR, - ) Сработала АС 2К IУР" format="1"></var>
+<var  name="R7II72LZ1" description="(vds32:07 - K06VDSR, - ) Сработала АС 2К IУР" format="1"></var>
 <var  name="R7II73LZ1" description="(vds32:08 - K05VDSR, - ) Сработала АС 3К IУР" format="1"></var>
 <var  name="R7II81LZ1" description="( - , Baz1) Сработала АС IУР" format="1"></var>
 <var  name="R7II82LZ1" description="( - , Baz1) Сработала АС IIУР" format="1"></var>

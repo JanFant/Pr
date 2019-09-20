@@ -314,8 +314,8 @@ int master=1,nomer=1;
 #define idR6IS66LZ1	150	// (vds32:07 - K05VDSR, - ) Исправность БУС УР
 #define R7II71LZ1	BUFFER[392]	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
 #define idR7II71LZ1	151	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
-#define R7II72LZ1	BUFFER[394]	// (vds32:07 - K07VDSR, - ) Сработала АС 2К IУР
-#define idR7II72LZ1	152	// (vds32:07 - K07VDSR, - ) Сработала АС 2К IУР
+#define R7II72LZ1	BUFFER[394]	// (vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
+#define idR7II72LZ1	152	// (vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
 #define R7II73LZ1	BUFFER[396]	// (vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
 #define idR7II73LZ1	153	// (vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
 #define R7II74LZ1	BUFFER[398]	// (vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР
@@ -889,7 +889,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{149	,1	,1	,&R0VZ71LZ1},	//(fds16:0a - K16FDSR, Baz1) Обобщенный сигнал АЗ 1 канала
 	{150	,1	,1	,&R6IS66LZ1},	//(vds32:07 - K05VDSR, - ) Исправность БУС УР
 	{151	,1	,1	,&R7II71LZ1},	//(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
-	{152	,1	,1	,&R7II72LZ1},	//(vds32:07 - K07VDSR, - ) Сработала АС 2К IУР
+	{152	,1	,1	,&R7II72LZ1},	//(vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
 	{153	,1	,1	,&R7II73LZ1},	//(vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
 	{154	,1	,1	,&R7II74LZ1},	//(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР
 	{155	,1	,1	,&R7II75LZ1},	//(vds32:07 - K07VDSR, - ) Сработала АС 2К IIУР
@@ -1582,8 +1582,8 @@ static DriverRegister def_buf_VDS323[]={
 	{&A0EE01LS4,1,4},
 	{&A0VN71LS4,1,6},
 	{&R6IS66LZ1,1,8},
+	{&R7II72LZ1,1,10},
 	{&R7II75LZ1,1,12},
-	{&R7II72LZ1,1,12},
 	{&R0DE07LZ1,3,64},
 	{NULL,0,0},
 };
