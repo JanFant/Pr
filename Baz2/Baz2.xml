@@ -800,7 +800,7 @@
         </record>
         <record>
             <value name="name">R0VZ71LZ2</value>
-            <value name="description">( - K16FDSR, Baz2) Обобщенный сигнал АЗ 2 канала</value>
+            <value name="description">( - K16FDSR, Baz2, MBz2S) Обобщенный сигнал АЗ 2 канала</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">50</value>

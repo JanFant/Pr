@@ -267,8 +267,8 @@
 <var  name="A2AD31LDU" description="(vds32_pti:310 - K26VDSR, - ) Клапан (Сброс РБ1) открыть (обесточить)" format="1"></var>
 <var  name="C2MD31LP1" description="( - , SCM) Кнопка «СБРОС РБ»" format="1"></var>
 <var  name="A2AD32LDU" description="(vds32_pti:310 - K25VDSR, - ) Обесточить ЭМ РБ1" format="1"></var>
-<var  name="R0VZ71LZ2" description="( - , SCM) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
-<var  name="R0VZ71LZ1" description="( - , SCM) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
+<var  name="R0VZ71LZ2" description="( - , SCM, SBz2) Обобщенный сигнал по АЗ  2 канала" format="1"></var>
+<var  name="R0VZ71LZ1" description="( - , SCM, SBz1) Обобщенный сигнал по АЗ  1 канала" format="1"></var>
 <var  name="A2IS21LDU" description="(do32_pti:140 - K05DO, - ) Приход на НУ РБ1" format="1"></var>
 <var  name="B0IT02IZ2" description="(ao16_pti:320 - K07AO, - ) Температура АЗ2-2" format="3"></var>
 <var  name="B0IT01IZ1" description="(ao16_pti:320 - K03AO, - ) Температура АЗ2-1" format="3"></var>
@@ -677,23 +677,23 @@
 <var  name="internal1_m39_tsin" description="(internal1_m39_tsin) время до конца удержания синхроимпульса" format="8"></var>
 <var  name="internal1_m39_tlock" description="(internal1_m39_tlock) время до конца блокировки" format="8"></var>
 <var  name="internal1_m39_fef" description="(internal1_m39_fef) fef" format="1"></var>
-<var  name="internal1_m878_Chim0" description="(internal1_m878_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m868_Chim0" description="(internal1_m868_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m860_Chim0" description="(internal1_m860_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m815_Out10" description="(internal1_m815_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m814_Out10" description="(internal1_m814_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m880_Chim0" description="(internal1_m880_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m870_Chim0" description="(internal1_m870_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m862_Chim0" description="(internal1_m862_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m817_Out10" description="(internal1_m817_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m816_Out10" description="(internal1_m816_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m999_Out10" description="(internal1_m999_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m998_Out10" description="(internal1_m998_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m997_Out10" description="(internal1_m997_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m996_Out10" description="(internal1_m996_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m995_Out10" description="(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m994_Out10" description="(internal1_m994_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m678_Out10" description="(internal1_m678_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m677_Out10" description="(internal1_m677_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m658_Out10" description="(internal1_m658_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m657_Out10" description="(internal1_m657_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m676_Out10" description="(internal1_m676_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m675_Out10" description="(internal1_m675_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m656_Out10" description="(internal1_m656_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m655_Out10" description="(internal1_m655_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m674_Out10" description="(internal1_m674_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m673_Out10" description="(internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m654_Out10" description="(internal1_m654_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m653_Out10" description="(internal1_m653_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m518_Out10" description="(internal1_m518_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m534_Out10" description="(internal1_m534_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m406_Out10" description="(internal1_m406_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -713,60 +713,60 @@
 <var  name="internal1_m228_Out10" description="(internal1_m228_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m47_Out10" description="(internal1_m47_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m62_Out10" description="(internal1_m62_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m968_Out10" description="(internal1_m968_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m965_Out10" description="(internal1_m965_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m964_Out10" description="(internal1_m964_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m967_Xtek0" description="(internal1_m967_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m950_Xtek0" description="(internal1_m950_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m951_Out10" description="(internal1_m951_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m948_Out10" description="(internal1_m948_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m947_Out10" description="(internal1_m947_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1035_Out10" description="(internal1_m1035_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m970_Out10" description="(internal1_m970_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m967_Out10" description="(internal1_m967_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m966_Out10" description="(internal1_m966_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m969_Xtek0" description="(internal1_m969_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m952_Xtek0" description="(internal1_m952_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m953_Out10" description="(internal1_m953_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m950_Out10" description="(internal1_m950_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m949_Out10" description="(internal1_m949_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1037_Out10" description="(internal1_m1037_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1018_Out10" description="(internal1_m1018_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1017_Out10" description="(internal1_m1017_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m1016_Out10" description="(internal1_m1016_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1015_Out10" description="(internal1_m1015_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1014_Out10" description="(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m836_Out10" description="(internal1_m836_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m838_Out10" description="(internal1_m838_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m835_Out10" description="(internal1_m835_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m840_Out10" description="(internal1_m840_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m837_Out10" description="(internal1_m837_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m811_Out10" description="(internal1_m811_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m839_Out10" description="(internal1_m839_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m813_Out10" description="(internal1_m813_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m814_Out10" description="(internal1_m814_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m812_Out10" description="(internal1_m812_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m810_Out10" description="(internal1_m810_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m809_Out10" description="(internal1_m809_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1030_Out10" description="(internal1_m1030_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m811_Out10" description="(internal1_m811_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1032_Out10" description="(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m984_Out10" description="(internal1_m984_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m983_Out10" description="(internal1_m983_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m982_Out10" description="(internal1_m982_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m981_Out10" description="(internal1_m981_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m980_Out10" description="(internal1_m980_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m979_Out10" description="(internal1_m979_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1031_Out10" description="(internal1_m1031_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1012_Out10" description="(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m813_Out10" description="(internal1_m813_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1033_Out10" description="(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1014_Out10" description="(internal1_m1014_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m815_Out10" description="(internal1_m815_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1015_Out10" description="(internal1_m1015_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m1013_Out10" description="(internal1_m1013_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1011_Out10" description="(internal1_m1011_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1032_Out10" description="(internal1_m1032_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1010_Out10" description="(internal1_m1010_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m993_Out10" description="(internal1_m993_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m978_Out10" description="(internal1_m978_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1034_Out10" description="(internal1_m1034_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1012_Out10" description="(internal1_m1012_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m995_Out10" description="(internal1_m995_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m980_Out10" description="(internal1_m980_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m535_Out10" description="(internal1_m535_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m416_Xtek0" description="(internal1_m416_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
 <var  name="internal1_m407_Out10" description="(internal1_m407_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m409_Out10" description="(internal1_m409_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m408_Out10" description="(internal1_m408_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m851_Out10" description="(internal1_m851_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m853_Out10" description="(internal1_m853_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m854_Out10" description="(internal1_m854_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m852_Out10" description="(internal1_m852_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m850_Out10" description="(internal1_m850_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1034_Out10" description="(internal1_m1034_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1036_Out10" description="(internal1_m1036_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m689_Out10" description="(internal1_m689_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m690_Out10" description="(internal1_m690_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m687_Out10" description="(internal1_m687_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m688_Out10" description="(internal1_m688_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m685_Out10" description="(internal1_m685_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m686_Out10" description="(internal1_m686_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m551_Out10" description="(internal1_m551_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m550_Out10" description="(internal1_m550_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m832_Xtek0" description="(internal1_m832_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
 <var  name="internal1_m834_Xtek0" description="(internal1_m834_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
-<var  name="internal1_m652_Out10" description="(internal1_m652_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m671_Out10" description="(internal1_m671_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m651_Out10" description="(internal1_m651_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m836_Xtek0" description="(internal1_m836_Xtek0) Xtek0 - положение механизма на прошлом шаге, мм" format="8"></var>
+<var  name="internal1_m654_Out10" description="(internal1_m654_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m673_Out10" description="(internal1_m673_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m653_Out10" description="(internal1_m653_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m337_Out10" description="(internal1_m337_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m336_Out10" description="(internal1_m336_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m321_Out10" description="(internal1_m321_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
@@ -785,7 +785,7 @@
 <var  name="internal1_m427_Out10" description="(internal1_m427_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m426_Out10" description="(internal1_m426_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m425_Out10" description="(internal1_m425_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
-<var  name="internal1_m1033_Out10" description="(internal1_m1033_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
+<var  name="internal1_m1035_Out10" description="(internal1_m1035_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m152_Out10" description="(internal1_m152_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m151_Out10" description="(internal1_m151_Out10) Out10 (psbool) - прошлое значение выходного сигнала" format="1"></var>
 <var  name="internal1_m471_X00" description="(internal1_m471_X00)  X00 - текущая координата механизма" format="8"></var>
@@ -852,18 +852,18 @@
 <var  name="internal1_m592_RA10" description="(internal1_m592_RA10)  - последнее задание назад" format="1"></var>
 <var  name="internal1_m592_MyFirstEnterFlag" description="(internal1_m592_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m637_y0" description="(internal1_m637_y0) y0 - внутренний параметр" format="8"></var>
-<var  name="internal1_m797_Chim0" description="(internal1_m797_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m788_Chim0" description="(internal1_m788_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m780_Chim0" description="(internal1_m780_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m771_Chim0" description="(internal1_m771_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m762_Chim0" description="(internal1_m762_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m754_Chim0" description="(internal1_m754_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m745_Chim0" description="(internal1_m745_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m736_Chim0" description="(internal1_m736_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m728_Chim0" description="(internal1_m728_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m719_Chim0" description="(internal1_m719_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m710_Chim0" description="(internal1_m710_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
-<var  name="internal1_m700_Chim0" description="(internal1_m700_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m799_Chim0" description="(internal1_m799_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m790_Chim0" description="(internal1_m790_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m782_Chim0" description="(internal1_m782_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m773_Chim0" description="(internal1_m773_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m764_Chim0" description="(internal1_m764_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m756_Chim0" description="(internal1_m756_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m747_Chim0" description="(internal1_m747_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m738_Chim0" description="(internal1_m738_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m730_Chim0" description="(internal1_m730_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m721_Chim0" description="(internal1_m721_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m712_Chim0" description="(internal1_m712_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
+<var  name="internal1_m702_Chim0" description="(internal1_m702_Chim0) измеренная частота импульсов камеры Гц" format="8"></var>
 <var  name="internal1_m580_X00" description="(internal1_m580_X00)  X00 - текущая координата механизма" format="8"></var>
 <var  name="internal1_m580_V00" description="(internal1_m580_V00)  V00 - текущая скорость механизма" format="8"></var>
 <var  name="internal1_m580_Pav0" description="(internal1_m580_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
@@ -936,15 +936,15 @@
 <var  name="internal1_m364_RA00" description="(internal1_m364_RA00)  - последнее задание вперед" format="1"></var>
 <var  name="internal1_m364_RA10" description="(internal1_m364_RA10)  - последнее задание назад" format="1"></var>
 <var  name="internal1_m364_MyFirstEnterFlag" description="(internal1_m364_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
-<var  name="internal1_m890_X00" description="(internal1_m890_X00)  X00 - текущая координата механизма" format="8"></var>
-<var  name="internal1_m890_V00" description="(internal1_m890_V00)  V00 - текущая скорость механизма" format="8"></var>
-<var  name="internal1_m890_Pav0" description="(internal1_m890_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m890_Zav0" description="(internal1_m890_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
-<var  name="internal1_m890_Pv0" description="(internal1_m890_Pv0)  - Пер. выключатель механизма" format="1"></var>
-<var  name="internal1_m890_Zv0" description="(internal1_m890_Zv0)  - Зад. выключатель механизма" format="1"></var>
-<var  name="internal1_m890_RA00" description="(internal1_m890_RA00)  - последнее задание вперед" format="1"></var>
-<var  name="internal1_m890_RA10" description="(internal1_m890_RA10)  - последнее задание назад" format="1"></var>
-<var  name="internal1_m890_MyFirstEnterFlag" description="(internal1_m890_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
+<var  name="internal1_m892_X00" description="(internal1_m892_X00)  X00 - текущая координата механизма" format="8"></var>
+<var  name="internal1_m892_V00" description="(internal1_m892_V00)  V00 - текущая скорость механизма" format="8"></var>
+<var  name="internal1_m892_Pav0" description="(internal1_m892_Pav0)  - Пер.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m892_Zav0" description="(internal1_m892_Zav0)  - Зад.аварийный выключатель механизма" format="1"></var>
+<var  name="internal1_m892_Pv0" description="(internal1_m892_Pv0)  - Пер. выключатель механизма" format="1"></var>
+<var  name="internal1_m892_Zv0" description="(internal1_m892_Zv0)  - Зад. выключатель механизма" format="1"></var>
+<var  name="internal1_m892_RA00" description="(internal1_m892_RA00)  - последнее задание вперед" format="1"></var>
+<var  name="internal1_m892_RA10" description="(internal1_m892_RA10)  - последнее задание назад" format="1"></var>
+<var  name="internal1_m892_MyFirstEnterFlag" description="(internal1_m892_MyFirstEnterFlag) MyFirstEnterFlag" format="1"></var>
 <var  name="internal1_m186_C1" description="(internal1_m186_C1) C1 - концентрация запаздывающих нейтронов 1-го типа" format="8"></var>
 <var  name="internal1_m186_C2" description="(internal1_m186_C2) C2 - концентрация запаздывающих нейтронов 2-го типа" format="8"></var>
 <var  name="internal1_m186_C3" description="(internal1_m186_C3) C3 - концентрация запаздывающих нейтронов 3-го типа" format="8"></var>

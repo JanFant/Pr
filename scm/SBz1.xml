@@ -71,8 +71,8 @@
     </format>
     <records>
         <record>
-            <value name="name">R0EE01LZ1</value>
-            <value name="description">( - , SBz1) Питание  АКНП1  отключить</value>
+            <value name="name">R0VZ71LZ1</value>
+            <value name="description">( - , SCM, SBz1) Обобщенный сигнал по АЗ  1 канала</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -84,8 +84,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE02LZ1</value>
-            <value name="description">( - , SBz1) Питание  АКНП  отключить</value>
+            <value name="name">R0EE01LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП1  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
@@ -97,8 +97,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE03LZ1</value>
-            <value name="description">( - , SBz1) Питание  АКНП3  отключить</value>
+            <value name="name">R0EE02LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">2</value>
@@ -110,8 +110,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0EE04LZ1</value>
-            <value name="description">( - , SBz1) Питание  АКНП4  отключить</value>
+            <value name="name">R0EE03LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП3  отключить</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">3</value>
@@ -120,6 +120,19 @@
             <value name="Bf0">0</value>
             <value name="ParData">6</value>
             <value name="OldData">6</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">R0EE04LZ1</value>
+            <value name="description">( - , SBz1) Питание  АКНП4  отключить</value>
+            <value name="type">0</value>
+            <value name="format">2</value>
+            <value name="address">4</value>
+            <value name="nID">5</value>
+            <value name="PType">131</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">8</value>
+            <value name="OldData">8</value>
             <value name="unitId">1</value>
         </record>
     </records>

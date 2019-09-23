@@ -72,7 +72,7 @@
     <records>
         <record>
             <value name="name">R0VZ71LZ1</value>
-            <value name="description">( - , SCM) Обобщенный сигнал по АЗ  1 канала</value>
+            <value name="description">( - , SCM, SBz1) Обобщенный сигнал по АЗ  1 канала</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">0</value>
@@ -85,7 +85,7 @@
         </record>
         <record>
             <value name="name">R0VZ71LZ2</value>
-            <value name="description">( - , SCM) Обобщенный сигнал по АЗ  2 канала</value>
+            <value name="description">( - , SCM, SBz2) Обобщенный сигнал по АЗ  2 канала</value>
             <value name="type">0</value>
             <value name="format">2</value>
             <value name="address">1</value>
