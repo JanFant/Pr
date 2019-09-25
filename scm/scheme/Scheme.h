@@ -420,7 +420,7 @@ psbool  array_m925_x_1[2] = {&var178,&R0MW13LP2};
 psbool  array_m918_x_1[2] = {&var179,&R0MW13LP2};
 psbool  array_m910_x_1[2] = {&var180,&R0MW13LP2};
 psbool  array_m612_x_1[2] = {&var38,&var231};
-psbool  array_m623_x_1[3] = {&lEM_C1AD31LRP,&var2,&var1};
+psbool  array_m623_x_1[3] = {&lEM_C1AD31LRP,&var1,&var2};
 psbool  array_m902_x_1[2] = {&var202,&R0MW13LP2};
 psbool  array_m292_x_1[2] = {&var219,&B3AD31LDU};
 psbool  array_m258_x_1[3] = {&B2AD31LDU,&var205,&var219};
@@ -445,8 +445,8 @@ psfloat  array_m232_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83
 psfloat  array_m66_Vr_1[8] = {&fRM_1_,&fEM_R0UV81RDU,&fEM_R0UV82RDU,&fEM_R0UV83RDU,&fEM_R0UV84RDU,&fEM_R0UV85RDU,&fEM_R0UV86RDU,&fEM_R0UV87RDU};
 
 /* Объявление структур */
-_S_noto  S_noto_635_1 = {&R0VZ71LZ2,&var1};
-_S_noto  S_noto_634_1 = {&R0VZ71LZ1,&var2};
+_S_noto  S_noto_633_1 = {&R0VZ71LZ2,&var1};
+_S_noto  S_noto_632_1 = {&R0VZ71LZ1,&var2};
 _S_vmemf  S_vmemf_176_1 = {&var332,&var3,&internal1_m176_x0};
 _S_kvds  S_kvds_39_1 = {&var298,&var291,&R8AD21LDU,&fEM_R0UL02RDU,&fEM_R0UL04RIM,&fEM_R0UL02RIM,&var4,&var5,&internal1_m39_reg,&internal1_m39_tgen,&internal1_m39_tsin,&internal1_m39_tlock,&internal1_m39_fef};
 _S_looktakt  S_looktakt_150_1 = {&var6};
@@ -713,8 +713,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   noto(&S_noto_481_1);
   to3val(&S_to3val_954_1);
   looktakt(&S_looktakt_150_1);
-  noto(&S_noto_634_1);
-  noto(&S_noto_635_1);
+  noto(&S_noto_632_1);
+  noto(&S_noto_633_1);
   asmot(&S_asmot_892_1);
   asmot(&S_asmot_364_1);
   asmot(&S_asmot_380_1);

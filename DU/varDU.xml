@@ -332,10 +332,10 @@
 <var  name="R8AD21LDU" description="(fds16:0f - K12FDSR, - ) Запуск системы инициирования" format="1"></var>
 <var  name="R8AD22LDU" description="(vds32:02 - K15VDSR, - ) Сигнал синхронизации с импульсом" format="1"></var>
 <var  name="R0S01LDU" description="( - , - ) Отключение сетевых передач ДУ" format="1"></var>
-<var  name="R0S01LZ1" description="(fds16:07 - K15FDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
+<var  name="R0S01LZ1" description="(fds16:08 - K15FDSR, - ) Отключение сетевых передач в Баз1" format="1"></var>
 <var  name="R0S01LZ2" description="(fds16:07 - K16FDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
 <var  name="R0AD16LDU" description="(fds16:0f - K13FDSR, - ) Контроль  I-II УР. РАД" format="1"></var>
-<var  name="R0S01LIM" description="(fds16:08 - K15FDSR, - ) Отключение сетевых передач ПТИ" format="1"></var>
+<var  name="R0S01LIM" description="(fds16:07 - K15FDSR, - ) Отключение сетевых передач ПТИ" format="1"></var>
 <var  name="psb1" description="( - , DU) ру не готова" format="1"></var>
 <var  name="psb2" description="( - , DU) движение бб" format="1"></var>
 <var  name="B1IC01UDU" description="( - , MDuS) Координата штока ББ2 (дел.энк)" format="5"></var>

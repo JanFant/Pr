@@ -4,9 +4,9 @@
         <def name="B2AD01LDU">K10FDSR</def>
         <def name="B2AD05LDU">K14FDSR</def>
         <def name="B2AD04LDU">K13FDSR</def>
-        <def name="A2AD05LDU">K07FDSR</def>
+        <def name="R0S01LIM">K15FDSR</def>
         <def name="R0S01LZ2">K16FDSR</def>
-        <def name="R0S01LZ1">K15FDSR</def>
+        <def name="A2AD05LDU">K07FDSR</def>
         <def name="A2AD04LDU">K06FDSR</def>
         <def name="A2AD03LDU">K05FDSR</def>
         <def name="A2AD02LDU">K04FDSR</def>
@@ -32,7 +32,7 @@
         <def name="A1AD02LDU">K04FDSR</def>
         <def name="A1AD03LDU">K05FDSR</def>
         <def name="A1AD04LDU">K06FDSR</def>
-        <def name="R0S01LIM">K15FDSR</def>
+        <def name="R0S01LZ1">K15FDSR</def>
         <def name="B1AD21LDU">K09FDSR</def>
         <def name="A1AD05LDU">K07FDSR</def>
         <def name="A1AD01LDU">K03FDSR</def>
