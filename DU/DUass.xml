@@ -4,8 +4,8 @@
         <def name="B2AD01LDU">K10FDSR</def>
         <def name="B2AD05LDU">K14FDSR</def>
         <def name="B2AD04LDU">K13FDSR</def>
-        <def name="R0S01LIM">K15FDSR</def>
-        <def name="R0S01LZ2">K16FDSR</def>
+        <def name="R0S01LIM">K16FDSR</def>
+        <def name="R0S01LZ2">K15FDSR</def>
         <def name="A2AD05LDU">K07FDSR</def>
         <def name="A2AD04LDU">K06FDSR</def>
         <def name="A2AD03LDU">K05FDSR</def>
