@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0xcc" lenData="90" lenInit="7" header="fp8/drivers/sbkfp7.h">
+<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0xcc" lenData="90" lenInit="3" header="fp8/drivers/sbkfp7.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   
@@ -23,9 +23,6 @@
         <signal name="S13SBK" format="1" mode="input" address="24"/>
     </signals>
     <init type="sbk_inipar">
-        <signal name="type" mode="input" format="18" value="0xcc" address="0"/>
-        <signal name="BoxLen" mode="input" format="2" value="0xff" address="1"/>
-        <signal name="vip" mode="input" format="18" value="8" address="2"/>
-        <signal name="NumCh" mode="input" format="18" value="8" address="3"/>
+        <signal name="UpReadC" mode="input" format="18" value="0" address="0"/>
     </init>
 </driver>

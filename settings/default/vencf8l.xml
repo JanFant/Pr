@@ -25,8 +25,7 @@
     <init type="vencf8_inipar">
         <signal name="typeVds"       mode="input" format="18" value="0xc2" address="0"/>
         <signal name="BoxLen"        mode="input" format="2"  value="0xff" address="1"/>
-        <signal name="vip"           mode="input" format="18" value="0"    address="2"/>
-        <signal name="AdrFds"        mode="input" format="18" value="0x6"  address="3"/>
-        <signal name="typeFds"       mode="input" format="18" value="0x96" address="4"/>
+        <signal name="AdrFds"        mode="input" format="18" value="0x6"  address="2"/>
+        <signal name="typeFds"       mode="input" format="18" value="0x96" address="3"/>
 	</init>
 </driver>

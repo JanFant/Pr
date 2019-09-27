@@ -2,7 +2,7 @@
 Описание драйвера по умолчанию
 
 -->
-<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="64" lenInit="10" header="fp8/drivers/vas84r.h">
+<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="64" lenInit="5" header="fp8/drivers/vas84r.h">
 <!-->
     mode="input" - обязатльное назначение имени переменной
         ="y"  - можно не назначать   
@@ -23,10 +23,5 @@
     <init type="vas84r_inipar">
         <signal name="type" mode="input" format="18" value="0xc6" address="0"/>
         <signal name="BoxLen" mode="input" format="2" value="255" address="1"/>
-        <signal name="vip" mode="input" format="18" value="1" address="2"/>
-        <signal name="NumCh" mode="input" format="18" value="8"  address="3"/>
-        <signal name="Usmask" mode="input" format="18" value="0xff" address="4"/>
-        <signal name="ChMask" mode="input" format="18" value="0" address="5"/>
-        <signal name="Aprt" mode="input" format="18" value="16" address="6"/>
     </init>
 </driver>
