@@ -45,12 +45,12 @@
 <var  name="R0DE3DLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="R0DE3CLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7" format="1"></var>
 <var  name="R0ET02LRP" description="( - , RPU) Признак наличия неисправности по температуре АЗ2-3" format="1"></var>
-<var  name="B0IT03IRP" description="(vas84:06 - K02VASR, - ) Температура АЗ2-3" format="3"></var>
+<var  name="B0IT03IRP" description="(vas84:06 - K02VASR, RPU) Температура АЗ2-3" format="3"></var>
 <var  name="R0ET01LRP" description="( - , RPU) Признак наличия неисправности по температуре  АЗ1-3" format="1"></var>
 <var  name="A0VT71LRP" description="( - , RPU) АС по температуре в АЗ1" format="1"></var>
 <var  name="A0VT61LRP" description="( - , RPU) ПС по температуре в АЗ1" format="1"></var>
 <var  name="A0CT01IRP" description="( - , RPU) Температура АЗ1-3" format="8"></var>
-<var  name="A0IT03IRP" description="(vas84:06 - K01VASR, - ) Температура АЗ1-3" format="3"></var>
+<var  name="A0IT03IRP" description="(vas84:06 - K01VASR, RPU) Температура АЗ1-3" format="3"></var>
 <var  name="R0IN07RRP" description="( - , RPU) Частота СНМ-11 Гц (канал 7)" format="8"></var>
 <var  name="R7VN71LRP" description="( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера" format="1"></var>
 <var  name="R0IN06RRP" description="( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ" format="8"></var>

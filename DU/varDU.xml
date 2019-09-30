@@ -193,8 +193,8 @@
 <var  name="B3VP52LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 ниже ПС" format="1"></var>
 <var  name="B3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС2 в норме" format="1"></var>
 <var  name="A3VP82LDU" description="( - , DU) Давление ВЫСТРЕЛ ИС1 в норме" format="1"></var>
-<var  name="A3IP02IDU" description="(vas84:0c - K01VASR, - ) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
-<var  name="B3IP02IDU" description="(vas84:0c - K02VASR, - ) Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
+<var  name="A3IP02IDU" description="(vas84:0c - K01VASR, DU) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
+<var  name="B3IP02IDU" description="(vas84:0c - K02VASR, DU) Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
 <var  name="A0VE01LDU" description="( - , DU) Напряжение в системы АЗ1 подано" format="1"></var>
 <var  name="B0VE01LDU" description="( - , DU) Напряжение в системы АЗ2 подано" format="1"></var>
 <var  name="A0VP01LDU" description="( - , DU) Давление в системы АЗ1 подано" format="1"></var>

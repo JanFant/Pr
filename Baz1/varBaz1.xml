@@ -99,7 +99,7 @@
 <var  name="R0VN61LS1" description="( - , MBz1A1) ПС по мощности канал 1" format="1"></var>
 <var  name="R0VN61LS2" description="( - , MBz1A2) ПС по мощности канал 2" format="1"></var>
 <var  name="R0VN61LS3" description="( - , MBz1A3) ПС по мощности канал 3" format="1"></var>
-<var  name="A0IT01IZ1" description="(vas84:04 - K01VASR, - ) Температура АЗ1-1" format="3"></var>
+<var  name="A0IT01IZ1" description="(vas84:04 - K01VASR, Baz1) Температура АЗ1-1" format="3"></var>
 <var  name="A0CT01IZ1" description="( - , Baz1, SBz1DU) Температура АЗ1-1" format="8"></var>
 <var  name="A0VT61LZ1" description="( - , Baz1) ПС по температуре в АЗ1" format="1"></var>
 <var  name="A0VT71LZ1" description="( - , Baz1, SBz1DU) АС по температуре в АЗ1" format="1"></var>
@@ -115,10 +115,10 @@
 <var  name="B2VP51LZ1" description="( - , Baz1) Давление СБРОС РБ2 ниже ПС" format="1"></var>
 <var  name="B2VP81LZ1" description="( - , Baz1) Давление СБРОС РБ2 в норме" format="1"></var>
 <var  name="A2VP81LZ1" description="( - , Baz1) Давление СБРОС РБ1 в норме" format="1"></var>
-<var  name="A2IP01IZ1" description="(vas84:04 - K02VASR, - ) Текущее давление СБРОС РБ1" format="3"></var>
-<var  name="B2IP01IZ1" description="(vas84:04 - K04VASR, - ) Текущее давление СБРОС РБ2" format="3"></var>
+<var  name="A2IP01IZ1" description="(vas84:04 - K02VASR, Baz1) Текущее давление СБРОС РБ1" format="3"></var>
+<var  name="B2IP01IZ1" description="(vas84:04 - K04VASR, Baz1) Текущее давление СБРОС РБ2" format="3"></var>
 <var  name="R0ET01LZ1" description="( - , Baz1) Признак наличия неисправности по температуре  АЗ1" format="1"></var>
-<var  name="B0IT01IZ1" description="(vas84:04 - K03VASR, - ) Температура АЗ2-1" format="3"></var>
+<var  name="B0IT01IZ1" description="(vas84:04 - K03VASR, Baz1) Температура АЗ2-1" format="3"></var>
 <var  name="R0VN09RZ1" description="( - , Baz1) Усредненный период разгона" format="8"></var>
 <var  name="A3IS11LDU" description="(vds32:05 - K05VDSR, - ) Приход на ВУ ИС1" format="1"></var>
 <var  name="A3IS22LDU" description="(vds32:05 - K06VDSR, - ) Приход на НУП ИС1" format="1"></var>

@@ -1999,14 +1999,14 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz2"
         ChannalName="K01VASR"
         DeviceName="VAS84"
         Line1="Температура АЗ1-2"
@@ -2929,14 +2929,14 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz2"
         ChannalName="K02VASR"
         DeviceName="VAS84"
         Line1="Текущее"
@@ -2957,14 +2957,14 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz2"
         ChannalName="K04VASR"
         DeviceName="VAS84"
         Line1="Текущее"
@@ -3052,14 +3052,14 @@
         Size=1
         TypeInterface=1
         TypeMB=3
-        FormatMB=8
+        FormatMB=3
         TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="Baz2"
         ChannalName="K03VASR"
         DeviceName="VAS84"
         Line1="Температура АЗ2-2"
@@ -19791,4 +19791,4 @@
     }
   }
 }
-18672294
+18673614
