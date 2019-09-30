@@ -3426,7 +3426,7 @@
         </record>
         <record>
             <value name="name">R4IS11LDU</value>
-            <value name="description">( - K05VDSR, DU) Приход на ВУ1 тележки</value>
+            <value name="description">( - K05VDSR, DU) Приход на левый ВУ тележки реактора (у образцов)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">211</value>
@@ -4167,7 +4167,7 @@
         </record>
         <record>
             <value name="name">R4IS21LDU</value>
-            <value name="description">( - K07VDSR, DU) Приход на НУ1 тележки</value>
+            <value name="description">( - K07VDSR, DU) Приход на левый НУ тележки реактора (в БЗ)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">268</value>
@@ -4180,7 +4180,7 @@
         </record>
         <record>
             <value name="name">R4IS22LDU</value>
-            <value name="description">( - K08VDSR, DU) Приход на НУ2 тележки</value>
+            <value name="description">( - K08VDSR, DU) Приход на правый НУ тележки реактора (в БЗ)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">269</value>
@@ -4193,7 +4193,7 @@
         </record>
         <record>
             <value name="name">R4IS12LDU</value>
-            <value name="description">( - K06VDSR, DU) Приход на ВУ2 тележки</value>
+            <value name="description">( - K06VDSR, DU) Приход на правый ВУ тележки реактора (у образцов)</value>
             <value name="type">1</value>
             <value name="format">2</value>
             <value name="address">270</value>

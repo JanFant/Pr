@@ -59,10 +59,10 @@
 <var  name="A8IS22LDU" description="(do32_pti:150 - K16DO, - ) Приход на механический НУ ДС2" format="1"></var>
 <var  name="B8IS12LDU" description="(do32_pti:150 - K06DO, - ) Приход на ВУ2 АЗ2" format="1"></var>
 <var  name="B8IS22LDU" description="(do32_pti:150 - K07DO, - ) Приход на НУ2 АЗ2" format="1"></var>
-<var  name="R4IS12LDU" description="(do32_pti:140 - K23DO, - ) Приход на  ВУ2 тележки" format="1"></var>
-<var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на НУ2 тележки" format="1"></var>
-<var  name="R4IS21LDU" description="(do32_pti:140 - K24DO, - ) Приход на НУ1 тележки" format="1"></var>
-<var  name="R4IS11LDU" description="(do32_pti:140 - K22DO, - ) Приход на ВУ1 тележки" format="1"></var>
+<var  name="R4IS12LDU" description="(do32_pti:140 - K23DO, - ) Приход на правый ВУ тележки реактора (у образцов)" format="1"></var>
+<var  name="R4IS22LDU" description="(do32_pti:140 - K25DO, - ) Приход на правый НУ тележки реактора (в БЗ)" format="1"></var>
+<var  name="R4IS21LDU" description="(do32_pti:140 - K24DO, - ) Приход на левый НУ тележки реактора (в БЗ)" format="1"></var>
+<var  name="R4IS11LDU" description="(do32_pti:140 - K22DO, - ) Приход на левый ВУ тележки реактора (у образцов)" format="1"></var>
 <var  name="B4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
 <var  name="A4VP82LDU" description="( - , - ) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
 <var  name="R2IS21LDU" description="(do32_pti:130 - K25DO, - ) Приход на НУ МДЗ2" format="1"></var>

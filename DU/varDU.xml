@@ -408,7 +408,7 @@
 <var  name="A2IS12LDU" description="(vds32:03 - K10VDSR, DU) Магнит РБ1 зацеплен" format="1"></var>
 <var  name="B1IS12LDU" description="(vds32:02 - K07VDSR, DU) Магнит ББ2 зацеплен" format="1"></var>
 <var  name="B2IS12LDU" description="(vds32:02 - K10VDSR, DU) Магнит РБ2 зацеплен" format="1"></var>
-<var  name="R4IS11LDU" description="(vds32:04 - K05VDSR, DU) Приход на ВУ1 тележки" format="1"></var>
+<var  name="R4IS11LDU" description="(vds32:04 - K05VDSR, DU) Приход на левый ВУ тележки реактора (у образцов)" format="1"></var>
 <var  name="A8AB10LDU" description="( - , DU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора" format="1"></var>
 <var  name="A8AB11LDU" description="( - , DU) Блокировка движения ДС2 -нет сигнала готовности СУЗ" format="1"></var>
 <var  name="A8AB12LDU" description="( - , DU) Блокировка движения ДС2 - НИ не в положении ВУ" format="1"></var>
@@ -527,9 +527,9 @@
 <var  name="R0NE02LDU" description="( - , DU) Потеря связи с БАЗ2" format="1"></var>
 <var  name="R4AB02LDU" description="( - , DU) Блокировка движения тележки - Потеря связи с БАЗ, ОПУ" format="1"></var>
 <var  name="R0NE08LDU" description="( - , DU) Потеря связи с ОПУ" format="1"></var>
-<var  name="R4IS21LDU" description="(vds32:04 - K07VDSR, DU) Приход на НУ1 тележки" format="1"></var>
-<var  name="R4IS22LDU" description="(vds32:04 - K08VDSR, DU) Приход на НУ2 тележки" format="1"></var>
-<var  name="R4IS12LDU" description="(vds32:04 - K06VDSR, DU) Приход на ВУ2 тележки" format="1"></var>
+<var  name="R4IS21LDU" description="(vds32:04 - K07VDSR, DU) Приход на левый НУ тележки реактора (в БЗ)" format="1"></var>
+<var  name="R4IS22LDU" description="(vds32:04 - K08VDSR, DU) Приход на правый НУ тележки реактора (в БЗ)" format="1"></var>
+<var  name="R4IS12LDU" description="(vds32:04 - K06VDSR, DU) Приход на правый ВУ тележки реактора (у образцов)" format="1"></var>
 <var  name="R4VS22LDU" description="(vds32:0d - K03VDSR, DU) Движение реактора к У ЗАЩИТЫ" format="1"></var>
 <var  name="R4VS12LDU" description="(vds32:0d - K02VDSR, DU) Движение реактора  к У ОБРАЗЦОВ" format="1"></var>
 <var  name="R4AZ03LDU" description="( - , DU) Несанкционированное перемещение тележки" format="1"></var>
