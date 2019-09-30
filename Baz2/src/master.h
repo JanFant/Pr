@@ -1503,7 +1503,7 @@ static ModbusDevice modbuses[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[104];	//FDS16
-static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -1520,7 +1520,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[90];	//SBKFP
-static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,0,0,0,};
+static sbk_inipar ini_SBKFP={0,0,0,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -1535,7 +1535,7 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #include <fp8/drivers/vas84r.h>
 static char buf_VAS84[64];	//VAS84
-static vas84r_inipar ini_VAS84={0xc6,255,1,8,0xff,0,16,0,0,0,};
+static vas84r_inipar ini_VAS84={0xc6,255,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VAS84={0,0,&ini_VAS84,buf_VAS84,0,0};
 #pragma pop
@@ -1551,7 +1551,7 @@ static DriverRegister def_buf_VAS84[]={
 #pragma pop
 #include <fp8/drivers/vds32r.h>
 static char buf_VDS321[194];	//VDS321
-static vds32r_inipar ini_VDS321={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+static vds32r_inipar ini_VDS321={0xc2,0xff,0,255,255,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS321={0,0,&ini_VDS321,buf_VDS321,0,0};
 #pragma pop
@@ -1574,7 +1574,7 @@ static DriverRegister def_buf_VDS321[]={
 #pragma pop
 #include <fp8/drivers/vds32r.h>
 static char buf_VDS322[194];	//VDS322
-static vds32r_inipar ini_VDS322={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+static vds32r_inipar ini_VDS322={0xc2,0xff,0,255,255,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS322={0,0,&ini_VDS322,buf_VDS322,0,0};
 #pragma pop
@@ -1594,7 +1594,7 @@ static DriverRegister def_buf_VDS322[]={
 #pragma pop
 #include <fp8/drivers/vds32r.h>
 static char buf_VDS323[194];	//VDS323
-static vds32r_inipar ini_VDS323={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+static vds32r_inipar ini_VDS323={0xc2,0xff,0,255,255,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS323={0,0,&ini_VDS323,buf_VDS323,0,0};
 #pragma pop
@@ -1613,7 +1613,7 @@ static DriverRegister def_buf_VDS323[]={
 #pragma pop
 #include <fp8/drivers/vds32r.h>
 static char buf_VDS324[194];	//VDS324
-static vds32r_inipar ini_VDS324={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+static vds32r_inipar ini_VDS324={0xc2,0xff,0,255,255,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS324={0,0,&ini_VDS324,buf_VDS324,0,0};
 #pragma pop
@@ -1636,13 +1636,13 @@ static DriverRegister def_buf_VDS324[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0x96,0x0a,23,104,def_buf_FDS16,&table_FDS16},	//FDS16
-	{0xcc,0x20,7,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
-	{0xc6,0x04,10,64,def_buf_VAS84,&table_VAS84},	//VAS84
-	{0xc2,0x05,19,194,def_buf_VDS321,&table_VDS321},	//VDS32
-	{0xc2,0x06,19,194,def_buf_VDS322,&table_VDS322},	//VDS32
-	{0xc2,0x07,19,194,def_buf_VDS323,&table_VDS323},	//VDS32
-	{0xc2,0x08,19,194,def_buf_VDS324,&table_VDS324},	//VDS32
+	{0x96,0x0a,5,104,def_buf_FDS16,&table_FDS16},	//FDS16
+	{0xcc,0x20,3,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
+	{0xc6,0x04,5,64,def_buf_VAS84,&table_VAS84},	//VAS84
+	{0xc2,0x05,7,194,def_buf_VDS321,&table_VDS321},	//VDS32
+	{0xc2,0x06,7,194,def_buf_VDS322,&table_VDS322},	//VDS32
+	{0xc2,0x07,7,194,def_buf_VDS323,&table_VDS323},	//VDS32
+	{0xc2,0x08,7,194,def_buf_VDS324,&table_VDS324},	//VDS32
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop

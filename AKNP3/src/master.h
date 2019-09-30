@@ -682,7 +682,7 @@ static ModbusDevice modbuses[]={
 #pragma pop
 #include <fp8/drivers/fds16r.h>
 static char buf_FDS16[104];	//FDS16
-static fds16r_inipar ini_FDS16={0x96,0xff,8,8,0xff,0xff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static fds16r_inipar ini_FDS16={0x96,0xff,8,0,0,};
 #pragma pack(push,1)
 static table_drv table_FDS16={0,0,&ini_FDS16,buf_FDS16,0,0};
 #pragma pop
@@ -704,7 +704,7 @@ static DriverRegister def_buf_FDS16[]={
 #pragma pop
 #include <fp8/drivers/sbkfp7.h>
 static char buf_SBKFP[90];	//SBKFP
-static sbk_inipar ini_SBKFP={0xcc,0xff,8,8,0,0,0,};
+static sbk_inipar ini_SBKFP={0,0,0,};
 #pragma pack(push,1)
 static table_drv table_SBKFP={0,0,&ini_SBKFP,buf_SBKFP,0,0};
 #pragma pop
@@ -728,7 +728,7 @@ static DriverRegister def_buf_SBKFP[]={
 #pragma pop
 #include <fp8/drivers/vchs2.h>
 static char buf_VCHS01[122];	//VCHS01
-static vchs_inipar ini_VCHS01={0xc4,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static vchs_inipar ini_VCHS01={0xc4,255,8,0xff,0,0x1,0x1,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 #pragma pop
@@ -742,7 +742,7 @@ static DriverRegister def_buf_VCHS01[]={
 #pragma pop
 #include <fp8/drivers/vchs2.h>
 static char buf_VCHS02[122];	//VCHS02
-static vchs_inipar ini_VCHS02={0xc4,255,1,8,0xff,0,0x1,0x1,0,0,1000000,1000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+static vchs_inipar ini_VCHS02={0xc4,255,8,0xff,0,0x1,0x1,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pop
@@ -755,7 +755,7 @@ static DriverRegister def_buf_VCHS02[]={
 #pragma pop
 #include <fp8/drivers/vds32r.h>
 static char buf_VDS32[194];	//VDS32
-static vds32r_inipar ini_VDS32={0xc2,0xff,0,8,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,};
+static vds32r_inipar ini_VDS32={0xc2,0xff,0,255,255,0,0,};
 #pragma pack(push,1)
 static table_drv table_VDS32={0,0,&ini_VDS32,buf_VDS32,0,0};
 #pragma pop
@@ -767,11 +767,11 @@ static DriverRegister def_buf_VDS32[]={
 #pragma pop
 #pragma pack(push,1)
 static Driver drivers[]={
-	{0x96,0x05,23,104,def_buf_FDS16,&table_FDS16},	//FDS16
-	{0xcc,0x20,7,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
-	{0xc4,0x01,27,122,def_buf_VCHS01,&table_VCHS01},	//VCHS01
-	{0xc4,0x02,27,122,def_buf_VCHS02,&table_VCHS02},	//VCHS02
-	{0xc2,0x04,19,194,def_buf_VDS32,&table_VDS32},	//VDS32
+	{0x96,0x05,5,104,def_buf_FDS16,&table_FDS16},	//FDS16
+	{0xcc,0x20,3,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
+	{0xc4,0x01,10,122,def_buf_VCHS01,&table_VCHS01},	//VCHS01
+	{0xc4,0x02,10,122,def_buf_VCHS02,&table_VCHS02},	//VCHS02
+	{0xc2,0x04,7,194,def_buf_VDS32,&table_VDS32},	//VDS32
 	{0,0,0,0,NULL,NULL},
 };
 #pragma pop
