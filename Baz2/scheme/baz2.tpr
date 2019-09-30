@@ -1998,9 +1998,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=3
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -2928,9 +2928,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=3
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -2956,9 +2956,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=3
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -3051,9 +3051,9 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=3
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
@@ -19791,4 +19791,4 @@
     }
   }
 }
-18673614
+18673606
