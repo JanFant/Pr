@@ -863,7 +863,7 @@
     }
     [TConst]{
       Name="A31"
-      Value="3276"
+      Value="3200"
       Type=2
       Numeration=0
       MemoryType=0
@@ -885,7 +885,7 @@
     }
     [TConst]{
       Name="B31"
-      Value="16383"
+      Value="16000"
       Type=2
       Numeration=0
       MemoryType=0
@@ -907,7 +907,7 @@
     }
     [TConst]{
       Name="A32"
-      Value="3276"
+      Value="3200"
       Type=2
       Numeration=0
       MemoryType=0
@@ -929,7 +929,7 @@
     }
     [TConst]{
       Name="B32"
-      Value="16383"
+      Value="16000"
       Type=2
       Numeration=0
       MemoryType=0
@@ -9902,4 +9902,4 @@
     }
   }
 }
-9497508
+9497454
