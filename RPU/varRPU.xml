@@ -21,11 +21,11 @@
 <var  name="C1MD31LRP" description="(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ" format="1"></var>
 <var  name="B3VS21LRP" description="(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2" format="1"></var>
 <var  name="A3VS21LRP" description="(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1" format="1"></var>
-<var  name="R0IN07VRP" description="(vchs:03 - K02VCHS, - ) Частота с ВЧС к 7" format="8"></var>
-<var  name="R0IN06VRP" description="(vchs:03 - K01VCHS, - ) Частота с ВЧС к 6" format="8"></var>
-<var  name="R0IN03VRP" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
-<var  name="R0IN02VRP" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
-<var  name="R0IN01VRP" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
+<var  name="R0IN07VRP" description="(vchs:03 - K02VCHS, RPU) Частота с ВЧС к 7" format="8"></var>
+<var  name="R0IN06VRP" description="(vchs:03 - K01VCHS, RPU) Частота с ВЧС к 6" format="8"></var>
+<var  name="R0IN03VRP" description="(vchs:02 - K01VCHS, RPU) Частота с ВЧС к 3" format="8"></var>
+<var  name="R0IN02VRP" description="(vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2" format="8"></var>
+<var  name="R0IN01VRP" description="(vchs:01 - K01VCHS, RPU) Частота с ВЧС к 1" format="8"></var>
 <var  name="B1VS21LRP" description="(fds16:08 - K02FDSR, - ) Индикация - Приход на НУ ББ2" format="1"></var>
 <var  name="B1IS21LRP" description="(vds32:07 - K12VDSR, - ) Приход на НУ ББ2" format="1"></var>
 <var  name="A1VS21LRP" description="(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1" format="1"></var>

@@ -80,20 +80,20 @@ int master=1,nomer=1;
 #define idR0IN01FI3	33	// ( - , MA3S) Выход СНМ-11 Гц от ПТИ
 #define R0IN01FS3	BUFFER[76]	// ( - , AKNP3) Выход СНМ-11 Гц
 #define idR0IN01FS3	34	// ( - , AKNP3) Выход СНМ-11 Гц
-#define R0IN01FV3	BUFFER[81]	// (vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
-#define idR0IN01FV3	35	// (vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+#define R0IN01FV3	BUFFER[81]	// (vchs:01 - K01VCHS, AKNP3) Частота с ВЧС к 1
+#define idR0IN01FV3	35	// (vchs:01 - K01VCHS, AKNP3) Частота с ВЧС к 1
 #define R0IN02FI3	BUFFER[86]	// ( - , MA3S) Выход КНК15-1 Гц от ПТИ
 #define idR0IN02FI3	36	// ( - , MA3S) Выход КНК15-1 Гц от ПТИ
 #define R0IN02FS3	BUFFER[91]	// ( - , AKNP3) Выход КНК15-1 Гц
 #define idR0IN02FS3	37	// ( - , AKNP3) Выход КНК15-1 Гц
-#define R0IN02FV3	BUFFER[96]	// (vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
-#define idR0IN02FV3	38	// (vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define R0IN02FV3	BUFFER[96]	// (vchs:01 - K02VCHS, AKNP3) Частота с ВЧС к 2
+#define idR0IN02FV3	38	// (vchs:01 - K02VCHS, AKNP3) Частота с ВЧС к 2
 #define R0IN03FI3	BUFFER[101]	// ( - , MA3S) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI3	39	// ( - , MA3S) Выход КНК53М Гц от ПТИ
 #define R0IN03FS3	BUFFER[106]	// ( - , - ) Выход КНК53М Гц
 #define idR0IN03FS3	40	// ( - , - ) Выход КНК53М Гц
-#define R0IN03FV3	BUFFER[111]	// (vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
-#define idR0IN03FV3	41	// (vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+#define R0IN03FV3	BUFFER[111]	// (vchs:02 - K01VCHS, AKNP3) Частота с ВЧС к 3
+#define idR0IN03FV3	41	// (vchs:02 - K01VCHS, AKNP3) Частота с ВЧС к 3
 #define R0IS01FI0	BUFFER[116]	// ( - , MA3S) Признак работы с имитатором
 #define idR0IS01FI0	42	// ( - , MA3S) Признак работы с имитатором
 #define R0VN01RS3	BUFFER[118]	// ( - , A3Bz1, A3Bz2) Период разгона канал 3
@@ -334,13 +334,13 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{32	,1	,1	,&R0IE13LS3},	//( - , - ) Исправность ВИП 0,5 (№16) КНК53М 3 канала
 	{33	,8	,1	,&R0IN01FI3},	//( - , MA3S) Выход СНМ-11 Гц от ПТИ
 	{34	,8	,1	,&R0IN01FS3},	//( - , AKNP3) Выход СНМ-11 Гц
-	{35	,8	,1	,&R0IN01FV3},	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+	{35	,8	,1	,&R0IN01FV3},	//(vchs:01 - K01VCHS, AKNP3) Частота с ВЧС к 1
 	{36	,8	,1	,&R0IN02FI3},	//( - , MA3S) Выход КНК15-1 Гц от ПТИ
 	{37	,8	,1	,&R0IN02FS3},	//( - , AKNP3) Выход КНК15-1 Гц
-	{38	,8	,1	,&R0IN02FV3},	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+	{38	,8	,1	,&R0IN02FV3},	//(vchs:01 - K02VCHS, AKNP3) Частота с ВЧС к 2
 	{39	,8	,1	,&R0IN03FI3},	//( - , MA3S) Выход КНК53М Гц от ПТИ
 	{40	,8	,1	,&R0IN03FS3},	//( - , - ) Выход КНК53М Гц
-	{41	,8	,1	,&R0IN03FV3},	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+	{41	,8	,1	,&R0IN03FV3},	//(vchs:02 - K01VCHS, AKNP3) Частота с ВЧС к 3
 	{42	,1	,1	,&R0IS01FI0},	//( - , MA3S) Признак работы с имитатором
 	{43	,8	,1	,&R0VN01RS3},	//( - , A3Bz1, A3Bz2) Период разгона канал 3
 	{44	,8	,1	,&R0VN02RS3},	//( - , A3Bz1, A3Bz2) Уровень мощности канал 3
@@ -511,6 +511,9 @@ static ModbusRegister ir_AKNP3[]={
 	{&TTLaknp3,3,11},	//( - , AKNP3) ttl
 	{&R0IN01FS3,8,12},	//( - , AKNP3) Выход СНМ-11 Гц
 	{&R0IN02FS3,8,14},	//( - , AKNP3) Выход КНК15-1 Гц
+	{&R0IN01FV3,8,16},	//( - K01VCHS, AKNP3) Частота с ВЧС к 1
+	{&R0IN02FV3,8,18},	//( - K02VCHS, AKNP3) Частота с ВЧС к 2
+	{&R0IN03FV3,8,20},	//( - K01VCHS, AKNP3) Частота с ВЧС к 3
 	{NULL,0,0},
 };
 #pragma pop

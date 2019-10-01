@@ -3180,15 +3180,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName="K01VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 1"
@@ -3207,15 +3207,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName="K02VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 2"
@@ -3234,15 +3234,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="AKNP4"
         ChannalName="K01VCHS"
         DeviceName="VCHS02"
         Line1="Частота с ВЧС к 3"
@@ -3287,7 +3287,7 @@
         }
       }
       [VVV_Text]{
-        R="683,857,851,864"
+        R="683,857,876,864"
         Number=247
         IsHold=FALSE
         Line1="Рис. 3. Выравнивание частоты по линейной зависимости"
@@ -6141,4 +6141,4 @@
     }
   }
 }
-5905284
+5906335

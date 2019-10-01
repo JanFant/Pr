@@ -25,9 +25,9 @@
 <var  name="R0IN01FI3" description="( - , MA3S) Выход СНМ-11 Гц от ПТИ" format="8"></var>
 <var  name="R0IN02FS3" description="( - , AKNP3) Выход КНК15-1 Гц" format="8"></var>
 <var  name="R0IN03FI3" description="( - , MA3S) Выход КНК53М Гц от ПТИ" format="8"></var>
-<var  name="R0IN01FV3" description="(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1" format="8"></var>
-<var  name="R0IN02FV3" description="(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2" format="8"></var>
-<var  name="R0IN03FV3" description="(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3" format="8"></var>
+<var  name="R0IN01FV3" description="(vchs:01 - K01VCHS, AKNP3) Частота с ВЧС к 1" format="8"></var>
+<var  name="R0IN02FV3" description="(vchs:01 - K02VCHS, AKNP3) Частота с ВЧС к 2" format="8"></var>
+<var  name="R0IN03FV3" description="(vchs:02 - K01VCHS, AKNP3) Частота с ВЧС к 3" format="8"></var>
 <var  name="R0VN02RS3" description="( - , A3Bz1, A3Bz2) Уровень мощности канал 3" format="8"></var>
 <var  name="R0VN01RS3" description="( - , A3Bz1, A3Bz2) Период разгона канал 3" format="8"></var>
 <var  name="R0VN61LS3" description="( - , A3Bz1, A3Bz2) ПС по мощности канал 3" format="1"></var>

@@ -80,20 +80,20 @@ int master=1,nomer=1;
 #define idR0IN01FI4	33	// ( - , MA4S) Выход СНМ-11 Гц от ПТИ
 #define R0IN01FS4	BUFFER[76]	// ( - , AKNP4) Выход СНМ-11 Гц
 #define idR0IN01FS4	34	// ( - , AKNP4) Выход СНМ-11 Гц
-#define R0IN01FV4	BUFFER[81]	// (vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
-#define idR0IN01FV4	35	// (vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+#define R0IN01FV4	BUFFER[81]	// (vchs:01 - K01VCHS, AKNP4) Частота с ВЧС к 1
+#define idR0IN01FV4	35	// (vchs:01 - K01VCHS, AKNP4) Частота с ВЧС к 1
 #define R0IN02FI4	BUFFER[86]	// ( - , MA4S) Выход КНК15-1 Гц от ПТИ
 #define idR0IN02FI4	36	// ( - , MA4S) Выход КНК15-1 Гц от ПТИ
 #define R0IN02FS4	BUFFER[91]	// ( - , AKNP4) Выход КНК15-1 Гц
 #define idR0IN02FS4	37	// ( - , AKNP4) Выход КНК15-1 Гц
-#define R0IN02FV4	BUFFER[96]	// (vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
-#define idR0IN02FV4	38	// (vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+#define R0IN02FV4	BUFFER[96]	// (vchs:01 - K02VCHS, AKNP4) Частота с ВЧС к 2
+#define idR0IN02FV4	38	// (vchs:01 - K02VCHS, AKNP4) Частота с ВЧС к 2
 #define R0IN03FI4	BUFFER[101]	// ( - , MA4S) Выход КНК53М Гц от ПТИ
 #define idR0IN03FI4	39	// ( - , MA4S) Выход КНК53М Гц от ПТИ
 #define R0IN03FS4	BUFFER[106]	// ( - , AKNP4) Выход КНК53М Гц
 #define idR0IN03FS4	40	// ( - , AKNP4) Выход КНК53М Гц
-#define R0IN03FV4	BUFFER[111]	// (vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
-#define idR0IN03FV4	41	// (vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+#define R0IN03FV4	BUFFER[111]	// (vchs:02 - K01VCHS, AKNP4) Частота с ВЧС к 3
+#define idR0IN03FV4	41	// (vchs:02 - K01VCHS, AKNP4) Частота с ВЧС к 3
 #define R0IS01FI0	BUFFER[116]	// ( - , MA4S) Признак работы с имитатором
 #define idR0IS01FI0	42	// ( - , MA4S) Признак работы с имитатором
 #define R0VN01RS4	BUFFER[118]	// ( - , A4Bz1, A4Bz2) Период разгона канал 4
@@ -334,13 +334,13 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{32	,1	,1	,&R0IE13LS4},	//( - , - ) Исправность ВИП 0,5 (№19) КНК53М 4 канала
 	{33	,8	,1	,&R0IN01FI4},	//( - , MA4S) Выход СНМ-11 Гц от ПТИ
 	{34	,8	,1	,&R0IN01FS4},	//( - , AKNP4) Выход СНМ-11 Гц
-	{35	,8	,1	,&R0IN01FV4},	//(vchs:01 - K01VCHS, - ) Частота с ВЧС к 1
+	{35	,8	,1	,&R0IN01FV4},	//(vchs:01 - K01VCHS, AKNP4) Частота с ВЧС к 1
 	{36	,8	,1	,&R0IN02FI4},	//( - , MA4S) Выход КНК15-1 Гц от ПТИ
 	{37	,8	,1	,&R0IN02FS4},	//( - , AKNP4) Выход КНК15-1 Гц
-	{38	,8	,1	,&R0IN02FV4},	//(vchs:01 - K02VCHS, - ) Частота с ВЧС к 2
+	{38	,8	,1	,&R0IN02FV4},	//(vchs:01 - K02VCHS, AKNP4) Частота с ВЧС к 2
 	{39	,8	,1	,&R0IN03FI4},	//( - , MA4S) Выход КНК53М Гц от ПТИ
 	{40	,8	,1	,&R0IN03FS4},	//( - , AKNP4) Выход КНК53М Гц
-	{41	,8	,1	,&R0IN03FV4},	//(vchs:02 - K01VCHS, - ) Частота с ВЧС к 3
+	{41	,8	,1	,&R0IN03FV4},	//(vchs:02 - K01VCHS, AKNP4) Частота с ВЧС к 3
 	{42	,1	,1	,&R0IS01FI0},	//( - , MA4S) Признак работы с имитатором
 	{43	,8	,1	,&R0VN01RS4},	//( - , A4Bz1, A4Bz2) Период разгона канал 4
 	{44	,8	,1	,&R0VN02RS4},	//( - , A4Bz1, A4Bz2) Уровень мощности канал 4
@@ -488,30 +488,33 @@ static VarSaveCtrl saveVariables[]={	//Id переменных для сохра
 };
 #pragma pack(push,1)
 static ModbusRegister coil_AKNP4[]={
-	{&R0EE04LZ1,1,0},	//( - , AKNP4) Питание  АКНП4  отключить
-	{&R0EE04LZ2,1,1},	//( - , AKNP4) Питание  АКНП4  отключить
+	{&R0EE04LZ2,1,0},	//( - , AKNP4) Питание  АКНП4  отключить
+	{&R0EE04LZ1,1,1},	//( - , AKNP4) Питание  АКНП4  отключить
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_AKNP4[]={
-	{&A0EE02LS4,1,0},	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
-	{&TestDiagnAKNP4,1,1},	//( - , AKNP4) Неисправность от диагностики
+	{&TestDiagnAKNP4,1,0},	//( - , AKNP4) Неисправность от диагностики
+	{&A0EE02LS4,1,1},	//( - , AKNP4) Исправность АКНП4 (от сшивки каналов) канал 4
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_AKNP4[]={
-	{&R0IN01FS4,8,0},	//( - , AKNP4) Выход СНМ-11 Гц
-	{&R0VN03RS4,8,2},	//( - , AKNP4) Измеренный нейтронный поток канал 4
-	{&R0VN04RS4,8,4},	//( - , AKNP4) Реактивность канал 4
-	{&R0IN03FS4,8,6},	//( - , AKNP4) Выход КНК53М Гц
-	{&R0VN13RS4,8,8},	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
-	{&R0VN23RS4,8,10},	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
-	{&R0VN33RS4,8,12},	//( - , AKNP4) Нейтронный поток по камере КНК53М канал 4
-	{&R0VN15RS4,3,14},	//( - , AKNP4) Номер ведущей камеры канал 4
-	{&TTLaknp4,3,15},	//( - , AKNP4) ttl
-	{&R0IN02FS4,8,16},	//( - , AKNP4) Выход КНК15-1 Гц
+	{&R0IN03FV4,8,0},	//( - K01VCHS, AKNP4) Частота с ВЧС к 3
+	{&R0IN02FV4,8,2},	//( - K02VCHS, AKNP4) Частота с ВЧС к 2
+	{&R0IN01FV4,8,4},	//( - K01VCHS, AKNP4) Частота с ВЧС к 1
+	{&R0IN02FS4,8,6},	//( - , AKNP4) Выход КНК15-1 Гц
+	{&TTLaknp4,3,8},	//( - , AKNP4) ttl
+	{&R0VN15RS4,3,9},	//( - , AKNP4) Номер ведущей камеры канал 4
+	{&R0VN33RS4,8,10},	//( - , AKNP4) Нейтронный поток по камере КНК53М канал 4
+	{&R0VN23RS4,8,12},	//( - , AKNP4) Нейтронный поток по камере КНК15-1 канал 4
+	{&R0VN13RS4,8,14},	//( - , AKNP4) Нейтронный поток по камере СНМ11 канал 4
+	{&R0IN03FS4,8,16},	//( - , AKNP4) Выход КНК53М Гц
+	{&R0VN04RS4,8,18},	//( - , AKNP4) Реактивность канал 4
+	{&R0VN03RS4,8,20},	//( - , AKNP4) Измеренный нейтронный поток канал 4
+	{&R0IN01FS4,8,22},	//( - , AKNP4) Выход СНМ-11 Гц
 	{NULL,0,0},
 };
 #pragma pop

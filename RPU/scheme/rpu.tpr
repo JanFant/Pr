@@ -2261,7 +2261,7 @@
         Line2="температуре в АЗ1"
       }
       [VVV_DrawConst]{
-        R="234,563,264,583"
+        R="235,563,265,583"
         Number=222
         IsHold=FALSE
         VisualNumber="96"
@@ -5158,15 +5158,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="RPU"
         ChannalName="K01VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 1"
@@ -5184,15 +5184,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="RPU"
         ChannalName="K02VCHS"
         DeviceName="VCHS01"
         Line1="Частота с ВЧС к 2"
@@ -5210,15 +5210,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="RPU"
         ChannalName="K01VCHS"
         DeviceName="VCHS02"
         Line1="Частота с ВЧС к 3"
@@ -5275,15 +5275,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="RPU"
         ChannalName="K01VCHS"
         DeviceName="VCHS03"
         Line1="Частота с ВЧС к 6"
@@ -5301,15 +5301,15 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=3
+        TypeMB=2
         FormatMB=8
-        TypeMBMaster=3
+        TypeMBMaster=2
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
-        InterfaceMB=""
+        InterfaceMB="RPU"
         ChannalName="K02VCHS"
         DeviceName="VCHS03"
         Line1="Частота с ВЧС к 7"
@@ -5570,8 +5570,8 @@
       [VVV_DrawConnector]{
         Number=274
         IsHold=FALSE
-        p0="241:563"
-        p1="241:552"
+        p0="242:563"
+        p1="242:552"
         p2="252:552"
         BNumber=222
         ENumber=219
@@ -9902,4 +9902,4 @@
     }
   }
 }
-9497454
+9498683
