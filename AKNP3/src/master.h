@@ -622,7 +622,7 @@ static ModbusRegister hr_MA3S[]={
 };
 #pragma pop
 static char MA3S_ip1[]={"192.168.10.60\0"};
-static char MA3S_ip2[]={"192.168.10.160\0"};
+static char MA3S_ip2[]={"\0"};
 #pragma pack(push,1)
 static ModbusRegister coil_A3Bz1[]={
 	{NULL,0,0},

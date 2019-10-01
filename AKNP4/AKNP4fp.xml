@@ -10,6 +10,6 @@
         <modbus   name="A4Bz1"      description="slave AKNP4 - Baz1" type="slave"                                            port="5018"            xml="A4Bz1"/>
         <modbus   name="A4Bz2"      description="slave AKNP4 - Baz2" type="slave"                                            port="5022"            xml="A4Bz2"/>
         <modbus   name="DiagnAKNP4" description="Диагностика АКНП4"  type="slave"                                            port="5003"            xml="DiagnAKNP4"/>
-        <modbus   name="MA4S"       description="Мастер AKNP4 в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.160"  port="5009" step="100" xml="..\scm\SA4.xml"/>
+        <modbus   name="MA4S"       description="Мастер AKNP4 в SCM" type="master" ip1="192.168.10.60"                       port="5009" step="100" xml="..\scm\SA4.xml"/>
         <!-- <modbus   name="MA4DU"      description="Мастер АКНП4 в ДУ"  type="master" ip1="192.168.10.50" ip2="192.168.10.150" port="5030" step="100" xml="..\DU\SADU.xml"/> -->
 </subsystem>

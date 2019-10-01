@@ -8,6 +8,6 @@
         <devices  xml="devRPU"/>
         <modbus   name="RPU"      description="общий slave RPU"  type="slave"                                           port="5002"            xml="RPU"/>
         <modbus   name="DiagnRPU" description="Диагностика РПУ"  type="slave"                                           port="5003"            xml="DiagnRPU"/>
-        <modbus   name="MRPS"     description="Мастер RPU в SCM" type="master" ip1="192.168.10.60" ip2="192.168.10.160" port="5010" step="100" xml="..\scm\SRP.xml"/>
+        <modbus   name="MRPS"     description="Мастер RPU в SCM" type="master" ip1="192.168.10.60"                      port="5010" step="100" xml="..\scm\SRP.xml"/>
         <!-- <modbus   name="MRPDU"    description="Мастер RPU в ДУ"  type="master" ip1="192.168.10.50" ip2="192.168.10.150" port="5030" step="100" xml="..\DU\SADU.xml"/> -->
 </subsystem>
