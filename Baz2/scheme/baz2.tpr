@@ -137,7 +137,7 @@
     }
     [TConst]{
       Name="A2UP03RZZ"
-      Value="1.6"
+      Value="0.6"
       Type=1
       Numeration=0
       MemoryType=1
@@ -19791,4 +19791,4 @@
     }
   }
 }
-18673554
+18673553

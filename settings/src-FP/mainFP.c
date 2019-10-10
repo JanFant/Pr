@@ -92,7 +92,7 @@ int main(int argc, char **argv) {
     }
     stopNetPhoto();
     sync();
-    syslog(LOG_INFO, "exiting programm");
+    syslog(LOG_INFO, "Error, exiting program");
     closelog();
     return (EXIT_SUCCESS);
 

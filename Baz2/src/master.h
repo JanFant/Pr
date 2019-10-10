@@ -1651,7 +1651,7 @@ static Driver drivers[]={
 };
 #pragma pop
 void InitSetConst(void){	//Инициализация переменных для хранения
-	setAsFloat(160,1.6);
+	setAsFloat(160,0.6);
 	setAsFloat(161,0);
 	setAsFloat(162,0.1);
 	setAsFloat(163,0.13);
