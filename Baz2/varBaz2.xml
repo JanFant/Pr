@@ -47,7 +47,7 @@
 <var  name="A3VZ13LZ2" description="(fds16:0a - K01FDSR, Baz2) Имитация АЗ от ВУ ИС" format="1"></var>
 <var  name="R0AD14LZ2" description="(fds16:0a - K03FDSR, - ) Имитация АЗ от IIУР" format="1"></var>
 <var  name="R0AD21LDU" description="( - , SBz2DU) Подключить защиту от II УР" format="1"></var>
-<var  name="R6IS66LZ2" description="(vds32:07 - K05VDSR, - ) Исправность БОС" format="1"></var>
+<var  name="R6IS66LZ2" description="(vds32:07 - K05VDSR, - ) Исправность БУ САС" format="1"></var>
 <var  name="R0S01LZ2" description="(vds32:08 - K08VDSR, - ) Отключение сетевых передач в Баз2" format="1"></var>
 <var  name="ttlfa1" description="( - , MBz2A1) ttlf float" format="8"></var>
 <var  name="R7II74LZ2" description="(vds32:06 - K08VDSR, - ) Сработала АС 1К IIУР" format="1"></var>

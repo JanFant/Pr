@@ -7663,7 +7663,7 @@
         VisualNumber="202"
         SIGNAL_NAME="R6IS66LZ1"
         KodTeprol="R6IS66LZ1"
-        Comment="Исправность БУС УР"
+        Comment="Исправность БУ САС"
         Type=3
         ParamType=0
         Value=""
@@ -7680,7 +7680,7 @@
         InterfaceMB=""
         ChannalName="K05VDSR"
         DeviceName="VDS323"
-        Line1="Исправность БУС УР"
+        Line1="Исправность БУ САС"
       }
       [VVV_InterBlock]{
         VisualNumber=""
@@ -19627,4 +19627,4 @@
     }
   }
 }
-18529439
+18529403

@@ -9410,7 +9410,7 @@
         VisualNumber="202"
         SIGNAL_NAME="R6IS66LZ2"
         KodTeprol="R6IS66LZ2"
-        Comment="Исправность БОС"
+        Comment="Исправность БУ САС"
         Type=3
         ParamType=0
         Value=""
@@ -9428,7 +9428,7 @@
         ChannalName="K05VDSR"
         DeviceName="VDS323"
         Line1="Исправность"
-        Line2=" БОС"
+        Line2="БУ САС"
       }
       [TModule]{
         R="1510,814,1540,834"
@@ -19791,4 +19791,4 @@
     }
   }
 }
-18673553
+18673341

@@ -101,7 +101,7 @@
 <var  name="A0SN04RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 3-го типа AЗ1" format="8"></var>
 <var  name="A0SN03RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 2-го типа AЗ1" format="8"></var>
 <var  name="A0SN02RIM" description="( - , SCM) Концентрация запаздывающих нейтронов 1-го типа AЗ1" format="8"></var>
-<var  name="R6IS66LZ2" description="(do32_pti:110 - K17DO, - ) Исправность БОС" format="1"></var>
+<var  name="R6IS66LZ2" description="(do32_pti:110 - K17DO, - ) Исправность БУ САС" format="1"></var>
 <var  name="R7II73LZ2" description="(do32_pti:110 - K24DO, - ) Сработала АС 3К IУР" format="1"></var>
 <var  name="R7II72LZ2" description="(do32_pti:110 - K18DO, - ) Сработала АС 2К IУР" format="1"></var>
 <var  name="R7II73LZ1" description="(do32_pti:110 - K08DO, - ) Сработала АС 3К IУР" format="1"></var>
@@ -241,7 +241,7 @@
 <var  name="A0VP81LZZ" description="(do32_pti:110 - K03DO, - ) Давление АЗ1 в норме" format="1"></var>
 <var  name="B8IC01UDU" description="( - , SDu) Координата АЗ2, мм" format="5"></var>
 <var  name="A8IC01UDU" description="( - , SDu) Координата ДС2" format="5"></var>
-<var  name="R6IS66LZ1" description="(do32_pti:100 - K17DO, - ) Исправность БОС" format="1"></var>
+<var  name="R6IS66LZ1" description="(do32_pti:100 - K17DO, - ) Исправность БУ САС" format="1"></var>
 <var  name="R6IS65LDU" description="( - , - ) Исправность ВИП ССДИ-35 2канал" format="1"></var>
 <var  name="R6IS64LDU" description="( - , - ) Исправность ВИП ССДИ-35 1канал" format="1"></var>
 <var  name="R6IS63LDU" description="( - , - ) Исправность ВИП ССДИ-39 2канал" format="1"></var>

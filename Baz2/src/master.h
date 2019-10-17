@@ -306,8 +306,8 @@ int master=1,nomer=1;
 #define idR0VZ05UZ2	146	// ( - , Baz2) Индикатор причины сброса
 #define R0VZ71LZ2	BUFFER[384]	// (fds16:0a - K16FDSR, Baz2, MBz2S) Обобщенный сигнал АЗ 2 канала
 #define idR0VZ71LZ2	147	// (fds16:0a - K16FDSR, Baz2, MBz2S) Обобщенный сигнал АЗ 2 канала
-#define R6IS66LZ2	BUFFER[386]	// (vds32:07 - K05VDSR, - ) Исправность БОС
-#define idR6IS66LZ2	148	// (vds32:07 - K05VDSR, - ) Исправность БОС
+#define R6IS66LZ2	BUFFER[386]	// (vds32:07 - K05VDSR, - ) Исправность БУ САС
+#define idR6IS66LZ2	148	// (vds32:07 - K05VDSR, - ) Исправность БУ САС
 #define R7II71LZ2	BUFFER[388]	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
 #define idR7II71LZ2	149	// (vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
 #define R7II72LZ2	BUFFER[390]	// (vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
@@ -901,7 +901,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{145	,5	,1	,&R0VZ05U},	//( - , - ) причины сброса
 	{146	,5	,1	,&R0VZ05UZ2},	//( - , Baz2) Индикатор причины сброса
 	{147	,1	,1	,&R0VZ71LZ2},	//(fds16:0a - K16FDSR, Baz2, MBz2S) Обобщенный сигнал АЗ 2 канала
-	{148	,1	,1	,&R6IS66LZ2},	//(vds32:07 - K05VDSR, - ) Исправность БОС
+	{148	,1	,1	,&R6IS66LZ2},	//(vds32:07 - K05VDSR, - ) Исправность БУ САС
 	{149	,1	,1	,&R7II71LZ2},	//(vds32:06 - K07VDSR, - ) Сработала АС 1К IУР
 	{150	,1	,1	,&R7II72LZ2},	//(vds32:07 - K06VDSR, - ) Сработала АС 2К IУР
 	{151	,1	,1	,&R7II73LZ2},	//(vds32:08 - K05VDSR, - ) Сработала АС 3К IУР
