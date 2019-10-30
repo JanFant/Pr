@@ -134,10 +134,18 @@
 <var  name="fEM_R0IN62NRP" description="(R0IN62NRP) Коэффициент B (РПУ к 6)" format="8"></var>
 <var  name="fEM_R0IN71NRP" description="(R0IN71NRP) Коэффициент A (РПУ к 7)" format="8"></var>
 <var  name="fEM_R0IN72NRP" description="(R0IN72NRP) Коэффициент B (РПУ к 7)" format="8"></var>
+<var  name="fEM_R7UY12RSS" description="(R7UY12RSS) требуемая погрешность в %" format="8"></var>
+<var  name="fEM_R7UY32RSS" description="(R7UY32RSS) уровень безусловного переключения" format="8"></var>
+<var  name="fEM_R7UY22RSS" description="(R7UY22RSS) Коэффициент усреднения" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m189_y0" description="(internal1_m189_y0) y0" format="8"></var>
-<var  name="internal1_m188_y0" description="(internal1_m188_y0) y0" format="8"></var>
+<var  name="internal1_m183_f1" description="(internal1_m183_f1) внутренний параметр" format="8"></var>
+<var  name="internal1_m183_f2" description="(internal1_m183_f2) внутренний параметр" format="8"></var>
+<var  name="internal1_m183_f3" description="(internal1_m183_f3) внутренний параметр" format="8"></var>
+<var  name="internal1_m183_flst1" description="(internal1_m183_flst1) внутренний параметр" format="8"></var>
+<var  name="internal1_m183_flst2" description="(internal1_m183_flst2) внутренний параметр" format="8"></var>
+<var  name="internal1_m193_y0" description="(internal1_m193_y0) y0" format="8"></var>
+<var  name="internal1_m192_y0" description="(internal1_m192_y0) y0" format="8"></var>
 <var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m70_tx" description="(internal1_m70_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m70_y0" description="(internal1_m70_y0) y0" format="18"></var>

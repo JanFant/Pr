@@ -1110,5 +1110,44 @@
             <value name="OldData">341</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R7UY12RSS</value>
+            <value name="description">( - , RPU) требуемая погрешность в %</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">82</value>
+            <value name="nID">81</value>
+            <value name="PType">33</value>
+            <value name="Bf0">160</value>
+            <value name="ParData">346</value>
+            <value name="OldData">346</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R7UY32RSS</value>
+            <value name="description">( - , RPU) уровень безусловного "переключения" %] type=tune</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">84</value>
+            <value name="nID">82</value>
+            <value name="PType">33</value>
+            <value name="Bf0">164</value>
+            <value name="ParData">351</value>
+            <value name="OldData">351</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R7UY22RSS</value>
+            <value name="description">( - , RPU) Коэффициент усреднения</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">86</value>
+            <value name="nID">83</value>
+            <value name="PType">33</value>
+            <value name="Bf0">168</value>
+            <value name="ParData">356</value>
+            <value name="OldData">356</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>
