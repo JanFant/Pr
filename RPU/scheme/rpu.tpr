@@ -1677,12 +1677,12 @@
     }
     [TConst]{
       Name="R7UY12RSS"
-      Value="0.005"
-      Type=1
+      Value="10"
+      Type=2
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="требуемая погрешность в %"
+      Description="интервал усреднения"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
@@ -1690,7 +1690,7 @@
       TypeInterface=1
       InterfaceMB="RPU"
       TypeMB=3
-      FormatMB=8
+      FormatMB=3
       HstInterv_item=3
       HstInterv_val=1
       HistReg=0
@@ -1699,12 +1699,12 @@
     }
     [TConst]{
       Name="R7UY32RSS"
-      Value="0.5"
+      Value="0.0"
       Type=1
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="уровень безусловного переключения"
+      Description="1-й коэффициент ф-ции смещения"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
@@ -1721,18 +1721,40 @@
     }
     [TConst]{
       Name="R7UY22RSS"
-      Value="2.0"
+      Value="0.0"
       Type=1
       Numeration=0
       MemoryType=1
       ESPPZUType=0
-      Description="Коэффициент усреднения"
+      Description="2-й коэффициент ф-ции смещения"
       MinValue="-1000"
       MaxValue="20000"
       Group=""
       Access=""
       TypeInterface=1
       InterfaceMB="RPU"
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
+    [TConst]{
+      Name="N0"
+      Value="10"
+      Type=2
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description="n - размерность массива мгновенных значений"
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -2014,7 +2036,7 @@
         CONST_NAME="R0UH05RSS"
       }
       [VVV_Text]{
-        R="292,424,434,430"
+        R="292,424,430,430"
         Number=148
         IsHold=FALSE
         Line1="Рис.1. Обработка датчиков нейтронного потока"
@@ -2241,7 +2263,7 @@
         R="511,911,541,951"
         Number=175
         IsHold=FALSE
-        VisualNumber="188"
+        VisualNumber="189"
         SIGNAL_NAME="R0IN07RRP"
         KodTeprol="R0IN07RRP"
         Comment="Частота СНМ-11 Гц (канал 7)"
@@ -3591,7 +3613,7 @@
         }
       }
       [VVV_Text]{
-        R="591,237,648,249"
+        R="591,237,641,248"
         Number=193
         IsHold=FALSE
         Line1="отключить питание"
@@ -5877,26 +5899,43 @@
         IsHold=FALSE
         VisualNumber="183"
         ABBRV="FFILTR"
+        [VVV_DrawConnector]{
+          Number=0
+          IsHold=FALSE
+          ENumber=127
+          Comment=""
+          CommentChange=0
+          Value=""
+          [VVV_ConstCPoint]{
+            Number=127
+            ConstName="N0"
+          }
+          [VVV_GCPoint]{
+            Number=127
+            ParameterName="n"
+            Index=-1
+          }
+        }
       }
       [VVV_DrawConst]{
-        R="443,1104,473,1124"
+        R="443,1054,473,1074"
         Number=439
         IsHold=FALSE
         VisualNumber="186"
         CONST_NAME="R7UY12RSS"
       }
       [VVV_DrawConst]{
-        R="480,1103,510,1123"
+        R="443,1078,473,1098"
         Number=440
         IsHold=FALSE
         VisualNumber="187"
         CONST_NAME="R7UY32RSS"
       }
       [VVV_DrawConst]{
-        R="517,1102,547,1122"
+        R="444,1107,474,1127"
         Number=441
         IsHold=FALSE
-        VisualNumber="189"
+        VisualNumber="188"
         CONST_NAME="R7UY22RSS"
       }
       [VVV_DrawConnector]{
@@ -10423,72 +10462,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=442
-        IsHold=FALSE
-        p0="455:1104"
-        p1="455:1097"
-        p2="401:1097"
-        BNumber=439
-        ENumber=127
-        Comment="требуемая погрешность в % --> hipr - требуемая погрешность в %"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=439
-          ParameterName="R7UY12RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=127
-          ParameterName="Lowlw"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=443
-        IsHold=FALSE
-        p0="492:1103"
-        p1="492:1092"
-        p2="401:1092"
-        BNumber=440
-        ENumber=127
-        Comment="уровень безусловного "переключения" %] type=tune --> hipr -  уровень безусловного переключения %"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=440
-          ParameterName="R7UY32RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=127
-          ParameterName="hilw"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=444
-        IsHold=FALSE
-        p0="532:1102"
-        p1="532:1087"
-        p2="401:1087"
-        BNumber=441
-        ENumber=127
-        Comment="Коэффициент усреднения --> Sred - к-т усреднения"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=441
-          ParameterName="R7UY22RSS"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=127
-          ParameterName="Sred"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=432
         IsHold=FALSE
         p0="146:76"
@@ -10562,7 +10535,7 @@
         p2="351:1075"
         BNumber=127
         ENumber=4
-        Comment="y - выходной параметр"
+        Comment="y - выходной параметр --> Частота КНК15-1 Гц (канал 5)"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -10603,7 +10576,73 @@
           Index=-1
         }
       }
+      [VVV_DrawConnector]{
+        Number=433
+        IsHold=FALSE
+        p0="443:1066"
+        p1="385:1066"
+        p2="385:1083"
+        BNumber=439
+        ENumber=127
+        Comment="интервал усреднения --> StepSred - интервал усреднения"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=439
+          ParameterName="R7UY12RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="StepSred"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=435
+        IsHold=FALSE
+        p0="443:1088"
+        p1="401:1088"
+        BNumber=440
+        ENumber=127
+        Comment="1-й коэффициент ф-ции смещения  --> a1 -1-й коэффициент"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=440
+          ParameterName="R7UY32RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="a1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=442
+        IsHold=FALSE
+        p0="444:1116"
+        p1="430:1116"
+        p2="430:1096"
+        p3="401:1096"
+        BNumber=441
+        ENumber=127
+        Comment="2-й коэффициент ф-ции смещения --> a2 -2-й коэффициент"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=441
+          ParameterName="R7UY22RSS"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=127
+          ParameterName="a2"
+          Index=-1
+        }
+      }
     }
   }
 }
-10193011
+10230106

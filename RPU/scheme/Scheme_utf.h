@@ -1,5 +1,5 @@
 /* Определение внутренних параметров */
-uspaint8 InternalBuf[72];
+uspaint8 InternalBuf[113];
 
 /* Определение констант ПЗУ и ЭСППЗУ*/
 ssbool lRM_0_ = {0,0}; /* A-Граница участка насыщения А */ 
@@ -15,8 +15,9 @@ ssint iRM_6_ = {6,0}; /* n - размерность массива значен�
 ssfloat fRM_0_ = {0,0}; /* c */ 
 ssfloat fRM_0_6 = {0.6,0}; /* d */ 
 ssfloat fRM_1_2 = {1.2,0}; /* d */ 
+ssint iRM_10_ = {10,0}; /* n - размерность массива мгновенных значений */ 
 
-uspaint8 SpaEEPROMBuf[215];
+uspaint8 SpaEEPROMBuf[213];
 
 /* Определение переменных */
 ssfloat var1;
@@ -92,11 +93,12 @@ sschar vainSChar;
 char vainSText[] = "";
 
 /* Объявление массивов */
+psfloat  array_m183_x0_1[10];
 psbool  array_m156_x_1[6] = {&var17,&var18,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0DE39LRP};
 psint  array_m138_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
 
 /* Объявление структур */
-_S_ffiltr  S_ffiltr_183_1 = {&R0IN02VRP,&fEM_R7UY32RSS,&fEM_R7UY12RSS,&fEM_R7UY22RSS,&var1,&internal1_m183_f1,&internal1_m183_f2,&internal1_m183_f3,&internal1_m183_flst1,&internal1_m183_flst2,&bFirstEnterFlag};
+_S_ffiltr  S_ffiltr_183_1 = {&R0IN02VRP,&fEM_R7UY32RSS,&fEM_R7UY22RSS,&iEM_R7UY12RSS,&iRM_10_,&var1,&internal1_m183_xptr,&internal1_m183_stepc,array_m183_x0_1,&internal1_m183_flst,&internal1_m183_SumS,&bFirstEnterFlag};
 _S_scalzz  S_scalzz_193_1 = {&VMETRP12,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_1_2,&var2,&internal1_m193_y0};
 _S_scalzz  S_scalzz_192_1 = {&VMETRP06,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_0_6,&var3,&internal1_m192_y0};
 _S_pogrvh  S_pogrvh_184_1 = {&R0IN07VRP,&fEM_R0IN71NRP,&fEM_R0IN72NRP,&var4};
@@ -263,4 +265,6 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
 void InitInternalParametr(void)
 {
   int i;
+  for( i=0;i<10;i++ )
+    array_m183_x0_1[i] = &(&internal1_m183_x0)[i];
 }

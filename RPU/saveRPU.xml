@@ -39,7 +39,7 @@
   <save value ="0">fEM_R0IN62NRP</save>
   <save value ="1">fEM_R0IN71NRP</save>
   <save value ="0">fEM_R0IN72NRP</save>
-  <save value ="0.005">fEM_R7UY12RSS</save>
-  <save value ="0.5">fEM_R7UY32RSS</save>
-  <save value ="2.0">fEM_R7UY22RSS</save>
+  <save value ="10">iEM_R7UY12RSS</save>
+  <save value ="0.0">fEM_R7UY32RSS</save>
+  <save value ="0.0">fEM_R7UY22RSS</save>
 </saves>
