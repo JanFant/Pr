@@ -1149,5 +1149,18 @@
             <value name="OldData">354</value>
             <value name="unitId">1</value>
         </record>
+        <record>
+            <value name="name">fEM_R7UY42RSS</value>
+            <value name="description">( - , RPU) уровень корректировки</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">87</value>
+            <value name="nID">84</value>
+            <value name="PType">33</value>
+            <value name="Bf0">170</value>
+            <value name="ParData">359</value>
+            <value name="OldData">359</value>
+            <value name="unitId">1</value>
+        </record>
     </records>
 </table>

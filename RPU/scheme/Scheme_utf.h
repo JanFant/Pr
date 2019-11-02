@@ -17,7 +17,7 @@ ssfloat fRM_0_6 = {0.6,0}; /* d */
 ssfloat fRM_1_2 = {1.2,0}; /* d */ 
 ssint iRM_10_ = {10,0}; /* n - размерность массива мгновенных значений */ 
 
-uspaint8 SpaEEPROMBuf[213];
+uspaint8 SpaEEPROMBuf[218];
 
 /* Определение переменных */
 ssfloat var1;
@@ -98,9 +98,9 @@ psbool  array_m156_x_1[6] = {&var17,&var18,&R0DE36LRP,&R0DE37LRP,&R0DE38LRP,&R0D
 psint  array_m138_x_1[6] = {&R0DE01LRP,&R0DE02LRP,&R0DE03LRP,&R0DE08LRP,&R0DE06LRP,&R0DE07LRP};
 
 /* Объявление структур */
-_S_ffiltr  S_ffiltr_183_1 = {&R0IN02VRP,&fEM_R7UY32RSS,&fEM_R7UY22RSS,&iEM_R7UY12RSS,&iRM_10_,&var1,&internal1_m183_xptr,&internal1_m183_stepc,array_m183_x0_1,&internal1_m183_flst,&internal1_m183_SumS,&bFirstEnterFlag};
-_S_scalzz  S_scalzz_193_1 = {&VMETRP12,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_1_2,&var2,&internal1_m193_y0};
-_S_scalzz  S_scalzz_192_1 = {&VMETRP06,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_0_6,&var3,&internal1_m192_y0};
+_S_ffiltr  S_ffiltr_183_1 = {&R0IN02VRP,&fEM_R7UY42RSS,&fEM_R7UY32RSS,&fEM_R7UY22RSS,&iEM_R7UY12RSS,&iRM_10_,&var1,&internal1_m183_xptr,&internal1_m183_stepc,array_m183_x0_1,&internal1_m183_flst,&internal1_m183_SumS,&bFirstEnterFlag};
+_S_scalzz  S_scalzz_194_1 = {&VMETRP12,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_1_2,&var2,&internal1_m194_y0};
+_S_scalzz  S_scalzz_193_1 = {&VMETRP06,&iRM_3200_,&iRM_16000_,&fRM_0_,&fRM_0_6,&var3,&internal1_m193_y0};
 _S_pogrvh  S_pogrvh_184_1 = {&R0IN07VRP,&fEM_R0IN71NRP,&fEM_R0IN72NRP,&var4};
 _S_pogrvh  S_pogrvh_175_1 = {&R0IN06VRP,&fEM_R0IN61NRP,&fEM_R0IN62NRP,&var5};
 _S_pogrvh  S_pogrvh_173_1 = {&R0IN03VRP,&fEM_R0IN31NRP,&fEM_R0IN32NRP,&var6};
@@ -125,7 +125,7 @@ _S_or2  S_or2_66_1 = {&A6IS11LRP,&B6IS11LRP,&vainSBool};
 _S_or2  S_or2_94_1 = {&var64,&var65,&var31};
 _S_or4  S_or4_48_1 = {&var38,&var36,&var37,&var34,&var32};
 _S_or2  S_or2_99_1 = {&var63,&var52,&var33};
-_S_or2  S_or2_121_1 = {&var35,&var33,&var34};
+_S_or2  S_or2_125_1 = {&var35,&var33,&var34};
 _S_or2  S_or2_95_1 = {&var62,&var55,&var35};
 _S_and3  S_and3_44_1 = {&var16,&var48,&var42,&var36};
 _S_and3  S_and3_52_1 = {&var46,&R0IE14LRP,&var58,&var37};
@@ -147,7 +147,7 @@ _S_drg  S_drg_100_1 = {&var49,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var
 _S_drg  S_drg_115_1 = {&var49,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var53,&internal1_m115_y1};
 _S_geterr  S_geterr_90_1 = {&var49,&dRM_0_,&iRM_0_,&bRM_0_,&var54,&vainSChar,&vainSChar,&vainSChar,&vainSBool};
 _S_drg  S_drg_98_1 = {&var50,&lRM_0_,&lRM_1_,&fEM_R0UT72RZZ,&fEM_R0UT71RZZ,&var55,&internal1_m98_y1};
-_S_drg  S_drg_113_1 = {&var50,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var56,&internal1_m113_y1};
+_S_drg  S_drg_111_1 = {&var50,&lRM_0_,&lRM_1_,&fEM_R0UT62RZZ,&fEM_R0UT61RZZ,&var56,&internal1_m111_y1};
 _S_noto  S_noto_75_1 = {&var16,&var57};
 _S_bol  S_bol_61_1 = {&var9,&fEM_R0UR01RRP,&var58};
 _S_bol  S_bol_50_1 = {&var10,&fEM_R0UR01RRP,&var59};
@@ -163,8 +163,8 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   and2(&S_and2_140_1);
   or2(&S_or2_158_1);
   or2(&S_or2_151_1);
-  scalzz(&S_scalzz_193_1);
-  drg(&S_drg_113_1);
+  scalzz(&S_scalzz_194_1);
+  drg(&S_drg_111_1);
   drg(&S_drg_98_1);
   geterr(&S_geterr_90_1);
   drg(&S_drg_115_1);
@@ -189,10 +189,10 @@ if(getAsBool(idbFirstEnterFlag)==0) InitInternalParametr();
   pogrvh(&S_pogrvh_173_1);
   pogrvh(&S_pogrvh_175_1);
   pogrvh(&S_pogrvh_184_1);
-  scalzz(&S_scalzz_192_1);
+  scalzz(&S_scalzz_193_1);
   ffiltr(&S_ffiltr_183_1);
   noto(&S_noto_67_1);
-  or2(&S_or2_121_1);
+  or2(&S_or2_125_1);
   ml(&S_ml_6_1);
   ml(&S_ml_7_1);
   ml(&S_ml_8_1);

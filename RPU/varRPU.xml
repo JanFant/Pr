@@ -137,6 +137,7 @@
 <var  name="iEM_R7UY12RSS" description="(R7UY12RSS) интервал усреднения" format="3"></var>
 <var  name="fEM_R7UY32RSS" description="(R7UY32RSS) 1-й коэффициент ф-ции смещения" format="8"></var>
 <var  name="fEM_R7UY22RSS" description="(R7UY22RSS) 2-й коэффициент ф-ции смещения" format="8"></var>
+<var  name="fEM_R7UY42RSS" description="(R7UY42RSS) уровень корректировки" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m183_xptr" description="(internal1_m183_xptr) указатель текущей позиции в массиве координат" format="3"></var>
@@ -144,8 +145,8 @@
 <var  name="internal1_m183_x0" description="(internal1_m183_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
 <var  name="internal1_m183_flst" description="(internal1_m183_flst) внутренний параметр" format="8"></var>
 <var  name="internal1_m183_SumS" description="(internal1_m183_SumS) внутренний параметр" format="8"></var>
+<var  name="internal1_m194_y0" description="(internal1_m194_y0) y0" format="8"></var>
 <var  name="internal1_m193_y0" description="(internal1_m193_y0) y0" format="8"></var>
-<var  name="internal1_m192_y0" description="(internal1_m192_y0) y0" format="8"></var>
 <var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
 <var  name="internal1_m70_tx" description="(internal1_m70_tx) tx - время накопленное сек" format="8"></var>
 <var  name="internal1_m70_y0" description="(internal1_m70_y0) y0" format="18"></var>
@@ -156,5 +157,5 @@
 <var  name="internal1_m100_y1" description="(internal1_m100_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m115_y1" description="(internal1_m115_y1) y1 - внутренний параметр" format="1"></var>
 <var  name="internal1_m98_y1" description="(internal1_m98_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m113_y1" description="(internal1_m113_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m111_y1" description="(internal1_m111_y1) y1 - внутренний параметр" format="1"></var>
 </vars>
