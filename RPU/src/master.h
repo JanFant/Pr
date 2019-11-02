@@ -1091,8 +1091,8 @@ void InitSetConst(void){	//Инициализация переменных дл�
 	setAsFloat(132,248.0);
 	setAsFloat(133,572.4);
 	setAsFloat(134,246.8);
-	setAsFloat(135,0.0);
-	setAsFloat(136,0.0);
+	setAsFloat(135,0.318901);
+	setAsFloat(136,-0.11869);
 	setAsFloat(137,210);
 	setAsShort(138,10);
 }
