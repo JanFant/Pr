@@ -200,8 +200,8 @@ int master=1,nomer=1;
 #define idVMETRP06	93	// (vas84:06 - K05VASR, RPU) вход Метр Давленение 0.6
 #define VMETRP12	BUFFER[272]	// (vas84:06 - K06VASR, RPU) вход Метр Давленение 1.2
 #define idVMETRP12	94	// (vas84:06 - K06VASR, RPU) вход Метр Давленение 1.2
-#define aaaaaa	BUFFER[275]	// ( - , - ) aaaaaa
-#define idaaaaaa	95	// ( - , - ) aaaaaa
+#define aaaa	BUFFER[275]	// ( - , - ) aaaa
+#define idaaaa	95	// ( - , - ) aaaa
 #define bFirstEnterFlag	BUFFER[280]	// (bFirstEnterFlag) 
 #define idbFirstEnterFlag	96	// (bFirstEnterFlag) 
 #define fEM_A0UX00RSS	BUFFER[282]	// (A0UX00RSS) Эффективный радиус АЗ
@@ -566,7 +566,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{92	,1	,1	,&TestDiagnRPU},	//( - , RPU) Неисправность от диагностики
 	{93	,3	,1	,&VMETRP06},	//(vas84:06 - K05VASR, RPU) вход Метр Давленение 0.6
 	{94	,3	,1	,&VMETRP12},	//(vas84:06 - K06VASR, RPU) вход Метр Давленение 1.2
-	{95	,8	,1	,&aaaaaa},	//( - , - ) aaaaaa
+	{95	,8	,1	,&aaaa},	//( - , - ) aaaa
 	{96	,1	,1	,&bFirstEnterFlag},	//(bFirstEnterFlag) 
 	{97	,8	,1	,&fEM_A0UX00RSS},	//(A0UX00RSS) Эффективный радиус АЗ
 	{98	,8	,1	,&fEM_A0UX13RSS},	//(A0UX13RSS) Первый коэффициент калибровки камеры 13
@@ -850,9 +850,7 @@ static ModbusRegister hr_RPU[]={
 	{&fEM_R0IN71NRP,8,78},	//( - , RPU) Коэффициент A (РПУ к 7)
 	{&fEM_R0IN72NRP,8,80},	//( - , RPU) Коэффициент B (РПУ к 7)
 	{&iEM_R7UY12RSS,3,82},	//( - , RPU) интервал усреднения
-	{&fEM_R7UY32RSS,8,83},	//( - , RPU) 1-й коэффициент ф-ции смещения
-	{&fEM_R7UY22RSS,8,85},	//( - , RPU) 2-й коэффициент ф-ции смещения
-	{&fEM_R7UY42RSS,8,87},	//( - , RPU) уровень корректировки
+	{&fEM_R7UY42RSS,8,83},	//( - , RPU) уровень корректировки
 	{NULL,0,0},
 };
 #pragma pop
@@ -1117,8 +1115,8 @@ void InitSetConst(void){	//Инициализация переменных дл�
 	setAsFloat(133,248.0);
 	setAsFloat(134,572.4);
 	setAsFloat(135,246.8);
-	setAsFloat(136,0.014174 );
-	setAsFloat(137,-0.094480 );
+	setAsFloat(136,0.260609);
+	setAsFloat(137,-0.098010);
 	setAsFloat(138,9.9);
 	setAsFloat(139,210);
 	setAsShort(140,10);

@@ -1699,7 +1699,7 @@
     }
     [TConst]{
       Name="R7UY32RSS"
-      Value="-0.094480 "
+      Value="-0.098010"
       Type=1
       Numeration=0
       MemoryType=1
@@ -1710,7 +1710,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="RPU"
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -1721,7 +1721,7 @@
     }
     [TConst]{
       Name="R7UY22RSS"
-      Value="0.014174 "
+      Value="0.260609"
       Type=1
       Numeration=0
       MemoryType=1
@@ -1732,7 +1732,7 @@
       Group=""
       Access=""
       TypeInterface=1
-      InterfaceMB="RPU"
+      InterfaceMB=""
       TypeMB=3
       FormatMB=8
       HstInterv_item=3
@@ -2086,7 +2086,7 @@
         Line1="Рис.1. Обработка датчиков нейтронного потока"
       }
       [VVV_Text]{
-        R="845,407,978,413"
+        R="845,407,989,413"
         Number=220
         IsHold=FALSE
         Line1="Рис.2. АС по СНМ-11 в БЗ и неисправности  РПУ"
@@ -3677,14 +3677,14 @@
         }
       }
       [VVV_Text]{
-        R="661,155,717,169"
+        R="661,155,709,167"
         Number=203
         IsHold=FALSE
         Line1="АС по мощности"
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="596,186,652,200"
+        R="596,186,644,198"
         Number=205
         IsHold=FALSE
         Line1="АС по мощности"
@@ -4005,7 +4005,7 @@
         }
       }
       [VVV_Text]{
-        R="961,216,1024,230"
+        R="961,216,1010,228"
         Number=332
         IsHold=FALSE
         Line1="неисправность по "
@@ -5684,7 +5684,7 @@
         CONST_NAME="R0IN72NRP"
       }
       [TModule]{
-        R="747,914,807,954"
+        R="860,913,920,953"
         Number=419
         IsHold=FALSE
         VisualNumber="199"
@@ -5759,7 +5759,7 @@
         }
       }
       [TDrawSignal]{
-        R="694,914,724,954"
+        R="807,913,837,953"
         Number=420
         IsHold=FALSE
         VisualNumber="197"
@@ -5785,7 +5785,7 @@
         Line1="вход Метр Давленение 0.6"
       }
       [TDrawSignal]{
-        R="845,914,875,954"
+        R="958,913,988,953"
         Number=422
         IsHold=FALSE
         VisualNumber="201"
@@ -5811,7 +5811,7 @@
         Line1="Метр давление 0.6"
       }
       [TDrawSignal]{
-        R="694,983,724,1023"
+        R="807,982,837,1022"
         Number=424
         IsHold=FALSE
         VisualNumber="198"
@@ -5837,7 +5837,7 @@
         Line1="вход Метр Давленение 1.2"
       }
       [TModule]{
-        R="747,982,807,1022"
+        R="860,981,920,1021"
         Number=425
         IsHold=FALSE
         VisualNumber="200"
@@ -5912,7 +5912,7 @@
         }
       }
       [TDrawSignal]{
-        R="846,984,876,1024"
+        R="959,983,989,1023"
         Number=427
         IsHold=FALSE
         VisualNumber="202"
@@ -10420,8 +10420,8 @@
       [VVV_DrawConnector]{
         Number=421
         IsHold=FALSE
-        p0="724:934"
-        p1="747:934"
+        p0="837:933"
+        p1="860:933"
         BNumber=420
         ENumber=419
         Comment="вход Метр Давленение 0.6 --> x"
@@ -10441,8 +10441,8 @@
       [VVV_DrawConnector]{
         Number=423
         IsHold=FALSE
-        p0="807:936"
-        p1="845:936"
+        p0="920:935"
+        p1="958:935"
         BNumber=419
         ENumber=422
         Comment="y --> Метр давление 0.6"
@@ -10462,8 +10462,8 @@
       [VVV_DrawConnector]{
         Number=426
         IsHold=FALSE
-        p0="724:1003"
-        p1="747:1003"
+        p0="837:1002"
+        p1="860:1002"
         BNumber=424
         ENumber=425
         Comment="вход Метр Давленение 1.2 --> x"
@@ -10483,8 +10483,8 @@
       [VVV_DrawConnector]{
         Number=431
         IsHold=FALSE
-        p0="807:1001"
-        p1="846:1001"
+        p0="920:1000"
+        p1="959:1000"
         BNumber=425
         ENumber=427
         Comment="y"
@@ -10753,7 +10753,7 @@
         p5="371:1117"
         BNumber=368
         ENumber=127
-        Comment="Частота с ВЧС к 2 --> x - входное значение частоты"
+        Comment="Частота с ВЧС к 2 --> x - входной параметр"
         CommentChange=0
         Value=""
         [VVV_GCPoint]{
@@ -10879,13 +10879,13 @@
         }
       }
       [TDrawSignal]{
-        R="657,914,687,954"
+        R="698,913,728,953"
         Number=455
         IsHold=FALSE
         VisualNumber="196"
-        SIGNAL_NAME="aaaaaa"
-        KodTeprol="aaaaaa"
-        Comment="aaaaaa"
+        SIGNAL_NAME="aaaa"
+        KodTeprol="aaaa"
+        Comment="aaaa"
         Type=1
         ParamType=0
         Value=""
@@ -10902,9 +10902,9 @@
         InterfaceMB=""
         ChannalName=""
         DeviceName=""
-        Line1="aaaaaa"
+        Line1="aaaa"
       }
     }
   }
 }
-10489119
+10487976

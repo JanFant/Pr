@@ -22,7 +22,7 @@
 <var  name="B7MZ31LRP" description="( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)" format="1"></var>
 <var  name="A7MZ31LRP" description="( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)" format="1"></var>
 <var  name="C1MZ31LRP" description="(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ" format="1"></var>
-<var  name="aaaaaa" description="( - , - ) aaaaaa" format="8"></var>
+<var  name="aaaa" description="( - , - ) aaaa" format="8"></var>
 <var  name="METRP12" description="( - , RPU) Метр давление 1.2" format="8"></var>
 <var  name="VMETRP12" description="(vas84:06 - K06VASR, RPU) вход Метр Давленение 1.2" format="3"></var>
 <var  name="METRP06" description="( - , RPU) Метр давление 0.6" format="8"></var>
