@@ -1124,16 +1124,42 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">fEM_R7UY42RSS</value>
-            <value name="description">( - , RPU) уровень корректировки</value>
+            <value name="name">fEM_R7UY32RSS</value>
+            <value name="description">( - , RPU) 1-й коэффициент ф-ции смещения</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">83</value>
             <value name="nID">82</value>
             <value name="PType">33</value>
-            <value name="Bf0">170</value>
+            <value name="Bf0">162</value>
             <value name="ParData">349</value>
             <value name="OldData">349</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R7UY22RSS</value>
+            <value name="description">( - , RPU) 2-й коэффициент ф-ции смещения</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">85</value>
+            <value name="nID">83</value>
+            <value name="PType">33</value>
+            <value name="Bf0">166</value>
+            <value name="ParData">354</value>
+            <value name="OldData">354</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">fEM_R7UY42RSS</value>
+            <value name="description">( - , RPU) уровень корректировки</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">87</value>
+            <value name="nID">84</value>
+            <value name="PType">33</value>
+            <value name="Bf0">170</value>
+            <value name="ParData">359</value>
+            <value name="OldData">359</value>
             <value name="unitId">1</value>
         </record>
     </records>
