@@ -142,12 +142,12 @@
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
 <var  name="internal1_m184_xptr" description="(internal1_m184_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m184_stepc" description="(internal1_m184_stepc) stepc - счетчик шагов" format="3"></var>
+<var  name="internal1_m184_stepc" description="(internal1_m184_stepc) stepc - счетчик шагов" format="8"></var>
 <var  name="internal1_m184_x0" description="(internal1_m184_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
 <var  name="internal1_m184_flst" description="(internal1_m184_flst) внутренний параметр" format="8"></var>
 <var  name="internal1_m184_SumS" description="(internal1_m184_SumS) внутренний параметр" format="8"></var>
 <var  name="internal1_m183_xptr" description="(internal1_m183_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m183_stepc" description="(internal1_m183_stepc) stepc - счетчик шагов" format="3"></var>
+<var  name="internal1_m183_stepc" description="(internal1_m183_stepc) stepc - счетчик шагов" format="8"></var>
 <var  name="internal1_m183_x0" description="(internal1_m183_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
 <var  name="internal1_m183_flst" description="(internal1_m183_flst) внутренний параметр" format="8"></var>
 <var  name="internal1_m183_SumS" description="(internal1_m183_SumS) внутренний параметр" format="8"></var>
