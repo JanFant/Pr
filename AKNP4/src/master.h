@@ -731,7 +731,7 @@ static DriverRegister def_buf_SBKFP[]={
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS01[122];	//VCHS01
+static char buf_VCHS01[150];	//VCHS01
 static vchs_inipar ini_VCHS01={0xc4,255,8,0xff,0,0x1,0x1,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
@@ -740,12 +740,12 @@ static table_drv table_VCHS01={0,0,&ini_VCHS01,buf_VCHS01,0,0};
 static DriverRegister def_buf_VCHS01[]={
 	{&R0IN01FV4,8,0},
 	{&R0IN02FV4,8,5},
-	{&R0DE01LS4,3,10},
+	{&R0DE01LS4,3,26},
 	{NULL,0,0},
 };
 #pragma pop
 #include <fp8/drivers/vchs2.h>
-static char buf_VCHS02[122];	//VCHS02
+static char buf_VCHS02[150];	//VCHS02
 static vchs_inipar ini_VCHS02={0xc4,255,8,0xff,0,0x1,0x1,0,0,0,};
 #pragma pack(push,1)
 static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
@@ -753,7 +753,7 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 #pragma pack(push,1)
 static DriverRegister def_buf_VCHS02[]={
 	{&R0IN03FV4,8,0},
-	{&R0DE02LS4,3,10},
+	{&R0DE02LS4,3,26},
 	{NULL,0,0},
 };
 #pragma pop
@@ -773,8 +773,8 @@ static DriverRegister def_buf_VDS32[]={
 static Driver drivers[]={
 	{0x96,0x05,5,104,def_buf_FDS16,&table_FDS16},	//FDS16
 	{0xcc,0x20,3,90,def_buf_SBKFP,&table_SBKFP},	//SBKFP
-	{0xc4,0x01,10,122,def_buf_VCHS01,&table_VCHS01},	//VCHS01
-	{0xc4,0x02,10,122,def_buf_VCHS02,&table_VCHS02},	//VCHS02
+	{0xc4,0x01,10,150,def_buf_VCHS01,&table_VCHS01},	//VCHS01
+	{0xc4,0x02,10,150,def_buf_VCHS02,&table_VCHS02},	//VCHS02
 	{0xc2,0x04,7,194,def_buf_VDS32,&table_VDS32},	//VDS32
 	{0,0,0,0,NULL,NULL},
 };
@@ -860,19 +860,31 @@ void VCHS_post(vchs_data *vch_data)
             vch_data->takt[i] = 0;
             // if(ffast < 40.0 )
             //     vch_data->cyklS[i] = 10;
-            if (ffast < 50.0){
-                if (vch_data->tempI[i] <= 1){
+            if (ffast < 50.0)
+            {
+                if (vch_data->tempI[i] <= 1)
+                {
                     vch_data->cyklS[i] = 50;
                 }
-                else{
-                    fslow = 50 / vch_data->tempI[i];
-                    if (fslow <= 10)
-                        vch_data->cyklS[i] = 10;
+                else
+                {
+                    if (vch_data->tempI[i] <= 50)
+                    {
+                        vch_data->cyklS[i] = 50;
+                        // fslow = 50 / vch_data->tempI[i];
+                        // if (fslow <= 10)
+                        //     vch_data->cyklS[i] = 10;
+                        // else
+                        //     vch_data->cyklS[i] = fslow;
+                    }
                     else
-                        vch_data->cyklS[i] = fslow;
+                    {
+                        vch_data->cyklS[i] = 10;
+                    }
                 }
             }
-            else{
+            else
+            {
                 vch_data->cyklS[i] = 1 / ((ffast / 64000) + 1);
             }
             vch_data->cykl[i] = vch_data->cyklS[i];
