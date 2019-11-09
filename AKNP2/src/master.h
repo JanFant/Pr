@@ -855,27 +855,17 @@ void VCHS_post(vchs_data *vch_data)
             vch_data->takt[i] = 0;
             // if(ffast < 40.0 )
             //     vch_data->cyklS[i] = 10;
-            if (ffast < 50.0)
-            {
-                if (vch_data->tempI[i] <= 1)
-                {
+
+            if (ffast < 50.0){
+                if (vch_data->tempI[i] <= 1){
                     vch_data->cyklS[i] = 50;
                 }
-                else
-                {
-                    if (vch_data->tempI[i] <= 50)
-                    {
-                        vch_data->cyklS[i] = 50;
-                        // fslow = 50 / vch_data->tempI[i];
-                        // if (fslow <= 10)
-                        //     vch_data->cyklS[i] = 10;
-                        // else
-                        //     vch_data->cyklS[i] = fslow;
-                    }
-                    else
-                    {
+                else{
+                    fslow = 50 / vch_data->tempI[i];
+                    if (fslow <= 10)
                         vch_data->cyklS[i] = 10;
-                    }
+                    else
+                        vch_data->cyklS[i] = fslow;
                 }
             }
             else
