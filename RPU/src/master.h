@@ -1169,27 +1169,32 @@ void VCHS_post(vchs_data *vch_data)
                 continue;
             }
             ffast = vch_data->tempI[i] / vch_data->takt[i];
+
+                if(ffast < 0.97 )
+                    vch_data->cyklS[i] = 10;
+                    else   
+                    vch_data->cyklS[i] = 1 / ((ffast / 64000) + 1);
+
+            // if (ffast < 50.0){
+                
+            //     if(vch_data->tempI[i] <= 1){
+            //         vch_data->cyklS[i] = 50;
+            //     }else{
+            //          fslow = 50 / vch_data->tempI[i] * vch_data->takt[i];
+            //          if(fslow < 4){
+            //             vch_data->cyklS[i] = 4;    
+            //          }else{
+            //             vch_data->cyklS[i] = fslow;
+            //          }
+            //     }
+
+            // }
+            // else
+            // {
+            //     vch_data->cyklS[i] = 1 / ((ffast / 64000) + 1);
+            // }
             vch_data->fvch[i] = ffast;
             vch_data->takt[i] = 0;
-            // if(ffast < 40.0 )
-            //     vch_data->cyklS[i] = 10;
-
-            if (ffast < 50.0){
-                if (vch_data->tempI[i] <= 1){
-                    vch_data->cyklS[i] = 50;
-                }
-                else{
-                    fslow = 50 / vch_data->tempI[i];
-                    if (fslow <= 10)
-                        vch_data->cyklS[i] = 10;
-                    else
-                        vch_data->cyklS[i] = fslow;
-                }
-            }
-            else
-            {
-                vch_data->cyklS[i] = 1 / ((ffast / 64000) + 1);
-            }
             vch_data->cykl[i] = vch_data->cyklS[i];
         }
     }
