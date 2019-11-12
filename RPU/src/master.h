@@ -142,14 +142,14 @@ int master=1,nomer=1;
 #define idR0IE14LRP	64	// ( - , - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
 #define R0IE15LRP	BUFFER[151]	// ( - , - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
 #define idR0IE15LRP	65	// ( - , - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
-#define R0IN01ERR	BUFFER[153]	// ( - , RPU) байт
-#define idR0IN01ERR	66	// ( - , RPU) байт
+#define R0IN01ERR	BUFFER[153]	// ( - , - ) байт
+#define idR0IN01ERR	66	// ( - , - ) байт
 #define R0IN01RRP	BUFFER[155]	// ( - , RPU) Частота СНМ-11 Гц (канал 5)
 #define idR0IN01RRP	67	// ( - , RPU) Частота СНМ-11 Гц (канал 5)
 #define R0IN01VRP	BUFFER[160]	// (vchs:01 - K01VCHS, RPU) Частота с ВЧС к 1
 #define idR0IN01VRP	68	// (vchs:01 - K01VCHS, RPU) Частота с ВЧС к 1
-#define R0IN02ERR	BUFFER[165]	// ( - , RPU) байт
-#define idR0IN02ERR	69	// ( - , RPU) байт
+#define R0IN02ERR	BUFFER[165]	// ( - , - ) байт
+#define idR0IN02ERR	69	// ( - , - ) байт
 #define R0IN02RRP	BUFFER[167]	// ( - , RPU) Частота КНК15-1 Гц (канал 5)
 #define idR0IN02RRP	70	// ( - , RPU) Частота КНК15-1 Гц (канал 5)
 #define R0IN02TEM	BUFFER[172]	// (vchs:01 - K02temp, RPU) кол-во имп
@@ -158,18 +158,18 @@ int master=1,nomer=1;
 #define idR0IN02VRP	72	// (vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2
 #define R0IN03CYK	BUFFER[180]	// (vchs:01 - K02cykl, RPU) цикл
 #define idR0IN03CYK	73	// (vchs:01 - K02cykl, RPU) цикл
-#define R0IN03ERR	BUFFER[185]	// ( - , RPU) байт
-#define idR0IN03ERR	74	// ( - , RPU) байт
+#define R0IN03ERR	BUFFER[185]	// ( - , - ) байт
+#define idR0IN03ERR	74	// ( - , - ) байт
 #define R0IN03RRP	BUFFER[187]	// ( - , RPU) Частота КНК53М Гц (канал 5)
 #define idR0IN03RRP	75	// ( - , RPU) Частота КНК53М Гц (канал 5)
 #define R0IN03TEM	BUFFER[192]	// (vchs:02 - K01temp, RPU) кол-во имп
 #define idR0IN03TEM	76	// (vchs:02 - K01temp, RPU) кол-во имп
 #define R0IN03VRP	BUFFER[195]	// (vchs:02 - K01VCHS, RPU) Частота с ВЧС к 3
 #define idR0IN03VRP	77	// (vchs:02 - K01VCHS, RPU) Частота с ВЧС к 3
-#define R0IN04ERR	BUFFER[200]	// ( - , RPU) байт
-#define idR0IN04ERR	78	// ( - , RPU) байт
-#define R0IN05ERR	BUFFER[202]	// ( - , RPU) байт
-#define idR0IN05ERR	79	// ( - , RPU) байт
+#define R0IN04ERR	BUFFER[200]	// ( - , - ) байт
+#define idR0IN04ERR	78	// ( - , - ) байт
+#define R0IN05ERR	BUFFER[202]	// ( - , - ) байт
+#define idR0IN05ERR	79	// ( - , - ) байт
 #define R0IN06RRP	BUFFER[204]	// ( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
 #define idR0IN06RRP	80	// ( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
 #define R0IN06VRP	BUFFER[209]	// (vchs:03 - K01VCHS, RPU) Частота с ВЧС к 6
@@ -527,20 +527,20 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{63	,1	,1	,&R0IE13LRP},	//( - , - ) Исправность ВИП 0,5 -5к (№22)
 	{64	,1	,1	,&R0IE14LRP},	//( - , - ) Исправность ВИП 1,6 БЗ-1 - 6к(№23)
 	{65	,1	,1	,&R0IE15LRP},	//( - , - ) Исправность ВИП 1,6 БЗ-2 - 7к(№24)
-	{66	,18	,1	,&R0IN01ERR},	//( - , RPU) байт
+	{66	,18	,1	,&R0IN01ERR},	//( - , - ) байт
 	{67	,8	,1	,&R0IN01RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 5)
 	{68	,8	,1	,&R0IN01VRP},	//(vchs:01 - K01VCHS, RPU) Частота с ВЧС к 1
-	{69	,18	,1	,&R0IN02ERR},	//( - , RPU) байт
+	{69	,18	,1	,&R0IN02ERR},	//( - , - ) байт
 	{70	,8	,1	,&R0IN02RRP},	//( - , RPU) Частота КНК15-1 Гц (канал 5)
 	{71	,3	,1	,&R0IN02TEM},	//(vchs:01 - K02temp, RPU) кол-во имп
 	{72	,8	,1	,&R0IN02VRP},	//(vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2
 	{73	,8	,1	,&R0IN03CYK},	//(vchs:01 - K02cykl, RPU) цикл
-	{74	,18	,1	,&R0IN03ERR},	//( - , RPU) байт
+	{74	,18	,1	,&R0IN03ERR},	//( - , - ) байт
 	{75	,8	,1	,&R0IN03RRP},	//( - , RPU) Частота КНК53М Гц (канал 5)
 	{76	,3	,1	,&R0IN03TEM},	//(vchs:02 - K01temp, RPU) кол-во имп
 	{77	,8	,1	,&R0IN03VRP},	//(vchs:02 - K01VCHS, RPU) Частота с ВЧС к 3
-	{78	,18	,1	,&R0IN04ERR},	//( - , RPU) байт
-	{79	,18	,1	,&R0IN05ERR},	//( - , RPU) байт
+	{78	,18	,1	,&R0IN04ERR},	//( - , - ) байт
+	{79	,18	,1	,&R0IN05ERR},	//( - , - ) байт
 	{80	,8	,1	,&R0IN06RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 6) от ПТИ
 	{81	,8	,1	,&R0IN06VRP},	//(vchs:03 - K01VCHS, RPU) Частота с ВЧС к 6
 	{82	,8	,1	,&R0IN07RRP},	//( - , RPU) Частота СНМ-11 Гц (канал 7)
@@ -745,19 +745,19 @@ static ModbusRegister coil_RPU[]={
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_RPU[]={
-	{&R7VE70LRP,1,0},	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
-	{&A7MZ31LRP,1,1},	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
-	{&B7MZ31LRP,1,2},	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
-	{&TestDiagnRPU,1,3},	//( - , RPU) Неисправность от диагностики
-	{&A0EE02LRP,1,4},	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
-	{&R7VN71LRP,1,5},	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
-	{&A0VT61LRP,1,6},	//( - , RPU) ПС по температуре в АЗ1
-	{&A0VT71LRP,1,7},	//( - , RPU) АС по температуре в АЗ1
-	{&R0ET01LRP,1,8},	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
-	{&R0ET02LRP,1,9},	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
-	{&B0VT61LRP,1,10},	//( - , RPU) ПС по температуре в АЗ2-3
-	{&B0VT71LRP,1,11},	//( - , RPU) АС по температуре в АЗ2-3
-	{&A0EE01LRP,1,12},	//( - , RPU) Исправность АКНП канал 5
+	{&B0VT71LRP,1,0},	//( - , RPU) АС по температуре в АЗ2-3
+	{&A0EE01LRP,1,1},	//( - , RPU) Исправность АКНП канал 5
+	{&R7VE70LRP,1,2},	//( - , RPU) Сигнал тревоги по неисправности РПУ на диспетчера
+	{&A7MZ31LRP,1,3},	//( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)
+	{&B7MZ31LRP,1,4},	//( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)
+	{&TestDiagnRPU,1,5},	//( - , RPU) Неисправность от диагностики
+	{&A0EE02LRP,1,6},	//( - , RPU) Исправность АКНП5 (от сшивки каналов) канал 5
+	{&R7VN71LRP,1,7},	//( - , RPU) Сигнал тревоги по уровню нейтронного потока на диспетчера
+	{&A0VT61LRP,1,8},	//( - , RPU) ПС по температуре в АЗ1
+	{&A0VT71LRP,1,9},	//( - , RPU) АС по температуре в АЗ1
+	{&R0ET01LRP,1,10},	//( - , RPU) Признак наличия неисправности по температуре  АЗ1-3
+	{&R0ET02LRP,1,11},	//( - , RPU) Признак наличия неисправности по температуре АЗ2-3
+	{&B0VT61LRP,1,12},	//( - , RPU) ПС по температуре в АЗ2-3
 	{NULL,0,0},
 };
 #pragma pop
@@ -774,11 +774,6 @@ static ModbusRegister ir_RPU[]={
 	{&METRP06,8,14},	//( - , RPU) Метр давление 0.6
 	{&VMETRP12,3,16},	//( - K06VASR, RPU) вход Метр Давленение 1.2
 	{&METRP12,8,17},	//( - , RPU) Метр давление 1.2
-	{&R0IN03ERR,18,19},	//( - , RPU) байт
-	{&R0IN04ERR,18,19},	//( - , RPU) байт
-	{&R0IN02ERR,18,19},	//( - , RPU) байт
-	{&R0IN05ERR,18,19},	//( - , RPU) байт
-	{&R0IN01ERR,18,19},	//( - , RPU) байт
 	{&R0VN02RRP,8,19},	//( - , RPU) Уровень мощности канал 5
 	{&R0IN01RRP,8,21},	//( - , RPU) Частота СНМ-11 Гц (канал 5)
 	{&R0IN02RRP,8,23},	//( - , RPU) Частота КНК15-1 Гц (канал 5)
