@@ -29,16 +29,6 @@
   <save value ="4000">fEM_R0UH21RSS</save>
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
-  <save value ="1">fEM_R0IN11NRP</save>
-  <save value ="0">fEM_R0IN12NRP</save>
-  <save value ="1">fEM_R0IN21NRP</save>
-  <save value ="0">fEM_R0IN22NRP</save>
-  <save value ="1">fEM_R0IN31NRP</save>
-  <save value ="0">fEM_R0IN32NRP</save>
-  <save value ="1">fEM_R0IN61NRP</save>
-  <save value ="0">fEM_R0IN62NRP</save>
-  <save value ="1">fEM_R0IN71NRP</save>
-  <save value ="0">fEM_R0IN72NRP</save>
   <save value ="10">iEM_R7UY12RSS</save>
   <save value ="-0.098010">fEM_R7UY32RSS</save>
   <save value ="0.260609">fEM_R7UY22RSS</save>
