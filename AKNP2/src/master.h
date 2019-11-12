@@ -852,7 +852,7 @@ void VCHS_post(vchs_data *vch_data)
             }
             ffast = vch_data->tempI[i] / vch_data->takt[i];
 
-                if(ffast < 0.97 )
+                if(ffast < 80 )
                     vch_data->cyklS[i] = 10;
                     else   
                     vch_data->cyklS[i] = 1 / ((ffast / 64000) + 1);

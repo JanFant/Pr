@@ -5221,17 +5221,11 @@ static ModbusRegister coil_SRP[]={
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister di_SRP[]={
-	{&R0IS01FI0,1,0},	//( - , SA1, SA2, SA3, SA4, SRP) Признак работы с имитатором
 	{NULL,0,0},
 };
 #pragma pop
 #pragma pack(push,1)
 static ModbusRegister ir_SRP[]={
-	{&R0IN01RIP,8,0},	//( - , SRP) Выход СНМ-11 Гц от ПТИ
-	{&R0IN02RIP,8,2},	//( - , SRP) Выход КНК15- Гц от ПТИ
-	{&R0IN03RIP,8,4},	//( - , SRP) Выход КНК53М Гц от ПТИ
-	{&R0IN06RIP,8,6},	//( - , SRP) Выход СНМ-11-1 Гц от ПТИ
-	{&R0IN07RIP,8,8},	//( - , SRP) Выход СНМ-11-2 Гц от ПТИ
 	{NULL,0,0},
 };
 #pragma pop

@@ -1,9 +1,4 @@
 <vars>
-<var  name="R0DEB2LRP" description="(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
-<var  name="R0DEB1LRP" description="(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7" format="1"></var>
-<var  name="TTLrpu" description="( - , RPU) ttl" format="3"></var>
-<var  name="TestDiagnRPU" description="( - , RPU) Неисправность от диагностики" format="1"></var>
-<var  name="R0DE3DLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="R0DE3CLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7" format="1"></var>
 <var  name="R0DE39LRP" description="(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4" format="1"></var>
 <var  name="R0DE38LRP" description="(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3" format="1"></var>
@@ -23,6 +18,9 @@
 <var  name="R0EE02LDU" description="( - , RPU) Питание  АКНП  отключить" format="1"></var>
 <var  name="B7MZ31LRP" description="( - , RPU) Клапан ОБДУВ АЗ2 открыть(обесточить)" format="1"></var>
 <var  name="A7MZ31LRP" description="( - , RPU) Клапан ОБДУВ АЗ1 открыть(обесточить)" format="1"></var>
+<var  name="C1MZ31LRP" description="(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ" format="1"></var>
+<var  name="C1MD31LRP" description="(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ" format="1"></var>
+<var  name="B3VS21LRP" description="(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2" format="1"></var>
 <var  name="R0IN03CYK" description="(vchs:02 - K01cykl, RPU) цикл" format="8"></var>
 <var  name="R0IN03TEM" description="(vchs:02 - K01temp, RPU) кол-во имп" format="3"></var>
 <var  name="aaaa" description="( - , - ) aaaa" format="8"></var>
@@ -39,15 +37,13 @@
 <var  name="B1IS21LRP" description="(vds32:07 - K12VDSR, - ) Приход на НУ ББ2" format="1"></var>
 <var  name="A1VS21LRP" description="(fds16:08 - K01FDSR, - ) Индикация - Приход на НУ ББ1" format="1"></var>
 <var  name="A1IS21LRP" description="(vds32:07 - K09VDSR, - ) Приход на НУ ББ1" format="1"></var>
-<var  name="R0IN07RIP" description="( - , MRPS) Частота СНМ-11 Гц (канал 7) от ПТИ" format="8"></var>
-<var  name="R0IN06RIP" description="( - , MRPS) Частота СНМ-11 Гц (канал 6) от ПТИ" format="8"></var>
-<var  name="R0IN03RIP" description="( - , MRPS) Частота КНК53М Гц (канал 5) от ПТИ" format="8"></var>
-<var  name="R0IN02RIP" description="( - , MRPS) Частота КНК15-1 Гц (канал 5) от ПТИ" format="8"></var>
-<var  name="R0IN01RIP" description="( - , MRPS) Частота СНМ-11 Гц (канал 5) от ПТИ" format="8"></var>
-<var  name="R0IS01FI0" description="( - , MRPS) Признак работы с имитатором" format="1"></var>
 <var  name="R0DEB3LRP" description="(sbk:20 - S12SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 8" format="1"></var>
 <var  name="R0DEB4LRP" description="(sbk:20 - S13SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 8" format="1"></var>
-<var  name="B0VT61LRP" description="( - , RPU) ПС по температуре в АЗ2-3" format="1"></var>
+<var  name="R0DEB2LRP" description="(sbk:20 - S11SBK, DiagnRPU) диагностика шкафа РПУ БП24Д место 7" format="1"></var>
+<var  name="R0DEB1LRP" description="(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7" format="1"></var>
+<var  name="TTLrpu" description="( - , RPU) ttl" format="3"></var>
+<var  name="TestDiagnRPU" description="( - , RPU) Неисправность от диагностики" format="1"></var>
+<var  name="R0DE3DLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="B0CT01IRP" description="( - , RPU) Температура АЗ2-3" format="8"></var>
 <var  name="R0ET02LRP" description="( - , RPU) Признак наличия неисправности по температуре АЗ2-3" format="1"></var>
 <var  name="B0IT03IRP" description="(vas84:06 - K02VASR, RPU) Температура АЗ2-3" format="3"></var>
@@ -71,9 +67,6 @@
 <var  name="R0IN02RRP" description="( - , RPU) Частота КНК15-1 Гц (канал 5)" format="8"></var>
 <var  name="R0IN01RRP" description="( - , RPU) Частота СНМ-11 Гц (канал 5)" format="8"></var>
 <var  name="R0VN02RRP" description="( - , RPU) Уровень мощности канал 5" format="8"></var>
-<var  name="C1MZ31LRP" description="(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ" format="1"></var>
-<var  name="C1MD31LRP" description="(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ" format="1"></var>
-<var  name="B3VS21LRP" description="(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2" format="1"></var>
 <var  name="A3VS21LRP" description="(fds16:08 - K05FDSR, - ) Индикация - Приход на НУ ИС1" format="1"></var>
 <var  name="B2VS21LRP" description="(fds16:08 - K04FDSR, - ) Индикация - Приход на НУ РБ2-CC" format="1"></var>
 <var  name="A2VS21LRP" description="(fds16:08 - K03FDSR, - ) Индикация - Приход на НУ РБ1-CC" format="1"></var>
@@ -96,6 +89,7 @@
 <var  name="A0EE01LRP" description="( - , RPU) Исправность АКНП канал 5" format="1"></var>
 <var  name="R0IE11LRP" description="(vds32:07 - K03VDSR, - ) Исправность ВИП 1,6 (№20) СНМ11 5 канала" format="1"></var>
 <var  name="B0VT71LRP" description="( - , RPU) АС по температуре в АЗ2-3" format="1"></var>
+<var  name="B0VT61LRP" description="( - , RPU) ПС по температуре в АЗ2-3" format="1"></var>
 
 <var  name="fEM_R0UH02RSS" description="(R0UH02RSS) Коэфф. преобразования частота->нейтр/с КНК15-1" format="8"></var>
 <var  name="fEM_R0UH03RSS" description="(R0UH03RSS) Коэфф. преобразования частота->нейтр/с КНК53М" format="8"></var>
@@ -143,27 +137,27 @@
 <var  name="fEM_R7UY42RSS" description="(R7UY42RSS) уровень корректировки" format="8"></var>
 
 <var  name="bFirstEnterFlag" description="(bFirstEnterFlag) " format="1"></var>
-<var  name="internal1_m186_xptr" description="(internal1_m186_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m186_stepc" description="(internal1_m186_stepc) stepc - счетчик шагов" format="8"></var>
-<var  name="internal1_m186_x0" description="(internal1_m186_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
-<var  name="internal1_m186_flst" description="(internal1_m186_flst) внутренний параметр" format="8"></var>
-<var  name="internal1_m186_SumS" description="(internal1_m186_SumS) внутренний параметр" format="8"></var>
-<var  name="internal1_m185_xptr" description="(internal1_m185_xptr) указатель текущей позиции в массиве координат" format="3"></var>
-<var  name="internal1_m185_stepc" description="(internal1_m185_stepc) stepc - счетчик шагов" format="8"></var>
-<var  name="internal1_m185_x0" description="(internal1_m185_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
-<var  name="internal1_m185_flst" description="(internal1_m185_flst) внутренний параметр" format="8"></var>
-<var  name="internal1_m185_SumS" description="(internal1_m185_SumS) внутренний параметр" format="8"></var>
-<var  name="internal1_m202_y0" description="(internal1_m202_y0) y0" format="8"></var>
-<var  name="internal1_m201_y0" description="(internal1_m201_y0) y0" format="8"></var>
-<var  name="internal1_m18_Nk" description="(internal1_m18_Nk) Nk - ведущая камера" format="3"></var>
-<var  name="internal1_m70_tx" description="(internal1_m70_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m70_y0" description="(internal1_m70_y0) y0" format="18"></var>
-<var  name="internal1_m78_tx" description="(internal1_m78_tx) tx - время накопленное сек" format="8"></var>
-<var  name="internal1_m78_y0" description="(internal1_m78_y0) y0" format="18"></var>
-<var  name="internal1_m86_y0" description="(internal1_m86_y0) y0" format="8"></var>
-<var  name="internal1_m84_y0" description="(internal1_m84_y0) y0" format="8"></var>
-<var  name="internal1_m100_y1" description="(internal1_m100_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m115_y1" description="(internal1_m115_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m98_y1" description="(internal1_m98_y1) y1 - внутренний параметр" format="1"></var>
-<var  name="internal1_m111_y1" description="(internal1_m111_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m175_xptr" description="(internal1_m175_xptr) указатель текущей позиции в массиве координат" format="3"></var>
+<var  name="internal1_m175_stepc" description="(internal1_m175_stepc) stepc - счетчик шагов" format="8"></var>
+<var  name="internal1_m175_x0" description="(internal1_m175_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
+<var  name="internal1_m175_flst" description="(internal1_m175_flst) внутренний параметр" format="8"></var>
+<var  name="internal1_m175_SumS" description="(internal1_m175_SumS) внутренний параметр" format="8"></var>
+<var  name="internal1_m174_xptr" description="(internal1_m174_xptr) указатель текущей позиции в массиве координат" format="3"></var>
+<var  name="internal1_m174_stepc" description="(internal1_m174_stepc) stepc - счетчик шагов" format="8"></var>
+<var  name="internal1_m174_x0" description="(internal1_m174_x0) x0 - массив мгновенных значений " format="8" size="10"></var>
+<var  name="internal1_m174_flst" description="(internal1_m174_flst) внутренний параметр" format="8"></var>
+<var  name="internal1_m174_SumS" description="(internal1_m174_SumS) внутренний параметр" format="8"></var>
+<var  name="internal1_m191_y0" description="(internal1_m191_y0) y0" format="8"></var>
+<var  name="internal1_m190_y0" description="(internal1_m190_y0) y0" format="8"></var>
+<var  name="internal1_m11_Nk" description="(internal1_m11_Nk) Nk - ведущая камера" format="3"></var>
+<var  name="internal1_m59_tx" description="(internal1_m59_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m59_y0" description="(internal1_m59_y0) y0" format="18"></var>
+<var  name="internal1_m67_tx" description="(internal1_m67_tx) tx - время накопленное сек" format="8"></var>
+<var  name="internal1_m67_y0" description="(internal1_m67_y0) y0" format="18"></var>
+<var  name="internal1_m75_y0" description="(internal1_m75_y0) y0" format="8"></var>
+<var  name="internal1_m73_y0" description="(internal1_m73_y0) y0" format="8"></var>
+<var  name="internal1_m89_y1" description="(internal1_m89_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m104_y1" description="(internal1_m104_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m87_y1" description="(internal1_m87_y1) y1 - внутренний параметр" format="1"></var>
+<var  name="internal1_m101_y1" description="(internal1_m101_y1) y1 - внутренний параметр" format="1"></var>
 </vars>
