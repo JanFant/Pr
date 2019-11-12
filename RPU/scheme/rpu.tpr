@@ -1807,6 +1807,28 @@
       SinhrCycle_item=3
       SinhrCycle_val=1
     }
+    [TConst]{
+      Name="ISPRAVDIAG"
+      Value="1"
+      Type=3
+      Numeration=0
+      MemoryType=0
+      ESPPZUType=0
+      Description=""
+      MinValue=""
+      MaxValue=""
+      Group=""
+      Access=""
+      TypeInterface=0
+      InterfaceMB=""
+      TypeMB=3
+      FormatMB=8
+      HstInterv_item=3
+      HstInterv_val=1
+      HistReg=0
+      SinhrCycle_item=3
+      SinhrCycle_val=1
+    }
   }
   [VVV_ContainerScheme]{
     PageSizeX=652
@@ -1860,7 +1882,7 @@
       PageCountX=2
       PageCountY=3
       Name="AbRPU"
-      ObjectCount=428
+      ObjectCount=430
       ExpandCompile=1
       [TDrawSignal]{
         R="400,259,460,299"
@@ -1894,7 +1916,7 @@
         R="174,912,204,952"
         Number=3
         IsHold=FALSE
-        VisualNumber="166"
+        VisualNumber="167"
         SIGNAL_NAME="R0IN01RRP"
         KodTeprol="R0IN01RRP"
         Comment="Частота СНМ-11 Гц (канал 5)"
@@ -1922,7 +1944,7 @@
         R="341,1035,371,1075"
         Number=4
         IsHold=FALSE
-        VisualNumber="170"
+        VisualNumber="176"
         SIGNAL_NAME="R0IN02RRP"
         KodTeprol="R0IN02RRP"
         Comment="Частота КНК15-1 Гц (канал 5)"
@@ -2019,7 +2041,7 @@
         R="329,1165,359,1205"
         Number=8
         IsHold=FALSE
-        VisualNumber="171"
+        VisualNumber="173"
         SIGNAL_NAME="R0IN03RRP"
         KodTeprol="R0IN03RRP"
         Comment="Частота КНК53М Гц (канал 5)"
@@ -2237,7 +2259,7 @@
         R="173,1206,203,1246"
         Number=17
         IsHold=FALSE
-        VisualNumber="167"
+        VisualNumber="168"
         SIGNAL_NAME="R0IN06RRP"
         KodTeprol="R0IN06RRP"
         Comment="Частота СНМ-11 Гц (канал 6) от ПТИ"
@@ -2307,7 +2329,7 @@
         R="511,911,541,951"
         Number=175
         IsHold=FALSE
-        VisualNumber="186"
+        VisualNumber="189"
         SIGNAL_NAME="R0IN07RRP"
         KodTeprol="R0IN07RRP"
         Comment="Частота СНМ-11 Гц (канал 7)"
@@ -2429,14 +2451,14 @@
         R="390,563,420,583"
         Number=216
         IsHold=FALSE
-        VisualNumber="102"
+        VisualNumber="103"
         CONST_NAME="R0UT61RZZ"
       }
       [TModule]{
         R="380,537,410,557"
         Number=217
         IsHold=FALSE
-        VisualNumber="101"
+        VisualNumber="102"
         ABBRV="DRG"
         [VVV_DrawConnector]{
           Number=0
@@ -2694,7 +2716,7 @@
         R="356,699,386,719"
         Number=251
         IsHold=FALSE
-        VisualNumber="100"
+        VisualNumber="101"
         CONST_NAME="R0UT62RZZ"
       }
       [VVV_DrawConst]{
@@ -2807,7 +2829,7 @@
         R="361,614,421,654"
         Number=256
         IsHold=FALSE
-        VisualNumber="103"
+        VisualNumber="100"
         SIGNAL_NAME="B0VT61LRP"
         KodTeprol="B0VT61LRP"
         Comment="ПС по температуре в АЗ2-3"
@@ -3065,17 +3087,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K03VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность "
         Line2="ВИП 1,6 - 5к (№20)"
       }
@@ -3120,17 +3142,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K04VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 -5к (№21)"
       }
@@ -3147,17 +3169,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K05VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 0,5 -5к (№22)"
       }
@@ -3174,17 +3196,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K01VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 1,6 БЗ-1 - 6к(№23)"
       }
@@ -3201,17 +3223,17 @@
         Value=""
         Size=1
         TypeInterface=1
-        TypeMB=0
-        FormatMB=1
-        TypeMBMaster=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
         HstInterv_item=0
         HstInterv_val=1
         HistReg=0
         SinhrCycle_item=0
         SinhrCycle_val=2
         InterfaceMB=""
-        ChannalName="K02VDSR"
-        DeviceName="VDS32"
+        ChannalName=""
+        DeviceName=""
         Line1="Исправность"
         Line2="ВИП 1,6 БЗ-2 - 7к(№24)"
       }
@@ -3691,7 +3713,7 @@
         Line2="от канала 5"
       }
       [VVV_Text]{
-        R="1163,276,1226,290"
+        R="1163,276,1220,288"
         Number=206
         IsHold=FALSE
         Line1="отключить питание"
@@ -3711,7 +3733,7 @@
         }
       }
       [VVV_Text]{
-        R="1123,312,1169,326"
+        R="1123,312,1164,324"
         Number=238
         IsHold=FALSE
         Line1="Исправность"
@@ -3728,7 +3750,7 @@
         R="523,523,553,543"
         Number=273
         IsHold=FALSE
-        VisualNumber="110"
+        VisualNumber="114"
         ABBRV="OR2"
       }
       [TModule]{
@@ -3823,7 +3845,7 @@
         R="472,792,532,832"
         Number=311
         IsHold=FALSE
-        VisualNumber="113"
+        VisualNumber="112"
         SIGNAL_NAME="A2IS21LRP"
         KodTeprol="A2IS21LRP"
         Comment="Приход на НУ РБ1-CC"
@@ -3850,7 +3872,7 @@
         R="472,840,532,880"
         Number=312
         IsHold=FALSE
-        VisualNumber="114"
+        VisualNumber="113"
         SIGNAL_NAME="B2IS21LRP"
         KodTeprol="B2IS21LRP"
         Comment="Приход на НУ РБ2-CC"
@@ -4022,7 +4044,7 @@
         R="496,701,556,741"
         Number=371
         IsHold=FALSE
-        VisualNumber="112"
+        VisualNumber="111"
         SIGNAL_NAME="C1MD31LRP"
         KodTeprol="C1MD31LRP"
         Comment="Кнопка ОБЩИЙ СБРОС  на РПУ"
@@ -4050,7 +4072,7 @@
         R="500,649,560,689"
         Number=372
         IsHold=FALSE
-        VisualNumber="111"
+        VisualNumber="110"
         SIGNAL_NAME="C1MZ31LRP"
         KodTeprol="C1MZ31LRP"
         Comment="Кнопка ОБДУВ  на РПУ"
@@ -4821,7 +4843,7 @@
         R="1233,827,1293,867"
         Number=109
         IsHold=FALSE
-        VisualNumber="149"
+        VisualNumber="150"
         SIGNAL_NAME="TestDiagnRPU"
         KodTeprol="TestDiagnRPU"
         Comment="Неисправность от диагностики"
@@ -5167,77 +5189,77 @@
         R="23,912,53,952"
         Number=123
         IsHold=FALSE
-        VisualNumber="150"
+        VisualNumber="151"
         CONST_NAME="R0IN11NRP"
       }
       [VVV_DrawConst]{
         R="23,1006,53,1046"
         Number=124
         IsHold=FALSE
-        VisualNumber="152"
+        VisualNumber="153"
         CONST_NAME="R0IN21NRP"
       }
       [VVV_DrawConst]{
         R="23,1101,53,1141"
         Number=125
         IsHold=FALSE
-        VisualNumber="154"
+        VisualNumber="155"
         CONST_NAME="R0IN31NRP"
       }
       [VVV_DrawConst]{
         R="23,1206,53,1246"
         Number=333
         IsHold=FALSE
-        VisualNumber="156"
+        VisualNumber="157"
         CONST_NAME="R0IN61NRP"
       }
       [VVV_DrawConst]{
         R="347,911,377,951"
         Number=340
         IsHold=FALSE
-        VisualNumber="172"
+        VisualNumber="174"
         CONST_NAME="R0IN71NRP"
       }
       [TModule]{
         R="98,912,128,952"
         Number=343
         IsHold=FALSE
-        VisualNumber="158"
+        VisualNumber="159"
         ABBRV="POGRVH"
       }
       [TModule]{
         R="98,1005,128,1045"
         Number=344
         IsHold=FALSE
-        VisualNumber="160"
+        VisualNumber="161"
         ABBRV="POGRVH"
       }
       [TModule]{
         R="98,1102,128,1142"
         Number=345
         IsHold=FALSE
-        VisualNumber="162"
+        VisualNumber="163"
         ABBRV="POGRVH"
       }
       [TModule]{
         R="98,1206,128,1246"
         Number=349
         IsHold=FALSE
-        VisualNumber="164"
+        VisualNumber="165"
         ABBRV="POGRVH"
       }
       [TModule]{
         R="429,911,459,951"
         Number=356
         IsHold=FALSE
-        VisualNumber="176"
+        VisualNumber="179"
         ABBRV="POGRVH"
       }
       [TDrawSignal]{
         R="98,962,128,1002"
         Number=365
         IsHold=FALSE
-        VisualNumber="159"
+        VisualNumber="160"
         SIGNAL_NAME="R0IN01VRP"
         KodTeprol="R0IN01VRP"
         Comment="Частота с ВЧС к 1"
@@ -5263,7 +5285,7 @@
         R="98,1052,128,1092"
         Number=367
         IsHold=FALSE
-        VisualNumber="161"
+        VisualNumber="162"
         SIGNAL_NAME="R0IN02VRP"
         KodTeprol="R0IN02VRP"
         Comment="Частота с ВЧС к 2"
@@ -5289,7 +5311,7 @@
         R="98,1154,128,1194"
         Number=369
         IsHold=FALSE
-        VisualNumber="163"
+        VisualNumber="164"
         SIGNAL_NAME="R0IN03VRP"
         KodTeprol="R0IN03VRP"
         Comment="Частота с ВЧС к 3"
@@ -5354,7 +5376,7 @@
         R="98,1266,128,1306"
         Number=179
         IsHold=FALSE
-        VisualNumber="165"
+        VisualNumber="166"
         SIGNAL_NAME="R0IN06VRP"
         KodTeprol="R0IN06VRP"
         Comment="Частота с ВЧС к 6"
@@ -5380,7 +5402,7 @@
         R="429,971,459,1011"
         Number=395
         IsHold=FALSE
-        VisualNumber="177"
+        VisualNumber="180"
         SIGNAL_NAME="R0IN07VRP"
         KodTeprol="R0IN07VRP"
         Comment="Частота с ВЧС к 7"
@@ -5432,42 +5454,42 @@
         R="23,958,53,998"
         Number=408
         IsHold=FALSE
-        VisualNumber="151"
+        VisualNumber="152"
         CONST_NAME="R0IN12NRP"
       }
       [VVV_DrawConst]{
         R="23,1052,53,1092"
         Number=410
         IsHold=FALSE
-        VisualNumber="153"
+        VisualNumber="154"
         CONST_NAME="R0IN22NRP"
       }
       [VVV_DrawConst]{
         R="23,1154,53,1194"
         Number=412
         IsHold=FALSE
-        VisualNumber="155"
+        VisualNumber="156"
         CONST_NAME="R0IN32NRP"
       }
       [VVV_DrawConst]{
         R="23,1267,53,1307"
         Number=414
         IsHold=FALSE
-        VisualNumber="157"
+        VisualNumber="158"
         CONST_NAME="R0IN62NRP"
       }
       [VVV_DrawConst]{
         R="347,971,377,1011"
         Number=417
         IsHold=FALSE
-        VisualNumber="173"
+        VisualNumber="175"
         CONST_NAME="R0IN72NRP"
       }
       [TModule]{
         R="860,913,920,953"
         Number=419
         IsHold=FALSE
-        VisualNumber="190"
+        VisualNumber="192"
         ABBRV="SCALZZ"
         [VVV_DrawConnector]{
           Number=0
@@ -5542,7 +5564,7 @@
         R="807,913,837,953"
         Number=420
         IsHold=FALSE
-        VisualNumber="188"
+        VisualNumber="190"
         SIGNAL_NAME="VMETRP06"
         KodTeprol="VMETRP06"
         Comment="вход Метр Давленение 0.6"
@@ -5568,7 +5590,7 @@
         R="958,913,988,953"
         Number=422
         IsHold=FALSE
-        VisualNumber="192"
+        VisualNumber="194"
         SIGNAL_NAME="METRP06"
         KodTeprol="METRP06"
         Comment="Метр давление 0.6"
@@ -5594,7 +5616,7 @@
         R="807,982,837,1022"
         Number=424
         IsHold=FALSE
-        VisualNumber="189"
+        VisualNumber="191"
         SIGNAL_NAME="VMETRP12"
         KodTeprol="VMETRP12"
         Comment="вход Метр Давленение 1.2"
@@ -5620,7 +5642,7 @@
         R="860,981,920,1021"
         Number=425
         IsHold=FALSE
-        VisualNumber="191"
+        VisualNumber="193"
         ABBRV="SCALZZ"
         [VVV_DrawConnector]{
           Number=0
@@ -5695,7 +5717,7 @@
         R="959,983,989,1023"
         Number=427
         IsHold=FALSE
-        VisualNumber="193"
+        VisualNumber="195"
         SIGNAL_NAME="METRP12"
         KodTeprol="METRP12"
         Comment="Метр давление 1.2"
@@ -5721,7 +5743,7 @@
         R="371,1083,401,1123"
         Number=127
         IsHold=FALSE
-        VisualNumber="174"
+        VisualNumber="177"
         ABBRV="FFILTR"
         [VVV_DrawConnector]{
           Number=0
@@ -5745,63 +5767,63 @@
         R="443,1054,473,1074"
         Number=439
         IsHold=FALSE
-        VisualNumber="179"
+        VisualNumber="182"
         CONST_NAME="R7UY12RSS"
       }
       [VVV_DrawConst]{
         R="443,1077,473,1097"
         Number=440
         IsHold=FALSE
-        VisualNumber="180"
+        VisualNumber="183"
         CONST_NAME="R7UY32RSS"
       }
       [VVV_DrawConst]{
         R="444,1107,474,1127"
         Number=441
         IsHold=FALSE
-        VisualNumber="181"
+        VisualNumber="184"
         CONST_NAME="R7UY22RSS"
       }
       [VVV_DrawConst]{
         R="441,1027,471,1047"
         Number=443
         IsHold=FALSE
-        VisualNumber="178"
+        VisualNumber="181"
         CONST_NAME="R7UY42RSS"
       }
       [VVV_DrawConst]{
         R="455,1179,485,1199"
         Number=447
         IsHold=FALSE
-        VisualNumber="183"
+        VisualNumber="186"
         CONST_NAME="R7UY12RSS"
       }
       [VVV_DrawConst]{
         R="454,1202,484,1222"
         Number=448
         IsHold=FALSE
-        VisualNumber="184"
+        VisualNumber="187"
         CONST_NAME="R7UY32RSS"
       }
       [VVV_DrawConst]{
         R="453,1228,483,1248"
         Number=449
         IsHold=FALSE
-        VisualNumber="185"
+        VisualNumber="188"
         CONST_NAME="R7UY22RSS"
       }
       [VVV_DrawConst]{
         R="455,1157,485,1177"
         Number=450
         IsHold=FALSE
-        VisualNumber="182"
+        VisualNumber="185"
         CONST_NAME="R7UY42RSS"
       }
       [TModule]{
         R="380,1164,410,1204"
         Number=393
         IsHold=FALSE
-        VisualNumber="175"
+        VisualNumber="178"
         ABBRV="FFILTR"
         [VVV_DrawConnector]{
           Number=0
@@ -5822,36 +5844,10 @@
         }
       }
       [TDrawSignal]{
-        R="698,913,728,953"
-        Number=455
-        IsHold=FALSE
-        VisualNumber="187"
-        SIGNAL_NAME="aaaa"
-        KodTeprol="aaaa"
-        Comment="aaaa"
-        Type=1
-        ParamType=0
-        Value=""
-        Size=1
-        TypeInterface=0
-        TypeMB=3
-        FormatMB=8
-        TypeMBMaster=3
-        HstInterv_item=3
-        HstInterv_val=1
-        HistReg=0
-        SinhrCycle_item=1
-        SinhrCycle_val=2
-        InterfaceMB=""
-        ChannalName=""
-        DeviceName=""
-        Line1="aaaa"
-      }
-      [TDrawSignal]{
-        R="239,1156,269,1196"
+        R="207,1154,237,1194"
         Number=456
         IsHold=FALSE
-        VisualNumber="168"
+        VisualNumber="170"
         SIGNAL_NAME="R0IN03TEM"
         KodTeprol="R0IN03TEM"
         Comment="кол-во имп"
@@ -5874,10 +5870,10 @@
         Line1="кол-во имп"
       }
       [TDrawSignal]{
-        R="238,1205,268,1245"
+        R="250,1155,280,1195"
         Number=457
         IsHold=FALSE
-        VisualNumber="169"
+        VisualNumber="172"
         SIGNAL_NAME="R0IN03CYK"
         KodTeprol="R0IN03CYK"
         Comment="цикл"
@@ -5895,8 +5891,8 @@
         SinhrCycle_item=1
         SinhrCycle_val=2
         InterfaceMB="RPU"
-        ChannalName="K01cykl"
-        DeviceName="VCHS02"
+        ChannalName="K02cykl"
+        DeviceName="VCHS01"
         Line1="цикл"
       }
       [VVV_DrawConnector]{
@@ -8844,27 +8840,6 @@
         }
       }
       [VVV_DrawConnector]{
-        Number=339
-        IsHold=FALSE
-        p0="1203:790"
-        p1="1230:790"
-        BNumber=335
-        ENumber=337
-        Comment="y - выходной параметр"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=335
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=334
-          ParameterName="x1"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
         Number=56
         IsHold=FALSE
         p0="550:89"
@@ -8882,27 +8857,6 @@
         [VVV_GCPoint]{
           Number=252
           ParameterName="A0EE01LRP"
-          Index=-1
-        }
-      }
-      [VVV_DrawConnector]{
-        Number=57
-        IsHold=FALSE
-        p0="545:47"
-        p1="545:79"
-        BNumber=338
-        ENumber=334
-        Comment="y - выходной параметр --> x1 - вход 1"
-        CommentChange=0
-        Value=""
-        [VVV_GCPoint]{
-          Number=335
-          ParameterName="y"
-          Index=-1
-        }
-        [VVV_GCPoint]{
-          Number=334
-          ParameterName="x1"
           Index=-1
         }
       }
@@ -10375,7 +10329,109 @@
           Index=-1
         }
       }
+      [VVV_DrawConst]{
+        R="1195,718,1225,758"
+        Number=115
+        IsHold=FALSE
+        VisualNumber="149"
+        CONST_NAME="ISPRAVDIAG"
+      }
+      [VVV_DrawConnector]{
+        Number=57
+        IsHold=FALSE
+        p0="1225:737"
+        p1="1233:737"
+        p2="1233:778"
+        BNumber=115
+        ENumber=337
+        Comment=""
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=115
+          ParameterName="ISPRAVDIAG"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=334
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [VVV_DrawConnector]{
+        Number=118
+        IsHold=FALSE
+        p0="543:47"
+        p1="543:79"
+        BNumber=338
+        ENumber=334
+        Comment=" --> x1 - вход 1"
+        CommentChange=0
+        Value=""
+        [VVV_GCPoint]{
+          Number=115
+          ParameterName="ISPRAVDIAG"
+          Index=-1
+        }
+        [VVV_GCPoint]{
+          Number=334
+          ParameterName="x1"
+          Index=-1
+        }
+      }
+      [TDrawSignal]{
+        R="201,1030,231,1070"
+        Number=120
+        IsHold=FALSE
+        VisualNumber="169"
+        SIGNAL_NAME="R0IN02TEM"
+        KodTeprol="R0IN02TEM"
+        Comment="кол-во имп"
+        Type=2
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=3
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName="K02temp"
+        DeviceName="VCHS01"
+        Line1="кол-во имп"
+      }
+      [TDrawSignal]{
+        R="250,1030,280,1070"
+        Number=121
+        IsHold=FALSE
+        VisualNumber="171"
+        SIGNAL_NAME="R0IN03CYK"
+        KodTeprol="R0IN03CYK"
+        Comment="цикл"
+        Type=1
+        ParamType=0
+        Value=""
+        Size=1
+        TypeInterface=0
+        TypeMB=3
+        FormatMB=8
+        TypeMBMaster=3
+        HstInterv_item=3
+        HstInterv_val=1
+        HistReg=0
+        SinhrCycle_item=1
+        SinhrCycle_val=2
+        InterfaceMB="RPU"
+        ChannalName="K02cykl"
+        DeviceName="VCHS01"
+        Line1="цикл"
+      }
     }
   }
 }
-10017021
+10075459
