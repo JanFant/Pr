@@ -154,8 +154,8 @@ int master=1,nomer=1;
 #define idR0IN02TEM	70	// (vchs:01 - K02temp, RPU) кол-во имп
 #define R0IN02VRP	BUFFER[176]	// (vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2
 #define idR0IN02VRP	71	// (vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2
-#define R0IN03CYK	BUFFER[181]	// (vchs:01 - K02cykl, RPU) цикл
-#define idR0IN03CYK	72	// (vchs:01 - K02cykl, RPU) цикл
+#define R0IN03CYK	BUFFER[181]	// (vchs:02 - K01cykl, RPU) цикл
+#define idR0IN03CYK	72	// (vchs:02 - K01cykl, RPU) цикл
 #define R0IN03RRP	BUFFER[186]	// ( - , RPU) Частота КНК53М Гц (канал 5)
 #define idR0IN03RRP	73	// ( - , RPU) Частота КНК53М Гц (канал 5)
 #define R0IN03TEM	BUFFER[191]	// (vchs:02 - K01temp, RPU) кол-во имп
@@ -531,7 +531,7 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{69	,8	,1	,&R0IN02RRP},	//( - , RPU) Частота КНК15-1 Гц (канал 5)
 	{70	,3	,1	,&R0IN02TEM},	//(vchs:01 - K02temp, RPU) кол-во имп
 	{71	,8	,1	,&R0IN02VRP},	//(vchs:01 - K02VCHS, RPU) Частота с ВЧС к 2
-	{72	,8	,1	,&R0IN03CYK},	//(vchs:01 - K02cykl, RPU) цикл
+	{72	,8	,1	,&R0IN03CYK},	//(vchs:02 - K01cykl, RPU) цикл
 	{73	,8	,1	,&R0IN03RRP},	//( - , RPU) Частота КНК53М Гц (канал 5)
 	{74	,3	,1	,&R0IN03TEM},	//(vchs:02 - K01temp, RPU) кол-во имп
 	{75	,8	,1	,&R0IN03VRP},	//(vchs:02 - K01VCHS, RPU) Частота с ВЧС к 3
@@ -781,7 +781,7 @@ static ModbusRegister ir_RPU[]={
 #pragma pack(push,1)
 static ModbusRegister hr_RPU[]={
 	{&R0IN03TEM,3,0},	//( - K01temp, RPU) кол-во имп
-	{&R0IN03CYK,8,1},	//( - K02cykl, RPU) цикл
+	{&R0IN03CYK,8,1},	//( - K01cykl, RPU) цикл
 	{&R0IN02TEM,3,3},	//( - K02temp, RPU) кол-во имп
 	{&R0IN02CYK,8,4},	//( - K02cykl, RPU) цикл
 	{&B8VC01RDU,8,6},	//( - , RPU) Координата АЗ2, мм
@@ -945,7 +945,6 @@ static DriverRegister def_buf_VCHS01[]={
 	{&R0IN01VRP,8,0},
 	{&R0IN02VRP,8,5},
 	{&R0IN02TEM,3,13},
-	{&R0IN03CYK,8,21},
 	{&R0IN02CYK,8,21},
 	{&R0DE01LRP,3,26},
 	{NULL,0,0},
@@ -961,6 +960,7 @@ static table_drv table_VCHS02={0,0,&ini_VCHS02,buf_VCHS02,0,0};
 static DriverRegister def_buf_VCHS02[]={
 	{&R0IN03VRP,8,0},
 	{&R0IN03TEM,3,10},
+	{&R0IN03CYK,8,16},
 	{&R0DE02LRP,3,26},
 	{NULL,0,0},
 };
@@ -1043,8 +1043,8 @@ void InitSetConst(void){	//Инициализация переменных дл�
 	setAsFloat(120,248.0);
 	setAsFloat(121,572.4);
 	setAsFloat(122,246.8);
-	setAsFloat(123,0.260609);
-	setAsFloat(124,-0.098010);
+	setAsFloat(123,0);
+	setAsFloat(124,0);
 	setAsFloat(125,9.9);
 	setAsFloat(126,210);
 	setAsShort(127,10);

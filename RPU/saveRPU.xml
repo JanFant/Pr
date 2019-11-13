@@ -30,7 +30,7 @@
   <save value ="100000">fEM_R0UH22RSS</save>
   <save value ="1000000">fEM_R0UH23RSS</save>
   <save value ="10">iEM_R7UY12RSS</save>
-  <save value ="-0.098010">fEM_R7UY32RSS</save>
-  <save value ="0.260609">fEM_R7UY22RSS</save>
+  <save value ="0">fEM_R7UY32RSS</save>
+  <save value ="0">fEM_R7UY22RSS</save>
   <save value ="9.9">fEM_R7UY42RSS</save>
 </saves>

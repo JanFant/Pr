@@ -24,7 +24,7 @@
 <var  name="B3VS21LRP" description="(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2" format="1"></var>
 <var  name="R0IN02CYK" description="(vchs:01 - K02cykl, RPU) цикл" format="8"></var>
 <var  name="R0IN02TEM" description="(vchs:01 - K02temp, RPU) кол-во имп" format="3"></var>
-<var  name="R0IN03CYK" description="(vchs:01 - K02cykl, RPU) цикл" format="8"></var>
+<var  name="R0IN03CYK" description="(vchs:02 - K01cykl, RPU) цикл" format="8"></var>
 <var  name="R0IN03TEM" description="(vchs:02 - K01temp, RPU) кол-во имп" format="3"></var>
 <var  name="METRP12" description="( - , RPU) Метр давление 1.2" format="8"></var>
 <var  name="VMETRP12" description="(vas84:06 - K06VASR, RPU) вход Метр Давленение 1.2" format="3"></var>

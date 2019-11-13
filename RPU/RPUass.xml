@@ -46,7 +46,6 @@
         <def name="R0DE01LRP">Diagn</def>
         <def name="R0IN02VRP">K02VCHS</def>
         <def name="R0IN01VRP">K01VCHS</def>
-        <def name="R0IN03CYK">K02cykl</def>
         <def name="R0IN02TEM">K02temp</def>
         <def name="R0IN02CYK">K02cykl</def>
     </VCHS01>
@@ -56,6 +55,7 @@
         <def name="R0DE02LRP">Diagn</def>
         <def name="R0IN03VRP">K01VCHS</def>
         <def name="R0IN03TEM">K01temp</def>
+        <def name="R0IN03CYK">K01cykl</def>
     </VCHS02>
 
 

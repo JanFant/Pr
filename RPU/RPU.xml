@@ -592,7 +592,7 @@
         </record>
         <record>
             <value name="name">R0IN03CYK</value>
-            <value name="description">( - K02cykl, RPU) цикл</value>
+            <value name="description">( - K01cykl, RPU) цикл</value>
             <value name="type">3</value>
             <value name="format">8</value>
             <value name="address">1</value>
