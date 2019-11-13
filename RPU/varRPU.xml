@@ -1,4 +1,5 @@
 <vars>
+<var  name="R0DE3DLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="R0DE3CLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 7" format="1"></var>
 <var  name="R0DE39LRP" description="(sbk:20 - S09SBK, DiagnRPU) диагностика шкафа РПУ МП24-2 место 4" format="1"></var>
 <var  name="R0DE38LRP" description="(sbk:20 - S08SBK, DiagnRPU) диагностика шкафа РПУ МП15-3 место 3" format="1"></var>
@@ -21,6 +22,7 @@
 <var  name="C1MZ31LRP" description="(vds32:07 - K07VDSR, - ) Кнопка ОБДУВ  на РПУ" format="1"></var>
 <var  name="C1MD31LRP" description="(vds32:07 - K06VDSR, - ) Кнопка ОБЩИЙ СБРОС  на РПУ" format="1"></var>
 <var  name="B3VS21LRP" description="(fds16:08 - K06FDSR, - ) Индикация - Приход на НУ ИС2" format="1"></var>
+<var  name="R0IN02CYK" description="(vchs:01 - K02cykl, RPU) цикл" format="8"></var>
 <var  name="R0IN02TEM" description="(vchs:01 - K02temp, RPU) кол-во имп" format="3"></var>
 <var  name="R0IN03CYK" description="(vchs:01 - K02cykl, RPU) цикл" format="8"></var>
 <var  name="R0IN03TEM" description="(vchs:02 - K01temp, RPU) кол-во имп" format="3"></var>
@@ -43,7 +45,6 @@
 <var  name="R0DEB1LRP" description="(sbk:20 - S10SBK, DiagnRPU) диагностика шкафа РПУ БП5 место 7" format="1"></var>
 <var  name="TTLrpu" description="( - , RPU) ttl" format="3"></var>
 <var  name="TestDiagnRPU" description="( - , RPU) Неисправность от диагностики" format="1"></var>
-<var  name="R0DE3DLRP" description="( - , DiagnRPU) диагностика шкафа РПУ БП5/24Д место 8" format="1"></var>
 <var  name="B0CT01IRP" description="( - , RPU) Температура АЗ2-3" format="8"></var>
 <var  name="R0ET02LRP" description="( - , RPU) Признак наличия неисправности по температуре АЗ2-3" format="1"></var>
 <var  name="B0IT03IRP" description="(vas84:06 - K02VASR, RPU) Температура АЗ2-3" format="3"></var>
