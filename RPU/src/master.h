@@ -7,7 +7,7 @@ static char SimulIP[]="192.168.10.12\0";
 static int SimulPort=5555;
 static int StepCycle=20;	 //Время цикла мс
 float takt,taktScheme=0,taktSS=0;
-#define SIZE_BUFFER 996
+#define SIZE_BUFFER 986
 static char BUFFER[SIZE_BUFFER];
 #include <fp8/UDPTransport.h>
 SetupUDP setUDP ={"192.168.10.31\0",5432,"192.168.10.131\0",5432,BUFFER,sizeof(BUFFER),};
@@ -278,185 +278,185 @@ int master=1,nomer=1;
 #define idinternal1_m155_flst	132	// (internal1_m155_flst) внутренний параметр
 #define internal1_m155_stepc	BUFFER[451]	// (internal1_m155_stepc) stepc - счетчик шагов
 #define idinternal1_m155_stepc	133	// (internal1_m155_stepc) stepc - счетчик шагов
-#define internal1_m155_x0	BUFFER[456]	// (internal1_m155_x0) x0 - массив мгновенных значений 
+#define internal1_m155_x0	BUFFER[454]	// (internal1_m155_x0) x0 - массив мгновенных значений 
 #define idinternal1_m155_x0	134	// (internal1_m155_x0) x0 - массив мгновенных значений 
-#define internal1_m155_xptr	BUFFER[506]	// (internal1_m155_xptr) указатель текущей позиции в массиве координат
+#define internal1_m155_xptr	BUFFER[504]	// (internal1_m155_xptr) указатель текущей позиции в массиве координат
 #define idinternal1_m155_xptr	135	// (internal1_m155_xptr) указатель текущей позиции в массиве координат
-#define internal1_m157_SumS	BUFFER[509]	// (internal1_m157_SumS) внутренний параметр
+#define internal1_m157_SumS	BUFFER[507]	// (internal1_m157_SumS) внутренний параметр
 #define idinternal1_m157_SumS	136	// (internal1_m157_SumS) внутренний параметр
-#define internal1_m157_flst	BUFFER[514]	// (internal1_m157_flst) внутренний параметр
+#define internal1_m157_flst	BUFFER[512]	// (internal1_m157_flst) внутренний параметр
 #define idinternal1_m157_flst	137	// (internal1_m157_flst) внутренний параметр
-#define internal1_m157_stepc	BUFFER[519]	// (internal1_m157_stepc) stepc - счетчик шагов
+#define internal1_m157_stepc	BUFFER[517]	// (internal1_m157_stepc) stepc - счетчик шагов
 #define idinternal1_m157_stepc	138	// (internal1_m157_stepc) stepc - счетчик шагов
-#define internal1_m157_x0	BUFFER[524]	// (internal1_m157_x0) x0 - массив мгновенных значений 
+#define internal1_m157_x0	BUFFER[520]	// (internal1_m157_x0) x0 - массив мгновенных значений 
 #define idinternal1_m157_x0	139	// (internal1_m157_x0) x0 - массив мгновенных значений 
-#define internal1_m157_xptr	BUFFER[574]	// (internal1_m157_xptr) указатель текущей позиции в массиве координат
+#define internal1_m157_xptr	BUFFER[570]	// (internal1_m157_xptr) указатель текущей позиции в массиве координат
 #define idinternal1_m157_xptr	140	// (internal1_m157_xptr) указатель текущей позиции в массиве координат
-#define internal1_m159_SumS	BUFFER[577]	// (internal1_m159_SumS) внутренний параметр
+#define internal1_m159_SumS	BUFFER[573]	// (internal1_m159_SumS) внутренний параметр
 #define idinternal1_m159_SumS	141	// (internal1_m159_SumS) внутренний параметр
-#define internal1_m159_flst	BUFFER[582]	// (internal1_m159_flst) внутренний параметр
+#define internal1_m159_flst	BUFFER[578]	// (internal1_m159_flst) внутренний параметр
 #define idinternal1_m159_flst	142	// (internal1_m159_flst) внутренний параметр
-#define internal1_m159_stepc	BUFFER[587]	// (internal1_m159_stepc) stepc - счетчик шагов
+#define internal1_m159_stepc	BUFFER[583]	// (internal1_m159_stepc) stepc - счетчик шагов
 #define idinternal1_m159_stepc	143	// (internal1_m159_stepc) stepc - счетчик шагов
-#define internal1_m159_x0	BUFFER[592]	// (internal1_m159_x0) x0 - массив мгновенных значений 
+#define internal1_m159_x0	BUFFER[586]	// (internal1_m159_x0) x0 - массив мгновенных значений 
 #define idinternal1_m159_x0	144	// (internal1_m159_x0) x0 - массив мгновенных значений 
-#define internal1_m159_xptr	BUFFER[642]	// (internal1_m159_xptr) указатель текущей позиции в массиве координат
+#define internal1_m159_xptr	BUFFER[636]	// (internal1_m159_xptr) указатель текущей позиции в массиве координат
 #define idinternal1_m159_xptr	145	// (internal1_m159_xptr) указатель текущей позиции в массиве координат
-#define internal1_m172_SumS	BUFFER[645]	// (internal1_m172_SumS) внутренний параметр
+#define internal1_m172_SumS	BUFFER[639]	// (internal1_m172_SumS) внутренний параметр
 #define idinternal1_m172_SumS	146	// (internal1_m172_SumS) внутренний параметр
-#define internal1_m172_flst	BUFFER[650]	// (internal1_m172_flst) внутренний параметр
+#define internal1_m172_flst	BUFFER[644]	// (internal1_m172_flst) внутренний параметр
 #define idinternal1_m172_flst	147	// (internal1_m172_flst) внутренний параметр
-#define internal1_m172_stepc	BUFFER[655]	// (internal1_m172_stepc) stepc - счетчик шагов
+#define internal1_m172_stepc	BUFFER[649]	// (internal1_m172_stepc) stepc - счетчик шагов
 #define idinternal1_m172_stepc	148	// (internal1_m172_stepc) stepc - счетчик шагов
-#define internal1_m172_x0	BUFFER[660]	// (internal1_m172_x0) x0 - массив мгновенных значений 
+#define internal1_m172_x0	BUFFER[652]	// (internal1_m172_x0) x0 - массив мгновенных значений 
 #define idinternal1_m172_x0	149	// (internal1_m172_x0) x0 - массив мгновенных значений 
-#define internal1_m172_xptr	BUFFER[710]	// (internal1_m172_xptr) указатель текущей позиции в массиве координат
+#define internal1_m172_xptr	BUFFER[702]	// (internal1_m172_xptr) указатель текущей позиции в массиве координат
 #define idinternal1_m172_xptr	150	// (internal1_m172_xptr) указатель текущей позиции в массиве координат
-#define internal1_m174_SumS	BUFFER[713]	// (internal1_m174_SumS) внутренний параметр
+#define internal1_m174_SumS	BUFFER[705]	// (internal1_m174_SumS) внутренний параметр
 #define idinternal1_m174_SumS	151	// (internal1_m174_SumS) внутренний параметр
-#define internal1_m174_flst	BUFFER[718]	// (internal1_m174_flst) внутренний параметр
+#define internal1_m174_flst	BUFFER[710]	// (internal1_m174_flst) внутренний параметр
 #define idinternal1_m174_flst	152	// (internal1_m174_flst) внутренний параметр
-#define internal1_m174_stepc	BUFFER[723]	// (internal1_m174_stepc) stepc - счетчик шагов
+#define internal1_m174_stepc	BUFFER[715]	// (internal1_m174_stepc) stepc - счетчик шагов
 #define idinternal1_m174_stepc	153	// (internal1_m174_stepc) stepc - счетчик шагов
-#define internal1_m174_x0	BUFFER[728]	// (internal1_m174_x0) x0 - массив мгновенных значений 
+#define internal1_m174_x0	BUFFER[718]	// (internal1_m174_x0) x0 - массив мгновенных значений 
 #define idinternal1_m174_x0	154	// (internal1_m174_x0) x0 - массив мгновенных значений 
-#define internal1_m174_xptr	BUFFER[778]	// (internal1_m174_xptr) указатель текущей позиции в массиве координат
+#define internal1_m174_xptr	BUFFER[768]	// (internal1_m174_xptr) указатель текущей позиции в массиве координат
 #define idinternal1_m174_xptr	155	// (internal1_m174_xptr) указатель текущей позиции в массиве координат
-#define internal1_m180_y0	BUFFER[781]	// (internal1_m180_y0) y0
+#define internal1_m180_y0	BUFFER[771]	// (internal1_m180_y0) y0
 #define idinternal1_m180_y0	156	// (internal1_m180_y0) y0
-#define internal1_m181_y0	BUFFER[786]	// (internal1_m181_y0) y0
+#define internal1_m181_y0	BUFFER[776]	// (internal1_m181_y0) y0
 #define idinternal1_m181_y0	157	// (internal1_m181_y0) y0
-#define internal1_m59_tx	BUFFER[791]	// (internal1_m59_tx) tx - время накопленное сек
+#define internal1_m59_tx	BUFFER[781]	// (internal1_m59_tx) tx - время накопленное сек
 #define idinternal1_m59_tx	158	// (internal1_m59_tx) tx - время накопленное сек
-#define internal1_m59_y0	BUFFER[796]	// (internal1_m59_y0) y0
+#define internal1_m59_y0	BUFFER[786]	// (internal1_m59_y0) y0
 #define idinternal1_m59_y0	159	// (internal1_m59_y0) y0
-#define internal1_m67_tx	BUFFER[798]	// (internal1_m67_tx) tx - время накопленное сек
+#define internal1_m67_tx	BUFFER[788]	// (internal1_m67_tx) tx - время накопленное сек
 #define idinternal1_m67_tx	160	// (internal1_m67_tx) tx - время накопленное сек
-#define internal1_m67_y0	BUFFER[803]	// (internal1_m67_y0) y0
+#define internal1_m67_y0	BUFFER[793]	// (internal1_m67_y0) y0
 #define idinternal1_m67_y0	161	// (internal1_m67_y0) y0
-#define internal1_m73_y0	BUFFER[805]	// (internal1_m73_y0) y0
+#define internal1_m73_y0	BUFFER[795]	// (internal1_m73_y0) y0
 #define idinternal1_m73_y0	162	// (internal1_m73_y0) y0
-#define internal1_m75_y0	BUFFER[810]	// (internal1_m75_y0) y0
+#define internal1_m75_y0	BUFFER[800]	// (internal1_m75_y0) y0
 #define idinternal1_m75_y0	163	// (internal1_m75_y0) y0
-#define internal1_m87_y1	BUFFER[815]	// (internal1_m87_y1) y1 - внутренний параметр
+#define internal1_m87_y1	BUFFER[805]	// (internal1_m87_y1) y1 - внутренний параметр
 #define idinternal1_m87_y1	164	// (internal1_m87_y1) y1 - внутренний параметр
-#define internal1_m89_y1	BUFFER[817]	// (internal1_m89_y1) y1 - внутренний параметр
+#define internal1_m89_y1	BUFFER[807]	// (internal1_m89_y1) y1 - внутренний параметр
 #define idinternal1_m89_y1	165	// (internal1_m89_y1) y1 - внутренний параметр
-#define vainSBool	BUFFER[819]	// Внутренняя переменная vainSBool
+#define vainSBool	BUFFER[809]	// Внутренняя переменная vainSBool
 #define idvainSBool	166	// Внутренняя переменная vainSBool
-#define vainSFloat	BUFFER[821]	// Внутренняя переменная vainSFloat
+#define vainSFloat	BUFFER[811]	// Внутренняя переменная vainSFloat
 #define idvainSFloat	167	// Внутренняя переменная vainSFloat
-#define vainSInt	BUFFER[826]	// Внутренняя переменная vainSInt
+#define vainSInt	BUFFER[816]	// Внутренняя переменная vainSInt
 #define idvainSInt	168	// Внутренняя переменная vainSInt
-#define vainSLong	BUFFER[831]	// Внутренняя переменная vainSLong
+#define vainSLong	BUFFER[821]	// Внутренняя переменная vainSLong
 #define idvainSLong	169	// Внутренняя переменная vainSLong
-#define var1	BUFFER[840]	// Внутренняя переменная var1
+#define var1	BUFFER[830]	// Внутренняя переменная var1
 #define idvar1	170	// Внутренняя переменная var1
-#define var10	BUFFER[845]	// Внутренняя переменная var10
+#define var10	BUFFER[835]	// Внутренняя переменная var10
 #define idvar10	171	// Внутренняя переменная var10
-#define var11	BUFFER[847]	// Внутренняя переменная var11
+#define var11	BUFFER[837]	// Внутренняя переменная var11
 #define idvar11	172	// Внутренняя переменная var11
-#define var12	BUFFER[849]	// Внутренняя переменная var12
+#define var12	BUFFER[839]	// Внутренняя переменная var12
 #define idvar12	173	// Внутренняя переменная var12
-#define var13	BUFFER[851]	// Внутренняя переменная var13
+#define var13	BUFFER[841]	// Внутренняя переменная var13
 #define idvar13	174	// Внутренняя переменная var13
-#define var14	BUFFER[853]	// Внутренняя переменная var14
+#define var14	BUFFER[843]	// Внутренняя переменная var14
 #define idvar14	175	// Внутренняя переменная var14
-#define var15	BUFFER[855]	// Внутренняя переменная var15
+#define var15	BUFFER[845]	// Внутренняя переменная var15
 #define idvar15	176	// Внутренняя переменная var15
-#define var16	BUFFER[857]	// Внутренняя переменная var16
+#define var16	BUFFER[847]	// Внутренняя переменная var16
 #define idvar16	177	// Внутренняя переменная var16
-#define var17	BUFFER[862]	// Внутренняя переменная var17
+#define var17	BUFFER[852]	// Внутренняя переменная var17
 #define idvar17	178	// Внутренняя переменная var17
-#define var18	BUFFER[867]	// Внутренняя переменная var18
+#define var18	BUFFER[857]	// Внутренняя переменная var18
 #define idvar18	179	// Внутренняя переменная var18
-#define var19	BUFFER[872]	// Внутренняя переменная var19
+#define var19	BUFFER[862]	// Внутренняя переменная var19
 #define idvar19	180	// Внутренняя переменная var19
-#define var2	BUFFER[874]	// Внутренняя переменная var2
+#define var2	BUFFER[864]	// Внутренняя переменная var2
 #define idvar2	181	// Внутренняя переменная var2
-#define var20	BUFFER[879]	// Внутренняя переменная var20
+#define var20	BUFFER[869]	// Внутренняя переменная var20
 #define idvar20	182	// Внутренняя переменная var20
-#define var21	BUFFER[884]	// Внутренняя переменная var21
+#define var21	BUFFER[874]	// Внутренняя переменная var21
 #define idvar21	183	// Внутренняя переменная var21
-#define var22	BUFFER[889]	// Внутренняя переменная var22
+#define var22	BUFFER[879]	// Внутренняя переменная var22
 #define idvar22	184	// Внутренняя переменная var22
-#define var23	BUFFER[894]	// Внутренняя переменная var23
+#define var23	BUFFER[884]	// Внутренняя переменная var23
 #define idvar23	185	// Внутренняя переменная var23
-#define var24	BUFFER[899]	// Внутренняя переменная var24
+#define var24	BUFFER[889]	// Внутренняя переменная var24
 #define idvar24	186	// Внутренняя переменная var24
-#define var25	BUFFER[901]	// Внутренняя переменная var25
+#define var25	BUFFER[891]	// Внутренняя переменная var25
 #define idvar25	187	// Внутренняя переменная var25
-#define var26	BUFFER[903]	// Внутренняя переменная var26
+#define var26	BUFFER[893]	// Внутренняя переменная var26
 #define idvar26	188	// Внутренняя переменная var26
-#define var27	BUFFER[905]	// Внутренняя переменная var27
+#define var27	BUFFER[895]	// Внутренняя переменная var27
 #define idvar27	189	// Внутренняя переменная var27
-#define var28	BUFFER[907]	// Внутренняя переменная var28
+#define var28	BUFFER[897]	// Внутренняя переменная var28
 #define idvar28	190	// Внутренняя переменная var28
-#define var29	BUFFER[909]	// Внутренняя переменная var29
+#define var29	BUFFER[899]	// Внутренняя переменная var29
 #define idvar29	191	// Внутренняя переменная var29
-#define var3	BUFFER[911]	// Внутренняя переменная var3
+#define var3	BUFFER[901]	// Внутренняя переменная var3
 #define idvar3	192	// Внутренняя переменная var3
-#define var30	BUFFER[916]	// Внутренняя переменная var30
+#define var30	BUFFER[906]	// Внутренняя переменная var30
 #define idvar30	193	// Внутренняя переменная var30
-#define var31	BUFFER[918]	// Внутренняя переменная var31
+#define var31	BUFFER[908]	// Внутренняя переменная var31
 #define idvar31	194	// Внутренняя переменная var31
-#define var32	BUFFER[920]	// Внутренняя переменная var32
+#define var32	BUFFER[910]	// Внутренняя переменная var32
 #define idvar32	195	// Внутренняя переменная var32
-#define var33	BUFFER[922]	// Внутренняя переменная var33
+#define var33	BUFFER[912]	// Внутренняя переменная var33
 #define idvar33	196	// Внутренняя переменная var33
-#define var35	BUFFER[924]	// Внутренняя переменная var35
+#define var35	BUFFER[914]	// Внутренняя переменная var35
 #define idvar35	197	// Внутренняя переменная var35
-#define var37	BUFFER[926]	// Внутренняя переменная var37
+#define var37	BUFFER[916]	// Внутренняя переменная var37
 #define idvar37	198	// Внутренняя переменная var37
-#define var38	BUFFER[928]	// Внутренняя переменная var38
+#define var38	BUFFER[918]	// Внутренняя переменная var38
 #define idvar38	199	// Внутренняя переменная var38
-#define var39	BUFFER[930]	// Внутренняя переменная var39
+#define var39	BUFFER[920]	// Внутренняя переменная var39
 #define idvar39	200	// Внутренняя переменная var39
-#define var4	BUFFER[932]	// Внутренняя переменная var4
+#define var4	BUFFER[922]	// Внутренняя переменная var4
 #define idvar4	201	// Внутренняя переменная var4
-#define var40	BUFFER[937]	// Внутренняя переменная var40
+#define var40	BUFFER[927]	// Внутренняя переменная var40
 #define idvar40	202	// Внутренняя переменная var40
-#define var41	BUFFER[939]	// Внутренняя переменная var41
+#define var41	BUFFER[929]	// Внутренняя переменная var41
 #define idvar41	203	// Внутренняя переменная var41
-#define var42	BUFFER[941]	// Внутренняя переменная var42
+#define var42	BUFFER[931]	// Внутренняя переменная var42
 #define idvar42	204	// Внутренняя переменная var42
-#define var43	BUFFER[946]	// Внутренняя переменная var43
+#define var43	BUFFER[936]	// Внутренняя переменная var43
 #define idvar43	205	// Внутренняя переменная var43
-#define var45	BUFFER[951]	// Внутренняя переменная var45
+#define var45	BUFFER[941]	// Внутренняя переменная var45
 #define idvar45	206	// Внутренняя переменная var45
-#define var46	BUFFER[953]	// Внутренняя переменная var46
+#define var46	BUFFER[943]	// Внутренняя переменная var46
 #define idvar46	207	// Внутренняя переменная var46
-#define var48	BUFFER[955]	// Внутренняя переменная var48
+#define var48	BUFFER[945]	// Внутренняя переменная var48
 #define idvar48	208	// Внутренняя переменная var48
-#define var49	BUFFER[957]	// Внутренняя переменная var49
+#define var49	BUFFER[947]	// Внутренняя переменная var49
 #define idvar49	209	// Внутренняя переменная var49
-#define var5	BUFFER[959]	// Внутренняя переменная var5
+#define var5	BUFFER[949]	// Внутренняя переменная var5
 #define idvar5	210	// Внутренняя переменная var5
-#define var50	BUFFER[964]	// Внутренняя переменная var50
+#define var50	BUFFER[954]	// Внутренняя переменная var50
 #define idvar50	211	// Внутренняя переменная var50
-#define var51	BUFFER[966]	// Внутренняя переменная var51
+#define var51	BUFFER[956]	// Внутренняя переменная var51
 #define idvar51	212	// Внутренняя переменная var51
-#define var52	BUFFER[968]	// Внутренняя переменная var52
+#define var52	BUFFER[958]	// Внутренняя переменная var52
 #define idvar52	213	// Внутренняя переменная var52
-#define var53	BUFFER[970]	// Внутренняя переменная var53
+#define var53	BUFFER[960]	// Внутренняя переменная var53
 #define idvar53	214	// Внутренняя переменная var53
-#define var54	BUFFER[972]	// Внутренняя переменная var54
+#define var54	BUFFER[962]	// Внутренняя переменная var54
 #define idvar54	215	// Внутренняя переменная var54
-#define var55	BUFFER[974]	// Внутренняя переменная var55
+#define var55	BUFFER[964]	// Внутренняя переменная var55
 #define idvar55	216	// Внутренняя переменная var55
-#define var56	BUFFER[976]	// Внутренняя переменная var56
+#define var56	BUFFER[966]	// Внутренняя переменная var56
 #define idvar56	217	// Внутренняя переменная var56
-#define var57	BUFFER[978]	// Внутренняя переменная var57
+#define var57	BUFFER[968]	// Внутренняя переменная var57
 #define idvar57	218	// Внутренняя переменная var57
-#define var58	BUFFER[980]	// Внутренняя переменная var58
+#define var58	BUFFER[970]	// Внутренняя переменная var58
 #define idvar58	219	// Внутренняя переменная var58
-#define var6	BUFFER[982]	// Внутренняя переменная var6
+#define var6	BUFFER[972]	// Внутренняя переменная var6
 #define idvar6	220	// Внутренняя переменная var6
-#define var7	BUFFER[987]	// Внутренняя переменная var7
+#define var7	BUFFER[977]	// Внутренняя переменная var7
 #define idvar7	221	// Внутренняя переменная var7
-#define var8	BUFFER[992]	// Внутренняя переменная var8
+#define var8	BUFFER[982]	// Внутренняя переменная var8
 #define idvar8	222	// Внутренняя переменная var8
-#define var9	BUFFER[994]	// Внутренняя переменная var9
+#define var9	BUFFER[984]	// Внутренняя переменная var9
 #define idvar9	223	// Внутренняя переменная var9
 #pragma pack(push,1)
 static VarCtrl allVariables[]={ 			 //Описание всех переменных
@@ -592,27 +592,27 @@ static VarCtrl allVariables[]={ 			 //Описание всех переменн
 	{130	,3	,1	,&internal1_m11_Nk},	//(internal1_m11_Nk) Nk - ведущая камера
 	{131	,8	,1	,&internal1_m155_SumS},	//(internal1_m155_SumS) внутренний параметр
 	{132	,8	,1	,&internal1_m155_flst},	//(internal1_m155_flst) внутренний параметр
-	{133	,8	,1	,&internal1_m155_stepc},	//(internal1_m155_stepc) stepc - счетчик шагов
+	{133	,3	,1	,&internal1_m155_stepc},	//(internal1_m155_stepc) stepc - счетчик шагов
 	{134	,8	,10	,&internal1_m155_x0},	//(internal1_m155_x0) x0 - массив мгновенных значений 
 	{135	,3	,1	,&internal1_m155_xptr},	//(internal1_m155_xptr) указатель текущей позиции в массиве координат
 	{136	,8	,1	,&internal1_m157_SumS},	//(internal1_m157_SumS) внутренний параметр
 	{137	,8	,1	,&internal1_m157_flst},	//(internal1_m157_flst) внутренний параметр
-	{138	,8	,1	,&internal1_m157_stepc},	//(internal1_m157_stepc) stepc - счетчик шагов
+	{138	,3	,1	,&internal1_m157_stepc},	//(internal1_m157_stepc) stepc - счетчик шагов
 	{139	,8	,10	,&internal1_m157_x0},	//(internal1_m157_x0) x0 - массив мгновенных значений 
 	{140	,3	,1	,&internal1_m157_xptr},	//(internal1_m157_xptr) указатель текущей позиции в массиве координат
 	{141	,8	,1	,&internal1_m159_SumS},	//(internal1_m159_SumS) внутренний параметр
 	{142	,8	,1	,&internal1_m159_flst},	//(internal1_m159_flst) внутренний параметр
-	{143	,8	,1	,&internal1_m159_stepc},	//(internal1_m159_stepc) stepc - счетчик шагов
+	{143	,3	,1	,&internal1_m159_stepc},	//(internal1_m159_stepc) stepc - счетчик шагов
 	{144	,8	,10	,&internal1_m159_x0},	//(internal1_m159_x0) x0 - массив мгновенных значений 
 	{145	,3	,1	,&internal1_m159_xptr},	//(internal1_m159_xptr) указатель текущей позиции в массиве координат
 	{146	,8	,1	,&internal1_m172_SumS},	//(internal1_m172_SumS) внутренний параметр
 	{147	,8	,1	,&internal1_m172_flst},	//(internal1_m172_flst) внутренний параметр
-	{148	,8	,1	,&internal1_m172_stepc},	//(internal1_m172_stepc) stepc - счетчик шагов
+	{148	,3	,1	,&internal1_m172_stepc},	//(internal1_m172_stepc) stepc - счетчик шагов
 	{149	,8	,10	,&internal1_m172_x0},	//(internal1_m172_x0) x0 - массив мгновенных значений 
 	{150	,3	,1	,&internal1_m172_xptr},	//(internal1_m172_xptr) указатель текущей позиции в массиве координат
 	{151	,8	,1	,&internal1_m174_SumS},	//(internal1_m174_SumS) внутренний параметр
 	{152	,8	,1	,&internal1_m174_flst},	//(internal1_m174_flst) внутренний параметр
-	{153	,8	,1	,&internal1_m174_stepc},	//(internal1_m174_stepc) stepc - счетчик шагов
+	{153	,3	,1	,&internal1_m174_stepc},	//(internal1_m174_stepc) stepc - счетчик шагов
 	{154	,8	,10	,&internal1_m174_x0},	//(internal1_m174_x0) x0 - массив мгновенных значений 
 	{155	,3	,1	,&internal1_m174_xptr},	//(internal1_m174_xptr) указатель текущей позиции в массиве координат
 	{156	,8	,1	,&internal1_m180_y0},	//(internal1_m180_y0) y0
